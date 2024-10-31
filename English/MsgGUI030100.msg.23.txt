@@ -1,0 +1,1358 @@
+﻿<string>Options
+<string><REF RefButton_0000>
+<string><REF RefButton_0001>
+<string><REF RefButton_0012>
+<string>Reset Selected to Default
+<string>Reset All to Default
+<string>Reset the selected options to default settings?
+<string>Reset all options to default settings?
+<string>All
+<string><PLATMSG MsgGUI030100_0401>
+<string>Shared + Controller
+<string>Shared + Keyboard/Mouse
+<string>Automatically adjusts certain options to the following recommended<lf>settings. Options that will be changed from their current settings<lf>are highlighted. <COLOR preset="TXT_Accent">(Individual changes cannot be made on this screen.)</COLOR>
+<string>Use Recommended Settings
+<string>Selecting <COLOR preset="TXT_Accent">Use Recommended Settings</COLOR> automatically<lf>adjusts each item to their recommended setting.
+<string>Game Settings
+<string>Controls
+<string>Camera
+<string>Display
+<string>Audio
+<string>INTERFACE
+<string>Graphics
+<string>Accessibility
+<string>Language
+<string>PRIVACY
+<string>Confirm Button
+<string>Adjusts which button is used as the confirm button.
+<string><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string>Uses <ICON PAD UI_DUMMY_ICON_RDOWN> as the confirm button.
+<string><ICON PAD UI_DUMMY_ICON_RRIGHT>
+<string>Uses <ICON PAD UI_DUMMY_ICON_RRIGHT> as the confirm button.
+<string>Dash Controls
+<string>Adjusts which button is used to dash.<lf><COLOR preset="TXT_Accent">(This does not affect Seikret controls.)</COLOR>
+<string>Only Use <ICON PAD PL_DASH_TOGGLE>
+<string>Uses <ICON PAD PL_DASH_TOGGLE> to toggle dashing on/off. Press once<lf>to begin dashing; press again to stop dashing.
+<string>Only Use <ICON PAD PL_DASH>
+<string>Uses <ICON PAD PL_DASH> to dash.
+<string>Use Both <ICON PAD PL_DASH_TOGGLE> & <ICON PAD PL_DASH>
+<string>Uses both <ICON PAD PL_DASH_TOGGLE> and <ICON PAD PL_DASH> to dash.
+<string>Swap <ICON PAD UI_DUMMY_ICON_LB> Functions and <ICON PAD UI_DUMMY_ICON_RB> Functions
+<string>Swaps the functions of <ICON PAD UI_DUMMY_ICON_LB> with <ICON PAD UI_DUMMY_ICON_LT>,<lf>as well as the functions of <ICON PAD UI_DUMMY_ICON_RB> with <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Do Not Swap
+<string>Does not swap the functions of the buttons.
+<string>Only Swap <ICON PAD UI_DUMMY_ICON_LB> with <ICON PAD UI_DUMMY_ICON_LT>
+<string>Swaps the functions of <ICON PAD UI_DUMMY_ICON_LB> with the functions<lf>of <ICON PAD UI_DUMMY_ICON_LT>.
+<string>Only Swap <ICON PAD UI_DUMMY_ICON_RB> with <ICON PAD UI_DUMMY_ICON_RT>
+<string>Swaps the functions of <ICON PAD UI_DUMMY_ICON_RB> with the functions<lf>of <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Swap Both
+<string>Swaps the functions of <ICON PAD UI_DUMMY_ICON_LB> with <ICON PAD UI_DUMMY_ICON_LT>,<lf>as well as the functions of <ICON PAD UI_DUMMY_ICON_RB> with <ICON PAD UI_DUMMY_ICON_RT>.
+<string><PLATMSG MsgGUI030100_01_45>
+<string>Button Configurations
+<string><PLATMSG MsgGUI030100_01_45_HELP>
+<string>Adjusts the assignments of certain buttons<lf>or button combinations.
+<string>Type 1
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Calls Seikret, Switches Weapons, etc.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Selects Radial Menu Shortcut<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Navigates Item Bar & Ammo/Coatings Bar
+<string>Type 2
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Navigates Item Bar & Ammo/Coatings Bar<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Calls Seikret, Switch Weapons, etc.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Selects Radial Menu Shortcut
+<string>Type 3
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Calls Seikret, Switches Weapons, etc.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Navigates Item Bar & Ammo/Coatings Bar<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Selects Radial Menu Shortcut
+<string>Type 4
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Navigates Item Bar & Ammo/Coatings Bar<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Selects Radial Menu Shortcut<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Calls Seikret, Switches Weapons, etc.
+<string>Hold Confirmation Duration
+<string>Adjusts how long you need to hold the button<lf>before confirming certain actions, such as<lf>calling your Seikret or skipping an event.
+<string>Short
+<string>Requires only a short amount of time for<lf>an action to be confirmed.
+<string>Default
+<string>Requires the default amount of time for<lf>an action to be confirmed.
+<string>Long
+<string>Requires a longer amount of time for<lf>an action to be confirmed.
+<string>Auto Sheathe
+<string>Adjusts whether your weapon is automatically sheathed <lf>once a set amount of time passes after drawing it.
+<string>Enable Auto Sheathe
+<string>Automatically sheathes your weapon after not<lf>dodging or attacking for a certain amount of<lf>time. Will not take effect while in battle.
+<string>Disable Auto Sheathe
+<string>Does not automatically sheathe your weapon.
+<string>Directional Control
+<string><PLATMSG MsgGUI030100_01_03_Help>
+<string>Adjusts directional controls for actions<lf>such as evading after an attack.<lf><COLOR preset="TXT_Accent">(Controller)</COLOR>
+<string>Type 1
+<string>- Tilting <ICON PAD PL_DUMMY_MOVE> up moves the Hunter<lf>in the direction the camera is facing.<lf><lf>- Tilting <ICON PAD PL_DUMMY_MOVE> down moves the Hunter<lf>towards the screen.
+<string>Type 2
+<string>- Tilting <ICON PAD PL_DUMMY_MOVE> up moves the Hunter<lf>in the direction they are facing.<lf><lf>- Tilting <ICON PAD PL_DUMMY_MOVE> down moves the Hunter<lf>in the opposite direction they are facing.
+<string>Directional Controls
+<string>Adjusts directional controls for actions<lf>such as evading after an attack.<lf><COLOR preset="TXT_Accent">(Keyboard)</COLOR>
+<string>Type 1
+<string>- Pressing <ICON MKB PL_MOVE_FRONT> moves the Hunter<lf>in the direction the camera is facing.<lf><lf>- Pressing <ICON MKB PL_MOVE_BACK> moves the Hunter<lf>towards the screen.
+<string>Type 2
+<string>- Pressing <ICON MKB PL_MOVE_FRONT> moves the Hunter<lf>in the direction they are facing.<lf><lf>- Pressing <ICON MKB PL_MOVE_BACK> moves the Hunter<lf>in the opposite direction they are facing.
+<string>Seikret Control Settings
+<string>Adjusts controls for Seikret.
+<string>Call Seikret Controls
+<string>Adjusts the controls for calling your Seikret.
+<string>Type 1
+<string>Calls Seikret with <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL> or a Custom Radial<lf>Menu Shortcut.
+<string>Type 2
+<string>In addition to Type 1 controls, holding <ICON PAD PL_PT_CALL_KEEP>,<lf>with your weapon sheathed, calls your Seikret<lf>in Auto-move Mode.
+<string>Type 3
+<string>In addition to Type 1 controls, holding <ICON PAD PL_PT_CALL_KEEP>,<lf>with your weapon sheathed, calls your Seikret<lf>in Manual Movement Mode.
+<string>Call Seikret Controls (Radial Menu)
+<string>Adjusts the default control settings for calling<lf>your Seikret with the Custom Radial Menu.
+<string>Auto-move
+<string>Using <COLOR preset="TXT_Accent">Call Seikret</COLOR> in the Custom Radial Menu,<lf>calls your Seikret in Auto-move Mode.
+<string>Manual Movement
+<string>Using <COLOR preset="TXT_Accent">Call Seikret</COLOR> in the Custom Radial Menu,<lf>calls your Seikret in Manual Movement mode.
+<string>Seikret Manual Controls
+<string>Adjust Seikret controls while in Manual Movement mode.
+<string>Type 1
+<string>Similar to Auto-move; pressing nothing maintains<lf>current speed, pressing <ICON PAD PL_PT_SPEED_UP> increases speed, <ICON PAD PL_PT_SPEED_DOWN><lf>decreases speed, and holding <ICON PAD PL_PT_SPEED_DOWN> brings your<lf>Seikret to a stop.
+<string>Type 2
+<string>Similar to Hunter controls, uses <ICON PAD PL_DUMMY_MOVE> to move.<lf>Speed is determined by the angle in which <ICON PAD PL_DUMMY_MOVE><lf>is tilted.
+<string>Seikret-only Route Controls
+<string>Adjusts the controls for exiting routes that<lf>are only accessible by Seikret.
+<string>Type 1
+<string>Tilting <ICON PAD PL_DUMMY_MOVE> while moving at top speed exits<lf>the Seikret-only route.
+<string>Type 2
+<string>Tilting <ICON PAD PL_DUMMY_MOVE> then pressing <ICON PAD PL_INTERACT_ACTION_START> exits the Seikret-<lf>only route, no matter your current speed.
+<string>Item Controls
+<string>Adjust the settings for Item Bar and Custom<lf>Radial Menu loadout navigation.
+<string>Type 1
+<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> navigates the Item Bar
+<string>Type 2
+<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> switches between Custom Radial Menu loadouts
+<string>Item Bar Controls
+<string>Adjusts the control settings for the Item Bar.
+<string>Expanded Item Bar
+<string>Adjusts the settings for the expanded Item Bar.
+<string>Enable
+<string>Enables the expanded view of the Item Bar.
+<string>Disable
+<string>Disables the expanded view of the Item Bar.
+<string>Expanded Item Bar Controls
+<string><PLATMSG MsgGUI030100_01_16_HELP>
+<string>Adjusts the controls for displaying the expanded<lf>Item Bar. <COLOR preset="TXT_Accent">(Controller)</COLOR>
+<string>Type 1
+<string><ICON PAD UI_ITEM_ALL_OPT1> while <ICON PAD PL_ITEM_SLIDER_OPEN> toggles between the expanded<lf>Item Bar and the normal Item Bar.
+<string>Type 2
+<string><ICON PAD UI_ITEM_ALL_OPT2> while <ICON PAD PL_ITEM_SLIDER_OPEN> toggles between the expanded<lf>Item Bar and the normal Item Bar
+<string>Type 3
+<string><ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN> keeps the expanded Item Bar<lf>displayed.
+<string>Type 4
+<string><ICON PAD UI_ITEM_ALL_OPT4> while <ICON PAD PL_ITEM_SLIDER_OPEN> toggles between the expanded<lf>Item Bar and the normal Item Bar.
+<string>Type 5
+<string>Expanded Item Bar display is disabled.
+<string>Expanded Item Bar Controls
+<string>Adjusts the controls for displaying the expanded<lf>Item Bar. <COLOR preset="TXT_Accent">(Keyboard)</COLOR>
+<string>Type 1
+<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE> while <ICON MKB PL_ITEM_SLIDER_OPEN> toggles between the expanded<lf>Item Bar and the normal Item Bar.
+<string>Type 2
+<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN> keeps the expanded Item Bar<lf>displayed.
+<string>Type 3
+<string>Does not display the expanded Item Bar<lf>with keyboard input.
+<string>Expanded Item Bar Cursor Speed
+<string><PLATMSG MsgGUI030100_01_01_Help>
+<string>Adjusts cursor movement speed for stick controls while<lf>the Item Bar is fully displayed.
+<string>Slow
+<string>Decreases cursor movement speed.
+<string>Default
+<string>Maintains the default cursor movement speed.
+<string>Fast
+<string>Increases cursor movement speed.
+<string>Expanded Item Bar Stacking
+<string>Adjusts how the expanded Item Bar displays<lf>vertically stacked items.
+<string>Displays All Stacks
+<string>Displays the vertically stacked items for all<lf>visible items.
+<string>Selected Stack Only
+<string>Displays vertically stacked items for only<lf>the currently selected item.
+<string>Expanded Item Bar Controls (Select Item)
+<string>Adjust the controls for selecting items in<lf>the expanded Item Bar with <ICON PAD UI_ITEM_LEFT> and <ICON PAD UI_ITEM_RIGHT>.
+<string>Enable
+<string>Enables the use of <ICON PAD UI_ITEM_LEFT> and <ICON PAD UI_ITEM_RIGHT> to select items<lf>in the expanded Item Bar.
+<string>Disable
+<string>Disables the use of <ICON PAD UI_ITEM_LEFT> and <ICON PAD UI_ITEM_RIGHT> to select items<lf>in the expanded Item Bar.
+<string>Expanded Item Bar Controls (Ammo/Coatings)
+<string>Adjusts the controls for selecting ammo/coatings<lf>in the expanded Item Bar with <ICON PAD UI_BULLET_ITEM_UP> and <ICON PAD UI_BULLET_ITEM_DOWN>.
+<string>Enable
+<string>Enables the use of <ICON PAD UI_BULLET_ITEM_UP> and <ICON PAD UI_BULLET_ITEM_DOWN> to select ammo/coatings<lf>in the expanded Item Bar.
+<string>Disable
+<string>Disables the use of <ICON PAD UI_BULLET_ITEM_UP> and <ICON PAD UI_BULLET_ITEM_DOWN> to select ammo/coatings<lf>in the expanded Item Bar.
+<string>Expanded Item Bar Controls (Use Item)
+<string>Adjusts the controls for using items in the<lf>expanded Item Bar with <ICON PAD UI_ITEM_USE>.
+<string>Enable
+<string>Enables the use of <ICON PAD UI_ITEM_USE> to use items in the<lf>expanded Item Bar.
+<string>Disable
+<string>Disables the use of <ICON PAD UI_ITEM_USE> to use items in the<lf>expanded Item Bar.
+<string><PLATMSG MsgGUI030100_01_48>
+<string>Expanded View Directional Button Controls
+<string><PLATMSG MsgGUI030100_01_48_HELP>
+<string>Select a preset directional button configuration<lf>for when the Item Bar is fully opened.
+<string>Type 1
+<string><PLATMSG MsgGUI030100_01_48_00_HELP>
+<string>Adhere to the selected setting in Directional<lf>Button and Button Configurations.<lf>While the Item Bar is fully open, the directional<lf>buttons will assume the function assigned to<lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET>.
+<string>Type 2
+<string><PLATMSG MsgGUI030100_01_48_01_HELP>
+<string>The directional buttons will always navigate<lf>within the Item Bar while the Item Bar<lf>is fully open.
+<string>Type 3
+<string><PLATMSG MsgGUI030100_01_48_02_HELP>
+<string>The directional buttons will always navigate<lf>within the Item Bar and Ammo Bar<lf>while the Item Bar is fully open.
+<string>Type 4
+<string><PLATMSG MsgGUI030100_01_48_03_HELP>
+<string>Disable the directional buttons while the<lf>Item Bar is fully open.
+<string>Expanded View <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> Controls
+<string>Select a preset <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> configuration for when the Item Bar is fully open.
+<string>Type 1
+<string><PLATMSG MsgGUI030100_01_49_00_HELP>
+<string>Adhere to the selected setting in<lf>Directional Button and Button<lf>Configurations. While the Item Bar<lf>is fully open, <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> will<lf>assume the functions assigned to<lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>.
+<string>Type 2
+<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> will always operate within the Item Bar<lf>while the Item Bar is fully open.
+<string>Type 3
+<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> will always operate within the Item Bar<lf>and Ammo Bar while the Item Bar is fully open.
+<string>Type 4
+<string>Disable <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> controls while the<lf>Item Bar is fully open.
+<string>Custom Radial Menu Controls
+<string>Adjusts the controls for the Custom Radial Menu.
+<string>Custom Radial Menu Shortcuts
+<string>Allows you to Configure your Custom Radial Menu
+<string>Enable
+<string>Enables shortcuts for the Custom Radial Menu.
+<string>Disable
+<string>Disables shortcuts for the Custom Radial Menu.
+<string>Item Use Controls
+<string>Adjusts how items, Shoutouts, etc., are selected<lf>from the Custom Radial Menu.
+<string>Type 1
+<string>Releasing <ICON PAD PL_DUMMY_CAMERA> selects items, Shoutouts, etc.
+<string>Type 2
+<string>Pressing <ICON PAD PL_DUMMY_CAMERA> selects items, Shoutouts, etc.
+<string>Controls When Holding <ICON PAD UI_CHAT_LOG_OPEN>
+<string>Choose which function opens when you hold <ICON PAD UI_CHAT_LOG_OPEN>.
+<string>Type 1
+<string>Hold <ICON PAD UI_CHAT_LOG_OPEN> to open the chat log.
+<string>Type 2
+<string>Hold <ICON PAD UI_CHAT_LOG_OPEN> to open the communication window.
+<string>Important Chat Notification Shortcuts
+<string>Adjusts controls for opening important chat<lf>notification shortcuts.
+<string>Type 1
+<string>Pressing <ICON PAD UI_JUST_TIMING_SHORTCUT> opens important chat notifications<lf>shortcuts.
+<string>Type 2
+<string>Holding <ICON PAD UI_JUST_TIMING_SHORTCUT2> opens important chat notification<lf>shortcuts.
+<string>Slinger Auto-load
+<string>Adjusts whether an item that is selected in<lf>the Item Bar, and can be used with the Slinger,<lf>will auto-load when closing the Item Bar.
+<string>Auto-load
+<string>Auto-loads items into the Slinger when<lf>closing the Item Bar, if the selected item<lf>can be used with the Slinger.
+<string>Do Not Auto-load
+<string>Does not auto-load items into the Slinger<lf>when closing the Item Bar.
+<string>Open Menu Controls
+<string><PLATMSG MsgGUI030100_01_26_Help>
+<string>Adjusts what <ICON PAD PL_DUMMY_MOVE> controls when the Start Menu<lf>or a facility menu is open. <COLOR preset="TXT_Accent">(Controller)</COLOR>
+<string>Type 1
+<string><ICON PAD PL_DUMMY_MOVE> moves your character even when the Start Menu<lf>or a facility menu is open.
+<string>Type 2
+<string><ICON PAD PL_DUMMY_MOVE> navigates the Start or facility menus.<lf><COLOR preset="TXT_Accent">(Hunter movement is not possible when<lf>menus are open.)</COLOR>
+<string>Open Menu Controls
+<string>Adjusts navigation controls when the Start Menu<lf>or a facility menu is open. <COLOR preset="TXT_Accent">(Keyboard)</COLOR>
+<string>Type 1
+<string>Uses primary keys for Hunter movement<lf>and camera movement, and secondary<lf>keys for menu selection.
+<string>Type 2
+<string>Uses primary keys for menu selection<lf>and camera movement, and secondary<lf>keys for Hunter movement.
+<string>Type 3
+<string>Uses primary keys for Hunter movement,<lf>secondary keys for menu selection, and<lf>uses the mouse for camera movement.
+<string>Key Bindings
+<string>Adjusts how the keyboard is used during gameplay.
+<string>Standard Mode
+<string><PLATMSG MsgGUI030100_01_29_00_Help>
+<string>The keyboard controls the Hunter's actions.<lf>Recommended for players who play with a keyboard<lf>instead of a controller.
+<string>Direct Chat Mode
+<string><PLATMSG MsgGUI030100_01_29_01_Help>
+<string>The keyboard only controls chat functionality.<lf>Recommended for players who use a controller<lf>for most actions and a keyboard for chat support.<lf><COLOR preset="TXT_Danger">Enabling this setting will disable mouse controls.</COLOR>
+<string>Shortcut Mode
+<string><PLATMSG MsgGUI030100_01_29_02_Help>
+<string>Keyboard inputs only bring up shortcuts.<lf>Recommended for players who use a controller<lf>for most actions and a keyboard for shortcuts.<lf><COLOR preset="TXT_Danger">Enabling this setting will disable mouse controls.</COLOR>
+<string>Keyboard Layout
+<string>Adjusts the keyboard layout for key icons displayed<lf>in the button guide.
+<string>Japanese Layout (JIS)
+<string>Displays key icons using the Japanese keyboard<lf>layout.
+<string>English Layout (QWERTY)
+<string>Displays key icons using the English keyboard<lf>layout.
+<string>German Layout (QWERTZ)
+<string>Displays key icons using the German keyboard<lf>layout.
+<string>French Layout (AZERTY)
+<string>Displays key icons using the French keyboard<lf>layout.
+<string>Shortcut Display
+<string>Adjusts the controls and display format for keyboard<lf>Shortcuts.
+<string>Switch Input Method
+<string>Pressing <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> displays one row.<lf>Holding <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> displays to four rows.
+<string>Fixed One-Row Mode
+<string>Pressing <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> displays one row.<lf>Holding <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> has no effect.
+<string>Fixed Four-Row Mode
+<string>Pressing <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> displays four rows.<lf>Holding <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> has no effect.
+<string>Mouse Controls When Displaying Shortcuts
+<string>Adjusts whether to allow displayed keyboard Shortcuts<lf>to be controlled by mouse.
+<string>Enable
+<string>When using keyboard Shortcuts, allows<lf>the mouse cursor to display while also<lf>allowing the mouse to control Shortcuts.
+<string>Disable
+<string>Does not display the mouse cursor when<lf>using keyboard Shortcuts.<lf><COLOR preset="TXT_Accent">(Shortcuts cannot be used with mouse.)</COLOR>
+<string>Scroll Wheel Priorities
+<string>Adjusts the priority controls for the mouse scroll<lf>wheel while navigating menus.
+<string>Prioritize Page Change
+<string>Prioritizes changing pages in a menu if<lf>it contains pages that can be changed<lf>left or right.
+<string>Prioritize Selection
+<string>Prioritizes navigating menus up and down<lf>even if it contains pages that can be changed<lf>left or right.
+<string>Disable Alt + F4 Force Quit
+<string>Adjusts whether Alt + F4 can force quit<lf>the application.
+<string>On
+<string>Disables the ability to force quit the application<lf>using Alt + F4.
+<string>Off
+<string>Enables the ability to force quit the application<lf>using Alt + F4.
+<string>Disable the Windows Key
+<string>Adjusts whether the Windows key is used<lf>to activate OS functions.<lf><COLOR preset="TXT_Accent">(The game must be restarted to reflect changes.)</COLOR>
+<string>On
+<string>Disables the Windows key from displaying the<lf>Windows start menu or activating shortcuts.
+<string>Off
+<string>Enables the Windows key to display the Windows<lf>start menu or activate shortcuts.
+<string>Reverse Left and Right Mouse Buttons
+<string>Adjusts whether the controls and display of<lf>the left and right mouse buttons are reversed.
+<string>Reverse
+<string>Reverses the controls and display of the left<lf>and right mouse buttons. This setting is for<lf>left-handed players.
+<string>Do Not Reverse
+<string>Does not reverse the controls and display of<lf>the left and right mouse buttons. This setting<lf>is for right-handed players.
+<string>Controller Button Icons
+<string>Adjusts which controller button icons are displayed<lf>in the button guide.
+<string>Type 1
+<string>Displays the following button icons:<lf><ICON R_RIGHT_01><ICON R_DOWN_01><ICON R_UP_01><ICON R_LEFT_01><ICON AR_ALL_01><ICON OPTION_01><ICON TOUCH_01><ICON L1_01><ICON R1_01><ICON L2_01><ICON R2_01>
+<string>Type 2
+<string>Displays the following button icons:<lf><ICON R_RIGHT><ICON R_DOWN><ICON R_UP><ICON R_LEFT><ICON AR_ALL><ICON OPTION><ICON TOUCH><ICON L1><ICON R1><ICON L2><ICON R2>
+<string>Type 3
+<string>Displays the following button icons:<lf><ICON R_RIGHT_03><ICON R_DOWN_03><ICON R_UP_03><ICON R_LEFT_03><ICON AR_ALL_03><ICON OPTION_03><ICON TOUCH_03><ICON L1_03><ICON R1_03><ICON L2_03><ICON R2_03>
+<string>Type 4
+<string>Displays the following button icons:<lf><ICON R_RIGHT_02><ICON R_DOWN_02><ICON R_UP_02><ICON R_LEFT_02><ICON AR_ALL_02><ICON OPTION_02><ICON TOUCH_02><ICON L1_02><ICON R1_02><ICON L2_02><ICON R2_02>
+<string>Type 5
+<string>Displays the following button icons:<lf><ICON R_RIGHT_04><ICON R_DOWN_04><ICON R_UP_04><ICON R_LEFT_04><ICON AR_ALL_04><ICON OPTION_04><ICON TOUCH_04><ICON L1_04><ICON R1_04><ICON L2_04><ICON R2_04>
+<string>Start Menu Cursor Position
+<string>Adjusts whether the cursor position is saved<lf>when opening or exiting the Start Menu.
+<string>Save
+<string>Saves the cursor position when opening or exiting<lf>the Start Menu. <COLOR preset="TXT_Accent">(Resets after quitting the game.)</COLOR>
+<string>Don't Save
+<string>Does not save the cursor position when exiting<lf>the Start Menu and the menu is always at the<lf>initial position.
+<string>Map Zoom Settings
+<string>Adjusts whether to use the adaptive triggers to<lf>instantly shrink or expand the Detailed Map to its max<lf>value by pressing <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> hard enough to feel a click.
+<string>Enable
+<string>Enables the adaptive triggers to instantly<lf>shrink or enlarge the Detailed Map by<lf>pressing <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> all the way down.
+<string>Disable
+<string>Disables the adaptive triggers from shrinking<lf>or enlarging the Detailed Map while <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN><lf>zooms in/out at the default speed.
+<string>Camera Speed (Horizontal): Normal
+<string>Adjusts the speed of horizontal camera<lf>movement during normal gameplay.
+<string>Camera Speed (Vertical): Normal
+<string>Adjusts the speed of vertical camera<lf>movement during normal gameplay.
+<string>Camera Sensitivity: Normal
+<string>Adjusts the sensitivity of mouse movements during<lf>normal gameplay. The higher the value, the faster<lf>the camera movement will be.
+<string>Horizontal Camera Sensitivity: Normal
+<string>Adds a horizontal bias to mouse movement during<lf>normal gameplay. The lower the value, the slower<lf>the horizontal camera movement will be.
+<string>Vertical Camera Sensitivity: Normal
+<string>Adds a vertical bias to mouse movement during<lf>normal gameplay. The lower the value, the slower<lf>the vertical camera movement will be.
+<string>Camera Speed (Horizontal): <ICON PAD PL_AIM>
+<string>Adjusts the speed of horizontal camera movement when<lf>using <ICON PAD PL_AIM>. If <COLOR preset="TXT_Accent">Camera Speed: Weapon Drawn</COLOR> is enabled,<lf>this setting only applies when your weapon is sheathed.
+<string>Camera Speed (Vertical): <ICON PAD PL_AIM>
+<string>Adjusts the speed of vertical camera movement when<lf>using <ICON PAD PL_AIM>. If <COLOR preset="TXT_Accent">Camera Speed: Weapon Drawn</COLOR> is enabled,<lf>this setting only applies when your weapon is sheathed.
+<string>Camera Speed: Weapon Drawn
+<string>Enables camera speed, while holding <ICON PAD PL_AIM> with<lf>your weapon drawn, to be adjusted separately<lf>for melee and ranged weapons. 
+<string>Melee Weapon (Horizontal): <ICON PAD PL_AIM>
+<string>Adjusts horizontal camera speed when using <ICON PAD PL_AIM><lf>(Focus Mode) with a melee weapon drawn.
+<string>Melee Weapon (Vertical): <ICON PAD PL_AIM>
+<string>Adjusts vertical camera speed when using <ICON PAD PL_AIM><lf>(Focus Mode) with a melee weapon drawn.
+<string>Ranged Weapon (Horizontal): <ICON PAD PL_AIM>
+<string>Adjusts horizontal camera speed when using <ICON PAD PL_AIM><lf>(in Aim/Focus Mode) with a ranged weapon drawn.
+<string>Ranged Weapon (Vertical): <ICON PAD PL_AIM>
+<string>Adjusts vertical camera speed when using <ICON PAD PL_AIM><lf>(in Aim/Focus Mode) with a ranged weapon drawn.
+<string>Camera Sensitivity: Aiming/Focus
+<string>Adjusts the sensitivity of mouse movement when<lf>aiming or in Focus Mode. The higher the value,<lf>the faster the camera movement will be.
+<string>Horizontal Camera Sensitivity: Aiming/Focus
+<string>Adds a horizontal bias to mouse movement when<lf>aiming or in Focus Mode. The lower the value,<lf>the slower the horizontal camera movement will be.
+<string>Vertical Camera Sensitivity: Aiming/Focus
+<string>Adds a vertical bias to mouse movement when aiming<lf>or in Focus Mode. The lower the value, the slower<lf>the vertical camera movement will be.
+<string>Camera Speed: <ICON PAD PL_DUMMY_MOVE>
+<string>Adjusts camera movement speed when controlling<lf>the camera with <ICON PAD PL_DUMMY_MOVE> is possible, such as in Focus Mode.<lf><COLOR preset="TXT_Accent">(If set to 1, camera control with <ICON PAD PL_DUMMY_MOVE> will be disabled)</COLOR>
+<string>Trajectory Reticle Speed
+<string>Adjusts the reticle speed for the bow's arc shots<lf>and the heavy bowgun's cluster bombs.
+<string>Camera Inversion: Normal
+<string>Adjusts camera inversion settings during normal<lf>gameplay.
+<string>Do Not Invert
+<string>Does not invert Up/Down or Left/Right camera<lf>movement.
+<string>Invert Vertical
+<string>Inverts Up/Down camera movement.<lf>Left/Right camera movement is normal.
+<string>Invert Horizontal
+<string>Inverts Left/Right camera movement.<lf>Up/Down camera movement is normal.
+<string>Inverted
+<string>Inverts both Up/Down and Left/Right camera<lf>movement.
+<string>Camera Inversion: <ICON PL_AIM>
+<string>Adjusts camera inversion settings when using <ICON PL_AIM>.<lf>If <COLOR preset="TXT_Accent">Camera Inversion: Weapon Drawn</COLOR> is enabled,<lf>this only applies when your weapon is sheathed.
+<string>Camera Inversion: Weapon Drawn
+<string>Enables camera inversion, while holding <ICON PL_AIM><lf>with your weapon drawn, to be adjusted<lf>separately for melee and ranged weapons.
+<string>Melee Weapon <ICON PL_AIM>
+<string>Adjusts camera inversion speed when using <ICON PL_AIM><lf>(Focus Mode) with a melee weapon drawn.
+<string>Ranged Weapon <ICON PL_AIM>
+<string>Adjusts camera inversion when using <ICON PL_AIM><lf>(in Aim/Focus Mode) with a ranged weapon drawn.
+<string>Trajectory Path Inversion
+<string>Adjusts the vertical aiming controls of<lf>the trajectory path for the bow's arc shots<lf>and the heavy bowgun's cluster bomb.
+<string>Range Controls: Normal
+<string>The trajectory path moves forward/back in<lf>the same direction as the input.
+<string>Range Controls: Inverted
+<string>The trajectory path moves forward/back in<lf>the opposite direction as the input.
+<string>Advanced Camera Settings
+<string>Adjusts advanced settings related to camera behavior.
+<string>Camera Inertia
+<string>Adjusts camera movement inertia, which affects<lf>acceleration in response to input.
+<string>Deadzone: Minimum
+<string>Adjusts the degree to which minute inputs are ignored<lf>during camera movement.
+<string>Response Curve
+<string>Adjusts the acceleration speed for inputs during<lf>camera movement.
+<string>Deadzone: Maximum
+<string>Adjusts the degree of input that registers<lf>as maximum during camera movement.
+<string>Camera Distance: Zoom
+<string>Adjusts the frontal distance between the camera<lf>and the Hunter.
+<string>Camera Distance: Pan
+<string>Adjusts the lateral distance between the camera<lf>and the Hunter.
+<string>Camera Shake
+<string>Adjusts the intensity of camera shake caused by<lf>in-game events and actions.
+<string>Ambient Camera Sway
+<string>Adjusts the intensity of the camera's<lf>ambient sway effect.
+<string>Camera Terrain Adjustment
+<string>Adjusts how the camera reacts to slopes and<lf>other angled terrain.
+<string>Adjust
+<string>The camera automatically adjusts to the terrain.
+<string>Do Not Adjust
+<string>The camera does not automatically adjust<lf>to the terrain.
+<string>Wide Camera Correction
+<string>Adjusts the amount of camera correction when trying<lf>to capture a wide view.
+<string>Lateral Camera Correction: Normal
+<string>Adjusts the degree to which the camera leads<lf>your character when moving sideways on foot.
+<string>Lateral Camera Correction: Mounted
+<string>Adjusts the degree to which the camera leads<lf>your character when moving sideways while<lf>mounted on a Seikret.
+<string>Auto-centering: Normal
+<string>Adjusts whether the camera faces the direction<lf>the Hunter is facing when walking or<lf>running.
+<string>Enable
+<string>Auto-centers the camera when walking<lf>or running on foot.
+<string>Enable (Except During Combat)
+<string>Auto-centers the camera when walking<lf>or running on foot except during combat.
+<string>Disable
+<string>Does not auto-center the camera when walking<lf>or running on foot.
+<string>Auto-centering: Mounted
+<string>Adjusts whether the camera faces the direction<lf>the Hunter is facing when on a Seikret.
+<string>Enable
+<string>Auto-centers the camera when mounted on<lf>a Seikret.
+<string>Enable (Except During Combat)
+<string>Auto-centers the camera when mounted on<lf>a Seikret except during combat.
+<string>Disable
+<string>Does not auto-center the camera when mounted<lf>on a Seikret.
+<string>Reticle Direction
+<string>Adjusts camera behavior when displaying the reticle.
+<string>Type 1
+<string>The reticle aims in the same direction the Hunter<lf>is facing and at the same angle as the camera.<lf>The same occurs when targeting a monster.
+<string>Type 2
+<string>The reticle aims in the same direction and at<lf>the same angle the camera is facing, regardless<lf>of the Hunter's orientation. The same occurs<lf>when targeting a monster.
+<string>Type 3
+<string>The reticle aims in the same direction the<lf>Hunter is facing and at the same angle as the<lf>camera. When targeting a monster, it will face<lf>the target.
+<string>Type 4
+<string>The reticle aims in the same direction and<lf>at the same angle the camera is facing,<lf>regardless of the Hunter's orientation. When<lf>targeting a monster, it will face the target.
+<string>Aim Assist
+<string>Adjusts whether aim assist is enabled, which slows<lf>down reticle movement when hovering over a target.
+<string>Enable
+<string>Enables aim assist.
+<string>Disable
+<string>Disables aim assist.
+<string>Aim/Focus Mode Controls
+<string>Adjusts how Aim/Focus Mode is activated. If <lf>Advanced Aim/Focus Mode Controls is enabled,<lf>this setting will only apply to sheathed weapons.
+<string>Hold <ICON PAD PL_AIM> to Activate Mode
+<string>When your weapon is drawn, holding <ICON PAD PL_AIM> activates<lf>Focus Mode for melee weapons and Aim/Focus<lf>Mode for ranged weapons. When your weapon<lf>is sheathed, this will aim the Slinger instead.
+<string>Press <ICON PAD PL_AIM> to Toggle Mode
+<string>When your weapon is drawn, pressing <ICON PAD PL_AIM><lf>toggles Focus Mode on/off for melee weapons<lf>and Aim/Focus Mode for ranged weapons.<lf>When your weapon is sheathed, this will<lf>toggle aim on/off for the Slinger instead.
+<string>When your weapon is drawn, pressing <ICON PAD PL_AIM><lf>toggles Focus Mode on/off for melee weapons<lf>and Aim/Focus Mode for ranged weapons.
+<string>Advanced Aim/Focus Mode Controls
+<string>Enables the ability to adjust how Focus Mode<lf>and Aim/Focus Mode are activated for drawn<lf>melee and ranged weapons separately.
+<string>Melee Weapons
+<string>Adjusts how Focus Mode is activated<lf>for Melee Weapons.
+<string>Hold <ICON PAD PL_AIM> to Activate Mode
+<string>Holding <ICON PAD PL_AIM> activates Focus Mode when<lf>your melee weapon is drawn.
+<string>Press <ICON PAD PL_AIM> to Toggle Mode
+<string>Pressing <ICON PAD PL_AIM> toggles Focus Mode on/off when<lf>your melee weapon is drawn.
+<string>Ranged Weapons
+<string>Adjusts how Aim/Focus Mode is activated<lf>for ranged weapons.
+<string>Hold <ICON PAD PL_AIM> to Activate Mode
+<string>Holding <ICON PAD PL_AIM> activates Aim/Focus Mode when<lf>your ranged weapon is drawn.
+<string>Press <ICON PAD PL_AIM> to Toggle Mode
+<string>Pressing <ICON PAD PL_AIM> toggles Aim/Focus Mode on/off<lf>when your ranged weapon is drawn.
+<string>Target Camera Control Type
+<string>Adjusts the controls for the Target Camera and<lf>camera reset.
+<string>Type 1
+<string>Press <ICON PL_CAMERA_RESET> once to aim the camera at the target<lf>monster. Press twice to aim the camera in the<lf>direction the Hunter is facing.
+<string>Type 2
+<string>Press <ICON PL_CAMERA_RESET> once to aim the camera in the<lf>direction the Hunter is facing. Press twice<lf>to aim the camera at the target monster.
+<string>Type 3
+<string>Press <ICON PL_CAMERA_RESET> once to aim the camera at the target<lf>monster. Pressing it twice does nothing.
+<string>Type 4
+<string>Press <ICON PL_CAMERA_RESET> once to aim the camera in the direction<lf>the Hunter is facing. Pressing it twice does nothing.
+<string>Type 5
+<string>Pressing <ICON PL_CAMERA_RESET> does not aim the camera in the<lf>direction the Hunter is facing or at the target<lf>monster.
+<string>Camera Reset Direction
+<string>Adjusts which direction the camera faces when reset.
+<string>Direction of <ICON PAD PL_DUMMY_MOVE>
+<string>Resets the camera to aim in the direction<lf><ICON PAD PL_DUMMY_MOVE> is tilted.
+<string>Hunter's Direction
+<string>Resets the camera to aim in the direction<lf>the Hunter is facing.
+<string>Camera Reset Vertical
+<string>Adjusts whether vertical orientation is affected when<lf>the camera is reset.
+<string>Level
+<string>Resetting the camera levels out the vertical orientation.
+<string>Do Not Level
+<string>Resetting the camera leaves the vertical orientation<lf>as it was, and does not level it out.
+<string>Target Camera Vertical
+<string>Adjusts the vertical orientation of the Target Camera<lf>when facing a monster.
+<string>Align to Target
+<string>The Target Camera will align vertically to<lf>the target monster's position.
+<string>Do Not Adjust
+<string>The Target Camera's vertical orientation<lf>remains as it was, no matter the target<lf>monster's position.
+<string>Horizon
+<string>The Target Camera's vertical orientation<lf>levels out horizontally, no matter the target<lf>monster's position.
+<string>Between Horizon and Target
+<string>The Target Camera aligns vertically to<lf>a point between the target monster's<lf>position and a leveled horizontal position.
+<string>Between Current Position and Target
+<string>The Target Camera aligns vertically to a point<lf>between the target monster's position and<lf>the camera's current position.
+<string>Focus Camera
+<string>Adjusts whether automatic camera lock-on for<lf>the monster you have targeted is enabled.
+<string>Enabled
+<string>Locks the camera on to a targeted monster<lf>and keeps it in view.
+<string>Disable
+<string>Does not lock the camera onto a targeted<lf>monster and only faces it when using the<lf>Target Camera.
+<string>Wall Climb Camera Reset
+<string>Adjusts whether the camera is reset when the Hunter<lf>starts a climbing action.
+<string>Reset
+<string>The camera resets when the Hunter starts<lf>a climbing action.
+<string>Do Not Reset
+<string>The camera does not reset when the Hunter starts<lf>a climbing action.
+<string>Target Filtering
+<string>Adjusts what kind of monster can be targeted.
+<string>All Monsters
+<string>Allows both small and large monsters to be targeted.
+<string>Large Monsters Only
+<string>Allows only large monsters to be targeted.
+<string>Monster Sighting Camera
+<string>Adjusts whether the game enters cinematic<lf>camera mode when first sighting a monster.
+<string>Enable
+<string>Enables cinematic camera mode when first<lf>sighting a monster.
+<string>Disable
+<string>Disables cinematic camera mode when first<lf>sighting a monster.
+<string>Target/Objective Selection
+<string>Adjusts whether to link monster targeting<lf>to objective selection.
+<string>Link
+<string>Targeting or untargeting a monster also sets or<lf>removes your objective.
+<string>Only Link When Targeting
+<string>Targeting a monster also sets your objective,<lf>but your objective is not removed when the<lf>monster is untargeted.
+<string>Do Not Link
+<string>Targeting or untargeting a monster does not<lf>affect your objective.
+<string>Scoutfly Camera Tracking
+<string>Adjusts whether scoutflies are tracked by the camera.
+<string>Track
+<string>The camera tracks scoutflies.
+<string>Do Not Track
+<string>The camera does not track scoutflies.
+<string>Camera Mouse Controls
+<string>Adjusts whether or not the mouse controls the camera.<lf>The mouse cursor can leave the window depending on<lf>the setting.
+<string>On
+<string>Enables the mouse to control the camera.<lf>The mouse cursor cannot leave the window<lf>when this setting is enabled.
+<string>Off
+<string>Enables the keyboard to control the camera.<lf>The mouse cursor can leave the window as<lf>long as the game is in <COLOR preset="TXT_Accent">Windowed Mode</COLOR>.
+<string><PLATMSG MsgGUI030100_02_28>
+<string>Gyro Camera Controls
+<string><PLATMSG MsgGUI030100_02_28_Help>
+<string>Adjusts whether gyro functionality is enabled for<lf>camera controls and also adjusts advanced gyro<lf>functionality settings.
+<string>Control Type
+<string><PLATMSG MsgGUI030100_02_72_Help>
+<string>Adjusts how to enable gyro camera controls.
+<string>Press <ICON PAD PL_AIM> to Enable
+<string><PLATMSG MsgGUI030100_02_72_00_Help>
+<string>Gyro camera controls are only enabled while using<lf><ICON PAD PL_AIM> when aiming or in Focus Mode.
+<string>Always Enabled
+<string><PLATMSG MsgGUI030100_02_72_01_Help>
+<string>Enables gyro controls for use whenever possible.
+<string>Control Sensitivity (Horizontal): Normal
+<string><PLATMSG MsgGUI030100_02_55_Help>
+<string>Adjusts horizontal camera sensitivity when using<lf>gyro controls during normal gameplay.
+<string>Control Sensitivity (Vertical): Normal
+<string><PLATMSG MsgGUI030100_02_56_Help>
+<string>Adjusts vertical camera sensitivity when using<lf>gyro controls during normal gameplay.
+<string>Control Sensitivity (Horizontal): <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_57_Help>
+<string>Adjusts horizontal sensitivity of gyro controls when using <ICON PAD PL_AIM>.<lf>If <COLOR preset="TXT_Accent">Control Sensitivity: Weapon Drawn</COLOR> is enabled, this setting<lf>only applies when your weapon is sheathed.
+<string>Control Sensitivity: <ICON PAD PL_AIM> (Vertical)
+<string><PLATMSG MsgGUI030100_02_58_Help>
+<string>Adjusts vertical sensitivity of gyro controls when using <ICON PAD PL_AIM>.<lf>If <COLOR preset="TXT_Accent">Control Sensitivity: Weapon Drawn</COLOR> is enabled, this setting<lf>only applies when your weapon is sheathed.
+<string>Control Sensitivity: Weapon Drawn
+<string><PLATMSG MsgGUI030100_02_59_Help>
+<string>Enables gyro sensitivity, while holding <ICON PAD PL_AIM> with<lf>your weapon drawn, to be adjusted separately<lf>for melee and ranged weapons. 
+<string>Melee Weapon (Horizontal): <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_60_Help>
+<string>Adjusts horizontal gyro control sensitivity when<lf>using <ICON PAD PL_AIM> (Focus Mode) with a melee weapon<lf>drawn.
+<string>Melee Weapon (Vertical): <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_61_Help>
+<string>Adjusts vertical gyro control sensitivity when<lf>using <ICON PAD PL_AIM> (Focus Mode) with a melee weapon<lf>drawn.
+<string>Ranged Weapon (Horizontal): <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_62_Help>
+<string>Adjusts horizontal gyro control sensitivity when<lf>using <ICON PAD PL_AIM> (Aim/Focus Mode) with a ranged weapon<lf>drawn.
+<string>Ranged Weapon (Vertical): <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_63_Help>
+<string>Adjusts vertical gyro control sensitivity when using <ICON PAD PL_AIM><lf>(Aim/Focus Mode) with a ranged weapon drawn.
+<string>Trajectory Reticle Control Sensitivity
+<string><PLATMSG MsgGUI030100_02_64_Help>
+<string>Adjusts the aiming speed for the bow's arc<lf>shots and the heavy bowgun's cluster bombs.<lf><COLOR preset="TXT_Accent">(Gyro Controls)</COLOR>
+<string>Control Inversion: Normal
+<string><PLATMSG MsgGUI030100_02_65_Help>
+<string>Adjusts whether gyro controls are inverted<lf>during normal gameplay.
+<string>Does not invert Up/Down or Left/Right controller<lf>movement.
+<string>Inverts Up/Down controller movement.<lf>Left/Right controller movement is normal.
+<string>Inverts Left/Right controller movement.<lf>Up/Down controller movement is normal.
+<string>Inverts both Up/Down and Left/Right controller<lf>movement.
+<string>Control Inversion: <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_66_Help>
+<string>Adjusts whether gyro controls are inverted when using <ICON PAD PL_AIM>.<lf>If <COLOR preset="TXT_Accent">Control Inversion: Weapon Drawn</COLOR> is enabled, this setting<lf>only applies when your weapon is sheathed.
+<string>Control Inversion: Weapon Drawn
+<string><PLATMSG MsgGUI030100_02_67_Help>
+<string>Enables gyro controls, while holding <ICON PAD PL_AIM> with<lf>your weapon drawn, to be inverted separately<lf>for melee and ranged weapons.
+<string>Melee Weapon <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_68_Help>
+<string>Inverts gyro camera controls when using <ICON PAD PL_AIM><lf>(Focus Mode) with a melee weapon drawn.
+<string>Ranged Weapon <ICON PAD PL_AIM>
+<string><PLATMSG MsgGUI030100_02_69_Help>
+<string>Inverts gyro camera controls when using <ICON PAD PL_AIM><lf>(Aim/Focus Mode) with a ranged weapon drawn.<lf>
+<string>Trajectory Reticle Inversion
+<string><PLATMSG MsgGUI030100_02_70_Help>
+<string>Inverts the controls for the bow's arc shots<lf>and the heavy bowgun's cluster bombs.<lf><COLOR preset="TXT_Accent">(Gyro Controls)</COLOR>
+<string>Does not invert controller movement.
+<string>Inverts controller movement.
+<string>Display Selection
+<string>Adjusts which display the game screen is shown on.<lf><COLOR preset="TXT_Accent">(Requires Windows 10 or higher and a setup with<lf>multiple displays.)</COLOR>
+<string>{0}: {1}
+<string>Screen Mode
+<string>Adjusts how the game window will be displayed.
+<string>Borderless Window
+<string>Displays the game in fullscreen, spanning<lf>the entire display window in order to<lf>increase immersion.
+<string>Windowed Mode
+<string>Displays the game in a regular window.
+<string>Screen Resolution
+<string>Adjusts the screen resolution.
+<string>{0} x {1}
+<string>Play the game in this resolution?<lf><COLOR preset="TXT_Accent">(If no action is taken, the prior resolution<lf>settings will be restored after ten seconds.)</COLOR>
+<string><REF RefGeneral_0001_000>
+<string><REF RefGeneral_0001_001>
+<string>Aspect Ratio
+<string>Adjusts the screen's aspect ratio.
+<string>Automatic
+<string>Automatically sets an appropriate aspect<lf>ratio based on the current resolution.
+<string>Wide (16:9)
+<string>Displays the screen with an aspect ratio of 16:9.
+<string>Ultrawide (21:9)
+<string>Displays the screen with an aspect ratio of 21:9.<lf>On monitors that do not support an ultrawide<lf>aspect ratio, the display will be letterboxed.
+<string>Ultra-wide UI Position Correction
+<string>Shifts the mini-map and other UI elements toward<lf>the center of the screen. <COLOR preset="TXT_Accent">(Can only be used when<lf>the aspect ratio is set to ultrawide.)</COLOR>
+<string>Frame Rate
+<string>Adjusts the frame rate cap for the entire game.
+<string>Uncapped Frame Rate
+<string>Adjusts whether the frame rate for the entire game<lf>is limited.
+<string>Uncapped
+<string>Does not limit the frame rate for the entire game.<lf><COLOR preset="TXT_Accent">(Ignores the value in the Frame Rate setting.)</COLOR>
+<string>Capped
+<string>Limits the frame rate for the entire game based<lf>on the value in the Frame Rate setting.
+<string>Cutscene Frame Rate
+<string>Allows you to separately adjust the frame rate<lf>for cutscenes. If disabled, cutscene frame rate<lf>will adhere to the value in the Frame Rate setting.
+<string>Cutscene Frame Rate
+<string>Adjusts the frame rate cap for cutscenes.<lf><COLOR preset="TXT_Accent">(The value in the Frame Rate setting determines<lf>the rate in which it is limited.)</COLOR>
+<string>Background Frame Rate
+<string>When enabled, allows you to separately set<lf>the background frame rate for when the game<lf>window is inactive.
+<string>Background Frame Rate
+<string>Adjusts the frame rate cap for when the game<lf>window is inactive. <COLOR preset="TXT_Accent">(The value in the Frame Rate<lf>setting determines the rate in which it is limited.)</COLOR>
+<string>HDR Output
+<string>Adjusts HDR output settings.
+<string>Automatically Enable
+<string>Automatically enables HDR on supported devices,<lf>and disables it on unsupported devices.
+<string>Disable
+<string>Disables HDR output even on devices that<lf>support it.
+<string>Brightness
+<string>Adjusts the brightness of the screen.
+<string>Adjust Screen Brightness (HDR)
+<string>Adjusts the brightness of the screen.
+<string>V-Sync
+<string>Adjusts vertical synchronization.
+<string>Enable
+<string>Enables vertical synchronization, reducing<lf>the occurrence of screen tearing.
+<string>Adaptive V-Sync
+<string>Enables vertical synchronization only when<lf>the frame rate hits its limit. <COLOR preset="TXT_Accent">(This setting is only<lf>available with NVIDIA GeForce graphics cards.)</COLOR>
+<string>Disable
+<string>Disables vertical synchronization.
+<string>NVIDIA Reflex Low Latency Mode
+<string>Adjusts whether to increase game responsiveness<lf>and reduce system latency. <COLOR preset="TXT_Accent">(Only available on<lf>graphics cards that support this feature.)</COLOR>
+<string>Enable
+<string>Enables NVIDIA Reflex. <COLOR preset="TXT_Accent">(This setting will be<lf>automatically enabled when Frame Generation<lf>is turned on under Graphics Settings.)</COLOR>
+<string>Enable + Boost
+<string>Enables NVIDIA Reflex and forces maximum<lf>GPU clock speed.
+<string>Disable
+<string>Disables NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(This setting will be automatically disabled<lf>on unsupported devices.)</COLOR>
+<string>PC Specs
+<string>Displays performance-related specs of the PC in use.
+<string>Estimated VRAM Usage
+<string><REF RefGeneral_0000_0000_00>
+<string>Other Applications
+<string>MB
+<string>MB /
+<string>Using a large amount of graphics memory. Minor malfunctions may occur.
+<string>Using a large amount of graphics memory. Serious malfunctions may occur.
+<string>CPU
+<string>RAM
+<string><NUMBER {0}> GB
+<string>GPU
+<string>VRAM
+<string><NUMBER {0}> GB
+<string>GPU Driver Version
+<string><NUMBER {0}>
+<string>DirectStorage
+<string>Compatible
+<string>Incompatible
+<string>GB
+<string>Graphics Settings
+<string>Adjusts the graphical settings.<lf><COLOR preset="TXT_Accent">(Cutscene graphics can be adjusted separately.)</COLOR>
+<string>Adjusts the graphical settings.
+<string>Ultra
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Custom
+<string>This setting will be selected if you've manually<lf>adjusted any details within a preset.
+<string>Cutscene Graphics
+<string>Adjusts the graphics settings of cutscenes.<lf><COLOR preset="TXT_Accent">(Only affects cutscenes.)</COLOR>
+<string>Highest
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Do Not Adjust Separately
+<string>Cutscene graphics settings adhere to the settings<lf>in Graphic Settings.<lf>
+<string>Upscaling (Super-resolution Imaging)
+<string>Uses Super-resolution imaging technology in order<lf>to maintain high performance while also enjoying<lf>superior graphical quality.
+<string>NVIDIA DLSS
+<string>Uses NVIDIA DLSS 3.5.<lf><COLOR preset="TXT_Accent">(Requires a NVIDIA GeForce RTX graphics card.)<lf>Note: If you're using a GeForce RTX40 Series card<lf>and have enabled Hardware-Accelerated GPU<lf>Scheduling in your OS, selecting this setting will<lf>allow you to enable Frame Generation.)</COLOR>
+<string>AMD FSR 3
+<string>Uses AMD FSR 3.0.3.<lf><COLOR preset="TXT_Accent">(If you've enabled Hardware-Accelerated GPU<lf>Scheduling in your OS, selecting this setting will<lf>allow you to enable Frame Generation.)</COLOR>
+<string>Intel XeSS
+<string>Uses Intel XeSS 1.3.
+<string>Disable
+<string>Does not use upscaling.
+<string>Frame Generation
+<string>Uses Frame Generation technology to increase framerate.<lf><COLOR preset="TXT_Accent">(Only available if specific requirements have been met.)</COLOR>
+<string>Enable
+<string>Enables Frame Generation to increase framerate.<lf>Selecting this setting may allow you to surpass<lf>the maximum framerate set under the Display<lf>options.
+<string>Disable
+<string>Disables this setting.
+<string><COLOR preset="TXT_Accent">Frame Generation</COLOR> (using <COLOR preset="TXT_Accent">FSR</COLOR>) cannot be enabled<lf>with your current display settings.
+<string><COLOR preset="TXT_Accent">Frame Generation</COLOR> (using <COLOR preset="TXT_Accent">FSR</COLOR>) cannot be enabled<lf>with your current display settings. As a result, the<lf>setting has automatically been set to <BOLD>Disable</BOLD>.
+<string>Frame Generation can be re-enabled by changing<lf>your settings to Windowed Mode, or if you are in<lf>Borderless Window Mode, change to a resolution that<lf>does not display any black borders.
+<string>Upscaling Mode
+<string>Adjusts the graphical quality used when upscaling.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling has been<lf>enabled.)</COLOR>
+<string>NVIDIA DLAA
+<string>Uses AI anti-aliasing while maintaining native<lf>resolution.
+<string>AMD Native AA
+<string>Uses FSR 3 anti-aliasing while maintaining native<lf>resolution.
+<string>Intel XeSS Native AA
+<string>Uses XeSS anti-aliasing while maintaining native<lf>resolution.
+<string>Quality
+<string>Prioritizes screen resolution over framerate.
+<string>Balanced
+<string>Strikes a balance between resolution and framerate.
+<string>Performance
+<string>Prioritizes framerate over screen resolution.
+<string>Ultra Performance
+<string>Further prioritizes framerate over screen resolution.
+<string>Disable
+<string>This will be selected if you do not use<lf>an upscaling method.
+<string>Upscaling Sharpness
+<string>Adjusts the level of graphical detail used when upscaling.<lf>The higher the number, the greater the level of detail.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling has been enabled.)</COLOR>
+<string>Anti-Aliasing
+<string>Adjusts the anti-aliasing mode.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling has not been enabled.)</COLOR>
+<string>FXAA + TAA
+<string>TAA
+<string>Off
+<string>Render Scaling
+<string>Adjusts the render scale percentage.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling has not been enabled.)</COLOR>
+<string>Ray Tracing
+<string>Adjusts the quality of light reflection and refraction<lf>using ray tracing technology.
+<string>Highest
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Off
+<string>Texture Quality
+<string>Adjusts the texture resolution for objects.
+<string>Highest (High Res Textures)
+<string><COLOR preset="TXT_Accent">This setting can be selected if the DLC "High<lf>Resolution Texture Pack" has been downloaded. </COLOR>
+<string>You must download the DLC: High Resolution Texture<lf>Pack to set to Highest (High Res Textures).
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Texture Filtering Quality
+<string>Adjusts the level of detail on object textures.
+<string>Highest (ANISO x16)
+<string>High (ANISO x8)
+<string>Medium (ANISO x4)
+<string>Medium (ANISO x2)
+<string>Low (Trilinear)
+<string>Lowest (Bilinear)
+<string>Mesh Quality
+<string>Adjusts the quality of the polygon mesh for 3D models.
+<string>Highest
+<string>High
+<string>Medium
+<string>Fur Quality
+<string>Adjusts the image quality for all creature fur,<lf>including Palicoes.
+<string>High
+<string>Low
+<string>LOD Bias
+<string>Adjusts the in-game model quality depending on<lf>the situation.
+<string>Highest
+<string>High
+<string>Medium
+<string>Sky/Cloud Quality
+<string>Adjusts the image quality for the sky and clouds.
+<string>Highest
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Grass/Tree Quality
+<string>Adjusts the image quality for the grass and trees.
+<string>High
+<string>Medium
+<string>Low
+<string>Grass/Tree Sway
+<string>Adjusts whether to allow grass and trees to sway.
+<string>Enable
+<string>Enables grass and trees to sway.
+<string>Disable
+<string>Disables grass and trees from swaying.
+<string>Wind Simulation Quality
+<string>Adjusts the precision of simulated wind effects<lf>for in-game objects.
+<string>High
+<string>Low
+<string>Surface Quality
+<string>Adjusts rendering quality of terrain and<lf>geographical features in close proximity<lf>to the Hunter.
+<string>High
+<string>Low
+<string>Sand/Snow/Water Quality
+<string>Adjusts the image quality for sand, snow, water,<lf>and other types of terrain.
+<string>Highest
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Water Effects
+<string>Adjusts whether fluid effects are applied to water.
+<string>Enable
+<string>Disable
+<string>Highest
+<string>High
+<string>Medium
+<string>Low
+<string>Render Distance
+<string>Adjusts the amount of players or characters that display<lf>in lobbies and the distance at which monsters and<lf>endemic life will appear out in the field.
+<string>Shadow Quality
+<string>Adjusts the quality of shadows.
+<string>Highest
+<string>High
+<string>Medium
+<string>Low
+<string>Lowest
+<string>Distant Shadow Quality
+<string>Adjusts the quality of shadows far away from the Hunter.
+<string>High
+<string>Low
+<string>Shadow Distance
+<string>Adjusts the distance (from the Hunter) for which<lf>shadows are rendered by objects in the game.
+<string>Far
+<string>Medium
+<string>Near
+<string>Ambient Light Quality
+<string>Adjusts the rendering quality of light reflected<lf>off objects in the distance.
+<string>High
+<string>Medium
+<string>Low
+<string>Contact Shadows
+<string>Adjusts whether detailed shadows are displayed.
+<string>Enable
+<string>Disable
+<string>Ambient Occlusion
+<string>Adjusts the quality of shadows in areas where light<lf>is obstructed.
+<string>High
+<string>Medium
+<string>Off
+<string>Bloom
+<string>Adjusts the strength of the blur produced by bright<lf>light sources.
+<string>High
+<string>Low
+<string>Off
+<string>Motion Blur
+<string>Adjusts whether to allow the area around moving<lf>objects to be blurred to emphasize speed. Turning<lf>this off can reduce motion sickness.
+<string>On
+<string>Off
+<string>Vignette Effect
+<string>Adjusts whether to allow the brightness around<lf>the center of the screen to be enhanced in order<lf>to darken the edges.
+<string>On
+<string>Off
+<string>Screen Space Reflection
+<string>Adjusts whether to enable a rendering technique that<lf>enhances reflections.
+<string>On
+<string>Off
+<string>SSSS Scattering
+<string>Screen Space Separable Subsurface Scattering.<lf>Adjusts whether to allow light to enter objects<lf>and then to be dispersed from them.
+<string>On
+<string>Off
+<string>Depth of Field
+<string>Adjusts whether to vary the focus (clarity) of objects<lf>based on distance.
+<string>On
+<string>Off
+<string>Volumetric Fog
+<string>Adjusts the quality of fog produced by dust and particles<lf>in the air. Affects how beams of light and such are displayed.
+<string>High
+<string>Low
+<string>Variable Rate Shading
+<string>Reduces effect and shader rendering load by processing<lf>pixel shaders less evenly.
+<string>Off
+<string>Balanced
+<string>Performance
+<string><PLATMSG MsgGUI030100_04_44>
+<string>Controller Vibration Settings
+<string><PLATMSG MsgGUI030100_04_44_Help>
+<string>Turns controller vibration on or off.
+<string><PLATMSG MsgGUI030100_04_44_00>
+<string>On
+<string><PLATMSG MsgGUI030100_04_44_00_Help>
+<string>Turns controller vibration on.
+<string><PLATMSG MsgGUI030100_04_44_01>
+<string>Off
+<string><PLATMSG MsgGUI030100_04_44_01_Help>
+<string>Turns controller vibration off.
+<string>Damage Numbers
+<string>Adjusts whether damage numbers are displayed.
+<string>Display (With Decimals)
+<string>Displays numbers on screen indicating the damage<lf>dealt to monsters. <COLOR preset="TXT_Accent">(Decimal values included.)</COLOR>
+<string>Display (Whole Values Only)
+<string>Displays numbers on screen indicating<lf>the damage dealt to monsters.<lf><COLOR preset="TXT_Accent">(Whole values only.)</COLOR>
+<string>Does Not Display
+<string>Does not display damage numbers.
+<string>HUD
+<string>Adjusts the display size and contents of the HUD.
+<string>Health Gauge
+<string>Small
+<string>Displays smaller than the default size.
+<string>Default
+<string>Displays at standard size.
+<string>Large
+<string>Displays larger than the default size.
+<string>Hide
+<string>Does not display gauge on screen.
+<string>Stamina Gauge
+<string>Melee Weapon Sharpness
+<string>Weapon Information
+<string>Party Info
+<string>Scoutfly Announcements
+<string>Minimap
+<string>Environment Clock
+<string>Target Monster
+<string>Button Guide
+<string>Objectives
+<string>Chat Notifications
+<string>Slinger Display
+<string>Ammo/Coatings Bar
+<string>Item Bar
+<string>Custom Radial Menu
+<string>Keyboard Shortcuts
+<string>Name Display: Interactables
+<string>Name Display: Characters & Palicoes
+<string>Minimap Rotation
+<string>Adjusts whether the minimap rotates.
+<string>Rotating
+<string>Rotates the minimap with the orientation<lf>of the camera.
+<string>Fixed
+<string>Does not rotate the minimap. Its orientation<lf>is fixed with north facing up regardless of<lf>the direction the camera is facing.
+<string>Minimap Angle
+<string>Adjusts the angle settings of the minimap.
+<string>Fixed Overhead
+<string>The minimap displays a fixed and flat overhead<lf>view with no slant.
+<string>Fixed Angled
+<string>The minimap displays a fixed angled and <lf>three-dimensional view.
+<string>Align Angle with Camera
+<string>The minimap displays an angled view that<lf>follows the camera's orientation.
+<string>Minimap Size
+<string>Adjusts the size of the minimap in various<lf>situations.
+<string>Town Areas
+<string>Adjusts the size of the minimap within<lf>towns and bases.
+<string>Small
+<string>Displays the minimap smaller than the default<lf>size.
+<string>Default
+<string>Displays the minimap at the default size.
+<string>Large
+<string>Displays the minimap larger than the default<lf>size.
+<string>Aim/Focus Mode
+<string>Adjusts the size of the minimap while<lf>aiming or in Focus Mode.
+<string>Combat (Large Monsters)
+<string>Adjusts the size of the minimap while in combat<lf>with large monsters.
+<string>Holding <ICON PL_ITEM_SLIDER_OPEN>
+<string>Adjusts the size of the minimap while holding <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Minimap Scale
+<string>Adjusts the scale of the minimap in various<lf>situations.
+<string>Town Areas
+<string>Adjusts the scale of the minimap within<lf>towns and bases.
+<string>Small
+<string>Displays the minimap at a smaller scale.<lf><COLOR preset="TXT_Accent">(The minimap shows a relatively zoomed-out<lf>view of the area)</COLOR>
+<string>Default
+<string>Displays the minimap at the default size.<lf><COLOR preset="TXT_Accent">(The minimap shows a general view of the area.)</COLOR>
+<string>Large
+<string>Displays the minimap at a large scale.<lf><COLOR preset="TXT_Accent">(The minimap shows a more zoomed-in<lf>view of the area)</COLOR>
+<string>Aim/Focus Mode
+<string>Adjusts the scale of the minimap while in<lf>Aim/Focus Mode.
+<string>Combat (Large Monsters)
+<string>Adjusts the scale of the minimap while in combat<lf>with large monsters.
+<string>Holding <ICON PL_ITEM_SLIDER_OPEN>
+<string>Adjusts the scale of the minimap while holding <ICON PL_ITEM_SLIDER_OPEN>
+<string>Ally Hit Effects
+<string>Adjusts whether the hit effects of other players<lf>are displayed.<lf><COLOR preset="TXT_Accent">(The player's own effects are not affected.)</COLOR>
+<string>Display
+<string>Displays the hit effects of other players.
+<string>Do Not Display
+<string>Does not display the hit effects of other<lf>players.
+<string>Ally Critical Effects
+<string>Adjusts whether the critical effects of other<lf>players are displayed.<lf><COLOR preset="TXT_Accent">(The player's own effects are not affected.)</COLOR>
+<string>Display
+<string>Displays the critical effects of other players.
+<string>Do Not Display
+<string>Does not display the critical effects of other<lf>players.
+<string>Blood Effects
+<string>Adjusts whether blood effects are displayed.
+<string>Displayed
+<string>Displays blood effects.
+<string>Does Not Display
+<string>Does not display blood effects.
+<string>HUD
+<string>Adjust display settings for the HUD.
+<string>Health Gauge Display
+<string>Adjusts display settings for the Health Gauge.
+<string>Fixed
+<string>Fully displays the Hunter's Health Gauge<lf>at all times.
+<string>Dynamic
+<string>Displays a minimized Health Gauge by default.<lf>The gauge will expand to its full display in<lf>response to certain situations.
+<string>Stamina Gauge Display
+<string>Adjusts display settings for the Stamina Gauge.
+<string>Fixed
+<string>Displays the Hunter's Stamina Gauge at all times.
+<string>Dynamic
+<string>Displays a minimized Stamina Gauge by default.<lf>The gauge will expand to its full display in<lf>response to certain situations.
+<string>Sharpness Gauge Display
+<string>Adjusts display settings for the sharpness gauge.
+<string>Fixed
+<string>Displays the Hunter's sharpness gauge<lf>at all times.
+<string>Dynamic
+<string>Displays a minimized sharpness gauge by<lf>default. The gauge will expand to its full<lf>display in response to certain situations.
+<string>Companion Health Gauge Display
+<string>Adjusts the Health Gauge display settings<lf>for your Palico and other companions.
+<string>Fixed
+<string>Displays the Health Gauges of your Palico<lf>and other companions at all times.
+<string>Dynamic
+<string>Displays a minimized Health Gauge for your<lf>Palico and other companions by default.<lf>The gauge will expand to its full display<lf>in response to certain situations.
+<string>Chat Window
+<string>Adjusts the settings for the communication<lf>window and chat log after a message is sent.
+<string>Close Window
+<string>Closes the communications window or chat<lf>log after a message is sent.
+<string>Leave Open
+<string>Leaves the communications window or chat<lf>log open after a message is sent.
+<string>Closed Captions
+<string>Adjusts whether closed captions are displayed when<lf>story-related audio requires supplemental information.
+<string>Display
+<string>Displays closed captions.<lf><COLOR preset="TXT_Accent">(Only applies in certain situations.)</COLOR>
+<string>Do Not Display
+<string>Does not display closed captions.
+<string>Tutorial Amount
+<string>Adjusts the amount of tutorials displayed.
+<string>Display All
+<string>Displays all tutorials. Recommended for players<lf>who wish to learn the basics.
+<string>Display Some
+<string>Displays only standard tutorial messages.<lf>Recommended for experienced players.
+<string>Repeat Tutorials
+<string>Adjusts whether certain tutorials are displayed<lf>every time the conditions to trigger them are met.
+<string>Repeat
+<string>Repeats tutorial messages every time the trigger<lf>conditions are met.
+<string>Do Not Repeat
+<string>Does not repeat tutorial messages.<lf><COLOR preset="TXT_Accent">(Some tutorial messages may display repeatedly<lf>regardless of this setting.)</COLOR>
+<string>Menu Text Size
+<string>Adjusts the text size used in menus.
+<string>Small
+<string>Displays text smaller than the default size.
+<string>Default
+<string>Displays text the default size.
+<string>Large
+<string>Displays text larger than the default size.
+<string>Subtitle Text Size
+<string>Adjusts the size of subtitles.
+<string>Cutscene Subtitles
+<string>Adjusts whether to display subtitles for character dialogue.<lf><COLOR preset="TXT_Accent">(This setting only applies to cutscenes. Subtitles outside of<lf>cutscenes will always display, regardless of this setting.) </COLOR>
+<string>Display
+<string>Displays subtitles during cutscenes.<lf><COLOR preset="TXT_Accent">(In some cases, subtitles may not be available for<lf>short lines.)</COLOR>
+<string>Do Not Display
+<string>Does not display subtitles during cutscenes.<lf><COLOR preset="TXT_Accent">(Subtitles outside of cutscenes can not be turned off.)</COLOR>
+<string>Subtitle Background
+<string>Adjusts whether backgrounds are displayed behind<lf>subtitle text in order to improve readability.
+<string>Display
+<string>Displays a background behind subtitles.
+<string>Do Not Display
+<string>Does not display a background behind subtitles.
+<string>Speaker Names (Cutscenes)
+<string>Adjusts whether speaker names are displayed<lf>in cutscene subtitles.
+<string>Display
+<string>Displays speaker names in cutscenes.
+<string>Do Not Display
+<string>Does not display speaker names in cutscenes.
+<string>Speaker Names (Outside of Cutscenes)
+<string>Adjusts whether speaker names are displayed<lf>in non-cutscene subtitles.
+<string>Display
+<string>Displays speaker names outside of cutscenes.
+<string>Do Not Display
+<string>Does not display speaker names outside<lf>of cutscenes.
+<string>Hide Other Players' Seikret
+<string>Adjusts whether Seikret other than your own<lf>are hidden.<lf><COLOR preset="TXT_Accent">(Your Seikret is always displayed.)</COLOR>
+<string>On
+<string>Does not display unmounted Seikret from other<lf>players or Support Hunters. <COLOR preset="TXT_Accent">(Seikret will still<lf>display under certain circumstances.)</COLOR>
+<string>Off
+<string>Always displays unmounted Seikret from<lf>other players or Support Hunters.
+<string>Seikret Auto-Explore
+<string>Adjusts whether your Seikret automatically enters<lf>Auto-explore Mode when no waypoint has been set.
+<string>On
+<string>Seikret enter Auto-explore Mode if no waypoint<lf>has been set.
+<string>Off
+<string>Seikret do not enter Auto-explore Mode,<lf>even if no waypoint has been set.
+<string>Crossplay
+<string>Adjusts whether multiplayer across different<lf>platforms is allowed.
+<string>Enable
+<string>Enables crossplay settings, allowing you to play<lf>with users on different platforms.<lf><lf>You will be unable to engage in crossplay with<lf>users who have this setting disabled. Additionally,<lf>Squad functionality will be unavailable for Squads<lf>that have this setting disabled.
+<string>Disable
+<string>Disables crossplay settings, allowing you to only<lf>play with users on the same platform as you.<lf><lf>You will not be able to play with users who<lf>have this setting enabled. Additionally, Squad<lf>functionality will be unavailable for Squads that<lf>have this setting enabled.
+<string>A communication error occurred.<lf>Crossplay settings were not changed.<lf>{0}
+<string>Shortcut Name Display
+<string>Adjusts whether item, Shoutout, etc., names are<lf>displayed in the keyboard Shortcuts when all<lf>keyboard Shortcuts are displayed.
+<string>Display All
+<string>Displays the names of items, Shoutouts,<lf>etc., in all keyboard Shortcuts displayed.
+<string>Display Selected
+<string>Only displays the names of items, Shoutouts,<lf>etc., in the currently selected keyboard Shortcut.
+<string>Weapon Visibility
+<string>Adjusts when the currently equipped weapon<lf>is visible.
+<string>Show
+<string>Always displays the Hunter's weapon.
+<string>Hide During Cutscenes
+<string>Does not display the Hunter's weapon during<lf>cutscenes. <COLOR preset="TXT_Accent">(Weapons will still display under<lf>certain circumstances.)</COLOR>
+<string>Head Armor Visibility
+<string>Adjusts when the currently equipped head<lf>armor is visible.
+<string>Show
+<string>Displays the Hunter's head armor, reflecting current<lf>equipment and appearance settings. <COLOR preset="TXT_Accent">(Head armor<lf>will still be hidden under certain circumstances.)</COLOR>
+<string>Hide
+<string>Does not display the Hunter's head armor,<lf>regardless of current equipment and<lf>appearance settings.
+<string>Hide During Cutscenes
+<string>Displays the Hunter's head armor, reflecting<lf>current equipment and appearance settings,<lf>except during cutscenes.
+<string>Support Hunter Settings
+<string>Adjusts Support Hunter actions and <lf>related settings.
+<string>Support Hunter Damage Display
+<string>Adjusts whether damage numbers are displayed<lf>when a Support Hunter attacks a monster.
+<string>Enable
+<string>Off
+<string>Support Hunter Offset Attacks
+<string>Adjusts whether Support Hunters are able<lf>to offset monster attacks.
+<string>Enables Support Hunters to perform<lf>offset attacks.
+<string>Disables Support Hunters from performing<lf>offset attacks.
+<string>Support Hunter Power Clash
+<string>Adjusts whether Support Hunters are able<lf>to perform power clashes with monsters.
+<string>Enables Support Hunters to perform<lf>power clashes.
+<string>Disables Support Hunters from performing<lf>power clashes.
+<string>Support Hunter Monster Mounting
+<string>Adjusts whether Support Hunters are able<lf>to mount monsters.
+<string>Enables Support Hunters to mount monsters.
+<string>Disables Support Hunters from mounting<lf>monsters.
+<string>Support Hunter Slinger
+<string>Adjusts whether Support Hunters are able<lf>to use their Slinger.
+<string>Enables Support Hunters to use their Slinger.
+<string>Disables Support Hunters from using<lf>their Slinger.
+<string>Support Hunter Trap Setting
+<string>Adjusts whether Support Hunters are able<lf>to set traps.
+<string>Enables Support Hunters to set traps.
+<string>Disables Support Hunters from setting traps.
+<string>Obscured Hunter Visibility
+<string>Displays the Hunter as a transparent silhouette<lf>when obscured from view by a monster.
+<string>Off
+<string>Does not display a transparent silhouette<lf>when obscured from view by a monster.
+<string>Type 1
+<string>Displays a silhouette with a white outline when<lf>the Hunter is obscured from view by a monster.
+<string>Type 2
+<string>Displays a silhouette with a black outline when<lf>the Hunter is obscured from view by a monster.
+<string>Type 3
+<string>Displays a silhouette with a yellow outline when<lf>the Hunter is obscured from view by a monster.
+<string>Type 4
+<string>Displays a silhouette with a red outline when<lf>the Hunter is obscured from view by a monster.
+<string>Type 5
+<string>Displays a silhouette with a blue outline when<lf>the Hunter is obscured from view by a monster.
+<string>Synchronized Picture Save
+<string>Adjusts whether pictures taken with the camera<lf>function are saved to both save data and console<lf>storage.
+<string>Synchronize
+<string>Saves pictures to both save data<lf>and console storage.
+<string>Do Not Synchronize
+<string>Only saves pictures to save data.
+<string>Anonymize Names of Other Players
+<string>Adjusts whether the names of other players<lf>are displayed anonymously.
+<string>Anonymize All Other Player Names
+<string>Displays anonymized names for all player names<lf>besides your own.<lf><COLOR preset="TXT_Accent">(Hunter Profiles are not anonymized.)</COLOR>
+<string>Anonymize Players Outside Link Party
+<string>Displays anonymized names for players that<lf>are not members of your Link Party.<lf><COLOR preset="TXT_Accent">(Hunter Profiles are not anonymized.)</COLOR>
+<string>Do Not Anonymize Names
+<string>Does not display anonymized names for<lf>anyone, including yourself.
+<string>Hunting Horn Button Guide Settings
+<string>Adjusts the button guide display settings<lf>for the hunting horn.
+<string>Type 1
+<string>Displays the regular button guide when<lf>the hunting horn is sheathed, and also<lf>displays the list of Melody Effects when<lf>the hunting horn is drawn.
+<string>Type 2
+<string>Only displays the list of Melody Effects<lf>without displaying the regular button<lf>guide, regardless of whether the hunting<lf>horn is sheathed or drawn.
+<string>Type 3
+<string>Displays the regular button guide regardless<lf>of whether the hunting horn is sheathed or<lf>drawn, and only displays the list of Melody<lf>Effects when pressing and holding <ICON PL_ITEM_SLIDER_OPEN><lf>while the hunting horn is drawn.
+<string>Master Volume
+<string>Adjusts overall sound volume.<lf><COLOR preset="TXT_Accent">(Does not affect voice chat volume.)</COLOR>
+<string>Voice Volume
+<string>Adjusts the volume of in-game voices.
+<string>Voice Volume (Sending Auto Shoutouts)
+<string>Adjusts the volume of voiced Auto Shoutouts.
+<string>Voice Volume (Receiving Auto Shoutouts)
+<string>Adjusts the volume of voices when receiving<lf>voiced Auto Shoutouts.
+<string>BGM Volume
+<string>Adjusts the volume of background music.
+<string>Sound Effect Volume
+<string>Adjusts the volume of sound effects.
+<string>Audio Mixing
+<string>Sets your playback device to optimize your<lf>listening environment.
+<string>TV
+<string>Sound settings optimized for TV speakers.
+<string>TV (3D Audio)
+<string>Sound settings optimized for TV (3D Audio).
+<string>Headphones
+<string>Sound settings optimized for headphones.
+<string>Speakers (Stereo)
+<string>Sound settings optimized for stereo speakers.
+<string>Speakers (Surround Sound)
+<string>Sound settings optimized for surround sound speakers.
+<string>Sound Bar
+<string>Sound settings optimized for a sound bar.
+<string>Neck Speakers
+<string>Sound settings optimized for neck speakers.
+<string>Night Mode
+<string>Sound settings optimized for playing at low volume.
+<string>Mono Audio
+<string>Turns monaural audio on or off.
+<string>On
+<string>Plays game audio in mono.<lf><COLOR preset="TXT_Accent">(Right and left speakers play the same audio.)</COLOR>
+<string>Off
+<string>Plays game audio in stereo.
+<string>Sound Output
+<string>Provides sound output information.
+<string>Voice Chat
+<string>Adjusts whether voice chat is used.
+<string>Enable
+<string>Enables voice chat.
+<string>Disable
+<string>Disables voice chat.
+<string>Push-to-Talk
+<string>Enables voice chat to transmit audio only when<lf>the assigned key is pressed.<lf><COLOR preset="TXT_Accent">(Keyboard-only function)</COLOR>
+<string>Voice Chat Volume
+<string>Adjust the volume of other parties in voice chat.
+<string>Voice Chat Auto-swap
+<string>Adjusts whether to switch voice chat channels<lf>automatically based on quest status.<lf><COLOR preset="TXT_Accent">(Manual switching can be done at any time.)</COLOR>
+<string>Prioritize Quest Members
+<string>Automatically switches to quest member voice<lf>chat when starting a quest, and Link Member<lf>voice chat when returning from a quest.
+<string>Prioritize Link Members
+<string>Automatically switches to Link Member voice<lf>chat when joining a Link Party, regardless of<lf>quest status.
+<string>Do Not Prioritize
+<string>Does not prioritize or automatically switch<lf>voice chat channels. Switching must be<lf>done manually.
+<string>Palico Language
+<string>Adjusts the language spoken by Palicoes.
+<string>Felyne Language
+<string>Adjusts all Felyne voices, including your Palico's,<lf>to Felyne language. <COLOR preset="TXT_Accent">(This setting can also<lf>be changed in character creation.)</COLOR>
+<string>Set Voice Type
+<string>Adjusts all Felyne voices, including your Palico's,<lf>to the voice type set during character creation.<lf><COLOR preset="TXT_Accent">(Felyne Language will not be used.)</COLOR>
+<string>Play Voice Audio When Inactive
+<string>Adjusts voice audio playback settings when<lf>the game window is inactive.
+<string>On
+<string>Plays voice audio even when the game window<lf>is inactive.
+<string>Off
+<string>Does not play voice audio when the game<lf>window is inactive.
+<string>Play BGM When Inactive
+<string>Adjusts BGM audio playback settings when<lf>the game window is inactive.
+<string>Plays BGM audio even when the game window<lf>is inactive.
+<string>Does not play BGM audio when the game window<lf>is inactive.
+<string>Play Sound Effects When Inactive
+<string>Adjusts sound effect playback settings when<lf>the game window is inactive.
+<string>Plays sound effects even when the game window<lf>is inactive.
+<string>Does not play sound effects when the game<lf>window is inactive.
+<string>Color Blindness Assistance
+<string>Adjusts certain colors to accommodate for<lf>color vision differences.
+<string>Trichromatic (No Assistance)
+<string>Protanope
+<string>Deuteranope
+<string>Tritanope
+<string>Arachnophobia Assistance
+<string>Adjusts the appearance of multi-legged creatures such<lf>as arachnids, insect-like small monsters, and endemic<lf>life. <COLOR preset="TXT_Accent">(Does not affect creature movements or difficulty.)</COLOR>
+<string>On
+<string>Adjusts the appearance of some small monsters<lf>and endemic life to accommodate players with<lf>arachnophobia.
+<string>Off
+<string>Does not adjust the appearance of small monsters<lf>or endemic life with arachnid or insect-like features.
+<string>Visual Accessibility
+<string>Adjusts all settings to those recommended for people<lf>who require visual assistance. You can view the details<lf>of each setting before confirming.
+<string>Apply recommended Visual Accessibility settings?
+<string>Auditory Accessibility
+<string>Adjusts all settings to those recommended for<lf>people who require auditory assistance. You can<lf>view the details of each setting before confirming.
+<string>Apply recommended Auditory Accessibility settings?
+<string>Motion Sickness Reduction
+<string>Adjusts all settings to those recommended<lf>for reducing motion sickness. You can view<lf>the details of each setting before confirming.
+<string>Apply recommended Motion Sickness Reduction<lf>settings?
+<string>Automatic Settings
+<string>Adjusts settings to match your gaming environment.
+<string>Adjusts the size of the HUD and text to better fit your gaming<lf>environment. Select the option that best suits your current<lf>playing conditions and the settings will adjust accordingly.
+<string>Automatic Settings: Desk
+<string>Automatically adjusts a wide range of conditions<lf>to optimize the experience for playing at a desk.
+<string>Apply Automatic Settings: Desk?
+<string>Automatic Settings: Living Room
+<string>Automatically adjusts a wide range of conditions<lf>to optimize the experience for playing in a living<lf>room at an increased distance from the screen.
+<string>Apply Automatic Settings: Living Room?
+<string>Text Language
+<string>Adjusts text language settings.<lf><COLOR preset="TXT_Accent">(Changes will be reflected after exiting<lf>the Settings Menu.)</COLOR>
+<string><REF RefLanguage_0000_000_0>
+<string><REF RefLanguage_0000_001_0>
+<string><REF RefLanguage_0000_002_0>
+<string><REF RefLanguage_0000_003_0>
+<string><REF RefLanguage_0000_004_0>
+<string><REF RefLanguage_0000_005_0>
+<string><REF RefLanguage_0000_013_0>
+<string><REF RefLanguage_0000_008_0>
+<string><REF RefLanguage_0000_007_0>
+<string><REF RefLanguage_0000_006_0>
+<string><REF RefLanguage_0000_010_0>
+<string><REF RefLanguage_0000_011_0>
+<string><REF RefLanguage_0000_009_0>
+<string><REF RefLanguage_0000_012_0>
+<string>Voice Language
+<string>Adjusts voice language settings.
+<string><REF RefLanguage_0000_000>
+<string><REF RefLanguage_0000_001>
+<string><REF RefLanguage_0000_002>
+<string><REF RefLanguage_0000_003>
+<string><REF RefLanguage_0000_004>
+<string><REF RefLanguage_0000_005>
+<string><REF RefLanguage_0000_008>
+<string><REF RefLanguage_0000_006>

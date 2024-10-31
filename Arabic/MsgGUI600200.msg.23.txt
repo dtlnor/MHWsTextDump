@@ -1,0 +1,352 @@
+﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI600200_00_00
+<string>الهجوم القاطع الذي يصبح أكثر قوة كلما طالت مدة شحنه.<lf>يتيح استخدام الضربة الجانبية بعد الضربة القاطعة المشحونة<lf>استخدام ضربة قاطعة مشحونة قوية. يمكن استخدام ضربة<lf>قاطعة مشحونة خالصة بعد ذلك باستخدام <ICON WP00 PL_DUMMY_MOVE><ICON PLUS><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">.<lf>سيؤدي ضرب جزء طري من الوحش باستخدام ضربة<lf>قاطعة مشحونة خالصة إلى إطلاق <REF ActionGuideDataNameText_Wp00_2095506176>.<lf>لا يمكن <LSNR "إطاحتكَ" "إطاحتكِ"> إلى الخلف أو <LSNR "قذفكَ" "قذفكِ"> في الهواء أثناء الهجوم<lf>المتواصل، وهذا متاح أثناء الشحن من خلال الضغط<lf>على <ICON WP00 PL_ATTACK_01>. <LSNR "اختر" "اختاري"> التوقيت المناسب من أجل هجوم متواصل<lf>مثالي والحفاظ على <REF ActionGuideDataNameText_Wp00_605526016> الحالي.
+<string>الهجوم القاطع الذي يصبح أكثر قوة كلما طالت مدة شحنه.<lf>يتيح استخدام الضربة الجانبية بعد الضربة القاطعة المشحونة<lf>استخدام ضربة قاطعة مشحونة قوية. يمكن استخدام ضربة قاطعة<lf>مشحونة خالصة بعد ذلك باستخدام <ICON WP00 PL_MOVE_FRONT><ICON WP00 PL_MOVE_LEFT><ICON WP00 PL_MOVE_BACK><ICON WP00 PL_MOVE_RIGHT><ICON PLUS><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">.<lf>سيؤدي ضرب جزء طري من الوحش باستخدام ضربة قاطعة<lf>مشحونة خالصة إلى إطلاق <REF ActionGuideDataNameText_Wp00_2095506176>.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP00 PL_ATTACK_01> أثناء الشحن لتنفيذ هجوم متواصل<lf>والذي يمنع التراجع أو القذف في الهواء.<lf>يمكن اختيار توقيته من أجل هجوم متواصل مثالي والحفاظ<lf>على مستوى الشحن الحالي.
+<string>
+<string>
+<string><LSNR "يمكنكَ" "يمكنكِ"> استهلاك مقياس الروح<lf> لتنفيذ عدد من هجمات الهجوم القاطع.<lf>يمكن تعديل اتجاه نصل الروح 1<lf> ونصل الروح 2 باستخدام <ICON WP03 PL_DUMMY_MOVE>.<lf>الضغط على <ICON WP03 PL_ATTACK_SP> بعد نصل الروح 1 سيقترن بنصل الروح 2<lf>والذي سيقترن بنصل الروح 3 باستخدام <ICON WP03 PL_ATTACK_SP>.<lf>الضغط على <ICON WP03 PL_ATTACK_SP> بعد نصل الروح 3<lf>سيقترن بضربة الروح القاطعة المستديرة.<lf>يمكن إقران ضربة الروح القاطعة المستديرة<lf> بضربة قاطعة قرمزية أثناء الدوران باستخدام<lf> <ICON WP03 PL_ATTACK_SP> عندما يكون المقياس أحمر.
+<string>هجمات شيفرة الروح هي عدد من هجمات الهجوم القاطع<lf>التي تستهلك مقياس الروح. يمكن تعديل اتجاه<lf>نصل الروح 1 ونصل الروح 2 باستخدام <ICON WP03 PL_MOVE_FRONT><ICON WP03 PL_MOVE_LEFT><ICON WP03 PL_MOVE_BACK><ICON WP03 PL_MOVE_RIGHT>.<lf><lf>هجمات شيفرة الروح المتتالية:<lf>نصل الروح 1 <ICON WP03 PL_ATTACK_SP> > نصل الروح 2 <ICON WP03 PL_ATTACK_SP> ><lf>نصل الروح 3 <ICON WP03 PL_ATTACK_SP> > ضربة الروح القاطعة المستديرة <ICON WP03 PL_ATTACK_SP><lf><lf>يمكن إقران ضربة الروح القاطعة المستديرة بضربة قاطعة<lf>قرمزية أثناء الدوران باستخدام <ICON WP03 PL_ATTACK_SP> عندما يكون مقياس الروح أحمر.
+<string>
+<string>
+<string>هجوم اندفاع<lf>فعَّال ضد الجروح.<lf><lf>سيطلق ضرب الجرح<lf>أو نقطة الضعف<lf>بهذا الهجوم هجومًا قاطعًا<lf>وسيرتفع المقياس<lf>بمقدار لون واحد.<lf>كلما زاد عدد الجروح المدمرة،<lf>زاد المقياس.<lf><lf>يمكن تغيير اتجاه الهجوم<lf>باستخدام <ICON WP03 PL_DUMMY_MOVE>.
+<string>هجوم اندفاع<lf>فعَّال ضد الجروح.<lf><lf>سيطلق ضرب الجرح<lf>أو نقطة الضعف<lf>بهذا الهجوم هجومًا قاطعًا<lf>وسيرتفع المقياس<lf>بمقدار لون واحد.<lf>كلما زاد عدد الجروح المدمرة،<lf>زاد المقياس.<lf><lf>يمكن تغيير اتجاه الهجوم<lf>باستخدام <ICON WP03 PL_MOVE_FRONT><ICON WP03 PL_MOVE_LEFT><ICON WP03 PL_MOVE_BACK><ICON WP03 PL_MOVE_RIGHT>.
+<string>
+<string>
+<string>هجوم أساسي بالسيف. يمكن إقرانه حتى أربع مرات.<lf>يمكن ضبط الوضع<lf>خلال الضربات المتتالية باستخدام <ICON WP01 PL_DUMMY_MOVE>.
+<string>هجوم أساسي بالسيف.<lf>يمكن إقرانه حتى أربع مرات.<lf>يمكن ضبط الوضع خلال الضربات المتتالية<lf>باستخدام <ICON WP01 PL_MOVE_FRONT><ICON WP01 PL_MOVE_LEFT><ICON WP01 PL_MOVE_BACK><ICON WP01 PL_MOVE_RIGHT>.
+<string>
+<string>
+<string>الضغط على <ICON WP01 PL_DUMMY_MOVE><ICON PLUS><ICON WP01 PL_ATTACK_01><lf>لتنفيذ ضربة ترس<lf>قادرة على صعق الوحوش.<lf>ستؤدي <ICON WP01 PL_ATTACK_01> بمفردها إلى تنفيذ ضربة قاطعة ثانوية قوية.
+<string>الضغط على <ICON WP01 PL_MOVE_FRONT><ICON WP01 PL_MOVE_LEFT><ICON WP01 PL_MOVE_BACK><ICON WP01 PL_MOVE_RIGHT><ICON PLUS><ICON WP01 PL_ATTACK_01><lf>لتنفيذ ضربة ترس<lf>قادرة على صعق الوحوش.<lf>ستؤدي <ICON PL_ATTACK_01> بمفردها<lf>إلى تنفيذ ضربة قاطعة ثانوية قوية.
+<string>
+<string>
+<string>ضربات متتالية أساسية.<lf><LSNR "يمكنكَ" "يمكنكِ"> ضبط الوضعية باستخدام <ICON WP01 PL_DUMMY_MOVE><lf>أثناء الضربات المتتالية.
+<string>ضربات متتالية أساسية.<lf><LSNR "يمكنكَ" "يمكنكِ"> ضبط الوضعية باستخدام<lf><ICON WP01 PL_MOVE_FRONT><ICON WP01 PL_MOVE_LEFT><ICON WP01 PL_MOVE_BACK><ICON WP01 PL_MOVE_RIGHT> أثناء الضربات المتتالية.
+<string>
+<string>
+<string>الهجوم القاطع<lf>الذي يتقدم في اتجاه <ICON WP02 PL_DUMMY_MOVE>.<lf><lf>سيؤدي الضغط على <ICON WP02 PL_ATTACK_01> مرة أخرى<lf>إلى ضربة قاطعة دوّارة.
+<string>الهجوم القاطع<lf>الذي يتقدم في اتجاه <ICON WP02 PL_MOVE_FRONT><ICON WP02 PL_MOVE_LEFT><ICON WP02 PL_MOVE_BACK><ICON WP02 PL_MOVE_RIGHT>.<lf><lf>سيؤدي الضغط على <ICON PL_ATTACK_01> مرة أخرى<lf>إلى ضربة قاطعة دوّارة.
+<string>
+<string>
+<string>سلسلة من الهجمات التي لا يمكن تنفيذها<lf>إلا في وضع العفريت الرئيسي وتستهلك مقياس العفريت.<lf><LSNR "استخدم" "استخدمي"> <ICON WP02 PL_DUMMY_MOVE> للمناورة بالهجوم.<lf><lf>يمكن إقران ثورة العفريت ورقصة النصل معًا<lf>بالضغط على <ICON WP02 PL_ATTACK_SP>.
+<string>سلسلة من الهجمات التي لا يمكن تنفيذها<lf>إلا في وضع العفريت الرئيسي وتستهلك مقياس العفريت.<lf><LSNR "استخدم" "استخدمي"> <ICON WP02 PL_MOVE_FRONT><ICON WP02 PL_MOVE_LEFT><ICON WP02 PL_MOVE_BACK><ICON WP02 PL_MOVE_RIGHT> للمناورة بالهجوم.<lf><lf>يمكن إقران ثورة العفريت ورقصة النصل معًا<lf>بالضغط على <ICON WP02 PL_ATTACK_SP>.
+<string>
+<string>
+<string>تنفيذ ضربات متتالية أساسية.<lf>استخدام <ICON WP04 PL_ATTACK_00><lf>بعد ضربة من أعلى الرأس 1<lf>لإقران ضربة من أعلى الرأس 2<lf>ومرة أخرى لاستخدام ضربات علوية.<lf>يمكن ضبط الوضعية<lf>بعد ضربة من أعلى الرأس 1<lf>باستخدام <ICON WP04 PL_DUMMY_MOVE>.<lf>يمكن للضربات العلوية<lf>إبطال هجمات الوحش.<lf>يمكن تأخيرها بالضغط على <ICON WP04 PL_ATTACK_00>.
+<string>تنفيذ ضربات متتالية أساسية.<lf>استخدام <ICON WP04 PL_ATTACK_00><lf>بعد ضربة من أعلى الرأس 1<lf>لإقران ضربة من أعلى الرأس 2<lf>ومرة أخرى لاستخدام ضربات علوية.<lf>يمكن ضبط الوضعية<lf>بعد ضربة من أعلى الرأس 1<lf>باستخدام <ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>.<lf>يمكن للضربات العلوية<lf>إبطال هجمات الوحش.<lf>يمكن تأخيرها بالضغط على <ICON WP04 PL_ATTACK_00>.
+<string>
+<string>
+<string>هجوم أساسي يشغِّل النغمة الأولى.<lf>سيؤدي الضغط على <ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>إلى تنفيذ ضربة قاطعة استباقية.
+<string>هجوم أساسي يشغِّل النغمة الأولى.<lf>سيؤدي الضغط على <ICON WP05 PL_MOVE_FRONT><ICON WP05 PL_MOVE_LEFT><ICON WP05 PL_MOVE_BACK><ICON WP05 PL_MOVE_RIGHT><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>إلى تنفيذ ضربة قاطعة استباقية.
+<string>
+<string>
+<string><ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><ICON WP05 PL_MOVE_FRONT><ICON WP05 PL_MOVE_LEFT><ICON WP05 PL_MOVE_BACK><ICON WP05 PL_MOVE_RIGHT><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><ICON WP05 PL_MOVE_FRONT><ICON WP05 PL_MOVE_LEFT><ICON WP05 PL_MOVE_BACK><ICON WP05 PL_MOVE_RIGHT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>تنفيذ اندفاعات متتالية أساسية<lf><LSNR "أمامكَ" "أمامكِ">.<lf>سيسمح استخدام هذا في وضع التركيز<lf>بالتحرك في الاتجاه الذي تم إدخاله باستخدام<lf><ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_ATTACK_00><lf>أثناء الاندفاعات المتتالية.<lf>يمكن ربط ما يصل إلى ثلاثة اندفاعات<lf>مع إقران الاندفاع المتوسط 3<lf>إلى الاندفاع الثلاثي باستخدام <ICON WP06 PL_ATTACK_00>.
+<string>تنفيذ اندفاعات متتالية أساسية<lf><LSNR "أمامكَ" "أمامكِ">.<lf>سيسمح استخدام هذا في وضع التركيز<lf>بالتحرك في الاتجاه الذي تم إدخاله<lf>باستخدام <ICON WP06 PL_MOVE_FRONT><ICON WP06 PL_MOVE_LEFT><ICON WP06 PL_MOVE_BACK><ICON WP06 PL_MOVE_RIGHT><ICON PLUS><ICON WP06 PL_ATTACK_00><lf>أثناء الاندفاعات المتتالية.<lf>يمكن ربط ما يصل إلى ثلاثة اندفاعات<lf>مع إقران الاندفاع المتوسط 3<lf>إلى الاندفاع الثلاثي باستخدام <ICON WP06 PL_ATTACK_00>.
+<string>
+<string>
+<string><LSNR "استخدم ترسكَ" "استخدمي ترسكِ"> للتصدي والذي يمكن تنفيذه<lf>أيضًا أثناء الضربات المتتالية.<lf><LSNR "ستنفذ" "ستنفذين"> الهجوم المضاد تلقائيًا بعد التصدي<lf>إذا كان رد فعل التصدي صغيرًا بما يكفي.<lf>كما أن استخدام التصدي المثالي سيتيح تنفيذ<lf>هجوم مضاد قوي.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_ATTACK_00> للمضي قدمًا<lf>أثناء رفع الترس لأعلى.<lf>سيؤدي الضغط على <ICON WP06 PL_ATTACK_00> بعد ذلك إلى تنفيذ<lf>هجوم الترس بينما سيؤدي الضغط على <ICON WP06 PL_ATTACK_01><lf>إلى اندفاع أثناء القفز.
+<string><LSNR "استخدم ترسكَ" "استخدمي ترسكِ"> للتصدي والذي يمكن تنفيذه<lf>أيضًا أثناء الضربات المتتالية.<lf><LSNR "ستنفذ" "ستنفذين"> الهجوم المضاد تلقائيًا بعد التصدي<lf>إذا كان رد فعل التصدي صغيرًا بما يكفي.<lf>كما أن استخدام التصدي المثالي سيتيح تنفيذ<lf>هجوم مضاد قوي.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP06 PL_MOVE_FRONT><ICON WP06 PL_MOVE_LEFT><ICON WP06 PL_MOVE_BACK><ICON WP06 PL_MOVE_RIGHT><ICON PLUS><ICON WP06 PL_ATTACK_00><lf>للمضي قدمًا أثناء رفع الترس لأعلى.<lf>سيؤدي الضغط على <ICON WP06 PL_ATTACK_00> بعد ذلك إلى تنفيذ<lf>هجوم الترس بينما سيؤدي الضغط على <ICON WP06 PL_ATTACK_01><lf>إلى اندفاع أثناء القفز.
+<string>
+<string>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_ATTACK_00>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_MOVE_FRONT><ICON WP06 PL_MOVE_LEFT><ICON WP06 PL_MOVE_BACK><ICON WP06 PL_MOVE_RIGHT><ICON PLUS><ICON WP06 PL_ATTACK_00>
+<string>اندفاع للأمام والرمح في <LSNR "يدكَ" "يدكِ">.<lf><LSNR "يمكنكَ" "يمكنكِ"> الهجوم عدة مرات أثناء الركض، لكن قوة<lf>التحمل ستُستنزف ببطء.<lf>سترتفع كل من السرعة وقوة الهجوم بعد الركض<lf>لفترة قصيرة.<lf><LSNR "يمكنكَ" "يمكنكِ"> التحرك والدوران مع الحفاظ على الزخم<lf>أثناء هجوم الانطلاق باستخدام <ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_DODGE> و<ICON WP06 PL_DUMMY_MOVE><lf>على التوالي.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم اندفاع قوي باستخدام الزخم<lf>مع <ICON WP06 PL_ATTACK_00> أو <ICON WP06 PL_ATTACK_01>.<lf>من الممكن أيضًا استخدام اندفاع الضربة الثنائية<lf>القاضية الأكثر قوة عند تخطي سرعة معينة.
+<string>اندفاع للأمام والرمح في <LSNR "يدكَ" "يدكِ">.<lf><LSNR "يمكنكَ" "يمكنكِ"> الهجوم عدة مرات أثناء الركض، لكن قوة<lf>التحمل ستُستنزف ببطء.<lf>سترتفع كل من السرعة وقوة الهجوم بعد الركض<lf>لفترة قصيرة.<lf><LSNR "يمكنكَ" "يمكنكِ"> التحرك والدوران مع الحفاظ على الزخم أثناء<lf>هجوم الانطلاق باستخدام <ICON WP06 PL_MOVE_FRONT><ICON WP06 PL_MOVE_LEFT><ICON WP06 PL_MOVE_BACK><ICON WP06 PL_MOVE_RIGHT><ICON PLUS><ICON WP06 PL_DODGE><lf>و <ICON WP06 PL_MOVE_FRONT><ICON WP06 PL_MOVE_LEFT><ICON WP06 PL_MOVE_BACK><ICON WP06 PL_MOVE_RIGHT> على التوالي.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم اندفاع قوي باستخدام الزخم<lf>مع <ICON WP06 PL_ATTACK_00> أو <ICON WP06 PL_ATTACK_01>.<lf>من الممكن أيضًا استخدام اندفاع الضربة الثنائية<lf>القاضية الأكثر قوة عند تخطي سرعة معينة.
+<string>
+<string>
+<string><ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_DODGE>
+<string><ICON WP06 PL_MOVE_FRONT><ICON WP06 PL_MOVE_LEFT><ICON WP06 PL_MOVE_BACK><ICON WP06 PL_MOVE_RIGHT><ICON PLUS><ICON WP06 PL_DODGE>
+<string>الهجوم الذي يطلق الذخيرة<lf>يخترق سماكة جلد الوحش.<lf><LSNR "يمكنكَ" "يمكنكِ"> إجراء اجتياح كبير<lf>أثناء التحرك في الاتجاه المختار<lf>باستخدام <ICON WP07 PL_DUMMY_MOVE> و<ICON WP07 PL_DUMMY_MOVE><ICON PLUS><ICON WP07 PL_ATTACK_01><lf>بعد الهجوم. <LSNR "يمكنكَ" "يمكنكِ"> تسديد ضربة<lf>أثناء التحرك<lf>في الاتجاه المختار<lf>باستخدام <ICON WP07 PL_DUMMY_MOVE> و<ICON WP07 PL_DUMMY_MOVE><ICON PLUS><ICON WP07 PL_ATTACK_00><lf>بعد الهجوم.
+<string>الهجوم الذي يطلق <REF ActionGuideDataNameText_Wp07_m2033396096>.<lf>يلحق ضررًا ناريًا<lf>يخترق سماكة جلد الوحش.<lf><LSNR "يمكنكَ" "يمكنكِ"> إجراء القصف<lf>أثناء التحرك في الاتجاه المختار<lf>باستخدام <ICON WP07 PL_MOVE_FRONT><ICON WP07 PL_MOVE_LEFT><ICON WP07 PL_MOVE_BACK><ICON WP07 PL_MOVE_RIGHT> و<ICON WP07 PL_MOVE_FRONT><ICON WP07 PL_MOVE_LEFT><ICON WP07 PL_MOVE_BACK><ICON WP07 PL_MOVE_RIGHT><ICON PLUS><ICON WP07 PL_ATTACK_01><lf>بعد الهجوم. <LSNR "يمكنكَ" "يمكنكِ"> تسديد ضربة<lf>أثناء التحرك<lf>في الاتجاه المختار<lf>باستخدام <ICON WP07 PL_MOVE_FRONT><ICON WP07 PL_MOVE_LEFT><ICON WP07 PL_MOVE_BACK><ICON WP07 PL_MOVE_RIGHT><lf>و<ICON WP07 PL_MOVE_FRONT><ICON WP07 PL_MOVE_LEFT><ICON WP07 PL_MOVE_BACK><ICON WP07 PL_MOVE_RIGHT><ICON PLUS><ICON WP07 PL_ATTACK_00><lf>بعد الهجوم.
+<string>
+<string>
+<string><ICON WP07 PL_DUMMY_MOVE><ICON PLUS><ICON WP07 PL_ATTACK_00>
+<string><ICON WP07 PL_MOVE_FRONT><ICON WP07 PL_MOVE_LEFT><ICON WP07 PL_MOVE_BACK><ICON WP07 PL_MOVE_RIGHT><ICON PLUS><ICON WP07 PL_ATTACK_00>
+<string><ICON WP07 PL_DUMMY_MOVE><ICON PLUS><ICON WP07 PL_ATTACK_00>
+<string><ICON WP07 PL_MOVE_FRONT><ICON WP07 PL_MOVE_LEFT><ICON WP07 PL_MOVE_BACK><ICON WP07 PL_MOVE_RIGHT><ICON PLUS><ICON WP07 PL_ATTACK_00>
+<string><LSNR "يمكنكَ" "يمكنكِ"> التحول إلى وضع السيف<lf>عندما يكون مقياس التبديل عند 30% أو أعلى.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا استخدام الفأس: ضربة مورف القاطعة<lf>مع <ICON WP08 PL_DUMMY_MOVE><ICON PLUS><ICON WP08 PL_ATTACK_SP>.<lf>إذا لم يكن مقياس التبديل كافيًا<lf>فسيكون البديل هو<lf>إعادة التلقيم.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التحول إلى وضع السيف<lf>عندما يكون مقياس التبديل عند 30% أو أعلى.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا استخدام الفأس: ضربة مورف القاطعة<lf>مع <ICON WP08 PL_MOVE_FRONT><ICON WP08 PL_MOVE_LEFT><ICON WP08 PL_MOVE_BACK><ICON WP08 PL_MOVE_RIGHT><ICON PLUS><ICON WP08 PL_ATTACK_SP>.<lf>إذا لم يكن مقياس التبديل كافيًا<lf>فسيكون البديل هو<lf>إعادة التلقيم.
+<string>
+<string>
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ السيف: ضربة قاطعة من الأرض جهة اليمين<lf>بعد السيف: ضربة قاطعة من أعلى الرأس.<lf>بعد السيف: ضربة قاطعة من الأرض جهة اليمين<lf><LSNR "يمكنكَ" "يمكنكِ"> الضغط على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ السيف: ضربة قاطعة من الأرض جهة اليسار.<lf><LSNR "يمكنكَ" "يمكنكِ"> ضبط الوضعية أثناء هذا الهجوم باستخدام <ICON WP08 PL_DUMMY_MOVE>.
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ السيف: ضربة قاطعة من الأرض جهة اليمين<lf>بعد السيف: ضربة قاطعة من أعلى الرأس.<lf>بعد السيف: ضربة قاطعة من الأرض جهة اليمين<lf><LSNR "يمكنكَ" "يمكنكِ"> الضغط على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ السيف: ضربة قاطعة من الأرض جهة اليسار.<lf><LSNR "يمكنكَ" "يمكنكِ"> ضبط الوضعية أثناء هذا الهجوم باستخدام <ICON WP08 PL_MOVE_FRONT><ICON WP08 PL_MOVE_LEFT><ICON WP08 PL_MOVE_BACK><ICON WP08 PL_MOVE_RIGHT>.
+<string>
+<string>
+<string>التبديل إلى وضع الفأس.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا تنفيذ السيف: ضربة مورف القاطعة<lf>باستخدام <ICON WP08 PL_DUMMY_MOVE><ICON PLUS><ICON WP08 PL_ATTACK_SP>.
+<string>التبديل إلى وضع الفأس.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا تنفيذ السيف: ضربة مورف القاطعة<lf>باستخدام <ICON WP08 PL_MOVE_FRONT><ICON WP08 PL_MOVE_LEFT><ICON WP08 PL_MOVE_BACK><ICON WP08 PL_MOVE_RIGHT><ICON PLUS><ICON WP08 PL_ATTACK_SP>.
+<string>
+<string>
+<string>ضربات متتالية أساسية في وضع السيف.<lf><LSNR "يمكنكَ" "يمكنكِ"> التحرك في الاتجاه المختار أثناء<lf>الهجوم باستخدام <ICON WP08 PL_DUMMY_MOVE>.
+<string>ضربات متتالية أساسية<lf>في وضع السيف.<lf><LSNR "يمكنكَ" "يمكنكِ"> التحرك في الاتجاه المختار<lf>أثناء الهجوم باستخدام <ICON WP08 PL_MOVE_FRONT><ICON WP08 PL_MOVE_LEFT><ICON WP08 PL_MOVE_BACK><ICON WP08 PL_MOVE_RIGHT>.
+<string>
+<string>
+<string>أثناء الضربات المتتالية/وضع التركيز <ICON WP09 PL_DUMMY_MOVE><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>أثناء الضربات المتتالية/وضع التركيز <ICON WP09 PL_MOVE_FRONT><ICON WP09 PL_MOVE_LEFT><ICON WP09 PL_MOVE_BACK><ICON WP09 PL_MOVE_RIGHT><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string><LSNR "يمكنكَ" "يمكنكِ"> التحرك في الاتجاه المختار<lf>بعد كل هجوم أثناء الضربات المتتالية<lf>باستخدام <ICON WP09 PL_DUMMY_MOVE>.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ الضربات المتتالية على الفور<lf>في وضع التركيز.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التحرك في الاتجاه المختار<lf>بعد كل هجوم أثناء الضربات المتتالية<lf>باستخدام <ICON WP09 PL_MOVE_FRONT><ICON WP09 PL_MOVE_LEFT><ICON WP09 PL_MOVE_BACK><ICON WP09 PL_MOVE_RIGHT>.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ الضربات المتتالية على الفور<lf>في وضع التركيز.
+<string>
+<string>
+<string>بداية ضربات متتالية أساسية.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP09 PL_ATTACK_00> لإقرانه بـ الفأس: ضربة<lf>قاطعة من الأعلى أو <ICON WP09 PL_DUMMY_MOVE><ICON PLUS><ICON WP09 PL_ATTACK_00> لإقرانه<lf>بـ الفأس: ضربة قاطعة أفقية متلاشية.<lf><lf>الضغط مطولًا على <ICON WP09 PL_ATTACK_01> في وضع فأس<lf>القوة سيسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة.
+<string>بداية ضربات متتالية أساسية.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP09 PL_ATTACK_00> لإقرانه بـالفأس: ضربة قاطعة من أعلى الرأس<lf>أو معًا بـ<ICON WP09 PL_MOVE_FRONT><ICON WP09 PL_MOVE_LEFT><ICON WP09 PL_MOVE_BACK><ICON WP09 PL_MOVE_RIGHT> لإقرانه بـ<lf>الفأس: ضربة قاطعة أفقية متلاشية.<lf><lf>الضغط مطولًا على <ICON WP09 PL_ATTACK_01> في وضع فأس القوة<lf>سيسمح <LSNR "لكَ" "لكِ"> بإلحاق<lf>أضرار متعددة.
+<string>
+<string>
+<string>بداية ضربات متتالية أساسية.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP10 PL_ATTACK_00> بعد ضربات متتالية قاطعة لأعلى<lf>لتنفيذ ضربة حصاد قاطعة.<lf>سيؤدي الضغط على <ICON WP10 PL_ATTACK_00> مرة أخرى بعد ذلك<lf>إلى تنفيذ ضربة قاطعة مزدوجة.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم أثناء التحرك<lf>عن طريق الضغط مطولًا على <ICON WP10 PL_DUMMY_MOVE><lf>في الاتجاه المراد أثناء الضربات المتتالية القاطعة<lf>لأعلى أو ضربة الحصاد القاطعة.
+<string>بداية ضربات متتالية أساسية.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP10 PL_ATTACK_00> بعد ضربات متتالية قاطعة لأعلى<lf>لتنفيذ ضربة حصاد قاطعة.<lf>سيؤدي الضغط على <ICON WP10 PL_ATTACK_00> مرة أخرى بعد ذلك إلى تنفيذ ضربة قاطعة مزدوجة.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم أثناء التحرك<lf>عن طريق الضغط مطولًا على <ICON WP10 PL_MOVE_FRONT><ICON WP10 PL_MOVE_LEFT><ICON WP10 PL_MOVE_BACK><ICON WP10 PL_MOVE_RIGHT><lf>في الاتجاه المراد أثناء الضربات المتتالية القاطعة لأعلى<lf>أو ضربة الحصاد القاطعة.
+<string>
+<string>
+<string><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ عدد من الإجراءات<lf>المختلفة بعد الوثب.<lf><LSNR "سيمنحكَ" "سيمنحكِ"> الوثب للخلف<lf>تحصينًا مؤقتًا.<lf>سيؤدي الضغط على <ICON WP10 PL_ATTACK_00> في الهواء<lf>إلى هجوم <LSNR "ينقلكَ" "ينقلكِ"> لمسافة كبيرة للأمام،<lf>بينما سيؤدي الضغط<lf>على <ICON WP10 PL_ATTACK_01><lf>إلى هجوم أثناء السقوط على الأرض.<lf><LSNR "استخدم" "استخدمي"> <ICON WP10 PL_DODGE><lf>و<ICON WP10 PL_DUMMY_MOVE> للتفادي في الاتجاه المختار.
+<string><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ عدد من الإجراءات<lf>المختلفة بعد الوثب.<lf><LSNR "سيمنحكَ" "سيمنحكِ"> الوثب للخلف<lf>تحصينًا مؤقتًا.<lf>سيؤدي الضغط على <ICON WP10 PL_ATTACK_00> في الهواء<lf>إلى هجوم <LSNR "ينقلكَ" "ينقلكِ"> لمسافة كبيرة للأمام<lf>بينما سيؤدي الضغط على <ICON WP10 PL_ATTACK_01><lf>إلى هجوم أثناء السقوط على الأرض.<lf><LSNR "يمكنكَ" "يمكنكِ"> استخدام <ICON WP10 PL_DODGE><lf>و<ICON WP10 PL_MOVE_FRONT><ICON WP10 PL_MOVE_LEFT><ICON WP10 PL_MOVE_BACK><ICON WP10 PL_MOVE_RIGHT><lf>للتفادي الهوائي في الاتجاه المختار.
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_01_030_000">
+<string><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP><REF RefGeneral_0001_006><ICON WP13 UI_BULLET_ITEM_DOWN>
+<string><ICON WP13 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP13 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP13 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP13 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP13 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP13 UI_BULLET_ITEM_UP><REF RefGeneral_0001_006><ICON WP13 UI_BULLET_ITEM_DOWN>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_01_031_000">
+<string><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP><REF RefGeneral_0001_006><ICON WP12 UI_BULLET_ITEM_DOWN>
+<string><ICON WP12 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP12 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP12 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP12 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP12 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP12 UI_BULLET_ITEM_UP><REF RefGeneral_0001_006><ICON WP12 UI_BULLET_ITEM_DOWN>
+<string>تتوفر خطوة سريعة خاصة أثناء التصويب.<lf>سيسمح توقيت هذا مع هجوم الوحش<lf>بأداء المراوغة المميزة<lf>ورفع  مستوى الشحن<lf>وتجديد قوة التحمل ومقياس السهم الخادع.<lf>ستستعيد المراوغة بتوقيت أكثر دقة<lf>قوة التحمل ومقياس السهم الخادع<lf>بنسبة كبيرة.<lf>سيتيح الضغط على <ICON WP11 PL_ATTACK_00><lf>أثناء شحن الخطوة الجانبية<lf>إطلاق طلقة (سوالو) الطائر<lf>في اتجاه <ICON WP11 PL_DUMMY_MOVE>.
+<string>تتوفر خطوة سريعة خاصة أثناء التصويب.<lf>سيسمح توقيت هذا مع هجوم الوحش<lf>بأداء  المراوغة المميزة<lf>ورفع  مستوى الشحن<lf>وتجديد قوة التحمل ومقياس السهم الخادع<lf>قوة التحمل ومقياس السهم الخادع<lf>بنسبة كبيرة.<lf>سيتيح الضغط على <ICON WP11 PL_ATTACK_00><lf>أثناء شحن الخطوة الجانبية<lf>تنفيذ طلقة سوالو الطائر<lf>في اتجاه <ICON WP11 PL_MOVE_FRONT><ICON WP11 PL_MOVE_LEFT><ICON WP11 PL_MOVE_BACK><ICON WP11 PL_MOVE_RIGHT>.
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_01_033_000">
+<string><ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP><REF RefGeneral_0001_006><ICON WP11 UI_BULLET_ITEM_DOWN>
+<string><ICON WP11 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP11 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP11 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP11 UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON WP11 UI_LIST_REPEAT_L_DOWN>
+<string><ICON WP11 UI_BULLET_ITEM_UP><REF RefGeneral_0001_006><ICON WP11 UI_BULLET_ITEM_DOWN>
+<string><ICON WP13 PL_AIM>
+<string><ICON WP13 PL_AIM_SHOOTING>
+<string><LSNR "استخدم" "استخدمي"> <ICON WP13 PL_AIM><lf>لتجهيز بندقية القوس<lf>والتصويب بسهولة على الأهداف.<lf>تُطلق الذخيرة للأمام افتراضيًا<lf>ولكن يمكن إطلاقها في اتجاهات محددة<lf>من خلال التصويب.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP13 PL_AIM><ICON PLUS><ICON WP13 PL_ATTACK_SP_B><lf>لتنفيذ هجوم فعَّال على الجروح بشكل خاص.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP13 merge="PL_ATTACK_SP_B,HOLD_ON"><lf>أثناء إطلاق النار<lf>لزيادة الفاعلية والمدى الانفجاري.
+<string><LSNR "استخدم" "استخدمي"> <ICON WP13 PL_AIM_SHOOTING><lf>لتجهيز بندقية القوس<lf>والتصويب بسهولة على الأهداف.<lf>تُطلق الذخيرة للأمام افتراضيًا<lf>ولكن يمكن إطلاقها في اتجاهات محددة<lf>من خلال التصويب.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP13 PL_AIM_SHOOTING><ICON PLUS><ICON WP13 PL_ATTACK_SP_B><lf>لتنفيذ هجوم فعَّال على الجروح بشكل خاص.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP13 merge="PL_ATTACK_SP_B,HOLD_ON"><lf>أثناء إطلاق النار<lf>لزيادة الفاعلية والمدى الانفجاري.
+<string>
+<string>
+<string><ICON WP13 PL_AIM><ICON PLUS><ICON WP13 PL_ATTACK_SP_B>
+<string><ICON WP13 PL_AIM_SHOOTING><ICON PLUS><ICON WP13 PL_ATTACK_SP_B>
+<string><LSNR "استخدم" "استخدمي"> <ICON WP12 PL_AIM> لتجهيز بندقية القوس والتصويب<lf>بسهولة أكثر على الهدف. <LSNR "اضغط" "اضغطي"> على <ICON WP12 PL_ATTACK_SP_B><lf>لشن هجوم فعَّال ضد الجروح بشكل خاص.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP12 merge="PL_ATTACK_SP_B,HOLD_ON"> في وضع الاشتعال لهجوم<lf>أكثر قوة.
+<string><LSNR "اضغط" "اضغطي"> مطولًا على <ICON WP12 PL_AIM_SHOOTING><lf>لتجهيز بندقية القوس<lf>والتصويب بسهولة على الهدف.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP12 PL_ATTACK_SP_B> لشن هجوم<lf>فعَّال ضد الجروح بشكل خاص<lf>ثم <LSNR "اضغط" "اضغطي"> على <ICON WP12 merge="PL_ATTACK_SP_B,HOLD_ON"><lf>في وضع الاشتعال لهجوم أكثر قوة.
+<string>
+<string>
+<string><ICON WP12 PL_AIM><ICON PLUS><ICON WP12 PL_ATTACK_SP_B>
+<string><ICON WP12 PL_AIM_SHOOTING><ICON PLUS><ICON WP12 PL_ATTACK_SP_B>
+<string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string><ICON WP11 PL_AIM><ICON PLUS><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string><ICON WP11 PL_AIM_SHOOTING><ICON PLUS><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string><ICON WP11 PL_AIM><ICON PLUS><ICON WP11 PL_DODGE>
+<string><ICON WP11 PL_AIM_SHOOTING><ICON PLUS><ICON WP11 PL_DODGE>
+<string><ICON WP11 PL_AIM>
+<string><ICON WP11 PL_AIM_SHOOTING>
+<string><ICON WP11 PL_AIM><ICON PLUS><ICON WP11 merge="PL_ATTACK_SP_B,HOLD_ON">
+<string><ICON WP11 PL_AIM_SHOOTING><ICON PLUS><ICON WP11 merge="PL_ATTACK_SP_B,HOLD_ON">
+<string><ICON WP12 PL_AIM>
+<string><ICON WP12 PL_AIM_SHOOTING>
+<string><ICON WP11 PL_AIM><ICON PLUS><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string><ICON WP11 PL_AIM_SHOOTING><ICON PLUS><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string><ICON WP13 PL_DUMMY_MOVE><ICON PLUS><ICON WP13 PL_DODGE> بعد إطلاق النار
+<string><ICON WP13 PL_MOVE_FRONT><ICON WP13 PL_MOVE_LEFT><ICON WP13 PL_MOVE_BACK><ICON WP13 PL_MOVE_RIGHT><ICON PLUS><ICON WP13 PL_DODGE> بعد إطلاق النار
+<string>يتيح لك "إطلاق النار السريع" إطلاق أنواع معينة<lf>من الذخيرة بسرعة.<lf>بعد إطلاق النار، اضغط على <ICON WP13 PL_ATTACK_01> للانتقال إلى<lf>"طلقة المطاردة السريعة"،هجوم سريع ينتهي<lf>برصاصة قوية بشكل خاص.<lf><lf>بعد إطلاق النار، يمكنك أيضًا الانتقال إلى "خطوة<lf>الانفجار" باستخدام <ICON WP13 PL_DUMMY_MOVE><ICON PLUS><ICON WP13 PL_DODGE><lf>(أو <ICON WP13 PL_DUMMY_MOVE><ICON PLUS><ICON WP13 PL_DODGE><ICON PLUS><ICON WP13 PL_ATTACK_SP> في وضع التركيز)<lf>وإطلاق النار أثناء الحركة. إذا لم يتم تحميل أي ذخيرة،<lf>فستستخدم بدلاً من ذلك "إعادة تلقيم بخطوة جانبية".
+<string>يتيح لك "إطلاق النار السريع" إطلاق أنواع معينة من الذخيرة بسرعة.<lf>بعد إطلاق النار، اضغط على <ICON WP13 PL_ATTACK_01> للانتقال<lf>إلى "طلقة المطاردة السريعة"، وهو هجوم إطلاق نار سريع<lf>ينتهي برصاصة قوية بشكل خاص.<lf><lf>بعد إطلاق النار، يمكنك أيضًا الدخول في وضع "خطوة الانفجار" باستخدام<lf><ICON WP13 PL_MOVE_FRONT><ICON WP13 PL_MOVE_LEFT><ICON WP13 PL_MOVE_BACK><ICON WP13 PL_MOVE_RIGHT><ICON PLUS><ICON WP13 PL_DODGE> (أو <ICON WP13 PL_MOVE_FRONT><ICON WP13 PL_MOVE_LEFT><ICON WP13 PL_MOVE_BACK><ICON WP13 PL_MOVE_RIGHT><ICON PLUS><ICON WP13 PL_DODGE><ICON PLUS><ICON WP13 PL_ATTACK_SP><lf>في وضع التركيز) وإطلاق النار أثناء الحركة.<lf>إذا لم يتم تحميل أي ذخيرة، فستستخدم بدلاً من ذلك<lf>"إعادة تلقيم بخطوة جانبية".
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_001_000">
+<string><ICON PL_ITEM_SLIDER_OPEN>
+<string>معطل في الخيارات
+<string><ICON PL_ITEM_SLIDER_OPEN>
+<string>معطل في الخيارات
+<string><ICON PL_ITEM_SLIDER_OPEN>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_002_000">
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>لتحديد عنصر من شريط العناصر.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP> أو <ICON UI_SLIDER_DOWN><lf>لتحديد ذخيرة بندقية القوس<lf>وأغطية القوس من شريط العناصر.
+<string><LSNR "اضغط" "اضغطي"> على <ICON UI_LIST_REPEAT_L_LEFT> أو <ICON UI_LIST_REPEAT_L_RIGHT><lf>لتحديد عنصر من شريط العناصر.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON UI_LIST_REPEAT_L_UP> أو <ICON UI_LIST_REPEAT_L_DOWN><lf>لتحديد ذخيرة بندقية القوس<lf>وأغطية القوس من شريط العناصر.
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_LIST_REPEAT_L_LEFT> أو <ICON UI_LIST_REPEAT_L_RIGHT><lf>لتحديد عنصر من شريط العناصر.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_LIST_REPEAT_L_UP> أو <ICON UI_LIST_REPEAT_L_DOWN><lf>لتحديد ذخيرة بندقية القوس<lf>وأغطية القوس من شريط العناصر.
+<string><LSNR "اضغط" "اضغطي"> على <ICON UI_LIST_REPEAT_L_LEFT> أو <ICON UI_LIST_REPEAT_L_RIGHT><lf>لتحديد عنصر من شريط العناصر.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON UI_LIST_REPEAT_L_UP> أو <ICON UI_LIST_REPEAT_L_DOWN><lf>لتحديد ذخيرة بندقية القوس<lf>وأغطية القوس من شريط العناصر.
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>لتحديد عنصر من شريط العناصر.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_BULLET_ITEM_UP> أو <ICON UI_BULLET_ITEM_DOWN><lf>لتحديد ذخيرة بندقية القوس<lf>وأغطية القوس من شريط العناصر.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_002_01_000">
+<string>
+<string>
+<string>
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_003_000">
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_LEFT><REF RefGeneral_0001_006><ICON UI_ITEM_RIGHT>
+<string><ICON UI_LIST_REPEAT_L_LEFT><REF RefGeneral_0001_006><ICON UI_LIST_REPEAT_L_RIGHT>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_LIST_REPEAT_L_LEFT><REF RefGeneral_0001_006><ICON UI_LIST_REPEAT_L_RIGHT>
+<string><ICON UI_LIST_REPEAT_L_LEFT><REF RefGeneral_0001_006><ICON UI_LIST_REPEAT_L_RIGHT>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_LEFT><REF RefGeneral_0001_006><ICON UI_ITEM_RIGHT>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_004_000">
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_BULLET_ITEM_UP> أو <ICON UI_BULLET_ITEM_DOWN>
+<string><ICON UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON UI_LIST_REPEAT_L_DOWN>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON UI_LIST_REPEAT_L_DOWN>
+<string><ICON UI_LIST_REPEAT_L_UP><REF RefGeneral_0001_006><ICON UI_LIST_REPEAT_L_DOWN>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_PALLET_LEFT><REF RefGeneral_0001_006><ICON UI_PALLET_UP><REF RefGeneral_0001_006><ICON UI_PALLET_RIGHT><REF RefGeneral_0001_006><ICON UI_PALLET_DOWN>
+<string><OPTION id= "FULL_DEPLOYMENT_BUTTON" msg= "MsgGUI600200_00_005_000">
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT1><ICON PLUS><ICON UI_CUSTOM_SHORTCUT>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT2><ICON PLUS><ICON UI_CUSTOM_SHORTCUT>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT3><ICON PLUS><ICON UI_CUSTOM_SHORTCUT>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT4><ICON PLUS><ICON UI_CUSTOM_SHORTCUT>
+<string>معطل في الخيارات
+<string><OPTION id= "FULL_DEPLOYMENT_MKBKEY" msg= "MsgGUI600200_00_005_001">
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON UI_SLIDER_LEFT> أو <ICON UI_SLIDER_RIGHT> أو <ICON UI_SLIDER_UP> أو <ICON UI_SLIDER_DOWN>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_PC_ON><ICON PLUS><ICON UI_SLIDER_LEFT> أو <ICON UI_SLIDER_RIGHT> أو <ICON UI_SLIDER_UP> أو <ICON UI_SLIDER_DOWN>
+<string>معطل في الخيارات
+<string><OPTION id= "FULL_DEPLOYMENT_BUTTON" msg= "MsgGUI600200_00_039_000">
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT1> لعرض شريط العناصر بأكمله.
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT2> لعرض شريط العناصر بأكمله.
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT3> لعرض شريط العناصر بأكمله.
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_OPT4> لعرض شريط العناصر بأكمله.
+<string><LSNR "يمكنكَ" "يمكنكِ"> عرض شريط العناصر بأكمله.
+<string><OPTION id= "FULL_DEPLOYMENT_MKBKEY" msg= "MsgGUI600200_00_039_001">
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_PC_TOGGLE> لعرض شريط العناصر بأكمله.
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_ALL_PC_ON> لعرض شريط العناصر بأكمله.
+<string><LSNR "يمكنكَ" "يمكنكِ"> عرض شريط العناصر بأكمله.
+<string><OPTION id= "FULL_DEPLOYMENT_BUTTON" msg= "MsgGUI600200_00_039_01_000">
+<string>
+<string>
+<string>
+<string>
+<string>
+<string><OPTION id= "FULL_DEPLOYMENT_MKBKEY" msg= "MsgGUI600200_00_039_01_001">
+<string>
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_007_000">
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_CUSTOM_SHORTCUT><lf>لعرض القائمة الشعاعية المخصصة<lf>والتحديد منها.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_ITEM_USE><lf>لاستخدام العنصر أو التحية المحددة.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_PALLET><lf>للتبديل بين القوائم.<lf><lf>يمكن تخصيص القوائم الشعاعية المخصصة<lf>من "تخصيص القائمة الشعاعية"<lf>في "القائمة الرئيسية".
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_CUSTOM_SHORTCUT> لعرض القائمة الدائرية<lf>المخصصة والتنقل فيها.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_ITEM_USE><lf>لتحديد عنصر أو التحية وغير ذلك.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_PALLET_LEFT> أو <ICON UI_PALLET_UP> أو <ICON UI_PALLET_RIGHT> أو <ICON UI_PALLET_DOWN><lf>للتبديل بين اختصارات القوائم الدائرية.<lf><lf>يمكن تحرير القوائم الدائرية من "تخصيص القائمة<lf>الشعاعية" في "قائمة البدء".
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_CUSTOM_SHORTCUT><lf>لعرض القائمة الدائرية المخصصة<lf>والتحديد منها.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_ITEM_USE><lf>لاستخدام العنصر أو التحية المحددة.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_ITEM_LEFT> أو <ICON UI_SLIDER_UP><lf>أو <ICON UI_ITEM_RIGHT> أو <ICON UI_SLIDER_DOWN><lf>للتبديل بين القوائم.<lf><lf>يمكن تخصيص القوائم الدائرية المخصصة<lf>من "تخصيص القائمة الدائرية"<lf>في "القائمة الرئيسية".
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_CUSTOM_SHORTCUT><lf>لعرض القائمة الدائرية المخصصة<lf>والتحديد منها.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_ITEM_USE><lf>لاستخدام العنصر أو التحية المحددة.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_PALLET><lf>للتبديل بين القوائم.<lf><lf>يمكن تخصيص القوائم الدائرية المخصصة<lf>من "تخصيص القائمة الدائرية"<lf>في "القائمة الرئيسية".
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_RING_MOUSE><lf>لعرض القائمة الدائرية المخصصة<lf>والتحديد منها.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_RING_MOUSE_CLICK><lf>لاستخدام العنصر أو التحية المحددة.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_PALLET_MOUSE><lf>للتبديل بين القوائم.<lf><lf>يمكن تخصيص القوائم الدائرية المخصصة<lf>من "تخصيص القائمة الدائرية"<lf>في "القائمة الرئيسية".
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_007_01_000">
+<string>
+<string>
+<string>
+<string>
+<string>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_CUSTOM_SHORTCUT>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_RING_MOUSE>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><OPTION id= "CONTROL_CUSTOM_SC_DECISION" msg= "MsgGUI600200_00_043_000">
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_010_000">
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_PALLET>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_PALLET_LEFT><REF RefGeneral_0001_006><ICON UI_PALLET_UP><REF RefGeneral_0001_006><ICON UI_PALLET_RIGHT><REF RefGeneral_0001_006><ICON UI_PALLET_DOWN>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_PALLET_LEFT><REF RefGeneral_0001_006><ICON UI_PALLET_UP><REF RefGeneral_0001_006><ICON UI_PALLET_RIGHT><REF RefGeneral_0001_006><ICON UI_PALLET_DOWN>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_PALLET>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SHORTCUT_PALLET_MOUSE>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_011_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_012_000">
+<string><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_DUMMY_MOVE>
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
+<string><LSNR "يمكنكَ" "يمكنكِ"> التحكم في التحرك التلقائي للـ(سيكريت)<lf>باستخدام عدد من عناصر التحكم.<lf><lf><ICON PL_DUMMY_MOVE>: التحرك<lf><ICON PL_PT_SPEED_UP>: زيادة السرعة<lf><ICON PL_PT_SPEED_DOWN>: تقليل السرعة<lf><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON">: التوقف<lf><lf>سيفعِّل التحكم في الحركة<lf>باستخدام <ICON PL_DUMMY_MOVE><lf>الحركة اليدوية<lf>بعد فترة من الوقت.<lf><LSNR "استخدم" "استخدمي"> التحكم في التحرك التلقائي للـ(سيكريت) <ICON PL_DUMMY_MOVE> أو <ICON PL_PT_SPEED_UP><lf>لبدء التحرك مرة أخرى عند التوقف.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التحكم في التحرك التلقائي للـ(سيكريت)<lf>باستخدام عدد من عناصر التحكم.<lf><lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: التحرك<lf><ICON PL_PT_SPEED_UP>: زيادة السرعة<lf><ICON PL_PT_SPEED_DOWN>: تقليل السرعة<lf><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON">: التوقف<lf><lf>سيفعِّل التحكم في الحركة<lf>باستخدام <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>الحركة اليدوية<lf>بعد فترة من الوقت.<lf><LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> أو <ICON PL_PT_SPEED_UP><lf>لبدء التحرك مرة أخرى عند التوقف.
+<string>
+<string>
+<string>عند الترجل عن الـ(سيكريت).<lf><LSNR "يمكنكَ" "يمكنكِ"> الترجل قفزًا في أي اتجاه<lf>باستخدام <ICON PL_DUMMY_MOVE><ICON PLUS><ICON PL_PT_DISMOUNT>.
+<string>عند الترجل عن الـ(سيكريت).<lf><LSNR "يمكنكَ" "يمكنكِ"> الترجل قفزًا في أي اتجاه<lf>باستخدام <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><ICON PLUS><ICON PL_PT_DISMOUNT>.
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_016_000">
+<string><ICON PL_PT_CALL> أثناء الركوب
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> أثناء الركوب
+<string><ICON PL_PT_CALL> أثناء الركوب
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP> أثناء الركوب
+<string><ICON PL_PT_CALL> أثناء الركوب
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_017_000">
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى التحرك التلقائي<lf>أثناء الحركة اليدوية باستخدام <ICON PL_PT_CALL>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى الحركة اليدوية<lf>أثناء الركوب باستخدام <ICON PL_ITEM_SLIDER_OPEN> + <ICON PL_PT_CALL>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى التحرك التلقائي<lf>أثناء الحركة اليدوية باستخدام <ICON PL_PT_CALL>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى الحركة اليدوية<lf>أثناء الركوب باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى التحرك التلقائي<lf>أثناء الحركة اليدوية باستخدام <ICON PL_PT_CALL>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_017_01_000">
+<string>
+<string>
+<string>
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_018_000">
+<string><ICON PL_PT_MANUAL_CALL> أثناء الركوب
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_MANUAL_CALL> أثناء الركوب
+<string><ICON PL_PT_MANUAL_CALL> أثناء الركوب
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_DOWN> أثناء الركوب
+<string><ICON PL_PT_MANUAL_CALL> أثناء الركوب
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_019_000">
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى الحركة اليدوية<lf>أثناء التحرك التلقائي باستخدام <ICON PL_PT_MANUAL_CALL>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى التحرك التلقائي<lf>أثناء الركوب باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_MANUAL_CALL>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى الحركة اليدوية<lf>أثناء التحرك التلقائي باستخدام <ICON PL_PT_MANUAL_CALL>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى التحرك التلقائي<lf>أثناء الركوب باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_DOWN>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى الحركة اليدوية<lf>أثناء التحرك التلقائي باستخدام <ICON PL_PT_MANUAL_CALL>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600200_00_019_01_000">
+<string>
+<string>
+<string>
+<string>
+<string>
+<string>وضعية تمنع من الحركة.<lf>تحدث بمجرد تراكم<lf>ما يكفي من الوضعية.<lf>عادةً ما تتم علاجها من خلال:<lf>- التحرك بسرعة <ICON PL_DUMMY_MOVE><lf>والضغط على <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>- انتظار زوال التأثير<lf>- التعرض لهجمات معينة
+<string>وضعية تمنع من الحركة.<lf>تحدث بمجرد تراكم ما يكفي<lf>من الوضعية.<lf><lf>يتم علاجها عادةً من خلال:<lf>- الضغط بسرعة على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>و <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>- انتظار زوال التأثير<lf>- التعرض لهجمات معينة
+<string>
+<string>
+<string>وضعية تمنع من الحركة.<lf>تحدث بمجرد تراكم<lf>ما يكفي من الوضعية.<lf>عادةً ما تتم علاجها من خلال:<lf>- التحرك بسرعة <ICON PL_DUMMY_MOVE><lf>والضغط على <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>- انتظار زوال التأثير<lf>- التعرض لهجمات معينة
+<string>وضعية تمنع من الحركة.<lf>تحدث بمجرد تراكم<lf>ما يكفي من الوضعية.<lf>عادةً ما تتم علاجها<lf>من خلال:<lf>- الضغط بسرعة على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>و <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>- انتظار زوال التأثير<lf>- التعرض لهجمات معينة
+<string>
+<string>
+<string>وضعية تمنع من الحركة.<lf>سيتغير الوقت المنقضي في حالة العجز<lf>عن الحركة بناءً على شدة الوميض.<lf>عادةً ما يتم علاجها من خلال:<lf>- التحرك بسرعة <ICON PL_DUMMY_MOVE><lf>والضغط على <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>- انتظار زوال التأثير<lf>- التعرض لهجمات معينة
+<string>وضعية تمنع من الحركة.<lf>سيتغير الوقت المنقضي في حالة العجز عن الحركة<lf>بناءً على شدة الوميض.<lf>عادةً ما يتم علاجها<lf>من خلال:<lf>- التحرك بسرعة <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>والضغط على <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>- انتظار زوال التأثير<lf>- التعرض لهجمات معينة
+<string>
+<string>
+<string>الحالة التي لا يتم إشهار السلاح فيها.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_POP><lf>لجمع المواد أو التقطيع من وحش تم اصطياده.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_WEAPON_ON><lf>لإشهار السلاح.<lf>تتضمن بعض الأسلحة هجمات<lf>يمكن تنفيذها أثناء وجود السلاح في غمده<lf>باستخدام <ICON PL_DUMMY_MOVE><ICON PLUS><ICON PL_WEAPON_ON>.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_FACILITY><lf>للوصول إلى المرافق في المعسكر أو التحدث مع أشخاص آخرين<lf>أو الدخول إلى الخيمة.<lf><LSNR "يمكنكَ" "يمكنكِ"> المراوغة باستخدام <ICON PL_DUMMY_MOVE><ICON PLUS><ICON PL_DODGE>.
+<string>الحالة التي لا يكون فيها سلاحك قيد الاستخدام.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_POP> لتقطيع المواد<lf>من الوحش التي اصطدتها.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_WEAPON_ON> لإشهار السلاح.<lf><LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><ICON PLUS><ICON PL_WEAPON_ON> لأداء هجوم مُستَعدّ.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON PL_POP> للوصول إلى المرافق في المعسكر<lf>أو التحدث مع أشخاص آخرين أو الدخول إلى الخيمة.<lf><lf><LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><ICON PLUS><ICON PL_DODGE> للتفادي.
+<string>
+<string>
+<string><ICON PL_DUMMY_MOVE> أو <ICON PL_DODGE>
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> أو <ICON PL_DODGE>
+<string><ICON PL_AIM> والسلاح في غمده
+<string><ICON PL_AIM_SHOOTING> والسلاح في غمده
+<string><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_DUMMY_CAMERA>
+<string><ICON PL_AIM><ICON PLUS><ICON PL_SLINGER_SHOOT>
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_SLINGER_SHOOT>
+<string><ICON PL_AIM><ICON PLUS><ICON PL_CATCH_SLINGER_SHOOT> والسلاح في غمده
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_CATCH_SLINGER_SHOOT> والسلاح في غمده
+<string><ICON RA PL_WEAPON_ON>
+<string><ICON RA PL_ATTACK_00>
+<string><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم<lf>بعيد المدى عند الركوب<lf>عندما يكون السلاح بعيد المدى مجهزًا.<lf><LSNR "يمكنكَ" "يمكنكِ"> إشهار السلاح باستخدام <ICON RA PL_WEAPON_ON><lf>والتصويب باستخدام <ICON RA PL_AIM><lf>ثم الهجوم باستخدام <ICON RA PL_ATTACK_SP>.<lf><LSNR "يمكنكَ" "يمكنكِ"> غمد السلاح مرة أخرى أثناء الركوب<lf>باستخدام <ICON RA PL_WEAPON_OFF>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم<lf>بعيد المدى عند الركوب<lf>عندما يكون السلاح بعيد المدى مجهزًا.<lf><LSNR "يمكنكَ" "يمكنكِ"> إشهار السلاح باستخدام <ICON RA PL_ATTACK_00><lf>والتصويب باستخدام <ICON RA PL_AIM_SHOOTING><lf>ثم الهجوم باستخدام <ICON RA PL_ATTACK_SP>.<lf><LSNR "يمكنكَ" "يمكنكِ"> غمد السلاح مرة أخرى أثناء الركوب<lf>باستخدام <ICON RA PL_WEAPON_OFF>.
+<string>
+<string>
+<string><ICON RA PL_AIM> أثناء إشهار السلاح
+<string><ICON RA PL_AIM_SHOOTING> أثناء الامتطاء والسلاح مُشهر
+<string><ICON PL_ATTACK_01> أثناء الامتطاء
+<string><ICON PL_BT_RIDE_ATTACK_S> أثناء الامتطاء
+<string><ICON PL_ATTACK_00> أثناء الامتطاء
+<string><ICON PL_BT_RIDE_ATTACK_L> أثناء الامتطاء
+<string><ICON PL_ATTACK_SP_B> أثناء الامتطاء
+<string><ICON PL_BT_RIDE_ATTACK_WP> أثناء الامتطاء
+<string><LSNR "يمكنكَ" "يمكنكِ"> إطلاق مجموعة متنوعة من القذائف<lf>بنبلة المعصم مثل الأحجار وسيختلف التأثير<lf>حسب الذخيرة ويمكنها أن تلحق الضرر<lf>بالوحوش أو تجعلها تترنح.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا إطلاق ذخيرة نبلة المعصم<lf>عند إشهار السلاح باستخدام <ICON PL_AIM><ICON PLUS><ICON PL_WP_ON_SLINGER_SHOOT>.
+<string><LSNR "يمكنكَ" "يمكنكِ"> إطلاق مجموعة متنوعة من القذائف<lf>بنبلة المعصم مثل الأحجار<lf>وسيختلف التأثير حسب الذخيرة<lf>ويمكنها أن تلحق الضرر بالوحوش أو تجعلها تترنح.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا إطلاق ذخيرة نبلة المعصم<lf>عند إشهار السلاح<lf>باستخدام <ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_WP_ON_SLINGER_SHOOT>.
+<string>
+<string>
+<string><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم متسلل<lf>أثناء <LSNR "وجودكَ" "وجودكِ"> خلف وحش<lf>إذا كان السلاح في غمده<lf>باستخدام <ICON PL_CATCH_SLINGER_SHOOT>.<lf>لا <LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم متسلل<lf>على وحش أثناء القتال<lf>أو وحش سبق أن <LSNR "لاحظكَ" "لاحظكِ">.
+<string><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم متسلل<lf>أثناء <LSNR "وجودكَ" "وجودكِ"> خلف وحش<lf>إذا كان السلاح في غمده<lf>باستخدام <ICON PL_CATCH_SLINGER_SHOOT>.<lf>لا <LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم متسلل<lf>على وحش أثناء القتال<lf>أو وحش سبق أن <LSNR "لاحظكَ" "لاحظكِ">.
+<string>
+<string>
+<string><ICON PL_FACILITY>
+<string><ICON PL_POP>
+<string><OPTION id= "CONTROL_CUSTOM_SC_DECISION" msg= "MsgGUI600200_00_043_000">
+<string><ICON UI_SHORTCUT_ITEM_USE_DUMMY>
+<string><ICON UI_SHORTCUT_ITEM_USE>

@@ -1,0 +1,1451 @@
+﻿<string><ICON WP00 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp00_m1673173760>
+<string><ICON WP_GREATSWORD> السيف العظيم
+<string>هجوم من الأعلى لا يحتاج إلى شحن.<lf><lf>يمكن إقران الضربة المشحونة في ضربة<lf>جانبية عن طريق تنفيذ الخطوات التالية:<lf><lf>ضربة مشحونة > تصدي > ضربة جانبية
+<string>
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
+<string><REF ActionGuideDataNameText_Wp00_m1156222080>
+<string>الهجوم القاطع الذي يصبح أكثر قوة كلما طالت مدة شحنه.<lf>يتيح استخدام الضربة الجانبية بعد الضربة القاطعة المشحونة<lf>استخدام ضربة قاطعة مشحونة قوية. يمكن استخدام ضربة<lf>قاطعة مشحونة خالصة بعد ذلك باستخدام <ICON WP00 PL_DUMMY_MOVE><ICON PLUS><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">.<lf>سيؤدي ضرب جزء طري من الوحش باستخدام ضربة<lf>قاطعة مشحونة خالصة إلى إطلاق <REF ActionGuideDataNameText_Wp00_2095506176>.<lf>لا يمكن <LSNR "إطاحتكَ" "إطاحتكِ"> إلى الخلف أو <LSNR "قذفكَ" "قذفكِ"> في الهواء أثناء الهجوم<lf>المتواصل، وهذا متاح أثناء الشحن من خلال الضغط<lf>على <ICON WP00 PL_ATTACK_01>. <LSNR "اختر" "اختاري"> التوقيت المناسب من أجل هجوم متواصل<lf>مثالي والحفاظ على <REF ActionGuideDataNameText_Wp00_605526016> الحالي.
+<string><INPUTMSG MsgGUI600200_01_001_01>
+<string><ICON WP00 PL_ATTACK_00><ICON RELEASE>
+<string><REF ActionGuideDataNameText_Wp00_971250048>
+<string>
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp00_1449509120>
+<string>
+<string><ICON WP00 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp00_225253952>
+<string>هجوم قاطع يغطي منطقة واسعة.<lf><LSNR "يمكنكَ" "يمكنكِ"> إقران الهجوم المتواصل<lf>بضربة السيف أثناء القفز<lf>والضربة القاطعة المشحونة<lf>بضربة السيف الكبيرة القوية.
+<string>
+<string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp00_146633456>
+<string>هجوم قاطع<lf>يمكنه إصابة أهداف عالية.
+<string>
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">، ثم <ICON RELEASE> بعد الشحن
+<string><REF ActionGuideDataNameText_Wp00_m2072799872>
+<string>هجوم ضربة قاطعة لأعلى<lf>يمكنه إبطال هجمات وحش.<lf><lf>يُبطل الهجوم بتوقيت مثالي (بحيث<lf>يتزامن هجوم السيف العظيم مع<lf>هجوم الوحش) سيسمح لك بتنفيذ<lf>ضربة متقاطعة متابعة.
+<string>
+<string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
+<string><REF ActionGuideDataNameText_Wp00_m981607168>
+<string>تصدي باستخدام السيف العظيم.<lf>يمكن تغيير اتجاه التصدي<lf>أثناء استخدام وضع التركيز.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP00 PL_ATTACK_00> أثناء التصدي<lf>لتنفيذ ركلة.
+<string>
+<string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP00 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp00_m1022273984>
+<string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
+<string>هجوم اجتياح فعَّال ضد الجروح.<lf>إصابة جرح وحش أو نقطة ضعفه<lf>ستسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار جسيمة.<lf><lf><LSNR "اضغط" "اضغطي"> < ICON WP00 PL_ATTACK_SP_B > أثناء الهجوم لأداء<lf>هجوم نهائي.
+<string>
+<string>ضربات متتالية من الضربة القاطعة المشحونة الخالصة
+<string><REF ActionGuideDataNameText_Wp00_276684864>
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
+<string><REF ActionGuideDataNameText_Wp00_971250048>
+<string>ضربات متتالية تنتهي بضربة قاطعة مشحونة حقيقية.
+<string>
+<string><REF ActionGuideDataNameText_Wp00_m1769468672>
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
+<string>
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
+<string><REF ActionGuideDataNameText_Wp00_2095506176>
+<string>
+<string>هجوم متتالٍ منقض استباقي
+<string><ICON WP00 PL_ATTACK_01>
+<string>ضربات متتالية <LSNR "تدفعكَ" "تدفعكِ"><lf>مسافة كبيرة إلى الأمام.
+<string>
+<string><REF ActionGuideDataNameText_Wp00_1081794688>
+<string><ICON WP00 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp00_1449509120>
+<string><ICON WP00 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp00_m101683424>
+<string><ICON WP00 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp00_1081794688>
+<string>ضربات متتالية ثابتة
+<string>ضربات متتالية<lf><LSNR "ستظل في خلالها ثابتًا" "ستظلين في خلالها ثابتة">.
+<string>
+<string><ICON WP00 PL_ATTACK_01><ICON PLUS><ICON WP00 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp00_146633456>
+<string><ICON WP00 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp00_1081794688>
+<string><ICON WP00 PL_ATTACK_01><ICON PLUS><ICON WP00 PL_ATTACK_00>
+<string>
+<string><ICON WP_LONGSWORD> السيف الطويل
+<string><REF ActionGuideDataNameText_Wp00_146633456>
+<string><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameTextCommon_m1514785792>
+<string>يمكن استخدام هذا الهجوم لتنفيذ ضربات أساسية متتالية.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP03 PL_ATTACK_00> لتنفيذ ضربة قاطعة أعلى الرأس<lf>لتنفيذ ضربة قاطعة أعلى الرأس 2،<lf>ثم <ICON WP03 PL_ATTACK_00> مرة أخرى لتنفيذ ضربة قاطعة هلالية.<lf><lf>تصبح كل الهجمات أقوى<lf>حين يكون مقياس الروح أحمر.
+<string>
+<string><ICON WP03 PL_ATTACK_01>
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP03 PL_ATTACK_01> بعد الاندفاع<lf>لتنفيذ ضربة قاطعة لأعلى.
+<string>
+<string><REF ActionGuideDataNameText_Wp03_1048614016>
+<string><ICON WP03 PL_ATTACK_SP>
+<string>هجمات شيفرة الروح هي عدد من هجمات الهجوم القاطع<lf>التي تستهلك مقياس الروح. يمكن تعديل اتجاه<lf>نصل الروح 1 ونصل الروح 2 باستخدام <ICON WP03 PL_DUMMY_MOVE>.<lf><lf>هجمات شيفرة الروح المتتالية:<lf>نصل الروح 1 <ICON WP03 PL_ATTACK_SP> > نصل الروح 2 <ICON WP03 PL_ATTACK_SP> ><lf>نصل الروح 3 <ICON WP03 PL_ATTACK_SP> > ضربة الروح القاطعة المستديرة <ICON WP03 PL_ATTACK_SP>.<lf><lf>يمكن إقران ضربة الروح القاطعة المستديرة بضربة قاطعة<lf>قرمزية أثناء الدوران باستخدام <ICON WP03 PL_ATTACK_SP> عندما يكون مقياس الروح أحمر.
+<string><INPUTMSG MsgGUI600200_01_002_01>
+<string><REF ActionGuideDataNameText_Wp03_621496000>
+<string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
+<string><REF ActionGuideDataNameText_Wp03_1564397952>
+<string>ينفذ هجوم نصل الروح.<lf>يعتمد مستواه<lf>على وقت شحنه.<lf><lf>الشحن المكتمل سيسمح <LSNR "لكَ" "لكِ"><lf>باستخدام ضربة روح قاطعة مستديرة.<lf>سيمتلئ مقياس الروح أيضًا أثناء الشحن.<lf><lf>إذا كان مقياس الروح أحمر<lf><LSNR "ستكون محصنًا" "ستكونين محصنة"><lf>ضد السقوط<lf>بعد اكتمال هذا الهجوم.
+<string>
+<string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
+<string>هجوم قاطع يُنفَذ أثناء التحرّك للخلف.<lf><LSNR "استخدم" "استخدمي"> <ICON WP03 PL_MOVE_LEFT> أو <ICON WP03 PL_MOVE_RIGHT> لشن ضربة<lf>في اتجاه مختلف.
+<string>
+<string><REF ActionGuideDataNameText_Wp03_m37508024>
+<string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>هجوم يمكن تنفيذه وسط الضربات المتتالية<lf>يمنح فترة ضعف طويلة.<lf><lf>ورغم أنه يستنفد مقياس الروح، فإن شنه بعد<lf>مراوغة هجوم وحش سيملأ المقياس بالكامل.<lf>بعد ذلك، <LSNR "يمكنكَ" "يمكنكِ"> الضغط على <ICON WP03 PL_ATTACK_SP><lf>لإقرانه بضربة روح قاطعة مستديرة.<lf><lf>يتناقص تأثيره حين يفرغ مقياس الروح.<lf>تزداد قوة كل الهجمات حين يكون<lf>مقياس الروح أحمر.
+<string>
+<string><REF ActionGuideDataNameText_Wp03_456426976>
+<string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp03_1048171072>
+<string>شن هذا الهجوم سيخفض مقياس الروح<lf>بمقدار مستوى واحد (عندما يكون المقياس<lf>أبيض أو أعلى)، لكنه يسمح <LSNR "لكَ" "لكِ"> بإقرانه بكاسر<lf>خوذة الروح.<lf><lf>حين يكون المقياس أحمر، يمكن إقران كاسر<lf>خوذة الروح بضربة قاطعة لتحرير الروح.<lf><lf>يمكن أيضًا إلغاء كاسر خوذة الروح<lf>باستخدام <ICON WP03 PL_WEAPON_OFF>.
+<string>
+<string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> بعد الهجوم
+<string><REF ActionGuideDataNameText_Wp03_m1559988736>
+<string>حركة خاصة تغمد <LSNR "سلاحكَ" "سلاحكِ">.<lf><lf>بعد غمد السلاح المميز، <LSNR "اضغط" "اضغطي"> على <ICON WP03 PL_ATTACK_00><lf>من أجل ضربة (إيايدو) قاطعة<lf>أو <ICON WP03 PL_ATTACK_SP> من أجل ضربة قاطعة بروح الـ(إيايدو).<lf><lf>توجيه ضربة (إيايدو) قاطعة<lf>سيتسبب في ملء مقياس الروح تلقائيًا لوقت قصير.<lf>ضبط توقيت الضربة القاطعة بروح الـ(إيايدو)<lf>مع هجوم وحش<lf>سيرفع مقياس الروح بمقدار مستوى واحد.
+<string>
+<string><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp03_1506281344>
+<string>
+<string><ICON WP03 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp03_491596736>
+<string>
+<string><ICON WP03 PL_AIM><ICON PLUS><ICON WP03 PL_ATTACK_SP_B>
+<string><REF ActionGuideDataNameText_Wp03_1569905664>
+<string><INPUTMSG MsgGUI600200_01_003>
+<string><INPUTMSG MsgGUI600200_01_003_01>
+<string><REF ActionGuideDataNameText_Wp03_m1592986112>
+<string><LSNR "وجِّه" "وجّهي"> الهجمات للوحوش لملء المقياس.<lf>استخدام هجمات نصل الروح القوية سيستهلك<lf>المقياس.<lf><LSNR "وجِّه" "وجّهي"> ضربة روح قاطعة مستديرة<lf>أو ضربة مُركزة لرفع لون المقياس.<lf><lf>عندما يكون المقياس باللون الأحمر، سيظل<lf>عند الحد الأقصى، وسيتم تعزيز بعض الهجمات،<lf><LSNR "وستتمكن" "وستتمكنين"> من تنفيذ هجمات متابعة قوية.<lf>توجيه ضربة روح قاطعة مستديرة<lf>أو ضربة قاطعة قرمزية أثناء الدوران<lf>سيطيل الوقت الذي يبقى فيه المقياس أحمر.
+<string>
+<string>ضربات متتالية لملء مقياس الروح بسرعة
+<string><ICON WP03 PL_ATTACK_00>
+<string>ضربات متتالية أساسية<lf>لملء مقياس الروح بسرعة.
+<string>
+<string><REF ActionGuideDataNameText_Wp03_1472591744>
+<string><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp03_m1997082496>
+<string>
+<string><ICON WP03 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp03_m1065507968>
+<string><ICON WP03 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية لرفع مستوى مقياس الروح
+<string><REF ActionGuideDataNameText_Wp03_1472591744>
+<string><ICON WP03 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp03_621496000>
+<string>ضربات متتالية أساسية<lf>سترفع مستوى مقياس الروح.
+<string>
+<string><ICON WP03 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp03_1186424448>
+<string><ICON WP03 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp03_m1476255872>
+<string>
+<string><ICON WP03 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp03_852602816>
+<string>
+<string>ضربات متتالية أساسية بينما يكون المقياس أحمر
+<string><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp03_1927826048>
+<string>ضربات متتالية أساسية<lf>عندما يكون مقياس الروح أحمر.
+<string>
+<string><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp03_850992256>
+<string>
+<string><ICON WP03 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية ثابتة
+<string><REF ActionGuideDataNameText_Wp03_m1171603968>
+<string><ICON WP03 PL_ATTACK_00>
+<string>ضربات متتالية ثابتة<lf>عندما يكون مقياس الروح أحمر.
+<string>
+<string><REF ActionGuideDataNameText_Wp03_1927826048>
+<string><ICON WP03 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp03_m1036368000>
+<string><ICON WP03 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp03_1927826048>
+<string>
+<string><ICON WP_SWORDSHIELD> السيف والدرع
+<string><ICON WP01 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_004>
+<string><INPUTMSG MsgGUI600200_01_004_01>
+<string><REF ActionGuideDataNameTextCommon_m1514785792>
+<string><ICON WP01 PL_ATTACK_01>
+<string><INPUTMSG MsgGUI600200_01_005>
+<string><INPUTMSG MsgGUI600200_01_005_01>
+<string><REF ActionGuideDataNameTextCommon_962978240>
+<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
+<string>ضربة قاطعة للأعلى<lf>تُنفّذ أثناء التقدم إلى الأمام.<lf>استخدام الضربة القاطعة المتقدمة باتجاه أعلى<lf>أو باتجاه الحافة سيتسبب في هجوم أرضي.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m669292416>
+<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>هجوم يقطع منطقة واسعة<lf><LSNR "يمكنكَ" "يمكنكِ"> خلاله تغيير <LSNR "اتجاهكَ" "اتجاهكِ"> بسرعة.<lf>إقرانه بهجمات معينة<lf>سينتج عنه هجوم<lf>الحاصد الدوار القوي.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_1418448640>
+<string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> أثناء الضربات المتتالية
+<string><REF ActionGuideDataNameText_Wp01_937851328>
+<string>هجوم وثب قوي.<lf>إصابة نقطة ضعف في جلد الوحش<lf>ستسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة.<lf><lf>تزداد قوة الهجوم<lf>إذا تم استخدامه بعد هجمات معينة.
+<string>
+<string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>يمكن استخدام التراجع أثناء الضربات المتتالية<lf>لتجنب هجمات الوحوش.<lf><lf>الانطلاق المثالي، المتاح خلال التراجع،<lf>هو هجوم متعدد الضربات يمكنه إلحاق أضرار<lf>عنصرية والإصابة باعتلالات.<lf>يمكن تعزيز الأضرار<lf>بضغطات مضبوطة التوقيت إلى <ICON WP01 PL_ATTACK_00>.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_105498080>
+<string><ICON WP01 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m56063852>
+<string><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> أثناء التراجع
+<string>التسلسل إلى ضربة مشحونة أثناء التراجع،<lf>سيسمح <LSNR "لكَ" "لكِ"> بالقفز عاليًا في الهواء<lf>بعد النجاح في إلحاق ضرر بالوحش<lf>ما يسمح <LSNR "لكَ" "لكِ"> بتنفيذ حركات هوائية<lf>مثل ضربة قاطعة أثناء القفز<lf>أو ضربة أثناء السقوط.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m278451072>
+<string><ICON WP01 PL_ATTACK_00> أثناء القفز
+<string><REF ActionGuideDataNameText_Wp01_m1979692928>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m76675704>
+<string><ICON WP01 PL_ATTACK_01> أثناء القفز
+<string>
+<string><ICON WP01 merge="PL_ATTACK_SP,HOLD_ON">
+<string><LSNR "تصدَّ" "تصدي"> للهجمات باستخدام <LSNR "ترسكَ" "ترسكِ">.<lf>التصدي في اللحظة المناسبة<lf>سينتج عنه التصدي المثالي.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP01 PL_ATTACK_00> بعد التصدي المثالي<lf>لتنفيذ ضربة قاطعة مضادة قوية وسريعة.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m1975087616>
+<string><ICON WP01 PL_ATTACK_00> بعد التصدي المثالي
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m1591131136>
+<string><ICON WP01 PL_ATTACK_SP><ICON PLUS><ICON WP01 PL_ATTACK_00>
+<string>هجوم يمكن تنفيذه بسهولة<lf>يسمح <LSNR "لكَ" "لكِ"> بتقليص المسافة بسرعة<lf><LSNR "بينكَ وبين هدفكَ" "بينكِ وبين هدفكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m1943029120>
+<string><ICON WP01 PL_ATTACK_SP><ICON PLUS><ICON WP01 PL_WEAPON_OFF>
+<string><REF ActionGuideDataNameText_Wp01_m1930397824>
+<string><LSNR "يمكنكَ" "يمكنكِ"> استخدام عناصر معينة<lf>بينما <LSNR "سلاحكَ" "سلاحكِ"> غير مغمد.
+<string>
+<string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_ATTACK_SP_B>
+<string>هجوم طعن فعَّال ضد الجروح.<lf>بعد إصابة جرح وحش أو نقطة ضعفه، <LSNR "اضغط" "اضغطي"> على <ICON WP01 PL_ATTACK_00><lf>لتنفيذ ضربة السقوط،<lf><LSNR "واضغط" "واضغطي"> على <ICON WP01 PL_ATTACK_01><lf>لتنفيذ ضربة علوية.
+<string>
+<string>ضربات متتالية أساسية
+<string><REF ActionGuideDataNameText_Wp01_1638854400>
+<string><ICON WP01 PL_ATTACK_00>
+<string>ضربات متتالية أساسية.<lf><LSNR "يمكنكَ" "يمكنكِ"> ضبط الوضعية باستخدام <ICON WP01 PL_DUMMY_MOVE><lf>أثناء الضربات المتتالية.
+<string><INPUTMSG MsgGUI600200_01_006_01>
+<string><REF ActionGuideDataNameText_Wp01_1140208384>
+<string><ICON WP01 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp01_m91810208>
+<string>
+<string><ICON WP01 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp01_989717760>
+<string>
+<string><ICON WP01 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp01_383522048>
+<string>
+<string>ضربات متتالية قوية
+<string><ICON WP01 PL_ATTACK_01>
+<string>ضربات متتالية ثابتة قوية.<lf><lf><LSNR "استخدم" "استخدمي"> الحاصد الدوار<lf>لإكمال الضربات المتتالية بسرعة<lf>والتقطيع المشحون في حالة وجود ثغرة كبيرة<lf>في دفاعات الوحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m1520769024>
+<string><ICON WP01 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_502005184>
+<string><ICON WP01 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp01_m365669696>
+<string>
+<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m468041344>
+<string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
+<string><REF ActionGuideDataNameText_Wp01_937851328>
+<string>
+<string>ضربات متتالية صاعقة للوحوش
+<string><ICON WP01 PL_MOVE_FRONT><ICON PLUS><ICON WP01 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp01_m1997549568>
+<string>ضربات متتالية لصعق الوحوش.
+<string>
+<string><ICON WP01 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp01_m1114434688>
+<string>
+<string><ICON WP01 PL_ATTACK_01>
+<string>
+<string>الضربة القوية
+<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m468041344>
+<string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
+<string><REF ActionGuideDataNameText_Wp01_m278451072>
+<string>ضربات متتالية من الضربة القاطعة المشحونة
+<string>يمكن تنفيذ عدد من الهجمات<lf>من الضربة القاطعة المشحونة.<lf>الضربة القاطعة أثناء القفز تسمح <LSNR "لكَ" "لكِ"><lf>بامتطاء الوحوش بسهولة،<lf>والضربة أثناء السقوط تراكم الصعق<lf>واندفاع السقوط المفاجئ يلحق مقدارًا<lf>كبيرًا من الضرر.
+<string>
+<string>
+<string>بعد ضربة موفقة
+<string><ICON WP01 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m1979692928>
+<string><ICON WP01 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp01_m76675704>
+<string>
+<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m1201359616>
+<string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp01_105498080>
+<string>ضربات متتالية من الانطلاق المثالي
+<string>ضربات متتالية يمكن تنفيذها بعد انطلاق مثالي ناجح.<lf><LSNR "ستقفز" "ستقفزين"> عاليًا في الهواء<lf>بعد استخدام الانطلاق المثالي،<lf>والذي منه <LSNR "يمكنكَ" "يمكنكِ"> استخدام الضربة القاطعة أثناء القفز<lf>أو الضربة أثناء السقوط.
+<string>
+<string><ICON WP01 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m198979744>
+<string><ICON WP01 PL_ATTACK_00>
+<string>
+<string><ICON WP_DUALBLADES> شفرات مزدوجة
+<string><REF ActionGuideDataNameText_Wp01_m56063852>
+<string><ICON WP02 PL_ATTACK_00>
+<string>بداية ضربات متتالية أساسية.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP02 PL_ATTACK_00> لتنفيذ رد الضربة القاطعة المزدوجة،<lf>ثم <LSNR "اضغط" "اضغطي"> على <ICON WP02 PL_ATTACK_00> مرة أخرى لتنفيذ ضربة قاطعة دائرية.
+<string>
+<string><REF ActionGuideDataNameText_Wp02_1061310464>
+<string><ICON WP02 PL_ATTACK_01>
+<string><INPUTMSG MsgGUI600200_01_007>
+<string><INPUTMSG MsgGUI600200_01_007_01>
+<string><REF ActionGuideDataNameText_Wp02_927994752>
+<string><ICON WP02 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp02_165650304>
+<string>سيُعزَز كل من <LSNR "هجومكَ وسرعة حركتكَ وتفاديكَ" "هجومكِ وسرعة حركتكِ وتفاديكِ"><lf>في وضع العفريت.<lf><LSNR "ستكون محصنًا" "ستكونين محصنة"> أيضًا ضد التراجع.<lf><lf>رقصة النصل هي سلسلة من الهجمات القوية<lf>التي تستهلك مقياس العفريت.
+<string>
+<string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp02_300353024>
+<string>
+<string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp02_1565251968>
+<string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp02_72416008>
+<string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
+<string><INPUTMSG MsgGUI600200_01_008>
+<string><INPUTMSG MsgGUI600200_01_008_01>
+<string><REF ActionGuideDataNameText_Wp02_m1698437888>
+<string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp02_1304483584>
+<string>
+<string><ICON WP02 PL_DODGE>
+<string>المراوغة الشيطانية (أثناء وضع العفريت/وضع العفريت الرئيسي)
+<string>مراوغة سريعة يمكنها تفادي الهجمات.<lf>النجاح في تنفيذ التفادي المثالي<lf>سيسمح <LSNR "لكَ" "لكِ"> بالهجوم أثناء المراوغة<lf>و<LSNR "سيقويكَ" "سيقويكِ"> لوقت قصير.
+<string>
+<string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
+<string><REF ActionGuideDataNameText_Wp02_m372107104>
+<string>هجوم قاطع فعَّال ضد الجروح.<lf>إصابة جرح وحش ستسمح <LSNR "لكَ" "لكِ"><lf>بتنفيذ رقصة النصل الدوّار في الهواء،<lf>وهو هجوم يمتد على طول الوحش<lf>وينكأ جراحًا متعددة.
+<string>
+<string>
+<string><REF ActionGuideDataNameText_Wp02_165650304>
+<string>يعزز الهجمات وسرعة الحركة والتفادي<lf><LSNR "ويجعلكَ محصنًا" "ويجعلكِ محصنة"> ضد التراجع.<lf>ستُستنفد قوة التحمل بالتدريج<lf>أثناء تفعيل وضع العفريت.<lf>ينتهي وضع العفريت حين يتم إلغاؤه يدويًا<lf>بالخروج من وضع العفريت أو حين تنفد<lf>قوة التحمل نهائيًا.
+<string><REF ActionGuideDataNameText_Wp02_m1003266688>
+<string>إصابة وحش بنجاح أثناء تفعيل وضع العفريت<lf>سيملأ المقياس.<lf>بمجرد ملء المقياس، عند الخروج من وضع العفريت،<lf><LSNR "ستدخل" "ستدخلين"> وضع العفريت الرئيسي بدلاً من العودة<lf>إلى الوضع العادي.<lf>سيتناقص المقياس بعد ذلك تدريجيًا بمرور الوقت<lf>أو يُستهلَك بتنفيذ هجمات معينة.
+<string>
+<string><REF ActionGuideDataNameText_Wp02_m661157824>
+<string>حالة يتم فيها تمكين عدد من <LSNR "هجماتكَ" "هجماتكِ">.<lf>هذه الهجمات المعززة<lf>ستستهلك مقياس العفريت عند استخدامها،<lf>وسينتهي وضع العفريت الرئيسي<lf>حين يفرغ المقياس بالكامل.
+<string>
+<string><REF ActionGuideDataNameText_Wp02_m933536000>
+<string>حالة ممكّنة يتم دخولها<lf>بعد تفادٍ مثالي ناجح.<lf>تعزز كلًا من الضرر العادي والعنصري<lf>وتسمح <LSNR "لكَ" "لكِ"> بالهجوم أثناء المراوغة.
+<string>
+<string>ضربات متتالية أساسية
+<string><ICON WP02 PL_ATTACK_00>
+<string>ضربات متتالية قياسية.
+<string><REF ActionGuideDataNameText_Wp02_1061310464>
+<string>
+<string><ICON WP02 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp02_1802004864>
+<string>
+<string><ICON WP02 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp02_144065008>
+<string>
+<string>ضربات متتالية أساسية في وضع العفريت
+<string><ICON WP02 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp02_1562259072>
+<string>ضربات متتالية أساسية في وضع العفريت.<lf>يمكن إقرانها بالضربات المتتالية لرقصة النصل.
+<string>
+<string><REF ActionGuideDataNameText_Wp02_m268803040>
+<string><ICON WP02 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp02_m1092490368>
+<string><ICON WP02 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp02_300353024>
+<string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية في وضع العفريت الرئيسي
+<string><REF ActionGuideDataNameText_Wp02_m1698437888>
+<string><ICON WP02 PL_ATTACK_SP> بعد رقصة النصل 1
+<string>ضربات متتالية تستخدم كميات كبيرة من<lf>مقياس العفريت، لكنها تحقق ضررًا كبيرًا.<lf><lf>بعد دخول وضع العفريت واستخدام<lf>رقصة العفريت بالضغط على <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>،<lf>يمكن استخدام <ICON WP02 PL_ATTACK_SP> للتبديل بين هجمات<lf>ثورة العفريت ورقصة النصل.<lf><lf>"رقصة النصل 3" هو هجوم يلحق ضررًا<lf>بشكل خاص، لذا <LSNR "تأكد" "تأكدي"> من اختيار نهج<lf>الضربات المتتالية بحرص حسب الموقف.
+<string>
+<string><ICON WP02 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp02_1565251968>
+<string>
+<string><ICON WP02 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp02_1304483584>
+<string><ICON WP02 PL_ATTACK_SP>
+<string>
+<string>ضربات متتالية لاندفاع ثورة العفريت
+<string><REF ActionGuideDataNameText_Wp02_72416008>
+<string><ICON WP02 PL_ATTACK_01> أثناء وضع العفريت/العفريت الرئيسي
+<string>ضربات متتالية تسمح لك بإلحاق الضرر بالوحش<lf>بينما تقرب المسافة بينك وبينه.<lf>تتضمن الضربات المتتالية ضربة قاطعة مستديرة<lf>مزدوجة حين <LSNR "تكون" "تكونين"> في وضع العفريت.
+<string>
+<string><REF ActionGuideDataNameText_Wp02_215332432>
+<string><ICON WP02 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp02_m1318603136>
+<string>
+<string><ICON WP02 PL_ATTACK_01> أثناء وضع العفريت
+<string>
+<string><ICON WP_HAMMER> المطرقة
+<string><REF ActionGuideDataNameText_Wp02_1443799168>
+<string><ICON WP04 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_009>
+<string><INPUTMSG MsgGUI600200_01_009_01>
+<string><REF ActionGuideDataNameTextCommon_m1514785792>
+<string><ICON WP04 PL_ATTACK_01>
+<string>هجوم ساحق يمكن تكراره<lf>في كل مرة تصيب وحشًا.<lf><lf>يمكن استخدام هجمة الانفجار الكبير القاضية<lf>بعد توجيه هذا الهجوم أربع مرات.<lf><lf>الإخفاق ولو مرة واحدة<lf>سيلغي الضربات المتتالية.
+<string>
+<string><REF ActionGuideDataNameText_Wp04_976256064>
+<string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
+<string>الضغط مطولًا على <ICON WP04 PL_ATTACK_SP><lf>لاستهلاك قوة التحمل وتخزين القوة.<lf>هناك ثلاثة مستويات للشحن،<lf>لكل منها هجوم مختلف خاص به.<lf><lf>اضغط على <ICON WP04 PL_ATTACK_01> لتنفيذ خطوة مشحونة أثناء الشحن،<lf>ما سيسمح <LSNR "لكَ" "لكِ"> بمراوغة الهجمات<lf>من دون فقدان الشحن.
+<string><REF ActionGuideDataNameText_Wp04_67403672>
+<string>
+<string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
+<string>
+<string><REF ActionGuideDataNameTextCommon_m78659720>
+<string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP04 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp04_m1391311232>
+<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> عند مستوى الشحن 3
+<string><REF ActionGuideDataNameText_Wp04_424161632>
+<string>الشحن للحد الأقصى<lf>سيسمح <LSNR "لكَ" "لكِ"> بتنفيذ الشحن الجبار.<lf>وشحن هذا للحد الأقصى مرة أخرى<lf>سيسمح <LSNR "لكَ" "لكِ"> باستخدام ضربة الشحن الجبار القوية.
+<string>
+<string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
+<string><REF ActionGuideDataNameText_Wp04_807319680>
+<string>
+<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> بعد الهجوم
+<string>هجوم دوّار يُستخدم للمتابعة بعد هجمات أخرى.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP04 PL_ATTACK_00> أثناء الدوران<lf>لاستخدام هجوم مختلف.<lf>كلما طال الدوران،<lf>ازدادت قوة الهجوم،<lf>لكن الدوران أكثر من اللازم من دون هجوم<lf><LSNR "سيترككَ مكشوفًا" "سيترككِ مكشوفة">.
+<string>
+<string><REF ActionGuideDataNameText_Wp04_m8827463>
+<string><ICON WP04 PL_AIM><ICON PLUS><ICON WP04 PL_ATTACK_SP_B>
+<string><REF ActionGuideDataNameText_Wp04_m1790485120>
+<string>هجوم اجتياح ساحق فعَّال ضد الجروح.<lf>إصابة جرح وحش أو نقطة ضعفه<lf>ستتسبب في <LSNR "دورانكَ" "دورانكِ"><lf>ملحِقة أضرار متعددة لأماكن مختلفة.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP04 PL_ATTACK_SP><lf>أثناء الدوران لشحن الهجوم<lf>أثناء تنفيذه.
+<string>
+<string>ضربات متتالية أساسية
+<string><ICON WP04 PL_ATTACK_00>
+<string><REF ActionGuideDataNameText_Wp04_86757720>
+<string>ضربات متتالية قياسية.
+<string>
+<string><REF ActionGuideDataNameText_Wp04_m222720992>
+<string><ICON WP04 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp04_1449700864>
+<string><ICON WP04 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية للضربة الجانبية المشحونة
+<string><REF ActionGuideDataNameText_Wp04_m1057375552>
+<string><ICON WP04 PL_ATTACK_SP> (مستوى الشحن 1) <ICON RELEASE>
+<string>ضربات متتالية سريعة<lf>يمكنها بسهولة استهداف<lf>ثغرة في دفاع الوحش<lf>من دون <LSNR "ترككَ مكشوفًا" "ترككِ مكشوفة"> طويلًا.
+<string>
+<string><REF ActionGuideDataNameText_Wp04_1152969344>
+<string><ICON WP04 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp04_86757720>
+<string><ICON WP04 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية علوية مشحونة
+<string><REF ActionGuideDataNameText_Wp04_55030720>
+<string><ICON WP04 PL_ATTACK_SP> (مستوى الشحن 2) <ICON RELEASE>
+<string>هجوم يقلص المسافة سريعًا<lf><LSNR "بينكَ وبين هدفكَ" "بينكِ وبين هدفكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp04_1152969344>
+<string><ICON WP04 PL_ATTACK_00>
+<string>
+<string>مزيج الضربات الدوّارة
+<string><REF ActionGuideDataNameText_Wp04_86757720>
+<string><ICON WP04 PL_ATTACK_00>
+<string>مزيج الضربات الدوّارة
+<string>
+<string><REF ActionGuideDataNameText_Wp04_m8827463>
+<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01>
+<string>
+<string><ICON WP04 PL_ATTACK_00> أثناء الدوران الأول
+<string><REF ActionGuideDataNameText_Wp04_m32021162>
+<string>
+<string><ICON WP04 PL_ATTACK_00> أثناء الدوران الثاني
+<string><REF ActionGuideDataNameText_Wp04_m914516160>
+<string>
+<string><ICON WP04 PL_ATTACK_00> أثناء الدوران الثالث
+<string>
+<string><ICON WP_HUNTINGHORN> بوق الصيد
+<string><REF ActionGuideDataNameText_Wp04_885262336>
+<string><ICON WP05 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_010>
+<string><INPUTMSG MsgGUI600200_01_010_01>
+<string><REF ActionGuideDataNameText_Wp05_m201995088>
+<string><ICON WP05 PL_ATTACK_01>
+<string>هجوم أساسي ينتج عنه<lf>النغمة الثانية على السلم الموسيقي.
+<string><REF ActionGuideDataNameText_Wp05_166644960>
+<string>
+<string><INPUTMSG MsgGUI600200_01_011>
+<string>هجوم أساسي ينتج عنه النغمة الثانية<lf>على السلم الموسيقي.<lf><lf>الضغط على <ICON WP05 PL_ATTACK_01> ،<ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>أثناء الهجوم سيسمح <LSNR "لكَ" "لكِ"><lf>بإنتاج نغمة أخرى.
+<string><REF ActionGuideDataNameText_Wp05_800331776>
+<string>
+<string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp05_m671947712>
+<string>هجوم أساسي ينتج عنه النغمة الثالثة<lf>على السلم الموسيقي.<lf>يسمح <LSNR "لكَ" "لكِ"> بإصابة هدف <LSNR "خلفكَ" "خلفكِ"> بسهولة<lf>و<LSNR "سيجعلكَ تتحرك" "سيجعلكِ تتحركين"> للخلف أثناء الهجوم.
+<string>
+<string><INPUTMSG MsgGUI600200_01_012>
+<string><REF ActionGuideDataNameText_Wp05_m787884800>
+<string>هجوم أساسي ينتج عنه النغمة الثالثة<lf>على السلم الموسيقي.<lf><lf>الضغط على <ICON WP05 PL_ATTACK_01> أو <ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> أثناء الهجوم<lf>سيسمح <LSNR "لكَ" "لكِ">بإنتاج نغمة أخرى.
+<string>
+<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01> أو <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>مجموعة من الهجمات السريعة<lf>التي ينتج عنها نغمة.<lf>يمكن استخدامها بعد عدد من الهجمات المختلفة.<lf><ICON WP05 PL_ATTACK_00> و<ICON WP05 PL_ATTACK_01> و<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>،<lf>ينتج عن كل منها نغمته الخاصة.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_386094144>
+<string><ICON WP05 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp05_m208341008>
+<string>هجوم مميز يفعِّل تأثيرات اللحن.<lf>سيتم أداء عدة ألحان مُخزَّنة بالترتيب، لكن <LSNR "يمكنكَ" "يمكنكِ"><lf>اختيار لحن باستخدام <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01>.<lf><lf>أثناء أداء عدة ألحان، <LSNR "اضغط" "اضغطي"> على <ICON WP05 PL_ATTACK_SP><lf>لتنفيذ إيقاع الأداء بقوة. ثم <LSNR "قم" "قومي"> بعزف<lf>الأداء الإضافي باستخدام <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> لتعزيز<lf>وتمديد تأثيرات الألحان.<lf><lf>تنسيق إيقاع الأداء والأداء الإضافي مع تفعيل<lf>تأثيرات الألحان سيزيد من ضرر الهجوم.
+<string>
+<string><ICON WP05 PL_ATTACK_SP>
+<string><REF ActionGuideDataNameText_Wp05_m1751799040>
+<string>
+<string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m6258827>
+<string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
+<string>هجوم مميز ينتج عنه فقاعة الصدى.<lf><LSNR "يمكنكَ" "يمكنكِ"> تعيين نوع فقاعة الصدى<lf>المرتبط بقرن الصيد المزوَّد.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> إنتاج ما يصل إلى ثلاث نغمات<lf>باستخدام <ICON WP05 PL_ATTACK_01> أو <ICON WP05 PL_ATTACK_00><lf>أو <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>أثناء إنشاء فقاعة صدى.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m466143936>
+<string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> مع اللحن المخزَّن
+<string><REF ActionGuideDataNameText_Wp05_477278688>
+<string>على عكس التنفيذ،<lf>ستعزف هذه النسخة تأثيرات اللحن الفريدة<lf>المرتبطة بقرن الصيد المزوَّد.<lf><lf>بعد تخزينه،<lf>لن يحتل مكان هذا اللحن لحنًا جديدًا.
+<string>
+<string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
+<string>هجوم أداء فعَّال ضد الجروح.<lf><LSNR "يمكنكَ" "يمكنكِ"> إنتاج ما يصل إلى خمس نغمات<lf>باستخدام <ICON WP05 PL_ATTACK_01> أو <ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> في أثناء <REF ActionGuideDataNameText_Wp05_m208341008>.<lf><lf>سيؤدي عزف النغمة مع الإيقاع إلى زيادة الضرر<lf>الناتج عنها.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_1317018112>
+<string>
+<string><REF ActionGuideDataNameText_Wp05_477278688>
+<string><REF RefStatus_0006_000_01>
+<string>بعد تعيين فقاعة صدى<lf><LSNR "ستحصل" "ستحصلين"> على تأثير لحن مميز<lf>طالما <LSNR "أنكَ" "أنكِ"> في مجال تأثيره.<lf><lf>سيتردد صداه أيضًا مع التنفيذ وعزف النغمات<lf>وإلحاق الضرر بالوحوش القريبة.
+<string><REF ActionGuideDataNameText_Wp05_m1113914624>
+<string>هجوم تنفيذ مميز يمكنه إبطال هجمات الوحوش.<lf>ضرره الكبير يضمن فائدته<lf>كهجوم عادي كذلك.
+<string>
+<string>تأثيرات اللحن
+<string><REF ActionGuideDataNameText_Wp05_m1354698240>
+<string>يزيد سرعة الحركة.<lf>سيساهم القيام بتكرار تأثير اللحن<lf>إلى رفع قوة <LSNR "هجومكَ" "هجومكِ"> أيضًا<lf>ويمنع تعرض <LSNR "هجومكَ" "هجومكِ"> للصد.
+<string>
+<string>يمنع التراجع عند الإصابة بالهجمات.
+<string>
+<string><ICON ST_POWER_UP_HORN> زيادة الهجوم (ص)/
+<string>يزيد من الهجوم.
+<string>
+<string>يزيد من الدفاع.
+<string>
+<string><ICON ST_DEFECE_FIRE> زيادة مقاومة النار (ص)/<ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
+<string>يزيد مقاومة النار<lf>ويمنع وباء النار.
+<string>
+<string>موجة الصدى
+<string>تأثير لحن يلحق ضررًا بالوحوش.<lf><lf>كل قرن صيد له تأثيرات مختلفة.<lf>يمكن لبعضها إلحاق ضرر غير حاد أو ضرر قاطع،<lf>في حين يمكن للبعض الآخر إلحاق ضرر<lf>يشمل كل العناصر والاعتلالات.
+<string>
+<string>تأثيرات <REF RefStatus_0006_000_01>
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
+<string>يزيد التفادي وسرعة الحركة.
+<string>
+<string>ضربات متتالية أساسية
+<string><REF ActionGuideDataNameText_Wp05_1180191104>
+<string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00>
+<string>ضربات متتالية أساسية. يمكن إنتاج<lf>ما يصل إلى ثلاث نغمات باستخدام التباهي.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_800331776>
+<string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية قوية
+<string><REF ActionGuideDataNameText_Wp05_m787884800>
+<string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>ضربات متتالية قوية.<lf>ضربة من أعلى الرأس تنتج نغمتين<lf>ما يسمح <LSNR "لكَ" "لكِ"> بإلحاق ضرر كبير<lf>أثناء تخزين النغمات<lf>في <LSNR "سجلكَ" "سجلكِ"> الموسيقي.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_2056927744>
+<string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>
+<string>ضربات تنفيذ متتالية أساسية
+<string><REF ActionGuideDataNameText_Wp05_m208341008>
+<string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
+<string>ضربات تنفيذ متتالية تستغل ثغرات دفاع الوحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m6258827>
+<string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>
+<string>ضربات تأثيرات اللحن المتتالية الثلاثية
+<string><REF ActionGuideDataNameText_Wp05_m208341008>
+<string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
+<string>ضربات متتالية قوية<lf>مفيدة ضد الوحوش التي تمت إطاحتها.<lf><lf><LSNR "استخدم" "استخدمي"> تأثير اللحن في الوقت المناسب مع إيقاع الأداء<lf>والأداء الإضافي لإلحاق ضرر كبير.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1751799040>
+<string><ICON WP05 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1751799040>
+<string><ICON WP05 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m6258827>
+<string><ICON WP05 PL_ATTACK_SP> أو <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>
+<string>ضربات تنفيذ متتالية سريعة
+<string>هجوم أساسي
+<string><ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01> أو <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>يؤدي استخدام ضربات التنفيذ إلى<lf>تفعيل تأثيرات اللحن أسرع من المعتاد.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_386094144>
+<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> أو <ICON WP05 PL_ATTACK_01> أو <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m208341008>
+<string><ICON WP05 PL_ATTACK_SP>
+<string>
+<string><ICON WP_LANCE> الرمح
+<string><REF ActionGuideDataNameText_Wp06_m572647232>
+<string><ICON WP06 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_013>
+<string><INPUTMSG MsgGUI600200_01_013_01>
+<string><REF ActionGuideDataNameText_Wp06_m400225664>
+<string><ICON WP06 PL_ATTACK_01>
+<string>بداية ضربات متتالية أساسية تندفع نحو الأعلى.<lf><LSNR "ستندفع" "ستندفعين"> في الاتجاه الذي <LSNR "تستهدفه" "تستهدفينه"> في وضع التركيز.<lf><lf>يمكن تكرار الهجوم حتى ثلاث مرات.<lf>بعد تنفيذ الاندفاع المرتفع 3 يمكن استخدام اندفاع<lf>هجومي ويزداد ضرره بطول مدة الاستمرار<lf>في الضغط على <ICON WP06 PL_ATTACK_01>.<lf>ضبط توقيت هذا الهجوم مع هجوم وحش سيسمح <LSNR "لكَ" "لكِ"><lf>بتنفيذ الاندفاع الهجومي المزدوج بقوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m1479629056>
+<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>هجوم اندفاع <LSNR "يحرككَ" "يحرككِ"> نحو الأمام.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_2049287808>
+<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>هجوم اجتياح كبير<lf>يمكن تنفيذه أثناء الضربات المتتالية.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m222102848>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
+<string><LSNR "استخدم ترسكَ" "استخدمي ترسكِ"> للتصدي والذي يمكن تنفيذه<lf>أيضًا أثناء الضربات المتتالية.<lf><LSNR "ستنفذ" "ستنفذين"> الهجوم المضاد تلقائيًا بعد التصدي<lf>إذا كان رد فعل التصدي صغيرًا بما يكفي.<lf>كما أن استخدام التصدي المثالي سيتيح تنفيذ<lf>هجوم مضاد قوي.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_ATTACK_00> للمضي قدمًا<lf>أثناء رفع الترس لأعلى.<lf>سيؤدي الضغط على <ICON WP06 PL_ATTACK_00> بعد ذلك إلى تنفيذ<lf>هجوم الترس بينما سيؤدي الضغط على <ICON WP06 PL_ATTACK_01><lf>إلى اندفاع أثناء القفز.
+<string><INPUTMSG MsgGUI600200_01_014_01>
+<string><REF ActionGuideDataNameText_Wp06_1667857>
+<string><INPUTMSG MsgGUI600200_01_015>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m1607854080>
+<string><ICON WP06 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m1479629056>
+<string><ICON WP06 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m938479488>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string><LSNR "تموضع ووجّه" "تموضعي ووجّهي"> تصديًا حصينًا.<lf>بينما تستنفد قوة <LSNR "تحملكَ" "تحملكِ"> في هذه الحالة<lf>فإن رد <LSNR "فعلكَ" "فعلكِ"> من التصدي سيقل بشدة،<lf>ما يسمح <LSNR "لكَ" "لكِ"> بتوجيه هجوم مضاد بسهولة.<lf><lf>الضرر الذي يسببه <LSNR "هجومكَ" "هجومكِ"> المضاد<lf>ستعززه كل هجمة <LSNR "تتصدى" "تتصدين"> لها.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>اندفاع للأمام والرمح في <LSNR "يدكَ" "يدكِ">.<lf><LSNR "يمكنكَ" "يمكنكِ"> الهجوم عدة مرات أثناء الركض، لكن قوة<lf>التحمل ستُستنزف ببطء.<lf>سترتفع كل من السرعة وقوة الهجوم بعد الركض<lf>لفترة قصيرة.<lf><LSNR "يمكنكَ" "يمكنكِ"> التحرك والدوران مع الحفاظ على الزخم<lf>أثناء هجوم الانطلاق باستخدام <ICON WP06 PL_DUMMY_MOVE><ICON PLUS><ICON WP06 PL_DODGE> و<ICON WP06 PL_DUMMY_MOVE><lf>على التوالي.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم اندفاع قوي باستخدام الزخم<lf>مع <ICON WP06 PL_ATTACK_00> أو <ICON WP06 PL_ATTACK_01>.<lf>من الممكن أيضًا استخدام اندفاع الضربة الثنائية<lf>القاضية الأكثر قوة عند تخطي سرعة معينة.
+<string><INPUTMSG MsgGUI600200_01_016_01>
+<string><REF ActionGuideDataNameText_Wp06_1760401280>/<REF ActionGuideDataNameText_Wp06_1210626816>
+<string><INPUTMSG MsgGUI600200_01_017>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_696236864>
+<string><ICON WP06 PL_ATTACK_00> أو <ICON WP06 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_245901408>
+<string><ICON WP06 PL_ATTACK_00> بعد نجاح التصدي
+<string>هجوم مضاد سريع يمكن تنفيذه بعد التصدي.<lf>من السهل إقرانه بالضربات المتتالية<lf>وسرعته تسمح <LSNR "لكَ" "لكِ"> بالتصدي مجددًا<lf>بعد الهجوم بوقت قصير.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_894130624>
+<string><ICON WP06 PL_ATTACK_01> بعد نجاح التصدي
+<string>هجوم مضاد بالخطو إلى الأمام<lf>يمكن تنفيذه بعد استخدام التصدي.<lf>رغم أنه يلحق ضررًا أكبر من النسخة الخفيفة<lf>إلا أنه <LSNR "سيترككَ مكشوفًا" "مكشوفة"> لفترة طويلة.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_1728314368>
+<string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
+<string>هجوم ترس فعَّال ضد الجروح.<lf>إصابة جرح وحش أو نقطة ضعفه<lf>ستسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة.<lf><lf>اضغط <ICON WP06 PL_ATTACK_SP_B> أثناء هجوم الطعنة<lf>لإنهاء الهجوم في أي وقت.
+<string>
+<string>ضربات متتالية أساسية تؤدي إلى لاندفاع الثلاثي
+<string><REF ActionGuideDataNameText_Wp06_m572647232>
+<string><ICON WP06 PL_ATTACK_00>
+<string>ضربات متتالية أساسية تؤدي إلى الاندفاع الثلاثي.<lf><lf>الاندفاع الثلاثي. هو هجوم قوي من ثلاث ضربات<lf>يمكن إلغاؤه سريعًا وتحويله إلى التصدي.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m61029700>
+<string><ICON WP06 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_31930464>
+<string><ICON WP06 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m752102912>
+<string><ICON WP06 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية أساسية تؤدي إلى اندفاع هجومي
+<string><REF ActionGuideDataNameText_Wp06_m400225664>
+<string><ICON WP06 PL_ATTACK_01>
+<string>ضربات متتالية أساسية تؤدي إلى اندفاع هجومي.<lf><lf>ستزداد قوة الاندفاع الهجومي<lf>كلما طالت مدة شحنه،<lf>وسيصبح الاندفاع الهجومي المزدوج أقوى<lf>عندما يُضبط توقيته مع هجوم وحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m1128612864>
+<string><ICON WP06 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_m1488459392>
+<string><ICON WP06 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_1549684992>
+<string><ICON WP06 merge="PL_ATTACK_01,HOLD_ON">
+<string>
+<string>الهجمات المضادة بعد تصدٍ ناجح
+<string><REF ActionGuideDataNameText_Wp06_m222102848>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
+<string>تتوفر الهجمات المضادة<lf>بعد التصدي لهجوم وحش.<lf><lf>تنفيذ التصدي المثالي بنجاح<lf>سيسمح <LSNR "لكَ" "لكِ"> باستخدام<lf>هجوم تقدمي قوي.
+<string>
+<string><REF ActionGuideDataNameText_Wp06_245901408>
+<string><ICON WP06 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_894130624>
+<string><ICON WP06 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>
+<string><ICON WP_GUNLANCE> بندقية الرماح
+<string><REF ActionGuideDataNameText_Wp07_1940934784>
+<string><ICON WP07 PL_ATTACK_00>
+<string>هجوم اندفاع بالخطو إلى الأمام.<lf><LSNR "استخدم" "استخدمي"> <ICON WP07 PL_ATTACK_00> لإقرانه بالاندفاع الجانبي 2،<lf>ثم <ICON WP07 PL_ATTACK_00> مجددًا لهجوم اجتياح كبير.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m318721248>
+<string><ICON WP07 PL_MOVE_FRONT><ICON PLUS><ICON WP07 PL_ATTACK_00>
+<string>هجوم اندفاع بالخطو إلى الأمام.<lf><lf>يمكن إقرانه بضربة من أعلى الرأس<lf>باستخدام<lf><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>، ثم اندلاع النيران باستخدام <ICON WP07 PL_ATTACK_01><lf>أو اجتياح كبير باستخدام <ICON WP07 PL_ATTACK_00>.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1347992960>
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1677525760>
+<string><ICON WP07 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m551745024>
+<string><ICON WP07 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_1497865856>
+<string><ICON WP07 PL_ATTACK_00> بعد اجتياح كبير
+<string>هجوم يطلق مدفع (ويرمستايك).<lf>يلحق ضررًا متكررًا<lf>للجزء الذي أصابه من الوحش قبل الانفجار،<lf>مُلحقًا ضرر نار<lf>يخترق جلد الوحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_646080000>
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> بعد اجتياح كبير
+<string>هجوم يطلق كل القذائف المتبقية ومدفع<lf>(ويرمستايك).<lf><LSNR "اضغط" "اضغطي"> على <ICON WP07 PL_ATTACK_00> أو <ICON WP07 PL_ATTACK_01> بعد انفجار<lf>(ويرمستايك) الكامل لاستخدام<lf>انفجار (ويرمستايك) الكامل المتعدد.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_703375872>
+<string><ICON WP07 PL_ATTACK_01>
+<string><INPUTMSG MsgGUI600200_01_018>
+<string><INPUTMSG MsgGUI600200_01_018_01>
+<string><REF ActionGuideDataNameText_Wp07_1671040640>
+<string><INPUTMSG MsgGUI600200_01_019>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m43537492>
+<string><ICON WP07 merge="PL_ATTACK_01,HOLD_ON">
+<string>هجوم يشحن القذائف<lf>قبل إطلاقها كلها دفعة واحدة،<lf>مُلحقًا ضرر نار يخترق جلد الوحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1562396032>
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
+<string>ضربة قاطعة للأعلى باستخدام بندقية الرماح.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP07 PL_ATTACK_01> بعد الهجوم لإطلاق قذيفة<lf>أو <ICON WP07 PL_ATTACK_00> لتنفيذ ضربة من أعلى الرأس.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1588566656>
+<string><ICON WP07 merge="PL_ATTACK_SP,HOLD_ON">
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP07 PL_ATTACK_00> أثناء التصدي لتنفيذ اندفاع التصدي 1.<lf>بعد النجاح في تنفيذ التصدي المثالي، <LSNR "اضغط" "اضغطي"> على <ICON WP07 PL_ATTACK_00><lf>لتنفيذ ضربة من أعلى الرأس.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m2132440704>
+<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
+<string>يعيد تلقيم القذائف ومدفع (ويرمستايك).<lf><LSNR "ستحجب" "ستحجبين"> الهجمات تلقائيًا<lf>بعد بداية إعادة التلقيم مباشرةً.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1926268544>
+<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>يعيد تلقيم القذائف فقط.<lf><LSNR "ستحجب" "ستحجبين"> الهجمات تلقائيًا<lf>بعد بداية إعادة التلقيم مباشرةً.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m26915160>
+<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
+<string><LSNR "استخدم" "استخدمي"> قسمًا واحدًا من مقياس التنين المجنح<lf>لإطلاق العنان لنيرانه القوية، ما يلحق ضرر نار<lf>يخترق جلد الوحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_695464896>
+<string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
+<string>هجوم مثقاب اندفاعي فعَّال ضد الجروح.<lf>إصابة جرح وحش أو نقطة ضعفه<lf>ستطيل الهجوم<lf>وستسمح <LSNR "لكَ" "لكِ"> بإنهاء الهجوم<lf>بإطلاق مدفع (ويرمستايك).<lf><lf>و<LSNR "يمكنكَ" "يمكنكِ"> أيضًا إطلاق مدفع (ويرمستايك) مبكرًا<lf>بالضغط على <ICON WP07 PL_ATTACK_SP_B> أثناء هجوم المثقاب.
+<string>
+<string><REF RefEquipment_SORT_0004>
+<string>هناك ثلاثة أنواع من القصف:<lf>العادي والواسع والطويل.<lf><lf>القذائف العادية لها أعلى قدرة.<lf>القذائف الواسعة تُستخدم في القصف<lf>الأكثر قوة وهجمات نيران التنين المجنح.<lf>القذائف الطويلة تُستخدم في هجمات<lf>مدفع (ويرمستايك) الأكثر قوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_1164200704>
+<string>الذخيرة مطلوبة لاستخدام القصف.<lf>تُستهلك قذيفة مع كل إطلاق نار.<lf>يمكن استردادها باستخدام إعادة التلقيم<lf>أو إعادة التلقيم السريع.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1336808448>
+<string>الذخيرة مطلوبة لاستخدام مدفع (ويرمستايك).<lf>تُستهلك في كل مرة يُطلق فيها مدفع<lf>(ويرمستايك) ويمكن استردادها بإعادة التلقيم.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m345881792>
+<string>مقياس ضروري لاستخدام نيران التنين المجنح<lf>وهو هجوم يسبب ضررًا قويًا يتضمن ضررًا ناريًا.<lf><lf>توجيه الهجمات أو التصدي الناجح سيملأ المقياس.<lf><lf>يمكن شحن ما يصل إلى قسمين في مرة واحدة.<lf>استخدام نيران التنين المجنح يستهلك قسمًا واحدًا.
+<string>
+<string>ضربات متتالية من مدفع ويرمستايك
+<string><REF ActionGuideDataNameText_Wp07_1940934784>
+<string><ICON WP07 PL_ATTACK_00>
+<string>ضربات متتالية أساسية<lf>مرتبطة بمدفع (ويرمستايك).
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m789417920>
+<string><ICON WP07 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m551745024>
+<string><ICON WP07 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_1497865856>
+<string><ICON WP07 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية لانفجار ويرمستايك الكامل
+<string><REF ActionGuideDataNameText_Wp07_703375872>
+<string><ICON WP07 PL_ATTACK_01>
+<string>ضربات متتالية أساسية<lf>مرتبطة بانفجار (ويرمستايك) الكامل.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m551745024>
+<string><INPUTMSG MsgGUI600200_01_020>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_646080000>
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_372457152>
+<string><ICON WP07 PL_ATTACK_00> أو <ICON WP07 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية لاندلاع النيران
+<string><REF ActionGuideDataNameText_Wp07_m1562396032>
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
+<string>ضربات متتالية أساسية<lf>مرتبطة باندلاع النيران.
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1347992960>
+<string><ICON WP07 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp07_m1677525760>
+<string><ICON WP07 PL_ATTACK_01>
+<string>
+<string><ICON WP_SWITCHAXE> فأس السيف
+<string><REF ActionGuideDataNameText_Wp08_143967248>
+<string><ICON WP08 PL_ATTACK_00>
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_00> بعد الفأس: الضربة القاطعة من<lf>أعلى الرأس لتنفيذ الفأس: الضربة القاطعة الجانبية،<lf>ثم <ICON WP08 PL_ATTACK_00> لتنفيذ الفأس: ضربة انفجار ملتفة.<lf>الفأس: ضربة انفجار ملتفة سيجدد مقدارًا كبيرًا<lf>من مقياس التبديل.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا استخدام <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> من أجل هجوم<lf>التقدم إلى الأمام متوسط المدى الفأس: الضربة<lf>القاطعة المستبقة.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_366492192>
+<string><ICON WP08 PL_ATTACK_01>
+<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> سيسمح <LSNR "لكَ" "لكِ"> باستخدام<lf>الفأس: الضربات المتأرجحة الكبيرة باستمرار.<lf>بعد استخدام الفأس: الضربات المتأرجحة الكبيرة<lf>مرتين على الأقل، <LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_00> من أجل<lf>الفأس: الضربة القاطعة الجسيمة التي <LSNR "ستحولكَ" "ستحولكِ"><lf>إلى وضع فأس القوة.<lf><lf><LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> لاستخدام<lf>الفأس: الضربة الأمامية العالية<lf>وهو هجوم طويل المدى بالتقدم إلى الأمام.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m255976208>
+<string><ICON WP08 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m128645088>
+<string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>ضربة عمودية للأعلى يمكنها إبطال هجمات الوحوش.<lf>اذا <LSNR "نجحتَ" "نجحتِ"> بإبطال الهجوم بنجاح، <LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ الفأس: الضربة القوية المتابعة، مما يحولك إلى<lf>"وضع فأس القوة"، أو <LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_SP><lf>لتنفيذ الفأس: الضربة التحولية المتابعة، والتي <LSNR "ستنقلكَ" "ستنقلكِ"><lf>إلى "وضع السيف".
+<string>
+<string><REF ActionGuideDataNameText_Wp08_166716544>
+<string><ICON WP08 PL_ATTACK_00> عند إبطال مثالي للهجوم
+<string>
+<string><REF ActionGuideDataNameText_Wp08_1659893248>
+<string><ICON WP08 PL_ATTACK_SP> عند بطال مثالي للهجوم
+<string>
+<string><REF ActionGuideDataNameText_Wp08_1185187840>
+<string><ICON WP08 PL_MOVE_BACK><ICON PLUS><ICON WP08 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>هجوم بالغ المدى<lf>أثناء التحرّك للخلف.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m454460192>
+<string><ICON WP08 PL_ATTACK_SP>
+<string><INPUTMSG MsgGUI600200_01_021>
+<string><INPUTMSG MsgGUI600200_01_021_01>
+<string><REF ActionGuideDataNameText_Wp08_486853024>
+<string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
+<string>هجوم قاطع فعَّال ضد الجروح.<lf>إصابة جرح وحش أو نقطة ضعفه بهذا الهجوم<lf>ستسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة<lf>واستخدام الفأس: الضربة القاطعة الجسيمة.<lf><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى وضع السيف باستخدام <ICON WP08 PL_ATTACK_SP><lf>أثناء هجوم الضربات المتعددة،<lf>ثم <LSNR "استخدم" "استخدمي"> ضربة تفريغ العنصر القاضية.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1280417792>
+<string><ICON WP08 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1084801536>
+<string><ICON WP08 PL_ATTACK_00>
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ السيف: ضربة قاطعة من الأرض جهة اليمين<lf>بعد السيف: ضربة قاطعة من أعلى الرأس.<lf>بعد السيف: ضربة قاطعة من الأرض جهة اليمين<lf><LSNR "يمكنكَ" "يمكنكِ"> الضغط على <ICON WP08 PL_ATTACK_00><lf>لتنفيذ السيف: ضربة قاطعة من الأرض جهة اليسار.<lf><LSNR "يمكنكَ" "يمكنكِ"> ضبط الوضعية أثناء هذا الهجوم<lf>باستخدام <ICON WP08 PL_DUMMY_MOVE>.
+<string><INPUTMSG MsgGUI600200_01_022_01>
+<string><REF ActionGuideDataNameText_Wp08_150431184>
+<string><ICON WP08 PL_ATTACK_01>
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP08 PL_ATTACK_01> بعد السيف: الضربة القاطعة<lf>المزدوجة من أجل السيف: موجة ضربات نحو<lf>السماء التي ستملأ <REF ActionGuideDataNameText_Wp08_1601592576> بمقدار كبير.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1381817088>
+<string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
+<string><LSNR "اضبط" "اضبطي"> توقيت الهجوم مع هجوم الوحش لتجنب<lf>السقوط.<lf>النجاح في ذلك سيسمح <LSNR "لكَ" "لكِ"> بتنفيذ هجومين متتاليين،<lf>يمكن اتباعهما بالسيف: موجة ضربات نحو السماء<lf>باستخدام <ICON WP08 PL_ATTACK_01>.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m28020688>
+<string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP08 merge="PL_ATTACK_SP,REPEAT_ON"> بعد ضربة تفريغ العنصر<lf>من أجل تنفيذ هجوم ضربة قاضية متفجرة.<lf><LSNR "ستتبدل" "ستتبدلين"> تلقائيًا إلى وضع الفأس بعد الانفجار
+<string>
+<string>تسديد معادل
+<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>يمكنك تنفيذ ضربة "تفريغ العنصر" عندما<lf>تكون في "الوضع المشحون". يمكنك أيضًا<lf>تنفيذ <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> بعد ركوب وحش لتنفيذ<lf>الضربة النهائية لتفريغ الصفر.<lf>بعد تنفيذ الضربة النهائية، سيُعاد سلاحك<lf>إلى وضع الفأس.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m84158064>
+<string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>هجوم قوي متاح في وضع السيف.<lf>انفجار إضافي يلحق ضررًا إضافيًا<lf>يحدث عند استخدامه في حالة الثوران.<lf><LSNR "ستتبدل" "ستتبدلين"> إلى وضع الفأس بعد الهجوم.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_26943142>
+<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>هجوم قوي لا يمكن استخدامه إلا في "الوضع<lf>المشحون". يمكنك أيضًا دمج هذا الهجوم<lf>باستخدام <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> بعد تنفيذ ضربة "تفريغ العنصر".<lf>سيعيدك هذا الهجوم إلى "وضع الفأس".<lf><lf>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m454460192>
+<string><ICON WP08 PL_ATTACK_SP>
+<string><INPUTMSG MsgGUI600200_01_023>
+<string><INPUTMSG MsgGUI600200_01_023_01>
+<string><REF ActionGuideDataNameText_Wp08_486853024>
+<string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
+<string>هجوم قاطع فعَّال ضد الجروح.<lf>إصابة جرح أو نقطة ضعف بهذا الهجوم<lf>ستسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة<lf>واستخدام ضربة تفريغ العنصر القاضية.<lf>يمكنكِ التبديل إلى وضع الفأس<lf>باستخدام <ICON WP08 PL_ATTACK_SP> أثناء هجوم الضربات<lf>المتعددة ثم <LSNR "استخدم" "استخدمي"> الفأس: الضربة<lf>القاطعة الجسيمة بعد ذلك.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m694198912>
+<string><ICON WP08 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_971569344>⇔<REF ActionGuideDataNameText_Wp08_m1422082944>
+<string>الهجوم في وضع الفأس سيملأ مقياس التبديل<lf>في حين أن الهجوم في وضع السيف سيستنفده.<lf><LSNR "بدِّل" "بدّلي"> بين الوضعين أثناء القتال<lf>لضمان الفوز.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_1814127872>
+<string>مقياس يمتلئ عند توجيه الهجمات في وضع الفأس.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> التبديل إلى وضع السيف حين يمتلئ مقياس<lf>التبديل بنسبة 30%.<lf>سيمتلئ المقياس بمرور الوقت حين يكون <LSNR "سلاحكَ" "سلاحكِ"><lf>مغمدًا.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_503110624>
+<string>يزيد الضرر في وضع الفأس.<lf>وأيضًا يزيد معدل امتلاء<lf>مقياس التبديل أثناء الهجوم.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_1601592576>
+<string>مقياس يمتلئ حين <LSNR "توجه" "توجهين"> الهجمات في وضع السيف.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> دخول حالة الثوران<lf>حين يمتلئ مقياس المضخم بالكامل.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_132806840>
+<string>انفجارات صغيرة تلحق ضررًا<lf>حسب نوع <LSNR "قارورتكَ" "قارورتكِ">،<lf>وتحدث تلقائيًا عند توجيه هجوم في وضع السيف.
+<string>
+<string>نوع القارورة
+<string>الهجوم في وضع السيف<lf>سيستهلك مقياس التبديل،<lf>مضيفًا تأثيرًا يعتمد على نوع القارورة.<lf>ستملأ بعض القوارير المقياس بسهولة<lf>أكبر من غيرها.<lf><lf>قارورة القوة: تعزز الضرر الجسدي<lf>قارورة العنصر: تعزز الضرر العنصري<lf>قارورة السم: تضيف السم<lf>قارورة الشلل: تضيف الشلل<lf>قارورة التنين: تضيف عنصر التنين<lf>قارورة الإرهاق: تضيف الصعق/استنزاف الطاقة
+<string>
+<string>ضربات متتالية لملء مقياس التبديل سريعًا
+<string><REF ActionGuideDataNameText_Wp08_143967248>
+<string><ICON WP08 PL_ATTACK_00>
+<string>ضربات متتالية أساسية لملء مقياس التبديل<lf>في أثناء  وضع الفأس.<lf>يمكن إقران الضربات المتتالية بضربات<lf>متتالية أخرى باستخدام <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00><lf>من أجل  فأس: ضربة قاطعة مستبقة<lf>أو <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> من أجل فأس: ضربة أمامية<lf>عالية. <LSNR "اختر" "اختاري"> أفضل هجوم للمهمة والمسافة<lf>التي <LSNR "تهاجم" "تهاجمين"> منها.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_1338690432>
+<string><ICON WP08 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_372106112>
+<string><ICON WP08 PL_ATTACK_00>
+<string>
+<string>ضربات فأس متتالية للتبديل إلى وضع السيف
+<string><REF ActionGuideDataNameText_Wp08_366492192>
+<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
+<string>ضربات متتالية تسمح <LSNR "لكَ" "لكِ"> بالتبديل من<lf>وضع السيف بعد تنشيط وضع فأس القوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m255976208>
+<string><ICON WP08 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1887083904>
+<string><ICON WP08 PL_ATTACK_SP>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1178457984>
+<string><ICON WP08 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية لملء مقياس المضخم في وضع السيف
+<string><REF ActionGuideDataNameText_Wp08_150431184>
+<string><ICON WP08 PL_ATTACK_01>
+<string>ضربات متتالية تملأ مقياس المضخم سريعًا<lf>في وضع السيف.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1737891328>
+<string><ICON WP08 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية أساسية في وضع السيف
+<string><REF ActionGuideDataNameText_Wp08_m1084801536>
+<string><ICON WP08 PL_ATTACK_00>
+<string>ضربات متتالية أساسية في وضع السيف.<lf><LSNR "يمكنكَ" "يمكنكِ"> التحرك في الاتجاه المختار أثناء<lf>الهجوم باستخدام <ICON WP08 PL_DUMMY_MOVE>.
+<string><INPUTMSG MsgGUI600200_01_024_01>
+<string><REF ActionGuideDataNameText_Wp08_m553980096>
+<string><ICON WP08 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp08_1855746432>
+<string><ICON WP08 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية قوية حين يكون الوحش مكشوفًا
+<string><REF ActionGuideDataNameText_Wp08_m28020688>
+<string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>ضربات متتالية قوية<lf>عندما يكون الوحش مكشوفًا بشدة.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m1280417792>
+<string><ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">
+<string>
+<string><REF ActionGuideDataNameText_Wp08_m84158064>
+<string><ICON WP08 PL_ATTACK_SP>
+<string>
+<string><ICON WP_CHARGEBLADE> النصل المشحون
+<string><REF ActionGuideDataNameText_Wp09_m584458432>
+<string><ICON WP09 PL_ATTACK_00>
+<string>بداية ضربات متتالية أساسية.<lf>يمكن إقرانها برد الضربة باستخدام <ICON WP09 PL_ATTACK_00>،<lf>ثم ضربة دوّارة باستخدام <ICON WP09 PL_ATTACK_00> مرة أخرى.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_1630431488>
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
+<string>يتم تنفيذها بالتخلي عن <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> في الوقت المناسب.<lf><LSNR "ستنفذ" "ستنفذين"> ضربة قاطعة لأعلى<lf>بدلًا من ذلك إذا لم يكن التوقيت مناسبًا.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m324722336>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>ضربة قاطعة منقضة <LSNR "تدفعكَ" "تدفعكِ"> نحو الأمام.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ السيف: اندفاع الترس بعد<lf>السيف: ضربة استباقية باستخدام <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.<lf><LSNR "استخدم" "استخدمي"> <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> مرة أخرى لتنفيذ<lf>الفأس: تفريغ العنصر المعزز.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m888161664>
+<string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
+<string>التصدي باستخدام <LSNR "ترسكَ" "ترسكِ">.<lf>ضبط توقيت التصدي جيدًا سيسمح<lf><LSNR "لكَ" "لكِ"> باستخدام التصدي المثالي.<lf><lf><LSNR "استخدم" "استخدمي"> <ICON WP09 PL_ATTACK_00> بعد التصدي المثالي<lf>لتنفيذ ضربة قاطعة وحشية بفأس.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m1536274816>
+<string><ICON WP09 PL_ATTACK_00> بعد التصدي المثالي
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m1598306688>
+<string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
+<string>هجوم سيبدل <LSNR "سلاحكَ" "سلاحكِ"><lf>من السيف إلى الفأس.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_327145088>
+<string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string><LSNR "استخدم" "استخدمي"> طاقة سيف متراكمة<lf>لملء <LSNR "قواريركَ" "قواريركِ">. إذا كانت القوارير ممتلئة بالفعل،<lf>فإن الفائض سيعزز القارورة.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m1699645312>
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> أثناء الشحن
+<string><LSNR "أنفق" "أنفقي"> القوارير للحصول على  تعزيز العنصر<lf>مم سيعزز <LSNR "تصديكَ" "تصديكِ"> ويسمح <LSNR "لكَ" "لكِ"> بتنفيذ تقنية<lf>الفأس: تفريغ العنصر الفائق المعزز.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_882170816>
+<string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> أثناء الشحن
+<string>تعزيز إضافي بعد تعزيز العنصر،<lf>ما يمكِّن السيف. أثناء التمكين،<lf>لن يرتد <LSNR "سيفكَ" "سيفكِ"> بسهولة من على الوحوش.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_869165568>
+<string><INPUTMSG MsgGUI600200_01_025>
+<string><INPUTMSG MsgGUI600200_01_026>
+<string><INPUTMSG MsgGUI600200_01_026_01>
+<string><REF ActionGuideDataNameText_Wp09_708029760>
+<string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
+<string>هجوم قاطع فعَّال ضد الجروح.<lf>ينفّذ هجوم وثب بالسيف<lf>من وضع السيف أو وضع الفأس.<lf>إصابة جرح <LSNR "ستضعكَ" "ستضعكِ"> في<lf>وضع فأس القوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m2127622656>
+<string><ICON WP09 PL_ATTACK_00>
+<string>بداية ضربات متتالية أساسية.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP09 PL_ATTACK_00> لإقرانه بـ الفأس: ضربة<lf>قاطعة من الأعلى أو <ICON WP09 PL_DUMMY_MOVE><ICON PLUS><ICON WP09 PL_ATTACK_00> لإقرانه<lf>بـ الفأس: ضربة قاطعة أفقية متلاشية.<lf><lf>الضغط مطولًا على <ICON WP09 PL_ATTACK_01> في وضع فأس<lf>القوة سيسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة.
+<string><INPUTMSG MsgGUI600200_01_027_01>
+<string><REF ActionGuideDataNameText_Wp09_794588032>
+<string><ICON WP09 PL_ATTACK_01>
+<string>هجوم متعدد الضربات يستهلك قارورة.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP09 PL_ATTACK_01> لتنفيذ الفأس: تفريغ العنصر 2،<lf>ثم <ICON WP09 PL_ATTACK_01> مرة أخرى من أجل الفأس: تفريغ العنصر المعزز.<lf><lf>الضغط مطولًا على <ICON WP09 PL_ATTACK_01> في وضع فأس القوة<lf>سيسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار متعددة.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_1635818112>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>تفريغ العنصر المعزز يمكن إقرانه بهجمات أخرى.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP09 PL_ATTACK_01><lf>لاستخدام الفأس: متابعة تفريغ العنصر المعزز.<lf>الضغط مطولًا على <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>أو <ICON WP09 PL_ATTACK_01> في وضع فأس القوة سيلحق أضرار متعددة.<lf>الضغط على <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> مرة أخرى في معزز<lf>العنصر سينفذ الفأس: تفريغ العنصر الفائق المعزز.<lf>يمكنك أيضًا الضغط على <ICON WP09 PL_ATTACK_SP> أثناء التحضير<lf>لتفعيل هذه الحركة لتتسلسل إلى ضربة قاطعة<lf>مستديرة عنصرية، وتفعيل تعزيز العنصر.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_2051596032>
+<string><ICON WP09 PL_ATTACK_SP>
+<string>هجوم سيبدل <LSNR "سلاحكَ" "سلاحكِ"><lf>من الفأس إلى السيف.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_708029760>
+<string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
+<string>هجوم قاطع فعَّال ضد الجروح.<lf>ينفّذ هجوم وثب بالسيف<lf>من وضع السيف أو وضع الفأس.<lf>إصابة جرح <LSNR "ستضعكَ" "ستضعكِ"> في وضع<lf>فأس القوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
+<string>يبدل <LSNR "سلاحكَ" "سلاحكِ"> ويبدل بين الأوضاع.<lf>أثناء التبديل، سيتصدى الدرع تلقائيًا للهجمات<lf>بينما <LSNR "تواجه" "تواجهين"> الأمام.
+<string>
+<string>هجمات للصد
+<string>بعض الهجمات الموجهة في وضع السيف<lf>يمكنها التصدي أيضًا.<lf>ضبط توقيت الحركة بينما يكون الترس مواجهًا<lf>للهجوم القادم سيسمح <LSNR "لكَ" "لكِ"> بالتصدي تلقائيًا.<lf><lf>بعد التصدي، سيكون <LSNR "بإمكانكَ" "بإمكانكِ"> تنفيذ<lf>الفأس: تفريغ العنصر الفائق المعزز<lf>باستخدام <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.
+<string>
+<string>مقياس الشحن
+<string>الهجوم بالسيف سيخزّن طاقة السيف<lf>التي يمكن استخدامها بعد ذلك لملء القوارير<lf>حين يكون المقياس أصفر أو ما يعلوه.<lf><lf>مراكمة الكثير من طاقة السيف<lf>ستتسبب في ارتداد <LSNR "هجومكَ" "هجومكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_650824320>
+<string>يعزز <LSNR "تصديكَ" "تصديكِ"> في وضع السيف<lf>وسيسمح <LSNR "لكَ" "لكِ"> بتنفيذ الفأس:<lf>تفريغ العنصر الفائق المعزز.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_1125949696>
+<string>ستعزز تأثيرات القارورة<lf>هجمات السيف وتعزز الضرر،<lf>ولن يرتد <LSNR "سلاحكَ" "سلاحكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m701543936>
+<string>يقلل استخدام القارورة<lf>ويسمح <LSNR "لكَ" "لكِ"> بإلحاق أضرار بأماكن متعددة<lf>بالضغط مطولًا على الزر عند الهجوم بالفأس.<lf>بعد تنفيذ التصدي المثالي<lf><LSNR "يمكنكَ" "يمكنكِ"> استخدام الضربة القاطعة الوحشية بالفأس<lf>التي ستعزز <LSNR "هجماتكَ" "هجماتكِ"> لفترة قصيرة.
+<string>
+<string>هجوم مشحون
+<string>السيف: الضربة المزدوجة المشحونة<lf>والسيف: ضربة العناصر المكثفة<lf>سيفقدان بعضًا من فعاليتهما عند الشحن الزائد،<lf>لكنهما هجومان قويان عند ضبط توقيتهما جيدًا.
+<string>
+<string>القوارير
+<string>تُستهلك عند تنفيذ هجمات إبعاد العناصر،<lf>وتنفجر لتلحق ضررًا. عند تعزيزها<lf>تكون تأثيرات القوارير أكبر.<lf><lf>قارورة التصادم: تضيف الصعق والإرهاق<lf>وتولّد انفجارًا يخترق جلد الوحش.<lf><lf>قارورة العنصر: تزيد خواص السلاح العنصرية<lf>ويمكنها إلحاق ضرر كبير<lf>من خلال العنصر.
+<string>
+<string>السيف: الضربات المتتالية الأساسية
+<string><REF ActionGuideDataNameText_Wp09_m324722336>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>ضربات متتالية أساسية تسمح <LSNR "لكَ" "لكِ"> بالتعامل من<lf>مسافة بعيدة باستخدام السيف: اندفاع الترس.<lf><lf>استخدام السيف: رد الضربة بدلًا من<lf>السيف: ضربة مزدوجة مشحونة سيسمح <LSNR "لكَ" "لكِ"><lf>بشحن المقياس سريعًا.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_530797824>
+<string><ICON WP09 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp09_1314887424>
+<string><ICON WP09 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m406475264>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية لمعزز العنصر
+<string><REF ActionGuideDataNameText_Wp09_1630431488>
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
+<string>ضربات متتالية تسمح <LSNR "لكَ" "لكِ"><lf>باستخدام الترس: معزز العنصر.<lf><lf>الشحن أثناء الضربات المتتالية الأساسية<lf>سيسمح <LSNR "لكَ" "لكِ"> بتنفيذ الهجوم.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_327145088>
+<string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m1699645312>
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">
+<string>
+<string><REF ActionGuideDataNameText_Wp09_m406475264>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية لتفريغ العناصر المكونة من 3+ قوارير
+<string><REF ActionGuideDataNameText_Wp09_m406475264>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>ضربات متتالية تجمع بين السيف: اندفاع الترس<lf>والفأس: تفريغ العنصر المعزز.<lf><lf>تنتهي الضربات المتتالية<lf>بالفأس: تفريغ العنصر الفائق المعزز،<lf>ما يسمح <LSNR "لكَ" "لكِ"> بإلحاق ضرر كبير.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_1635818112>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp09_1126951936>
+<string><ICON WP09 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp09_2057398656>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>
+<string>الفأس: مجموعة هجمات تفريغ العنصر الفائق المعزز
+<string><REF ActionGuideDataNameText_Wp09_m1598306688>
+<string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
+<string>كما هو الحال في الهجمات الأخرى التي يمكنها التصدي،<lf><LSNR "يمكنكَ" "يمكنكِ"> استخدام الفأس: تفريغ العنصر الفائق المعزز<lf>مباشرةً بعد التصدي.<lf><lf>استخدام معزز العنصر سيقلل الوقت الذي <LSNR "تكون فيه<lf>عرضة للهجوم " "تكونين فيه عرضة للهجوم "> بعد التصدي،<lf>ما يجعل هذه الضربات المتتالية أسهل في التنفيذ.
+<string>
+<string><REF ActionGuideDataNameText_Wp09_2057398656>
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> بعد التصدي باستخدام هجمة للصد
+<string>
+<string><ICON WP_INSECTGLAIVE> سيف الحشرة
+<string><REF ActionGuideDataNameText_Wp10_m116916480>
+<string><ICON WP10 PL_ATTACK_00>
+<string>بداية ضربات متتالية أساسية.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP10 PL_ATTACK_00> بعد ضربات متتالية قاطعة لأعلى<lf>لتنفيذ ضربة حصاد قاطعة.<lf>سيؤدي الضغط على <ICON WP10 PL_ATTACK_00> مرة أخرى بعد ذلك<lf>إلى تنفيذ ضربة قاطعة مزدوجة.<lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ هجوم أثناء التحرك<lf>عن طريق الضغط مطولًا على <ICON WP10 PL_DUMMY_MOVE><lf>في الاتجاه المراد أثناء الضربات المتتالية القاطعة<lf>لأعلى أو ضربة الحصاد القاطعة.
+<string><INPUTMSG MsgGUI600200_01_028_01>
+<string><REF ActionGuideDataNameText_Wp10_m2131028480>
+<string><ICON WP10 PL_ATTACK_01>
+<string>هجوم اجتياح يغطي مساحة واسعة.<lf>سيستدعي أيضًا حشرات (كينسيكت)<lf>عند استخدامه في وضع التركيز.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_816598592>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
+<string>يأمر حشرات (كينسيكت) بالإسراع إلى الأمام<lf>لجمع مستخلص من الجزء الذي أُصيب في<lf>جسد الوحش.<lf><lf>ستطير حشرات (كينسيكت) إلى الأمام<lf>باتجاه الشبكة التي يمكن عرضها باستخدام <ICON WP10 PL_ATTACK_SP>.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_724987328>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
+<string>سيشحن <ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> هجوم حشرات (كينسيكت)،<lf>ما يسمح لها بجمع المستخلص<lf>من كل جزء تمر به في جسد الوحش.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_607158400>
+<string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
+<string>
+<string><REF ActionGuideDataNameText_Wp10_1536680576>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_01> أثناء طيران حشرات كينسيكت
+<string>يأمر حشرات (كينسيكت) بالعودة <LSNR "إليكَ" "إليكِ."><lf><LSNR "ستقويكَ" "ستقويكِ"> المستخلصات التي تعيدها <LSNR "إليكَ" "إليكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_569344320>
+<string><ICON WP10 PL_ATTACK_SP>
+<string>هجوم يضع علامة<lf>لتتبعها حشرات (كينسيكت).<lf><lf>ستهاجم حشرات (كينسيكت)<lf>الجزء المحدد من الجسم تاركةً خلفها تأثير الغبار.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m1726610048>
+<string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
+<string>هجوم طويل المدى<lf>يضع علامة لتتبعها حشرات (كينسيكت).<lf>ستهاجم حشرات (كينسيكت)<lf>الجزء المحدد من الجسم تاركةً خلفها تأثير الغبار.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m1303595904>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
+<string><INPUTMSG MsgGUI600200_01_029>
+<string><INPUTMSG MsgGUI600200_01_029_01>
+<string><REF ActionGuideDataNameText_Wp01_m203637856>
+<string><ICON WP10 PL_ATTACK_00> أثناء القفز
+<string>
+<string><REF ActionGuideDataNameText_Wp10_239722048>
+<string><ICON WP10 PL_ATTACK_01> أثناء القفز
+<string>
+<string><REF ActionGuideDataNameText_Wp10_632633472>
+<string><ICON WP10 PL_DODGE> أثناء القفز
+<string>
+<string><REF ActionGuideDataNameText_Wp10_810620608>
+<string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
+<string>هجوم اندفاع فعَّال ضد الجروح.<lf><lf>سيتسبب النجاح في إصابة جرح وحش أو نقطة ضعفه<lf>في أن تخترق حشرات (كينسيكت) جسم الوحش<lf>وتجمع المستخلصات الحمراء والبيضاء والبرتقالية.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_724987328>
+<string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> مع مستخلص أحمر
+<string>حركة يمكن شحنها حين يكون <LSNR "لديكَ" "لديكِ"> مستخلص أحمر.<lf>بعد الشحن، <LSNR "استخدم" "استخدمي"> <ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>لتوجيه هجوم متعدد الضربات أثناء <LSNR "وجودكَ" "وجودكِ"> على الأرض<lf>أو من أجل اندفاع قوي أثناء <LSNR "وجودكَ" "وجودكِ"> في الهواء.<lf><LSNR "حافظ" "حافظي"> على الشحن <LSNR "ويمكنكَ" "ويمكنكِ"> إقران بين الهجمات المختلفة<lf>باستخدام <ICON WP10 PL_ATTACK_01><ICON RELEASE>.<lf>إذا كان <LSNR "لديكَ" "لديكِ"> ثلاثة مستخلصات،<lf><LSNR "يمكنكَ" "يمكنكِ"> استخدام الضربة القاضية القوية<lf>بعد الهجوم المشحون باستخدام <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>.<lf>سينهي هذا الحالة المعززة،<lf><LSNR "لكنكَ ستكون قادرًا" "لكنكِ ستكونين قادرة"> على تنفيذ هجمات قوية وجمع<lf>المستخلصات بالاستعانة بحشرات (كينسيكت).
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m851556800>
+<string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
+<string>
+<string><REF ActionGuideDataNameText_Wp10_1212529024>
+<string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> مع ثلاثة مستخلصات
+<string>
+<string><REF RefEquipment_0001_010_0>
+<string>حشرات تحارب إلى <LSNR "جانبكَ" "جانبكِ"> باتباع الأوامر التي<lf>تُملى عليها عن طريق سيف الحشرة.<lf>يمكن لحشرات (كينسيكت) جمع عدد من<lf>المستخلصات التي <LSNR "ستمنحكَ" "ستمنحكِ"> القوة من الوحوش.<lf><LSNR "يمكنكَ" "يمكنكِ"> التزود بمجموعة كبيرة مختلفة من<lf>حشرات (كينسيكت) والتقوي بها.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m1304673664>
+<string>الهجوم مع التصويب باستخدام <ICON WP10 PL_AIM> أثناء وضع التركيز<lf>سيدفع حشرات (كينسيكت)<lf>إلى مهاجمة الوحش وجمع المستخلصات.<lf><lf>سيتغير مسار تصويب حشرات (كينسيكت) أيضًا<lf>حسب مسار تصويب <LSNR "هجومكَ" "هجومكِ">.
+<string>
+<string><REF RefStatus_0008_002_00>
+<string>ستترك حشرات (كينسيكت) خلفها تأثير المسحوق<lf>عند مهاجمة الجزء المحدد من جسم الوحش.<lf>مهاجمة المسحوق ستجعله ينفجر،<lf>ما يتسبب في عدد من التأثيرات المختلفة.<lf><lf>الانفجار: يزيد من تضرر الوحش من الانفجار<lf>السم: يزيد من إصابة الوحش بالسم<lf>الشلل: يزيد من إصابة الوحش بالشلل<lf>التعافي: يستعيد نقاط الصحة قليلًا
+<string>
+<string>مستخلص
+<string>مادة مستخلصة من الوحوش.<lf>هناك أربعة أنواع في الإجمالي:<lf>الأحمر والأبيض والبرتقالي والأخضر.<lf>يختلف نوع المستخلص باختلاف الجزء<lf>المستخلص منه من جسد كل وحش.<lf><lf>المستخلصات التي تُجمع يمكن امتصاصها<lf>باستدعاء حشرات (كينسيكت).<lf>وكل لون يمنح تأثيرًا مختلفًا.<lf>امتصاص ألوان متعددة سينتج تأثيرات أكثر.<lf>ستنتهي التأثيرات بعد فترة من الوقت.
+<string>
+<string>تأثيرات المستخلص
+<string>الألوان المختلفة للمستخلصات ستمنح تأثيرات مختلفة.<lf><LSNR "امزج" "امزجي"> الألوان المختلفة لإنتاج تأثيرات مختلفة.<lf><lf>الأحمر: يسمح <LSNR "لكَ" "لكِ"> بالشحن باستخدام <ICON WP10 PL_ATTACK_01><lf>الأبيض: يزيد سرعة الحركة وارتفاع القفز<lf>البرتقالي: يمنح الثبات<lf>الأحمر+الأبيض: يزيدان الهجوم<lf>الأبيض+البرتقالي: يزيدان الدفاع<lf>الأحمر+الأبيض+البرتقالي: يغيرون هجمات معينة<lf>ويزيدون الهجوم
+<string>
+<string>ضربات متتالية أساسية
+<string><REF ActionGuideDataNameText_Wp10_m116916480>
+<string><ICON WP10 PL_ATTACK_00>
+<string>سلسلة هجمات يمكنها تنفيذ ضربات الحشرة<lf>القتالية المتتالية بعد كل حركة. يمكن أن تكون<lf>جميع الهجمات حتى "الضربة الحاصدة"<lf>هجمات اتجاهية.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا التحرك إلى الخلف أثناء الهجوم<lf>باستخدام "الضربة المراوغة" بدلاً من<lf>"الضربة الساحقة من الأعلى".
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m1983561600>
+<string><ICON WP10 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp10_2014867968>
+<string><ICON WP10 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp10_2066406784>
+<string><ICON WP10 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية لتأثير الغبار
+<string><REF ActionGuideDataNameText_Wp10_569344320>
+<string><ICON WP10 PL_ATTACK_SP>
+<string>ضربات متتالية تضع علامة وتأمر حشرات (كينسيكت)<lf>بترك تأثير المسحوق هناك،<lf>ثم التفادي بسرعة قبل انفجار المسحوق<lf><lf>يمكن اتباعه بهجوم آخر.
+<string>
+<string>وثب (عكسي)
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m203637856>
+<string><ICON WP10 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية في الهواء
+<string><REF ActionGuideDataNameText_Wp10_m1303595904>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
+<string>ضربات متتالية تسمح <LSNR "لكَ" "لكِ"><lf>بالتحرك لمسافة كبيرة في الهواء.<lf><lf>يمكن إقرانها أيضًا باندفاع مُنحدِر<lf>إذا كان <LSNR "لديكَ" "لديكِ"> مستخلص أحمر.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_632633472>
+<string><ICON WP10 PL_DODGE>
+<string>
+<string><REF ActionGuideDataNameText_Wp01_m203637856>
+<string><ICON WP10 PL_ATTACK_00>
+<string>
+<string>ضربات متتالية قوية مع 3 مستخلصات
+<string><REF ActionGuideDataNameText_Wp10_1401028864>
+<string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
+<string><LSNR "استهلك" "استهلكي"> كل المستخلصات لتنفيذ<lf>ضربات متتالية قوية.<lf><lf><LSNR "يمكنكَ" "يمكنكِ"> تنفيذ ضربات كينسيكت متتالية<lf>إلى أن <LSNR "تستخدم" "تستخدمي"> ضربة قاطعة عاصفة.
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m587319424>
+<string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
+<string>
+<string><REF ActionGuideDataNameText_Wp10_m922212864>
+<string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
+<string>
+<string><REF ActionGuideDataNameText_Wp10_1212529024>
+<string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m471861504>
+<string><INPUTMSG MsgGUI600200_01_041>
+<string><INPUTMSG MsgGUI600200_01_042>
+<string><INPUTMSG MsgGUI600200_01_042_01>
+<string><ICON WP_LIGHTBOWGUN> بندقية قوس خفيفة
+<string><REF ActionGuideDataNameText_Wp12_m640497792>
+<string><REF ActionGuideDataNameText_Wp13_m1628573952>
+<string><ICON WP13 PL_ATTACK_SP>
+<string>يطلق ذخيرة مُلقمة إلى الأمام مباشرةً.<lf><LSNR "استخدم" "استخدمي"> التصويب لإطلاق النار في الاتجاه المختار.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m1727296128>
+<string><INPUTMSG MsgGUI600200_01_043>
+<string>
+<string><REF ActionGuideDataNameText_Wp13_1238769920>
+<string><ICON WP13 PL_ATTACK_01> بعد إطلاق النار
+<string><LSNR "اضغط" "اضغطي"> على <ICON WP13 PL_ATTACK_01> بعد إطلاق النار من أجل طلقة القوة،<lf>هو هجوم أقوى يخزن طاقة أكبر أيضًا.<lf><lf>لا يمكن إقرانه بعد طلقة استغلال نقاط الضعف<lf>أو استخدام الذخيرة الخاصة.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_403056384>
+<string><ICON WP13 PL_ATTACK_00>
+<string>يعيد تلقيم الذخيرة المحددة.<lf><LSNR "استخدم" "استخدمي"> <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> لإعادة تلقيم كل الذخيرة بالترتيب.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m976882304>
+<string><ICON WP13 PL_ATTACK_01>
+<string><LSNR "بدِّل" "بدّلي"> بين  وضع الإطلاق ووضع إطلاق النار السريع،<lf>ما يسمح <LSNR "لكَ" "لكِ"> بإطلاق بعض الذخيرة سريعًا.<lf><lf>الضغط على <ICON WP13 PL_ATTACK_01> مرة أخرى<lf>سيبدل <LSNR "وضعكَ" "وضعكِ"> مرة أخرى إلى الوضع القياسي.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m1879452288>
+<string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
+<string>يسمح <LSNR "لكَ" "لكِ"> باستخدام مجموعة الذخيرة الخاصة<lf>من أجل بندقية القوس الخفيفة.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_2009294208>
+<string><INPUTMSG MsgGUI600200_01_030>
+<string><LSNR "حدد" "حددي"> ذخيرة قابلة للاستخدام<lf>من بين الذخيرة التي <LSNR "بحوزتكَ" "بحوزتكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_1387257216>
+<string><REF ActionGuideDataNameText_Wp13_m471861504>
+<string><INPUTMSG MsgGUI600200_01_041>
+<string>يسمح <LSNR "لكَ" "لكِ"> إطلاق النار<lf> السريع بإطلاق أنواع معينة من الذخيرة بسرعة. <lf>بعد الإطلاق، <LSNR "اضغط" "اضغطي"> على <ICON WP13 PL_ATTACK_01> من أجل طلقة القوة، وهوهجوم <lf>إطلاق نار سريع ينتهي <lf>بطلقة قوية للغاية. بعد الإطلاق،<lf> <LSNR "يمكنكَ" "يمكنكِ"> أيضًا تنفيذ <lf>خطوة جانبية أثناء التصويب باستخدام <ICON WP13 PL_DODGE>،<lf> أو القيام بذلك أثناء وضع التصويب/التركيز باستخدام <ICON WP13 PL_DODGE> + <ICON WP13 PL_ATTACK_SP>.<lf> إذا لم تكن هناك ذخيرة مُلقمة<lf> عند تنفيذ هذا، <LSNR "فستنفذ" "فستنفذين"> إعادة تلقيم خطوة جانبية كبديل.
+<string><INPUTMSG MsgGUI600200_01_054_01>
+<string><REF ActionGuideDataNameText_Wp13_99602184>
+<string><ICON WP13 PL_ATTACK_SP>
+<string>
+<string>طلقة المطارد
+<string><ICON WP13 PL_ATTACK_01> بعد إطلاق النار
+<string>
+<string><REF ActionGuideDataNameText_Wp13_776922048>
+<string><INPUTMSG MsgGUI600200_01_053> 
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m976882304>
+<string><ICON WP13 PL_ATTACK_01>
+<string>يستخدم وضع الإطلاق بدلًا من الوضع القياسي.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_1387257216>
+<string><LSNR "أطلق" "أطلقي"> طلقات متعددة<lf>من بعض أنواع الذخيرة عن طريق استهلاك مقياس<lf>اطلاق النار السريع.<lf><lf>ستتجدد الطاقة تلقائيًا<lf>في الوضع القياسي<lf>ويمكن استعادتها أيضًا<lf>بالنجاح في إصابة وحش.<lf><lf>يعتمد المقدار المُخزن على نوع الذخيرة المُستخدَمة.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m1879452288>
+<string><REF ActionGuideDataNameText_Wp13_m70162400>
+<string>يضع قنبلة تنفجر عند مهاجمتها.<lf>ستُستعاد هذه الذخيرة المتفجرة<lf>تدريجيًا بمرور الوقت.
+<string>
+<string><ICON WP_HEAVYBOWGUN> بندقية قوس ثقيلة
+<string><REF ActionGuideDataNameText_Wp12_178259456>
+<string><ICON WP12 PL_ATTACK_SP>
+<string>يطلق ذخيرة مُلقمة إلى الأمام مباشرة.<lf><LSNR "استخدم" "استخدمي"> التصويب لإطلاق النار في الاتجاه المختار.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_187560352>
+<string><INPUTMSG MsgGUI600200_01_051>
+<string><LSNR "اضغط" "اضغطي"> مطولًا على <ICON WP12 PL_AIM_SHOOTING><lf>لتجهيز بندقية القوس<lf>والتصويب بسهولة على الهدف.<lf><LSNR "اضغط" "اضغطي"> على <ICON WP12 PL_ATTACK_SP_B> لشن هجوم<lf>فعَّال ضد الجروح بشكل خاص<lf>ثم <LSNR "اضغط" "اضغطي"> على <ICON WP12 merge="PL_ATTACK_SP_B,HOLD_ON"><lf>في وضع الاشتعال لهجوم أكثر قوة.
+<string><INPUTMSG MsgGUI600200_01_044_01>
+<string><REF ActionGuideDataNameText_Wp12_178259456>
+<string><INPUTMSG MsgGUI600200_01_045>
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1896048256>
+<string><ICON WP12 PL_ATTACK_00>
+<string>يعيد تلقيم الذخيرة المحددة.<lf><LSNR "استخدم" "استخدمي"> <ICON WP12 merge="PL_ATTACK_00,HOLD_ON"> لإعادة تلقيم كل الذخيرة بالترتيب.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m976882304>
+<string><ICON WP12 PL_ATTACK_01>
+<string><LSNR "بدِّل" "بدّلي"> بين وضع الإطلاق ووضع الاشتعال،<lf>ما يسمح <LSNR "لكَ" "لكِ"> بإطلاق ذخيرة خاصة.<lf><lf>الضغط على <ICON WP12 PL_ATTACK_01> مرة أخرى<lf><LSNR "سيبدلكَ" "سيبدلكِ"> إلى الوضع القياسي.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_1687699840>
+<string><ICON WP12 PL_ATTACK_01><ICON PLUS><ICON WP12 PL_ATTACK_00>
+<string>تصدٍ يُنفّذ ببندقية القوس الثقيلة.<lf><lf><LSNR "اضبط" "اضبطي"> توقيته جيدًا لتنفيذ التصدي المثالي،<lf>ما يسمح <LSNR "لكَ" "لكِ"> باستخدام تراجع خاص.<lf><LSNR "يمكنكَ" "يمكنكِ"> أيضًا التصدي التلقائي<lf>من دون إدخال أي شيء<lf>حسب <LSNR "إجرائكَ" "إجرائكِ"> الحالي.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_2009294208>
+<string><INPUTMSG MsgGUI600200_01_031>
+<string><LSNR "حدد" "حددي"> ذخيرة قابلة للاستخدام<lf>من بين الذخيرة التي <LSNR "بحوزتكَ" "بحوزتكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1404200832>
+<string>يطلق ذخيرة خاصة باستهلاك الطاقة.<lf><lf>ستتجدد الطاقة تلقائيًا في الوضع القياسي<lf>وستتعافى أيضًا في كل مرة<lf><LSNR "تطلق" "تطلقين"> فيها طلقة.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_1049174784>
+<string>يتصدى تلقائيًا للهجمات القادمة من الأمام<lf>عند تنفيذ إجراء يسمح <LSNR "لكَ" "لكِ"> بالتصدي التلقائي.<lf><lf>لا <LSNR "يمكنكَ" "يمكنكِ"> استخدام التصدي المثالي<lf>عند استخدام التصدي التلقائي.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m1879452288>
+<string><REF ActionGuideDataNameText_Wp12_903581824>
+<string>ذخيرة خاصة يمكن استخدامها أثناء وضع الاشتعال.<lf><lf><LSNR "استخدم" "استخدمي"> <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> للإطلاق باستمرار،<lf>مع تزايد القوة في كل مرة <LSNR "تصيب" "تصيبين"> فيها هدف.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_154168000>
+<string>ذخيرة خاصة يمكن استخدامها أثناء وضع الاشتعال.<lf>تطلق هجومًا قريب المدى بتأثير مبطِل.<lf><LSNR "اضغط" "اضغطي"> مع الاستمرار على <ICON WP12 PL_ATTACK_00><lf>لزيادة القوة أثناء الإطلاق.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1139193984>
+<string>إصابة جرح وحش أو نقطة ضعفه<lf>ستتسبب في انفجار ثاقب،<lf>ما يلحق ضررًا كبيرًا.<lf><lf>ستتجدد الذخيرة المُستخدَمة تلقائيًا بمرور الوقت.
+<string>
+<string><REF ActionGuideDataNameText_Wp13_m471861504>
+<string><INPUTMSG MsgGUI600200_01_049>
+<string>يظهر شبكة التصويب<lf>في منتصف الشاشة.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1018903168>
+<string><ICON WP11 PL_ATTACK_01>
+<string>هجوم يطلق الأسهم سريعًا على منطقة كبيرة.<lf>لا يستهلك قوة التحمل.
+<string>
+<string><ICON WP_BOW> القوس
+<string><REF ActionGuideDataNameText_Wp11_381447008>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
+<string><LSNR "اسحب قوسكَ" "اسحبي قوسكِ"> لإطلاق الأسهم.<lf>كلما طال <LSNR "ضغطكَ" "ضغطكِ"> على <ICON WP11 PL_ATTACK_SP>، يرتفع مستوى <LSNR "شحنكَ" "شحنكِ">،<lf>ما يزيد فعالية <LSNR "هجماتكَ" "هجماتكِ"><lf>وعدد الأسهم التي <LSNR "يمكنكَ" "يمكنكِ"> إطلاقها.<lf><lf>بعد الهجوم، <LSNR "اضغط" "اضغطي"> على <ICON WP11 PL_ATTACK_01> من أجل طلقة القوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_1800729216>
+<string><ICON WP11 PL_ATTACK_SP><ICON RELEASE>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_713120064>
+<string><ICON WP11 PL_ATTACK_01> أثناء الضربات المتتالية
+<string><LSNR "أطلق" "أطلقي"> عددًا من الأسهم القوية<lf>في مدى واسع.<lf>سيحتفظ بمستوى <LSNR "شحنكَ" "شحنكِ"> الحالي.<lf>بعد الهجوم <LSNR "اضغط" "اضغطي"> على <ICON WP11 PL_ATTACK_01> من أجل وابل القوة.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1871211648>
+<string><ICON WP11 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1364116608>
+<string><INPUTMSG MsgGUI600200_01_047>
+<string>هجوم يمطر من السماء عددًا لا نهائيًا من<lf>الأسهم. ستصبح بعض الأسهم سهم الفتيل،<lf>ما سيجعلها تلتصق بالوحش عند إصابته.<lf>يمكن شحنه حتى ثلاثة مستويات، ما يزيد<lf>مدى الأسهم وعددها في كل مرة.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_1920365056>
+<string><INPUTMSG MsgGUI600200_01_048>
+<string><INPUTMSG MsgGUI600200_01_032>
+<string><INPUTMSG MsgGUI600200_01_032_01>
+<string><REF ActionGuideDataNameText_Wp11_m1212153600>
+<string><ICON WP11 PL_ATTACK_00>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m125532448>
+<string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string>طلقة ثقب قوية. يمكنها تحفيز<lf>انفجارات سهم الفتيل والمتعقب.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_374745664>
+<string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01> أثناء الضربات المتتالية
+<string>طلقة ثقب سريعة وقوية. يمكنها تحفيز<lf>انفجارات سهم الفتيل والمتعقب.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1657138304>
+<string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string>يطلق عدة أسهم في وقت واحد.<lf>يمكنها تحفيز انفجارات سهم الفتيل والمتعقب.
+<string>
+<string>تحديد غطاء
+<string><INPUTMSG MsgGUI600200_01_033>
+<string><LSNR "حدد" "حددي"> غطاءً.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_193855040>
+<string><ICON WP11 PL_ATTACK_00>
+<string>يلقم الغطاء المحدد.<lf>أثناء التلقيم، <LSNR "اضغط" "اضغطي"> على <ICON WP11 PL_ATTACK_00><lf>لإزالة تجهيز الغطاء المحدد.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1416139520>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
+<string>يلقم متعقب.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_169799632>
+<string><INPUTMSG MsgGUI600200_01_050>
+<string>هجوم فعَّال ضد الجروح.<lf><LSNR "صوّب شبكتكَ" "صوّبي شبكتكِ"> على جرح أو وحش متتبع<lf>لإطلاق سهم تعقب سيصيب أماكن عدة من الوحش.<lf><lf><LSNR "اشحن" "اشحني"> حتى المستوى الثالث<lf>لزيادة عدد الأسهم<lf>وإطلاق هجمة متتابعة عند إصابة جرح.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_566243776>
+<string>مقياس ضروري لتلقيم المتعقب والأغطية.<lf><lf>توجيه الهجمات أو النجاح في تنفيذ<lf>المراوغة المميزة سيملأ المقياس.<lf>تلقيم المتعقب أو الأغطية سيستهلك <lf>المقياس.
+<string>
+<string>سهام التعقب والتتبع
+<string>بعد إطلاق المتعقب، فإن السهام التي تطلقها لاحقاً<lf>ستلتف حول هدف المتعقب حتى ينفجر.
+<string>
+<string>أنواع الأغطية
+<string><LSNR "استخدم" "استخدمي"> الأغطية لإضافة التأثيرات على <LSNR "أسهمكَ" "أسهمكِ"><lf><lf>غطاء القوة: يزيد ضرر الأسهم<lf>غطاء ذو مدى قريب: يقلل مدى الأسهم،<lf>لكن يزيد ضررها<lf>غطاء الثقب: يسمح للسهام بالاختراق<lf>غطاء السم: أسهم تصيب بالسم<lf>غطاء الشلل: أسهم تصيب بالشلل<lf>غطاء النوم: أسهم تصيب بالنوم<lf>غطاء الانفجار: أسهم تصيب بالانفجار<lf>غطاء الإرهاق: أسهم تصيب بالصعق/الإرهاق
+<string>
+<string>ضربات متتالية لثاقب التنين
+<string><REF ActionGuideDataNameText_Wp11_m445205632>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">→<ICON WP11 PL_ATTACK_SP><ICON RELEASE>
+<string>ضربات متتالية تستغل مستوى <LSNR "شحنكَ" "شحنكِ"><lf>لإطلاق ثاقب التنين.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_713120064>
+<string><ICON WP11 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1871211648>
+<string><ICON WP11 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m125532448>
+<string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string>
+<string>ضربات متتالية لألف تنين
+<string><REF ActionGuideDataNameText_Wp11_m445205632>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">→<ICON WP11 PL_ATTACK_SP><ICON RELEASE>
+<string>ضربات متتالية تستغل مستوى <LSNR "شحنكَ" "شحنكِ"><lf>لإطلاق ألف تنين.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_713120064>
+<string><ICON WP11 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1871211648>
+<string><ICON WP11 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1657138304>
+<string><INPUTMSG MsgGUI600200_01_046>
+<string>
+<string>ضربات متتالية من <REF ActionGuideDataNameText_Wp11_m966116480>
+<string><REF ActionGuideDataNameText_Wp11_m1416139520>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
+<string>ضربات متتالية تطلق "متعقب" عند مستوى<lf>شحن عالٍ، ثم تنفذ طلقة القوة ووابل القوة<lf>في أثناء الحفاظ على مستوى <LSNR "شحنكَ" "شحنكِ"><lf>قبل تنفيذ شحن الخطوة الجانبية متزامنة مع<lf>هجوم وحش، ما يسمح <LSNR "لكَ" "لكِ"> بتنفيذ السهم القافز،<lf>ويضع مسافة <LSNR "بينكَ وبين هدفكَ" "بينكِ وبين هدفكِ">.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_713120064>
+<string><ICON WP11 PL_ATTACK_01> بعد الطلقة المشحونة
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1871211648>
+<string><ICON WP11 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1212153600>
+<string><ICON WP11 PL_ATTACK_00> أثناء شحن الخطوة الجانبية
+<string>
+<string>ضربات متتالية من <REF ActionGuideDataNameText_Wp11_m1364116608>
+<string><REF ActionGuideDataNameText_Wp11_m1364116608>
+<string><INPUTMSG MsgGUI600200_01_052>
+<string>ضربات متتالية تطلق  سهم الفتيل مع طلقة<lf>قوس قبل تنفيذ شحن الخطوة الجانبية وطلقة<lf>(سوالو) الطائر <LSNR "لتجعلكَ مستعدًا" "لتجعلكِ مستعدة"> لتفجير سهم<lf>الفتيل باستخدام ثاقب التنين أو ألف تنين.
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m1212153600>
+<string><ICON WP11 PL_ATTACK_00> أثناء شحن الخطوة الجانبية
+<string>
+<string><REF ActionGuideDataNameText_Wp11_m125532448>
+<string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
+<string>
+<string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> التحسّن الذاتي
