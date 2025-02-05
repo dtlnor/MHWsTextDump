@@ -18,13 +18,13 @@
 <string>{0}<lf>se ha unido a la misión.
 <string>Te has unido a la misión<lf>de {0}.
 <string>{0}<lf>ha abandonado la misión.
-<string>{0} ha publicado<lf>una misión y espera a que otros se unan.
+<string>{0}<lf>ha aceptado una misión y está<lf>en espera para más jugadores.
 <string>Te has desmayado.<lf>Intentos restantes: {0}
 <string>{1} se ha desmayado.<lf>Intentos restantes: {0}
-<string>Te has desmayado.<lf>Las recompensas se han esfumado.
-<string>{0} se ha desmayado.<lf>Ya no hay ninguna recompensa.
+<string>Te has desmayado.<lf>Ya no queda ninguna recompensa.
+<string>{0} se ha desmayado.<lf>Ya no queda ninguna recompensa.
 <string>Te has desmayado.
-<string>{0} se ha desmayado.
+<string>{0}<lf>se ha desmayado.
 <string>¡Objetivo principal completado!
 <string>¡Se acabó el tiempo!
 <string>Invitación a grupo vinculado
@@ -33,14 +33,14 @@
 <string>{0}<lf>te ha invitado a un entorno vinculado.
 <string>Invitación a misión
 <string>{0}<lf>te ha invitado a una misión.
-<string>Tiempo restante: <PLURAL "{0} minuto" "{0} minutos">.
+<string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
 <string>Estudio de campo
 <string>Comenzando estudio de campo de<lf>{0}.
 <string>Cancelar
 <string>Se ha activado la habilidad<lf><BOLD>{0}</BOLD>.
 <string>Ha desaparecido el efecto de<lf><BOLD>{0}</BOLD>.
-<string>Se ha activado la habilidad de comida<lf><BOLD>{0}</BOLD>.
-<string>Ha desaparecido el efecto de<lf>la habilidad de comida <BOLD>{0}</BOLD>.
+<string>Se ha activado la habilidad de menú<lf><BOLD>{0}</BOLD>.
+<string>Ha desaparecido el efecto de<lf>la habilidad de menú <lf><BOLD>{0}</BOLD>.
 <string>Bengala de auxilio lanzada.
 <string>El líder de la misión ha lanzado<lf>una bengala de auxilio.
 <string>Bengala de auxilio cancelada.
@@ -49,85 +49,82 @@
 <string>El chat de voz se ha cambiado<lf>a <REF RefNetwork_0004_01>.
 <string>Nueva misión desbloqueada.
 <string>Se ha designado a {0}<lf>como líder de la misión.
-<string>Se ha designado a otro jugador<lf>como líder de la misión.
+<string>Se te ha designado líder<lf>de la misión.
 <string>Se ha designado a {0}<lf>como líder del grupo vinculado.
-<string>Se ha designado a otro jugador<lf>como líder del grupo vinculado.
+<string>Se te ha designado líder<lf>del grupo vinculado.
 <string>{0}<lf>ha obtenido el control de la sala privada.
-<string>Otro jugador ha obtenido el control<lf>de la sala privada.
-<string>Devuelve los objetos de suministro.
+<string>Se te ha dado el control<lf>de la sala privada.
+<string>Objetos de apoyo devueltos.
 <string>Anuncio
-<string><PLURAL {0} "{0} notificación recibida" "{0} notificaciones recibidas"> en línea.
+<string><PLURAL {0} "{0} notificación recibida" "{0} notificaciones recibidas"> mientras juegas sin conexión.
 <string>Anuncio
-<string><PLURAL {0} "{0} notificación de invitación recibida" "{0} notificaciones de invitación recibidas">.
-<string>Peticiones de amistad
-<string>Has recibido una invitación de amistad<lf>de {0}.
-<string>Has entablado amistad con {0}.
-<string>¡Hay miembros de tu entorno vinculado combatiendo!
+<string><PLURAL {0} "{0} invitación recibida" "{0} invitaciones recibidas">.
+<string>Solicitudes de amistad
+<string>Has recibido una solicitud de amistad<lf>de {0}.
+<string>Has entablado amistad con<lf>{0}.
+<string>Actividad del entorno vinculado
 <string>Comenzando estudio de campo de<lf>{0}.
 <string>Cancelar
-<string>Objetos de suministro repuestos.<lf>(Comprueba los objetos de suministro con <INPUTMSG MsgGUI020100_0011>).
+<string>Objetos de apoyo repuestos.<lf>(Comprueba los objetos de apoyo con <INPUTMSG MsgGUI020100_0011>).
 <string>El cazador de apoyo {0}<lf>se ha unido a la misión.
 <string>El cazador de apoyo {0}<lf>ha abandonado la misión.
 <string>Objetivo principal fijado como destino.
 <string>El objetivo ha desaparecido.<lf>Fijando destino del objetivo principal.
 <string>El objetivo fijado como punto de ruta<lf>ha desaparecido.
-<string>El efecto del menú ha desaparecido.
+<string>Se han agotado los efectos del menú.
 <string>La misión ha fracasado...
 <string>Invitaciones a misión (reenviadas)
-<string>Ya puedes recibir invitaciones de misión de {0}.
-<string>Objeto fijo recibido<lf><COLOR preset="TXT_Accent">Utensilios de caza</COLOR>
-<string>Actualización de resumen de entorno
-<string>¡Avistamiento de {0}<lf>en {1}!
+<string>Ya puedes recibir invitaciones<lf>de misión de {0}.
+<string>Objeto fijo recibido<lf><COLOR preset="TXT_Accent">Utensilios esenciales</COLOR>
+<string>Novedad en el entorno
+<string>¡Avistamiento de {0}!<lf>Zona: {1}
 <string>Abrir mapa
-<string>Actualización de resumen de entorno
+<string>Novedad en el entorno
 <string>¡Varios objetivos disponibles para<lf>la creación de misión combinada!
 <string>Abrir mapa
-<string>Actualización de resumen de entorno
-<string>¡Ha aparecido el depredador de esta región,<lf>{0}!
+<string>Novedad en el entorno
+<string>¡Ha aparecido el superdepredador<lf>de esta región, {0}!
 <string>Abrir mapa
-<string>Actualización de resumen de entorno
-<string>{0} a la vista.<lf>¡Y con más recompensas de lo normal!
-<string>Abrir mapa
-<string>Resumen de entorno
+<string>Entorno
 <string>¡{0} a la vista!
 <string>Abrir mapa
-<string>Resumen de entorno
-<string>¡El monstruo {0}<lf>se marchará enseguida!
+<string>Entorno
+<string>¡El monstruo {0}<lf>está a punto de abandonar la zona!
 <string>Abrir mapa
-<string>El monstruo {0} ha abandonado la zona...
-<string>Resumen de entorno
+<string>{0}<lf>ha abandonado la zona...
+<string>Entorno
 <string>Ha aparecido una manada de monstruos,<lf>¡e incluye {0}!
 <string>Abrir mapa
-<string>Resumen de entorno
+<string>Entorno
 <string>¡La manada que incluye {0}<lf>está a punto de abandonar la zona!
 <string>Abrir mapa
 <string>La manada que incluye {0}<lf>ha abandonado la zona...
-<string>Resumen de entorno
+<string>Entorno
 <string>¡Se ha detectado un brote<lf>de {0}!
 <string>Abrir mapa
-<string>Resumen de entorno
+<string>Entorno
 <string>¡Se ha detectado un aumento<lf>de {0}!
 <string>Abrir mapa
-<string>{0} al traste.
-<string>Solicitudes de misiones
-<string>Has recibido una petición de unión.<lf>Revísala para aceptarla o rechazarla.
+<string>Se ha perdido {0}.
+<string>Solicitudes de acceso
+<string>Has recibido una solicitud de acceso.<lf>Revísala para aceptarla o rechazarla.
 <string>Has abandonado la sala.
 <string>Conexión perdida.
 <string>El anfitrión ha disuelto la sala.
 <string>Seguido por {0}.
-<string>Sin objetos de suministro.
+<string>Sin objetos de apoyo.
 <string>Estudio de campo abandonado.
-<string>No puedes llevar más objetos de suministro.<lf>Se han descartado los sobrantes.
-<string>Has recibido la bendición del efecto<lf>de melodía <BOLD>{0}</BOLD>.
-<string>¡Efecto de melodía <BOLD>{0}</BOLD><lf>activado!
-<string>El efecto de melodía {0}<lf>se ha disipado.
+<string>No puedes llevar más objetos de apoyo.<lf>Se han descartado los sobrantes.
+<string>Has recibido los efectos<lf>de la melodía:<lf><BOLD>{0}</BOLD>.
+<string>¡Efecto de melodía activado!<lf><BOLD>{0}</BOLD>
+<string>El efecto de melodía <BOLD>{0}</BOLD><lf>se ha disipado.
 <string>Ha desaparecido el efecto de<lf>{0}.
 <string>Ya puedes usar {0}.
-<string>El efecto de la bebida<lf>fría se ha agotado.
-<string>El efecto de la bebida<lf>caliente se ha agotado.
-<string>No se ha podido designar como objetivo de misión.<lf>Abre la pantalla de partida con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
-<string>No se puede designar este monstruo<lf>como objetivo de misión: {0}.
-<string>No se puede designar este monstruo<lf>como objetivo de misión: {0}.<lf>(RC demasiado bajo).
+<string>El efecto de la bebida fría<lf>se ha agotado.
+<string>El efecto de la bebida caliente<lf>se ha agotado.
+<string>No se ha podido designar como objetivo de misión.<lf>Abre la pantalla de inicio con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
+<string>No es posible designar a este<lf>monstruo como objetivo de misión:<lf>{0}.
+<string>{0}: No se puede designar<lf>a este monstruo como objetivo de misión.<lf>(Necesitas tener RC más alto).
 <string>Se ha pasado del modo Un jugador online<lf>al modo online.
 <string>Cambio a modo Un jugador online.
 <string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
@@ -137,18 +134,18 @@
 <string>Abrir
 <string>El estudio de campo no puede comenzar:<lf>hay miembros vinculados viendo los resultados.
 <string>No se puede cazar a este monstruo como parte<lf>de una misión con tu progreso actual: {0}.
-<string>Se ha activado el efecto de burbuja sónica<lf>{0}.
-<string>Actualización de resumen de entorno
-<string>{0} a la vista.<lf>¡Y con recompensas poco comunes!
+<string>¡Efecto de burbuja sónica activado!<lf>{0}
+<string>Novedad en el entorno
+<string>{0} a la vista.<lf>¡Y con recompensas extra poco comunes!
 <string>Abrir mapa
 <string>Grupo vinculado disuelto ya que<lf>eres el único miembro restante.
 <string>No te has podido unir al entorno<lf>vinculado de {0}.
 <string>Has abandonado el entorno vinculado<lf>de {0}.
 <string>El entorno vinculado se ha disuelto.
 <string>No se ha podido unir a la misión.
-<string>Los efectos del menú desaparecerán pronto.
-<string>Actualización de resumen de entorno
-<string>¡Supera misiones con varios objetivos<lf>para conseguir recompensas poco comunes!
+<string>Los efectos de menú desaparecerán pronto.
+<string>Novedad en el entorno
+<string>¡Supera misiones con varios objetivos<lf>para conseguir recompensas extra<lf>poco comunes!
 <string>Abrir mapa
 <string>Has abandonado el grupo vinculado.
 <string>Movimiento manual

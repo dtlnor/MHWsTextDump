@@ -2,55 +2,59 @@
 <string><REF RefButton_0000>
 <string><REF RefButton_0001>
 <string><REF RefButton_0012>
-<string>Przywróć wybrane do ust. domyślnych
-<string>Przywróć wszystkie do ust. domyślnych
+<string>Przywróć wybrane do domyślnych
+<string>Przywróć wszystkie do domyślnych
 <string>Zresetować wybrane opcje do ustawień domyślnych?
-<string>Zresetować wszystkie opcje do ustawień domyślnych?
+<string>Zresetować wszystkie opcje we wszystkich<lf>kategoriach do ustawień domyślnych?
 <string>Wszystko
-<string>Wspólne + kontroler
+<string><PLATMSG MsgGUI030100_0401>
 <string>Wspólne + kontroler
 <string>Wspólne + klawiatura/mysz
-<string>Automatycznie zmienia niektóre opcje na poniższe zalecane ustawienia.<lf>Opcje, które zostaną zmienione w stosunku do ich bieżących ustawień,<lf>zostaną podświetlone. <COLOR preset="TXT_Accent">(Na tym ekranie nie można wprowadzać indywidualnych zmian).</COLOR>
+<string>Zmienia niektóre opcje na poniższe zalecane ustawienia. Opcje, które<lf>zostaną zmienione w stosunku do ich bieżących ustawień, zostaną<lf>podświetlone. <COLOR preset="TXT_Accent">(Na tym ekranie nie można dokonać pojedynczych zmian).</COLOR>
 <string>Użyj zalecanych ustawień
-<string><COLOR preset="TXT_Accent">Opcja Użyj zalecanych ustawień</COLOR> automatycznie ustawi każdy element<lf>na zalecane ustawienie.
+<string>Opcja <COLOR preset="TXT_Accent">„Użyj zalecanych ustawień”</COLOR> automatycznie ustawi<lf>każdy element na jego zalecany parametr.
 <string>Ustawienia gry
 <string>Sterowanie
 <string>Kamera
 <string>Ekran
 <string>Dźwięk
-<string>INTERFEJS
+<string>Interfejs
 <string>Grafika
 <string>Dostępność
 <string>Język
-<string>PRYWATNOŚĆ
+<string>Prywatność
+<string><PLATMSG MsgGUI030100_01_42>
 <string>Przycisk potwierdzenia
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>Dopasowuje, który przycisk będzie przyciskiem <lf>potwierdzenia.
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>
-<string>Ustaw <ICON PAD UI_DUMMY_ICON_RDOWN> jako przycisk potwierdzenia.
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
+<string>Używa <ICON PAD UI_DUMMY_ICON_RDOWN> jako przycisku potwierdzenia.
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>
-<string>Ustaw <ICON PAD UI_DUMMY_ICON_RRIGHT> jako przycisk potwierdzenia.
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
+<string>Używa <ICON PAD UI_DUMMY_ICON_RRIGHT> jako przycisku potwierdzenia.
 <string>Sterowanie zrywem
-<string>Wybierz, który przycisk ma być używany do zrywu.<lf><COLOR preset="TXT_Accent">(Nie dotyczy sterowania Seikretem.)</COLOR>
+<string>Wybierz, który przycisk ma być używany do zrywu.<lf><COLOR preset="TXT_Accent">(Nie dotyczy sterowania Seikretem)</COLOR>
 <string>Użyj tylko przycisku <ICON PAD PL_DASH_TOGGLE>
-<string>Rozpocznij zryw, naciskając przycisk <ICON PAD PL_DASH_TOGGLE>,<lf>a następnie naciśnij przycisk ponownie, aby zatrzymać zryw.
+<string>Używa <ICON PAD PL_DASH_TOGGLE> do włączania i wyłączania zrywu.<lf>Wciśnij raz, by zacząć zryw, wciśnij ponowie,<lf>by zakończyć.
 <string>Użyj tylko przycisku <ICON PAD PL_DASH>
-<string>Kontynuuj zryw, gdy przycisk <ICON PAD PL_DASH> jest wciśnięty.
+<string>Używa <ICON PAD PL_DASH> do zrywu.
 <string>Użyj przycisków <ICON PAD PL_DASH_TOGGLE> i <ICON PAD PL_DASH>
-<string>Użyj przycisków <ICON PAD PL_DASH_TOGGLE> i <ICON PAD PL_DASH>, aby wykonać zryw.
-<string>Zamień działanie przycisków <ICON PAD UI_DUMMY_ICON_LB> i <ICON PAD UI_DUMMY_ICON_RB>
-<string>Zamień działanie przycisków <ICON PAD UI_DUMMY_ICON_LB> z <ICON PAD UI_DUMMY_ICON_LT><lf>oraz <ICON PAD UI_DUMMY_ICON_RB> z <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Używa <ICON PAD PL_DASH_TOGGLE> i <ICON PAD PL_DASH> do zrywu.
+<string>Zamienia funkcje <ICON PAD UI_DUMMY_ICON_LB> i <ICON PAD UI_DUMMY_ICON_RB>
+<string>Zamienia funkcje <ICON PAD UI_DUMMY_ICON_LB> z <ICON PAD UI_DUMMY_ICON_LT> oraz funkcje <ICON PAD UI_DUMMY_ICON_RB> z <ICON PAD UI_DUMMY_ICON_RT>.
 <string>Nie zamieniaj
-<string>Zachowaj działanie przycisków bez zmian.
-<string>Zamień tylko przyciski <ICON PAD UI_DUMMY_ICON_LB> i <ICON PAD UI_DUMMY_ICON_LT>
-<string>Zamień tylko działanie przycisku <ICON PAD UI_DUMMY_ICON_LB> z <ICON PAD UI_DUMMY_ICON_LT>.
-<string>Zamień tylko przyciski <ICON PAD UI_DUMMY_ICON_RB> i <ICON PAD UI_DUMMY_ICON_RT>
-<string>Zamień tylko działanie przycisku <ICON PAD UI_DUMMY_ICON_RB> z <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Nie zamienia funkcji przycisków.
+<string>Zamień tylko <ICON PAD UI_DUMMY_ICON_LB> i <ICON PAD UI_DUMMY_ICON_LT>
+<string>Zamienia działanie przycisków <ICON PAD UI_DUMMY_ICON_LB> z <ICON PAD UI_DUMMY_ICON_LT>.
+<string>Zamień tylko <ICON PAD UI_DUMMY_ICON_RB> i <ICON PAD UI_DUMMY_ICON_RT>
+<string>Zamienia działanie przycisków <ICON PAD UI_DUMMY_ICON_RB> z <ICON PAD UI_DUMMY_ICON_RT>.
 <string>Zamień oba
-<string>Zamień działanie przycisków <ICON PAD UI_DUMMY_ICON_LB> z <ICON PAD UI_DUMMY_ICON_LT><lf>oraz <ICON PAD UI_DUMMY_ICON_RB> z <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Zamienia funkcje <ICON PAD UI_DUMMY_ICON_LB> z <ICON PAD UI_DUMMY_ICON_LT> oraz funkcje <ICON PAD UI_DUMMY_ICON_RB> z <ICON PAD UI_DUMMY_ICON_RT>.
 <string><PLATMSG MsgGUI030100_01_45>
-<string>Konfiguracje sterowania
+<string>Konfiguracje przycisków
 <string><PLATMSG MsgGUI030100_01_45_HELP>
-<string>Dostosuj przypisanie niektórych przycisków <lf>i kombinacji przycisków.
+<string>Dostosuj przypisanie niektórych przycisków<lf>i ich kombinacji.
 <string>Typ 1
 <string><ICON PAD UI_SHORTCUT_PALLET><lf>Przywołuje Seikreta, zmienia broń itd.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Wybiera skrót menu kołowego<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Porusza się po pasku przedmiotów<lf>i pasku amunicji/powłok
 <string>Typ 2
@@ -58,157 +62,157 @@
 <string>Typ 3
 <string><ICON PAD UI_SHORTCUT_PALLET><lf>Przywołuje Seikreta, zmienia broń itd.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Porusza się po pasku przedmiotów<lf>i pasku amunicji/powłok<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Wybiera skrót menu kołowego
 <string>Typ 4
-<string><ICON PAD UI_SHORTCUT_PALLET><lf>Porusza się po pasku przedmiotów<lf>i pasku amunicji/powłok<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Wybiera skrót menu kołowego<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>Przywołuje Seikreta, zmienia broń itd.
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Porusza się po pasku przedmiotów<lf>i pasku amunicji/powłok<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Wybiera skrót menu kołowego<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Przywołuje Seikreta, zmienia broń itd.
 <string>Czas przytrzymania potwierdzenia
 <string>Ustaw, jak długo musisz przytrzymać przycisk,<lf>zanim zatwierdzisz określone czynności, takie jak <lf>przywołanie Seikreta czy pominięcie wydarzenia.
 <string>Krótko
-<string>Przytrzymaj przycisk przez krótki czas.
-<string>Średnio
-<string>Przytrzymaj przycisk przez średnią ilość czas.
+<string>Wymaga mniej czasu na potwierdzenie akcji.
+<string>Domyślnie
+<string>Wymaga domyślnego czasu na potwierdzenie akcji.
 <string>Długo
-<string>Przytrzymaj przycisk przez dłuższy czas.
-<string>Chowanie automatyczne
-<string>Określ, czy automatycznie chować broń<lf>po upływie określonego czasu od jej dobycia.
-<string>Włącz chowanie automatyczne
-<string>Automatycznie chowaj broń<lf>po pewnym czasie bezczynności.
-<string>Wyłącz chowanie automatyczne
+<string>Wymaga więcej czasu na potwierdzenie akcji.
+<string>Automatyczne chowanie broni
+<string>Określ, czy automatycznie chować broń po upływie<lf>określonego czasu od jej dobycia.
+<string>Włącz auto chowanie
+<string>Automatycznie chowa broń, jeśli nie wykonasz<lf>uniku lub ataku przez określony czas.<lf>Nie działa podczas walki.
+<string>Wyłącz auto chowanie
 <string>Nie chowaj automatycznie broni.
 <string>Sterowanie kierunkowe
 <string><PLATMSG MsgGUI030100_01_03_Help>
 <string>Dostosowuje sterowanie kierunkowe podczas<lf>wykonywania takich czynności jak unik po ataku.<lf><COLOR preset="TXT_Accent">(Kontroler)</COLOR>
 <string>Typ 1
-<string>– Wychylanie <ICON PAD PL_DUMMY_MOVE> w górę przesuwa postać gracza<lf>z dala od kamery<lf>– Wychylanie <ICON PAD PL_DUMMY_MOVE> w dół przesuwa postać gracza<lf>w kierunku kamery
+<string>– Wychylenie <ICON PAD PL_DUMMY_MOVE> w górę przesuwa łowcę<lf>w kierunku, w którym zwrócona jest kamera.<lf><lf>– Wychylenie <ICON PAD PL_DUMMY_MOVE> w dół przesuwa łowcę<lf>w kierunku ekranu.
 <string>Typ 2
-<string>– Wychylanie <ICON PAD PL_DUMMY_MOVE> w górę przesuwa postać gracza<lf>w kierunku, w którym jest skierowana<lf>– Wychylenie <ICON PAD PL_DUMMY_MOVE> w dół przesuwa postać gracza<lf>w przeciwnym kierunku
+<string>– Wychylenie <ICON PAD PL_DUMMY_MOVE> w górę przesuwa łowcę<lf>w kierunku, w którym jest skierowany.<lf><lf>– Wychylenie <ICON PAD PL_DUMMY_MOVE> w dół przesuwa łowcę<lf>w przeciwnym kierunku do tego,<lf>w którym jest skierowany.
 <string>Sterowanie kierunkowe
 <string>Dostosowuje sterowanie kierunkowe podczas<lf>wykonywania takich czynności jak unik po ataku.<lf><COLOR preset="TXT_Accent">(Klawiatura)</COLOR>
 <string>Typ 1
-<string>– Naciśnięcie <ICON MKB PL_MOVE_FRONT> przesuwa postać gracza<lf>z dala od kamery<lf>– Naciśnięcie <ICON MKB PL_MOVE_BACK> przesuwa postać gracza<lf>w kierunku kamery
+<string>– Naciśnięcie <ICON MKB PL_MOVE_FRONT> przesuwa łowcę w kierunku,<lf>w którym zwrócona jest kamera.<lf><lf>– Naciśnięcie <ICON MKB PL_MOVE_BACK> przesuwa łowcę w kierunku ekranu.
 <string>Typ 2
-<string>– Naciśnięcie <ICON MKB PL_MOVE_FRONT> przesuwa postać gracza<lf>w kierunku, w którym jest skierowana<lf>– Naciśnięcie <ICON MKB PL_MOVE_BACK> przesuwa postać gracza<lf>w przeciwnym kierunku
+<string>– Naciśnięcie <ICON MKB PL_MOVE_FRONT> przesuwa łowcę w kierunku,<lf>w którym jest skierowany.<lf><lf>– Naciśnięcie <ICON MKB PL_MOVE_BACK> przesuwa łowcę w przeciwnym<lf>kierunku do tego, w którym jest skierowany.
 <string>Ustawienia sterowania Seikretem
 <string>Dostosowuje sterowanie Seikretem.
-<string>Sterowanie zawołaniem Seikreta
-<string>Ustaw sterowanie do zawołania Seikreta.
+<string>Sterowanie wezwaniem Seikreta
+<string>Ustaw sterowanie dla przywołania Seikreta.
 <string>Typ 1
-<string>Przywołaj Seikreta, używając <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL><lf>lub własnego skrótu.
+<string>Zawołaj Seikreta, używając <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL> lub skrótu<lf>własnego menu kołowego.
 <string>Typ 2
-<string>Dodatkowo do opcji typu 1<lf>przytrzymanie <ICON PAD PL_PT_CALL_KEEP><lf>przy schowanej broni w trybie<lf>automatycznego ruchu przywoła Seikreta.
+<string>Dodatkowo do opcji typu 1, przytrzymanie <ICON PAD PL_PT_CALL_KEEP><lf>przy schowanej broni w trybie automatycznego<lf>ruchu wezwie Seikreta.
 <string>Typ 3
-<string>Dodatkowo do opcji typu 1<lf>przytrzymanie <ICON PAD PL_PT_CALL_KEEP><lf>przy schowanej broni w trybie<lf>ręcznego ruchu przywoła Seikreta.
-<string>Domyślnie sterowanie przy przywołaniu Seikreta
-<string>Dostosowuje domyślne ustawienia sterowania podczas<lf>przywołania Seikreta przy użyciu własnego skrótu.
+<string>Dodatkowo do opcji typu 1, przytrzymanie <ICON PAD PL_PT_CALL_KEEP><lf>przy schowanej broni w trybie sterowania<lf>manualnego wezwie Seikreta.
+<string>Sterowanie wezwaniem Seikreta (menu kołowe)
+<string>Dostosowuje domyślne ustawienia sterowania dla wezwania<lf>Seikreta przy użyciu własnego menu kołowego.
 <string>Automatyczny ruch
-<string>Przywołaj Seikreta przy użyciu własnego<lf>skrótu w trybie automatycznego ruchu.
-<string>Manualny ruch
-<string>Przywołaj Seikreta przy użyciu własnego<lf>skrótu w trybie manualnego ruchu.
+<string><COLOR preset="TXT_Accent">Wezwanie Seikreta</COLOR> z własnego menu kołowego<lf>przywoła Seikreta w trybie automatycznego ruchu.
+<string>Sterowanie manualne
+<string><COLOR preset="TXT_Accent">Wezwanie Seikreta</COLOR> z własnego menu kołowego<lf>przywoła Seikreta w trybie sterowania manualnego.
 <string>Ręczne sterowanie Seikretem
-<string>Dostosuj sterowanie Seikretem w trybie manualnym.
+<string>Dostosowuje sterowanie Seikretem w trybie sterowania<lf>manualnego.
 <string>Typ 1
-<string>Podobnie do automatycznego ruchu Seikreta.<lf>Brak naciśnięcia utrzyma obecną prędkość,<lf><ICON PAD PL_PT_SPEED_UP>, aby przyspieszyć, <ICON PAD PL_PT_SPEED_DOWN>, aby zwolnić, przytrzymaj <ICON PAD PL_PT_SPEED_DOWN>, aby się zatrzymać.
+<string>Podobnie jak w przypadku automatycznego ruchu,<lf>nie naciskanie niczego utrzyma obecną prędkość,<lf>naciśnięcie <ICON PAD PL_PT_SPEED_UP> zwiększy prędkość,<lf>naciśnięcie <ICON PAD PL_PT_SPEED_DOWN> zmniejszy prędkość,<lf>a przytrzymanie <ICON PAD PL_PT_SPEED_DOWN> zatrzyma Seikreta.
 <string>Typ 2
-<string>Podobnie do sterowania przez gracza. Rusz przy użyciu <ICON PAD PL_DUMMY_MOVE>,<lf>a następnie puść, aby się zatrzymać. Prędkość jest określana<lf>kątem wychylenia <ICON PAD PL_DUMMY_MOVE>.
-<string>Sterowanie automatycznym ruchem Seikreta
-<string>Dostosuj sterowanie ruchem, zostawiając<lf>Seikreta na trasie podczas automatycznego ruchu.
+<string>Podobnie jak w sterowaniu łowcą, użyj <ICON PAD PL_DUMMY_MOVE>, aby się poruszać.<lf>Stopień wychylenia <ICON PAD PL_DUMMY_MOVE> określa szybkość.
+<string>Sterowanie na trasie tylko dla Seikreta
+<string>Dostosowuje sterowanie dla opuszczania tras,<lf>które są dostępne tylko na Seikrecie.
 <string>Typ 1
-<string>Wychylenie <ICON PAD PL_DUMMY_MOVE> podczas biegu z maksymalną prędkością<lf>pozwala opuścić aktualną trasę Seikreta.
+<string>Wychylenie <ICON PAD PL_DUMMY_MOVE> podczas ruchu z maksymalną<lf>prędkością spowoduje opuszczenie trasy tylko<lf>dla Seikreta.
 <string>Typ 2
-<string>Przytrzymanie <ICON PAD PL_DUMMY_MOVE> i naciśnięcie <ICON PAD PL_INTERACT_ACTION_START> pozwala<lf>opuścić aktualną trasę Seikreta<lf>bez względu na prędkość.
-<string>Sterowanie przedmiotami
-<string>Dostosuj ustawienia paska przedmiotów i<lf>własnego menu kołowego.
-<string>Typ 1
-<string><ICON PAD PL_ITEM_SLIDER_OPEN> + <ICON PAD UI_SHORTCUT_PALLET> umożliwia poruszanie się po pasku przedmiotów
-<string>Typ 2
-<string><ICON PAD PL_ITEM_SLIDER_OPEN> + <ICON PAD UI_SHORTCUT_PALLET> umożliwia przełączanie między zestawami własnego menu kołowego
-<string>Sterowanie paskiem przedmiotów
-<string>Dostosowuje ustawienia sterowania<lf>paskiem przedmiotów.
-<string>Rozwinięty pasek przedmiotów
-<string>Dostosowuje ustawienia dotyczące<lf>rozwiniętego paska przedmiotów.
-<string>Włącz
-<string>Włącza rozwinięty widok paska przedmiotów.
-<string>Wyłącz
-<string>Wyłącza rozwinięty widok paska przedmiotów.
+<string>Wychylenie <ICON PAD PL_DUMMY_MOVE> i naciśnięcie <ICON PAD PL_INTERACT_ACTION_START> pozwala<lf>opuścić aktualną trasę tylko dla Seikreta<lf>bez względu na prędkość.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>Sterowanie rozwiniętym paskiem przedmiotów
 <string><PLATMSG MsgGUI030100_01_16_HELP>
-<string>Dostosuj przyciski wyświetlające rozwinięty pasek <lf>przedmiotów. <COLOR preset="TXT_Accent">(Kontroler)</COLOR>
+<string>Dostosuj sterowanie wyświetlania rozwiniętego paska<lf>przedmiotów. <COLOR preset="TXT_Accent">(Kontroler)</COLOR>
 <string>Typ 1
-<string><ICON PAD UI_ITEM_ALL_OPT1> podczas <ICON PAD PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>i zwykłym paskiem przedmiotów
+<string><ICON PAD UI_ITEM_ALL_OPT1> podczas <ICON PAD PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>a normalnym paskiem przedmiotów.
 <string>Typ 2
-<string><ICON PAD UI_ITEM_ALL_OPT2> podczas <ICON PAD PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>i normalnym paskiem przedmiotów
+<string><ICON PAD UI_ITEM_ALL_OPT2> podczas <ICON PAD PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>a normalnym paskiem przedmiotów.
 <string>Typ 3
-<string><ICON PAD UI_ITEM_ALL_OPT3> podczas przytrzymywania <ICON PAD PL_ITEM_SLIDER_OPEN> powoduje wyświetlanie<lf>rozwiniętego paska przedmiotów
+<string><ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN> utrzymuje wyświetlanie rozwiniętego<lf>paska przedmiotów.
 <string>Typ 4
-<string><ICON PAD UI_ITEM_ALL_OPT4> podczas <ICON PAD PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>i zwykłym paskiem przedmiotów
+<string><ICON PAD UI_ITEM_ALL_OPT4> podczas <ICON PAD PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>a normalnym paskiem przedmiotów.
 <string>Typ 5
-<string>Wyłącza rozwinięty widok paska przedmiotów.
+<string>Wyłącza wyświetlanie rozwiniętego paska<lf>przedmiotów.
 <string>Sterowanie rozwiniętym paskiem przedmiotów
-<string>Dostosowuje przyciski wyświetlające rozwinięty<lf>pasek przedmiotów. <COLOR preset="TXT_Accent">(klawiatura)</COLOR>
+<string>Dostosowuje przyciski wyświetlające rozwinięty pasek<lf>przedmiotów. <COLOR preset="TXT_Accent">(Klawiatura)</COLOR>
 <string>Typ 1
-<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE> podczas <ICON MKB PL_ITEM_SLIDER_OPEN> przełącza między rozwiniętym<lf>i normalnym paskiem przedmiotów.
+<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE> podczas przytrzymania <ICON MKB PL_ITEM_SLIDER_OPEN> przełącza między<lf>rozwiniętym a normalnym paskiem przedmiotów.
 <string>Typ 2
-<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN> utrzymuje wyświetlanie rozwiniętego<lf>paska przedmiotów.
+<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN> utrzymuje wyświetlanie rozwiniętego paska<lf>przedmiotów.
 <string>Typ 3
 <string>Nie wyświetla rozwiniętego paska przedmiotów<lf>przy użyciu klawiatury.
-<string>Szybkość kursora na rozwiniętym<lf>pasku przedmiotów
-<string>Dostosowuje szybkość kursora, kiedy pasek<lf>przedmiotów jest rozwinięty.
-<string>Dostosowuje prędkość ruchu kursora dla drążków,<lf>gdy pasek przedmiotów jest w pełni wyświetlony.
+<string>Szybkość kursora na rozw. pasku przedm.
+<string><PLATMSG MsgGUI030100_01_01_Help>
+<string>Dostosowuje prędkość ruchu kursora dla <ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT>,<lf>gdy pasek przedmiotów jest rozwinięty.
 <string>Wolno
-<string>Zmniejsza prędkość ruchu kursora
+<string>Zmniejsza prędkość ruchu kursora.
 <string>Domyślnie
-<string>Zachowuje domyślną prędkość ruchu kursora
+<string>Zachowuje domyślną prędkość ruchu kursora.
 <string>Szybko
-<string>Zwiększa prędkość ruchu kursora
+<string>Zwiększa prędkość ruchu kursora.
 <string>Zestawy na rozwiniętym pasku przedmiotów
-<string>Dostosowuje, w jaki sposób rozwinięty<lf>pasek przedmiotów wyświetla przedmioty<lf>ustawione w pionie.
+<string>Dostosowuje, w jaki sposób rozwinięty pasek<lf>przedmiotów wyświetla przedmioty ustawione w pionie.
 <string>Wyświetlaj wszystkie zestawy
 <string>Wyświetla wszystkie przedmioty ustawione w pionie<lf>dla wszystkich widocznych przedmiotów.
 <string>Tylko wybrany zestaw
 <string>Wyświetla przedmioty ustawione w pionie tylko dla<lf>wybranego przedmiotu.
-<string>Sterowanie rozwiniętym paskiem przedmiotów (wybierz przedmiot)
-<string>Dostosowuje sterowanie wyboru przedmiotów<lf>na rozwiniętym pasku przedmiotów przy użyciu <ICON PAD UI_ITEM_LEFT> i <ICON PAD UI_ITEM_RIGHT>.
-<string>Włącz
-<string>Włącza użycie <ICON PAD UI_ITEM_LEFT> i <ICON PAD UI_ITEM_RIGHT> do wyboru przedmiotów<lf>na rozwiniętym pasku przedmiotów.
-<string>Wyłącz
-<string>Wyłącza użycie <ICON PAD UI_ITEM_LEFT> i <ICON PAD UI_ITEM_RIGHT> do wyboru przedmiotów<lf>na rozwiniętym pasku przedmiotów.
-<string>Sterowanie rozwiniętym paskiem przedmiotów (amunicja/powłoki)
-<string>Dostosowuje sterowanie wyboru amunicji/powłok<lf>na rozwiniętym pasku przedmiotów przy użyciu <ICON PAD UI_BULLET_ITEM_UP> i <ICON PAD UI_BULLET_ITEM_DOWN>.
-<string>Włącz
-<string>Włącza użycie <ICON PAD UI_BULLET_ITEM_UP> i <ICON PAD UI_BULLET_ITEM_DOWN> do wyboru amunicji/powłok<lf>na rozwiniętym pasku przedmiotów.
-<string>Wyłącz
-<string>Wyłącza użycie <ICON PAD UI_BULLET_ITEM_UP> i <ICON PAD UI_BULLET_ITEM_DOWN> do wyboru amunicji/powłok<lf>na rozwiniętym pasku przedmiotów
-<string>Sterowanie rozwiniętym paskiem przedmiotów (użyj przedmiotu)
-<string>Dostosowuje sterowanie użyciem przedmiotów<lf>na rozwiniętym pasku przedmiotów przy użyciu <ICON PAD UI_ITEM_USE>.
-<string>Włącz
-<string>Włącza użycie <ICON PAD UI_ITEM_USE> do użycia przedmiotów<lf>na rozwiniętym pasku przedmiotów.
-<string>Wyłącz
-<string>Wyłącza użycie <ICON PAD UI_ITEM_USE> do użycia przedmiotów<lf>na rozwiniętym pasku przedmiotów.
-<string><PLATMSG MsgGUI030100_01_48>
-<string>Ster. przyciskami kierunku na rozw. widoku
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>Wybierz wstępnie ustawioną konfigurację przycisków<lf>kierunku, gdy pasek przedmiotów jest otwarty.
-<string>Typ 1
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>Stosuje wybrane ustawienie w konfiguracjach <lf>przycisków kierunku i pozostałych przycisków.<lf>Gdy pasek przedmiotów jest całkowicie otwarty,<lf>przyciski kierunku przejmą funkcje przypisane <lf>do przycisków <ICON PAD PL_ITEM_SLIDER_OPEN> + <ICON PAD UI_SHORTCUT_PALLET>.
-<string>Typ 2
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>Przyciski kierunku zawsze będą się poruszać <lf>po pasku przedmiotów, gdy jest on całkowicie <lf>otwarty.
-<string>Typ 3
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>Przyciski kierunku zawsze będą się poruszać <lf>po pasku przedmiotów i pasku amunicji,<lf>gdy pasek przedmiotów jest całkowicie otwarty.
-<string>Typ 4
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>Wyłącza sterowanie przyciskami kierunku,<lf>gdy pasek przedmiotów jest całkowicie otwarty.
-<string>Ster. <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> na rozwiniętym widoku
-<string>Wybiera wstępnie ustawioną konfigurację klawiszy <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>, gdy pasek przedmiotów jest całkowicie otwarty.
-<string>Typ 1
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>Stosuje wybrane ustawienie w konfiguracjach <lf>przycisków kierunku i pozostałych przycisków.<lf>Gdy pasek przedmiotów jest całkowicie otwarty,<lf>przyciski <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN><lf>przejmą funkcje przypisane do przycisków<lf><ICON PAD PL_ITEM_SLIDER_OPEN> + <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>.
-<string>Typ 2
-<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> będą zawsze działać na pasku przedmiotów,<lf>gdy jest on całkowicie otwarty.
-<string>Typ 3
-<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> będą zawsze działać na pasku przedmiotów i pasku amunicji,<lf>gdy pasek przedmiotów jest całkowicie otwarty.
-<string>Typ 4
-<string>Wyłącza sterowanie przyciskami <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>,<lf>gdy pasek przedmiotów jest całkowicie otwarty.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>Sterowanie własnym menu kołowym
 <string>Dostosuj sterowanie własnym menu kołowym.
 <string>Skróty własnego menu kołowego
@@ -218,28 +222,28 @@
 <string>Wyłącz
 <string>Wyłącza skróty własnego menu kołowego.
 <string>Sterowanie użyciem przedmiotów
-<string>Dostosowuje ustawienia wybierania<lf>przedmiotów we własnym menu kołowym.
+<string>Dostosowuje sposób wybierania elementów, zawołań itp.<lf>z własnego menu kołowego.
 <string>Typ 1
-<string>Zwolnienie <ICON PAD PL_DUMMY_CAMERA> wybiera przedmioty, zawołania itd.
+<string>Puszczenie <ICON PAD PL_DUMMY_CAMERA> wybiera przedmioty, zawołania itd.
 <string>Typ 2
 <string>Naciśnięcie <ICON PAD PL_DUMMY_CAMERA> wybiera przedmioty, zawołania itd.
-<string>Sterowanie przyciskami w <ICON PAD UI_CHAT_LOG_OPEN>
-<string>Wybierz, która funkcja otwiera się po przytrzymaniu <ICON PAD UI_CHAT_LOG_OPEN>.
+<string>Sterowanie podczas trzymania <ICON PAD UI_CHAT_LOG_OPEN>
+<string>Wybierz, którą funkcję otwiera przytrzymanie <ICON PAD UI_CHAT_LOG_OPEN>.
 <string>Typ 1
 <string>Przytrzymaj <ICON PAD UI_CHAT_LOG_OPEN>, aby otworzyć dziennik czatu.
 <string>Typ 2
 <string>Przytrzymaj <ICON PAD UI_CHAT_LOG_OPEN>, aby otworzyć okno komunikacji.
-<string>Skróty ważnych wiadomości
-<string>Dostosowuje sterowanie otwierania skrótów<lf>ważnych powiadomień czatu.
+<string>Skróty ważnych powiadomień czatu
+<string>Dostosowuje sterowanie otwierania skrótów ważnych<lf>powiadomień czatu.
 <string>Typ 1
-<string>Naciśnij <ICON PAD UI_JUST_TIMING_SHORTCUT>, gdy wyświetla się opcja w ważnej wiadomości, aby otworzyć odpowiednie okno.
+<string>Po naciśnięciu <ICON PAD UI_JUST_TIMING_SHORTCUT> otwierają się skróty ważnych<lf>powiadomień czatu.
 <string>Typ 2
-<string>Przytrzymaj <ICON PAD UI_JUST_TIMING_SHORTCUT2>, gdy wyświetla się opcja w ważnej wiadomości, aby otworzyć odpowiednie okno.
+<string>Po przytrzymaniu <ICON PAD UI_JUST_TIMING_SHORTCUT2> otwierają się skróty ważnych<lf>powiadomień czatu.
 <string>Automatyczne ładowanie procy
 <string>Ustawia, czy wybrany z paska przedmiotów przedmiot<lf>z możliwością użycia z procą będzie automatycznie<lf>załadowany po zamknięciu paska przedmiotów.
-<string>Automatycznie
+<string>Automatyczne ładowanie
 <string>Automatycznie załadowuje przedmioty do procy<lf>po zamknięciu paska przedmiotów, jeśli<lf>wybranego przedmiotu można użyć z procą.
-<string>Ręcznie
+<string>Nie ładuj automatycznie
 <string>Nie załadowuje automatycznie przedmiotów<lf>do procy po zamknięciu paska przedmiotów.
 <string>Sterowanie otwieraniem menu
 <string><PLATMSG MsgGUI030100_01_26_Help>
@@ -247,462 +251,462 @@
 <string>Typ 1
 <string><ICON PAD PL_DUMMY_MOVE> przesuwa postać, nawet jeśli jest otwarte<lf>menu startowe lub menu obiektu.
 <string>Typ 2
-<string><ICON PAD PL_DUMMY_MOVE> umożliwia nawigację po menu startowym<lf>lub obiektu. <COLOR preset="TXT_Accent">(Ruch postacią jest niemożliwy,<lf>gdy menu są otwarte).</COLOR>
+<string><ICON PAD PL_DUMMY_MOVE> umożliwia nawigację po menu startowym<lf>lub obiektu. <COLOR preset="TXT_Accent">(Ruch postacią jest niemożliwy,<lf>gdy menu są otwarte)</COLOR>
 <string>Sterowanie otwieraniem menu
-<string>Dostosuj sterowanie nawigacją, gdy menu startowe<lf>lub obiektu jest otwarte.<lf><COLOR preset="TXT_Accent">(Klawiatura)</COLOR>
+<string>Dostosowuje sterowanie nawigacją, gdy<lf>otwarte jest menu startowe lub menu obiektu.<lf><COLOR preset="TXT_Accent">(Klawiatura)</COLOR>
 <string>Typ 1
-<string>Użyj klawiszy głównych do ruchu gracza i ruchu kamery i klawiszy dodatkowych do wyboru menu.
+<string>Użyj klawiszy głównych do ruchu łowcy i ruchu<lf>kamery, a klawiszy dodatkowych do wyboru menu.
 <string>Typ 2
-<string>Użyj klawiszy głównych do wyboru i ruchu kamery i klawiszy dodatkowych do ruchu gracza.
+<string>Użyj klawiszy głównych do wyboru menu i ruchu<lf>kamery, a klawiszy dodatkowych do ruchu łowcy.
 <string>Typ 3
-<string>Użyj klawiszy głównych do ruchu gracza, klawiszy dodatkowych do wyboru menu i myszy do ruchu kamery.
-<string>Przypisanie klawiszy
+<string>Użyj klawiszy głównych do ruchu łowcy, klawiszy<lf>dodatkowych do wyboru menu, i myszy do ruchów<lf>kamery.
+<string>Ustawienia klawiatury
 <string>Dostosowuje sposób użycia klawiatury w trakcie gry.
 <string>Tryb standardowy
 <string><PLATMSG MsgGUI030100_01_29_00_Help>
 <string>Klawiatura steruje wszystkimi akcjami postaci <lf>gracza. Zalecane dla graczy, którzy chcą <lf>używać klawiatury zamiast kontrolera.
 <string>Tryb bezpośredniego czatu
 <string><PLATMSG MsgGUI030100_01_29_01_Help>
-<string>Klawiatura kontroluje tylko funkcję czatu.<lf>Zalecane dla graczy, którzy używają kontrolera<lf>do większości akcji, a klawiatury do obsługi czatu.<lf><COLOR preset="TXT_Danger">Włączenie tego ustawienia spowoduje<lf>wyłączenie sterowania myszą.</COLOR>
+<string>Klawiatura kontroluje tylko funkcję czatu.<lf>Zalecane dla graczy, którzy używają kontrolera<lf>do większości akcji, a klawiatury do obsługi czatu.<lf><COLOR preset="TXT_Danger">Wybranie tego ustawienia spowoduje<lf>wyłączenie sterowania myszą.</COLOR>
 <string>Tryb skrótów
-<string>Klawiatura otwiera tylko skróty.<lf>Zalecane dla graczy, którzy używają kontrolera<lf>do większości akcji, a klawiatury do obsługi skrótów.<lf><COLOR preset="TXT_Danger">Wybranie tego ustawienia spowoduje wyłączenie <lf>sterowania myszą.</COLOR>
-<string>Pisanie na klawiaturze otwiera tylko skróty.<lf>Zalecane dla graczy, którzy używają kontrolera<lf>do większości akcji, a klawiatury do skrótów.<lf><COLOR preset="TXT_Danger">Włączenie tego ustawienia spowoduje<lf>wyłączenie sterowania myszą.</COLOR>
+<string><PLATMSG MsgGUI030100_01_29_02_Help>
+<string>Klawiatura otwiera tylko skróty.<lf>Zalecane dla graczy, którzy używają kontrolera<lf>do większości akcji, a klawiatury do obsługi skrótów.<lf><COLOR preset="TXT_Danger">Wybranie tego ustawienia spowoduje<lf>wyłączenie sterowania myszą.</COLOR>
 <string>Układ klawiatury
 <string>Wybierz układ klawiatury dla ikon klawiszy<lf>widocznych w przewodniku po sterowaniu.
 <string>Układ japoński (JIS)
-<string>Wyświetlaj ikony klawiszy w japońskim układzie klawiatury.
+<string>Wyświetlaj ikony klawiszy<lf>w japońskim układzie klawiatury.
 <string>Układ angielski (QWERTY)
-<string>Wyświetlaj ikony klawiszy w angielskim układzie klawiatury.
+<string>Wyświetlaj ikony klawiszy<lf>w angielskim układzie klawiatury.
 <string>Układ niemiecki (QWERTZ)
-<string>Wyświetlaj ikony klawiszy w niemieckim układzie klawiatury.
+<string>Wyświetlaj ikony klawiszy<lf>w niemieckim układzie klawiatury.
 <string>Układ francuski (AZERTY)
-<string>Wyświetlaj ikony klawiszy we francuskim układzie klawiatury.
+<string>Wyświetlaj ikony klawiszy<lf>we francuskim układzie klawiatury.
 <string>Wyświetlanie skrótów
 <string>Dostosuj sterowanie i format wyświetlania<lf>skrótów klawiszowych.
-<string>Przełącz po użyciu
-<string>Wyświetl <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> w jednym rzędzie. Przytrzymaj <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET>, aby rozszerzyć na cztery rzędy.
+<string>Zmień metodę wprowadzania
+<string>Naciśnięcie <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla w jednym rzędzie.<lf>Przytrzymanie <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> rozszerza na cztery rzędy.
 <string>Ustawiony tryb jednorzędowy
-<string>Wyświetl <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> w jednym rzędzie. Przytrzymanie <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> nie daje żadnego efektu.
+<string>Naciśnięcie <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla w jednym rzędzie.<lf>Przytrzymanie <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> nie daje żadnego efektu.
 <string>Ustawiony tryb czterorzędowy
-<string>Wyświetl <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> w czterech rzędach. Przytrzymanie <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> nie daje żadnego efektu.
-<string>Sterowanie myszą podczas wyświetlania skrótów
-<string>Ustawia, czy mysz może kontrolować<lf>skróty, gdy są wyświetlane skróty klawiszowe.
-<string>Wł.
-<string>Pokazuje kursor myszy, gdy są wyświetlane<lf>skróty klawiszowe. Skróty mogą być<lf>kontrolowane przy użyciu myszy.
-<string>Wył.
-<string>Kursor myszy nie będzie widoczny, gdy są<lf>wyświetlane skróty klawiszowe.<lf><COLOR preset="TXT_Accent">(Nie można korzystać ze skrótów myszą)</COLOR>
+<string>Naciśnięcie <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla w czterech rzędach.<lf>Przytrzymanie <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> nie daje żadnego efektu.
+<string>Sterowanie myszą przy wyświetlaniu skrótów
+<string>Ustawia, czy można kontrolować wyświetlone skróty<lf>klawiszowe za pomocą myszy.
+<string>Włącz
+<string>W przypadku korzystania ze skrótów klawiszowych<lf>umożliwia wyświetlanie kursora myszy, a także<lf>sterowanie skrótami za pomocą myszy.
+<string>Wyłącz
+<string>Nie wyświetla kursora myszy podczas używania<lf>skrótów klawiszowych.<lf><COLOR preset="TXT_Accent">(Skrótów nie można używać z myszą)</COLOR>
 <string>Priorytety kółka przewijania
-<string>Ustawia priorytety sterowania kółkiem<lf>przewijania myszy w menu.
-<string>Priorytet na zmianę strony
-<string>Kółko przewijania myszy zmienia strony<lf>w menu zawierającym wiele stron.
-<string>Priorytet na wybór
-<string>Kółko przewijania myszy wybiera pozycje<lf>w menu, zamiast zmieniać strony.
-<string>Wyłącz wymuszanie zamknięcia Alt + F4
-<string>Zapobiega albo pozwala użyć Alf + F4,<lf>żeby zmusić aplikację do zamknięcia.
-<string>Wł.
-<string>Wciśnięcie Alt + F4 nie zmusi aplikacji<lf>do zamknięcia.
-<string>Wył.
-<string>Wciśnięcie Alt + F4 zmusi aplikację<lf>do zamknięcia.
+<string>Dostosowuje priorytety sterowania kółka przewijania myszy<lf>podczas nawigacji po menu.
+<string>Priorytet nawigacji po stronach
+<string>Nadaje priorytet zmianie stron w menu,<lf>jeśli zawiera ono strony, które można zmieniać<lf>w lewo lub w prawo.
+<string>Priorytet wyboru w menu
+<string>Nadaje priorytet nawigacji po menu w górę i dół,<lf>nawet jeśli zawiera ono strony, które można<lf>zmieniać w lewo lub w prawo.
+<string>Dezaktywuj zamykanie poprzez Alt + F4
+<string>Dostosowuje, czy wciśnięcie Alt + F4 wymusi<lf>zamknięcie aplikacji.
+<string>Włącz
+<string>Wciśnięcie Alt + F4 nie wymusi zamknięcia<lf>aplikacji.
+<string>Wyłącz
+<string>Wciśnięcie Alt + F4 wymusi zamknięcie aplikacji.
 <string>Wyłącz klawisz Windows
-<string>Zapobiega albo pozwala użyć klawisza Windows<lf>do aktywacji funkcji systemu.<lf><COLOR preset="TXT_Accent">(Wprowadzenie zmian wymaga ponownego uruchomienia)
-<string>Wł.
-<string>Wciśnięcie klawisza Windows nie wyświetli menu start<lf>w Windowsie lub nie aktywuje skrótów.
-<string>Wył.
-<string>Wciśnięcie klawisza Windows wyświetli menu start<lf>w Windowsie lub aktywuje skróty.
+<string>Zapobiega użyciu klawisza Windows do aktywacji<lf>funkcji systemu albo je umożliwia.<lf><COLOR preset="TXT_Accent">(Wprowadzenie zmian wymaga ponownego uruchomienia)</COLOR>
+<string>Włącz
+<string>Dezaktywuje funkcję wyświetlania menu startowego<lf>Windows lub aktywacji skrótów po wciśnięciu<lf>klawisza Windows.
+<string>Wyłącz
+<string>Aktywuje funkcję wyświetlania menu startowego<lf>Windows lub aktywacji skrótów po wciśnięciu<lf>klawisza Windows.
 <string>Odwróć lewy i prawy przycisk myszy
-<string>Ustawia odwrócenie sterowania i wyświetlanie<lf>lewego i prawego przycisku myszy.
+<string>Dostosowuje, czy sterowanie i wyświetlanie lewego<lf>i prawego przycisku myszy są odwrócone.
 <string>Odwróć
 <string>Odwraca sterowanie i wyświetlanie lewego<lf>i prawego przycisku myszy. Ustawienie<lf>dla graczy leworęcznych.
 <string>Nie odwracaj
 <string>Nie odwraca sterowania i wyświetlania<lf>lewego i prawego przycisku myszy.<lf>Ustawienie dla graczy praworęcznych.
 <string>Ikony przycisków kontrolera
-<string>Wybierz ikony przycisków klawiszy<lf>widoczne w przewodniku po sterowaniu.
+<string>Dostosowuje, które ikony są widoczne<lf>w przewodniku po przyciskach.
 <string>Typ 1
-<string>Użyj następujących ikon przycisków:<lf><ICON R_RIGHT_01><ICON R_DOWN_01><ICON R_UP_01><ICON R_LEFT_01><ICON AR_ALL_01><ICON OPTION_01><ICON TOUCH_01><ICON L1_01><ICON R1_01><ICON L2_01><ICON R2_01>
+<string>Wyświetla następujące ikony:<lf><ICON R_RIGHT_01><ICON R_DOWN_01><ICON R_UP_01><ICON R_LEFT_01><ICON AR_ALL_01><ICON OPTION_01><ICON TOUCH_01><ICON L1_01><ICON R1_01><ICON L2_01><ICON R2_01>
 <string>Typ 2
-<string>Użyj następujących ikon przycisków:<lf><ICON R_RIGHT><ICON R_DOWN><ICON R_UP><ICON R_LEFT><ICON AR_ALL><ICON OPTION><ICON TOUCH><ICON L1><ICON R1><ICON L2><ICON R2>
+<string>Wyświetla następujące ikony:<lf><ICON R_RIGHT><ICON R_DOWN><ICON R_UP><ICON R_LEFT><ICON AR_ALL><ICON OPTION><ICON TOUCH><ICON L1><ICON R1><ICON L2><ICON R2>
 <string>Typ 3
-<string>Użyj następujących ikon przycisków:<lf><ICON R_RIGHT_03><ICON R_DOWN_03><ICON R_UP_03><ICON R_LEFT_03><ICON AR_ALL_03><ICON OPTION_03><ICON TOUCH_03><ICON L1_03><ICON R1_03><ICON L2_03><ICON R2_03>
+<string>Wyświetla następujące ikony:<lf><ICON R_RIGHT_03><ICON R_DOWN_03><ICON R_UP_03><ICON R_LEFT_03><ICON AR_ALL_03><ICON OPTION_03><ICON TOUCH_03><ICON L1_03><ICON R1_03><ICON L2_03><ICON R2_03>
 <string>Typ 4
-<string>Użyj następujących ikon przycisków:<lf><ICON R_RIGHT_02><ICON R_DOWN_02><ICON R_UP_02><ICON R_LEFT_02><ICON AR_ALL_02><ICON OPTION_02><ICON TOUCH_02><ICON L1_02><ICON R1_02><ICON L2_02><ICON R2_02>
+<string>Wyświetla następujące ikony:<lf><ICON R_RIGHT_02><ICON R_DOWN_02><ICON R_UP_02><ICON R_LEFT_02><ICON AR_ALL_02><ICON OPTION_02><ICON TOUCH_02><ICON L1_02><ICON R1_02><ICON L2_02><ICON R2_02>
 <string>Typ 5
-<string>Użyj następujących ikon przycisków:<lf><ICON R_RIGHT_04><ICON R_DOWN_04><ICON R_UP_04><ICON R_LEFT_04><ICON AR_ALL_04><ICON OPTION_04><ICON TOUCH_04><ICON L1_04><ICON R1_04><ICON L2_04><ICON R2_04>
-<string>Pozycja kursora w menu startowym
-<string>Zapisuje pozycję kursora podczas otwierania lub zamykania<lf>menu startowego.
+<string>Wyświetla następujące ikony:<lf><ICON R_RIGHT_04><ICON R_DOWN_04><ICON R_UP_04><ICON R_LEFT_04><ICON AR_ALL_04><ICON OPTION_04><ICON TOUCH_04><ICON L1_04><ICON R1_04><ICON L2_04><ICON R2_04>
+<string>Pozycja kursora menu startowego
+<string>Dostosowuje czy zapisywać pozycję kursora<lf>przy otwieraniu lub zamykaniu menu startowego.
 <string>Zapisz
-<string>Zapisuje pozycję kursora podczas otwierania lub zamykania<lf>menu startowego. <COLOR preset="TXT_Accent">(Resetuje się<lf>po wyjściu z gry).</COLOR>
+<string>Zapisuje pozycję kursora podczas otwierania<lf>lub zamykania menu startowego.<lf><COLOR preset="TXT_Accent">(Resetuje się po wyjściu z gry)</COLOR>
 <string>Nie zapisuj
-<string>Nie zapisuje pozycji kursora<lf>przy zamykaniu menu startowego,<lf>a menu jest zawsze w pozycji początkowej.
-<string>Ustawienia zmniejszania/powiększania mapy
-<string>Ustawia, czy używać adaptacyjnych efektów „Trigger” do <lf>szybkiego zmniejsz./powiększ. mapy do maks. wartości <lf>poprzez naciśnięcie <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> wystarczająco mocno, aż kliknie.
+<string>Nie zapisuje pozycji kursora przy zamykaniu<lf>menu startowego, a menu jest zawsze w pozycji<lf>początkowej.
+<string>Ustawienia przybliżenia mapy
+<string>Ustawia, czy używać adaptacyjnych efektów „Trigger” do<lf>szybkiego zmniejszania/powiększania mapy do maks.<lf>wartości naciskając <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> na tyle mocno, by kliknęło.
 <string>Włącz
-<string>Włącza adaptacyjne efekty „Trigger”, <lf>aby umożliwić natychmiastowe <lf>zmniejszanie/powiększanie mapy<lf>poprzez naciśnięcie <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> do oporu.
+<string>Włącza adaptacyjne efekty „Trigger”,<lf>aby umożliwić natychmiastowe<lf>zmniejszenie/powiększenie mapy<lf>poprzez wciśnięcie <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> do oporu.
 <string>Wyłącz
-<string>Wyłącza adaptacyjne efekty „Trigger”,<lf>aby zmniejszać/powiększać mapę ze zwykłą <lf>szybkością za pomocą przycisków <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN>.
-<string>Szybkość kamery: standardowa (w poziomie)
-<string>Dostosowuje szybkość kamery (w poziomie)<lf>podczas normalnej rozgrywki.
-<string>Szybkość kamery: standardowa (w pionie)
-<string>Dostosowuje pionową szybkość kamery<lf>podczas normalnej rozgrywki.
-<string>Czułość kamery: standardowa
-<string>Dostosowuje czułość ruchu myszy<lf>podczas normalnej rozgrywki. Im wyższa wartość,<lf>tym szybciej będzie się przemieszczać kamera.
-<string>Czułość kamery w poziomie: standardowa
-<string>Dodaje poziome odchylenie do ruchu myszy podczas<lf>normalnej rozgrywki. Im niższa wartość, tym wolniej<lf>w poziomie będzie się ruszać kamera.
-<string>Czułość kamery w pionie: standardowa
-<string>Dodaje pionowe odchylenie do ruchu myszy podczas<lf>normalnej rozgrywki. Im niższa wartość, tym wolniej<lf>w pionie będzie się ruszać kamera.
-<string>Szybkość kamery: <ICON PAD PL_AIM> (w poziomie)
-<string>Dostosowuje szybkość ruchu kamery w poziomie podczas używania <ICON PAD PL_AIM>.<lf>Jeśli włączono „Szybkość kamery: broń wyciągnięta”,<lf>ustawienie to ma zastosowanie tylko przy schowanej broni.
-<string>Szybkość kamery: <ICON PAD PL_AIM> (w pionie)
-<string>Dostosowuje szybkość ruchu kamery w pionie podczas używania <ICON PAD PL_AIM>.<lf>Jeśli włączono „Szybkość kamery: broń wyciągnięta”,<lf>ustawienie to ma zastosowanie tylko przy schowanej broni.
-<string>Szybkość kamery: broń wyciągnięta
-<string>Po włączeniu szybkość kamery podczas przytrzymania <ICON PAD PL_AIM><lf>z wyciągniętą bronią można ustawić oddzielnie<lf>dla broni białej i dystansowej. 
-<string>Broń biała: <ICON PAD PL_AIM> (w poziomie)
-<string>Dopasowuje szybkość ruchu kamery w poziomie<lf>podczas użycia <ICON PAD PL_AIM> z wyciągniętą bronią białą<lf>(w trybie skupienia).
-<string>Broń biała: <ICON PAD PL_AIM> (w pionie)
-<string>Dopasowuje szybkość ruchu kamery w pionie<lf>podczas użycia <ICON PAD PL_AIM> z wyciągniętą bronią białą<lf>(w trybie skupienia).
-<string>Broń dystansowa: <ICON PAD PL_AIM> (w poziomie)
-<string>Dopasowuje szybkość ruchu kamery w poziomie<lf>podczas użycia <ICON PAD PL_AIM> z wyciągniętą bronią dystansową<lf>(w trybie celowania/skupienia).
-<string>Broń dystansowa: <ICON PAD PL_AIM> (w pionie)
-<string>Dopasowuje szybkość ruchu kamery w pionie<lf>podczas użycia <ICON PAD PL_AIM> z wyciągniętą bronią dystansową<lf>(w trybie celowania/skupienia).
-<string>Czułość kamery: w trybie skupienia/celowania
-<string>Dostosowuje czułość ruchu myszy podczas celowania<lf>lub w trybie skupienia. Im wyższa wartość, tym<lf>szybciej będzie się przemieszczać kamera.
-<string>Czułość kamery w poziomie: w trybie skupienia/celowania
-<string>Dodaje poziome odchylenie do ruchu myszy podczas<lf>celowania lub w trybie skupienia. Im niższa wartość,<lf>tym wolniej w poziomie będzie się ruszać kamera.
-<string>Czułość kamery w pionie: w trybie skupienia/celowania
-<string>Dodaje pionowe odchylenie do ruchu myszy podczas<lf>celowania lub w trybie skupienia. Im niższa wartość,<lf>tym wolniej w pionie będzie się ruszać kamera.
-<string>Szybkość kamery z użyciem <ICON PAD PL_DUMMY_MOVE>
-<string>Dostosowuje szybkość ruchu kamery, gdy możliwe jest sterowanie kamerą<lf>przy użyciu <ICON PAD PL_DUMMY_MOVE>, na przykład w trybie skupienia.<lf><COLOR preset="TXT_Accent">(Ustawienie na wartość 1 wyłącza sterowanie kamerą za pomocą <ICON PAD PL_DUMMY_MOVE>).</COLOR>
+<string>Wyłącza adaptacyjne efekty „Trigger”,<lf>aby zmniejszać/powiększać mapę z domyślną<lf>prędkością za pomocą przycisków <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN>.
+<string>Szybkość kamery (w poziomie): normalna
+<string>Dostosowuje szybkość ruchu kamery w poziomie<lf>podczas normalnej rozgrywki.
+<string>Szybkość kamery (w pionie): normalna
+<string>Dostosowuje szybkość ruchu kamery w pionie<lf>podczas normalnej rozgrywki.
+<string>Czułość kamery: normalna
+<string>Dostosowuje czułość ruchu myszy podczas normalnej<lf>rozgrywki. Im wyższa wartość, tym szybciej będzie się<lf>przemieszczać kamera.
+<string>Czułość kamery w poziomie: normalna
+<string>Dodaje poziome odchylenie do ruchu myszy podczas<lf>normalnej rozgrywki. Im niższa wartość, tym wolniej<lf>będzie się ruszać kamera w poziomie.
+<string>Czułość kamery w pionie: normalna
+<string>Dodaje pionowe odchylenie do ruchu myszy podczas<lf>normalnej rozgrywki. Im niższa wartość, tym wolniej<lf>będzie się ruszać kamera w pionie.
+<string>Szybkość kamery (w poziomie): <ICON PAD PL_AIM>
+<string>Ustawia poziomą szybkość ruchu kamery podczas używania <ICON PAD PL_AIM>.<lf>Jeśli włączono funkcję <COLOR preset="TXT_Accent">„Szybkość kamery: dobyta broń”,</COLOR><lf>ustawienie to ma zastosowanie tylko przy schowanej broni.
+<string>Szybkość kamery (w pionie): <ICON PAD PL_AIM>
+<string>Ustawia pionową szybkość ruchu kamery podczas używania <ICON PAD PL_AIM>.<lf>Jeśli włączono funkcję <COLOR preset="TXT_Accent">„Szybkość kamery: dobyta broń”,</COLOR><lf>ustawienie to ma zastosowanie tylko przy schowanej broni.
+<string>Szybkość kamery: dobyta broń
+<string>Pozwala na oddzielne dostosowanie szybkości kamery<lf>dla broni białej i dystansowej podczas trzymania <ICON PAD PL_AIM><lf>z dobytą bronią.
+<string>Broń biała (w poziomie): <ICON PAD PL_AIM>
+<string>Dostosowuje szybkość kamery w poziomie podczas użycia <ICON PAD PL_AIM><lf>z dobytą bronią białą (w trybie skupienia).
+<string>Broń biała (w pionie): <ICON PAD PL_AIM>
+<string>Dostosowuje szybkość kamery w pionie podczas użycia <ICON PAD PL_AIM><lf>z dobytą bronią białą (w trybie skupienia).
+<string>Broń dystansowa (w poziomie): <ICON PAD PL_AIM>
+<string>Dostosowuje szybkość kamery w poziomie podczas użycia <ICON PAD PL_AIM><lf>z dobytą bronią dystansową (w trybie celowania/skupienia).
+<string>Broń dystansowa (w pionie): <ICON PAD PL_AIM>
+<string>Dostosowuje szybkość kamery w pionie podczas użycia <ICON PAD PL_AIM><lf>z dobytą bronią dystansową (w trybie celowania/skupienia).
+<string>Czułość kamery: Tryb celowania/skupienia
+<string>Dostosowuje czułość ruchu myszy podczas celowania<lf>lub w Trybie skupienia. Im wyższa wartość, tym szybciej<lf>będzie się przemieszczać kamera.
+<string>Czuł. kamery w poz.: tryb celowania/skupienia
+<string>Dodaje poziome odchylenie do ruchu myszy podczas<lf>celowania lub w Trybie skupienia. Im niższa wartość,<lf>tym wolniej będzie się ruszać kamera w poziomie.
+<string>Czuł. kamery w pionie: tryb celowania/skupienia
+<string>Dodaje pionowe odchylenie do ruchu myszy podczas<lf>celowania lub w Trybie skupienia. Im niższa wartość,<lf>tym wolniej będzie się ruszać kamera w pionie.
+<string>Szybkość kamery: <ICON PAD PL_DUMMY_MOVE>
+<string>Szybkość ruchu kamery, gdy możliwe jest sterowanie<lf>kamerą przy użyciu <ICON PAD PL_DUMMY_MOVE>, na przykład w trybie skupienia.<lf><COLOR preset="TXT_Accent">(Ustawienie na 1 wyłącza sterowanie kamerą za pomocą <ICON PAD PL_DUMMY_MOVE>)</COLOR>
 <string>Szybkość trajektorii celownika
 <string>Dostosowuje ustawienia szybkości celownika, kiedy strzelasz z łuku<lf>lub korzystasz z bomb kasetowych ciężkiego łukodziałka.
-<string>Odwrócenie kamery: standardowy
-<string>Dostosuj sterowanie odwracaniem kamery,<lf>gdy kamera jest w trybie standardowym.
+<string>Odwrócenie kamery: normalnie
+<string>Dostosowuje ustawienia odwrócenia kamery podczas<lf>normalnej rozgrywki.
 <string>Nie odwracaj
-<string>Ruch kamery odpowiada kierunkowi<lf>wychylenia we wszystkich kierunkach.
+<string>Nie odwraca ani ruchu kamerą góra/dół<lf>ani lewo/prawo.
 <string>Odwróć w pionie
-<string>Kamera rusza się w kierunku przeciwnym do<lf>ruchu tylko na osi góra/dół.
+<string>Odwraca ruch kamerą góra/dół.<lf>Ruch kamerą lewo/prawo pozostaje bez zmian.
 <string>Odwróć w poziomie
-<string>Kamera rusza się w kierunku przeciwnym do<lf>ruchu tylko na osi lewa/prawa.
+<string>Odwraca ruch kamerą lewo/prawo.<lf>Ruch kamerą góra/dół pozostaje bez zmian.
 <string>Odwrócone
-<string>Kamera rusza się w kierunku przeciwnym do<lf>ruchu we wszystkich kierunkach.
+<string>Odwraca zarówno ruch kamerą góra/dół<lf>jak i lewo/prawo.
 <string>Odwrócenie kamery: <ICON PL_AIM>
-<string>Dostosuj ustawienia odwrócenia kamery podczas używania <ICON PL_AIM>.<lf>Jeśli włączono „Odwrócenie kamery: wyciągnięta broń”,<lf>ma to zastosowanie tylko przy schowanej broni.
-<string>Odwrócenie kamery: wyciągnięta broń
-<string>Po włączeniu odwrócenie kamery podczas przytrzymania <ICON PL_AIM><lf>z wyciągniętą bronią można ustawić oddzielnie<lf>dla broni białej i dystansowej.
+<string>Dostosuj ustawienia odwrócenia kamery podczas używania <ICON PL_AIM>.<lf>Jeśli włączono funkcję <COLOR preset="TXT_Accent">„Odwrócenie kamery: dobyta broń”</COLOR>,<lf>ma to zastosowanie tylko przy schowanej broni.
+<string>Odwrócenie kamery: dobyta broń
+<string>Włącza funkcję odwrócenia kamery podczas przytrzymywania <ICON PL_AIM><lf>z dobytą bronią, aby ustawić odwrócenie oddzielnie dla broni<lf>białej i dystansowej.
 <string>Broń biała: <ICON PL_AIM>
-<string>Określ ustawienia odwracania kamery podczas przytrzymywania <ICON PL_AIM><lf>z wyciągniętą bronią białą (w trybie skupienia).
+<string>Dostosowuje odwrócenie kamery podczas użycia <ICON PL_AIM><lf>(Tryb skupienia) z wyciągniętą bronią białą.
 <string>Broń dystansowa: <ICON PL_AIM>
-<string>Określ ustawienia odwracania kamery podczas przytrzymywania<lf><ICON PL_AIM> (w trybie celowania/skupienia) z wyciągniętą bronią dystansową.
+<string>Dostosowuje odwrócenie kamery podczas użycia <ICON PL_AIM><lf>(w Trybie celowania/skupienia) z wyciągniętą bronią<lf>dystansową.
 <string>Odwrócenie trajektorii
-<string>Ustaw sterowanie celowaniem w pionie<lf>dla trajektorii strzałów z łuku<lf>i bomb kasetowych ciężkiego łukodziałka.
-<string>Sterowanie bronią dystansową: normalne
-<string>Trajektoria biegnie do przodu/do tyłu<lf>w tym samym kierunku, co polecenie.
-<string>Sterowanie bronią dystansową: odwrócone
-<string>Trajektoria biegnie do przodu/do tyłu<lf>w przeciwnym kierunku do polecenia.
+<string>Dostosowuje sterowanie celowaniem w pionie<lf>dla trajektorii strzałów z łuku i bomb kasetowych<lf>ciężkiego łukodziałka.
+<string>Ster. bronią dys.: normalne
+<string>Trajektoria biegnie do przodu / do tyłu<lf>w tym samym kierunku, co polecenie.
+<string>Ster. bronią dys.: odwrócone
+<string>Trajektoria biegnie do przodu / do tyłu<lf>w przeciwnym kierunku do polecenia.
 <string>Zaawansowane ustawienia kamery
-<string>Dostosuj ustawienia zaawansowane<lf>związane z zachowaniem kamery.
+<string>Dostosowuje zaawansowane ustawienia związane<lf>z zachowaniem kamery.
 <string>Bezwładność kamery
-<string>Dostosowuje bezwładność ruchu kamery, która<lf>wpływa na przyspieszenie w reakcji na polecenie.
+<string>Dostosowuje bezwładność ruchu kamery, która wpływa<lf>na przyspieszenie w reakcji na polecenie sterowania.
 <string>Martwa strefa: minimalna
-<string>Dostosowuje stopień ignorowania delikatnych<lf>poleceń podczas ruchu kamery.
+<string>Dostosowuje stopień ignorowania delikatnych<lf>poleceń sterowania podczas ruchu kamery.
 <string>Krzywa reakcji
-<string>Dostosowuje przyspieszenie dla poleceń<lf>podczas ruchu kamery.
+<string>Dostosowuje przyspieszenie dla poleceń<lf>sterowania podczas ruchu kamery.
 <string>Martwa strefa: maksymalna
-<string>Dostosowuje stopień polecenia rejestrowanego na maksymalnym poziomie<lf>podczas ruchu kamery.
+<string>Dostosowuje stopień maksymalnego rejestrowanego<lf>polecenia sterowania dla ruchu kamery.
 <string>Odległość kamery: przybliżenie
-<string>Dostosowuje odległość przednią<lf>między kamerą a postacią.
+<string>Dostosowuje odległość przednią między kamerą a łowcą.
 <string>Odległość kamery: przesuwanie w pionie/poziomie
-<string>Dostosowuje odległość boczną<lf>między kamerą a postacią.
-<string>Wibracje kamery
-<string>Dostosowuje nasilenie wibracji kamery<lf>powodowanych przez wydarzenia w grze.
+<string>Dostosuj odległość boczną między kamerą a łowcą.
 <string>Drżenie kamery
-<string>Dostosowuje nasilenie drżenia kamery.
+<string>Dostosowuje nasilenie drżenia kamery powodowane<lf>przez wydarzenia i ruchy w grze.
+<string>Kołysanie kamery otoczenia
+<string>Dostosowuje nasilenie efektu kołysania kamery<lf>otoczenia.
 <string>Dostosuj ruch kamery do terenu
-<string>Dostosuj ustawienia związane ze sposobem<lf>reagowania kamery na nierówności terenu.
+<string>Dostosowuje sposób, w jaki kamera reaguje na zbocza<lf>i inne nachylenia terenu.
 <string>Dostosuj
-<string>Kamera będzie automatycznie reagowała<lf>na nierówności terenu.
+<string>Kamera automatycznie dostosowuje się<lf>do ukształtowania terenu.
 <string>Nie dostosowuj
-<string>Kamera nie będzie automatycznie<lf>reagowała na nierówności terenu.
+<string>Kamera nie dostosowuje się automatycznie<lf>do ukształtowania terenu.
 <string>Korekta szerokości kamery
-<string>Dostosowuje poziom korekty kamery<lf>podczas próby uchwycenia szerokiego widoku.
-<string>Boczna korekta kamery: standardowa
+<string>Dostosowuje poziom korekty kamery podczas próby<lf>uchwycenia szerokiego widoku.
+<string>Boczna korekta kamery: normalna
 <string>Dostosowuje, w jakim stopniu kamera prowadzi<lf>twoją postać podczas poruszania się pieszo na boki.
 <string>Boczna korekta kamery: jazda
-<string>Dostosowuje, w jakim stopniu kamera<lf>prowadzi twoją postać podczas<lf>poruszania Seikretem na boki.
-<string>Automatyczne wyśrodkowanie: standardowe
-<string>Ustaw, czy kamera ma być automatycznie<lf>zwrócona w kierunku, w którym porusza się<lf>twoja postać podczas chodu.
-<string>Wł.
-<string>Automatycznie wyśrodkuj kamerę podczas chodu.
-<string>Wł. (z wyjątkiem walki)
-<string>Automatycznie wyśrodkuj kamerę podczas chodu, z wyjątkiem walki.
-<string>Wył.
-<string>Brak automatycznego wyśrodkowania kamery<lf>podczas chodu.
+<string>Dostosowuje, w jakim stopniu kamera prowadzi twoją<lf>postać na Seikrecie podczas poruszania na boki.
+<string>Automatyczne wyśrodkowanie: normalna gra
+<string>Ustawia, czy kamera jest skierowana w stronę, w którą<lf>zwrócony jest łowca podczas chodzenia lub biegania.
+<string>Włącz
+<string>Automatyczne wyśrodkowanie kamery podczas<lf>chodzenia lub biegania.
+<string>Włącz (z wyjątkiem walki)
+<string>Automatyczne wyśrodkowanie kamery podczas<lf>chodzenia lub biegania z wyjątkiem walki.
+<string>Wyłącz
+<string>Brak automatycznego wyśrodkowania kamery<lf>podczas chodzenia lub biegania.
 <string>Automatyczne wyśrodkowanie: jazda
-<string>Ustaw, czy kamera ma być automatycznie<lf>zwrócona w kierunku, w którym porusza się<lf>twoja postać na Seikrecie.
-<string>Wł.
-<string>Automatycznie wyśrodkuj kamerę<lf>podczas jazdy na Seikrecie.
-<string>Wł. (z wyjątkiem walki)
-<string>Automatycznie wyśrodkuj kamerę<lf>podczas jazdy na Seikrecie, z wyjątkiem walki.
-<string>Wył.
+<string>Ustawia, czy kamera jest skierowana w stronę,<lf>w którą zwrócony jest łowca na grzbiecie Seikreta.
+<string>Włącz
+<string>Automatyczne wyśrodkowanie kamery podczas<lf>jazdy na Seikrecie.
+<string>Włącz (z wyjątkiem walki)
+<string>Automatyczne wyśrodkowanie kamery podczas<lf>jazdy na Seikrecie z wyjątkiem walki.
+<string>Wyłącz
 <string>Brak automatycznego wyśrodkowania kamery<lf>podczas jazdy na Seikrecie.
 <string>Kierunek celownika
-<string>Ustaw zachowanie kamery podczas<lf>wyświetlania celownika.
-<string>Kierunek patrzenia postaci
-<string>Celownik pojawia się w tym samym<lf>kierunku, w którym patrzy twoja postać,<lf>i pod tym samym kątem co kamera.
-<string>Kierunek zwrócenia kamery
-<string>Celownik pojawia się w tym samym kierunku<lf>i pod tym samym kątem, co kamera,<lf>niezależnie od kierunku, w którym patrzy<lf>twoja postać.
-<string>Typ 3
-<string>Celownik celuje tym samym kierunku, w którym<lf>patrzy gracz, i pod tym samym kątem,<lf>co kamera. Gdy celujesz w potwora, będzie<lf>skierowana w stronę celu.
-<string>Typ 4
-<string>Celownik celuje tym samym kierunku i pod<lf>tym samym kątem co kamera niezależnie<lf>od położenia łowcy. Gdy celujesz w potwora,<lf>będzie skierowana w stronę celu.
-<string>Asysta celowania
-<string>Włącz lub wyłącz asystę celowania, która<lf>zwalnia celownik po najechaniu na cel.
-<string>Wł.
-<string>Włącz asystę celowania.
-<string>Wył.
-<string>Wyłącz asystę celowania.
-<string>Tryb celowania/skupienia: sterowanie
-<string>Ustaw sterowanie, aby aktywować tryb celowania/skupienia.<lf>Jeśli włączono „Tryb celowania/skupienia: zaawansowane”,<lf>to ustawienie ma zastosowanie tylko przy schowanej broni.
-<string>Przytrzymaj <ICON PAD PL_AIM>, by aktyw. tryb
-<string>Z wyciągniętą bronią przytrzymaj <ICON PAD PL_AIM>,<lf>by aktywować jej tryb celowania/skupienia.<lf>Gdy broń jest schowana,<lf>czynność uruchomi tryb celowania procy.
-<string>Naciśnij <ICON PAD PL_AIM>, by przełączyć tryb
-<string>Z wyciągniętą bronią naciśnij <ICON PAD PL_AIM>,<lf>by przełączyć jej tryb celowania/skupienia.<lf>Gdy broń jest schowana, czynność przełączy tryb celowania procy.<lf>Naciśnij ponownie, by wyłączyć.
-<string>Z wyciągniętą bronią naciśnij <ICON PAD PL_AIM>,<lf>by przełączyć jej tryb celowania/skupienia.
-<string>Tryb celowania/skupienia: zaawansowane
-<string>Po włączeniu sterowanie aktywacją każdego trybu<lf>z wyciągniętą bronią można ustawić oddzielnie<lf>dla broni białej i dystansowej.
-<string>Broń biała
-<string>Ustaw przyciski aktywujące tryb skupienia<lf>z bronią białą.
-<string>Przytrzymaj <ICON PAD PL_AIM>, by aktyw. tryb
-<string>Z dobytą bronią białą przytrzymaj <ICON PAD PL_AIM>,<lf>by aktywować tryb skupienia.
-<string>Naciśnij <ICON PAD PL_AIM>, by przełączyć tryb
-<string>Z dobytą bronią białą naciśnij <ICON PAD PL_AIM>,<lf>by włączyć jej tryb skupienia. Naciśnij ponownie, żeby wyłączyć.
-<string>Broń dystansowa
-<string>Ustaw przyciski aktywujące tryb celowania/skupienia<lf>z bronią dystansową.
-<string>Przytrzymaj <ICON PAD PL_AIM>, by aktyw. tryb
-<string>Z wyciągniętą bronią dystansową przytrzymaj <ICON PAD PL_AIM>,<lf>by aktywować tryb celowania/skupienia.
-<string>Naciśnij <ICON PAD PL_AIM>, by przełączyć tryb
-<string>Z wyciągniętą bronią dystansową naciśnij <ICON PAD PL_AIM>,<lf>by włączyć jej tryb celowania/skupienia. Naciśnij ponownie, by wyłączyć.
-<string>Tryb śledzenia: typ sterowania
-<string>Dostosuj sterowanie trybu śledzenia i resetowania kamery.
+<string>Dostosowuje zachowanie kamery podczas wyświetlania<lf>celownika.
 <string>Typ 1
-<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę<lf>na cel. Wciśnij dwa razy, żeby skierować kamerę<lf>w kierunku, w którym patrzy twoja postać.
+<string>Celownik celuje w tym samym kierunku, w którym<lf>patrzy łowca, i pod tym samym kątem, co kamera.<lf>To samo dzieje się podczas celowania w potwora.
 <string>Typ 2
-<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę<lf>w kierunku, w którym patrzy twoja postać.<lf>Wciśnij dwa razy, żeby skierować kamerę na cel.
+<string>Celownik celuje w tym samym kierunku i pod tym<lf>samym kątem, pod którym jest ustawiona kamera,<lf>bez względu na położenie łowcy. To samo<lf>dzieje się podczas celowania w potwora.
 <string>Typ 3
-<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę na cel.<lf>Wciśnięcie przycisku dwa razy nic nie robi.
+<string>Celownik celuje w tym samym kierunku, w którym<lf>patrzy łowca, i pod tym samym kątem, co kamera.<lf>Gdy celuje w potwora, będzie skierowany w stronę<lf>celu.
 <string>Typ 4
-<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę<lf>w kierunku, w którym patrzy twoja postać.<lf>Wciśnięcie przycisku dwa razy nic nie robi.
+<string>Celownik celuje w tym samym kierunku i pod tym<lf>samym kątem co kamera, niezależnie od położenia<lf>łowcy. Gdy celujesz w potwora, będzie skierowany<lf>w stronę celu.
+<string>Asysta celowania
+<string>Włącz lub wyłącz asystę celowania, która spowalnia<lf>celownik po najechaniu na cel.
+<string>Włącz
+<string>Włącza asystę celowania.
+<string>Wyłącz
+<string>Wyłącza asystę celowania.
+<string>Tryb celowania/skupienia: sterowanie
+<string>Dostosowuje sposób aktywacji trybu celowania/skupienia.<lf>Jeśli włączono funkcję <COLOR preset="TXT_Accent">„Tryb celowania/skupienia: zaawansowane”</COLOR>,<lf>to ustawienie ma zastosowanie tylko przy schowanej broni.
+<string>Przytrzymaj <ICON PAD PL_AIM>, by aktyw. tryb
+<string>Z dobytą bronią przytrzymanie <ICON PAD PL_AIM> aktywuje<lf>tryb skupienia dla broni białych i tryb celowania/skupienia<lf>dla broni dystansowych. W przypadku schowanej broni<lf>zamiast tego wycelujesz z procy.
+<string><ICON PAD PL_AIM_TOGGLE>, aby przełączyć tryb
+<string>Z dobytą bronią przytrzymanie <ICON PAD PL_AIM_TOGGLE> włączy lub wyłączy<lf>tryb skupienia dla broni białych i tryb celowania/skupienia<lf>dla broni dystansowych. W przypadku schowanej broni<lf>zamiast tego włączysz lub wyłączysz<lf>celowanie z procy.
+<string>Z dobytą bronią <ICON PAD PL_AIM_TOGGLE> włączy lub wyłączy<lf>tryb skupienia dla broni białych<lf>i tryb celowania/skupienia dla broni dystansowych.
+<string>Zawansowane sterowanie trybu celowania/skupienia
+<string>Ustawia sposób, w jaki tryb celowania/skupienia i tryb<lf>skupienia są aktywowane osobno dla wyciągniętej broni<lf>białej i dystansowej. <COLOR preset="TXT_Accent">(Nie ma wpływu na sterowanie procą)</COLOR>
+<string>Broń biała
+<string>Dostosowuje sposób aktywacji trybu skupienia<lf>dla broni białej.
+<string><ICON PAD PL_AIM>, aby aktywować tryb
+<string>Z dobytą bronią białą przytrzymaj <ICON PAD PL_AIM>, by aktywować<lf>tryb skupienia.
+<string>Naciśnij <ICON PAD PL_POP_CHANGE_SELECT>, by przełączyć tryb
+<string>Z dobytą bronią białą przytrzymaj <ICON PAD PL_POP_CHANGE_SELECT>, by włączyć<lf>lub wyłączyć tryb skupienia.
+<string>Broń dystansowa
+<string>Dostosowuje sposób aktywacji trybu celowania/skupienia<lf>dla broni dystansowej.
+<string><ICON PAD PL_AIM>, aby aktywować tryb
+<string>Z wyciągniętą bronią dystansową przytrzymaj <ICON PAD PL_AIM>,<lf>by aktywować tryb celowania/skupienia.
+<string>Naciśnij <ICON PAD PL_POP_CHANGE_SELECT>, by przełączyć tryb
+<string>Z wyciągniętą bronią dystansową przytrzymaj <ICON PAD PL_POP_CHANGE_SELECT>,<lf>by włączyć lub wyłączyć tryb celowania/skupienia.
+<string>Tryb śledzenia: typ sterowania
+<string>Dostosuj sterowanie śledzenia i resetowania kamery.
+<string>Typ 1
+<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę na potwora.<lf>Wciśnij dwa razy, żeby skierować kamerę<lf>w kierunku, w którym zwrócony jest łowca.
+<string>Typ 2
+<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę w kierunku,<lf>w którym zwrócony jest łowca. Wciśnij dwa razy,<lf>żeby skierować kamerę na potwora.
+<string>Typ 3
+<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę na potwora.<lf>Wciśnięcie przycisku dwa razy nie ma żadnego<lf>efektu.
+<string>Typ 4
+<string>Wciśnij raz <ICON PL_CAMERA_RESET>, żeby skierować kamerę w kierunku,<lf>w którym zwrócony jest łowca. Wciśnięcie<lf>przycisku dwa razy nie ma żadnego efektu.
 <string>Typ 5
-<string>Wciśnięcie <ICON PL_CAMERA_RESET> nie powoduje zmiany kamery.
+<string>Wciśnięcie <ICON PL_CAMERA_RESET> nie kieruje kamery ani w kierunku,<lf>w którym zwrócony jest łowca, ani na potwora.
 <string>Resetowanie kamery: kierunek
-<string>Ustaw, w którym kierunku skierować kamerę<lf>po jej zresetowaniu.
+<string>Ustaw, w którym kierunku skierować kamerę po jej zresetowaniu.
 <string>Kierunek wychylenia <ICON PAD PL_DUMMY_MOVE>
-<string>Kamera skieruje się w stronę,<lf>w którą został wychylony drążek <ICON PAD PL_DUMMY_MOVE>.
-<string>Kierunek patrzenia postaci
-<string>Po zresetowaniu kamera skieruje się w stronę,<lf>w którą patrzy twoja postać.
+<string>Resetuje kamerę, aby celowała w kierunku<lf>przechylenia <ICON PAD PL_DUMMY_MOVE>.
+<string>Kierunki łowcy
+<string>Resetuje kamerę, aby celowała w kierunku,<lf>w którym zwrócony jest łowca.
 <string>Resetowanie kamery: oś pionowa
-<string>Ustaw, czy resetowanie kamery wpływa<lf>na orientację pionową.
+<string>Ustaw, czy resetowanie kamery wpływa na orientację pionową.
 <string>Wyrównaj poziom
 <string>Resetowanie kamery wyrównuje orientację pionową.
 <string>Nie wyrównuj poziomu
 <string>Resetowanie kamery pozostawia pionową orientację<lf>bez zmian i nie wyrównuje jej.
 <string>Tryb śledzenia: oś pionowa
-<string>Dostosuj pionową orientację dla trybu śledzenia<lf>podczas walki z potworem.
+<string>Dostosuj pionową orientację dla śledzenia kamery,<lf>gdy jest skierowana w stronę potwora.
 <string>Dopasuj do celu
-<string>Tryb śledzenia dopasuje się pionowo<lf>do pozycji celu.
+<string>Śledzenie kamery dopasuje się pionowo do położenia<lf>potwora.
 <string>Nie dostosowuj
-<string>Pionowa orientacja trybu śledzenia pozostanie<lf>bez zmian bez względu na położenie potwora.
+<string>Pionowa orientacja śledzenia kamery pozostanie<lf>bez zmian, bez względu na położenie potwora.
 <string>W poziomie
-<string>Pionowa orientacja trybu śledzenia wyrówna się w poziomie<lf>bez względu na położenie potwora.
+<string>Pionowa orientacja śledzenia kamery wyrówna się<lf>w poziomie bez względu na położenie potwora.
 <string>Między celem a poziomem
-<string>Tryb śledzenia dopasuje się pionowo<lf>do punktu pomiędzy pozycją celu<lf>a wyrównaną pozycją poziomą.
+<string>Śledzenie kamery dopasuje się pionowo do punktu<lf>pomiędzy pozycją potwora a wyrównaną pozycją<lf>poziomą.
 <string>Między obecnym położeniem a celem
-<string>Tryb śledzenia dopasuje się pionowo<lf>do punktu pomiędzy pozycją celu<lf>a obecnym położeniem kamery.
+<string>Śledzenie kamery dopasuje się pionowo do punktu<lf>pomiędzy pozycją potwora a obecnym położeniem<lf>kamery.
 <string>Automatyczne śledzenie
-<string>Włącz lub wyłącz automatyczną blokadę celu<lf>dla namierzonego potwora.
-<string>Wł.
-<string>Podczas namierzania potwora kamera<lf>go namierzy i będzie za nim podążać.
-<string>Wył.
-<string>Kamera nie będzie podążać za namierzonym<lf>potworem, a użycie trybu śledzenia tylko<lf>nakieruje na niego.
+<string>Określa, czy automatyczne namierzanie potwora<lf>przez kamerę ma być włączone.
+<string>Włącz
+<string>Blokuje kamerę na wybranym potworze<lf>i utrzymuje go w polu widzenia.
+<string>Wyłącz
+<string>Kamera nie będzie podążać za namierzonym<lf>potworem, a użycie śledzenia kamery tylko<lf>nakieruje na niego.
 <string>Wspinaczka: resetowanie kamery
-<string>Ustaw, czy kamera ma być zresetowana,<lf>kiedy gracz rozpoczyna wspinaczkę
+<string>Ustaw, czy kamera ma być zresetowana, kiedy łowca<lf>rozpoczyna wspinaczkę.
 <string>Zresetuj
-<string>Kamera zostanie zresetowana,<lf>kiedy gracz rozpocznie wspinaczkę.
+<string>Kamera zostanie zresetowana, kiedy łowca<lf>rozpocznie wspinaczkę.
 <string>Nie resetuj
-<string>Kamera nie zostanie zresetowana,<lf>kiedy gracz rozpocznie wspinaczkę.
+<string>Kamera nie zostanie zresetowana, kiedy łowca<lf>rozpocznie wspinaczkę.
 <string>Filtrowanie celów
-<string>Ustaw, jakie rodzaje potworów można namierzyć.
+<string>Ustawia, jakie rodzaje potworów można namierzyć.
 <string>Wszystkie potwory
-<string>Wszystkie potwory mogą być namierzone.
+<string>Umożliwia celowanie zarówno w małe, jak i duże potwory.
 <string>Tylko duże potwory
-<string>Tylko duże potwory mogą być namierzone.
+<string>Umożliwia celowanie tylko w duże potwory.
 <string>Kamera obserwacji potwora
 <string>Ustaw, czy przy pierwszym zaobserwowaniu potwora<lf>gra ma przechodzić w tryb kamery filmowej.
-<string>Wł.
+<string>Włącz
 <string>Włącza tryb kamery filmowej przy pierwszym<lf>zaobserwowaniu potwora.
-<string>Wył.
+<string>Wyłącz
 <string>Wyłącza tryb kamery filmowej przy pierwszym<lf>zaobserwowaniu potwora.
 <string>Wybór celu / celu zadania
-<string>Ustaw, czy łączyć namierzanie potwora<lf>z wyborem celu zadania.
+<string>Ustawia, czy łączyć namierzanie potwora z wyborem<lf>celu zadania.
 <string>Połącz
-<string>Namierzenie lub usunięcie celu z potwora<lf>również ustawia lub usuwa twój cel zadania.
+<string>Namierzenie lub usunięcie celu z potwora również<lf>ustawia lub usuwa twój cel zadania.
 <string>Połącz tylko podczas namierzania
-<string>Namierzenie potwora również ustawia<lf>twój cel zadania, ale twój cel zadania nie jest<lf>usuwany po usunięciu celu z potwora.
+<string>Namierzenie potwora również ustawia twój cel<lf>zadania, ale nie jest on usuwany po usunięciu<lf>celu z potwora.
 <string>Nie łącz
-<string>Namierzenie lub usunięcie celu z potwora<lf>nie wpływa na twój cel zadania.
+<string>Namierzenie lub usunięcie celu z potwora nie wpływa<lf>na twój cel zadania.
 <string>Podążanie kamery za świetlikami
-<string>Ustawia, czy kamera ma podążać za świetlikami zwiadowczymi.
+<string>Określa, czy kamera ma śledzić świetliki zwiadowcze.
 <string>Podążaj
-<string>Kamera będzie podążać za świetlikami zwiadowczymi.
+<string>Kamera śledzi świetliki zwiadowcze.
 <string>Nie podążaj
-<string>Kamera nie będzie podążać za świetlikami zwiadowczymi.
+<string>Kamera nie śledzi świetlików zwiadowczych.
 <string>Sterowanie kamerą za pomocą myszy
-<string>Określa, czy mysz ma sterować<lf>kamerą. Od tego ustawienia zależy,<lf>czy kursor może opuścić okno gry.
-<string>Wł.
-<string>Mysz steruje kamerą. Podczas<lf>korzystania z tej metody sterowania<lf>kursor myszy nie może opuścić okna gry.
-<string>Wył.
-<string>Klawiatura steruje kamerą. Kursor<lf>myszy może opuścić okno gry, jeśli<lf>gra jest w trybie okna.
+<string>Określa, czy mysz steruje kamerą. W zależności<lf>od ustawienia, kursor myszy może opuścić okno.
+<string>Włącz
+<string>Włącza sterowanie kamerą przy pomocy myszy.<lf>Podczas korzystania z tej metody sterowania,<lf>kursor myszy nie może opuścić okna gry.
+<string>Wyłącz
+<string>Klawiatura steruje kamerą. Kursor myszy może<lf>opuścić okno gry, jeśli gra jest w <COLOR preset="TXT_Accent">trybie okna</COLOR>.
 <string><PLATMSG MsgGUI030100_02_28>
 <string>Sterowanie żyroskopem
 <string><PLATMSG MsgGUI030100_02_28_Help>
-<string>Włącza lub wyłącza funkcję żyroskopu<lf>w sterowaniu kamerą i dostosowanie szczegółowych ustawień.
+<string>Określa, czy funkcja żyroskopu jest włączona<lf>dla sterowania kamerą, a także dostosowuje<lf>zaawansowane ustawienia funkcji żyroskopu.
 <string>Typ sterowania
 <string><PLATMSG MsgGUI030100_02_72_Help>
-<string>Dostosowuje sposób włączania sterowania<lf>żyroskopem.
+<string>Dostosowuje sposób włączania sterowania żyroskopem.
 <string>Naciśnij <ICON PAD PL_AIM>, by włączyć
 <string><PLATMSG MsgGUI030100_02_72_00_Help>
-<string>Wciśnięcie <ICON PAD PL_AIM> włącza sterowanie żyroskopem<lf>tylko podczas celowania lub w trybie skupienia.
+<string>Sterowanie żyroskopem jest włączone tylko w czasie<lf>używania <ICON PAD PL_AIM> podczas celowania lub w trybie skupienia.
 <string>Zawsze włączone
 <string><PLATMSG MsgGUI030100_02_72_01_Help>
 <string>Włącza sterowanie żyroskopem, kiedy tylko<lf>jest to możliwe.
-<string>Czułość sterowania: standardowa (w poziomie)
+<string>Czułość sterowania (w poziomie): normalna
 <string><PLATMSG MsgGUI030100_02_55_Help>
-<string>Dostosowuje czułość kamery w poziomie<lf>podczas sterowania żyroskopem.
-<string>Czułość sterowania: standardowa (w pionie)
+<string>Dostosowuje poziomą czułość kamery podczas sterowania<lf>żyroskopem w trakcie normalnej rozgrywki.
+<string>Czułość sterowania (w pionie): normalna
 <string><PLATMSG MsgGUI030100_02_56_Help>
-<string>Dostosowuje czułość kamery w pionie<lf>dla sterowania żyroskopem podczas normalnej rozgrywki.
-<string>Czułość sterowania: <ICON PAD PL_AIM> (w poziomie)
+<string>Dostosowuje pionową czułość kamery podczas sterowania<lf>żyroskopem w trakcie normalnej rozgrywki.
+<string>Czułość sterowania (w poziomie): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_57_Help>
-<string>Dostosowuje sterowanie czułością żyroskopem w poziomie podczas używania <ICON PAD PL_AIM>.<lf>To ustawienie działa tylko wtedy, gdy twoja broń jest schowana,<lf>jeśli włączono opcję Czułość sterowania: wyciągnięta broń.
-<string>Czułość sterowania: <ICON PAD PL_AIM> (w pionie)
+<string>Dostosowuje sterowanie czułością żyroskopu w poziomie przy<lf>używaniu <ICON PAD PL_AIM>. Jeśli włączono opcję <COLOR preset="TXT_Accent">Czułość sterowania: dobyta<lf>broń</COLOR>, to ustawienie działa tylko wtedy, gdy broń jest schowana.
+<string>Czułość sterowania (w pionie): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_58_Help>
-<string>Dostosowuje sterowanie czułością żyroskopem w pionie podczas używania <ICON PAD PL_AIM>.<lf>To ustawienie działa tylko wtedy, gdy twoja broń jest schowana,<lf>jeśli włączono opcję Czułość sterowania: wyciągnięta broń.
+<string>Dostosowuje sterowanie czułością żyroskopu w pionie przy<lf>używaniu <ICON PAD PL_AIM>. Jeśli włączono opcję <COLOR preset="TXT_Accent">Czułość sterowania: dobyta<lf>broń</COLOR>, to ustawienie działa tylko wtedy, gdy broń jest schowana.
 <string>Czułość sterowania: dobyta broń
 <string><PLATMSG MsgGUI030100_02_59_Help>
-<string>Jeśli opcja jest włączona, czułość żyroskopu podczas przytrzymania <ICON PAD PL_AIM> z wyciągniętą bronią<lf>można ustawić oddzielnie dla broni białej i dystansowej.
-<string>Broń biała: <ICON PAD PL_AIM> (w poziomie)
+<string>Włącza czułość żyroskopu podczas przytrzymania <ICON PAD PL_AIM><lf>z dobytą bronią. Do ustawienia osobno dla broni białej<lf>i dystansowej.
+<string>Broń biała (w poziomie): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_60_Help>
-<string>Dostosowuje sterowanie czułością żyroskopu w poziomie<lf>podczas użycia <ICON PAD PL_AIM> z dobytą bronią białą (w trybie skupienia).
-<string>Broń biała: <ICON PAD PL_AIM> (w pionie)
+<string>Dostosowuje czułość sterowania żyroskopem w poziomie<lf>podczas użycia <ICON PAD PL_AIM> (w trybie skupienia) z dobytą<lf>bronią białą.
+<string>Broń biała (w pionie): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_61_Help>
-<string>Dostosowuje sterowanie czułością żyroskopu w pionie<lf>podczas użycia <ICON PAD PL_AIM> z dobytą bronią białą (w trybie skupienia).
-<string>Broń dystansowa: <ICON PAD PL_AIM> (w poziomie)
+<string>Dostosowuje czułość sterowania żyroskopem w pionie<lf>podczas użycia <ICON PAD PL_AIM> (w trybie skupienia) z dobytą<lf>bronią białą.
+<string>Broń dystansowa (w poziomie): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_62_Help>
-<string>Dostosowuje sterowanie czułością żyroskopu w poziomie<lf>podczas użycia <ICON PAD PL_AIM> (w trybie celowania/skupienia) z wyciągniętą bronią dystansową.
-<string>Broń dystansowa: <ICON PAD PL_AIM> (w pionie)
+<string>Dostosowuje czułość sterowania żyroskopem w poziomie<lf>podczas użycia <ICON PAD PL_AIM> (w trybie celowania/skupienia)<lf>z dobytą bronią dystansową.
+<string>Broń dystansowa (w pionie): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_63_Help>
-<string>Dostosowuje sterowanie czułością żyroskopu w pionie<lf>podczas użycia <ICON PAD PL_AIM> (w trybie celowania/skupienia) z wyciągniętą bronią dystansową.
+<string>Dostosowuje czułość sterowania żyroskopem w pionie<lf>podczas użycia <ICON PAD PL_AIM> (w trybie celowania/skupienia)<lf>z dobytą bronią dystansową.
 <string>Czułość sterowania celownikiem (trajektoria)
 <string><PLATMSG MsgGUI030100_02_64_Help>
-<string>Zmienia szybkość celownika, kiedy strzelasz<lf>z łuku lub korzystasz z bomb kasetowych.<lf><COLOR preset="TXT_Accent">(dla sterowania żyroskopem)</COLOR>
-<string>Odwrócenie sterowania: standardowe
+<string>Dostosowuje szybkość celownika, kiedy strzelasz<lf>z łuku lub korzystasz z bomb kasetowych.<lf><COLOR preset="TXT_Accent">(Sterowanie żyroskopem)</COLOR>
+<string>Odwrócenie sterowania: normalne
 <string><PLATMSG MsgGUI030100_02_65_Help>
-<string>Ustawia, czy odwrócić sterowanie żyroskopem<lf>podczas normalnej rozgrywki.
-<string>Nie odwraca ruchu kontrolera.
-<string>Odwraca tylko sterowanie kontrolera w pionie.<lf>Ruch w poziomie pozostaje normalny.
-<string>Odwraca tylko sterowanie kontrolera w poziomie.<lf>Ruch w pionie pozostaje normalny.
-<string>Odwraca sterowanie kontrolera w poziomie<lf>i w pionie.
+<string>Określa, czy sterowanie żyroskopem ma być odwrócone<lf>podczas normalnej rozgrywki.
+<string>Nie odwraca ruchu kontrolera w pionie<lf>ani w poziomie.
+<string>Odwraca ruch kontrolera w pionie.<lf>Ruch w poziomie pozostaje bez zmian.
+<string>Odwraca ruch kontrolera w poziomie.<lf>Ruch w pionie pozostaje bez zmian.
+<string>Odwraca ruch kontrolera w pionie i w poziomie.
 <string>Odwrócenie sterowania: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_66_Help>
-<string>Ustawia, czy odwrócić sterowanie żyroskopem w pionie podczas używania <ICON PAD PL_AIM>.<lf>To ustawienie działa tylko wtedy, gdy twoja broń jest schowana,<lf>jeśli włączono opcję Odwrócenie sterowania: wyciągnięta broń.
+<string>Określa, czy sterowanie żyroskopem ma być odwrócone przy<lf>używaniu <ICON PAD PL_AIM>. Jeśli włączono opcję <COLOR preset="TXT_Accent">Odwrócenie sterowania: dobyta<lf>broń</COLOR>, to ustawienie działa tylko wtedy, gdy broń jest schowana.
 <string>Odwrócenie sterowania: dobyta broń
 <string><PLATMSG MsgGUI030100_02_67_Help>
-<string>Jeśli opcja jest włączona, odwrócone sterowanie żyroskopem<lf>podczas przytrzymania <ICON PAD PL_AIM> z wyciągniętą bronią można ustawić oddzielnie<lf>dla broni białej i dystansowej.
+<string>Włącza sterowanie żyroskopem podczas przytrzymywania <ICON PAD PL_AIM><lf>z dobytą bronią, aby ustawić odwrócenie oddzielnie<lf>dla broni białej i dystansowej.
 <string>Broń biała: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_68_Help>
-<string>Odwraca sterowanie żyroskopem<lf>podczas użycia <ICON PAD PL_AIM> z dobytą bronią białą (w trybie skupienia).
+<string>Odwraca sterowanie żyroskopem podczas użycia <ICON PAD PL_AIM><lf>(w trybie skupienia) z dobytą bronią białą.
 <string>Broń dystansowa: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_69_Help>
-<string>Odwraca sterowanie żyroskopem podczas użycia <ICON PAD PL_AIM> (w trybie celowania/skupienia)<lf>z wyciągniętą bronią dystansową.
+<string>Odwraca sterowanie żyroskopem podczas użycia <ICON PAD PL_AIM><lf>(w trybie celowania/skupienia) z dobytą bronią dystansową.<lf>
 <string>Odwrócenie trajektorii celownika
 <string><PLATMSG MsgGUI030100_02_70_Help>
-<string>Odwraca sterowanie, kiedy strzelasz z łuku<lf>lub korzystasz z bomb kasetowych.<lf><COLOR preset="TXT_Accent">(dla sterowania żyroskopem)</COLOR>
-<string>Nie odwracaj sterowania kontrolera.
-<string>Odwróć sterowanie kontrolera.
-<string>Ustawienia wyjścia obrazu
-<string>Wybierz monitor, na którym ma być wyświetlany<lf>ekran gry. <COLOR preset="TXT_Accent">(Wymaga systemu Windows 10 lub nowszego<lf>i konfiguracji z więcej niż jednym monitorem).</COLOR>
+<string>Odwraca sterowanie, kiedy strzelasz z łuku<lf>lub korzystasz z bomb kasetowych.<lf><COLOR preset="TXT_Accent">(Sterowanie żyroskopem)</COLOR>
+<string>Nie odwraca ruchu kontrolera.
+<string>Odwraca ruch kontrolera.
+<string>Wybór ekranu
+<string>Dostosowuje, na którym ekranie ma być wyświetlana gra.<lf><COLOR preset="TXT_Accent">(Wymaga systemu Windows 10 lub nowszego<lf>i konfiguracji z więcej niż jednym monitorem)</COLOR>
 <string>{0}: {1}
-<string>Ustawienia trybu ekranu
-<string>Ustawia sposób wyświetlania okna gry.
+<string>Tryb ekranu
+<string>Dostosowuje sposób wyświetlania okna gry.
 <string>Okno bez ramki
-<string>Wyświetla grę na pełnym ekranie rozciągającym się<lf>na całe okno dla zwiększenia immersji.
+<string>Wyświetla grę na pełnym ekranie rozciągniętym<lf>na całe okno w celu zwiększenia immersji.
 <string>Tryb okna
 <string>Wyświetla grę w oknie.
-<string>Ustawienia rozdzielczości
-<string>Ustawia rozdzielczość ekranu.
+<string>Rozdzielczość ekranu
+<string>Dostosowuje rozdzielczość ekranu.
 <string>{0} x {1}
-<string>Grać w tej rozdzielczości?<lf><COLOR preset="TXT_Accent">(W razie braku odpowiedzi poprzednie ustawienia rozdzielczości<lf>zostaną przywrócone po dziesięciu sekundach)</COLOR>
+<string>Chcesz grać w tej rozdzielczości?<lf><COLOR preset="TXT_Accent">(W przypadku braku działania ze strony użytkownika,<lf>poprzednie ustawienia rozdzielczości zostaną<lf>przywrócone po dziesięciu sekundach)</COLOR>
 <string><REF RefGeneral_0001_000>
 <string><REF RefGeneral_0001_001>
-<string>Ustawienia proporcji obrazu
-<string>Ustawia proporcje obrazu.
+<string>Proporcje obrazu
+<string>Dostosowuje proporcje obrazu na ekranie.
 <string>Automatycznie
 <string>Automatycznie ustawia odpowiednie proporcje<lf>na podstawie bieżącej rozdzielczości.
 <string>Szeroki (16:9)
 <string>Wyświetla ekran o proporcjach 16:9.
 <string>Ultraszeroki (21:9)
-<string>Wyświetla ekran o proporcjach 21:9.<lf>Na monitorach nieobsługujących ultraszerokiego<lf>formatu nad i pod obrazem będą czarne pasy.
+<string>Wyświetla ekran o proporcjach 21:9.<lf>Na monitorach nieobsługujących ultraszerokich<lf>proporcji nad i pod obrazem będą czarne pasy.
 <string>Korekta interfejsu ekranu ultrapanoramicznego
-<string>Przesuń minimapę i inne elementy interfejsu<lf>w kierunku środka ekranu.<COLOR preset="TXT_Accent">(Można wykorzystać tylko<lf>przy ultraszerokich proporcjach obrazu)</COLOR>
+<string>Przesuwa minimapę i inne elementy interfejsu<lf>w kierunku środka ekranu. <COLOR preset="TXT_Accent">(Można wykorzystać tylko<lf>przy ultraszerokich proporcjach obrazu)</COLOR>
 <string>Liczba klatek na sekundę
-<string>Ustawia limit liczby klatek na sekundę w całej grze.
+<string>Dostosowuje limit liczby klatek na sekundę w całej grze.
 <string>Nielimitowana liczba klatek na sekundę
-<string>Ustawia, czy ograniczać liczbę klatek<lf>na sekundę w całej grze.
-<string>Wł.
-<string>Nie ograniczaj liczby klatek na sekundę.<lf><COLOR preset="TXT_Accent">(Ignoruje wartość w ustawieniu<lf>„Liczba klatek na sekundę”)</COLOR>
-<string>Wył.
-<string>Ogranicza liczbę klatek na sekundę<lf>w oparciu o wartość w ustawieniu<lf>„Liczba klatek na sekundę”.
+<string>Określa, czy liczba klatek na sekundę w całej grze<lf>jest ograniczona.
+<string>Włącz
+<string>Brak ograniczenia liczby klatek na sekundę.<lf><COLOR preset="TXT_Accent">(Ignoruje wartość w ustawieniu Liczba klatek<lf>na sekundę)</COLOR>
+<string>Ograniczenie
+<string>Ogranicza liczbę klatek na sekundę w oparciu<lf>o wartość w ustawieniu Liczba klatek na sekundę.
 <string>Liczba klatek na sekundę w przerywnikach
-<string>Pozwala ustawić inną liczbę klatek na sekundę w przerywnikach.<lf>Jeśli wyłączone, liczba kl./s w przerywnikach będzie zgodna<lf>z wartością w ustawieniu „Liczba klatek na sekundę”.
+<string>Pozwala dostosować inną liczbę klatek na sekundę w przerywnikach.<lf>Jeśli opcja ta jest wyłączona, liczba kl./s w przerywnikach będzie<lf>zgodna z wartością w ustawieniu Liczba klatek na sekundę.
 <string>Liczba klatek na sekundę w przerywnikach
-<string>Ustawia limit liczby klatek na sekundę<lf>w przerywnikach. <COLOR preset="TXT_Accent">(Wartość w ustawieniu „Liczba<lf> klatek na sekundę” określa górną granicę)</COLOR>
+<string>Dostosowuje ograniczenie liczby klatek na sekundę<lf>w przerywnikach. <COLOR preset="TXT_Accent">(Wartość w ustawieniu Liczba<lf>klatek na sekundę określa ograniczenie)</COLOR>
 <string>Liczba klatek na sekundę w tle
-<string>Gdy włączone, pozwala na osobne<lf>ustawienie liczby klatek na sekundę<lf>w tle, gdy okno gry jest nieaktywne.
+<string>Gdy opcja ta jest włączona, pozwala na osobne<lf>ustawienie liczby klatek na sekundę w tle,<lf>gdy okno gry jest nieaktywne.
 <string>Liczba klatek na sekundę w tle
-<string>Ustawia limit liczby klatek na sekundę, gdy okno<lf>jest nieaktywne. <COLOR preset="TXT_Accent">(Wartość w ustawieniu<lf>„Liczba klatek na sekundę” określa górną granicę)</COLOR>
-<string>Ustawienia wyjścia HDR
+<string>Dostosowuje ograniczenie liczby klatek na sekundę,<lf>gdy okno jest nieaktywne. <COLOR preset="TXT_Accent">(Wartość w ustawieniu<lf>Liczba klatek na sekundę określa ograniczenie)</COLOR>
+<string>Urządzenie HDR
 <string>Dostosowuje ustawienia wyjścia HDR.
-<string>Automatycznie
-<string>Automatycznie włącza HDR na<lf>urządzeniach obsługujących HDR i wyłącza<lf>na urządzeniach nieobsługujących.
+<string>Włącz automatycznie
+<string>Automatycznie włącza HDR na urządzeniach<lf>obsługujących HDR i wyłącza na urządzeniach<lf>nieobsługujących.
 <string>Wyłącz
 <string>Wyłącza wyjście HDR nawet na urządzeniach,<lf>które obsługują HDR.
 <string>Jasność
-<string>Dostosuj jasność ekranu.
-<string>Dostosuj jasność ekranu (HDR)
-<string>Dostosuj jasność ekranu.
+<string>Dostosowuje jasność ekranu.
+<string>Jasność (HDR)
+<string>Dostosowuje jasność ekranu.
 <string>Synchronizacja pionowa
-<string>Dostosowuje opcje synchronizacji pionowej.
+<string>Dostosowuje synchronizację pionową.
 <string>Włącz
-<string>Włącza synchronizację pionową,<lf>redukując rozrywanie obrazu.
+<string>Włącza synchronizację pionową, redukując<lf>rozrywanie obrazu.
 <string>Adaptacyjna synchronizacja pionowa
-<string>Włącza synchronizację pionową tylko wtedy,<lf>gdy liczba klatek na sekundę osiąga ustawiony<lf>limit.<COLOR preset="TXT_Accent">(Ustawienie dostępne jedynie dla kart graficznych<lf>NVIDIA GeForce)</COLOR>
+<string>Włącza synchronizację pionową tylko wtedy,<lf>gdy liczba klatek na sekundę osiąga ustawiony limit.<lf><COLOR preset="TXT_Accent">(Ustawienie dostępne jedynie dla kart graficznych<lf>NVIDIA GeForce)</COLOR>
 <string>Wyłącz
 <string>Wyłącza synchronizację pionową.
 <string>Tryb niskiego opóźnienia NVIDIA Reflex
-<string>Ustawia, czy zwiększyć responsywność gry<lf>i zmniejszyć opóźnienie systemu.<lf><COLOR preset="TXT_Accent">(Dostępne jedynie dla kart graficznych<lf>obsługujących tę funkcję)</COLOR>
+<string>Określa, czy zwiększyć responsywność gry i zmniejszyć<lf>opóźnienie systemu.<lf><COLOR preset="TXT_Accent">(Dostępne jedynie dla kart graficznych obsługujących tę funkcję)</COLOR>
 <string>Włącz
-<string>Włącza NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(To ustawienie zostanie automatycznie<lf>włączone po włączeniu opcji „Generowanie<lf>klatek” w części Grafika)</COLOR>
+<string>Włącza NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(To ustawienie zostanie automatycznie włączone<lf>po włączeniu opcji Generowanie klatek w zakładce<lf>Grafika)</COLOR>
 <string>Włącz + wzmocnij
-<string>Włącza NVIDIA Reflex i wymusza<lf>maksymalną prędkość zegara GPU.
+<string>Włącza NVIDIA Reflex i wymusza maksymalną<lf>prędkość zegara GPU.
 <string>Wyłącz
-<string>Wyłącza NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(To ustawienie zostanie automatycznie<lf>wyłączone na sprzętach nieobsługujących<lf>tej funkcji)</COLOR>
-<string>Informacje o komputerze
-<string>Pokaż informacje o wydajności używanego komputera.
+<string>Wyłącza NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(To ustawienie zostanie automatycznie wyłączone<lf>na sprzętach nieobsługujących tej funkcji)</COLOR>
+<string>Specyfikacja komputera
+<string>Wyświetla parametry używanego komputera.
 <string>Szacowane użycie VRAM
 <string><REF RefGeneral_0000_0000_00>
 <string>Pozostałe aplikacje
 <string>MB
 <string>MB /
-<string>Zużycie pamięci graficznej jest duże. Mogą wystąpić drobne usterki.
-<string>Zużycie pamięci graficznej jest duże. Mogą wystąpić poważne usterki.
+<string>Duża ilość pamięci graficznej w użyciu.<lf>Mogą wystąpić drobne awarie.
+<string>Duża ilość pamięci graficznej w użyciu.<lf>Mogą wystąpić poważne awarie.
 <string>CPU
 <string>RAM
 <string><NUMBER {0}> GB
@@ -716,7 +720,7 @@
 <string>Niekompatybilność
 <string>GB
 <string>Ustawienia grafiki
-<string>Wybierz ustawienia grafiki.<lf><COLOR preset="TXT_Accent">(Grafikę przerywników filmowych można ustawić osobno).</COLOR>
+<string>Dostosowuje ustawienia grafiki.<lf><COLOR preset="TXT_Accent">(Grafikę przerywników filmowych można dostosować osobno)</COLOR>
 <string>Wybierz ustawienia grafiki.
 <string>Ultra
 <string>Wysoka
@@ -724,129 +728,131 @@
 <string>Niska
 <string>Najniższa
 <string>Niestandardowa
-<string>Opcja ta zostanie zaznaczona, jeśli ręcznie zmieniono<lf>pewne szczegóły w ustawieniach wstępnych.
+<string>Opcja ta zostanie zaznaczona, jeśli ręcznie<lf>dostosowano jakiekolwiek szczegóły w ramach<lf>któregoś z predefiniowanych ustawień.
 <string>Grafika przerywników
-<string>Wybierz jakość grafiki podczas przerywników filmowych.<lf>To ustawienie będzie obowiązywać<lf>tylko podczas przerywników filmowych.
+<string>Dostosowuje ustawienia grafiki przerywników filmowych.<lf><COLOR preset="TXT_Accent">(Dotyczy tylko przerywników filmowych)</COLOR>
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Najniższa
-<string>Nie ustawiaj osobno
-<string>Podczas przerywników filmowych<lf>korzystaj z ogólnych ustawień grafiki.
+<string>Nie dostosowuj osobno
+<string>Ustawienia grafiki przerywników filmowych<lf>są zgodne z ustawieniami w ustawieniach grafiki.
 <string>Upscaling (Superrozdzielczość)
-<string>Korzystanie z technologii wyświetlania obrazów o świetnej rozdzielczości<lf>pozwala zachować wysoką wydajność,<lf>jednocześnie ciesząc się doskonałą jakością grafiki.
+<string>Korzysta z technologii upscalingu (superrozdzielczości),<lf>aby zachować wysoką wydajność, jednocześnie<lf>ciesząc doskonałą jakością grafiki.
 <string>NVIDIA DLSS
-<string>Użyj NVIDIA DLSS 3.5.<lf><COLOR preset="TXT_Accent">(Wymaga karty graficznej NVIDIA GeForce RTX.)</COLOR><lf><COLOR preset="TXT_Accent">(Jeśli używasz karty z serii GeForce RTX40<lf>i opcja Planowanie przyspieszanego sprzętowo procesora GPU jest włączona w systemie operacyjnym,<lf>zaznaczenie tej opcji umożliwi<lf>włączenie generowania klatek).</COLOR>
-<string>AMD FSR 3
-<string>Użyj AMD FSR 3.0.3.<lf><COLOR preset="TXT_Accent">(Jeśli opcja Planowanie przyspieszanego sprzętowo procesora GPU jest włączona w systemie operacyjnym,<lf>zaznaczenie tej opcji umożliwi<lf>włączenie generowania klatek).</COLOR>
+<string>Używa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Wymaga karty graficznej NVIDIA GeForce RTX.<lf>– Jeśli używasz karty z serii GeForce RTX40<lf>i opcja Planowanie przyspieszanego sprzętowo<lf>procesora GPU jest włączona w systemie<lf>operacyjnym, zaznaczenie tej opcji umożliwi<lf>włączenie generowania klatek.</COLOR>
+<string>AMD FSR
+<string>Używa <FSR>.<lf><COLOR preset="TXT_Accent">– Jeśli opcja Planowanie przyspieszanego<lf>sprzętowo procesora GPU jest włączona<lf>w systemie operacyjnym, wybór tej opcji<lf>umożliwi włączenie generowania klatek.</COLOR>
 <string>Intel XeSS
-<string>Użyj Intel XeSS 1.3.
+<string>Używa Intel <XESS>.
 <string>Wyłącz
-<string>Nie używaj ulepszania.
+<string>Nie używa upscalingu.
 <string>Generowanie klatek
-<string>Użyj technologii generowania klatek, aby zwiększyć liczbę klatek na sekundę w grze.<lf><COLOR preset="TXT_Accent">(Opcja dostępna tylko po spełnieniu określonych wymagań).</COLOR>
-<string>WŁ.
-<string>Włącz generowanie klatek, aby zwiększyć liczbę klatek na sekundę.<lf>Zaznaczenie tej opcji pozwoli na przekroczenie<lf>maksymalnej liczby klatek na sekundę ustawionej w opcji Wyświetlacz.
-<string>WYŁ.
-<string>Wyłącz to ustawienie.
+<string>Używa technologii generowania klatek, aby zwiększyć<lf>liczbę klatek na sekundę.<lf><COLOR preset="TXT_Accent">(Opcja dostępna tylko po spełnieniu określonych wymagań)</COLOR>
+<string>Włącz
+<string>Włącza generowanie klatek, aby zwiększyć liczbę<lf>klatek na sekundę. Zaznaczenie tej opcji może<lf>pozwolić na przekroczenie maksymalnej liczby<lf>klatek na sekundę ustawionej w opcjach Ekranu.
+<string>Wyłącz
+<string>Wyłącza to ustawienie.
 <string>Nie można włączyć <COLOR preset="TXT_Accent">generowania klatek</COLOR> (przy użyciu <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>przy obecnych ustawieniach ekranu.
 <string>Nie można włączyć <COLOR preset="TXT_Accent">generowania klatek</COLOR> (przy użyciu <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>przy obecnych ustawieniach ekranu.<lf>W związku z tym ustawienie automatycznie<lf>zmieniono na <BOLD>Wyłącz</BOLD>.
 <string>Generowanie klatek można włączyć ponownie,<lf>zmieniając ustawienia na Tryb okna. Jeśli natomiast<lf>jesteś w trybie okna bez ramki, zmień rozdzielczość<lf>na taką, która nie wyświetla żadnych czarnych ramek.
 <string>Tryb upscalingu
-<string>Dostosuj jakość grafiki używaną podczas ulepszania.<lf><COLOR preset="TXT_Accent">(Można to dostosować tylko wtedy, gdy opcja Ulepszanie jest włączona).</COLOR>
+<string>Dostosowuje jakość grafiki gdy używany jest upscaling.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling jest włączona)</COLOR>
 <string>NVIDIA DLAA
-<string>Użyj wygładzania krawędzi AI,<lf>zachowując natywną rozdzielczość.
+<string>Używa wygładzania krawędzi AI, zachowując<lf>natywną rozdzielczość.
 <string>AMD Native AA
-<string>Użyj wygładzania krawędzi FSR 3,<lf>zachowując natywną rozdzielczość.
+<string>Używa wygładzania krawędzi FSR, zachowując<lf>natywną rozdzielczość.
 <string>Intel XeSS Native AA
-<string>Używa wygładzania krawędzi XeSS,<lf>zachowując natywną rozdzielczość.
+<string>Używa wygładzania krawędzi XeSS, zachowując<lf>natywną rozdzielczość.
 <string>Jakość
-<string>Nadaj priorytet rozdzielczości ekranu nad liczbą klatek na sekundę.
+<string>Nadaje priorytet rozdzielczości ekranu<lf>nad liczbą klatek na sekundę.
 <string>Zrównoważony
-<string>Znajdź równowagę pomiędzy rozdzielczością i liczbą klatek na sekundę.
+<string>Znajduje równowagę pomiędzy rozdzielczością<lf>a liczbą klatek na sekundę.
 <string>Wydajność
-<string>Nadaj priorytet liczbie klatek na sekundę nad rozdzielczością ekranu.
+<string>Nadaje priorytet liczbie klatek na sekundę<lf>nad rozdzielczością ekranu.
 <string>Ultrawydajność
-<string>Nadaj jeszcze większy priorytet liczbie klatek na sekundę nad rozdzielczością ekranu.
-<string>WYŁ.
-<string>Opcja ta zostanie zaznaczona, jeżeli nie korzystasz z ulepszania.
+<string>Nadaje jeszcze większy priorytet liczbie klatek<lf>na sekundę nad rozdzielczością ekranu.
+<string>Wyłącz
+<string>Opcja ta zostanie zaznaczona, jeżeli<lf>nie korzystasz z trybów upscalingu.
 <string>Poprawa ostrości
-<string>Dostosuj poziom szczegółowości grafiki używany podczas ulepszania.<lf>Im wyższa liczba, tym większy poziom szczegółowości.<lf><COLOR preset="TXT_Accent">(Można to dostosować tylko wtedy, gdy opcja Ulepszanie jest włączona).</COLOR>
+<string>Dostosowuje poziom szczegółowości grafiki gdy używany<lf>jest upscaling. Im wyższa liczba, tym większa szczegółowość.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja AMD FSR jest włączona)</COLOR>
 <string>Wygładzanie krawędzi
-<string>Wybierz tryb wygładzania krawędzi.<lf><COLOR preset="TXT_Accent">(Można to dostosować tylko wtedy, gdy opcja Ulepszanie jest włączona).</COLOR>
+<string>Dostosowuje tryb wygładzania krawędzi.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling nie jest włączona)</COLOR>
 <string>FXAA + TAA
 <string>TAA
-<string>WYŁ.
+<string>Wyłącz
 <string>Skalowanie renderowania
-<string>Dostosuj procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Można to dostosować tylko wtedy, gdy opcja Ulepszanie nie jest włączona).</COLOR>
+<string>Dostosowuje procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling nie jest włączona)</COLOR>
 <string>Śledzenie promieni
-<string>Dostosuj jakość odbicia i załamania światła<lf>za pomocą technologii śledzenia promieni.
+<string>Dostosowuje jakość odbicia światła<lf>za pomocą technologii śledzenia promieni.
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Najniższa
-<string>Wył.
+<string>Wyłącz
+<string>CPU
+<string>GPU
 <string>Jakość tekstur
-<string>Dostosuj rozdzielczość tekstur dla obiektów.
-<string>Najwyższa (tekstury o wysokiej rozdzielczości)
-<string><COLOR preset="TXT_Accent">Można wybrać tę opcję, jeśli pobrano „High Resolution<lf>Texture Pack”. </COLOR>
-<string>Aby ustawić opcję Najwyższa (tekstury o wysokiej rozdzielczości), konieczne jest pobranie „High Resolution Texture<lf>Pack”.
+<string>Dostosowuje rozdzielczość tekstur dla obiektów.
+<string>Najwyższa (tekstury Hi-Res)
+<string><COLOR preset="TXT_Accent">Można wybrać to ustawienie, jeśli pobrano pakiet<lf>High Resolution Texture Pack. </COLOR>
+<string>Aby ustawić opcję Najwyższa (tekstury o wysokiej rozdzielczości),<lf>konieczne jest pobranie pakietu High Resolution Texture Pack.
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Najniższa
 <string>Jakość filtrowania tekstur
-<string>Dostosuj poziom szczegółowości tekstur obiektów.
+<string>Dostosowuje poziom szczegółowości tekstur obiektów.
 <string>Najwyższa (ANISO x16)
 <string>Wysoka (ANISO x8)
 <string>Średnia (ANISO x4)
 <string>Średnia (ANISO x2)
-<string>Niska (Trilinear)
-<string>Najniższa (Bilinear)
+<string>Niska (Trójliniowe)
+<string>Najniższa (Dwuliniowe)
 <string>Jakość siatki
-<string>Dostosuj jakość siatki wielokątów dla modeli 3D.
+<string>Dostosowuje jakość siatki wielokątów dla modeli 3D.
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
 <string>Jakość futra
-<string>Ustawia jakość obrazu dla futra<lf>wszystkich stworzeń, łącznie z koleżkotami.
+<string>Ustawia jakość obrazu dla futra wszystkich stworzeń, <lf>łącznie z koleżkotami.
 <string>Wysoka
 <string>Niska
-<string>Przesunięcie LOD
-<string>Dostosuj jakość modelu w grze w zależności od sytuacji.
-<string>Najwyższa
-<string>Wysoka
-<string>Średnia
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>Jakość chmur/nieba
-<string>Dostosuj jakość obrazu dla nieba i chmur.
+<string>Dostosowuje jakość obrazu dla nieba i chmur.
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Najniższa
 <string>Jakość drzew/trawy
-<string>Dostosuj jakość obrazu dla trawy i drzew.
+<string>Dostosowuje jakość obrazu dla trawy i drzew.
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Kołysanie się drzew/trawy
-<string>Określ, czy trawa i drzewa mają się kołysać.
-<string>WŁ.
-<string>Trawa i drzewa będą się kołysać.
-<string>WYŁ.
-<string>Trawa i drzewa nie będą się kołysać.
+<string>Określa, czy trawa i drzewa mają się kołysać.
+<string>Włącz
+<string>Włącza kołysanie się trawy i drzew.
+<string>Wyłącz
+<string>Wyłącza kołysanie się trawy i drzew.
 <string>Jakość symulacji wiatru
-<string>Ustawia precyzję symulowanych efektów<lf>wiatru dla obiektów w grze.
+<string>Ustawia precyzję symulowanych efektów wiatru<lf>dla obiektów w grze.
 <string>Wysoka
 <string>Niska
 <string>Jakość powierzchni
-<string>Ustawia jakość renderowania<lf>powierzchni terenu i obiektów<lf>geograficznych w pobliżu łowcy.
+<string>Ustawia jakość renderowania powierzchni terenu <lf>i obiektów geograficznych w pobliżu łowcy.
 <string>Wysoka
 <string>Niska
-<string>Jakość wody/śniegu/piasku
-<string>Dostosuj jakość obrazu dla piasku, śniegu, wody itp.
+<string>Jakość piasku/śniegu/wody
+<string>Dostosowuje jakość obrazu dla piasku, śniegu, wody<lf>i innych typów terenu.
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
@@ -861,9 +867,13 @@
 <string>Średnia
 <string>Niska
 <string>Odległość renderowania
-<string>Dostosuj liczbę graczy lub postaci wyświetlanych w lobby<lf>oraz odległość, z jakiej potwory i lokalna fauna<lf>są widoczne.
+<string>Dostosowuje liczbę graczy lub postaci wyświetlanych<lf>w lobby oraz odległość, z jakiej potwory i lokalna<lf>fauna będą pojawiać się w terenie.
+<string>Renderuje maksymalną liczbę obiektów<lf>niezależnie od odległości od łowcy.
+<string>Renderuje większość obiektów, łącznie z tymi<lf>daleko od łowcy.
+<string>Renderuje większość obiektów w średniej<lf>odległości od łowcy.
+<string>Zmniejsza obciążenie renderowania i wyświetla<lf>jedynie obiekty w bliskiej odległości od łowcy.
 <string>Jakość cieni
-<string>Dostosuj jakość cieni.
+<string>Dostosowuje jakość cieni.
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
@@ -874,80 +884,80 @@
 <string>Wysoka
 <string>Niska
 <string>Odległość cieni
-<string>Ustawia odległość (od łowcy), w jakiej<lf>obiekty w grze renderują cienie.
+<string>Ustawia odległość (od łowcy), w jakiej obiekty <lf>w grze renderują cienie.
 <string>Daleko
 <string>Średnio
 <string>Blisko
 <string>Jakość światła otoczenia
-<string>Ustawia jakość renderowania światła odbitego od odległych obiektów.
+<string>Ustawia jakość renderowania światła odbitego <lf>od odległych obiektów.
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Cienie kontaktowe
-<string>Określ, czy zezwolić na szczegółowe przedstawienie cieni.
-<string>WŁ.
-<string>WYŁ.
+<string>Określa, czy mają być wyświetlane szczegółowe cienie.
+<string>Włącz
+<string>Wyłącz
 <string>Okluzja otoczenia
-<string>Dostosuj jakość cieni w obszarach, w których oświetlenie jest słabe.
+<string>Dostosowuje jakość cieni w słabo oświetlonych obszarach.
 <string>Wysoka
 <string>Średnia
-<string>WYŁ.
+<string>Wyłącz
 <string>Poświata
-<string>Dostosuj moc rozmycia powodowanego przez jasne punkty.
+<string>Dostosowuje moc rozmycia powodowanego<lf>przez jasne punkty.
 <string>Wysoka
 <string>Niska
-<string>WYŁ.
+<string>Wyłącz
 <string>Rozmycie w ruchu
-<string>Określ, czy obszar wokół poruszających się obiektów ma być rozmyty,<lf>by podkreślić ich prędkość. Wyłączenie tej opcji może<lf>ograniczyć odczucia choroby lokomocyjnej.
-<string>WŁ.
-<string>WYŁ.
+<string>Określa, czy obszar wokół poruszających się obiektów<lf>ma być rozmyty, by podkreślić szybkość. Wyłączenie<lf>tej opcji może ograniczyć odczucia choroby lokomocyjnej.
+<string>Włącz
+<string>Wyłącz
 <string>Efekt winietowania
-<string>Określ, czy chcesz zwiększyć jasność wokół środka ekranu<lf>w celu przyciemnienia krawędzi.
-<string>WŁ.
-<string>WYŁ.
+<string>Określa, czy chcesz zwiększyć jasność wokół środka<lf>ekranu w celu przyciemnienia krawędzi.
+<string>Włącz
+<string>Wyłącz
 <string>Odbicia z przestrzeni ekranu
-<string>Określ, czy włączyć technikę renderowania<lf>wzmacniającą odbicia.
-<string>WŁ.
-<string>WYŁ.
+<string>Określa, czy włączyć technikę renderowania<lf>wzmacniającą odbicia. <COLOR preset="TXT_Accent">(Można dostosować tylko<lf>wtedy, gdy wyłączono opcję Śledzenie promieni).</COLOR>
+<string>Włącz
+<string>Wyłącz
 <string>Rozpraszanie SSSS
-<string>Screen Space Separable Subsurface Scattering.<lf>Określ, czy światło ma wpadać do obiektów,<lf>a następnie być z nich rozpraszane.
-<string>WŁ.
-<string>WYŁ.
+<string>Screen Space Separable Subsurface Scattering.<lf>Określa, czy światło ma wpadać do obiektów,<lf>a następnie być z nich rozpraszane.
+<string>Włącz
+<string>Wyłącz
 <string>Głębia ostrości
-<string>Określ, czy zmieniać ostrość (jasność) obiektów<lf>w zależności od odległości.
-<string>WŁ.
-<string>WYŁ.
+<string>Określa, czy zmieniać ostrość (jasność) obiektów<lf>w zależności od odległości.
+<string>Włącz
+<string>Wyłącz
 <string>Mgła wolumetryczna
-<string>Dostosuj jakość mgły wytwarzanej przez kurz i drobiny pyłu w powietrzu.<lf>Wpływa na sposób wyświetlania promieni słonecznych itp.
+<string>Dostosowuje jakość mgły wytwarzanej przez kurz<lf>i drobiny pyłu w powietrzu. Wpływa na sposób<lf>wyświetlania promieni światła itp.
 <string>Wysoka
 <string>Niska
 <string>Zmienny stopień cieniowania
-<string>Zmniejsza obciążenie efektów i renderowania modułów cieniujących<lf>przez mniej równomierne przetwarzanie modułów cieniujących pikseli.
-<string>WYŁ.
+<string>Zmniejsza obciążenie efektów i renderowania modułów<lf>cieniujących przez mniej równomierne przetwarzanie<lf>modułów cieniujących pikseli.
+<string>Wyłącz
 <string>Zrównoważony
-<string>Zagranie
+<string>Wydajność
 <string><PLATMSG MsgGUI030100_04_44>
 <string>Ustawienia wibracji kontrolera
 <string><PLATMSG MsgGUI030100_04_44_Help>
 <string>Włącza lub wyłącza wibracje kontrolera.
 <string><PLATMSG MsgGUI030100_04_44_00>
-<string>Wł.
+<string>Włącz
 <string><PLATMSG MsgGUI030100_04_44_00_Help>
 <string>Włącza wibracje kontrolera.
 <string><PLATMSG MsgGUI030100_04_44_01>
-<string>Wył.
+<string>Wyłącz
 <string><PLATMSG MsgGUI030100_04_44_01_Help>
 <string>Wyłącza wibracje kontrolera.
 <string>Wskaźniki obrażeń
-<string>Ustaw wyświetlanie wskaźników obrażeń.
-<string>Pokaż (z liczbami po przecinku)
-<string>Wyświetlaj liczby pokazujące obrażenia zadane<lf>potworom. <COLOR preset="TXT_Accent">(Włącznie z liczbami po przecinku)</COLOR>
-<string>Pokaż (tylko wartości całkowite)
-<string>Wyświetlaj liczby pokazujące obrażenia zadane<lf>potworom. <COLOR preset="TXT_Accent">(Tylko liczby całkowite)</COLOR>
-<string>Ukryj
-<string>Ukryj wskaźniki obrażeń.
-<string>Modyfikacja wyświetlacza HUD
-<string>Dostosuj rozmiar i zawartość HUD.
+<string>Określa, czy wyświetlać wskaźniki obrażeń.
+<string>Pokaż (z licz. po przecinku)
+<string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom. <COLOR preset="TXT_Accent">(Włącznie z liczbami po przecinku)</COLOR>
+<string>Pokaż (tylko wart. całkow.)
+<string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom. <COLOR preset="TXT_Accent">(Tylko liczby całkowite)</COLOR>
+<string>Nie wyświetlaj
+<string>Nie wyświetla liczby obrażeń.
+<string>HUD
+<string>Dostosowuje rozmiar i zawartość HUD.
 <string>Pasek zdrowia
 <string>Mały
 <string>Wyświetlany rozmiar jest mniejszy niż domyślny.
@@ -956,17 +966,17 @@
 <string>Duży
 <string>Wyświetlany rozmiar jest większy niż domyślny.
 <string>Ukryj
-<string>Pasek nie jest wyświetlany.
+<string>Nie wyświetla na ekranie.
 <string>Pasek wytrzymałości
-<string>Ostrość broni białej
+<string>Pasek ostrości broni białej
 <string>Informacje o broni
 <string>Informacje o grupie
-<string>Powiadomienia od świetlików
+<string>Powiadomienia świetlików zwiadowczych
 <string>Minimapa
 <string>Zegar środowiskowy
-<string>Cel
+<string>Ikona potwora stanowiącego cel
 <string>Przewodnik po sterowaniu
-<string>Cele
+<string>Cele misji
 <string>Powiadomienia czatu
 <string>Wyświetlanie procy
 <string>Pasek amunicji/powłok
@@ -976,119 +986,119 @@
 <string>Wyświetlanie nazwy: interakcje
 <string>Wyświetlanie imienia: postaci i koleżkoty
 <string>Obracanie minimapy
-<string>Ustaw, czy minimapa ma się obracać.
+<string>Określa, czy minimapa ma się obracać.
 <string>Obraca się
-<string>Minimapa obraca się zgodnie z kierunkiem kamery.
+<string>Minimapa obraca się zgodnie z kierunkiem<lf>kamery.
 <string>Zablokowane
-<string>Minimapa jest nieruchoma. Niezależnie od kamery,<lf>północ znajduje się zawsze na górze.
+<string>Minimapa jest nieruchoma. Niezależnie od<lf>kierunku kamery, północ minimapy zawsze<lf>jest na górze.
 <string>Nachylenie minimapy
-<string>Dostosuj ustawienia nachylenia minimapy.
+<string>Dostosowuje ustawienia nachylenia minimapy.
 <string>Stała, z góry
-<string>Minimapa przedstawia stały, płaski widok z góry,<lf>bez pochylenia.
+<string>Minimapa przedstawia stały, płaski widok<lf>z góry bez pochylenia.
 <string>Stała, nachylona
-<string>Minimapa przestawia widok pod stałym kątem<lf>i trójwymiarowy obraz.
+<string>Minimapa przedstawia stały, trójwymiarowy<lf>widok pod stałym kątem.
 <string>Dostosuj nachylenie do kamery
 <string>Minimapa przedstawia widok pod kątem<lf>zgodnym z orientacją kamery.
 <string>Rozmiar minimapy
-<string>Dostosuj rozmiar minimapy w różnych<lf>sytuacjach.
+<string>Dostosuj rozmiar minimapy w różnych sytuacjach.
 <string>Obozowiska
-<string>Ustaw rozmiar minimapy w miastach<lf>i bazach.
+<string>Ustaw rozmiar minimapy w miastach i bazach.
 <string>Mały
-<string>Wyświetlana minimapa będzie mniejsza niż zwykle.
+<string>Wyświetla minimapę w mniejszym rozmiarze.
 <string>Domyślnie
-<string>Wyświetlaj jak zwykle.
+<string>Wyświetla minimapę w domyślnym rozmiarze.
 <string>Duży
-<string>Wyświetlana minimapa będzie większa niż zwykle.
+<string>Wyświetla minimapę w większym rozmiarze.
 <string>Tryb celowania/skupienia
-<string>Ustaw rozmiar minimapy podczas<lf>celowania lub w trybie skupienia.
+<string>Ustaw rozmiar minimapy podczas celowania<lf>lub w trybie skupienia.
 <string>Walka (duże potwory)
-<string>Ustaw rozmiar minimapy podczas walki<lf>z dużymi potworami.
-<string>Przytrzymaj <ICON PL_ITEM_SLIDER_OPEN>
-<string>Ustaw rozmiar minimapy, przytrzymując <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Ustaw rozmiar minimapy podczas walki z dużymi<lf>potworami.
+<string>Trzymając <ICON PL_ITEM_SLIDER_OPEN>
+<string>Dostosowuje rozmiar minimapy podczas<lf>przytrzymywania <ICON PL_ITEM_SLIDER_OPEN>.
 <string>Skala minimapy
-<string>Dostosuj skalę minimapy<lf>w różnych sytuacjach.
+<string>Dostosuj skalę minimapy w różnych sytuacjach.
 <string>Obozowiska
-<string>Ustaw skalę minimapy<lf>w miastach i bazach.
+<string>Ustaw skalę minimapy w miastach i bazach.
 <string>Mały
-<string>Wyświetl minimapę w mniejszej skali.<lf><COLOR preset="TXT_Accent">(Minimapa przedstawia stosunkowo <lf>pomniejszony widok obszaru)</COLOR>
+<string>Wyświetla minimapę w mniejszej skali.<lf><COLOR preset="TXT_Accent">(Minimapa przedstawia stosunkowo<lf>pomniejszony widok obszaru)</COLOR>
 <string>Domyślnie
-<string>Wyświetl minimapę w domyślnym rozmiarze.<lf><COLOR preset="TXT_Accent">(Minimapa przedstawia ogólny widok obszaru)</COLOR>
+<string>Wyświetla minimapę w domyślnym rozmiarze.<lf><COLOR preset="TXT_Accent">(Minimapa przedstawia ogólny widok obszaru)</COLOR>
 <string>Duży
-<string>Wyświetl minimapę w dużej skali.<lf><COLOR preset="TXT_Accent">(Minimapa przedstawia stosunkowo<lf>powiększony widok obszaru)</COLOR>
+<string>Wyświetla minimapę w dużej skali.<lf><COLOR preset="TXT_Accent">(Minimapa przedstawia mocniej powiększony<lf>widok obszaru)</COLOR>
 <string>Tryb celowania/skupienia
-<string>Ustaw skalę minimapy<lf>w trybie celowania/skupienia.
+<string>Ustaw skalę minimapy w trybie celowania/skupienia.
 <string>Walka (duże potwory)
-<string>Ustaw skalę minimapy podczas walki<lf>z dużymi potworami.
-<string>Przytrzymaj <ICON PL_ITEM_SLIDER_OPEN>
-<string>Ustaw skalę minimapy, przytrzymując <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Ustaw skalę minimapy podczas walki z dużymi<lf>potworami.
+<string>Trzymając <ICON PL_ITEM_SLIDER_OPEN>
+<string>Dostosowuje skalę minimapy podczas<lf>przytrzymywania <ICON PL_ITEM_SLIDER_OPEN>.
 <string>Efekty trafień sojusznika
 <string>Ustaw wyświetlanie efektów trafień innych graczy.<lf><COLOR preset="TXT_Accent">(Ustawienie nie wpływa na efekty własne gracza)</COLOR>
-<string>Wł.
-<string>Włącz wyświetlanie efektów trafień innych graczy.
-<string>Wył.
-<string>Ukryj wyświetlanie efektów trafień innych graczy.
+<string>Wyświetlaj
+<string>Wyświetla efekty trafień innych graczy.
+<string>Nie wyświetlaj
+<string>Nie wyświetla efektów trafień innych graczy.
 <string>Efekty trafień kryt. sojusznika
-<string>Ustaw wyświetlanie efektów trafień krytycznych innych graczy. <lf><COLOR preset=""TXT_Accent"">(Ustawienie nie wpływa na efekty własne gracza)</COLOR>
-<string>Wł.
-<string>Pokazuj efekty trafień krytycznych innych graczy.
-<string>Wył.
-<string>Ukryj efekty trafień krytycznych innych graczy.
+<string>Ustaw wyświetlanie efektów trafień krytycznych <lf>innych graczy. <lf><COLOR preset="TXT_Accent">(Ustawienie nie wpływa na efekty własne gracza)</COLOR>
+<string>Wyświetlaj
+<string>Wyświetla efekty trafień krytycznych innych graczy.
+<string>Nie wyświetlaj
+<string>Nie wyświetla efektów trafień krytycznych<lf>innych graczy.
 <string>Efekty krwi
-<string>Ustaw wyświetlanie efektów krwi.
-<string>Wł.
-<string>Pokazuj efekty krwi.
-<string>Wył.
-<string>Ukryj efekty krwi.
+<string>Określa, czy wyświetlać efekty krwi.
+<string>Wyświetlaj
+<string>Wyświetla efekty krwi.
+<string>Nie wyświetlaj
+<string>Nie wyświetla efektów krwi.
 <string>HUD
 <string>Dostosuj ustawienia wyświetlania HUD.
 <string>Pasek zdrowia
-<string>Dostosuj ustawienia wyświetlania paska zdrowia.
+<string>Dostosowuje ustawienia wyświetlania paska zdrowia.
 <string>Zablokowany
-<string>Pasek zdrowia gracza będzie zawsze wyświetlany w całości.
+<string>Zawsze wyświetla cały pasek zdrowia łowcy.
 <string>Dynamiczny
-<string>Wyświetlaj domyślnie zminimalizowany pasek zdrowia.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
+<string>Wyświetla domyślnie zminimalizowany<lf>pasek zdrowia. Pasek zdrowia rozwija się<lf>do pełnego w niektórych sytuacjach.
 <string>Pasek wytrzymałości
-<string>Dostosuj ustawienia wyświetlania<lf>paska wytrzymałości.
+<string>Dostosowuje ustawienia wyświetlania<lf>paska wytrzymałości.
 <string>Zablokowany
-<string>Pasek wytrzymałości gracza będzie zawsze widoczny.
+<string>Zawsze wyświetla pasek wytrzymałości łowcy.
 <string>Dynamiczny
-<string>Wyświetlaj domyślnie zminimalizowany<lf>pasek wytrzymałości. Pasek rozwija się<lf>do pełnego w niektórych sytuacjach.
-<string>Wskaźnik ostrości
-<string>Dostosuj ustawienia wyświetlania<lf>wskaźnika ostrości.
+<string>Wyświetla domyślnie zminimalizowany pasek<lf>wytrzymałości. Pasek zdrowia rozwija się<lf>do pełnego w niektórych sytuacjach.
+<string>Pasek ostrości
+<string>Dostosowuje ustawienia wyświetlania paska ostrości.
 <string>Zablokowany
-<string>Wskaźnik ostrości gracza będzie zawsze widoczny.
+<string>Zawsze wyświetla pasek ostrości łowcy.
 <string>Dynamiczny
-<string>Wyświetlaj domyślnie zminimalizowany<lf>pasek ostrości. Pasek rozwija się<lf>do pełnego w niektórych sytuacjach.
+<string>Domyślnie wyświetla zminimalizowany<lf>pasek ostrości. Pasek rozwija się do pełnego<lf>w niektórych sytuacjach.
 <string>Pasek zdrowia towarzysza
-<string>Dostosuj ustawienia wyświetlania paska zdrowia<lf>koleżkota i innych towarzyszy.
+<string>Dostosowuje ustawienia wyświetlania paska<lf>zdrowia koleżkota i innych towarzyszy.
 <string>Zablokowany
-<string>Pasek zdrowia towarzysza będzie zawsze widoczny.
+<string>Zawsze wyświetla paski zdrowia koleżkota<lf>i innych towarzyszy.
 <string>Dynamiczny
-<string>Wyświetlaj domyślnie zminimalizowany<lf>pasek zdrowia twoich towarzyszy.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
+<string>Wyświetla domyślnie zminimalizowany<lf>pasek zdrowia koleżkota i innych towarzyszy.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
 <string>Okno czatu
-<string>Dostosuj ustawienia okna czatu<lf>po wysłaniu wiadomości.
+<string>Dostosowuje ustawienia okna komunikacji<lf>i dziennika czatu po wysłaniu wiadomości.
 <string>Zamknij okno
-<string>Zamknij okno czatu po wysłaniu wiadomości.
+<string>Zamyka okno komunikacji i dziennik czatu<lf>po wysłaniu wiadomości.
 <string>Pozostaw otwarte
-<string>Pozostaw okno czatu otwarte<lf>po wysłaniu wiadomości.
+<string>Pozostawia okno komunikacji i dziennik czatu<lf>otwarte po wysłaniu wiadomości.
 <string>Napisy
 <string>Dostosowuje, czy napisy są wyświetlane, gdy dźwięk<lf>związany z opowieścią wymaga dodatkowych informacji.
 <string>Wyświetlaj
-<string>Wyświetla napisy.<lf><COLOR preset="TXT_Accent">(Dotyczy tylko niektórych sytuacji).</COLOR>
+<string>Wyświetla napisy.<lf><COLOR preset="TXT_Accent">(Dotyczy tylko niektórych sytuacji)</COLOR>
 <string>Nie wyświetlaj
 <string>Nie wyświetla napisów.
 <string>Liczba samouczków
 <string>Dostosowuje liczbę wyświetlanych samouczków.
 <string>Wyświetl wszystkie
-<string>Wyświetla wszystkie samouczki. Polecane dla graczy,<lf>którzy chcą rozpocząć naukę od podstaw.
+<string>Wyświetla wszystkie samouczki. Zalecane dla graczy,<lf>którzy chcą nauczyć się podstaw.
 <string>Wyświetl wybrane
 <string>Wyświetla tylko standardowe komunikaty samouczka.<lf>Polecane dla doświadczonych graczy.
 <string>Powtarzaj samouczki
-<string>Dostosowuje, czy określone samouczki wyświetlają<lf>za każdym razem, kiedy zostaną spełnione<lf>warunki ich uruchomienia.
+<string>Dostosowuje, czy określone samouczki wyświetlają się<lf>za każdym razem, kiedy zostaną spełnione warunki<lf>ich uruchomienia.
 <string>Powtórz
 <string>Powtarza wiadomości samouczków za każdym razem,<lf>kiedy zostaną spełnione warunki ich uruchomienia.
 <string>Nie powtarzaj
-<string>Nie powtarza wiadomości samouczków.<lf><COLOR preset="TXT_Accent">(Niektóre wiadomości samouczków mogą wyświetlać się<lf>niezależnie od tego ustawienia).</COLOR>
+<string>Nie powtarza wiadomości samouczków.<lf><COLOR preset="TXT_Accent">(Niektóre wiadomości samouczków mogą wyświetlać się<lf>niezależnie od tego ustawienia)</COLOR>
 <string>Rozmiar tekstu w menu
 <string>Dopasowuje rozmiar tekstu w menu.
 <string>Mały
@@ -1100,13 +1110,13 @@
 <string>Rozmiar napisów
 <string>Dostosowuje rozmiar napisów.
 <string>Napisy przerywników
-<string>Dostosowuje wyświetlanie napisów w dialogach postaci.<lf><COLOR preset="TXT_Accent">(To ustawienie dotyczy tylko przerywników filmowych.<lf>Napisy poza przerywnikami filmowymi będą zawsze wyświetlane, niezależnie od tego ustawienia).</COLOR>
+<string>Określa, czy wyświetlać napisy dialogowe. <COLOR preset="TXT_Accent">(Tylko podczas<lf>przerywników filmowych. Napisy poza przerywnikami będą<lf>zawsze wyświetlane, niezależnie od tego ustawienia)</COLOR>
 <string>Wyświetlaj
-<string>Wyświetla napisy podczas przerywników filmowych.<lf><COLOR preset="TXT_Accent">(W niektórych przypadkach napisy mogą nie być dostępne dla krótkich wypowiedzi).</COLOR>
+<string>Napisy są wyświetlane podczas przerywników<lf>filmowych. <COLOR preset="TXT_Accent">(W niektórych przypadkach napisy<lf>mogą nie być dostępne dla krótkich wypowiedzi)</COLOR>
 <string>Nie wyświetlaj
-<string>Napisy nie są wyświetlane podczas przerywników filmowych.<lf><COLOR preset="TXT_Accent">(Nie można wyłączyć napisów poza przerywnikami filmowymi)</COLOR>
+<string>Napisy nie są wyświetlane podczas przerywników<lf>filmowych. <COLOR preset="TXT_Accent">(Nie można wyłączyć napisów poza<lf>przerywnikami filmowymi)</COLOR>
 <string>Tło za napisami
-<string>Dostosowuje, czy tła są wyświetlane za<lf>tekstem napisów, aby poprawić czytelność.
+<string>Dostosowuje, czy za tekstem napisów są<lf>wyświetlane tła, aby poprawić czytelność.
 <string>Wyświetlaj
 <string>Wyświetla tło za napisami.
 <string>Nie wyświetlaj
@@ -1117,127 +1127,127 @@
 <string>Wyświetla imiona postaci mówiących w przerywnikach.
 <string>Nie wyświetlaj
 <string>Nie wyświetla imion postaci mówiących w przerywnikach.
-<string>Imiona postaci mówiących (poza przerywnikami)
-<string>Dostosowuje, czy imiona mówiących postaci mają być<lf>wyświetlane w napisach niebędącymi przerywnikami.
+<string>Imiona mówiących (poza przerywnikami)
+<string>Dostosowuje, czy imiona mówiących postaci mają być<lf>wyświetlane w napisach poza przerywnikami.
 <string>Wyświetlaj
-<string>Wyświetla imiona postaci mówiących poza przerywnikami.
+<string>Wyświetla imiona postaci mówiących <lf>poza przerywnikami.
 <string>Nie wyświetlaj
-<string>Nie wyświetla imion postaci mówiących poza przerywnikami.
-<string>Ukryj Seikreta innego gracza
+<string>Nie wyświetla imion postaci mówiących <lf>poza przerywnikami.
+<string>Ukryj innego Seikreta
 <string>Ustaw, czy Seikrety inne niż twój mają być ukryte.<lf><COLOR preset="TXT_Accent">(Twój Seikret jest zawsze widoczny)</COLOR>
-<string>Wł.
-<string>Ukryj Seikrety innych graczy lub postaci<lf>pobocznych, gdy nie jeździsz.<lf><COLOR preset="TXT_Accent">(Będą nadal wyświetlane w szczególnych okolicznościach)
-<string>Wył.
-<string>Zawsze pokazuj Seikrety innych graczy lub<lf>postaci pobocznych, nawet gdy nie jeździsz.
-<string>Autoeksploracja Seikreta
-<string>Ustaw, czy twój Seikret automatycznie<lf>przejdzie w tryb autoeksploracji, gdy cel<lf>na mapie nie jest ustawiony.
-<string>Wł.
-<string>Seikret automatycznie przejdzie w tryb<lf>autoeksploracji, gdy cel<lf>na mapie nie jest ustawiony.
-<string>Wył.
-<string>Seikret nie przejdzie automatycznie w tryb<lf>autoeksploracji, nawet gdy cel na mapie<lf>jest ustawiony.
-<string>Rozgrywka międzyplatformowa
-<string>Dostosowuje możliwość gry w trybie<lf>wieloosobowym na różnych platformach.
 <string>Włącz
-<string>Włącza ustawienia rozgrywki międzyplatformowej,<lf>co umożliwia grę z użytkownikami różnych platform.<lf><lf>Nie będzie można brać udziału w rozgrywce<lf>międzyplatformowej z użytkownikami, którzy<lf>wyłączyli to ustawienie. Dodatkowo<lf>funkcjonalność oddziału będzie niedostępna<lf>dla oddziałów z wyłączonym ustawieniem.
+<string>Nie wyświetla Seikretów, z których zsiedli<lf>inni gracze lub łowcy wspierający.<lf><COLOR preset="TXT_Accent"> (W szczególnych okolicznościach Seikrety nadal<lf>będą wyświetlane)</COLOR>
 <string>Wyłącz
-<string>Wyłącza ustawienia rozgrywki międzyplatformowej,<lf>co umożliwia grę jedynie z użytkownikami<lf>tej samej platformy.<lf><lf>Nie będzie można brać udziału w grze<lf>z użytkownikami, którzy wyłączyli<lf>to ustawienie. Dodatkowo funkcjonalność<lf>oddziału będzie niedostępna dla oddziałów<lf>z włączonym ustawieniem.
+<string>Zawsze wyświetla Seikrety, z których zsiedli<lf>inni gracze lub łowcy wspierający.
+<string>Autoeksploracja Seikreta
+<string>Określa, czy twój Seikret automatycznie przejdzie<lf>w tryb autoeksploracji, gdy cel na mapie nie został<lf>ustawiony.
+<string>Włącz
+<string>Seikret automatycznie przejdzie w tryb<lf>autoeksploracji, gdy cel na mapie<lf>nie został ustawiony.
+<string>Wyłącz
+<string>Seikret nie przejdzie automatycznie w tryb<lf>autoeksploracji, nawet gdy cel na mapie<lf>nie został ustawiony.
+<string>Rozgrywka międzyplatformowa
+<string>Określa, czy gra wieloosobowa pomiędzy różnymi<lf>platformami jest możliwa.
+<string>Włącz
+<string>Włącza rozgrywkę międzyplatformową, co umożliwia<lf>grę z użytkownikami różnych platform.<lf><lf>Nie możesz brać udziału w rozgrywce<lf>międzyplatformowej z użytkownikami, którzy<lf>wyłączyli to ustawienie. Oprócz tego,<lf>funkcjonalność oddziału będzie niedostępna<lf>dla oddziałów z wyłączonym ustawieniem.
+<string>Wyłącz
+<string>Wyłącza rozgrywkę międzyplatformową, co umożliwia<lf>grę wyłącznie z użytkownikami tej samej platformy.<lf><lf>Nie możesz brać udziału w rozgrywce<lf>międzyplatformowej z użytkownikami, którzy<lf>wyłączyli to ustawienie. Oprócz tego,<lf>funkcjonalność oddziału będzie niedostępna<lf>dla oddziałów z wyłączonym ustawieniem.
 <string>Wystąpił błąd łączności.<lf>Ustawienia rozgrywki międzyplatformowej nie zostały zmienione.<lf>{0}
 <string>Wyświetlanie skrótu
-<string>Ustaw, czy nazwy skrótów klawiaturowych<lf>mają być wyświetlane w widoku rozwiniętym.
-<string>Pokaż wszystko
-<string>Pokazuj nazwy wszystkich wyświetlonych skrótów.
-<string>Pokaż wybrane
-<string>Pokazuj tylko nazwy skrótów przypisanych<lf>do aktualnie wybranego zestawu.
+<string>Określa, czy nazwy przedmiotów, zawołań itp.<lf>mają być wyświetlane w widoku skrótów klawiszowych,<lf>gdy wszystkie skróty są wyświetlane.
+<string>Wyświetl wszystko
+<string>Wyświetla nazwy przedmiotów, zawołania itp.<lf>we wszystkich wyświetlanych skrótach klawiszowych.
+<string>Wyświetl wybrane
+<string>Wyświetla nazwy przedmiotów, zawołania itp.<lf>tylko w aktualnie wybranym skrócie klawiszowym.
 <string>Widoczność broni
-<string>Ustaw, kiedy aktualnie noszona broń<lf>jest widoczna.
+<string>Ustaw, kiedy aktualnie noszona broń jest widoczna.
 <string>Pokaż
-<string>Broń łowcy jest zawsze widoczna.
+<string>Zawsze pokazuje broń łowcy.
 <string>Ukryj podczas przerywników
-<string>Broń łowcy jest niewidoczna podczas przerywników.<lf><COLOR preset="TXT_Accent">(Będzie nadal widoczna w szczególnych okolicznościach)</COLOR>
-<string>Widoczność hełmu
-<string>Ustaw, kiedy aktualnie noszony pancerz<lf>na głowę jest widoczny.
+<string>Broń łowcy jest niewidoczna podczas przerywników.<lf><COLOR preset="TXT_Accent">(Będzie nadal widoczna w szczególnych <lf>okolicznościach)</COLOR>
+<string>Widoczność osłony głowy
+<string>Określa, kiedy aktualnie noszona osłona głowy<lf>jest widoczna.
 <string>Pokaż
-<string>Hełm łowcy jest widoczny i pokazuje aktualne<lf>ustawienia wyposażenia i wyglądu.<lf><COLOR preset="TXT_Accent">(Będzie nadal ukryty w szczególnych okolicznościach)</COLOR>
+<string>Pokazuje osłonę głowy łowcy odzwierciedlającą<lf>aktualne ustawienia wyposażenia i wyglądu.<lf><COLOR preset="TXT_Accent">(W szczególnych okolicznościach osłona głowy<lf>nadal będzie ukryta)</COLOR>
 <string>Ukryj
-<string>Hełm łowcy jest ukryty niezależne od aktualnych<lf>ustawień wyposażenia i wyglądu.
+<string>Nie wyświetla osłony głowy łowcy, niezależnie<lf>od aktualnych ustawień wyposażenia i wyglądu.
 <string>Ukryj podczas przerywników
-<string>Hełm łowcy jest widoczny i pokazuje aktualne<lf>ustawienia wyposażenia i wyglądu,<lf>z wyjątkiem przerywników.
+<string>Z wyjątkiem przerywników, pokazuje osłonę<lf>głowy łowcy odzwierciedlającą aktualne<lf>ustawienia wyposażenia i wyglądu.
 <string>Ustawienia łowcy wspierającego
-<string>Ustaw akcje łowcy wspierającego<lf>i powiązane wskaźniki.
+<string>Dostosowuje akcje łowcy wspierającego<lf>i powiązane ustawienia.
 <string>Wyświetlanie obrażeń łowcy wspierającego
-<string>Ustawia, czy wyświetlać wskaźniki obrażeń,<lf>kiedy łowca wspierający atakuje potwora.
+<string>Określa, czy wyświetlać wskaźniki obrażeń,<lf>gdy łowca wspierający atakuje potwora.
 <string>Włącz
-<string>Wył.
-<string>Ataki wyrównujące łowcy wspierającego
-<string>Ustawia, czy łowca wspierający<lf>ma wykonywać na potworach<lf>ataki wyrównujące.
-<string>Pozwala łowcy wspierającemu wykonywać<lf>ataki wyrównujące.
-<string>Nie pozwala łowcy wspierającemu<lf>wykonywać ataków wyrównujących.
+<string>Wyłącz
+<string>Przełamujące ataki łowcy wspierającego
+<string>Określa, czy łowcy wspierający mogą przełamać<lf>ataki potwora.
+<string>Umożliwia łowcom wspierającym wykonywanie<lf>Przełamujących ataków.
+<string>Uniemożliwia łowcom wspierającym wykonywanie<lf>przełamujących ataków.
 <string>Starcie mocy łowcy wspierającego
-<string>Ustawia, czy łowca wspierający może<lf>przeprowadzać z potworami starcia mocy.
-<string>Łowca wspierający może przeprowadzać<lf>starcia mocy.
-<string>Łowca wspierający nie może przeprowadzać<lf>starć mocy.
+<string>Określa, czy łowcy wspierający mogą przeprowadzić<lf>Starcie mocy z potworami.
+<string>Umożliwia łowcom wspierającym przeprowadzenie<lf>Starcia mocy.
+<string>Uniemożliwia łowcom wspierającym<lf>przeprowadzenie Starcia mocy.
 <string>Wskakiwanie na potwory przez łowcę wspier.
-<string>Ustawia, czy łowca wspierający może<lf>wskakiwać na potwory.
-<string>Łowca wspierający może wskakiwać na potwory.
-<string>Łowca wspierający nie może wskakiwać na potwory.
+<string>Określa, czy łowcy wspierający mogą wskakiwać<lf>na potwory.
+<string>Umożliwia łowcom wspierającym wskakiwanie<lf>na potwory.
+<string>Uniemożliwia łowcom wspierającym wskakiwanie<lf>na potwory.
 <string>Proca łowcy wspierającego
-<string>Ustawia, czy łowca wspierający może<lf>używać procy.
-<string>Łowca wspierający może używać procy.
-<string>Łowca wspierający nie może używać procy.
-<string>Zastawianie pułapek przez łowcę wspierającego
-<string>Ustawia, czy łowca wspierający może<lf>zastawiać pułapki.
-<string>Łowca wspierający może zastawiać pułapki.
-<string>Łowca wspierający nie może zastawiać pułapek.
-<string>Widoczność zasłoniętego gracza
-<string>Funkcja wyświetlająca twoją postać jako przezroczystą sylwetkę,<lf>gdy zasłania ją potwór.
-<string>Wył.
-<string>Przezroczysta sylwetka nie będzie wyświetlana nawet wtedy,<lf>gdy potwór zasłania postać gracza.
+<string>Określa, czy łowcy wspierający mogą używać procy.
+<string>Umożliwia łowcom wspierającym używanie procy.
+<string>Uniemożliwia łowcom wspierającym używanie<lf>procy.
+<string>Zastawianie pułapek przez łowcę wspier.
+<string>Określa, czy łowcy wspierający mogą zastawiać pułapki.
+<string>Umożliwia łowcom wspierającym zastawianie<lf>pułapek.
+<string>Uniemożliwia łowcom wspierającym zastawianie<lf>pułapek.
+<string>Widoczność zasłoniętego łowcy
+<string>Wyświetla łowcę jako przezroczystą sylwetkę,<lf>gdy zasłania go potwór.
+<string>Wyłącz
+<string>Nie wyświetla łowcy jako przezroczystej sylwetki,<lf>gdy zasłania go potwór.
 <string>Typ 1
-<string>Pokaż sylwetkę z białym konturem,<lf>gdy potwór zasłania postać gracza.
+<string>Wyświetla sylwetkę z białym konturem,<lf>gdy łowcę zasłania potwór.
 <string>Typ 2
-<string>Pokaż sylwetkę z czarnym konturem,<lf>gdy potwór zasłania postać gracza.
+<string>Wyświetla sylwetkę z czarnym konturem,<lf>gdy łowcę zasłania potwór.
 <string>Typ 3
-<string>Pokaż sylwetkę z żółtym konturem,<lf>gdy potwór zasłania postać gracza.
+<string>Wyświetla sylwetkę z żółtym konturem,<lf>gdy łowcę zasłania potwór.
 <string>Typ 4
-<string>Pokaż sylwetkę z czerwonym konturem,<lf>gdy potwór zasłania postać gracza.
+<string>Wyświetla sylwetkę z czerwonym konturem,<lf>gdy łowcę zasłania potwór.
 <string>Typ 5
-<string>Pokaż sylwetkę z niebieskim konturem,<lf>gdy potwór zasłania postać gracza.
+<string>Wyświetla sylwetkę z niebieskim konturem,<lf>gdy łowcę zasłania potwór.
 <string>Zsynchronizowany zapis zdjęć
-<string>Dostosowuje, czy zdjęcia wykonane przy użyciu aparatu <lf>są zapisywane zarówno w zapisanych danych,  <lf>jak i w pamięci konsoli.
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>Synchronizuj
-<string>Zapisuje zdjęcia w zapisanych danych<lf>i w pamięci konsoli.
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>Nie synchronizuj
-<string>Zapisuje zdjęcia tylko w danych zapisu.
-<string>Anonimizuj imiona innych graczy
-<string>Dostosowuje, czy imiona innych graczy są wyświetlane anonimowo.
+<string>Zapisuje zdjęcia tylko w zapisanych danych.
+<string>Anonimowe imiona innych graczy
+<string>Dostosowuje, czy imiona innych graczy<lf>są wyświetlane anonimowo.
 <string>Imiona wszystkich graczy są anonimowe
-<string>Wyświetla anonimowe imiona wszystkich graczy<lf>poza twoim.<lf><COLOR preset="TXT_Accent">(Profile łowców nie są anonimowe).</COLOR>
+<string>Wyświetla anonimowe imiona wszystkich graczy<lf>poza twoim.<lf><COLOR preset="TXT_Accent">(Profile łowców nie są anonimowe)</COLOR>
 <string>Anonimowe imiona graczy spoza połączonej grupy
-<string>Wyświetla anonimowe imiona graczy, który<lf>nie są członkami twojej połączonej grupy.<lf><COLOR preset="TXT_Accent">(Profile łowców nie są anonimowe).</COLOR>
+<string>Wyświetla anonimowe imiona graczy, którzy<lf>nie są członkami twojej połączonej grupy.<lf><COLOR preset="TXT_Accent">(Profile łowców nie są anonimowe)</COLOR>
 <string>Wyświetlaj imiona graczy
-<string>Nie wyświetla anonimowych imion<lf>graczy (łącznie z twoim).
-<string>Ustawienia wskazówek gry na rogu łowieckim
-<string>Dostosowuje ustawienia wyświetlania<lf>wskazówek na rogu łowieckim.
+<string>Nie wyświetla anonimowych imion graczy<lf>(łącznie z twoim).
+<string>Ust. sterowania rogu łowieckiego
+<string>Dostosowuje ustawienia wyświetlania<lf>wskazówek dla rogu łowieckiego.
 <string>Typ 1
 <string>Wyświetla zwykłe wskazówki po schowaniu<lf>rogu łowieckiego i wyświetla listę efektów<lf>melodii po dobyciu rogu łowieckiego.
 <string>Typ 2
 <string>Wyświetla tylko listę efektów melodii,<lf>zwykłe wskazówki nie będą wyświetlane niezależnie<lf>od dobycia czy schowania rogu łowieckiego.
 <string>Typ 3
-<string>Wyświetla zwykłe wskazówki niezależnie<lf>od dobycia czy schowania rogu łowieckiego.<lf>Wyświetla listę efektów melodii<lf>tylko przy wciśnięciu i przytrzymaniu <ICON PL_ITEM_SLIDER_OPEN><lf>po dobyciu rogu łowieckiego.
+<string>Wyświetla zwykłe wskazówki niezależnie<lf>od dobycia czy schowania rogu łowieckiego.<lf>Wyświetla listę efektów melodii<lf>tylko przy przytrzymaniu <ICON PL_ITEM_SLIDER_OPEN> po dobyciu<lf>rogu łowieckiego.
 <string>Podstawowa głośność
-<string>Ustaw ogólną głośność.<lf><COLOR preset="TXT_Accent">(Nie wpływa na głośność komunikacji głosowej)</COLOR>
+<string>Dostosowuje ogólną głośność.<lf><COLOR preset="TXT_Accent">(Nie wpływa na głośność komunikacji głosowej)</COLOR>
 <string>Głośność głosów
-<string>Ustaw głośność głosów w grze.
-<string>Głośność głosów (wysyłanie zawołań automatycznych)
-<string>Ustawia głośność zawołań automatycznych.
-<string>Głośność głosów (otrzymywanie zawołań automatycznych)
-<string>Ustawia głośność głosu po otrzymaniu<lf>zawołań automatycznych.
+<string>Dostosowuje głośność głosów w grze.
+<string>Głoś. głosów (wysyłanie zaw. auto.)
+<string>Dostosowuje głośność głosów podczas wysyłania<lf>zawołań automatycznych.
+<string>Głoś. głosów (otrzym. zaw. auto.)
+<string>Dostosowuje głośność głosów podczas otrzymywania<lf>zawołań automatycznych.
 <string>Głośność muzyki
-<string>Ustaw głośność muzyki.
+<string>Dostosowuje głośność muzyki w tle.
 <string>Głośność efektów dźwiękowych
-<string>Ustaw głośność efektów dźwiękowych.
+<string>Dostosowuje głośność efektów dźwiękowych.
 <string>Miksowanie dźwięku
-<string>Wybierz używane urządzenie dźwiękowe<lf>dla optymalizacji dźwięku.
+<string>Ustawia urządzenie odtwarzające tak,<lf>aby zoptymalizować środowisko odsłuchowe.
 <string>Telewizor
 <string>Ustawienia dźwięku zoptymalizowane<lf>dla głośników telewizyjnych.
 <string>Telewizor (dźwięk 3D)
@@ -1249,89 +1259,94 @@
 <string>Głośniki (surround)
 <string>Ustawienia dźwięku zoptymalizowane<lf>dla głośników surround.
 <string>Soundbar
-<string>Ustawienia dźwięku zoptymalizowane<lf>dla soundbara.
+<string>Ustawienia dźwięku zoptymalizowane<lf>dla soundbarów.
 <string>Głośnik na szyję
 <string>Ustawienia dźwięku zoptymalizowane<lf>dla głośnika na szyję.
 <string>Tryb nocny
 <string>Ustawienia dźwięku zoptymalizowane<lf>dla odtwarzania przy niskim poziomie głośności.
 <string>Dźwięk mono
-<string>Włącz lub wyłącz tryb dźwięku mono.
-<string>Wł.
-<string>Dźwięk z gry jest odtwarzany w mono.<lf><COLOR preset="TXT_Accent">(Prawy i lewy głośnik odtwarzają<lf>ten sam dźwięk)</COLOR>
-<string>Wył.
-<string>Dźwięk z gry jest odtwarzany w stereo.
+<string>Włącza lub wyłącza tryb dźwięku mono.
+<string>Włącz
+<string>Odtwarza dźwięk z gry w trybie mono.<lf><COLOR preset="TXT_Accent">(Prawy i lewy głośnik odtwarzają ten sam dźwięk)</COLOR>
+<string>Wyłącz
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>Wyłącza tryb mono dla dźwięku z gry i<lf>odtwarza dźwięk zgodnie z ustawieniami<lf>wyjścia dźwięku systemu operacyjnego.
+<string>Wyjście dźwięku
+<string>Dostarcza informacje o wyjściu dźwięku.
 <string>Urządzenie dźwiękowe
-<string>Sprawdź informacje o urządzeniu dźwiękowym.
+<string>Dźwięk 3D
+<string>Włącz
+<string>Wyłącz
 <string>Komunikacja głosowa
-<string>Wybierz, czy używać komunikacji głosowej.
-<string>Wł.
+<string>Określa, czy używana jest komunikacja głosowa.
+<string>Włącz
 <string>Włącza komunikację głosową.
-<string>Wył.
+<string>Wyłącz
 <string>Wyłącza komunikację głosową.
-<string>Push-to-Talk
-<string>Komunikacja głosowa będzie aktywna tylko<lf>po wciśnięciu konkretnego przycisku.<lf><COLOR preset="TXT_Accent">(Funkcja dostępna tylko na klawiaturze)</COLOR>
+<string>Naciśnij i mów
+<string>Włącza komunikację głosową tylko<lf>po wciśnięciu konkretnego przycisku.<lf><COLOR preset="TXT_Accent">(Funkcja dostępna tylko na klawiaturze)</COLOR>
 <string>Głośność komunikacji głosowej
-<string>Ustaw głośność innych graczy<lf>w komunikacji głosowej.
-<string>Automatyczna zamiana kom. głosowej
-<string>Ustaw automatyczne przełączanie kanałów<lf>komunikacji głosowej w zależności od statusu zadania.<lf><COLOR preset="TXT_Accent">(Można przełączać ręcznie w dowolnym momencie)</COLOR>
-<string>Priorytet członków w zadaniu
-<string>Automatycznie przełączaj się na komunikację<lf>głosową z członkami w zadaniu przy rozpoczęciu zadania<lf>i połącz komunikację głosową z członkami<lf>po powrocie z zadania.
+<string>Ustaw głośność innych graczy w komunikacji głosowej.
+<string>Automatyczna zamiana kom. głos.
+<string>Określa, czy automatycznie przełączać kanały<lf>komunikacji głosowej w zależności od statusu zadania.<lf><COLOR preset="TXT_Accent">(Można przełączać ręcznie w każdej chwili)</COLOR>
+<string>Priorytet członków zadania
+<string>Automatycznie przełącza na komunikację głosową<lf>z członkami w zadaniu przy rozpoczęciu zadania<lf>i powraca do komunikacji głosowej z członkami<lf>grupy po powrocie z zadania.
 <string>Priorytet członków grupy
-<string>Automatycznie przełączaj się na komunikację głosową<lf>z członkami grupy przy dołączaniu do połączonej<lf>grupy niezależnie od statusu zadania.
-<string>Wył.
-<string>Nie przełączaj się automatycznie na komunikację głosową.<lf>Przełączenie trzeba wykonać ręcznie.
-<string>Język koleżkotów
-<string>Ustaw język, w jakim mówią koleżkoty.
+<string>Automatycznie przełącza na komunikację głosową<lf>z członkami grupy przy dołączaniu do wspólnej<lf>grupy, niezależnie od statusu zadania.
+<string>Brak priorytetu
+<string>Nie nadaje priorytetu ani nie przełącza<lf>automatycznie na komunikację głosową.<lf>Przełączenie trzeba wykonać ręcznie.
+<string>Język felinów
+<string>Dostosowuje język, w jakim mówią feliny.
 <string>Język feliński
-<string>Wszystkie głosy felinów, włącznie z twoim,<lf>zostaną ustawione na język feliński. <COLOR preset="TXT_Accent">(Wyłącza typ głosu<lf>wybrany w kreatorze postaci).</COLOR>
-<string>Ustawienia kreatora postaci
-<string>Wszystkie koleżkoty, włącznie z twoim,<lf>będą używać typu głosu wybranego w kreatorze postaci.
-<string>Ustawienia głosów (nieaktywne okno)
-<string>Dostosuj ustawienia odtwarzania głosów,<lf>kiedy okno gry jest nieaktywne.
-<string>Wł.
-<string>Odtwarzaj głosy, nawet jeśli okno jest nieaktywne.
-<string>Wył.
-<string>Nie odtwarzaj głosów, kiedy okno jest nieaktywne.
-<string>Ustawienia muzyki (nieaktywne okno)
-<string>Dostosuj ustawienia muzyki,<lf>kiedy okno gry jest nieaktywne.
-<string>Odtwarzaj muzykę, nawet jeśli okno jest nieaktywne.
-<string>Nie odtwarzaj muzyki, kiedy okno jest nieaktywne.
-<string>Ustawienia efektów dźwiękowych (nieaktywne okno)
-<string>Dostosuj ustawienia efektów dźwiękowych,<lf>kiedy okno gry jest nieaktywne.
-<string>Odtwarzaj efekty dźwiękowe, nawet jeśli okno<lf>jest nieaktywne.
-<string>Nie odtwarzaj efektów dźwiękowych, kiedy okno<lf>jest nieaktywne.
+<string>Dostosowuje wszystkie głosy felinów, włącznie<lf>z twoim koleżkotem, do języka felińskiego.<lf><COLOR preset="TXT_Accent">(To ustawienie można zmienić również podczas<lf>tworzenia postaci)</COLOR>
+<string>Użyj ustawionego głosu
+<string>Dostosowuje głosy wszystkich felinów, włącznie<lf>z twoim koleżkotem, do typu głosu ustawionego<lf>podczas tworzenia postaci.<lf><COLOR preset="TXT_Accent">(Język feliński nie będzie używany)</COLOR>
+<string>Odtwarzaj głosy (nieaktywne okno)
+<string>Dostosowuje ustawienia odtwarzania głosów,<lf>kiedy okno gry jest nieaktywne.
+<string>Włącz
+<string>Odtwarza głosy, nawet jeśli okno gry<lf>jest nieaktywne.
+<string>Wyłącz
+<string>Nie odtwarza głosów, jeśli okno gry<lf>jest nieaktywne.
+<string>Odtwarzaj muzykę (nieaktywne okno)
+<string>Dostosowuje ustawienia muzyki, kiedy okno gry<lf>jest nieaktywne.
+<string>Odtwarza muzykę, nawet jeśli okno gry<lf>jest nieaktywne.
+<string>Nie odtwarza muzyki, jeśli okno gry<lf>jest nieaktywne.
+<string>Odtw. efekty dźwiękowe (nieaktywne okno)
+<string>Dostosowuje ustawienia efektów dźwiękowych,<lf>kiedy okno gry jest nieaktywne.
+<string>Odtwarza efekty dźwiękowe, nawet jeśli okno<lf>gry jest nieaktywne.
+<string>Nie odtwarza efektów dźwiękowych, jeśli okno<lf>gry jest nieaktywne.
 <string>Tryb dla osób ze ślepotą barw
 <string>Dopasowuje niektóre kolory z uwagi na różnicę<lf>w rozpoznawaniu barw.
-<string>Trichromatyzm
+<string>Trichromatyzm (bez pomocy)
 <string>Protanopia
 <string>Deuteranopia
 <string>Tritanopia
 <string>Wsparcie przy arachnofobii
-<string>Dostosowuje wygląd wielonożnych potworów, jak<lf>pajęczaki i potwory owadopodobne, oraz lokalnej<lf>fauny. <COLOR preset="TXT_Accent">(Nie wpływa na ruchy stworzenia i trudność)</COLOR>
-<string>Wł.
-<string>Zmienia wygląd niektórych małych potworów<lf>i lokalnej fauny, by dostosować go do graczy<lf>z arachnofobią.
-<string>Wył.
-<string>Nie dostosowuje wyglądu małych potworów i lokalnej fauny<lf>przypominającej owady lub pająki.
+<string>Dostosowuje wygląd wielonożnych potworów, jak<lf>pajęczaki, potwory owadopodobne i lokalna<lf>fauna. <COLOR preset="TXT_Accent">(Nie wpływa na ruchy stworzenia i trudność).</COLOR>
+<string>Włącz
+<string>Dostosowuje wygląd niektórych małych potworów<lf>i lokalnej fauny, by dostosować grę do graczy<lf>z arachnofobią.
+<string>Wyłącz
+<string>Nie zmienia wyglądu małych potworów i lokalnej<lf>fauny przypominającej owady lub pająki.
 <string>Dostępność wizualna
-<string>Zmienia ustawienia na zalecane dla osób<lf>potrzebujących wsparcia wizualnego. Możesz zobaczyć<lf>szczegóły każdego ustawienia przed potwierdzeniem.
+<string>Dostosowuje ustawienia do zalecanych dla osób<lf>potrzebujących wsparcia wizualnego. Możesz zobaczyć<lf>szczegóły każdego ustawienia przed potwierdzeniem.
 <string>Zastosować zalecane ustawienia dostępności wizualnej?
 <string>Dostępność dźwiękowa
-<string>Zmienia ustawienia na zalecane dla osób<lf>potrzebujących wsparcia dźwiękowego. Możesz zobaczyć<lf>szczegóły każdego ustawienia przed potwierdzeniem.
+<string>Dostosowuje ustawienia do zalecanych dla osób<lf>potrzebujących wsparcia dźwiękowego. Możesz zobaczyć<lf>szczegóły każdego ustawienia przed potwierdzeniem.
 <string>Zastosować zalecane ustawienia dostępności dźwiękowej?
 <string>Zmniejszenie choroby lokomocyjnej
-<string>Zmienia ustawienia na zalecane dla zmniejszenia<lf>choroby lokomocyjnej. Możesz zobaczyć<lf>szczegóły każdego ustawienia przed potwierdzeniem.
+<string>Dostosowuje ustawienia do zalecanych dla zmniejszenia<lf>choroby lokomocyjnej. Możesz zobaczyć szczegóły<lf>każdego ustawienia przed potwierdzeniem.
 <string>Zastosować zalecane ustawienia<lf>zmniejszenia choroby lokomocyjnej?
 <string>Ustawienia automatyczne
-<string>Zmienia ustawienia tak, żeby dopasować<lf>je do twojego urządzenia.
-<string>Możesz dostosować rozmiar wyświetlacza HUD i tekstu,<lf>aby lepiej dopasować je do warunków gry. Wybierz opcję najbardziej odpowiadającą<lf>twoim obecnym warunkom gry, a ustawienia zostaną odpowiednio dostosowane.
+<string>Dostosowuje ustawienia tak, by dopasować je do twojego<lf>środowiska gry.
+<string>Dostosowuje rozmiar wyświetlacza HUD i tekstu, aby lepiej dopasować je<lf>do otoczenia gracza. Wybierz opcję najbardziej odpowiadającą twoim<lf>obecnym warunkom gry, a ustawienia zostaną odpowiednio dostosowane.
 <string>Ustawienia automatyczne: biurko
-<string>Automatycznie dostosowuje szeroki zakres warunków gry,<lf>które są optymalne dla środowiska gry przy biurku.
+<string>Automatycznie dostosowuje niektóre ustawienia,<lf>aby zoptymalizować wrażenia podczas gry przy biurku.
 <string>Zastosować ustawienia automatyczne: biurko?
 <string>Ustawienia automatyczne: salon
-<string>Automatycznie dostosowuje warunki gry<lf>przy zwiększonej odległości od ekranu,<lf>optymalnie dla środowiska gry w salonie.
+<string>Automatycznie dostosowuje niektóre ustawienia,<lf>aby zoptymalizować wrażenia podczas gry w salonie<lf>i w większej odległości od ekranu.
 <string>Zastosować ustawienia automatyczne: salon?
 <string>Język tekstu
-<string>Dostosowuje ustawienia języka tekstu.<lf><COLOR preset="TXT_Accent">(Zmiany zostaną odzwierciedlone<lf>po wyjściu z menu ustawień).</COLOR>
+<string>Dostosowuje ustawienia języka tekstu.<lf><COLOR preset="TXT_Accent">(Zmiany zostaną odzwierciedlone po wyjściu z menu<lf>ustawień)</COLOR>
 <string><REF RefLanguage_0000_000_0>
 <string><REF RefLanguage_0000_001_0>
 <string><REF RefLanguage_0000_002_0>
@@ -1347,7 +1362,7 @@
 <string><REF RefLanguage_0000_009_0>
 <string><REF RefLanguage_0000_012_0>
 <string>Język głosu
-<string>Ustawia język głosów.
+<string>Dostosowuje ustawienia języka głosu.
 <string><REF RefLanguage_0000_000>
 <string><REF RefLanguage_0000_001>
 <string><REF RefLanguage_0000_002>

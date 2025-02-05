@@ -95,7 +95,7 @@
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
-<string><REF Item_IT_182>
+<string>Throwing Knives
 <string><REF Item_IT_EXP_182>
 <string>
 <string><REF Item_IT_18>
@@ -106,7 +106,7 @@
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
-<string>A riding mount given to the Hunter by<lf>the people of Kunafa. It's able to use its<lf>impressive mobility to quickly traverse<lf>any terrain. If a way point is set on the<lf>map, it will automatically seek it out<lf>using its strong sense of smell.<lf><lf>While mounted, the Slinger and other<lf>items can be used, allowing you to<lf>recover health, sharpen your weapon,<lf>or gather items. The Seikret will also<lf>automatically dodge monster attacks<lf>under certain conditions.
+<string>A riding mount given to the Hunter by<lf>the people of Kunafa. It's able to use its<lf>impressive mobility to quickly traverse<lf>any terrain. If a waypoint is set on the<lf>map, it will automatically seek it out<lf>using its strong sense of smell.<lf><lf>While mounted, the Slinger and other<lf>items can be used, allowing you to<lf>recover health, sharpen your weapon,<lf>or gather items. The Seikret will also<lf>automatically dodge monster attacks<lf>under certain conditions.
 <string>
 <string><REF RefMenu_061> (Auto-move)
 <string><INPUTMSG MsgGUI600200_00_011>
@@ -124,7 +124,7 @@
 <string><ICON PL_PT_SPEED_UP>
 <string>
 <string><REF ActionGuideDataNameTextCommon_494062272> / <REF ActionGuideDataNameTextCommon_1827716096>
-<string><ICON PL_PT_SPEED_DOWN> / <ICON PL_PT_SPEED_DOWN> While in air
+<string><ICON PL_PT_SPEED_DOWN> / <ICON PL_PT_SPEED_DOWN> (Midair)
 <string>
 <string><REF ActionGuideDataNameTextCommon_m1476371200>
 <string><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON">
@@ -170,25 +170,22 @@
 <string>
 <string>Status Effects
 <string><ICON ST_POWER_UP> Attack Up
-<string>Increases attack.<lf><lf>Most commonly gained through:<lf>- Using items like Might Seeds and<lf>Demondrugs<lf>- Using the Hunting Horn's Melody Effects<lf>and Echo Bubble Effects
+<string>Increases attack.<lf><lf>Most commonly gained through:<lf>- Using items like Might Seeds and<lf>Demondrugs<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
 <string>
 <string><ICON ST_DEFECE_UP> Defense Up
-<string>Increases defense.<lf><lf>Most commonly gained through:<lf>- Using items like Adamant Seeds and<lf>Armorskins<lf>- Using the Hunting Horn's Melody Effects<lf>and Echo Bubble Effects
+<string>Increases defense.<lf><lf>Most commonly gained through:<lf>- Using items like Adamant Seeds and<lf>Armorskins<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Fire Resistance Up
-<string>Increases fire resistance and prevents<lf>fireblight.<lf><lf>Most commonly gained through:<lf>- Using the Hunting Horn's Melody Effects<lf>and Echo Bubble Effects
+<string>Increases fire resistance and prevents<lf>fireblight.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Self-Improvement
-<string>Increases movement speed.<lf><lf>Stacking this Melody Effect multiple<lf>times will increase your attack and<lf>prevent attacks from being deflected.<lf><lf>Most commonly gained through:<lf>- Using the Hunting Horn's Melody Effects<lf>and Echo Bubble Effects
-<string>
-<string><ICON ST_ARMOR> Knockback Negated
-<string>Prevents knockback from attacks.<lf><lf>Most commonly gained through:<lf>- Using the Hunting Horn's Melody Effects
+<string>Increases movement speed.<lf><lf>Stacking this Melody Effect multiple<lf>times will increase your attack and<lf>prevent attacks from being deflected.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
 <string>
 <string><ICON ST_MEAL_UP> Meal Effects
 <string>Indicates that effects have been<lf>gained from eating a meal.<lf><lf>Most commonly gained through:<lf>- Eating a meal
 <string>
 <string><ICON ST_POISON> Poison
-<string>A status that reduces your health over<lf>time. Occurs once enough of the status<lf>has been accumulated.<lf><lf>Most commonly cured through:<lf>- Using an Antidote or Herbal<lf>Medicine<lf>- Waiting for the effect to wear off
+<string>A status that reduces your health over<lf>time. Occurs once enough of the status<lf>has been accumulated.<lf><lf>Most commonly cured through:<lf>- Using an antidote or herbal<lf>medicine<lf>- Waiting for the effect to wear off
 <string>
 <string><ICON ST_PARALYSIS> Paralysis
 <string><INPUTMSG MsgGUI600200_00_020>
@@ -201,19 +198,19 @@
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
 <string><ICON ST_FIRE> Fireblight
-<string>A status that depletes your health over<lf>time.<lf><lf>Most commonly cured through:<lf>- Using a Nulberry<lf>- Evading in a body of water<lf>- Waiting for the effect to wear off
+<string>A status that depletes your health over<lf>time.<lf><lf>Most commonly cured through:<lf>- Using a nulberry<lf>- Dodging multiple times in a body<lf>of water<lf>- Waiting for the effect to wear off
 <string>
 <string><ICON ST_WATER> Waterblight
-<string>A status that decreases Stamina recovery<lf>speed.<lf><lf>Most commonly cured through:<lf>- Using a Nulberry<lf>- Evading multiple times<lf>- Waiting for the effect to wear off
+<string>A status that decreases stamina recovery<lf>speed.<lf><lf>Most commonly cured through:<lf>- Using a nulberry<lf>- Dodging multiple times<lf>- Waiting for the effect to wear off
 <string>
 <string><ICON ST_THUNDER> Thunderblight
-<string>A status that makes it more likely for<lf>you to be stunned.<lf><lf>Most commonly cured through:<lf>- Using a Nulberry<lf>- Evading multiple times<lf>- Waiting for the effect to wear off
+<string>A status that makes it more likely for<lf>you to be stunned.<lf><lf>Most commonly cured through:<lf>- Using a nulberry<lf>- Dodging multiple times<lf>- Waiting for the effect to wear off
 <string>
 <string><ICON ST_ICE> Iceblight
-<string>A status that increases stamina depletion.<lf><lf>Most commonly cured through:<lf>- Using a Nulberry<lf>- Evading multiple times<lf>- Waiting for the effect to wear off
+<string>A status that increases stamina depletion.<lf><lf>Most commonly cured through:<lf>- Using a nulberry<lf>- Dodging multiple times<lf>- Waiting for the effect to wear off
 <string>
 <string><ICON ST_DRUGON> Dragonblight
-<string>A status that negates the elemental<lf>properties of your weapon.<lf><lf>Most commonly cured through:<lf>- Using a Nulberry<lf>- Evading multiple times<lf>- Waiting for the effect to wear off
+<string>A status that negates the elemental<lf>properties of your weapon.<lf><lf>Most commonly cured through:<lf>- Using a nulberry<lf>- Dodging multiple times<lf>- Waiting for the effect to wear off
 <string>
 <string>Tremor
 <string>A status that restricts your movement.<lf>The length of the restriction will change<lf>with the strength of the tremor.<lf><lf>Most commonly cured through:<lf>- Waiting for the effect to wear off<lf>- Being hit by an attack
@@ -237,7 +234,7 @@
 <string><INPUTMSG MsgGUI600200_00_042>
 <string>
 <string>Drawn State
-<string>The state in which you are able to wield<lf>your weapon.<lf><lf>Press <ICON PL_WEAPON_OFF> to sheathe your weapon.<lf><lf>Detailed controls for each weapon can<lf>be found here:<lf>- Start Menu > Play Guide > Weapon Controls
+<string>The state in which you are able to wield<lf>your weapon.<lf><lf>Press <ICON PL_WEAPON_OFF> to sheathe your weapon.<lf><lf>Detailed controls for each weapon can<lf>be found here:<lf>- Start Menu → Play Guide → Weapon<lf>Controls
 <string>
 <string>Sheathe Weapon
 <string><ICON PL_WEAPON_OFF>
@@ -246,7 +243,7 @@
 <string>When using a melee weapon, a gauge<lf>will display representing its sharpness.<lf>Different colors will indicate the current<lf>state of your weapon's sharpness and its<lf>ability to penetrate through a monster's<lf>hide.<lf><lf>Attacking will gradually reduce sharpness.<lf>Dull weapon attacks are less effective and<lf>more likely to bounce off a monster's hide. 
 <string>
 <string><REF Item_IT_21>
-<string>Whetstones are items that restore lost<lf>weapon sharpness. They are always<lf>available as Fixed Items in your Item Bar.<lf><lf>They can be used even when your weapon<lf>is drawn if you assign them to the Custom<lf>Radial Menu or a Shortcut.
+<string>A Whetstone is an item that restores lost<lf>weapon sharpness. It is always available<lf>as an Essential Item in your Item Bar.<lf><lf>It can be used even when your weapon<lf>is drawn if you assign it to the Custom<lf>Radial Menu or a Shortcut.
 <string>
 <string>Focus Mode
 <string>Focus Mode
@@ -254,7 +251,7 @@
 <string>
 <string>Focus Mode
 <string><ICON ME PL_AIM> With Weapon Drawn
-<string>To use Focus Mode, hold <ICON ME PL_AIM> when your<lf>weapon is drawn.<lf> <lf>When focusing, you will attack or guard in<lf>the direction the camera is aiming. Some<lf>attacks will change by aiming upwards.<lf><lf>Press <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> with your weapon drawn,<lf>to perform a Focus Strike. Landing an attack<lf>on a wound or weak point will initiate an<lf>additional special attack, dealing massive<lf>damage.
+<string>To use Focus Mode, hold <ICON ME PL_AIM> when your<lf>weapon is drawn.<lf> <lf>In Focus Mode, you will attack or guard in<lf>the direction the camera is aiming. Some<lf>attacks will change by aiming upwards.<lf><lf>Press <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> with your weapon drawn,<lf>to perform a Focus Strike. Landing an<lf>attack on a wound or weak point will<lf>initiate an additional special attack,<lf>dealing massive damage.
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -269,29 +266,29 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>When blocking certain attacks, a struggle<lf>between the Hunter and monster<lf>will occur.<lf><lf>Press <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> to push the monster back<lf>and knock it off balance, giving<lf>you an opening to attack.
+<string>When blocking certain attacks,<lf>a struggle between the Hunter and<lf>monster will occur.<lf><lf>Press <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> repeatedly to push the<lf>monster back and knock it off<lf>balance, giving you an opening<lf>to attack.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>You can trigger an Offset Attack by using<lf>certain attacks as a monsters is attacking<lf>to repel it.<lf><lf>Additionally, there are powerful attacks<lf>that can be used after an Offset Attack.
+<string>You can trigger an Offset Attack<lf>by using certain moves right when<lf>a monster is attacking to repel it,<lf>potentially knocking it back.<lf><lf>If your Offset Attack does knock<lf>a monster back, you can follow up<lf>with a variety of powerful attacks.
 <string>
 <string>Sneak Attack
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>Specialized Tools are equipment with<lf>powerful abilities. They can be used<lf>like other Fixed Items, even while<lf>your weapon is drawn.<lf><lf>Specialized Tools can be used more<lf>than once, but have a cool-down period.<lf><lf>In addition to the Ghillie Mantle, other<lf>mantles can be equipped from the<lf>Change Equipment menu. Select one<lf>from the Item Bar and press <ICON PL_WP_ON_ACTIVE_SKILL> to use it.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
-<string>The Ghillie Mantle can be used to hide<lf>from monsters temporarily. Attacking<lf>or taking damage will end the effect<lf>regardless of how much time remains.<lf><lf>Unlike other Specialized Tools, the<lf>Ghillie Mantle acts as Fixed Item that<lf>you always carry with you.
+<string>The Ghillie Mantle can be used to hide<lf>from monsters temporarily. Attacking<lf>or taking damage will end the effect<lf>regardless of how much time remains.<lf><lf>Unlike other Specialized Tools, the<lf>Ghillie Mantle acts as an Essential Item<lf>that you always carry with you.
 <string>
 <string>Hunting Tips
 <string>Mounting
 <string>Dealing enough damage to a monster<lf>while mounted on it will topple it.<lf><lf>You will be flung off the monster if<lf>your stamina runs out while mounted.<lf><lf>You can also wound the monster while<lf>mounted. Each weapon can perform a<lf>unique attack while targeting a wound,<lf>so be sure to try to inflict as many<lf>wounds as possible.
 <string>
-<string>Jump Attacks
+<string>Jumping Attacks
 <string><ICON PL_ATTACK_00> While Jumping
-<string>Hitting a monster with enough jump attacks<lf>will eventually lead to mounting it.
+<string>Hitting a monster with enough jumping<lf>attacks will eventually lead to mounting it.
 <string>
 <string>Mounted Attack: <REF ActionGuideDataNameTextCommon_m1593213696>
 <string><INPUTMSG MsgGUI600200_00_036>
@@ -318,19 +315,19 @@
 <string>Dismounting allows you to jump off<lf>of a mounted monster early.
 <string>
 <string><REF RefStatus_0008_002_02>
-<string>Poison causes a monster to gradually<lf>lose health. You can inflict a monster<lf>with poison by dealing poison attacks<lf>which will slowly chip away at its initial<lf>resistance. The damage inflicted and<lf>the duration of the effect lasts differs<lf>between monsters. A monster's<lf>resistance threshold will increase each<lf>time the ailment is inflicted, making it<lf>more and more difficult to inflict the<lf>monster with poison.
+<string>Poison causes a monster to gradually<lf>lose health. You can inflict a monster<lf>with poison by landing a certain number<lf>of poison attacks. The damage inflicted <lf>and the duration of the effect differs<lf>between monsters. A monster's resistance<lf>threshold will increase each time the<lf>ailment is inflicted, making it more<lf>and more difficult to inflict the monster<lf>with poison.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string>Paralysis will prevent a monster from<lf>being able to move temporarily. You<lf>can inflict a monster with paralysis by<lf>dealing paralytic attacks which will<lf>slowly chip away at its initial resistance.<lf>A monster will build up resistance if it<lf>is afflicted too many times, which also<lf>shortens the duration of the effect.
+<string>Paralysis temporarily immobilizes<lf>a monster. You can inflict a monster<lf>with paralysis by landing a certain<lf>number of paralytic attacks.<lf>A monster's resistance threshold<lf>will increase each time the ailment<lf>is inflicted, which also shortens the<lf>duration of the effect.
 <string>
 <string>Sleep
-<string>If a monster is put to sleep, it will<lf>temporarily be unable to move. You<lf>can put a monster to sleep by dealing<lf>sleep damage which will slowly chip<lf>away at its initial resistance. A monster<lf>will build up resistance if it is afflicted<lf>too many times, which also shortens<lf>the duration of the effect.
+<string>Sleep temporarily immobilizes a monster.<lf>The first attack on a sleeping monster<lf>will deal increased damage. You can put<lf>a monster to sleep by landing a certain<lf>number of sleep attacks. A monster's<lf>resistance threshold will increase each<lf>time the ailment is inflicted, which also<lf>shortens the duration of the effect.
 <string>
 <string>Stun
-<string>Stunned monsters will be temporarily<lf>unable to move. You can stun a monster<lf>by dealing blunt damage to specific<lf>parts of its body, such as its head.<lf>A monster will build up resistance if it<lf>is afflicted too many times, shortening<lf>the duration of the effect.
+<string>Stun temporarily immobilizes a monster.<lf>You can stun a monster by dealing blunt<lf>damage to specific parts of its body,<lf>such as its head. A monster's resistance<lf>threshold will increase each time the<lf>ailment is inflicted, which also shortens<lf>the duration of the effect.
 <string>
-<string>Flinch
-<string>When monsters are frightened, it will<lf>cause them to flinch, which also<lf>lowers their stamina. You can cause<lf>a monster to flinch by repeatedly<lf>dealing blunt damage.
+<string>Exhaust
+<string>When monsters are low on stamina,<lf>they will become exhausted.<lf>Repeatedly dealing blunt damage<lf>will force monsters into this state.
 <string>
 <string>Sonicblight
 <string>A state in which a monster panics in<lf>response to a loud noise. Inflicted<lf>by hitting certain monsters with<lf>a Screamer Pod during specific<lf>actions, such as burrowing into sand.<lf>The monster will gain resistance if it<lf>has been afflicted too many times.
@@ -341,8 +338,8 @@
 <string>Stench
 <string>A status where a monster is drenched<lf>in an awful stench. You can inflict a<lf>monster with stench by using Dung<lf>Pods, forcing it to flee.
 <string>
-<string>Monster Weak Spots
-<string>A monster's weak spot may be exposed<lf>before or after one of its attacks. You<lf>can find these weak spots using Focus<lf>Mode.<lf><lf>Attacking a weak spot using a Focus<lf>Strike will create a large opening<lf>for attacks.
+<string>Monster Weak Points
+<string>A monster's weak point may be exposed<lf>before or after one of its attacks. You<lf>can find these weak points using Focus<lf>Mode.<lf><lf>Attacking a weak point using a Focus<lf>Strike will create a large opening<lf>for attacks.
 <string>
 <string>Wounds
 <string>By attacking a monster continuously<lf>in one spot, you can open up a Wound.<lf>There are three levels to a Wound:<lf>a Tear, then an Open Wound after<lf>further attacks, and finally a Scar<lf>after the Wound is destroyed.<lf><lf>Attacking a Wound will increase damage,<lf>and landing a Focus Strike will destroy<lf>the Wound in one go.
@@ -351,7 +348,7 @@
 <string>Weakened monsters can be captured<lf>with traps or Tranq Bombs. You cannot<lf>carve materials from captured monsters.<lf><lf>Capturing monsters is encouraged by<lf>the Guild, as it allows them to research<lf>a monster without hunting it. Because<lf>of this, hunters are rewarded with<lf>materials that are difficult or impossible<lf>to obtain by carving.
 <string>
 <string>Weakening a Monster
-<string>To capture a monster, you must first<lf>weaken it to a certain point.<lf><lf>After it is weakened, use Pitfall Traps<lf>or Shock Traps to snare it, then use<lf>capture items such as Tranq Bombs<lf>to restrain it even further.<lf><lf>Once properly restrained and asleep,<lf>the capture is complete.
+<string>To capture a monster, you must first<lf>weaken it to a certain point.<lf><lf>After it is weakened, use pitfall traps<lf>or shock traps to snare it, then use<lf>capture items such as tranq bombs<lf>to restrain it even further.<lf><lf>Once properly restrained and asleep,<lf>the capture is complete.
 <string>
 <string>Snaring a Monster
 <string>

@@ -20,12 +20,8 @@
 <string><REF Item_IT_EXP_116>
 <string><REF Item_IT_115>
 <string><REF Item_IT_EXP_115>
-<string><REF Item_IT_118>
-<string><REF Item_IT_EXP_118>
 <string><REF Item_IT_117>
 <string><REF Item_IT_EXP_117>
-<string><REF Item_IT_127>
-<string><REF Item_IT_EXP_127>
 <string><REF Item_IT_7>
 <string><REF Item_IT_EXP_7>
 <string>모래후추 열매
@@ -108,7 +104,7 @@
 <string>큰 모래 구덩이
 <string><REF EnemyText_NAME_EM0151_00_0>가 도사리는 곳.<lf>대형 몬스터의 진입으로 큰 모래 구덩이를 형성한다.<lf>휘말린 대상을 지하로 끌어들이기도 한다.
 <string>모래 구덩이
-<string><REF EnemyText_NAME_EM0151_00_0>가 만들어낸 모래 구덩이.<lf>안에 들어온 자의 움직임을 모래의 흐름으로 둔화시킨다.
+<string><REF EnemyText_NAME_EM0151_00_0>가 만들어낸 모래 구덩이.<lf>안에 들어온 자의 움직임을<lf>모래의 흐름으로 둔화시킨다.
 <string>낙뢰 다발 지점
 <string>낙뢰가 자주 관측되는 지점.<lf>모래 폭풍의 영향을 강하게 받아<lf>높은 빈도로 낙뢰가 발생한다.
 <string>흡뢰암
@@ -124,21 +120,6 @@
 <string>천장에서 튀어나온 흡뢰암의 일부.<lf>충격을 주면 떨어뜨릴 수 있다. 떨어진 파편에는<lf>방전 효과가 있어, 슬링어 탄으로 이용할 수 있다.
 <string>넝쿨 함정
 <string>무성한 넝쿨 덩어리. 충격을 주면 낙하해<lf>대형 몬스터를 잠시 행동할 수 없게 만드는<lf>천연의 함정.
-<string>떨어진 체모
-<string>물어뜯긴 흔적
-<string>침 흘린 흔적
-<string>벗겨져 떨어진 전정 조각
-<string>뱉어낸 점액
-<string>잠복 흔적
-<string>할퀸 흔적
-<string>창뢰정 조각
-<string>점액
-<string>광물 조각
-<string>포식 흔적
-<string>포식 흔적
-<string>포식 흔적
-<string>점액
-<string>대변
 <string>뼈무덤
 <string>뼈 소재를 채취할 수 있는 장소.
 <string>뼈무덤
@@ -147,24 +128,13 @@
 <string>뼈 소재를 채취할 수 있는 장소.
 <string>뼈무덤
 <string>뼈 소재를 채취할 수 있는 장소.
-<string>찢어발기는 손톱 조각
-<string>끈적끈적한 돌조각
-<string>벗겨져 떨어진 창뢰정 조각
-<string>단단한 두석 조각
 <string>사체에 자란 버섯
 <string>특별한 특산품을 채취할 수 있는 장소.
 <string><REF Item_IT_17>
 <string><REF Item_IT_69>
 <string><REF Item_IT_52>
-<string><REF Item_IT_155>
-<string><REF Item_IT_189>
-<string><REF Item_IT_71>
-<string><REF Item_IT_467>
-<string><REF Item_IT_468>
 <string>앉기
 <string>{0} 텐트
-<string>마이 텐트
-<string>새 부대 멤버용 텐트.<lf>아이템 준비와 장비 변경 등을 할 수 있다.
 <string>임시 캠프
 <string>사냥에 필요한 자재가 갖춰진 임시 캠프.<lf>장비 변경과 아이템 정리 등을 할 수 있다.<lf><ICON UI_DECIDE>을 누르면 패스트 트래블을 할 수 있다.
 <string><REF Item_IT_15>
@@ -189,10 +159,6 @@
 <string>육식 몬스터를 유인하는 덫.<lf>몬스터에게 먹이면 마비 상태가 된다.
 <string><REF Item_IT_186>
 <string>육식 몬스터를 유인하는 덫.<lf>몬스터에게 먹이면 수면 상태가 된다.
-<string><REF RefStatus_0000_SP_007>
-<string>동반자 아이루가 설치한 향. 환경생물인 회복<lf>꿀벌레를 불러들이는 효과가 있다.<lf>시간이 지나 향이 다 타면 효과가 끝난다.
-<string><REF RefStatus_0000_SP_008>
-<string>동반자 아이루가 설치한 벌레장.<lf>섬광 날개벌레가 들어 있어 충격을 주면<lf>강렬하게 발광해 몬스터의 눈을 잠시 멀게 한다.
 <string><REF RefEnvironment_0004_0001>
 <string>조사대가 설치한 거점. 각 시설에서<lf>퀘스트와 탐색 준비를 할 수 있다.
 <string><REF RefEnvironment_0004_0000>
@@ -225,9 +191,3 @@
 <string><REF RefEnvironment_TentTips_Caution>
 <string>구역8 남서부
 <string><REF RefEnvironment_TentTips_Danger>
-<string><REF RefEnvironment_9999_0000>로
-<string>강을 따라 이어지는 길.<lf>인접한 다른 지역으로 이동할 수 있다.
-<string>수련장 입구
-<string><REF RefEnvironment_0004_0001>에서 이어진 길.<lf>앞으로 가면 <REF RefEnvironment_0001_0002>에 갈 수 있다.
-<string>수련장 출구
-<string><REF RefEnvironment_0001_0002>에서 이어진 길.<lf>앞으로 가면<REF RefEnvironment_0004_0001>에 갈 수 있다.

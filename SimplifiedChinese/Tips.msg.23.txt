@@ -15,7 +15,7 @@
 <string>速射模式
 <string>在速射模式可以消耗能量，<lf>以一发特定弹药连续射击。
 <string>练气槽的颜色
-<string>用气刃大回旋斩等特定攻击命中怪物时，<lf>练气槽颜色会改变，攻击力也会随之提高。
+<string>用气刃大回旋斩等特定的攻击命中怪物时，<lf>练气槽颜色会改变，攻击力也会随之提高。
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -41,9 +41,9 @@
 <string>剥取
 <string>按<ICON PL_POP>可从讨伐的怪物身上剥取素材。
 <string>收起武器追上去
-<string>与怪物相距较远时，用<ICON PL_WEAPON_OFF>收起武器，<lf>然后用<ICON PL_DASH>冲刺追上去吧。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>补充道具
-<string>力尽倒下时，会收到追加的补给品。<lf>可通过<ICON PL_ACCESS_ITEM_BAG>查看具体内容。
+<string><REF MsgGUI600000_Tips_EXP_40>
 <string>仔细观察怪物的动作
 <string>怪物攻击前会有预兆。<lf>仔细观察怪物的动作，及时应对吧。
 <string>束缚怪物
@@ -67,7 +67,7 @@
 <string>原野地图
 <string>按<ICON PL_MAP_CHANGE>可以打开地图。<lf>用地图来确认目的地吧。
 <string>选择和使用道具
-<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>或<ICON UI_ITEM_RIGHT>：选择道具<lf>放开<ICON PL_ITEM_SLIDER_OPEN>后按<ICON PL_ITEM>：使用道具
+<string><REF MsgGUI600000_Tips_EXP_63>
 <string>回收补给品
 <string>补给品专用道具会在任务结束时被回收。
 <string>简易营地的备选地
@@ -95,19 +95,15 @@
 <string>在沙丘上狩猎
 <string>沙丘的地面非常不稳定。<lf>受到巨大冲击时可能会崩塌并困住猎人。
 <string><REF Gimmick_NAME_m2034503552>
-<string>蹲下躲进大片草丛，不容易被怪物发现。
+<string>在进入怪物的视野之前，蹲下躲进大片草丛，<lf>就不容易被怪物发现。
 <string><REF Gimmick_NAME_32>
 <string>用钩索投射器等施加冲击便可击落岩石。
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>受到冲击时会喷射出瓦斯，怪物碰<lf>到后会麻痹。
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>受到冲击时会将蜜汁飞撒到周围。<lf>在它附近可以回复体力。
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>受到冲击时会将蜜汁飞撒到周围。<lf>在它附近可以大幅回复体力。
 <string><REF EnemyText_NAME_EM5003_00_0>
-<string>受到冲击会发出强烈的闪光。<lf>可在怪物的眼前爆炸，使其头晕目眩。
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>可将它们滚动的粪便装填到投射器，用作投<lf>射器异臭弹。
+<string>受到冲击时会发出强烈的闪光。<lf>怪物的眼前迸发时，可使其头晕目眩。
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>可用手摘取背部的蓑衣，摄取后能回复体力。
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -126,19 +122,19 @@
 <string><REF MsgGUI600000_Tips_EXP_120>
 <string>麻痹
 <string><REF MsgGUI600000_Tips_EXP_121>
-<string>火属性异常状态
+<string>火属性异常
 <string>体力会随时间推移逐渐减少。<lf>反复做回避动作，或使用打消果实解除吧。
-<string>水属性异常状态
+<string>水属性异常
 <string>消耗的耐力会变得难以回复。<lf>反复做回避动作，或使用打消果实解除吧。
-<string>雷属性异常状态
+<string>雷属性异常
 <string>受到攻击时会更容易昏厥。<lf>反复做回避动作，或使用打消果实解除吧。
-<string>冰属性异常状态
+<string>冰属性异常
 <string>耐力的消耗量会增加。<lf>反复做回避动作，或使用打消果实解除吧。
-<string>龙属性异常状态
+<string>龙属性异常
 <string>武器的属性会失效。<lf>反复做回避动作，或使用打消果实解除吧。
 <string>架盾【属性强化】
-<string>消耗瓶使防御性能在一定时间内提升。<lf>斧模式的攻击也会变强。
-<string>三段突刺和反击突刺
+<string>消耗瓶使格挡性能在一定时间内提升。<lf>斧模式的攻击也会变强。
+<string>三段突刺和蓄力反击
 <string>可在中段突刺Ⅲ及上段突刺Ⅲ后衍生，<lf>用作第4段攻击。
 <string>积蓄斩击槽
 <string>斧模式下，攻击命中即可高效地回复斩击槽。
@@ -178,8 +174,8 @@
 <string>若要发射集中特效弹【射雕】，就先等待弹<lf>药自动回复吧。
 <string>等待弹药自动回复
 <string>若要发射集中特效弹【龙吼】，就先等待弹<lf>药自动回复吧。
-<string>小心剑击能量蓄积过多
-<string>积蓄的剑击能量可以充填到瓶中使用。<lf>但若积蓄过多，攻击会被弹开。
+<string>攻击被弹开时就充能吧
+<string>若剑击能量积蓄过多，攻击会被弹开。<lf>此时可以按<ICON WP09 PL_ATTACK_00>或<ICON WP09 PL_ATTACK_01>充能。
 <string>保持射击的最佳距离
 <string>瞄准线为橙色时的距离就是最佳距离。<lf>尽量保持这个距离，打出高伤害吧。
 <string>瞄准伤口攻击
@@ -189,8 +185,8 @@
 <string>吃烤熟的肉吧
 <string>出发去狩猎前，先吃烤熟的肉提升体力和<lf>耐力上限吧。
 <string>用餐吧
-<string>餐点效果结束了。<lf>再次用餐提升各种状态吧。
+<string>使用便携营火炉来用餐，提升各种状态吧。
 <string>切换武器
-<string>用<ICON PL_WEAPON_CHANGE>切换主武器与副武器
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>体力回复
 <string>体力减少时就用“回复药”回复吧

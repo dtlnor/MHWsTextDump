@@ -2,7 +2,7 @@
 <string>헌터 이름을 입력합니다.<lf><lf><COLOR preset="TXT_Accent">표시 가능한 글자 수는 10자까지입니다.</COLOR>
 <string>{0}<lf>결정하시겠습니까?
 <string>동반자 아이루의 이름을 입력합니다.<lf><lf><COLOR preset="TXT_Accent">표시 가능한 글자 수는 10자까지입니다.</COLOR>
-<string>튜토리얼 표시 수준을 선택하십시오.(이 설정은<lf>옵션에서 언제든지 변경할 수 있습니다.)<lf><COLOR preset="TXT_Accent">기초부터 표시</COLOR>: 기초부터 배우고 싶은 분에게 추천<lf><COLOR preset="TXT_Accent">경험자용 표시</COLOR>: 시리즈 경험자에게 추천
+<string>튜토리얼 표시 수준을 선택하십시오.(이 설정은<lf>옵션에서 언제든지 변경할 수 있습니다.)<lf><lf><LEFT>　　<COLOR preset="TXT_Accent">기초부터 표시</COLOR>: 기초부터 배우고 싶은 분에게 추천</LEFT><lf><LEFT>　　<COLOR preset="TXT_Accent">경험자용 표시</COLOR>: 시리즈 경험자에게 추천</LEFT>
 <string>기초부터 표시
 <string>경험자용 표시
 <string>일부 튜토리얼의 반복 표시 여부를<lf>선택하십시오.<lf><lf>(이 설정은 시작 메뉴의 옵션에서 <lf> 언제든지 변경할 수 있습니다.)
@@ -230,7 +230,7 @@
 <string>모델 프리셋
 <string>(세부 설정)
 <string>아이루어 사용하기
-<string>다른 유저도 포함한 동반자 아이루의 음성이 모두 아이루어가 됩니다.(이 설정은 옵션에서도 변경할 수 있습니다.)
+<string>다른 유저도 포함한 동반자 아이루의 음성이 모두 아이루어가 됩니다.<COLOR preset="TXT_Accent">(이 설정은 옵션에서도 변경할 수 있습니다.)</COLOR>
 <string>음성
 <string>음성 높낮이
 <string>목소리 높낮이를 변경하면 알아듣기 힘들어질 수 있습니다.
@@ -348,8 +348,8 @@
 <string>대미지
 <string>동반자 아이루 표정 샘플
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> 조명 회전 조작
-<string><ICON UI_LIST_TRIGGER_L2> or <ICON UI_LIST_TRIGGER_R2> 조명 회전 조작
+<string><ICON PAD PL_DUMMY_MOVE> 조명 회전 조작
+<string><ICON MKB UI_LIST_TRIGGER_L2> or <ICON MKB UI_LIST_TRIGGER_R2> 조명 회전 조작
 <string>UI 표시 끄기
 <string>레시피: 헌터
 <string>레시피: 동반자 아이루
@@ -372,7 +372,7 @@
 <string>이름을 변경할 수 있습니다.
 <string>헌터 이름을 변경합니다.<lf><COLOR preset="TXT_Accent">일부 콘텐츠에서는 변경 내용이 반영되기까지<lf>시간이 걸리거나 반영되지 않을 수 있습니다.</COLOR>
 <string>편집 내용을 모두 취소하고 종료합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(사냥꾼의 차림새 티켓은 소비되지 않습니다.)</COLOR>
-<string>변경 사항을 반영합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(일반 차림새 변경으로 변경할 수 있는 내용이라<lf>사냥꾼의 차림새 티켓은 소비되지 않습니다.)</COLOR>
+<string>변경 사항을 반영합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(일반 차림새 변경으로 변경할 수 있는 내용이므로<lf>사냥꾼의 차림새 티켓은 소비되지 않습니다.)</COLOR>
 <string>변경 사항을 반영합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(사냥꾼의 차림새 티켓을 1장 소비합니다.)</COLOR>
 <string>헌터 편집을 종료합니다.
 <string>동반자 아이루 편집
@@ -380,7 +380,7 @@
 <string>이름을 변경할 수 있습니다.
 <string>동반자 아이루 이름을 변경합니다.<lf><COLOR preset="TXT_Accent">일부 콘텐츠에서는 변경 내용이 반영되기까지<lf>시간이 걸리거나 반영되지 않을 수 있습니다.</COLOR>
 <string>편집 내용을 모두 취소하고 종료합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(동반자의 차림새 티켓은 소비되지 않습니다.)</COLOR>
-<string>변경 사항을 반영합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(일반 차림새 변경으로 변경할 수 있는 내용이라<lf>사냥꾼의 차림새 티켓은 소비되지 않습니다.)</COLOR>
+<string>변경 사항을 반영합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(일반 차림새 변경으로 변경할 수 있는 내용이므로<lf>동반자의 차림새 티켓은 소비되지 않습니다.)</COLOR>
 <string>변경 사항을 반영합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(동반자의 차림새 티켓을 1장 소비합니다.)</COLOR>
 <string>동반자 아이루 편집을 종료합니다.
 <string>얼굴 자동 생성

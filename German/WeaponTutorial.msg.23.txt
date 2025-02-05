@@ -1,7 +1,7 @@
 ﻿<string><ICON WP00 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp00_m1673173760>
 <string><ICON WP_GREATSWORD> Großschwert
-<string>Dieser Überkopf-Angriff muss nicht<lf>aufgeladen werden.<lf><lf>Ein Aufgeladener Hieb kann in einen<lf>Seitenhieb übergehen, indem du die<lf>folgenden Aktionen ausführst:<lf><lf>Aufgeladener Hieb > Standhaft ><lf>Seitenhieb
+<string>Dieser Überkopf-Angriff muss nicht<lf>aufgeladen werden.<lf>Ein Überkopfhieb kann aufgeladen<lf>werden, um ihn in weitere Combos<lf>überzuleiten.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m1156222080>
@@ -15,15 +15,15 @@
 <string>
 <string><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_225253952>
-<string>Ein weitreichender Hiebangriff.<lf><lf>Du kannst mit Standhaft in den Weiten<lf>Sprunghieb übergehen und vom Starken<lf>Aufgeladenen Hieb in den Starken<lf>Weiten Hieb.
+<string>Ein weitreichender Hiebangriff.<lf><lf>Du kannst mit einem Rempler in den<lf>Weiten Sprunghieb übergehen und<lf>vom Starken Aufgeladenen Hieb in den<lf>Starken Weiten Hieb.
 <string>
 <string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_146633456>
-<string>Ein Hiebangriff, der hohe Ziele<lf>erreichen kann.
+<string>Ein Hiebangriff, der hohe, schwer zu<lf>erreichende Teile eines Monsters<lf>erreichen kann.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">, dann <ICON RELEASE> nach dem Aufladen.
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>Ein Aufwärtshieb, der Angriffe von<lf>Monstern zurückstoßen kann.<lf><lf>Nach einem erfolgreichen Gegenstoß<lf>mit perfektem Timing (dein Angriff<lf>trifft genau im Moment des Angriffs<lf>durch das Monster) kannst du einen<lf>Nachfolge-Kreuzhieb ausführen.
+<string>Ein Aufwärtshieb, der Monsterangriffe<lf>abwehren kann.<lf><lf>Wenn du einen Aufwärtshieb auflädst<lf>und ihn entfesselst, wenn ein Monster<lf>angreift, und du es zurückstößt, kannst<lf>du mit <ICON WP00 PL_ATTACK_00> einen Kreuzhieb ausführen.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
@@ -33,7 +33,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>Ein ausladender Angriff, der effektiv<lf>gegen Wunden ist. Triffst du eine<lf>Wunde oder einen Schwachpunkt eines<lf>Monsters, richtest du mehrfach großen<lf>Schaden an.<lf><lf>Drücke während des Angriffs <ICON WP00 PL_ATTACK_SP_B>, um einen<lf>Todesstoß-Angriff auszuführen.
+<string>Ein ausladender Angriff, der effektiv<lf>gegen Wunden ist. Triffst du eine<lf>Wunde oder einen Schwachpunkt eines<lf>Monsters, richtest du mehrfach großen<lf>Schaden an.<lf><lf>Drücke während des Angriffs <ICON WP00 PL_ATTACK_SP_B>, um den<lf>Angriff vorzeitig zu beenden.
 <string>
 <string>Wahrer-Aufgeladener-Hieb-Combo
 <string><REF ActionGuideDataNameText_Wp00_276684864>
@@ -75,10 +75,10 @@
 <string><REF ActionGuideDataNameText_Wp00_146633456>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
-<string>Mit diesem Standardangriff kannst du<lf>eine einfache Combo ausführen:<lf><lf>Drücke <ICON WP03 PL_ATTACK_00> um einen Überkopfhieb<lf>auszuführen, dann ein zweites Mal,<lf>um einen Überkopfhieb II auszuführen –<lf>und schließlich erneut <ICON WP03 PL_ATTACK_00> für einen<lf>Halbmondhieb.<lf><lf>Alle Angriffe werden verstärkt, wenn<lf>der Elanbalken rot wird.
+<string>Mit diesem Standardangriff kannst du<lf>eine einfache Combo ausführen:<lf><lf>Drücke <ICON WP03 PL_ATTACK_00>, um einen Überkopfhieb<lf>auszuführen. Drücke die Taste erneut<lf>für einen weiteren Überkopfhieb –<lf>und schließlich ein drittes Mal <ICON WP03 PL_ATTACK_00><lf>für einen Halbmondhieb.<lf><lf>Alle Angriffe sind verstärkt, wenn der<lf>Elanbalken rot ist.
 <string>
 <string><ICON WP03 PL_ATTACK_01>
-<string>Drücke nach einem Stoß <ICON WP03 PL_ATTACK_01> , um einen<lf>Aufwärtshieb auszuführen.
+<string>Drücke <ICON WP03 PL_ATTACK_01> nach einem Stoß, um den Auf-<lf>wärtshieb auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_1048614016>
 <string><ICON WP03 PL_ATTACK_SP>
@@ -87,23 +87,23 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>Ein Elan-Aufladen füllt den Elanbalken<lf>und ermöglicht es dir, einen Elan-<lf>klingenangriff zu entfesseln. Die Stufe<lf>des Elanklingenangriffs hängt davon ab,<lf>wie lange du auflädst.<lf><lf>Wenn du den Balken vollständig auf-<lf>lädst, kannst du einen Elan-Rundhieb<lf>ausführen. Ist der Elanbalken rot, bist<lf>du immun gegen Angriffe, die dich zurück-<lf>stoßen oder durch die Luft schleudern,<lf>bis der Rundhieb abgeschlossen ist.
+<string>Ein Elan-Aufladen füllt den Elanbalken<lf>und ermöglicht es dir, einen Elan-<lf>klingenangriff zu entfesseln. Die Stufe<lf>des Elanklingenangriffs hängt davon<lf>ab, wie lange du auflädst.<lf><lf>Wenn du den Balken vollständig auf-<lf>lädst, kannst du einen Elan-Rundhieb<lf>ausführen. Ist der Balken rot, wirst<lf>du von Angriffen nicht zurückgestoßen<lf>oder hochgeworfen, bis der<lf>Rundhieb abgeschlossen ist.
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
 <string>Ein Hiebangriff, der während einer<lf>Rückwärtsbewegung ausgeführt wird.<lf><lf>Nutze <ICON WP03 PL_MOVE_LEFT> oder <ICON WP03 PL_MOVE_RIGHT>, um den Hieb in<lf>eine andere Richtung auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_m37508024>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> bei Combos
-<string>Ein Angriff mit langem Unverwundbar-<lf>keitszeitraum, der während einer Combo<lf>verwendet werden kann.<lf><lf>Verbraucht zwar den Elanbalken, füllt<lf>ihn bei einem Treffer nach erfolgreichem<lf>Ausweichen aber vollständig wieder auf.<lf><lf>Drücke <ICON WP03 PL_ATTACK_SP>, um einen Elan-Rundhieb<lf>folgen zu lassen.<lf><lf>Die Wirkung verringert sich bei leerem<lf>Elanbalken. Bei rotem Elanbalken<lf>kannst du mit Weitsicht-Wirbelhieb<lf>anschließen.
+<string>Der Weitsicht-Hieb mit langem Unver-<lf>wundbarkeitszeitraum kann während einer<lf>Combo verwendet werden.<lf><lf>Weitsicht-Hiebe leeren den gesamten Elan-<lf>balken, füllen ihn aber bei einem Treffer<lf>nach erfolgreichem Ausweichen vollstän-<lf>dig wieder auf. Drücke <ICON WP03 PL_ATTACK_SP>, um einen Elan-<lf>Rundhieb folgen zu lassen. Der Effekt<lf>verringert sich bei leerem Elanbalken,<lf>aber bei rotem Elanbalken kannst du den<lf>Weitsicht-Wirbelhieb folgen lassen.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1048171072>
-<string>Dieser Angriff verringert bei einem<lf>Treffer den Elanbalken um eine Stufe<lf>(wenn der Balken weiß ist), kann aber<lf>in den Elan-Helmbrecher übergehen.<lf><lf>Bei rotem Elanbalken kann der Elan-<lf>Helmbrecher in den Elan-Entfesselhieb<lf>übergehen.<lf><lf>Der Elan-Helmbrecher kann mit <ICON WP03 PL_WEAPON_OFF> abge-<lf>brochen werden.
+<string>Der Elan-Stoß verringert bei einem<lf>Treffer den Elanbalken um eine Stufe<lf>(wenn der Balken mindestens weiß ist),<lf>kann aber in den Elan-Helmbrecher<lf>übergehen.<lf><lf>Bei rotem Elanbalken kann der Elan-<lf>Helmbrecher in den Elan-Entfesselhieb<lf>übergehen.<lf><lf>Der Elan-Helmbrecher kann mit <ICON WP03 PL_WEAPON_OFF><lf>abgebrochen werden.
 <string>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> nach dem Angriff
 <string><REF ActionGuideDataNameText_Wp03_m1559988736>
-<string>Eine spezielle Aktion, mit der die<lf>Waffe weggesteckt wird.<lf><lf>Nach einer Spezialscheide kannst du <ICON WP03 PL_ATTACK_00><lf>für den Iai-Hieb oder <ICON WP03 PL_ATTACK_SP> für den Iai-<lf>Elanhieb drücken.<lf><lf>Durch den Iai-Hieb füllt sich dein<lf>Elanbalken vorübergehend automatisch.<lf>Führst du den Iai-Elanhieb bei einem<lf>Monsterangriff rechtzeitig aus, steigt<lf>dein Elanbalken um eine Stufe.
+<string>Eine spezielle Aktion, mit der die<lf>Waffe weggesteckt wird.<lf><lf>Nach der Spezialscheide kannst du <ICON WP03 PL_ATTACK_00><lf>für den Iai-Hieb oder <ICON WP03 PL_ATTACK_SP> für den Iai-<lf>Elanhieb drücken.<lf><lf>Durch den Iai-Hieb füllt sich dein<lf>Elanbalken vorübergehend automatisch.<lf>Führst du den Iai-Elanhieb bei einem<lf>Monsterangriff rechtzeitig aus, steigt<lf>dein Elanbalken um eine Stufe.
 <string>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1506281344>
@@ -116,7 +116,7 @@
 <string><INPUTMSG MsgGUI600200_01_003>
 <string><INPUTMSG MsgGUI600200_01_003_01>
 <string><REF ActionGuideDataNameText_Wp03_m1592986112>
-<string>Lande Treffer, um den Elanbalken zu<lf>füllen. Elanklingenangriffe verbrau-<lf>chen den Balken; Elan-Rundhiebe oder<lf>Fokusangriffe erhöhen ihn um eine<lf>Stufe.<lf><lf>Ändert der Balken seine Farbe zu Rot,<lf>ist er maximiert, wodurch einige<lf>Angriffe verstärkt werden und du<lf>Zugriff auf verheerende Zusatzangriffe<lf>erhältst. Elan-Rundhiebe oder Drehende<lf>Karmesinhiebe verlängern die Zeit, die<lf>der Balken rot bleibt.
+<string>Angriffstreffer füllen den Elanbalken.<lf>Elanklingen-Angriffe verbrauchen den<lf>Balken; erfolgreiche Elan-Rundhiebe<lf>oder Fokusangriffe erhöhen ihn um<lf>eine Stufe.<lf><lf>Ändert der Balken seine Farbe zu Rot,<lf>ist er maximiert, wodurch einige<lf>Angriffe verstärkt werden und du<lf>Zugriff auf verheerende Zusatzangriffe<lf>erhältst. Elan-Rundhiebe oder Drehende<lf>Karmesinhiebe verlängern die Zeit, die<lf>der Balken rot bleibt.
 <string>
 <string>Combo: Elanbalken schnell aufladen
 <string><ICON WP03 PL_ATTACK_00>
@@ -178,11 +178,11 @@
 <string><INPUTMSG MsgGUI600200_01_005_01>
 <string><REF ActionGuideDataNameTextCommon_962978240>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
-<string>Ein vorwärtsschreitender Aufwärtshieb.<lf>Führst du einen Fortschreitenden Hieb<lf>bergauf oder in Richtung eines Vor-<lf>sprungs aus, wird ein geländeabhängi-<lf>ger Angriff ausgeführt.
+<string>Ein vorwärtsschreitender Aufwärtshieb.<lf>Führst du einen Fortschreitenden Hieb<lf>bergab oder in Richtung eines Vor-<lf>sprungs aus, wird ein geländeabhängi-<lf>ger Angriff ausgeführt.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m669292416>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> bei Combos
-<string>Ein weitreichender Angriff, bei dem du<lf>die Richtung wechseln kannst. Hiermit<lf>kannst du bei bestimmten Angriffen in<lf>den Drehenden Schnitter übergehen.
+<string>Ein mächtiger Angriff, der ein großes<lf>Gebiet abdeckt und bei dem du<lf>schnell die Richtung wechseln kannst.<lf>Gehst du aus bestimmten Angriffen in<lf>ihn über, siehst du als Ergebnis einen<lf>Drehenden Schnitter.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_1418448640>
 <string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> bei Combos
@@ -190,14 +190,14 @@
 <string>Ein mächtiger vorwärtsspringender<lf>Angriff. Trifft mehrfach an einer<lf>Schwachstelle des Monsters.<lf><lf>Der Schaden dieses Angriffs erhöht<lf>sich nach bestimmten Angriffen.
 <string>
 <string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> bei Combos
-<string>Zurückweichen kann in Combos verwendet<lf>werden, um Angriffen auszuweichen.<lf><lf>Perfekter Ansturm, der beim Zurückwei-<lf>chen ausgeführt werden kann, ist ein<lf>Mehrfachangriff, der sich vor allem<lf>für Elementschaden und anormale Status<lf>eignet. Eingaben von <ICON WP01 PL_ATTACK_00> im richtigen<lf>Timing erhöhen den Schaden.
+<string>Zurückweichen kann in Combos genutzt<lf>werden, um Angriffen zu entgehen.<lf><lf>Drücke während Zurückweichen <ICON WP01 PL_ATTACK_00><lf>für einen Perfekten Ansturm – einen<lf>Mehrfachangriff, der leicht Element-<lf>schaden und Statusveränderungen<lf>verursacht.<lf>Drückst du <ICON WP01 PL_ATTACK_00> genau im richtigen<lf>Moment, erhöht sich der Schaden.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> beim Zurückweichen
-<string>Wenn du während eines Zurückweichens<lf>einen Aufgeladenen Hieb ausführst,<lf>kannst du hoch in die Luft springen,<lf>nachdem du einem Monster erfolgreich<lf>Schaden zugefügt hast. So kannst du<lf>Aktionen in der Luft ausführen,<lf>beispielsweise einen Gesprungenen<lf>Hieb oder einen Fallenden Schlag
+<string>Wenn du nach dem Zurückweichen einen<lf>Aufgeladenen Hieb landest, kannst du in<lf>die Höhe springen. In der Luft kannst du<lf>verschiedene Luftangriffe ausführen,<lf>wie den Gesprungenen Hieb oder den<lf>Fallenden Schlag.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string><ICON WP01 PL_ATTACK_00> beim Springen
@@ -207,7 +207,7 @@
 <string><ICON WP01 PL_ATTACK_01> beim Springen
 <string>
 <string><ICON WP01 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Blocke Angriffe mit deinem Schild ab.<lf>Blockst du im richtigen Moment, wird<lf>Perfektes Blocken aktiviert.<lf><lf>Drücke <ICON WP01 PL_ATTACK_00> nach einem Perfekten Blocken,<lf>um einen schnellen und mächtigen<lf>Konterhieb auszuführen.
+<string>Blocke Angriffe mit deinem Schild ab.<lf>Blockst du im richtigen Moment,<lf>wird Perfektes Blocken ausgeführt.<lf><lf>Drücke <ICON WP01 PL_ATTACK_00> nach einem Perfekten<lf>Blocken, um einen schnellen und<lf>mächtigen Konterhieb auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1975087616>
 <string><ICON WP01 PL_ATTACK_00> nach Perfektes Blocken
@@ -222,7 +222,7 @@
 <string>Du kannst im gezogenen Zustand einige<lf>Objekte einsetzen.
 <string>
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_ATTACK_SP_B>
-<string>Ein Stoßangriff, der effektiv gegen<lf>Wunden ist. Nach einem Treffer an<lf>Wunden oder Schwachpunkten von<lf>Monstern, drücke <ICON WP01 PL_ATTACK_00>, um einen Fallhieb<lf>auszuführen – und <ICON WP01 PL_ATTACK_01> für einen Auf-<lf>wärtsschlag.
+<string>Ein Stoßangriff, der effektiv gegen<lf>Wunden ist. Nach einem Treffer an<lf>Wunden oder Schwachpunkten von<lf>Monstern, drücke <ICON WP01 PL_ATTACK_00>, um einen<lf>Fallhieb nachzusetzen, oder <ICON WP01 PL_ATTACK_01> für<lf>einen Aufwärtsschlag.
 <string>
 <string>Einfache Combo
 <string><REF ActionGuideDataNameText_Wp01_1638854400>
@@ -241,7 +241,7 @@
 <string>
 <string>Mächtige Combo
 <string><ICON WP01 PL_ATTACK_01>
-<string>Eine mächtige stationäre Combo.<lf><lf>Verwende Drehender Schnitter, um die<lf>Combo schnell abzuschließen und Auf-<lf>geladenes Hacken für große Angriffs-<lf>fenster.
+<string>Eine mächtige stationäre Combo.<lf><lf>Verwende einen Drehenden Schnitter,<lf>um die Combo schnell abzuschließen,<lf>oder Aufgeladenes Hacken, wenn du<lf>eine Lücke in der Verteidigung des<lf>Monsters entdeckst.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1520769024>
 <string><ICON WP01 PL_ATTACK_01>
@@ -259,7 +259,7 @@
 <string>Eine das Monster betäubende Combo
 <string><ICON WP01 PL_MOVE_FRONT><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_m1997549568>
-<string>Eine Combo zum Betäuben von Monstern.
+<string>Eine Combo zum Betäuben von<lf>Monstern.
 <string>
 <string><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_m1114434688>
@@ -273,10 +273,10 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string>Aufgeladener-Hieb-Combo
-<string>Aufgeladener Hieb kann in viele An-<lf>griffe übergehen. Gesprungener Hieb<lf>ermöglicht das Aufsteigen auf Monster,<lf>Fallender Schlag baut Betäubung auf<lf>und Fallender Stoß verursacht eine<lf>große Menge Schaden.
+<string>Ein Aufgeladener Hieb kann in die<lf>folgenden Angriffe übergehen:<lf><lf>– Gesprungener Hieb: Erleichtert das<lf>   Aufsteigen auf Monster.<lf>– Fallender Schlag: Verursacht<lf>   Betäubungsschaden.<lf>– Fallender Stoß: Richtet großen<lf>   Schaden an.
 <string>
 <string>
-<string>Nach einem erfolgreichen Treffer
+<string>Nach erfolgreichem Treffer
 <string><ICON WP01 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1979692928>
@@ -289,7 +289,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string>Perfekter-Ansturm-Combo
-<string>Eine Combo nach einem erfolgreichen<lf>Perfekten Ansturm. Katapultiert dich<lf>nach Ausführen des Perfekten Ansturms<lf>in die Luft, wodurch du Gesprungener<lf>Hieb oder Fallender Schlag folgen las-<lf>sen kannst.
+<string>Eine Combo, die in einen Perfekten<lf>Ansturm mündet. Katapultiert dich<lf>nach Ausführen des Perfekten Ansturms<lf>in die Luft, wodurch du Gesprungener<lf>Hieb oder Fallender Schlag folgen las-<lf>sen kannst.
 <string>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
@@ -308,7 +308,7 @@
 <string><REF ActionGuideDataNameText_Wp02_927994752>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Dein Angriff, deine Bewegungs-<lf>geschwindigkeit sowie deine<lf>Ausweichkapazitäten werden im<lf>Dämonenmodus verstärkt.<lf>Außerdem kannst du nicht zurück-<lf>geworfen werden.<lf><lf>Der Klingentanz ist eine mächtige<lf>Angriffssequenz, die den Dämonen-<lf>balken beansprucht.
+<string>Dein Angriff, deine Bewegungsgeschwin-<lf>digkeit sowie deine Ausweichkapazitä-<lf>ten werden im Dämonenmodus verstärkt.<lf>Außerdem kannst du nicht zurückgewor-<lf>fen werden.<lf><lf>Klingentanz I, II und III sind eine<lf>mächtige Angriffssequenz, die den<lf>Dämonenbalken beansprucht.
 <string>
 <string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_300353024>
@@ -327,28 +327,28 @@
 <string><REF ActionGuideDataNameText_Wp02_1304483584>
 <string>
 <string><ICON WP02 PL_DODGE>
-<string>Dämonen-Ausweichen (im Dämonen- oder Erzdämonenmodus)
-<string>Ein schnelle Ducken, um Angriffen<lf>auszuweichen. Führst du ein Perfektes<lf>Ausweichen aus, kannst du beim<lf>Ausweichen angreifen und erhältst<lf>zusätzlich eine vorübergehende<lf>Stärkung.
+<string>Dämonen-Ausweichen (Erz-/Dämonenmodus)
+<string>Ein schnelles Ausweichen.<lf>Gelingt dir ein Perfektes Ausweichen,<lf>kannst du währenddessen angreifen<lf>und erhältst zusätzlich eine vorüber-<lf>gehende Stärkung.<lf><lf>Befindest du dich im Dämonenmodus,<lf>wird der Dämonenbalken durch diese<lf>Aktion nicht geleert.
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
-<string>Ein Hiebangriff, effektiv gegen Wunden.<lf>Triffst du die Wunde eines Monsters,<lf>kannst du einen Drehenden Klingentanz<lf>in der Luft ausführen, der der Länge<lf>des Monsters entspricht und mehrere<lf>Wunden maximieren kann.
+<string>Ein Hiebangriff, effektiv gegen Wunden.<lf>Triffst du die Wunde eines Monsters,<lf>kannst du einen Drehenden Klingentanz<lf>in der Luft ausführen, der der Länge<lf>des Monsters entspricht und mehrere<lf>Wunden zerstören kann.
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Verstärkt Angriffe, Ausweichen sowie<lf>Bewegungsgeschwindigkeit und macht<lf>dich immun gegen Rückwürfe.<lf>Verbraucht allmählich Ausdauer,<lf>wenn der Dämonenmodus aktiv ist.<lf>Der Dämonenmodus endet, wenn er<lf>manuell mit Dämonenmodus verlassen<lf>abgebrochen wird oder deine Ausdauer 0<lf>erreicht.
+<string>Dieser Zustand verstärkt Angriffe,<lf>Bewegungsgeschwindigkeit sowie<lf>Ausweichen und macht dich immun<lf>gegen Rückwürfe. Deine Ausdauer<lf>wird allmählich verbraucht, wenn der<lf>Dämonenmodus aktiv ist. Der Zustand<lf>endet, wenn er manuell abgebrochen<lf>wird oder deine Ausdauer 0 erreicht.
 <string><REF ActionGuideDataNameText_Wp02_m1003266688>
-<string>Erfolgreiche Treffer im Dämonenmodus<lf>füllen den Balken. Verlässt du den<lf>Dämonenmodus mit gefülltem Balken,<lf>kehrst du nicht zum normalen Modus<lf>zurück, sondern gehst in den Erzdämonen-<lf>modus über. Die Anzeige leert sich dann<lf>allmählich automatisch und wird<lf>zusätzlich von bestimmten Angriffen<lf>aufgebraucht.
+<string>Erfolgreiche Angriffe im Dämonenmodus<lf>füllen den Dämonenbalken. Ist der Balken<lf>gefüllt, wechselt du in den Erzdämonen-<lf>modus statt den Dämonenmodus zu<lf>verlassen.<lf><lf>Der Dämonenbalken leert sich allmäh-<lf>lich automatisch und wird zusätzlich<lf>von bestimmten Angriffen aufgebraucht.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>Ein Zustand, der manche deiner<lf>Angriffe verstärkt. Diese Angriffe<lf>verbrauchen den Dämonenbalken –<lf>und der Erzdämonenmodus endet,<lf>wenn der Balken leer ist.
+<string>Dieser Zustand, verstärkt manche<lf>deiner Angriffe. Die verstärkten<lf>Angriffe verbrauchen den Dämonen-<lf>balken und beenden den Erzdämonen-<lf>modus, wenn der Balken leer ist.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
 <string>Ein verstärkter Zustand nach einem<lf>erfolgreichen Perfekten Ausweichen.<lf>Verstärkt regulären sowie Element-<lf>schaden und ermöglicht Angriffe<lf>beim Ausweichen.
 <string>
 <string>Einfache Combo
 <string><ICON WP02 PL_ATTACK_00>
-<string>Eine Standard-Combo.
+<string>Eine einfache Combo.
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string>
 <string><ICON WP02 PL_ATTACK_00>
@@ -360,7 +360,7 @@
 <string>Einfache Dämonenmodus-Combo
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_1562259072>
-<string>Eine einfache Combo im Dämonenmodus.<lf>Kann in den Klingentanz übergehen.
+<string>Eine einfache Combo im Dämonen-<lf>modus. Kann in Klingentanz verkettet<lf>werden.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m268803040>
 <string><ICON WP02 PL_ATTACK_00>
@@ -387,7 +387,7 @@
 <string>Dämonen-Wirbelrausch-Combo
 <string><REF ActionGuideDataNameText_Wp02_72416008>
 <string><ICON WP02 PL_ATTACK_01> im Dämonen-/Erzdämonenmodus
-<string>Eine Combo, mit der du einem Monster<lf>Schaden zufügst und gleichzeitig die<lf>Distanz zu ihm verringerst.<lf>Diese Combo enthält einen Doppelrund-<lf>hieb, wenn du im Dämonenmodus bist.
+<string>Eine Combo, mit der du beim Angreifen<lf>zu einem Monster aufschließen kannst.<lf>Im Dämonenmodus enthält die Combo einen<lf>Doppelrundhieb.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_215332432>
 <string><ICON WP02 PL_ATTACK_01>
@@ -402,7 +402,7 @@
 <string><INPUTMSG MsgGUI600200_01_009_01>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
 <string><ICON WP04 PL_ATTACK_01>
-<string>Ein zertrümmernder Angriff, der bei<lf>Treffern wiederholt eingesetzt werden<lf>kann.<lf><lf>Der mächtige Urknall-Todesstoß kann<lf>nach vier Treffern hintereinander<lf>eingesetzt werden.<lf><lf>Durch das Verfehlen wird die Combo<lf>abgebrochen.
+<string>Ein unbarmherzig zertrümmernder<lf>Angriff, der bei Treffern wiederholt<lf>eingesetzt werden kann.<lf><lf>Der mächtige Urknall-Todesstoß kann<lf>entfesselt werden, nachdem der<lf>vierte Urknall (Urknall IV) getroffen<lf>hat.<lf><lf>Wenn du auch nur einmal verfehlst,<lf>wird die Combo unterbrochen.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
@@ -417,23 +417,23 @@
 <string><REF ActionGuideDataNameText_Wp04_m1391311232>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> auf Ladestufe 3
 <string><REF ActionGuideDataNameText_Wp04_424161632>
-<string>Durch das maximale Aufladen kannst du<lf>den Mächtigen Vorstoß ausführen.<lf>Lädst du diesen wiederum maximal auf,<lf>erhältst du Zugriff zum verheerenden<lf>Mächtigen Vorstoßaufprall.
+<string>Wenn dein Hammer voll aufgeladen ist<lf>(Stufe 3), kannst du einen Mächtigen<lf>Vorstoß ausführen. Lässt du frühzeitig<lf>los, führst du einen Mächtigen Aufge-<lf>ladenen Aufwärtshaken aus, aber bei<lf>voller Aufladung eines Mächtigen<lf>Vorstoßes kannst du den Mächtigen<lf>Vorstoßaufprall entfesseln.
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp04_807319680>
 <string>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> nach dem Angriff
-<string>Ein wirbelnder Zusatzangriff.<lf>Drücke beim Wirbeln <ICON WP04 PL_ATTACK_00>, um einen<lf>anderen Angriff auszuführen.<lf>Je länger du wirbelst, desto stärker<lf>wird der Angriff. Wirbelst du zu lan-<lf>ge, ohne einen Angriff folgen zu las-<lf>sen, bist du schutzlos ausgeliefert.
+<string>Ein wirbelnder Zusatzangriff.<lf>Drücke beim Wirbeln <ICON WP04 PL_ATTACK_00>, um einen<lf>anderen Angriff auszuführen.<lf>Je länger du wirbelst, desto stärker<lf>wird der Angriff. Wirbelst du zu<lf>lange, ohne einen Angriff folgen<lf>zu lassen, bist du schutzlos aus-<lf>geliefert.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_AIM><ICON PLUS><ICON WP04 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp04_m1790485120>
-<string>Ein ausladender Schlagangriff, der<lf>effektiv gegen Wunden ist. Triffst du<lf>eine Wunde oder einen Schwachpunkt<lf>eines Monsters, drehst du dich im Kreis<lf>und richtest mehrfach Schaden an<lf>mehreren Stellen an.<lf><lf>Drücke während der Drehung <ICON WP04 PL_ATTACK_SP>, um beim<lf>Angreifen aufzuladen.
+<string>Ein ausholender Schlagangriff, effektiv<lf>gegen Wunden. Wirbelt und trifft mehr-<lf>fach an Wunden oder Schwachpunkten<lf>von Monstern.<lf><lf>Drücke <ICON WP04 PL_ATTACK_SP> beim Wirbeln, um beim<lf>Angreifen aufzuladen.
 <string>
 <string>Einfache Combo
 <string><ICON WP04 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp04_86757720>
-<string>Eine Standard-Combo.
+<string>Eine einfache Combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m222720992>
 <string><ICON WP04 PL_ATTACK_00>
@@ -444,7 +444,7 @@
 <string>Aufgeladener-Seitenhieb-Combo
 <string><REF ActionGuideDataNameText_Wp04_m1057375552>
 <string><ICON WP04 PL_ATTACK_SP> (Ladestufe 1) <ICON RELEASE>
-<string>Eine schnelle Combo, die Lücken in der<lf>Deckung des Monsters ausnutzt,<lf>ohne dich lange Angriffen auszusetzen.
+<string>Eine schnelle Combo, die Lücken in der<lf>Deckung des Monsters ausnutzt, ohne<lf>dich selbst zu lange angreifbar zu<lf>machen.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_1152969344>
 <string><ICON WP04 PL_ATTACK_00>
@@ -483,28 +483,28 @@
 <string><INPUTMSG MsgGUI600200_01_010_01>
 <string><REF ActionGuideDataNameText_Wp05_m201995088>
 <string><ICON WP05 PL_ATTACK_01>
-<string>Ein einfacher Angriff, der eine zweite<lf>Note in der Notenzeile generiert.
+<string>Ein einfacher Angriff, der Note 2<lf>generiert.
 <string><REF ActionGuideDataNameText_Wp05_166644960>
 <string>
 <string><INPUTMSG MsgGUI600200_01_011>
-<string>Ein Angriff, der eine zweite Note in<lf>der Notenzeile generiert.<lf><lf>Drücke <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> während dem<lf>Angriff, um eine weitere Note zu<lf>generieren.
+<string>Ein Angriff, der Note 2 in der<lf>Notenzeile generiert.<lf><lf>Drücke <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> während<lf>des Angriffs, um eine weitere Note<lf>zu generieren.
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_m671947712>
-<string>Ein Angriff, der eine dritte Note in<lf>der Notenzeile generiert.<lf><lf>Er ermöglicht es dir, das Ziel von<lf>hinten anzugreifen und bewegt dich<lf>beim Angriff rückwärts.
+<string>Ein einfacher Angriff, der Note 3<lf>generiert.<lf><lf>Er ermöglicht es dir, ein Ziel<lf>hinter dir anzugreifen und bewegt<lf>dich beim Angriff rückwärts.
 <string>
 <string><INPUTMSG MsgGUI600200_01_012>
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
-<string>Ein Angriff, der eine dritte Note in<lf>der Notenzeile generiert.<lf><lf>Drücke <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>während des Angriffs, um eine<lf>weitere Note zu generieren.
+<string>Ein Angriff, der Note 3 generiert.<lf><lf>Drücke <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>während des Angriffs, um eine<lf>weitere Note zu erzeugen.
 <string>
-<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> bei Combos
-<string>Eine schnelle Angriffssequenz,<lf>die eine Note generiert.<lf><lf>Sie Kann nach zahlreichen Angriffen<lf>ausgeführt werden. <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> und<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> generieren jeweils Noten.
+<string>Während Combo <ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string>Ein flinker Angriff, der eine Note<lf>generiert und der nach zahlreichen<lf>Angriffen ausgeführt werden kann.<lf><lf><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> bzw. <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> bestimmen,<lf>welche Note erzeugt wird.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>Ein Spezialangriff, der Melodie-<lf>Effekte aktiviert. Bei mehreren vorbe-<lf>reiteten Melodien werden sie von<lf>oben der Reihe nach gespielt.<lf>Mit <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00>/<ICON WP05 PL_ATTACK_01> kannst du in der<lf>Liste eine Melodie wählen.<lf><lf>Drücke <ICON WP05 PL_ATTACK_SP> beim Darbieten mehrerer<lf>Melodien, um einen mächtigen Dar-<lf>bietungstakt auszuführen. Gib dann mit<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> eine Zugabe, um Melodie-<lf>Effekte zu verstärken und zu verlängern.<lf>Stimme den Darbietungstakt und die<lf>Zugabe mit den Melodie-Effekten ab,<lf>um den Schaden zu erhöhen.
+<string>Angriff, der Melodie-Effekte aktiviert.<lf>Gespeicherte Melodien werden in Folge<lf>dargeboten, aber mit <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01> kannst du<lf>eine bestimmte Melodie auswählen.<lf><lf>Drücke beim Darbieten mehrerer Melodien<lf><ICON WP05 PL_ATTACK_SP> für einen mächtigen Darbietungstakt.<lf>Verstärke und verlängere die Melodie-<lf>Effekte dann durch eine Zugabe mit <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.<lf><lf>Die Kraft von Darbietungstakten und<lf>Zugaben wird durch Timing mit dem<lf>Aktivieren von Melodie-Effekten erhöht.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -513,43 +513,39 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>Ein Spezialangriff, der eine Echoblase<lf>platziert. Der Typ der Echoblase wird<lf>von deinem jeweils ausgerüsteten<lf>Jagdhorn bestimmt.<lf><lf>Mit <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> kannst du<lf>bis zu drei Noten generieren, während<lf>du eine Echoblase platzierst.
+<string>Ein Spezialangriff, der eine Echoblase<lf>generiert. Der Typ der Echoblase hängt<lf>von deinem ausgerüsteten Jagdhorn ab.<lf><lf>Beim Erzeugen einer Echoblase kannst du<lf>mit <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> bis zu drei Noten<lf>generieren.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> mit vorbereiteter Melodie
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>Anders als Darbieten spielt diese Ver-<lf>sion den zugehörigen Melodie-Effekt<lf>deines Jagdhorns ab.<lf><lf>Diese Melodie kann, wenn vorbereitet,<lf>nicht mit neuen Melodien überschrieben<lf>werden.
+<string>Im Gegensatz zu normalen Darbietungen<lf>spielen Sonderdarbietungen den zugehöri-<lf>gen Melodie-Effekt deines Jagdhorns.<lf><lf>Diese Melodie kann, wenn vorbereitet,<lf>nicht mit neuen Melodien überschrieben<lf>werden.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Ein Darbietung-Angriff, der effektiv<lf>gegen Wunden ist.<lf>Du kannst bei der Darbietung mit<lf><ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>PL_ATTACK_00> bis<lf>zu fünf Noten generieren.<lf><lf>Wenn du eine Note im Takt des Rhythmus<lf>spielst, erhöht sich ihr Schaden.
+<string>Ein Darbietung-Angriff, der effektiv<lf>gegen Wunden ist.<lf>Während der Darbietung kannst du<lf>mit <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> bis<lf>zu fünf Noten generieren.<lf><lf>Zum richtigen Zeitpunkt gespielte<lf>Noten verursachen zusätzlichen<lf>Schaden.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
 <string><REF RefStatus_0006_000_01>
-<string>Nachdem du eine Echoblase platziert<lf>hast, erhältst du im Bereich einen<lf>besonderen Melodie-Effekt.<lf><lf>Gespielte Noten beim Darbieten werden<lf>wiedergegeben und verursachen Schaden<lf>an Monstern im Bereich.
+<string>Nachdem du eine Echoblase erschaffen<lf>hast, erhältst du in deren Wirkbereich<lf>einen besonderen Melodie-Effekt.<lf><lf>Gespielte Noten beim Darbieten werden<lf>wiedergegeben und verursachen Schaden<lf>an Monstern in der Nähe.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
-<string>Ein spezielles Darbieten, das Angriffe<lf>von Monstern zurückstoßen kann. Eignet<lf>sich durch den hohen Schaden auch als<lf>normaler Angriff.
+<string>Ein spezielles Darbieten, das Angriffe<lf>von Monstern abwehren kann. Eignet<lf>sich durch den hohen Schaden auch als<lf>normaler Angriff.
 <string>
 <string>Melodie-Effekte
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Steigert die Bewegungsgeschwindigkeit.<lf>Spielst du eine Zugabe zu diesem<lf>Melodie-Effekt, erhöht das deine<lf>Angriffskraft und verhindert, dass<lf>deine Angriffe abgelenkt werden.
 <string>
-<string>Verhindert, dass du von Angriffen<lf>zurückgeworfen wirst.
-<string>
-<string><ICON ST_POWER_UP_HORN> Angriff hoch (S) / <REF MusicSkillDataText_Wp05_12>
+<string><ICON ST_POWER_UP_HORN> Angriff hoch (S)/<REF MusicSkillDataText_Wp05_12>
 <string>Erhöht die Angriffskraft.
 <string>
-<string>Erhöht die Verteidigung.
-<string>
-<string><ICON ST_DEFECE_FIRE> <REF MusicSkillDataText_Wp05_18> / <ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
+<string><ICON ST_DEFECE_FIRE> Feuerabwehr (S)/<ICON ST_DEFECE_FIRE_HIGH> Feuerabwehr (L)
 <string>Erhöht den Feuerwiderstand und<lf>verhindert Feuerpest.
 <string>
 <string>Echowelle
 <string>Ein Melodie-Effekt, der Schaden<lf>zufügt.<lf><lf>Jedes Jagdhorn hat unterschiedliche<lf>Effekte. Einige verursachen stumpfen<lf>oder abtrennenden Schaden, während<lf>andere Elementschaden oder Status-<lf>anomalien verursachen.
 <string>
 <string>Echoblasen-Effekte
-<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Ausweichen&BewegGeschw+
 <string>Erhöht Unverwundbarkeit und<lf>Bewegungsgeschwindigkeit.
 <string>
 <string>Einfache Combo
@@ -571,7 +567,7 @@
 <string>Einfache Darbieten-Combo
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Eine Darbieten-Combo, um Lücken in der<lf>Verteidigung des Monsters auszunutzen.
+<string>Eine Darbietung-Combo, die Lücken<lf>in der Verteidigung eines Monsters<lf>ausnutzt.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -579,7 +575,7 @@
 <string>Drei-Melodie-Effekte-Combo
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Eine mächtige Combo gegen umge-<lf>worfene Monster.<lf><lf>Kombiniere Melodie-Effekte mit<lf>einem Darbietungstakt und Zugabe<lf>für enormen Schaden.
+<string>Eine mächtige Combo gegen umgeworfene<lf>Monster.<lf><lf>Kombiniere Melodie-Effekte mit Dar-<lf>bietungstakt und Zugabe für enormen<lf>Schaden.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -608,11 +604,11 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Einfacher Stoß nach oben, um eine<lf>Combo einzuleiten.<lf>Du stößt in die Richtung, in die du im<lf>Fokusmodus zielst.<lf><lf>Der Angriff kann bis zu dreimal wie-<lf>derholt werden. Nach Hoher Stoß III<lf>kann der Konterstoß ausgeführt werden,<lf>dessen Schaden sich erhöht, je länger<lf>du <ICON WP06 PL_ATTACK_01> gedrückt hältst. Im Einklang mit<lf>einem Monsterangriff führst du den<lf>mächtigen Doppel-Konterstoß aus.
+<string>Einfacher Stoß nach oben, um eine<lf>Combo einzuleiten. Im Fokusmodus stößt<lf>du in Richtung der Kamera.<lf><lf>Der Angriff kann bis zu dreimal ver-<lf>knüpft werden. Nach Hoher Stoß III<lf>kann Konterstoß angeschlossen werden,<lf>dessen Schaden sich erhöht, je länger<lf>du <ICON WP06 PL_ATTACK_01> gedrückt hältst. Im Einklang mit<lf>einem Monsterangriff führst du den<lf>mächtigen Doppel-Konterstoß aus.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Ein Stoßangriff beim Voranschreiten.
+<string>Ein Stoßangriff, während du nach<lf>vorne springst.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_2049287808>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> bei Combos
@@ -632,14 +628,13 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Mit hochgestrecktem Schild und niedri-<lf>ger Haltung wirst du zum unüberwind-<lf>baren Bollwerk. Verbraucht kontinu-<lf>ierlich Ausdauer, aber verringert den<lf>Rückstoß beim Blocken für einfaches<lf>Kontern.<lf><lf>Der Schaden deines Gegenangriffs wird<lf>mit jedem geblockten Angriff erhöht.
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string><INPUTMSG MsgGUI600200_01_016>
 <string><INPUTMSG MsgGUI600200_01_016_01>
-<string><REF ActionGuideDataNameText_Wp06_1760401280> / <REF ActionGuideDataNameText_Wp06_1210626816>
+<string><REF ActionGuideDataNameText_Wp06_1760401280>/<REF ActionGuideDataNameText_Wp06_1210626816>
 <string><INPUTMSG MsgGUI600200_01_017>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_696236864>
@@ -647,15 +642,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00> nach erfolgreichem Blocken
-<string>Ein schneller Gegenangriff nach dem<lf>Blocken. Kann einfach in Combos über-<lf>gehen und die Geschwindigkeit ermö-<lf>glicht schnelle Blockreaktionen nach<lf>Angriffen.
+<string>Ein schneller Gegenangriff nach dem<lf>Blocken. Kann einfach in Combos über-<lf>gehen und die Geschwindigkeit ermög-<lf>licht schnelle Blockreaktionen nach<lf>Angriffen.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01> nach erfolgreichem Blocken
-<string>Ein vorwärtsschreitender Gegenangriff<lf>nach dem Blocken. Verursacht mehr<lf>Schaden als die schwache Version,<lf>macht dich aber verwundbar.
+<string>Ein vorwärtsschreitender Gegenangriff<lf>nach dem Blocken. Verursacht mehr<lf>Schaden als ein Erwiderungsstoß,<lf>lässt dich aber länger schutzlos.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_1728314368>
 <string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
-<string>Ein Schildangriff, der effektiv gegen<lf>Wunden ist. Trifft er eine Wunde oder<lf>einen Schwachpunkt eines Monsters,<lf>kannst du Schaden an mehreren Stellen<lf>anrichten.<lf><lf>Drücke während eines Stoßangriffs <ICON WP06 PL_ATTACK_SP_B>,<lf>um den Angriff jederzeit zu beenden.
+<string>Ein Schildangriff, der effektiv gegen<lf>Wunden ist. Trifft er eine Wunde oder<lf>einen Schwachpunkt eines Monsters,<lf>kannst du mehrfach Schaden<lf>anrichten.<lf><lf>Drücke während eines Fokusangriffs <ICON WP06 PL_ATTACK_SP_B>,<lf>um den Angriff jederzeit zu beenden.
 <string>
 <string>Einfache Combo in Dreifachstoß
 <string><REF ActionGuideDataNameText_Wp06_m572647232>
@@ -671,10 +666,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m752102912>
 <string><ICON WP06 PL_ATTACK_00>
 <string>
-<string>Einfache Combo in Konterstoß
+<string>Einfache Combo in Aufladungskonter
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Eine einfache Combo, die in den Konter-<lf>stoß übergeht.<lf><lf>Der Schaden von einem Konterstoß<lf>erhöht sich mit dem Aufladen und<lf>wird zu einem noch mächtigeren<lf>Doppel-Konterstoß, wenn das Timing<lf>mit einem Monsterangriff überein-<lf>stimmt.
+<string>Eine einfache Combo, die in den<lf>Aufladungskonter übergeht.<lf><lf>Der Schaden von Aufladungskonter steigt<lf>mit der Aufladung, und im Einklang mit<lf>einem Monsterangriff wird der Angriff<lf>zum Doppel-Konterstoß.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1128612864>
 <string><ICON WP06 PL_ATTACK_01>
@@ -688,7 +683,7 @@
 <string>Konter nach erfolgreichem Blocken
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Ein Gegenangriff nach dem Blocken eines<lf>Monsterangriffs.<lf><lf>Durch erfolgreiches Perfektes Blocken<lf>kannst du einen mächtigen vorwärts-<lf>schreitenden Angriff ausführen.
+<string>Ein Gegenangriff nach dem Blocken<lf>eines Monsterangriffs.<lf><lf>Bei einem Perfekten Blocken wird aus<lf>dem Vergeltungsstoß der stärkere<lf>Vergeltungsdurchstoß.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,7 +691,7 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE> Gewehrlanze
@@ -719,11 +714,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1497865856>
 <string><ICON WP07 PL_ATTACK_00> nach Weiter Wischer
-<string>Ein Angriff, der deine Wyrmstake-Kano-<lf>ne abfeuert. Verursacht wiederholten<lf>Schaden an der getroffenen Stelle, ex-<lf>plodiert dann und verursacht Feuer-<lf>schaden, der die Haut von Monstern<lf>durchdringt.
+<string>Ein Angriff, der die Wyrmstake-Kanone<lf>abfeuert. Verursacht wiederholten<lf>Schaden an der getroffenen Stelle,<lf>explodiert dann und verursacht Feuer-<lf>schaden, der sich durch die Haut von<lf>Monstern brennt.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> nach Weiter Wischer
-<string>Ein Angriff, der die Patronen und die<lf>Wyrmstake-Kanone entlädt. Drücke <ICON WP07 PL_ATTACK_00><lf>oder <ICON WP07 PL_ATTACK_01> nach Volle Wyrmstake-Explosion,<lf>um Volle Wyrmstake-Mehrfachexplosion<lf>auszuführen.
+<string>Ein Angriff, der alle Patronen und die<lf>Wyrmstake-Kanone entlädt.<lf><lf>Drücke <ICON WP07 PL_ATTACK_00> oder <ICON WP07 PL_ATTACK_01> nach Volle Wyrmstake-<lf>Explosion, um danach Volle Wyrmstake-<lf>Mehrfachexplosion auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
@@ -734,48 +729,48 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m43537492>
 <string><ICON WP07 merge="PL_ATTACK_01,HOLD_ON">
-<string>Ein Angriff, der die Patronen vor der<lf>vollen Entladung auflädt. Verursacht<lf>Feuerschaden, der die Haut von Mons-<lf>tern durchdringt.
+<string>Ein Angriff, der die Patronen vor der<lf>vollen Entladung auflädt. Verursacht<lf>Feuerschaden, der sich durch die Haut<lf>von Monstern brennt.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Ein Aufwärtshieb mit der Gewehrlanze.<lf>Drücke <ICON WP07 PL_ATTACK_01> nach dem Angriff, um eine Pa-<lf>trone abzufeuern, oder <ICON WP07 PL_ATTACK_00> für einen<lf>Überkopfschlag.
+<string>Ein nach oben ausgeführter Hieb.<lf><lf>Drücke nach einem Aufwärtshieb <ICON WP07 PL_ATTACK_01><lf>für einen Beschuss-Angriff, oder<lf>drücke <ICON WP07 PL_ATTACK_00> für einen Überkopfschlag.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1588566656>
 <string><ICON WP07 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Drücke <ICON WP07 PL_ATTACK_00> beim Blocken, um Blockstoß I<lf>auszuführen. Nach einem erfolgreichen<lf>Perfekten Blocken drücke <ICON WP07 PL_ATTACK_00> für einen<lf>Überkopfschlag.
+<string>Drücke <ICON WP07 PL_ATTACK_00> beim Blocken, um einen<lf>Blockstoß I auszuführen.<lf><lf>Hast du ein Perfektes Blocken aus-<lf>geführt, drücke <ICON WP07 PL_ATTACK_00> für einen Über-<lf>kopfschlag.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m2132440704>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Lädt Patronen sowie die Wyrmstake-Ka-<lf>none nach. Blockt sofort automatisch<lf>Angriffe, wenn das Nachladen beginnt.
+<string>Lädt Patronen sowie die Wyrmstake-<lf>Kanone nach. Blockt automatisch<lf>Angriffe, sobald das Nachladen<lf>beginnt.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1926268544>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> bei Combos
-<string>Lädt Patronen nach. Blockt sofort au-<lf>tomatisch Angriffe, wenn das Nachladen<lf>beginnt.
+<string>Lädt nur Patronen nach. Blockt auto-<lf>matisch Angriffe, sobald das Nachladen<lf>beginnt.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Verbraucht ein Wyvernbalken-Segment,<lf>um das mächtige Wyvernfeuer zu<lf>entfesseln, das Feuerschaden verursacht,<lf>der die Haut von Monstern durchdringt.
+<string>Verbrauche die Hälfte des Wyvernfeuer-<lf>Balkens, um das mächtige Wyvernfeuer<lf>zu entfesseln. Dies verursacht Feuer-<lf>schaden, der die Haut von Monstern<lf>durchdringt.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_695464896>
 <string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
-<string>Ein Stoß, der sich in das Monster<lf>bohrt. Effektiv gegen Wunden.<lf><lf>Triffst du eine Wunde oder einen<lf>Schwachpunkt, verlängert sich die<lf>Dauer des Angriffs und ermöglicht dir<lf>den Einsatz der Wyrmstake-Kanone.<lf><lf>Mit <ICON WP07 PL_ATTACK_SP_B> kannst du die Wyrmstake-<lf>Kanone bereits während des Bohr-<lf>angriffs einsetzen.
+<string>Ein Stoß, der sich in das Monster<lf>bohrt. Effektiv gegen Wunden. Verlän-<lf>gert an Wunden oder Schwachpunkten<lf>von Monstern die Angriffsdauer und ermög-<lf>licht den anschließenden Einsatz der<lf>Wyrmstake-Kanone.<lf><lf>Mit <ICON WP07 PL_ATTACK_SP_B> kannst du die Wyrmstake-Kanone<lf>bereits während des Bohrangriffs ein-<lf>setzen.
 <string>
 <string><REF RefEquipment_SORT_0004>
 <string>Es gibt drei Arten von Patronen:<lf>Normal, Weit und Lang.<lf><lf>Normale Patronen haben die größte<lf>Kapazität.<lf>Weite Patronen sind auf Beschuss und<lf>Wyvernfeuer spezialisiert.<lf>Lange Patronen ermöglichen verheerende<lf>Angriffe mit der Wyrmstake-Kanone.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1164200704>
-<string>Munition zum Beschuss.<lf>Jeder Schuss verbraucht eine Patrone.<lf>Patronen werden mit Nachladen oder<lf>Schnelles Nachladen wiederhergestellt.
+<string>Für Beschussangriffe werden Patronen<lf>benötigt. Jeder Schuss verbraucht eine<lf>Patrone, aber du kannst sie durch Nach-<lf>laden oder Schnelles Nachladen schnell<lf>auffüllen.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1336808448>
-<string>Munition für die Wyrmstake-Kanone.<lf>Wird verbraucht, wenn die Wyrmstake-<lf>Kanone abgefeuert wird, und wird mit<lf>Nachladen wiederhergestellt.
+<string>Munition für die Wyrmstake-Kanone.<lf>Sie wird verbraucht, wenn die Kanone<lf>abgefeuert wird, und mit Nachladen<lf>wiederhergestellt.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>Ein Balken für die Nutzung von<lf>Wyvernfeuer – ein Angriff, der schweren<lf>Schaden anrichtet, darunter durch<lf>Fleisch schneidender Feuerschaden.<lf><lf>Der Wyvernbalken erholt sich automa-<lf>tisch, kann aber auch durch Treffer<lf>gefüllt werden.<lf>Bis zu zwei Segmente können gleich-<lf>zeitig gefüllt sein. Die einmalige<lf>Verwendung von Wyvernfeuer<lf>verbraucht ein Segment.
+<string>Anzeige, die zum Einsatz von Wyvern-<lf>feuer gefüllt werden muss – dieser<lf>mächtige Angriff verursacht Feuer-<lf>schaden und durchdringt Monsterhaut.<lf><lf>Die Wyvernfeuer-Anzeige füllt sich<lf>automatisch sowie durch Treffer. Eine<lf>volle Anzeige ermöglicht zwei Einsätze<lf>von Wyvernfeuer, wobei ein<lf>Einsatz die halbe Anzeige verbraucht.
 <string>
 <string>Wyrmstake-Kanonen-Combo
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
 <string><ICON WP07 PL_ATTACK_00>
-<string>Eine einfache Combo, die in die<lf>Wyrmstake-Kanone übergeht.
+<string>Eine einfache Combo, die in eine<lf>Wyrmstake-Kanone übergeht.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m789417920>
 <string><ICON WP07 PL_ATTACK_00>
@@ -789,7 +784,7 @@
 <string>Volle-Wyrmstake-Explosion-Combo
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
-<string>Eine einfache Combo, die in die Volle<lf>Wyrmstake-Explosion übergeht.
+<string>Eine einfache Combo, die in eine<lf>Volle Wyrmstake-Explosion übergeht.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m551745024>
 <string><INPUTMSG MsgGUI600200_01_020>
@@ -814,18 +809,18 @@
 <string><ICON WP_SWITCHAXE> Morph-Axt
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Drücke <ICON WP08 PL_ATTACK_00> nach einem Axt: Überkopfhieb,<lf>um einen Axt: Seitwärtshieb auszu-<lf>führen – und dann <ICON WP08 PL_ATTACK_00> für einen Axt:<lf>Spiralsalvenhieb.<lf>Der Axt: Spiralsalvenhieb stellt eine<lf>große Menge deines Wechselbalkens<lf>wieder her.<lf><lf>Außerdem kannst du auf mittlere Ent-<lf>fernung <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> für den vorwärtsschrei-<lf>tenden Axt: Vorwärtshieb drücken.
+<string>Standard-Combo im Axtmodus:<lf><ICON WP08 PL_ATTACK_00> Axt: Überkopfhieb →<lf><ICON WP08 PL_ATTACK_00> Axt: Seitwärtshieb →<lf><ICON WP08 PL_ATTACK_00> Axt: Spiralsalvenhieb.<lf><lf>Der Axt: Spiralsalvenhieb stellt eine<lf>große Menge deines Wechselbalkens<lf>wieder her.<lf><lf>Drücke <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>, um Axt: Vorwärtshieb<lf>auszuführen, einen vorwärtsschrei-<lf>tenden Angriff auf mittlere Entfernung.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Mit <ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> kannst du wiederholt Axt:<lf>Wilder Schwinger ausführen. Drücke<lf>nach mindestens zwei Axt: Wilder<lf>Schwinger <ICON WP08 PL_ATTACK_00>, um Axt: Schwerer<lf>Niederschlag auszuführen und in den<lf>Kraftaxt-Modus überzugehen.<lf><lf>Benutze <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, um den weit-<lf>reichenden Axt: Vorwärts-Überkopfhieb<lf>auszuführen, der die Distanz zum Ziel<lf>aufschließt.
+<string>Mit <ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> kannst du wiederholt Axt:<lf>Wilder Schwinger ausführen. Drücke<lf>nach mindestens zwei Axt: Wilder<lf>Schwinger <ICON WP08 PL_ATTACK_00>, um Axt: Schwerer<lf>Niederschlag auszuführen und in den<lf>Kraftaxt-Modus überzugehen.<lf><lf>Benutze <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, um den weitreichenden<lf>Axt: Vorwärts-Überkopfhieb auszuführen,<lf>der die Distanz zum Ziel überbrückt.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Ein Aufwärtshieb, der Angriffe von<lf>Monstern zurückstoßen kann.<lf><lf>Erzielst du einen Perfekten Gegenstoß,<lf>kannst du mit <ICON WP08 PL_ATTACK_00> einen Axt: Schwerer<lf>Zusatzangriff-Niederschlag ausführen,<lf>der dich in den Kraftaxt-Modus wech-<lf>seln lässt.<lf>Drückst du <ICON WP08 PL_ATTACK_SP>, führst du einen Axt:<lf>Zusatzangriff-Morph-Hieb aus, der dich<lf>in den Schwertmodus wechseln lässt.
+<string>Ein Aufwärtshieb, der Angriffe von<lf>Monstern abwehren kann.<lf><lf>Stößt du das Monster zurück, kannst<lf>du mit <ICON WP08 PL_ATTACK_00> einen Axt: Schwerer Zusatz-<lf>angriff-Niederschlag ausführen, der<lf>dich in den Kraftaxtmodus wechseln<lf>lässt, oder mit <ICON WP08 PL_ATTACK_SP> einen Axt: Zusatz-<lf>angriff-Morph-Hieb, der dich in den<lf>Schwertmodus wechseln lässt.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><ICON WP08 PL_ATTACK_00> bei Perfektem Gegenstoß
@@ -843,7 +838,7 @@
 <string><INPUTMSG MsgGUI600200_01_021_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Ein Hiebangriff, der effektiv gegen<lf>Wunden ist. Trifft er eine Wunde oder<lf>einen Schwachpunkt eines Monsters,<lf>kannst du mehrfach Schaden anrichten<lf>sowie einen Axt: Schwerer Niederschlag<lf>entfesseln.<lf>Beim Mehrfachangriff kannst du mit <ICON WP08 PL_ATTACK_SP><lf>in den Schwertmodus wechseln und dann<lf>einen Elemententladung-Todesstoß<lf>ausführen.
+<string>Ein Hiebangriff, der effektiv gegen<lf>Wunden ist.<lf><lf>Triffst du eine Wunde oder einen<lf>Schwachpunkt eines Monsters, landest<lf>du mehrere Treffer, die in einen Kraft-<lf>axt-Todesstoß münden, welcher großen<lf>Schaden anrichtet. Stattdessen kannst<lf>du während des Angriffs <ICON WP08 PL_ATTACK_SP> drücken, um<lf>in den Schwertmodus überzugehen und<lf>einen Elemententladung-Todesstoß aus-<lf>zuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -858,23 +853,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1381817088>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
-<string>Führe den Angriff im Einklang mit einem<lf>Monsterangriff aus, um nicht zurück-<lf>gestoßen zu werden. Dadurch kannst du<lf>zwei Angriffe hintereinander ausführen<lf>und danach mit <ICON WP08 PL_ATTACK_01> in Schwert: Himmel-<lf>wärtswirbel übergehen.
+<string>Vollführe Schwert: Konter-Aufwärtshieb<lf>wenn ein Monster angreift, um einen<lf>doppelten Konter einzusetzen.<lf>Bei Erfolg bist du dagegen geschützt,<lf>zurückgeworfen zu werden.<lf>Drücke nach dem Konter <ICON WP08 PL_ATTACK_01>,<lf>um mit Schwert: Himmelwärtswirbel<lf>nachzusetzen.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Drücke <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> nach einer Elemententladung<lf>für einen explosiven Todesstoß. Nach<lf>der Explosion wechselst du direkt in<lf>den Axtmodus.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>Führst du im Verstärkten Zustand eine<lf>Elemententladung aus, hakst du dich<lf>beim Monster ein. Drücke sobald du am<lf>Monster hängst <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">, um einen<lf>Nullsummenentladung-Todesstoß zu<lf>entfesseln. Nach dem Todesstoß<lf>wechselt deine Waffe zurück in den<lf>Axtmodus.
+<string>Drücke nach einer Elemententladung<lf>wiederholt <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> für einen explosiven<lf>Todesstoß. Danach morphst du auto-<lf>matisch in den Axtmodus.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Ein mächtiger Angriff im Schwertmodus.<lf>Im Verstärkten Zustand wird eine zu-<lf>sätzliche Explosion entfesselt. Nach<lf>dem Angriff wechselst du automatisch<lf>in den Axtmodus.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Ein mächtiger Angriff, der nur im<lf>Verstärkten Zustand nutzbar ist.<lf>Mit <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> kann er auch direkt an eine<lf>Elemententladung angeschlossen<lf>werden. Dieser Angriff lässt dich in<lf>den Axtmodus zurückkehren.
+<string>Ein mächtiger Angriff, der im<lf>Schwertmodus verfügbar ist.<lf>Im Verstärkten Zustand wird eine<lf>zusätzliche Explosion entfesselt.<lf>Nach dem Angriff wechselst du<lf>automatisch in den Axtmodus.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -882,13 +869,13 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Ein Hiebangriff, der effektiv gegen<lf>Wunden ist. Trifft er eine Wunde oder<lf>einen Schwachpunkt eines Monsters,<lf>kannst du mehrfach Schaden anrichten<lf>sowie einen Elemententladung-Todes-<lf>stoß entfesseln.<lf>Beim Mehrfachangriff kannst du mit <ICON WP08 PL_ATTACK_SP><lf>in den Axtmodus wechseln und dann<lf>einen Axt: Schwerer Niederschlag<lf>ausführen.
+<string>Ein Hiebangriff, der effektiv gegen<lf>Wunden ist.<lf><lf>Triffst du eine Wunde oder einen<lf>Schwachpunkt eines Monsters, landest<lf>du mehrere Treffer, die in einen Ele-<lf>mententladung-Todesstoß münden,<lf>welcher großen Schaden anrichtet.<lf>Stattdessen kannst du während des<lf>Angriffs <ICON WP08 PL_ATTACK_SP> drücken, um in den Axtmodus<lf>überzugehen, und einen Kraftaxt-Todes-<lf>stoß auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_971569344>★<REF ActionGuideDataNameText_Wp08_m1422082944>
-<string>Angriffe im Axtmodus füllen den<lf>Wechselbalken, während Angriffe<lf>im Schwertmodus ihn verbrauchen.<lf>Wechsle im Kampf zwischen den<lf>Modi, um erfolgreich zu sein.
+<string>Angriffe im Axtmodus füllen den<lf>Wechselbalken, während Angriffe<lf>im Schwertmodus ihn verbrauchen.<lf><lf>Wechsle im Kampf zwischen den<lf>Modi, um erfolgreich zu sein.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1814127872>
 <string>Ein Balken, der sich mit jedem Treffer<lf>im Axtmodus füllt.<lf>Ist er zu mindestens 30 % voll, kannst<lf>du in den Schwertmodus wechseln.<lf><lf>Der Wechselbalken füllt sich mit der<lf>Zeit, während deine Waffe weggesteckt<lf>ist.
@@ -903,12 +890,12 @@
 <string>Im Schwertmodus werden automatisch<lf>kleine Explosionen ausgelöst, die auf<lf>deinem Phiolen-Typ basierend Schaden<lf>verursachen.
 <string>
 <string>Phiolen-Typ
-<string>Angriffe im Schwertmodus verbrauchen<lf>den Wechselbalken und fügen Effekte<lf>basierend auf dem Phiolen-Typ hinzu.<lf>Einige Phiolen füllen den Balken<lf>schneller als andere.<lf><lf>Kraft: Erhöht physischen Schaden.<lf>Element: Erhöht Elementschaden.<lf>Gift: + Gift<lf>Lähm: + Lähmung<lf>Drachen: + Drachenelement<lf>Ermüdung: + Betäubung/Energieschwund
+<string>Angriffe im Schwertmodus verbrauchen<lf>den Wechselbalken und fügen Effekte<lf>basierend auf dem Phiolen-Typ hinzu.<lf>Einige Phiolen füllen den Verstärkungs-<lf>balken schneller als andere.<lf><lf><COLOR preset="TXT_Accent">Kraft:</COLOR> Erhöht physischen Schaden.<lf><COLOR preset="TXT_Accent">Element:</COLOR> Erhöht Elementschaden.<lf><COLOR preset="TXT_Accent">Gift:</COLOR> + Gift<lf><COLOR preset="TXT_Accent">Lähm:</COLOR> + Lähmung<lf><COLOR preset="TXT_Accent">Drachen:</COLOR> + Drachenelement<lf><COLOR preset="TXT_Accent">Ermüdung:</COLOR> + Betäubung/Ermüdung
 <string>
 <string>Schnelle Wechselbalkenauflade-Combo
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Eine einfache Combo, die den Wechsel-<lf>balken im Axtmodus füllt. Die Combo<lf>kann mit <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> in einen Axt: Vorwärtshieb<lf>oder mit <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> in einen Axt: Vorwärts-<lf>Überkopfhieb übergehen.<lf>Wähle den richtigen Angriff basierend<lf>auf der Situation und der Distanz zum<lf>Ziel.
+<string>Eine einfache Axtmodus-Combo,<lf>die den Wechselbalken füllt.<lf><lf>Nutze <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>, um die Combo mit<lf>einem Axt: Vorwärtshieb zu starten,<lf>oder <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, um mit einem Axt:<lf>Vorwärts-Überkopfhieb zu beginnen.<lf><lf>Die richtige Position ist der Schlüssel<lf>zum Erfolg, also wähle deinen Angriff<lf>je nach deiner Distanz zum Ziel.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1338690432>
 <string><ICON WP08 PL_ATTACK_00>
@@ -919,7 +906,7 @@
 <string>Axtcombo für Wechsel zum Schwertmodus
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
-<string>Eine Combo, mit der du nach Aktivie-<lf>rung des Kraftaxt- Modus in den<lf>Schwertmodus übergehen kannst.
+<string>Eine Axtmodus-Combo, die nach<lf>Aktivierung des Kraftaxtmodus in den<lf>Schwertmodus übergeht.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
@@ -933,7 +920,7 @@
 <string>Verstärkungsbalkenlade-Combo (Schwert)
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Eine Combo zur schnellen Aufladung des<lf>Verstärkungsbalkens im Schwertmodus.
+<string>Eine Schwertmodus-Combo, die den<lf>Verstärkungsbalken schnell auflädt.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1737891328>
 <string><ICON WP08 PL_ATTACK_01>
@@ -952,7 +939,7 @@
 <string>Mächtige Combo für große Angriffsfenster
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Eine mächtige Combo, wenn die Deckung<lf>des Monsters weit offen ist.
+<string>Eine mächtige Combo, wenn die<lf>Deckung eines Monsters offen ist.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">
@@ -963,38 +950,38 @@
 <string><ICON WP_CHARGEBLADE> Energieklinge
 <string><REF ActionGuideDataNameText_Wp09_m584458432>
 <string><ICON WP09 PL_ATTACK_00>
-<string>Ein einfacher Angriff, um eine Combo<lf>einzuleiten.<lf>Du kannst mit <ICON WP09 PL_ATTACK_00> in einen Erwiderungs-<lf>angriff übergehen und dann erneut <ICON WP09 PL_ATTACK_00><lf>drücken, um einen Rundhieb nachfolgen<lf>zu lassen.
+<string>Ein einfacher Angriff, um eine Combo<lf>einzuleiten.<lf><lf><ICON WP09 PL_ATTACK_00> Schwert: Schwacher Hieb →<lf><ICON WP09 PL_ATTACK_00> Schwert: Erwiderungsangriff →<lf><ICON WP09 PL_ATTACK_00> Schwert: Rundhieb
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Wird ausgeführt, indem du <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> im richti-<lf>gen Zeitpunkt loslässt. Lässt du im<lf>falschen Moment los, führst du den<lf>Aufwärtshieb aus.
+<string>Angriff, der darauf beruht, dass du <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"><lf>zum richtigen Zeitpunkt loslässt.<lf><lf>Lässt du im falschen Moment los, führst<lf>du stattdessen Schwert: Aufgeladener<lf>Aufwärtshieb aus.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Ein losstürzender Hieb, mit dem du<lf>dich nach vorne bewegst. Du kannst<lf>den Schwert: Schildstoß mit <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>nach einem Schwert: Vorwärtshieb<lf>ausführen. Drücke erneut <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>,<lf>um eine Axt: Verstärkte Elementent-<lf>ladung folgen zu lassen.
+<string>Ein losstürzender Hieb, mit dem du<lf>dich nach vorne bewegst.<lf><lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Schwert: Vorwärtshieb →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Schwert: Schildstoß →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Axt: Verstärkte Element-<lf>entladung
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Ein Blocken mit deinem Schild.<lf>Wenn du das Blocken zum richtigen<lf>Zeitpunkt ausführst, wird daraus ein<lf>Perfektes Blocken.<lf><lf>Nutze <ICON WP09 PL_ATTACK_00> nach einem Perfekten Blocken,<lf>um einen Wilden Axthieb auszuführen.
+<string>Mit dem Schild ausgeführtes Blocken.<lf><lf>Bei richtigem Timing führst du ein<lf>Perfektes Blocken aus. Wenn erfolgreich,<lf>drücke <ICON WP09 PL_ATTACK_00> für Wilder Axthieb.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1536274816>
 <string><ICON WP09 PL_ATTACK_00> nach Perfektes Blocken
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Ein Angriff, der deine Waffe vom<lf>Schwert in eine Axt verwandelt.
+<string>Ein Angriff, bei dem deine Waffe vom<lf>Schwert- in den Axtmodus wechselt.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Nutze gesammelte Schwertenergie, um<lf>deine Phiolen aufzufüllen. Wenn deine<lf>Phiolen bereits voll sind, verstärkt<lf>die überschüssige Energie die Phiolen.
+<string>Nutze gesammelte Schwertenergie,<lf>um die Phiolen der Energieklinge<lf>aufzufüllen. Wenn deine Phiolen<lf>bereits voll sind, verstärkt die<lf>überschüssige Energie die Phiolen.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> beim Aufladen
-<string>Verbrauche Phiolen, um einen Element-<lf>bonus zu erhalten, dein Blocken aufzu-<lf>werten und Zugriff auf Axt: Superver-<lf>stärkte Elemententladung zu erhalten.
+<string>Verbrauche Phiolen, um deinen Schild<lf>mit einem Elementbonus auszustatten,<lf>dein Blocken zu verbessern und um eine<lf>Axt: Superverstärkte Elemententladung<lf>ausführen zu können.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> beim Aufladen
-<string>Eine weitere Verstärkung nach Element-<lf>bonus zur Aufwertung des Schwerts. Im<lf>verstärkten Zustand wird dein Schwert<lf>nicht von Monstern abgelenkt.
+<string>Eine weitere Verstärkung des Schwerts<lf>nach dem Elementbonus. Im verstärkten<lf>Zustand wird dein Schwert nicht von<lf>Monstern abgelenkt.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1002,7 +989,7 @@
 <string><INPUTMSG MsgGUI600200_01_026_01>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Ein Hiebangriff, effektiv gegen Wunden,<lf>der einen vorwärtsspringenden<lf>Schwertangriff im Schwertmodus oder<lf>Axtmodus ausführt. An Wunden gehst<lf>du in den Kraftaxt-Modus über.
+<string>Ein Hiebangriff, effektiv gegen Wunden.<lf><lf>Führt unabhängig von Schwert- oder<lf>Axtmodus einen vorwärtsspringenden<lf>Schwertangriff aus. Triffst du eine<lf>Wunde, gehst du in den Kraftaxt-<lf>modus über.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m2127622656>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1010,48 +997,48 @@
 <string><INPUTMSG MsgGUI600200_01_027_01>
 <string><REF ActionGuideDataNameText_Wp09_794588032>
 <string><ICON WP09 PL_ATTACK_01>
-<string>Ein Mehrfachangriff, der eine Phiole<lf>verbraucht. Drücke <ICON WP09 PL_ATTACK_01>, um eine Axt:<lf>Elemententladung II auszuführen. Drücke<lf>danach erneut <ICON WP09 PL_ATTACK_01> für eine Axt: Verstärkte<lf>Elemententladung.<lf><lf>Durch wiederholtes Drücken von <ICON WP09 PL_ATTACK_01> im<lf>Kraftaxt-Modus kannst du mehrfach<lf>Schaden austeilen.
+<string>Ein Mehrfachangriff, der eine Phiole<lf>verbraucht.<lf><lf><ICON WP09 PL_ATTACK_01> Axt: Elemententladung I →<lf><ICON WP09 PL_ATTACK_01> Axt: Elemententladung II →<lf><ICON WP09 PL_ATTACK_01> Axt: Verstärkte Elemententladung<lf><lf>Halte im Kraftaxtmodus <ICON WP09 PL_ATTACK_01>, um<lf>einen Angriff mit mehreren Treffern<lf>auszuführen, der massig Schaden<lf>verursacht.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Die Verstärkte Elemententladung kann<lf>in andere Angriffe verkettet werden.<lf>Drücke <ICON WP09 PL_ATTACK_01>, um einen Axt: Verstärkte-<lf>Elemententladung-Zusatzangriff auszu-<lf>führen. Halte <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> oder <ICON WP09 PL_ATTACK_01> im Kraftaxt-<lf>Modus gedrückt, um Schaden an mehreren<lf>Stellen auszuteilen. Drücke erneut <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>mit Elementbonus, um eine Superverstärkte-<lf>Elemententladung-Combo (Axt) zu entfesseln.<lf>Du kannst zudem beim Bereitmachen der<lf>Aktion <ICON WP09 PL_ATTACK_SP> drücken, um in einen Element-<lf>Rundhieb pberzugehen und Elementbonus<lf>zu aktivieren.
-<string>
+<string>Ein mächtiger Angriff, der mit anderen<lf>verkettet werden kann.<lf>Mit <ICON WP09 PL_ATTACK_01> lässt du einen Axt: Verstärkte<lf>Elemententladung Zusatzangriff folgen.<lf><lf>Halte im Kraftaxtmodus <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> oder<lf><ICON WP09 PL_ATTACK_01>, um mehrfach massig Schaden zu<lf>verursachen.
+<string>Drücke <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> mit Elementbonus, um<lf>eine Superverstärkte-Elemententladung-<lf>Combo (Axt) zu entfesseln, oder drücke<lf><ICON WP09 PL_ATTACK_SP> beim Vorbereiten von Axt: Verstärkte<lf>Elemententladung, um in einen Element-<lf>Rundhieb überzugehen und Element-<lf>bonus zu aktivieren.
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>Ein Angriff, der deine Waffe von einer<lf>Axt in ein Schwert verwandelt.
+<string>Ein Angriff, bei dem deine Waffe vom<lf>Schwert- in den Axtmodus wechselt.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Ein Hiebangriff, effektiv gegen Wunden,<lf>der einen vorwärtsspringenden<lf>Schwertangriff im Schwertmodus oder<lf>Axtmodus ausführt. An Wunden gehst<lf>du in den Kraftaxt-Modus über.
+<string>Ein Hiebangriff, effektiv gegen Wunden.<lf><lf>Führt unabhängig von Schwert- oder<lf>Axtmodus einen vorwärtsspringenden<lf>Schwertangriff aus. Triffst du eine<lf>Wunde, gehst du in den Kraftaxt-<lf>modus über.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Verwandelt deine Waffe und wechselt<lf>zwischen Modi. Beim Morphen blockst<lf>du automatisch, wenn der Schild nach<lf>vorne zeigt.
+<string>Verwandelt deine Waffe und wechselt<lf>zwischen Modi. Wenn dein Schild beim<lf>Morphen oben ist, blockst du automatisch<lf>gegnerische Angriffe.
 <string>
 <string>Blockende Angriffe
-<string>Einige Angriffe im Schwertmodus können<lf>blocken. Wenn dein Schild in der Bewe-<lf>gung in Richtung des eingehenden<lf>Angriffs zeigt, blockst du automatisch.<lf><lf>Nach dem Blocken kannst du mit <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>Axt: Superverstärkte Elementent-<lf>ladung ausführen.
+<string>Einige Angriffe im Schwertmodus<lf>können blocken. Wenn dein Schild in<lf>der Bewegung in Richtung des einge-<lf>henden Angriffs zeigt, blockst du<lf>automatisch.<lf><lf>Drücke nach erfolgreichem Blocken mit<lf>einem dieser Schwertmodus-Angriffe<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (mit Elementbonus), um danach eine<lf>Axt: Superverstärkte Elemententladung<lf>auszuführen.
 <string>
 <string>Energiebalken
-<string>Angriffe mit dem Schwert sammeln<lf>Schwertenergie, die genutzt werden<lf>kann, um Phiolen aufzufüllen, wenn<lf>der Balken mindestens gelb ist.<lf><lf>Ist dein Schwert überladen, werden<lf>deine Angriffe abgelenkt.
+<string>Schwertangriffe speichern Schwert-<lf>energie, die genutzt werden kann,<lf>um Phiolen aufzufüllen, wenn der<lf>Balken mindestens gelb ist.<lf><lf>Hast du zu viel Schwertenergie<lf>angesammelt, werden deine Angriffe<lf>abgelenkt.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_650824320>
-<string>Verbessert dein Blocken im Schwertmo-<lf>dus und ermöglicht die Ausführung von<lf>Axt: Superverstärkte Elemententladung.
+<string>Verbessert dein Blocken im Schwert-<lf>modus und erlaubt dir die Ausführung<lf>einer Axt: Superverstärkten Element-<lf>entladung.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1125949696>
-<string>Deine Schwertangriffe werden durch<lf>Phioleneffekte verstärkt, dein Schaden<lf>wird erhöht und deine Waffe kann nicht<lf>mehr abgelenkt werden.
+<string>Verstärkt deine Schwertangriffe durch<lf>Phioleneffekte. Erhöht den Schaden und<lf>verhindert, dass deine Waffe abprallt.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m701543936>
-<string>Verringert den Phiolenverbrauch und<lf>ermöglicht Treffer an mehreren Stellen<lf>durch wiederholtes Drücken der Taste<lf>beim Angreifen mit der Axt. Nach einem<lf>Perfekten Blocken kannst du einen<lf>Wilden Axthieb ausführen, der deine<lf>Angriffe kurzzeitig verstärkt.
+<string>Der Kraftaxt-Modus verringert den<lf>Phiolenverbrauch und ermöglicht<lf>im Axtmodus mächtige Angriffe mit<lf>mehreren Treffern.<lf><lf>Nach einem Perfekten Blocken kannst<lf>du einen Wilden Axthieb ausführen,<lf>der deine Angriffe kurzzeitig verstärkt.
 <string>
-<string>Aufgeladener Angriff
-<string>Schwert: Aufgeladener Doppelhieb und<lf>Schwert: Konzentrierter Elementhieb<lf>verlieren an Effektivität, wenn sie zu<lf>lange geladen werden, aber werden zu<lf>überaus mächtigen Angriffen, wenn sie<lf>im richtigen Moment entfesselt werden.
+<string>Aufgeladene Angriffe
+<string>Schwert: Aufgeladener Doppelhieb und<lf>Schwert: Konzentrierter Elementhieb<lf>sind mächtige Ladeangriffe, für die<lf>sorgfältiges Timing erforderlich ist.<lf>Diese Angriffe können nicht im über-<lf>ladenen Zustand ausgeführt werden, pass<lf>also auf, wie lange du sie auflädst.
 <string>
 <string>Phiolen
-<string>Werden bei der Ausführung von Element-<lf>entladungsangriffen verbraucht und<lf>explodieren, um Schaden zu verursachen.<lf>Werden sie verstärkt, haben die Effekte<lf>der Phiolen noch größere Wirkung.<lf>Aufprall-Phiole: Fügt Betäubungs- und<lf>Ermüdungseffekte hinzu und generiert<lf>eine Explosion, die die Haut des<lf>Monsters durchdringt.<lf>Element-Phiole: Erhöht die Element-<lf>eigenschaften der Waffe und verursacht<lf>großen Schaden mit diesem Element.
+<string>Phiolen werden bei der Ausführung von<lf>Elemententladungsangriffen verbraucht<lf>und erzeugen Explosionen, die Schaden<lf>verursachen. Werden sie verstärkt, sind<lf>die Phioleneffekte noch wirkungsvoller.<lf><lf><COLOR preset="TXT_Accent">Aufprall-Phiole</COLOR>: Betäubung / Ermüdung.<lf>Generiert eine Explosion, die die Haut<lf>des Monsters durchdringt.<lf><lf><COLOR preset="TXT_Accent">Element-Phiole</COLOR>: + Element der Waffe.<lf>Verursacht großen Elementschaden.
 <string>
 <string>Schwert: Einfache Combo
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Eine Combo, mit der du dich aus der<lf>Entfernung mit einem Schwert: Schild-<lf>stoß annähern kannst.<lf><lf>Schwert: Aufgeladener Doppelhieb statt<lf>Schwert: Erwiderungsangriff ermöglicht<lf>das schnelle Aufladen deines Balkens.
+<string>Eine Combo, mit der du dich aus der<lf>Entfernung mit einem Schwert: Schild-<lf>stoß annähern kannst.<lf><lf>Ein Schwert: Aufgeladener Doppelhieb<lf>statt einem Schwert: Erwiderungsangriff<lf>ermöglicht das schnelle Aufladen des<lf>Energiebalkens.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_530797824>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1065,7 +1052,7 @@
 <string>Elementbonus-Combo
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Eine Combo, mit der du Schild:<lf>Elementbonus verwenden kannst.<lf><lf>Das Aufladen während einer einfachen<lf>Combo ermöglicht dir das Ausführen<lf>dieses Angriffs.
+<string>Eine Combo, mit der du einen Schild:<lf>Elementbonus ausführen kannst. Dieser<lf>kann auch in einfachen Combos durch<lf>Aufladen ausgeführt werden.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1079,7 +1066,7 @@
 <string>Elemententladung-Combo mit 3 oder mehr Phiolen
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Eine Combo, die Schwert: Schildstoß<lf>mit Axt: Verstärkte Elemententladung<lf>verkettet.<lf><lf>Die Combo endet mit Axt: Superver-<lf>stärkte Elemententladung, mit der du<lf>verheerenden Schaden verursachst.
+<string>Eine Combo, die Schwert: Schildstoß<lf>mit Axt: Verstärkte Elemententladung<lf>verkettet.<lf><lf>Die Combo endet mit Axt: Superver-<lf>stärkte Elemententladung, die<lf>verheerenden Schaden verursacht.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1090,10 +1077,10 @@
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>Superverst. Elemententladung-Combo (Axt)
+<string>Superverst.-Elemententladung-Combo (Axt)
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Wie bei anderen Angriffen, die Blocken<lf>können, kannst du Axt: Superverstärkte<lf>Elemententladung direkt nach dem<lf>Blocken ausführen.<lf><lf>Der Elementbonus verringert die Zeit,<lf>die du nach dem Blocken schutzlos<lf>bist, und macht es einfacher, diese<lf>Combo auszuführen.
+<string>Nach dem Blocken mit einem blockenden<lf>Angriff kannst du Axt: Superverstärkte<lf>Elemententladung nutzen.<lf><lf>Der Einsatz von Elementbonus verkürzt<lf>das Verwundbarkeitsfenster nach dem<lf>Blocken und macht es einfacher,<lf>diese Combo auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> nach Blocken mit blockenden Angriffen
@@ -1109,47 +1096,47 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
-<string>Befiehlt dem Kinsekt, nach vorne<lf>zu eilen und ein Extrakt vom<lf>getroffenen Monsterteil zu sammeln.<lf><lf>Das Kinsekt fliegt in Richtung des<lf>Fadenkreuzes, das mit <ICON WP10 PL_ATTACK_SP> angezeigt<lf>wird.
+<string>Befiehlt dem Kinsekt, den Körperteil<lf>eines Monsters anzugreifen, den du<lf>mit dem Fadenkreuz markiert hast,<lf>und Extrakt zu sammeln.<lf><lf><ICON WP10 PL_ATTACK_SP> halten: Fadenkreuz aufrufen<lf><ICON WP10 PL_ATTACK_SP> drücken: Ziel markieren
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
-<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> lädt den Angriff des Kinsekts auf,<lf>wodurch es Extrakte von jedem getrof-<lf>fenen Monsterteil sammeln kann.
+<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> lädt den Angriff des Kinsekts auf,<lf>wodurch es Extrakte von jedem<lf>getroffenen Monsterteil sammeln<lf>kann.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_607158400>
 <string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp10_1536680576>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_01> während das Kinsekt fliegt
-<string>Befiehlt dem Kinsekt, dass es zu dir<lf>zurückkehrt. Gefundene Extrakte ver-<lf>stärken dich.
+<string>Befiehlt dem Kinsekt, dass es zu dir<lf>zurückkehrt. Mitgebrachte Extrakte<lf>verstärken dich.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Ein Angriff, der eine Markierung für<lf>dein Kinsekt erschafft.<lf><lf>Dein Kinsekt greift das markierte Kör-<lf>perteil an und hinterlässt Pollen.
+<string>Markierst du ein Ziel, konzentriert<lf>sich dein Kinsekt mit seinen Angriffen<lf>auf ein bestimmtes Monsterteil.<lf><lf>Wenn dein Kinsekt das markierte<lf>Körperteil tatsächlich angreift,<lf>hinterlässt es Kinsektenpulver.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Ein Fernangriff, der eine Markierung<lf>für dein Kinsekt erschafft.<lf><lf>Dein Kinsekt greift das markierte<lf>Körperteil an und hinterlässt Pollen.
+<string>Markiere ein Körperteil eines Monsters<lf>aus der Distanz.<lf><lf>Dein Kinsekt greift die markierte Stelle<lf>an und hinterlässt Kinsektenstaub.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
 <string><INPUTMSG MsgGUI600200_01_029>
 <string><INPUTMSG MsgGUI600200_01_029_01>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
-<string><ICON WP10 PL_ATTACK_00> beim Springen
+<string><ICON WP10 PL_ATTACK_00> (in der Luft)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_239722048>
-<string><ICON WP10 PL_ATTACK_01> beim Springen
+<string><ICON WP10 PL_ATTACK_01> (in der Luft)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
-<string><ICON WP10 PL_DODGE> beim Springen
+<string><ICON WP10 PL_DODGE> (in der Luft)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_810620608>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Ein Stoßangriff, effektiv gegen Wun-<lf>den.<lf><lf>An Wunden oder Schwachpunkten<lf>durchdringt dein Kinsekt das Monster<lf>und sammelt Rote, Weiße und Orange<lf>Extrakte.
+<string>Ein Stoßangriff, der effektiv gegen<lf>Wunden ist.<lf><lf>Wenn du eine Wunde oder einen<lf>Schwachpunkt triffst, durchdringt<lf>dein Kinsekt das Monster und sammelt<lf>Rote, Weiße und Orange Extrakte.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> mit Rotem Extrakt
-<string>Ein aufladbarer Angriff, der ein Rotes<lf>Extrakt erfordert. Nach dem Aufladen<lf>kannst du mit <ICON WP10 PL_ATTACK_01><ICON RELEASE> einen Mehrfachangriff<lf>am Boden oder einen Stoß in der Luft<lf>entfesseln. Behalte deine Aufladung<lf>und gehe mit <ICON WP10 PL_ATTACK_01><ICON RELEASE> in verschiedene<lf>Angriffe über. Mit drei Extrakten kannst<lf>du nach dem Aufladeangriff mit <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01><lf>einen Todesstoß ausführen. Der verstärkte<lf>Zustand wird dadurch beendet, aber du<lf>kannst mächtige Angriffe ausführen und<lf>mit deinem Kinsekt Extrakte sammeln.
+<string>Mit einem Roten Extrakt kannst du mit <ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>am Boden einen Sinkenden Hieb und<lf>in der Luft einen Sinkenden Stoß ent-<lf>fesseln. Du kannst deine Aufladung bei-<lf>behalten, während du andere Angriffe<lf>ausführst, und dann einen der aufgela-<lf>denen Angriffe nachfolgen lassen.<lf><lf>Drücke mit allen drei Extrakten nach<lf>einem Sinkenden Hieb oder Stoß <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>, um<lf>einen mächtigen Todesstoß auszuführen.<lf>Dabei werden alle Extrakte verbraucht,<lf>dein Kinsekt sammelt währenddessen<lf>jedoch neue ein.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1157,25 +1144,25 @@
 <string><REF ActionGuideDataNameText_Wp10_1212529024>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> mit drei Extrakten
 <string>
-<string><REF RefEquipment_0001_010_0>
-<string>Insekten, die dir in die Schlacht fol-<lf>gen und die du mit deiner Insekten-<lf>glefe befehligst. Kinsekten können<lf>Monstern verschiedene Extrakte ent-<lf>ziehen, die dir Stärkungen verleihen.<lf>Du kannst eine Vielzahl von Kinsekten<lf>ausrüsten und verstärken.
+<string>Kinsekten
+<string>Insekten, die dir in die Schlacht fol-<lf>gen und die du mit deiner Insekten-<lf>glefe befehligst. Kinsekten können<lf>verschiedene Extrakte von Monstern<lf>sammeln, die dir Stärkungen verleihen.<lf>Du kannst eine Vielzahl von Kinsekten<lf>ausrüsten und verstärken.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1304673664>
-<string>Wenn du im Fokusmodus mit <ICON WP10 PL_AIM> zielst<lf>und angreifst, greift dein Kinsekt das<lf>Monster an und sammelt Extrakte.<lf><lf>Die Flugbahn des Kinsekts verändert<lf>sich gemäß deinen Angriffen.
+<string>Wenn du im Fokusmodus (<ICON WP10 PL_AIM>)<lf>angreifst, greift dein Kinsekt mit an<lf>und sammelt Extrakt.<lf><lf>Die Flugbahn deines Kinsekts verändert<lf>sich gemäß deinen Angriffen.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Kinsekten lassen Effektpulver zurück,<lf>wenn sie ein markiertes Monsterteil<lf>angegreifen. Das Pulver explodiert bei<lf>Treffern und sorgt für verschiedene<lf>Effekte.<lf>Explosion: Baut beim Monster Explosion<lf>auf.<lf>Gift: Baut beim Monster Gift auf.<lf>Lähmung: Baut beim Monster Lähmung<lf>auf.<lf>Erholung: Stellt etwas Gesundheit bei<lf>dir wieder her.
+<string>Kinsekten lassen eine Staubwolke<lf>zurück, die Kinsektenpulver genannt<lf>wird, wenn sie ein markiertes Monster-<lf>teil angreifen.<lf>Das Pulver explodiert bei Treffern und<lf>sorgt für verschiedene Effekte.<lf><lf><COLOR preset="TXT_Accent">Explosion:</COLOR> Baut Explosion auf.<lf><COLOR preset="TXT_Accent">Gift:</COLOR> Baut Gift auf.<lf><COLOR preset="TXT_Accent">Lähmung:</COLOR> Baut Lähmung auf.<lf><COLOR preset="TXT_Accent">Erholung:</COLOR> Stellt bei dir etwas<lf>Gesundheit wieder her.
 <string>
 <string>Extrakte
-<string>Eine Substanz, die von Monstern extra-<lf>hiert wurde. Es gibt vier Arten: Rot,<lf>Weiß, Orange und Grün. Die Farbe des<lf>Extrakts basiert auf dem Monsterteil.<lf><lf>Gesammelte Extrakte können durch Zu-<lf>rückrufen des Kinsekts absorbiert wer-<lf>den. Jede Farbe gewährt unterschied-<lf>liche Effekte. Das Absorbieren mehre-<lf>rer Farben gewährt weitere Effekte.<lf>Die Effekte lassen nach einer gewissen<lf>Zeit nach.
+<string>Eine Substanz, die von Monstern extra-<lf>hiert wurde. Es gibt vier Arten: Rot,<lf>Weiß, Orange und Grün. Die Farbe des<lf>Extrakts basiert auf dem Monsterteil.<lf><lf>Absorbiere gesammelte Extrakte, indem<lf>du dein Kinsekt zurückrufst. Jede Farbe<lf>gewährt einen anderen Effekt, aber<lf>mehrere Farben gleichzeitig bringen<lf>zusätzliche Effekte. Die Effekte lassen<lf>nach einer gewissen Zeit nach.
 <string>
 <string>Effekte von Extrakten
-<string>Verschiedenfarbige Extrakte bieten<lf>unterschiedliche Effekte. Kombiniere<lf>mehrere Farben für weitere Effekte.<lf><lf>Rot: Ermöglicht das Aufladen mit <ICON WP10 PL_ATTACK_01>.<lf>Weiß: Erhöht Bewegungsgeschwindigkeit<lf>und Sprunghöhe.<lf>Orange: Gewährt Unbeeindruckt.<lf>Rot+Weiß: Erhöht Angriff.<lf>Weiß+Orange: Erhöht Verteidigung.<lf>Rot+Weiß+Orange: Verändert<lf>bestimmte Angriffe und erhöht Angriff.
+<string>Verschiedenfarbige Extrakte bieten<lf>unterschiedliche Effekte. Kombiniere<lf>mehrere Farben für weitere Effekte.<lf><lf><COLOR preset="TXT_Accent">Rot:</COLOR> Ermöglicht das Aufladen mit <ICON WP10 PL_ATTACK_01>.<lf><COLOR preset="TXT_Accent">Weiß:</COLOR> Erhöht Bewegungsgeschwindig-<lf>keit und Sprunghöhe.<lf><COLOR preset="TXT_Accent">Orange:</COLOR> Negiert bei gezogener Waffe<lf>Rückwurf.<lf><COLOR preset="TXT_Accent">Rot+Weiß:</COLOR> Erhöht Angriff.<lf><COLOR preset="TXT_Accent">Weiß+Orange:</COLOR> Erhöht Verteidigung.<lf><COLOR preset="TXT_Accent">Rot+Weiß+Orange:</COLOR> Verändert einige<lf>Angriffe, reduziert Winddruck,<lf>Beben und Gebrüll und erhöht den<lf>Angriff noch weiter.
 <string>
 <string>Einfache Combo
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
 <string><ICON WP10 PL_ATTACK_00>
-<string>Eine Combo, die nach jeder Aktion die<lf>Kinsekten-Combo ermöglicht. Alle<lf>Angriffe bis zum Schlitzhieb können in<lf>Bewegung ausgeführt werden.<lf><lf>Mit dem Ausweichhieb statt dem Über-<lf>kopfschlag kannst du dich beim Angrei-<lf>fen rückwärts bewegen.
+<string>Eine Combo, in der jeder Angriff<lf>zusammen mit einer Kinsekten-Combo<lf>ausgeführt werden kann. Alle Angriffe<lf>bis zum Schlitzhieb können in Bewe-<lf>gung erfolgen.<lf><lf>Mit dem Ausweichhieb statt dem Über-<lf>kopfschlag kannst du dich beim Angrei-<lf>fen rückwärts bewegen.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1983561600>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1186,10 +1173,10 @@
 <string><REF ActionGuideDataNameText_Wp10_2066406784>
 <string><ICON WP10 PL_ATTACK_01>
 <string>
-<string>Pollen-Combo
+<string>Kinsektenpulver-Combo
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Eine Combo, die eine Markierung<lf>platziert, an der dein Kinsekt Effekt-<lf>pulver hinterlässt. Vor der Pulverex-<lf>plosion weichst du schnell aus.<lf><lf>Kann mit anderen Angriffen kombi-<lf>niert werden.
+<string>Eine Combo, die eine Markierung plat-<lf>ziert, an der dein Kinsekt angreift und<lf>Staub hinterlässt. Du weichst dabei<lf>nach hinten aus, um dann nach vorne<lf>zu stürmen und den Staub explodieren<lf>zu lassen.<lf><lf>Kann mit anderen Angriffen kombiniert<lf>werden.
 <string>
 <string>Katapultieren (rückwärts)
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
@@ -1211,7 +1198,7 @@
 <string>Mächtige Combo mit drei Extrakten
 <string><REF ActionGuideDataNameText_Wp10_1401028864>
 <string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
-<string>Verbrauche alle Extrakte, um eine<lf>mächtige Combo auszuführen.<lf><lf>Du kannst zudem eine Kinsekten-Combo<lf>ausführen, bis du den Tornadohieb<lf>einsetzt.
+<string>Eine mächtige Combo, die alle drei<lf>Extrakte verbraucht.<lf><lf>Bis zum Tornadohieb-Teil der Combo<lf>kannst du eine Kinsekten-Combo mit<lf>einem Sprunghieb paaren.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m587319424>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
@@ -1226,34 +1213,33 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN> Leichtes Bogengewehr
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
-<string>Feuert geladene Munition geradeaus.<lf>Ziele, um in eine bestimmte Richtung<lf>zu schießen.
+<string>Feuert in dein Bogengewehr geladene<lf>Munition geradeaus. Passe die Schuss-<lf>richtung an, indem du zielst.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1727296128>
 <string><INPUTMSG MsgGUI600200_01_043>
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> nach dem Feuern
-<string>Drücke <ICON WP13 PL_ATTACK_01> nach einem Kraftschuss für<lf>einen stärkeren Angriff, der mehr<lf>Energie wiederherstellt.<lf><lf>Kann nicht nach einem Schwächevorteil-<lf>Schuss oder mit Spezialmunition ver-<lf>wendet werden.
+<string>Drücke <ICON WP13 PL_ATTACK_01> nach einem Kraftschuss für<lf>einen stärkeren Angriff, der mehr<lf>Energie wiederherstellt.<lf><lf>Kann nicht nach einer Fokusexplosion<lf>oder mit Spezialmunition verwendet<lf>werden.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
-<string>Lade die gewählte Munition nach. Ver-<lf>wende <ICON WP13 merge="PL_ATTACK_00,HOLD_ON">, um die gesamte Munition der<lf>Reihe nach nachzuladen.
+<string>Lade die gewählte Munition nach.<lf>Halte <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> gedrückt, um die gesamte<lf>Munition der Reihe nach nachzuladen.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
-<string>Wechsle von deinem aktuellen Schuss-<lf>modus in den Schnellfeuer-Modus,<lf>um schnell bestimmte Munitionarten<lf>zu verschießen.<lf><lf>Drücke erneut <ICON WP13 PL_ATTACK_01>, um in den<lf>Standardmodus zu wechseln.
+<string>Wechsle von deinem aktuellen Schuss-<lf>modus in den Schnellfeuer-Modus,<lf>um schnell bestimmte Munitionsarten<lf>zu verschießen.<lf><lf>Drücke erneut <ICON WP13 PL_ATTACK_01>, um in den<lf>Standardmodus zurückzuwechseln.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string>Ermöglicht den Einsatz der gewählten<lf>Spezialmunition deines Leichten Bogen-<lf>gewehrs.
+<string>Nutze die ausgerüstete Spezial-<lf>munition.<lf><lf>Du kannst eine Wyvernexplosion<lf>platzieren oder Klebemunition<lf>laden und mit <ICON WP13 PL_ATTACK_SP> abfeuern.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
-<string>Wähle verwendbare Munition aus deinem<lf>Munitionsbestand.
+<string>Wähle Munition.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
@@ -1283,7 +1269,7 @@
 <string><ICON WP_HEAVYBOWGUN> Schweres Bogengewehr
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
-<string>Feuert geladene Munition geradeaus.<lf>Ziele, um in eine bestimmte Richtung<lf>zu schießen.
+<string>Feuert in dein Bogengewehr geladene<lf>Munition geradeaus. Passe die Schuss-<lf>richtung an, indem du zielst.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_187560352>
 <string><INPUTMSG MsgGUI600200_01_051>
@@ -1294,7 +1280,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1896048256>
 <string><ICON WP12 PL_ATTACK_00>
-<string>Lade die gewählte Munition nach. Ver-<lf>wende <ICON WP12 merge="PL_ATTACK_00,HOLD_ON">, um die gesamte Munition der<lf>Reihe nach nachzuladen.
+<string>Lade die gewählte Munition nach.<lf>Verwende <ICON WP12 merge="PL_ATTACK_00,HOLD_ON">, um die gesamte Munition<lf>der Reihe nach nachzuladen.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP12 PL_ATTACK_01>
@@ -1302,47 +1288,46 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1687699840>
 <string><ICON WP12 PL_ATTACK_01><ICON PLUS><ICON WP12 PL_ATTACK_00>
-<string>Ein Blocken mit dem Schweren Bogen-<lf>gewehr.<lf><lf>Wenn du das Blocken zum richtigen<lf>Zeitpunkt ausführst, wird daraus ein<lf>Perfektes Blocken, wodurch du ein<lf>besonderes Zurückweichen ausführen<lf>kannst.<lf><lf>Abhängig von deinem Stand kannst du<lf>auch ohne Eingabe Auto-Blocken.
+<string>Mit dem Schweren Bogengewehr ausgeführ-<lf>tes Blocken.<lf><lf>Mit dem richtigen Timing führst du ein<lf>Perfektes Blocken aus, wodurch du einen<lf>besonderen Seitwärtsschritt nutzen<lf>kannst. Je nach Haltung kannst du auch<lf>ohne Eingabe Auto-Blocken.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_031>
-<string>Wähle verwendbare Munition aus deinem<lf>Munitionsbestand.
+<string>Wähle Munition.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>
-<string>Feuere Spezialmunition ab, indem du<lf>Energie verbrauchst.<lf><lf>Energie wird im Standardmodus<lf>automatisch oder durch Treffer<lf>wiederhergestellt.
+<string>Du verbrauchst den Zündungsbalken, um<lf>Spezialmunition abzufeuern.<lf><lf>Der Balken füllt sich im Standardmodus<lf>automatisch auf oder wenn ein Schuss<lf>trifft.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1049174784>
-<string>Blockt während Aktionen, in denen du<lf>Auto-Blocken kannst, automatisch einen<lf>eingehenden Angriff von vorne ab.<lf><lf>Du kannst beim Auto-Blocken kein Per-<lf>fektes Blocken ausführen.
+<string>Blocke während Manövern, bei denen du<lf>Auto-Blocken kannst, automatisch einen<lf>eingehenden Angriff von vorne ab.<lf><lf>Du kannst beim Auto-Blocken kein Per-<lf>fektes Blocken ausführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Spezialmunition, die im Zündungsmodus<lf>verwendet werden kann.<lf><lf>Verwende <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON">, um kontinuierlich zu<lf>feuern. Mit jedem Treffer steigt<lf>der Schaden.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
-<string>Spezialmunition, die im Zündungsmodus<lf>verwendet werden kann. Entfesselt<lf>einen Gegenstoß-Angriff auf kurze<lf>Distanz. Drücke und halte <ICON WP12 PL_ATTACK_00>, um die<lf>Kraft beim Feuern zu erhöhen.
+<string>Spezialmunition, die im Zündungsmodus<lf>verwendet werden kann.<lf><lf>Entfesselt einen Gegenstoß-Angriff auf<lf>kurze Distanz. Drücke und halte <ICON WP12 PL_ATTACK_00>,<lf>um die Kraft beim Feuern zu erhöhen.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
 <string>Verursacht eine durchstoßende Explo-<lf>sion an Wunden oder Schwachpunkten,<lf>die erheblichen Schaden verursacht.<lf><lf>Verbrauchte Munition wird mit der Zeit<lf>automatisch wiederhergestellt.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
 <string><INPUTMSG MsgGUI600200_01_049>
-<string>Rufe in der Mitte des Bildschirms ein<lf>Fadenkreuz auf.
+<string>In der Mitte des Bildschirms wird<lf>ein Fadenkreuz angezeigt.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1018903168>
 <string><ICON WP11 PL_ATTACK_01>
 <string>Ein Angriff, der über einen weiten<lf>Bereich schnell Pfeile abfeuert.<lf>Verbraucht keine Ausdauer.
 <string>
-<string><ICON WP_BOW> Bogen
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Ziehe deinen Bogen, um Pfeile abzufeu-<lf>ern. Je länger du <ICON WP11 PL_ATTACK_SP> gedrückt hältst,<lf>desto höher wird deine Aufladestufe,<lf>was die Kraft und Anzahl der Pfeile<lf>verstärkt.<lf><lf>Drücke nach dem Angriff <ICON WP11 PL_ATTACK_01> für einen<lf>Kraftschuss.
+<string>Spanne den Bogen, um Pfeile zu schießen.<lf><lf>Halte <ICON WP11 PL_ATTACK_SP> gedrückt, um die Ladestufe zu<lf>erhöhen.<lf><lf>Je höher die Ladestufe, desto stärker<lf>sind deine Angriffe.<lf><lf>Drücke nach dem Schießen <ICON WP11 PL_ATTACK_01>, um einen<lf>Kraftschuss auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1800729216>
 <string><ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> bei Combos
-<string>Entfesselt eine Anzahl mächtiger Pfei-<lf>le in einem weiten Bereich. Behält<lf>die Aufladestufe bei. Drücke nach dem<lf>Angriff <ICON WP11 PL_ATTACK_01> für einen Kraft-Schnell-<lf>schuss.
+<string>Entfessle eine Anzahl mächtiger<lf>Pfeile in einem weiten Bereich bei<lf>deiner aktuellen Aufladestufe.<lf><lf>Drücke nach dem Abschuss <ICON WP11 PL_ATTACK_01>,<lf>um einen Kraftschuss auszuführen.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
@@ -1356,7 +1341,7 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1376,7 +1361,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_193855040>
 <string><ICON WP11 PL_ATTACK_00>
-<string>Lade die gewählte Beschichtung.<lf>Drücke <ICON WP11 PL_ATTACK_00>, wenn sie geladen ist, um die<lf>gewählte Beschichtung zu entfernen.
+<string>Lade die gewählte Beschichtung.<lf><lf>Öffne das Beschichtungsmenü und<lf>drücke <ICON WP11 PL_ATTACK_00>, wenn sie geladen ist,<lf>um die gewählte Beschichtung zu<lf>entfernen.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
@@ -1384,7 +1369,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_169799632>
 <string><INPUTMSG MsgGUI600200_01_050>
-<string>Ein Angriff, der effektiv gegen Wunden<lf>ist. Ziele mit dem Fadenkreuz auf<lf>eine Wunde oder Zielmarkierung,<lf>um einen Zielpfeil zu verschießen, der<lf>das Monster an mehreren Stellen trifft.<lf><lf>Lade diesen Angriff auf Stufe 3 auf,<lf>um die Menge an Pfeilen zu erhöhen<lf>und einen Zusatzangriff bei Terffern<lf>an Wunden auszulösen.
+<string>Ein Angriff, der effektiv gegen Wunden<lf>ist. Ziele mit dem Fadenkreuz auf<lf>eine Wunde oder Zielmarkierung,<lf>um einen Zielpfeil zu verschießen, der<lf>das Monster an mehreren Stellen trifft.<lf><lf>Lade diesen Angriff auf Stufe 3 auf,<lf>um die Menge an Pfeilen zu erhöhen<lf>und einen Zusatzangriff bei Treffern<lf>an Wunden auszulösen.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_566243776>
 <string>Ein Balken für Zielmarkierungen und<lf>Beschichtungen. Erfolgreiche Treffer<lf>oder Geschicktes Ausweichen füllen den<lf>Balken. Das Laden von Zielmarkierungen<lf>und Beschichtungen beansprucht den<lf>Balken.
@@ -1393,7 +1378,7 @@
 <string>Nachdem du eine Zielmarkierung<lf>abgefeuert hast, finden deine Pfeile<lf>sie als Ziel, bis die Zielmarkierung<lf>explodiert.
 <string>
 <string>Beschichtungstypen
-<string>Nutze Beschichtungen, um Pfeilen<lf>bestimmte Wirkungen zu verleihen.<lf><lf>– Kraftbeschichtung: erhöht Schaden<lf>– Nahkampfb.: verringert Reichweite,<lf>   erhöht Schaden<lf>– Perforierb.: ermöglicht Perforierung<lf>– Giftb.: gewährt Gift<lf>– Lähmungsb.: gewährt Lähmung<lf>– Schlafb.: gewährt Schlaf<lf>– Explosionsb.: gewährt Explosion<lf>– Ermüdungsb.: gewährt Betäubung/<lf>   Ermüdung
+<string>Nutze Beschichtungen für Pfeileffekte.<lf><lf>Kraftbeschichtung: Erhöht Schaden.<lf>Nahkampfb.: Verringert Reichweite,<lf>erhöht Schaden.<lf>Perforierb.: Ermöglicht Perforierung.<lf>Giftbeschichtung: Verursacht Gift.<lf>Lähmungsb.: Verursacht Lähmung.<lf>Schlafbeschichtung: Verursacht Schlaf.<lf>Explosionsb.: Verursacht Explosion.<lf>Ermüdungsb.: Verursacht Betäub./Ermüd.
 <string>
 <string>Drachentöter-Combo
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1426,7 +1411,7 @@
 <string>Zielmarkierung-Combo
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
-<string>Eine Combo, die eine Zielmarkierung<lf>bei hoher Aufladestufe verschießt,<lf>danach bei gleichbleibender Auflade-<lf>stufe einen Kraftschuss und Kraft-<lf>Schnellschuss ausführt, einem Monster-<lf>angriff durch einen Aufgeladenen<lf>Seitwärtsschritt ausweicht und einen<lf>Schwalbenschuss ermöglicht, womit<lf>du Distanz zum Ziel schaffen kannst.
+<string>Eine Combo, die bei hoher Aufladestufe<lf>eine Zielmarkierung verschießt, danach<lf>Kraftschuss und Kraft-Schnellschuss<lf>ausführt und dabei die Aufladestufe<lf>beibehält.<lf><lf>Nutze im richtigen Moment eines<lf>gegnerischen Angriffs Aufgeladener<lf>Seitwärtsschritt und währenddessen<lf>Schwalbenschuss, um Abstand zwischen<lf>dich und dein Ziel zu bringen.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> nach Aufgeladener Schuss
@@ -1435,15 +1420,15 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> während Aufgeladener Seitwärtsschritt
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>Parabelschuss-Combo
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_052>
-<string>Eine Combo, die mit dem Entfesseln von<lf>Luntenpfeilen mit einem Parabelschuss<lf>beginnt. Dann führst du einen Schwal-<lf>benschuss während einem Aufgeladenen<lf>Seitwärtsschritt aus, wodurch du in die<lf>Position kommst, einen Drachentöter<lf>oder Tausend Drachen abzufeuern, um<lf>die verbleibenden Luntenpfeile zur<lf>Explosion zu bringen.
+<string>Eine Combo, die mit dem Entfesseln von<lf>Luntenpfeilen mit einem Parabelschuss<lf>beginnt.<lf><lf>Dann führst du einen Schwalbenschuss<lf>während eines Aufgeladenen Seitwärts-<lf>schritts aus, woraufhin du mit Drachen-<lf>töter oder Tausend Drachen die verblei-<lf>benden Luntenpfeile zur Explosion<lf>bringen kannst.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> während Aufgeladener Seitwärtsschritt
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>

@@ -5,7 +5,7 @@
 <string>إعادة تعيين المُحدد إلى الوضع الافتراضي
 <string>إعادة تعيين الكل إلى الوضع الافتراضي
 <string>هل <LSNR "تريد" "تريدين"> إعادة ضبط الخيارات المحددة<lf>إلى الإعدادات الافتراضية؟
-<string>هل <LSNR "تريد" "تريدين"> إعادة ضبط كل الخيارات<lf>إلى الإعدادات الافتراضية؟
+<string>هل <LSNR "تريد" "تريدين"> إعادة تعيين جميع الخيارات في<lf>جميع الفئات إلى الإعدادات الافتراضية ؟
 <string>الكل
 <string><PLATMSG MsgGUI030100_0401>
 <string>مشترَك + وحدة تحكم
@@ -23,12 +23,16 @@
 <string>تسهيلات الاستخدام
 <string>اللغة
 <string>الخصوصية
+<string><PLATMSG MsgGUI030100_01_42>
 <string>زر التأكيد
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>يضبط الزر المُستخدَم كزر التأكيد.
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>
-<string>استخدام <ICON PAD UI_DUMMY_ICON_RDOWN> ليكون زر التأكيد.
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
+<string>يستخدم <ICON PAD UI_DUMMY_ICON_RDOWN> كزر التأكيد.
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>
-<string>استخدام <ICON PAD UI_DUMMY_ICON_RRIGHT> ليكون زر التأكيد.
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
+<string>يستخدم <ICON PAD UI_DUMMY_ICON_RRIGHT> كزر التأكيد.
 <string>عناصر تحكم الانطلاق
 <string>يضبط الزر المستخدم للاندفاع.<lf><COLOR preset="TXT_Accent">(لا يؤثر على عناصر تحكم سيكريت)</COLOR>
 <string>استخدام <ICON PAD PL_DASH_TOGGLE> فقط
@@ -37,16 +41,16 @@
 <string><LSNR "استخدم" "استخدمي"> <ICON PAD PL_DASH> للاندفاع.
 <string>استخدام كل من <ICON PAD PL_DASH_TOGGLE> و<ICON PAD PL_DASH>
 <string><LSNR "استخدم" "استخدمي"> <ICON PAD PL_DASH_TOGGLE> و<ICON PAD PL_DASH> للاندفاع.
-<string>تبديل <ICON PAD UI_DUMMY_ICON_LB> و<ICON PAD UI_DUMMY_ICON_RB>
-<string>تبديل وظيفة <ICON PAD UI_DUMMY_ICON_LB> و <ICON PAD UI_DUMMY_ICON_LT>،<lf>و<ICON PAD UI_DUMMY_ICON_RB> و <ICON PAD UI_DUMMY_ICON_RT>.
+<string>تبديل وظائف <ICON PAD UI_DUMMY_ICON_LB> ووظائف <ICON PAD UI_DUMMY_ICON_RB>
+<string>تبديل وظائف <ICON PAD UI_DUMMY_ICON_LB> مع <ICON PAD UI_DUMMY_ICON_LT>،<lf>وكذلك وظائف <ICON PAD UI_DUMMY_ICON_RB> مع <ICON PAD UI_DUMMY_ICON_RT>.
 <string>عدم التبديل
 <string>عدم تبديل وظائف الأزرار.
-<string>تبديل <ICON PAD UI_DUMMY_ICON_LB> و<ICON PAD UI_DUMMY_ICON_LT> فقط
-<string>يقوم فقط بتبديل وظيفتي <ICON PAD UI_DUMMY_ICON_LB> و<ICON PAD UI_DUMMY_ICON_LT>.
-<string>تبديل <ICON PAD UI_DUMMY_ICON_RB> و<ICON PAD UI_DUMMY_ICON_RT> فقط
-<string>يقوم فقط بتبديل وظيفتي <ICON PAD UI_DUMMY_ICON_RB> and <ICON PAD UI_DUMMY_ICON_RT>.
+<string>تبديل <ICON PAD UI_DUMMY_ICON_LB> مع <ICON PAD UI_DUMMY_ICON_LT> فقط
+<string>تبديل وظائف <ICON PAD UI_DUMMY_ICON_LB><lf>مع وظائف <ICON PAD UI_DUMMY_ICON_LT>.
+<string>تبديل <ICON PAD UI_DUMMY_ICON_RB> مع <ICON PAD UI_DUMMY_ICON_RT> فقط
+<string>تبديل وظائف <ICON PAD UI_DUMMY_ICON_RB><lf>مع وظائف <ICON PAD UI_DUMMY_ICON_RT>.
 <string>تبديل الاثنين
-<string>تبديل وظيفة <ICON PAD UI_DUMMY_ICON_LB> مع <ICON PAD UI_DUMMY_ICON_LT>،<lf>و<ICON PAD UI_DUMMY_ICON_RB> مع <ICON PAD UI_DUMMY_ICON_RT>.
+<string>تبديل وظائف <ICON PAD UI_DUMMY_ICON_LB> مع <ICON PAD UI_DUMMY_ICON_LT>،<lf>وكذلك وظائف <ICON PAD UI_DUMMY_ICON_RB> مع <ICON PAD UI_DUMMY_ICON_RT>.
 <string><PLATMSG MsgGUI030100_01_45>
 <string>تكوينات الأزرار
 <string><PLATMSG MsgGUI030100_01_45_HELP>
@@ -58,13 +62,13 @@
 <string>النوع 3
 <string><ICON PAD UI_SHORTCUT_PALLET> استدعاء (سيكريت)، وتبديل الأسلحة، وما إلى ذلك.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> التنقل بين شريط العناصر وشريط الذخيرة/الأغطية<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN> تحديد اختصار القائمة الدائرية
 <string>النوع 4
-<string><ICON PAD UI_SHORTCUT_PALLET> التنقل بين شريط العناصر وشريط الذخيرة/الأغطية<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET> تحديد اختصار القائمة الدائرية<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN> استدعاء (سيكريت)،<lf>وتبديل الأسلحة، وما إلى ذلك.
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>التنقل بين شريط العناصر وشريط الذخيرة/الأغطية<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET><lf>تحديد اختصار القائمة الدائرية<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>استدعاء (سيكريت)، تبديل الأسلحة، إلخ.
 <string>مدة الضغط مطولًا للتأكيد
 <string>ضبط المدة التي <LSNR "تحتاج" "تحتاجين"> إليها للضغط مطولًا<lf>على الزر قبل تأكيد إجراءات معينة<lf>مثل استدعاء (سيكريت) أو تخطي حدث.
 <string>قصيرة
-<string>يتطلب فقط وقتاً قصيراً لتأكيد تنفيذ الإجراء.
+<string>يتطلب وقتاً أقل لتأكيد تنفيذ الإجراء.
 <string>افتراضي
-<string>يتطلب فقط مقدار الوقت الافتراضي لتأكيد تنفيذ الإجراء.
+<string>يتطلب مقدار الوقت القياسي لتأكيد تنفيذ الإجراء.
 <string>طويلة
 <string>يتطلب وقتاً أطول لتأكيد تنفيذ الإجراء.
 <string>غمد السلاح التلقائي
@@ -91,11 +95,11 @@
 <string>عناصر التحكم في نداء سيكريت
 <string>ضبط عناصر التحكم لنداء سيكريت.
 <string>النوع 1
-<string>استدعاء (سيكريت) باستخدام <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL><lf>أو اختصار القائمة الدائرية المخصصة.
+<string>استدعاء (سيكريت) باستخدام <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL><lf>أو اختصار القائمة الدائرية المخصصة.
 <string>النوع 2
-<string>بالإضافة إلى عناصر تحكم النوع 1<lf>سيؤدي الضغط مطولًا على <ICON PAD PL_PT_CALL_KEEP><lf>إلى استدعاء (سيكريت) في وضع التحرك التلقائي<lf>عندما يكون السلاح في غمده.
+<string>بالإضافة إلى عناصر تحكم النوع 1، سيؤدي <ICON PL_PT_CALL_KEEP><lf>مع غمد <LSNR "سلاحكَ" "سلاحكِ"> إلى استدعاء (سيكريت)<lf>في وضع التحرّك التلقائي.
 <string>النوع 3
-<string>بالإضافة إلى عناصر تحكم النوع 1<lf>سيؤدي الضغط مطولًا على <ICON PAD PL_PT_CALL_KEEP><lf>إلى استدعاء (سيكريت) في وضع التحرك اليدوي<lf>عندما يكون السلاح في غمده.
+<string>بالإضافة إلى عناصر تحكم النوع 1، سيؤدي <ICON PL_PT_CALL_KEEP><lf>مع غمد <LSNR "سلاحكَ" "سلاحكِ"> إلى استدعاء (سيكريت)<lf>في وضع التحرّك اليدوي.
 <string>عناصر تحكم استدعاء سيكريت (القائمة الدائرية)
 <string>ضبط إعدادات التحكم الافتراضية عند استدعاء (سيكريت)<lf>باستخدام القائمة الدائرية المخصصة.
 <string>تحرّك تلقائي
@@ -103,40 +107,40 @@
 <string>تحرّك يدوي
 <string>استخدام <COLOR preset="TXT_Accent">استدعاء سيكريت</COLOR> ضمن القائمة الدائرية المخصصة<lf>يستدعي سيكريت في وضع التحرك اليدوي.
 <string>عناصر التحكم اليدوي في سيكريت
-<string>ضبط عناصر التحكم في (سيكريت) في الوضع التحريك اليدوي.
+<string>ضبط عناصر التحكم في (سيكريت) في وضع التحرك اليدوي.
 <string>النوع 1
-<string>شبيه بالتحرك التلقائي لـ(سيكريت).<lf>يحافظ عدم الضغط على زر على السرعة الحالية<lf>و<ICON PAD PL_PT_SPEED_UP> للتسريع، و<ICON PAD PL_PT_SPEED_DOWN> للإبطاء، والضغط مطولًا على <ICON PAD PL_PT_SPEED_DOWN> للتوقف.
+<string>شبيه بالتحرك التلقائي لـ(سيكريت).<lf>يحافظ عدم الضغط على زر على السرعة الحالية<lf>و <ICON PL_PT_SPEED_UP> للتسريع، و <ICON PL_PT_SPEED_DOWN> للإبطاء، والضغط مطولًا<lf>على <ICON PL_PT_SPEED_DOWN> للتوقف.
 <string>النوع 2
-<string>شبيه بعناصر تحكم اللاعب.<lf>التحريك بـ<ICON PAD PL_DUMMY_MOVE> والإفلات للتوقف.<lf>تُحدَّد السرعة وفق زاوية إمالة <ICON PAD PL_DUMMY_MOVE>.
-<string>عناصر التحكم بمسار Seikret فقط
+<string>شبيه بعناصر تحكم الصياد. يتحرك الـ (سيكريت)<lf>فقط عند استخدام <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>،<lf>ويتوقف عندما لا يوجد مدخلات.
+<string>عناصر التحكم بمسار (سيكريت) فقط
 <string>ضبط عناصر التحكم في الحركة<lf>للخروج من مسار (سيكريت) خلال التحرّك التلقائي.
 <string>النوع 1
-<string>تسمح إمالة <ICON PAD PL_DUMMY_MOVE> خلال الركض بأعلى سرعة<lf>بمغادرة مسار (سيكريت) الحالي.
+<string>تسمح إمالة <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> خلال الركض بأعلى سرعة<lf>بمغادرة مسار (سيكريت) الحالي.
 <string>النوع 2
-<string>يسمح الضغط مطولًا على <ICON PAD PL_DUMMY_MOVE> والضغط على <ICON PAD PL_INTERACT_ACTION_START><lf>بمغادرة مسار (سيكريت) الحالي،<lf>بغض النظر عن سرعته الحالية.
-<string>عناصر التحكم في العناصر
-<string>ضبط إعدادات التنقل في شريط العناصر<lf>وإمداد قائمة الشعاعية المخصصة.
-<string>النوع 1
-<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> للتنقل في شريط العناصر
-<string>النوع 2
-<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> للتبديل<lf>بين إمدادات القائمة الشعاعية المخصصة
-<string>عناصر التحكم في شريط العناصر
-<string>ضبط إعدادات التحكم لشريط العناصر.
-<string>شريط العناصر الموسع
-<string>ضبط إعدادات شريط العناصر الموسع.
-<string>تمكين
-<string>تمكين العرض الموسع لشريط العناصر.
-<string>تعطيل
-<string>تعطيل العرض الموسع لشريط العناصر.
+<string>يسمح الضغط مطولًا على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> والضغط على <ICON PL_INTERACT_ACTION_START><lf>بمغادرة مسار (سيكريت) الحالي،<lf>بغض النظر عن سرعته الحالية.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>عناصر تحكم شريط العناصر الموسع
 <string><PLATMSG MsgGUI030100_01_16_HELP>
 <string>ضبط عناصر التحكم لعرض شريط العناصر الموسع.<lf><COLOR preset="TXT_Accent">(وحدة تحكم)</COLOR>
 <string>النوع 1
 <string><ICON PAD UI_ITEM_ALL_OPT1> في أثناء <ICON PAD PL_ITEM_SLIDER_OPEN> يبدّل<lf>بين شريط العناصر الموسع وشريط العناصر العادي
 <string>النوع 2
-<string><ICON PAD UI_ITEM_ALL_OPT2> في أثناء <ICON PAD PL_ITEM_SLIDER_OPEN><lf>يبدّل بين شريط العناصر الموسع وشريط العناصر العادي
+<string><ICON PAD UI_ITEM_ALL_OPT2> في أثناء <ICON PAD PL_ITEM_SLIDER_OPEN><lf>يبدّل بين شريط العناصر الموسع وشريط العناصر العادي.
 <string>النوع 3
-<string><ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN><lf>يبقي شريط العناصر الموسع مرئيًا.
+<string><ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN> يُبقي شريط العناصر الموسع مرئيًا.
 <string>النوع 4
 <string><ICON PAD UI_ITEM_ALL_OPT4> في أثناء <ICON PAD PL_ITEM_SLIDER_OPEN><lf>يبدّل بين شريط العناصر الموسع وشريط العناصر العادي
 <string>النوع 5
@@ -144,14 +148,14 @@
 <string>عناصر تحكم شريط العناصر الموسع
 <string>ضبط عناصر التحكم لعرض شريط العناصر<lf>الموسع. <COLOR preset="TXT_Accent">(لوحة المفاتيح)</COLOR>
 <string>النوع 1
-<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE> في أثناء <ICON MKB PL_ITEM_SLIDER_OPEN> يبدّل بين شريط العناصر الموسع<lf>وشريط العناصر العادي.
+<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE> في أثناء الضغط مطولًا على <ICON MKB PL_ITEM_SLIDER_OPEN><lf>يبدّل بين شريط العناصر الموسع وشريط العناصر العادي.
 <string>النوع 2
-<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN> يُبقي شريط العناصر الموسع معروضًا.
+<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN> يُبقي شريط العناصر الموسع مرئيًا.
 <string>النوع 3
 <string>لا يتم عرض شريط العناصر الموسع مع مدخلات لوحة المفاتيح.
 <string>سرعة مؤشر شريط العناصر الموسع
 <string><PLATMSG MsgGUI030100_01_01_Help>
-<string>يعدل سرعة حركة المؤشر للتحكم بالعصا<lf>أثناء عرض شريط العناصر بالكامل.
+<string>ضبط سرعة حركة المؤشر لعناصر التحكم <ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT><lf>أثناء توسيع شريط العناصر.
 <string>بطيئة
 <string>خفض سرعة حركة المؤشر.
 <string>افتراضية
@@ -164,67 +168,67 @@
 <string>عرض كل العناصر المكدسة عموديًا<lf>لكل العناصر المرئية.
 <string>التكدس المحدد فقط
 <string>عرض العناصر المكدسة عموديًا فقط<lf>للعنصر المحدد حاليًا.
-<string>عناصر التحكم في شريط العناصر الموسع (تحديد عنصر)
-<string>ضبط عناصر التحكم لتحديد العناصر<lf>في شريط العناصر الموسع باستخدام <ICON PAD UI_ITEM_LEFT> و<ICON PAD UI_ITEM_RIGHT>.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
+<string>عناصر التحكم في القائمة الدائرية المخصصة
+<string>ضبط عناصر التحكم للقائمة الدائرية المخصصة.
+<string>اختصارات القائمة الدائرية المخصصة
+<string>السماح بتهيئة القائمة الدائرية المخصصة
 <string>تمكين
-<string>تمكين استخدام <ICON PAD UI_ITEM_LEFT> و<ICON PAD UI_ITEM_RIGHT> لتحديد العناصر<lf>في شريط العناصر الموسع.
+<string>تمكين الاختصارات للقائمة الدائرية المخصصة.
 <string>تعطيل
-<string>تعطيل استخدام <ICON PAD UI_ITEM_LEFT> و<ICON PAD UI_ITEM_RIGHT> لتحديد العناصر<lf>في شريط العناصر الموسع.
-<string>عناصر التحكم في شريط العناصر الموسع (ذخيرة/أغطية)
-<string>ضبط عناصر التحكم لتحديد الذخيرة/الأغطية<lf>في شريط العناصر الموسع باستخدام <ICON PAD UI_BULLET_ITEM_UP> و<ICON PAD UI_BULLET_ITEM_DOWN>.
-<string>تمكين
-<string>تمكين استخدام <ICON PAD UI_BULLET_ITEM_UP> و<ICON PAD UI_BULLET_ITEM_DOWN> لتحديد الذخيرة/الأغطية<lf>في شريط العناصر الموسع.
-<string>تعطيل
-<string>تعطيل استخدام <ICON PAD UI_BULLET_ITEM_UP> و<ICON PAD UI_BULLET_ITEM_DOWN> لتحديد الذخيرة/الأغطية<lf>في شريط العناصر الموسع.
-<string>عناصر التحكم في شريط العناصر الموسع (استخدام عنصر)
-<string>ضبط عناصر التحكم لاستخدام العناصر<lf>في شريط العناصر الموسع باستخدام <ICON PAD UI_ITEM_USE>.
-<string>تمكين
-<string>تمكين استخدام <ICON PAD UI_ITEM_USE> لاستخدام العناصر<lf>في شريط العناصر الموسع.
-<string>تعطيل
-<string>تعطيل استخدام <ICON PAD UI_ITEM_USE> لاستخدام العناصر<lf>في شريط العناصر الموسع.
-<string><PLATMSG MsgGUI030100_01_48>
-<string>عرض موسع لعناصر التحكم في أزرار الاتجاهات
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>تحديد تكوين زر الاتجاهات المضبوط مسبقًا<lf>عند فتح شريط العناصر بالكامل.
-<string>النوع 1
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>الالتزام بالإعداد المُحدد في<lf>تكوينات الأزرار وزر الاتجاهات.<lf>عندما يكون شريط العناصر مفتوحًا<lf>بالكامل، ستتولى أزرار الاتجاهات<lf>الوظيفة المخصصة لـ <ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET>.
-<string>النوع 2
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>ستتنقل أزرار الاتجاهات دائمًا داخل<lf>شريط العناصر بينما يكون<lf>شريط العناصر مفتوحًا بالكامل.
-<string>النوع 3
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>ستتنقل أزرار الاتجاهات دائمًا داخل<lf>شريط العناصر وشريط الذخيرة بينما<lf>يكون شريط العناصر مفتوحًا بالكامل.
-<string>النوع 4
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>تعطيل أزرار الاتجاهات أثناء<lf>فتح شريط العناصر بالكامل.
-<string>عرض موسع لعناصر التحكم في <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>
-<string>تحديد تكوين <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> المضبوط مسبقًا عندما يكون شريط العناصر مفتوحًا بالكامل.
-<string>النوع 1
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>الالتزام بالإعداد المُحدد في تكوينات الأزرار<lf>وزر الاتجاهات.<lf>عندما يكون شريط العناصر مفتوحًا بالكامل<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN><lf>ستتولى الوظائف المخصصة<lf>لـ <ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>.
-<string>النوع 2
-<string>ستعمل دائمًا <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> داخل شريط العناصر<lf>بينما يكون شريط العناصر مفتوحًا بالكامل.
-<string>النوع 3
-<string>ستعمل دائمًا <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> داخل شريط العناصر وشريط الذخيرة<lf>بينما يكون شريط العناصر مفتوحًا بالكامل.
-<string>النوع 4
-<string>تعطيل عناصر التحكم <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN><lf>أثناء فتح شريط العناصر بالكامل.
-<string>عناصر التحكم في القائمة الشعاعية المخصصة
-<string>ضبط عناصر التحكم للقائمة الشعاعية المخصصة.
-<string>اختصارات القائمة الشعاعية المخصصة
-<string>السماح بتهيئة القائمة الشعاعية المخصصة
-<string>تمكين
-<string>تمكين الاختصارات للقائمة الشعاعية المخصصة.
-<string>تعطيل
-<string>تعطيل الاختصارات للقائمة الشعاعية المخصصة.
+<string>تعطيل الاختصارات للقائمة الدائرية المخصصة.
 <string>عناصر التحكم في استخدام العناصر
-<string>ضبط عناصر التحكم لتحديد العناصر<lf>في القائمة الشعاعية المخصصة.
+<string>ضبط عناصر التحكم لتحديد العناصر<lf>في القائمة الدائرية المخصصة.
 <string>النوع 1
-<string>يؤدي إفلات <ICON PAD UI_SHORTCUT_ITEM_USE_DUMMY> إلى تحديد العناصر والتحيات وما إلى ذلك. 
+<string>إفلات <ICON PAD UI_SHORTCUT_ITEM_USE_DUMMY> يحديد العناصر، يلقي تحيات، إلخ. 
 <string>النوع 2
 <string>يؤدي الضغط على <ICON PAD PL_DUMMY_CAMERA> إلى تحديد العناصر والتحيات وما إلى ذلك.
-<string>التحكمات عند الضغط مطولًا
-<string>اختيار أي وظيفة تُفتح عند الضغط مطولًا على <ICON PAD UI_CHAT_LOG_OPEN>.
+<string>عناصر التحكم عند الضغط مطولًا على <ICON PAD UI_CHAT_LOG_OPEN>
+<string>اختيار الوظيفة التي تفتح عند الضغط مطولًا على <ICON PAD UI_CHAT_LOG_OPEN>.
 <string>النوع 1
 <string>الضغط مطولًا على <ICON PAD UI_CHAT_LOG_OPEN> لفتح سجل الدردشة.
 <string>النوع 2
@@ -256,7 +260,7 @@
 <string>استخدام المفاتيح الرئيسية للاختيار في القائمة وحركة الكاميرا، والمفاتيح الفرعية لحركة الصياد.
 <string>النوع 3
 <string>استخدام المفاتيح الرئيسية لحركة الصياد، والمفاتيح الفرعية للاختيار في القائمة، واستخدام الماوس في حركة الكاميرا.
-<string>إعدادات المفاتيح
+<string>إعدادات لوحة المفاتيح
 <string>ضبط كيفية استخدام لوحة المفاتيح أثناء اللعب.
 <string>الوضع القياسي
 <string><PLATMSG MsgGUI030100_01_29_00_Help>
@@ -293,26 +297,26 @@
 <string>لا يتم عرض مؤشر الماوس عند عرض<lf>اختصارات لوحة المفاتيح.<lf><COLOR preset="TXT_Accent">(لا يمكن استخدام الاختصارات مع الماوس).</COLOR>
 <string>أولويات عجلة التمرير
 <string>ضبط عناصر التحكم ذات الأولوية لعجلة تمرير الماوس<lf>أثناء التنقل في القوائم.
-<string>أولوية تغيير الصفحة
+<string>أولوية تنقل الصفحة
 <string>إعطاء الأولوية لتغيير الصفحات في<lf>القائمة إذا كانت تحتوي على صفحات<lf>يمكن التنقل بينها لليسار أو لليمين.
-<string>أولوية الاختيار
+<string>أولوية تحديد القائمة
 <string>إعطاء الأولوية للتنقل بين القوائم لأعلى<lf>ولأسفل حتى لو كانت تحتوي على صفحات<lf>يمكن التنقل بينها لليسار أو لليمين.
 <string>تعطيل Alt + F4 إغلاق إجباري
 <string>يضبط استخدام Alt + F4 للإغلاق<lf>الإجباري للتطبيق.
 <string>تشغيل
 <string>يُعطّل القدرة على إنهاء التطبيق بالقوة باستخدام Alt + F4.
 <string>إيقاف
-<string>سيؤدي الضغط على Alt + F4 إلى الإغلاق الإجباري<lf>للتطبيق.
+<string>يفعِّل القدرة على الإغلاق الإجباري للتطبيق باستخدام Alt + F4.
 <string>تعطيل مفتاح Windows
-<string>يمنع أو يسمح باستخدام مفتاح Windows<lf>لتفعيل وظائف نظام التشغيل.<lf><COLOR preset="TXT_Accent">(يجب إعادة تشغيل اللعبة لتفعيل التغييرات).</COLOR>
+<string>يضبط ما إذا كان مفتاح Windows<lf>مستخدمًا لتفعيل وظائف نظام التشغيل.<lf><COLOR preset="TXT_Accent">(تجب إعادة تشغيل اللعبة لتفعيل التغييرات).</COLOR>
 <string>تشغيل
 <string>يمنع مفتاح Windows من عرض قائمة ابدأ<lf>في Windows أو تفعيل الاختصارات.
 <string>إيقاف
-<string>يتيح استخدام مفتاح Windows عرض قائمة بدء Windows<lf>أو تفعيل الاختصارات.
+<string>يُمكّن مفتاح Windows من عرض قائمة ابدأ في Windows أو تفعيل الاختصارات.
 <string>عكس زري الماوس الأيسر والأيمن
-<string>ضبط عكس عناصر التحكم<lf>والعرض لزري الماوس الأيسر والأيمن.
+<string>يضبط ما إذا كانت عناصر التحكم والعرض<lf>لزري الماوس الأيسر والأيمن معكوسة.
 <string>عكس
-<string>عكس عناصر التحكم وعرض<lf>زري الماوس الأيسر والأيمن. هذا الإعداد<lf>مخصص للاعبين الذين يستخدمون اليد اليسرى.
+<string>يعكس عناصر التحكم والعرض<lf>لزري الماوس الأيسر والأيمن. هذا الإعداد مخصص للاعبين<lf>الذين يستخدمون اليد اليسرى.
 <string>عدم العكس
 <string>لا يعكس عناصر التحكم وعرض<lf>زري الماوس الأيسر والأيمن. هذا الإعداد<lf>مخصص للاعبين الذين يستخدمون اليد اليمنى.
 <string>أيقونات أزرار وحدة التحكم
@@ -334,11 +338,11 @@
 <string>عدم الحفظ
 <string>عدم حفظ موضع المؤشر<lf>عند الخروج من قائمة البدء<lf>وتكون القائمة دائمًا في الموضع الأولي.
 <string>إعدادات تكبير الخريطة
-<string>تعيين استخدام المُحفّزات تكيفية لتقليص الخريطة<lf>المفصَّلة أو توسيعها على الفور إلى قيمتها القصوى<lf>بالضغط على <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> بقوة كافية للشعور بالنقرة.
+<string>تعيين استخدام المُحفّزات تكيفية لتقليص الخريطة<lf>المفصَّلة أو توسيعها على الفور إلى قيمتها القصوى<lf>بالضغط على <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> بقوة كافية للشعور بالنقرة.
 <string>تمكين
-<string>تمكين استخدام المُحفّزات التكيفية لتقليص<lf>أو تكبير الخريطة المفصَّلة على الفور<lf>بالضغط على <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> بالكامل.
+<string>تمكين استخدام المُحفّزات التكيفية لتقليص<lf>أو تكبير الخريطة المفصَّلة على الفور<lf>بالضغط على <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> بالكامل.
 <string>تعطيل
-<string>تعطيل المُحفّزات التكيفية التي تتسبب في تصغير/تكبير<lf>الخريطة المفصَّلة بينما يؤدي الضغط على <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN><lf>إلى التكبير/التصغير بالسرعة الافتراضية.
+<string>تعطيل المُحفّزات التكيفية التي تتسبب في تصغير/تكبير<lf>الخريطة المفصَّلة بينما يؤدي الضغط على<ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN><lf>إلى التكبير/التصغير بالسرعة الافتراضية.
 <string>سرعة الكاميرا (أفقيًا): عادية
 <string>يعدّل سرعة حركة الكاميرا أفقيًا أثناء اللعب العادي.
 <string>سرعة الكاميرا (عموديًا): عادية
@@ -354,13 +358,13 @@
 <string>سرعة الكاميرا (عموديًا): <ICON PAD PL_AIM>
 <string>يضبط سرعة الحركة العمودية للكاميرا عند استخدام <ICON PAD PL_AIM>.<lf>إذا كانت <COLOR preset="TXT_Accent">سرعة الكاميرا: إشهار السلاح</COLOR> ممكَّنة،<lf>فسيتم تطبيق هذا الإعداد فقط عند غمد السلاح.
 <string>سرعة الكاميرا: إشهار السلاح
-<string>عند التمكين، يمكن ضبط سرعة الكاميرا خلال الضغط<lf>مطولًا على <ICON PAD PL_AIM>مع إشهار السلاح بشكل منفصل<lf>لأسلحة الاشتباك وبعيدة المدى. 
+<string>يمكِّن سرعة الكاميرا عند الضغط مطولًا على <ICON PAD PL_AIM><lf>مع إشهار السلاح، يمكن ضبطها بشكل منفصل<lf>لأسلحة الاشتباك وبعيدة المدى. 
 <string>سلاح الاشتباك (أفقيًا): <ICON PAD PL_AIM>
 <string>يضبط سرعة الحركة الأفقية للكاميرا<lf>عند استخدام <ICON PAD PL_AIM> بسلاح اشتباك<lf>مُشهَّر (في وضع التركيز).
 <string>سلاح الاشتباك (عموديًا): <ICON PAD PL_AIM>
-<string>يضبط سرعة الحركة العمودية للكاميرا<lf>عند استخدام <ICON PAD PL_AIM> بسلاح اشتباك مُشهَّر<lf>(في وضع التركيز).
+<string>يضبط سرعة الكاميرا الرأسية عند استخدام <ICON PAD PL_AIM><lf>(وضع التركيز) مع إشهار سلاح الاشتباك.
 <string>سلاح بعيد المدى (أفقيًا): <ICON PAD PL_AIM>
-<string>يضبط سرعة الحركة الأفقية للكاميرا<lf>عند استخدام <ICON PAD PL_AIM> بسلاح بعيد المدى مُشهَّر<lf>(في وضع التصويب/التركيز).
+<string>يضبط سرعة الكاميرا الأفقية عند استخدام <ICON PAD PL_AIM><lf>(وضع التصويب/وضع التركيز) مع إشهار سلاح بعيد المدى.
 <string>سلاح بعيد المدى (عموديًا): <ICON PAD PL_AIM>
 <string>يضبط سرعة الحركة العمودية للكاميرا<lf>عند استخدام <ICON PAD PL_AIM> بسلاح بعيد المدى مُشهَّر<lf>(في وضع التصويب/التركيز).
 <string>حساسية الكاميرا: التصويب/التركيز
@@ -370,9 +374,9 @@
 <string>حساسية الكاميرا العمودية:التصويب/التركيز
 <string>إضافة التحيز العمودي لحركة الماوس عند التصويب<lf>أو في وضع التركيز. كلما انخفضت القيمة،<lf>ستقل سرعة حركة الكاميرا العمودية.
 <string>سرعة الكاميرا <ICON PAD PL_DUMMY_MOVE>
-<string>يضبط سرعة حركة الكاميرا عندما يكون التحكم في الكاميرا ممكنًا باستخدام <ICON PAD PL_DUMMY_MOVE><lf>كما هو الحال في وضع التركيز.<lf><COLOR preset="TXT_Accent">(إذا تم التعيين إلى 1، فسيتم تعطيل التحكم في الكاميرا باستخدام <ICON PAD PL_DUMMY_MOVE>)</COLOR>
+<string>يضبط سرعة حركة الكاميرا عندما يكون التحكم في الكاميرا ممكنًا باستخدام <ICON PAD PL_DUMMY_MOVE><lf>كما هو الحال في وضع التركيز.<lf><COLOR preset="TXT_Accent">(إذا تم التعيين إلى 1، فسيتم تعطيل التحكم في الكاميرا باستخدام <ICON PAD PL_DUMMY_MOVE><RTL>)</COLOR>
 <string>سرعة شبكة التصويب المسار
-<string>يضبط سرعة شبكة التصويب لطلقات القوس الملتوية<lf>القنابل العنقودية لبندقية القوس الثقيلة.
+<string>يضبط سرعة شبكة التصويب لطلقات القوس الملتوية<lf>و القنابل العنقودية لبندقية القوس الثقيلة.
 <string>عكس الكاميرا: عادي
 <string>ضبط إعدادات عكس الكاميرا<lf>عندما تكون الكاميرا في الوضع القياسي.
 <string>عدم العكس
@@ -381,7 +385,7 @@
 <string>يعكس حركة الكاميرا لأعلى/لأسفل.<lf>حركة الكاميرا لليسار/لليمين تبقى طبيعية.
 <string>عكس أفقي
 <string>يعكس حركة الكاميرا لليسار/لليمين.<lf>حركة الكاميرا لأعلى/لأسفل تبقى طبيعية.
-<string>معكوس
+<string>عكس
 <string>يعكس حركة الكاميرا لأعلى/لأسفل<lf>أو لليسار/لليمين.
 <string>عكس الكاميرا: <ICON PL_AIM>
 <string>ضبط إعدادات عكس الكاميرا عند استخدام <ICON PL_AIM>.<lf>إن كان <COLOR preset="TXT_Accent">عكس الكاميرا: إشهار السلاح</COLOR> ممكَّنًا،<lf>فسينطبق هذا الإعداد فقط عند غمد السلاح.
@@ -392,7 +396,7 @@
 <string>سلاح بعيد المدى <ICON PL_AIM>
 <string>ضبط عكس الكاميرا عند الضغط مطولًا على <ICON PL_AIM><lf>(وضع التصويب/التركيز) مع إشهار سلاح بعيد المدى.
 <string>عكس مسار التصويب
-<string>ضبط عناصر التحكم في التصويب العمودي<lf>لمسار تصويب طلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.
+<string>يضبط عناصر التحكم في التصويب العمودي<lf>لمسار تصويب طلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.
 <string>عناصر التحكم في المدى: عادي
 <string>يحرك مسار التصويب للأمام والخلف<lf>في اتجاه المدخلات نفسه.
 <string>عناصر التحكم في المدى: معكوس
@@ -411,10 +415,10 @@
 <string>يضبط المسافة الأمامية بين الكاميرا والصياد.
 <string>بُعد الكاميرا: التحريك
 <string>يضبط المسافة الجانبية بين الكاميرا والصياد.
-<string>اهتزاز الكاميرا
-<string>يضبط شدة اهتزازات الكاميرا<lf>الناتجة عن الأحداث داخل اللعبة.
 <string>هزّ الكاميرا
-<string>يضبط شدة تأثيرات هزّ الكاميرا.
+<string>يضبط شدة هزّ الكاميرا الناتجة<lf>عن الأحداث والإجراءات داخل اللعبة.
+<string>تأرجح الكاميرا المحيطية
+<string>يضبط شدة تأثير تأرجح<lf>الكاميرا المحيطية.
 <string>ضبط دائرة الكاميرا
 <string>ضبط كيفية تفاعل الكاميرا مع المنحدرات<lf>والتضاريس المائلة الأخرى.
 <string>ضبط
@@ -426,12 +430,12 @@
 <string>تصحيح الكاميرا الجانبي: عادي
 <string>يضبط الدرجة التي تقود بها الكاميرا الشخصية<lf>عند التحرك جانبيًا سيرًا على الأقدام.
 <string>تصحيح الكاميرا الجانبي: عند الامتطاء
-<string>يضبط الدرجة التي تقود بها الكاميرا الشخصية<lf>عند التحرك جانبيًا عند امتطاء (سيكريت).
+<string>يضبط الدرجة التي تقود بها الكاميرا الشخصية<lf>أثناء التحرك جانبيًا عند امتطاء (سيكريت).
 <string>التمركز التلقائي: عادي
 <string>ضبط تصحيح الكاميرا التلقائي لتواجه الاتجاه<lf>الذي يتحرك فيه الصياد سيرًا على الأقدام.
 <string>تمكين
 <string>تمركز الكاميرا تلقائيًا عند التحرك<lf>سيرًا على الأقدام أو الركض.
-<string>تشغيل (ليس أثناء القتال)
+<string>تمكين (ليس أثناء القتال)
 <string>تمركز الكاميرا تلقائيًا عند التحرك سيرًا<lf>على الأقدام أو الركض إلا أثناء القتال.
 <string>تعطيل
 <string>عدم تمركز الكاميرا تلقائيًا عند التحرك<lf>سيرًا على الأقدام أو الركض.
@@ -441,7 +445,7 @@
 <string>تمركز الكاميرا تلقائيًا<lf>عند امتطاء (سيكريت).
 <string>تمكين (ليس أثناء القتال)
 <string>تمركز الكاميرا تلقائيًا عند امتطاء (سيكريت)<lf>باستثناء أثناء القتال.
-<string>إيقاف
+<string>تعطيل
 <string>عدم تمركز الكاميرا تلقائيًا<lf>عند امتطاء (سيكريت).
 <string>اتجاه شبكة التصويب
 <string>ضبط أداء الكاميرا<lf>عند عرض شبكة التصويب.
@@ -454,44 +458,44 @@
 <string>النوع 4
 <string>تستهدف شبكة التصويب في نفس الاتجاه<lf>ونفس الزاوية التي تواجهها الكاميرا، بغض النظر<lf>عن اتجاه الصياد.<lf>عند استهداف وحش، ستواجه الهدف.
 <string>مساعدة التصويب
-<string>ضبط مساعدة التصويب أو تعطيلها<lf>لإبطاء حركة شبكة التصويب<lf>عند التحليق أعلى الهدف.
+<string>ضبط مساعدة التصويب أو تعطيلها<lf>لإبطاء حركة شبكة التصويب<lf>عند التمرير على الهدف.
 <string>تمكين
 <string>تمكين مساعدة التصويب.
 <string>تعطيل
 <string>تعطيل مساعدة التصويب.
 <string>عناصر التحكم في وضع التصويب/التركيز
-<string>ضبط عناصر التحكم لتشغيل وضع التصويب/التركيز.<lf>إذا كان "وضع التصويب/التركيز: متقدم" ممكَّنًا،<lf>فلن يتم تطبيق هذا الإعداد إلا على الأسلحة المغمدة.
+<string>يضبط كيفية تشغيل وضع التصويب/التركيز. إذا تم تمكين<lf><COLOR preset="TXT_Accent">عناصر التحكم المتقدمة في وضع التصويب/التركيز</COLOR>،<lf>فلن يتم تطبيق هذا الإعداد إلا على الأسلحة المغمدة.
 <string>ضغط <ICON PAD PL_AIM> مطولًا لتشغيل الوضع
 <string>عند إشهار السلاح، يجب ضغط <ICON PAD PL_AIM> مطولًا<lf>لتشغيل وضع التصويب/التركيز للسلاح<lf>وعندما يكون في غمده<lf>سيفعِّل ذلك وضع تصويب نبلة المعصم.
-<string>الضغط على <ICON PAD PL_AIM> لتبديل الوضع
-<string>عند إشهار السلاح، يجب ضغط <ICON PAD PL_AIM><lf>لتبديل وضع التصويب/التركيز للسلاح<lf>وعندما يكون في غمده<lf>سيبدِّل ذلك وضع تصويب نبلة المعصم.<lf>يجب الضغط مجددًا لإيقاف التبديل.
-<string>عند إشهار السلاح، يجب ضغط <ICON PAD PL_AIM><lf>لتبديل وضع التركيز بين التشغيل/الإيقاف لأسلحة الاشتباك،<lf>ووضع التصويب/التركيز للأسلحة بعيدة المدى.
+<string><ICON PAD PL_AIM_TOGGLE> لتبديل الوضع
+<string>عند إشهار <LSNR "سلاحكَ" "سلاحكِ">، سيؤدي <ICON PAD PL_AIM_TOGGLE> إلى تشغيل/إيقاف<lf>وضع التركيز لأسلحة الاشتباك ووضع التصويب/التركيز<lf>للأسلحة بعيدة المدى. عندما يكون <LSNR "سلاحكَ" "سلاحكِ"><lf>في غمده، سيؤدي هذا إلى تشغيل/إيقاف التصويب<lf>لنبلة المعصم بدلًا من ذلك.
+<string>عند إشهار <LSNR "سلاحكَ" "سلاحكِ">، سيؤدي <ICON PAD PL_AIM_TOGGLE> إلى تشغيل/إيقاف<lf>وضع التركيز لأسلحة الاشتباك ووضع التصويب/التركيز<lf>للأسلحة بعيدة المدى.
 <string>عناصر التحكم المتقدمة في وضع التصويب/التركيز
-<string>عند التمكين، يمكن ضبط عناصر التحكم<lf>لتشغيل كل وضع باستخدام سلاح مُشهَّر<lf>بشكل منفصل لأسلحة الاشتباك وبعيدة المدى.
+<string>يحدد كيفية تشغيل وضع التركيز<lf>ووضع التصويب/التركيز لأسلحة الاشتباك/الأسلحة بعيدة المدى<lf>بشكل منفصل. <COLOR preset="TXT_Accent">(لا يؤثر على عناصر التحكم في نبلة المعصم.)</COLOR>
 <string>أسلحة الاشتباك
 <string>ضبط عناصر التحكم لتشغيل وضع التركيز<lf>باستخدام أسلحة الاشتباك.
-<string>ضغط <ICON PAD PL_AIM> مطولًا لتشغيل الوضع
+<string><ICON PAD PL_AIM> لتشغيل الوضع
 <string>عند إشهار سلاح اشتباك، يجب الضغط مطولًا<lf>على <ICON PAD PL_AIM> لتشغيل وضع التركيز.
-<string>الضغط على <ICON PAD PL_AIM> لتبديل الوضع
-<string>الضغط على <ICON PAD PL_AIM> يبدل وضع التركيز تشغيل/إيقاف<lf>عند إشهار سلاح اشتباك.
+<string>الضغط على <ICON PAD PL_POP_CHANGE_SELECT> لتبديل الوضع
+<string>الضغط على <ICON PAD PL_POP_CHANGE_SELECT> يبدل وضع التركيز تشغيل/إيقاف<lf>عند إشهار سلاح اشتباك.
 <string>أسلحة بعيدة المدى
 <string>ضبط عناصر التحكم لتشغيل وضع التصويب/التركيز<lf>باستخدام أسلحة بعيدة المدى.
-<string>ضغط <ICON PAD PL_AIM> مطولًا لتشغيل الوضع
+<string><ICON PAD PL_AIM> لتشغيل الوضع
 <string>عند إشهار سلاح بعيد المدى، يجب الضغط مطولًا<lf>على <ICON PAD PL_AIM> لتشغيل وضع التصويب/التركيز.
-<string>الضغط على <ICON PAD PL_AIM> لتبديل الوضع
-<string>الضغط على <ICON PAD PL_AIM> يبدل وضع التركيز تشغيل/إيقاف<lf>عند إشهار سلاحك بعيد المدى.
+<string>الضغط على <ICON PAD PL_POP_CHANGE_SELECT> لتبديل الوضع
+<string>الضغط على <ICON PAD PL_POP_CHANGE_SELECT> يبدل وضع التركيز تشغيل/إيقاف<lf>عند إشهار سلاحك بعيد المدى.
 <string>نوع التحكم في كاميرا الهدف
 <string>ضبط عناصر التحكم في كاميرا الهدف<lf>وإعادة ضبط الكاميرا.
 <string>النوع 1
-<string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة<lf>لتوجيه الكاميرا نحو الوحش المستهدَف.<lf>الضغط مرتين لمواجهة الكاميرا في الاتجاه نفسه<lf>الذي تواجهه الصياد.
+<string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة<lf>لتوجيه الكاميرا نحو الوحش المستهدَف.<lf>الضغط مرتين لمواجهة الكاميرا في الاتجاه نفسه<lf>الذي يواجهه الصياد.
 <string>النوع 2
 <string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة<lf>لتوجيه الكاميرا في الاتجاه نفسه<lf>الذي يواجهه الصياد. الضغط مرتين لمواجهة الكاميرا<lf>نحو الوحش المستهدَف.
 <string>النوع 3
-<string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة<lf>لتوجيه الكاميرا نحو الوحش المستهدَف.<lf>الضغط مرتين لا يفعل شيئًا.
+<string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة<lf>لتوجيه الكاميرا نحو الوحش المستهدَف.
 <string>النوع 4
-<string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة<lf>لتوجيه الكاميرا في الاتجاه نفسه<lf>الذي تواجهه الصياد. الضغط مرتين لا يفعل شيئًا.
+<string>الضغط على <ICON PL_CAMERA_RESET> مرة واحدة لتوجيه الكاميرا<lf>في الاتجاه نفسه الذي يواجهه الصياد.
 <string>النوع 5
-<string>الضغط على <ICON PL_CAMERA_RESET> لن يوجه الكاميرا في الاتجاه<lf>نفسه الذي يواجهه الصيادأ نحو الوحش المستهدف.
+<string>الضغط على <ICON PL_CAMERA_RESET> لن يوجه الكاميرا في الاتجاه<lf>نفسه الذي يواجهه الصياد أو نحو الوحش المستهدف.
 <string>اتجاه إعادة ضبط الكاميرا
 <string>ضبط الاتجاه الذي تواجهه الكاميرا<lf>عند إعادة الضبط.
 <string>اتجاه <ICON PAD PL_DUMMY_MOVE>
@@ -500,10 +504,10 @@
 <string>إعادة ضبط الكاميرا لتواجه الاتجاه<lf>الذي تواجهه الشخصية.
 <string>إعادة ضبط الكاميرا عموديًا
 <string>ضبط تأثُّر الاتجاه العمودي<lf>عند إعادة ضبط الكاميرا.
-<string>تسطيح
-<string>إعادة ضبط الكاميرا يسطِّح الاتجاه العمودي.
-<string>عدم التسطيح
-<string>إعادة ضبط الكاميرا<lf>لا يغير الاتجاه العمودي ولا يسطِّحه.
+<string>تسوية
+<string>تؤدي إعادة ضبط الكاميرا إلى تسوية الاتجاه العمودي.
+<string>عدم التسوية
+<string>إعادة ضبط الكاميرا يترك الاتجاه العمودي<lf>كما كان، ولا يؤدي إلى تسويتها.
 <string>كاميرا الهدف الرأسية
 <string>ضبط اتجاه كاميرا الهدف العمودي<lf>عند مواجهة وحش.
 <string>محاذاة مع الهدف
@@ -511,7 +515,7 @@
 <string>عدم الضبط
 <string>لن يتغير الاتجاه العمودي لكاميرا الهدف<lf>بغض النظر عن موضع الوحش المستهدَف.
 <string>أفقي
-<string>سيتسطح الاتجاه العمودي لكاميرا الهدف أفقيًا<lf>بغض النظر عن موضع الوحش المستهدَف.
+<string>يستوي الاتجاه العمودي لكاميرا الهدف أفقيًا<lf>بغض النظر عن موضع الوحش المستهدَف.
 <string>بين الاتجاه الأفقي والهدف
 <string>ستتم محاذاة كاميرا الهدف عموديًا<lf>بين موضع الوحش المستهدَف<lf>والموضع الأفقي المسطَّح.
 <string>بين الموضع الحالي والهدف
@@ -557,7 +561,7 @@
 <string>عناصر تحكم الماوس في الكاميرا
 <string>ضبط تحكم الماوس<lf>في الكاميرا. يمكن لمؤشر الماوس مغادرة<lf>النافذة حسب الإعداد.
 <string>تشغيل
-<string>يمكن الماوس من التحكم في الكاميرا.<lf>لا يمكن لمؤشر الماوس مغادرة النافذة<lf>عندما يكون هذا الإعداد مفعلًا.
+<string>يمكّن الماوس من التحكم في الكاميرا.<lf>لا يمكن لمؤشر الماوس مغادرة النافذة<lf>عندما يكون هذا الإعداد مفعلًا.
 <string>إيقاف
 <string>يمكّن لوحة المفاتيح من التحكم بالكاميرا.<lf>يمكن لمؤشر الماوس مغادرة النافذة طالما<lf>أن اللعبة في <COLOR preset="TXT_Accent">وضع النافذة</COLOR>.
 <string><PLATMSG MsgGUI030100_02_28>
@@ -569,7 +573,7 @@
 <string>يضبط كيفية تمكين عناصر التحكم في الكاميرا الجيروسكوبية.
 <string>اضغط على <ICON PAD PL_AIM> للتمكين
 <string><PLATMSG MsgGUI030100_02_72_00_Help>
-<string>يؤدي الضغط على <ICON PAD PL_AIM> إلى تمكين عناصر التحكم في الكاميرا<lf>الجيروسكوبية فقط عند التصويب أو في وضع التركيز.
+<string>يتم تمكين عناصر التحكم في الكاميرا بالجيروسكوب فقط<lf>أثناء استخدام <ICON PAD PL_AIM> عند التصويب أو في وضع التركيز.
 <string>مفعَّل دائمًا
 <string><PLATMSG MsgGUI030100_02_72_01_Help>
 <string>تمكين عناصر التحكم الجيروسكوبية للاستخدام كلما أمكن ذلك.
@@ -581,8 +585,8 @@
 <string>ضبط الحساسية العمودية للكاميرا<lf>لعناصر التحكم في الجيروسكوب خلال اللعب العادي.
 <string>حساسية التحكم (أفقيًا): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_57_Help>
-<string>يضبط الحساسية الأفقية لعناصر التحكم في الجيروسكوب عند استخدام <ICON PAD PL_AIM>.<lf>إذا كان خيار <COLOR preset="TXT_Accent">حساسية التحكم: إشهار السلاح</COLOR> مفعلًا، فإن هذا الإعداد<lf>ينطبق فقط عندما يكون سلاحك مَشحوذًا
-<string>حساسية التحكم: <ICON PAD PL_AIM> (عمودي)
+<string>يضبط الحساسية الأفقية لعناصر التحكم في الجيروسكوب عند استخدام <ICON PAD PL_AIM>.<lf>إذا كان خيار <COLOR preset="TXT_Accent">حساسية التحكم: إشهار السلاح</COLOR> مفعلًا، فإن هذا الإعداد<lf>ينطبق فقط عندما يكون سلاحك مَشحوذًا.
+<string>حساسية التحكم (عمودياً): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_58_Help>
 <string>يضبط الحساسية العمودية لعناصر التحكم في الجيروسكوب عند استخدام <ICON PAD PL_AIM>.<lf>إذا كان خيار <COLOR preset="TXT_Accent">حساسية التحكم: إشهار السلاح</COLOR> مفعلًا، فإن هذا الإعداد<lf>ينطبق فقط عندما يكون سلاحك مَشحوذًا
 <string>حساسية التحكم: إشهار السلاح
@@ -602,17 +606,17 @@
 <string>يضبط الحساسية لعناصر التحكم العمودية في الجيروسكوب<lf>عند استخدام <ICON PAD PL_AIM> (وضع التصويب/التركيز)<lf>بسلاح مُشهر بعيد المدى.
 <string>حساسية التحكم في شبكة مسار التصويب
 <string><PLATMSG MsgGUI030100_02_64_Help>
-<string>ضبط سرعة التصويب لطلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.<lf><COLOR preset="TXT_Accent">(عناصر التحكم في الجيروسكوب)</COLOR>
+<string>يضبط سرعة التصويب لطلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.<lf><COLOR preset="TXT_Accent">(عناصر التحكم في الجيروسكوب)</COLOR>
 <string>عكس التحكم: عادي
 <string><PLATMSG MsgGUI030100_02_65_Help>
 <string>ضبط عكس عناصر التحكم في الجيروسكوب<lf>أثناء اللعب العادي.
 <string>عدم عكس حركة وحدة التحكم<lf>لأعلى/لأسفل أو لليسار/لليمين.
 <string>يعكس حركة وحدة التحكم لأعلى/لأسفل.<lf>حركة وحدة التحكم لليسار/لليمين تبقى طبيعية.
 <string>يعكس حركة وحدة التحكم لليسار/لليمين.<lf>حركة وحدة التحكم لأعلى/لأسفل تبقى طبيعية.
-<string>عكس حركة وحدة التحكم لأعلى/لأسفل<lf>أو لليسار/لليمين.
+<string>عكس حركة وحدة التحكم لأعلى/لأسفل<lf>و لليسار/لليمين.
 <string>عكس التحكم: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_66_Help>
-<string>يضبط التحكم في الجيروسكوب عند استخدام <ICON PAD PL_AIM>.<lf>إذا كان خيار <COLOR preset="TXT_Accent">التحكم: إشهار السلاح</COLOR> مفعلًا، فإن هذا الإعداد<lf>ينطبق فقط عندما يكون سلاحك مَشحوذًا
+<string>يضبط التحكم في الجيروسكوب عند استخدام <ICON PAD PL_AIM>.<lf>إذا كان خيار <COLOR preset="TXT_Accent">التحكم: إشهار السلاح</COLOR> مفعلًا، فإن هذا الإعداد<lf>ينطبق فقط عندما يكون سلاحك مَشحوذًا.
 <string>عكس التحكم: إشهار السلاح
 <string><PLATMSG MsgGUI030100_02_67_Help>
 <string>عند التمكين، يمكن ضبط عكس عناصر التحكم في الجيروسكوب<lf>خلال الضغط مطولًا على <ICON PAD PL_AIM> مع إشهار السلاح بشكل منفصل<lf>لأسلحة الاشتباك والأسلحة بعيدة المدى.
@@ -624,22 +628,22 @@
 <string>يعكس عناصر التحكم في الكاميرا بالجيروسكوب عند استخدام <ICON PAD PL_AIM><lf>(وضع التصويب/التركيز) بسلاح مُشهر بعيد المدى.
 <string>عكس شبكة مسار التصويب
 <string><PLATMSG MsgGUI030100_02_70_Help>
-<string>عكس عناصر التحكم لطلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.<lf><COLOR preset="TXT_Accent">(لعناصر التحكم في الجيروسكوب)</COLOR>
+<string>يعكس عناصر التحكم لطلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.<lf><COLOR preset="TXT_Accent">(عناصر التحكم في الجيروسكوب)</COLOR>
 <string>عدم عكس حركة وحدة التحكم.
 <string>عكس حركة وحدة التحكم.
-<string>عرض الخيار المُحدد
-<string>ضبط شاشة العرض التي ستعرض شاشة اللعبة.<lf><COLOR preset="TXT_Accent">(يتطلب نظام التشغيل Windows 10 أو إصدار أعلى<lf>وإعداد بشاشات عرض متعددة).</COLOR>
+<string>تحديد جهاز العرض
+<string>يضبط الشاشة التي تُعرض عليها اللعبة.<lf><COLOR preset="TXT_Accent">(يتطلب نظام التشغيل Windows 10 أو أعلى<lf>وإعدادًا بشاشات عرض متعددة)</COLOR>
 <string>{0}: {1}
 <string>وضع الشاشة
 <string>ضبط كيفية عرض نافذة اللعبة.
 <string>نافذة بلا حدود
-<string>عرض اللعبة في وضع ملء الشاشة<lf>الذي يمد نافذة العرض لزيادة الاندماج.
+<string>يعرض اللعبة في وضع ملء الشاشة<lf>ما يمد نافذة العرض الكاملة لزيادة الاندماج.
 <string>وضع النافذة
 <string>عرض اللعبة في نافذة عادية.
 <string>دقة الشاشة
-<string>ضبط دقة الشاشة.
+<string>يضبط دقة الشاشة.
 <string>{0} x {1}
-<string>هل <LSNR "تريد" "تريدين"> لعب اللعبة بهذه الدقة؟<lf><COLOR preset="TXT_Accent">(إذا لم يتم الرد، فستتم استعادة إعدادات<lf>الدقة السابقة بعد عشر ثوانٍ).</COLOR>
+<string>هل <LSNR "تريد" "تريدين"> لعب اللعبة بهذه الدقة؟<lf><COLOR preset="TXT_Accent">(إذا لم يتم اتخاذ إجراء، فستتم استعادة<lf>إعدادات الدقة السابقة بعد عشر ثوانٍ).</COLOR>
 <string><REF RefGeneral_0001_000>
 <string><REF RefGeneral_0001_001>
 <string>نسبة العرض إلى الارتفاع
@@ -647,37 +651,37 @@
 <string>تلقائي
 <string>تعيين نسبة العرض للارتفاع المناسبة تلقائيًا<lf>حسب الدقة الحالية.
 <string>عريض (16:9)
-<string>عرض الشاشة بنسبة عرض إلى ارتفاع<lf>16:9.
+<string>يعرض الشاشة بنسبة عرض إلى ارتفاع 16:9.
 <string>عريض مضاعف (21:9)
-<string>عرض الشاشة بنسبة عرض إلى ارتفاع<lf>21:9. سيتم العرض بحواف سوداء<lf>على الشاشات التي لا تدعم مخرجات عريضة مضاعفة.
+<string>يعرض الشاشة بنسبة عرض إلى ارتفاع 21:9.<lf>سيتم العرض بحواف سوداء على الشاشات<lf>التي لا تدعم نسبة عرض إلى ارتفاع مضاعفة.
 <string>تصحيح وضعية واجهة مستخدم عريضة جدًا
-<string>نقل الخريطة المصغرة وبعض عناصر واجهة المستخدم الأخرى نحو<lf>وسط الشاشة. <COLOR preset="TXT_Accent">(لا يمكن استخدام هذه الخاصية<lf>إلا عند تعيين نسبة الطول للعرض على عريض جدًا.)</COLOR>
+<string>ينقل الخريطة المصغرة وبعض عناصر واجهة المستخدم الأخرى<lf>نحو وسط الشاشة. <COLOR preset="TXT_Accent">(لا يمكن استخدام هذه الخاصية<lf>إلا عند تعيين نسبة العرض إلى الارتفاع على عريض جدًا.)</COLOR>
 <string>معدل الإطارات
 <string>ضبط الحد الأقصى لمعدل الإطارات للعبة بأكملها.
 <string>معدل إطارات غير محدود
-<string>ضبط وضع حد لمعدل الإطارات<lf>للعبة بأكملها.
+<string>يضبط ما إذا كان معدل الإطارات للعبة<lf>بأكملها محدودًا.
 <string>غير محدود
-<string>عدم وضع حد لمعدل الإطارات للعبة بأكملها.<lf><COLOR preset="TXT_Accent">(تجاهل القيمة في إعداد معدل الإطارات).</COLOR>
+<string>لا يضع حد لمعدل الإطارات للعبة بأكملها.<lf><COLOR preset="TXT_Accent">(تجاهل القيمة في إعداد معدل الإطارات).</COLOR>
 <string>محدود
-<string>وضع حد لمعدل الإطارات للعبة بأكملها حسب<lf>القيمة في إعداد معدل الإطارات.
+<string>يضع حدًا لمعدل الإطارات للعبة بأكملها<lf>حسب القيمة في إعداد معدل الإطارات.
 <string>معدل إطارات المقطع
-<string>يتيح ضبط معدل الإطارات بشكل منفصل<lf>للمقاطع. في حالة التعطيل، سيلتزم معدل إطار المقطع<lf>بالقيمة الموجودة في إعداد معدل الإطارات.
+<string>يسمح <LSNR "لكَ" "لكِ"> بضبط معدل الإطارات<lf>للمقاطع بشكل منفصل. في حالة التعطيل، سيلتزم معدل إطار المقطع<lf>بالقيمة الموجودة في إعداد معدل الإطارات.
 <string>معدل إطارات المقطع
-<string>ضبط حد معدل الإطارات للمقاطع.<lf><COLOR preset="TXT_Accent">(تحدد القيمة في إعداد معدل الإطارات<lf>الحد الأعلى).</COLOR>
+<string>يضبط حد معدل الإطارات للمقاطع.<lf><COLOR preset="TXT_Accent">(تحدد القيمة في إعداد معدل الإطارات<lf>الإطار النهائي).</COLOR>
 <string>معدل إطارات الخلفية
-<string>عند التمكين، يتيح بشكل منفصل<lf>ضبط معدل إطارات الخلفية عندما تكون<lf>نافذة اللعبة غير نشطة.
+<string>عند التمكين، يتيح بشكل منفصل<lf>ضبط معدل إطارات الخلفية<lf>عندما تكون نافذة اللعبة غير نشطة.
 <string>معدل إطارات الخلفية
-<string>ضبط حد معدل الإطارات عندما تكون<lf>نافذة اللعبة غير نشطة. <COLOR preset="TXT_Accent">(تحدد القيمة في إعداد معدل الإطارات<lf>الحد الأعلى).</COLOR>
+<string>يضبط حد معدل الإطارات حين تكون نافذة اللعبة<lf>غير نشطة.<COLOR preset="TXT_Accent"> (تحدد القيمة في إعداد معدل الإطارات<lf>الإطار النهائي).</COLOR>
 <string>إخراج HDR
 <string>ضبط إعدادات إخراج HDR.
 <string>تمكين تلقائي
-<string>تمكين HDR تلقائيًا على الأجهزة<lf>المدعومة، وتعطيله على الأجهزة<lf>غير المدعومة.
+<string>يمكِّن HDR تلقائيًا على الأجهزة المدعومة،<lf>ويعطله على الأجهزة غير المدعومة.
 <string>تعطيل
-<string>تعطيل إخراج HDR على الأجهزة<lf>التي تدعمه.
+<string>يعطل إخراج HDR على الأجهزة<lf>التي تدعمه.
 <string>السطوع
-<string>ضبط سطوع الشاشة.
-<string>ضبط سطوع الشاشة (HDR)
-<string>ضبط سطوع الشاشة.
+<string>يضبط سطوع الشاشة.
+<string>السطوع (HDR)
+<string>يضبط سطوع الشاشة.
 <string>المزامنة العمودية
 <string>ضبط المزامنة العمودية.
 <string>تمكين
@@ -687,13 +691,13 @@
 <string>تعطيل
 <string>تعطيل المزامنة العمودية.
 <string>وضع زمن الاستجابة المنخفض NVIDIA Reflex
-<string>ضبط زيادة استجابة اللعبة<lf>وتقليل زمن استجابة النظام. <COLOR preset="TXT_Accent">(متاح فقط<lf>مع بطاقات الرسومات الداعمة).</COLOR>
+<string>يضبط ما إذا كانت استجابة اللعبة ستزداد<lf>ويقلل زمن استجابة النظام. <COLOR preset="TXT_Accent">(متاح فقط<lf>مع بطاقات الرسومات التي تدعم هذه الخاصية).</COLOR>
 <string>تمكين
 <string>تمكين NVIDIA Reflex. <COLOR preset="TXT_Accent">(سيتم تمكين هذا الإعداد<lf>تلقائيًا عند تفعيل إنشاء<lf>الإطار ضمن إعدادات الرسومات).</COLOR>
 <string>تمكين + تعزيز
 <string>تمكين NVIDIA Reflex وفرض الحد الأقصى لسرعة<lf>ساعة وحدة معالجة الرسومات (GPU).
 <string>تعطيل
-<string>تعطيل NVIDIA Reflex. <COLOR preset="TXT_Accent">(سيتم تعطيل هذا الإعداد<lf>تلقائيًا على الأجهزة<lf>غير المدعومة).</COLOR>
+<string>يعطل NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(سيتم تعطيل هذا الإعداد<lf>تلقائيًا على الأجهزة غير المدعومة).</COLOR>
 <string>مواصفات الكمبيوتر
 <string>عرض المواصفات المتعلقة بالأداء للكمبيوتر الشخصي المستخدم.
 <string>استخدام VRAM التقديري
@@ -701,15 +705,15 @@
 <string>التطبيقات الأخرى
 <string>ميجابايت
 <string>ميجابايت /
-<string>استخدام كمية كبيرة من ذاكرة الرسومات. قد تحدث أعطال طفيفة.
-<string>استخدام كمية كبيرة من ذاكرة الرسومات. قد تحدث أعطال كبيرة.
-<string>وحدة المعالجة المركزية (CPU)
-<string>ذاكرة الوصول العشوائي (RAM)
+<string>استخدام كمية كبيرة من ذاكرة الرسومات.<lf>قد يحدث خلل طفيف.
+<string>استخدام كمية كبيرة من ذاكرة الرسومات.<lf>قد يحدث خلل كبير.
+<string>CPU
+<string>RAM
 <string><NUMBER {0}> جيجا بايت
-<string>وحدة معالجة الرسومات (GPU)
-<string>ذاكرة الوصول العشوائي للفيديو (VRAM)
+<string>GPU
+<string>VRAM
 <string><NUMBER {0}> جيجا بايت
-<string>إصدار برنامج تشغيل وحدة معالجة الرسومات (GPU)
+<string>إصدار برنامج تشغيل GPU
 <string><NUMBER {0}>
 <string>التخزين المباشر (DirectStorage)
 <string>متوافق
@@ -726,79 +730,81 @@
 <string>مخصص
 <string>سيتم تحديد هذا الإعداد في حالة تغيير تفاصيل معينة<lf>ضمن إعداد مُسبق يدويًا.
 <string>رسومات المقطع
-<string>ضبط إعدادات الرسومات الخاصة بالمقاطع.<lf>(يؤثر فقط على المقاطع.)
+<string>ضبط إعدادات الرسومات الخاصة بالمقاطع.<lf><COLOR preset="TXT_Accent">(يؤثر فقط على المقاطع.)</COLOR>
 <string>الأعلى
 <string>مرتفع
 <string>متوسط
 <string>منخفض
 <string>الأقل
-<string>عدم الضبط بشكل منفصل
-<string>الالتزام بالإعداد الرسومي الشامل<lf>أثناء المقاطع.
+<string>لا <LSNR "تضبطه" "تضبطيه"> بشكل منفصل
+<string>تلتزم إعدادات الرسومات في المقاطع<lf>بالإعدادات الموجودة في إعدادات الرسومات.
 <string>تحسين الدقة (التصوير فائق الدقة)
 <string>يستخدم تقنية التصوير بدقة فائقة للحفاظ<lf>على أداء عالٍ مع الاستمتاع بجودة<lf>رسومات ممتازة.
 <string>NVIDIA DLSS
-<string>استخدام NVIDIA DLSS 3.5.<lf><COLOR preset="TXT_Accent">(يتطلب بطاقة رسومات NVIDIA GeForce RTX).<lf>ملاحظة: في حالة استخدام بطاقة GeForce RTX40 Series<lf>وتمكين جدولة وحدة معالجة<lf>أجهزة الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات).</COLOR>
-<string>AMD FSR 3
-<string>استخدام AMD FSR 3.0.3.<lf><COLOR preset="TXT_Accent">(في حالة تمكين جدولة<lf>وحدة معالجة أجهزة الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات).</COLOR>
+<string>استخدام NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">(يتطلب بطاقة رسومات NVIDIA GeForce RTX).<lf>- في حالة استخدام بطاقة GeForce RTX40 Series<lf>وتمكين جدولة وحدة معالجة<lf>أجهزة الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات).</COLOR>
+<string>AMD FSR
+<string>استخدام <FSR>.<lf><COLOR preset="TXT_Accent"> - في حالة تمكين جدولة وحدة معالجة أجهزة<lf>الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات.</COLOR>
 <string>Intel XeSS
-<string>استخدام Intel XeSS 1.3.
+<string>يستخدم Intel <XESS>.
 <string>تعطيل
-<string>عدم استخدام تحسين الدقة.
+<string>لا يستخدم تحسين الدقة.
 <string>توليد الإطارات
 <string>استخدام تقنية إنشاء الإطارات لزيادة معدل الإطارات.<lf><COLOR preset="TXT_Accent">(متاح فقط في حالة استيفاء متطلبات محددة).</COLOR>
-<string>تشغيل
+<string>تمكين
 <string>تمكين إنشاء الإطارات لزيادة معدل الإطارات.<lf>قد يسمح تحديد هذا بتجاوز الحد الأقصى<lf>لمعدل الإطارات المحدد ضمن خيارات "العرض".
-<string>إيقاف
-<string>تعطيل هذا الإعداد.
-<string>لا يمكن تمكين <COLOR preset="TXT_Accent">إنشاء الإطار</COLOR> (باستخدام <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>بإعدادات العرض الحالية لديك.
-<string>لا يمكن تمكين <COLOR preset="TXT_Accent">توليد الإطارات</COLOR> (باستخدام <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>بإعدادات العرض الحالية. ونتيجة لذلك،<lf>تم ضبط الإعداد تلقائيًا على <BOLD>تعطيل</BOLD>.
+<string>تعطيل
+<string>يعطل هذا الإعداد.
+<string>لا يمكن تمكين <COLOR preset="TXT_Accent">إنشاء الإطار</COLOR> (باستخدام <COLOR preset="TXT_Accent">FSR</COLOR><RTL>)<lf>بإعدادات العرض الحالية لديك.
+<string>لا يمكن تمكين <COLOR preset="TXT_Accent">توليد الإطارات</COLOR> (باستخدام <COLOR preset="TXT_Accent">FSR</COLOR><RTL>)<lf>بإعدادات العرض الحالية. ونتيجة لذلك،<lf>تم ضبط الإعداد تلقائيًا على <BOLD>تعطيل</BOLD>.
 <string>يمكن إعادة تفعيل توليد الإطارات من خلال تغيير<lf>إعداداتك إلى "وضع النافذة"، أو إذا كنت في<lf>"وضع النافذة بلا حدود"، قم بتغيير دقة العرض<lf>إلى قيمة لا تعرض أي حدود سوداء.
 <string>وضع تحسين الدقة
-<string>ضبط الجودة الرسومية المستخدمة عند تحسين الدقة.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا إذا تم تمكين تحسين الدقة).</COLOR>
+<string>يضبط الجودة الرسومية المستخدمة عند تحسين الدقة.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا<lf>إلا إذا تم تمكين تحسين الدقة).</COLOR>
 <string>NVIDIA DLAA
-<string>استخدام مانع التعرج الذي يعمل بالذكاء الاصطناعي<lf>مع الحفاظ على الدقة الأصلية.
+<string>يستخدم مانع التعرج الذي يعمل بالذكاء الاصطناعي<lf>مع الحفاظ على الدقة الأصلية.
 <string>AMD Native AA
-<string>استخدام مانع التعرج FSR 3<lf>مع الحفاظ على الدقة الأصلية.
+<string>يستخدم مانع التعرج FSR<lf>مع الحفاظ على الدقة الأصلية.
 <string>Intel XeSS Native AA
 <string>استخدام مانع التعرج XeSS<lf>مع الحفاظ على الدقة الأصلية.
 <string>الجودة
-<string>إعطاء الأولوية لدقة الشاشة على معدل الإطارات.
+<string>يعطي الأولوية لدقة الشاشة على معدل الإطارات.
 <string>متزن
-<string>تحقيق التوازن بين الدقة ومعدل الإطارات.
+<string>يحقق التوازن بين الدقة ومعدل الإطارات.
 <string>الأداء
-<string>إعطاء الأولوية لمعدل الإطارات على دقة الشاشة.
+<string>يعطي الأولوية لمعدل الإطارات على دقة الشاشة.
 <string>الأداء الفائق
-<string>إعطاء الأولوية أكثر لمعدل الإطارات على دقة الشاشة.
-<string>إيقاف
-<string>سيتم تحديد هذا في حالة عدم استخدام تحسين الدقة.
+<string>يعطي أولوية أكبر لمعدل الإطارات على دقة الشاشة.
+<string>تعطيل
+<string>سيتم تحديد هذا في حالة<lf>عدم استخدام طريقة لتحسين الدقة.
 <string>حدّة تحسين الدقة
-<string>ضبط مستوى التفاصيل الرسومية المستخدمة عند تحسين الدقة.<lf>كلما زاد الرقم، زاد مستوى التفاصيل.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا إذا تم تمكين تحسين الدقة).</COLOR>
+<string>يضبط مستوى التفاصيل الرسومية المستخدمة عند تحسين الدقة.<lf>كلما زاد الرقم، زاد مستوى التفاصيل.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا فقط إذا تم تفعيل تقنية AMD FSR.) </COLOR>
 <string>مانع التعرج
-<string>ضبط وضع مانع التعرج.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا إذا لم يتم تمكين تحسين الدقة).</COLOR>
+<string>ضبط وضع مانع التعرج.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا في حالة عدم تمكين تحسين الدقة).</COLOR>
 <string>TAA + FXAA
 <string>TAA
 <string>إيقاف
 <string>مقياس العرض
-<string>ضبط النسبة المئوية لمقياس العرض.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا في حالة عدم تمكين تحسين الدقة فقط).</COLOR>
+<string>يضبط النسبة المئوية لمقياس العرض.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا في حالة عدم تمكين تحسين الدقة).</COLOR>
 <string>تتبع الأشعة
-<string>ضبط جودة انعكاس الضوء وانكساره<lf>باستخدام تقنية تتبع الأشعة.
+<string>يضبط جودة انعكاس الضوء<lf>باستخدام تقنية تتبع الأشعة.
 <string>الأعلى
 <string>مرتفع
 <string>متوسط
 <string>منخفض
 <string>الأقل
 <string>إيقاف
-<string>جودة الهيئة
-<string>ضبط دقة هيئة الأشياء.
-<string>الأعلى (الهيئات عالية الدقة)
+<string>وحدة المعالجة المركزية (CPU)
+<string>وحدة معالجة الرسومات (GPU)
+<string>جودة القوام
+<string>يضبط دقة هيئة الأشياء.
+<string>الأعلى (القوام عالي الدقة)
 <string><COLOR preset="TXT_Accent">يمكن تحديد هذا الإعداد إذا تم تنزيل المحتوى القابل للتنزيل<lf>"حزمة الهيئات عالية الدقة". </COLOR>
 <string>يجب تنزيل المحتوى القابل للتنزيل "حزمة الهيئات عالية الدقة"<lf>لضبطها إلى الأعلى (الهيئات عالية الدقة).
-<string>مرتفع
-<string>متوسط
-<string>منخفض
-<string>الأقل
-<string>جودة عامل تصفية الهيئة
-<string>ضبط مستوى التفاصيل على هيئات الأشياء.
+<string>عالية
+<string>متوسطة
+<string>منخفضة
+<string>الأدنى
+<string>جودة الترشيح
+<string>يضبط مستوى التفاصيل على هيئات الأشياء.
 <string>الأعلى (ANISO x16)
 <string>مرتفع (ANISO x8)
 <string>متوسط (ANISO x4)
@@ -806,52 +812,52 @@
 <string>منخفض (ثلاثي الخطوط)
 <string>الأقل (ثنائي الخطوط)
 <string>جودة الشبكة
-<string>ضبط جودة الشبكة المضلعة للنماذج ثلاثية الأبعاد.
+<string>يضبط جودة الشبكة المضلعة للنماذج ثلاثية الأبعاد.
 <string>الأعلى
-<string>مرتفع
-<string>متوسط
+<string>عالية
+<string>متوسطة
 <string>جودة الفراء
 <string>يضبط جودة الصورة لجميع فراء المخلوقات، بما في ذلك الباليكو.
 <string>عالية
 <string>منخفضة
-<string>تحيز مستوى التفاصيل (LOD)
-<string>ضبط جودة النموذج داخل اللعبة حسب الموقف.
-<string>الأعلى
-<string>مرتفع
-<string>متوسط
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>دقة السماء/السحب
-<string>ضبط جودة صور السماء والسحب.
+<string>يضبط جودة صور السماء والسحب.
 <string>الأعلى
-<string>مرتفع
-<string>متوسط
-<string>منخفض
-<string>الأقل
+<string>عالية
+<string>متوسطة
+<string>منخفضة
+<string>الأدنى
 <string>دقة العشب/الأشجار
-<string>ضبط جودة صور العشب والأشجار.
-<string>مرتفع
-<string>متوسط
-<string>منخفض
+<string>يضبط جودة صور العشب والأشجار.
+<string>عالية
+<string>متوسطة
+<string>منخفضة
 <string>تمايل العشب/الأشجار
-<string>تعيين السماح بتمايل العشب والأشجار.
-<string>تشغيل
+<string>يضبط ما إذا كان العشب والشجر سيتمايل.
+<string>تمكين
 <string>تمكين حركة اهتزاز العشب والأشجار.
-<string>إيقاف
+<string>تعطيل
 <string>تعطيل حركة اهتزاز العشب والأشجار.
 <string>جودة محاكاة انسيابية الرياح
 <string>يضبط دقة تأثيرات محاكاة الرياح على الاجسام داخل اللعبة.
 <string>مرتفعة
 <string>منخفضة
 <string>جودة الأسطح
-<string>يضبط جودة عرض التضاريس والسمات الجغرافية<lf>على مقربة من الصياد.
+<string>يضبط جودة عرض التضاريس والسمات الجغرافية<lf>على مقربة من <LSNR "الصياد" "الصيادة">.<lf><COLOR preset="TXT_Accent">(يمكن إعادة ضبطها من خيارات العنوان.)</COLOR>
 <string>عالية
 <string>منخفضة
-<string>جودة الرمال/الثلوج/المياه
-<string>ضبط جودة صور الرمال والثلوج والمياه وأنواع أخرى من التضاريس.
+<string>جودة الرمال/الثلوج
+<string>يضبط جودة صور الرمال والثلوج<lf>وأنواع التضاريس الأخرى.
 <string>الأعلى
-<string>مرتفع
-<string>متوسط
-<string>منخفض
-<string>الأقل
+<string>عالية
+<string>متوسطة
+<string>منخفضة
+<string>الأدنى
 <string>تأثيرات المياه
 <string>يضبط ما إذا كان سيتم تطبيق تأثيرات السوائل على الماء.
 <string>تمكين
@@ -861,9 +867,13 @@
 <string>متوسط
 <string>منخفض
 <string>مسافة العرض
-<string>ضبط عدد اللاعبين أو الشخصيات التي تظهر<lf>في القاعات والمسافة التي تظهر بها الوحوش<lf>والحياة المستوطنة في الساحة.
+<string>يضبط عدد اللاعبين أو الشخصيات التي تظهر في القاعات<lf>والمسافة التي تظهر بها الوحوش والحياة المستوطنة في الساحة.<lf><COLOR preset="TXT_Accent">(قابل للتعديل من خيارات العنوان.)</COLOR>
+<string>يعرض أكبر عدد ممكن من الكائنات،<lf>بغض النظر عن المسافة من <LSNR "الصياد" "الصيادة">.
+<string>يعرض معظم الكائنات،<lf>بما في ذلك تلك البعيدة عن <LSNR "الصياد" "الصيادة">.
+<string>يعرض معظم الكائنات<lf>ضمن مسافة متوسطة من <LSNR "الصياد" "الصيادة">.
+<string>يقلل من حمل العرض عن طريق عرض الكائنات<lf>الموجودة بالقرب من <LSNR "الصياد" "الصيادة"> فقط.
 <string>جودة الظلال
-<string>ضبط جودة الظلال.
+<string>يضبط جودة الظلال.
 <string>الأعلى
 <string>مرتفع
 <string>متوسط
@@ -884,17 +894,17 @@
 <string>متوسط
 <string>منخفضة
 <string>ظلال التلامس
-<string>تعيين السماح بعرض التفاصيل الدقيقة للظلال.
-<string>تشغيل
-<string>إيقاف
+<string>يضبط ما إذا كانت الظلال المفصَّلة ستظهر.
+<string>تمكين
+<string>تعطيل
 <string>الانسداد المحيطي
-<string>ضبط جودة الظلال في المناطق التي يُحجب فيها الضوء.
-<string>مرتفع
+<string>يضبط جودة الظلال في المناطق<lf>التي يُحجب فيها الضوء.
+<string>عالي
 <string>متوسط
 <string>إيقاف
 <string>التوهج
 <string>ضبط قوة الضبابية الناتجة عن مصادر الضوء الساطع.
-<string>مرتفع
+<string>عالي
 <string>منخفض
 <string>إيقاف
 <string>ضبابية الحركة
@@ -906,11 +916,11 @@
 <string>تشغيل
 <string>إيقاف
 <string>انعكاس مساحة الشاشة
-<string>تعيين تمكين تقنية العرض<lf>التي تعمل على تحسين الانعكاسات.
+<string>يضبط ما إذا كانت تقنية العرض التي تعمل على تحسين<lf>الانعكاسات ممكَّنة.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا فقط إذا تم إيقاف تعيين تتبع الأشعة.)</COLOR>
 <string>تشغيل
 <string>إيقاف
 <string>تشتت الضوء SSSS
-<string>تشتت الضوء أسفل السطح<lf>بتقنية تقسيم مساحة الشاشة.<lf>تعيين السماح للضوء باختراق الأشياء، ثم التشتت عنها.
+<string>تشتت الضوء أسفل السطح<lf>بتقنية تقسيم مساحة الشاشة.<lf>يضبط ما إذا كان الضوء سيخترق الأشياء، ثم يتشتت عنها.
 <string>تشغيل
 <string>إيقاف
 <string>عمق المجال
@@ -918,7 +928,7 @@
 <string>تشغيل
 <string>إيقاف
 <string>ضباب حجمي
-<string>ضبط جودة الضباب الناتج عن الغبار والجزيئات الموجودة في الهواء.<lf>يؤثر على كيفية عرض أشعة الضوء وما شابه.
+<string>ضبط جودة الضباب الناتج عن الغبار والجزيئات<lf>الموجودة في الهواء. يؤثر على كيفية عرض<lf>أشعة الضوء وما شابه.
 <string>مرتفع
 <string>منخفض
 <string>تظليل المعدل المتغير
@@ -941,13 +951,13 @@
 <string>عدد الأضرار الملحقة
 <string>ضبط عرض عدد الأضرار الملحقة.
 <string>عرض (بالكسور العشرية)
-<string>يعرض أرقام على الشاشة<lf>تشير إلى الأضرار الملحقة بالوحوش<lf><COLOR preset="TXT_Accent">(تتضمن القيم العشرية).</COLOR>
+<string>يعرض أرقامًا على الشاشة تشير إلى عدد الأضرار<lf>الملحقة بالوحوش. <COLOR preset="TXT_Accent">(تتضمن القيم العشرية.)</COLOR>
 <string>إظهار (القيم الصحيحة فقط)
-<string>يعرض أرقام على الشاشة<lf>تشير إلى الأضرار الملحقة بالوحوش<lf><COLOR preset="TXT_Accent">(القيم الصحيحة فقط).</COLOR>
+<string>يعرض أرقامًا على الشاشة تشير إلى عدد الأضرار<lf>الملحقة بالوحوش. <COLOR preset="TXT_Accent">(القيم الكاملة فقط.)</COLOR>
 <string>عدم عرض
 <string>عدم عرض الأضرار الملحقة.
 <string>تخصيص العرض الرأسي
-<string>ضبط حجم الشاشة ومحتويات العرض الرأسي.
+<string>يضبط حجم الشاشة ومحتويات العرض الرأسي.
 <string>مقياس الصحة
 <string>صغير
 <string>يظهر أصغر من الحجم الافتراضي.
@@ -958,33 +968,33 @@
 <string>إخفاء
 <string>إخفاء المقياس من الشاشة.
 <string>مقياس قوة التحمل
-<string>حدِّة سلاح الاشتباك
+<string>مقياس حدِّة سلاح الاشتباك
 <string>معلومات السلاح
 <string>معلومات الفرقة
-<string>إعلانات ذبابة الاستطلاع
+<string>إشعارات ذبابة الاستطلاع
 <string>الخريطة المصغرة
 <string>الساعة البيئية
-<string>الوحش المستهدَف
+<string>أيقونة الوحش المستهدَف
 <string>دليل الأزرار
 <string>الأهداف
 <string>إشعارات الدردشة
 <string>عرض نبلة المعصم
 <string>شريط الذخيرة/الأغطية
 <string>شريط العناصر
-<string>القائمة الشعاعية المخصصة
+<string>القائمة الدائرية المخصصة
 <string>اختصارات لوحة المفاتيح
 <string>عرض الاسم: عناصر التفاعل
 <string>عرض الاسم: الشخصيات والباليكو
 <string>تدوير الخريطة المصغرة
 <string>ضبط تدوير الخريطة المصغرة.
 <string>تدوير
-<string>تدوير الخريطة المصغرة<lf>مع اتجاه الكاميرا.
+<string>تدور الخريطة المصغرة<lf>حسب اتجاه الكاميرا.
 <string>ثابت
-<string>عدم تدوير الخريطة المصغرة.<lf>اتجاهها ثابت ويكون الشمال في الأعلى دائمًا<lf>بغض النظر عن اتجاه الكاميرا.
+<string>لا تدور الخريطة المصغرة. بغض النظر<lf>عن اتجاه الكاميرا، تبقى الخريطة المصغرة<lf>ثابتة مع توجيه الشمال إلى الأعلى.
 <string>زاوية الخريطة المصغرة
-<string>ضبط إعدادات زاوية الخريطة المصغرة.
+<string>يضبط إعدادات زاوية الخريطة المصغرة.
 <string>تثبيت على منظر علوي
-<string>تُظهر الخريطة المصغرة منظرًا علويًا ثابتًا<lf>يُعرض بشكل مسطح بدون أي ميل.
+<string>تعرض الخريطة المصغرة منظرًا علويًا ثابتًا<lf>يظهر بشكل مسطح دون إمالة.
 <string>زاوية ثابتة
 <string>تُعرض الخريطة المصغرة بزاوية ثابتة<lf>وبتصوير ثلاثي الأبعاد.
 <string>محاذاة الزاوية مع الكاميرا
@@ -994,33 +1004,33 @@
 <string>مناطق البلدة
 <string>تعيين حجم الخريطة المصغرة<lf>في البلدات والقواعد.
 <string>صغير
-<string>عرض الخريطة المصغرة بحجم أصغر من المقاس الافتراضي.
+<string>يعرض الخريطة المصغرة بحجم أصغر.
 <string>افتراضي
 <string>تعرض الخريطة المصغرة بالحجم الافتراضي.
 <string>كبير
-<string>عرض الخريطة المصغرة بحجم أكبر من المقاس الافتراضي.
+<string>يعرض الخريطة المصغرة بحجم أكبر.
 <string>وضع التصويب/التركيز
 <string>تعيين حجم الخريطة المصغرة<lf>أثناء التصويب أو في وضع التركيز.
 <string>القتال (وحوش ضخمة)
 <string>تعيين حجم الخريطة المصغرة<lf>أثناء قتال الوحوش الضخمة.
-<string>الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>
-<string>تعيين حجم الخريطة المصغرة<lf>أثناء الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>.
+<string>أثناء الضغط على <ICON PL_ITEM_SLIDER_OPEN>
+<string>يضبط حجم الخريطة المصغرة<lf>أثناء الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>.
 <string>مقياس الخريطة المصغرة
 <string>ضبط مقياس الخريطة المصغرة<lf>في المواقف المختلفة.
 <string>مناطق البلدة
 <string>تعيين مقياس الخريطة المصغرة<lf>في البلدات والقواعد.
 <string>صغير
-<string>عرض الخريطة المصغرة بمقياس أصغر.<lf><COLOR preset="TXT_Accent">(تُظهر الخريطة المصغرة<lf>منظرًا مصغرًا نسبيًا للمنطقة)</COLOR>
+<string>يعرض الخريطة المصغرة بمقياس أصغر.<lf><COLOR preset="TXT_Accent">(تُظهر الخريطة المصغرة<lf>منظرًا مصغرًا نسبيًا للمنطقة)</COLOR>
 <string>افتراضي
-<string>عرض الخريطة المصغرة بالحجم الافتراضي.<lf><COLOR preset="TXT_Accent">(تُظهر الخريطة المصغرة<lf>منظرًا عامًا للمنطقة).</COLOR>
+<string>يعرض الخريطة المصغرة بالمقياس الافتراضي.<lf><COLOR preset="TXT_Accent">(تُظهر الخريطة المصغرة منظرًا عامًا للمنطقة.)</COLOR>
 <string>كبير
-<string>عرض الخريطة المصغرة بمقياس كبير.<lf><COLOR preset="TXT_Accent">(تُظهر الخريطة المصغرة<lf>منظرًا مكبرًا أكثر للمنطقة)</COLOR>
+<string>يعرض الخريطة المصغرة بمقياس كبير.<lf><COLOR preset="TXT_Accent">(تُظهر الخريطة المصغرة<lf>منظرًا مكبرًا أكثر للمنطقة.)</COLOR>
 <string>وضع التصويب/التركيز
 <string>تعيين مقياس الخريطة المصغرة<lf>في وضع التصويب/التركيز.
 <string>القتال (وحوش ضخمة)
 <string>تعيين مقياس الخريطة المصغرة<lf>أثناء قتال الوحوش الضخمة.
-<string>الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>
-<string>تعيين مقياس الخريطة المصغرة<lf>أثناء الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>
+<string>أثناء الضغط على <ICON PL_ITEM_SLIDER_OPEN>
+<string>يضبط مقياس الخريطة المصغرة<lf>أثناء الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>.
 <string>تأثيرات ضربة الحليف
 <string>ضبط ظهور تأثيرات ضربات اللاعبين الآخرين.<lf><COLOR preset="TXT_Accent">(لا تتأثر تأثيرات اللاعب الخاصة)</COLOR>
 <string>عرض
@@ -1035,36 +1045,36 @@
 <string>عدم عرض التأثيرات الحرجة للاعبين الآخرين.
 <string>التأثيرات الدموية
 <string>ضبط عرض التأثيرات الدموية.
-<string>معروض
+<string>عرض
 <string>عرض التأثيرات الدموية.
 <string>عدم عرض
 <string>عدم عرض التأثيرات الدموية.
 <string>العرض الرأسي
 <string>ضبط إعدادات الشاشة للعرض الرأسي.
 <string>عرض مقياس الصحة
-<string>ضبط إعدادات الشاشة لمقياس الصحة.
+<string>يضبط إعدادات الشاشة لمقياس الصحة.
 <string>ثابت
 <string>عرض مقياس صحة الصياد بشكل كامل في كل وقت.
 <string>متحرك
-<string>عرض مقياس الصحة المصغر افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
+<string>يعرض مقياس الصحة المصغر افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
 <string>عرض مقياس قوة التحمل
-<string>ضبط إعدادات الشاشة لمقياس قوة التحمل.
+<string>يضبط إعدادات الشاشة لمقياس قوة التحمل.
 <string>ثابت
-<string>عرض قوة تحمل اللاعب في كل وقت.
+<string>يعرض مقياس قوة التحمل <LSNR "للصياد" "للصيادة"> في كل وقت.
 <string>متحرك
-<string>عرض مقياس قوة التحمل المصغر افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
+<string>يعرض مقياس قوة التحمل المصغر افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
 <string>عرض مقياس الحدَّة
-<string>ضبط إعدادات الشاشة لمقياس الحدَّة.
+<string>يضبط إعدادات الشاشة لمقياس الحدَّة.
 <string>ثابت
-<string>عرض مقياس حدَّة اللاعب في كل وقت.
+<string>يعرض مقياس الحدّة <LSNR "للصياد" "للصيادة"> في كل وقت.
 <string>متحرك
-<string>عرض مقياس الحدّة المصغر افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
+<string>يعرض مقياس الحدّة المصغر افتراضيًا. سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
 <string>عرض مقياس صحة الشريك
 <string>ضبط إعدادات عرض مقياس الباليكو<lf>وصحة الشريك الأخرى.
 <string>ثابت
-<string>عرض مقاييس صحة الشريك في كل وقت.
+<string>يعرض مقاييس الصحة للباليكو<lf>و<LSNR "رفاقكَ" "رفاقكِ"> الآخرين في كل وقت.
 <string>متحرك
-<string>عرض مقياس الصحة المصغر <LSNR "لرفاقكَ" "لرفاقكِ"> افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
+<string>يعرض مقياس الصحة المصغر للباليكو و<LSNR "رفاقكَ" "رفاقكِ"> الآخرين افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
 <string>نافذة الدردشة
 <string>ضبط الإعدادات الخاصة بنافذة التواصل<lf>وسجل الدردشة بعد إرسال رسالة.
 <string>إغلاق النافذة
@@ -1080,7 +1090,7 @@
 <string>عدد المقاطع التعليمية
 <string>يضبط عدد المقاطع التعليمية المعروضة.
 <string>عرض الكل
-<string>يعرض كل المقاطع التعليمية. يُوصى به للاعبين<lf>الذين يرغبون في بدء التعلم من الأساسيات.
+<string>يعرض كل المقاطع التعليمية. يُوصى به للاعبين<lf>الذين يرغبون في تعلم الأساسيات.
 <string>عرض البعض
 <string>عرض الرسائل التعليمية العادية فقط.<lf>يُوصى به للاعبين المخضرمين.
 <string>تكرار المقاطع التعليمية
@@ -1100,18 +1110,18 @@
 <string>حجم النص للعناوين الفرعية
 <string>ضبط حجم الترجمة.
 <string>ترجمات المقاطع
-<string>يضبط ما إذا كان سيتم عرض الترجمات لحوار الشخصيات.<lf><COLOR preset="TXT_Accent">(ينطبق هذا الإعداد فقط على المقاطع.<lf>ستظهر الترجمات خارج المقاطع دائمًا بغض النظر عن هذا الإعداد.) </COLOR>
+<string>يضبط ما إذا كانت الترجمات لحوار الشخصيات ستظهر.<lf><COLOR preset="TXT_Accent">(ينطبق هذا الإعداد على المقاطع فقط. ستظهر الترجمات خارج المقاطع دائمًا<lf>بغض النظر عن هذا الإعداد.) </COLOR>
 <string>عرض
-<string>يعرض الترجمات أثناء المقاطع.<lf><COLOR preset="TXT_Accent">(في بعض الحالات، قد لا تكون الترجمات متاحة للجمل القصيرة).</COLOR>
+<string>يعرض الترجمات أثناء المقاطع.<lf><COLOR preset="TXT_Accent">(في بعض الحالات، قد لا تكون<lf>الترجمات متاحة للجمل القصيرة).</COLOR>
 <string>عدم عرض
-<string>لا يعرض الترجمات أثناء المقاطع.<lf><COLOR preset="TXT_Accent">(يمكن إيقاف الترجمات خارج المقاطع).</COLOR>
+<string>لا يعرض الترجمات أثناء المقاطع.<lf><COLOR preset="TXT_Accent">(لا يمكن إيقاف الترجمات خارج المقاطع).</COLOR>
 <string>خلفية العناوين الفرعية
 <string>يضبط عرض خلفية خلف نص الترجمة<lf>لتحسين إمكانية القراءة.
 <string>إظهار
 <string>عرض خلفية خلف الترجمة.
 <string>عدم عرض
 <string>إخفاء خلفية خلف الترجمة.
-<string>أسماء المتحدثين (المقاطع)
+<string>أسماء المتحدثين (داخل المقاطع)
 <string>يضبط عرض أسماء المتحدثين<lf>في ترجمات المقاطع.
 <string>عرض
 <string>يعرض أسماء المتحدثين في المقاطع.
@@ -1123,13 +1133,13 @@
 <string>يعرض أسماء المتحدثين خارج المقاطع.
 <string>عدم عرض
 <string>لا يعرض أسماء المتحدثين خارج المقاطع.
-<string>إخفاء وحوش سيكريت للاعبين الآخرين
+<string>إخفاء وحوش سيكريت الأخرى
 <string>ضبط إخفاء وحش (سيكريت) الذي لا <LSNR "يخصكَ" "يخصكِ">.<lf><COLOR preset="TXT_Accent">(يُعرض (سيكريت) الخاص <LSNR "بكَ" "بكِ"> دائمًا).</COLOR>
 <string>تشغيل
 <string>عدم عرض وحوش (سيكريت) للاعبين الآخرين<lf>أو لصيادي المساندة عند عدم الركوب.<lf><COLOR preset="TXT_Accent">(سيظل ظاهرًا<lf>في بعض الحالات).</COLOR>
 <string>إيقاف
 <string>إظهار سيكريت غير المُمتَطَاة بشكل دائم<lf>للاعبين الآخرين أو الصيادين الداعمين.
-<string>استكشاف تلقائي لوحوش (سيكريت)
+<string>استكشاف تلقائي لوحوش سيكريت
 <string>ضبط ما إذا كان (سيكريت) الخاص <LSNR "بكَ" "بكِ"><lf>يدخل تلقائيًا في وضع الاستكشاف التلقائي<lf>عند عدم تعيين نقطة الوجهة.
 <string>تشغيل
 <string>دخول (سيكريت) في وضع الاستكشاف التلقائي<lf>عند عدم تعيين نقطة الوجهة.
@@ -1138,9 +1148,9 @@
 <string>اللعب متعدد المنصات
 <string>يضبط إتاحة وضع اللاعبين المتعددين<lf>عبر منصات مختلفة.
 <string>تمكين
-<string>يمكِّن إعدادات اللعب متعدد المنصات،<lf>مما يسمح باللعب مع مستخدمين على منصات مختلفة.<lf><lf>لا يمكن المشاركة في اللعب متعدد المنصات<lf>مع المستخدمين المفعِّلين لهذا الإعداد.<lf>بالإضافة إلى ذلك، ستكون وظيفة الفرقة<lf>غير متاحة للفرق المعطِّلة لهذا الإعداد.
+<string>يمكِّن إعدادات اللعب متعدد المنصات،<lf>مما يسمح باللعب مع مستخدمين على منصات مختلفة.<lf><lf>لا يمكن المشاركة في اللعب متعدد المنصات<lf>مع المستخدمين الذين تم ضبط هذا الإعداد لديهم على <BOLD>تعطيل</BOLD>.<lf>بالإضافة إلى ذلك، ستكون وظيفة الفرقة<lf>غير متاحة للفرق التي تم ضبط هذا الإعداد لديها على <BOLD>تعطيل</BOLD>.
 <string>تعطيل
-<string>يعطل إعدادات اللعب متعدد المنصات،<lf>مما يسمح باللعب مع مستخدمين على المنصة ذاتها فقط.<lf><lf>لا يمكن اللعب مع المستخدمين<lf>المفعِّلين لهذا الإعداد. بالإضافة إلى ذلك، ستكون وظيفة<lf>الفرقة غير متاحة للفرق<lf>المفعِّلة لهذا الإعداد.
+<string>يعطل إعدادات اللعب عبر المنصات،<lf>مما يسمح باللعب مع مستخدمين على المنصة ذاتها فقط.<lf><lf>لا <LSNR "يمكنكَ" "يمكنكِ"> المشاركة في اللعب عبر المنصات<lf>مع المستخدمين الذين تم ضبط هذا الإعداد لديهم على <BOLD>تمكين</BOLD>.<lf>بالإضافة إلى ذلك، ستكون وظيفة الفرقة غير متاحة<lf>للفرق التي تم ضبط هذا الإعداد لديها على <BOLD>تمكين</BOLD>.
 <string>حدث خطأ في الاتصال.<lf>لم تتغير إعدادات اللعب متعدد المنصات.<lf>{0}
 <string>عرض اسم الاختصار
 <string>ضبط عرض أسماء العناصر، التحيات وغيرها<lf>في اختصارات لوحة المفاتيح في العرض الموسع.
@@ -1167,15 +1177,15 @@
 <string>عرض ضرر صياد الدعم
 <string>ضبط عرض عدد الأضرار الملحقة<lf>عندما يهاجم صياد الدعم وحشًا.
 <string>تمكين
-<string>إيقاف
+<string>تعطيل
 <string>تحديد موضع هجمات صياد الدعم
-<string>ضبط تحديد موضع هجمات صياد الدعم على الوحوش.
-<string>تٌمكن صياد الدعم من تنفيذ الهجمات الجانبية.
-<string>منع صياد الدعم من تنفيذ الهجمات الجانبية.
+<string>يضبط ما إذا كان صيادو الدعم<lf>سيتمكنون من إبطال هجوم وحش.
+<string>يمكِّن صيادي الدعم من تنفيذ<lf>هجمات مبطِلة.
+<string>يعطل صيادي الدعم من تنفيذ<lf>هجمات مبطِلة.
 <string>صدام قوة صياد الدعم
-<string>ضبط ما إذا كان صيادي الدعم<lf> قادرين على تنفيذ مواجهات قوية مع الوحوش.
-<string>تتيح لصيادي الدعم تنفيذ مواجهات قوية.
-<string>منع صيادي الدعم<lf>من تنفيذ مواجهات قوية.
+<string>يضبط ما إذا كان صائدو الدعم قادرين<lf>على تنفيذ صدامات القوة ضد الوحوش.
+<string>يمكِّن صيادي الدعم من تنفيذ<lf>صدامات القوة.
+<string>يعطل صيادي الدعم من تنفيذ<lf>صدامات القوة.
 <string>امتطاء صياد الدعم للوحوش
 <string>ضبط ما إذا كان صيادو الدعم قادرين على امتطاء الوحوش.
 <string>السماح لصيادي الدعم بامتطاء الوحوش.
@@ -1203,13 +1213,13 @@
 <string>النوع 5
 <string>عرض صورة ظلية ذات مخطط أزرق عندما يكون<lf>الصياد محجوبًا عن الرؤية بواسطة وحش.
 <string>حفظ الصور المتزامنة
-<string>يضبط حفظ الصور الملتقطة<lf>باستخدام الكاميرا في بيانات الحفظ<lf>ومساحة تخزين جهاز الألعاب.
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>تزامن
-<string>يحفظ الصور في كل من بيانات الحفظ<lf>ومساحة تخزين جهاز الألعاب.
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>عدم تزامن
-<string>يحفظ الصور في بيانات الحفظ فقط.
-<string>يخفي أسماء اللاعبين الآخرين
-<string>يضبط إخفاء أسماء اللاعبين الآخرين.
+<string>يحفظ الصور في البيانات المحفوظة فقط.
+<string>إخفاء أسماء اللاعبين الآخرين
+<string>يضبط ما إذا كانت أسماء اللاعبين الآخرين ستختفي.
 <string>إخفاء أسماء كل اللاعبين الآخرين
 <string>يعرض أسماء مجهولة لكل اللاعبين الآخرين<lf>إلى جانب <LSNR "اسمكَ" "اسمكِ">.<lf><COLOR preset="TXT_Accent">(ملفات تعريف الصيادين ليست مجهولة).</COLOR>
 <string>إخفاء هوية اللاعبين من خارج ربط الفرق
@@ -1223,21 +1233,21 @@
 <string>النوع 2
 <string>عرض قائمة تأثيرات اللحن فقط<lf>دون عرض دليل الزر العادي،<lf>بغض النظر عما إذا كان قرن الصيد<lf>مغمدًا أم مُشهرًا.
 <string>النوع 3
-<string>عرض دليل الزر العادي،<lf>بغض النظر عما إذا كان قرن<lf>الصيد مغمدًا أم مُشهرًا،<lf>وعرض قائمة تأثيرات اللحن فقط عند الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN><lf>أثناء إشهار قرن الصيد.
+<string>يعرض دليل الزر العادي،<lf>بغض النظر عما إذا كان قرن الصيد<lf>مغمدًا أم مُشهرًا،<lf>وعرض لائحة تأثيرات اللحن فقط<lf>عند الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN><lf>أثناء إشهار قرن الصيد.
 <string>مستوى الصوت الرئيسي
-<string>ضبط مستوى الصوت الإجمالي.<lf><COLOR preset="TXT_Accent">(لا يؤثر على مستوى صوت الدردشة الصوتية)</COLOR>
+<string>يضبط مستوى الصوت الإجمالي.<lf><COLOR preset="TXT_Accent">(لا يؤثر على مستوى صوت الدردشة الصوتية)</COLOR>
 <string>مستوى الصوت
-<string>ضبط مستوى الأصوات داخل اللعبة.
+<string>يضبط مستوى الأصوات داخل اللعبة.
 <string>مستوى الصوت (إرسال التحيات التلقائية)
-<string>ضبط مستوى صوت التحيات التلقائية الصوتية.
+<string>يضبط مستوى صوت التحيات التلقائية الصوتية.
 <string>مستوى الصوت (تلقي التحيات التلقائية)
-<string>ضبط مستوى الأصوات عند تلقي<lf>التحيات الصوتية التلقائية.
+<string>يضبط مستوى الصوت عند تلقي<lf>التحيات التلقائية.
 <string>مستوى صوت موسيقى الخلفية
-<string>ضبط مستوى صوت موسيقى الخلفية.
+<string>يضبط مستوى صوت موسيقى الخلفية.
 <string>مستوى المؤثرات الصوتية
-<string>ضبط مستوى صوت المؤثرات الصوتية.
+<string>يضبط مستوى صوت المؤثرات الصوتية.
 <string>المزج الصوتي
-<string>يضبط جهاز التشغيل الخاص بك لتحسين أداءك<lf>بيئة الاستماع.
+<string>يضبط جهاز التشغيل الخاص بك لتحسين بيئة استماعك.
 <string>التلفاز
 <string>إعدادات الصوت المحسَّنة لمكبرات صوت التلفاز.
 <string>التلفاز (صوت ثلاثي الأبعاد)
@@ -1249,43 +1259,48 @@
 <string>مكبرات الصوت (الصوت المحيطي)
 <string>إعدادات الصوت المحسَّنة لمكبرات الصوت المحيطي.
 <string>شريط الصوت
-<string>إعدادات الصوت المحسَّنة لشريط الصوت.
+<string>إعدادات الصوت المحسَّنة لأشرطة الصوت.
 <string>سماعات الرقبة
 <string>إعدادات الصوت المحسَّنة لسماعات الرقبة.
 <string>الوضع الليلي
 <string>إعدادات الصوت المحسَّنة<lf>للتشغيل بمستوى صوت منخفض.
 <string>صوت أحادي
-<string>تشغيل/إيقاف الصوت الأحادي.
+<string>تشغيل أو إيقاف تشغيل الصوت الأحادي.
 <string>تشغيل
-<string>تشغيل صوت اللعبة بوضع الصوت الأحادي. <COLOR preset="TXT_Accent">(تشغِّل<lf>مكبرات الصوت اليمنى واليسرى الصوت نفسه).</COLOR>
+<string>يشغِّل صوت اللعبة بوضع الصوت الأحادي.<lf><COLOR preset="TXT_Accent">(تشغِّل مكبرات الصوت اليمنى واليسرى الصوت نفسه).</COLOR>
 <string>إيقاف
-<string>تشغيل صوت اللعبة بصوت الستيريو.
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>تعطيل الصوت الأحادي لصوت اللعبة، وتشغيل<lf>الصوت وفقًا لإعدادات إخراج الصوت في نظام<lf>التشغيل الخاص بك.
 <string>مخرج الصوت
 <string>توفير معلومات مخرج الصوت.
+<string>جهاز الإخراج
+<string>صوت ثلاثي الأبعاد
+<string>تمكين
+<string>تعطيل
 <string>الدردشة الصوتية
 <string>ضبط استخدام الدردشة الصوتية.
 <string>تمكين
-<string>تشغيل الدردشة الصوتية.
+<string>يمكِّن الدردشة الصوتية.
 <string>تعطيل
-<string>تعطيل الدردشة الصوتية.
+<string>يعطل الدردشة الصوتية.
 <string>الضغط للتحدث
 <string>تمكن الدردشة الصوتية من نقل الصوت فقط<lf>عندما يتم الضغط على المفتاح المخصص.<lf><COLOR preset="TXT_Accent">(خاصية للوحة المفاتيح فقط)</COLOR>
 <string>مستوى صوت الدردشة الصوتية
-<string>ضبط مستوى صوت الأطراف الأخرى<lf>في الدردشة الصوتية.
+<string>يضبط مستوى صوت الأطراف الأخرى في الدردشة الصوتية.
 <string>التبديل التلقائي للدردشة الصوتية
-<string>ضبط تبديل قنوات الدردشة الصوتية تلقائيًا<lf>بناءً على حالة المهمة.<lf><COLOR preset="TXT_Accent">(يمكن إجراء التبديل اليدوي في أي وقت).</COLOR>
-<string>إعطاء أولوية لأعضاء المهمة
-<string>التبديل التلقائي إلى الدردشة الصوتية<lf>لعضو المهمة عند بدئها وربط الدردشة الصوتية<lf>للعضو عند العودة منها.
-<string>إعطاء أولوية لعضو الربط
-<string>التبديل التلقائي إلى الدردشة الصوتية<lf>لعضو الربط عند الانضمام إلى ربط الفرق<lf>بغض النظر عن حالة المهمة.
+<string>يضبط ما إذا كانت قنوات الدردشة الصوتية ستتبدل تلقائيًا<lf>بناءً على حالة المَهمة.<lf><COLOR preset="TXT_Accent">(يمكن إجراء التبديل اليدوي في أي وقت).</COLOR>
+<string>إعطاء الأولوية لأعضاء المَهمة
+<string>يبدّل تلقائيًا إلى الدردشة الصوتية<lf>لعضو المهمة عند بدئها ويربط الدردشة الصوتية<lf>للعضو عند العودة منها.
+<string>إعطاء الأولوية لأعضاء فريق الربط
+<string>يبدّل تلقائيًا إلى الدردشة الصوتية<lf>لعضو الربط عند الانضمام إلى ربط الفرق<lf>بغض النظر عن حالة المَهمة.
 <string>عدم إعطاء الأولية
 <string>عدم التفضيل أو التبديل التلقائي<lf>لقنوات الدردشة الصوتية.<lf>يجب أن يتم التبديل يدويًا.
-<string>لغة الباليكو
-<string>ضبط اللغة التي يتحدث بها الباليكو.
+<string>لغة الفيلاين
+<string>يضبط اللغة التي يتحدث بها الباليكو.
 <string>لغة الفيلاين
 <string>ضبط كل أصوات الـ(فيلاين)،<lf>بما في ذلك (باليكو) الخاص <LSNR "بكَ" "بكِ"> إلى لغة الـ(فيلاين).<lf><COLOR preset="TXT_Accent">(يمكن أيضًا تغيير هذا الإعداد أثناء إنشاء الشخصية).</COLOR>
-<string>تعيين نوع الصوت
-<string>ضبط جميع أصوات الفيلين، بما في ذلك صوت باليكو<lf>الخاص بك، إلى نوع الصوت الذي تم تعيينه أثناء<lf>إنشاء الشخصية. <COLOR preset="TXT_Accent">(لن يتم استخدام لغة الفيلين.)</COLOR>
+<string>استخدام نوع الصوت المحدد
+<string>ضبط جميع أصوات الفيلاين، بما في ذلك صوت الباليكو<lf>الخاص بك، إلى نوع الصوت الذي تم تعيينه أثناء<lf>إنشاء الشخصية. <COLOR preset="TXT_Accent">(لن يتم استخدام لغة الفيلاين.)</COLOR>
 <string>تشغيل الصوت في الوضع غير النشط
 <string>ضبط إعدادات تشغيل الصوت<lf>عندما تكون نافذة اللعبة<lf>غير نشطة.
 <string>تشغيل
@@ -1307,9 +1322,9 @@
 <string>عمى اللون الأخضر
 <string>عمى اللون الأزرق
 <string>مساعدة رهاب العناكب
-<string>ضبط مظهر مخلوقات متعددة الأرجل كالعناكب<lf>ووحوش صغيرة شبيهة بالحشرات والحياة المستوطنة.<lf><COLOR preset="TXT_Accent">(لا يؤثر على حركات المخلوق أو مستوى الصعوبة).</COLOR>
+<string>يضبط مظهر مخلوقات متعددة الأرجل كالعناكب<lf>ووحوش صغيرة شبيهة بالحشرات والحياة المستوطنة.<lf><COLOR preset="TXT_Accent">(لا يؤثر على حركات المخلوق أو مستوى الصعوبة).</COLOR>
 <string>تشغيل
-<string>يغير مظهر بعض الوحوش الصغيرة<lf>والحياة المستوطنة لاستيعاب اللاعبين<lf>الذين يعانون من رهاب العناكب.
+<string>يضبط مظهر بعض الوحوش الصغيرة<lf>والحياة المستوطنة لملاءمة اللاعبين<lf>الذين يعانون من رهاب العناكب.
 <string>إيقاف
 <string>لا يضبط مظهر الوحوش الصغيرة أو الحياة المستوطنة<lf>ذات السمات الشبيهة بالعناكب أو الحشرات.
 <string>تسهيلات الاستخدام المرئية
@@ -1325,10 +1340,10 @@
 <string>ضبط الإعدادات لتتناسب مع بيئة اللعب الخاصة بك.
 <string><LSNR "يمكنكَ" "يمكنكِ"> ضبط حجم العرض الرأسي والنص ليناسب بيئة اللعب بشكل أفضل.<lf><LSNR "اختر" "اختاري"> الخيار الأكثر تطابقًا مع ظروف اللعب الحالية<lf>وسيتم ضبط الإعدادات وفقًا لذلك.
 <string>إعدادات تلقائية: المكتب
-<string>يضبط تلقائيًا مجموعة واسعة من الظروف<lf>لتحسين التجربة عند اللعب على مكتب.
+<string>يضبط ظروف اللعب تلقائيًا لتحسين<lf>التجربة عند اللعب على مكتب.
 <string>هل <LSNR "تريد" "تريدين"> تطبيق إعدادات تلقائية: المكتب؟
 <string>إعدادات تلقائية: غرفة المعيشة
-<string>يضبط تلقائيًا ظروف اللعب لتتناسب مع المسافة<lf>المتزايدة عن الشاشة، مما يجعلها مثالية للعب<lf>في بيئة غرفة المعيشة.
+<string>يضبط ظروف اللعب تلقائيًا لتحسين<lf>تجربة اللعب من غرفة المعيشة<lf>على مسافة متزايدة من الشاشة.
 <string>هل <LSNR "تريد" "تريدين"> تطبيق إعدادات تلقائية: غرفة المعيشة؟
 <string>لغة النص
 <string>ضبط إعدادات لغة النص.<lf><COLOR preset="TXT_Accent">(ستظهر التغييرات بعد الخروج<lf>من قائمة الإعدادات).</COLOR>

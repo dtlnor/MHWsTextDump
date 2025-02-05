@@ -6,21 +6,21 @@
 <string>{0}<lf>abandonó<lf>el grupo vinculado.
 <string>Rechazaste la invitación del grupo vinculado.
 <string>{0}<lf>no se pudo unir<lf>al grupo vinculado.
-<string>{0} accedió a tu enlace<lf>de entorno.
-<string>Accediste al enlace<lf>de entorno de {0}.
-<string>{0} salió del enlace de entorno.
+<string>{0} se unió  a tu<lf>entorno vinculado.
+<string>Accediste al entorno<lf>vinculado de {0}.
+<string>{0}<lf>salió del entorno vinculado.
 <string>Regresaste a tu propio entorno.
-<string>Rechazaste la invitación<lf>al enlace de entorno.
-<string>{0}<lf>no se pudo unir<lf>al enlace de entorno.
+<string>Rechazaste la invitación<lf>al entorno vinculado.
+<string>{0}<lf>no se pudo unir al entorno vinculado.
 <string>Rechazaste la invitación a la misión.
 <string>{0}<lf>no se pudo unir<lf>a la misión.
 <string>{0}<lf>publicó una misión.
 <string>{0}<lf>se unió a la misión.
 <string>Te uniste<lf>a la misión de {0}.
 <string>{0}<lf>abandonó la misión.
-<string>{0} publicó una misión<lf>y está esperando a que otros se unan.
-<string>Te desmayaste.<lf>Hay menos recompensas.<lf>(Intentos restantes: {0})
-<string>{1} se desmayó.<lf>Hay menos recompensas.<lf>(Intentos restantes: {0})
+<string>{0} aceptó una misión<lf>y está esperando a que otros se unan.
+<string>Te desmayaste.<lf>(Intentos restantes: {0})
+<string>{1} se desmayó.<lf>(Intentos restantes: {0})
 <string>Te desmayaste.<lf>Las recompensas se redujeron a 0.
 <string>{0} se desmayó.<lf>Las recompensas<lf>se redujeron a 0.
 <string>Te desmayaste.
@@ -29,8 +29,8 @@
 <string>¡Se acabó el tiempo!
 <string>Invitación a grupo vinculado
 <string>{0}<lf>te invitó a un grupo<lf>vinculado.
-<string>Invitación al enlace de entorno
-<string>{0} te envió<lf>una invitación<lf>al enlace de entorno.
+<string>Invitación a entorno vinculado
+<string>{0} te invitó a un<lf>entorno vinculado.
 <string>Invitación a misión
 <string>{0}<lf>te invitó a una misión.
 <string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
@@ -39,8 +39,8 @@
 <string>Cancelar
 <string>Se activó la habilidad<lf><BOLD>{0}</BOLD>.
 <string>Desapareció el efecto de<lf><BOLD>{0}</BOLD>.
-<string>Se activó la habilidad de comida<lf><BOLD>{0}</BOLD>.
-<string>El efecto de la habilidad de comida<lf><BOLD>{0}</BOLD> desapareció.
+<string>Se activó la habilidad de menú<lf><BOLD>{0}</BOLD>.
+<string>El efecto de la habilidad de menú<lf><BOLD>{0}</BOLD> desapareció.
 <string>Bengala de auxilio disparada.
 <string>El líder de la misión envió una bengala de auxilio.
 <string>Bengala de auxilio cancelada.
@@ -48,34 +48,34 @@
 <string>Se cambió el chat de voz a<lf><REF RefNetwork_0004_02>.
 <string>Se cambió el chat de voz a<lf><REF RefNetwork_0004_01>.
 <string>Nueva misión desbloqueada.
-<string>Se designó a{0}<lf>como líder de la misión.
-<string>Se designó a otro jugador<lf>como líder de la misión.
+<string>Se designó a {0}<lf>como líder de la misión.
+<string>Te designaron como<lf>líder de la misión.
 <string>Se designó a {0}<lf>como líder del grupo vinculado.
-<string>Se designó a otro jugador<lf>como líder del grupo vinculado.
+<string>Te designaron como<lf>líder del grupo vinculado.
 <string>{0}<lf>obtuvo el control de la sala privada.
-<string>Otro jugador obtuvo el control<lf>de la sala privada.
-<string>Devuelve los objetos de suministro.
+<string>Obtuviste el control<lf>de la sala privada.
+<string>Devolver objetos de suministro.
 <string>Anuncio
-<string><PLURAL {0} "{0} notificación recibida" "{0} notificaciones recibidas"> online.
+<string>Recibiste <PLURAL {0} "{0} notificación" "{0} notificaciones"> estando offline.
 <string>Anuncio
-<string><PLURAL {0} "{0} notificación de invitación recibida" "{0} notificaciones de invitación recibidas">.
-<string>Pedidos de amigos
-<string>Recibiste una invitación de amistad<lf>de {0}.
-<string>Entablaste amistad con {0}.
-<string>¡Los miembros de enlace de entorno están en combate!
+<string><PLURAL {0} "{0} invitación recibida" "{0} invitaciones recibidas">.
+<string>Pedido de amigos
+<string>Recibiste una solicitud de amistad<lf>de {0}.
+<string>Entablaste amistad con<lf>{0}.
+<string>Actividad de entorno vinculado
 <string>Comenzando un estudio<lf>de campo para<lf>{0}.
 <string>Cancelar
 <string>Objetos de suministro repuestos.<lf>(Revisa los objetos de suministro con <INPUTMSG MsgGUI020100_0011>).
 <string>El cazador de apoyo {0}<lf>se unió a la misión.
-<string>El cazador de apoyo {0}<lf>abandonó la misión.
+<string>El cazador de apoyo<lf>{0}<lf>abandonó la misión.
 <string>Objetivo principal fijado como destino.
-<string>El objetivo desapareció. Fijando destino del objetivo principal.
+<string>El objetivo desapareció.<lf>Fijando destino del objetivo principal.
 <string>El objetivo fijado como punto de ruta desapareció.
 <string>Los efectos de la comida desaparecieron.
 <string>La misión fracasó...
 <string>Invitaciones a misión (reenviadas)
-<string>Ya puedes recibir invitaciones de misión de {0}.
-<string>Objeto arreglado recibido<lf><COLOR preset="TXT_Accent">Utensilios de caza</COLOR>
+<string>Ya puedes recibir invitaciones<lf>de misión de {0}.
+<string>Objetos esenciales recibidos:<lf><COLOR preset="TXT_Accent">Utensilios de caza</COLOR>
 <string>Actualización de resumen de entorno
 <string>¡Avistamiento de {0}<lf>en {1}!
 <string>Abrir mapa
@@ -85,16 +85,13 @@
 <string>Actualización de resumen de entorno
 <string>¡Apareció el mayor depredador<lf>de esta región, {0}!
 <string>Abrir mapa
-<string>Actualización de resumen de entorno
-<string>{0} a la vista.<lf>¡Y con más recompensas de lo normal!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡{0} apareció!
 <string>Abrir mapa
 <string>Resumen de entorno
-<string>¡El monstruo {0}<lf>se marchará enseguida!
+<string>¡{0}<lf>se marchará enseguida!
 <string>Abrir mapa
-<string>El monstruo {0} abandonó la zona...
+<string>{0}<lf>abandonó la zona...
 <string>Resumen de entorno
 <string>¡Apareció una manada<lf>de {0}!
 <string>Abrir mapa
@@ -108,8 +105,8 @@
 <string>Resumen de entorno
 <string>¡Se detectó un aumento<lf>de {0}!
 <string>Abrir mapa
-<string>{0} al traste.
-<string>Solicitudes de misiones
+<string>Se perdió {0}.
+<string>Solicitudes de acceso
 <string>Recibiste una solicitud para unirse.<lf>Revísala para aceptarla o rechazarla.
 <string>Abandonaste la sala.
 <string>Conexión perdida.
@@ -117,10 +114,10 @@
 <string>Seguido por {0}.
 <string>Sin objetos de suministro.
 <string>Estudio de campo abandonado.
-<string>No puedes llevar más objetos de suministro.<lf>Se descartaron los sobrantes.
-<string>Recibiste la bendición del<lf>efecto de melodía <BOLD>{0}</BOLD>.
-<string>¡Efecto de melodía <BOLD>{0}</BOLD><lf>activado!
-<string>El efecto de melodía {0}<lf>se disipó.
+<string>No puedes llevar más objetos<lf>de suministro. Se descartaron<lf>los sobrantes.
+<string>Recibiste el efecto de melodía<lf><BOLD>{0}</BOLD>.
+<string>¡Efecto de melodía activado!<lf> <BOLD>{0}</BOLD>
+<string>El efecto de melodía<lf><BOLD>{0}</BOLD><lf>se disipó.
 <string>Desapareció el efecto de<lf>{0}.
 <string>Ya puedes usar {0}.
 <string>El efecto de la bebida<lf>fría se agotó.
@@ -136,15 +133,15 @@
 <string>Gracias por participar en la beta de prueba.<lf>¡Ya puedes reservar el juego completo!
 <string>Abrir
 <string>El estudio de campo no puede comenzar<lf>porque hay miembros viendo los resultados.
-<string>No se puede cazar a este monstruo como parte<lf>de una misión con tu progreso actual: {0}.
-<string>Se activó el efecto de<lf>burbuja sónica {0}.
+<string>No se puede cazar a este monstruo<lf>como parte de una misión con tu<lf>progreso actual: {0}.
+<string>Se activó el efecto de<lf>burbuja sónica.<lf>{0}
 <string>Actualización de resumen de entorno
 <string>{0} a la vista.<lf>¡Con recompensas fuera de lo normal!
 <string>Abrir mapa
 <string>Se disolvió el grupo vinculado porque<lf>eras el único miembro.
-<string>No te pudiste unir al enlace<lf>de entorno de {0}.
-<string>Abandonaste el enlace de entorno<lf>de {0}.
-<string>El enlace de entorno se disolvió.
+<string>No te pudiste unir al entorno<lf>vinculado de {0}.
+<string>Dejaste el entorno de {0}.
+<string>El entorno vinculado se disolvió.
 <string>No se pudo unir a la misión.
 <string>Los efectos del menú desaparecerán pronto.
 <string>Actualización de resumen de entorno

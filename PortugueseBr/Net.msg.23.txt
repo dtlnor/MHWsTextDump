@@ -1,19 +1,19 @@
 ﻿<string>Conectando...
 <string>Conectando...
 <string>Iniciando o jogo.
-<string>Solicitação inválida.
+<string>Pedido inválido.<lf>{0}
 <string>Falha ao obter informação.
 <string>Conectando...
 <string>Verificando conexão com o servidor...
 <string>Ocorreu um erro de comunicação.<lf>{0}
 <string>Houve um erro de comunicação.<lf>Voltando à tela inicial.<lf>{0}
-<string>Alguns recursos do modo multijogador online não<lf>estarão disponíveis.<lf><lf>Registre-se com {0} para acessar todos os recursos<lf>do modo multijogador online.
+<string>Alguns recursos do modo multijogador online<lf>não estarão disponíveis.<lf><lf>Registre-se com {0} para acessar<lf>todos os recursos do modo multijogador online.
 <string>Esta conta não atende aos requisitos<lf>para o multijogador online.
 <string>Não foi possível conectar à rede.<lf>Voltando à tela inicial.
 <string>Não foi possível conectar à rede.
 <string>Não é possível jogar fora do período de teste<lf>beta. Voltando à tela inicial.<lf>{0}
-<string>Não foi possível conectar ao serviço {0}.<lf>{1}
-<string>Conexão com o serviço {0} perdida.<lf>{1}
+<string>Não foi possível conectar-se a {0}.<lf>{1}
+<string>Conexão com {0} perdida.<lf>{1}
 <string>Você está no Modo Offline. Você continuará jogando<lf>normalmente. Para voltar ao Modo Online, converse<lf>com seu operador para acessar as funções de<lf>comunicação no Menu de Troca de Lobby.
 <string>Você está no Modo Offline.<lf>Para voltar ao Modo Online, fale com a Assistente<lf>e acesse as funções de comunicação no Menu de<lf>Troca de Lobby.
 <string>Alterado para o modo Um Jogador Online devido à<lf>inatividade. Você continuará jogando normalmente.<lf>{0}
@@ -23,7 +23,7 @@
 <string>Não é possível seguir mais jogadores, você<lf>atingiu o limite.<lf>{0}
 <string>Iniciando rede...
 <string>Uma nova versão do jogo foi encontrada. Para<lf>usar recursos de rede, feche o jogo e realize<lf>a atualização.
-<string>Dados salvos excluídos previamente foram detectados.<lf>Usar estes dados redefinirá seus Amigos Caçadores,<lf>listas de Seguindo/Seguidores, e Esquadrões.
+<string>Dados de Caçador sobrescritos.<lf>Estes dados salvos ainda podem ser usados,<lf>mas seus dados de Amigos Caçadores, listas<lf>de Seguindo/Seguidores e de Esquadrões<lf>foram redefinidos.
 <string>O jogador já entrou no Grupo de Elo.<lf>{0}
 <string>O número máximo de jogadores do Grupo de Elo<lf>já foi alcançado. Não é possível adicionar outros<lf>jogadores.<lf>{0}
 <string>Você não pode reportar neste momento.<lf>Tente novamente mais tarde.<lf>{0}
@@ -61,9 +61,9 @@
 <string>Verifique qualquer texto editável, como seu Perfil de Caçador<lf>e os comentários de Esquadrão, e atualize o conteúdo<lf>de acordo com as normas. Não atualizar o conteúdo textual<lf>ou a reincidência de atualizações que violem os Termos de Uso<lf>podem resultar em restrições permanentes.
 <string>Além disso, os nomes de Caçador(a) e Amigato serão alterados<lf>para o padrão "Caçador/Amigato".
 <string><COLOR preset="TXT_Danger">Conta suspensa permanentemente</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Sua conta foi suspensa permanentemente</COLOR> por violações confirmadas<lf>de nossos Termos de Uso.<lf><lf>A conta em questão não poderá acessar o modo online de<lf>Monster Hunter Wilds. Não oferecemos maneiras de remover<lf>a suspensão permanente de uma conta, de acordo com nossos<lf>Termos de Uso.
-<string>Entrando no Grupo de Elo. Alterar personagem?
-<string>Entrar com o personagem atual
-<string>Alterar personagem e entrar
+<string>Entrando no Grupo de Elo. Trocar de dados salvos?<lf><COLOR preset="TXT_Danger">(Ao trocar de dados salvos, dados não salvos serão<lf>perdidos.)</COLOR>
+<string>Entrar com os dados salvos atuais
+<string>Entrar com dados salvos diferentes
 <string>Não entrar
 <string>Não foi possível entrar na sessão.<lf>{0}
 <string>Não foi possível enviar pedido de convite.<lf>{0}

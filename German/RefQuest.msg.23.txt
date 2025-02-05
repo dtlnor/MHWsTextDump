@@ -8,8 +8,7 @@
 <string>Aktuell
 <string>Vorhersage
 <string>Spieleraktionen können die Vorhersage<lf>beeinflussen.
-<string>Monster-Info
-<string>Größtes Exemplar
+<string>Detaillierte Infos
 <string>Jagen
 <string>Erlegen
 <string>Fangen
@@ -34,12 +33,12 @@
 <string><COLOR preset="TXT_Danger">Annahme oder Beitritt dieser Quest fehlgeschlagen.</COLOR>
 <string><COLOR preset="TXT_Danger">Die Felderkundung kann nicht gestartet werden, weil ein Verbindungsmitglied sich die Questergebnisse ansieht.</COLOR>
 <string>Zurück zum Titelbildschirm
-<string>Erneut versuchen
-<string>Erlege {0}.
-<string>Erjagen: {0}
-<string>Erjagen: {0} und andere
-<string>Fange {0}.
-<string>Liefere {0}.
+<string>Neu versuchen
+<string>Erlege: {0}.
+<string>Erjage: {0}
+<string>Erjage: {0} und andere
+<string>Fange: {0}.
+<string>Liefere: {0}.
 <string>Möchtest du diese Quest abbrechen?
 <string>Die Quest wurde abgebrochen.
 <string>Die Umgebungsverbindung wurde aufgelöst.
@@ -52,7 +51,7 @@
 <string>Quest-Belohnung
 <string>Bonus-Belohnung
 <string>Zusatzbelohnung für Ziele
-<string>Belohnung für Ziel-Monster
+<string>Belohnung für Zielmonster
 <string>Allgemeine Materialbelohnung
 <string>Zusätzliche Quest-Belohnung
 <string>Quest<lf>abgeschlossen
@@ -68,7 +67,7 @@
 <string>Lobbymitglieder-Quests
 <string>Not-Leuchtzeichen-Quests
 <string>Verbindungsmitglieder-Quests
-<string>Questbeitrittseinst.
+<string>Beitritt akzeptieren
 <string>Passe die Annahmemethode zum Questbeitritt an. <COLOR preset="TXT_Accent">(Verbindungsmitglieder mit Questeinladung werden automatisch akzeptiert.)</COLOR>
 <string>Autom.
 <string>Manuell
@@ -89,17 +88,17 @@
 <string>Bedingungen
 <string>–
 <string>Hauptziel-Fortschritt
-<string>Scheitert wenn
-<string>– die Zeit abläuft
-<string>– du 3-mal in Ohnmacht fällst
-<string>– du {0}-mal in Ohnmacht fällst
-<string>Ohnmachten: {0}/{1}
-<string>Kunde: {0}
+<string>Scheitert bei
+<string>Ablauf der Zeit
+<string>3. Ohnmacht
+<string>{0}. Ohnmacht
+<string>Anzahl Ohnmachten: {0}/{1}
+<string>Auftrag von: {0}
 <string>Abgeschlossen!
-<string>Rekrutierungskommentar
-<string>Wähle einen Kommentar zur Mitgliederrekrutierung.
+<string>Rekrutierungsnachricht
+<string>Lege eine Nachricht zur Mitgliederrekrutierung fest.
 <string>Jeder ist willkommen!
-<string>Suche Jäger mit ähnlichem JR!
+<string>Jäger mit ähnlichem JR!
 <string>Jagdneulinge willkommen!
 <string>Suche nach Veteranen!
 <string>Keine Quest möglich
@@ -107,18 +106,18 @@
 <string>Erstelle eine Quest für mehrere Ziele!
 <string>{0} lädt dich zum Essen ein!
 <string>{0} möchte sich unterhalten!
-<string>Quest verfügbar: {0}!
-<string>{0}: Abschlussanforderungen erreicht!
+<string>Quest: {0}
+<string>{0}: Bereit für den Bericht!
 <string>Max. Mitglieder
 <string>Lege die maximale Anzahl der Spieler zum Questbeitritt fest. <COLOR preset="TXT_Accent">(Basierend auf der Anzahl Verbindungsmitglieder.)</COLOR>
 <string>1
 <string>2
 <string>3
 <string>4
-<string>Mehrspieleroptionen
+<string>Mehrspielermodus
 <string>Wähle einen Mehrspielermodus.
-<string>Andere Spieler und Hilfsjäger
-<string>Nur andere Spieler
+<string>Spieler und Hilfsjäger
+<string>Nur Spieler
 <string>Nur Hilfsjäger
 <string>Auto-Not-Leuchtzeichen
 <string>Lege fest, ob zu Questbeginn automatisch ein Not-Leuchtzeichen abgefeuert wird.
@@ -129,8 +128,8 @@
 <string>Plattformzulassung
 <string>Wähle, Spieler welcher Plattformen zum Questbeitritt zugelassen sind. <COLOR preset="TXT_Accent">(Gilt nicht für Verbindungsmitglieder mit Questeinladung.)</COLOR>
 <string>Suche nach Quests mit „Alle Plattformen“ in den Rekrutierungseinstellungen.
-<string>Spieler auf derselben Plattform werden nicht aufgeführt, wenn sie „Plattformübergreifendes Spielen“ deaktiviert haben.
-<string>Plattformübergreifendes Spielen wurde deaktiviert. Es werden nur Quests von Spielern mit derselben Einstellung aufgeführt.
+<string>Spieler, die „Crossplay“ deaktiviert haben, erscheinen nicht in der Suche, selbst wenn sie auf derselben Plattform spielen.
+<string>Da Crossplay im Hauptmenü deaktiviert wurde, werden nur Quests von Spielern mit derselben Einstellung aufgeführt.
 <string>Alle Plattformen
 <string>Gleiche Plattform
 <string>Not-Leuchtzeichen-Suche

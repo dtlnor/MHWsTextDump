@@ -1,8 +1,8 @@
 ﻿<string>Connexion en cours...
 <string>Connexion en cours...
 <string>Lancement de la partie.
-<string>Requête non valide.
-<string>Les informations n'ont pas pu être obtenues.
+<string>Demande non valide.<lf>{0}
+<string>Les informations n'ont pas pu être obtenues.<lf>{0}
 <string>Connexion en cours...
 <string>Vérification de la connexion au serveur...
 <string>Une erreur de communication est survenue.<lf>{0}
@@ -17,16 +17,16 @@
 <string>Vous êtes désormais en mode hors ligne.<lf>Pour repasser en mode en ligne, parlez à<lf>votre Assistante pour accéder aux fonctions<lf>de communication du menu de changement<lf>de lobby.
 <string>Vous êtes actuellement en mode hors ligne.<lf>Pour repasser en mode en ligne, parlez à<lf>votre Assistante pour accéder aux fonctions de<lf>communication du menu de changement de lobby.
 <string>Passage en mode solo en ligne en raison d'une trop longue<lf>inactivité. Vous pourrez continuer à jouer normalement.<lf>{0}
-<string>Impossible d'envoyer car vous êtes déjà amis<lf>Chasseurs ou qu'une invitation est en attente de<lf>réponse.<lf>{0}
-<string>Échec de l'envoi car vous ou l'autre partie avez<lf>atteint la limite maximum d'amis Chasseurs.<lf>{0}
+<string>Envoi impossible. Vous êtes déjà<lf>amis de chasse, ou une demande<lf>est en attente de réponse.<lf>{0}
+<string>Envoi impossible. Vous ou le destinataire<lf>avez atteint la limite d'amis de chasse.<lf>{0}
 <string>Vous suivez déjà ce joueur.<lf>{0}
 <string>Vous avez atteint la limite de personnes suivies<lf>et ne pouvez plus suivre d'autres joueurs.<lf>{0}
 <string>Connexion au réseau...
 <string>Nouvelle version de l'application détectée.<lf>Pour utiliser les fonctionnalités réseau,<lf>veuillez fermer l'application et installer<lf>la mise à jour.
-<string>Des données sauvegardées précédemment supprimées<lf>ont été détectées. Utiliser ces données réinitialisera<lf>vos amis Chasseurs, les joueurs que vous suivez ou<lf>qui vous suivent, ainsi que les Clans.
-<string>Le joueur a déjà rejoint le groupe relié.<lf>{0}
-<string>Le nombre mximum de joueurs pour<lf>le groupe relié a été atteint.<lf>Impossible d'ajouter d'autres joueurs.<lf>{0}
-<string>Impossible d'effectuer un signalement pour<lf>le moment. Veuillez réessayer ultérieurement.<lf>{0}
+<string>Les données de Chasseur ont été écrasées.<lf>Ces données restent utilisables, mais vos amis de<lf>chasse, les joueurs que vous suivez ou qui vous<lf>suivent, ainsi que les Clans seront réinitialisés.
+<string>Le joueur a déjà rejoint le groupe relié.<lf><lf>{0}
+<string>Le nombre maximum de joueurs pour<lf>le groupe relié a été atteint.<lf>Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
+<string>Impossible d'effectuer un signalement pour<lf>le moment. Veuillez réessayer ultérieurement.<lf><lf>{0}
 <string>Votre compte actuel ne vous permet pas<lf>de jouer au jeu.
 <string>Vous avez été déconnecté de la session.<lf>{0}
 <string>La création de la session a échoué.<lf>{0}
@@ -35,12 +35,12 @@
 <string>L'ID du lobby contient des caractères invalides.<lf>{0}
 <string>Impossible de trouver le lobby.<lf>{0}
 <string>La session était complète et n'a pas pu être<lf>rejointe.<lf>{0}
-<string>Recherche de lobby...
+<string>Recherche en cours...
 <string>Rejoindre un lobby recommandé ?
 <string>Rejoindre le lobby ?
 <string>Créer un lobby privé ?
 <string>Démarrer le jeu sans rejoindre de lobby ?<lf>(Vous pourrez rejoindre un lobby après avoir démarré le jeu.)
-<string>Rechercher un ID de lobby.<lf>(Jusqu'à huit caractères. Sensible à la casse.)
+<string>Veuillez saisir l'ID du lobby.<lf><lf><COLOR preset="TXT_Accent">Attention, les ID de lobby sont constitués<lf>de huit caractères et ils sont sensibles à la casse<lf>(les majuscules et minuscules sont importantes).</COLOR>
 <string>Impossible de rejoindre la session car la quête<lf>est terminée.
 <string>Dissoudre le lobby privé que vous hébergez<lf>actuellement ?
 <string>Impossible de rejoindre la quête car le mot de<lf>passe entré est incorrect.
@@ -49,10 +49,10 @@
 <string>Participation au groupe relié.
 <string>Le serveur est actuellement occupé.<lf>Veuillez réessayer ultérieurement.
 <string>Le crossplay est actuellement activé.
-<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "MMMM Do, YYYY HH:mm"><lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "D xMMMM YYYY HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
 <string>Comportement abusif/perturbateur
 <string>Types de comportement interdit
-<string>Texte inapproprié
+<string>Texte au contenu inapproprié
 <string>Propos inappropriés
 <string>Langage inapproprié
 <string>Comportement inapproprié
@@ -61,7 +61,7 @@
 <string>Veuillez examiner tout texte modifiable, tel que votre profil de<lf>Chasseur et les commentaires du Clan, et mettre à jour le<lf>contenu en conséquence. Ne pas mettre à jour le texte ou<lf>effectuer des mises à jour répétées enfreignant les conditions<lf>d'utilisation peut entraîner des restrictions permanentes.
 <string>De plus, le nom de votre Chasseur et de votre Palico sera<lf>remplacé par le nom par défaut "Chasseur/Palico".
 <string><COLOR preset="TXT_Danger">Compte définitivement suspendu</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Votre compte a été définitivement suspendu</COLOR> en raison de<lf>violations confirmées de nos conditions d'utilisation.<lf><lf>Le compte concerné ne pourra plus accéder au mode en ligne<lf>de Monster Hunter Wilds. Veuillez noter que nous ne proposons<lf>aucune mesure pour lever la suspension permanente d'un compte,<lf>conformément aux conditions d'utilisation.
-<string>Participation au groupe relié.<lf>Changer de données de sauvegarde ?
+<string>Participation au groupe relié.<lf>Changer de données sauvegardées ?<lf><COLOR preset="TXT_Danger">*Si vous changez de données sauvegardées,<lf>les informations non sauvegardées seront perdues.</COLOR>
 <string>Rejoindre avec ces données sauvegardées
 <string>Rejoindre avec d'autres données sauvegardées
 <string>Ne pas rejoindre

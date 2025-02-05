@@ -1,8 +1,8 @@
 ﻿<string>讀取中……
 <string>連接中……
 <string>正在開始遊戲。
-<string>此為不正確請求。
-<string>無法取得情報。
+<string>此為不正確請求。<lf>{0}
+<string>無法取得情報。<lf>{0}
 <string>通訊中……
 <string>正在確認伺服器連線……
 <string>發生通訊錯誤。<lf>{0}
@@ -20,12 +20,12 @@
 <string>已成為獵人好友，或是已邀請成為獵人好友，<lf>因此發送失敗。<lf>{0}
 <string>您或對方的獵人好友數已達到上限，因此發送失敗。<lf>{0}
 <string>已追蹤此玩家。<lf>{0}
-<string>已達追蹤數上限，無法再追蹤。<lf>{0}
+<string>已達到追蹤數上限，無法再追蹤。<lf>{0}
 <string>正在重置網路……
 <string>已檢測到應用程式的新版本。如要使用連線功能，<lf>請先結束應用程式並更新。
-<string>已檢測到曾被刪除的保存資料。此保存資料可使用，<lf>但獵人好友、追蹤清單、追蹤者清單和所屬小隊等<lf>資料將被重置。
+<string>獵人資訊已被覆寫。此保存資料仍可使用，<lf>但獵人好友、追蹤清單、追蹤者清單和所屬<lf>小隊等資料已被重置。
 <string>此玩家已是連結隊伍成員。<lf>{0}
-<string>已達連結隊伍邀請數上限，無法再邀請。<lf>{0}
+<string>已達到連結隊伍邀請數上限，無法再邀請。<lf>{0}
 <string>現在無法檢舉。請稍待一段時間後重試。<lf>{0}
 <string>此帳戶無法遊玩本遊戲。
 <string>和連線區連線中斷，無法繼續參加連線區。<lf>{0}
@@ -49,19 +49,19 @@
 <string>已加入連結隊伍。
 <string>伺服器繁忙，請稍後再試。
 <string>此遊戲模式支援跨平台遊玩。
-<string><COLOR preset="TXT_Accent">社區功能已受限</COLOR><lf>社區功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>已確認您的帳戶出現<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社區功能以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>已確認您的帳戶出現<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款。</COLOR>
 <string>騷擾行為
-<string>類似騷擾行為的活動
+<string>疑似騷擾行為
 <string>不恰當文字內容
 <string>不恰當發言
-<string>抵觸使用條款的不恰當發言
+<string>違反使用條款的不恰當發言
 <string>不恰當行為
 <string>違反使用條款的行為
-<string>若今後再出現類似行為，有可能導致帳戶受到永久限制。
-<string>請再次確認並更新您可編輯的獵人簡介與小隊留言等文字內容。<lf>若未更新文字內容，或再次使用抵觸使用條款的內容，有可能導致<lf>帳戶受到永久限制。
-<string>此外，您目前設定的獵人名字與隨從名字將自動變更為<lf>預設內容（獵人/隨從艾路）。
+<string>如反覆發生同樣或類似行為，將有可能導致帳戶受到永久限制。
+<string>請再次確認並更新您可編輯的獵人簡介與小隊留言等文字內容。<lf>若未更新文字內容，或再次使用違反使用條款的內容，有可能導致<lf>帳戶受到永久限制。
+<string>此外，您目前設定的獵人名字或隨從名字將自動變更為<lf>預設內容（「獵人」/「隨從艾路」）。
 <string><COLOR preset="TXT_Danger">永久停用帳戶</COLOR><lf><lf>已確認您的帳戶出現違反使用條款的行為，因此<COLOR preset="TXT_Danger">已永久停用帳戶。</COLOR><lf><lf>今後無法以此帳戶於線上遊玩《<REF RefGeneral_0000_0000_00>》。<lf>此外，根據使用條款，恕不接受帳戶永久停用的解除申請，<lf>敬請見諒。
-<string>將參加連結隊伍，要變更保存資料嗎？
+<string>將參加連結隊伍，要變更保存資料嗎？<lf><COLOR preset="TXT_Danger">（如變更保存資料，將失去尚未儲存的內容）</COLOR>
 <string>以現在的保存資料參加
 <string>重新選擇保存資料參加
 <string>不參加

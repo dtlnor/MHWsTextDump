@@ -36,7 +36,7 @@
 <string>クエストの制限時間<lf>残り{0}分です
 <string>現地調査クエスト
 <string>{0}の<lf>現地調査クエストを開始します
-<string>実行中止
+<string>実行しない
 <string>スキル≪{0}≫が<lf>発動しました
 <string>スキル≪{0}≫の<lf>効果が切れました
 <string>食事スキル≪{0}≫が<lf>発動しました
@@ -62,9 +62,9 @@
 <string>ハンターフレンド勧誘
 <string>{0}から<lf>ハンターフレンドの勧誘が届きました
 <string>{0}と<lf>ハンターフレンドになりました
-<string>環境リンクのメンバーが戦闘中です
+<string>環境リンクのメンバーが狩猟中です
 <string>{0}の<lf>現地調査クエストを開始します
-<string>実行中止
+<string>実行しない
 <string>支給品が補充されました<lf>（<INPUTMSG MsgGUI020100_0011>支給品の確認）
 <string>サポートハンター {0}が<lf>クエストに合流しました
 <string>サポートハンター {0}が<lf>クエストから離脱しました
@@ -84,9 +84,6 @@
 <string>マップを開く
 <string>環境サマリートピック
 <string>この地域における生態系の頂点<lf>{0}が出現しました！
-<string>マップを開く
-<string>環境サマリートピック
-<string>通常よりも追加報酬の多い<lf>{0}が出現しました！
 <string>マップを開く
 <string>環境サマリー
 <string>{0}が出現しました！
@@ -123,8 +120,8 @@
 <string>旋律効果≪{0}≫が<lf>切れました
 <string>≪{0}≫の<lf>効果が切れました
 <string>≪{0}≫が<lf>使用可能になりました
-<string><REF Item_IT_166>の<lf>効果が切れました
-<string><REF Item_IT_167>の<lf>効果が切れました
+<string><REF Item_IT_166>効果<lf>が切れました
+<string><REF Item_IT_167>効果<lf>が切れました
 <string>クイックスタートできませんでした<lf><ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>から出発画面を開いてください
 <string>この{0}は<lf>クエストの対象にできません
 <string>この{0}は<lf>クエストの対象にできません（HR不足）

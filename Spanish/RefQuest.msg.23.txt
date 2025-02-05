@@ -7,32 +7,31 @@
 <string>Actualizar
 <string>Actual
 <string>Pronóstico
-<string>Las acciones de los jugadores pueden cambiar el clima.
-<string>Info de monstruo
-<string>Más grande
+<string>Ciertas acciones pueden cambiar el pronóstico ambiental.
+<string>Información detallada
 <string>Caza
 <string>Batida
 <string>Captura
 <string>Entrega
 <string>Transporte
 <string>Especial
-<string>Empezar estudio de campo
+<string>Iniciar estudio de campo
 <string>Crear misión
 <string>Aceptar misión
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado el progreso necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado el progreso necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado el rango de cazador necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado<lf>el rango de cazador necesario.</COLOR>
-<string><COLOR preset="TXT_Danger">No puedes empezar un estudio de campo.</COLOR>
+<string><COLOR preset="TXT_Danger">No se ha podido iniciar el estudio de campo.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al iniciar el estudio de campo.</COLOR>
 <string><COLOR preset="TXT_Danger">Los encargos completados no se pueden repetir.</COLOR>
-<string><COLOR preset="TXT_Danger">Un jugador/Algunos jugadores no se han podido unir por la configuración del multijugador.</COLOR>
+<string><COLOR preset="TXT_Danger">Uno o más jugadores no se han podido unir a causa de sus opciones multijugador.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes unirte porque ya se ha alcanzado el número máximo de personas.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al unirte por la configuración de permisos de plataforma.</COLOR>
-<string><COLOR preset="TXT_Danger">No cumples los requisitos para aceptar/unirte a esta misión.</COLOR>
+<string><COLOR preset="TXT_Danger">No has cumplido los requisitos para aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al aceptar/unirte a la misión.</COLOR>
-<string><COLOR preset="TXT_Danger">No puedes iniciar el estudio de campo porque un miembro vinculado está viendo los resultados de la misión.</COLOR>
+<string><COLOR preset="TXT_Danger">No se ha podido iniciar el estudio de campo: un miembro vinculado está viendo los resultados de la misión.</COLOR>
 <string>Volver a la pantalla del título
 <string>Reintentar
 <string>Abate a {0}
@@ -51,10 +50,10 @@
 <string>Recompensas tareas secundarias
 <string>Recompensas de misión
 <string>Recompensas extra
-<string>Recompensas objetivo adicional
+<string>Recompensas extra por objetivo
 <string>Recom. monstruos objetivos
 <string>Recom. materiales generales
-<string>Recompensas objetivo adicional
+<string>Recompensas extra por misión
 <string>Misión<lf>completada
 <string>Misión<lf>fallida
 <string>Volviendo<lf>a la base
@@ -82,7 +81,7 @@
 <string>-
 <string>Zenis de recompensa
 <string>Límite de tiempo
-<string>Tiempo
+<string>Tiempo final
 <string>Tiempo transcurrido
 <string>Iniciada
 <string>Tamaño del grupo
@@ -96,19 +95,19 @@
 <string>Desmayos: {0}/{1}
 <string>Cliente: {0}
 <string>¡Completada!
-<string>Com. reclutamiento miembros
-<string>Selecciona un comentario para reclutar miembros.
+<string>Mensaje de reclutamiento
+<string>Elige un mensaje para reclutar miembros.
 <string>¡Todos bienvenidos!
-<string>¡Busco gente con RC similar!
-<string>¡Jugadores nuevos bienvenidos!
+<string>¡Busco a cazadores con RC similar!
+<string>¡Cazadores nuevos bienvenidos!
 <string>¡Necesito veteranos!
 <string>No se pueden crear misiones
 <string>Fuerza
 <string>¡Crea una misión para varios objetivos!
-<string>¡{0} quiere darte una medalla!
+<string>¡{0} quiere invitarte a comer!
 <string>¡{0} quiere hablar!
-<string>¡Misión disponible: {0}!
-<string>¡{0}: condiciones cumplidas!
+<string>Misión disponible: {0}
+<string>{0}: ¡a punto para informar!
 <string>Miembros máximos
 <string>Indica el número máximo de jugadores que se pueden unir a misiones. <COLOR preset="TXT_Accent">(El número variará según el número máximo de miembros vinculados).</COLOR>
 <string>1
@@ -117,8 +116,8 @@
 <string>4
 <string>Opciones multijugador
 <string>Selecciona un modo multijugador.
-<string>Otros jug. y cazadores apoyo
-<string>Solo otros jugadores
+<string>Jugadores y cazadores apoyo
+<string>Solo jugadores
 <string>Solo cazadores de apoyo
 <string>Bengala de auxilio automática
 <string>Selecciona si quieres lanzar automáticamente una bengala de auxilio al inicio de una misión.
@@ -158,7 +157,7 @@
 <string>Ascendente
 <string>Descendente
 <string>Recomendado
-<string>¿Aumentar temporalmente el máximo número de jugadores para<lf>las misiones? <COLOR preset="TXT_Accent">(No se puede cambiar de nuevo hasta que se complete la misión).</COLOR>
+<string>¿Aumentar temporalmente el máximo<lf>número de jugadores para las misiones?<lf><COLOR preset="TXT_Accent">(No se puede cambiar de nuevo<lf>hasta que se complete la misión).</COLOR>
 <string>Encargos
 <string>Misiones opcionales
 <string>Misiones de miembros vinculados ({0})

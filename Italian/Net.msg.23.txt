@@ -1,8 +1,8 @@
 ﻿<string>Connessione...
 <string>Connessione...
 <string>Avvio del gioco in corso.
-<string>Richiesta non valida.
-<string>Non è stato possibile recuperare le informazioni.
+<string>Richiesta non valida.<lf>{0}
+<string>Non è stato possibile recuperare le informazioni.<lf>{0}
 <string>Connessione...
 <string>Verifica della connessione al server...
 <string>Errore di comunicazione.<lf>{0}
@@ -14,19 +14,19 @@
 <string>Non puoi giocare perché il gioco<lf>è al di fuori del periodo del test beta.<lf>Ritorno alla schermata del titolo.<lf>{0}
 <string>Impossibile connettersi a {0}.<lf>{1}
 <string>Connessione a {0} interrotta.<lf>{1}
-<string>Ora sei in modalità offline. Il gioco continuerà<lf>normalmente. Per tornare alla modalità online,<lf>parla con l'assistente e accedi alle funzioni di<lf>comunicazione nel menu Modifica stanza.
+<string>Ora sei in modalità offline. Il gioco continuerà<lf>normalmente. Per tornare alla modalità online,<lf>parla con l'assistente e accedi alle funzioni di<lf>comunicazione nel menu Cambia stanza.
 <string>Sei in modalità offline.<lf>Per tornare alla modalità online, parla<lf>con l'Assistente e accedi alle funzioni di<lf>comunicazione nel menu Cambia stanza.
 <string>Il gioco è passato alla modalità giocatore singolo<lf>online a causa di inattività. Sarà possibile continuare<lf>a giocare normalmente.<lf><lf>{0}
-<string>Impossibile inviare perché siete già amici cacciatori,<lf>o perché stai aspettando la risposta a un invito.<lf>{0}
-<string>L'invio non è stato possibile perché tu<lf>o l'altra persona avete raggiunto il limite<lf>massimo di amici cacciatori.<lf>{0}
+<string>Invio non possibile perché è già<lf>fra i tuoi amici cacciatori o stai aspettando<lf>la risposta a una richiesta.<lf>{0}
+<string>L'invio non è riuscito perché tu o l'altra<lf>persona avete raggiunto il limite<lf>massimo di amici cacciatori.<lf>{0}
 <string>Segui già questo giocatore.<lf>{0}
 <string>Hai raggiunto il limite massimo<lf>e non puoi seguire altri giocatori.<lf>{0}
 <string>Inizializzazione della rete in corso...
 <string>È stata rilevata una nuova versione<lf>dell'applicazione. Per usare le funzionalità<lf>di rete, chiudi l'applicazione<lf>ed esegui l'aggiornamento.
-<string>Sono stati rilevati dati salvati eliminati in precedenza.<lf>L'utilizzo di questi dati eliminerà le informazioni<lf>relative ad amici, giocatori seguiti e squadre.
+<string>I dati cacciatore sono stati sovrascritti.<lf>Le informazioni relative agli amici cacciatori,<lf>giocatori seguiti e squadre sono state eliminate.
 <string>Il giocatore è già nel gruppo di collegamento.<lf>{0}
-<string>È stato raggiunto il numero massimo di giocatori per<lf>il gruppo. Non è possibile aggiungere altri giocatori.<lf>{0}
-<string>Non è possibile effettuare segnalazioni<lf>al momento. Riprova più tardi.<lf>{0}
+<string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
+<string>Non è possibile effettuare segnalazioni<lf>al momento. Riprova più tardi.<lf><lf>{0}
 <string>Il tuo account attuale non soddisfa<lf>i requisiti per giocare.
 <string>La connessione alla sessione si è interrotta.<lf>{0}
 <string>Creazione sessione non riuscita.<lf>{0}
@@ -40,7 +40,7 @@
 <string>Unirsi alla stanza?
 <string>Creare una stanza privata?
 <string>Avviare il gioco senza unirsi a una stanza?<lf>(Puoi unirti a una stanza in seguito.)
-<string>Cerca ID stanza.<lf>(Fino a otto caratteri.<lf>Distinzione tra maiuscole e minuscole.)
+<string>Cerca un ID stanza specifico.<lf><lf><COLOR preset="TXT_Accent">Fa distinzione tra maiuscole e minuscole<lf>e richiede otto caratteri alfanumerici.</COLOR>
 <string>Impossibile unirsi alla sessione<lf>perché la missione è terminata.
 <string>Rimuovere la stanza privata di cui sei host?
 <string>Impossibile unirsi alla missione perché<lf>la password inserita non è valida.
@@ -59,9 +59,9 @@
 <string>Violazione termini di utilizzo
 <string>Comportamenti ripetuti o simili possono portare<lf>a limitazioni permanenti.
 <string>Rivedi ogni testo modificabile, come il tuo profilo cacciatore<lf>e i commenti di squadra, e aggiorna i contenuti di conseguenza.<lf>In caso contrario o in caso di ripetuti aggiornamenti<lf>che violano i termini di utilizzo potresti<lf>ricevere limitazioni permanenti.
-<string>Inoltre, il nome del tuo cacciatore e del tuo compagno Felyne<lf>saranno sostituito dai nomi predefiniti "Cacciatore/Felyne".
+<string>Inoltre, il nome del tuo cacciatore e del tuo compagno Felyne<lf>saranno sostituiti dai nomi predefiniti "Cacciatore/Felyne".
 <string><COLOR preset="TXT_Danger">Account definitivamente sospeso</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Il tuo account è stato definitivamente sospeso</COLOR> a causa di<lf>violazioni confermate dei nostri termini di utilizzo.<lf><lf>L'account in questione non potrà accedere alla modalità online<lf>di Monster Hunter Wilds. Non offriamo misure<lf>per annullare la sospensione definitiva di un account<lf>conformemente ai termini di utilizzo.
-<string>Ti stai unendo al gruppo di collegamento.<lf>Cambiare dati salvati?
+<string>Unione al gruppo di collegamento.<lf>Cambiare i dati salvati?<lf><COLOR preset="TXT_Danger">(I dati non salvati correnti andranno persi.)</COLOR>
 <string>Partecipa con dati salvati attuali
 <string>Partecipa con dati salvati diversi
 <string>Rifiuta

@@ -18,7 +18,7 @@
 <string>{0}<lf>has joined the quest.
 <string>You have joined<lf>{0}'s quest.
 <string>{0} has<lf>withdrawn from the quest.
-<string>{0} has posted a quest<lf>and is waiting for others to join.
+<string>{0} has accepted a quest<lf>and is waiting for others to join.
 <string>You fainted. You have <PLURAL {0} "{0} attempt" "{0} attempts"><lf>left before failing the quest.
 <string>{1} fainted. You have <PLURAL {0} "{0} attempt" "{0} attempts"><lf>left before failing the quest.
 <string>You fainted.<lf>Rewards have decreased to zero.
@@ -49,35 +49,35 @@
 <string>Voice chat has been switched to<lf><REF RefNetwork_0004_01>.
 <string>A new quest has been unlocked.
 <string>{0}<lf>has been made the quest leader.
-<string>Another player has been appointed as<lf>the quest leader.
+<string>You have been appointed as<lf>the quest leader.
 <string>Appointed {0}<lf>as the Link Party leader.
-<string>Another player has been appointed as<lf>the Link Party leader.
+<string>You have been appointed as<lf>the Link Party leader.
 <string>{0}<lf>has been granted control of the private lobby.
-<string>Another player has been granted<lf>control of the private lobby
-<string>Return supply items.
+<string>You have been granted control<lf>of the private lobby.
+<string>Returning supply items.
 <string>Announcement
-<string><PLURAL {0} "{0} notification" "{0} notications"> received while online:.
+<string>Received <PLURAL {0} "{0} notification" "{0} notifications"> while offline.
 <string>Announcement
-<string>Received <PLURAL {0} "{0} invite notification" "{0} invite notifications">.
-<string>Hunter Friend Requests
-<string>Received a Hunter Friend invitation<lf>from {0}.
-<string>{0} is now your Hunter Friend.
-<string>Environment Link Members are engaged in combat!
+<string>Received <PLURAL {0} "{0} invite" "{0} invites">.
+<string>Hunter Friend Request
+<string>Received a Hunter Friend request<lf>from {0}.
+<string>{0}<lf>is now your Hunter Friend.
+<string>Environment Link Activity
 <string>Beginning a Field Survey for<lf>{0}.
 <string>Cancel
 <string>Supply items have been restocked.<lf>(Check supply items with <INPUTMSG MsgGUI020100_0011>.)
 <string>Support Hunter {0}<lf>has joined the quest.
 <string>Support Hunter {0} has left the quest.
 <string>Main target set as your destination.
-<string>Target disappeared. Setting destination for the main target.
-<string>The target set as your waypoint has disappeared.
+<string>Target disappeared.<lf>Setting destination for the main target.
+<string>Target set as waypoint has disappeared.
 <string>Meal effects have worn off.
 <string>Quest failed...
 <string>Quest Invitations (Resubmitted)
-<string>You are now able to receive quest invitations from {0}.
-<string>Obtained Fixed Item<lf><COLOR preset="TXT_Accent">Hunting Tools</COLOR>
+<string>You are now able to receive quest<lf>invitations from {0}.
+<string>Obtained Essential Items:<lf><COLOR preset="TXT_Accent">Hunting Tools</COLOR>!
 <string>Environment Overview Update
-<string>{0} spotted<lf>in the {1}!
+<string>{0} was spotted!<lf>Location: {1}
 <string>Open Map
 <string>Environment Overview Update
 <string>Multiple targets available for combined<lf>quest creation!
@@ -85,16 +85,13 @@
 <string>Environment Overview Update
 <string>This region's apex predator,<lf>{0}, has appeared!
 <string>Open Map
-<string>Environment Overview Update
-<string>{0} has appeared.<lf>It has more rewards than normal!
-<string>Open Map
 <string>Environment Overview
 <string>{0} has appeared!
 <string>Open Map
 <string>Environment Overview
 <string>{0}<lf>will leave the locale soon!
 <string>Open Map
-<string>The {0} left the locale...
+<string>{0}<lf>left the locale...
 <string>Environment Overview
 <string>A pack containing {0}<lf>has appeared!
 <string>Open Map
@@ -109,18 +106,18 @@
 <string>{0} upsurge has been spotted!
 <string>Open Map
 <string>{0} lost.
-<string>Quest Requests
+<string>Join Requests
 <string>You have received a Join Request.<lf>Please review it for acceptance or refusal.
 <string>You have left the lobby.
 <string>Connection lost.
 <string>The host has<lf>disbanded the lobby.
-<string>Followed by {0}
+<string>Followed by {0}.
 <string>No supply items.
 <string>Field Survey abandoned.
 <string>Cannot carry any more Supply Items.<lf>Excess supply items discarded.
-<string>Received the blessing of<lf>Melody Effect <BOLD>{0}</BOLD>
-<string>Melody Effect <BOLD>{0}</BOLD><lf>activated!
-<string>{0} Melody Effect has worn off.
+<string>Received the effects<lf>of Melody Effect<lf><BOLD>{0}</BOLD>.
+<string>Melody Effect activated!<lf><BOLD>{0}</BOLD>
+<string><BOLD>{0}</BOLD><lf>Melody Effect has worn off.
 <string>{0}<lf>effect has worn off.
 <string>{0} can now be used.
 <string>Cool drink effects have worn off.
@@ -137,9 +134,9 @@
 <string>Open
 <string>Field Survey cannot begin as there are<lf>Link Members viewing Quest Results.
 <string>This {0} cannot be hunted<lf>as part of a quest at your current progression.
-<string>The Echo Bubble effect {0}<lf>has been activated.
+<string>Echo Bubble effect activated!<lf>{0}
 <string>Environment Overview Update
-<string>A {0} with rare bonus rewards appeared!
+<string>{0} has appeared.<lf>It has rare bonus rewards!
 <string>Open Map
 <string>Link Party disbanded because you<lf>are the only member.
 <string>Could not join {0}'s<lf>Environment Link.
@@ -152,7 +149,7 @@
 <string>Open Map
 <string>Left the Link Party.
 <string>Manual Movement
-<string>Auto-move<lf>
-<string>Auto-Explore
-<string>Online Single Player has been temporarily deactivated.
+<string>Auto-move
+<string>Auto-explore
+<string>Online Single Player has been<lf>temporarily deactivated.
 <string>Crossplay is currently enabled.

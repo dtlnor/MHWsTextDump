@@ -1,36 +1,36 @@
 ﻿<string>Łączenie...
 <string>Łączenie...
 <string>Uruchamianie gry.
-<string>Nieprawidłowe żądanie.
-<string>Nie udało się zdobyć informacji.
+<string>Nieprawidłowe żądanie.<lf>{0}
+<string>Nie udało się zdobyć informacji.<lf>{0}
 <string>Łączenie...
 <string>Sprawdzanie połączenia z serwerem...
 <string>Wystąpił błąd łączności.<lf>{0}
 <string>Wystąpił błąd komunikacji.<lf>Powrót na ekran tytułowy.<lf>{0}
-<string>Niektóre funkcje wieloosobowej gry<lf>online nie będą dostępne.<lf><lf>Aby uzyskać dostęp do wszystkich funkcji<lf>trybu wieloosobowego online, zarejestruj<lf>się w usłudze {0}.
+<string>Niektóre funkcje wieloosobowej gry online<lf>nie będą dostępne.<lf><lf>Aby uzyskać dostęp do wszystkich funkcji<lf>wieloosobowej gry online, zarejestruj się<lf>w usłudze {0}.
 <string>To konto nie spełnia wymagań<lf>wieloosobowej gry online.
 <string>Nie udało się połączyć z siecią.<lf>Powrót do ekranu tytułowego.
 <string>Nie udało się połączyć z siecią.
 <string>Nie można uruchomić gry, ponieważ okres beta testów dobiegł końca. Powrót do ekranu tytułowego.<lf>{0}
 <string>Nie udało się połączyć z: {0}.<lf>{1}
-<string>Utracono połączenie z {0}.<lf>{1}
+<string>Utracono połączenie z: {0}.<lf>{1}
 <string>Jesteś obecnie w trybie offline. Będziesz<lf>kontynuować rozgrywkę normalnie. Żeby<lf>powrócić do trybu online, porozmawiaj<lf>z przewodnikiem, by uzyskać dostęp do<lf>funkcji komunikacji w menu zmiany lobby.
 <string>Jesteś obecnie w trybie offline. Żeby powrócić<lf>do trybu online, porozmawiaj z przewodnikiem,<lf>by uzyskać dostęp do funkcji komunikacji<lf>w menu zmiany lobby.
 <string>Z powodu braku aktywności przełączono<lf>w tryb online dla jednego gracza. Będziesz<lf>kontynuować rozgrywkę normalnie.<lf>{0}
-<string>Nie udało się wysłać, ponieważ jesteście<lf>już znajomymi lub czekasz na odpowiedź<lf>na zaproszenie.{0}
-<string>Nie udało się wysłać, ponieważ ty albo drużyna<lf>osiągnęła maksymalną liczbę znajomych.<lf>{0}
+<string>Nie udało się wysłać, ponieważ jesteście<lf>już znajomymi lub czekasz na odpowiedź<lf>na zaproszenie.<lf>{0}
+<string>Nie udało się wysłać, ponieważ ty albo odbiorca<lf>osiągnęliście maksymalną liczbę znajomych.<lf>{0}
 <string>Obserwujesz już tego gracza.<lf>{0}
 <string>Obserwujesz maksymalną liczbę graczy<lf>i nie możesz już obserwować więcej.<lf>{0}
 <string>Inicjowanie sieci...
 <string>Znaleziono nową wersję aplikacji.<lf>Żeby korzystać z funkcji sieciowych,<lf>wyłącz aplikację i wykonaj aktualizację.
-<string>Wykryto wcześniej usunięte zapisane dane.<lf>Użycie tych danych spowoduje zresetowanie<lf>twoich znajomych, obserwowanych/<lf>obserwujących i oddziałów.
-<string>Gracz już dołączył do połączonej grupy.<lf>{0}
-<string>Osiągnięto maksymalną liczbę graczy<lf>w połączonej grupie. Nie można dodać<lf>więcej graczy.<lf>{0}
+<string>Zastąpiono dane łowcy.<lf>Nadal można bezpiecznie użyć tych zapisanych danych,<lf>ale dane znajomych, obserwowanych/obserwujących<lf>i oddziałów zostaną zresetowane.
+<string>Gracz już dołączył do wspólnej grupy.<lf>{0}
+<string>Osiągnięto maksymalną liczbę graczy we wspólnej<lf>grupie. Nie można dodać więcej graczy.<lf>{0}
 <string>Nie możesz teraz tego zgłosić. Poczekaj<lf>chwilę i spróbuj ponownie później.<lf>{0}
 <string>Twoje obecne konto nie spełnia wymagań<lf>umożliwiających grę.
 <string>Utracono połączenie z sesją.<lf>{0}
 <string>Nie udało się utworzyć sesji.<lf>{0}
-<string>Nie udało się utworzyć sesji.<lf>{0}
+<string>Nie udało się wyszukać sesji.<lf>{0}
 <string>Nie można dołączyć do sesji.<lf>{0}
 <string>ID lobby zawiera niewłaściwe znaki.<lf>{0}
 <string>Nie można znaleźć lobby.<lf>{0}
@@ -40,13 +40,13 @@
 <string>Dołączyć do lobby?
 <string>Utworzyć prywatne lobby?
 <string>Zacząć grę bez dołączenia do lobby?<lf>(Możesz dołączyć do lobby po uruchomieniu gry)
-<string>Wyszukaj ID lobby.<lf>(Do 8 znaków. Uwzględnia wielkość liter)
+<string>Wyszukaj ID lobby.<lf><lf><COLOR preset="TXT_Accent">(Do 8 znaków. Uwzględnia wielkość liter.)</COLOR>
 <string>Nie udało się dołączyć do sesji,<lf>ponieważ zadanie się zakończyło.
 <string>Rozwiązać prywatne lobby,<lf>którego jesteś gospodarzem?
 <string>Nie udało się dołączyć do zadania, ponieważ<lf>podane hasło jest nieprawidłowe.
-<string>Opuścić połączone środowisko?
-<string>Nie można dołączyć do połączonego środowiska,<lf>ponieważ nie spełniono niezbędnych warunków.<lf>{0}
-<string>Trwa dołączanie do połączonej grupy.
+<string>Opuścić wspólny świat?
+<string>Nie można dołączyć do wspólnego świata,<lf>ponieważ nie spełniono niezbędnych warunków.<lf>{0}
+<string>Trwa dołączanie do wspólnej grupy.
 <string>Serwer jest obecnie zajęty. Poczekaj<lf>chwilę i spróbuj ponownie później.
 <string>Rozgrywka międzyplatformowa jest obecnie włączona.
 <string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności<lf>zostały tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
@@ -60,15 +60,15 @@
 <string>Powtarzające się lub podobne zachowania mogą skutkować<lf>trwałymi ograniczeniami.
 <string>Przejrzyj każdy tekst do edycji, jak na przykład twój profil<lf>łowcy i komentarze oddziału, i odpowiednio zaktualizuj treść.<lf>Brak aktualizacji treści tekstowych lub powtarzające się<lf>zachowania, które naruszają warunki użytkowania,<lf>mogą skutkować trwałymi ograniczeniami.
 <string>Dodatkowo imiona twoje i twojego koleżkota zostaną<lf>zmienione na domyślne „<LSNR "Łowca" "Łowczyni">/Koleżkot”.
-<string><COLOR preset="TXT_Danger">Konto trwale zawieszone</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Twoje konto zostało trwale zawieszone</COLOR><lf>z powodu potwierdzonych naruszeń warunków<lf>użytkowania.<lf><lf>Dane konto nie będzie miało dostępu do trybu<lf>online w grze Monster Hunter Wilds. Zwracamy<lf>uwagę, że nie oferujemy żadnych środków<lf>umożliwiających zniesienie trwałego zawieszenia<lf>konta zgodnie z warunkami użytkowania.
-<string>Trwa dołączanie do połączonej grupy.<lf>Zmienić postać?
-<string>Dołącz z obecną postacią
-<string>Zmień postać i dołącz
+<string><COLOR preset="TXT_Danger">Konto trwale zawieszone</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Twoje konto zostało trwale zawieszone</COLOR> z powodu<lf>potwierdzonych naruszeń warunków użytkowania.<lf><lf>Dane konto nie będzie miało dostępu do trybu<lf>online w grze Monster Hunter Wilds. Zwracamy<lf>uwagę, że nie oferujemy żadnych środków<lf>umożliwiających zniesienie trwałego zawieszenia<lf>konta zgodnie z warunkami użytkowania.
+<string>Trwa dołączanie do wspólnej grupy.<lf>Zmienić zapisane dane?<lf><COLOR preset="TXT_Danger">(Zmieniając zapisane dane, stracisz<lf>wszelkie bieżące niezapisane dane)</COLOR>
+<string>Dołącz z obecnymi zapisanymi danymi
+<string>Dołącz z innymi zapisanymi danymi
 <string>Nie dołączaj
 <string>Nie można dołączyć do sesji.<lf>{0}
-<string>Nie można wysłać zaproszenia do znajomych.<lf>{0}
-<string>Nie można dołączyć, ponieważ nie odblokowano<lf>funkcji połączonej grupy.
-<string>Otworzyć ekran zapraszania znajomych,<lf>żeby wysłać zaproszenie do połączonej grupy?
+<string>Nie udało się wysłać prośby o zaproszenie.<lf>{0}
+<string>Nie można dołączyć, ponieważ nie odblokowano<lf>funkcji wspólnej grupy.
+<string>Otworzyć ekran zapraszania znajomych,<lf>żeby wysłać zaproszenie do wspólnej grupy?
 <string>Chcesz zagrać ze mną w otwarty beta test Monster Hunter Wilds?
 <string>Oczekiwanie na innych użytkowników...
 <string>Poczekaj.<lf><lf>Możesz zacząć, kiedy zespół da sygnał.

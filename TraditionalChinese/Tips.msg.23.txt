@@ -5,7 +5,7 @@
 <string>調整鷺鷹龍的速度
 <string><ICON PL_PT_SPEED_UP>：加速<lf><ICON PL_PT_SPEED_DOWN>：減速
 <string>注視目標
-<string>按下<ICON PL_CAMERA_LOCK_CHANGE>即可注視魔物。<lf>注視方式可在「設定」切換。
+<string>按<ICON PL_CAMERA_LOCK_CHANGE>即可注視魔物。<lf>注視方式可在「設定」切換。
 <string>練氣計量表
 <string>攻擊命中就能累積練氣計量表。<lf>消耗練氣計量表就能施展氣刃斬。
 <string><REF ActionGuideDataNameText_Wp07_1069952960>
@@ -41,9 +41,9 @@
 <string>剝取
 <string>按<ICON PL_POP>就可從討伐的魔物身上剝取素材。
 <string>收起武器追上去吧
-<string>魔物跑遠時，按<ICON PL_WEAPON_OFF>收起武器，再按<ICON PL_DASH>衝刺<lf>追上去吧。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>補充道具吧
-<string>力竭倒下時會收到追加的補給品。<lf>按<ICON PL_ACCESS_ITEM_BAG>確認一下吧。
+<string><REF MsgGUI600000_Tips_EXP_40>
 <string>仔細觀察魔物的行動
 <string>魔物在攻擊前會有預兆，仔細觀察牠們的<lf>行動來應對吧。
 <string>拘束魔物
@@ -67,7 +67,7 @@
 <string>原野地圖
 <string>按<ICON PL_MAP_CHANGE>就可打開地圖。<lf>利用地圖確認目的地吧。
 <string>選擇與使用道具
-<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>或<ICON UI_ITEM_RIGHT>：選擇道具<lf>放開<ICON PL_ITEM_SLIDER_OPEN>後按<ICON PL_ITEM>：使用道具
+<string><REF MsgGUI600000_Tips_EXP_63>
 <string>回收補給品
 <string>補給品專用道具在任務結束時會被回收。
 <string>設置簡易營地的備選地點
@@ -95,19 +95,15 @@
 <string>在沙丘上狩獵
 <string>沙丘地型不穩，因巨大衝擊而崩塌時，<lf>獵人可能會陷入其中。
 <string><REF Gimmick_NAME_m2034503552>
-<string>蹲下來躲進大草叢，就不容易被魔物發現。
+<string>在進入魔物視野前蹲下來躲進大草叢，<lf>就不容易被發現。
 <string><REF Gimmick_NAME_32>
 <string>以鉤索投射器等施加衝擊便可擊落岩石。
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>受到衝擊時會噴射出瓦斯，<lf>碰到的魔物會麻痺。
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>施加衝擊就會使蜜汁飛散到周圍，<lf>待在附近就能回復體力。
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>施加衝擊就會使蜜汁飛散到周圍，<lf>待在附近就能回復較多體力。
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>受衝擊就會發出強烈的閃光，<lf>使魔物滿眼金星。
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>可將牠們滾動的糞便裝填到投射器，<lf>用作投射器異臭彈。
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>用手可摘取牠們背部的蓑衣，<lf>攝取後可回復體力。
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -138,7 +134,7 @@
 <string>武器屬性會失效。反覆迴避或使用<lf>打消果實吧。
 <string>架盾【屬性強化】
 <string>消耗瓶使防禦性能在一定時間內上升。<lf>斧模式的攻擊也會變強。
-<string>三段突刺與還擊突刺
+<string>三段突刺與蓄力反擊
 <string>可用作中段突刺Ⅲ及上段突刺Ⅲ後的<lf>第四段攻擊。
 <string>累積斬擊計量表
 <string>以斧模式的攻擊命中魔物就能<lf>有效回復斬擊計量表。
@@ -178,19 +174,19 @@
 <string>若要發射集中特效彈【射鵰】，<lf>就先等彈藥自動回復吧。
 <string>等待彈藥自動回復
 <string>若要發射集中特效彈【龍吼】，<lf>就先等彈藥自動回復吧。
-<string>小心劍擊能量累積過頭
-<string>累積的劍擊能量可填充至瓶內使用，<lf>但累積過頭會使攻擊被彈開。
+<string>攻擊被彈開時記得要充能
+<string>劍擊能量累積過頭，令攻擊被彈開時，<lf>就按<ICON WP09 PL_ATTACK_00>或<ICON WP09 PL_ATTACK_01>充能吧。
 <string>盡量在最有效距離射擊
-<string>準星為橙色時的距離就是有效距離，<lf>盡量保持這距離，造成高傷害吧。
+<string>準星為橙色時的距離就是最有效距離，<lf>盡量保持這距離，造成高傷害吧。
 <string>瞄準傷口攻擊
-<string>攻擊傷口會造成大幅傷害。<lf>按<ICON PL_AIM>進入集中模式，攻擊傷口吧。
+<string>攻擊傷口會造成大幅傷害。<lf><ICON PL_AIM>進入集中模式，攻擊傷口吧。
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string>發射後按<ICON WP13 PL_ATTACK_01>可使出追擊射擊，<lf>以較高威力發射彈藥
 <string>吃全熟肉吧
 <string>出發去狩獵前，先吃全熟肉提升體力和<lf>耐力上限吧。
 <string>用餐吧
-<string>餐點效果結束了。再用餐來增強<lf>各種能力吧。
+<string>使用便攜式營火爐用餐來增強各種能力吧。
 <string>切換武器
-<string>按<ICON PL_WEAPON_CHANGE>可切換主武器和副武器。
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>體力回復
 <string>體力減少時就用回復藥回復吧。

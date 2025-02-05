@@ -11,11 +11,11 @@
 <string><REF RefStatus_0008_004_01>
 <string>按<ICON WP13 PL_ATTACK_01>即会装填<COLOR preset="TXT_Accent">速射模式</COLOR>专用能量。能量随<lf>时间而积蓄，长按<ICON WP13 PL_ATTACK_SP>会消耗能量，以连续<lf>发射特定弹药。
 <string>练气槽的颜色
-<string>用气刃大回旋斩等特定的攻击命中怪物时，<lf><COLOR preset="TXT_Accent">练气槽</COLOR>颜色就会变化。攻击力会随槽的颜色<lf>而提升。
+<string>用气刃大回旋斩等特定的攻击命中怪物时，<lf><COLOR preset="TXT_Accent">练气槽</COLOR>颜色会改变，攻击力也会随之提高。
 <string>练气槽为红色时
 <string>变为红色时，练气槽还将固定在最大值，<lf>部分攻击动作也会得到强化。
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
-<string>消耗1条龙击槽，可发射非常强力的<COLOR preset="TXT_Accent">龙击炮</COLOR>。<lf>龙击槽可通过攻击命中及防御来积蓄。
+<string>消耗1条龙击槽，可发射非常强力的<COLOR preset="TXT_Accent">龙击炮</COLOR>。<lf>龙击槽会随时间自动回复，攻击命中时也会<lf>回复。
 <string>伤口
 <string>不断击中怪物的相同部位会造成<COLOR preset="TXT_Accent">创伤</COLOR>。攻击<lf><COLOR preset="TXT_Accent">伤口</COLOR>会造成更大伤害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能更<lf>容易击中伤口。
 <string>救难信号
@@ -23,35 +23,33 @@
 <string>支援猎人
 <string>发出救难信号后，如果经过一定时间仍无其<lf>他玩家加入，<COLOR preset="TXT_Accent">支援猎人</COLOR>就会赶来协助。
 <string>支援猎人
-<string>如果其后有其他玩家中途加入任务，该玩家<lf>就会顶替当前的支援猎人。
+<string>如果之后有其他玩家中途加入任务，该玩家<lf>就会顶替当前的支援猎人。
 <string>支援猎人
 <string>支援猎人是与玩家隶属于不同小队的猎人。<lf>其他玩家加入前，他们会与你一起狩猎。
 <string>补给品
-<string>任务开始时会获得无偿的道具作为<COLOR preset="TXT_Accent">补给品</COLOR>。<lf>可随时按<ICON PL_ACCESS_ITEM_BAG>领取。补给品会视狩猎情况而追<lf>加。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_64>
 <string>补给品专用道具
 <string>补给品中包含部分“补给品专用道具”，会在<lf>任务结束后回收，无法一直持有。
 <string>重新挑战关键任务
 <string>进度指引中会显示要狩猎的怪物。即使狩猎<lf>失败，也可以重新挑战同一<COLOR preset="TXT_Accent">关键任务</COLOR>。
 <string>重新挑战关键任务
-<string>通过在原野上<COLOR preset="TXT_Accent">攻击目标怪物</COLOR>，或者从任务菜<lf>单的<COLOR preset="TXT_Accent">关键任务</COLOR>中重新承接吧。
-<string>重新挑战关键任务
 <string>陷入苦战时，可以提前通过用餐提高状态，<lf>或者发射救难信号召集其他玩家或支援猎人<lf>共同面对强敌。
 <string>骑乘鹭鹰龙移动
-<string>按<ICON PL_PT_CALL>骑上<COLOR preset="TXT_Accent">鹭鹰龙</COLOR>，它就会自动向目的地移动。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_68>
 <string>骑乘鹭鹰龙移动
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_69>
 <string>个人帐篷
 <string>可以在<COLOR preset="TXT_Accent">个人帐篷</COLOR>中变更猎人和随从的装备，<lf>或者更换道具等。在这里做好狩猎的准备吧。
-<string>营火烹饪
+<string>领取携带食料并用餐吧
 <string>可以通过使用“便携营火炉”或个人帐篷中的<lf>“营火炉菜单”来烹饪携带食料并<COLOR preset="TXT_Accent">用餐</COLOR>。
-<string>营火烹饪
+<string>领取携带食料并用餐吧
 <string><COLOR preset="TXT_Accent">用餐</COLOR>后，体力、耐力与攻击力等状态会在一定<lf>时间内上升，效果因使用的食材而异。
 <string>体力槽与耐力槽
 <string>体力：绿色槽耗尽后就会力尽倒下。<lf>　　　达到一定次数后，任务就会失败。<lf>耐力：某些行动会消耗耐力。会自动回复。
 <string>切换武器
 <string>猎人能选择主、副共2件武器。<lf>可以在“变更装备”中选择<COLOR preset="TXT_Accent">主武器</COLOR>和<COLOR preset="TXT_Accent">副武器</COLOR>。<lf>武器组合可自由搭配。
 <string>切换武器
-<string>按<ICON PL_WEAPON_CHANGE>可切换武器。鹭鹰龙会跑到猎人身边，<lf>将装备中的武器替换成武器袋里的<COLOR preset="TXT_Accent">副武器</COLOR>。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_89>
 <string>放入／取出道具
 <string>从道具箱中取出必要的道具，放入道具袋吧。<lf>也可按<ICON UI_SUB_MENU>打开子菜单一次性补充全部道具。
 <string>自动收纳素材道具
@@ -68,12 +66,12 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_126
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_126
 <string>任务柜台
-<string>个人帐篷和编辑者兼具必要的任务柜台功能，<lf>可以<COLOR preset="TXT_Accent">承接或参加</COLOR>各种任务。
+<string>个人帐篷和编辑者均有必要的任务柜台功能，<lf>可以<COLOR preset="TXT_Accent">承接或参加</COLOR>各种任务。
 <string>任务柜台
-<string>在<COLOR preset="TXT_Accent">设置</COLOR>中不仅可以变更任务的最大参加人数，<lf>还能设置收到救难信号后会赶来的猎人。
-<string>大厅已经开放。可以和大厅内的朋友以及其他<lf>有缘的猎人进行多人游戏和聊天。<lf>（需连接至网络）
+<string>在<COLOR preset="TXT_Accent">设置</COLOR>中不仅可以变更任务的最大参加人数，<lf>还能设置收到救难信号后，哪些猎人会赶来<lf>支援。
+<string>大厅已经开放。可以和大厅内的朋友以及<lf>其他有缘的猎人进行多人游戏和聊天。<lf>（需连接至网络）
 <string>添加猎人好友的方法
-<string>如果想追加猎人好友，就通过开始菜单的成<lf>员列表中<COLOR preset="TXT_Accent">大厅成员列表</COLOR>或<COLOR preset="TXT_Accent">猎人ID搜索</COLOR>来发出<lf>邀请吧。
+<string>如果想添加猎人好友，就通过开始菜单的成<lf>员列表中<COLOR preset="TXT_Accent">大厅成员列表</COLOR>或<COLOR preset="TXT_Accent">猎人ID搜索</COLOR>来发出<lf>邀请吧。
 <string>大厅与多人游戏
 <string>救难信号与多人游戏
 <string>无论是否加入大厅，都可以使用救难信号，<lf>与大厅外全世界的猎人进行多人游戏。
@@ -88,11 +86,11 @@
 <string><REF Item_IT_161>
 <string>在非战斗时使用，可以在一定时间躲过怪物<lf>的视线。使用一次后，需要经过一段时间才<lf>能再次使用。
 <string><REF Item_IT_182>
-<string>装填到投射器后使用的道具。<lf>与特定的道具调和，可以附加特殊效果。
+<string>装填到投射器后使用的道具。<lf>与特定的道具调合，可以附加特殊效果。
 <string><REF Item_IT_18>
 <string>装填到投射器后使用的道具。<lf>用<ICON PL_AIM>+<ICON PL_DUMMY_CAMERA>瞄准想要捕获的环境生物，按<ICON PL_SLINGER_SHOOT>发<lf>射，命中对象即可成功捕获。
 <string><REF Item_IT_162>
-<string>在鱼影攒动的水域使用即可垂钓。<lf>按<ICON PL_ITEM>取出<COLOR preset="TXT_Accent">钓竿</COLOR>，用<ICON PL_AIM>+<ICON PL_DUMMY_CAMERA>瞄准鱼影的附近，<lf>再按<ICON PL_SLINGER_SHOOT>就可以抛出拟饵。
+<string>在鱼影攒动的水域使用即可垂钓。<lf>按<ICON PL_ITEM>取出<COLOR preset="TXT_Accent">钓竿</COLOR>，用<ICON PL_AIM>+<ICON PL_DUMMY_CAMERA>瞄准鱼影的附近，<lf>再按<ICON PL_FISHING_ACTION>就可以抛出拟饵。
 <string><REF Item_IT_23>
 <string>使用<COLOR preset="TXT_Accent">望远镜</COLOR>可以查看大型怪物的个体信息。<lf>随着游戏的推进，可确认的信息会有所增加。
 <string><REF Item_IT_195>
@@ -102,7 +100,7 @@
 <string>猎人组合
 <string>可以通过<COLOR preset="TXT_Accent"><REF MsgGUI030212_0000></COLOR>来确认或设置装备、<lf>道具，以及快捷盘的各种个人组合。
 <string>烤肉
-<string>仔细观察肉的颜色，按<ICON UI_DECIDE>完成吧。<lf>烤出“烤熟的肉”后就会挑战切肉！<lf>抓住时机按<ICON UI_DECIDE>能增加获得数量。
+<string>仔细观察肉的颜色，按<ICON PL_UI_DECIDE>完成吧。<lf>烤出“烤熟的肉”后就会挑战切肉！<lf>抓准节奏按<ICON PL_UI_DECIDE>能增加获得数量。
 <string>营火烹饪
 <string><COLOR preset="TXT_Accent">烹饪<REF MsgGUI090200_01_00></COLOR>并用餐吧。<lf>餐点效果会根据素材而变化。<lf>要想狩猎成功，优质的餐点必不可少。
 <string>大厅间的移动
@@ -121,11 +119,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_179
 <string>恭喜！
-<string>恭喜你<COLOR preset="TXT_Accent">成功狩猎辟兽</COLOR>！<lf>敬请期待 <REF RefGeneral_0000_0000_00> 发售吧。
+<string>恭喜你<COLOR preset="TXT_Accent">成功狩猎辟兽</COLOR>！<lf>敬请期待<REF RefGeneral_0000_0000_00>发售吧。
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_181
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_181
 <string>恭喜！
-<string>恭喜你<COLOR preset="TXT_Accent">成功狩猎辟兽</COLOR>！<lf>敬请期待 <REF RefGeneral_0000_0000_00> 发售吧。
+<string>恭喜你<COLOR preset="TXT_Accent">成功狩猎辟兽</COLOR>！<lf>敬请期待<REF RefGeneral_0000_0000_00>发售吧。
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_293
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_293
 <string>环境连结
@@ -193,35 +191,35 @@
 <string>响玉
 <string>按<ICON WP05 PL_ATTACK_SP>+<ICON WP05 PL_DODGE>设置<COLOR preset="TXT_Accent">响玉</COLOR>。在响玉的范围内，会获<lf>得各把狩猎笛特有的性能强化。此外，响玉<lf>也会和狩猎笛的攻击共鸣，造成追加伤害。<lf>设置响玉期间也可以演奏。
 <string>特殊演奏
-<string>产生黄＋红＋黄＋白的音色后，按<ICON WP05 PL_ATTACK_SP>＋<lf><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>可以发动各把狩猎笛特有的<COLOR preset="TXT_Accent">特殊<lf>演奏</COLOR>。<lf>（音色与效果因武器而异）
+<string>以<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>的顺序<lf>产生音色后，按<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>可以发动<lf>各把狩猎笛特有的<COLOR preset="TXT_Accent">特殊演奏</COLOR>。<lf>（音色顺序与效果因武器而异）
 <string>抵消上捞斩
-<string>长按<ICON WP00 PL_ATTACK_00>＋<ICON WP00 PL_ATTACK_01>就能使出带有抵消效果的<COLOR preset="TXT_Accent">抵消上<lf>捞斩</COLOR>。虽然时机很难掌握，但是如果抵消大<lf>成功，就能击飞怪物。
+<string>长按<ICON WP00 PL_ATTACK_00>＋<ICON WP00 PL_ATTACK_01>就能使出带有抵消效果的<COLOR preset="TXT_Accent">抵消<lf>上捞斩</COLOR>。虽然时机很难掌握，但是如果触发<lf>强力抵消，就能击飞怪物。
 <string>从特殊纳刀使出居合拔刀气刃斩
 <string>攻击后按<ICON WP03 PL_ATTACK_SP>＋<ICON WP03 PL_DODGE>可暂时进入<COLOR preset="TXT_Accent">特殊纳刀</COLOR>状态。<lf>特殊纳刀时，抓准怪物的攻击时机按<ICON WP03 PL_ATTACK_SP>就能<lf>使出强力的<COLOR preset="TXT_Accent">居合拔刀气刃斩</COLOR>。
-<string>从精准防御使出反击斩
-<string>抓准怪物攻击的时机按<ICON WP01 PL_ATTACK_SP>防御，就会触发<lf><COLOR preset="TXT_Accent">精准防御</COLOR>，随后立即按<ICON WP01 PL_ATTACK_00>可使出强力的反<lf>击斩。
+<string>从精准格挡使出反击斩
+<string>抓准怪物攻击的时机按<ICON WP01 PL_ATTACK_SP>格挡，就会触发<lf><COLOR preset="TXT_Accent">精准格挡</COLOR>，随后立即按<ICON WP01 PL_ATTACK_00>可使出强力的反<lf>击斩。
 <string>鬼人回避与鬼人闪身状态
-<string><COLOR preset="TXT_Accent">鬼人化</COLOR>时可以高速回避。成功精准回避时会<lf>同时攻击，并进入短时间的强化状态，名为<lf><COLOR preset="TXT_Accent">鬼人闪身状态</COLOR>。
+<string><COLOR preset="TXT_Accent">鬼人化</COLOR>时可以高速回避。精准回避时会同时<lf>攻击，并进入短时间的强化状态，名为<COLOR preset="TXT_Accent">鬼人<lf>闪身状态</COLOR>。
 <string>蓄力垫步
 <string>蓄力状态（长按<ICON WP04 PL_ATTACK_SP>）时按<ICON WP04 PL_ATTACK_01>，就可以在维持<lf>蓄力的同时回避，或是迅速拉近距离。
-<string>精准防御
-<string>敌人攻击时，抓准时机按<ICON WP01 PL_ATTACK_SP>防御，就会触发<lf><COLOR preset="TXT_Accent">精准防御</COLOR>，之后立刻按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>能够使出强力<lf>的追击突进。
-<string>精准防御与装填
-<string>抓准怪物的攻击时机按<ICON WP07 PL_ATTACK_SP>＋<ICON WP07 PL_ATTACK_01>，可以<COLOR preset="TXT_Accent">精准防<lf>御并同时装填</COLOR>。成功时可衍生出强力攻击。
+<string>精准格挡
+<string>敌人攻击时，抓准时机按<ICON WP06 PL_ATTACK_SP>格挡，就会触发<lf><COLOR preset="TXT_Accent">精准格挡</COLOR>，之后立刻按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可以使出<COLOR preset="TXT_Accent">浑身<lf>还击突刺【穿】</COLOR>。
+<string>精准格挡与装填
+<string>抓准怪物的攻击时机按<ICON WP07 PL_ATTACK_SP>＋<ICON WP07 PL_ATTACK_01>，可以<COLOR preset="TXT_Accent">精准格<lf>挡并同时装填</COLOR>。成功时可衍生出强力攻击。
 <string>切换至剑模式
 <string>按<ICON WP08 PL_ATTACK_SP>可变形至<COLOR preset="TXT_Accent">剑模式</COLOR>。剑模式时可以消耗<lf><COLOR preset="TXT_Accent">斩击槽</COLOR>发动强力的攻击。
 <string>剑模式与斧模式
 <string>用<COLOR preset="TXT_Accent">斧模式</COLOR>的攻击命中怪物，就能回复消耗掉<lf>的斩击槽。一边回复斩击槽，一边伺机变形<lf>至剑模式吧。
 <string>斧：抵消上捞斩
-<string>斧模式时，同时长按<ICON WP08 PL_ATTACK_00>＋<ICON WP08 PL_ATTACK_01>就能使出<COLOR preset="TXT_Accent">斧：抵<lf>消上捞斩</COLOR>。抓准时机抵消怪物的攻击，就能<lf>造成大幅伤害。
+<string>斧模式时，同时按<ICON WP08 PL_ATTACK_00>＋<ICON WP08 PL_ATTACK_01>就能使出<COLOR preset="TXT_Accent">斧：抵<lf>消上捞斩</COLOR>。抓准时机抵消怪物的攻击，就能<lf>造成大量伤害。
 <string>剑：反击上捞斩
 <string>剑模式时，按<ICON WP08 PL_ATTACK_SP>＋<ICON WP08 PL_ATTACK_00>使出<COLOR preset="TXT_Accent">剑：反击上捞斩</COLOR>。<lf>反击成功即可使出二连斩反击。
 <string>瓶的填充与斧模式
 <string>剑模式的攻击会积蓄剑击能量，按<ICON WP09 PL_ATTACK_SP>＋<ICON WP09 PL_ATTACK_01>会<lf>将能量填充至<COLOR preset="TXT_Accent">瓶</COLOR>里。<lf>（全满后继续填充会将瓶变成强化瓶）
 <string>瓶的填充与斧模式
 <string>填充瓶后，就按<ICON WP09 PL_ATTACK_SP>+<ICON WP09 PL_ATTACK_00>变形成<COLOR preset="TXT_Accent">斧模式</COLOR>吧。<lf>这时可消耗或解放瓶中能量，使出强力攻击。
-<string>精准防御
-<string>剑模式时，抓准怪物攻击的时机按<ICON WP09 PL_ATTACK_SP>防御，<lf>就会触发<COLOR preset="TXT_Accent">精准防御</COLOR>，随后立即按<ICON WP09 PL_ATTACK_00>可衍生出<lf>属性回填斧强化斩。
+<string>精准格挡
+<string>剑模式时，抓准怪物攻击的时机按<ICON WP09 PL_ATTACK_SP>格挡，<lf>就会触发<COLOR preset="TXT_Accent">精准格挡</COLOR>，随后立即按<ICON WP09 PL_ATTACK_00>可衍生出<lf>属性回填斧强化斩。
 <string>实地调查任务
 <string>对怪物造成一定伤害，或将地图上的图示设<lf>为目标，就可以立刻开始<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>。
 <string>实地调查任务
@@ -233,13 +231,13 @@
 <string>连结队伍邀请
 <string>用开始菜单的<COLOR preset="TXT_Accent">邀请至连结队伍</COLOR>集结成员吧。<lf>连结队伍最大可容纳4人。
 <string>连结队伍的特点
-<string>连结队伍有专用的聊天频道。队伍成员中有<lf>人开始任务时，就会自动收到加入通知。
+<string>连结队伍有专用的聊天频道。队伍成员中有<lf>人开始任务时，就会自动收到邀请通知。
 <string>连结队伍的特点
 <string>从任务中返回后，连结队伍也不会解散，<lf>可以轻松与相同成员重复挑战任务。
 <string>环境连结
 <string>此外，在连结队伍中时，还能通过“环境连<lf>结”将成员邀请到自己的环境中一起探索。
 <string>垂钓的操作方法
-<string><COLOR preset="TXT_Accent">显示瞄准线、瞄准</COLOR>：<ICON PL_AIM><lf><COLOR preset="TXT_Accent">投出拟饵</COLOR>：<ICON PL_AIM>＋<ICON PL_SLINGER_SHOOT>
+<string><COLOR preset="TXT_Accent">显示瞄准线、瞄准</COLOR>：<ICON PL_AIM><lf><COLOR preset="TXT_Accent">投出拟饵</COLOR>：<ICON PL_AIM>＋<ICON PL_FISHING_ACTION>
 <string>垂钓的操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>垂钓的操作方法
@@ -251,17 +249,17 @@
 <string>训练场
 <string>如果想练习武器和走位，去大本营深处的训<lf>练场最合适不过。
 <string>训练场
-<string>对着猫式训练用拳击木桶靶练习各种动作吧。<lf>也别忘了参考开始菜单的游玩指南！
+<string>对着猫式训练用拳击木桶靶练习各种动作吧。<lf>也别忘了参考开始菜单的游戏指南！
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_306
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_306
 <string>设置随从待命状态
-<string>选择“待命”时，随从将不会参加任务。<lf>不过别担心，随从在待命时也会努力训练。
+<string>随从会与猎人一同行动。但选择“待命”后，<lf>随从就会在任务开始时，返回个人帐篷。
 <string>剥取素材
 <string>靠近已讨伐的怪物，按<ICON PL_POP>即可<COLOR preset="TXT_Accent">剥取素材</COLOR>。<lf>素材可以用于生产和强化装备。<lf>拔刀状态时，需要先按<ICON PL_WEAPON_OFF>纳刀才能剥取。
 <string>为继续狩猎做足准备
 <string>在继续狩猎前，先在大本营里补充必要的道<lf>具吧。如果要挑战强力怪物，也别忘记用餐。
 <string>为继续狩猎做足准备
-<string>道具可在个人帐篷或简易营地通过<COLOR preset="TXT_Accent">替换道具</COLOR><lf>补充。回复药等道具可以用素材调和出来。
+<string>道具可在个人帐篷或简易营地通过<COLOR preset="TXT_Accent">替换道具</COLOR><lf>补充。回复药等道具可以用素材调合出来。
 <string>为继续狩猎做足准备
 <string>利用<COLOR preset="TXT_Accent">便携营火炉</COLOR>或在个人帐篷中就可以用餐。<lf>用餐后，体力等状态会在一定时间内提升。
 <string>承接实地调查任务的方法
@@ -273,25 +271,25 @@
 <string>最佳距离
 <string>瞄准线变成橙色时的攻击距离称为最佳距离。<lf>在此距离上可以造成最大伤害。四处走位，<lf>尽量保持瞄准线为橙色吧。
 <string>更换弹药
-<string>最佳距离会因弹药的种类而异。如需更换装<lf>填中的弹药，可以按<ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>选择想要<lf>装填的弹药。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_323>
 <string>最佳距离
 <string>瞄准线变成橙色时的攻击距离称为最佳距离。<lf>在此距离上可以造成最大伤害。四处走位，<lf>尽量保持瞄准线为橙色吧。
 <string>更换弹药
-<string>最佳距离会因弹药的种类而异。如需更换装<lf>填中的弹药，可以按<ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>选择想要<lf>装填的弹药。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_325>
 <string>最佳距离
 <string>瞄准线变成橙色时的攻击距离称为最佳距离。<lf>在此距离上可以造成最大伤害。四处走位，<lf>尽量保持瞄准线为橙色吧。
 <string>装填瓶
-<string>长按<ICON PL_ATTACK_SP>蓄力时会积蓄巧工箭槽，按<ICON WP11 PL_ATTACK_00>消耗<lf>巧工箭槽装填瓶，就可向箭矢附加瓶的效果。
+<string>长按<ICON WP11 PL_ATTACK_SP>蓄力时会积蓄巧工箭槽，按<ICON WP11 PL_ATTACK_00>消耗<lf>巧工箭槽装填瓶，就可向箭矢附加瓶的效果。
 <string>选择瓶
-<string>按<ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可以更换已装填的瓶。<lf>（可装填的瓶因武器而异）
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_328>
 <string>引导箭
 <string><COLOR preset="TXT_Accent">引导箭</COLOR>会刺在命中的部位上，之后发射的箭<lf>矢会自动追踪并命中该部位。命中引导箭的<lf>箭矢会造成额外伤害。
 <string>引导箭
 <string>发射引导箭会消耗巧工箭槽。长按<ICON WP11 PL_ATTACK_SP>会积蓄<lf>巧工箭槽，槽上方的图示发亮后，长按<ICON WP11 PL_ATTACK_SP>并<lf>按<ICON WP11 PL_ITEM>就可以装填。
 <string>龙热抵消弹
-<string>抓准怪物的攻击时机，以龙热抵消弹的爆炸<lf>波击中怪物，就能造成大幅伤害并击飞怪物。<lf>长按<ICON WP12 PL_ATTACK_00>并等到最佳时机再放手吧！
-<string>精准防御
-<string>在受到攻击的瞬间按<ICON WP12 PL_ATTACK_00>＋<ICON WP12 PL_ATTACK_01>防御，就会触发<lf><COLOR preset="TXT_Accent">精准防御</COLOR>。成功后按<ICON WP12 PL_DODGE>可以使出特殊的垫步。
+<string>抓准怪物的攻击时机，以龙热抵消弹的爆炸<lf>波击中怪物，就能造成大量伤害并击飞怪物。<lf>长按<ICON WP12 PL_ATTACK_00>并等到最佳时机再放手吧！
+<string>精准格挡
+<string>在受到攻击的瞬间按<ICON WP12 PL_ATTACK_00>＋<ICON WP12 PL_ATTACK_01>格挡，就会触发<lf><COLOR preset="TXT_Accent">精准格挡</COLOR>。成功后按<ICON WP12 PL_DODGE>可以使出特殊的垫步。
 <string>强化精华
 <string><COLOR preset="TXT_Accent">猎虫</COLOR>的攻击命中怪物时，会采集<COLOR preset="TXT_Accent">强化精华</COLOR>。<lf>（能采集到的精华因部位而异）
 <string>强化精华
@@ -301,7 +299,7 @@
 <string>承接次要使命
 <string>可以在执行任务之余承接<COLOR preset="TXT_Accent">次要使命</COLOR>了。<lf>去帮忙完成各地人们的委托吧。
 <string>查看次要使命
-<string>委托人的位置也可以在原野地图中确认。<lf>承接使命后可以在开始菜单的<COLOR preset="TXT_Accent">使命信息</COLOR>中查<lf>看相关信息。
+<string>委托人的位置也可以在原野地图中确认。<lf>承接使命后可以在开始菜单的<COLOR preset="TXT_Accent">使命信息</COLOR>中<lf>查看相关信息。
 <string>解锁上位装备
 <string>现已进入上位环境，可以生产、强化更强力<lf>的<COLOR preset="TXT_Accent">上位装备</COLOR>了。狩猎上位环境的怪物，收集<lf>高稀有度的素材吧。
 <string>解锁上位装备
@@ -309,7 +307,7 @@
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>长按<ICON WP00 PL_ATTACK_00>＋<ICON WP00 PL_ATTACK_01>就能使出带有抵消效果的<COLOR preset="TXT_Accent">抵消上<lf>捞斩</COLOR>。虽然时机很难掌握，但是如果抵消大<lf>成功，就能击飞怪物。
+<string>长按<ICON WP00 PL_ATTACK_00>＋<ICON WP00 PL_ATTACK_01>就能使出带有抵消效果的<COLOR preset="TXT_Accent">抵消<lf>上捞斩</COLOR>。虽然时机很难掌握，但是如果触发<lf>强力抵消，就能击飞怪物。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
@@ -317,11 +315,11 @@
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>抓准怪物攻击的时机按<ICON WP01 PL_ATTACK_SP>防御，就会触发<lf><COLOR preset="TXT_Accent">精准防御</COLOR>，随后立即按<ICON WP01 PL_ATTACK_00>可使出强力的反<lf>击斩。
+<string>抓准怪物攻击的时机按<ICON WP01 PL_ATTACK_SP>格挡，就会触发<lf><COLOR preset="TXT_Accent">精准格挡</COLOR>，随后立即按<ICON WP01 PL_ATTACK_00>可使出强力的反<lf>击斩。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string><COLOR preset="TXT_Accent">鬼人化</COLOR>时可以高速回避。成功精准回避时会<lf>同时攻击，并进入短时间的强化状态，名为<lf><COLOR preset="TXT_Accent">鬼人闪身状态</COLOR>。
+<string><COLOR preset="TXT_Accent">鬼人化</COLOR>时可以高速回避。精准回避时会同时<lf>攻击，并进入短时间的强化状态，名为<COLOR preset="TXT_Accent">鬼人<lf>闪身状态</COLOR>。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
@@ -329,25 +327,25 @@
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>产生黄＋红＋黄＋白的音色后，按<ICON WP05 PL_ATTACK_SP>＋<lf><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>可以发动各把狩猎笛特有的<COLOR preset="TXT_Accent">特殊<lf>演奏</COLOR>。<lf>（音色与效果因武器而异）
+<string>以<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>的顺序<lf>产生音色后，按<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>可以发动<lf>各把狩猎笛特有的<COLOR preset="TXT_Accent">特殊演奏</COLOR>。<lf>（音色顺序与效果因武器而异）
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>敌人攻击时，抓准时机按<ICON WP01 PL_ATTACK_SP>防御，就会触发<lf><COLOR preset="TXT_Accent">精准防御</COLOR>，之后立刻按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可以使出强力<lf>的追击突进。
+<string>敌人攻击时，抓准时机按<ICON WP06 PL_ATTACK_SP>格挡，就会触发<lf><COLOR preset="TXT_Accent">精准格挡</COLOR>，之后立刻按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可以使出<COLOR preset="TXT_Accent">浑身<lf>还击突刺【穿】</COLOR>。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>抓准怪物的攻击时机按<ICON WP07 PL_ATTACK_SP>＋<ICON WP07 PL_ATTACK_01>，可以<COLOR preset="TXT_Accent">精准防<lf>御并同时装填</COLOR>。成功时可衍生出强力攻击。
+<string>抓准怪物的攻击时机按<ICON WP07 PL_ATTACK_SP>＋<ICON WP07 PL_ATTACK_01>，可以<COLOR preset="TXT_Accent">精准格<lf>挡并同时装填</COLOR>。成功时可衍生出强力攻击。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>斧模式时，同时长按<ICON WP08 PL_ATTACK_00>＋<ICON WP08 PL_ATTACK_01>就能使出<COLOR preset="TXT_Accent">斧：抵<lf>消上捞斩</COLOR>。抓准时机抵消怪物的攻击，就能<lf>造成大幅伤害。
+<string>斧模式时，同时按<ICON WP08 PL_ATTACK_00>＋<ICON WP08 PL_ATTACK_01>就能使出<COLOR preset="TXT_Accent">斧：抵<lf>消上捞斩</COLOR>。抓准时机抵消怪物的攻击，就能<lf>造成大量伤害。
 <string>多样的攻击动作
 <string>剑模式时，按<ICON WP08 PL_ATTACK_SP>＋<ICON WP08 PL_ATTACK_00>使出<COLOR preset="TXT_Accent">剑：反击上捞斩</COLOR>。<lf>反击成功即可使出二连斩反击。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>剑模式时，抓准怪物攻击的时机按<ICON WP09 PL_ATTACK_SP>防御，<lf>就会触发<COLOR preset="TXT_Accent">精准防御</COLOR>，随后立即按<ICON WP09 PL_ATTACK_00>可衍生出<lf>属性回填斧强化斩。
+<string>剑模式时，抓准怪物攻击的时机按<ICON WP09 PL_ATTACK_SP>格挡，<lf>就会触发<COLOR preset="TXT_Accent">精准格挡</COLOR>，随后立即按<ICON WP09 PL_ATTACK_00>可衍生出<lf>属性回填斧强化斩。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
@@ -359,7 +357,7 @@
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
-<string>按<ICON WP12 PL_ATTACK_01>切换至龙热模式，再长按<ICON WP12 PL_ATTACK_00>就可准备<lf>发射<COLOR preset="TXT_Accent">龙热抵消弹</COLOR>。抓准怪物的攻击时机发射，<lf>就能造成大幅伤害并击飞怪物。
+<string>按<ICON WP12 PL_ATTACK_01>切换至龙热模式，再长按<ICON WP12 PL_ATTACK_00>就可准备<lf>发射<COLOR preset="TXT_Accent">龙热抵消弹</COLOR>。抓准怪物的攻击时机发射，<lf>就能造成大量伤害并击飞怪物。
 <string>多样的攻击动作
 <string>除了这些动作之外，每种武器还拥有丰富多<lf>样的动作。参考刚才的介绍，多加尝试吧。
 <string>多样的攻击动作
@@ -367,7 +365,7 @@
 <string>享受多人游戏的乐趣吧
 <string>大厅已经开放。可以和大厅内的其他玩家进<lf>行多人游戏了。详情请参阅游戏指南。
 <string>大厅与多人游戏
-<string>和大厅内的朋友以及其他有缘的猎人一起畅<lf>享多人游戏和聊天吧。
+<string>和大厅内的朋友以及其他有缘的猎人一起<lf>畅享多人游戏和聊天吧。
 <string>添加猎人好友的方法
 <string>如果想添加猎人好友，就通过开始菜单的成员<lf>列表中“大厅成员列表”或“猎人ID搜索”<lf>来发出邀请吧。
 <string>连结队伍与多人游戏

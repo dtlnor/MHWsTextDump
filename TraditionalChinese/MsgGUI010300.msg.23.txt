@@ -52,7 +52,7 @@
 <string>腰部衣飾配色2
 <string>足部衣飾配色2
 <string>內衣
-<string>設定用於遮擋身體的內衣。（也可從裝備的外觀設定變更）
+<string>設定用於遮擋身體的內衣。（亦可從裝備的外觀設定變更）
 <string>顯示內搭衣
 <string>內搭衣配色
 <string>顯示內搭褲
@@ -80,9 +80,9 @@
 <string>漸變色比例
 <string>漸變色滑順度
 <string>頭髮長度（設定2）
-<string>根據髮型不同，有可能無法反映此設定。
+<string>根據髮型不同，有可能無法套用此設定。
 <string>頭髮長度（設定1）
-<string>根據髮型不同，有可能無法反映此設定。
+<string>根據髮型不同，有可能無法套用此設定。
 <string>眉毛類型
 <string>眉毛顏色
 <string>眉毛透明度
@@ -230,7 +230,7 @@
 <string>預設外觀
 <string>詳細設定
 <string>使用艾路語
-<string>將自己與其他玩家的隨從艾路語音全部設定為艾路語。（亦可於選項變更此設定）
+<string>將所有艾路（包括自己的隨從）的語音全部設定為艾路語。<COLOR preset="TXT_Accent">（亦可於選項變更此設定）</COLOR>
 <string>聲線
 <string>聲線高低
 <string>變更聲線高低後有可能會較不容易聽清楚語音。
@@ -291,7 +291,7 @@
 <string>變更設定
 <string>試聽語音
 <string>播放動作範例
-<string>裝備顯示
+<string>顯示/隱藏裝備
 <string>重置
 <string>確定要將選擇項目內的所有設定恢復至初始設定嗎？
 <string>確定要重置選擇中的預設外觀的所有設定嗎？
@@ -348,8 +348,8 @@
 <string>受傷
 <string>隨從艾路表情範例
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE>轉動光源
-<string><ICON UI_LIST_TRIGGER_L2>/<ICON UI_LIST_TRIGGER_R2> 轉動光源
+<string><ICON PAD PL_DUMMY_MOVE>轉動光源
+<string><ICON MKB UI_LIST_TRIGGER_L2>/<ICON MKB UI_LIST_TRIGGER_R2> 轉動光源
 <string>隱藏介面
 <string>獵人設計資料
 <string>隨從艾路設計資料
@@ -366,22 +366,22 @@
 <string>　皮膚亮度
 <string>　皮膚飽和度
 <string>變更造型
-<string>要結束變更造型？
+<string>要結束變更造型嗎？
 <string>編輯獵人
 <string>變更名稱
 <string>可變更名稱。
 <string>變更獵人的名稱。<lf><COLOR preset="TXT_Accent">部分內容可能不會顯示變更後的名稱，<lf>或需要一段時間才會顯示。</COLOR>
 <string>要捨棄所有編輯內容並結束編輯嗎？<lf><COLOR preset="TXT_Accent">（不會消耗獵人造型券）</COLOR>
-<string>要反映變更嗎？<lf><COLOR preset="TXT_Accent">（造型變更內容均於一般變更範圍內，<lf>　將不會消耗獵人造型券）</COLOR>
-<string>要反映變更嗎？<lf><COLOR preset="TXT_Accent">（將消耗1張獵人造型券）</COLOR>
+<string>要套用變更嗎？<lf><COLOR preset="TXT_Accent">（造型變更內容均於一般變更範圍內，<lf>　將不會消耗獵人造型券）</COLOR>
+<string>要套用變更嗎？<lf><COLOR preset="TXT_Accent">（將消耗1張獵人造型券）</COLOR>
 <string>要結束編輯獵人嗎？
 <string>編輯隨從艾路
 <string>變更名稱
 <string>可變更名稱。
 <string>變更隨從艾路的名字。<lf><COLOR preset="TXT_Accent">部分內容可能不會顯示變更後的名稱，<lf>或需要一段時間才會顯示。</COLOR>
 <string>要捨棄所有編輯內容並結束編輯嗎？<lf><COLOR preset="TXT_Accent">（不會消耗隨從造型券）</COLOR>
-<string>要反映變更嗎？<lf><COLOR preset="TXT_Accent">（造型變更內容均於一般變更範圍內，<lf>　將不會消耗獵人造型券）</COLOR>
-<string>要反映變更嗎？<lf><COLOR preset="TXT_Accent">（將消耗1張隨從造型券）</COLOR>
+<string>要套用變更嗎？<lf><COLOR preset="TXT_Accent">（造型變更內容均於一般變更範圍內，<lf>　將不會消耗隨從造型券）</COLOR>
+<string>要套用變更嗎？<lf><COLOR preset="TXT_Accent">（將消耗1張隨從造型券）</COLOR>
 <string>要結束編輯隨從艾路嗎？
 <string>自動產生臉孔
 <string>以目前狀態為基礎，自動隨機產生另一張臉孔。

@@ -5,11 +5,10 @@
 <string>Nagrody
 <string>Przegląd otoczenia
 <string>Aktualizuj
-<string>Obecny
+<string>Obecnie
 <string>Prognoza
 <string>Działania gracza mogą zmienić prognozę.
-<string>Informacje o potworze
-<string>Największe
+<string>Szczegółowe informacje
 <string>Polowanie
 <string>Zgładzanie
 <string>Łapanie
@@ -21,18 +20,18 @@
 <string>Przyjmij zadanie
 <string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganego postępu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganego postępu.</COLOR>
-<string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganego poziomu łowcy.</COLOR>
-<string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć,<lf>ponieważ nie osiągnięto<lf>wymaganego poziomu łowcy.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganej rangi łowcy.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć,<lf>ponieważ nie osiągnięto<lf>wymaganej rangi łowcy.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się zacząć badania terenu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można powtórzyć ukończonych zleceń.</COLOR>
-<string><COLOR preset="TXT_Danger">Graczowi/graczom nie udało się dołączyć z powodu ustawień rozgrywki wieloosobowej.</COLOR>
+<string><COLOR preset="TXT_Danger">Graczowi/Graczom nie udało się dołączyć z powodu ustawień rozgrywki wieloosobowej.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się dołączyć, ponieważ osiągnięto już maksymalną liczbę osób.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się dołączyć z powodu ustawień uprawnień platformy.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie spełniasz wymagań przyjęcia tego zadania lub dołączenia do niego.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie możesz przyjąć tego zadania lub do niego dołączyć.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się przyjąć tego zadania lub do niego dołączyć.</COLOR>
-<string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu, ponieważ powiązany członek wyświetla wyniki zadania.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu, ponieważ członek grupy wyświetla wyniki zadania.</COLOR>
 <string>Powrót do ekr. tytuł.
 <string>Spróbuj ponownie
 <string>Zgładź: {0}
@@ -42,18 +41,18 @@
 <string>Dostarcz: {0}
 <string>Anulować zadanie?
 <string>Anulowano zadanie.
-<string>Rozwiązano połączone środowisko.
+<string>Rozwiązano wspólny świat.
 <string>Nie udało się dołączyć do sesji,<lf>ponieważ zadanie się zakończyło.
 <string>Usuń z listy członków
-<string>Usuń z listy członków gracza<lf>{0}?
+<string>Usunąć z listy członków gracza<lf>{0}?
 <string>Nagrody za misję
-<string>Nagrody za główną misję
+<string>Nagrody za misję główną
 <string>Nagrody za misję poboczną
-<string>Wykaz nagród za zadanie
+<string>Nagrody za zadanie
 <string>Dodatkowe nagrody
 <string>Dodatkowe nagrody za cel
 <string>Nagrody za cel
-<string>Ogólne materiały w nagrodę
+<string>Materiały w nagrodę
 <string>Dodatkowe nagrody za zadanie
 <string>Zadanie<lf>ukończone
 <string>Zadanie<lf>nieudane
@@ -67,18 +66,18 @@
 <string>Wyświetlaj wszystko
 <string>Zadania członków lobby
 <string>Zadania z flarą alarmową
-<string>Zadania powiązanych członków
-<string>Ustawienia dołączania do zadań
-<string>Dostosuj przyjmowanie lub dołączanie do zadań. <COLOR preset="TXT_Accent">(Powiązani członkowie otrzymujący zaproszenie do zadania będą automatycznie przyjęci)</COLOR>
-<string>Akceptuj automatycznie
-<string>Akceptuj ręcznie
+<string>Zadania członków grupy
+<string>Принимать игроков
+<string>Dostosuj metodę przyjmowania do zadań. <COLOR preset="TXT_Accent">(Członkowie grupy, którzy otrzymają zaproszenie do zadania, będą automatycznie przyjęci)</COLOR>
+<string>Automatycznie
+<string>Ręcznie
 <string>Ustaw hasło
-<string>Ustaw hasło, by dołączyć do twojego zadania. <COLOR preset="TXT_Accent">(Ograniczenia związane z hasłem zostaną usunięte podczas wysyłania flary alarmowej)</COLOR>
+<string>Ustaw hasło, by dołączyć do twojego zadania. <COLOR preset="TXT_Accent">(Ograniczenia hasłem zostaną usunięte po wysłaniu flary alarmowej)</COLOR>
 <string>Stwórz 4-cyfrowe hasło.
 <string>Podaj hasło.
 <string>Nie
 <string>Tak
-<string>{0} min temu
+<string>{0} min. temu
 <string>-
 <string>Pieniądze z nagrody
 <string>Limit czasu
@@ -91,49 +90,49 @@
 <string>Postępy głównego celu
 <string>Warunki porażki
 <string>Upływa czas
-<string>Omdlenie trzy razy
-<string>Zemdlej <PLURAL {0} „raz” „{0} razy”>
-<string>Omdlenia: {0}/{1}
+<string>Zemdlenie trzy razy
+<string>Zemdlej <PLURAL {0} "raz" "{0} razy">
+<string>Zemdlenia: {0}/{1}
 <string>Klient: {0}
 <string>Ukończono!
-<string>Komentarz o rekrutacji członków
-<string>Wybierz komentarz dla rekrutacji członków.
+<string>Wiadomość o rekrutacji
+<string>Ustaw wiadomość, by zrekrutować członków.
 <string>Przyjmę każdego!
-<string>Szukam graczy z podobnym PŁ!
+<string>Szukam graczy z podobną RŁ!
 <string>Nowi gracze mile widziani!
 <string>Szukam weteranów!
-<string>Nie można utworzyć zadania
+<string>Tworzenie zadań niedostępne
 <string>Siła
 <string>Możesz stworzyć zadanie dla wielu celów!
 <string>{0} chce zaoferować posiłek!
 <string>{0} chce porozmawiać!
-<string>Dostępne zadanie: {0}!
+<string>Dostępne zadanie: {0}
 <string>{0}: spełniono warunki ukończenia!
 <string>Maksymalna liczba członków
-<string>Ustaw maksymalną liczbę graczy mogących dołączyć do zadań. <COLOR preset="TXT_Accent">(Liczba będzie różna w zależności od maks. liczby powiązanych członków)</COLOR>
+<string>Ustaw maksymalną liczbę graczy mogących dołączyć do zadań. <COLOR preset="TXT_Accent">(Liczba będzie różna w zależności od maks. liczby członków grupy)</COLOR>
 <string>1
 <string>2
 <string>3
 <string>4
 <string>Ustawienia gry wieloosobowej
 <string>Wybierz tryb rozgrywki wieloosobowej.
-<string>Inni gracze i łowcy wspierający
-<string>Tylko inni gracze
+<string>Gracze i łowcy wspierający
+<string>Tylko gracze
 <string>Tylko łowcy wspierający
 <string>Automatyczna flara alarmowa
 <string>Wybierz, czy automatycznie wystrzelić flara alarmowa po rozpoczęciu zadania.
 <string>Wył.
 <string>Wł.
 <string>Hasło
-<string>Ustaw 4-cyfrowe hasło. <COLOR preset="TXT_Accent">(Nie będzie wymagane dla powiązanych członków, którzy otrzymali zaproszenie do zadania)</COLOR>
+<string>Ustaw 4-cyfrowe hasło. <COLOR preset="TXT_Accent">(Niewymagane dla członków grupy, którzy otrzymali zaproszenie do zadania)</COLOR>
 <string>Uprawnienia platform
-<string>Wybierz, z których platform mogą dołączać gracze. <COLOR preset="TXT_Accent">(Powiązani członkowie z zaproszeniem do zadania dołączają niezależnie od platformy)</COLOR>
+<string>Wybierz, z których platform mogą dołączać gracze. <COLOR preset="TXT_Accent">(Członkowie grupy z zaproszeniem do zadania dołączą niezależnie od platformy)</COLOR>
 <string>Wyszukaj zadania, które w ustawieniach werbunku mają wybraną opcję „Wszystkie platformy”.
 <string>Gracz używający tej samej platformy nie pojawi się w wyszukiwaniu, jeśli w menu tytułowym wyłączył rozgrywkę międzyplatformową.
-<string>Ponieważ w menu tytułowym wyłączono rozgrywkę międzyplatformową, wyniki wskażą tylko zadania od graczy z takimi samymi ustawieniami.
+<string>W menu tytułowym wyłączono rozgrywkę międzyplatformową. Wyniki wskażą tylko zadania od graczy z takimi samymi ustawieniami.
 <string>Wszystkie platformy
 <string>Twoja platforma
-<string>Wyszukiwanie flar alarmowych
+<string>Szukaj flar alarmowych
 <string>Typ zadania
 <string>Dowolne
 <string>Trudność zadania
@@ -161,6 +160,6 @@
 <string>Zwiększyć tymczasowo maksymalną liczbę graczy dla<lf>tego zadania? <COLOR preset="TXT_Accent"> (Nie można zmienić ponownie do momentu<lf>ukończenia zadania)</COLOR>
 <string>Zlecenia
 <string>Zadania opcjonalne
-<string>Zadania powiązanych członków ({0})
-<string>Zadania powiązanych członków
+<string>Zadania członków grupy ({0})
+<string>Zadania członków grupy
 <string>Zadania z flarą alarmową ({0})

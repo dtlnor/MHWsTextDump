@@ -1,7 +1,7 @@
 ﻿<string><ICON WP00 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp00_m1673173760>
 <string><ICON WP_GREATSWORD> Двуручный меч
-<string>Эту атаку не нужно усиливать. Перейти<lf>к удару сбоку можно после усиленного<lf>удара.
+<string>Атака сверху, которую не нужно усиливать.<lf>От удара сверху можно перейти к усиленным<lf>атакам для продолжения комбо.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m1156222080>
@@ -23,7 +23,7 @@
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">, затем <ICON RELEASE> после усиления
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>Восходящий удар, который может<lf>парировать атаки монстров. <lf><lf>Идеальное парирование<lf>позволяет выполнить ответный<lf>крестовой удар.
+<string>Восходящий удар, который позволяет<lf>парировать атаки монстров.<lf><lf>Если этот удар усилить и нанести его<lf>одновременно с атакой монстра, тот<lf>будет отброшен назад, а вы сможете<lf>выполнить добавочный крестовой<lf>удар, нажав <ICON WP00 PL_ATTACK_00>.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
@@ -33,23 +33,23 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>Размашистый удар, который особенно<lf>эффективен при попадании по ранам.<lf>Задев рану или уязвимое место, вы<lf>нанесёте урон несколько раз.
+<string>Размашистый удар, который особенно<lf>эффективен при попадании по ранам.<lf>Задев рану или уязвимое место, вы<lf>нанесёте много урона несколько раз.<lf><lf>Нажмите <ICON WP00 PL_ATTACK_SP_B> во время удара, чтобы<lf>закончить атаку раньше.
 <string>
 <string>Комбо с истинным усиленным ударом
 <string><REF ActionGuideDataNameText_Wp00_276684864>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_971250048>
-<string>Комбо, в которое входит истинный<lf>усиленный удар.
+<string>Комбо, оканчивающееся истинным<lf>усиленным ударом.
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1769468672>
-<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string>
-<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
+<string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_2095506176>
 <string>
 <string>Комбо с атакой в выпаде
 <string><ICON WP00 PL_ATTACK_01>
-<string>Комбо, при выполнении которого вы<lf>перемещаетесь далеко вперёд.
+<string>Комбо, при выполнении которого вы<lf>сокращаете расстояние между вами<lf>и целью.
 <string>
 <string><REF ActionGuideDataNameText_Wp00_1081794688>
 <string><ICON WP00 PL_ATTACK_01>
@@ -87,7 +87,7 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>Усиление духа заполняет шкалу духа<lf>и, после усиления позволяет выполнить<lf>атаку духовный клинком. Сила атаки<lf>духовного клинка зависит от длительности<lf>усиления.<lf><lf>С максимальным усилением вы сможете<lf>применить круговой удар духа. Если<lf>шкала духа окрашена красным, после<lf>выполнения этой атаки вас нельзя будет<lf>отбросить.
+<string>Усиление духа заполняет шкалу духа<lf>и после усиления позволяет выполнить<lf>атаку духовным клинком. Уровень атаки<lf>духовного клинка зависит<lf>от длительности усиления.<lf><lf>С максимальным усилением вы сможете<lf>применить круговой удар духа. Когда<lf>шкала духа окрашена красным, вас нельзя<lf>отбросить во время выполнения<lf>кругового удара.
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
 <string>Режущий удар с перемещением назад.<lf><lf>Используйте <ICON WP03 PL_MOVE_LEFT> или <ICON WP03 PL_MOVE_RIGHT>, чтобы<lf>выполнить удар в другом направлении.
@@ -118,7 +118,7 @@
 <string><REF ActionGuideDataNameText_Wp03_m1592986112>
 <string>Шкала духа заполняется с каждым<lf>попаданием по монстру. Атаки духовного<lf>клинка расходуют накопленный заряд, а<lf>круговые удары духа или сфокусированные<lf>удары повышают уровень шкалы.<lf><lf>Когда шкала духа становится красной,<lf>она достигает максимального уровня,<lf>позволяя использовать мощные добавочные<lf>удары. Шкала дольше будет красной,<lf>если выполнять круговые удары духа и<lf>багровые разрезы во вращении.
 <string>
-<string>Комбо для заполнения шкалы
+<string>Комбо для заполнения шкалы духа
 <string><ICON WP03 PL_ATTACK_00>
 <string>Базовое комбо, которое поможет<lf>быстро заполнить шкалу духа.
 <string>
@@ -360,7 +360,7 @@
 <string>Базовое комбо в режиме демона
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_1562259072>
-<string>Базовое комбо, которое можно выполнить<lf>в режиме демона. После него становится<lf>доступен танец клинков.
+<string>Базовое комбо в режиме демона.<lf>После него можно перейти к комбо<lf>танца клинков.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m268803040>
 <string><ICON WP02 PL_ATTACK_00>
@@ -373,8 +373,8 @@
 <string>
 <string>Комбо в режиме архидемона
 <string><REF ActionGuideDataNameText_Wp02_m1698437888>
-<string><ICON WP02 PL_ATTACK_SP> (после танца клинков 1)
-<string>Это комбо быстро расходует заряд шкалы<lf>демона, но наносит огромный урон.<lf>После перехода в режим демона<lf>и применения танца клинков 1 (<ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>)<lf>вы можете переключаться между<lf>демоническим шквалом и танцем клинков<lf>при помощи <ICON WP02 PL_ATTACK_SP>.<lf><lf>Танец клинков 3 — невероятно мощная<lf>атака. Выбирайте наиболее подходящий<lf>вариант комбо по ситуации.
+<string><ICON WP02 PL_ATTACK_SP> (после танца клинков I)
+<string>Это комбо быстро расходует заряд шкалы<lf>демона, но наносит огромный урон.<lf><lf>После перехода в режим демона<lf>и применения танца клинков I (<ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>)<lf>вы можете переключаться между<lf>демоническим шквалом и танцем клинков<lf>при помощи <ICON WP02 PL_ATTACK_SP>.<lf><lf>Танец клинков III — невероятно мощная<lf>атака. Выбирайте наиболее подходящий<lf>вариант комбо по ситуации.
 <string>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_1565251968>
@@ -386,14 +386,14 @@
 <string>
 <string>Комбо с демоническим шквальным натиском
 <string><REF ActionGuideDataNameText_Wp02_72416008>
-<string><ICON WP02 PL_ATTACK_01> (в режиме архидемона)
-<string>Комбо, которое обеспечивает высокую<lf>подвижность. В режиме демона включает<lf>в себя двойной круговой удар.
+<string><ICON WP02 PL_ATTACK_01> (в режиме демона/архидемона)
+<string>Комбо, которое позволяет сократить<lf>расстояние между вами и монстром<lf>во время атаки. Комбо в режиме демона<lf>включает в себя двойной круговой удар.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_215332432>
 <string><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_m1318603136>
 <string>
-<string><ICON WP02 PL_ATTACK_01> (в режиме архидемона)
+<string><ICON WP02 PL_ATTACK_01> (в режиме демона)
 <string>
 <string><ICON WP_HAMMER> Молот
 <string><REF ActionGuideDataNameText_Wp02_1443799168>
@@ -402,11 +402,11 @@
 <string><INPUTMSG MsgGUI600200_01_009_01>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
 <string><ICON WP04 PL_ATTACK_01>
-<string>Дробящий удар, который можно повторять<lf>после каждого попадания по монстру.<lf><lf>Когда четыре таких удара достигнут<lf>цели, вы сможете применить добивающий<lf>большой взрыв.<lf><lf>Любой промах приводит к прерыванию<lf>комбо.
+<string>Дробящий удар, который можно повторять<lf>после каждого попадания по монстру.<lf><lf>Когда четвёртый удар (большой взрыв IV)<lf>достигнет цели, вы сможете применить<lf>добивающий большой взрыв.<lf><lf>Любой промах приводит к прерыванию<lf>комбо.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Удерживайте <ICON WP04 PL_ATTACK_SP>, чтобы усилить атаку.<lf>При этом расходуется выносливость.<lf>Всего уровней усиления три, и на<lf>каждом есть свои особенности атаки.<lf><lf>Нажав <ICON WP04 PL_ATTACK_01> во время усиления, вы<lf>выполните усиленный рывок<lf>и сможете уклоняться, не теряя заряд<lf>усиления.
+<string>Удерживайте <ICON WP04 PL_ATTACK_SP>, чтобы усилить атаку.<lf>При этом расходуется выносливость.<lf>Всего уровней усиления три, и на<lf>каждом есть свои особенности атаки.<lf><lf>Нажав <ICON WP04 PL_ATTACK_01> во время усиления, вы<lf>выполните усиленный рывок и сможете<lf>уклониться, не теряя заряд усиления.
 <string><REF ActionGuideDataNameText_Wp04_67403672>
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
@@ -417,7 +417,7 @@
 <string><REF ActionGuideDataNameText_Wp04_m1391311232>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> (при 3-м уровне усиления)
 <string><REF ActionGuideDataNameText_Wp04_424161632>
-<string>Усильте атаку до максимума, чтобы<lf>нанести могучий удар. После повторного<lf>усиления можно выполнить<lf>разрушительный удар.
+<string>Когда атака вашего молота усилена<lf>до предела (3 уровень), вы можете<lf>выполнить мощное усиление.<lf>Обрушив удар сразу, вы выполните<lf>мощный мах снизу, а полное мощное<lf>усиление позволит вам высвободить<lf>мощный усиленный удар.
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp04_807319680>
@@ -483,28 +483,28 @@
 <string><INPUTMSG MsgGUI600200_01_010_01>
 <string><REF ActionGuideDataNameText_Wp05_m201995088>
 <string><ICON WP05 PL_ATTACK_01>
-<string>Базовая атака, добавляющая<lf>вторую ноту гаммы.
+<string>Базовая атака, добавляющая вторую<lf>ноту на нотный стан.
 <string><REF ActionGuideDataNameText_Wp05_166644960>
 <string>
 <string><INPUTMSG MsgGUI600200_01_011>
-<string>Атака, добавляющая вторую ноту гаммы.<lf><lf>Нажав <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> во время атаки,<lf>вы сможете добавить ещё одну ноту.
+<string>Атака, добавляющая вторую ноту<lf>на нотный стан.<lf><lf>Нажав <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> во время атаки,<lf>вы сможете добавить ещё одну ноту.
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_m671947712>
-<string>Базовая атака, добавляющая третью<lf>ноту гаммы. Позволяет легко попасть<lf>в цель, которая находится у вас<lf>за спиной. Во время этой атаки вы<lf>передвигаетесь назад.
+<string>Базовая атака, добавляющая третью<lf>ноту на нотный стан.<lf><lf>Позволяет легко попасть в цель,<lf>которая находится у вас за спиной<lf>и переместиться назад.
 <string>
 <string><INPUTMSG MsgGUI600200_01_012>
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
-<string>Атака, добавляющая третью ноту гаммы.<lf><lf>Нажав <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> во время атаки,<lf>вы сможете добавить ещё одну ноту.
+<string>Атака, добавляющая третью ноту<lf>на нотный стан.<lf><lf>Нажав <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> во время атаки,<lf>вы сможете добавить ещё одну ноту.
 <string>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> (при выполнении комбо)
-<string>Серия быстрых атак, добавляющих<lf>ноту. Доступна для выполнения после<lf>определённых атак. При использовании<lf><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> и <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> добавляются<lf>разные ноты.
+<string>Серия быстрых атак, добавляющих<lf>ноту на нотный стан.<lf><lf>Доступна для выполнения после<lf>определённых атак. При использовании<lf><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> и <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> добавляются<lf>разные ноты.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>Особая атака, высвобождающая эффекты<lf>мелодии. Если у вас готово несколько<lf>мелодий, вы исполните их по очереди,<lf>начиная с верхней. С помощью <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>или <ICON WP05 PL_ATTACK_01> можно выбрать мелодию из списка<lf>вручную. Можно объединить несколько<lf>музыкальных композиций в мощный мотив<lf>при помощи <ICON WP05 PL_ATTACK_SP>. Завершив музыкальную<lf>композицию, вы сможете сыграть на бис<lf>(<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>), чтобы усилить эффекты<lf>мелодии и продлить их действие.<lf>Исполняя мотив и играя на бис в момент<lf>активации эффектов мелодии, вы<lf>повышаете урон от атак.
+<string>Атака, высвобождающая эффекты<lf>мелодии. Если у вас готово несколько<lf>мелодий, вы исполните их по очереди.<lf>Выбрать мелодию для исполнения можно<lf>с помощью <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01>.<lf><lf>При исполнении нескольких мелодий,<lf>нажмите <ICON WP05 PL_ATTACK_SP> для удара в такт. Затем,<lf>вы сможете сыграть на бис (<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>),<lf>чтобы усилить эффекты мелодий<lf>и продлить их действие.<lf><lf>Ударяя в такт и играя на бис в момент<lf>активации эффектов мелодии, вы<lf>наносите больше урона от атак.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -513,49 +513,45 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>Особая атака, создающая эхосферу.<lf>Тип эхосферы зависит от вашего<lf>охотничьего рога.<lf><lf>При создании эхосферы вы можете<lf>добавить до трёх нот при помощи<lf><ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>.
+<string>Особая атака, создающая эхосферу.<lf>Тип эхосферы зависит от вашего<lf>охотничьего рога.<lf><lf>При создании эхосферы вы можете<lf>добавить до трёх нот при помощи<lf><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> (с готовой мелодией)
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>В отличие от исполнения композиции,<lf>этот способ активирует эффект мелодии,<lf>свойственный вашему охотничьему рогу.<lf><lf>Если вы подготовите эту мелодию,<lf>другие мелодии её не заменят.
+<string>В отличие от исполнения композиции,<lf>особые композиции активируют эффект<lf>мелодии, свойственный используемому<lf>охотничьему рогу.<lf><lf>Если вы подготовите эту мелодию,<lf>другие мелодии её не заменят.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Музыкальная композиция, эффективная<lf>против раненых монстров. Во время<lf>исполнения можно добавить<lf>до пяти нот (<ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>).<lf><lf>Запустив эхосферу точно в ритм,<lf>вы нанесёте повышенный урон.
+<string>Музыкальная композиция, эффективная<lf>против раненых монстров. Во время<lf>исполнения можно добавить до пяти нот<lf>(<ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>).<lf><lf>Сыграв по нотам точно в ритм,<lf>вы нанесёте дополнительный урон.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
 <string><REF RefStatus_0006_000_01>
-<string>Создав эхосферу, вы получите особый<lf>эффект мелодии. Он будет действовать,<lf>пока вы находитесь в области действия<lf>эхосферы.<lf><lf>Кроме того, эффект мелодии будет<lf>входить в резонанс с вашими<lf>музыкальными композициями и нотами,<lf>нанося урон монстрам поблизости.
+<string>Создав эхосферу, вы будете получать<lf>особый эффект мелодии, пока находитесь<lf>в области её действия.<lf><lf>Кроме того, эхосфера будет входить<lf>в резонанс с вашим исполнением<lf>композиций и нотами, нанося урон всем<lf>монстрам поблизости.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
-<string>Особая музыкальная композиция, которая<lf>парирует атаки монстров.<lf>Наносит большой урон, поэтому может<lf>применяться и как обычная атака.
+<string>Особая музыкальная композиция, которая<lf>может парировать атаки монстров.<lf>Наносит большой урон, поэтому может<lf>применяться и как обычная атака.
 <string>
-<string>Эффекты мелодии
+<string>Эффекты мелодий
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
-<string>Увеличивает скорость передвижения.<lf>В сочетании с эффектом мелодии<lf>повышает ваш показатель атаки<lf>и исключает возможность отскока<lf>вашего оружия от шкуры монстров.
+<string>Увеличивает скорость передвижения.<lf>Играя на бис для этого эффекта мелодии<lf>вы повысите вашу силу атаки и исключите<lf>возможность отскока вашего оружия<lf>от шкуры монстров.
 <string>
-<string>Не даёт монстру вас отбросить.
-<string>
-<string><ICON ST_POWER_UP_HORN> Усиление атаки (мал.) / <REF MusicSkillDataText_Wp05_12>
+<string><ICON ST_POWER_UP_HORN> Усиление атаки (S) / <REF MusicSkillDataText_Wp05_12>
 <string>Повышает показатель силы атаки.
 <string>
-<string>Повышает показатель защиты.
-<string>
 <string><ICON ST_DEFECE_FIRE> <REF MusicSkillDataText_Wp05_18> / <ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
-<string>Повышает сопротивление огню и защищает<lf>от огненной порчи.
+<string>Повышает сопротивление стихии огня<lf>и защищает от огненной порчи.
 <string>
 <string>Эховолна
-<string>Эффект мелодии, наносящий урон<lf>монстрам.<lf><lf>У каждого охотничьего рога своя<lf>эховолна. Одни эховолны по принципу<lf>действия напоминают ударное или <lf>режущее<lf>оружие, а другие наносят стихийный урон<lf>и накладывают недуги.
+<string>Эффект мелодии, наносящий урон<lf>монстрам.<lf><lf>У каждого охотничьего рога есть своя<lf>эховолна. Одни эховолны по принципу<lf>действия напоминают ударное или<lf>режущее оружие, а другие наносят<lf>стихийный урон и накладывают недуги.
 <string>
-<string>Эффекты эхосферы
-<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
+<string>Эффекты эхосфер
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Бонус к уклонению и скорости перемещения
 <string>Повышает показатель уклонения<lf>и скорость передвижения.
 <string>
 <string>Базовое комбо
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00>
-<string>Базовое комбо. С помощью каденции<lf>можно добавить до трёх нот.
+<string>Базовое комбо. Выполнив каденцию,<lf>можно добавить до трёх нот.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -571,7 +567,7 @@
 <string>Базовое музыкальное комбо
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Быстрое музыкальное комбо, которое<lf>позволит найти брешь в защите монстра.
+<string>Музыкальное комбо, которое позволит<lf>найти брешь в защите монстра.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -579,7 +575,7 @@
 <string>Комбо с тремя эффектами мелодии
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Мощное комбо, которое лучше всего<lf>подходит, чтобы атаковать упавшего<lf>монстра.<lf><lf>Если активировать эффект мелодии<lf>одновременно с исполнением мотива<lf>или игрой на бис, вы нанесёте<lf>огромный урон.
+<string>Мощное комбо, которое лучше всего<lf>подходит, чтобы атаковать упавшего<lf>монстра.<lf><lf>Если активировать эффект мелодии<lf>одновременно с ударом в такт<lf>или игрой на бис, вы нанесёте<lf>огромный урон.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -588,12 +584,12 @@
 <string><ICON WP05 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
-<string><ICON WP05 PL_ATTACK_SP> <REF RefGeneral_0001_006>　<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><ICON WP05 PL_ATTACK_SP> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string>
 <string>Быстрое музыкальное комбо
 <string>Базовая атака
 <string><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Если исполнить после укола эфесом,<lf>эффекты мелодии активируются быстрее.
+<string>Если исполнить после удара рукоятью,<lf>эффекты мелодии активируются быстрее.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -608,7 +604,7 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Базовая атака, с которой можно начать<lf>комбо. Вы наносите колющий удар,<lf>направленный вверх. Режим фокусировки<lf>позволяет прицелиться точнее.<lf><lf>Эта атака выполняется до трёх раз<lf>подряд. После высокого выпада 3<lf>доступен ответный выпад. Удерживая <ICON WP06 PL_ATTACK_01>,<lf>можно усилить удар. Выполнив его<lf>в момент атаки монстра, вы сможете<lf>совершить двойной ответный выпад.
+<string>Базовая атака, с которой можно начать<lf>комбо. Вы наносите колющий удар,<lf>направленный вверх. Режим фокусировки<lf>позволяет прицелиться точнее.<lf><lf>Эта атака выполняется до трёх раз<lf>подряд. От высокого выпада III можно<lf>перейти к усиленной контратаке, чей<lf>урон возрастает, если удерживать <ICON WP06 PL_ATTACK_01>.<lf>Выполнив её в момент атаки монстра,<lf>вы сможете совершить двойной ответный<lf>выпад.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -632,18 +628,17 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Вы принимаете защитную стойку<lf>и ставите блок, который почти<lf>невозможно пробить. При этом<lf>расходуется выносливость, однако<lf>период восстановления после блока<lf>будет значительно сокращён и вы<lf>легко сможете контратаковать.<lf><lf>Урон последующей контратаки<lf>будет повышен за каждую<lf>заблокированную атаку.
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string><INPUTMSG MsgGUI600200_01_016>
 <string><INPUTMSG MsgGUI600200_01_016_01>
-<string>Рывок / стремительный разворот
+<string>Шаг в рывке / разворот в рывке
 <string><INPUTMSG MsgGUI600200_01_017>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_696236864>
-<string><ICON WP06 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP06 PL_ATTACK_01>
+<string><ICON WP06 PL_ATTACK_00> или <ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00> (после успешного блока)
@@ -651,13 +646,13 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01> (после успешного блока)
-<string>Контратака с выпадом вперёд, которую<lf>можно выполнить после блока. Наносит<lf>повышенный урон по сравнению<lf>с быстрым вариантом, однако при её<lf>применении вы дольше остаётесь <lf>уязвимы.
+<string>Контратака с выпадом вперёд, которую<lf>можно выполнить после блока. Наносит<lf>повышенный урон по сравнению<lf>с возвратным выпадом, однако при её<lf>применении вы дольше остаётесь<lf>уязвимы.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_1728314368>
 <string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
-<string>Удар щитом, который особенно<lf>эффективен при попадании по ранам.<lf>Задев рану или уязвимое место, вы<lf>нанесёте урон несколько раз.
+<string>Удар щитом, который особенно<lf>эффективен при попадании по ранам.<lf>Задев рану или уязвимое место, вы<lf>нанесёте урон несколько раз.<lf><lf>Нажмите <ICON WP06 PL_ATTACK_SP_B> во время сфокусированного<lf>удара, чтобы завершить атаку.
 <string>
-<string>Базовое комбо с перех. к тройному выпаду
+<string>Базовое комбо с переходом к тройному выпаду
 <string><REF ActionGuideDataNameText_Wp06_m572647232>
 <string><ICON WP06 PL_ATTACK_00>
 <string>Базовое комбо, после которого можно<lf>перейти к тройному выпаду.<lf><lf>Тройной выпад — мощная атака из трёх ударов,<lf>которую можно быстро отменить, чтобы<lf>поставить блок.
@@ -671,7 +666,7 @@
 <string><REF ActionGuideDataNameText_Wp06_m752102912>
 <string><ICON WP06 PL_ATTACK_00>
 <string>
-<string>Базовое комбо с перех. к ответному выпаду
+<string>Базовое комбо с переходом к усиленной контратаке
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
 <string>Базовое комбо, после которого можно<lf>перейти к ответному выпаду.<lf><lf>Чем дольше вы усиливаете ответный<lf>выпад, тем выше будет урон. Если<lf>выполнить удар в момент атаки монстра,<lf>получится двойной ответный выпад.
@@ -696,17 +691,17 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE> Копьепушка
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
 <string><ICON WP07 PL_ATTACK_00>
-<string>Атака с выпадом вперёд. После неё<lf>можно выполнить боковой<lf>выпад II (<ICON WP07 PL_ATTACK_00>), а затем провести<lf>размашистый удар (<ICON WP07 PL_ATTACK_00>).
+<string>Атака с выпадом вперёд. После неё<lf>можно выполнить горизонтальный<lf>выпад II (<ICON WP07 PL_ATTACK_00>), а затем провести<lf>широкий размах (<ICON WP07 PL_ATTACK_00>).
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m318721248>
 <string><ICON WP07 PL_MOVE_FRONT><ICON PLUS><ICON WP07 PL_ATTACK_00>
-<string>Выпад с шагом вперёд.<lf><lf>После него можно провести удар сверху<lf>(<ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>), а затем перейти на шквальный<lf>огонь (<ICON WP07 PL_ATTACK_00>) или выполнить широкий<lf>размах (<ICON WP07 PL_ATTACK_01>).
+<string>Выпад с шагом вперёд.<lf><lf>После него можно провести удар сверху<lf>(<ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>), а затем перейти на шквальный<lf>огонь (<ICON WP07 PL_ATTACK_01>) или выполнить широкий<lf>размах <ICON WP07 PL_ATTACK_00>.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1347992960>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
@@ -722,7 +717,7 @@
 <string>Атака с применением драконьей пушки.<lf>Выстрелы поражают часть тела монстра<lf>несколько раз, а затем происходит<lf>взрыв, который наносит урон огнём<lf>и при этом пробивает шкуру монстра.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
-<string><ICON WP07 PL_ATTACK_01> (после широкого размаха)
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> (после широкого размаха)
 <string>Выстрел из драконьей пушки всеми<lf>оставшимися боеприпасами. Нажмите<lf><ICON WP07 PL_ATTACK_00> или <ICON WP07 PL_ATTACK_01> после первого мощного<lf>драконьего взрыва, чтобы запустить<lf>серию мощных драконьих взрывов.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_703375872>
@@ -770,7 +765,7 @@
 <string>Снаряды для драконьей пушки.<lf>Расходуются при каждом выстреле<lf>из драконьей пушки. Запас<lf>восполняется при перезарядке.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>Шкала для использования Пламени<lf>виверны. Заполняется, когда вы<lf>наносите монстру урон или блокируете<lf>его атаки. Можно заполнить не более<lf>двух фрагментов шкалы. Пламя виверны<lf>расходует один фрагмент.
+<string>Шкала, которую необходимо заполнять<lf>для применения пламени виверны. Эта<lf>мощная атака наносит урон огнём<lf>и может пробить шкуру монстра.<lf><lf>Шкала пламени виверны заполняется<lf>сама по себе, а также всякий раз,<lf>когда ваши атаки достигают цели. При<lf>полном заряде пламя виверны можно<lf>использовать дважды: на каждое<lf>применение расходуется<lf>только половина шкалы.
 <string>
 <string>Комбо с драконьей пушкой
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
@@ -818,20 +813,20 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 PL_ATTACK_01>
-<string>С помощью <ICON WP08 merge=""PL_ATTACK_01,REPEAT_ON""> можно непрерывно наносить<lf>неистовые удары в режиме топора.<lf>Выполнив этот удар не менее двух раз,<lf>вы сможете провести тяжёлый удар (<ICON WP08 PL_ATTACK_00>)<lf>в режиме топора и активировать силовой<lf>режим топора.<lf><lf>Нажмите <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, чтобы выполнить удар<lf>вперёд сверху. Эта атака позволит<lf>преодолеть большое расстояние.
+<string>С помощью <ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> можно непрерывно наносить<lf>неистовые удары в режиме топора.<lf>Выполнив этот удар не менее двух раз,<lf>вы сможете провести тяжёлый удар (<ICON WP08 PL_ATTACK_00>)<lf>в режиме топора и активировать силовой<lf>режим топора.<lf><lf>Нажмите <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, чтобы выполнить удар<lf>вперёд сверху. Эта атака позволит<lf>преодолеть большое расстояние.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Удар снизу, с помощью которого можно<lf>парировать атаки монстров. Если вы<lf>проведёте идеальное парирование,<lf>нажмите <ICON WP08 PL_ATTACK_00>, чтобы нанести ответный<lf>тяжёлый удар в режиме топора,<lf>или <ICON WP08 PL_ATTACK_SP> для применения добавочного<lf>метаморф-удара. При этом вы<lf>активируете силовой режим топора.
+<string>Удар снизу, с помощью которого можно<lf>парировать атаку монстра.<lf><lf>Если этим ударом вам удастся отбросить<lf>монстра, вы сможете нанести добавочный<lf>тяжёлый удар в режиме топора, нажав <ICON WP08 PL_ATTACK_00>,<lf>и перейти в силовой режим топора, или<lf>нанести добавочный метаморф-удар<lf>в режиме топора, нажав <ICON WP08 PL_ATTACK_SP>,<lf>и перейти в режим меча.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
-<string><ICON WP08 PL_ATTACK_00> (при успешном сбивающем ударе)
+<string><ICON WP08 PL_ATTACK_00> (после идеального парирования)
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1659893248>
-<string><ICON WP08 PL_ATTACK_SP> (при успешном сбивающем ударе)
+<string><ICON WP08 PL_ATTACK_SP> (после идеального парирования)
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1185187840>
 <string><ICON WP08 PL_MOVE_BACK><ICON PLUS><ICON WP08 PL_ATTACK_01> (при выполнении комбо)
@@ -843,7 +838,7 @@
 <string><INPUTMSG MsgGUI600200_01_021_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Режущий удар, который особенно<lf>эффективен при попадании по ранам.<lf>Задев рану монстра, вы нанесёте урон<lf>несколько раз и сможете применить<lf>тяжёлый удар в режиме топора.<lf>Нажмите <ICON WP08 PL_ATTACK_SP> между ударами, чтобы<lf>перевести оружие в режим меча и затем<lf>применить добивающий стихийный <lf>разряд.
+<string>Режущая атака, которая особенно<lf>эффективна при попадании по ранам.<lf><lf>Задев рану или уязвимое место монстра,<lf>вы нанесёте несколько ударов и сможете<lf>применить мощный добивающий удар<lf>топором. Вы также можете нажать <ICON WP08 PL_ATTACK_SP><lf>во время атаки, чтобы перевести оружие<lf>в режим меча и завершить комбинацию<lf>добивающим стихийным разрядом.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -854,27 +849,19 @@
 <string><INPUTMSG MsgGUI600200_01_022_01>
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>После двойного удара в режиме меча<lf>нажмите <ICON WP08 PL_ATTACK_01>, чтобы применить<lf>небесный шквал. Это позволит заполнить<lf>значительную часть шкалы пробуждения.
+<string>После двойного удара в режиме меча<lf>нажмите <ICON WP08 PL_ATTACK_01>, чтобы применить<lf>небесный шквал. Это позволит заполнить<lf>значительную часть шкалы мощности.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1381817088>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
-<string>Если выполнить этот приём в момент<lf>атаки монстра, он не сможет вас<lf>отбросить, а вы получите возможность<lf>атаковать два раза подряд и затем<lf>применить небесный шквал (<ICON WP08 PL_ATTACK_01>).
+<string>Если нанести восходящий контрудар<lf>в режиме меча точно в момент атаки<lf>монстра, он не сможет вас отбросить,<lf>а вы проведёте контратаку из двух<lf>ударов. Нажмите <ICON WP08 PL_ATTACK_01> сразу после<lf>контратаки, чтобы применить небесный<lf>шквал в режиме меча.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Нажмите <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> после стихийного разряда,<lf>чтобы выполнить добивающую атаку<lf>со взрывом. После взрыва оружие<lf>переключится в режим топора.
 <string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>В режиме повышенной мощности вы<lf>можете выполнить стихийный разряд <lf>не покидая седла.<lf>Вы можете совершить Добив. разряд<lf>с нулевой суммой, нажав <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> после того,<lf>как оседлали монстра. После <lf>добивающего удара, оружие вернётся<lf>в режим топора.
-<string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Мощная атака, доступная в режиме меча.<lf>Если выполнить её в режиме повышенной<lf>мощности, вдобавок к основному эффекту<lf>произойдёт взрыв, который нанесёт<lf>дополнительный урон. После этого<lf>оружие переключится в режим топора.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>Мощную атаку можно использовать только<lf>в режиме повышенной мощности.<lf>Нажмите <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> после стихийного разряда,<lf>чтобы совершить атаку. Эта<lf>атака вернёт вас в режим меча.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -882,7 +869,7 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Режущий удар, который особенно<lf>эффективен при попадании по ранам.<lf>Задев рану монстра, вы нанесёте урон<lf>несколько раз и сможете применить<lf>добивающий стихийный разряд.<lf>Нажмите <ICON WP08 PL_ATTACK_SP> между ударами, чтобы<lf>перевести оружие в режим топора<lf>и затем провести тяжёлый удар.
+<string>Режущая атака, которая особенно<lf>эффективна при попадании по ранам.<lf><lf>Задев рану или уязвимое место монстра,<lf>вы нанесёте несколько ударов и сможете<lf>применить мощный добивающий стихийный<lf>разряд. Вы также можете нажать <ICON WP08 PL_ATTACK_SP> во<lf>время атаки, чтобы перевести оружие<lf>в режим топора и завершить комбинацию<lf>мощным добивающим ударом топором.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -897,18 +884,18 @@
 <string>Повышает урон, наносимый в режиме<lf>топора, а также увеличивает объём<lf>заряда переключения, накапливаемый<lf>при каждой атаке.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1601592576>
-<string>Шкала пробуждения заполняется,<lf>когда ваши удары в режиме меча<lf>достигают цели.<lf><lf>Если заполнить её до предела, вы<lf>получите усиление.
+<string>Шкала мощности заполняется,<lf>когда ваши удары в режиме меча<lf>достигают цели.<lf><lf>Если заполнить её до предела, вы<lf>войдёте в режим повышенной<lf>мощности.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_132806840>
-<string>Ваши удары в режиме меча вызывают<lf>взрывы малой мощности. Тип урона,<lf>наносимого этими взрывами, зависит<lf>от выбранной склянки.
+<string>Ваши удары в режиме меча вызывают<lf>небольшие взрывы. Тип урона,<lf>наносимого этими взрывами, зависит<lf>от типа используемой склянки.
 <string>
 <string>Типы склянок
-<string>Атаки в режиме меча расходуют заряд<lf>переключения и имеют особый эффект,<lf>зависящий от выбранной склянки.<lf>Склянка силы — физический урон.<lf>Склянка стихий — стихийный урон.<lf>Склянка яда — отравление.<lf>Склянка паралича — паралич.<lf>Склянка дракона — драконья сила.<lf>Склянка ослабления — оглушение<lf>или ослабление.<lf>Скорость накопления заряда зависит<lf>от типа склянки.
+<string>Атаки в режиме меча расходуют шкалу<lf>переключения и имеют особый эффект,<lf>зависящий от типа склянки. Некоторые<lf>склянки заполняют шкалу пробуждения<lf>быстрее прочих.<lf><lf><COLOR preset="TXT_Accent">Склянка силы</COLOR> — физический урон.<lf><COLOR preset="TXT_Accent">Склянка стихий</COLOR> — стихийный урон.<lf><COLOR preset="TXT_Accent">Склянка яда</COLOR> — отравление.<lf><COLOR preset="TXT_Accent">Склянка паралича</COLOR> — паралич.<lf><COLOR preset="TXT_Accent">Склянка дракона</COLOR> — драконий урон.<lf><COLOR preset="TXT_Accent">Склянка усталости</COLOR> — оглушение/усталость.
 <string>
 <string>Комбо для заполнения шкалы переключения
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Базовое комбо для заполнения шкалы<lf>переключения в режиме топора. От<lf>него можно перейти к другому комбо,<lf>применив удар вперёд в режиме топора<lf>(<ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>) или удар вперёд сверху<lf>в режиме топора (<ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>).<lf><lf>Выберите подходящую атаку, учитывая<lf>расстояние, которое отделяет вас от цели.
+<string>Базовое комбо для заполнения шкалы<lf>переключения в режиме топора.<lf><lf>Нажмите <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>, чтобы начать комбо<lf>с удара вперёд, или <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, чтобы<lf>начать его с удара вперёд сверху.<lf><lf>Учитывайте, где находитесь, и выбирайте<lf>атаку исходя из расстояния до цели.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1338690432>
 <string><ICON WP08 PL_ATTACK_00>
@@ -916,7 +903,7 @@
 <string><REF ActionGuideDataNameText_Wp08_372106112>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
-<string>Комбо для перехода в режим меча (усил. топор)
+<string>Комбо для топора с переходом в режим меча
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
 <string>Комбо для переключения оружия<lf>в режим меча после активации<lf>режима усиления топора.
@@ -930,10 +917,10 @@
 <string><REF ActionGuideDataNameText_Wp08_m1178457984>
 <string><ICON WP08 PL_ATTACK_01>
 <string>
-<string>Комбо для заполн. шкалы пробуждения (меч)
+<string>Комбо для заполнения шкалы мощности в режим меча
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Комбо, которое поможет быстро заполнить<lf>шкалу пробуждения в режиме меча.
+<string>Комбо, которое поможет быстро заполнить<lf>шкалу мощности в режиме меча.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1737891328>
 <string><ICON WP08 PL_ATTACK_01>
@@ -966,7 +953,7 @@
 <string>Базовая атака, с которой можно начать<lf>комбо. Выполнив её, нажмите <ICON WP09 PL_ATTACK_00>, чтобы<lf>совершить возвратный удар, а затем<lf>снова <ICON WP09 PL_ATTACK_00> для применения кругового<lf>удара.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
-<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">★<ICON WP09 PL_ATTACK_01><ICON RELEASE>
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
 <string>Чтобы выполнить, нужно отпустить <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"><lf>в нужный момент.<lf>Если верно подгадать время не удастся,<lf>будет выполнен восходящий удар.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
@@ -1014,7 +1001,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>После применения мощного стихийного<lf>разряда можно перейти к другим атакам.<lf>Для использования добавочного мощного<lf>стихийного разряда нажмите <ICON WP09 PL_ATTACK_01>.<lf>Удерживайте <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> или <ICON WP09 PL_ATTACK_01> в силовом режиме<lf>топора, чтобы нанести урон многократно.<lf>Нажмите <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> повторно при активном<lf>стихийном усилении, чтобы применить<lf>сверхмощный стихийный разряд в режиме<lf>топора, или нажмите <ICON WP09 PL_ATTACK_SP> без стихийного<lf>усиления для стихийного кругового удара<lf>и активации стихийного усиления.
+<string><ICON WP09 PL_ATTACK_01> Топор: мощный стихийный разряд →<lf><ICON WP09 PL_ATTACK_01> Топор: добавочный мощный стихийный<lf>разряд<lf><lf>Удерживайте <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> или <ICON WP09 PL_ATTACK_01> в силовом<lf>режиме топора, чтобы нанести огромный<lf>урон множеством попаданий.<lf><lf>Нажмите <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (со стихийным усилением),<lf>чтобы выполнить сверхмощный стихийный<lf>разряд или <ICON WP09 PL_ATTACK_SP> (при подготовке мощного<lf>стихийного разряда), чтобы выполнить<lf>круговой режущий удар, который также<lf>активирует стихийное усиление.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
@@ -1028,7 +1015,7 @@
 <string>Переключение режима вашего оружия.<lf>Во время переключения вы будете<lf>автоматически блокировать щитом атаки<lf>с той стороны, в которую смотрите.
 <string>
 <string>Блокирующие атаки
-<string>Некоторые приёмы в режиме меча<lf>позволяют блокировать атаки. Если<lf>вести бой так, чтобы атаки монстра<lf>приходились по щиту, блок будет<lf>ставиться автоматически.<lf><lf>После успешного блока в режиме<lf>топора можно применить сверхмощный<lf>стихийный разряд, нажав <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.
+<string>Некоторые приёмы в режиме меча<lf>позволяют блокировать атаки. Если<lf>вести бой так, чтобы атаки монстра<lf>приходились по щиту, блок будет<lf>ставиться автоматически.<lf><lf>После успешного блока одной из<lf>этих атак в режиме меча, можно<lf>применить сверхмощный стихийный<lf>разряд, нажав <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (со стихийным<lf>усилением).
 <string>
 <string>Шкала усиления
 <string>Атаки с использованием меча позволяют<lf>накапливать энергию меча. Когда шкала<lf>окрашена жёлтым или красным, вы можете<lf>наполнять этой энергией склянки.<lf><lf>Если накопите слишком много энергии<lf>меча, ваше оружие будет отскакивать<lf>от шкуры монстров.
@@ -1040,10 +1027,10 @@
 <string>Эффекты склянок усиливают атаки мечом.<lf>Вы наносите повышенный урон, а ваше<lf>оружие больше не отскакивает<lf>от шкуры монстров.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m701543936>
-<string>Уменьшает расход склянок и позволяет<lf>наносить урон топором многократно —<lf>для этого нажимайте кнопку атаки.<lf>После идеального блока вы сможете<lf>выполнить зверский взмах топором,<lf>который ненадолго усилит ваши атаки.
+<string>Режим усиления топора снижает расход<lf>склянок и позволяет проводить мощные<lf>атаки из нескольких ударов.<lf><lf>Выполнив идеальный блок, вы можете<lf>провести зверский взмах топором,<lf>который временно усиливает атаки.
 <string>
 <string>Усиленная атака
-<string>При чрезмерном усилении стихийный<lf>штурм и усиленный двойной удар<lf>в режиме меча теряют эффективность.<lf>Однако они наносят большой урон, если<lf>выполнять их в нужный момент.
+<string>Усиленный двойной удар и стихийный<lf>штурм в режиме меча — мощные усиленные<lf>атаки, для которых необходимо выбрать<lf>правильный момент. Их нельзя выполнить<lf>при чрезмерном усилении, так что<lf>следите за тем, как долго вы<lf>усиливаете атаку.
 <string>
 <string>Склянки
 <string>Расходуются при применении стихийного<lf>разряда, взрываясь и нанося урон.<lf><lf>Склянка удара оглушает и ослабляет,<lf>а её взрыв пробивает шкуру монстра.<lf><lf>Склянка стихий усиливает стихийные<lf>свойства оружия и может нанести<lf>большой стихийный урон.
@@ -1064,7 +1051,7 @@
 <string>
 <string>Комбо со стихийным усилением
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
-<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">★<ICON WP09 PL_ATTACK_01><ICON RELEASE>
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
 <string>Комбо, которое позволяет использовать<lf>стихийное усиление со щитом.<lf><lf>Чтобы выполнить эту атаку, накопите<lf>заряд усиления при выполнении<lf>базового комбо.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
@@ -1124,11 +1111,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Вы оставляете метку для кинсекта.<lf><lf>Кинсект будет атаковать отмеченную<lf>часть тела, выбрасывая в воздух пыльцу.
+<string>Отметив цель, вы прикажете кинсекту<lf>атаковать определённую часть тела<lf>монстра.<lf><lf>Атакуя отмеченную цель, ваш кинсект<lf>создаёт облака пыльцы.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Вы оставляете метку для кинсекта.<lf>Это можно делать, находясь на<lf>значительном расстоянии от цели.<lf><lf>Кинсект будет атаковать отмеченную<lf>часть тела, выбрасывая в воздух пыльцу.
+<string>Издалека отметьте часть тела монстра.<lf><lf>Ваш кинсект будет атаковать её,<lf>создавая облака пыльцы.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
@@ -1149,7 +1136,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> (с красным экстрактом)
-<string>Усиливаемая атака с красным экстрактом.<lf>После усиления, используйте <ICON WP10 PL_ATTACK_01><ICON RELEASE>,<lf>стоя на земле, чтобы выполнить серию<lf>ударов, или находясь в воздухе, чтобы<lf>выполнить мощный выпад. Для сохранения усиления можно проводить другие атаки (<ICON WP10 PL_ATTACK_01><ICON RELEASE>).<lf>При наличии трёх экстрактов<lf>после усиленной атаки можно выполнить<lf>мощный добивающий удар (<ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>).<lf>В этом случае вы лишитесь усиления,<lf>но сможете проводить мощные атаки и<lf>собирать экстракты с помощью кинсекта.
+<string>Собрав красный экстракт, используйте<lf><ICON WP10 PL_ATTACK_01><ICON RELEASE> на земле (для нисходящего<lf>режущего удара) или в воздухе<lf>(для нисходящего выпада). Вы можете<lf>поддерживать усиление, совершая<lf>другие атаки, чтобы после них<lf>выполнить один из этих двух приёмов.<lf><lf>Нажмите <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (при трёх экстрактах)<lf>после нисходящего режущего удара или<lf>выпада, чтобы выполнить мощное<lf>добивание. Добивание расходует все три<lf>экстракта, но кинсект тут же восполнит<lf>запасы, собрав экстракт при добивании.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1170,7 +1157,7 @@
 <string>Вещество, извлекаемое из тела монстра.<lf>Существуют экстракты четырёх видов:<lf>красный, белый, оранжевый и зелёный.<lf>Цвет зависит от монстра и части тела.<lf><lf>Чтобы использовать собранный экстракт,<lf>нужно отозвать кинсекта. Экстракт<lf>каждого цвета даёт свой эффект.<lf>Применяя экстракты сразу нескольких<lf>цветов, можно получать другие эффекты.<lf>Через некоторое время действие<lf>экстрактов заканчивается.
 <string>
 <string>Эффекты насыщенного экстракта
-<string>Эффект экстракта зависит от его цвета.<lf>Сочетая экстракты разных цветов, вы<lf>можете получать другие эффекты.<lf>Красный экстракт позволяет использовать<lf>усиление (<ICON WP10 PL_ATTACK_01>). Белый повышает скорость<lf>движения и позволяет выше прыгать.<lf>Оранжевый даёт непоколебимость.<lf>Красный с белым повышают силу атаки.<lf>Белый с оранжевым укрепляют защиту.<lf>Красный с белым и оранжевым меняют<lf>принцип действия некоторых атак<lf>и повышают силу атаки ещё сильнее.
+<string>Эффект экстракта зависит от его цвета.<lf>Сочетая экстракты разных цветов, вы<lf>можете получать другие эффекты.<lf><lf><COLOR preset="TXT_Accent">Красный</COLOR> позволяет усиливать атаки (<ICON WP10 PL_ATTACK_01>).<lf><COLOR preset="TXT_Accent">Белый</COLOR> повышает скорость движения<lf>и высоту прыжков. <COLOR preset="TXT_Accent">Оранжевый</COLOR> защищает<lf>от отбрасывания (если оружие в руках).<lf><COLOR preset="TXT_Accent">Красный с белым</COLOR> увеличивает атаку.<lf><COLOR preset="TXT_Accent">Белый с оранжевым</COLOR> увеличивает защиту.<lf><COLOR preset="TXT_Accent">Красный с белым и оранжевым</COLOR> меняет<lf>некоторые атаки, защищает от давления<lf>ветра, сотрясения земли и рёва, а также<lf>дополнительно увеличивает атаку.
 <string>
 <string>Базовое комбо
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1186,13 +1173,13 @@
 <string><REF ActionGuideDataNameText_Wp10_2066406784>
 <string><ICON WP10 PL_ATTACK_01>
 <string>
-<string>Комбо с пыльцой
+<string>Комбо с пыльцой кинсекта
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
 <string>Комбо, во время которого вы<lf>устанавливаете метку, отдаёте кинсекту<lf>команду оставить в указанном месте<lf>облако пыльцы, а затем быстро<lf>выполняете уклонение, прежде чем<lf>происходит взрыв.<lf><lf>После этого можно совершить<lf>добавочную атаку.
 <string>
 <string>Прыжок назад с опорой
-<string><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1226,7 +1213,6 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN> Лёгкое лукорудие
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1289,7 +1275,7 @@
 <string><INPUTMSG MsgGUI600200_01_051>
 <string><INPUTMSG MsgGUI600200_01_044>
 <string><INPUTMSG MsgGUI600200_01_044_01>
-<string><REF ActionGuideDataNameText_Wp12_178259456>
+<string><REF ActionGuideDataNameText_Wp12_m349303168>
 <string><INPUTMSG MsgGUI600200_01_045>
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1896048256>
@@ -1319,7 +1305,7 @@
 <string>Особые снаряды, которые применяются<lf>для стрельбы в режиме воспламенения.<lf><lf>Для ведения огня используйте <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON">. Мощь<lf>выстрелов растёт с каждым попаданием.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
-<string>Особые снаряды, которые применяются<lf>для стрельбы в режиме воспламенения.<lf>Позволяют атаковать с ближней<lf>дистанции и парировать атаки монстров.<lf>Чтобы увеличить мощь выстрелов,<lf>удерживайте <ICON WP12 PL_ATTACK_00>.
+<string>Особые снаряды, которые применяются<lf>для стрельбы в режиме воспламенения.<lf><lf>Позволяют атаковать с ближней<lf>дистанции и парировать атаки монстров.<lf>Чтобы увеличить мощь выстрелов,<lf>удерживайте <ICON WP12 PL_ATTACK_00>.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
 <string>Если попасть в рану или уязвимое<lf>место монстра, произойдёт проникающий<lf>взрыв, который нанесёт монстру<lf>значительный урон.<lf><lf>Запас этих снарядов восполняется<lf>со временем.
@@ -1332,7 +1318,6 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>Серия быстрых выстрелов с широкой<lf>областью поражения. Эта атака не<lf>расходует выносливость.
 <string>
-<string><ICON WP_BOW> Лук
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string>Вы натягиваете тетиву и стреляете. Чем<lf>дольше вы удерживаете <ICON WP11 PL_ATTACK_SP>, тем выше<lf>уровень усиления. С уровнем усиления<lf>растёт наносимый урон и число<lf>выпускаемых стрел.<lf><lf>После атаки нажмите <ICON WP11 PL_ATTACK_01>, чтобы<lf>произвести мощный выстрел.
@@ -1356,7 +1341,7 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1370,13 +1355,13 @@
 <string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
 <string>Вы выпускаете сразу несколько стрел.<lf>Каждая из них может вызвать детонацию<lf>взрывных стрел и маячков.
 <string>
-<string>Выбор смазки
+<string>Выбор покрытия
 <string><INPUTMSG MsgGUI600200_01_033>
-<string>Выбор смазки для оружия.
+<string>Выбор покрытия для оружия.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_193855040>
 <string><ICON WP11 PL_ATTACK_00>
-<string>Покрыть оружие выбранной смазкой.<lf>Чтобы стереть смазку с оружия,<lf>нажмите <ICON WP11 PL_ATTACK_00>.
+<string>Нанести выбранное покрытие.<lf><lf>Чтобы стереть покрытие с оружия,<lf>откройте меню покрытий и нажмите <ICON WP11 PL_ATTACK_00>.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
@@ -1392,8 +1377,8 @@
 <string>Маячок и наводящаяся стрела
 <string>После установки маячка стрела<lf>будет наводиться на него,<lf>пока он не взорвётся.
 <string>
-<string>Типы смазки
-<string>На стрелы можно наносить смазки.<lf><lf>Силовая смазка повышает урон от стрел.<lf>Смазка ближнего боя уменьшает<lf>дальность полёта, но повышает урон.<lf>Смазка пронзания увеличивает дальность<lf>полёта и даёт эффект пронзания.<lf>Ядовитая смазка отравляет монстров.<lf>Парализующая смазка вызывает паралич.<lf>Усыпляющая смазка вызывает сон.<lf>Взрывная смазка даёт эффект взрыва.<lf>Ослабляющая смазка оглушает/ослабляет.
+<string>Типы покрытий
+<string>На стрелы можно наносить покрытия.<lf><lf>Силовое покрытие повышает урон от стрел.<lf>Покрытие ближнего боя уменьшает<lf>дальность полёта, но повышает урон.<lf>Пронзающее покрытие увеличивает дальность<lf>полёта и даёт эффект пронзания.<lf>Ядовитое покрытие отравляет монстров.<lf>Парализующее покрытие вызывает паралич.<lf>Усыпляющее покрытие вызывает сон.<lf>Взрывное покрытие даёт эффект взрыва.<lf>Покрытие усталости оглушает и изматывает.
 <string>
 <string>Комбо с пронзателем драконов
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1429,23 +1414,23 @@
 <string>Комбо, во время которого вы запускаете<lf>маячок при высоком уровне усиления,<lf>а затем совершаете мощный выстрел<lf>и мощный залп, сохраняя уровень<lf>усиления. После этого вы делаете<lf>усиливающий шаг в сторону одновременно<lf>с атакой монстра. В конце вы можете<lf>совершить выстрел в прыжке<lf>и разорвать дистанцию.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
-<string><ICON WP11 PL_ATTACK_01> (после усиленного выстрела)
+<string><ICON WP11 PL_ATTACK_01> (после заряженного выстрела)
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> (во время усиливающего шага в сторону)
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>Комбо с выстрелом по дуге
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_052>
-<string>Комбо, во время которого вы пускаете<lf>взрывные стрелы выстрелом по дуге,<lf>а затем делаете усиливающий<lf>шаг в сторону и выполняете атаку<lf>парящей ласточки, чтобы применить<lf>пронзатель драконов или полёт тысячи<lf>драконов и вызвать детонацию<lf>взрывных стрел.
+<string>Комбо, во время которого вы пускаете<lf>взрывные стрелы выстрелом по дуге,<lf>а затем делаете усиливающий<lf>шаг в сторону и выполняете выстрел<lf>парящей ласточки, чтобы применить<lf>пронзатель драконов или полёт тысячи<lf>драконов и вызвать детонацию<lf>взрывных стрел.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> (во время усиливающего шага в сторону)
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
 <string>
-<string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH>: Cамосовершенствование
+<string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Cамосовершенствование

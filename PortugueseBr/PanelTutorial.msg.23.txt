@@ -5,21 +5,21 @@
 <string>Foco de Câmera
 <string>Com <ICON PL_CAMERA_LOCK_CHANGE> você pode travar a mira num alvo<lf>e mantê-lo centralizado na tela,<lf>aguardando a chance de atacar.<lf>(O método pode ser alterado nas Opções.)
 <string><REF ActionGuideDataNameText_Wp07_m43537492>
-<string>Segure <ICON WP07 PL_ATTACK_01> e então solte para disparar<lf>um Morteiro Energizado que causa dano<lf>até mesmo nas partes duras de monstros.<lf>O número de acertos aumenta conforme<lf>o tempo de energização.
+<string>Segure <ICON WP07 PL_ATTACK_01> e então solte para disparar<lf>um <COLOR preset="TXT_Accent">Morteiro Energizado</COLOR>  que causa dano<lf>até mesmo nas partes duras de monstros.<lf>O número de acertos aumenta conforme<lf>o tempo de energização.
 <string><REF ActionGuideDataNameText_Wp12_903581824>
-<string>Use <ICON WP12 PL_ATTACK_01> para carregar a munição especial,<lf><COLOR preset="TXT_Accent">Ignição Corasserpe</COLOR>. Segure <ICON WP12 PL_ATTACK_SP> para<lf>consumir a energia acumulada ao longo do<lf>tempo e lançar uma rajada contínua de balas.
+<string>Use <ICON WP12 PL_ATTACK_01> para carregar a munição especial,<lf><COLOR preset="TXT_Accent">Ignição Corasserpe</COLOR>. Segure <ICON WP12 PL_ATTACK_SP> para<lf>consumir a energia acumulada ao longo<lf>do tempo e lançar uma rajada contínua<lf>de balas.
 <string><REF RefStatus_0008_004_01>
-<string>Com <ICON WP13 PL_ATTACK_01> você pode acumular energia para o<lf><COLOR preset="TXT_Accent">Modo de Disparo Rápido.</COLOR> Essa energia<lf>pode ser consumida segurando <ICON WP13 PL_ATTACK_SP> para<lf>disparar certas balas em um fluxo contínuo.
+<string>Com <ICON WP13 PL_ATTACK_01> você pode acumular energia para o<lf><COLOR preset="TXT_Accent">Modo de Disparo Rápido.</COLOR> Essa energia<lf>pode ser consumida segurando <ICON WP13 PL_ATTACK_SP> para<lf>disparar certas balas em um fluxo<lf>contínuo.
 <string>Cores da Barra Espiritual
-<string>Atingir com certos ataques, como o<lf>Corte Giratório Espiritual, faz com<lf>que a <COLOR reset="TXT_Accent">Barra Espiritual</COLOR> mude de cor,<lf>aumentando o poder dos seus ataques. 
+<string>Atingir com certos ataques, como o<lf>Corte Giratório Espiritual, faz com<lf>que a <COLOR preset="TXT_Accent">Barra Espiritual</COLOR> mude de cor,<lf>aumentando o poder dos seus ataques. 
 <string>Barra Espiritual Vermelha
 <string>Quando a Barra Espiritual fica vermelha, ela<lf>permanece maximizada e alguns ataques são<lf>fortalecidos.
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
-<string>É possível usar o poderoso ataque<lf><COLOR preset="TXT_Accent">Fogo de Serpe</COLOR> gastando um segmento<lf>da Barra de Serpe.<lf><lf>A barra se encherá ao atingir<lf>seus ataques e ao realizar bloqueios.
+<string>É possível usar o poderoso ataque<lf><COLOR preset="TXT_Accent">Fogo de Serpe</COLOR> gastando metade<lf>da Barra de Serpe.<lf>A barra se encherá ao atingir<lf>seus ataques e ao realizar bloqueios.
 <string>Ferimentos
 <string>Ataque a mesma parte do corpo de um monstro<lf>repetidamente para criar um <COLOR preset="TXT_Accent">ferimento</COLOR>.<lf>Use o <COLOR preset="TXT_Accent">Modo de Foco</COLOR> para mirar<lf>no ferimento e causar mais dano.
 <string>Sinalizador SOS
-<string>Após iniciar uma missão, você pode disparar<lf><COLOR preset="TXT_Accent">Sinalizadores SOS</COLOR> para pedir ajuda de outros<lf>jogadores. É possível formar grupos de até<lf>quatro pessoas.
+<string>Após iniciar uma missão, você pode disparar<lf><COLOR preset="TXT_Accent">Sinalizadores SOS</COLOR> para pedir ajuda de outros<lf>jogadores. Forme grupos de até quatro pessoas.
 <string>Caçadores de Suporte
 <string>Se nenhum jogador entrar após um tempo<lf>do disparo do Sinalizador SOS, um <COLOR preset="TXT_Accent">Caçador<lf>de Suporte</COLOR> controlado pelo jogo virá<lf>ao seu auxílio.
 <string>Caçadores de Suporte
@@ -27,44 +27,42 @@
 <string>Caçadores de Suporte
 <string>Para maiores detalhes dos Caçadores<lf>de Suporte que te acompanham, verifique<lf>as Informações de Caçador de Suporte<lf>no Menu Inicial.
 <string>Suprimentos
-<string>No início de cada missão, você recebe<lf>alguns <COLOR preset="TXT_Accent">itens gratuitos</COLOR> fornecidos pela<lf>Guilda. Aceite-os quando quiser com <ICON PL_ACCESS_ITEM_BAG>.<lf><COLOR preset="TXT_Accent">Suprimentos</COLOR> são adicionados de acordo<lf>com as condições de uma caçada.
-<string>Suprimentos (Apoio)
-<string>Alguns suprimentos são marcados como<lf>"Apoio". Estes itens só podem ser usados<lf>durante missões, e são removidos do seu<lf>inventário ao terminá-las.
-<string>Tentar Missões Novamente
-<string>Se falhar em uma caçada, como indicado<lf>no Guia de Progresso, tente a missão<lf>novamente.
-<string>Aceitando Serviços novamente
-<string>Você pode aceitar novamente um serviço<lf><COLOR preset="TXT_Accent">atacando o monstro-alvo</COLOR> no local ou<lf>acessando <COLOR preset="TXT_Accent">Serviços</COLOR> no Menu de Missões.
-<string>Tentar Missões Novamente
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_64>
+<string>Suprimentos Exclusivos de Missão
+<string>Itens incluídos como suprimentos de missão<lf>fazem parte de uma categoria específica<lf>de <COLOR preset="TXT_Accent">Suprimentos.</COLOR> Esses itens só podem<lf>ser usados durante missões e devem<lf>ser devolvidos quando a missão terminar.
+<string>Refazendo Serviços
+<string>Caso falhe em caçar um monstro no Guia<lf>de Progresso, você pode tentar a missão<lf>novamente aceitando o <COLOR preset="TXT_Accent">Serviço</COLOR> de novo.
+<string>Refazendo Serviços
 <string>Coma para aumentar seus status antes<lf>de tentar uma missão novamente, e quando<lf>a situação apertar, dispare um Sinalizador<lf>SOS para convidar outros jogadores<lf>e Caçadores de Suporte para te ajudarem.
 <string>Andando de Seikret
-<string>Use <ICON PL_PT_CALL> para montar em seu Seikret e<lf>se mover automaticamente até o objetivo.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_68>
 <string>Andando de Seikret
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_69>
 <string>Tenda
 <string>Você e seu Amigato precisam se preparar<lf>para a caçada. Use sua <COLOR preset="TXT_Accent">Tenda</COLOR> para mudar<lf>equipamentos e organizar a Bolsa de Itens.
-<string>Grelha
+<string>Churrasco
 <string>Selecione o Menu de Grelha em sua tenda<lf>ou em uma Grelha Portátil para<lf>preparar refeições com rações.
-<string>Grelha
+<string>Churrasco
 <string><COLOR preset="TXT_Accent">Refeições</COLOR> concedem aumentos temporários<lf>aos atributos como vida, vigor e poder<lf>de ataque. Os efeitos variam de acordo<lf>com os ingredientes utilizados.
 <string>Barras de Vida e Vigor
 <string>Vida: Você desmaia quando sua barra verde<lf>acaba. A missão falhará se você desmaiar<lf>muitas vezes.<lf>Vigor: É consumido com certas ações.<lf>Regenera automaticamente.
 <string>Alternar Arma
 <string>É possível equipar uma arma <COLOR preset="TXT_Accent">primária</COLOR> e uma<lf><COLOR preset="TXT_Accent">secundária</COLOR>. Vá até Mudar Equipamento para<lf>escolher as armas adequadas para o trabalho.
 <string>Alternar Arma
-<string>Pressione <ICON PL_WEAPON_CHANGE> para alternar para a arma<lf>secundária da bainha de sela do Seikret.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_89>
 <string>Transferir Itens
 <string>Coloque itens para caçadas na sua Bolsa<lf>de Itens. Você também pode repor seus<lf>itens automaticamente na Caixa de Itens<lf>usando <ICON UI_SUB_MENU> no Submenu.
 <string>Armazenar Materiais Automaticamente
 <string>Os materiais obtidos em caçadas são<lf>armazenados automaticamente na sua Caixa<lf>de Itens sempre que você acessa o Menu<lf>Acampamento.
-<string>Acampamentos Simples
-<string>Acampamentos Simples permitem gerenciar<lf>seus itens e equipamento, servem como<lf>destinos para viagem rápida e podem ser<lf>usados como ponto de retorno após desmaiar.
+<string>Instatendas
+<string>Instatendas permitem gerenciar<lf>seus itens e equipamento, servem como<lf>destinos para viagem rápida e podem ser<lf>usados como ponto de retorno após desmaiar.
 <string>Experimente pôr <COLOR preset="TXT_Accent">ingredientes adicionais</COLOR><lf>nos seus pratos. Eles aumentam e estendem<lf>a duração dos Efeitos de Refeição, além<lf>de ativarem <COLOR preset="TXT_Accent">Habilidades de Alimentos</COLOR>.
 <string>Ingredientes Adicionados
 <string>Além de ingredientes adicionais, você pode<lf>incluir <COLOR preset="TXT_Accent">toques finais</COLOR> a um prato, o que<lf>aumenta ainda mais os Efeitos de Refeição.
 <string>Toques Finais
 <string>Use a opção <COLOR preset="TXT_Accent">Churrasco</COLOR> na Grelha Portátil<lf>a qualquer momento para <COLOR preset="TXT_Accent">assar</COLOR> carne<lf>ou junte algumas rações para fazer<lf>uma refeição com a <COLOR preset="TXT_Accent">Grelha</COLOR>.
 <string><REF Item_IT_25>
-<string>Em um Acampamento Improvisado, você pode<lf>fazer preparativos básicos como repor<lf>itens ou mudar de equipamento.<lf><ICON UI_LIST_TRIGGER_L1>/<ICON UI_LIST_TRIGGER_R1>: Alternar Menu Acampamento
+<string>Em um Acampamento Improvisado, você pode<lf>fazer preparativos básicos como repor<lf>itens ou mudar de equipamento.<lf><ICON UI_LIST_TRIGGER_L1>/<ICON UI_LIST_TRIGGER_R1>: Alternar Menu do Acampamento
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_126
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_126
 <string>Balcão de Missões
@@ -98,9 +96,9 @@
 <string><REF Item_IT_195>
 <string>Item que pode ser disparado com a sua<lf>Atiradeira. Atinja um alvo e nunca mais<lf>perca a sua presa, mesmo em grupos.
 <string><REF MsgGUI030203_0000>
-<string>Defina tipos de armas e itens para caçadas<lf>específicas usando uma <COLOR preset="TXT_Accent">Configuração</COLOR> para<lf>recuperar e recarregar instantaneamente<lf>a sua bolsa de itens.
-<string>Conj. do Caçador
-<string>Use <COLOR preset="TXT_Accent">Ver Configuração</COLOR> para registrar<lf>itens, equipamentos e Menus Radiais<lf>em Configurações.
+<string>Após ajustar sua bolsa de itens de<lf>acordo com seu tipo de arma e objetivo<lf>de caçada, você pode registrá-la como<lf>uma <COLOR preset="TXT_Accent">Configuração</COLOR> para reabastecer sua<lf>bolsa de itens instantaneamente com os<lf>conteúdos registrados.
+<string>Configuração de Caçador
+<string>Use <COLOR preset="TXT_Accent">Ver Configuração</COLOR> para visualizar<lf>e registrar itens, equipamentos e<lf>Menus Radiais às Configurações<lf>ao mesmo tempo.
 <string>Churrasco
 <string>Observe a cor da carne enquanto cozinha<lf>e pressione <ICON UI_DECIDE>. Depois de assada, você<lf>pode fatiá-la! Use <ICON UI_DECIDE> no ritmo correto<lf>para aumentar o número de fatias.
 <string>Grelha
@@ -135,7 +133,7 @@
 <string>Elo de Ambiente
 <string>Elos de ambiente podem estar indisponíveis<lf>dependendo do seu progresso na história.<lf>Se for o caso, continue fazendo missões.
 <string>Toques de Berrante de Caça
-<string>Cada ataque do berrante de caça adiciona<lf>uma <COLOR preset="TXT_Accent">nota</COLOR> na partitura. Alinhe as notas<lf>correspondentes a uma <COLOR preset="TXT_Accent">melodia</COLOR> para<lf>armazená-la, depois execute <COLOR preset="TXT_Accent">Tocar</COLOR><lf>usando <ICON WP05 PL_ATTACK_SP> para ativar os efeitos.
+<string>Cada ataque do Berrante de Caça adiciona<lf>uma <COLOR preset="TXT_Accent">nota</COLOR> à partitura. Enfileire as notas<lf>correspondentes para armazenar uma<lf><COLOR preset="TXT_Accent">Melodia</COLOR>, depois execute <COLOR preset="TXT_Accent">Tocar</COLOR> usando<lf><ICON WP05 PL_ATTACK_SP> para ativar os efeitos.
 <string>Ferimentos
 <string>Ataque repetidamente a mesma parte<lf>do corpo de um monstro para causar um <COLOR preset="TXT_Accent">ferimento</COLOR>.<lf>Use o <COLOR preset="TXT_Accent">Modo de Foco</COLOR> para mirar<lf>no ferimento e causar mais dano.
 <string>Ataque Focal
@@ -195,9 +193,9 @@
 <string>Toque Especial
 <string>Após tocar Notas amarela + vermelha +<lf>amarela + branca, use <ICON WP05 PL_ATTACK_SP> + <ICON WP05 PL_ATTACK_00> + <ICON WP05 PL_ATTACK_01> para tocar<lf>um <COLOR preset="TXT_Accent">Toque Especial</COLOR> específico da arma.<lf>(Notas e efeitos variam para cada arma.)
 <string>Corte Ascendente Inibidor
-<string>Segure <ICON WP00 PL_ATTACK_00> + <ICON WP00 PL_ATTACK_01> para executar um Corte<lf>Ascendente Inibidor, capaz de inibir<lf>o ataque de um monstro. A janela de<lf>tempo é precisa, mas se você acertar,<lf>o monstro é empurrado!
+<string>Segure <ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01> e solte para energizar e<lf>executar um Corte Ascendente Inibidor,<lf>que pode inibir o ataque de um monstro.<lf>Ao soltar um Corte Ascendente Inibidor<lf>no momento exato em que um monstro<lf>ataca, é possível empurrar o monstro.
 <string>Corte Iai Espirit. após Embain. Especial
-<string>Realize um <COLOR preset="TXT_Accent">Embainhamento Especial</COLOR> após<lf>um ataque pressionando <ICON WP03 PL_ATTACK_SP> + <ICON WP03 PL_DODGE>. Com a arma<lf>embainhada, pressione <ICON WP03 PL_ATTACK_SP> no momento exato<lf>em que um monstro ataca para desferir um<lf>poderoso <COLOR preset="TXT_Accent">Corte Iai Espiritual</COLOR>.
+<string>Realize um <COLOR preset="TXT_Accent">Embainhamento Especial</COLOR> após<lf>um ataque pressionando <ICON WP03 PL_ATTACK_SP> + <ICON WP03 PL_DODGE>. Com a<lf>arma embainhada, pressione <ICON WP03 PL_ATTACK_SP> no<lf>momento exato em que um monstro ataca<lf>para desferir um poderoso <COLOR preset="TXT_Accent">Corte Iai<lf>Espiritual</COLOR>.
 <string>Corte de Contra-ataque após Bloq. Perf.
 <string>Bloqueie no momento exato em que um<lf>monstro ataca para realizar um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Pressione <ICON WP01 PL_ATTACK_00> após um Bloqueio<lf>Perfeito para desferir um poderoso Corte<lf>de Contra-ataque.
 <string>Esquiva Demoníaca e Estado de Evasão Demoníaca
@@ -205,7 +203,7 @@
 <string>Passo Energizado
 <string>Você pode se esquivar e se reposicionar<lf>sem perder seu nível de energização<lf>pressionando <ICON WP04 PL_ATTACK_01> enquanto energiza<lf>(segurando <ICON WP04 PL_ATTACK_SP>).
 <string>Bloqueio Perfeito
-<string>Bloqueie no momento exato em que um<lf>monstro ataca para realizar um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Pressione <ICON WP06 PL_ATTACK_00> + <ICON WP06 PL_ATTACK_01> após um<lf>Bloqueio Perfeito para desferir um<lf>poderoso ataque de sequência.
+<string>Bloqueie no momento exato em que um<lf>monstro ataca para realizar um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Pressione <ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> após um<lf>Bloqueio Perfeito para desferir um<lf>poderoso ataque de sequência.
 <string>Bloqueio Perfeito e Recarga
 <string>Use <ICON WP07 PL_ATTACK_SP> + <ICON WP07 PL_ATTACK_01> no momento exato em que um<lf>monstro ataca para <COLOR preset="TXT_Accent">Recarregar enquanto<lf>realiza um Bloqueio Perfeito</COLOR>. Caso seja<lf>bem-sucedido, você poderá realizar um<lf>ataque poderoso.
 <string>Alternar para Modo Espada
@@ -215,19 +213,19 @@
 <string>Machado: Corte Ascendente Inibidor
 <string>No Modo Machado, segure <ICON WP08 PL_ATTACK_00> + <ICON WP08 PL_ATTACK_01> para<lf>desferir <COLOR preset="TXT_Accent">Machado: Corte Ascendente<lf>Inibidor</COLOR>. Se conseguir inibir um ataque<lf>no momento exato, causa grande dano.
 <string>Espada: Contra-ataque de Corte Ascendente
-<string>No Modo Espada, pressione <ICON WP08 PL_ATTACK_SP> + <ICON WP08 PL_ATTACK_00> para<lf>desferir <COLOR preset="TXT_Accent">Espada: Contra-ataque de Corte<lf>Ascendente</COLOR>. Se bem-sucedido, você poderá<lf>realizar um Corte Duplo na sequência.
+<string>No Modo Espada, pressione <ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><lf>para desferir <COLOR preset="TXT_Accent">Espada: Contra-ataque de Corte<lf>Ascendente</COLOR>. Se bem-sucedido, você poderá<lf>realizar um Corte Duplo na sequência.
 <string>Energizar Frascos e Modo Espada
-<string>Ataque no Modo Espada para acumular<lf>Energia da Espada, e então pressione<lf><ICON WP09 PL_ATTACK_SP> + <ICON WP09 PL_ATTACK_01> para energizar seus frascos.<lf>(Frascos são aprimorados quando estão<lf>totalmente energizados.)
+<string>Ataque no Modo Espada para acumular<lf>Energia da Espada, e então pressione<lf><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01> para energizar seus frascos.<lf>(Frascos são aprimorados quando estão<lf>totalmente energizados.)
 <string>Energizar Frascos e Modo Machado
-<string>Com os frascos energizados, alterne para<lf>o <COLOR preset="TXT_Accent">Modo Machado</COLOR> usando <ICON WP09 PL_ATTACK_SP> + <ICON WP09 PL_ATTACK_00>, permitindo<lf>que realize ataques mais poderosos que<lf>consomem a energia de um frasco.
+<string>Com os frascos energizados, alterne para<lf>o <COLOR preset="TXT_Accent">Modo Machado</COLOR> usando <ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>, permitindo<lf>que realize ataques mais poderosos que<lf>consomem a energia de um frasco.
 <string>Bloqueio Perfeito
 <string>No Modo Espada, use <ICON WP09 PL_ATTACK_SP> no momento<lf>exato em que um monstro ataca para<lf>realizar um <COLOR preset="TXT_Accent">Bloqueio Perfeito</COLOR>.<lf>Use <ICON WP09 PL_ATTACK_00> logo depois para desferir<lf>a Machadada Selvagem.
-<string>Trabalho de Campo
+<string>Trabalhos de Campo
 <string>Inicie um <COLOR preset="TXT_Accent">Trabalho de Campo</COLOR> causando dano<lf>suficiente a um monstro ou selecionando-o<lf>a partir dos ícones no mapa.
-<string>Trabalho de Campo
+<string>Trabalhos de Campo
 <string>Trabalhos de Campo permitem que você<lf>desfrute da experiência de caça natural,<lf>iniciando uma missão no ambiente atual.<lf>Você também pode obter suprimentos<lf>e prêmios por completar a missão.
-<string>Trabalho de Campo
-<string>No entanto, dependendo do progresso ou<lf>circunstâncias de uma missão, nem sempre<lf>é possível iniciar <COLOR preset="TXT_Accent">Trabalhos de Campo</COLOR> de<lf>certos monstros.
+<string>Trabalhos de Campo
+<string>No entanto, dependendo do progresso ou<lf>condições de uma campanha, nem sempre<lf>é possível iniciar <COLOR preset="TXT_Accent">Trabalhos de Campo</COLOR> de<lf>certos monstros.
 <string>Grupo de Elo
 <string>Use o <COLOR preset="TXT_Accent">Grupo de Elo</COLOR> quando quiser jogar<lf>com seus amigos. Vocês podem se reunir<lf>facilmente, mesmo após se separarem<lf>temporariamente.
 <string>Convites de Grupo de Elo
@@ -239,7 +237,7 @@
 <string>Elo de Ambiente
 <string>Com um Grupo de Elo, você pode iniciar<lf>um <COLOR preset="TXT_Accent">Elo de Ambiente</COLOR>, que permite convidar<lf>membros para jogarem no seu ambiente,<lf>e realizarem investigações em conjunto.
 <string>Controles de Pesca
-<string><COLOR preset="TXT_Accent">Mirar: </COLOR><ICON PL_AIM><lf><COLOR preset="TXT_Accent">Lançar Linha: </COLOR><ICON PL_AIM> + <ICON PL_SLINGER_SHOOT>
+<string><COLOR preset="TXT_Accent">Mirar: </COLOR><ICON PL_AIM><lf><COLOR preset="TXT_Accent">Lançar Linha: </COLOR><ICON PL_AIM><ICON PLUS><ICON PL_FISHING_ACTION>
 <string>Controles de Pesca
 <string><COLOR preset="TXT_Accent">Puxada Rápida:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rápido<lf><COLOR preset="TXT_Accent">Puxada Lenta:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> devagar<lf><COLOR preset="TXT_Accent">Agitar Isca:</COLOR> incline <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
 <string>Controles de Pesca
@@ -251,11 +249,11 @@
 <string>Área de Treinamento
 <string>A Área de Treinamento na parte de trás<lf>do Acampamento é o melhor lugar para<lf>treinar com as armas. Ela pode ser acessada<lf>pela viagem rápida no mapa.
 <string>Área de Treinamento
-<string>Pratique seus movimentos de caça contra<lf>o Perfurador de Barril de Alta Performiauce.<lf>Também dê uma olhada no Guia de Jogo<lf>no Menu Inicial!
+<string>Pratique seus movimentos de caça contra<lf>o Barril Brigão de Alta Performiauce.<lf>Também dê uma olhada no Guia de Jogo<lf>no Menu Inicial!
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_306
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_306
-<string>Status de Envio de Amigato
-<string>Se você selecionar Aguardar, seu Amigato<lf>não participará da missão. Não se preocupe,<lf>seu Amigato continuará treinando enquanto<lf>espera!
+<string>Participação de Amigato
+<string>Seu confiável Amigato sempre estará ao<lf>seu lado na exploração. Mas, se você<lf>trocar seu estado de participação para<lf><BOLD>Aguardar</BOLD>, seu Amigato voltará à tenda<lf>no início das missões e esperará até que<lf>você termine o serviço.
 <string>Materiais de Talho
 <string>Pressione <ICON PL_POP> para <COLOR preset="TXT_Accent">talhar materiais</COLOR> de<lf>monstros caçados, e então use-os para<lf>forjar e melhorar equipamentos. Se sua arma<lf>estiver em mãos, embainhe-a com <ICON PL_WEAPON_OFF> antes.
 <string>Preparativos Fundamentais
@@ -273,17 +271,17 @@
 <string>Distância Crítica
 <string>Quando a mira se torna laranja, você está<lf>em Distância Crítica. Disparar desta<lf>distância causará dano máximo, então<lf>tente manter a mira no laranja enquanto<lf>se move e ataca.
 <string>Alternar Munição
-<string>A Distância Crítica varia de acordo com<lf>a munição. Mude a munição equipada usando<lf><ICON WP13 PL_ITEM_SLIDER_OPEN> + <ICON WP13 UI_BULLET_ITEM_UP> ou <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_323>
 <string>Distância Crítica
 <string>Quando a mira se torna laranja, você está<lf>em Distância Crítica. Disparar desta<lf>distância causará dano máximo, então<lf>tente manter a mira no laranja enquanto<lf>se move e ataca.
 <string>Alternar Munição
-<string>A distância ideal varia de acordo com<lf>a munição. Mude a munição equipada usando<lf><ICON WP12 PL_ITEM_SLIDER_OPEN> + <ICON WP12 UI_BULLET_ITEM_UP> ou <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_325>
 <string>Distância Crítica
 <string>Quando a mira se torna laranja, você<lf>está em Distância Crítica. Disparar<lf>desta distância causará dano máximo,<lf>então tente manter a mira no laranja<lf>enquanto se move e ataca.
 <string>Aplicar Revestimento
-<string>Aplique um revestimento com <ICON WP11 PL_ATTACK_00> para<lf>adicionar um efeito a uma flecha,<lf>e então Energize e consuma a Barra<lf>de Flecha Especial para dispará-la.
+<string>Aplique um revestimento usando <ICON WP11 PL_ATTACK_00> para<lf>adicionar um efeito a uma flecha, depois<lf>Energize (segure <ICON WP11 PL_ATTACK_SP>) para ativar o efeito,<lf>consumindo a Barra de Flecha Especial.
 <string>Selecionar Revestimento
-<string>Selecione um revestimento com <ICON WP11 PL_ITEM_SLIDER_OPEN> + <ICON WP11 UI_BULLET_ITEM_UP><lf>ou <ICON WP11 UI_BULLET_ITEM_DOWN>. (Os revestimentos compatíveis<lf>variam de acordo com a arma.)
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_328>
 <string>Rastreadora
 <string>Uma <COLOR preset="TXT_Accent">Rastreadora</COLOR> fica presa no lugar<lf>atingido para que as próximas flechas<lf>disparadas a rastreiem e acertem no<lf>mesmo ponto. Flechas que atingem uma<lf>Rastreadora causam dano adicional.
 <string>Rastreadora
@@ -291,87 +289,87 @@
 <string>Ignição Contrasserpe
 <string>Se a Ignição Contrasserpe explodir no exato<lf>momento de ataque do monstro, ela causa<lf>um dano altíssimo e o atordoa. Segure <ICON WP12 PL_ATTACK_00><lf>e espere o momento certo para disparar!
 <string>Bloqueio Perfeito
-<string>Ao bloquear (<ICON WP12 PL_ATTACK_00> + <ICON WP12 PL_ATTACK_01>) no momento exato em<lf>que sofre um ataque, realiza um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Caso seja bem-sucedido, você<lf>pode fazer um passo lateral com <ICON WP12 PL_DODGE>.
+<string>Ao bloquear (<ICON WP12 PL_ATTACK_00> + <ICON WP12 PL_ATTACK_01>) no momento exato<lf>em que sofre um ataque, realiza um <COLOR preset="TXT_Accent"><lf>Bloqueio Perfeito</COLOR>. Caso seja<lf>bem-sucedido, você pode fazer<lf>um passo lateral com <ICON WP12 PL_DODGE>.
 <string>Extrato Reforçado
 <string>Quando um ataque de <COLOR preset="TXT_Accent">Kinseto</COLOR> acerta um<lf>monstro, ele coleta <COLOR preset="TXT_Accent">Extrato Reforçado</COLOR>.<lf> (O tipo de Extrato varia de acordo com<lf>a parte do corpo.)
 <string>Extrato Reforçado
 <string>O caçador recebe melhorias temporárias<lf>com base na cor do Extrato. Coletar três<lf>cores aumenta o ataque e altera as ações.
 <string>Energizar
 <string>Você pode <COLOR preset="TXT_Accent">Energizar</COLOR> o Martelo segurando<lf><ICON WP04 PL_ATTACK_SP>. Ataques são fortalecidos com base no<lf>nível de energização, mas consomem Vigor<lf>para serem usados.
-<string>Aceitar Missões Secundárias
+<string>Aceitar Campanhas Secundárias
 <string>Agora você pode aceitar <COLOR preset="TXT_Accent">Missões<lf>Secundárias</COLOR> entre serviços da Guilda.<lf>Converse com as pessoas em cada região<lf>para ouvir seus pedidos.
-<string>Verificar Missões Secundárias
-<string>Você também pode conferir os pedidos<lf>no Mapa Detalhado. Confira as Missões<lf>Secundárias que aceitou em <COLOR preset="TXT_Accent">Informação<lf>de Missão</COLOR>, no Menu Inicial.
-<string>Desbloquear Equip. de Ranque Elevado
-<string>Agora você pode Forjar e Melhorar<lf><COLOR preset="TXT_Accent">Equipamentos de Ranque Elevado</COLOR>. Cace<lf>monstros em ambientes de ranque elevado<lf>para coletar novos materiais raros.
-<string>Desbloquear Equipamentos de Ranque Elevado
+<string>Verificar Campanhas Secundárias
+<string>Você também pode conferir os pedidos<lf>no Mapa Detalhado, e ver as Campanhas<lf>Secundárias que aceitou em <COLOR preset="TXT_Accent">Informação<lf>de Campanha</COLOR>, no Menu Inicial.
+<string>Equipmento de Ranque Elevado
+<string>Agora você pode forjar e melhorar<lf><COLOR preset="TXT_Accent">equipamentos de Ranque Elevado</COLOR>. Cace<lf>monstros em ambientes de ranque elevado<lf>para coletar novos materiais raros.
+<string>Equipmento de Ranque Elevado
 <string>Monstros em ambientes de ranque elevado<lf>têm o mesmo nome, mas são muito mais<lf>fortes, o que exige equipamentos melhores.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
-<string>Segure <ICON WP00 PL_ATTACK_00> + <ICON WP00 PL_ATTACK_01> para desferir um <COLOR preset="TXT_Accent">Corte<lf>Ascendente Inibidor</COLOR>. É difícil executar<lf>no momento ideal, mas atordoa o monstro<lf>se bem-sucedido.
+<string>Segure <ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01> e solte para energizar e<lf>executar um Corte Ascendente Inibidor,<lf>que pode inibir o ataque de um monstro.<lf>Ao soltar um Corte Ascendente Inibidor<lf>no momento exato em que um monstro<lf>ataca, é possível empurrar o monstro.
 <string>Diferentes Ações de Ataque
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Realize um <COLOR preset="TXT_Accent">Embainhamento Especial</COLOR> após<lf>um ataque pressionando <ICON WP03 PL_ATTACK_SP> + <ICON WP03 PL_DODGE>. Com a arma<lf>embainhada, pressione <ICON WP03 PL_ATTACK_SP> no momento exato<lf>em que um monstro ataca para desferir um<lf>poderoso <COLOR preset="TXT_Accent">Corte Iai Espiritual</COLOR>.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Bloqueie no momento exato em que um<lf>monstro ataca para realizar um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Pressione <ICON WP01 PL_ATTACK_00> após um Bloqueio<lf>Perfeito para desferir um poderoso Corte<lf>de Contra-ataque.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Você pode se esquivar mais rapidamente<lf>enquanto no Modo Demoníaco. Após uma<lf>Esquiva Perfeita, você automaticamente<lf>realiza um ataque e entra no <COLOR preset="TXT_Accent">Estado de<lf>Evasão Demoníaca</COLOR>, o que aprimora suas<lf>habilidades temporariamente.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Você pode se esquivar e se reposicionar<lf>sem perder seu nível de energização<lf>pressionando <ICON WP04 PL_ATTACK_01> enquanto energiza<lf>(segurando <ICON WP04 PL_ATTACK_SP>).
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Após tocar Notas amarela + vermelha +<lf>amarela + branca, use <ICON WP05 PL_ATTACK_SP> + <ICON WP05 PL_ATTACK_00> + <ICON WP05 PL_ATTACK_01> para tocar<lf>um <COLOR preset="TXT_Accent">Toque Especial</COLOR> específico da arma.<lf>(Notas e efeitos variam para cada arma.)
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
-<string>Bloqueie no momento exato em que um<lf>monstro ataca para realizar um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Pressione <ICON WP06 PL_ATTACK_00> + <ICON WP06 PL_ATTACK_01> após um<lf>Bloqueio Perfeito para desferir um<lf>poderoso ataque de sequência.
+<string>Bloqueie no momento exato em que um<lf>monstro ataca para realizar um <COLOR preset="TXT_Accent">Bloqueio<lf>Perfeito</COLOR>. Pressione <ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> após um<lf>Bloqueio Perfeito para desferir um<lf>poderoso ataque de sequência.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Use <ICON WP07 PL_ATTACK_SP> + <ICON WP07 PL_ATTACK_01> no momento exato em que um<lf>monstro ataca para <COLOR preset="TXT_Accent">Recarregar enquanto<lf>realiza um Bloqueio Perfeito</COLOR>. Caso seja<lf>bem-sucedido, você poderá realizar um<lf>ataque poderoso.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>No Modo Machado, segure <ICON WP08 PL_ATTACK_00> + <ICON WP08 PL_ATTACK_01> para<lf>desferir <COLOR preset="TXT_Accent">Machado: Corte Ascendente<lf>Inibidor</COLOR>. Se conseguir inibir um ataque<lf>no momento exato, causa grande dano.
 <string>Diferentes Ações de Ataque
-<string>No Modo Espada, pressione <ICON WP08 PL_ATTACK_SP> + <ICON WP08 PL_ATTACK_00> para<lf>desferir <COLOR preset="TXT_Accent">Espada: Contra-ataque de Corte<lf>Ascendente</COLOR>. Se bem-sucedido, você poderá<lf>realizar um Corte Duplo na sequência.
+<string>No Modo Espada, pressione <ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><lf>para desferir <COLOR preset="TXT_Accent">Espada: Contra-ataque de Corte<lf>Ascendente</COLOR>. Se bem-sucedido, você poderá<lf>realizar um Corte Duplo na sequência.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>No Modo Espada, use <ICON WP09 PL_ATTACK_SP> no momento<lf>exato em que um monstro ataca para<lf>realizar um <COLOR preset="TXT_Accent">Bloqueio Perfeito</COLOR>.<lf>Use <ICON WP09 PL_ATTACK_00> logo depois para desferir<lf>a Machadada Selvagem.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Após coletar um extrato vermelho, segure<lf><ICON WP10 PL_ATTACK_01> para realizar um <COLOR preset="TXT_Accent">Corte Descendente</COLOR>. Se<lf>coletar um extrato vermelho, um branco e<lf>um laranja, poderá desferir um ataque<lf>finalizador mais poderoso com <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
-<string>Use <ICON WP13 PL_ATTACK_00> + <ICON WP13 PL_ATTACK_01> para colocar uma Serpexplosão.<lf>Quando atacada por um caçador ou monstro,<lf>ela explode e causa dano ao monstro.
+<string>Use <ICON WP13 PL_ATTACK_00><ICON PLUS><ICON WP13 PL_ATTACK_01> para colocar uma Serpexplosão.<lf>Quando atacada por um caçador ou monstro,<lf>ela explode e causa dano ao monstro.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Use <ICON WP12 PL_ATTACK_01> para alternar para o Modo de<lf>Ignição, então segure <ICON WP12 PL_ATTACK_00> para preparar<lf>uma <COLOR preset="TXT_Accent">Ignição Contrasserpe</COLOR>. Se disparar<lf>no momento exato em que um monstro<lf>ataca, causa grande dano e o atordoa.
 <string>Infinidade de Ataques
-<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste alguns dos<lf>ataques na página anterior.
+<string>Cada arma possui vários outros ataques<lf>além dos apresentados. Teste movimentos<lf>diferentes, começando pelo tutorial na<lf>página anterior.
 <string>Infinidade de Ataques
 <string>Se disparar uma <COLOR preset="TXT_Accent">Rastreadora</COLOR> após<lf>carregá-la com <ICON WP11 PL_ATTACK_SP> (segure) + <ICON WP11 PL_ITEM>, a próxima<lf>flecha disparada seguirá a Rastreadora,<lf>acertando no mesmo local. Para carregar<lf>uma Rastreadora, é necessário ter Barra<lf>de Flecha Especial.
-<string>Aproveitando o multijogador
+<string>Aproveitando o Multijogador
 <string>Um Lobby foi aberto, permitindo jogar no<lf>Multijogador com outras pessoas. Consulte<lf>o Guia de Jogo para mais informações.
 <string>Lobbies e Multijogador
 <string>Nos Lobbies, você pode usar o Modo<lf>Multijogador e conversar com amigos<lf>ou outros jogadores que encontrar.
-<string>Registrando amigos
+<string>Registrando Amigos
 <string>Você pode adicionar amigos da Lista de<lf>Jogadores no Menu Inicial, em Membros<lf>do Lobby, ou pesquise um ID de Caçador.
 <string>Grupo de Elo e Multijogador
-<string>Se você formar um Grupo de Elo, poderá<lf>escolher certos membros para participar de<lf>missões no Modo Multijogador contínuo.
+<string>Forme um Grupo de Elo para explorar e<lf>cumprir missões em modo multijogador<lf>com um grupo fixo de membros.
 <string>Sinalizadores SOS e Multijogador
 <string>Você pode enviar um Sinalizador SOS e<lf>jogar com caçadores do mundo todo, tendo<lf>entrado em um Lobby ou não.
 <string>Como mudar de Lobby

@@ -9,7 +9,7 @@
 <string>{0} ha raggiunto<lf>il tuo collegamento ambiente.
 <string>Ora sei nel collegamento<lf>ambiente di {0}.
 <string>{0} ha lasciato<lf>il collegamento ambiente.
-<string>Sei di nuovo nel tuo ambiente.
+<string>Hai abbandonato il collegamento<lf>ambiente e sei tornato nel tuo ambiente.
 <string>Hai rifiutato l'invito al<lf>collegamento ambiente.
 <string>{0}<lf>non può unirsi al collegamento ambiente.
 <string>Hai rifiutato l'invito alla missione.
@@ -18,9 +18,9 @@
 <string>{0}<lf>ora partecipa alla missione.
 <string>Ora partecipi alla<lf>missione di {0}.
 <string>{0}<lf>ha abbandonato la missione.
-<string>{0} ha pubblicato<lf>una missione ed è in attesa.
-<string>Hai perso i sensi. Ricompense ridotte.<lf>(Tentativi rimasti: {0})
-<string>{1} ha perso i sensi. Ricompense ridotte.<lf>(Tentativi rimasti: {0})
+<string>{0} ha accettato<lf>una missione ed è in attesa.
+<string>Hai perso i sensi.<lf>(Tentativi rimasti: {0})
+<string>{1} ha perso i sensi.<lf>(Tentativi rimasti: {0})
 <string>Hai perso i sensi.<lf>Ricompense ridotte a zero.
 <string>{0} ha perso i sensi.<lf>Ricompense ridotte a zero.
 <string>Hai perso i sensi.
@@ -35,10 +35,10 @@
 <string>{0} ti ha inviato<lf>un invito alla missione.
 <string>Tempo restante: <PLURAL {0} "{0} minuto" "{0} minuti">.
 <string>Ricerca sul campo
-<string>Inizio di una ricerca sul campo per<lf>{0}.
+<string>Inizio di una ricerca sul campo<lf>per {0}.
 <string>Annulla
 <string>L'abilità <BOLD>{0}</BOLD><lf>è stata attivata.
-<string>L'effetto dell'abilità<lf>{0} è terminato.
+<string>L'effetto dell'abilità<lf><BOLD>{0}</BOLD> è terminato.
 <string>L'abilità cibo <BOLD>{0}</BOLD><lf>è stata attivata.
 <string>L'effetto dell'abilità cibo<lf><BOLD>{0}</BOLD> è terminato.
 <string>Razzo SOS inviato.
@@ -47,23 +47,23 @@
 <string>Il capogruppo ha annullato<lf>il razzo SOS.
 <string>La chat vocale è passata a<lf><REF RefNetwork_0004_02>.
 <string>La chat vocale è passata a<lf><REF RefNetwork_0004_01>.
-<string>Sbloccata una nuova missione.
+<string>Nuova missione sbloccata.
 <string>{0}<lf>è ora capogruppo.
-<string>Un altro giocatore è stato<lf>nominato capogruppo.
+<string>Ti hanno dato il ruolo di capogruppo.
 <string>{0} è a capo<lf>del gruppo di collegamento.
-<string>Un altro giocatore è stato nominato<lf>capo del gruppo di collegamento.
+<string>Ti hanno dato il ruolo di capo<lf>del gruppo di collegamento.
 <string>{0} ha ricevuto<lf>il controllo della stanza privata.
-<string>Un altro giocatore ha ricevuto<lf>il controllo della stanza privata.
-<string>Restituisci scorte.
+<string>Hai assunto il controllo<lf>della stanza privata.
+<string>Restituzione delle scorte.
 <string>Annuncio
-<string><PLURAL {0} "{0} notifica ricevuta" "{0} notifiche ricevute"> mentre eri online.
+<string><PLURAL {0} "{0} notifica ricevuta" "{0} notifiche ricevute"><lf>mentre eri offline.
 <string>Annuncio
 <string><PLURAL {0} "{0} notifica di invito ricevuta" "{0} notifiche di invito ricevute">.
 <string>Richieste di amicizia
-<string>Ricevuto una richiesta di amicizia<lf>da {0}.
+<string>Ricevuto una richiesta di amicizia<lf>cacciatore da {0}.
 <string>{0} ora è fra i tuoi amici.
-<string>I membri del collegamento ambiente<lf>stanno combattendo!
-<string>Inizio di una ricerca sul campo per<lf>{0}.
+<string>Attività collegamento ambiente
+<string>Inizio di una ricerca sul campo<lf>per {0}.
 <string>Annulla
 <string>Rifornimento oggetti scorta effettuato.<lf>(Controlla gli oggetti scorta con <INPUTMSG MsgGUI020100_0011>.)
 <string>Il cacciatore di supporto {0}<lf>ora partecipa alla missione.
@@ -74,8 +74,8 @@
 <string>Gli effetti del pasto sono terminati.
 <string>Missione fallita...
 <string>Inviti missione (ripresentati)
-<string>Ora puoi ricevere inviti missione da {0}.
-<string>Strumento base ottenuto<lf><COLOR preset="TXT_Accent">Strumenti di caccia</COLOR>
+<string>Ora puoi ricevere inviti<lf>missione da {0}.
+<string>Strumenti base ottenuti:<lf><COLOR preset="TXT_Accent">Strumenti da caccia</COLOR>.
 <string>Aggiornamento ambiente
 <string>Avvistamento di {0}!<lf>Luogo: {1}
 <string>Apri mappa
@@ -83,10 +83,7 @@
 <string>Più obiettivi disponibili per la<lf>creazione di una missione combinata!
 <string>Apri mappa
 <string>Aggiornamento ambiente
-<string>È apparso il superpredatore<lf>di questa regione, {0}!
-<string>Apri mappa
-<string>Aggiornamento ambiente
-<string>È apparso {0}.<lf>Ha più ricompense del solito!
+<string>È apparso {0}.<lf>È il superpredatore di questa regione!
 <string>Apri mappa
 <string>Ambiente
 <string>È apparso {0}!
@@ -103,28 +100,28 @@
 <string>Apri mappa
 <string>Il branco che include {0}<lf>ha abbandonato l'area...
 <string>Ambiente
-<string>Individuato un aumento di<lf>{0}!
+<string>Individuato un aumento<lf>di {0}!
 <string>Apri mappa
 <string>Ambiente
-<string>Individuato un aumento di<lf>{0}!
+<string>Individuata un'abbondanza<lf>di {0}!
 <string>Apri mappa
 <string>Hai perso {0}.
-<string>Richieste missione
-<string>Hai ricevuto una richiesta di<lf>partecipazione. Consultala per<lf>accettare o rifiutare.
+<string>Richieste di partecipazione
+<string>Hai ricevuto una richiesta di<lf>partecipazione. Consultala<lf>per accettare o rifiutare.
 <string>Hai lasciato la stanza.
 <string>Connessione persa.
 <string>Il proprietario ha rimosso la stanza.
-<string>{0} ti segue.
+<string>{0} ora ti segue.
 <string>Non ci sono oggetti scorta.
 <string>Ricerca sul campo abbandonata.
-<string>È stata raggiunta la capacità massima<lf>di oggetti scorta.<lf>Oggetti scorta in eccesso rimossi.
-<string>Hai ricevuto la benedizione<lf>dell'effetto melodia <BOLD>{0}</BOLD>
-<string>Effetto della melodia <BOLD>{0}</BOLD><lf>attivo!
-<string>L'effetto della melodia <lf>{0} <lf>è terminato.
-<string>L'effetto di {0}<lf>è terminato.
-<string>Ora si può utilizzare {0}.
-<string>L'effetto della bevanda fresca<lf>è terminato.
-<string>L'effetto della bevanda<lf>calda è terminato.
+<string>È stata raggiunta la capacità massima di<lf>oggetti scorta. Oggetti in eccesso rimossi.
+<string>Hai ricevuto i benefici del<lf>seguente effetto melodia:<lf><BOLD>{0}</BOLD>.
+<string>L'effetto della melodia<lf><BOLD>{0}</BOLD><lf>è attivo!
+<string>L'effetto della melodia <lf><BOLD>{0}</BOLD><lf>è terminato.
+<string>L'effetto del {0}<lf>è terminato.
+<string>Il {0} può essere<lf>utilizzato di nuovo.
+<string>L'effetto della bevanda fresca è terminato.
+<string>L'effetto della bevanda calda è terminato.
 <string>Impossibile selezionare come<lf>obiettivo missione.<lf>Apri la schermata partenza con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
 <string>{0} non può<lf>essere un obiettivo missione.
 <string>{0} non può<lf>essere un obiettivo missione.<lf>(GC troppo basso.)
@@ -137,9 +134,9 @@
 <string>Apri
 <string>La ricerca sul campo non può iniziare<lf>perché i membri del collegamento stanno<lf>vedendo i risultati della missione.
 <string>Impossibile cacciare {0} durante una<lf>missione con i tuoi progressi attuali.
-<string>L'effetto bolla di eco <lf>{0}<lf>è stato attivato.
+<string>Effetto bolla di eco attivato!<lf><BOLD>{0}</BOLD>
 <string>Aggiornamento ambiente
-<string>È apparso {0}!<lf>Ha ricompense extra rare!
+<string>È apparso {0}.<lf>Ha ricompense extra rare!
 <string>Apri mappa
 <string>Gruppo di collegamento sciolto<lf>perché c'è solo un membro.
 <string>Impossibile unirsi al collegamento<lf>ambiente di {0}.

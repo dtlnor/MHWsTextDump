@@ -13,7 +13,7 @@
 <string>Munition/Beschichtung wählen
 <string><INPUTMSG MsgGUI600200_00_004>
 <string>
-<string>Objekt wählen (in erweiterter Ansicht)
+<string>Objekt wählen (in ausgeklappter Ansicht)
 <string><INPUTMSG MsgGUI600200_00_005>
 <string><INPUTMSG MsgGUI600200_00_039>
 <string><INPUTMSG MsgGUI600200_00_039_01>
@@ -32,7 +32,7 @@
 <string>
 <string>Tortenmenü anzeigen (Tastatur)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
-<string><COLOR preset="TXT_Danger">Tortenmenü-Anzeige via Tastatur</COLOR><lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, um das angepasste<lf>Tortenmenü anzuzeigen.<lf>– <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> zeigt ein Menü an.<lf>– <ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> zeigt alle vier Menüs an.<lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_KEY_00>...<ICON MKB UI_PC_SHORTCUT_KEY_11>, um ein gewünschtes<lf>Objekt oder einen gewünschten Ausruf<lf>zu benutzen.<lf>Drücke <ICON MKB UI_PC_SHORTCUT_PALLET_00>...<ICON MKB UI_PC_SHORTCUT_PALLET_07>, um Menüs zu wechseln.<lf><lf>Tortenmenüs können unter „Tortenmenü<lf>anpassen“ im Hauptmenü bearbeitet<lf>werden.
+<string><COLOR preset="TXT_Danger">Tortenmenü-Anzeige via Tastatur</COLOR><lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, um das angepasste<lf>Tortenmenü anzuzeigen.<lf>– <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> zeigt ein Menü an.<lf>– <ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> zeigt alle vier Menüs an.<lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_KEY_00>...<ICON MKB UI_PC_SHORTCUT_KEY_11>, um ein gewünschtes<lf>Objekt oder einen gewünschten Ausruf<lf>zu benutzen.<lf>Drücke <ICON MKB UI_PC_SHORTCUT_PALLET_00>...<ICON MKB UI_PC_SHORTCUT_PALLET_07>, um Menüs zu wechseln.<lf><lf>Tortenmenüs können im Spielmenü<lf>unter „Tortenmenü anpassen“<lf>bearbeitet werden.
 <string>
 <string>Objekt, Ausruf usw. wählen (Tastatur)
 <string><ICON MKB UI_PC_SHORTCUT_KEY_00><ICON MKB UI_PC_SHORTCUT_KEY_01><ICON MKB UI_PC_SHORTCUT_KEY_02><ICON MKB UI_PC_SHORTCUT_KEY_03><ICON MKB UI_PC_SHORTCUT_KEY_04><ICON MKB UI_PC_SHORTCUT_KEY_05><ICON MKB UI_PC_SHORTCUT_KEY_06><ICON MKB UI_PC_SHORTCUT_KEY_07><ICON MKB UI_PC_SHORTCUT_KEY_08><ICON MKB UI_PC_SHORTCUT_KEY_09><ICON MKB UI_PC_SHORTCUT_KEY_10><ICON MKB UI_PC_SHORTCUT_KEY_11>
@@ -95,7 +95,7 @@
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
-<string><REF Item_IT_182>
+<string>Wurfmesser
 <string><REF Item_IT_EXP_182>
 <string>
 <string><REF Item_IT_18>
@@ -106,7 +106,7 @@
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
-<string>Ein von den Bewohnern Kunafas<lf>erhaltenes Reittier, das dank seiner<lf>beeindruckenden Wendigkeit schnell<lf>jedes Terrain durchqueren kann. Ist<lf>ein Wegpunkt auf der Karte markiert,<lf>kann ein Saikrii ihn dank seines starken<lf>Geruchsinns automatisch finden. Beim<lf>Reiten können die Schleuder und andere<lf>Objekte benutzt werden, wodurch du dich<lf>erholen, deine Waffe schärfen und Objekte<lf>sammeln kannst. Der Saikrii weicht manch-<lf>mal automatisch Monsterangriffen aus.
+<string>Ein von den Bewohnern Kunafas<lf>erhaltenes Reittier, das dank seiner<lf>beeindruckenden Wendigkeit schnell<lf>jedes Gelände durchqueren kann. Ist<lf>ein Wegpunkt auf der Karte markiert,<lf>kann ein Saikrii ihn dank seines starken<lf>Geruchsinns automatisch finden. Beim<lf>Reiten können die Schleuder und andere<lf>Objekte benutzt werden, wodurch du<lf>dich erholen, deine Waffe schärfen und<lf>Objekte sammeln kannst. Der Saikrii<lf>weicht manchmal automatisch Monster-<lf>angriffen aus.
 <string>
 <string><REF RefMenu_061> (Auto-bewegen)
 <string><INPUTMSG MsgGUI600200_00_011>
@@ -131,10 +131,10 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>Du kannst die Geschwindigkeit deines<lf>Saikrii erhöhen, indem du <ICON PL_PT_SPEED_UP> gedrückt<lf>hältst.<lf><lf>Nutze <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> oder <ICON PL_MOVE_RIGHT> während dein<lf>Saikrii rennt, um zu driften.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> beim Driften gibt deinem Saikrii<lf>einen Geschwindigkeitsboost.
+<string>Du kannst die Geschwindigkeit deines<lf>Saikrii erhöhen, indem du <ICON PL_PT_SPEED_UP> gedrückt<lf>hältst.<lf><lf>Nutze <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT> während dein<lf>Saikrii rennt, um zu driften.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> beim Driften gibt deinem Saikrii<lf>einen Geschwindigkeitsboost.
 <string>
 <string>Driften
-<string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> oder <ICON PL_MOVE_RIGHT>
+<string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>
 <string>
 <string>Driftsprint
 <string><ICON PL_PT_SPEED_DOWN><ICON RELEASE>
@@ -143,17 +143,17 @@
 <string><ICON PL_PT_DISMOUNT>
 <string><INPUTMSG MsgGUI600200_00_015>
 <string><INPUTMSG MsgGUI600200_00_015_01>
-<string>Auto-Bewegen
+<string>Auto-Bewegung
 <string><INPUTMSG MsgGUI600200_00_016>
 <string><INPUTMSG MsgGUI600200_00_017>
 <string><INPUTMSG MsgGUI600200_00_017_01>
-<string>Manuell bewegen
+<string>Manuelle Bewegung
 <string><INPUTMSG MsgGUI600200_00_018>
 <string><INPUTMSG MsgGUI600200_00_019>
 <string><INPUTMSG MsgGUI600200_00_019_01>
-<string>Reitangriff / Absteigen-Angriff
+<string>Reitangriff/Absteigen-Angriff
 <string><ICON ME PL_WEAPON_ON> oder <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
-<string>Hast du eine Nahkampfwaffe ausgerüstet,<lf>kannst du beim Reiten angreifen.<lf><lf><ICON ME PL_WEAPON_ON>: Angreifen, ohne abzusteigen.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: Vom Saikrii springen und<lf>angreifen.
+<string>Hast du eine Nahkampfwaffe ausge-<lf>rüstet, kannst du beim Reiten angreifen.<lf><lf><ICON ME PL_WEAPON_ON>: Angreifen, ohne abzusteigen.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: Vom Saikrii springen und<lf>angreifen.
 <string>
 <string>Waffe ziehen (Reiten)
 <string><INPUTMSG MsgGUI600200_00_033>
@@ -179,10 +179,7 @@
 <string>Erhöht Feuerwiderstand und verhindert<lf>Feuerpest.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Selbstverbesserung
-<string>Erhöht deine Bewegungsgeschwindigkeit.<lf><lf>Das Stapeln dieses Melodie-Effekts<lf>erhöht deinen Angriff und verhindert,<lf>dass deine Angriffe abgelenkt werden.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
-<string>
-<string><ICON ST_ARMOR> Rückschlag negiert
-<string>Verhindert, dass du durch Angriffe<lf>zurückgeworfen wirst.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>Erhöht deine Bewegungsgeschwin-<lf>digkeit.<lf><lf>Das Stapeln dieses Melodie-Effekts<lf>erhöht deinen Angriff und verhindert,<lf>dass deine Angriffe abgelenkt werden.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
 <string>
 <string><ICON ST_MEAL_UP> Mahleffekte
 <string>Zeigt an, dass bei dir Essens-Effekte<lf>wirken.<lf><lf>Hauptsächlich erhalten durch:<lf>– Essen
@@ -233,11 +230,11 @@
 <string>Waffe ziehen
 <string><ICON PL_WEAPON_ON>
 <string>
-<string>Einrichtung nutzen
+<string>Aktionen ausführen
 <string><INPUTMSG MsgGUI600200_00_042>
 <string>
 <string>Gezogene Waffe
-<string>Der Zustand, in dem du deine Waffe<lf>einsetzen kannst.<lf><lf>Drücke <ICON PL_WEAPON_OFF>, um deine Waffe<lf>wegzustecken.<lf><lf>Steuerungdetails für jede Waffe<lf>findest du hier:<lf>Startmenü > Tutorials und Tipps ><lf>Waffensteuerung
+<string>Der Zustand, in dem du deine Waffe<lf>einsetzen kannst.<lf><lf>Drücke <ICON PL_WEAPON_OFF>, um deine Waffe<lf>wegzustecken.<lf><lf>Steuerungsdetails für jede Waffe<lf>findest du im Spielmenü unter<lf>„Tutorials und Tipps“ > „Waffen-<lf>steuerung“.
 <string>
 <string>Waffe wegstecken
 <string><ICON PL_WEAPON_OFF>
@@ -246,7 +243,7 @@
 <string>Wenn du eine Nahkampfwaffe benutzt,<lf>wird ihre Schärfe von einer Anzeige<lf>dargestellt. Verschiedene Farben machen<lf>deutlich, wie scharf deine Waffe gerade<lf>ist und ob sie die Haut eines Monsters<lf>durchdringen kann.<lf><lf>Wenn du angreifst, wird die Schärfe<lf>der Waffe allmählich verringert.<lf>Stumpfe Waffenangriffe sind weniger<lf>effektiv und prallen wahrscheinlicher<lf>an der Haut eines Monsters ab.
 <string>
 <string><REF Item_IT_21>
-<string>Wetzsteine sind Objekte, die die ver-<lf>lorene Waffenschärfe wiederherstellen.<lf>Sie sind immer als Fixobjekte in deiner<lf>Objektleiste verfügbar.<lf><lf>Du kannst Wetzsteine auch dann nutzen,<lf>wenn deine Waffe gezogen ist. Du musst<lf>sie dazu nur einem Angepassten Torten-<lf>menü oder einem Kurzbefehl zuweisen.
+<string>Der Wetzstein ist ein Objekt, das die<lf>verlorene Waffenschärfe wiederher-<lf>stellen kann. Er ist als Fixobjekte<lf>immer in deiner Objektleiste verfügbar.<lf><lf>Du kannst den Wetzstein auch dann<lf>nutzen, wenn deine Waffe gezogen ist.<lf>Dazu musst du ihn einem Angepassten<lf>Tortenmenü oder einem Kurzbefehl<lf>zuweisen.
 <string>
 <string>Fokusmodus
 <string>Fokusmodus
@@ -254,7 +251,7 @@
 <string>
 <string>Fokusmodus
 <string><ICON ME PL_AIM> mit gezogener Waffe
-<string>Halte bei gezogener Waffe <ICON ME PL_AIM>, um den<lf>Fokusmodus zu nutzen.<lf><lf>Im Fokusmodus attackierst und blockst<lf>du in die Richtung, in die du mit der<lf>Kamera zielst. Manche Angriffe ändern<lf>sich, indem du nach oben zielst.<lf><lf>Mit <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> führst du einen Fokus-<lf>angriff aus. Triffst du eine Wunde oder<lf>einen Schwachpunkt des Monsters,<lf>lässt du einen zusätzlichen Spezial-<lf>angriff folgen, der enormen Schaden<lf>verursacht.
+<string>Nutze bei gezogener Waffe <ICON ME PL_AIM>, um in<lf>den Fokusmodus zu gehen.<lf><lf>Im Fokusmodus attackierst und blockst<lf>du in die Richtung, in die du mit der<lf>Kamera zielst. Manche Angriffe ändern<lf>sich, indem du nach oben zielst.<lf><lf>Mit <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> führst du einen Fokus-<lf>angriff aus. Triffst du eine Wunde oder<lf>einen Schwachpunkt des Monsters,<lf>lässt du einen zusätzlichen Spezial-<lf>angriff folgen, der enormen Schaden<lf>verursacht.
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -269,21 +266,21 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>Nach dem Blocken bestimmter Angriffe<lf>entsteht eine Balgerei zwischen dem<lf>Jäger und einem Monster.<lf><lf>Drücke <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, um das Monster zurückzu-<lf>drängen und aus dem Gleichgewicht zu<lf>bringen, damit du angreifen kannst.
+<string>Nach dem Blocken bestimmter Angriffe<lf>entsteht ein Nahkampf zwischen dem<lf>Jäger und einem Monster.<lf><lf>Drücke wiederholt <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, um das Monster<lf>zurückzudrängen und aus dem Gleich-<lf>gewicht zu bringen, damit du angreifen<lf>kannst.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>Du kannst einen Gegenstoß-Angriff<lf>auslösen, indem du Monsterangriffe<lf>mit bestimmten Angriffen abwehrst.<lf><lf>Nach einem Gegenstoß-Angriff kannst<lf>du mächtige Angriffe einsetzen.
+<string>Du kannst einen Gegenstoß-Angriff<lf>auslösen, indem du Monsterangriffe<lf>im richtigen Moment mit bestimmten<lf>Aktionen abwehrst und vielleicht<lf>zurückstößt.<lf><lf>Wenn dein Gegenstoß-Angriff ein<lf>Monster zurückstößt, kannst du<lf>mächtige Angriffe nachsetzen.
 <string>
 <string>Schleichangriff
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>Spezialwerkzeuge sind Ausrüstung mit<lf>mächtigen Fähigkeiten. Wie Fixobjekte<lf>können sie ausgerüstet und wieder<lf>entfernt werden, indem du <ICON PL_WP_ON_ACTIVE_SKILL><lf>drückst, sobald sie in der Objektleiste<lf>gewählt wurden. Sie können auch bei<lf>gezogener Waffe eingesetzt werden.<lf><lf>Spezialwerkzeuge können mehr als<lf>einmal benutzt werden, haben aber<lf>eine Abklingzeit. Andere Umhänge<lf>als der Ghillie-Mantel können über<lf>„Ausrüstung ändern“ ausgerüstet<lf>werden.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
-<string>Mit dem Ghillie-Mantel kannst du dich<lf>kurzzeitig vor Monstern verstecken.<lf>Angreifen oder Schaden erleiden<lf>beendet den Effekt sofort.<lf><lf>Anders als andere Spezialwerkzeuge<lf>ist der Ghillie-Mantel ein Fixobjekt,<lf>das du immer bei dir trägst.
+<string>Mit dem Ghillie-Mantel kannst du<lf>dich vorübergehend vor Monstern<lf>verstecken. Angreifen oder Schaden<lf>erleiden beendet den Effekt sofort.<lf><lf>Anders als andere Spezialwerkzeuge<lf>ist der Ghillie-Mantel ein Fixobjekt,<lf>das du immer bei dir trägst.
 <string>
 <string>Jagdtipps
 <string>Aufsteigen
@@ -303,7 +300,7 @@
 <string>
 <string>Reitangriff: <REF ActionGuideDataNameTextCommon_32227848>
 <string><INPUTMSG MsgGUI600200_00_038>
-<string>Angriffe mit deiner ausgerüsten Waffe<lf>können viel Schaden anrichten und<lf>Wunden verursachen, wenn du ein<lf>Monster bestiegen hast.<lf><lf>Greifst du eine Wunde an, löst dies<lf>einen Todesstoß aus, der für die<lf>ausgerüstete Waffe einzigartig ist.
+<string>Angriffe mit deiner ausgerüsteten<lf>Waffe können viel Schaden anrichten<lf>und Wunden verursachen, wenn du<lf>ein Monster bestiegen hast.<lf><lf>Greifst du eine Wunde an, löst dies<lf>einen Todesstoß aus, der für jede<lf>Waffe einzigartig ist.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m594861568>
 <string><INPUTMSG MsgGUI600200_00_027>
@@ -318,22 +315,22 @@
 <string>Absteigen ermöglicht es dir, früh-<lf>zeitig von einem bestiegenen Monster<lf>abzuspringen.
 <string>
 <string><REF RefStatus_0008_002_02>
-<string>Gift hat zur Folge, dass ein Monster<lf>stetig Gesundheit verliert. Du kannst<lf>bei einem Monster Gift auslosen, indem<lf>du Giftangriffe ausführst, die seine<lf>anfängliche Widerstandskraft langsam<lf>abbauen. Der zugefügte Schaden und<lf>die Dauer des Effekts sind bei jedem<lf>Monster unterschiedlich. Die Wider-<lf>standsschwelle eines Monsters erhöht<lf>sich mit jeder Vergiftung, wodurch es<lf>immer schwieriger wird, das Monster<lf>zu vergiften.
+<string>Gift hat zur Folge, dass ein Monster<lf>allmählich Gesundheit verliert.<lf>Du kannst bei einem Monster Gift aus-<lf>lösen, indem du mit einer bestimmten<lf>Anzahl an Giftangriffen triffst.<lf>Der zugefügte Schaden und die Dauer<lf>des Effekts sind bei jedem Monster<lf>unterschiedlich. Die Widerstands-<lf>schwelle eines Monsters erhöht sich<lf>mit jeder Vergiftung, wodurch es<lf>immer schwieriger wird, das Monster<lf>zu vergiften.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string>Lähmung verhindert vorübergehend,<lf>dass ein Monster sich bewegen kann.<lf>Du kannst ein Monster lähmen, indem du<lf>ihm lähmende Angriffe verabreichst, die<lf>seinen anfänglichen Widerstand langsam<lf>abbauen.<lf>Ein Monster baut Widerstand auf, wenn<lf>es zu oft von Lähmung betroffen ist,<lf>wodurch auch die Dauer des Effekts<lf>verkürzt wird.
+<string>Lähmung macht Monster vorübergehend<lf>bewegungsunfähig. Du kannst bei einem<lf>Monster Lähmung auslösen, indem du es<lf>mit einer bestimmten Anzahl an Lähman-<lf>griffen triffst. Die Widerstandsschwelle<lf>eines Monsters erhöht sich jedes Mal<lf>nach Ausbruch des Status, wodurch sich<lf>auch die Effektdauer verringert.
 <string>
 <string>Schlaf
-<string>Ist ein Monster von Schlaf betroffen,<lf>kann es sich eine Weile nicht bewegen.<lf>Du kannst ein Monster in Schlaf ver-<lf>setzen, indem du ihm Schlafschaden<lf>zufügst, der seinen anfänglichen<lf>Widerstand langsam abbaut.<lf>Ein Monster baut Widerstand auf, wenn<lf>es zu oft von Schlaf betroffen ist,<lf>wodurch auch die Dauer des Effekts<lf>verkürzt wird.
+<string>Schlaf macht Monster vorübergehend<lf>bewegungsunfähig. Der erste Angriff<lf>auf ein schlafendes Monster verursacht<lf>erhöhten Schaden. Du kannst ein Monster<lf>zum Einschlafen bringen, indem du es mit<lf>einer bestimmten Anzahl an Schlafan-<lf>griffen triffst. Die Widerstandsschwelle<lf>eines Monsters erhöht sich jedes Mal<lf>nach Ausbruch des Status, wodurch sich<lf>auch die Effektdauer verringert.
 <string>
 <string>Betäubung
-<string>Betäubte Monster sind vorübergehend<lf>bewegungsunfähig. Du kannst ein<lf>Monster betäuben, indem du stumpfen<lf>Schaden an bestimmten Körperteilen<lf>wie dem Kopf verursachst. Ein Monster<lf>baut Widerstand auf, wenn es zu oft<lf>betroffen ist, wodurch sich die Dauer<lf>des Effekts verkürzt.
+<string>Betäubung macht Monster vorübergehend<lf>bewegungsunfähig. Du kannst ein Monster<lf>betäuben, indem du stumpfen Schaden an<lf>bestimmten Körperteilen des Monsters<lf>(z. B. dem Kopf) verursachst. Die Wider-<lf>standsschwelle eines Monsters erhöht<lf>sich jedes Mal nach Ausbruch des Status,<lf>wodurch sich auch die Effektdauer ver-<lf>ringert.
 <string>
-<string>Zurückschrecken
-<string>Wenn Monster verängstigt sind,<lf>schrecken sie zurück, wodurch auch<lf>ihre Ausdauer sinkt. Du kannst ein<lf>Monster zum Zurückschrecken<lf>bringen, indem du ihm wiederholt<lf>stumpfen Schaden zufügst.
+<string>Ermüdung
+<string>Wenn die Ausdauer eines Monsters<lf>sinkt, ermüdet es. Dieser Status<lf>kann durch wiederholten, stumpfen<lf>Schaden erzwungen werden.
 <string>
 <string>Schallpest
-<string>Der erschreckte Zustand eines Monsters<lf>nach einem lauten Geräusch.<lf>Triff bestimmte Monster mit einer <lf>Schreikapseln während spezifischer<lf>Aktionen, beispielsweise wenn sie <lf>sich im Sand vergraben haben.<lf>Ein Monster baut Widerstand auf,<lf>wenn es zu oft betroffen ist, wodurch<lf>sich die Dauer des Effekts verkürzt.
+<string>Der erschreckte Zustand eines Monsters<lf>nach einem lauten Geräusch.<lf>Triff bestimmte Monster während<lf>spezifischer Aktionen, beispielsweise<lf>wenn sie sich im Sand vergraben haben.<lf>Ein Monster baut Widerstand auf,<lf>wenn es zu oft betroffen ist, wodurch<lf>sich die Dauer des Effekts verkürzt.
 <string>
 <string>Blitzblende
 <string>Ein Zustand, in dem ein Monster<lf>geblendet wurde und keine Beute<lf>fangen kann. Du kannst Monster mit<lf>Blitzkapseln und Blitzfliegen blenden.<lf>Ein Monster wird resistent, wenn es<lf>zu oft betroffen ist, wodurch die<lf>Dauer des Effekts immer kürzer wird.
@@ -342,7 +339,7 @@
 <string>Ein Status, bei dem ein Monster von<lf>einer stinkenden Flüssigkeit überzogen<lf>ist. Du kannst ihn mithilfe einer Dung-<lf>kapsel auslösen. Netter Nebeneffekt:<lf>Niemand mag Stinker, deshalb rennen<lf>alle weg...
 <string>
 <string>Monster-Schwachpunkte
-<string>Ein Monster enthüllt seinen Schwach-<lf>punkt vor oder nach einem seiner<lf>Angriffe. Du kannst sie im Fokusmodus<lf>ganz einfach finden.<lf><lf>Fokusangriffe auf einen Schwachpunkt<lf>ermöglichen weitere Angriffe.
+<string>Ein Monster enthüllt seinen Schwach-<lf>punkt vor oder nach einem seiner<lf>Angriffe. Du kannst sie im Fokusmodus<lf>ganz einfach finden.<lf><lf>Ein Fokusangriff auf einen Schwach-<lf>punkt schafft die Gelegenheit für<lf>weitere Angriffe.
 <string>
 <string>Wunden
 <string>Indem du dieselbe Stelle immer wieder<lf>angreifst, öffnest du eine Wunde.<lf>Wunden haben drei Stufen: ein Riss,<lf>nach weiteren Angriffen eine offene<lf>Wunde, dann eine Narbe, nachdem die<lf>Wunde maximiert wurde.<lf><lf>Angriffe auf eine Wunde erhöhen den<lf>Schaden, ein Fokusangriff maximiert<lf>die Wunde mit einem Treffer.

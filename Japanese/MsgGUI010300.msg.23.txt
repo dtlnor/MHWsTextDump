@@ -2,7 +2,7 @@
 <string>ハンターの名前を入力します。<lf><lf><COLOR preset="TXT_Accent">表示可能な文字数は全角１０文字相当までです。</COLOR>
 <string>{0}<lf>これでよろしいですか？
 <string>オトモアイルーの名前を入力します。<lf><lf><COLOR preset="TXT_Accent">表示可能な文字数は全角１０文字相当までです。</COLOR>
-<string>チュートリアルの表示レベルを選択してください。<lf>（この設定はオプションからいつでも変更できます）<lf><lf>　<COLOR preset="TXT_Accent">基礎から表示</COLOR>：ゲームの基礎から学びたい方におすすめ<lf><COLOR preset="TXT_Accent">経験者向け表示</COLOR>：シリーズ経験者の方におすすめ
+<string>チュートリアルの表示レベルを選択してください。<lf>（この設定はオプションからいつでも変更できます）<lf><lf><LEFT>　　<COLOR preset="TXT_Accent">基礎から表示</COLOR>：ゲームの基礎から学びたい方におすすめ</LEFT><lf><LEFT>　<COLOR preset="TXT_Accent">経験者向け表示</COLOR>：シリーズ経験者の方におすすめ</LEFT>
 <string>基礎から表示
 <string>経験者向け表示
 <string>一部のチュートリアルについて、<lf>繰り返し表示の有無を選択してください。<lf><lf>（この設定はスタートメニューの　<lf>　オプションからいつでも変更できます）
@@ -230,7 +230,7 @@
 <string>モデルプリセット
 <string>（詳細設定）
 <string>アイルー語を使用する
-<string>他ユーザーも含めたオトモアイルーのボイスがすべてアイルー語になります。（この設定はオプションでも変更可能です）
+<string>自身のオトモを含め、アイルーのボイスをすべてアイルー語で発します。<COLOR preset="TXT_Accent">（この設定はオプションでも変更可能です）</COLOR>
 <string>ボイス
 <string>ボイス音程
 <string>音程を変更することで聞き取りにくくなる場合があります。
@@ -348,8 +348,8 @@
 <string>ダメージ
 <string>オトモアイルーの表情サンプル
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> ライト回転操作
-<string><ICON UI_LIST_TRIGGER_L2> or <ICON UI_LIST_TRIGGER_R2> ライト回転操作
+<string><ICON PAD PL_DUMMY_MOVE> ライト回転操作
+<string><ICON MKB UI_LIST_TRIGGER_L2> or <ICON MKB UI_LIST_TRIGGER_R2> ライト回転操作
 <string>UIの表示OFF
 <string>レシピ：ハンター
 <string>レシピ：オトモアイルー
@@ -380,7 +380,7 @@
 <string>名前を変更できます。
 <string>オトモアイルーの名前を変更します。<lf><COLOR preset="TXT_Accent">一部のコンテンツでは、変更内容が反映されるまで<lf>時間がかかったり、変更が反映されない場合があります。</COLOR>
 <string>編集内容をすべて破棄して終了します。<lf>よろしいですか？<lf><COLOR preset="TXT_Accent">（オトモの身だしなみチケットは消費されません）</COLOR>
-<string>変更を反映します。<lf>よろしいですか？<lf><COLOR preset="TXT_Accent">（通常の身だしなみ変更範囲内のため、<lf>　狩人の身だしなみチケットは消費されません）</COLOR>
+<string>変更を反映します。<lf>よろしいですか？<lf><COLOR preset="TXT_Accent">（通常の身だしなみ変更範囲内のため、<lf>　オトモの身だしなみチケットは消費されません）</COLOR>
 <string>変更を反映します。<lf>よろしいですか？<lf><COLOR preset="TXT_Accent">（オトモの身だしなみチケットを１枚消費します）</COLOR>
 <string>オトモアイルーの編集を終了します。
 <string>顔のおまかせ生成

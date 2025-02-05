@@ -4,9 +4,9 @@
 <string><REF MsgGUI600000_Tips_EXP_1095772160>
 <string>Saikrii-Geschwindigkeit
 <string><ICON PL_PT_SPEED_UP>: Beschleunigen<lf><ICON PL_PT_SPEED_DOWN>: Abbremsen
-<string>Kamerafokus
-<string>Halte mit <ICON PL_CAMERA_LOCK_CHANGE> ein Monster im Blick.<lf>Fokus-Einstellungen können in den<lf>Optionen angepasst werden.
-<string>Elanbalken
+<string>Monster ins Visier nehmen
+<string>Halte mit <ICON PL_CAMERA_LOCK_CHANGE> dein Ziel im Blick.<lf>Einstellungen zur Zielkamera können in<lf>den Optionen vorgenommen werden.
+<string>Der Elanbalken
 <string>Der Elanbalken füllt sich mit jedem<lf>Treffer, wodurch du mächtige Elan-<lf>klingenangriffe ausführen kannst.
 <string><REF ActionGuideDataNameText_Wp07_1069952960>
 <string>Drücke <ICON PL_ATTACK_SP><ICON PLUS><ICON PL_ATTACK_01>, um nachzuladen.<lf>Du kannst keine Patronen abfeuern,<lf>wenn deine Munition leer ist.
@@ -15,7 +15,7 @@
 <string>Schnellfeuer-Modus
 <string>Schnellfeuer verbraucht Energie, damit<lf>du in kurzer Zeit viele Schüsse abgeben<lf>kannst.
 <string>Elanbalken-Farben
-<string>Treffer mit Spezialangriffen wie dem Elan-<lf>Rundhieb erhöhen die Farbe des Elan-<lf>balkens und verbessern die Angriffskraft.
+<string>Treffer mit Spezialangriffen wie dem Elan-<lf>Rundhieb ändern die Farbe des Elan-<lf>balkens und verbessern die Angriffskraft.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -40,21 +40,21 @@
 <string>In der Natur gibt es viele einheimische<lf>Wesen, deren besondere Effekte sich<lf>auf allerlei Weisen nutzen lassen.
 <string>Zerlegen
 <string>Drücke <ICON PL_POP> neben einem erlegten Monster,<lf>um es für Materialien zu zerlegen.
-<string>Wegstecken, dann verfolgen!
-<string>Wenn du ein Monster verfolgst, solltest<lf>du deine Waffe zuerst mit <ICON PL_WEAPON_OFF> wegstecken<lf>und dann mit <ICON PL_DASH> sprinten.
+<string>Monster effektiv verfolgen
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>Objekte auffüllen
-<string>Fällst du in Ohnmacht, erhältst du<lf>neue Vorratsobjekte.<lf>Öffne mit <ICON PL_ACCESS_ITEM_BAG> deine Saikriitasche.
-<string>Monster genau beobachten
+<string><REF MsgGUI600000_Tips_EXP_40>
+<string>Dein Ziel beobachten
 <string>Achte genau auf die Bewegungen eines<lf>Monsters, um dessen Verhalten zu lernen<lf>und zu erkennen, wann es angreifen wird.
 <string>Monster fesseln
 <string>Verwende Fallen, um geschwächte Monster<lf>zu fesseln und einzufangen.
-<string>Schalte Monster mit Beruhigungsbomben aus
-<string>Verwende mehrere Beruhigungsbomben, um<lf>ein Monster, das in einer Falle sitzt,<lf>einzufangen.
+<string>Beruhigungsbomben
+<string>Verwende mehrere Beruhigungsbomben,<lf>um ein Monster, das in einer Falle sitzt,<lf>einzufangen.
 <string>Zusammenarbeit mit Hilfsjägern
 <string>Ein Hilfsjäger ist der Jagd beigetreten.<lf>Arbeitet zusammen für eine erfolgreiche<lf>Jagd!
 <string>Spähkäfer
 <string>Spähkäfer helfen dir, dein Ziel zu finden.<lf>Außerdem heben sie Objekte hervor, mit<lf>denen du interagieren kannst.
-<string>Am Boden und Angriff!
+<string>Gelegenheiten schaffen
 <string>Wenn ein Monster umgeworfen wurde,<lf>nutze die Gelegenheit, um deine<lf>stärksten Angriffe zu entfesseln!
 <string>Angriffen ausweichen
 <string>Weiche aus, um Schaden zu vermeiden.<lf>Ausweichen erfordert Ausdauer –<lf>achte auf deinen Ausdauerbalken!
@@ -62,52 +62,48 @@
 <string>Nahkampfwaffen verlieren an Schärfe,<lf>wenn du Treffer landest. Nutze einen<lf>Wetzstein, um sie wiederherzustellen.
 <string>Ausdauer wiederherstellen
 <string>Deine maximale Ausdauer verringert sich<lf>mit der Zeit. Mit Rationen kannst du sie<lf>wiederherstellen.
-<string>Die Verfolgung aufnehmen!
+<string>Monster verfolgen
 <string>Wenn ein Monster sich zurückzieht oder<lf>den Standort wechselt, steig auf deinen<lf>Saikrii, um es zu verfolgen!
 <string>Die Detailkarte
 <string>Mit <ICON PL_MAP_CHANGE> kannst du die Karte öffnen. Ver-<lf>wende sie, um dein Ziel zu finden.
 <string>Objekte auswählen und benutzen
-<string>Objekt wählen: <ICON PL_ITEM_SLIDER_OPEN> (halten)<ICON PLUS><ICON UI_ITEM_LEFT>/<ICON UI_ITEM_RIGHT><lf>Objekt benutzen: (<ICON PL_ITEM_SLIDER_OPEN> loslassen) <ICON PL_ITEM>
-<string>Zurückgabe von Vorräten
-<string>Vorratsobjekte werden nach Quest-<lf>abschluss wieder zurückgegeben.
-<string>Geeignete Feldlagerplätze
-<string>Ein Lager-Standort ist in der Nähe. Wenn<lf>du ihn findest, kannst du mit folgendem<lf>Objekt ein Lager aufstellen.
+<string><REF MsgGUI600000_Tips_EXP_63>
+<string>Rückgabe von Vorräten
+<string>Als Vorratsobjekte kategorisierte<lf>Objekte werden nach Abschluss<lf>einer Quest wieder zurückgegeben.
+<string>Geeignete Lagerplätze
+<string>Ein Lagerplatz ist in der Nähe.<lf>Wenn du ihn findest, kannst du mit<lf>folgendem Objekt ein Lager aufstellen.
 <string>Aufgeladener Schuss
 <string>Die Schusskraft erhöht sich basierend<lf>auf der Ladestufe. Beim Aufladen wird<lf>Ausdauer verbracht.
-<string>Note
+<string>Noten
 <string>Bei einem Angriff wird basierend auf<lf>deiner Eingabe eine Note gespielt.
 <string>Darbieten
 <string>Ein Melodie-Effekt wird ausgelöst, wenn<lf>Noten in einer bestimmten Sequenz ge-<lf>spielt werden.
-<string>Wechselbalken (Axtmodus)
+<string>Der Wechselbalken (Axtmodus)
 <string>Angriffe im Axtmodus füllen den<lf>Wechselbalken.
-<string>Wechselbalken (Schwertmodus)
+<string>Der Wechselbalken (Schwertmodus)
 <string>Angriffe im Schwertmodus verbrauchen<lf>den Wechselbalken. Ist der Balken leer,<lf>wechselst du zurück in den Axtmodus.
-<string>Kinsekten-Combo
+<string>Kinsekten-Combos
 <string>Bei Angriffen im Fokusmodus greifen<lf>deine Kinsekten ebenfalls mit an und<lf>sammeln Extrakte.
-<string>Echoblase
+<string>Echoblasen
 <string>Wenn eine Echoblase platziert wurde,<lf>generiert sie beim Darbieten Hall-<lf>Angriffe.
-<string>Markieren und Pollen
-<string>Ein Kinsekt greift automatisch markierte<lf>Stellen an und erstellt Pollen.
-<string>Gegenstoß-Angriff
+<string>Markieren und Kinsektenpulver
+<string>Ein Kinsekt greift automatisch ein<lf>markiertes Monsterteil an und<lf>hinterlässt dabei Kinsektenpulver.
+<string>Gegenstoß-Angriffe
 <string>Angriffe von Monstern können im richti-<lf>gen Moment mit einem Gegenstoß-Angriff<lf>pariert werden.
 <string>Instabile Steinsäulen
 <string>Triff einen Balahara, während er sich an<lf>Felsen festhält, um ihn umzustoßen.
 <string>Jagd auf den Dünen
 <string>Sanddünen sind instabil und stürzen bei<lf>einer starken Belastung ein, wodurch du<lf>leicht den Halt verlierst.
 <string><REF Gimmick_NAME_m2034503552>
-<string>Wenn du in hohem Gras in die Hocke <lf>gehst, fällt es Monstern schwerer,<lf>dich zu entdecken.
+<string>Wenn du in hohem Gras in die<lf>Hocke gehst, fällt es Monstern<lf>schwerer, dich zu entdecken.
 <string><REF Gimmick_NAME_32>
 <string>Du kannst Felsen zum Einsturz bringen,<lf>wenn du diese mit der Hakenschleuder<lf>triffst.
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>Wird diese Kröte getroffen, versprüht<lf>sie ein Gas, das Monster lähmt.
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>Bei einem Treffer wird ihr wieder-<lf>herstellender Nektar verschüttet,<lf>der einen Erholungseffekt hat.
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>Bei einem Treffer wird ihr wieder-<lf>herstellender Nektar verschüttet,<lf>der einen starken Erholungseffekt hat.
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>Bei einem Treffer blitzen sie auf und<lf>blenden Monster.
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>Der Dungballen, den er umherrollt,<lf>kann in Form einer Dungkapsel als<lf>Schleudermunition verwendet werden.
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>Sammle und verbrauche Nektar von ihren<lf>Rücken, um Gesundheit wiederherzustellen.
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -122,7 +118,7 @@
 <string>Gift leert deinen Gesundheitsbalken über<lf>einen längeren Zeitraum. Kann mit Gegen-<lf>gift geheilt werden.
 <string>Betäubung
 <string><REF MsgGUI600000_Tips_EXP_119>
-<string>Blendbetäubung
+<string>Blitzblende
 <string><REF MsgGUI600000_Tips_EXP_120>
 <string>Lähmung
 <string><REF MsgGUI600000_Tips_EXP_121>
@@ -138,13 +134,13 @@
 <string>Ein Status, der die Elementareigenschaften<lf>deiner Waffe negiert. Nutze eine Nullbeere oder<lf>weiche wiederholt aus, um ihn loszuwerden.
 <string>Schild: Elementbonus
 <string>Verbrauche Phiolen, um dein Blocken<lf>vorübergehend zu verstärken und<lf>Angriffe im Axtmodus zu erhalten.
-<string>Dreifachstoß und Konterstoß
+<string>Dreifachstoß und Aufladungskonter
 <string>Du kannst nach Mittlerer Stoß III oder<lf>Hoher Stoß III zu einem vierten Angriff<lf>ansetzen.
-<string>Lade den Wechselbalken
+<string>Den Wechselbalken laden
 <string>Greife im Axtmodus an, um schnell den<lf>Wechselbalken aufzufüllen.
 <string>Quest starten
 <string>Die Quest beginnt, sobald du dem Alpha-<lf>Monster genug Schaden zugefügt hast.
-<string>Trainingsbereich
+<string>Der Trainingsbereich
 <string>Du kannst den Trainingsbereich im Basis-<lf>lager in der Windebene verwenden.
 <string>Aktive Sammelpunkte
 <string>Du kannst beim Sammeln mehr oder bessere<lf>Objekte finden.
@@ -152,45 +148,45 @@
 <string>Materialien werden zum Schmieden und<lf>Verbessern von Ausrüstung verwendet,<lf>also zerlege Monster nach der Jagd!
 <string>Gruppen zerstreuen
 <string>Feuere auf Monster, um Gruppen zu zer-<lf>streuen. Getroffene Monster entfernen<lf>sich von der Gruppe.
-<string>In Treibsand locken
+<string>Treibsand nutzen
 <string>Locke die Doshaguma in den Treibsand,<lf>um das Rudel zu zerstreuen.
 <string>Monsterkämpfe
 <string>Nutze Gerangel zwischen Monstern<lf>zu deinem Vorteil bei der Jagd.
-<string>Die Detailkarte ansehen
+<string>Die Detailkarte
 <string>Mit <ICON PL_MAP_CHANGE> kannst du die Detailkarte öffnen,<lf>um zu sehen, welche Monster sich<lf>auf der Karte befinden.
-<string>Normale Munition feuern
+<string>Normale Munition
 <string>Normale Munition ist effektiv gegen<lf>Monster in kurzer oder mittlerer<lf>Entfernung.
-<string>Perforationsmunition feuern
+<string>Perforationsmunition
 <string>Perforationsmunition ist effektiv gegen<lf>Monster in großer Entfernung.
-<string>Schrotmunition feuern
+<string>Schrotmunition
 <string>Schrotmunition ist effektiv gegen<lf>Monster in kurzer Entfernung.
-<string>Normale Munition feuern
+<string>Normale Munition
 <string>Normale Munition ist effektiv gegen<lf>Monster in kurzer oder mittlerer<lf>Entfernung.
-<string>Perforationsmunition feuern
+<string>Perforationsmunition
 <string>Perforationsmunition ist effektiv gegen<lf>Monster in großer Entfernung.
-<string>Schrotmunition feuern
+<string>Schrotmunition
 <string>Schrotmunition ist effektiv gegen<lf>Monster in kurzer Entfernung.
-<string>Kraftbeschichtung
+<string>Kraftbeschichtungen
 <string>Erhöht die Kraft und den Schaden von<lf>Pfeilen.
-<string>Nahkampfbeschichtung
+<string>Nahkampfbeschichtungen
 <string>Die Reichweite von Pfeilen ist verrin-<lf>gert, ihre Kraft hingegen ist erheblich<lf>erhöht.
 <string>Automatische Munitionserholung
-<string>Warte auf die automatische Munitionser-<lf>holung, um Fokusexplosion: Adlerschlag<lf>abzufeuern.
+<string>Warte auf die automatische Munitions-<lf>erholung, um Fokus: Adlerschlag<lf>abzufeuern.
 <string>Automatische Munitionserholung
-<string>Warte auf die automatische Munitionser-<lf>holung, um Fokusexplosion: Wyverngeheul<lf>abzufeuern.
-<string>Schwertenergie nicht überladen!
-<string>Schwertenergie wird zur Verwendung in<lf>Phiolen geladen, aber wenn du zu viel<lf>Energie sammelst, prallen Angriffe ab.
+<string>Warte auf die automatische Munitions-<lf>erholung, um Fokus: Wyverngeheul<lf>abzufeuern.
+<string>Wenn Angriffe abgelenkt werden: Aufladen
+<string>Wenn deine Angriffe nach dem Aufladen<lf>von zu viel Schwertenergie abprallen,<lf>nutze <ICON WP09 PL_ATTACK_00> oder <ICON WP09 PL_ATTACK_01>, um zu laden.
 <string>Feuern in Kritischer Reichweite
 <string>Ist das Fadenkreuz orange, bist du in der<lf>optimalen Reichweite. Behalte den Ab-<lf>stand für den meisten Schaden bei.
-<string>Ziele auf Wunden
+<string>Auf Wunden zielen
 <string>Verursache mehr Schaden, indem du im<lf>Fokusmodus mit <ICON PL_AIM> Wunden gezielt<lf>angreifst.
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string>Drücke nach dem Abschuss <ICON WP13 PL_ATTACK_01>, um einen<lf>Verfolgerschuss abzugeben, ein Projektil<lf>mit erhöhtem Schadenspotenzial.
 <string>Für Steak ist immer Platz!
 <string>Gebratene Steaks sind nicht nur lecker,<lf>sie erhöhen deine maximale Gesundheit<lf>und Ausdauer. Hau vor der Jagd rein!
 <string>Nie auf leeren Magen jagen!
-<string>Deine Mahleffekte sind verklungen!<lf>Am besten jagt es sich auf vollen Magen –<lf>iss und tu deinen Statuswerten was Gutes!
+<string>Am besten jagt es sich auf vollen Magen –<lf>Nutze den Tragbaren Grill zum Kochen<lf>und tu deinen Statuswerten was Gutes!
 <string>Waffen wechseln
-<string>Wechsle mit <ICON PL_WEAPON_CHANGE> zwischen deiner Primär-<lf>und Sekundärwaffe.
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>Wiederherstellung von Gesundheit
 <string>Mit Tränken kannst du deine Gesundheit<lf>wiederherstellen.

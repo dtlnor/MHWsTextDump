@@ -8,8 +8,7 @@
 <string>Current
 <string>Forecast
 <string>Player actions may change the forecast.
-<string>Monster Info
-<string>Biggest
+<string>Detailed Info
 <string>Hunting
 <string>Slaying
 <string>Capture
@@ -29,7 +28,7 @@
 <string><COLOR preset="TXT_Danger">Player(s) failed to join because of multiplayer settings.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot join because the maximum number of people has already been met.</COLOR>
 <string><COLOR preset="TXT_Danger">Failed to join because of platform permission settings.</COLOR>
-<string><COLOR preset="TXT_Danger">You do not meet the requirements for accepting/joining this quest.</COLOR>
+<string><COLOR preset="TXT_Danger">Have not met the necessary conditions for accepting/joining this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">You cannot accept/join this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">Failed to accept/join the quest.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot begin Field Survey because a Link Member is viewing Quest Results.</COLOR>
@@ -70,10 +69,10 @@
 <string>Link Member Quests
 <string>Quest Join Settings
 <string>Adjust acceptance method for joining quests. <COLOR preset="TXT_Accent">(Link Members who receive a quest invitation will automatically be accepted.)</COLOR>
-<string>Auto Accept
+<string>Auto-accept
 <string>Manual Accept
 <string>Set Passcode
-<string>Designate a passcode to join your quest. <COLOR preset="TXT_Accent">(Passcode restrictions will be removed when sending out an SOS Flare.)</COLOR>
+<string>Set a passcode to join your quest. <COLOR preset="TXT_Accent">(Passcode restrictions will be removed when sending out an SOS Flare.)</COLOR>
 <string>Create a 4 digit password.
 <string>Please enter the passcode.
 <string>No
@@ -96,19 +95,19 @@
 <string>Faints: {0}/{1}
 <string>Client: {0}
 <string>Completed!
-<string>Member Recruitment Comment
-<string>Select a comment for recruiting members.
+<string>Recruitment Message
+<string>Set a message for recruiting members.
 <string>Anyone is welcome!
-<string>Looking for players with similar HR!
-<string>New players welcome!
+<string>Seeking similar HR hunters!
+<string>New hunters welcome!
 <string>Looking for veterans!
 <string>Quest Creation Unavailable
 <string>Strength
 <string>You can create a quest for multiple targets!
 <string>{0} would like to offer a meal!
 <string>{0} wants to talk!
-<string>Quest available: {0}!
-<string>{0}: completion conditions met!
+<string>Quest available: {0}
+<string>{0}: ready to report!
 <string>Max Members
 <string>Set the maximum number of players that can join quests. <COLOR preset="TXT_Accent">(This number will vary depending on the max number of Link Members.)</COLOR>
 <string>1
@@ -117,15 +116,15 @@
 <string>4
 <string>Multiplayer Settings
 <string>Select a multiplayer mode.
-<string>Other Players & Support Hunters
-<string>Only Other Players
+<string>Players & Support Hunters
+<string>Only Players
 <string>Only Support Hunters
 <string>Automatic SOS Flare
 <string>Select whether to automatically launch an SOS Flare upon beginning a quest.
 <string>Off
 <string>On
 <string>Passcode
-<string>Designate a four number passcode. <COLOR preset="TXT_Accent">(Will not be required for Link Members who have received a quest invitation.)</COLOR>
+<string>Set a four-digit passcode. <COLOR preset="TXT_Accent">(Not required for Link Members who have received a quest invitation.)</COLOR>
 <string>Platform Permissions
 <string>Select which platforms players can join quests from. <COLOR preset="TXT_Accent">(Link Members with a quest invitation can join regardless of platform.)</COLOR>
 <string>Search for quests that have selected "All Platforms" in their recruitment settings.

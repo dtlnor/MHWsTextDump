@@ -4,9 +4,9 @@
 <string><REF MsgGUI600000_Tips_EXP_1095772160>
 <string>Seikret Speed
 <string><ICON PL_PT_SPEED_UP>: Speed Up<lf><ICON PL_PT_SPEED_DOWN>: Slow Down
-<string>Camera Focus
-<string>Use <ICON PL_CAMERA_LOCK_CHANGE> to focus on a monster. Focus<lf>settings can be changed in Options.
-<string>Spirit Gauge
+<string>Targeting Monsters
+<string>Use <ICON PL_CAMERA_LOCK_CHANGE> to target a monster. Target<lf>controls can be changed in Options.
+<string>The Spirit Gauge
 <string>The Spirit Gauge fills as you land attacks,<lf>enabling powerful Spirit Blade attacks.
 <string><REF ActionGuideDataNameText_Wp07_1069952960>
 <string>Press <ICON PL_ATTACK_SP><ICON PLUS><ICON PL_ATTACK_01> to reload. You cannot<lf>fire shells when you're out of ammo.
@@ -15,7 +15,7 @@
 <string>Rapid Fire Mode
 <string>Rapid Fire consumes energy to let you<lf>fire many shots in quick succession.
 <string>Spirit Gauge Colors
-<string>Landing special attacks such as Spirit<lf>Roundslash raises the Spirit Gauge's<lf>color and increases attack power.
+<string>Landing special attacks such as Spirit<lf>Roundslash changes the Spirit Gauge's<lf>color and increases attack power.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -30,8 +30,8 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_32
 <string>Find the Best Fit for You
 <string>Each weapon has its own attack patterns<lf>and features. Try different weapons out<lf>to find the one that works best for you.
-<string>SOS Flare
-<string>You can request help on your quest from other<lf>players by sending an SOS Flare.
+<string>SOS Flares
+<string>You can request help on your quest from<lf>other players by sending an SOS Flare.
 <string>Supply Items
 <string>Supply items are available in your Seikret<lf>Pouch at the start of every quest.
 <string>Using the Environment
@@ -40,74 +40,70 @@
 <string>There are many endemic creatures in the<lf>environment that produce special effects.
 <string>Carving
 <string>Press <ICON PL_POP> next to a slain monster to carve<lf>materials from it.
-<string>Sheathe Before Giving Chase!
-<string>When chasing after a monster, sheathe<lf>your weapon first with <ICON PL_WEAPON_OFF>, then sprint<lf>with <ICON PL_DASH>.
+<string>Chasing Monsters Effectively
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>Restocking Your Items
-<string>You'll obtain new supply items when you<lf>faint. Use <ICON PL_ACCESS_ITEM_BAG> to check your pouch.
-<string>Observe Monsters Carefully
+<string><REF MsgGUI600000_Tips_EXP_40>
+<string>Observing Your Target
 <string>Watch each monster's movements carefully<lf>to learn its patterns and predict when<lf>it will attack.
 <string>Snaring Monsters
 <string>Use traps to snare and capture weakened<lf>monsters.
-<string>Knockout Monsters with Tranq Bombs
+<string>Knocking Out Monsters
 <string>Use multiple Tranq Bombs on a pinned<lf>monster to successfully capture it.
 <string>Working with a Support Hunter
 <string>A Support Hunter has joined you on your<lf>hunt. Work together to complete it!
 <string>Scoutflies
 <string>Scoutflies help guide you to your<lf>objective. They'll also highlight objects<lf>you can examine.
-<string>Attack When It's Down!
+<string>Creating Opportunities
 <string>When a monster's been toppled, use<lf>the opportunity to unleash your<lf>strongest attacks!
 <string>Dodging Attacks
 <string>Evade to avoid monster attacks.<lf>Dodging requires stamina, though,<lf>so keep an eye on your Stamina Gauge.
 <string>Restoring Sharpness
-<string>Melee weapons will lose sharpness<lf>as you land hits. Use a Whestone to<lf>restore it.
+<string>Melee weapons will lose sharpness<lf>as you land hits. Use a Whetstone to<lf>restore it.
 <string>Restoring Stamina
-<string>Your max stamina slowly reduces over time.<lf>Use Rations to restore it when it's low.
-<string>Follow the Monster!
+<string>Your max stamina slowly reduces over time.<lf>Use rations to restore it when it's low.
+<string>Chasing After Monsters
 <string>When a monster retreats or changes location,<lf>mount your Seikret to chase after it!
 <string>The Detailed Map
 <string>You can open the map by pressing <ICON PL_MAP_CHANGE>.<lf>Use this when you want to check your<lf>destination.
 <string>Selecting and Using Items
-<string>Select Item: Hold <ICON PL_ITEM_SLIDER_OPEN> and press <ICON UI_ITEM_LEFT> or <ICON UI_ITEM_RIGHT><lf>Use Item: Release <ICON PL_ITEM_SLIDER_OPEN> and press <ICON PL_ITEM>
-<string>Recovering Supplies
-<string>Supply items will be recovered upon<lf>completing a quest.
-<string>Potential Sites for Pop-up Camps
-<string>A Camp Location is nearby. Once you find<lf>it, use the item below to set up camp.
+<string><REF MsgGUI600000_Tips_EXP_63>
+<string>Returning Supplies
+<string>Items categorized as Supply Items<lf>will be returned upon completing a<lf>quest.
+<string>Potential Campsites
+<string>A campsite is nearby. Once you find<lf>it, use the item below to set up camp.
 <string>Charged Shot
 <string>The power will increase depending on<lf>the charge level. Stamina is consumed<lf>while charging.
-<string>Note
+<string>Notes
 <string>When performing an attack, a note will<lf>play based on your button input.
-<string>Perform
-<string>A Melody Effect occurs when certain<lf>tones are performed in a sequence.
-<string>Switch Gauge (Axe Mode)
+<string>Performing
+<string>A Melody Effect occurs when certain<lf>notes are performed in a sequence.
+<string>The Switch Gauge (Axe Mode)
 <string>Attacking in Axe Mode fills up the<lf>Switch Gauge.
-<string>Switch Gauge (Sword Mode)
+<string>The Switch Gauge (Sword Mode)
 <string>Attacking in Sword Mode consumes the<lf>Switch Gauge. Using it up switches you<lf>back to Axe Mode.
-<string>Kinsect Combo
+<string>Kinsect Combos
 <string>When attacking during Focus Mode,<lf>your Kinsects will also attack and<lf>gather Extracts.
-<string>Echo Bubble
-<string>When Performing with an Echo Ball<lf>placed, Reverb attacks will emit from<lf>the Echo Ball.
-<string>Marking and Dust Effects
-<string>A Kinsect will automatically attack<lf>a marked spot, forming a Dust Effect.
-<string>Offset Attack
-<string>You can offset a monster's attack by parrying<lf>it at just the right moment with an Offset attack.
+<string>Echo Bubbles
+<string>When Performing with an Echo Bubble<lf>placed, Reverb attacks will emit from<lf>the Echo Bubble.
+<string>Marking and Kinsect Powder
+<string>A Kinsect will automatically attack a marked<lf>monster part, leaving behind Kinsect Powder.
+<string>Offset Attacks
+<string>You can offset a monster's attack by parrying<lf>it at just the right moment with an Offset Attack.
 <string>Unstable Stone Pillars
 <string>Hit a Balahara while it's clinging<lf>to rocks to make it fall.
 <string>Hunting on the Dunes
 <string>Sand dunes are unstable and will<lf>collapse under a strong impact,<lf>creating unstable footing.
 <string><REF Gimmick_NAME_m2034503552>
-<string>Crouching in tall grass will make<lf>it harder for monsters to spot you.
+<string>Crouching in tall grass before a monster<lf>notices you will make it harder for them<lf>to spot you.
 <string><REF Gimmick_NAME_32>
 <string>Fire your Hook Slinger at boulders<lf>to make them fall.
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>When struck, this toad releases a spray<lf>of gas that paralyzes any monster<lf>it touches.
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>When struck, its restorative nectar<lf>scatters, producing a healing effect<lf>when in range.
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>When struck, its restorative nectar<lf>scatters, producing a large healing<lf>effect when in range.
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>When struck, emits a flash of light that<lf>blinds monsters.
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>The dung it rolls around can be used as<lf>Slinger ammo, in the form of a dung pod.
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>Gather and consume the nectar on their<lf>backs to recover health.
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -122,7 +118,7 @@
 <string>Poison will slowly deplete your health<lf>over time. Cure it by using an antidote.
 <string>Stun
 <string><REF MsgGUI600000_Tips_EXP_119>
-<string>Flash Stun
+<string>Flashblind
 <string><REF MsgGUI600000_Tips_EXP_120>
 <string>Paralysis
 <string><REF MsgGUI600000_Tips_EXP_121>
@@ -138,13 +134,13 @@
 <string>A status that negates your weapon's<lf>elemental properties. Use a nulberry<lf>or evade repeatedly to remove it.
 <string>Shield: Elemental Boost
 <string>Consume phials to temporarily increase<lf>your guard and gain attacks in Axe Mode.
-<string>Triple Thrust and Counter Thrust
+<string>Triple Thrust and Charge Counter
 <string>You can perform a fourth-level attack<lf>after Mid Thrust III or High Thrust III.
-<string>Charge Up the Switch Gauge
+<string>Charging the Switch Gauge
 <string>Attack in Axe Mode to fill the Switch<lf>Gauge quickly.
 <string>Starting a Quest
-<string>A quest will begin after you have dealt enough<lf>damage to the target alpha monster.
-<string>Training Area
+<string>A quest will begin after a certain <lf>amount of damage is dealt to the <lf>target alpha monster.
+<string>The Training Area
 <string>You can now use the Training Area<lf>in the Windward Plains Base Camp.
 <string>Active Gathering Points
 <string>You may be able to get more or better<lf>items while gathering.
@@ -152,45 +148,45 @@
 <string>Materials are used to forge and upgrade<lf>equipment, so be sure to carve monsters<lf>after finishing a hunt.
 <string>Dispersing Groups
 <string>Fire at monsters to separate the group.<lf>Monsters that are hit will run away.
-<string>Lure Them to Quicksand
+<string>Using Quicksand
 <string>Lure the Doshaguma to quicksand to break<lf>up the pack.
 <string>Monster Fights
 <string>Use conflict between monsters to your<lf>advantage on hunts.
-<string>Check the Detailed Map
-<string>Open the Detailed Map with <ICON PL_MAP_CHANGE> to check what<lf>monsters are around.
-<string>Fire Normal Ammo
-<string>Normal ammo is effective against<lf>monsters at close or medium-range.
-<string>Fire Pierce Ammo
+<string>The Detailed Map
+<string>Open the Detailed Map with <ICON PL_MAP_CHANGE> to check<lf>what monsters are around.
+<string>Normal Ammo
+<string>Normal Ammo is effective against<lf>monsters at close or medium-range.
+<string>Pierce Ammo
 <string>Pierce Ammo is effective against<lf>monsters at a great distance.
-<string>Fire Spread Ammo
+<string>Spread Ammo
 <string>Spread Ammo is effective against<lf>monsters at close-range.
-<string>Fire Normal Ammo
-<string>Normal ammo is effective against<lf>monsters at close or medium-range.
-<string>Fire Pierce Ammo
+<string>Normal Ammo
+<string>Normal Ammo is effective against<lf>monsters at close or medium-range.
+<string>Pierce Ammo
 <string>Pierce Ammo is effective against<lf>monsters at a great distance.
-<string>Fire Spread Ammo
+<string>Spread Ammo
 <string>Spread Ammo is effective against<lf>monsters at close-range.
-<string>Power Coating
+<string>Power Coatings
 <string>Increases an arrow's power and damage<lf>dealt.
-<string>Close-range Coating
+<string>Close-range Coatings
 <string>The range of arrows is shortened,<lf>but power is greatly increased.
-<string>Wait for Ammo to Auto-Recover
+<string>Ammo Auto-recovery
 <string>To fire Focus Blast: Eagle Strike, wait<lf>for ammo to recover automatically.
-<string>Wait for Ammo to Auto-Recover
+<string>Ammo Auto-recovery
 <string>To fire Focus Blast: Wyvern Howl, wait<lf>for ammo to recover automatically.
-<string>Don't Over-Charge Sword Energy
-<string>Accumulated sword energy is charged into<lf>a phial and used, but accumulate too<lf>much and the attack will be repelled.
+<string>When Attacks are Deflected: Charge
+<string>When your attacks are deflected<lf>after accumulating too much sword<lf>energy, use <ICON WP09 PL_ATTACK_00> or <ICON WP09 PL_ATTACK_01> to charge.
 <string>Firing at Critical Range
 <string>When the reticle turns orange, this is<lf>the optimum distance. Maintain this<lf>distance to inflict the most damage.
-<string>Aim for Wounds
+<string>Aiming for Wounds
 <string>Inflict more damage by aiming for wounds<lf>in Focus Mode with <ICON PL_AIM>. 
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string>Press <ICON WP13 PL_ATTACK_01> after firing to execute a Chaser<lf>Shot, a powerful attack that hits harder<lf>than normal.
 <string>Don't Skimp on Steak!
-<string>Well-done Steaks are not only delicious—<lf>they boost your max health and stamina!<lf>Be sure to chow down before a hunt.
+<string>Well-done steaks are not only delicious—<lf>they boost your max health and stamina!<lf>Be sure to chow down before a hunt.
 <string>Don't Hunt Hungry!
-<string>Your meal effects have worn off!<lf>The best hunting is done on a full stomach.<lf>Eat another meal to boost your stats!
+<string>The best hunting is done on a full stomach.<lf>Use the Portable BBQ Grill to make another<lf>meal and boost your stats!
 <string>Switching Weapons
-<string>Switch between your primary and secondary<lf>weapons with <ICON PL_WEAPON_CHANGE> .
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>Restoring Health
 <string>Use potions to restore your health<lf>when running low.

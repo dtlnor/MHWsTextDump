@@ -206,7 +206,7 @@
 <string>Ripristina predefinite
 <string>Ripristinare le impostazioni predefinite<lf>di trucco/pittura facciale?
 <string>Scambia trucco/pittura facciale
-<string>Sostituisci trucco/pittura attuale<lf>con un'altra variante.
+<string>Scambia trucco/pittura facciale attuale<lf>con un'altra variante di trucco/pittura facciale.
 <string>Trucco/Pittura facciale 1
 <string>Trucco/Pittura facciale 2
 <string>Trucco/Pittura facciale 3
@@ -230,23 +230,23 @@
 <string>Aspetto predefinito
 <string>(Impostazioni dettagliate)
 <string>Lingua Felyne
-<string>Tutte le voci dei compagni Felyne, inclusi quelli di altri giocatori, saranno in lingua Felyne (modificabile nelle Opzioni).
+<string>Tutte le voci dei Felyne, inclusi i compagni, saranno in lingua Felyne. <COLOR preset="TXT_Accent">(Modificabile nelle Opzioni.)</COLOR>
 <string>Voce
 <string>Tono di voce
 <string>Modificare il timbro potrebbe rendere la voce del personaggio difficile da sentire.
 <string>Pelo lungo
-<string>Tipo pelo del viso
-<string>Il tipo di barba non può essere selezionato con i capelli lunghi attivati.
+<string>Tipo pelo del muso
+<string>Il tipo di pelo non può essere selezionato con il pelo lungo attivato.
 <string>Tipo pelo delle orecchie
 <string>Pienezza guance
 <string>Orecchie
 <string>Occhi
 <string>Forma coda
-<string>La forma della coda non può essere selezionata con i capelli lunghi attivati.
+<string>La forma della coda non può essere selezionata con i capelli lunghi abilitati.
 <string>Manto
 <string>Segno 1
 <string>Segno 2
-<string>Questa impostazione avrà la precedenza su "Segno 1" in caso di sovrapposizione.
+<string>Segno 2 avrà la precedenza su <COLOR preset="TXT_Accent">Segno 1</COLOR> in caso di sovrapposizione.
 <string>Fusione forme delle orecchie
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_01
@@ -296,7 +296,7 @@
 <string>Ripristinare tutte le impostazioni selezionate<lf>ai valori predefiniti?
 <string>Ripristinare queste opzioni di aspetto predefinito?
 <string>Mostra tabella/Modifica
-<string>Modifica
+<string>Aspetto
 <string>Impostazioni colore
 <string>Aspetto
 <string>Tipo {0}
@@ -348,8 +348,8 @@
 <string>Danni subiti
 <string>Espressione compagno Felyne
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string>Ruota illuminazione con <ICON PL_DUMMY_MOVE>
-<string>Ruota illuminazione con <ICON UI_LIST_TRIGGER_L2> / <ICON UI_LIST_TRIGGER_R2>
+<string>Ruota illuminazione con <ICON PAD PL_DUMMY_MOVE>
+<string>Ruota illuminazione con <ICON MKB UI_LIST_TRIGGER_L2> / <ICON MKB UI_LIST_TRIGGER_R2>
 <string>Nascondi interfaccia
 <string>Modello: cacciatore
 <string>Modello: compagno Felyne
@@ -369,8 +369,8 @@
 <string>Terminare la modifica dell'aspetto?
 <string>Modifica <LSNR "cacciatore" "cacciatrice">
 <string>Modifica nome
-<string>Ti consente di cambiare il tuo nome.
-<string>Il nome <LSNR "del cacciatore" "della cacciatrice"> verrà modificato.<lf><COLOR preset="TXT_Accent">Potrebbe volerci del tempo affinché il cambio del<lf>nome venga visualizzato su alcuni contenuti<lf>e in alcuni casi il nuovo nome non apparirà.</COLOR>
+<string>Ti consente di cambiare il nome del tuo personaggio.
+<string>Il nome del tuo personaggio verrà modificato.<lf><COLOR preset="TXT_Accent">Potrebbe volerci del tempo affinché il cambio del<lf>nome venga visualizzato su alcuni contenuti<lf>e in alcuni casi il nuovo nome non apparirà.</COLOR>
 <string>Scartare tutte le modifiche e uscire?<lf><COLOR preset="TXT_Accent">(Non userai alcun buono modifica del personaggio.)</COLOR>
 <string>Salvare le modifiche?<lf><COLOR preset="TXT_Accent">(Non userai alcun buono modifica del personaggio,<lf>poiché non sono state applicate modifiche speciali.)</COLOR>
 <string>Applicare le modifiche e uscire?<lf><COLOR preset="TXT_Accent">(Consumerai un buono modifica del personaggio.)</COLOR>
@@ -378,7 +378,7 @@
 <string>Modifica compagno F
 <string>Modifica nome
 <string>Ti consente di cambiare il nome del tuo compagno Felyne.
-<string>Il nome del compagno Felyne verrà modificato.<lf><COLOR preset="TXT_Accent">Potrebbe volerci del tempo affinché il cambio del<lf>nome venga visualizzato su alcuni contenuti, perciò<lf>potrebbe non apparire immediatamente.</COLOR>
+<string>Il nome del compagno Felyne verrà modificato.<lf><COLOR preset="TXT_Accent">Potrebbe volerci del tempo affinché il cambio del<lf>nome venga visualizzato su alcuni contenuti<lf>e in alcuni casi il nuovo nome non apparirà.</COLOR>
 <string>Scartare tutte le modifiche e uscire?<lf><COLOR preset="TXT_Accent">(Non userai alcun buono modifica compagno Felyne.)</COLOR>
 <string>Salvare le modifiche?<lf><COLOR preset="TXT_Accent">(Non userai alcun buono modifica compagno Felyne,<lf>poiché non sono state applicate modifiche speciali.)</COLOR>
 <string>Applicare le modifiche e uscire?<lf><COLOR preset="TXT_Accent">(Consumerai un buono modifica compagno Felyne.)</COLOR>

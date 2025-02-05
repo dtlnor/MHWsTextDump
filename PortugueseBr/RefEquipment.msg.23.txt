@@ -29,9 +29,9 @@
 <string>{0}
 <string>-
 <string>Primária
-<string>Equipar como arma primária
+<string>Equipar como Arma Primária
 <string>Secundária
-<string>Equipar como arma secundária
+<string>Equipar como Arma Secundária
 <string>Arma
 <string>Ignição Corasserpe
 <string>Ignição Furasserpe
@@ -41,22 +41,20 @@
 <string>Serpexplosão
 <string>Munição Adesiva
 <string>Exibir Tudo
-<string>Somente Armadura <ICON EQUIP_TYPE1>
-<string>Somente Armadura <ICON EQUIP_TYPE2>
-<string><COLOR preset="TXT_Danger">Não está em posse da decoração.</COLOR>
-<string><COLOR preset="TXT_Danger">Não está em posse do equipamento.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem adornos.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem equipamento.</COLOR>
 <string><COLOR preset="TXT_Danger">Você não possui um fuzilarco.</COLOR>
 <string>Isso está em uso em outra peça de equipamento.<lf>Deseja remover?
 <string>Caixa de Equipamentos
 <string><COLOR preset="TXT_Danger">Kinsetos só podem ser selecionados com uma Glaive Inseto equipada.</COLOR>
-<string>Adornos: Sim/Não
+<string>Editar Adornos
 <string>Mudar Equipamento
 <string>Informação de Habilidade
 <string>Usar Configuração
 <string>Remover Adornos
-<string>Alterar Nome do Adorno
+<string>Alternar Nome/Habilidade
 <string>Adicionar aos Favoritos
-<string>Conf. de Aparência de Armadura
+<string>Aparência de Equipamento
 <string>Configurações de Equipamento
 <string>Selecionar da Caixa
 <string>Selecionar Armadura por Série
@@ -69,7 +67,6 @@
 <string>Alternar Visual. de Equip.
 <string>Selecionar Equipamento por Série
 <string>Manto
-<string>Tipo de Morteiro
 <string>Filtrar por Critério
 <string>Filtrar por Arma
 <string>Filtrar por Armadura
@@ -81,7 +78,7 @@
 <string>Afiação
 <string>Bônus de Defesa
 <string>Nível de Engaste
-<string>Engastes
+<string>Número de Engastes
 <string>Tipo de Arma
 <string>Resistência
 <string>Defesa
@@ -93,53 +90,52 @@
 <string>Por Série
 <string>Por Nv. de Kinseto
 <string>Por Tipo de Morteiro
-<string>Por Qtd. em Posse
-<string>Munição Normal 1
-<string>Munição Normal 2
-<string>Munição Normal 3
-<string>Munição Perfurante 1
-<string>Munição Perfurante 2
-<string>Munição Perfurante 3
-<string>Munição Dispersa 1
-<string>Munição Dispersa 2
-<string>Munição Dispersa 3
+<string>Por Quantidade
+<string>Munição Normal Nv. 1
+<string>Munição Normal Nv. 2
+<string>Munição Normal Nv. 3
+<string>Munição Perfurante Nv. 1
+<string>Munição Perfurante Nv. 2
+<string>Munição Perfurante Nv. 3
+<string>Munição Dispersa Nv. 1
+<string>Munição Dispersa Nv. 2
+<string>Munição Dispersa Nv. 3
 <string>Munição Pegajosa 1
 <string>Munição Pegajosa 2
 <string>Munição Pegajosa 3
-<string>Bomba Fragmentada 1
-<string>Bomba Fragmentada 2
-<string>Bomba Fragmentada 3
-<string>Munição de Fogo 1
-<string>Munição de Fogo 2
-<string>Munição d'Água 1
-<string>Munição d'Água 2
-<string>Munição de Raio 1
-<string>Munição de Raio 2
-<string>Munição de Gelo 1
-<string>Munição de Gelo 2
-<string>Munição Venenosa 1
-<string>Munição Venenosa 2
-<string>Munição Paralisante 1
-<string>Munição Paralisante 2
-<string>Munição Sonífera 1
-<string>Munição Sonífera 2
-<string>Disp. Ráp. (Munição Normal 1)
-<string>Disp. Ráp. (Munição Normal 2)
-<string>Disp. Ráp. (Munição Normal 3)
-<string>Disp. Ráp. (Mun. Perfurante 1)
-<string>Disp. Ráp. (Mun. Perfurante 2)
-<string>Disp. Ráp. (Mun. Perfurante 3)
-<string>Disp. Ráp. (Mun. Dispersa 1)
-<string>Disp. Ráp. (Mun. Dispersa 2)
-<string>Disp. Ráp. (Mun. Dispersa 3)
+<string>Bomba Fragmentada Nv. 1
+<string>Bomba Fragmentada Nv. 2
+<string>Bomba Fragmentada Nv. 3
+<string>Munição de Fogo Nv. 1
+<string>Munição de Fogo Nv. 2
+<string>Munição d’Água Nv. 1
+<string>Munição d’Água Nv. 2
+<string>Munição de Raio Nv. 1
+<string>Munição de Raio Nv. 2
+<string>Munição de Gelo Nv. 1
+<string>Munição de Gelo Nv. 2
+<string>Munição Venenosa Nv. 1
+<string>Munição Venenosa Nv. 2
+<string>Munição Paralisante Nv. 1
+<string>Munição Paralisante Nv. 2
+<string>Munição Sonífera Nv. 1
+<string>Munição Sonífera Nv. 2
+<string>Disp. Ráp. (Mun. Normal Nv. 1)
+<string>Disp. Ráp. (Mun. Normal Nv. 2)
+<string>Disp. Ráp. (Mun. Normal Nv. 3)
+<string>Disp. Ráp. (Mun. Perf. Nv. 1)
+<string>Disp. Ráp. (Mun. Perf. Nv. 2)
+<string>Disp. Ráp. (Mun. Perf. Nv. 3)
+<string>Disp. Ráp. (M. Dispersa Nv. 1)
+<string>Disp. Ráp. (M. Dispersa Nv. 2)
+<string>Disp. Ráp. (M. Dispersa Nv. 3)
 <string>Disp. Ráp. (Mun. Pegajosa 1)
-<string>Disp. Ráp. (Munição de Fogo 1)
-<string>Disp. Ráp. (Munição de Fogo 2)
-<string>Disp. Ráp. (Munição d'Água 1)
-<string>Disp. Ráp. (Munição d'Água 2)
-<string>Disp. Ráp. (Munição de Raio 1)
-<string>Disp. Ráp. (Munição de Raio 2)
-<string>Disp. Ráp. (Munição de Gelo 1)
-<string>Disp. Ráp. (Munição de Gelo 2)
+<string>Disp. Ráp. (Mun. Fogo Nv. 1)
+<string>Disp. Ráp. (Mun. Fogo Nv. 2)
+<string>Disp. Ráp. (Mun. d'Água Nv. 1)
+<string>Disp. Ráp. (Mun. d'Água Nv. 2)
+<string>Disp. Ráp. (Mun. de Raio Nv. 1)
+<string>Disp. Ráp. (Mun. de Raio Nv. 2)
+<string>Disp. Ráp. (Mun. de Gelo Nv. 1)
+<string>Disp. Ráp. (Mun. de Gelo Nv. 2)
 <string>Disp. Ráp. (Munição de Dragão)
-<string>Registrar Configuração

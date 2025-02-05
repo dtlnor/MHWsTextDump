@@ -2,7 +2,7 @@
 <string>Información de equipo
 <string>Bonus de tipo de arma
 <string>Habilidades de equipo
-<string>Habilidades equipadas
+<string>Habilidades activas
 <string>Habilidades
 <string>Habilidades de menú
 <string>Estado de ataque
@@ -16,14 +16,13 @@
 <string>Información de espacios
 <string>No hay adornos
 <string>No hay espacios
-<string>Nada
 <string>Resumen por nivel
 <string>Nivel de habilidad
 <string>Requisitos
 <string>Después
 <string>Mejorar nivel
 <string>{0} <REF RefGeneral_0015_002>
-<string><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>[{0}]
 <string>Salud
 <string>Resistencia
 <string>Ataque
@@ -54,7 +53,7 @@
 <string>Res. hielo
 <string>Res. draco
 <string>Res. elemental
-<string>Nota
+<string>Notas
 <string>Burbuja sónica
 <string>Tipo de munición
 <string>Normal
@@ -88,11 +87,11 @@
 <string>Nv. 1
 <string>Nv. 2
 <string>Nv. 3
-<string>Bala ignición/esp.
-<string>Bala potente esp. I
-<string>Bala potente esp. II
-<string>Bala ignición esp. I
-<string>Bala ignición esp. II
+<string>Estándar/Ignición Base
+<string>Modo estándar Esp. I
+<string>Modo estándar Esp. II
+<string>Modo ignición Esp. I
+<string>Modo ignición Esp. II
 <string><REF RefEquipment_0007_00_00>
 <string><REF RefEquipment_0007_00_01>
 <string><REF RefEquipment_0007_01_00>
@@ -102,7 +101,7 @@
 <string>Tipo de ataque
 <string>Contundente
 <string>Cortante
-<string>Efecto de polvo
+<string>Polvo de kinsecto
 <string>Recuperación
 <string>Veneno
 <string>Parálisis
@@ -114,12 +113,12 @@
 <string>Velocidad
 <string>Resistencia
 <string>Kinsecto potenciado: Obtener extracto
-<string>Combo de kinsecto potenciado: Elemento
-<string>Bonus de ataque: Partículas
-<string>Bonus de kinsecto: Recup. res.
-<string>Pot. extracto: recup.
-<string>Bonus de kinsecto: Carga rápida
-<string>Pot. ataque: punto débil precis.
+<string>Bonus kinsecto combo: Elem.
+<string>Bonus ATQ: Partículas
+<string>Bonus kinsecto: Recup. res.
+<string>Bonus extracto: recup.
+<string>Bonus kinsecto: Carga rápida
+<string>Bonus ATQ: punto débil precis.
 <string>Información de munición
 <string>Fuego rápido
 <string>Capacidad
@@ -127,7 +126,7 @@
 <string>Información de equipo
 <string>Duración del efecto
 <string>Tiempo de recarga
-<string>{0} s
+<string><PLURAL {0} "{0} segundo" "{0} segundos">
 <string>Estado
 <string>Enviado
 <string>En espera
@@ -135,21 +134,19 @@
 <string>Proyectil
 <string>Tipo de ataque
 <string>Cortante
-<string>Impacto
+<string>Contundente
 <string>Aerosol melífera vitae
 <string>Provocar
 <string>Aerosol avispura
-<string>Poner paramaíz
+<string>Poner paralibellota
 <string>A todo lo que da
-<string>Flautilla: Nota de poder
-<string>Flautilla: Nota de miaufección
-<string>Atraer melífera vitae
-<string>Jaula de noctiluca
+<string>Esporneta: Nota de poder
+<string>Esporneta: Nota de prot.
 <string>Cuando te quede poca salud,<lf>¡te enviaré una melífera vitae!<lf>Pero no podré enviarte otra<lf>enseguida después.
 <string>¡Llamaré la atención del<lf>monstruo con un escudo especial<lf>que haga ruido!<lf>Eso te dará tiempo para ponerte<lf>en posición o atacar.
 <string>Puedo enviarte una avispura<lf>para quitarte cualquier plaga<lf>o estado alterado.<lf>¡Te salvaré la cola siempre que<lf>estés en un aprieto para que<lf>te concentres en la cacería!
 <string>¡Voy a colocar una trampa<lf>eléctrica especial Felyne que<lf>parece una bellota!<lf>El monstruo quedará paralizado<lf>si lo atraes hasta ella.
 <string>¡Voy a disparar una munición<lf>especial recubierta de pinchos<lf>con mi balista F!<lf>Si todo va bien, podría hasta<lf>herir al monstruo.
-<string>¿Quieres que tus ataques adquieran<lf>más potencia en el momento justo?<lf>¡Entonces tocaré esta nota de poder!<lf>Eso seguro te hará más fuerte.
-<string>Es normal sentir nervios al enfrentarse<lf>a un rival contra el que ya hayas perdido antes,<lf>pero no te preocupes. ¡Mi nota de miaufección<lf>aumentará tu defensa y te mantendrá a salvo<lf>cuando te enfrentes al mismo enemigo!
+<string>¿Quieres ataques con más<lf>potencia en el momento justo?<lf>¡Entonces tocaré esta nota de<lf>poder! Te hará más fuerte.
+<string>Es normal sentir nervios al<lf>enfrentarse a un rival contra el<lf>que ya has perdido. ¡Mi nota de<lf>protección aumentará tu defensa<lf>y te mantendrá a salvo cuando te<lf>enfrentes al mismo enemigo!
 <string>Movimiento de apoyo

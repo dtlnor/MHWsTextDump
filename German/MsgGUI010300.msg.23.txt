@@ -2,10 +2,10 @@
 <string>Gib einen Namen für deinen Charakter ein.<lf><lf><COLOR preset="TXT_Accent"> (Du kannst maximal 15 Zeichen verwenden.)</COLOR>
 <string>Möchtest du diesen Namen verwenden?<lf><lf>{0}
 <string>Gib einen Namen für deinen Palico ein.<lf><lf><COLOR preset="TXT_Accent"> (Du kannst maximal 15 Zeichen verwenden.)</COLOR>
-<string>Lege die Menge der angezeigten Tutorials fest. <lf>(Dies kann jederzeit im Startmenü geändert werden.)<lf><lf><COLOR preset="TXT_Accent">Alle anzeigen:</COLOR> Empfohlen, um die Grundlagen zu lernen.<lf><COLOR preset="TXT_Accent">Einige anzeigen:</COLOR> Empfohlen für erfahrene Spieler.
+<string>Lege die Menge der angezeigten Tutorials fest.<lf>(Dies kann in den Optionen jederzeit geändert werden.)<lf><lf><LEFT><COLOR preset="TXT_Accent">Alle anzeigen:</COLOR> Empfohlen, um die Grundlagen zu lernen.</LEFT><lf><LEFT><COLOR preset="TXT_Accent">Einige anzeigen:</COLOR> Empfohlen für erfahrene Spieler.</LEFT>
 <string>Alle anzeigen
 <string>Einige anzeigen
-<string>Wähle, ob gewisse Tutorials mehrfach gezeigt werden.<lf>(Dies kann jederzeit im Startmenü geändert werden.)
+<string>Wähle, ob gewisse Tutorials mehrfach gezeigt werden.<lf>(Dies kann über die Optionen im Spielmenü jederzeit<lf>geändert werden.)
 <string>An
 <string>Aus
 <string>Möchtest du das Abenteuer<lf>mit diesen Einstellungen starten?
@@ -97,14 +97,14 @@
 <string>Schnurrbartfarbe (Akzent)
 <string>Schnurrbart-Farbverteilung
 <string>Schnurrbart-Übergangsstärke
-<string>Schnurrbartfarbe
+<string>Schnurrbartfarbe bearbeiten
 <string>Barttyp
 <string>Bartfarbe (Grundton)
 <string>Bartfarbe (Akzent)
 <string>Bart-Farbverteilung
 <string>Bart-Übergangsstärke
 <string>Augenform-Verbindung
-<string>Verbinde zwei Augentypen. Das Verhältnis und die Stärke können gering angepasst werden.
+<string>Verbinde zwei Augentypen. Das Verhältnis und die Stärke können präzise angepasst werden.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
@@ -133,7 +133,7 @@
 <string>Wimperndichte
 <string>Verschiedene Augen
 <string>Nasenform-Verbindung
-<string>Verbinde zwei Nasentypen. Das Verhältnis und die Stärke können gering angepasst werden.
+<string>Verbinde zwei Nasentypen. Das Verhältnis und die Stärke können präzise angepasst werden.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_04_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_04_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_04_02
@@ -146,14 +146,14 @@
 <string>Nasenrückenhöhe
 <string>Nasenflügel-Winkel
 <string>Mundform-Verbindung
-<string>Verbinde zwei Mundtypen. Das Verhältnis und die Stärke können gering angepasst werden.
+<string>Verbinde zwei Mundtypen. Das Verhältnis und die Stärke können präzise angepasst werden.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
 <string>Farbe der Zähne
 <string>Zahnfärbung – Farbe
-<string>Zahnfärbung – Deckkraft
+<string>Zahnfärbung – Transparenz
 <string>Mundbreite
 <string>Mundposition
 <string>Mundtiefe
@@ -184,7 +184,7 @@
 <string>Falten
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_08_04
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_08_05
-<string>Falten bei Gesichtsausdrücken
+<string>Mimikfalten
 <string>Passe die Menge der Falten an, die bei Gesichtsausdrücken dargestellt wird.
 <string>Schwach
 <string>Stark
@@ -196,7 +196,7 @@
 <string>Farbe Make-up/Bemalung 1
 <string>Farbe Make-up/Bemalung 2
 <string>Farbe Make-up/Bemalung 3
-<string>Deckkraft
+<string>Transparenz
 <string>Größe
 <string>Breite
 <string>Höhe
@@ -206,7 +206,7 @@
 <string>Standardeinstellungen
 <string>Möchtest du dieses Make-up/diese Bemalung<lf>auf die Standardeinstellungen zurücksetzen?
 <string>Make-up/Bemalung tauschen
-<string>Möchtest du die Einstellungen für dieses Make-up/<lf>diese Bemalung mit anderen Einstellungen tauschen?
+<string>Aktuelles Make-up/aktuelle Bemalung mit anderen<lf>Make-up-/Bemalungsschichten tauschen.
 <string>Make-up/Bemalung 1
 <string>Make-up/Bemalung 2
 <string>Make-up/Bemalung 3
@@ -230,7 +230,7 @@
 <string>Vordefiniertes Aussehen
 <string>(Detaileinstellungen)
 <string>Felynen-Sprache
-<string>Sämtliche Palicos, die anderer Spieler eingeschlossen, sprechen die Felynen-Sprache. (Anpassbar unter Optionen.)
+<string>Sämtliche Felynen, auch dein Palico, verwenden<lf>die Felynen-Sprache. (Diese Option ist in den<lf>Optionen verfügbar.)
 <string>Stimme
 <string>Stimmhöhe
 <string>Die Anpassung der Stimmhöhe kann die Stimme deines Charakters schwer verständlich machen.
@@ -246,7 +246,7 @@
 <string>Muster
 <string>Musterung 1
 <string>Musterung 2
-<string>Diese Einstellung überschreibt bei Überschneidungen „Musterung 1“.
+<string>Musterung 2 hat bei Überschneidungen Priorität über Musterung 1.
 <string>Ohrenform-Verbindung
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_01
@@ -269,7 +269,7 @@
 <string>Musterungsfarbe
 <string>Musterung 1 – Farbe
 <string>Musterung 2 – Farbe
-<string>Deckkraft
+<string>Transparenz
 <string>Größe
 <string>Breite
 <string>Höhe
@@ -296,7 +296,7 @@
 <string>Möchtest du die Standardeinstellungen der<lf>gewählten Einstellungen wiederherstellen?
 <string>Möchtest du alle Einstellungen<lf>zum vordefinierten Aussehen zurücksetzen?
 <string>Überprüfen/Anpassen
-<string>Bearbeiten
+<string>Design
 <string>Farbeinstellungen
 <string>Design
 <string>Typ {0}
@@ -348,8 +348,8 @@
 <string>Verletzt
 <string>Gesichtsausdruck (Palico)
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> Beleuchtung positionieren
-<string><ICON UI_LIST_TRIGGER_L2>/<ICON UI_LIST_TRIGGER_R2> Beleuchtung positionieren
+<string><ICON PAD PL_DUMMY_MOVE> Lichtquelle positionieren
+<string><ICON MKB UI_LIST_TRIGGER_L2>/<ICON MKB UI_LIST_TRIGGER_R2> Lichtquelle positionieren
 <string>UI ausblenden
 <string>Design: Jäger
 <string>Design: Palico
@@ -367,20 +367,20 @@
 <string>   Hautsättigung
 <string>Aussehen verändern
 <string>Möchtest du die Bearbeitung<lf>des Aussehens abschließen?
-<string>Jäger bearbeiten
+<string>Charakter bearbeiten
 <string>Name ändern
 <string>Ändere den Namen deines Charakters.
-<string>Der Name des Jägers wird geändert.<lf><COLOR preset="TXT_Accent">Es kann einige Zeit dauern, bis Namensänderungen in<lf>einigen Inhalten wiedergegeben werden.<lf>Der neue Name wird manchmal nicht angezeigt.</COLOR>
+<string>Der Name deines Charakters wird geändert.<lf><COLOR preset="TXT_Accent">Es kann etwas dauern, bis die Änderung<lf>überall umgesetzt ist, und es kann Fälle geben,<lf>in denen die Änderung nicht sichtbar wird.</COLOR>
 <string>Möchtest du alle Änderungen verwerfen und<lf>die Bearbeitung verlassen?<lf><COLOR preset="TXT_Accent">(Es wird kein Charakter-Bearbeitungsgutschein<lf>verbraucht.)</COLOR>
-<string>Möchtest du die Änderungen speichern?<lf><COLOR preset="TXT_Accent">(Es wurden keine besonderen Änderungen vorgenommen.<lf>Es wird kein Charakter-Bearbeitungsgutschein<lf>verbraucht.)</COLOR>
+<string>Möchtest du die Änderungen speichern?<lf><COLOR preset="TXT_Accent">(Es wurden keine besonderen Änderungen<lf>vorgenommen. Es wird kein Charakter-<lf>Bearbeitungsgutschein verbraucht.)</COLOR>
 <string>Möchtest du die Änderungen speichern?<lf><COLOR preset="TXT_Accent">(1 Charakter-Bearbeitungsgutschein wird verbraucht.)</COLOR>
 <string>Schließe die Bearbeitung deines Charakters ab.
 <string>Palico bearbeiten
 <string>Name ändern
 <string>Ändere den Namen deines Palicos.
-<string>Der Name des Palicos wird geändert.<lf><COLOR preset="TXT_Accent">Es kann einige Zeit dauern, bis Namensänderungen in<lf>einigen Inhalten wiedergegeben werden.<lf>Der neue Name wird eventuell nicht sofort angezeigt.</COLOR>
+<string>Der Name deines Palicos wird geändert.<lf><COLOR preset="TXT_Accent">Es kann etwas dauern, bis die Änderung<lf>überall umgesetzt ist, und es kann Fälle geben,<lf>in denen die Änderung nicht sichtbar wird.</COLOR>
 <string>Möchtest du alle Änderungen verwerfen und die<lf>Bearbeitung verlassen?<lf><COLOR preset="TXT_Accent">(Es wird kein Palico-Bearbeitungsgutschein<lf>verbraucht.)</COLOR>
-<string>Möchtest du die Änderungen speichern?<lf><COLOR preset="TXT_Accent">(Es wurden keine besonderen Änderungen vorgenommen.<lf>Dein Palico-Bearbeitungsgutschein wird nicht<lf>verbraucht.)</COLOR>
+<string>Möchtest du die Änderungen speichern?<lf><COLOR preset="TXT_Accent">(Es wurden keine besonderen Änderungen<lf>vorgenommen. Dein Palico-Bearbeitungs-<lf>gutschein wird nicht verbraucht.)</COLOR>
 <string>Möchtest du die Änderungen speichern?<lf><COLOR preset="TXT_Accent">(1 Palico-Bearbeitungsgutschein wird verbraucht.)</COLOR>
 <string>Bearbeitung deines Palicos abschließen.
 <string>Zufälliges Gesicht

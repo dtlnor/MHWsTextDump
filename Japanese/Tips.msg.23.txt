@@ -15,7 +15,7 @@
 <string>速射モード
 <string>速射モード中はエネルギーを消費して<lf>特定の弾を一度に連続発射する
 <string>練気ゲージの色について
-<string>気刃大回転斬りなど特定の攻撃を当てると<lf>練気ゲージの色が上昇し攻撃力が上昇する
+<string>気刃大回転斬りなど特定の攻撃を当てると<lf>練気ゲージの色が変化し攻撃力が上昇する
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -41,9 +41,9 @@
 <string>剥ぎ取り
 <string>討伐したモンスターからは<lf><ICON PL_POP>で素材が剥ぎ取れる
 <string>武器をおさめて追いかけよう
-<string>モンスターが離れた時は、<ICON PL_WEAPON_OFF>：武器をおさめ、<lf><ICON PL_DASH>：ダッシュで追いかけよう。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>アイテムを補充しよう
-<string>力尽きた場合、追加の支給品が届く。<lf><ICON PL_ACCESS_ITEM_BAG>で確認しよう。
+<string><REF MsgGUI600000_Tips_EXP_40>
 <string>モンスターの動きをよく見よう
 <string>モンスターは攻撃する前に予兆が存在する<lf>動きをよく見て対処しよう
 <string>モンスターを拘束しよう
@@ -61,13 +61,13 @@
 <string>斬れ味の回復
 <string>攻撃を当てていくと斬れ味が減少する<lf>「砥石」を使って回復しよう
 <string>スタミナの回復
-<string>スタミナの最大値は時間経過で減少する<lf>「携帯用食料」を使うと最大値が回復する
+<string>スタミナの最大値は時間経過で減少する<lf>「携帯食料」を使うと最大値が回復する
 <string>モンスターを追いかけよう
 <string>モンスターが遠くに移動した時は<lf>セクレトに乗って追いかけよう
 <string>フィールドマップ
 <string><ICON PL_MAP_CHANGE>でMAPを開くことができる<lf>目的地を確認する時に活用しよう
 <string>アイテム選択、アイテム使用
-<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>：アイテム選択<lf><ICON PL_ITEM_SLIDER_OPEN>リリース後、<ICON PL_ITEM>：アイテムを使う
+<string><REF MsgGUI600000_Tips_EXP_63>
 <string>支給品の回収
 <string>支給品専用アイテムは<lf>クエスト終了時に回収される
 <string>簡易キャンプの設営候補地
@@ -95,19 +95,15 @@
 <string>砂丘での狩猟
 <string>砂丘の足元は不安定<lf>大きな衝撃で崩れる時に足を取られることも
 <string><REF Gimmick_NAME_m2034503552>
-<string>大きな茂みに屈んで身を寄せると<lf>モンスターに見つかりにくくなる
+<string>モンスターの視界に入る前に屈んで身を<lf>寄せると、モンスターに見つかりにくくなる
 <string><REF Gimmick_NAME_32>
 <string>フックスリンガーなどで衝撃を加えると<lf>岩を落とすことができる
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>衝撃を与えると、ガスを噴出する<lf>ガスにモンスターが触れると麻痺する
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>衝撃を与えると、周囲にミツを飛散させる<lf>その付近では体力回復効果が得られる
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>衝撃を与えると、周囲にミツを飛散させる<lf>その付近では高い体力回復効果が得られる
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>衝撃を与えると閃光を発する。眼前で炸裂<lf>させることでモンスターの目をくらませる
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>転がしているフンはスリンガーに装填可能<lf>スリンガーこやし弾として利用できる
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>背中のミノは手に取り摂取可能<lf>体力回復効果が得られる
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -138,7 +134,7 @@
 <string>武器の属性が無効化している状態<lf>回避を繰り返すか、ウチケシの実を使おう
 <string>盾構え【属性強化】
 <string>ビンを消費し一定時間ガード性能が上昇する<lf>また、斧モードでの攻撃が増える
-<string>三段突きとカウンター突き
+<string>三段突きと溜めカウンター
 <string>中段突きⅢ、上段突きⅢ後の派生攻撃として<lf>４段目の攻撃がおこなえる
 <string>スラッシュゲージを溜めよう
 <string>斧モードの攻撃を当てることで<lf>効率よく回復できる
@@ -178,8 +174,8 @@
 <string>集中特効弾【射鵰】を撃つには<lf>弾の自動回復を待とう
 <string>弾の自動回復を待とう
 <string>集中特効弾【竜吼】を撃つには<lf>弾の自動回復を待とう
-<string>剣撃エネルギーの溜めすぎに注意
-<string>蓄積した剣撃エネルギーはビンにチャージし<lf>使用するが、蓄積し過ぎると攻撃が弾かれる
+<string>攻撃が弾かれたらチャージしよう
+<string>剣撃エネルギーを溜め過ぎて攻撃が弾かれた時<lf><ICON WP09 PL_ATTACK_00>または<ICON WP09 PL_ATTACK_01>でチャージへ派生する
 <string>適正距離を維持して弾を撃とう
 <string>照準がオレンジ色の距離が最適な距離<lf>ダメージも期待できるこの距離を維持しよう
 <string>傷口を狙って攻撃しよう
@@ -189,8 +185,8 @@
 <string>こんがり肉を食べよう
 <string>「こんがり肉」を食べ、体力とスタミナの<lf>最大値を上昇させてから狩猟に出発しよう
 <string>食事をとろう
-<string>食事効果が切れたようだ<lf>食事をとってステータスを上昇させよう
+<string>「携帯焚き火台」を使って食事をとり<lf>ステータスを上昇させよう
 <string>武器切替
-<string><ICON PL_WEAPON_CHANGE>でメイン武器とサブ武器を持ち替える
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>体力の回復
 <string>体力が減っている時は<lf>「回復薬」を使って体力を回復しよう

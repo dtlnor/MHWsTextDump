@@ -2,48 +2,46 @@
 <string>There are 14 weapon types that a hunter<lf>can use on a hunt, each with its own<lf>unique attacks and handling.
 <string>Hunter Weapons
 <string>The <COLOR preset="TXT_Accent">great sword</COLOR> features slow, heavy<lf>movements, but each strike packs a<lf>punch. Try out different weapon types<lf>to find the perfect fit for your playstyle.
-<string>Camera Focus
-<string>Lock on to a target with <ICON PL_CAMERA_LOCK_CHANGE> to keep<lf>a target centered on your screen and<lf>wait for an opportunity to attack.<lf>(This setting can be adjusted in Options.)
+<string>Targeting Monsters
+<string>Focus on a target with <ICON PL_CAMERA_LOCK_CHANGE> to keep<lf>it centered on your screen while you<lf>wait for an opportunity to attack.<lf>(Controls can be changed in Options.)
 <string><REF ActionGuideDataNameText_Wp07_m43537492>
 <string>Hold <ICON WP07 PL_ATTACK_01> and then release it for a <COLOR preset="TXT_Accent">Charged<lf>Shelling</COLOR> attack that will damage even<lf>hard monster parts. The number of hits<lf>increases the longer it's charged.
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Use <ICON WP12 PL_ATTACK_01> to load the special ammo,<lf><COLOR preset="TXT_Accent">Wyvernheart Ignition</COLOR>. Hold <ICON WP12 PL_ATTACK_SP> to consume<lf>energy that accumulated over time to<lf>unleash a consecutive stream of bullets.
 <string><REF RefStatus_0008_004_01>
-<string>Use <ICON WP13 PL_ATTACK_01> to accumulate energy for <COLOR preset="TXT_Accent">Rapid Fire<lf>Mode</COLOR>. Then consume that energy by<lf>holding <ICON WP13 PL_ATTACK_SP> to fire certain bullets in<lf>a continuous stream.
+<string>Use <ICON WP13 PL_ATTACK_01> to accumulate energy for <COLOR preset="TXT_Accent">Rapid<lf>Fire Mode</COLOR>. Then consume that energy<lf>by holding <ICON WP13 PL_ATTACK_SP> to fire certain bullets<lf>in a continuous stream.
 <string>Spirit Gauge Colors
-<string>Landing certain attacks such as Spirit<lf>Roundslash will cause the <COLOR preset="TXT_Accent">Spirit Gauge</COLOR><lf>to change color, increasing the power of<lf>your attacks. 
+<string>Landing certain attacks such as Spirit<lf>Roundslash will cause the <COLOR preset="TXT_Accent">Spirit Gauge</COLOR><lf>to change color, increasing the power<lf>of your attacks. 
 <string>Red Spirit Gauge
 <string>When the Spirit Gauge is red, it will<lf>remain maxed out, and some attacks<lf>will be enhanced.
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
-<string>You can use the powerful <COLOR preset="TXT_Accent">Wyvern's Fire</COLOR><lf>attack at the cost of one segment of the<lf>Wyvern Gauge. The gauge fills by<lf>successfully landing attacks and<lf>performing guards.
+<string>You can perform the powerful <COLOR preset="TXT_Accent">Wyvern's<lf>Fire</COLOR> at the cost of one half of the Wyvern's<lf>Fire Gauge. The gauge fills automatically,<lf>or by successfully landing attacks.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the <COLOR preset="TXT_Accent">open wound</COLOR> will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>SOS Flare
-<string>After a quest begins, you can send <COLOR preset="TXT_Accent">SOS<lf>Flares</COLOR> to request help from other players.<lf>You can form parties of up to four people.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>SOS Flares
+<string>After a quest begins, you can request<lf>help from other players by firing an <COLOR preset="TXT_Accent">SOS<lf>Flare</COLOR>. Hunting parties consist of four<lf>members, so up to three other players<lf>may join.
 <string>Support Hunters
-<string>If a certain amount of time passes after<lf>an SOS Flare was sent but no other<lf>players join, then <COLOR preset="TXT_Accent">Support Hunters</COLOR><lf>will come to your aid.
+<string>If a certain amount of time passes after<lf>an SOS Flare was fired but no other<lf>players join, then <COLOR preset="TXT_Accent">Support Hunters</COLOR><lf>will come to your aid.
 <string>Support Hunters
 <string>SOS Flares prioritize players. When the<lf>party is full, a player can switch places<lf>with a Support Hunter.
 <string>Support Hunters
 <string>Support Hunters are hunters from other<lf>units of the expedition team. They'll help<lf>you on hunts until other players can fill<lf>out your party's ranks.
 <string>Supply Items
-<string>You'll be provided some items at the<lf>start of each quest. Accept them anytime<lf>with <ICON PL_ACCESS_ITEM_BAG>. <COLOR preset="TXT_Accent">Supply Items</COLOR> will be added<lf>according to the conditions of a hunt.
-<string>EZ Supply Items
-<string>Some supply items include <COLOR preset="TXT_Accent">EZ </COLOR>in the<lf>name. These items can only be used<lf>during quests, and must be returned<lf>when the quest ends.
-<string>Retrying Quests
-<string>If you fail a hunt on a monster from<lf>the Progress Guide, you can try to take<lf>on the quest again.
-<string>Re-accepting Assignments
-<string>You can re-accept an assignment either by<lf><COLOR preset="TXT_Accent">attacking the target monster</COLOR> in the locale<lf>or going to <COLOR preset="TXT_Accent">Assignments</COLOR> in the Quest Menu.
-<string>Retrying Quests
-<string>Raise your status by eating before<lf>retrying a quest, and when things are<lf>looking rough use an SOS Flare to invite<lf>other players and Support Hunters to help.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_64>
+<string>Quest-only Supply Items
+<string>Some items included as quest supplies<lf>are part of a specific <COLOR preset="TXT_Accent">Supply Item</COLOR><lf>category. These items can only be used<lf>during quests and must be returned<lf>when the quest ends.
+<string>Redoing Assignments
+<string>If you fail to hunt a monster in the<lf>Progress Guide, you can retry the quest<lf>by accepting the <COLOR preset="TXT_Accent">Assignment</COLOR> again.
+<string>Redoing Assignments
+<string>Boost your stats by eating before<lf>retrying a quest and use an SOS Flare<lf>if things start looking rough to invite<lf>other players and Support Hunters <lf>to help.
 <string>Moving on a Seikret
-<string>Use <ICON PL_PT_CALL> to mount your Seikret and you will<lf>move automatically toward your objective.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_68>
 <string>Moving on a Seikret
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>Tent
+<string>Your Tent
 <string>You and your Palico need to be prepared<lf>for hunts. Use your <COLOR preset="TXT_Accent">Tent</COLOR> to change<lf>equipment and organize your item pouch.
 <string>BBQ Grilling
-<string>You can cook <COLOR preset="TXT_Accent">meals</COLOR> for yourself using rations or<lf>other ingredients by using the Portable BBQ Grill<lf>out in the field or via the BBQ Menu in your tent.
+<string>You can cook <COLOR preset="TXT_Accent">meals</COLOR> for yourself with<lf>rations or other ingredients by using<lf>the Portable BBQ Grill out in the field<lf>or via the BBQ Menu in your tent.
 <string>BBQ Grilling
 <string><COLOR preset="TXT_Accent">Meals</COLOR> will temporarily increase stats<lf>such as health, stamina, and attack<lf>power. The effects differ depending<lf>on the ingredients used.
 <string>Health & Stamina Gauges
@@ -51,71 +49,71 @@
 <string>Switching Weapons
 <string>You can equip a <COLOR preset="TXT_Accent">primary</COLOR> and a <COLOR preset="TXT_Accent">secondary</COLOR><lf>weapon. Go to Change Equipment to select<lf>the weapons that fit your needs.
 <string>Switching Weapons
-<string>Press <ICON PL_WEAPON_CHANGE> to switch to your <COLOR preset="TXT_Accent">secondary<lf>weapon</COLOR> in your Seikret's weapon sling.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_89>
 <string>Transferring Items
-<string>Put items for hunts in your item pouch.<lf>You can also auto-replenish your items<lf>at your item box with <ICON UI_SUB_MENU> in the Sub-menu.
+<string>Put items for hunts in your item pouch.<lf>You can also restock your items at your<lf>item box with <ICON UI_SUB_MENU> in the Sub-menu.
 <string>Automatically Storing Materials
 <string>Materials obtained from hunts are<lf>automatically stored in your item box<lf>each time you access your tent menu.
 <string>Pop-up Camps
-<string>Pop-up camps let you manage your items<lf>and equipment, serve as a fast travel<lf>destination, and can be used as a return<lf>point after fainting.
-<string>Try adding <COLOR preset="TXT_Accent">additional ingredients</COLOR> to<lf>your dishes. They'll increase the<lf>efficacy and extend the length of Meal<lf>Effects, and activate <COLOR preset="TXT_Accent">Food Skills</COLOR>.
+<string>Pop-up Camps let you manage your items<lf>and equipment, serve as a fast travel<lf>destination, and can be used as a return<lf>point after fainting.
+<string>Try adding <COLOR preset="TXT_Accent">additional ingredients</COLOR><lf>to your dishes. They'll increase the<lf>efficacy and extend the length of<lf>Meal Effects and activate <COLOR preset="TXT_Accent">Food Skills</COLOR>.
 <string>Additional Ingredients
 <string>On top of additional ingredients, you<lf>can add <COLOR preset="TXT_Accent">finishing touches</COLOR> to a dish,<lf>further increasing Meal Effects.
 <string>Finishing Touches
-<string>Use the <COLOR preset="TXT_Accent">BBQ</COLOR> option in the Portable BBQ<lf>Grill anytime to grill up some meat or<lf>throw some rations together to make<lf>a meal with <COLOR preset="TXT_Accent">BBQ Grilling</COLOR>.
-<string><REF Item_IT_25>
-<string>You can make basic preparations for<lf>hunts at Makeshift Camps, such as<lf>replenishing items and changing<lf>equipment.<lf><ICON UI_LIST_TRIGGER_L1>/<ICON UI_LIST_TRIGGER_R1>: Switch Camp Menu
+<string>Use the Portable BBQ Grill to cook up<lf>some meat with the <COLOR preset="TXT_Accent">Grill Meat</COLOR> option<lf>or select <COLOR preset="TXT_Accent">Grill a Meal</COLOR> to throw some<lf>rations together for a proper meal.
+<string>The Portable BBQ Grill
+<string>You can make basic preparations for<lf>hunts at Makeshift Camps, such as<lf>replenishing items and changing<lf>equipment.<lf>Switch Camp Menu: Press <ICON UI_LIST_TRIGGER_L1>/<ICON UI_LIST_TRIGGER_R1>
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_126
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_126
-<string>Quest Counter
+<string>The Quest Counter
 <string>You can access the quest counter at your<lf>tent or by talking to your Handler. The<lf>quest counter allows you to <COLOR preset="TXT_Accent">post or join<lf>quests</COLOR>.
-<string>Quest Counter
-<string>In <COLOR preset="TXT_Accent">Settings</COLOR>, you can change the maximum number<lf>of participants for a quest as well as other settings<lf>like who will join you when firing an SOS Flare.
+<string>The Quest Counter
+<string>In <COLOR preset="TXT_Accent">Settings</COLOR>, you can change the maximum<lf>number of participants for a quest as<lf>well as other settings such as who will<lf>join you when firing an SOS Flare.
 <string>You now have access to lobbies, where<lf>you can chat with friends and engage in<lf>multiplayer with other hunters. (Online<lf>connection required.)
 <string>Registering Friends
-<string>You can invite other players to be friends via<lf>the <COLOR preset="TXT_Accent">Lobby Members</COLOR> or <COLOR preset="TXT_Accent">Hunter ID Search</COLOR><lf>options from the Member List in the start menu.
+<string>You can invite other players to be friends<lf>via the <COLOR preset="TXT_Accent">Lobby Members</COLOR> or <COLOR preset="TXT_Accent">Hunter ID<lf>Search</COLOR> options from the Member List in the<lf>start menu.
 <string>Lobbies and Multiplayer
 <string>SOS Flares and Multiplayer
-<string>You can send an SOS Flare and play with <lf>hunters worldwide, regardless of whether<lf>you've joined a lobby or not.
+<string>You can send an SOS Flare and play<lf>with hunters worldwide, regardless of<lf>whether you've joined a lobby or not.
 <string>How to Change Lobbies
-<string>If you want to change which lobby you<lf>are currently in, talk to Alma to access<lf>the Quest Counter and use the <COLOR preset="TXT_Accent">Change<lf>Lobby Menu</COLOR>
+<string>If you want to change which lobby you<lf>are currently in, talk to Alma to access<lf>the Quest Counter and use the <COLOR preset="TXT_Accent">Change<lf>Lobby Menu</COLOR>.
 <string>Link Party and Multiplayer
-<string>Form a Link Party to explore and complete<lf>quests in multiplayer with a fixed group of<lf>members. See the Play Guide for details.
-<string>Focus Strike
+<string>Form a Link Party to explore and<lf>complete quests in multiplayer with<lf>a fixed group of members. See the<lf>Play Guide for details.
+<string>Focus Strikes
 <string>Press <ICON WP00 PL_ATTACK_SP_B> while holding <ICON WP00 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy it, dealing a large amount<lf>of damage and stunning the enemy.
 <string>Focus Mode
-<string>Hold <ICON PL_AIM> to activate Focus Mode. This mode<lf>allows you to attack in the direction of<lf>a target using <ICON PL_DUMMY_CAMERA>.
-<string><REF Item_IT_161>
+<string>Hold <ICON PL_AIM> to activate <COLOR preset="TXT_Accent">Focus Mode</COLOR>.<lf>This mode allows you to attack in the<lf>direction of a target with <ICON PL_DUMMY_CAMERA>.
+<string>The Ghillie Mantle
 <string>When used outside of battle, your<lf>presence will be temporarily hidden<lf>from monsters. Once used, you will not<lf>be able to use it for a period of time.
-<string><REF Item_IT_182>
-<string>An item you can fire from your Slinger.<lf>Combine it with certain items<lf>for special effects.
-<string><REF Item_IT_18>
+<string>Throwing Knives
+<string>An item you can fire from your Slinger.<lf>Combine it with certain items to add<lf>special effects.
+<string>The Capture Net
 <string>An item you can fire from your Slinger.<lf>Use <ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA> to aim at Endemic Life and<lf>press <ICON PL_SLINGER_SHOOT> to fire. If it hits, it's yours!
-<string><REF Item_IT_162>
-<string>You can fish at bodies of water that<lf>have fishy shadows. Ready your <COLOR preset="TXT_Accent">Fishing<lf>Rod </COLOR> with <ICON PL_ITEM>, then aim for a shadow with<lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA> and press <ICON PL_SLINGER_SHOOT> to cast your lure<lf>near it.
+<string>The Fishing Rod
+<string>You can cast a line at bodies of water<lf>with fishy shadows. Ready your <COLOR preset="TXT_Accent">Fishing<lf>Rod </COLOR>with <ICON PL_ITEM>, aim for a shadow with<lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>, and use <ICON PL_FISHING_ACTION> to cast your lure<lf>near it.
 <string><REF Item_IT_23>
 <string>Use your <COLOR preset="TXT_Accent">Binoculars</COLOR> to look at large<lf>monsters and gather information on them.<lf>Information will be unlocked through<lf>game progress.
-<string><REF Item_IT_195>
-<string>An item you can fire from your Slinger.<lf>Fire at a target to never lose your<lf>prey, even in a group.
+<string>Paint Pods
+<string>An item you can fire from your Slinger.<lf>Fire at a target to never lose your prey,<lf>even in a group.
 <string><REF MsgGUI030203_0000>
 <string>After organizing your item pouch to<lf>match your weapon type and hunting<lf>objective, you can register it as a<lf><COLOR preset="TXT_Accent">loadout</COLOR> to instantly refill your item<lf>pouch with that loadout's contents.
-<string>Hunter's Set
+<string>Hunter's Loadout
 <string>Use <COLOR preset="TXT_Accent">View Loadout</COLOR> to check and set<lf>equipment, items, and Radial Menus<lf>to loadouts at the same time.
 <string>Grilling Meat
-<string>Keep an eye on the char of the meat as<lf>you're cooking and press <ICON UI_DECIDE> to finish.<lf>Once it's roasted you then must cut it<lf>into pieces! Press <ICON UI_DECIDE> with good timing<lf>to increase the number of cuts.
+<string>Keep an eye on the char of the meat<lf>as you're cooking and press <ICON PL_UI_DECIDE> to finish.<lf>The next challenge is to get the perfect<lf>slice! Press <ICON PL_UI_DECIDE> with good timing<lf>to increase the number of cuts.
 <string>Grilling Meals
 <string>Use your <COLOR preset="TXT_Accent">Rations</COLOR> to prepare a meal.<lf>Different ingredients have different<lf>effects, so make sure to eat up before<lf>heading out on a hunt!
 <string>Moving Between Lobbies
 <string>Lobbies are places where players can gather. <lf>There are different types to suit your needs,<lf>such as recommended and private lobbies.
 <string>Recommended Lobby
-<string>Select <COLOR preset="TXT_Accent">Recommended Lobbies</COLOR> to<lf>automatically join the most popular<lf>lobby based on your lobby settings.
+<string>Select <COLOR preset="TXT_Accent">Recommended Lobby</COLOR> to<lf>automatically join the most popular<lf>lobby based on your lobby settings.
 <string>Private Lobby
 <string>A <COLOR preset="TXT_Accent">Private Lobby</COLOR> can only be joined by<lf>searching for a lobby ID. An ideal choice<lf>for those who wish to play with specific<lf>members.
 <string>Online Single Player
 <string>Online Single Player is recommended for<lf>solo players. This mode lets you pause<lf>the game from the Start Menu and even<lf>engage in temporary multiplayer via SOS<lf>Flares.
-<string>Training Area Meownager
-<string>The Training Area Meownager can help<lf>you mix up your training experience, such<lf>as changing hide toughness and wound<lf>settings. Adjust the options to get the<lf>most out of your training.
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
+<string>The Training Area Meownager
+<string>The Training Area Meownager can help<lf>you mix up your training experience by<lf>changing the hide toughness and wound<lf>settings of the High Purrformance Barrel<lf>Puncher. Adjust the options to get the<lf>most out of your training.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
 <string>Assignment: Doshaguma Hunt
 <string>A <COLOR preset="TXT_Accent">Doshaguma</COLOR> is rampaging in Windward<lf>Plains. Accept the quest to hunt it once<lf>you've prepared at your tent.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -128,118 +126,118 @@
 <string>Congratulations on completing<lf>the <COLOR preset="TXT_Accent">Doshaguma hunt</COLOR>!<lf><lf>We hope you look forward to the release of<lf>Monster Hunter Wilds.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_293
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_293
-<string>Environment Link
+<string>Environment Links
 <string>An <COLOR preset="TXT_Accent">Environment Link</COLOR> is a feature of Link<lf>Parties. Use it to invite players to your<lf>environment and enjoy investigations<lf>in multiplayer mode.
-<string>Environment Link
+<string>Environment Links
 <string>Use <COLOR preset="TXT_Accent">Invite to Environment Link</COLOR> in the<lf>Start Menu to gather Link Members and<lf>head out on investigations together.
-<string>Environment Link
-<string>Environment Links may not be available<lf>depending on your progress in the story.<lf>If this happens, proceed with missions first.
+<string>Environment Links
+<string>Environment Links may not be available<lf>depending on your progress in the story.<lf>If this happens, proceed with missions<lf>first.
 <string>Hunting Horn Performances
-<string>Each attack with the hunting horn adds<lf>a <COLOR preset="TXT_Accent">note</COLOR> to the musical staff. Line up the<lf>corresponding notes to a <COLOR preset="TXT_Accent">melody</COLOR> to stock<lf>it, then execute a <COLOR preset="TXT_Accent">Performance</COLOR> with <ICON WP05 PL_ATTACK_SP><lf>to trigger the effects.
+<string>Each attack with the hunting horn adds<lf>a <COLOR preset="TXT_Accent">note</COLOR> to the musical staff. Line up the<lf>corresponding notes to stock a <COLOR preset="TXT_Accent">melody</COLOR>,<lf>then execute a <COLOR preset="TXT_Accent">Performance</COLOR> with <ICON WP05 PL_ATTACK_SP><lf>to trigger the effects.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP05 PL_ATTACK_SP_B> while holding <ICON WP05 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP05 PL_ATTACK_SP_B> while holding <ICON WP05 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Notes During Focus Strikes
 <string>Press <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> with good<lf>timing during a Focus Strike to play<lf>up to five notes.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP06 PL_ATTACK_SP_B> while holding <ICON WP06 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP06 PL_ATTACK_SP_B> while holding <ICON WP06 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP09 PL_ATTACK_SP_B> while holding <ICON WP09 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP09 PL_ATTACK_SP_B> while holding <ICON WP09 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP02 PL_ATTACK_SP_B> while holding <ICON WP02 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP02 PL_ATTACK_SP_B> while holding <ICON WP02 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP01 PL_ATTACK_SP_B> while holding <ICON WP01 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP01 PL_ATTACK_SP_B> while holding <ICON WP01 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP07 PL_ATTACK_SP_B> while holding <ICON WP07 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP07 PL_ATTACK_SP_B> while holding <ICON WP07 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP11 PL_ATTACK_SP_B> while holding <ICON WP11 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP11 PL_ATTACK_SP_B> while holding <ICON WP11 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP13 PL_ATTACK_SP_B> while holding <ICON WP13 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP13 PL_ATTACK_SP_B> while holding <ICON WP13 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP12 PL_ATTACK_SP_B> while holding <ICON WP12 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP12 PL_ATTACK_SP_B> while holding <ICON WP12 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP08 PL_ATTACK_SP_B> while holding <ICON WP08 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP08 PL_ATTACK_SP_B> while holding <ICON WP08 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP10 PL_ATTACK_SP_B> while holding <ICON WP10 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. The Focus Strike consists<lf>of an attack combo which ends with firing<lf>your Kinsect, which can break wounds and<lf>will also harvest three different Extract<lf>colors at once.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP10 PL_ATTACK_SP_B> while holding <ICON WP10 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>, an attack that unleashes<lf>multiple hits and destroys wounds.<lf>It also fires your Kinsect, which will<lf>harvest all three Extracts at once.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP04 PL_ATTACK_SP_B> while holding <ICON WP04 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP04 PL_ATTACK_SP_B> while holding <ICON WP04 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Wounds
-<string>Attack the same body part of a monster<lf>repeatedly to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>Attacking the wound will inflict more<lf>damage, so use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target it.
-<string>Focus Strike
-<string>Press <ICON WP03 PL_ATTACK_SP_B> while holding <ICON WP03 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the enemy.
+<string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
+<string>Focus Strikes
+<string>Press <ICON WP03 PL_ATTACK_SP_B> while holding <ICON WP03 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Echo Bubbles
 <string>Place an <COLOR preset="TXT_Accent">Echo Bubble</COLOR> with <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>.<lf>Each Echo Bubble grants a special<lf>effect (based on the hunting horn),<lf>and also triggers extra damage on<lf>weapon attacks. Performances can<lf>still be used while a bubble is active.
 <string>Special Performances
-<string>After playing yellow + red + yellow +<lf>white notes, use <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>to execute a <COLOR preset="TXT_Accent">Special Performance</COLOR>.<lf>(Notes and effects vary by weapon.)
+<string>After playing stored notes in order<lf>of <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00>,<lf>use <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> to execute<lf>a <COLOR preset="TXT_Accent">Special Performance</COLOR>.<lf>(Notes and effects vary by weapon.)
 <string>Offset Rising Slash
-<string>Hold <ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01> to perform an Offset Rising<lf>Slash, which can offset a monster's attack.<lf>If your timing is perfectly precise, you'll<lf>pull off a Perfect Offset that can knock<lf>a monster back!
+<string>Hold <ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01> and release to charge and<lf>perform an Offset Rising Slash, which can<lf>offset a monster's attack. If you release<lf>an Offset Rising Slash right as a monster<lf>attacks, it may knock the monster back.
 <string>Iai Spirit Slash from Special Sheathe
 <string>Pressing <ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> after an attack<lf>will perform a <COLOR preset="TXT_Accent">Special Sheathe</COLOR>.<lf>While sheathed, you can press <ICON WP03 PL_ATTACK_SP><lf>in time with a monster's attack to<lf>unleash a powerful <COLOR preset="TXT_Accent">Iai Spirit Slash</COLOR>.
 <string>Counter Slash from Perfect Guard
 <string>Time your guard with a monster's<lf>attack to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>.<lf>You can unleash a powerful Counter Slash<lf>attack after a Perfect Guard with <ICON WP01 PL_ATTACK_00>.
 <string>Demon Dodge & Demon Boost Mode
-<string>You can dodge faster while in Demon<lf>Mode. After a successful Perfect Evade,<lf>you will automatically perform an attack<lf>and enter <COLOR preset="TXT_Accent">Demon Boost Mode</COLOR>,<lf>temporarily enhancing your abilities.
+<string>You can dodge faster while in Demon<lf>Mode. Perform a successful Perfect Evade,<lf>to automatically unleash an attack and<lf>enter <COLOR preset="TXT_Accent">Demon Boost Mode</COLOR>, which will<lf>temporarily enhance your abilities.
 <string>Charged Step
 <string>You can dodge and reposition while<lf>preserving your charge level by pressing<lf><ICON WP04 PL_ATTACK_01> while charging (hold <ICON WP04 PL_ATTACK_SP>).
 <string>Perfect Guard
-<string>Time your guard with a monster's<lf>attack to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>.<lf>You can unleash a powerful follow-up<lf>attack after a Perfect Guard with <ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>.
+<string>Time your guard with a monster's<lf>attack to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>.<lf>Use <ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> after a Perfect Guard<lf>to perform a <COLOR preset="TXT_Accent">Grand Retribution Thrust</COLOR>.
 <string>Perfect Guard and Reload
-<string>Time <ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> well with an enemy's attack<lf>to <COLOR preset="TXT_Accent">Reload while performing a Perfect Guard</COLOR>.<lf>If successful, you will be able to perform<lf>a powerful attack.
+<string>Time <ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> well with an enemy's<lf>attack to <COLOR preset="TXT_Accent">Reload while performing<lf>a Perfect Guard</COLOR>. If successful, you will<lf>be able to perform a powerful attack.
 <string>Switching to Sword Mode
-<string>Switch to <COLOR preset="TXT_Accent">Sword Mode</COLOR> with <ICON WP08 PL_ATTACK_SP>. You can<lf>unleash powerful attacks in Sword Mode<lf>by consuming the <COLOR preset="TXT_Accent">Switch Gauge</COLOR>.
+<string>Switch to <COLOR preset="TXT_Accent">Sword Mode</COLOR> with <ICON WP08 PL_ATTACK_SP> to unleash<lf>powerful attacks in Sword Mode by<lf>consuming the <COLOR preset="TXT_Accent">Switch Gauge</COLOR>.
 <string>Sword Mode and Axe Mode
-<string>Attacking in <COLOR preset="TXT_Accent">Axe Mode</COLOR> recovers the<lf>depleted gauge. Do this well to raise<lf>the gauge level and switch to Sword Mode.
+<string>Attacking in <COLOR preset="TXT_Accent">Axe Mode</COLOR> will recover the<lf>depleted gauge. Raise the gauge level<lf>to switch back to Sword Mode.
 <string>Axe: Offset Rising Slash
-<string>In Axe Mode, Hold <ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01> to unleash <COLOR preset="TXT_Accent">  Axe:<lf>Offset Rising Slash</COLOR>. It will deal large<lf>damage if you time it well and<lf>successfully offset an attack.
+<string>In Axe Mode, use <ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01> to unleash <COLOR preset="TXT_Accent"><lf>Axe: Offset Rising Slash</COLOR>. It will deal<lf>large damage if you time it well and<lf>successfully offset an attack.
 <string>Sword: Counter Rising Slash
 <string>During Sword Mode, use <ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><lf>to unleash <COLOR preset="TXT_Accent">Sword: Counter Rising Slash</COLOR>.<lf>If you counter successfully, you can<lf>then perform a Double Slash.
 <string>Charging Phials & Axe Mode
-<string>Attack in Sword Mode to accumulate Sword<lf>Energy, then press <ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01> to charge your<lf>phials. (Phials are enhanced when<lf>fully charged.)
+<string>Attack in Sword Mode to accumulate<lf>Sword Energy, then press <ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>to charge your <COLOR preset="TXT_Accent">phials</COLOR>. (Phials become<lf>enhanced when fully charged.)
 <string>Charging Phials & Axe Mode
 <string>Once your phials are charged, switch to<lf><COLOR preset="TXT_Accent">Axe Mode</COLOR> with <ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>. This allows you<lf>to perform more powerful attacks that<lf>consume a phial's energy.
 <string>Perfect Guard
-<string>During Sword Mode, use <ICON WP09 PL_ATTACK_SP> to time your<lf>guard with the opponent's attack to perform<lf>a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>. Immediately after, press <ICON WP09 PL_ATTACK_00><lf>to unleash a Savage Axe Slash.
-<string>Field Survey
+<string>During Sword Mode, use <ICON WP09 PL_ATTACK_SP> to time<lf>your guard with the opponent's attack<lf>to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>. Immediately<lf>after, press <ICON WP09 PL_ATTACK_00> to unleash a Savage Axe<lf>Slash.
+<string>Field Surveys
 <string>Start a <COLOR preset="TXT_Accent">Field Survey</COLOR> by dealing enough<lf>damage to a monster or selecting it from<lf>the icons on the map.
-<string>Field Survey
-<string>Field Surveys allow you to enjoy a<lf>seamless hunting experience by starting<lf>a quest in your current environment.<lf>You can also obtain supplies and rewards<lf>with completion.
-<string>Field Survey
-<string>However, depending on a mission's<lf>progress or certain circumstances, you<lf>might be unable to start a <COLOR preset="TXT_Accent">Field Survey</COLOR><lf>for some monsters.
-<string>Link Party
-<string>Use <COLOR preset="TXT_Accent">Link Party</COLOR> when you wish to play<lf>with your fellow hunters. It lets you<lf>all easily reunite even if you separate<lf>temporarily.
+<string>Field Surveys
+<string>Field Surveys allow you to enjoy<lf>a seamless hunting experience<lf>by creating a quest from your current<lf>environment. These quests also offer<lf>supplies and rewards with completion.
+<string>Field Surveys
+<string>However, <COLOR preset="TXT_Accent">Field Surveys</COLOR> for some<lf>monsters may be unavailable based on<lf>mission progress or certain conditions.
+<string>Link Parties
+<string>Use <COLOR preset="TXT_Accent">Link Parties</COLOR> when you wish to play<lf>with your fellow hunters. It lets you<lf>all easily reunite even if you separate<lf>temporarily.
 <string>Link Party Invitations
 <string>Use <COLOR preset="TXT_Accent">Invite to Link Party</COLOR> in the Start Menu<lf>to invite other players to join a Link Party<lf>of up to four players.
 <string>Link Party Features
-<string>Link Party has a dedicated chat. When<lf>someone in the party starts a quest,<lf>an invitation will automatically be sent<lf>to the other members.
+<string>Link Parties have a dedicated chat. When<lf>someone in the party starts a quest,<lf>an invitation will automatically be sent<lf>to the other members.
 <string>Link Party Features
 <string>The Link Party will remain even after<lf>returning from a quest, making it easy to<lf>take on quests with the same members.
-<string>Environment Link
+<string>Environment Links
 <string>Within a Link Party you can start an<lf><COLOR preset="TXT_Accent">Environment Link</COLOR> to invite members<lf>to play in your environment and conduct<lf>investigations together.
 <string>Fishing Controls
-<string><COLOR preset="TXT_Accent">Aim: </COLOR><ICON PL_AIM><lf><COLOR preset="TXT_Accent">Throw Line: </COLOR><ICON PL_AIM><ICON PLUS><ICON PL_SLINGER_SHOOT>
+<string><COLOR preset="TXT_Accent">Aim: </COLOR><ICON PL_AIM><lf><COLOR preset="TXT_Accent">Throw Line: </COLOR><ICON PL_AIM><ICON PLUS><ICON PL_FISHING_ACTION>
 <string>Fishing Controls
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Fishing Controls
@@ -248,14 +246,14 @@
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Fishing Controls
 <string><COLOR preset="TXT_Accent">Restrain Leaping Fish:</COLOR> <ICON PL_MOVE_FRONT> or <ICON PL_MOVE_LEFT> or <ICON PL_MOVE_RIGHT><ICON PLUS><ICON PL_SLINGER_SHOOT>
-<string>Training Area
+<string>The Training Area
 <string>The best place to practice your weapons<lf>is the Training Area at the back of Base<lf>Camp.
-<string>Training Area
+<string>The Training Area
 <string>Practice your hunter moves against the<lf>High Purrformance Barrel Puncher.<lf>Be sure to also check out the Play Guide<lf>in the Start Menu!
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_306
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_306
 <string>Palico Deployment Status
-<string>If you select Standby, your Palico will<lf>not participate in a quest. Don't worry,<lf>your Palico will continue training while<lf>they wait!
+<string>Your trusted Palico partner never<lf>leaves your side as you explore—but<lf>if you change their deployment status<lf>to <COLOR preset="TXT_Accent">Standby</COLOR>, they'll go back to your<lf>tent at the start of quests and wait<lf>there until you're finished.
 <string>Carving Materials
 <string>Press <ICON PL_POP> to <COLOR preset="TXT_Accent">carve materials</COLOR> from hunted<lf>monsters, which are used to forge/upgrade<lf>equipment. If your weapon is drawn, first<lf>sheath it with <ICON PL_WEAPON_OFF>.
 <string>Preparation is Key
@@ -273,21 +271,21 @@
 <string>Critical Range
 <string>When the reticle turns orange while<lf>aiming, this is known as Critical Range.<lf>Firing from this distance will inflict<lf>the most damage, so try to keep the<lf>reticle at orange as you move and attack.
 <string>Switching Ammo
-<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> or <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_323>
 <string>Critical Range
 <string>When the reticle turns orange while<lf>aiming, this is known as Critical Range.<lf>Firing from this distance will inflict<lf>the most damage, so try to keep the<lf>reticle at orange as you move and attack.
 <string>Switching Ammo
-<string>The optimal range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> or <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_325>
 <string>Critical Range
 <string>When the reticle turns orange while<lf>aiming, this is known as Critical Range.<lf>Firing from this distance will inflict<lf>the most damage, so try to keep the<lf>reticle at orange as you move and attack.
 <string>Applying Coatings
-<string>Apply a coating with <ICON WP11 PL_ATTACK_00> to add an effect<lf>to an arrow, then Charge (hold <ICON PL_ATTACK_SP>) to<lf>consume the Trick Arrow Gauge to use them.
+<string>Apply a coating with <ICON WP11 PL_ATTACK_00> to add an effect<lf>to an arrow, then Charge (hold <ICON WP11 PL_ATTACK_SP>)<lf>to activate the effect by consuming the<lf>Trick Arrow Gauge.
 <string>Select Coating
-<string>Select a coating with <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> or <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Compatible coatings vary by weapon.)
-<string>Tracer
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_328>
+<string>Tracers
 <string>A <COLOR preset="TXT_Accent">Tracer</COLOR> will stay stuck in the spot it<lf>hits so the next arrows can track and hit<lf>the same place. Arrows that hit a Tracer<lf>will deal additional damage.
-<string>Tracer
-<string>Firing a Tracer will deplete the Trick<lf>Arrow Gauge. Hold <ICON WP11 PL_ATTACK_SP> to charge the gauge.<lf>Once it's glowing hold <ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ITEM> to fire.
+<string>Tracers
+<string>Firing a Tracer will deplete the Trick<lf>Arrow Gauge. Hold <ICON WP11 PL_ATTACK_SP> to charge the<lf>gauge. Once it's glowing, hold <ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ITEM><lf>to fire.
 <string>Wyverncounter Ignition
 <string>If you time the Wyverncounter Ignition<lf>blast with a monster's attack, it will<lf>deal great damage and stagger it. Hold <ICON WP12 PL_ATTACK_00><lf>and wait for the perfect moment to fire!
 <string>Perfect Guard
@@ -295,21 +293,21 @@
 <string>Extracts
 <string>When a <COLOR preset="TXT_Accent">Kinsect</COLOR> attack hits a monster, it<lf>will collect an <COLOR preset="TXT_Accent">Extract</COLOR>. (The type of<lf>Extract will differ depending on the<lf>body part.)
 <string>Extracts
-<string>The hunter gains temporary enhancements <lf>based on the Extract color. Collecting three<lf>colors boosts attack and alters actions.
-<string>Charge
-<string>You can <COLOR preset="TXT_Accent">Charge</COLOR> the Hammer by holding <ICON WP04 PL_ATTACK_SP>.<lf>Attacks are strengthened based on the<lf>charge level but consume stamina to use.
+<string>You'll gain temporary enhancements <lf>based on the Extract color. Collect<lf>three colors to boost attack power<lf>and alter actions.
+<string>Charging
+<string><COLOR preset="TXT_Accent">Charge</COLOR> your hammer by holding <ICON WP04 PL_ATTACK_SP>.<lf>Your attacks will be strengthened<lf>according to the charge level but<lf>will consume stamina.
 <string>Accepting Side Missions
 <string>You can now accept <COLOR preset="TXT_Accent">Side Missions</COLOR> between<lf>Guild assignments. Talk to the people<lf>in each region to hear their requests.
 <string>Checking Side Missions
-<string>You can also check requests on the Detailed<lf>Map. Check your accepted Side Missions<lf>under <COLOR preset="TXT_Accent">Mission Info</COLOR> in the Start Menu.
-<string>Unlocking High Rank Equipment
-<string>You can now Forge/Upgrade <COLOR preset="TXT_Accent">High Rank<lf>Equipment</COLOR>. Hunt monsters in high-rank<lf>environments to collect rare new materials.
-<string>Unlocking High Rank Equipment
-<string>Monsters in high-rank environments have<lf>the same name but are much stronger, all<lf>the more reason to make stronger equipment.
+<string>You can also check requests on the<lf>Detailed Map, and view your accepted<lf>Side Missions under <COLOR preset="TXT_Accent">Mission Info</COLOR> in the<lf>Start Menu.
+<string>Unlocking High-rank Equipment
+<string>You can now forge/upgrade <COLOR preset="TXT_Accent">High-rank<lf>equipment</COLOR>. Hunt monsters in high-rank<lf>environments to collect rare new materials.
+<string>Unlocking High-rank Equipment
+<string>Monsters in high-rank environments<lf>have the same name but are much<lf>stronger, all the more reason to make<lf>stronger equipment.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>Hold <ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01> to perform an Offset Rising<lf>Slash, which can offset a monster's attack.<lf>If your timing is perfectly precise, you'll<lf>pull off a Perfect Offset that can knock<lf>a monster back!
+<string>Hold <ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01> and release to charge and<lf>perform an Offset Rising Slash, which can<lf>offset a monster's attack. If you release<lf>an Offset Rising Slash right as a monster<lf>attacks, it may knock the monster back.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
@@ -321,7 +319,7 @@
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>You can dodge faster while in Demon<lf>Mode. After a successful Perfect Evade,<lf>you will automatically perform an attack<lf>and enter <COLOR preset="TXT_Accent">Demon Boost Mode</COLOR>,<lf>temporarily enhancing your abilities.
+<string>You can dodge faster while in Demon<lf>Mode. Perform a successful Perfect Evade,<lf>to automatically unleash an attack and<lf>enter <COLOR preset="TXT_Accent">Demon Boost Mode</COLOR>, which will<lf>temporarily enhance your abilities.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
@@ -329,25 +327,25 @@
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>After playing yellow + red + yellow +<lf>white notes, use <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>to execute a <COLOR preset="TXT_Accent">Special Performance</COLOR>.<lf>(Notes and effects vary by weapon.)
+<string>After playing stored notes in order<lf>of <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00>,<lf>use <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> to execute<lf>a <COLOR preset="TXT_Accent">Special Performance</COLOR>.<lf>(Notes and effects vary by weapon.)
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>Time your guard with a monster's<lf>attack to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>.<lf>You can unleash a powerful follow-up<lf>attack after a Perfect Guard with <ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>.
+<string>Time your guard with a monster's<lf>attack to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>.<lf>Use <ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> after a Perfect Guard<lf>to perform a <COLOR preset="TXT_Accent">Grand Retribution Thrust</COLOR>.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>Time <ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> well with an enemy's attack<lf>to <COLOR preset="TXT_Accent">Reload while performing a Perfect Guard</COLOR>.<lf>If successful, you will be able to perform<lf>a powerful attack.
+<string>Time <ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> well with an enemy's<lf>attack to <COLOR preset="TXT_Accent">Reload while performing<lf>a Perfect Guard</COLOR>. If successful, you will<lf>be able to perform a powerful attack.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>In Axe Mode, Hold <ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01> to unleash <COLOR preset="TXT_Accent">  Axe:<lf>Offset Rising Slash</COLOR>. It will deal large<lf>damage if you time it well and<lf>successfully offset an attack.
+<string>In Axe Mode, use <ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01> to unleash <COLOR preset="TXT_Accent"><lf>Axe: Offset Rising Slash</COLOR>. It will deal<lf>large damage if you time it well and<lf>successfully offset an attack.
 <string>A Myriad of Attacks
 <string>During Sword Mode, use <ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><lf>to unleash <COLOR preset="TXT_Accent">Sword: Counter Rising Slash</COLOR>.<lf>If you counter successfully, you can<lf>then perform a Double Slash.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>During Sword Mode, use <ICON WP09 PL_ATTACK_SP> to time your<lf>guard with the opponent's attack to perform<lf>a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>. Immediately after, press <ICON WP09 PL_ATTACK_00><lf>to unleash a Savage Axe Slash.
+<string>During Sword Mode, use <ICON WP09 PL_ATTACK_SP> to time<lf>your guard with the opponent's attack<lf>to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>. Immediately<lf>after, press <ICON WP09 PL_ATTACK_00> to unleash a Savage Axe<lf>Slash.
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
@@ -363,7 +361,7 @@
 <string>A Myriad of Attacks
 <string>There are a variety of other attacks<lf>specific to each weapon apart from<lf>the ones introduced. Try out different<lf>moves, starting with the tutorial on<lf>the previous page.
 <string>A Myriad of Attacks
-<string>If you shoot a <COLOR preset="TXT_Accent">Tracer</COLOR> after loading it with<lf><ICON WP11 PL_ATTACK_SP> (Hold)<ICON PLUS><ICON WP11 PL_ITEM>, the next arrow you shoot<lf>will track the Tracer and hit it. You need <lf>the Trick Arrow Gauge to load a Tracer.
+<string>Hold <ICON WP11 PL_ATTACK_SP> and press <ICON WP11 PL_ITEM> to shoot a <COLOR preset="TXT_Accent">Tracer</COLOR>.<lf>The next arrow you shoot will track the<lf>Tracer and hit it. You need the Trick<lf>Arrow Gauge to load a Tracer.
 <string>Enjoying Multiplayer
 <string>A Lobby has been opened, allowing you<lf>to play in multiplayer with other players.<lf>Check the Play Guide for more information.
 <string>Lobbies and Multiplayer
@@ -371,10 +369,10 @@
 <string>Registering Friends
 <string>You can add Friends from the Player List<lf>in the Start Menu under Lobby Members,<lf>or by searching for a Hunter ID.
 <string>Link Party and Multiplayer
-<string>If you form a Link Party, you can choose<lf>certain members to enjoy quests with<lf>in seamless multiplayer.
+<string>Form a Link Party to explore and<lf>complete quests in multiplayer with<lf>a fixed group of members.
 <string>SOS Flares and Multiplayer
-<string>You can send an SOS Flare and play with <lf>hunters worldwide, regardless of whether<lf>you've joined a lobby or not.
+<string>You can send an SOS Flare and play<lf>with hunters worldwide, regardless of<lf>whether you've joined a lobby or not.
 <string>How to Change Lobbies
-<string>If you want to change which lobby you<lf>are currently in, talk to Alma to access<lf>the Quest Counter and use the <COLOR preset="TXT_Accent">Change<lf>Lobby Menu</COLOR>
+<string>If you want to change which lobby you<lf>are currently in, talk to Alma to access<lf>the Quest Counter and use the <COLOR preset="TXT_Accent">Change<lf>Lobby Menu</COLOR>.
 <string>Wounds
-<string>Makeshift Camp
+<string>Makeshift Camps

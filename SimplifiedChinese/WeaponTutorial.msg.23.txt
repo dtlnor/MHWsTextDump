@@ -15,7 +15,7 @@
 <string>
 <string><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_225253952>
-<string>攻击范围大的横向斩击。<lf><REF ActionGuideDataNameText_Wp00_1449509120>后可衍生出<REF ActionGuideDataNameText_Wp00_m101683424>，<lf><REF ActionGuideDataNameText_Wp00_m1769468672>后可衍生出<REF ActionGuideDataNameText_Wp00_1405301888>。
+<string>大范围的横向斩击。<lf><REF ActionGuideDataNameText_Wp00_1449509120>后可衍生出<REF ActionGuideDataNameText_Wp00_m101683424>，<lf><REF ActionGuideDataNameText_Wp00_m1769468672>后可衍生出<REF ActionGuideDataNameText_Wp00_1405301888>。
 <string>
 <string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_146633456>
@@ -23,11 +23,11 @@
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">蓄力后<ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>带<REF ActionGuideDataNameText_Wp00_m1688233344>效果的<REF ActionGuideDataNameText_Wp00_146633456>攻击。<lf>抓准怪物攻击的时机用<REF RefEquipment_0001_000>攻击，触发<REF ActionGuideDataNameTextCommon_817397888><lf>大成功时可衍生<REF ActionGuideDataNameText_Wp00_1516761216>。
+<string>带<REF ActionGuideDataNameText_Wp00_m1688233344>效果的<REF ActionGuideDataNameText_Wp00_146633456>攻击。<lf>抓准怪物攻击的时机用<REF RefEquipment_0001_000>攻击触发抵消，<lf>若抵消使怪物大幅后仰，可按<ICON WP00 PL_ATTACK_00>衍生追击<lf>十字斩。
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
-<string>举起<REF RefEquipment_0001_000>进行<REF ActionGuideDataNameText_Wp00_m981607168>。<lf><REF ActionGuideDataNameText_Wp00_m1804493312>时可改变防御方向。<lf><REF ActionGuideDataNameText_Wp00_m981607168>时按<ICON WP00 PL_ATTACK_00>可衍生出<REF ActionGuideDataNameText_Wp00_m1022273984>。
+<string>举起<REF RefEquipment_0001_000>进行<REF ActionGuideDataNameText_Wp00_m981607168>。<lf><REF ActionGuideDataNameText_Wp00_m1804493312>时可改变格挡方向。<lf><REF ActionGuideDataNameText_Wp00_m981607168>时按<ICON WP00 PL_ATTACK_00>可衍生出<REF ActionGuideDataNameText_Wp00_m1022273984>。
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP00 PL_ATTACK_00>
 <string>
@@ -190,7 +190,7 @@
 <string>强力的前跳攻击。命中肉质柔软的部位时<lf>会衍生至多段攻击的招式。<lf><lf>从特定攻击衍生时威力会提升。
 <string>
 <string>连段时<ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
-<string>连段时使出<REF ActionGuideDataNameText_Wp01_105498080>较易躲过怪物攻击。<lf><lf><REF ActionGuideDataNameText_Wp01_105498080>时按<ICON WP01 PL_ATTACK_00>会使出<REF ActionGuideDataNameText_Wp01_m56063852>。<REF ActionGuideDataNameText_Wp01_m56063852><lf>是多段攻击，属性伤害和异常状态累积值<lf>较高。抓准时机按<ICON WP01 PL_ATTACK_00>会增加伤害。
+<string>连段时使出<REF ActionGuideDataNameText_Wp01_105498080>较易躲过怪物攻击。<lf><lf><REF ActionGuideDataNameText_Wp01_105498080>时可按<ICON WP01 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp01_m56063852>。致命<lf>连击是多段攻击，属性伤害和状态异常累<lf>积值较高。抓准时机按<ICON WP01 PL_ATTACK_00>会增加伤害。
 <string>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string><ICON WP01 PL_ATTACK_00>
@@ -328,11 +328,11 @@
 <string>
 <string><ICON WP02 PL_DODGE>
 <string><REF ActionGuideDataNameText_Wp02_1262752256>（<REF ActionGuideDataNameText_Wp02_165650304>／<REF ActionGuideDataNameText_Wp02_m661157824>时）
-<string>比通常更快的回避。<lf>成功<REF ActionGuideDataNameText_Wp02_m391958560>时，会在回避的同时攻击，<lf>并进入短时间的强化状态。
+<string>比通常更快的回避。<REF ActionGuideDataNameText_Wp02_m391958560>时会在回避<lf>的同时攻击，并进入短时间的强化状态。<lf><lf><REF ActionGuideDataNameText_Wp02_1516296832>期间不会消耗<REF ActionGuideDataNameText_Wp02_m1003266688>。
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
-<string>对伤口很有效的斩击。<lf>命中伤口时会衍生出纵贯怪物身体并攻击<lf>的<REF ActionGuideDataNameText_Wp02_m719512000>，能破坏多个伤口。
+<string>对伤口很有效的斩击。<lf>命中伤口时会衍生出<REF ActionGuideDataNameText_Wp02_m719512000>，<lf>能纵贯怪物身体并攻击，破坏多个伤口。
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
@@ -344,7 +344,7 @@
 <string>部分动作获得强化的状态。<lf>使出获强化的动作时会消耗<REF ActionGuideDataNameText_Wp02_m1003266688>，鬼人<lf>槽归零时会解除<REF ActionGuideDataNameText_Wp02_m661157824>。
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
-<string><REF ActionGuideDataNameText_Wp02_m391958560>成功时获得的短时间强化状态。<lf>攻击的威力和属性值均会上升，还可以在<lf>回避的同时攻击。
+<string>发动<REF ActionGuideDataNameText_Wp02_m391958560>后获得的短时间强化状态。<lf>攻击的威力和属性值均会上升，还可以在<lf>回避的同时攻击。
 <string>
 <string>【基本连段】
 <string><ICON WP02 PL_ATTACK_00>
@@ -406,7 +406,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
-<string>长按<ICON WP04 PL_ATTACK_SP>就会消耗耐力并蓄力。攻击的种类<lf>会按蓄力时间呈三阶段变化。<lf><lf><REF ActionGuideDataNameText_Wp04_67403672>时按<ICON WP04 PL_ATTACK_01>使出<REF ActionGuideDataNameText_Wp04_m1391311232>，就可以在继续<lf><REF ActionGuideDataNameText_Wp04_67403672>的同时回避怪物的攻击。
+<string>长按<ICON WP04 PL_ATTACK_SP>就会消耗耐力并蓄力。攻击的种类<lf>会按蓄力时间呈三阶段变化。<lf><lf><REF ActionGuideDataNameText_Wp04_67403672>时按<ICON WP04 PL_ATTACK_01>使出<REF ActionGuideDataNameText_Wp04_m1391311232>，就可以在维持<lf><REF ActionGuideDataNameText_Wp04_67403672>的同时回避怪物的攻击。
 <string><REF ActionGuideDataNameText_Wp04_67403672>
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
@@ -513,15 +513,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>设置<REF RefStatus_0006_000_01>的特殊招式。<lf>可以设置符合<REF RefEquipment_0001_005>的<REF RefStatus_0006_000_01>种类。<lf><lf>设置<REF ActionGuideDataNameText_Wp05_m466143936>期间按<ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>，<lf>可发出最多3个<REF RefStatus_0006_000_00>。
+<string>设置<REF RefStatus_0006_000_01>的特殊招式。<lf>可设置的<REF RefStatus_0006_000_01>种类取决于<REF RefEquipment_0001_005>。<lf><lf>设置<REF ActionGuideDataNameText_Wp05_m466143936>期间按<ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>，<lf>可发出最多3个<REF RefStatus_0006_000_00>。
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string>储存旋律后<ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>与普通的<REF ActionGuideDataNameText_Wp05_m208341008>不同，此旋律会发动<REF RefEquipment_0001_005><lf>各自的<REF RefStatus_0008_000_00>。<lf><lf>此旋律一旦储存，便不会被其他旋律覆盖。
+<string>与普通的<REF ActionGuideDataNameText_Wp05_m208341008>不同，此演奏会发动<REF RefEquipment_0001_005><lf>各自的<REF RefStatus_0008_000_00>。<lf><lf>一旦储存后，便不会被其他旋律覆盖。
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>对伤口很有效的<REF ActionGuideDataNameText_Wp05_m208341008>攻击。<REF ActionGuideDataNameText_Wp05_m208341008>期间按<lf><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>可以发出最多5个<lf><REF RefStatus_0006_000_00>。<lf><lf>如果发出<REF RefStatus_0006_000_00>的时机得当，可增加伤害。
+<string>对伤口很有效的<REF ActionGuideDataNameText_Wp05_m208341008>攻击。<REF ActionGuideDataNameText_Wp05_m208341008>期间按<lf><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>可以发出最多5个<lf><REF RefStatus_0006_000_00>。<lf><lf>如果发出<REF RefStatus_0006_000_00>的时机得当，可造成追加<lf>伤害。
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -535,12 +535,8 @@
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>提升移动速度。<REF RefStatus_0008_000_00><REF ActionGuideDataNameText_Wp05_m6258827>后攻击将不会<lf>被弹开，攻击力也会提升。
 <string>
-<string>受攻击时不会后仰。
-<string>
 <string><ICON ST_POWER_UP_HORN><REF MusicSkillDataText_Wp05_11>／<REF MusicSkillDataText_Wp05_12>
 <string>攻击力提升。
-<string>
-<string>防御力提升。
 <string>
 <string><ICON ST_DEFECE_FIRE><REF MusicSkillDataText_Wp05_18>／<ICON ST_DEFECE_FIRE_HIGH><REF MusicSkillDataText_Wp05_19>
 <string>提升火耐性值，并使火属性异常无效。
@@ -608,7 +604,7 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>向上突刺的基本连段攻击。<lf><REF ActionGuideDataNameText_Wp06_185057840>时会向视角正面方向突刺。<lf><lf>连段可连续攻击3次，<REF ActionGuideDataNameText_Wp06_m1488459392>后按<ICON WP06 PL_ATTACK_01><lf>会使出<REF ActionGuideDataNameText_Wp06_1549684992>。按得越久，威力越高。<lf>抓准怪物攻击的时机使出，还会衍生出强<lf>力的<REF ActionGuideDataNameText_Wp06_1959362048>。
+<string>向上突刺的基本连段攻击。<lf><REF ActionGuideDataNameText_Wp06_185057840>时会朝视角正面向上突刺。<lf><lf>连续攻击3次，在<REF ActionGuideDataNameText_Wp06_m1488459392>后按<ICON WP06 PL_ATTACK_01><lf>会使出<REF ActionGuideDataNameText_Wp06_1549684992>。按得越久，威力越高。<lf>抓准怪物攻击的时机使出，还会衍生出强<lf>力的<REF ActionGuideDataNameText_Wp06_1959362048>。
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -632,8 +628,7 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>原地摆好架势，进行铁壁般的<REF ActionGuideDataNameText_Wp06_327006624>。<lf>举盾期间会逐渐消耗耐力，但能大幅减少<lf>防御反作用，容易进行反击。<lf><lf>反击的威力会按成功<REF ActionGuideDataNameText_Wp06_327006624>的次数而提升。
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -688,7 +683,7 @@
 <string>【<REF ActionGuideDataNameText_Wp06_327006624>成功后的反击衍生】
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>成功<REF ActionGuideDataNameText_Wp06_327006624>怪物攻击后的反击。<lf><lf>如果触发<REF ActionGuideDataNameText_Wp06_872382528>，更可使出强力的冲撞。
+<string>成功<REF ActionGuideDataNameText_Wp06_327006624>怪物攻击后的反击。<lf><lf>如果触发<REF ActionGuideDataNameText_Wp06_872382528>，就能提升紧接衍生的<lf>反击威力。
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,7 +691,7 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE><REF RefEquipment_0001_007>
@@ -719,7 +714,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1497865856>
 <string><REF ActionGuideDataNameText_Wp10_m2131028480>后<ICON WP07 PL_ATTACK_00>
-<string>发射<REF ActionGuideDataNameText_Wp07_1497865856>的攻击。<lf>会对命中部位造成多次伤害，最后的爆炸<lf>造成的伤害带<REF RefStatus_0002_000>，且无视怪物肉质。
+<string>发射<REF ActionGuideDataNameText_Wp07_1497865856>的攻击。<lf>会对命中部位造成多次伤害，最后的爆炸<lf>会造成无视怪物肉质，且带<REF RefStatus_0002_000>的伤害。
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
 <string><REF ActionGuideDataNameText_Wp10_m2131028480>后<ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
@@ -734,7 +729,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m43537492>
 <string><ICON WP07 merge="PL_ATTACK_01,HOLD_ON">
-<string>蓄力后一口气射出多发<REF ActionGuideDataNameText_Wp07_m2033396096>的攻击。<lf>会造成带<REF RefStatus_0002_000>、无视肉质的伤害。
+<string>蓄力后一口气射出多发<REF ActionGuideDataNameText_Wp07_m2033396096>的攻击。<lf>会造成无视怪物肉质，且带<REF RefStatus_0002_000>的伤害。
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
@@ -746,15 +741,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m2132440704>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>装填<REF ActionGuideDataNameText_Wp07_m2033396096>和<REF ActionGuideDataNameText_Wp07_1497865856>。<lf>动作开始后一瞬间有防御判定。
+<string>装填<REF ActionGuideDataNameText_Wp07_m2033396096>和<REF ActionGuideDataNameText_Wp07_1497865856>。<lf>动作开始后一瞬间有格挡判定。
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1926268544>
 <string>连段时<ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>只进行<REF ActionGuideDataNameText_Wp07_m2033396096>的<REF ActionGuideDataNameText_Wp07_m2132440704>。<lf>动作开始后一瞬间有防御判定。
+<string>只进行<REF ActionGuideDataNameText_Wp07_m2033396096>的<REF ActionGuideDataNameText_Wp07_m2132440704>。<lf>动作开始后一瞬间有格挡判定。
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>消耗一条<REF ActionGuideDataNameText_Wp07_m345881792>，发射强力的<REF ActionGuideDataNameText_Wp07_m26915160>。<lf>会对怪物造成带火属性、无视肉质的伤害。
+<string>消耗一条<REF ActionGuideDataNameText_Wp07_m345881792>，发射强力的<REF ActionGuideDataNameText_Wp07_m26915160>。<lf>会造成无视怪物肉质，且带火属性的伤害。
 <string>
 <string><REF ActionGuideDataNameText_Wp07_695464896>
 <string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
@@ -770,7 +765,7 @@
 <string>发射<REF ActionGuideDataNameText_Wp07_1497865856>时需要用到的弹药。<lf>每次发射<REF ActionGuideDataNameText_Wp07_1497865856>都会消耗弹药，通过<REF ActionGuideDataNameText_Wp07_m2132440704><lf>回复。
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>发射<REF ActionGuideDataNameText_Wp07_m26915160>时用到的槽。龙击炮会对怪物<lf>造成带火属性、无视肉质的高伤害。<lf><lf>消耗的龙击槽会自动回复，也会在攻击命<lf>中时回复。<lf><lf>最多可累积2条槽，每次发射<REF ActionGuideDataNameText_Wp07_m26915160>会消<lf>耗1条。
+<string>发射<REF ActionGuideDataNameText_Wp07_m26915160>时用到的槽。龙击炮会造成<lf>无视怪物肉质，且带火属性的高伤害。<lf><lf>消耗的龙击槽会自动回复，也会在攻击命<lf>中时回复。<lf><lf>最多可累积2条槽，每次发射<REF ActionGuideDataNameText_Wp07_m26915160>会消<lf>耗1条。
 <string>
 <string>【接续至<REF ActionGuideDataNameText_Wp07_1497865856>的连段】
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
@@ -825,7 +820,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>对怪物攻击有抵消效果的上捞斩。<lf><REF ActionGuideDataNameTextCommon_m234605296>时，按<ICON WP08 PL_ATTACK_00>可衍生出斧：追击强<lf>化敲打，并进入斧强化状态。按<ICON WP08 PL_ATTACK_SP>则可衍<lf>生<REF ActionGuideDataNameText_Wp08_1659893248>，并变形至<REF ActionGuideDataNameText_Wp08_971569344>。
+<string>对怪物攻击有抵消效果的上捞斩。<lf>抵消使怪物大幅后仰时，按<ICON WP08 PL_ATTACK_00>可衍生出<lf>斧：追击强化敲打，并进入斧强化状态。<lf>按<ICON WP08 PL_ATTACK_SP>则可衍生<REF ActionGuideDataNameText_Wp08_1659893248>，并变形<lf>至<REF ActionGuideDataNameText_Wp08_971569344>。
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><REF ActionGuideDataNameTextCommon_m234605296>时<ICON WP08 PL_ATTACK_00>
@@ -862,19 +857,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string><REF ActionGuideDataNameText_Wp08_m28020688>后按<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">就会使出<REF ActionGuideDataNameText_Wp08_m28020688><lf>终结。终结后会变形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
-<string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>高输出状态时可附在怪物身上使出属性解放<lf>突刺。另外，附在怪物身上后<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">就可使出<lf><REF ActionGuideDataNameText_Wp08_67143400>。<lf><lf>终结后会变形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
+<string><REF ActionGuideDataNameText_Wp08_m28020688>后<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">就会使出<REF ActionGuideDataNameText_Wp08_m28020688><lf>终结。终结后会变形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp08_971569344>的强力攻击。<lf>在<REF ActionGuideDataNameText_Wp08_132806840>时使出，还会产生额外的爆<lf>炸攻击，攻击后会变形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>只能在高输出状态下使出的强力攻击。<lf>也可在属性解放突刺后通过<ICON WP08 merge="PL_ATTACK_SP,HOLD_ON">使出。<lf>攻击后会变形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -903,7 +890,7 @@
 <string>使用<REF ActionGuideDataNameText_Wp08_971569344>进行攻击时，会产生带有瓶的效<lf>果的爆炸追击。
 <string>
 <string>瓶的种类
-<string>剑模式攻击时会消耗<REF ActionGuideDataNameText_Wp08_1814127872>，攻击会按瓶的<lf>种类附带不同效果。<lf><lf><REF Item_IT_677>　：增加物理伤害<lf><REF RefStatus_0006_003_01_02>：增加属性伤害<lf><REF Item_IT_680>　　：附加<REF RefStatus_0008_002_02>属性<lf><REF Item_IT_679>　：附加<REF RefStatus_0008_002_03>属性<lf><REF RefStatus_0006_003_01_03>　：附加龙属性<lf><REF Item_IT_683>　：附加昏厥和减气效果<lf><lf><REF ActionGuideDataNameText_Wp08_1814127872>的积蓄速度因瓶的种类而异。
+<string>剑模式攻击时会消耗<REF ActionGuideDataNameText_Wp08_1814127872>，攻击会按瓶的<lf>种类附带不同效果。<lf><lf><REF Item_IT_677>　：增加物理伤害<lf><REF RefStatus_0006_003_01_02>：增加属性伤害<lf><REF Item_IT_680>　　：附加<REF RefStatus_0008_002_02>属性<lf><REF Item_IT_679>　：附加<REF RefStatus_0008_002_03>属性<lf><REF RefStatus_0006_003_01_03>　：附加龙属性<lf><REF Item_IT_683>　：附加昏厥和减气效果<lf><lf><REF ActionGuideDataNameText_Wp08_1601592576>的积蓄速度因瓶的种类而异。
 <string>
 <string>【积蓄<REF ActionGuideDataNameText_Wp08_1814127872>的连段】
 <string><REF ActionGuideDataNameText_Wp08_143967248>
@@ -967,7 +954,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">⇒<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">后抓准时机放开即可衍生。如果错过<lf>时机则会衍生出上捞斩。
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">后抓准时机放开即可衍生出二连斩。<lf>如果错过时机则会衍生出上捞斩。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -990,7 +977,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
 <string>充能时<ICON WP09 merge="PL_ATTACK_01,HOLD_ON">
-<string>消耗瓶以进入<REF ActionGuideDataNameText_Wp09_650824320>。<lf>期间<REF ActionGuideDataNameText_Wp09_m888161664>性能会上升，还可使用斧：超高<lf>输出属性解放斩。
+<string>消耗瓶以进入<REF ActionGuideDataNameText_Wp09_650824320>。<lf>此时<REF ActionGuideDataNameText_Wp09_m888161664>性能会上升，还可使用斧：超高<lf>输出属性解放斩。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string>充能时<ICON WP09 merge="PL_ATTACK_00,HOLD_ON">
@@ -1027,14 +1014,14 @@
 <string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
 <string>使武器变形，切换模式。<lf>变形期间，举盾的一瞬有<REF ActionGuideDataNameText_Wp09_m888161664>判定。
 <string>
-<string>有防御判定的攻击
-<string><REF ActionGuideDataNameText_Wp09_m970370816>的部分攻击带<REF ActionGuideDataNameText_Wp09_m888161664>判定，<lf>正面举盾的瞬间受攻击时会自动<REF ActionGuideDataNameText_Wp09_m888161664>。<lf><lf>自动防御后按<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>可以衍生出<lf><REF ActionGuideDataNameText_Wp09_266499504>。
+<string>有格挡判定的攻击
+<string><REF ActionGuideDataNameText_Wp09_m970370816>的部分攻击动作带<REF ActionGuideDataNameText_Wp09_m888161664>判定，<lf>在盾牌举向正面的瞬间，受攻击会自动<REF ActionGuideDataNameText_Wp09_m888161664>。<lf><lf>自动格挡后按<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>可以衍生出<lf><REF ActionGuideDataNameText_Wp09_266499504>。
 <string>
 <string>充能槽
 <string>以剑攻击会积蓄<REF ActionGuideDataNameText_Wp09_1690804608>，槽为黄色或更<lf>高阶段时可积蓄瓶。<lf><lf>但如果<REF ActionGuideDataNameText_Wp09_1690804608>积蓄过多，攻击会被弹开。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_650824320>
-<string>强化<REF ActionGuideDataNameText_Wp09_m970370816>的防御性能，并可使用<lf><REF ActionGuideDataNameText_Wp09_266499504>。
+<string>强化<REF ActionGuideDataNameText_Wp09_m970370816>的格挡性能，并可使用<lf><REF ActionGuideDataNameText_Wp09_266499504>。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1125949696>
 <string>剑攻击会附带瓶的效果，伤害增加且不会被<lf>弹开。
@@ -1046,12 +1033,12 @@
 <string><REF ActionGuideDataNameText_Wp09_1630431488>和<REF ActionGuideDataNameText_Wp09_m296247648>如果蓄力<lf>过度，将无法正常使出招式，但如果在适当<lf>的时机松开，则可以使出强力攻击。
 <string>
 <string>瓶
-<string>使出属性解放斩时会消耗瓶，引发爆炸造<lf>成伤害。强化瓶的效果更高。<lf><lf><REF RefStatus_0006_003_02_01>：爆炸不受肉质影响，附加昏厥、<lf>　　　　减气效果<lf><lf><REF RefStatus_0006_003_01_02>：强化武器的属性值，借此造成<lf>　　　　　巨大伤害
+<string>使出属性解放斩时会消耗瓶，引发爆炸造<lf>成伤害。强化瓶的效果更高。<lf><lf><REF RefStatus_0006_003_02_01>：爆炸不受肉质影响，附加昏厥、<lf>　　　　减气效果<lf><lf><REF RefStatus_0006_003_01_02>：强化武器的属性值，借此造成<lf>　　　　　大量伤害
 <string>
 <string>【剑：基本连段】
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>从远处接近并使出<REF ActionGuideDataNameText_Wp09_m406475264>的连段。<lf><lf>将<REF ActionGuideDataNameText_Wp09_530797824>替换为<REF ActionGuideDataNameText_Wp09_1630431488>，能够<lf>积蓄更多充能槽。
+<string>从远处接近并使出<REF ActionGuideDataNameText_Wp09_m406475264>的连段。<lf><lf>将<REF ActionGuideDataNameText_Wp09_530797824>改成<REF ActionGuideDataNameText_Wp09_1630431488>，能够<lf>积蓄更多充能槽。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_530797824>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1090,13 +1077,13 @@
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>【使出高输出属性解放斩的连段】
+<string>【使出超高输出属性解放斩的连段】
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
 <string>与其他带<REF ActionGuideDataNameText_Wp09_m888161664>判定的攻击一样，可衍生至<lf><REF ActionGuideDataNameText_Wp09_2057398656>。<lf><lf>进行<REF ActionGuideDataNameText_Wp09_m1699645312>后，可减少<REF ActionGuideDataNameText_Wp09_m888161664>的<lf>破绽，较容易使出此连段。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
-<string>触发防御时<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
+<string>触发格挡时<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
 <string><ICON WP_INSECTGLAIVE><REF RefEquipment_0001_010>
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1105,7 +1092,7 @@
 <string><INPUTMSG MsgGUI600200_01_028_01>
 <string><REF ActionGuideDataNameText_Wp10_m2131028480>
 <string><ICON WP10 PL_ATTACK_01>
-<string>大范围横扫攻击。<lf><REF ActionGuideDataNameText_Wp10_440870464>时使出，会同时召回猎虫。
+<string>大范围横扫攻击。<lf>若在<REF ActionGuideDataNameText_Wp10_440870464>时使出，则会同时召回猎虫。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
@@ -1113,7 +1100,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
-<string>通过<ICON WP10 merge="PL_ATTACK_00,HOLD_ON">蓄力，可强化<REF RefEquipment_0001_010_0>的突进，使其<lf>穿透命中的怪物各部位，并采集多种强<lf>化精华。
+<string>通过<ICON WP10 merge="PL_ATTACK_00,HOLD_ON">蓄力，可强化<REF RefEquipment_0001_010_0>的突进，使其<lf>穿透怪物，并从命中的各部位采集多种<lf>强化精华。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_607158400>
 <string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
@@ -1124,11 +1111,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>造成印记的攻击，<REF RefEquipment_0001_010_0>会飞向该印记。<lf><lf><REF RefEquipment_0001_010_0>会向印记部位突进并设置<REF RefStatus_0008_002_00>。
+<string>此攻击会标上用以引导<REF RefEquipment_0001_010_0>的印记。<lf><lf><REF RefEquipment_0001_010_0>会向印记部位突进，并设置<REF RefStatus_0008_002_00>。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>发射印记的远距离攻击，<REF RefEquipment_0001_010_0>会飞向该印<lf>记。<REF RefEquipment_0001_010_0>随后会朝带印记的部位突进并设<lf>置<REF RefStatus_0008_002_00>。
+<string>通过远距离攻击发射印记，用以引导<REF RefEquipment_0001_010_0>。<lf>命中后<REF RefEquipment_0001_010_0>会朝带印记的部位突进，并设<lf>置<REF RefStatus_0008_002_00>。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
@@ -1149,7 +1136,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string>红色<REF ActionGuideDataNameText_Wp10_m508432000>状态时<ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>吸收红色精华后能够蓄力。在地上蓄力一<lf>定时间后<ICON WP10 PL_ATTACK_01><ICON RELEASE>会使出<REF ActionGuideDataNameText_Wp10_m851556800>，在空中则<lf>会使出<REF ActionGuideDataNameText_Wp10_m295633312>。<lf><lf>各种攻击中能保持蓄力状态，可以用<ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>衍生出多种攻击。<lf><lf>吸收了三色精华时，在蓄力攻击后可通过<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>衍生出终结攻击。虽然会解除强化<lf>状态，但能使出强力的攻击。此时<REF RefEquipment_0001_010_0>的<lf>攻击也会采集多种精华。
+<string>吸收红色精华后可按<ICON WP10 PL_ATTACK_01>蓄力。蓄力一定<lf>时间后<ICON WP10 PL_ATTACK_01><ICON RELEASE>可使出衍生技。若在地上会<lf>衍生出<REF ActionGuideDataNameText_Wp10_m851556800>，若在空中则衍生出急袭突<lf>刺。<lf><lf>各种攻击中能保持蓄力状态，可以用<ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>衍生出多种攻击。<lf><lf>吸收了三色精华时，在蓄力攻击后可通过<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>衍生出终结攻击。虽然会解除强化<lf>状态，但能使出强力的攻击。此时<REF RefEquipment_0001_010_0>的<lf>攻击也会采集多种精华。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1158,7 +1145,7 @@
 <string>三色精华强化状态时<ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>
 <string>
 <string><REF RefEquipment_0001_010_0>
-<string>听从<REF RefEquipment_0001_010>的指示，和猎人一同战斗的昆<lf>虫。会从怪物身上采集精华，强化猎人。<lf>猎人可挑选各种<REF RefEquipment_0001_010_0>，加以强化并装备。
+<string>听从<REF RefEquipment_0001_010>的指挥，和猎人一同战斗的昆<lf>虫。会从怪物身上采集精华，强化猎人。<lf>猎人可挑选各种<REF RefEquipment_0001_010_0>，加以强化并装备。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1304673664>
 <string>用<ICON WP10 PL_AIM>进入<REF ActionGuideDataNameText_Wp10_440870464>并攻击时，<REF RefEquipment_0001_010_0>也会<lf>同时攻击并采集精华。<lf><lf><REF RefEquipment_0001_010_0>的突进路线会按猎人的攻击而变化。
@@ -1170,12 +1157,12 @@
 <string>可从怪物身上采集到的精华。<lf>有红、白、橙、绿4种，按怪物部位而异。<lf><lf>采集到的<REF ActionGuideDataNameText_Wp10_m508432000>可以通过召回猎虫回收，<lf>并获得对应颜色的效果。组合多种颜色可以<lf>获得更多样的效果。<lf><lf>强化状态会在一定时间后解除。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m508432000>效果
-<string>猎人可以通过采集到的精华颜色获得对应的<lf>效果。组合多种颜色能获得更多样的效果。<lf><lf>红：可按<ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328><lf>白：移动速度和<REF ActionGuideDataNameText_Wp10_m1303595904>高度提升<lf>橙：减轻胆怯<lf>红＋白：攻击力提升<lf>白＋橙：防御力提升<lf>红＋白＋橙：部分动作变化且攻击力提升
+<string>猎人可以通过采集到的精华颜色获得对应的<lf>效果。组合多种颜色能获得更多样的效果。<lf><lf>红　　　　：可按<ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328><lf>白　　　　：移动速度和<REF ActionGuideDataNameText_Wp10_m1303595904>高度提升<lf>橙　　　　：拔刀时后仰无效<lf>红＋白　　：攻击力提升<lf>白＋橙　　：防御力提升<lf>红＋白＋橙：部分动作发生变化，减轻风<lf>　　　　　　压、震动和咆哮的影响，攻<lf>　　　　　　击力提升<lf>　　　　　　
 <string>
 <string>【基本连段】
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
 <string><ICON WP10 PL_ATTACK_00>
-<string>所有动作都能发动<REF ActionGuideDataNameText_Wp10_m1304673664>。<lf>直至<REF ActionGuideDataNameText_Wp10_m1983561600>前，都可中途改为移动攻击。<lf><lf>将<REF ActionGuideDataNameText_Wp10_2066406784>替换为<REF ActionGuideDataNameText_Wp10_m1195963904>，可以在攻击的同时<lf>退后。
+<string>所有动作都能发动<REF ActionGuideDataNameText_Wp10_m1304673664>。<lf>直至<REF ActionGuideDataNameText_Wp10_m1983561600>前，都可中途改为移动攻击。<lf><lf>若将<REF ActionGuideDataNameText_Wp10_2066406784>改成<REF ActionGuideDataNameText_Wp10_m1195963904>，则可以在攻击的<lf>同时退后。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1983561600>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1200,7 +1187,7 @@
 <string>【空中连段】
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
-<string>可在空中长距离移动的连段。<lf>红色精华积蓄时还可衍生出<REF ActionGuideDataNameText_Wp10_m295633312>。
+<string>可在空中长距离移动的连段。<lf>存有红色精华时还可衍生出<REF ActionGuideDataNameText_Wp10_m295633312>。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
 <string><ICON WP10 PL_DODGE>
@@ -1211,7 +1198,7 @@
 <string>【三色精华积蓄时的强力连段】
 <string><REF ActionGuideDataNameText_Wp10_1401028864>
 <string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
-<string>消耗所有精华使出的强力连段。<lf><lf>直至使出<REF ActionGuideDataNameText_Wp10_m587319424>前，都可发动<REF ActionGuideDataNameText_Wp10_m1304673664>。
+<string>消耗所有精华使出的强力连段。<lf><lf>直至使出<REF ActionGuideDataNameText_Wp10_m587319424>期间，都可发动<REF ActionGuideDataNameText_Wp10_m1304673664>。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m587319424>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
@@ -1226,7 +1213,6 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN><REF RefEquipment_0001_013>
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1249,7 +1235,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string>可以使用各把<REF RefEquipment_0001_013>特定的<REF ActionGuideDataNameText_Wp13_m1879452288>。
+<string>可以使用<REF ActionGuideDataNameText_Wp13_m1879452288>，类型取决于各把<REF RefEquipment_0001_013>。<lf><lf><REF ActionGuideDataNameText_Wp13_m70162400>会在原地设置。<lf><REF ActionGuideDataNameText_Wp13_14729>则要在装填后按<ICON WP13 PL_ATTACK_SP><REF ActionGuideDataNameText_Wp13_m1628573952>。
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
@@ -1302,11 +1288,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1687699840>
 <string><ICON WP12 PL_ATTACK_01><ICON PLUS><ICON WP12 PL_ATTACK_00>
-<string>举起<REF RefEquipment_0001_012>进行<REF ActionGuideDataNameText_Wp12_1687699840>。<lf>抓准时机会发动<REF ActionGuideDataNameText_Wp12_125997408>，随后可以衍生<lf>特殊垫步。<lf><lf>即使未做任何输入，部分姿势也会触发自<lf>动防御。
+<string>举起<REF RefEquipment_0001_012>进行<REF ActionGuideDataNameText_Wp12_1687699840>。<lf>抓准时机会发动<REF ActionGuideDataNameText_Wp12_125997408>，随后可以衍生<lf>特殊垫步。<lf><lf>即使未做任何输入，部分姿势也会触发自<lf>动格挡。
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_031>
-<string>从持有弹药中选择可<REF ActionGuideDataNameText_Wp13_99602184>的弹药。
+<string>从持有的弹药中选择可<REF ActionGuideDataNameText_Wp13_99602184>的弹药。
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>
 <string>可<REF ActionGuideDataNameText_Wp13_99602184>弹药会变成消耗<REF ActionGuideDataNameText_Wp12_1430174336>的<REF ActionGuideDataNameText_Wp13_m1879452288>。<lf><lf>消耗掉的<REF ActionGuideDataNameText_Wp12_1430174336>会在<REF ActionGuideDataNameText_Wp12_m640497792>时自动回复，<lf>也会在射击命中时会回复。
@@ -1332,7 +1318,6 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>迅速射出左右扩散的箭矢。<lf>不会消耗耐力。
 <string>
-<string><ICON WP_BOW><REF RefEquipment_0001_011>
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string>用力拉<REF RefEquipment_0001_011>放箭。<lf><REF ActionGuideDataNameText_Wp00_605526016>会随按<ICON WP11 PL_ATTACK_SP>的时间而提升，射击的<lf>威力也会随之提升。<lf><lf>攻击后再按<ICON WP11 PL_ATTACK_01>会衍生出<REF ActionGuideDataNameText_Wp11_713120064>。
@@ -1356,7 +1341,7 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1393,7 +1378,7 @@
 <string><REF ActionGuideDataNameText_Wp11_m966116480>插在怪物身上后，再射出的箭矢会<lf>自动追踪该处，直至<REF ActionGuideDataNameText_Wp11_m966116480>爆炸。
 <string>
 <string>瓶的种类
-<string>装填后会为箭矢添加瓶的效果。<lf><lf><REF Item_IT_677>：增加箭的威力<lf><REF Item_IT_676>：大幅增加箭的威力，但缩短射程<lf><REF Item_IT_678>：箭矢命中后会贯穿<lf><REF RefStatus_0008_002_02>瓶　：赋予<REF RefStatus_0008_002_02>属性<lf><REF RefStatus_0008_002_03>瓶：赋予<REF RefStatus_0008_002_03>属性<lf><REF Item_IT_681>：赋予睡眠属性<lf><REF Item_IT_682>：赋予<REF RefStatus_0008_002_04>属性<lf><REF Item_IT_683>：赋予昏厥和减气效果
+<string>装填后会为箭矢添加瓶的效果。<lf><lf><REF Item_IT_677>：增加箭的威力<lf><REF Item_IT_676>：大幅增加箭的威力，但缩短射程<lf><REF Item_IT_678>：箭矢可以贯穿目标<lf><REF RefStatus_0008_002_02>瓶　：赋予<REF RefStatus_0008_002_02>属性<lf><REF RefStatus_0008_002_03>瓶：赋予<REF RefStatus_0008_002_03>属性<lf><REF Item_IT_681>：赋予睡眠属性<lf><REF Item_IT_682>：赋予<REF RefStatus_0008_002_04>属性<lf><REF Item_IT_683>：赋予昏厥和减气效果
 <string>
 <string>【接续至<REF ActionGuideDataNameText_Wp11_m125532448>的连段】
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1435,7 +1420,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><REF ActionGuideDataNameText_Wp11_1920365056>时<ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>【包含<REF ActionGuideDataNameText_Wp11_m1364116608>的高威力连段】
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
@@ -1443,7 +1428,7 @@
 <string>此连段先以<REF ActionGuideDataNameText_Wp11_m1364116608>射出<REF ActionGuideDataNameText_Wp11_m825706560>后，马上<lf>以<REF ActionGuideDataNameText_Wp11_1920365056>和<REF ActionGuideDataNameText_Wp11_m1212153600>调整距离，再以龙之<lf>箭或<REF ActionGuideDataNameText_Wp11_m1657138304>引爆<REF ActionGuideDataNameText_Wp11_m825706560>。
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><REF ActionGuideDataNameText_Wp11_1920365056>时<ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>

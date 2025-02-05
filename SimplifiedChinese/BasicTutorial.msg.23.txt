@@ -131,7 +131,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>按住<ICON PL_PT_SPEED_UP>期间，可以持续快速移动。<lf><lf>全速前进时可通过<ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>改变方向<lf>并漂移。<lf><lf>漂移时可通过<ICON PL_PT_SPEED_DOWN><ICON RELEASE>暂时突破速度上限。
+<string>长按<ICON PL_PT_SPEED_UP>期间，可以持续快速移动。<lf><lf>全速前进时可通过<ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>改变方向<lf>并漂移。<lf><lf>漂移时可通过<ICON PL_PT_SPEED_DOWN><ICON RELEASE>暂时突破速度上限。
 <string>
 <string>漂移
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>
@@ -143,11 +143,11 @@
 <string><ICON PL_PT_DISMOUNT>
 <string><INPUTMSG MsgGUI600200_00_015>
 <string><INPUTMSG MsgGUI600200_00_015_01>
-<string>自动移动指示
+<string>自动移动
 <string><INPUTMSG MsgGUI600200_00_016>
 <string><INPUTMSG MsgGUI600200_00_017>
 <string><INPUTMSG MsgGUI600200_00_017_01>
-<string>手动移动指示
+<string>手动移动
 <string><INPUTMSG MsgGUI600200_00_018>
 <string><INPUTMSG MsgGUI600200_00_019>
 <string><INPUTMSG MsgGUI600200_00_019_01>
@@ -181,9 +181,6 @@
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>移动速度提升。<lf>迭加<REF RefStatus_0008_000_00>后，攻击不会被弹开，<lf>且攻击力也会提升。<lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
 <string>
-<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
-<string><REF WeaponTutorial_CP_155><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
-<string>
 <string><ICON ST_MEAL_UP>餐点效果
 <string>用餐后得到了餐点效果的状态。<lf><lf>主要发动方式<lf>・用餐
 <string>
@@ -200,28 +197,28 @@
 <string><ICON ST_STUN>闪光昏厥
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
-<string><ICON ST_FIRE>火属性异常状态
+<string><ICON ST_FIRE>火属性异常
 <string>体力会随时间推移而减少。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・进入水域后，反复做回避动作<lf>・经过一定时间
 <string>
-<string><ICON ST_WATER>水属性异常状态
+<string><ICON ST_WATER>水属性异常
 <string>耐力回复速度变慢。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
 <string>
-<string><ICON ST_THUNDER>雷属性异常状态
+<string><ICON ST_THUNDER>雷属性异常
 <string>容易陷入昏厥。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
 <string>
-<string><ICON ST_ICE>冰属性异常状态
+<string><ICON ST_ICE>冰属性异常
 <string>耐力消耗上升。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
 <string>
-<string><ICON ST_DRUGON>龙属性异常状态
+<string><ICON ST_DRUGON>龙属性异常
 <string>武器属性值无效。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
 <string>
-<string>震动异常状态
-<string>一定时间内行动受限。<lf>受限时间因地震强度而异。<lf><lf>主要解除方式：<lf>・经过一定时间<lf>・受到攻击
+<string>震动异常
+<string>一定时间内行动受限。<lf>受限时间因地面震动强度而异。<lf><lf>主要解除方式：<lf>・经过一定时间<lf>・受到攻击
 <string>
-<string>听觉异常状态
+<string>听觉异常
 <string>一定时间内行动受限。<lf>受限时间因咆哮强度而异。<lf><lf>主要解除方式：<lf>・经过一定时间<lf>・受到攻击
 <string>
-<string>风压异常状态
+<string>风压异常
 <string>一定时间内行动受限。<lf>受限时间因风压强度而异。<lf><lf>主要解除方式：<lf>・经过一定时间<lf>・受到攻击
 <string>
 <string>纳刀状态
@@ -254,7 +251,7 @@
 <string>
 <string>集中模式
 <string>拔刀后<ICON ME PL_AIM>
-<string>拔刀后<ICON ME PL_AIM>进入集中模式。<lf><lf>集中模式时，猎人会朝向视角的正前方进行<lf>攻击和<REF ActionGuideDataNameTextCommon_m666240384>。瞄准上方时部分攻击的动作也<lf>会发生改变。<lf><lf>拔刀后可用<ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>使出<REF ActionGuideDataNameTextCommon_423599584>。<lf>命中怪物的伤口或弱点时会转变为特殊的衍<lf>生动作，并造成大量的伤害。
+<string>拔刀后<ICON ME PL_AIM>进入集中模式。<lf><lf>集中模式时，猎人会朝向视角的正前方进行<lf>攻击和<REF ActionGuideDataNameTextCommon_m666240384>。瞄准上方时部分攻击的动作也<lf>会发生改变。<lf><lf>拔刀后可用<ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>使出<REF ActionGuideDataNameTextCommon_423599584>。<lf>命中怪物的伤口或弱点时会转变为特殊的衍<lf>生动作，并造成大量伤害。
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -262,25 +259,25 @@
 <string>特殊动作
 <string><REF ActionGuideDataNameTextCommon_m666240384>
 <string>拔刀后<ICON ME merge="PL_WEAPON_SP_ON,HOLD_ON">
-<string>使用部分种类的武器时，可以架盾或举起<lf>武器自身进行防御。<lf><lf>防御攻击时，伤害的减少幅度和破绽大小<lf>因武器而异。此外，如果没有面朝攻击的<lf>方向，有可能无法<REF ActionGuideDataNameTextCommon_m666240384>。<lf><lf>某些怪物的攻击无法<REF ActionGuideDataNameTextCommon_m666240384>，如瓦斯和激光。
+<string>使用部分种类的武器时，可以架盾或举起<lf>武器自身进行格挡。<lf><lf>格挡攻击时，伤害的减少幅度和破绽大小<lf>因武器而异。此外，如果没有面朝攻击的<lf>方向，有可能无法<REF ActionGuideDataNameTextCommon_m666240384>。<lf><lf>某些怪物的攻击无法<REF ActionGuideDataNameTextCommon_m666240384>，如瓦斯和激光。
 <string>
 <string><REF ActionGuideDataNameTextCommon_859531456>
-<string>若是抓准时机防御成功，会大幅减少伤害<lf>和破绽。<lf><lf><REF ActionGuideDataNameTextCommon_859531456>后不仅可以快速反击，部分种类<lf>的武器还能衍生出专有动作。
+<string>若是抓准时机格挡成功，会大幅减少伤害<lf>和破绽。<lf><lf><REF ActionGuideDataNameTextCommon_859531456>后不仅可以快速反击，部分种类<lf>的武器还能衍生出专有动作。
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>防御某些怪物的攻击时会发动的攻防战。<lf><lf>通过<ICON ME merge="PL_ATTACK_00,REPEAT_ON">将怪物向后推，可在怪物失衡时<lf>追击。
+<string>格挡某些怪物的攻击时会发动的攻防战。<lf><lf>通过<ICON ME merge="PL_ATTACK_00,REPEAT_ON">将怪物向后推，可在怪物失衡时<lf>追击。
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>某些攻击动作在与怪物的攻击相互碰撞时<lf>会发生<REF ActionGuideDataNameTextCommon_817397888>，弹开怪物的攻击。<lf><lf>此外，有些动作可以通过<REF ActionGuideDataNameTextCommon_817397888>衍生出强力<lf>的追击。
+<string>某些攻击动作在与怪物的攻击相互碰撞时<lf>会发生<REF ActionGuideDataNameTextCommon_817397888>，弹开怪物的攻击，有时可能<lf>还会造成怪物大幅后仰。<lf><lf>此外，有些动作可以通过<REF ActionGuideDataNameTextCommon_817397888>衍生出强力<lf>的追击。
 <string>
 <string>奇袭攻击
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>装备后可以发动强大技能的装备，不仅可<lf>以像其他固定道具一样使用，还可以在拔<lf>刀状态时使用。<lf><lf>虽然可以多次使用，但每次使用后需要等<lf>待一段时间才能再次使用。<lf><lf>想要携带<REF Item_IT_161>以外的衣装时，可以在<lf>变更装备界面中设置。
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>一定时间内，使怪物无法发现自己。攻击<lf>或受到伤害时，隐身效果会立即结束。<lf><lf>隐身衣装与其他<REF RefMenu_110_14>不同，猎人会一<lf>直携带。

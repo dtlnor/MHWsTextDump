@@ -181,9 +181,6 @@
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>移動速度が上がる。<lf><REF RefStatus_0008_000_00>の重ね掛けをすると、<lf>攻撃が弾かれなくなり、攻撃力も上がる。<lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
 <string>
-<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
-<string><REF WeaponTutorial_CP_155><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
-<string>
 <string><ICON ST_MEAL_UP>食事効果
 <string>食べた食事の効果を得られている状態。<lf><lf>主な発動方法<lf>・食事をする
 <string>
@@ -272,15 +269,15 @@
 <string>一部のモンスターの攻撃をガードした際に<lf>発生することがある攻防。<lf><lf><ICON ME merge="PL_ATTACK_00,REPEAT_ON">でモンスターを押し返し、<lf>体勢を崩したところに追撃を狙うことが<lf>できる。
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>一部の攻撃アクションは、<lf>モンスターの攻撃に合わせて当てると、<lf>攻撃を弾き飛ばす<REF ActionGuideDataNameTextCommon_817397888>が発生する。<lf><lf>また、<REF ActionGuideDataNameTextCommon_817397888>から強力な追撃に派生できる<lf>アクションもある。
+<string>一部の攻撃アクションは、<lf>モンスターの攻撃に合わせて当てると、<lf>攻撃を弾き飛ばす<REF ActionGuideDataNameTextCommon_817397888>が発生する。<lf>このとき、モンスターを<lf>大きくのけぞらせることがある。<lf><lf>また、<REF ActionGuideDataNameTextCommon_817397888>から強力な追撃に派生できる<lf>アクションもある。
 <string>
 <string>奇襲攻撃
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>とは
-<string>強力なスキルを発動できる着脱式の装備。<lf><lf>他の固定アイテムと同様に使用でき、<lf>抜刀したままでも使用可能。<lf><lf>何度でも使用できるが、一度使用すると<lf>再使用までに時間経過が必要となる。
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>一定時間、モンスターから身を隠せる。<lf>攻撃を行うかダメージを受けると、<lf>効果時間とは関係なく効果が終了する。<lf><lf>他の<REF RefMenu_110_14>とは異なり、<lf>常に携帯している。

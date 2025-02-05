@@ -108,13 +108,13 @@
 <string><REF RefGeneral_0014_01>란
 <string>쿠나파 마을의 주민에게 받은<lf>탑승용 동물. 뛰어난 기동력을<lf>살려 헌터의 이동을 도와준다.<lf><lf><REF RefMenu_046> 등에서 목적지를 지정하면<lf>냄새를 따라 자동으로 데려다준다.<lf>이동 중에도 일부 <REF RefItem_0000>이나 슬링어를<lf>쓸 수 있고, 체력이나 <REF RefStatus_0003_005> 회복,<lf>채취 등 사냥 준비를 할 수 있다.<lf><lf>또, 일정 조건에서 몬스터의 공격을<lf><REF RefGeneral_0014_01> 스스로 회피하는 경우가 있다.
 <string>
-<string><REF RefMenu_061> (자동)
+<string><REF RefMenu_061>(자동)
 <string><INPUTMSG MsgGUI600200_00_011>
 <string><REF RefGeneral_0014_01>에 탑승할 수 있다.<lf>거리가 떨어져도 <REF RefGeneral_0014_01>가 헌터의<lf>위치로 달려와 탑승 상태가 된다.
 <string>
-<string><REF RefMenu_061> (수동)
+<string><REF RefMenu_061>(수동)
 <string><INPUTMSG MsgGUI600200_00_012>
-<string><REF RefMenu_061> (자동)과 마찬가지로 탑승할<lf>수 있으나, 목적지를 향하지 않는<lf>수동 이동 상태로 탑승을 시작할<lf>수 있다.
+<string><REF RefMenu_061>(자동)와 마찬가지로<lf>탑승할 수 있으나, 목적지를 향하지 않는<lf>수동 이동 상태로 탑승을 시작할 수 있다.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m744176512>
 <string><INPUTMSG MsgGUI600200_00_013>
@@ -180,9 +180,6 @@
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>이동 속도가 오른다.<lf><REF RefStatus_0008_000_00> 겹치기를 사용하면 공격이 튕겨<lf>나가지 않게 되며 공격력도 오른다.<lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
-<string>
-<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
-<string><REF WeaponTutorial_CP_155><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
 <string>
 <string><ICON ST_MEAL_UP>식사 효과
 <string>먹은 식사의 효과를 획득한 상태.<lf><lf>주요 발동 방법<lf>-식사하기
@@ -272,15 +269,15 @@
 <string>일부 몬스터의 공격을 가드했을 때<lf>발생할 수 있는 공방.<lf><lf><ICON ME merge="PL_ATTACK_00,REPEAT_ON">으로 몬스터를 밀어내<lf>자세가 무너진 순간<lf>추가 공격을 노릴 수 있다.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>일부 공격 액션은<lf>몬스터의 공격에 맞춰 명중하면<lf>공격을 튕겨내는 <REF ActionGuideDataNameTextCommon_817397888>가 발생한다.<lf><lf>또한, <REF ActionGuideDataNameTextCommon_817397888>에서 강력한 추가 공격으로<lf>파생할 수 있는 액션도 있다.
+<string>일부 공격 액션은<lf>몬스터의 공격에 맞춰 명중하면<lf>공격을 튕겨내는 <REF ActionGuideDataNameTextCommon_817397888>가 발생한다.<lf>이때 몬스터를 크게 움츠리게 할 수 있다.<lf><lf>또한, <REF ActionGuideDataNameTextCommon_817397888>에서 강력한 추가 공격으로<lf>파생할 수 있는 액션도 있다.
 <string>
 <string>기습 공격
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>란
-<string>강력한 스킬을 발동할 수 있는<lf>탈착식 장비.<lf>다른 고정 아이템처럼 사용 가능하며<lf>발도 상태에서도 사용할 수 있다.<lf><lf>여러 번 사용할 수 있지만,<lf>재사용에는 시간이 지나야 한다.<lf><lf><REF Item_IT_161> 외에 휴대할 복장은 장비 변경<lf>화면에서 설정할 수 있다.<lf>아이템 슬라이더 표시 중 <ICON PL_WP_ON_ACTIVE_SKILL>으로도<lf>사용/종료할 수 있다.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>일정 시간, 몬스터의 눈을<lf>피할 수 있다. 공격을 하거나<lf>대미지를 받으면<lf>효과 시간과는 관계없이<lf>효과가 종료된다.<lf><lf>다른 <REF RefMenu_110_14>와는 달리<lf>늘 휴대하고 있다.
@@ -321,7 +318,7 @@
 <string><REF RefStatus_0008_002_02>으로 인해 일정 시간 동안<lf>몬스터의 체력이 감소하는 상태.<lf><REF RefStatus_0002_005> 공격 등 <REF RefStatus_0002_005>치가<lf>축적되어 발생한다.<lf><REF RefStatus_0008_002_02>의 대미지양이나 지속 시간은<lf>몬스터 종류별로 다르다.<lf>발생할 때마다 내성이 생겨,<lf>다음 발생에 필요한<lf>축적치가 늘어난다.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string><REF RefStatus_0008_002_03>로 인해 몬스터가 한동안<lf>행동 불능이 되는 상태.<lf><REF RefStatus_0002_006> 공격 등<lf><REF RefStatus_0002_006>치가 축적되어 발생한다.<lf>발생할 때마다 내성이 생겨<lf>발생에 필요한 축적치가 늘어나며,<lf>일정 횟수 발생하면<lf><REF RefStatus_0008_002_03> 시간도 감소한다.
+<string><REF RefStatus_0008_002_03>로 인해 몬스터가 한동안<lf>행동 불능이 되는 상태.<lf><REF RefStatus_0002_006> 공격 등<lf><REF RefStatus_0002_006>치가 축적되어 발생한다.<lf>발생할 때마다 내성이 생겨<lf>다음 발생에 필요한 축적치가 <lf>늘어나며, 일정 횟수 발생하면<lf><REF RefStatus_0008_002_03> 시간도 감소한다.
 <string>
 <string>수면
 <string>몬스터를 잠재워 행동 불능으로<lf>만드는 상태. 수면에 빠졌을 때<lf>처음 공격하면 대미지가 증가한다.<lf><REF RefStatus_0002_007> 공격 등으로<lf><REF RefStatus_0002_007>치가 축적되면 발생한다.<lf>발생할 때마다 내성이 생겨<lf>다음 발생에 필요한 축적치가<lf>늘어나며, 일정 횟수 발생하면<lf>수면 시간도 감소한다.
@@ -345,7 +342,7 @@
 <string>몬스터가 특정한 공격 행동을<lf>취하기 전후로<lf>'약점'을 노출하는 경우가 있다.<lf>약점은 '<REF ActionGuideDataNameText_Wp00_m1804493312>'를 사용하면<lf>볼 수 있다.<lf><lf>이 약점에 '<REF ActionGuideDataNameTextCommon_423599584>'을<lf>명중시키면 큰 기회를<lf>만들어낼 수 있다.
 <string>
 <string>상처란
-<string>헌터가 반복적으로<lf>공격한 부위에는 '상처'가<lf>생긴다. 상처는 3단계로<lf>구분된다. 먼저 표식인 '전조'가<lf>발생한다. 전조를 계속 공격하면<lf>'상처'가 생기며, 상처를 파괴하면<lf>'상처 자국'이 남는다.<lf><lf>상처를 공격하면<lf>대미지양이 올라가며,<lf>'<REF ActionGuideDataNameTextCommon_423599584>'이 히트하면 상처를<lf>한 번에 파괴할 수 있다.
+<string>헌터가 반복적으로<lf>공격한 부위에는 '상처'가<lf>생긴다. 상처는 3단계로<lf>구분된다. 먼저 표식인 '전조'가<lf>발생한다. 전조를 계속 공격하면<lf>'상처'가 생기며, 상처를 파괴하면<lf>'상처 자국'이 남는다.<lf><lf>상처를 공격하면<lf>대미지양이 올라가며,<lf>'<REF ActionGuideDataNameTextCommon_423599584>'을 명중시키면<lf>상처를 한 번에 파괴할 수 있다.
 <string>
 <string>몬스터 포획이란
 <string>약해진 대형 몬스터를 덫에 걸리게<lf>하고 <REF Item_IT_181> 등을 사용해<lf>사로잡을 수 있다.<lf>※포획한 몬스터의 소재 갈무리는<lf>불가능.<lf><lf>몬스터를 죽이지 않고 조사할 수 있어<lf>길드가 권장하고 있으며,<lf>포획 보수로서 갈무리로는<lf>입수하기 어렵거나 입수할 수 없는<lf>소재를 얻을 수도 있다.

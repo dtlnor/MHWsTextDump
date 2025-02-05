@@ -2,10 +2,10 @@
 <string><REF RefButton_0000>
 <string><REF RefButton_0001>
 <string><REF RefButton_0012>
-<string>Standardeinstellungen (Auswahl)
-<string>Standardeinstellungen (alle)
+<string>Zurücksetzen (Auswahl)
+<string>Zurücksetzen (alles)
 <string>Möchtest du die Standardeinstellungen<lf>der gewählten Optionen wiederherstellen?
-<string>Möchtest du die Standardeinstellungen<lf>aller Optionen wiederherstellen?
+<string>Möchtest du die Standardeinstellungen aller<lf>Optionen in allen Kategorien wiederherstellen?
 <string>Alle
 <string><PLATMSG MsgGUI030100_0401>
 <string>Geteilt + Controller
@@ -23,24 +23,28 @@
 <string>Barrierefreiheit
 <string>Sprache
 <string>DATENSCHUTZ
+<string><PLATMSG MsgGUI030100_01_42>
 <string>Bestätigungstaste
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>Passe an, welche Taste zum Bestätigen genutzt<lf>werden soll.
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
 <string>Die <ICON PAD UI_DUMMY_ICON_RDOWN>-Taste wird als Bestätigungstaste<lf>verwendet.
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
 <string>Die <ICON PAD UI_DUMMY_ICON_RRIGHT>-Taste wird als Bestätigungstaste<lf>verwendet.
 <string>Sprint-Steuerung
-<string>Lege fest, mit welcher Taste dein Charakter<lf>sprintet. <COLOR preset="TXT_Accent">(Dies hat keinen Einfluss auf die<lf>Saikrii-Steuerung.)</COLOR>
+<string>Passe an, mit welcher Taste dein Charakter sprintet.<lf>(Dies hat keinen Einfluss auf die Saikrii-Steuerung.)
 <string>Nur <ICON PAD PL_DASH_TOGGLE> verwenden
-<string>Ein Sprint startet mit <ICON PAD PL_DASH_TOGGLE> und endet, wenn die<lf>Taste erneut gedrückt wird.
+<string>Ein Sprint startet mit <ICON PAD PL_DASH_TOGGLE> und endet, wenn<lf><ICON PAD PL_DASH_TOGGLE> erneut gedrückt wird.
 <string>Nur <ICON PAD PL_DASH> verwenden
-<string>Die <ICON PAD PL_DASH>-Taste wird zum Sprinten verwendet.
+<string><ICON PAD PL_DASH> wird zum Sprinten verwendet.
 <string><ICON PAD PL_DASH_TOGGLE> und <ICON PAD PL_DASH> nutzen
-<string>Die <ICON PAD PL_DASH_TOGGLE>- und die <ICON PAD PL_DASH>-Taste werden zum<lf>Sprinten verwendet.
+<string><ICON PAD PL_DASH_TOGGLE> und <ICON PAD PL_DASH> werden zum Sprinten<lf>verwendet.
 <string>Funktionstausch von <ICON PAD UI_DUMMY_ICON_LB>/<ICON PAD UI_DUMMY_ICON_LT> bzw. <ICON PAD UI_DUMMY_ICON_RB>/<ICON PAD UI_DUMMY_ICON_RT>
 <string>Tausche die Funktionen von <ICON PAD UI_DUMMY_ICON_LB> und <ICON PAD UI_DUMMY_ICON_LT> sowie<lf><ICON PAD UI_DUMMY_ICON_RB> und <ICON PAD UI_DUMMY_ICON_RT>.
 <string>Nicht vertauschen
-<string>Die Funktionen der Tasten werden nicht<lf>vertauscht.
+<string>Die Funktionen werden nicht vertauscht.
 <string>Nur <ICON PAD UI_DUMMY_ICON_LB>/<ICON PAD UI_DUMMY_ICON_LT> vertauschen
 <string>Es werden nur die Funktionen von <ICON PAD UI_DUMMY_ICON_LB> und<lf><ICON PAD UI_DUMMY_ICON_LT> vertauscht.
 <string>Nur <ICON PAD UI_DUMMY_ICON_RB>/<ICON PAD UI_DUMMY_ICON_RT> vertauschen
@@ -62,11 +66,11 @@
 <string>Haltedauer zum Bestätigen
 <string>Lege fest, wie lange du Tasten für Aktionen wie<lf>das Herbeirufen deines Saikrii oder das Über-<lf>springen von Ereignissen gedrückt halten musst.
 <string>Kurz
-<string>Es wird ein kürzerer Tastendruck benötigt, um<lf>eine Aktion zu bestätigen.
+<string>Es wird weniger Zeit benötigt, um eine<lf>Aktion zu bestätigen.
 <string>Standard
-<string>Es wird ein Standardtastendruck benötigt, um<lf>eine Aktion zu bestätigen.
+<string>Es wird standardmäßig Zeit benötigt,<lf>um eine Aktion zu bestätigen.
 <string>Lang
-<string>Es wird ein längerer Tastendruck benötigt, um eine<lf>Aktion zu bestätigen.
+<string>Es wird mehr Zeit benötigt, um eine<lf>Aktion zu bestätigen.
 <string>Automatisches Wegstecken
 <string>Lege fest, ob dein Charakter seine Waffe nach<lf>einer Weile nach dem Ziehen automatisch<lf>wegsteckt.
 <string>Auto-Wegstecken aktivieren
@@ -83,132 +87,132 @@
 <string>Richtungssteuerung
 <string>Passe die Richtungssteuerung für Aktionen<lf>wie das Ausweichen nach einem Angriff an.<lf><COLOR preset="TXT_Accent">(Tastatur)</COLOR>
 <string>Typ 1
-<string>– Drücke <ICON MKB PL_MOVE_FRONT>, um deinen Charakter „von der<lf>Kamera weg“ zu bewegen.<lf>– Drücke <ICON MKB PL_MOVE_BACK>, um deinen Charakter „auf die<lf>Kamera zu“ zu bewegen.
+<string>– Mit <ICON MKB PL_MOVE_FRONT> bewegst du deinen Charakter „von der<lf>Kamera weg“.<lf>– Mit <ICON MKB PL_MOVE_BACK> bewegst du deinen Charakter „auf die<lf>Kamera zu“.
 <string>Typ 2
-<string>– Drücke <ICON MKB PL_MOVE_FRONT>, um deinen Charakter in die<lf>Richtung zu bewegen, in die er sieht.<lf>– Drücke <ICON MKB PL_MOVE_BACK> um deinen Charakter in die<lf>Richtung zu bewegen, die für ihn „hinten“ ist.
+<string>– Mit <ICON MKB PL_MOVE_FRONT> bewegst du deinen Charakter in die<lf>Richtung, in die er sieht.<lf>– Mit <ICON MKB PL_MOVE_BACK> bewegst du deinen Charakter in die<lf>Richtung, die für ihn „hinten“ ist.
 <string>Saikrii-Steuerung
 <string>Passe die Saikrii-Steuerung an.
 <string>Saikrii rufen
 <string>Lege die Steuerung für den Saikriiruf fest.
 <string>Typ 1
-<string>Rufe den Saikrii mit <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL> oder einem eigenen<lf>Kurzbefehl im angepassten Tortenmenü.
+<string>Rufe den Saikrii mit <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> oder einem eigenen<lf>Kurzbefehl im angepassten Tortenmenü.
 <string>Typ 2
-<string>Zusätzlich zur Steuerung vom Typ 1, rufst du<lf>deinen Saikrii in der Auto-Bewegung, wenn du<lf>bei weggesteckter Waffe <ICON PAD PL_PT_CALL_KEEP> gedrückt hältst!
+<string>Zusätzlich zur Steuerung vom Typ 1 kannst du<lf>(bei weggesteckter Waffe) mit <ICON PL_PT_CALL_KEEP> deinen Saikrii<lf>im Auto-Bewegungsmodus zu dir rufen.
 <string>Typ 3
-<string>Zusätzlich zur Steuerung vom Typ 1, rufst du<lf>deinen Saikrii in der Manuellen Bewegung,<lf>wenn du bei weggesteckter Waffe <ICON PAD PL_PT_CALL_KEEP> gedrückt<lf>hältst!
+<string>Zusätzlich zur Steuerung vom Typ 1 kannst du<lf>(bei weggesteckter Waffe) mit <ICON PL_PT_CALL_KEEP> deinen Saikrii<lf>im manuellen Bewegungsmodus zu dir rufen.
 <string>Saikrii rufen (Tortenmenü)
 <string>Passe die Standardsteuerung an, um deinen<lf>Saikrii mithilfe des angepassten Tortenmenüs<lf>zu rufen.
 <string>Auto-Bewegung
-<string>Nutze <COLOR preset="TXT_Accent">Saikrii rufen</COLOR> im angepassten Tortenmenü,<lf>um deinen Saikrii im Auto-Bewegung-Modus<lf>herbeizurufen.
+<string>Nutze <COLOR preset="TXT_Accent">Saikrii rufen</COLOR> im angepassten Tortenmenü,<lf>um deinen Saikrii im Auto-Bewegungsmodus<lf>herbeizurufen.
 <string>Manuelle Bewegung
-<string>Nutze <COLOR preset="TXT_Accent">Saikrii rufen</COLOR> im angepassten Tortenmenü,<lf>um deinen Saikrii im Manuelle-Bewegung-Modus<lf>herbeizurufen.
+<string>Nutze <COLOR preset="TXT_Accent">Saikrii rufen</COLOR> im angepassten Tortenmenü,<lf>um deinen Saikrii im manuellen Bewegungsmodus<lf>herbeizurufen.
 <string>Manuelle Saikrii-Steuerung
-<string>Passe die Saikrii-Steuerung im Manuelle-<lf>Bewegung-Modus an.
+<string>Passe die Saikrii-Steuerung im manuellen<lf>Bewegungsmodus an.
 <string>Typ 1
-<string>Ähnlich wie die Auto-Bewegung.<lf>Ohne Tastendruck wird das Tempo gehalten.<lf><ICON PAD PL_PT_SPEED_UP> beschleunigt dein Saikrii, <ICON PAD PL_PT_SPEED_DOWN> verlangsam ihn.<lf>Halte <ICON PAD PL_PT_SPEED_DOWN> gedrückt, um ihn zum Stillstand<lf>zu bringen.
+<string>Ähnlich wie die Auto-Bewegung.<lf>Ohne Eingabe wird das Tempo gehalten.<lf><ICON PL_PT_SPEED_UP> beschleunigt deinen Saikrii und<lf><ICON PL_PT_SPEED_DOWN> verlangsamt ihn.<lf>Halte <ICON PL_PT_SPEED_DOWN> gedrückt, um ihn zum Stillstand<lf>zu bringen.
 <string>Typ 2
-<string>Ähnlich wie die Charaktersteuerung – bewegen<lf>mit <ICON PAD PL_DUMMY_MOVE>.<lf>Die Geschwindigkeit hängt davon ab, wie stark<lf><ICON PAD PL_DUMMY_MOVE> geneigt wird.
+<string>Ähnlich wie die Charaktersteuerung.<lf>Der Saikrii bewegt sich nur bei der Nutzung<lf>von <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>. Ohne Eingabe hält er an.
 <string>Route nur für Saikrii
 <string>Passe die Steuerung für das Verlassen von<lf>Routen an, die nur auf einem Saikrii zur<lf>Verfügung stehen.
 <string>Typ 1
-<string>Neige <ICON PAD PL_DUMMY_MOVE> während der Bewegung mit Höchst-<lf>geschwindigkeit, um die Route nur für Saikrii<lf>zu verlassen.
+<string>Neige <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> während der Bewegung mit Höchst-<lf>geschwindigkeit, um die Route nur für Saikrii<lf>zu verlassen.
 <string>Typ 2
-<string>Neige <ICON PAD PL_DUMMY_MOVE> und drücke dann <ICON PAD PL_INTERACT_ACTION_START>, um die Route<lf>nur für Saikrii zu verlassen. Die aktuelle<lf>Geschwindigkeit spielt dabei keine Rolle.
-<string>Objektsteuerung
-<string>Passe die Objektleisten- und Set-Navigations-<lf>Einstellungen des angepassten Tortenmenüs an.
-<string>Typ 1
-<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> zur Navigation in der Objektleiste
-<string>Typ 2
-<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET> zum Set-Wechsel im angepassten Tortenmenü
-<string>Objektleisten-Steuerung
-<string>Passe die Steuerungseinstellungen<lf>für die Objektleiste an.
-<string>Erweiterte Objektleiste
-<string>Passe die Einstellungen der<lf>erweiterten Objektleiste an.
-<string>Aktiviert
-<string>Die erweiterte Objektleistenansicht<lf>ist aktiviert.
-<string>Deaktiviert
-<string>Die erweiterte Objektleistenansicht<lf>ist deaktiviert.
-<string>Erweiterte-Objektleiste-Steuerung
+<string>Neige <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> und drücke dann <ICON PL_INTERACT_ACTION_START>, um die Route<lf>nur für Saikrii zu verlassen. Die aktuelle<lf>Geschwindigkeit spielt dabei keine Rolle.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
+<string>Ausgekl. Objektleiste: Steuerung
 <string><PLATMSG MsgGUI030100_01_16_HELP>
-<string>Passe die Steuerung für die Anzeige der erweiterten<lf>Objektleiste an. <COLOR preset="TXT_Accent">(Controller)</COLOR>
+<string>Passe die Steuerung für die Anzeige der ausgeklappten<lf>Objektleiste an. <COLOR preset="TXT_Accent">(Controller)</COLOR>
 <string>Typ 1
-<string>Während du <ICON PAD PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON PAD UI_ITEM_ALL_OPT1><lf>zwischen der erweiterten Objektleiste und der<lf>normalen Leiste um.
+<string>Während du <ICON PAD PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON PAD UI_ITEM_ALL_OPT1><lf>zwischen der ausgeklappten Objektleiste und<lf>der normalen Leiste um.
 <string>Typ 2
-<string>Während du <ICON PAD PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON PAD UI_ITEM_ALL_OPT2><lf>zwischen der erweiterten Objektleiste und der<lf>normalen Leiste um.
+<string>Während du <ICON PAD PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON PAD UI_ITEM_ALL_OPT2><lf>zwischen der ausgeklappten Objektleiste und<lf>der normalen Leiste um.
 <string>Typ 3
-<string>Mit <ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN> bleibt die erweiterte Objektleiste<lf>sichtbar.
+<string>Mit <ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN> bleibt die ausgeklappte Objekt-<lf>leiste sichtbar.
 <string>Typ 4
-<string>Während du <ICON PAD PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON PAD UI_ITEM_ALL_OPT4><lf>zwischen der erweiterten Objektleiste und der<lf>normalen Leiste um.
+<string>Während du <ICON PAD PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON PAD UI_ITEM_ALL_OPT4><lf>zwischen der ausgeklappten Objektleiste und<lf>der normalen Leiste um.
 <string>Typ 5
-<string>Die Anzeige der erweiterten Objektleiste ist<lf>deaktiviert.
-<string>Erweiterte-Objektleiste-Steuerung
-<string>Passe die Steuerung für die Anzeige der<lf>erweiterten Objektleiste an. <COLOR preset="TXT_Accent">(Tastatur)</COLOR>
+<string>Die Anzeige der ausgeklappten Objektleiste<lf>ist deaktiviert.
+<string>Ausgekl. Objektleiste: Steuerung
+<string>Passe die Steuerung für die Anzeige der ausgeklappten<lf>Objektleiste an. <COLOR preset="TXT_Accent">(Tastatur)</COLOR>
 <string>Typ 1
-<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE> während <ICON MKB PL_ITEM_SLIDER_OPEN>, um zwischen<lf>der erweiterten Objektleiste und<lf>der normalen Leiste umzuschalten.
+<string>Während du <ICON MKB PL_ITEM_SLIDER_OPEN> hältst, schaltest du mit <ICON MKB UI_ITEM_ALL_PC_TOGGLE><lf>zwischen der ausgeklappten Objektleiste und<lf>der normalen Leiste um.
 <string>Typ 2
-<string><ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN>, um die erweiterte Objektleiste<lf>sichtbar zu lassen.
+<string>Mit <ICON MKB UI_ITEM_ALL_PC_TOGGLE><ICON PLUS><ICON MKB PL_ITEM_SLIDER_OPEN> bleibt die ausgeklappte Objekt-<lf>leiste sichtbar.
 <string>Typ 3
-<string>Die erweiterte Objektleiste wird nicht<lf>per Tastatureingabe angezeigt.
-<string>Erweiterte-Objektleiste-Zeigergeschwindigkeit
+<string>Die ausgeklappte Objektleiste wird nicht<lf>per Tastatureingabe angezeigt.
+<string>Ausgekl. Objektleiste: Zeigergeschw.
 <string><PLATMSG MsgGUI030100_01_01_Help>
-<string>Passe die Zeigergeschwindigkeit für die<lf>Steuerung mit den Sticks an, wenn die<lf>Objektleiste vollständig angezeigt wird.
+<string>Passe die Zeigergeschwindigkeit für die Steuerung<lf>mit <ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT> an, wenn die Objektleiste ausgeklappt ist.
 <string>Langsam
 <string>Die Zeiger-Bewegungsgeschwindigkeit ist<lf>verringert.
 <string>Standard
 <string>Die Standard-Zeiger-Bewegungsgeschwindigkeit<lf>wird beibehalten.
 <string>Schnell
 <string>Die Zeiger-Bewegungsgeschwindigkeit ist<lf>erhöht.
-<string>Erweiterte-Objektleiste-Stapelung
-<string>Passe an, wie die erweiterte Objektleiste<lf>vertikal gestapelte Objekte anzeigt.
+<string>Ausgekl. Objektleiste: Stapelung
+<string>Passe an, wie die ausgeklappte Objektleiste<lf>vertikal gestapelte Objekte anzeigt.
 <string>Alle Stapel
 <string>Für alle sichtbaren Objekte werden die<lf>vertikal gestapelten Objekte angezeigt.
 <string>Nur gewählter Stapel
 <string>Nur für das aktuell gewählte Objekt werden<lf>die vertikal gestapelten Objekte angezeigt.
-<string>Erweiterte-Objektleiste-Steuerung (Objekt wählen)
-<string>Passe die Steuerung für die Objektauswahl in der<lf>erweiterten Objektleiste mit <ICON PAD UI_ITEM_LEFT> und <ICON PAD UI_ITEM_RIGHT> an.
-<string>Aktiviert
-<string>Der Einsatz von <ICON PAD UI_ITEM_LEFT> und <ICON PAD UI_ITEM_RIGHT> zum Auswählen von<lf>Objekten in der erweiterten Objektleiste ist<lf>aktiviert.
-<string>Deaktiviert
-<string>Der Einsatz von <ICON PAD UI_ITEM_LEFT> und <ICON PAD UI_ITEM_RIGHT> zum Auswählen von<lf>Objekten in der erweiterten Objektleiste ist<lf>deaktiviert.
-<string>Erweiterte Objektleiste (Mun./Beschicht.)
-<string>Passe die Steuerung für die Munitions-<lf>/ Beschichtungsauswahl in der<lf>erweiterten Objektleiste mit <ICON PAD UI_BULLET_ITEM_UP> und <ICON PAD UI_BULLET_ITEM_DOWN> an.
-<string>Aktiviert
-<string>Der Einsatz von <ICON PAD UI_BULLET_ITEM_UP> und <ICON PAD UI_BULLET_ITEM_DOWN> zum Auswählen von<lf>Munition/Beschichtungen in der erweiterten<lf>Objektleiste ist aktiviert.
-<string>Deaktiviert
-<string>Der Einsatz von <ICON PAD UI_BULLET_ITEM_UP> und <ICON PAD UI_BULLET_ITEM_DOWN> zum Auswählen von<lf>Munition/Beschichtungen in der erweiterten<lf>Objektleiste ist deaktiviert.
-<string>Erweiterte Objektleiste (Objekt nutzen)
-<string>Passe die Steuerung für die Objektnutzung<lf>in der erweiterten Objektleiste mit <ICON PAD UI_ITEM_USE> an.
-<string>Aktiviert
-<string>Der Einsatz von <ICON PAD UI_ITEM_USE> zum Benutzen von Objekten<lf>in der erweiterten Objektleiste ist aktiviert.
-<string>Deaktiviert
-<string>Der Einsatz von <ICON PAD UI_ITEM_USE> zum Benutzen von Objekten<lf>in der erweiterten Objektleiste ist deaktiviert.
-<string><PLATMSG MsgGUI030100_01_48>
-<string>Richtungstasten – Erw. Ansicht
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>Lege eine voreingestellte Richtungstasten-<lf>Konfiguration für die voll geöffnete<lf>Objektleiste fest.
-<string>Typ 1
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>Folgt der gewählten Einstellung für die<lf>Richtungstasten. Wenn die Objektleiste<lf>ausgeklappt ist, übernehmen die Richtungs-<lf>tasten die Funktion von <ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET>.
-<string>Typ 2
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>Die Richtungstasten navigieren immer innerhalb<lf>der Objektleiste, während sie ausgeklappt ist.
-<string>Typ 3
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>Die Richtungstasten navigieren immer innerhalb<lf>von Objektleiste und Munitionsleiste, während<lf>die Objektleiste ausgeklappt ist.
-<string>Typ 4
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>Die Richtungstasten sind deaktiviert, während<lf>die Objektleiste ausgeklappt ist.
-<string>Erw. Ansicht: Steuerung mit <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>
-<string>Lege eine voreingestellte Konfiguration für<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> fest, wenn die Objektleiste<lf>ausgeklappt ist.
-<string>Typ 1
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>Folgt der gewählten Einstellung für die<lf>Richtungstasten. Wenn die Objektleiste<lf>ausgeklappt ist, übernehmen <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN><lf>die Funktion von <ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>.
-<string>Typ 2
-<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> navigieren immer innerhalb der Objektleiste,<lf>während sie ausgeklappt ist.
-<string>Typ 3
-<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> navigieren immer innerhalb von<lf>Objektleiste und Munitionsleiste, während die<lf>Objektleiste ausgeklappt ist.
-<string>Typ 4
-<string><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> sind deaktiviert, während die<lf>Objektleiste ausgeklappt ist.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>Steuerung im Angep. Tortenmenü
 <string>Passe die Steuerung für das angepasste<lf>Tortenmenü an.
 <string>Kurzbefehle im Angep. Tortenmenü
@@ -218,7 +222,7 @@
 <string>Deaktiviert
 <string>Die Kurzbefehle für das angepasste<lf>Tortenmenü sind deaktiviert.
 <string>Steuerung der Objektnutzung
-<string>Passe an, wie du Objekte, Ausrufe und<lf>dergleichen im angepassten Tortenmenü<lf>auswählst.
+<string>Passe an, wie du Objekte, Ausrufe und dergleichen<lf>im angepassten Tortenmenü auswählst.
 <string>Typ 1
 <string>Lasse <ICON PAD PL_DUMMY_CAMERA> los, um Objekte, Ausrufe usw.<lf>auszuwählen.
 <string>Typ 2
@@ -243,21 +247,21 @@
 <string>Objekte, die als Schleudermunition verwendet<lf>werden können, werden nicht automatisch<lf>geladen, wenn die Objektleiste geschlossen<lf>wird.
 <string>Steuerung bei offenem Menü
 <string><PLATMSG MsgGUI030100_01_26_Help>
-<string>Passe an, was <ICON PAD PL_DUMMY_MOVE> steuert, wenn das Start-<lf>oder Einrichtungsmenü geöffnet ist. <COLOR preset="TXT_Accent">(Controller)</COLOR>
+<string>Passe an, was <ICON PAD PL_DUMMY_MOVE> steuert, wenn das Spiel-<lf>oder Einrichtungsmenü geöffnet ist. <COLOR preset="TXT_Accent">(Controller)</COLOR>
 <string>Typ 1
-<string><ICON PAD PL_DUMMY_MOVE> bewegt deinen Charakter, wenn das<lf>Start- oder Einrichtungsmenü geöffnet ist.
+<string><ICON PAD PL_DUMMY_MOVE> bewegt deinen Charakter, wenn das<lf>Spiel- oder Einrichtungsmenü geöffnet ist.
 <string>Typ 2
-<string><ICON PAD PL_DUMMY_MOVE> navigiert das Start- oder Einrichtungsmenü.<lf><COLOR preset="TXT_Accent">(Während geöffneter Menüs kannst du deinen<lf>Charakter nicht bewegen.)</COLOR>
+<string><ICON PAD PL_DUMMY_MOVE> navigiert das Spiel- oder Einrichtungsmenü.<lf><COLOR preset="TXT_Accent">(Während geöffneter Menüs kannst du deinen<lf>Charakter nicht bewegen.)</COLOR>
 <string>Steuerung bei offenem Menü
-<string>Passe die Navigationssteuerung an, wenn das<lf>Start- oder Einrichtungsmenü geöffnet ist.<lf><COLOR preset="TXT_Accent">(Tastatur)</COLOR>
+<string>Passe die Navigationssteuerung an, wenn das<lf>Spiel- oder Einrichtungsmenü geöffnet ist.<lf><COLOR preset="TXT_Accent">(Tastatur)</COLOR>
 <string>Typ 1
 <string>Die Haupttasten werden zur Charakter- und<lf>Kamerabewegung genutzt, die Nebentasten<lf>zur Auswahl in Menüs.
 <string>Typ 2
 <string>Die Haupttasten werden zur Auswahl in Menüs<lf>und zur Kamerabewegung genutzt, die Neben-<lf>tasten zur Charakterbewegung.
 <string>Typ 3
 <string>Die Haupttasten werden zur Charakterbewegung<lf>genutzt, die Nebentasten zur Auswahl in Menüs.<lf>Außerdem wird die Maus zur Kamerabewegung<lf>genutzt.
-<string>Tastenbelegung
-<string>Passe an, wie die Tastatur im Spiel genutzt<lf>wird.
+<string>Tastatur-Einstellungen
+<string>Passe an, wie die Tastatur im Spiel genutzt wird.
 <string>Standardmodus
 <string><PLATMSG MsgGUI030100_01_29_00_Help>
 <string>Alle Aktionen des Charakters werden mit der<lf>Tastatur gesteuert. Empfohlen für Spieler,<lf>die mit der Tastatur statt mit einem<lf>Controller spielen möchten.
@@ -293,28 +297,28 @@
 <string>Der Mauszeiger wird nicht angezeigt, wenn Tastatur-<lf>Kurzbefehle genutzt werden.<lf><COLOR preset="TXT_Accent">(Kurzbefehle können nicht mit der Maus genutzt<lf>werden.)</COLOR>
 <string>Mausrad-Priorität
 <string>Passe die Priorität der Mausradfunktion in Menüs an.
-<string>Seitenwechsel priorisieren
+<string>Seitennavigation priorisieren
 <string>In Menüs wird bei Verwendung des Mausrads<lf>der Wechsel von Seiten priorisiert, wenn das<lf>Menü Seiten enthält, die nach links oder<lf>rechts gewechselt werden können.
-<string>Auswählen priorisieren
+<string>Menüauswahl priorisieren
 <string>In Menüs wird bei Verwendung des Mausrads<lf>die Bewegung nach oben und unten priorisiert,<lf>selbst wenn das Menü Seiten enthält, die nach<lf>links oder rechts gewechselt werden können.
 <string>Beenden erzwingen mit Alt + F4
 <string>Passe an, ob Alt + F4 die Anwendung sofort<lf>beenden kann.
 <string>Deaktiviert
-<string>Das sofortige Beenden der Anwendung durch Drücken<lf>von Alt + F4 ist deaktiviert.
+<string>Das sofortige Beenden der Anwendung durch<lf>Drücken von Alt + F4 ist deaktiviert.
 <string>Aktiviert
-<string>Das sofortige Beenden der Anwendung durch Drücken<lf>von Alt + F4 ist aktiviert.
-<string>Windows-Taste deaktivieren
+<string>Das sofortige Beenden der Anwendung durch<lf>Drücken von Alt + F4 ist aktiviert.
+<string>Funktion der Windows-Taste
 <string>Passe die Nutzung der Windows-Taste für Funktionen<lf>des Betriebssystems an. <COLOR preset="TXT_Accent">(Ein Neustart des Spiels ist<lf>erforderlich, um Änderungen umzusetzen.)</COLOR>
 <string>Deaktiviert
-<string>Durch Drücken der Windows-Taste wird das Windows-<lf>Startmenü nicht angezeigt und es werden keine<lf>Kurzbefehle aktiviert.
+<string>Die Windows-Taste ist deaktiviert.
 <string>Aktiviert
-<string>Durch Drücken der Windows-Taste wird das Windows-<lf>Startmenü angezeigt und es werden Kurzbefehle<lf>aktiviert.
-<string>Linke und rechte Maustaste invertieren
-<string>Passe an, ob die Steuerung und Anzeige der<lf>linken und rechten Maustaste invertiert werden.
-<string>Invertieren
-<string>Die Steuerung und Anzeige der linken und<lf>rechten Maustaste sind invertiert. Diese<lf>Einstellung ist für Linkshänder.
-<string>Nicht invertieren
-<string>Die Steuerung und Anzeige der linken und<lf>rechten Maustaste sind nicht invertiert. Diese<lf>Einstellung ist für Rechtshänder.
+<string>Die Windows-Taste erfüllt ihre Standardfunktion.
+<string>Linke und rechte Maustaste vertauschen
+<string>Lege fest, ob die Funktion und Anzeige der<lf>linken und rechten Maustaste vertauscht werden<lf>sollen.
+<string>Vertauschen
+<string>Die Funktion und Anzeige der linken und<lf>rechten Maustaste sind vertauscht. Diese<lf>Einstellung ist für Linkshänder.
+<string>Nicht vertauschen
+<string>Die Funktion und Anzeige der linken und<lf>rechten Maustaste sind nicht vertauscht.<lf>Diese Einstellung ist für Rechtshänder.
 <string>Controller-Tastensymbole
 <string>Passe die Controller-Tastensymbole an,<lf>die in der Tastenbelegung angezeigt werden.
 <string>Typ 1
@@ -327,18 +331,18 @@
 <string>Die folgenden Tastensymbole werden angezeigt:<lf><ICON R_RIGHT_02><ICON R_DOWN_02><ICON R_UP_02><ICON R_LEFT_02><ICON AR_ALL_02><ICON OPTION_02><ICON TOUCH_02><ICON L1_02><ICON R1_02><ICON L2_02><ICON R2_02>
 <string>Typ 5
 <string>Die folgenden Tastensymbole werden angezeigt:<lf><ICON R_RIGHT_04><ICON R_DOWN_04><ICON R_UP_04><ICON R_LEFT_04><ICON AR_ALL_04><ICON OPTION_04><ICON TOUCH_04><ICON L1_04><ICON R1_04><ICON L2_04><ICON R2_04>
-<string>Startmenü-Auswahl merken
-<string>Lege fest, ob beim Schließen des Startmenüs die<lf>derzeitige Auswahlposition gespeichert wird, sodass<lf>du beim erneuten Öffnen wieder dort landest.
+<string>Spielmenü-Auswahl merken
+<string>Lege fest, ob beim Schließen des Spielmenüs die<lf>derzeitige Auswahlposition gespeichert wird, sodass<lf>du beim erneuten Öffnen wieder dort landest.
 <string>Merken
 <string>Die Auswahlposition wird gespeichert.<lf>Lediglich beim Verlassen des Spiels wird sie<lf>zurückgesetzt.
 <string>Nicht merken
-<string>Die Auswahlposition wird nicht gespeichert;<lf>beim Öffnen des Startmenüs landest du immer<lf>an der Standardposition.
+<string>Die Auswahlposition wird nicht gespeichert;<lf>beim Öffnen des Spielmenüs landest du immer<lf>an der Standardposition.
 <string>Zoomen der Karte
-<string>Passe an, ob die adaptiven Trigger für sofortiges<lf>Verkleinern/Vergrößern der Detailkarte genutzt<lf>werden, wenn <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> bis zum Klick gedrückt werden.
+<string>Passe an, ob die adaptiven Trigger für sofortiges<lf>Verkleinern/Vergrößern der Detailkarte genutzt<lf>werden, wenn <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> bis zum Klick gedrückt werden.
 <string>Aktiviert
-<string>Die adaptiven Trigger werden für sofortiges<lf>Verkleinern/Vergrößern der Detailkarte genutzt,<lf>indem <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> ganz durchgedrückt wird.
+<string>Die adaptiven Trigger werden für sofortiges<lf>Verkleinern/Vergrößern der Detailkarte genutzt,<lf>indem <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> ganz durchgedrückt wird.
 <string>Deaktiviert
-<string>Die adaptiven Trigger werden nicht für sofortiges<lf>Verkleinern/Vergrößern der Detailkarte genutzt,<lf>stattdessen verkleinern/vergrößern <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN> die<lf>Karte mit normaler Geschwindigkeit.
+<string>Die adaptiven Trigger werden nicht für sofortiges<lf>Verkleinern/Vergrößern der Detailkarte genutzt,<lf>stattdessen verkleinern/vergrößern <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN> die<lf>Karte mit normaler Geschwindigkeit.
 <string>Kamerageschw. (horizontal): Normal
 <string>Passe die Geschwindigkeit der horizontalen Kamera-<lf>bewegung während des normalen Spielens an.
 <string>Kamerageschw. (vertikal): Normal
@@ -356,9 +360,9 @@
 <string>Kamerageschw.: Waffe gezogen
 <string>Die Kamerageschwindigkeit kann beim Halten von<lf><ICON PAD PL_AIM> mit gezogener Waffe für Nah-/Fernkampfwaffen<lf>getrennt festgelegt werden.
 <string>Nahkampfwaffe (horizontal): <ICON PAD PL_AIM>
-<string>Passe die horizontale Kamerageschwindigkeit an,<lf>wenn du <ICON PAD PL_AIM> (Fokusmodus) mit gezogener Nahkampfwaffe<lf>nutzt.
+<string>Passe die horizontale Kamerageschwindigkeit<lf>bei der Verwendung von <ICON PAD PL_AIM> mit gezogener<lf>Nahkampfwaffe (Fokusmodus) an.
 <string>Nahkampfwaffe (vertikal): <ICON PAD PL_AIM>
-<string>Passe die vertikale Kamerageschwindigkeit an, wenn du<lf><ICON PAD PL_AIM> (Fokusmodus) mit gezogener Nahkampfwaffe nutzt.
+<string>Passe die vertikale Kamerageschwindigkeit<lf>bei der Verwendung von <ICON PAD PL_AIM> mit gezogener<lf>Nahkampfwaffe (Fokusmodus) an.
 <string>Fernkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string>Passe die horizontale Kamerageschwindigkeit<lf>bei der Verwendung von <ICON PAD PL_AIM> mit gezogener<lf>Fernkampfwaffe (Zielen/Fokusmodus) an.
 <string>Fernkampfwaffe (vertikal): <ICON PAD PL_AIM>
@@ -372,7 +376,7 @@
 <string>Kamerageschwindigkeit: <ICON PAD PL_DUMMY_MOVE>
 <string>Passe die Kamerageschwindigkeit an, wenn die Steuerung<lf>der Kamera mit <ICON PAD PL_DUMMY_MOVE> möglich ist, wie etwa im Fokusmodus.<lf><COLOR preset="TXT_Accent">(Bei 1 ist die Kamerasteuerung mit <ICON PAD PL_DUMMY_MOVE> deaktiviert.)</COLOR>
 <string>Flugbahn: Steuerungsgeschw.
-<string>Passe die Fadenkreuzgeschwindigkeit für<lf>Parabelschüsse mit dem Bogen und die<lf>Streubomben des Schweren Bogengewehrs an.
+<string>Passe die Fadenkreuzgeschwindigkeit für<lf>Parabelschüsse mit dem Bogen und für<lf>Streubomben des Schweren Bogengewehrs an.
 <string>Kamerainvertierung: Normal
 <string>Passe die Kamerainvertierung für das normale<lf>Spielen an.
 <string>Nicht invertiert
@@ -388,11 +392,11 @@
 <string>Kamerainvertierung: Waffe gezogen
 <string>Die Kamerainvertierung kann beim Halten von<lf><ICON PL_AIM> mit gezogener Waffe für Nah-/Fernkampfwaffen<lf>getrennt festgelegt werden.
 <string>Nahkampfwaffe <ICON PL_AIM>
-<string>Passe die Kamerainvertierung beim Halten von <lf><ICON PL_AIM> (Fokusmodus) mit gezogener Nahkampfwaffe an.
+<string>Passe an, ob die Kamera im Fokusmodus (<ICON PL_AIM>)<lf>mit gezogener Nahkampfwaffe invertiert werden<lf>soll.
 <string>Fernkampfwaffe <ICON PL_AIM>
 <string>Passe an, ob die Kamera beim Zielen/im Fokus-<lf>modus (<ICON PL_AIM>) mit gezogener Fernkampfwaffe<lf>invertiert werden soll.
 <string>Flugbahn-Invertierung
-<string>Passe die vertikale Zielsteuerung der Flugbahn<lf>für Parabelschüsse mit dem Bogen und die<lf>Streubomben des Schweren Bogengewehrs an.
+<string>Passe die vertikale Zielsteuerung der Flugbahn<lf>für Parabelschüsse mit dem Bogen und für<lf>Streubomben des Schweren Bogengewehrs an.
 <string>Fernkampfsteuerung: Normal
 <string>Die Flugbahn bewegt sich genauso<lf>vorwärts/rückwärts wie die Eingabe.
 <string>Fernkampfsteuerung: Invertiert
@@ -411,11 +415,11 @@
 <string>Passe die frontale Entfernung zwischen der<lf>Kamera und deinem Charakter an.
 <string>Kameraentfernung: Schwenk
 <string>Passe die seitliche Entfernung zwischen der<lf>Kamera und deinem Charakter an.
-<string>Kameravibration
-<string>Passe die Intensität von Kameravibrationen an,<lf>die vom Spiel ausgelöst werden.
 <string>Kamerawackeln
-<string>Passe die Intensität des Kamerawackelns an.
-<string>Kamera-Gebietsanpassung
+<string>Passe die Intensität des Kamerawackelns an,<lf>das von Ereignissen und Handlungen im Spiel<lf>ausgelöst wird.
+<string>Atmosphärische Kamerabewegungen
+<string>Passe die Intensität der atmosphärischen<lf>Kamerabewegungen an.
+<string>Kamera-Geländeanpassung
 <string>Lege fest, wie sich die Kamera bei Abhängen<lf>und anderem schrägen Gelände verhält.
 <string>Anpassen
 <string>Die Kamera passt sich automatisch dem<lf>Gelände an.
@@ -432,7 +436,7 @@
 <string>Aktiviert
 <string>Die Kamera wird automatisch zentriert, wenn<lf>dein Charakter zu Fuß läuft oder rennt.
 <string>Aktiviert (außer im Kampf)
-<string>Die Kamera wird automatisch zentriert, wenn<lf>dein Charakter zu Fuß läuft oder rennt – außer <lf>in Kampfsituationen.
+<string>Die Kamera wird automatisch zentriert, wenn<lf>dein Charakter zu Fuß läuft oder rennt – außer<lf>in Kampfsituationen.
 <string>Deaktiviert
 <string>Die Kamera wird nicht automatisch zentriert,<lf>wenn dein Charakter zu Fuß läuft oder rennt.
 <string>Auto-Zentrieren: Reiten
@@ -460,26 +464,26 @@
 <string>Deaktiviert
 <string>Der Zielassistent ist deaktiviert.
 <string>Zielen-/Fokusmodus-Steuerung
-<string>Lege fest, wie du zielst und in den Fokusmodus<lf>wechselst. Ist <COLOR preset="TXT_Accent">Erweiterte Zielen-/Fokusmodus-Steuerung</COLOR><lf>aktiv, gilt dies nur bei weggesteckter Waffe.
-<string><ICON PAD PL_AIM> halten: Modus aktivieren
-<string>Halte bei gezogener Waffe <ICON PAD PL_AIM> gedrückt, um den<lf>Fokusmodus für Nahkampfwaffen und den Zielen-/<lf>Fokusmodus für Fernkampfwaffen zu aktivieren.<lf>Bei weggesteckter Waffe zielst du stattdessen<lf>mit der Schleuder.
-<string><ICON PAD PL_AIM> drücken: Moduswechsel
-<string>Drücke bei gezogener Waffe <ICON PAD PL_AIM>, um den<lf>Fokusmodus für Nahkampfwaffen und den Zielen-<lf>/Fokusmodus für Fernkampfwaffen an- oder<lf>auszuschalten.<lf>Bei weggesteckter Waffe wird stattdessen der<lf>Zielenmodus der Schleuder angeschaltet.<lf>Drücke erneut, um ihn zu deaktivieren.
-<string>Drücke bei gezogener Waffe <ICON PAD PL_AIM>, um den<lf>Fokusmodus für Nahkampfwaffen und den Zielen-<lf>/Fokusmodus für Fernkampfwaffen an- oder<lf>auszuschalten.
+<string>Passe an, wie du zielst bzw. in den Fokusmodus<lf>wechselst. Ist <COLOR preset="TXT_Accent">Zielen/Fokusmodus (Detailsteuerung)</COLOR><lf>aktiv, gilt dies nur bei weggesteckter Waffe.
+<string><ICON PAD PL_AIM> (halten)
+<string>Du wechselst mit <ICON PAD PL_AIM> (halten) in den Fokus-<lf>modus.<lf>Sobald du loslässt, wechselst du zurück.<lf><lf>Bei weggesteckter Waffe zielst du stattdessen<lf>mit der Schleuder.
+<string><ICON PAD PL_AIM_TOGGLE> (drücken)
+<string>Du wechselst mit <ICON PAD PL_AIM> (drücken) in den Fokus-<lf>modus.<lf>Bei erneutem Drücken wechselst du zurück.<lf><lf>Bei weggesteckter Waffe zielst du stattdessen<lf>mit der Schleuder.
+<string>Drücke bei gezogener Waffe <ICON PAD PL_AIM_TOGGLE>, um zu zielen<lf>bzw. den Fokusmodus zu nutzen.
 <string>Zielen/Fokusmodus (Detailsteuerung)
-<string>Aktiviere diese Option, um für Nahkampfwaffen<lf>und Fernkampfwaffen getrennt festzulegen, wie<lf>du zielst bzw. den Fokusmodus nutzt.
+<string>Passe an, wie du mit gezogener Nah-/Fernkampf-<lf>waffe zielst bzw. den Fokusmodus nutzt. (Dies hat<lf>keinen Einfluss auf die Schleudersteuerung.)
 <string>Nahkampfwaffen
 <string>Passe an, wie du mit Nahkampfwaffen den<lf>Fokusmodus nutzt.
-<string><ICON PAD PL_AIM> halten
-<string>Halte bei gezogener Nahkampfwaffe <ICON PAD PL_AIM>, um den<lf>Fokusmodus zu nutzen.<lf>Sobald du die Taste loslässt, wechselst du zurück.
-<string><ICON PAD PL_AIM> drücken
-<string>Drücke bei gezogener Nahkampfwaffe <ICON PAD PL_AIM>, um den<lf>Fokusmodus zu nutzen.<lf>Drücke die Taste erneut, um zurückzuwechseln.
+<string><ICON PAD PL_AIM> (halten)
+<string>Halte bei gezogener Nahkampfwaffe <ICON PAD PL_AIM>,<lf>um den Fokusmodus zu nutzen.<lf>Sobald du loslässt, wechselst du zurück.
+<string><ICON PAD PL_POP_CHANGE_SELECT> (drücken)
+<string>Drücke bei gezogener Nahkampfwaffe <ICON PAD PL_POP_CHANGE_SELECT>,<lf>um den Fokusmodus zu nutzen.<lf>Bei erneutem Drücken wechselst du zurück.
 <string>Fernkampfwaffen
 <string>Passe an, wie du mit Fernkampfwaffen zielst<lf>bzw. den Fokusmodus nutzt.
-<string><ICON PAD PL_AIM> halten
-<string>Halte bei gezogener Fernkampfwaffe <ICON PAD PL_AIM>, um zu<lf>zielen bzw. den Fokusmodus zu nutzen.<lf>Sobald du die Taste loslässt, wechselst du zurück.
-<string><ICON PAD PL_AIM> drücken
-<string>Drücke bei gezogener Fernkampfwaffe <ICON PAD PL_AIM>, um zu<lf>zielen bzw. den Fokusmodus zu nutzen.<lf>Drücke die Taste erneut, um zurückzuwechseln.
+<string><ICON PAD PL_AIM> (halten)
+<string>Halte bei gezogener Fernkampfwaffe <ICON PAD PL_AIM>, um zu<lf>zielen bzw. den Fokusmodus zu nutzen.<lf>Sobald du loslässt, wechselst du zurück.
+<string><ICON PAD PL_POP_CHANGE_SELECT> (drücken)
+<string>Drücke bei gezogener Fernkampfwaffe <ICON PAD PL_POP_CHANGE_SELECT>, um zu<lf>zielen bzw. den Fokusmodus zu nutzen.<lf>Bei erneutem Drücken wechselst du zurück.
 <string>Zielkamera-Steuerungstyp
 <string>Passe die Steuerung der Zielkamera sowie die<lf>Zurücksetzung der Kamera an.
 <string>Typ 1
@@ -487,9 +491,9 @@
 <string>Typ 2
 <string>Drücke <ICON PL_CAMERA_RESET> einmal, um die Kamera in die<lf>Blickrichtung des Charakters auszurichten.<lf>Drücke zweimal, um die Kamera auf das<lf>Zielmonster zu richten.
 <string>Typ 3
-<string>Drücke <ICON PL_CAMERA_RESET> einmal, um die Kamera auf das<lf>Zielmonster zu richten. Zweimaliges Drücken<lf>hat keine Funktion.
+<string>Drücke <ICON PL_CAMERA_RESET> einmal, um die Kamera auf das<lf>Zielmonster zu fixieren.
 <string>Typ 4
-<string>Drücke <ICON PL_CAMERA_RESET> einmal, um die Kamera in die<lf>Blickrichtung des Charakters auszurichten.<lf>Zweimaliges Drücken hat keine Auswirkung.
+<string>Drücke <ICON PL_CAMERA_RESET> einmal, um die Kamera in die<lf>Blickrichtung des Charakters zu fixieren.
 <string>Typ 5
 <string>Drückst du <ICON PL_CAMERA_RESET>, wird die Kamera weder auf das<lf>Zielmonster noch in die Blickrichtung des<lf>Charakters ausgerichtet.
 <string>Kamera zurücksetzen: Richtung
@@ -544,7 +548,7 @@
 <string>Lege fest, ob das Anvisieren eines Monsters<lf>und die Auswahl eines Aufgabenziels verknüpft<lf>werden.
 <string>Verknüpfen
 <string>Beim Anvisieren eines Monsters wird ein<lf>entsprechendes Aufgabenziel ausgewählt.<lf>Das Aufgabenziel wird jedoch entfernt,<lf>wenn das Monster nicht mehr anvisiert wird.
-<string>Nur beim Anvisieren verknüpfen
+<string>Beim Anvisieren verknüpfen
 <string>Beim Anvisieren eines Monsters wird ein<lf>entsprechendes Aufgabenziel ausgewählt<lf>und bleibt auch dann erhalten, wenn das<lf>Monster nicht mehr anvisiert wird.
 <string>Nicht verknüpfen
 <string>Das Anvisieren eines Monsters hat keinen<lf>Einfluss auf die Auswahl des aktuellen<lf>Aufgabenziels.
@@ -555,7 +559,7 @@
 <string>Nicht verfolgen
 <string>Die Kamera verfolgt Spähkäfer nicht.
 <string>Maussteuerung der Kamera
-<string>Passe an, ob die Maus die Kamera steuert.<lf>Je nach Einstellung kann der Mauszeiger<lf>das Fenster verlassen.
+<string>Passe an, ob die Maus die Kamera steuert.<lf>Je nach Einstellung kann der Mauszeiger das Fenster<lf>verlassen.
 <string>An
 <string>Die Kamera wird mithilfe der Maus gesteuert.<lf>Der Mauszeiger kann das Fenster nicht verlassen,<lf>wenn diese Einstellung gewählt wird.
 <string>Aus
@@ -579,21 +583,21 @@
 <string>Steuerungsempf. (vertikal): Normal
 <string><PLATMSG MsgGUI030100_02_56_Help>
 <string>Passe die vertikale Kameraempfindlichkeit für die<lf>Bewegungssteuerung während des normalen<lf>Spielens an.
-<string>Steuerungsempf. (horizontal): <ICON PAD PL_AIM> 
+<string>Steuerungsempf. (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_57_Help>
-<string>Passe die horizontale Empfindlichkeit für die Bewegungs-<lf>steuerung an, wenn <ICON PAD PL_AIM> verwendet wird. Falls „Steuerungs-<lf>empfindlichkeit: Gezogene Waffe“ aktiviert ist,<lf>wird diese Einstellung nur bei weggesteckter Waffe aktiv.
+<string>Passe die horiz. Empfindlichkeit der Bewegungs-<lf>steuerung bei Verwendung von <ICON PAD PL_AIM> an. (Wenn <COLOR preset="TXT_Accent">Steuerungs-<lf>empf.: Waffe gezogen</COLOR> aktiv, nur bei weggesteckter Waffe.)
 <string>Steuerungsempf. (vertikal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_58_Help>
-<string>Passe die vertikale Empfindlichkeit für die Bewegungs-<lf>steuerung an, wenn <ICON PAD PL_AIM> verwendet wird. Falls „Steuerungs-<lf>empfindlichkeit: Gezogene Waffe“ aktiviert ist,<lf>wird diese Einstellung nur bei weggesteckter Waffe aktiv.
-<string>Steuerungsempf.: Gezogene Waffe
+<string>Passe die vertik. Empfindlichkeit der Bewegungs-<lf>steuerung bei Verwendung von <ICON PAD PL_AIM> an. (Wenn <COLOR preset="TXT_Accent">Steuerungs-<lf>empf.: Waffe gezogen</COLOR> aktiv, nur bei weggesteckter Waffe.)
+<string>Steuerungsempf.: Waffe gezogen
 <string><PLATMSG MsgGUI030100_02_59_Help>
 <string>Die Empfindlichkeit der Bewegungssteuerung kann<lf>beim Halten von <ICON PAD PL_AIM> mit gezogener Waffe für Nah-/<lf>Fernkampfwaffen getrennt festgelegt werden.
 <string>Nahkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_60_Help>
-<string>Passe die Empfindlichkeit der horizontalen Bewegungs-<lf>steuerung an, wenn du <ICON PAD PL_AIM> (Fokusmodus) mit gezogener Nah-<lf>kampfwaffe nutzt.
+<string>Passe die horizontale Empfindlichkeit der Bewegungs-<lf>steuerung beim Nutzen des Fokusmodus (<ICON PAD PL_AIM>)<lf>mit gezogener Nahkampfwaffe an.
 <string>Nahkampfwaffe (vertikal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_61_Help>
-<string>Passe die Empfindlichkeit der vertikalen Bewegungs-<lf>sensor-Steuerung bei Nutzung von <ICON PAD PL_AIM> (Fokusmodus)<lf>mit gezogener Nahkampfwaffe an.
+<string>Passe die vertikale Empfindlichkeit der Bewegungs-<lf>steuerung beim Nutzen des Fokusmodus (<ICON PAD PL_AIM>)<lf>mit gezogener Nahkampfwaffe an.
 <string>Fernkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_62_Help>
 <string>Passe die horizontale Empfindlichkeit der Bewegungs-<lf>steuerung beim Zielen/im Fokusmodus (<ICON PAD PL_AIM>) mit<lf>gezogener Fernkampfwaffe an.
@@ -602,17 +606,17 @@
 <string>Passe die vertikale Empfindlichkeit der Bewegungs-<lf>steuerung beim Zielen/im Fokusmodus (<ICON PAD PL_AIM>) mit<lf>gezogener Fernkampfwaffe an.
 <string>Steuerungsempf.: Flugbahn
 <string><PLATMSG MsgGUI030100_02_64_Help>
-<string>Verändere die Zielgeschwindigkeit für Parabelschüsse mit dem<lf>Bogen und die Streubomben des Schweren Bogengewehrs.<lf><COLOR preset="TXT_Accent">(Bewegungssteuerung)</COLOR>
+<string>Verändere die Zielgeschwindigkeit für Parabelschüsse<lf>mit dem Bogen und für Streubomben des Schweren<lf>Bogengewehrs. <COLOR preset="TXT_Accent">(Bewegungssteuerung)</COLOR>
 <string>Steuerungsinvertierung: Normal
 <string><PLATMSG MsgGUI030100_02_65_Help>
 <string>Passe an, ob die Bewegungssteuerung während<lf>des normalen Spielens invertiert wird.
 <string>Die Controllerbewegung ist nicht invertiert.
-<string>Nur die Controllerbewegung für Oben/Unten<lf>ist invertiert. 
+<string>Nur die Controllerbewegung für Oben/Unten<lf>ist invertiert.
 <string>Nur die Controllerbewegung für Links/Rechts<lf>ist invertiert.
 <string>Sowohl die Controllerbewegung für Oben/Unten<lf>als auch die für Links/Rechts ist invertiert.
 <string>Steuerungsinvertierung: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_66_Help>
-<string>Passe an, ob die Bewegungssteuerung invertiert wird,<lf>wenn <ICON PAD PL_AIM> genutzt wird. Falls „Steuerungsinvertierung:<lf>Waffe gezogen“ aktiviert ist, wird diese Einstellung<lf>nur bei weggesteckter Waffe aktiv.
+<string>Passe an, ob die Bewegungssteuerung bei Verwendung<lf>von <ICON PAD PL_AIM> invertiert wird. (Wenn <COLOR preset="TXT_Accent">Steuerungsinvert.:<lf>Waffe gezogen</COLOR> aktiv, nur bei weggesteckter Waffe.)
 <string>Steuerungsinvertierung: Waffe gezogen
 <string><PLATMSG MsgGUI030100_02_67_Help>
 <string>Die Bewegungssteuerung kann beim Halten von<lf><ICON PAD PL_AIM> mit gezogener Waffe für Nah-/Fernkampfwaffen<lf>getrennt invertiert werden.
@@ -624,7 +628,7 @@
 <string>Die Bewegungssteuerung der Kamera bei der Verwendung<lf>von <ICON PAD PL_AIM> (Zielen-/Fokusmodus) mit gezogener Fernkampf-<lf>waffe ist invertiert.
 <string>Flugbahn: Steuerung invertieren
 <string><PLATMSG MsgGUI030100_02_70_Help>
-<string>Invertiere die Zielsteuerung für Parabelschüsse mit<lf>dem Bogen und die Streubomben des Schweren<lf>Bogengewehrs. <COLOR preset="TXT_Accent">(Bewegungssteuerung)</COLOR>
+<string>Invertiere die Zielsteuerung für Parabelschüsse mit<lf>dem Bogen und für Streubomben des Schweren<lf>Bogengewehrs. <COLOR preset="TXT_Accent">(Bewegungssteuerung)</COLOR>
 <string>Die Controllerbewegungen sind nicht invertiert.
 <string>Die Controllerbewegungen sind invertiert.
 <string>Bildausgabe-Auswahl
@@ -633,9 +637,9 @@
 <string>Bildschirmmodus
 <string>Passe an, wie das Spielfenster angezeigt wird.
 <string>Randloses Fenster
-<string>Das Spiel wird in Vollbild angezeigt,<lf>das sich über das Bildschirmfenster<lf>erstreckt, um besser in die Spielwelt<lf>einzutauchen zu können.
+<string>Das Spiel wird in einem Fenster angezeigt,<lf>wobei das Fenster den gesamten Bildschirm<lf>einnimmt und so die typische Immersion<lf>eines Vollbilds bietet.
 <string>Fenster-Modus
-<string>Aktiviere den regulären Fenstermodus.
+<string>Das Spiel wird in einem regulären Fenster<lf>angezeigt.
 <string>Auflösung
 <string>Passe die Bildschirmauflösung an.
 <string>{0} x {1}
@@ -651,21 +655,21 @@
 <string>Ultraweit (21:9)
 <string>Das Spiel wird im Bildformat 21:9 dargestellt.<lf>Auf Monitoren ohne Unterstützung des<lf>ultraweiten Bildformats wird das Spiel<lf>mit Letterbox dargestellt.
 <string>Ultrawide-UI-Positionskorrektur
-<string>Verschiebe die Minikarte und andere<lf>UI-Elemente in die Bildschirmmitte.<lf><COLOR preset="TXT_Accent">(Nur mit Bildformat „Ultraweit“.)</COLOR>
+<string>Verschiebe die Minikarte und andere UI-Elemente in<lf>die Bildschirmmitte.<lf><COLOR preset="TXT_Accent">(Nur mit Bildformat „Ultraweit“.)</COLOR>
 <string>Framerate
-<string>Passe die maximale Framerate für das gesamte<lf>Spiel an.
+<string>Passe die maximale Framerate an.
 <string>Unbegrenzte Framerate
-<string>Lege fest, ob die Framerate des gesamten Spiels<lf>begrenzt wird.
+<string>Lege fest, ob die Framerate begrenzt werden soll.
 <string>Unbegrenzt
 <string>Die Framerate des gesamten Spiels ist nicht<lf>begrenzt. <COLOR preset="TXT_Accent">(Der unter „Framerate“ festgelegte<lf>Wert wird ignoriert.)</COLOR>
 <string>Begrenzt
 <string>Die Framerate des gesamten Spiels ist auf den Wert<lf>begrenzt, der unter „Framerate“ ausgewählt ist.
 <string>Framerate (Zwischensequenzen)
-<string>Bei aktivierter Einstellung kann die Framerate in<lf>Zwischensequenzen separat angepasst werden. Sonst<lf>wird der unter „Framerate“ festgelegte Wert angewendet.
+<string>Aktiviere diese Option, wenn du für Zwischen-<lf>sequenzen die Framerate separat festlegen<lf>möchtest.
 <string>Framerate (Zwischensequenzen)
 <string>Passe die maximale Framerate in Zwischen-<lf>sequenzen an. <COLOR preset="TXT_Accent">(Der unter „Framerate“<lf>festgelegte Wert bestimmt das Maximum.)</COLOR>
 <string>Framerate bei Inaktivität
-<string>Bei aktivierter Einstellung kann die Framerate<lf>separat für die Zeiten festgelegt werden, wenn<lf>das Spielfenster im Hintergrund ist.
+<string>Aktiviere diese Option, wenn du für die Zeiten,<lf>in denen das Spielfenster im Hintergrund ist,<lf>die Framerate separat festlegen möchtest.
 <string>Framerate bei Inaktivität
 <string>Passe die maximale Framerate an, wenn das<lf>Spiel inaktiv ist. <COLOR preset="TXT_Accent">(Der unter „Framerate“<lf>festgelegte Wert bestimmt das Maximum.)</COLOR>
 <string>HDR-Ausgabe
@@ -676,7 +680,7 @@
 <string>Die HDR-Ausgabe ist auch auf unterstützten<lf>Geräten deaktiviert.
 <string>Helligkeit
 <string>Passe die Bildschirmhelligkeit an.
-<string>Helligkeit anpassen (HDR)
+<string>Helligkeit (HDR)
 <string>Passe die Bildschirmhelligkeit an.
 <string>V-Sync
 <string>Passe die vertikale Synchronisation an.
@@ -701,8 +705,8 @@
 <string>Andere Anwendungen
 <string>MB
 <string>MB /
-<string>Es wird ein großer Teil des Grafikspeichers genutzt,<lf>wodurch kleinere Fehlfunktionen auftreten können.
-<string>Es wird ein sehr großer Teil des Grafikspeichers genutzt,<lf>wodurch erhebliche Fehlfunktionen auftreten können.
+<string>Es wird ein großer Teil des Grafikspeichers genutzt,<lf>wodurch kleinere Störungen auftreten können.
+<string>Es wird ein sehr großer Teil des Grafikspeichers genutzt,<lf>wodurch erhebliche Störungen auftreten können.
 <string>CPU
 <string>RAM
 <string><NUMBER {0}> GB
@@ -722,7 +726,7 @@
 <string>Hoch
 <string>Mittel
 <string>Niedrig
-<string>Am niedrigsten
+<string>Minimal
 <string>Benutzerdefiniert
 <string>Diese Einstellung wird gewählt, wenn Details<lf>manuell innerhalb einer Voreinstellung<lf>geändert wurden.
 <string>Grafik (Zwischensequenzen)
@@ -737,11 +741,11 @@
 <string>Hochskalieren (hochauflösende Bildgebung)
 <string>Durch Nutzung hochauflösender Bildgebungstechnologie<lf>kann hohe Leistung mit gleichzeitig hoher Grafikqualität<lf>erzielt werden.
 <string>NVIDIA DLSS
-<string>NVIDIA DLSS 3.5 wird genutzt.<lf><COLOR preset="TXT_Accent">(Dies erfordert eine NVIDIA GeForce RTX-<lf>Grafikkarte.)<lf>Hinweis: Mit einer Karte der GeForce RTX40-<lf>Serie und aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
-<string>AMD FSR 3
-<string>AMD FSR 3.0.3 wird genutzt.<lf><COLOR preset="TXT_Accent">(Ist im Betriebssystem die Hardwarebeschleu-<lf>nigte GPU-Planung aktiviert, wird durch<lf>Auswahl dieser Einstellung die Option „Frame-<lf>Generierung“ anwählbar.)</COLOR>
+<string>NVIDIA <DLSS> wird genutzt.<lf><COLOR preset="TXT_Accent">– Dies erfordert eine NVIDIA GeForce RTX-<lf>Grafikkarte.<lf>– Mit einer Karte der GeForce RTX40-<lf>Serie und aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
+<string>AMD FSR
+<string><FSR> wird genutzt.<lf><COLOR preset="TXT_Accent">– Bei aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
 <string>Intel XeSS
-<string>Intel XeSS 1.3 wird genutzt.
+<string>Intel <XESS> wird genutzt.
 <string>Deaktiviert
 <string>Hochskalierung wird nicht genutzt.
 <string>Frame-Generierung
@@ -754,16 +758,16 @@
 <string><COLOR preset="TXT_Accent">Frame- Generierung</COLOR> (mit Nutzung von <COLOR preset="TXT_Accent">FSR</COLOR>) kann<lf>mit den aktuellen Anzeigeneinstellungen nicht<lf>aktiviert werden. Die Einstellung wurde deshalb<lf>automatisch auf <BOLD>Deaktiviert</BOLD> gesetzt.
 <string>Die Frame-Generierung kann wieder aktiviert werden,<lf>indem du deine Einstellung zum Fenster-Modus änderst<lf>oder bei Randlosem Fenster zu einer Auflösung wechselst,<lf>bei der keine schwarzen Ränder angezeigt werden.
 <string>Hochskalierungsmodus
-<string>Passe die Grafikqualität beim Hochskalieren an.<lf><COLOR preset="TXT_Accent">(Nur bei aktivierter Hochskalierung anpassbar.)</COLOR>
+<string>Passe die Grafikqualität beim Hochskalieren an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren aktiviert ist.)</COLOR>
 <string>NVIDIA DLAA
 <string>Nutzt KI-Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>AMD Nativ AA
-<string>Nutzt FSR 3 Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
+<string>Nutzt FSR Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>Intel XeSS Native AA
 <string>Nutzt XeSS Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>Qualität
 <string>Die Bildschirmauflösung hat Priorität über<lf>die Framerate.
-<string>Ausgewogen
+<string>Ausgeglichen
 <string>Die Bildschirmauflösung ist ebenso wichtig<lf>wie die Framerate.
 <string>Leistung
 <string>Die Framerate hat Priorität über<lf>die Bildschirmauflösung.
@@ -772,22 +776,24 @@
 <string>Deaktiviert
 <string>Es wird kein Hochskalieren genutzt.
 <string>Schärfe der Hochskalierung
-<string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur bei aktivierter Hochskalierung anpassbar.)</COLOR>
+<string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn AMD FSR aktiviert ist.)</COLOR>
 <string>Anti-Aliasing
-<string>Passe den Anti-Aliasing-Modus an.<lf><COLOR preset="TXT_Accent">(Nur bei deaktivierter Hochskalierung anpassbar.)</COLOR>
+<string>Passe den Anti-Aliasing-Modus an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
 <string>FXAA + TAA
 <string>TAA
 <string>Aus
 <string>Render-Skalierung
 <string>Passe den Prozentsatz der Render-Skalierung an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
 <string>Raytracing
-<string>Passe die Qualität von Lichtreflexionen und<lf>-brechungen an, die durch Raytracing erzeugt<lf>werden.
+<string>Passt die Qualität von Lichtreflexion durch<lf>Raytracing-Technologie an.
 <string>Maximal
 <string>Hoch
 <string>Mittel
 <string>Niedrig
 <string>Minimal
 <string>Aus
+<string>CPU
+<string>GPU
 <string>Texturenqualität
 <string>Passe die Texturauflösung von Objekten an.
 <string>Maximal (hochauflösend)
@@ -814,11 +820,11 @@
 <string>Passe die Bildqualität der Felldarstellung von<lf>Kreaturen an, Palicos eingeschlossen.
 <string>Hoch
 <string>Niedrig
-<string>LOD Bias
-<string>Passe die Modellqualität im Spiel je nach Situation an.
-<string>Maximal
-<string>Hoch
-<string>Mittel
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>Qualität Himmel/Wolken
 <string>Passe die Bildqualität für Himmel und Wolken an.
 <string>Maximal
@@ -842,11 +848,11 @@
 <string>Hoch
 <string>Niedrig
 <string>Qualität von Oberflächen
-<string>Passe an, mit welcher Qualität die Umgebung und<lf>geografische Merkmale in der unmittelbaren Nähe<lf>des Charakters dargestellt werden.
+<string>Passe an, mit welcher Qualität die Umgebung und geogra-<lf>fische Merkmale in der unmittelbaren Nähe des Charakters<lf>dargestellt werden. <COLOR preset="TXT_Accent">(Über die Hauptmenü-Optionen.)</COLOR>
 <string>Hoch
 <string>Niedrig
-<string>Qualität Sand/Schnee/Wasser
-<string>Passe die Bildqualität für Sand, Schnee,<lf>Wasser usw. an.
+<string>Sand-/Schnee-Qualität
+<string>Passe die Bildqualität für Sand, Schnee<lf>und andere Geländearten an.
 <string>Maximal
 <string>Hoch
 <string>Mittel
@@ -861,7 +867,11 @@
 <string>Mittel
 <string>Niedrig
 <string>Renderdistanz
-<string>Passe die Anzahl an Spielern oder Charakteren an, die<lf>in Lobbys angezeigt werden, sowie die Entfernung, in<lf>der Monster und einheimische Wesen zu sehen sind.
+<string>Passe die Anzahl an Spielern oder Charakteren an, die in Lobbys<lf>angezeigt werden, sowie die Entfernung, in der Monster und<lf>einheimische Wesen zu sehen sind. <COLOR preset="TXT_Accent">(Über die Hauptmenü-Optionen.)</COLOR>
+<string>Rendert die maximale Anzahl an Objekten,<lf>unabhängig von der Entfernung zum Jäger.
+<string>Rendert die meisten Objekte, einschließlich<lf>derjenigen, die weit vom Jäger entfernt sind.
+<string>Rendert die meisten Objekte in mittlerer<lf>Entfernung vom Jäger.
+<string>Verringert die Renderlast, indem nur Objekte<lf>angezeigt werden, die sich in unmittelbarer<lf>Nähe des Jägers befinden.
 <string>Schattenqualität
 <string>Passe die Schattenqualität an.
 <string>Maximal
@@ -893,7 +903,7 @@
 <string>Mittel
 <string>Aus
 <string>Bloom
-<string>Passe die Intensität des „Auslaufens“ heller<lf>Lichtquellen in Nachbarbereiche an.
+<string>Passe an, wie stark helle Lichtquellen in Nachbar-<lf>bereiche ausstrahlen.
 <string>Stark
 <string>Schwach
 <string>Aus
@@ -906,11 +916,11 @@
 <string>An
 <string>Aus
 <string>Bildschirm-Reflexion
-<string>Lege fest, ob eine Rendering-Technik<lf>angewendet wird, die Reflexionen verbessert.
+<string>Legt fest, ob eine Rendering-Technik angewendet wird,<lf>die Reflexionen verbessert.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn Raytracing deaktiviert ist.)</COLOR>
 <string>An
 <string>Aus
 <string>SSSS Scattering
-<string>„Screen Space Separable Subsurface Scattering“.<lf>Lege fest, ob Licht in Objekte eindringen und<lf>dann von ihnen gebrochen werden kann.
+<string>„Screen Space Separable Subsurface Scattering“<lf>legt fest, ob Licht in Objekte eindringen und<lf>dann von ihnen gebrochen werden kann.
 <string>An
 <string>Aus
 <string>Schärfentiefe
@@ -918,13 +928,13 @@
 <string>An
 <string>Aus
 <string>Volumetrischer Nebel
-<string>Passe die Qualität des Nebels durch Staub und<lf>Partikel in der Luft an. Wirkt sich auf Sonnenstrahlen<lf>und Ähnliches aus.
+<string>Passe die Qualität des Nebels an, der durch Staub<lf>und andere Luftpartikel verursacht wird.<lf>Beeinflusst u. a. die Darstellung von Lichtstrahlen.
 <string>Hoch
 <string>Niedrig
 <string>Variable Rate Shading
 <string>Verringert die Rendering-Last durch Effekte und<lf>Shader, indem Pixel-Shader weniger gleichmäßig<lf>verarbeitet werden.
 <string>Aus
-<string>Ausgewogen
+<string>Ausgeglichen
 <string>Leistung
 <string><PLATMSG MsgGUI030100_04_44>
 <string>Controller-Vibration
@@ -939,32 +949,32 @@
 <string><PLATMSG MsgGUI030100_04_44_01_Help>
 <string>Die Controller-Vibration ist deaktiviert.
 <string>Schadenszahlen
-<string>Lege fest, ob Schadenszahlen angezeigt werden.
+<string>Lege fest, ob der Monstern zugefügte Schaden<lf>auf dem Bildschirm angezeigt wird.
 <string>Anzeigen (Nachkommastellen)
-<string>Der Schaden an Monstern wird durch Zahlen<lf>angezeigt. <COLOR preset="TXT_Accent">(Mit Nachkommastellen.)</COLOR>
-<string>Anzeigen (nur ganze Zahlen)
-<string>Der Schaden an Monstern wird durch Zahlen<lf>angezeigt. <COLOR preset="TXT_Accent">(Nur ganze Zahlen.)</COLOR>
+<string>Der Monstern zugefügte Schaden wird in Zahlen<lf>einschließlich Nachkommastellen angezeigt.
+<string>Anzeigen (ganze Zahlen)
+<string>Der Monstern zugefügte Schaden wird in ganzen<lf>Zahlen angezeigt.
 <string>Nicht anzeigen
-<string>Die Schadenszahlen werden nicht angezeigt.
+<string>Der Monstern zugefügte Schaden wird nicht<lf>angezeigt.
 <string>HUD
 <string>Passe die HUD-Darstellung und -Inhalte an.
 <string>Gesundheitsbalken
 <string>Klein
-<string>Der Balken wird kleiner als in der Standard-<lf>größe angezeigt.
+<string>Das Element wird kleiner als in der Standard-<lf>größe angezeigt.
 <string>Standard
-<string>Der Balken wird in der Standardgröße angezeigt.
+<string>Das Element wird in der Standardgröße<lf>angezeigt.
 <string>Groß
-<string>Der Balken wird größer als in der Standard-<lf>größe angezeigt.
+<string>Das Element wird größer als in der Standard-<lf>größe angezeigt.
 <string>Nicht anzeigen
-<string>Der Balken wird nicht angezeigt.
+<string>Das Element wird nicht angezeigt.
 <string>Ausdauerbalken
-<string>Schärfe-Anzeige
+<string>Waffenschärfebalken
 <string>Waffeninformation
 <string>Gruppen-Info
 <string>Spähkäfer-Mitteilungen
 <string>Minikarte
 <string>Umgebungsuhr
-<string>Ziel-Monster
+<string>Zielmonster-Symbol
 <string>Tastenbelegung
 <string>Ziele
 <string>Chat-Mitteilungen
@@ -980,26 +990,26 @@
 <string>Drehend
 <string>Die Minikarte dreht sich mit der Ausrichtung<lf>der Kamera.
 <string>Fest
-<string>Die Minikarte dreht sich nicht.<lf>Die Kamera bleibt stets auf Norden (oben)<lf>ausgerichtet.
+<string>Die Minikarte dreht sich nicht.<lf>Sie ist unabhängig von der Kameraausrichtung<lf>nach Norden ausgerichtet.
 <string>Minikarte: Neigung
 <string>Lege die Neigungseinstellung der Minikarte<lf>fest.
 <string>Feste Vogelperspektive
-<string>Die Minikarte wird flach aus der<lf>Vogelperspektive angezeigt.
+<string>Die Minikarte wird flach aus der Vogel-<lf>perspektive angezeigt.
 <string>Fest geneigt
 <string>Die Minikarte wird dreidimensional aus<lf>einer geneigten Perspektive angezeigt.
 <string>Neigung an Kamera angleichen
 <string>Die Minikarte wird aus einer geneigten<lf>Perspektive angezeigt, die der<lf>Kameraausrichtung folgt.
 <string>Minikarte: Größe
 <string>Passe die Größe der Minikarte in diversen<lf>Situationen an.
-<string>Stützpunkte
+<string>In Stützpunkten
 <string>Lege die Größe der Minikarte in Dörfern<lf>und Basen fest.
 <string>Klein
-<string>Die Minikarte wird kleiner als in der<lf>Standardgröße angezeigt.
+<string>Die Minikarte wird kleiner angezeigt.
 <string>Standard
 <string>Die Minikarte wird in der Standardgröße<lf>angezeigt.
 <string>Groß
-<string>Die Minikarte wird größer als in der<lf>Standardgröße angezeigt.
-<string>Zielen/Fokusmodus
+<string>Die Minikarte wird größer angezeigt.
+<string>Beim Zielen/Im Fokusmodus
 <string>Lege die Größe der Minikarte beim Zielen und<lf>im Fokusmodus fest.
 <string>Im Kampf (große Monster)
 <string>Lege die Größe der Minikarte im Kampf<lf>gegen große Monster fest.
@@ -1007,7 +1017,7 @@
 <string>Lege die Größe der Minikarte beim Halten<lf>von <ICON PL_ITEM_SLIDER_OPEN> fest.
 <string>Minikarte: Maßstab
 <string>Passe den Maßstab der Minikarte in diversen<lf>Situationen an.
-<string>Stützpunkte
+<string>In Stützpunkten
 <string>Lege den Maßstab der Minikarte in Dörfern<lf>und Basen fest.
 <string>Klein
 <string>Der Maßstab ist verkleinert, d. h. es wird<lf>eine weniger detaillierte, herausgezoomte<lf>Ansicht des Gebiets angezeigt.
@@ -1015,7 +1025,7 @@
 <string>Der Maßstab der Minikarte bleibt unverändert<lf>zum Rest des Spiels.
 <string>Groß
 <string>Der Maßstab ist vergrößert, d. h. es wird<lf>eine detailliertere, hereingezoomte Ansicht<lf>des Gebiets angezeigt.
-<string>Zielen/Fokusmodus
+<string>Beim Zielen/Im Fokusmodus
 <string>Lege den Maßstab der Minikarte beim Zielen/<lf>im Fokusmodus fest.
 <string>Im Kampf (große Monster)
 <string>Lege den Maßstab der Minikarte im Kampf<lf>gegen große Monster fest.
@@ -1033,12 +1043,12 @@
 <string>Die kritischen Effekte anderer Spieler<lf>werden angezeigt.
 <string>Nicht anzeigen
 <string>Die kritischen Effekte anderer Spieler<lf>werden nicht angezeigt.
-<string>Bluteffekte
-<string>Lege fest, ob die Bluteffekte angezeigt<lf>werden.
+<string>Blut
+<string>Lege fest, ob Blut angezeigt werden soll.
 <string>Anzeigen
-<string>Die Bluteffekte werden angezeigt.
+<string>Blut wird angezeigt.
 <string>Nicht anzeigen
-<string>Die Bluteffekte werden nicht angezeigt.
+<string>Es wird kein Blut angezeigt.
 <string>HUD
 <string>Passe die Anzeigeneinstellungen fürs HUD an.
 <string>Gesundheitsbalken
@@ -1054,9 +1064,9 @@
 <string>Dynamisch
 <string>Der Ausdauerbalken wird standardmäßig<lf>minimiert angezeigt. Der Balken wird in<lf>manchen Situationen zur vollständigen<lf>Anzeige erweitert.
 <string>Schärfebalken
-<string>Passe die Anzeigeneinstellung für den<lf>Schärfebalken an.
+<string>Passe die Anzeigeneinstellung für den Schärfebalken<lf>an.
 <string>Fest
-<string>Der Schärfebalken des Charakters wird<lf>vollständig angezeigt.
+<string>Der Schärfebalken des Charakters wird<lf>immer vollständig angezeigt.
 <string>Dynamisch
 <string>Der Schärfebalken wird standardmäßig<lf>minimiert angezeigt. Der Balken wird in<lf>manchen Situationen zur vollständigen<lf>Anzeige erweitert.
 <string>Gesundheitsbalken (Begleiter)
@@ -1094,19 +1104,19 @@
 <string>Klein
 <string>Der Text wird kleiner als in der Standardgröße<lf>dargestellt.
 <string>Standard
-<string>Der Text wird in der Standardgröße dargestellt.
+<string>Der Text wird in Standardgröße dargestellt.
 <string>Groß
 <string>Der Text wird größer als in der Standardgröße<lf>dargestellt.
-<string>Untertitel-Textgröße
-<string>Passt die Größe von Untertiteln an.
+<string>Untertitelgröße
+<string>Passe die Größe von Untertiteln an.
 <string>Untertitel in Zwischensequenzen
-<string>Passe an, ob Charakterdialoge untertitelt werden<lf>sollen. <COLOR preset="TXT_Accent">(Dies gilt nur für Zwischensequenzen. Alle<lf>anderen Untertitel werden immer angezeigt.)</COLOR>
+<string>Lege fest, ob in Zwischensequenzen Untertitel<lf>angezeigt werden. (Untertitel außerhalb von<lf>Zwischensequenzen werden immer angezeigt.)
 <string>Anzeigen
-<string>Es werden Untertitel in Zwischensequenzen angezeigt.<lf><COLOR preset="TXT_Accent">(Für kurze Textzeilen teilweise nicht verfügbar.)</COLOR>
+<string>Zwischensequenzen sind untertitelt.
 <string>Nicht anzeigen
-<string>Es werden keine Untertitel in Zwischensequenzen<lf>angezeigt.<lf><COLOR preset="TXT_Accent">(Untertitel außerhalb von Zwischensequenzen<lf>können nicht ausgeschaltet werden.)</COLOR>
-<string>Untertitel-Hintergrund
-<string>Legt fest, ob Untertitel zur Verbesserung<lf>der Lesbarkeit mit Hintergrund dargestellt<lf>werden.
+<string>Zwischensequenzen sind nicht untertitelt.
+<string>Untertitelhintergrund
+<string>Lege fest, ob Untertitel zur Verbesserung der<lf>Lesbarkeit mit einem Hintergrund versehen<lf>werden sollen.
 <string>Anzeigen
 <string>Untertitel werden mit Hintergrund dargestellt.
 <string>Nicht anzeigen
@@ -1123,31 +1133,31 @@
 <string>Sprechernamen werden außerhalb von<lf>Zwischensequenzen angezeigt.
 <string>Nicht anzeigen
 <string>Sprechernamen werden außerhalb von<lf>Zwischensequenzen nicht angezeigt.
-<string>Saikrii verbergen (andere Spieler)
+<string>Andere Saikrii verbergen
 <string>Lege fest, ob die Saikrii anderer Charaktere<lf>ausgeblendet werden.<lf><COLOR preset="TXT_Accent">(Dein Saikrii wird immer angezeigt.)</COLOR>
 <string>An
 <string>Die unbestiegenen Saikrii von anderen<lf>Spielern und Hilfsjägern werden nicht<lf>angezeigt.<lf><COLOR preset="TXT_Accent">(Ausgenommen in manchen Situationen.)</COLOR>
 <string>Aus
 <string>Die unbestiegenen Saikrii von anderen<lf>Spielern und Hilfsjägern werden immer<lf>angezeigt.
 <string>Auto-Erkunden (Saikrii)
-<string>Lege fest, ob dein Saikrii automatisch in den<lf>Auto-Erkunden-Modus übergeht, wenn kein <lf>Wegpunkt gesetzt wurde.
+<string>Lege fest, ob dein Saikrii automatisch in den<lf>Auto-Erkunden-Modus übergeht, wenn kein<lf>Wegpunkt gesetzt wurde.
 <string>An
 <string>Dein Saikrii geht in den Auto-Erkunden-Modus<lf>über, wenn kein Wegpunkt gesetzt wurde.
 <string>Aus
 <string>Dein Saikrii geht nicht in den Auto-Erkunden-<lf>Modus über, wenn kein Wegpunkt gesetzt wurde.
-<string>Plattformübergreifendes Spielen
-<string>Passt die Einstellungen zum Zusammenspiel<lf>über verschiedene Plattformen an.
+<string>Crossplay
+<string>Lege fest, ob du auch gemeinsam mit Spielern auf<lf>anderen Plattformen auf die Jagd gehen kannst.
 <string>Aktiviert
-<string>Plattformübergreifendes Spielen ist aktiviert,<lf>wodurch du auch mit Spielern auf anderen<lf>Plattformen spielen kannst.<lf><lf>Das Zusammenspiel mit Spielern, die diese<lf>Einstellung deaktiviert haben, ist nicht möglich.<lf>Die Jagdgruppenfunktionen sind nicht verfügbar<lf>für Jagdgruppen, die diese Einstellung deaktiviert<lf>haben.
+<string>Crossplay ist aktiviert, wodurch du auch mit<lf>Spielern auf anderen Plattformen spielen<lf>kannst.<lf><lf>Crossplay mit Spielern, die diese Einstellung<lf>deaktiviert haben, ist nicht möglich.<lf>Zudem sind die Jagdgruppenfunktionen von<lf>Jagdgruppen, die diese Einstellung deaktiviert<lf>haben, nicht verfügbar.
 <string>Deaktiviert
-<string>Plattformübergreifendes Spielen ist deaktiviert,<lf>wodurch du nur mit Spielern auf deiner Plattform<lf>spielen kannst.<lf><lf>Das Zusammenspiel mit Spielern, die diese<lf>Einstellung aktiviert haben, ist nicht möglich.<lf>Die Jagdgruppenfunktionen sind nicht verfügbar<lf>für Jagdgruppen, die diese Einstellung aktiviert<lf>haben.
-<string>Es ist ein Kommunikationsfehler aufgetreten.<lf>Einstellungen fürs plattformübergreifende<lf>Spielen wurden nicht verändert.<lf>{0}
+<string>Crossplay ist deaktiviert, wodurch du nur mit<lf>Spielern auf deiner Plattform spielen kannst.<lf><lf>Crossplay mit Spielern, die diese Einstellung<lf>aktiviert haben, ist nicht möglich.<lf>Zudem sind die Jagdgruppenfunktionen von<lf>Jagdgruppen, die diese Einstellung aktiviert<lf>haben, nicht verfügbar.
+<string>Crossplay-Einstellungen konnten aufgrund eines<lf>Kommunikationsfehlers nicht geändert werden.<lf>{0}
 <string>Kurzbefehl-Namen-Anzeige
 <string>Passe an, ob alle oder nur bestimmte Namen von<lf>Objekten, Ausrufen usw. angezeigt werden, wenn<lf>alle Tastatur-Kurzbefehle ausgeklappt sind.
 <string>Alle anzeigen
 <string>Die Namen aller Objekte, Ausrufe usw. in<lf>den Tastatur-Kurzbefehlen werden angezeigt.
 <string>Ausgewählte anzeigen
-<string>Nur die Namen von Objekten, Ausrufen, usw.<lf>des aktuell gewählten Tastatur-Kurzbefehls<lf>werden angezeigt.
+<string>Nur die Namen von Objekten, Ausrufen usw.<lf>des aktuell gewählten Tastatur-Kurzbefehls<lf>werden angezeigt.
 <string>Waffensichtbarkeit
 <string>Passe an, ob die Waffe deines Charakters angezeigt<lf>wird.
 <string>Anzeigen
@@ -1167,15 +1177,15 @@
 <string>Hilfsjäger: Schaden anzeigen
 <string>Lege fest, ob Schadenszahlen angezeigt werden,<lf>wenn ein Hilfsjäger ein Monster angreift.
 <string>Aktiviert
-<string>Aus
+<string>Deaktiviert
 <string>Hilfsjäger: Gegenstoß-Angriffe
 <string>Lege fest, ob Hilfsjäger Gegenstoß-Angriffe ausführen<lf>können.
-<string>Hilfsjäger können Gegenstoß-Angriffe ausführen.
+<string>Ermöglicht es Hilfsjägern, Gegenstoß-Angriffe<lf>auszuführen.
 <string>Hilfsjäger können keine Gegenstoß-Angriffe<lf>ausführen.
 <string>Hilfsjäger: Machtkämpfe
 <string>Lege fest, ob Hilfsjäger Machtkämpfe mit Monstern<lf>initiieren können.
-<string>Hilfsjäger können Machtkämpfe mit Monstern<lf>initiieren.
-<string>Hilfsjäger können keine Machtkämpfe mit Monstern<lf>initiieren.
+<string>Ermöglicht es Hilfsjägern, Machtkämpfe zu<lf>initiieren.
+<string>Hilfsjäger können keine Machtkämpfe initiieren.
 <string>Hilfsjäger: Monster besteigen
 <string>Lege fest, ob Hilfsjäger Monster besteigen können.
 <string>Hilfsjäger können Monster besteigen.
@@ -1203,9 +1213,9 @@
 <string>Typ 5
 <string>Es wird eine Silhouette mit blauem Umriss<lf>angezeigt, wenn der Charakter von einem<lf>Monster verdeckt ist.
 <string>Synchronisierte Fotospeicherung
-<string>Passe an, ob mit der Kamerafunktion aufgenommene<lf>Fotos sowohl in den Speicherdaten als auch im<lf>Speicher der Konsole gesichert werden.
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>Synchronisieren
-<string>Fotos werden in den Speicherdaten und auf<lf>dem Speicher der Konsole gesichert.
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>Nicht synchronisieren
 <string>Fotos werden nur in den Speicherdaten<lf>gesichert.
 <string>Namen anderer Spieler anonymisieren
@@ -1213,7 +1223,7 @@
 <string>Namen anderer Spieler
 <string>Die Namen aller anderen Spieler werden<lf>anonymisiert.<lf><COLOR preset="TXT_Accent">(Jägerprofile werden nicht anonymisiert.)</COLOR>
 <string>Namen anderer Spieler (außer VG)
-<string>Die Namen aller anderen Spieler, die nicht zu<lf>deiner Verbindungsgruppe gehören, werden <lf>anonymisiert.<lf><COLOR preset="TXT_Accent">(Jägerprofile werden nicht anonymisiert.)</COLOR>
+<string>Die Namen aller anderen Spieler, die nicht zu<lf>deiner Verbindungsgruppe gehören, werden<lf>anonymisiert.<lf>(Jägerprofile werden nicht anonymisiert.)
 <string>Namen nicht anonymisieren
 <string>Es werden keine Namen anonymisiert.
 <string>Jagdhorn-Tastenbelegungseinstellungen
@@ -1228,10 +1238,10 @@
 <string>Passe die Gesamtlautstärke an.<lf><COLOR preset="TXT_Accent">(Dies hat keine Auswirkung auf die Sprach-Chat-<lf>Lautstärke.)</COLOR>
 <string>Stimmenlautstärke
 <string>Passe die Lautstärke der Stimmen im Spiel an.
-<string>Stimmenlautstärke (Auto-Ausrufe senden)
-<string>Passe die Lautstärke von Automatischen<lf>Ausrufen an.
-<string>Stimmenlautstärke (Auto-Ausrufe erhalten)
-<string>Passe die Lautstärke beim Erhalten von<lf>gesprochenen Automatischen Ausrufen an.
+<string>Lautstärke gesendeter Auto-Ausrufe
+<string>Passt die Lautstärke beim Senden von Auto-<lf>Ausrufen an.
+<string>Lautstärke erhaltener Auto-Ausrufe
+<string>Passt die Lautstärke beim Erhalten von Auto-<lf>Ausrufen an.
 <string>Musiklautstärke
 <string>Passe die Lautstärke der Hintergrundmusik an.
 <string>Effektlautstärke
@@ -1249,7 +1259,7 @@
 <string>Lautsprecher (Surround-Sound)
 <string>Die optimale Audioeinstellung für<lf>Surround-Lautsprecher.
 <string>Soundbar
-<string>Die optimale Audioeinstellung für<lf>eine Soundbar.
+<string>Die optimale Audioeinstellung für Soundbars.
 <string>Nackenlautsprecher
 <string>Die optimale Audioeinstellung für<lf>Nackenlautsprecher.
 <string>Nacht-Modus
@@ -1257,11 +1267,16 @@
 <string>Mono-Audio
 <string>Schalte Mono-Audio an oder aus.
 <string>An
-<string>Der Spielton wird in Mono wiedergegeben.<lf><COLOR preset="TXT_Accent">(Der rechte und der linke Lautsprecher<lf>spielen denselben Ton ab.)</COLOR>
+<string>Der Spielton wird in Mono wiedergegeben<lf>(der rechte und der linke Lautsprecher<lf>spielen denselben Ton ab).
 <string>Aus
-<string>Der Spielton wird in Stereo wiedergegeben.
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>Mono-Audio ist deaktiviert. Der Spielton<lf>wird entsprechend den Soundausgabe-<lf>Einstellungen deines Systems wieder-<lf>gegeben.
 <string>Soundausgabe
 <string>Sieh dir die Soundausgabe-Informationen an.
+<string>Ausgabegerät
+<string>3D-Audio
+<string>Aktiviert
+<string>Deaktiviert
 <string>Sprach-Chat
 <string>Lege fest, ob der Sprach-Chat genutzt wird.
 <string>Aktiviert
@@ -1279,12 +1294,12 @@
 <string>Verbindungsmitglieder bevorzugen
 <string>Du wechselst beim Beitritt zu einer Verbindungs-<lf>gruppe automatisch zum Verbindungsmitglieder-<lf>Sprach-Chat, unabhängig vom Queststatus.
 <string>Niemanden bevorzugen
-<string>Es wird kein Sprach-Chatkanal prioritisiert<lf>und auch kein automatischer Wechsel<lf>zwischen den Kanälen vorgenommen.<lf>Du musst manuell wechseln.
-<string>Palico-Sprache
-<string>Passe die Sprache der Palicos an.
+<string>Es wird kein Sprachchat-Kanal priorisiert<lf>und auch kein automatischer Wechsel<lf>zwischen den Kanälen vorgenommen.<lf>Du musst manuell wechseln.
+<string>Von Felynen gesprochene Sprache
+<string>Lege fest, welche Sprache die Felynen sprechen.
 <string>Felynen-Sprache
-<string>Sämtliche Felynen, auch dein Palico, verwenden<lf>die Felynen-Sprache.<lf><COLOR preset="TXT_Accent">(Der in der Charaktererstellung gewählte<lf>Stimmtyp wird deaktiviert.)</COLOR>
-<string>Gewählter Stimmtyp
+<string>Sämtliche Felynen, auch dein Palico, verwenden<lf>die Felynen-Sprache. (Diese Option ist auch im<lf>Charaktereditor verfügbar.)
+<string>Gewähltem Stimmtyp folgen
 <string>Sämtliche Felynen, auch dein Palico, verwenden<lf>den in der Charaktererstellung gewählten<lf>Stimmtyp.
 <string>Stimmenwiedergabe bei Inaktivität
 <string>Lege die Stimmwiedergabe bei inaktivem<lf>Spielfenster fest.
@@ -1307,7 +1322,7 @@
 <string>Deuteranopie
 <string>Tritanopie
 <string>Unterstützung bei Arachnophobie
-<string>Passe die Erscheinung von mehrbeinigen Kreaturen<lf>wie spinnenartigen Monstern und Wesen an.<lf><COLOR preset="TXT_Accent">(Kein Einfluss auf Bewegung und Schwierigkeit.)</COLOR>
+<string>Passe das Aussehen bestimmter mehrbeiniger<lf>kleiner Monster und Wesen an. (Bewegungen<lf>und Schwierigkeit bleiben unbeeinflusst.)
 <string>An
 <string>Passe die Erscheinung einiger kleiner<lf>Monster und einheimischer Wesen<lf>für Spieler mit Arachnophobie an.
 <string>Aus
@@ -1325,10 +1340,10 @@
 <string>Einstellungen werden automatisch an deine<lf>Umgebung angepasst.
 <string>Passe die HUD- und Textgröße an deine Spielumgebung an.<lf>Wähle die Option, die deiner Spielumgebung entspricht,<lf>und die Einstellungen werden angepasst.
 <string>Auto-Einstellungen: Schreibtisch
-<string>Es werden automatisch verschiedene Einstellungen<lf>angepasst, um das Spielen am Schreibtisch zu<lf>optimieren.
+<string>Es werden automatisch Einstellungen angepasst,<lf>um das Spielen am Schreibtisch zu optimieren.
 <string>Auto-Einstellungen: Schreibtisch übernehmen?
 <string>Auto-Einstellungen: Wohnzimmer
-<string>Es werden automatisch verschiedene Einstellungen<lf>angepasst, um das Spielen im Wohnzimmer mit einem<lf>größeren Abstand zum Bildschirm zu optimieren.
+<string>Es werden automatisch Einstellungen angepasst,<lf>um das Spielen im Wohnzimmer mit einem größeren<lf>Abstand zum Bildschirm zu optimieren.
 <string>Auto-Einstellungen: Wohnzimmer übernehmen?
 <string>Text-Sprache
 <string>Lege die Sprache für Texte fest.<lf><COLOR preset="TXT_Accent">(Änderungen werden nach Verlassen<lf>des Einstellungsmenüs übernommen)</COLOR>

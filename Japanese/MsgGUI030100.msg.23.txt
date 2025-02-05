@@ -5,7 +5,7 @@
 <string>選択中の項目を初期設定に戻す
 <string>すべての項目を初期設定に戻す
 <string>選択中の項目の設定を初期状態に戻します。<lf>よろしいですか？
-<string>すべての項目の設定を初期状態に戻します。<lf>よろしいですか？
+<string>現在表示中のカテゴリ以外にある項目を含む<lf>すべての項目の設定を初期状態に戻します。<lf>よろしいですか？
 <string>すべて
 <string><PLATMSG MsgGUI030100_0401>
 <string>共通＋コントローラー
@@ -23,11 +23,15 @@
 <string>ACCESSIBILITY
 <string>LANGUAGE
 <string>PRIVACY
+<string><PLATMSG MsgGUI030100_01_42>
 <string>決定ボタンの設定
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>決定操作のボタンを設定します。
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>ボタン
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>で決定を行います。
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>ボタン
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>で決定を行います。
 <string>ダッシュ操作
 <string>ダッシュ操作のボタンを設定します。<lf><COLOR preset="TXT_Accent">（セクレト騎乗時の操作には影響しません）</COLOR>
@@ -91,11 +95,11 @@
 <string><REF RefGeneral_0014_01>の呼び寄せ操作
 <string><REF RefGeneral_0014_01>を呼び寄せる際の操作を設定します。
 <string>タイプ１
-<string><ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL>またはカスタムショートカットで<lf><REF RefGeneral_0014_01>の呼び寄せ操作を行います。
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>またはカスタムショートカットで<lf><REF RefGeneral_0014_01>の呼び寄せ操作を行います。
 <string>タイプ２
-<string>タイプ１の操作に加え、納刀中の<ICON PAD PL_PT_CALL_KEEP>長押しで<lf><REF RefGeneral_0014_01>をオート移動状態で呼び寄せます。
+<string>タイプ１の操作に加え、納刀中の<ICON PL_PT_CALL_KEEP>入力で<lf><REF RefGeneral_0014_01>をオート移動状態で呼び寄せます。
 <string>タイプ３
-<string>タイプ１の操作に加え、納刀中の<ICON PAD PL_PT_CALL_KEEP>長押しで<lf><REF RefGeneral_0014_01>をマニュアル移動状態で呼び寄せます。
+<string>タイプ１の操作に加え、納刀中の<ICON PL_PT_CALL_KEEP>入力で<lf><REF RefGeneral_0014_01>をマニュアル移動状態で呼び寄せます。
 <string><REF RefGeneral_0014_01>呼び寄せ時の初期操作状態
 <string>カスタムショートカットを使って<REF RefGeneral_0014_01>の呼び寄せ操作を<lf>行った際の初期操作状態について設定します。
 <string>オート移動
@@ -105,29 +109,29 @@
 <string><REF RefGeneral_0014_01>のマニュアル操作設定
 <string><REF RefGeneral_0014_01>がマニュアル移動している際の<lf>操作方法を設定します。
 <string>タイプ１
-<string><REF RefGeneral_0014_01>のオート移動中と共通の操作タイプです。<lf><ICON PAD PL_DUMMY_MOVE>未入力でも速度を維持して前進します。<lf><ICON PAD PL_PT_SPEED_UP>で加速、<ICON PAD PL_PT_SPEED_DOWN>で減速、<ICON PAD PL_PT_SPEED_DOWN>の長押しで急停止します。
+<string><REF RefGeneral_0014_01>のオート移動中と共通の操作タイプです。<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>未入力でも速度を維持して前進します。<lf><ICON PL_PT_SPEED_UP>で加速、<ICON PL_PT_SPEED_DOWN>で減速、<ICON PL_PT_SPEED_DOWN>の長押しで急停止します。
 <string>タイプ２
-<string>プレイヤーの移動操作に近い操作タイプです。<lf><ICON PAD PL_DUMMY_MOVE>の入力中のみ前進し、未入力では停止します。<lf><ICON PAD PL_DUMMY_MOVE>を倒す角度によって移動速度が変化します。
+<string>プレイヤーの移動操作に近い操作タイプです。<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>の入力中のみ入力した方向に前進し、<lf>未入力の時は停止します。
 <string><REF RefGeneral_0014_01>ルート進行中の操作設定
 <string><REF RefGeneral_0014_01>が<REF RefGeneral_0014_01>ルートを進行中、<lf>ルートから外れて移動する操作の設定を行います。
 <string>タイプ１
-<string>最大速度で走行中に<ICON PAD PL_DUMMY_MOVE>入力を行うことで<lf><REF RefGeneral_0014_01>ルートから外れて移動できます。
+<string>最大速度で走行中に<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>入力を行うことで<lf><REF RefGeneral_0014_01>ルートから外れて移動できます。
 <string>タイプ２
-<string><REF RefGeneral_0014_01>の走行速度に関わらず、<lf><ICON PAD PL_DUMMY_MOVE>入力中に追加で<ICON PAD PL_INTERACT_ACTION_START>を入力すると<lf><REF RefGeneral_0014_01>ルートから外れて移動できます。
-<string>アイテム操作設定
-<string>アイテム操作とカスタムショートカットの<lf>パレット切り替え操作について、設定を行います。
-<string>タイプ１
-<string><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET>でアイテムスライダーの<lf>アイテム選択操作を行います。
-<string>タイプ２
-<string><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET>でカスタムショートカットの<lf>パレット切り替え操作を行います。
-<string>アイテムスライダー操作設定
-<string>アイテムスライダーの操作方法を設定します。
-<string>全展開モードの設定
-<string>アイテムスライダーの全展開モードの設定を行います。
-<string>有効にする
-<string>アイテムスライダーの全展開モードを<lf>有効にします。
-<string>無効にする
-<string>アイテムスライダーの全展開モードを<lf>無効にします。
+<string><REF RefGeneral_0014_01>の走行速度に関わらず、<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>入力中に追加で<ICON PL_INTERACT_ACTION_START>を入力すると<lf><REF RefGeneral_0014_01>ルートから外れて移動できます。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>全展開モードへの移行操作
 <string><PLATMSG MsgGUI030100_01_16_HELP>
 <string>アイテムスライダーの全展開表示を行う<lf>操作について設定します。<lf><COLOR preset="TXT_Accent">（コントローラー操作専用）</COLOR>
@@ -136,7 +140,7 @@
 <string>タイプ２
 <string><ICON PAD PL_ITEM_SLIDER_OPEN>入力中、<ICON PAD UI_ITEM_ALL_OPT2>を押すたびに<lf>全展開表示と通常表示を切り替えます。
 <string>タイプ３
-<string><ICON PAD PL_ITEM_SLIDER_OPEN>入力中、<ICON PAD UI_ITEM_ALL_OPT3>の長押しで<lf>全展開表示を継続します。
+<string><ICON PAD PL_ITEM_SLIDER_OPEN>入力中、<ICON PAD UI_ITEM_ALL_OPT3>の操作を行っている間<lf>全展開表示を継続します。
 <string>タイプ４
 <string><ICON PAD PL_ITEM_SLIDER_OPEN>入力中、<ICON PAD UI_ITEM_ALL_OPT4>を押すたびに<lf>全展開表示と通常表示を切り替えます。
 <string>タイプ５
@@ -151,7 +155,7 @@
 <string>キーボード操作におけるアイテムスライダーの<lf>全展開モードを無効にします。
 <string>全展開モード中のカーソル移動速度
 <string><PLATMSG MsgGUI030100_01_01_Help>
-<string>アイテムスライダー全展開モード中の<lf>スティックによるカーソル移動速度を変更します。
+<string>アイテムスライダー全展開モード中の<lf><ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT>操作によるカーソル移動速度を変更します。
 <string>遅い
 <string>標準よりも遅い速度で移動します。
 <string>標準
@@ -164,51 +168,51 @@
 <string>展開中のすべての列でアイテムの<lf>縦積み表示を行います。
 <string>選択中の列のみ表示する
 <string>展開中の列のうち、現在選択中の列のみ<lf>アイテムの縦積み表示を行います。
-<string>全展開モード中のアイテム選択操作
-<string>アイテムスライダーの全展開モード中における<lf>アイテム選択操作（<ICON PAD UI_ITEM_LEFT>・<ICON PAD UI_ITEM_RIGHT>）の設定を行います。
-<string>有効にする
-<string>アイテムスライダーの全展開モード中、<lf><ICON PAD UI_ITEM_LEFT>・<ICON PAD UI_ITEM_RIGHT>でのアイテム選択操作を有効にします。
-<string>無効にする
-<string>アイテムスライダーの全展開モード中、<lf><ICON PAD UI_ITEM_LEFT>・<ICON PAD UI_ITEM_RIGHT>でのアイテム選択操作を無効にします。
-<string>全展開モード中の弾ビン選択操作
-<string>アイテムスライダーの全展開モード中における<lf>弾ビン選択操作（<ICON PAD UI_BULLET_ITEM_UP>・<ICON PAD UI_BULLET_ITEM_DOWN>）の設定を行います。
-<string>有効にする
-<string>アイテムスライダーの全展開モード中、<lf><ICON PAD UI_BULLET_ITEM_UP>・<ICON PAD UI_BULLET_ITEM_DOWN>での弾ビン選択操作を有効にします。
-<string>無効にする
-<string>アイテムスライダーの全展開モード中、<lf><ICON PAD UI_BULLET_ITEM_UP>・<ICON PAD UI_BULLET_ITEM_DOWN>での弾ビン選択操作を無効にします。
-<string>全展開モード中のアイテム使用操作
-<string>アイテムスライダーの全展開モード中における<lf>アイテム使用操作（<ICON PAD UI_ITEM_USE>）の設定を行います。
-<string>有効にする
-<string>アイテムスライダーの全展開モード中、<lf><ICON PAD UI_ITEM_USE>でのアイテム使用操作を有効にします。
-<string>無効にする
-<string>アイテムスライダーの全展開モード中、<lf><ICON PAD UI_ITEM_USE>でのアイテム使用操作を無効にします。
-<string><PLATMSG MsgGUI030100_01_48>
-<string>全展開モード中の方向キー操作
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>アイテムスライダーの全展開モード中における<lf>方向キーの操作タイプを設定します。
-<string>タイプ１
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>「方向キーとボタン操作設定」の設定に従います。<lf>アイテムスライダー全展開モード中の方向キーは、<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET>に割り当てられた機能に対応します。
-<string>タイプ２
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>アイテムスライダー全展開モード中の方向キーは、<lf>常にアイテムスライダーの操作に対応します。
-<string>タイプ３
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>アイテムスライダー全展開モード中の方向キーは、<lf>常にアイテムスライダー、および弾丸スライダーの<lf>操作に対応します。
-<string>タイプ４
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>アイテムスライダー全展開モード中の<lf>方向キー操作を無効にします。
-<string>全展開モード中の<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>操作
-<string>アイテムスライダーの全展開モード中における<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>の操作タイプを設定します。
-<string>タイプ１
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>「方向キーとボタン操作設定」の設定に従います。<lf>アイテムスライダー全展開モード中の<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>は、<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>に割り当てられた機能に対応します。
-<string>タイプ２
-<string>アイテムスライダー全展開モード中の<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>は、<lf>常にアイテムスライダーの操作に対応します。
-<string>タイプ３
-<string>アイテムスライダー全展開モード中の<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>は、<lf>常にアイテムスライダー、および弾丸スライダーの<lf>操作に対応します。
-<string>タイプ４
-<string>アイテムスライダー全展開モード中の<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>操作を無効にします。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>カスタムショートカット操作設定
 <string>カスタムショートカットの操作方法を設定します。
 <string>カスタムショートカットの設定
@@ -334,11 +338,11 @@
 <string>保存しない
 <string>スタートメニューを閉じた時のカーソル位置を<lf>保存せず、常に初期位置でメニューを展開します。
 <string>瞬間的なマップの縮小／拡大設定
-<string><ICON UI_MAP3D_ZOOM_OUT>／<ICON UI_MAP3D_ZOOM_IN>をクリック感が得られる深さまで押し込むことで、<lf>フィールドマップの縮小／拡大を最大値まで瞬時に行う<lf>アダプティブトリガー機能の使用有無を設定します。
+<string><ICON PAD UI_MAP3D_ZOOM_OUT>／<ICON PAD UI_MAP3D_ZOOM_IN>をクリック感が得られる深さまで押し込むことで、<lf>フィールドマップの縮小／拡大を最大値まで瞬時に行う<lf>アダプティブトリガー機能の使用有無を設定します。
 <string>有効
-<string>アダプティブトリガーの機能を使用し、<ICON UI_MAP3D_ZOOM_OUT>／<ICON UI_MAP3D_ZOOM_IN>の<lf>最大押し込みによるフィールドマップの瞬間的な<lf>縮小／拡大を有効にします。
+<string>アダプティブトリガーの機能を使用し、<ICON PAD UI_MAP3D_ZOOM_OUT>／<ICON PAD UI_MAP3D_ZOOM_IN>の<lf>最大押し込みによるフィールドマップの瞬間的な<lf>縮小／拡大を有効にします。
 <string>無効
-<string>アダプティブトリガーの機能を使用せず、<lf><ICON UI_MAP3D_ZOOM_OUT>／<ICON UI_MAP3D_ZOOM_IN>による通常速度の縮小／拡大のみ行います。
+<string>アダプティブトリガーの機能を使用せず、<lf><ICON PAD UI_MAP3D_ZOOM_OUT>／<ICON PAD UI_MAP3D_ZOOM_IN>による通常速度の縮小／拡大のみ行います。
 <string>カメラ速度：通常時（横）
 <string>通常時のカメラの速度（横方向）を設定します。
 <string>カメラ速度：通常時（縦）
@@ -463,23 +467,23 @@
 <string>照準あるいは集中モードへの移行操作を設定します。<lf>「照準／集中モードへの移行詳細設定」が有効の場合、<lf>この設定は納刀中のみ適用されます。
 <string><ICON PAD PL_AIM>長押しで各状態を継続
 <string>抜刀後の<ICON PAD PL_AIM>入力中、近接武器は集中モードを、<lf>遠距離武器は照準／集中モードを継続します。<lf>納刀中は、スリンガー照準を継続します。
-<string><ICON PAD PL_AIM>入力で各状態を切り替え
-<string>抜刀後の<ICON PAD PL_AIM>入力で近接武器は集中モードへ、<lf>遠距離武器は照準／集中モードへ移行。納刀中は<lf>スリンガー照準へ移行。再入力で解除します。
-<string>抜刀後の<ICON PAD PL_AIM>入力で近接武器は集中モードへ、<lf>遠距離武器は照準／集中モードへ移行します。
+<string><ICON PAD PL_AIM_TOGGLE>入力で各状態を切り替え
+<string>抜刀後の<ICON PAD PL_AIM_TOGGLE>入力で近接武器は集中モードへ、<lf>遠距離武器は照準／集中モードへ移行。納刀中は<lf>スリンガー照準へ移行。再入力で解除します。
+<string>抜刀後の<ICON PAD PL_AIM_TOGGLE>入力で近接武器は集中モードへ、<lf>遠距離武器は照準／集中モードへ移行します。
 <string>照準／集中モードへの移行詳細設定
-<string>有効にした場合、抜刀中の照準あるいは集中モードへの移行<lf>操作を近接・遠距離武器でそれぞれ個別に設定できます。
+<string>抜刀中の照準あるいは集中モードへの移行操作を<lf>近接・遠距離武器でそれぞれ個別に設定できます。<lf><COLOR preset="TXT_Accent">（納刀中のスリンガー照準操作には適用されません）</COLOR>
 <string>近接武器を装備中の移行操作
 <string>近接武器を装備中、集中モードへ<lf>移行する際の操作設定を行います。
-<string><ICON PAD PL_AIM>長押しで継続
+<string><ICON PAD PL_AIM>入力中は継続
 <string>近接武器を抜刀後の<ICON PAD PL_AIM>入力中、<lf>集中モードを継続します。
-<string><ICON PAD PL_AIM>で切り替え
-<string>近接武器を抜刀後の<ICON PAD PL_AIM>入力で集中モードへ移行。<lf>再入力で解除します。
+<string><ICON PAD PL_POP_CHANGE_SELECT>で切り替え
+<string>近接武器を抜刀後の<ICON PAD PL_POP_CHANGE_SELECT>入力で集中モードへ移行。<lf>再入力で解除します。
 <string>遠距離武器を装備中の移行操作
 <string>遠距離武器を装備中、照準／集中モードへ<lf>移行する際の操作設定を行います。
-<string><ICON PAD PL_AIM>長押しで継続
+<string><ICON PAD PL_AIM>入力中は継続
 <string>遠距離武器を抜刀後の<ICON PAD PL_AIM>入力中、<lf>照準／集中モードを継続します。
-<string><ICON PAD PL_AIM>で切り替え
-<string>遠距離武器を抜刀後の<ICON PAD PL_AIM>入力で照準／集中モードへ<lf>移行。再入力で解除します。
+<string><ICON PAD PL_POP_CHANGE_SELECT>で切り替え
+<string>遠距離武器を抜刀後の<ICON PAD PL_POP_CHANGE_SELECT>入力で照準／集中モードへ<lf>移行。再入力で解除します。
 <string>ターゲットカメラの操作タイプ
 <string>ターゲットカメラとカメラリセットの<lf>操作方法を設定します。
 <string>タイプ１
@@ -487,9 +491,9 @@
 <string>タイプ２
 <string><ICON PL_CAMERA_RESET>を１回入力するとカメラはプレイヤーと<lf>同じ方向を向き、２回入力すると<lf>ターゲットのモンスターを向きます。
 <string>タイプ３
-<string><ICON PL_CAMERA_RESET>を１回入力すると、カメラは<lf>ターゲットのモンスターを向きます。<lf>２回入力した場合は、何も起きません。
+<string><ICON PL_CAMERA_RESET>を入力すると、カメラは<lf>常にターゲットのモンスターを向きます。
 <string>タイプ４
-<string><ICON PL_CAMERA_RESET>を１回入力すると、カメラは<lf>プレイヤーと同じ方向を向きます。<lf>２回入力した場合は、何も起きません。
+<string><ICON PL_CAMERA_RESET>を入力すると、カメラは<lf>常にプレイヤーと同じ方向を向きます。
 <string>タイプ５
 <string><ICON PL_CAMERA_RESET>を入力しても、カメラはプレイヤーと同じ方向や<lf>ターゲットのモンスターを向きません。
 <string>カメラリセット時の向き
@@ -737,11 +741,11 @@
 <string>アップスケーリング（超解像技術）
 <string>いずれかの超解像技術を適用すると、高パフォーマンスと<lf>優れた画質を両立させることができます。
 <string>NVIDIA DLSS
-<string>NVIDIA DLSS 3.5を使用します。<lf><COLOR preset="TXT_Accent">（NVIDIA GeForce RTXグラフィックスカードを<lf>　使用時にのみ設定が可能です）</COLOR><lf><COLOR preset="TXT_Accent">（GeForce RTX40 Seriesを使用していて<lf>　OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
-<string>AMD FSR 3
-<string>AMD FSR 3.0.3を使用します。<lf><COLOR preset="TXT_Accent">（OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
+<string>NVIDIA <DLSS>を使用します。<lf><COLOR preset="TXT_Accent">（NVIDIA GeForce RTXグラフィックスカードを<lf>　使用時にのみ設定が可能です）</COLOR><lf><COLOR preset="TXT_Accent">（GeForce RTX40 Seriesを使用していて<lf>　OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
+<string>AMD FSR
+<string><FSR>を使用します。<lf><COLOR preset="TXT_Accent">（OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
 <string>Intel XeSS
-<string>Intel XeSS 1.3を使用します。
+<string>Intel <XESS>を使用します。
 <string>使用しない
 <string>アップスケーリングを使用しません。
 <string>フレーム生成
@@ -758,7 +762,7 @@
 <string>NVIDIA DLAA
 <string>ネイティブ解像度のまま、<lf>AIによるアンチエイリアシングを使用します。
 <string>AMD Native AA
-<string>ネイティブ解像度のまま、<lf>FSR 3のアンチエイリアシングを使用します。
+<string>ネイティブ解像度のまま、<lf>FSRのアンチエイリアシングを使用します。
 <string>Intel XeSS Native AA
 <string>ネイティブ解像度のまま、<lf>XeSSのアンチエイリアシングを使用します。
 <string>クオリティ
@@ -772,7 +776,7 @@
 <string>OFF
 <string>アップスケールを使用しない場合、<lf>この項目が選択されます。
 <string>アップスケールシャープネス
-<string>アップスケーリング使用時の画質の鮮明さを設定します。<lf>数値が高いほど鮮明に、低いほど柔らかい画質になります。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」使用時のみ設定変更可能です）</COLOR>
+<string>アップスケーリング使用時の画質の鮮明さを設定します。<lf>数値が高いほど鮮明に、低いほど柔らかい画質になります。<lf><COLOR preset="TXT_Accent">（同項目を「AMD FSR」に設定時のみ設定変更可能です）</COLOR>
 <string>アンチエイリアス
 <string>アンチエイリアスのモード切り替えを行います。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」未使用時のみ設定変更可能です）</COLOR>
 <string>FXAA + TAA
@@ -781,13 +785,15 @@
 <string>レンダリングスケール
 <string>ゲームをレンダリングする解像度の倍率を<lf>パーセンテージで設定します。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」未使用時のみ設定変更可能です）</COLOR>
 <string>レイトレーシング
-<string>レイトレーシング技術を用いた光の反射や<lf>屈折表現の品質について設定します。
+<string>レイトレーシング技術を用いた<lf>光の反射表現の品質について設定します。
 <string>最高
 <string>高
 <string>中
 <string>低
 <string>最低
 <string>OFF
+<string>CPU
+<string>GPU
 <string>テクスチャ品質
 <string>物体表面のテクスチャ解像度を設定します。
 <string>最高(高解像度テクスチャ)
@@ -814,11 +820,11 @@
 <string>オトモアイルーなど生物全般における<lf>毛皮の描画品質を設定します。
 <string>高
 <string>低
-<string>LODバイアス
-<string>状況に応じてゲーム内で描画される<lf>モデルの品質を設定します。
-<string>最高
-<string>高
-<string>中
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>空・雲の描画品質
 <string>空、雲の描画品質を設定します。
 <string>最高
@@ -842,11 +848,11 @@
 <string>高
 <string>低
 <string>地面の描画品質
-<string>プレイヤーから近い位置にある地面や<lf>地形が変形した際の地面の描画品質を設定します。
+<string>プレイヤーから近い位置にある地面や<lf>地形が変形した際の地面の描画品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
 <string>高
 <string>低
-<string>砂・雪・水面などの描画品質
-<string>砂、雪、水面などの描画品質を設定します。
+<string>砂・雪などの描画品質
+<string>砂、雪などの描画品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
 <string>最高
 <string>高
 <string>中
@@ -861,7 +867,11 @@
 <string>中
 <string>低
 <string>カリング距離の設定
-<string>ロビーで描画されるプレイヤーの人数や<lf>登場キャラクター、モンスター、環境生物など<lf>生物全般の表示を省略する距離を設定します。
+<string>ロビーで描画されるプレイヤーの人数や登場キャラクター、<lf>モンスター、環境生物など生物全般の表示を省略する距離を<lf>設定します。<COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>より遠距離まで対象物の表示を省略せず<lf>最大限の描画を行います。
+<string>遠距離まで対象物の表示を省略せずに描画します。
+<string>標準的な距離まで対象物の表示を<lf>省略せずに描画します。
+<string>近距離の対象物のみ表示することで<lf>描画処理を軽くします。
 <string>影の描画品質
 <string>影表現の描画品質を設定します。
 <string>最高
@@ -906,7 +916,7 @@
 <string>ON
 <string>OFF
 <string>スクリーンスペースリフレクション
-<string>反射の表現を向上させる機能の有無を設定します。
+<string>反射の表現を向上させる機能の有無を設定します。<lf><COLOR preset="TXT_Accent">（「レイトレーシング」がOFFの場合のみ設定可能です）</COLOR>
 <string>ON
 <string>OFF
 <string>SSSSスキャッタリング
@@ -1003,8 +1013,8 @@
 <string>照準時あるいは集中モード中における<lf>ミニマップの表示サイズを設定します。
 <string>大型モンスターとの戦闘中
 <string>大型モンスターとの戦闘時における<lf>ミニマップの表示サイズを設定します。
-<string><ICON PL_ITEM_SLIDER_OPEN>長押し中
-<string><ICON PL_ITEM_SLIDER_OPEN>の長押し中における<lf>ミニマップの表示サイズを設定します。
+<string><ICON PL_ITEM_SLIDER_OPEN>入力中
+<string><ICON PL_ITEM_SLIDER_OPEN>の入力中における<lf>ミニマップの表示サイズを設定します。
 <string>ミニマップの縮尺比
 <string>ミニマップの縮尺比について<lf>状況に応じた設定を行います。
 <string>拠点エリア内
@@ -1019,8 +1029,8 @@
 <string>照準時あるいは集中モード中における<lf>ミニマップの縮尺比を設定します。
 <string>大型モンスターとの戦闘中
 <string>大型モンスターとの戦闘中における<lf>ミニマップの縮尺比を設定します。
-<string><ICON PL_ITEM_SLIDER_OPEN>長押し中
-<string><ICON PL_ITEM_SLIDER_OPEN>の長押し中における<lf>ミニマップの縮尺比を設定します。
+<string><ICON PL_ITEM_SLIDER_OPEN>入力中
+<string><ICON PL_ITEM_SLIDER_OPEN>の入力中における<lf>ミニマップの縮尺比を設定します。
 <string>他プレイヤーのヒットエフェクト
 <string>他プレイヤーのヒットエフェクトについて<lf>表示の有無を設定します。<lf><COLOR preset="TXT_Accent">（自プレイヤーの表示には影響しません）</COLOR>
 <string>表示する
@@ -1203,9 +1213,9 @@
 <string>タイプ５
 <string>プレイヤーの身体がモンスターに隠れてしまう<lf>場合、シルエットを青色のラインで表示します。
 <string>写真の連動保存設定
-<string>カメラ機能で撮影した写真を、セーブデータと<lf>ハードウェアのストレージの両方に連動して<lf>保存するかどうか設定します。
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>連動保存する
-<string>セーブデータと、ハードウェアのストレージの<lf>両方に写真を保存します。
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>連動保存しない
 <string>セーブデータにのみ写真を保存します。
 <string>他プレイヤー名の匿名表示
@@ -1223,7 +1233,7 @@
 <string>タイプ２
 <string>納刀中、抜刀中ともに通常の操作ガイドを表示せず<lf>旋律効果を一覧できるガイドを常に表示します。
 <string>タイプ３
-<string>納刀中、抜刀中ともに通常の操作ガイドを表示し、<lf>抜刀中については<ICON PL_ITEM_SLIDER_OPEN>の長押し中のみ<lf>旋律効果を一覧できるガイドを表示します。
+<string>納刀中、抜刀中ともに通常の操作ガイドを表示し、<lf>抜刀中については<ICON PL_ITEM_SLIDER_OPEN>の入力中のみ<lf>旋律効果を一覧できるガイドを表示します。
 <string>マスター音量
 <string>サウンド全体の音量を設定します。<lf><COLOR preset="TXT_Accent">(ボイスチャットの音量に影響はありません)</COLOR>
 <string>ボイス音量
@@ -1259,9 +1269,14 @@
 <string>ON
 <string>ゲーム音声をモノラルオーディオで再生します。<lf><COLOR preset="TXT_Accent">（左右のスピーカーから同じ音声を再生します）</COLOR>
 <string>OFF
-<string>ゲーム音声をステレオオーディオで再生します。
-<string>サウンド出力
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>ゲーム音声のモノラルオーディオ再生を無効にし、<lf>再生方法はOSのサウンド出力設定に準拠します。
+<string>サウンド出力情報
 <string>サウンド出力情報の確認を行います。
+<string>出力デバイス
+<string>立体音響
+<string>有効
+<string>無効
 <string><REF RefNetwork_0006>設定
 <string><REF RefNetwork_0006>の機能を利用するかどうか設定します。
 <string>ON

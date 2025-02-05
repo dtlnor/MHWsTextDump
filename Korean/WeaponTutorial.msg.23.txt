@@ -23,7 +23,7 @@
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON"> 모으기 후 <ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string><REF ActionGuideDataNameText_Wp00_m1688233344> 효과가 있는 <REF ActionGuideDataNameText_Wp00_146633456> 공격.<lf>몬스터 공격에 <REF RefEquipment_0001_000>으로 공격해<lf><REF ActionGuideDataNameTextCommon_817397888> 대성공 시 <REF ActionGuideDataNameText_Wp00_1516761216>로<lf>파생된다.
+<string><REF ActionGuideDataNameText_Wp00_m1688233344> 효과가 있는 <REF ActionGuideDataNameText_Wp00_146633456> 공격.<lf>몬스터 공격에 <REF RefEquipment_0001_000>으로 공격해<lf><REF ActionGuideDataNameTextCommon_817397888> 로 몬스터가 크게 움츠렸을 때,<lf><ICON WP00 PL_ATTACK_00>으로 <REF ActionGuideDataNameText_Wp00_1516761216>로<lf>파생된다.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
@@ -116,7 +116,7 @@
 <string><INPUTMSG MsgGUI600200_01_003>
 <string><INPUTMSG MsgGUI600200_01_003_01>
 <string><REF ActionGuideDataNameText_Wp03_m1592986112>
-<string>몬스터에 공격을 맞히면 게이지가<lf>쌓이며, 게이지를 소비하면 강력한<lf>기인베기를 사용할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp03_852602816>나 <REF ActionGuideDataNameText_Wp03_1569905664>을 맞히면<lf><REF ActionGuideDataNameText_Wp03_m1592986112> 색이 한 단계 올라간다.<lf><lf><REF ActionGuideDataNameText_Wp03_m1592986112>가 빨간색이 되면 <REF ActionGuideDataNameText_Wp03_m1592986112>가<lf>항상 최대가 되며, 일부 기술이<lf>강화되거나 강력한 추가 공격이 가능하다.<lf><REF ActionGuideDataNameText_Wp03_852602816>, <REF ActionGuideDataNameText_Wp03_m1116470656>을 맞히면<lf>빨간색 지속 시간이 연장된다.
+<string>몬스터에게 공격을 맞히면 게이지가<lf>쌓이며, 게이지를 소비하면 강력한<lf>기인베기를 사용할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp03_852602816>나 <REF ActionGuideDataNameText_Wp03_1569905664>을 맞히면<lf><REF ActionGuideDataNameText_Wp03_m1592986112> 색이 한 단계 올라간다.<lf><lf><REF ActionGuideDataNameText_Wp03_m1592986112>가 빨간색이 되면 <REF ActionGuideDataNameText_Wp03_m1592986112>가<lf>항상 최대가 되며, 일부 기술이<lf>강화되거나 강력한 추가 공격이 가능하다.<lf><REF ActionGuideDataNameText_Wp03_852602816>, <REF ActionGuideDataNameText_Wp03_m1116470656>을 맞히면<lf>빨간색 지속 시간이 연장된다.
 <string>
 <string>【<REF ActionGuideDataNameText_Wp03_m1592986112>를 올리는 연계】
 <string><ICON WP03 PL_ATTACK_00>
@@ -328,7 +328,7 @@
 <string>
 <string><ICON WP02 PL_DODGE>
 <string><REF ActionGuideDataNameText_Wp02_1262752256>(<REF ActionGuideDataNameText_Wp02_165650304>/<REF ActionGuideDataNameText_Wp02_m661157824> 시)
-<string>일반 회피보다 빠른 회피.<lf><REF ActionGuideDataNameText_Wp02_m391958560>에 성공하면 공격하면서<lf>회피하고, 잠시 강화 상태가 된다.
+<string>일반 회피보다 빠른 회피.<lf><REF ActionGuideDataNameText_Wp02_m391958560>에 성공하면 공격하면서<lf>회피하고, 잠시 강화 상태가 된다.<lf><lf><REF ActionGuideDataNameText_Wp02_1516296832> 중에는 <REF ActionGuideDataNameText_Wp02_m1003266688>를 소비하지 않는다.
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
@@ -336,12 +336,12 @@
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>공격, 이동, 회피가 강화되며<lf>움츠리기 무효 효과를 얻는다.<lf><REF ActionGuideDataNameText_Wp02_165650304> 중에는 서서히 스태미나를<lf>소비한다. <REF ActionGuideDataNameText_Wp02_169030160>을 하거나<lf>스태미나가 0이 되면 해제된다.
+<string>공격, 이동, 회피가 강화되며<lf>움츠리기 무효 효과를 얻는다.<lf><REF ActionGuideDataNameText_Wp02_165650304> 중에는 서서히 스태미나를<lf>소비한다. <REF ActionGuideDataNameText_Wp02_169030160>를 하거나<lf>스태미나가 0이 되면 해제된다.
 <string><REF ActionGuideDataNameText_Wp02_m1003266688>
 <string><REF ActionGuideDataNameText_Wp02_165650304> 중에 공격을 맞히면 게이지가<lf>증가하고, 가득 차면 <REF ActionGuideDataNameText_Wp02_169030160> 후<lf>일반 상태가 <REF ActionGuideDataNameText_Wp02_m661157824>로 변화한다.<lf>일부 액션으로 소비하거나 <lf>시간이 지나면 점점 감소한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>일부 액션이 강화되는 상태.<lf>강화된 액션을 사용할 때마다<lf><REF ActionGuideDataNameText_Wp02_m1003266688>를 소비하고, 게이지가<lf>사라지면 <REF ActionGuideDataNameText_Wp02_m661157824> 상태가 해제된다.
+<string>일부 액션이 강화되는 상태.<lf>강화된 액션을 사용할 때마다<lf><REF ActionGuideDataNameText_Wp02_m1003266688>를 소비하고, 게이지가<lf>사라지면 <REF ActionGuideDataNameText_Wp02_m661157824>가 해제된다.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
 <string><REF ActionGuideDataNameText_Wp02_m391958560>에 성공하면 잠시<lf>얻을 수 있는 강화 상태.<lf>공격의 위력과 속성치가 상승하고<lf>공격하면서 회피할 수 있다.
@@ -513,21 +513,21 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string><REF RefStatus_0006_000_01>을 설치하는 특수한 기술.<lf><REF RefEquipment_0001_005>에 설정된 종류의 <REF RefStatus_0006_000_01>을<lf>설치할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp05_m466143936>을 하는 동안<lf><ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>으로 <lf>최대 3개의 <REF RefStatus_0006_000_00>을 <lf>발생시킬 수 있다.
+<string><REF RefStatus_0006_000_01>을 설치하는 특수한 기술.<lf><REF RefEquipment_0001_005>에 설정된 종류의 <REF RefStatus_0006_000_01>을<lf>설치할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp05_m466143936>을 발동 하는 동안<lf><ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>으로 <lf>최대 3개의 <REF RefStatus_0006_000_00>을 <lf>발생시킬 수 있다.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string>선율 스톡 시 <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>일반 <REF ActionGuideDataNameText_Wp05_m208341008>와 달리<lf><REF RefEquipment_0001_005>에 설정된 개별 <REF RefStatus_0008_000_00>를<lf>발생시키는 선율.<lf><lf>한 번 스톡하면<lf>다른 선율로 덮어씌워지지 않고<lf>계속해서 유지된다.
+<string>일반 <REF ActionGuideDataNameText_Wp05_m208341008>와 달리<lf><REF RefEquipment_0001_005>에 설정된 개별 <REF RefStatus_0008_000_00>를<lf>발생시키는 연주.<lf><lf>한 번 스톡하면<lf>다른 선율로 덮어씌워지지 않고<lf>계속해서 유지된다.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>상처에 효과적인 <REF ActionGuideDataNameText_Wp05_m208341008> 공격.<lf><REF ActionGuideDataNameText_Wp05_m208341008> 중 <ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>으로 <lf>최대 5개의 <REF RefStatus_0006_000_00>을 발생시킬 수 있다.<lf><lf>타이밍을 잘 맞춰 <REF RefStatus_0006_000_00>을 발생시키면 <lf>대미지가 상승한다.
+<string>상처에 효과적인 <REF ActionGuideDataNameText_Wp05_m208341008> 공격.<lf><REF ActionGuideDataNameText_Wp05_m208341008> 중 <ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>으로 <lf>최대 5개의 <REF RefStatus_0006_000_00>을 발생시킬 수 있다.<lf><lf>타이밍을 잘 맞춰 <REF RefStatus_0006_000_00>을 발생시키면 <lf>추가 대미지가 발생한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
 <string><REF RefStatus_0006_000_01>
-<string><REF ActionGuideDataNameText_Wp05_m466143936> 후 범위 안에 있을 때만<lf>특수한 <REF RefStatus_0008_000_00>를 얻는다.<lf><lf>또 <REF ActionGuideDataNameText_Wp05_m208341008>나 <REF RefStatus_0006_000_00>을 발생시키는<lf>공격에 공명하여 근처에 있는<lf>몬스터에게 대미지를 줄 수 있다.
+<string><REF ActionGuideDataNameText_Wp05_m466143936> 발동 후 범위 안에 있을 때만<lf>특수한 <REF RefStatus_0008_000_00>를 얻는다.<lf><lf>또 <REF ActionGuideDataNameText_Wp05_m208341008>나 <REF RefStatus_0006_000_00>을 발생시키는<lf>공격에 공명하여 근처에 있는<lf>몬스터에게 대미지를 줄 수 있다.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
 <string>상쇄 효과가 있는 특수 <REF ActionGuideDataNameText_Wp05_m208341008> 공격.<lf>위력도 높으며 일반 공격으로도<lf>쓸 수 있다.
 <string>
@@ -535,12 +535,8 @@
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>이동 속도가 오른다.<lf><REF RefStatus_0008_000_00> <REF ActionGuideDataNameText_Wp05_m6258827>를 사용하면<lf>공격이 튕겨 나가지 않게 되며<lf>공격력도 오른다.
 <string>
-<string>공격을 받아도 움츠리지 않는다.
-<string>
 <string><ICON ST_POWER_UP_HORN><REF MusicSkillDataText_Wp05_11>/<REF MusicSkillDataText_Wp05_12>
 <string>공격력이 상승한 상태.
-<string>
-<string>방어력이 상승한 상태.
 <string>
 <string><ICON ST_DEFECE_FIRE><REF MusicSkillDataText_Wp05_18>/<ICON ST_DEFECE_FIRE_HIGH><REF MusicSkillDataText_Wp05_19>
 <string>불 내성치가 상승하고<lf>불속성 피해를 무효화한다.
@@ -588,7 +584,7 @@
 <string><ICON WP05 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
-<string><ICON WP05 PL_ATTACK_SP> <REF RefGeneral_0001_006>　<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><ICON WP05 PL_ATTACK_SP><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string>
 <string>【빠른 <REF ActionGuideDataNameText_Wp05_m208341008> 효과가 발생하는 연계】
 <string>기본 공격
@@ -632,8 +628,7 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>그 자리에 앉아서 발동하는 철벽의<lf><REF ActionGuideDataNameText_Wp06_327006624>. 방패를 들고 있는 동안<lf>스태미나를 서서히 소비하지만, 가드<lf>액션이 대폭 감소돼 반격하기 쉽다.<lf><lf><REF ActionGuideDataNameText_Wp06_327006624>한 횟수에 따라 반격 위력이<lf>상승한다.
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -688,7 +683,7 @@
 <string>【<REF ActionGuideDataNameText_Wp06_327006624> 성공 후 반격 파생】
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>몬스터 공격을 <REF ActionGuideDataNameText_Wp06_327006624>했을 때의 반격.<lf><lf><REF ActionGuideDataNameText_Wp06_872382528>에 성공하면<lf>더욱 강력한 돌진을 할 수 있다.
+<string>몬스터의 공격을 <REF ActionGuideDataNameText_Wp06_327006624>하고 난 후의 반격.<lf><lf><REF ActionGuideDataNameText_Wp06_872382528>에 성공하면<lf>그 후 파생되는 반격의 위력이<lf>각각 상승한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,7 +691,7 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE><REF RefEquipment_0001_007>
@@ -825,7 +820,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>상쇄 효과가 있는 베어올리기 공격.<lf><REF ActionGuideDataNameTextCommon_m234605296> 시<lf><ICON WP08 PL_ATTACK_00>을 누르면 <REF ActionGuideDataNameText_Wp08_166716544>로 파생.<lf><REF ActionGuideDataNameText_Wp08_503110624>로 넘어갈 수 있다.<lf><ICON WP08 PL_ATTACK_SP>을 누르면 <REF ActionGuideDataNameText_Wp08_1659893248>로 파생되어<lf><REF ActionGuideDataNameText_Wp08_971569344>로 넘어갈 수 있다.
+<string>상쇄 효과가 있는 베어올리기 공격.<lf>상쇄로 몬스터가 크게 움츠렸을 때,<lf><ICON WP08 PL_ATTACK_00>을 누르면 <REF ActionGuideDataNameText_Wp08_166716544>로 파생.<lf><REF ActionGuideDataNameText_Wp08_503110624>로 넘어갈 수 있다.<lf><ICON WP08 PL_ATTACK_SP>을 누르면 <REF ActionGuideDataNameText_Wp08_1659893248>로 파생되어<lf><REF ActionGuideDataNameText_Wp08_971569344>로 넘어갈 수 있다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><REF ActionGuideDataNameTextCommon_m234605296> 시 <ICON WP08 PL_ATTACK_00>
@@ -843,7 +838,7 @@
 <string><INPUTMSG MsgGUI600200_01_021_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>상처에 효과적인 비스듬히 베기.<lf>상처에 맞으면 여러 번 연속 공격해<lf><REF ActionGuideDataNameText_Wp08_m694198912>를 발동할 수 있다.<lf>연속 공격 중 <ICON WP08 PL_ATTACK_SP>을 누르면 <REF ActionGuideDataNameText_Wp08_971569344>로<lf>변형하며 <REF ActionGuideDataNameText_Wp08_m1280417792>를 발동한다.
+<string>상처에 효과적인 대각선 베기.<lf>상처에 맞으면 여러 번 연속 공격해<lf><REF ActionGuideDataNameText_Wp08_m694198912>를 발동할 수 있다.<lf>연속 공격 중 <ICON WP08 PL_ATTACK_SP>을 누르면 <REF ActionGuideDataNameText_Wp08_971569344>로<lf>변형하며 <REF ActionGuideDataNameText_Wp08_m1280417792>를 발동한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -854,7 +849,7 @@
 <string><INPUTMSG MsgGUI600200_01_022_01>
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string><REF ActionGuideDataNameText_Wp08_150431184> 후에<lf><ICON WP08 PL_ATTACK_01>을 누르면 <REF ActionGuideDataNameText_Wp08_m1737891328>로 파생.<lf><REF ActionGuideDataNameText_Wp08_1601592576>를 많이 모을 수 있다.
+<string><REF ActionGuideDataNameText_Wp08_150431184> 후에<lf><ICON WP08 PL_ATTACK_01>을 누르면 <REF ActionGuideDataNameText_Wp08_m1737891328>으로 파생.<lf><REF ActionGuideDataNameText_Wp08_1601592576>를 많이 모을 수 있다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1381817088>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
@@ -862,19 +857,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string><REF ActionGuideDataNameText_Wp08_m28020688> 후 <ICON WP08 merge=""PL_ATTACK_00,REPEAT_ON"">을 누르면 <lf><REF ActionGuideDataNameText_Wp08_m28020688> 피니시를 <lf>발동할 수 있다.<lf>피니시 후 <REF ActionGuideDataNameText_Wp08_m1422082944>로 변형한다.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>고출력 상태에서만<lf>몬스터에 달라붙어<lf><REF ActionGuideDataNameText_Wp08_m28020688>를 할 수 있다.<lf>또한 달라붙은 후에 <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">으로<lf><REF ActionGuideDataNameText_Wp08_67143400>를 할 수 있다.<lf>피니시 후에는<lf><REF ActionGuideDataNameText_Wp08_m1422082944>로 변형한다.
+<string><REF ActionGuideDataNameText_Wp08_m28020688> 후 <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">을 누르면 <lf><REF ActionGuideDataNameText_Wp08_m28020688> 피니시를 <lf>발동할 수 있다.<lf>피니시 후 <REF ActionGuideDataNameText_Wp08_m1422082944>로 변형한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp08_971569344>의 강력한 공격.<lf><REF ActionGuideDataNameText_Wp08_132806840>일 경우 추가로<lf>폭발 공격이 발생한다.<lf>공격 후 <REF ActionGuideDataNameText_Wp08_m1422082944>로 변형한다.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>고출력 상태에서만 할 수 있는<lf>강력한 공격.<lf><REF ActionGuideDataNameText_Wp08_m28020688> 후<lf><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON">으로도 파생할 수 있다.<lf>공격 후에 <REF ActionGuideDataNameText_Wp08_m1422082944>로<lf>변형한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -882,7 +869,7 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>상처에 효과적인 비스듬히 베기.<lf>상처에 맞으면 여러 번 연속 공격해<lf><REF ActionGuideDataNameText_Wp08_m1280417792>를 발동할 수 있다.<lf>연속 공격 중 <ICON WP08 PL_ATTACK_SP>을 누르면 <REF ActionGuideDataNameText_Wp08_m1422082944>로<lf>변형하며 <REF ActionGuideDataNameText_Wp08_m694198912>를 발동한다.
+<string>상처에 효과적인 대각선 베기.<lf>상처에 맞으면 여러 번 연속 공격해<lf><REF ActionGuideDataNameText_Wp08_m1280417792>를 발동할 수 있다.<lf>연속 공격 중 <ICON WP08 PL_ATTACK_SP>을 누르면 <REF ActionGuideDataNameText_Wp08_m1422082944>로<lf>변형하며 <REF ActionGuideDataNameText_Wp08_m694198912>를 발동한다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -891,7 +878,7 @@
 <string><REF ActionGuideDataNameText_Wp08_m1422082944> 공격으로는 <REF ActionGuideDataNameText_Wp08_1814127872>가<lf>쌓이며, <REF ActionGuideDataNameText_Wp08_971569344> 공격으로는<lf><REF ActionGuideDataNameText_Wp08_1814127872>가 소비되므로<lf>모드를 적절히 바꾸면서 싸우자.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1814127872>
-<string>도끼 공격을 하면 쌓이는 게이지.<lf><REF ActionGuideDataNameText_Wp08_1814127872>가 30% 이상이면<lf><REF ActionGuideDataNameText_Wp08_971569344>로 변형할 수 있다.<lf>납도 시에는 시간이 흐르면<lf><REF ActionGuideDataNameText_Wp08_1814127872>가 쌓인다.
+<string><REF ActionGuideDataNameText_Wp08_m1422082944>를 하면 쌓이는 게이지.<lf><REF ActionGuideDataNameText_Wp08_1814127872>가 30% 이상이면<lf><REF ActionGuideDataNameText_Wp08_971569344>로 변형할 수 있다.<lf>납도 시에는 시간이 흐르면<lf><REF ActionGuideDataNameText_Wp08_1814127872>가 쌓인다.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_503110624>
 <string><REF ActionGuideDataNameText_Wp08_m1422082944> 공격력이 상승한다.<lf>또, 공격했을 때 <REF ActionGuideDataNameText_Wp08_1814127872>가<lf>쌓이는 양도 상승한다.
@@ -903,7 +890,7 @@
 <string><REF ActionGuideDataNameText_Wp08_971569344> 공격에 병 효과를 가진<lf>추가 폭발이 발생하게 된다.
 <string>
 <string>병 종류
-<string>검으로 공격하면 <REF ActionGuideDataNameText_Wp08_1814127872>를 소비하여<lf>병 종류에 따른 효과가 부여된다.<lf><lf><REF Item_IT_677>: 물리 대미지 증가<lf><REF RefStatus_0006_003_01_02>: 속성 대미지 증가<lf><REF Item_IT_680>: <REF RefStatus_0008_002_02>속성 부여<lf><REF Item_IT_679>: <REF RefStatus_0008_002_03>속성 부여<lf><REF RefStatus_0006_003_01_03>: 용속성 부여<lf><REF Item_IT_683>: 기절/기력 감소 효과 부여<lf><lf>또한 병 종류에 따라 <REF ActionGuideDataNameText_Wp08_1814127872><lf>의 모으기 난이도가 달라진다.
+<string>검으로 공격하면 <REF ActionGuideDataNameText_Wp08_1814127872>를 소비하여<lf>병 종류에 따른 효과가 부여된다.<lf><lf><REF Item_IT_677>: 물리 대미지 증가<lf><REF RefStatus_0006_003_01_02>: 속성 대미지 증가<lf><REF Item_IT_680>: <REF RefStatus_0008_002_02>속성 부여<lf><REF Item_IT_679>: <REF RefStatus_0008_002_03>속성 부여<lf><REF RefStatus_0006_003_01_03>: 용속성 부여<lf><REF Item_IT_683>: 기절/기력 감소 효과 부여<lf><lf>또한 병 종류에 따라 <REF ActionGuideDataNameText_Wp08_1601592576><lf>의 모으기 난이도가 달라진다.
 <string>
 <string>【<REF ActionGuideDataNameText_Wp08_1814127872>를 모으는 연계】
 <string><REF ActionGuideDataNameText_Wp08_143967248>
@@ -1028,7 +1015,7 @@
 <string>무기를 변형시켜 모드를 전환한다.<lf>변형할 때, 방패를 든 타이밍에<lf><REF ActionGuideDataNameText_Wp09_m888161664> 판정이 있다.
 <string>
 <string>가드 판정이 있는 공격
-<string><REF ActionGuideDataNameText_Wp09_m970370816>의 일부 공격에는 <REF ActionGuideDataNameText_Wp09_m888161664> 판정이<lf>있어, 정면에 방패를 드는 타이밍에<lf>공격을 받으면 자동으로 <REF ActionGuideDataNameText_Wp09_m888161664>한다.<lf><lf>거기에서 <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>을 누르면<lf><REF ActionGuideDataNameText_Wp09_266499504>(으)로 파생시킬 수<lf>있다.
+<string><REF ActionGuideDataNameText_Wp09_m970370816>의 일부 공격에는 <REF ActionGuideDataNameText_Wp09_m888161664> 판정이<lf>있어, 정면에 방패를 드는 타이밍에<lf>공격을 받으면 자동으로 <REF ActionGuideDataNameText_Wp09_m888161664>한다.<lf><lf>그 상태에서 <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>을 누르면<lf><REF ActionGuideDataNameText_Wp09_266499504>로 파생시킬 수<lf>있다.
 <string>
 <string>차지 게이지
 <string>검으로 공격하면 <REF ActionGuideDataNameText_Wp09_1690804608>가 축적되며<lf>게이지가 노란색 이상일 때 차지하면<lf>병을 모을 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp09_1690804608>를 너무 축적하면 공격이<lf>튕겨 나가는 상태가 된다.
@@ -1079,7 +1066,7 @@
 <string>【병을 3개 이상 소비하는 해방베기 연계】
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string><REF ActionGuideDataNameText_Wp09_m406475264>에서<lf><REF ActionGuideDataNameText_Wp09_1635818112>로<lf>파생되는 연계.<lf><lf>거기에서 <REF ActionGuideDataNameText_Wp09_2057398656>까지<lf>파생되어 큰 대미지를 줄 수 있다.
+<string><REF ActionGuideDataNameText_Wp09_m406475264>에서<lf><REF ActionGuideDataNameText_Wp09_1635818112>로<lf>파생되는 연계.<lf><lf><REF ActionGuideDataNameText_Wp09_2057398656>까지<lf>파생되어 큰 대미지를 줄 수 있다.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1113,7 +1100,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
-<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">을 눌러서 모으면 <REF RefEquipment_0001_010_0>돌진이<lf>강화되며, 몬스터의 각 부위에<lf>관통해서 명중하면 진액 여러 개를<lf>채취할 수 있다.
+<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">을 눌러서 모으면 <REF RefEquipment_0001_010_0> 돌진이<lf>강화되며, 몬스터의 각 부위에<lf>관통해서 명중하면 진액 여러 개를<lf>채취할 수 있다.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_607158400>
 <string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
@@ -1170,7 +1157,7 @@
 <string>몬스터에게서 채취할 수 있는 진액.<lf>빨강, 하양, 주황, 초록 4종류로<lf>각 몬스터의 부위에 따라 채취하는<lf>색이 다르다.<lf><lf>채취한 <REF ActionGuideDataNameText_Wp10_m508432000>은 벌레 부르기로<lf>회수하며 색에 따라 효과가 다르다.<lf>여러 색을 조합하면 더욱 다양한<lf>효과를 얻을 수 있다.<lf><lf>강화 상태는 일정 시간이 지나면<lf>해제된다.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m508432000> 효과
-<string>채취한 진액 색에 대응하는 효과를<lf>얻는다. 여러 색을 조합하면 더욱<lf>다양한 효과를 얻을 수 있다.<lf><lf>빨강: <ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328> 가능<lf>하양: 이동 속도, <REF ActionGuideDataNameText_Wp10_m1303595904> 고도 상승<lf>주황: 움찔 감소<lf>빨강+하양: 공격력 UP<lf>하양+주황: 방어력 UP<lf>빨강+하양+주황: 일부 액션 변화,<lf>공격력 UP
+<string>채취한 진액 색에 대응하는 효과를<lf>얻는다. 여러 색을 조합하면 더욱<lf>다양한 효과를 얻을 수 있다.<lf><lf>빨강: <ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328> 가능<lf>하양: 이동 속도, <REF ActionGuideDataNameText_Wp10_m1303595904> 고도 상승<lf>주황: 발도 시 움츠림 무효<lf>빨강+하양: 공격력 UP<lf>하양+주황: 방어력 UP<lf>빨강+하양+주황: 일부 액션 변화,<lf>                         풍압, 진동, 포효를 경감<lf>                         공격력 UP
 <string>
 <string>【기본적인 연계】
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1226,7 +1213,6 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN><REF RefEquipment_0001_013>
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1249,7 +1235,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string><REF RefEquipment_0001_013>에 설정된 <REF ActionGuideDataNameText_Wp13_m1879452288>을<lf>사용할 수 있다.
+<string><REF RefEquipment_0001_013>에 설정된 <REF ActionGuideDataNameText_Wp13_m1879452288>을<lf>사용할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp13_m70162400>은 그 자리에 설치, <lf><REF ActionGuideDataNameText_Wp13_14729>은 장전 후, <lf><ICON WP13 PL_ATTACK_SP>로 <REF ActionGuideDataNameText_Wp13_m1628573952>할 수 있다.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
@@ -1283,7 +1269,7 @@
 <string><ICON WP_HEAVYBOWGUN><REF RefEquipment_0001_012>
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
-<string>장전한 탄을 정면에 <REF ActionGuideDataNameText_Wp13_99602184>한다.<lf><REF ActionGuideDataNameText_Wp12_183421488> 중에는<lf><REF ActionGuideDataNameText_Wp12_183421488> 방향으로<lf>탄이 <REF ActionGuideDataNameText_Wp13_99602184>된다.
+<string>장전한 탄을 정면에 <REF ActionGuideDataNameText_Wp13_99602184>한다.<lf><REF ActionGuideDataNameText_Wp12_183421488> 중에는 <REF ActionGuideDataNameText_Wp12_183421488> 방향으로<lf>탄이 <REF ActionGuideDataNameText_Wp13_99602184>된다.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_187560352>
 <string><INPUTMSG MsgGUI600200_01_051>
@@ -1332,7 +1318,6 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>빠르게 확산시켜 화살을 쏘는 기술.<lf>스태미나를 소비하지 않는다.
 <string>
-<string><ICON WP_BOW><REF RefEquipment_0001_011>
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF RefEquipment_0001_011>을 당겨 화살을 쏘는 기술.<lf><ICON WP11 PL_ATTACK_SP>을 길게 누를수록 <REF ActionGuideDataNameText_Wp00_605526016>가 올라<lf>사격 위력이 상승한다.<lf><lf>공격 후에 <ICON WP11 PL_ATTACK_01>을 누르면<lf><REF ActionGuideDataNameText_Wp11_713120064>로 파생된다.
@@ -1356,7 +1341,7 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1393,7 +1378,7 @@
 <string><REF ActionGuideDataNameText_Wp11_m966116480>을 쏜 뒤, 폭발할 때까지<lf>화살이 <REF ActionGuideDataNameText_Wp11_m966116480> 위치를 추적한다.
 <string>
 <string>병 종류
-<string>장전하면 병의 효과가<lf>화살에 부여된다.<lf><lf><REF Item_IT_677>: 화살 위력 증가<lf><REF Item_IT_676>: 사거리 감소, 위력 대폭 증가<lf><REF Item_IT_678>: 화살 관통<lf><REF RefStatus_0008_002_02>병: <REF RefStatus_0008_002_02>속성 부여<lf><REF RefStatus_0008_002_03>병: <REF RefStatus_0008_002_03>속성 부여<lf><REF Item_IT_681>병: 수면속성 부여<lf><REF Item_IT_682>: <REF RefStatus_0008_002_04>속성 부여<lf><REF Item_IT_683>: 기절/기력 감소 효과 부여
+<string>장전하면 병의 효과가<lf>화살에 부여된다.<lf><lf><REF Item_IT_677>: 화살 위력 증가<lf><REF Item_IT_676>: 사거리 감소, 위력 대폭 증가<lf><REF Item_IT_678>: 화살 관통<lf><REF RefStatus_0008_002_02>병: <REF RefStatus_0008_002_02>속성 부여<lf><REF RefStatus_0008_002_03>병: <REF RefStatus_0008_002_03>속성 부여<lf><REF Item_IT_681>: 수면속성 부여<lf><REF Item_IT_682>: <REF RefStatus_0008_002_04>속성 부여<lf><REF Item_IT_683>: 기절/기력 감소 효과 부여
 <string>
 <string>【<REF ActionGuideDataNameText_Wp11_m125532448>로 이어지는 연계】
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1435,7 +1420,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><REF ActionGuideDataNameText_Wp11_1920365056> 중 <ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>【<REF ActionGuideDataNameText_Wp11_m1364116608>를 조합한 고화력 연계】
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
@@ -1443,9 +1428,9 @@
 <string><REF ActionGuideDataNameText_Wp11_m825706560>을 <REF ActionGuideDataNameText_Wp11_m1364116608>로 쏘며 빠르게<lf><REF ActionGuideDataNameText_Wp11_1920365056> 후 <REF ActionGuideDataNameText_Wp11_m1212153600>로<lf>위치를 조정하고 <REF ActionGuideDataNameText_Wp11_m125532448>이나 <REF ActionGuideDataNameText_Wp11_m1657138304>로<lf><REF ActionGuideDataNameText_Wp11_m825706560>을 폭발시키는 연계.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><REF ActionGuideDataNameText_Wp11_1920365056> 중 <ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
 <string>
-<string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> <REF MusicSkillDataText_Wp05_1>
+<string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>

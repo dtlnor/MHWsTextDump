@@ -5,14 +5,14 @@
 <string>Сбросить выбранные настройки
 <string>Сбросить все настройки
 <string>Вернуть выбранные параметры к исходным значениям?
-<string>Вернуть все параметры к исходным значениям?
+<string>Вернуть все параметры во всех категориях<lf>к их исходным значениям?
 <string>Все
 <string><PLATMSG MsgGUI030100_0401>
 <string>Общие + контроллер
-<string>Общая схема + клавиатура/мышь
+<string>Общие + клавиатура/мышь
 <string>Автоматически задать рекомендуемые значения следующих<lf>параметров. Изменённые параметры будут выделены.<lf><COLOR preset="TXT_Accent">(На этом экране нельзя вносить отдельные изменения.)</COLOR>
 <string>Использовать рекомендуемые параметры
-<string>Позволяет автоматически установить <COLOR preset="TXT_Accent">рекомендуемые<lf>значения</COLOR> для всех параметров.
+<string>Позволяет автоматически задать <COLOR preset="TXT_Accent">рекомендуемые<lf>значения</COLOR> для всех параметров.
 <string>Параметры игры
 <string>Управление
 <string>Камера
@@ -23,111 +23,115 @@
 <string>Специальные возможности
 <string>Язык
 <string>КОНФИДЕНЦИАЛЬНОСТЬ
+<string><PLATMSG MsgGUI030100_01_42>
 <string>Кнопка подтверждения
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>Выбор кнопки, которая будет использоваться<lf>для подтверждения действий.
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
 <string>Использовать <ICON PAD UI_DUMMY_ICON_RDOWN> для подтверждения действий.
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
 <string>Использовать <ICON PAD UI_DUMMY_ICON_RRIGHT> для подтверждения действий.
 <string>Управление рывком
 <string>Позволяет выбрать, какая кнопка будет<lf>использоваться для рывка.<lf><COLOR preset="TXT_Accent">(Не влияет на управление сейкретом.)</COLOR>
 <string>Использовать только <ICON PAD PL_DASH_TOGGLE>
-<string>Нажмите <ICON PAD PL_DASH_TOGGLE>, чтобы начать рывок,<lf>и ещё раз, чтобы его завершить.
+<string><ICON PAD PL_DASH_TOGGLE> включает и отключает режим рывка.<lf>Нажмите один раз, чтобы начать рывок,<lf>и ещё раз, чтобы его завершить.
 <string>Использовать только <ICON PAD PL_DASH>
-<string>Продолжать рывок, пока удерживается <ICON PAD PL_DASH>.
+<string>Для совершения рывка используется <ICON PAD PL_DASH>.
 <string>Использовать и <ICON PAD PL_DASH_TOGGLE>, и <ICON PAD PL_DASH>
-<string>Использовать для рывка кнопки <ICON PAD PL_DASH_TOGGLE> и <ICON PAD PL_DASH>.
+<string>Для совершения рывка используется<lf>как <ICON PAD PL_DASH_TOGGLE>, так и <ICON PAD PL_DASH>.
 <string>Сменить функции <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_RB>
-<string>Взаимно заменить функции <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_LT>,<lf>а также <ICON PAD UI_DUMMY_ICON_RB> и <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Взаимно заменить функции <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_LT>, а также <ICON PAD UI_DUMMY_ICON_RB> и <ICON PAD UI_DUMMY_ICON_RT>.
 <string>Не менять
 <string>Оставить функции кнопок без изменений.
 <string>Взаимно заменить только <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_LT>
-<string>Взаимно заменить только функции <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_LT>.
+<string>Взаимно заменить функции <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_LT>.
 <string>Взаимно заменить только <ICON PAD UI_DUMMY_ICON_RB> и <ICON PAD UI_DUMMY_ICON_RT>
-<string>Взаимно заменить только функции <ICON PAD UI_DUMMY_ICON_RB> и <ICON PAD UI_DUMMY_ICON_RT>.
+<string>Взаимно заменить функции <ICON PAD UI_DUMMY_ICON_RB> и <ICON PAD UI_DUMMY_ICON_RT>.
 <string>Сменить функции обеих пар
 <string>Взаимно заменить функции <ICON PAD UI_DUMMY_ICON_LB> и <ICON PAD UI_DUMMY_ICON_LT>,<lf>а также <ICON PAD UI_DUMMY_ICON_RB> и <ICON PAD UI_DUMMY_ICON_RT>.
 <string><PLATMSG MsgGUI030100_01_45>
 <string>Назначения кнопок
 <string><PLATMSG MsgGUI030100_01_45_HELP>
-<string>Выбор готовых назначений кнопок или комбинаций кнопок.
+<string>Выбор готовых назначений кнопок или<lf>комбинаций кнопок.
 <string>Тип 1
-<string><ICON PAD UI_SHORTCUT_PALLET><lf>Призвать сейкрета, сменить оружие и т. д.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Выбрать быстрое действие в круговом меню.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Перемещаться по круговому меню<lf>и панели снарядов/смазок.
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Призвать сейкрета, сменить оружие и т. д.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Выбрать быстрое действие в круговом меню.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Перемещаться по панели предметов<lf>и панели снарядов/покрытий.
 <string>Тип 2
-<string><ICON PAD UI_SHORTCUT_PALLET><lf>Перемещаться по круговому меню<lf>и панели снарядов/смазок.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Призвать сейкрета, сменить оружие и т. д.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Выбрать быстрое действие в круговом меню.
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Перемещаться по панели предметов<lf>и панели снарядов/покрытий.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Призвать сейкрета, сменить оружие и т. д.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Выбрать быстрое действие в круговом меню.
 <string>Тип 3
-<string><ICON PAD UI_SHORTCUT_PALLET><lf>Призвать сейкрета, сменить оружие и т. д.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Перемещаться по круговому меню<lf>и панели снарядов/смазок.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Выбрать быстрое действие в круговом меню.
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Призвать сейкрета, сменить оружие и т. д.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Перемещаться по панели предметов<lf>и панели снарядов/покрытий.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Выбрать быстрое действие в круговом меню.
 <string>Тип 4
-<string><ICON PAD UI_SHORTCUT_PALLET><lf>Перемещаться по круговому меню<lf>и панели снарядов/смазок.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Выбрать быстрое действие в круговом меню.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Призвать сейкрета, сменить оружие и т. д.
+<string><ICON PAD UI_SHORTCUT_PALLET><lf>Перемещаться по панели предметов<lf>и панели снарядов/покрытий.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET><lf>Выбрать быстрое действие в круговом меню.<lf><lf><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN><lf>Призвать сейкрета, сменить оружие и т. д.
 <string>Задержка подтверждения
-<string>Определяет, как долго нужно удерживать кнопку,<lf>чтобы подтвердить некоторые действия, вроде вызова<lf>сейкрета или пропуска события.
+<string>Определяет, как долго нужно удерживать кнопку, чтобы<lf>подтвердить некоторые действия, вроде вызова сейкрета<lf>или пропуска события.
 <string>Короткая
-<string>Удерживать кнопку почти не нужно.
-<string>Средняя
-<string>Удерживать кнопку нужно некоторое время.
+<string>Чтобы выполнить действие, кнопку нужно<lf>удерживать совсем недолго.
+<string>По умолчанию
+<string>Чтобы выполнить действие, кнопку нужно<lf>удерживать в течение времени, заданного<lf>по умолчанию.
 <string>Длинная
-<string>Удерживать кнопку нужно долго.
+<string>Чтобы выполнить действие, кнопку нужно<lf>удерживать долго.
 <string>Автоматически убирать оружие
-<string>Определяет, будет ли персонаж автоматически<lf>убирать оружие через некоторое время.
+<string>Определяет, будет ли охотник автоматически<lf>убирать оружие через некоторое время.
 <string>Убирать
-<string>После некоторого периода бездействия персонаж будет<lf>автоматически убирать оружие.
+<string>Охотник будет автоматически убирать<lf>оружие, если не атакует и не уклоняется<lf>от атак в течение определённого времени.<lf>Не действует в бою.
 <string>Не убирать
-<string>Персонаж не будет автоматически убирать оружие.
+<string>Охотник не будет автоматически убирать оружие.
 <string>Управление движением
 <string><PLATMSG MsgGUI030100_01_03_Help>
 <string>Настройка управления для таких действий,<lf>как уклонение после атаки.<lf><COLOR preset="TXT_Accent">(Контроллер.)</COLOR>
 <string>Тип 1
-<string>– При отклонении <ICON PAD PL_DUMMY_MOVE> вверх персонаж движется<lf>в направлении обзора камеры.<lf>– При отклонении <ICON PAD PL_DUMMY_MOVE> вниз персонаж движется<lf>против обзора камеры.
+<string>– При отклонении <ICON PAD PL_DUMMY_MOVE> вверх охотник движется<lf>в направлении обзора камеры.<lf>– При отклонении <ICON PAD PL_DUMMY_MOVE> вниз охотник движется<lf>в направлении экрана.
 <string>Тип 2
-<string>– При отклонении <ICON PAD PL_DUMMY_MOVE> вверх персонаж движется<lf>в направлении своего взгляда.<lf>– При отклонении <ICON PAD PL_DUMMY_MOVE> вниз персонаж движется<lf>против направления своего взгляда.
+<string>– При отклонении <ICON PAD PL_DUMMY_MOVE> вверх охотник движется<lf>в направлении своего взгляда.<lf>– При отклонении <ICON PAD PL_DUMMY_MOVE> вниз охотник движется<lf>против направления своего взгляда.
 <string>Управление движением
 <string>Настройка управления для таких действий,<lf>как уклонение после атаки.<lf><COLOR preset="TXT_Accent">(Клавиатура.)</COLOR>
 <string>Тип 1
-<string>– При нажатии <ICON MKB PL_MOVE_FRONT> персонаж движется<lf>в направлении обзора камеры.<lf>– При нажатии <ICON MKB PL_MOVE_BACK> персонаж движется<lf>против обзора камеры.
+<string>– При нажатии <ICON MKB PL_MOVE_FRONT> охотник движется<lf>в направлении обзора камеры.<lf>– При нажатии <ICON MKB PL_MOVE_BACK> охотник движется<lf>в направлении экрана.
 <string>Тип 2
-<string>– При нажатии <ICON MKB PL_MOVE_FRONT> персонаж движется<lf>в направлении своего взгляда.<lf>– При нажатии <ICON MKB PL_MOVE_BACK> персонаж движется<lf>против направления своего взгляда.
+<string>– При нажатии <ICON MKB PL_MOVE_FRONT> охотник движется<lf>в направлении своего взгляда.<lf>– При нажатии <ICON MKB PL_MOVE_BACK> охотник движется<lf>против направления своего взгляда.
 <string>Параметры управления сейкретом
 <string>Настройка управления сейкретом.
 <string>Вызов сейкрета
 <string>Выбор способов вызова сейкрета.
 <string>Тип 1
-<string>Вызов сейкрета с помощью <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL> или<lf>назначенного быстрого действия.
+<string>Вызов сейкрета с помощью <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> или<lf>быстрого действия в круговом меню.
 <string>Тип 2
-<string>Помимо способа из описания для типа 1,<lf>позволяет вызывать сейкрета в режиме<lf>автоперемещения, удерживая <ICON PAD PL_PT_CALL_KEEP> при<lf>убранном оружии.
+<string>Помимо варианта, описанного для типа 1,<lf>позволяет вызывать сейкрета в режиме<lf>автоперемещения, удерживая <ICON PL_PT_CALL_KEEP> при<lf>убранном оружии.
 <string>Тип 3
-<string>Помимо способа из описания для типа 1,<lf>позволяет вызывать сейкрета в ручном режиме<lf>управления, удерживая <ICON PAD PL_PT_CALL_KEEP> при убранном оружии.
-<string>Управление по умолчанию при вызове сейкрета
-<string>Смена способа управления для вызова сейкрета<lf>на пользовательскую команду быстрого доступа.
+<string>Помимо варианта, описанного для типа 1,<lf>позволяет вызывать сейкрета в ручном<lf>режиме управления, удерживая <ICON PL_PT_CALL_KEEP> при<lf>убранном оружии.
+<string>Вызов сейкрета (круговое меню)
+<string>Выбор параметров по умолчанию для вызова<lf>сейкрета с помощью пользовательского<lf>кругового меню.
 <string>Автоперемещение
-<string>Призыв сейкрета при автоперемещении<lf>с помощью пользовательской команды быстрого доступа.
-<string>Перемещение с ручным управлением
-<string>Призыв сейкрета при перемещении с ручным<lf>управлением с помощью пользовательской команды<lf>быстрого доступа.
+<string>При <COLOR preset="TXT_Accent">вызове сейкрета</COLOR> с помощью<lf>пользовательского кругового меню,<lf>включается режим автоперемещения.
+<string>Ручное управление
+<string>При <COLOR preset="TXT_Accent">вызове сейкрета</COLOR> с помощью<lf>пользовательского кругового меню,<lf>включается режим ручного управления.
 <string>Управление сейкретом вручную
 <string>Выбор схемы ручного управления сейкретом.
 <string>Тип 1
-<string>Как при автоперемещении.<lf>Когда вы ничего не нажимаете, сейкрет бежит<lf>с фиксированной скоростью. Нажмите <ICON PAD PL_PT_SPEED_UP>,<lf>чтобы ускориться, <ICON PAD PL_PT_SPEED_DOWN> — чтобы замедлиться.<lf>Удерживайте <ICON PAD PL_PT_SPEED_DOWN>, чтобы остановиться.
+<string>Как при автоперемещении. Когда вы ничего<lf>не нажимаете, сейкрет бежит с фиксированной<lf>скоростью. Нажмите <ICON PL_PT_SPEED_UP>, чтобы ускориться,<lf><ICON PL_PT_SPEED_DOWN> — чтобы замедлиться. Удерживайте <ICON PL_PT_SPEED_DOWN>,<lf>чтобы остановиться.
 <string>Тип 2
-<string>Как при управлении персонажем.<lf>Когда вы ничего не нажимаете, сейкрет<lf>не двигается. Используйте <ICON PAD PL_DUMMY_MOVE> для<lf>перемещения. Чем сильнее вы<lf>отклоняете <ICON PAD PL_DUMMY_MOVE>, тем выше скорость.
-<string>Автоперемещение на сейкрете
-<string>Выбор способа выхода из режима<lf>автоперемещения на сейкрете.
+<string>Как при управлении охотником. Используйте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> для перемещения. Если ничего<lf>не нажато, сейкрет не движется.
+<string>Управление маршрутом сейкрета
+<string>Выбор способа покидания маршрута,<lf>доступного только на сейкрете.
 <string>Тип 1
-<string>Отклоните <ICON PAD PL_DUMMY_MOVE>, когда сейкрет бежит на предельной<lf>скорости, чтобы он покинул текущий маршрут.
+<string>Отклоните <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>, когда сейкрет бежит<lf>на предельной скорости, чтобы он покинул маршрут.
 <string>Тип 2
-<string>Нажмите <ICON PAD PL_INTERACT_ACTION_START>, удерживая <ICON PAD PL_DUMMY_MOVE>, чтобы сейкрет<lf>покинул текущий маршрут вне зависимости<lf>от набранной скорости.
-<string>Управление предметами
-<string>Настройка использования панели предметов<lf>и наборов пользовательского кругового меню.
-<string>Тип 1
-<string>Используйте <ICON PAD PL_ITEM_SLIDER_OPEN> + <ICON PAD UI_SHORTCUT_PALLET> для переключения<lf>между элементами на панели предметов.
-<string>Тип 2
-<string>Используйте <ICON PAD PL_ITEM_SLIDER_OPEN> + <ICON PAD UI_SHORTCUT_PALLET> для переключения<lf>между наборами пользовательского<lf>кругового меню.
-<string>Управление панелью предметов
-<string>Настройка управления панелью предметов.
-<string>Расширенная панель предметов
-<string>Настройка расширенной панели предметов.
-<string>Включить
-<string>Включить расширенный вид панели предметов.
-<string>Отключить
-<string>Отключить расширенный вид панели предметов.
+<string>Отклоните <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> и нажмите <ICON PL_INTERACT_ACTION_START>, чтобы сейкрет<lf>покинул маршрут вне зависимости от набранной скорости.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>Вызов расшир. панели предметов
 <string><PLATMSG MsgGUI030100_01_16_HELP>
 <string>Выбор способа вызова расширенной<lf>панели предметов.<lf><COLOR preset="TXT_Accent">(Контроллер.)</COLOR>
@@ -136,13 +140,13 @@
 <string>Тип 2
 <string>Нажмите <ICON PAD UI_ITEM_ALL_OPT2>, удерживая <ICON PAD PL_ITEM_SLIDER_OPEN>, чтобы<lf>переключаться между расширенным<lf>и обычным режимами панели предметов.
 <string>Тип 3
-<string>Нажмите <ICON PAD UI_ITEM_ALL_OPT3>, удерживая<ICON PAD PL_ITEM_SLIDER_OPEN>, чтобы<lf>панель предметов оставалась<lf>в расширенном режиме.
+<string>Используйте <ICON PAD UI_ITEM_ALL_OPT3><ICON PLUS><ICON PAD PL_ITEM_SLIDER_OPEN>, чтобы панель предметов<lf>оставалась в расширенном режиме.
 <string>Тип 4
 <string>Нажмите <ICON PAD UI_ITEM_ALL_OPT4>, удерживая <ICON PAD PL_ITEM_SLIDER_OPEN>, чтобы<lf>переключаться между расширенным<lf>и обычным режимами панели предметов.
 <string>Тип 5
-<string>Отключить расширенный вид панели предметов.
+<string>Расширенный вид панели предметов отключён.
 <string>Вызов расшир. панели предметов
-<string>Выбор способа вызова расширенной<lf>панели предметов. <COLOR preset="TXT_Accent">(Клавиатура.)</COLOR>
+<string>Выбор способа вызова расширенной<lf>панели предметов.<lf><COLOR preset="TXT_Accent">(Клавиатура.)</COLOR>
 <string>Тип 1
 <string>Нажимайте <ICON MKB UI_ITEM_ALL_PC_TOGGLE>, удерживая <ICON MKB PL_ITEM_SLIDER_OPEN>, чтобы<lf>переключаться между расширенным<lf>и обычным режимами панели предметов.
 <string>Тип 2
@@ -150,8 +154,8 @@
 <string>Тип 3
 <string>Не отображать расширенную панель предметов<lf>при нажатии кнопок на клавиатуре.
 <string>Скорость курсора на расш. панели
-<string>Выбор скорости курсора на расширенной<lf>панели предметов.
-<string>Настройка скорости перемещения курсора на<lf>полностью открытой панели предметов при<lf>использовании мини-джойстика.
+<string><PLATMSG MsgGUI030100_01_01_Help>
+<string>Настройка скорости перемещения курсора на<lf>полностью открытой панели предметов при<lf>использовании <ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT>.
 <string>Низкая
 <string>Низкая скорость перемещения курсора.
 <string>По умолчанию
@@ -164,103 +168,103 @@
 <string>Отображать полный список предметов<lf>во всех группах.
 <string>Только выбранная группа
 <string>Отображать полный список предметов<lf>только в выбранной группе.
-<string>Выбор предметов на расш. панели
-<string>Позволяет включить или отключить<lf>использование <ICON PAD UI_ITEM_LEFT> и <ICON PAD UI_ITEM_RIGHT> для выбора<lf>предметов на расширенной панели.
-<string>Включить
-<string>Разрешить использование <ICON PAD UI_ITEM_LEFT> и <ICON PAD UI_ITEM_RIGHT> для выбора<lf>предметов на расширенной панели.
-<string>Отключить
-<string>Запретить использование <ICON PAD UI_ITEM_LEFT> и <ICON PAD UI_ITEM_RIGHT> для выбора<lf>предметов на расширенной панели.
-<string>Выбор снар./смаз. на расш. панели
-<string>Позволяет включить или отключить<lf>использование <ICON PAD UI_BULLET_ITEM_UP> и <ICON PAD UI_BULLET_ITEM_DOWN> для выбора снарядов<lf>и смазок на расширенной панели.
-<string>Включить
-<string>Разрешить использование <ICON PAD UI_BULLET_ITEM_UP> и <ICON PAD UI_BULLET_ITEM_DOWN> для выбора<lf>снарядов и смазок на расширенной панели.
-<string>Отключить
-<string>Запретить использование <ICON PAD UI_BULLET_ITEM_UP> и <ICON PAD UI_BULLET_ITEM_DOWN> для выбора<lf>снарядов и смазок на расширенной панели.
-<string>Исп. предметов из расш. панели
-<string>Позволяет включить или отключить возможность<lf>использования предметов из расширенной панели<lf>с помощью <ICON PAD UI_ITEM_USE>.
-<string>Включить
-<string>Разрешить использование предметов<lf>из расширенной панели с помощью <ICON PAD UI_ITEM_USE>.
-<string>Отключить
-<string>Запретить использование предметов<lf>из расширенной панели с помощью <ICON PAD UI_ITEM_USE>.
-<string><PLATMSG MsgGUI030100_01_48>
-<string>Управление в расширенном режиме
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>Выбор готовых назначений кнопок<lf>направлений для использования при<lf>полностью открытой панели предметов.
-<string>Тип 1
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>Использовать настройки, заданные в разделе<lf>«Назначения кнопок».<lf>Когда панель предметов полностью открыта,<lf>клавиши направлений выполняют функции,<lf>назначенные на <ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD UI_SHORTCUT_PALLET>.
-<string>Тип 2
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>Когда панель предметов полностью открыта,<lf>кнопки направлений всегда используются<lf>для навигации в ней.
-<string>Тип 3
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>Когда панель предметов полностью открыта,<lf>кнопки направлений всегда используются<lf>для навигации в ней и в панели снарядов.
-<string>Тип 4
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>Когда панель предметов полностью открыта,<lf>кнопки направлений отключены.
-<string>Назначения <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> в расширенном режиме
-<string>Выбор готовых назначений <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> для полностью открытой панели предметов.
-<string>Тип 1
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>Использовать настройки, заданные в разделе<lf>«Назначения кнопок».<lf>Когда панель предметов полностью открыта,<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> выполняют функции, назначенные<lf>на <ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>.
-<string>Тип 2
-<string>Когда панель предметов полностью открыта,<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> всегда работают в ней.
-<string>Тип 3
-<string>Когда панель предметов полностью открыта,<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> всегда работают в ней<lf>и в панели снарядов.
-<string>Тип 4
-<string>Когда панель предметов полностью открыта,<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> отключены.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>Управление польз. круговым меню
 <string>Настройка управления польз. круговым меню.
-<string>Быстрые действия в круговом меню
+<string>Быстрые действия кругового меню
 <string>Настройка пользовательского кругового меню.
-<string>Включить
+<string>Вкл.
 <string>Разрешить добавлять в круговое меню<lf>быстрые действия.
-<string>Отключить
+<string>Откл.
 <string>Запретить добавлять в круговое меню<lf>быстрые действия.
 <string>Использование предметов
-<string>Выбор способа использования предметов<lf>из пользовательского кругового меню.
+<string>Настройка способа выбора из пользовательского<lf>кругового меню предметов, фраз и пр.
 <string>Тип 1
 <string>Отпустите <ICON PAD PL_DUMMY_CAMERA> для выбора предмета, фразы или др.
 <string>Тип 2
 <string>Нажмите <ICON PAD PL_DUMMY_CAMERA> для выбора предмета, фразы или др.
-<string>Назначение кнопки <ICON PAD UI_CHAT_LOG_OPEN>
-<string>Выбор действия, выполняемого при удерживании<ICON PAD UI_CHAT_LOG_OPEN>.
+<string>Управление при удерживании <ICON PAD UI_CHAT_LOG_OPEN>
+<string>Выбор действия, выполняемого при удерживании <ICON PAD UI_CHAT_LOG_OPEN>.
 <string>Тип 1
 <string>При удерживании <ICON PAD UI_CHAT_LOG_OPEN> открывается журнал чата.
 <string>Тип 2
 <string>При удерживании <ICON PAD UI_CHAT_LOG_OPEN> открывается окно связи.
-<string>Быстрые действия: важные сообщ-я
+<string>Быстр. действ.: важные уведомл-я
 <string>Настройка управления для использования<lf>быстрого доступа при получении важных<lf>уведомлений в чате.
 <string>Тип 1
-<string>Нажмите <ICON PAD UI_JUST_TIMING_SHORTCUT> при появлении важного сообщения<lf>для перехода в соответствующее окно.
+<string>Нажатие <ICON PAD UI_JUST_TIMING_SHORTCUT> при появлении важного уведомления<lf>открывает соответствующее окно.
 <string>Тип 2
-<string>Удерживайте <ICON PAD UI_JUST_TIMING_SHORTCUT2> при появлении важного сообщения<lf>для перехода в соответствующее окно.
+<string>Удерживание <ICON PAD UI_JUST_TIMING_SHORTCUT2> при появлении важного уведомления<lf>открывает соответствующее окно.
 <string>Автоперезарядка самострела
 <string>Включение или отключение автоматической<lf>зарядки в самострел подходящего снаряда, если<lf>он выбран на панели предметов при её закрытии.
-<string>Автоматический режим
+<string>Заряжать автоматически
 <string>Подходящий снаряд, выбранный на панели<lf>предметов при её закрытии, автоматически<lf>заряжается в самострел.
-<string>Ручной режим
-<string>Выбранный снаряд при закрытии панели предметов<lf>автоматически в самострел не заряжается.
+<string>Не заряжать автоматически
+<string>Снаряд, выбранный на панели предметов<lf>при её закрытии, не заряжается в самострел<lf>автоматически.
 <string>Управление при открытом меню
 <string><PLATMSG MsgGUI030100_01_26_Help>
-<string>Выбор режима использования <ICON PAD PL_DUMMY_MOVE> при открытом<lf>начальном меню или меню выбранного сооружения.<lf><COLOR preset="TXT_Accent">(Контроллер.)</COLOR>
+<string>Выбор режима использования <ICON PAD PL_DUMMY_MOVE> при открытом<lf>начальном меню или меню выбранного объекта.<lf><COLOR preset="TXT_Accent">(Геймпад.)</COLOR>
 <string>Тип 1
-<string><ICON PAD PL_DUMMY_MOVE> используется для управления персонажем,<lf>даже когда открыто начальное меню или<lf>меню выбранного сооружения.
+<string><ICON PAD PL_DUMMY_MOVE> используется для управления персонажем,<lf>даже когда открыто главное меню или<lf>меню выбранного объекта.
 <string>Тип 2
-<string><ICON PAD PL_DUMMY_MOVE> используется для перебора пунктов<lf>начального меню и меню выбранного сооружения.<lf><COLOR preset="TXT_Accent">(Это означает, что, когда меню открыто,<lf>охотник не может двигаться.)</COLOR>
+<string><ICON PAD PL_DUMMY_MOVE> используется для навигации в<lf>главном меню и меню различных объектов.<lf><COLOR preset="TXT_Accent">(Когда меню открыто, охотник<lf>не может двигаться.)</COLOR>
 <string>Управление при открытом меню
-<string>Выбор режима управления при открытом<lf>начальном меню или меню выбранной постройки.<lf><COLOR preset="TXT_Accent">(Клавиатура.)</COLOR>
+<string>Выбор режима управления при открытом<lf>главном меню или меню выбранного объекта.<lf><COLOR preset="TXT_Accent">(Клавиатура.)</COLOR>
 <string>Тип 1
 <string>Использовать основные клавиши для перемещения<lf>камеры и управления персонажем,<lf>а дополнительные — для перебора<lf>пунктов меню.
 <string>Тип 2
 <string>Использовать основные клавиши для перебора<lf>пунктов меню и перемещения камеры,<lf>а дополнительные — для управления<lf>персонажем.
 <string>Тип 3
 <string>Использовать основные клавиши для управления<lf>персонажем, дополнительные — для перебора<lf>пунктов меню, а мышь — для перемещения<lf>камеры.
-<string>Режим клавиатуры
+<string>Настройки клавиатуры
 <string>Выбор режима использования клавиатуры.
-<string>Стандартный
+<string>Стандартный режим
 <string><PLATMSG MsgGUI030100_01_29_00_Help>
-<string>Управление всеми действиями персонажа<lf>осуществляется с помощью клавиш. Режим<lf>подойдёт тем, кто предпочитает играть на<lf>клавиатуре, а не на контроллере.
+<string>Управление всеми действиями персонажа<lf>осуществляется с помощью клавиш. Режим<lf>подойдёт тем, кто предпочитает играть на<lf>клавиатуре, а не на геймпаде.
 <string>Только чат
 <string><PLATMSG MsgGUI030100_01_29_01_Help>
 <string>Клавиатура используется только для общения<lf>в чате. Режим подойдёт тем, кто использует<lf>контроллер для большинства действий и<lf>клавиатуру для ввода текста.<lf><COLOR preset="TXT_Danger">Мышь в этом режиме не работает.</COLOR>
@@ -268,7 +272,7 @@
 <string><PLATMSG MsgGUI030100_01_29_02_Help>
 <string>Клавиатура используется только для быстрых<lf>действий. Режим подойдёт тем, кто использует<lf>контроллер для большинства действий и<lf>клавиатуру для быстрых действий.<lf><COLOR preset="TXT_Danger">Мышь в этом режиме не работает.</COLOR>
 <string>Раскладка клавиатуры
-<string>Выбор раскладки клавиатуры, значки из<lf>которой будут отображаться в подсказках<lf>по использованию клавиш.
+<string>Выбор раскладки клавиатуры, значки из которой<lf>будут отображаться в подсказках.
 <string>Японская раскладка (JIS)
 <string>Отображать значки клавиш японской раскладки.
 <string>Английская раскладка (QWERTY)
@@ -279,44 +283,44 @@
 <string>Отображать значки клавиш французской раскладки.
 <string>Отображение быстрых действий
 <string>Выбор формата отображения<lf>клавиш быстрых действий.
-<string>Переключение режима
-<string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> в один ряд. Удерживайте <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET>,<lf>чтобы отобразить в четыре ряда.
+<string>Метод смены отображения
+<string>При нажатии <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> отображается один ряд.<lf>При удерживании <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> отображаются четыре ряда.
 <string>Всегда в один ряд
-<string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> в один ряд. При удерживании <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET><lf>ничего не происходит.
+<string>При нажатии <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> отображается один ряд.<lf>При удерживании <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> ничего не происходит.
 <string>Всегда в четыре ряда
-<string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> в четыре ряда. При удерживании <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET><lf>ничего не происходит.
-<string>Управление мышью при отображении команд быстрого доступа
-<string>Позволяет включить или отключить использование<lf>команд быстрого доступа с помощью мыши,<lf>когда они отображаются на экране.
-<string>Включить
-<string>Курсор мыши появляется, когда отображаются<lf>команды быстрого доступа, и их можно использовать<lf>с помощью мыши.
-<string>Отключить
-<string>Курсор мыши не появляется,<lf>когда отображаются команды быстрого доступа.<lf><COLOR preset="TXT_Accent">(Команды быстрого доступа нельзя использовать с помощью мыши.)</COLOR>
+<string>При нажатии <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> отображаются четыре ряда.<lf>При удерживании <ICON MKB UI_PC_SHORTCUT_CALL_EXPAND_PALLET> ничего не происходит.
+<string>Быстрые действия: мышь
+<string>Позволяет включить или отключить использование<lf>отображаемых на экране быстрых действий для<lf>клавиатуры с помощью мыши.
+<string>Вкл.
+<string>При отображении быстрых действий для<lf>клавиатуры появляется курсор мыши,<lf>с помощью которого их можно выполнить.
+<string>Откл.
+<string>При отображении быстрых действий для<lf>клавиатуры курсор мыши не появляется.<lf><COLOR preset="TXT_Accent">(Быстрые действия нельзя выполнить<lf>с помощью мыши.)</COLOR>
 <string>Действие колеса мыши
-<string>Выбор приоритета действия для колеса мыши<lf>при нахождении в различных меню игры.
+<string>Выбор приоритета действия для колеса мыши<lf>при использовании различных меню игры.
 <string>Смена страниц
-<string>Колесо мыши перелистывает страницы при нахождении<lf>в различных меню с множеством страниц.
-<string>Выбор предметов
-<string>Колесо мыши выбирает предметы в различных меню,<lf>а не перелистывает страницы.
-<string>Отключение принудительного выхода с помощью Alt + F4
-<string>Позволяет запретить или разрешить<lf>принудительный выход из игры<lf>с помощью сочетания клавиш Alt + F4.
-<string>Включить
-<string>При нажатии клавиш Alt + F4 принудительный<lf>выход из игры не происходит.
-<string>Отключить
-<string>При нажатии клавиш Alt + F4 происходит<lf>принудительный выход из игры.
+<string>Если меню содержит страницы, колесо мыши<lf>используется для переключения между ними.
+<string>Перебор элементов списка
+<string>Колесо мыши используется для переключения<lf>между элементами списка, даже если меню<lf>содержит страницы.
+<string>Отключение принудительного выхода с помощью Alt + F4
+<string>Позволяет запретить или разрешить<lf>принудительный выход из игры при<lf>нажатии сочетания клавиш Alt + F4.
+<string>Вкл.
+<string>Нажатие сочетания клавиш Alt + F4 не приводит<lf>к принудительному выходу из игры.
+<string>Откл.
+<string>Нажатие сочетания клавиш Alt + F4 приводит<lf>к принудительному выходу из игры.
 <string>Отключение клавиши Windows
-<string>Позволяет запретить или разрешить использование<lf>клавиши Windows для осуществления функций ОС.<lf><COLOR preset="TXT_Accent">(Изменения вступят в силу после перезапуска игры.)</COLOR>
-<string>Включить
-<string>Нажатие клавиши Windows не открывает меню «Пуск»<lf>и не задействует команды быстрого доступа.
-<string>Отключить
-<string>Нажатие клавиши Windows открывает меню «Пуск»<lf>или задействует команды быстрого доступа.
+<string>Позволяет включить или отключить клавишу Windows,<lf>которая позволяет задействовать некоторые функции ОС.<lf><COLOR preset="TXT_Accent">(Изменение вступит в силу после перезапуска игры.)</COLOR>
+<string>Вкл.
+<string>Нажатие клавиши Windows не открывает<lf>меню «Пуск» и не позволяет использовать<lf>команды быстрого доступа.
+<string>Откл.
+<string>Нажатие клавиши Windows открывает меню<lf>«Пуск», а также позволяет использовать<lf>команды быстрого доступа.
 <string>Смена функций кнопок мыши
-<string>Позволяет взаимозаменить<lf>функции и отображение<lf>левой и правой кнопок мыши.
+<string>Позволяет взаимозаменить функции и отображение<lf>левой и правой кнопок мыши.
 <string>Включить
-<string>Функции и отображение левой и правой<lf>кнопок мыши будут взаимозаменены.<lf>Этот параметр подойдёт левшам.
-<string>Отключить
+<string>Функции и отображение левой и правой<lf>кнопок мыши будут взаимно заменены.<lf>Этот параметр подойдёт левшам.
+<string>Откл.
 <string>Функции и отображение левой и правой<lf>кнопок мыши не взаимозаменяются.<lf>Этот параметр подойдёт правшам.
-<string>Значки геймпада
-<string>Выбор значков геймпада, которые<lf>будут отображаться в подсказках<lf>по использованию кнопок.
+<string>Значки кнопок контроллера
+<string>Выбор значков контроллера, которые<lf>будут отображаться в подсказках<lf>по использованию кнопок.
 <string>Тип 1
 <string>Использовать следующие значки:<lf><ICON R_RIGHT_01><ICON R_DOWN_01><ICON R_UP_01><ICON R_LEFT_01><ICON AR_ALL_01><ICON OPTION_01><ICON TOUCH_01><ICON L1_01><ICON R1_01><ICON L2_01><ICON R2_01>
 <string>Тип 2
@@ -327,56 +331,56 @@
 <string>Использовать следующие значки:<lf><ICON R_RIGHT_02><ICON R_DOWN_02><ICON R_UP_02><ICON R_LEFT_02><ICON AR_ALL_02><ICON OPTION_02><ICON TOUCH_02><ICON L1_02><ICON R1_02><ICON L2_02><ICON R2_02>
 <string>Тип 5
 <string>Использовать следующие значки:<lf><ICON R_RIGHT_04><ICON R_DOWN_04><ICON R_UP_04><ICON R_LEFT_04><ICON AR_ALL_04><ICON OPTION_04><ICON TOUCH_04><ICON L1_04><ICON R1_04><ICON L2_04><ICON R2_04>
-<string>Положение курсора в начальном меню
-<string>Сохранять положение курсора при входе<lf>в начальное меню и выходе из него.
+<string>Положение курсора в главном меню
+<string>Включить или отключить сохранение положения курсора<lf>при входе в главное меню и выходе из него.
 <string>Сохранять
-<string>Сохранять положение курсора при входе<lf>в начальное меню и выходе из него.<lf><COLOR preset="TXT_Accent">(Сбрасывается при выходе из игры.)</COLOR>
+<string>Сохранять положение курсора при входе<lf>в главное меню и выходе из него.<lf><COLOR preset="TXT_Accent">(Сбрасывается при выходе из игры.)</COLOR>
 <string>Не сохранять
-<string>Не сохранять положение курсора при выходе<lf>из начального меню; меню всегда открывается<lf>на изначальной позиции.
+<string>Не сохранять положение курсора при выходе<lf>из главного меню; меню всегда открывается<lf>на изначальной позиции.
 <string>Параметры масштабирования карты
-<string>Включение или отключение возможности мгновенно<lf>приблизить или отдалить карту до предела с помощью<lf>адаптивных триггеров, нажав <ICON UI_MAP3D_ZOOM_OUT> или <ICON UI_MAP3D_ZOOM_IN> до щелчка.
-<string>Включить
-<string>Карту можно мгновенно приблизить или отдалить<lf>до предела с помощью адаптивных триггеров,<lf>нажав <ICON UI_MAP3D_ZOOM_OUT> или <ICON UI_MAP3D_ZOOM_IN> до щелчка.
-<string>Отключить
-<string>Функция адаптивных триггеров<lf>не используется. <ICON UI_MAP3D_ZOOM_OUT> и <ICON UI_MAP3D_ZOOM_IN> меняют<lf>масштаб карты с обычной скоростью.
-<string>Скорость камеры: общая (гор.)
-<string>Настройка скорости игровой камеры<lf>по оси X в обычном режиме.
-<string>Скорость камеры: общая (вер.)
-<string>Настройка общей скорости передвижения<lf>игровой камеры по вертикали.
-<string>Чувствительность камеры: обычная
-<string>Настройка чувствительности мыши в обычном режиме.<lf>Чем выше значение, тем быстрее перемещается камера.
-<string>Чувствит. камеры (ось X): обычная
-<string>Настройка чувствительности мыши по оси X<lf>в обычном режиме. Чем ниже значение,<lf>тем медленнее движется камера по горизонтали.
-<string>Чувствит. камеры (ось Y): обычная
-<string>Настройка чувствительности мыши по оси Y<lf>в обычном режиме. Чем ниже значение,<lf>тем медленнее движется камера по вертикали.
-<string>Скорость камеры: <ICON PAD PL_AIM> (ось X)
-<string>Настройка скорости камеры по горизонтали при<lf>прицеливании. С функцией «Скорость камеры:<lf>оружие в руках» работает только без оружия.
-<string>Скорость камеры: <ICON PAD PL_AIM> (ось Y)
-<string>Настройка скорости камеры по вертикали при<lf>прицеливании. С функцией «Скорость камеры:<lf>оружие в руках» работает только без оружия.
+<string>Включение или отключение возможности мгновенно<lf>приблизить или отдалить подробную карту до предела<lf>нажав <ICON PAD UI_MAP3D_ZOOM_OUT> или <ICON PAD UI_MAP3D_ZOOM_IN> на адаптивных триггерах до щелчка.
+<string>Вкл.
+<string>Карту можно мгновенно отдалить или приблизить<lf>до предела с помощью адаптивных триггеров,<lf>нажав <ICON PAD UI_MAP3D_ZOOM_OUT> или <ICON PAD UI_MAP3D_ZOOM_IN> до щелчка.
+<string>Откл.
+<string>Подробную карту нельзя мгновенно приблизить<lf>или отдалить до предела с помощью адаптивных<lf>триггеров. При нажатии <ICON PAD UI_MAP3D_ZOOM_OUT> или <ICON PAD UI_MAP3D_ZOOM_IN> масштаб карты<lf>будет меняться с обычной скоростью.
+<string>Скорость камеры (ось X): вне боя
+<string>Настройка скорости игровой камеры<lf>по горизонтали вне боя.
+<string>Скорость камеры (ось Y): вне боя
+<string>Настройка скорости игровой камеры<lf>по вертикали вне боя.
+<string>Чувствительность камеры: вне боя
+<string>Настройка чувствительности мыши вне боя. Чем выше<lf>значение, тем быстрее перемещается камера.
+<string>Чувствительность камеры (ось X): вне боя
+<string>Настройка чувствительности мыши по горизонтали<lf>вне боя. Чем ниже значение, тем медленнее движется<lf>камера по горизонтали.
+<string>Чувствительность камеры (ось Y): вне боя
+<string>Настройка чувствительности мыши по вертикали<lf>вне боя. Чем ниже значение, тем медленнее движется<lf>камера по вертикали.
+<string>Скорость камеры (ось X): <ICON PAD PL_AIM>
+<string>Настройка скорости камеры по горизонтали при<lf>удерживании <ICON PAD PL_AIM>. С функцией <COLOR preset="TXT_Accent">«Скорость камеры:<lf>оружие в руках»</COLOR> работает только без оружия.
+<string>Скорость камеры (ось Y): <ICON PAD PL_AIM>
+<string>Настройка скорости камеры по вертикали при<lf>удерживании <ICON PAD PL_AIM>. С функцией <COLOR preset="TXT_Accent">«Скорость камеры:<lf>оружие в руках»</COLOR> работает только без оружия.
 <string>Скорость камеры: оружие в руках
 <string>Если включено, скорость камеры при<lf>удерживании <ICON PAD PL_AIM> с оружием в руках задаётся<lf>отдельно для оружия ближнего и дальнего боя. 
-<string>Оружие ближнего боя: <ICON PAD PL_AIM> (ось X)
-<string>Настройка скорости камеры по оси X при<lf>использовании <ICON PAD PL_AIM> с оружием ближнего боя<lf>в руках (режим фокусировки).
-<string>Оружие ближнего боя: <ICON PAD PL_AIM> (ось Y)
-<string>Настройка скорости камеры по оси Y при<lf>использовании <ICON PAD PL_AIM> с оружием ближнего боя<lf>в руках (режим фокусировки).
-<string>Оружие дальнего боя: <ICON PAD PL_AIM> (ось X)
-<string>Настройка скорости камеры по оси X при<lf>использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
-<string>Оружие дальнего боя: <ICON PAD PL_AIM> (ось Y)
-<string>Настройка скорости камеры по оси Y при<lf>использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
-<string>Чувствит. камеры: фокус./приц.
+<string>Оружие ближнего боя (гор.): <ICON PAD PL_AIM>
+<string>Настройка скорости камеры по горизонтали при<lf>использовании <ICON PAD PL_AIM> с оружием ближнего боя<lf>в руках (режим фокусировки).
+<string>Оружие ближнего боя (верт.): <ICON PAD PL_AIM>
+<string>Настройка скорости камеры по вертикали при<lf>использовании <ICON PAD PL_AIM> с оружием ближнего боя<lf>в руках (режим фокусировки).
+<string>Оружие дальнего боя (гор.): <ICON PAD PL_AIM>
+<string>Настройка скорости камеры по горизонтали при<lf>использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
+<string>Оружие дальнего боя (верт.): <ICON PAD PL_AIM>
+<string>Настройка скорости камеры по вертикали при<lf>использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
+<string>Чувствит. камеры: фокус./прицел.
 <string>Настройка чувствительности мыши при<lf>прицеливании и фокусировке. Чем выше<lf>значение, тем быстрее перемещается камера.
-<string>Чувствит. камеры (ось X): фокус./приц.
+<string>Чувствит. камеры (ось X): фокус./прицел.
 <string>Настройка чувствительности мыши по оси X при<lf>прицеливании и фокусировке. Чем ниже значение,<lf>тем медленнее движется камера по горизонтали.
-<string>Чувствит. камеры (ось Y): фокус./приц.
+<string>Чувствит. камеры (ось Y): фокус./прицел.
 <string>Настройка чувствительности мыши по оси Y при<lf>прицеливании и фокусировке. Чем ниже значение,<lf>тем медленнее движется камера по вертикали.
-<string>Скорость камеры при использ. <ICON PAD PL_DUMMY_MOVE>
+<string>Скорость камеры: <ICON PAD PL_DUMMY_MOVE>
 <string>Настройка скорости камеры при использовании <ICON PAD PL_DUMMY_MOVE>, когда<lf>это возможно — например, в режиме фокусировки.<lf><COLOR preset="TXT_Accent">(При значении 1 управлять камерой с помощью <ICON PAD PL_DUMMY_MOVE> нельзя.)</COLOR>
 <string>Скорость прицела по траектории
 <string>Настройка скорости прицела при стрельбе<lf>из лука по дуге и метании связок бомб<lf>из тяжёлого лукорудия.
-<string>Инверсия камеры: обычный режим
-<string>Применение инверсии камеры<lf>в обычном режиме.
+<string>Инверсия камеры: вне боя
+<string>Применение инверсии камеры вне боя.
 <string>Не инвертировать
-<string>Движения камеры соответствуют выбранному<lf>направлению по обеим осям.
+<string>Камера не движется в противоположном<lf>направлении ни по одной из осей.
 <string>Инвертировать по вертикали
 <string>Камера движется в противоположном<lf>направлении только по оси вверх/вниз.
 <string>Инвертировать по горизонтали
@@ -388,9 +392,9 @@
 <string>Инверсия камеры: оружие в руках
 <string>Если включено, инверсию камеры при зажатии <ICON PL_AIM><lf>с оружием в руках можно задать и для<lf>ближнего, и для дальнего боя. <COLOR preset="TXT_Accent">(Настраивается<lf>отдельно для фокусировки и прицеливания.)</COLOR>
 <string>Оружие ближнего боя: <ICON PL_AIM>
-<string>Включение инверсии при удерживании <ICON PL_AIM><lf>с оружием ближнего боя в руках<lf>(режим фокусировки).
+<string>Включение инверсии при удерживании <ICON PL_AIM> с оружием<lf>ближнего боя в руках (режим фокусировки).
 <string>Оружие дальнего боя: <ICON PL_AIM>
-<string>Включение инверсии при удерживании <ICON PL_AIM><lf>с оружием дальнего боя в руках<lf>(режим прицеливания/фокусировки).
+<string>Включение инверсии при удерживании <ICON PL_AIM> с оружием<lf>дальнего боя в руках (режим прицеливания/фокусировки).
 <string>Инверсия управления траекторией
 <string>Настройка управления прицеливанием по<lf>вертикали при стрельбе из лука по дуге<lf>и метании связок бомб из тяжёлого лукорудия.
 <string>Управ. дальностью: стандарт
@@ -401,102 +405,102 @@
 <string>Настройка дополнительных<lf>параметров управления камерой.
 <string>Инерция камеры
 <string>Настройка инерции камеры: этот параметр<lf>определяет степень ускорения и замедления<lf>камеры при её перемещении.
-<string>Внутренняя мёртвая зона
-<string>Настройка ширины внутренней мёртвой зоны<lf>для управления камерой.
+<string>Мёртвая зона: нижняя граница
+<string>Настройка степени чувствительности ввода, при которой<lf>распознаются минимальные движения камерой.
 <string>Кривая чувствительности
 <string>Настройка зависимости ускорения<lf>камеры от её перемещения.
-<string>Внешняя мёртвая зона
-<string>Настройка ширины внешней мёртвой зоны<lf>для управления камерой.
-<string>Положение камеры: масштаб
-<string>Настройка прямого расстояния между<lf>камерой и персонажем.
-<string>Положение камеры: панорама
-<string>Настройка смещения камеры в сторону<lf>относительно персонажа.
-<string>Вибрация камеры
-<string>Настройка интенсивности вибрации камеры<lf>при определённых игровых событиях.
+<string>Мёртвая зона: верхняя граница
+<string>Настройка степени чувствительности ввода, который<lf>распознаётся как максимально возможный при управлении<lf>камерой.
+<string>Положение камеры: приближение
+<string>Настройка расстояния между камерой и охотником.
+<string>Положение камеры: смещение
+<string>Настройка смещения камеры в сторону<lf>относительно охотника.
 <string>Тряска камеры
-<string>Настройка интенсивности эффекта тряски камеры.
-<string>Камера и ландшафт
-<string>Настройка взаимодействия камеры<lf>с наклонными поверхностями.
-<string>Включить
-<string>Камера будет автоматически<lf>подстраиваться под ландшафт.
-<string>Отключить
-<string>Камера не будет автоматически<lf>подстраиваться под ландшафт.
+<string>Настройка интенсивности тряски камеры при<lf>определённых игровых событиях и действиях.
+<string>Фоновое раскачивание камеры
+<string>Настройка интенсивности эффекта фонового<lf>раскачивания камеры.
+<string>Автокоррекция камеры по ландшафту
+<string>Настройка взаимодействия камеры с наклонными<lf>поверхностями и ландшафтом.
+<string>Вкл.
+<string>Автоматически корректировать положение<lf>камеры с учётом формы ландшафта.
+<string>Откл.
+<string>Не корректировать положение камеры<lf>с учётом формы ландшафта.
 <string>Панорамирование
 <string>Настройка корректировки положения камеры<lf>для получения панорамной сцены.
-<string>Автоповорот камеры: движ. пешком
+<string>Автоповорот камеры: спешившись
 <string>Настройка степени опережения, с которым<lf>смещается камера при движении персонажа<lf>вбок пешком.
-<string>Автоповорот камеры: движ. верхом
+<string>Автоповорот камеры: верхом
 <string>Настройка степени опережения, с которым<lf>смещается камера при движении персонажа<lf>верхом на сейкрете.
-<string>Автоцентрирование: движ. пешком
+<string>Автоцентрирование: спешившись
 <string>Включение или отключение автоматической<lf>корректировки камеры в соответствии<lf>с направлением движения пешком.
-<string>Включить
-<string>Центрировать камеру при перемещении пешком.
-<string>Включить (вне боя)
-<string>Центрировать камеру при перемещении<lf>пешком, но не во время боя.
-<string>Отключить
-<string>Не центрировать камеру при перемещении<lf>пешком.
-<string>Автоцентрирование: движ. верхом
+<string>Вкл.
+<string>Центрировать камеру при перемещении<lf>бегом или пешком.
+<string>Вкл. (вне боя)
+<string>Центрировать камеру при перемещении<lf>бегом или пешком вне боя.
+<string>Откл.
+<string>Не центрировать камеру при перемещении<lf>бегом или пешком.
+<string>Автоцентрирование: верхом
 <string>Включение или отключение автоматической<lf>корректировки камеры в соответствии<lf>с направлением движения верхом на сейкрете.
-<string>Включить
+<string>Вкл.
 <string>Центрировать камеру при езде на сейкрете.
-<string>Включить (вне боя)
-<string>Центрировать камеру при езде на сейкрете,<lf>но не во время боя.
-<string>Отключить
-<string>Не центрировать камеру при езде<lf>на сейкрете.
+<string>Вкл. (вне боя)
+<string>Центрировать камеру при езде на сейкрете<lf>вне боя.
+<string>Откл.
+<string>Не центрировать камеру при езде на сейкрете.
 <string>Направление прицела
-<string>Настройка поведения камеры<lf>при отображении прицела.
-<string>Взгляд персонажа
-<string>Место появления прицела определяется<lf>направлением взгляда персонажа,<lf>а угол задаётся положением камеры.
-<string>Положение камеры
-<string>Место появления прицела определяется<lf>направлением камеры, а угол<lf>задаётся её положением.
+<string>Настройка поведения камеры при появлении прицела.
+<string>Тип 1
+<string>Место появления прицела определяется<lf>направлением взгляда охотника, а угол<lf>задаётся положением камеры. То же самое<lf>происходит, если монстр выбран целью.
+<string>Тип 2
+<string>Место появления прицела определяется<lf>положением камеры, независимо от направления<lf>взгляда охотника. То же самое происходит, если<lf>монстр выбран целью.
 <string>Тип 3
-<string>Место появления прицела определяется по<lf>направлению взгляда охотника, а угол задаётся<lf>положением камеры. Если монстр выбран<lf>в качестве цели, прицел появится на нём.
+<string>Место появления прицела определяется<lf>направлением взгляда охотника, а угол<lf>задаётся положением камеры. Если монстр<lf>выбран целью, прицел появится на нём.
 <string>Тип 4
-<string>Место появления прицела определяется<lf>направлением камеры, а угол задаётся её<lf>положением. Если монстр выбран в качестве<lf>цели, прицел появится на нём.
+<string>Место появления прицела определяется<lf>направлением камеры, а угол задаётся её<lf>положением. Если монстр выбран целью,<lf>прицел появится на нём.
 <string>Помощь в прицеливании
 <string>Включение или отключение помощи<lf>в прицеливании. Когда включено, замедляет<lf>перемещение прицела при наведении на объект.
-<string>Включить
+<string>Вкл.
 <string>Включить помощь в прицеливании.
-<string>Отключить
+<string>Откл.
 <string>Отключить помощь в прицеливании.
 <string>Управление приц./фокус.
-<string>Выбор методов активации прицел-я и фокусир-ки.<lf>С функцией «Продвинутые фокусировка и прицел»<lf>работает только без оружия.
+<string>Выбор методов активации прицел-я и фокусир-ки.<lf>С функцией <COLOR preset="TXT_Accent">«Продвинутые фокусировка и прицел»</COLOR><lf>работает только без оружия.
 <string>Удерживать <ICON PAD PL_AIM>: активир. режим
-<string>Удерживайте <ICON PAD PL_AIM> с оружием в руках, чтобы<lf>использовать режим фокусировки/прицеливания.<lf>Если оружие убрано, это действие активирует<lf>режим прицеливания для самострела.
-<string>Нажать <ICON PAD PL_AIM>: вкл./откл. режим
-<string>Нажмите <ICON PAD PL_AIM> с оружием в руках, чтобы включить<lf>или отключить режим фокусировки/прицеливания.<lf>Если оружие убрано, это действие позволяет<lf>включить или отключить режим прицеливания<lf>для самострела.
-<string>Нажмите <ICON PAD PL_AIM> с оружием в руках, чтобы включить<lf>или отключить режим фокусировки/прицеливания.
+<string>Когда оружие в руках, удерживайте <ICON PAD PL_AIM>, чтобы<lf>использовать режим фокусировки для оружия<lf>ближнего боя и режим фокусировки/прицеливания<lf>для оружия дальнего боя. Когда оружие убрано,<lf>это действие позволяет использовать режим<lf>прицеливания для самострела.
+<string><ICON PAD PL_AIM_TOGGLE>: вкл./откл. режим
+<string>Когда оружие в руках, нажмите <ICON PAD PL_AIM_TOGGLE>, чтобы<lf>включить или отключить режим фокусировки при<lf>использовании оружия ближнего боя и режим<lf>фокусировки/прицеливания при использовании<lf>оружия дальнего боя.<lf>Когда оружие убрано, это действие позволяет<lf>включить или отключить режим прицеливания<lf>для самострела.
+<string>Когда оружие в руках, нажмите <ICON PAD PL_AIM_TOGGLE>, чтобы<lf>включить или отключить режим фокусировки для<lf>оружия ближнего боя и режим фокусировки/<lf>прицеливания для оружия дальнего боя.
 <string>Продвинутые фокусировка и прицел
-<string>Когда параметр включён, вы можете отдельно<lf>выбрать способ для активации этих режимов<lf>с оружием в руках.
+<string>Выбор методов активации прицел-я и фокусир-ки,<lf>когда в руках оружие ближнего/дальнего боя.<lf><COLOR preset="TXT_Accent">(Не применяется при использовании самострела.)</COLOR>
 <string>Оружие ближнего боя
-<string>Выбор способа активации режима фокусировки<lf>с оружием ближнего боя в руках.
-<string>Удерживать <ICON PAD PL_AIM>: активир. режим
+<string>Выбор способа активации режима фокусировки<lf>для оружия ближнего боя.
+<string><ICON PAD PL_AIM>: активация режима
 <string>Удерживайте <ICON PAD PL_AIM> с оружием ближнего боя в руках,<lf>чтобы перейти в режим фокусировки.
-<string>Нажать <ICON PAD PL_AIM>: вкл./откл. режим
-<string>Нажмите <ICON PAD PL_AIM> с оружием ближнего боя в руках,<lf>чтобы перейти в режим фокусировки. Повторное<lf>нажатие позволяет выйти из режима.
+<string>Нажать <ICON PAD PL_POP_CHANGE_SELECT>: вкл./откл. режим
+<string>Нажмите <ICON PAD PL_POP_CHANGE_SELECT> с оружием ближнего боя<lf>в руках, чтобы включить или отключить<lf>режим фокусировки.
 <string>Оружие дальнего боя
-<string>Выбор способа активации режимов прицеливания<lf>и фокусировки с оружием дальнего боя в руках.
-<string>Удерживать <ICON PAD PL_AIM>: активир. режим
+<string>Выбор способа активации режимов прицеливания<lf>и фокусировки для оружия дальнего боя.
+<string><ICON PAD PL_AIM>: активация режима
 <string>Удерживайте <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках, чтобы использовать режим<lf>прицеливания/фокусировки.
-<string>Нажать <ICON PAD PL_AIM>: вкл./откл. режим
-<string>Нажмите <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках, чтобы включить или отключить<lf>режим прицеливания/фокусировки.
-<string>Управление наведением камеры
-<string>Выбор шаблона для наведения<lf>и сброса наведения камеры.
+<string>Нажать <ICON PAD PL_POP_CHANGE_SELECT>: вкл./откл. режим
+<string>Нажмите <ICON PAD PL_POP_CHANGE_SELECT> с оружием дальнего боя<lf>в руках, чтобы включить или отключить<lf>режим прицеливания/фокусировки.
+<string>Тип управления наведением камеры
+<string>Выбор шаблона для наведения и сброса камеры.
 <string>Тип 1
-<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы навести камеру<lf>на монстра. Двойное нажатие разворачивает<lf>камеру в направлении взгляда персонажа.
+<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы навести камеру<lf>на выбранного монстра. Двойное нажатие<lf>разворачивает камеру в направлении взгляда<lf>охотника.
 <string>Тип 2
-<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы развернуть камеру<lf>в направлении взгляда персонажа. Двойное<lf>нажатие наводит камеру на монстра.
+<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы развернуть камеру<lf>в направлении взгляда охотника. Двойное<lf>нажатие наводит камеру на выбранного монстра.
 <string>Тип 3
-<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы навести камеру<lf>на монстра. Двойное нажатие не работает.
+<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы навести камеру<lf>на выбранного монстра.
 <string>Тип 4
-<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы развернуть камеру<lf>в направлении взгляда персонажа. Двойное<lf>нажатие не работает.
+<string>Нажмите <ICON PL_CAMERA_RESET> один раз, чтобы развернуть камеру<lf>в направлении взгляда персонажа.
 <string>Тип 5
-<string>Нажатие <ICON PL_CAMERA_RESET> не меняет положения камеры.
+<string>Нажатие <ICON PL_CAMERA_RESET> не разворачивает камеру<lf>в направлении взгляда охотника и не<lf>наводит её на выбранного монстра.
 <string>Направление при сбросе камеры
-<string>Выбор поведения камеры при сбросе наведения.
+<string>Настройка поведения камеры при сбросе наведения.
 <string>По направлению <ICON PAD PL_DUMMY_MOVE>
-<string>Камера возвращается в положение,<lf>заданное с помощью <ICON PAD PL_DUMMY_MOVE>.
-<string>Взгляд персонажа
+<string>Камера разворачивается в направлении,<lf>заданном отклонением <ICON PAD PL_DUMMY_MOVE>.
+<string>Направление взгляда охотника
 <string>Камера разворачивается в направлении<lf>взгляда персонажа.
 <string>Сброс камеры по вертикали
 <string>Включение или отключение выравнивания<lf>по вертикальной оси при сбросе камеры.
@@ -505,40 +509,40 @@
 <string>Не выравнивать
 <string>При сбросе положения камера не выравнивается<lf>по вертикальной оси.
 <string>Наведение камеры по вертикали
-<string>Позволяет выбрать, подстраивать ли камеру<lf>по вертикальной оси при наведении на монстра.
+<string>Настройка ориентирования камеры по оси Y<lf>при наведении на монстра.
 <string>Подстраивать под цель
-<string>При наведении камера подстраивается<lf>под монстра по вертикальной оси.
+<string>При наведении камера подстраивается<lf>под выбранного монстра по вертикальной оси.
 <string>Не подстраивать под цель
 <string>При наведении камера остаётся в прежнем<lf>положении и не подстраивается под монстра<lf>по вертикальной оси.
 <string>Подстраивать под горизонт
 <string>При наведении камера выравнивается<lf>по вертикальной оси в соответствии с линией<lf>горизонта и не подстраивается под монстра.
 <string>Под цель и горизонт
-<string>При наведении камера выбирает срединную<lf>позицию по вертикальной оси между положением<lf>монстра и линией горизонта.
+<string>При наведении камера выбирает срединную позицию<lf>по вертикальной оси между положением выбранного<lf>монстра и линией горизонта.
 <string>Под цель и текущее положение
-<string>При наведении камера выбирает срединную<lf>позицию по вертикальной оси между положением<lf>монстра и текущим положением камеры.
+<string>При наведении камера выбирает срединную позицию<lf>по вертикальной оси между положением выбранного<lf>монстра и текущим положением камеры.
 <string>Фокусировка камеры
-<string>Включение или отключение автоматической<lf>фокусировки камеры при наведении.
-<string>Включить
-<string>При наведении камера фиксируется на монстре<lf>и удерживает его в поле зрения.
-<string>Отключить
-<string>Камера не фиксируется на монстре<lf>и поворачивается к нему только при наведении.
+<string>Включение или отключение автоматической<lf>фокусировки камеры при выборе монстра целью.
+<string>Вкл.
+<string>При выборе монстра в качестве цели, камера<lf>фиксируется и удерживает его в поле зрения.
+<string>Откл.
+<string>Камера не фиксируется на выбранном монстре<lf>и поворачивается к нему только при наведении<lf>камеры.
 <string>Сброс при подъёме по стене
-<string>Включение или отключение сброса положения<lf>камеры, когда персонаж начинает подъём.
+<string>Включение или отключение автоматического<lf>сброса положения камеры, который срабатывает,<lf>когда персонаж приступает к подъёму.
 <string>Сбрасывать
 <string>Положение камеры сбрасывается, когда<lf>персонаж приступает к подъёму.
 <string>Не сбрасывать
 <string>Положение камеры не сбрасывается, когда<lf>персонаж приступает к подъёму.
 <string>Фильтр целей
-<string>Позволяет выбрать, на каких монстров наводить камеру.
+<string>Позволяет настроить, каких монстров можно<lf>выбрать целью.
 <string>Все монстры
-<string>Камера наводится на всех монстров.
+<string>Позволяет выбрать целью и мелких, и крупных<lf>монстров.
 <string>Только крупные монстры
-<string>Камера наводится только на крупных монстров.
+<string>Позволяет выбрать целью только крупных<lf>монстров.
 <string>Камера при встрече с монстром
 <string>Включение или отключение перехода в режим<lf>кинокамеры при первом появлении монстра.
-<string>Включить
+<string>Вкл.
 <string>Включить переход в режим кинокамеры<lf>при первом появлении монстра.
-<string>Отключить
+<string>Откл.
 <string>Отключить переход в режим кинокамеры<lf>при первом появлении монстра.
 <string>Наведение и выбор цели
 <string>Настройка привязки наведения на монстра<lf>к выбору цели.
@@ -549,89 +553,89 @@
 <string>Нет привязки
 <string>Наведение на монстра и сброс наведения<lf>не меняют вашу цель.
 <string>Следование камеры за следлячками
-<string>Позволяет выбрать, будет ли камера следовать за следлячками.
+<string>Включает или отключает следование<lf>камеры за следлячками.
 <string>Следовать
-<string>Камера будет следовать за следлячками.
+<string>Камера следует за следлячками.
 <string>Не следовать
-<string>Камера не будет следовать за следлячками.
+<string>Камера не следует за следлячками.
 <string>Управление камерой с помощью мыши
-<string>Позволяет включить или отключить управление<lf>камерой с помощью мыши. Это определяет,<lf>может ли курсор мыши выходить за границы окна.
-<string>Включить
-<string>Камера управляется мышью. Курсор мыши не может<lf>выходить за границы окна, когда включён<lf>этот параметр.
-<string>Отключить
-<string>Камера управляется клавиатурой. Курсор мыши<lf>может выходить за границы окна, когда игра<lf>запущена в оконном режиме.
+<string>Позволяет включить или отключить управление камерой<lf>с помощью мыши. От этого также зависит, сможете ли вы<lf>выводить курсор мыши за границы окна.
+<string>Вкл.
+<string>Управление камерой осуществляется при помощи<lf>мыши. Курсор мыши нельзя выводить за границы<lf>окна, когда включён этот параметр.
+<string>Откл.
+<string>Управление камерой осуществляется при<lf>помощи клавиатуры. Курсор мыши можно<lf>выводить за границы окна, если игра<lf>запущена в оконном режиме.
 <string><PLATMSG MsgGUI030100_02_28>
 <string>Использование гироскопа
 <string><PLATMSG MsgGUI030100_02_28_Help>
-<string>Включить или отключить управление камерой с помощью<lf>гироскопа и продвинутые параметры.
+<string>Включение или отключение управления<lf>камерой с помощью гироскопа и настройка<lf>продвинутых параметров.
 <string>Тип управления
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>Выбор способа активации управления камерой<lf>с помощью гироскопа.
 <string>Нажать <ICON PAD PL_AIM>, чтобы включить
 <string><PLATMSG MsgGUI030100_02_72_00_Help>
-<string>При нажатии <ICON PAD PL_AIM> активируется управление<lf>камерой с помощью гироскопа только во время<lf>прицеливания и в режиме фокусировки.
+<string>Нажатие <ICON PAD PL_AIM> активирует управление камерой<lf>с помощью гироскопа только во время<lf>прицеливания и в режиме фокусировки.
 <string>Всегда включено
 <string><PLATMSG MsgGUI030100_02_72_01_Help>
 <string>Управление камерой с помощью<lf>гироскопа активируется во всех<lf>случаях, когда это возможно.
-<string>Чувствит. управления: обычный режим (ось X)
+<string>Чувствит. управления (ось X): вне боя
 <string><PLATMSG MsgGUI030100_02_55_Help>
-<string>Настройка чувствительности камеры по оси X<lf>при использовании гироскопа.
-<string>Чувствит. управления: обычный режим (ось Y)
+<string>Настройка чувствительности камеры по горизонтали<lf>при использовании гироскопа вне боя.
+<string>Чувствит. управления (ось Y): вне боя
 <string><PLATMSG MsgGUI030100_02_56_Help>
-<string>Настройка чувствительности камеры по оси Y при<lf>использовании гироскопа в обычном режиме.
-<string>Чувствит. управления: <ICON PAD PL_AIM> (ось Х)
+<string>Настройка чувствительности камеры по вертикали<lf>при использовании гироскопа вне боя.
+<string>Чувствит. управления (ось X): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_57_Help>
-<string>Настройка чувствит. по оси X с гироскопом при<lf>использовании <ICON PAD PL_AIM>. С функцией «Чувствит. управления:<lf>оружие в руках» работает, только когда оружие убрано.
+<string>Настройка чувствит. гироскопа по горизонтали при<lf>использовании <ICON PAD PL_AIM>. С функцией <COLOR preset="TXT_Accent">«Чувствит. управления:<lf>оружие в руках»</COLOR> работает, только когда оружие убрано.
 <string>Чувствит. управления: <ICON PAD PL_AIM> (ось Y)
 <string><PLATMSG MsgGUI030100_02_58_Help>
-<string>Настройка чувствит. по оси Y с гироскопом при<lf>использовании <ICON PAD PL_AIM>. С функцией «Чувствит. управления:<lf>оружие в руках» работает, только когда оружие убрано.
+<string>Настройка чувствит. гироскопа по вертикали при<lf>использовании <ICON PAD PL_AIM>. С функцией <COLOR preset="TXT_Accent">«Чувствит. управления:<lf>оружие в руках»</COLOR> работает, только когда оружие убрано.
 <string>Чувствит. управления: оружие в руках
 <string><PLATMSG MsgGUI030100_02_59_Help>
-<string>Если включено, чувствит. гироскопа при<lf>удерживании <ICON PAD PL_AIM> задаётся независимо<lf>для оружия ближнего и дальнего боя.
-<string>Оружие ближнего боя: <ICON PAD PL_AIM> (ось X)
+<string>Если включено, чувствит. гироскопа при удерживании <ICON PAD PL_AIM><lf>с оружием в руках задаётся независимо для оружия<lf>ближнего и дальнего боя. 
+<string>Оружие ближнего боя (гор.): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_60_Help>
-<string>Настройка чувствительности гироскопа<lf>по оси X при использовании <ICON PAD PL_AIM> с оружием<lf>ближнего боя в руках (в режиме фокусировки).
-<string>Оружие ближнего боя: <ICON PAD PL_AIM> (ось Y)
+<string>Настройка чувствительности гироскопа<lf>по горизонтали при использовании <ICON PAD PL_AIM> с оружием<lf>ближнего боя в руках (в режиме фокусировки).
+<string>Оружие ближнего боя (верт.): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_61_Help>
-<string>Настройка чувствительности гироскопа<lf>по оси Y при использовании <ICON PAD PL_AIM> с оружием<lf>ближнего боя в руках (в режиме фокусировки).
-<string>Оружие дальнего боя: <ICON PAD PL_AIM> (ось X)
+<string>Настройка чувствительности гироскопа<lf>по вертикали при использовании <ICON PAD PL_AIM> с оружием<lf>ближнего боя в руках (в режиме фокусировки).
+<string>Оружие дальнего боя (гор.): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_62_Help>
-<string>Настройка чувствительности гироскопа по оси X<lf>при использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
-<string>Оружие дальнего боя: <ICON PAD PL_AIM> (ось Y)
+<string>Настройка чувствит. гироскопа по горизонтали при<lf>удерживании <ICON PAD PL_AIM> с оружием дальнего боя в руках<lf>(режим прицеливания/фокусировки).
+<string>Оружие дальнего боя (ось Y): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_63_Help>
-<string>Настройка чувствительности гироскопа по оси Y<lf>при использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
+<string>Настройка чувствительности гироскопа по оси Y<lf>при удерживании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
 <string>Чувствит. управления прицелом по траектории
 <string><PLATMSG MsgGUI030100_02_64_Help>
-<string>Настройка скорости прицела при навесной<lf>стрельбе из лука и метании связок бомб из тяжёлого лукорудия.<lf><COLOR preset="TXT_Accent">(Гироскоп.)</COLOR>
+<string>Настройка скорости прицеливания при стрельбе<lf>из лука по дуге и метании связок бомб<lf>из тяжёлого лукорудия.<lf><COLOR preset="TXT_Accent">(Гироскоп.)</COLOR>
 <string>Инверсия управления: обычный режим
 <string><PLATMSG MsgGUI030100_02_65_Help>
-<string>Включение или отключение инверсии управления<lf>при использовании гироскопа.
+<string>Включение или отключение инверсии управления<lf>при использовании гироскопа в обычном режиме.
 <string>Не инвертировать управление движением<lf>при использовании контроллера.
 <string>Инвертировать управление движением при<lf>использовании контроллера только по оси Y.
 <string>Инвертировать управление движением при<lf>использовании контроллера только по оси X.
 <string>Инвертировать управление движением при<lf>использовании контроллера по осям X и Y.
 <string>Инверсия управления: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_66_Help>
-<string>Вкл. или откл. инверсии по оси Y для гироскопа при<lf>использовании <ICON PAD PL_AIM>. С функцией «Инв. управления:<lf>оружие в руках» работает, только когда оружие убрано.
+<string>Вкл. или откл. инверсии для гироскопа при<lf>удерживании <ICON PAD PL_AIM>. С функцией «Инв. управления:<lf>оружие в руках» работает, только когда оружие убрано.
 <string>Инверсия управления: оружие в руках
 <string><PLATMSG MsgGUI030100_02_67_Help>
-<string>Если включено, инверсию гироскопа при<lf>удерживании <ICON PAD PL_AIM> с оружием в руках можно включить<lf>отдельно для оружия ближнего и дальнего боя.
+<string>Если включено, инверсию гироскопа при удерживании<lf><ICON PAD PL_AIM> с оружием в руках можно включить отдельно для<lf>оружия ближнего и дальнего боя.
 <string>Оружие ближнего боя: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_68_Help>
 <string>Инверсия управления камерой с помощью гироскопа<lf>при использовании <ICON PAD PL_AIM> с оружием ближнего боя<lf>в руках (в режиме фокусировки).
 <string>Оружие дальнего боя: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_69_Help>
-<string>Инверсия управления камерой с помощью гироскопа<lf>при использовании <ICON PAD PL_AIM> с оружием дальнего боя<lf>в руках (режим прицеливания/фокусировки).
+<string>Инверсия управления камерой с помощью гироскопа<lf>при использовании <ICON PAD PL_AIM> с оружием дальнего боя в руках<lf>(режим прицеливания/фокусировки).
 <string>Инверсия управления прицелом по траектории
 <string><PLATMSG MsgGUI030100_02_70_Help>
-<string>Инверсия управления прицелом при стрельбе<lf>из лука по дуге и метании связок бомб из тяжёлого лукорудия.<lf><COLOR preset="TXT_Accent">(Гироскоп.)</COLOR>
+<string>Инверсия управления прицелом при стрельбе из лука<lf>по дуге и метании связок бомб из тяжёлого лукорудия.<lf><COLOR preset="TXT_Accent">(Гироскоп.)</COLOR>
 <string>Не инвертировать движение контроллера.
 <string>Инвертировать движение контроллера.
-<string>Выбор монитора
-<string>Выбор монитора для вывода экрана игры.<lf><COLOR preset="TXT_Accent">(Требуется ОС Windows версии 10 или выше<lf>и несколько мониторов.)</COLOR>
+<string>Выбор экрана
+<string>Выбор экрана для вывода изображения игры.<lf><COLOR preset="TXT_Accent">(Требуется ОС Windows версии 10 или выше<lf>и несколько отображающих устройств.)</COLOR>
 <string>{0}: {1}
-<string>Настройка режима экрана
-<string>Позволяет выбрать, как будет выглядеть окно, в котором отображается игра.
+<string>Режим экрана
+<string>Позволяет настроить метод отображение игры.
 <string>Окно без рамок
 <string>Игра отображается в полноэкранном режиме, что<lf>позволяет лучше ощутить атмосферу её мира.
 <string>Оконный режим
@@ -639,7 +643,7 @@
 <string>Разрешение экрана
 <string>Настройка разрешения экрана.
 <string>{0} x {1}
-<string>Использовать для игры это разрешение экрана?<lf><COLOR preset="TXT_Accent">(При бездействии в течение 10 секунд изменения будут сброшены.)</COLOR>
+<string>Использовать для игры это разрешение экрана?<lf><COLOR preset="TXT_Accent">(Примите решение в течение 10 секунд,<lf>иначе изменения будут сброшены.)</COLOR>
 <string><REF RefGeneral_0001_000>
 <string><REF RefGeneral_0001_001>
 <string>Формат экрана
@@ -647,67 +651,67 @@
 <string>Автоматический
 <string>Автоматическая настройка подходящего формата<lf>в соответствии с текущим разрешением экрана.
 <string>Широкий (16:9)
-<string>Формат экрана с соотношением сторон 16:9.
+<string>Вывод изображения с соотношением сторон 16:9.
 <string>Ультраширокий (21:9)
-<string>Формат экрана с соотношением сторон 21:9.<lf>На мониторах без поддержки ультраширокого формата<lf>изображение будет дополнено чёрными полосами.
+<string>Вывод изображения с соотношением сторон 21:9.<lf>Если используемый экран не обладает<lf>ультрашироким форматом, изображение будет<lf>снабжено чёрными полосами.
 <string>Интерфейс для широкоформатных мониторов
-<string>Мини-карта и другие элементы интерфейса<lf>смещаются к центру экрана. <COLOR preset="TXT_Accent">(Выберите «Широкий формат» для пропорций<lf>экрана, чтобы использовать эту настройку.)</COLOR>
+<string>Смещение мини-карты и других элементов интерфейса<lf>к центру экрана. <COLOR preset="TXT_Accent">(Выберите ультраширокий формат<lf>экрана, чтобы использовать эту функцию.)</COLOR>
 <string>Частота кадров
 <string>Настройка ограничения частоты кадров в игре.
-<string>Неограниченная частота кадров
-<string>Позволяет включить или отключить ограничение<lf>частоты кадров в игре.
-<string>Включить
-<string>Частота кадров в игре не ограничивается.<lf><COLOR preset="TXT_Accent">(Игнорирует значение в настройке частоты кадров.)</COLOR>
-<string>Отключить
-<string>Частота кадров в игре ограничена в соответствии<lf>со значением в настройке частоты кадров.
+<string>Ограничение частоты кадров
+<string>Позволяет установить ограничение<lf>частоты кадров в игре.
+<string>Отключено
+<string>Частота кадров в игре не ограничена.<lf><COLOR preset="TXT_Accent">(Значение параметра «Частота кадров»<lf>игнорируется.)</COLOR>
+<string>Включено
+<string>Частота кадров в игре ограничена значением<lf>параметра «Частота кадров».
 <string>Частота кадров в сюжетных роликах
-<string>Позволяет установить отдельную частоту кадров для сюжетных<lf>роликов. Если этот параметр отключён, частота кадров<lf>в роликах соответствует значению в настройке частоты кадров.
+<string>Позволяет задать отдельную частоту кадров для сюжетных<lf>роликов. Если параметр отключён, этот показатель<lf>в роликах определяется параметром «Частота кадров».
 <string>Частота кадров в сюжетных роликах
-<string>Частота кадров в сюжетных роликах ограничена.<lf><COLOR preset="TXT_Accent">(Верхний предел соответствует значению в настройке частоты кадров.)</COLOR>
+<string>Частота кадров в сюжетных роликах ограничена.<lf><COLOR preset="TXT_Accent">(Верхний предел определяется<lf>параметром «Частота кадров».)</COLOR>
 <string>Фоновая частота кадров
-<string>Если включено, позволяет отдельно<lf>установить фоновую частоту кадров на случай,<lf>когда окно игры не активно.
+<string>Если включено, позволяет отдельно установить частоту<lf>кадров для случаев, когда окно игры неактивно.
 <string>Фоновая частота кадров
-<string>Частота кадров ограничена, когда окно игры<lf>не активно. <COLOR preset="TXT_Accent">(Верхний предел соответствует<lf>значению в настройке частоты кадров.)</COLOR>
-<string>Настройка HDR
+<string>Частота кадров ограничена, когда окно игры<lf>неактивно. <COLOR preset="TXT_Accent">(Верхний предел определяется<lf>параметром «Частота кадров».)</COLOR>
+<string>Режим HDR
 <string>Настройка параметров HDR.
 <string>Автоматический режим
-<string>Расширенный динамический диапазон (HDR) будет<lf>автоматически включён на устройствах, которые<lf>его поддерживают, и отключён на всех прочих<lf>устройствах.
-<string>Отключить
-<string>HDR будет отключён даже на тех устройствах,<lf>которые его поддерживают.
+<string>Расширенный динамический диапазон (HDR)<lf>автоматически включается на устройствах,<lf>которые поддерживают этот режим, и отключается<lf>на тех, которые его не поддерживают.
+<string>Откл.
+<string>HDR отключён даже на тех устройствах,<lf>которые его поддерживают.
 <string>Яркость
 <string>Настройка яркости экрана.
-<string>Настройка яркости экрана (HDR)
+<string>Яркость (HDR)
 <string>Настройка яркости экрана.
 <string>Вертикальная синхронизация
-<string>Настройка параметров вертикальной синхронизации.
-<string>Включить
-<string>Вертикальная синхронизация включена,<lf>чтобы сократить разрывы изображения на экране.
+<string>Настройка вертикальной синхронизации.
+<string>Вкл.
+<string>Включение или отключение вертикальной<lf>синхронизации. Эта функция позволяет снизить<lf>частоту возникновения разрывов изображения.
 <string>Адаптивная вертикальная синхронизация
-<string>Вертикальная синхронизация будет включена<lf>при достижении установленного предела<lf>частоты кадров. <COLOR preset="TXT_Accent">(Эта функция доступна только<lf>для видеокарт NVIDIA GeForce.)</COLOR>
-<string>Отключить
+<string>Включение вертикальной синхронизации по<lf>достижении установленного предела частоты<lf>кадров. <COLOR preset="TXT_Accent">(Эта функция доступна только при<lf>использовании видеокарт NVIDIA GeForce.)</COLOR>
+<string>Откл.
 <string>Вертикальная синхронизация отключена.
 <string>Режим низкой задержки NVIDIA Reflex
-<string>Позволяет повысить скорость отклика игры<lf>и уменьшить задержку системы. <COLOR preset="TXT_Accent">(Доступно только<lf>при наличии подходящих видеокарт.)</COLOR>
-<string>Включить
-<string>NVIDIA Reflex включён. <COLOR preset="TXT_Accent">(Эта функция будет<lf>автоматически включена, если в разделе «Графика»<lf>выбран параметр «Генерация кадров».)</COLOR>
+<string>Позволяет повысить скорость отклика игры и сократить<lf>задержку ввода. <COLOR preset="TXT_Accent">(Эта функция доступна только при<lf>использовании подходящей видеокарты.)</COLOR>
+<string>Вкл.
+<string>Включение функции NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(Происходит автоматически, если в разделе<lf>«Качество графики» включить функцию<lf>генерации кадров.)</COLOR>
 <string>Включить и усилить
 <string>NVIDIA Reflex включён и обеспечивается<lf>максимальная тактовая частота графического<lf>процессора.
-<string>Отключить
-<string>NVIDIA Reflex отключён. <COLOR preset="TXT_Accent">(Эта функция будет<lf>автоматически отключена при использовании<lf>неподдерживаемых устройств.)</COLOR>
+<string>Откл.
+<string>Отключение функции NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">(Происходит автоматически, если используется<lf>видеокарта, которая её не поддерживает.)</COLOR>
 <string>Сведения о ПК
-<string>Отображение сведений о быстродействии ПК.
+<string>Отображение сведений о производительности ПК.
 <string>Ожидаемое использование видеопамяти
 <string><REF RefGeneral_0000_0000_00>
 <string>Другие приложения
 <string>МБ
 <string>МБ /
-<string>Недостаточно видеопамяти. Это может привести к небольшим сбоям в работе игры.
-<string>Недостаточно видеопамяти. Это может привести к серьёзным сбоям в работе игры.
-<string>Процессор
-<string>Оперативная память
+<string>Необходим большой объём видеопамяти. В работе игры<lf>могут возникнуть незначительные сбои.
+<string>Необходим большой объём видеопамяти. В работе игры<lf>могут возникнуть серьёзные сбои.
+<string>CPU
+<string>RAM
 <string><NUMBER {0}> ГБ
-<string>Графический процессор
-<string>Видеопамять
+<string>GPU
+<string>VRAM
 <string><NUMBER {0}> ГБ
 <string>Версия драйвера видеоадаптера
 <string><NUMBER {0}>
@@ -716,7 +720,7 @@
 <string>Несовместимо
 <string>ГБ
 <string>Качество графики
-<string>Выбор общего уровня качества графики.<lf><COLOR preset="TXT_Accent">(Для сюжетных роликов качество графики<lf>можно настроить отдельно).</COLOR>
+<string>Выбор общего уровня качества графики.<lf><COLOR preset="TXT_Accent">(Для сюжетных роликов качество графики<lf>можно настроить отдельно.)</COLOR>
 <string>Выбор общего уровня качества графики.
 <string>Ультра
 <string>Высокое
@@ -724,32 +728,32 @@
 <string>Низкое
 <string>Очень низкое
 <string>Пользовательское
-<string>Выбирается автоматически при ручном<lf>изменении графических настроек.
+<string>Устанавливается автоматически, если изменить<lf>графические настройки вручную.
 <string>Качество графики в роликах
-<string>Выбор качества графики для сюжетных<lf>роликов. Настройки действуют только<lf>при воспроизведении роликов.
+<string>Параметры качества графики для сюжетных роликов.<lf>(Действуют только во время воспроизведения роликов.)
 <string>Очень высокое
 <string>Высокое
 <string>Среднее
 <string>Низкое
 <string>Очень низкое
-<string>Не настраивать отдельно
+<string>Не устанавливать отдельно
 <string>Качество графики в сюжетных роликах<lf>определяется общими настройками.
 <string>Масштабирование (сверхвыс. разреш-е)
-<string>Технология увеличения разрешения<lf>значительно повышает быстродействие<lf>игры и качество графики.
+<string>Использовать технологию получения сверхвысокого<lf>разрешения, чтобы добиться прекрасного качества<lf>изображения, сохранив стабильное быстродействие.
 <string>NVIDIA DLSS
-<string>Использовать технологию NVIDIA DLSS 3.5.<lf><COLOR preset="TXT_Accent">(Требуется видеоадаптер NVIDIA GeForce RTX.)</COLOR><lf><COLOR preset="TXT_Accent">(Если вы используете видеоадаптер серии<lf>GeForce RTX40, выберите этот параметр,<lf>чтобы задействовать функцию генерации<lf>кадров. Убедитесь, что в ОС включён параметр<lf>«Планирование графического процессора<lf>с аппаратным ускорением».)</COLOR>
-<string>AMD FSR 3
-<string>Использовать технологию AMD FSR 3.0.3.<lf><COLOR preset="TXT_Accent">(Если хотите задействовать функцию генерации<lf>кадров, убедитесь, что в ОС включён параметр<lf>«Планирование графического процессора<lf>с аппаратным ускорением».)</COLOR>
+<string>Использовать NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Требуется видеоадаптер NVIDIA GeForce RTX.</COLOR><lf>– Если вы используете видеоадаптер серии<lf>GeForce RTX40, выберите этот параметр,<lf>чтобы задействовать функцию генерации<lf>кадров. Убедитесь, что в ОС включён параметр<lf>«Планирование графического процессора<lf>с аппаратным ускорением».
+<string>AMD FSR
+<string>Использовать <FSR>.<lf><COLOR preset="TXT_Accent">– Если хотите задействовать функцию генерации<lf>кадров, убедитесь, что в ОС включён параметр<lf>«Планирование графического процессора<lf>с аппаратным ускорением».</COLOR>
 <string>Intel XeSS
-<string>Использовать технологию Intel XeSS 1.3.
-<string>Отключить
+<string>Использовать Intel <XESS>.
+<string>Откл.
 <string>Не использовать масштабирование.
 <string>Генерация кадров
-<string>Использование технологии генерации кадров<lf>для повышения кадровой частоты.<COLOR preset="TXT_Accent">(Доступно при соблюдении ряда требований.)</COLOR>
+<string>Использовать технологию генерации кадров<lf>для повышения кадровой частоты.<COLOR preset="TXT_Accent">(Функция доступна при соблюдении ряда требований.)</COLOR>
 <string>Вкл.
-<string>Включение генерации кадров для повышения<lf>кадровой частоты. При выборе этого параметра<lf>частота кадров может превысить предельное<lf>значение, указанное в разделе «Изображение».
+<string>Включить генерацию кадров для повышения<lf>кадровой частоты. При выборе этого параметра<lf>частота кадров может превысить предельное<lf>значение, указанное в настройках отображения.
 <string>Откл.
-<string>Отключение этого параметра.
+<string>Отключить этот параметр.
 <string><COLOR preset="TXT_Accent">Генерация кадров</COLOR> с использованием <COLOR preset="TXT_Accent">FSR</COLOR> недоступна<lf>при текущих настройках экрана.
 <string><COLOR preset="TXT_Accent">Генерация кадров</COLOR> с использованием <COLOR preset="TXT_Accent">FSR</COLOR> недоступна<lf>при текущих настройках экрана. В связи с этим она<lf>была автоматически <BOLD>отключена</BOLD>.
 <string>Чтобы снова включить генерацию кадров, выберите<lf>режим «В окне» или, если выбран режим «Окно без<lf>рамок», установите такое разрешение, при котором<lf>на экране не будет чёрных краёв.
@@ -758,41 +762,43 @@
 <string>NVIDIA DLAA
 <string>Использовать сглаживание с применением ИИ,<lf>сохраняя исходное разрешение.
 <string>AMD Native AA
-<string>Использовать сглаживание FSR 3,<lf>сохраняя исходное разрешение.
+<string>Использовать сглаживание FSR,<lf>сохраняя исходное разрешение.
 <string>Сглаживание Intel XeSS
 <string>Использовать сглаживание XeSS,<lf>сохраняя исходное разрешение.
 <string>Качество
-<string>Разрешение экрана важнее частоты кадров.
+<string>Поддерживать высокое разрешение, при<lf>необходимости жертвуя частотой кадров.
 <string>Баланс
-<string>Баланс между разрешением и частотой кадров.
+<string>Поддерживать баланс между разрешением<lf>и частотой кадров.
 <string>Быстродействие
-<string>Частота кадров важнее разрешения экрана.
+<string>Поддерживать высокую частоту кадров, при<lf>необходимости жертвуя разрешением.
 <string>Высокое быстродействие
-<string>Частота кадров намного важнее разрешения экрана.
+<string>Использовать все возможности для поддержания<lf>высокой частоты кадров, при необходимости<lf>жертвуя разрешением.
 <string>Откл.
 <string>Выбирается автоматически при<lf>отключении масштабирования.
 <string>Детализация при масштабировании
-<string>Настройка уровня детализации при масштабировании.<lf>Чем выше значение, тем детальнее изображение.<lf><COLOR preset="TXT_Accent">(При отключённом масштабировании параметр недоступен.)</COLOR>
+<string>Настройка уровня детализации при масштабировании.<lf>Чем выше значение, тем детальнее изображение.<lf><COLOR preset="TXT_Accent">(При отключённом AMD FSR параметр недоступен.)</COLOR>
 <string>Сглаживание
-<string>Выбор режима сглаживания.<lf><COLOR preset="TXT_Accent">(При отключённом масштабировании параметр недоступен.)</COLOR>
+<string>Выбор режима сглаживания.<lf><COLOR preset="TXT_Accent">(Доступен только при отключённом масштабировании.)</COLOR>
 <string>FXAA + TAA
 <string>TAA
 <string>Откл.
 <string>Разрешение отображения
-<string>Коэффициент масштабирования в процентах.<lf><COLOR preset="TXT_Accent">(При отключённом масштабировании параметр недоступен.)</COLOR>
+<string>Коэффициент масштабирования в процентах.<lf><COLOR preset="TXT_Accent">(Доступен только при отключённом масштабировании.)</COLOR>
 <string>Трассировка лучей
-<string>Настройка качества проработки отражений<lf>и преломлений света с использованием<lf>технологии трассировки лучей.
+<string>Настройка качества проработки отражений<lf>с использованием технологии трассировки лучей.
 <string>Очень высокое
 <string>Высокое
 <string>Среднее
 <string>Низкое
 <string>Очень низкое
 <string>Отключено
+<string>Процессор
+<string>Графический процессор
 <string>Качество текстур
 <string>Настройка разрешения текстур объектов.
 <string>Очень высокое (Texture Pack)
-<string><COLOR preset="TXT_Accent">Доступно, если загружен набор<lf>High Resolution Texture Pack.</COLOR>
-<string>Чтобы получить возможность выбрать очень<lf>высокое качество текстур, загрузите набор<lf>High Resolution Texture Pack.
+<string><COLOR preset="TXT_Accent">Параметр доступен, если загружен «Набор<lf>текстур высокого разрешения».</COLOR>
+<string>Чтобы получить возможность выбрать очень<lf>высокое качество текстур, загрузите «Набор<lf>текстур высокого разрешения».
 <string>Высокое
 <string>Среднее
 <string>Низкое
@@ -814,11 +820,11 @@
 <string>Настройка качества отображения шерсти<lf>всех существ, включая палико.
 <string>Высокое
 <string>Низкое
-<string>Отрицательное отклонение УД
-<string>Настройка качества динамически<lf>изменяемых игровых моделей.
-<string>Очень высокое
-<string>Высокое
-<string>Среднее
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>Качество неба и облаков
 <string>Настройка качества отображения неба и облаков.
 <string>Очень высокое
@@ -842,11 +848,11 @@
 <string>Высокое
 <string>Низкое
 <string>Качество поверхностей
-<string>Настройка качества прорисовки поверхностей<lf>и находящихся в непосредственной близости<lf>элементов ландшафта.
+<string>Настройка качества прорисовки поверхностей<lf>и находящихся в непосредственной близости элементов<lf>ландшафта. <COLOR preset="TXT_Accent">(Настраивается на начальном экране.)</COLOR>
 <string>Высокое
 <string>Низкое
-<string>Качество песка, снега и воды
-<string>Настройка качества отображения песка, снега,<lf>воды и других подобных элементов окружения.
+<string>Качество песка и снега
+<string>Настройка качества отображения песка, снега<lf>и других подобных элементов окружения.
 <string>Очень высокое
 <string>Высокое
 <string>Среднее
@@ -854,14 +860,18 @@
 <string>Очень низкое
 <string>Эффекты воды
 <string>Включение или отключение эффектов<lf>жидкости для водоёмов.
-<string>Включить
-<string>Отключить
+<string>Вкл.
+<string>Откл.
 <string>Очень высокая
 <string>Высокая
 <string>Средняя
 <string>Низкая
 <string>Дальность отображения
-<string>Настройка числа игроков или персонажей, отображаемых<lf>в лобби, а также расстояния, с которого будут видны<lf>монстры и представители уникальной фауны.
+<string>Выбор числа игроков и персонажей, видимых в лобби,<lf>а также расстояния, с которого будут видны монстры<lf>и уникальная фауна. <COLOR preset="TXT_Accent">(Настраивается на начальном экране.)</COLOR>
+<string>Отрисовка максимального числа объектов вне<lf>зависимости от того, на каком расстоянии от<lf>охотника они находятся.
+<string>Отрисовка большинства объектов, в том числе<lf>тех, которые находятся на большом расстоянии<lf>от охотника.
+<string>Отрисовка большинства объектов, находящихся<lf>на среднем удалении от охотника.
+<string>Снижение нагрузки на систему путём отображения<lf>только тех объектов, которые находятся<lf>в непосредственной близости от охотника.
 <string>Качество теней
 <string>Настройка качества теней.
 <string>Очень высокое
@@ -888,12 +898,12 @@
 <string>Вкл.
 <string>Откл.
 <string>Качество окружающего затенения
-<string>Настройка качества теней на закрытых от света участках.
+<string>Настройка качества теней на закрытых<lf>от света участках.
 <string>Высокое
 <string>Среднее
 <string>Откл.
 <string>Интенсивность свечения
-<string>Настройка степени размытия изображения<lf>вокруг ярких объектов.
+<string>Настройка степени размытия изображения<lf>вокруг ярких источников света.
 <string>Высокая
 <string>Низкая
 <string>Откл.
@@ -906,7 +916,7 @@
 <string>Вкл.
 <string>Откл.
 <string>Отражения в пространстве экрана
-<string>Включение или отключение визуального эффекта,<lf>который повышает качество отражений.
+<string>Включение или отключение метода отрисовки,<lf>который повышает качество отражений.<lf><COLOR preset="TXT_Accent">(При включённой трассировке лучей параметр недоступен.)</COLOR>
 <string>Вкл.
 <string>Откл.
 <string>Подповерхностное рассеивание
@@ -918,7 +928,7 @@
 <string>Вкл.
 <string>Откл.
 <string>Качество объёмного тумана
-<string>Настройка качества облаков пыли и других частиц,<lf>находящихся в воздухе. Влияет на отображение<lf>солнечных лучей и прочих эффектов.
+<string>Настройка качества облаков пыли и других частиц,<lf>находящихся в воздухе. Влияет на отображение<lf>лучей света и других подобных эффектов.
 <string>Высокое
 <string>Низкое
 <string>Переменное затенение
@@ -931,23 +941,23 @@
 <string><PLATMSG MsgGUI030100_04_44_Help>
 <string>Включение или отключение вибрации контроллера.
 <string><PLATMSG MsgGUI030100_04_44_00>
-<string>Включить
+<string>Вкл.
 <string><PLATMSG MsgGUI030100_04_44_00_Help>
 <string>Включить вибрацию контроллера.
 <string><PLATMSG MsgGUI030100_04_44_01>
-<string>Отключить
+<string>Откл.
 <string><PLATMSG MsgGUI030100_04_44_01_Help>
 <string>Отключить вибрацию контроллера.
 <string>Индикация урона
 <string>Включение или отключение отображения<lf>индикации урона.
-<string>Показать с десятич. знаками
+<string>Показывать с десятич. знаками
 <string>Показывать на экране индикацию урона,<lf>нанесённого монстрам.<lf><COLOR preset="TXT_Accent">(С десятичными знаками.)</COLOR>
-<string>Показать целые числа
+<string>Показывать целые числа
 <string>Показывать на экране индикацию урона,<lf>нанесённого монстрам.<lf><COLOR preset="TXT_Accent">(Только целые числа.)</COLOR>
-<string>Скрыть
+<string>Не показывать
 <string>Скрыть индикацию урона.
-<string>Настройка интерфейса
-<string>Настройка элементов интерфейса и их размера.
+<string>Интерфейс
+<string>Настройка элементов интерфейса и их размера.
 <string>Шкала здоровья
 <string>Маленькая
 <string>Элементы интерфейса уменьшены по сравнению<lf>со стандартным размером.
@@ -956,15 +966,15 @@
 <string>Большая
 <string>Элементы интерфейса увеличены по сравнению<lf>со стандартным размером.
 <string>Скрыть
-<string>Шкала не отображается на экране.
+<string>Не отображать шкалу на экране.
 <string>Шкала выносливости
-<string>Острота оружия ближнего боя
+<string>Шкала остроты оружия ближнего боя
 <string>Сведения об оружии
 <string>Сведения об отряде
-<string>Сообщения светлячков
+<string>Сообщения следлячков
 <string>Мини-карта
 <string>Суточные часы
-<string>Монстр для задания
+<string>Значок монстра для задания
 <string>Руководство по кнопкам
 <string>Цели
 <string>Уведомления чата
@@ -973,14 +983,14 @@
 <string>Панель предметов
 <string>Пользовательское круговое меню
 <string>Быстрые действия
-<string>Названия интеракт. объектов
+<string>Названия интерактивных объектов
 <string>Имена персонажей и палико
 <string>Вращение мини-карты
 <string>Настройка поворота карты.
 <string>Вращение
-<string>Положение мини-карты зависит<lf>от ориентации камеры.
-<string>Фиксированная карта
-<string>Мини-карта не вращается.<lf>Положение камеры не влияет на мини-карту:<lf>сверху всегда находится север.
+<string>Мини-карта вращается вместе с камерой.
+<string>Фиксация
+<string>Мини-карта не вращается. Вне зависимости<lf>от положения камеры север всегда сверху.
 <string>Угол наклона мини-карты
 <string>Настройка угла наклона мини-карты.
 <string>Фиксированный вид сверху
@@ -990,9 +1000,9 @@
 <string>Наклон зависит от камеры
 <string>Местность на мини-карте отображается под<lf>углом, который зависит от позиции камеры.
 <string>Размер мини-карты
-<string>Выбор размера мини-карты<lf>в разных ситуациях.
+<string>Выбор размера мини-карты в разных ситуациях.
 <string>Городская зона
-<string>Выбор размера мини-карты<lf>на базах и в городах.
+<string>Выбор размера мини-карты на базах и в городах.
 <string>Маленький
 <string>Размер мини-карты меньше обычного.
 <string>По умолчанию
@@ -1002,77 +1012,77 @@
 <string>Режим прицеливания/фокусировки
 <string>Выбор размера мини-карты<lf>в режиме фокусировки или прицеливания.
 <string>Бой (крупные монстры)
-<string>Выбор размера мини-карты<lf>в бою с крупными монстрами.
-<string>Зажать <ICON PL_ITEM_SLIDER_OPEN>
-<string>Выбор размера мини-карты при зажатии <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Выбор размера мини-карты в бою с крупными<lf>монстрами.
+<string>При удерживании <ICON PL_ITEM_SLIDER_OPEN>
+<string>Настройка размера мини-карты при удерживании <ICON PL_ITEM_SLIDER_OPEN>.
 <string>Масштаб мини-карты
-<string>Выбор масштаба мини-карты<lf>в разных ситуациях.
+<string>Выбор масштаба мини-карты в разных ситуациях.
 <string>Городская зона
-<string>Выбор масштаба мини-карты<lf>на базах и в городах.
+<string>Выбор масштаба мини-карты на базах и в городах.
 <string>Маленький
-<string>Масштаб мини-карты меньше обычного.<lf><COLOR preset="TXT_Accent">(Все объекты отображаются<lf>в некотором отдалении.)</COLOR>
+<string>Масштаб мини-карты меньше обычного.<lf><COLOR preset="TXT_Accent">(Все объекты отображаются в некотором<lf>отдалении.)</COLOR>
 <string>По умолчанию
 <string>Обычный масштаб мини-карты.<lf><COLOR preset="TXT_Accent">(Объекты отображаются в обычном масштабе.)</COLOR>
 <string>Большой
-<string>Масштаб мини-карты больше обычного.<lf><COLOR preset="TXT_Accent">(Объекты отображаются<lf>в некотором приближении.)</COLOR>
+<string>Масштаб мини-карты больше обычного.<lf><COLOR preset="TXT_Accent">(Объекты отображаются в некотором<lf>приближении.)</COLOR>
 <string>Режим прицеливания/фокусировки
-<string>Выбор масштаба мини-карты<lf>в режиме фокусировки или прицеливания.
+<string>Выбор масштаба мини-карты в режиме фокусировки<lf>или прицеливания.
 <string>Бой (крупные монстры)
 <string>Выбор масштаба мини-карты<lf>в бою с крупными монстрами.
-<string>Зажать <ICON PL_ITEM_SLIDER_OPEN>
-<string>Выбор масштаба мини-карты при удерживании <ICON PL_ITEM_SLIDER_OPEN>.
+<string>При удерживании <ICON PL_ITEM_SLIDER_OPEN>
+<string>Настройка степени увеличения мини-карты<lf>при удерживании <ICON PL_ITEM_SLIDER_OPEN>.
 <string>Эффекты урона союзников
 <string>Включение или отключение отображения<lf>эффектов урона союзников.<lf><COLOR preset="TXT_Accent">(Параметр не влияет на ваши эффекты.)</COLOR>
-<string>Включить
+<string>Показывать
 <string>Отображать эффекты урона союзников.
-<string>Отключить
+<string>Не показывать
 <string>Скрыть эффекты урона союзников.
 <string>Эффекты критических ударов союзников
-<string>Включение или отключение отображения<lf>эффектов критических ударов союзников.<lf><COLOR preset="TXT_Accent">(Параметр не влияет на ваши эффекты.)</COLOR>
-<string>Включить
+<string>Включение или отключение отображения эффектов<lf>критических ударов союзников.<lf><COLOR preset="TXT_Accent">(Параметр не влияет на ваши эффекты.)</COLOR>
+<string>Показывать
 <string>Отображать эффекты критических ударов союзников.
-<string>Отключить
+<string>Не показывать
 <string>Скрыть эффекты критических ударов союзников.
 <string>Эффекты крови
 <string>Включение или отключение отображения<lf>эффектов крови.
-<string>Включить
+<string>Показывать
 <string>Отображать эффекты крови.
-<string>Отключить
+<string>Не показывать
 <string>Скрыть эффекты крови.
 <string>Интерфейс
-<string>Настройка параметров интерфейса.
+<string>Настройка параметров отображения интерфейса.
 <string>Отображение шкалы здоровья
-<string>Настройка параметров отображения<lf>шкалы здоровья.
+<string>Настройка параметров отображения шкалы<lf>здоровья.
 <string>Фиксированное
 <string>Всегда показывать шкалу здоровья целиком.
 <string>Динамичное
-<string>Не раскрывать полную шкалу здоровья<lf>по умолчанию и показывать её только<lf>при необходимости.
+<string>По умолчанию отображать шкалу здоровья<lf>в уменьшенном виде и раскрывать её целиком<lf>только в определённых ситуациях.
 <string>Отображение шкалы выносливости
-<string>Настройка параметров отображения<lf>шкалы выносливости.
+<string>Настройка параметров отображения шкалы<lf>выносливости.
 <string>Фиксированное
 <string>Всегда показывать шкалу выносливости.
 <string>Динамичное
-<string>Шкала выносливости игрока почти всегда<lf>скрыта. Она появляется автоматически,<lf>когда вы вступаете в бой.
-<string>Отображение шкалы остроты
-<string>Настройка параметров отображения<lf>шкалы остроты.
+<string>По умолчанию отображать шкалу выносливости<lf>в уменьшенном виде и раскрывать её целиком<lf>только в определённых ситуациях.
+<string>Отображение шкалы остроты оружия
+<string>Настройка параметров отображения шкалы<lf>остроты оружия.
 <string>Фиксированное
-<string>Всегда показывать шкалу остроты.
+<string>Всегда показывать шкалу остроты оружия.
 <string>Динамичное
-<string>Шкала остроты игрока почти всегда<lf>скрыта. Она появляется автоматически,<lf>когда вы вступаете в бой.
+<string>По умолчанию отображать шкалу остроты<lf>оружия в уменьшенном виде и раскрывать её<lf>целиком только в определённых ситуациях.
 <string>Отображение здоровья компаньонов
-<string>Настройка параметров отображения шкалы<lf>здоровья палико и других компаньонов.
+<string>Настройка параметров отображения шкалы<lf>здоровья палико и других компаньонов.
 <string>Фиксированное
-<string>Всегда показывать шкалу здоровья компаньона.
+<string>Всегда показывать шкалу здоровья палико<lf>и других компаньонов.
 <string>Динамичное
-<string>Шкала здоровья компаньона почти всегда<lf>скрыта. Она появляется автоматически<lf>при вступлении в бой.
+<string>По умолчанию отображать шкалы здоровья<lf>спутников в уменьшенном виде и раскрывать<lf>их целиком только в определённых ситуациях.
 <string>Окно чата
-<string>Настройка параметров отображения окна чата<lf>после отправки сообщения.
-<string>Закрыть окно
-<string>Закрыть окно чата после отправки сообщения.
+<string>Настройка параметров отображения окна связи<lf>и журнала чата после отправки сообщения.
+<string>Закрывать окно
+<string>Закрыть окно связи или журнал чата<lf>после отправки сообщения.
 <string>Не закрывать окно
-<string>Не закрывать окно чата после отправки сообщения.
+<string>Не закрывать окно связи или журнал чата<lf>после отправки сообщения.
 <string>Скрытые субтитры
-<string>Включение или отключение дополнительных<lf>субтитров для описания некоторых звуков.
+<string>Включение или отключение дополнительных<lf>субтитров для описания некоторых звуков<lf>в сюжетных сценах.
 <string>Показывать
 <string>Показывать дополнительные субтитры.<lf><COLOR preset="TXT_Accent">Применяется только в определённых ситуациях.</COLOR>
 <string>Не показывать
@@ -1100,7 +1110,7 @@
 <string>Размер шрифта в субтитрах
 <string>Выбор размера субтитров.
 <string>Субтитры в сюжетных роликах
-<string>Включение/отключение субтитров для диалогов персонажей.<lf><COLOR preset="TXT_Accent">(Только для сюжетных роликов. Не влияет на субтитры<lf>вне роликов: они отображаются всегда.)</COLOR>
+<string>Настройка субтитров для диалогов персонажей.<lf><COLOR preset="TXT_Accent">(Только для сюжетных роликов. Не влияет на<lf>субтитры вне роликов: они отображаются всегда.)</COLOR>
 <string>Показывать
 <string>Показывать субтитры в сюжетных роликах.<lf><COLOR preset="TXT_Accent">(Могут отсутствовать для коротких реплик.)</COLOR>
 <string>Не показывать
@@ -1117,127 +1127,127 @@
 <string>Показывать имена говорящих в субтитрах<lf>к сюжетным роликам.
 <string>Не показывать
 <string>Не показывать имена говорящих в субтитрах<lf>к сюжетным роликам.
-<string>Имена говорящих (в игре)
-<string>Включение или отключение отображения имён<lf>говорящих в игровых субтитрах.
+<string>Имена говорящих (вне роликов)
+<string>Включение или отключение отображения имён<lf>говорящих вне сюжетных роликов.
 <string>Показывать
-<string>Показывать имена говорящих в игровых субтитрах.
+<string>Показывать имена говорящих в субтитрах<lf>вне сюжетных роликов.
 <string>Не показывать
-<string>Не показывать имена говорящих<lf>в игровых субтитрах.
-<string>Скрывать сейкретов др. игроков
-<string>Включение или отключение отображения<lf>сейкретов других игроков.<lf><COLOR preset="TXT_Accent">(Ваш сейкрет отображается всегда.)</COLOR>
-<string>Включить
+<string>Не показывать имена говорящих в субтитрах<lf>вне сюжетных роликов.
+<string>Скрывать чужих сейкретов
+<string>Включение или отключение отображения<lf>всех сейкретов, кроме вашего.<lf><COLOR preset="TXT_Accent">(Ваш сейкрет отображается всегда.)</COLOR>
+<string>Вкл.
 <string>Скрывать сейкретов других игроков или<lf>компаньонов во время ходьбы.<lf><COLOR preset="TXT_Accent">(Будут отображаться в особых ситуациях.)</COLOR>
-<string>Отключить
-<string>Всегда показывать сейкретов других игроков<lf>или компаньонов, даже во время ходьбы.
+<string>Откл.
+<string>Всегда показывать сейкретов других игроков<lf>и охотников-помощников — даже когда те<lf>передвигаются пешком.
 <string>Сейкрет: автоисследование
-<string>Позволяет выбрать, будет ли ваш сейкрет<lf>исследовать мир самостоятельно,<lf>если точка маршрута не задана.
-<string>Включить
-<string>Сейкрет начнёт исследовать мир,<lf>если точка маршрута не задана.
-<string>Отключить
-<string>Сейкрет не будет исследовать мир,<lf>даже если точка маршрута не задана.
+<string>Позволяет выбрать, будет ли ваш сейкрет<lf>исследовать мир самостоятельно, если точка<lf>маршрута не задана.
+<string>Вкл.
+<string>Сейкрет начнёт исследовать мир, если точка<lf>маршрута не задана.
+<string>Откл.
+<string>Сейкрет не будет исследовать мир, даже если<lf>точка маршрута не задана.
 <string>Разные платформы
 <string>Позволяет разрешить или запретить сетевую игру<lf>с пользователями разных платформ.
-<string>Включить
+<string>Вкл.
 <string>Кросс-игра включена. Вы можете играть<lf>с пользователями разных платформ, но только<lf>при условии, что у них тоже включена эта<lf>функция. Также для игры в отряде необходимо,<lf>чтобы эта функция была включена у всех<lf>участников.
-<string>Отключить
+<string>Откл.
 <string>Кросс-игра отключена. Вы сможете играть<lf>только с пользователями вашей платформы.<lf>Игры с пользователями, у которых эта функция<lf>включена, будут вам недоступны. Также для<lf>игры в отряде необходимо, чтобы эта функция<lf>была отключена у всех участников.
 <string>Ошибка подключения.<lf>Параметры кросс-игры не были изменены.<lf>{0}
 <string>Названия быстрых действий
-<string>Включение или отключение отображения<lf>названий быстрых действий, если включён расширенный вид.
-<string>Показать все
-<string>Показывать названия всех быстрых действий.
-<string>Показать выбранные
-<string>Показывать названия быстрых действий<lf>только для выбранного набора.
+<string>Включение или отключение отображения названий<lf>предметов, фраз и прочих элементов при выводе<lf>всех быстрых действий для клавиатуры.
+<string>Показывать все
+<string>Показывать названия предметов, фраз и прочих<lf>элементов во всех быстрых действиях<lf>для клавиатуры.
+<string>Показывать выбранное
+<string>Показывать названия предметов, фраз и прочих<lf>элементов только в выбранном быстром<lf>действии для клавиатуры.
 <string>Отображение оружия
 <string>Позволяет выбрать, когда показывать<lf>используемое оружие.
-<string>Показать
+<string>Показывать всегда
 <string>Всегда показывать оружие охотника.
-<string>Скрыть во время роликов
+<string>Скрывать во время роликов
 <string>Оружие охотника скрыто во время роликов.<lf><COLOR preset="TXT_Accent">(Будет отображаться в особых ситуациях.)</COLOR>
-<string>Отображение шлема
-<string>Позволяет выбрать, когда показывать<lf>используемый шлем.
-<string>Показать
-<string>Шлем, который носит охотник, отображается<lf>в соответствии с настройками внешнего вида.<lf><COLOR preset="TXT_Accent">(Будет скрыт в особых ситуациях.)</COLOR>
-<string>Скрыть
-<string>Шлем, который носит охотник, не отображается,<lf>независимо от настроек внешнего вида.
-<string>Скрыть во время роликов
-<string>Шлем, который носит охотник, отображается<lf>в соответствии с настройками внешнего вида,<lf>но скрыт во время роликов.
-<string>Настройка помощника
-<string>Позволяет выбрать действия помощника<lf>и отображаемую о нём информацию.
-<string>Отображение урона, получаемого помощником
-<string>Включение или отключение индикации урона<lf>при нападении охотника-помощника на монстра.
-<string>Включить
+<string>Отображение головного доспеха
+<string>Позволяет выбрать, когда показывать надетый<lf>головной доспех.
+<string>Показывать
+<string>Надетый головной доспех отображается<lf>в соответствии с настройками внешнего вида.<lf><COLOR preset="TXT_Accent">(Будет скрыт в особых ситуациях.)</COLOR>
+<string>Скрывать
+<string>Головной доспех, который носит охотник,<lf>не отображается, независимо от настроек<lf>внешнего вида.
+<string>Скрывать во время роликов
+<string>Головной доспех, который носит охотник,<lf>отображается в соответствии с настройками<lf>внешнего вида, но скрыт во время роликов.
+<string>Настройки охотников-помощников
+<string>Позволяет настроить действия охотников-помощников<lf>и отображаемую о них информацию.
+<string>Отображение урона
+<string>Включение или отключение индикации урона<lf>от атак охотника-помощника на монстра.
+<string>Вкл.
 <string>Отключить
-<string>Парирование охотником-помощником
-<string>Позволяет разрешить или запретить помощнику<lf>парировать удары монстров.
-<string>Разрешить помощнику парировать удары.
-<string>Запретить помощнику парировать удары.
-<string>Волевые схватки помощников
-<string>Позволяет разрешить или запретить помощнику<lf>совершать мощные столкновения с монстрами.
-<string>Разрешить помощнику совершать мощные столкновения.
-<string>Запретить помощнику совершать мощные столкновения.
-<string>Езда верхом на монстрах
-<string>Позволяет разрешить или запретить помощнику<lf>взбираться верхом на монстров.
-<string>Разрешить помощнику взбираться верхом на монстров.
-<string>Запретить помощнику взбираться верхом на монстров.
-<string>Самострел помощника
-<string>Позволяет разрешить или запретить помощнику<lf>использовать самострел.
-<string>Разрешить помощнику использовать самострел.
-<string>Запретить помощнику использовать самострел.
+<string>Парирование
+<string>Позволяет разрешить или запретить охотникам-<lf>помощникам парировать удары монстров.
+<string>Разрешить охотникам-помощникам<lf>парировать удары.
+<string>Запретить охотникам-помощникам<lf>парировать удары.
+<string>Волевые схватки
+<string>Позволяет разрешить или запретить охотникам-<lf>помощникам совершать волевые схватки с монстрами.
+<string>Разрешить охотникам-помощникам<lf>совершать волевые схватки.
+<string>Запретить охотникам-помощникам<lf>совершать волевые схватки.
+<string>Бой верхом на монстрах
+<string>Позволяет разрешить или запретить охотникам-<lf>помощникам взбираться верхом на монстров.
+<string>Разрешить охотникам-помощникам<lf>взбираться верхом на монстров.
+<string>Запретить охотникам-помощникам<lf>взбираться верхом на монстров.
+<string>Самострел
+<string>Позволяет разрешить или запретить охотникам-<lf>помощникам использовать самострел.
+<string>Разрешить охотникам-помощникам<lf>использовать самострел.
+<string>Запретить охотникам-помощникам<lf>использовать самострел.
 <string>Установка ловушек
-<string>Позволяет разрешить или запретить помощнику<lf>устанавливать ловушки.
-<string>Разрешить помощнику устанавливать ловушки.
-<string>Запретить помощнику устанавливать ловушки.
-<string>Силуэт персонажа игрока
-<string>Включение или отключение отображения силуэта вашего<lf>персонажа, когда сам персонаж заслонён монстром.
+<string>Позволяет разрешить или запретить охотникам-<lf>помощникам устанавливать ловушки.
+<string>Разрешить охотникам-помощникам<lf>устанавливать ловушки.
+<string>Запретить охотникам-помощникам<lf>устанавливать ловушки.
+<string>Силуэт охотника
+<string>Включение или отключение отображения силуэта<lf>охотника, когда сам он заслонён монстром.
 <string>Откл.
-<string>Силуэт не отображается, даже если персонажа<lf>игрока заслоняет монстр.
+<string>Силуэт не отображается, даже если охотник<lf>заслонён монстром.
 <string>Тип 1
-<string>Если персонажа игрока заслоняет монстр,<lf>отображается силуэт с белым контуром.
+<string>Если охотника заслоняет монстр, отображается<lf>силуэт с белым контуром.
 <string>Тип 2
-<string>Если персонажа игрока заслоняет монстр,<lf>отображается силуэт с чёрным контуром.
+<string>Если охотника заслоняет монстр, отображается<lf>силуэт с чёрным контуром.
 <string>Тип 3
-<string>Если персонажа игрока заслоняет монстр,<lf>отображается силуэт с жёлтым контуром.
+<string>Если охотника заслоняет монстр, отображается<lf>силуэт с жёлтым контуром.
 <string>Тип 4
-<string>Если персонажа игрока заслоняет монстр,<lf>отображается силуэт с красным контуром.
+<string>Если охотника заслоняет монстр, отображается<lf>силуэт с красным контуром.
 <string>Тип 5
-<string>Если персонажа игрока заслоняет монстр,<lf>отображается силуэт с синим контуром.
+<string>Если охотника заслоняет монстр, отображается<lf>силуэт с синим контуром.
 <string>Синхронизация сохр. изображений
-<string>Позволяет сохранять снимки, сделанные с помощью<lf>камеры, и в сохранённых данных, и в памяти консоли.
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>Синхронизация
-<string>Снимки будут сохраняться и в сохранённых<lf>данных, и в памяти консоли.
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>Не синхронизировать
 <string>Сохранять снимки только в сохранённых данных.
-<string>Анонимизация других игроков
+<string>Анонимизация имён других игроков
 <string>Позволяет анонимизировать других игроков,<lf>заменив их имена.
 <string>Все имена других игроков
 <string>Имена всех персонажей, кроме вашего,<lf>будут заменены для анонимизации.<lf><COLOR preset="TXT_Accent">Профили охотников не анонимизируются.</COLOR>
 <string>Имена игроков вне общего отряда
 <string>Имена всех персонажей, которые не входят в ваш<lf>общий отряд, будут заменены для анонимизации.<lf><COLOR preset="TXT_Accent">Профили охотников не анонимизируются.</COLOR>
-<string>Никакие
+<string>Не анонимизировать
 <string>Не анонимизировать имена, включая ваше<lf>собственное.
 <string>Настройка подсказок для кнопок охотничьего рога
 <string>Настройка отображения подсказок для кнопок<lf>охотничьего рога.
 <string>Тип 1
-<string>Когда охотничий рог убран, отображаются<lf>стандартные подсказки. Когда охотничий рог<lf>находится в руках, отображается список мелодий.
+<string>Когда охотничий рог убран, отображаются<lf>стандартные подсказки. Когда охотничий рог<lf>в руках, отображается список эффектов мелодий.
 <string>Тип 2
-<string>Отображается только список мелодий<lf>без стандартных подсказок независимо от того,<lf>убран рог или находится в руках.
+<string>Отображается только список эффектов мелодий<lf>без стандартных подсказок независимо от того,<lf>убран рог или взят в руки.
 <string>Тип 3
-<string>Стандартные подсказки для кнопок отображаются<lf>независимо от того, убран рог или находится<lf>в руках. Список мелодий показывается только<lf>при удерживании <ICON PL_ITEM_SLIDER_OPEN>, когда рог находится в руках.
+<string>Стандартные подсказки для кнопок отображаются<lf>независимо от того, убран рог или находится<lf>в руках. Список эффектов мелодий показывается<lf>только при удерживании <ICON PL_ITEM_SLIDER_OPEN>, когда рог в руках.
 <string>Общая громкость
 <string>Настройка общей громкости звука.<lf><COLOR preset="TXT_Accent">(Не влияет на громкость голосового чата.)</COLOR>
 <string>Громкость голоса
-<string>Настройка громкости голосов в игре.
+<string>Настройка громкости голосов в игре.
 <string>Громкость голоса (отправка автоматических фраз)
-<string>Настройка громкости автоматических фраз.
+<string>Настройка громкости собственных автоматических фраз.
 <string>Громкость голоса (получение автоматических фраз)
-<string>Настройка громкости голосов в игре<lf>при получении автоматических фраз.
+<string>Настройка громкости чужих автоматических фраз.
 <string>Громкость фоновой музыки
 <string>Настройка громкости фоновой музыки.
 <string>Громкость звуковых эффектов
 <string>Настройка громкости звуковых эффектов.
 <string>Источник звука
-<string>Выбор источника звука для повышения<lf>качества воспроизведения.
+<string>Выбор устройства воспроизведения звука<lf>для повышения качества звучания с учётом<lf>особенностей вашего игрового места.
 <string>ТВ
 <string>Настройки звука для динамиков телевизора.
 <string>ТВ (объёмный звук)
@@ -1253,82 +1263,87 @@
 <string>Музыкальный воротник
 <string>Настройки звука для музыкального воротника.
 <string>Ночной режим
-<string>Настройки звука, подходящие для игры на пониженной громкости.
+<string>Настройки для игры на пониженной громкости.
 <string>Звук моно
-<string>Включение или отключение звука моно.
-<string>Включить
-<string>Все звуки игры объединены в один канал.<lf><COLOR preset="TXT_Accent">(Правый и левый динамики воспроизводят<lf>одно и то же.)</COLOR>
-<string>Отключить
-<string>Звуки игры воспроизводятся в формате стерео.
+<string>Включение или отключение монофонического<lf>звука.
+<string>Вкл.
+<string>Звук в игре проигрывается в режиме моно.<lf><COLOR preset="TXT_Accent">(Правый и левый динамики воспроизводят<lf>одно и то же.)</COLOR>
+<string>Откл.
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>Режим моно для звука в игре отключён.<lf>Весь звук проигрывается в соответствии<lf>с настройками вывода звука вашей<lf>оперативной системы.
 <string>Вывод звука
-<string>Просмотр информации о выводе звука.
+<string>Информация о выводе звука.
+<string>Устройство вывода
+<string>3D-звук
+<string>Вкл.
+<string>Откл.
 <string>Голосовой чат
 <string>Включение или отключение голосового чата.
-<string>Включить
+<string>Вкл.
 <string>Включить голосовой чат.
-<string>Отключить
+<string>Откл.
 <string>Отключить голосовой чат.
 <string>Включение по клавише
-<string>Зажмите выбранную клавишу,<lf>чтобы другие игроки вас слышали.<lf><COLOR preset="TXT_Accent">(Подходит только для клавиатуры.)</COLOR>
+<string>Другие игроки слышат вас, пока вы удерживаете<lf>нажатой назначенную клавишу.<lf><COLOR preset="TXT_Accent">(Доступно только при использовании клавиатуры.)</COLOR>
 <string>Громкость голосового чата
-<string>Настройка громкости речи участников<lf>голосового чата.
-<string>Автоматич. смена каналов чата
-<string>Позволяет включить автоматическое переключение<lf>между каналами чата при смене статуса поручения.<lf><COLOR preset="TXT_Accent">(Переключение вручную доступно всегда.)</COLOR>
+<string>Настройка громкости участников голосового чата.
+<string>Автоматическая смена каналов чата
+<string>Включение или отключение автоматической смены<lf>канала чата при изменении статуса поручения.<lf><COLOR preset="TXT_Accent">(Переключение вручную доступно всегда.)</COLOR>
 <string>Приоритет: исполнители поручения
-<string>Начав выполнять поручение, автоматически<lf>переключаться на голосовой чат исполнителей,<lf>а завершив его — на канал общего отряда.
+<string>Начав выполнять поручение, автоматически<lf>переключаться на голосовой чат исполнителей,<lf>а завершив его — на канал общего отряда.
 <string>Приоритет: общий отряд
-<string>После присоединения к общему отряду<lf>автоматически переключаться на его канал,<lf>независимо от статуса поручения.
-<string>Отключить
-<string>Отключить автопереключение между чатами.<lf>Переключение производится вручную.
-<string>Язык палико
-<string>Выбор языка, на котором говорят палико.
+<string>После присоединения к общему отряду<lf>автоматически переключаться на его голосовой<lf>чат, независимо от статуса поручения.
+<string>Без приоритета
+<string>Не отдавать предпочтение какому-либо<lf>из голосовых чатов и не переключаться<lf>автоматически между ними. Выбирать<lf>чат необходимо вручную.
 <string>Язык коттов
-<string>Все котты, включая котта игрока, говорят<lf>на своём языке. <COLOR preset="TXT_Accent">(Голос, выбранный при создании<lf>персонажа, не используется.)</COLOR>
+<string>Выбор языка, на котором говорят котты.
+<string>Язык коттов
+<string>Все котты, включая палико игрока, говорят<lf>на своём языке. <COLOR preset="TXT_Accent">(Голос, выбранный при</COLOR><lf><COLOR preset="TXT_Accent">создании персонажа, не используется.)</COLOR>
 <string>Заданный тип голоса
-<string>Все палико, включая палико игрока, говорят<lf>голосом, выбранным при создании персонажа.
-<string>Неактивное окно: голос
-<string>Настройка параметров воспроизведения<lf>голоса при неактивном игровом окне.
-<string>Включить
-<string>Воспроизводить даже при неактивном окне.
-<string>Отключить
-<string>Не воспроизводить при неактивном окне.
-<string>Неактивное окно: фон. музыка
-<string>Настройка параметров воспроизведения фоновой<lf>музыки при неактивном игровом окне.
-<string>Воспроизводить даже при неактивном окне.
-<string>Не воспроизводить при неактивном окне.
-<string>Неактивное окно: звук. эффекты
-<string>Настройка параметров воспроизведения звуковых<lf>эффектов при неактивном игровом окне.
-<string>Воспроизводить даже при неактивном окне.
-<string>Не воспроизводить при неактивном окне.
+<string>Все котты, включая палико игрока, говорят<lf>голосом, выбранным при создании персонажа.<lf><COLOR preset="TXT_Accent">(Язык коттов использоваться не будет.)</COLOR>
+<string>Голоса в фоновом режиме
+<string>Настройка параметров воспроизведения голоса<lf>для случаев, когда окно игры неактивно.
+<string>Вкл.
+<string>Воспроизводить, даже если окно игры неактивно.
+<string>Откл.
+<string>Не воспроизводить, если окно игры неактивно.
+<string>Музыка в фоновом режиме
+<string>Настройка параметров воспроизведения музыки<lf>для случаев, когда окно игры неактивно.
+<string>Воспроизводить, даже если окно игры неактивно.
+<string>Не воспроизводить, если окно игры неактивно.
+<string>Эффекты в фоновом режиме
+<string>Настройка параметров воспроизведения звуковых эффектов<lf>для случаев, когда окно игры неактивно.
+<string>Воспроизводить, даже если окно игры неактивно.
+<string>Не воспроизводить, если окно игры неактивно.
 <string>Помощь при цветовой слепоте
 <string>Настройка изображения для людей<lf>с особенностями цветовосприятия.
-<string>Трихромазия
+<string>Трихромазия (без изменений)
 <string>Протанопия
 <string>Дейтеранопия
 <string>Тританопия
 <string>Помощь при арахнофобии
-<string>Изменение внешнего вида многоногих существ:<lf>паукообразных, насекомых и эндемиков.<lf><COLOR preset="TXT_Accent">(Не меняет движения существ и сложность игры.)</COLOR>
-<string>Включить
-<string>Изменить внешний вид некоторых мелких<lf>монстров и представителей уникальной фауны,<lf>чтобы они меньше напоминали пауков.
-<string>Отключить
+<string>Изменение внешнего вида многоногих мелких<lf>монстров и уникальной фауны.<lf><COLOR preset="TXT_Accent">(Не меняет движения существ и сложность игры.)</COLOR>
+<string>Вкл.
+<string>Изменение внешнего вида некоторых мелких<lf>монстров и представителей уникальной фауны<lf>с тем, чтобы они меньше напоминали пауков.
+<string>Откл.
 <string>Не менять внешний вид мелких монстров<lf>и представителей уникальной фауны,<lf>похожих на пауков или насекомых.
 <string>Специальные возможности: графика
 <string>Изменение всех параметров на рекомендованные<lf>для людей, которым требуется визуальная помощь.<lf>Доступна подробная информация о каждом параметре.
 <string>Применить рекомендуемые специальные<lf>параметры графики?
 <string>Специальные возможности: звук
-<string>Изменение всех параметров на рекомендованные<lf>для людей с нарушениями слуха. Доступна<lf>подробная информация о каждом параметре.
+<string>Изменение всех параметров на рекомендованные<lf>для людей, которым требуется слуховая помощь.<lf>Доступна подробная информация о каждом параметре.
 <string>Применить рекомендуемые специальные<lf>параметры звука?
 <string>Предотвращение укачивания
 <string>Изменение всех параметров на рекомендованные<lf>для предотвращения укачивания. Доступна<lf>подробная информация о каждом параметре.
 <string>Применить параметры, рекомендуемые<lf>для предотвращения укачивания?
 <string>Автоматическая настройка
-<string>Изменение параметров в соответствии<lf>с характеристиками вашего устройства.
-<string>Настройка размера текста и интерфейса с учётом особенностей<lf>игрового места. Выберите наиболее подходящий вариант,<lf>и необходимые параметры будут изменены автоматически.
+<string>Изменение параметров с учётом особенностей<lf>вашего игрового места.
+<string>Настройка размера интерфейса и текста с учётом особенностей игрового места.<lf>Выберите наиболее подходящий вариант, и необходимые изменения параметров<lf>будут сделаны автоматически.
 <string>Автонастройка: за комп. столом
-<string>Набор параметров для максимально комфортной игры<lf>за компьютерным столом.
+<string>Автоматическая настройка параметров для максимально<lf>комфортной игры за компьютерным столом.
 <string>Применить параметры для игры за<lf>компьютерным столом?
 <string>Автонастройка: в гостиной
-<string>Набор параметров для максимально комфортной игры<lf>на удалении от экрана — например, в гостиной.
+<string>Автоматическая настройка параметров для максимально<lf>комфортной игры на удалении от экрана — например,<lf>в гостиной.
 <string>Применить параметры для игры<lf>в гостиной?
 <string>Язык текста
 <string>Выбор языка текста.<lf><COLOR preset="TXT_Accent">(Изменения вступят в силу после<lf>выхода из меню параметров.)</COLOR>
@@ -1346,8 +1361,8 @@
 <string><REF RefLanguage_0000_011_0>
 <string><REF RefLanguage_0000_009_0>
 <string><REF RefLanguage_0000_012_0>
-<string>Язык озвучения
-<string>Выбор языка для озвученных реплик.
+<string>Язык озвучки
+<string>Настройка параметров языка озвучки.
 <string><REF RefLanguage_0000_000>
 <string><REF RefLanguage_0000_001>
 <string><REF RefLanguage_0000_002>

@@ -20,7 +20,6 @@
 <string>{0}
 <string>{0}
 <string>{0}
-<string>{0}
 <string>–
 <string>–
 <string>:
@@ -35,7 +34,7 @@
 <string>+{0}
 <string>-
 <string>x
-<string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
+<string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
 <string>?
@@ -50,8 +49,8 @@
 <string>Non
 <string> ou 
 <string>et
-<string>{0:F2}
-<string>Niveau 
+<string><NUMBER {0:F2}>
+<string>Niveau
 <string>Rareté
 <string>???
 <string>???
@@ -61,11 +60,11 @@
 <string>------
 <string>(Rien)
 <string>Pas d'infos
-<string>Inconnue
+<string>(Inconnu)
 <string>Max
 <string>******
 <string>Afficher
-<string>Cacher
+<string>Masquer
 <string>--/--/---- --:--
 <string><DATETIME {0} "DD/MM/YYYY HH:mm">
 <string><DATETIME {0} "DD/MM/YYYY HH:mm""{1}">
@@ -104,7 +103,7 @@
 <string>Nom
 <string><PLATMSG RefGeneral_0018_001>
 <string>ID en ligne
-<string>Nom du profile
+<string>Nom du profil
 <string>ID de Chasseur
 <string>RC {0}
 <string>RC
@@ -120,6 +119,6 @@
 <string>Magasin en ligne
 <string>Magasin Steam
 <string><PLATMSG RefGeneral_0024>
-<string>DLC
-<string>DLC
+<string>Contenu téléchargeable
+<string>Contenu téléchargeable
 <string>Serveur

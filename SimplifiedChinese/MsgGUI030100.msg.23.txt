@@ -5,7 +5,7 @@
 <string>初始化选中的项目
 <string>初始化全部项目
 <string>要初始化选中的项目吗？
-<string>要初始化全部项目吗？
+<string>要初始化全部项目吗？<lf>（包括当前显示类别以外的所有项目）
 <string>全部
 <string><PLATMSG MsgGUI030100_0401>
 <string>共通 + 控制器
@@ -23,11 +23,15 @@
 <string>无障碍功能
 <string>语言
 <string>隐私
+<string><PLATMSG MsgGUI030100_01_42>
 <string>确定操作设置
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>设置用于确定的操作方式。
 <string>使用<ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
 <string>使用<ICON PAD UI_DUMMY_ICON_RDOWN>确定。
 <string>使用<ICON PAD UI_DUMMY_ICON_RRIGHT>
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
 <string>使用<ICON PAD UI_DUMMY_ICON_RRIGHT>确定。
 <string>冲刺操作
 <string>设置进行冲刺操作的指令。<lf><COLOR preset="TXT_Accent">（不影响骑乘鹭鹰龙时的操作）</COLOR>
@@ -70,7 +74,7 @@
 <string>自动纳刀设置
 <string>设置在拔刀后是否在一定时间后自动纳刀。
 <string>自动纳刀
-<string>拔刀后一段时间内，如果未进行攻击或回避等动作，<lf>将自动纳刀。战斗时不会自动纳刀。
+<string>拔刀后一定时间内，如果未进行攻击或回避等动作，<lf>将自动纳刀。战斗时不会自动纳刀。
 <string>不自动纳刀
 <string>拔刀后不会自动纳刀。
 <string>方向指定类型
@@ -91,11 +95,11 @@
 <string>召唤<REF RefGeneral_0014_01>的方法
 <string>设置召唤<REF RefGeneral_0014_01>的操作方式。
 <string>类型 1
-<string>通过<ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL>或自定义快捷方式召唤<REF RefGeneral_0014_01>。
+<string>通过<ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>或自定义快捷方式召唤<REF RefGeneral_0014_01>。
 <string>类型 2
-<string>除类型1的操作外，纳刀时长按<ICON PAD PL_PT_CALL_KEEP>也可以在自动移<lf>动状态下召唤<REF RefGeneral_0014_01>。
+<string>除类型1的操作外，纳刀状态时，也可以通过<ICON PL_PT_CALL_KEEP><lf>召唤自动移动状态的<REF RefGeneral_0014_01>。
 <string>类型 3
-<string>除类型1的操作外，纳刀状态时长按<ICON PAD PL_PT_CALL_KEEP>也可以召唤<lf>手动移动状态的<REF RefGeneral_0014_01>。
+<string>除类型1的操作外，纳刀状态时，也可以通过<ICON PL_PT_CALL_KEEP><lf>召唤手动移动状态的<REF RefGeneral_0014_01>。
 <string>召唤<REF RefGeneral_0014_01>时的初始操作状态
 <string>设置通过自定义快捷方式召唤时，<REF RefGeneral_0014_01>的初始操作状态。
 <string>自动移动
@@ -105,29 +109,29 @@
 <string><REF RefGeneral_0014_01>手动操作设置
 <string>设置<REF RefGeneral_0014_01>手动移动时的操作方式。
 <string>类型 1
-<string>与<REF RefGeneral_0014_01>自动移动时共通的操作方式。<lf>不用<ICON PAD PL_DUMMY_MOVE>也会维持当前速度前进。<lf>用<ICON PAD PL_PT_SPEED_UP>加速，用<ICON PAD PL_PT_SPEED_DOWN>减速，长按<ICON PAD PL_PT_SPEED_DOWN>急停。
+<string>与<REF RefGeneral_0014_01>自动移动时共通的操作方式。<lf>不用<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>也会维持当前速度前进。<lf>用<ICON PL_PT_SPEED_UP>加速，用<ICON PL_PT_SPEED_DOWN>减速，长按<ICON PL_PT_SPEED_DOWN>急停。
 <string>类型 2
-<string>类似角色移动时的操作方式。<lf>仅在推动<ICON PAD PL_DUMMY_MOVE>时才会前进，松开后即停止。<lf>移动速度随推动<ICON PAD PL_DUMMY_MOVE>的角度而改变。
+<string>类似角色移动时的操作方式。<lf>仅在<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>时才会前进，松开后即停止。
 <string><REF RefGeneral_0014_01>路线移动操作设置
 <string>设置<REF RefGeneral_0014_01>沿行进路线前进时，脱离路线的操作方式。
 <string>类型 1
-<string>以最大速度移动时，推动<ICON PAD PL_DUMMY_MOVE>即可脱离<REF RefGeneral_0014_01>当前的<lf>行进路线。
+<string>以最大速度移动时，可用<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>脱离<REF RefGeneral_0014_01><lf>当前的行进路线。
 <string>类型 2
-<string>无论<REF RefGeneral_0014_01>以何种速度移动，推动<ICON PAD PL_DUMMY_MOVE>并按<ICON PAD PL_INTERACT_ACTION_START>，即可脱<lf>离行进路线。
-<string>道具操作设置
-<string>设置选择道具与切换快捷盘的操作。
-<string>类型 1
-<string>通过<ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET>在道具快捷栏中选择道具。
-<string>类型 2
-<string>通过<ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET>切换自定义快捷盘。
-<string>道具快捷栏操作设置
-<string>设置道具快捷栏的操作方式。
-<string>全展开模式设置
-<string>变更道具快捷栏全展开模式的设置。
-<string>启用
-<string>启用道具快捷栏的全展开模式。
-<string>停用
-<string>停用道具快捷栏的全展开模式。
+<string>无论<REF RefGeneral_0014_01>的行进速度，输入<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>并按<ICON PL_INTERACT_ACTION_START>，<lf>即可脱离行进路线。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>全展开模式切换操作
 <string><PLATMSG MsgGUI030100_01_16_HELP>
 <string>设置道具快捷栏切换至全展开模式的操作方式。<lf><COLOR preset="TXT_Accent">（控制器操作专用）</COLOR>
@@ -136,7 +140,7 @@
 <string>类型 2
 <string><ICON PAD PL_ITEM_SLIDER_OPEN>时按<ICON PAD UI_ITEM_ALL_OPT2>，即可切换全展开模式与普通模式。
 <string>类型 3
-<string><ICON PAD PL_ITEM_SLIDER_OPEN>时长按<ICON PAD UI_ITEM_ALL_OPT3>保持全展开模式。
+<string><ICON PAD PL_ITEM_SLIDER_OPEN>并<ICON PAD UI_ITEM_ALL_OPT3>期间保持全展开模式。
 <string>类型 4
 <string><ICON PAD PL_ITEM_SLIDER_OPEN>时按<ICON PAD UI_ITEM_ALL_OPT4>，即可切换全展开模式与普通模式。
 <string>类型 5
@@ -151,7 +155,7 @@
 <string>键盘操作时无法使用道具快捷栏的全展开模式。
 <string>全展开模式下的光标移动速度
 <string><PLATMSG MsgGUI030100_01_01_Help>
-<string>设置道具快捷栏全展开模式中，推动摇杆时光标的移动速度。
+<string>设置道具快捷栏全展开模式中，<ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT>操作时光标的<lf>移动速度。
 <string>慢
 <string>光标将以慢于标准的速度移动。
 <string>标准
@@ -164,51 +168,51 @@
 <string>显示所有列的道具纵向堆叠。
 <string>仅显示选中列
 <string>在展开的列中，仅显示当前选中列的道具纵向堆叠。
-<string>全展开模式中的道具选择操作
-<string>设置在道具快捷栏全展开模式中，是否可用<ICON PAD UI_ITEM_LEFT>和<ICON PAD UI_ITEM_RIGHT><lf>选择道具。
-<string>启用
-<string>在道具快捷栏全展开模式中，可以用<ICON PAD UI_ITEM_LEFT>和<ICON PAD UI_ITEM_RIGHT>选择<lf>道具。
-<string>停用
-<string>在道具快捷栏全展开模式中，不能用<ICON PAD UI_ITEM_LEFT>和<ICON PAD UI_ITEM_RIGHT>选择<lf>道具。
-<string>全展开模式中的弹药／瓶选择操作
-<string>设置是否能用<ICON PAD UI_BULLET_ITEM_UP>和<ICON PAD UI_BULLET_ITEM_DOWN><lf>在道具快捷栏全展开模式中选择弹药／瓶。
-<string>启用
-<string>在道具快捷栏全展开模式中，可以用<ICON PAD UI_BULLET_ITEM_UP>和<ICON PAD UI_BULLET_ITEM_DOWN>选择<lf>弹药／瓶。
-<string>停用
-<string>在道具快捷栏全展开模式中，不能用<ICON PAD UI_BULLET_ITEM_UP>和<ICON PAD UI_BULLET_ITEM_DOWN><lf>选择弹药／瓶。
-<string>全展开模式的道具使用操作
-<string>设置是否能用<ICON PAD UI_ITEM_USE>在道具快捷栏全展开模式中使用道具。
-<string>启用
-<string>在道具快捷栏全展开模式中，可通过<ICON PAD UI_ITEM_USE>使用道具。
-<string>停用
-<string>在道具快捷栏全展开模式中，不可通过<ICON PAD UI_ITEM_USE>使用道具。
-<string><PLATMSG MsgGUI030100_01_48>
-<string>全展开模式的方向键操作
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>设置在道具快捷栏全展开模式中，方向键的操作类型。
-<string>类型 1
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>遵循“方向键及按键操作设置”的设置。<lf>道具快捷栏全展开模式时，按方向键将对应为<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET>的功能。
-<string>类型 2
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>在道具快捷栏全展开模式中，方向键始终对应道具<lf>快捷栏的操作。
-<string>类型 3
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>在道具快捷栏全展开模式中，方向键始终对应道具<lf>快捷栏，以及弹药快捷栏的操作。
-<string>类型 4
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>在道具快捷栏全展开模式中，方向键操作无效。
-<string>全展开模式中的<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>操作
-<string>设置道具快捷栏全展开模式中<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>的操作类型。
-<string>类型 1
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>遵循“方向键及按键操作设置”的设置。<lf>道具快捷栏全展开模式时，按<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>将对应为<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>的功能。
-<string>类型 2
-<string>在道具快捷栏全展开模式中，<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>始终对应<lf>道具快捷栏的操作。
-<string>类型 3
-<string>在道具快捷栏全展开模式中，<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>始终对应<lf>道具快捷栏，以及弹药快捷栏的操作。
-<string>类型 4
-<string>在道具快捷栏全展开模式中，<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>操作无效。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>自定义快捷方式操作设置
 <string>设置自定义快捷方式的操作方式。
 <string>自定义快捷方式设置
@@ -334,15 +338,15 @@
 <string>不保存
 <string>不保存关闭开始菜单时的光标位置。<lf>每次打开菜单时，光标会出现在初始位置。
 <string>地图瞬间缩小／放大
-<string>设置是否启用自适应扳机功能，以在<ICON UI_MAP3D_ZOOM_OUT>／<ICON UI_MAP3D_ZOOM_IN>按至最深时瞬间<lf>缩小／放大原野地图。
+<string>设置是否启用自适应扳机功能，以在<ICON PAD UI_MAP3D_ZOOM_OUT>／<ICON PAD UI_MAP3D_ZOOM_IN>按至最深时瞬间<lf>缩小／放大原野地图。
 <string>启用
-<string>启用自适应扳机功能，<ICON UI_MAP3D_ZOOM_OUT>／<ICON UI_MAP3D_ZOOM_IN>按至最深时，可瞬间<lf>放大／缩小原野地图。
+<string>启用自适应扳机功能，<ICON PAD UI_MAP3D_ZOOM_OUT>／<ICON PAD UI_MAP3D_ZOOM_IN>按至最深时，可瞬间<lf>放大／缩小原野地图。
 <string>停用
-<string>停用自适应扳机功能，通过<ICON UI_MAP3D_ZOOM_OUT>／<ICON UI_MAP3D_ZOOM_IN>操作原野地图时<lf>仅会以正常速度放大／缩小。
+<string>停用自适应扳机功能，通过<ICON PAD UI_MAP3D_ZOOM_OUT>／<ICON PAD UI_MAP3D_ZOOM_IN>操作原野地图时<lf>仅会以正常速度放大／缩小。
 <string>横向视角速度：通常时
 <string>设置通常时候的视角横向移动速度。
 <string>纵向视角速度：通常时
-<string>设置通常时候的视角速度（纵向）。
+<string>设置通常时候的视角纵向移动速度。
 <string>视角灵敏度：通常时
 <string>设置通常时候的鼠标操作灵敏度。数值设置得越高，<lf>移动鼠标时视角的移动幅度越大。
 <string>视角灵敏度左右校正：通常时
@@ -387,10 +391,10 @@
 <string>设置按<ICON PL_AIM>时的视角操作反转。<lf>启用“视角操作反转：拔刀后的详细设定”时，本设置将仅适<lf>用于纳刀状态。
 <string>视角操作反转：拔刀后的详细设定
 <string>启用后，可以分别设置近战及远程武器拔刀后按<ICON PL_AIM>时的<lf>视角反转。
-<string>近战武器按<ICON PL_AIM>时
-<string>设置近战武器拔刀后按<ICON PL_AIM>（集中模式）时，<lf>视角的操作反转。
-<string>远程武器按<ICON PL_AIM>时
-<string>设置远程武器拔刀后按<ICON PL_AIM>（集中模式）时，<lf>视角的操作反转。
+<string>近战武器<ICON PL_AIM>时
+<string>设置近战武器拔刀后<ICON PL_AIM>（集中模式）时，<lf>视角的操作反转。
+<string>远程武器<ICON PL_AIM>时
+<string>设置远程武器拔刀后<ICON PL_AIM>（集中模式）时，<lf>视角的操作反转。
 <string>瞄准线的操作反转
 <string>设置使用弓的曲射以及重弩炮扩散弹时，瞄准线的前后操作。
 <string>前后：标准
@@ -404,7 +408,7 @@
 <string>盲区：下限
 <string>设置视角操作时可反应的最小输入幅度。
 <string>反应曲线
-<string>设置操作视角时，指令输入影响的移动加速度。
+<string>设置视角操作时对应的移动加速度。
 <string>盲区：上限
 <string>设置视角操作时可反应的最大输入幅度。
 <string>视角距离：前后
@@ -424,9 +428,9 @@
 <string>视角空间校正
 <string>设置要捕捉更广阔空间时的视角校正程度。
 <string>横向移动视角校正：通常时
-<string>设置视角校正程度，以决定步行或奔跑横移时，视角能捕捉到<lf>的行进方向前方的范围。
+<string>设置视角校正程度，在步行或奔跑横移时，决定视角所能捕捉<lf>的行进方向前方的范围。
 <string>横向移动视角校正：骑乘时
-<string>设置视角校正程度，以决定骑乘<REF RefGeneral_0014_01>横向移动时，视角能够<lf>捕捉到的行进方向前方的范围。
+<string>设置视角校正程度，在骑乘<REF RefGeneral_0014_01>横向移动时，决定视角所能<lf>捕捉的行进方向前方的范围。
 <string>自动居中：通常时
 <string>设置是否进行视角校正，以保证步行或奔跑移动时视角朝向<lf>前进的方向。
 <string>开
@@ -462,24 +466,24 @@
 <string>瞄准／集中模式切换设置
 <string>设置切换至瞄准／集中模式的操作方式。<lf>启用“瞄准／集中模式切换详细设置”时，本设置将仅适用于<lf>纳刀状态。
 <string>长按<ICON PAD PL_AIM>保持状态
-<string>拔刀后长按<ICON PAD PL_AIM>，近战武器将保持集中模式，远程武<lf>器将保持瞄准／集中模式。纳刀状态时，将保持投射<lf>器瞄准状态。
-<string>按<ICON PAD PL_AIM>切换状态
-<string>拔刀后按<ICON PAD PL_AIM>，近战武器将切换至集中模式，远程武<lf>器将切换至瞄准／集中模式。纳刀状态时，将以投射<lf>器瞄准。再按一次<ICON PAD PL_AIM>解除。
-<string>拔刀后按<ICON PAD PL_AIM>，近战武器将切换至集中模式，远程<lf>武器将切换至瞄准／集中模式。
+<string>拔刀后<ICON PAD PL_AIM>期间，近战武器将保持集中模式，远程武<lf>器将保持瞄准／集中模式。纳刀状态时，将保持投射<lf>器瞄准状态。
+<string>按<ICON PAD PL_AIM_TOGGLE>切换状态
+<string>拔刀后按<ICON PAD PL_AIM_TOGGLE>，近战武器将切换至集中模式，远程武<lf>器将切换至瞄准／集中模式。纳刀状态时，将以投射<lf>器瞄准。再按一次解除。
+<string>拔刀后按<ICON PAD PL_AIM_TOGGLE>，近战武器将切换至集中模式，远程<lf>武器将切换至瞄准／集中模式。
 <string>瞄准／集中模式切换详细设置
-<string>启用后，可以分别设置近战及远程武器拔刀后，<lf>切换至瞄准／集中模式的操作方式。
+<string>可以分别设置近战及远程武器拔刀后，切换至<lf>瞄准／集中模式的操作方式。<lf><COLOR preset="TXT_Accent">（不适用于纳刀时的投射器瞄准操作）</COLOR>
 <string>装备近战武器时的切换操作
 <string>设置装备近战武器时切换至集中模式的操作方式。
-<string>长按<ICON PAD PL_AIM>保持
+<string><ICON PAD PL_AIM>期间保持
 <string>近战武器拔刀后<ICON PAD PL_AIM>期间，将保持集中模式。
-<string>按<ICON PAD PL_AIM>切换
-<string>近战武器拔刀后按<ICON PAD PL_AIM>切换至集中模式，<lf>再按一次解除。
+<string>按<ICON PAD PL_POP_CHANGE_SELECT>切换
+<string>近战武器拔刀后按<ICON PAD PL_POP_CHANGE_SELECT>切换至集中模式，<lf>再按一次解除。
 <string>装备远程武器时的切换操作
 <string>设置装备远程武器时切换至瞄准／集中模式的操作方式。
-<string>长按<ICON PAD PL_AIM>保持
+<string><ICON PAD PL_AIM>期间保持
 <string>远程武器拔刀后<ICON PAD PL_AIM>期间，将保持瞄准／集中模式。
-<string>按<ICON PAD PL_AIM>切换
-<string>远程武器拔刀后按<ICON PAD PL_AIM>，将切换至瞄准／集中模式，<lf>再按一次解除。
+<string>按<ICON PAD PL_POP_CHANGE_SELECT>切换
+<string>远程武器拔刀后按<ICON PAD PL_POP_CHANGE_SELECT>，将切换至瞄准／集中模式，<lf>再按一次解除。
 <string>目标视角操作类型
 <string>设置目标视角和重置视角的操作方式。
 <string>类型 1
@@ -487,9 +491,9 @@
 <string>类型 2
 <string>按1次<ICON PL_CAMERA_RESET>时视角朝向玩家面对的方向；按2次时朝<lf>向目标怪物。
 <string>类型 3
-<string>按1次<ICON PL_CAMERA_RESET>时视角朝向目标怪物；按2次时视角不会<lf>变化。
+<string>按<ICON PL_CAMERA_RESET>后，视角会一直朝向目标怪物。
 <string>类型 4
-<string>按1次<ICON PL_CAMERA_RESET>时视角朝向玩家面对的方向；按2次时视<lf>角不会变化。
+<string>按<ICON PL_CAMERA_RESET>后，视角会一直朝向玩家面对的方向。
 <string>类型 5
 <string>按<ICON PL_CAMERA_RESET>不会改变视角。
 <string>重置视角后的方向
@@ -545,7 +549,7 @@
 <string>联动
 <string>将怪物定为目标或解除时，也将自动设置或解除<lf>使命／任务目标。
 <string>仅在将怪物定为目标时联动
-<string>将怪物定为目标时，也将自动设置使命／任务目标。<lf>解除怪物目标设置时，不解除使命／任务目标设置。
+<string>将怪物定为目标时，也将自动设置使命／任务目标。<lf>解除怪物目标设置时，不解除使命／任务目标。
 <string>不联动
 <string>将怪物定为目标或解除时，不会影响使命／任务<lf>目标。
 <string>导虫视角追踪
@@ -591,7 +595,7 @@
 <string>近战武器<ICON PAD PL_AIM>时（横向）
 <string><PLATMSG MsgGUI030100_02_60_Help>
 <string>设置近战武器拔刀后<ICON PAD PL_AIM>时（集中模式），<lf>视角操作（陀螺仪功能）的横向灵敏度。
-<string>近战武器<ICON PAD PL_AIM>（纵向）
+<string>近战武器<ICON PAD PL_AIM>时（纵向）
 <string><PLATMSG MsgGUI030100_02_61_Help>
 <string>设置近战武器拔刀后<ICON PAD PL_AIM>时（集中模式），<lf>视角操作（陀螺仪功能）的纵向灵敏度。
 <string>远程武器<ICON PAD PL_AIM>时（横向）
@@ -711,7 +715,7 @@
 <string><NUMBER {0}>GB
 <string>显卡驱动版本
 <string><NUMBER {0}>
-<string>DirectStrage
+<string>DirectStorage
 <string>支持
 <string>不支持
 <string>GB
@@ -737,11 +741,11 @@
 <string>超分辨率技术
 <string>应用下列任意超分辨率技术，可同时实现高性能与高画质。
 <string>NVIDIA DLSS
-<string>启用NVIDIA DLSS 3.5。<lf><COLOR preset="TXT_Accent">（仅在使用 NVIDIA GeForce RTX 显卡时可以设置）</COLOR><lf><COLOR preset="TXT_Accent">（如果使用 GeForce RTX 40 系列显卡，并且在操<lf>　作系统中启用了硬件加速的显示芯片调度，则选择<lf>　此选项可以启用“帧生成”设置）</COLOR>
-<string>AMD FSR 3
-<string>启用AMD FSR 3.0.3。<lf><COLOR preset="TXT_Accent">（如果在操作系统中启用了硬件加速的显示芯片调<lf>　度，则选择此选项可以启用“帧生成”设置）</COLOR>
+<string>启用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（仅在使用 NVIDIA GeForce RTX 显卡时可以设置）</COLOR><lf><COLOR preset="TXT_Accent">（如果使用 GeForce RTX 40 系列显卡，并且在操<lf>　作系统中启用了硬件加速的显示芯片调度，则选择<lf>　此选项可以启用“帧生成”设置）</COLOR>
+<string>AMD FSR
+<string>启用<FSR>。<lf><COLOR preset="TXT_Accent">（如果在操作系统中启用了硬件加速的显示芯片调<lf>　度，则选择此选项可以启用“帧生成”设置）</COLOR>
 <string>Intel XeSS
-<string>启用Intel XeSS 1.3。
+<string>启用Intel <XESS>。
 <string>不启用
 <string>不启用超分辨率技术。
 <string>帧生成
@@ -758,7 +762,7 @@
 <string>NVIDIA DLAA
 <string>保持原始分辨率，并使用AI抗锯齿功能。
 <string>AMD Native AA
-<string>保持原始分辨率，并使用FSR 3的抗锯齿功能。
+<string>保持原始分辨率，并使用FSR的抗锯齿功能。
 <string>Intel XeSS Native AA
 <string>保持原始分辨率，并使用XeSS的抗锯齿功能。
 <string>画质优先
@@ -772,7 +776,7 @@
 <string>关
 <string>不启用超分辨率技术时，会自动选择此项。
 <string>超分辨率锐度
-<string>设置启用超分辨率技术时的画面锐度。<lf>数值越高，画面越锐利，数值越低，画面越柔和。<lf><COLOR preset="TXT_Accent">（此设置仅能在启用“超分辨率技术”时变更）</COLOR>
+<string>设置启用超分辨率技术时的画面锐度。<lf>数值越高，画面越锐利，数值越低，画面越柔和。<lf><COLOR preset="TXT_Accent">（仅能在“超分辨率技术”设置为“AMD FSR”时变更）</COLOR>
 <string>抗锯齿
 <string>切换抗锯齿模式。<lf><COLOR preset="TXT_Accent">（此设置仅能在未启用“超分辨率技术”时变更）</COLOR>
 <string>FXAA + TAA
@@ -781,13 +785,15 @@
 <string>渲染比例
 <string>设置游戏的渲染分辨率放大系数，以百分比显示。<lf><COLOR preset="TXT_Accent">（此设置仅能在未启用“超分辨率技术”时变更）</COLOR>
 <string>光线追踪
-<string>设置使用光线追踪的光反射和折射品质。
+<string>设置使用光线追踪的光反射品质。
 <string>最高
 <string>高
 <string>中
 <string>低
 <string>最低
 <string>关
+<string>中央处理器
+<string>显示芯片
 <string>纹理品质
 <string>设置物体表面的纹理分辨率。
 <string>最高（高分辨率纹理）
@@ -814,11 +820,11 @@
 <string>设置随从艾露猫等生物的毛皮画质。
 <string>高
 <string>低
-<string>多细节层次
-<string>设置游戏中根据情况渲染的模型品质。
-<string>最高
-<string>高
-<string>中
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>天空／云朵品质
 <string>设置天空及云朵的渲染品质。
 <string>最高
@@ -842,11 +848,11 @@
 <string>高
 <string>低
 <string>地面品质
-<string>设置玩家附近地面或地形变形时的地面画质。
+<string>设置玩家附近地面或地形变形时的地面画质。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
 <string>高
 <string>低
-<string>沙／雪／水面品质
-<string>设置沙、雪、水面等的渲染品质。
+<string>沙／雪品质
+<string>设置沙、雪等的渲染品质。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
 <string>最高
 <string>高
 <string>中
@@ -861,7 +867,11 @@
 <string>中
 <string>低
 <string>渲染消隐距离
-<string>设置所有生物的显示距离，如大厅中的玩家、NPC、怪物、<lf>环境生物等。超出距离的生物将不会显示。
+<string>设置所有生物的显示距离，如大厅中的玩家、NPC、怪物、<lf>环境生物等。超出距离的生物将不会显示。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>不忽略更远距离的生物，进行最大程度的渲染。
+<string>不忽略远距离的生物，并渲染至该范围。
+<string>不忽略标准距离的生物，并渲染至该范围。
+<string>只显示近距离的生物，减少渲染负荷。
 <string>光影品质
 <string>设置光影表现的渲染品质。
 <string>最高
@@ -906,7 +916,7 @@
 <string>开
 <string>关
 <string>屏幕空间反射
-<string>设置是否启用提高反射效果的功能。
+<string>设置是否启用提高反射效果的功能。<lf><COLOR preset="TXT_Accent">（仅能在“光线追踪”设置为“关”时变更）</COLOR>
 <string>开
 <string>关
 <string>屏幕空间次表面散射
@@ -1003,8 +1013,8 @@
 <string>设置集中／瞄准模式时的小地图尺寸。
 <string>与大型怪物战斗时
 <string>设置与大型怪物战斗时的小地图尺寸。
-<string>长按<ICON PL_ITEM_SLIDER_OPEN>时
-<string>设置长按<ICON PL_ITEM_SLIDER_OPEN>时的小地图尺寸。
+<string><ICON PL_ITEM_SLIDER_OPEN>期间
+<string>设置<ICON PL_ITEM_SLIDER_OPEN>期间的小地图尺寸。
 <string>小地图比例
 <string>设置不同情况下的小地图比例。
 <string>据点区域内时
@@ -1019,8 +1029,8 @@
 <string>设置集中／瞄准模式时的小地图比例。
 <string>与大型怪物战斗时
 <string>设置与大型怪物战斗时的小地图比例。
-<string>长按<ICON PL_ITEM_SLIDER_OPEN>时
-<string>设置长按<ICON PL_ITEM_SLIDER_OPEN>时的小地图比例。
+<string><ICON PL_ITEM_SLIDER_OPEN>期间
+<string>设置<ICON PL_ITEM_SLIDER_OPEN>期间的小地图比例。
 <string>其他玩家的命中特效
 <string>设置是否显示其他玩家的命中特效。<lf><COLOR preset="TXT_Accent">（不会影响自身角色的特效显示）</COLOR>
 <string>显示
@@ -1203,9 +1213,9 @@
 <string>类型 5
 <string>怪物遮住玩家身体时，以蓝色线条显示玩家轮廓。
 <string>照片的同步保存
-<string>设置使用相机功能拍摄的照片，除了保存在保存数据中，<lf>是否也保存至设备的储存空间中。
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>同步保存
-<string>照片将同时保存在保存数据和设备的储存空间中。
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>不同步保存
 <string>照片仅保存在保存数据中。
 <string>匿名显示其他玩家名称
@@ -1223,7 +1233,7 @@
 <string>类型 2
 <string>纳刀、拔刀后均不显示通常时候的操作指南，将始终<lf>显示旋律效果指南一览。
 <string>类型 3
-<string>纳刀、拔刀后均显示通常时候的操作指南，仅在拔刀<lf>并长按<ICON PL_ITEM_SLIDER_OPEN>时显示旋律效果指南一览。
+<string>纳刀、拔刀后均显示通常时候的操作指南，仅在拔刀<lf>并<ICON PL_ITEM_SLIDER_OPEN>期间显示旋律效果指南一览。
 <string>整体音量
 <string>设置声音整体的音量。<lf><COLOR preset="TXT_Accent">（语音聊天的音量不受影响）</COLOR>
 <string>语音音量
@@ -1259,9 +1269,14 @@
 <string>开
 <string>以单声道播放游戏声音。<lf><COLOR preset="TXT_Accent">（左右两侧的喇叭将播放相同的声音）</COLOR>
 <string>关
-<string>以立体声播放游戏声音。
-<string>声音输出
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>停用游戏音频的单声道模式，音频播放方式将遵循<lf>操作系统的声音输出设置。
+<string>声音输出信息
 <string>确认声音输出信息。
+<string>输出设备
+<string>3D音效
+<string>启用
+<string>停用
 <string><REF RefNetwork_0006>功能
 <string>设置是否启用<REF RefNetwork_0006>功能。
 <string>开
@@ -1347,7 +1362,7 @@
 <string><REF RefLanguage_0000_009_0>
 <string><REF RefLanguage_0000_012_0>
 <string>语音语言
-<string>设置游戏中的语音语言。<lf><COLOR preset="TXT_Accent">（中文字幕主要参照日语语音）</COLOR>
+<string>设置游戏中的语音语言。
 <string><REF RefLanguage_0000_000>
 <string><REF RefLanguage_0000_001>
 <string><REF RefLanguage_0000_002>

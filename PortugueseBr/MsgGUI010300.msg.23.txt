@@ -2,16 +2,16 @@
 <string>Insira seu nome.<lf><lf><COLOR preset="TXT_Accent">O limite é de 15 caracteres.</COLOR>
 <string>{0}<lf>Deseja usar este nome?
 <string>Insira o nome do seu Amigato.<lf><lf><COLOR preset="TXT_Accent">O limite é de 15 caracteres.</COLOR>
-<string>Selecione a quantidade de tutoriais que deseja ver.<lf>(Pode ser alterado a qualquer hora no Menu Inicial.) <lf><lf><COLOR preset="TXT_Accent">Exibir tudo</COLOR>: Recomendado para iniciantes no jogo.<lf><COLOR preset="TXT_Accent">Exibir alguns</COLOR>: Recomendado para jogadores veteranos.
+<string>Selecione a quantidade de tutoriais que deseja ver.<lf>(Pode ser alterado a qualquer hora no Menu Inicial.)<lf><lf><COLOR preset="TXT_Accent">Exibir tudo</COLOR>: Indicado para iniciantes no jogo.<lf><COLOR preset="TXT_Accent">Exibir alguns</COLOR>: Indicado para jogadores veteranos.
 <string>Exibir tudo
 <string>Exibir alguns
 <string>Escolha se deseja permitir que certos tutoriais<lf>apareçam mais de uma vez.<lf><lf>(Esta configuração pode ser alterada<lf>a qualquer momento no Menu Inicial.)
 <string>Ativado
 <string>Desativado
-<string>Iniciar o jogo com essas configurações?
+<string>Iniciar jogo com essas configurações de personagem?
 <string>Confirmar e sair?<lf><COLOR preset="TXT_Accent">Dados de personagens editados podem ser<lf>transferidos para o jogo completo. Edições podem<lf>ser feitas durante todo o período de teste beta.<lf>Edite um personagem em Selecionar Dados Salvos.</COLOR>
-<string>Salvar Alterações
-<string>Descartar Todas as Alterações
+<string>Salvar alterações
+<string>Descartar todas as alterações
 <string>Predefinição de Aparência
 <string>(Configurações Detalhadas)
 <string>Armadura Inicial
@@ -22,13 +22,13 @@
 <string>Tom da Voz
 <string>Alterar o tom pode dificultar a compreensão da voz do personagem.
 <string>Identidade
-<string>Esta configuração afetará os pronomes usados de seu personagem. (Só se aplica a alguns idiomas.)
+<string>Esta configuração afetará os pronomes usados de seu personagem. <COLOR preset="TXT_Accent">(Só se aplica a alguns idiomas.)</COLOR>
 <string>Masculina
 <string>Feminina
 <string>Não binária
 <string>Postura
 <string>Confiante
-<string><SPKR {Gracioso}{Graciosa}>
+<string>Graciosa
 <string>Esta configuração afetará a postura do seu personagem e a maneira como se move.
 <string>Roupa
 <string>Esta configuração ajusta a camada interna de roupas exibida quando não há armadura equipada.
@@ -52,13 +52,13 @@
 <string>Cor da Roupa 2: Cintura
 <string>Cor da Roupa 2: Pernas
 <string>Roupas de Baixo
-<string>Esta configuração permite que roupas de baixo reduzam a pele exposta. (Também disponível nas Config. de Aparência de Armadura.)
+<string>Esta configuração permite que roupas de baixo reduzam a pele exposta. (Também disponível na <COLOR preset="TXT_Accent">Aparência de Equipamentos</COLOR>.)
 <string>Exibir Camisa Interna
 <string>Cor da Camisa Interna
 <string>Exibir Calça de Malha
 <string>Cor da Calça de Malha
 <string>Cabelo
-<string>Sobrancelha / Cílios
+<string>Sobrancelha/Cílios
 <string>Barba
 <string>Cor dos Olhos
 <string>Formato dos Olhos
@@ -66,7 +66,7 @@
 <string>Boca
 <string>Formato do Rosto
 <string>Biotipo
-<string>Alternando o tipo de roupa temporariamente para Roupa Íntima β, para visualizar melhor as mudanças físicas.
+<string>O tipo de roupa será alterado temporariamente para Roupa Íntima β, para visualizar melhor as mudanças físicas.
 <string>Pele
 <string>Maquiagem/Pintura Facial
 <string>Maquiagem/Pintura Facial 1
@@ -131,7 +131,7 @@
 <string>Cor da Esclera Direita
 <string>Tamanho da Íris Direita
 <string>Espessura dos Cílios
-<string>Config. Separada: Olho Direito
+<string>Editar Olho Direito
 <string>Mistura do Formato do Nariz
 <string>Permite misturar dois tipos diferentes de formatos de nariz, com ajustes detalhados à proporção e intensidade da mistura.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_04_00
@@ -185,18 +185,18 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_08_04
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_08_05
 <string>Rugas em Expressões Faciais
-<string>Ajuste o quanto as rugas aparecem ao alterar as expressões faciais.
+<string>Ajusta o quanto as rugas aparecem ao alterar as expressões faciais.
 <string>Suave
 <string>Visível
 <string>Estilo da Maquiagem/Pint. Facial
 <string>Estilo da Maquiagem/Pint. Facial 1
 <string>Estilo da Maquiagem/Pint. Facial 2
 <string>Estilo da Maquiagem/Pint. Facial 3
-<string>Cor da Maquiagem/Pintura facial
+<string>Cor da Maquiagem/Pintura Facial
 <string>Cor da Maquiagem/Pint. Facial 1
 <string>Cor da Maquiagem/Pint. Facial 2
 <string>Cor da Maquiagem/Pint. Facial 3
-<string>Opacidade
+<string>Transparência
 <string>Tamanho
 <string>Tamanho Lateral
 <string>Tamanho Vertical
@@ -205,18 +205,18 @@
 <string>Posição Vertical
 <string>Reverter ao Padrão
 <string>Redefinir config. de maquiagem/pint. para o padrão?
-<string>Trocar config. de Maquiagem/Pint.
-<string>Trocar as configurações de maquiagem/pintura facial<lf>atuais com outras configurações.
-<string>Maquiagem/Pintura facial 1
-<string>Maquiagem/Pintura facial 2
-<string>Maquiagem/Pintura facial 3
+<string>Trocar ordem de Maquiagem/Pint.
+<string>Trocar a maquiagem/pintura facial<lf>atuais com outras camadas.
+<string>Maquiagem/Pintura Facial 1
+<string>Maquiagem/Pintura Facial 2
+<string>Maquiagem/Pintura Facial 3
 <string>Cancelar
 <string>(Configurações de Textura)
-<string>Ajustar a aparência da maquiagem/pintura facial detalhadamente.
-<string>Brilho
-<string>Ajuste o nível de brilho.
+<string>Ajusta a aparência da maquiagem/pintura facial detalhadamente.
+<string>Brilho/Opacidade
+<string>Ajusta o nível de brilho/opacidade.
 <string>Brilho Metálico
-<string>Ajusta o nível de brilho metálico. (Menos perceptível com brilho alto)
+<string>Ajusta o nível de brilho metálico. (Menos perceptível com configuração de brilho/opacidade alta)
 <string>Luminescência
 <string>Ajusta a luminosidade. (Esta configuração é menos perceptível com cores escuras e baixa opacidade.)
 <string>Dimensão
@@ -236,17 +236,17 @@
 <string>Alterar o tom da voz pode fazer com que a voz do personagem fique difícil de escutar.
 <string>Pelo Longo
 <string>Tipo de Pelagem Facial
-<string>O Tipo de Pelagem Facial não pode ser selecionado se o Pelo Longo estiver ativo.
+<string>O Tipo de Pelagem Facial não pode ser alterado se Pelo Longo estiver ativado.
 <string>Tipo de Pelagem da Orelha
 <string>Volume da Bochecha
 <string>Orelhas
 <string>Olhos
 <string>Formato da Cauda
-<string>O Formato da Cauda não pode ser selecionado se o Pelo Longo estiver ativo.
+<string>O Formato da Cauda não pode ser alterado se Pelo Longo estiver ativado.
 <string>Textura
 <string>Marcação 1
 <string>Marcação 2
-<string>Esta configuração ficará acima da "Marcação 1" quando houver sobreposição.
+<string>A Marcação 2 ficará acima da <COLOR preset="TXT_Accent">Marcação 1</COLOR> quando houver sobreposição.
 <string>Mistura do Formato das Orelhas
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_01
@@ -255,7 +255,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_04_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_04_01
 <string>Tamanho da Pupila
-<string>Config. Separada: Olho Direito
+<string>Editar Olho Direito
 <string>Cor da Íris
 <string>Cor da Íris Direita
 <string>Textura da Pelagem
@@ -269,7 +269,7 @@
 <string>Cor da Marcação
 <string>Cor da Marcação 1
 <string>Cor da Marcação 2
-<string>Opacidade
+<string>Transparência
 <string>Tamanho
 <string>Tamanho Lateral
 <string>Tamanho Vertical
@@ -308,7 +308,7 @@
 <string>+{0}
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
-<string>Exibição de Personagem
+<string>Opções de Exibição
 <string>Iluminação
 <string>Ambiente Interior
 <string>Dia
@@ -348,8 +348,8 @@
 <string>Ferido
 <string>Expressão Facial do Amigato
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> Girar Ângulo da Iluminação
-<string><ICON UI_LIST_TRIGGER_L2> or <ICON UI_LIST_TRIGGER_R2> Girar Ângulo da Iluminação
+<string><ICON PAD PL_DUMMY_MOVE> Girar Ângulo da Iluminação
+<string><ICON MKB UI_LIST_TRIGGER_L2> or <ICON MKB UI_LIST_TRIGGER_R2> Girar Ângulo da Iluminação
 <string>Desl. exibição da IU
 <string>Modelo: Caçador
 <string>Modelo: Amigato
@@ -370,15 +370,15 @@
 <string>Editar Caçador
 <string>Alterar Nome
 <string>Permite que você mude o seu nome.
-<string>O nome do caçador será alterado.<lf><COLOR preset="TXT_Accent">Pode demorar para a mudança entrar em<lf>efeito em alguns conteúdos e pode haver<lf>casos em que o novo nome não será exibido.</COLOR>
+<string>O nome de seu Caçador será alterado.<lf><COLOR preset="TXT_Accent">Pode demorar para a mudança entrar em<lf>efeito em alguns conteúdos e pode haver<lf>casos em que o novo nome não será exibido.</COLOR>
 <string>Descartar todas as alterações e sair?<lf><COLOR preset="TXT_Accent">(O Vale de Edição de Personagem não será consumido.)</COLOR>
 <string>Salvar alterações?<lf><COLOR preset="TXT_Accent">(O Vale de Edição de Personagem não será consumido<lf>porque nenhuma alteração especial foi feita.)</COLOR>
 <string>Salvar alterações?<lf><COLOR preset="TXT_Accent">(Um Vale de Edição de Personagem será consumido.)</COLOR>
-<string>Finalizar personalização de Caçador.
+<string>Finalizar personalização <LSNR "do Caçador" " da Caçadora">.
 <string>Editar Amigato
 <string>Alterar Nome
 <string>Permite que você mude o nome do seu Amigato.
-<string>O nome do Amigato será alterado.<lf><COLOR preset="TXT_Accent">Pode demorar para a mudança entrar em efeito<lf>e o novo nome ser exibido em alguns conteúdos.</COLOR>
+<string>O nome do Amigato será alterado.<lf><COLOR preset="TXT_Accent">Pode demorar para a mudança entrar em efeito em<lf>alguns conteúdos e pode haver casos em que o novo<lf>nome não será exibido.</COLOR>
 <string>Descartar todas as alterações e sair?<lf><COLOR preset="TXT_Accent">(O Vale de Edição de Amigato não será consumido.)</COLOR>
 <string>Salvar alterações?<lf><COLOR preset="TXT_Accent">(O Vale de Edição de Amigato não será consumido<lf>porque nenhuma alteração especial foi feita.)</COLOR>
 <string>Salvar alterações?<lf><COLOR preset="TXT_Accent">(Um Vale de Edição de Amigato será consumido.)</COLOR>

@@ -1,14 +1,14 @@
-﻿<string>Stato
+﻿<string>Riepilogo
 <string>Info equipaggiamento
 <string>Proprietà tipo arma
 <string>Abilità equipaggiamento
-<string>Abilità attivate
+<string>Abilità attive
 <string>Abilità
 <string>Abilità cibo
 <string>Parametri di attacco
 <string>Parametri di difesa
-<string>Abilità bonus del set
-<string>Abilità di gruppo
+<string>Abilità set
+<string>Abilità gruppo
 <string>Abilità equipaggiamento
 <string>Slot
 <string>Info slot
@@ -16,14 +16,13 @@
 <string>Info slot
 <string>Nessun gioiello
 <string>Nessuno slot
-<string>Nessuno
 <string>Effetti per livello
 <string>Livello abilità
 <string>Requisiti
 <string>Dopo
 <string>Potenzia livello
 <string>{0} <REF RefGeneral_0015_002>
-<string><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>[{0}]
 <string>Salute
 <string>Resistenza
 <string>Attacco
@@ -53,13 +52,13 @@
 <string>DIF Tuono
 <string>DIF Ghiaccio
 <string>DIF Drago
-<string>Resistenze elementali
-<string>Nota
+<string>DIF Elementale
+<string>Note
 <string>Bolla di eco
-<string>Tipo proiettile
+<string>Tipo scarica
 <string>Normale
-<string>Lungo
-<string>Ampio
+<string>Lunga
+<string>Ampia
 <string>Potenza
 <string>Leggermente debole
 <string>Normale
@@ -88,21 +87,21 @@
 <string>Liv. 1
 <string>Liv. 2
 <string>Liv. 3
-<string>Colpo spec./vampata
-<string>Tiro duro spec. I
-<string>Tiro duro spec. II
-<string>Tiro vamp. spec. I
-<string>Tiro vamp. spec. II
+<string>Tipo standard/vampata
+<string>Standard ST I
+<string>Standard ST II
+<string>Vampata ST I
+<string>Vampata ST II
 <string><REF RefEquipment_0007_00_00>
 <string><REF RefEquipment_0007_00_01>
 <string><REF RefEquipment_0007_01_00>
 <string><REF RefEquipment_0007_01_01>
 <string><REF RefEquipment_0007_02_00>
-<string>Effetti melodia
+<string>Effetti melodie
 <string>Tipo attacco
 <string>Impatto
 <string>Taglio
-<string>Effetto polvere
+<string>Polvere di kinsetto
 <string>Recupero
 <string>Veleno
 <string>Paralisi
@@ -127,7 +126,7 @@
 <string>Info equipaggiamento
 <string>Durata effetto
 <string>Tempo di ricarica
-<string>{0} secondo/i
+<string><PLURAL {0} "{0} secondo" "{0} secondi">
 <string>Stato
 <string>Attivo
 <string>In attesa
@@ -143,13 +142,11 @@
 <string>Balista graffiante
 <string>Melodia della forrrza
 <string>Melodia della prrrotezione
-<string>Attrai vigorvespe
-<string>Gabbia insetto abbaglio
 <string>Quando sarai a corto di vita,<lf>ti manderò una vigorvespa!<lf>Ma poi non riuscirò<lf>a mandartene un'altra<lf>per un po' di tempo.
 <string>Attirerò l'attenzione di un<lf>mostro con uno scudo speciale<lf>che fa rumore! Così avrai il<lf>tempo di metterti in posizione<lf>o attaccare.
 <string>Posso darti una puravespa per<lf>purrrificarti dai malus o dalle<lf>alterazioni di stato. Quando<lf>sarai nei guai ci sarò io a<lf>salvarti la coda mentre tu ti<lf>concentri sulla caccia!
 <string>Tenderò una trappola scossa<lf>speciale solo per Felyne che<lf>sembra una ghianda! Se ci fai<lf>passare sopra un mostro,<lf>resterà paralizzato. Ottimo<lf>per catturarli!
 <string>Sparerò delle speciali munizioni<lf>spinose della mia fedele balista<lf>in stile Felyne! Se va tutto<lf>bene, potrebbero anche creare<lf>una ferita nel mostro.
-<string>Vuoi rafforzare ancora di più i tuoi<lf>attacchi al momento giusto?<lf>Se suono questa melodia della forrrza<lf>diventerai sicuramente più forte!
+<string>Vuoi rafforzare ancora di più i tuoi<lf>attacchi al momento giusto?<lf>Se suono questa melodia della<lf>forrrza diventerai più forte!<lf>Parola mià!
 <string>È naturale aver paura di affrontare<lf>un avversario che in passato ti ha<lf>battuto. Ma non preoccuparti, la mia<lf>melodia della prrrotezione aumenterà<lf>la tua difesa e ti terrà al sicuro la<lf>prossima volta che lo riaffronterai!
 <string>Mossa di supporto

@@ -1,7 +1,7 @@
 ﻿<string><ICON WP00 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp00_m1673173760>
 <string><ICON WP_GREATSWORD> Gran espada
-<string>Un ataque que no necesita carga.<lf><lf>Puedes encadenar un golpe<lf>lateral desde un tajo cargado<lf>realizando lo siguiente:<lf><lf>Tajo cargado > Embestida > Golpe lateral
+<string>Un ataque descendente que no necesita<lf>carga. El tajo descendente se puede<lf>encadenar con una carga para ejecutar<lf>más combos.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m1156222080>
@@ -15,31 +15,31 @@
 <string>
 <string><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_225253952>
-<string>Golpe cortante con ancha zona de impacto.<lf>Permite encadenar una embestida con<lf>un tajo horizontal en salto, y un tajo<lf>cargado con un tajo cargado fuerte.
+<string>Golpe cortante con ancha zona de impacto.<lf><lf>Permite encadenar una embestida con un<lf>tajo horizontal en salto, y un tajo cargado<lf>fuerte con un tajo horizontal fuerte.
 <string>
 <string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_146633456>
-<string>Un ataque cortante que puede alcanzar<lf>a objetivos elevados.
+<string>Un ataque cortante que puede llegar<lf>a las partes elevadas y difíciles de<lf>alcanzar de los monstruos.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">, luego <ICON RELEASE> tras cargar
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>Un ataque cortante ascendente que<lf>puede interceptar los ataques de los<lf>monstruos.<lf><lf>Al realizar una intercepción perfecta<lf>(de forma que tu ataque con la gran<lf>espada conecte con el ataque del<lf>monstruo) podrás ejecutar un tajo<lf>cruzado continuado.
+<string>Tajo ascendente que puede compensar<lf>los ataques de los monstruos.<lf><lf>Si cargas un tajo ascendente y lo<lf>lanzas justo cuando el monstruo ataca,<lf>y el ataque derriba al monstruo,<lf>pulsa <ICON WP00 PL_ATTACK_00> para continuar con un<lf>tajo cruzado.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
-<string>Técnica defensiva que utiliza la hoja de la<lf>gran espada para bloquear. La dirección<lf>de la guardia se puede cambiar mientras<lf>uses el modo preciso.<lf><lf>Pulsa <ICON WP00 PL_ATTACK_00> mientras bloqueas para dar<lf>una patada.
+<string>Técnica defensiva que utiliza la hoja<lf>de la gran espada para bloquear. La<lf>dirección del bloqueo se puede cambiar<lf>mientras usas el modo preciso.<lf><lf>Pulsa <ICON WP00 PL_ATTACK_00> mientras bloqueas para dar<lf>una patada.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP00 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>Un barrido que es efectivo contra<lf>las heridas. Si aciertas en la herida<lf>o punto débil de un monstruo, podrás<lf>infligir grandes daños con varios golpes.<lf><lf>Pulsa <ICON WP00 PL_ATTACK_SP_B> durante el ataque para lanzar<lf>un remate final.
+<string>Un barrido que es efectivo contra<lf>las heridas. Si aciertas en la herida<lf>o punto débil de un monstruo, podrás<lf>infligir grandes daños con varios golpes.<lf><lf>Pulsa <ICON WP00 PL_ATTACK_SP_B> durante el ataque para<lf>finalizarlo antes.
 <string>
 <string>Combo de tajo cargado absoluto
 <string><REF ActionGuideDataNameText_Wp00_276684864>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_971250048>
-<string>Un combo que termina en<lf>un tajo cargado real.
+<string>Un combo que termina en<lf>un tajo cargado absoluto.
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1769468672>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
@@ -75,7 +75,7 @@
 <string><REF ActionGuideDataNameText_Wp00_146633456>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
-<string>Realiza un combo básico con este<lf>ataque básico:<lf><lf>Pulsa <ICON WP03 PL_ATTACK_00> para realizar un tajo descendente<lf>y una vez más para realizar un tajo<lf>descendente II. Pulsa después <ICON WP03 PL_ATTACK_00> una vez<lf>más para realizar un tajo de media luna.<lf><lf>Todos los ataques se fortalecen cuando<lf>el indicador espíritu se vuelve rojo.
+<string>Realiza un combo básico con este<lf>ataque normal:<lf><lf>Pulsa <ICON WP03 PL_ATTACK_00> para realizar un tajo descendente<lf>y una vez más para realizar otro tajo<lf>descendente. Pulsa después <ICON WP03 PL_ATTACK_00> otra<lf>vez para realizar un tajo de media luna.<lf><lf>Todos los ataques se fortalecen cuando<lf>el indicador espíritu se vuelve rojo.
 <string>
 <string><ICON WP03 PL_ATTACK_01>
 <string>Pulsa <ICON WP03 PL_ATTACK_01> tras una estocada para realizar<lf>un tajo ascendente.
@@ -87,23 +87,23 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>La carga espiritual rellenará el indicador<lf>espíritu, y una vez la liberes te<lf>permitirá realizar un ataque de espada<lf>espiritual. El nivel del ataque será<lf>determinado por el tiempo de carga.<lf><lf>Si la carga está al completo, podrás<lf>realizar una rotación espiritual. Si el<lf>indicador espíritu está en rojo serás inmune<lf>a ataques que normalmente te derribarían<lf>o te harían volar por los aires hasta que<lf>completes la rotación espiritual.
+<string>El indicador espíritu se llena de carga<lf>espiritual, que se consume al lanzar<lf>ataques de espada espiritual. El nivel<lf>de los ataques depende del tiempo<lf>que mantengas la carga.<lf><lf>Si cargas al máximo, podrás lanzar<lf>una rotación espiritual. Si el indicador<lf>espíritu está en rojo, hasta que acabes<lf>la rotación espiritual no reaccionarás<lf>a ataques que normalmente te harían<lf>saltar por los aires o te derribarían.
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
-<string>Un ataque cortante que se ejecuta<lf>al moverte hacia atrás.<lf><lf>Usa <ICON WP03 PL_MOVE_LEFT> o <ICON WP03 PL_MOVE_RIGHT> para realizar un tajo<lf>en otra dirección.
+<string>Un ataque cortante que se ejecuta<lf>mientras te mueves hacia atrás.<lf><lf>Usa <ICON WP03 PL_MOVE_LEFT> o <ICON WP03 PL_MOVE_RIGHT> para realizar un tajo<lf>en otra dirección.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_m37508024>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> durante un combo
-<string>El tajo clarividente se puede ejecutar<lf>a medio combo, y te protege con un<lf>periodo de invulnerabilidad largo.<lf><lf>El ataque consume el indicador espíritu,<lf>pero si golpeas tras esquivar un ataque,<lf>rellenarás el indicador por completo. Luego<lf>pulsa <ICON WP03 PL_ATTACK_SP> para encadenar una rotación<lf>espiritual. Los efectos se reducen cuando<lf>el indicador espíritu se vacía. Si el indicador<lf>espíritu está en rojo, podrás encadenar<lf>un tajo en remolino clarividente.
+<string>El tajo clarividente es un ataque que se<lf>puede ejecutar en medio de un combo<lf>para otorgar un gran margen de<lf>invulnerabilidad. Los tajos clarividentes<lf>consumen todo el indicador espíritu,<lf>pero si logras asestar uno tras esquivar<lf>el ataque de un monstruo, el indicador<lf>se rellenará por completo. Pulsa <ICON WP03 PL_ATTACK_SP> para<lf>encadenar una rotación espiritual. Con<lf>el indicador espíritu vacío, su efecto<lf>disminuye. En rojo, podrás seguir<lf>con un tajo en remolino clarividente.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1048171072>
-<string>Si conectas este ataque, la barra de<lf>espíritu se reducirá un nivel (si está<lf>en blanco o mejor), pero te permitirá<lf>encadenar el golpe con un rompeyelmos<lf>espiritual<lf><lf>Si la barra está roja, el rompeyelmos<lf>espiritual se puede encadenar en tajo<lf>de liberación espiritual.<lf><lf>También se puede anular el rompeyelmos<lf>espiritual con <ICON WP03 PL_WEAPON_OFF>.
+<string>Acertar con una estocada espiritual<lf>reducirá un nivel el indicador espíritu<lf>(cuando esté en blanco o superior), pero<lf>te permitirá encadenar un rompecascos<lf>espiritual.<lf><lf>El rompecascos espiritual podrá<lf>continuar con un tajo de liberación<lf>espiritual cuando el indicador esté<lf>en rojo.<lf><lf>Puedes cancelarlo con <ICON WP03 PL_WEAPON_OFF>. 
 <string>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> tras atacar
 <string><REF ActionGuideDataNameText_Wp03_m1559988736>
-<string>Una acción especial que envaina el arma.<lf><lf>Tras el envainado especial, pulsa <ICON WP03 PL_ATTACK_00> para<lf>tajo Iai o <ICON WP03 PL_ATTACK_SP> para tajo Iai espiritual.<lf><lf>Si el tajo Iai impacta, hará que el indicador<lf>espíritu se llene automáticamente durante<lf>un tiempo breve. Si asestas el<lf>tajo Iai espiritual a la vez que el ataque<lf>del monstruo, tu nivel de indicador espíritu<lf>subirá en uno.
+<string>Una acción especial que envaina el arma.<lf><lf>Tras el envainado especial, pulsa <ICON WP03 PL_ATTACK_00> para<lf>tajo Iai o <ICON WP03 PL_ATTACK_SP> para tajo Iai espiritual.<lf><lf>Si el tajo Iai impacta, hará que se llene<lf>el indicador espíritu automáticamente<lf>durante un breve período. Si asestas<lf>el tajo Iai espiritual a la vez que el<lf>ataque del monstruo, tu nivel de<lf>indicador espíritu subirá un nivel.
 <string>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1506281344>
@@ -116,7 +116,7 @@
 <string><INPUTMSG MsgGUI600200_01_003>
 <string><INPUTMSG MsgGUI600200_01_003_01>
 <string><REF ActionGuideDataNameText_Wp03_m1592986112>
-<string>Ataca a monstruos para llenar el indicador<lf>espíritu. Los ataques con espada<lf>espiritual la consumirán y si conectas<lf>con una rotación espiritual o un ataque<lf>preciso, subirás el indicador un nivel.<lf><lf>El máximo nivel es rojo: este nivel<lf>reforzará algunos ataques, y te permite<lf>enlazarlos con otros ataques potentes.<lf>Si conectas una rotación espiritual o tajo<lf>carmesí giratorio, alargarás el tiempo<lf>en el que el indicador permanece en rojo.
+<string>Atacar a los monstruos rellenará<lf>el indicador espíritu. Los ataques con<lf>espada espiritual lo consumirán y si<lf>ejecutas una rotación espiritual o un<lf>ataque preciso, subirás el indicador un<lf>nivel.<lf>El nivel máximo es el rojo: este nivel<lf>reforzará algunos ataques y te permitirá<lf>enlazarlos con otros ataques potentes.<lf>Si ejecutas una rotación espiritual o un<lf>tajo carmesí giratorio, el indicador<lf>permanecerá en rojo más tiempo.
 <string>
 <string>Combo de llenado rápido (indicador espíritu)
 <string><ICON WP03 PL_ATTACK_00>
@@ -146,7 +146,7 @@
 <string><ICON WP03 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp03_852602816>
 <string>
-<string>Combo básico con la barra en rojo
+<string>Combo básico con el indicador en rojo
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1927826048>
 <string>Un combo básico cuando el indicador<lf>espíritu está en rojo.
@@ -159,7 +159,7 @@
 <string>Combo estático
 <string><REF ActionGuideDataNameText_Wp03_m1171603968>
 <string><ICON WP03 PL_ATTACK_00>
-<string>Un combo estático cuando la barra de<lf>espíritu está en rojo.
+<string>Un combo estático cuando el indicador<lf>espíritu está en rojo.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_1927826048>
 <string><ICON WP03 PL_ATTACK_01>
@@ -178,26 +178,26 @@
 <string><INPUTMSG MsgGUI600200_01_005_01>
 <string><REF ActionGuideDataNameTextCommon_962978240>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
-<string>Un tajo acendente que se ejecuta<lf>al avanzar. Si lanzas un tajo embistiendo<lf>cuesta arriba o hacia un saliente,<lf>realizarás un ataque específico<lf>según el terreno.
+<string>Un tajo ascendente que se ejecuta<lf>mientras avanzas. Si lanzas un tajo<lf>embistiendo al deslizarte por una<lf>pendiente o hacia un saliente, harás<lf>un ataque específico del terreno.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m669292416>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> durante un combo
-<string>Un ataque que cubre una zona amplia<lf>durante el cual se puede<lf>cambiar la dirección. Si se combina<lf>con ciertos ataques, derivará en un potente<lf>Segador giratorio.
+<string>Un ataque que cubre una zona amplia<lf>durante el cual se puede cambiar<lf>la dirección. Si se combina con ciertos<lf>ataques, derivará en un potente<lf>segador giratorio.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_1418448640>
 <string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> durante un combo
 <string><REF ActionGuideDataNameText_Wp01_937851328>
-<string>Un potente ataque en salto.<lf>Si golpeas un punto débil<lf>en la piel de un monstruo,<lf>podrás infligir daño varias veces.<lf><lf>La potencia del ataque aumenta<lf>si se usa tras ciertos ataques.
+<string>Un potente ataque en salto.<lf>Si golpeas un punto débil en la piel<lf>de un monstruo, podrás dañarlo<lf>varias veces.<lf><lf>La potencia del ataque aumenta<lf>si se usa tras ciertos ataques.
 <string>
 <string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> durante un combo
-<string>El paso atrás se puede usar<lf>durante los combos para evitar<lf>ataques de monstruos.<lf><lf>La ráfaga perfecta, que puedes<lf>lanzar durante un paso atrás, es un<lf>ataque de varios golpes que inflige<lf>daño elemental y estados alterados.<lf>Se puede aumentar el daño al<lf>pulsar <ICON WP01 PL_ATTACK_00> en el momento idóneo.
+<string>El paso atrás se puede usar<lf>durante los combos para evitar<lf>ataques de monstruos.<lf><lf>La ráfaga perfecta, que puedes<lf>lanzar durante un paso atrás, es un<lf>ataque de varios golpes que inflige<lf>daño elemental y estados alterados.<lf>Pulsa <ICON WP01 PL_ATTACK_00> en el momento justo para<lf>aumentar el daño infligido.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> durante un paso atrás
-<string>Si realizas un tajo cargado justo<lf>después de un paso atrás, podrás<lf>saltar en el aire tras conectar el<lf>ataque. Aprovecha la ocasión para<lf>lanzar ataques en el aire, como el<lf>tajo aéreo o el remate en caída.
+<string>Si lanzas un tajo cargado tras un<lf>paso atrás, saltarás en el aire tras<lf>conectar el ataque.<lf><lf>A continuación, sigue con un tajo<lf>aéreo o con el remate en caída.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string><ICON WP01 PL_ATTACK_00> en salto
@@ -207,14 +207,14 @@
 <string><ICON WP01 PL_ATTACK_01> en salto
 <string>
 <string><ICON WP01 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Usa el escudo para protegerte<lf>de los ataques. Si te proteges<lf>en el momento adecuado,<lf>harás un bloqueo perfecto.<lf><lf>Pulsa <ICON WP01 PL_ATTACK_00> tras un bloqueo<lf>perfecto para lanzar<lf>un tajo de contraataque<lf>rápido y potente.
+<string>Usa el escudo para protegerte de los<lf>ataques. Si te proteges en el momento<lf>adecuado, harás un bloqueo perfecto.<lf><lf>Pulsa <ICON WP01 PL_ATTACK_00> tras un bloqueo perfecto<lf>para lanzar un tajo de contraataque<lf>rápido y potente.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1975087616>
-<string><ICON WP01 PL_ATTACK_00> tras guardia perfecta
+<string><ICON WP01 PL_ATTACK_00> tras un bloqueo perfecto
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1591131136>
 <string><ICON WP01 PL_ATTACK_SP><ICON PLUS><ICON WP01 PL_ATTACK_00>
-<string>Un ataque que se puede ejecutar<lf>fácilmente y te permite acortar<lf>la distancia con rapidez entre<lf>el objetivo y tú.
+<string>Un ataque que se puede ejecutar<lf>fácilmente y que te permite acortar<lf>la distancia con el objetivo<lf>rápidamente.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1943029120>
 <string><ICON WP01 PL_ATTACK_SP><ICON PLUS><ICON WP01 PL_WEAPON_OFF>
@@ -241,7 +241,7 @@
 <string>
 <string>Combo poderoso
 <string><ICON WP01 PL_ATTACK_01>
-<string>Un potente combo estático.<lf><lf>Pon fin rápidamente<lf>al combo con un segador<lf>giratorio, y luego lanza un<lf>hachazo cargado cuando veas<lf>la oportunidad de atacar<lf>las defensas del monstruo.
+<string>Un potente combo estático.<lf><lf>Pon fin rápidamente al combo<lf>con un segador giratorio,<lf>y luego lanza un corte cargado<lf>cuando veas la oportunidad de<lf>atacar las defensas del monstruo.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1520769024>
 <string><ICON WP01 PL_ATTACK_01>
@@ -256,7 +256,7 @@
 <string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp01_937851328>
 <string>
-<string>Combo aturdemonstruos
+<string>Combo aturdidor
 <string><ICON WP01 PL_MOVE_FRONT><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_m1997549568>
 <string>Un combo para aturdir a los monstruos.
@@ -273,7 +273,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string>Combo de tajo cargado
-<string>Con tajo cargado, se pueden ejecutar<lf>varios ataques. Tajo aéreo te permite<lf>subirte con facilidad a los monstruos,<lf>remate en caída aturde y estocada en<lf>caída inflige una gran cantidad de daño.
+<string>Un tajo cargado se puede encadenar<lf>con los siguientes ataques:<lf><lf>- Tajo aéreo: Permite subirse más<lf>fácilmente a los monstruos.<lf>- Remate en caída: Inflige daño<lf>de aturdimiento.<lf>- Estocada en caída: Inflige una gran<lf>cantidad de daño.
 <string>
 <string>
 <string>Tras un impacto con éxito
@@ -289,7 +289,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string>Combo de ráfaga perfecta
-<string>Un combo que se puede ejecutar<lf>tras una ráfaga perfecta. Saltarás<lf>alto tras utilizar la ráfaga perfecta<lf>y, en el aire, puede usar<lf>tajo aéreo o remate en caída.
+<string>Un combo que se puede encadenar<lf>con una ráfaga perfecta. Tras la ráfaga<lf>perfecta, ejecutarás un gran salto que<lf>podrás acompañar con un tajo aéreo<lf>o un golpe en caída.
 <string>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Espadas dobles
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>Inicio para combo básico. Pulsa <ICON WP02 PL_ATTACK_00> para<lf>realizar un contratajo doble, y luego<lf>pulsa <ICON WP02 PL_ATTACK_00> de nuevo para un tajo circular.
+<string>Una forma básica de iniciar un combo.<lf><lf>Pulsa <ICON WP02 PL_ATTACK_00> para realizar un tajo en<lf>retorno doble, y luego pulsa <ICON WP02 PL_ATTACK_00><lf>de nuevo para un tajo circular.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -308,7 +308,7 @@
 <string><REF ActionGuideDataNameText_Wp02_927994752>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Tu ataque, velocidad de movimiento y<lf>esquiva mejorarán con el modo demoníaco.<lf>También serás inmune a los derribos.<lf><lf>Danza letal es una poderosa serie de<lf>ataques que consumen barra demoníaca.
+<string>El modo demoníaco potencia tu ataque,<lf>tu velocidad de movimiento y tu evasión.<lf>También te vuelve inmune a los derribos.<lf><lf>Danza letal I, II y III es una poderosa<lf>serie de ataques que consumen<lf>indicador demoníaco.
 <string>
 <string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_300353024>
@@ -328,27 +328,27 @@
 <string>
 <string><ICON WP02 PL_DODGE>
 <string>Evasión demoníaca (en modo demoníaco o archidemoníaco)
-<string>Una esquiva más rápida de lo normal.<lf>Si consigues una esquiva perfecta,<lf>podrás atacar mientras esquivas y te<lf>potenciará durante un breve periodo<lf>de tiempo.
+<string>Una evasión más rápida de lo normal.<lf>Si consigues una evasión perfecta,<lf>podrás atacar mientras esquivas y te<lf>potenciará durante un breve periodo<lf>de tiempo.<lf><lf>El indicador demoníaco no se consume<lf>en modo demoníaco.
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
-<string>Un ataque cortante efectivo contra heridas.<lf>Si conectas con la herida de un monstruo,<lf>podrás ejecutar Danza letal giratoria volante,<lf>un ataque que cubre toda la envergadura<lf>del monstruo y puede rematar varias heridas.
+<string>Un ataque cortante efectivo contra<lf>heridas. Si alcanzas la herida de un<lf>monstruo, podrás ejecutar danza letal<lf>giratoria volante, un ataque que cubre<lf>toda la envergadura del monstruo y<lf>puede rematar varias heridas.
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Mejora los ataques, la velocidad de esquiva<lf>y de movimiento, y te hace inmune a<lf>los derribos. La resistencia se consumirá<lf>poco a poco mientras el modo demoníaco<lf>esté activo. El modo demoníaco finalizará<lf>si sales de él o si se agota la resistencia.
+<string>Un estado que mejora los ataques, la<lf>velocidad de movimiento y la evasión<lf>y te hace inmune a los derribos. La<lf>resistencia se consumirá poco a poco<lf>mientras el modo demoníaco esté<lf>activo. El modo finalizará si se cancela<lf>manualmente o al agotarse la resistencia.
 <string><REF ActionGuideDataNameText_Wp02_m1003266688>
-<string>La barra demoníaca se llenará a medida<lf>que conectas ataques en modo demoníaco.<lf>Una vez llena, al salir del modo demoníaco,<lf>entrarás en modo archidemoníaco en<lf>lugar de volver a la normalidad.<lf>A continuación, la barra se irá reduciendo<lf>poco a poco o se consumirá al ejecutar<lf>ciertos ataques.
+<string>El indicador demoníaco se llenará a<lf>medida que conectas ataques en<lf>modo demoníaco. Una vez lleno,<lf>al salir del modo demoníaco,<lf>entrarás en modo archidemoníaco<lf>en lugar de volver a la normalidad.<lf>A continuación, el indicador se irá<lf>reduciendo poco a poco o se consumirá<lf>al ejecutar ciertos ataques.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>Un estado en el que varios ataques<lf>se potencian. Estos ataques mejoras<lf>consumirán barra demoníaca al usarse<lf>y el modo archidemoníaco finalizará<lf>cuando la barra se vacíe.
+<string>Un estado en el que se potencian<lf>varios ataques. Los ataques mejorados<lf>consumirán indicador demoníaco<lf>al usarse y el modo archidemoníaco<lf>finalizará cuando el indicador se vacíe.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
-<string>Un estado potenciado en el que entras<lf>tras realizar una esquiva perfecta. Mejora<lf>el daño normal y elemental y te permite<lf>atacar mientras esquivas.
+<string>Un estado potenciado en el que entras<lf>tras realizar una evasión perfecta.<lf>Mejora el daño normal y elemental,<lf>y te permite atacar mientras esquivas.
 <string>
 <string>Combo básico
 <string><ICON WP02 PL_ATTACK_00>
-<string>Un combo estándar.
+<string>Un combo básico.
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string>
 <string><ICON WP02 PL_ATTACK_00>
@@ -357,10 +357,10 @@
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_144065008>
 <string>
-<string>Combo en modo demoníaco básico
+<string>Combo básico en modo demoníaco
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_1562259072>
-<string>Un combo básico en el modo demoníaco.<lf>Se puede encadenar en un combo de Danza letal.
+<string>Un combo básico en el modo demoníaco.<lf>Se puede encadenar en un combo con<lf>la danza letal.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m268803040>
 <string><ICON WP02 PL_ATTACK_00>
@@ -384,10 +384,10 @@
 <string><REF ActionGuideDataNameText_Wp02_1304483584>
 <string><ICON WP02 PL_ATTACK_SP>
 <string>
-<string>Combo de Superráfaga demoníaca
+<string>Combo de superráfaga demoníaca
 <string><REF ActionGuideDataNameText_Wp02_72416008>
 <string><ICON WP02 PL_ATTACK_01> en modo demoníaco/archidemoníaco
-<string>Un combo que te permite dañar al<lf>monstruo mientras acortas distancias<lf>con tu objetivo. Incluye tajo rotatorio<lf>doble en el modo demoníaco.
+<string>Un combo que te permite dañar al<lf>monstruo mientras acortas distancias<lf>con tu objetivo. Incluye rotación<lf>doble en el modo demoníaco.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_215332432>
 <string><ICON WP02 PL_ATTACK_01>
@@ -402,11 +402,11 @@
 <string><INPUTMSG MsgGUI600200_01_009_01>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
 <string><ICON WP04 PL_ATTACK_01>
-<string>Un ataque aplastante que se puede repetir<lf>cada vez que golpea a un monstruo.<lf><lf>El potente Big Bang final<lf>se puede usar tras asestar cuatro<lf>veces el ataque.<lf><lf>Si fallas una sola vez, se anula el combo.
+<string>Un ataque aplastante que se puede<lf>repetir cada vez que golpea a un<lf>monstruo.<lf><lf>Podrás lanzar el potente Big Bang<lf>final tras asestar el cuarto ataque<lf>(Big Bang IV).<lf><lf>Si fallas una sola vez, todo el combo<lf>quedará anulado.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Mantén pulsado <ICON WP04 PL_ATTACK_SP> para gastar resistencia<lf>y almacenar poder. Hay tres niveles de carga<lf>y cada uno dispone de un ataque diferente.<lf><lf>Pulsa <ICON WP04 PL_ATTACK_01> para ejecutar un paso cargado<lf>mientras cargas, lo que te permitirá esquivar<lf>ataques sin perder carga.
+<string>Mantén pulsado <ICON WP04 PL_ATTACK_SP> para gastar<lf>resistencia y almacenar energía. Hay<lf>tres niveles de carga y cada uno posee<lf>un ataque diferente.<lf><lf>Pulsa <ICON WP04 PL_ATTACK_01> para ejecutar un paso cargado<lf>mientras cargas, lo que te permitirá<lf>esquivar ataques sin perder carga.
 <string><REF ActionGuideDataNameText_Wp04_67403672>
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
@@ -415,25 +415,25 @@
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP04 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m1391311232>
-<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> En el nivel de carga 3
+<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> en el nivel de carga 3
 <string><REF ActionGuideDataNameText_Wp04_424161632>
-<string>Si cargas al máximo, podrás ejecutar<lf>una carga potente. Si la cargas<lf>al máximo de nuevo podrás usar el golpe<lf>con carga potente.
+<string>Si cargas el martillo al máximo (nivel<lf>3), podrás realizar una carga potente.<lf>Si liberas la carga pronto, realizarás<lf>un volteo cargado potente;<lf>si la cargas al máximo, lanzarás el<lf>devastador golpe con carga potente.
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp04_807319680>
 <string>
-<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> Tras atacar
-<string>Un ataque giratorio que se utiliza como<lf>continuación tras otros ataques. Pulsa <ICON WP04 PL_ATTACK_00><lf>durante el giro para usar un ataque diferente.<lf>Cuanto más gires, más potente será el ataque,<lf>pero girar demasiado te hace vulnerable.
+<string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> tras atacar
+<string>Un ataque giratorio que se utiliza como<lf>continuación tras otros ataques. Pulsa <ICON WP04 PL_ATTACK_00><lf>durante el giro para usar un ataque<lf>diferente. Cuanto más gires, más<lf>potente será el ataque, pero girar<lf>demasiado te hace vulnerable.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_AIM><ICON PLUS><ICON WP04 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp04_m1790485120>
-<string>Un barrido que es efectivo contra<lf>las heridas. Si aciertas en la herida<lf>o punto débil de un monstruo, podrás<lf>girar e infligir daño en varios sitios.<lf><lf>Pulsa <ICON WP04 PL_ATTACK_SP> mientras giras para cargar<lf>al ejecutar un ataque.
+<string>Un barrido que resulta efectivo contra<lf>las heridas. Si aciertas en una herida<lf>o en un punto débil de un monstruo,<lf>podrás girar e infligir daño en varios<lf>sitios.<lf><lf>Pulsa <ICON WP04 PL_ATTACK_SP> mientras giras para cargar<lf>al ejecutar el ataque.
 <string>
 <string>Combo básico
 <string><ICON WP04 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp04_86757720>
-<string>Un combo estándar.
+<string>Un combo básico.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m222720992>
 <string><ICON WP04 PL_ATTACK_00>
@@ -443,7 +443,7 @@
 <string>
 <string>Combo de golpe lateral cargado
 <string><REF ActionGuideDataNameText_Wp04_m1057375552>
-<string><ICON WP04 PL_ATTACK_SP> (Nivel de carga 1) <ICON RELEASE>
+<string><ICON WP04 PL_ATTACK_SP> (nivel de carga 1) <ICON RELEASE>
 <string>Un combo rápido que puedes lanzar<lf>en cuanto un monstruo baje la guardia<lf>sin dejarte vulnerable mucho tiempo.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_1152969344>
@@ -454,27 +454,27 @@
 <string>
 <string>Combo de volteo cargado
 <string><REF ActionGuideDataNameText_Wp04_55030720>
-<string><ICON WP04 PL_ATTACK_SP> (Nivel de carga 2) <ICON RELEASE>
+<string><ICON WP04 PL_ATTACK_SP> (nivel de carga 2) <ICON RELEASE>
 <string>Un combo que acorta rápidamente<lf>la distancia entre el objetivo y tú.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_1152969344>
 <string><ICON WP04 PL_ATTACK_00>
 <string>
-<string>Combo machaque giratorio
+<string>Combo de machaque giratorio
 <string><REF ActionGuideDataNameText_Wp04_86757720>
 <string><ICON WP04 PL_ATTACK_00>
-<string>Combo machaque giratorio
+<string>Combo de machaque giratorio
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01>
 <string>
-<string><ICON WP04 PL_ATTACK_00> En giro n.º 1
+<string><ICON WP04 PL_ATTACK_00> en giro n.º 1
 <string><REF ActionGuideDataNameText_Wp04_m32021162>
 <string>
-<string><ICON WP04 PL_ATTACK_00> En giro n.º 2
+<string><ICON WP04 PL_ATTACK_00> en giro n.º 2
 <string><REF ActionGuideDataNameText_Wp04_m914516160>
 <string>
-<string><ICON WP04 PL_ATTACK_00> En giro n.º 3
+<string><ICON WP04 PL_ATTACK_00> en giro n.º 3
 <string>
 <string><ICON WP_HUNTINGHORN> Cornamusa
 <string><REF ActionGuideDataNameText_Wp04_885262336>
@@ -483,11 +483,11 @@
 <string><INPUTMSG MsgGUI600200_01_010_01>
 <string><REF ActionGuideDataNameText_Wp05_m201995088>
 <string><ICON WP05 PL_ATTACK_01>
-<string>Un ataque básico que produce la segunda<lf>nota de la partitura.
+<string>Un ataque básico que produce<lf>la segunda nota de la partitura.
 <string><REF ActionGuideDataNameText_Wp05_166644960>
 <string>
 <string><INPUTMSG MsgGUI600200_01_011>
-<string>Un ataque que produce la segunda nota<lf>de la partitura.<lf><lf>Pulsar <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> durante<lf>el ataque te permitirá producir otra nota.
+<string>Un ataque que añade la segunda<lf>nota a la partitura.<lf><lf>Pulsar <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> durante<lf>el ataque te permitirá añadir otra nota.
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -496,15 +496,15 @@
 <string>
 <string><INPUTMSG MsgGUI600200_01_012>
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
-<string>Un ataque que produce la tercera nota<lf>de la partitura.<lf><lf>Pulsar <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> durante<lf>el ataque te permitirá producir otra nota.
+<string>Un ataque que añade la tercera<lf>nota a la partitura.<lf><lf>Pulsar <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> durante<lf>el ataque te permitirá añadir otra nota.
 <string>
-<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> Durante un combo
-<string>Varios ataques rápidos que producen<lf>una nota.<lf><lf>Se puede usar tras diferentes ataques.<lf><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> y <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, cada uno produce<lf>su propia nota.
+<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> durante un combo
+<string>Un ataque rápido que produce<lf>una nota en la partitura.<lf><lf>Se puede usar tras diferentes<lf>ataques con <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> y <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, cada uno<lf>con su propia nota.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>Un ataque especial que activa los efectos<lf>de melodía. Si acumulas varias melodías,<lf>puedes tocar en orden desde la primera,<lf>o bien elige una melodía de la lista con<lf><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01>.<lf><lf>Al tocar varias melodías, ejecuta un potente<lf>golpe musical con <ICON WP05 PL_ATTACK_SP>. Además, tras cualquier<lf>actuación, puedes lanzar un bis con <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>para potenciar y extender los efectos de melodía.<lf>Si lanzas el golpe musical y el bis justo cuando<lf>se activen los efectos, infligirás más daño.
+<string>Un ataque especial que activa los efectos<lf>de melodía. Si acumulas varias melodías,<lf>puedes tocar en orden desde la primera<lf>o bien elegir una melodía de la lista con<lf><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01>.<lf>Al tocar varias melodías, ejecuta un<lf>potente golpe musical con <ICON WP05 PL_ATTACK_SP>. Además,<lf>tras toda actuación, puedes hacer un bis<lf>con <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> para potenciar y extender<lf>los efectos de melodía. Si lanzas el<lf>golpe musical y el bis justo cuando se<lf>activen los efectos, infligirás más daño.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -513,49 +513,45 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>Un ataque especial que produce una burbuja<lf>sónica. El tipo de burbuja que creas<lf>depende de la cornamusa que tengas<lf>equipada.<lf><lf>Puedes producir hasta tres notas con <ICON WP05 PL_ATTACK_01>,<lf><ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> mientras creas una burbuja<lf>sónica.
+<string>Un ataque especial que produce una<lf>burbuja sónica. El tipo de burbuja<lf>sónica que puedas crear dependerá<lf>de la cornamusa equipada.<lf><lf>Al crear una burbuja sónica, podrás<lf>producir hasta tres notas con<lf><ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
-<string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> Con melodía guardada
+<string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> con melodía guardada
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>Al contrario que Tocar, esta versión tocará<lf>un efecto de melodía único asociado<lf>con tu cornamusa equipada.<lf><lf>Una vez se haya guardado, esta melodía no<lf>será sobrescrita por otras melodías.
+<string>A diferencia de las actuaciones<lf>normales, las especiales ejecutarán<lf>el efecto melódico exclusivo asociado<lf>a la cornamusa equipada.<lf><lf>Una vez almacenada, esta melodía<lf>no se sobrescribirá con otras.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Una actuación muy útil contra heridas.<lf>Puedes producir hasta cinco notas con <ICON WP05 PL_ATTACK_01>,<lf><ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> durante la actuación.<lf><lf>Si tocas una nota en el momento que<lf>corresponda con el ritmo, infligirá más<lf>daño.
+<string>Un ataque interpretativo efectivo contra<lf>las heridas. Puedes ejecutar hasta cinco<lf>notas con <ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> al tocar.<lf><lf>Si das las notas en el momento justo,<lf>infligirás daño adicional.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
 <string><REF RefStatus_0006_000_01>
-<string>Tras colocar una burbuja sónica, recibirás<lf>un efecto de melodía especial siempre<lf>y cuando estés dentro del área de efecto.<lf><lf>También resonará mientras tocas<lf>las notas, infligiendo daño a cualquier<lf>monstruo alrededor.
+<string>Tras crear una burbuja sónica, recibirás<lf>un efecto de melodía especial siempre<lf>y cuando estés en el área de efecto.<lf><lf>También resonará mientras tocas<lf>las notas, infligiendo daño a cualquier<lf>monstruo alrededor.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
-<string>Ataca con Tocar para interceptar los ataques<lf>del monstruo. Gracias al gran daño<lf>que inflige, se trata de un ataque normal<lf>muy útil.
+<string>Una actuación especial capaz<lf>de interceptar los ataques de los<lf>monstruos. Gracias al gran daño<lf>que inflige, también es útil como<lf>ataque normal.
 <string>
 <string>Efectos de la melodía
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Aumenta la velocidad de movimiento.<lf>Tocar un bis para este efecto de melodía<lf>también aumentará el ataque y evitará<lf>que tus ataques se desvíen.
 <string>
-<string>Impide que los ataques te derriben.
-<string>
-<string><ICON ST_POWER_UP_HORN> Ataque+ (P)/<REF MusicSkillDataText_Wp05_12>
+<string><ICON ST_POWER_UP_HORN> Mejora de ataque (P)/<REF MusicSkillDataText_Wp05_12>
 <string>Aumenta el ataque.
 <string>
-<string>Aumenta la defensa.
+<string><ICON ST_DEFECE_FIRE> Resistencia al fuego (P)/<ICON ST_DEFECE_FIRE_HIGH> resistencia al fuego (G)
+<string>Aumenta la resistencia al fuego y<lf>protege contra la plaga de fuego.
 <string>
-<string><ICON ST_DEFECE_FIRE> <REF MusicSkillDataText_Wp05_18>/<ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
-<string>Aumenta la resistencia al fuego y protege<lf>contra la plaga de fuego.
+<string>Onda de eco
+<string>Un efecto melódico que inflige daño.<lf><lf>Cada cornamusa tiene sus propios efectos.<lf>Las hay que infligen daño cortante<lf>o contundente, mientras que otras<lf>infligen daño de cada elemento<lf>y estados alterados.
 <string>
-<string>Onda sónica
-<string>Efecto de melodía que inflige daño.<lf><lf>Cada cornamusa tiene sus efectos.<lf>Las hay que infligen daño cortante<lf>o contundente, mientras que otras<lf>infligen daño de cada elemento<lf>y estados alterados.
-<string>
-<string>Efectos de burbuja sónica
-<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
-<string>Aumenta la velocidad de esquiva y de movimiento.
+<string>Efectos de burbujas sónicas
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Esquiva y movimiento veloz
+<string>Aumenta la velocidad de esquiva<lf>y de movimiento.
 <string>
 <string>Combo básico
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00>
-<string>Un combo básico. Puedes producir hasta<lf>tres notas con Floritura.
+<string>Un combo básico. Con la sinfonía<lf>puedes producir hasta tres notas.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -563,15 +559,15 @@
 <string>Combo poderoso
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Un combo potente. Golpe descendente<lf>produce dos notas que infligen bastante<lf>daño y guarda notas en<lf>tu pentagrama.
+<string>Un combo potente. El golpe<lf>descendente produce dos notas<lf>que infligen bastante daño<lf>y guardan notas en la partitura.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_2056927744>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string>
-<string>Combo de Tocar básico
+<string>Combo básico de tocar
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Un combo de Tocar que saca provecho de las<lf>vulnerabilidades en las defensas del monstruo.
+<string>Un combo interpretativo que saca<lf>provecho de las vulnerabilidades<lf>en las defensas del monstruo.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -579,7 +575,7 @@
 <string>Combo de efecto de melodía triple
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Un combo poderoso y útil contra monstruos<lf>a los que hayas derribado.<lf><lf>Usa el efecto de melodía al mismo tiempo<lf>que el ritmo de actuación y el bis para<lf>infligir mucho daño.
+<string>Un combo poderoso y útil contra<lf>monstruos tumbados.<lf><lf>Usa el efecto melódico junto con golpe<lf>musical y bis para infligir mucho daño.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -590,10 +586,10 @@
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string>
-<string>Combo de Tocar rápido
+<string>Combo rápido de tocar
 <string>Ataque básico
 <string><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Toca tras golpe con el mango para activar los<lf>efectos de melodía más rápido de lo normal.
+<string>Toca tras un golpe con el mango para<lf>activar los efectos melódicos más rápido<lf>de lo normal.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -608,14 +604,14 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Un inicio de combo básico que realiza<lf>una estocada hacia arriba. La estocada<lf>será en la dirección hacia la que<lf>apuntas en modo preciso.<lf><lf>El ataque se puede repetir hasta tres<lf>veces. Tras ejecutar estocada alta III,<lf>se puede usar contraestocada; el daño<lf>aumenta cuanto más tengas pulsado <ICON WP06 PL_ATTACK_01>.<lf>Si atacas justo cuando el monstruo<lf>ataque, podrás ejecutar la poderosa<lf>contraestocada doble.
+<string>Un iniciador de combo básico que<lf>ejecuta una estocada hacia arriba.<lf>En modo preciso, la dirección del<lf>ataque se corresponde con la<lf>dirección de la cámara.<lf><lf>Puedes repetir el ataque hasta tres<lf>veces con estocada alta III, lo que<lf>encadena con contracarga (el daño<lf>aumenta cuanto más cargues el ataque<lf>con <ICON WP06 PL_ATTACK_01>). Sincronízalo con el ataque<lf>de un monstruo para ejecutar la<lf>poderosa contraestocada.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Un ataque de estocada hacia delante.
+<string>Un ataque en estocada que se ejecuta<lf>con un salto hacia delante.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_2049287808>
-<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> Durante un combo
+<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> durante un combo
 <string>Un gran ataque de barrido que se puede<lf>emplear durante combos.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
@@ -632,8 +628,7 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Agáchate y protégete con un bloqueo<lf>impenetrable. Si bien este estado<lf>consume tu resistencia, también<lf>reduce considerablemente tu<lf>reacción a los ataques, lo que<lf>facilita tus contraataques.<lf><lf>El daño del contraataque se potenciará<lf>con cada golpe del que te protejas.
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -646,21 +641,21 @@
 <string><ICON WP06 PL_ATTACK_00> o <ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
-<string><ICON WP06 PL_ATTACK_00> Tras bloquear con éxito
-<string>Un contraataque rápido que se puede<lf>ejecutar tras una guardia. Es muy fácil<lf>encadenar en un combo y su velocidad<lf>te permite usar la guardia poco después<lf>de un ataque.
+<string><ICON WP06 PL_ATTACK_00> tras bloquear con éxito
+<string>Un contraataque rápido que se puede<lf>ejecutar tras un bloqueo. Es muy fácil de<lf>encadenar en un combo, y su velocidad<lf>te permite bloquear de nuevo poco<lf>después de un ataque.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_894130624>
-<string><ICON WP06 PL_ATTACK_01> Tras bloquear con éxito
-<string>Un contraataque hacia delante que se<lf>puede ejecutar tras usar guardia. Aunque<lf>inflige más daño que la versión ligera,<lf>te hará vulnerable durante más tiempo.
+<string><ICON WP06 PL_ATTACK_01> tras bloquear con éxito
+<string>Un contraataque hacia delante que se<lf>puede ejecutar tras bloquear. Aunque<lf>inflige más daño que la versión ligera,<lf>te hará vulnerable durante más tiempo.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_1728314368>
 <string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
-<string>Un ataque con escudo que es efectivo<lf>contra las heridas. Si aciertas en la<lf>herida o punto débil de un monstruo,<lf>podrás infligir daño en varios sitios.<lf><lf>Pulsa <ICON WP06 PL_ATTACK_SP_B> durante cualquier estocada<lf>para cancelarla inmediatamente.
+<string>Un ataque de escudo que es efectivo<lf>contra las heridas. Si aciertas en la<lf>herida o punto débil de un monstruo,<lf>podrás infligir daño en varios sitios.<lf><lf>Pulsa <ICON WP06 PL_ATTACK_SP_B> durante cualquier ataque<lf>enfocado para cancelarla<lf>inmediatamente.
 <string>
 <string>Combo básico que termina en estocada triple
 <string><REF ActionGuideDataNameText_Wp06_m572647232>
 <string><ICON WP06 PL_ATTACK_00>
-<string>Un combo básico que termina con<lf>una estocada triple.<lf><lf>La estocada triple es un potente<lf>ataque de tres golpes que se puede<lf>cancelar para pasar rápidamente a Guardia.
+<string>Un combo básico que termina con<lf>una estocada triple.<lf><lf>La estocada triple es un potente<lf>ataque de tres golpes que se puede<lf>cancelar para bloquear rápidamente.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m61029700>
 <string><ICON WP06 PL_ATTACK_00>
@@ -671,10 +666,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m752102912>
 <string><ICON WP06 PL_ATTACK_00>
 <string>
-<string>Combo básico en contraestocada
+<string>Combo básico y contracarga
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Un combo básico que termina con<lf>una contraestocada.<lf><lf>La potencia de la contraestocada<lf>aumentará cuanto más cargada esté.<lf>Si atacas al mismo tiempo que un<lf>monstruo, se convertirá en la aún<lf>más poderosa contraestocada doble.
+<string>Un combo básico que termina con<lf>una contracarga.<lf><lf>La potencia de la contracarga<lf>aumentará cuanto más cargada esté.<lf>Si atacas al mismo tiempo que un<lf>monstruo, se convertirá en la aún<lf>más poderosa contraestocada doble.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1128612864>
 <string><ICON WP06 PL_ATTACK_01>
@@ -685,10 +680,10 @@
 <string><REF ActionGuideDataNameText_Wp06_1549684992>
 <string><ICON WP06 merge="PL_ATTACK_01,HOLD_ON">
 <string>
-<string>Contraataque tras bloqueo con éxito
+<string>Contraataques tras bloquear con éxito
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Un contraataque disponible tras<lf>bloquear el ataque de un monstruo.<lf><lf>Si ejecutas un bloqueo perfecto<lf>con éxito, podrás lanzar un potente<lf>ataque embistiendo.
+<string>Un contraataque disponible tras<lf>bloquear el ataque de un monstruo.<lf><lf>Si consigues hacer un bloqueo<lf>perfecto, en lugar de una estocada<lf>de castigo podrás lanzar una<lf>gran estocada de castigo.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,13 +691,13 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE> Lanza pistola
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
 <string><ICON WP07 PL_ATTACK_00>
-<string>Una estocada frontal. Utiliza <ICON WP07 PL_ATTACK_00> para<lf>encadenarlo con una estocada lateral II,<lf>y luego <ICON WP07 PL_ATTACK_00> para añadir un tajo horizontal.
+<string>Una estocada frontal. Utiliza <ICON WP07 PL_ATTACK_00><lf>para encadenarlo con una estocada<lf>lateral II, y luego <ICON WP07 PL_ATTACK_00> para añadir<lf>un barrido amplio.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m318721248>
 <string><ICON WP07 PL_MOVE_FRONT><ICON PLUS><ICON WP07 PL_ATTACK_00>
@@ -718,12 +713,12 @@
 <string><ICON WP07 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1497865856>
-<string><ICON WP07 PL_ATTACK_00> Tras barrido amplio
-<string>Un ataque que dispara el cañón<lf>de sierpe. Inflige daño continuado a<lf>la parte del monstruo que golpea antes<lf>de explotar, con lo que inflige daño que<lf>atraviesa la piel del monstruo.
+<string><ICON WP07 PL_ATTACK_00> tras barrido amplio
+<string>Un ataque que dispara tu cañón<lf>de sierpe. Inflige daño continuo a<lf>la parte del monstruo que golpee<lf>antes de explotar, lo que provoca<lf>un daño que quema y atraviesa<lf>la piel del monstruo.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
-<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> Tras barrido amplio
-<string>Un ataque que dispara los<lf>proyectiles restantes y el cañón de sierpe.<lf>Pulsa <ICON WP07 PL_ATTACK_00> o <ICON WP07 PL_ATTACK_01> tras nitro de sierpe total<lf>para usar nitro de sierpe total múltiple.
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> tras barrido amplio
+<string>Un ataque que dispara los proyectiles<lf>restantes y el cañón de sierpe.<lf><lf>Pulsa <ICON WP07 PL_ATTACK_00> o <ICON WP07 PL_ATTACK_01> tras nitro de sierpe total<lf>para usar nitro de sierpe total múltiple.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
@@ -734,48 +729,48 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m43537492>
 <string><ICON WP07 merge="PL_ATTACK_01,HOLD_ON">
-<string>Un ataque que carga los proyectiles<lf>antes de dispararlos todos a la vez,<lf>con lo que inflige daño que atraviesa<lf>la piel del monstruo.
+<string>Un ataque que carga los proyectiles<lf>antes de dispararlos todos a la vez, con<lf>lo que inflige daño que quema y atraviesa<lf>la piel del monstruo.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Un tajo ascendente con la lanza pistola.<lf>Pulsa <ICON WP07 PL_ATTACK_01> tras el ataque para disparar un<lf>proyectil o <ICON WP07 PL_ATTACK_00> para un golpe descendente.
+<string>Un tajo hacia arriba.<lf><lf>Pulsa <ICON WP07 PL_ATTACK_01> tras el tajo ascendente<lf>para disparar un proyectil o <ICON WP07 PL_ATTACK_00><lf>para un golpe descendente.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1588566656>
 <string><ICON WP07 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Pulsa <ICON WP07 PL_ATTACK_00> mientras te proteges para ejecutar<lf>estocada en guardia I. Al ejecutar<lf>una guardia perfecta, pulsa <ICON WP07 PL_ATTACK_00><lf>para golpe descendente.
+<string>Pulsa <ICON WP07 PL_ATTACK_00> mientras te proteges para<lf>lanzar una estocada en guardia I.<lf>Si logras un bloqueo perfecto,<lf>pulsa <ICON WP07 PL_ATTACK_00> para ejecutar un golpe<lf>descendente.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m2132440704>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Recarga los proyectiles y el cañón<lf>de sierpe. Bloquearás automáticamente<lf>los ataques de forma inmediata al empezar<lf>a recargar.
+<string>Recarga los proyectiles y el cañón<lf>de sierpe. Bloquearás de manera<lf>automática los ataques justo al<lf>empezar a recargar.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1926268544>
-<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> Durante un combo
-<string>Recarga solo proyectiles.<lf>Bloquearás automáticamente<lf>los ataques de forma inmediata al empezar<lf>a recargar.
+<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> durante un combo
+<string>Recarga solo proyectiles.<lf>Bloquearás de manera<lf>automática los ataques justo al<lf>empezar a recargar.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Usa un segmento de la barra de wyvern<lf>para desatar el poderoso fuego de wyvern,<lf>que inflige daño de fuego capaz<lf>de atravesar la piel de un monstruo.
+<string>Usa una mitad del medidor de fuego<lf>de wyvern para desatar el poderoso<lf>fuego de wyvern, que inflige daño<lf>de fuego capaz de atravesar la piel<lf>de un monstruo.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_695464896>
 <string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
-<string>Un ataque perforante con embestida<lf>que es efectivo contra las heridas.<lf>Si aciertas en la herida o punto débil<lf>de un monstruo, podrás alargar el ataque<lf>y te permitirá disparar el cañón de sierpe.<lf><lf>También puedes disparar el cañón de sierpe<lf>antes si pulsas <ICON WP07 PL_ATTACK_SP_B> durante el ataque perforante.
+<string>Un ataque perforante con embestida<lf>muy efectivo contra las heridas.<lf>Si aciertas en la herida o punto débil<lf>de un monstruo, podrás alargar el ataque<lf>y disparar el cañón de sierpe.<lf><lf>También puedes disparar el cañón<lf>de sierpe antes si pulsas <ICON WP07 PL_ATTACK_SP_B> durante<lf>el ataque perforante.
 <string>
 <string><REF RefEquipment_SORT_0004>
-<string>Hay tres tipos de proyectiles:<lf>normales, anchos y largos.<lf><lf>Los normales tienen más capacidad que<lf>ningún otro. Los anchos ofrecen proyectiles<lf>y fuego de wyvern más potentes.<lf>Los largos ofrecen ataques más potentes<lf>con el cañón de sierpe.
+<string>Hay tres tipos de proyectiles:<lf>normales, anchos y largos.<lf><lf>Los normales tienen más capacidad que<lf>ningún otro. Los anchos ofrecen<lf>proyectiles y fuego de wyvern más<lf>potentes. Los largos ofrecen ataques<lf>más potentes con el cañón de sierpe.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1164200704>
-<string>La munición necesaria para disparar.<lf>Con cada disparo, se consume un proyectil.<lf>Se pueden recuperar usando la recarga<lf>o la recarga rápida.
+<string>La munición necesaria para ejecutar<lf>ataques con proyectil. Cada disparo<lf>consume un proyectil. Se pueden<lf>recuperar usando la recarga o la<lf>recarga rápida.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1336808448>
-<string>La munición necesaria para usar el cañón de<lf>sierpe. Se consume con cada uso del cañón<lf>de sierpe y se puede recuperar recargando.
+<string>La munición necesaria para usar el cañón<lf>de sierpe. Se consume con cada uso del<lf>cañón de sierpe y se puede recuperar<lf>recargando.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>La barra necesaria para usar el fuego<lf>de wyvern, un ataque que provoca grandes<lf>daños con fuego, desgarrando la carne.<lf><lf>La barra de wyvern se recupera<lf>automáticamente, pero también se<lf>puede cargar conectando ataques.<lf><lf>Puedes cargar hasta dos segmentos<lf>a la vez. Usar el fuego de wyvern<lf>consumirá un segmento.
+<string>Barra que hay que llenar para usar<lf>el fuego de wyvern, un poderoso<lf>ataque que inflige daño de elemento<lf>fuego y puede penetrar en la<lf>piel de un monstruo.<lf><lf>El medidor de fuego de wyvern se recupera<lf>automáticamente, pero también se puede<lf>llenar conectando ataques. Con el medidor<lf>lleno podrás ejecutar el fuego de wyvern<lf>dos veces, y una de ellas consumirá<lf>la mitad de la barra.
 <string>
 <string>Combo de cañón de sierpe
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
 <string><ICON WP07 PL_ATTACK_00>
-<string>Un combo básico que encadena<lf>en cañón de sierpe.
+<string>Un combo básico que termina<lf>con un cañón de sierpe.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m789417920>
 <string><ICON WP07 PL_ATTACK_00>
@@ -789,7 +784,7 @@
 <string>Combo de nitro de sierpe total
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
-<string>Un combo básico que encadena<lf>en nitro de sierpe total.
+<string>Un combo básico que termina<lf>con nitro de sierpe total.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m551745024>
 <string><INPUTMSG MsgGUI600200_01_020>
@@ -803,7 +798,7 @@
 <string>Combo de fuego ráfaga
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Un combo básico que encadena<lf>en fuego ráfaga.
+<string>Un combo básico que termina<lf>con un fuego ráfaga.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1347992960>
 <string><ICON WP07 PL_ATTACK_00>
@@ -814,18 +809,18 @@
 <string><ICON WP_SWITCHAXE> Hacha espada
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Pulsa <ICON WP08 PL_ATTACK_00> tras hacha: Tajo descendente<lf>para lanzar hacha: Tajo lateral, y luego<lf><ICON WP08 PL_ATTACK_00> para hacha: Tajo en ráfaga espiral.<lf>Al realizar hacha: Tajo en ráfaga espiral,<lf>recuperarás una gran cantidad de tu<lf>indicador de cambio.<lf><lf>También puedes usar <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> para<lf>el ataque hacha: Tajo frontal, con<lf>el que embestirás a media distancia.
+<string>Un combo del modo hacha básico:<lf><ICON WP08 PL_ATTACK_00> Hacha: Tajo descendente →<lf><ICON WP08 PL_ATTACK_00> Hacha: Tajo lateral →<lf><ICON WP08 PL_ATTACK_00> Hacha: Tajo en ráfaga espiral.<lf><lf>Hacha: Tajo en ráfaga espiral recupera<lf>una gran cantidad de tu barra de cambio.<lf><lf>Usa <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> para ejecutar<lf>hacha: Tajo adelante, un ataque de<lf>medio alcance que te desplaza<lf>hacia el frente.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 PL_ATTACK_01>
-<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> te permitirá usar de forma continuada<lf>Hacha: Revés salvaje. Tras usar Hacha:<lf>Revés salvaje al menos dos veces, pulsa <ICON WP08 PL_ATTACK_00><lf>para Hacha: Golpe pesado, que te pondrá<lf>en el modo hacha poderosa.<lf><lf>Pulsa <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> para usar Hacha: Tajo<lf>descendente frontal, un ataque embistiendo<lf>a larga distancia.
+<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> ejecutará de forma continuada<lf>hacha: Revés salvaje. Tras usar<lf>hacha: Revés salvaje al menos dos veces,<lf>pulsa <ICON WP08 PL_ATTACK_00> para ejecutar hacha: Golpe<lf>pesado, que activará el modo hacha<lf>poderosa.<lf><lf>Pulsa <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> para usar hacha: Tajo<lf>descendente frontal, un ataque a larga<lf>distancia con desplazamiento frontal.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Un tajo ascendente capaz de interceptar<lf>los ataques de los monstruos. Si logras<lf>una intercepción perfecta, pulsa <ICON WP08 PL_ATTACK_00><lf>para hacha: Golpe pesado encadenado,<lf>pasar a modo hacha poderosa, o <ICON WP08 PL_ATTACK_SP><lf>para hacha: Tajo mutante encadenado,<lf>lo que te pondrá en modo espada.
+<string>Un tajo ascendente capaz de interceptar<lf>los ataques de los monstruos.<lf><lf>Si tu ataque derriba a un monstruo,<lf>pulsa <ICON WP08 PL_ATTACK_00> para hacha: Golpe pesado<lf>encadenado, lo que te pondrá en modo<lf>hacha poderosa, o pulsa <ICON WP08 PL_ATTACK_SP> para hacha:<lf>Tajo mutante encadenado,<lf>lo que te pondrá en modo espada.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><ICON WP08 PL_ATTACK_00> tras una intercepción perfecta
@@ -843,7 +838,7 @@
 <string><INPUTMSG MsgGUI600200_01_021_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Un ataque cortante que es efectivo contra<lf>las heridas. Si aciertas en la herida o<lf>punto débil de un monstruo, podrás<lf>infligir daño varias veces<lf>y lanzar un hacha: Golpe pesado.<lf>Si mutas al modo espada con <ICON WP08 PL_ATTACK_SP><lf>durante el ataque múltiple, podrás<lf>lanzar una descarga elemental final.
+<string>Un ataque cortante muy efectivo<lf>contra heridas.<lf><lf>Si conectas el ataque con una herida o<lf>punto débil de un monstruo, infligirás<lf>varios golpes que se encadenarán con<lf>un hachazo potente final y causarán<lf>un daño enorme. Otra opción es<lf>usar <ICON WP08 PL_ATTACK_SP> en mitad del ataque para<lf>mutar a modo espada y terminar<lf>con una descarga elemental final.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -858,23 +853,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1381817088>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
-<string>Ataca justo cuando lo haga el monstruo<lf>para que no te derribe.<lf>Si lo consigues, podrás ejecutar dos<lf>ataques seguidos, que podrán continuar con<lf>Espada: Ráfaga celestial usando <ICON WP08 PL_ATTACK_01>.
+<string>Ejecuta espada: Contratajo ascendente<lf>justo cuando un monstruo ataca y así<lf>lanzarás un contraataque de dos golpes.<lf>Si lo consigues, no te podrán<lf>derribar ni arrojarte por los aires.<lf>Pulsa <ICON WP08 PL_ATTACK_01> tras el contraataque para<lf>encadenar con espada: Ráfaga<lf>celestial.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Pulsa <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> tras una descarga elemental<lf>para lanzar un remate explosivo.<lf>Mutarás de forma automáticamente<lf>a modo hacha tras la explosión.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>Si realizas una descarga elemental<lf>en estado amplificado, tu personaje<lf>se agarrará al monstruo. Mientras te<lf>aferras a él, usa <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> para lanzar un<lf>remate con descarga de suma cero.<lf>Tras hacerlo, tu arma volverá<lf>al modo hacha.
+<string>Pulsa varias veces <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> tras una descarga<lf>elemental para lanzar un remate<lf>explosivo. Mutarás de forma automática<lf>al modo hacha tras la explosión.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Un potente ataque disponible en modo espada.<lf>Si se usa en el estado amplificado, causará<lf>una explosión que inflige daño adicional.<lf>Mutarás en el modo hacha tras el ataque.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Un poderoso ataque solo disponible en<lf>estado amplificado. También puedes<lf>encadenarlo desde <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> tras una descarga<lf>elemental. Este ataque devolverá tu arma<lf>al modo hacha.
+<string>Un potente ataque disponible en<lf>modo espada. Si se usa en el estado<lf>amplificado, causará una explosión<lf>que inflige daño adicional. Mutarás<lf>en el modo hacha tras el ataque.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -882,16 +869,16 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Un ataque cortante que es efectivo<lf>contra las heridas. Si golpeas en la<lf>herida o punto débil de un monstruo,<lf>podrás infligir montones de daño y<lf>lanzar una descarga elemental final.<lf>Si mutas a modo hacha con <ICON WP08 PL_ATTACK_SP><lf>durante el ataque múltiple, podrás<lf>lanzar hacha: Golpe pesado.
+<string>Un ataque cortante muy efectivo contra<lf>las heridas.<lf><lf>Si conectas el ataque contra una herida<lf>o punto débil, lograrás varios impactos<lf>que se encadenan con una potentísima<lf>descarga elemental final. Otra opción<lf>es usar <ICON WP08 PL_ATTACK_SP> en mitad del ataque para<lf>mutar a modo hacha y terminar con<lf>un hachazo potente final.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
 <string>
-<string><REF ActionGuideDataNameText_Wp08_971569344>★<REF ActionGuideDataNameText_Wp08_m1422082944>
-<string>Al atacar en modo hacha llenarás<lf>la barra de cambio, y al atacar en<lf>modo espada, la consumirás.<lf>Alterna entre los dos modos mientras<lf>luches para asegurarte el éxito.
+<string><REF ActionGuideDataNameText_Wp08_971569344> ⇔ <REF ActionGuideDataNameText_Wp08_m1422082944>
+<string>Al atacar en modo hacha llenarás<lf>la barra de cambio, y al atacar en<lf>modo espada, la consumirás.<lf>Alterna entre los dos modos durante<lf>la cacería para asegurarte el éxito.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1814127872>
-<string>Una barra que se llena al conectar<lf>ataques en modo hacha.<lf><lf>Puede mutar al modo espada cuando<lf>la barra de cambio está al 30 %.<lf>La barra se llenará poco a poco<lf>cuando tengas el arma envainada.
+<string>Una barra que se llena al conectar<lf>ataques en modo hacha.<lf><lf>Puede mutar al modo espada cuando<lf>la barra de cambio está al 30 %.<lf>La barra se llenará poco a poco<lf>cuando tengas el arma envainada.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_503110624>
 <string>Aumenta el daño durante el modo hacha.<lf>También aumenta el ritmo al que se llena<lf>la barra de cambio mientras atacas.
@@ -900,15 +887,15 @@
 <string>Una barra que se llena según ataques<lf>en el modo espada.<lf><lf>Puedes entrar en el estado amplificado<lf>cuando la barra de activación esté llena<lf>por completo.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_132806840>
-<string>Se dan pequeñas explosiones que infligen daño<lf>según el tipo de vial actual de forma automática<lf>cuando ataques en el modo espada.
+<string>Se dan pequeñas explosiones que infligen<lf>daño según el tipo de vial actual de<lf>forma automática al atacar en modo<lf>espada.
 <string>
 <string>Tipo de vial
-<string>Si atacas en el modo espada, gastarás<lf>barra de cambio y se añadirá un efecto según<lf>el tipo de vial. Algunos viales llenan la barra<lf>de cambio con más facilidad que otros.<lf><lf>Vial de poder: Potencia el daño físico<lf>Vial elemental: Potencia el daño elemental<lf>Vial de veneno: Añade veneno<lf>Vial de parálisis: Añade parálisis<lf>Vial de draco: Añade el elemento de draco<lf>Vial de fatiga: Añade aturdimiento/drenaje de energía
+<string>Si atacas en el modo espada, gastarás<lf>barra de cambio y se añadirá un efecto<lf>según el tipo de vial. Algunos viales<lf>llenan la barra de activación con más<lf>rapidez que otros.<lf><lf><COLOR preset="TXT_Accent">Vial de poder</COLOR>: Potencia el daño físico<lf><COLOR preset="TXT_Accent">Vial elemental</COLOR>: Potencia el daño elemental<lf><COLOR preset="TXT_Accent">Vial de veneno</COLOR>: Añade veneno<lf><COLOR preset="TXT_Accent">Vial de parálisis</COLOR>: Añade parálisis<lf><COLOR preset="TXT_Accent">Vial de draco</COLOR>: Añade elemento draco<lf><COLOR preset="TXT_Accent">Vial de fatiga</COLOR>: Añade aturdimiento/fatiga
 <string>
 <string>Combo para llenar la barra de cambio rápidamente
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Un combo básico para llenar la barra de<lf>cambio mientras estás en modo hacha.<lf>El combo se puede encadenar en otro combo<lf>con <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> para hacha: Tajo adelante o<lf><ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> para hacha: Tajo descendente frontal.<lf>Elige el mejor ataque para cada situación<lf>y según la distancia desde la que ataques.
+<string>Un combo básico para llenar la barra de<lf>cambio mientras estás en modo hacha.<lf><lf>Empieza el combo bien con hacha: Tajo<lf>adelante (pulsando <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>) o con hacha:<lf>Tajo descendente frontal (<ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>).<lf><lf>Tu posición es fundamental: elige<lf>un ataque u otro según la distancia<lf>que te separe del objetivo.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1338690432>
 <string><ICON WP08 PL_ATTACK_00>
@@ -919,7 +906,7 @@
 <string>Combo de hacha para cambiar al modo espada
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
-<string>Un combo que te permite mutar del modo<lf>espada tras activar el modo hacha poderosa.
+<string>Un combo que te permite mutar<lf>al modo espada tras activar el modo<lf>hacha poderosa.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
@@ -933,12 +920,12 @@
 <string>Combo para llenar la barra de activación en el modo espada
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Un combo que rellena rápidamente la barra<lf>de activación en el modo espada.
+<string>Un combo que llena rápidamente la<lf>barra de activación en modo espada.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1737891328>
 <string><ICON WP08 PL_ATTACK_01>
 <string>
-<string>Combo en modo espada básico
+<string>Combo básico en modo espada
 <string><REF ActionGuideDataNameText_Wp08_m1084801536>
 <string><ICON WP08 PL_ATTACK_00>
 <string><INPUTMSG MsgGUI600200_01_024>
@@ -952,7 +939,7 @@
 <string>Combo poderoso cuando el monstruo es vulnerable
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Un potente combo cuando el monstruo<lf>es vulnerable.
+<string>Un combo potente cuando el monstruo<lf>se vuelve vulnerable.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">
@@ -963,22 +950,22 @@
 <string><ICON WP_CHARGEBLADE> Hacha cargada
 <string><REF ActionGuideDataNameText_Wp09_m584458432>
 <string><ICON WP09 PL_ATTACK_00>
-<string>Inicio de un combo básico.<lf>Puedes encadenar en Contragolpe con <ICON WP09 PL_ATTACK_00>,<lf>luego tajo rotatorio con <ICON WP09 PL_ATTACK_00> de nuevo.
+<string>Una forma básica de iniciar un combo.<lf><lf><ICON WP09 PL_ATTACK_00> Espada: Tajo suave →<lf><ICON WP09 PL_ATTACK_00> Espada: Contragolpe →<lf><ICON WP09 PL_ATTACK_00> Espada: Tajo rotatorio.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Para ejecutarlo, suelta <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> en el<lf>momento justo. Ejecutarás tajo ascendente<lf>en su lugar si no lo haces bien.
+<string>Espada: Tajo doble cargado es un ataque<lf>que debe calcularse bien. Pulsa <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"><lf>para cargar el ataque y suéltalo justo<lf>cuando el monstruo ataque.<lf>Si no lo sueltas en el momento justo,<lf>lanzarás un espada: Tajo ascendente<lf>cargado en su lugar.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Un tajo arrollador que te hace avanzar.<lf>Puedes ejecutar espada: Golpe de escudo<lf>tras espada: Tajo adelante con <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.<lf>Usa <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> de nuevo para ejecutar hacha:<lf>Superdescarga elemental.
+<string>Un tajo arrollador que te hace avanzar.<lf><lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Espada: Tajo adelante →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Espada: Golpe de escudo →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Hacha: Superdescarga elemental
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Un bloqueo con el escudo.<lf>Si bloqueas en el momento justo,<lf>realizarás un bloqueo perfecto.<lf><lf>Usa <ICON WP09 PL_ATTACK_00> tras un bloqueo perfecto para<lf>ejecutar un tajo de hacha salvaje.
+<string>Bloquea ataques con el escudo.<lf>Si bloqueas en el momento justo,<lf>realizarás un bloqueo perfecto.<lf><lf>Tras un bloqueo perfecto, pulsa <ICON WP09 PL_ATTACK_00><lf>para ejecutar un tajo de hacha salvaje.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1536274816>
-<string><ICON WP09 PL_ATTACK_00> Tras un bloqueo perfecto
+<string><ICON WP09 PL_ATTACK_00> tras un bloqueo perfecto
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
@@ -986,15 +973,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Usa para energía de espada acumulada<lf>para llenar los viales. Si los viales ya<lf>están llenos, el exceso mejorará el vial.
+<string>Usa energía de espada acumulada<lf>para llenar los viales del hacha cargada.<lf>Si los viales ya están llenos, el exceso<lf>los mejorará.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
-<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> Mientras cargas
-<string>Gasta viales para entrar en Bonus elemental,<lf>locual mejorará tu guardia y te permitirá<lf>ejecutar Hacha: Superdescarga elemental<lf>amplificada.
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> mientras cargas
+<string>Gasta viales para dar a tu escudo un<lf>bonus elemental, lo que mejorará tus<lf>bloqueos y te permitirá ejecutar<lf>hacha: Megadescarga elemental.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
-<string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> Mientras cargas
-<string>Un potenciador extra tras Bonus elemental,<lf>que aumenta la espada. Si está aumentada,<lf>tu espada no rebotará en los monstruos.
+<string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> mientras cargas
+<string>Tras un bonus elemental, potencia<lf>el modo espada de la hacha cargada.<lf>Mientras esté potenciada, los<lf>ataques de la espada no rebotarán<lf>en la coraza de los monstruos.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1002,7 +989,7 @@
 <string><INPUTMSG MsgGUI600200_01_026_01>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Un ataque cortante efectivo contra<lf>las heridas. Ejecuta un ataque en<lf>salto con espada en el modo espada<lf>o hacha. Si conectas con una herida,<lf>entrarás en el modo hacha poderosa.
+<string>Un ataque cortante efectivo contra<lf>heridas.<lf><lf>Ejecuta un ataque en salto con espada<lf>tanto desde modo espada como modo<lf>hacha. Si conectas con una herida,<lf>entrarás en modo hacha poderosa.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m2127622656>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1010,48 +997,48 @@
 <string><INPUTMSG MsgGUI600200_01_027_01>
 <string><REF ActionGuideDataNameText_Wp09_794588032>
 <string><ICON WP09 PL_ATTACK_01>
-<string>Un ataque de varios golpes que consume<lf>un vial. Pulsa <ICON WP09 PL_ATTACK_01> para lanzar un hacha:<lf>Descarga elemental II, y luego <ICON WP09 PL_ATTACK_01> otra<lf>vez para hacha: Superdescarga elemental.<lf><lf>Sigue pulsando <ICON WP09 PL_ATTACK_01> mientras estás en<lf>modo hacha poderosa, y podrás infligir<lf>daño varias veces.
+<string>Un ataque de varios golpes que consume<lf>un vial.<lf><lf><ICON WP09 PL_ATTACK_01> Hacha: Descarga elemental I →<lf><ICON WP09 PL_ATTACK_01> Hacha: Descarga elemental II →<lf><ICON WP09 PL_ATTACK_01> Hacha: Superdescarga elemental<lf><lf>Mantén pulsado <ICON WP09 PL_ATTACK_01> mientras estás en<lf>modo hacha poderosa para realizar un<lf>poderoso ataque múltiple de gran daño.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>La descarga elemental amplificada se puede<lf>encadenar con otros ataques. Pulsa <ICON WP09 PL_ATTACK_01> para<lf>pasar de una a hacha: Descarga elemental<lf>amplificada encadenada. Al mantener<lf>pulsado <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> o <ICON WP09 PL_ATTACK_01> en modo hacha<lf>poderosa, infligirás daño en varios sitios.<lf>Pulsa <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> de nuevo en bonus elemental,<lf>y lanzarás un hacha: Superdescarga<lf>elemental amplificada. Además, si pulsas<lf><ICON WP09 PL_ATTACK_SP> al prepararte para activar este<lf>movimiento y encadenarlo con una rotación<lf>elemental, activarás un bonus elemental.
+<string><ICON WP09 PL_ATTACK_01> Hacha: superdescarga elemental →<lf><ICON WP09 PL_ATTACK_01> Hacha: superdescarga elemental<lf>encadenada.<lf><lf>Mantén <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> o <ICON WP09 PL_ATTACK_01> mientras estás en<lf>modo hacha poderosa para lanzar varios<lf>golpes que infligen bastante daño.<lf><lf>Pulsa <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con bonus elemental) para<lf>lanzar un hacha: Megadescarga elemental<lf>o bien <ICON WP09 PL_ATTACK_SP> (mientras preparas hacha:<lf>Superdescarga elemental) para ejecutar<lf>un tajo elemental rotatorio que activa<lf>el bonus elemental.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>Un ataque que hará que tu hacha mute<lf>en espada.
+<string>Un ataque que hará que tu espada mute<lf>en un hacha.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Un ataque cortante efectivo contra<lf>las heridas. Ejecuta un ataque en<lf>salto con espada en el modo espada<lf>o hacha. Si conectas con una herida,<lf>entrarás en el modo hacha poderosa.
+<string>Un ataque cortante efectivo contra<lf>heridas.<lf><lf>Ejecuta un ataque en salto con espada<lf>tanto desde modo espada como modo<lf>hacha. Si conectas con una herida,<lf>entrarás en modo hacha poderosa.
 <string>
-<string><REF ActionGuideDataNameText_Wp09_m970370816>★<REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Muta tu arma y cambia de modo.<lf>Al mutar, el escudo protege automáticamente<lf>contra los ataques mientras esté de frente.
+<string><REF ActionGuideDataNameText_Wp09_m970370816> ⇔ <REF ActionGuideDataNameText_Wp09_1106936064>
+<string>El hacha cargada muta para alternar<lf>entre dos modos: el modo espada<lf>y el modo hacha. Si tienes el escudo<lf>a punto al mutar, bloquearás ataques<lf>automáticamente.
 <string>
-<string>Ataques que bloquean
-<string>Algunos ataques en el modo espada también<lf>pueden bloquear. Si mientras realizas el<lf>movimiento recibes un ataque desde la<lf>dirección en la que tienes orientado el<lf>escudo, lo bloquearás automáticamente.<lf><lf>Tras usar guardia, podrás ejecutar<lf>Hacha: Superdescarga elemental amplificada con<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.
+<string>Ataques bloqueadores
+<string>Algunos ataques del modo espada<lf>también pueden bloquear. Si atacas<lf>con el escudo orientado en la dirección<lf>desde la que recibes un ataque,<lf>lo bloquearás automáticamente.<lf><lf>Tras bloquear usando uno de estos<lf>ataques de modo espada, pulsa <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>(con bonus elemental) para encadenar<lf>con un hacha: Megadescarga elemental.
 <string>
 <string>Indicador de carga
-<string>Al atacar con la espada, guardarás energía<lf>de espada, que se puede usar para llenar<lf>viales cuando la barra esté en nivel amarillo<lf>o superior.<lf><lf>Si acumulas demasiada energía de espada,<lf>tus ataques se desviarán.
+<string>Al atacar con una espada, guardarás<lf>energía de espada, que se puede usar<lf>para llenar los viales cuando la barra<lf>esté en amarillo o más.<lf><lf>Si acumulas demasiada energía de<lf>espada, tus ataques se desviarán.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_650824320>
-<string>Mejora tu bloqueo en el modo espada<lf>y podrás ejecutar Hacha:<lf>Superdescarga elemental amplificada.
+<string>Mejora tu bloqueo en el modo espada<lf>y te permite ejecutar hacha:<lf>Megadescarga elemental amplificada.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1125949696>
-<string>Tus ataques de espada se mejorarán con<lf>los efectos de los viales, se<lf>potenciará tu daño y tu arma no<lf>será desviada.
+<string>Mejora tus ataques de espada con los<lf>efectos de los viales. Potencia el daño<lf>y evita que tus ataques sean desviados.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m701543936>
-<string>Reduce el uso de viales y te permite infligir<lf>daño en varios sitios al mantener pulsado<lf>el botón cuando ataques con el hacha.<lf>Tras ejecutar un bloqueo perfecto, puedes<lf>lanzar un tajo de hacha salvaje, que mejorará<lf>tus ataques durante un breve tiempo.
+<string>El modo hacha poderosa reduce<lf>el uso de viales y te permite<lf>lanzar ataques en modo hacha<lf>que causarán varios impactos.<lf><lf>Tras lograr un bloqueo perfecto,<lf>puedes lanzar un tajo de hacha<lf>salvaje, que mejorará tus ataques<lf>durante un breve período de tiempo.
 <string>
-<string>Ataque cargado
-<string>Espada: Tajo doble cargado y Espada:<lf>Tajo elemental preciso perderán efectividad<lf>si están sobrecargadas, pero si se usan en<lf>el momento correcto, son ataques potentes.
+<string>Ataques cargados
+<string>Los ataques espada: tajo doble cargado<lf>y espada: tajo elemental preciso son<lf>ataques cargados que requieren<lf>precisión. Ten cuidado con cuánto los<lf>cargas: si los has cargado demasiado,<lf>no se podrás ejecutar.
 <string>
 <string>Viales
-<string>Se consumen al ejecutar ataques de<lf>descarga elemental, e infligen daño al<lf>explotar. Si lo mejoras, los efectos<lf>del vial se amplificarán.<lf><lf>Vial de impacto: Añade aturdimiento<lf>y fatiga, y genera una explosión que<lf>atraviesa la piel de un monstruo.<lf><lf>Vial elemental: Aumenta la propiedad<lf>elemental del arma y puede infligir<lf>mucho daño gracias al elemento.
+<string>Los viales se consumen al ejecutar<lf>ataques de descarga elemental que<lf>detonan explosiones devastadoras.<lf>Si lo mejoras, los efectos del vial<lf>se amplificarán.<lf><lf><COLOR preset="TXT_Accent">Vial de impacto</COLOR>: Añade aturdimiento y<lf>fatiga, además de generar una explosión<lf>que puede atravesar la piel de un monstruo.<lf><lf><COLOR preset="TXT_Accent">Vial elemental</COLOR>: Aumenta las propiedades<lf>elementales del arma para infligir<lf>mucho daño gracias al elemento.
 <string>
 <string>Espada: Combo básico
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Un combo que te permite aproximarte<lf>desde una larga distancia con Espada:<lf>Golpe de escudo.<lf><lf>Si sustituyes Espada: Contragolpe con<lf>Espada: Tajo doble cargado, podrás<lf>cargar la barra más rápidamente.
+<string>Un combo que te permite acercarte<lf>con espada: Golpe de escudo.<lf><lf>Si usas espada: Tajo doble cargado en<lf>lugar de espada: Contragolpe, rellenarás<lf>rápidamente el indicador de carga.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_530797824>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1065,7 +1052,7 @@
 <string>Combo de bonus elemental
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Un combo que te permite usar<lf>Escudo: Bonus elemental.<lf><lf>Si cargas durante un combo básico,<lf>podrás ejecutar el ataque.
+<string>Un combo que te permite usar<lf>escudo: Bonus elemental.<lf>También puedes ejecutar el ataque<lf>cargándolo durante un combo básico.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1076,10 +1063,10 @@
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>Combo de Descarga elemental con 3+ viales
+<string>Combo de descarga elemental con 3 viales o más
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Un combo que encadena Espada: Golpe<lf>de escudo en Hacha: Descarga elemental<lf>amplificada.<lf><lf>El combo termina con Hacha: Superdescarga<lf>elemental amplificada, lo que te permite<lf>infligir mucho daño.
+<string>Un combo que encadena espada: Golpe<lf>de escudo con hacha: Superdescarga<lf>elemental.<lf><lf>El combo termina con Hacha:<lf>Megadescarga elemental, lo que<lf>te permite infligir mucho daño.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1090,13 +1077,13 @@
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>Combo de Hacha: Superdescarga elemental amplificada
+<string>Combo de hacha: Megadescarga elemental
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Como otros ataques que pueden usar guardia,<lf>puedes usar Hacha: Superdescarga elemental<lf>amplificada directamente tras la guardia.<lf><lf>Si usas Bonus elemental, se reducirá el<lf>tiempo que eres vulnerable tras la guardia,<lf>lo que facilita el uso de este combo.
+<string>Si bloqueas con un ataque que tenga<lf>capacidad de bloquear, podrás lanzar<lf>el hacha: Megadescarga elemental.<lf><lf>Si usas un bonus elemental, se reducirá<lf>el tiempo que eres vulnerable tras<lf>bloquear, lo que facilita el uso de<lf>este combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
-<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Tras proteger con un ataque que bloquea
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> tras bloquear mediante un ataque
 <string>
 <string><ICON WP_INSECTGLAIVE> Glaive insecto
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1109,7 +1096,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
-<string>Da la orden al kinsecto de lanzarse<lf>adelante y recolectar un extracto<lf>de la parte del monstruo que golpee.<lf><lf>El kinsecto volará hasta la retícula:<lf>puedes verla con <ICON WP10 PL_ATTACK_SP>.
+<string>Da la orden al kinsecto de atacar<lf>la parte del monstruo marcada por tu<lf>retícula para conseguir extracto.<lf><lf>Mantén <ICON WP10 PL_ATTACK_SP>: Muestra la retícula<lf>Pulsa <ICON WP10 PL_ATTACK_SP>: Marca el objetivo
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
@@ -1119,63 +1106,63 @@
 <string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp10_1536680576>
-<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_01> Mientras el kinsecto está volando
-<string>Ordena al kinsecto a que vuelva contigo.<lf>Los extractos que trae de vuelta<lf>te volverán más fuerte.
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_01> mientras vuela el kinsecto
+<string>Ordena al kinsecto que vuelva contigo.<lf>Los extractos que traiga de vuelta<lf>te volverán más fuerte.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Un ataque que crea una marca que tu<lf>kinsecto puede seguir.<lf><lf>Tu kinsecto atacará la parte del cuerpo<lf>marcada, y dejará un efecto de partículas<lf>tras de sí.
+<string>Cuando marques un objetivo, harás que<lf>los ataques del kinsecto se concentren<lf>sobre esa parte del monstruo.<lf><lf>Si tu kinsecto ataca la parte marcada,<lf>dejará polvo de kinsecto tras de sí.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Un ataque a larga distancia que crea<lf>una marca que tu kinsecto puede seguir.<lf><lf>Tu kinsecto atacará la parte del cuerpo<lf>marcada, y dejará un efecto de partículas<lf>tras de sí.
+<string>Marca una parte de monstruo a distancia.<lf><lf>Tu kinsecto atacará la parte del cuerpo<lf>marcada y dejará polvo de kinsecto<lf>tras de sí.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
 <string><INPUTMSG MsgGUI600200_01_029>
 <string><INPUTMSG MsgGUI600200_01_029_01>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
-<string><ICON WP10 PL_ATTACK_00> En salto
+<string><ICON WP10 PL_ATTACK_00> (en el aire)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_239722048>
-<string><ICON WP10 PL_ATTACK_01> En salto
+<string><ICON WP10 PL_ATTACK_01> (en el aire)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
-<string><ICON WP10 PL_DODGE> En salto
+<string><ICON WP10 PL_DODGE> (en el aire)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_810620608>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Un ataque de estocada efectivo<lf>contra heridas.<lf><lf>Si aciertas en una herida o punto débil,<lf>tu kinsecto perforará al monstruo<lf>y recolectará extractos rojos, blancos<lf>y naranjas.
+<string>Un ataque de estocada efectivo<lf>contra heridas.<lf><lf>Tras golpear una herida o punto débil,<lf>tu kinsecto perforará al monstruo<lf>y recolectará extractos rojos, blancos<lf>y naranjas a su paso.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
-<string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> Con extracto rojo
-<string>Un movimiento que se puede cargar<lf>si tienes un extracto rojo. Tras cargar,<lf>usa <ICON WP10 PL_ATTACK_01><ICON RELEASE> para un ataque múltiple<lf>en el terreno o para una estocada<lf>potente en el aire. Guarda la carga<lf>y encadena diferentes ataques con <ICON WP10 PL_ATTACK_01><ICON RELEASE>.<lf>Si tienes tres extractos, puedes usar<lf>un potente remate tras el ataque<lf>cargado con <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>. Esto pondrá<lf>fin al estado mejorado, pero podrás<lf>ejecutar ataques potentes y recolectar<lf>extractos con el kinsecto.
+<string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> con extracto rojo
+<string>Usa <ICON WP10 PL_ATTACK_01><ICON RELEASE> con extracto rojo guardado para<lf>lanzar un tajo descendente (en suelo) o<lf>una estocada en picado (en el aire).<lf>Mantén la carga durante otros ataques y<lf>podrás encadenarlos con uno de estos dos.<lf><lf>Con 3 extractos guardados, pulsa <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01><lf>tras un tajo descendente o estocada en<lf>picado para un poderoso ataque final.<lf>Este golpe consume los tres extractos,<lf>pero tu kinsecto los reabastecerá con<lf>el extracto que recoja con dicho ataque.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp10_1212529024>
-<string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> Con tres extractos
+<string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> con tres extractos
 <string>
-<string><REF RefEquipment_0001_010_0>
-<string>Insectos que luchan junto a ti y<lf>siguen las instrucciones que les des con<lf>el glaive insecto. Los kinsectos<lf>pueden recoger varios extractos de<lf>los monstruos que ayudarán a potenciarte.<lf>Puedes equiparte y reforzar<lf>varios kinsectos.
+<string>Kinsectos
+<string>Insectos que luchan junto a ti y<lf>siguen las instrucciones que les des con<lf>el glaive insecto. Los kinsectos<lf>pueden recoger varios extractos de<lf>los monstruos para potenciarte.<lf>Puedes equiparte y reforzar<lf>una gran variedad de kinsectos.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1304673664>
-<string>Si atacas mientras apuntas con <ICON WP10 PL_AIM> durante<lf>el modo preciso, tu kinsecto atacará<lf>al monstruo y recolectará extractos.<lf><lf>La trayectoria del kinsecto también cambia<lf>según tus ataques.
+<string>Si atacas en modo preciso (usando <ICON WP10 PL_AIM>),<lf>tu kinsecto atacará al monstruo y<lf>recolectará extractos simultáneamente.<lf><lf>La trayectoria de tu kinsecto también<lf>cambiará según tus ataques.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Los kinsectos dejan tras de sí un efecto<lf>de partículas cuando atacan la parte del<lf>monstruo marcada. Si atacas las partículas,<lf>explotarán y generarán diferentes efectos.<lf><lf>Nitro: Genera estallido en el monstruo<lf>Veneno: Genera veneno en el monstruo<lf>Parálisis: Genera parálisis en el monstruo<lf>Recuperación: Recuperas ligeramente los PS
+<string>Los kinsectos dejan tras de sí un efecto<lf>de partículas cuando atacan la parte<lf>del monstruo marcada. Si atacas las<lf>partículas, explotarán y generarán<lf>diferentes efectos.<lf><lf><COLOR preset="TXT_Accent">Nitro:</COLOR> Acumula nitro<lf><COLOR preset="TXT_Accent">Veneno:</COLOR> Acumula veneno<lf><COLOR preset="TXT_Accent">Parálisis:</COLOR> Acumula parálisis<lf><COLOR preset="TXT_Accent">Curación:</COLOR> Recuperas un poco de salud
 <string>
 <string>Extractos
-<string>Una sustancia que se extrae de los monstruos.<lf>Hay cuatro tipos en total: roja, blanca,<lf>naranja y verde. El color que se extrae<lf>es diferentes según las partes<lf>de cada monstruo.<lf><lf>Los extractos recolectados se pueden absorber<lf>al llamar a un kinsecto, y cada color<lf>otorga un efecto diferente. Si absorbes<lf>varios colores, se producirán aún más<lf>efectos. Estos finalizarán tras<lf>un período de tiempo.
+<string>Elemento que se extrae de los monstruos.<lf>Hay cuatro tipos en total: rojo, blanco,<lf>naranja y verde. El color que se extrae<lf>es diferente según las partes<lf>de cada monstruo.<lf><lf>Los extractos recolectados se pueden<lf>absorber al llamar a un kinsecto y cada<lf>color otorga un efecto distinto. Si<lf>absorbes varios colores, se producirán<lf>aún más efectos. Estos finalizarán tras<lf>un tiempo determinado.
 <string>
 <string>Efectos de extractos
-<string>Cada color de extracto otorga diferentes<lf>efectos. Combina varios colores para<lf>producir aún más efectos.<lf><lf>Rojo: Te permite cargar con <ICON WP10 PL_ATTACK_01><lf>Blanco: Aumenta la velocidad a la que<lf>te mueves y la altura del salto<lf>Naranja: Da Mejora de balance<lf>Rojo+Blanco: Aumenta el ataque<lf>Blanco+Naranja: Aumenta la defensa<lf>Rojo+Blanco+Naranja: Altera ciertos<lf>ataques y aumenta el ataque aún más
+<string>Cada color de extracto otorga efectos<lf>distintos. Combina varios colores para<lf>producir aún más efectos.<lf><lf><COLOR preset="TXT_Accent">Rojo</COLOR>: Te permite cargar con <ICON WP10 PL_ATTACK_01>.<lf><COLOR preset="TXT_Accent">Blanco</COLOR>: Aumenta la velocidad a la<lf>que te mueves y la altura del salto.<lf><COLOR preset="TXT_Accent">Naranja</COLOR>: Da la habilidad "imperturbable"<lf>mientras el arma está desenvainada.<lf><COLOR preset="TXT_Accent">Rojo+Blanco</COLOR>: Potencia el ataque.<lf><COLOR preset="TXT_Accent">Blanco+Naranja</COLOR>: Potencia la defensa.<lf><COLOR preset="TXT_Accent">Rojo+Blanco+Naranja</COLOR>: Altera ciertos<lf>ataques, reduce ráfagas de viento,<lf>rugidos, y potencia el ataque aún más.
 <string>
 <string>Combo básico
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
 <string><ICON WP10 PL_ATTACK_00>
-<string>Un combo que te permite realizar un<lf>combo de kinsecto tras cada acción.<lf>Además, todos los ataques hasta el<lf>tajo diagonal pueden ser direccionales.<lf><lf>También podrás retroceder mientras<lf>atacas con tajo esquiva en lugar de<lf>golpe descendente.
+<string>Un combo en el que cada ataque puede<lf>usarse con un combo de kinsecto.<lf>Además, todos los ataques hasta el<lf>tajo diagonal pueden ser direccionales.<lf><lf>También podrás retroceder mientras<lf>realizas un tajo esquiva en lugar de<lf>un golpe descendente.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1983561600>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1186,12 +1173,12 @@
 <string><REF ActionGuideDataNameText_Wp10_2066406784>
 <string><ICON WP10 PL_ATTACK_01>
 <string>
-<string>Combo de efecto de partículas
+<string>Combo de polvo de kinsecto
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Un combo que coloca una marca y ordena<lf>al kinsecto a dejar efecto de partículas<lf>allí, y luego esquivas rápidamente antes<lf>de que exploten las partículas.<lf><lf>Se puede seguir con otro ataque.
+<string>Un combo que consiste en marcar a un<lf>objetivo para que tu kinsecto lo ataque,<lf>esquivar hacia atrás, y luego avanzar<lf>para detonar las partículas que tu<lf>kinsecto ha dejado atrás. <lf><lf>Se puede encadenar con otro ataque.
 <string>
-<string>Impulso (Atrás)
+<string>Impulso (atrás)
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
@@ -1211,7 +1198,7 @@
 <string>Combo poderoso con 3 extractos
 <string><REF ActionGuideDataNameText_Wp10_1401028864>
 <string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
-<string>Consume todos los extractos para<lf>ejecutar un combo poderoso.<lf><lf>Además, permite lanzar un combo de<lf>kinsecto hasta antes del tajo remolino.
+<string>Un combo poderoso que consume<lf>los tres extractos.<lf><lf>Hasta la parte del tajo remolino,<lf>el combo de kinsecto puede<lf>encadenarse con un tajo en salto.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m587319424>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
@@ -1226,22 +1213,21 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN> Ballesta ligera
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
-<string>Dispara la munición cargada de antemano.<lf>Puedes <COLOR preset="TXT_Accent">apuntar</COLOR> para disparar en la dirección<lf>que quieras.
+<string>Dispara hacia delante la munición<lf>que tuvieras cargada en la ballesta.<lf>Puedes <COLOR preset="TXT_Accent">apuntar</COLOR> para cambiar la dirección.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1727296128>
 <string><INPUTMSG MsgGUI600200_01_043>
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> tras disparar
-<string>Pulsa <ICON WP13 PL_ATTACK_01> tras disparar para realizar<lf>un disparo perseguidor, un ataque<lf>más fuerte que también restaura<lf>más energía.<lf><lf>No se puede encadenar tras un tiro<lf>al punto débil o tras un tiro especial.
+<string>Pulsa <ICON WP13 PL_ATTACK_01> tras disparar para realizar<lf>un disparo potente, un ataque más<lf>fuerte que además restaura energía.<lf><lf>No se puede encadenar tras un<lf>disparo preciso o tras un tiro<lf>especial.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
-<string>Recarga la munición seleccionada.<lf>Usa <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> para recargar toda la munición<lf>en orden.
+<string>Recarga la munición seleccionada.<lf>Mantén pulsado <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> para recargar<lf>toda la munición en orden.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
@@ -1249,11 +1235,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string>Te permite usar el tiro especial<lf>elegido para la ballesta ligera.
+<string>Usa el tiro especial que hayas equipado.<lf><lf>Puedes colocar estallido wyvern, o cargar<lf>munición adhesiva y disparar con <ICON WP13 PL_ATTACK_SP>.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
-<string>Selecciona la munición que puedes usar<lf>de entre la que tienes.
+<string>Selecciona la munición.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
@@ -1271,10 +1257,10 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
-<string>Cambia tu modo disparo actual a modo estándar.
+<string>Cambia tu modo de disparo actual<lf>a modo estándar.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
-<string>Consume energía para disparar varios<lf>tiros de ciertos tipos de munición<lf>consumiendo la barra de andanada.<lf>La barra se recuperará de forma<lf>automática en modo estándar, pero<lf>también cuando consigas conectar ataques.<lf>La cantidad restaurada depende del tipo<lf>de munición utilizado.
+<string>Consume energía para disparar varios<lf>tiros de ciertos tipos de munición<lf>consumiendo la barra de andanada.<lf>La barra se recuperará de forma<lf>automática en modo estándar, pero<lf>también cuando consigas conectar ataques.<lf>La cantidad restaurada depende del tipo<lf>de munición utilizada.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
@@ -1283,7 +1269,7 @@
 <string><ICON WP_HEAVYBOWGUN> Ballesta pesada
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
-<string>Dispara la munición cargada de antemano.<lf>Puedes <COLOR preset="TXT_Accent">apuntar</COLOR> para disparar en la dirección<lf>que quieras.
+<string>Dispara hacia delante la munición<lf>que tuvieras cargada en la ballesta.<lf>Puedes <COLOR preset="TXT_Accent">apuntar</COLOR> para cambiar la dirección.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_187560352>
 <string><INPUTMSG MsgGUI600200_01_051>
@@ -1302,69 +1288,68 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1687699840>
 <string><ICON WP12 PL_ATTACK_01><ICON PLUS><ICON WP12 PL_ATTACK_00>
-<string>Permite bloquear con tu ballesta pesada.<lf><lf>Si bloqueas en el momento justo,<lf>realizarás un bloqueo perfecto y<lf>podrás dar un paso atrás especial.<lf><lf>También puedes autobloquear sin pulsar<lf>nada, dependiendo de tu pose de combate.
+<string>Permite bloquear con tu ballesta pesada.<lf><lf>Si bloqueas en el momento justo,<lf>realizarás un bloqueo perfecto y<lf>podrás dar un paso atrás especial.<lf><lf>También puedes bloquear<lf>automáticamente sin pulsar nada,<lf>dependiendo de tu pose de combate.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_031>
-<string>Selecciona la munición que puedes usar<lf>de entre la que tienes.
+<string>Selecciona la munición.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>
-<string>Consume energía para disparar<lf>tiros especiales.<lf><lf>La energía se recuperará de forma<lf>automática en modo estándar, además<lf>de cuando consigas acertar un tiro.
+<string>Consume la barra de ímpetu<lf>para disparar munición especial.<lf><lf>La barra se recuperará de forma<lf>automática en modo estándar o<lf>cuando consigas acertar con un tiro.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1049174784>
-<string>Protege automáticamente contra un<lf>ataque frontal al ejecutar una acción que<lf>te permita usar guardia automáticamente.<lf><lf>Bloquear automáticamente impide realizar<lf>bloqueos perfectos.
+<string>Protege automáticamente contra un<lf>ataque frontal al ejecutar una acción que<lf>te permita usar el bloqueo automático.<lf><lf>El bloqueo perfecto no se puede usar<lf>con el bloqueo automático.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Tiro especial que se puede<lf>usar durante el modo ímpetu.<lf><lf>Usa <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> para disparar sin pausa<lf>y la potencia aumentará<lf>cuando aciertes a un objetivo.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
-<string>Tiro especial que se puede usar durante el<lf>modo ímpetu. Lanza un ataque a corta distancia<lf>capaz de interceptar ataques. Mantén pulsado<lf><ICON WP12 PL_ATTACK_00> para aumentar la potencia al disparar.
+<string>Tiro especial que se puede usar durante<lf>el modo ímpetu. Lanza un ataque a corta<lf>distancia capaz de interceptar ataques.<lf>Mantén pulsado <ICON WP12 PL_ATTACK_00> para aumentar<lf>la potencia al disparar.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
-<string>Si aciertas en la herida o punto débil<lf>de un monstruo, causarás una explosión<lf>que inflige daño considerable.<lf><lf>La munición empleada se restaurará<lf>automáticamente con el tiempo.
+<string>Si aciertas en la herida o punto débil<lf>de un monstruo, provocarás una explosión<lf>perforante que inflige bastante daño.<lf><lf>La munición empleada se recargará<lf>automáticamente con el tiempo.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
 <string><INPUTMSG MsgGUI600200_01_049>
-<string>Muestra la retícula de apuntado en<lf>el centro de la pantalla.
+<string>Muestra la retícula de apuntado<lf>en el centro de la pantalla.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1018903168>
 <string><ICON WP11 PL_ATTACK_01>
-<string>Un ataque que dispara rápidamente flechas<lf>sobre un área amplia. No consume resistencia.
+<string>Un ataque que dispara rápidamente<lf>flechas sobre un área amplia.<lf>No consume resistencia.
 <string>
-<string><ICON WP_BOW> Arco
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Tensa el arco para disparar flechas.<lf>Cuanto más mantengas <ICON WP11 PL_ATTACK_SP>, más alto será tu<lf>nivel de carga. Aumentará la potencia de tus<lf>ataques y varias de las flechas que dispares.<lf><lf>Tras el ataque, pulsa <ICON WP11 PL_ATTACK_01> para un tiro potente.
+<string>Tensa el arco para disparar flechas.<lf><lf>Mantén pulsado <ICON WP11 PL_ATTACK_SP> para incrementar<lf>tu nivel de carga.<lf><lf>Cuanto mayor sea el nivel de carga,<lf>más potentes serán tus ataques.<lf><lf>Pulsa <ICON WP11 PL_ATTACK_01> tras disparar para lanzar<lf>un disparo potente.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1800729216>
 <string><ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> durante un combo
-<string>Lanza varias flechas poderosas en una<lf>zona amplia. Tendrán tu nivel de<lf>carga actual. Tras atacar,<lf>pulsa <ICON WP11 PL_ATTACK_01> para una salva potente.
+<string>Lanza varias flechas potentes en una<lf>zona amplia en base a tu nivel de carga<lf>actual.<lf><lf>Tras atacar, pulsa <ICON WP11 PL_ATTACK_01> para ejecutar<lf>un disparo potente.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_047>
-<string>Un ataque que hace caer una lluvia de<lf>flechas del cielo. Algunas flechas se<lf>vuelven flechas detonantes, y se pegarán<lf>a un monstruo si impactan en él.<lf><lf>El ataque puede cargarse hasta tres<lf>niveles: cada nivel aumenta el alcance<lf>y el número de flechas.
+<string>Un ataque que hace caer una lluvia de<lf>flechas del cielo. Algunas flechas se<lf>vuelven flechas detonantes y se<lf>pegarán a un monstruo si impactan en él.<lf><lf>El ataque puede cargarse hasta tres<lf>niveles: cada nivel aumenta el área<lf>y el número de flechas.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1920365056>
 <string><INPUTMSG MsgGUI600200_01_048>
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
-<string>Un tiro perforante potente.<lf>Puede activar detonaciones de<lf>flechas marcadoras y de flechas<lf>detonantes.
+<string>Un disparo perforante potente.<lf>Puede activar detonaciones de flechas<lf>marcadoras y de flechas detonantes.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_374745664>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01> durante un combo
-<string>Un tiro perforante rápido y poderoso.<lf>Puede activar detonaciones de flechas<lf>marcadoras y de flechas detonantes.
+<string>Un disparo perforante rápido y potente.<lf>Puede activar detonaciones de flechas<lf>marcadoras y de flechas detonantes.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1657138304>
 <string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1376,7 +1361,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_193855040>
 <string><ICON WP11 PL_ATTACK_00>
-<string>Carga el vial seleccionado.<lf>Mientras está cargado, pulsa <ICON WP11 PL_ATTACK_00><lf>para desequipar el vial seleccionado.
+<string>Carga el vial seleccionado.<lf><lf>Mientras está cargado, abre el menú<lf>de viales y pulsa <ICON WP11 PL_ATTACK_00> para desequipar<lf>el vial seleccionado.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
@@ -1387,13 +1372,13 @@
 <string>Un ataque muy efectivo contra las<lf>heridas de un monstruo. Apunta la<lf>retícula hacia una herida o flecha<lf>marcadora para lanzar una flecha<lf>rastreadora que impactará sobre<lf>varias zonas del monstruo.<lf><lf>Carga hasta tres niveles para aumentar<lf>la cantidad de flechas y lanza un ataque<lf>adicional cuando golpees en una herida.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_566243776>
-<string>Una barra necesaria para cargar flechas<lf>marcadoras y viales. Cuando conectes<lf>ataques, o al hacer una esquiva experta<lf>con éxito, la barra se llenará.<lf>La barra se consumirá al cargar una<lf>flecha marcadora o un vial.
+<string>Una barra necesaria para cargar<lf>flechas marcadoras y viales.<lf><lf>Conecta ataques o realiza evasiones<lf>expertas con éxito para llenar la<lf>barra, y consúmela al cargar una<lf>flecha marcadora o un vial.
 <string>
 <string>Flechas marcadoras y rastreadoras
 <string>Tras disparar una flecha marcadora,<lf>el resto de flechas se dirigirán hacia<lf>ella hasta que explote.
 <string>
 <string>Tipos de viales
-<string>Usa viales para añadir efectos a tus flechas.<lf><lf>Potencia: Aumenta el daño de las flechas<lf>Quemarropa: Reduce el alcance de las flechas,<lf>pero aumenta el daño<lf>Perforante: Las flechas ganan poder perforante<lf>Veneno: Las flechas infligen veneno<lf>Parálisis: Las flechas infligen parálisis<lf>Sueño: Las flechas infligen sueño<lf>Nitro: Las flechas infligen nitro<lf>Fatiga: Las flechas infligen aturdimiento/fatiga
+<string>Los viales añaden efectos a tus flechas.<lf>- Vial de potencia: Aumenta el daño.<lf>- Vial quemarropa: Reduce el alcance,<lf>pero aumenta el daño.<lf>- Vial perforante: Da a las flechas<lf>capacidad perforante.<lf>- Vial de veneno: Inflige veneno.<lf>- Vial paralizante: Inflige parálisis.<lf>- Vial de sueño: Inflige sueño.<lf>- Vial de nitro: Inflige nitro.<lf>- Vial de fatiga: Inflige<lf>aturdimiento/fatiga.
 <string>
 <string>Combo perforadragones
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1426,24 +1411,24 @@
 <string>Combo de flecha marcadora
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
-<string>Un combo que lanza una flecha marcadora<lf>a un nivel de carga alto. Ejecuta luego un<lf>tiro potente y una salva potente mientras<lf>mantienes la carga antes de ejecutar<lf>un paso lateral y carga, al mismo tiempo<lf>que el monstruo te ataca. Esto te permite<lf>realizar un tiro golondrina volante<lf>para distanciarte del objetivo.
+<string>Un combo que lanza una flecha marcadora<lf>con un nivel de carga alto, y luego<lf>sigue con un tiro potente y una salva<lf>potente mientras mantiene la carga.<lf><lf>Sincroniza un paso lateral y carga con<lf>el ataque de un monstruo para ejecutar<lf>un disparo de golondrina en vuelo,<lf>lo que te separará de tu objetivo.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
-<string><ICON WP11 PL_ATTACK_01> Tras disparo cargado
+<string><ICON WP11 PL_ATTACK_01> tras disparo cargado
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> Durante paso lateral y carga
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
-<string>Combo de tiro parabólico
+<string>Combo tiro parabólico
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_052>
-<string>Un combo que empieza lanzando flechas<lf>detonantes con un tiro parabólico.<lf>Luego sigue con un tiro golondrina<lf>volante en paso lateral y carga, lo que<lf>te deja en posición para disparar una<lf>perforadragones o mil dragones que<lf>detonen las flechas detonantes.
+<string>Un combo que empieza lanzando flechas<lf>detonantes con un tiro parabólico.<lf><lf>Dispara un tiro golondrina volante<lf>durante un paso lateral y carga, y estarás<lf>en posición de disparar perforadragones<lf>o mil dragones para detonar las flechas<lf>detonantes.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> Durante paso lateral y carga
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>

@@ -9,13 +9,13 @@
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>按<ICON WP12 PL_ATTACK_01>就可裝填特殊彈藥<COLOR preset="TXT_Accent"><REF RefEquipment_0007_00_00></COLOR>。<lf>長按<ICON WP12 PL_ATTACK_SP>就會消耗隨時間累積的能量，<lf>接連發射。
 <string><REF RefStatus_0008_004_01>
-<string>按<ICON WP13 PL_ATTACK_01>就會裝填<COLOR preset="TXT_Accent">連射模式</COLOR>專用能量。長按<ICON WP13 PL_ATTACK_SP><lf>就會消耗隨時間累積的能量，接連發射<lf>特定彈藥。
+<string>按<ICON WP13 PL_ATTACK_01>就會裝填<COLOR preset="TXT_Accent">速射模式</COLOR>專用能量。長按<ICON WP13 PL_ATTACK_SP><lf>就會消耗隨時間累積的能量，接連發射<lf>特定彈藥。
 <string>練氣計量表的顏色
 <string>以氣刃大迴旋斬等特定攻擊命中魔物，<lf><COLOR preset="TXT_Accent">練氣計量表</COLOR>的顏色就會發生變化。<lf>攻擊力會按計量表的顏色上升。
 <string>練氣計量表為紅色時
 <string>此外，練氣計量表變為紅色時，計量表會<lf>固定在上限，部分攻擊動作會獲得強化。
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
-<string>消耗1條龍擊計量表，就能發射非常強大的<lf><COLOR preset="TXT_Accent">龍擊砲</COLOR>。計量表可透過攻擊命中或防禦累積。
+<string>消耗1條龍擊計量表，就能發射非常強大的<lf><COLOR preset="TXT_Accent">龍擊砲</COLOR>。計量表隨時間自動回復，攻擊命中時<lf>也會回復。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>救難信號
@@ -25,33 +25,31 @@
 <string>支援獵人
 <string>如果其後有其他玩家中途參加任務，就會和<lf>已參加任務的支援獵人換手。
 <string>支援獵人
-<string>支援獵人是其他小隊的獵人，會在其他玩家<lf>加入前和你一起狩獵。
+<string>支援獵人是其他小隊的獵人，會在其他玩家<lf>加入前和<LSNR "你" "妳" "你">一起狩獵。
 <string>補給品
-<string>任務開始時可獲得補給道具，按<ICON PL_ACCESS_ITEM_BAG>可隨時<lf>領取。<COLOR preset="TXT_Accent">補給品</COLOR>會根據狩獵情況追加。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_64>
 <string>補給品專用道具
 <string>補給品裡有補給品專用道具。這些道具在<lf>任務結束後會被回收，無法一直持有。
 <string>重新挑戰關鍵任務
 <string>進度指南會顯示需要狩獵的魔物。狩獵失敗<lf>亦可重新挑戰同一<COLOR preset="TXT_Accent">關鍵任務</COLOR>。
 <string>重新挑戰關鍵任務
-<string>在原野上<COLOR preset="TXT_Accent">攻擊目標魔物</COLOR>，或在任務選單選擇<lf><COLOR preset="TXT_Accent">主線任務</COLOR>，就能重新承接任務。
-<string>重新挑戰關鍵任務
 <string>如果陷入苦戰，就先用餐來加強狀態，<lf>或發出救難信號，請求其他玩家或<lf>支援獵人的協助吧。
 <string>策騎鷺鷹龍移動
-<string>按<ICON PL_PT_CALL>策騎<COLOR preset="TXT_Accent">鷺鷹龍</COLOR>，就可朝目標地點<lf>自動移動。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_68>
 <string>策騎鷺鷹龍移動
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_69>
 <string>個人帳篷
 <string>在<COLOR preset="TXT_Accent">個人帳篷</COLOR>可變更獵人與隨從的裝備，或者<lf>更換道具。在這裡做好狩獵的準備吧。
-<string>營火料理
-<string>使用便攜式營火爐或在個人帳篷選擇<lf>營火選單，就能烹調隨身食物並<COLOR preset="TXT_Accent">用餐</COLOR>。
-<string>營火料理
+<string>領取隨身食物並用餐吧
+<string>使用便攜式營火爐或在個人帳篷選擇<lf>營火爐選單，就能烹調隨身食物並<COLOR preset="TXT_Accent">用餐</COLOR>。
+<string>領取隨身食物並用餐吧
 <string><COLOR preset="TXT_Accent">用餐</COLOR>後，體力上限、耐力上限與攻擊力等數值<lf>會在一定時間內上升。效果會按使用的食材<lf>而變化。
 <string>體力與耐力計量表
 <string>體力：綠色的體力值耗盡時會力竭倒下。<lf>力竭倒下至規定次數，任務就會失敗。<lf>耐力：採取特定行動時會消耗。會自動回復。
 <string>切換武器
 <string>獵人可裝備主武器與副武器兩件武器。<lf>在變更裝備選擇<COLOR preset="TXT_Accent">主武器</COLOR>與<COLOR preset="TXT_Accent">副武器</COLOR>吧。<lf>兩件武器可以自由搭配。
 <string>切換武器
-<string>按<ICON PL_WEAPON_CHANGE>就可切換武器。鷺鷹龍會跑到身邊，<lf>讓<LSNR "你" "妳" "你">將裝備武器替換成武器袋裡的<COLOR preset="TXT_Accent">副武器</COLOR>。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_89>
 <string>存放/取出道具
 <string>必要道具可以存放至道具箱，也可以取出，<lf>放進道具袋。也可以按<ICON UI_SUB_MENU>打開副選單補充<lf>全部道具。
 <string>自動收納素材道具
@@ -70,7 +68,7 @@
 <string>任務櫃台
 <string>個人帳篷與編輯者均具備任務櫃台功能，<lf>在該處可<COLOR preset="TXT_Accent">承接或參加</COLOR>各種任務。
 <string>任務櫃台
-<string>在<COLOR preset="TXT_Accent">設定</COLOR>裡不只能變更任務的最大參加人數，<lf>還能設定發出救難信號後允許哪些獵人趕來<lf>支援。
+<string>在<COLOR preset="TXT_Accent">設定</COLOR>裡不只能變更任務的參加人數上限，<lf>還能設定發出救難信號後允許哪些獵人趕來<lf>支援。
 <string>大廳已開放，可和大廳內的朋友以及其他有緣<lf>相遇的獵人聊天或多人遊玩。<lf>（需連接至網路）
 <string>登錄獵人好友的方法
 <string>若要新增獵人好友，可以從開始選單的成員<lf>清單選擇<COLOR preset="TXT_Accent">大廳成員清單</COLOR>或<COLOR preset="TXT_Accent">獵人ID搜尋</COLOR>，再發<lf>出邀請。
@@ -82,9 +80,9 @@
 <string>連結隊伍和多人遊玩
 <string>組成連結隊伍，就可在多人遊玩時與固定成員<lf>無縫探索和完成任務。詳情請參閱遊玩指南。
 <string>集中弱點攻擊
-<string>按<ICON WP05 PL_AIM>時再按<ICON WP00 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP00 PL_AIM>時再按<ICON WP00 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>集中模式
-<string>按<ICON PL_AIM>會進入<COLOR preset="TXT_Accent">集中模式</COLOR>。集中模式時<COLOR preset="TXT_Accent">可朝瞄準<lf>方向使出攻擊</COLOR>，試著用<ICON PL_DUMMY_CAMERA>瞄準後攻擊吧。
+<string><ICON PL_AIM>會進入<COLOR preset="TXT_Accent">集中模式</COLOR>。集中模式時<COLOR preset="TXT_Accent">可朝瞄準<lf>方向使出攻擊</COLOR>，試著用<ICON PL_DUMMY_CAMERA>瞄準後攻擊吧。
 <string><REF Item_IT_161>
 <string>在非戰鬥時使用，就可在一段時間內隱身，<lf>躲避魔物。使用後需等待一定時間才可再次<lf>使用。
 <string><REF Item_IT_182>
@@ -92,7 +90,7 @@
 <string><REF Item_IT_18>
 <string>裝填到投射器後使用的道具。以<ICON PL_AIM>＋<ICON PL_DUMMY_CAMERA>瞄準<lf>想捕獲的環境生物後，按<ICON PL_SLINGER_SHOOT>發射，命中就能<lf>成功捕獲。
 <string><REF Item_IT_162>
-<string>在有魚群的水域使用就能釣魚。按<ICON PL_ITEM>取出<lf><COLOR preset="TXT_Accent">釣竿</COLOR>，再用<ICON PL_AIM>＋<ICON PL_DUMMY_CAMERA>瞄準後，以<ICON PL_SLINGER_SHOOT>將擬餌扔到<lf>魚群附近吧。
+<string>在有魚群的水域使用就能釣魚。按<ICON PL_ITEM>取出<lf><COLOR preset="TXT_Accent">釣竿</COLOR>，再用<ICON PL_AIM>＋<ICON PL_DUMMY_CAMERA>瞄準後，以<ICON PL_FISHING_ACTION>將擬餌扔到<lf>魚群附近吧。
 <string><REF Item_IT_23>
 <string>使用<COLOR preset="TXT_Accent">望遠鏡</COLOR>觀察大型魔物，<lf>就能確認該魔物的個體資訊。<lf>（個體資訊會隨遊戲進度解放）
 <string><REF Item_IT_195>
@@ -102,9 +100,9 @@
 <string>獵人組合
 <string>可從<COLOR preset="TXT_Accent"><REF MsgGUI030212_0000></COLOR>確認或套用裝備、道具與<lf>捷徑快捷盤的各個個人組合。
 <string>烤肉
-<string>仔細觀察烤生肉的顏色再按<ICON UI_DECIDE>結束吧。<lf>烤到全熟後，接下來就要挑戰切肉！<lf>抓準時機按<ICON UI_DECIDE>可以增加獲得數量。
+<string>仔細觀察烤生肉的顏色再按<ICON PL_UI_DECIDE>結束吧。<lf>烤到全熟後，接下來就要挑戰切肉！<lf>抓準時機按<ICON PL_UI_DECIDE>可以增加獲得數量。
 <string>營火料理
-<string><COLOR preset="TXT_Accent">烹調<REF MsgGUI090200_01_00></COLOR>並進餐吧。<lf>餐點效果會根據食材而有所不同。<lf>想狩獵成功，就少不了優質的餐點。
+<string><COLOR preset="TXT_Accent">烹調<REF MsgGUI090200_01_00></COLOR>並用餐吧。<lf>餐點效果會根據食材而有所不同。<lf>想狩獵成功，就少不了優質的餐點。
 <string>移動至大廳
 <string>大廳裡聚集了各種玩家。按照目的移動至<lf>推薦大廳或私人大廳吧。
 <string>推薦大廳
@@ -139,61 +137,61 @@
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP05 PL_AIM>時再按<ICON WP05 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP05 PL_AIM>時再按<ICON WP05 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>集中弱點攻擊時的音色
-<string>集中弱點攻擊的動作期間，只要抓準時機按下<lf><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01>或<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>，就能最多觸發五個<lf>音色。
+<string>集中弱點攻擊的動作期間，只要抓準時機按<lf><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01>或<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>，就能最多觸發五個<lf>音色。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP06 PL_AIM>時再按<ICON WP06 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP06 PL_AIM>時再按<ICON WP06 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP09 PL_AIM>時再按<ICON WP09 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP09 PL_AIM>時再按<ICON WP09 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP02 PL_AIM>時再按<ICON WP02 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP02 PL_AIM>時再按<ICON WP02 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP01 PL_AIM>時再按<ICON WP01 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP01 PL_AIM>時再按<ICON WP01 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP07 PL_AIM>時再按<ICON WP07 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP07 PL_AIM>時再按<ICON WP07 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP11 PL_AIM>時再按<ICON WP11 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP11 PL_AIM>時再按<ICON WP11 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP13 PL_AIM>時再按<ICON WP13 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP13 PL_AIM>時再按<ICON WP13 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP12 PL_AIM>時再按<ICON WP12 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP12 PL_AIM>時再按<ICON WP12 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP08 PL_AIM>時再按<ICON WP08 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP08 PL_AIM>時再按<ICON WP08 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON PL_AIM>時再按<ICON PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>，<lf>連續攻擊魔物後再以獵蟲破壞傷口，<lf>一口氣採集三色精華。
+<string><ICON WP10 PL_AIM>時再按<ICON WP10 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>，<lf>連續攻擊魔物後再以獵蟲破壞傷口，<lf>一口氣採集三色精華。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP04 PL_AIM>時再按<ICON WP04 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP04 PL_AIM>時再按<ICON WP04 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
-<string>按<ICON WP03 PL_AIM>時再按<ICON WP03 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大傷害，<lf>並使魔物膽怯。
+<string><ICON WP03 PL_AIM>時再按<ICON WP03 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>響玉
 <string>按<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_DODGE>就會設置<COLOR preset="TXT_Accent">響玉</COLOR>。在響玉的範圍內，<lf>會獲得各把狩獵笛特有的性能強化。此外，<lf>響玉也會和狩獵笛的攻擊共鳴，造成追加<lf>傷害。設置響玉期間也可以觸發音色。
 <string>特殊演奏
-<string>觸發黃＋紅＋黃＋白的音色後，按<ICON WP05 PL_ATTACK_SP>＋<lf><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>就可發動各把狩獵笛特有的<lf><COLOR preset="TXT_Accent">特殊演奏</COLOR>。（音色與效果因武器而異）
+<string>以<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>的順序觸發<lf>音色後，按<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>就可發動各把狩獵笛<lf>特有的<COLOR preset="TXT_Accent">特殊演奏</COLOR>。（音色順序與效果因武器<lf>而異）
 <string>連消帶打上撈斬
 <string>長按<ICON WP00 PL_ATTACK_00>＋<ICON WP00 PL_ATTACK_01>使出具抵消效果的<COLOR preset="TXT_Accent">連消帶打<lf>上撈斬</COLOR>。雖然很難抓準時機，但大成功時<lf>能擊飛魔物。
 <string>從特殊收刀使出居合拔刀氣刃斬
@@ -205,7 +203,7 @@
 <string>蓄力墊步
 <string>在蓄力狀態（長按<ICON WP04 PL_ATTACK_SP>）中按<ICON WP04 PL_ATTACK_01>，就能在<lf>維持蓄力的同時迴避，或迅速拉近距離。
 <string>精準防禦
-<string>抓準魔物攻擊的時機按<ICON WP06 PL_ATTACK_SP>防禦，就會觸發<lf><COLOR preset="TXT_Accent">精準防禦</COLOR>，隨後立即按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可使出強力的<lf>追擊突進。
+<string>抓準魔物攻擊的時機按<ICON WP06 PL_ATTACK_SP>防禦，就會觸發<lf><COLOR preset="TXT_Accent">精準防禦</COLOR>，隨後立即按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可使出<COLOR preset="TXT_Accent">渾身<lf>還擊突刺【穿】</COLOR>。
 <string>精準防禦與裝填
 <string>抓準魔物攻擊的時機按<ICON WP07 PL_ATTACK_SP>＋<ICON WP07 PL_ATTACK_01>，就能<COLOR preset="TXT_Accent">精準<lf>防禦並同時裝填</COLOR>。成功時可使出強力攻擊。
 <string>切換至劍模式
@@ -213,7 +211,7 @@
 <string>劍模式與斧模式
 <string>以<COLOR preset="TXT_Accent">斧模式</COLOR>的攻擊擊中魔物，就能回復消耗的<lf>計量表。一邊回復計量表，一邊找機會變成<lf>劍模式吧。
 <string>斧：連消帶打上撈斬
-<string>斧模式時同時長按<ICON WP08 PL_ATTACK_00>和<ICON WP08 PL_ATTACK_01>就會使出<COLOR preset="TXT_Accent">斧：連消<lf>帶打上撈斬</COLOR>。抓準時機抵消魔物攻擊，就能<lf>造成大幅傷害。
+<string>斧模式時同時按<ICON WP08 PL_ATTACK_00>和<ICON WP08 PL_ATTACK_01>就會使出<COLOR preset="TXT_Accent">斧：連消<lf>帶打上撈斬</COLOR>。抓準時機抵消魔物攻擊，就能<lf>造成大幅傷害。
 <string>劍：反擊上撈斬
 <string>劍模式時按<ICON WP08 PL_ATTACK_SP>＋<ICON WP08 PL_ATTACK_00>會使出<COLOR preset="TXT_Accent">劍：反擊上撈斬</COLOR>。<lf>反擊成功就能用二連斬反擊。
 <string>瓶的填充與斧模式
@@ -233,13 +231,13 @@
 <string>邀請至連結隊伍
 <string>在開始選單的<COLOR preset="TXT_Accent">邀請至連結隊伍</COLOR>召集成員吧。<lf>連結隊伍的人數上限為4人。
 <string>連結隊伍的特點
-<string>連結隊伍有專用聊天頻道。只要有隊伍<lf>成員開始任務，就會自動收到參加通知。
+<string>連結隊伍有專用聊天頻道。只要有隊伍<lf>成員開始任務，就會自動收到邀請通知。
 <string>連結隊伍的特點
 <string>從任務中返回後，連結隊伍也不會解散，<lf>可以輕鬆與相同成員反覆挑戰任務。
 <string>環境連結
 <string>此外，組成連結隊伍時，還能利用環境連結，<lf>邀請成員來自己的環境一起探索。
 <string>釣魚的操作方法
-<string><COLOR preset="TXT_Accent">顯示準星、瞄準</COLOR>：<ICON PL_AIM><lf><COLOR preset="TXT_Accent">投出擬餌</COLOR>：<ICON PL_AIM>＋<ICON PL_SLINGER_SHOOT>
+<string><COLOR preset="TXT_Accent">顯示準星、瞄準</COLOR>：<ICON PL_AIM><lf><COLOR preset="TXT_Accent">投出擬餌</COLOR>：<ICON PL_AIM>＋<ICON PL_FISHING_ACTION>
 <string>釣魚的操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>釣魚的操作方法
@@ -255,13 +253,13 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_306
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_306
 <string>設定隨從待機狀態
-<string>選擇待機，隨從就不會參加任務。不過不用<lf>擔心，隨從在待機時也會努力自主鍛鍊！
+<string>隨從會和獵人一同行動，但選擇「待機」後，<lf>就會在任務開始時返回個人帳篷。
 <string>剝取素材
 <string>靠近討伐的魔物按<ICON PL_POP>，就可以從其身上<COLOR preset="TXT_Accent">剝取<lf>素材</COLOR>。素材可以用於生產和強化裝備。如果在<lf>拔刀狀態，就先按<ICON PL_WEAPON_OFF>收刀吧。
 <string>為繼續狩獵做足準備
 <string>在繼續狩獵前，先在大本營補充必要道具吧。<lf>如果要挑戰強大魔物，也別忘記要用餐。
 <string>為繼續狩獵做足準備
-<string>從個人帳篷或簡易營地的<COLOR preset="TXT_Accent">更換道具</COLOR><lf>補充道具吧。回復藥等道具可以用素材<lf>調合出來。
+<string>從個人帳篷或簡易營地的<COLOR preset="TXT_Accent">更換道具</COLOR>補充<lf>道具吧。回復藥等道具可以用素材調合<lf>出來。
 <string>為繼續狩獵做足準備
 <string>利用<COLOR preset="TXT_Accent">便攜式營火爐</COLOR>或前往個人帳篷就可以<lf>用餐。用餐後體力上限等數值會在一定<lf>時間內上升。
 <string>承接實地調查任務的方法
@@ -273,17 +271,17 @@
 <string>最有效距離
 <string>準星變成橙色時的距離稱為最有效距離，<lf>在這距離可造成最大傷害。狩獵時記得<lf>將準星保持在橙色。
 <string>變更彈藥
-<string>最有效距離會因彈藥而異。想要更換裝填中<lf>的彈藥，就按<ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>選擇要裝填的<lf>彈藥吧。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_323>
 <string>最有效距離
 <string>準星變成橙色時的距離稱為最有效距離，<lf>在這距離可造成最大傷害。狩獵時記得<lf>將準星保持在橙色。
 <string>變更彈藥
-<string>有效距離會因彈藥而異。想要更換裝填中的<lf>彈藥，就按<ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>選擇要裝填的彈藥吧。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_325>
 <string>最有效距離
 <string>準星變成橙色時的距離稱為最有效距離，<lf>在這距離可造成最大傷害。狩獵時記得<lf>將準星保持在橙色。
 <string>裝填瓶
-<string>長按<ICON PL_ATTACK_SP>蓄力時會累積特殊箭計量表，<lf>按<ICON WP11 PL_ATTACK_00>消耗計量表裝填瓶，就可向箭矢<lf>附加瓶的效果。
+<string>長按<ICON WP11 PL_ATTACK_00>蓄力時會累積特殊箭計量表，<lf>按<ICON WP11 PL_ATTACK_SP>消耗計量表裝填瓶，就可向箭矢<lf>附加瓶的效果。
 <string>選擇瓶
-<string>按<ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可切換裝填的瓶。<lf>（可裝填的瓶因武器而異）
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_328>
 <string>誘導箭
 <string><COLOR preset="TXT_Accent">誘導箭</COLOR>會刺在命中的部位上，之後發射的箭<lf>會自動追蹤並命中該部位。箭命中誘導箭後<lf>會造成追加傷害。
 <string>誘導箭
@@ -321,7 +319,7 @@
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
-<string><COLOR preset="TXT_Accent">鬼人化</COLOR>時可高速迴避。成功精準迴避時會<lf>同時攻擊，並在短時間內進入名為<COLOR preset="TXT_Accent">鬼人<lf>閃身狀態</COLOR>的強化狀態。
+<string><COLOR preset="TXT_Accent">鬼人化</COLOR>時可高速迴避。成功精準迴避時會<lf>同時攻擊，並進入名為<COLOR preset="TXT_Accent">鬼人閃身狀態</COLOR>的<lf>短時間強化狀態。
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
@@ -329,11 +327,11 @@
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
-<string>觸發黃＋紅＋黃＋白的音色後，按<ICON WP05 PL_ATTACK_SP>＋<lf><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>就可發動各把狩獵笛特有的<lf><COLOR preset="TXT_Accent">特殊演奏</COLOR>。（音色與效果因武器而異）
+<string>以<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>的順序觸發<lf>音色後，按<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>就可發動各把狩獵笛<lf>特有的<COLOR preset="TXT_Accent">特殊演奏</COLOR>。（音色順序與效果因武器<lf>而異）
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
-<string>抓準魔物攻擊的時機按<ICON WP06 PL_ATTACK_SP>防禦，就會觸發<lf><COLOR preset="TXT_Accent">精準防禦</COLOR>，隨後立即按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可使出強力的<lf>追擊突進。
+<string>抓準魔物攻擊的時機按<ICON WP06 PL_ATTACK_SP>防禦，就會觸發<lf><COLOR preset="TXT_Accent">精準防禦</COLOR>，隨後立即按<ICON WP06 PL_ATTACK_00>＋<ICON WP06 PL_ATTACK_01>可使出<COLOR preset="TXT_Accent">渾身<lf>還擊突刺【穿】</COLOR>。
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
@@ -341,7 +339,7 @@
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
-<string>斧模式時同時長按<ICON WP08 PL_ATTACK_00>和<ICON WP08 PL_ATTACK_01>就會使出<COLOR preset="TXT_Accent">斧：連消<lf>帶打上撈斬</COLOR>。抓準時機抵消魔物攻擊，就能<lf>造成大幅傷害。
+<string>斧模式時同時按<ICON WP08 PL_ATTACK_00>和<ICON WP08 PL_ATTACK_01>就會使出<COLOR preset="TXT_Accent">斧：連消<lf>帶打上撈斬</COLOR>。抓準時機抵消魔物攻擊，就能<lf>造成大幅傷害。
 <string>豐富的攻擊動作
 <string>劍模式時按<ICON WP08 PL_ATTACK_SP>＋<ICON WP08 PL_ATTACK_00>會使出<COLOR preset="TXT_Accent">劍：反擊上撈斬</COLOR>。<lf>反擊成功就能用二連斬反擊。
 <string>豐富的攻擊動作
@@ -351,11 +349,11 @@
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
-<string>吸收紅色精華後，可長按<ICON WP10 PL_ATTACK_01>使出<COLOR preset="TXT_Accent">急襲斬</COLOR>。<lf>吸收紅、白、橙三色精華時，在急襲斬後<lf>按<ICON WP10 PL_AIM>＋<ICON WP10 PL_ATTACK_01>更可使出終結技。
+<string>吸收紅色精華後，可長按<ICON WP10 PL_ATTACK_01>使出<COLOR preset="TXT_Accent">急襲斬</COLOR>。<lf>吸收紅、白、橙三色精華時，在急襲斬後<lf><ICON WP10 PL_AIM>＋<ICON WP10 PL_ATTACK_01>更可使出終結技。
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作
-<string>按<ICON WP13 PL_ATTACK_00>＋<ICON WP13 PL_ATTACK_01>可設置<COLOR preset="TXT_Accent">起爆龍彈</COLOR>。獵人或魔物擊中<lf>爆彈時會產生爆炸，並對魔物造成傷害。
+<string>按<ICON WP13 PL_ATTACK_00>＋<ICON WP13 PL_ATTACK_01>可設置起爆龍彈。獵人或魔物擊中<lf>爆彈時會產生爆炸，並對魔物造成傷害。
 <string>豐富的攻擊動作
 <string>除了上述動作外，每種武器都有各式各樣的<lf>動作。參考剛才的介紹，多加嘗試吧。
 <string>豐富的攻擊動作

@@ -1,7 +1,7 @@
 ﻿<string><ICON WP00 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp00_m1673173760>
 <string><ICON WP_GREATSWORD> Grande épée
-<string>Attaque verticale qui n'a pas besoin<lf>d'être chargée.<lf><lf>Une Attaque chargée peut être<lf>enchaînée avec Coup de lame<lf>en faisant :<lf><lf>Attaque chargée > Tacle > Coup de lame
+<string>Attaque verticale qui n'a pas besoin<lf>d'être chargée. Peut être enchainée<lf>avec une Attaque chargée pour créer<lf>des combos.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m1156222080>
@@ -15,31 +15,31 @@
 <string>
 <string><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_225253952>
-<string>Attaque tranchante couvrant une large<lf>zone.<lf><lf>Vous pouvez enchaîner Tacle avec<lf>Large balayage bondissant, et Attaque<lf>chargée puissante chargée avec Large<lf>balayage puissant.
+<string>Attaque tranchante couvrant une large<lf>zone.<lf><lf>Vous pouvez enchaîner un Coup d'épaule<lf>parfait avec un Large balayage bondissant,<lf>et une Attaque chargée puissante avec un<lf>Large balayage puissant.
 <string>
 <string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_146633456>
-<string>Attaque tranchante pouvant atteindre<lf>les cibles situées en hauteur.
+<string>Attaque tranchante pouvant toucher<lf>les cibles situées en hauteur et difficiles<lf>à atteindre.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">, puis <ICON RELEASE> après la charge
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>Attaque tranchante montante pouvant<lf>neutraliser les attaques des monstres.<lf><lf>Réussir la neutralisation d'une attaque<lf>avec le bon timing (de telle sorte que<lf>l'attaque de la grande épée rencontre<lf>l'attaque du monstre) vous permet<lf>d'effectuer Taillade croisée suivie.
+<string>Attaque tranchante montante pouvant<lf>neutraliser les attaques des monstres.<lf><lf>Si vous chargez une Attaque montante<lf>et la relâchez juste au moment où un<lf>monstre vous attaque, et si l'attaque<lf>repousse le monstre, appuyez sur <ICON WP00 PL_ATTACK_00><lf>pour enchaîner avec une Taillade croisée.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
-<string>Coup défensif qui utilise la lame de la<lf>grande épée pour garder. Vous pouvez<lf>changer son orientation en mode Focus.<lf><lf>Appuyez sur <ICON WP00 PL_ATTACK_00> durant la garde pour<lf>effectuer un coup de pied.
+<string>Coup défensif qui utilise la lame de la<lf>grande épée pour bloquer. Vous pouvez<lf>changer son orientation en mode Focus.<lf><lf>Appuyez sur <ICON WP00 PL_ATTACK_00> durant la garde pour<lf>effectuer un coup de pied.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP00 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>Balayage efficace contre les blessures.<lf>Toucher la blessure ou le point faible<lf>d'un monstre vous permet d'infliger<lf>des dégâts multiples et de provoquer<lf>ainsi de très importants dégâts.<lf><lf>Appuyez sur <ICON WP00 PL_ATTACK_SP_B> pendant l'attaque<lf>pour faire une attaque finale.
+<string>Balayage efficace contre les blessures.<lf>Toucher la blessure ou le point faible<lf>d'un monstre vous permet de déclencher<lf>une attaque multiple provoquant<lf>d'importants dégâts.<lf><lf>Appuyez sur <ICON WP00 PL_ATTACK_SP_B> pendant l'attaque<lf>pour y mettre fin plus tôt.
 <string>
-<string>Combo Attaque chargée divine
+<string>Combo avec Attaque chargée divine
 <string><REF ActionGuideDataNameText_Wp00_276684864>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_971250048>
-<string>Combo se terminant par<lf>Attaque chargée divine.
+<string>Combo qui se termine par une<lf>Attaque chargée divine.
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1769468672>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
@@ -47,7 +47,7 @@
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_2095506176>
 <string>
-<string>Combo Attaque féroce vers l'avant
+<string>Combo féroce vers l'avant
 <string><ICON WP00 PL_ATTACK_01>
 <string>Combo qui vous aide à réduire<lf>la distance entre vous et la cible.
 <string>
@@ -60,8 +60,8 @@
 <string><REF ActionGuideDataNameText_Wp00_m101683424>
 <string><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_1081794688>
-<string>Combo à l'arrêt
-<string>Combo au cours duquel vous restez à<lf>l'arrêt.
+<string>Combo sur place
+<string>Combo effectué en restant sur place.
 <string>
 <string><ICON WP00 PL_ATTACK_01><ICON PLUS><ICON WP00 PL_ATTACK_00>
 <string>
@@ -75,7 +75,7 @@
 <string><REF ActionGuideDataNameText_Wp00_146633456>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
-<string>Cette attaque peut être utilisée<lf>pour effectuer un combo de base.<lf><lf>Appuyez sur <ICON WP03 PL_ATTACK_00> pour faire une Attaque<lf>verticale, appuyez à nouveau pour faire<lf>Attaque verticale II, puis appuyez une<lf>dernière fois pour Attaque en croissant.<lf><lf>Toutes les attaques sont renforcées<lf>quand la jauge spirituelle devient rouge.
+<string>Attaque de base qui peut être enchaînée<lf>pour faire un combo.<lf><lf><ICON WP03 PL_ATTACK_00> Attaque verticale → <ICON WP03 PL_ATTACK_00> Attaque<lf>verticale → <ICON WP03 PL_ATTACK_00> Attaque en croissant<lf>→ <ICON WP03 PL_ATTACK_00> Attaque verticale<lf><lf>Toutes les attaques sont renforcées<lf>quand la jauge spirituelle devient rouge.
 <string>
 <string><ICON WP03 PL_ATTACK_01>
 <string>Appuyez sur <ICON WP03 PL_ATTACK_01> après Estocade pour<lf>effectuer une Attaque montante.
@@ -87,14 +87,14 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>Une Charge spirituelle remplit la jauge<lf>spirituelle et vous permet de faire une<lf>Attaque spirituelle. Le niveau de<lf>l'Attaque spirituelle au dépend du<lf>temps de charge.<lf><lf>Charger complètement permet<lf>d'utiliser Esprit tournoyant. Si la<lf>jauge est rouge, vous ne pourrez pas<lf>être renversé ou envoyé au loin tant<lf>que l'attaque ne sera pas terminée.
+<string>Une Charge spirituelle remplit la jauge<lf>spirituelle et vous permet de faire une<lf>Attaque spirituelle dont le niveau<lf>dépend du temps de charge.<lf><lf>Charger au maximum vous permet<lf>d'utiliser Esprit tournoyant. Si la<lf>jauge est rouge, vous ne réagirez pas<lf>aux attaques censées vous repousser<lf>ou vous projeter tant que l'attaque<lf>Esprit tournoyant n'est pas terminée.
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
 <string>Attaque tranchante effectuée en<lf>reculant.<lf><lf>Utilisez <ICON WP03 PL_MOVE_LEFT> ou <ICON WP03 PL_MOVE_RIGHT> pour attaquer<lf>dans la direction de votre choix.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_m37508024>
-<string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> pendant le combo
-<string>Attaque pouvant être effectuée en<lf>milieu de combo et offrant une longue<lf>fenêtre d'invulnérabilité.<lf><lf>Elle utilise la jauge spirituelle,<lf>mais cette dernière se remplit<lf>entièrement si l'attaque réussit après<lf>avoir esquivé l'attaque d'un monstre.<lf>Appuyez ensuite sur <ICON WP03 PL_ATTACK_SP> pour enchaîner<lf>avec Esprit tournoyant.<lf>L'effet diminue quand la jauge spirituelle<lf>est vide et vous pouvez enchaîner avec<lf>Attaque divinatoire tourbillonnante<lf>quand la jauge est rouge.
+<string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> en combo
+<string>Attaque pouvant être effectuée en<lf>milieu de combo et offrant une longue<lf>fenêtre d'invulnérabilité.<lf><lf>Elle utilise la jauge spirituelle, mais<lf>cette dernière se remplit entièrement<lf>si l'attaque réussit après avoir esquivé<lf>l'attaque d'un monstre. Appuyez ensuite<lf>sur <ICON WP03 PL_ATTACK_SP> pour enchaîner avec Esprit<lf>tournoyant. Lorsque la jauge spirituelle<lf>est vide, les effets sont moins importants,<lf>mais quand la jauge est rouge, vous<lf>pouvez enchaîner avec Attaque divinatoire<lf>tourbillonnante.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
@@ -103,7 +103,7 @@
 <string>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> après l'attaque
 <string><REF ActionGuideDataNameText_Wp03_m1559988736>
-<string>Action spéciale rengainant votre arme.<lf><lf>Appuyez sur <ICON WP03 PL_ATTACK_00> après Rengainage spécial<lf>pour effectuer Attaque Iai, ou sur <ICON WP03 PL_ATTACK_SP><lf>pour Attaque spirituelle Iai.<lf><lf>Réussir Attaque Iai remplit<lf>automatiquement votre jauge<lf>spirituelle pendant un court instant.<lf>Effectuer Attaque spirituelle Iai au<lf>même moment que l'attaque d'un monstre<lf>fait augmenter votre jauge spirituelle<lf>d'un niveau.
+<string>Action spéciale rengainant votre arme.<lf><lf>Appuyez sur <ICON WP03 PL_ATTACK_00> après Rengainage<lf>spécial pour effectuer une Attaque Iai,<lf>ou <ICON WP03 PL_ATTACK_SP> pour une Attaque spirituelle Iai.<lf><lf>Réussir une Attaque Iai remplit<lf>automatiquement la jauge spirituelle<lf>pendant un court instant. Effectuer<lf>une Attaque spirituelle Iai au même<lf>moment que l'attaque d'un monstre<lf>fait augmenter votre jauge spirituelle<lf>d'un niveau.
 <string>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1506281344>
@@ -156,10 +156,10 @@
 <string>
 <string><ICON WP03 PL_ATTACK_00>
 <string>
-<string>Combo à l'arrêt
+<string>Combo sur place
 <string><REF ActionGuideDataNameText_Wp03_m1171603968>
 <string><ICON WP03 PL_ATTACK_00>
-<string>Combo à l'arrêt lorsque la jauge est<lf>rouge.
+<string>Combo sur place lorsque la jauge est<lf>rouge.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_1927826048>
 <string><ICON WP03 PL_ATTACK_01>
@@ -168,7 +168,7 @@
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1927826048>
 <string>
-<string><ICON WP_SWORDSHIELD> Épée & bouclier
+<string><ICON WP_SWORDSHIELD> Épée et bouclier
 <string><ICON WP01 PL_ATTACK_00>
 <string><INPUTMSG MsgGUI600200_01_004>
 <string><INPUTMSG MsgGUI600200_01_004_01>
@@ -181,23 +181,23 @@
 <string>Attaque montante effectuée en<lf>avançant. Si vous faites une Attaque<lf>fulgurante près d'un rebord ou sur une<lf>pente, vous effectuerez une attaque<lf>spécifique à la physionomie du<lf>terrain.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m669292416>
-<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> pendant le combo
-<string>Attaque tranchante couvrant une large<lf>zone pendant laquelle vous pouvez<lf>rapidement changer de direction.<lf>L'enchaîner avec certaines attaques<lf>permet d'effectuer la puissante<lf>Faucheuse tournoyante.
+<string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> en combo
+<string>Attaque tranchante couvrant une large<lf>zone et pendant laquelle vous pouvez<lf>rapidement changer de direction.<lf>L'enchaîner avec certaines attaques<lf>permet d'effectuer la puissante<lf>Faucheuse tournoyante.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_1418448640>
-<string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> pendant le combo
+<string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> en combo
 <string><REF ActionGuideDataNameText_Wp01_937851328>
 <string>Attaque sautée puissante. Toucher le<lf>point faible de la peau d'un monstre<lf>vous permet d'infliger plusieurs fois<lf>des dégâts.<lf><lf>Sa puissance augmente si elle est<lf>utilisée après certaines attaques.
 <string>
-<string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> pendant le combo
-<string>Utilisez Pas arrière pendant les<lf>combos pour éviter les attaques des<lf>monstres.<lf><lf>Rush parfait, disponible pendant Pas<lf>arrière, est une attaque à plusieurs<lf>coups pouvant facilement infliger des<lf>dégâts élémentaires et des<lf>afflictions. Améliorez les dégâts<lf>en appuyant sur <ICON WP01 PL_ATTACK_00> au bon moment.
+<string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> en combo
+<string>Utilisez le pas arrière pendant les<lf>combos pour éviter les attaques des<lf>monstres.<lf><lf>Appuyez sur <ICON WP01 PL_ATTACK_00> pendant un pas arrière<lf>pour effectuer Rush parfait, une attaque<lf>multiple qui peut infliger facilement des<lf>dégâts élémentaires et des afflictions.<lf>Appuyez sur <ICON WP01 PL_ATTACK_00> au bon moment pour<lf>augmenter les dégâts.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> pendant Pas arrière
-<string>Enchaîner avec une Attaque chargée<lf>vous permet de sauter dans les airs après<lf>avoir blessé un monstre et d'effectuer des<lf>coups aériens comme <REF ActionGuideDataNameText_Wp01_m1979692928> ou<lf><REF ActionGuideDataNameText_Wp01_m76675704>.
+<string>Faire Attaque chargée après un Pas<lf>arrière vous permet de sauter dans les airs.<lf>Lorsque vous êtes en l'air, vous pouvez<lf>enchaîner avec différents coups aériens<lf>comme Attaque sautée ou Assaut tombant.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string><ICON WP01 PL_ATTACK_00> en sautant
@@ -207,7 +207,7 @@
 <string><ICON WP01 PL_ATTACK_01> en sautant
 <string>
 <string><ICON WP01 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Utilisez le bouclier pour vous protéger<lf>des attaques. Levez le bouclier au bon<lf>moment pour faire une Garde parfaite.<lf><lf>Appuyez sur <ICON WP01 PL_ATTACK_00> après une Garde parfaite<lf>pour réaliser une Contre-attaque rapide<lf>et puissante.
+<string>Utilisez le bouclier pour vous protéger<lf>des attaques. Levez le bouclier au bon<lf>moment pour faire une Garde parfaite.<lf><lf>Appuyez sur <ICON WP01 PL_ATTACK_00> après une Garde parfaite<lf>pour faire une Attaque de riposte rapide<lf>et puissante.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1975087616>
 <string><ICON WP01 PL_ATTACK_00> après Garde parfaite
@@ -222,7 +222,7 @@
 <string>Vous pouvez utiliser certains objets<lf>lorsque votre arme est rengainée.
 <string>
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_ATTACK_SP_B>
-<string>Attaque perçante efficace contre les<lf>blessures. Après avoir touché la<lf>blessure ou le point faible d'un monstre,<lf>appuyez sur <ICON WP01 PL_ATTACK_00> pour effectuer une<lf>Attaque plongeante et sur <ICON WP01 PL_ATTACK_01> pour un<lf>Assaut uppercut.
+<string>Attaque perçante efficace contre les<lf>blessures. Après avoir touché la<lf>blessure ou le point faible d'un monstre,<lf>appuyez sur <ICON WP01 PL_ATTACK_00> pour enchaîner avec une<lf>Attaque plongeante ou sur <ICON WP01 PL_ATTACK_01> pour un<lf>Assaut uppercut.
 <string>
 <string>Combo de base
 <string><REF ActionGuideDataNameText_Wp01_1638854400>
@@ -241,7 +241,7 @@
 <string>
 <string>Combo puissant
 <string><ICON WP01 PL_ATTACK_01>
-<string>Combo à l'arrêt puissant.<lf><lf>Utilisez Faucheuse tournoyante pour<lf>terminer rapidement le combo et Coup<lf>chargé en cas de faiblesse dans la<lf>défense du monstre.
+<string>Un puissant combo effectué sur place.<lf><lf>Utilisez Faucheuse tournoyante pour<lf>terminer rapidement le combo ou<lf>Coup chargé en cas de faiblesse dans<lf>la défense du monstre.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1520769024>
 <string><ICON WP01 PL_ATTACK_01>
@@ -273,7 +273,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string>Combo Attaque chargée
-<string>Vous pouvez effectuer plusieurs<lf>attaques après <REF ActionGuideDataNameText_Wp01_m278451072>.<lf><REF ActionGuideDataNameText_Wp01_m1979692928> permet de facilement<lf>monter sur les monstres, <REF ActionGuideDataNameText_Wp01_m76675704><lf>augmente l'étourdissement et<lf><REF ActionGuideDataNameText_Wp01_m1201359616> inflige de lourds dégâts.
+<string>Une Attaque chargée peut être enchaînée<lf>avec les attaques suivantes :<lf><lf>- Attaque sautée : permet de monter<lf>plus facilement sur les monstres.<lf>- Assaut tombant : inflige des dégâts<lf>d'étourdissement.<lf>- Estocade tombante : inflige de lourds<lf>dégâts.
 <string>
 <string>
 <string>Après une attaque réussie
@@ -289,7 +289,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string>Combo Rush parfait
-<string>Combo pouvant être effectué après un<lf>Rush parfait réussi. Vous sautez<lf>haut dans les airs après Rush<lf>parfait, puis vous pouvez utiliser<lf>Attaque sautée ou Assaut tombant.
+<string>Combo qui débouche sur Rush parfait.<lf>Après Rush parfait, vous sauterez haut<lf>dans les airs, ce qui permet d'enchaîner<lf>avec Attaque sautée ou Assaut tombant.
 <string>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Lames doubles
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>Combo de base.<lf>Appuyez sur <ICON WP02 PL_ATTACK_00> pour effectuer une<lf><REF ActionGuideDataNameText_Wp02_1802004864>, puis appuyez<lf>à nouveau sur <ICON WP02 PL_ATTACK_00> pour <REF ActionGuideDataNameText_Wp02_144065008>.
+<string>Attaque de base qui peut être enchaînée<lf>pour faire un combo.<lf><lf><ICON WP02 PL_ATTACK_00> Double attaque → <ICON WP02 PL_ATTACK_00> Double attaque<lf>retournée → <ICON WP02 PL_ATTACK_00> Cyclone mortel
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -308,7 +308,7 @@
 <string><REF ActionGuideDataNameText_Wp02_927994752>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Le mode démon améliore votre attaque,<lf>votre vitesse de déplacement et votre<lf>esquive, et empêche les renversements.<lf><lf>Danse des lames est une puissante<lf>série d'attaques qui épuise la jauge<lf>démoniaque.
+<string>Entrer en mode Démon améliore les<lf>attaques, la vitesse de déplacement<lf>et l'esquive, et empêche les attaques<lf>subies de vous repousser.<lf><lf>Danse des lames I, II et III sont de<lf>puissantes séries d'attaques qui<lf>consomment la jauge démoniaque.
 <string>
 <string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_300353024>
@@ -327,8 +327,8 @@
 <string><REF ActionGuideDataNameText_Wp02_1304483584>
 <string>
 <string><ICON WP02 PL_DODGE>
-<string>Esquive démon (En mode démon/archidémon)
-<string>Esquive rapide qui permet d'éviter les<lf>attaques. Réussir une Esquive parfaite<lf>vous permet d'attaquer en esquivant et<lf>augmente votre puissance pendant un<lf>court instant.
+<string>Esquive démon (En mode Démon/Archidémon)
+<string>Une esquive particulièrement rapide.<lf>Réussir une Esquive parfaite vous permet<lf>d'attaquer en esquivant et augmente<lf>votre puissance pendant un court instant.<lf><lf>Ne consomme pas de jauge démoniaque<lf>en mode Démon.
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
@@ -336,19 +336,19 @@
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Améliore les attaques, la vitesse de<lf>déplacement, les esquives, et vous<lf>empêche d'être renversé. L'endurance<lf>baisse quand le mode démon est actif.<lf>Le mode démon prend fin si vous<lf>l'annulez manuellement avec Quitter<lf>le mode démon, ou si votre endurance<lf>atteint zéro.
+<string>Le mode Démon améliore vos attaques,<lf>votre vitesse de déplacement et vos<lf>esquives, et empêche les attaques<lf>subies de vous repousser. Dans cet<lf>état, votre endurance diminue peu<lf>à peu. Le mode Démon prend fin si<lf>vous l'annulez manuellement ou<lf>quand vous n'avez plus d'endurance.
 <string><REF ActionGuideDataNameText_Wp02_m1003266688>
-<string>Toucher un monstre en mode démon<lf>remplit la jauge démon. Une fois<lf>remplie, vous passez en mode<lf>archidémon au lieu de sortir du mode<lf>démon.<lf><lf>La jauge démon baisse ensuite avec<lf>le temps ou est utilisée pour effectuer<lf>certaines attaques.
+<string>Réussir des attaques en mode Démon<lf>remplit la jauge démoniaque. Une fois<lf>la jauge pleine, vous passerez en mode<lf>Archidémon au lieu de sortir du mode<lf>Démon.<lf><lf>La jauge démoniaque baissera ensuite<lf>avec le temps ou si elle est utilisée pour<lf>effectuer certaines attaques.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>État dans lequel plusieurs de vos<lf>attaques sont améliorées. Ces attaques<lf>épuisent la jauge démoniaque quand<lf>elles sont utilisées, et le mode<lf>archidémon prend fin quand la jauge<lf>est vide.
+<string>Dans cet état, plusieurs de vos attaques<lf>sont améliorées. Ces attaques épuisent<lf>la jauge démoniaque quand elles sont<lf>utilisées, et le mode Archidémon prend<lf>fin lorsque la jauge est vide.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
-<string>État d'amélioration dans lequel vous<lf>entrez après une Esquive parfaite<lf>réussie. Augmente les dégâts normaux<lf>et élémentaires et vous permet<lf>d'attaquer en esquivant.
+<string>État d'amélioration dans lequel vous<lf>entrez après une Esquive parfaite<lf>réussie. Cet état augmente les dégâts<lf>normaux et élémentaires et permet<lf>d'attaquer en esquivant.
 <string>
 <string>Combo de base
 <string><ICON WP02 PL_ATTACK_00>
-<string>Combo standard.
+<string>Un combo de base.
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string>
 <string><ICON WP02 PL_ATTACK_00>
@@ -357,10 +357,10 @@
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_144065008>
 <string>
-<string>Combo de base en mode démon
+<string>Combo de base en mode Démon
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_1562259072>
-<string>Combo de base en mode démon. Vous<lf>pouvez enchaîner avec Danse des lames.
+<string>Combo de base en mode Démon. Vous<lf>pouvez enchaîner avec Danse des lames.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m268803040>
 <string><ICON WP02 PL_ATTACK_00>
@@ -371,10 +371,10 @@
 <string><REF ActionGuideDataNameText_Wp02_300353024>
 <string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
 <string>
-<string>Combo en mode archidémon
+<string>Combo en mode Archidémon
 <string><REF ActionGuideDataNameText_Wp02_m1698437888>
 <string><ICON WP02 PL_ATTACK_SP> après Danse des lames I
-<string>Combo utilisant une grande quantité de<lf>jauge démoniaque, mais infligeant de<lf>lourds dégâts.<lf><lf>Après être entré en mode démon et<lf>fait Danse des lames I avec <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>,<lf>vous pouvez alterner entre Fureur du<lf>démon et Danse des lames avec <ICON WP02 PL_ATTACK_SP>.<lf><lf>Danse des lames III est une attaque<lf>très puissante, veillez donc à bien choisir<lf>vos combos en fonction de la situation.
+<string>Combo utilisant une grande quantité de<lf>jauge démoniaque, mais infligeant de<lf>lourds dégâts.<lf><lf>Après être entré en mode Démon et avoir<lf>fait Danse des lames I avec <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>,<lf>vous pouvez alterner entre Fureur du<lf>démon et Danse des lames avec <ICON WP02 PL_ATTACK_SP>.<lf><lf>Danse des lames III est une attaque<lf>très puissante, veillez donc à bien choisir<lf>vos combos en fonction de la situation.
 <string>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_1565251968>
@@ -386,14 +386,14 @@
 <string>
 <string>Combo Rage du démon
 <string><REF ActionGuideDataNameText_Wp02_72416008>
-<string><ICON WP02 PL_ATTACK_01> en mode démon/archidémon
-<string>Un combo qui vous permet de vous<lf>rapprocher d'un monstre tout en lui<lf>infligeant des dégâts. En mode démon,<lf>il inclut Double attaque tournoyante.
+<string><ICON WP02 PL_ATTACK_01> en mode Démon/Archidémon
+<string>Un combo qui vous permet de vous<lf>rapprocher d'un monstre tout en lui<lf>infligeant des dégâts. En mode Démon,<lf>il inclut Double attaque tournoyante.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_215332432>
 <string><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_m1318603136>
 <string>
-<string><ICON WP02 PL_ATTACK_01> en mode démon
+<string><ICON WP02 PL_ATTACK_01> en mode Démon
 <string>
 <string><ICON WP_HAMMER> Marteau
 <string><REF ActionGuideDataNameText_Wp02_1443799168>
@@ -402,7 +402,7 @@
 <string><INPUTMSG MsgGUI600200_01_009_01>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
 <string><ICON WP04 PL_ATTACK_01>
-<string>Attaque écrasante pouvant être répétée<lf>chaque fois qu'elle touche un monstre.<lf><lf>Le puissant Big Bang final peut être<lf>utilisé après avoir réussi cette<lf>attaque quatre fois.<lf><lf>Rater une seule fois annule le combo.
+<string>Attaque écrasante pouvant être répétée<lf>chaque fois qu'elle touche un monstre.<lf><lf>Le puissant Big Bang final peut être<lf>utilisé après avoir réussi le quatrième<lf>Big Bang (Big Bang IV).<lf><lf>Manquer le monstre, même une seule<lf>fois, suffit à mettre fin au combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
@@ -417,13 +417,13 @@
 <string><REF ActionGuideDataNameText_Wp04_m1391311232>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> au niveau de charge 3
 <string><REF ActionGuideDataNameText_Wp04_424161632>
-<string>Charger au maximum vous permet<lf>d'effectuer <REF ActionGuideDataNameText_Wp04_424161632>. En la<lf>chargeant à nouveau au maximum, vous<lf>pourrez utiliser <REF ActionGuideDataNameText_Wp04_807319680>.
+<string>Lorsque votre marteau est entièrement<lf>chargé (niveau 3) vous pouvez faire une<lf>Charge totale. Relâcher avant la fin de la<lf>charge du coup vous permet d'effectuer<lf>Charge totale uppercut, mais charger au<lf>maximum Charge totale permet de faire<lf>la puissante Charge totale écrasante.
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp04_807319680>
 <string>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> après l'attaque
-<string>Attaque tournoyante utilisée après<lf>d'autres attaques. Appuyez sur <ICON WP04 PL_ATTACK_00> pendant<lf>que vous tournoyez pour utiliser une<lf>autre attaque. Plus vous tournoyez<lf>longtemps, plus l'attaque devient<lf>puissante, mais le faire trop<lf>longtemps sans attaquer vous rend<lf>vulnérable.
+<string>Attaque tournoyante utilisée après<lf>d'autres attaques. Appuyez sur <ICON WP04 PL_ATTACK_00><lf>pendant que vous tournoyez pour<lf>utiliser une autre attaque. Plus vous<lf>tournoyez longtemps plus l'attaque<lf>devient puissante, mais le faire trop<lf>longtemps sans attaquer vous rend<lf>vulnérable.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_AIM><ICON PLUS><ICON WP04 PL_ATTACK_SP_B>
@@ -433,7 +433,7 @@
 <string>Combo de base
 <string><ICON WP04 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp04_86757720>
-<string>Combo standard.
+<string>Un combo de base.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m222720992>
 <string><ICON WP04 PL_ATTACK_00>
@@ -441,10 +441,10 @@
 <string><REF ActionGuideDataNameText_Wp04_1449700864>
 <string><ICON WP04 PL_ATTACK_00>
 <string>
-<string>Combo Coup de lame chargé
+<string>Combo Coup latéral chargé
 <string><REF ActionGuideDataNameText_Wp04_m1057375552>
 <string><ICON WP04 PL_ATTACK_SP> (Niveau de charge 1) <ICON RELEASE>
-<string>Combo rapide pouvant facilement cibler<lf>une faille dans la défense d'un<lf>monstre sans que vous soyez vulnérable<lf>trop longtemps.
+<string>Combo rapide pouvant facilement viser<lf>une faille dans la défense d'un monstre<lf>sans que vous soyez vulnérable trop<lf>longtemps.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_1152969344>
 <string><ICON WP04 PL_ATTACK_00>
@@ -460,10 +460,10 @@
 <string><REF ActionGuideDataNameText_Wp04_1152969344>
 <string><ICON WP04 PL_ATTACK_00>
 <string>
-<string>Combo Tourbillon fulgurant
+<string>Combo avec Tourbillon fulgurant
 <string><REF ActionGuideDataNameText_Wp04_86757720>
 <string><ICON WP04 PL_ATTACK_00>
-<string>Combo Tourbillon fulgurant.
+<string>Combo utilisant Tourbillon fulgurant.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01>
@@ -483,28 +483,28 @@
 <string><INPUTMSG MsgGUI600200_01_010_01>
 <string><REF ActionGuideDataNameText_Wp05_m201995088>
 <string><ICON WP05 PL_ATTACK_01>
-<string>Attaque de base qui produit la<lf>deuxième note de la portée.
+<string>Attaque de base qui produit la note 2<lf>sur la portée.
 <string><REF ActionGuideDataNameText_Wp05_166644960>
 <string>
 <string><INPUTMSG MsgGUI600200_01_011>
-<string>Attaque qui produit la deuxième note<lf>de la portée.<lf><lf>Appuyer sur <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>pendant l'attaque vous permet de<lf>produire une autre note.
+<string>Attaque qui produit la note 2<lf>sur la portée.<lf><lf>Appuyer sur <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>pendant l'attaque vous permet de<lf>produire une autre note.
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_m671947712>
-<string>Attaque de base qui produit la<lf>troisième note de la portée. Elle<lf>vous permet de toucher facilement<lf>une cible située derrière vous, et<lf>vous fera reculer en attaquant.
+<string>Attaque de base qui produit la note 3<lf>sur la portée.<lf><lf>Elle vous permet de toucher facilement<lf>une cible derrière vous, et vous fait<lf>reculer en attaquant.
 <string>
 <string><INPUTMSG MsgGUI600200_01_012>
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
-<string>Attaque qui produit la troisième note<lf>de la portée.<lf><lf>Appuyer sur <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>pendant l'attaque vous permet de<lf>produire une autre note.
+<string>Attaque qui produit la note 3<lf>sur la portée.<lf><lf>Appuyer sur <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>pendant l'attaque vous permet de<lf>produire une autre note.
 <string>
-<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> pendant le combo
-<string>Attaques rapides produisant une note.<lf><lf>Vous pouvez les utiliser après différentes<lf>attaques : <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> et <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, chacune<lf>produisant leur propre note.
+<string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> en combo
+<string>Attaque rapide qui produit une note<lf>sur la portée.<lf><lf>Vous pouvez l'utiliser après différentes<lf>attaques avec <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> et <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>,<lf>chacune produisant sa propre note.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>Attaque spéciale activant les effets des<lf>mélodies. Si plusieurs mélodies sont<lf>stockées, vous pouvez les jouer dans<lf>l'ordre depuis le début. Vous pouvez en<lf>choisir une avec <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01>.<lf><lf>Vous pouvez effectuer un puissant Rythme<lf>mélodieux avec <ICON WP05 PL_ATTACK_SP> en utilisant <REF ActionGuideDataNameText_Wp05_m208341008><lf>plusieurs fois. Après <REF ActionGuideDataNameText_Wp05_m208341008>, utilisez Rappel<lf>avec <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> pour améliorer et augmenter<lf>la durée de vos mélodies.<lf><lf>Utiliser <REF ActionGuideDataNameText_Wp05_m1751799040> et Rappel en<lf>même temps qu'activer les mélodies<lf>augmente les dégâts des attaques.
+<string>Attaque activant les effets des mélodies.<lf>Les mélodies stockées seront jouées<lf>dans l'ordre, mais vous pouvez en choisir<lf>une avec <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01>.<lf><lf>En jouant plusieurs mélodies,<lf>vous pouvez effectuer un puissant<lf>Rythme mélodieux avec <ICON WP05 PL_ATTACK_SP>.<lf>Jouez ensuite un Rappel avec <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>pour renforcer et prolonger<lf>les effets des mélodies.<lf><lf>Synchronisez le Rythme mélodieux<lf>et le Rappel avec l'activation des<lf>effets pour augmenter leur puissance.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -513,43 +513,39 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>Attaque spéciale produisant une<lf>Bulle d'écho. Le type de Bulle d'écho<lf>que vous pouvez créer dépend de la<lf>corne de chasse qui est équipée.<lf><lf>Vous pouvez produire jusqu'à trois<lf>notes avec <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>tout en créant une Bulle d'écho.
+<string>Attaque spéciale produisant une<lf>Bulle d'écho. Le type de Bulle d'écho<lf>que vous pouvez créer dépend de la<lf>corne de chasse qui est équipée.<lf><lf>Lorsque vous créez une Bulle d'écho,<lf>vous pouvez produire jusqu'à trois<lf>notes avec <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> avec mélodie stockée
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>Contrairement à Jouer, cette version<lf>jouera la mélodie unique associée à la<lf>corne de chasse équipée.<lf><lf>Une fois stockée, cette mélodie ne<lf>sera pas remplacée par de nouvelles<lf>mélodies.
+<string>À la différence des performances<lf>normales, les Performances spéciales<lf>permettent de jouer la mélodie propre<lf>à la corne de chasse équipée.<lf><lf>Une fois stockée, cette mélodie ne<lf>sera pas remplacée par de nouvelles<lf>mélodies.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Efficace contre les blessures.<lf>Produisez jusqu'à cinq notes<lf>avec <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>tout en utilisant Jouer.<lf><lf>Jouer une note en rythme<lf>augmente ses dégâts.
+<string>Attaque Jouer efficace<lf>contre les blessures.<lf>Produisez jusqu'à cinq notes<lf>avec <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>tout en utilisant Jouer.<lf><lf>Jouer les notes au bon moment<lf>inflige des dégâts supplémentaires.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
-<string><REF ActionGuideDataNameText_Wp05_477278688>
+<string>Performances spéciales
 <string><REF RefStatus_0006_000_01>
-<string>Après avoir placé une bulle d'écho,<lf>vous recevez un effet de mélodie spécial<lf>tant que vous restez dans sa zone d'effet.<lf><lf>La bulle résonne quand vous utilisez<lf>Jouer et jouez des notes, infligeant des<lf>dégâts aux monstres proches.
+<string>Après avoir créé une bulle d'écho,<lf>vous recevez un effet de mélodie spécial<lf>tant que vous restez dans sa zone d'effet.<lf><lf>La bulle résonne quand vous utilisez<lf>Jouer et jouez des notes, infligeant<lf>des dégâts aux monstres proches.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
-<string>Attaque spéciale utilisant Jouer<lf>pouvant neutraliser les attaques<lf>des monstres.<lf>Ses dégâts élevés en font également<lf>une attaque normale utile.
+<string>Une Performance spéciale capable de<lf>neutraliser les attaques des monstres.<lf>Ses dégâts élevés en font également<lf>une attaque normale utile.
 <string>
 <string>Mélodies
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Augmente la vitesse de déplacement.<lf>Jouer un Rappel pour cette mélodie<lf>augmente votre attaque et empêche<lf>vos attaques d'être déviées.
 <string>
-<string>Empêche d'être renversé en<lf>subissant une attaque.
-<string>
 <string><ICON ST_POWER_UP_HORN> Bonus attaque (P)/<REF MusicSkillDataText_Wp05_12>
 <string>Augmente l'attaque.
 <string>
-<string>Augmente la défense.
-<string>
-<string><ICON ST_DEFECE_FIRE> <REF MusicSkillDataText_Wp05_18>/<ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
-<string>Augmente la résistance au feu<lf>et protège de fléau-feu.
+<string><ICON ST_DEFECE_FIRE> Résistance feu (P)/<ICON ST_DEFECE_FIRE_HIGH> Résistance feu (G)
+<string>Augmente la résistance au feu<lf>et protège du fléau-feu.
 <string>
 <string>Onde d'écho
 <string>Mélodie infligeant des dégâts.<lf><lf>Chaque corne de chasse a des effets<lf>qui lui sont propres. Certaines infligent<lf>des dégâts contondants ou tranchants,<lf>tandis que d'autres peuvent infliger des<lf>dégâts élémentaires et des afflictions.
 <string>
 <string>Effets des bulles d'écho
-<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Esquive et vitesse de déplacement ↑
 <string>Augmente l'esquive et la vitesse de<lf>déplacement.
 <string>
 <string>Combo de base
@@ -579,7 +575,7 @@
 <string>Combo Triple mélodie
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Puissant combo qui est utile contre les<lf>monstres renversés.<lf><lf>Utilisez les mélodies en même temps<lf>que Rythme mélodieux et Rappel pour<lf>infliger de lourds dégâts.
+<string>Puissant combo utile contre les<lf>monstres renversés.<lf><lf>Utilisez la mélodie en même temps<lf>que Rythme mélodieux et Rappel<lf>pour infliger de lourds dégâts.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -593,7 +589,7 @@
 <string>Combo rapide avec Jouer
 <string>Attaque de base
 <string><ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Utilisez <REF ActionGuideDataNameText_Wp05_m208341008> après <REF ActionGuideDataNameText_Wp05_386094144><lf>pour activer les mélodies plus rapidement.
+<string>Utilisez Jouer après Coup de garde<lf>pour activer les effets de mélodies<lf>plus rapidement.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -608,14 +604,14 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Combo de base vous propulsant vers le<lf>haut. Vous propulse dans la direction<lf>que vous visez en mode Focus.<lf><lf>Vous pouvez répéter l'attaque jusqu'à<lf>trois fois. Après <REF ActionGuideDataNameText_Wp06_m1488459392>,<lf>vous pouvez utiliser <REF ActionGuideDataNameText_Wp06_1549684992>,<lf>dont les dégâts augmentent à mesure<lf>que vous maintenez <ICON WP06 PL_ATTACK_01>. Effectuer cette<lf>attaque en même temps que celle d'un<lf>monstre vous permet d'effectuer la<lf>puissante <REF ActionGuideDataNameText_Wp06_1959362048>.
+<string>Attaque de base perçante vers l'avant qui<lf>peut être enchaînée pour faire un combo.<lf>En mode Focus, la direction de l'attaque<lf>correspond à la direction de la caméra.<lf><lf><ICON WP06 PL_ATTACK_01> Estocade haute I → <ICON WP06 PL_ATTACK_01> Estocade<lf>haute II → <ICON WP06 PL_ATTACK_01> Estocade haute III<lf>→ <ICON WP06 PL_ATTACK_01> Contre chargé<lf><lf>Plus vous chargez avec <ICON WP06 PL_ATTACK_01>, plus les<lf>dégâts de Contre chargé augmentent.<lf>Effectuer cette attaque en même temps<lf>que celle d'un monstre permet de faire<lf>la puissante Contre-estocade double.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Estocade vous propulsant en avant.
+<string>Estocade effectuée lors d'un bon<lf>en avant.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_2049287808>
-<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> pendant le combo
+<string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> en combo
 <string>Grand balayage pouvant être effectué<lf>pendant les combos.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
@@ -632,8 +628,7 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Baissez-vous et effectuez une garde<lf>presque impénétrable.<lf>Votre endurance s'épuise, mais votre<lf>réaction à la garde est grandement<lf>réduite, vous permettant de<lf>contre-attaquer facilement.<lf><lf>Vos dégâts de contre-attaque<lf>augmentent à chaque coup porté<lf>à votre garde.
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -651,11 +646,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01> après une garde réussie
-<string>Contre-attaque vers l'avant pouvant<lf>être effectuée après Garde. Elle<lf>inflige plus de dégâts que la version<lf>légère mais vous rend vulnérable<lf>plus longtemps.
+<string>Contre-attaque vers l'avant pouvant<lf>être effectuée après Garde. Elle<lf>inflige plus de dégâts qu'une<lf>Estocade de contre, mais vous rend<lf>vulnérable plus longtemps.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_1728314368>
 <string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
-<string>Attaque de bouclier efficace contre<lf>les blessures. Toucher la blessure ou<lf>le point faible d'un monstre vous<lf>permet d'infliger des dégâts à <lf>plusieurs endroits différents.<lf><lf>Appuyez sur <ICON WP06 PL_ATTACK_SP_B> pendant que vous<lf>faites une estocade pour mettre fin<lf>à l'attaque.
+<string>Attaque de bouclier efficace contre les<lf>blessures. Toucher la blessure ou le<lf>point faible d'un monstre vous permet<lf>d'infliger des dégâts plusieurs fois.<lf><lf>Appuyez sur <ICON WP06 PL_ATTACK_SP_B> pendant une Attaque<lf>Focus pour mettre fin à l'attaque.
 <string>
 <string>Combo de base vers Triple estocade
 <string><REF ActionGuideDataNameText_Wp06_m572647232>
@@ -671,10 +666,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m752102912>
 <string><ICON WP06 PL_ATTACK_00>
 <string>
-<string>Combo de base vers <REF ActionGuideDataNameText_Wp06_1549684992>
+<string>Combo de base vers Contre chargé
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Combo de base menant à <REF ActionGuideDataNameText_Wp06_1549684992>.<lf><lf>Plus vous chargez longtemps ce contre,<lf>plus les dégâts seront importants.<lf>L'attaque se transformera en Contre-<lf>estocade double si vous l'effectuez en<lf>même temps qu'une attaque de monstre,<lf>pour encore plus de dégâts.
+<string>Combo de base menant à Contre chargé.<lf><lf>Plus vous chargez longtemps ce contre,<lf>plus les dégâts seront importants. L'attaque<lf>se transformera en Contre-estocade double<lf>si vous l'effectuez en même temps qu'une<lf>attaque de monstre, pour encore plus de<lf>dégâts.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1128612864>
 <string><ICON WP06 PL_ATTACK_01>
@@ -685,10 +680,10 @@
 <string><REF ActionGuideDataNameText_Wp06_1549684992>
 <string><ICON WP06 merge="PL_ATTACK_01,HOLD_ON">
 <string>
-<string>Contre-attaques après une garde réussie
+<string>Contre-attaque après une garde réussie
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Contre-attaque disponible après avoir<lf>utilisé Garde contre une attaque de<lf>monstre.<lf><lf>Réussir une Garde parfaite vous permet<lf>d'utiliser une attaque avancée<lf>puissante.
+<string>Contre-attaque disponible après avoir<lf>bloqué une attaque de monstre.<lf><lf>Réussir une Garde parfaite augmente<lf>la puissance des contre-attaques qui<lf>suivront.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,17 +691,17 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE> Lancecanon
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
 <string><ICON WP07 PL_ATTACK_00>
-<string>Estocade vers l'avant.<lf>Enchaînez-la avec Estocade latérale II<lf>avec <ICON WP07 PL_ATTACK_00>, puis Large balayage avec <ICON WP07 PL_ATTACK_00>.
+<string>Estocade vers l'avant.<lf><lf>Après l'attaque, rappuyez sur <ICON WP07 PL_ATTACK_00> pour<lf>enchaîner avec une Estocade latérale II,<lf>puis <ICON WP07 PL_ATTACK_00> une nouvelle fois pour effectuer<lf>un Large balayage.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m318721248>
 <string><ICON WP07 PL_MOVE_FRONT><ICON PLUS><ICON WP07 PL_ATTACK_00>
-<string>Estocade vers l'avant.<lf>Enchaînez-la avec Coup vertical avec<lf><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>, puis Tir explosif avec <ICON WP07 PL_ATTACK_01><lf>ou Grand balayage avec <ICON WP07 PL_ATTACK_00>.
+<string>Estocade montante avec élan.<lf><lf>Enchaînez-la avec Coup vertical avec<lf><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>, puis Tir explosif avec <ICON WP07 PL_ATTACK_01><lf>ou Grand balayage avec <ICON WP07 PL_ATTACK_00>.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1347992960>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
@@ -719,11 +714,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1497865856>
 <string><ICON WP07 PL_ATTACK_00> après Grand balayage
-<string>Attaque faisant tirer votre canon de<lf>vouivre. Inflige des dégâts répétés à<lf>la partie du monstre touchée avant<lf>d'exploser, infligeant des dégâts de<lf>feu qui transpercent la peau du<lf>monstre.
+<string>Attaque utilisant le Canon de vouivre.<lf>Inflige des dégâts répétés à la partie<lf>du monstre touchée et se termine par<lf>une explosion, infligeant des dégâts<lf>de feu qui brûlent la peau du monstre.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> après Grand balayage
-<string>Attaque tirant tous les obus restants<lf>et faisant tirer le canon de vouivre.<lf>Appuyez sur <ICON WP07 PL_ATTACK_00> ou <ICON WP07 PL_ATTACK_01> après Explosion<lf>de vouivre pour utiliser Explosion de<lf>vouivre multiple.
+<string>Attaque utilisant tous les obus<lf>restants et le Canon de vouivre.<lf><lf>Appuyez sur <ICON WP07 PL_ATTACK_00> ou <ICON WP07 PL_ATTACK_01> après<lf>Explosion de vouivre pour enchaîner<lf>avec Explosion de vouivre multiple.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
@@ -738,39 +733,39 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Attaque montante avec le lancecanon.<lf>Appuyez sur <ICON WP07 PL_ATTACK_01> après l'attaque pour<lf>tirer un obus, ou sur <ICON WP07 PL_ATTACK_00> pour<lf>effectuer Coup vertical.
+<string>Attaque montante.<lf><lf>Appuyez sur <ICON WP07 PL_ATTACK_01> après une Attaque<lf>montante pour utiliser Bombardement,<lf>ou sur <ICON WP07 PL_ATTACK_00> pour donner un Coup vertical.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1588566656>
 <string><ICON WP07 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Appuyez sur <ICON WP07 PL_ATTACK_00> durant la garde pour<lf>effectuer Estocade (garde). Après<lf>avoir réussi une Garde parfaite,<lf>appuyez sur <ICON WP07 PL_ATTACK_00> pour Coup vertical.
+<string>Appuyez sur <ICON WP07 PL_ATTACK_00> durant la garde pour<lf>effectuer Estocade (garde) I.<lf><lf>Après avoir réussi une Garde parfaite,<lf>appuyez sur <ICON WP07 PL_ATTACK_00> pour un Coup vertical.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m2132440704>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Recharge les obus et le canon de<lf>vouivre. Vous bloquez automatiquement<lf>les attaques immédiatement après avoir<lf>commencé à recharger.
+<string>Recharge les obus et le Canon de<lf>vouivre. Vous bloquez automatiquement<lf>les attaques pendant le rechargement.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1926268544>
-<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> pendant le combo
-<string>Recharge les obus uniquement. Vous<lf>bloquez automatiquement les attaques<lf>immédiatement après avoir<lf>commencé à recharger.
+<string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> en combo
+<string>Recharge uniquement les obus.<lf>Vous bloquez automatiquement les<lf>attaques pendant le rechargement.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Utilisez un segment de la Jauge de<lf>wyverne pour libérer le puissant<lf>Feu de wyverne, infligeant des<lf>dégâts de feu qui transpercent la<lf>peau du monstre.
+<string>Utilisez la moitié de la jauge de Feu<lf>de wyverne pour libérer le puissant<lf>Feu de wyverne, infligeant des dégâts<lf>de feu qui pénètrent la peau du monstre.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_695464896>
 <string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
-<string>Attaque perçante efficace contre les<lf>blessures. Toucher la blessure ou le<lf>point faible d'un monstre vous permet<lf>d'augmenter la durée de l'attaque et<lf>de finir en tirant avec le canon de<lf>vouivre.<lf><lf>Utilisez ce dernier plus tôt en<lf>appuyant sur <ICON WP07 PL_ATTACK_SP_B> pendant l'attaque<lf>perçante.
+<string>Attaque foreuse efficace contre les<lf>blessures. Toucher la blessure ou le<lf>point faible d'un monstre vous permet<lf>d'augmenter la durée de l'attaque et<lf>de finir en tirant avec le Canon de<lf>vouivre.<lf><lf>Vous pouvez aussi utiliser le Canon de<lf>vouivre plus tôt en appuyant sur <ICON WP07 PL_ATTACK_SP_B><lf>pendant l'attaque foreuse.
 <string>
 <string><REF RefEquipment_SORT_0004>
-<string>Il y a trois types de bombardements :<lf>normal, large et long.<lf><lf>Normal : grande capacité.<lf>Large : Bombardement et Feu de wyverne<lf>plus puissants.<lf>Long : Canon de vouivre plus puissant.
+<string>Il y a trois types de canons :<lf>normal, large et long.<lf><lf>Normal : grande capacité.<lf>Large : Bombardement et Feu de wyverne<lf>plus puissants.<lf>Long : Canon de vouivre plus puissant.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1164200704>
-<string>Munitions requises pour utiliser<lf>Bombardement. Un obus est utilisé à<lf>chaque tir. Vous pouvez les récupérer<lf>en utilisant Rechargement ou<lf>Rechargement rapide.
+<string>Les attaques de type Bombardement<lf>nécessitent des obus. Chaque tir en<lf>consomme un, mais vous pouvez les<lf>récupérer rapidement en utilisant<lf>Rechargement ou Rechargement rapide.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1336808448>
-<string>Munitions requises pour utiliser le<lf>canon de vouivre. Utilisées à chaque<lf>fois que vous tirez avec et peuvent<lf>être récupérées avec Rechargement.
+<string>Des munitions sont nécessaires pour<lf>utiliser le canon de vouivre. Elles sont<lf>utilisées à chaque fois que vous tirez<lf>avec le canon de vouivre et peuvent<lf>être récupérées avec Rechargement.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>Jauge requise pour utiliser Feu de<lf>wyverne, une attaque qui inflige<lf>d'importants dégâts dont des dégâts<lf>de feu qui traversent la peau.<lf><lf>La jauge de wyverne se remplit<lf>automatiquement mais peut aussi<lf>être remplie en donnant des coups.<lf><lf>Jusqu'à deux segments peuvent<lf>être chargés en même temps.<lf>Utiliser Feu de wyverne utilise<lf>un segment.
+<string>Jauge requise pour utiliser le Feu de<lf>wyverne, une attaque puissante qui<lf>inflige des dégâts de feu capables de<lf>pénétrer la peau des monstres.<lf><lf>La jauge Feu de wyverne se remplit<lf>automatiquement mais peut aussi<lf>être remplie en donnant des coups.<lf>Une jauge pleine permet d'effectuer<lf>le Feu de wyverne deux fois, chaque<lf>attaque consommant la moitié de<lf>la jauge.
 <string>
 <string>Combo Canon de vouivre
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
@@ -814,18 +809,18 @@
 <string><ICON WP_SWITCHAXE> Morpho-hache
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Appuyez sur <ICON WP08 PL_ATTACK_00> après Hache : Attaque<lf>verticale pour effectuer Hache : Attaque<lf>horizontale, puis <ICON WP08 PL_ATTACK_00> pour<lf>Hache : Attaque explosive en spirale.<lf>Hache : Attaque explosive en spirale<lf>restaure une grande quantité de votre<lf><REF ActionGuideDataNameText_Wp08_1814127872>.<lf><lf>Vous pouvez également utiliser <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00><lf>pour l'attaque à moyenne portée vers<lf>l'avant Hache : Attaque fulgurante.
+<string>Combo de base du mode Hache :<lf><ICON WP08 PL_ATTACK_00>Hache : Attaque verticale →<lf><ICON WP08 PL_ATTACK_00> Hache : Attaque horizontale →<lf><ICON WP08 PL_ATTACK_00> Hache : Attaque explosive en spirale.<lf><lf>Hache : Attaque explosive en spirale<lf>restaure une grande partie<lf>de votre morpho-jauge.<lf><lf>Utilisez <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> pour effectuer<lf>l'attaque à moyenne portée vers<lf>l'avant Hache : Attaque fulgurante.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 PL_ATTACK_01>
-<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> vous permet d'utiliser Hache : Coup<lf>sauvage en continu. Après l'avoir utilisé<lf>au moins deux fois, appuyez sur <ICON WP08 PL_ATTACK_00><lf>pour Hache : Écrasement lourd, qui vous<lf>fait passer en mode hache de force.<lf><lf>Appuyez sur <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> pour utiliser<lf>Hache : Attaque verticale fulgurante,<lf>une attaque à distance vers l'avant.
+<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> effectuera Hache : Coup sauvage<lf>plusieurs fois d'affilée.<lf>Après l'avoir utilisé au moins deux fois,<lf>appuyez sur <ICON WP08 PL_ATTACK_00> pour effectuer<lf>Hache : Écrasement lourd, qui vous<lf>fait passer en mode Hache de force.<lf><lf>Appuyez sur <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> pour utiliser<lf>Hache : Attaque verticale fulgurante,<lf>une attaque à distance vers l'avant.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Attaque montante pouvant neutraliser<lf>les attaques de monstres. Après une<lf>Neutralisation parfaite, appuyez sur <ICON WP08 PL_ATTACK_00><lf>pour <REF ActionGuideDataNameText_Wp08_166716544> ou<lf><ICON WP08 PL_ATTACK_SP> pour <REF ActionGuideDataNameText_Wp08_1659893248>,<lf>qui vous fera passer en mode épée.
+<string>Attaque montante pouvant neutraliser<lf>les attaques de monstres.<lf><lf>Si votre attaque repousse un monstre,<lf>appuyez sur <ICON WP08 PL_ATTACK_00> pour enchaîner sur<lf>Hache : Écrasement lourd suivi, qui<lf>vous fait passer en mode Hache de force,<lf>ou appuyez sur <ICON WP08 PL_ATTACK_SP> pour enchaîner<lf>sur Hache : Morpho-attaque suivie,<lf>qui vous fait passer en mode Épée.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><ICON WP08 PL_ATTACK_00> en cas de <REF ActionGuideDataNameTextCommon_m234605296>
@@ -834,7 +829,7 @@
 <string><ICON WP08 PL_ATTACK_SP> en cas de <REF ActionGuideDataNameTextCommon_m234605296>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1185187840>
-<string><ICON WP08 PL_MOVE_BACK><ICON PLUS><ICON WP08 PL_ATTACK_01> pendant le combo
+<string><ICON WP08 PL_MOVE_BACK><ICON PLUS><ICON WP08 PL_ATTACK_01> en combo
 <string>Attaque haute en reculant.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
@@ -843,7 +838,7 @@
 <string><INPUTMSG MsgGUI600200_01_021_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Attaque tranchante efficace contre les<lf>blessures. Toucher une blessure ou un<lf>point faible vous permet d'infliger plusieurs<lf>fois des dégâts et d'utiliser Hache :<lf>Écrasement lourd. Vous pouvez passer<lf>en mode épée avec <ICON WP08 PL_ATTACK_SP> pendant l'attaque<lf>à plusieurs coups et ensuite utiliser<lf>Attaque élémentaire finale.
+<string>Attaque tranchante efficace contre<lf>les blessures.<lf><lf>Toucher la blessure ou le point faible<lf>d'un monstre vous permet de faire<lf>une attaque multiple, et d'enchaîner<lf>sur Coup de hache final absolu pour<lf>faire d'importants dégâts.<lf><lf>Vous pouvez aussi utiliser <ICON WP08 PL_ATTACK_SP><lf>pendant l'attaque pour passer<lf>en mode Épée et terminer par<lf>Attaque élémentaire finale.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -858,23 +853,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1381817088>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
-<string>Attaquez au même moment qu'un monstre<lf>pour éviter d'être renversé. Réussir<lf>vous permet d'attaquer deux fois de<lf>suite et d'enchaîner avec Épée : Furie<lf>divine avec <ICON WP08 PL_ATTACK_01>.
+<string>Effectuez Épée : Contre-attaque<lf>montante pile au moment où<lf>un monstre vous attaque pour<lf>déclencher une double attaque bonus.<lf>Si vous réussissez, vous ne pourrez<lf>pas être repoussé ou projeté.<lf>Appuyez sur <ICON WP08 PL_ATTACK_01> après la contre-attaque<lf>pour enchaîner sur Épée : Furie divine.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Appuyez sur <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> après Attaque<lf>élémentaire pour une attaque finale<lf>explosive. Vous passez automatiquement<lf>en mode hache après l'explosion.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>Lorsque vous faites une Attaque élémentaire<lf>en état amplifié, votre personnage s'accroche<lf>au monstre. Lorsque vous tenez le monstre,<lf>vous pouvez effectuer Libération zéro finale<lf>avec <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">. Après le coup final, votre arme<lf>retournera en mode hache.
+<string>Appuyez sur <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> de manière<lf>répétée après Attaque élémentaire<lf>pour une attaque finale explosive.<lf>Vous passez automatiquement<lf>en mode Hache après l'explosion.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Attaque puissante disponible en mode<lf>épée. Une explosion supplémentaire<lf>infligeant des dégâts a lieu si vous<lf>l'utilisez en état amplifié. Vous passez<lf>en mode hache après l'attaque.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Une attaque puissante utilisable<lf>seulement en état amplifié. Vous<lf>pouvez faire un combo vers cette<lf>attaque en faisant <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> après<lf>Attaque élémentaire. Après cette<lf>attaque, vous retournerez en mode<lf>hache.
+<string>Attaque puissante disponible en mode<lf>Épée. Une explosion supplémentaire<lf>infligeant des dégâts a lieu si vous<lf>l'utilisez en état amplifié. Vous passez<lf>en mode Hache après l'attaque.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -882,33 +869,33 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Attaque tranchante efficace contre les<lf>blessures. Toucher la blessure ou le<lf>point faible d'un monstre vous permet<lf>d'infliger plusieurs fois des dégâts<lf>et d'utiliser <REF ActionGuideDataNameText_Wp08_m1280417792>.<lf>Passez en mode hache avec <ICON WP08 PL_ATTACK_SP> pendant<lf>l'attaque à plusieurs coups et utilisez<lf>ensuite Hache : Écrasement lourd.
+<string>Attaque tranchante efficace contre<lf>les blessures.<lf><lf>Toucher la blessure ou le point faible<lf>d'un monstre vous permet de faire<lf>une attaque multiple, et d'enchaîner<lf>sur Attaque élémentaire finale pour<lf>faire d'importants dégâts.<lf><lf>Vous pouvez aussi utiliser <ICON WP08 PL_ATTACK_SP><lf>pendant l'attaque pour passer<lf>en mode Hache et terminer par<lf>Coup de hache final absolu.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_971569344>⇔<REF ActionGuideDataNameText_Wp08_m1422082944>
-<string>Attaquer en mode hache remplit la<lf>morpho-jauge, tandis qu'attaquer en<lf>mode épée l'épuise. Alternez entre les<lf>modes en combat pour triompher.
+<string>Attaquer en mode Hache remplit la<lf>morpho-jauge, tandis qu'attaquer<lf>en mode Épée l'épuise.<lf><lf>Alternez entre les modes en combat<lf>pour triompher.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1814127872>
-<string>Jauge se remplissant quand vous<lf>réussissez des attaques en mode hache.<lf><lf>Vous pouvez passer en mode épée quand<lf>la morpho-jauge atteint 30 %. Elle se<lf>remplit progressivement quand votre<lf>arme est rengainée.
+<string>Jauge se remplissant quand vous<lf>réussissez des attaques en mode Hache.<lf><lf>Vous pouvez passer en mode Épée quand<lf>la morpho-jauge atteint 30 %. Elle se<lf>remplit progressivement quand votre<lf>arme est rengainée.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_503110624>
-<string>Augmente les dégâts infligés en mode<lf>hache. Augmente également la vitesse<lf>à laquelle la morpho-jauge se remplit<lf>quand vous attaquez.
+<string>Augmente les dégâts infligés en mode<lf>Hache. Augmente également la vitesse<lf>à laquelle la morpho-jauge se remplit<lf>quand vous attaquez.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1601592576>
-<string>Jauge se remplissant quand vous<lf>réussissez des attaques en mode épée.<lf><lf>Passez à l'état amplifié quand la<lf>jauge d'amplification est pleine.
+<string>Jauge se remplissant quand vous<lf>réussissez des attaques en mode Épée.<lf><lf>Passez à l'état amplifié quand la<lf>jauge d'amplification est pleine.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_132806840>
-<string>De petites explosions infligeant des<lf>dégâts en fonction de votre type de<lf>fiole se produisent automatiquement<lf>quand vous attaquez en mode épée.
+<string>En mode Épée, de petites explosions<lf>infligeant des dégâts en fonction de<lf>votre type de fiole se produisent<lf>automatiquement.
 <string>
 <string>Type de fiole
-<string>Attaquer en mode épée épuise la<lf>morpho-jauge et ajoute un effet basé<lf>sur le type de fiole. Certaines fioles<lf>remplissent la jauge plus facilement<lf>que d'autres.<lf><lf>Fiole de force : dégâts physiques +<lf>Fiole élémentaire : dégâts élément. +<lf>Fiole de poison : empoisonne<lf>Fiole de paralysie : paralyse<lf>Fiole draconique : ajoute élément dragon<lf>Fiole de faiblesse : étourdit/fatigue
+<string>Attaquer en mode Épée épuise la<lf>morpho-jauge et ajoute un effet basé<lf>sur le type de fiole. Certaines fioles<lf>remplissent la jauge d'amplification<lf>plus vite que d'autres.<lf><lf><COLOR preset="TXT_Accent">Fiole de force</COLOR> : plus de dégâts physiques<lf><COLOR preset="TXT_Accent">Fiole élémentaire</COLOR> : plus de dégâts élémentaires<lf><COLOR preset="TXT_Accent">Fiole de poison</COLOR> : empoisonne<lf><COLOR preset="TXT_Accent">Fiole de paralysie</COLOR> : paralyse<lf><COLOR preset="TXT_Accent">Fiole draconique</COLOR> : ajoute l'élément dragon<lf><COLOR preset="TXT_Accent">Fiole de léthargie</COLOR> : étourdit et draine l'endurance
 <string>
 <string>Combo pour remplir la morpho-jauge rapidement
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Combo de base pour remplir la morpho-jauge<lf>en mode hache. Vous pouvez l'enchaîner avec<lf>un autre combo avec <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> pour<lf><REF ActionGuideDataNameText_Wp08_m1194476416> ou <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> pour<lf><REF ActionGuideDataNameText_Wp08_1711220352>.<lf>Choisissez l'attaque la plus adaptée<lf>à la distance à laquelle vous attaquez.
+<string>Combo de base qui remplit la<lf>morpho-jauge en mode Hache.<lf><lf>Utilisez <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> pour lancer le combo<lf>avec Hache : Attaque fulgurante ou<lf><ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> pour le lancer avec Hache : Attaque<lf>verticale fulgurante.<lf><lf>Un bon positionnement est crucial,<lf>alors choisissez l'attaque la plus<lf>adaptée selon la distance entre vous<lf>et la cible.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1338690432>
 <string><ICON WP08 PL_ATTACK_00>
@@ -916,10 +903,10 @@
 <string><REF ActionGuideDataNameText_Wp08_372106112>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
-<string>Combo pour passer en mode épée
+<string>Combo pour passer en mode Épée
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
-<string>Combo vous permettant de passer au<lf>mode épée après avoir activé le mode<lf>hache de force.
+<string>Combo qui vous fait passer en mode<lf>épée après avoir activé le mode Hache<lf>de force.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
@@ -930,15 +917,15 @@
 <string><REF ActionGuideDataNameText_Wp08_m1178457984>
 <string><ICON WP08 PL_ATTACK_01>
 <string>
-<string>Combo pour remplir la jauge d'amplification en mode épée
+<string>Combo pour remplir la jauge d'amplification en mode Épée
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Combo remplissant rapidement la jauge<lf>d'amplification en mode épée.
+<string>Un combo qui remplit rapidement<lf>la jauge d'amplification en mode Épée.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1737891328>
 <string><ICON WP08 PL_ATTACK_01>
 <string>
-<string>Combo de base en mode épée
+<string>Combo de base en mode Épée
 <string><REF ActionGuideDataNameText_Wp08_m1084801536>
 <string><ICON WP08 PL_ATTACK_00>
 <string><INPUTMSG MsgGUI600200_01_024>
@@ -952,7 +939,7 @@
 <string>Combo puissant quand le monstre est vulnérable
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Combo puissant quand le monstre est<lf>très vulnérable.
+<string>Un combo puissant quand le monstre<lf>est sans défense.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">
@@ -963,26 +950,26 @@
 <string><ICON WP_CHARGEBLADE> Volto-hache
 <string><REF ActionGuideDataNameText_Wp09_m584458432>
 <string><ICON WP09 PL_ATTACK_00>
-<string>Combo de base.<lf>Appuyez sur <ICON WP09 PL_ATTACK_00> pour enchaîner avec<lf>Attaque retournée, puis appuyez à nouveau<lf>sur <ICON WP09 PL_ATTACK_00> pour faire Attaque tournoyante.
+<string>Attaque de base qui peut être enchaînée<lf>pour faire un combo.<lf><lf><ICON WP09 PL_ATTACK_00> Épée : Feinte → <ICON WP09 PL_ATTACK_00> Épée : Attaque<lf>retournée → <ICON WP09 PL_ATTACK_00> Épée : Attaque tournoyante
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>S'effectue en relâchant <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> au bon<lf>moment. Si votre timing n'est pas<lf>bon, vous ferez Attaque montante.
+<string>L'attaque Épée : Double attaque<lf>chargée nécessite un timing précis<lf>pour être lancée.<lf>Maintenez <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> pour la charger puis<lf>relâchez au moment où le monstre<lf>attaque. Si votre timing n'est pas<lf>bon, vous ferez Épée : Attaque<lf>montante chargée à la place.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Attaque féroce vous propulsant vers<lf>l'avant. Avec <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>, vous pouvez<lf>effectuer <REF ActionGuideDataNameText_Wp09_m406475264><lf>après <REF ActionGuideDataNameText_Wp09_m324722336>.<lf>Utilisez à nouveau <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> pour faire<lf><REF ActionGuideDataNameText_Wp09_1635818112>.
+<string>Attaque féroce vous propulsant vers<lf>l'avant.<lf><lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Épée : Attaque fulgurante →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Épée : Attaque au bouclier →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Hache : Méga attaque élémentaire
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Une <REF ActionGuideDataNameText_Wp09_m888161664> qui utilise votre bouclier.<lf>Effectuer <REF ActionGuideDataNameText_Wp09_m888161664> au bon moment vous<lf>permet de faire <REF ActionGuideDataNameText_Wp09_m1202631296>.<lf><lf>Utilisez <ICON WP09 PL_ATTACK_00> après <REF ActionGuideDataNameText_Wp09_m1202631296> pour<lf>effectuer <REF ActionGuideDataNameText_Wp09_m1536274816>.
+<string>Utilisez le bouclier pour vous protéger<lf>des attaques. Levez le bouclier au bon<lf>moment pour faire une Garde parfaite.<lf><lf>Appuyez sur <ICON WP09 PL_ATTACK_00> après une Garde<lf>parfaite réussie pour faire un Coup de<lf>hache sauvage.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1536274816>
 <string><ICON WP09 PL_ATTACK_00> après Garde parfaite
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Attaque faisant passer votre arme<lf>d'épée à hache.
+<string>Attaque faisant passer du mode Épée<lf>au mode Hache.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -990,11 +977,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> en chargeant
-<string>Utilisez des fioles pour activer le Boost<lf>élémentaire qui améliore votre Garde<lf>et vous permet de faire Hache : Ultra<lf>attaque élémentaire.
+<string>Utilisez des fioles pour doter votre<lf>bouclier d'un Boost élémentaire, qui<lf>améliore votre garde et vous permet de<lf>faire Hache : Ultra attaque élémentaire.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> en chargeant
-<string>Un autre bonus après Boost élémentaire<lf>qui renforce l'épée. Quand elle est<lf>renforcée, votre épée ne rebondit pas<lf>sur les monstres.
+<string>Un bonus supplémentaire pour l'épée<lf>de la volto-hache après un Boost<lf>élémentaire. Quand elle est renforcée,<lf>ses attaques ne rebondissent pas sur<lf>les monstres.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1002,7 +989,7 @@
 <string><INPUTMSG MsgGUI600200_01_026_01>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Attaque tranchante efficace contre les<lf>blessures. Effectuez une attaque sautée<lf>à l'épée que vous soyez en mode épée ou<lf>en mode hache. Toucher une blessure vous<lf>fait passer en mode hache de force.
+<string>Attaque tranchante efficace contre les<lf>blessures.<lf><lf>Effectuez une attaque sautée à l'épée<lf>que vous soyez en mode Épée ou en mode<lf>Hache. Toucher une blessure vous fait<lf>passer en mode Hache de force.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m2127622656>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1010,48 +997,48 @@
 <string><INPUTMSG MsgGUI600200_01_027_01>
 <string><REF ActionGuideDataNameText_Wp09_794588032>
 <string><ICON WP09 PL_ATTACK_01>
-<string>Attaque à plusieurs coups utilisant une<lf>fiole. Appuyez sur <ICON WP09 PL_ATTACK_01> pour effectuer<lf><REF ActionGuideDataNameText_Wp09_m1440144640>, et<lf>appuyez à nouveau sur <ICON WP09 PL_ATTACK_01> pour faire<lf><REF ActionGuideDataNameText_Wp09_1635818112>.<lf><lf>Appuyer sur <ICON WP09 PL_ATTACK_01> en continu en mode<lf>hache de force vous permet d'infliger<lf>plusieurs fois des dégâts.
+<string>Attaque à plusieurs coups utilisant<lf>une fiole.<lf><lf><ICON WP09 PL_ATTACK_01> Hache : Attaque élémentaire I →<lf><ICON WP09 PL_ATTACK_01> Hache : Attaque élémentaire II →<lf><ICON WP09 PL_ATTACK_01> Hache : Méga attaque élémentaire<lf><lf>Maintenez <ICON WP09 PL_ATTACK_01> en mode hache de force<lf>pour infliger des dégâts plusieurs fois.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Vous pouvez enchaîner Méga attaque<lf>élémentaire avec d'autres attaques.<lf>Appuyez sur <ICON WP09 PL_ATTACK_01> pour utiliser Hache :<lf>Méga attaque élémentaire suivie.<lf>Maintenir <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> ou <ICON WP09 PL_ATTACK_01> en mode<lf>hache de force vous permet d'infliger<lf>des dégâts en plusieurs endroits.<lf>Appuyez à nouveau sur <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> quand vous<lf>êtes en <REF ActionGuideDataNameText_Wp09_650824320> pour faire Hache :<lf>Ultra attaque élémentaire.<lf>Vous pouvez aussi appuyer sur <ICON WP09 PL_ATTACK_SP> en vous<lf>préparant à envoyer ce coup pour enchaîner<lf>avec Attaque élémentaire tournoyante et<lf>activer le Boost élémentaire.
+<string><ICON WP09 PL_ATTACK_01> Hache : Méga attaque élémentaire →<lf><ICON WP09 PL_ATTACK_01> Hache : Méga attaque élém. suivie.<lf><lf>Maintenez <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> ou <ICON WP09 PL_ATTACK_01> en mode<lf>Hache de force pour faire une attaque<lf>multiple infligeant de lourds dégâts.<lf><lf>Appuyez sur <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (en Boost élémentaire) pour<lf>faire Hache : Ultra attaque élémentaire<lf>ou <ICON WP09 PL_ATTACK_SP> (en préparant Hache : Méga attaque<lf>élémentaire) pour faire une Attaque<lf>élémentaire tournoyante qui active<lf>également le Boost élémentaire.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>Attaque faisant passer votre arme de<lf>hache à épée.
+<string>Attaque faisant passer du mode Épée<lf>au mode Hache.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Attaque tranchante efficace contre les<lf>blessures. Effectuez une attaque sautée<lf>à l'épée que vous soyez en mode épée ou<lf>en mode hache. Toucher une blessure vous<lf>fait passer en mode hache de force.
+<string>Attaque tranchante efficace contre les<lf>blessures.<lf><lf>Effectuez une attaque sautée à l'épée<lf>que vous soyez en mode Épée ou en mode<lf>Hache. Toucher une blessure vous fait<lf>passer en mode Hache de force.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Transforme votre arme en changeant de<lf>mode. Pendant le changement, le<lf>bouclier effectue automatiquement des<lf>attaques de Garde lorsqu'il est levé.
+<string>La volto-hache peut passer du mode<lf>Épée au mode Hache. Si votre bouclier<lf>est levé pendant le changement, vous<lf>bloquerez automatiquement les attaques.
 <string>
 <string>Attaques avec Garde
-<string>Certaines attaques en mode épée<lf>peuvent effectuer une garde. Les<lf>utiliser au bon moment quand le<lf>bouclier fait face à l'attaque ennemie<lf>vous permet de vous mettre en garde<lf>automatiquement.<lf><lf>Vous pouvez ensuite effectuer Hache :<lf>Ultra attaque élémentaire avec <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.
+<string>Certaines attaques en mode Épée<lf>peuvent effectuer une garde. Les<lf>utiliser au bon moment quand le<lf>bouclier fait face à l'attaque ennemie<lf>vous permettra de bloquer<lf>automatiquement.<lf><lf>Après avoir réussi à bloquer avec l'une<lf>de ces attaques en mode Épée, appuyez<lf>sur <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (avec Boost élémentaire)<lf>pour enchaîner avec Hache : Ultra<lf>attaque élémentaire.
 <string>
 <string>Jauge de charge
 <string>Attaquer avec l'épée permet d'accumuler<lf>de l'énergie de lame qui remplit les fioles<lf>quand la jauge est jaune ou au-dessus.<lf><lf>Si vous accumulez trop d'énergie de lame,<lf>vos attaques seront repoussées.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_650824320>
-<string>Améliore votre Garde en mode épée et<lf>vous permet d'effectuer Hache : Ultra<lf>attaque élémentaire.
+<string>Améliore votre garde en mode Épée et<lf>vous permet d'effectuer Hache : Ultra<lf>attaque élémentaire.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1125949696>
-<string>Vos attaques à l'épée sont améliorées<lf>par les fioles, vos dégâts augmentent<lf>et vos attaques ne sont pas<lf>repoussées.
+<string>Améliore vos attaques à l'épée grâce<lf>aux effets des fioles. Vos dégâts<lf>augmentent et vos attaques ne sont<lf>pas repoussées.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m701543936>
-<string>Utilisez moins de fioles et infligez des<lf>dégâts en plusieurs endroits en maintenant<lf>la touche quand vous attaquez avec la<lf>hache. Après une Garde parfaite, utilisez<lf>Coup de hache sauvage, qui améliore vos<lf>attaques pendant un court instant.
+<string>Le mode Hache de force permet<lf>d'utiliser moins de fioles et de faire<lf>des attaques à dégâts multiples en<lf>mode Hache.<lf><lf>Après une Garde parfaite, utiliser<lf>Coup de hache sauvage améliorera<lf>temporairement vos attaques.
 <string>
-<string>Attaque chargée
-<string>Les attaques Épée : Double attaque<lf>chargée et Épée : Attaque élémentaire<lf>condensée sont moins efficaces si elles<lf>sont lancées alors que vous êtes en<lf>surcharge, mais sont puissantes si elles<lf>sont lancées au bon moment.
+<string>Attaques chargées
+<string>Les attaques Épée : Double attaque<lf>chargée et Épée : Attaque élémentaire<lf>condensée sont de puissantes attaques<lf>chargées qui nécessitent un timing précis<lf>pour être lancées. La durée de charge est<lf>essentielle, car elles ne se déclencheront<lf>pas si vous les chargez trop longtemps.
 <string>
 <string>Fioles
-<string>Elles sont consommées en effectuant<lf>des Attaques élémentaires, et explosent<lf>pour infliger des dégâts. Améliorer les<lf>fioles permet d'augmenter leurs effets.<lf><lf>Fiole de choc : ajoute étourdissement<lf>et faiblesse, et génère une explosion<lf>transperçant la peau des monstres.<lf><lf>Fiole élémentaire : augmente les<lf>propriétés élémentaires de l'arme et<lf>peut infliger de lourds dégâts<lf>élémentaires.
+<string>Elles sont consommées en effectuant<lf>des Attaques élémentaires, et explosent<lf>pour infliger des dégâts. Améliorer les<lf>fioles permet d'augmenter leurs effets.<lf><lf><COLOR preset="TXT_Accent">Fiole de choc</COLOR> : ajoute Étourdissement<lf>et Léthargie, et génère une explosion<lf>transperçant la peau des monstres.<lf><lf><COLOR preset="TXT_Accent">Fiole élémentaire</COLOR> : augmente les<lf>propriétés élémentaires de l'arme et<lf>peut infliger de lourds dégâts<lf>élémentaires.
 <string>
 <string>Épée : Combo de base
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Combo vous permettant d'approcher<lf>depuis une longue distance en utilisant<lf><REF ActionGuideDataNameText_Wp09_m406475264>.<lf><lf>Remplacer <REF ActionGuideDataNameText_Wp09_530797824><lf>par <REF ActionGuideDataNameText_Wp09_1630431488><lf>vous permet de rapidement recharger<lf>la jauge.
+<string>Combo qui vous permet d'approcher<lf>depuis une longue distance avec<lf>Épée : Attaque au bouclier.<lf><lf>Faire Épée : Double attaque chargée<lf>à la place d'Épée : Attaque retournée<lf>vous permet de rapidement recharger<lf>la jauge.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_530797824>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1062,10 +1049,10 @@
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>Combo Bonus élémentaire
+<string>Combo Boost élémentaire
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Combo vous permettant d'utiliser<lf>Bouclier : Bonus élémentaire.<lf><lf>Charger pendant un combo de base vous<lf>permet d'effectuer l'attaque.
+<string>Combo vous permettant d'utiliser<lf>Bouclier : Boost élémentaire, que vous<lf>pouvez également utiliser en chargeant<lf>pendant un combo de base.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1090,13 +1077,13 @@
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>Combo hache : Ultra attaque élémentaire
+<string>Hache : Combo ultra attaque élémentaire
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Comme pour les autres attaques pouvant<lf>utiliser Garde, vous pouvez effectuer<lf><REF ActionGuideDataNameText_Wp09_2057398656><lf>directement après Garde.<lf><lf>Utiliser <REF ActionGuideDataNameText_Wp09_m1699645312><lf>réduit la durée pendant laquelle vous<lf>êtes vulnérable après Garde, facilitant<lf>l'utilisation de ce combo.
+<string>Après avoir bloqué grâce à une attaque<lf>qui le permet, vous pouvez effectuer<lf>Hache : Ultra attaque élémentaire.<lf><lf>Utiliser le Boost élémentaire réduit<lf>la durée pendant laquelle vous êtes<lf>vulnérable après avoir bloqué,<lf>facilitant l'utilisation de ce combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
-<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> après une garde avec Attaque avec Garde
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> après une garde avec une Attaque qui fait une Garde
 <string>
 <string><ICON WP_INSECTGLAIVE> Insectoglaive
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1109,7 +1096,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
-<string>Ordonne à votre kinsecte de se<lf>précipiter vers l'avant et de récolter<lf>de l'extrait sur la partie du<lf>monstre qu'il touche.<lf><lf>Le kinsecte s'envole vers le réticule<lf>qui peut être affiché avec <ICON WP10 PL_ATTACK_SP>.
+<string>Ordonne à votre kinsecte d'attaquer la<lf>partie du corps d'un monstre marquée<lf>par votre réticule pour récolter de<lf>l'extrait.<lf><lf>Maintenir <ICON WP10 PL_ATTACK_SP> : afficher le réticule<lf>Appuyer sur <ICON WP10 PL_ATTACK_SP> : marquer une cible
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
@@ -1124,32 +1111,32 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Attaque qui crée une marque que votre<lf>kinsecte suivra. Le kinsecte attaque<lf>la partie du corps marquée et répand<lf>du pollen.
+<string>Marquer une cible permet à votre<lf>kinsecte d'attaquer une partie<lf>spécifique d'un monstre.<lf><lf>Lorsque le kinsecte attaque la partie<lf>marquée, il répand de la poudre kinsecte.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Attaque à distance qui crée une marque<lf>que votre kinsecte suivra. <lf><lf>Le kinsecte attaque la partie du corps<lf>marquée et répand du pollen.
+<string>Marquer la partie d'un monstre à<lf>distance.<lf><lf>Votre kinsecte attaque la partie du<lf>corps marquée et répand de la poudre<lf>kinsecte.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
 <string><INPUTMSG MsgGUI600200_01_029>
 <string><INPUTMSG MsgGUI600200_01_029_01>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
-<string><ICON WP10 PL_ATTACK_00> en sautant
+<string><ICON WP10 PL_ATTACK_00> (en l'air)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_239722048>
-<string><ICON WP10 PL_ATTACK_01> en sautant
+<string><ICON WP10 PL_ATTACK_01> (en l'air)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
-<string><ICON WP10 PL_DODGE> en sautant
+<string><ICON WP10 PL_DODGE> (en l'air)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_810620608>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Estocade efficace contre les<lf>blessures.<lf><lf>Si vous touchez une blessure ou un<lf>point faible, votre kinsecte<lf>transperce le monstre et récolte des<lf>extraits rouge, blanc et orange.
+<string>Estocade efficace contre les blessures.<lf><lf>Si vous touchez une blessure ou un<lf>point faible, votre kinsecte transperce<lf>le monstre et récolte des extraits<lf>rouge, blanc et orange au passage.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> avec de l'extrait rouge
-<string>Coup pouvant être chargé quand vous<lf>avez un extrait rouge. Après la charge,<lf>utilisez <ICON WP10 PL_ATTACK_01><ICON RELEASE> pour une attaque à<lf>plusieurs coups au sol, ou une estocade<lf>en l'air. Préservez la charge et enchaînez<lf>des attaques avec <ICON WP10 PL_ATTACK_01><ICON RELEASE>. Si vous avez<lf>trois extraits, utilisez une attaque finale<lf>puissante après l'attaque chargée avec<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>. Cela met fin à l'état amélioré,<lf>mais vous pourrez lancer des attaques<lf>puissantes et récolter des extraits avec<lf>le kinsecte.
+<string>Quand vous avez de l'extrait rouge,<lf>utilisez <ICON WP10 PL_ATTACK_01><ICON RELEASE> au sol pour une Attaque<lf>descendante, ou en l'air pour une<lf>Estocade descendante. Préservez la<lf>charge en effectuant d'autres attaques<lf>puis enchaînez avec l'une de ces attaques<lf>chargées.<lf><lf>Si vous avez trois extraits, appuyez<lf>sur <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> après une Attaque ou une Estocade<lf>descendante pour déclencher une<lf>attaque finale puissante qui consomme<lf>les trois extraits. Le kinsecte vous<lf>réapprovisionne grâce aux extraits<lf>récoltés pendant l'attaque.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1157,25 +1144,25 @@
 <string><REF ActionGuideDataNameText_Wp10_1212529024>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> avec trois extraits
 <string>
-<string><REF RefEquipment_0001_010_0>
-<string>Insectes se battant à vos côtés en<lf>suivant les instructions données avec<lf>l'insectoglaive. Les kinsectes peuvent<lf>prélever sur les monstres différents<lf>extraits augmentant votre puissance.<lf>Vous pouvez équiper et renforcer des<lf>kinsectes de types variés.
+<string>Kinsectes
+<string>Insectes se battant à vos côtés grâce<lf>aux ordres donnés avec l'insectoglaive.<lf>Les kinsectes peuvent prélever différents<lf>extraits qui augmentent vos capacités.<lf>Il existe une grande variété de kinsectes<lf>que vous pouvez équiper et renforcer.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1304673664>
-<string>Si vous attaquez en visant avec <ICON WP10 PL_AIM> en<lf>mode Focus, votre kinsecte attaque<lf>le monstre et récolte des extraits.<lf><lf>La trajectoire du kinsecte changera<lf>également en fonction de vos attaques.
+<string>Si vous attaquez avec <ICON WP10 PL_AIM> en mode<lf>Focus, votre kinsecte attaque le<lf>monstre et récolte des extraits.<lf><lf>La trajectoire du kinsecte change<lf>également en fonction de vos attaques.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Les kinsectes répandent du pollen en<lf>attaquant la partie marquée d'un<lf>monstre. Attaquer le pollen le fait<lf>exploser et provoque plusieurs effets.<lf><lf>Explosion :<lf>accumulez Explosion sur le monstre<lf>Poison :<lf>accumulez Poison sur le monstre<lf>Paralysie :<lf>accumulez Paralysie sur le monstre<lf>Récupération :<lf>restaure légèrement votre vie
+<string>Les kinsectes répandent de la poudre<lf>kinsecte en attaquant la partie<lf>marquée d'un monstre. Attaquer la<lf>poudre la fait exploser et déclenche<lf>plusieurs effets.<lf><lf><COLOR preset="TXT_Accent">Explosion</COLOR> : accumule Explosion<lf><COLOR preset="TXT_Accent">Poison</COLOR>: accumule Poison<lf><COLOR preset="TXT_Accent">Paralysie</COLOR>: accumule Paralysie<lf><COLOR preset="TXT_Accent">Récupération</COLOR>: restaure légèrement<lf>votre vie
 <string>
 <string>Extraits
-<string>Substance extraite sur les monstres.<lf>Il en existe quatre types : rouge,<lf>blanc, orange et vert. La couleur<lf>extraite dépend des parties de chaque<lf>monstre.<lf><lf>Absorbez les extraits récoltés en<lf>rappelant votre kinsecte, chaque<lf>couleur accordant un effet différent.<lf>Absorber plusieurs couleurs génère<lf>plus d'effets. Les effets<lf>disparaissent après un certain temps.
+<string>Substance extraite sur les monstres.<lf>Il en existe quatre types : rouge,<lf>blanc, orange et vert. La couleur<lf>extraite dépend des parties de chaque<lf>monstre.<lf><lf>Absorbez les extraits récoltés en<lf>rappelant votre kinsecte, chaque<lf>couleur accordant un effet différent.<lf>Absorber plusieurs couleurs génère<lf>encore plus d'effets.<lf><lf>Les effets disparaissent après un<lf>certain temps.
 <string>
 <string>Effets des extraits
-<string>Les différentes couleurs d'extraits<lf>ont des effets différents. Combinez-en<lf>plusieurs pour en générer encore plus.<lf><lf>Rouge : permet de charger avec <ICON WP10 PL_ATTACK_01><lf>Blanc : augmente la vitesse de<lf>déplacement et la hauteur des sauts<lf>Orange : confère Nerfs d'acier<lf>Rouge+blanc : augmente l'attaque<lf>Blanc+orange : augmente la défense<lf>Rouge+blanc+orange : affecte certaines<lf>attaques et augmente davantage l'attaque
+<string>Les différentes couleurs d'extraits<lf>ont des effets différents. Combinez-en<lf>plusieurs pour en générer encore plus.<lf><lf><COLOR preset="TXT_Accent">Rouge</COLOR> : permet de charger avec <ICON WP10 PL_ATTACK_01><lf><COLOR preset="TXT_Accent">Blanc</COLOR> : augmente la vitesse de déplacement<lf>et la hauteur des sauts<lf><COLOR preset="TXT_Accent">Orange</COLOR> : vous empêche de vous faire repousser<lf>quand l'arme est dégainée<lf><COLOR preset="TXT_Accent">Rouge + blanc</COLOR> : augmente l'attaque<lf><COLOR preset="TXT_Accent">Blanc + orange</COLOR> : augmente la défense<lf><COLOR preset="TXT_Accent">Rouge + blanc + orange</COLOR> : modifie certaines<lf>actions, atténue les bourrasques, secousses<lf>et rugissements, et augmente encore plus<lf>l'attaque
 <string>
 <string>Combo de base
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
 <string><ICON WP10 PL_ATTACK_00>
-<string>Combo qui permet de faire un combo<lf>kinsecte après chaque action. Toutes<lf>les attaques effectuées jusqu'à<lf>Éventration peuvent être faites en<lf>vous déplaçant.<lf><lf>Vous pouvez également reculer en<lf>attaquant en utilisant Esquive mortelle<lf>au lieu de Coup vertical.
+<string>Combo où chaque attaque peut être<lf>utilisée avec un combo kinsecte.<lf>Toutes les attaques effectuées jusqu'à<lf>Éventration peuvent être faites en<lf>vous déplaçant.<lf><lf>Vous pouvez également reculer en<lf>utilisant Esquive mortelle au lieu de<lf>Coup vertical.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1983561600>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1186,10 +1173,10 @@
 <string><REF ActionGuideDataNameText_Wp10_2066406784>
 <string><ICON WP10 PL_ATTACK_01>
 <string>
-<string>Combo Pollen
+<string>Combo avec poudre kinsecte
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Combo plaçant une marque et ordonnant<lf>au kinsecte d'y répandre du pollen.<lf>Vous esquivez ensuite rapidement avant<lf>que le pollen explose.<lf><lf>Peut être suivi d'une autre attaque.
+<string>Combo consistant à marquer une cible<lf>pour que votre kinsecte l'attaque,<lf>esquiver vers l'arrière, puis avancer<lf>afin de faire exploser la poudre<lf>répandue par le kinsecte.<lf><lf>Peut être suivi d'autres attaques.
 <string>
 <string>Saut (en arrière)
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
@@ -1211,7 +1198,7 @@
 <string>Combo puissant avec 3 extraits
 <string><REF ActionGuideDataNameText_Wp10_1401028864>
 <string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
-<string>Utilise tous les extraits pour effectuer<lf>un combo puissant.<lf><lf>Vous pouvez également faire un combo<lf>kinsecte jusqu'à ce que vous utilisiez<lf>Tornade.
+<string>Puissant combo qui consomme les trois<lf>extraits.<lf><lf>Vous pouvez combiner un combo kinsecte<lf>à une Attaque bondissante jusqu'à la<lf>partie Tornade du combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m587319424>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
@@ -1226,30 +1213,29 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN> Fusarbalète léger
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
-<string>Tire des munitions chargées droit<lf>devant. Utilisez Visée pour tirer dans<lf>la direction de votre choix.
+<string>Tire les munitions chargées dans votre<lf>fusarbalète droit devant. Visez pour<lf>tirer dans la direction de votre choix.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1727296128>
 <string><INPUTMSG MsgGUI600200_01_043>
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> après avoir tiré
-<string>Appuyez sur <ICON WP13 PL_ATTACK_01> après avoir tiré pour<lf>utiliser Tir de guerre, une attaque<lf>plus puissante qui restaure plus<lf>d'énergie.<lf><lf>Impossible de l'enchaîner après avoir<lf>utilisé Mise à mort ou Tir spécial.
+<string>Appuyez sur <ICON WP13 PL_ATTACK_01> après avoir tiré pour<lf>utiliser Tir de guerre, une attaque<lf>plus puissante qui restaure plus<lf>d'énergie.<lf><lf>Ne peut pas être utilisé après Explosion<lf>Focus ou après un Tir spécial.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
-<string>Recharge avec les munitions choisies.<lf>Utilisez <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> pour recharger toutes les<lf>munitions à la suite.
+<string>Recharge avec les munitions choisies.<lf>Maintenez <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> pour recharger toutes<lf>les munitions les unes après les autres.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
-<string>Changez votre mode de tir actuel pour<lf>passer en mode tir rapide, ce qui vous<lf>permettra de tirer rapidement certains<lf>types de munitions.<lf><lf>Appuyez à nouveau sur <ICON WP13 PL_ATTACK_01> pour revenir<lf>en mode standard.
+<string>Changez votre mode de tir actuel pour<lf>passer en mode Tir rapide, ce qui vous<lf>permettra de tirer rapidement certains<lf>types de munitions.<lf><lf>Appuyez à nouveau sur <ICON WP13 PL_ATTACK_01> pour revenir<lf>en mode standard.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string>Vous permet d'utiliser les munitions<lf>spéciales du fusarbalète léger.
+<string>Utilisez un tir spécial équipé.<lf><lf>Vous pouvez placer Souffle-du-dragon<lf>ou charger des munitions collantes<lf>et tirer avec <ICON WP13 PL_ATTACK_SP>.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
@@ -1267,7 +1253,7 @@
 <string><ICON WP13 PL_ATTACK_01> après avoir tiré
 <string>
 <string><REF ActionGuideDataNameText_Wp13_776922048>
-<string><INPUTMSG MsgGUI600200_01_053> 
+<string><INPUTMSG MsgGUI600200_01_053>
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
@@ -1276,14 +1262,14 @@
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
 <string>Tirez des coups multiples avec certaines<lf>munitions en utilisant la Jauge de<lf>tir rapide.<lf><lf>La jauge se remplit automatiquement<lf>lorsque vous êtes en mode standard,<lf>mais toucher un monstre vous<lf>permet également de la remplir.<lf><lf>La quantité récupérée dépend du type<lf>de munitions utilisé.
 <string>
-<string><REF ActionGuideDataNameText_Wp13_m1879452288>
+<string>Tirs spéciaux
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
 <string>Place une bombe qui explose en cas<lf>d'attaque. Ces munitions explosives<lf>sont progressivement restaurées.
 <string>
 <string><ICON WP_HEAVYBOWGUN> Fusarbalète lourd
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
-<string>Tire des munitions chargées droit<lf>devant. Utilisez Visée pour tirer dans<lf>la direction de votre choix.
+<string>Tire les munitions chargées dans votre<lf>fusarbalète droit devant. Visez pour<lf>tirer dans la direction de votre choix.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_187560352>
 <string><INPUTMSG MsgGUI600200_01_051>
@@ -1298,51 +1284,50 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP12 PL_ATTACK_01>
-<string>Changez votre mode de tir actuel pour<lf>passer en mode combustion, ce qui<lf>vous permettra de tirer des munitions<lf>spéciales.<lf><lf>Appuyez à nouveau sur <ICON WP12 PL_ATTACK_01> pour revenir<lf>en mode standard.
+<string>Changez votre mode de tir actuel pour<lf>passer en mode Combustion, ce qui<lf>vous permettra de tirer des munitions<lf>spéciales.<lf><lf>Appuyez à nouveau sur <ICON WP12 PL_ATTACK_01> pour revenir<lf>en mode standard.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1687699840>
 <string><ICON WP12 PL_ATTACK_01><ICON PLUS><ICON WP12 PL_ATTACK_00>
-<string>Garde effectuée avec le fusarbalète<lf>lourd.<lf><lf>Utilisez-la au bon moment pour<lf>effectuer une Garde parfaite, vous<lf>permettant d'utiliser un pas arrière<lf>spécial.<lf><lf>Vous pouvez aussi effectuer une<lf>Garde automatique sans entrer<lf>de commande, en fonction de<lf>votre posture.
+<string>Une garde qui utilise votre<lf>fusarbalète lourd.<lf><lf>Utilisez-la au bon moment pour<lf>effectuer une Garde parfaite, vous<lf>permettant de faire un pas de côté<lf>spécial.<lf><lf>Vous pouvez aussi effectuer une<lf>garde automatique sans entrer<lf>de commande, en fonction de<lf>votre posture.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_031>
 <string>Sélectionnez des munitions utilisables<lf>parmi celles que vous possédez.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>
-<string>Tirez des munitions spéciales<lf>en utilisant de l'énergie.<lf><lf>Vous récupérez automatiquement de<lf>l'énergie en mode standard, ainsi qu'en<lf>réussissant un tir.
+<string>Consomme la jauge de combustion<lf>pour tirer des munitions spéciales.<lf><lf>La jauge se remplit automatiquement<lf>en mode standard ainsi qu'en<lf>réussissant des tirs.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1049174784>
-<string>Parez automatiquement une attaque<lf>devant vous en effectuant une action<lf>vous permettant d'effectuer une garde<lf>automatique.<lf><lf>Impossible d'utiliser Garde parfaite<lf>avec une garde automatique.
+<string>Bloque automatiquement une attaque<lf>devant vous pendant que vous faites<lf>une action qui permet de faire des<lf>gardes automatiques.<lf><lf>Impossible de faire une Garde parfaite<lf>avec la garde automatique.
 <string>
-<string><REF ActionGuideDataNameText_Wp13_m1879452288>
+<string>Tirs spéciaux
 <string><REF ActionGuideDataNameText_Wp12_903581824>
-<string>Tir spécial pouvant être utilisé<lf>en mode combustion.<lf><lf>Utilisez <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> pour tirer en continu.<lf>La puissance augmente si vous<lf>touchez une cible.
+<string>Tir spécial pouvant être utilisé<lf>en mode Combustion.<lf><lf>Utilisez <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> pour tirer en continu.<lf>La puissance augmente si vous<lf>touchez une cible.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
-<string>Tir spécial pouvant être utilisé en<lf>mode combustion. Déclenche une<lf>attaque au corps-à-corps à l'effet<lf>neutralisant. Maintenez <ICON WP12 PL_ATTACK_00> pour<lf>augmenter la puissance en tirant.
+<string>Tir spécial pouvant être utilisé<lf>en mode Combustion.<lf><lf>Déclenche une attaque au<lf>corps-à-corps à l'effet neutralisant.<lf>Maintenez <ICON WP12 PL_ATTACK_00> pour augmenter la<lf>puissance en tirant.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
-<string>Toucher la blessure ou le point faible<lf>d'un monstre provoque une explosion<lf>perforante qui inflige de lourds dégâts.<lf><lf>Vous récupérez automatiquement les<lf>munitions utilisées au fil du temps.
+<string>Touchez la blessure ou le point faible<lf>d'un monstre afin de provoquer<lf>une explosion perforante qui inflige<lf>de lourds dégâts.<lf><lf>Vous récupérez automatiquement<lf>les munitions utilisées au fil du temps.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
 <string><INPUTMSG MsgGUI600200_01_049>
-<string>Afficher le réticule de visée au centre<lf>de l'écran.
+<string>Affiche un réticule de visée<lf>au centre de l'écran.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1018903168>
 <string><ICON WP11 PL_ATTACK_01>
 <string>Attaque tirant rapidement des flèches<lf>sur une large zone. N'utilise pas<lf>d'endurance.
 <string>
-<string><ICON WP_BOW> Arc
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Dégainez votre arme pour tirer des<lf>flèches. Augmentez votre niveau de<lf>charge en maintenant <ICON WP11 PL_ATTACK_SP>, ce qui<lf>augmente la puissance de vos attaques<lf>et le nombre de flèches que vous<lf>pouvez tirer.<lf><lf>Après avoir attaqué, appuyez sur <ICON WP11 PL_ATTACK_01><lf>pour Tir de guerre.
+<string>Dégainez votre arme pour tirer<lf>des flèches.<lf><lf>Maintenez <ICON WP11 PL_ATTACK_SP> pour augmenter<lf>votre niveau de charge.<lf><lf>Plus votre niveau de charge est élevé,<lf>plus vos attaques seront puissantes.<lf><lf>Après avoir attaqué, appuyez sur <ICON WP11 PL_ATTACK_01><lf>pour Tir de guerre.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1800729216>
 <string><ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
-<string><ICON WP11 PL_ATTACK_01> pendant le combo
-<string>Tire plusieurs flèches puissantes sur<lf>une large zone. Le niveau de charge<lf>actuel est conservé. Après avoir<lf>attaqué, appuyez sur <ICON WP11 PL_ATTACK_01><lf>pour Rafale de guerre.
+<string><ICON WP11 PL_ATTACK_01> en combo
+<string>Tirez plusieurs flèches puissantes sur<lf>une large zone en utilisant votre niveau<lf>de charge actuel.<lf><lf>Après avoir attaqué, appuyez sur <ICON WP11 PL_ATTACK_01><lf>pour Tir de guerre.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
@@ -1356,19 +1341,19 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
-<string>Tir perforant puissant qui peut<lf>provoquer des flèches détonantes<lf>et des explosions de marqueurs.
+<string>Tir perforant puissant qui peut<lf>activer des flèches détonantes<lf>et des explosions de marqueurs.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_374745664>
-<string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01> pendant le combo
-<string>Tir perforant puissant et rapide qui<lf>peut provoquer des flèches détonantes<lf>et des explosions de marqueurs.
+<string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01> en combo
+<string>Tir perforant puissant et rapide qui<lf>peut activer des flèches détonantes<lf>et des explosions de marqueurs.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1657138304>
 <string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
-<string>Tire plusieurs flèches à la fois et peut<lf>provoquer des flèches détonantes<lf>et des explosions de marqueurs.
+<string>Tire plusieurs flèches à la fois et peut<lf>activer des flèches détonantes<lf>et des explosions de marqueurs.
 <string>
 <string>Sélectionner une fiole
 <string><INPUTMSG MsgGUI600200_01_033>
@@ -1376,7 +1361,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_193855040>
 <string><ICON WP11 PL_ATTACK_00>
-<string>Chargez la fiole sélectionnée.<lf>Une fois chargée, appuyez sur <ICON WP11 PL_ATTACK_00><lf>pour déséquiper la fiole sélectionnée.
+<string>Chargez la fiole sélectionnée.<lf><lf>Une fois chargée, ouvrez le menu<lf>des fioles et appuyez sur <ICON WP11 PL_ATTACK_00> pour<lf>déséquiper la fiole sélectionnée.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
@@ -1393,7 +1378,7 @@
 <string>Après avoir tiré un marqueur, les flèches<lf>suivantes suivront le marqueur jusqu'à<lf>ce qu'il explose.
 <string>
 <string>Types de fiole
-<string>Ajoutez des effets à vos flèches.<lf><lf>Fiole de force : dégâts +<lf>Fiole de combat : baisse la portée des<lf>flèches mais augmente leurs dégâts<lf>Fiole perforante : permet aux flèches<lf>de transpercer<lf>F. de poison : flèches infligent Poison<lf>F. de paralysie : flèches infligent Paralysie<lf>F. de sommeil : flèches infligent Sommeil<lf>F. explosive : flèches infligent Explosion<lf>F. de faiblesse : flèches infligent<lf>étourdissement/faiblesse
+<string>Ajoutez des effets à vos flèches.<lf><lf>- Fiole de force : augmente les dégâts<lf>- Fiole de combat : baisse la portée des<lf>flèches mais augmente leurs dégâts<lf>- Fiole perforante : permet aux flèches<lf>de transpercer<lf>- Fiole de poison : inflige Poison<lf>- Fiole de paralysie : inflige Paralysie<lf>- Fiole de sommeil : inflige Sommeil<lf>- Fiole explosive : inflige Explosion<lf>- Fiole de léthargie : inflige<lf>Étourdissement/Léthargie
 <string>
 <string>Combo Perce-dragon
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1426,7 +1411,7 @@
 <string>Combo marqueur
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
-<string>Combo qui envoie un marqueur à un niveau<lf>de charge élevé. Vous faites ensuite Tir de<lf>guerre et Rafale de guerre en maintenant<lf>votre charge, avant d'utiliser Attaque<lf>surprise chargée au même moment qu'une<lf>attaque de monstre. Cela vous permet<lf>d'effectuer Tir d'hirondelle volante pour<lf>mettre de la distance entre vous et la cible.
+<string>Un combo qui envoie un marqueur à un<lf>niveau de charge élevé, suivi par Tir de<lf>guerre et Rafale de guerre en maintenant<lf>votre charge.<lf><lf>Utilisez Attaque surprise chargée au même<lf>moment que l'attaque d'un monstre pour<lf>faire Tir d'hirondelle volante, qui mettra<lf>de la distance entre vous et la cible.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> après Tir chargé
@@ -1435,15 +1420,15 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> pendant Attaque surprise chargée
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>Combo Tir de barrage
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_052>
-<string>Un combo qui commence par des Flèches<lf>détonantes avec Tir de barrage. Vous faites<lf>ensuite un Tir d'hirondelle volante avec<lf>l'Attaque surprise chargée, ce qui permet<lf>de lancer Perce-dragon ou Mille dragons<lf>pour faire exploser les Flèches détonantes<lf>placées sur le monstre.
+<string>Un combo qui commence par des Flèches<lf>détonantes avec Tir de barrage.<lf><lf>Faites ensuite un Tir d'hirondelle volante<lf>avec l'Attaque surprise chargée afin de<lf>pouvoir lancer Perce-dragon ou Mille dragons<lf>pour faire exploser les Flèches détonantes<lf>placées sur le monstre.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> pendant Attaque surprise chargée
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>

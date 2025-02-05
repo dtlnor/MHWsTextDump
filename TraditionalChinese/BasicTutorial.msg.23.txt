@@ -32,7 +32,7 @@
 <string>
 <string>顯示快捷鍵（鍵盤）
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
-<string><COLOR preset="TXT_Danger">（鍵盤專用的快捷鍵顯示）</COLOR><lf>按<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">就會顯示登錄在自訂捷徑<lf>的內容。<lf>・按<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET>會顯示1行捷徑快捷盤<lf>・按<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">會顯示4行捷徑快捷盤<lf>按<ICON MKB UI_PC_SHORTCUT_KEY_00>至<ICON MKB UI_PC_SHORTCUT_KEY_11>就可使用登錄好的道具或常用<lf>字句。按<ICON MKB UI_PC_SHORTCUT_PALLET_00>至<ICON MKB UI_PC_SHORTCUT_PALLET_07>就可切換登錄的捷徑<lf>快捷盤。<lf><lf>前往開始選單內的「登錄捷徑」，就可編輯<lf>登錄內容。
+<string><COLOR preset="TXT_Danger">（鍵盤專用的快捷鍵顯示）</COLOR><lf>按<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">就會顯示登錄在自訂捷徑<lf>的內容。<lf>・按<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET>會顯示1行捷徑快捷盤<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">會顯示4行捷徑快捷盤<lf>按<ICON MKB UI_PC_SHORTCUT_KEY_00>至<ICON MKB UI_PC_SHORTCUT_KEY_11>就可使用登錄好的道具或常用<lf>字句。按<ICON MKB UI_PC_SHORTCUT_PALLET_00>至<ICON MKB UI_PC_SHORTCUT_PALLET_07>就可切換登錄的捷徑<lf>快捷盤。<lf><lf>前往開始選單內的「登錄捷徑」，就可編輯<lf>登錄內容。
 <string>
 <string>使用快捷鍵（鍵盤）
 <string><ICON MKB UI_PC_SHORTCUT_KEY_00><ICON MKB UI_PC_SHORTCUT_KEY_01><ICON MKB UI_PC_SHORTCUT_KEY_02><ICON MKB UI_PC_SHORTCUT_KEY_03><ICON MKB UI_PC_SHORTCUT_KEY_04><ICON MKB UI_PC_SHORTCUT_KEY_05><ICON MKB UI_PC_SHORTCUT_KEY_06><ICON MKB UI_PC_SHORTCUT_KEY_07><ICON MKB UI_PC_SHORTCUT_KEY_08><ICON MKB UI_PC_SHORTCUT_KEY_09><ICON MKB UI_PC_SHORTCUT_KEY_10><ICON MKB UI_PC_SHORTCUT_KEY_11>
@@ -131,7 +131,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>按住<ICON PL_PT_SPEED_UP>期間一直會高速移動。<lf><lf>全速前進時按下<ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>可改變方向<lf>並甩尾。<lf><lf>甩尾時<ICON PL_PT_SPEED_DOWN><ICON RELEASE>就可暫時令速度突破上限。
+<string>長按<ICON PL_PT_SPEED_UP>期間一直會高速移動。<lf><lf>全速前進時輸入<ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>可<lf>改變方向並甩尾。<lf><lf>甩尾時<ICON PL_PT_SPEED_DOWN><ICON RELEASE>就可暫時令速度突破上限。
 <string>
 <string>甩尾
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>
@@ -180,9 +180,6 @@
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>移動速度上升。疊加<REF RefStatus_0008_000_00>後，<lf>攻擊力亦會上升，且攻擊不會被彈開。<lf><lf>主要發動方法：<lf>・發動狩獵笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
-<string>
-<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
-<string><REF WeaponTutorial_CP_155><lf><lf>主要發動方法：<lf>・發動狩獵笛的<REF RefStatus_0008_000_00>
 <string>
 <string><ICON ST_MEAL_UP>餐點效果
 <string>餐點效果發動的狀態。<lf><lf>主要發動方法：<lf>・用餐
@@ -254,7 +251,7 @@
 <string>
 <string>集中模式
 <string>拔刀時<ICON ME PL_AIM>
-<string>拔刀時按<ICON ME PL_AIM>會進入集中模式。集中模式時的<lf>攻擊與<REF ActionGuideDataNameTextCommon_m666240384>會朝視角的正面發動。朝上方<lf>瞄準時，有些攻擊的動作會變化。<lf><lf>拔刀時按<ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>會使出<REF ActionGuideDataNameTextCommon_423599584>。<lf>擊中魔物的傷口或弱點時動作會變化，<lf>並造成大傷害。
+<string>拔刀時<ICON ME PL_AIM>會進入集中模式。集中模式時的<lf>攻擊與<REF ActionGuideDataNameTextCommon_m666240384>會朝視角的正面發動。朝上方<lf>瞄準時，有些攻擊的動作會變化。<lf><lf>拔刀時<ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>會使出<REF ActionGuideDataNameTextCommon_423599584>。<lf>擊中魔物的傷口或弱點時動作會變化，<lf>並造成大幅傷害。
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -272,15 +269,15 @@
 <string>防禦某些魔物的攻擊時會發動的攻防戰。<lf><lf>以<ICON ME merge="PL_ATTACK_00,REPEAT_ON">推開魔物，就可使其失衡並追擊。
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>配合魔物的攻擊時機，使出部分攻擊<lf>並擊中後，就會觸發<REF ActionGuideDataNameTextCommon_817397888>，彈開<lf>魔物的攻擊。<lf><lf>此外，使出特定攻擊觸發<REF ActionGuideDataNameTextCommon_817397888>後，<lf>更可使出強力的追擊。
+<string>配合魔物的攻擊時機，使出部分攻擊並<lf>擊中後，就會觸發<REF ActionGuideDataNameTextCommon_817397888>，彈開魔物<lf>的攻擊。連消帶打成功時，有時候會使<lf>魔物大幅後仰。<lf><lf>此外，使出特定攻擊觸發<REF ActionGuideDataNameTextCommon_817397888>後，<lf>更可使出強力的追擊。
 <string>
 <string>突襲攻擊
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>是什麼
-<string>特殊裝備是能發動強大效果的穿戴式裝備，<lf>不但可以跟其他固定道具一樣使用，拔刀<lf>狀態下也可使用。<lf><lf>特殊裝備的使用次數不限，但是使用後必須<lf>等待一段時間才可再次使用。<lf><lf>想要攜帶<REF Item_IT_161>以外的衣裝時，可在<lf>裝備變更畫面設定。顯示道具快捷欄時也可<lf>按<ICON PL_WP_ON_ACTIVE_SKILL>使用或停用。
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>裝備後可在一段時間內隱身，躲避魔物。<lf>一旦攻擊或受傷害，隱身效果會立即消失。<lf><lf>隱身衣裝與其他<REF RefMenu_110_14>不同，獵人會一直<lf>攜帶在身上。
@@ -290,7 +287,7 @@
 <string>騎乘在魔物身上的狀態。在騎乘狀態不斷<lf>攻擊魔物，累積傷害後可令其倒地。<lf><lf>騎乘狀態期間若獵人的耐力耗盡，騎乘<lf>就會失敗，會被魔物甩到地上。<lf><lf>騎乘狀態下也可造成創傷，用武器攻擊傷口<lf>後更可使出各種武器獨有的終結技。盡可能<lf>讓多處留下創傷，並以武器使出終結技吧。
 <string>
 <string>跳躍攻擊
-<string>跳躍中<ICON PL_ATTACK_00>
+<string>跳躍時<ICON PL_ATTACK_00>
 <string>以跳躍攻擊命中大型魔物多次後，即可進入<lf>騎乘狀態。
 <string>
 <string>騎乘攻擊——<REF ActionGuideDataNameTextCommon_m1593213696>
@@ -310,11 +307,11 @@
 <string>改變騎乘的位置。可以用於在別的部位<lf>留下創傷，或迴避魔物攻擊。
 <string>
 <string><REF ActionGuideDataNameTextCommon_2000160512>
-<string>騎乘中<ICON PL_BT_RIDE_ENDURE>
+<string>騎乘魔物時<ICON PL_BT_RIDE_ENDURE>
 <string>抓牢騎乘的位置，可減輕魔物攻擊導致的<lf>耐力消耗量。
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string>騎乘中<ICON PL_BT_RIDE_CANCEL>
+<string>騎乘魔物時<ICON PL_BT_RIDE_CANCEL>
 <string>在騎乘狀態中從魔物身上跳下。
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -345,7 +342,7 @@
 <string>魔物發動特定攻擊行動前後，可能會露出<lf>弱點。使用<REF ActionGuideDataNameText_Wp00_m1804493312>就可看出弱點。<lf><lf>以<REF ActionGuideDataNameTextCommon_423599584>命中弱點，就可帶來絕佳的<lf>攻擊機會。
 <string>
 <string>創傷是什麼
-<string>獵人不斷對魔物的同一部位攻擊後，就會<lf>造成創傷。創傷分為三個階段，一開始是<lf>皮肉傷，繼續攻擊該處會變為傷口，傷口<lf>被破壞後會變成傷痕。<lf><lf>攻擊傷口不但能增加傷害，以集中弱點<lf>攻擊擊中的話，更可馬上破壞傷口。
+<string>獵人不斷對魔物的同一部位攻擊後，就會<lf>造成創傷。創傷分為三個階段，一開始是<lf>皮外傷，繼續攻擊該處會變為傷口，傷口<lf>被破壞後會變成傷痕。<lf><lf>攻擊傷口不但能增加傷害，以集中弱點<lf>攻擊擊中的話，更可馬上破壞傷口。
 <string>
 <string>捕獲魔物是什麼
 <string>讓虛弱的大型魔物墮入陷阱，再使用捕獲用<lf>麻醉球等道具就可以捕獲魔物。<lf>（捕獲魔物時無法從其身上剝取素材。）<lf><lf>由於捕獲後公會可對活體魔物調查，因此<lf>捕獲後可獲得公會獎勵的捕獲報酬。此時<lf>有機會得到難以經剝取獲得，甚至無法經<lf>剝取獲得的素材。

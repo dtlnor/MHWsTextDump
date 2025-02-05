@@ -7,9 +7,8 @@
 <string>In evidenza
 <string>Stato attuale
 <string>Previsioni
-<string>Le azioni dei giocatori potrebbero modificare le previsioni.
-<string>Informazioni sul mostro
-<string>Più grande
+<string>Le azioni dei giocatori possono alterare le previsioni.
+<string>Info dettagliate
 <string>Caccia
 <string>Abbattimento
 <string>Cattura
@@ -25,11 +24,11 @@
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare<lf>perché non hai il grado<lf>cacciatore richiesto.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi iniziare la ricerca sul campo.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossibile iniziare ricerca sul campo.</COLOR>
-<string><COLOR preset="TXT_Danger">Gli incarichi completati non possono essere ripetuti.</COLOR>
+<string><COLOR preset="TXT_Danger">Le missioni principali completate non possono essere ripetute.</COLOR>
 <string><COLOR preset="TXT_Danger">Uno o più giocatori non hanno potuto partecipare a causa delle impostazioni multigiocatore.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi partecipare perché è già stato raggiunto il numero massimo di persone.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai potuto partecipare a causa delle impostazioni di approvazione della piattaforma.</COLOR>
-<string><COLOR preset="TXT_Danger">Non hai i requisiti necessari per accettare/partecipare a questa missione.</COLOR>
+<string><COLOR preset="TXT_Danger">Non soddisfi le condizioni necessarie per accettare/partecipare a questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare a questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai potuto accettare/partecipare alla missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi iniziare la ricerca sul campo perché un membro del collegamento sta visualizzando i risultati della missione.</COLOR>
@@ -60,7 +59,7 @@
 <string>Ritorno<lf>alla<lf>base
 <string>Inizio<lf>missione
 <string>Missione<lf>accettata
-<string>Incarichi
+<string>Missioni principali
 <string>Missioni facoltative
 <string>Ricerca sul campo
 <string>Impostazioni
@@ -69,8 +68,8 @@
 <string>Missioni razzo SOS
 <string>Missioni membri collegamento
 <string>Richieste di partecipazione
-<string>Stabilisci come accettare giocatori nelle missioni. <COLOR preset="TXT_Accent">(Coloro che ricevono un invito missione saranno sempre accettati).</COLOR>
-<string>Approva auto
+<string>Stabilisci come accettare giocatori nelle missioni. <COLOR preset="TXT_Accent">(I membri collegamento con invito saranno sempre accettati).</COLOR>
+<string>Approvazione automatica
 <string>Approva manuale
 <string>Imposta password
 <string>Scegli una password per la tua missione. <COLOR preset="TXT_Accent">(Le password vengono rimosse quando invii un razzo SOS.)</COLOR>
@@ -97,18 +96,18 @@
 <string>Cliente: {0}
 <string>Completato!
 <string>Messaggio di reclutamento
-<string>Seleziona un messaggio per reclutare membri.
+<string>Imposta un messaggio per reclutare membri.
 <string>Per tutti!
-<string>Cerco giocatori con GC simile!
-<string>Nuovi giocatori benvenuti!
-<string>Cerco veterani!
+<string>Cacciatori con GC simile!
+<string>Nuovi cacciatori benvenuti!
+<string>Cacciatori veterani preferiti!
 <string>Crea missione non disponibile
 <string>Forza
 <string>Puoi creare missioni con più obiettivi!
 <string>{0} vorrebbe offrirti un pasto!
 <string>{0} vuole parlare con te!
-<string>Missione disponibile: {0}!
-<string>{0}: requisiti completamento soddisfatti!
+<string>Missione disponibile: {0}
+<string>{0}: disponibile a fare rapporto!
 <string>Limite giocatori
 <string>Imposta il numero massimo di giocatori che possono partecipare alle missioni. <COLOR preset="TXT_Accent">(Varia in base al numero massimo di membri collegamento).</COLOR>
 <string>1
@@ -125,9 +124,9 @@
 <string>No
 <string>Sì
 <string>Password
-<string>Scegli una password di quattro cifre. <COLOR preset="TXT_Accent">(Non sarà necessaria per i membri del collegamento che hanno ricevuto un invito.)</COLOR>
+<string>Scegli una password di quattro cifre. <COLOR preset="TXT_Accent">(I membri collegamento con invito potranno unirsi senza password.)</COLOR>
 <string>Piattaforma
-<string>Scegli da quali piattaforme i giocatori possono unirsi alle missioni. <COLOR preset="TXT_Accent">(Qualsiasi se il membro del collegamento ha ricevuto l'invito.)</COLOR>
+<string>Scegli da quali piattaforme consentire la partecipazione. <COLOR preset="TXT_Accent">(I membri collegamento con invito potranno unirsi a prescindere.)</COLOR>
 <string>Cerca missioni che hanno selezionato "Tutte le piattaforme" nelle impostazioni di reclutamento.
 <string>Anche se un giocatore usa la stessa piattaforma, se ha disattivato il crossplay nella schermata del titolo non apparirà nella ricerca.
 <string>Dato che il crossplay è disattivato nella schermata del titolo, vedrai solo le missioni di giocatori con la stessa impostazione.
@@ -159,7 +158,7 @@
 <string>Discendente
 <string>Consigliato
 <string>Aumentare temporaneamente il numero massimo<lf>di giocatori per le missioni?<lf><COLOR preset="TXT_Accent">(Non può essere modificato di nuovo<lf>fino al completamento della missione.)</COLOR>
-<string>Incarichi
+<string>Missioni principali
 <string>Missioni facoltative
 <string>Missioni membro del collegamento ({0})
 <string>Missioni membri collegamento

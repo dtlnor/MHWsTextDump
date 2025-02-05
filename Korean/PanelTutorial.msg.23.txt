@@ -15,7 +15,7 @@
 <string>연기게이지 색이 빨간색일 때
 <string>연기게이지 색이 빨간색이 되면<lf>연기게이지가 최대치를 유지하며<lf>일부 공격 동작이 강화된다.
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
-<string>용격 게이지를 1개 소비하여 강력한<lf>'<COLOR preset="TXT_Accent">용격포</COLOR>' 발사 가능. 용격 게이지는<lf>공격을 맞히거나 가드하면 쌓인다.
+<string>용격 게이지를 1개 소비하여 강력한<lf>'<COLOR preset="TXT_Accent">용격포</COLOR>' 발사 가능. <lf>용격 게이지는 자동으로 회복되며<lf>공격이 적중해도 회복된다.
 <string>상처
 <string>몬스터의 같은 부위를 계속 공격하면<lf><COLOR preset="TXT_Accent">상처</COLOR>가 생긴다. <COLOR preset="TXT_Accent">상처</COLOR>를 공격하면 큰<lf>대미지를 줄 수 있고 <COLOR preset="TXT_Accent">집중 모드</COLOR>를<lf>사용하면 쉽게 노릴 수 있다.
 <string>구조신호
@@ -27,31 +27,29 @@
 <string>서포트 헌터
 <string>서포트 헌터는 플레이어와<lf>다른 부대에 소속된 헌터. 다른<lf>플레이어가 합류할 때까지<lf>함께 사냥을 도와준다.
 <string>지급품
-<string>퀘스트 시작 시 아이템이 지급되며,<lf><ICON PL_ACCESS_ITEM_BAG>에서 언제든지 받을 수 있다.<lf><COLOR preset="TXT_Accent">지급품</COLOR>은 사냥 상황에 따라 추가된다.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_64>
 <string>지급품 전용 아이템
 <string>지급품 중엔 '지급품 전용 아이템'이<lf>존재한다. 이 아이템은 퀘스트가<lf>종료되면 회수되어 사라진다.
 <string>임무 퀘스트에 재도전하자
 <string>진행 가이드에서 지정된<lf>몬스터 사냥에 실패했을 때는<lf><COLOR preset="TXT_Accent">임무 퀘스트</COLOR>에 다시 도전하자.
 <string>임무 퀘스트에 재도전하자
-<string>필드에서 <COLOR preset="TXT_Accent">타겟 몬스터를<lf>공격</COLOR>하거나, 퀘스트 메뉴의 '<COLOR preset="TXT_Accent">임무<lf>퀘스트</COLOR>'에서 다시 수주하자.
-<string>임무 퀘스트에 재도전하자
 <string>클리어가 힘들 때는 식사를 통해<lf>스테이터스를 높이거나,<lf>구조신호를 보내 다른 플레이어나<lf>서포트 헌터와 함께 맞서자.
 <string>세크레트로 이동
-<string><ICON PL_PT_CALL>을 눌러 <COLOR preset="TXT_Accent">세크레트</COLOR>에 올라타면<lf>목표 지점을 향해 자동으로 이동한다.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_68>
 <string>세크레트로 이동
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_69>
 <string>마이 텐트
 <string><COLOR preset="TXT_Accent">마이 텐트</COLOR>에서는 헌터와 동반자의<lf>장비 변경, 아이템 교체가 가능하다.<lf>이곳에서 사냥 준비를 마치자.
-<string>모닥불 요리
+<string>휴대 식량을 받아 식사를 하자
 <string>'휴대 화로' 혹은 마이 텐트에서<lf>'모닥불 메뉴'를 선택하면<lf>휴대 식량을 요리해 <COLOR preset="TXT_Accent">식사</COLOR>할 수 있다.
-<string>모닥불 요리
+<string>휴대 식량을 받아 식사를 하자
 <string><COLOR preset="TXT_Accent">식사</COLOR>를 하면 체력과 스태미나와 더불어<lf>공격력 등 스테이터스가 일정 시간<lf>상승한다. 사용하는 식재료에 따라<lf>효과가 변한다.
 <string>체력과 스태미나 게이지
 <string>체력: 녹색 게이지가 없어지면<lf>힘이 다한다. 지정된 횟수만큼<lf>힘이 다하면 퀘스트는 실패한다.<lf>스태미나: 특정 행동으로<lf>소비되며 자동 회복된다.
 <string>무기 교체
 <string>무기는 메인과 서브 2종류를<lf>장비할 수 있다. '장비 변경'에서<lf><COLOR preset="TXT_Accent">메인 무기</COLOR>와 <COLOR preset="TXT_Accent">서브 무기</COLOR>를 선택하자.<lf>조합은 자유롭게 짤 수 있다.
 <string>무기 교체
-<string>무기 교체는 <ICON PL_WEAPON_CHANGE>로 가능.<lf>세크레트가 달려오면 무기 가방의<lf><COLOR preset="TXT_Accent">서브 무기</COLOR>로 교체할 수 있다.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_89>
 <string>아이템 꺼내고 넣기
 <string>사냥에 쓸 아이템을 아이템 주머니에<lf>넣어 두자. 아이템 BOX에서<lf>꺼내고 넣을 수 있다.<lf><ICON UI_SUB_MENU>을 눌러 서브 메뉴를 열고<lf>일괄 보충도 할 수 있다.
 <string>소재 아이템 자동 수납
@@ -71,7 +69,7 @@
 <string>마이 텐트와 편집자는 퀘스트 카운터<lf>기능을 갖추고 있다. 다양한 <COLOR preset="TXT_Accent">퀘스트를<lf>수주하거나 참가</COLOR>할 수 있다.
 <string>퀘스트 카운터
 <string>'<COLOR preset="TXT_Accent">설정</COLOR>'에서 퀘스트 최대 참가 인원수<lf>변경 외에 구조신호를 보고 와 주는<lf>헌터를 고를 수도 있다.
-<string>로비가 잠금 해제되었습니다.<lf>로비의 친구들이나, 헌터 동료들과의<lf>멀티플레이 및 채팅을 즐겨 보자.(온라인)
+<string>로비가 잠금 해제되었다.<lf>로비의 친구들이나, 헌터 동료들과의<lf>멀티플레이 및 채팅을 즐겨 보자.(온라인)
 <string>친구 등록 방법
 <string>친구가 되려면 시작 메뉴의 멤버 목록에 있는<lf><COLOR preset="TXT_Accent">로비 멤버 목록</COLOR>이나 <lf><COLOR preset="TXT_Accent">헌터 ID 검색</COLOR>을 통해 신청을 보내자.
 <string>로비와 멀티플레이
@@ -82,9 +80,9 @@
 <string>링크 파티와 멀티플레이
 <string>고정 멤버와 함께 탐험과 퀘스트를 심리스로<lf>멀티플레이하고 싶다면 링크파티를 구성하자.<lf>자세한 내용은 플레이 가이드를 확인하자.
 <string>집중 약점 공격
-<string><ICON WP00 PL_AIM>을 누른 상태에서 <ICON WP00 PL_ATTACK_SP_B>로<lf><COLOR preset="TXT_Accent"> 집중 약점 공격</COLOR>을 발동한다. 상처에<lf>공격을 명중시키면 상처 파괴를 일으켜<lf>큰 대미지를 주고 움찔하게 만들 수 있다.
+<string><ICON WP00 PL_AIM>을 누른 상태에서 <ICON WP00 PL_ATTACK_SP_B>로<lf><COLOR preset="TXT_Accent">집중 약점 공격</COLOR>을 발동한다. 상처에<lf>공격을 명중시키면 상처 파괴를 일으켜<lf>큰 대미지를 주고 움찔하게 만들 수 있다.
 <string>집중 모드
-<string><ICON PL_AIM>을 눌러 '<COLOR preset="TXT_Accent">집중 모드</COLOR>' 자세를<lf>취한다. 집중 모드 중에는<lf><COLOR preset="TXT_Accent">조준 방향으로 공격을 펼칠 수 있다.</COLOR><lf><ICON PL_DUMMY_CAMERA>을 눌러 목표물을 정해 공격하자.
+<string><ICON PL_AIM>을 눌러 '<COLOR preset="TXT_Accent">집중 모드</COLOR>' 자세를<lf>취한다. 집중 모드 중에는<lf><COLOR preset="TXT_Accent">조준 방향으로 공격을 펼칠 수 있다.</COLOR><lf><ICON PL_DUMMY_CAMERA>으로 목표물을 정해 공격하자.
 <string><REF Item_IT_161>
 <string>비전투 상태에서 사용하면<lf>일정 시간 동안 몬스터의<lf>시야로부터 몸을 숨긴다.<lf>한 번 사용하면<lf>일정 시간 사용할 수 없다.
 <string><REF Item_IT_182>
@@ -92,7 +90,7 @@
 <string><REF Item_IT_18>
 <string>슬링어에 장전해서 사용하는 아이템.<lf><ICON PL_AIM>+<ICON PL_DUMMY_CAMERA>으로 포획하려는 환경생물을 조준하고<lf><ICON PL_SLINGER_SHOOT>으로 그물을 발사한다.<lf>명중하면 포획 성공이다.
 <string><REF Item_IT_162>
-<string>물가에서 사용하면<lf>물고기를 낚을 수 있다.<lf><ICON PL_ITEM>으로 <COLOR preset="TXT_Accent">낚싯대</COLOR>를 꺼낸다.<lf><ICON PL_AIM>+<ICON PL_DUMMY_CAMERA>으로 조준하고 물고기 그림자<lf>근처에서 <ICON PL_SLINGER_SHOOT>으로 루어를 던져 넣자.
+<string>물고기 그림자가 비치는 물가에서 사용하면<lf>물고기를 낚을 수 있다.<lf><ICON PL_ITEM>으로 <COLOR preset="TXT_Accent">낚싯대</COLOR>를 꺼낸 후,<lf><ICON PL_AIM>+<ICON PL_DUMMY_CAMERA>으로 조준하고 물고기 그림자<lf>근처에서 <ICON PL_FISHING_ACTION>으로 루어를 던져 넣자.
 <string><REF Item_IT_23>
 <string><COLOR preset="TXT_Accent">쌍안경</COLOR>으로 대형 몬스터를 보면<lf>해당 몬스터의 개체 정보를<lf>확인할 수 있다.<lf>(확인 가능한 정보는<lf>게임 진행도에 따라 일부 추가 된다)
 <string><REF Item_IT_195>
@@ -102,9 +100,9 @@
 <string>헌터 세트
 <string>'<COLOR preset="TXT_Accent"><REF MsgGUI030212_0000></COLOR>'에서 장비, 아이템,<lf>숏컷 팔레트의 마이 세트를<lf>넘나들며 적용할 수 있다.
 <string>고기굽기
-<string>날고기의 색을 잘 보고 <ICON UI_DECIDE>을 누르자.<lf>노릇노릇하게 구워지면<lf>고기를 잘라야 한다!<lf>타이밍에 맞춰<lf><ICON UI_DECIDE>을 눌러 입수 개수를 늘리자.
+<string>날고기의 색을 잘 보고 <ICON PL_UI_DECIDE>을 누르자.<lf>노릇노릇하게 구워지면<lf>고기를 잘라야 한다!<lf>타이밍에 맞춰 <ICON PL_UI_DECIDE>을 눌러<lf>입수 개수를 늘리자.
 <string>모닥불 요리
-<string><COLOR preset="TXT_Accent"><REF MsgGUI090200_01_00>를 요리</COLOR>해서 식사하자.<lf>요리 내용에 따라<lf>식사 효과가 달라진다.<lf>사냥에 성공하려면<lf>질 좋은 식사가 필수다.
+<string><COLOR preset="TXT_Accent"><REF MsgGUI090200_01_00>을 요리</COLOR>해서 식사하자.<lf>요리 내용에 따라<lf>식사 효과가 달라진다.<lf>사냥에 성공하려면<lf>질 좋은 식사가 필수다.
 <string>로비 이동
 <string>로비에는 다양한 플레이어가 모인다.<lf>추천 로비나 비공개 로비 등<lf>목적에 맞는 로비로 이동하자.
 <string>추천 로비
@@ -129,7 +127,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_293
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_293
 <string>환경 링크
-<string><COLOR preset="TXT_Accent">환경 링크</COLOR>는<lf>링크 파티 기능 중 하나다.<lf>멤버를 자신의 필드에 초대하면<lf>멀티플레이로 필드를 탐색할 수 있다.
+<string>환경 링크는<lf>링크 파티 기능 중 하나다.<lf>멤버를 자신의 필드에 초대하면<lf>멀티플레이로 필드를 탐색할 수 있다.
 <string>환경 링크
 <string>시작 메뉴의 환경 링크에 초대<lf>에서 링크 멤버를 초대해<lf>함께 필드 탐색을 즐기자.
 <string>환경 링크
@@ -193,7 +191,7 @@
 <string>소리 구슬
 <string><ICON WP05 PL_ATTACK_SP>+<ICON WP05 PL_DODGE>을 눌러 '<COLOR preset="TXT_Accent">소리 구슬</COLOR>'을 설치한다.<lf>소리 구슬 범위 내에서는 무기별로<lf>성능이 강화되고, 공격에 반응해<lf>추가 대미지를 준다.<lf>설치 중에도 연주 가능.
 <string>특수 연주
-<string>노랑+빨강+노랑+하양 음색 연주 후<lf><ICON WP05 PL_ATTACK_SP>+<ICON WP05 PL_ATTACK_00>+<ICON WP05 PL_ATTACK_01>을 눌러 무기 고유의<lf>'<COLOR preset="TXT_Accent">특수 연주</COLOR>'를 한다.<lf>(음색과 효과는 무기에 따라 다름)
+<string><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> 순으로<lf>음색을 연주한 후, <ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>로<lf>무기 고유의 '<COLOR preset="TXT_Accent">특수 연주</COLOR>'가 가능.<lf>(음색과 효과는 무기에 따라 다름)
 <string>상쇄 베어올리기
 <string><ICON WP00 PL_ATTACK_00>+<ICON WP00 PL_ATTACK_01>을 길게 눌러 상쇄 효과가 있는<lf><COLOR preset="TXT_Accent">상쇄 베어올리기</COLOR>를<lf>펼친다. 타이밍을 맞추기 어렵지만,<lf>상쇄에 대성공하면 몬스터를 날린다.
 <string>특수 납도 후 앉아발도 기인베기
@@ -205,7 +203,7 @@
 <string>모으기 스텝
 <string>모으기 상태(<ICON WP04 PL_ATTACK_SP> 길게 누르기) 중에<lf><ICON WP04 PL_ATTACK_01>을 누르면 모으기를 유지하며<lf>회피하거나 재빨리<lf>거리를 좁힐 수 있다.
 <string>저스트 가드
-<string>공격 타이밍에 잘 맞춰 가드 <ICON WP06 PL_ATTACK_SP>하면<lf>'<COLOR preset="TXT_Accent">저스트 가드</COLOR>'가 발생한다.<lf>직후에 <ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>을 눌러<lf>강력한 추가 돌진을 할 수 있다.
+<string>공격 타이밍에 잘 맞춰 <ICON WP06 PL_ATTACK_SP>으로<lf>가드하면 '<COLOR preset="TXT_Accent">저스트 가드</COLOR>'가 발생한다.<lf>직후에 <ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>을 눌러<lf><COLOR preset="TXT_Accent">혼신 되돌려 찌르기【천】</COLOR>으로 파생 가능하다.
 <string>저스트 가드&리로드
 <string>적의 공격 타이밍에 잘 맞춰<lf><ICON WP07 PL_ATTACK_SP>+<ICON WP07 PL_ATTACK_01>을 누르면<lf><COLOR preset="TXT_Accent">저스트 가드하면서 리로드</COLOR>한다.<lf>성공 시 강력한 공격으로 파생한다.
 <string>검 모드로 전환
@@ -213,7 +211,7 @@
 <string>검 모드와 도끼 모드
 <string>소비한 게이지는 '<COLOR preset="TXT_Accent">도끼 모드</COLOR>' 공격을<lf>맞힐 때마다 회복한다.<lf>게이지를 적절히 회복하면서<lf>검 모드로 변형해 보자.
 <string>도끼: 상쇄 베어올리기
-<string>도끼 모드 중에<lf><ICON WP08 PL_ATTACK_00> 길게 누르기+<ICON WP08 PL_ATTACK_01> 길게 누르기로<lf>'<COLOR preset="TXT_Accent">도끼: 상쇄 베어올리기</COLOR>'를<lf>할 수 있다. 타이밍에 맞춰<lf>상쇄에 성공하면 큰 대미지를 준다.
+<string>도끼 모드 중에<lf><ICON WP08 PL_ATTACK_00>+<ICON WP08 PL_ATTACK_01>로<lf>'<COLOR preset="TXT_Accent">도끼: 상쇄 베어올리기</COLOR>'를<lf>할 수 있다. 타이밍에 맞춰<lf>상쇄에 성공하면 큰 대미지를 준다.
 <string>검: 카운터 베어올리기
 <string>검 모드 중에<lf><ICON WP08 PL_ATTACK_SP>+<ICON WP08 PL_ATTACK_00>을 누르면<lf>'<COLOR preset="TXT_Accent">검: 카운터 베어올리기</COLOR>'를<lf>펼친다. 카운터에 성공하면<lf>2연 베기로 반격할 수 있다.
 <string>병 차지와 도끼 모드
@@ -233,13 +231,13 @@
 <string>링크 파티로 초대
 <string>시작 메뉴의 '<COLOR preset="TXT_Accent">링크 파티로<lf>초대</COLOR>'에서 멤버를 초대하자.<lf>링크 파티는 최대 4명까지 가능하다.
 <string>링크 파티 특징
-<string>링크 파티 중엔 전용 채팅이 열린다.<lf>멤버 중 한 명이 퀘스트를 시작하면<lf>자동으로 참가 알림도 받을 수 있다.
+<string>링크 파티 중엔 전용 채팅이 열린다.<lf>멤버 중 한 명이 퀘스트를 시작하면<lf>자동으로 초대 알림도 받을 수 있다.
 <string>링크 파티 특징
 <string>퀘스트에서 귀환해도 링크 파티는<lf>유지된다. 같은 멤버가 반복 퀘스트에<lf>편하게 도전할 수 있다.
 <string>환경 링크
 <string>링크 파티 중에는 환경 링크로<lf>자신의 환경에 멤버를 초대하여<lf>같이 탐색할 수 있게 된다.
 <string>낚시 조작 방법
-<string><COLOR preset="TXT_Accent">조준하기, 노리기</COLOR>: <ICON PL_AIM><lf><COLOR preset="TXT_Accent">루어 던지기</COLOR>: <ICON PL_AIM>+<ICON PL_SLINGER_SHOOT>
+<string><COLOR preset="TXT_Accent">조준하기, 노리기</COLOR>: <ICON PL_AIM><lf><COLOR preset="TXT_Accent">루어 던지기</COLOR>: <ICON PL_AIM>＋<ICON PL_FISHING_ACTION>
 <string>낚시 조작 방법
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>낚시 조작 방법
@@ -251,11 +249,11 @@
 <string>수련장
 <string>무기 연습은 베이스캠프 안쪽<lf>수련장을 활용해 보자.
 <string>수련장
-<string>고양이 훈련 통 펀처를 상대로<lf>헌터 조작을 연습하자.시작 메뉴의<lf>'플레이 가이드'도 확인해 보자!
+<string>고양이 훈련 통 펀처를 상대로<lf>헌터 조작을 연습하자. 시작 메뉴의<lf>'플레이 가이드'도 확인해 보자!
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_306
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_306
 <string>동반자 대기 설정
-<string>'대기시키기'를 선택하면 동반자가<lf>퀘스트에 참가하지 않는다. 동반자는<lf>대기하는 동안 혼자서 수련한다.
+<string>동반자는 헌터와 함께 행동하지만,<lf>'대기시키기'를 선택하면 퀘스트가<lf>시작되었을 때 마이 텐트로 돌아간다.
 <string>소재 갈무리
 <string><ICON PL_POP>을 눌러 토벌한 몬스터에게서 장비<lf>생산 및 강화에 쓰이는 <COLOR preset="TXT_Accent">소재를<lf>갈무리</COLOR>하자. 발도 중일 때는 우선<lf><ICON PL_WEAPON_OFF>을 눌러 무기를 납도해야 한다.
 <string>사냥을 계속하려면 준비도 중요
@@ -273,17 +271,17 @@
 <string>적정 거리
 <string>주황색 조준선이 되면 적정 거리이며<lf>가장 큰 대미지를 줄 수 있다.<lf>조준선이 주황색이 되도록 노려 보자.
 <string>탄 변경
-<string>적정 거리는 탄에 따라 변한다.<lf>장전 중에 탄을 변경하려면 <ICON WP13 PL_ITEM_SLIDER_OPEN>+<ICON WP13 UI_BULLET_ITEM_UP> 또는<lf><ICON WP13 UI_BULLET_ITEM_DOWN>을 눌러 장전할 탄을 선택하자.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_323>
 <string>적정 거리
 <string>주황색 조준선이 되면 적정 거리이며<lf>가장 큰 대미지를 줄 수 있다.<lf>조준선이 주황색이 되도록 노려 보자.
 <string>탄 변경
-<string>최적 거리는 탄에 따라 변한다.<lf>장전 중에 탄을 변경하려면 <ICON WP12 PL_ITEM_SLIDER_OPEN>+<ICON WP12 UI_BULLET_ITEM_UP> 또는<lf><ICON WP12 UI_BULLET_ITEM_DOWN>을 눌러 장전할 탄을 선택하자.
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_325>
 <string>적정 거리
 <string>주황색 조준선이 되면 적정 거리이며<lf>가장 큰 대미지를 줄 수 있다.<lf>조준선이 주황색이 되도록 노려 보자.
 <string>병 장전
-<string><ICON WP11 PL_ATTACK_00>을 눌러 병을 장전하면 병 효과가<lf>화살에 부여된다.<lf>병 효과는 <ICON PL_ATTACK_SP> 길게 누르기로<lf>모은 특수 화살 게이지를<lf>소비하여 발휘된다.
+<string><ICON WP11 PL_ATTACK_00>을 눌러 병을 장전하면 병 효과가<lf>화살에 부여된다.<lf>병 효과는 <ICON WP11 PL_ATTACK_SP> 길게 누르기로<lf>모은 특수 화살 게이지를<lf>소비하여 발휘된다.
 <string>병 선택
-<string>장전할 병은 <ICON WP11 PL_ITEM_SLIDER_OPEN>+<ICON WP11 UI_BULLET_ITEM_UP> 또는<lf><ICON WP11 UI_BULLET_ITEM_DOWN>으로 변경할 수 있다.<lf>(장전 가능 병은 무기에 따라 다름)
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_328>
 <string>유도 화살
 <string><COLOR preset="TXT_Accent">유도 화살</COLOR>이 명중하면 다음 화살도<lf>해당 부위에 명중한다. 후속<lf>화살이 명중하면 추가 대미지를 준다.
 <string>유도 화살
@@ -329,11 +327,11 @@
 <string>다채로운 공격 액션
 <string>지금까지 소개한 액션 외에도 무기마다<lf>다채로운 액션이 가능하다. 익숙해지면<lf>앞 페이지를 참고로 다양한 액션을<lf>시도해 보자.
 <string>다채로운 공격 액션
-<string>노랑+빨강+노랑+하양 음색 연주 후<lf><ICON WP05 PL_ATTACK_SP>+<ICON WP05 PL_ATTACK_00>+<ICON WP05 PL_ATTACK_01>을 눌러 무기 고유의<lf>'<COLOR preset="TXT_Accent">특수 연주</COLOR>'를 한다.<lf>(음색과 효과는 무기에 따라 다름)
+<string><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> 순으로<lf>음색을 연주한 후, <ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>로<lf>무기 고유의 '<COLOR preset="TXT_Accent">특수 연주</COLOR>'가 가능.<lf>(음색과 효과는 무기에 따라 다름)
 <string>다채로운 공격 액션
 <string>지금까지 소개한 액션 외에도 무기마다<lf>다채로운 액션이 가능하다. 익숙해지면<lf>앞 페이지를 참고로 다양한 액션을<lf>시도해 보자.
 <string>다채로운 공격 액션
-<string>공격 타이밍에 잘 맞춰 가드 <ICON WP06 PL_ATTACK_SP>하면<lf>'<COLOR preset="TXT_Accent">저스트 가드</COLOR>'가 발생한다.<lf>직후에 <ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>을 눌러<lf>강력한 추가 돌진을 할 수 있다.
+<string>공격 타이밍에 잘 맞춰 <ICON WP06 PL_ATTACK_SP>으로<lf>가드하면  '<COLOR preset="TXT_Accent">저스트 가드</COLOR>'가 발생한다.<lf>직후에 <ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>을 눌러<lf>강력한 추격 돌진을 할 수 있다.
 <string>다채로운 공격 액션
 <string>지금까지 소개한 액션 외에도 무기마다<lf>다채로운 액션이 가능하다. 익숙해지면<lf>앞 페이지를 참고로 다양한 액션을<lf>시도해 보자.
 <string>다채로운 공격 액션
@@ -341,7 +339,7 @@
 <string>다채로운 공격 액션
 <string>지금까지 소개한 액션 외에도 무기마다<lf>다채로운 액션이 가능하다. 익숙해지면<lf>앞 페이지를 참고로 다양한 액션을<lf>시도해 보자.
 <string>다채로운 공격 액션
-<string>도끼 모드 중에<lf><ICON WP08 PL_ATTACK_00> 길게 누르기+<ICON WP08 PL_ATTACK_01> 길게 누르기로<lf>'<COLOR preset="TXT_Accent">도끼: 상쇄 베어올리기</COLOR>'를<lf>할 수 있다. 타이밍에 맞춰<lf>상쇄에 성공하면 큰 대미지를 준다.
+<string>도끼 모드 중에<lf><ICON WP08 PL_ATTACK_00>+<ICON WP08 PL_ATTACK_01>로<lf>'<COLOR preset="TXT_Accent">도끼: 상쇄 베어올리기</COLOR>'를<lf>할 수 있다. 타이밍에 맞춰<lf>상쇄에 성공하면 큰 대미지를 준다.
 <string>다채로운 공격 액션
 <string>검 모드 중에<lf><ICON WP08 PL_ATTACK_SP>+<ICON WP08 PL_ATTACK_00>을 누르면<lf>'<COLOR preset="TXT_Accent">검: 카운터 베어올리기</COLOR>'를<lf>펼친다. 카운터에 성공하면<lf>2연 베기로 반격할 수 있다.
 <string>다채로운 공격 액션

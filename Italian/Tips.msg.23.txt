@@ -4,9 +4,9 @@
 <string><REF MsgGUI600000_Tips_EXP_1095772160>
 <string>Velocità del Seikret
 <string><ICON PL_PT_SPEED_UP>: accelera<lf><ICON PL_PT_SPEED_DOWN>: rallenta
-<string>Aggancio visuale
-<string>Usa <ICON PL_CAMERA_LOCK_CHANGE> per centrare la visuale su un<lf>mostro. Si può modificare nelle opzioni.
-<string>Barra spirito
+<string>Agganciare i mostri
+<string>Usa <ICON PL_CAMERA_LOCK_CHANGE> per centrare la visuale su un<lf>mostro. Le impostazioni di aggancio visuale<lf>possono essere modificate nelle opzioni.
+<string>La barra spirito
 <string>La barra spirito si riempie attaccando,<lf>permettendo potenti attacchi lama spirito.
 <string><REF ActionGuideDataNameText_Wp07_1069952960>
 <string>Premi <ICON PL_ATTACK_SP><ICON PLUS><ICON PL_ATTACK_01> per ricaricare. Non puoi<lf>sparare quando hai finito le munizioni.
@@ -15,7 +15,7 @@
 <string>Modalità fuoco rapido
 <string>Fuoco rapido consuma la tua energia<lf>per farti sparare molti colpi<lf>in rapida successione.
 <string>Colori barra spirito
-<string>Eseguire fendente spirito rotante e altri<lf>attacchi speciali aumenta il colore della<lf>barra spirito e la potenza d'attacco.
+<string>Fendente spirito rotante e altri attacchi<lf>speciali cambiano il colore della barra<lf>spirito e aumentano la potenza d'attacco.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -33,28 +33,28 @@
 <string>Razzo SOS
 <string>Puoi chiedere aiuto ad altri giocatori<lf>per la missione con un razzo SOS.
 <string>Oggetti scorta
-<string>Gli oggetti scorta sono disponibili<lf>nella borsa del tuo Seikret<lf>all'inizio di ogni missione.
+<string>Gli oggetti scorta sono disponibili<lf>nella borsa del tuo Seikret all'inizio<lf>di ogni missione.
 <string>Sfruttare l'ambiente
 <string>Alcuni pericoli e funzionalità<lf>ambientali possono essere sfruttati<lf>a tuo favore durante una caccia.
 <string>Fauna endemica
 <string>Esistono molte creature endemiche<lf>nell'ambiente che hanno funzioni speciali.
 <string>Ricavo
 <string>Premi <ICON PL_POP> di fianco a un mostro<lf>abbattuto per ricavarne materiali.
-<string>Rinfodera prima di inseguire!
-<string>Quando insegui un mostro, prima<lf>rinfodera l'arma con <ICON PL_WEAPON_OFF>, poi scatta<lf>con <ICON PL_DASH>.
+<string>Inseguimento valido di mostri
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>Rifornimento di oggetti
-<string>Quando perdi i sensi, ottieni nuovi<lf>oggetti scorta. Usa <ICON PL_ACCESS_ITEM_BAG> per controllare<lf>la borsa.
-<string>Osserva attentamente i mostri
+<string><REF MsgGUI600000_Tips_EXP_40>
+<string>Osservazione del bersaglio
 <string>Osserva attentamente i movimenti di ogni<lf>mostro per imparare i suoi schemi di attacco<lf>e anticipare le sue mosse.
 <string>Intrappolare i mostri
 <string>Usa le trappole per immobilizzare<lf>e catturare i mostri indeboliti.
-<string>Addormentare i mostri con le sfere soporifere
+<string>Catturare i mostri
 <string>Usa più sfere soporifere su un mostro<lf>bloccato per catturarlo.
-<string>Collabor. con cacciatore supp.
+<string>Cacciatori di supporto
 <string>Un cacciatore di supporto si è unito<lf>alla tua caccia. Collaborate per<lf>completarla!
 <string>Insetti guida
 <string>Gli insetti guida ti aiutano a<lf>raggiungere il tuo obiettivo. Inoltre<lf>evidenziano gli oggetti da esaminare.
-<string>Attaccalo quando è a terra!
+<string>Creazione di opportunità
 <string>Quando un mostro è a terra, usa questa<lf>opportunità per scatenare i tuoi<lf>attacchi più forti!
 <string>Schivare gli attacchi
 <string>Schiva per evitare gli attacchi. Per le<lf>schivate serve resistenza, quindi tieni<lf>d'occhio la tua barra resistenza.
@@ -62,52 +62,48 @@
 <string>Le armi da mischia perdono acutezza<lf>quando infliggi attacchi. Usa una cote<lf>per ripristinarla.
 <string>Recuperare resistenza
 <string>La tua resistenza massima diminuisce<lf>col tempo. Usa le razioni per ripristinarla.
-<string>Segui il mostro!
+<string>Inseguimento dei mostri
 <string>Quando un mostro batte in ritirata<lf>o si sposta, sali sul Seikret per<lf>inseguirlo!
 <string>La mappa dettagliata
 <string>Puoi aprire la mappa premendo <ICON PL_MAP_CHANGE>. Usala<lf>quando vuoi controllare la tua<lf>destinazione.
 <string>Selezionare e usare oggetti
-<string>Seleziona oggetto: tieni premuto <ICON PL_ITEM_SLIDER_OPEN>,<lf>poi premi <ICON UI_ITEM_LEFT> o <ICON UI_ITEM_RIGHT><lf>Usa oggetto: rilascia <ICON PL_ITEM_SLIDER_OPEN>, poi premi <ICON PL_ITEM>
-<string>Recuperare le scorte
-<string>Quando completi una missione, ricevi<lf>oggetti scorta.
-<string>Luoghi per accampamenti mobili
-<string>C'è un luogo di accampamento nelle vicinanze.<lf>Una volta individuato, usa l'oggetto riportato<lf>qui sotto per allestirlo.
+<string><REF MsgGUI600000_Tips_EXP_63>
+<string>Restituzione delle scorte
+<string>Gli oggetti categorizzati come oggetti<lf>scorta saranno restituiti dopo il<lf>completamento di una missione.
+<string>Accampamenti potenziali
+<string>Qua vicino c'è un luogo di accampamento.<lf>Una volta trovato, usa l'oggetto qui<lf>sotto per montarlo.
 <string>Tiro caricato
 <string>La potenza aumenta in base al livello<lf>di carica. Quando si carica, consuma<lf>resistenza.
-<string>Nota
-<string>Quando si esegue un attacco,<lf>viene riprodotta una nota in base<lf>al comando inserito.
+<string>Note
+<string>Quando si esegue un attacco,<lf>viene riprodotto un tipo di nota<lf>in base al comando inserito.
 <string>Esibizione
-<string>Quando si eseguono certe tonalità<lf>in sequenza, si verifica un effetto melodia.
+<string>Quando si eseguono certe note<lf>in sequenza, si verifica un effetto melodia.
 <string>Barra cambio (modalità ascia)
 <string>Attaccare in modalità ascia riempie la<lf>barra cambio.
 <string>Barra cambio (modalità spada)
 <string>Attaccare in modalità spada consuma la<lf>barra cambio. Esaurirla ti fa tornare in<lf>modalità ascia.
 <string>Combo kinsetto
 <string>Quando attacchi in modalità<lf>precisione, anche i kinsetti<lf>attaccano e raccolgono estratti.
-<string>Bolla di eco
-<string>Quando ti esibisci con una sfera<lf>di eco piazzata, la sfera emanerà<lf>attacchi di riverbero.
-<string>Segni ed effetti polvere
-<string>Un kinsetto attaccherà automaticamente<lf>un punto segnato, formando un effetto polvere.
-<string>Attacco di reazione
+<string>Bolle di eco
+<string>Quando ti esibisci con una bolla<lf>di eco piazzata, la bolla emanerà<lf>attacchi di riverbero.
+<string>Segni e polvere di kinsetto
+<string>Un kinsetto attaccherà automaticamente<lf>un punto segnato, lasciando<lf>polvere dietro di sé.
+<string>Attacchi di reazione
 <string>Puoi reagire all'attacco di un mostro<lf>parando al momento giusto con un attacco<lf>di reazione.
 <string>Colonne di pietra instabili
 <string>Colpisci un Balahara mentre è aggrappato<lf>alle rocce per farlo cadere.
 <string>Caccia sulle dune
 <string>Le dune di sabbia sono instabili e<lf>possono crollare per un forte impatto,<lf>che potrebbe farti perdere l'equilibrio.
 <string><REF Gimmick_NAME_m2034503552>
-<string>Se ti accovacci nell'erba alta, sarà<lf>più difficile per i mostri notarti.
+<string>Se ti accovacci nell'erba alta prima che<lf>un mostro ti noti, sarà più difficile<lf>per lui scoprirti.
 <string><REF Gimmick_NAME_32>
-<string>Puoi far cadere una roccia colpendola<lf>con la fionda uncinata.
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>Se colpito, questo rospo rilascia un gas che<lf>paralizza i mostri che vi entrano in contatto.
+<string>Puoi far cadere le rocce colpendole<lf>con la fionda uncinata.
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>Quando viene colpita, il suo nettare si<lf>diffonde nell'area, provocando un effetto<lf>curativo nel suo raggio d'azione.
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>Quando viene colpita, il suo nettare si<lf>diffonde nell'area, provocando un notevole<lf>effetto curativo nel suo raggio d'azione.
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>Quando vengono colpiti, emettono<lf>un lampo di luce che acceca i mostri.
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>Lo sterco che rotola può essere usato<lf>come munizione per la fionda, sotto<lf>forma di baccello letame.
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>Raccogli e consuma il nettare sul loro<lf>dorso per recuperare la salute.
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -138,12 +134,12 @@
 <string>Uno stato che annulla le proprietà elementali<lf>dell'arma. Puoi annullarne l'effetto usando<lf>una nulbacca o schivando ripetutamente.
 <string>Scudo: aumento elementale
 <string>Usa le fiale per aumentare in maniera<lf>temporanea la tua guardia e i tuoi<lf>attacchi in modalità ascia.
-<string>Affondo triplo e di contrattacco
+<string>Affondo triplo e contrattacco caricato
 <string>Puoi eseguire un attacco di quarto<lf>livello dopo affondo medio III<lf>o affondo alto III.
 <string>Carica la barra cambio
 <string>Attacca in modalità ascia per riempire<lf>rapidamente la barra cambio.
 <string>Iniziare una missione
-<string>La missione inizierà quando avrai inflitto<lf>abbastanza danni al mostro alfa designato.
+<string>Una missione comincia dopo che una certa<lf>quantità di danni viene inflitta al<lf>mostro alfa bersaglio.
 <string>Area di addestramento
 <string>Ora puoi usare l'area di addestramento<lf>nel campo base delle Piane ventose.
 <string>Punti di raccolta attivi
@@ -152,45 +148,45 @@
 <string>I materiali possono servire per forgiare<lf>e potenziare l'equipaggiamento, ricorda<lf>di ricavarli dai mostri dopo la caccia!
 <string>Fai disperdere i branchi
 <string>Spara ai mostri per separarli dal<lf>branco. I mostri colpiti scapperanno.
-<string>Attirali nelle sabbie mobili
+<string>Uso di sabbie mobili
 <string>Attira i Doshaguma nelle sabbie mobili<lf>per separare il branco.
 <string>Lotte tra mostri
 <string>Usa i conflitti tra i mostri a tuo vantaggio<lf>durante la caccia.
-<string>Mappa dettagliata
-<string>Apri la mappa dettagliata con <ICON PL_MAP_CHANGE><lf>per controllare quali mostri ci sono in giro.
-<string>Spara proiettili normali
+<string>La mappa dettagliata
+<string>Apri la mappa dettagliata<lf>con <ICON PL_MAP_CHANGE> per controllare<lf>quali mostri ci sono in giro.
+<string>Proiettili normali
 <string>I proiettili normali sono efficaci<lf>contro i mostri a distanza ravvicinata<lf>o media.
-<string>Spara proiettili perforanti
+<string>Proiettili perforanti
 <string>I proiettili perforanti sono efficaci<lf>contro i mostri a distanza elevata.
-<string>Spara proiettili ventaglio
+<string>Proiettili ventaglio
 <string>I proiettili ventaglio sono efficaci<lf>contro i mostri a distanza ravvicinata.
-<string>Spara proiettili normali
+<string>Proiettili normali
 <string>I proiettili normali sono efficaci<lf>contro i mostri a distanza ravvicinata<lf>o media.
-<string>Spara proiettili perforanti
+<string>Proiettili perforanti
 <string>I proiettili perforanti sono efficaci<lf>contro i mostri a distanza elevata.
-<string>Spara proiettili ventaglio
+<string>Proiettili ventaglio
 <string>I proiettili ventaglio sono efficaci<lf>contro i mostri a distanza ravvicinata.
-<string>Rivestimento potenza
+<string>Rivestimenti potenza
 <string>Aumenta la potenza di una freccia<lf>e i danni inflitti.
 <string>Rivestimento corto raggio
 <string>La portata delle frecce è ridotta,<lf>ma la potenza aumenta notevolmente.
-<string>Attendi recupero automatico munizioni
+<string>Recupero automatico proiettili
 <string>Per usare scoppio concentrato: assalto<lf>di falco, attendi che le munizioni<lf>si rigenerino da sole.
-<string>Attendi recupero automatico munizioni
+<string>Recupero automatico proiettili
 <string>Per usare scoppio concentrato: urlo<lf>di wyvern, attendi che le munizioni<lf>si rigenerino da sole.
-<string>Non sovraccaricare energia spada
-<string>L'energia della spada accumulata viene<lf>caricata in una fiala e usata, ma se ne<lf>accumuli troppa l'attacco sarà respinto.
+<string>Con attacchi deviati: carica
+<string>Quando i tuoi attacchi vengono deviati<lf>dopo aver accumulato troppa energia<lf>della spada, usa <ICON WP09 PL_ATTACK_00> o <ICON WP09 PL_ATTACK_01> per caricare.
 <string>Sparare con un raggio critico
 <string>Quando il reticolo è arancione,<lf>la distanza è ottimale. Mantienila<lf>per infliggere più danni.
-<string>Attaccare le ferite
+<string>Mira alle ferite
 <string>Attaccare una ferita infligge<lf>più danni. Mira a una ferita<lf>in modalità precisione con <ICON PL_AIM>.
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string>Premi <ICON WP13 PL_ATTACK_01> dopo aver sparato per eseguire<lf>un Tiro inseguitore, un attacco potente<lf>che colpisce più forte del normale.
 <string>Non dimenticare la bistecca!
 <string>Le bistecche ben cotte non sono solo deliziose,<lf>ma aumentano la salute e la resistenza massima!<lf>Assicurati di mangiarne una prima della caccia.
 <string>Non cacciare a stomaco vuoto!
-<string>Gli effetti del pasto si sono esauriti!<lf>Si caccia meglio a stomaco pieno, quindi<lf>mangia di nuovo per aumentare le statistiche!
+<string>Si caccia meglio a stomaco pieno, quindi<lf>usa la griglia portatile per<lf>preparare un altro pasto<lf>e aumentare le statistiche!
 <string>Cambiare l'arma
-<string>Passa dall'arma primaria a quella secondaria<lf>con <ICON PL_WEAPON_CHANGE> .
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>Ripristinare la salute
 <string>Utilizza le pozioni per ripristinare la salute.

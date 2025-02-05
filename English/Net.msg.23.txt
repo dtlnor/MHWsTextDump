@@ -1,8 +1,8 @@
 ﻿<string>Connecting...
 <string>Connecting...
 <string>Starting the game.
-<string>Invalid request.
-<string>Failed to get information.
+<string>Invalid request.<lf>{0}
+<string>Failed to get information.<lf>{0}
 <string>Connecting...
 <string>Checking connection to the server...
 <string>A communication error has occurred.<lf>{0}
@@ -17,16 +17,16 @@
 <string>You are now in Offline Mode. You will continue<lf>gameplay as normal. To return to Online Mode,<lf>talk to your Handler to access the communication<lf>functions in the Change Lobby Menu.
 <string>You are currently in Offline Mode. To return<lf>to Online Mode, talk to your Handler to access the<lf>communication functions in the Change Lobby Menu.
 <string>Switched to Online Single Player due to<lf>inactivity. You will continue gameplay as normal.<lf>{0}
-<string>Unable to send as you are already Hunter Friends<lf>or are waiting for a response to an invitation.<lf>{0}
+<string>Unable to send as you are already<lf>Hunter Friends or are waiting for<lf>a response to a request.<lf>{0}
 <string>Failed to send because you or the other party<lf>has reached the max limit for Hunter Friends.<lf>{0}
 <string>You already follow this player.<lf>{0}
 <string>You have reached the follow limit and cannot<lf>follow any more players.<lf>{0}
 <string>Initializing network...
 <string>A new version of the application has been found. <lf>To use network features, please close<lf>the application and perform the update.
-<string>Previously deleted saved data has been detected.<lf>Using this data will reset your Hunter Friends, <lf>Following/Followers, and Squads.
-<string>Player has already joined the Link Party.<lf>{0}
-<string>The maximum number of players for the Link Party<lf>has been reached. Cannot add any more players.<lf>{0}
-<string>You cannot report at this time.<lf>Please wait a while and try again.<lf>{0}
+<string>Hunter data has been overwritten.<lf>This save data can still be used safely, but<lf>Hunter Friends, Follows/Followers, and<lf>Squad data has been reset.
+<string>Player has already joined the Link Party.<lf><lf>{0}
+<string>The player limit for the Link Party has been<lf>reached. Cannot add any more players.<lf><lf>{0}
+<string>Cannot submit report at this time.<lf>Please wait a while and try again.<lf><lf>{0}
 <string>Your current account does not meet the<lf>requirements to play the game.
 <string>Connection to the session has been lost.<lf>{0}
 <string>Failed to create session.<lf>{0}
@@ -40,7 +40,7 @@
 <string>Join the lobby?
 <string>Create a private lobby?
 <string>Start the game without joining a lobby?<lf>(You can join a lobby after the game starts.)
-<string>Search for Lobby ID.<lf>(Up to eight characters. Case sensitive.)
+<string>Search for a Lobby ID.<lf><lf><COLOR preset="TXT_Accent">Note: Lobby IDs are case-sensitive and<lf>use eight alphanumeric characters.</COLOR>
 <string>Failed to join session because the quest ended.
 <string>Disband the private lobby you are<lf>currently hosting?
 <string>Could not join quest because the entered<lf>password is incorrect.
@@ -49,7 +49,7 @@
 <string>Joining Link Party.
 <string>The server is currently busy.<lf>Please wait a while and try again.
 <string>Crossplay is currently enabled.
-<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf><lf>Your account has been found in violation of the<lf>following: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use.</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "MMMM D, YYYY HH:mm"> (UTC)<lf><lf>Your account has been found in violation of the<lf>following: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use.</COLOR>
 <string>Abusive/Disruptive Behavior
 <string>Types of Prohibited Behavior
 <string>Inappropriate Text
@@ -61,7 +61,7 @@
 <string>Please review any editable text, such as your Hunter Profile and<lf>Squad comments, and update the content accordingly. Failure to<lf>update text content or repeated updates that violate the Terms<lf>of Use may result in permanent restrictions.
 <string>In addition, your Hunter and Palico's names will be changed to<lf>the default "Hunter/Palico".
 <string><COLOR preset="TXT_Danger">Account permanently suspended</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Your account has been permanently suspended</COLOR> due to confirmed<lf>violations of our Terms of Use.<lf><lf>The account in question will be unable to access the online mode<lf>in Monster Hunter Wilds. Please be aware that we do not offer<lf>any measures to lift the permanent suspension of an account<lf>in accordance with the Terms of Use.
-<string>Joining Link Party. Change saved data?
+<string>Joining Link Party. Change saved data?<lf><COLOR preset="TXT_Danger">(When changing saved data, current unsaved<lf>data will be lost.)</COLOR>
 <string>Join with current saved data
 <string>Join with different saved data
 <string>Do not join

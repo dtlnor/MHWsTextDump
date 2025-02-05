@@ -20,7 +20,6 @@
 <string>{0}
 <string>{0}
 <string>{0}
-<string>{0}
 <string>–
 <string>–
 <string>:
@@ -35,7 +34,7 @@
 <string>+{0}
 <string>-
 <string>x
-<string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
+<string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>¿
 <string>?
@@ -45,12 +44,12 @@
 <string>Sí
 <string>No
 <string>Cancelar
-<string>Intercambiar
+<string>Alternar
 <string>Sí
 <string>No
 <string> o 
 <string>y
-<string>{0:F2}
+<string><NUMBER {0:F2}>
 <string>Nivel 
 <string>Rareza
 <string>¿?
@@ -65,7 +64,7 @@
 <string>Máx.
 <string>******
 <string>Mostrar
-<string>No mostrar
+<string>Ocultar
 <string>----/--/-- --:--
 <string><DATETIME {0} "DD/MM/YYYY HH:mm">
 <string><DATETIME {0} "DD/MM/YYYY HH:mm""{1}">
@@ -96,15 +95,15 @@
 <string>zenis
 <string>pts
 <string>Puntos del gremio
-<string> %
+<string> %
 <string>[{0}]
-<string>Recuperación óptima de salud<lf><COLOR preset="TXT_Accent">{0}</COLOR>
-<string>Recuperación óptima de estado<lf><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>Recuperación de salud óptima<lf><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>Recuperación de estado óptima<lf><COLOR preset="TXT_Accent">{0}</COLOR>
 <string>{0}...
 <string>Nombre
 <string><PLATMSG RefGeneral_0018_001>
 <string>ID online
-<string>Nombre del perfil
+<string>Nombre de perfil
 <string>ID de cazador
 <string>RC {0}
 <string>RC
@@ -120,6 +119,6 @@
 <string>Tienda online
 <string>Tienda Steam
 <string><PLATMSG RefGeneral_0024>
-<string>DLC
-<string>DLC
+<string>Contenido descargable
+<string>Contenido descargable
 <string>Servidor

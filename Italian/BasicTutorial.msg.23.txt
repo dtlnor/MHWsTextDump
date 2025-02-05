@@ -95,7 +95,7 @@
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
-<string><REF Item_IT_182>
+<string>Coltelli da lancio
 <string><REF Item_IT_EXP_182>
 <string>
 <string><REF Item_IT_18>
@@ -106,7 +106,7 @@
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
-<string>Un animale da cavalcare donato dal<lf>popolo di Kunafa. La sua mobilità<lf>senza pari velocizzerà i tuoi viaggi.<lf>Il suo incredibile olfatto lo guiderà<lf>automaticamente ovunque nella mappa.<lf><lf>Mentre si cavalca si possono usare la<lf>fionda e alcuni oggetti, quindi è il<lf>momento perfetto per recuperare la<lf>salute, affilare l'arma o raccogliere<lf>oggetti. Il Seikret schiverà anche<lf>automaticamente gli attacchi<lf>dei mostri in certe condizioni.
+<string>Un animale da cavalcare donato dal<lf>popolo di Kunafa. La sua mobilità<lf>senza pari velocizzerà i tuoi viaggi.<lf>Il suo incredibile olfatto lo guiderà<lf>automaticamente ovunque nella mappa.<lf><lf>Mentre si cavalca si possono usare la<lf>fionda e alcuni oggetti, quindi è il<lf>momento perfetto per recuperare la<lf>salute, affilare l'arma o raccogliere<lf>oggetti. Inoltre il Seikret schiverà<lf>automaticamente gli attacchi<lf>dei mostri in determinate condizioni.
 <string>
 <string><REF RefMenu_061> (Movimento automatico)
 <string><INPUTMSG MsgGUI600200_00_011>
@@ -124,14 +124,14 @@
 <string><ICON PL_PT_SPEED_UP>
 <string>
 <string><REF ActionGuideDataNameTextCommon_494062272>/<REF ActionGuideDataNameTextCommon_1827716096>
-<string><ICON PL_PT_SPEED_DOWN> / <ICON PL_PT_SPEED_DOWN> in aria
+<string><ICON PL_PT_SPEED_DOWN> / <ICON PL_PT_SPEED_DOWN> (a mezz'aria)
 <string>
 <string><REF ActionGuideDataNameTextCommon_m1476371200>
 <string><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON">
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>Puoi aumentare la tua velocità<lf>del Seikret tenendo premuto <ICON PL_PT_SPEED_UP>.<lf><lf>Usa <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> o <ICON PL_MOVE_RIGHT> mentre corri<lf>per inclinarti.<lf><lf>Usa <ICON PL_PT_SPEED_DOWN><ICON RELEASE>quando ti inclini e il Seikret<lf>correrà a una velocità maggiore di<lf>quella massima per un breve periodo.
+<string>Puoi aumentare la velocità del<lf>Seikret tenendo premuto <ICON PL_PT_SPEED_UP>.<lf><lf>Usa <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> o <ICON PL_MOVE_RIGHT> mentre corri<lf>per inclinarti.<lf><lf>Usa <ICON PL_PT_SPEED_DOWN><ICON RELEASE>quando ti inclini e il Seikret<lf>correrà a una velocità maggiore di<lf>quella massima per un breve periodo.
 <string>
 <string>Spostati
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> o <ICON PL_MOVE_RIGHT>
@@ -151,7 +151,7 @@
 <string><INPUTMSG MsgGUI600200_00_018>
 <string><INPUTMSG MsgGUI600200_00_019>
 <string><INPUTMSG MsgGUI600200_00_019_01>
-<string>Attacco durante caval./Smonta e attacca
+<string>Attacco in cavalcata/Smonta e attacca
 <string><ICON ME PL_WEAPON_ON> o <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
 <string>Puoi sferrare un attacco ravvicinato<lf>mentre cavalchi quando hai un'arma<lf>da mischia equipaggiata.<lf><lf><ICON ME PL_WEAPON_ON>: attacca mentre resti in sella.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: sferra un attacco mentre<lf>salti giù dal Seikret.
 <string>
@@ -181,14 +181,11 @@
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Automiglioramento
 <string>Aumenta la velocità di movimento.<lf>Accumulare questo effetto melodia più<lf>volte aumenta il potere di attacco<lf>e impedisce che gli attacchi siano<lf>respinti.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
 <string>
-<string><ICON ST_ARMOR> Annulla respinta
-<string>Impedisce di essere respinti quando<lf>si subiscono attacchi.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia del corno da caccia.
-<string>
 <string><ICON ST_MEAL_UP> Effetti pasto
 <string>Indica che hai ottenuto effetti<lf>dai pasti.<lf><lf>Come si ottiene di solito:<lf>- Mangiando
 <string>
 <string><ICON ST_POISON> Veleno
-<string>Uno stato che riduce progressivamente<lf>la vita. Accade dopo che lo stato si è<lf>accumulato a sufficienza.<lf><lf>Come si cura di solito:<lf>- Usando un antidoto o un rimedio<lf>erboristico.<lf>- Aspettando che l'effetto svanisca.
+<string>Uno stato che riduce progressivamente<lf>la vita. Si verifica dopo che lo stato<lf>si è accumulato a sufficienza.<lf><lf>Come si cura di solito:<lf>- Usando un antidoto o un rimedio<lf>erboristico.<lf>- Aspettando che l'effetto svanisca.
 <string>
 <string><ICON ST_PARALYSIS> Paralisi
 <string><INPUTMSG MsgGUI600200_00_020>
@@ -237,7 +234,7 @@
 <string><INPUTMSG MsgGUI600200_00_042>
 <string>
 <string>Arma estratta
-<string>Lo stato in cui la tua arma è estratta.<lf><lf>Premi <ICON PL_WEAPON_OFF> per rinfoderare l'arma.<lf><lf>Per visualizzare comandi dettagliati per ogni<lf>arma: Menu di gioco > Guida al gioco ><lf>Comandi delle armi
+<string>Lo stato in cui la tua arma è estratta.<lf><lf>Premi <ICON PL_WEAPON_OFF> per rinfoderare l'arma.<lf><lf>Per visualizzare comandi dettagliati <lf>per ogni arma: <lf>Menu di gioco > Guida al gioco ><lf>Comandi delle armi
 <string>
 <string>Rinfodera arma
 <string><ICON PL_WEAPON_OFF>
@@ -246,7 +243,7 @@
 <string>Quando si utilizza un'arma da mischia,<lf>viene visualizzato un indicatore che ne<lf>rappresenta l'acutezza. Colori diversi<lf>indicano la sua capacità di penetrare<lf>la pelle di un mostro.<lf><lf>Gli attacchi ridurranno gradualmente<lf>l'acutezza e armi con bassa acutezza<lf>risulteranno meno efficaci e avranno<lf>maggiori probabilità di essere respinte<lf>dalla pelle del mostro.
 <string>
 <string><REF Item_IT_21>
-<string>La cote è un oggetto che ripristina<lf>l'acutezza delle armi. È sempre<lf>disponibile tra gli strumenti di base<lf>nella tua barra oggetti.<lf><lf>Si può usare anche quando l'arma<lf>è estratta se la assegni a una scorciatoia<lf>o al menu di scelta rapida.
+<string>La cote è un oggetto che ripristina<lf>l'acutezza delle armi. È sempre<lf>disponibile tra gli strumenti base<lf>nella tua barra oggetti.<lf><lf>Si può usare anche quando l'arma<lf>è estratta se la assegni a una scorciatoia<lf>o al menu di scelta rapida.
 <string>
 <string>Modalità precisione
 <string>Modalità precisione
@@ -269,25 +266,25 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>Quando blocchi certi attacchi, si avvierà<lf>uno scontro tra mostro e cacciatore.<lf><lf>Premi <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> per respingere il mostro<lf>e fargli perdere l'equilibrio, aprendoti<lf>così un varco per attaccare.
+<string>Quando blocchi certi attacchi, si avvierà<lf>uno scontro tra mostro e cacciatore.<lf><lf>Premi ripetutamente <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> per<lf>respingere il mostro e<lf>fargli perdere l'equilibrio, aprendoti<lf>così un varco per attaccare.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>Puoi attivare un attacco di reazione<lf>usando certi attacchi mentre un mostro<lf>attacca per respingerlo.<lf><lf>Esistono inoltre attacchi potenti<lf>che puoi usare dopo<lf>un attacco di reazione.
+<string>Puoi attivare un attacco di reazione<lf>usando certi movimenti proprio quando<lf>un mostro attacca per respingerlo,<lf>e se possibile per abbatterlo.<lf><lf>Se il tuo attacco di reazione abbatte<lf>un mostro, puoi proseguire con diversi<lf>attacchi potenti.
 <string>
 <string>Attacco furtivo
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>Gli strumenti dedicati sono un tipo<lf>di equipaggiamento con abilità potenti.<lf><lf>Proprio come gli strumenti base, è possibile<lf>attivarli o annullarli premendo <ICON PL_WP_ON_ACTIVE_SKILL><lf>mentre la barra oggetti è aperta. Si possono<lf>anche usare mentre l'arma è estratta.<lf><lf>Possono essere usati più volte, ma<lf>hanno un tempo di recupero.<lf><lf>I mantelli diversi da quello mimetico<lf>si trovano in Cambia equipaggiamento.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>Il mantello mimetico si può usare per<lf>nascondersi temporaneamente dai<lf>mostri. Attaccare o subire danni<lf>terminerà l'effetto a prescindere<lf>dal tempo rimasto.<lf><lf>A differenza di altri strumenti dedicati,<lf>il mantello mimetico fa parte degli<lf>strumenti base che porti sempre con te.
 <string>
 <string>Consigli per la caccia
 <string>In groppa
-<string>Infliggendo abbastanza danni a<lf>un mostro mentre gli sei sopra<lf>lo manderai a terra.<lf><lf>Se consumi tutta la resistenza mentre<lf>lo cavalchi, cadrai giù dal mostro.<lf><lf>Puoi anche ferire il mostro mentre<lf>lo cavalchi. Quando punti a una ferita,<lf>ogni arma può eseguire un attacco<lf>unico, quindi mentre sei in groppa<lf>assicurati di colpire le ferite!
+<string>Infliggendo abbastanza danni a<lf>un mostro mentre gli sei in groppa<lf>lo manderai a terra.<lf><lf>Se consumi tutta la resistenza mentre<lf>lo cavalchi, cadrai giù dal mostro.<lf><lf>Puoi anche ferire il mostro mentre<lf>lo cavalchi. Quando punti a una ferita,<lf>ogni arma può eseguire un attacco<lf>unico, quindi mentre sei in groppa<lf>assicurati di colpire le ferite!
 <string>
 <string>Attacchi in salto
 <string><ICON PL_ATTACK_00> durante un salto
@@ -299,7 +296,7 @@
 <string>
 <string>Attacco in sella: <REF ActionGuideDataNameTextCommon_m739066880>
 <string><INPUTMSG MsgGUI600200_00_037>
-<string>Un potente attacco con coltello.<lf>Infligge una quantità di danni<lf>relativamente piccola, ma può<lf>provocare ferite.
+<string>Un attacco pesante con coltello.<lf>Infligge pochi danni ma<lf>può provocare ferite.
 <string>
 <string>Attacco in sella: <REF ActionGuideDataNameTextCommon_32227848>
 <string><INPUTMSG MsgGUI600200_00_038>
@@ -318,40 +315,40 @@
 <string>Puoi smontare da un mostro in anticipo,<lf>saltando via da esso.
 <string>
 <string><REF RefStatus_0008_002_02>
-<string>Avvelena un mostro, facendogli<lf>perdere gradualmente salute. Si può<lf>infliggere effettuando attacchi velenosi<lf>che ridurranno pian piano la resistenza<lf>iniziale del mostro. I danni inflitti dal<lf>veleno e la durata variano per ogni mostro.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro guadagnerà<lf>resistenza, rendendo sempre più<lf>difficile la possibilità di avvelenarlo.
+<string>Avvelena un mostro, facendogli<lf>perdere gradualmente salute. Si può<lf>infliggere effettuando attacchi velenosi<lf>che accumulano pian piano lo status<lf>sul mostro. I danni inflitti dal veleno<lf>e la sua durata variano per ogni mostro.<lf>Ogni volta che gli è inflitto questo<lf>status, il mostro diventerà sempre<lf>più resistente, rendendo<lf>più difficile avvelenarlo.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string>Se un mostro è paralizzato, per un<lf>po' di tempo non riuscirà a muoversi.<lf>Si può infliggere effettuando attacchi<lf>paralitici che ridurranno pian piano<lf>la resistenza iniziale del mostro.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro guadagnerà<lf>resistenza, riducendo la durata<lf>dell'effetto subito.
+<string>Se un mostro è paralizzato, per un<lf>po' di tempo non riuscirà a muoversi.<lf>Si può infliggere effettuando attacchi<lf>paralitici che accumulano pian piano<lf>lo status sul mostro. Ogni volta che gli<lf>è inflitta questa alterazione, il mostro <lf>diventerà più resistente, riducendo la<lf>durata dell'effetto subito.
 <string>
 <string>Sonno
-<string>Se fai addormentare un mostro, per un<lf>po' di tempo non riuscirà a muoversi.<lf>Infliggi questo stato ai mostri con<lf>attacchi di sonno che ridurranno pian<lf>piano la resistenza iniziale del mostro.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro guadagnerà<lf>resistenza, riducendo la durata<lf>dell'effetto subito.
+<string>Se fai addormentare un mostro, per un<lf>po' di tempo non riuscirà a muoversi.<lf>Infliggi questo stato ai mostri con<lf>attacchi di sonno che accumulano pian<lf>piano lo status sul mostro. Ogni volta<lf>che gli è inflitta questa alterazione, il<lf>mostro diventerà sempre più resistente,<lf>riducendo la durata dell'effetto subito.
 <string>
 <string>Stordimento
-<string>I mostri che subiscono stordimento<lf>non riusciranno a muoversi per un po'<lf>di tempo. Infliggi questo stato ai mostri<lf>danneggiando direttamente parti<lf>specifiche del suo corpo, come la testa.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro guadagnerà<lf>resistenza, riducendo la durata<lf>dell'effetto subito.
+<string>I mostri che subiscono stordimento<lf>non riusciranno a muoversi per un po'<lf>di tempo. Infliggi questo stato ai mostri<lf>danneggiando direttamente parti<lf>specifiche del suo corpo, come la testa.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro diventerà sempre<lf>più resistente, riducendo la durata<lf>dell'effetto subito.
 <string>
-<string>Sussulto
-<string>Quando i mostri sono spaventati sussultano,<lf>il che riduce la loro resistenza. È possibile far<lf>sussultare un mostro infliggendogli dei danni<lf>contundenti ripetutamente.
+<string>Fatica
+<string>Quando la resistenza dei mostri viene<lf>ridotta, verranno afflitti da affaticamento.<lf>È possibile far entrare un mostro in questo<lf>stato infliggendogli dei danni contundenti<lf>ripetutamente.
 <string>
 <string>Malus sonico
 <string>Uno stato in cui un mostro va<lf>in preda al panico a causa di un forte<lf>rumore. Si può infliggere colpendo<lf>un mostro con un baccello sonico<lf>durante determinate azioni, come quando<lf>scava nella sabbia. Se gli viene inflitto<lf>troppe volte, il mostro diventerà<lf>più resistente a questo stato.
 <string>
 <string>Accecamento
-<string>Uno stato in cui un mostro è accecato<lf>e non riesce a catturare prede.<lf>Si può infliggere usando baccelli<lf>lampo o insetti abbaglio.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro guadagnerà<lf>resistenza, riducendo la durata<lf>dell'effetto subito.
+<string>Uno stato in cui un mostro è accecato<lf>e non riesce a catturare prede.<lf>Si può infliggere usando baccelli<lf>lampo o insetti abbaglio.<lf>Ogni volta che gli è inflitta questa<lf>alterazione, il mostro diventerà<lf>sempre più resistente, riducendo<lf>la durata dell'effetto subito.
 <string>
 <string>Fetore
-<string>Uno stato in cui un mostro è intriso di<lf>un fetore terribile. Si può infliggere con<lf>i baccelli letame, costringendo il mostro<lf>ad allontanarsi.
+<string>Uno stato in cui un mostro è intriso di<lf>un fetore terribile. Si può infliggere con<lf>i baccelli letame, costringendo il mostro<lf>a scappare.
 <string>
 <string>Punti deboli dei mostri
 <string>Prima o dopo un suo attacco, un punto<lf>debole di un mostro potrebbe essere<lf>scoperto. Puoi trovare questi punti<lf>deboli usando la modalità precisione.<lf><lf>Attaccando un punto debole con un colpo<lf>preciso creerai una grande occasione<lf>per sferrare attacchi.
 <string>
 <string>Ferite
-<string>Attaccando ripetutamente un mostro<lf>nello stesso punto, potrai aprire<lf>una ferita. Una ferita può avere<lf>tre livelli: un taglio, una ferita<lf>aperta dopo ulteriori attacchi e<lf>infine una cicatrice dopo<lf>che la ferita è distrutta.<lf><lf>Attaccare una ferita aumenterà i danni<lf>e sferrare un colpo preciso distruggerà<lf>la ferita in un colpo.
+<string>Attaccando ripetutamente un mostro<lf>nello stesso punto, potrai aprire<lf>una ferita. Una ferita può avere<lf>tre livelli: un taglio, una ferita<lf>aperta dopo ulteriori attacchi e<lf>infine una cicatrice dopo<lf>che la ferita è stata distrutta.<lf><lf>Attaccare una ferita aumenterà i danni<lf>e sferrare un colpo preciso la <lf>distruggerà in un colpo solo.
 <string>
 <string>Cattura di mostri
 <string>I mostri indeboliti possono essere<lf>catturati con trappole o sfere<lf>soporifere. Non si possono ricavare<lf>materiali dai mostri catturati.<lf><lf>La Gilda incoraggia a catturare mostri<lf>così da esaminarli senza cacciarli.<lf>Per questo, talvolta queste richieste<lf>sono ricompensate con materiali che<lf>sono difficili o impossibili da<lf>ricavare dalle parti del mostro.
 <string>
 <string>Indebolire un mostro
-<string>Per catturare un mostro, prima devi<lf>indebolirlo fino a un certo punto.<lf><lf>Dopo che è indebolito, usa trappole<lf>coperte o trappole scossa per<lf>bloccarlo, poi usa oggetti da cattura<lf>come sfere soporifere per<lf>trattenerlo ulteriormente.<lf><lf>Una volta che è completamente<lf>immobilizzato e addormentato,<lf>la cattura sarà completa.
+<string>Per catturare un mostro, bisogna prima<lf>indebolirlo fino a un certo punto.<lf><lf>Una volta indebolito, usa trappole<lf>coperte o trappole scossa per<lf>bloccarlo, poi usa oggetti da cattura<lf>come sfere soporifere per<lf>trattenerlo ulteriormente.<lf><lf>Quando il mostro è completamente<lf>immobilizzato e addormentato,<lf>la cattura sarà completa.
 <string>
 <string>Intrappolare i mostri
 <string>

@@ -1,24 +1,24 @@
 ﻿<string>{0}<lf>entrou no lobby.
 <string>Você entrou no lobby de<lf>{0}.
 <string>{0}<lf>saiu do lobby.
-<string>{0}<lf>entrou no grupo de elo.
-<string>Você entrou no grupo de elo de<lf>{0}.
-<string>{0}<lf>deixou o grupo de elo.
-<string>Você recusou o convite do grupo de elo.
-<string>{0}<lf>não conseguiu entrar no grupo de elo.
-<string>{0} entrou no seu<lf>elo de ambiente.
-<string>Você entrou no elo de<lf>ambiente de {0}.
-<string>{0} saiu do elo de ambiente.
+<string>{0}<lf>entrou no Grupo de Elo.
+<string>Você entrou no Grupo de Elo de<lf>{0}.
+<string>{0}<lf>deixou o Grupo de Elo.
+<string>Você recusou o convite do Grupo de Elo.
+<string>{0}<lf>não conseguiu entrar no Grupo de Elo.
+<string>{0} entrou no seu<lf>Elo de Ambiente.
+<string>Você entrou no Elo de<lf>Ambiente de {0}.
+<string>{0} saiu do Elo de Ambiente.
 <string>Voltou ao seu próprio ambiente.
-<string>Você recusou o convite<lf>ao elo de ambiente.
-<string>{0} não conseguiu<lf>entrar no elo de ambiente.
+<string>Você recusou o convite<lf>ao Elo de Ambiente.
+<string>{0} não conseguiu<lf>entrar no Elo de Ambiente.
 <string>Você recusou o convite de missão.
 <string>{0}<lf>não conseguiu se juntar à missão.
 <string>{0}<lf>publicou uma missão.
 <string>{0}<lf>se juntou à missão.
 <string>Você se juntou à missão de<lf>{0}.
-<string>{0}<lf>abandonou a missão.<lf>
-<string>{0} publicou uma missão<lf>e está aguardando mais participantes.
+<string>{0}<lf>abandonou a missão.
+<string>{0} aceitou uma missão<lf>e está aguardando mais participantes.
 <string>Você desmaiou. Prêmios reduzidos.<lf>(Tentativas restantes: {0})
 <string>{1} desmaiou. Prêmios reduzidos.<lf>(Tentativas restantes: {0})
 <string>Você desmaiou.<lf>Prêmios reduzidos a zero.
@@ -28,9 +28,9 @@
 <string>Objetivo principal concluído!
 <string>Acabou o tempo!
 <string>Convite de Grupo de Elo
-<string>{0}<lf>te enviou um convite de grupo de elo.
+<string>{0}<lf>te enviou um convite de Grupo de Elo.
 <string>Convite de Elo de Ambiente
-<string>{0} enviou um convite de<lf>elo de ambiente para você.
+<string>{0} enviou um convite de<lf>Elo de Ambiente para você.
 <string>Convite de Missão
 <string>{0}<lf>te enviou um convite de missão.
 <string>Tempo restante: <PLURAL {0} "minuto" "minutos">.
@@ -54,15 +54,15 @@
 <string>Outro jogador foi indicado<lf>como líder do Grupo de Elo.
 <string>{0}<lf>recebeu o controle do Lobby privado.
 <string>Outro jogador recebeu<lf>o controle do Lobby privado.
-<string>Devolver suprimentos.
+<string>Devolvendo suprimentos.
 <string>Anúncio
-<string><PLURAL {0} "{0} notificação recebida" "{0} notificações recebidas"> enquanto online:.
+<string><PLURAL {0} "{0} notificação" "{0} notificações"> recebidas enquanto estava<lf>offline.
 <string>Anúncio
 <string>Recebeu <PLURAL {0} "{0} notificação de convite" "{0} notificações de convite">.
 <string>Pedidos de Amizade
 <string>Recebeu um pedido de amizade<lf>de {0}.
 <string>Agora você tem amizade com {0}.
-<string>Membros do Elo de Ambiente estão em combate!
+<string>Membros do Elo de Ambiente estão em<lf>uma caçada!
 <string>Começando um Trabalho de Campo<lf>de {0}.
 <string>Cancelar
 <string>Os suprimento foram reabastecidos.<lf>(Verifique os suprimentos com <INPUTMSG MsgGUI020100_0011>.)
@@ -75,7 +75,7 @@
 <string>Missão fracassada...
 <string>Convites de Missão (Reenviados)
 <string>Agora você pode receber convites de missão de {0}.
-<string>Item Fixo obtido:<lf><COLOR preset="TXT_Accent">Ferramentas de Caça</COLOR>
+<string>Itens Essenciais obtidos:<lf><COLOR preset="TXT_Accent">Ferramentas de Caça</COLOR>!
 <string>Atualização de Visão Geral do Ambiente
 <string>Avistaram {0}<lf>em {1}!
 <string>Abrir Mapa
@@ -83,10 +83,7 @@
 <string>Vários alvos disponíveis para criação de<lf>missão combinada!
 <string>Abrir Mapa
 <string>Atualização de Visão Geral do Ambiente
-<string>{0}, o predador<lf>alfa desta região, apareceu!
-<string>Abrir Mapa
-<string>Atualização de Visão Geral do Ambiente
-<string>{0} apareceu.<lf>Tem mais prêmios do que o normal!
+<string>{0}, o predador máximo<lf>desta região, apareceu!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>{0} apareceu!
@@ -96,7 +93,7 @@
 <string>Abrir Mapa
 <string>{0} saiu do local...
 <string>Visão Geral do Ambiente
-<string>Um bando com um {0}<lf>apareceu!
+<string>Um bando, com {0},<lf>apareceu!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>O bando com um {0}<lf>deixará o local em breve!
@@ -109,7 +106,7 @@
 <string>Abundância de {0} detectada!
 <string>Abrir Mapa
 <string>Perdeu {0}.
-<string>Pedidos de Missão
+<string>Pedidos de Participação
 <string>Você recebeu um Pedido de Participação.<lf>Revise para aceitar ou recusar.
 <string>Você saiu do Lobby.
 <string>Conexão perdida.
@@ -118,17 +115,17 @@
 <string>Sem suprimentos.
 <string>Trabalho de Campo abandonado.
 <string>Não é possível carregar mais Suprimentos.<lf>Suprimentos excedentes descartados.
-<string>Recebeu a bênção do<lf>Efeito de Melodia <BOLD>{0}</BOLD>
+<string>Recebeu o Efeito de Melodia<lf><BOLD>{0}</BOLD>.
 <string>Efeito de Melodia <BOLD>{0}</BOLD><lf>ativado!
 <string>O Efeito de Melodia ≪{0}≫ passou.
 <string>O efeito de<lf><COL YEL>{0}</COL> passou.
-<string>É possível usar ≪{0}≫ agora.
-<string>Os efeitos de bebida gelada passaram.
-<string>Os efeitos de bebida quente passaram.
+<string>{0} está disponível agora.
+<string>Os efeitos da bebida gelada passaram.
+<string>Os efeitos da bebida quente passaram.
 <string>Não é possível designar como alvo da missão.<lf>Abra a tela de partida com <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
 <string>Não é possível<lf>transformar {0} em alvo de missão.
 <string>Não é possível<lf>transformar {0} em alvo de missão. (RC muito baixo)
-<string>Alterado de Um Jogador Online para o modo Online.
+<string>Alterado de Um Jogador Online<lf>para o modo Online.
 <string>Alterado para o modo Um Jogador Online.
 <string>Tempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">
 <string>Tempo restante até o final do Teste Beta:<lf><PLURAL {0} "{0} minuto" "{0} minutos">.
@@ -141,18 +138,18 @@
 <string>Atualização de Visão Geral do Ambiente
 <string>{0} apareceu.<lf>Com prêmios bônus raros!
 <string>Abrir Mapa
-<string>O grupo de elo foi desfeito<lf>pois há apenas um membro.
-<string>Não foi possível entrar no elo de ambiente {0}.
-<string>Saiu do elo de ambiente {0}.
-<string>O elo de ambiente foi desfeito.
+<string>O Grupo de Elo foi desfeito<lf>pois há apenas um membro.
+<string>Não foi possível entrar no Elo de Ambiente {0}.
+<string>Saiu do Elo de Ambiente {0}.
+<string>O Elo de Ambiente foi desfeito.
 <string>Falha ao entrar na missão.
 <string>Os efeitos de refeição acabarão em breve.
 <string>Atualização de Visão Geral do Ambiente
 <string>Participe de missões com vários alvos<lf>para ganhar prêmios bônus raros!
 <string>Abrir Mapa
-<string>Saiu do grupo de elo.
+<string>Saiu do Grupo de Elo.
 <string>Movimento Manual
 <string>Movimento Automático
 <string>Exploração Automática
-<string>O modo Um Jogador Online foi removido temporariamente.
+<string>O modo Um Jogador Online<lf>foi desativado temporariamente.
 <string>O crossplay está atualmente habilitado.

@@ -15,7 +15,7 @@
 <string>Modo de Disparo Rápido
 <string>Disparo Rápido consome sua barra de Energia<lf>para disparar vários tiros rapidamente.
 <string>Cores da Barra Espiritual
-<string>Acertar um Corte Giratório Espiritual ou<lf>outros ataques especiais avança a cor<lf>da Barra Espiritual e o poder de ataque.
+<string>Acertar ataques especiais como o Corte<lf>Giratório Espiritual muda a cor da Barra<lf>Espiritual e aumenta seu poder de ataque.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -41,9 +41,9 @@
 <string>Entalhe
 <string>Pressione <ICON PL_POP> próximo a um monstro abatido<lf>para talhar materiais dele.
 <string>Embainhe Antes de Perseguir!
-<string>Se for perseguir um monstro, guarde sua<lf>arma usando <ICON PL_WEAPON_OFF> e depois corra com <ICON PL_DASH>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>Reabastecendo Seus Itens
-<string>Você receberá novos suprimentos caso<lf>desmaie. Use <ICON PL_ACCESS_ITEM_BAG> para checar sua bolsa.
+<string>Você receberá novos suprimentos caso<lf>desmaie. Suba no Seikret e aperte <ICON PL_ACCESS_ITEM_BAG><lf>para checar a bolsa.
 <string>Observe os Monstros Atentamente
 <string>Atente-se aos movimentos dos monstros e<lf>aprenda os padrões de ataque de cada um.
 <string>Emboscando Monstros
@@ -68,16 +68,16 @@
 <string>É possível abrir o mapa pressionando <ICON PL_MAP_CHANGE>.<lf>Use-o quando quiser conferir o seu destino.
 <string>Selecionando e Usando Itens
 <string>Segure <ICON PL_ITEM_SLIDER_OPEN> e selecione o item usando <ICON UI_ITEM_LEFT> ou <ICON UI_ITEM_RIGHT>.<lf>Solte <ICON PL_ITEM_SLIDER_OPEN> e pressione <ICON PL_ITEM> para usá-lo.
-<string>Recuperando Suprimentos
-<string>Suprimentos serão recuperados<lf>ao concluir missões.
-<string>Potenciais Locais para Acamp. Simples
-<string>Um Local de Acampamento está próximo.<lf>Quando encontrá-lo, use o item abaixo<lf>para montar acampamento.
+<string>Devolução de Suprimentos
+<string>Suprimento serão devolvidos<lf>ao concluir uma missão.
+<string>Possíveis Locais de Acampamento
+<string>Um local de acampamento está próximo.<lf>Quando encontrá-lo, use o item abaixo<lf>para montar o acampamento.
 <string>Disparo Energizado
-<string>O poder aumenta conforme o nível energizado.<lf>Consome Vigor enquanto energiza.
+<string>O poder aumenta conforme o nível<lf>energizado. Consome Vigor<lf>enquanto energiza.
 <string>Nota
-<string>Ao executar um ataque, uma Nota é tocada<lf>de acordo com o botão que foi pressionado.
+<string>Ao executar um ataque, uma nota é tocada<lf>de acordo com o botão que foi pressionado.
 <string>Tocar
-<string>Quando certos tons são tocados em sequência,<lf>um Efeito de Melodia acontece.
+<string>Efeitos de Melodia ocorrem quando<lf>certas notas são tocadas em sequência.
 <string>Barra de Transição (Modo Machado)
 <string>Atacar no Modo Machado preenche<lf>a Barra de Transição.
 <string>Barra de Transição (Modo Espada)
@@ -85,9 +85,9 @@
 <string>Combo de Kinseto
 <string>Quando você ataca durante o Modo de Foco,<lf>Kinsetos também atacam e coletam Extratos.
 <string>Bolha de Eco
-<string>Ao Tocar com uma Bola de Eco posicionada,<lf>ataques Reverberantes serão emitidos dela.
-<string>Marcação e Efeitos de Poeira
-<string>Kinsetos atacarão automaticamente um local<lf>marcado, criando um Efeito de Poeira.
+<string>Ao Tocar com uma Bola de Eco posicionada,<lf>ataques Reverberantes serão emitidos<lf>dela.
+<string>Marcação e Pó de Kinseto
+<string>Kinsetos atacarão automaticamente um<lf>local marcado, criando um<lf>Efeito de Poeira.
 <string>Ataque Inibidor
 <string>É possível inibir o ataque de um monstro<lf>aparando-o no momento exato usando um<lf>Ataque Inibidor.
 <string>Pilares de Pedra Instáveis
@@ -95,19 +95,15 @@
 <string>Caçando nas Dunas
 <string>Dunas são instáveis e podem desmoronar<lf>ao sofrerem impactos fortes. Isso pode<lf>fazer com que você perca o equilíbrio.
 <string><REF Gimmick_NAME_m2034503552>
-<string>Agachar na grama alta dificulta que<lf>monstros te encontrem.
+<string>Agachar na grama alta antes que monstros<lf>tenham notado você faz com que seja mais<lf>difícil para eles te enxergarem.
 <string><REF Gimmick_NAME_32>
 <string>É possível derrubar uma pedra ao atingi-la<lf>com a atiradeira-gancho.
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>Quando atingido, este sapo libera um<lf>gás que paralisa qualquer monstro<lf>que tocar.
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>Atacar causa uma explosão de néctar na área,<lf>criando um efeito de regeneração enquanto<lf>estiver dentro do alcance.
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>Atacar causa uma explosão de néctar na área,<lf>criando um efeito de regeneração grande<lf>enquanto estiver dentro do alcance.
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>Quando sofre impacto, emite um clarão<lf>de luz que cega os monstros.
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>O esterco que ele rola pode ser usado<lf>como munição da Atiradeira, na forma<lf>de uma cápsula de esterco.
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>O néctar em suas costas pode ser coletado<lf>e consumido para recuperar vida.
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -122,7 +118,7 @@
 <string>Veneno reduz a sua vida lentamente com<lf>o tempo. Cure-se usando um antídoto.
 <string>Atordoamento
 <string><REF MsgGUI600000_Tips_EXP_119>
-<string>Atordoamento por Luz
+<string>Cegueira
 <string><REF MsgGUI600000_Tips_EXP_120>
 <string>Paralisia
 <string><REF MsgGUI600000_Tips_EXP_121>
@@ -139,11 +135,11 @@
 <string>Escudo: Reforço Elemental
 <string>Gaste frascos para aumentar o seu bloqueio<lf>temporariamente e ganhar ataques no Modo<lf>Machado.
 <string>Estocada Tripla e Contra-estocada
-<string>Você pode executar um ataque de quarto<lf>nível após Estocada Média III ou Estocada<lf>Alta III.
+<string>Você pode executar um ataque de quarto<lf>nível após Estocada Média III ou<lf>Estocada Alta III.
 <string>Carregando a Barra de Transição
 <string>Ataque no Modo Machado para encher<lf>a Barra de Transição.
 <string>Iniciando uma Missão
-<string>Ataque um monstro chefe grande<lf>para iniciar a missão.
+<string>Uma missão começará após uma certa<lf>quantidade de dano ser causada ao<lf>monstro alvo.
 <string>Área de Treinamento
 <string>Você pode usar a Área de Treinamento<lf>no Acampamento das Planícies Zéfiras.
 <string>Pontos de Coleta Ativos
@@ -159,13 +155,13 @@
 <string>Consulte o Mapa Detalhado
 <string>Abra o Mapa Detalhado com <ICON PL_MAP_CHANGE> para conferir<lf>quais monstros estão por perto.
 <string>Disparar Munição Normal
-<string>Munição normal é eficiente contra monstros<lf>a média ou curta distância.
+<string>Munição normal é eficiente contra<lf>monstros a média ou curta distância.
 <string>Disparar Munição Perfurante
 <string>Munição perfurante é eficiente contra<lf>monstros a longa distância.
 <string>Disparar Munição Dispersa
 <string>Munição dispersa é eficiente contra<lf>monstros a curta distância.
 <string>Disparar Munição Normal
-<string>Munição normal é eficiente contra monstros<lf>a média ou curta distância.
+<string>Munição normal é eficiente contra<lf>monstros a média ou curta distância.
 <string>Disparar Munição Perfurante
 <string>Munição perfurante é eficiente contra<lf>monstros a longa distância.
 <string>Disparar Munição Dispersa
@@ -183,14 +179,14 @@
 <string>Disparo em Distância Crítica
 <string>Quando a mira fica laranja, você está na<lf>distância ideal. Mantenha-a para causar<lf>o máximo de dano.
 <string>Atacar Ferimentos
-<string>Atacar um ferimento causará mais dano.<lf>Use o Modo de Foco com <ICON PL_AIM> para mirar em<lf>um ferimento.
+<string>Cause mais dano mirando em ferimentos<lf>no Modo de Foco com <ICON PL_AIM>. 
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string>Aperte <ICON WP13 PL_ATTACK_01> após disparar para executar<lf>um Disparo Rastreador, um poderoso<lf>ataque que causa mais dano ainda.
 <string>Carne é Bem Passada!
 <string>Bifes bem passados são deliciosos...<lf>E aumentam sua vida e vigor máximos!<lf>Não esqueça de encher o bucho antes da caça.
 <string>Não Cace de Estômago Vazio!
-<string>Os efeitos da carne passaram!<lf>A caça é muito melhor de estômago cheio.<lf>Coma outra refeição e aumente seus atributos!
+<string>Caçar de barriga cheia é muito melhor.<lf>Use a Grelha Portátil para preparar<lf>outra refeição e aumentar seus atributos!
 <string>Alternar Arma
-<string>Troque entre sua arma<lf>primária e secundária com <ICON PL_WEAPON_CHANGE>.
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>Recuperando Vida
 <string>Use poções para restaurar sua vida<lf>quando estiver se esgotando.

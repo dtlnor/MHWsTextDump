@@ -2,7 +2,7 @@
 <string>请输入猎人的名称。<lf><lf><COLOR preset="TXT_Accent">最多可显示10个全角文字。</COLOR>
 <string>{0}<lf>是否使用此名称？
 <string>请输入随从艾露猫的名称。<lf><lf><COLOR preset="TXT_Accent">最多可显示10个全角文字。</COLOR>
-<string>请选择教学的显示等级。<lf>（可随时在“开始菜单”→“选项”中变更）<lf><lf><COLOR preset="TXT_Accent">显示基础教学</COLOR>：推荐想从基础开始学习的玩家使用<lf><COLOR preset="TXT_Accent">显示老手教学</COLOR>：推荐熟悉本系列的老玩家使用
+<string>请选择教学的显示等级。<lf>（可随时在“开始菜单”→“选项”中变更）<lf><lf><LEFT>　　<COLOR preset="TXT_Accent">显示基础教学</COLOR>：推荐想从基础开始学习的玩家使用</LEFT><lf><LEFT>　　<COLOR preset="TXT_Accent">显示老手教学</COLOR>：推荐熟悉本系列的老玩家使用</LEFT>
 <string>显示基础教学
 <string>显示老手教学
 <string>请选择是否重复显示部分教学信息。<lf><lf>（可随时在“开始菜单”→“选项”中变更）
@@ -230,7 +230,7 @@
 <string>预设外观
 <string>详细设置
 <string>使用艾露猫语
-<string>将自己与其他玩家的随从艾露猫语音全部设置为艾露猫语。（也可在“选项”中变更设置）
+<string>将包括随从在内的艾露猫语音全部设置为艾露猫语。<COLOR preset="TXT_Accent">（也可在“选项”中变更设置）</COLOR>
 <string>语音音色
 <string>音调高低
 <string>调整音调高低可能会导致某些情况难以听清。
@@ -308,7 +308,7 @@
 <string>+{0}
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
-<string>角色显示选项
+<string>自定展示选项
 <string>光照颜色
 <string>室内
 <string>白昼
@@ -348,8 +348,8 @@
 <string>受伤
 <string>随从艾露猫的表情示例
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> 转动光源
-<string><ICON UI_LIST_TRIGGER_L2>／<ICON UI_LIST_TRIGGER_R2> 转动光源
+<string><ICON PAD PL_DUMMY_MOVE> 转动光源
+<string><ICON MKB UI_LIST_TRIGGER_L2>／<ICON MKB UI_LIST_TRIGGER_R2> 转动光源
 <string>隐藏界面
 <string>外观方案：猎人
 <string>外观方案：随从艾露猫
@@ -380,7 +380,7 @@
 <string>可变更名称。
 <string>变更随从艾露猫的名称。<lf><COLOR preset="TXT_Accent">部分内容可能不会显示变更后的名称，<lf>或需要一段时间才会显示。</COLOR>
 <string>要放弃所有编辑内容并结束吗？<lf><COLOR preset="TXT_Accent">（不消耗随从造型券）</COLOR>
-<string>要应用此变更吗？<lf><COLOR preset="TXT_Accent">（变更造型的内容均在通常范围内，<lf>不会消耗随从造型券）</COLOR>
+<string>要应用此变更吗？<lf><COLOR preset="TXT_Accent">（变更造型的内容均在通常范围内，<lf>　不会消耗随从造型券）</COLOR>
 <string>要应用此变更吗？<lf><COLOR preset="TXT_Accent">（将消耗1张随从造型券）</COLOR>
 <string>结束编辑随从艾露猫。
 <string>自动生成面容

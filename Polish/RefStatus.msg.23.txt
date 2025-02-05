@@ -2,7 +2,7 @@
 <string>Informacje o wyposażeniu
 <string>Premia za typ broni
 <string>Wg umiejętności
-<string>Posiadane umiejętności
+<string>Aktywne umiejętności
 <string>Umiejętności
 <string>Umiejętności z pokarmu
 <string>Status ataku
@@ -16,14 +16,13 @@
 <string>Informacje o gnieździe
 <string>Brak ozdób
 <string>Brak gniazd
-<string>Brak
 <string>Analiza poziomu
 <string>Poziom umiejętności
 <string>Wymagania
-<string>Po
+<string>Po zmianie
 <string>Poziom ulepszenia
-<string>{0} <REF RefGeneral_0015_002>
-<string><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>{0}<REF RefGeneral_0015_002>
+<string>[{0}]
 <string>Zdrowie
 <string>Wytrzymałość
 <string>Atak
@@ -46,15 +45,15 @@
 <string>Ostrość
 <string>Zgodność
 <string>Premia do obrony
-<string>Niższe obr. fizyczne
-<string>Niższe obr. od żywiołów
+<string>Redukcja obr. fizycznych
+<string>Redukcja obr. żywiołów
 <string>Ognioodporność
 <string>Wodoodporność
 <string>Piorunoodporność
 <string>Lodoodporność
 <string>Smokoodporność
 <string>Odporności na żywioły
-<string>Nuta
+<string>Uwagi
 <string>Bańka echa
 <string>Typ ostrzału
 <string>Normalny
@@ -79,7 +78,7 @@
 <string>Fiolka uderzenia
 <string>Fiolka żywiołu
 <string>Poziom kinsekta
-<string>Podstawowa amunicja
+<string>Amunicja podstawowa
 <string>Modyfikacje
 <string>Amunicja specjalna
 <string><REF RefEquipment_0007_03_00>
@@ -88,11 +87,11 @@
 <string>Poz. 1
 <string>Poz. 2
 <string>Poz. 3
-<string>Strzał zapłonu/specjalistyczny
-<string>Spec. silny strzał I
-<string>Spec. silny strzał II
-<string>Spec. strzał zapłonu I
-<string>Spec. strzał zapłonu II
+<string>Typ podst. – tryb stand./zapł.
+<string>Tryb standardowy TS I
+<string>Tryb standardowy TS II
+<string>Tryb zapłonu TS I
+<string>Tryb zapłonu TS II
 <string><REF RefEquipment_0007_00_00>
 <string><REF RefEquipment_0007_00_01>
 <string><REF RefEquipment_0007_01_00>
@@ -102,24 +101,24 @@
 <string>Rodzaj ataku
 <string>Obuchowy
 <string>Tnący
-<string>Efekt pyłu
+<string>Kinsektowy proch
 <string>Regeneracja
 <string>Trucizna
 <string>Paraliż
 <string>Wybuch
-<string>Poziom kinsekta
+<string>Poz. kinsekta
 <string>Efekt proszku
 <string>Premia za kinsekta
 <string>Moc
 <string>Szybkość
 <string>Wytrzymałość
-<string>Wzm. kinsekta: zbierz ekstrakt
-<string>Komb. wzm. kinsekta: żywioł
+<string>Wzmocnienie kinsekta: zebranie ekstraktu
+<string>Wzmocnienie kombinacji kinsekta: żywioł
 <string>Wzm. ataku: proszek
 <string>Wzm. kinsekta: reg. wytrzym.
 <string>Wzm. ekstraktu: regen.
 <string>Wzm. kinsekta: sz. ładowanie
-<string>Wzm. ataku: cel. w słaby punkt
+<string>Wzm. ataku: skup. na słab. punk.
 <string>Informacje o amunicji
 <string>Szybki ogień
 <string>Pojemność
@@ -131,8 +130,8 @@
 <string>Status
 <string>W terenie
 <string>Oczekiwanie
-<string>Kontaktowa
-<string>Dystansowa
+<string>Bliski
+<string>Daleki
 <string>Rodzaj ataku
 <string>Tnący
 <string>Obuchowy
@@ -141,15 +140,13 @@
 <string>Dostawa bolic spijek
 <string>Umieść parażołądź
 <string>Rozdzierator
-<string>Pieczarflet: Nuta mocy
-<string>Pieczarflet: Nuta ochrony
-<string>Przyciąga wigorosy
-<string>Klatka z błyskówką
+<string>Trąbowik: Nuta mocy
+<string>Trąbowik: Nuta ochrony
 <string>Kiedy twoje zdrowie będzie na<lf>wyczerpaniu, podrzucę ci wigorosę!<lf>Ale przez jakiś czas nie będę mógł<lf>dostarczyć ci kolejnej.
 <string>Przyciągnę uwagę potwora specjalną<lf>hałasującą tarczą! Dzięki temu<lf>będziesz mieć czas na przyjęcie<lf>pozycji lub atak.
 <string>Mogę podrzucić bolicę spijkę, żeby<lf>cię wyleczyła z plag i szkodliwych<lf>efektów. Będę na posterunku gotowy<lf>do pomocy, kiedy tylko będziesz<lf>w tarapatach, więc możesz się skupić<lf>na polowaniu!
-<string>Rozstawię specjalną felińską pułapkę<lf>rażącą, która wygląda jak żołądź!<lf>Jeśli przyprowadzisz potwora do miejsca,<lf>w którym jest rozłożona, zostanie<lf>sparaliżowany.
-<string>Wystrzelę z mojej zaufanej felińskiej<lf>balisty specjalną amunicję kolczastą!<lf>Jeśli wszystko pójdzie dobrze, może<lf>nawet rozerwać ranę potwora.
-<string>Chcesz we właściwym momencie<lf>atakować z większą siłą? W takim<lf>razie zagram tę nutę mocy!<lf>To cię na pewno wzmocni.
-<string>To naturalne, że denerwujesz się walką<lf>z przeciwnikiem, który cię wcześniej<lf>pokonał. Ale spokojna głowa – moja nuta<lf>ochrony wzmocni twoją obronę i zapewni<lf>ci bezpieczeństwo w walce z tym samym<lf>wrogiem!
+<string>Rozstawię specjalną felińską pułapkę rażącą,<lf>która wygląda jak żołądź!<lf>Jeśli przyprowadzisz potwora do miejsca,<lf>w którym jest rozłożona,<lf>zostanie sparaliżowany.<lf>To pomoże go złapać!
+<string>Wystrzelę z mojej zaufanej felińskiej<lf>balisty specjalną amunicję kolczastą!<lf>Jeśli wszystko pójdzie dobrze,<lf>może nawet zranić potwora.
+<string>Chcesz we właściwym momencie<lf>atakować z większą siłą?<lf>Jeśli zagram tę Pieśń mocy,<lf>na pewno cię wzmocni!
+<string>To naturalne, że denerwujesz się walką<lf>z przeciwnikiem, który cię wcześniej<lf>pokonał. Spokojna głowa – moja nuta<lf>ochrony wzmocni twoją obronę <lf>i zapewni ci bezpieczeństwo<lf>w walce z tym samym wrogiem!
 <string>Ruch wsparcia

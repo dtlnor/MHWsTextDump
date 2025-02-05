@@ -20,7 +20,6 @@
 <string>{0}
 <string>{0}
 <string>{0}
-<string>{0}
 <string>–
 <string>–
 <string>:
@@ -35,7 +34,7 @@
 <string>+{0}
 <string>-
 <string>x
-<string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
+<string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
 <string>?
@@ -50,7 +49,7 @@
 <string>Wył.
 <string> lub 
 <string>i
-<string>{0:F2}
+<string><NUMBER {0:F2}>
 <string>Poziom 
 <string>Rzadkość
 <string>???
@@ -67,11 +66,11 @@
 <string>Pokaż
 <string>Ukryj
 <string>----/--/-- --:--
-<string><DATETIME {0} "MM/DD/YYYY HH:mm">
-<string><DATETIME {0} "MM/DD/YYYY HH:mm""{1}">
+<string><DATETIME {0} "DD.MM.YYYY HH:mm">
+<string><DATETIME {0} "DD.MM.YYYY HH:mm""{1}">
 <string>----/--/--
-<string><DATETIME {0} "MM/DD/YYYY">
-<string><DATETIME {0} "MM/DD/YYYY""{1}">
+<string><DATETIME {0} "DD.MM.YYYY">
+<string><DATETIME {0} "DD.MM.YYYY""{1}">
 <string>_PS5
 <string>_XBS
 <string>_STEAM
@@ -103,12 +102,12 @@
 <string>{0}...
 <string>Nazwa
 <string><PLATMSG RefGeneral_0018_001>
-<string>ID sieciowe
+<string>Identyfikator internetowy
 <string>Nazwa profilu
 <string>ID łowcy
-<string>PŁ {0}
-<string>PŁ
-<string>Poziom łowcy
+<string>RŁ {0}
+<string>RŁ
+<string>Ranga łowcy
 <string>Zobacz wyposażenie
 <string>Wyświetl profil łowcy
 <string><PLATMSG RefGeneral_0021_000>
@@ -121,5 +120,5 @@
 <string>Sklep Steam
 <string><PLATMSG RefGeneral_0024>
 <string>DLC
-<string>DLC
+<string>Zawartość do pobrania
 <string>Serwer

@@ -4,12 +4,11 @@
 <string>Miembros
 <string>Recompensas
 <string>Resumen de entorno
-<string>Actualizar
-<string>Torrente
+<string>Novedades
+<string>Actualidad
 <string>Pronóstico
 <string>Las acciones de los jugadores pueden cambiar el pronóstico.
-<string>Información de monstruo
-<string>Más grande
+<string>Información detallada
 <string>Caza
 <string>Abatida
 <string>Captura
@@ -42,19 +41,19 @@
 <string>Entregar {0}
 <string>¿Cancelar la misión?
 <string>Se canceló la misión.
-<string>El enlace de entorno se disolvió.
+<string>El entorno vinculado se disolvió.
 <string>No se pudo acceder a la sesión<lf>porque la misión terminó.
 <string>Eliminar de miembros
 <string>¿Eliminar a {0} de miembros?
-<string>Recompensas de misiones
-<string>Recompensas de misiones principales
-<string>Recompensas de misiones secundarias
+<string>Recompensas de tareas
+<string>Recompensas de tareas principales
+<string>Recompensas de tareas secundarias
 <string>Recompensas de misión
 <string>Recompensas adicionales
 <string>Rec. de objetivos adicionales
 <string>Rec. de monstruos objetivos
 <string>Rec. de materiales generales
-<string>Rec. de objetivo adicionales
+<string>Rec. de misión adicionales
 <string>Misión<lf>completada
 <string>Misión<lf>fallida
 <string>Volviendo<lf>a la base
@@ -66,14 +65,14 @@
 <string>Opciones
 <string>Mostrar todo
 <string>Misiones de miembros de sala
-<string>Misiones de bengalas de auxilio
-<string>Misiones de miembros de vínculo
+<string>Misiones bengalas de auxilio
+<string>Misiones miembros de vínculo
 <string>Opciones de acceso a la misión
-<string>Ajusta el método de aceptación para unirse a misiones. <COLOR preset="TXT_Accent">(Se aceptará automáticamente a los miembros vinculados que reciban una invitación a la misión).</COLOR>
+<string>Ajusta el método de aceptación para unirse a misiones <COLOR preset="TXT_Accent">(se aceptará automáticamente a los miembros vinculados que reciban una invitación a la misión).</COLOR>
 <string>Autoaceptar
 <string>Aceptar manualmente
 <string>Elegir contraseña
-<string>Designa una contraseña para unirse a tu misión. <COLOR preset="TXT_Accent">(Las restricciones de contraseña se eliminarán al enviar una bengala de auxilio).</COLOR>
+<string>Designa una contraseña para unirse a tu misión <COLOR preset="TXT_Accent">(las restricciones se eliminarán al enviar una bengala de auxilio).</COLOR>
 <string>Crea una contraseña de 4 dígitos.
 <string>Escribe la contraseña.
 <string>No
@@ -96,38 +95,38 @@
 <string>Desmayos: {0}/{1}
 <string>Cliente: {0}
 <string>¡Completada!
-<string>Coment. reclut. de miembros
-<string>Selecciona un comentario para reclutar miembros.
+<string>Mensaje de reclutamiento
+<string>Redacta un mensaje para reclutar miembros.
 <string>¡Todos son bienvenidos!
-<string>¡Busco jugadores con RC similar!
-<string>¡Jugadores nuevos bienvenidos!
+<string>Busco cazadores con RC similar
+<string>¡Cazadores nuevos bienvenidos!
 <string>¡Se buscan veteranos!
 <string>No se pueden crear misiones
 <string>Fuerza
 <string>¡Puedes crear una misión para varios objetivos!
 <string>¡A {0} le gustaría ofrecerte una comida!
 <string>¡{0} quiere hablar!
-<string>Misión disponible: ¡{0}!
-<string>{0}: ¡condiciones para completar cumplidas!
+<string>Misión disponible: {0}
+<string>{0}: ¡listo para reportar!
 <string>Número máx. de miembros
-<string>Establece el número máximo de jugadores que se pueden unir a las misiones. <COLOR preset="TXT_Accent">(El número variará según el número máximo de miembros vinculados).</COLOR>
+<string>Establece el número máximo de jugadores que se pueden unir a las misiones <COLOR preset="TXT_Accent">(el número variará según el número máximo de miembros vinculados).</COLOR>
 <string>1
 <string>2
 <string>3
 <string>4
 <string>Opciones multijugador
 <string>Selecciona un modo multijugador.
-<string>Otros jugad. y cazad. de apoyo
-<string>Solo otros jugadores
+<string>Jugadores y cazadores de apoyo
+<string>Solo jugadores
 <string>Solo cazadores de apoyo
 <string>Bengala de auxilio automática
 <string>Selecciona si quieres lanzar automáticamente una bengala de auxilio al inicio de una misión.
 <string>No
 <string>Sí
 <string>Contraseña
-<string>Indica una contraseña de 4 números. <COLOR preset="TXT_Accent">(No aplica a los miembros vinculados que hayan recibido una invitación a la misión).</COLOR>
+<string>Indica una contraseña de 4 dígitos <COLOR preset="TXT_Accent">(no aplica a los miembros vinculados que hayan recibido una invitación a la misión).</COLOR>
 <string>Permisos de plataformas
-<string>Elige desde qué plataforma se pueden unir los jugadores. <COLOR preset="TXT_Accent">(La plataforma no importa para los miembros vinculados con invitación).</COLOR>
+<string>Elige desde qué plataforma se pueden unir los jugadores <COLOR preset="TXT_Accent">(la plataforma no importa para los miembros vinculados con invitación).</COLOR>
 <string>Busca misiones que hayan seleccionado "Todas las plataformas" en la configuración de reclutamiento.
 <string>Aunque otro jugador esté usando la misma plataforma, no aparecerá en la búsqueda si desactivó el crossplay en el menú de título.
 <string>Al desactivar el crossplay en el menú de título, las búsquedas solo muestran misiones de jugadores que comparten la misma configuración.
@@ -158,9 +157,9 @@
 <string>Ascendente
 <string>Descendente
 <string>Recomendado
-<string>¿Aumentar el número máx. de jugadores para las misiones en forma temporal? <COLOR preset="TXT_Accent">(No se puede volver a cambiar hasta que se haya completado la misión).</COLOR>
+<string>¿Aumentar el número máx. de jugadores para las<lf>misiones en forma temporal? <COLOR preset="TXT_Accent">(No se puede volver a<lf>cambiar hasta que se haya completado la misión).</COLOR>
 <string>Encargos
 <string>Misiones opcionales
 <string>Misiones de miembros de vínculo ({0})
-<string>Misiones de miembros de vínculo
+<string>Misiones miembros de vínculo
 <string>Misiones de bengalas de auxilio ({0})

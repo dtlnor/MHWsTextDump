@@ -11,21 +11,17 @@
 <string>كبسولة العشب الشوكي
 <string><REF Item_IT_EXP_52>
 <string><REF Item_IT_26>
-<string><REF Item_IT_EXP_26>
+<string>مكوِّن أساسي للجرعات.
 <string><REF Item_IT_27>
-<string><REF Item_IT_EXP_27>
+<string>مكوِّن أساسي للترياق.
 <string><REF Item_IT_76>
 <string><REF Item_IT_EXP_76>
 <string><REF Item_IT_116>
 <string><REF Item_IT_EXP_116>
 <string><REF Item_IT_115>
 <string><REF Item_IT_EXP_115>
-<string><REF Item_IT_118>
-<string><REF Item_IT_EXP_118>
 <string><REF Item_IT_117>
 <string><REF Item_IT_EXP_117>
-<string><REF Item_IT_127>
-<string><REF Item_IT_EXP_127>
 <string><REF Item_IT_7>
 <string><REF Item_IT_EXP_7>
 <string>الفلفل الرملي
@@ -42,8 +38,8 @@
 <string><REF Item_IT_EXP_66>
 <string>نتوء التعدين
 <string>مكان لاستخراج الخام.
-<string>كومة العظم
-<string>مكان يُستخدم لتجميع<lf>مواد العظام.
+<string>كومة عظم
+<string>مكان يُستخدم لتجميع مواد العظام.
 <string><REF Item_IT_28>
 <string><REF Item_IT_EXP_28>
 <string><REF Item_IT_101>
@@ -73,7 +69,7 @@
 <string>الكائنات المائية الجميلة
 <string>مكان لتجميع العناصر المميزة.
 <string>الطحالب الزجاجية
-<string>حجر حليب التنين
+<string>حجر وايليب
 <string>مكان لتجميع العناصر المميزة.
 <string>نتوء بلوري أبيض كالحليب
 <string>مكان لتجميع العناصر المميزة النادرة.
@@ -86,22 +82,22 @@
 <string>مكان لتجميع العناصر المميزة النادرة.
 <string>حفرية متفحمة
 <string>مكان لتجميع العناصر المميزة.
-<string>الصخرة الساقطة
-<string>صخور قد تسقط في أي لحظة.<lf><LSNR "استخدم" "استخدمي"> نبلة المعصم لتسقطها<lf>على الأهداف الغافلة.
+<string>الصخور المتساقطة
+<string>صخور قد تسقط في أي لحظة.<lf><LSNR "استخدم" "استخدمي"> نبلة المعصم <LSNR "لتسقطها" "لتسقطيها"><lf>على الأهداف الغافلة.
 <string>الصخرة الساقطة العملاقة
 <string>صخور كبيرة يمكن أن تسقط في أي لحظة.<lf><LSNR "اضربها" "اضربيها"> بنبلة المعصم<lf>لجعلها تسقط وتضرب أي شيء تحتها.
 <string>سياج الماشية
 <string>عمود عيدان الصواعق
-<string>صخرة صد الصواعق
+<string>عمود صد الصواعق
 <string>عمود صخري كبير يعترض<lf>صواعق البرق، ما يوفر حماية<lf>للمنطقة المحيطة.
-<string>صخرة صد الصواعق
+<string>عمود صد الصواعق
 <string>عمود صخري كبير يعترض<lf>صواعق البرق، ما يوفر حماية<lf>للمنطقة المحيطة.
 <string>أحراش
-<string>منطقة مغطاة بالعشب الطويل<lf>يمكنها إخفاء <LSNR "صياد جاثم" "صيادة جاثمة"><lf>عن الأنظار.
+<string>منطقة مغطاة بالعشب الطويل يمكنها إخفاء <LSNR "صياد جاثم" "صيادة جاثمة"><lf>عن الأنظار.
 <string>أحراش
-<string>منطقة مغطاة بالعشب الطويل<lf>يمكنها إخفاء <LSNR "صياد جاثم" "صيادة جاثمة"><lf>عن الأنظار.
+<string>منطقة مغطاة بالعشب الطويل يمكنها إخفاء <LSNR "صياد جاثم" "صيادة جاثمة"><lf>عن الأنظار.
 <string>زنبق حيوي
-<string>نبتة ينبعث منها<lf>رحيق الشفاء في الهواء<lf>عند إصابتها.
+<string>نبتة ينبعث منها رحيق الشفاء في الهواء عند ضربها.
 <string>عمود عيدان الصواعق
 <string>أحراش
 <string>منطقة مغطاة بالعشب الطويل<lf>يمكنها إخفاء <LSNR "صياد جاثم" "صيادة جاثمة"><lf>عن الأنظار.
@@ -109,14 +105,14 @@
 <string>فخ نصبه بالاهارا لصيد الفريسة.<lf>تعلق به الوحوش الكبيرة التي تقترب كثيرًا<lf>ويتم سحبها تحت الأرض.
 <string>رمال متحركة
 <string>فخ نصبه <REF EnemyText_NAME_EM0151_00_0> لصيد الفريسة.<lf>تعيق الرمال المتحركة حركة<lf>من يُمسَك في الداخل.
-<string>مناطق عرضة للصواعق
+<string>المنطقة المعرضة للصواعق
 <string>منطقة تتعرض لصواعق متكررة<lf>بسبب تأثير المد والجزر الرملي.
-<string>صخرة صد الصواعق
+<string>عمود صد الصواعق
 <string>عمود صخري كبير يعترض<lf>صواعق البرق، ما يوفر حماية<lf>للمنطقة المحيطة.
-<string>عملة التنين المجنح القديمة
+<string>عملة الوايفرن القديمة
 <string>عمود بلوري حاد
 <string>عمود خشن من بلور عيدان الصواعق<lf>شديد الصلابة. ينهار عند الاصطدام،<lf>مدمرًا كل شيء تحته
-<string>الصخرة الصاعقة الساقطة
+<string>عمود الصاعقة الساقطة
 <string>نتوء هش من عيدان الصواعق.<lf>ستُسقطه أي ضربة قوية لتكشف<lf>عن أشواك بلورية حادة مكانه.
 <string>نتوء عيدان الصواعق غير المستقر
 <string>جرف هش مصنوع من عيدان الصواعق.<lf>ستُسقطه أي ضربة قوية لتكشف<lf>عن أشواك بلورية حادة مكانه.
@@ -124,47 +120,21 @@
 <string>نتوء صخري راسخ يسقط بسهولة عند ضربه.<lf>الشظايا المتساقطة تطرد الكهرباء<lf>ويمكن استخدامها كذخيرة نبلة معصم.
 <string>فخ الكروم
 <string>كتلة هائلة من الكروم المتضخمة.<lf>ستسقط عند ضربها، ولن تتمكن الوحوش العالقة تحتها<lf>من التحرك لفترة قصيرة.
-<string>تساقط الفراء
-<string>بقايا ممضوغة
-<string>آثار لُعاب
-<string>قصاصات من القماش
-<string>مخاط البصق
-<string>آثار حفر
-<string>علامات خدش
-<string>شظية من الصواعق
-<string>مخاط
-<string>شظايا معدنية
-<string>جثة نصف مأكولة
-<string>جثة نصف مأكولة
-<string>جثة نصف مأكولة
-<string>مخاط
-<string>روث
-<string>كومة العظم
-<string>مكان يُستخدم لتجميع<lf>مواد العظام.
-<string>كومة العظم
-<string>مكان يُستخدم لتجميع<lf>مواد العظام.
-<string>كومة العظم
-<string>مكان يُستخدم لتجميع<lf>مواد العظام.
-<string>كومة العظم
-<string>مكان يُستخدم لتجميع<lf>مواد العظام.
-<string>شظية مخلب حادة
-<string>صخرة لزجة
-<string>شظية بلورة رعدية زرقاء
-<string>قطعة من صخرة صلبة
+<string>كومة عظم
+<string>مكان يُستخدم لتجميع مواد العظام.
+<string>كومة عظم
+<string>مكان يُستخدم لتجميع مواد العظام.
+<string>كومة عظم
+<string>مكان يُستخدم لتجميع مواد العظام.
+<string>كومة عظم
+<string>مكان يُستخدم لتجميع مواد العظام.
 <string>فطر الجثث
 <string>مكان لتجميع العناصر المميزة النادرة.
 <string><REF Item_IT_17>
 <string><REF Item_IT_69>
 <string><REF Item_IT_52>
-<string><REF Item_IT_155>
-<string><REF Item_IT_189>
-<string><REF Item_IT_71>
-<string><REF Item_IT_467>
-<string><REF Item_IT_468>
 <string>جلوس
 <string>الخيمة {0}
-<string>الخيمة
-<string>خيمة وحدة (أفيس). <LSNR "ادخل" "ادخلي"> إليها<lf>لإدارة العناصر وتغيير المعدات والمزيد.
 <string>المعسكر البديل
 <string>معسكر مؤقت به كل مستلزمات الصيد.<lf><LSNR "يمكنكَ" "يمكنكِ"> تغيير <LSNR "معداتكَ" "معداتكِ"> وتنظيم <LSNR "أغراضكَ" "أغراضكِ"> هنا.<lf>يمكن الوصول إليه عن طريق الانتقال السريع مع <ICON UI_DECIDE>.
 <string><REF Item_IT_15>
@@ -179,7 +149,7 @@
 <string><REF Item_IT_EXP_19>
 <string><REF Item_IT_20>
 <string><REF Item_IT_EXP_20>
-<string>صادم البلوط
+<string>باراكورن
 <string>فخ ينصبه الباليكو. يُستخدم لإيقاف تحركات الوحش.<lf>على غرار فخاخ الصدمة،<lf>يمكن استخدام هذا الفخ لأسر الوحوش.
 <string><REF Item_IT_13>
 <string>فخ يجذب آكلات اللحوم. يمكن استخدام الوحوش<lf>التي تم صيدها في الصناعة أو الطهي.
@@ -189,45 +159,35 @@
 <string>فخ يجذب آكلات اللحوم.<lf>ستصاب بالشلل إذا أكلت الطُعم.
 <string><REF Item_IT_186>
 <string>فخ يجذب آكلات اللحوم.<lf>ستصاب بالنوم إذا أكلت الطُعم.
-<string><REF RefStatus_0000_SP_007>
-<string>يمكنك أن تجعل الباليكو يخلق رائحة<lf>تجذب دبّور النوم. بعد فترة معينة<lf>من الزمن، ستتلاشى هذه الرائحة.
-<string><REF RefStatus_0000_SP_008>
-<string>يمكنك جعل الباليكو  يقوم بنشر قفص<lf>من الذباب الوامض. سيؤدي ضربه<lf>إلى إصدار ومضة تُعمي الوحوش.
 <string><REF RefEnvironment_0004_0001>
 <string>قاعدة عمليات فريق البعثة،<lf>والتي توفر مجموعة من منشآت الدعم المفيدة.
 <string><REF RefEnvironment_0004_0000>
 <string>موطن شعب الرمال، وهي قبيلة من مربي الماشية<lf>في سهول (ويندوارد).<lf>عندما يأتي المد الرملي، يحتمون داخل منازلهم.
 <string>المعسكر البديل
 <string>معسكر مؤقت به كل مستلزمات الصيد.<lf><LSNR "يمكنكَ" "يمكنكِ"> تغيير <LSNR "معداتكَ" "معداتكِ"> وتنظيم <LSNR "أغراضكَ" "أغراضكِ"> هنا.<lf>يمكن الوصول إليه عن طريق الانتقال السريع مع <ICON UI_DECIDE>.
-<string>كهف المعادن في المنطقة 4
+<string>المنطقة 4: كهف المعادن 
 <string><REF RefEnvironment_TentTips_Safety>
-<string>مخبأ الوادي بالمنطقة 6
+<string>المنطقة 6: مخبأ الوادي
 <string><REF RefEnvironment_TentTips_Safety>
-<string>الممر المائي تحت الأرضي بالمنطقة 14
+<string>المنطقة 14: ممر المياه الجوفية
 <string><REF RefEnvironment_TentTips_Safety>
-<string>جنوب المنطقة 3
+<string>المنطقة 3: الجنوب 
 <string><REF RefEnvironment_TentTips_Caution>
-<string>غرب المنطقة 4
+<string>المنطقة 4: غرب
 <string><REF RefEnvironment_TentTips_Danger>
-<string>تل المراقبة بالمنطقة 9
+<string>المنطقة 9: تل المراقبة
 <string><REF RefEnvironment_TentTips_Caution>
-<string>جنوب شرق المنطقة 10
+<string>المنطقة 10: جنوب شرق
 <string><REF RefEnvironment_TentTips_Danger>
-<string>جنوب شرق المنطقة 8
+<string>المنطقة 8: جنوب شرق
 <string><REF RefEnvironment_TentTips_Danger>
-<string>غرب المنطقة 13
+<string>المنطقة 13: الغرب
 <string><REF RefEnvironment_TentTips_Caution>
-<string>واحة المنطقة 13
+<string>المنطقة 13: الواحة
 <string><REF RefEnvironment_TentTips_Danger>
-<string>شمال غرب المنطقة 16
+<string>المنطقة 16: شمال غرب
 <string><REF RefEnvironment_TentTips_Caution>
-<string>صحراء العظام بالمنطقة 16
+<string>المنطقة 16: صحراء العظام
 <string><REF RefEnvironment_TentTips_Caution>
-<string>جنوب غرب المنطقة 8
+<string>المنطقة 8: جنوب غرب
 <string><REF RefEnvironment_TentTips_Danger>
-<string>إلى طريق النهر
-<string>طريق يمتد بمحاذاة النهر.<lf>يسمح بالمرور إلى المناطق المجاورة.
-<string>مدخل منطقة التدريب
-<string>طريق يصل بين معسكر القاعدة<lf>ومنطقة التدريب.
-<string>مخرج منطقة التدريب
-<string>طريق يصل بين منطقة التدريب<lf>ومعسكر القاعدة.

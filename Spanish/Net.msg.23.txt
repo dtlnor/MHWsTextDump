@@ -1,32 +1,32 @@
 ﻿<string>Conectando...
 <string>Conectando...
 <string>Iniciando la partida.
-<string>Petición inválida.
-<string>No se ha podido obtener la información.
+<string>Petición inválida.<lf>{0}
+<string>No se ha podido obtener la información.<lf>{0}
 <string>Conectando...
 <string>Comprobando la conexión al servidor...
 <string>Ha habido un error de comunicación.<lf>{0}
 <string>Ha habido un error con la conexión.<lf>Debes volver al menú principal.<lf>{0}
 <string>Algunas funciones del modo multijugador online<lf>no estarán disponibles.<lf><lf>Por favor, regístrate en {0}<lf>para acceder a todas las funciones del modo<lf>multijugador online.
-<string>Esta cuenta no cumple con los requisitos<lf>necesarios para el multijugador en línea.
+<string>Esta cuenta no cumple con los requisitos<lf>necesarios para el multijugador online.
 <string>No se ha podido conectar a la red.<lf>Volviendo a la pantalla de título.
 <string>Error al conectar a la red.
-<string>No puedes jugar porque no es el período de<lf>prueba. Volviendo a la pantalla de título.<lf>{0}
+<string>No puedes jugar, ya que la fecha actual<lf>está fuera del período de la prueba beta.<lf>Volverás a la pantalla de título.<lf>{0}
 <string>No se ha establecido la conexión a {0}.<lf>{1}
 <string>Se ha perdido la conexión con {0}.<lf>{1}
 <string>Has cambiado al modo sin conexión. Podrás seguir<lf>jugando con normalidad. Para volver al modo online,<lf>habla con tu encargada y accede a las opciones de<lf>comunicación en el menú de cambio de sala.
 <string>Estás jugando en modo sin conexión.<lf>Para volver al modo online, habla con<lf>tu encargada y accede a las funciones de<lf>comunicación en el menú de cambio de sala.
 <string>Se ha cambiado a modo para un jugador por<lf>inactividad. Podrás seguir jugando con normalidad.<lf>{0}
-<string>Error al enviar: ya sois amigos cazadores,<lf>o estás esperando que responda a tu invitación.<lf>{0}
+<string>Error al enviar: ya sois amigos cazadores,<lf>o estás esperando que responda a tu solicitud.<lf>{0}
 <string>Error al enviar porque tú o el otro grupo habéis<lf>alcanzado el límite máximo de amigos cazadores.<lf>{0}
 <string>Ya sigues a este jugador.<lf>{0}
 <string>Has alcanzado el límite de seguidos y<lf>no puedes seguir a más jugadores.<lf>{0}
 <string>Inicializando red...
 <string>Hay una nueva versión de la aplicación disponible.<lf>Para usar las funciones de red, cierra<lf>la aplicación y actualízala.
-<string>Se han detectado datos eliminados anteriormente.<lf>Usar estos datos reiniciará tus amigos cazadores,<lf>los datos de siguiendo/seguidores, y las brigadas.
+<string>Se han sobrescrito los datos de cazador.<lf>Los datos aún se pueden utilizar sin problema,<lf>pero se han reiniciado los amigos del cazador,<lf>los datos de siguiendo/seguidores, y las brigadas.
 <string>El jugador ya se ha unido al grupo vinculado.<lf>{0}
-<string>Se ha alcanzado el número máximo de jugadores del<lf>grupo vinculado. No se pueden añadir más jugadores.<lf>{0}
-<string>No puedes enviar informes en estos momentos.<lf>Espera un poco y vuelve a intentarlo.<lf>{0}
+<string>Se ha alcanzado el límite de jugadores del<lf>grupo vinculado. No se pueden añadir más jugadores.<lf>{0}
+<string>No se puede enviar informes en estos momentos.<lf>Espera un poco y vuelve a intentarlo.<lf>{0}
 <string>Tu cuenta actual no cumple con los requisitos<lf>necesarios para jugar al juego.
 <string>Se ha perdido la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
@@ -40,7 +40,7 @@
 <string>¿Unirse a la sala?
 <string>¿Quieres crear un sala privada?
 <string>¿Empezar la partida sin unirte a una sala?<lf>(Puedes unirte a una sala tras empezar la partida).
-<string>Buscar por ID de sala.<lf>(Hasta ocho caracteres, distingue mayúsculas y minúsculas).
+<string>Buscar por ID de sala.<lf><lf><COLOR preset="TXT_Accent">Nota: Las IDs de sala constan de ocho<lf>caracteres alfanuméricos, y distinguen<lf>mayúsculas y minúsculas.</COLOR>
 <string>Error al unirse a la sesión: la misión ha terminado.
 <string>¿Disolver la sala privada de la que<lf>eres el anfitrión?
 <string>No has podido acceder a la misión,<lf>ya que la contraseña no es correcta.
@@ -49,19 +49,19 @@
 <string>Uniéndote al grupo vinculado.
 <string>El servidor está ocupado en este momento.<lf>Espera un poco y vuelve a intentarlo.
 <string>El juego interplataforma está activado.
-<string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
+<string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME year={0} month={1} day={2} format=" D [de] xMMMM [de] YYYY"> (UTC)<lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
 <string>Actitud abusiva o disruptiva
 <string>Tipos de comportamientos prohibidos
 <string>Texto inapropiado
 <string>Lenguaje inapropiado
 <string>Lenguaje prohibido
-<string>Comportamiento inapropiado
+<string>Comportamiento inadecuado
 <string>Incumplimiento de los Términos de uso
 <string>Un comportamiento similar o reincidente podría llevar a restricciones permanentes.
 <string>Revisa todos los textos editables, como tu perfil de cazador y<lf>los comentarios de brigada y actualiza el contenido. Si no actualiza<lf>el contenido del texto o reincide en el incumplimiento de los Términos<lf>de uso, podría llevar a restricciones permanentes.
 <string>Además, los nombres de tu <LSNR "cazador" "cazadora"> y camarada Felyne<lf>se cambiarán por los predeterminados.
 <string><COLOR preset="TXT_Danger">Cuenta suspendida permanentemente</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Tu cuenta se ha suspendido de forma permanente</COLOR> ante la confirmación del<lf>incumplimiento de nuestros términos de uso.<lf><lf>La cuenta en cuestión no podrá acceder al modo con conexión<lf>en Monster Hunter Wilds. Ten en cuenta que no se van a ofrecer<lf>medidas para retirar la suspensión de una cuenta, siguiendo<lf>lo estipulado en los términos de uso.
-<string>Vas a unirte al grupo vinculado.<lf>¿Quieres cambiar de datos guardados?
+<string>Te estás uniendo a un grupo vinculado. ¿Cambiar datos guardados?<lf><COLOR preset="TXT_Danger">(Al cambiar los datos guardados, se perderán los datos<lf>no guardados actuales).</COLOR>
 <string>Unirse con los datos guardados actuales
 <string>Unirse con datos guardados distintos
 <string>No unirse

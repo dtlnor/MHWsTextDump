@@ -15,7 +15,7 @@
 <string>속사 모드
 <string>속사 모드 중에는 에너지를 소비하여<lf>특정 탄을 한 번에 연속 발사한다.
 <string>연기게이지 색
-<string>기인 큰회전베기 등 특정 공격을<lf>맞히면 연기게이지 색이 상승하고<lf>공격력이 상승한다.
+<string>기인 큰회전베기 등 특정 공격을<lf>맞히면 연기게이지 색이 변화하고<lf>공격력이 상승한다.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -41,9 +41,9 @@
 <string>갈무리
 <string>몬스터를 토벌하면<lf><ICON PL_POP>으로 소재를 갈무리할 수 있다.
 <string>무기를 넣고 쫓아가자
-<string>몬스터가 멀어지면 <ICON PL_WEAPON_OFF>: 무기를 넣고<lf><ICON PL_DASH>: 대시로 쫓아가자.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>아이템을 보충하자
-<string>힘이 다하면 추가 지급품이 지급된다.<lf><ICON PL_ACCESS_ITEM_BAG>으로 확인해 보자.
+<string><REF MsgGUI600000_Tips_EXP_40>
 <string>몬스터의 움직임을 잘 보자
 <string>몬스터는 공격하기 전에<lf>징조를 보인다.<lf>움직임을 잘 보고 대처하자.
 <string>몬스터를 속박하자
@@ -67,7 +67,7 @@
 <string>필드 맵
 <string><ICON PL_MAP_CHANGE>으로 MAP을 열 수 있다.<lf>목적지를 확인할 때 활용하자.
 <string>아이템 선택, 아이템 사용
-<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON UI_ITEM_LEFT> 또는 <ICON UI_ITEM_RIGHT>: 아이템 선택<lf><ICON PL_ITEM_SLIDER_OPEN> 릴리스 후, <ICON PL_ITEM>: 아이템 사용
+<string><REF MsgGUI600000_Tips_EXP_63>
 <string>지급품 회수
 <string>지급품 전용 아이템은<lf>퀘스트 종료 시 회수된다.
 <string>간이 캠프 설치 후보지
@@ -95,19 +95,15 @@
 <string>모래 언덕에서의 사냥
 <string>사구는 발밑이 불안정하다.<lf>큰 충격으로 무너지면<lf>발을 헛디딜 수 있다.
 <string><REF Gimmick_NAME_m2034503552>
-<string>커다란 수풀 속에 웅크리고 있으면<lf>몬스터에게 쉽게 발견되지 않는다.
+<string>몬스터의 시야에 들기 전에<lf>커다란 수풀 속에 웅크리고 있으면<lf>몬스터에게 쉽게 발견되지 않는다.
 <string><REF Gimmick_NAME_32>
 <string>훅 슬링어 등으로 충격을 주면<lf>바위가 떨어진다.
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>충격을 주면 가스를 분출한다<lf>가스에 몬스터가 닿으면 마비된다
 <string><REF EnemyText_NAME_EM5002_00_0>
 <string>충격을 주면 주위에 꿀을 흩뿌린다.<lf>그 부근에서는 체력 회복 효과를<lf>얻을 수 있다.
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>충격을 주면 주위에 꿀을 흩뿌린다.<lf>그 부근에서는 높은 체력 회복 효과를<lf>얻을 수 있다.
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>충격을 주면 섬광을 내뿜는다. 몬스터의<lf>눈앞에서 터뜨리면 잠시<lf>보이지 않게 할 수 있다.
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>굴리고 있는 대변을 슬링어에 장전하면<lf>슬링어 거름탄으로 사용할 수 있다.
 <string><REF EnemyText_NAME_EM5005_00_0>
 <string>등의 도롱이는 손에 들고<lf>섭취할 수 있다.<lf>체력 회복 효과를 얻을 수 있다.
 <string><REF EnemyText_NAME_EM5006_00_0>
@@ -138,7 +134,7 @@
 <string>무기 속성이 무효화된다.<lf>회피를 반복하거나 지움열매를 쓰자.
 <string>방패【속성 강화】
 <string>병을 소비하여 일정 시간<lf>가드 성능이 상승한다.<lf>또한 도끼 모드 공격이 증가한다.
-<string>3단 찌르기와 카운터 찌르기
+<string>3단 찌르기와 모으기 카운터
 <string>중단찌르기Ⅲ, 상단찌르기Ⅲ 후<lf>파생 공격으로 4단계 공격을<lf>할 수 있다.
 <string>슬래시게이지를 모으자
 <string>도끼 모드 공격을 맞히면<lf>효율적으로 회복할 수 있다.
@@ -150,10 +146,10 @@
 <string>채집할 때 획득 수가 늘거나<lf>좋은 아이템을 입수할 수 있다.
 <string>소재 갈무리
 <string>갈무리한 소재는 장비 생산이나<lf>강화에 이용할 수 있으므로<lf>잊지 말고 갈무리하자.
-<string>무리를 분단하자
-<string>몬스터에 맞혀서 무리를 분단하자.<lf>몬스터가 탄을 맞으면 도망친다.
+<string>무리를 분산시키자
+<string>몬스터에게 맞혀서 무리를 분산시키자.<lf>몬스터가 탄을 맞으면 도망친다.
 <string>모래 구덩이로 유인하자
-<string>도샤구마 무리를 모래 구덩이로<lf>유인하자.<lf>무리를 분단하는 데 이용할 수 있다.
+<string>도샤구마 무리를 모래 구덩이로<lf>유인하자. 무리를 분산시키는 데<lf>이용할 수 있다.
 <string>몬스터끼리의 싸움
 <string>다른 몬스터끼리 벌어진 싸움을 이용해<lf>사냥을 유리하게 이끌자.
 <string>필드 맵을 확인하자
@@ -178,8 +174,8 @@
 <string>집중특효탄【사조】를 발사하려면<lf>탄이 자동 회복되길 기다리자.
 <string>탄이 자동 회복되길 기다리자
 <string>집중특효탄【용후】를 발사하려면<lf>탄이 자동 회복되길 기다리자.
-<string>검격에너지 모으기에 주의
-<string>축적한 검격에너지는 병에 차지하여<lf>사용할 수 있지만, 너무 축적하면<lf>공격이 튕겨 나간다.
+<string>공격이 튕겨 나갔을 때는 차지를 하자
+<string>축적한 검격에너지를 너무 모아서<lf>공격이 튕겨 나갔을 때, <ICON WP09 PL_ATTACK_00> 또는<lf><ICON WP09 PL_ATTACK_01>로 차지로 파생 가능하다.
 <string>적정 거리를 유지하며 탄을 발사하자
 <string>주황색 조준선은 적정 거리를<lf>가리킨다. 대미지를 기대할 수 있는<lf>이 거리를 유지하자.
 <string>상처를 노려서 공격하자
@@ -189,8 +185,8 @@
 <string>잘 익은 고기를 먹자
 <string>잘 익은 고기를 먹고 체력과 스태미나<lf>최대치를 상승시킨 후 사냥을 떠나자
 <string>식사를 하자
-<string>식사 효과가 떨어졌다<lf>식사를 해서 스테이터스를 상승시키자
+<string>휴대 화로를 사용해<lf>식사를 하고 스테이터스를 상승시키자
 <string>무기 교체
-<string><ICON PL_WEAPON_CHANGE>으로 메인 무기와 서브 무기를 교체
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>체력 회복
 <string>체력이 닳았을 때는<lf>'회복약'으로 체력을 회복하자

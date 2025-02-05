@@ -2,14 +2,14 @@
 <string>Enter your name.<lf><lf><COLOR preset="TXT_Accent">The maximum number of characters is 15.</COLOR>
 <string>{0}<lf>Is this name OK?
 <string>Enter your Palico's name.<lf><lf><COLOR preset="TXT_Accent">The maximum number of characters is 15.</COLOR>
-<string>Select the amount of tutorials you wish to see. <lf>(This setting can be changed from the Start Menu at any time.)<lf><lf><COLOR preset="TXT_Accent">Display All</COLOR>: Recommended for those learning the basics.<lf><COLOR preset="TXT_Accent">Display Some</COLOR>: Recommended for experienced players.
+<string>Select the amount of tutorials you wish to see. <lf>(This setting can be changed from the Start Menu at any time.)<lf><lf><LEFT><COLOR preset="TXT_Accent">Display All</COLOR>: Recommended for those learning the basics.</LEFT><lf><LEFT><COLOR preset="TXT_Accent">Display Some</COLOR>: Recommended for experienced players.</LEFT>
 <string>Display All
 <string>Display Some
 <string>Choose whether to allow certain<lf>tutorials to display more than once.<lf><lf>(This setting can be changed from<lf>the Start Menu at any time.)
 <string>On
 <string>Off
 <string>Start the game with these character settings?
-<string>Confirm and quit?<lf><COLOR preset="TXT_Accent">Edited character data can be transferred<lf>to the full game. Edits can be made at any<lf>time during the beta test period by selecting<lf>Edit Character under Select Save Data.</COLOR>
+<string>Confirm and quit?<lf><COLOR preset="TXT_Accent">Edited character data can be transferred<lf>to the full game. Edits can be made at any<lf>time during the beta test period by selecting<lf>Edit Character under Select Saved Data.</COLOR>
 <string>Save Changes
 <string>Discard All Changes
 <string>Appearance Preset
@@ -97,7 +97,7 @@
 <string>Mustache Accent Color
 <string>Mustache Gradient Ratio
 <string>Mustache Gradient Intensity
-<string>Mustache Color
+<string>Edit Mustache Color
 <string>Beard Type
 <string>Beard Base Color
 <string>Beard Accent Color
@@ -131,7 +131,7 @@
 <string>Right Sclera Color
 <string>Right Iris Size
 <string>Eyelash Thickness
-<string>Separate Settings for Right Eye
+<string>Edit Right Eye
 <string>Nose Shape Blending
 <string>Allows you to blend two distinct nose shapes together. Minute adjustments can be made to the ratio and level of blending.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_04_00
@@ -153,7 +153,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
 <string>Teeth Color
 <string>Teeth Stain Color
-<string>Teeth Stain Opacity
+<string>Teeth Stain Transparency
 <string>Mouth Width
 <string>Mouth Position
 <string>Mouth Depth
@@ -196,7 +196,7 @@
 <string>Makeup/Face Paint 1 Color
 <string>Makeup/Face Paint 2 Color
 <string>Makeup/Face Paint 3 Color
-<string>Opacity
+<string>Transparency
 <string>Size
 <string>Lateral Size
 <string>Vertical Size
@@ -205,8 +205,8 @@
 <string>Vertical Position
 <string>Revert to Default
 <string>Reset your makeup/face paint settings to their default?
-<string>Swap Makeup/Face Paint Settings
-<string>Swap the current makeup/face paint settings<lf>with other makeup/face paint settings.
+<string>Swap Makeup/Face Paint Order
+<string>Swap the current makeup/face paint<lf>with other makeup/face paint layers.
 <string>Makeup/Face Paint 1
 <string>Makeup/Face Paint 2
 <string>Makeup/Face Paint 3
@@ -230,23 +230,23 @@
 <string>Appearance Preset
 <string>(Detailed Settings)
 <string>Felyne Language
-<string>All Palico voices, including other players', will be set to Felyne language. (This setting can be changed in Options.)
+<string>Adjusts all Felyne voices, including your Palico's, to Felyne language. <COLOR preset="TXT_Accent">(This setting can be changed in Options.)</COLOR>
 <string>Voice
 <string>Voice Pitch
 <string>Changing the pitch may make the character's voice difficult to hear.
-<string>Long-Haired
+<string>Long-haired
 <string>Facial Fur Type
-<string>The Facial Fur Type cannot be selected with Long-Haired turned On.
+<string>Facial Fur Type cannot be altered when Long-haired is enabled.
 <string>Ear Fur Type
 <string>Cheek Fullness
 <string>Ears
 <string>Eyes
 <string>Tail Shape
-<string>The Tail Shape cannot be selected with Long-Haired turned On.
+<string>Tail Shape cannot be altered when Long-haired is enabled.
 <string>Pattern
 <string>Marking 1
 <string>Marking 2
-<string>This setting will precede "Marking 1" when there is overlap.
+<string>Marking 2 will be prioritized over <COLOR preset="TXT_Accent">Marking 1</COLOR> when there is overlap.
 <string>Ear Shape Blending
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_01
@@ -255,7 +255,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_04_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_04_01
 <string>Pupil Size
-<string>Separate Settings for Right Eye
+<string>Edit Right Eye
 <string>Iris Color
 <string>Right Iris Color
 <string>Fur Pattern
@@ -269,7 +269,7 @@
 <string>Marking Color
 <string>Marking 1 Color
 <string>Marking 2 Color
-<string>Opacity
+<string>Transparency
 <string>Size
 <string>Lateral Size
 <string>Vertical Size
@@ -296,7 +296,7 @@
 <string>Reset all selected settings to their default?
 <string>Reset the selected appearance presets?
 <string>Confirm/Change Design
-<string>Edit
+<string>Design
 <string>Color Settings
 <string>Design
 <string>Type {0}
@@ -348,8 +348,8 @@
 <string>Damaged
 <string>Palico Facial Expression
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> Rotate Lighting Angle
-<string><ICON UI_LIST_TRIGGER_L2> or <ICON UI_LIST_TRIGGER_R2> Rotate Lighting Angle
+<string><ICON PAD PL_DUMMY_MOVE> Rotate Lighting Angle
+<string><ICON MKB UI_LIST_TRIGGER_L2> or <ICON MKB UI_LIST_TRIGGER_R2> Rotate Lighting Angle
 <string>UI Display Off
 <string>Design: Hunter
 <string>Design: Palico
@@ -370,7 +370,7 @@
 <string>Edit Hunter
 <string>Change Name
 <string>Allows you to change your name.
-<string>The hunter's name will be changed.<lf><COLOR preset="TXT_Accent">It might take time for name changes<lf>to be reflected in some content, and<lf>there may be cases where the new<lf>name will not display.</COLOR>
+<string>Your hunter's name will be changed.<lf><COLOR preset="TXT_Accent">It might take time for name changes<lf>to be reflected in some content, and<lf>there may be cases where the new<lf>name will not display.</COLOR>
 <string>Discard all changes and exit?<lf><COLOR preset="TXT_Accent"> (Your Character Edit Voucher will not be consumed.)</COLOR>
 <string>Save changes?<lf><COLOR preset="TXT_Accent">(Your Character Edit Voucher will not be consumed<lf>because no special changes were made.)</COLOR>
 <string>Save changes?<lf><COLOR preset="TXT_Accent">(One Character Edit Voucher will be consumed.)</COLOR>
@@ -378,7 +378,7 @@
 <string>Edit Palico
 <string>Change Name
 <string>Allows you to change your Palico's name.
-<string>Your Palico's name will be changed.<lf><COLOR preset="TXT_Accent">It might take time for name changes to be reflected<lf>in some content, so the new name may not display<lf>immediately.</COLOR>
+<string>Your Palico's name will be changed.<lf><COLOR preset="TXT_Accent">It might take time for name changes<lf>to be reflected in some content, and<lf>there may be cases where the new<lf>name will not display.</COLOR>
 <string>Discard all changes and exit?<lf><COLOR preset="TXT_Accent"> (Your Palico Edit Voucher will not be consumed.)</COLOR>
 <string>Save changes?<lf><COLOR preset="TXT_Accent">(Your Palico Edit Voucher will not be consumed<lf>because no special changes were made.)</COLOR>
 <string>Save changes?<lf><COLOR preset="TXT_Accent">(One Palico Edit Voucher will be consumed.)</COLOR>

@@ -23,7 +23,7 @@
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">溜め後<ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string><REF ActionGuideDataNameText_Wp00_m1688233344>効果のある<REF ActionGuideDataNameText_Wp00_146633456>攻撃。<lf>モンスターの攻撃に<REF RefEquipment_0001_000>の攻撃をぶつけ<lf><REF ActionGuideDataNameTextCommon_817397888>が大成功すると、<lf><ICON WP00 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp00_1516761216>に派生できる。
+<string><REF ActionGuideDataNameText_Wp00_m1688233344>効果のある<REF ActionGuideDataNameText_Wp00_146633456>攻撃。<lf>モンスターの攻撃に<REF RefEquipment_0001_000>の攻撃をぶつけ<lf><REF ActionGuideDataNameTextCommon_817397888>でモンスターが大きくのけぞった際、<lf><ICON WP00 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp00_1516761216>に派生できる。
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
@@ -87,7 +87,7 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>溜め時間が長いほど強力な気刃斬りに<lf>派生できる。<lf><lf>最大まで溜めることで<REF ActionGuideDataNameText_Wp03_852602816>を<lf>出すことができ、溜めている間は<lf><REF ActionGuideDataNameText_Wp03_m1592986112>も溜まり続ける。<lf><lf>ゲージが赤色の時のみ、<lf>気刃斬りへの発生直後にのけぞったり、<lf>吹き飛ばされたりしない。
+<string>溜め時間が長いほど強力な気刃斬りに<lf>派生できる。<lf><lf>最大まで溜めることで<REF ActionGuideDataNameText_Wp03_852602816>を<lf>出すことができ、溜めている間は<lf><REF ActionGuideDataNameText_Wp03_m1592986112>も溜まり続ける。<lf><lf>ゲージが赤色の時のみ、<lf>気刃斬りへの派生直後にのけぞったり、<lf>吹き飛ばされたりしない。
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
 <string>後ろに移動しながらの斬撃。<lf><ICON WP03 PL_MOVE_LEFT>や<ICON WP03 PL_MOVE_RIGHT>の方向に移動できる。
@@ -328,7 +328,7 @@
 <string>
 <string><ICON WP02 PL_DODGE>
 <string><REF ActionGuideDataNameText_Wp02_1262752256>（<REF ActionGuideDataNameText_Wp02_165650304>/<REF ActionGuideDataNameText_Wp02_m661157824>時）
-<string>通常よりも素早い回避。<lf><REF ActionGuideDataNameText_Wp02_m391958560>に成功すると攻撃をしながら<lf>回避を行い、短時間強化状態になる。
+<string>通常よりも素早い回避。<lf><REF ActionGuideDataNameText_Wp02_m391958560>に成功すると攻撃をしながら<lf>回避を行い、短時間強化状態になる。<lf><lf><REF ActionGuideDataNameText_Wp02_1516296832>中は<REF ActionGuideDataNameText_Wp02_m1003266688>を消費しない。
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
@@ -518,10 +518,10 @@
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string>旋律ストック時<ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>通常の<REF ActionGuideDataNameText_Wp05_m208341008>とは異なり、<lf><REF RefEquipment_0001_005>に設定されている個別の<REF RefStatus_0008_000_00>を<lf>発生させる旋律。<lf><lf>一度ストックすると、<lf>他の旋律によって上書きされることなく<lf>保持され続ける。
+<string>通常の<REF ActionGuideDataNameText_Wp05_m208341008>とは異なり、<lf><REF RefEquipment_0001_005>に設定されている個別の<REF RefStatus_0008_000_00>を<lf>発生させる演奏。<lf><lf>一度ストックすると、<lf>他の旋律によって上書きされることなく<lf>保持され続ける。
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>傷口に対して効果的な<REF ActionGuideDataNameText_Wp05_m208341008>攻撃。<lf><REF ActionGuideDataNameText_Wp05_m208341008>中、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>で最大５つの<lf><REF RefStatus_0006_000_00>を発生させることができる。<lf><lf>タイミングよく<REF RefStatus_0006_000_00>を発生させることで、<lf>ダメージが上がる。
+<string>傷口に対して効果的な<REF ActionGuideDataNameText_Wp05_m208341008>攻撃。<lf><REF ActionGuideDataNameText_Wp05_m208341008>中、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>で最大５つの<lf><REF RefStatus_0006_000_00>を発生させることができる。<lf><lf>タイミングよく<REF RefStatus_0006_000_00>を発生させることで、<lf>追加のダメージが発生する。
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -535,12 +535,8 @@
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>移動速度が上がる。<lf><REF RefStatus_0008_000_00>の<REF ActionGuideDataNameText_Wp05_m6258827>をすると、<lf>攻撃が弾かれなくなり、攻撃力も上がる。
 <string>
-<string>攻撃を受けてものけぞらない状態。
-<string>
 <string><ICON ST_POWER_UP_HORN><REF MusicSkillDataText_Wp05_11>／<REF MusicSkillDataText_Wp05_12>
 <string>攻撃力が上がっている状態。
-<string>
-<string>防御力が上がっている状態。
 <string>
 <string><ICON ST_DEFECE_FIRE><REF MusicSkillDataText_Wp05_18>／<ICON ST_DEFECE_FIRE_HIGH><REF MusicSkillDataText_Wp05_19>
 <string>火耐性値が上がり、<lf>火属性やられを無効化する。
@@ -632,8 +628,7 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>その場に腰を据えて行う鉄壁の<REF ActionGuideDataNameText_Wp06_327006624>。<lf>盾を構えている間スタミナを徐々に消費し<lf>続けるが、ガードリアクションを大幅に<lf>軽減でき、反撃に転じやすい。<lf><lf><REF ActionGuideDataNameText_Wp06_327006624>した回数で反撃の威力が上昇する。
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -688,7 +683,7 @@
 <string>【<REF ActionGuideDataNameText_Wp06_327006624>成功後の反撃派生】
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>モンスターの攻撃を<REF ActionGuideDataNameText_Wp06_327006624>した時の反撃。<lf><lf><REF ActionGuideDataNameText_Wp06_872382528>に成功すると<lf>より強力な突進が繰り出せる。
+<string>モンスターの攻撃を<REF ActionGuideDataNameText_Wp06_327006624>してからの<lf>反撃。<lf><lf><REF ActionGuideDataNameText_Wp06_872382528>が成功した場合には、<lf>その後に派生する反撃の威力が<lf>それぞれ上昇する。
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,7 +691,7 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE><REF RefEquipment_0001_007>
@@ -825,7 +820,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>相殺効果のある斬り上げ攻撃。<lf><REF ActionGuideDataNameTextCommon_m234605296>時、<lf><ICON WP08 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp08_166716544>に派生し、<lf><REF ActionGuideDataNameText_Wp08_503110624>に移行できる。<lf><ICON WP08 PL_ATTACK_SP>で<REF ActionGuideDataNameText_Wp08_1659893248>へ派生し、<lf><REF ActionGuideDataNameText_Wp08_971569344>へ変形できる。
+<string>相殺効果のある斬り上げ攻撃。<lf>相殺でモンスターが大きくのけぞった際、<lf><ICON WP08 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp08_166716544>に派生し、<lf><REF ActionGuideDataNameText_Wp08_503110624>に移行できる。<lf><ICON WP08 PL_ATTACK_SP>で<REF ActionGuideDataNameText_Wp08_1659893248>へ派生し、<lf><REF ActionGuideDataNameText_Wp08_971569344>へ変形できる。
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><REF ActionGuideDataNameTextCommon_m234605296>時<ICON WP08 PL_ATTACK_00>
@@ -864,17 +859,9 @@
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>後に<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">で<REF ActionGuideDataNameText_Wp08_m28020688><lf>フィニッシュを出す事ができる。<lf>フィニッシュの後は<REF ActionGuideDataNameText_Wp08_m1422082944>へ変形する。
 <string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>高出力状態でのみ、<lf>モンスターに張り付いて<REF ActionGuideDataNameText_Wp08_m28020688>を<lf>出すことができる。<lf>また、張り付いた後に<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">で<lf><REF ActionGuideDataNameText_Wp08_67143400>を<lf>出す事ができる。<lf>フィニッシュの後は<REF ActionGuideDataNameText_Wp08_m1422082944>へ変形する。
-<string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp08_971569344>の強力な攻撃。<lf><REF ActionGuideDataNameText_Wp08_132806840>の場合は追加で爆発攻撃が<lf>発生する。<lf>攻撃後に<REF ActionGuideDataNameText_Wp08_m1422082944>に変形する。
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>高出力状態でのみ出せる強力な攻撃。<lf><REF ActionGuideDataNameText_Wp08_m28020688>後、<lf><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON">でも派生することが可能。<lf>攻撃後に<REF ActionGuideDataNameText_Wp08_m1422082944>に変形する。
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -903,7 +890,7 @@
 <string><REF ActionGuideDataNameText_Wp08_971569344>での攻撃に、ビンの効果を持つ<lf>追撃の爆発が発生するようになる。
 <string>
 <string>ビンの種類
-<string>剣で攻撃すると<REF ActionGuideDataNameText_Wp08_1814127872>を消費し<lf>ビンの種類に応じた効果が付与される。<lf><lf><REF Item_IT_677>　：物理ダメージを増加させる<lf><REF RefStatus_0006_003_01_02>：属性ダメージを増加させる<lf><REF Item_IT_680>　　：<REF RefStatus_0008_002_02>属性が付与される<lf><REF Item_IT_679>　：<REF RefStatus_0008_002_03>属性が付与される<lf><REF RefStatus_0006_003_01_03>　：龍属性が付与される<lf><REF Item_IT_683>　：気絶・減気効果が付与される<lf><lf>またビンの種類によって<REF ActionGuideDataNameText_Wp08_1814127872><lf>の溜まりやすさに違いがある。
+<string>剣で攻撃すると<REF ActionGuideDataNameText_Wp08_1814127872>を消費し<lf>ビンの種類に応じた効果が付与される。<lf><lf><REF Item_IT_677>　：物理ダメージを増加させる<lf><REF RefStatus_0006_003_01_02>：属性ダメージを増加させる<lf><REF Item_IT_680>　　：<REF RefStatus_0008_002_02>属性が付与される<lf><REF Item_IT_679>　：<REF RefStatus_0008_002_03>属性が付与される<lf><REF RefStatus_0006_003_01_03>　：龍属性が付与される<lf><REF Item_IT_683>　：気絶・減気効果が付与される<lf><lf>またビンの種類によって<REF ActionGuideDataNameText_Wp08_1601592576><lf>の溜まりやすさに違いがある。
 <string>
 <string>【<REF ActionGuideDataNameText_Wp08_1814127872>を溜める連携】
 <string><REF ActionGuideDataNameText_Wp08_143967248>
@@ -1149,7 +1136,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><REF ActionGuideDataNameText_Wp10_m508432000>【赤】状態で<ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>【赤】吸収時に可能になる溜め状態。<lf>一定時間溜めた後<ICON WP10 PL_ATTACK_01><ICON RELEASE>で<lf>地上では連続攻撃、空中では急襲突きを<lf>行う。<lf>各種攻撃中も溜め状態の維持が可能で、<lf><ICON WP10 PL_ATTACK_01><ICON RELEASE>で様々な攻撃からも派生できる。<lf><lf>３エキス吸収状態なら、溜め攻撃後さらに<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>でフィニッシュ攻撃に派生可能。<lf>強化状態が解除されるが、強力な攻撃を<lf>繰り出すことができる。また、このときの<lf><REF RefEquipment_0001_010_0>の攻撃で複数のエキスを採取可能。
+<string>【赤】吸収時に可能になる溜め状態。<lf>一定時間溜めた後<ICON WP10 PL_ATTACK_01><ICON RELEASE>で<lf>地上では<REF ActionGuideDataNameText_Wp10_m851556800>、<lf>空中では<REF ActionGuideDataNameText_Wp10_m295633312>を行う。<lf>各種攻撃中も溜め状態の維持が可能で、<lf><ICON WP10 PL_ATTACK_01><ICON RELEASE>で様々な攻撃からも派生できる。<lf><lf>３エキス吸収状態なら、溜め攻撃後さらに<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>でフィニッシュ攻撃に派生可能。<lf>強化状態が解除されるが、強力な攻撃を<lf>繰り出すことができる。また、このときの<lf><REF RefEquipment_0001_010_0>の攻撃で複数のエキスを採取可能。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1170,7 +1157,7 @@
 <string>モンスターから採取可能なエキス。<lf>赤、白、橙、緑の４種類があり、<lf>各モンスターの部位によって採取できる<lf>色が違う。<lf><lf>採取した<REF ActionGuideDataNameText_Wp10_m508432000>は虫寄せで回収でき、<lf>色に対応した効果を得られる。<lf>複数の色を組み合わせると、さらに様々な<lf>効果が得られる。<lf><lf>強化状態は一定時間経過で解除される。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m508432000>の効果
-<string>採取したエキスの色に対応した効果を<lf>得られる。複数の色を組み合わせると、<lf>さらに様々な効果が得られる。<lf><lf>赤：<ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328>が可能になる<lf>白：移動速度、<REF ActionGuideDataNameText_Wp10_m1303595904>高度の上昇<lf>橙：ひるみ軽減<lf>赤＋白：攻撃力UP<lf>白＋橙：防御力UP<lf>赤＋白＋橙：一部のアクションが変化し<lf>　　　　　　さらに攻撃力UP
+<string>採取したエキスの色に対応した効果を<lf>得られる。複数の色を組み合わせると、<lf>さらに様々な効果が得られる。<lf><lf>赤：<ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328>が可能になる<lf>白：移動速度、<REF ActionGuideDataNameText_Wp10_m1303595904>高度の上昇<lf>橙：抜刀時のけぞり無効<lf>赤＋白：攻撃力UP<lf>白＋橙：防御力UP<lf>赤＋白＋橙：一部のアクションが変化し<lf>　　　　　　風圧、振動、咆哮を軽減<lf>　　　　　　さらに攻撃力UP
 <string>
 <string>【基本的な連携】
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1226,7 +1213,6 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN><REF RefEquipment_0001_013>
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1249,7 +1235,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string><REF RefEquipment_0001_013>に設定されている<REF ActionGuideDataNameText_Wp13_m1879452288>を<lf>使用できる。
+<string><REF RefEquipment_0001_013>に設定されている<REF ActionGuideDataNameText_Wp13_m1879452288>を<lf>使用できる。<lf><lf><REF ActionGuideDataNameText_Wp13_m70162400>はその場に設置、<lf><REF ActionGuideDataNameText_Wp13_14729>は装填後、<ICON WP13 PL_ATTACK_SP>で<REF ActionGuideDataNameText_Wp13_m1628573952>できる。
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
@@ -1259,7 +1245,7 @@
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_054>
-<string>
+<string><INPUTMSG MsgGUI600200_01_054_01>
 <string><REF ActionGuideDataNameText_Wp13_99602184>
 <string><ICON WP13 PL_ATTACK_SP>
 <string>
@@ -1332,7 +1318,6 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>素早く拡散させて矢を放つ技。<lf>スタミナを消耗しない。
 <string>
-<string><ICON WP_BOW><REF RefEquipment_0001_011>
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF RefEquipment_0001_011>を引き絞り矢を放つ技。<lf><ICON WP11 PL_ATTACK_SP>を長押しするほど<REF ActionGuideDataNameText_Wp00_605526016>が上がり、<lf>射撃の威力が上がる。<lf><lf>攻撃後に<ICON WP11 PL_ATTACK_01>で<REF ActionGuideDataNameText_Wp11_713120064>に派生する。
@@ -1356,7 +1341,7 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1435,7 +1420,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><REF ActionGuideDataNameText_Wp11_1920365056>中に<ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>【<REF ActionGuideDataNameText_Wp11_m1364116608>を織り交ぜた高火力な連携】
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
@@ -1443,7 +1428,7 @@
 <string><REF ActionGuideDataNameText_Wp11_m825706560>を<REF ActionGuideDataNameText_Wp11_m1364116608>で撃ち込みつつ、素早く<lf><REF ActionGuideDataNameText_Wp11_1920365056>からの<REF ActionGuideDataNameText_Wp11_m1212153600>で<lf>位置取りを調整し、<REF ActionGuideDataNameText_Wp11_m125532448>や<REF ActionGuideDataNameText_Wp11_m1657138304><lf>で<REF ActionGuideDataNameText_Wp11_m825706560>を炸裂させる連携。
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><REF ActionGuideDataNameText_Wp11_1920365056>中に<ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>

@@ -15,7 +15,7 @@
 <string>練気ゲージの色が赤の場合
 <string>さらに、練気ゲージの色が赤色になると<lf>練気ゲージが常に最大になり、<lf>一部の攻撃動作が強化される。
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
-<string>竜撃ゲージを１本消費して、非常に強力な<lf>「<COLOR preset="TXT_Accent">竜撃砲</COLOR>」を放てる。竜撃ゲージは攻撃を<lf>当てたり、ガードすることで溜まってゆく。
+<string>竜撃ゲージを１本消費して、非常に強力な<lf>「<COLOR preset="TXT_Accent">竜撃砲</COLOR>」を放てる。竜撃ゲージは自動で<lf>回復し、攻撃を当てることでも回復する。
 <string>傷口
 <string>モンスターの同じ部位に攻撃を当て続けると<lf><COLOR preset="TXT_Accent">傷</COLOR>がつく。<COLOR preset="TXT_Accent">傷口</COLOR>への攻撃は与えるダメージ<lf>が大きく、<COLOR preset="TXT_Accent">集中モード</COLOR>を使うと狙いやすい。
 <string>救難信号
@@ -27,31 +27,29 @@
 <string>サポートハンター
 <string>サポートハンターは、プレイヤーとは別の<lf>隊に所属するハンターだ。他プレイヤーが<lf>合流するまでの間、共に狩猟をしてくれる。
 <string>支給品
-<string>クエスト開始時にはアイテムが支給され、<lf>いつでも<ICON PL_ACCESS_ITEM_BAG>から受け取り可能。<lf><COLOR preset="TXT_Accent">支給品</COLOR>は、狩猟状況に応じて追加される。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_64>
 <string>支給品専用アイテム
 <string>中には「支給品専用アイテム」も存在する。<lf>それらはクエストが終了すると回収され、<lf>手元には残らない。
 <string>任務クエストに再挑戦しよう
 <string>進行ガイドで指定されたモンスターの<lf>狩猟に失敗した場合でも、再び同じ<lf><COLOR preset="TXT_Accent">任務クエスト</COLOR>に挑戦できる。
 <string>任務クエストに再挑戦しよう
-<string>フィールド上の<COLOR preset="TXT_Accent">ターゲットモンスターを<lf>攻撃</COLOR>するか、クエストメニューの<lf>「<COLOR preset="TXT_Accent">任務クエスト</COLOR>」から再受注しよう。
-<string>任務クエストに再挑戦しよう
 <string>苦戦する場合、事前に食事でステータスを<lf>高めたり、救難信号で他のプレイヤーや<lf>サポートハンターの協力を得るのも有効だ。
 <string>セクレトでの移動
-<string><ICON PL_PT_CALL>で<COLOR preset="TXT_Accent">セクレト</COLOR>に乗ると、<lf>目標地点に向かってオート移動が可能。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_68>
 <string>セクレトでの移動
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_69>
 <string>マイテント
 <string><COLOR preset="TXT_Accent">マイテント</COLOR>では、ハンターとオトモの装備<lf>変更やアイテムの入れ替えなどが可能。<lf>狩猟の準備はここで整えよう。
-<string>焚き火料理
-<string>「携帯焚き火台」または、マイテントの<lf>「焚き火メニュー」から、携帯食料を使った<lf><COLOR preset="TXT_Accent">食事</COLOR>が可能。
-<string>焚き火料理
+<string>携帯食料を受け取り食事をとろう
+<string>「携帯焚き火台」または、マイテントの<lf>「焚き火台メニュー」から、携帯食料を使った<lf><COLOR preset="TXT_Accent">食事</COLOR>が可能。
+<string>携帯食料を受け取り食事をとろう
 <string><COLOR preset="TXT_Accent">食事</COLOR>後の一定時間は、体力やスタミナ、<lf>攻撃力などのステータスが上昇する。<lf>それらの効果は、食材に応じて変化する。
 <string>体力とスタミナゲージ
 <string>体力：緑色ゲージが無くなると力尽きる。<lf>それが規定回数に達すると、クエスト失敗。<lf>スタミナ：特定行動で消費。自動回復する。
 <string>武器切替
 <string>武器は、メインとサブの２つを選択できる。<lf>「装備変更」から<COLOR preset="TXT_Accent">メイン武器</COLOR>と<COLOR preset="TXT_Accent">サブ武器</COLOR>を<lf>選ぼう。組合せは自由だ。
 <string>武器切替
-<string>武器の切り替えは<ICON PL_WEAPON_CHANGE>で可能。<lf>セクレトが駆けつけ、武器鞄の<COLOR preset="TXT_Accent">サブ武器</COLOR>に<lf>持ち替えられる。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_89>
 <string>アイテムの出し入れ
 <string>必要なアイテムは、アイテムBOXから出し<lf>入れしてアイテムポーチへ入れておこう。<lf><ICON UI_SUB_MENU>でサブメニューを開いて一括補充も可能。
 <string>素材アイテムの自動収納
@@ -62,7 +60,7 @@
 <string>追加食材
 <string>時には奮発し、追加食材に加えて<lf>「<COLOR preset="TXT_Accent">仕上げ食材</COLOR>」で一手間をかけてみよう。<lf>発動する食事スキルがさらに追加される。
 <string>仕上げ食材
-<string>携帯用焚火台を使用すれば「<COLOR preset="TXT_Accent">肉焼き</COLOR>」で<lf>こんがり肉を焼いたり、携帯食料などを<lf>使った「<COLOR preset="TXT_Accent">焚き火料理</COLOR>」での食事が可能。
+<string>携帯焚き火台を使用すれば「<COLOR preset="TXT_Accent">肉焼き</COLOR>」で<lf>こんがり肉を焼いたり、携帯食料などを<lf>使った「<COLOR preset="TXT_Accent">焚き火料理</COLOR>」での食事が可能。
 <string><REF Item_IT_25>
 <string>一時キャンプでは、アイテムの補充や装備の<lf>変更など、基礎的な狩りの準備ができる。<lf><ICON UI_LIST_TRIGGER_L1>・<ICON UI_LIST_TRIGGER_R1>：キャンプメニューの切り替え
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_126
@@ -92,7 +90,7 @@
 <string><REF Item_IT_18>
 <string>スリンガーに装填して使用するアイテム。<lf><ICON PL_AIM>＋<ICON PL_DUMMY_CAMERA>で捕獲したい環境生物に照準を合わせ<lf><ICON PL_SLINGER_SHOOT>で発射。対象に当たると捕獲に成功する。
 <string><REF Item_IT_162>
-<string>魚影のある水場で使うと、魚釣りが可能。<lf><ICON PL_ITEM>で<COLOR preset="TXT_Accent">釣り竿</COLOR>を取り出し、<ICON PL_AIM>＋<ICON PL_DUMMY_CAMERA>で狙って<lf><ICON PL_SLINGER_SHOOT>で魚影の近くにルアーを投げこもう。
+<string>魚影のある水場で使うと、魚釣りが可能。<lf><ICON PL_ITEM>で<COLOR preset="TXT_Accent">釣り竿</COLOR>を取り出し、<ICON PL_AIM>＋<ICON PL_DUMMY_CAMERA>で狙って<lf><ICON PL_FISHING_ACTION>で魚影の近くにルアーを投げこもう。
 <string><REF Item_IT_23>
 <string><COLOR preset="TXT_Accent">双眼鏡</COLOR>を使用すると、大型モンスターの<lf>個体情報を確認できる。確認可能な情報は<lf>ゲーム進行度によって一部追加される。
 <string><REF Item_IT_195>
@@ -102,7 +100,7 @@
 <string>ハンターセット
 <string>「<COLOR preset="TXT_Accent"><REF MsgGUI030212_0000></COLOR>」では、装備、アイテム、<lf>ショートカットパレットの各種マイセットを<lf>まとめて確認、設定できる。
 <string>肉焼き
-<string>焼き色に注目しながら、<ICON UI_DECIDE>で完了させよう。<lf>こんがり焼けたら、次はカットに挑戦だ！<lf>タイミングよく<ICON UI_DECIDE>で、入手数を増やせるぞ。
+<string>焼き色に注目しながら、<ICON PL_UI_DECIDE>で完了させよう。<lf>こんがり焼けたら、次はカットに挑戦だ！<lf>タイミングよく<ICON PL_UI_DECIDE>で、入手数を増やせるぞ。
 <string>焚き火料理
 <string><COLOR preset="TXT_Accent"><REF MsgGUI090200_01_00>を調理</COLOR>して食事をとろう。<lf>食事効果は、素材によって変化する。<lf>狩猟の成功に良質な食事は欠かせない。
 <string>ロビーの移動
@@ -193,7 +191,7 @@
 <string>響玉
 <string><ICON WP05 PL_ATTACK_SP>+<ICON WP05 PL_DODGE>で「<COLOR preset="TXT_Accent">響玉</COLOR>」を設置。響玉の範囲内では<lf>武器毎の性能強化が得られ、攻撃に反応して<lf>追加ダメージを与える。設置中も演奏可能。
 <string>特殊演奏
-<string>黄＋赤＋黄＋白の音色を奏でた後、<lf><ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>で武器固有の「<COLOR preset="TXT_Accent">特殊演奏</COLOR>」が<lf>可能。（音色と効果は武器によって異なる）
+<string><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>の順に音色を奏でた<lf>後、<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>で武器固有の「<COLOR preset="TXT_Accent">特殊演奏</COLOR>」が<lf>可能。（音色の順と効果は武器によって異なる）
 <string>相殺斬り上げ
 <string><ICON WP00 PL_ATTACK_00>＋<ICON WP00 PL_ATTACK_01>長押しで相殺効果のある<COLOR preset="TXT_Accent">相殺斬り上げ</COLOR><lf>を繰り出す。タイミングは難しいが、相殺に<lf>大成功するとモンスターをふっとばす。
 <string>特殊納刀からの居合抜刀気刃斬り
@@ -205,7 +203,7 @@
 <string>溜めステップ
 <string>溜め状態（<ICON WP04 PL_ATTACK_SP>長押し）中に<ICON WP04 PL_ATTACK_01>を押すと、<lf>溜めを維持しながら回避したり、<lf>素早く距離を詰めることができる。
 <string>ジャストガード
-<string>攻撃に合わせてタイミングよくガード<ICON WP01 PL_ATTACK_SP>で、<lf>「<COLOR preset="TXT_Accent">ジャストガード</COLOR>」が発生。その直後に<lf><ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>で強力な追撃突進が可能。
+<string>攻撃に合わせてタイミングよくガード<ICON WP06 PL_ATTACK_SP>で、<lf>「<COLOR preset="TXT_Accent">ジャストガード</COLOR>」が発生。その直後に<lf><ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>で<COLOR preset="TXT_Accent">渾身返し突き 【穿】</COLOR>へ派生可能。
 <string>ジャストガード＆リロード
 <string>敵の攻撃に合わせてタイミングよく<ICON WP07 PL_ATTACK_SP>＋<ICON WP07 PL_ATTACK_01>で<lf><COLOR preset="TXT_Accent">ジャストガードしながらリロード</COLOR>が可能。<lf>成功時は、強力な攻撃に派生できる。
 <string>剣モードへの切り替え
@@ -213,7 +211,7 @@
 <string>剣モードと斧モード
 <string>消費したゲージは「<COLOR preset="TXT_Accent">斧モード</COLOR>」の攻撃を<lf>当てるたびに回復する。ゲージをうまく<lf>回復しつつ、剣モードへの変形を狙おう。
 <string>斧：相殺斬り上げ
-<string>斧モード中、<ICON WP08 PL_ATTACK_00>長押し＋<ICON WP08 PL_ATTACK_01>長押しで<lf>「<COLOR preset="TXT_Accent">斧：相殺斬り上げ</COLOR>」を放つ。タイミングを<lf>合わせて相殺に成功すると大ダメージ。
+<string>斧モード中、<ICON WP08 PL_ATTACK_00>＋<ICON WP08 PL_ATTACK_01>で<lf>「<COLOR preset="TXT_Accent">斧：相殺斬り上げ</COLOR>」を放つ。タイミングを<lf>合わせて相殺に成功すると大ダメージ。
 <string>剣：カウンター斬り上げ
 <string>剣モード中、<ICON WP08 PL_ATTACK_SP>＋<ICON WP08 PL_ATTACK_00>で「<COLOR preset="TXT_Accent">剣：カウンター斬り<lf>上げ</COLOR>」を繰り出す。カウンターに成功すると<lf>二連斬りで反撃を行える。
 <string>ビンのチャージと斧モード
@@ -233,13 +231,13 @@
 <string>リンクパーティへの勧誘
 <string>スタートメニューの「<COLOR preset="TXT_Accent">リンクパーティに<lf>勧誘</COLOR>」から、メンバーを集められる。<lf>リンクパーティは最大４人まで組める。
 <string>リンクパーティの特徴
-<string>リンクパーティ中は専用チャットが開始され<lf>メンバーの誰かがクエストを開始すると、<lf>自動で参加通知も届くようになる。
+<string>リンクパーティ中は専用チャットが開始され<lf>メンバーの誰かがクエストを開始すると、<lf>自動で勧誘通知も届くようになる。
 <string>リンクパーティの特徴
 <string>リンクパーティはクエストから帰還しても<lf>継続されるため、メンバーを維持したまま<lf>さらなるクエストにも挑戦しやすい。
 <string>環境リンク
 <string>加えて、リンクパーティ中には<lf>「環境リンク」で自分の環境にメンバーを<lf>招待して一緒に探索を行うこともできる。
 <string>釣りの操作方法
-<string><COLOR preset="TXT_Accent">照準を出す、狙う</COLOR>：<ICON PL_AIM><lf><COLOR preset="TXT_Accent">ルアーを投げる</COLOR>：<ICON PL_AIM>＋<ICON PL_SLINGER_SHOOT>
+<string><COLOR preset="TXT_Accent">照準を出す、狙う</COLOR>：<ICON PL_AIM><lf><COLOR preset="TXT_Accent">ルアーを投げる</COLOR>：<ICON PL_AIM>＋<ICON PL_FISHING_ACTION>
 <string>釣りの操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>釣りの操作方法
@@ -255,7 +253,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_306
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_306
 <string>オトモの待機設定
-<string>「待機させる」を選択すると、オトモは<lf>クエストに参加しない。しかし待機中も<lf>自主トレーニングに励むため心配無用。
+<string>オトモはハンターと共に行動するが、<lf>「待機させる」を選択していると、<lf>クエストが開始した時にマイテントに戻る。
 <string>素材の剥ぎ取り
 <string>討伐したモンスターに近づき、<ICON PL_POP>で装備の<lf>生産・強化に必要な<COLOR preset="TXT_Accent">素材の剥ぎ取り</COLOR>が可能。<lf>抜刀中の場合は、まず<ICON PL_WEAPON_OFF>で武器を納めよう。
 <string>狩猟を続けるなら準備も大切
@@ -273,17 +271,17 @@
 <string>適正距離
 <string>照準がオレンジ色になる距離を適正距離と<lf>呼び、与えられるダメージが最も大きい。<lf>オレンジ色をキープするように立ち回ろう。
 <string>弾の変更
-<string>適正距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_323>
 <string>適正距離
 <string>照準がオレンジ色になる距離を適正距離と<lf>呼び、与えられるダメージが最も大きい。<lf>オレンジ色をキープするように立ち回ろう。
 <string>弾の変更
-<string>最適な距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_325>
 <string>適正距離
 <string>照準がオレンジ色になる距離を適正距離と<lf>呼び、与えられるダメージが最も大きい。<lf>オレンジ色をキープするように立ち回ろう。
 <string>ビンの装填
-<string><ICON WP11 PL_ATTACK_00>でビンを装填すると、ビンの効果が矢に<lf>付与される。ビンの効果は<ICON PL_ATTACK_SP>長押しで溜まる<lf>仕込み矢ゲージを消費して発揮される。
+<string><ICON WP11 PL_ATTACK_00>でビンを装填すると、ビンの効果が矢に<lf>付与される。ビンの効果は<ICON WP11 PL_ATTACK_SP>長押しで溜まる<lf>仕込み矢ゲージを消費して発揮される。
 <string>ビン選択
-<string>装填するビンは、<lf><ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>で変更できる。<lf>（装填可能なビンは武器によって異なる）
+<string><REF MsgGUI600000_PanelTutorial_L_EXP_328>
 <string>導ノ矢
 <string><COLOR preset="TXT_Accent">導ノ矢</COLOR>は当てた部位に刺さり続け、次に射つ<lf>矢はその部位を追尾して命中する。導ノ矢に<lf>命中した矢は追加ダメージを与える。
 <string>導ノ矢
@@ -329,11 +327,11 @@
 <string>多彩な攻撃アクション
 <string>これらのアクション以外にも、武器ごとで<lf>多彩なアクションが存在する。前ページを<lf>参考にしながら色々と試してみよう。
 <string>多彩な攻撃アクション
-<string>黄＋赤＋黄＋白の音色を奏でた後、<lf><ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>で武器固有の「<COLOR preset="TXT_Accent">特殊演奏</COLOR>」が<lf>可能。（音色と効果は武器によって異なる）
+<string><ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>、<ICON WP05 PL_ATTACK_00>の順に音色を奏でた<lf>後、<ICON WP05 PL_ATTACK_SP>＋<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>で武器固有の「<COLOR preset="TXT_Accent">特殊演奏</COLOR>」が<lf>可能。（音色の順と効果は武器によって異なる）
 <string>多彩な攻撃アクション
 <string>これらのアクション以外にも、武器ごとで<lf>多彩なアクションが存在する。前ページを<lf>参考にしながら色々と試してみよう。
 <string>多彩な攻撃アクション
-<string>攻撃に合わせてタイミングよくガード<ICON WP01 PL_ATTACK_SP>で、<lf>「<COLOR preset="TXT_Accent">ジャストガード</COLOR>」が発生。その直後に<lf><ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>で強力な追撃突進が可能。
+<string>攻撃に合わせてタイミングよくガード<ICON WP06 PL_ATTACK_SP>で、<lf>「<COLOR preset="TXT_Accent">ジャストガード</COLOR>」が発生。その直後に<lf><ICON WP06 PL_ATTACK_00>+<ICON WP06 PL_ATTACK_01>で<COLOR preset="TXT_Accent">渾身返し突き 【穿】</COLOR>へ派生可能。
 <string>多彩な攻撃アクション
 <string>これらのアクション以外にも、武器ごとで<lf>多彩なアクションが存在する。前ページを<lf>参考にしながら色々と試してみよう。
 <string>多彩な攻撃アクション
@@ -341,7 +339,7 @@
 <string>多彩な攻撃アクション
 <string>これらのアクション以外にも、武器ごとで<lf>多彩なアクションが存在する。前ページを<lf>参考にしながら色々と試してみよう。
 <string>多彩な攻撃アクション
-<string>斧モード中、<ICON WP08 PL_ATTACK_00>長押し＋<ICON WP08 PL_ATTACK_01>長押しで<lf>「<COLOR preset="TXT_Accent">斧：相殺斬り上げ</COLOR>」を放つ。タイミングを<lf>合わせて相殺に成功すると大ダメージ。
+<string>斧モード中、<ICON WP08 PL_ATTACK_00>＋<ICON WP08 PL_ATTACK_01>で<lf>「<COLOR preset="TXT_Accent">斧：相殺斬り上げ</COLOR>」を放つ。タイミングを<lf>合わせて相殺に成功すると大ダメージ。
 <string>多彩な攻撃アクション
 <string>剣モード中、<ICON WP08 PL_ATTACK_SP>＋<ICON WP08 PL_ATTACK_00>で「<COLOR preset="TXT_Accent">剣：カウンター斬り<lf>上げ</COLOR>」を繰り出す。カウンターに成功すると<lf>二連斬りで反撃を行える。
 <string>多彩な攻撃アクション

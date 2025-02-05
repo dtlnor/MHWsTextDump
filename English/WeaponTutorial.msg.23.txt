@@ -19,11 +19,11 @@
 <string>
 <string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_146633456>
-<string>A slashing attack that can reach high<lf>targets.
+<string>A slashing attack that can reach high,<lf>hard-to-reach areas on a monster.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">, Then <ICON RELEASE> After Charging
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>A rising slash attack that can Offset<lf>monster attacks.<lf><lf>Offsetting an attack with perfect<lf>timing (so that the great sword's attack<lf>connects with the monster's attack)<lf>will let you perform Follow-up Cross<lf>Slash.
+<string>A rising slash attack that can offset<lf>monster attacks.<lf><lf>If you charge a Rising Slash and<lf>releash it just as a monster attacks<lf>and the attack knocks the monster<lf>back, press <ICON WP00 PL_ATTACK_00> to follow up with<lf>a Cross Slash.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
@@ -33,7 +33,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>A sweeping attack that is effective<lf>against wounds. Hitting a monster's<lf>wound or weak point will land<lf>multiple hits dealing massive damage.<lf><lf>Press <ICON WP00 PL_ATTACK_SP_B> during the attack to perform<lf>a finisher attack.
+<string>A sweeping attack that is effective<lf>against wounds. Hitting a monster's<lf>wound or weak point will land<lf>multiple hits dealing massive damage.<lf><lf>Press <ICON WP00 PL_ATTACK_SP_B> during the attack to finish<lf>the attack early.
 <string>
 <string>True Charged Slash Combo
 <string><REF ActionGuideDataNameText_Wp00_276684864>
@@ -75,10 +75,10 @@
 <string><REF ActionGuideDataNameText_Wp00_146633456>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
-<string>This standard attack can be used to<lf>perform a basic combo:<lf><lf>Press <ICON WP03 PL_ATTACK_00> to perform an Overhead Slash<lf>then again for an Overhead Slash II, then<lf><ICON WP03 PL_ATTACK_00> again to perform a Crescent Slash.<lf><lf>All attacks are strengthened when<lf>the Spirit Gauge turns red.
+<string>This standard attack can be used to<lf>perform a basic combo:<lf><lf>Press <ICON WP03 PL_ATTACK_00> to perform an Overhead Slash<lf>then again for another Overhead Slash,<lf>then <ICON WP03 PL_ATTACK_00> to perform a Crescent Slash.<lf><lf>All attacks are strengthened when<lf>the Spirit Gauge turns red.
 <string>
 <string><ICON WP03 PL_ATTACK_01>
-<string>Press <ICON WP03 PL_ATTACK_01> after a Thrust to perform<lf>a Rising Slash.
+<string>Press <ICON WP03 PL_ATTACK_01> after Thrust to perform a<lf>Rising Slash.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_1048614016>
 <string><ICON WP03 PL_ATTACK_SP>
@@ -87,23 +87,23 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>A Spirit Charge fills the Spirit Gauge<lf>and once unleashed, allows you to<lf>perform a Spirit Blade attack. The<lf>level of Spirit Blade attack depends<lf>on the length the charge is held.<lf><lf>Charging completely allows you<lf>to unleash a Spirit Roundslash. If<lf>the Spirit Gauge is red, you will be<lf>immune to attacks that knock you<lf>back or send you flying until the<lf>Roundslash is complete.
+<string>A Spirit Charge fills the Spirit Gauge<lf>and once unleashed, allows you to<lf>perform a Spirit Blade attack. The<lf>level of Spirit Blade attack depends<lf>on the length the charge is held.<lf><lf>Charging completely allows you to<lf>unleash a Spirit Roundslash. If the<lf>Spirit Gauge is red, you won't have<lf>any damage reactions to attacks that<lf>knock you back or send you flying<lf>while the Roundslash is in motion.
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
 <string>A slashing attack performed while<lf>moving backwards.<lf><lf>Use <ICON WP03 PL_MOVE_LEFT> or <ICON WP03 PL_MOVE_RIGHT> to slash in a different<lf>direction.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_m37508024>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> During Combo
-<string>The Foresight Slash is an attack that can<lf>be performed mid-combo and provides<lf>a large window of invulnerability.<lf><lf>While it consumes Spirit Gauge, landing<lf>it after dodging a monster's attack will<lf>fill the gauge completely. Press <ICON WP03 PL_ATTACK_SP> to<lf>chain it into Spirit Roundslash.<lf>Its effect decreases when the Spirit<lf>Gauge is empty. You can combo into<lf>Foresight Whirl Slash when the Spirit<lf>Gauge is red.
+<string>The Foresight Slash is an attack that can<lf>be performed mid-combo and provides<lf>a large window of invulnerability.<lf><lf>Foresight Slashes consume the entire<lf>Spirit Gauge, however, landing one after<lf>dodging a monster's attack will fill the<lf>gauge completely. Press <ICON WP03 PL_ATTACK_SP> to chain it<lf>into a Spirit Roundslash. When the Spirit<lf>Gauge is empty, its effect decreases, but<lf>when the gauge is red, you can follow up<lf>with a Foresight Whirl Slash.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1048171072>
-<string>Landing this attack will lower the Spirit<lf>Gauge one level (when the gauge is White<lf>or higher) but allow you to chain into Spirit<lf>Helm Breaker.<lf><lf>When the gauge is red, Spirit Helm Breaker<lf>can be chained into Spirit Release Slash.<lf><lf>Spirit Helm Breaker can also be canceled<lf>with <ICON WP03 PL_WEAPON_OFF>.
+<string>Landing a Spirit Thrust will lower the<lf>Spirit Gauge one level (when the gauge<lf>is White or higher) but will allow you to<lf>chain into a Spirit Helm Breaker.<lf><lf>A Spirit Helm Breaker can be followed<lf>up with a Spirit Release Slash when the<lf>gauge is red.<lf><lf>Use <ICON WP03 PL_WEAPON_OFF> to cancel a Spirit Helm Breaker.
 <string>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> After Attacking
 <string><REF ActionGuideDataNameText_Wp03_m1559988736>
-<string>A special action that sheathes your<lf>weapon.<lf><lf>After Special Sheathe, press <ICON WP03 PL_ATTACK_00> for<lf>Iai Slash, or <ICON WP03 PL_ATTACK_SP> for Iai Spirit Slash.<lf><lf>Landing Iai Slash will cause your Spirit<lf>Gauge to fill automatically for a short<lf>time. Timing Iai Spirit Slash with<lf>a monster's attack will raise your<lf>Spirit Gauge by one level.
+<string>A special action that sheathes your<lf>weapon.<lf><lf>After Special Sheathe, press <ICON WP03 PL_ATTACK_00><lf>for Iai Slash or <ICON WP03 PL_ATTACK_SP> for Iai Spirit Slash.<lf><lf>Landing Iai Slash will cause your Spirit<lf>Gauge to fill automatically for a short<lf>time. Timing Iai Spirit Slash with a<lf>monster's attack will raise your Spirit<lf>Gauge by one level.
 <string>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1506281344>
@@ -116,7 +116,7 @@
 <string><INPUTMSG MsgGUI600200_01_003>
 <string><INPUTMSG MsgGUI600200_01_003_01>
 <string><REF ActionGuideDataNameText_Wp03_m1592986112>
-<string>Land attacks on monsters to fill<lf>the Spirit Gauge. Using Spirit Blade<lf>attacks will consume the gauge and<lf>landing a Spirit Roundslash or Focus<lf>Strike will raise the gauge one level.<lf><lf>When the Spirit Gauge turns red, it's<lf>at its maximum level, enhancing some<lf>attacks and allowing you to perform<lf>powerful follow-up attacks. Landing<lf>a Spirit Roundslash or a Spinning<lf>Crimson Slash will extend the duration<lf>the gauge stays red.
+<string>Landing attacks on monsters fills<lf>the Spirit Gauge. Using Spirit Blade<lf>attacks will consume the gauge and<lf>landing a Spirit Roundslash or Focus<lf>Strike will raise the gauge one level.<lf><lf>When the Spirit Gauge turns red, it's<lf>at its maximum level, enhancing some<lf>attacks and allowing you to perform<lf>powerful follow-up attacks. Landing<lf>a Spirit Roundslash or a Spinning<lf>Crimson Slash will extend the duration<lf>the gauge stays red.
 <string>
 <string>Combo for Quick Spirit Gauge Fill
 <string><ICON WP03 PL_ATTACK_00>
@@ -178,11 +178,11 @@
 <string><INPUTMSG MsgGUI600200_01_005_01>
 <string><REF ActionGuideDataNameTextCommon_962978240>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
-<string>An upwards slash performed while<lf>advancing forward. Using Advancing<lf>Slash uphill or toward a ledge will<lf>result in a terrain-specific attack.
+<string>An upwards slash performed while<lf>advancing forward. Using Advancing<lf>Slash while sliding downhill or<lf>toward a ledge will allow you<lf>to perform a terrain-specific<lf>attack.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m669292416>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> During Combo
-<string>An attack that slashes a wide area<lf>during which you can quickly<lf>change your direction. Chaining<lf>it from certain attacks will result<lf>in the powerful Spinning Reaper.
+<string>An attack that slashes a wide area,<lf>during which you can quickly<lf>change your direction. Chaining<lf>it from certain attacks will result<lf>in the powerful Spinning Reaper.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_1418448640>
 <string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> During Combo
@@ -190,14 +190,14 @@
 <string>A powerful leaping attack. Hitting<lf>a soft spot in a monster's hide will<lf>allow you to deal multiple instances<lf>of damage.<lf><lf>The power of the attack increases<lf>if used after certain attacks.
 <string>
 <string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> During Combo
-<string>Backstep can be used during combos<lf>to avoid monster attacks.<lf><lf>Perfect Rush, available during Backstep,<lf>is a multi-hit attack that can easily<lf>afflict elemental damage and ailments.<lf>Damage can be boosted with well-timed<lf>presses of <ICON WP01 PL_ATTACK_00>.
+<string>Backstep can be used during combos<lf>to avoid monster attacks.<lf><lf>Press <ICON WP01 PL_ATTACK_00> during a Backstep to perform<lf>Perfect Rush, a multi-hit attack that<lf>can easily afflict elemental damage and<lf>ailments. Press <ICON WP01 PL_ATTACK_00> at just the right time<lf>to increase damage.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> During Backstep
-<string>Chaining into a Charged Slash during a<lf>backstep will let you jump high in the air<lf>after successfully damaging a monster,<lf>allowing you to perform a airborne moves<lf>like Jumping Slash or Falling Bash.
+<string>Landing a Charged Slash after a Backstep<lf>allows you to jump high in the air. While<lf>airborne, you can follow up with different<lf>aerial attacks such as a Jumping Slash or<lf>a Falling Bash.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string><ICON WP01 PL_ATTACK_00> While Jumping
@@ -207,7 +207,7 @@
 <string><ICON WP01 PL_ATTACK_01> While Jumping
 <string>
 <string><ICON WP01 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Guard against attacks using your<lf>shield. Guarding at just the right time<lf>will result in a Perfect Guard.<lf><lf>Press <ICON WP01 PL_ATTACK_00> after a Perfect Guard to perform<lf>a quick and powerful Counter Slash.
+<string>Guard against attacks using your shield.<lf>Guarding at just the right time will result<lf>in a Perfect Guard.<lf><lf>Press <ICON WP01 PL_ATTACK_00> after a Perfect Guard to perform<lf>a quick and powerful Counter Slash.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1975087616>
 <string><ICON WP01 PL_ATTACK_00> After Perfect Guard
@@ -222,7 +222,7 @@
 <string>You can use certain items while your<lf>weapon is unsheathed.
 <string>
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_ATTACK_SP_B>
-<string>A stabbing attack that is effective<lf>against wounds. After hitting a monster's<lf>wound or weak point, press <ICON WP01 PL_ATTACK_00> to perform<lf>Falling Slash, and <ICON WP01 PL_ATTACK_01> for Upswing Bash.
+<string>A stabbing attack that is effective against<lf>wounds. After hitting a monster's wound<lf>or weak point, press <ICON WP01 PL_ATTACK_00> to follow up with<lf>a Falling Slash, or <ICON WP01 PL_ATTACK_01> for an Upswing Bash.
 <string>
 <string>Basic Combo
 <string><REF ActionGuideDataNameText_Wp01_1638854400>
@@ -241,7 +241,7 @@
 <string>
 <string>Powerful Combo
 <string><ICON WP01 PL_ATTACK_01>
-<string>A powerful stationary combo.<lf><lf>Use Spinning Reaper to quickly finish<lf>the combo, and Charged Chop when there's<lf>a big opening in the monster's defenses.
+<string>A powerful stationary combo.<lf><lf>Use a Spinning Reaper to quickly finish<lf>the combo, or a Charged Chop when<lf>there's a big opening in the monster's<lf>defenses.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m1520769024>
 <string><ICON WP01 PL_ATTACK_01>
@@ -273,7 +273,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string>Charged Slash Combo
-<string>A number of attacks can be performed<lf>from Charged Slash. Jumping Slash<lf>allows you to easily mount monsters,<lf>Falling Bash builds stun, and Plunging<lf>Thrust deals a large amount of damage.
+<string>A Charged Slash can chain into the<lf>following attacks:<lf><lf>- Jumping Slash: Makes it easier to<lf>mount monsters.<lf>- Falling Bash: Deals stun damage.<lf>- Plunging Thrust: Deals a large<lf>amount of damage.
 <string>
 <string>
 <string>After Successful Hit
@@ -289,7 +289,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string>Perfect Rush Combo
-<string>A combo that can be performed after<lf>a successful Perfect Rush. You will<lf>jump high in the air after using<lf>Perfect Rush, from which you can use<lf>either Jumping Slash or Falling Bash.
+<string>A combo that chains into a Perfect<lf>Rush. After executing a Perfect Rush,<lf>you will jump high in the air. You<lf>can then follow up with either a<lf>Jumping Slash or a Falling Bash.
 <string>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Dual Blades
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>A basic combo starter.<lf>Press <ICON WP02 PL_ATTACK_00> to perform Double Slash<lf>Return Stroke, then press <ICON WP02 PL_ATTACK_00> again<lf>for Circle Slash.
+<string>A basic combo starter.<lf><lf>Press <ICON WP02 PL_ATTACK_00> to perform a Double Slash<lf>Return Stroke, then press <ICON WP02 PL_ATTACK_00> again<lf>to perform a Circle Slash.<lf><lf>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -308,7 +308,7 @@
 <string><REF ActionGuideDataNameText_Wp02_927994752>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Your attack, movement speed, and evasion<lf>will all be boosted during Demon Mode.<lf>You will also be immune to knockbacks.<lf><lf>Blade Dance is a powerful series of<lf>attacks that consumes the Demon Gauge.
+<string>Entering Demon Mode will boost your<lf>attack, movement speed, and evasion,<lf>as well as, make you immune to knock-<lf>backs.<lf><lf>Blade Dance I, II, and III are a powerful<lf>series of attacks that consume the<lf>Demon Gauge.
 <string>
 <string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_300353024>
@@ -328,27 +328,27 @@
 <string>
 <string><ICON WP02 PL_DODGE>
 <string>Demon Dodge (During Demon or Archdemon Mode)
-<string>A quick dodge that can evade attacks.<lf>Successfully performing a Perfect Evade<lf>will allow you to attack while dodging,<lf>and will buff you for a short time.
+<string>A dodge that's faster than normal.<lf>A successful Perfect Evade will allow<lf>you to attack while dodging, and will<lf>buff you for a short amount of time.<lf><lf>Does not deplete the Demon Gauge<lf>while in Demon Mode.
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
-<string>A slashing attack effective against wounds.<lf>Hitting a monster's wound will allow you<lf>to perform Midair Spinning Blade Dance,<lf>an attack that spans the length of the<lf>monster and can destroy multiple wounds.
+<string>A slashing attack effective against<lf>wounds. Hit a monster's wound to<lf>perform a Midair Spinning Blade Dance,<lf>an attack that spans the length of the<lf>monster and can destroy multiple<lf>wounds.<lf>
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Boosts attacks, movement speed, and<lf>evasion, and makes you immune to<lf>knockback. Your stamina will gradually<lf>deplete while Demon Mode is active.<lf>Demon Mode ends if manually canceled<lf>with Exit Demon Mode or when your stamina<lf>reaches zero.
+<string>A state that boosts attacks, movement<lf>speed, and evasion, and makes you<lf>immune to knockback. Your stamina<lf>will gradually deplete while Demon<lf>Mode is active. The state ends if<lf>manually canceled or when your<lf>stamina reaches zero.
 <string><REF ActionGuideDataNameText_Wp02_m1003266688>
 <string>Landing attacks while in Demon Mode<lf>fills the Demon Gauge. Once the gauge<lf>is full, you will enter Archdemon Mode<lf>instead of exiting Demon Mode.<lf><lf>The Demon Gauge will gradually<lf>decrease over time, or be consumed<lf>by performing certain attacks.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>A state in which a number of your<lf>attacks are empowered. These boosted<lf>attacks will consume the Demon Gauge<lf>when used, and Archdemon Mode will<lf>end when the gauge fully empties.
+<string>A state that boosts a number of your<lf>attacks. These boosted attacks consume<lf>the Demon Gauge, ending Archdemon<lf>Mode when the gauge has been fully<lf>depleted.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
-<string>An empowered state entered after<lf>a successful Perfect Evade. It boosts<lf>both regular and element damage, and<lf>allows you to attack while dodging.
+<string>An empowered state entered after<lf>a successful Perfect Evade. It boosts<lf>both regular and elemental damage,<lf>and allows you to attack while dodging.
 <string>
 <string>Basic Combo
 <string><ICON WP02 PL_ATTACK_00>
-<string>A standard combo.
+<string>A basic combo.
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string>
 <string><ICON WP02 PL_ATTACK_00>
@@ -360,7 +360,7 @@
 <string>Basic Demon Mode Combo
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_1562259072>
-<string>A basic combo while in Demon Mode.<lf>It can be chained into a Blade Dance combo.
+<string>A basic combo while in Demon Mode.<lf>It can be chained into a Blade Dance<lf>combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m268803040>
 <string><ICON WP02 PL_ATTACK_00>
@@ -374,7 +374,7 @@
 <string>Archdemon Mode Combo
 <string><REF ActionGuideDataNameText_Wp02_m1698437888>
 <string><ICON WP02 PL_ATTACK_SP> After Blade Dance I
-<string>A combo that uses a large amount of the<lf>Demon Gauge, but deals massive damage.<lf><lf>After entering Demon Mode and using<lf>Blade Dance I with <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>, you can<lf>use <ICON WP02 PL_ATTACK_SP> to alternate between Demon<lf>Flurry and Blade Dance attacks.<lf><lf>Blade Dance III is a particularly damaging<lf>attack, so be sure to choose your combo<lf>path carefully based on the situation.
+<string>A combo that uses a large amount of<lf>the Demon Gauge, but deals massive<lf>damage.<lf><lf>After entering Demon Mode and using<lf>Blade Dance I with <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>, you can<lf>use <ICON WP02 PL_ATTACK_SP> to alternate between Demon<lf>Flurry and Blade Dance attacks.<lf><lf>Blade Dance III is a particularly damaging<lf>attack, so be sure to choose your combo<lf>path carefully based on the situation.
 <string>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_1565251968>
@@ -387,7 +387,7 @@
 <string>Demon Flurry Rush Combo
 <string><REF ActionGuideDataNameText_Wp02_72416008>
 <string><ICON WP02 PL_ATTACK_01> During Demon/Archdemon Mode
-<string>A combo that allows you to damage a<lf>monster while also closing your<lf>distance with it. The combo includes<lf>Double Roundslash when in Demon Mode.
+<string>A combo that allows you to close the<lf>distance between you and a monster<lf>while attacking. The combo includes<lf>a Double Roundslash while in Demon<lf>Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_215332432>
 <string><ICON WP02 PL_ATTACK_01>
@@ -402,11 +402,11 @@
 <string><INPUTMSG MsgGUI600200_01_009_01>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
 <string><ICON WP04 PL_ATTACK_01>
-<string>A smashing attack that can be repeated<lf>each time it hits a monster.<lf><lf>The powerful Big Bang Finisher can<lf>be used after landing this attack<lf>four times.<lf><lf>Missing even once will cancel the combo.
+<string>A relentless smashing attack that can<lf>be repeated each time it hits a monster.<lf><lf>The powerful Big Bang Finisher can<lf>be used after landing the fourth Big<lf>Bang (Big Bang IV).<lf><lf>Missing even once will halt the combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Hold down <ICON WP04 PL_ATTACK_SP> to expend stamina and store<lf>up power. There are three charge levels,<lf>each with their own attack variation.<lf><lf>Press <ICON WP04 PL_ATTACK_01> to perform Charged Step<lf>while charging, which will allow you<lf>to dodge attacks without losing your<lf>charge.
+<string>Hold down <ICON WP04 PL_ATTACK_SP> to expend stamina and<lf>store up power. There are three charge<lf>levels, each with their own attack<lf>variation.<lf><lf>Press <ICON WP04 PL_ATTACK_01> to perform a Charged Step<lf>while charging, which will allow you<lf>to dodge attacks without losing your<lf>charge.
 <string><REF ActionGuideDataNameText_Wp04_67403672>
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
@@ -417,23 +417,23 @@
 <string><REF ActionGuideDataNameText_Wp04_m1391311232>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> At Charge Level 3
 <string><REF ActionGuideDataNameText_Wp04_424161632>
-<string>Charging to maximum will allow you to<lf>perform Mighty Charge. Charging this<lf>to maximum once again will allow you<lf>to use the powerful Mighty Charge Slam.
+<string>When your hammer is fully charged<lf>(level 3), you're able to perform<lf>a Mighty Charge. Releasing your<lf>charge early, performs a Mighty<lf>Charge Upswing, but fully charging<lf>a Mighty Charge allows you to unleash<lf>the powerful Mighty Charge Slam.
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp04_807319680>
 <string>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> After Attacking
-<string>A spinning attack used as a follow-up<lf>after other attacks. Press <ICON WP04 PL_ATTACK_00> during<lf>the spin to use a different attack.<lf>The longer you spin, the more<lf>powerful the attack will become,<lf>but spinning too long without<lf>attacking will leave you open.
+<string>A spinning attack used as a follow-up<lf>after other attacks. Press <ICON WP04 PL_ATTACK_00> during<lf>the spin to use a different attack. The<lf>longer you spin, the more powerful<lf>the attack will become, but spinning<lf>too long without attacking will leave<lf>you open.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_AIM><ICON PLUS><ICON WP04 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp04_m1790485120>
-<string>A sweeping smash attack that is<lf>effective against wounds. Hitting<lf>a monster's wound or weak point<lf>will cause you to spin, dealing<lf>multiple damage to multiple places.<lf><lf>Press <ICON WP04 PL_ATTACK_SP> while rotating to charge<lf>while performing the attack.
+<string>A sweeping smash attack that is<lf>effective against wounds. Hit a<lf>monster's wound or weak point<lf>to spin, dealing damage to multiple<lf>places.<lf><lf>Press <ICON WP04 PL_ATTACK_SP> while rotating to charge<lf>while performing the attack.
 <string>
 <string>Basic Combo
 <string><ICON WP04 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp04_86757720>
-<string>A standard combo.
+<string>A basic combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m222720992>
 <string><ICON WP04 PL_ATTACK_00>
@@ -483,28 +483,28 @@
 <string><INPUTMSG MsgGUI600200_01_010_01>
 <string><REF ActionGuideDataNameText_Wp05_m201995088>
 <string><ICON WP05 PL_ATTACK_01>
-<string>A basic attack that produces the second<lf>note on the musical staff.
+<string>A basic attack that produces Note 2<lf>on the musical staff.
 <string><REF ActionGuideDataNameText_Wp05_166644960>
 <string>
 <string><INPUTMSG MsgGUI600200_01_011>
-<string>An attack that produces the second<lf>note on the musical staff.<lf><lf>Pressing <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> during<lf>the attack will allow you to produce<lf>another note.
+<string>An attack that produces Note 2<lf>on the musical staff.<lf><lf>Pressing <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> during<lf>the attack will allow you to produce<lf>another note.
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_m671947712>
-<string>A basic attack that produces the third<lf>note on the musical staff. It allows<lf>you to easily hit a target behind you,<lf>and will move you backwards as you<lf>attack.
+<string>A basic attack that produces Note 3<lf>on the musical staff.<lf><lf>It allows you to easily hit a target<lf>behind you, and will move you<lf>backwards as you attack.
 <string>
 <string><INPUTMSG MsgGUI600200_01_012>
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
-<string>An attack that produces the third note<lf>on the musical staff.<lf><lf>Pressing <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> during<lf>the attack will allow you to produce<lf>another note.
+<string>An attack that produces Note 3<lf>on the musical staff.<lf><lf>Pressing <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> during<lf>the attack will allow you to produce<lf>another note.
 <string>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> During Combo
-<string>A group of quick attacks that produce<lf>a note.<lf><lf>Can be used after a number of different<lf>attacks. <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01>, and <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, each<lf>producing their own note.
+<string>A quick attack that produces a note<lf>on the musical staff.<lf><lf>This attack can be used after a number<lf>of different attacks, with <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01>, and<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> each producing their own note.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>A special attack that activates melody<lf>effects. Multiple stocked melodies will<lf>be Performed in order, but you can pick<lf>a melody using <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01>.<lf><lf>While Performing multiple melodies,<lf>press <ICON WP05 PL_ATTACK_SP> for a powerful Performance<lf>Beat. Then play an Encore with <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>to boost and extend melody effects.<lf><lf>Timing Performance Beat and Encore with<lf>melody effects will increase damage.
+<string>An attack that activates Melody Effects.<lf>Stocked melodies will be performed<lf>in order, but a specific melody can<lf>be selected using <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01>.<lf><lf>While Performing multiple melodies,<lf>press <ICON WP05 PL_ATTACK_SP> for a powerful Performance<lf>Beat. Then play an Encore with <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>to boost and extend Melody Effects.<lf><lf>The power of a Performance Beat and<lf>Encore will increase if you time them<lf>with the activation of Melody Effects.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -513,43 +513,39 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>A special attack that produces an Echo<lf>Bubble. The type of Echo Bubble you can<lf>create is determined by your equipped<lf>hunting horn.<lf><lf>You can produce up to three notes with<lf><ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> while creating<lf>an Echo Bubble.
+<string>A special attack that produces an Echo<lf>Bubble. The type of Echo Bubble you<lf>can create is determined by the hunting<lf>horn you have equipped.<lf><lf>When creating an Echo Bubble, you can<lf>produce up to three notes with either<lf><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> With Melody Stocked
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>Unlike Perform, this version will play<lf>the unique Melody Effect associated<lf>with your equipped Hunting Horn.<lf><lf>Once stocked, this melody will not<lf>be overwritten by new melodies.
+<string>Unlike normal performances, Special<lf>Performances will play the unique<lf>Melody Effect associated with the<lf>hunting horn you have equipped.<lf><lf>Once stocked, this melody will not<lf>be overwritten by new melodies.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>A Performance attack effective against<lf>wounds. You can produce up to five<lf>notes with <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00><lf>while Performing.<lf><lf>Playing a note in time with the rhythm<lf>will increase its damage.
+<string>A Performance attack effective against<lf>wounds. You can produce up to five<lf>notes with either <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>while Performing.<lf><lf>Playing the notes at the right time will<lf>deal additional damage.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
 <string><REF RefStatus_0006_000_01>
-<string>After setting an echo bubble, you will<lf>receive a special Melody Effect as long<lf>as you are within its area of effect.<lf><lf>It will also resonate as you Perform<lf>and play notes, dealing damage to any<lf>nearby monsters.
+<string>After creating an Echo Bubble, you will<lf>receive a special Melody Effect as long<lf>as you are within its area of effect.<lf><lf>It will also resonate as you Perform<lf>and play notes, dealing damage to<lf>any nearby monsters.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
-<string>A special Perform attack that can Offset<lf>monster attacks. Its high damage<lf>ensures its usefulness as a normal<lf>attack as well.
+<string>A Special Performance attack that<lf>can offset monster attacks. Its high<lf>damage ensures its usefulness as<lf>a normal attack as well.
 <string>
 <string>Melody Effects
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Increases movement speed. Playing<lf>an Encore for this Melody Effect will<lf>also raise your attack power and<lf>prevent your attacks from being<lf>deflected.
 <string>
-<string>Prevents knockback from attacks.
-<string>
 <string><ICON ST_POWER_UP_HORN> Attack Up (S)/<REF MusicSkillDataText_Wp05_12>
 <string>Increases attack.
 <string>
-<string>Increases Defense.
-<string>
-<string><ICON ST_DEFECE_FIRE> <REF MusicSkillDataText_Wp05_18>/<ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
+<string><ICON ST_DEFECE_FIRE> Fire Resistance (S)/<ICON ST_DEFECE_FIRE_HIGH> Fire Resistance (L)
 <string>Increases fire resistance and prevents<lf>fireblight.
 <string>
 <string>Echo Wave
-<string>A Melody Effect that deals damage.<lf><lf>Each hunting horn has different<lf>effects. Some deal blunt or slicing<lf>damage, while others can inflict<lf>elemental damage or status ailments.
+<string>A Melody Effect that deals damage.<lf><lf>Each hunting horn has different effects.<lf>Some deal blunt or severing damage,<lf>while others can inflict elemental<lf>damage or status ailments.
 <string>
 <string>Echo Bubble Effects
-<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Evasion & Movement Speed Up
 <string>Increases evasion and movement speed.
 <string>
 <string>Basic Combo
@@ -571,7 +567,7 @@
 <string>Basic Perform Combo
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>A Perform combo that takes advantage<lf>of gaps in a monster's defenses.
+<string>A Performance combo that takes<lf>advantage of gaps in a monster's<lf>defense.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -579,7 +575,7 @@
 <string>Triple Melody Effect Combo
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>A powerful combo useful against toppled<lf>monsters.<lf><lf>Time Melody Effect usage with<lf>Performance Beat and Encore to deal<lf>massive damage.
+<string>A powerful combo useful against<lf>toppled monsters.<lf><lf>Time the Melody Effect usage with<lf>Performance Beat and Encore to deal<lf>massive damage.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -593,7 +589,7 @@
 <string>Quick Perform Combo
 <string>Basic Attack
 <string><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Using Perform after Hilt Stab will<lf>activate Melody Effects faster than<lf>normal.
+<string>Using Perform after a Hilt Stab will<lf>activate Melody Effects faster than<lf>normal.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -608,11 +604,11 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>A basic combo starter that thrusts upwards.<lf>You will thrust in the direction you are<lf>aiming while in Focus Mode.<lf><lf>The attack can be repeated up to three<lf>times. After performing High Thrust III,<lf>Counter-thrust can be used—its damage<lf>increasing the longer <ICON WP06 PL_ATTACK_01> is held.<lf>Timing this attack with a monster's attack<lf>will allow you to perform the powerful<lf>Double Counter-thrust.
+<string>A basic combo starter that thrusts<lf>upwards. While in Focus Mode, the<lf>direction of the attack corresponds<lf>to the direction of the camera.<lf><lf>You can string the attack up to three<lf>times, with High Thrust III chaining<lf>into Charge Counter—its damage<lf>increasing the longer you charge<lf>the attack with <ICON WP06 PL_ATTACK_01>. Time this with<lf>a monster's attack to unleash the<lf>powerful Double Counter-thrust.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>A thrusting attack that steps forward.
+<string>A thrusting attack performed while<lf>leaping forward.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_2049287808>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> During Combo
@@ -632,8 +628,7 @@
 <string><ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
-<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Hunker down and put up a nearly<lf>impenetrable Guard. While your stamina<lf>will drain in this state, your reaction from<lf>guarding will be greatly reduced, allowing<lf>you to easily counterattack.<lf><lf>Your counterattack's damage will be<lf>boosted with every hit you Guard against.
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_105937912>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
@@ -651,11 +646,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01> After Successful Guard
-<string>A forward-stepping counterattack that can<lf>be performed after using Guard. While<lf>it deals more damage than the light<lf>version, it will leave you open for longer.
+<string>A forward-stepping counterattack<lf>that can be performed after using<lf>Guard. While it deals more damage<lf>than a Return Thrust, it will leave<lf>you open for longer.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_1728314368>
 <string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
-<string>A shield attack that is effective<lf>against wounds. Hitting a monster's<lf>wound or weak point will allow you<lf>to deal damage to multiple places.<lf><lf>Press <ICON WP06 PL_ATTACK_SP_B> during a thrust attack to end<lf>the attack at any time.
+<string>A shield attack that is effective against<lf>wounds. Hitting a monster's wound<lf>or weak point will allow you to deal<lf>damage multiple times.<lf><lf>Press <ICON WP06 PL_ATTACK_SP_B> during a Focus Strike to<lf>finish the attack at any time.
 <string>
 <string>Basic Combo into Triple Thrust
 <string><REF ActionGuideDataNameText_Wp06_m572647232>
@@ -671,10 +666,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m752102912>
 <string><ICON WP06 PL_ATTACK_00>
 <string>
-<string>Basic Combo into Counter-thrust
+<string>Basic Combo into Charge Counter
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>A basic combo that leads into<lf>Counter-thrust.<lf><lf>Counter-thrust's power will increase<lf>the longer it is charged, and will<lf>become the even more powerful<lf>Double Counter-thrust when timed<lf>with a monster's attack.
+<string>A basic combo that leads into<lf>a Charge Counter.<lf><lf>A Charge Counter's power will<lf>increase the longer it is charged,<lf>and will become the even more<lf>powerful Double Counter-thrust<lf>when timed with a monster's attack.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1128612864>
 <string><ICON WP06 PL_ATTACK_01>
@@ -688,7 +683,7 @@
 <string>Counters After Successful Guard
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>A counterattacks available after Guarding<lf>against a monster's attack.<lf><lf>Successfully performing a Perfect Guard<lf>will allow you to use a powerful advancing<lf>attack.
+<string>A counterattack available after<lf>guarding against a monster's attack.<lf><lf>Successfully performing a Perfect<lf>Guard boosts the attack power of<lf>any follow-up attacks.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -696,7 +691,7 @@
 <string><REF ActionGuideDataNameText_Wp06_894130624>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
-<string><REF ActionGuideDataNameText_Wp06_105937912>
+<string><REF ActionGuideDataNameText_Wp06_13135>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
 <string>
 <string><ICON WP_GUNLANCE> Gunlance
@@ -719,11 +714,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1497865856>
 <string><ICON WP07 PL_ATTACK_00> After Wide Sweep
-<string>An attack that fires your Wyrmstake<lf>Cannon. It deals repeated damage<lf>to the part of monster it hits before<lf>exploding, dealing fire damage that<lf>cuts through the monster's hide.
+<string>An attack that fires your Wyrmstake<lf>Cannon. It deals repeated damage to<lf>the part it hits before ending with an<lf>explosion, inflicting fire damage that<lf>burns through the monster's hide.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> After Wide Sweep
-<string>An attack that fires all remaining<lf>shells and the Wyrmstake Cannon.<lf>Press <ICON WP07 PL_ATTACK_00> or <ICON WP07 PL_ATTACK_01> after Wyrmstake Full Blast<lf>to use Multi Wyrmstake Full Blast.
+<string>An attack that fires all remaining<lf>shells and the Wyrmstake Cannon.<lf><lf>Press <ICON WP07 PL_ATTACK_00> or <ICON WP07 PL_ATTACK_01> after a Wyrmstake<lf>Full Blast to follow up with a Multi<lf>Wyrmstake Full Blast.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
@@ -734,48 +729,48 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m43537492>
 <string><ICON WP07 merge="PL_ATTACK_01,HOLD_ON">
-<string>An attack that charges shells before<lf>firing them all at once, dealing fire<lf>damage that cuts through the<lf>monster's hide.
+<string>An attack that charges shells before<lf>firing them all at once, dealing fire<lf>damage that burns through the<lf>monster's hide.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>An upwards slash using the gunlance.<lf>Press <ICON WP07 PL_ATTACK_01> after the attack to fire a shell,<lf>or <ICON WP07 PL_ATTACK_00> to perform Overhead Smash.
+<string>An upwards slash.<lf><lf>Press <ICON WP07 PL_ATTACK_01> after a Rising Slash to<lf>perform a Shelling attack, or <ICON WP07 PL_ATTACK_00><lf>to perform an Overhead Smash.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1588566656>
 <string><ICON WP07 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Press <ICON WP07 PL_ATTACK_00> while guarding to perform<lf>Guard Thrust I. Upon successfully<lf>executing a Perfect Guard, press <ICON WP07 PL_ATTACK_00><lf>for Overhead Smash.
+<string>Press <ICON WP07 PL_ATTACK_00> while guarding to perform<lf>Guard Thrust I.<lf><lf>If you successfully execute a Perfect<lf>Guard, press <ICON WP07 PL_ATTACK_00> for Overhead Smash.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m2132440704>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Reloads shells and the Wyrmstake<lf>Cannon. You will automatically block<lf>attacks immediately after beginning<lf>the reload.
+<string>Reload shells and the Wyrmstake<lf>Cannon. You will automatically<lf>block attacks while reloading.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1926268544>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> During Combo
-<string>Reloads shells only. You will<lf>automatically block attacks<lf>immediately after beginning<lf>the reload.
+<string>Reload shells only. You will<lf>automatically block attacks<lf>while reloading.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Use one segment of the Wyvern Gauge<lf>to unleash the powerful Wyvern's Fire,<lf>dealing fire damage that cuts through<lf>the monster's hide.
+<string>Use one half of the Wyvern's Fire Gauge<lf>to unleash the powerful Wyvern's Fire,<lf>inflicting fire damage that penetrates<lf>a monster's hide.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_695464896>
 <string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
-<string>A thrusting drill attack that is<lf>effective against wounds. Hitting<lf>a monster's wound or weak point will<lf>extend the length of the attack and<lf>allow you to finish by firing the<lf>Wyrmstake Cannon.<lf><lf>You can also fire the Wyrmstake Cannon<lf>early by pressing <ICON WP07 PL_ATTACK_SP_B> during the<lf>drill attack.
+<string>A thrusting drill attack effective<lf>against wounds. Hit a monster's<lf>wound or weak point to extend the<lf>length of the attack and allow you to<lf>finish by firing the Wyrmstake Cannon.<lf><lf>You can also fire the Wyrmstake Cannon<lf>early by pressing <ICON WP07 PL_ATTACK_SP_B> during the<lf>drill attack.
 <string>
 <string><REF RefEquipment_SORT_0004>
-<string>There are three types of shelling:<lf>Normal, Wide, and Long.<lf><lf>Normal shells have the most capacity.<lf>Wide shells make for more powerful<lf>Shelling and Wyvern's Fire attacks.<lf>Long shells make for more powerful<lf>Wyrmstake Cannon attacks.
+<string>There are three types of shelling:<lf>normal, wide, and long.<lf><lf>Normal shells have the most capacity.<lf>Wide shells make for more powerful<lf>Shelling and Wyvern's Fire attacks.<lf>Long shells make for more powerful<lf>Wyrmstake Cannon attacks.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1164200704>
-<string>Ammo required to use Shelling.<lf>A shell is consumed with each firing.<lf>They can be recovered by using Reload<lf>or Quick Reload.
+<string>Shells are required in order to perform<lf>Shelling attacks. Each shot consumes<lf>one shell, but you can quickly refill<lf>them by using Reload or Quick Reload.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1336808448>
-<string>Ammo required to use Wyrmstake Cannon.<lf>Consumed each time Wyrmstake Cannon is<lf>fired and can be recovered with Reload.
+<string>Ammo that is required to use the<lf>Wyrmstake Cannon. Consumed each<lf>time the Wyrmstake Cannon is fired<lf>and can be recovered using Reload.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>A gauge required to use Wyvern's Fire—<lf>an attack that inflicts powerful damage<lf>that includes fire damage, cutting<lf>through flesh.<lf><lf>The Wyvern Gauge recovers automatically,<lf>but can also be filled by landing hits.<lf><lf>Up to two segments can be charged<lf>at once. Using Wyvern's Fire consumes<lf>one segment.
+<string>A gauge that must be filled in order<lf>to use Wyvern's Fire—a powerful<lf>attack that inflicts fire element<lf>damage and can penetrate through<lf>a monster's hide.<lf><lf>The Wyvern's Fire Gauge recovers<lf>automatically, but can also be filled<lf>by landing hits. A full gauge will allow<lf>you to perform Wyvern's Fire twice;<lf>with one instance consuming half of<lf>the gauge.
 <string>
 <string>Wyrmstake Cannon Combo
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
 <string><ICON WP07 PL_ATTACK_00>
-<string>A basic combo that chains into<lf>Wyrmstake Cannon.
+<string>A basic combo that chains into<lf>a Wyrmstake Cannon.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m789417920>
 <string><ICON WP07 PL_ATTACK_00>
@@ -789,7 +784,7 @@
 <string>Wyrmstake Full Blast Combo
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
-<string>A basic combo that chains into<lf>Wyrmstake Full Blast.
+<string>A basic combo that chains into<lf>a Wyrmstake Full Blast.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m551745024>
 <string><INPUTMSG MsgGUI600200_01_020>
@@ -814,18 +809,18 @@
 <string><ICON WP_SWITCHAXE> Switch Axe
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Press <ICON WP08 PL_ATTACK_00> after Axe: Overhead Slash to<lf>perform Axe: Side Slash, then <ICON WP08 PL_ATTACK_00> for<lf>Axe: Spiral Burst Slash.<lf>Axe: Spiral Burst Slash will replenish<lf>a large amount of your Switch Gauge.<lf><lf>You can use also use <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> for the<lf>mid-range, forward-moving attack<lf>Axe: Forward Slash.
+<string>A basic Axe Mode combo:<lf><ICON WP08 PL_ATTACK_00> Axe: Overhead Slash →<lf><ICON WP08 PL_ATTACK_00> Axe: Side Slash →<lf><ICON WP08 PL_ATTACK_00> Axe: Spiral Burst Slash.<lf><lf>An Axe: Spiral Burst Slash will replenish<lf>a large amount of your Switch Gauge.<lf><lf>Use <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> to perform an Axe:<lf>Forward Slash, a mid-range, forward-<lf>moving attack.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 PL_ATTACK_01>
-<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> will allow you to continuously use<lf>Axe: Wild Swing. After using Axe: Wild<lf>Swing at least twice, press <ICON WP08 PL_ATTACK_00> for<lf>Axe: Heavy Slam, which will transition<lf>you into Power Axe Mode.<lf><lf>Press <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> to use Axe: Forward Overhead<lf>Slash, a long-range, forward-moving<lf>attack.
+<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> will repeatedly perform an Axe:<lf>Wild Swing. After executing an Axe:<lf>Wild Swing at least twice, press <ICON WP08 PL_ATTACK_00><lf>to perform an Axe: Heavy Slam, which<lf>will transition you into Power Axe Mode.<lf><lf>Use <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> to perform an Axe:<lf>Forward Overhead Slash, a long-range,<lf>forward-moving attack.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>An upwards slash that can Offset<lf>monster attacks. If you land<lf>a Perfect Offset, press <ICON WP08 PL_ATTACK_00> for Axe:<lf>Follow-up Heavy Slam, transitioning<lf>you into Power Axe Mode, or <ICON WP08 PL_ATTACK_SP> for<lf>Axe: Follow-up Morph Slash, which<lf>will transition you into Sword Mode.
+<string>An upwards slash that can offset<lf>monster attacks.<lf><lf>If your attack knocks a monster back,<lf>press <ICON WP08 PL_ATTACK_00> to follow up with an Axe:<lf>Follow-up Heavy Slam, which will<lf>transition you into Power Axe Mode<lf>or press <ICON WP08 PL_ATTACK_SP> to follow up with an Axe:<lf>Follow-up Morph Slash, which will<lf>transition you into Sword Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
 <string><ICON WP08 PL_ATTACK_00> Upon Perfect Offset
@@ -843,7 +838,7 @@
 <string><INPUTMSG MsgGUI600200_01_021_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>A slashing attack that is effective<lf>against wounds. Hitting a wound or<lf>weak point with this attack will<lf>allow you to deal multiple instances<lf>of damage and use Power Axe Finisher.<lf>You can morph into Sword Mode with<lf><ICON WP08 PL_ATTACK_SP> during the multi-hit attack and<lf>then use Element Discharge Finisher.
+<string>A slashing attack that is effective<lf>against wounds.<lf><lf>Hitting a monster's wound or weak<lf>point will land multiple hits that chain<lf>into a Power Axe Finisher, dealing<lf>massive damage. Alternatively, use <ICON WP08 PL_ATTACK_SP><lf>mid-attack to morph into Sword Mode<lf>to conclude with an Element Discharge<lf>Finisher.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -858,23 +853,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1381817088>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00>
-<string>Time the attack just as a monster<lf>attacks to prevent being knocked back.<lf>Succeeding will allow you to perform two<lf>attacks in a row, which can be followed<lf>by Sword: Heavenward Flurry using <ICON WP08 PL_ATTACK_01>.
+<string>Perform a Sword: Counter Rising Slash<lf>right when a monster attacks and you<lf>will unleash a two-hit counterattack.<lf>Succeeding will also prevent you from<lf>being knocked back or sent flying.<lf>Press <ICON WP08 PL_ATTACK_01> after the counterattack to<lf>follow up with a Sword: Heavenward<lf>Flurry.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Press <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> after Element Discharge for an<lf>explosive finishing attack.<lf>You will automatically morph into<lf>Axe Mode after the explosion.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_52943932>
-<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
-<string>When you perform an Element Discharge in<lf>Amped State, your hunter will grab onto the<lf>monster. Once you're hanging off the monster,<lf>use <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> to perform a Zero Sum Discharge<lf>Finisher. After the finisher, your weapon<lf>will return to Axe Mode.
+<string>Press <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> repeatedly after Element<lf>Discharge for an explosive finishing<lf>attack. You will automatically morph<lf>into Axe Mode after the explosion.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>A powerful attack available in Sword<lf>Mode. An extra damage-dealing explosion<lf>will occur if used in the Amped State. You<lf>will morph into Axe Mode after the attack.
-<string>
-<string><REF ActionGuideDataNameText_Wp08_26943142>
-<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>A powerful attack only usable in Amped<lf>State. You can also combo into this with<lf><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> after an Element Discharge. This<lf>attack will return you to Axe Mode.
+<string>A powerful attack available in Sword<lf>Mode. An extra damage-dealing<lf>explosion will occur if used in the<lf>Amped State. You will morph into<lf>Axe Mode after the attack.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -882,33 +869,33 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>A slashing attack that is effective<lf>against wounds. Hitting a wound or<lf>weak point with this attack will allow<lf>you to deal multiple instances of<lf>damage and use Element Discharge<lf>Finisher. You can morph into Axe Mode<lf>with <ICON WP08 PL_ATTACK_SP> during the multi-hit attack<lf>and then use Power Axe Finisher.
+<string>A slashing attack that is effective<lf>against wounds.<lf><lf>Hitting a monster's wound or weak<lf>point will land multiple hits that chain<lf>into an Element Discharge Finisher,<lf>dealing massive damage. Alternatively,<lf>use <ICON WP08 PL_ATTACK_SP> mid-attack to morph into Axe<lf>Mode to conclude with a Power Axe<lf>Finisher.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_971569344>⇔<REF ActionGuideDataNameText_Wp08_m1422082944>
-<string>Attacking in Axe Mode will fill the<lf>Switch Gauge, while attacking in Sword<lf>Mode will use it up. Switch between<lf>modes while fighting to ensure success.
+<string>Attacking in Axe Mode will fill the<lf>Switch Gauge, while attacking in Sword<lf>Mode will spend gauge.<lf><lf>Switch between modes during hunts<lf>to ensure success.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1814127872>
 <string>A gauge that fills as you land attacks<lf>in Axe Mode.<lf><lf>You can morph into Sword Mode when<lf>the Switch Gauge is at 30%. The gauge<lf>will fill over time when your weapon<lf>is sheathed.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_503110624>
-<string>Increases damage while in Axe Mode.<lf>Also increases the rate the Switch Gauge<lf>fills while attacking.
+<string>Increases damage while in Axe Mode.<lf>It also increases the rate in which the<lf>Switch Gauge fills while attacking.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1601592576>
 <string>A gauge that fills as you land attacks<lf>in Sword Mode.<lf><lf>You can enter the Amped State when<lf>the Amp Gauge has filled completely.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_132806840>
-<string>Small explosions dealing damage<lf>based on your current phial type<lf>occur automatically when attacking<lf>in Sword Mode.
+<string>In Sword Mode, small explosions that<lf>deal damage based on your current<lf>phial type will occur automatically.
 <string>
 <string>Phial Type
-<string>Attacking in Sword Mode will consume<lf>the Switch Gauge, adding an effect based<lf>on the phial type. Some phials will fill<lf>the gauge easier than others.<lf><lf>Power Phial: Boosts physical damage<lf>Element Phial: Boosts elemental damage<lf>Poison Phial: Adds poison<lf>Paralysis Phial: Adds paralysis<lf>Dragon Phial: Adds dragon element<lf>Exhaust Phial: Adds Stun/Energy Drain
+<string>Attacking in Sword Mode will consume<lf>the Switch Gauge, adding an effect based<lf>on the phial type. Some phials will fill<lf>the Amp Gauge faster than others.<lf><lf><COLOR preset="TXT_Accent">Power Phial</COLOR>: Boosts physical damage<lf><COLOR preset="TXT_Accent">Element Phial</COLOR>: Boosts elemental damage<lf><COLOR preset="TXT_Accent">Poison Phial</COLOR>: Adds poison<lf><COLOR preset="TXT_Accent">Paralysis Phial</COLOR>: Adds paralysis<lf><COLOR preset="TXT_Accent">Dragon Phial</COLOR>: Adds dragon element<lf><COLOR preset="TXT_Accent">Exhaust Phial</COLOR>: Adds stun/exhaust
 <string>
 <string>Combo for Quick Switch Gauge Fill
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>A basic combo to fill the Switch Gauge<lf>while in Axe Mode. The combo can be<lf>chained into another combo using <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> for<lf>Axe: Forward Slash  or <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> for Axe: Forward<lf>Overhead Slash. Choose the best attack for<lf>the job for the distance you are attacking<lf>from.
+<string>A basic combo to fill the Switch Gauge<lf>while in Axe Mode.<lf><lf>Use <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00> to start the combo with<lf>an Axe: Forward Slash or use <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01> to<lf>start it with an Axe: Forward Overhead<lf>Slash.<lf><lf>Positioning is key so choose your attack<lf>based on the distance to your target.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1338690432>
 <string><ICON WP08 PL_ATTACK_00>
@@ -919,7 +906,7 @@
 <string>Axe Combo to Switch to Sword Mode
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
-<string>A combo that allows you to morph into<lf>Sword Mode after activating Power Axe Mode.
+<string>A combo that morphs into Sword Mode<lf>after activating Power Axe Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
@@ -933,7 +920,7 @@
 <string>Combo to Fill the Amp Gauge in Sword Mode
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>A combo that quickly fills the Amp Gauge<lf>while in Sword Mode.
+<string>A combo that fills the Amp Gauge<lf>quickly while in Sword Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1737891328>
 <string><ICON WP08 PL_ATTACK_01>
@@ -952,7 +939,7 @@
 <string>Powerful Combo When Monster is Open
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>A powerful combo when the monster<lf>is wide open.
+<string>A powerful combo when you have<lf>an opening against a monster.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">
@@ -963,38 +950,38 @@
 <string><ICON WP_CHARGEBLADE> Charge Blade
 <string><REF ActionGuideDataNameText_Wp09_m584458432>
 <string><ICON WP09 PL_ATTACK_00>
-<string>A basic combo starter.<lf>You can chain into Return Stroke with <ICON WP09 PL_ATTACK_00>,<lf>then Roundslash with <ICON WP09 PL_ATTACK_00> again.
+<string>A basic combo starter.<lf><lf><ICON WP09 PL_ATTACK_00> Sword: Weak Slash →<lf><ICON WP09 PL_ATTACK_00> Sword: Return Stroke →<lf><ICON WP09 PL_ATTACK_00> Sword: Roundslash.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Performed by letting go of <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> at the<lf>right time.<lf>You will perform Rising Slash instead if<lf>the timing is off.
+<string>The Sword: Charged Double Slash<lf>requires careful timing to perform.<lf><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> to charge the attack then release<lf>it right when the monster attacks. If<lf>the timing is off, you will perform a<lf>Sword: Charged Rising Slash instead.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>A lunging slash that moves you forward.<lf>You can perform Sword: Shield Thrust <lf>after Sword: Forward Slash  with <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.<lf>Use <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> again to perform<lf>Axe: Amped Element Discharge.
+<string>A lunging slash that moves you forward.<lf><lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Sword: Forward Slash →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Sword: Shield Thrust →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Axe: Amped Element Discharge
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
-<string>A Guard using your shield.<lf>Timing your Guard well will allow<lf>you to perform a Perfect Guard.<lf><lf>Use <ICON WP09 PL_ATTACK_00> after a Perfect Guard<lf>to perform Savage Axe Slash.
+<string>Guard against attacks using your<lf>shield. Guarding at just the right time<lf>will result in a Perfect Guard.<lf><lf>If successful, press <ICON WP09 PL_ATTACK_00> for Savage Axe<lf>Slash.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1536274816>
 <string><ICON WP09 PL_ATTACK_00> After Perfect Guard
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>An attack that will morph your weapon<lf>from sword to axe.
+<string>An attack that will morph your weapon<lf>from Sword Mode to Axe Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Use accumulated Sword Energy to fill<lf>your phials. If the phials are already full,<lf>the surplus will enhance the phial.
+<string>Use accumulated Sword Energy to fill<lf>the Charge Blade's phials. If the phials<lf>are already full, the surplus will enhance<lf>them.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> While Charging
-<string>Spend phials to enter Element Boost,<lf>which will enhance your Guard and allow<lf>you to perform Axe: Super Amped Element<lf>Discharge.
+<string>Spend phials to give your shield<lf>an Element Boost, which will enhance<lf>your guard and allow you to perform<lf>an Axe: Super Amped Element Discharge.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> While Charging
-<string>A further boost after Element Boost,<lf>empowering the sword. While empowered,<lf>your sword will not deflect off monsters.
+<string>Boosts the Charge Blade's sword after<lf>an Element Boost. While empowered,<lf>sword attacks will not deflect off of a<lf>monster's hide.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1002,7 +989,7 @@
 <string><INPUTMSG MsgGUI600200_01_026_01>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>A slashing attack effective against<lf>wounds. Performs a leaping sword attack<lf>from either Sword Mode or Axe Mode.<lf>Hitting a wound will put you into Power<lf>Axe Mode.
+<string>A slashing attack effective against<lf>wounds.<lf><lf>Performs a leaping sword attack<lf>from either Sword Mode or Axe<lf>Mode. Hitting a wound will put<lf>you into Power Axe Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m2127622656>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1010,48 +997,48 @@
 <string><INPUTMSG MsgGUI600200_01_027_01>
 <string><REF ActionGuideDataNameText_Wp09_794588032>
 <string><ICON WP09 PL_ATTACK_01>
-<string>A multi-hit attack that consumes a phial.<lf>Press <ICON WP09 PL_ATTACK_01> to perform Axe: Element Discharge<lf>II, then <ICON WP09 PL_ATTACK_01> again for Axe: Amped Element<lf>Discharge.<lf><lf>Continually pressing <ICON WP09 PL_ATTACK_01> while in Power Axe<lf>Mode will allow you to deal multiple<lf>instances of damage.
+<string>A multi-hit attack that consumes one<lf>phial.<lf><lf><ICON WP09 PL_ATTACK_01> Axe: Element Discharge I →<lf><ICON WP09 PL_ATTACK_01> Axe: Element Discharge II →<lf><ICON WP09 PL_ATTACK_01> Axe: Amped Element Discharge<lf><lf>Hold <ICON WP09 PL_ATTACK_01> while in Power Axe Mode to<lf>perform a multi-hit attack that deals<lf>massive damage.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Amped Element Discharge can be chained<lf>into other attacks. Press <ICON WP09 PL_ATTACK_01> to use Axe:<lf>Amped Element Discharge Follow-up. Holding<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> or <ICON WP09 PL_ATTACK_01> while in Power Axe Mode  will deal<lf>damage to multiple places. Press <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>again while in Element Boost to perform Axe:<lf>Super Amped Element Discharge. You can<lf>also press <ICON WP09 PL_ATTACK_SP> while readying to activate <lf>this move to chain into Elemental<lf>Roundslash, and activate Element Boost.
+<string>Amped Element Discharge can be<lf>chained with <ICON WP09 PL_ATTACK_01> into Axe: Amped<lf>Element Discharge Follow-up.<lf><lf>Hold <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> or <ICON WP09 PL_ATTACK_01> while in Power<lf>Axe Mode to unleash a multi-hit attack<lf>that deals massive damage.<lf><lf>Press <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (with Element Boost) to<lf>perform an Axe: Super Amped Element<lf>Discharge or <ICON WP09 PL_ATTACK_SP> (while readying Axe:<lf>Amped Element Discharge) to perform<lf>an Elemental Roundslash which also<lf>activates Element Boost.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>An attack that will morph your weapon<lf>from axe to sword.
+<string>An attack that will morph your weapon<lf>from Sword Mode to Axe Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>A slashing attack effective against<lf>wounds. Performs a leaping sword attack<lf>from either Sword Mode or Axe Mode.<lf>Hitting a wound will put you into Power<lf>Axe Mode.
+<string>A slashing attack effective against<lf>wounds.<lf><lf>Performs a leaping sword attack<lf>from either Sword Mode or Axe<lf>Mode. Hitting a wound will put<lf>you into Power Axe Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Morphs your weapon, switching modes.<lf>When morphing, the shield will automatically<lf>Guard attacks while facing forward.
+<string>The charge blade is able to morph<lf>between two modes: Sword Mode<lf>and Axe Mode. If your shield is readied<lf>while morphing, you will automatically<lf>guard against attacks.
 <string>
-<string>Attacks That Block
-<string>Some attacks while in Sword Mode can also<lf>guard. Timing the move while the shield<lf>is facing the incoming attack will let you<lf>Guard automatically.<lf><lf>After guarding, you will be able to perform<lf>Axe: Super Amped Element Discharge with<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.
+<string>Guarding attacks
+<string>Some attacks in Sword Mode can also<lf>guard. Timing a move so the shield<lf>faces the incoming attack will let you<lf>automatically guard.<lf><lf>After successfully guarding with one<lf>of these Sword Mode attacks, press<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (with Element Boost) to<lf>follow up with an Axe: Super Amped<lf>Element Discharge.
 <string>
 <string>Charge Gauge
-<string>Attacking with the sword will store Sword<lf>Energy, which can then be used to fill<lf>phials when the gauge is yellow or above.<lf><lf>Accumulating too much Sword Energy will<lf>make your attacks deflect.
+<string>Sword attacks will store Sword Energy,<lf>which can then be used to fill phials<lf>when the gauge is yellow or above.<lf><lf>Accumulating too much Sword Energy<lf>will make your attacks deflect.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_650824320>
-<string>Enhances your Guard during Sword Mode<lf>and you will be able to perform Axe:<lf>Super Amped Element Discharge.
+<string>Enhances your guard during Sword<lf>Mode and allows you to perform an<lf>Axe: Super Amped Element Discharge.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1125949696>
-<string>Your sword attacks will be enhanced<lf>by phial effects, your damage will be<lf>boosted, and your weapon will not<lf>be deflected.
+<string>Enhances your sword attacks with phial<lf>effects. Boosts damage and prevents<lf>your weapon from being deflected.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m701543936>
-<string>Lessens phial use and allows you to<lf>deal damage to multiple places by<lf>continuously pressing the button when<lf>attacking with the axe. After performing<lf>a Perfect Guard, you can use Savage Axe<lf>Slash, which will enhance your attacks<lf>for a short time.
+<string>Power Axe Mode lessens phial usage<lf>and allows you to perform powerful<lf>multi-hit attacks in Axe Mode.<lf><lf>After performing a Perfect Guard, you<lf>can unleash a Savage Axe Slash, which<lf>will enhance your attacks temporarily.
 <string>
-<string>Charged Attack
-<string>Sword: Charged Double Slash and Sword:<lf>Condensed Element Slash will lose some<lf>effectiveness when overcharged, but are<lf>powerful attacks when timed correctly.
+<string>Charged Attacks
+<string>The Sword: Charged Double Slash<lf>and Sword: Condensed Element<lf>Slash are powerful charge attacks<lf>that require careful timing in order<lf>to execute. These attacks cannot<lf>be performed if overcharged, so<lf>be mindful of how long they are<lf>charged.
 <string>
 <string>Phials
-<string>Consumed when performing Element<lf>Discharge attacks, and explode to<lf>cause damage. When enhanced, the<lf>phials' effects are even greater.<lf><lf>Impact Phial: Adds stun and exhaust,<lf>and generates an explosion that pierces<lf>through a monster's hide.<lf><lf>Element Phial: Increases the weapon's<lf>elemental properties, and can inflict<lf>large damage via that element.
+<string>Phials are consumed when performing<lf>Element Discharge attacks, detonating<lf>explosions that cause damage. When<lf>enhanced, the phials' effects are even<lf>greater.<lf><lf><COLOR preset="TXT_Accent">Impact Phial</COLOR>: Adds stun and exhaust,<lf>and generates an explosion that can<lf>pierce through a monster's hide.<lf><lf><COLOR preset="TXT_Accent">Element Phial</COLOR>: Boosts the weapon's<lf>elemental properties, enabling it to<lf>deal high elemental damage.
 <string>
 <string>Sword: Basic Combo
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>A combo that allows you to approach<lf>from a long distance using Sword:<lf>Shield Thrust.<lf><lf>Replacing Sword: Return Stroke with<lf>Sword: Charged Double Slash will allow<lf>you to quickly charge the gauge.
+<string>A combo that allows you to close in<lf>from afar using a Sword: Shield Thrust.<lf><lf>Using a Sword: Charged Double Slash<lf>instead of a Sword: Return Stroke will<lf>quickly fill the Charge Gauge.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_530797824>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1062,10 +1049,10 @@
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
 <string>
-<string>Elemental Boost Combo
+<string>Element Boost Combo
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>A combo that allows you to use<lf>Shield: Elemental Boost.<lf><lf>Charging during a basic combo will<lf>allow you to perform the attack.
+<string>A combo that allows you to execute<lf>a Shield: Element Boost, which can<lf>also be performed by charging during<lf>any basic combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1079,7 +1066,7 @@
 <string>3+ Phial Elemental Discharge Combo
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>A combo that chains Sword: Shield Thrust<lf>into Axe: Amped Element Discharge.<lf><lf>The combo ends in Axe: Super Amped Element<lf>Discharge, allowing you to deal massive<lf>damage.
+<string>A combo that chains a Sword: Shield<lf>Thrust into an Axe: Amped Element<lf>Discharge.<lf><lf>The combo ends with an Axe: Super<lf>Amped Element Discharge, dealing<lf>massive damage.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1093,10 +1080,10 @@
 <string>Axe: Super Amped Element Discharge Combo
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>As with other attacks that can guard, you<lf>can use Axe: Super Amped Element Discharge<lf>directly after guarding.<lf><lf>Using Elemental Boost will reduce the time<lf>you are left open after guarding, making<lf>this combo easier to perform.
+<string>After guarding with a guarding attack,<lf>you can unleash an Axe: Super Amped<lf>Element Discharge.<lf><lf>Using Element Boost will reduce the<lf>vulnerability window after guarding,<lf>making this combo easier to perform.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
-<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> After Guarding with an Attack that Blocks
+<string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> After Guarding with an Attack that Guards
 <string>
 <string><ICON WP_INSECTGLAIVE> Insect Glaive
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
@@ -1109,47 +1096,47 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
-<string>Commands your Kinsect to rush forward<lf>and gather an Extract from the part<lf>of the monster it hits.<lf><lf>The Kinsect will fly towards the reticle<lf>that can be displayed with <ICON WP10 PL_ATTACK_SP>.
+<string>Commands your Kinsect to attack<lf>a monster part marked by your reticle<lf>in order to gather Extract.<lf><lf>Hold <ICON WP10 PL_ATTACK_SP>: Display the reticle<lf>Press <ICON WP10 PL_ATTACK_SP>: Mark Target
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
-<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> will charge your Kinsect's attack,<lf>allowing them to gather Extract from each<lf>part of the monster that it passes through.
+<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> will charge your Kinsect's attack,<lf>allowing them to gather Extract from<lf>each part of the monster that it<lf>passes through.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_607158400>
 <string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp10_1536680576>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_01> While Kinsect is in Flight
-<string>Orders the Kinsect to return to you.<lf>The Extracts it brings back will<lf>strengthen you.
+<string>Orders the Kinsect to return to you,<lf>and the Extracts it brings back will<lf>strengthen you.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>An attack that creates a mark for your<lf>Kinsect to follow.<lf><lf>Your Kinsect will attack the marked body<lf>part, leaving behind a Dust Effect.
+<string>Marking a target directs your Kinsect<lf>to focus their attacks on a specific<lf>part of a monster.<lf><lf>When your Kinsect attacks the marked<lf>part, they leave behind Kinsect Powder.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>A long-range attack that creates a mark<lf>for your Kinsect to follow.<lf><lf>Your Kinsect will attack the marked body<lf>part, leaving behind a Dust Effect.
+<string>Mark a monster part from long-range<lf><lf>Your Kinsect will attack the marked<lf>body part, leaving behind Kinsect<lf>Powder.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
 <string><INPUTMSG MsgGUI600200_01_029>
 <string><INPUTMSG MsgGUI600200_01_029_01>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
-<string><ICON WP10 PL_ATTACK_00> While Jumping
+<string><ICON WP10 PL_ATTACK_00> (Midair)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_239722048>
-<string><ICON WP10 PL_ATTACK_01> While Jumping
+<string><ICON WP10 PL_ATTACK_01> (Midair)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
-<string><ICON WP10 PL_DODGE> While Jumping
+<string><ICON WP10 PL_DODGE> (Midair)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_810620608>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>A thrusting attack that is effective<lf>against wounds.<lf><lf>Successfully hitting a wound or weak point<lf>will cause your Kinsect to pierce through<lf>the monster and collect Red, White, and<lf>Orange Extracts.
+<string>A thrusting attack that is effective<lf>against wounds.<lf><lf>After hitting a wound or weak point,<lf>your Kinsect will pierce through the<lf>monster, collecting Red, White, and<lf>Orange Extracts as it passes through.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> With Red Extract
-<string>A chargeable move when you have a Red<lf>Extract. After charging, use <ICON WP10 PL_ATTACK_01><ICON RELEASE> for<lf>Descending Slash while on the ground, or<lf>Descending Thrust while in the air.<lf>Preserve your charge and chain in<lf>different attacks with <ICON WP10 PL_ATTACK_01><ICON RELEASE>.<lf>If you have three Extracts, you can use<lf>a powerful finisher attack after the<lf>charge attack with <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>. This will end<lf>the enhanced state, but you will be able<lf>to perform powerful attacks and collect<lf>Extracts with your Kinsect.
+<string>With Red Extract stocked, use <ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>on the ground for a Descending Slash<lf>or in the air for a Descending Thrust.<lf>You can maintain your charge while<lf>performing other attacks then follow<lf>up with either of these charged attacks.<lf><lf>Press <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (with all three Extracts<lf>stocked) after a Descending Slash or<lf>Thrust to unleash a powerful finisher.<lf>While the finisher consumes all three<lf>Extracts, your Kinsect will restock it<lf>with Extract it has gathered during<lf>the finisher.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1157,25 +1144,25 @@
 <string><REF ActionGuideDataNameText_Wp10_1212529024>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> With Three Extracts
 <string>
-<string><REF RefEquipment_0001_010_0>
-<string>Insects that fight alongside you by<lf>following instructions given to them<lf>with your Insect Glaive. Kinsects are<lf>able to take a number of Extracts<lf>from monsters that will power you up.<lf>You can equip and strengthen a wide<lf>variety of Kinsects.
+<string>Kinsects
+<string>Insects that fight alongside you via<lf>orders from your Insect Glaive.<lf>Kinsects can gather different Extracts<lf>from monsters that will power you up.<lf>There are a wide variety of Kinsects<lf>you can equip and strengthen.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1304673664>
-<string>Attacking while aiming with <ICON WP10 PL_AIM> during<lf>Focus Mode will have your Kinsect attack<lf>the monster, collecting Extracts.<lf><lf>The Kinsect's trajectory will also change<lf>in accordance with your attacks.
+<string>If you attack while in Focus Mode<lf>(using <ICON WP10 PL_AIM>), your Kinsect will attack<lf>at the same time while simultaneously<lf>harvesting Extract.<lf><lf>Your Kinsect's trajectory will also<lf>change in accordance with your attacks.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Kinsects will leave behind Effect<lf>Powder when attacking the marked<lf>monster part. Attacking the powder<lf>will make it explode, causing a number<lf>of different effects.<lf><lf>Blast: Build up Blast on the monster<lf>Poison: Build up Poison on the monster<lf>Paralysis: Build up Paralysis on the monster<lf>Recover: Slightly restore your HP
+<string>Kinsects will leave behind a cloud<lf>of dust called Kinsect Powder when<lf>attacking a marked monster part.<lf>Attacking the powder will detonate<lf>it, triggering a number of different<lf>effects.<lf><lf><COLOR preset="TXT_Accent">Blast</COLOR>: Builds up Blast<lf><COLOR preset="TXT_Accent">Poison</COLOR>: Builds up Poison<lf><COLOR preset="TXT_Accent">Paralysis</COLOR>: Builds up Paralysis<lf><COLOR preset="TXT_Accent">Recover</COLOR>: Slightly restores your health
 <string>
 <string>Extracts
-<string>A substance extracted from monsters.<lf>There are four kinds in total: Red, White,<lf>Orange, and Green. The color you can<lf>extract differs depending on the parts<lf>of each monster.<lf><lf>Gathered Extracts can be absorbed by<lf>recalling your Kinsect, with each color<lf>granting a different effect. Absorbing<lf>multiple colors will produce even more<lf>effects. The effects will end after<lf>a period of time.
+<string>A substance extracted from monsters.<lf>There are four kinds: Red, White,<lf>Orange, and Green. The color you can<lf>extract differs depending on the parts<lf>of each monster.<lf><lf>Absorb gathered Extracts by recalling<lf>your Kinsect. Each color grants a<lf>different effect, but multiple colors<lf>at once will yield even more effects.<lf><lf>The effects end after some time.
 <string>
 <string>Extract Effects
-<string>Different colors of Extracts will provide<lf>different effects. Combine multiple<lf>colors to produce even more effects.<lf><lf>Red: Allows you to charge with <ICON WP10 PL_ATTACK_01><lf>White: Increases movement speed<lf>and jump height<lf>Orange: Grants Flinch Free<lf>Red+White: Increases attack<lf>White+Orange: Increases defense<lf>Red+White+Orange: Alters certain attacks<lf>and increases attack further
+<string>Different colors of Extracts provide<lf>different effects. Combine multiple<lf>colors to produce even more effects.<lf><lf><COLOR preset="TXT_Accent">Red</COLOR>: Allows you to charge with <ICON WP10 PL_ATTACK_01><lf><COLOR preset="TXT_Accent">White</COLOR>: Increases movement speed<lf>and jump height<lf><COLOR preset="TXT_Accent">Orange</COLOR>: Negates knockback while<lf>weapon is drawn<lf><COLOR preset="TXT_Accent">Red + White</COLOR>: Increases attack<lf><COLOR preset="TXT_Accent">White + Orange</COLOR>: Increases defense<lf><COLOR preset="TXT_Accent">Red + White + Orange</COLOR>: Alters some<lf>attacks, reduces wind pressure, tremors,<lf>and roars, and further increases attack.
 <string>
 <string>Basic Combo
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
 <string><ICON WP10 PL_ATTACK_00>
-<string>A combo that can perform a Kinsect<lf>Combo after every action. All attacks<lf>until Reaping Slash can be directional<lf>attacks.<lf><lf>You can also move backward while<lf>attacking with Dodge Slash instead<lf>of Overhead Smash.
+<string>A combo where every attack can<lf>be used with a Kinsect Combo. All<lf>attacks up until the Reaping Slash<lf>can be directional attacks.<lf><lf>You can also move backwards while<lf>performing a Dodge Slash instead of<lf>an Overhead Smash.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1983561600>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1186,10 +1173,10 @@
 <string><REF ActionGuideDataNameText_Wp10_2066406784>
 <string><ICON WP10 PL_ATTACK_01>
 <string>
-<string>Dust Effect Combo
+<string>Kinsect Powder Combo
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>A combo that places a mark and orders<lf>your Kinsect to leave Effect Powder<lf>there, then you quickly evade before<lf>the powder explodes.<lf><lf>Can be followed up by another attack.
+<string>A combo that involves marking<lf>a target for your Kinsect to attack,<lf>evading backwards, then advancing<lf>forwards in order to detonate the<lf>powder your Kinsect left behind.<lf><lf>Can be followed up with other attacks,<lf>as well.
 <string>
 <string>Vault (Backward)
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
@@ -1200,7 +1187,7 @@
 <string>Midair Combo
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
-<string>A combo that allows you to move a large<lf>distance in the air.<lf><lf>You can also chain into Descending Thrust<lf>if you have Red Extract.
+<string>A combo that allows you to travel<lf>a large distance in the air.<lf><lf>You can also chain into a Descending<lf>Thrust if you have Red Extract stored.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
 <string><ICON WP10 PL_DODGE>
@@ -1211,7 +1198,7 @@
 <string>Powerful Combo with 3 Extracts
 <string><REF ActionGuideDataNameText_Wp10_1401028864>
 <string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
-<string>Consume all Extracts to perform<lf>a powerful combo.<lf><lf>You can also perform a Kinsect Combo<lf>until you use Tornado Slash.
+<string>A powerful combo that consumes<lf>all three Extracts.<lf><lf>You can pair a Kinsect Combo with<lf>a Leaping Slash up to the Tornado<lf>Slash portion of the combo.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m587319424>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
@@ -1226,22 +1213,21 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
-<string><ICON WP_LIGHTBOWGUN> Light Bowgun
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
-<string>Fires loaded ammo straight ahead.<lf>Use Aim to fire in a chosen direction.
+<string>Fires the ammo loaded into your<lf>bowgun straight ahead. Adjust the<lf>direction in which you fire by aiming.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1727296128>
 <string><INPUTMSG MsgGUI600200_01_043>
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> After Firing
-<string>Press <ICON WP13 PL_ATTACK_01> after firing for a Power Shot,<lf>a stronger attack that also restores<lf>more energy.<lf><lf>It cannot be chained into after Focus<lf>Blast or using Special Ammo.
+<string>Press <ICON WP13 PL_ATTACK_01> after firing a Power Shot,<lf>a stronger attack that also restores<lf>more energy.<lf><lf>It cannot be chained into after Focus<lf>Blast or with Special Ammo.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
-<string>Reload the selected ammo.<lf>Use <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> to reload all ammo in order.
+<string>Reload the selected ammo.<lf>Hold <ICON WP13 merge="PL_ATTACK_00,HOLD_ON"> to reload all ammo in order.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
@@ -1249,11 +1235,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string>Allows you to use the Special Ammo<lf>set for your Light Bowgun.
+<string>Use equipped Special Ammo.<lf><lf>You can place Wyvernblast, or load<lf>Adhesive Ammo and fire with <ICON WP13 PL_ATTACK_SP>.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
-<string>Select usable ammo from the ammo<lf>you possess.
+<string>Select ammo.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
@@ -1283,7 +1269,7 @@
 <string><ICON WP_HEAVYBOWGUN> Heavy Bowgun
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
-<string>Fires loaded ammo straight ahead.<lf>Use Aim to fire in a chosen direction.
+<string>Fires the ammo loaded into your<lf>bowgun straight ahead. Adjust the<lf>direction in which you fire by aiming.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_187560352>
 <string><INPUTMSG MsgGUI600200_01_051>
@@ -1302,47 +1288,46 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1687699840>
 <string><ICON WP12 PL_ATTACK_01><ICON PLUS><ICON WP12 PL_ATTACK_00>
-<string>A guard performed with your Heavy<lf>Bowgun.<lf><lf>Time it well to perform a Perfect Guard,<lf>allowing you to use a special backstep.<lf><lf>You can also Auto-Guard without inputting<lf>anything depending on your stance.
+<string>A guard using your heavy bowgun.<lf><lf>Time it well to perform a Perfect Guard,<lf>allowing you to use a special sidestep.<lf><lf>You can also Auto-Guard without input<lf>depending on your stance.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_031>
-<string>Select usable ammo from the ammo<lf>you possess.
+<string>Select ammo.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>
-<string>Fire Special Ammo by consuming energy.<lf><lf>Energy will automatically replenish while<lf>in Standard Mode, and will also recover<lf>whenever you land a shot.
+<string>Consume the Ignition Gauge to fire<lf>Special Ammo.<lf><lf>The gauge will recover automatically <lf>while in Standard Mode, or whenever<lf>a shot hits.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_1049174784>
-<string>Automatically guards against an attack<lf>from in front of you when performing<lf>an action that allows you to Auto Guard.<lf><lf>You cannot use Perfect Guard when<lf>Auto Guarding.
+<string>Automatically guard against a head-on<lf>attack during an action that allows<lf>you to Auto-Guard.<lf><lf>You cannot use Perfect Guard while<lf>Auto-Guarding.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Special Ammo that can be used during<lf>Ignition Mode.<lf><lf>Use <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> to continuously fire, with<lf>power increasing as you hit a target.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
-<string>Special ammo that can be used during<lf>Ignition Mode. Unleashes a close-range<lf>attack with an offset effect. Press and<lf>hold <ICON WP12 PL_ATTACK_00> to increase power when firing.
+<string>Special ammo that can be used during<lf>Ignition Mode.<lf><lf>Unleashes a close-range attack with<lf>an offset effect. Press and hold <ICON WP12 PL_ATTACK_00><lf>to increase power when firing.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
-<string>Hitting a monster's wound or weak point<lf>will cause a piercing explosion, dealing<lf>significant damage.<lf><lf>Used ammo will be automatically restored<lf>over time.
+<string>Hit a monster's wound or weak point<lf>to cause a piercing explosion, dealing<lf>significant damage.<lf><lf>Ammo will automatically restore<lf>over time.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
 <string><INPUTMSG MsgGUI600200_01_049>
-<string>Display aiming reticle in the center<lf>of the screen.
+<string>Display an aiming reticle in the<lf>center of the screen.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1018903168>
 <string><ICON WP11 PL_ATTACK_01>
 <string>An attack that quickly fires arrows over<lf>a wide area. Does not consume stamina.
 <string>
-<string><ICON WP_BOW> Bow
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Draw your bow to fire arrows. The longer<lf>you hold <ICON WP11 PL_ATTACK_SP>, the higher your charge level<lf>becomes, increasing the potency of your<lf>attacks.<lf><lf>After attacking, press <ICON WP11 PL_ATTACK_01> for Power<lf>Shot.
+<string>Draw your bow to shoot arrows.<lf><lf>Hold <ICON WP11 PL_ATTACK_SP> to increase your charge<lf>level.<lf><lf>The higher your charge level, the more<lf>potent you attacks will be.<lf><lf>Press <ICON WP11 PL_ATTACK_01> after shooting to perform<lf>Power Shot.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1800729216>
 <string><ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> During Combo
-<string>Unleashes a number of powerful arrows<lf>in a wide range. Will carry over your<lf>current charge level.<lf>After attacking, press <ICON WP11 PL_ATTACK_01> for Power Volley.
+<string>Unleash a number of powerful arrows<lf>in a wide range using your current<lf>charge level.<lf><lf>Press <ICON WP11 PL_ATTACK_01> after shooting to perform<lf>Power Shot.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
@@ -1356,7 +1341,7 @@
 <string><INPUTMSG MsgGUI600200_01_032>
 <string><INPUTMSG MsgGUI600200_01_032_01>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00>
+<string><INPUTMSG MsgGUI600200_01_055>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
@@ -1376,7 +1361,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_193855040>
 <string><ICON WP11 PL_ATTACK_00>
-<string>Load the selected coating.<lf>While loaded, press <ICON WP11 PL_ATTACK_00> to unequip<lf>the selected coating.
+<string>Load the selected coating.<lf><lf>While loaded, open the coating<lf>menu and press <ICON WP11 PL_ATTACK_00> to unequip<lf>the selected coating.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
@@ -1393,7 +1378,7 @@
 <string>After shooting a Tracer, subsequent<lf>arrows will home in on the Tracer<lf>until it explodes.
 <string>
 <string>Coating Types
-<string>Use coatings to add effects to your arrows.<lf><lf>Power Coating: Increases arrow damage<lf>Close-range Coating: Reduces arrow range<lf>but increases their damage<lf>Piercing Coating: Allows arrows to pierce<lf>Poison Coating: Arrows inflict poison<lf>Paralysis Coating: Arrows inflict paralysis<lf>Sleep Coating: Arrows inflict sleep<lf>Blast Coating: Arrows inflict blast<lf>Exhaust Coating: Arrows inflict stun/exhaust
+<string>Use coatings to add effects to your<lf>arrows.<lf><lf>- Power Coating: Increases arrow<lf>damage<lf>- Close-range Coating: Reduces<lf>arrow range but increases damage<lf>- Piercing Coating: Allows arrows<lf>to pierce<lf>- Poison Coating: Inflicts poison<lf>- Paralysis Coating: Inflicts paralysis<lf>- Sleep Coating: Inflicts sleep<lf>- Blast Coating: Inflicts blast<lf>- Exhaust Coating: Inflicts stun/exhaust
 <string>
 <string>Dragon Piercer Combo
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
@@ -1426,7 +1411,7 @@
 <string>Tracer Combo
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
-<string>A combo that unleashes a Tracer at a high<lf>charge level. You then perform Power Shot<lf>and Power Volley while maintaining your<lf>charge before executing a Charging<lf>Sidestep in time with a monster's attack,<lf>allowing you to perform Flying Swallow<lf>Shot to put distance between you and<lf>your target.
+<string>A combo that unleashes a Tracer at a<lf>high charge level, followed by Power<lf>Shot and Power Volley while<lf>maintaining your charge. <lf><lf>Use Charging Sidestep in time with<lf>a monster's attack to perform Flying<lf>Swallow Shot, putting distance between<lf>you and your target.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> After Charged Shot
@@ -1435,15 +1420,15 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> During Charging Sidestep
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string>Arc Shot Combo
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_052>
-<string>A combo that starts with unleashing<lf>Fuse Arrows with Arc Shot. You then<lf>perform Flying Swallow Shot during<lf>Charging Sidestep, which puts you<lf>in position to fire Dragon Piercer or<lf>Thousand Dragons to detonate the<lf>lingering Fuse Arrows.
+<string>A combo that begins with unleashing<lf>Fuse Arrows with Arc Shot. <lf><lf>Perform Flying Swallow Shot during<lf>Charging Sidestep will put you in<lf>position to fire Dragon Piercer or<lf>Thousand Dragons to detonate the<lf>lingering Fuse Arrows.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
-<string><ICON WP11 PL_ATTACK_00> During Charging Sidestep
+<string><INPUTMSG MsgGUI600200_01_056>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>

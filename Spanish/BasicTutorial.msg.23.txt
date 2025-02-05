@@ -95,7 +95,7 @@
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
-<string><REF Item_IT_182>
+<string>Los cuchillos arrojadizos
 <string><REF Item_IT_EXP_182>
 <string>
 <string><REF Item_IT_18>
@@ -106,11 +106,11 @@
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
-<string>Una montura recibida de los habitantes<lf>de Kunafa. Su increíble movilidad<lf>le permite desplazarse por cualquier<lf>terreno. Además, su aguzado olfato<lf>te guiará automáticamente a cualquier<lf>punto que marques en el mapa.<lf>Puedes usar la eslinga y otros objetos<lf>mientras montas para recuperar salud,<lf>afilar el arma o recoger objetos.<lf>El Seikret también esquivará de forma<lf>automática ataques<lf>bajo determinadas condiciones.
+<string>Una montura recibida de los habitantes<lf>de Kunafa. Su increíble movilidad<lf>le permite desplazarse por cualquier<lf>terreno. Además, su aguzado olfato<lf>te guiará automáticamente a cualquier<lf>punto de ruta que marques en el mapa.<lf>Puedes usar la eslinga y otros objetos<lf>mientras montas para recuperar salud,<lf>afilar el arma o recoger objetos.<lf>El Seikret también esquivará de forma<lf>automática ataques<lf>bajo determinadas condiciones.
 <string>
 <string><REF RefMenu_061> (Movimiento automático)
 <string><INPUTMSG MsgGUI600200_00_011>
-<string>Puedes llamar a tu Seikret si te separas<lf>de él o montarlo si estás cerca.<lf>Una vez que lo montes, tu Seikret<lf>irá rápidamente hacia cualquier<lf>punto que hayas marcado en el mapa.
+<string>Puedes llamar a tu Seikret si te<lf>separas de él o montarlo si estás<lf>cerca. Una vez que lo montes,<lf>tu Seikret irá rápidamente hacia<lf>cualquier punto de ruta que hayas<lf>marcado en el mapa.
 <string>
 <string><REF RefMenu_061> (Movimiento manual)
 <string><INPUTMSG MsgGUI600200_00_012>
@@ -124,7 +124,7 @@
 <string><ICON PL_PT_SPEED_UP>
 <string>
 <string><REF ActionGuideDataNameTextCommon_494062272> / <REF ActionGuideDataNameTextCommon_1827716096>
-<string><ICON PL_PT_SPEED_DOWN> / <ICON PL_PT_SPEED_DOWN> en el aire
+<string><ICON PL_PT_SPEED_DOWN> / <ICON PL_PT_SPEED_DOWN> (en el aire)
 <string>
 <string><REF ActionGuideDataNameTextCommon_m1476371200>
 <string><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON">
@@ -151,9 +151,9 @@
 <string><INPUTMSG MsgGUI600200_00_018>
 <string><INPUTMSG MsgGUI600200_00_019>
 <string><INPUTMSG MsgGUI600200_00_019_01>
-<string>Ataque en montura/ataque al desmontar
+<string>Ataque montado/ataque al desmontar
 <string><ICON ME PL_WEAPON_ON> o <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
-<string>Puedes atacar a corta distancia mientras<lf>montas si equipas un arma cuerpo a cuerpo.<lf><lf><ICON ME PL_WEAPON_ON>: Ataca sobre tu montura.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: Ataca mientras saltas<lf>del Seikret.
+<string>Si tienes equipada un arma cuerpo a<lf>cuerpo, podrás atacar mientras montas.<lf><lf><ICON ME PL_WEAPON_ON>: Ataca sobre tu montura.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: Ataca mientras saltas<lf>del Seikret.
 <string>
 <string>Desenvainar en montura
 <string><INPUTMSG MsgGUI600200_00_033>
@@ -169,26 +169,23 @@
 <string><ICON RA PL_ATTACK_SP>
 <string>
 <string>Efectos de estado
-<string><ICON ST_POWER_UP> Mejora de ataque
-<string>Mejora el ataque.<lf><lf>Método de obtención habitual:<lf>- Uso de objetos, tales como<lf>semilla de poder y droga demoníaca.<lf>- Efectos de melodías<lf>y burbujas sónicas de la cornamusa.
+<string><ICON ST_POWER_UP> Potencia el ataque
+<string>Mejora el ataque.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos como la semilla<lf>de poder y la droga demoníaca.<lf>- Efectos de melodías y burbujas<lf>sónicas de la cornamusa.
 <string>
 <string><ICON ST_DEFECE_UP> Mejora de defensa
-<string>Mejora la defensa.<lf><lf>Método de obtención habitual:<lf>- Uso de objetos, tales como<lf>semilla armadura y piel de armadura.<lf>- Efectos de melodías<lf>y burbujas sónicas de la cornamusa.
+<string>Mejora la defensa.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos como la semilla<lf>armadura y la piel de armadura.<lf>- Efectos de melodías y burbujas<lf>sónicas de la cornamusa.
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Mejora anti fuego
-<string>Aumenta la resistencia al fuego<lf>y anula la plaga de fuego.<lf><lf>Forma habitual de obtención:<lf>- Con efectos de melodía y efectos<lf>de burbujas sónicas de la cornamusa.
+<string>Aumenta la resistencia al fuego<lf>y anula la plaga de fuego.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de melodía y efectos<lf>de burbujas sónicas de la cornamusa.
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Automejora
-<string>Aumenta la velocidad de movimiento.<lf><lf>Si acumulas este efecto varias veces,<lf>aumentará tu poder de ataque y<lf>evitará que tus ataques sean repelidos.<lf><lf>Forma habitual de obtenerlo:<lf>- Con efectos de melodía y efectos<lf>de burbujas sónicas de la cornamusa.
+<string>Aumenta la velocidad de movimiento.<lf><lf>Si acumulas este efecto varias veces,<lf>aumentará tu poder de ataque y<lf>evitará que tus ataques sean repelidos.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de melodía y efectos<lf>de burbujas sónicas de la cornamusa.
 <string>
-<string><ICON ST_ARMOR> Niega empujes
-<string>Anula el empuje de los ataques que<lf>recibas.<lf><lf>Forma habitual de obtención:<lf>- Con efectos de melodía<lf>de la cornamusa.
-<string>
-<string><ICON ST_MEAL_UP> Efectos del menú
-<string>Indica los efectos obtenidos al comer.<lf><lf>Método de obtención habitual:<lf>- Comida
+<string><ICON ST_MEAL_UP> Efectos de menú
+<string>Indica los efectos obtenidos al comer.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de menú.
 <string>
 <string><ICON ST_POISON> Veneno
-<string>Un estado que reduce tu salud con el tiempo.<lf>Ocurre cuando el estado alterado<lf>se ha acumulado hasta cierto nivel.<lf><lf>Métodos habituales de curación:<lf>- Uso de antídotos o medicinas herbales<lf>- Esperando a que se pasen los efectos
+<string>Un estado que reduce tu salud con<lf>el tiempo. Ocurre cuando el estado<lf>alterado se ha acumulado hasta<lf>cierto nivel.<lf><lf>Métodos habituales de curación:<lf>- Usando un antídoto o medicina herbal.<lf>- Esperando a que se pasen los efectos.
 <string>
 <string><ICON ST_PARALYSIS> Parálisis
 <string><INPUTMSG MsgGUI600200_00_020>
@@ -197,32 +194,32 @@
 <string><ICON ST_STUN> Aturdimiento
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
-<string><ICON ST_STUN> Aturdimiento con flash
+<string><ICON ST_STUN> Aturdimiento con destello
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
 <string><ICON ST_FIRE> Plaga de fuego
-<string>Un estado que merma<lf>tu salud con el tiempo.<lf><lf>Métodos habituales de curación:<lf>- Uso de curibaya<lf>- Esquivar en el agua<lf>- Esperar a que se pasen los efectos
+<string>Un estado que merma tu salud<lf>con el tiempo.<lf><lf>Métodos habituales de curación:<lf>- Usando una curibaya.<lf>- Esquivando varias veces en el agua.<lf>- Esperando a que se pasen los efectos.
 <string>
 <string><ICON ST_WATER> Plaga de agua
-<string>Un estado que reduce tu ritmo<lf>de recuperación de resistencia.<lf><lf>Métodos habituales de curación:<lf>- Uso de curibaya<lf>- Esquivar varias veces<lf>- Esperar a que se pasen los efectos
+<string>Un estado que reduce tu ritmo<lf>de recuperación de resistencia.<lf><lf>Métodos habituales de curación:<lf>- Usando una curibaya.<lf>- Esquivando varias veces.<lf>- Esperando a que se pasen los efectos.
 <string>
 <string><ICON ST_THUNDER> Plaga de rayo
-<string>Un estado que aumenta<lf>las probabilidades de que te aturdan.<lf><lf>Métodos habituales de curación:<lf>- Uso de curibaya<lf>- Esquivar varias veces<lf>- Esperar a que se pasen los efectos
+<string>Un estado que aumenta las<lf>probabilidades de que te aturdan.<lf><lf>Métodos habituales de curación:<lf>- Usando una curibaya.<lf>- Esquivando varias veces.<lf>- Esperando a que se pasen los efectos.
 <string>
 <string><ICON ST_ICE> Plaga de hielo
-<string>Un estado que aumenta el consumo<lf>de resistencia.<lf><lf>Método habitual de curación:<lf>- Uso de curibaya<lf>- Esquivar varias veces<lf>- Esperar a que se pasen los efectos
+<string>Un estado que aumenta el consumo<lf>de resistencia.<lf><lf>Métodos habituales de curación:<lf>- Usando una curibaya.<lf>- Esquivando varias veces.<lf>- Esperando a que se pasen los efectos.
 <string>
 <string><ICON ST_DRUGON> Plaga de draco
-<string>Un estado que anula las propiedades<lf>elementales de tu arma.<lf><lf>Método habitual de curación:<lf>- Uso de curibaya<lf>- Esquivar varias veces<lf>- Esperar a que se pasen los efectos
+<string>Un estado que anula las propiedades<lf>elementales de tu arma.<lf><lf>Métodos habituales de curación:<lf>- Usando una curibaya.<lf>- Esquivando varias veces.<lf>- Esperando a que se pasen los efectos.
 <string>
 <string>Temblores
-<string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad del seísmo.<lf><lf>Método habitual de curación:<lf>- Esperando a que se pasen los efectos<lf>- Recibiendo un ataque
+<string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad del seísmo.<lf><lf>Métodos habituales de curación:<lf>- Esperando a que se pasen los efectos.<lf>- Recibiendo un ataque.
 <string>
 <string>Ruido ensordecedor
-<string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad del rugido.<lf><lf>Método habitual de curación:<lf>- Esperando a que se pasen los efectos<lf>- Recibiendo un ataque
+<string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad del rugido.<lf><lf>Métodos habituales de curación:<lf>- Esperando a que se pasen los efectos.<lf>- Recibiendo un ataque.
 <string>
 <string>Ráfagas de viento
-<string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad del vendaval.<lf><lf>Método habitual de curación:<lf>- Esperando a que se pasen los efectos<lf>- Recibiendo un ataque
+<string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad de la ráfaga de viento.<lf><lf>Métodos habituales de curación:<lf>- Esperando a que se pasen los efectos.<lf>- Recibiendo un ataque.
 <string>
 <string>Con arma envainada
 <string><INPUTMSG MsgGUI600200_00_025>
@@ -237,7 +234,7 @@
 <string><INPUTMSG MsgGUI600200_00_042>
 <string>
 <string>Con arma desenvainada
-<string>Estado en el que empuñas tu arma.<lf><lf>Pulsa <ICON PL_WEAPON_OFF> para envainarla.<lf><lf>Los controles detallados de cada arma<lf>se encuentran en la sección "guía de<lf>armas", en el menú de inicio.
+<string>Estado en el que empuñas tu arma.<lf><lf>Pulsa <ICON PL_WEAPON_OFF> para envainarla.<lf><lf>Los controles detallados de cada arma<lf>se encuentran en:<lf>- Menú de inicio → Guía del juego → <lf>Controles de armas
 <string>
 <string>Envainar arma
 <string><ICON PL_WEAPON_OFF>
@@ -246,51 +243,51 @@
 <string>Cuando empuñes un arma cuerpo a cuerpo,<lf>verás aparecer una barra que indica<lf>su afilado. El afilado actual del arma<lf>se muestra con un código de colores,<lf>que indican su poder para atravesar<lf>la coraza de los monstruos.<lf><lf>A medida que lances ataques, el afilado<lf>del arma se irá reduciendo. Atacar con<lf>un arma mellada no es muy efectivo: es<lf>más probable que tus ataques reboten<lf>contra la piel o escamas de los monstruos.
 <string>
 <string><REF Item_IT_21>
-<string>Un objeto que restablece<lf>el afilado perdido de tu arma.<lf>Siempre estará disponible<lf>en tu bolsa de objetos.<lf><lf>Se puede usar incluso<lf>al desenvainar el arma<lf>si la asignas al menú radial<lf>personalizado o a un atajo.
+<string>La piedra de afilar restablece el<lf>afilado perdido de tu arma. Es un objeto<lf>fijo y, por tanto, siempre está<lf>disponible en tu bolsa de objetos.<lf><lf>Este objeto se puede usar incluso con<lf>el arma desenvainada si la asignas al<lf>menú radial personalizado o a un atajo.
 <string>
 <string>Modo preciso
 <string>Modo preciso
 <string>El modo preciso te permite dirigir con<lf>precisión tu ataque o tu defensa.<lf><lf>Al usar este modo sobre un monstruo<lf>los lafarillos resaltarán cualquier<lf>herida o punto débil.
 <string>
 <string>Modo preciso
-<string><ICON ME PL_AIM> Con arma desenvainada
-<string>Para usar el modo preciso mantén <ICON ME PL_AIM><lf>con el arma desenvainada.<lf><lf>En modo preciso, atacarás y te<lf>defenderás en la dirección<lf>a la que apunte la cámara.<lf>Algunos ataques cambiarán<lf>al apuntar la cámara hacia arriba.<lf>Puedes ejecutar un ataque preciso<lf>al pulsar <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> con el arma desenvainada.<lf>Alcanzar así la herida o el punto débil<lf>de un monstruo provocará un ataque especial muy dañino.
+<string><ICON ME PL_AIM> con arma desenvainada
+<string>Para usar el modo preciso mantén <ICON ME PL_AIM><lf>con el arma desenvainada.<lf><lf>En modo preciso, atacarás y te<lf>defenderás en la dirección a la que<lf>apunte la cámara. Algunos ataques<lf>cambiarán al apuntar la cámara<lf>hacia arriba.<lf>Puedes ejecutar un ataque preciso al<lf>pulsar <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> con el arma desenvainada.<lf>Alcanza una herida o punto débil y<lf>lanzarás un ataque especial dañino.
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
 <string>
 <string>Acciones especiales
 <string><REF ActionGuideDataNameTextCommon_m666240384>
-<string><ICON ME merge="PL_WEAPON_SP_ON,HOLD_ON"> Con arma desenvainada
-<string>Puedes bloquear con armas que <lf>incluyen escudos o con algunas <lf>que permiten usarse como escudos.<lf>La cantidad de daño que reduce cada<lf>arma al bloquear y el tiempo que <lf>las defensas están abiertas <lf>dependen de cada arma.<lf>No se pueden bloquear los ataques de<lf>direcciones distintas a la actual.<lf>Algunos ataques de monstruos,<lf>como las nubes de gas y los rayos,<lf>no se pueden bloquear.
+<string><ICON ME merge="PL_WEAPON_SP_ON,HOLD_ON"> con arma desenvainada
+<string>Puedes bloquear con armas que<lf>incluyen escudos o con algunas<lf>que permiten usarse como escudos.<lf>La cantidad de daño que reduce<lf>cada arma al bloquear y el tiempo<lf>que las defensas están abiertas<lf>dependen de cada arma.<lf>No se pueden bloquear los ataques<lf>de direcciones distintas a la actual.<lf>Algunos ataques de monstruos,<lf>como las nubes de gas y los rayos,<lf>no se pueden bloquear.
 <string>
 <string><REF ActionGuideDataNameTextCommon_859531456>
-<string>El daño de los ataques se puede reducir mucho<lf>al bloquear en el momento justo.<lf><lf>Algunas armas permiten contraatacar<lf>rápidamente y cuentan con ataques especiales<lf>disponibles tras un bloqueo perfecto.
+<string>El daño de los ataques se puede<lf>reducir mucho al bloquear en<lf>el momento justo.<lf><lf>Algunas armas permiten contraatacar<lf>rápidamente y cuentan con ataques<lf>especiales disponibles tras un<lf>bloqueo perfecto.
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>Al bloquear ciertos ataques<lf>se producirá un forcejeo entre<lf>cazadores y monstruos.<lf><lf>Pulsa <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> para empujar al monstruo<lf>y hacerle perder el equilibrio,<lf>lo que abrirá sus defensas.
+<string>Al bloquear ciertos ataques<lf>se producirá un forcejeo entre<lf>cazadores y monstruos.<lf><lf>Pulsa <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> repetidamente<lf>para empujar al monstruo<lf>y hacerle perder el equilibrio,<lf>lo que abrirá sus defensas.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>Si lanzas ciertos golpes cuando te ataque<lf>un monstruo, activarás un ataque<lf>interceptor y repelerás su ofensiva.<lf><lf>Además, hay ataques muy potentes que<lf>puedes lanzar tras un ataque interceptor.
+<string>Puedes activar un ataque interceptor<lf>al usar ciertos golpes justo cuando<lf>el monstruo ataca para repelerlo,<lf>y hasta, en algunos casos, derribarlo.<lf><lf>Si el ataque derriba al monstruo,<lf>podrás encadenarlo con una serie<lf>de ataques potentes.
 <string>
 <string>Ataque sigiloso
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>Las herramientas especializadas son<lf>herramientas con poderosas habilidades.<lf>Al igual que los objetos fijos se pueden<lf>equipar o quitar al pulsar <ICON PL_WP_ON_ACTIVE_SKILL> con la<lf>barra de objetos abierta. También se<lf>pueden usar con el arma desenvainada.<lf><lf>Se pueden usar más de una vez pero<lf>necesitan tiempo para recargar.<lf><lf>Aparte del manto de camuflaje, se pueden<lf>fijar otros en Cambiar equipamiento.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
-<string>El manto de camuflaje sirve para ocultarse<lf>temporalmente de los monstruos. Atacar o sufrir<lf>daño cancela el efecto, independientemente<lf>del tiempo restante.<lf><lf>A diferencia de otras herramientas<lf>especializadas, siempre lo llevarás contigo.
+<string>El manto de camuflaje sirve para<lf>ocultarse temporalmente de los monstruos.<lf>Atacar o sufrir daño cancela el efecto,<lf>independientemente del tiempo restante.<lf><lf>A diferencia de otras herramientas<lf>especializadas, este es un objeto esencial<lf>que siempre llevarás contigo.
 <string>
-<string>Ayuda: Conceptos de caza
+<string>Conceptos de caza
 <string>Cómo montar
 <string>Infligir el daño suficiente a un monstruo<lf>al subirte sobre él lo derribará.<lf><lf>El monstruo te lanzará por los aires<lf>si te quedas sin resistencia encima de él.<lf><lf>También puedes infligir heridas al monstruo<lf>al subirte. Cada arma puede ejecutar<lf>un ataque especial al fijar como objetivo<lf>una herida, así que procura infligirle<lf>todas las que puedas al subirte.
 <string>
 <string>Ataques en salto
-<string><ICON PL_ATTACK_00> En salto
+<string><ICON PL_ATTACK_00> en salto
 <string>Golpea a un monstruo con suficientes<lf>ataques en salto y lo montarás en<lf>algún momento.
 <string>
 <string>Ataque en montura: <REF ActionGuideDataNameTextCommon_m1593213696>
@@ -310,33 +307,33 @@
 <string>Puedes moverte por el monstruo<lf>al que te has subido.<lf><lf>Esto te permitirá atacar distintas<lf>partes del monstruo, así como<lf>evitar que te saque de encima.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2000160512>
-<string><ICON PL_BT_RIDE_ENDURE> Sobre un monstruo
+<string><ICON PL_BT_RIDE_ENDURE> mientras montas
 <string>Si te agarras con fuerza al monstruo,<lf>se reducirá la cantidad de resistencia<lf>usada cuando el monstruo se resista.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> Sobre un monstruo
+<string><ICON PL_BT_RIDE_CANCEL> mientras montas
 <string>Desmontar te permite saltar desde un<lf>monstruo antes de tiempo.
 <string>
 <string><REF RefStatus_0008_002_02>
-<string>El veneno hace que los monstruos pierdan<lf>salud gradualmente. Si golpeas a un<lf>monstruo con ataques con veneno, puede<lf>que consigas envenenarlo, lo que además<lf>desgastará gradualmente su resistencia.<lf>La cantidad de daño infligido y la duración<lf>del efecto son distintas para cada<lf>monstruo. Sin embargo, cada vez que<lf>inflijas este efecto a un monstruo ganará<lf>resistencia contra él, lo que hace que cada<lf>vez sea más difícil volver a envenenarlo.
+<string>El veneno hace que los monstruos pierdan<lf>salud gradualmente. Golpea a monstruos<lf>con cierto número de ataques con veneno,<lf>y puede que consigas envenenarlos.<lf>La cantidad de daño infligido y la duración<lf>del efecto varían según cada monstruo.<lf>Sin embargo, cada vez que inflijas este<lf>efecto a un monstruo ganará resistencia<lf>contra él, lo que hace que cada vez sea<lf>más difícil volver a envenenarlo.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string>La parálisis impide a los monstruos<lf>moverse durante un tiempo. Si golpeas a un<lf>monstruo con ataques con parálisis, puede<lf>que consigas paralizarlo, lo que además<lf>desgastará gradualmente su resistencia.<lf>Sin embargo, si infliges el efecto <lf>demasiadas veces al mismo monstruo,<lf>ganará resistencia contra él y se reducirá<lf>su duración.
+<string>La parálisis impide a los monstruos<lf>moverse durante un tiempo. Si golpeas a un<lf>monstruo con ataques con parálisis, puede<lf>que consigas paralizarlo, lo que además<lf>desgastará gradualmente su resistencia.<lf>Sin embargo, si infliges el efecto<lf>demasiadas veces al mismo monstruo,<lf>ganará resistencia contra él y se reducirá<lf>su duración.
 <string>
 <string>Sueño
-<string>Si logras dormir a un monstruo, no podrá<lf>moverse durante un tiempo. Si golpeas a un<lf>monstruo con ataques con sueño, puede que<lf>consigas dormirlo, lo que además desgastará<lf>gradualmente su resistencia. Sin embargo,<lf>si infliges el efecto demasiadas veces al<lf>mismo monstruo, ganará resistencia contra<lf>él y se reducirá su duración.
+<string>Si logras dormir a un monstruo, no podrá<lf>moverse durante un tiempo. El primer<lf>ataque en un monstruo dormido provocará<lf>más daño. Puedes dormir a un monstruo<lf>golpeándolo varias veces con ataques de<lf>sueño. Sin embargo, si infliges el efecto<lf>demasiadas veces al mismo monstruo,<lf>ganará resistencia contra él y se reducirá<lf>su duración.
 <string>
 <string>Aturdimiento
-<string>Si un monstruo queda aturdido, no podrá<lf>moverse durante un tiempo. Si golpeas a<lf>un monstruo con ataques contundentes en<lf>ciertas partes del cuerpo, como la cabeza,<lf>puede que consigas aturdirlo. Sin embargo,<lf>si infliges el efecto demasiadas veces al<lf>mismo monstruo, ganará resistencia contra<lf>él y se reducirá su duración.
+<string>Si un monstruo queda aturdido, no podrá<lf>moverse durante un tiempo. Si golpeas a<lf>un monstruo con ataques contundentes en<lf>ciertas partes del cuerpo, como la cabeza,<lf>puede que consigas aturdirlo. Sin embargo,<lf>si infliges el efecto demasiadas veces<lf>al mismo monstruo, ganará resistencia<lf>contra él y se reducirá su duración.
 <string>
-<string>Estremecimiento
-<string>Si un monstruo está asustado,<lf>se estremecerá, lo que reducirá su<lf>resistencia. También puedes conseguir<lf>que un monstruo se estremezca<lf>golpeándolo repetidamente con<lf>daño contundente.
+<string>Agotamiento
+<string>Cuando a un monstruo no le quede<lf>resistencia, pasará a estar exhausto.<lf>Golpear a un monstruo repetidamente<lf>con un arma contundente provocará<lf>que entre en este estado.
 <string>
 <string>Plaga sónica
 <string>Estado en el que un monstruo se asusta<lf>ante un ruido fuerte. Se puede infligir<lf>al alcanzar a un monstruo con una<lf>cápsula chillona mientras realiza<lf>ciertas acciones, como enterrarse en<lf>la arena. Si le infliges este estado<lf>demasiadas veces, el monstruo<lf>se volverá resistente a él.
 <string>
 <string>Ceguera
-<string>Estado en el que un monstruo es cegado<lf>y no puede centrarse en su presa.<lf>Puedes cegar a los monstruos con<lf>cápsulas de luz y noctilucas.<lf>Si le infliges este estado a uno<lf>demasiadas veces, el monstruo se<lf>volverá resistente a él y su efecto<lf>durará menos.
+<string>Estado en el que un monstruo es cegado<lf>y no puede centrarse en su presa.<lf>Puedes cegar a los monstruos con<lf>cápsulas flash y noctilucas.<lf>Si le infliges este estado a uno<lf>demasiadas veces, el monstruo se<lf>volverá resistente a él y su efecto<lf>durará menos.
 <string>
 <string>Hedor
 <string>Estado en el que un monstruo se ve<lf>abrumado por un pestazo insoportable.<lf>Puedes infligirlo con cápsulas boñiga<lf>y, si lo consigues, pondrás al<lf>monstruo en fuga.
@@ -344,11 +341,11 @@
 <string>Puntos débiles de los monstruos
 <string>El punto débil de un monstruo podría quedar<lf>expuesto antes o después de su ataque.<lf>Podrás localizar los puntos débiles<lf>gracias al modo preciso.<lf><lf>Lanzar un ataque preciso sobre un punto<lf>débil abrirá las defensas del monstruo.
 <string>
-<string>Heridas de los montruos
-<string>Atacar a un monstruo de forma continua<lf>en el mismo punto le provocará<lf>una herida. Existen tres niveles de heridas:<lf>rasguño, herida abierta y por último cicatriz,<lf>una vez hayas rematado la herida.<lf><lf>Atacar a las heridas aumenta el daño,<lf>y acertar con un ataque preciso rematará<lf>la herida de un solo golpe.
+<string>Heridas
+<string>Atacar a un monstruo de forma continua<lf>en el mismo punto le provocará una<lf>herida. Existen tres niveles de heridas:<lf>rasguño, herida abierta y (cuando<lf>hayas rematado la herida) cicatriz.<lf><lf>Atacar a las heridas aumenta el daño,<lf>y acertar con un ataque preciso rematará<lf>la herida de un solo golpe.
 <string>
 <string>Capturar monstruos
-<string>Los monstruos debilitados se pueden<lf>capturar con trampas o con bombas<lf>tranquilizantes. No se pueden obtener<lf>materiales de los monstruos capturados.<lf>El gremio fomenta las capturas, pues<lf>permiten investigar a los monstruos<lf>sin abatirlos. De ahí que a veces las<lf>misiones de captura se premien con<lf>materiales complicados e incluso<lf>imposibles de obtener abatiéndolos.
+<string>Los monstruos debilitados se pueden<lf>capturar con trampas o con bombas<lf>tranquilizantes. No puedes despiezar<lf>materiales de los monstruos capturados.<lf>El gremio fomenta las capturas, pues<lf>permiten investigar a los monstruos<lf>sin abatirlos. De ahí que a veces las<lf>misiones de captura se premien con<lf>materiales complicados e incluso<lf>imposibles de obtener al despiezar.
 <string>
 <string>Debilitar monstruos
 <string>Para capturar a un monstruo, antes<lf>debes debilitarlo lo suficiente.<lf><lf>Una vez debilitado, usa trampas de<lf>escollo o trampas eléctricas para<lf>atraparlo. A continuación, usa objetos<lf>de captura, como bombas tranquilizantes,<lf>para retenerlo aún más.<lf><lf>Una vez sujeto con fuerza y dormido,<lf>la captura habrá sido completada.

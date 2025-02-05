@@ -21,16 +21,16 @@
 <string><ICON PL_ITEM_SLIDER_OPEN>
 <string><INPUTMSG MsgGUI600200_00_007>
 <string><INPUTMSG MsgGUI600200_00_007_01>
-<string>Menu kołowe: poruszanie
+<string>Menu kołowe: nawigacja
 <string><INPUTMSG MsgGUI600200_00_008>
 <string>
 <string>Wybierz przedmiot, zawołanie itd.
 <string><INPUTMSG MsgGUI600200_00_009>
 <string>
-<string>Wybierz skrót menu kołowego
+<string>Wybierz zestaw menu kołowego
 <string><INPUTMSG MsgGUI600200_00_010>
 <string>
-<string>Pokaż menu kołowe (klawiatura)
+<string>Wyświetl menu kołowe (klawiatura)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
 <string><COLOR preset="TXT_Danger">Wyświetlanie menu kołowego z klawiatury</COLOR><lf>Naciśnij<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, aby wyświetlić własne menu kołowe.<lf><lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla skrót.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> wyświetla 4 skróty.<lf><lf>Użyj<ICON MKB UI_PC_SHORTCUT_KEY_00> – <ICON MKB UI_PC_SHORTCUT_KEY_11>, aby wybrać przedmiot,<lf>zawołanie itd.<lf>Użyj <ICON MKB UI_PC_SHORTCUT_PALLET_00> – <ICON MKB UI_PC_SHORTCUT_PALLET_07>, aby przełączać się między skrótami.<lf><lf>Menu kołowe można edytować w opcji Zmodyfikuj<lf>menu kołowe w menu startowym.
 <string>
@@ -170,19 +170,16 @@
 <string>
 <string>Efekty
 <string><ICON ST_POWER_UP> Wzrost ataku
-<string>Zwiększa atak.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>ziarna mocy i pigułki demona<lf>– używanie efektów melodii rogu<lf>łowieckiego i efektów bańki echa
+<string>Zwiększa atak.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>ziarna mocy i pigułki demona<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
 <string>
 <string><ICON ST_DEFECE_UP> Wzrost obrony
-<string>Zwiększa obronę.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>adamantowe ziarna i pancerne skóry<lf>– używanie efektów melodii rogu<lf>łowieckiego i efektów bańki echa
+<string>Zwiększa obronę.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>adamantowe ziarna i pancerne skóry<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Wzrost odporności na ogień
-<string>Zwiększa odporność na ogień<lf>i zapobiega pladze ognia.<lf><lf>Najczęściej zdobywany poprzez:<lf>– efekty bańki echa oraz efekty melodii <lf>wywołane brzmieniem rogu łowieckiego<lf><lf><lf>
+<string>Zwiększa odporność na ogień<lf>i zapobiega pladze ognia.<lf><lf>Najczęściej zdobywany poprzez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Samodoskonalenie
-<string>Zwiększa prędkość ruchu. <lf><lf>Wielokrotne nakładanie się<lf>efektów melodii zwiększy siłę twoich<lf>ataków i zapobiegnie odparciu ich.<lf><lf>Najczęściej zdobywane przez:<lf>– efekty bańki echa oraz efekty melodii <lf>wywołane brzmieniem rogu łowieckiego<lf>
-<string>
-<string><ICON ST_ARMOR> <REF MusicSkillDataText_Wp05_37>
-<string>Zapobiega odepchnięciu<lf>po byciu trafionym.<lf><lf>Najczęściej zdobywane przez:<lf>– efekty melodii wywołane <lf>brzmieniem rogu łowieckiego
+<string>Zwiększa prędkość ruchu.<lf><lf>Wielokrotne nakładanie się<lf>Efektów melodii zwiększy siłę twoich<lf>ataków i zapobiegnie odparciu ich.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
 <string>
 <string><ICON ST_MEAL_UP> Efekty posiłków
 <string>Wskazuje, że zjedzenie posiłku<lf>wywołało efekty.<lf><lf>Najczęściej zdobywany przez:<lf>– jedzenie posiłku
@@ -197,7 +194,7 @@
 <string><ICON ST_STUN> Ogłuszenie
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
-<string><ICON ST_STUN> Ogłuszenie błyskawicą
+<string><ICON ST_STUN> Ogłuszenie błyskiem
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
 <string><ICON ST_FIRE> Plaga ognia
@@ -246,7 +243,7 @@
 <string>Podczas używania broni białej<lf>wyświetli się pasek ostrości, którego<lf>kolory będą informować o stanie<lf>naostrzenia broni i możliwości<lf>na przebicie twardszych części<lf>ciała potwora.<lf><lf>Atakowanie stopniowo zmniejszy<lf>naostrzenie broni. Ataki zadane <lf>tępą bronią są mniej efektywne i<lf>pawdopodobnie broń odbije się <lf>od skóry potwora.
 <string>
 <string><REF Item_IT_21>
-<string>Ostrzałki przywracają utraconą ostrość<lf>broni. Są zawsze dostępne w pasku<lf>przedmiotów jako stałe przedmioty.<lf><lf>Można ich użyć nawet po dobyciu broni,<lf>jeśli przypiszesz je do zmodyfikowanego menu<lf>kołowego lub skrótu.
+<string>Ostrzałka jest przedmiotem przywracającym<lf>utraconą ostrość broni. Jest zawsze dostępna<lf>w pasku przedmiotów jako podstawowy przedmiot.<lf><lf>Można jej użyć nawet po dobyciu broni,<lf>jeśli przypiszesz ją do zmodyfikowanego<lf>menu kołowego lub skrótu.
 <string>
 <string>Tryb skupienia
 <string>Tryb skupienia
@@ -254,7 +251,7 @@
 <string>
 <string>Tryb skupienia
 <string><ICON ME PL_AIM> z dobytą bronią
-<string>Możesz używać trybu skupienia trzymając <ICON ME PL_AIM><lf>z dobytą bronią.<lf>W trybie skupienia atakujesz w kierunku,<lf>w którym zwrócona jest kamera i <lf>blokujesz atak z tego samego kierunku.<lf>Niektóre ataki zmienią się <lf>po skierowaniu kamery w górę.<lf><lf>Możesz wykonać <REF ActionGuideDataNameTextCommon_423599584>, naciskając <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B><lf>z dobytą bronią. Trafienie w ranę lub słaby <lf>punkt potwora spowoduje specjalny atak,<lf>który zadaje duże obrażenia.
+<string>Możesz używać Trybu skupienia trzymając<lf><ICON ME PL_AIM> z dobytą bronią. W Trybie<lf>skupienia atakujesz w kierunku,<lf>w którym zwrócona jest kamera i<lf>blokujesz atak z tego samego kierunku.<lf>Niektóre ataki zmienią się<lf>po skierowaniu kamery w górę.<lf><lf>Możesz wykonać Skupiony atak, naciskając<lf><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> z dobytą bronią. Trafienie<lf>w ranę lub słaby punkt potwora spowoduje<lf>specjalny atak, który zadaje duże obrażenia.
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -272,18 +269,18 @@
 <string>Walka pomiędzy łowcą a potworem,<lf>która ma miejsce podczas <lf>blokowania niektórych ataków.<lf><lf>Naciśnij <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, aby odepchnąć potwora<lf>i pozbawić go równowagi,<lf>co da ci szansę na atak.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>Gdy potwory atakują, aby odeprzeć ich atak,<lf>w przypadku stosowania pewnych ataków,<lf>można wywołać atak przełamujący.<lf><lf>Dodatkowo istnieją potężne ataki,<lf>których można użyć po ataku przełamującym.
+<string>Możesz wywołać atak przełamujący,<lf>używając określonych ruchów dokładnie<lf>wtedy, gdy potwór atakuje, by go<lf>odeprzeć i potencjalnie odepchnąć.<lf><lf>Jeśli twój atak przełamujący<lf>odepchnie potwora, możesz<lf>kontynuować natarcie przy użyciu<lf>wielu potężnych ataków.
 <string>
 <string>Atak z zaskoczenia
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>Narzędzia specjalistyczne to wyposażenie<lf>o potężnych możliwościach. Tak jak stałe<lf>przedmioty, można je założyć lub zdjąć,<lf>naciskając <ICON PL_WP_ON_ACTIVE_SKILL> po wybraniu w pasku<lf>przedmiotów. Można ich także używać<lf>z wyciągniętą bronią.<lf><lf>Narzędzi specjalistycznych można użyć<lf>więcej niż raz, ale po okresie odpoczynku.<lf><lf>Opończe inne niż opończa maskująca<lf>można założyć, korzystając z opcji<lf>Zmień wyposażenie.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
-<string>Opończy maskującej można użyć <lf>do tymczasowego ukrycia się <lf>przed potworami. <lf>Atak lub odniesienie obrażeń<lf>zakończy efekt niezależnie od tego,<lf>ile czasu jego trwania pozostało.<lf><lf>W przeciwieństwie do innych <lf>narzędzi specjalistycznych,<lf>opończę zawsze masz przy sobie.
+<string>Opończy maskującej można użyć<lf>do tymczasowego ukrycia się przed<lf>potworami. Zaatakowanie lub<lf>odniesienie obrażeń zakończy<lf>jej efekt niezależnie od tego,<lf>ile jeszcze miałby trwać.<lf><lf>W przeciwieństwie do innych narzędzi<lf>specjalistycznych opończa maskująca<lf>to podstawowy przedmiot, który<lf>zawsze masz przy sobie.
 <string>
 <string>Porady łowieckie
 <string>Dosiadanie
@@ -329,8 +326,8 @@
 <string>Ogłuszenie
 <string>Ogłuszone potwory przez jakiś czas<lf>nie będą mogły się poruszać. Możesz<lf>ogłuszyć potwora, zadając obuchowe<lf>obrażenia konkretnym częściom jego<lf>ciała, takim jak głowa. Potwór nabierze<lf>odporności, jeśli zostanie ogłuszony<lf>zbyt wiele razy. Również czas trwania<lf>efektu będzie krótszy.
 <string>
-<string>Zachwianie
-<string>Gdy potwory są przerażone, zachwieją się,<lf>co także zmniejszy ich wytrzymałość.<lf>Możesz sprawić, że potwór się zachwieje,<lf>zadając wielokrotnie obrażenia obuchowe.
+<string>Wyczerpanie
+<string>Potwory stają się wyczerpane, gdy ich<lf>wytrzymałość jest niska. Do tego stanu<lf>doprowadzą je powtarzające się<lf>obrażenia zadawane bronią białą.
 <string>
 <string>Plaga akustyczna
 <string>Efekt, który powoduje, że potwór wpada <lf>w panikę w odpowiedzi na głośny hałas.<lf>Można go wywołać, uderzając potwora<lf>krzyczącym strąkiem, gdy jest on w <lf>określonym stanie lub wykonuje <lf>określoną czynność, na przykład <lf>zakopuje się w piasku. <lf>Potwór zyska odporność, jeśli nałożysz <lf>status zbyt wiele razy.

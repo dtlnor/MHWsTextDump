@@ -20,7 +20,6 @@
 <string>{0}
 <string>{0}
 <string>{0}
-<string>{0}
 <string>–
 <string>–
 <string>:
@@ -35,7 +34,7 @@
 <string>+{0}
 <string>-
 <string>x
-<string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
+<string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
 <string>?
@@ -48,9 +47,9 @@
 <string>Сменить
 <string>Вкл.
 <string>Откл.
-<string> или 
+<string>или
 <string>и
-<string>{0:F2}
+<string><NUMBER {0:F2}>
 <string>Ур. 
 <string>Редкость
 <string>???
@@ -91,11 +90,11 @@
 <string>Охотник
 <string>Палико
 <string>Сейкрет
-<string>Помощник
+<string>Охотник-помощник
 <string>з.
 <string>зени
 <string>очк.
-<string>Очки гильдии
+<string>Очки Гильдии
 <string>%
 <string>[{0}]
 <string>Оптим. восст. здоровья<lf><COLOR preset="TXT_Accent">{0}</COLOR>
@@ -118,7 +117,7 @@
 <string>Высокий ранг
 <string><PLATMSG RefGeneral_0023>
 <string>Магазин
-<string>Steam
+<string>Магазин Steam
 <string><PLATMSG RefGeneral_0024>
 <string>Загружаемый контент
 <string>Загружаемый контент

@@ -1,15 +1,15 @@
 ﻿<string>Creación de personaje
-<string>Escribe tu nombre.<lf><lf><COLOR preset="TXT_Accent">Puedes usar un máximo de 15 caracteres.</COLOR>
+<string>Escribe tu nombre.<lf><lf><COLOR preset="TXT_Accent">Límite aproximado: 15 caracteres de longitud.</COLOR>
 <string>{0}<lf>¿Quieres confirmar este nombre?
-<string>Escribe el nombre de tu camarada Felyne.<lf><lf><COLOR preset="TXT_Accent">Puedes usar un máximo de 15 caracteres.</COLOR>
-<string>Elige qué cantidad de tutoriales verás.<lf>(Se puede cambiar en el menú de inicio).<lf><COLOR preset="TXT_Accent">Mostrar todos</COLOR>: Recomendado para aprender lo básico.<lf><COLOR preset="TXT_Accent">Mostrar algunos</COLOR>: Para jugadores experimentados.
-<string>Mostrar todos
-<string>Mostrar algunos
+<string>Escribe el nombre de tu camarada Felyne.<lf><lf><COLOR preset="TXT_Accent">Límite aproximado: 15 caracteres de longitud.</COLOR>
+<string>Elige qué cantidad de tutoriales verás.<lf>(Se puede cambiar en el menú de inicio).<lf><lf><LEFT><COLOR preset="TXT_Accent">Mostrar todos</COLOR>: Recomendado para aprender lo básico.</LEFT><lf><LEFT><COLOR preset="TXT_Accent">Mostrar algunos</COLOR>: Para jugadores experimentados.</LEFT>
+<string>Ver todos
+<string>Ver algunos
 <string>Decide si quieres que algunos tutoriales<lf>se muestren más de una vez.<lf>(Podrás cambiarlo en cualquier momento<lf>desde el menú de inicio).
 <string>Sí
 <string>No
 <string>¿Quieres jugar con estos ajustes de personaje?
-<string>¿Aceptar y salir? <COLOR preset="TXT_Accent">Los datos de personajes editados<lf>se pueden trasladar al juego completo. Podrás<lf>editarlos en cualquier momento de la beta desde<lf>Editar un personaje en Seleccionar datos de guardado.</COLOR>
+<string>¿Aceptar y salir? <COLOR preset="TXT_Accent">Los datos de personajes editados<lf>se pueden trasladar al juego completo. Podrás<lf>editarlos en cualquier momento de la beta desde<lf>"modificar personaje" en "elige unos datos guardados".</COLOR>
 <string>Guardar cambios
 <string>Descartar cambios
 <string>Aspecto predefinido
@@ -52,7 +52,7 @@
 <string>Color de atuendo 2: Cintura
 <string>Color de atuendo 2: Piernas
 <string>Camiseta y calzas
-<string>Esta opción habilita que se reduzca la piel expuesta. (También se puede cambiar en <COLOR preset="TXT_Accent">apariencia de armadura</COLOR>).
+<string>Esta opción reduce la cantidad de piel visible. (También se puede cambiar en <COLOR preset="TXT_Accent">aspecto del equipamiento</COLOR>).
 <string>Mostrar camiseta interior
 <string>Color de camiseta interior
 <string>Mostrar calzas
@@ -97,7 +97,7 @@
 <string>Color de mechones de bigote
 <string>Proporción del degradado de bigote
 <string>Intensidad del degradado de bigote
-<string>Color de bigote
+<string>Editar color del bigote
 <string>Tipo de barba
 <string>Color base de barba
 <string>Color de mechones de barba
@@ -217,12 +217,12 @@
 <string>Ajusta el nivel del brillo o del mate.
 <string>Metalizado
 <string>Ajusta el metalizado. (Se percibe menos con un brillo/mate alto).
-<string>Luminiscencia
+<string>Luminosidad
 <string>Establece el grado de luminosidad. (Esta opción se notará menos con colores oscuros y transparencia baja).
 <string>Tridimensionalidad
 <string>Ajusta la tridimensionalidad. (Esta opción se notará menos con algunos tipos de maquillaje/pintura facial).
 <string>Simetría
-<string>Refleja el maquillaje/pintura facial de forma simétrica (esta opción puede no tener efecto en posición horizontal).
+<string>Refleja el maquillaje/pintura facial de forma simétrica. (Esta opción puede no tener efecto en posición horizontal).
 <string>Girar horizontalmente
 <string>Girar verticalmente
 <string>Ángulo
@@ -230,10 +230,10 @@
 <string>Aspecto predefinido
 <string>(Opciones avanzadas)
 <string>Idioma Felyne
-<string>Las voces de los camaradas Felyne, incluyendo las de otros jugadores, se oirán en idioma Felyne. (Se puede cambiar en Opciones).
+<string>Las voces de Felynes, incluyendo la de tu camarada, se oirán en idioma Felyne. <COLOR preset="TXT_Accent">(Puedes cambiar este ajuste en el menú de opciones).</COLOR>
 <string>Voz
 <string>Tono de voz
-<string>Cambiar el tono puede hacer que cueste oír la voz del personaje.
+<string>Cambiar el tono puede hacer que la voz del Felyne sea difícil de entender.
 <string>Pelaje largo
 <string>Tipo de pelaje facial
 <string>No se puede elegir el tipo de pelaje facial con el pelaje largo activado.
@@ -246,7 +246,7 @@
 <string>Patrón
 <string>Marcas 1
 <string>Marcas 2
-<string>Esta opción tendrá preferencia a "Marcas 1" si se solapan.
+<string>Si se solapan, se dará prioridad a las <COLOR preset="TXT_Accent">marcas 2</COLOR> por encima de las <COLOR preset="TXT_Accent">marcas 1</COLOR>.
 <string>Mezcla de formas de orejas
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0002_100_03_01
@@ -260,11 +260,11 @@
 <string>Color del iris derecho
 <string>Patrón del pelaje
 <string>Color base del patrón
-<string>Color base del patrón 1
-<string>Color base del patrón 2
-<string>Color base del patrón 3
+<string>Color acentuado del patrón 1
+<string>Color acentuado del patrón 2
+<string>Color acentuado del patrón 3
 <string>Tipo de marcas
-<string>Marcas (tipo 1)
+<string>Tipo de marcas 1
 <string>Tipo de marcas 2
 <string>Color de las marcas
 <string>Color de las marcas 1
@@ -284,19 +284,19 @@
 <string>Deshacer cambios
 <string>¿Restablecer opciones de marcas a predeterminadas?
 <string>Cambiar opciones de marcas
-<string>Cambiar la opción actual de marcas<lf>con otra opción.
+<string>Cambiar los ajustes de las marcas actuales por<lf>otra opción.
 <string>Marcas 1
 <string>Marcas 2
 <string>Cancelar
 <string>Cambiar ajuste
-<string>Comprobar voz
+<string>Reproducir voz
 <string>Reproducir acción
 <string>Vista previa de armadura
 <string>Reiniciar ajustes
-<string>¿Restablecer todos los ajustes a predeterminado?
+<string>¿Restablecer todo a los ajustes predeterminados?
 <string>¿Quieres restablecer estos ajustes de apariencia?
 <string>Confirmar/cambiar diseño
-<string>Modificar
+<string>Diseño
 <string>Opciones de color
 <string>Diseño
 <string>Tipo {0}
@@ -304,7 +304,7 @@
 <string>Ninguno
 <string>Sí
 <string>No
-<string>Predefinido
+<string>Por defecto
 <string>+{0}
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
@@ -318,7 +318,7 @@
 <string>Izquierdo
 <string>Derecho
 <string>Frontal e izquierdo
-<string>Frontal derecho
+<string>Frontal y derecho
 <string>Derecho e izquierdo
 <string>Mostrar cabello
 <string>Movimiento del cazador
@@ -348,8 +348,8 @@
 <string>Daño
 <string>Expresión facial camarada Felyne
 <string><INPUTMSG MsgGUI010300_0006_009>
-<string><ICON PL_DUMMY_MOVE> Rotar el ángulo de la luz
-<string><ICON UI_LIST_TRIGGER_L2> o <ICON UI_LIST_TRIGGER_R2> Rotar el ángulo de la luz
+<string><ICON PAD PL_DUMMY_MOVE> Rotar el ángulo de la luz
+<string><ICON MKB UI_LIST_TRIGGER_L2> o <ICON MKB UI_LIST_TRIGGER_R2> Rotar el ángulo de la luz
 <string>Ocultar IU
 <string>Diseño: Cazador
 <string>Diseño: Camarada Felyne
@@ -371,17 +371,17 @@
 <string>Cambiar nombre
 <string>Te permite cambiar el nombre.
 <string>Se cambiará el nombre del cazador.<lf><COLOR preset="TXT_Accent">Puede que el cambio de nombre tarde<lf>en reflejarse en ciertos contenidos,<lf>por lo que puede que no<lf>se muestre de inmediato.</COLOR>
-<string>¿Descartar cambios y salir?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón de crea personaje).</COLOR>
-<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón de crea personaje porque<lf>no se han hecho cambios especiales).</COLOR>
-<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(Se gastará un cupón de crea personaje).</COLOR>
+<string>¿Descartar cambios y salir?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón modifica personaje).</COLOR>
+<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón modifica personaje porque<lf>no se han hecho cambios especiales).</COLOR>
+<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(Se gastará un cupón modifica personaje).</COLOR>
 <string>Termina de personalizar a tu cazador.
 <string>Editar camarada Felyne
 <string>Cambiar nombre
 <string>Te permite cambiar el nombre del camarada Felyne.
-<string>Se cambiará el nombre del camarada Felyne.<lf><COLOR preset="TXT_Accent">Puede que el cambio de nombre tarde en reflejarse<lf>en ciertos contenidos, por lo que puede que no<lf>se muestre de inmediato.</COLOR>
-<string>¿Descartar cambios y salir?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón de crear camarada).</COLOR>
-<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón de crear camarada porque<lf>no se han hecho cambios especiales).</COLOR>
-<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(Se gastará un cupón de crea camarada).</COLOR>
+<string>Se cambiará el nombre del camarada Felyne.<lf><COLOR preset="TXT_Accent">Puede que el cambio de nombre tarde en reflejarse<lf>en ciertos contenidos y en algunos casos<lf>puede que no llegue a mostrarse.</COLOR>
+<string>¿Descartar cambios y salir?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón modifica camarada).</COLOR>
+<string>¿Guardar cambios?<lf><COLOR preset="TXT_Accent">(No se gastará tu cupón modifica camarada porque<lf>no se han hecho cambios especiales).</COLOR>
+<string>¿Guardar cambios? <COLOR preset="TXT_Accent">(Se gastará un cupón<lf>modifica camarada).</COLOR>
 <string>Termina de personalizar a tu camarada Felyne.
 <string>Cara aleatoria
 <string>Crea una nueva cara automáticamente en base a la apariencia actual.

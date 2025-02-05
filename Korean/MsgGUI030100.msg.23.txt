@@ -5,7 +5,7 @@
 <string>선택 중인 항목 초기화하기
 <string>모든 항목 초기화하기
 <string>선택 중인 항목을 초기 설정으로 되돌립니다.<lf>계속하시겠습니까?
-<string>모든 항목을 초기 설정으로 되돌립니다.<lf>계속하시겠습니까?
+<string>현재 표시 중인 카테고리 이외에 있는 항목을 포함한,<lf>모든 항목을 초기 설정으로 되돌립니다.<lf>계속하시겠습니까?
 <string>전부
 <string><PLATMSG MsgGUI030100_0401>
 <string>공통+컨트롤러
@@ -23,11 +23,15 @@
 <string>접근성
 <string>언어
 <string>프라이버시
+<string><PLATMSG MsgGUI030100_01_42>
 <string>결정 버튼 설정
+<string><PLATMSG MsgGUI030100_01_42_HELP>
 <string>결정 조작 버튼을 설정합니다.
 <string><ICON PAD UI_DUMMY_ICON_RDOWN> 버튼
+<string><PLATMSG MsgGUI030100_01_42_00_HELP>
 <string><ICON PAD UI_DUMMY_ICON_RDOWN>을 결정 버튼으로 설정합니다.
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT> 버튼
+<string><PLATMSG MsgGUI030100_01_42_01_HELP>
 <string><ICON PAD UI_DUMMY_ICON_RRIGHT>을 결정 버튼으로 설정합니다.
 <string>대시 조작
 <string>대시 조작 버튼을 설정합니다.<lf><COLOR preset="TXT_Accent">(세크레트 탑승 시의 조작에는 영향을 미치지 않습니다)</COLOR>
@@ -52,7 +56,7 @@
 <string><PLATMSG MsgGUI030100_01_45_HELP>
 <string>방향키와 각종 버튼에 할당되는 기능의<lf>조작 타입을 설정합니다.
 <string>타입 1
-<string><ICON PAD UI_SHORTCUT_PALLET> ＝ <REF RefGeneral_0014_01> 부르기/무기 교체 등<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_SHORTCUT_PALLET> ＝숏컷 팔레트 선택<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN> = 아이템 슬라이더 조작
+<string><ICON PAD UI_SHORTCUT_PALLET> ＝ <REF RefGeneral_0014_01> 부르기/무기 교체 등<lf><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET> ＝숏컷 팔레트 선택<lf><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN> = 아이템 슬라이더 조작
 <string>타입 2
 <string><ICON PAD UI_SHORTCUT_PALLET> = 아이템 슬라이더 조작<lf><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET> = <REF RefGeneral_0014_01> 부르기/무기 교체 등<lf><ICON PAD PL_ITEM_SLIDER_OPEN>＋<ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN> = 숏컷 팔레트 선택
 <string>타입 3
@@ -91,11 +95,11 @@
 <string><REF RefGeneral_0014_01> 호출 조작
 <string><REF RefGeneral_0014_01> 호출 방법을 설정합니다.
 <string>타입 1
-<string><ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL> 혹은 커스텀 숏컷으로<lf><REF RefGeneral_0014_01> 호출을 실행합니다.
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> 혹은 커스텀 숏컷으로<lf><REF RefGeneral_0014_01> 호출을 실행합니다.
 <string>타입 2
-<string>타입 1 조작 외에, 납도 중에 <ICON PAD PL_PT_CALL_KEEP>을<lf>길게 눌러도 <REF RefGeneral_0014_01>를 자동 이동 상태로<lf>호출할 수 있습니다.
+<string>타입 1 조작 외에, 납도 중에 <ICON PL_PT_CALL_KEEP>을<lf>입력해도 <REF RefGeneral_0014_01>를 자동 이동 상태로<lf>호출할 수 있습니다.
 <string>타입 3
-<string>타입 1 조작 외에, 납도 중에 <ICON PAD PL_PT_CALL_KEEP>을<lf>길게 눌러서 <REF RefGeneral_0014_01>를 수동 이동 상태로<lf>호출할 수 있습니다.
+<string>타입 1 조작 외에, 납도 중에 <ICON PL_PT_CALL_KEEP>을<lf>입력해도 <REF RefGeneral_0014_01>를 수동 이동 상태로<lf>호출할 수 있습니다.
 <string><REF RefGeneral_0014_01> 호출 시 초기 조작 상태
 <string>커스텀 숏컷을 사용해 <REF RefGeneral_0014_01> 호출을<lf>실행했을 때의 초기 조작 상태를 설정합니다.
 <string>자동 이동
@@ -105,29 +109,29 @@
 <string><REF RefGeneral_0014_01> 수동 조작 설정
 <string><REF RefGeneral_0014_01>가 수동 이동 중일 때의<lf>조작 방법을 설정합니다.
 <string>타입 1
-<string><REF RefGeneral_0014_01>가 자동 이동 중일 때와 공통된<lf>조작 타입입니다.<lf><ICON PAD PL_DUMMY_MOVE> 미입력이라도 속도를 유지하며 전진합니다.<lf><ICON PAD PL_PT_SPEED_UP>으로 가속, <ICON PAD PL_PT_SPEED_DOWN>으로 감속,<lf><ICON PAD PL_PT_SPEED_DOWN>을 길게 눌러 급정지합니다.
+<string><REF RefGeneral_0014_01>가 자동 이동 중일 때와 공통된<lf>조작 타입입니다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> 미입력이라도 속도를 유지하며 전진합니다.<lf><ICON PL_PT_SPEED_UP>으로 가속, <ICON PL_PT_SPEED_DOWN>으로 감속,<lf><ICON PL_PT_SPEED_DOWN>을 길게 눌러 급정지합니다.
 <string>타입 2
-<string>플레이어의 이동 조작에 가까운<lf>조작 타입입니다.<lf><ICON PAD PL_DUMMY_MOVE> 입력 중일 때만 전진하고,<lf>미입력 시에는 정지합니다.<lf><ICON PAD PL_DUMMY_MOVE>을 기울이는 각도에 따라<lf>이동 속도가 변화합니다.
+<string>플레이어의 이동 조작에 가까운 조작 타입입니다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> 입력 중일 때만<lf>입력한 방향으로 전진하고, 미입력 시에는 정지합니다.
 <string><REF RefGeneral_0014_01> 루트 진행 중 조작 설정
 <string><REF RefGeneral_0014_01>가 <REF RefGeneral_0014_01> 루트를 진행 중일 때,<lf>루트에서 벗어나서 이동하는 조작 방법을 설정합니다.
 <string>타입 1
-<string>최대 속도로 주행 중에 <ICON PAD PL_DUMMY_MOVE>을 입력하면<lf><REF RefGeneral_0014_01> 루트에서 벗어나 이동할 수 있습니다.
+<string>최대 속도로 주행 중에 <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>을 입력하면<lf><REF RefGeneral_0014_01> 루트에서 벗어나 이동할 수 있습니다.
 <string>타입 2
-<string><REF RefGeneral_0014_01>의 주행 속도에 관계없이<lf><ICON PAD PL_DUMMY_MOVE> 입력 중에 추가로 <ICON PAD PL_INTERACT_ACTION_START>을 입력하면<lf><REF RefGeneral_0014_01> 루트에서 벗어나 이동할 수 있습니다.
-<string>아이템 조작 설정
-<string>아이템 조작과 커스텀 숏컷의<lf>팔레트 전환 조작을 설정합니다.
-<string>타입 1
-<string><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET>으로 아이템 슬라이더의<lf>아이템을 선택합니다.
-<string>타입 2
-<string><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET>으로 커스텀 숏컷의<lf>팔레트를 전환합니다.
-<string>아이템 슬라이더 조작 설정
-<string>아이템 슬라이더 조작 방법을 설정합니다.
-<string>확장 모드 설정
-<string>아이템 슬라이더 확장 모드를 설정합니다.
-<string>사용
-<string>아이템 슬라이더를 확장 모드로<lf>표시합니다.
-<string>사용 안 함
-<string>아이템 슬라이더를 확장 모드로<lf>표시하지 않습니다.
+<string><REF RefGeneral_0014_01>의 주행 속도에 관계없이<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> 입력 중에 추가로 <ICON PL_INTERACT_ACTION_START>을 입력하면<lf><REF RefGeneral_0014_01> 루트에서 벗어나 이동할 수 있습니다.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_14_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>확장 모드 전환 조작
 <string><PLATMSG MsgGUI030100_01_16_HELP>
 <string>아이템 슬라이더를 확장 모드로 표시하는<lf>조작 방법을 설정합니다.<COLOR preset="TXT_Accent">(컨트롤러 조작 전용)</COLOR>
@@ -136,7 +140,7 @@
 <string>타입 2
 <string><ICON PAD PL_ITEM_SLIDER_OPEN> 입력 중에 <ICON PAD UI_ITEM_ALL_OPT2>을 누를 때마다<lf>확장 모드와 통상 모드로 전환됩니다.
 <string>타입 3
-<string><ICON PAD PL_ITEM_SLIDER_OPEN> 입력 중에 <ICON PAD UI_ITEM_ALL_OPT3>을 길게 누르는<lf>동안에는 확장 모드로 표시됩니다.
+<string><ICON PAD PL_ITEM_SLIDER_OPEN> 입력 중에 <ICON PAD UI_ITEM_ALL_OPT3> 조작을 하고 있는<lf>동안에는 확장 모드로 표시됩니다.
 <string>타입 4
 <string><ICON PAD PL_ITEM_SLIDER_OPEN> 입력 중에 <ICON PAD UI_ITEM_ALL_OPT4>을 누를 때마다<lf>확장 모드와 통상 모드로 전환됩니다.
 <string>타입 5
@@ -151,7 +155,7 @@
 <string>키보드 조작 시 아이템 슬라이더를 확장 모드로<lf>표시하지 않습니다.
 <string>확장 모드 시 커서 이동 속도
 <string><PLATMSG MsgGUI030100_01_01_Help>
-<string>아이템 슬라이더 확장 모드일 때<lf>스틱 커서 이동 속도를 변경합니다.
+<string>아이템 슬라이더 확장 모드일 때<lf><ICON UI_SLIDER_LEFT><ICON UI_SLIDER_RIGHT>조작 커서 이동 속도를 변경합니다.
 <string>느림
 <string>표준보다 느린 속도로 이동합니다.
 <string>표준
@@ -164,51 +168,51 @@
 <string>확장 중인 모든 열에서 아이템의<lf>수직 스택을 표시합니다.
 <string>선택한 열만 표시
 <string>확장 중인 열 중 현재 선택한 열만<lf>아이템의 수직 스택을 표시합니다.
-<string>확장 모드 중 아이템 선택 조작
-<string>아이템 슬라이더가 확장 모드일 때<lf>아이템 선택 조작법(<ICON PAD UI_ITEM_LEFT>/<ICON PAD UI_ITEM_RIGHT>)을 설정합니다.
-<string>사용
-<string>아이템 슬라이더가 확장 모드일 때,<lf><ICON PAD UI_ITEM_LEFT>/<ICON PAD UI_ITEM_RIGHT>으로 아이템을 선택할 수 있게 합니다.
-<string>사용 안 함
-<string>아이템 슬라이더가 확장 모드일 때,<lf><ICON PAD UI_ITEM_LEFT>/<ICON PAD UI_ITEM_RIGHT>으로 아이템을 선택할 수 없게 합니다.
-<string>확장 모드 중 탄/병 선택 조작
-<string>아이템 슬라이더가 확장 모드일 때<lf>탄/병 선택 조작법(<ICON PAD UI_BULLET_ITEM_UP>/<ICON PAD UI_BULLET_ITEM_DOWN>)을 설정합니다.
-<string>사용
-<string>아이템 슬라이더가 확장 모드일 때,<lf><ICON PAD UI_BULLET_ITEM_UP>/<ICON PAD UI_BULLET_ITEM_DOWN>으로 탄/병을 선택할 수 있게 합니다.
-<string>사용 안 함
-<string>아이템 슬라이더가 확장 모드일 때,<lf><ICON PAD UI_BULLET_ITEM_UP>/<ICON PAD UI_BULLET_ITEM_DOWN>으로 탄/병을 선택할 수 없게 합니다.
-<string>확장 모드 중 아이템 사용 조작
-<string>아이템 슬라이더가 확장 모드일 때<lf>아이템 사용 조작법(<ICON PAD UI_ITEM_USE>)을 설정합니다.
-<string>사용
-<string>아이템 슬라이더가 확장 모드일 때,<lf><ICON PAD UI_ITEM_USE>으로 아이템을 사용할 수 있게 합니다.
-<string>사용 안 함
-<string>아이템 슬라이더가 확장 모드일 때,<lf><ICON PAD UI_ITEM_USE>으로 아이템을 사용할 수 없게 합니다.
-<string><PLATMSG MsgGUI030100_01_48>
-<string>확장 모드 중 방향키 조작
-<string><PLATMSG MsgGUI030100_01_48_HELP>
-<string>아이템 슬라이더 확장 모드 중<lf>방향키 조작 타입을 설정합니다.
-<string>타입 1
-<string><PLATMSG MsgGUI030100_01_48_00_HELP>
-<string>'방향키와 버튼 조작 설정'의 설정을<lf>따릅니다.<lf>아이템 슬라이더 확장 모드 중 방향키는<lf><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_SHORTCUT_PALLET>에 할당된 기능에 대응합니다.
-<string>타입 2
-<string><PLATMSG MsgGUI030100_01_48_01_HELP>
-<string>아이템 슬라이더 확장 모드 중 방향키는<lf>항상 아이템 슬라이더 조작에 대응합니다.
-<string>타입 3
-<string><PLATMSG MsgGUI030100_01_48_02_HELP>
-<string>아이템 슬라이더 확장 모드 중 방향키는<lf>항상 아이템 슬라이더 및 탄환 슬라이더<lf>조작에 대응합니다.
-<string>타입 4
-<string><PLATMSG MsgGUI030100_01_48_03_HELP>
-<string>아이템 슬라이더 확장 모드 중<lf>방향키 조작을 사용하지 않습니다.
-<string>확장 모드 중 <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> 조작
-<string>아이템 슬라이더 확장 모드 중<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> 조작 타입을 설정합니다.
-<string>타입 1
-<string><PLATMSG MsgGUI030100_01_49_00_HELP>
-<string>'방향키와 버튼 조작 설정'의 설정을<lf>따릅니다.<lf>아이템 슬라이더 확장 모드 중 <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>은<lf><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>에 할당된 기능에 대응합니다.
-<string>타입 2
-<string>아이템 슬라이더 확장 모드 중 <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>은<lf>항상 아이템 슬라이더 조작에 대응합니다.
-<string>타입 3
-<string>아이템 슬라이더 확장 모드 중 <ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN>은<lf>항상 아이템 슬라이더 및 탄환 슬라이더<lf>조작에 대응합니다.
-<string>타입 4
-<string>아이템 슬라이더 확장 모드 중<lf><ICON PAD UI_ITEM_LEFT><ICON PAD UI_ITEM_RIGHT><ICON PAD UI_SLIDER_UP><ICON PAD UI_SLIDER_DOWN> 조작을 사용하지 않습니다.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_18_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_19_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_01_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_02_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_48_03_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_00_HELP_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_01_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_02_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>커스텀 숏컷 조작 설정
 <string>커스텀 숏컷의 조작 방법을 설정합니다.
 <string>커스텀 숏컷 설정
@@ -334,11 +338,11 @@
 <string>저장 안 함
 <string>시작 메뉴를 닫았을 때의 커서 위치를<lf>저장하지 않고, 메뉴를 열었을 때<lf>커서를 항상 초기 위치에 둡니다.
 <string>신속한 맵 축소/확대 설정
-<string><ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN>을 클릭감이 느껴지는 깊이까지 눌러서 필드 맵의<lf>축소/확대를 신속하게 최대 수치까지 행할 수 있는<lf>적응형 트리거 기능의 사용 여부를 설정합니다.
+<string><ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN>을 클릭감이 느껴지는 깊이까지 눌러서 필드 맵의<lf>축소/확대를 신속하게 최대 수치까지 행할 수 있는<lf>적응형 트리거 기능의 사용 여부를 설정합니다.
 <string>사용
-<string>적응형 트리거 기능을 사용하여, <ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN>을<lf>최대한 깊게 눌러 필드 맵을 신속하게<lf>축소/확대할 수 있는 기능을 사용합니다.
+<string>적응형 트리거 기능을 사용하여, <ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN>을<lf>최대한 깊게 눌러 필드 맵을 신속하게<lf>축소/확대할 수 있는 기능을 사용합니다.
 <string>사용 안 함
-<string>적응형 트리거 기능을 사용하지 않고,<lf><ICON UI_MAP3D_ZOOM_OUT>/<ICON UI_MAP3D_ZOOM_IN>을 사용한 일반적인 속도의<lf>축소/확대만을 사용합니다.
+<string>적응형 트리거 기능을 사용하지 않고,<lf><ICON PAD UI_MAP3D_ZOOM_OUT>/<ICON PAD UI_MAP3D_ZOOM_IN>을 사용한 일반적인 속도의<lf>축소/확대만을 사용합니다.
 <string>카메라 속도: 평상시(가로)
 <string>평상시 카메라 속도(가로 방향)를 설정합니다.
 <string>카메라 속도: 평상시(세로)
@@ -463,23 +467,23 @@
 <string>조준 또는 집중 모드 전환 조작을 설정합니다.<lf>'조준/집중 모드 전환 세부 설정' 사용 시<lf>납도 중에만 적용됩니다.
 <string><ICON PAD PL_AIM>을 길게 눌러 각 상태 지속
 <string>발도 후 <ICON PAD PL_AIM> 입력 중<lf>근접 무기는 집중 모드를, 원거리 무기는<lf>조준/집중 모드를 지속합니다.<lf>납도 중에는 슬링어 조준을 지속합니다.
-<string><ICON PAD PL_AIM>을 입력해 각 상태 전환
-<string>발도 후 <ICON PAD PL_AIM> 입력으로<lf>근접 무기는 집중 모드로, 원거리 무기는<lf>조준/집중 모드로 전환합니다.<lf>납도 중에는 슬링어 조준으로 전환하며,<lf>재입력하면 해제됩니다.
-<string>발도 후 <ICON PAD PL_AIM> 입력으로<lf>근접 무기는 집중 모드로, 원거리 무기는<lf>조준/집중 모드로 전환합니다.
+<string><ICON PAD PL_AIM_TOGGLE>을 입력해 각 상태 전환
+<string>발도 후 <ICON PAD PL_AIM_TOGGLE> 입력으로<lf>근접 무기는 집중 모드로, 원거리 무기는<lf>조준/집중 모드로 전환합니다.<lf>납도 중에는 슬링어 조준으로 전환하며,<lf>재입력하면 해제됩니다.
+<string>발도 후 <ICON PAD PL_AIM_TOGGLE> 입력으로<lf>근접 무기는 집중 모드로, 원거리 무기는<lf>조준/집중 모드로 전환합니다.
 <string>조준/집중 모드 전환 세부 설정
-<string>사용하면 발도 중 조준 또는 집중 모드<lf>전환 조작을 근접/원거리 무기에<lf>따로 설정할 수 있습니다.
+<string>발도 중 조준 또는 집중 모드 전환 조작을<lf>근접/원거리 무기에 따로 설정할 수 있습니다.<lf><COLOR preset="TXT_Accent">(납도 중 슬링어 조준 조작에는 적용되지 않습니다.)</COLOR>
 <string>근접 무기 장비 중 전환 조작
 <string>근접 무기 장비 중에 집중 모드로<lf>전환할 때의 조작 방법을 설정합니다.
-<string><ICON PAD PL_AIM>을 길게 눌러 지속
+<string><ICON PAD PL_AIM>입력 중은 지속
 <string>근접 무기를 발도 후 <ICON PAD PL_AIM> 입력 중<lf>집중 모드를 지속합니다.
-<string><ICON PAD PL_AIM>으로 전환
-<string>근접 무기 발도 후 <ICON PAD PL_AIM> 입력으로<lf>집중 모드로 전환합니다.<lf>재입력하면 해제됩니다.
+<string><ICON PAD PL_POP_CHANGE_SELECT>으로 전환
+<string>근접 무기 발도 후 <ICON PAD PL_POP_CHANGE_SELECT> 입력으로<lf>집중 모드로 전환합니다.<lf>재입력하면 해제됩니다.
 <string>원거리 무기 장비 중 전환 조작
 <string>원거리 무기 장비 중에 조준/집중 모드로<lf>전환할 때의 조작 방법을 설정합니다.
-<string><ICON PAD PL_AIM>을 길게 눌러 지속
+<string><ICON PAD PL_AIM>입력 중은 지속
 <string>원거리 무기 발도 후<lf><ICON PAD PL_AIM> 입력 중<lf>조준/집중 모드를 지속합니다.
-<string><ICON PAD PL_AIM>으로 전환
-<string>원거리 무기 발도 후<lf><ICON PAD PL_AIM> 입력으로 조준/집중 모드로 전환합니다.<lf>재입력하면 해제됩니다.
+<string><ICON PAD PL_POP_CHANGE_SELECT>으로 전환
+<string>원거리 무기 발도 후<lf><ICON PAD PL_POP_CHANGE_SELECT> 입력으로 조준/집중 모드로 전환합니다.<lf>재입력하면 해제됩니다.
 <string>타겟 카메라의 조작 타입
 <string>타겟 카메라와 카메라 리셋<lf>조작 방법을 설정합니다.
 <string>타입 1
@@ -487,9 +491,9 @@
 <string>타입 2
 <string><ICON PL_CAMERA_RESET>을 1번 입력하면 카메라는 플레이어와<lf>같은 방향을 향하고, 2번 입력하면<lf>타겟 몬스터를 향합니다.
 <string>타입 3
-<string><ICON PL_CAMERA_RESET>을 1번 입력하면 카메라는<lf>타겟 몬스터를 향합니다.<lf>2번 입력할 경우에는 반응하지 않습니다.
+<string><ICON PL_CAMERA_RESET>을 입력하면 카메라는<lf>항상 타겟 몬스터를 향합니다.
 <string>타입 4
-<string><ICON PL_CAMERA_RESET>을 1번 입력하면 카메라는<lf>플레이어와 같은 방향을 향합니다.<lf>2번 입력할 경우에는 반응하지 않습니다.
+<string><ICON PL_CAMERA_RESET>을 입력하면 카메라는<lf>항상 플레이어와 같은 방향을 향합니다.
 <string>타입 5
 <string><ICON PL_CAMERA_RESET>을 입력해도 카메라는 플레이어와 같은 방향이나<lf>타겟 몬스터를 향하지 않습니다.
 <string>카메라 리셋 방향
@@ -590,10 +594,10 @@
 <string>사용하면 발도 후 <ICON PAD PL_AIM> 입력 중 자이로 감도를<lf>근접/원거리 무기에 따로 설정할 수 있습니다.
 <string>근접 무기일 때 <ICON PAD PL_AIM> 입력 시(가로)
 <string><PLATMSG MsgGUI030100_02_60_Help>
-<string>근접 무기 발도 후 <ICON PL_AIM> 입력 시(집중 모드)<lf>가로 방향의 자이로 감도를 설정합니다.
+<string>근접 무기 발도 후 <ICON PAD PL_AIM> 입력 시(집중 모드)<lf>가로 방향의 자이로 감도를 설정합니다.
 <string>근접 무기일 때 <ICON PAD PL_AIM> 입력 시(세로)
 <string><PLATMSG MsgGUI030100_02_61_Help>
-<string>근접 무기 발도 후 <ICON PL_AIM> 입력 시(집중 모드)<lf>세로 방향의 자이로 감도를 설정합니다.
+<string>근접 무기 발도 후 <ICON PAD PL_AIM> 입력 시(집중 모드)<lf>세로 방향의 자이로 감도를 설정합니다.
 <string>원거리 무기일 때 <ICON PAD PL_AIM> 입력 시(가로)
 <string><PLATMSG MsgGUI030100_02_62_Help>
 <string>원거리 무기 발도 후<lf><ICON PAD PL_AIM> 입력 시(조준/집중 모드)<lf>가로 방향 카메라의 자이로 감도를 설정합니다.
@@ -618,7 +622,7 @@
 <string>사용하면 발도 후<lf><ICON PAD PL_AIM> 입력 중 자이로 조작 반전을<lf>근접/원거리 무기에 따로 설정할 수 있습니다.
 <string>근접 무기일 때 <ICON PAD PL_AIM> 입력 시
 <string><PLATMSG MsgGUI030100_02_68_Help>
-<string>근접 무기 발도 후 <ICON PL_AIM> 입력 시(집중 모드)<lf>자이로 조작의 반전 방법을 설정합니다.
+<string>근접 무기 발도 후 <ICON PAD PL_AIM> 입력 시(집중 모드)<lf>자이로 조작의 반전 방법을 설정합니다.
 <string>원거리 무기일 때 <ICON PAD PL_AIM> 입력 시
 <string><PLATMSG MsgGUI030100_02_69_Help>
 <string>원거리 무기 발도 후<lf><ICON PAD PL_AIM> 입력 시(조준/집중 모드)<lf>자이로 조작을 사용한 카메라 반전을 설정합니다.
@@ -675,7 +679,7 @@
 <string>사용 안 함
 <string>HDR 지원 여부와 상관없이<lf>HDR 출력을 사용하지 않습니다.
 <string>화면 밝기 조정
-<string>화면의 밝기를 조정합니다.
+<string>화면 밝기를 조정합니다.
 <string>화면 밝기 조정(HDR)
 <string>화면 밝기를 조정합니다.
 <string>수직 동기화
@@ -711,7 +715,7 @@
 <string><NUMBER {0}> GB
 <string>GPU 드라이버 버전
 <string><NUMBER {0}>
-<string>DirectStrage
+<string>DirectStorage
 <string>지원
 <string>미지원
 <string>GB
@@ -719,29 +723,29 @@
 <string>그래픽 품질을 프리셋에서 선택합니다.<lf><COLOR preset="TXT_Accent">(컷신 그래픽 설정과는 별개입니다)</COLOR>
 <string>그래픽 품질을 프리셋에서 선택합니다.
 <string>울트라
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>커스텀
 <string>각 프리셋의 세부 설정값을 수동으로<lf>변경한 경우, 이 항목이 선택됩니다.
 <string>컷신용 프리셋
 <string>컷신용 그래픽 품질을 선택합니다.<lf>이 설정은 컷신에만 반영됩니다.
-<string>최고
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>매우 높음
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>설정 없음
 <string>컷신 재생 중 그래픽 품질은<lf>'그래픽' 카테고리의 각 설정을 따릅니다.
 <string>업스케일링(초해상도 기술)
 <string>임의의 초해상도 기술을 적용하면 높은 퍼포먼스와<lf>뛰어난 화질을 양립시킬 수 있습니다.
 <string>NVIDIA DLSS
-<string>NVIDIA DLSS 3.5를 사용합니다.<lf><COLOR preset="TXT_Accent">(NVIDIA GeForce RTX<lf>그래픽 카드를 사용할 때만<lf>설정할 수 있습니다.)</COLOR><lf><COLOR preset="TXT_Accent">(GeForce RTX40 Series를<lf>사용하며 OS 설정에서<lf>하드웨어 가속 장치에<lf>의한 GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
-<string>AMD FSR 3
-<string>AMD FSR 3.0.3을 사용합니다.<lf><COLOR preset="TXT_Accent">(OS 설정에서 하드웨어 가속 장치에 의한<lf>GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
+<string>NVIDIA <DLSS>를 사용합니다.<lf><COLOR preset="TXT_Accent">(NVIDIA GeForce RTX<lf>그래픽 카드를 사용할 때만<lf>설정할 수 있습니다.)</COLOR><lf><COLOR preset="TXT_Accent">(GeForce RTX40 Series를<lf>사용하며 OS 설정에서<lf>하드웨어 가속 장치에<lf>의한 GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
+<string>AMD FSR
+<string><FSR>을 사용합니다.<lf><COLOR preset="TXT_Accent">(OS 설정에서 하드웨어 가속 장치에 의한<lf>GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
 <string>Intel XeSS
-<string>Intel XeSS 1.3을 사용합니다.
+<string>Intel <XESS>을 사용합니다.
 <string>사용 안 함
 <string>업스케일링을 사용하지 않습니다.
 <string>프레임 생성
@@ -750,15 +754,15 @@
 <string>설정을 켜서 프레임 레이트를 향상시킵니다.<lf>이 기능을 사용할 경우, '디스플레이'의<lf>'프레임 레이트'에서 설정한 상한을<lf>초과할 수 있습니다.
 <string>끄기
 <string>설정을 사용하지 않습니다.
-<string>현재 표시 설정에서는 <COLOR preset="TXT_Accent">FSR</COLOR>을<lf>이용한 <COLOR preset="TXT_Accent">프레임 생성</COLOR> 기능을 유효로<lf>설정할 수 없습니다.
-<string>현재 표시 설정에서는 <COLOR preset="TXT_Accent">FSR</COLOR>을<lf>이용한 <COLOR preset="TXT_Accent">프레임 생성</COLOR> 기능을 유효로 설정할 수 없어<lf>해당 기능 설정이 OFF로 변경되었습니다.
+<string>현재 표시 설정에서는 <COLOR preset="TXT_Accent">FSR</COLOR>을<lf>이용한 <COLOR preset="TXT_Accent">프레임 생성</COLOR> 기능을<lf>켜짐으로 설정할 수 없습니다.
+<string>현재 표시 설정에서는 <COLOR preset="TXT_Accent">FSR</COLOR>을<lf>이용한 <COLOR preset="TXT_Accent">프레임 생성</COLOR> 기능을 켜짐으로 설정할 수 없어<lf>해당 기능 설정이 꺼짐으로 변경되었습니다.
 <string>옵션에서 창 모드로 변경하거나,<lf>테두리 없는 창의 경우, 검은 테두리가 표시되지<lf>않는 해상도로 설정하면 해당 기능을<lf>이용할 수 있습니다.
 <string>업스케일링 모드
 <string>업스케일링 사용 시의<lf>화질 선명도를 설정합니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 사용 시에만 변경 가능합니다.)</COLOR>
 <string>NVIDIA DLAA
 <string>네이티브 해상도 그대로<lf>AI 기반 안티앨리어싱을 사용합니다.
 <string>AMD Native AA
-<string>네이티브 해상도 그대로<lf>FSR 3의 안티앨리어싱을 사용합니다.
+<string>네이티브 해상도 그대로<lf>FSR의 안티앨리어싱을 사용합니다.
 <string>Intel XeSS Native AA
 <string>네이티브 해상도 그대로<lf>XeSS의 안티앨리어싱을 사용합니다.
 <string>품질 우선
@@ -772,7 +776,7 @@
 <string>끄기
 <string>업스케일링을 사용하지 않는 경우<lf>이 항목이 선택됩니다.
 <string>업스케일링 선명도
-<string>업스케일링 사용 시의 화질 선명도를 설정합니다.<lf>높을수록 선명해지고, 낮을수록 부드러워집니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 사용 시에만 변경 가능합니다.)</COLOR>
+<string>업스케일링 사용 시의 화질 선명도를 설정합니다.<lf>높을수록 선명해지고, 낮을수록 부드러워집니다.<lf><COLOR preset="TXT_Accent">(해당 항목을 AMD FSR로 설정 시에만 변경 가능)</COLOR>
 <string>안티앨리어싱
 <string>안티앨리어싱 모드를 전환합니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 미사용 시에만 변경 가능합니다.)</COLOR>
 <string>FXAA + TAA
@@ -781,56 +785,58 @@
 <string>렌더링 스케일
 <string>게임을 렌더링하는 해상도 배율을<lf>퍼센테이지로 설정합니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 미사용 시에만 변경 가능합니다.)</COLOR>
 <string>레이트레이싱
-<string>레이트레이싱 기술을 사용한 빛 반사와<lf>굴절 표현 품질을 설정합니다.
-<string>최고
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>레이트레이싱 기술을 사용한 빛 반사<lf>표현 품질을 설정합니다.
+<string>매우 높음
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>끄기
+<string>CPU
+<string>GPU
 <string>텍스처 품질
 <string>물체 표면의 텍스처 해상도를 설정합니다.
 <string>최고(고해상도 텍스처)
 <string><COLOR preset="TXT_Accent">DLC '고해상도 텍스처 팩'을<lf>다운로드한 뒤에 선택할 수 있습니다.</COLOR>
 <string>'최고(고해상도 텍스처)' 항목으로 설정하려면 DLC<lf>'고해상도 텍스처 팩'이 필요합니다.
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>텍스처 필터링 품질
 <string>물체 표면의 텍스처 선명도를 설정합니다.
-<string>최고 (ANISO x16)
-<string>고 (ANISO x8)
-<string>중 (ANISO x4)
-<string>중 (ANISO x2)
-<string>저 (Trilinear)
-<string>최저 (Bilinear)
+<string>매우 높음 (ANISO x16)
+<string>높음 (ANISO x8)
+<string>중간 (ANISO x4)
+<string>중간 (ANISO x2)
+<string>낮음 (Trilinear)
+<string>매우 낮음 (Bilinear)
 <string>메시 품질
 <string>3D 모델의 폴리곤 메시 품질을 설정합니다.
-<string>최고
-<string>고
-<string>중
+<string>매우 높음
+<string>높음
+<string>중간
 <string>모피 묘사 품질
 <string>동반자 아이루를 비롯한 생물들의<lf>모피 묘사 품질을 설정합니다.
 <string>높음
 <string>낮음
-<string>LOD 바이어스
-<string>상황에 따라 게임 내에 묘사되는<lf>모델의 품질을 설정합니다.
-<string>최고
-<string>고
-<string>중
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>하늘/구름 묘사 품질
 <string>하늘, 구름의 묘사 품질을 설정합니다.
-<string>최고
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>매우 높음
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>초목 묘사 품질
 <string>초목의 묘사 품질을 설정합니다.
-<string>고
-<string>중
-<string>저
+<string>높음
+<string>중간
+<string>낮음
 <string>초목 흔들림 설정
 <string>초목 흔들림을 표현할지 설정합니다.
 <string>켜기
@@ -842,33 +848,37 @@
 <string>높음
 <string>낮음
 <string>지면 묘사 품질
-<string>플레이어 근처에 있는 지면이나<lf>지형이 변형됐을 때,<lf>지면 묘사 품질을 설정합니다.
+<string>플레이어 근처에 있는 지면이나 지형이 변형됐을 때,<lf>지면 묘사 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다.)</COLOR>
 <string>높음
 <string>낮음
-<string>모래/눈/수면 등 묘사 품질
-<string>모래, 눈, 수면 등의 묘사 품질을 설정합니다.
-<string>최고
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>모래/눈 등 묘사 품질
+<string>모래, 눈 등의 묘사 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다.)</COLOR>
+<string>매우 높음
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>물 이펙트 설정
 <string>물 이펙트 발생 여부를 설정합니다.
-<string>사용
-<string>사용 안 함
-<string>최고
-<string>고
-<string>중
-<string>저
+<string>켜기
+<string>끄기
+<string>매우 높음
+<string>높음
+<string>중간
+<string>낮음
 <string>컬링 거리 설정
-<string>로비에서 묘사되는 플레이어 수, 등장 캐릭터<lf>몬스터, 환경 생물 등 생물 전반의 표시를<lf>생략하는 거리를 설정합니다.
+<string>로비에서 묘사되는 플레이어 수, 등장 캐릭터<lf>몬스터, 환경 생물 등 생물 전반의 표시를<lf>생략하는 거리를 설정합니다. <COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능힙니다)</COLOR>
+<string>먼 거리의 대상물 표시를 생략하지 않고<lf>최대한 묘사합니다.
+<string>먼 거리의 대상물 표시를 생략하지 않고<lf>묘사합니다.
+<string>표준적인 거리의 대상물 표시를<lf>생략하지 않고 묘사합니다.
+<string>근거리 대상물만 표시해<lf>묘사 처리 부하를 경감합니다.
 <string>그림자 묘사 품질
 <string>그림자 표현의 묘사 품질을 설정합니다.
-<string>최고
-<string>고
-<string>중
-<string>저
-<string>최저
+<string>매우 높음
+<string>높음
+<string>중간
+<string>낮음
+<string>매우 낮음
 <string>먼 곳의 그림자 묘사 품질
 <string>먼 곳에서 표시되는 그림자 묘사 품질을 설정합니다.
 <string>높음
@@ -881,7 +891,7 @@
 <string>환경광 묘사 품질
 <string>배경 오브젝트에 닿은 빛이 반사될 때의<lf>묘사 품질을 설정합니다.
 <string>높음
-<string>중
+<string>중간
 <string>낮음
 <string>컨택트 섀도우
 <string>세밀한 그림자를 묘사할지 설정합니다.
@@ -889,8 +899,8 @@
 <string>끄기
 <string>앰비언트 오클루전
 <string>빛이 차단되는 장소의<lf>음영 묘사 품질을 설정합니다.
-<string>고
-<string>중
+<string>높음
+<string>중간
 <string>끄기
 <string>블룸
 <string>밝은 부분의 번짐 표현 강도를 설정합니다.
@@ -906,7 +916,7 @@
 <string>켜기
 <string>끄기
 <string>스크린 스페이스 리플렉션
-<string>반사 표현이 향상되는 기능을 사용할지 설정합니다.
+<string>반사 표현이 향상되는 기능을 사용할지 설정합니다.<lf><COLOR preset="TXT_Accent">(레이트레이싱이 꺼짐 상태일 때만 변경 가능)</COLOR>
 <string>켜기
 <string>끄기
 <string>SSSS 스캐터링
@@ -919,10 +929,10 @@
 <string>끄기
 <string>볼륨 포그
 <string>공기 중의 먼지나 입자에 의한 포그 품질을<lf>설정합니다. 빛의 대기 산란에 의한<lf>햇빛의 표현 등에 영향을 줍니다.
-<string>고
-<string>저
+<string>높음
+<string>낮음
 <string>가변 레이트 셰이딩
-<string>픽셀 셰이더 처리를 거칠게 진행하여<lf>셰이더와 이펙트 묘사 부담을 경감시키는<lf>기능을 설정합니다.
+<string>픽셀 셰이더 처리를 거칠게 진행하여<lf>셰이더와 이펙트 묘사 부하를 경감시키는<lf>기능을 설정합니다.
 <string>끄기
 <string>균형
 <string>성능 우선
@@ -949,11 +959,11 @@
 <string>HUD 표시 커스터마이즈
 <string>HUD 표시 크기와 표시 여부를 설정합니다.
 <string>체력 게이지
-<string>소
+<string>작음
 <string>표준보다 작은 크기로 표시합니다.
 <string>표준
 <string>표준 크기로 표시합니다.
-<string>대
+<string>큼
 <string>표준보다 큰 크기로 표시합니다.
 <string>표시 안 함
 <string>화면에 표시하지 않습니다.
@@ -1003,8 +1013,8 @@
 <string>조준 또는 집중 모드 시 표시되는<lf>미니맵의 크기를 설정합니다.
 <string>대형 몬스터 전투
 <string>대형 몬스터와 전투 시 표시되는<lf>미니맵의 크기를 설정합니다.
-<string><ICON PL_ITEM_SLIDER_OPEN> 길게 누르기
-<string><ICON PL_ITEM_SLIDER_OPEN>을 길게 누를 때 표시되는<lf>미니맵의 크기를 설정합니다.
+<string><ICON PL_ITEM_SLIDER_OPEN> 입력 중
+<string><ICON PL_ITEM_SLIDER_OPEN> 입력 중 표시되는<lf>미니맵의 크기를 설정합니다.
 <string>미니맵 축척비
 <string>미니맵의 축척 비율을<lf>상황별로 설정합니다.
 <string>거점 구역 내
@@ -1019,8 +1029,8 @@
 <string>조준 또는 집중 모드 시 표시되는<lf>미니맵의 축척 비율을 설정합니다.
 <string>대형 몬스터 전투
 <string>대형 몬스터와 전투 시 표시되는<lf>미니맵의 축척 비율을 설정합니다.
-<string><ICON PL_ITEM_SLIDER_OPEN> 길게 누르기
-<string><ICON PL_ITEM_SLIDER_OPEN>을 길게 누를 때 표시되는<lf>미니맵의 축척 비율을 설정합니다.
+<string><ICON PL_ITEM_SLIDER_OPEN> 입력 중
+<string><ICON PL_ITEM_SLIDER_OPEN>입력 중에 표시되는<lf>미니맵의 축척 비율을 설정합니다.
 <string>다른 플레이어의 히트 이펙트
 <string>다른 플레이어의 히트 이펙트<lf>표시 여부를 설정합니다.<lf><COLOR preset="TXT_Accent">(플레이어 자신의 표시에는 영향을 미치지 않습니다.)</COLOR>
 <string>표시하기
@@ -1203,15 +1213,15 @@
 <string>타입 5
 <string>플레이어의 몸이 몬스터에 가려질 때<lf>파란색 선으로 실루엣을 표시합니다.
 <string>사진 연동 저장 설정
-<string>카메라 기능으로 촬영한 사진을 저장 데이터와<lf>하드웨어 저장 공간 양쪽에 연동해<lf>저장할지 설정합니다.
+<string><PLATMSG MsgGUI030100_04_41_Help>
 <string>연동 저장
-<string>저장 데이터와 하드웨어 저장 공간<lf>양쪽에 사진을 저장합니다.
+<string><PLATMSG MsgGUI030100_04_41_00_Help>
 <string>연동 저장 안 함
 <string>저장 데이터에만 사진을 저장합니다.
 <string>다른 플레이어 익명 표시
 <string>자신을 제외한 플레이어의 이름을<lf>익명으로 표시할지 설정합니다.
 <string>자신 제외 익명 표시
-<string>자신을 제외한 모든 플레이어의 이름을<lf>익명으로 표시합니다.<lf><COLOR preset="TXT_Accent">(헌터 프로필은<lf>익명으로 표시할 수 없습니다.)</COLOR>
+<string>자신을 제외한 모든 플레이어의 이름을<lf>익명으로 표시합니다.<lf><COLOR preset="TXT_Accent">(헌터 프로필은 익명으로 <lf>표시할 수 없습니다.)</COLOR>
 <string><REF RefNetwork_0005> 제외 익명 표시
 <string>자신이 소속된 <REF RefNetwork_0005>의 멤버를 제외한<lf>플레이어의 이름을 익명으로 표시합니다.<lf><COLOR preset="TXT_Accent">(헌터 프로필은 익명으로<lf>표시할 수 없습니다.)</COLOR>
 <string>익명 표시 안 함
@@ -1223,7 +1233,7 @@
 <string>타입 2
 <string>납도 중이든 발도 중이든<lf>일반 조작 가이드를 표시하지 않고,<lf>항상 선율 효과를 볼 수 있는<lf>가이드를 표시합니다.
 <string>타입 3
-<string>납도 중이든 발도 중이든<lf>일반 조작 가이드를 표시하고,<lf>발도 중에는 <ICON PL_ITEM_SLIDER_OPEN>을 길게 누를 때만<lf>선율 효과를 볼 수 있는<lf>가이드를 표시합니다.
+<string>납도 중이든 발도 중이든<lf>일반 조작 가이드를 표시하고,<lf>발도 중에는 <ICON PL_ITEM_SLIDER_OPEN>을 입력 중일 때만<lf>선율 효과를 볼 수 있는<lf>가이드를 표시합니다.
 <string>마스터 볼륨
 <string>사운드 전체의 음량을 설정합니다.<lf><COLOR preset="TXT_Accent">(음성 채팅의 음량에는 영향을 미치지 않습니다.)</COLOR>
 <string>음성 음량
@@ -1259,9 +1269,14 @@
 <string>켜기
 <string>게임 음성을 모노럴 오디오로 재생합니다.<lf><COLOR preset="TXT_Accent">(좌우 스피커에서 같은 음성을 재생합니다.)</COLOR>
 <string>끄기
-<string>게임 음성을 스테레오 오디오로 재생합니다.
-<string>사운드 출력
+<string><PLATMSG MsgGUI030100_05_05_01_Help>
+<string>게임 음성 모노럴 오디오 재생을 꺼짐으로 하고,<lf>재생 방법은 OS 사운드 출력 설정을 따릅니다.
+<string>사운드 출력 정보
 <string>사운드 출력 정보를 확인합니다.
+<string>출력 디바이스
+<string>입체 음향
+<string>켜짐
+<string>꺼짐
 <string><REF RefNetwork_0006> 설정
 <string><REF RefNetwork_0006> 기능 이용 여부를 설정합니다.
 <string>켜기

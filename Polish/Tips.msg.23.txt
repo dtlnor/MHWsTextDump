@@ -5,7 +5,7 @@
 <string>Szybkość Seikreta
 <string><ICON PL_PT_SPEED_UP>: przyspieszenie<lf><ICON PL_PT_SPEED_DOWN>: spowolnienie
 <string>Skupienie kamery
-<string>Użyj <ICON PL_CAMERA_LOCK_CHANGE>, aby skupić się na potworze.<lf>Ustawienia skupienia można zmienić w menu opcji.
+<string>Użyj <ICON PL_CAMERA_LOCK_CHANGE>, aby skupić się na potworze.<lf>Ustawienia skupienia można zmienić<lf>w menu opcji.
 <string>Pasek ducha
 <string>Pasek ducha wypełnia się wraz z udanymi<lf>atakami i umożliwia wykonanie potężnych<lf>ataków ostrzem ducha.
 <string><REF ActionGuideDataNameText_Wp07_1069952960>
@@ -15,7 +15,7 @@
 <string>Tryb szybkiego ognia
 <string>Szybki ogień zużywa twój pasek energii,<lf>co pozwala ci oddać wiele strzałów<lf>w krótkich odstępach czasu.
 <string>Kolory paska ducha
-<string>Trafianie specjalnymi atakami, takimi<lf>jak okrężne cięcie ducha, zmieni<lf>kolor paska i zwiększy siłę ataku.
+<string>Trafianie specjalnymi atakami, takimi<lf>jak okrężne cięcie ducha, zmieni<lf>kolor paska ducha i zwiększy siłę ataku.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_27
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_28
@@ -28,7 +28,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_31
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_32
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_32
-<string>Znajdź broń dla siebie
+<string>Znajdź najlepsze rozwiązanie
 <string>Każda broń ma swoje własne cechy i zestaw<lf>ruchów. Wypróbuj różne bronie i przekonaj<lf>się, która ci najbardziej odpowiada.
 <string>Flara alarmowa
 <string>Możesz poprosić innych graczy o pomoc,<lf>używając flary alarmowej.
@@ -41,9 +41,9 @@
 <string>Wykrajanie
 <string>Naciśnij <ICON PL_POP> przy zgładzonym potworze,<lf>żeby wyciąć z niego materiały.
 <string>Schowaj broń, zanim ruszysz w pościg!
-<string>Kiedy ścigasz potwora, schowaj najpierw<lf>broń, naciskając <ICON PL_WEAPON_OFF>, a następnie<lf>biegnij, trzymając <ICON PL_DASH>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_39>
 <string>Uzupełnianie zaopatrzenia<lf>
-<string>Po zemdleniu otrzymasz nowe zaopatrzenie.<lf>Użyj <ICON PL_ACCESS_ITEM_BAG>, żeby sprawdzić sakwę.
+<string><REF MsgGUI600000_Tips_EXP_40>
 <string>Uważnie obserwuj potwory<lf>
 <string>Uważnie obserwuj ruchy każdego potwora,<lf>żeby dowiedzieć się, kiedy zaatakuje.
 <string>Pojmij potwora
@@ -67,11 +67,11 @@
 <string>Szczegółowa mapa
 <string>Możesz otworzyć mapę, naciskając <ICON PL_MAP_CHANGE>.<lf>Używaj jej, kiedy chcesz sprawdzić swój cel.
 <string>Wybieranie i używanie przedmiotów
-<string>Przytrzymaj <ICON PL_ITEM_SLIDER_OPEN>, następnie naciśnij <lf><ICON UI_ITEM_LEFT> lub <ICON UI_ITEM_RIGHT>: wybierz przedmiot<lf>Puść <ICON PL_ITEM_SLIDER_OPEN>, następnie naciśnij <ICON PL_ITEM>: użyj przedmiotu
-<string>Odzyskiwanie zaopatrzenia
-<string>Zaopatrzenie zostanie odzyskane<lf>po ukończeniu zadania.
-<string>Potencjalne miejsca na przenośny obóz
-<string>W pobliżu znajduje się miejsce na obóz.<lf>Kiedy je znajdziesz, użyj poniższego<lf>przedmiotu, żeby rozbić obóz.
+<string><REF MsgGUI600000_Tips_EXP_63>
+<string>Zwracanie zaopatrzenia
+<string>Przedmioty z kategorii Zaopatrzenie<lf>muszą zostać zwrócone po wykonaniu<lf>zadania.
+<string>Potencjalne miejsca na obóz
+<string>W pobliżu znajduje się miejsce na obóz.<lf>Kiedy go znajdziesz, użyj poniższego przedmiotu, żeby rozbić obóz.
 <string>Naładowany strzał
 <string>W zależności od poziomu naładowania<lf>wzrośnie siła. Podczas ładowania<lf>zużywa się wytrzymałość.
 <string>Nuta
@@ -85,33 +85,29 @@
 <string>Kombinacje kinsekta
 <string>Kiedy atakujesz w trybie skupienia,<lf>kinsekty również będą atakować<lf>i zbierać ekstrakty.
 <string>Bańka echa
-<string>Kiedy zagrasz melodię z umieszczoną<lf>bańką echa, będą z niej emitowane<lf>ataki pogłosu.
-<string>Oznaczenie i efekty pyłu
-<string>Kinsekt będzie automatycznie atakować<lf>oznaczone miejsce, tworząc efekt pyłu.
+<string>Kiedy zagrasz melodię z umieszczoną<lf>Bańką echa, będą z niej emitowane<lf>ataki pogłosu.
+<string>Oznaczenie i kinsektowy proch
+<string>Kinsekt będzie automatycznie atakować<lf>oznaczone miejsce, zostawiając po sobie<lf>kinsektowy proch.
 <string>Atak przełamujący
-<string>Możesz przełamać atak potwora, odpierając go<lf>w odpowiednim momencie atakiem przełamującym.
+<string>Możesz przełamać atak potwora, odpierając<lf>go w odpowiednim momencie przełamującym<lf>atakiem.
 <string>Niestabilne kamienne słupy
-<string>Uderz Balaharę, kiedy trzyma się skał, żeby spadł.
+<string>Uderz Balaharę, kiedy trzyma się skał,<lf>żeby spadł.
 <string>Polowanie na wydmach
 <string>Wydmy są niestabilne i pod wpływem<lf>silnego uderzenia mogą się zapaść,<lf>przez co możesz stracić równowagę.
 <string><REF Gimmick_NAME_m2034503552>
-<string>Kucanie w wysokiej trawie<lf>utrudni potworom wypatrzenie cię.
+<string>Kucnięcie w wysokiej trawie przed tym,<lf>jak potwór cię zauważy, utrudni mu<lf>wypatrzenie cię.
 <string><REF Gimmick_NAME_32>
 <string>Możesz zrzucić głaz, trafiając go<lf>z procy haczykowej.
-<string><REF EnemyText_NAME_EM5001_00_0>
-<string>Kiedy ta ropucha zostanie trafiona,<lf>wypuści strumień gazu, który paraliżuje<lf>każdego dotkniętego potwora.
 <string><REF EnemyText_NAME_EM5002_00_0>
-<string>Atak spowoduje eksplozję nektaru<lf>w danym obszarze, co wywoła efekt<lf>regeneracji w jej zasięgu.
+<string>Po uderzeniu uzdrawiający nektar<lf>rozprasza się, wywołując efekt<lf>leczniczy w zasięgu.
 <string><REF EnemyText_NAME_EM5002_01_0>
 <string>Atak spowoduje eksplozję nektaru<lf>w danym obszarze, co wywoła potężny<lf>efekt regeneracji w jej zasięgu.
 <string><REF EnemyText_NAME_EM5003_00_0>
 <string>Po trafieniu emituje błysk światła<lf>oślepiający potwory.
-<string><REF EnemyText_NAME_EM5004_00_0>
-<string>Gnój, który toczy, może być używany<lf>jako amunicja do procy w postaci<lf>gnojowych strąków.
 <string><REF EnemyText_NAME_EM5005_00_0>
-<string>Nektar z ich pleców można zbierać<lf>i spożywać dla odzyskania zdrowia.
+<string>Zbieraj i spożywaj nektar znajdujący się<lf>na ich odwłokach, by odzyskać zdrowie.
 <string><REF EnemyText_NAME_EM5006_00_0>
-<string>Spożycie zwiększy wytrzymałość i zmniejszy<lf>zużycie wytrzymałości o połowę.
+<string>Spożyj, aby zwiększyć wytrzymałość<lf>i zmniejszyć jej zużycie o połowę.
 <string><REF EnemyText_NAME_EM5008_00_0>
 <string>Wabiąc dużego potwora, emituje prąd<lf>energii, który go zatrzymuje w miejscu.
 <string><REF EnemyText_NAME_EM5009_00_0>
@@ -138,12 +134,12 @@
 <string>Właściwości żywiołu twojej broni zostaną<lf>zablokowane. Efekt przestanie działać, jeśli<lf>użyjesz oczystki lub wykonasz unik kilka razy.
 <string>Tarcza: wzmocnienie żywiołowe
 <string>Zużyj fiolki, żeby tymczasowo wzmocnić<lf>gardę i zyskać ataki w trybie topora.
-<string>Potrójne pchnięcie i pchnięcie kontrataku
+<string>Potrójne pchnięcie i szarża kontratakiem
 <string>Możesz wykonać atak 4. poziomu<lf>po pchnięciu w środek III<lf>lub wysokim pchnięciu III.
 <string>Ładowanie paska zmiany trybu
 <string>Atakuj w trybie topora,<lf>by szybciej zapełnić pasek zmiany trybu.
 <string>Rozpoczynanie zadania
-<string>Zaatakuj będącego celem dużego potwora,<lf>żeby zacząć zadanie.
+<string>Zadanie zacznie się po zadaniu<lf>odpowiedniej ilości obrażeń<lf>potworowi alfa będącemu celem.
 <string>Obszar treningowy
 <string>Możesz korzystać z obszaru treningowego<lf>w obozie głównym w Nawietrznych Równinach.
 <string>Aktywne punkty pozyskiwania zasobów
@@ -181,16 +177,16 @@
 <string>Nie przeładowuj energii miecza
 <string>Zgromadzona energia miecza jest ładowana<lf>w fiolkę i wykorzystywana, ale gdy zebrało się<lf>jej za dużo, atak zostanie odparty.
 <string>Strzelanie w zasięgu krytycznym
-<string>Gdy celownik zmieni kolor na pomarańczowy,<lf>odległość jest optymalna. Utrzymuj taką odległość,<lf>aby zadać jak najwięcej obrażeń.
+<string>Gdy celownik zmieni kolor na pomarańczowy,<lf>odległość jest optymalna. Utrzymuj taką<lf>odległość, aby zadać jak najwięcej obrażeń.
 <string>Atakowanie ran
-<string>Atakowanie rany spowoduje większe obrażenia.<lf>Celuj w ranę w trybie skupienia<lf>przy użyciu <ICON PL_AIM>.
+<string>Zadawaj większe obrażenia, celując w rany<lf>w trybie skupienia przy użyciu <ICON PL_AIM>. 
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
-<string>Wciśnij po strzale <ICON WP13 PL_ATTACK_01>, by wykonać<lf>ścigający strzał, potężny atak<lf>uderzający mocniej niż zwykle.
+<string>Wciśnij po strzale <ICON WP13 PL_ATTACK_01>, by wykonać<lf>ścigający strzał, potężny atak<lf>uderzający mocniej niż zwykły.
 <string>Nie żałuj sobie steków!
 <string>Dobrze wysmażone steki są pyszne oraz zwiększają<lf>twoje maksymalne zdrowie i wytrzymałość!<lf>Koniecznie zjedz coś przed polowaniem.
 <string>Nie poluj na głodniaka!
-<string>Efekty posiłku przestały działać! Najlepiej<lf>poluje się z pełnym żołądkiem. Zjedz kolejny<lf>posiłek, aby zwiększyć swoje statystyki!
+<string>Najlepiej poluje się z pełnym żołądkiem.<lf>Użyj przenośnego grilla, aby przygotować kolejny posiłek<lf>i zwiększyć swoje statystyki!
 <string>Zmiana broni
-<string>Przełączaj się między bronią główną<lf>a pomocniczą przy użyciu <ICON PL_WEAPON_CHANGE>.
+<string><REF MsgGUI600000_Tips_EXP_175>
 <string>Uzupełnianie zdrowia
 <string>Kiedy twoje zdrowie jest na wyczerpaniu,<lf>użyj mikstury, która ci je przywróci.

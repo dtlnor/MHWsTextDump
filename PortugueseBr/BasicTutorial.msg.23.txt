@@ -30,7 +30,7 @@
 <string>Selecionar Atalhos do Menu Radial
 <string><INPUTMSG MsgGUI600200_00_010>
 <string>
-<string>Exibir Menu Radial (teclado)
+<string>Exibir Menu Radial (Teclado)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
 <string><COLOR preset="TXT_Danger">Exibição de Menu Radial para Teclado</COLOR><lf>Pressione <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> para exibir seu Menu<lf>Radial Personalizado.<lf><lf>- <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> exibe um Atalho<lf>- <ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> exibe quatro Atalhos<lf><lf>Use <ICON MKB UI_PC_SHORTCUT_KEY_00> - <ICON MKB UI_PC_SHORTCUT_KEY_11> para selecionar um item,<lf>fala, etc.<lf>Use <ICON MKB UI_PC_SHORTCUT_PALLET_00> - <ICON MKB UI_PC_SHORTCUT_PALLET_07> para alternar entre Atalhos.<lf><lf>Menus Radiais podem ser editados em<lf>Personalizar Menu Radial no Menu Inicial.
 <string>
@@ -159,13 +159,13 @@
 <string><INPUTMSG MsgGUI600200_00_033>
 <string><INPUTMSG MsgGUI600200_00_034>
 <string><INPUTMSG MsgGUI600200_00_034_01>
-<string>Arma Embainhada Montado
+<string>Embainhar Arma em Montaria
 <string><ICON RA PL_WEAPON_OFF>
 <string>
 <string>Mirar
 <string><INPUTMSG MsgGUI600200_00_035>
 <string>
-<string>Disparo Montado
+<string>Disparo em Montaria
 <string><ICON RA PL_ATTACK_SP>
 <string>
 <string>Efeitos de Status
@@ -180,9 +180,6 @@
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Autoaprimoramento
 <string>Aumenta a velocidade de movimento.<lf><lf>Acumular este Efeito de Melodia várias<lf>vezes aumenta o seu ataque e previne<lf>que seus ataques sejam defletidos.<lf><lf>Geralmente obtido por meio de:<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do Berrante de Caça
-<string>
-<string><ICON ST_ARMOR> <REF MusicSkillDataText_Wp05_37>
-<string><REF WeaponTutorial_CP_155><lf><lf>Geralmente obtido através de:<lf>- Efeitos de <REF RefStatus_0008_000_00> do Berrante de Caça
 <string>
 <string><ICON ST_MEAL_UP> Efeito de Refeição
 <string>Indica que efeitos foram obtidos<lf>ao comer uma refeição.<lf><lf>Geralmente obtido por meio de:<lf>- Comer uma refeição
@@ -246,7 +243,7 @@
 <string>Ao usar uma arma corpo a corpo, uma<lf>barra representando sua afiação será<lf>exibida. Cores diferentes indicarão o<lf>estado atual da afiação da sua arma e<lf>sua habilidade de penetrar o couro de<lf>um monstro.<lf><lf>Atacar reduz aos poucos a afiação.<lf>Ataques de armas cegas são menos<lf>efetivos e tendem a ser rebatidos mais<lf>facilmente pelo couro do monstro. 
 <string>
 <string><REF Item_IT_21>
-<string>Pedras de Amolar são itens que restauram<lf>a afiação perdida de uma arma. Estão<lf>sempre disponíveis com um dos Itens<lf>Fixos na sua Barra de Itens.<lf><lf>Elas podem ser usadas quando sua arma<lf>está em mãos caso você as coloque em um<lf>Menu Radial Personalizado ou um Atalho.
+<string>A Pedra de Amolar é um item que restaura<lf>a afiação perdida de uma arma. Está<lf>sempre disponível na sua Barra de Itens<lf>como um Item Essencial.<lf><lf>Pode ser usada quando sua arma está<lf>em mãos caso você a coloque em um Menu<lf>Radial Personalizado ou um Atalho.
 <string>
 <string>Modo de Foco
 <string>Modo de Foco
@@ -254,7 +251,7 @@
 <string>
 <string>Modo de Foco
 <string><ICON ME PL_AIM> com a arma empunhada
-<string>É possível usar o Modo de Foco com <ICON ME PL_AIM><lf>enquanto sua arma está em mãos.<lf><lf>Você ataca e bloqueia na direção para<lf>qual a câmera está virada no Modo de Foco.<lf>Alguns ataques são alterados ao apontar<lf>a câmera para cima.<lf><lf>É possível executar <REF ActionGuideDataNameTextCommon_423599584> pressionando <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B><lf>enquanto sua arma está em mãos.<lf>Acertar uma ferida ou ponto fraco<lf>do monstro realiza um ataque especial,<lf>causando dano alto.
+<string>Para usar o Modo de Foco, segure <ICON ME PL_AIM><lf>enquanto sua arma estiver em mãos.<lf><lf>Você ataca e bloqueia na direção para<lf>qual a câmera está virada. Há ataques<lf>que mudam ao apontar a câmera para cima.<lf><lf>Aperte <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> com a arma em<lf>mãos para realizar um Ataque Focal.<lf>Acertar uma ferida ou ponto fraco<lf>realizará um ataque especial,<lf>causando dano alto.
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -272,18 +269,18 @@
 <string>Ao bloquear certos ataques, um embate<lf>entre Caçador e monstro acontece.<lf><lf>Pressione <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> para empurrar o monstro<lf>para trás e desequilibrá-lo, dando<lf>uma oportunidade para atacar.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>É possível causar um Ataque Inibidor<lf>ao usar certos ataques enquanto<lf>o monstro está atacando para afastá-lo.<lf><lf>Existem ataques poderosos que podem<lf>ser executados após um Ataque Inibidor.
+<string>É possível iniciar um Ataque Inibidor<lf>usando certos movimentos para repelir<lf>golpes no momento em que um monstro<lf>ataca, potencialmente empurrando-o.<lf><lf>Caso seu Ataque Inibidor empurre de fato<lf>o monstro, você poderá segui-lo com uma<lf>variedade de ataques poderosos.
 <string>
 <string>Ataque Sorrateiro
 <string><INPUTMSG MsgGUI600200_00_041>
 <string><INPUTMSG MsgGUI600200_00_041_01>
 <string><REF RefMenu_110_14>
 <string><REF RefMenu_110_14>
-<string>Ferramentas Especiais são equipamentos com<lf>habilidades poderosas. Assim como Itens<lf>Fixos, podem ser equipadas ou removidas<lf>pressionando <ICON PL_WP_ON_ACTIVE_SKILL> depois de selecionadas na<lf>Barra de Itens. É possível usá-las com<lf>a sua arma empunhada.<lf><lf>Ferramentas Especiais podem ser usadas<lf>várias vezes, mas têm tempo de recarga.<lf><lf>Mantos diferentes do Manto de Camuflagem<lf>podem ser equipados em Mudar Equipamento.
-<string>
+<string><INPUTMSG MsgGUI600200_00_044>
+<string><INPUTMSG MsgGUI600200_00_044_01>
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
-<string>O Manto de Camuflagem permite se esconder<lf>dos monstros temporariamente. Caso você<lf>ataque ou sofra dano, o efeito se encerra,<lf>mesmo que ainda exista tempo restante.<lf><lf>Diferente de outras Ferramentas Especiais,<lf>o Manto de Camuflagem se comporta como<lf>um Item Fixo e sempre está com você.
+<string>O Manto de Camuflagem permite se esconder<lf>dos monstros temporariamente. Caso você<lf>ataque ou sofra dano, o efeito se encerra,<lf>mesmo que ainda exista tempo restante.<lf><lf>Diferente de outras Ferramentas Especiais,<lf>o Manto de Camuflagem se comporta como<lf>um Item Essencial e sempre está com você.
 <string>
 <string>Dicas de Caçada
 <string>Montando
