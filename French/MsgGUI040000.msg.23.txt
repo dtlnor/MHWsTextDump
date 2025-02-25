@@ -1,32 +1,35 @@
-﻿<string>Liste de joueurs
+﻿<string>Liste des membres
 <string>Rafraîchir
 <string>Membres du lobby
-<string>Membres reliés
+<string>Liste des membres reliés
 <string>Membres de la quête
 <string>Interactions précédentes
-<string>Amis Chasseurs
-<string>Suivre
+<string>Amis de chasse
+<string>Utilisateurs suivis
 <string>Followers
-<string>Ignorer la liste
+<string>Membres du Clan
+<string>Liste des membres du Clan : {0}
+<string>Utilisateurs bloqués
 <string><PLATMSG MsgGUI040000_0001_10>
 <string>Amis sur la plateforme
-<string>Amis Steam
+<string>Contacts Steam
 <string>Recherche ID de Chasseur
 <string><REF RefGeneral_0018_000>
 <string><REF RefGeneral_0019_000>
 <string><REF RefGeneral_0018_002>
 <string><REF RefGeneral_0018_001>
-<string>État
-<string>Progression
+<string>Activité
+<string>Progression dans l'histoire
 <string>Date d'interaction
-<string>Interaction
+<string>Type d'interaction
 <string>Solo en ligne
 <string>Pas d'infos
-<string>Le nom du joueur est anonymisé.
+<string>Le nom des joueurs sont anonymisés.
+<string>Il n'y a aucun Clan actif.
 <string>Recherche ID de Chasseur
-<string>Veuillez saisir un ID de Chasseur (8 caractères maximum).<lf><COLOR preset="TXT_Accent">Attention, votre ID est sensible à la casse, c'est à dire que<lf>les majuscules et minuscules sont importantes.</COLOR>
+<string>Veuillez saisir un ID de Chasseur.<lf><lf><COLOR preset="TXT_Accent">Attention, les ID de Chasseur sont constitués<lf>de huit caractères et ils sont sensibles à la casse<lf>(les majuscules et minuscules sont importantes).</COLOR>
 <string>Un Chasseur correspondant à l'ID {0} a été trouvé.
-<string>Aucun chasseur correspondant à<lf>l'ID "{0}" n'a été trouvé.
+<string>{0}<lf>Impossible de trouver cet ID de chasseur.<lf>{1}
 <string>{0}<lf>Ceci est votre ID de Chasseur.
 <string>Ordre par défaut
 <string>Ordre alphabétique
@@ -34,6 +37,7 @@
 <string>Pertinence
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
+<string><REF RefMenu_019>
 <string><REF RefMenu_020>
 <string><REF RefMenu_021>
 <string>Exclure du groupe relié
@@ -62,8 +66,8 @@
 <string>Dans un environnement relié ({0})
 <string>En quête Histoire
 <string>En expédition
-<string>Inactif
 <string>Absent(e)
+<string>Inactif(ive)
 <string>En ligne
 <string>Solo en ligne
 <string>Hors ligne
@@ -71,23 +75,23 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_03
-<string>Dernière connexion : il y a {0} jour(s).
+<string>Dernière connexion : il y a {0} <PLURAL {0} "jour" "jours">
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_05
-<string>Derni. connexion : il y a plus d'1 s.
-<string>Derni. connexion : il y a plus d'1 m.
+<string>Dernière connexion : il y a plus d'1 semaine
+<string>Dernière connexion : il y a plus d'1 mois
 <string>Quêtes effectuées ensemble
-<string>{0} quêtes effectuées ensemble
+<string>Effectué : <BOLD>{0}</BOLD>
 <string>A rejoint le groupe relié
 <string>A rejoint l'environnement relié.
 <string>Dans un autre groupe relié
-<string>{0}–{1} {2}
+<string>{0}-{1}: {2}
 <string>Inviter {0} au groupe relié ?
 <string>Invitation au groupe relié envoyée.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_002_DLG
 <string>Rejoindre le groupe relié de {0} ?
 <string>Rejoindre le groupe relié
 <string>Refuser l'invitation à un groupe relié
-<string>Vous ne pouvez pas rejoindre un groupe relié<lf>lorsqu'une quête est en cours.
+<string>Vous ne pouvez pas rejoindre un groupe relié<lf>en cours de quête.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_007_DLG
 <string>Quitter le groupe relié ?
 <string>Vous avez quitté le groupe relié.
@@ -113,15 +117,15 @@
 <string>Refuser l'invitation à la quête
 <string>Vous ne pouvez pas rejoindre de quêtes<lf>si vous êtes déjà dans une autre quête.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_005_004_DLG
-<string>Envoyer une demande d'ami à {0} ?
-<string>Demande d'ami envoyée.
+<string>Envoyer une demande d'ami<lf>de chasse à {0} ?
+<string>Demande d'ami de chasse envoyée.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_006_002_DLG
 <string><COLOR preset="TXT_Danger">Vous ne pouvez plus ajouter d'amis.</COLOR>
 <string>Retirer {0} des amis ?
 <string>Ami retiré.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_007_002_DLG
 <string>Exclure {0} du groupe relié ?
-<string>Exclu(e) du groupe relié.
+<string>Utilisateur exclu du groupe relié.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_008_002_DLG
 <string>Retirer {0} de l'environnement relié ?
 <string>Retiré de l'environnement relié.
@@ -130,18 +134,17 @@
 <string>Retiré des membres de la quête.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_010_002_DLG
 <string>Bloquer {0} ?<lf><lf><COLOR preset="TXT_Accent">(Tous les ID de Chasseur de l'utilisateur<lf>seront bloqués.)</COLOR>
-<string>Bloqué.
-<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_011_002_DLG
-<string><COLOR preset="TXT_Danger">Vous ne pouvez plus faire d'ajouts à la liste de blocage.</COLOR>
+<string>Utilisateur bloqué.
+<string><COLOR preset="TXT_Danger">Vous ne pouvez plus faire d'ajouts à la liste d'utilisateurs bloqués.</COLOR>
 <string>Débloquer {0} ?
-<string>Débloqué(e).
+<string>Utilisateur débloqué.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_012_002_DLG
 <string>Suivre {0} ?
-<string>Suivi(e).
+<string>Utilisateur suivi.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_013_002_DLG
-<string><COLOR preset="TXT_Danger">Vous ne pouvez pas suivre plus de personnes.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous ne pouvez plus suivre de joueurs.</COLOR>
 <string>Ne plus suivre {0} ?
-<string>Non suivi(e).
+<string>Utilisateur non suivi.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_014_002_DLG
 <string>Nommer {0} leader du lobby ?
 <string>Nouveau leader du lobby choisi.
@@ -155,13 +158,14 @@
 <string>Type de lobby
 <string>Lobby général
 <string>Lobby privé
+<string>Lobby du Clan
 <string>ID du lobby
 <string>Style de jeu
 <string>Pas de préférence
 <string>Progression dans l'histoire
 <string>Jeu occasionnel
 <string>Ronde des quêtes
-<string>Quêtes événement
+<string>Quêtes Événement
 <string>Niveau
 <string>Pas de préférence
 <string>Débutants
@@ -170,6 +174,6 @@
 <string>Rejoignable
 <string>Non rejoignable
 <string>Langue
-<string>Monde entier
+<string>Toutes les langues
 <string>Personnes dans le lobby
 <string>{0}/{1}

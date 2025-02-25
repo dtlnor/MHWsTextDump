@@ -9,6 +9,37 @@
 <string>Forecast
 <string>Player actions may change the forecast.
 <string>Detailed Info
+<string>Monster Ecology
+<string>Endemic Life Ecology
+<string>Aquatic Life Ecology
+<string>Known Habitats
+<string>Characteristics
+<string>Researcher's Notes
+<string>Special Attack
+<string>Suggested Strategy
+<string>Helpful Hints
+<string>Hide
+<string>Detailed Strategy
+<string>Recommended Elemental Attack
+<string>Effective Status Effects
+<string>Effective Items
+<string>Obtainable Materials
+<string>Low Rank Materials
+<string>High-rank Materials
+<string>Obtainable Items
+<string>Frequency
+<string>Availability/Probability
+<string>Hunting Log
+<string>Hunted
+<string>Slain
+<string>Captured
+<string>Hunted Size
+<string>Biggest
+<string>Heaviest
+<string>Size
+<string>Smallest
+<string>Related Items/Skills
+<string>Unlockable Titles
 <string>Hunting
 <string>Slaying
 <string>Capture
@@ -16,14 +47,20 @@
 <string>Transport
 <string>Special
 <string>Begin Field Survey
+<string>Save as Investigation
 <string>Create Quest
 <string>Accept Quest
+<string>Spend {0} <PLURAL {0} "point" "points"> to save this<lf>as an Investigation?
+<string>Saved as Investigation.
+<string><COLOR preset="TXT_Danger">Insufficient Guild Points.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot accept/join because required progression has not been met.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot accept/join because required progression has not been met.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot accept/join because required Hunter Rank has not been met.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot accept/join because required<lf>Hunter Rank has not been met.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot begin Field Survey.</COLOR>
 <string><COLOR preset="TXT_Danger">Failed to begin Field Survey.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot save as investigation.</COLOR>
+<string><COLOR preset="TXT_Danger">Failed to save as investigation.</COLOR>
 <string><COLOR preset="TXT_Danger">Completed assignments cannot be repeated.</COLOR>
 <string><COLOR preset="TXT_Danger">Player(s) failed to join because of multiplayer settings.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot join because the maximum number of people has already been met.</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">Have not met the necessary conditions for accepting/joining this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">You cannot accept/join this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">Failed to accept/join the quest.</COLOR>
+<string><COLOR preset="TXT_Danger">The maximum number of saved investigations has already been met. You cannot save any more.</COLOR>
+<string><COLOR preset="TXT_Danger">This investigation has already been saved.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot begin Field Survey because a Link Member is viewing Quest Results.</COLOR>
 <string>Return to Title
 <string>Retry
@@ -50,6 +89,7 @@
 <string>Side Mission Rewards
 <string>Quest Rewards
 <string>Bonus Rewards
+<string>Appraisal Box
 <string>Additional Target Rewards
 <string>Target Monster Rewards
 <string>General Material Rewards
@@ -59,14 +99,27 @@
 <string>Heading<lf>Back
 <string>Begin<lf>Quest
 <string>Quest<lf>Accepted
+<string>All Quests
 <string>Assignments
 <string>Optional Quests
 <string>Field Survey
+<string>Field Survey History
+<string>Investigations
+<string>Unsaved Investigation
+<string>Saved Investigation
+<string>Event Quests
+<string>Arena Quests
+<string>Challenge Quests
 <string>Settings
+<string>Home
 <string>Display All
 <string>Lobby Member Quests
 <string>SOS Flare Quests
 <string>Link Member Quests
+<string>Cost
+<string>Field Survey Start Time
+<string>Left
+<string>{0}
 <string>Quest Join Settings
 <string>Adjust acceptance method for joining quests. <COLOR preset="TXT_Accent">(Link Members who receive a quest invitation will automatically be accepted.)</COLOR>
 <string>Auto-accept
@@ -108,6 +161,11 @@
 <string>{0} wants to talk!
 <string>Quest available: {0}
 <string>{0}: ready to report!
+<string>Gather Boost Active! (<PLURAL {0} "{0} Day Left" "{0} Days Left">)
+<string>It seems to be affecting local settlements!
+<string>A settlement is having monster trouble!
+<string>Hunt it for a temporary gathering boost.
+<string>Rimechain P.: {0} appeared!
 <string>Max Members
 <string>Set the maximum number of players that can join quests. <COLOR preset="TXT_Accent">(This number will vary depending on the max number of Link Members.)</COLOR>
 <string>1
@@ -157,9 +215,16 @@
 <string>Ascending
 <string>Descending
 <string>Recommended
-<string>Temporarily increase the maximum number of players for<lf>quests? <COLOR preset="TXT_Accent">(Cannot be changed again until quest is completed.)</COLOR>
+<string>Delete Investigation
+<string>Delete the selected investigation?<lf><lf>Note: If the quest remains in your <COLOR preset="TXT_Accent">Field Survey<lf>History</COLOR>, the history will also be deleted.
+<string>Investigation deleted.
+<string>The number of times you can accept the selected<lf>quest is: {0}.<lf>Accept the quest and save?
+<string>Temporarily increase the maximum number<lf>of players for quests? <COLOR preset="TXT_Accent">(Cannot be changed<lf>again until quest is completed.)</COLOR>
 <string>Assignments
 <string>Optional Quests
+<string>Field Survey History (Most Recent {0})
+<string>Investigations ({0} Saved)
+<string>Event Quests
 <string>Link Member Quests ({0})
 <string>Link Member Quests
 <string>SOS Flare Quests ({0})

@@ -23,8 +23,29 @@
 <string>向“砥石”方向移动
 <string>向“砥石”方向移动后<ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>自动移动时，也可用<ICON PL_DUMMY_MOVE>手动移动。按<ICON PL_PT_CALL><lf>或经过一定时间即会恢复自动移动。
-<string>自动移动时，也可用<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>手动移动。<lf>按<ICON PL_PT_CALL>或经过一定时间即会恢复自动移动。
+<string>自动移动时，也可用<ICON PL_DUMMY_MOVE>手动移动。按<INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00><lf>或经过一定时间即会恢复自动移动。
+<string>自动移动时，也可用<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>手动移动。<lf>按<INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>或经过一定时间即会恢复自动移动。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>一面观察鱼的反应，一面推动<ICON PL_DUMMY_MOVE>移动拟饵来<lf>找出更容易引诱鱼咬钩的方法吧。
+<string>一面观察鱼的反应，一面按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>移<lf>动拟饵来找出更容易引诱鱼咬钩的方法吧。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>“钓大鱼”是一场与鱼的真正较量。鱼在拼<lf>命挣扎时，向鱼游动的方向推动<ICON PL_DUMMY_MOVE>，可以减<lf>轻鱼线的负担。
+<string>“钓大鱼”是一场与鱼的真正较量。鱼在拼<lf>挣扎时，向鱼游动的方向按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>以减轻鱼线的负担。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>鱼因为疲倦而动作迟钝的时候就是动手的好<lf>机会！上下推动<ICON PL_DUMMY_MOVE>来收线吧。
+<string>鱼因为疲倦而动作迟钝的时候就是动手的好<lf>机会！交替按<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>来收线吧。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>鱼接近障碍物时，就朝鱼游动的相反方向<lf>推动<ICON PL_DUMMY_MOVE>来控制鱼的行动吧。记得要避开<lf>岩石附近。
+<string>鱼接近障碍物时，就朝鱼游动的相反方向<lf>按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>来控制鱼的行动吧。<lf>记得要避开岩石附近。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>此时将<ICON PL_DUMMY_MOVE>推向鱼跳起的方向并按<ICON PL_SLINGER_SHOOT>，即可<lf>倾倒鱼竿以控制住鱼。
+<string>此时向鱼跳起的方向按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>并按<ICON PL_SLINGER_SHOOT><lf>即可倾倒鱼竿以控制住鱼。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">快速收线</COLOR>：快速推动<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">缓慢收线</COLOR>：缓慢推动<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">荡饵</COLOR>：反复推动<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
 <string><COLOR preset="TXT_Accent">快速收线</COLOR>：快速输入<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">缓慢收线</COLOR>：缓慢输入<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">荡饵</COLOR>：反复输入<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
@@ -32,11 +53,85 @@
 <string><COLOR preset="TXT_Accent">让鱼远离障碍物</COLOR>：朝障碍物反方向推动<ICON PL_DUMMY_MOVE>
 <string><COLOR preset="TXT_Accent">让鱼远离障碍物</COLOR>：朝障碍物反方向按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
-<string>一定时间内无法行动。反覆推动<ICON PL_DUMMY_MOVE>可缩短回<lf>复的所需时间。
-<string>一定时间内无法行动。反覆按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>缩短回复的所需时间。
+<string>一定时间内无法行动。反复推动<ICON PL_DUMMY_MOVE>可缩短回<lf>复的所需时间。
+<string>一定时间内无法行动。反复按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>缩短回复的所需时间。
 <string><INPUTMSG MsgGUI600000_Tips_EXP_120>
-<string>一定时间内无法行动。反覆推动<ICON PL_DUMMY_MOVE>可缩短回<lf>复的所需时间。
-<string>一定时间内无法行动。反覆按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>缩短回复的所需时间。
+<string>一定时间内无法行动。反复推动<ICON PL_DUMMY_MOVE>可缩短回<lf>复的所需时间。
+<string>一定时间内无法行动。反复按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>缩短回复的所需时间。
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
-<string>一定时间内无法行动。反覆推动<ICON PL_DUMMY_MOVE>可缩短回<lf>复的所需时间。
-<string>一定时间内无法行动。反覆按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>缩短回复的所需时间。
+<string>一定时间内无法行动。反复推动<ICON PL_DUMMY_MOVE>可缩短回<lf>复的所需时间。
+<string>一定时间内无法行动。反复按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>可<lf>缩短回复的所需时间。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>一定时间内无法行动。<lf>反复推动<ICON PL_DUMMY_MOVE>或使用消散剂即可解除。
+<string>一定时间内无法行动。<lf>反复按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>或使用消散剂即可解除。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>一定时间内无法行动。<lf>反复推动<ICON PL_DUMMY_MOVE>或使用消散剂即可解除。
+<string>一定时间内无法行动。<lf>反复按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>或使用消散剂即可解除。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string>快速收线：快速上下推动<ICON PL_DUMMY_MOVE>
+<string>快速收线：快速交替按<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string>缓慢收线：缓慢上下推动<ICON PL_DUMMY_MOVE>
+<string>缓慢收线：缓慢交替按<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string>荡饵：反复向下推动<ICON PL_DUMMY_MOVE>
+<string>荡饵：反复按<ICON PL_MOVE_BACK>
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>在支援柜台可使用各种在线功能，包括领取<lf>内容、查看通知和前往在线商店。<lf><COLOR preset="TXT_Accent">今后还会追加其他功能。</COLOR>
+<string>在支援柜台可使用各种在线功能，包括领取<lf>内容、查看通知和前往Steam商店。<lf><COLOR preset="TXT_Accent">今后还会追加其他功能。</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>或<ICON UI_ITEM_RIGHT>：选择道具<lf>放开<ICON PL_ITEM_SLIDER_OPEN>后按<ICON PL_ITEM>：使用道具
+<string><ICON UI_ITEM_LEFT>或<ICON UI_ITEM_RIGHT>：选择道具<lf><ICON PL_ITEM>：使用道具
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>或<ICON UI_ITEM_RIGHT>：选择道具<lf>放开<ICON PL_ITEM_SLIDER_OPEN>后按<ICON PL_ITEM>：使用道具
+<string><ICON UI_ITEM_LEFT>或<ICON UI_ITEM_RIGHT>：选择道具<lf><ICON PL_ITEM>：使用道具
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string>用<ICON PL_WEAPON_CHANGE>切换主武器与副武器
+<string>用<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>切换主武器与副武器
+<string>用<ICON PL_WEAPON_CHANGE>切换主武器与副武器
+<string>用<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>切换主武器与副武器
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>力尽倒下时，会收到追加的补给品。<lf>可按<ICON PL_ACCESS_ITEM_BAG>查看具体内容。
+<string>力尽倒下时，会收到追加的补给品。<lf>可用<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>查看具体内容。
+<string>力尽倒下时，会收到追加的补给品。<lf>可按<ICON PL_ACCESS_ITEM_BAG>查看具体内容。
+<string>力尽倒下时，会收到追加的补给品。<lf>可用<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>查看具体内容。
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>与怪物相距较远时，用<ICON PL_WEAPON_OFF>收起武器，<lf>然后用<ICON PL_DASH_TOGGLE>冲刺追上去吧。
+<string>与怪物相距较远时，用<ICON PL_WEAPON_OFF>收起武器，<lf>然后用<ICON PL_DASH>冲刺追上去吧。
+<string>与怪物相距较远时，用<ICON PL_WEAPON_OFF>收起武器，<lf>然后用<ICON PL_DASH>或<ICON PL_DASH_TOGGLE>冲刺追上去吧。
+<string>与怪物相距较远时，用<ICON PL_WEAPON_OFF>收起武器，<lf>然后用<ICON PL_DASH>冲刺追上去吧。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>按<ICON PL_WEAPON_CHANGE>可切换武器。鹭鹰龙会跑到猎人身边，<lf>将装备中的武器替换成武器袋里的<COLOR preset="TXT_Accent">副武器</COLOR>。
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>可切换武器。鹭鹰龙会跑到猎人身<lf>边，将装备中的武器替换成武器袋里的<COLOR preset="TXT_Accent">副武<lf>器</COLOR>。
+<string>按<ICON PL_WEAPON_CHANGE>可切换武器。鹭鹰龙会跑到猎人身边，<lf>将装备中的武器替换成武器袋里的<COLOR preset="TXT_Accent">副武器</COLOR>。
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>可切换武器。鹭鹰龙会跑到猎人身<lf>边，将装备中的武器替换成武器袋里的<COLOR preset="TXT_Accent">副武<lf>器</COLOR>。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string>按<ICON PL_PT_CALL>骑上<COLOR preset="TXT_Accent">鹭鹰龙</COLOR>，它会自动向目的地移动。
+<string>以<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_PT_CALL>骑上<COLOR preset="TXT_Accent">鹭鹰龙</COLOR>，它会自动向目的地<lf>移动。
+<string>按<ICON PL_PT_CALL>骑上<COLOR preset="TXT_Accent">鹭鹰龙</COLOR>，它会自动向目的地移动。
+<string>以<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_PT_CALL>骑上<COLOR preset="TXT_Accent">鹭鹰龙</COLOR>，它会自动向目的地<lf>移动。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>任务开始时会获得无偿的道具作为<COLOR preset="TXT_Accent">补给品</COLOR>。<lf>可随时按<ICON PL_ACCESS_ITEM_BAG>领取。补给品会视狩猎情况而追<lf>加。
+<string>任务开始时会获得无偿的道具作为<COLOR preset="TXT_Accent">补给品</COLOR>。<lf>可随时按<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>领取。补给品会视狩猎<lf>情况而追加。
+<string>任务开始时会获得无偿的道具作为<COLOR preset="TXT_Accent">补给品</COLOR>。<lf>可随时按<ICON PL_ACCESS_ITEM_BAG>领取。补给品会视狩猎情况而追<lf>加。
+<string>任务开始时会获得无偿的道具作为<COLOR preset="TXT_Accent">补给品</COLOR>。<lf>可随时按<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>领取。补给品会视狩猎<lf>情况而追加。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>来选择要装填<lf>的弹药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>来选择要装填的弹<lf>药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>来选择要装填<lf>的弹药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>来选择要装填的弹<lf>药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP13 UI_BULLET_ITEM_UP>或<ICON WP13 UI_BULLET_ITEM_DOWN>来选择要装填的弹<lf>药吧。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>来选择要装填<lf>的弹药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>来选择要装填的弹<lf>药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>来选择要装填<lf>的弹药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>来选择要装填的弹<lf>药吧。
+<string>最佳距离会因弹药而异。要更换装填中的<lf>弹药时，就用<ICON WP12 UI_BULLET_ITEM_UP>或<ICON WP12 UI_BULLET_ITEM_DOWN>来选择要装填的弹<lf>药吧。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string><ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可切换装填的瓶。<lf>（可装填的瓶因武器而异）
+<string>按<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可切换装填的瓶。<lf>（可装填的瓶因武器而异）
+<string><ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可切换装填的瓶。<lf>（可装填的瓶因武器而异）
+<string>按<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可切换装填的瓶。<lf>（可装填的瓶因武器而异）
+<string>按<ICON WP11 UI_BULLET_ITEM_UP>或<ICON WP11 UI_BULLET_ITEM_DOWN>可切换装填的瓶。<lf>（可装填的瓶因武器而异）

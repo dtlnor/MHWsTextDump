@@ -13,6 +13,7 @@
 <string>複数のオプション項目の設定を、一括で下記の推奨値に自動設定します。<lf>自動設定の結果、現在の設定から変更される値はハイライト表示されます。<lf><COLOR preset="TXT_Accent">（この画面では個別の設定変更はできず設定値の確認のみ可能です）</COLOR>
 <string>推奨設定を適用する
 <string>「<COLOR preset="TXT_Accent">推奨設定を適用する</COLOR>」を実行することで、<lf>各項目の設定を推奨の値に自動設定します。
+<string>ハードウェアの構成がこれまでと異なるため、<lf>一部オプション項目の設定内容が再設定されました。 
 <string>GAME SETTING
 <string>CONTROLS
 <string>CAMERA
@@ -90,6 +91,14 @@
 <string><ICON MKB PL_MOVE_FRONT>が画面奥の方向、<lf><ICON MKB PL_MOVE_BACK>が画面手前の方向になります。
 <string>タイプ２
 <string><ICON MKB PL_MOVE_FRONT>がプレイヤーの正面方向、<lf><ICON MKB PL_MOVE_BACK>がプレイヤーの背面方向になります。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string><REF RefGeneral_0014_01>の操作設定
 <string><REF RefGeneral_0014_01>の操作方法を設定します。
 <string><REF RefGeneral_0014_01>の呼び寄せ操作
@@ -319,6 +328,12 @@
 <string>左右のボタン操作と表示を反転させます。<lf>主に左利き用マウス向けの設定です。
 <string>反転しない
 <string>左右のボタン操作と表示を反転させません。<lf>主に右利き用マウス向けの設定です。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>コントローラーボタンアイコン設定
 <string>操作ガイド等で表示されるゲームコントローラーの<lf>ボタンアイコンデザインについて設定します。
 <string>タイプ1
@@ -568,6 +583,10 @@
 <string>ジャイロによるカメラ操作
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>有効にした場合、カメラ操作において<lf>ジャイロ機能を使用できます。<lf>また、同機能の詳細設定が可能となります。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>操作を有効にする場面
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>ジャイロによるカメラ操作が有効となる場面を設定します。
@@ -631,6 +650,50 @@
 <string>弓の曲射およびヘビィボウガンの拡散弾使用時、<lf>着弾位置を示す照準の前後操作を設定します。<lf><COLOR preset="TXT_Accent">（ジャイロ操作時）</COLOR>
 <string>コントローラーの傾き通りの方向へと<lf>着弾位置の照準を前後させます。
 <string>コントローラーの傾きとは反対の方向へと<lf>着弾位置の照準を前後させます。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
 <string>出力ディスプレイ設定
 <string>ゲーム画面を表示するディスプレイを選択します。<lf><COLOR preset="TXT_Accent">（Windows 10以上で、マルチディスプレイ環境の<lf>　場合のみ設定可能です）</COLOR>
 <string>{0}: {1}
@@ -742,7 +805,7 @@
 <string>いずれかの超解像技術を適用すると、高パフォーマンスと<lf>優れた画質を両立させることができます。
 <string>NVIDIA DLSS
 <string>NVIDIA <DLSS>を使用します。<lf><COLOR preset="TXT_Accent">（NVIDIA GeForce RTXグラフィックスカードを<lf>　使用時にのみ設定が可能です）</COLOR><lf><COLOR preset="TXT_Accent">（GeForce RTX40 Seriesを使用していて<lf>　OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
-<string>AMD FSR
+<string>AMD FSR 3
 <string><FSR>を使用します。<lf><COLOR preset="TXT_Accent">（OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
 <string>Intel XeSS
 <string>Intel <XESS>を使用します。
@@ -762,7 +825,7 @@
 <string>NVIDIA DLAA
 <string>ネイティブ解像度のまま、<lf>AIによるアンチエイリアシングを使用します。
 <string>AMD Native AA
-<string>ネイティブ解像度のまま、<lf>FSRのアンチエイリアシングを使用します。
+<string>ネイティブ解像度のまま、<lf>FSR 3のアンチエイリアシングを使用します。
 <string>Intel XeSS Native AA
 <string>ネイティブ解像度のまま、<lf>XeSSのアンチエイリアシングを使用します。
 <string>クオリティ
@@ -776,7 +839,7 @@
 <string>OFF
 <string>アップスケールを使用しない場合、<lf>この項目が選択されます。
 <string>アップスケールシャープネス
-<string>アップスケーリング使用時の画質の鮮明さを設定します。<lf>数値が高いほど鮮明に、低いほど柔らかい画質になります。<lf><COLOR preset="TXT_Accent">（同項目を「AMD FSR」に設定時のみ設定変更可能です）</COLOR>
+<string>アップスケーリング使用時の画質の鮮明さを設定します。<lf>数値が高いほど鮮明に、低いほど柔らかい画質になります。<lf><COLOR preset="TXT_Accent">（同項目を「AMD FSR 3」に設定時のみ設定変更可能です）</COLOR>
 <string>アンチエイリアス
 <string>アンチエイリアスのモード切り替えを行います。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」未使用時のみ設定変更可能です）</COLOR>
 <string>FXAA + TAA
@@ -792,6 +855,8 @@
 <string>低
 <string>最低
 <string>OFF
+<string>DirectStorage
+<string>データの読み込みを高速化する技術「DirectStorage」で<lf>使用するハードウェアを選択します。<lf><COLOR preset="TXT_Accent">（DirectStorageに対応した環境でのみ設定可能です）</COLOR>
 <string>CPU
 <string>GPU
 <string>テクスチャ品質
@@ -816,6 +881,8 @@
 <string>最高
 <string>高
 <string>中
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>毛皮の描画品質
 <string>オトモアイルーなど生物全般における<lf>毛皮の描画品質を設定します。
 <string>高
@@ -834,9 +901,11 @@
 <string>最低
 <string>草木の描画品質
 <string>草木の描画品質を設定します。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>高
 <string>中
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>草木の揺れ設定
 <string>草木の揺れ表現の有無を設定します。
 <string>ON
@@ -862,10 +931,13 @@
 <string>水の流体エフェクトを発生させるかどうか設定します。
 <string>有効
 <string>無効
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
 <string>最高
 <string>高
 <string>中
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>カリング距離の設定
 <string>ロビーで描画されるプレイヤーの人数や登場キャラクター、<lf>モンスター、環境生物など生物全般の表示を省略する距離を<lf>設定します。<COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
 <string>より遠距離まで対象物の表示を省略せず<lf>最大限の描画を行います。
@@ -893,18 +965,27 @@
 <string>高
 <string>中
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>コンタクトシャドウ
 <string>細かい影の描写の有無について設定します。
 <string>ON
 <string>OFF
 <string>アンビエントオクルージョン
 <string>光がさえぎられている場所に対する<lf>陰影描写の品質を設定します。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>高
 <string>中
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>OFF
 <string>ブルーム
 <string>明るい部分をにじませる表現の強さについて設定します。
 <string>高
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>低
 <string>OFF
 <string>モーションブラー
@@ -923,6 +1004,10 @@
 <string>スクリーンスペースセパラブルサブサーフェイス<lf>スキャッタリング。光がオブジェクトに吸収され<lf>散乱する表現の有無を設定します。
 <string>ON
 <string>OFF
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>被写界深度
 <string>奥行きに応じたピントの表現の有無を設定します。
 <string>ON
@@ -931,6 +1016,13 @@
 <string>空気中の塵や粒子によるフォグの品質を設定します。<lf>光の大気散乱による日差しの表現などに影響します。
 <string>高
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>可変レートシェーディング
 <string>ピクセルシェーダーの処理を粗く行うことで、シェーダーと<lf>エフェクトの描画負荷を軽減させる機能を設定します。
 <string>OFF
@@ -1031,6 +1123,14 @@
 <string>大型モンスターとの戦闘中における<lf>ミニマップの縮尺比を設定します。
 <string><ICON PL_ITEM_SLIDER_OPEN>入力中
 <string><ICON PL_ITEM_SLIDER_OPEN>の入力中における<lf>ミニマップの縮尺比を設定します。
+<string>フィールドマップの回転設定
+<string>フィールドマップの回転の有無について設定します。
+<string>回転する
+<string>フィールドマップを左右方向へ回転可能です。
+<string>回転する＋北向きリセット
+<string>フィールドマップの回転が可能で、かつ<lf>カーソル位置のリセット操作（<ICON UI_MAP3D_RESET_POSITION>）を行った場合、<lf>マップが北を上にした状態へと戻ります。
+<string>回転しない
+<string>フィールドマップは回転できません。<lf>常に北を上にした状態で固定されます。
 <string>他プレイヤーのヒットエフェクト
 <string>他プレイヤーのヒットエフェクトについて<lf>表示の有無を設定します。<lf><COLOR preset="TXT_Accent">（自プレイヤーの表示には影響しません）</COLOR>
 <string>表示する
@@ -1214,8 +1314,10 @@
 <string>プレイヤーの身体がモンスターに隠れてしまう<lf>場合、シルエットを青色のラインで表示します。
 <string>写真の連動保存設定
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>カメラ機能で撮影した写真を、セーブデータと<lf>ハードウェアのストレージの両方に<lf>連動して保存するかどうか設定します。
 <string>連動保存する
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
+<string>セーブデータと、ハードウェアのストレージの<lf>両方に写真を保存します。
 <string>連動保存しない
 <string>セーブデータにのみ写真を保存します。
 <string>他プレイヤー名の匿名表示
@@ -1234,6 +1336,12 @@
 <string>納刀中、抜刀中ともに通常の操作ガイドを表示せず<lf>旋律効果を一覧できるガイドを常に表示します。
 <string>タイプ３
 <string>納刀中、抜刀中ともに通常の操作ガイドを表示し、<lf>抜刀中については<ICON PL_ITEM_SLIDER_OPEN>の入力中のみ<lf>旋律効果を一覧できるガイドを表示します。
+<string>武器攻撃力の表示形式
+<string>武器の攻撃力を表示する際に、武器種ごとに固有の<lf>係数を使用した形式で表示するかどうか設定します。<lf><COLOR preset="TXT_Accent">（設定によって実際に与えるダメージに差異は生じません）</COLOR>
+<string>係数を使用して表示する
+<string>武器がもつ基礎攻撃力に対して、武器種ごとに<lf>固有の係数を使用した値で表示します。<lf>これによって、一撃の威力が大きい武器種ほど<lf>より高い数値で算出され、体感に近くなります。
+<string>係数を使用せず表示する
+<string>武器種ごとに固有の係数を使用せず、武器がもつ<lf>基礎攻撃力の値をそのまま表示します。<lf>これによって、異なる武器種間でも<lf>武器の攻撃力を単純比較しやすくなります。
 <string>マスター音量
 <string>サウンド全体の音量を設定します。<lf><COLOR preset="TXT_Accent">(ボイスチャットの音量に影響はありません)</COLOR>
 <string>ボイス音量

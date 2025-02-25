@@ -28,11 +28,15 @@
 <string>Lv-
 <string>{0}
 <string>-
+<string>？？？衍生
 <string>主武器
 <string>裝備至主武器
 <string>副武器
 <string>裝備至副武器
 <string>武器
+<string>飾物
+<string>主武器飾物
+<string>副武器飾物
 <string>龍熱機關龍彈
 <string>龍熱穿甲彈
 <string>龍熱抵消彈
@@ -40,13 +44,57 @@
 <string>集中特效彈【龍吼】
 <string>起爆龍彈
 <string>黏著龍彈
+<string>生產素材
+<string>強化素材
+<string>所需費用
+<string>選擇強化裝備
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>強化防具
+<string>升級所需強化值
+<string>已強化至上限
 <string>顯示全部
+<string>僅顯示<ICON EQUIP_TYPE1>服裝
+<string>僅顯示<ICON EQUIP_TYPE2>服裝
+<string>僅顯示持有裝備
+<string>強化
+<string>生產
+<string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>確定嗎？
+<string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>確定嗎？<lf><lf>（生產此裝備時可同時獲得<COLOR preset="TXT_Accent">外觀裝備</COLOR>）
+<string>要馬上裝備嗎？
+<string>要捨棄多出的{0}pts嗎？
+<string>試穿
+<string><COLOR preset="TXT_Danger">裝備箱裡沒有空位。</COLOR>
+<string><COLOR preset="TXT_Danger">還無法生產或強化此裝備。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有強化前的裝備。</COLOR>
+<string><COLOR preset="TXT_Danger">所需素材或金錢不足。</COLOR>
+<string><COLOR preset="TXT_Danger">持有金額不足。</COLOR>
+<string><COLOR preset="TXT_Danger">此裝備已強化至上限。</COLOR>
+<string>請指定使用的鎧玉與數量。
 <string><COLOR preset="TXT_Danger">未持有裝飾品。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有素材。</COLOR>
 <string><COLOR preset="TXT_Danger">未持有裝備。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有機械零件。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有機械武器。</COLOR>
 <string><COLOR preset="TXT_Danger">未持有弩槍。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有鍊金所需的裝飾品等物品。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有鍊金所需的機械零件等物品。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有精煉所需的素材。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有復原強化素材。</COLOR>
+<string><COLOR preset="TXT_Danger">已持有此推薦裝備，無法生產或強化。</COLOR>
+<string><COLOR preset="TXT_Danger">已持有此推薦裝備，無法生產。</COLOR>
+<string>已鑲嵌至：{0}
 <string>目前正鑲嵌於其他裝備上，是否卸除？
+<string><COLOR preset="TXT_Danger">此為已鑲嵌的裝飾品。</COLOR>
+<string><COLOR preset="TXT_Danger">鑲嵌槽等級不支援，無法鑲嵌。</COLOR>
+<string><COLOR preset="TXT_Danger">此獵蟲已培育到上限。</COLOR>
+<string>需要{0}<REF RefGeneral_0015_000>。<lf>確定要購買嗎？
+<string>需要{0}<REF RefGeneral_0015_000>。<lf>確定嗎？<lf><lf>（生產此裝備時可同時獲得<COLOR preset="TXT_Accent">外觀裝備</COLOR>）
+<string>培育素材
 <string>裝備箱
+<string>外觀裝備箱
 <string><COLOR preset="TXT_Danger">僅可於裝備操蟲棍時選擇獵蟲。</COLOR>
+<string>裝飾品箱
 <string>裝卸裝飾品
 <string>變更裝備
 <string>技能資訊
@@ -56,6 +104,7 @@
 <string>登錄至我的最愛
 <string>裝備外觀設定
 <string>裝備設定
+<string>自動選擇
 <string>從箱子選擇
 <string>按系列選擇防具
 <string>顯示/隱藏武器
@@ -65,8 +114,58 @@
 <string>切換詳細資訊視窗內容
 <string>切換裝備箱介面
 <string>開關裝備預覽
+<string>防具著色
+<string>登錄到願望清單
+<string>登錄生產素材
+<string>登錄強化素材
+<string>要登錄至願望清單嗎？
+<string>需要登錄至願望清單的裝備中包括<lf>可經生產或強化來製造的裝備。<lf>請選擇要登錄的素材。
+<string>從願望清單刪除
+<string>要從願望清單刪除嗎？
+<string>要從願望清單刪除嗎？<lf><COLOR preset="TXT_Danger">（此項目已和裝備個人組合連結。<lf>　刪除的裝備將在裝備個人組合變更為「無設定」）</COLOR>
+<string>卸下所有裝飾品
+<string>要卸除所有正在裝備的裝飾品嗎？
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string>將<ICON PAD PL_DUMMY_CAMERA>切換至操作角色模型
+<string>將<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>切換至操作角色模型
+<string>將<ICON PAD PL_DUMMY_CAMERA>切換至操作裝備模型預覽
+<string>將<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>切換至操作裝備模型預覽
+<string>將<ICON PAD PL_DUMMY_CAMERA>切換至操作選單
+<string>（將<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>切換至操作角色模型）
 <string>按系列選擇裝備
+<string>刃
+<string>筒
+<string>盤
+<string>裝置
 <string>衣裝
+<string>搜尋
+<string>防禦力加成
+<string>鑲嵌槽等級
+<string>鑲嵌槽數
+<string>砲擊類型
+<string>旋律效果
+<string>可裝填彈藥
+<string>可速射彈藥
+<string>可裝填瓶
+<string>解除
+<string>未選擇
+<string>白色
+<string>藍色
+<string>綠色
+<string>Ⅲ
+<string>Ⅱ
+<string>Ⅰ
+<string>銳利度（白色）
+<string>銳利度（藍色）
+<string>銳利度（綠色）
+<string>鑲嵌槽等級（Ⅲ）
+<string>鑲嵌槽等級（Ⅱ）
+<string>鑲嵌槽等級（Ⅰ）
+<string>鑲嵌槽數（3）
+<string>鑲嵌槽數(2-3)
+<string>鑲嵌槽數(1-3)
 <string>依條件排序
 <string>依武器排序
 <string>依防具排序
@@ -83,6 +182,9 @@
 <string>依耐性值排序
 <string>依防禦力排序
 <string>依防具部位排序
+<string>依種類排序
+<string>依性能類型排序
+<string>依機械加成排序
 <string>攻擊類型
 <string>依防具部位排序
 <string>預設
@@ -91,6 +193,9 @@
 <string>依獵蟲等級排序
 <string>依砲擊類型排序
 <string>依持有數排序
+<string>1-3
+<string>2-3
+<string>3
 <string>通常彈Lv1
 <string>通常彈Lv2
 <string>通常彈Lv3
@@ -139,3 +244,23 @@
 <string>速射（冰結彈Lv1）
 <string>速射（冰結彈Lv2）
 <string>速射（滅龍彈）
+<string><COLOR preset="TXT_Danger">目前正裝備，無法出售。</COLOR>
+<string><COLOR preset="TXT_Danger">無法出售衣裝。</COLOR>
+<string><COLOR preset="TXT_Danger">此為目前唯一持有的獵蟲，無法出售。（無法不持有獵蟲）</COLOR>
+<string><COLOR preset="TXT_Danger">無法出售此裝備。</COLOR>
+<string><COLOR preset="TXT_Danger">此獵蟲正與操蟲棍組合使用，無法出售。</COLOR>
+<string>售價
+<string>此裝備已登錄至個人組合，確定要出售嗎？
+<string>確定要以{0}z出售嗎？
+<string>此裝備上已鑲嵌裝飾品。<lf>要卸除裝飾品並以{0}z出售嗎？
+<string>已選擇以下狀態的裝飾品，真的要出售嗎？<lf>{0}<lf>{1}<lf>{2}
+<string>・裝備中
+<string>・已登錄至個人組合
+<string>・已登錄至我的最愛
+<string>要跟{0}分享個人組合的內容嗎？
+<string>登錄至自己的個人組合
+<string>要登錄至自己的個人組合空欄嗎？
+<string>自己的個人組合沒有空欄，無法登錄。
+<string><COLOR preset="TXT_Accent">個人組合中登錄了未持有的裝備。</COLOR><lf>已將該裝備自動登錄至願望清單。
+<string><COLOR preset="TXT_Accent">個人組合中登錄了未持有的裝備。</COLOR><lf>該裝備已登錄至願望清單。
+<string><COLOR preset="TXT_Accent">個人組合中登錄了未持有的裝備。</COLOR>

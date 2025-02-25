@@ -19,8 +19,8 @@
 <string>Você se juntou à missão de<lf>{0}.
 <string>{0}<lf>abandonou a missão.
 <string>{0} aceitou uma missão<lf>e está aguardando mais participantes.
-<string>Você desmaiou. Prêmios reduzidos.<lf>(Tentativas restantes: {0})
-<string>{1} desmaiou. Prêmios reduzidos.<lf>(Tentativas restantes: {0})
+<string>Você desmaiou.<lf>Tentativas restantes<lf>até a missão falhar: {0}
+<string>{1} desmaiou.<lf>Tentativas restantes<lf>até a missão falhar: {0}
 <string>Você desmaiou.<lf>Prêmios reduzidos a zero.
 <string>{0} desmaiou.<lf>Prêmios reduzidos a zero.
 <string>Você desmaiou.
@@ -33,7 +33,7 @@
 <string>{0} enviou um convite de<lf>Elo de Ambiente para você.
 <string>Convite de Missão
 <string>{0}<lf>te enviou um convite de missão.
-<string>Tempo restante: <PLURAL {0} "minuto" "minutos">.
+<string>Tempo de missão restante:<lf>{0} <PLURAL {0} "minuto" "minutos">.
 <string>Trabalho de Campo
 <string>Começando um Trabalho de Campo<lf>de {0}.
 <string>Cancelar
@@ -47,27 +47,40 @@
 <string>O líder da missão cancelou<lf>o sinalizador SOS.
 <string>Bate-papo por voz foi alterado para<lf><REF RefNetwork_0004_02>.
 <string>Bate-papo por voz foi alterado para<lf><REF RefNetwork_0004_01>.
+<string>O Estoque de Provisões está em promoção!
 <string>Uma nova missão foi desbloqueada.
 <string>{0}<lf>se tornou líder da missão.
-<string>Outro jogador foi indicado<lf>como líder da missão.
+<string>Indicaram você como<lf>líder da missão.
 <string>Indicou {0}<lf>como líder do Grupo de Elo.
 <string>Outro jogador foi indicado<lf>como líder do Grupo de Elo.
 <string>{0}<lf>recebeu o controle do Lobby privado.
-<string>Outro jogador recebeu<lf>o controle do Lobby privado.
+<string>Você recebeu o controle<lf>do Lobby privado.
 <string>Devolvendo suprimentos.
 <string>Anúncio
-<string><PLURAL {0} "{0} notificação" "{0} notificações"> recebidas enquanto estava<lf>offline.
+<string><PLURAL {0} "{0} notificação recebida" "{0} notificações recebidas"> enquanto<lf>estava offline.
 <string>Anúncio
-<string>Recebeu <PLURAL {0} "{0} notificação de convite" "{0} notificações de convite">.
-<string>Pedidos de Amizade
+<string>Recebeu <PLURAL {0} "{0} convite" "{0} convites">.
+<string>Pedido de Amizade
 <string>Recebeu um pedido de amizade<lf>de {0}.
-<string>Agora você tem amizade com {0}.
-<string>Membros do Elo de Ambiente estão em<lf>uma caçada!
+<string>Agora você tem amizade com<lf>{0}.
+<string>A cerca está pronta para uso.
+<string>Muralha pronta em: <PLURAL {0} "{0} minuto" "{0} minutos">
+<string>Muralha pronta em: <PLURAL {0} "{0} segundo" "{0} segundos">
+<string>O Navio de Suporte chegou.
+<string>O Navio de Suporte partirá em breve.
+<string>O Navio de Suporte partiu.
+<string>Vale da Sorte usado. (Restante: {0})
+<string>Concederemos recompensas<lf>aleatórias e zenny.
+<string>Usar
+<string>Vale da Sorte usado.
+<string>Atividade de Elo de Ambiente
 <string>Começando um Trabalho de Campo<lf>de {0}.
 <string>Cancelar
-<string>Os suprimento foram reabastecidos.<lf>(Verifique os suprimentos com <INPUTMSG MsgGUI020100_0011>.)
+<string>Os suprimentos foram reabastecidos.<lf>(Verifique os suprimentos com <INPUTMSG MsgGUI020100_0011>.)
 <string>Caçador de Suporte {0}<lf>entrou na missão.
 <string>Caçador de Suporte {0} saiu da missão.
+<string>Uma nova Missão de Arena está disponível.
+<string>As cenas podem ser vistas novamente<lf>na Galeria, disponível no menu<lf>da Tela Inicial.
 <string>Alvo principal definido como seu destino.
 <string>Alvo perdido. Definindo o destino para o alvo principal.
 <string>O alvo de seu marcador desapareceu.
@@ -75,9 +88,16 @@
 <string>Missão fracassada...
 <string>Convites de Missão (Reenviados)
 <string>Agora você pode receber convites de missão de {0}.
+<string>Deu {0} (x{1})
 <string>Itens Essenciais obtidos:<lf><COLOR preset="TXT_Accent">Ferramentas de Caça</COLOR>!
 <string>Atualização de Visão Geral do Ambiente
-<string>Avistaram {0}<lf>em {1}!
+<string>{0} de {1}<lf>gostaria de te oferecer uma refeição!
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Avistamento de {0}!<lf>Local: {1}
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Você pode informar sua campanha secundária<lf>bem-sucedida para {0}!<lf>Local: {1}
 <string>Abrir Mapa
 <string>Atualização de Visão Geral do Ambiente
 <string>Vários alvos disponíveis para criação de<lf>missão combinada!
@@ -85,25 +105,50 @@
 <string>Atualização de Visão Geral do Ambiente
 <string>{0}, o predador máximo<lf>desta região, apareceu!
 <string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>{0} apareceu!<lf>Parece estar afetando os<lf>assentamentos locais!
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Um monstro com mais prêmios apareceu!<lf>{0}
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Alvo de campanha secundária<lf>{0} apareceu!
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>O alvo da lista de desejos apareceu!<lf>{0}
+<string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>{0} apareceu!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>{0}<lf>deixará o local em breve!
 <string>Abrir Mapa
-<string>{0} saiu do local...
+<string>{0}<lf>saiu do local...
+<string>Atualização de Visão Geral do Ambiente
+<string>{0} apareceu<lf>no Pico Trancagelado!
+<string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>Um bando, com {0},<lf>apareceu!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
-<string>O bando com um {0}<lf>deixará o local em breve!
+<string>O bando com {0}<lf>deixará o local em breve!
 <string>Abrir Mapa
 <string>O bando com um {0}<lf>deixou o local...
+<string>{0} apareceu!
 <string>Visão Geral do Ambiente
 <string>Surto de {0} detectado!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>Abundância de {0} detectada!
+<string>Abrir Mapa
+<string>Visão Geral do Ambiente
+<string>{0} está disponível<lf>para apoiar a caçada!
+<string>Abrir Mapa
+<string>Visão Geral do Ambiente
+<string>O Navio de Suporte chegou!
+<string>Abrir Mapa
+<string>Visão Geral do Ambiente
+<string>Um Casulo de Guardião Grande foi avistado!
 <string>Abrir Mapa
 <string>Perdeu {0}.
 <string>Pedidos de Participação
@@ -113,18 +158,25 @@
 <string>O anfitrião<lf>desfez o Lobby.
 <string>{0} seguiu você.
 <string>Sem suprimentos.
+<string>Lista de Desejos: {0}
+<string><COLOR preset="TXT_Accent">Obteve todos os materiais necessários.</COLOR>
+<string>Lista de Desejos: {0}
+<string>Quantidade Necessária
 <string>Trabalho de Campo abandonado.
 <string>Não é possível carregar mais Suprimentos.<lf>Suprimentos excedentes descartados.
 <string>Recebeu o Efeito de Melodia<lf><BOLD>{0}</BOLD>.
-<string>Efeito de Melodia <BOLD>{0}</BOLD><lf>ativado!
-<string>O Efeito de Melodia ≪{0}≫ passou.
-<string>O efeito de<lf><COL YEL>{0}</COL> passou.
+<string>Efeito de Melodia ativado!<lf><BOLD>{0}</BOLD>
+<string><BOLD>{0}</BOLD><lf>O Efeito de Melodia passou.
+<string>O efeito de<lf>{0} passou.
 <string>{0} está disponível agora.
 <string>Os efeitos da bebida gelada passaram.
 <string>Os efeitos da bebida quente passaram.
 <string>Não é possível designar como alvo da missão.<lf>Abra a tela de partida com <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
+<string>Abrir Informação da Campanha
+<string>Exibir prioridade de objetivo<lf>e selecionar uma campanha.
+<string>Abrir
 <string>Não é possível<lf>transformar {0} em alvo de missão.
-<string>Não é possível<lf>transformar {0} em alvo de missão. (RC muito baixo)
+<string>{0} não pode<lf>se tornar alvo de missão.<lf>(RC muito baixo.)
 <string>Alterado de Um Jogador Online<lf>para o modo Online.
 <string>Alterado para o modo Um Jogador Online.
 <string>Tempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">
@@ -133,23 +185,84 @@
 <string>Agradecemos sua participação no Teste Beta.<lf>Reserve já o jogo completo!
 <string>Abrir
 <string>Não é possível começar o Trabalho de Campo<lf>pois há Membros do Elo visualizando os<lf>Resultados da Missão.
-<string>Não é possível caçar {0} como parte<lf>de uma missão no seu progresso atual.
-<string>O efeito Bolha de Eco {0} foi ativado.
+<string>Não é possível caçar {0}<lf>como parte de uma missão no seu progresso atual.
+<string>Efeito de Bolha de Eco ativado!<lf>{0}
+<string>{0} foi entregue!
+<string>{0}
+<string>Novo prêmio obtido!
+<string>Título
+<string>Obteve <PLURAL {0} "um novo título" "{0} novos títulos">!
+<string>{0}
+<string>Nova placa de nome obtida!
+<string>{0}
+<string>Novo plano de fundo obtido!
+<string>Poogie não parece ter nada...
+<string>Uma nova caçada foi publicada.
+<string>Solicitação Limitada
+<string>{0}<lf>{1}/{2}
+<string>Solicitação Limitada
+<string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} concluído!</COLOR>
 <string>Atualização de Visão Geral do Ambiente
 <string>{0} apareceu.<lf>Com prêmios bônus raros!
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Campanha secundária concluída!<lf>Fale com {0}.
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Você pode relatar campanhas secundárias<lf>concluídas para o seu Amigato!
 <string>Abrir Mapa
 <string>O Grupo de Elo foi desfeito<lf>pois há apenas um membro.
 <string>Não foi possível entrar no Elo de Ambiente {0}.
 <string>Saiu do Elo de Ambiente {0}.
 <string>O Elo de Ambiente foi desfeito.
 <string>Falha ao entrar na missão.
+<string>Novas Opções de Equipamento de<lf>Acampamento desbloqueadas.
 <string>Os efeitos de refeição acabarão em breve.
+<string>Agora você pode instalar e personalizar<lf>Instatendas na Bacia Oleídea.
+<string>Agora você pode instalar e personalizar<lf>Instatendas nas Escarpas Frígidas.
+<string>Agora você pode instalar e personalizar<lf>Instatendas nas Ruínas de Serperia.
+<string>Atualização de Visão Geral do Ambiente
+<string>Uma missão com vários alvos está<lf>disponível. Eles estão afetando a vida<lf>das pessoas!
+<string>Abrir Mapa
+<string>Atualização de Visão Geral do Ambiente
+<string>Uma missão com vários alvos está<lf>disponível. Há mais prêmios bônus que<lf>o normal!
+<string>Abrir Mapa
 <string>Atualização de Visão Geral do Ambiente
 <string>Participe de missões com vários alvos<lf>para ganhar prêmios bônus raros!
 <string>Abrir Mapa
+<string>Você possui {0} <PLURAL {0} "nova mensagem" "novas mensagens">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Saiu do Grupo de Elo.
 <string>Movimento Manual
 <string>Movimento Automático
 <string>Exploração Automática
 <string>O modo Um Jogador Online<lf>foi desativado temporariamente.
+<string>{0} está indo<lf>para o Pico Trancagelado.
+<string>Você alcançou o Ranque de Caçador {0}!
+<string>Você não pode colocar o objeto que está<lf>carregando aqui.
 <string>O crossplay está atualmente habilitado.
+<string>Notificação de Esquadrão
+<string>Você recebeu um convite para entrar<lf>no esquadrão: <BOLD>{0}</BOLD>.
+<string>Notificação de Esquadrão
+<string>Você tem um pedido de esquadrão pendente.
+<string>Notificação de Esquadrão
+<string>Você recebeu um pedido de esquadrão para<lf><BOLD>{0}</BOLD>.
+<string>Notificação de Esquadrão
+<string>Você entrou no esquadrão<lf><BOLD>{0}</BOLD>.
+<string><BOLD>{1}</BOLD> entrou<lf>no esquadrão {0}.
+<string>Indicaram você como Sub-líder<lf>do esquadrão <BOLD>{0}</BOLD>.
+<string>Indicaram você como Líder do esquadrão<lf><BOLD>{0}</BOLD>.
+<string>Bônus de Login
+<string>O Bônus de Login de hoje está disponível<lf>no Menu Inicial.
+<string>Resgate Agora
+<string>Configuração de Equipamento Compartilhada
+<string>{0} compartilhou uma<lf>Configuração de Equipamento.
+<string>Configuração de Itens compartilhada
+<string>{0} compartilhou uma<lf>Configuração de Itens.
+<string>Configuração de Menu Radial Compartilhada
+<string>{0} compartilhou uma<lf>Configuração de Menu Radial.
+<string>A habilidade <BOLD>{0}</BOLD><lf>pode ser ativada.
+<string>Falha ao receber Configuração compartilhada
+<string>Falha ao receber pois o limite máximo<lf>de notificações de configuração<lf>compartilhada foi atingido.
+<string>Você tem um convite.<lf>Confira sua <BOLD>Lista de Convites</BOLD><lf>no menu inicial.
+<string>Você tem um Pedido de Participação.<lf>Verifique os <BOLD>Pedidos de Participação</BOLD><lf>no Menu Inicial.
+<string>Não foi possível iniciar a missão.

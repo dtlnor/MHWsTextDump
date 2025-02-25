@@ -13,6 +13,10 @@
 <string>Save Changes
 <string>Discard All Changes
 <string>Appearance Preset
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(Detailed Settings)
 <string>Starting Armor
 <string>Select your starting armor.
@@ -86,6 +90,7 @@
 <string>Eyebrow Shape
 <string>Eyebrow Color
 <string>Eyebrow Transparency
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>Brow Height
 <string>Inner Brow Height
 <string>Inner Brow Width
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>Eye Height
 <string>Eye Depth
 <string>Eye Separation
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>Teeth Color
 <string>Teeth Stain Color
 <string>Teeth Stain Transparency
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>Facial Length
 <string>Jaw Width
 <string>Jaw Rotation
@@ -173,6 +184,7 @@
 <string>Chin Length
 <string>Chin Depth
 <string>Facial Structure
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>Muscle Mass
 <string>Muscle Definition
 <string>Skin Color
@@ -295,6 +307,7 @@
 <string>Reset Settings
 <string>Reset all selected settings to their default?
 <string>Reset the selected appearance presets?
+<string>Save/Load
 <string>Confirm/Change Design
 <string>Design
 <string>Color Settings
@@ -306,6 +319,10 @@
 <string>Off
 <string>Default
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>Display Options
@@ -365,6 +382,94 @@
 <string>Right Blend Amount
 <string>   Skin Brightness
 <string>   Skin Saturation
+<string>Saved Designs
+<string>Design Name
+<string>Date Saved
+<string>Load
+<string>Save
+<string>Rename
+<string>Rearrange
+<string>Delete
+<string><ICON UI_SUB_MENU>Save
+<string>Design {0}
+<string>Change to this appearance?<lf><COLOR preset="TXT_Danger">Current edits will be lost.<lf>Save design data before changing to keep edits.</COLOR>
+<string>Your current settings include customizations<lf>that you don't own. Proceed and only apply<lf>possible edits?
+<string>Save the current character design?
+<string>Save the current character design?<lf><COLOR preset="TXT_Danger">(Will overwrite saved data.)</COLOR>
+<string>Select an entry to rearrange.
+<string>Select a destination.
+<string>Delete this character design?
+<string>Edit Seikret Decorations
+<string>Seikret Customization
+<string>Skin Color
+<string>Inner Feather Color
+<string>Outer Feather Color
+<string>Pattern Thickness
+<string>Pattern Color
+<string>Pattern Transparency
+<string>Eye Color
+<string>Edit Right Eye
+<string>Right Eye Color
+<string>Decoration Type
+<string>Pendant Type
+<string>Change Name
+<string>Allows you to change your Seikret's name.
+<string>Finish editing Seikret Decorations?
+<string>Finish customizing your Seikret?
+<string>Show Accessories
+<string>Enter your Seikret's name.<lf><lf><COLOR preset="TXT_Accent">The maximum number of characters is 15.</COLOR>
+<string>Edit Pop-up Camps
+<string>Customize Tent
+<string>Camp Gear Options
+<string>Flysheet Type
+<string>Flysheet Main Color
+<string>Flysheet Sub Color
+<string>Inner Tent Type
+<string>Inner Tent Main Color
+<string>Inner Tent Sub Color
+<string>Design 1
+<string>Design 2
+<string>This setting will precede "Design 1" when there is overlap.
+<string>Design 3
+<string>This setting will precede "Design 2" when there is overlap.
+<string>Design 1 Type
+<string>Design 2 Type
+<string>Design 3 Type
+<string>Design 1 Color
+<string>Design 2 Color
+<string>Design 3 Color
+<string>Flysheet Paint 1 Type
+<string>Flysheet Paint 2 Type
+<string>Flysheet Paint 3 Type
+<string>Inner Tent Paint 1 Type
+<string>Inner Tent Paint 2 Type
+<string>Inner Tent Paint 3 Type
+<string>Flysheet Paint 1 Color
+<string>Flysheet Paint 2 Color
+<string>Flysheet Paint 3 Color
+<string>Inner Tent Paint 1 Color
+<string>Inner Tent Paint 2 Color
+<string>Inner Tent Paint 3 Color
+<string>Transparency
+<string>Size
+<string>Horizontal Size
+<string>Vertical Size
+<string>Position
+<string>Horizontal Position
+<string>Vertical Position
+<string>Revert to Default
+<string>Reset your design settings to their default?
+<string>Swap Design Settings
+<string>Swap the current design with another design.
+<string>Flip Horizontally
+<string>Flip Vertically
+<string>Angle
+<string>Camp Gear (Large) 1
+<string>Camp Gear (Large) 2
+<string>Camp Gear (Small) 1
+<string>Camp Gear (Small) 2
+<string>Lantern Type
+<string>Finish editing Pop-up Camp?
 <string>Change Appearance
 <string>Finish editing appearance?
 <string>Edit Hunter
@@ -389,3 +494,35 @@
 <string>Create New Face with Similar Characteristics
 <string>Create Completely New Face
 <string>Use this face?
+<string><COLOR preset="TXT_Accent">Beta Test Data</COLOR>
+<string>Retrieve Beta test character data?
+<string>Uploads
+<string>Upload Design
+<string>Download Design
+<string>Upload and share design?
+<string>Design uploaded.<lf>Download code:<lf>{0}
+<string><COLOR preset="TXT_Danger">Error</COLOR><lf>Failed to upload design.
+<string><COLOR preset="TXT_Danger">Cannot upload any more designs.</COLOR>
+<string>View/Delete uploads
+<string>Uploaded design code:<lf>{0}<lf><lf>Note: Press "Yes" to delete upload.
+<string>Delete this design upload?
+<string>Design upload deleted.
+<string><COLOR preset="TXT_Danger">Error</COLOR><lf>Failed to delete design upload.
+<string><COLOR preset="TXT_Danger">Cannot upload design because it was downloaded.</COLOR>
+<string>Please enter a design code.<lf><lf><COLOR preset="TXT_Accent">Note: Codes are case-sensitive and<lf>use twelve alphanumeric characters.</COLOR>
+<string>Found the following design:<lf>{0}<lf>Creator<lf>Hunter ID: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>{0}<lf>The above design code could not be found.<lf>{1}
+<string>{0}<lf>Cannot be used because it is a hunter design.<lf>{1}
+<string>{0}<lf>Cannot be used because it is a Palico design.<lf>{1}
+<string>{0}<lf>Design cannot be used.<lf>{1}
+<string>Save Design
+<string>Change Appearance
+<string>Creator Info
+<string>Change to this appearance?<lf>Current edits will be lost.<lf>Save design data before changing to keep edits.
+<string>Your current settings include customizations<lf>that you don't own. Proceed and only apply<lf>possible edits?
+<string>{0}<lf>Creator<lf>Hunter ID: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>Quit downloading design?
+<string>The uploaded design was adjusted<lf>due to a server data matching check.
+<string><COLOR preset="TXT_Danger">Cannot do this because a design is being uploaded.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot do this because no character saved data exists.</COLOR>
+<string><COLOR preset="TXT_Danger">You must create a Hunter ID to do this.</COLOR>

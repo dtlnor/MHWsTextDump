@@ -1,4 +1,34 @@
-﻿<string>Lager aufstellen
+﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0001_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0004_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0004_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_005
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_007
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_008
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_009
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_010
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_011
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_012
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_005
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_007
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_008
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_009
+<string>Lager aufstellen
 <string>Lager entfernen
 <string>Schnellreparatur
 <string>Dies erfordert {0} <PLURAL {0} "Punkt" "Punkte">.<lf>Möchtest du fortfahren?
@@ -7,15 +37,16 @@
 <string>Möchtest du eine Sondergebühr von {0} Punkten<lf>ausgeben, um hier ein Feldlager zu errichten?
 <string>{0} Punkte für eine Schnellreparatur ausgeben?
 <string><COLOR preset="TXT_Danger">Fehler</COLOR><lf>Aufschlagen des Lagers nicht möglich, da sich<lf>die Umweltbedingungen geändert haben.
-<string><COLOR preset="TXT_Danger">Fehler</COLOR><lf>Das gewählte Feldlager ist bereits repariert.
+<string><COLOR preset="TXT_Danger">Fehler</COLOR><lf>Schnellreparatur ist nicht verfügbar, da das<lf>gewählte Feldlager bereits repariert ist.
 <string>Sicher
 <string>Unsicher
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0200_02
 <string>Gefährlich
-<string>Sicherheitsstufe
-<string>{0}: Lager-Slots übrig
+<string>Gefahrenstufe
+<string>Lager-Slots ({0}):
 <string>Kosten
 <string>Schnellreparatur-Kosten
 <string>Sondergebühr
-<string>Lager aufgeschlagen
-<string><COLOR preset="TXT_Danger">Nicht genügend Gildenpunkte.</COLOR>
+<string>Lager steht
+<string><COLOR preset="TXT_Danger">Du hast nicht genügend Gildenpunkte.</COLOR>
 <string><COLOR preset="TXT_Danger">Es können keine Lager mehr aufgeschlagen werden.</COLOR>

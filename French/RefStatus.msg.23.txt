@@ -16,6 +16,7 @@
 <string>Infos joyaux
 <string>Aucun joyau
 <string>Aucun emplacement
+<string>Aucun
 <string>Détails niveaux
 <string>Niveau de talent
 <string>Conditions
@@ -79,24 +80,31 @@
 <string>Fiole élémentaire
 <string>Niveau kinsecte
 <string>Munitions de base
-<string>Mods
-<string>Munitions spéciales
+<string>Modifs
+<string>Tir spécial
 <string><REF RefEquipment_0007_03_00>
 <string><REF RefEquipment_0007_03_01>
-<string>Récup combustion
+<string>Récup Combustion
 <string>Nv 1
 <string>Nv 2
 <string>Nv 3
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_008_00
 <string>Standard/Combustion : Base
 <string>Standard : Spécial I
 <string>Standard : Spécial II
 <string>Combustion : Spécial I
 <string>Combustion : Spécial II
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_009_00
 <string><REF RefEquipment_0007_00_00>
 <string><REF RefEquipment_0007_00_01>
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_010_00
 <string><REF RefEquipment_0007_01_00>
 <string><REF RefEquipment_0007_01_01>
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_011_00
 <string><REF RefEquipment_0007_02_00>
+<string>Bonus de production
+<string>Type d'élément
+<string>Bonus renforcement
 <string>Mélodies
 <string>Type d'attaque
 <string>Contondant
@@ -112,13 +120,13 @@
 <string>Puissance
 <string>Vitesse
 <string>Endurance
-<string>Renforcement kinsecte : extraire
-<string>Combo kinsecte renforcé : élément
-<string>Bonus d'attaque : poudre
-<string>Bonus kinsecte : récupération endurance
-<string>Extrait renforcé : récupération
-<string>Renforcement kinsecte : charge rapide
-<string>Bonus d'attaque : viser point faible
+<string>Boost kinsecte : extraction
+<string>Boost combo kinsecte : élément
+<string>Boost attaque : poudre
+<string>Boost kinsecte : récup endurance
+<string>Boost extrait : récupération
+<string>Boost kinsecte : charge rapide
+<string>Boost attaque : point faible
 <string>Infos munitions
 <string>Tir rapide
 <string>Capacité
@@ -142,6 +150,11 @@
 <string>Balistépine
 <string>Mélodie de puissance
 <string>Mélodie de protection
+<string>Attirer les vitaguêpes
+<string>Cage à flashinsecte
+<string>Renaissance de vitaguêpe
+<string>Rath-des-cieux
+<string>Chaparang
 <string>Si ta vie est basse, je t'enverrai<lf>une vitaguêpe ! Mais attention,<lf>je ne pourrai plus en envoyer<lf>pendant un certain temps ensuite.
 <string>J'attirerai l'attention d'un<lf>monstre avec un bouclier<lf>spécial qui fait du bruit ! Ça te<lf>donnera le temps de te mettre<lf>en position ou d'attaquer.
 <string>Je peux t'envoyer une curaguêpe<lf>pour te guérir des fléaux et des<lf>afflictions. En cas de problème,<lf>je suis là pour te sauver le pelage,<lf>alors concentre-toi sur la chasse !
@@ -149,4 +162,26 @@
 <string>Je vais tirer des munitions<lf>épineuses spéciales avec ma<lf>fidèle baliste Felyne ! Si tout<lf>se passe bien, cela devrait<lf>pouvoir créer une blessure.
 <string>Pour renforcer tes attaques pile<lf>au bon moment, je jouerai cette<lf>mélodie de puissance ! Ça te<lf>donnera de la force, c'est sûr.
 <string>C'est normal d'avoir peur d'affronter<lf>un adversaire contre lequel on a<lf>perdu. Mais ne t'en fais pas, ma<lf>mélodie de protection va renforcer<lf>ta défense et te protéger !
+<string>Je vais utiliser un parfum spécial<lf>pour attirer les vitaguêpes !<lf>Elles viendront même là où<lf>on ne les voit pas d'habitude.<lf>Ça sent vraiment si bon ?
+<string>Je vais placer une cage à<lf>flashinsectes à utiliser au besoin !<lf>Ils aveuglent les monstres,<lf>mais cela en rend certains<lf>plus agressifs, alors attention !
+<string>N'abandonne jamais, même si tu es<lf>au plus mal. Je serai toujours là pour<lf>te ranimer avec une vitaguêpe !<lf>Le hic, c'est que je ne peux pas la<lf>réutiliser tout de suite et qu'elle ne<lf>restaure qu'une partie de la vie.
+<string>Gemma et moi avons achevé<lf>notre chef-d'œuvre :<lf>Rath-des-cieux ! Comme ça,<lf>je vais pouvoir fournir un tir<lf>de couverture. Et peut-être<lf>même abattre une wyverne !
+<string>À court de matériaux ? Je suis là !<lf>Voici le Chaparang : un boomerang<lf>qui me permet de chiper des<lf>matériaux aux monstres !
+<string>Je peux fournir de meilleures<lf>vitaguêpes qui rendent plus<lf>de vie et, si je m'y prends bien,<lf>s'abattent en essaim !
+<string>Maintenant que je maîtrise ce bouclier,<lf>je peux détourner l'attention des<lf>monstres plus longtemps et aussi<lf>contre-attaquer !
+<string>C'est nul, les afflictions, hein ?<lf>Mais j'ai deux curaguêpes sous<lf>la patte... Je peux les envoyer<lf>l'une après l'autre s'il le faut !
+<string>Les Felynes ont réussi à améliorer<lf>le gland électrochoc. Je peux l'utiliser<lf>plus souvent maintenant. Ça devrait<lf>être utile !
+<string>Je peux utiliser la balistépine<lf>plus longtemps, maintenant.<lf>Alors, même si je rate ma cible,<lf>je peux continuer à tirer !
+<string>J'ai fait des progrès à la<lf>champi-corne ! Mes chansons te<lf>donneront encore plus de force<lf>et pendant plus longtemps !
+<string>Quel talent ! Mes chansons sont<lf>encore plus efficaces. Si tu combats<lf>un ennemi deux fois, je peux<lf>augmenter et prolonger ta défense !
+<string>J'ai enfin appris à attirer<lf>les grandes vitaguêpes !<lf>*sniff sniff*<lf>Oui, ça sent vraiment bon !
+<string>Pratiques, ces cages à flashinsectes,<lf>hein ? J'ai trouvé une façon d'en<lf>poser plus souvent. Essaie de les<lf>utiliser au bon moment !
+<string>Ça, c'est de la vitalité ! Je peux<lf>te rendre encore plus de vie grâce<lf>aux vitaguêpes. Mais ne fais pas<lf>n'importe quoi, miaou !
+<string>J'ai amélioré le Rath-des-cieux !<lf>Je peux maintenant fondre sur<lf>un monstre avant de retomber<lf>au sol. Ça va leur filer un coup !
+<string>J'ai fait des progrès avec le Chaparang,<lf>et ça, ça veut dire plus de butin !<lf>J'espère pouvoir obtenir les matériaux<lf>qu'il te faut.
 <string>Habileté
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0000_SP_037
+<string>Amélioration obtenue
+<string>Bonus tranchant
+<string>Prêt à tirer
+<string>+{0}

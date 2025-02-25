@@ -7,6 +7,7 @@
 <string>正在確認伺服器連線……
 <string>發生通訊錯誤。<lf>{0}
 <string>發生通訊錯誤，將返回標題畫面。<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>線上多人遊玩功能已受到限制。<lf><lf>若要線上多人遊玩，請加入{0}。
 <string>此帳戶未滿足多人遊玩的條件。
 <string>無法連接至網路，將返回標題畫面。
@@ -19,6 +20,10 @@
 <string>由於一段時間內未操作，已切換至單人線上模式。<lf>遊戲會繼續運作。<lf>{0}
 <string>已成為獵人好友，或是已邀請成為獵人好友，<lf>因此發送失敗。<lf>{0}
 <string>您或對方的獵人好友數已達到上限，因此發送失敗。<lf>{0}
+<string>已達到獵人好友數量上限，無法再登錄。<lf>{0}
+<string>對方的獵人好友數已達到上限，因此發送失敗。<lf>{0}
+<string>已達到獵人好友邀請數上限，無法再邀請。<lf>{0}
+<string>對方的獵人好友數邀請已達到上限，因此發送失敗。<lf>{0}
 <string>已追蹤此玩家。<lf>{0}
 <string>已達到追蹤數上限，無法再追蹤。<lf>{0}
 <string>正在重置網路……
@@ -26,8 +31,19 @@
 <string>獵人資訊已被覆寫。此保存資料仍可使用，<lf>但獵人好友、追蹤清單、追蹤者清單和所屬<lf>小隊等資料已被重置。
 <string>此玩家已是連結隊伍成員。<lf>{0}
 <string>已達到連結隊伍邀請數上限，無法再邀請。<lf>{0}
+<string>對方的連結隊伍邀請數已達到上限，因此發送失敗。<lf>{0}
 <string>現在無法檢舉。請稍待一段時間後重試。<lf>{0}
 <string>此帳戶無法遊玩本遊戲。
+<string>未持有公開測試版的角色編輯資料。<lf>{0}
+<string>無法取得公開測試版的角色編輯資料。<lf>{0}
+<string>已邀請至連結隊伍。<lf>{0}
+<string>無法取得帳戶的成就資訊。<lf>請確認網路連接和帳戶登入狀況有否出現問題。<lf>{0}
+<string>此帳戶無法上傳設計資料。<lf>{0}
+<string>此帳戶無法分享個人組合。<lf>{0}
+<string>無法發出救難訊號。<lf>{0}
+<string>此功能正處於維護狀態。<lf>請稍待一段時間後重試。<lf>{0}
+<string>已達到封鎖數上限，無法再封鎖。<lf>{0}
+<string>現在正進行伺服器維護。<lf>{0}
 <string>和連線區連線中斷，無法繼續參加連線區。<lf>{0}
 <string>無法建立連線區。<lf>{0}
 <string>無法搜尋連線區。<lf>{0}
@@ -49,6 +65,9 @@
 <string>已加入連結隊伍。
 <string>伺服器繁忙，請稍後再試。
 <string>此遊戲模式支援跨平台遊玩。
+<string>基於對方的跨平台遊玩設定，無法參加此連線區。<lf>{0}
+<string>跨平台遊玩設定與連線區不同，無法參加。<lf>請於標題選單畫面的「設定」確認跨平台遊玩設定。<lf>{0}
+<string>已達到連結隊伍人數上限，無法再邀請。<lf>{0}
 <string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>已確認您的帳戶出現<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款。</COLOR>
 <string>騷擾行為
 <string>疑似騷擾行為
@@ -61,6 +80,23 @@
 <string>請再次確認並更新您可編輯的獵人簡介與小隊留言等文字內容。<lf>若未更新文字內容，或再次使用違反使用條款的內容，有可能導致<lf>帳戶受到永久限制。
 <string>此外，您目前設定的獵人名字或隨從名字將自動變更為<lf>預設內容（「獵人」/「隨從艾路」）。
 <string><COLOR preset="TXT_Danger">永久停用帳戶</COLOR><lf><lf>已確認您的帳戶出現違反使用條款的行為，因此<COLOR preset="TXT_Danger">已永久停用帳戶。</COLOR><lf><lf>今後無法以此帳戶於線上遊玩《<REF RefGeneral_0000_0000_00>》。<lf>此外，根據使用條款，恕不接受帳戶永久停用的解除申請，<lf>敬請見諒。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現騷擾行為</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生類似行為，將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現違反使用條款的聊天訊息</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生類似行為，將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當自訂留言</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>請再次確認並更新獵人簡介的自訂留言。<lf>如不更新自訂留言或反覆更新至違反使用條款的內容，<lf>將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當小隊留言</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>該小隊留言已被刪除。您可再次更新留言，<lf>但若反覆更新至違反使用條款的內容，<lf>將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當行為</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當文字內容</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>另外，向其他玩家顯示是次警告對象的不恰當文字時，<lf>將改為顯示預設內容（「獵人」/「隨從艾路」等）。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現違反使用條款及最終用戶<lf>使用許可契約的行為</COLOR>，<COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣或類似行為，將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR>
+<string><COLOR preset="TXT_Danger">永久停用帳戶</COLOR><lf><lf>已確認您的帳戶出現違反使用條款及最終用戶使用許可契約<lf>的行為，因此<COLOR preset="TXT_Danger">已永久停用帳戶。</COLOR><lf><lf>今後無法以此帳戶於線上遊玩《<REF RefGeneral_0000_0000_00>》。<lf>此外，根據使用條款及最終用戶使用許可契約，恕不接受<lf>帳戶永久停用的解除申請，敬請見諒。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於您的帳戶<COLOR preset="TXT_Danger">出現疑似騷擾行為</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣行為或確認發生類似行為，<lf>將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR><lf>另外，如對疑似騷擾行為有任何疑問，請以諮詢表聯絡我們。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於您的帳戶<COLOR preset="TXT_Danger">出現疑似不恰當發言或文字內容</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣行為或確認發生類似行為，<lf>將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR><lf>另外，如對疑似騷擾行為有任何疑問，請以諮詢表聯絡我們。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於您的帳戶<COLOR preset="TXT_Danger">出現疑似違反使用條款及最終用戶使用許可契約<lf>的行為</COLOR>，<COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣行為或確認發生類似行為，<lf>將有可能導致帳戶永久受限制。<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款及最終用戶使用許可契約。</COLOR><lf>另外，如對疑似騷擾行為有任何疑問，請以諮詢表聯絡我們。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現騷擾行為</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣或類似行為，將有可能導致帳戶永久受限制。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當聊天訊息</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣或類似行為，將有可能導致帳戶永久受限制。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當行為</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR>
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於已確認您的帳戶<COLOR preset="TXT_Danger">出現不恰當文字內容</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>另外，向其他玩家顯示是次警告對象的不恰當文字時，<lf>將改為顯示預設內容（「獵人」/「隨從艾路」等）。
+<string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由於您的帳戶<COLOR preset="TXT_Danger">出現違規行為</COLOR>，<COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf><lf>如反覆發生同樣或類似行為，將有可能導致帳戶永久受限制。
+<string><COLOR preset="TXT_Danger">永久停用帳戶</COLOR><lf><lf>已確認您的帳戶出現作弊行為，因此<COLOR preset="TXT_Danger">已永久停用帳戶。</COLOR><lf>今後無法以此帳戶遊玩《<REF RefGeneral_0000_0000_00_OBT>》。<lf><lf>此外，公開測試期間恕不接受帳戶永久停用的解除申請，敬請見諒。
 <string>將參加連結隊伍，要變更保存資料嗎？<lf><COLOR preset="TXT_Danger">（如變更保存資料，將失去尚未儲存的內容）</COLOR>
 <string>以現在的保存資料參加
 <string>重新選擇保存資料參加
@@ -69,9 +105,22 @@
 <string>無法發送邀請。<lf>{0}
 <string>連結隊伍功能尚未開放，無法參加。
 <string>要開啟邀請好友畫面，邀請對方加入連結隊伍嗎？
+<string>要一起遊玩Monster Hunter Wilds嗎？
 <string>要一起遊玩Monster Hunter Wilds Beta test嗎？
+<string>已接受邀請。<lf><COLOR preset="TXT_Accent">（將於過場動畫播放完結、載入完成<lf>或設定操作結束後開始）</COLOR>
+<string>無法使用線上功能，因此無法參加連結隊伍。
+<string>將以離線模式開始遊戲。<lf><lf>若要線上多人遊玩，需要同意提供個人資訊。<lf>若不同意提供個人資訊也能遊玩遊戲本篇，但功能會受限。<lf><lf>以標題選單畫面的「隱私」就可變更本設定。
+<string>線上多人遊玩已受制。<lf><lf>若要線上多人遊玩，需要同意提供個人資訊。<lf>本設定可在標題選單畫面的「隱私」變更。<lf>{0}
 <string>正在等待其他使用者參加……
 <string>開始前請稍候片刻。<lf><lf>工作人員發出開始信號後，就可開始遊戲。
 <string>出發
 <string>發生錯誤，請通知附近工作人員。
 <string>無法取得發布資料。<lf>{0}
+<string>{0}<lf>搜尋小隊失敗。<lf>{1}
+<string>小隊邀請或申請已超出上限。<lf>{0}
+<string>無法加入小隊。<lf>{0}
+<string>無法啟動小隊。<lf>請重新檢查該小隊的設定。<lf>{0}
+<string>{0}<lf>該小隊資訊不存在。<lf>{1}
+<string>無法完成小隊手續。<lf>{0}
+<string>對方的所屬小隊數已達到上限，因此發送失敗。<lf>{0}
+<string>由於小隊成員超過一定數量，現在可利用<lf>較大的小隊大廳，讓更多成員聚集。<lf><lf>目前所在的大廳將會被解散，請於大廳移動選單<lf>選擇並使用新小隊大廳。

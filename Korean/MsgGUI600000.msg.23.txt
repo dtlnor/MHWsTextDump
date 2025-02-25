@@ -5,7 +5,7 @@
 <string>세크레트는 목적지로 자동 이동한다.<lf><ICON PL_DUMMY_MOVE>: 임의의 방향으로도 이동 가능
 <string>세크레트는 목적지로 자동 이동한다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: 임의의 방향으로도 이동 가능
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_106_000">
-<string>'구조신호' 쪽으로 기울이고 <ICON UI_SHORTCUT_ITEM_USE> 놓기
+<string>'구조신호' 쪽으로 기울이고 <ICON UI_SHORTCUT_ITEM_USE_DUMMY> 놓기
 <string>'구조신호' 쪽으로 기울이고 <ICON UI_SHORTCUT_ITEM_USE> 누르기
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_106_001">
 <string>'구조신호' 쪽으로 기울인다
@@ -23,20 +23,115 @@
 <string>'숫돌' 쪽으로 기울인다
 <string>'숫돌' 쪽으로 기울이고 <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>자동 이동 중 <ICON PL_DUMMY_MOVE>로 매뉴얼 조작도 가능.<lf><ICON PL_PT_CALL>나, 일정 시간이 경과하면 다시<lf>자동 이동으로 돌아간다.
-<string>자동 이동 중 <ICON PL_MOVE_FRONT><lf><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>로 매뉴얼 조작도 가능. <ICON PL_PT_CALL>나,<lf>일정 시간 후 자동 이동으로 돌아간다.
+<string>자동 이동 중 <ICON PL_DUMMY_MOVE>로 수동 조작도 가능.<lf><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>나, 일정 시간이 경과하면 다시<lf>자동 이동으로 돌아간다.
+<string>자동 이동 중 <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>로 수동<lf>조작도 가능. <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>나,<lf>일정 시간 후 자동 이동으로 돌아간다.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>물고기 반응을 살피면서 <ICON PL_DUMMY_MOVE>으로<lf>루어를 적절히 움직여<lf>물고기가 물도록 유인해보자.
+<string>물고기 반응을 살피면서 <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>으로<lf>루어를 적절히 움직여<lf>물고기가 물도록 유인해보자.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>'대물 낚시'는 물고기와의 진검승부다.<lf>물고기가 저항하면 헤엄치는 방향으로<lf><ICON PL_DUMMY_MOVE>을 움직여 낚싯줄의 저항을 줄여보자.
+<string>'대물 낚시'는 물고기와의 진검승부다.<lf>물고기가 저항하면 헤엄치는 방향으로<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>으로 움직여 낚싯줄의 저항을 줄여보자.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>물고기가 지쳐 움직임이<lf>둔해질 때를 노리자! <ICON PL_DUMMY_MOVE>을 위아래로<lf>움직여 낚싯줄을 감아올리자.
+<string>물고기가 지쳐 움직임이<lf>둔해질 때를 노리자! <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>으로 위아래로<lf>움직여 낚싯줄을 감아올리자.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>물고기가 저항하면 헤엄치는 방향과 반대로<lf><ICON PL_DUMMY_MOVE>을 움직여 물고기의 움직임을 제어하고<lf>바위 근처는 피하자.
+<string>물고기가 저항하면 헤엄치는 방향과 반대로<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 움직여 물고기의 움직임을 제어하고<lf>바위 근처는 피하자.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>이때 물고기가 뛰어오른 방향으로<lf><ICON PL_DUMMY_MOVE>을 기울이고 <ICON PL_SLINGER_SHOOT>을 누르면<lf>낚싯대를 눕혀 물고기를 제어한다.
+<string>이때 물고기가 뛰어오른 방향으로<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 기울이고 <ICON PL_SLINGER_SHOOT>을 누르면<lf>낚싯대를 눕혀 물고기를 제어한다.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">빨리 감기 </COLOR>: 빠르게 <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">천천히 감기 </COLOR>: 천천히 <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">저킹 </COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE> 반복
 <string><COLOR preset="TXT_Accent">빨리 감기 </COLOR>:  빠르게 <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">천천히 감기 </COLOR>:  천천히<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">저킹 </COLOR>:  <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK> 떼기를 반복
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
-<string><COLOR preset="TXT_Accent">물고기와 장애물 떨어뜨리기</COLOR><lf>　: <ICON PL_DUMMY_MOVE>을 장애물과 역방향으로 움직이기
-<string><COLOR preset="TXT_Accent"> 물고기와 장애물 떨어뜨리기</COLOR><lf>: <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 장애물과 역방향으로 입력
+<string><COLOR preset="TXT_Accent">물고기와 장애물 떨어뜨리기</COLOR> : <ICON PL_DUMMY_MOVE>을<lf>장애물과 역방향으로 움직이기
+<string><COLOR preset="TXT_Accent"> 물고기와 장애물 떨어뜨리기</COLOR> : <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을<lf>장애물과 역방향으로 입력
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
-<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE>을 연속 입력하면 해제에 걸리는 시간이 단축된다.
-<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 연속 입력하면 해제에 걸리는 시간이 단축된다.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE>을 연속 입력하면<lf>해제에 걸리는 시간이 단축된다.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 연속 입력하면<lf>해제에 걸리는 시간이 단축된다.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_120>
-<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE>을 연속 입력하면 해제에 걸리는 시간이 단축된다.
-<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 연속 입력하면 해제에 걸리는 시간이 단축된다.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE>을 연속 입력하면<lf>해제에 걸리는 시간이 단축된다.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 연속 입력하면<lf>해제에 걸리는 시간이 단축된다.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
-<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE>을 연속 입력하면 해제에 걸리는 시간이 단축된다.
-<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 연속 입력하면 해제에 걸리는 시간이 단축된다.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE>을 연속 입력하면<lf>해제에 걸리는 시간이 단축된다.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>을 연속 입력하면<lf>해제에 걸리는 시간이 단축된다.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE> 연속 입력, 세정제 사용 시 해제.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> 연속 입력, <lf>세정제 사용 시 해제.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_DUMMY_MOVE> 연속 입력, 세정제 사용 시 해제.
+<string>일정 시간 행동 불능이 된다.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> 연속 입력,<lf>세정제 사용 시 해제.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string>빨리 감기: <ICON PL_DUMMY_MOVE>을<lf>위아래로 빠르게 움직인다.
+<string>빨리 감기: <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>으로<lf>위아래로 빠르게 움직인다.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string>천천히 감기: <ICON PL_DUMMY_MOVE>을<lf>위아래로 천천히 움직인다.
+<string>천천히 감기: <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>으로<lf>위아래로 천천히 움직인다.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string>저킹: <ICON PL_DUMMY_MOVE>을 아래로 계속 움직인다.
+<string>저킹: <ICON PL_MOVE_BACK>으로 아래로 계속 움직인다.
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>콘텐츠 수신, 알림,<lf>온라인 스토어 등 다양한<lf>온라인 기능을 이용할 수 있다.<lf><COLOR preset="TXT_Accent">추후 다른 서비스도 추가될 예정이다.</COLOR>
+<string>콘텐츠 수신, 알림, Steam Store<lf>등 온라인 기능을 이용할 수 있다.<lf><COLOR preset="TXT_Accent">추후 다른 서비스도 추가될 예정이다.</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>: 아이템 선택<lf><ICON PL_ITEM_SLIDER_OPEN> 을 뗀 후, <ICON PL_ITEM> : 아이템 사용
+<string><ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>: 아이템 선택<lf><ICON PL_ITEM>: 아이템 사용
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>: 아이템 선택<lf><ICON PL_ITEM_SLIDER_OPEN> 을 뗀 후, <ICON PL_ITEM> : 아이템 사용
+<string><ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>: 아이템 선택<lf><ICON PL_ITEM>: 아이템 사용
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string><ICON PL_WEAPON_CHANGE>로 메인 무기와 서브 무기를 교체하자
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_WEAPON_CHANGE>로 메인 무기와 서브 무기를 교체하자
+<string><ICON PL_WEAPON_CHANGE>로 메인 무기와 서브 무기를 교체하자
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_WEAPON_CHANGE>로 메인 무기와 서브 무기를 교체하자
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>힘이 다했을 때 추가 지급품이 도착한다.<lf><ICON PL_ACCESS_ITEM_BAG>로 확인하자.
+<string>힘이 다했을 때 추가 지급품이 도착한다.<lf><ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_ACCESS_ITEM_BAG>으로 확인하자.
+<string>힘이 다했을 때 추가 지급품이 도착한다.<lf><ICON PL_ACCESS_ITEM_BAG>로 확인하자.
+<string>힘이 다했을 때 추가 지급품이 도착한다.<lf><ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_ACCESS_ITEM_BAG>으로 확인하자.
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>몬스터가 이동했을 때는 <ICON PL_WEAPON_OFF>: 무기를 넣고,<lf><ICON PL_DASH_TOGGLE>: 대시로 쫓아가자.
+<string>몬스터가 이동했을 때는 <ICON PL_WEAPON_OFF>: 무기를 넣고,<lf><ICON PL_DASH>: 대시로 쫓아가자.
+<string>몬스터가 이동했을 때는 <ICON PL_WEAPON_OFF>: 무기를 넣고,<lf><ICON PL_DASH>or<ICON PL_DASH_TOGGLE>: 대시로 쫓아가자.
+<string>몬스터가 이동했을 때는 <ICON PL_WEAPON_OFF>: 무기를 넣고,<lf><ICON PL_DASH>: 대시로 쫓아가자.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>무기 교체는 <ICON PL_WEAPON_CHANGE>로 가능.<lf>세크레트가 달려오면 무기 가방의<lf><COLOR preset="TXT_Accent">서브 무기</COLOR>로 교체할 수 있다.
+<string>무기 교체는 <ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_WEAPON_CHANGE>로 가능.<lf>세크레트가 달려오면 무기 가방의<lf><COLOR preset="TXT_Accent">서브 무기</COLOR>로 교체할 수 있다.
+<string>무기 교체는 <ICON PL_WEAPON_CHANGE>로 가능.<lf>세크레트가 달려오면 무기 가방의<lf><COLOR preset="TXT_Accent">서브 무기</COLOR>로 교체할 수 있다.
+<string>무기 교체는 <ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_WEAPON_CHANGE>로 가능.<lf>세크레트가 달려오면 무기 가방의<lf><COLOR preset="TXT_Accent">서브 무기</COLOR>로 교체할 수 있다.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string><ICON PL_PT_CALL>을 눌러 <COLOR preset="TXT_Accent">세크레트</COLOR>에 타면<lf>목표 지점까지 자동 이동할 수 있다.
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_PT_CALL>을 눌러 <COLOR preset="TXT_Accent">세크레트</COLOR>에 타면<lf>목표 지점까지 자동 이동할 수 있다.
+<string><ICON PL_PT_CALL>을 눌러 <COLOR preset="TXT_Accent">세크레트</COLOR>에 타면<lf>목표 지점까지 자동 이동할 수 있다.
+<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_PT_CALL>을 눌러 <COLOR preset="TXT_Accent">세크레트</COLOR>에 타면<lf>목표 지점까지 자동 이동할 수 있다.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>퀘스트 시작 시 아이템이 지급되며<lf>언제든지 <ICON PL_ACCESS_ITEM_BAG>로 받을 수 있다.<lf><COLOR preset="TXT_Accent">지급품</COLOR>은 사냥 상황에 따라 추가된다.
+<string>퀘스트 시작 시 아이템이 지급되며<lf>언제든지 <ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_ACCESS_ITEM_BAG>로 받을 수 있다.<lf><COLOR preset="TXT_Accent">지급품</COLOR>은 사냥 상황에 따라 추가된다.
+<string>퀘스트 시작 시 아이템이 지급되며<lf>언제든지 <ICON PL_ACCESS_ITEM_BAG>로 받을 수 있다.<lf><COLOR preset="TXT_Accent">지급품</COLOR>은 사냥 상황에 따라 추가된다.
+<string>퀘스트 시작 시 아이템이 지급되며<lf>언제든지 <ICON PL_ITEM_SLIDER_OPEN>+<ICON PL_ACCESS_ITEM_BAG>로 받을 수 있다.<lf><COLOR preset="TXT_Accent">지급품</COLOR>은 사냥 상황에 따라 추가된다.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>적정 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP13 PL_ITEM_SLIDER_OPEN>+<ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>적정 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>적정 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>적정 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>적정 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>최적의 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP12 PL_ITEM_SLIDER_OPEN>+<ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>최적의 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>최적의 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP12 PL_ITEM_SLIDER_OPEN>+<ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>최적의 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string>최적의 거리는 탄에 따라 다르다.<lf>장전 중인 탄을 변경하고자 할 때는,<lf><ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>으로 장전할 탄을 선택하자.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string>장전할 병은<lf><ICON WP11 PL_ITEM_SLIDER_OPEN>+<ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>으로 변경할 수 있다.<lf>(변경 가능한 병은 무기에 따라 다르다)
+<string>장전할 병은<lf><ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>으로 변경할 수 있다.<lf>(변경 가능한 병은 무기에 따라 다르다)
+<string>장전할 병은<lf><ICON WP11 PL_ITEM_SLIDER_OPEN>+<ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>으로 변경할 수 있다.<lf>(변경 가능한 병은 무기에 따라 다르다)
+<string>장전할 병은<lf><ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>으로 변경할 수 있다.<lf>(변경 가능한 병은 무기에 따라 다르다)
+<string>장전할 병은<lf><ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>으로 변경할 수 있다.<lf>(변경 가능한 병은 무기에 따라 다르다)

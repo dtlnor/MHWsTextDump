@@ -1,4 +1,34 @@
-﻿<string>Разбить лагерь
+﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0001_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0004_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0004_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_005
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_007
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_008
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_009
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_010
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_011
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_012
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_005
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_007
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_008
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_009
+<string>Разбить лагерь
 <string>Свернуть лагерь
 <string>Быстрое восстановл.
 <string>Вы потратите {0} оч.<lf>Продолжить?
@@ -7,15 +37,16 @@
 <string>Хотите потратить {0} оч. и разбить<lf>в этом месте временный лагерь?
 <string>Хотите потратить {0} оч. и выполнить<lf>быстрое восстановление?
 <string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Нельзя разбить лагерь, так как<lf>окружающие условия изменились.
-<string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Выбранный временный лагерь уже восстановлен.
+<string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Быстрое восстановление недоступно,<lf>потому что выбранный временный лагерь уже<lf>восстанавливается.
 <string>Безопасно
 <string>Рискованно
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0200_02
 <string>Опасно
 <string>Ур. безоп.
-<string>Можно разбить ещё <PLURAL {0} "{0} лагерь" "{0} лагеря" "{0} лагерей">
+<string>{0}: можно разбить
 <string>Цена
 <string>Цена быстрого восст.
 <string>Особая наценка
 <string>Уже разбит
-<string><COLOR preset="TXT_Danger">Не хватает очков Гильдии.</COLOR>
+<string><COLOR preset="TXT_Danger">Недостаточно очков Гильдии.</COLOR>
 <string><COLOR preset="TXT_Danger">Нельзя разбить больше лагерей.</COLOR>

@@ -47,13 +47,14 @@
 <string>퀘스트 리더가<lf>구조신호를 정지했습니다
 <string>음성 채팅을<lf><REF RefNetwork_0004_02>로 전환했습니다
 <string>음성 채팅을<lf><REF RefNetwork_0004_01>로 전환했습니다
+<string><REF Facility_NAME_1472590464>에서 세일 개최 중!
 <string>새로운 퀘스트가 잠금 해제되었습니다.
 <string>{0} 님에게<lf>퀘스트 리더를 맡겼습니다.
 <string>퀘스트 리더를<lf>맡았습니다.
 <string>{0} 님에게<lf>링크 파티 리더를 맡겼습니다.
 <string>링크 파티 리더를<lf>맡았습니다.
-<string>{0} 님에게<lf>비공개 로비 권한을 이양했습니다.
-<string>비공개 로비 권한이<lf>이양되었습니다.
+<string>{0} 님에게<lf>비공개 로비 권한을 위임했습니다.
+<string>비공개 로비 권한을<lf>위임했습니다.
 <string>지급품 전용 아이템을 반환합니다.
 <string>알림
 <string>오프라인 중에 도착한 알림이<lf>{0}건 있습니다.
@@ -62,12 +63,24 @@
 <string>헌터 친구 신청
 <string>{0} 님이<lf>헌터 친구로 초대했습니다.
 <string>{0} 님과<lf>헌터 친구가 되었습니다.
+<string>울타리 조작 스위치를<lf>사용할 수 있습니다.
+<string>울타리 준비 완료까지<lf>{0}분 남았습니다.
+<string>울타리 준비 완료까지<lf>{0}초 남았습니다.
+<string>지원 선박이 도착했습니다.
+<string>지원 선박의 출발일이<lf>얼마 남지 않았습니다.
+<string>지원 선박이 출발했습니다.
+<string>격운 티켓 사용 ({0}장 남음)
+<string>퀘스트 보수 라인업 추첨과<lf>보수금에 보너스가 부여됩니다.
+<string>사용하기
+<string>격운 티켓 사용을 접수했습니다.
 <string>환경 링크 멤버가 사냥 중입니다.
 <string>{0}의<lf>현지 조사 퀘스트를 시작합니다.
 <string>실행 안 함
 <string>지급품이 보충되었습니다.<lf>(<INPUTMSG MsgGUI020100_0011> 지급품 확인)
 <string>서포트 헌터 {0}(이)가<lf>퀘스트에 합류했습니다.
 <string>서포트 헌터 {0}(이)가<lf>퀘스트에서 이탈했습니다.
+<string>새로운 격투대회 퀘스트가<lf>잠금 해제되었습니다.
+<string>지금까지 본 이벤트 장면은<lf>타이틀 화면의 갤러리에서<lf>감상할 수 있습니다.
 <string>목적지를 메인 타겟으로 변경했습니다.
 <string>목적지로 삼은 타겟이 사라져<lf>메인 타겟을 새로운 목적지로<lf>설정했습니다.
 <string>목적지로 삼은 타겟이 사라졌습니다.
@@ -75,15 +88,34 @@
 <string>퀘스트에 실패했습니다.
 <string>퀘스트 초대(수주 가능으로 재제안)
 <string>{0} 님의<lf>퀘스트 초대를 수주할 수<lf>있게 되었습니다.
+<string>{0}(을)를 {1}개<lf>건네주었습니다.
 <string>고정 아이템<lf><COLOR preset="TXT_Accent">사냥 도구 7종</COLOR>을 입수했습니다.
 <string>환경 개요 소식
+<string>《{1}》의 {0}(이)가<lf>식사를 대접하고 싶은 것 같습니다!
+<string>맵 열기
+<string>환경 개요 소식
 <string>{1}에서<lf>{0}(을)를 관측했습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>{1}의 {0}에게<lf>사이드 미션 완료를<lf>보고할 수 있습니다!
 <string>맵 열기
 <string>환경 개요 소식
 <string>여러 대상을 모아 퀘스트화 가능!
 <string>맵 열기
 <string>환경 개요 소식
 <string>이 지역 생태계의 정점인<lf>{0}(이)가 출현했습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>{0}(이)가 출현했습니다!<lf>사람들의 생활에 영향을<lf>주고 있는 것 같습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>평소보다 추가 보수를 많이 받을 수 있는<lf>{0}(이)가 출현했습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>사이드 미션 대상인<lf>{0}(이)가 출현했습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>찜 목록 대상인<lf>{0}(이)가 출현했습니다!
 <string>맵 열기
 <string>환경 개요
 <string>{0}(이)가 출현했습니다!
@@ -92,6 +124,9 @@
 <string>곧 {0}(이)가<lf>떠날 것 같습니다!
 <string>맵 열기
 <string>{0}(이)가<lf>떠났습니다...
+<string>환경 개요 소식
+<string><REF RefEnvironment_0001_0004>에<lf>{0}(이)가 출현했습니다!
+<string>맵 열기
 <string>환경 개요
 <string>{0}(을)를 포함한<lf>무리가 출현했습니다!
 <string>맵 열기
@@ -99,11 +134,21 @@
 <string>곧 {0}(을)를 포함한<lf>무리가 떠날 것 같습니다!
 <string>맵 열기
 <string>{0}(을)를 포함한<lf>무리가 떠났습니다...
+<string>{0}(이)가 출현했습니다!
 <string>환경 개요
 <string>{0} 대량 발생을<lf>관측했습니다!
 <string>맵 열기
 <string>환경 개요
 <string>{0} 증식을<lf>관측했습니다!
+<string>맵 열기
+<string>환경 개요
+<string>길드 사냥 보조 {0}(을)를<lf>이용할 수 있습니다!
+<string>맵 열기
+<string>환경 개요
+<string>지원 선박이 도착했습니다!
+<string>맵 열기
+<string>환경 개요
+<string><REF Gimmick_NAME_673669120> 발생을<lf>관측했습니다!
 <string>맵 열기
 <string>{0}(을)를 잃었습니다.
 <string>퀘스트 참가 의뢰
@@ -113,6 +158,10 @@
 <string>호스트의 권한으로<lf>로비가 해산되었습니다.
 <string>{0} 님이<lf>팔로우했습니다.
 <string>지급품은 없습니다.
+<string>찜 목록 《{0}》
+<string><COLOR preset="TXT_Accent">필요 소재가 갖추어졌습니다.</COLOR>
+<string>찜 목록 《{0}》
+<string>합계 필요 소재
 <string>현지 조사 퀘스트 시작을<lf>중지했습니다.
 <string>회수한 지급품은 더 이상<lf>소지할 수 없어 파기했습니다.
 <string>선율 효과 《{0}》의<lf>은혜를 받았습니다.
@@ -123,6 +172,9 @@
 <string><REF Item_IT_166>의<lf>효과가 떨어졌습니다.
 <string><REF Item_IT_167>의<lf>효과가 떨어졌습니다.
 <string>빠른 시작을 하지 못했습니다.<lf><ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>에서 출발 화면을 열어 주세요.
+<string>미션 관리 화면 열기
+<string>목표 가이드에서 우선 표시할<lf>미션을 선택할 수 있습니다.
+<string>열기
 <string>이 {0}은(는)<lf>퀘스트 대상이 될 수 없습니다.
 <string>이 {0}은(는)<lf>퀘스트 대상이 될 수 없습니다.<lf>(HR 부족)
 <string>온라인 싱글 플레이에서 온라인으로<lf>전환했습니다.
@@ -135,21 +187,82 @@
 <string>결과 확인 중인 환경 링크<lf>멤버가 있어 현지 조사 퀘스트를<lf>시작할 수 없습니다.
 <string>이 {0}은(는)<lf>퀘스트 대상이 될 수 없습니다.<lf>(진행도 부족)
 <string>소리 구슬 효과 《{0}》(이)가<lf>발동했습니다.
+<string>{0}(을)를<lf>납품했습니다.
+<string>{0}
+<string>새로운 훈장을 획득했습니다.
+<string>칭호
+<string>새로운 칭호를 {0}개 획득했습니다.
+<string>{0}
+<string>새로운 이름표를 획득했습니다.
+<string>{0}
+<string>새로운 배경을 획득했습니다.
+<string>푸기는 아무것도<lf>가지고 있지 않은 것 같습니다.
+<string>새로운 현상금을 배포하고 있습니다.
+<string>배포 현상금
+<string>《{0}》<lf>({1}/{2})
+<string>배포 현상금
+<string>《{0}》<lf><COLOR preset="TXT_Accent">달성! ({1}/{2})</COLOR>
 <string>환경 개요 소식
 <string>희귀한 추가 보수를 받을 수 있는<lf>{0}(이)가 출현했습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>{0}에게<lf>사이드 미션 완료를<lf>보고할 수 있습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string><Ref RefGeneral_0014>에게<lf>사이드 미션 완료를<lf>보고할 수 있습니다!
 <string>맵 열기
 <string>멤버가 1명만 남아<lf>링크 파티가 해산됐습니다.
 <string>{0}님의<lf>환경 링크에 합류하지 못했습니다
 <string>{0}님의<lf>환경 링크에서 이탈했습니다.
 <string>환경 링크가 해산됐습니다.
 <string>퀘스트에 합류하지 못했습니다.
+<string>새로운 캠프 옵션이<lf>잠금 해제되었습니다.
 <string>곧 식사 효과가 떨어집니다.
+<string>기름 솟는 계곡에서<lf>간이 캠프 설치 및 편집을<lf>할 수 있습니다.
+<string>빙무의 절벽에서<lf>간이 캠프 설치 및 편집을<lf>할 수 있습니다.
+<string>용도의 폐허에서<lf>간이 캠프 설치 및 편집을<lf>할 수 있습니다.
+<string>환경 개요 소식
+<string>여러 대상을 모아 퀘스트화할 수<lf>있습니다! 사람들의 생활에 영향을<lf>주고 있는 것 같습니다!
+<string>맵 열기
+<string>환경 개요 소식
+<string>여러 대상을 모아<lf>퀘스트화할 수 있습니다!<lf>평소보다 추가 보수가 많습니다!
+<string>맵 열기
 <string>환경 개요 소식
 <string>여러 대상을 모아 퀘스트화해<lf>보세요! 희귀한 추가 보수를<lf>받을 수 있습니다!
 <string>맵 열기
+<string>새로운 메시지가 {0}건 있습니다.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>링크 파티에서 이탈했습니다
 <string>수동 이동
 <string>자동 이동
 <string>자동 산책
 <string>솔로 온라인이 일시적으로 해제되었습니다
+<string>{0}(이)가 <REF RefEnvironment_0001_0004>으로<lf>이동을 시작했습니다.
+<string>헌터 랭크 {0}이 되었습니다
+<string>이 장소에는 둘 수 없습니다.
 <string>이 게임모드는 크로스플레이를 지원합니다.
+<string>서클 알림 도착
+<string>{0} 서클에서 초대 메시지가 왔습니다.
+<string>서클 알림 도착
+<string>소속 서클에<lf>가입 신청이 도착했습니다.
+<string>서클 알림 도착
+<string>{0}에<lf>가입 신청이 도착했습니다.
+<string>서클 알림 도착
+<string>{0}에<lf>가입했습니다.
+<string>서클 {0}에<lf>{1} 님이 가입했습니다.
+<string>{0} 서클의<lf>서브 리더로 임명되었습니다.
+<string>{0} 서클의<lf>리더를 맡았습니다.
+<string>로그인 보너스
+<string>오늘의 로그인 보너스가 배포되었습니다<lf>시작 메뉴에서 수령할 수 있습니다
+<string>지금 바로 받기
+<string>장비 마이 세트 공유
+<string>{0}님이<lf>장비 마이 세트 정보를 공유했습니다
+<string>아이템 마이 세트 공유
+<string>{0}님이<lf>아이템 마이 세트 정보를 공유했습니다
+<string>팔레트 마이 세트 공유
+<string>{0}님이<lf>팔레트 마이 세트 정보를 공유했습니다
+<string>스킬 《{0}》 발동이<lf>가능합니다
+<string>마이 세트 공유 내용을 받을 수 없습니다
+<string>마이 세트 공유 알림이 상한치에<lf>도달하여 수신하지 못했습니다.
+<string>초대 알림이 있습니다. 시작 메뉴의<lf>초대 알림 목록을 확인해 주십시오.
+<string>참가 의뢰가 있습니다. 시작 메뉴의<lf>참가 의뢰 확인을 확인해 주십시오.
+<string>퀘스트를 수주하지 못했습니다

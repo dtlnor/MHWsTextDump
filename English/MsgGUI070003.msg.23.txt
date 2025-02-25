@@ -1,11 +1,11 @@
 ﻿<string>Hunter Highlights
-<string>{0} time(s)
-<string>{0:F2} second(s)
+<string><PLURAL {0} "{0} time" "{0} times">
+<string><NUMBER {0:F2}> <PLURAL {0:F2} "second" "seconds">
 <string>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI070003_0002
 <string><REF RefGeneral_0000_000_0>
 <string><REF RefMenu_017>
-<string>Friend Request
+<string>Send Friend Request
 <string>Follow
 <string><REF RefButton_0000>
 <string><REF RefButton_0012>

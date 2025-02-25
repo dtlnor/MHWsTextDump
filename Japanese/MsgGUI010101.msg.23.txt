@@ -1,8 +1,13 @@
 ﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0000
 <string>Game Start
 <string>Options
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0003
+<string>Gallery
 <string><REF RefGeneral_0023>
 <string>Keyboard Key Config
+<string>Promotion
+<string>Latest News
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0009
 <string>Download Contents
 <string>Copyright Info
 <string>Support
@@ -21,11 +26,41 @@
 <string>モンスターハンターワイルズ サポートページ
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_sup_02_01
 <string>個人情報の取得について
+<string><COLOR preset="TXT_Danger">同意なし（オンラインマルチプレイ不可）</COLOR>
 <string>分析を目的としたデータ処理：{0}
+<string>国/地域の設定変更
+<string>生年月日の設定変更
+<string>CAPCOM IDの連携：{0}
+<string>CAPCOM IDの連携
+<string>CAPCOM IDへのデータ送信：{0}
 <string>プライバシーポリシー
 <string>同意あり
+<string>同意なし
+<string>未設定
+<string>連携済み
+<string>確認できません
+<string>株式会社カプコンによる個人情報の取得に同意しています。<lf>非同意にする場合は、次に進んでください。<lf> <lf>※非同意にすると、「オンラインマルチプレイ」など、<lf>一部の機能が使えなくなります。<lf><lf><PLATMSG RefGeneral_0028>
+<string>株式会社カプコンによる個人情報の取得に同意していません。<lf>同意するには、次に進んでください。<lf> <lf>※オフラインモードでも遊ぶことはできますが、<lf>「オンラインマルチプレイ」など、一部の機能が使えません。<lf><lf><PLATMSG RefGeneral_0028>
+<string>ほごしゃの方が　カプコンによる　こじんじょうほうの取得に<lf>同意しています。　同意をとりやめるには　ほごしゃの方といっしょに　<lf>次に進んでください。<lf> <lf>※同意をとりやめると　「オンラインマルチプレイ」など　<lf>一部のきのうが使えなくなります。<lf><lf><PLATMSG RefGeneral_0028>
+<string>ほごしゃの方が　カプコンによる　<lf>こじんじょうほうの取得に同意していません。<lf>同意をするには　ほごしゃの方といっしょに　次に進んでください。<lf> <lf>※オフラインモードでも遊ぶことはできますが　<lf>「オンラインマルチプレイ」など　一部のきのうが使えません。<lf><lf><PLATMSG RefGeneral_0028>
+<string>オンラインマルチプレイを行うためには個人情報の取扱いについて<lf>設定が必要です。個人情報の取扱いについて設定いただかなくても、<lf>ゲーム本編をプレイすることはできますが、機能が制限されます。<lf><lf><PLATMSG RefGeneral_0028>
+<string>分析を目的としたデータ処理への同意は義務ではなく、<lf>同意するかどうかを自由に選択することができます。<lf>同意いただけない場合でも、ゲームプレイに影響はありません。
+<string>こじんじょうほうについての　せっていをやり直すには<lf>ほごしゃの方といっしょに　次のページに進んでください。<lf><lf>※せっていをやり直す場合は　もう一度　<lf>ほごしゃの方による手続きが必要です。
+<string>分析を目的としたデータ処理は<lf>個人情報の取得について同意のある方のみが対象となります。
+<string>現在、国/地域の設定を変更することはできません。<lf>しばらく時間をおいてから再度お試しください。
+<string>国/地域の設定を変更できます。<lf>お住まいの国/地域が変わった場合は設定をやり直してください。
+<string>現在、生年月日の設定を変更することはできません。<lf>しばらく時間をおいてから再度お試しください。
+<string>生年月日の設定を変更できます。<lf><lf><DATETIME year={0} month={1} day={2} format="YYYY/MM/DD"><lf>生年月日を間違えて入力した場合は設定をやり直してください。
 <string>設定をやり直します。<lf>よろしいですか？
 <string>個人情報に関する同意状況をリセットして、<lf>設定をやり直します。よろしいですか？
+<string>こじんじょうほうに関する同意をリセットして、<lf>せっていをやり直します。よろしいですか？
+<string><PLATMSG MsgGUI010101_pri_10_50>（連携状況の反映には時間がかかることがあります）
+<string>プラットフォームアカウントとCAPCOM IDを連携できます。
+<string>SteamのアカウントとCAPCOM IDを連携できます。
+<string>CAPCOM IDへのデータ送信への同意は義務ではなく、<lf>同意するかどうかを自由に選択することができます。<lf>同意いただけない場合でも、ゲームプレイに影響はありません。
+<string>CAPCOM IDへのデータ送信は<lf>CAPCOM IDとプラットフォームIDを連携済みの方のみ対象となります。
 <string>設定をやり直す
+<string>せっていをやり直す
 <string>閉じる
+<string>とじる
 <string>次へ

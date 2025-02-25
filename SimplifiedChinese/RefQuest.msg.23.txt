@@ -9,6 +9,37 @@
 <string>预报
 <string>预报内容有可能随玩家的行动而发生变化。
 <string>怪物信息
+<string>怪物生态
+<string>环境生物生态
+<string>环境生物（钓鱼）生态
+<string>主要栖息地
+<string>主要特征
+<string>调查员的笔记
+<string>怪物的特殊攻击
+<string>攻略指南
+<string>狩猎窍门
+<string>怪物的肉质
+<string>详细对策
+<string>推荐的属性攻击
+<string>有效的状态异常
+<string>有效的道具
+<string>可获得的素材一览
+<string>下位素材
+<string>上位素材
+<string>获得道具
+<string>出现几率
+<string>获得方法及概率
+<string>狩猎记录
+<string>狩猎数
+<string>讨伐数
+<string>捕获数
+<string>狩猎尺寸
+<string>最大尺寸
+<string>最大重量
+<string>尺寸
+<string>最小尺寸
+<string>相关道具及技能
+<string>相关称号
 <string>狩猎
 <string>讨伐
 <string>捕获
@@ -16,14 +47,20 @@
 <string>搬运
 <string>特殊
 <string>开始实地调查任务
+<string>保存为调查任务
 <string>任务化
 <string>承接任务
+<string>要花费{0}<REF RefGeneral_0015_001>保存为调查任务吗？
+<string>已保存为调查任务。
+<string><COLOR preset="TXT_Danger">公会点数不足。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未达到承接或参加所需的进度。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未达到承接或参加所需的进度。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未达到承接或参加所需的猎人等级。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未达到承接或参加所需的猎人等级。</COLOR>
 <string><COLOR preset="TXT_Danger">无法开启实地调查任务。</COLOR>
 <string><COLOR preset="TXT_Danger">无法开启实地调查任务。</COLOR>
+<string><COLOR preset="TXT_Danger">无法保存为调查任务。</COLOR>
+<string><COLOR preset="TXT_Danger">调查任务保存失败。</COLOR>
 <string><COLOR preset="TXT_Danger">无法再次承接已完成的剧情任务。</COLOR>
 <string><COLOR preset="TXT_Danger">由于多人游戏设置，玩家无法参加。</COLOR>
 <string><COLOR preset="TXT_Danger">超过了可参加人数，无法参加。</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">未满足任务的承接或参加条件。</COLOR>
 <string><COLOR preset="TXT_Danger">无法承接或参加此任务。</COLOR>
 <string><COLOR preset="TXT_Danger">无法承接或参加此任务。</COLOR>
+<string><COLOR preset="TXT_Danger">调查任务保存数已达上限，无法保存。</COLOR>
+<string><COLOR preset="TXT_Danger">这个调查任务已经被保存过了。</COLOR>
 <string><COLOR preset="TXT_Danger">尚有环境连结成员正在结算，无法开始实地调查任务。</COLOR>
 <string>返回标题画面
 <string>重新挑战
@@ -50,6 +89,7 @@
 <string>次要使命报酬
 <string>任务报酬一览
 <string>追加报酬
+<string>鉴定箱
 <string>目标追加报酬
 <string>目标怪物相关报酬
 <string>通用素材报酬
@@ -59,14 +99,27 @@
 <string>返回营地
 <string>任务开始
 <string>承接任务
+<string>所有任务
 <string>关键任务
 <string>自由任务
 <string>实地调查任务
+<string>实地调查任务记录
+<string>调查任务
+<string>未保存的调查任务
+<string>已保存的调查任务
+<string>活动任务
+<string>斗技大会任务
+<string>挑战任务
 <string>设置
+<string>首页
 <string>显示全部
 <string>大厅成员任务
 <string>救难信号任务
 <string>连结成员任务
+<string>调查任务保存费用
+<string>实地调查任务的开始时间
+<string>剩余可承接次数
+<string>{0}次
 <string>任务参加许可
 <string>设置参加任务的许可方式。<COLOR preset="TXT_Accent">（收到任务邀请通知的连结成员会自动获得许可）</COLOR>
 <string>自动许可
@@ -108,6 +161,11 @@
 <string>{0}似乎有话要和你说！
 <string>可承接任务“{0}”！
 <string>可完成“{0}”！
+<string>收获量增多！（还剩{0}天）
+<string>它似乎影响到人们的生活！
+<string>有怪物正在侵扰聚落！
+<string>狩猎后，设施的收获量将暂时增多。
+<string><REF RefEnvironment_0001_0004>出现{0}！
 <string>最大参加人数
 <string>设置可参加任务的人数上限。<COLOR preset="TXT_Accent">（可设置人数会随连结成员的最大人数改变）</COLOR>
 <string>1
@@ -157,9 +215,16 @@
 <string>升序
 <string>降序
 <string>推荐排序
+<string>删除调查任务
+<string>要删除选择的调查任务吗？<lf><lf>※如果“实地调查任务记录”尚有该任务，<lf>　也会从记录中删除。
+<string>已删除调查任务。
+<string>选择的调查任务的可承接次数还剩{0}次。<lf>承接任务将消耗剩余次数并保存。<lf>确定承接吗？
 <string>要临时扩充任务的参加人数吗？<lf><COLOR preset="TXT_Accent">（一旦扩充后，在任务结束前都不会恢复原状）</COLOR>
 <string>关键任务
 <string>自由任务
+<string>实地调查任务记录（最近{0}个）
+<string>调查任务（已保存{0}个）
+<string>活动任务
 <string>大厅成员任务（{0}件）
 <string>连结成员任务
 <string>救难信号任务（{0}件）

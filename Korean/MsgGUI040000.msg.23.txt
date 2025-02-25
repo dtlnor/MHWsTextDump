@@ -7,6 +7,8 @@
 <string>헌터 친구 목록
 <string>팔로우 목록
 <string>팔로워 목록
+<string>서클 멤버 목록
+<string>서클 멤버 목록: {0}
 <string>차단 목록
 <string><PLATMSG MsgGUI040000_0001_10>
 <string>플랫폼 친구 목록
@@ -23,10 +25,11 @@
 <string>온라인 싱글 플레이 중
 <string>정보 없음
 <string>익명 표시 중이므로 볼 수 없습니다.
+<string>활성화된 서클이 없습니다
 <string>헌터 ID 검색
 <string>검색할 헌터 ID를 입력하십시오.<lf>(헌터 ID는 8자의 영문자,<lf>숫자로 구성됩니다)<lf>영문 대문자와 소문자는<lf>다른 문자로 인식됩니다.
-<string>{0}<lf>와(과) 일치하는 헌터를 찾았습니다.
-<string>{0}<lf>와(과) 일치하는 헌터를 찾지 못했습니다.
+<string>{0}<lf>위와 일치하는 헌터를 찾았습니다.
+<string>{0}<lf>위와 일치하는 헌터를 찾지 못했습니다.<lf>{1}
 <string>{0}<lf>현재 사용 중인 헌터 ID입니다.
 <string>기본순
 <string>이름순
@@ -34,6 +37,7 @@
 <string>관계순
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
+<string><REF RefMenu_019>
 <string><REF RefMenu_020>
 <string><REF RefMenu_021>
 <string>링크 파티에서 제외
@@ -131,15 +135,14 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_010_002_DLG
 <string>{0} 님을<lf>차단합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(헌터 ID가 달라도<lf>동일한 유저면 차단 대상이 됩니다.)</COLOR>
 <string>차단했습니다.
-<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_011_002_DLG
-<string><COLOR preset="TXT_Danger">차단 목록을 더 이상 추가할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">차단 목록에 더 이상 추가할 수 없습니다.</COLOR>
 <string>{0} 님의<lf>차단을 해제합니다.<lf>계속하시겠습니까?
 <string>차단을 해제했습니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_012_002_DLG
 <string>{0} 님을<lf>팔로우합니다.<lf>계속하시겠습니까?
 <string>팔로우했습니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_013_002_DLG
-<string><COLOR preset="TXT_Danger">팔로우 목록을 더 이상 추가할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">팔로우 목록에 더 이상 추가할 수 없습니다.</COLOR>
 <string>{0} 님을<lf>언팔로우합니다.<lf>계속하시겠습니까?
 <string>언팔로우했습니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_014_002_DLG
@@ -149,12 +152,13 @@
 <string>{0} 님을<lf>로비에서 제외합니다.<lf>계속하시겠습니까?
 <string>로비에서 제외했습니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_016_002_DLG
-<string>{0} 님에게<lf>링크 파티 리더 자리를 맡깁니다.<lf>계속하시겠습니까?
-<string>링크 파티 리더 자리를 맡겼습니다.
+<string>{0} 님에게<lf>링크 파티 리더를 맡깁니다.<lf>계속하시겠습니까?
+<string>링크 파티 리더를 맡겼습니다.
 <string>로비 정보
 <string>로비 분류
 <string>일반 로비
 <string>비공개 로비
+<string>서클 로비
 <string>로비 ID
 <string>플레이 성향
 <string>설정 없음

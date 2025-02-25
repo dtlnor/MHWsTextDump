@@ -7,6 +7,7 @@
 <string>Checking connection to the server...
 <string>A communication error has occurred.<lf>{0}
 <string>A communication error has occurred.<lf>Returning to the title screen.<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Certain features of online multiplayer<lf>will not be available.<lf><lf>Please register with {0} to access all features<lf>of online multiplayer.
 <string>This account does not meet the requirements<lf>for online multiplayer.
 <string>Unable to connect to network.<lf>Returning to title screen.
@@ -19,15 +20,30 @@
 <string>Switched to Online Single Player due to<lf>inactivity. You will continue gameplay as normal.<lf>{0}
 <string>Unable to send as you are already<lf>Hunter Friends or are waiting for<lf>a response to a request.<lf>{0}
 <string>Failed to send because you or the other party<lf>has reached the max limit for Hunter Friends.<lf>{0}
+<string>You have reached the max limit for Hunter Friends<lf>and cannot add any more players.<lf>{0}
+<string>Failed to send because the other party has<lf>reached the max limit for Hunter Friends.<lf>{0}
+<string>You have reached the max limit for Hunter Friend<lf>Requests and cannot send any more.<lf>{0}
+<string>Failed to send because the other party has reached<lf>the max limit for Hunter Friend Requests.<lf>{0}
 <string>You already follow this player.<lf>{0}
 <string>You have reached the follow limit and cannot<lf>follow any more players.<lf>{0}
 <string>Initializing network...
 <string>A new version of the application has been found. <lf>To use network features, please close<lf>the application and perform the update.
-<string>Hunter data has been overwritten.<lf>This save data can still be used safely, but<lf>Hunter Friends, Follows/Followers, and<lf>Squad data has been reset.
+<string>Hunter data has been overwritten.<lf>This saved data can still be used safely, but<lf>Hunter Friends, Follows/Followers, and<lf>Squad data has been reset.
 <string>Player has already joined the Link Party.<lf><lf>{0}
 <string>The player limit for the Link Party has been<lf>reached. Cannot add any more players.<lf><lf>{0}
+<string>Failed to send because the other player has<lf>reached their Link Party invitation limit.<lf>{0}
 <string>Cannot submit report at this time.<lf>Please wait a while and try again.<lf><lf>{0}
 <string>Your current account does not meet the<lf>requirements to play the game.
+<string>No beta test character creation data found.<lf>{0}
+<string>Failed to obtain character creation data<lf>from the beta test.<lf>{0}
+<string>Link Party invitation already sent.<lf>{0}
+<string>Unable to obtain award information from your<lf>account. Please check your network connection<lf>or account status for any issues.<lf>{0}
+<string>Designs cannot be uploaded from this account.<lf>{0}
+<string>Loadouts cannot be shared from this account.<lf>{0}
+<string>SOS Flare failed to send.<lf>{0}
+<string>This feature is currently unavailable due to<lf>maintenance. Please wait a while and try<lf>again.<lf>{0}
+<string>You have reached the block limit and cannot<lf>block any more players.<lf>{0}
+<string>Servers are currently under scheduled maintenance.<lf>{0}
 <string>Connection to the session has been lost.<lf>{0}
 <string>Failed to create session.<lf>{0}
 <string>Session search failed.<lf>{0}
@@ -49,6 +65,9 @@
 <string>Joining Link Party.
 <string>The server is currently busy.<lf>Please wait a while and try again.
 <string>Crossplay is currently enabled.
+<string>You cannot participate in this session due to the<lf>other party's crossplay settings.<lf>{0}
+<string>Failed to participate because the session has<lf>different crossplay settings. Please check your<lf>crossplay settings under <BOLD>Options</BOLD> in the title<lf>menu.<lf>{0}
+<string>The player limit for the Link Party has been<lf>reached. Cannot add any more players.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "MMMM D, YYYY HH:mm"> (UTC)<lf><lf>Your account has been found in violation of the<lf>following: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use.</COLOR>
 <string>Abusive/Disruptive Behavior
 <string>Types of Prohibited Behavior
@@ -61,6 +80,23 @@
 <string>Please review any editable text, such as your Hunter Profile and<lf>Squad comments, and update the content accordingly. Failure to<lf>update text content or repeated updates that violate the Terms<lf>of Use may result in permanent restrictions.
 <string>In addition, your Hunter and Palico's names will be changed to<lf>the default "Hunter/Palico".
 <string><COLOR preset="TXT_Danger">Account permanently suspended</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Your account has been permanently suspended</COLOR> due to confirmed<lf>violations of our Terms of Use.<lf><lf>The account in question will be unable to access the online mode<lf>in Monster Hunter Wilds. Please be aware that we do not offer<lf>any measures to lift the permanent suspension of an account<lf>in accordance with the Terms of Use.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">offensive behavior</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>Repeated or similar behavior may result in permanent <lf>restrictions. <COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use<lf>and End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">violating our Terms<lf>of Use regarding inappropriate language</COLOR>. As a result,<lf><COLOR preset="TXT_Accent">community functions have been temporarily restricted</COLOR>.<lf><lf>Repeated or similar behavior may result in permanent <lf>restrictions. <COLOR preset="TXT_Accent">Please play in compliance with the Terms<lf>of Use and End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate comments</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>Please check your Hunter Profile and remove any inappropriate<lf>language from the Comments. Failing to remove this content or <lf>similar behavior may result in permanent restrictions. <lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use and<lf>End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate squad comments</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>The relevant comments have been deleted. Repeated or <lf>similar behavior may result in permanent restrictions. <lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use and<lf>End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate behavior</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use<lf>and End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate content</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>The relevant inappropriate content will display as the default <lf>value (e.g., Hunter/Palico) to other users.<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use<lf>and End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for violating our <COLOR preset="TXT_Danger">Terms of Use <lf>and/or End User License Agreement (EULA) regarding prohibited<lf>behavior</COLOR>. As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>Repeated or similar behavior may result in permanent <lf>restrictions. <COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use<lf>and End User License Agreement (EULA).</COLOR>
+<string><COLOR preset="TXT_Danger">Account permanently suspended</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Your account has been permanently suspended</COLOR> due to<lf>confirmed violations of our Terms of Use and/or<lf>End User License Agreement (EULA).<lf><lf>The account in question will be unable to access the online mode<lf>in Monster Hunter Wilds. Please be aware that we do not offer<lf>any measures to lift the permanent suspension of an account<lf>in accordance with the Terms of Use and End User License<lf>Agreement (EULA).
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">suspected offensive behavior</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>Repeated or similar behavior may result in permanent <lf>restrictions. <COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use<lf>and End User License Agreement (EULA).</COLOR><lf>If you are unaware of any behavior that might warrant this<lf>action, please contact us via an inquiry form.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">suspected inappropriate <lf>language or content</COLOR>. As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>Repeated or similar behavior may result in permanent <lf>restrictions. <COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use<lf>and End User License Agreement (EULA).</COLOR><lf>If you are unaware of any behavior that might warrant this<lf>action, please contact us using an inquiry form.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">suspected violations of our<lf>Terms of Use and/or End User License Agreement (EULA) regarding<lf>prohibited behavior</COLOR>. As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>. Repeated or similar behavior may result<lf>in permanent restrictions. <COLOR preset="TXT_Accent">Please play in compliance with the<lf>Terms of Use and End User License Agreement (EULA).</COLOR><lf>If you are unaware of any behavior that might warrant this<lf>action, please contact us using an inquiry form.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">offensive behavior</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>Repeated or similar behavior may result in permanent <lf>restrictions.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate language</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>Repeated or similar behavior may result in permanent <lf>restrictions.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate behavior</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">inappropriate content</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>The relevant inappropriate content will display as the default <lf>value (e.g., Hunter/Palico) to other users.
+<string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "hh:mm A MM/DD/YYYY"> (UTC)<lf><lf>Your account has been flagged for <COLOR preset="TXT_Danger">prohibited behavior</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf><lf>Repeated or similar behavior may result in permanent <lf>restrictions.
+<string><COLOR preset="TXT_Danger">Account permanently suspended</COLOR>.<lf><lf>Your account has been <COLOR preset="TXT_Danger">permanently suspended</COLOR><lf>due to confirmed cheating.<lf><lf>The account in question will be unable to access the<lf><REF RefGeneral_0000_0000_00_OBT>. Please be aware that we do not offer<lf>any measures to lift the permanent suspension of an account<lf>during the Open Beta Test period.
 <string>Joining Link Party. Change saved data?<lf><COLOR preset="TXT_Danger">(When changing saved data, current unsaved<lf>data will be lost.)</COLOR>
 <string>Join with current saved data
 <string>Join with different saved data
@@ -69,9 +105,22 @@
 <string>Unable to send invitation request.<lf>{0}
 <string>Unable to join because the Link Party feature<lf>has not been unlocked.
 <string>Open the friend invite screen to send<lf>a Link Party invitation?
+<string>Would you like to play Monster Hunter Wilds with me?
 <string>Would you like to play Monster Hunter Wilds Beta test with me?
+<string>Received an invitation.<lf><COLOR preset="TXT_Accent">(It will appear once the cutscene or loading has<lf>finished, or the Settings Menu has been closed.)</COLOR>
+<string>Unable to join the Link Party because online<lf>features are not currently available.
+<string>The game will start in offline mode.<lf><lf>In order to play online multiplayer, you must consent<lf>to the acquisition of personal information. You can still<lf>play the game without consenting to the terms, but<lf>certain features will not be available. To change your<lf>Privacy Policy settings, check the <BOLD>Privacy</BOLD> section<lf>on the title screen.
+<string>Online multiplayer is restricted until you consent<lf>to the acquisition of personal information.<lf>To change your Privacy Policy settings, check the<lf><BOLD>Privacy</BOLD> section on the title screen.<lf>{0}
 <string>Waiting for other users...
 <string>Please wait.<lf><lf>You may begin when the staff gives the signal.
 <string>Depart
 <string>An error has occurred. Please notify nearby staff.
 <string>Failed to acquire transmission data.<lf>{0}
+<string>{0}<lf>Search for the above Squad ID failed.<lf>{1}
+<string>Squad invitations or requests have surpassed<lf>maximum capacity.<lf><lf>{0}
+<string>Failed to join squad.<lf><lf>{0}
+<string>Failed to activate squad.<lf>Please review the squad's settings.<lf><lf>{0}
+<string>{0}<lf>Squad information for above ID does not exist.<lf>{1}
+<string>Failed to update squad data.<lf>{0}
+<string>Failed to send because the other party has<lf>reached the max limit for Squads they can<lf>join.<lf>{0}
+<string>Because the size of your squad has reached a certain<lf>number of members, you can now make squad lobbies<lf>that allow for more members to join. As a result, your<lf>current squad lobby will be disbanded.<lf><lf>We apologize for the inconvenience, but please make<lf>a new squad lobby from the Change Lobby Menu.

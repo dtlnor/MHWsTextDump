@@ -28,25 +28,73 @@
 <string>Poz.
 <string>{0}
 <string>–
+<string>Drzewo: ???
 <string>Główna
 <string>Wyekwipuj jako broń główną
 <string>Pomocnicza
 <string>Wyekwipuj jako broń pomocniczą
 <string>Broń
+<string>Zdobienia
+<string>Zdobienie główne
+<string>Zdobienie pomocnicze
 <string>Zapłon serca wiwerny
 <string>Zapł. przeb. wiwerny
 <string>Zapłon kontr. wiwerny
 <string>Zapł. wiwernogrzmotu
-<string>Skupiony wybuch: krzyk wiwerny
+<string>Sk. wybuch: krzyk wiwerny
 <string>Wiwernogrzmot
 <string>Amunicja kleista
+<string>Materiały kowalne
+<string>Materiały ulepszania
+<string>Wymagana kwota
+<string>Wybór ulepsz. wyposażenia
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>Ulepsz pancerz
+<string>Do następnego poziomu
+<string>Ulepszono do maksimum
 <string>Pokaż wszystko
+<string>Tylko pancerz <ICON EQUIP_TYPE1>
+<string>Tylko pancerz <ICON EQUIP_TYPE2>
+<string>Pokaż posiadane
+<string>Ulepsz
+<string>Wykuj
+<string>Wymaga materiałów i {0} z.<lf>Kontynuować?
+<string>Wymaga materiałów i <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Wykuwanie tego wyposażenia<lf>tworzy również <COLOR preset="TXT_Accent">pancerz warstwowy</COLOR>)
+<string>Wyposażyć teraz?
+<string>Odrzucić {0} <PLURAL {0} "nadmiarowy punkt" "nadmiarowe punkty">?
+<string>Podgląd
+<string><COLOR preset="TXT_Danger">Skrzynka na wyposażenie jest pełna.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można jeszcze wykuć ani ulepszyć.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz wymaganego wyposażenia.</COLOR>
+<string><COLOR preset="TXT_Danger">Zbyt mało środków lub materiałów.</COLOR>
+<string><COLOR preset="TXT_Danger">Zbyt mało środków.</COLOR>
+<string><COLOR preset="TXT_Danger">Osiągnięto maksymalny poziom ulepszenia.</COLOR>
+<string>Wybierz kulę pancerza, której chcesz użyć.
 <string><COLOR preset="TXT_Danger">Nie masz żadnych ozdób.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnych materiałów.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie masz żadnego wyposażenia.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnych artiańskich materiałów.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnej artiańskiej broni.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie masz łukodziałka.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnych ozdób ani przedmiotów do przetopienia.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnych materiałów do przetopienia.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnych materiałów do wytapiania.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnych materiałów do wzmocnienia.</COLOR>
+<string><COLOR preset="TXT_Danger">Posiadasz już to wyposażenie, więc nie można go wykuć ani ulepszyć.</COLOR>
+<string><COLOR preset="TXT_Danger">Posiadasz już to wyposażenie, więc nie można go wykuć.</COLOR>
+<string>Obecnie wyposażone: {0}
 <string>Używane w innym elemencie wyposażenia.<lf>Chcesz to usunąć?
+<string><COLOR preset="TXT_Danger">Ta ozdoba jest obecnie wyposażona.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można tego wyposażyć w gnieździe tego poziomu.</COLOR>
+<string><COLOR preset="TXT_Danger">Ten kinsekt urósł do maksymalnego rozmiaru.</COLOR>
+<string>Wymagane {0} z.<lf>Kontynuować?
+<string>Wymaga <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Wykuwanie tego wyposażenia<lf>tworzy również <COLOR preset="TXT_Accent">pancerz warstwowy</COLOR>)
+<string>Materiały do pielęgnacji
 <string>Skrzynka na wyposażenie
+<string>Skrzynia na pancerz war.
 <string><COLOR preset="TXT_Danger">Możesz wybierać kinsekty tylko wtedy, gdy nosisz owadzią glewię.</COLOR>
+<string>Skrzynka na ozdoby
 <string>Edytuj ozdoby
 <string>Zmień wyposażenie
 <string>Informacje o umiejętności
@@ -54,8 +102,9 @@
 <string>Usuń ozdobę
 <string>Przełącz nazwę/umiejętność
 <string>Dodaj do ulubionych
-<string>Ustawienia wyglądu wyposażenia
+<string>Wygląd wyposażenia
 <string>Ustawienia wyposażenia
+<string>Wybór automatyczny
 <string>Wybierz ze skrzynki
 <string>Wybierz pancerz według serii
 <string>Pokaż/Ukryj broń
@@ -65,8 +114,58 @@
 <string>Przełącz porównanie
 <string>Zmień ekran
 <string>Przełącz podgląd wyposażenia
+<string>Barwa pancerza
+<string>Dodaj do listy życzeń
+<string>Zarejestruj jako do wykucia
+<string>Zarejestruj jako do ulepszenia
+<string>Dodać do listy życzeń?
+<string>Jeden z wymaganych elementów tej broni można zarejestrować jako przedmiot do wykucia lub ulepszenia. Wybierz metodę rejestracji.
+<string>Usuń z listy życzeń
+<string>Usunąć z listy życzeń?
+<string>Usunąć z listy życzeń?<lf><COLOR preset="TXT_Danger">(Nakłada się na zestawy wyposażenia.<lf>Wyposażenie usunięte tutaj zostanie<lf>usunięte także z zestawów wyposażenia).</COLOR>
+<string>Usuń wszystkie ozdoby
+<string>Usunąć wszystkie wyposażone ozdoby?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> model sterowania
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> model sterowania
+<string><ICON PAD PL_DUMMY_CAMERA> Podgląd sterowania
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Podgląd sterowania
+<string><ICON PAD PL_DUMMY_CAMERA> Lista sterowania
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> model sterowania)
 <string>Wybierz wyposażenie według serii
+<string>Ostrze
+<string>Rura
+<string>Dysk
+<string>Urządzenie
 <string>Opończa
+<string>Wyszukiwanie
+<string>Premia do obrony
+<string>Poziom gniazda
+<string>Gniazda
+<string>Typ ostrzału
+<string>Efekty melodii
+<string>Kompatybilna amun.
+<string>Amun. z szybkim ogniem
+<string>Pasujące powłoki
+<string>Usuń
+<string>Nie wybrano
+<string>Biała
+<string>Niebieska
+<string>Zielona
+<string>III
+<string>II
+<string>I
+<string>Ostrość (biała)
+<string>Ostrość (niebieska)
+<string>Ostrość (zielona)
+<string>Poziom gniazda (III)
+<string>Poziom gniazda (II)
+<string>Poziom gniazda (I)
+<string>Gniazda (3)
+<string>Gniazda (2–3)
+<string>Gniazda (1–3)
 <string>Sortuj według kryteriów
 <string>Sortuj według broni
 <string>Sortuj według pancerzy
@@ -83,52 +182,58 @@
 <string>Odporność
 <string>Obrona
 <string>Część pancerza
+<string>Wg typu
+<string>Według typu żywiołu
+<string>Wg atriańskiego bonusu
 <string>Rodzaj ataku
 <string>Część pancerza
 <string>Domyślne
 <string>Wszystko
 <string>Według serii
-<string>Według poziomu kinsekta
+<string>Według poz. kinsekta
 <string>Według typu ostrzału
 <string>Według ilości
-<string>Amun. normalna poz. 1
-<string>Amun. normalna poz. 2
-<string>Amun. normalna poz. 3
-<string>Amun. przebijająca poz. 1
-<string>Amun. przebijająca poz. 2
-<string>Amun. przebijająca poz. 3
-<string>Amun. rozrzutowa poz. 1
-<string>Amun. rozrzutowa poz. 2
-<string>Amun. rozrzutowa poz. 3
-<string>Amunicja przylepna 1
-<string>Amunicja przylepna 2
-<string>Amunicja przylepna 3
-<string>Bomba kasetowa poz. 1
-<string>Bomba kasetowa poz. 2
-<string>Bomba kasetowa poz. 3
-<string>Amun. zapalna poz. 1
-<string>Amun. zapalna poz. 2
-<string>Amun. wodna poz. 1
-<string>Amun. wodna poz. 2
-<string>Amun. piorunowa poz. 1
-<string>Amun. piorunowa poz. 2
-<string>Amun. mrożąca poz. 1
-<string>Amun. mrożąca poz. 2
-<string>Amun. trująca poz. 1
-<string>Amun. trująca poz. 2
-<string>Amun. paraliżująca poz. 1
-<string>Amun. paraliżująca poz. 2
-<string>Amun. usypiająca poz. 1
-<string>Amun. usypiająca poz. 2
+<string>1–3
+<string>2–3
+<string>3
+<string>Amunicja normalna 1
+<string>Amunicja normalna 2
+<string>Amunicja normalna 3
+<string>Amunicja przebijająca 1
+<string>Amunicja przebijająca 2
+<string>Amunicja przebijająca 3
+<string>Amunicja rozrzutowa 1
+<string>Amunicja rozrzutowa 2
+<string>Amunicja rozrzutowa 3
+<string>Amun. przylepna 1
+<string>Amun. przylepna 2
+<string>Amun. przylepna 3
+<string>Bomba kasetowa 1
+<string>Bomba kasetowa 2
+<string>Bomba kasetowa 3
+<string>Amunicja zapalna 1
+<string>Amunicja zapalna 2
+<string>Amunicja wodna 1
+<string>Amunicja wodna 2
+<string>Amunicja piorunowa 1
+<string>Amunicja piorunowa 2
+<string>Amunicja mrożąca 1
+<string>Amunicja mrożąca 2
+<string>Amunicja trująca 1
+<string>Amunicja trująca 2
+<string>Amunicja paraliżująca 1
+<string>Amunicja paraliżująca 2
+<string>Amunicja usypiająca 1
+<string>Amunicja usypiająca 2
 <string>Szybki ogień (amun. normalna 1)
 <string>Szybki ogień (amun. normalna 2)
 <string>Szybki ogień (amun. normalna 3)
-<string>Szybki ogień (amun. przebijająca 1)
-<string>Szybki ogień (amun. przebijająca 2)
-<string>Szybki ogień (amun. przebijająca 3)
-<string>Szybki ogień (amun. rozrzutowa 1)
-<string>Szybki ogień (amun. rozrzutowa 2)
-<string>Szybki ogień (amun. rozrzutowa 3)
+<string>Szybki ogień (amun. przebij. 1)
+<string>Szybki ogień (amun. przebij. 2)
+<string>Szybki ogień (amun. przebij. 3)
+<string>Szybki ogień (amun. rozrzut. 1)
+<string>Szybki ogień (amun. rozrzut. 2)
+<string>Szybki ogień (amun. rozrzut. 3)
 <string>Szybki ogień (amun. przylepna 1)
 <string>Szybki ogień (amun. zapalna 1)
 <string>Szybki ogień (amun. zapalna 2)
@@ -139,3 +244,23 @@
 <string>Szybki ogień (amun. mrożąca 1)
 <string>Szybki ogień (amun. mrożąca 2)
 <string>Szybki ogień (amun. smocza 1)
+<string><COLOR preset="TXT_Danger">Nie można sprzedać obecnie noszonego wyposażenia.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można sprzedać opończy.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można sprzedać tego kinsekta, ponieważ to jedyny, jakiego posiadasz. (Nie można nie mieć żadnego kinsekta)</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można sprzedać tego wyposażenia.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można sprzedać tego kinsekta, ponieważ jest sparowany z owadzią glewią.</COLOR>
+<string>Wartość
+<string>To wyposażenie jest zarejestrowane w zestawie.<lf>Czy na pewno chcesz je sprzedać?
+<string>Sprzedać za <NUMBER {0}> z?
+<string>Do tego wyposażenia jest dołączona ozdoba.<lf>Usunąć wszystkie ozdoby i sprzedać wyposażenie<lf>za <NUMBER {0}> z?
+<string>Została wybrana ozdoba z jednej lub kilku<lf>poniższych kategorii. Sprzedać mimo to?<lf><lf>{0}<lf>{1}<lf>{2}
+<string>– Obecnie wyekwipowane
+<string>– Zarejestrowane w zestawie
+<string>– Dodane do ulubionych
+<string>Udostępnić zestawy {0}?
+<string>Zarejestruj w swoim zestawie
+<string>Zarejestrować ten zestaw w pustym miejscu?
+<string>Nie masz pustych miejsc.
+<string><COLOR preset="TXT_Accent">Jeden z twoich zestawów zawiera wyposażenie,<lf>którego nie posiadasz.</COLOR> Niezdobyte wyposażenie<lf>automatycznie zarejestrowano na twojej liście<lf>życzeń.
+<string><COLOR preset="TXT_Accent">Zarejestrowany zestaw zawiera wyposażenie, którego<lf>nie posiadasz.</COLOR> To wyposażenie zostało już dodane<lf>do twojej listy życzeń.
+<string><COLOR preset="TXT_Accent">Jeden z twoich zestawów zawiera wyposażenie,<lf>którego nie posiadasz.</COLOR>

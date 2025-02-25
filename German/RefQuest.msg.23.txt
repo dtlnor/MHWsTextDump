@@ -9,6 +9,37 @@
 <string>Vorhersage
 <string>Spieleraktionen können die Vorhersage<lf>beeinflussen.
 <string>Detaillierte Infos
+<string>Überblick
+<string>Überblick
+<string>Überblick
+<string>Bekannte Lebensräume
+<string>Merkmale
+<string>Forschungsnotizen
+<string>Spezialangriff
+<string>Empfohlene Strategie
+<string>Hilfreiche Hinweise
+<string>Effektivität gegen Teile
+<string>Detaillierte Strategie
+<string>Empfohlenes Element
+<string>Effektive Statuseffekte
+<string>Effektive Objekte
+<string>Erhältliche Materialien
+<string>Niedrigrangige Materialien
+<string>Hochrangige Materialien
+<string>Erhältliche Objekte
+<string>Häufigkeit
+<string>Anzahl und Wahrscheinlichkeit
+<string>Jagdprotokoll
+<string>Erjagt
+<string>Erlegt
+<string>Gefangen
+<string>Erjagte Größe
+<string>Größter
+<string>Schwerster
+<string>Größe
+<string>Kleinster
+<string>Verwandte Objekte/Fähigkeiten
+<string>Freischaltbare Titel
 <string>Jagen
 <string>Erlegen
 <string>Fangen
@@ -16,14 +47,20 @@
 <string>Transportieren
 <string>Spezial
 <string>Felderkundung starten
+<string>Als Untersuchung speichern
 <string>Quest erstellen
 <string>Quest annehmen
+<string>{0} <PLURAL {0} "Punkt" "Punkte"> ausgeben und als<lf>Untersuchung speichern?
+<string>Als Untersuchung gespeichert.
+<string><COLOR preset="TXT_Danger">Du hast nicht genügend Gildenpunkte.</COLOR>
 <string><COLOR preset="TXT_Danger">Annahme oder Beitritt nicht möglich, da der benötigte Fortschritt noch nicht erreicht wurde.</COLOR>
 <string><COLOR preset="TXT_Danger">Annahme oder Beitritt nicht<lf>möglich, da der benötigte Fortschritt noch nicht erreicht wurde.</COLOR>
 <string><COLOR preset="TXT_Danger">Annahme oder Beitritt nicht möglich, da der benötigte Jägerrang noch nicht erreicht wurde.</COLOR>
 <string><COLOR preset="TXT_Danger">Annahme oder Beitritt nicht<lf>möglich, da der benötigte<lf>Jägerrang noch nicht erreicht<lf>wurde.</COLOR>
 <string><COLOR preset="TXT_Danger">Die Felderkundung kann nicht gestartet werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Die Felderkundung konnte nicht gestartet werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Kann nicht als Untersuchung gespeichert werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Konnte nicht als Untersuchung gespeichert werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Abgeschlossene Aufgaben können nicht wiederholt werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Beitritt von Spielern aufgrund von Mehrspieleroptionen nicht möglich.</COLOR>
 <string><COLOR preset="TXT_Danger">Beitritt nicht möglich. Maximale Spieleranzahl wurde bereits erreicht.</COLOR>
@@ -31,8 +68,10 @@
 <string><COLOR preset="TXT_Danger">Du erfüllst die Anforderungen zur Annahme oder zum Beitritt dieser Quest nicht.</COLOR>
 <string><COLOR preset="TXT_Danger">Du kannst diese Quest nicht annehmen oder ihr beitreten.</COLOR>
 <string><COLOR preset="TXT_Danger">Annahme oder Beitritt dieser Quest fehlgeschlagen.</COLOR>
+<string><COLOR preset="TXT_Danger">Die maximale Anzahl an gespeicherten Untersuchungen ist bereits erreicht. Es können keine weiteren gespeichert werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Diese Untersuchung wurde bereits gespeichert.</COLOR>
 <string><COLOR preset="TXT_Danger">Die Felderkundung kann nicht gestartet werden, weil ein Verbindungsmitglied sich die Questergebnisse ansieht.</COLOR>
-<string>Zurück zum Titelbildschirm
+<string>Zum Titelbildschirm
 <string>Neu versuchen
 <string>Erlege: {0}.
 <string>Erjage: {0}
@@ -50,6 +89,7 @@
 <string>Belohnung für Nebenmission
 <string>Quest-Belohnung
 <string>Bonus-Belohnung
+<string>Schätztruhe
 <string>Zusatzbelohnung für Ziele
 <string>Belohnung für Zielmonster
 <string>Allgemeine Materialbelohnung
@@ -59,14 +99,27 @@
 <string>Rückkehr<lf>zur<lf>Basis
 <string>Quest<lf>beginnt
 <string>Quest<lf>angenommen
+<string>Alle Quests
 <string>Aufgaben
 <string>Optionale Quests
 <string>Felderkundung
+<string>Felderkundungsverlauf
+<string>Untersuchungen
+<string>Ungespeicherte Untersuchung
+<string>Gespeicherte Untersuchung
+<string>Eventquests
+<string>Arenaquests
+<string>Herausforderungsquests
 <string>Einstellungen
+<string>Heim
 <string>Alle anzeigen
 <string>Lobbymitglieder-Quests
 <string>Not-Leuchtzeichen-Quests
 <string>Verbindungsmitglieder-Quests
+<string>Kosten
+<string>Felderkundung-Startzeit
+<string>Übrig
+<string>{0}
 <string>Beitritt akzeptieren
 <string>Passe die Annahmemethode zum Questbeitritt an. <COLOR preset="TXT_Accent">(Verbindungsmitglieder mit Questeinladung werden automatisch akzeptiert.)</COLOR>
 <string>Autom.
@@ -108,13 +161,18 @@
 <string>{0} möchte sich unterhalten!
 <string>Quest: {0}
 <string>{0}: Bereit für den Bericht!
+<string>Sammelbonus aktiv (noch <PLURAL {0} "{0} Tag" "{0} Tage">)
+<string>Siedlungsbewohner fühlen sich bedroht!
+<string>Eine Siedlung hat ein Monsterproblem!
+<string>Erjage es für einen kurzen Sammelbonus.
+<string>Frostspitze: {0} erschienen!
 <string>Max. Mitglieder
 <string>Lege die maximale Anzahl der Spieler zum Questbeitritt fest. <COLOR preset="TXT_Accent">(Basierend auf der Anzahl Verbindungsmitglieder.)</COLOR>
 <string>1
 <string>2
 <string>3
 <string>4
-<string>Mehrspielermodus
+<string>Mehrspieler-Einstellung
 <string>Wähle einen Mehrspielermodus.
 <string>Spieler und Hilfsjäger
 <string>Nur Spieler
@@ -157,9 +215,16 @@
 <string>Aufsteigend
 <string>Absteigend
 <string>Empfohlen
+<string>Untersuchung löschen
+<string>Möchtest du die ausgewählte Untersuchung löschen?<lf><lf>Hinweis: Wenn die Quest in deinem <COLOR preset="TXT_Accent">Felderkundungs-<lf>verlauf</COLOR> verbleibt, wird der Verlauf ebenfalls<lf>gelöscht.
+<string>Die Untersuchung wurde gelöscht.
+<string>Du kannst die ausgewählte Quest {0}-mal annehmen.<lf>Möchtest du die Quest annehmen und speichern?
 <string>Möchtest du vorübergehend die max. Anzahl der<lf>Spieler für diese Quest erhöhen?<lf><COLOR preset="TXT_Accent">(Kann bis Questabschluss nicht verändert werden.)</COLOR>
 <string>Aufgaben
 <string>Optionale Quests
+<string>Felderkundungsverlauf (Letzte {0})
+<string>Untersuchungen ({0} gespeichert)
+<string>Eventquests
 <string>Verbindungsmitglieder-Quests ({0})
 <string>Verbindungsmitglieder-Quests
 <string>Not-Leuchtzeichen-Quests ({0})

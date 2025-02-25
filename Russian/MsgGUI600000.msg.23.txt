@@ -2,35 +2,56 @@
 <string><ICON PL_DUMMY_MOVE>: движение<lf><ICON PL_DUMMY_CAMERA>: управление камерой
 <string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: движение<lf><ICON M_ALL>: управление камерой
 <string><INPUTMSG MsgGUI600000_Tips_EXP_1095772160>
-<string>Сейкрет сам доставит вас к цели.<lf><ICON PL_DUMMY_MOVE>: вы также можете управлять сейкретом.
-<string>Сейкрет сам доставит вас к цели.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: вы также можете управлять сейкретом.
+<string>Сейкрет сам доставит вас к цели.<lf><ICON PL_DUMMY_MOVE>: ручное управление
+<string>Сейкрет сам доставит вас к цели.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: ручное управление
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_106_000">
-<string>Выберите SOS и отпустите <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
-<string>Выберите SOS и удерживайте <ICON UI_SHORTCUT_ITEM_USE>
-<string>Выберите SOS и щёлкните <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string>Выберите сигнал SOS и отпустите <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
+<string>Выберите сигнал SOS и удерживайте <ICON UI_SHORTCUT_ITEM_USE>
+<string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_106_001">
 <string>Выбрать сигнал SOS
-<string>Выбрать сигнал SOS и <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string>Выберите сигнал SOS и <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_110_000">
-<string>Выб. оптим. восст. здоровья и отпустите <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
-<string>Выб. оптим. восст. здоровья и нажмите <ICON UI_SHORTCUT_ITEM_USE>
-<string>Выб. оптим. восст. здоровья и щёлкните <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string>Выберите оптим. восст. здоровья и отпустите <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
+<string>Выберите оптим. восст. здоровья и нажмите <ICON UI_SHORTCUT_ITEM_USE>
+<string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_110_001">
 <string>Выбрать оптим. восст. здоровья 
-<string>Выбрать оптим. восст. здоровья и <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string>Выберите оптим. восст. здоровья и <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_113_000">
-<string>Выб. точ. камень и отпустите <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
-<string>Выб. точ. камень и удерживайте <ICON UI_SHORTCUT_ITEM_USE>
-<string>Выб. точ. камень и щёлкните <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string>Выберите точильный камень и отпустите <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
+<string>Выберите точильный камень и удерживайте <ICON UI_SHORTCUT_ITEM_USE>
+<string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_113_001">
 <string>Выбрать точильный камень
-<string>Выбрать точильный камень и <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
+<string>Выберите точильный камень и <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>Используйте <ICON PL_DUMMY_MOVE> во время автоперемещения,<lf>чтобы управлять сейкретом вручную.<lf><lf>Нажмите <ICON PL_PT_CALL>, чтобы сразу возобновить<lf>автоперемещение, или просто немного<lf>подождите.
-<string>Используйте <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> во время<lf>автоперемещения, чтобы управлять<lf>сейкретом вручную.<lf><lf>Нажмите <ICON PL_PT_CALL>, чтобы сразу возобновить<lf>автоперемещение, или просто немного<lf>подождите.
+<string>Используйте <ICON PL_DUMMY_MOVE> во время автоперемещения,<lf>чтобы управлять сейкретом вручную.<lf><lf>Нажмите <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>, чтобы сразу возобновить<lf>автоперемещение, или просто немного<lf>подождите.
+<string>Используйте <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> во время<lf>автоперемещения, чтобы управлять<lf>сейкретом вручную.<lf><lf>Нажмите <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>, чтобы сразу возобновить<lf>автоперемещение, или просто немного<lf>подождите.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>Пошевелите приманкой с помощью <ICON PL_DUMMY_MOVE>,<lf>чтобы заинтересовать рыбу. Каждый вид<lf>рыб реагирует на определённые движения.
+<string>Пошевелите приманкой с помощью <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>чтобы заинтересовать рыбу. Каждый вид<lf>рыб реагирует на определённые движения.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>Поймать голиафа под силу только лучшим<lf>из лучших. Это состязание воли между<lf>рыбаком и его величайшей добычей. Если<lf>голиаф начнёт метаться, тяните крючок<lf>в направлении его движения с помощью <ICON PL_DUMMY_MOVE>,<lf>чтобы снизить натяжение.
+<string>Поймать голиафа под силу только лучшим<lf>из лучших. Это состязание воли между<lf>рыбаком и его величайшей добычей. Если<lf>голиаф начнёт метаться, тяните крючок<lf>в направлении его движения с помощью<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы снизить натяжение.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>Рыба выбилась из сил и стала двигаться<lf>медленнее? Это ваш шанс! Отклоняйте <ICON PL_DUMMY_MOVE><lf>вверх и вниз, чтобы притянуть её.
+<string>Рыба выбилась из сил и стала двигаться<lf>медленнее? Это ваш шанс! Нажимайте<lf><ICON PL_MOVE_FRONT> и <ICON PL_MOVE_BACK>, чтобы притянуть её.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>Если рыба близко к камню, отклоняйте <ICON PL_DUMMY_MOVE>,<lf>чтобы тянуть крючок в сторону,<lf>противоположную направлению её движения.<lf>Следите, чтобы леска не задевала камни.
+<string>Если рыба близко к камню, используйте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы тянуть крючок в сторону,<lf>противоположную направлению её движения.<lf>Следите, чтобы леска не задевала камни.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>Если это произойдёт, отклоните <ICON PL_DUMMY_MOVE><lf>в направлении прыжка рыбы<lf>и нажмите <ICON PL_SLINGER_SHOOT>, чтобы её сдержать.
+<string>Если это произойдёт, потяните крючок<lf>в направлении прыжка рыбы с помощью<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, а затем нажмите <ICON PL_SLINGER_SHOOT>, чтобы<lf>её сдержать.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR><lf>быстро покачивайте <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>.<lf><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>медленно покачивайте <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>.<lf><COLOR preset="TXT_Accent">Пошевелить приманкой:</COLOR><lf>отклоните <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>.
 <string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (быстро).<lf><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (медленно).<lf><COLOR preset="TXT_Accent">Пошевелить приманкой:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Избежание препятствий:</COLOR> используйте <ICON PL_DUMMY_MOVE>,<lf>чтобы обводить рыбу вокруг препятствий.
-<string><COLOR preset="TXT_Accent">Избежание препятствий:</COLOR> используйте <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>чтобы обводить рыбу вокруг препятствий.
+<string><COLOR preset="TXT_Accent">Избежание препятствий:</COLOR> используйте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы обводить рыбу<lf>вокруг препятствий.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
 <string>Временно обездвиживает. Часто<lf>двигайте <ICON PL_DUMMY_MOVE>, чтобы освободиться быстрее.
 <string>Временно обездвиживает. Часто нажимайте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы освободиться быстрее.
@@ -40,3 +61,77 @@
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
 <string>Временно обездвиживает. Часто<lf>двигайте <ICON PL_DUMMY_MOVE>, чтобы освободиться быстрее.
 <string>Временно обездвиживает. Часто нажимайте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы освободиться быстрее.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>Временно обездвиживает. Быстро<lf>двигайте <ICON PL_DUMMY_MOVE> или используйте очиститель.
+<string>Временно обездвиживает. Часто нажимайте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> или используйте очиститель.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>Временно обездвиживает. Быстро<lf>двигайте <ICON PL_DUMMY_MOVE> или используйте очиститель.
+<string>Временно обездвиживает. Часто нажимайте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> или используйте очиститель.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string><COLOR preset="TXT_Accent">Сматывать быстро:<lf></COLOR>быстро отклоняйте <ICON PL_DUMMY_MOVE> вверх и вниз.
+<string><COLOR preset="TXT_Accent">Сматывать быстро:<lf></COLOR>часто нажимайте <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>медленно отклоняйте <ICON PL_DUMMY_MOVE> вверх и вниз.
+<string><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>редко нажимайте <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string><COLOR preset="TXT_Accent">Подёргать леску:</COLOR><lf>многократно отклоняйте <ICON PL_DUMMY_MOVE> вниз.
+<string><COLOR preset="TXT_Accent">Подёргать леску:</COLOR><lf>многократно нажимайте <ICON PL_MOVE_BACK>.
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>Различные онлайн-функции доступны<lf>у службы поддержки. Здесь вы можете<lf>забрать контент, узнать последние<lf>новости игры, получить доступ к онлайн-<lf>магазину и многое другое.<lf><COLOR preset="TXT_Accent">Прочие функции будут добавлены позже.</COLOR>
+<string>Различные онлайн-функции доступны<lf>у службы поддержки. Здесь вы можете<lf>забрать контент, узнать последние<lf>новости игры, получить доступ к<lf>магазину Steam, и многое другое.<lf><COLOR preset="TXT_Accent">Прочие функции будут добавлены позже.</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string>Выбрать: удерживая <ICON PL_ITEM_SLIDER_OPEN>, нажмите <ICON UI_ITEM_LEFT> или <ICON UI_ITEM_RIGHT>.<lf>Использовать: отпустите <ICON PL_ITEM_SLIDER_OPEN> и нажмите <ICON PL_ITEM>.
+<string>Выбрать: нажмите <ICON UI_ITEM_LEFT> или <ICON UI_ITEM_RIGHT>.<lf>Использовать: нажмите <ICON PL_ITEM>.
+<string>Выбрать: удерживая <ICON PL_ITEM_SLIDER_OPEN>, нажмите <ICON UI_ITEM_LEFT> или <ICON UI_ITEM_RIGHT>.<lf>Использовать: отпустите <ICON PL_ITEM_SLIDER_OPEN> и нажмите <ICON PL_ITEM>.
+<string>Выбрать: нажмите <ICON UI_ITEM_LEFT> или <ICON UI_ITEM_RIGHT>.<lf>Использовать: нажмите <ICON PL_ITEM>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string>Используйте <ICON PL_WEAPON_CHANGE> для переключения между<lf>основным и дополнительным оружием.
+<string>Используйте <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> для переключения между<lf>основным и дополнительным оружием.
+<string>Используйте <ICON PL_WEAPON_CHANGE> для переключения между<lf>основным и дополнительным оружием.
+<string>Используйте <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> для переключения между<lf>основным и дополнительным оружием.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>Когда вы теряете сознание, ваши припасы<lf>пополняются. Нажмите <ICON PL_ACCESS_ITEM_BAG>, чтобы изучить<lf>содержимое сумки.
+<string>Когда вы теряете сознание, ваши припасы<lf>пополняются. Нажмите <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>, чтобы изучить<lf>содержимое сумки.
+<string>Когда вы теряете сознание, ваши припасы<lf>пополняются. Нажмите <ICON PL_ACCESS_ITEM_BAG>, чтобы изучить<lf>содержимое сумки.
+<string>Когда вы теряете сознание, ваши припасы<lf>пополняются. Нажмите <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>, чтобы изучить<lf>содержимое сумки.
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>Преследуя монстра, нажмите <ICON PL_WEAPON_OFF>, чтобы<lf>убрать оружие, а затем <ICON PL_DASH_TOGGLE>, чтобы бежать.
+<string>Преследуя монстра, нажмите <ICON PL_WEAPON_OFF>, чтобы<lf>убрать оружие, а затем <ICON PL_DASH>, чтобы бежать.
+<string>Преследуя монстра, уберите оружие (<ICON PL_WEAPON_OFF>),<lf>а затем нажмите <ICON PL_DASH> или <ICON PL_DASH_TOGGLE>, чтобы бежать.
+<string>Преследуя монстра, нажмите <ICON PL_WEAPON_OFF>, чтобы<lf>убрать оружие, а затем <ICON PL_DASH>, чтобы бежать.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>Нажмите <ICON PL_WEAPON_CHANGE>, чтобы переключиться на<lf><COLOR preset="TXT_Accent">дополнительное оружие</COLOR>. Оно будет взято<lf>из сумки для оружия на вашем сейкрете.
+<string>Нажмите <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE>, чтобы переключиться на<lf><COLOR preset="TXT_Accent">дополнительное оружие</COLOR>. Оно будет взято<lf>из сумки для оружия на вашем сейкрете.
+<string>Нажмите <ICON PL_WEAPON_CHANGE>, чтобы переключиться на<lf><COLOR preset="TXT_Accent">дополнительное оружие</COLOR>. Оно будет взято<lf>из сумки для оружия на вашем сейкрете.
+<string>Нажмите <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE>, чтобы переключиться на<lf><COLOR preset="TXT_Accent">дополнительное оружие</COLOR>. Оно будет взято<lf>из сумки для оружия на вашем сейкрете.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string>Используйте <ICON PL_PT_CALL>, чтобы сесть верхом<lf>на сейкрета и начать движение к цели<lf>в автоматическом режиме.
+<string>Используйте <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>, чтобы сесть верхом<lf>на сейкрета и начать движение к цели<lf>в автоматическом режиме.
+<string>Используйте <ICON PL_PT_CALL>, чтобы сесть верхом<lf>на сейкрета и начать движение к цели<lf>в автоматическом режиме.
+<string>Используйте <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>, чтобы сесть верхом<lf>на сейкрета и начать движение к цели<lf>в автоматическом режиме.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>Каждый раз, приступая к выполнению<lf>поручения, вы будете получать от Гильдии<lf><COLOR preset="TXT_Accent">бесплатные припасы</COLOR>. Их можно забрать<lf>в любое время, нажав <ICON PL_ACCESS_ITEM_BAG>. То, какие именно<lf><COLOR preset="TXT_Accent">припасы</COLOR> вы получите, зависит от условий<lf>охоты.
+<string>Каждый раз, приступая к выполнению<lf>поручения, вы будете получать от Гильдии<lf><COLOR preset="TXT_Accent">бесплатные припасы</COLOR>. Их можно забрать<lf>в любое время, нажав <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>. То, какие именно<lf><COLOR preset="TXT_Accent">припасы</COLOR> вы получите, зависит от условий<lf>охоты.
+<string>Каждый раз, приступая к выполнению<lf>поручения, вы будете получать от Гильдии<lf><COLOR preset="TXT_Accent">бесплатные припасы</COLOR>. Их можно забрать<lf>в любое время, нажав <ICON PL_ACCESS_ITEM_BAG>. То, какие именно<lf><COLOR preset="TXT_Accent">припасы</COLOR> вы получите, зависит от условий<lf>охоты.
+<string>Каждый раз, приступая к выполнению<lf>поручения, вы будете получать от Гильдии<lf><COLOR preset="TXT_Accent">бесплатные припасы</COLOR>. Их можно забрать<lf>в любое время, нажав <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>. То, какие именно<lf><COLOR preset="TXT_Accent">припасы</COLOR> вы получите, зависит от условий<lf>охоты.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> или <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP13 UI_BULLET_ITEM_UP> или <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> или <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP13 UI_BULLET_ITEM_UP> или <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP13 UI_BULLET_ITEM_UP> или <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> или <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP12 UI_BULLET_ITEM_UP> или <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> или <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP12 UI_BULLET_ITEM_UP> или <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Критическая дальность меняется<lf>в зависимости от снарядов. Сменить<lf>используемые снаряды можно,<lf>нажав <ICON WP12 UI_BULLET_ITEM_UP> или <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string>Для выбора покрытия нажмите <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP><lf>или <ICON WP11 UI_BULLET_ITEM_DOWN>. (Для каждого оружия подходят<lf>разные покрытия.)
+<string>Для выбора покрытия нажмите <ICON WP11 UI_BULLET_ITEM_UP><lf>или <ICON WP11 UI_BULLET_ITEM_DOWN>. (Для каждого оружия подходят<lf>разные покрытия.)
+<string>Для выбора покрытия нажмите <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP><lf>или <ICON WP11 UI_BULLET_ITEM_DOWN>. (Для каждого оружия подходят<lf>разные покрытия.)
+<string>Для выбора покрытия нажмите <ICON WP11 UI_BULLET_ITEM_UP><lf>или <ICON WP11 UI_BULLET_ITEM_DOWN>. (Для каждого оружия подходят<lf>разные покрытия.)
+<string>Для выбора покрытия нажмите <ICON WP11 UI_BULLET_ITEM_UP><lf>или <ICON WP11 UI_BULLET_ITEM_DOWN>. (Для каждого оружия подходят<lf>разные покрытия.)

@@ -4,6 +4,7 @@
 <string>장비 목록
 <string>일시 정지
 <string>옵션
+<string>언어 변경
 <string>저장
 <string>타이틀로 돌아가기
 <string>조작 키 설정
@@ -12,6 +13,7 @@
 <string>컨트롤러 기본 조작
 <string>키보드 조작 키 설정
 <string>구조신호
+<string>{0}
 <string>구조신호 발신
 <string>구조신호 정지
 <string>퀘스트에서 귀환
@@ -21,6 +23,7 @@
 <string>링크 파티
 <string>링크 파티로 초대
 <string>링크 파티에서 이탈
+<string>환경 링크로 초대
 <string>환경 링크에서 이탈
 <string>환경 링크 해산
 <string>링크 멤버 확인
@@ -34,8 +37,11 @@
 <string>동반자 대기 설정
 <string>출격시키기
 <string>대기시키기
+<string>BGM 변경
 <string>퀘스트 수주/참가
 <string>출발 화면 열기
+<string>구입
+<string>매각
 <string>커뮤니케이션
 <string>숏컷 등록
 <string>플레이 가이드
@@ -51,6 +57,10 @@
 <string>최적 상태 회복
 <string>게임 종료
 <string>결과 내역
+<string>무기 생산/강화
+<string>방어구 생산/강화
+<string>장비 BOX에서 강화
+<string>찜 목록에서 생산/강화
 <string>친구 초대하기
 <string>임시 보관 주머니
 <string>참가 의뢰 확인
@@ -59,13 +69,24 @@
 <string>초대 알림 목록
 <string>서포트 헌터 정보
 <string>포토 모드
+<string>몬스터 도감
+<string>대형 몬스터 도감
+<string>소형 몬스터 도감
+<string>환경생물 도감
+<string>환경생물(낚시) 도감
 <string>차림새 변경
 <string>퇴장 알림
 <string>월드 맵
 <string>퀘스트 정보
+<string>세크레트 장식 변경
+<string>세크레트 커스터마이즈
 <string>차림새 메뉴
+<string>지원 물자 구입
+<string>매입 신청
+<string>호석 생산/강화
 <string>추천 로비
 <string>조건 상관없이 추천 로비에 참가합니다.
+<string>기간 한정 로비
 <string>로비 검색
 <string>비공개 로비
 <string>로비 ID 검색을 통해서만 참가 가능한 비공개 로비를 생성합니다.(최대 인원수는 일반 로비와 다릅니다.)
@@ -76,17 +97,29 @@
 <string>임의의 조건에 맞는 로비를 검색합니다.
 <string>헌터 친구 검색
 <string>헌터 친구가 참가한 로비를 검색합니다.
+<string>서클 로비 검색
+<string>소속된 서클 로비를 검색하고 있습니다.
 <string>로비 ID 검색
 <string>ID로 로비를 검색합니다.
 <string>로비 선택
 <string>다른 로비로 이동
 <string>로비 이동 메뉴
 <string>퀘스트 취소
+<string>서클 관리
 <string>동반자 장비 변경
+<string>동반자 장비 생산
 <string>미션 재도전
 <string>동반자 정보
+<string>아티어 파츠 확인/매각
+<string>아티어 무기 생산
+<string>아티어 무기 복원/해체
+<string>복원 강화
+<string>해체
+<string>헌터 장비 외형 설정
+<string>동반자 장비 외형 설정
 <string>간이 캠프 철거
 <string>간이 캠프 철거/수리
+<string>간이 캠프 편집
 <string>간이 캠프 설치/철거/수리
 <string>보우건 커스터마이즈
 <string>기본 조작 방법
@@ -94,6 +127,8 @@
 <string>버튼 역할
 <string>버튼 역할(도끼 모드)
 <string>버튼 역할(검 모드)
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_3
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_4
 <string>무기 특성
 <string>추천 콤보
 <string>아이템 사용법
@@ -116,13 +151,44 @@
 <string>환경 링크에 모두 초대
 <string>환경 링크 해산
 <string>수련 가이드 표시 전환
+<string>찜 목록
 <string>로비 해산
 <string>로비 해산은 비공개 로비의 호스트인 경우만 사용할 수 있습니다.
+<string>용인의 연금술
+<string>유물의 연금술
+<string>장식품 연금
+<string>갑옥 제련
+<string>칠색금 제련
+<string>축제 기념 선물
+<string>쓰담쓰담
+<string>이름 짓기
+<string>푸기 이름을 입력합니다.<lf><lf><COLOR preset="TXT_Accent">최대 전각 10자까지 표시할 수 있습니다.</COLOR>
+<string>{0}<lf>결정하시겠습니까?
+<string>사냥벌레 관리
+<string>사냥벌레 육성
+<string>사냥벌레 구입
+<string>미션 관리
+<string>장비 확인/매각
+<string>동반자 장비 확인/매각
+<string>장식품 확인/매각
+<string>텐트 설정 메뉴
 <string>제품판 예약
 <string>동반자가 출격 상태가 되었습니다!
 <string>동반자가 대기 상태가 되었습니다.
+<string>트레이닝 설정
+<string>베이스캠프로 돌아가기
+<string>베이스캠프로 돌아갑니다.<lf>계속하시겠습니까?
 <string>퀘스트 메뉴
 <string>아이템 관리 메뉴
 <string>장비 관리 메뉴
 <string>동반자 관리 메뉴
 <string>가공점 메뉴
+<string>육성 결과 선택
+<string>앨범
+<string>추천 장비에서 생산/강화
+<string>배포 현상금 확인/보고
+<string>최신 뉴스
+<string>조사 협력: 몬스터
+<string>로그인 보너스
+<string>콘텐츠 받기
+<string>배포 현상금 확인

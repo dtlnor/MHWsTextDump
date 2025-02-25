@@ -13,6 +13,10 @@
 <string>Applica le modifiche
 <string>Esci senza applicare
 <string>Aspetto predefinito
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(Impostazioni dettagliate)
 <string>Armatura iniziale
 <string>Seleziona l'armatura iniziale.
@@ -86,6 +90,7 @@
 <string>Forma sopracciglia
 <string>Colore sopracciglia
 <string>Trasparenza sopracciglia
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>Altezza sopracciglia
 <string>Altezza interno sopracciglia
 <string>Larghezza interno sopracciglia
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>Altezza occhi
 <string>Sporgenza occhi
 <string>Distanza occhi
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>Colore denti
 <string>Colore macchie sui denti
 <string>Trasparenza macchie sui denti
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>Lunghezza del viso
 <string>Larghezza mandibola
 <string>Rotazione mandibola
@@ -173,6 +184,7 @@
 <string>Lunghezza mento
 <string>Sporgenza mento
 <string>Struttura del viso
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>Massa muscolare
 <string>Definizione corporatura
 <string>Colore pelle
@@ -295,6 +307,7 @@
 <string>Ripristina impostazioni
 <string>Ripristinare tutte le impostazioni selezionate<lf>ai valori predefiniti?
 <string>Ripristinare queste opzioni di aspetto predefinito?
+<string>Salva/Carica
 <string>Mostra tabella/Modifica
 <string>Aspetto
 <string>Impostazioni colore
@@ -306,6 +319,10 @@
 <string>No
 <string>Predefinito
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>Personalizza anteprima
@@ -365,6 +382,94 @@
 <string>Intensità fusione destra
 <string>   Luminosità pelle
 <string>   Saturazione pelle
+<string>Aspetti salvati
+<string>Nome modello
+<string>Data salvataggio
+<string>Carica
+<string>Salva
+<string>Rinomina
+<string>Riordina
+<string>Elimina
+<string><ICON UI_SUB_MENU>Salva
+<string>Modello {0}
+<string>Utilizzare questo aspetto?<lf><COLOR preset="TXT_Danger">I dati del modello attuale andranno persi.<lf>Salva i dati prima di applicare la modifica<lf>per mantenere le personalizzazioni.</COLOR>
+<string>Le impostazioni attuali includono personalizzazioni<lf>che non possiedi. Vuoi procedere applicando<lf>solo le modifiche possibili?
+<string>Salvare l'aspetto attuale?
+<string>Salvare l'aspetto attuale?<lf><COLOR preset="TXT_Danger">(Sovrascriverà i dati salvati)</COLOR>
+<string>Seleziona una voce da riordinare.
+<string>Scegli una destinazione.
+<string>Eliminare questo aspetto?
+<string>Modifica decorazioni Seikret
+<string>Personalizza Seikret
+<string>Colore pelle
+<string>Colore piumaggio interno
+<string>Colore piumaggio esterno
+<string>Foltezza del manto
+<string>Colore manto
+<string>Trasparenza motivo
+<string>Colore occhi
+<string>Occhio destro a parte
+<string>Colore occhio destro
+<string>Decorazione
+<string>Ciondolo
+<string>Modifica nome
+<string>Ti consente di cambiare il nome del tuo Seikret.
+<string>Terminare la modifica delle decorazioni?
+<string>Terminare la personalizzazione del Seikret?
+<string>Mostra accessori
+<string>Inserisci il nome del tuo Seikret.<lf><lf><COLOR preset="TXT_Accent">Limite consigliato di caratteri: 15.</COLOR>
+<string>Modifica aspetto
+<string>Personalizza tenda
+<string>Decorazioni accampamento
+<string>Tipo di sovratelo
+<string>Colore principale sovratelo
+<string>Colore secondario sovratelo
+<string>Tipo di tenda interna
+<string>Colore principale tenda interna
+<string>Colore secondario tenda interna
+<string>Modello 1
+<string>Modello 2
+<string>Questa impostazione avrà la precedenza su "Modello 1" in caso di sovrapposizione.
+<string>Modello 3
+<string>Questa impostazione avrà la precedenza su "Modello 2" in caso di sovrapposizione.
+<string>Tipo di modello 1
+<string>Tipo di modello 2
+<string>Tipo di modello 3
+<string>Colore modello 1
+<string>Colore modello 2
+<string>Colore modello 3
+<string>Tipo di timbro sovratelo 1
+<string>Tipo di timbro sovratelo 2
+<string>Tipo di timbro sovratelo 3
+<string>Tipo di timbro tenda interna 1
+<string>Tipo di timbro tenda interna 2
+<string>Tipo di timbro tenda interna 3
+<string>Colore timbro sovratelo 1
+<string>Colore timbro sovratelo 2
+<string>Colore timbro sovratelo 3
+<string>Colore timbro tenda interna 1
+<string>Colore timbro tenda interna 2
+<string>Colore timbro tenda interna 3
+<string>Trasparenza
+<string>Dimensioni
+<string>Dimensione orizzontale
+<string>Dimensione verticale
+<string>Posizione
+<string>Posizione orizzontale
+<string>Posizione verticale
+<string>Ripristina predefinite
+<string>Ripristinare le impostazioni predefinite del modello?
+<string>Sostituisci impostazioni modello
+<string>Sostituisci il modello attuale con una variante.
+<string>Inverti orizzontalmente
+<string>Inverti verticalmente
+<string>Angolo
+<string>Decorazione grande 1
+<string>Decorazione grande 2
+<string>Decorazione piccola 1
+<string>Decorazione piccola 2
+<string>Tipo di lanterna
+<string>Terminare la modifica dell'accampamento mobile?
 <string>Modifica aspetto
 <string>Terminare la modifica dell'aspetto?
 <string>Modifica <LSNR "cacciatore" "cacciatrice">
@@ -389,3 +494,35 @@
 <string>Crea un viso con caratteristiche simili
 <string>Crea un viso completamente nuovo
 <string>Utilizzare questo viso?
+<string><COLOR preset="TXT_Accent">Dati del test beta</COLOR>
+<string>Recuperare dati personaggio test beta?
+<string>Caricamenti
+<string>Carica modello
+<string>Scarica modello
+<string>Vuoi caricare e condividere il modello?
+<string>Modello caricato.<lf>Codice download:<lf>{0}
+<string><COLOR preset="TXT_Danger">Errore</COLOR><lf>Impossibile caricare modello.
+<string><COLOR preset="TXT_Danger">Impossibile caricare altri modelli.</COLOR>
+<string>Visualizza/elimina caricamenti
+<string>Codice modello caricato:<lf>{0}<lf><lf>Note: premi "Sì" per eliminare il caricamento.
+<string>Vuoi eliminare questo caricamento?
+<string>Caricamento modello eliminato.
+<string><COLOR preset="TXT_Danger">Errore</COLOR><lf>Impossibile eliminare il caricamento modello.
+<string><COLOR preset="TXT_Danger">Impossibile caricare il modello perché è stato scaricato.</COLOR>
+<string>Inserisci un codice modello.<lf><lf><COLOR preset="TXT_Accent">Nota: i codici fanno distinzione tra maiuscole e minuscole<lf>e richiedono dodici caratteri alfanumerici.</COLOR>
+<string>Trovato il seguente modello:<lf>{0}<lf>Creatore<lf>ID cacciatore: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>{0}<lf>Non è stato possibile trovare questo aspetto.<lf>{1}
+<string>{0}<lf>Non può essere usato perché è un aspetto cacciatore.<lf>{1}
+<string>{0}<lf>Non può essere usato perché è un aspetto compagno.<lf>{1}
+<string>{0}<lf>Questo aspetto non può essere usato.<lf>{1}
+<string>Salva modello
+<string>Modifica aspetto
+<string>Info creatore
+<string>Modificare questo aspetto?<lf>I dati del modello attuale andranno persi.<lf>Salva i dati prima di applicare la modifica<lf>per mantenere le personalizzazioni.
+<string>Le impostazioni attuali includono personalizzazioni<lf>che non possiedi. Vuoi procedere applicando<lf>solo le modifiche possibili?
+<string>{0}<lf>Creatore<lf>ID cacciatore: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>Abbandonare il download del modello?
+<string>Il modello caricato è stato modificato a causa<lf>di controllo dei dati del server.
+<string><COLOR preset="TXT_Danger">Impossibile eseguire l'azione perché è in corso il caricamento di un modello.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossibile eseguire l'azione perché non esistono dati salvati del personaggio.</COLOR>
+<string><COLOR preset="TXT_Danger">Devi creare un ID cacciatore per eseguire questa azione.</COLOR>

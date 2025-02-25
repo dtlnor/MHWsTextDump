@@ -1,22 +1,352 @@
-﻿<string>Balistica
+﻿<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_0
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP0
+<string>Bonus attacco
+<string>Incrementa il potere di attacco.
+<string>Occhio critico
+<string>Incrementa l'affinità.
+<string>Bonus critico
+<string>Incrementa i danni dei<lf>colpi critici.
+<string>Critico elementale
+<string>Incrementa la potenza dei danni<lf>elementali (fuoco, acqua, tuono,<lf>ghiaccio, drago) causati da colpi critici.
+<string>Tocco del maestro
+<string>L'arma non perde acutezza<lf>durante i colpi critici.
+<string>Attacco fuoco
+<string>Incrementa la potenza degli attacchi<lf>basati sull'elemento fuoco.<lf>(Non va oltre il limite massimo.)
+<string>Attacco acqua
+<string>Incrementa la potenza degli attacchi<lf>basati sull'elemento acqua.<lf>(Non va oltre il limite massimo.)
+<string>Attacco ghiaccio
+<string>Incrementa la potenza degli attacchi<lf>basati sull'elemento ghiaccio.<lf>(Non va oltre il limite massimo.)
+<string>Attacco tuono
+<string>Incrementa la potenza degli attacchi<lf>basati sull'elemento tuono.<lf>(La potenza degli attacchi elementali ha un limite massimo.)
+<string>Attacco drago
+<string>Incrementa la potenza degli attacchi<lf>basati sull'elemento drago.<lf>(Non va oltre il limite massimo.)
+<string>Attacco veleno
+<string>Incrementa l'accumulo del veleno.<lf>(L'accumulo di veleno ha un limite massimo.)
+<string>Attacco paralisi
+<string>Incrementa l'accumulo della paralisi.<lf>(L'accumulo di paralisi ha un limite massimo.)
+<string>Attacco sonno
+<string>Incrementa l'accumulo del sonno.<lf>(L'accumulo di sonno ha un limite massimo.)
+<string>Attacco scoppio
+<string>Incrementa l'accumulo dello scoppio.<lf>(L'accumulo di scoppio ha un limite massimo.)
+<string>Artigiano
+<string>Incrementa la capacità della barra<lf>acutezza. Tuttavia non aumenta la<lf>barra oltre il massimo.
+<string>Lama affilata
+<string>L'arma non perde acutezza.
+<string>Strato protettivo
+<string>L'acutezza dell'arma non diminuisce<lf>per un periodo di tempo dopo<lf>l'affilatura.
+<string>Preveggenza
+<string>I tuoi attacchi vengono<lf>respinti di meno<lf>e infliggono più danni.
+<string>Balistica
 <string>Aumenta il raggio d'azione in cui proiettili<lf>e frecce hanno la massima potenza.
+<string>Devastatore
+<string>Aumenta la potenza d'attacco quando<lf>l'acutezza dell'arma è ridotta.
+<string>Disciplina
+<string>Accelera la carica delle barre di<lf>armi che ne fanno uso e degli<lf>attacchi caricati.
+<string>Estendi potenza
+<string>Prolunga la durata del potenziamento<lf>di spade lunghe, doppie lame, falcioni<lf>insetto, spadasce e lame caricate.
+<string>Maratoneta
+<string>Rallenta il consumo di resistenza<lf>per azioni che la assorbono in modo<lf>continuato (come gli scatti).
+<string>Atleta
+<string>Riduce il consumo di resistenza<lf>quando blocchi, schivi o esegui<lf>certe altre azioni.
+<string>Guardia
+<string>Riduce la respinta e il consumo<lf>di resistenza durante la parata.
+<string>Ermetico
+<string>Consente di difendersi da<lf>attacchi normalmente imparabili.
+<string>Guardia offensiva
+<string>Incrementa brevemente la potenza<lf>d'attacco dopo una guardia eseguita<lf>con tempismo perfetto.
+<string>Sfoderata critica
+<string>Incrementa l'affinità quando<lf>esegui attacchi in estrazione.<lf>(Non attivo in cavalcata.)
+<string>Sfoderata punitrice
+<string>Rende stordenti gli attacchi in estrazione.<lf>Aumenta leggermente il potere di attacco.<lf>(Non attivo in cavalcata.)
+<string>Rinfodero veloce
+<string>Accelera il rinfodero dell'arma.
+<string>Battitore
+<string>Rende più facile stordire i mostri.
+<string>Ruba resistenza
+<string>Incrementa la capacità di alcuni<lf>attacchi di affaticare i mostri.
+<string>Maestro del corno
+<string>Prolunga gli effetti delle melodie<lf>suonate con il corno da caccia.<lf>(Effetto rimosso al cambio d'arma.)
+<string>Artiglieria
+<string>Potenzia attacchi esplosivi con cartucce,<lf>fuoco wyvern, fiale di lama caricata<lf>e proiettili esplosivi.
+<string>Bonus capacità
+<string>Incrementa la ricarica, la capacità di<lf>cartucce della lancia-fucile e il numero<lf>massimo di fiale della lama caricata.
+<string>Bonus munizioni speciali
+<string>Aumenta i danni di munizioni<lf>speciali, perfora draghi, Mille<lf>draghi e traccianti per balestra.
+<string>Tiri normali
+<string>Incrementa la potenza d'attacco<lf>dei proiettili normali, delle frecce<lf>normali e del tiro esotico volante.
+<string>Colpi perforanti
+<string>Aumenta l'attacco delle munizioni<lf>perforanti balestra,<lf>perfora draghi e mille draghi.
+<string>Bonus ventaglio/tiro potente
+<string>Aumenta l'attacco dei proiettili<lf>ventaglio della balestra e del tiro<lf>potente e tiro rapido dell'arco.
+<string>Fuoco rapido+
+<string>Migliora il fuoco rapido della<lf>balestra leggera.
 <string>Affilatura veloce
 <string>Accelera l'affilatura dell'arma<lf>quando utilizzi una cote.
+<string>Trasforma rapido
+<string>Incrementa la velocità di cambio e<lf>la potenza delle spadasce e delle<lf>lame caricate.
+<string>Maestro di carica
+<string>Incrementa la potenza elementale<lf>e lo stato alterato<lf>per gli attacchi caricati.
+<string>Ammortizza danni
+<string>Disattiva le reazioni ai<lf>danni quando colpisci o vieni<lf>colpito da un amico.
+<string>Applica veleno
+<string>Consente di applicare<lf>il rivestimento veleno.
+<string>Applica paralisi
+<string>Consente di applicare<lf>il rivestimento paralisi.
+<string>Applica sonno
+<string>Consente di applicare<lf>il rivestimento sonno.
+<string>Applica scoppio
+<string>Consente di applicare<lf>il rivestimento scoppio.
+<string>Applica fatica
+<string>Consente di applicare<lf>il rivestimento fatica.
+<string>Minaccia aerea
+<string>Incrementa i danni inflitti<lf>dagli attacchi in salto.
+<string>Stato critico
+<string>Incrementa gli effetti delle<lf>alterazioni (paralisi, veleno, sonno, scoppio)<lf>di un colpo critico a segno.
+<string>Carica stordente
+<string>Aumenta il potere di stordimento<lf>quando colpisci un mostro con un<lf>attacco caricato del martello.
+<string>Istigatore
+<string>Incrementa attacco e affinità quando<lf>i mostri grandi sono infuriati.
+<string>Forma perfetta
+<string>Incrementa l'attacco quando<lf>la salute è al massimo.
+<string>Risentimento
+<string>Incrementa l'attacco quando subisci<lf>danni temporanei (zona rossa della<lf>barra salute).
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m774473472
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm774473472
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1540920320
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1540920320
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1196219264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1196219264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1950413440
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1950413440
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1406914944
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1406914944
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m812084224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm812084224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1960395264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1960395264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_56719788
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP56719788
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_424767232
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP424767232
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_654153152
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP654153152
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_471964960
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP471964960
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1582392192
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1582392192
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1724907776
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1724907776
+<string>Punto debole
+<string>Incrementa l'affinità degli attacchi<lf>che sfruttano i punti deboli<lf>e le ferite di un mostro.
+<string>Forza latente
+<string>Incrementa temporaneamente l'affinità<lf>e riduce il consumo di resistenza al<lf>verificarsi di determinate condizioni.
+<string>Massima potenza
+<string>Incrementa l'affinità quando<lf>la resistenza è al massimo<lf>per un certo periodo di tempo.
 <string>Super resistenza
 <string>Accelera il recupero di resistenza.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m111868368
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm111868368
+<string>Bonus difesa
+<string>Incrementa la difesa. Fai salire<lf>di livello per aumentare<lf>anche le resistenze.
 <string>Angelo custode
 <string>Fornisce una probabilità predefinita<lf>di ridurre i danni subiti.
+<string>Bonus cura
+<string>Incrementa la quantità di salute<lf>recuperata durante una cura.
 <string>Guarigione
 <string>Accelera il recupero dai danni<lf>temporanei (zona rossa della<lf>barra salute).
 <string>Pasto veloce
 <string>Incrementa la velocità di consumo<lf>della carne e degli oggetti.
+<string>Protezione udito
+<string>Protegge dai ruggiti<lf>di alcuni mostri grandi.
+<string>Paravento
+<string>Protegge dalla pressione del vento.
+<string>Antisismico
+<string>Protegge dai sussulti del terreno.
+<string>Schivata
+<string>Prolunga il periodo di<lf>invulnerabilità di una schivata.
+<string>Schivata estesa
+<string>Aumenta la distanza di schivata.
+<string>Resistenza fuoco
+<string>Incrementa la resistenza al fuoco.<lf>Fai salire di livello per aumentare<lf>anche la difesa.
+<string>Resistenza acqua
+<string>Incrementa la resistenza all'acqua.<lf>Fai salire di livello per aumentare<lf>anche la difesa.
+<string>Resistenza ghiaccio
+<string>Incrementa la resistenza al ghiaccio.<lf>Fai salire di livello per aumentare<lf>anche la difesa.
+<string>Resistenza tuono
+<string>Incrementa la resistenza al tuono.<lf>Fai salire di livello per aumentare<lf>anche la difesa.
+<string>Resistenza drago
+<string>Incrementa la resistenza al drago.<lf>Fai salire di livello per aumentare<lf>anche la difesa.
+<string>Resistenza malus
+<string>Protegge da tutti i malus<lf>elementali.
+<string>Resistenza veleno
+<string>Riduce i danni durante l'avvelenamento.
+<string>Resistenza paralisi
+<string>Riduce la durata della paralisi.
+<string>Resistenza sonno
+<string>Riduce la durata del sonno.
 <string>Resistenza stordimento
 <string>Riduce la durata dello stordimento.
+<string>Resistenza scoppio
+<string>Protegge dal malus da scoppio.
+<string>Mobilità acquatica/fango
+<string>Permette di resistere alle<lf>limitazioni del movimento quando<lf>si è in acqua, fango oleoso o ruscelli.
+<string>Botanico
+<string>Incrementa la quantità di erbe e<lf>altri oggetti consumabili ricevuti.
+<string>Geologo
+<string>Incrementa il numero di oggetti<lf>che ottieni nei punti di raccolta.
+<string>Spaccamostri
+<string>Rompere le parti è più facile<lf>e aumenta i danni se si distrugge<lf>una ferita con un colpo preciso.
 <string>Bombardiere
 <string>Incrementa i danni degli oggetti<lf>esplosivi.
+<string>Fungomante
+<string>Consente di digerire funghi non<lf>commestibili e di trarne effetti<lf>benefici.
+<string>Estensione oggetti
+<string>Prolunga la durata degli effetti<lf>di alcuni oggetti.
+<string>Ampia area
+<string>Consente di condividere gli effetti<lf>di alcuni oggetti con gli alleati<lf>vicini.
 <string>Pasto gratuito
 <string>Fornisce una determinata probabilità<lf>di consumare gratuitamente un cibo<lf>o una bevanda.
+<string>Eroismo
+<string>Incrementa attacco e difesa quando<lf>la salute si riduce al 35% o meno.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1522720256
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1522720256
+<string>Antisussulto
+<string>Previene la respinta e altre<lf>reazioni causate da danni lievi.
+<string>Maestro saltatore
+<string>Impedisce agli attacchi di<lf>sbilanciarti durante un salto.
+<string>Resistenza fame
+<string>Ritarda la riduzione della<lf>resistenza massima dovuta<lf>al passare del tempo.
+<string>Salto nel buio
+<string>Consente di schivare in tuffo i mostri<lf>grandi anche saltando verso di loro<lf>ed estende la distanza dei tuffi.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1110806016
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1110806016
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1577668736
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1577668736
+<string>Scalatore
+<string>Riduce il consumo di resistenza<lf>quando sali sui rampicanti.
+<string>Contrattacco
+<string>Incrementa brevemente il potere<lf>d’attacco dopo una respinta.
+<string>Incursione
+<string>Aumenta attacco e affinità quando<lf>attacchi un mostro grande afflitto da<lf>veleno o paralisi.
+<string>Coalescenza
+<string>Aumenta temporaneamente l'attacco<lf>elementale e gli effetti di stato se<lf>guarisci da malus o alterazioni.
+<string>Catena
+<string>Aumenta gradualmente attacco e danno<lf>elementale continuando a sferrare<lf>attacchi (in base all'arma).
+<string>Flusso di adrenalina
+<string>Incrementa temporaneamente l'attacco<lf>dopo aver schivato con tempismo<lf>perfetto l'attacco di un mostro.
+<string>Agguato
+<string>Incrementa brevemente i danni<lf>inflitti a mostri grandi con un<lf>attacco furtivo riuscito.
+<string>Senso di Neopteron
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1968728576
+<string>Mimetizzazione Neopteron
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1685697920
 <string>Cuoio flessibile
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1648695680
+<string>Cuoio scivoloso
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP451472896
 <string>Maestria nelle arrampicate
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1487598336
+<string>Strati di scaglie
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1664678272
 <string>Pelle tosta
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1998066176
+<string>Pelle ammaliante
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP583598144
+<string>Grazia del predatore
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1769550080
+<string>Furia del predatore
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2107855744
+<string>Battito di guardiano
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1305836672
+<string>Protezione di guardiano
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm2041451904
+<string>Saggezza impartita
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1642078720
 <string>Potenza di Doshaguma
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm62248528
+<string>Voltaggio Rey Dau
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP539707072
+<string>Copertura Uth Duna
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2104075392
+<string>Ribelle Nu Udra
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1980404096
+<string>Rivolta di Jin Dahaad
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm215826112
+<string>Fiamma Rathalos
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm3666104
+<string>Protezione del Gravios
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm418246240
+<string>Spirito di Blangonga
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP741102208
+<string>Sopruso del Gore Magala
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP722735744
+<string>Vitalità di Arkveld guardiano
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1432692352
+<string>Fame dell'Arkveld
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm964369920
+<string>Forza Odogaron ebano
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP918165056
+<string>Tempra di Anjanath tonante
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1768553344
+<string>Vigore di Xu Wu
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1468066176
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1890580224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1890580224
+<string>Resistenza sanguinamento
+<string>Protegge dal sanguinamento.
+<string>Pelle di ferro
+<string>Protegge da difesa ridotta.
+<string>Resistenza fetore
+<string>Protegge dal fetore.
+<string>Campeggiatore
+<string>Migliora le abilità di pesca,<lf>grigliata e trasporto.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m285123456
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm285123456
+<string>Gregario
+<string>Potenzia i compagni Felyne.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1203508096
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1203508096
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_457912640
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP457912640
+<string>Esperto di sopravvivenza
+<string>Ripristina salute extra interagendo<lf>con elementi ambientali.
+<string>Attacco a sorpresa
+<string>Incrementa l'efficacia di attacchi<lf>e oggetti accecanti.
+<string>Entomologo
+<string>Riduce la probabilità di distruggere<lf>i corpi di piccoli mostri insetto,<lf>consentendo di ricavarne oggetti.
+<string>Manutenzione
+<string>Riduce l'attesa prima che uno strumento<lf>dedicato possa essere riutilizzato.
+<string>Intimidatore
+<string>Riduce la probabilità che i mostri<lf>piccoli ti attacchino dopo averti<lf>individuato. (Non ha effetto su alcuni mostri.)
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_309360992
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP309360992
+<string>Aumenta veleno
+<string>Prolunga la durata degli effetti<lf>del veleno sui mostri.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1478544256
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1478544256
+<string>Adattabilità
+<string>Protegge dai danni ambientali,<lf>come il calore o il freddo.
+<string>Miglioramento
+<string>In missione, l'attacco e la difesa<lf>aumentano col tempo. (Valori massimi<lf>raggiunti dopo 30 minuti.)
+<string>Frustata
+<string>Rende più semplice infliggere ferite<lf>e aggiunge danni non elementali<lf>a quelli già causati.
+<string>Resistenza vincolo
+<string>Protegge dallo stato tela di ragno<lf>e dal malus da gelo.
+<string>Assorbi elementi
+<string>Dopo aver subito danni elementali,<lf>conferisce temporaneamente effetti<lf>elementali. (Periodo di attesa dopo attivazione.)
+<string>Conversione elementale
+<string>Dopo aver subito danni elementali,<lf>conferisce temporaneamente l'elemento<lf>drago. (Periodo di attesa dopo attivazione.)
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1150634496
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1150634496
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1437098880
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1437098880
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_504506560
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP504506560
+<string>Antivirus
+<string>Una volta infetto, rende più facile<lf>superare la frenesia, e una volta<lf>curato, aumenta l'affinità.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1702725248
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1702725248
+<string>Colpo tetrade
+<string>Aumenta l'affinità di munizioni e<lf>rivestimento balestra dal quarto<lf>colpo e l'attacco del quarto e sesto<lf>colpo.
+<string>Primo colpo
+<string>Aumenta la velocità di ricarica della<lf>balestra e la potenza dei proiettili<lf>quando completamente carichi.

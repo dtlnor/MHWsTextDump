@@ -9,6 +9,37 @@
 <string>Pronóstico
 <string>Ciertas acciones pueden cambiar el pronóstico ambiental.
 <string>Información detallada
+<string>Ecología de los monstruos
+<string>Ecología de fauna local
+<string>Ecología de fauna acuática
+<string>Hábitats
+<string>Características
+<string>Notas de investigación
+<string>Ataque especial
+<string>Estrategia sugerida
+<string>Consejos útiles
+<string>Efectividad
+<string>Estrategia detallada
+<string>Ataque elemental recomendado
+<string>Efectos de estado efectivos
+<string>Objetos efectivos
+<string>Materiales obtenibles
+<string>Materiales de rango bajo
+<string>Materiales de rango alto
+<string>Objetos obtenibles
+<string>Frecuencia
+<string>Disponibilidad/probabilidad
+<string>Registro de cazador
+<string>Cazados
+<string>Abatidos
+<string>Capturados
+<string>Tamaño
+<string>Más grande
+<string>Más pesado
+<string>Tamaño
+<string>Más pequeño
+<string>Objetos/Habilidades relacionadas
+<string>Títulos desbloqueables
 <string>Caza
 <string>Batida
 <string>Captura
@@ -16,14 +47,20 @@
 <string>Transporte
 <string>Especial
 <string>Iniciar estudio de campo
+<string>Guardar como investigación
 <string>Crear misión
 <string>Aceptar misión
+<string>¿Quieres gastar {0} <PLURAL {0} "punto" "puntos"><lf>para guardar como investigación?
+<string>Guardado como investigación.
+<string><COLOR preset="TXT_Danger">No tienes suficientes puntos del gremio.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado el progreso necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado el progreso necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado el rango de cazador necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte porque no has alcanzado<lf>el rango de cazador necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">No se ha podido iniciar el estudio de campo.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al iniciar el estudio de campo.</COLOR>
+<string><COLOR preset="TXT_Danger">No se puede guardar como investigación.</COLOR>
+<string><COLOR preset="TXT_Danger">Error al guardar como investigación.</COLOR>
 <string><COLOR preset="TXT_Danger">Los encargos completados no se pueden repetir.</COLOR>
 <string><COLOR preset="TXT_Danger">Uno o más jugadores no se han podido unir a causa de sus opciones multijugador.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes unirte porque ya se ha alcanzado el número máximo de personas.</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">No has cumplido los requisitos para aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al aceptar/unirte a la misión.</COLOR>
+<string><COLOR preset="TXT_Danger">Ya se ha alcanzado el número máximo de investigaciones guardadas. No puedes guardar más.</COLOR>
+<string><COLOR preset="TXT_Danger">Esta investigación ya se ha guardado.</COLOR>
 <string><COLOR preset="TXT_Danger">No se ha podido iniciar el estudio de campo: un miembro vinculado está viendo los resultados de la misión.</COLOR>
 <string>Volver a la pantalla del título
 <string>Reintentar
@@ -50,6 +89,7 @@
 <string>Recompensas tareas secundarias
 <string>Recompensas de misión
 <string>Recompensas extra
+<string>Baúl de tasación
 <string>Recompensas extra por objetivo
 <string>Recom. monstruos objetivos
 <string>Recom. materiales generales
@@ -59,14 +99,27 @@
 <string>Volviendo<lf>a la base
 <string>Inicio<lf>de misión
 <string>Misión<lf>aceptada
+<string>Todas las misiones
 <string>Encargos
 <string>Misiones opcionales
 <string>Estudio de campo
-<string>Opciones
+<string>Historial de estudio de campo
+<string>Investigaciones
+<string>Investigación no guardada
+<string>Investigación guardada
+<string>Misiones de evento
+<string>Misiones de la Arena
+<string>Misiones desafío
+<string>Ajustes
+<string>Hogar
 <string>Ver todo
 <string>Misiones de miembros de sala
 <string>Misiones de bengala de auxilio
 <string>Misiones de miembros vinculados
+<string>Coste
+<string>Inicio de estudio de campo
+<string>Quedan
+<string>{0}
 <string>Opciones de acceso a la misión
 <string>Ajusta el método de aceptación para unirse a misiones. <COLOR preset="TXT_Accent">(Se aceptará automáticamente a los miembros vinculados que reciben una invitación).</COLOR>
 <string>Autoaceptar
@@ -108,8 +161,13 @@
 <string>¡{0} quiere hablar!
 <string>Misión disponible: {0}
 <string>{0}: ¡a punto para informar!
+<string>¡Mejora de recursos activa! ({0} <PLURAL {0} "día" "días">)
+<string>¡Está atacando los asentamientos locales!
+<string>Problemas en un asentamiento: ¡Monstruos!
+<string>Cázalo para conseguir una bonus de recolección
+<string>P. Escarcha: ¡ha aparecido {0}!
 <string>Miembros máximos
-<string>Indica el número máximo de jugadores que se pueden unir a misiones. <COLOR preset="TXT_Accent">(El número variará según el número máximo de miembros vinculados).</COLOR>
+<string>Indica el máximo número de jugadores que se pueden unir a misiones. <COLOR preset="TXT_Accent">(El número variará según el número máximo de miembros vinculados).</COLOR>
 <string>1
 <string>2
 <string>3
@@ -126,7 +184,7 @@
 <string>Contraseña
 <string>Indica una contraseña de cuatro números. <COLOR preset="TXT_Accent">(No será necesario para los miembros vinculados que hayan recibido una invitación).</COLOR>
 <string>Permisos de plataformas
-<string>Selecciona desde qué plataformas se pueden unir los jugadores a las misiones. <COLOR preset="TXT_Accent">(Los miembros vinculados con una invitación a la misión se pueden unir, sin importar la plataforma).</COLOR>
+<string>Elige desde qué plataforma pueden unirse jugadores a las misiones. <COLOR preset="TXT_Accent">(Los miembros vinculados con invitación pueden unirse sin importar la plataforma).</COLOR>
 <string>Busca misiones que hayan seleccionado "Todas las plataformas" en los ajustes de reclutamiento.
 <string>Aunque otro jugador esté usando la misma plataforma, no aparecerá en la búsqueda si han deshabilitado el juego interplataforma en el menú de título.
 <string>Al deshabilitar el juego interplataforma en el menú de título, las búsquedas solo mostrarán misiones de jugadores con los mismos ajustes.
@@ -157,9 +215,16 @@
 <string>Ascendente
 <string>Descendente
 <string>Recomendado
+<string>Eliminar investigación
+<string>¿Quieres eliminar la investigación seleccionada?<lf><lf>Aviso: Si la misión sigue en tu <COLOR preset="TXT_Accent">historial de<lf>estudio de campo</COLOR>, el historial también se borrará.
+<string>Investigación eliminada.
+<string>El número de veces que puedes aceptar la misión<lf>seleccionada es: {0}.<lf>¿Aceptar la misión y guardar?
 <string>¿Aumentar temporalmente el máximo<lf>número de jugadores para las misiones?<lf><COLOR preset="TXT_Accent">(No se puede cambiar de nuevo<lf>hasta que se complete la misión).</COLOR>
 <string>Encargos
 <string>Misiones opcionales
+<string>Historial de estudios de campo (más reciente {0})
+<string>Investigaciones ({0} <PLURAL {0} "guardada" "guardadas">)
+<string>Misiones de evento
 <string>Misiones de miembros vinculados ({0})
 <string>Misiones de miembros vinculados
 <string>Misiones de bengala de auxilio ({0})

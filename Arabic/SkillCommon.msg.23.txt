@@ -1,22 +1,352 @@
-﻿<string>طلقات المنجنيق
+﻿<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_0
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP0
+<string>تعزيز الهجوم
+<string>تزيد من قوة الهجوم.
+<string>عين الحسم
+<string>تزيد من نسبة الضرر.
+<string>تعزيز الحسم
+<string>تزيد من أضرار الضربات الحاسمة.
+<string>العناصر الحرجة
+<string>تزيد الضرر العناصري (النار، والماء،<lf>والرعد، والثلج، والتنين)<lf>عند تنفيذ ضربات حاسمة.
+<string>مهارة المعلّم
+<string>تمنع <LSNR "سلاحكَ" "سلاحكِ"> من فقدان<lf>حدته أثناء الضربات الحاسمة.
+<string>هجوم النار
+<string>تزيد من قوة هجوم عنصر النار.<lf>(لقوة الهجوم العناصري<lf>حد أقصى).
+<string>هجوم الماء
+<string>تزيد من قوة هجوم عنصر الماء.<lf>(لقوة الهجوم العناصري<lf>حد أقصى).
+<string>هجوم الثلج
+<string>تزيد من قوة هجوم عنصر الثلج.<lf>(لقوة الهجوم العناصري<lf>حد أقصى).
+<string>هجوم الرعد
+<string>تزيد من قوة هجوم عنصر الرعد.<lf>(لقوة الهجوم العناصري<lf>حد أقصى).
+<string>هجوم التنين
+<string>تزيد من قوة هجوم عنصر التنين.<lf>(لقوة الهجوم العناصري<lf>حد أقصى).
+<string>هجوم السم
+<string>تزيد من معدل اشتداد السم.<lf>(اشتداد السم له حد أقصى).
+<string>هجوم الشلل
+<string>تزيد من معدل اشتداد الشلل.<lf>(اشتداد الشلل له حد أقصى).
+<string>هجوم النوم
+<string>تزيد من معدل اشتداد النوم.<lf>(اشتداد النوم له حد أقصى).
+<string>هجوم الانفجار
+<string>تزيد من معدل اشتداد الانفجار.<lf>(اشتداد الانفجار له حد أقصى).
+<string>الحرفية
+<string>تزيد من مقياس حدة السلاح.<lf>إلا إنها لن تؤدي إلى تجاوز<lf>المقياس للحد الأقصى.
+<string>شحذ حاد
+<string>تمنع سلاحك<lf>من فقدان حِدته.
+<string>ملمّع حماية
+<string>لا تقل حدة السلاح<lf>لفترة محددة من الزمن<lf>بعد شحذه.
+<string>عين العقل
+<string>تحيد هجماتك بصورة أقل وتُلحق<lf>المزيد من الضرر بالأهداف الصعبة.
+<string>طلقات المنجنيق
 <string>يوسع النطاق الذي تتمتع فيه<lf>الذخيرة والسهام بالقوة القصوى.
+<string>مستخدم النبوت
+<string>تزيد قوة الهجوم عند<lf>انخفاض حِدة سلاحك.
+<string>التركيز
+<string>تزيد من معدّل حشو الأسلحة<lf>ذات المقاييس ومعدّل الشحن في الأسلحة<lf>ذات الهجمات المشحونة.
+<string>إطالة أمد القوة
+<string>تسمح ببقاء السيوف الطويلة والنصال المزدوجة<lf>وسيوف الحشرات عريضة النصال وفؤوس السيف<lf>والنصال المشحونة مفعّلة لفترة أطول.
+<string>عداء الماراثون
+<string>يبطئ استنزاف قوة التحمل<lf>في الحركات التي تستنزف<lf>قوة التحمل باستمرار (مثل الاندفاع).
+<string>بنية الجسم
+<string>تقلل استنزاف قوة التحمل<lf>أثناء التفادي أو الصد أو<lf>بعض الحركات الأخرى.
+<string>التصدي
+<string>تقلل من التراجع واستنزاف<lf>قوة التحمل أثناء الدفاع.
+<string>زيادة الحماية
+<string>تتيح لك التصدي للهجمات<lf>غير القابلة للتصدي في العادة.
+<string>التصدي للهجمات
+<string>تزيد من قوة الهجوم مؤقتًا<lf>بعد تنفيذ تصدٍ<lf>توقيته مثالي.
+<string>السحب الحرج
+<string>تزيد من نسبة إلحاق الضرر <lf>عند شن هجمات السحب.<lf>(غير فعالة أثناء الركوب)
+<string>سحب عقابي
+<string>تضيف تأثيرًا صاعقًا إلى هجمات السحب<lf>وتزيد من الهجوم بمقدار ضئيل.<lf>(غير فعالة أثناء الركوب).
+<string>الغمد السريع
+<string>تسرّع غمد السلاح.
+<string>الملاكم الشرس
+<string>تسهّل من صعق الوحوش.
+<string>سرقة قوة التحمل
+<string>تزيد من قوة هجمات<lf>محددة لإنهاك الوحوش.
+<string>قرن الملحّن
+<string>تطيل مدة تأثير ألحان<lf>قرن الصيد. (تفقد التأثير<lf>عند تغيير الأسلحة).
+<string>المدفعية
+<string>تعزز الهجمات المتفجرة مثل<lf>القذائف ونيران وايفرن، وهجمات قارورة<lf>النصل المشحون والذخيرة اللزجة.
+<string>تحميل الصدف
+<string>تُحسن من إعادة التلقيم،<lf>وتزيد من سعة قذيفة بندقية الرماح<lf>وسعة قارورة النصل المشحون.
+<string>تعزيز الذخيرة الخاصة
+<string>تزيد من قوة الذخيرة الخاصة<lf>لبندقية القوس وثاقب التنين<lf>وألف تنين والمتعقب للقوس.
+<string>طلقات عادية
+<string>تزيد قوة هجوم الذخيرة<lf>العادية والأسهم العادية<lf>وطلقة (سوالو) الطائر.
+<string>طلقات الثقب
+<string>تزيد هجوم ذخيرة الثقب<lf>لبندقية القوس وثاقب التنين<lf>والألف تنين للقوس.
+<string>طلقات القوة/الانتشار
+<string>تزيد هجوم الذخيرة المنتشرة<lf>لبندقية القوس وطلقات القوة<lf>والطلقات السريعة للقوس.
+<string>زيادة إطلاق نار سريع
+<string>تحسن ضرب سريع لبندقية قوس خفيفة.
 <string>الشحذ السريع
 <string>تسرّع شحذ الأسلحة<lf>عند استخدام حجر الشحذ.
+<string>مورف السريع
+<string>تزيد من سرعة تبديل الوضع<lf>والقوة لفؤوس السيف والنصال المشحونة.
+<string>سيد الشحن
+<string>تزيد اشتداد قوة العنصر<lf>والوضعية للهجمات المشحونة.
+<string>ممتص الصدمات
+<string>تعطل تفاعلات الضرر عند إصابة<lf>صديق أو عند إصابة الصديق <LSNR "لكَ" "لكِ">.
+<string>خاصية السم
+<string>تسمح <LSNR "لكَ" "لكِ"> باستخدام أغطية السم.
+<string>خاصية الشلل
+<string>تسمح <LSNR "لكَ" "لكِ"> باستخدام أغطية الشلل.
+<string>خاصية النوم
+<string>تسمح <LSNR "لكَ" "لكِ"> باستخدام أغطية النوم.
+<string>خاصية الانفجار
+<string>تسمح <LSNR "لكَ" "لكِ"> باستخدام أغطية الانفجار.
+<string>خاصية الإرهاق
+<string>تتيح <LSNR "لكَ" "لكِ"> تطبيق أغطية الإرهاق.
+<string>هجمات جوّية
+<string>تزيد من الضرر الناجم<lf>عن الهجمات أثناء القفز.
+<string>الوضعية الحرجة
+<string>تزيد التأثيرات الغريبة للوضعية<lf>(الشلل، السم، النوم، الانفجار)<lf>عند تسديد ضربات حاسمة.
+<string>الشحن
+<string>تزيد القوة من أجل التسبب<lf>في الصعق عند إصابة وحش<lf>بهجوم مطرقة مشحون.
+<string>المشاغب
+<string>تزيد قوة الهجوم ونسبة<lf>إلحاق الضرر عند إثارة غضب<lf>الوحوش الضخمة.
+<string>ذروة الأداء
+<string>يزيد الهجوم عند<lf>اكتمال مقياس صحتك.
+<string>الاستياء
+<string>يزيد الهجوم عند إصابتك بضرر<lf>قابل للتعافي (الجزء الأحمر<lf>من مقياس الصحة الخاص بك).
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m774473472
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm774473472
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1540920320
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1540920320
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1196219264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1196219264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1950413440
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1950413440
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1406914944
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1406914944
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m812084224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm812084224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1960395264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1960395264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_56719788
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP56719788
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_424767232
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP424767232
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_654153152
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP654153152
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_471964960
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP471964960
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1582392192
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1582392192
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1724907776
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1724907776
+<string>استغلال نقاط الضعف
+<string>تزيد من نسبة ضرر الهجمات<lf>التي تستغل نقاط ضعف<lf>الوحش وجروحه.
+<string>القوة الكامنة
+<string>تزيد نسبة إلحاق الضرر<lf>وتقليل استنزاف قوة التحمل<lf>مؤقتًا عند استيفاء بعض الشروط.
+<string>القوة القصوى
+<string>تزيد نسبة إلحاق الضرر إذا ظلّت<lf>قوة التحمل مكتملة لفترة من الوقت.
 <string>اندفاع قوة التحمل
 <string>يسرّع استعادة قوة التحمل.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m111868368
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm111868368
+<string>تعزيز الدفاع
+<string>يزيد من الدفاع. ويحسن<lf>المقاومة في مستويات أعلى.
 <string>المباركة المقدسة
 <string>تمنح فرصة محددة سلفًا<lf>لتقليل تأثير الضرر الذي يصيبك.
+<string>زيادة التعافي
+<string>تزيد من النسبة المستردّة<lf>عند استعادة الصحة.
 <string>سرعة التعافي
 <string>تسرّع الشفاء من<lf>الضرر القابل للتعافي<lf>(الجزء الأحمر من مقياس الصحة).
 <string>الأكل السريع
 <string>تزيد من سرعة تناول<lf>اللحم واستهلاك العناصر.
+<string>سدادات الأذن
+<string>توفر الحماية من بعض أصوات<lf>زئير الوحوش الضخمة.
+<string>صد الرياح
+<string>توفر الحماية من ضغط الرياح.
+<string>مقاومة الزلزال
+<string>توفر الحماية<lf>من الهزّات الأرضية.
+<string>فترة التفادي
+<string>تطيل مدة المناعة<lf>عند التفادي.
+<string>توسيع مدى التفادي
+<string>تزيد من مدى التفادي.
+<string>مقاومة النار
+<string>تزيد من مقاومة النار.<lf>وتحسن الدفاع في مستويات أعلى.
+<string>مقاومة الماء
+<string>تزيد من مقاومة الماء.<lf>وتحسن الدفاع في مستويات أعلى.
+<string>مقاومة الثلج
+<string>تزيد من مقاومة الثلج.<lf>وتحسن الدفاع في مستويات أعلى.
+<string>مقاومة الرعد
+<string>تزيد من مقاومة الرعد.<lf>وتحسن الدفاع في مستويات أعلى.
+<string>مقاومة التنين
+<string>تزيد من مقاومة التنين.<lf>وتحسن الدفاع في مستويات أعلى.
+<string>مقاومة الوباء
+<string>توفر الحماية<lf>من كل الأوبئة العناصرية.
+<string>مقاومة السم
+<string>تقلل الضرر عند الإصابة بالسم.
+<string>مقاومة الشلل
+<string>تقلل فترة الإصابة بالشلل.
+<string>مقاومة النوم
+<string>تقلل فترة النوم.
 <string>مقاومة الصعق
 <string>تقلل فترة تأثير الصعق.
+<string>مقاومة الانفجار
+<string>توفر الحماية من الانفجار.
+<string>حركة مائية/طمي النفط
+<string>تمنح مقاومة ضد ضعف الحركة<lf>أثناء <LSNR "وجودكَ" "وجودكِ"> في الماء<lf>أو طمي النفط أو الجداول.
+<string>عالمة النبات
+<string>تزيد من كمية الأعشاب والعناصر<lf>الاستهلاكية الأخرى التي تجمعها.
+<string>الجيولوجي
+<string>تزيد عدد العناصر التي <LSNR "تحصل" "تحصلين"> عليها<lf>عند تجميع النقاط.
+<string>كاسر الأجزاء
+<string>يجعل كسر أجزاء الوحش الكبيرة أسهل،<lf>ويزيد من الضرر الملحق عند تدمير جرح<lf>باستخدام ضربة مُركزة.
 <string>المدفعي
 <string>تزيد من ضرر<lf>العناصر المتفجرة.
+<string>آكل الفطر
+<string>تسمح لك بهضم الفطر<lf>الذي قد لا يكون غير قابل<lf>للأكل وربح تأثيراته المتميزة.
+<string>تمديد العنصر
+<string>تطيل مدة بعض<lf>تأثيرات العناصر.
+<string>المدى الكبير
+<string>تجعل تأثيرات بعض العناصر<lf>تشمل الحلفاء المجاورين.
 <string>وجبة مجانية
 <string>تمنحك فرصة محددة سلفًا<lf>لاستهلاك عنصر طعام أو<lf>شراب مجانًا.
+<string>أعمال بطولية
+<string>تزيد من قوة الهجوم ومن الدفاع<lf>عند انخفاض مقياس الصحة إلى 35% أو أقل.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1522720256
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1522720256
+<string>الثبات
+<string>تمنع التراجع وردود الفعل<lf>الأخرى لضرر صغير.
+<string>القفزة البارعة
+<string>تمنع الهجمات من إطاحتك<lf>إلى الخلف أثناء القفز.
+<string>مقاومة الجوع
+<string>تقلل استنزاف قوة التحمل<lf>القصوى مع الوقت.
+<string>قفزة الثقة
+<string>تتيح التملص من الوحوش الضخمة<lf>عن طريق القفز تجاهها<lf>كما تزيد من مسافة القفزة.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1110806016
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1110806016
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1577668736
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1577668736
+<string>خطاف
+<string>تقلل من استنزاف قوة التحمل<lf>أثناء تسلق شجيرات الكروم.
+<string>الضربة العكسية
+<string>تزيد قوة الهجوم مؤقتًا<lf>بعد التعرض لإطاحة للخلف.
+<string>غارة
+<string>تزيد من قوة الهجوم ونسبة الضرر<lf>ضد الوحوش الكبيرة المتأثرة<lf>بالسم أو الشلل.
+<string>الالتحام
+<string>تزيد مؤقتًا قوة الهجوم العناصري<lf>وتأثيرات الوضعية بعد التعافي<lf>من الأوبئة أو الوضعية الغريبة.
+<string>انفجار
+<string>تزيد الهجوم والهجوم العناصري تدريجيًا<lf>عن طريق تسديد الضربات باستمرار.<lf>(مقدار الزيادة يعتمد على السلاح).
+<string>تسارع الأدرينالين
+<string>تزيد من قوة الهجوم مؤقتًا<lf>بعد تنفيذ تفادٍ متزامن<lf>بشكل مثالي مع هجوم وحش.
+<string>فخ
+<string>تزيد الضرر الذي يلحق بالوحوش<lf>الكبيرة مؤقتًا عند توجيه<lf>هجوم متسلل ناجح.
+<string>استنفار نيوبترون
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1968728576
+<string>تمويه نيوبترون
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1685697920
 <string>مصنوعات جلدية مرنة
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1648695680
+<string>مصنوعات جلدية ناعمة كالزبدة
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP451472896
 <string>تقنية تمديد القشور
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1487598336
+<string>طبقات القشور
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1664678272
 <string>فرو محصن
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1998066176
+<string>فرو ساحر
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP583598144
+<string>فضل السيد
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1769550080
+<string>غضب الوحش المهيمن
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2107855744
+<string>نبض الوحش الحارس
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1305836672
+<string>حماية الوحش الحارس
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm2041451904
+<string>حكمة متوارثة
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1642078720
 <string>قوة دوشاغوما
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm62248528
+<string>جهد راي داو الكهربائي
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP539707072
+<string>غطاء أوث دونا
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2104075392
+<string>تمرد نو أودرا
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1980404096
+<string>انتفاضة جين دهاد
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm215826112
+<string>وهج راثالوس
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm3666104
+<string>حماية غرافيوس
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm418246240
+<string>روح بلانجونجا
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP741102208
+<string>طغيان جور ماجالا
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP722735744
+<string>حيوية آركفيلد حارس
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1432692352
+<string>نهم آركفيلد
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm964369920
+<string>قوة أودوغارون أسمر
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP918165056
+<string>إرادة أنجاناث رعدي
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1768553344
+<string>نشاط شو وو
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1468066176
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1890580224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1890580224
+<string>مقاومة النزيف
+<string>توفر الحماية من النزيف.
+<string>الجلد الحديدي
+<string>توفر حماية من انخفاض الدفاع.
+<string>مقاومة الرائحة الكريهة
+<string>تمنح حماية من الرائحة الكريهة.
+<string>محب الهواء الطلق
+<string>تحسِّن قدرات صيد الأسماك<lf>والشواء والتنقل.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m285123456
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm285123456
+<string>حشد باليكو
+<string>تزيد قوة الباليكو.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1203508096
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1203508096
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_457912640
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP457912640
+<string>خبير النجاة
+<string>يتم استرجاع صحة إضافية<lf>من عناصر التفاعل البيئية.
+<string>المباغت
+<string>تُحسن من كفاءة<lf>هجمات الوميض وعناصره.
+<string>عالم حشرات
+<string>لن تُدمر أجسام<lf>وحوش الحشرات الصغيرة<lf>حتى يمكن تقطيعها.
+<string>مختص الأدوات
+<string>تقلل فترة الشحن<lf>للأدوات المخصصة.
+<string>المخيف
+<string>تقلل من فرصة هجوم الوحوش الصغيرة<lf>بعد رصدها <LSNR "لكَ" "لكِ">.<lf>(لا تؤثر على بعض الوحوش).
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_309360992
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP309360992
+<string>زيادة مدة السم
+<string>تطيل فترة تأثير<lf>السم على الوحوش.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1478544256
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1478544256
+<string>قابلية التكيف
+<string>تمنح الحماية ضد الأضرار البيئية<lf>مثل الحرارة أو البرودة.
+<string>التحسّن الذاتي
+<string>تزيد من الهجوم والدفاع<lf>بمرور الوقت أثناء المَهمة.<lf>(يصلان إلى الحد الأقصى بعد 30 دقيقة).
+<string>الساحق
+<string>تجعل إحداث الجروح أسهل.<lf>كما تلحق ضررًا إضافيًا غير عناصري<lf>عند إلحاق قدر كافٍ من الضرر.
+<string>مقاومة التقييد
+<string>تمنح الحماية من حالة<lf>التكفّف بالنسيج ولفحة الصقيع.
+<string>الامتصاص العناصري
+<string>بعد تلقي ضرر عناصري، يتم منحك<lf>تأثيرات العنصر مؤقتًا.<lf>(يتم تفعيل فترة التهدئة بعد انتهاء التأثير)
+<string>تحويل العنصر
+<string>بعد تلقي ضرر عناصري،<lf><LSNR "تمنحكَ" "تمنحكِ"> عنصر التنين مؤقتًا. (فترة الخمود بعد الاستخدام)
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1150634496
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1150634496
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1437098880
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1437098880
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_504506560
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP504506560
+<string>مضاد فيروسات
+<string>بمجرد الإصابة، يصبح من الأسهل التغلب<lf>على الجنون ويزيد من نسبة الضرر<lf>إذا تم علاجه.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1702725248
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1702725248
+<string>طلقة رباعية
+<string>تزيد من نسبة ضرر ذخيرة بندقية القوس<lf>أو الأغطية من الطلقة الرابعة<lf>وهجوم الطلقتين الرابعة والسادسة.
+<string>الطلقة الأولى
+<string>تزيد من سرعة إعادة تلقيم<lf>بندقية القوس وقوة الطلقات<lf>حين تكون ملقمة بالكامل.

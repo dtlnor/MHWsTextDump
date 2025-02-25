@@ -5,7 +5,7 @@
 <string>Redefinir selecionados para o padrão
 <string>Redefinir tudo para o padrão
 <string>Redefinir as opções selecionadas para o padrão?
-<string>Redefinir todas as opções para o padrão?
+<string>Redefinir todas as opções em<lf>todas as categorias para o padrão?
 <string>Tudo
 <string><PLATMSG MsgGUI030100_0401>
 <string>Compartilhada + Controle
@@ -13,6 +13,7 @@
 <string>Ajusta automaticamente certas opções para as seguintes<lf>configurações recomendadas. Opções que serão alteradas são destacadas.<lf><COLOR preset="TXT_Accent">(Alterações individuais não podem ser feitas nessa tela.)</COLOR>
 <string>Usar Configurações Recomendadas
 <string>Selecionar <COLOR preset="TXT_Accent">Usar Configurações Recomendadas</COLOR> ajustará<lf>automaticamente cada item para sua configuração recomendada.
+<string>Algumas configurações foram reconfiguradas<lf>para corresponder ao hardware detectado.
 <string>Configurações de Jogo
 <string>Controles
 <string>Câmera
@@ -39,17 +40,17 @@
 <string>Usa <ICON PAD PL_DASH_TOGGLE> para ativar/desativar a corrida. Pressione<lf>uma vez para correr; pressione novamente para parar.
 <string>Usar somente <ICON PAD PL_DASH>
 <string>Usa <ICON PAD PL_DASH> para correr.
-<string>Use <ICON PAD PL_DASH_TOGGLE> e <ICON PAD PL_DASH>
+<string>Usar <ICON PAD PL_DASH_TOGGLE> e <ICON PAD PL_DASH>
 <string>Usa <ICON PAD PL_DASH_TOGGLE> e <ICON PAD PL_DASH> para correr.
 <string>Trocar Função dos Botões <ICON PAD UI_DUMMY_ICON_LB> e <ICON PAD UI_DUMMY_ICON_RB>
 <string>Troca a função do botão <ICON PAD UI_DUMMY_ICON_LB> com <ICON PAD UI_DUMMY_ICON_LT>,<lf>e a do botão <ICON PAD UI_DUMMY_ICON_RB> com <ICON PAD UI_DUMMY_ICON_RT>.
-<string>Não Trocar
+<string>Não trocar
 <string>Não troca as funções dos botões.
-<string>Trocar Somente <ICON PAD UI_DUMMY_ICON_LB> com <ICON PAD UI_DUMMY_ICON_LT>
+<string>Trocar somente <ICON PAD UI_DUMMY_ICON_LB> com <ICON PAD UI_DUMMY_ICON_LT>
 <string>Troca a função do botão <ICON PAD UI_DUMMY_ICON_LB> com a função<lf>do botão <ICON PAD UI_DUMMY_ICON_LT>.
-<string>Trocar Somente <ICON PAD UI_DUMMY_ICON_RB> com <ICON PAD UI_DUMMY_ICON_RT>
+<string>Trocar somente <ICON PAD UI_DUMMY_ICON_RB> com <ICON PAD UI_DUMMY_ICON_RT>
 <string>Troca a função do botão <ICON PAD UI_DUMMY_ICON_RB> com a função<lf>do botão <ICON PAD UI_DUMMY_ICON_RT>.
-<string>Trocar Ambos
+<string>Trocar ambos
 <string>Troca a função do botão <ICON PAD UI_DUMMY_ICON_LB> com <ICON PAD UI_DUMMY_ICON_LT>,<lf>e a do botão <ICON PAD UI_DUMMY_ICON_RB> com <ICON PAD UI_DUMMY_ICON_RT>.
 <string><PLATMSG MsgGUI030100_01_45>
 <string>Configurações de Botões
@@ -66,22 +67,22 @@
 <string>Duração da Confirmação ao Segurar
 <string>Ajusta quanto tempo segurando um botão é necessário<lf>para confirmar certas ações, como chamar seu Seikret<lf>ou pular um evento.
 <string>Curto
-<string>Exige somente um curto período de tempo para<lf>confirmar uma ação.
+<string>Exige menos tempo tempo para<lf>confirmar uma ação.
 <string>Padrão
 <string>Exige o período de tempo padrão para confirmar<lf>uma ação.
 <string>Longo
-<string>Exige um período de tempo mais longo para<lf>confirmar uma ação.
+<string>Exige mais tempo tempo para<lf>confirmar uma ação.
 <string>Embainhar Automaticamente
 <string>Define se sua arma será embainhada automaticamente<lf>após um certo período de tempo após empunhá-la.
-<string>Ativar Embainhar Automaticamente
-<string>Embainhar automaticamente sua arma após<lf>um certo período de inatividade.
-<string>Desativar Embainhar Auto.
+<string>Ativar
+<string>Embainha automaticamente sua arma após<lf>um certo período de inatividade.
+<string>Desativar
 <string>Não embainha automaticamente sua arma.
 <string>Controles Direcionais
 <string><PLATMSG MsgGUI030100_01_03_Help>
 <string>Ajusta os controles direcionais para ações,<lf>como esquivar-se após um ataque.<lf><COLOR preset="TXT_Accent">(Controle)</COLOR>
 <string>Tipo 1
-<string>- Mover <ICON PAD PL_DUMMY_MOVE> para cima<lf>move seu personagem para onde a câmera está mostrando.<lf>- Mover <ICON PAD PL_DUMMY_MOVE> para baixo<lf>move seu personagem em direção à câmera.
+<string>- Mover <ICON PAD PL_DUMMY_MOVE> para cima move seu Caçador<lf>para onde a câmera está mostrando.<lf><lf>- Mover <ICON PAD PL_DUMMY_MOVE> para baixo move seu Caçador<lf>em direção à câmera.
 <string>Tipo 2
 <string>- Mover <ICON PAD PL_DUMMY_MOVE> para cima move seu Caçador<lf>na direção para a qual está voltado.<lf><lf>- Mover <ICON PAD PL_DUMMY_MOVE> para baixo move seu Caçador<lf>na direção oposta a que está voltado.
 <string>Controles Direcionais
@@ -90,6 +91,14 @@
 <string>- Pressionar <ICON MKB PL_MOVE_FRONT> move seu Caçador<lf>na direção da câmera.<lf><lf>- Pressionar <ICON MKB PL_MOVE_BACK> move seu Caçador<lf>em direção à tela.
 <string>Tipo 2
 <string>- Pressionar <ICON MKB PL_MOVE_FRONT> move seu Caçador<lf>na direção para a qual está voltado.<lf><lf>- Pressionar <ICON MKB PL_MOVE_BACK> move seu Caçador<lf>na direção oposta a que está voltado.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string>Config. de Controle: Seikret
 <string>Ajusta os controles do Seikret.
 <string>Controles de Chamar Seikret
@@ -109,9 +118,9 @@
 <string>Controles Manuais de Seikret
 <string>Ajusta os controles do Seikret no modo<lf>de Movimento Manual.
 <string>Tipo 1
-<string>Como no Movimento Automático, não pressionar<lf>nada mantém a velocidade, pressionar <ICON PAD PL_PT_SPEED_UP> aumenta<lf>a velocidade, <ICON PAD PL_PT_SPEED_DOWN> diminui a velocidade e segurar<lf><ICON PAD PL_PT_SPEED_DOWN> faz seu Seikret parar.
+<string>Similar ao Movimento Automático.<lf>Não pressionar nada mantém a velocidade,<lf>pressionar <ICON PL_PT_SPEED_UP> aumenta a velocidade,<lf><ICON PL_PT_SPEED_DOWN> diminui a velocidade e segurar <ICON PL_PT_SPEED_DOWN><lf>faz seu Seikret parar.
 <string>Tipo 2
-<string>Como nos controles de Caçador, usa <ICON PAD PL_DUMMY_MOVE> para<lf>se mover. A velocidade é determinada pelo ângulo<lf>em que <ICON PAD PL_DUMMY_MOVE> for inclinado.
+<string>Similar aos controles de Caçador.<lf>O Seikret apenas se move com <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>,<lf>e para de se mexer quando nada é pressionado.<lf>
 <string>Controles de Rota do Seikret
 <string>Ajusta os controles para rotas de saída<lf>que só são acessíveis com Seikret.
 <string>Tipo 1
@@ -134,7 +143,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_15_01_HELP
 <string>Controles da Barra de Itens Expand.
 <string><PLATMSG MsgGUI030100_01_16_HELP>
-<string>Ajusta os controles para a exibição da barra<lf>de itens expandida.
+<string>Ajusta os controles para a exibição da barra<lf>de itens expandida. <COLOR preset="TXT_Accent">(Controle)</COLOR>
 <string>Tipo 1
 <string>Pressione <ICON PAD UI_ITEM_ALL_OPT1> enquanto segura <ICON PAD PL_ITEM_SLIDER_OPEN> para alternar<lf>entre a Barra de itens expandida e a normal.
 <string>Tipo 2
@@ -164,9 +173,9 @@
 <string>O cursor se move mais rápido que o normal.
 <string>Empilhamento da Barra de Itens Expand.
 <string>Ajusta como a Barra de Itens expandida<lf>exibe itens empilhados verticalmente.
-<string>Exibir Todas as Pilhas
+<string>Exibir todas as pilhas
 <string>Exibe os itens empilhados verticalmente<lf>de todas as pilhas visíveis.
-<string>Apenas Pilha Selecionada
+<string>Apenas pilha selecionada
 <string>Exibe apenas os itens empilhados verticalmente<lf>da pilha selecionada no momento.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_17_HELP
@@ -251,8 +260,8 @@
 <string>Tipo 1
 <string><ICON PAD PL_DUMMY_MOVE> move seu personagem mesmo quando o Menu<lf>Inicial ou um de instalações estiver aberto.
 <string>Tipo 2
-<string><ICON PAD PL_DUMMY_MOVE> navega pelo menu inicial ou de instalações.<lf><COLOR preset="TXT_Accent">(Não é possível movimentar seu personagem<lf>enquanto menus estiverem abertos.)</COLOR>
-<string>Abrir Controles do Menu
+<string><ICON PAD PL_DUMMY_MOVE> navega pelo Menu Inicial ou de instalações.<lf><COLOR preset="TXT_Accent">(Não é possível movimentar o caçador<lf>quando os menus estão abertos.)</COLOR>
+<string>Controles ao Abrir Menu
 <string>Ajusta os controles de navegação quando o Menu<lf>Inicial ou um de instalações estiver aberto.<lf><COLOR preset="TXT_Accent">(Teclado)</COLOR>
 <string>Tipo 1
 <string>Usa as teclas primárias para movimento do<lf>Caçador e da câmera, e teclas secundárias<lf>para seleção de menus.
@@ -264,7 +273,7 @@
 <string>Define como o teclado é usado durante o jogo.
 <string>Modo Padrão
 <string><PLATMSG MsgGUI030100_01_29_00_Help>
-<string>O teclado controla as ações <LSNR "do Caçador" "da Caçadora">.<lf>Recomendado para jogadores que jogam com teclado<lf>em vez de um controle.
+<string>O teclado controla as ações do seu Caçador.<lf>Recomendado para jogadores que jogam<lf>com o teclado em vez de um controle.
 <string>Modo Bate-papo
 <string><PLATMSG MsgGUI030100_01_29_01_Help>
 <string>O teclado serve apenas para o bate-papo.<lf>Recomendado para jogadores que usam<lf>um controle para a maior parte das ações,<lf>usando teclado apenas para o bate-papo.<lf><COLOR preset="TXT_Danger">Habilitar esta configuração desabilitará<lf>os controles de mouse.</COLOR>
@@ -297,9 +306,9 @@
 <string>Não exibe o cursor do mouse ao usar<lf>Atalhos de teclado.<lf><COLOR preset="TXT_Accent">(Atalhos não podem ser usados com o mouse.)</COLOR>
 <string>Prioridade da Roda de Rolagem
 <string>Define os controles de prioridade da roda de rolagem<lf>do mouse nos menus.
-<string>Priorizar Navegação de Páginas
+<string>Priorizar navegação de páginas
 <string>Prioriza mudar páginas em um menu se ele<lf>possuir páginas que podem ser navegadas<lf>para a esquerda ou direita.
-<string>Priorizar Seleção de Menus
+<string>Priorizar seleção de menus
 <string>Prioriza a navegação de menus para cima<lf>e para baixo, mesmo se ele possuir páginas<lf>que podem ser navegadas para a esquerda<lf>ou direita.
 <string>Desativar Fechamento Forçado com Alt + F4
 <string>Define se pressionar Alt + F4 pode forçar<lf>o jogo a fechar.
@@ -317,8 +326,14 @@
 <string>Define se os controles e exibição dos<lf>botões esquerdo e direito do mouse serão<lf>invertidos.
 <string>Inverter
 <string>Inverte os controles e exibição dos<lf>botões esquerdo e direito do mouse.<lf>Configuração para jogadores canhotos.
-<string>Não Inverter
+<string>Não inverter
 <string>Não inverte os controles e exibição dos<lf>botões esquerdo e direito do mouse.<lf>Configuração para jogadores destros.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>Ícones dos Botões do Controle
 <string>Define quais ícones de botão do controle<lf>serão exibidos no guia de botões.
 <string>Tipo 1
@@ -334,7 +349,7 @@
 <string>Posição do Cursor no Menu Inicial
 <string>Define se a posição do cursor será salva<lf>ao abrir ou fechar o Menu Inicial.
 <string>Salvar
-<string>Salva a posição do cursor ao abrir<lf>ou fechar o Menu Inicial.<lf><COLOR preset="TXT_Accent">(Redefinido ao sair<lf>do jogo.)</COLOR>
+<string>Salva a posição do cursor ao abrir<lf>ou fechar o Menu Inicial.<lf><COLOR preset="TXT_Accent">(Redefinido ao sair do jogo.)</COLOR>
 <string>Não salvar
 <string>Não salva a posição do cursor ao sair<lf>do Menu Inicial e o menu fica sempre<lf>na posição inicial.
 <string>Configurações de Zoom do Mapa
@@ -354,7 +369,7 @@
 <string>Sensibilidade Vertical da Câmera: Normal
 <string>Adiciona uma propensão vertical ao movimento do<lf>mouse durante o jogo normal. Quanto menor o valor,<lf>mais lento o movimento vertical da câmera.
 <string>Vel. da Câmera (Horizontal): <ICON PAD PL_AIM>
-<string>Ajusta a velocidade horizontal da câmera ao<lf>usar <ICON PAD PL_AIM>. Se "Veloc. da Câmera: Arma Empunhada"<lf>for ativada, só se aplica com a arma embainhada.
+<string>Ajusta a velocidade horizontal da câmera ao<lf>usar <ICON PAD PL_AIM>. Se <COLOR preset="TXT_Accent">Veloc. da Câmera: Arma Empunhada</COLOR><lf>for ativada, só se aplica com a arma embainhada.
 <string>Vel. da Câmera (Vertical): <ICON PAD PL_AIM>
 <string>Ajusta a velocidade vertical da câmera ao usar<lf><ICON PAD PL_AIM>. Se "Veloc. da Câmera: Arma Empunhada" for<lf>ativada, só se aplica com a arma embainhada.
 <string>Veloc. da Câmera: Arma Empunhada
@@ -376,16 +391,16 @@
 <string>Velocidade da Câmera: <ICON PAD PL_DUMMY_MOVE>
 <string>Ajusta a velocidade de movimento da câmera quando for<lf>possível controlá-la com <ICON PAD PL_DUMMY_MOVE>, como no Modo de Foco.<lf><COLOR preset="TXT_Accent">(Na conf. 1, controle de câmera com <ICON PAD PL_DUMMY_MOVE> desabilitado)</COLOR>
 <string>Velocidade da Mira de Trajetória
-<string>Ajusta a velocidade da mira dos disparos<lf>parabólicos do arco e das Bombas<lf>Fragmentadas do fuzilarco pesado.
+<string>Ajusta a velocidade da mira dos disparos<lf>parabólicos do Arco e das Bombas<lf>Fragmentadas do Fuzilarco Pesado.
 <string>Inversão de Câmera: Normal
 <string>Define as configurações de inversão da câmera<lf>durante o jogo normal.
-<string>Não Inverter
+<string>Não inverter
 <string>Não inverte o movimento vertical ou horizontal<lf>da câmera.
-<string>Inversão Vertical
+<string>Inversão vertical
 <string>A câmera se move na direção oposta<lf>exclusivamente na orientação cima/baixo.
-<string>Inversão Horizontal
+<string>Inversão horizontal
 <string>A câmera se move na direção oposta<lf>exclusivamente na orientação esquerda/direita.
-<string>Invertida
+<string>Inverter
 <string>A câmera se move na direção oposta<lf>em todas as direções.
 <string>Inversão de Câmera: <ICON PL_AIM>
 <string>Ajusta a inversão de câmera ao usar <ICON PL_AIM>.<lf>Se <COLOR preset="TXT_Accent">Inversão de Câmera: Arma Empunhada</COLOR> for<lf>ativada, só se aplica com a arma embainhada.
@@ -423,7 +438,7 @@
 <string>Ajusta como a câmera reage a declives<lf>e terrenos inclinados.
 <string>Ajustar
 <string>A câmera se ajusta automaticamente ao terreno.
-<string>Não Ajustar
+<string>Não ajustar
 <string>Desativa a correção automática de câmera<lf>em inclinações.
 <string>Correção de Câmera Panorâmica
 <string>Ajusta a quantidade de correção de câmera<lf>ao tentar capturar uma vista ampla.
@@ -465,24 +480,24 @@
 <string>Desativa o auxílio de mira.
 <string>Controles do Modo de Foco/Mira
 <string>Ajusta como ativar o Modo de Foco/Mira. Se<lf><COLOR preset="TXT_Accent">Controles do Modo de Foco/Mira: Avançado</COLOR> for<lf>ativado, só se aplica com a arma embainhada.
-<string>Segure <ICON PAD PL_AIM>: Ativar o Modo
+<string><ICON PAD PL_AIM> para ativar o Modo
 <string>Com a arma empunhada, segurar <ICON PAD PL_AIM> ativa ou <lf>desativa o Modo de Foco para armas corpo<lf>a corpo e o Modo de Foco/Mira para armas<lf>à distância. Quando sua arma estiver<lf>embainhada, controlará a Mira da Atiradeira.
-<string><ICON PAD PL_AIM_TOGGLE> para Alternar Modo
+<string><ICON PAD PL_AIM_TOGGLE> para alternar o Modo
 <string>Com a arma empunhada, <ICON PAD PL_AIM_TOGGLE> ativa ou desativa<lf>o Modo de Foco para armas corpo a corpo<lf>e o Modo de Foco/Mira para armas à distância.<lf>Quando sua arma estiver embainhada,<lf>a Mira da Atiradeira será ativada.
 <string>Com a arma empunhada, pressionar <ICON PAD PL_AIM_TOGGLE> ativa ou<lf>desativa o Modo de Foco para armas corpo a corpo<lf>e o Modo de Foco/Mira para armas à distância.
 <string>Controles do Modo de Foco/Mira: Avançado
 <string>Ajusta como ativar o Modo de Foco/Mira separado<lf>para armas desembainhadas corpo a corpo e à<lf>distância. <COLOR preset="TXT_Accent">(Não afeta controles de Atiradeira.)</COLOR>
 <string>Armas Corpo a Corpo
 <string>Ajusta como o Modo de Foco é ativado com armas<lf>corpo a corpo.
-<string><ICON PAD PL_AIM> para Ativar o Modo
+<string><ICON PAD PL_AIM> para ativar o Modo
 <string>Segurar <ICON PAD PL_AIM> ativa o Modo de Foco com a arma<lf>corpo a corpo em mãos.
-<string>Pressione <ICON PAD PL_POP_CHANGE_SELECT>: Alternar Modo
+<string><ICON PAD PL_POP_CHANGE_SELECT> para alternar o Modo
 <string>Pressionar <ICON PAD PL_POP_CHANGE_SELECT> ativa ou desativa o Modo de Foco<lf>com a arma corpo a corpo em mãos.
 <string>Armas à Distância
 <string>Ajusta como o Modo de Foco/Mira é ativado com<lf>armas à distância.
-<string><ICON PAD PL_AIM> para Ativar o Modo
+<string><ICON PAD PL_AIM> para ativar o Modo
 <string>Segurar <ICON PAD PL_AIM> ativa o Modo de Foco/Mira com<lf>a arma à distância em mãos.
-<string>Pressione <ICON PAD PL_POP_CHANGE_SELECT>: Alternar Modo
+<string><ICON PAD PL_POP_CHANGE_SELECT> para alternar o Modo
 <string>Pressionar <ICON PAD PL_POP_CHANGE_SELECT> ativa ou desativa o Modo<lf>de Foco/Mira com a arma à distância em mãos.
 <string>Tipo de Controle da Câmera Fixada
 <string>Ajusta os controles da Câmera Fixada e<lf>da redefinição de câmera.
@@ -491,9 +506,9 @@
 <string>Tipo 2
 <string>Pressione <ICON PL_CAMERA_RESET> uma vez para mirar a câmera na<lf>direção que o Caçador olha. Pressione duas<lf>vezes para mirar a câmera no monstro-alvo.
 <string>Tipo 3
-<string>Pressione <ICON PL_CAMERA_RESET> uma vez para mirar a câmera no<lf>monstro-alvo. Pressionar duas vezes não faz<lf>nada.
+<string>Pressione <ICON PL_CAMERA_RESET> uma vez para mirar a câmera<lf>no monstro-alvo.
 <string>Tipo 4
-<string>Pressione <ICON PL_CAMERA_RESET> uma vez para mirar a câmera na<lf>direção que o Caçador olha. Pressionar duas<lf>vezes não faz nada.
+<string>Pressione <ICON PL_CAMERA_RESET> uma vez para mirar a câmera<lf>na direção que o Caçador olha.
 <string>Tipo 5
 <string>Pressionar <ICON PL_CAMERA_RESET> não mira a câmera na direção<lf>da visão do Caçador ou para o monstro-alvo.
 <string>Direção da Redefinição de Câmera
@@ -506,19 +521,19 @@
 <string>Define se a orientação vertical é afetada<lf>quando a câmera é redefinida.
 <string>Nivelar
 <string>Redefinir a câmera nivela a orientação vertical.
-<string>Não Nivelar
+<string>Não nivelar
 <string>Redefinir a câmera mantém a orientação<lf>vertical como estava, sem nivelar.
 <string>Câmera Fixada Vertical
 <string>Ajusta a orientação vertical da Câmera Fixada<lf>ao olhar para um monstro.
 <string>Alinhar ao Alvo
 <string>A Câmera Fixada se alinha verticalmente à<lf>posição do monstro-alvo.
-<string>Não Ajustar
+<string>Não ajustar
 <string>A orientação vertical da Câmera Fixada se<lf>mantém como estava, não importa a posição<lf>do monstro-alvo.
 <string>Horizonte
 <string>A orientação vertical da Câmera Fixada é<lf>nivelada pelo horizonte, não importa a posição<lf>do monstro-alvo.
-<string>Entre Horizonte e Alvo
+<string>Entre horizonte e alvo
 <string>A Câmera Fixada é alinhada verticalmente a um<lf>ponto entre a posição do monstro-alvo e uma<lf>posição nivelada pelo horizonte.
-<string>Entre Posição Atual e Alvo
+<string>Entre posição atual e alvo
 <string>A Câmera Fixada é alinhada verticalmente a um<lf>ponto entre a posição do monstro-alvo e a<lf>posição atual da câmera.
 <string>Câmera Focal
 <string>Define se a trava automática da câmera no<lf>monstro-alvo é ativada.
@@ -530,13 +545,13 @@
 <string>Define se a câmera é redefinida quando o<lf>Caçador inicia uma ação de escalada.
 <string>Redefinir
 <string>A câmera é redefinida quando o Caçador inicia<lf>uma ação de escalada.
-<string>Não Redefinir
+<string>Não redefinir
 <string>A câmera não é redefinida quando o Caçador<lf>inicia uma ação de escalada.
 <string>Filtro de Alvos
 <string>Ajusta qual tipo de monstro pode ser fixado<lf>como alvo.
-<string>Todos os Monstros
+<string>Todos os monstros
 <string>Permite que monstros pequenos e grandes sejam<lf>fixados como alvo.
-<string>Apenas Monstros Grandes
+<string>Apenas monstros grandes
 <string>Permite que apenas monstros grandes sejam<lf>fixados como alvo.
 <string>Câmera de Avistamento de Monstro
 <string>Define se o jogo entra no modo de câmera<lf>cinematográfica ao avistar um monstro pela<lf>primeira vez.
@@ -548,9 +563,9 @@
 <string>Define se deve vincular a fixação de um<lf>monstro como alvo à seleção de objetivo.
 <string>Vincular
 <string>Fixar ou desafixar um monstro como alvo também<lf>define ou remove seu objetivo.
-<string>Só Quando Fixado
+<string>Só quando fixado
 <string>Fixar um monstro como alvo também define seu<lf>objetivo, mas seu objetivo não é removido<lf>quando o monstro é desafixado.
-<string>Não Vincular
+<string>Não vincular
 <string>Fixar ou desafixar um monstro como alvo não<lf>afeta seu objetivo.
 <string>Orientação da Câmera: Guialumes
 <string>Define se os guialumes são seguidos pela<lf>câmera.
@@ -568,13 +583,17 @@
 <string>Controles de Câmera Giroscópica
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>Define se a função de giroscópio é ativada<lf>para controles de câmera e também ajustes<lf>avançados das opções de função de giroscópio.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>Tipo de Controle
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>Define como ativar os controles de câmera<lf>giroscópica.
-<string>Pressione <ICON PAD PL_AIM> para Ativar
+<string>Pressione <ICON PAD PL_AIM> para ativar
 <string><PLATMSG MsgGUI030100_02_72_00_Help>
 <string>Controles de câmera giroscópica são ativados<lf>apenas enquanto usa <ICON PAD PL_AIM> ao mirar ou no<lf>Modo de Foco.
-<string>Sempre Ativado
+<string>Sempre ativado
 <string><PLATMSG MsgGUI030100_02_72_01_Help>
 <string>Ativa os controles giroscópicos para serem<lf>usados sempre que possível.
 <string>Sensib. de Controle (Horizontal): Normal
@@ -606,7 +625,7 @@
 <string>Ajusta a sensibilidade vertical de controles<lf>giroscópios ao usar <ICON PAD PL_AIM> (Modo de Foco/Mira) com<lf>uma arma à distância em mãos.
 <string>Sensib. de Controle de Trajetória de Mira
 <string><PLATMSG MsgGUI030100_02_64_Help>
-<string>Ajusta a velocidade de mira dos disparos<lf>parabólicos do arco e das Bombas Fragmentadas<lf>do fuzilarco <COLOR preset="TXT_Accent">(controles giroscópicos)</COLOR>.
+<string>Ajusta a velocidade de mira dos Disparos<lf>Parabólicos do Arco e das Bombas Fragmentadas<lf>do Fuzilarco <COLOR preset="TXT_Accent">(controles giroscópicos)</COLOR>.
 <string>Inversão de Controles: Normal
 <string><PLATMSG MsgGUI030100_02_65_Help>
 <string>Define se os controles giroscópicos são<lf>invertidos durante o jogo normal.
@@ -628,9 +647,53 @@
 <string>Inverte os controles de câmera do giroscópio<lf>ao usar <ICON PAD PL_AIM> (Modo de Foco/Mira) com uma arma à<lf>distância em mãos.
 <string>Inversão da Mira de Trajetória
 <string><PLATMSG MsgGUI030100_02_70_Help>
-<string>Inverte os controles dos disparos parabólicos<lf>do arco e das Bombas Fragmentadas do fuzilarco<lf>pesado <COLOR preset="TXT_Accent">(controles giroscópicos)</COLOR>.
+<string>Inverte os controles dos Disparos Parabólicos<lf>do Arco e das Bombas Fragmentadas do Fuzilarco<lf>Pesado <COLOR preset="TXT_Accent">(controles giroscópicos)</COLOR>.
 <string>Não inverte movimento do controle.
 <string>Inverte movimento do controle.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
 <string>Seleção de Exibição
 <string>Define a tela em que o jogo é exibido.<lf><COLOR preset="TXT_Accent">(Requer Windows 10 ou superior e uma<lf>configuração com múltiplos monitores.)</COLOR>
 <string>{0}: {1}
@@ -674,13 +737,13 @@
 <string>Ajusta o limite da taxa de quadros quando a janela<lf>do jogo estiver inativa. <COLOR preset="TXT_Accent">(O valor na configuração<lf>Taxa de Quadros determina a limitação.)</COLOR>
 <string>Saída HDR
 <string>Ajusta as configurações de saída HDR.
-<string>Ativar Automaticamente
+<string>Ativar automaticamente
 <string>Ativa o HDR em dispositivos compatíveis e o<lf>desativa nos incompatíveis automaticamente.
 <string>Desativar
 <string>Desativa a saída HDR até mesmo<lf>em dispositivos compatíveis.
 <string>Brilho
 <string>Ajusta o brilho da tela.
-<string>Ajustar Brilho da Tela (HDR)
+<string>Brilho (HDR)
 <string>Ajusta o brilho da tela.
 <string>Sincronização Vertical
 <string>Ajusta a sincronização vertical.
@@ -705,8 +768,8 @@
 <string>Outros aplicativos
 <string>MB
 <string>MB /
-<string>Uso excessivo da memória gráfica. Erros pequenos podem ocorrer.
-<string>Uso excessivo da memória gráfica. Erros graves podem ocorrer.
+<string>Uso excessivo da memória gráfica.<lf>Falhas pequenas podem ocorrer.
+<string>Uso excessivo da memória gráfica.<lf>Falhas graves podem ocorrer.
 <string>CPU
 <string>RAM
 <string><NUMBER {0}> GB
@@ -726,26 +789,26 @@
 <string>Alta
 <string>Média
 <string>Baixa
-<string>Muito Baixa
+<string>Muito baixa
 <string>Personalizado
 <string>Esta configuração será selecionada se você<lf>ajustou manualmente detalhes de uma configuração<lf>predefinida.
 <string>Gráficos das Cenas
 <string>Ajusta as configurações gráficas de cenas.<lf><COLOR preset="TXT_Accent">(Só afeta cenas.)</COLOR>
-<string>Muito Alta
+<string>Muito alta
 <string>Alta
 <string>Média
 <string>Baixa
-<string>Muito Baixa
+<string>Muito baixa
 <string>Não ajustar separadamente
 <string>Gráficos das cenas seguem a mesma definição<lf>das Configurações Gráficas.
 <string>Upscaling (Super Resolução Automática)
 <string>Usar a tecnologia de super resolução automática<lf>pode permitir que você mantenha alto desempenho<lf>com qualidade gráfica superior.
 <string>NVIDIA DLSS
-<string>Usa NVIDIA DLSS 3.7.<lf><COLOR preset="TXT_Accent">– Requer uma placa de vídeo NVIDIA GeForce RTX.<lf>– Se você estiver usando uma placa da Série GeForce<lf>RTX40 e habilitar o Agendamento de GPU Acelerado por<lf>Hardware em seu SO, selecionar esta configuração<lf>permitirá que você ative a Geração de Quadros.</COLOR>
-<string>AMD FSR
-<string>Usa AMD FSR 3.0.3.<lf><COLOR preset="TXT_Accent">– Ao habilitar o Agendamento de GPU Acelerado por Hardware em seu SO,<lf>selecionar esta configuração permitirá que você<lf>ative a Geração de Quadros.</COLOR>
+<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requer uma placa de vídeo NVIDIA GeForce RTX.<lf>– Se você estiver usando uma placa da Série GeForce<lf>RTX40 e habilitar o Agendamento de GPU Acelerado<lf>por Hardware em seu SO, selecionar esta configuração<lf>permitirá que você ative a Geração de Quadros.</COLOR>
+<string>AMD FSR 3
+<string>Usa <FSR>.<lf><COLOR preset="TXT_Accent">– Ao habilitar o Agendamento de GPU Acelerado<lf>por Hardware em seu SO, selecionar esta<lf>configuração permitirá que você ative a<lf>Geração de Quadros.</COLOR>
 <string>Intel XeSS
-<string>Usa Intel XeSS 1.3.1
+<string>Usa Intel <XESS>.
 <string>Desativar
 <string>Não usa upscaling.
 <string>Geração de Quadros
@@ -762,7 +825,7 @@
 <string>NVIDIA DLAA
 <string>Usa antisserrilhamento por IA enquanto mantém<lf>a resolução nativa.
 <string>AMD Native AA
-<string>Usa antisserrilhamento FSR enquanto mantém<lf>a resolução nativa.
+<string>Usa antisserrilhamento FSR 3 enquanto mantém<lf>a resolução nativa.
 <string>Intel XeSS Native AA
 <string>Usa antisserrilhamento XeSS enquanto mantém<lf>a resolução nativa.
 <string>Qualidade
@@ -776,7 +839,7 @@
 <string>Desativar
 <string>Esta opção será selecionada se você não<lf>usar um método de upscaling.
 <string>Nitidez do Upscaling
-<string>Ajusta o nível de detalhes gráficos usados ao realizar<lf>upscaling. Quanto maior o número, maior o detalhamento.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o AMD FSR for ativado.)</COLOR>
+<string>Ajusta o nível de detalhes gráficos usados ao realizar<lf>upscaling. Quanto maior o número, maior o detalhamento.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o AMD FSR 3 for ativado.)</COLOR>
 <string>Antisserrilhamento
 <string>Ajusta o modo de antisserrilhamento.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o Upscaling não for ativado.)</COLOR>
 <string>FXAA + TAA
@@ -786,19 +849,21 @@
 <string>Ajusta a porcentagem da escala de renderização.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o Upscaling não for ativado.)</COLOR>
 <string>Ray Tracing
 <string>Ajusta a qualidade do reflexo da luz<lf>usando a tecnologia Ray Tracing.
-<string>Muito Alta
+<string>Muito alta
 <string>Alta
 <string>Média
 <string>Baixa
-<string>Muito Baixa
+<string>Muito baixa
 <string>Desativada
+<string>DirectStorage
+<string>Define que o hardware use DirectStorage,<lf>acelerando o carregamento de dados. <COLOR preset="TXT_Accent">(Apenas<lf>em ambientes compatíveis com DirectStorage.)</COLOR>
 <string>CPU
 <string>GPU
 <string>Qualidade das Texturas
 <string>Ajustar a resolução das texturas para objetos.
 <string>Mais alta (Texturas de alta definição)
-<string><COLOR preset="TXT_Accent">Essa opção só pode ser selecionada se o DLC<lf>"High Resolution Texture Pack" for baixado.</COLOR>
-<string>Você precisa baixar o DLC "High Resolution Texture<lf>Pack" para escolher a opção Muito Alta (Texturas<lf>de alta definição).
+<string><COLOR preset="TXT_Accent">Essa opção só pode ser selecionada se o DLC<lf>"Pacote de Texturas de Alta Resolução" for<lf>baixado.</COLOR>
+<string>Você precisa baixar o DLC "Pacote de Texturas de<lf>Alta Resolução" para escolher a opção Muito Alta<lf>(Texturas de alta definição).
 <string>Alta
 <string>Média
 <string>Baixa
@@ -813,9 +878,11 @@
 <string>Mais baixa (Bilinear)
 <string>Qualidade da Malha
 <string>Ajusta a qualidade da malha poligonal dos modelos 3D.
-<string>Muito Alta
+<string>Muito alta
 <string>Alta
 <string>Média
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>Qualidade da Pelagem
 <string>Ajusta a qualidade gráfica do pelo de todas<lf>as criaturas, incluindo Amigatos.
 <string>Alta
@@ -827,16 +894,18 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
 <string>Qualidade do Céu/Nuvens
 <string>Ajusta a qualidade gráfica do céu e das nuvens.
-<string>Muito Alta
+<string>Muito alta
 <string>Alta
 <string>Média
 <string>Baixa
 <string>Muito baixa
 <string>Qualidade da Grama/Árvores
 <string>Ajusta a qualidade gráfica da grama e das árvores.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>Alta
 <string>Média
 <string>Baixa
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>Balanço da Grama/Árvores
 <string>Ajusta se a grama e as árvores podem balançar.
 <string>Ativar
@@ -853,7 +922,7 @@
 <string>Baixa
 <string>Qualidade da Areia/Neve
 <string>Ajusta a qualidade gráfica da areia, neve e outros<lf>tipos de terreno.
-<string>Muito Alta
+<string>Muito alta
 <string>Alta
 <string>Média
 <string>Baixa
@@ -862,23 +931,26 @@
 <string>Define se os efeitos de fluidez são exibidos na água.
 <string>Ativar
 <string>Desativar
-<string>Muito Alta
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
+<string>Muito alta
 <string>Alta
 <string>Média
 <string>Baixa
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>Distância de Renderização
-<string>Ajusta o número de jogadores ou personagens<lf>visíveis em lobbies e a distância na qual<lf>monstros e vida nativa aparecerão em campo.
+<string>Ajusta o número de jogadores ou personagens visíveis em<lf>lobbies e a distância na qual monstros e vida nativa<lf>aparecerão em campo. <COLOR preset="TXT_Accent">(Ajustável nas Opções do menu principal.)</COLOR>
 <string>Renderiza o máximo de objetos, sem limites<lf>de distância do Caçador.
 <string>Renderiza a maioria dos objetos, incluindo<lf>os que estão longe do Caçador.
 <string>Renderiza a maioria dos objetos até uma<lf>distância média do Caçador.
 <string>Reduz o tempo de renderização exibindo<lf>apenas os objetos próximos do Caçador.
 <string>Qualidade das Sombras
 <string>Ajusta a qualidade das sombras.
-<string>Muito Alta
+<string>Muito alta
 <string>Alta
 <string>Média
 <string>Baixa
-<string>Muito Baixa
+<string>Muito baixa
 <string>Qualidade das Sombras Distantes
 <string>Ajusta a qualidade das sombras distantes do Caçador.
 <string>Alta
@@ -893,18 +965,27 @@
 <string>Alta
 <string>Média
 <string>Baixa
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>Sombras de Contato
 <string>Define se sombras detalhadas são exibidas.
 <string>Ativar
 <string>Desativar
 <string>Oclusão Ambiental
 <string>Ajusta a qualidade das sombras em áreas onde<lf>a luz for obstruída.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>Alta
 <string>Média
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>Desativada
 <string>Bloom
 <string>Ajusta a força do desfoque produzido por fontes<lf>de luz intensa.
 <string>Alta
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>Baixa
 <string>Desativada
 <string>Desfoque de Movimento
@@ -923,14 +1004,25 @@
 <string>Screen Space Separable Subsurface Scattering.<lf>Ajusta se a luz pode entrar em objetos<lf>e depois ser dispersada por eles.
 <string>Ativada
 <string>Desativada
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>Profundidade de Campo
 <string>Define se o foco (nitidez) de objetos varia com base<lf>na distância.
 <string>Ativada
 <string>Desativada
 <string>Névoa Volumétrica
-<string>Ajusta a qualidade da névoa produzida por poeira<lf>e partículas no ar. Afeta a exibição de raios de<lf>luz e outros elementos.
+<string>Ajusta a qualidade da névoa produzida por<lf>poeira e partículas no ar. Afeta a exibição de<lf>raios de luz e outros elementos.
 <string>Alta
 <string>Baixa
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Sombreamento de Taxa Variável
 <string>Reduz o efeito e a taxa de renderização de sombreadores<lf>processando sombreadores de pixels menos uniformemente.
 <string>Desativada
@@ -954,7 +1046,7 @@
 <string>Exibe na tela os valores de dano causado a<lf>monstros. <COLOR preset="TXT_Accent">(Inclui valores decimais.)</COLOR>
 <string>Exibir (só valores cheios)
 <string>Exibe na tela os valores de dano causado a<lf>monstros. <COLOR preset="TXT_Accent">(Apenas valores cheios.)</COLOR>
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe valores de dano.
 <string>HUD
 <string>Ajusta o tamanho e conteúdo da exibição no HUD.
@@ -993,11 +1085,11 @@
 <string>O minimapa não gira. Sua orientação é fixada<lf>com o norte apontando para cima,<lf>independentemente da câmera.
 <string>Ângulo do Minimapa
 <string>Ajusta as configurações de ângulo do minimapa.
-<string>Visão Superior Fixa
+<string>Visão superior fixa
 <string>O minimapa exibe uma visão superior fixa e<lf>achatada, sem angulação.
-<string>Ângulo Fixo
+<string>Ângulo fixo
 <string>O minimapa exibe uma visão angulada fixa e<lf>tridimensional.
-<string>Alinhar Ângulo à Câmera
+<string>Alinhar ângulo à câmera
 <string>O minimapa exibe uma visão angular que<lf>acompanha a orientação da câmera.
 <string>Tamanho do Minimapa
 <string>Ajusta o tamanho do minimapa para diversas<lf>situações.
@@ -1031,23 +1123,31 @@
 <string>Ajusta a escala do minimapa enquanto está<lf>combatendo monstros grandes.
 <string>Enquanto Segura <ICON PL_ITEM_SLIDER_OPEN>
 <string>Ajusta a escala do minimapa enquanto segura <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Rotação do Mapa Detalhado
+<string>Define se o mapa detalhado gira.
+<string>Rotação
+<string>O mapa detalhado gira para a esquerda e direita.
+<string>Rotação + Redefinir Norte
+<string>O mapa detalhado gira e pode ser redefinido<lf>em direção ao norte ao pressionar <ICON UI_MAP3D_RESET_POSITION>.
+<string>Fixo
+<string>O mapa detalhado não gira e é fixado com<lf>o norte para cima.
 <string>Efeitos de Golpes de Aliados
 <string>Ajusta se os efeitos de golpes de outros<lf>jogadores são exibidos. <COLOR preset="TXT_Accent">(Seus próprios<lf>efeitos não são afetados.)</COLOR>
 <string>Exibir
 <string>Exibe os efeitos de golpes de outros<lf>jogadores.
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe os efeitos de golpes de outros<lf>jogadores.
 <string>Efeitos de Críticos de Aliados
 <string>Ajusta se os efeitos de acertos críticos de<lf>outros jogadores são exibidos. <COLOR preset="TXT_Accent">(Seus próprios<lf>efeitos não são afetados.)</COLOR>
 <string>Exibir
 <string>Exibe os efeitos de acertos críticos de outros<lf>jogadores.
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe os efeitos de acertos críticos de<lf>outros jogadores.
 <string>Efeitos de Sangue
 <string>Ajusta se os efeitos de sangue são exibidos.
 <string>Exibir
 <string>Exibe efeitos de sangue.
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe efeitos de sangue.
 <string>HUD
 <string>Ajusta as configurações de exibição do HUD.
@@ -1068,7 +1168,7 @@
 <string>Fixa
 <string>Exibe a Barra de Fio do Caçador o tempo todo.
 <string>Dinâmica
-<string>Exibe uma versão minimizada da barra de fio<lf>por padrão. A barra expande para visualização<lf>completa em resposta a situações específicas.
+<string>Exibe uma versão minimizada da Barra de Fio<lf>por padrão. A barra expande para visualização<lf>completa em resposta a situações específicas.
 <string>Exib. Barra de Vida de Companhia
 <string>Ajusta as configurações de exibição das Barras<lf>de Vida do Amigato e outras companhias.
 <string>Fixa
@@ -1077,27 +1177,27 @@
 <string>Exibe uma versão minimizada das Barras de Vida<lf>do Amigato e outras companhias por padrão.<lf>A barra expande para visualização completa em<lf>resposta a situações específicas.
 <string>Janela de Bate-papo
 <string>Ajusta as configurações do registro de<lf>bate-papo e janela de comunicação após<lf>uma mensagem ser enviada.
-<string>Fechar Janela
+<string>Fechar janela
 <string>Fecha a janela de comunicação ou registro de<lf>bate-papo após uma mensagem ser enviada.
-<string>Manter Aberta
+<string>Manter aberta
 <string>Mantém a janela de comunicação ou registro de<lf>bate-papo aberto após uma mensagem ser<lf>enviada.
 <string>Legendas
 <string>Ajusta se as legendas aparecem quando um<lf>áudio relacionado a história precisa de<lf>informações suplementares.
-<string>Exibir
+<string>Exibição
 <string>Exibe as legendas.<lf><COLOR preset="TXT_Accent">(Só se aplica em certas situações.)</COLOR>
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe as legendas.
 <string>Quantidade de Tutoriais
 <string>Altera a quantidade de tutoriais exibidos.
-<string>Exibir Tudo
+<string>Exibir tudo
 <string>Exibe todos os tutoriais. Recomendado para<lf>jogadores que desejam aprender o básico.
 <string>Exibir alguns
 <string>Exibe apenas mensagens básicas do tutorial.<lf>Recomendado para jogadores experientes.
 <string>Repetir Tutoriais
 <string>Define se certos tutoriais serão exibidos<lf>sempre que as condições para sua ativação<lf>ocorram.
-<string>Repetir Sempre
+<string>Repetir sempre
 <string>Exibe os tutoriais sempre que as condições<lf>para sua ativação ocorram.
-<string>Não Repetir
+<string>Não repetir
 <string>Não repete mensagens de tutorial.<lf><COLOR preset="TXT_Accent">(Algumas mensagens de tutorial podem ser<lf>repetidas mesmo com esta opção ativada.)</COLOR>
 <string>Tamanho do Texto em Menus
 <string>Altera o tamanho do texto usado em menus.
@@ -1113,25 +1213,25 @@
 <string>Define se legendas são exibidas em diálogos entre<lf>personagens. <COLOR preset="TXT_Accent">(Se aplica apenas a cenas. Legendas fora<lf>de cenas sempre serão exibidas.)</COLOR>
 <string>Exibir
 <string>Exibe legendas durante cenas.<lf><COLOR preset="TXT_Accent">(Em alguns casos, as legendas podem<lf>não estar disponíveis para falas curtas.)</COLOR>
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe legendas durante cenas.<lf><COLOR preset="TXT_Accent">(Legendas fora das cenas não podem ser desligadas.)</COLOR>
 <string>Fundo de Legendas
 <string>Define se um fundo será exibido atrás da<lf>legenda para melhor legibilidade.
 <string>Exibir
 <string>Exibe um fundo nas legendas.
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe um fundo nas legendas.
 <string>Nomes de Falantes (em cenas)
 <string>Define se o nome de quem está falando<lf>é exibido nas legendas de uma cena.
 <string>Exibir
 <string>Exibe o nome de quem está falando nas cenas.
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe o nome de quem está falando<lf>nas cenas.
 <string>Nome dos Falantes (Fora das Cenas)
 <string>Define se o nome de quem está falando<lf>é exibido nas legendas fora de cena.
 <string>Exibir
 <string>Exibe o nome de quem está falando<lf>fora das cenas.
-<string>Não Exibir
+<string>Não exibir
 <string>Não exibe o nome de quem está falando<lf>fora das cenas.
 <string>Ocultar Seikrets de Outros
 <string>Define se Seikrets além do seu ficam ocultos<lf>ou não.<lf><COLOR preset="TXT_Accent">(Seu Seikret fica sempre visível.)</COLOR>
@@ -1145,24 +1245,24 @@
 <string>O Seikret entra no Modo de Exploração<lf>Automática se nenhum marcador de destino<lf>tiver sido definido.
 <string>Desativado
 <string>O Seikret não entra no Modo de Exploração<lf>Automática, mesmo sem nenhum marcador de<lf>destino definido.
-<string>Jogar Entre Plataformas
+<string>Crossplay
 <string>Define se o modo multijogador entre diferentes<lf>plataformas é permitido.
 <string>Ativar
-<string>Ativa as configurações de jogo entre plataformas,<lf>permitindo jogar com usuários de outras plataformas.<lf><lf>Não é possível jogar entre plataformas com<lf>usuários que desativaram esta configuração.<lf>Além disso, a funcionalidade de Esquadrão também<lf>ficará indisponível para Esquadrões que desativaram<lf>esta configuração.
+<string>Ativa as configurações de jogo em<lf>crossplay, permitindo jogar com<lf>usuários de outras plataformas.<lf><lf>Não é possível jogar em crossplay com<lf>usuários que escolheram a opção <BOLD>Desativar</BOLD>.<lf>Além disso, as funcionalidades de Esquadrão<lf>também ficarão indisponíveis para Esquadrões<lf>que escolheram a opção <BOLD>Desativar</BOLD>.
 <string>Desativar
-<string>Desativa as configurações de jogo entre<lf>plataformas, permitindo que você jogue apenas com<lf>outros usuários na mesma plataforma que você.<lf><lf>Não será possível jogar entre plataformas com<lf>usuários que desativaram esta configuração. Além<lf>disso, a funcionalidade de Esquadrão também ficará<lf>indisponível para Esquadrões que ativaram esta<lf>configuração.
-<string>Ocorreu um erro de comunicação. Jogar<lf>entre plataformas não foi alterado.<lf>{0}
+<string>Desativa as configurações de jogo em<lf>crossplay, permitindo só jogar com<lf>usuários da mesma plataforma que você.<lf><lf>Não é possível jogar em crossplay com<lf>usuários que escolheram a opção <BOLD>Ativar</BOLD>.<lf>Além disso, as funcionalidades de Esquadrão<lf>também ficarão indisponíveis para Esquadrões<lf>que escolheram a opção <BOLD>Ativar</BOLD>.
+<string>Ocorreu um erro de comunicação.<lf>Configurações de crossplay não foram alteradas.<lf>{0}
 <string>Exibição de Nome de Atalho
 <string>Define se os nomes de itens, falas e outros são exibidos<lf>nos Atalhos de Teclado quando todos<lf>os atalhos são exibidos.
-<string>Exibir Tudo
+<string>Exibir tudo
 <string>Exibe os nomes de itens, falas, etc., em<lf>todos os Atalhos de Teclado exibidos.
-<string>Exibir Selecionado
+<string>Exibir selecionado
 <string>Exibe os nomes de itens, falas, etc.,<lf>apenas no Atalho de Teclado selecionado.
 <string>Visibilidade da Arma
 <string>Ajusta quando a arma equipada atualmente<lf>é exibida.
 <string>Exibir
 <string>A arma do Caçador é sempre exibida.
-<string>Ocultar Durante Cenas
+<string>Ocultar durante cenas
 <string>Não exibe a arma do Caçador durante cenas.<lf><COLOR preset="TXT_Accent">(Armas ainda são exibidas em certas<lf>situações.)</COLOR>
 <string>Visibilidade da Proteção de Cabeça
 <string>Ajusta quando a proteção de cabeça equipada<lf>atualmente é visível.
@@ -1170,14 +1270,14 @@
 <string>A proteção de cabeça do Caçador é exibida,<lf>de acordo com o equipamento e configurações<lf>de aparência atuais. <COLOR preset="TXT_Accent">(A proteção de cabeça<lf>ainda é exibida em certas situações.)</COLOR>
 <string>Ocultar
 <string>Não exibe a proteção de cabeça do Caçador,<lf>independentemente do equipamento e<lf>configurações de aparência atuais.
-<string>Ocultar Durante Cenas
+<string>Ocultar durante cenas
 <string>A proteção de cabeça do Caçador é sempre<lf>exibida, de acordo com o equipamento e<lf>configurações de equipamento atuais, exceto<lf>durante cenas.
 <string>Configurações de Caçador de Suporte
 <string>Define ações do Caçador de Suporte<lf>e configurações relacionadas.
 <string>Caçador de Suporte: Exibir Dano
 <string>Define se os valores de dano causados a monstros<lf>por um Caçador de Suporte são exibidos.
 <string>Ativar
-<string>Desativado
+<string>Desativar
 <string>Caçador de Suporte: Ataques de Controle
 <string>Define se Caçadores de Suporte podem inibir<lf>ataques de monstros.
 <string>Permite que Caçadores de Suporte realizem<lf>Ataques Inibidores.
@@ -1212,19 +1312,21 @@
 <string>Exibe uma silhueta com bordas vermelhas quando<lf>o Caçador estiver encoberto por um monstro.
 <string>Tipo 5
 <string>Exibe uma silhueta com bordas azuis quando<lf>o Caçador estiver encoberto por um monstro.
-<string>Config. de Sinc. de Fotos
+<string>Salvamento de Foto Sincronizado
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>Ajusta se fotos tiradas com a câmera<lf>são salvas tanto nos dados salvos como<lf>no armazenamento de hardware.
 <string>Sincronizar
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
-<string>Não Sincronizar
+<string>Salva fotos em seus dados salvos<lf>e no armazenamento de hardware.
+<string>Não sincronizar
 <string>Salva as fotos apenas nos seus dados salvos.
 <string>Anonimizar Nomes de Outros Jogadores
 <string>Define se os nomes dos outros jogadores serão<lf>anônimos.
-<string>Anonimizar Todos os Outros Jogadores
+<string>Anonimizar todos os outros jogadores
 <string>Os nomes de todos os outros jogadores ficam<lf>sob anonimato.<lf><COLOR preset="TXT_Accent">(Perfis de Caçador não ficam anônimos.)</COLOR>
-<string>Anonimizar Jogadores Fora do Grupo de Elo
+<string>Anonimizar jogadores fora do Grupo de Elo
 <string>Os nomes de jogadores que não são membros<lf>do seu Grupo de Elo ficam sob anonimato.<lf><COLOR preset="TXT_Accent">(Perfis de Caçador não ficam anônimos.)</COLOR>
-<string>Não Anonimizar Nomes
+<string>Não anonimizar nomes
 <string>Não deixa nenhum nome sob anonimato.
 <string>Config. Guia de Botões do Berrante
 <string>Ajuste as configurações de exibição do<lf>guia de botões do berrante de caça.
@@ -1234,6 +1336,12 @@
 <string>Exibe apenas a lista de Efeitos de Melodia<lf>sem exibir o guia de botões padrão, seja<lf>com o berrante embainhando ou em mãos.
 <string>Tipo 3
 <string>Exibe o guia de botões padrão se o berrante<lf>estiver embainhando ou em mãos, e só exibe<lf>a lista de Efeitos de Melodia ao segurar<lf>o botão <ICON PL_ITEM_SLIDER_OPEN> com o berrante em mãos.
+<string>Exibir Poder de Ataque da Arma
+<string>Define se o poder de ataque da arma é exibido usando<lf>coeficientes exclusivos.<COLOR preset="TXT_Accent">(Não afeta o dano verdadeiro.)</COLOR>
+<string>Exibir com coeficiente
+<string>Exibe o poder de ataque base da arma com um<lf>coeficiente exclusivo para cada tipo de arma.<lf>Tipos de arma com poder de ataque único maior<lf>são calculados com um valor maior.
+<string>Exibir sem coeficiente
+<string>Exibe o poder de ataque base da arma como<lf>padrão, sem o uso de coeficientes. Isto<lf>facilita a comparação de poder de ataque<lf>entre diferentes tipos de arma.
 <string>Volume Geral
 <string>Ajusta o volume geral.<lf><COLOR preset="TXT_Accent">(Não afeta o volume do bate-papo por voz.)</COLOR>
 <string>Volume da Voz
@@ -1253,7 +1361,7 @@
 <string>TV (Áudio em 3D)
 <string>Configurações de som otimizadas para televisão<lf>(áudio em 3D).
 <string>Fones de Ouvido
-<string>Configurações de som otimizadas para fones de ouvido.
+<string>Configurações de som otimizadas para fones<lf>de ouvido.
 <string>Caixas de Som (Estéreo)
 <string>Configurações de som otimizadas para caixas<lf>de som estéreo.
 <string>Caixas de Som (Som Surround)
@@ -1270,7 +1378,7 @@
 <string>O som do jogo é reproduzido em canal mono.<lf><COLOR preset="TXT_Accent">(Os alto-falantes direito e esquerdo<lf>reproduzem o mesmo áudio.)</COLOR>
 <string>Desativado
 <string><PLATMSG MsgGUI030100_05_05_01_Help>
-<string>Desabilita o áudio mono no jogo, e reproduz<lf>o áudio de acordo com as configurações de<lf>saída de áudio do seu sistema operacional.
+<string>Desabilita o áudio mono no jogo e reproduz<lf>o áudio de acordo com as configurações de<lf>saída de áudio do seu sistema operacional.
 <string>Saída de Som
 <string>Mostra as informações de saída de som.
 <string>Dispositivo de Saída
@@ -1283,23 +1391,23 @@
 <string>Ativa o bate-papo por voz.
 <string>Desativar
 <string>Desativa o bate-papo por voz.
-<string>Apertar para Falar
+<string>Apertar para falar
 <string>O bate-papo por voz só transmitirá o áudio<lf>enquanto a tecla definida estiver pressionada.<lf><COLOR preset="TXT_Accent">(Recurso exclusivo de teclado.)</COLOR>
 <string>Volume do Bate-papo por Voz
 <string>Ajusta o volume de outros participantes do<lf>bate-papo por voz.
 <string>Troca Auto. de Bate-papo por Voz
 <string>Define se deve trocar automaticamente entre<lf>canais de bate-papo de acordo com a missão.<lf><COLOR preset="TXT_Accent">(A troca manual pode ser feita à vontade.)</COLOR>
-<string>Priorizar Membros da Missão
+<string>Priorizar membros da Missão
 <string>Troca automaticamente para o bate-papo por voz<lf>da missão ao iniciar uma missão, e para o<lf>bate-papo por voz de Membros do Elo ao voltar<lf>da missão.
-<string>Priorizar Membros do Elo
+<string>Priorizar membros do Elo
 <string>Troca automaticamente para o bate-papo por voz<lf>de Membros do Elo ao entrar em um Grupo<lf>de Elo, não importa a situação da missão.
-<string>Não Priorizar
+<string>Não priorizar
 <string>Não prioriza ou troca canais de bate-papo por<lf>voz automaticamente. A troca deve ser manual.
 <string>Idioma Felyno
 <string>Ajusta o idioma falado pelos Felynos.
 <string>Idioma Felyno
 <string>Todas as vozes de Felynos, incluindo a sua, serão definidas<lf>para o idioma Felyno.<lf><COLOR preset="TXT_Accent">(Desativa a voz selecionada na criação de personagem.)</COLOR>
-<string>Usar Tipo de Voz Definido
+<string>Usar tipo de voz definido
 <string>Ajusta todas as vozes de Felynos, incluindo<lf>a de seu Amigato, para o tipo de voz definido<lf>na criação de personagem. <COLOR preset="TXT_Accent">(O idioma Felyno não<lf>será usado.)</COLOR>
 <string>Voz: Janela Inativa
 <string>Ajusta as configurações de reprodução de áudio<lf>de voz quando a janela de jogo está inativa.
@@ -1322,17 +1430,17 @@
 <string>Deuteranopia
 <string>Tritanopia
 <string>Assistência para Aracnofobia
-<string>Ajusta a aparência de monstros pequenos e vida<lf>nativa com vários membros, como aracnídeos e<lf>insetos. <COLOR preset="TXT_Accent">(Não afeta movimento ou dificuldade.)</COLOR>
+<string>Ajusta a aparência de alguns monstros<lf>pequenos e vida nativa com vários membros.<lf><COLOR preset="TXT_Accent">(Não afeta movimentação ou dificuldade.)</COLOR>
 <string>Ativado
 <string>Ajusta a aparência de alguns monstros pequenos<lf>e vida nativa para acomodar jogadores com<lf>aracnofobia.
 <string>Desativado
 <string>Não altera a aparência de monstros pequenos<lf>e vida nativa com características aracnídeas<lf>ou de inseto.
 <string>Acessibilidade Visual
 <string>Ajusta todas as configurações para as recomendações<lf>de auxílio visual. Você pode ver os detalhes de<lf>cada configuração antes de confirmar.
-<string>Aplicar configurações de Acessibilidade Visual<lf>recomendadas?
+<string>Aplicar configurações de Acessibilidade Visual recomendadas?
 <string>Acessibilidade Auditiva
 <string>Ajusta todas as configurações para as recomendações<lf>de auxílio auditivo. Você pode ver os detalhes de<lf>cada configuração antes de confirmar.
-<string>Aplicar configurações de Acessibilidade Auditiva<lf>recomendadas?
+<string>Aplicar configurações de Acessibilidade Auditiva recomendadas?
 <string>Redução de Cinetose
 <string>Ajusta todas as configurações para as recomendações<lf>de redução de cinetose. Você pode ver os detalhes<lf>de cada configuração antes de confirmar.
 <string>Aplicar configurações de Redução de Cinetose<lf>recomendadas?

@@ -28,11 +28,15 @@
 <string>Lv-
 <string>{0}
 <string>-
+<string>??? 파생
 <string>메인 무기
 <string>메인 무기로 장비
 <string>서브 무기
 <string>서브 무기로 장비
 <string>무기
+<string>치장품
+<string>메인 무기 치장품
+<string>서브 무기 치장품
 <string>용열 기관 용탄
 <string>용열 천갑탄
 <string>용열 상쇄탄
@@ -40,13 +44,57 @@
 <string>집중특공탄【용후】
 <string>기폭 용탄
 <string>압착 용탄
+<string>생산 소재
+<string>강화 소재
+<string>필요 비용
+<string>강화 장비 선택
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>방어구 강화
+<string>LvUP에 필요한 강화치
+<string>최대 강화입니다
 <string>모두 표시
+<string>의상 <ICON EQUIP_TYPE1>만
+<string>의상 <ICON EQUIP_TYPE2>만
+<string>보유 장비만
+<string>강화
+<string>생산
+<string>소재와 {0}<REF RefGeneral_0015_000>가 필요합니다. 계속하시겠습니까？
+<string>소재와 {0}<REF RefGeneral_0015_000>가 필요합니다.<lf>계속하시겠습니까?<lf><lf>(이 장비를 생산하면 <COLOR preset="TXT_Accent">덧입는 장비</COLOR>도<lf>입수 가능합니다)
+<string>장착하시겠습니까?
+<string>나머지 {0}pts는 사라집니다.<lf>계속하시겠습니까?
+<string>착용해 보기
+<string><COLOR preset="TXT_Danger">장비 BOX에 빈 공간이 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 장비는 아직 생산/강화할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">강화하려는 장비가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">필요한 소재 또는 돈이 부족합니다.</COLOR>
+<string><COLOR preset="TXT_Danger">소지금이 부족합니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 장비는 강화 최대치에 도달했습니다.</COLOR>
+<string>사용할 갑옥과 개수를 지정하십시오.
 <string><COLOR preset="TXT_Danger">장식품이 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">소재가 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">장비가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">아티어 파츠가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">아티어 무기가 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">보우건이 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">연금에 필요한 장식품이 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">연금에 필요한 아티어 파츠가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">제련에 필요한 소재가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">복원 강화 소재가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 추천 장비는 이미 소지 중이므로 생산/강화할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 추천 장비는 이미 소지 중이므로 생산할 수 없습니다.</COLOR>
+<string>장착 중인 장비: {0}
 <string>다른 장비에 장착 중입니다.<lf>해제하시겠습니까?
+<string><COLOR preset="TXT_Danger">장착 중인 장식품입니다.</COLOR>
+<string><COLOR preset="TXT_Danger">슬롯 레벨이 맞지 않으므로 장착할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 사냥벌레는 육성 최대치에 도달했습니다.</COLOR>
+<string>{0}<REF RefGeneral_0015_000>가 필요합니다.<lf>계속하시겠습니까?
+<string>{0}<REF RefGeneral_0015_000>가 필요합니다.<lf>계속하시겠습니까?<lf><lf>(이 장비를 생산하면 <COLOR preset="TXT_Accent">덧입는 장비</COLOR>도<lf>입수 가능합니다)
+<string>육성 소재
 <string>장비 BOX
+<string>덧입기 BOX
 <string><COLOR preset="TXT_Danger">사냥벌레는 조충곤을 장비했을 때만 선택할 수 있습니다.</COLOR>
+<string>장식품 BOX
 <string>장식품 장착/해제
 <string>장비 변경
 <string>스킬 정보
@@ -56,6 +104,7 @@
 <string>즐겨찾기 등록
 <string>장비 외형 설정
 <string>장비 설정
+<string>자동선택
 <string>BOX에서 선택
 <string>방어구를 시리즈로 선택
 <string>무기 표시 전환
@@ -65,8 +114,58 @@
 <string>상세 창 표시 전환
 <string>장비 BOX 표시 전환
 <string>장비 프리뷰 표시 전환
+<string>방어구 채색
+<string>찜 목록에 등록
+<string>생산 소재로 등록
+<string>강화 소재로 등록
+<string>찜 목록에 등록합니다.<lf>계속하시겠습니까?
+<string>위시리스트 등록이 필요한 장비에 생산 혹은 강화를 선택할 수 있는 장비가 포함되어 있습니다. 등록할 소재를 선택해 주십시오.
+<string>찜 목록에서 삭제
+<string>찜 목록에서 삭제합니다.<lf>계속하시겠습니까?
+<string>찜 목록에서 삭제합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Danger">(이 항목은 장비 마이 세트와 연동됐습니다.<lf>삭제 대상에 포함된 장비는 장비 마이 세트에서<lf>'미설정'으로 변경됩니다.)</COLOR><lf>
+<string>장식품 일괄 해제
+<string>현재 장비 중인 장식품을 해제합니다.<lf>계속하시겠습니까?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA>을 모델 조작으로 전환
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>을 모델 조작으로 전환
+<string><ICON PAD PL_DUMMY_CAMERA>을 프리뷰 조작으로 전환
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>을 프리뷰 조작으로 전환
+<string><ICON PAD PL_DUMMY_CAMERA>을 목록 조작으로 전환
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>을 모델 조작으로 전환)
 <string>장비를 시리즈로 선택
+<string>칼날
+<string>통
+<string>판
+<string>장치
 <string>복장
+<string>검색
+<string>방어력 보너스
+<string>슬롯 레벨
+<string>슬롯 수
+<string>포격 타입
+<string>선율 효과
+<string>장전 가능한 탄
+<string>속사 가능한 탄
+<string>장전 가능한 병
+<string>해제
+<string>선택되지 않음
+<string>흰색
+<string>파란색
+<string>녹색
+<string>Ⅲ
+<string>Ⅱ
+<string>Ⅰ
+<string>예리도(흰색)
+<string>예리도(파란색)
+<string>예리도(녹색)
+<string>슬롯 레벨(Ⅲ)
+<string>슬롯 레벨(Ⅱ)
+<string>슬롯 레벨(Ⅰ)
+<string>슬롯 수(3)
+<string>슬롯 수(2~3)
+<string>슬롯 수(1~3)
 <string>조건 정렬
 <string>무기 정렬
 <string>방어구 정렬
@@ -83,6 +182,9 @@
 <string>내성치 기준
 <string>방어력 기준
 <string>방어구 부위 기준
+<string>종류 기준
+<string>성능 타입 기준
+<string>아티어 보너스 기준
 <string>공격 타입
 <string>방어구 부위 기준
 <string>기본
@@ -91,6 +193,9 @@
 <string>사냥벌레 Lv 기준
 <string>포격 타입 기준
 <string>소지 수 기준
+<string>1~3
+<string>2~3
+<string>3
 <string>통상탄 Lv1
 <string>통상탄 Lv2
 <string>통상탄 Lv3
@@ -139,3 +244,23 @@
 <string>속사(빙결탄Lv1)
 <string>속사(빙결탄Lv2)
 <string>속사(멸룡탄)
+<string><COLOR preset="TXT_Danger">현재 장비 중이므로 매각할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">복장은 매각할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">소지 중인 유일한 사냥벌레이므로 매각할 수 없습니다.(사냥벌레는 하나 이상 소지해야 합니다.) </COLOR>
+<string><COLOR preset="TXT_Danger">이 장비는 매각할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">조충곤과 조합 중인 사냥벌레이므로 매각할 수 없습니다.</COLOR>
+<string>매각액
+<string>마이 세트에 등록된 장비입니다.<lf>매각하시겠습니까?
+<string>{0}z에 매각합니다.<lf>계속하시겠습니까?
+<string>장식품이 장착된 장비입니다. 장식품을 해제하고<lf>이 장비를 {0}z에 매각합니다.<lf>계속하시겠습니까?
+<string>다음에 해당하는 장식품이 선택되어 있습니다.<lf>정말 매각하시겠습니까?<lf>{0}<lf>{1}<lf>{2}
+<string>-장착 중
+<string>-마이 세트 등록 중
+<string>-즐겨찾기 등록 중
+<string>{0}에 선택한 마이 세트 내용을 공유합니다.<lf>계속하시겠습니까?
+<string>내 마이 세트로 등록
+<string>내 마이 세트 빈칸에 등록합니다.<lf>계속하시겠습니까?
+<string>내 마이 세트에 빈칸이 없어<lf>등록할 수 없습니다.
+<string><COLOR preset="TXT_Accent">소지하지 않은 장비가<lf>마이 세트에 등록되어 있습니다.</COLOR><lf>찜 목록에 자동 등록했습니다.
+<string><COLOR preset="TXT_Accent">소지하지 않은 장비가<lf>마이 세트에 등록되어 있습니다.</COLOR><lf>대상 장비는 찜 목록에<lf>이미 등록되어 있습니다.
+<string><COLOR preset="TXT_Accent">소지하지 않은 장비가<lf>마이 세트에 등록되어 있습니다.</COLOR>

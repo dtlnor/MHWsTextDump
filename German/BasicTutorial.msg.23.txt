@@ -32,8 +32,8 @@
 <string>
 <string>Tortenmenü anzeigen (Tastatur)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
-<string><COLOR preset="TXT_Danger">Tortenmenü-Anzeige via Tastatur</COLOR><lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, um das angepasste<lf>Tortenmenü anzuzeigen.<lf>– <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> zeigt ein Menü an.<lf>– <ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> zeigt alle vier Menüs an.<lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_KEY_00>...<ICON MKB UI_PC_SHORTCUT_KEY_11>, um ein gewünschtes<lf>Objekt oder einen gewünschten Ausruf<lf>zu benutzen.<lf>Drücke <ICON MKB UI_PC_SHORTCUT_PALLET_00>...<ICON MKB UI_PC_SHORTCUT_PALLET_07>, um Menüs zu wechseln.<lf><lf>Tortenmenüs können im Spielmenü<lf>unter „Tortenmenü anpassen“<lf>bearbeitet werden.
-<string>
+<string><COLOR preset="TXT_Danger">Tortenmenü-Anzeige via Tastatur</COLOR><lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, um das angepasste<lf>Tortenmenü anzuzeigen.<lf>– <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> zeigt ein Menü an.<lf>– <ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> zeigt alle vier Menüs an.<lf><lf>Drücke <ICON MKB UI_PC_SHORTCUT_KEY_00>...<ICON MKB UI_PC_SHORTCUT_KEY_11>, um ein gewünschtes<lf>Objekt oder einen gewünschten Ausruf<lf>zu benutzen.<lf>Drücke <ICON MKB UI_PC_SHORTCUT_PALLET_00>...<ICON MKB UI_PC_SHORTCUT_PALLET_07>, um Menüs zu wechseln.
+<string>Tortenmenüs können im Spielmenü<lf>unter „Tortenmenü anpassen“<lf>bearbeitet werden.
 <string>Objekt, Ausruf usw. wählen (Tastatur)
 <string><ICON MKB UI_PC_SHORTCUT_KEY_00><ICON MKB UI_PC_SHORTCUT_KEY_01><ICON MKB UI_PC_SHORTCUT_KEY_02><ICON MKB UI_PC_SHORTCUT_KEY_03><ICON MKB UI_PC_SHORTCUT_KEY_04><ICON MKB UI_PC_SHORTCUT_KEY_05><ICON MKB UI_PC_SHORTCUT_KEY_06><ICON MKB UI_PC_SHORTCUT_KEY_07><ICON MKB UI_PC_SHORTCUT_KEY_08><ICON MKB UI_PC_SHORTCUT_KEY_09><ICON MKB UI_PC_SHORTCUT_KEY_10><ICON MKB UI_PC_SHORTCUT_KEY_11>
 <string>
@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string>Schleudermunition mit Eiselement.
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,13 +112,26 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string>Wurfmesser
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
@@ -104,17 +139,20 @@
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
 <string>
-<string><REF RefGeneral_0014_01>
-<string><REF RefGeneral_0014_01>
-<string>Ein von den Bewohnern Kunafas<lf>erhaltenes Reittier, das dank seiner<lf>beeindruckenden Wendigkeit schnell<lf>jedes Gelände durchqueren kann. Ist<lf>ein Wegpunkt auf der Karte markiert,<lf>kann ein Saikrii ihn dank seines starken<lf>Geruchsinns automatisch finden. Beim<lf>Reiten können die Schleuder und andere<lf>Objekte benutzt werden, wodurch du<lf>dich erholen, deine Waffe schärfen und<lf>Objekte sammeln kannst. Der Saikrii<lf>weicht manchmal automatisch Monster-<lf>angriffen aus.
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
-<string><REF RefMenu_061> (Auto-bewegen)
+<string><REF RefGeneral_0014_01>
+<string><REF RefGeneral_0014_01>
+<string>Ein von den Bewohnern Kunafas erhal-<lf>tenes Reittier, das dank seiner beein-<lf>druckenden Wendigkeit schnell jedes<lf>Gelände durchqueren kann.<lf><lf>Ist ein Wegpunkt auf der Karte<lf>markiert, findet ein Saikrii ihn dank<lf>seines starken Geruchsinns automatisch.
+<string>Beim Reiten können die Schleuder<lf>und andere Objekte benutzt werden,<lf>wodurch du dich erholen, deine<lf>Waffe schärfen und Objekte sammeln<lf>kannst.<lf><lf>Der Saikrii weicht manchmal auto-<lf>matisch Monsterangriffen aus.
+<string><REF RefMenu_061> (Auto-Bewegung)
 <string><INPUTMSG MsgGUI600200_00_011>
-<string>Du kannst deinen Saikrii rufen, wenn<lf>ihr getrennt werdet, beziehungsweise<lf>steigst auf, wenn er neben dir steht.<lf>Sobald du auf ihm sitzt, läuft er<lf>automatisch zu dem derzeit von dir<lf>gesetzten Wegpunkt.
+<string>Du rufst deinen Saikrii zu dir bezie-<lf>hungsweise steigst auf, wenn er neben<lf>dir steht.<lf>Sobald du auf ihm sitzt, läuft er<lf>automatisch zu dem derzeit von dir<lf>gesetzten Wegpunkt.
 <string>
-<string><REF RefMenu_061> (Manuelle Bewegung)
+<string><REF RefMenu_061> (manuelle Bewegung)
 <string><INPUTMSG MsgGUI600200_00_012>
-<string>Du kannst deinen Saikrii rufen und<lf>auf ihm reiten, aber er wird nicht<lf>automatisch in Richtung des Ziels<lf>laufen, sondern dir die manuelle<lf>Kontrolle überlassen.
+<string>Wie bei der Auto-Bewegung rufst du<lf>deinen Saikrii zu dir und steigst auf,<lf>allerdings bewegt er sich nach dem<lf>Aufsitzen nicht automatisch in Rich-<lf>tung eines Ziels, sondern überlässt dir<lf>die manuelle Kontrolle.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m744176512>
 <string><INPUTMSG MsgGUI600200_00_013>
@@ -131,7 +169,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>Du kannst die Geschwindigkeit deines<lf>Saikrii erhöhen, indem du <ICON PL_PT_SPEED_UP> gedrückt<lf>hältst.<lf><lf>Nutze <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT> während dein<lf>Saikrii rennt, um zu driften.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> beim Driften gibt deinem Saikrii<lf>einen Geschwindigkeitsboost.
+<string>Du kannst die Geschwindigkeit deines<lf>Saikrii erhöhen, indem du <ICON PL_PT_SPEED_UP> gedrückt<lf>hältst.<lf><lf>Nutze <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>, während dein<lf>Saikrii rennt, um zu driften.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> beim Driften gibt deinem Saikrii<lf>einen Geschwindigkeitsboost.
 <string>
 <string>Driften
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT><REF RefGeneral_0001_006><ICON PL_MOVE_RIGHT>
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP> Verteidigung hoch
 <string>Erhöht die Verteidigung.<lf><lf>Hauptsächlich erhalten durch:<lf>– Objekte wie z. B. Diamantsamen und<lf>   Panzerhaut<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
 <string>
+<string><ICON ST_CRITICAL_UP> Affinität hoch
+<string>Erhöht die Affinität.<lf><lf>Hauptsächlich erhalten durch:<lf>– Fähigkeiten wie Aufhetzer<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Elementangriffsbonus
+<string>Erhöht die Elementkraft deiner Waffe.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Statusangriff hoch
+<string>Erhöht die Wirksamkeit von Angriffen,<lf>die bei Monstern Statusanomalien<lf>auslösen.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Feuerwiderstand hoch
 <string>Erhöht Feuerwiderstand und verhindert<lf>Feuerpest.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Wasserwiderstand hoch
+<string>Erhöht Wasserwiderstand und<lf>verhindert Wasserpest.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Donnerwiderstand hoch
+<string>Erhöht Donnerwiderstand und<lf>verhindert Donnerpest.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Eiswiderstand hoch
+<string>Erhöht Eiswiderstand und verhindert<lf>Eispest.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Drachenwiderstand hoch
+<string>Erhöht Drachenwiderstand und<lf>verhindert Drachenpest.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_SPIRIT> Göttlicher Schutz
+<string>Du erleidest mit gewisser Wahr-<lf>scheinlichkeit weniger Schaden.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_HEAL_CONTINUE> Gesundheitserholung
+<string>Du stellst allmählich Gesundheit<lf>wieder her.<lf><lf>Hauptsächlich erhalten durch:<lf>– Echoblasen-Effekte des Jagdhorns
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Erholungstempo
+<string>Erhöht das Tempo, mit dem sich der<lf>rote Teil deines Gesundheitsbalken<lf>wieder auffüllt.<lf><lf>Hauptsächlich erhalten durch:<lf>– Objekte wie z. B. Immunisierer und<lf>   Wildes Dörrfleisch<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Ausdauernutzung reduziert
+<string>Reduziert den Ausdauerverbrauch.<lf><lf>Hauptsächlich erhalten durch:<lf>– Sprintsaft<lf>– Sammeln von Ausdauer-Insektenlarven<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Ausdauererholungsplus
+<string>Status, der die Ausdauer-Erholungsrate<lf>erhöht.<lf><lf>Hauptsächlich erhalten durch:<lf>– Aktivierung von<lf>   Ausrüstungsfähigkeiten
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Ausdauererholung
+<string>Stellt kontinuierlich Ausdauer<lf>wieder her.<lf><lf>Hauptsächlich erhalten durch:<lf>– Echoblasen-Effekte des Jagdhorns
+<string>
+<string><ICON ST_AVOID_UP> Unverwundbarkeit hoch
+<string>Verlängert deine Unverwundbarkeit.<lf><lf>Hauptsächlich erhalten durch:<lf>– Aktivierung von<lf>   Ausrüstungsfähigkeiten<lf>– Echoblasen-Effekte des Jagdhorns
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Selbstverbesserung
 <string>Erhöht deine Bewegungsgeschwin-<lf>digkeit.<lf><lf>Das Stapeln dieses Melodie-Effekts<lf>erhöht deinen Angriff und verhindert,<lf>dass deine Angriffe abgelenkt werden.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_ARMOR> Rückwurf negiert
+<string>Verhindert, dass du durch Angriffe<lf>zurückgeworfen wirst.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_WIND> Winddruck negiert/<ICON ST_RESIST_WIND_HIGH> Jeden Winddruck negiert
+<string>Gewährt Schutz gegen Winddruck.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_NOISE> Ohrstöpsel (S)/<ICON ST_RESIST_NOISE_HIGH> Ohrstöpsel (L)
+<string>Gewährt Schutz gegen Monstergebrüll.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_QUAKE> Beben negiert
+<string>Gewährt Schutz gegen Erdbeben.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_STUN> Betäuben negiert
+<string>Verhindert Betäubung.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Lähmung negiert
+<string>Verhindert Lähmung.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_ELEMENT> Pest negiert
+<string>Negiert die Wirkung aller<lf>elementbasierten Pestarten.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_DEBUF> Alle Statusanomalien negiert
+<string>Negiert die Wirkung aller Status-<lf>anomalien.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte und Echoblasen-<lf>   Effekte des Jagdhorns
+<string>
+<string><ICON ST_SOUND_BARRIER> Schallbarriere
+<string>Verringert einmalig Schaden und<lf>negiert außerdem einmalig Winddruck,<lf>Erdbeben und Monstergebrüll.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_GROUND> Umgebungsschaden negiert
+<string>Negiert Schaden von Lava oder<lf>Stacheln am Boden und verhindert<lf>negative Effekte durch intensive<lf>Hitze oder Kälte.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_MUD> Sumpfläufer
+<string>Tiefe Gewässer oder Ölschlamm<lf>verlangsamen dich nicht mehr.<lf>Negiert Welleneffekte von<lf>Monstern.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
+<string>
+<string><ICON ST_RESIST_COLD> Kältewiderstand
+<string>Ein Status, der verhindert, dass du an<lf>bitterkalten Orten schneller Ausdauer<lf>verlierst.<lf><lf>Hauptsächlich erhalten durch:<lf>– Verwenden von Heißgetränken<lf>– Verwenden von Hitzemäntelchen
+<string>
+<string><ICON ST_RESIST_HOT> Hitzewiderstand
+<string>Ein Status, der verhindert, dass du an<lf>extrem heißen Orten allmählich<lf>Gesundheit verlierst.<lf><lf>Hauptsächlich erhalten durch:<lf>– Verwenden von Kaltgetränken<lf>– Verwenden von Frostmäntelchen
 <string>
 <string><ICON ST_MEAL_UP> Mahleffekte
 <string>Zeigt an, dass bei dir Essens-Effekte<lf>wirken.<lf><lf>Hauptsächlich erhalten durch:<lf>– Essen
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Schlaf
+<string>Wenn du schläfrig wirst, schläfst du<lf>bald darauf ein und kannst dich nicht<lf>mehr bewegen. Baut sich nach und<lf>nach auf, bis der Status schließlich<lf>ausgelöst wird.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Energie-Trank, bevor du einschläfst<lf>– Treffer durch einen Angriff<lf>– Warten, bis du aufwachst
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>Ein Status, der eine Explosion<lf>verursacht, wenn du getroffen wirst,<lf>wodurch du zurückgestoßen wirst<lf>und Schaden erleidest.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Verwenden von Deodorant<lf>– Ausweichen
+<string>
+<string><ICON ST_LACERATE> Blutung
+<string>Ein Status, durch den du Schaden<lf>erleidest, wenn du dich bewegst (nach<lf>der Heilung dieses Status erhöht sich<lf>deine natürliche Erholung für kurze<lf>Zeit).<lf><lf>Er wird normalerweise geheilt durch:<lf>– Verwenden von einem Gebratenen<lf>   Steak oder fleischbasierten Objekten<lf>– Für kurze Zeit in die Hocke gehen
+<string>
 <string><ICON ST_STUN> Betäubung
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Betäuben mit Blitz
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Eingenetzt
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Frostpest
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Verteidigung runter
+<string>Ein Status, bei dem deine Verteidigung<lf>verringert ist, wodurch du mehr<lf>Schaden erleidest.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Verwenden von Objekten wie<lf>   Diamantsamen und Panzerhaut<lf>– Warten, bis der Effekt abklingt
+<string>
+<string><ICON ST_BADSMELL> Gestank
+<string>Ein Status, bei dem du keine Essens-<lf>und Getränkeobjekte verwenden<lf>kannst.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Verwenden eines Deodorants<lf>– Ausweichen im Wasser<lf>– Warten, bis der Status abklingt
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Raserei
+<string>Bist du der Raserei zu lange ausgesetzt,<lf>wirst du infiziert – es sei denn, dass du<lf>einem Monster eine bestimmte Anzahl<lf>an Treffern verpasst.<lf>Wenn infiziert: Die natürliche Erholung<lf>wird verhindert und der erlittene<lf>Schaden wird erhöht.<lf>Wenn geheilt: Affinität wird erhöht und<lf>du erhältst Widerstand gegen Raserei.<lf>Du kannst den Ausbruch der Raserei<lf>mithilfe einer Nullbeere verzögern.
+<string>
 <string><ICON ST_FIRE> Feuerpest
 <string>Ein Status, bei dem du mit der Zeit<lf>Gesundheit verlierst.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Nullbeere<lf>– mehrfaches Ausweichen im Wasser<lf>– Warten, bis der Status abklingt
 <string>
@@ -220,6 +362,12 @@
 <string>
 <string>Winddruck
 <string>Ein Status, der deine Bewegung ein-<lf>schränkt. Die Länge der Einschränkung<lf>hängt von der Stärke des Windes ab.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Warten, bis der Effekt nachlässt<lf>– Treffer durch einen Angriff
+<string>
+<string>Kälte
+<string>Ein Status, der in bestimmten Gebieten<lf>die Rate erhöht, mit der sich deine<lf>Ausdauer verringert.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Verwenden von Heißgetränken<lf>– Verwenden von Hitzemäntelchen
+<string>
+<string>Hitze
+<string>Ein Status, durch den du in bestimmten<lf>Gebieten Gesundheit verlierst.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Verwenden von Kaltgetränken<lf>– Verwenden von Frostmäntelchen
 <string>
 <string>Weggesteckte Waffe
 <string><INPUTMSG MsgGUI600200_00_025>
@@ -245,6 +393,12 @@
 <string><REF Item_IT_21>
 <string>Der Wetzstein ist ein Objekt, das die<lf>verlorene Waffenschärfe wiederher-<lf>stellen kann. Er ist als Fixobjekte<lf>immer in deiner Objektleiste verfügbar.<lf><lf>Du kannst den Wetzstein auch dann<lf>nutzen, wenn deine Waffe gezogen ist.<lf>Dazu musst du ihn einem Angepassten<lf>Tortenmenü oder einem Kurzbefehl<lf>zuweisen.
 <string>
+<string>Ausrüstungsfähigkeit – Handwerk
+<string>Handwerk ist eine Fähigkeit, die den<lf>Schärfebalken verlängert. Die Farbe<lf>des Balkens nach der Nutzung hängt<lf>von der Waffe ab.<lf><lf>Die Details zur Verlängerung des<lf>Schärfebalkens sind im Spielmenü<lf>unter „Ausrüstung“ einsehbar.
+<string>
+<string>Ausrüstungsfähigkeit – Schutzpolitur
+<string>Schutzpolitur ist eine Fähigkeit,<lf>die bei der Nutzung von Wetzsteinen<lf>aktiviert wird. Sie verringert die<lf>Geschwindigkeit, mit der die<lf>Schärfe sinkt.
+<string>
 <string>Fokusmodus
 <string>Fokusmodus
 <string>Der Fokusmodus erlaubt es dir,<lf>punktgenau anzugreifen oder zu<lf>blocken.<lf><lf>Während du dich auf ein Monster<lf>fokussierst, heben Spähkäfer dessen<lf>Wunden und Schwachpunkte hervor.
@@ -262,7 +416,7 @@
 <string>Bei manchen Waffen kannst du mit<lf>einem Schild oder der Waffe selbst<lf>blocken.<lf><lf>Wie viel Schaden durch Blocken ver-<lf>hindert wird und wie lange du wehrlos<lf>bist, unterscheidet sich je nach Waffe.<lf><lf>Du kannst nur Angriffe aus der<lf>Richtung abwehren, in die du blockst.<lf><lf>Monsterangriffe wie Gaswolken und<lf>Strahlen können nicht geblockt<lf>werden.
 <string>
 <string><REF ActionGuideDataNameTextCommon_859531456>
-<string>Erlittener Schaden wird durch Blocken<lf>zur rechten Zeit stark verringert.<lf><lf>Manche Waffen erlauben Gegenangriffe<lf>und haben Spezialangriffe, die nach<lf>einem Perfekten Blocken eingesetzt<lf>werden können.
+<string>Erlittener Schaden wird durch Blocken<lf>zur rechten Zeit stark verringert.<lf><lf>Manche Waffen erlauben Gegenan-<lf>griffe und haben Spezialangriffe,<lf>die nach einem Perfekten Blocken<lf>eingesetzt werden können.
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>Mit dem Ghillie-Mantel kannst du<lf>dich vorübergehend vor Monstern<lf>verstecken. Angreifen oder Schaden<lf>erleiden beendet den Effekt sofort.<lf><lf>Anders als andere Spezialwerkzeuge<lf>ist der Ghillie-Mantel ein Fixobjekt,<lf>das du immer bei dir trägst.
+<string>
+<string><REF Item_IT_626>
+<string>Der Trutzmantel gibt Standsicherheit<lf>gegen bestimmte Angriffe und schützt<lf>gegen Winddruck, Gebrüll und Beben.<lf>Er verringert zudem erlittenen<lf>Schaden.<lf><lf>Erlittener Schaden verkürzt die Dauer<lf>der Nutzung.
+<string>
+<string><REF Item_IT_627>
+<string>Der Erholungsmantel stellt deine<lf>Gesundheit allmählich wieder her.<lf>Wenn du eine Zeit lang keinen<lf>Schaden erleidest, erhöht sich<lf>die Erholungsgeschwindigkeit.<lf><lf>Außerdem wird beim Angreifen von<lf>Monstern Gesundheit wiederhergestellt.
+<string>
+<string><REF Item_IT_628>
+<string>Der Ausweich-Mantel aktiviert ein spe-<lf>zielles Manöver mit einem verlängerten<lf>Unverwundbarkeitsfenster, wenn du<lf>einem Monsterangriff genau zum<lf>richtigen Zeitpunkt ausweichst.<lf>Dadurch erhöht sich zudem kurzzeitig<lf>deine Angriffskraft.
+<string>
+<string><REF Item_IT_629>
+<string>Der Verdorbene Mantel verringert<lf>deine Gesundheit, erhöht jedoch<lf>Affinität und Waffenleistung.<lf>Wiederholte Angriffe auf Monster<lf>erhöhen deine Angriffskraft und<lf>Affinität noch weiter.
 <string>
 <string>Jagdtipps
 <string>Aufsteigen
@@ -318,13 +484,13 @@
 <string>Gift hat zur Folge, dass ein Monster<lf>allmählich Gesundheit verliert.<lf>Du kannst bei einem Monster Gift aus-<lf>lösen, indem du mit einer bestimmten<lf>Anzahl an Giftangriffen triffst.<lf>Der zugefügte Schaden und die Dauer<lf>des Effekts sind bei jedem Monster<lf>unterschiedlich. Die Widerstands-<lf>schwelle eines Monsters erhöht sich<lf>mit jeder Vergiftung, wodurch es<lf>immer schwieriger wird, das Monster<lf>zu vergiften.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string>Lähmung macht Monster vorübergehend<lf>bewegungsunfähig. Du kannst bei einem<lf>Monster Lähmung auslösen, indem du es<lf>mit einer bestimmten Anzahl an Lähman-<lf>griffen triffst. Die Widerstandsschwelle<lf>eines Monsters erhöht sich jedes Mal<lf>nach Ausbruch des Status, wodurch sich<lf>auch die Effektdauer verringert.
+<string>Lähmung macht Monster vorüber-<lf>gehend bewegungsunfähig.<lf>Du kannst bei einem Monster Lähmung<lf>auslösen, indem du es mit einer be-<lf>stimmten Anzahl an Lähmangriffen<lf>triffst. Die Widerstandsschwelle eines<lf>Monsters erhöht sich jedes Mal nach<lf>Ausbruch des Status, wodurch sich auch<lf>die Effektdauer verringert.
 <string>
 <string>Schlaf
-<string>Schlaf macht Monster vorübergehend<lf>bewegungsunfähig. Der erste Angriff<lf>auf ein schlafendes Monster verursacht<lf>erhöhten Schaden. Du kannst ein Monster<lf>zum Einschlafen bringen, indem du es mit<lf>einer bestimmten Anzahl an Schlafan-<lf>griffen triffst. Die Widerstandsschwelle<lf>eines Monsters erhöht sich jedes Mal<lf>nach Ausbruch des Status, wodurch sich<lf>auch die Effektdauer verringert.
+<string>Schlaf macht Monster vorübergehend<lf>bewegungsunfähig. Der erste Angriff<lf>auf ein schlafendes Monster verursacht<lf>erhöhten Schaden.<lf>Du kannst ein Monster zum Einschlafen<lf>bringen, indem du es mit einer be-<lf>stimmten Anzahl an Schlafangriffen<lf>triffst. Die Widerstandsschwelle eines<lf>Monsters erhöht sich jedes Mal nach<lf>Ausbruch des Status, wodurch sich auch<lf>die Effektdauer verringert.
 <string>
 <string>Betäubung
-<string>Betäubung macht Monster vorübergehend<lf>bewegungsunfähig. Du kannst ein Monster<lf>betäuben, indem du stumpfen Schaden an<lf>bestimmten Körperteilen des Monsters<lf>(z. B. dem Kopf) verursachst. Die Wider-<lf>standsschwelle eines Monsters erhöht<lf>sich jedes Mal nach Ausbruch des Status,<lf>wodurch sich auch die Effektdauer ver-<lf>ringert.
+<string>Betäubung macht Monster vorüber-<lf>gehend bewegungsunfähig.<lf>Du kannst ein Monster betäuben,<lf>indem du stumpfen Schaden an be-<lf>stimmten Körperteilen des Monsters<lf>(z. B. dem Kopf) verursachst.<lf>Die Widerstandsschwelle eines<lf>Monsters erhöht sich jedes Mal nach<lf>Ausbruch des Status, wodurch sich<lf>auch die Effektdauer verringert.
 <string>
 <string>Ermüdung
 <string>Wenn die Ausdauer eines Monsters<lf>sinkt, ermüdet es. Dieser Status<lf>kann durch wiederholten, stumpfen<lf>Schaden erzwungen werden.
@@ -336,7 +502,10 @@
 <string>Ein Zustand, in dem ein Monster<lf>geblendet wurde und keine Beute<lf>fangen kann. Du kannst Monster mit<lf>Blitzkapseln und Blitzfliegen blenden.<lf>Ein Monster wird resistent, wenn es<lf>zu oft betroffen ist, wodurch die<lf>Dauer des Effekts immer kürzer wird.
 <string>
 <string>Gestank
-<string>Ein Status, bei dem ein Monster von<lf>einer stinkenden Flüssigkeit überzogen<lf>ist. Du kannst ihn mithilfe einer Dung-<lf>kapsel auslösen. Netter Nebeneffekt:<lf>Niemand mag Stinker, deshalb rennen<lf>alle weg...
+<string>Ein Status, bei dem ein Monster mit<lf>einem furchtbaren Gestank überzogen<lf>ist. Du kannst ihn mithilfe einer Dung-<lf>kapsel auslösen und es so zur Flucht<lf>zwingen.
+<string>
+<string>Explosion
+<string>Explosion ist ein Status, der sich<lf>langsam aufbaut und dann eine Explo-<lf>sion auslöst, die Monstern Schaden<lf>zufügt. Mit Explosion-Waffen kannst<lf>du den Status aufbauen.
 <string>
 <string>Monster-Schwachpunkte
 <string>Ein Monster enthüllt seinen Schwach-<lf>punkt vor oder nach einem seiner<lf>Angriffe. Du kannst sie im Fokusmodus<lf>ganz einfach finden.<lf><lf>Ein Fokusangriff auf einen Schwach-<lf>punkt schafft die Gelegenheit für<lf>weitere Angriffe.
@@ -348,9 +517,24 @@
 <string>Geschwächte Monster können mit Fallen<lf>oder Beruhigungsbomben gefangen,<lf>dann aber nicht zerlegt werden.<lf><lf>Das Fangen von Monstern wird von der<lf>Gilde gefördert, da es ihr ermöglicht,<lf>ein Monster zu erforschen, ohne es zu<lf>töten. Als Belohnung winken deshalb<lf>Materialien, die beim Zerlegen nur<lf>selten oder gar nicht zu bekommen<lf>sind.
 <string>
 <string>Ein Monster schwächen
-<string>Um ein Monster zu fangen, muss du es<lf>erst schwächen.<lf><lf>Ist es geschwächt, kannst du es mit<lf>Fallgruben und Schockfallen festhalten<lf>und dann mit Fangobjekten wie<lf>Beruhigungsbomben weiter<lf>einschränken.<lf><lf>Ist es ordentlich ruhiggestellt und in<lf>Schlaf versetzt, ist es gefangen.
+<string>Um ein Monster zu fangen, musst du es<lf>erst schwächen.<lf><lf>Ist es geschwächt, kannst du es mit<lf>Fallgruben und Schockfallen festhalten<lf>und dann mit Fangobjekten wie<lf>Beruhigungsbomben weiter bändigen.<lf><lf>Ist es ordentlich ruhiggestellt und in<lf>Schlaf versetzt, ist es gefangen.
 <string>
 <string>Ein Monster fesseln
 <string>
 <string>Beruhigungsbomben
+<string>
+<string>Raserei
+<string>Wenn Monster mit der Raserei<lf>infiziert sind, werden sie rasend.<lf><lf>Rasende Monster folgen nicht dem<lf>üblichen Schlaf- und Fressverhalten,<lf>sondern sind aggressiver und gewalt-<lf>tätiger als normale Vertreter ihrer Art.<lf><lf>Die Effekte der Raserei verringern<lf>auch die Lebensspanne und die<lf>Gesundheit eines Monsters.
+<string>
+<string>Wächter
+<string>Wächter sind künstliche Monster, die<lf>von einer uralten Zivilisation<lf>erschaffen wurden, sich nicht fort-<lf>pflanzen können und nicht jagen<lf>müssen, da sie von Wyvernmilch leben.<lf><lf>Die Energie aus der Wyvernmilch lässt<lf>ihre Wunden heilen und macht sie sehr<lf>viel robuster als normale Monster.<lf>Selbsterhaltungsinstinkte lassen sie<lf>in der Nähe von Energiequellen<lf>bleiben, die sie aggressiv verteidigen.
+<string>
+<string>Gehärtete Monster
+<string>Gehärtete Monster sind Monster, die<lf>zahllose Kämpfe überlebt haben. Sie<lf>haben eine viel höhere Gesundheit<lf>und Angriffskraft als andere ihrer Art,<lf>was sie zu starken Gegnern macht.<lf><lf>Diese Monster tragen, vermutlich als<lf>Folge vorheriger brutaler Kämpfe,<lf><COLOR preset="TXT_Accent">Gehärtete Wunden</COLOR> auf dem Körper.
+<string>
+<string>Gehärtete Wunden
+<string>Gehärtete Wunden bedecken nach<lf>vielen erbitterten Kämpfen die<lf>Körper Gehärteter Monster.<lf><lf>Anders als normale Monster tragen<lf>Gehärtete Monster diese Wunden<lf>bereits vor Begegnungen mit Jägern.<lf>Diese Wunden können mit der Zeit<lf>wieder geöffnet werden,<lf>um Schwachpunkte zu erschaffen.
+<string>
+<string>Verwesende Kadaver
+<string>Monsterkadaver beginnen mit der Zeit<lf>zu verrotten. Die Materialien, die man<lf>von frischen und verrottenden Kada-<lf>vern erhält, unterscheiden sich.<lf><lf>Kleine verrottete Monster werden<lf>manchmal zu Knochenhaufen oder<lf>Wyvernsprossen, die Materialien<lf>liefern. Wächter-Kadaver hingegen<lf>kristallisieren aus und liefern einzig-<lf>artige Materialien.
 <string>

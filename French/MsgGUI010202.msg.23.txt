@@ -2,25 +2,30 @@
 <string>Action
 <string>Touche principale
 <string>Touche secondaire
-<string>Sélectionnez la touche principale ou secondaire de l'action à réattribuer, puis appuyez sur la touche souhaitée.<lf><COLOR preset="TXT_Accent">(Impossible de modifier <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, car ces touches sont associées<lf>à des actions uniques lors de la navigation dans les menus.)</COLOR>
-<string>Sélectionnez la touche principale ou secondaire de l'action à réattribuer, puis appuyez sur la touche souhaitée.<lf><COLOR preset="TXT_Accent">(Impossible de modifier <ICON KB_ESCAPE,KB_INSERT>, car cette touche est associée<lf>à une action unique lors du maniement des armes.)</COLOR>
-<string><COLOR preset="TXT_Accent">Impossible d'appliquer les changements<lf>à cause d'une erreur concernant le paramètre.</COLOR><lf><lf>Fermer sans appliquer les changements ?<lf><lf>Si vous voulez réessayer d'appliquer ces changements,<lf>regardez si des options avec une icône <COLOR preset="TXT_Danger">[ ! ]</COLOR> présentent<lf>les problèmes suivants :<lf>1. Une touche est attribuée à plusieurs actions.<lf>2. Une action n'a pas de touche attribuée.
+<string>Sélectionnez la touche principale ou secondaire de l'action à réattribuer, puis appuyez sur la touche souhaitée.<lf><COLOR preset="TXT_Accent">(Impossible de réattribuer <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, car ces touches sont associées<lf>à des actions uniques lors de la navigation dans les menus.)</COLOR>
+<string>Sélectionnez la touche principale ou secondaire de l'action à réattribuer, puis appuyez sur la touche souhaitée.<lf><COLOR preset="TXT_Accent">(Impossible de réattribuer <ICON KB_ESCAPE,KB_INSERT>, car ces touches sont associées<lf>à des actions uniques lors du maniement des armes.)</COLOR>
+<string><COLOR preset="TXT_Accent">Impossible d'appliquer les changements à cause<lf>d'une erreur concernant la configuration des touches.</COLOR><lf><lf>Quitter sans appliquer les changements ?<lf><lf>Si vous voulez réessayer d'appliquer ces changements,<lf>regardez si des options avec une icône <COLOR preset="TXT_Danger">[ ! ]</COLOR> présentent<lf>les problèmes suivants :<lf>- Une touche est attribuée à plusieurs actions.<lf>- Une action n'a pas de touche attribuée.
 <string>Restaurer les paramètres par défaut<lf>pour les options sélectionnées ?
-<string>Restaurer les paramètres par défaut<lf>pour les touches <COLOR preset="TXT_Accent">{0}</COLOR> ?
-<string>Restaurer les paramètres par défaut<lf>pour toutes les touches sélectionnées ?
+<string>Restaurer la configuration de touches<lf>par défaut pour le profil <COLOR preset="TXT_Accent">{0}</COLOR> ?
+<string>Restaurer la configuration par défaut<lf>pour la sélection actuelle ?
 <string>Tout restaurer par défaut
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
 <string>Restaurer sélection par défaut
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>Contrôle du personnage
 <string>Avec une arme
 <string>Avec la fronde
 <string>Contrôles du Seikret (quand vous le montez)
 <string>Barre d'objets
-<string>Menu radial
+<string>Raccourcis clavier
 <string>Caméra
 <string>Commandes du chat
 <string>Menu direct
 <string>Menus
 <string>Carte
+<string>Commandes du mode photo
 <string>Contrôles sur le dos d'un monstre
 <string>Avancer
 <string>Reculer
@@ -47,8 +52,8 @@
 <string>Attaque Focus (en mode Focus) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Équiper/Déséquiper la cape
 <string>Rengainer
-<string>Touche ajoutée : viser fronde (appuyer une fois sur <ICON PAD PL_AIM>)
-<string>Touche ajoutée : viser fronde (maintenir <ICON PAD PL_AIM>)
+<string>(Supplémentaire) Viser avec la fronde (appuyer une fois sur <ICON PAD PL_AIM>)
+<string>(Supplémentaire) Viser avec la fronde (maintenir <ICON PAD PL_AIM>)
 <string>Tirer munitions fronde (en visant avec fronde/en mode Focus)
 <string>Tirer grappe-fronde (en visant avec la fronde)
 <string>Choix notification naviciole (en visant avec la fronde) : haut
@@ -58,26 +63,28 @@
 <string>Appeler Seikret (auto)/Déplacement auto sur le Seikret
 <string>Appeler Seikret (manuel)/Déplacement manuel sur le Seikret
 <string>Changer d'arme
-<string>Accélérer (appuyer une fois) / Vitesse max (maintenir)
+<string>Sprint (appuyer une fois)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
+<string>Accélérer (appuyer une fois)/Sprinter (maintenir)
 <string>Ralentir (appuyer une fois) / S'arrêter (maintenir)
 <string>Descendre du Seikret
 <string>Voir la sacoche du Seikret
-<string>Visualiser les objets (gauche)
+<string>Voir les objets : gauche
 <string>Voir les objets : droite
-<string>Voir les munitions/fioles : haut
-<string>Voir les munitions/fioles : bas
+<string>Voir les munitions/fioles/leurres : haut
+<string>Voir les munitions/fioles/leurres : bas
 <string>Afficher les objets (appuyer une fois)
 <string>Afficher les objets (maintenir)/Réinitialiser caméra
 <string>Voir les objets (gauche) (durant la sélection des objets)
 <string>Voir les objets (droite) (durant la sélection des objets)
-<string>Voir munitions/fioles (haut) (sélection d'objets)
-<string>Voir munitions/fioles (bas) (sélection d'objets)
+<string>Voir munitions/fioles/leurres (sélection d'objets) : haut
+<string>Voir munitions/fioles/leurres (sélection d'objets) : bas
 <string>Raccourcis clavier (lorsque les objets sont affichés)
 <string>Changer de raccourci (lorsque les objets sont affichés)
 <string>Agrandir la barre (sélection d'objets)
 <string>Agrandir la barre (sélection d'objets) (maintenir)
-<string>Lorsque la barre d'objets est entièrement affichée : Déplacement du curseur (haut)
-<string>Lorsque la barre d'objets est entièrement affichée : Déplacement du curseur (bas)
+<string>Avec la barre d'objets en vue étendue : mouvement du curseur (haut)
+<string>Avec la barre d'objets en vue étendue : mouvement du curseur (bas)
 <string>Ouvrir le raccourci clavier 1
 <string>Ouvrir le raccourci clavier 2
 <string>Ouvrir le raccourci clavier 3
@@ -100,8 +107,9 @@
 <string>Raccourci clavier : emplacement 11
 <string>Raccourci clavier : emplacement 12
 <string>Afficher raccourci clavier
-<string>Changer de set : raccourci clavier (haut)
-<string>Changer de set : raccourci clavier (bas)
+<string>Changer de set (Quatre rangées en permanence) : Haut
+<string>Changer de set (Quatre rangées en permanence) : Bas
+<string>
 <string>Commandes caméra : haut
 <string>Commandes caméra : gauche
 <string>Commandes caméra : bas
@@ -118,31 +126,32 @@
 <string>Sets de poses
 <string>Liste des membres
 <string>Liste de chat vocal
-<string>Liste des notifications d'invitation
-<string>Notification AFK
-<string>Chat - Historique des interactions
-<string>Chat - Membres du lobby
-<string>Chat - Membres reliés
-<string>Chat - Membres de la quête
-<string>Chat - Membres du Clan
-<string>Chat - Joueur précis
-<string>Ouvrir carte/Envoyer notification chat/Passer résultats
-<string>Ouvrir la carte complète de la zone
-<string>Préparer de la liste
+<string>Liste d'invitations
+<string>Notification d'absence
+<string>Chat : historique des interactions
+<string>Chat : membres du lobby
+<string>Chat : membres reliés
+<string>Chat : membres de la quête
+<string>Chat : membres du Clan
+<string>Chat : joueur précis
+<string>Ouvrir la carte
+<string>Ouvrir la carte du monde
+<string>Afficher écran de départ/notifications de chat/passer résultats de quête
+<string>Préparation depuis la liste
 <string>Voir la sacoche d'objets
 <string>Voir la sacoche de munitions
 <string>Voir la sacoche de fioles
 <string>Enregistrer un raccourci d'objet
 <string>Voir tout l'équipement
 <string>Menu Missions
-<string>Recommencer la mission
+<string>Réessayer la mission
 <string>Informations de quête
 <string>Tirer une fusée de détresse
-<string>Renoncer à une quête
-<string>Demander à rejoindre une quête
-<string>Chasseur de soutien - Infos
+<string>Abandonner la quête
+<string>Demandes de participation
+<string>Infos Chasseurs de soutien
 <string>Historique des résultats
-<string>Infos de Palico
+<string>Infos Palico
 <string>Liste de souhaits
 <string>Profil de Chasseur
 <string>Pause
@@ -152,8 +161,8 @@
 <string>Rechargement/Utiliser ou retirer une fiole (<ICON PAD PL_ATTACK_00>)
 <string>Viser avec l'arme/la fronde (appuyer une fois sur <ICON PAD PL_AIM>)
 <string>Viser avec l'arme/la fronde (maintenir <ICON PAD PL_AIM>)
-<string>Touche ajoutée : viser arme/fronde (appuyer une fois sur <ICON PAD PL_AIM>)
-<string>Touche ajoutée : viser arme/fronde (maintenir <ICON PAD PL_AIM>)
+<string>(Supplémentaire) Viser avec l'arme/la fronde (appuyer une fois sur <ICON PAD PL_AIM>)
+<string>(Supplémentaire) Viser avec l'arme/la fronde (maintenir <ICON PAD PL_AIM>)
 <string>Attaque Focus (en mode Visée/Focus) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Garde/Action d'arme spéciale (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Changer de mode
@@ -180,6 +189,7 @@
 <string>Filtrage de l'affichage
 <string>Réorganiser options/liste
 <string>Changer l'affichage des options/de la liste
+<string>Passer les résultats/la cinématique
 <string>Navigation sur la carte : haut
 <string>Navigation sur la carte : bas
 <string>Navigation sur la carte : gauche
@@ -195,23 +205,36 @@
 <string>Faire pivoter la carte détaillée (maintenir)
 <string>Réinitialiser position curseur (carte détaillée)
 <string>Changer la vue de la carte
+<string>Fermer la carte détaillée
 <string>Affichage partiel/plein écran (carte détaillée)
 <string>Carte détaillée - Infos environnement
+<string>Déplacer la caméra : reculer
+<string>Déplacer la caméra : avancer
+<string>Déplacer la caméra : gauche
+<string>Déplacer la caméra : droite
+<string>Ajuster position caméra : haut
+<string>Ajuster position caméra : bas
+<string>Ajuster position caméra : gauche
+<string>Ajuster position caméra : droite
 <string>Attaque légère au couteau
 <string>Attaque forte au couteau
 <string>Attaque d'arme
 <string>Descendre du monstre (maintenir)
-<string>Résister
+<string>Se cramponner
 <string>----
 <string>Sélectionner un profil
 <string>Créer un nouveau profil
-<string>Armes de mêlée
-<string>Armes à distance
+<string>Toutes les armes de mêlée
+<string>Toutes les armes à distance
 <string>Dupliquer le profil
 <string>Supprimer le profil
-<string>Pour quel type d'armes voulez-vous créer un profil ?<lf><COLOR preset="TXT_Accent">(Vous pouvez créer un profil pour chaque type d'armes.)</COLOR>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
+<string>Pour quel type d'armes voulez-vous créer un profil ?<lf><COLOR preset="TXT_Accent">*Vous pouvez créer un profil pour chaque type d'armes.</COLOR>
 <string>Quel profil de type d'armes voulez-vous adopter ?<lf><COLOR preset="TXT_Accent">(Vous pouvez créer un profil pour chaque type d'armes.)</COLOR>
-<string>Dupliquer le profil <COLOR preset="TXT_Accent">{0}</COLOR> pour quel type d'armes ?<lf><COLOR preset="TXT_Accent">(Si le profil a déjà été créé, il sera écrasé. Sinon, un nouveau profil sera créé.)</COLOR>
+<string>Dupliquer le profil <COLOR preset="TXT_Accent">{0}</COLOR> pour quel type d'armes ?<lf><COLOR preset="TXT_Accent">*Si le profil a déjà été créé, il sera écrasé. Sinon, un nouveau profil sera créé.</COLOR>
 <string>Supprimer le profil <COLOR preset="TXT_Accent">{0}</COLOR> ?<lf><COLOR preset="TXT_Accent">({1} remplacera le profil {0}.)</COLOR>
 <string>Écraser le profil <COLOR preset="TXT_Accent">{0}</COLOR> ?
 <string>Enregistrer les modifications ?

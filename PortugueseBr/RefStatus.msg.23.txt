@@ -16,6 +16,7 @@
 <string>Informações dos Engastes
 <string>Sem Adornos
 <string>Sem Engastes
+<string>Nenhuma
 <string>Detalhamento de Nível
 <string>Nível de Habilidade
 <string>Requisitos
@@ -87,16 +88,23 @@
 <string>Nv. 1
 <string>Nv. 2
 <string>Nv. 3
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_008_00
 <string>Padrão/Ignição Tipo Básico
 <string>Modo Padrão TE I
 <string>Modo Padrão TE II
 <string>Modo de Ignição TE I
 <string>Modo de Ignição TE I
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_009_00
 <string><REF RefEquipment_0007_00_00>
 <string><REF RefEquipment_0007_00_01>
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_010_00
 <string><REF RefEquipment_0007_01_00>
 <string><REF RefEquipment_0007_01_01>
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_011_00
 <string><REF RefEquipment_0007_02_00>
+<string>Bônus de Produção
+<string>Tipo de Elemento
+<string>Bônus de Reforço
 <string>Efeitos de Melodia
 <string>Tipo de Ataque
 <string>Contusão
@@ -126,7 +134,7 @@
 <string>Informação de Equipamento
 <string>Duração do Efeito
 <string>Tempo de Reenergização
-<string>{0} segundo(s)
+<string><PLURAL {0} "{0} segundo" "{0} segundos">
 <string>Status
 <string>Mobilizado
 <string>Em Espera
@@ -142,6 +150,11 @@
 <string>Bota Pra Rasgar
 <string>Flautafungo: Nota de Poder
 <string>Flautafungo: Nota de Proteção
+<string>Atrair Vigorespas
+<string>Gaiola de Mosclarão
+<string>Renovar Vigorespa
+<string>Rath-do-Alto
+<string>Espóliorangue
 <string>Quando sua vida estiver baixa,<lf>mando uma Vigorespa! Mas levo<lf>um tempo pra conseguir mandar<lf>outra depois disso.
 <string>Vou chamar a atenção do monstro<lf>usando um escudo especial que<lf>faz barulho! Assim você ganha<lf>tempo para se posicionar ou<lf>atacar.
 <string>Posso entregar uma Vespurga<lf>para te purificar de flagelos<lf>e status anormais. Pode contar<lf>comigo para cobrir sua retacauda<lf>sempre que precisar, assim você<lf>pode focar na caçada!
@@ -149,4 +162,26 @@
 <string>Vou disparar uma munição<lf>espinhosa especial com minha<lf>balista Felyna! Se der certo,<lf>pode até criar um ferimento<lf>em um monstro.
 <string>Quer ainda mais força nos seus<lf>ataques na hora ideal? Se eu<lf>tocar essa Nota de Poder, você<lf>com certeza vai ficar mais<lf>forte!
 <string>É comum sentir nervosismo ao<lf>enfrentar um oponente que já te<lf>derrotou antes. Mas nada tema,<lf>minha Performiauce de Proteção<lf>reforça a defesa e te mantém a<lf>salvo quando voltar à batalha!
+<string>Vou usar uma fragrância especial<lf>pra atrair Vigorespas selvagens!<lf>Isso fará com que se aglomerem em<lf>lugares onde normalmente não<lf>vivem.<lf>... O cheiro é tão bom mesmo?
+<string>Vou colocar uma gaiola de<lf>Mosclarões pra você usar quando<lf>quiser! Elas são muito boas pra<lf>cegar os monstros, mas alguns<lf>ficam mais agressivos quando<lf>são cegados, então toma cuidado!
+<string>Nunca desista, mesmo se ficar sem<lf>vida, pois eu estarei bem ali com<lf>uma Vigorespa pra reanimar você!<lf>O problema é que não posso usar<lf>de novo logo em seguida e ela<lf>não restaura muita vida.
+<string>Gemma e eu finalmente concluímos<lf>nossa obra-prima: Rath-do-Alto!<lf>Agora posso te dar cobertura.<lf>Consigo até abater uma serpe!
+<string>Não tem materiais suficientes?<lf>É pra isso que estou aqui!<lf>Apresento a você o Espóliorangue:<lf>um bumerangue que me ajuda a<lf>pegar materiais dos monstros!
+<string>Consigo Vigorespas melhores!<lf>Curam mais vida e se eu acertar<lf>o momento certo, posso enviar<lf>um monte delas de uma vez!
+<string>Já que peguei o jeito com esse<lf>escudo, posso chamar a atenção<lf>dos monstros por mais tempo e<lf>também consigo contra-atacar!
+<string>Os efeitos de status são péssimos, né? Mas eu<lf>tenho duas Vespurgas na mão agora, então posso<lf>enviá-las uma atrás da outra se você precisar!
+<string>Nós, Felynos, descobrimos como<lf>melhorar o paracórnio. Agora<lf>posso usá-lo com mais frequência,<lf>o que pode ser extremamente útil!
+<string>Agora posso usar o Bota Pra<lf>Rasgar por um tempo ainda maior.<lf>Então, mesmo que eu erre o alvo,<lf>posso continuar atirando!
+<string>Melhorei minha habilidade de<lf>tocar a Flautafungo! Os efeitos<lf>das músicas melhoraram e você<lf>ficará forte por mais tempo.
+<string>Sou um prodígio musical! Minhas músicas são<lf>ainda mais eficazes. Se enfrentar um oponente<lf>duas vezes, posso aumentar seu tempo de defesa!
+<string>Finalmente aprendi como atrair<lf>Vigorespas Gigantes! Que cheiro<lf>incrível!
+<string>As gaiolas para Mosclarão são muito úteis, não?<lf>Descobri uma maneira de colocá-las com mais<lf>frequência. Tente usá-las quando for a hora certa!
+<string>Isso é o que chamo de vigor!<lf>Posso restaurar ainda mais vida<lf>se te reviver com uma Vigorespa.<lf>Mas sem desleixo por aí, miau!
+<string>Melhorei o Rath-do-Alto! Agora<lf>vou me jogar em um monstro logo<lf>antes de ficar sem tempo. Isso é<lf>o que chamo de um grande sucesso!
+<string>Fiquei melhor com o Espóliorangue, o que significa<lf>mais espólios saqueados! Espero poder usá-lo para<lf>obter todos os materiais que você deseja!
 <string>Movimento de Suporte
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0000_SP_037
+<string>Melhoria Obtida
+<string>Impulso de Afiação
+<string>Reforço de Capacidade
+<string>+{0}

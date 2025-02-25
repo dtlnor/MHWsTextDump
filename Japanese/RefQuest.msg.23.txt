@@ -9,6 +9,37 @@
 <string>予報
 <string>予報内容はプレイヤーの行動で変化する場合があります。
 <string>モンスター情報
+<string>モンスターの生態
+<string>環境生物の生態
+<string>環境生物（釣魚）の生態
+<string>主な生息地
+<string>主な特徴
+<string>調査員のメモ
+<string>モンスターの特殊攻撃
+<string>攻略指南
+<string>狩猟に役立つ情報
+<string>モンスターの肉質
+<string>詳細な対策情報
+<string>おすすめの属性攻撃
+<string>有効な状態異常
+<string>有効なアイテム
+<string>入手可能な素材一覧
+<string>下位素材
+<string>上位素材
+<string>入手アイテム
+<string>出やすさ
+<string>入手方法と確率
+<string>狩猟記録
+<string>狩猟数
+<string>討伐数
+<string>捕獲数
+<string>狩猟サイズ
+<string>最大サイズ
+<string>最大ウェイト
+<string>サイズ
+<string>最小サイズ
+<string>関連するアイテムやスキル
+<string>関連する称号
 <string>狩猟
 <string>討伐
 <string>捕獲
@@ -16,14 +47,20 @@
 <string>運搬
 <string>特殊
 <string>現地調査クエストの開始
+<string>調査クエストとして保存
 <string>クエスト化
 <string>クエストの受注
+<string>{0}<REF RefGeneral_0015_001>を使用し、<lf>調査クエストとして保存します。<lf>よろしいですか？
+<string>調査クエストとして保存しました。
+<string><COLOR preset="TXT_Danger">ギルドポイントが不足しています。</COLOR>
 <string><COLOR preset="TXT_Danger">受注・参加に必要な進行度に達していません。</COLOR>
 <string><COLOR preset="TXT_Danger">受注・参加に必要な<lf>進行度に達していません。</COLOR>
 <string><COLOR preset="TXT_Danger">受注・参加に必要なハンターランクに達していません。</COLOR>
 <string><COLOR preset="TXT_Danger">受注・参加に必要な<lf>ハンターランクに達していません。</COLOR>
 <string><COLOR preset="TXT_Danger">現地調査クエストを開始できません。</COLOR>
 <string><COLOR preset="TXT_Danger">現地調査クエストを開始できませんでした。</COLOR>
+<string><COLOR preset="TXT_Danger">調査クエストとして保存できません。</COLOR>
+<string><COLOR preset="TXT_Danger">調査クエストとして保存できませんでした。</COLOR>
 <string><COLOR preset="TXT_Danger">クリア済みの任務クエストは繰り返し受注できません。</COLOR>
 <string><COLOR preset="TXT_Danger">マルチプレイ設定によりプレイヤーは参加できません。</COLOR>
 <string><COLOR preset="TXT_Danger">参加可能人数を超過するため参加できません。</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">クエストの受注・参加条件を満たしていません。</COLOR>
 <string><COLOR preset="TXT_Danger">このクエストは受注・参加できません。</COLOR>
 <string><COLOR preset="TXT_Danger">クエストを受注・参加できませんでした。</COLOR>
+<string><COLOR preset="TXT_Danger">保存可能な調査クエストの最大数を満たしています。これ以上保存できません。</COLOR>
+<string><COLOR preset="TXT_Danger">すでに調査クエストとして保存済みのものです。</COLOR>
 <string><COLOR preset="TXT_Danger">リザルト中の環境リンクメンバーがいるため、現地調査クエストを開始できません。</COLOR>
 <string>タイトルに戻る
 <string>リトライする
@@ -50,6 +89,7 @@
 <string>サイドミッション報酬
 <string>クエスト報酬ラインナップ
 <string>追加報酬
+<string>鑑定BOX
 <string>ターゲット追加報酬
 <string>ターゲットモンスター関連報酬
 <string>汎用素材報酬
@@ -59,14 +99,27 @@
 <string>Returning to Base
 <string>Quest Start
 <string>Quest Accepted
+<string>すべてのクエスト
 <string>任務クエスト
 <string>フリークエスト
 <string>現地調査クエスト
+<string>現地調査クエストの履歴
+<string>調査クエスト
+<string>調査クエスト未保存
+<string>調査クエスト保存済み
+<string>イベントクエスト
+<string>闘技大会クエスト
+<string>チャレンジクエスト
 <string>設定
+<string>ホーム
 <string>すべて表示
 <string>ロビーメンバークエスト
 <string>救難信号クエスト
 <string>リンクメンバークエスト
+<string>調査クエスト保存費用
+<string>現地調査クエストの開始日時
+<string>残り受注可能回数
+<string>{0}回
 <string>クエスト参加承認
 <string>クエスト参加の承認方法を設定します。<COLOR preset="TXT_Accent">（クエスト勧誘通知を受け取ったリンクメンバーは自動承認されます）</COLOR>
 <string>自動承認
@@ -108,6 +161,11 @@
 <string>{0}が話したいようです！
 <string>クエスト≪{0}≫が受注可能です！
 <string>≪{0}≫が達成可能です！
+<string>収穫増量中！（あと{0}日）
+<string>人々の生活に影響を与えているようです！
+<string>集落を困らせているモンスターがいます！
+<string>狩猟すると施設の収穫が一時増量します
+<string>{0}が<REF RefEnvironment_0001_0004>に出現中です！
 <string>最大参加人数
 <string>クエストに参加できる人数の上限を設定します。<COLOR preset="TXT_Accent">（設定可能な人数はリンクメンバーの最大数に応じて可変します）</COLOR>
 <string>1
@@ -157,9 +215,16 @@
 <string>昇順
 <string>降順
 <string>おすすめ順
+<string>調査クエストの削除
+<string>選択した調査クエストを削除します。<lf>よろしいですか？<lf><lf>※「現地調査クエストの履歴」に該当のクエストが<lf>　残っている場合、履歴からも削除されます。
+<string>調査クエストを削除しました。
+<string>選択した調査クエストの受注可能回数は<lf>残り{0}回です。<lf>受注によって残り回数を消費し、セーブを行います。<lf>よろしいですか？
 <string>クエストの参加人数を一時的に拡張します。<lf>よろしいですか？<lf><COLOR preset="TXT_Accent">（一度拡張するとクエストを<lf>　終了するまで元に戻せません）</COLOR>
 <string>任務クエスト
 <string>フリークエスト
+<string>現地調査クエストの履歴（最近の{0}件まで）
+<string>調査クエスト（{0}件保存済み）
+<string>イベントクエスト
 <string>ロビーメンバークエスト（{0}件）
 <string>リンクメンバークエスト
 <string>救難信号クエスト（{0}件）

@@ -7,6 +7,7 @@
 <string>Verifica della connessione al server...
 <string>Errore di comunicazione.<lf>{0}
 <string>Si è verificato un errore di comunicazione.<lf>Ritorno alla schermata del titolo.<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>In modalità multigiocatore online alcune funzioni<lf>non saranno disponibili.<lf><lf>È necessario un abbonamento {0} per accedere a tutte<lf>le funzioni della modalità multigiocatore online.
 <string>Questo account non soddisfa i requisiti<lf>per il multigiocatore online.
 <string>Impossibile connettersi alla rete.<lf>Ritorno alla schermata del titolo.
@@ -19,6 +20,10 @@
 <string>Il gioco è passato alla modalità giocatore singolo<lf>online a causa di inattività. Sarà possibile continuare<lf>a giocare normalmente.<lf><lf>{0}
 <string>Invio non possibile perché è già<lf>fra i tuoi amici cacciatori o stai aspettando<lf>la risposta a una richiesta.<lf>{0}
 <string>L'invio non è riuscito perché tu o l'altra<lf>persona avete raggiunto il limite<lf>massimo di amici cacciatori.<lf>{0}
+<string>Hai raggiunto il limite massimo di amici<lf>cacciatori e non puoi seguire altri giocatori.<lf>{0}
+<string>L'invio non è riuscito perché l'altra persona<lf>ha raggiunto il limite massimo di amici<lf>cacciatori.<lf>{0}
+<string>Hai raggiunto il limite massimo di richieste<lf>di amicizia e non puoi seguire altri giocatori.<lf>{0}
+<string>L'invio non è riuscito perché l'altra persona<lf>ha raggiunto il limite massimo di richieste<lf>di amicizia cacciatore.<lf>{0}
 <string>Segui già questo giocatore.<lf>{0}
 <string>Hai raggiunto il limite massimo<lf>e non puoi seguire altri giocatori.<lf>{0}
 <string>Inizializzazione della rete in corso...
@@ -26,8 +31,19 @@
 <string>I dati cacciatore sono stati sovrascritti.<lf>Le informazioni relative agli amici cacciatori,<lf>giocatori seguiti e squadre sono state eliminate.
 <string>Il giocatore è già nel gruppo di collegamento.<lf>{0}
 <string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
+<string>L'invio non è riuscito perché l'altro<lf>giocatore ha raggiunto il limite di inviti<lf>ai gruppi di collegamento.<lf>{0}
 <string>Non è possibile effettuare segnalazioni<lf>al momento. Riprova più tardi.<lf><lf>{0}
 <string>Il tuo account attuale non soddisfa<lf>i requisiti per giocare.
+<string>Nessun dato creazione personaggio<lf>del test beta trovato.<lf>{0}
+<string>Impossibile ottenere dati della creazione<lf>personaggio del test beta.<lf>{0}
+<string>Invito al gruppo di collegamento già mandato.<lf>{0}
+<string>Impossibile ottenere informazioni sui premi dal<lf>tuo account. Controlla la tua connessione di rete<lf>o lo stato dell'account per verificare.<lf>{0}
+<string>Non puoi caricare aspetti da questo account.<lf>{0}
+<string>Non puoi condividere set da questo account.<lf>{0}
+<string>Non è stato possibile inviare il razzo SOS.<lf>{0}
+<string>Questa funzione non è attualmente<lf>disponibile per motivi di manutenzione.<lf>Attendi un po' e riprova in seguito.<lf>{0}
+<string>Hai raggiunto il limite massimo<lf>e non puoi bloccare altri giocatori.<lf>{0}
+<string>I server sono in manutenzione programmata.<lf>{0}
 <string>La connessione alla sessione si è interrotta.<lf>{0}
 <string>Creazione sessione non riuscita.<lf>{0}
 <string>Ricerca sessione non riuscita.<lf>{0}
@@ -49,6 +65,9 @@
 <string>Ti stai unendo al gruppo di collegamento.
 <string>Il server è attualmente occupato.<lf>Attendere un po' e riprovare.
 <string>Il crossplay è attualmente abilitato.
+<string>Non puoi partecipare a questa sessione a causa<lf>delle impostazioni di crossplay altrui.<lf>{0}
+<string>Impossibile partecipare perché la sessione<lf>ha impostazioni crossplay diverse. Verifica<lf>le impostazioni crossplay in <BOLD>Opzioni</BOLD><lf>al menu della schermata del titolo.<lf>{0}
+<string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">La funzionalità della Community è stata limitata.</COLOR><lf>Le limitazioni saranno rimosse: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Il tuo account è in violazione di quanto segue:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Pertanto, <COLOR preset="TXT_Accent">le funzioni della Community sono state<lf>temporaneamente limitate</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Ti preghiamo di giocare rispettando i termini di utilizzo.</COLOR>
 <string>Comportamenti abusivi
 <string>Tipi di comportamenti proibiti
@@ -61,6 +80,23 @@
 <string>Rivedi ogni testo modificabile, come il tuo profilo cacciatore<lf>e i commenti di squadra, e aggiorna i contenuti di conseguenza.<lf>In caso contrario o in caso di ripetuti aggiornamenti<lf>che violano i termini di utilizzo potresti<lf>ricevere limitazioni permanenti.
 <string>Inoltre, il nome del tuo cacciatore e del tuo compagno Felyne<lf>saranno sostituiti dai nomi predefiniti "Cacciatore/Felyne".
 <string><COLOR preset="TXT_Danger">Account definitivamente sospeso</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Il tuo account è stato definitivamente sospeso</COLOR> a causa di<lf>violazioni confermate dei nostri termini di utilizzo.<lf><lf>L'account in questione non potrà accedere alla modalità online<lf>di Monster Hunter Wilds. Non offriamo misure<lf>per annullare la sospensione definitiva di un account<lf>conformemente ai termini di utilizzo.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento offensivo</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti. <COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">aver violato i termini d'uso<lf>con linguaggio inappropriato</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti. <COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">commenti inappropriati</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf>Controlla il tuo profilo cacciatore e rimuovi<lf>qualsiasi esternazione inappropriata<lf>dai commenti. Non rimuovere tali contenuti<lf>o la ripetizione di comportamenti simili potrebbe portare a restrizioni permanenti.<lf><COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">commenti di squadra inappropriati</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>I commenti in questione sono stati eliminati.<lf>La ripetizione di comportamenti simili potrebbe portare a restrizioni permanenti.<lf><COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento inappropriato</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf><COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento inappropriato</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>I contenuti inappropriati in questione verranno<lf>sostituiti da termini predefiniti (es. cacciatore/Compagno Felyne)<lf>se visualizzati da altri utenti.<lf><COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per aver violato i nostri<COLOR preset="TXT_Danger">termini d'uso<lf>e/o accordo di licenza per l'utente finale (EULA)<lf>riguardo ai comportamenti proibiti</COLOR>. Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti. <COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR>
+<string><COLOR preset="TXT_Danger">Account definitivamente sospeso</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Il tuo account è stato definitivamente sospeso</COLOR> a causa di<lf>violazioni confermate dei nostri termini di utilizzo e/o<lf>dell'accordo di licenza con l'utente finale (EULA).<lf><lf>L'account in questione non potrà accedere alla modalità online<lf>di Monster Hunter Wilds. Non offriamo misure<lf>per annullare la sospensione definitiva di un account<lf>conformemente ai termini di utilizzo e all'accordo di licenza<lf>con l'utente finale (EULA).
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">sospetto comportamento offensivo</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti. <COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR><lf>Se non sai quale comportamento abbia scatenato<lf>questa azione, contattaci tramite il modulo domande.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">sospetto linguaggio o contenuto inappropriato</COLOR>. Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti. <COLOR preset="TXT_Accent">Gioca rispettando i termini d'uso<lf>e l'accordo di licenza con l'utente finale (EULA).</COLOR><lf>Se non sai quale comportamento abbia scatenato<lf>questa azione, contattaci tramite il modulo domande.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">sospetta<lf>violazione dei nostri termini d'uso e/o dell'accordo di licenza con<lf>l'utente finale (EULA) riguardo a comportamenti proibiti</COLOR>. Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf>La ripetizione di comportamenti<lf>simili potrebbe portare a restrizioni permanenti.<lf><COLOR preset="TXT_Accent">Gioca rispettando i termini d'usoe l'accordo di licenza con l'utente finale (EULA).</COLOR>Se non sai quale comportamento abbia scatenato<lf>questa azione, contattaci tramite il modulo domande.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento offensivo</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">linguaggio inappropriato</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento inappropriato</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento inappropriato</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>I contenuti inappropriati in questione verranno<lf>sostituiti da termini predefiniti (es. cacciatore/Compagno Felyne)<lf>se visualizzati da altri utenti.
+<string><COLOR preset="TXT_Accent">La funzionalità community è limitata al momento.</COLOR><lf>Le restrizioni termineranno: <DATETIME {0} "HH:mm A DD/MM/YYYY"> (UTC)<lf><lf>Il tuo account è stato segnalato per <COLOR preset="TXT_Danger">comportamento proibito</COLOR>.<lf>Di conseguenza, <COLOR preset="TXT_Accent">le funzioni community sono state<lf>temporaneamente limitate</COLOR>.<lf><lf>La ripetizione di comportamenti simili potrebbe<lf>portare a restrizioni permanenti.
+<string><COLOR preset="TXT_Danger">Account definitivamente sospeso</COLOR>.<lf><lf>Il tuo account è stato<COLOR preset="TXT_Danger">definitivamente sospeso</COLOR><lf>a causa del confermato uso di cheat.<lf><lf>L'account in questione non potrà accedere alla <REF RefGeneral_0000_0000_00_OBT>.<lf>Non offriamo misure per annullare<lf>la sospensione definitiva di un account durante il<lf>periodo di test beta aperto.
 <string>Unione al gruppo di collegamento.<lf>Cambiare i dati salvati?<lf><COLOR preset="TXT_Danger">(I dati non salvati correnti andranno persi.)</COLOR>
 <string>Partecipa con dati salvati attuali
 <string>Partecipa con dati salvati diversi
@@ -69,9 +105,22 @@
 <string>Impossibile inviare richiesta di invito.<lf>{0}
 <string>Impossibile unirsi perché la funzione gruppo<lf>di collegamento non è stata sbloccata.
 <string>Aprire la schermata di invito amici per inviare<lf>un invito al gruppo di collegamento?
+<string>Giochiamo a Monster Hunter Wilds insieme?
 <string>Vuoi giocare con me a Monster Hunter Wilds Beta test?
+<string>Hai ricevuto un invito. <COLOR preset="TXT_Accent">(Apparirà una volta terminato<lf>il filmato o il caricamento, o il menu<lf>impostazioni è stato chiuso.)</COLOR>
+<string>Impossibile unirsi al gruppo di collegamento:<lf>le funzionalità online non sono disponibili.
+<string>Il gioco verrà avviato in modalità offline.<lf><lf>Per giocare in modalità multigiocatore online, devi accettare<lf>l'acquisizione dei dati personali. Puoi comunque giocare senza<lf>accettare i termini, ma alcune funzionalità non saranno disponibili.<lf>Per cambiare le relative impostazioni, controlla la sezione <BOLD>Privacy</BOLD><lf>sulla schermata del titolo.
+<string>La modalità multigiocatore online non è<lf>disponibile per via delle impostazioni sulla<lf>privacy. Per modificarle, controlla la sezione<lf><BOLD>Privacy</BOLD>sulla schermata del titolo.<lf>{0}
 <string>In attesa degli altri utenti...
 <string>Attendi.<lf><lf>Potrai iniziare quando daranno il segnale.
 <string>Parti
 <string>Si è verificato un errore. Si prega di avvisare lo staff.
 <string>Impossibile acquisire dati trasmissione.<lf>{0}
+<string>{0}<lf>Ricerca squadra non riuscita.<lf>{1}
+<string>Hai raggiunto il numero massimo<lf>di inviti o richieste squadra.<lf><lf>{0}
+<string>Non è stato possibile unirsi alla squadra.<lf><lf>{0}
+<string>Non è stato possibile attivare la squadra.<lf>Controlla le impostazioni squadra.<lf><lf>{0}
+<string>{0}<lf>Informazioni squadra inesistenti.<lf>{1}
+<string>Non è stato possibile aggiornare<lf>i dati della squadra.<lf>{0}
+<string>L'invio non è riuscito perché l'altra persona<lf>ha raggiunto il limite massimo di squadre.<lf>{0}
+<string>Poiché le dimensioni della tua squadra hanno<lf>raggiunto un certo numero di membri, ora puoi<lf>creare delle stanze della squadra che consentono<lf>l'ingresso di più membri. Di conseguenza, la tua<lf>attuale stanza della squadra verrà sciolta. Ci scusiamo<lf>per l'inconveniente e ti invitiamo a creare una nuova<lf>stanza della squadra dal menu Cambia stanza.

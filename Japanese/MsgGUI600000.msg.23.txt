@@ -23,8 +23,29 @@
 <string>「砥石」の方向に動かす
 <string>「砥石」の方向へ動かし<ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>オート移動中は<ICON PL_DUMMY_MOVE>でマニュアル操作も可能。<lf><ICON PL_PT_CALL>か、一定時間の経過で<lf>再びオート移動へと戻る。
-<string>オート移動中は<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>でマニュアル<lf>操作も可能。<ICON PL_PT_CALL>か、一定時間の経過で<lf>再びオート移動へと戻る。
+<string>オート移動中は<ICON PL_DUMMY_MOVE>でマニュアル操作も可能。<lf><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>か、一定時間の経過で<lf>再びオート移動へと戻る。
+<string>オート移動中は<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>でマニュアル<lf>操作も可能。<INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>か、一定時間の経過で<lf>再びオート移動へと戻る。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>魚の反応を見ながら<ICON PL_DUMMY_MOVE>でルアーの動きを<lf>出し分けて、魚が食いつく誘い方を<lf>探し出そう。
+<string>魚の反応を見ながら<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>でルアーの<lf>動きを出し分けて、魚が食いつく誘い方を<lf>探し出そう。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>「大物釣り」は魚との真剣勝負だ。<lf>魚が暴れている場合は、その進行方向に<lf><ICON PL_DUMMY_MOVE>を動かして糸への負荷を抑えよう。<lf>
+<string>「大物釣り」は魚との真剣勝負だ。<lf>魚が暴れている場合は、その進行方向に<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>で動かし糸への負荷を抑えよう。<lf>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>魚が疲れ、動きが鈍くなった時がチャンス！<lf><ICON PL_DUMMY_MOVE>を上下に動かして、糸を巻き上げよう。
+<string>魚が疲れ、動きが鈍くなった時がチャンス！<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>で上下に動かして、糸を巻き上げよう。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>魚が障害物に近づいたら進行方向とは<lf>逆に<ICON PL_DUMMY_MOVE>を動かして魚の動きを抑制し、<lf>岩付近を避けるなど心がけよう。
+<string>魚が障害物に近づいたら進行方向とは<lf>逆に<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を動かして魚の動きを<lf>抑制し、岩付近を避けるなど心がけよう。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>この時、ジャンプの進行方向と同じ向きへと<lf><ICON PL_DUMMY_MOVE>を傾け<ICON PL_SLINGER_SHOOT>を押すと、竿を倒して<lf>魚を抑えることができる。
+<string>この時、ジャンプの進行方向と同じ向きへと<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を傾け<ICON PL_SLINGER_SHOOT>を押すと、竿を倒して<lf>魚を抑えることができる。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">早巻き</COLOR>：素早く<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">遅巻き</COLOR>：ゆっくり<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">しゃくり</COLOR>：<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>を繰り返し
 <string><COLOR preset="TXT_Accent">早巻き</COLOR>：素早く<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">遅巻き</COLOR>：ゆっくり<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">しゃくり</COLOR>：<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>離すを繰り返し
@@ -40,3 +61,77 @@
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
 <string>一定時間、行動不能になる<lf><ICON PL_DUMMY_MOVE>の連続入力で解除までの時間短縮
 <string>一定時間、行動不能になる<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>の連続入力で解除までの時間短縮
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>一定時間、行動不能になる<lf><ICON PL_DUMMY_MOVE>を連続入力するか、消散剤で解除可能
+<string>一定時間、行動不能になる<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を連続入力するか、消散剤で解除可能
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>一定時間、行動不能になる<lf><ICON PL_DUMMY_MOVE>を連続入力するか、消散剤で解除可能
+<string>一定時間、行動不能になる<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を連続入力するか、消散剤で解除可能
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string>早巻き：<ICON PL_DUMMY_MOVE>を上下に素早く動かす
+<string>早巻き：<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>で上下に素早く動かす
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string>遅巻き：<ICON PL_DUMMY_MOVE>を上下にゆっくり動かす
+<string>遅巻き：<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>で上下にゆっくり動かす
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string>しゃくり：<ICON PL_DUMMY_MOVE>を下へ繰り返し動かす
+<string>しゃくり：<ICON PL_MOVE_BACK>で下へ繰り返し動かす
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>コンテンツの受け取り、告知、<lf>Online Storeなどのオンライン機能を<lf>利用可能。<COLOR preset="TXT_Accent">今後も他機能をサポート予定。</COLOR>
+<string>コンテンツの受け取り、告知、<lf>Steam Storeなどのオンライン機能を<lf>利用可能。<COLOR preset="TXT_Accent">今後も他機能をサポート予定。</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>：アイテム選択<lf><ICON PL_ITEM_SLIDER_OPEN>リリース後、<ICON PL_ITEM>：アイテムを使う
+<string><ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>：アイテム選択<lf><ICON PL_ITEM>：アイテムを使う
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>：アイテム選択<lf><ICON PL_ITEM_SLIDER_OPEN>リリース後、<ICON PL_ITEM>：アイテムを使う
+<string><ICON UI_ITEM_LEFT>or<ICON UI_ITEM_RIGHT>：アイテム選択<lf><ICON PL_ITEM>：アイテムを使う
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string><ICON PL_WEAPON_CHANGE>でメイン武器とサブ武器を持ち替える
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>でメイン武器とサブ武器を持ち替える
+<string><ICON PL_WEAPON_CHANGE>でメイン武器とサブ武器を持ち替える
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>でメイン武器とサブ武器を持ち替える
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>力尽きた場合、追加の支給品が届く。<lf><ICON PL_ACCESS_ITEM_BAG>で確認しよう。
+<string>力尽きた場合、追加の支給品が届く。<lf><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>で確認しよう。
+<string>力尽きた場合、追加の支給品が届く。<lf><ICON PL_ACCESS_ITEM_BAG>で確認しよう。
+<string>力尽きた場合、追加の支給品が届く。<lf><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>で確認しよう。
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>モンスターが離れた時は、<ICON PL_WEAPON_OFF>：武器をおさめ、<lf><ICON PL_DASH_TOGGLE>：ダッシュで追いかけよう。
+<string>モンスターが離れた時は、<ICON PL_WEAPON_OFF>：武器をおさめ、<lf><ICON PL_DASH>：ダッシュで追いかけよう。
+<string>モンスターが離れた時は、<ICON PL_WEAPON_OFF>：武器をおさめ、<lf><ICON PL_DASH>or<ICON PL_DASH_TOGGLE>：ダッシュで追いかけよう。
+<string>モンスターが離れた時は、<ICON PL_WEAPON_OFF>：武器をおさめ、<lf><ICON PL_DASH>：ダッシュで追いかけよう。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>武器の切り替えは<ICON PL_WEAPON_CHANGE>で可能。<lf>セクレトが駆けつけ、武器鞄の<COLOR preset="TXT_Accent">サブ武器</COLOR>に<lf>持ち替えられる。
+<string>武器の切り替えは<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>で可能。<lf>セクレトが駆けつけ、武器鞄の<COLOR preset="TXT_Accent">サブ武器</COLOR>に<lf>持ち替えられる。
+<string>武器の切り替えは<ICON PL_WEAPON_CHANGE>で可能。<lf>セクレトが駆けつけ、武器鞄の<COLOR preset="TXT_Accent">サブ武器</COLOR>に<lf>持ち替えられる。
+<string>武器の切り替えは<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_WEAPON_CHANGE>で可能。<lf>セクレトが駆けつけ、武器鞄の<COLOR preset="TXT_Accent">サブ武器</COLOR>に<lf>持ち替えられる。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string><ICON PL_PT_CALL>で<COLOR preset="TXT_Accent">セクレト</COLOR>に乗ると、<lf>目標地点に向かってオート移動が可能。
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_PT_CALL>で<COLOR preset="TXT_Accent">セクレト</COLOR>に乗ると、<lf>目標地点に向かってオート移動が可能。
+<string><ICON PL_PT_CALL>で<COLOR preset="TXT_Accent">セクレト</COLOR>に乗ると、<lf>目標地点に向かってオート移動が可能。
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_PT_CALL>で<COLOR preset="TXT_Accent">セクレト</COLOR>に乗ると、<lf>目標地点に向かってオート移動が可能。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>クエスト開始時にはアイテムが支給され、<lf>いつでも<ICON PL_ACCESS_ITEM_BAG>から受け取り可能。<lf><COLOR preset="TXT_Accent">支給品</COLOR>は、狩猟状況に応じて追加される。
+<string>クエスト開始時にはアイテムが支給され、<lf>いつでも<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>から受け取り可能。<lf><COLOR preset="TXT_Accent">支給品</COLOR>は、狩猟状況に応じて追加される。
+<string>クエスト開始時にはアイテムが支給され、<lf>いつでも<ICON PL_ACCESS_ITEM_BAG>から受け取り可能。<lf><COLOR preset="TXT_Accent">支給品</COLOR>は、狩猟状況に応じて追加される。
+<string>クエスト開始時にはアイテムが支給され、<lf>いつでも<ICON PL_ITEM_SLIDER_OPEN>＋<ICON PL_ACCESS_ITEM_BAG>から受け取り可能。<lf><COLOR preset="TXT_Accent">支給品</COLOR>は、狩猟状況に応じて追加される。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>適正距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>適正距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>適正距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP13 PL_ITEM_SLIDER_OPEN>＋<ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>適正距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>適正距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP13 UI_BULLET_ITEM_UP>or<ICON WP13 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>最適な距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>最適な距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>最適な距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP12 PL_ITEM_SLIDER_OPEN>＋<ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>最適な距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string>最適な距離は弾によって異なる。<lf>装填中の弾を変更したい場合、<lf><ICON WP12 UI_BULLET_ITEM_UP>or<ICON WP12 UI_BULLET_ITEM_DOWN>で装填する弾を選択しよう。
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string>装填するビンは、<lf><ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>で変更できる。<lf>（装填可能なビンは武器によって異なる）
+<string>装填するビンは、<lf><ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>で変更できる。<lf>（装填可能なビンは武器によって異なる）
+<string>装填するビンは、<lf><ICON WP11 PL_ITEM_SLIDER_OPEN>＋<ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>で変更できる。<lf>（装填可能なビンは武器によって異なる）
+<string>装填するビンは、<lf><ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>で変更できる。<lf>（装填可能なビンは武器によって異なる）
+<string>装填するビンは、<lf><ICON WP11 UI_BULLET_ITEM_UP>or<ICON WP11 UI_BULLET_ITEM_DOWN>で変更できる。<lf>（装填可能なビンは武器によって異なる）

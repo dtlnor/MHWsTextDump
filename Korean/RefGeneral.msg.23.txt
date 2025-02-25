@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>-
 <string>-
 <string>:
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>-
+<string>-{0}
 <string>×
+<string>×{0}
 <string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>네
 <string>아니요
 <string>취소
@@ -50,12 +55,20 @@
 <string>or
 <string>and
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Lv
 <string>희귀도
 <string>???
 <string>???
 <string>?????
 <string>?????
+<string>하얀 그림자
+<string>아수종[???]
+<string>검은 불꽃
+<string>도샤구마[???]
+<string>리오레우스[???]
+<string>라바라 바리나[??]
+<string>세크레트[???]
 <string>-----
 <string>------
 <string>없음
@@ -90,12 +103,16 @@
 <string>헌터
 <string>동반자 아이루
 <string>세크레트
+<string>푸기
 <string>서포트 헌터
+<string>서클
 <string>z
 <string>제니
 <string>pts
 <string>길드 포인트
 <string>%
+<string>{0}%
+<string>격운 티켓
 <string>【{0}】
 <string>최적 체력 회복<lf>【{0}】
 <string>최적 상태 회복<lf>【{0}】
@@ -122,3 +139,5 @@
 <string>다운로드 가능한 콘텐츠
 <string>다운로드 가능한 콘텐츠
 <string>서버
+<string><PLATMSG RefGeneral_0028>
+<string>

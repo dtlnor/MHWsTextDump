@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>–
 <string>–
 <string>:
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>–
+<string>-{0}
 <string>x
+<string>x<NUMBER {0}>
 <string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>Ja
 <string>Nein
 <string>Abbrechen
@@ -50,12 +55,20 @@
 <string>/
 <string>und
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Stufe 
 <string>Seltenheit
 <string>???
 <string>???
 <string>?????
 <string>?????
+<string>Weißer Geist
+<string>Reißzahn-Bestie(??)
+<string>Schwarze Flamme
+<string>Doshaguma(??)
+<string>Rathalos(??)
+<string>Lala Barina(??)
+<string>Saikrii(??)
 <string>------
 <string>------
 <string>–
@@ -90,12 +103,16 @@
 <string>Jäger
 <string>Palico
 <string>Saikrii
+<string>Poogie
 <string>Hilfsjäger
+<string>Jagdgruppe
 <string>z
 <string>Zenny
 <string>Pkt.
 <string>Gildenpunkte
 <string> %
+<string>{0} %
+<string>Superglück-Gutscheine
 <string>[{0}]
 <string>Optimale Gesundheitserholung<lf><COLOR preset="TXT_Accent">{0}</COLOR>
 <string>Optimale Status-Erholung<lf><COLOR preset="TXT_Accent">{0}</COLOR>
@@ -122,3 +139,5 @@
 <string>DLC
 <string>DLC
 <string>Server
+<string><PLATMSG RefGeneral_0028>
+<string>

@@ -7,6 +7,7 @@
 <string>Sprawdzanie połączenia z serwerem...
 <string>Wystąpił błąd łączności.<lf>{0}
 <string>Wystąpił błąd komunikacji.<lf>Powrót na ekran tytułowy.<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Niektóre funkcje wieloosobowej gry online<lf>nie będą dostępne.<lf><lf>Aby uzyskać dostęp do wszystkich funkcji<lf>wieloosobowej gry online, zarejestruj się<lf>w usłudze {0}.
 <string>To konto nie spełnia wymagań<lf>wieloosobowej gry online.
 <string>Nie udało się połączyć z siecią.<lf>Powrót do ekranu tytułowego.
@@ -19,15 +20,30 @@
 <string>Z powodu braku aktywności przełączono<lf>w tryb online dla jednego gracza. Będziesz<lf>kontynuować rozgrywkę normalnie.<lf>{0}
 <string>Nie udało się wysłać, ponieważ jesteście<lf>już znajomymi lub czekasz na odpowiedź<lf>na zaproszenie.<lf>{0}
 <string>Nie udało się wysłać, ponieważ ty albo odbiorca<lf>osiągnęliście maksymalną liczbę znajomych.<lf>{0}
+<string>Osiągnięto maksymalną liczbę znajomych<lf>i nie można dodać więcej graczy.<lf>{0}
+<string>Nie udało się wysłać, ponieważ odbiorca<lf>osiągnął maksymalną liczbę znajomych.<lf>{0}
+<string>Osiągnięto maksymalną liczbę zaproszeń<lf>do znajomych i nie można wysłać więcej.<lf>{0}
+<string>Nie udało się wysłać, ponieważ odbiorca osiągnął<lf>maksymalną liczbę zaproszeń do znajomych.<lf>{0}
 <string>Obserwujesz już tego gracza.<lf>{0}
 <string>Obserwujesz maksymalną liczbę graczy<lf>i nie możesz już obserwować więcej.<lf>{0}
 <string>Inicjowanie sieci...
 <string>Znaleziono nową wersję aplikacji.<lf>Żeby korzystać z funkcji sieciowych,<lf>wyłącz aplikację i wykonaj aktualizację.
-<string>Zastąpiono dane łowcy.<lf>Nadal można bezpiecznie użyć tych zapisanych danych,<lf>ale dane znajomych, obserwowanych/obserwujących<lf>i oddziałów zostaną zresetowane.
+<string>Zastąpiono dane łowcy. Nadal można bezpiecznie<lf>używać tych zapisanych danych, ale dane znajomych,<lf>obserwowanych/obserwujących i oddziałów zostały<lf>zresetowane.
 <string>Gracz już dołączył do wspólnej grupy.<lf>{0}
 <string>Osiągnięto maksymalną liczbę graczy we wspólnej<lf>grupie. Nie można dodać więcej graczy.<lf>{0}
-<string>Nie możesz teraz tego zgłosić. Poczekaj<lf>chwilę i spróbuj ponownie później.<lf>{0}
+<string>Nie udało się wysłać, ponieważ odbiorca osiągnął<lf>limit zaproszeń do wspólnej grupy.<lf>{0}
+<string>Nie możesz teraz tego zgłosić. Poczekaj<lf>chwilę i spróbuj ponownie później.<lf><lf>{0}
 <string>Twoje obecne konto nie spełnia wymagań<lf>umożliwiających grę.
+<string>Nie znaleziono danych tworzenia postaci z beta testów.<lf>{0}
+<string>Pobieranie danych tworzenia postaci<lf>z beta testów nie powiodło się.<lf>{0}
+<string>Zaproszenie do wspólnej grupy zostało już wysłane.<lf>{0}
+<string>Nie można pobrać informacji o osiągnięciach<lf>z twojego konta. Sprawdź, czy nie występują<lf>problemy z połączeniem internetowym<lf>lub statusem konta.<lf>{0}
+<string>Projekty nie mogą być przesłane z tego konta.<lf>{0}
+<string>Zestawy nie mogą być udostępniane z tego konta.<lf>{0}
+<string>Nie udało się wysłać flary alarmowej.<lf>{0}
+<string>Ta funkcja jest obecnie niedostępna z powodu<lf>konserwacji. Proszę poczekać chwilę i spróbować<lf>ponownie.<lf>{0}
+<string>Osiągnięto limit blokad i nie możesz zablokować<lf>więcej graczy.<lf>{0}
+<string>Serwery są obecnie w trakcie zaplanowanej<lf>konserwacji.<lf>{0}
 <string>Utracono połączenie z sesją.<lf>{0}
 <string>Nie udało się utworzyć sesji.<lf>{0}
 <string>Nie udało się wyszukać sesji.<lf>{0}
@@ -49,7 +65,10 @@
 <string>Trwa dołączanie do wspólnej grupy.
 <string>Serwer jest obecnie zajęty. Poczekaj<lf>chwilę i spróbuj ponownie później.
 <string>Rozgrywka międzyplatformowa jest obecnie włączona.
-<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności<lf>zostały tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
+<string>Nie możesz wziąć udziału w tej sesji ze względu<lf>na ustawienia rozgrywki międzyplatformowej<lf>innego gracza.<lf>{0}
+<string>Nie można wziąć udziału, ponieważ sesja ma inne<lf>ustawienia rozgrywki międzyplatformowej. Sprawdź<lf>swoje ustawienia rozgrywki międzyplatformowej<lf>w <BOLD>Opcjach</BOLD> w Menu tytułowym.<lf>{0}
+<string>Osiągnięto limit graczy we wspólnej grupie.<lf>Nie można dodać więcej graczy.<lf><lf>{0}
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "DD.MM.YYYY H:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
 <string>Zachowanie obraźliwe/agresywne
 <string>Typy niedozwolonych zachowań
 <string>Nieodpowiednie wiadomości
@@ -61,6 +80,23 @@
 <string>Przejrzyj każdy tekst do edycji, jak na przykład twój profil<lf>łowcy i komentarze oddziału, i odpowiednio zaktualizuj treść.<lf>Brak aktualizacji treści tekstowych lub powtarzające się<lf>zachowania, które naruszają warunki użytkowania,<lf>mogą skutkować trwałymi ograniczeniami.
 <string>Dodatkowo imiona twoje i twojego koleżkota zostaną<lf>zmienione na domyślne „<LSNR "Łowca" "Łowczyni">/Koleżkot”.
 <string><COLOR preset="TXT_Danger">Konto trwale zawieszone</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Twoje konto zostało trwale zawieszone</COLOR> z powodu<lf>potwierdzonych naruszeń warunków użytkowania.<lf><lf>Dane konto nie będzie miało dostępu do trybu<lf>online w grze Monster Hunter Wilds. Zwracamy<lf>uwagę, że nie oferujemy żadnych środków<lf>umożliwiających zniesienie trwałego zawieszenia<lf>konta zgodnie z warunkami użytkowania.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">obraźliwe zachowanie</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf>Powtarzające się lub podobne zachowania mogą skutkować trwałymi<lf>ograniczeniami. <COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową<lf>licencyjną użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">naruszenie naszych warunków<lf>użytkowania w zakresie niestosownego języka</COLOR>. W związku z tym<lf><COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo ograniczone</COLOR>.<lf><lf>Powtarzające się lub podobne zachowania mogą skutkować<lf>trwałymi ograniczeniami. <COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania<lf>i umową licencyjną użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">niestosowne komentarze</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf>Przejrzyj swój profil łowcy i usuń niestosowny język z sekcji<lf>komentarzy. Nieusunięcie tej zawartości lub podobne zachowanie<lf>może skutkować trwałymi ograniczeniami.<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową licencyjną<lf>użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">niestosowne komentarze<lf>wobec oddziału</COLOR>. W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf><lf>Wspomniane niestosowne komentarze zostały usunięte.<lf>Powtarzające się lub podobne zachowania mogą skutkować<lf>trwałymi ograniczeniami.<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową licencyjną<lf>użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">nieodpowiednie zachowanie</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową licencyjną<lf>użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">niestosowną zawartość</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf>Wspomniana niestosowna zawartość jest wyświetlana jako wartość<lf>domyślna (np. łowca/koleżkot) innym użytkownikom.<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową licencyjną<lf>użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za naruszenie naszych <COLOR preset="TXT_Danger">warunków<lf>użytkowania i/lub umowy licencyjnej użytkownika końcowego<lf>w zakresie niedozwolonego zachowania</COLOR>. W związku z tym <COLOR preset="TXT_Accent">funkcje<lf>społeczności zostały tymczasowo ograniczone</COLOR>.<lf><lf>Powtarzające się lub podobne zachowania mogą skutkować trwałymi<lf>ograniczeniami. <COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową<lf>licencyjną użytkownika końcowego.</COLOR>
+<string><COLOR preset="TXT_Danger">Konto trwale zawieszone</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Twoje konto zostało trwale zawieszone</COLOR> z powodu potwierdzonych<lf>naruszeń naszych warunków użytkowania i/lub umowy licencyjnej<lf>użytkownika końcowego.<lf><lf>Dane konto nie będzie miało dostępu do trybu online<lf>w grze Monster Hunter Wilds. Zwracamy uwagę, że nie oferujemy<lf>żadnych środków umożliwiających zniesienie trwałego zawieszenia<lf>konta zgodnie z warunkami użytkowania i umową licencyjną<lf>użytkownika końcowego.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">podejrzenie obraźliwego<lf>zachowania</COLOR>. W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf>Powtarzające się lub podobne zachowania mogą skutkować<lf>trwałymi ograniczeniami. <COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania<lf>i umową licencyjną użytkownika końcowego.</COLOR><lf>Jeśli nie wiesz, jakie zachowanie mogło spowodować tę decyzję,<lf>prześlij nam zapytanie za pośrednictwem formularza.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">podejrzenie używania<lf>niestosownego języka lub zawartości</COLOR>. W związku z tym <COLOR preset="TXT_Accent">funkcje<lf>społeczności zostały tymczasowo ograniczone</COLOR>.<lf>Powtarzające się lub podobne zachowania mogą skutkować<lf>trwałymi ograniczeniami. <COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania<lf>i umową licencyjną użytkownika końcowego.</COLOR><lf>Jeśli nie wiesz, jakie zachowanie mogło spowodować tę decyzję,<lf>prześlij nam zapytanie za pośrednictwem formularza.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">podejrzenie naruszeń naszych<lf>warunków użytkowania i/lub umowy licencyjnej użytkownika<lf>końcowego w zakresie niedozwolonych zachowań</COLOR>. W związku z tym<lf><COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo ograniczone</COLOR>.<lf>Powtarzające się lub podobne zachowania mogą skutkować trwałymi<lf>ograniczeniami. <COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania i umową<lf>licencyjną użytkownika końcowego.</COLOR><lf>Jeśli nie wiesz, jakie zachowanie mogło spowodować tę decyzję,<lf>prześlij nam zapytanie za pośrednictwem formularza.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">obraźliwe zachowanie</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf>Powtarzające się lub podobne zachowania mogą skutkować trwałymi<lf>ograniczeniami.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">niestosowny język</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf>Powtarzające się lub podobne zachowania mogą skutkować trwałymi<lf>ograniczeniami.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">nieodpowiednie zachowanie</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">niestosowną zawartość</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf>Wspomniana niestosowna zawartość jest wyświetlana innym<lf>użytkownikom jako wartość domyślna (np. łowca/koleżkot).
+<string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "H:mm DD.MM.YYYY"> (UTC)<lf><lf>Twoje konto zostało oznaczone za <COLOR preset="TXT_Danger">niedozwolone zachowanie</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały tymczasowo<lf>ograniczone</COLOR>.<lf><lf>Powtarzające się lub podobne zachowania mogą skutkować trwałymi<lf>ograniczeniami.
+<string><COLOR preset="TXT_Danger">Konto trwale zawieszone</COLOR>.<lf><lf>Twoje konto zostało <COLOR preset="TXT_Danger">trwale zawieszone</COLOR><lf>z powodu potwierdzonego oszukiwania.<lf><lf>Dane konto nie będzie miało dostępu do<lf><REF RefGeneral_0000_0000_00_OBT>. Zwracamy uwagę, że nie oferujemy żadnych środków<lf>umożliwiających zniesienie trwałego zawieszenia konta<lf>w trakcie otwartego beta testu.
 <string>Trwa dołączanie do wspólnej grupy.<lf>Zmienić zapisane dane?<lf><COLOR preset="TXT_Danger">(Zmieniając zapisane dane, stracisz<lf>wszelkie bieżące niezapisane dane)</COLOR>
 <string>Dołącz z obecnymi zapisanymi danymi
 <string>Dołącz z innymi zapisanymi danymi
@@ -69,9 +105,22 @@
 <string>Nie udało się wysłać prośby o zaproszenie.<lf>{0}
 <string>Nie można dołączyć, ponieważ nie odblokowano<lf>funkcji wspólnej grupy.
 <string>Otworzyć ekran zapraszania znajomych,<lf>żeby wysłać zaproszenie do wspólnej grupy?
+<string>Czy chcesz zagrać ze mną w Monster Hunter Wilds?
 <string>Chcesz zagrać ze mną w otwarty beta test Monster Hunter Wilds?
+<string>Otrzymano zaproszenie.<lf><COLOR preset="TXT_Accent">(Pojawi się ono po zakończeniu przerywnika<lf>lub pobierania albo po zamknięciu menu ustawień.)</COLOR>
+<string>Nie można dołączyć do wspólnej grupy,<lf>ponieważ dane są jeszcze instalowane.
+<string>Gra uruchomi się w trybie offline.<lf><lf>Aby uczestniczyć w wieloosobowej grze online, musisz<lf>wyrazić zgodę na pozyskiwanie danych osobowych.<lf>Nadal możesz grać w grę bez wyrażania zgody na te<lf>warunki, ale niektóre funkcje nie będą dostępne.<lf>Żeby zmienić ustawienia polityki prywatności,<lf>zapoznaj się z sekcją <BOLD>Prywatność</BOLD> na ekranie tytułowym.
+<string>Wieloosobowa gra online jest ograniczona do<lf>momentu, gdy wyrazisz zgodę na gromadzenie<lf>danych osobowych. Żeby zmienić ustawienia<lf>polityki prywatności, zapoznaj się z sekcją<lf><BOLD>Prywatność</BOLD> na ekranie tytułowym.<lf>{0}
 <string>Oczekiwanie na innych użytkowników...
 <string>Poczekaj.<lf><lf>Możesz zacząć, kiedy zespół da sygnał.
 <string>Wyrusz
 <string>Wystąpił błąd. Poinformuj pobliski zespół.
 <string>Nie udało się uzyskać danych transmisji.<lf>{0}
+<string>{0}<lf>Nie udało się wyszukać powyższego ID oddziału.<lf>{1}
+<string>Zaproszenia do oddziału i prośby dołączenia<lf>do oddziału przekroczyły maksimum.<lf><lf>{0}
+<string>Nie udało się dołączyć do oddziału.<lf><lf>{0}
+<string>Nie udało się aktywować oddziału.<lf>Sprawdź ustawienia oddziału.<lf><lf>{0}
+<string>{0}<lf>Informacje o oddziale dla powyższego ID nie istnieją.<lf>{1}
+<string>Nie udało się zaktualizować danych oddziału.<lf>{0}
+<string>Nie udało się wysłać, ponieważ druga strona<lf>osiągnęła maksymalny limit oddziałów,<lf>do których może dołączyć.<lf>{0}
+<string>Ponieważ liczba członków twojego oddziału osiągnęła określoną<lf>ilość, możesz teraz tworzyć lobby oddziału, które pozwalają<lf>na dołączenie większej liczby członków. W związku z tym twoje<lf>obecne lobby oddziału zostanie rozwiązane.<lf><lf>Przepraszamy za niedogodności, prosimy o utworzenie nowego<lf>lobby oddziału z Menu zmiany lobby.

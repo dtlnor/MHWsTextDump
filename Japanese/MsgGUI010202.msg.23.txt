@@ -9,7 +9,11 @@
 <string><COLOR preset="TXT_Accent">{0}</COLOR>のすべてのキー割り当て設定を<lf>初期状態に戻します。よろしいですか？
 <string>選択中のキー割り当て設定を<lf>初期状態に戻します。よろしいですか？
 <string>すべての項目を初期設定に戻す
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
 <string>選択中の項目を初期設定に戻す<lf>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>ハンター操作
 <string>武器操作
 <string>スリンガー操作
@@ -21,6 +25,7 @@
 <string>ダイレクトメニュー
 <string>メニュー操作
 <string>マップ操作
+<string>フォトモード中の操作
 <string>モンスター乗り時の操作
 <string>前に移動
 <string>後ろに移動
@@ -58,20 +63,22 @@
 <string><REF RefGeneral_0014_01>呼び（オート）／騎乗中オート切替
 <string><REF RefGeneral_0014_01>呼び（マニュアル）／騎乗中マニュアル切替
 <string>武器切替
+<string>全速力（1回押し）
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
 <string>加速（1回押し）／全速力（長押し）
 <string>減速（1回押し）／急停止（長押し）
 <string><REF RefGeneral_0014_01>から降りる
 <string><REF RefGeneral_0014_01>ポーチの確認
 <string>アイテム切り替え：左
 <string>アイテム切り替え：右
-<string>弾・ビンの選択：上
-<string>弾・ビンの選択：下
+<string>弾・ビン・ルアーの選択：上
+<string>弾・ビン・ルアーの選択：下
 <string>アイテム選択モード（1回押し）
 <string>アイテム選択モード（長押し）／カメラリセット
 <string>アイテム選択モード中：アイテム切り替え（左）
 <string>アイテム選択モード中：アイテム切り替え（右）
-<string>アイテム選択モード中：弾・ビンの選択（上）
-<string>アイテム選択モード中：弾・ビンの選択（下）
+<string>アイテム選択モード中：弾・ビン・ルアーの選択（上）
+<string>アイテム選択モード中：弾・ビン・ルアーの選択（下）
 <string>アイテム選択モード中：カスタムショートカット
 <string>アイテム選択モード中：パレット移動
 <string>アイテム選択モード中：スライダー全展開
@@ -100,8 +107,9 @@
 <string>キーボード用ショートカット：１１枠
 <string>キーボード用ショートカット：１２枠
 <string>カスタムショートカット表示
-<string>カスタムショートカット：パレットの移動（上）
-<string>カスタムショートカット：パレットの移動（下）
+<string>カスタムショートカット（4列）：パレットの移動（上）
+<string>カスタムショートカット（4列）：パレットの移動（下）
+<string>
 <string>カメラ操作：上
 <string>カメラ操作：左
 <string>カメラ操作：下
@@ -126,8 +134,9 @@
 <string>チャット入力：クエストメンバー
 <string>チャット入力：サークルメンバー
 <string>チャット入力：特定のプレイヤー
-<string>マップを開く／チャット通知起動／リザルトスキップ
+<string>マップを開く
 <string>全域マップを開く
+<string>クエスト準備・チャット通知起動／クエスト関連スキップ
 <string>リストから調合
 <string>アイテムポーチの確認
 <string>弾ポーチの確認
@@ -175,11 +184,12 @@
 <string>モデルの拡大
 <string>モデルの縮小
 <string>サブメニュー
-<string>マイセットの登録／呼び出し
+<string>マイセット管理
 <string>操作カラムの切り替え
 <string>表示のフィルタリング
 <string>項目・リストの並び替え
 <string>項目・リスト表示の切り替え
+<string>リザルト・カットシーンのスキップ
 <string>フィールドマップの移動：上
 <string>フィールドマップの移動：下
 <string>フィールドマップの移動：左
@@ -195,8 +205,17 @@
 <string>フィールドマップ：回転モード（ホールド）
 <string>フィールドマップ：カーソル位置のリセット
 <string>フィールドマップと全域マップの切り替え
+<string>フィールドマップを閉じる
 <string>フィールドマップ：全画面・半画面の切り替え
 <string>フィールドマップ：環境サマリーの確認
+<string>カメラ移動：奥
+<string>カメラ移動：手前
+<string>カメラ移動：左
+<string>カメラ移動：右
+<string>カメラ位置調整：上
+<string>カメラ位置調整：下
+<string>カメラ位置調整：左
+<string>カメラ位置調整：右
 <string>ナイフ弱攻撃
 <string>ナイフ強攻撃
 <string>武器攻撃
@@ -209,6 +228,10 @@
 <string>遠距離武器種共通
 <string>プロファイルの複製
 <string>プロファイルの削除
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
 <string>どの武器種のプロファイルを作成しますか？<lf><COLOR preset="TXT_Accent">（各武器種で１つずつ、プロファイルの作成が可能です）</COLOR>
 <string>どの武器種のプロファイルに変更しますか？<lf><COLOR preset="TXT_Accent">（各武器種で１つずつ、プロファイルの作成が可能です）</COLOR>
 <string><COLOR preset="TXT_Accent">{0}</COLOR>のプロファイルをどの武器種用に複製しますか？<lf><COLOR preset="TXT_Accent">（プロファイルが作成済みの場合は上書きされ、未作成の場合は新規作成されます）</COLOR>

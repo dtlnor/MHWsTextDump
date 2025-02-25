@@ -47,6 +47,7 @@
 <string>Die Questleitung hat das<lf>Not-Leuchtzeichen abgebrochen.
 <string>Sprach-Chat gewechselt zu<lf><REF RefNetwork_0004_02>.
 <string>Sprach-Chat gewechselt zu<lf><REF RefNetwork_0004_01>.
+<string>Im Versorgungslager gibt es Rabatte!
 <string>Eine Quest wurde freigeschaltet.
 <string>{0}<lf>wurde zur Questleitung ernannt.
 <string>Du wurdest zur Questleitung ernannt.
@@ -62,12 +63,24 @@
 <string>Jagdfreundschaft-Anfrage
 <string>Du hast eine Jagdfreundschaft-Anfrage<lf>von {0} erhalten.
 <string>Du hast Jagdfreundschaft mit<lf>{0} geschlossen.
+<string>Der Zaun ist einsatzbereit.
+<string>Zaun bereit in: <PLURAL {0} "{0} Minute" "{0} Minuten">
+<string>Zaun bereit in: <PLURAL {0} "{0} Sekunde" "{0} Sekunden">
+<string>Das Unterstützungsschiff ist angekommen.
+<string>Das Unterstützungsschiff fährt bald ab.
+<string>Das Unterstützungsschiff ist abgefahren.
+<string>Superglück-Gutsch. verwendet (noch {0})
+<string>Du erhältst zufällig<lf>Belohnungen und Zenny.
+<string>Benutzen
+<string>Superglück-Gutschein verwendet.
 <string>Umgebungsverbindungsaktivität
 <string>Starte eine Felderkundung für<lf>{0}.
 <string>Abbrechen
 <string>Vorratsobjekte aufgefüllt.<lf>(Vorratsobjekte mit <INPUTMSG MsgGUI020100_0011> ansehen.)
 <string>Hilfsjäger {0}<lf>ist der Quest beigetreten.
 <string>Hilfsjäger {0}<lf>hat die Quest verlassen.
+<string>Eine neue Arenaquest ist verfügbar.
+<string>Zwischensequenzen können in der Galerie<lf>im Hauptmenü erneut angesehen werden.
 <string>Hauptziel als Ziel festgelegt.
 <string>Das Ziel ist verschwunden.<lf>Das Hauptziel wird als Ziel festgelegt.
 <string>Ein als Wegpunkt festgelegte<lf>Ziel ist verschwunden.
@@ -75,15 +88,34 @@
 <string>Quest gescheitert...
 <string>Questeinladungen (neu verteilt)
 <string>Du kannst jetzt Questeinladungen<lf>von {0}<lf>empfangen.
+<string>{0} (x{1}) gegeben
 <string>Fixobjekte erhalten:<lf><COLOR preset="TXT_Accent">Jagdwerkzeuge</COLOR>!
 <string>Umgebungsinfo-Update
+<string>{0} lädt dich zum Essen ein!<lf>({1})
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
 <string>{0} gesichtet!<lf>Ort: ({1})
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>Melde deine erfolgreiche Nebenmission<lf>bei {0}. ({1})
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Mehrere Ziele für kombinierte<lf>Questerstellung verfügbar!
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>{0} ist aufgetaucht,<lf>der Apex-Räuber der Region!
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>{0}<lf>ist erschienen und gefährdet die<lf>Siedlungsbewohner!
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>{0} mit<lf>mehr Belohnungen als sonst erschienen!
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>Das Nebenmissionsziel ist erschienen!<lf>{0}
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>Ein Wunschlistenziel ist erschienen!<lf>{0}
 <string>Karte öffnen
 <string>Umgebungsinfo
 <string>{0} gesichtet!
@@ -92,6 +124,9 @@
 <string>{0}<lf>wird den Ort bald verlassen!
 <string>Karte öffnen
 <string>{0}<lf>hat den Ort verlassen...
+<string>Umgebungsinfo-Update
+<string>{0}<lf>ist an der Frostspitze aufgetaucht!
+<string>Karte öffnen
 <string>Umgebungsinfo
 <string>Ein Rudel mit {0}<lf>ist erschienen!
 <string>Karte öffnen
@@ -99,11 +134,21 @@
 <string>Das Rudel mit {0}<lf>wird den Ort bald verlassen!
 <string>Karte öffnen
 <string>Das Rudel mit {0}<lf>hat den Ort verlassen...
+<string>{0} gesichtet!
 <string>Umgebungsinfo
 <string>Ausbruch verzeichnet:<lf>{0}!
 <string>Karte öffnen
 <string>Umgebungsinfo
 <string>Vermehrte Sichtungen:<lf>{0}!
+<string>Karte öffnen
+<string>Umgebungsinfo
+<string>{0} ist als<lf>Jagdassistenz verfügbar!
+<string>Karte öffnen
+<string>Umgebungsinfo
+<string>Das Unterstützungsschiff ist angekommen!
+<string>Karte öffnen
+<string>Umgebungsinfo
+<string>Ein Großer Wächterkokon wurde gesichtet!
 <string>Karte öffnen
 <string>{0} verloren.
 <string>Beitrittsanfragen
@@ -113,6 +158,10 @@
 <string>Der Host hat die Lobby aufgelöst.
 <string>{0} folgt dir jetzt.
 <string>Keine Vorratsobjekte.
+<string>Wunschliste: {0}
+<string><COLOR preset="TXT_Accent">Du hast alle nötigen Materialien erhalten.</COLOR>
+<string>Wunschliste: {0}
+<string>Benötigte Anzahl
 <string>Die Felderkundung wurde abgebrochen.
 <string>Zu viele Vorratsobjekte im Inventar.<lf>Überzählige Vorratsobjekte weggeworfen.
 <string>Effekte eines Melodie-Effekts erhalten!<lf><BOLD>{0}</BOLD>
@@ -123,6 +172,9 @@
 <string>Kaltgetränk-Effekte wirken nicht mehr.
 <string>Heißgetränk-Effekte wirken nicht mehr.
 <string>Nicht als Questziel festlegbar.<lf>Bitte mit <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER> Abreisebildschirm öffnen.
+<string>Missionsinfo öffnen
+<string>Lass dir die Zielpriorität anzeigen<lf>und wähle eine Mission aus.
+<string>Öffnen
 <string>{0} kann nicht<lf>als Questziel festgelegt werden.
 <string>{0} kann nicht<lf>als Questziel festgelegt werden.<lf>(JR zu niedrig.)
 <string>Vom Online-Einzelspielermodus<lf>zum Online-Modus gewechselt.
@@ -135,21 +187,82 @@
 <string>Felderkundung kann nicht beginnen,<lf>Verbindungsmitglieder prüfen<lf>noch Questergebnisse.
 <string>{0}<lf>kann bei deinem aktuellen Fortschritt<lf>nicht in einer Quest gejagt werden.
 <string>Echoblaseneffekt aktiviert!<lf>{0}
+<string>{0} wurde abgeliefert!
+<string>{0}
+<string>Du hast eine neue Auszeichnung erhalten!
+<string>Titel
+<string>Du hast <PLURAL {0} "einen neuen Titel" "{0} neue Titel"> erhalten!
+<string>{0}
+<string>Neue Namensplakette erhalten!
+<string>{0}
+<string>Neuen Hintergrund erhalten!
+<string>Das Poogie scheint nichts bei sich zu haben...
+<string>Neuer Beutezug bekanntgemacht.
+<string>Befristeter Beutezug
+<string>{0}<lf>{1}/{2}
+<string>Befristeter Beutezug
+<string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} abgeschlossen!</COLOR>
 <string>Umgebungsinfo-Update
 <string>Ein(e) {0} ist erschienen und<lf>hat seltene Bonus-Belohnungen!
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>Nebenmission erfüllt!<lf>Melde dich bei {0}.
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>Du kannst abgeschlossene Nebenmissionen<lf>deinem Palico melden!
 <string>Karte öffnen
 <string>Die Verbindungsgruppe wurde aufgelöst,<lf>weil du das einzige Mitglied warst.
 <string>Du konntest der Umgebungsverbindung<lf>von {0} nicht beitreten.
 <string>Du hast die Umgebungsverbindung<lf>von {0} verlassen.
-<string>Die Umgebungsverbindung wurde aufgelöst.
+<string>Die Umgebungsverbindung wurde<lf>aufgelöst.
 <string>Der Beitritt zur Quest ist fehlgeschlagen.
+<string>Neue Lagerausstattungsoptionen!
 <string>Mahleffekte klingen bald ab.
+<string>Du kannst nun im Ölquellbecken<lf>Feldlager errichten und anpassen.
+<string>Du kannst nun in den Eissplitterklippen<lf>Feldlager errichten und anpassen.
+<string>Du kannst nun in den Ruinen von Wyveria<lf>Feldlager errichten und anpassen.
+<string>Umgebungsinfo-Update
+<string>Eine Quest mit mehreren Zielen ist<lf>verfügbar. Die Bewohner sind in Gefahr!
+<string>Karte öffnen
+<string>Umgebungsinfo-Update
+<string>Eine Quest mit mehreren Zielen und<lf>gesteigerten Bonus-Belohnungen ist<lf>verfügbar!
+<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Nimm Quests mit mehreren Zielen an, um<lf>seltene Bonus-Belohnungen zu erhalten!
 <string>Karte öffnen
+<string>Du hast {0} neue <PLURAL {0} "Nachricht" "Nachrichten">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Du hast die Verbindungsgruppe verlassen.
 <string>Manuelle Bewegung
 <string>Auto-Bewegung
 <string>Auto-Erkunden
 <string>Der Online-Einzelspielermodus<lf>wurde vorübergehend deaktiviert.
+<string>{0}<lf>bewegt sich zur Frostspitze.
+<string>Du hast Jägerrang {0} erreicht!
+<string>Du kannst das getragene Objekt<lf>nicht hier platzieren.
 <string>Crossplay ist derzeit aktiviert.
+<string>Jagdgruppenmitteilung
+<string>Du hast eine Einladung zur Jagdgruppe<lf><BOLD>{0}</BOLD> erhalten.
+<string>Jagdgruppenmitteilung
+<string>Du hast eine offene Jagdgruppenanfrage.
+<string>Jagdgruppenmitteilung
+<string>Du hast eine Jagdgruppenanfrage für<lf><BOLD>{0}</BOLD> erhalten.
+<string>Jagdgruppenmitteilung
+<string>Du bist der Jagdgruppe<lf><BOLD>{0}</BOLD> beigetreten.
+<string><BOLD>{1}</BOLD> ist der Jagdgruppe<lf>{0} beigetreten.
+<string>Du wurdest zur Vize-Leitung der<lf>Jagdgruppe <BOLD>{0}</BOLD> ernannt.
+<string>Du wurdest zur Leitung der Jagdgruppe<lf><BOLD>{0}</BOLD> ernannt.
+<string>Anmeldebonus
+<string>Der heutige Anmeldebonus ist jetzt<lf>im Spielmenü verfügbar.
+<string>Jetzt erhalten
+<string>Ausrüstungsset geteilt
+<string>{0} hat ein<lf>Ausrüstungsset geteilt.
+<string>Objektset geteilt
+<string>{0} hat ein<lf>Objektset geteilt.
+<string>Tortenmenüset geteilt
+<string>{0} hat ein<lf>Tortenmenüset geteilt.
+<string>Die Fähigkeit <BOLD>{0}</BOLD><lf>kann jetzt aktiviert werden.
+<string>Empfang des Objektsets fehlgeschlagen.
+<string>Empfangen fehlgeschlagen, da das<lf>Maximum an Mitteilungen für<lf>geteilte Sets erreicht wurde.
+<string>Du hast eine Einladung.<lf>Sieh dir die <BOLD>Einladungsmitteilungen</BOLD><lf>im Spielmenü an.
+<string>Du hast eine Beitrittsanfrage.<lf>Sieh dir die <BOLD>Beitrittsanfragen</BOLD> im<lf>Spielmenü an.
+<string>Quest konnte nicht begonnen werden.

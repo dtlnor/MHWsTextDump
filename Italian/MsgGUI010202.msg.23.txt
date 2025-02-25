@@ -3,29 +3,34 @@
 <string>Principale
 <string>Secondario
 <string>Dopo aver selezionato il tasto principale o secondario dell'azione che vuoi<lf>riassegnare, premi il tasto desiderato per assegnarlo a quell'azione.<lf><COLOR preset="TXT_Accent">(Non puoi riassegnare <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, che hanno funzioni uniche quando navighi nel menu.)</COLOR>
-<string>Dopo aver selezionato il tasto principale o secondario dell'azione che vuoi<lf>riassegnare, premi il tasto desiderato per assegnarlo a quell'azione.<lf><COLOR preset="TXT_Accent">(Non puoi riassegnare <ICON KB_ESCAPE,KB_INSERT> che ha una funzione unica quando impugni un'arma.)</COLOR>
-<string><COLOR preset="TXT_Accent">Impossibile applicare le modifiche a causa di un errore<lf>dell'impostazione in questione.</COLOR><lf><lf>Tornare indietro senza applicare le modifiche?<lf><lf>Se vuoi riprovare ad applicare le modifiche, verifica se<lf>le opzioni con l'icona <COLOR preset="TXT_Danger">[ ! ]</COLOR> hanno i problemi seguenti:<lf>1. Tasto assegnato a più azioni.<lf>2. Un'azione non presenta un tasto assegnato.
+<string>Dopo aver selezionato il tasto principale o secondario dell'azione che vuoi<lf>riassegnare, premi il tasto desiderato per assegnarlo a quell'azione.<lf><COLOR preset="TXT_Accent">(Non puoi riassegnare <ICON KB_ESCAPE,KB_INSERT> che hanno una funzione unica quando impugni un'arma.)</COLOR>
+<string><COLOR preset="TXT_Accent">Impossibile applicare le modifiche a causa di un errore<lf>dell'impostazione in questione.</COLOR><lf><lf>Tornare indietro senza applicare le modifiche?<lf><lf>Se vuoi riprovare ad applicare le modifiche,<lf>verifica se le opzioni che hanno accanto l'icona <COLOR preset="TXT_Danger">[ ! ]</COLOR><lf>presentano i problemi seguenti:<lf>- Tasto assegnato a molteplici azioni.<lf>- Nessun tasto assegnato a un'azione.
 <string>Ripristinare queste opzioni ai valori predefiniti?
 <string>Ripristinare le assegnazioni predefinite<lf>di tutti i tasti <COLOR preset="TXT_Accent">{0}</COLOR>?
 <string>Ripristinare le assegnazioni predefinite<lf>dell'azione selezionata?
 <string>Ripristina tutto
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
 <string>Ripristina selezionato
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>Comandi del cacciatore
 <string>Comandi delle armi
 <string>Comandi della fionda
 <string>Comandi in groppa al Seikret
 <string>Comandi della barra oggetti
-<string>Comandi del menu di scelta rapida
+<string>Comandi scorciatoie tastiera
 <string>Comandi della visuale
 <string>Comandi della chat
 <string>Menu diretto
 <string>Comandi del menu
 <string>Comandi della mappa
+<string>Comandi modalità foto
 <string>Comandi in groppa a un mostro
-<string>Spostati in avanti
-<string>Spostati indietro
-<string>Spostati a sinistra
-<string>Spostati a destra
+<string>Muoviti in avanti
+<string>Muoviti all'indietro
+<string>Muoviti a sinistra
+<string>Muoviti a destra
 <string>Scatto (premi una volta)/Rinfodera arma
 <string>Scatto (tieni premuto)/Rinfodera arma
 <string>Accovacciati/Schiva (<ICON PAD PL_DODGE>)
@@ -47,8 +52,8 @@
 <string>Colpo preciso (modalità precisione) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Equipaggia/Rimuovi mantello
 <string>Rinfodera arma
-<string>Tasto aggiunto: mira fionda (premi una volta) (<ICON PAD PL_AIM>)
-<string>Tasto aggiunto: mira fionda (tieni premuto <ICON PAD PL_AIM>)
+<string>(Tasto aggiuntivo) Mira fionda (premi una volta <ICON PAD PL_AIM>)
+<string>(Tasto aggiuntivo) Mira fionda (tieni premuto <ICON PAD PL_AIM>)
 <string>Usa munizioni fionda (durante mira fionda/mod. precisione)
 <string>Usa fionda uncinata (durante mira fionda)
 <string>Scegli notifica insetti guida (durante mira fionda): su
@@ -58,26 +63,28 @@
 <string>Chiama Seikret (auto)/Passa ad auto mentre sei in sella
 <string>Chiama Seikret (manuale)/Passa a manuale mentre sei in sella
 <string>Cambia arma
-<string>Accelera (premi una volta)/Velocità massima (tieni premuto)
+<string>Corsa veloce (premi una volta)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
+<string>Accelera (premi una volta)/Corsa veloce (tieni premuto)
 <string>Rallenta (premi una volta)/Stop (tieni premuto)
 <string>Smonta dal Seikret
 <string>Esamina borsa del Seikret
 <string>Scorri oggetti: sinistra
 <string>Scorri oggetti: destra
-<string>Scorri munizioni/rivestimenti: su
-<string>Scorri munizioni/rivestimenti: giù
+<string>Scorri munizioni/rivestimenti/esche: su
+<string>Scorri munizioni/rivestimenti/esche: giù
 <string>Mostra oggetti (premi una volta)
 <string>Mostra oggetti (tieni premuto)/Reimposta visuale
 <string>Scorri oggetti (con oggetti mostrati): sinistra
 <string>Scorri oggetti (con oggetti mostrati): destra
-<string>Scorri munizioni/rivest. su (con oggetti mostrati)
-<string>Scorri munizioni/rivest. giù (con oggetti mostrati)
+<string>Scorri munizioni/rivest.: su (con oggetti mostrati)
+<string>Scorri munizioni/rivest.: giù (con oggetti mostrati)
 <string>Scorciatoie tastiera (con oggetti mostrati)
 <string>Cambia scorciatoia (con oggetti mostrati)
 <string>Espandi barra completamente (con oggetti mostrati)
 <string>Espandi barra (con oggetti mostrati) (tieni premuto)
-<string>Barra oggetti completamente aperta: sposta cursore (su)
-<string>Barra oggetti completamente aperta: sposta cursore (giù)
+<string>Barra oggetti aperta: sposta cursore (su)
+<string>Barra oggetti aperta: sposta cursore (giù)
 <string>Apri scorciatoia tastiera 1
 <string>Apri scorciatoia tastiera 2
 <string>Apri scorciatoia tastiera 3
@@ -100,8 +107,9 @@
 <string>Scorciatoie tastiera: slot 11
 <string>Scorciatoie tastiera: slot 12
 <string>Mostra scorciatoia tastiera
-<string>Cambia set (scorciatoia tastiera): su
-<string>Cambia set (scorciatoia tastiera): giù
+<string>Cambia set (modalità quattro file fissa): su
+<string>Cambia set (modalità quattro file fissa): giù
+<string>
 <string>Comandi visuale: su
 <string>Comandi visuale: sinistra
 <string>Comandi visuale: giù
@@ -119,27 +127,28 @@
 <string>Elenco membri
 <string>Elenco chat vocale
 <string>Elenco inviti
-<string>Avviso assenza
-<string>Chat - Cronologia interazioni
-<string>Chat - Membri stanza
-<string>Chat - Membri collegamento
-<string>Chat - Membri missione
-<string>Chat - Membri squadra
-<string>Chat - Giocatore specifico
-<string>Apri mappa/Apri notifica chat/Salta risultati
-<string>Apri mappa dell'intera zona
+<string>Imposta come assente
+<string>Chat: cronologia interazioni
+<string>Chat: membri stanza
+<string>Chat: membri collegamento
+<string>Chat: membri missione
+<string>Chat: membri squadra
+<string>Chat: giocatore specifico
+<string>Apri mappa
+<string>Apri mappa globale
+<string>Apri schermata partenza/Apri notif. chat/Salta risultati missione
 <string>Prepara dalla lista
 <string>Inventario
 <string>Esamina borsa munizioni
 <string>Esamina borsa rivestimenti
 <string>Registra scorciatoia oggetto
 <string>Mostra tutto l'equipaggiamento
-<string>Riepilogo incarico
+<string>Elenco incarichi
 <string>Riprova incarico
 <string>Info missione
 <string>Lancia razzo SOS
 <string>Rientra dalla missione
-<string>Richiedi di partecipare alla missione
+<string>Richieste di partecipazione
 <string>Riepilogo cacciatore di supporto
 <string>Cronologia risultati
 <string>Compagno Felyne
@@ -152,8 +161,8 @@
 <string>Ricarica/Applica o rimuovi rivestimento (<ICON PAD PL_ATTACK_00>)
 <string>Mira con arma/fionda (premi una volta <ICON PAD PL_AIM>)
 <string>Mira con arma/fionda (tieni premuto <ICON PAD PL_AIM>)
-<string>Tasto aggiunto: mira con arma/fionda (premi una volta <ICON PAD PL_AIM>)
-<string>Tasto aggiunto: mira con arma/fionda (tieni premuto <ICON PAD PL_AIM>)
+<string>(Tasto aggiuntivo) Mira con arma/fionda (premi una volta <ICON PAD PL_AIM>)
+<string>(Tasto aggiuntivo) Mira con arma/fionda (tieni premuto <ICON PAD PL_AIM>)
 <string>Colpo preciso (mira/modalità precisione) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Guardia/Azione speciale dell'arma (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Cambia modalità
@@ -175,11 +184,12 @@
 <string>Espandi modello
 <string>Restringi modello
 <string>Sottomenu
-<string>Registra/Usa set
+<string>Gestisci set
 <string>Cambia colonna
 <string>Mostra filtro
 <string>Riordina opzioni/lista
 <string>Cambia opzioni/Visualizzazione lista
+<string>Salta risultati/Filmato
 <string>Navigazione mappa dettagliata: su
 <string>Navigazione mappa dettagliata: giù
 <string>Navigazione mappa dettagliata: sinistra
@@ -195,24 +205,37 @@
 <string>Ruota mappa dettagliata (tieni premuto)
 <string>Ripristina posizione cursore della mappa dettagliata
 <string>Cambia visualizzazione mappa
+<string>Chiudi mappa dettagliata
 <string>Mappa dettagliata: schermo parziale/intero
-<string>Mappa dettagliata - Panoramica ambiente
-<string>Attacco con coltello normale
-<string>Attacco con coltello potente
+<string>Mappa dettagliata - Ambiente
+<string>Sposta visuale: all'indietro
+<string>Sposta visuale: in avanti
+<string>Sposta visuale: a sinistra
+<string>Sposta visuale: a destra
+<string>Regola posizione visuale: su
+<string>Regola posizione visuale: giù
+<string>Regola posizione visuale: sinistra
+<string>Regola posizione visuale: destra
+<string>Attacco normale con coltello
+<string>Attacco pesante con coltello
 <string>Attacco con arma
 <string>Smonta dal mostro (tieni premuto)
 <string>Resisti
 <string>----
 <string>Seleziona profilo
 <string>Crea nuovo profilo
-<string>Armi da mischia
-<string>Armi a distanza
+<string>Tutte le armi da mischia
+<string>Tutte le armi a distanza
 <string>Duplica profilo
 <string>Elimina profilo
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
 <string>Per quale tipo di arma vuoi creare un profilo?<lf><COLOR preset="TXT_Accent">(Puoi creare un profilo per ogni tipo di arma.)</COLOR>
 <string>A quale profilo di tipo di arma vuoi passare?<lf><COLOR preset="TXT_Accent">(Puoi creare un profilo per ogni tipo di arma.)</COLOR>
-<string>Duplicare profilo <COLOR preset="TXT_Accent">{0}</COLOR> di quale tipo di arma?<lf><COLOR preset="TXT_Accent">(Se il profilo è già stato creato, sarà sovrascritto. Altrimenti sarà creato un nuovo profilo.)</COLOR>
-<string>Eliminare il profilo <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Se eliminato, il profilo {1} sarà applicato<lf>al posto di {0})</COLOR>
+<string>Duplicare le impostazioni profilo <COLOR preset="TXT_Accent">{0}</COLOR> per quale tipo di arma?<lf><COLOR preset="TXT_Accent">(Se il profilo è già stato creato, sarà sovrascritto. Altrimenti sarà creato un nuovo profilo.)</COLOR>
+<string>Eliminare il profilo <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Se eliminato, il profilo {1} sarà applicato<lf>al posto di {0}.)</COLOR>
 <string>Sovrascrivere profilo <COLOR preset="TXT_Accent">{0}</COLOR>?
 <string>Salvare le modifiche?
 <string>Salva e torna indietro

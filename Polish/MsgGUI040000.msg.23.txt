@@ -1,45 +1,49 @@
-﻿<string>Lista graczy
+﻿<string>Lista członków
 <string>Aktualizuj
 <string>Członkowie lobby
-<string>Powiązani członkowie
-<string>Członkowie w zadaniu
+<string>Lista członków grupy
+<string>Członkowie zadania
 <string>Dawne interakcje
 <string>Przyjaciele
 <string>Obserwowani
 <string>Obserwujący
-<string>Lista ignorowanych
+<string>Członkowie oddziału
+<string>Lista członków oddziału: {0}
+<string>Lista zablokowanych
 <string><PLATMSG MsgGUI040000_0001_10>
-<string>Konsolowi przyjaciele
-<string>Przyjaciele ze Steam
+<string>Znajomi z platformy
+<string>Znajomi ze Steam
 <string>Wyszukiwanie ID łowcy
 <string><REF RefGeneral_0018_000>
 <string><REF RefGeneral_0019_000>
 <string><REF RefGeneral_0018_002>
 <string><REF RefGeneral_0018_001>
 <string>Status
-<string>Postępy
+<string>Postęp w fabule
 <string>Data spotkania
 <string>Spotkanie
 <string>Tryb online dla jednego gracza
 <string>Brak informacji
-<string>Nazwa gracza jest anonimowa.
+<string>Imię gracza jest anonimowe.
+<string>Brak aktywnych oddziałów.
 <string>Wyszukiwanie ID łowcy
-<string>Wprowadź ID łowcy o długości do ośmiu znaków.<lf><COLOR preset="TXT_Accent">(Wielkość liter nie ma znaczenia).</COLOR>
+<string>Wprowadź ID łowcy.<lf><lf><COLOR preset="TXT_Accent">Uwaga: ID łowców rozróżniają wielkość liter<lf>i składają się z ośmiu<lf>znaków alfanumerycznych.</COLOR>
 <string>Znaleziono łowcę pasującego do ID {0}.
-<string>Nie znaleziono łowcy pasującego do ID {0}.
+<string>{0}<lf>Nie znaleziono powyższego ID łowcy.<lf>{1}
 <string>{0}<lf>To twoje ID łowcy.
 <string>Kolejność domyślna
 <string>Kolejność alfabetyczna
-<string>Kolejność PŁ
+<string>Kolejność RŁ
 <string>Kolejność trafności
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
+<string><REF RefMenu_019>
 <string><REF RefMenu_020>
 <string><REF RefMenu_021>
-<string>Usuń z połączonej grupy
-<string>Usuń z połączonego środowiska
-<string>Usuń z listy członków w zadaniu
-<string>Wyznacz przywódcę połączonej grupy
+<string>Usuń ze wspólnej grupy
+<string>Usuń ze wspólnego świata
+<string>Usuń z listy członków zadania
+<string>Wyznacz przywódcę wspólnej grupy
 <string>Wyświetl profil łowcy
 <string>Rozpocznij czat
 <string>Wyświetl wyposażenie
@@ -52,18 +56,18 @@
 <string>Wyznacz przywódcę lobby
 <string>Usuń z lobby
 <string>Zaproszono do zadania
-<string>Zaproszono do połączonej grupy
-<string>Zaproszono do połączonego środowiska
-<string>W połączonym środowisku
-<string>W połączonej grupie
+<string>Zaproszono do wspólnej grupy
+<string>Zaproszono do wspólnego świata
+<string>We wspólnym świecie
+<string>We wspólnej grupie
 <string>W trakcie zadania
 <string>W trakcie zadania ({0})
-<string>W połączonym środowisku
-<string>W połączonym środowisku ({0})
+<string>We wspólnym świecie
+<string>We wspólnym świecie ({0})
 <string>Misje fabularne
 <string>Na ekspedycji
-<string>Bezczynny
 <string>Nieobecny
+<string>Bezczynny
 <string>Online
 <string>Tryb online dla jednego gracza
 <string>Offline
@@ -76,38 +80,38 @@
 <string>Ostatnie logowanie ponad tydzień temu
 <string>Ostatnie logowanie ponad miesiąc temu
 <string>Wspólne zadania
-<string>Wspólna rozgrywka: {0}
-<string>Dołączono do połączonej grupy
-<string>Dołączono do połączonego środowiska
-<string>W innej połączonej grupie
-<string>{0}–{1} {2}
-<string>Zaprosić gracza {0}<lf>do połączonej grupy?
-<string>Wysłano zaproszenie do połączonej grupy.
+<string>Zagrano: <BOLD>{0}</BOLD>
+<string>Dołączono do wspólnej grupy
+<string>Dołączono do wspólnego świata
+<string>W innej wspólnej grupie
+<string>{0}–{1}: {2}
+<string>Zaprosić gracza {0} do wspólnej grupy?
+<string>Wysłano zaproszenie do wspólnej grupy.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_002_DLG
-<string>Dołączyć do połączonej grupy<lf>gracza {0}?
-<string>Dołącz do połączonej grupy
-<string>Odrzuć zaproszenie do połączonej grupy
-<string>Nie można dołączyć do połączonej grupy<lf>w trakcie zadania.
+<string>Dołączyć do wspólnej grupy gracza {0}?
+<string>Dołącz do wspólnej grupy
+<string>Odrzuć zaproszenie do wspólnej grupy
+<string>Nie można dołączyć do wspólnej grupy<lf>w trakcie zadania.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_007_DLG
-<string>Opuścić połączoną grupę?
-<string>Opuszczono połączoną grupę.
+<string>Opuścić wspólną grupę?
+<string>Opuszczono wspólną grupę.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_001_002_DLG
-<string>Opuszczono połączone środowisko.
-<string>Zaprosić do twojego środowiska<lf>gracza {0}?
-<string>Wysłano zaproszenie do twojego środowiska.
+<string>Opuszczono wspólny świat.
+<string>Zaprosić do twojego świata<lf>gracza {0}?
+<string>Wysłano zaproszenie do twojego świata.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_002_002_DLG
-<string>Dołączyć do środowiska<lf>gracza {0}?
-<string>Dołącz do środowiska
-<string>Odrzuć zaproszenie do połączonego środowiska
-<string>Nie można dołączyć do połączonego środowiska<lf>w trakcie zadania.
+<string>Dołączyć do świata<lf>gracza {0}?
+<string>Dołącz do świata
+<string>Odrzuć zaproszenie do wspólnego świata
+<string>Nie można dołączyć do wspólnego świata<lf>w trakcie zadania.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_002_007_DLG
-<string>Opuścić połączone środowisko?
-<string>Opuszczono połączone środowisko.
+<string>Opuścić wspólny świat?
+<string>Opuszczono wspólny świat.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_003_002_DLG
-<string>Rozwiązać połączone środowisko?
-<string>Rozwiązano połączone środowisko.
+<string>Rozwiązać wspólny świat?
+<string>Rozwiązano wspólny świat.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_004_002_DLG
-<string>Opuszczono połączone środowisko.
+<string>Opuszczono wspólny świat.
 <string>Dołączyć do zadania<lf>gracza {0}?
 <string>Dołącz do zadania
 <string>Odrzuć zaproszenie do zadania
@@ -120,18 +124,17 @@
 <string>Usunąć z listy znajomych<lf>gracza {0}?
 <string>Usunięto znajomego.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_007_002_DLG
-<string>Usunąć z połączonej grupy<lf>gracza {0}?
-<string>Usunięto z połączonej grupy.
+<string>Usunąć ze wspólnej grupy<lf>gracza {0}?
+<string>Usunięto ze wspólnej grupy.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_008_002_DLG
-<string>Usunąć z połączonego środowiska<lf>gracza {0}?
-<string>Usunięto z połączonego środowiska.
+<string>Usunąć ze wspólnego świata<lf>gracza {0}?
+<string>Usunięto ze wspólnego świata.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_009_002_DLG
-<string>Usunąć gracza {0} z listy członków<lf>w zadaniu?
-<string>Usunięto z listy członków w zadaniu.
+<string>Usunąć gracza {0} z listy członków zadania?
+<string>Usunięto z listy członków zadania.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_010_002_DLG
-<string>Zablokować gracza {0}?<lf><lf><COLOR preset="TXT_Accent">(Ta akcja zablokuje wszystkie ID łowcy,<lf>które do niego należą)</COLOR>
+<string>Zablokować gracza {0}?<lf><lf><COLOR preset="TXT_Accent">(Ta akcja zablokuje wszystkie ID łowcy,<lf>które do niego należą).</COLOR>
 <string>Zablokowano.
-<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_011_002_DLG
 <string><COLOR preset="TXT_Danger">Nie można dodać więcej do listy zablokowanych.</COLOR>
 <string>Odblokować gracza {0}?
 <string>Odblokowano.
@@ -139,22 +142,23 @@
 <string>Obserwować gracza {0}?
 <string>Dodano do obserwowanych.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_013_002_DLG
-<string><COLOR preset="TXT_Danger">Nie można dodać więcej do listy obserwowanych.</COLOR>
-<string>Przestać obserwować<lf>gracza {0}?
+<string><COLOR preset="TXT_Danger">Nie można obserwować więcej graczy.</COLOR>
+<string>Przestać obserwować gracza {0}?
 <string>Przestano obserwować.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_014_002_DLG
-<string>Wyznaczyć gracza {0} na przywódcę lobby?
+<string>Wyznaczyć gracza {0}<lf>na przywódcę lobby?
 <string>Wyznaczono nowego przywódcę lobby.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_015_002_DLG
-<string>Usunąć<lf>gracza {0} z lobby?
+<string>Usunąć gracza {0} z lobby?
 <string>Usunięto z lobby.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_016_002_DLG
-<string>Wyznaczyć gracza {0} na przywódcę połączonej grupy?
+<string>Wyznaczyć gracza {0}<lf>na przywódcę wspólnej grupy?
 <string>Wyznaczono na przywódcę połączonej grupy.
 <string>Informacje o lobby
 <string>Typ lobby
 <string>Ogólne lobby
 <string>Prywatne lobby
+<string>Lobby oddziału
 <string>ID lobby
 <string>Styl gry
 <string>Brak preferencji
@@ -171,5 +175,5 @@
 <string>Niedostępne
 <string>Język
 <string>Na całym świecie
-<string>Ludzie w lobby
+<string>W lobby
 <string>{0}/{1}

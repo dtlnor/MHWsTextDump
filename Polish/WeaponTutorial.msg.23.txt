@@ -1,7 +1,7 @@
 ﻿<string><ICON WP00 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp00_m1673173760>
 <string><ICON WP_GREATSWORD> Miecz dwuręczny
-<string>Atak, który nie musi być ładowany.<lf>Możesz przejść do uderzenia bocznego<lf>z naładowanego cięcia.
+<string>Atak z góry, którego nie trzeba<lf>ładować. Cięcie z góry można<lf>połączyć z szarżą, uzyskując<lf>dodatkowe kombinacje.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m1156222080>
@@ -19,11 +19,11 @@
 <string>
 <string><ICON WP00 PL_ATTACK_00><ICON PLUS><ICON WP00 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp00_146633456>
-<string>Atak tnący mogący trafić cele<lf>znajdujące się wysoko.
+<string>Atak tnący, którym można dosięgnąć wysokich,<lf>trudno dostępnych miejsc na potworze.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP00 merge="PL_ATTACK_01,HOLD_ON">, potem <ICON RELEASE> po naładowaniu
 <string><REF ActionGuideDataNameText_Wp00_m2072799872>
-<string>Atak tnący w górę, który może<lf>przełamać ataki potwora.<lf><lf>Jeśli naładujesz cięcie w górę<lf>i wypuścisz je dokładnie wtedy,<lf>gdy atakuje potwór, i jeśli atak<lf>odepchnie potwora, naciśnij <ICON WP00 PL_ATTACK_00>,<lf>by wykonać po tym krzyżowe<lf>cięcie.
+<string>Atak tnący w górę, który może<lf>przełamać ataki potwora.<lf><lf>Jeśli naładujesz Cięcie w górę<lf>i wypuścisz je dokładnie wtedy,<lf>gdy atakuje potwór, a atak<lf>odepchnie potwora, naciśnij <ICON WP00 PL_ATTACK_00>,<lf>aby wykonać po nim Cięcie<lf>po przekątnej.
 <string>
 <string><ICON WP00 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp00_m981607168>
@@ -33,13 +33,13 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>Szeroki atak, skuteczny przeciwko ranom.<lf>Uderzenie potwora w ranę lub jego słaby<lf>punkt umożliwi ci zadanie wielu obrażeń.
+<string>Szeroki atak, skuteczny przeciwko<lf>ranom. Uderzenie potwora w ranę<lf>lub jego słaby punkt umożliwi ci<lf>zadanie wielu obrażeń.<lf><lf>Naciśnij <ICON WP00 PL_ATTACK_SP_B> podczas ataku,<lf>aby go wcześniej zakończyć.
 <string>
 <string>Kombinacja prawdziwych naładowanych cięć
 <string><REF ActionGuideDataNameText_Wp00_276684864>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp00_971250048>
-<string>Kombinacja zawierająca prawdziwe<lf>naładowane cięcie.
+<string>Kombinacja kończąca się prawdziwym naładowanym<lf>cięciem.
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1769468672>
 <string><ICON WP00 merge="PL_ATTACK_00,HOLD_ON">→<ICON WP00 PL_ATTACK_00><ICON RELEASE>
@@ -49,7 +49,7 @@
 <string>
 <string>Kombinacja ataku z przejściem w przód
 <string><ICON WP00 PL_ATTACK_01>
-<string>Kombinacja, przy której poruszasz się<lf>do przodu na dużą odległość.
+<string>Kombinacja pozwalająca szybko zmniejszyć dystans<lf>między tobą a twoim celem.
 <string>
 <string><REF ActionGuideDataNameText_Wp00_1081794688>
 <string><ICON WP00 PL_ATTACK_01>
@@ -75,10 +75,10 @@
 <string><REF ActionGuideDataNameText_Wp00_146633456>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
-<string>Wykonuje podstawową kombinację.<lf><lf>Naciśnij <ICON WP03 PL_ATTACK_00> po: Cięcie z góry, by wykonać<lf>Cięcie z góry i ponownie <ICON WP03 PL_ATTACK_00>,<lf>by wykonać Cięcie z półobrotem.<lf><lf>Wszystkie ataki są wzmocnione, kiedy<lf>pasek ducha jest czerwony.
+<string>Ten atak standardowy<lf>wykonuje podstawową kombinację:<lf><lf>Naciśnij <ICON WP03 PL_ATTACK_00>, aby wykonać cięcie z góry,<lf>potem drugi raz, aby wykonać kolejne cięcie z góry,<lf>a następnie naciśnij<ICON WP03 PL_ATTACK_00>, aby wykonać cięcie z półobrotem.<lf><lf>Wszystkie ataki są wzmocnione, kiedy<lf>pasek ducha jest czerwony.
 <string>
 <string><ICON WP03 PL_ATTACK_01>
-<string>Naciśnij <ICON WP03 PL_ATTACK_01> po pchnięciu, by wykonać<lf>cięcie w górę.
+<string>Naciśnij <ICON WP03 PL_ATTACK_01> po pchnięciu, by wykonać<lf>Cięcie w górę.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_1048614016>
 <string><ICON WP03 PL_ATTACK_SP>
@@ -87,14 +87,14 @@
 <string><REF ActionGuideDataNameText_Wp03_621496000>
 <string><ICON WP03 merge="PL_ATTACK_SP,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp03_1564397952>
-<string>Napełnienie ducha wypełnia pasek<lf>ducha i po uwolnieniu umożliwia<lf>wykonanie ostrza ducha. Poziom<lf>ostrza ducha zależy od długości<lf>trzymania ładowania.<lf><lf>Całkowite naładowanie umożliwi<lf>zadanie okrężnego cięcia ducha.<lf>Jeśli pasek ducha jest czerwony,<lf>to kiedy wykonujesz okrężne cięcie<lf>ducha, nie otrzymasz żadnych reakcji<lf>na obrażenia przy atakach, które cię<lf>odpychają lub wyrzucają w powietrze.
+<string>Napełnienie ducha wypełnia Pasek<lf>ducha i po uwolnieniu pozwala<lf>wykonać Ostrza ducha. Poziom<lf>Ostrza ducha zależy od długości<lf>utrzymania ładowania.<lf><lf>Całkowite naładowanie uwolni<lf>Okrężne cięcia ducha. Jeśli<lf>Pasek ducha jest czerwony,<lf>nie otrzymasz żadnych reakcji<lf>na obrażenia przy atakach, które cię<lf>odpychają lub wyrzucają w powietrze.
 <string>
 <string><ICON WP03 PL_ATTACK_00><ICON PLUS><ICON WP03 PL_ATTACK_01>
 <string>Atak tnący wykonywany podczas ruchu<lf>do tyłu. Użyj <ICON WP03 PL_MOVE_LEFT> lub <ICON WP03 PL_MOVE_RIGHT>, żeby<lf>się poruszać, kiedy go wykonujesz.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_m37508024>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> podczas kombinacji
-<string>Atak, który można wykonać w trakcie<lf>kombinacji i który zapewnia długi<lf>czas nietykalności.<lf><lf>Gdy zużywa pasek ducha, trafienie nim<lf>po uniknięciu ataku potwora całkowicie<lf>naładuje pasek. Możesz wtedy wcisnąć <ICON WP03 PL_ATTACK_SP>,<lf>żeby przejść do okrężnego cięcia ducha.<lf><lf>Jego efekt jest zmniejszony, kiedy<lf>pasek ducha jest pusty. Wszystkie ataki<lf>zostają wzmocnione, gdy pasek ducha<lf>jest czerwony.
+<string>Przewidujące cięcie to atak, który można<lf>wykonać w trakcie kombinacji i który<lf>zapewnia długi czas nietykalności.<lf><lf>Przewidujące cięcia zużywają cały<lf>pasek ducha, ale trafienie nim<lf>po uniknięciu ataku potwora całkowicie<lf>naładuje pasek. Naciśnij <ICON WP03 PL_ATTACK_SP>, aby przejść<lf>do okrężnego cięcia ducha. Jego efekt jest zmniejszony,<lf>kiedy pasek ducha jest pusty, ale<lf>gdy pasek ducha jest czerwony, możesz przejść<lf>do przewidującego wirującego cięcia.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
@@ -103,7 +103,7 @@
 <string>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> po atakowaniu
 <string><REF ActionGuideDataNameText_Wp03_m1559988736>
-<string>Specjalna akcja chowająca twoją broń.<lf><lf>Po chowaniu specjalnym naciśnij <ICON WP03 PL_ATTACK_00>,<lf>by wykonać cięcie Iai, lub <ICON WP03 PL_ATTACK_SP>,<lf>by wykonać cięcie ducha Iai.<lf><lf>Trafienie cięciem Iai automatycznie<lf>napełnia pasek ducha przez krótki czas.<lf>Zgranie cięcia ducha Iai z atakiem potwora<lf>podniesie pasek ducha o jeden poziom.
+<string>Specjalna akcja chowająca<lf>twoją broń.<lf><lf>Po chowaniu specjalnym naciśnij <ICON WP03 PL_ATTACK_00>,<lf>by wykonać cięcie Iai, lub <ICON WP03 PL_ATTACK_SP>,<lf>by wykonać cięcie ducha Iai.<lf><lf>Trafienie cięciem Iai automatycznie<lf>napełnia pasek ducha przez krótki czas.<lf>Zgranie cięcia ducha Iai z atakiem potwora<lf>podniesie pasek ducha o jeden poziom.
 <string>
 <string><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1506281344>
@@ -116,9 +116,9 @@
 <string><INPUTMSG MsgGUI600200_01_003>
 <string><INPUTMSG MsgGUI600200_01_003_01>
 <string><REF ActionGuideDataNameText_Wp03_m1592986112>
-<string>Trafiaj atakami w potwory,<lf>by napełniać pasek.<lf>Wykonywanie silnych ataków ostrza ducha zużywa pasek.<lf>Trafiaj okrężnym cięciem ducha lub skupionym atakiem,<lf>by uzupełnić kolor paska.<lf><lf>Czerwony pasek oznacza maksymalny poziom.<lf>Pewne ataki zostaną wzmocnione<lf>i będziesz w stanie wykonywać potężne ataki kontynuujące.<lf>Trafienie okrężnym cięciem ducha<lf>lub wirującym karmazynowym cięciem wydłuży czas,<lf>w którym pasek pozostaje czerwony.
+<string>Trafiaj atakami w potwory, aby napełniać<lf>pasek ducha. Wykonywanie ataków ostrzem ducha<lf>zużywa pasek, a trafienie<lf>okrężnym cięciem ducha lub skupionym<lf>atakiem uzupełnia pasek o jeden poziom.<lf><lf>Gdy pasek ducha zmienia kolor na czerwony,<lf>oznacza to maksymalny poziom, co powoduje<lf>wzmocnienie niektórych ataków i umożliwia wykonywanie<lf>potężnych ataków kontynuujących. Trafienie<lf>okrężnym cięciem ducha lub wirującym<lf>karmazynowym cięciem wydłuża czas,<lf>w którym pasek pozostaje czerwony.
 <string>
-<string>Kombinacja do szybkiego wypełnienia paska
+<string>Kombinacja do szybkiego wypełnienia paska ducha
 <string><ICON WP03 PL_ATTACK_00>
 <string>Podstawowa kombinacja do szybkiego<lf>wypełnienia paska ducha.
 <string>
@@ -131,7 +131,7 @@
 <string><REF ActionGuideDataNameText_Wp03_m1065507968>
 <string><ICON WP03 PL_ATTACK_00>
 <string>
-<string>Kombinacja do podniesienia koloru paska ducha
+<string>Kombinacja do podniesienia poziomu paska ducha
 <string><REF ActionGuideDataNameText_Wp03_1472591744>
 <string><ICON WP03 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp03_621496000>
@@ -178,7 +178,7 @@
 <string><INPUTMSG MsgGUI600200_01_005_01>
 <string><REF ActionGuideDataNameTextCommon_962978240>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01>
-<string>Cięcie w górę wykonane podczas<lf>ruchu do przodu. Użycie nacierającego<lf>cięcia pod górkę lub w kierunku występu<lf>będzie skutkowało wykonaniem ataku<lf>właściwego dla danego terenu.
+<string>Cięcie w górę wykonane podczas<lf>ruchu do przodu. Użycie nacierającego<lf>cięcia podczas zsuwania się ze z górki<lf>lub w kierunku występu<lf>będzie skutkowało wykonaniem ataku<lf>właściwego dla danego terenu.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m669292416>
 <string><ICON WP01 PL_ATTACK_00><ICON PLUS><ICON WP01 PL_ATTACK_01> podczas kombinacji
@@ -197,7 +197,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> podczas kroku w tył
-<string>Dostępne podczas kombinacji,<lf>naładowane cięcie pozwoli ci<lf>wyskoczyć w powietrze <lf>po zadaniu potworowi obrażeń.<lf>Umożliwi ci to wykonanie cięcia <lf>z wyskoku lub spadającego uderzenia.
+<string>Wykonanie naładowanego cięcia po kroku w tył<lf>pozwala ci wyskoczyć wysoko w powietrze. Będąc w powietrzu,<lf>możesz łączyć atak z różnymi<lf>atakami powietrznymi, takimi jak cięcie z wyskoku lub<lf>spadające uderzenie.
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string><ICON WP01 PL_ATTACK_00> Podczas skoku
@@ -222,7 +222,7 @@
 <string>Możesz używać pewnych przedmiotów<lf>z dobytą bronią.
 <string>
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_ATTACK_SP_B>
-<string>Pchnięcie, skuteczne przeciwko ranom.<lf>Po uderzeniu potwora w ranę lub jego<lf>słaby punkt naciśnij <ICON WP01 PL_ATTACK_00>, by wykonać <lf>szybki atak opadający, oraz <ICON WP01 PL_ATTACK_01>,<lf>by wykonać atak tarczą w górę.
+<string>Pchnięcie, skuteczne przeciwko<lf>ranom. Po uderzeniu potwora w ranę<lf>lub słaby punkt naciśnij <ICON WP01 PL_ATTACK_00>, by wykonać<lf>spadające cięcie lub <ICON WP01 PL_ATTACK_01> uderzenie od dołu.
 <string>
 <string>Podstawowa kombinacja
 <string><REF ActionGuideDataNameText_Wp01_1638854400>
@@ -273,7 +273,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON">
 <string><REF ActionGuideDataNameText_Wp01_m278451072>
 <string>Kombinacja naładowanych cięć
-<string>Po naładowanym cięciu można wykonać<lf>kilka ataków. Cięcie z wyskoku pozwala<lf>ci łatwo dosiadać potwory, spadające<lf>uderzenie nabudowuje ogłuszenie,<lf>a spadające pchnięcie zadaje dużo obrażeń.
+<string>Naładowane cięcie można połączyć<lf>z następującymi atakami:<lf><lf>– Cięcie z wyskoku: ułatwia<lf>dosiadanie potworów.<lf>– Spadające uderzenie: ogłusza potwory.<lf>– Spadające pchnięcie: zadaje<lf>dużo obrażeń.
 <string>
 <string>
 <string>Po trafieniu
@@ -289,7 +289,7 @@
 <string><ICON WP01 PL_AIM><ICON PLUS><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp01_105498080>
 <string>Kombinacja z idealnym natarciem
-<string>Kombinacja do wykonania po udanym<lf>idealnym natarciu. Wyskoczysz<lf>w powietrze po wykonaniu idealnego<lf>natarcia, skąd możesz wykonać <lf>albo cięcie z wyskoku, albo <lf>spadające uderzenie.
+<string>Kombinacja łącząca się z idealnym<lf>natarciem. Po wykonaniu idealnego natarcia<lf>wyskoczysz wysoko w powietrze. Możesz<lf>wówczas wykonać albo cięcie<lf>z wyskoku, albo spadające uderzenie.
 <string>
 <string><ICON WP01 PL_ATTACK_00>
 <string>
@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Bliźniacze ostrza
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>Początek podstawowej kombinacji.<lf>Naciśnij <ICON WP02 PL_ATTACK_00>, by wykonać<lf><REF ActionGuideDataNameText_Wp02_1802004864>,<lf>a potem naciśnij ponownie <ICON WP02 PL_ATTACK_00>, by wykonać<lf><REF ActionGuideDataNameText_Wp02_144065008>.
+<string>Początek podstawowej kombinacji.<lf><lf>Naciśnij <ICON WP02 PL_ATTACK_00>, aby wykonać powracające cięcie<lf>po podwójnym cięciu, a następnie naciśnij <ICON WP02 PL_ATTACK_00> ponownie,<lf>aby wykonać cięcie okrężne.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -308,7 +308,7 @@
 <string><REF ActionGuideDataNameText_Wp02_927994752>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>W trybie demona twój atak, szybkość<lf>ruchu i uniki zostaną wzmocnione.<lf>Nie będzie cię można również odepchnąć.<lf><lf>Taniec ostrza to seria mocnych ataków,<lf>która zużywa pasek demona.
+<string>W trybie demona twój atak,<lf>szybkość ruchu i uniki zostaną wzmocnione.<lf>Nie będzie cię można również<lf>odepchnąć.<lf><lf>Taniec ostrza I, II i III to seria<lf>potężnych ataków, która zużywa<lf>pasek demona.
 <string>
 <string><ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_300353024>
@@ -327,28 +327,28 @@
 <string><REF ActionGuideDataNameText_Wp02_1304483584>
 <string>
 <string><ICON WP02 PL_DODGE>
-<string><REF ActionGuideDataNameText_Wp02_1262752256> (w trybie demona/arcydemona)
-<string>Unik szybszy niż zwykły. Pomyślne <lf>wykonanie idealnego uniku pozwoli <lf>ci atakować podczas unikania i wzmocni <lf>cię przez krótki czas.
+<string>Unik demona (w trybie demona lub arcydemona)
+<string>Unik szybszy niż zwykły.<lf>Pomyślne wykonanie idealnego uniku<lf>pozwoli ci atakować podczas unikania<lf>i wzmocni cię przez krótki czas.<lf><lf>Nie zużywa paska demona<lf>w trybie demona.
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
-<string>Atak tnący skuteczny przeciwko ranom.<lf>Trafienie potwora w ranę umożliwi ci<lf>wykonanie wirującego tańca ostrza<lf>w powietrzu, ataku przechodzącego<lf>wzdłuż całego potwora i mogącego<lf>zniszczyć wiele ran.
+<string>Atak tnący skuteczny przeciwko<lf>ranom. Trafienie potwora w ranę umożliwi ci<lf>wykonanie wirującego tańca ostrza w powietrzu,<lf>ataku przechodzącego wzdłuż całego<lf>potwora i mogącego zniszczyć<lf>wiele ran.
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
-<string>Wzmacnia ataki, szybkość ruchu i uniki<lf>i zapewnia odporność na odepchnięcie.<lf>W trybie demona twoja wytrzymałość<lf>będzie stopniowo się wyczerpywać.<lf>Tryb demona kończy się, kiedy zostaje<lf>anulowany lub kiedy wytrzymałość<lf>spadnie do zera.
+<string>Stan, który wzmacnia ataki, szybkość<lf>ruchu i uniki, a także czyni cię<lf>odpornym na odepchnięcia. Twoja<lf>wytrzymałość będzie się stopniowo<lf>wyczerpywać, gdy Tryb demona jest<lf>aktywny. Tryb demona kończy się,<lf>kiedy zostaje anulowany lub kiedy<lf>wytrzymałość spadnie do zera.
 <string><REF ActionGuideDataNameText_Wp02_m1003266688>
-<string>Jeśli w trybie demona trafisz potwora,<lf>napełnisz pasek. Kiedy będzie on pełny,<lf>po wyjściu z trybu demona wejdziesz<lf>w tryb arcydemona, zamiast wrócić<lf>do normalnego trybu. Pasek będzie się<lf>stopniowo zmniejszał w miarę upływu<lf>czasu lub zostanie zużyty przez<lf>wykonanie określonych ataków.
+<string>Jeśli w trybie demona trafisz potwora,<lf>napełnisz pasek demona. Kiedy będzie<lf>on pełny, zamiast wyjść z trybu demona<lf>wejdziesz w tryb arcydemona.<lf><lf>Pasek demona będzie się<lf>stopniowo zmniejszał w miarę upływu czasu lub zostanie zużyty<lf>przez wykonanie określonych ataków.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>Stan, w którym niektóre ataki <lf>są wzmocnione. Kiedy je wykonujesz,<lf>będą zużywać pasek demona. <lf>Tryb arcydemona skończy się,<lf>kiedy pasek będzie całkowicie pusty.
+<string>Stan, który wzmacnia niektóre z twoich<lf>ataków. Kiedy je wykonujesz, będą<lf>zużywać Pasek demona. Tryb arcydemona<lf>skończy się, kiedy pasek będzie<lf>całkowicie pusty.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
-<string>Wzmocniony stan, w który wchodzisz<lf>po wykonaniu idealnego uniku. Zwiększa<lf>zadawane obrażenia każdego rodzaju<lf>i umożliwia atakowanie podczas unikania.
+<string>Wzmocniony stan, w który wchodzisz<lf>po wykonaniu Idealnego uniku. Zwiększa<lf>zadawane obrażenia zwykłe i żywiołowe<lf>oraz pozwala na atakowanie podczas<lf>uniku.
 <string>
 <string>Podstawowa kombinacja
 <string><ICON WP02 PL_ATTACK_00>
-<string>Standardowa kombinacja.
+<string>Podstawowa kombinacja.
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string>
 <string><ICON WP02 PL_ATTACK_00>
@@ -360,7 +360,7 @@
 <string>Podstawowa kombinacja w trybie demona
 <string><ICON WP02 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp02_1562259072>
-<string>Podstawowa kombinacja używana<lf>w trybie demona. Można ją połączyć<lf>kombinacją z tańcem ostrza.
+<string>Podstawowa kombinacja używana<lf>w Trybie demona. Można ją połączyć<lf>kombinacją z Tańcem ostrza.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m268803040>
 <string><ICON WP02 PL_ATTACK_00>
@@ -374,7 +374,7 @@
 <string>Kombinacja w trybie arcydemona
 <string><REF ActionGuideDataNameText_Wp02_m1698437888>
 <string><ICON WP02 PL_ATTACK_SP> po tańcu ostrza I
-<string>Kombinacja zużywająca duże ilości paska<lf>demona, ale zadająca dotkliwe obrażenia.<lf><lf>Po aktywacji trybu demona i wykonaniu<lf>tańca ostrza I przy użyciu <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01> można<lf>użyć <ICON WP02 PL_ATTACK_SP> do przełączania się między<lf>demoniczną serią a tańcem ostrza.<lf><lf>Taniec ostrza III zadaje szczególnie<lf>dużo obrażeń, więc w zależności<lf>od sytuacji wybieraj odpowiednią<lf>kombinację.
+<string>Kombinacja zużywająca duże ilości Paska<lf>demona, ale zadająca dotkliwe obrażenia.<lf><lf>Po aktywacji Trybu demona i wykonaniu<lf>Tańca ostrza I przy użyciu <ICON WP02 PL_ATTACK_00><ICON PLUS><ICON WP02 PL_ATTACK_01><lf>można użyć <ICON WP02 PL_ATTACK_SP> do przełączania się<lf>między Demoniczną serią a Tańcem<lf>ostrza.<lf>Taniec ostrza III zadaje szczególnie<lf>dużo obrażeń, więc w zależności<lf>od sytuacji wybieraj odpowiednią<lf>kombinację.
 <string>
 <string><ICON WP02 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp02_1565251968>
@@ -386,14 +386,14 @@
 <string>
 <string>Kombinacja z natarciem demonicznej serii
 <string><REF ActionGuideDataNameText_Wp02_72416008>
-<string><ICON WP02 PL_ATTACK_01> w trybie arcydemona
-<string>Bardzo mobilna kombinacja.<lf>Gdy jesteś w trybie demona,<lf>zawiera podwójne cięcie z obrotu.
+<string><ICON WP02 PL_ATTACK_01> w trybie demona/arcydemona
+<string>Kombinacja pozwalająca zmniejszyć<lf>dystans między tobą a potworem<lf>podczas ataku. W trybie demona<lf>kombinacja obejmuje podwójne cięcie<lf>z obrotu.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_215332432>
 <string><ICON WP02 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp02_m1318603136>
 <string>
-<string><ICON WP02 PL_ATTACK_01> w trybie arcydemona
+<string><ICON WP02 PL_ATTACK_01> w trybie demona
 <string>
 <string><ICON WP_HAMMER> Młot
 <string><REF ActionGuideDataNameText_Wp02_1443799168>
@@ -402,11 +402,11 @@
 <string><INPUTMSG MsgGUI600200_01_009_01>
 <string><REF ActionGuideDataNameTextCommon_m1514785792>
 <string><ICON WP04 PL_ATTACK_01>
-<string>Miażdżący atak, który można powtórzyć<lf>za każdym razem, gdy trafi potwora.<lf><lf>Po trafieniu nim można wykonać<lf>potężny kończący wielki wybuch<lf>cztery razy.<lf><lf>Jeśli nie trafisz choć raz, kombinacja<lf>zostanie przerwana.
+<string>Bezlitosny miażdżący atak, który można<lf>powtórzyć za każdym razem, gdy trafi potwora.<lf><lf>Po trafieniu wielkim wybuchem po raz czwarty<lf>(wielki wybuch IV)<lf>można wykonać potężny kończący wielki wybuch.<lf><lf>Jeśli nie trafisz choć raz, kombinacja zostanie przerwana.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_976256064>
 <string><ICON WP04 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Przytrzymaj <ICON WP04 PL_ATTACK_SP>, by zużyć wytrzymałość<lf>i zgromadzić więcej mocy. Są trzy<lf>poziomy naładowania, które różnią<lf>się od siebie atakami.<lf><lf>Naciśnij <ICON WP04 PL_ATTACK_01>, by podczas<lf>ładowania wykonać naładowany<lf>krok, co ci pozwoli unikać ataki<lf>bez straty ładowania.
+<string>Przytrzymaj <ICON WP04 PL_ATTACK_SP>, by zużyć<lf>wytrzymałość i zgromadzić więcej mocy.<lf>Są trzy poziomy naładowania, które<lf>różnią się od siebie atakami.<lf><lf>Naciśnij <ICON WP04 PL_ATTACK_01>, by podczas<lf>ładowania wykonać Naładowany<lf>krok, co ci pozwoli unikać ataki<lf>bez straty ładowania.
 <string><REF ActionGuideDataNameText_Wp04_67403672>
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
@@ -417,23 +417,23 @@
 <string><REF ActionGuideDataNameText_Wp04_m1391311232>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> Na 3. poziomie naładowania
 <string><REF ActionGuideDataNameText_Wp04_424161632>
-<string>Naładowanie do maksimum umożliwi <lf>ci wykonanie boskiego ładunku.<lf>Ponowne naładowanie go do <lf>maksimum umożliwi ci wykonanie<lf>uderzenia boskiego ładunku.
+<string>Gdy młot jest w pełni naładowany<lf>(poziom 3), możesz wykonać<lf>boskie natarcie. Jeśli wypuścisz<lf>ładunek wcześniej, wykonasz potężne<lf>naładowane natarcie, ale pełne naładowanie<lf>boskiego natarcia pozwoli ci wykonać<lf>potężne boskie natarcie: uderzenie.
 <string>
 <string><ICON WP04 PL_ATTACK_SP><ICON RELEASE>
 <string><REF ActionGuideDataNameText_Wp04_807319680>
 <string>
 <string><ICON WP04 PL_ATTACK_00><ICON PLUS><ICON WP04 PL_ATTACK_01> po atakowaniu
-<string>Obrotowy atak wykorzystywany jako<lf>kontynuacja innych ataków. Naciśnij<lf><ICON WP04 PL_ATTACK_00> podczas obrotu, żeby użyć innego<lf>ataku. Im dłużej się obracasz, tym<lf>potężniejszy będzie atak, ale <lf>obracając się zbyt długo,wystawiasz<lf>się na ciosy.
+<string>Obrotowy atak wykorzystywany jako<lf>kontynuacja innych ataków. Naciśnij<lf><ICON WP04 PL_ATTACK_00> podczas obrotu, żeby użyć innego<lf>ataku. Im dłużej się obracasz, tym<lf>potężniejszy będzie atak, ale<lf>obracając się zbyt długo, wystawiasz<lf>się na ciosy.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m8827463>
 <string><ICON WP04 PL_AIM><ICON PLUS><ICON WP04 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp04_m1790485120>
-<string>Szeroki miażdżący atak, skuteczny<lf>przeciwko ranom. Po uderzeniu<lf>potwora w ranę lub w słaby punkt<lf>zaczniesz się obracać, co zada<lf>wiele obrażeń.<lf><lf>Naciśnij <ICON WP04 PL_ATTACK_SP>, gdy się obracasz,<lf>by ładować młot, atakując.
+<string>Szeroki miażdżący atak,<lf>skuteczny przeciwko ranom. Uderz potwora<lf>w ranę lub w słaby punkt,<lf>aby zacząć się obracać, co zada<lf>wiele obrażeń.<lf><lf>Naciśnij <ICON WP04 PL_ATTACK_SP>, gdy się obracasz, aby ładować<lf>broń, atakując.
 <string>
 <string>Podstawowa kombinacja
 <string><ICON WP04 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp04_86757720>
-<string>Standardowa kombinacja.
+<string>Podstawowa kombinacja.
 <string>
 <string><REF ActionGuideDataNameText_Wp04_m222720992>
 <string><ICON WP04 PL_ATTACK_00>
@@ -483,28 +483,28 @@
 <string><INPUTMSG MsgGUI600200_01_010_01>
 <string><REF ActionGuideDataNameText_Wp05_m201995088>
 <string><ICON WP05 PL_ATTACK_01>
-<string>Podstawowy atak dodający drugą<lf>nutę na pięciolinii.
+<string>Podstawowy atak zagrywający nutę 2<lf>na pięciolinii.
 <string><REF ActionGuideDataNameText_Wp05_166644960>
 <string>
 <string><INPUTMSG MsgGUI600200_01_011>
-<string>Podstawowy atak dodający drugą<lf>nutę na pięciolinii.<lf><lf>Wciśnięcie <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> podczas<lf>atakowania umożliwi ci zagranie<lf>kolejnej nuty.
+<string>Atak zagrywający nutę 2<lf>na pięciolinii.<lf><lf>Naciśnięcie <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> podczas<lf>atakowania umożliwi ci zagranie<lf>kolejnej nuty.
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp05_m671947712>
-<string>Podstawowy atak dodający trzecią<lf>nutę na pięciolinii. Umożliwia ci<lf>łatwe trafienie celu za tobą.<lf>Kiedy atakujesz, będziesz się cofać.
+<string>Podstawowy atak zagrywający nutę 3<lf>na pięciolinii.<lf><lf>Umożliwia ci łatwe trafienie<lf>celu za tobą. Kiedy atakujesz,<lf>będziesz się cofać.
 <string>
 <string><INPUTMSG MsgGUI600200_01_012>
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
-<string>Atak dodający trzecią nutę na pięciolinii.<lf><lf>Wciśnięcie <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00> podczas<lf>atakowania umożliwi ci zagranie<lf>kolejnej nuty.
+<string>Atak zagrywający nutę 3<lf>na pięciolinii.<lf><lf>Naciśnięcie <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> podczas<lf>atakowania umożliwi ci zagranie<lf>kolejnej nuty.
 <string>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01>, lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> podczas kombinacji
-<string>Seria szybkich ataków zagrywających<lf>nutę. Można ją wykonać po różnych<lf>atakach. <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> i <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>,<lf>każda zagrywa własną nutę.
+<string>Szybki atak zagrywający nutę<lf>na pięciolinii.<lf><lf>Można go wykonać po różnych<lf>atakach. <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01>,<lf>i <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> – każdy zagrywa inną nutę.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>Atak specjalny aktywujący efekty melodii.<lf><lf>Jeśli masz dostępnych wiele melodii,<lf>zagrasz je w kolejności od góry, ale<lf>możesz wybrać melodię z listy,<lf>używając <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01>.<lf><lf>Możesz wykonać silne koncertowe<lf>uderzenie, naciskając<lf><ICON WP05 PL_ATTACK_SP> podczas<lf>wielu zagrań. Kiedy zagranie się skończy,<lf>możesz wykonać bis, naciskając <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>,<lf>by wzmocnić i wydłużyć efekty melodii.<lf>Zgranie koncertowego uderzenia z aktywacją<lf>efektów melodii zwiększy obrażenia ataków.
+<string>Atak aktywujący efekty melodii.<lf>Jeśli dostępnych jest wiele melodii,<lf>zostaną zagrane w kolejności, ale możesz wybrać<lf>melodię przy użyciu <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01>.<lf><lf>Podczas grania wielu melodii<lf>naciśnij <ICON WP05 PL_ATTACK_SP>, aby wykonać potężne koncertowe uderzenie.<lf>Następnie wykonaj bis przy użyciu <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>,<lf>aby wzmocnić i wydłużyć efekty melodii.<lf><lf>Siła koncertowego uderzenia<lf>i bisu będzie większa, jeśli zgrasz je<lf>z aktywacją efektów melodii.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -513,45 +513,149 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_DODGE>
-<string>Atak specjalny wytwarzający bańkę echa.<lf>Umieścisz bańki echa o typie powiązanym<lf>z noszonym rogiem łowieckim.<lf><lf> Możesz zagrać do trzech dźwięków,<lf>naciskając <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>,<lf>gdy umieszczasz bańkę echa.
+<string>Atak specjalny wytwarzający bańkę<lf>echa. Typ tworzonej bańki<lf>echa zależy od tego, jaki nosisz<lf>róg łowiecki.<lf><lf>Podczas tworzenia bańki echa<lf>możesz zagrać do trzech nut, naciskając<lf><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01> lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m466143936>
 <string><ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> przy dostępnej melodii
 <string><REF ActionGuideDataNameText_Wp05_477278688>
-<string>W przeciwieństwie do zagrania<lf>ta wersja wytworzy unikalny efekt<lf>melodii powiązany z noszonym<lf>rogiem łowieckim.<lf><lf>Kiedy ta melodia jest dostępna,<lf>nie zostanie zastąpiona przez<lf>nowe melodie.
+<string>W przeciwieństwie do normalnych występów<lf>specjalne koncerty zagrywają unikalny<lf>efekt melodii powiązany<lf>z noszonym rogiem łowieckim.<lf><lf>Kiedy ta melodia jest dostępna,<lf>nie zostanie zastąpiona przez nowe melodie.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Zagranie skuteczne przeciwko ranom.<lf>Możesz wytworzyć do pięciu nut,<lf>naciskając <ICON WP05 PL_ATTACK_01>, <ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01><ICON PLUS><ICON WP05 PL_ATTACK_00>,<lf>kiedy zagrywasz.<lf><lf>Granie nut w rytmie zada<lf>zwiększone obrażenia.
+<string>Zagranie skuteczne przeciwko ranom.<lf>Podczas występu możesz zagrać<lf>maksymalnie pięć nut, naciskając<lf><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01> lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>.<lf><lf>Zagranie nuty w odpowiednim momencie<lf>zada zwiększone obrażenia.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_477278688>
 <string><REF RefStatus_0006_000_01>
-<string>Po umieszczeniu bańki echa otrzymasz<lf>specjalny efekt melodii, działający tak<lf>długo, jak będziesz w jego zasięgu.<lf><lf>Bańka będzie również rezonować,<lf>kiedy zagrywasz i grasz nuty, zadając<lf>obrażenia wszystkim pobliskim potworom.
+<string>Po umieszczeniu Bańki echa otrzymasz<lf>specjalny Efekt melodii, działający<lf>tak długo, jak będziesz w jego zasięgu.<lf><lf>Bańka będzie również rezonować, kiedy<lf>wykonujesz Występ i grasz nuty, zadając<lf>obrażenia wszystkim pobliskim potworom.
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
-<string>Specjalne zagranie, które może<lf>przełamać ataki potwora.<lf>Dzięki wysokim obrażeniom<lf>przydaje się również jako zwykły atak.
+<string>Specjalne zagranie, które może<lf>przełamać ataki potwora. Dzięki wysokim obrażeniom<lf>przydaje się również jako<lf>zwykły atak.
+<string>
+<string>Unikalne i potężne zagranie,<lf>uderzające wielokrotnie. Trafienie<lf>potwora ostatnim elementem ataku<lf>uwolni przeszywającą falę dźwięku,<lf>która zada duże obrażenia.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1842698112>
+<string>Specjalny koncert, przywraca dużą<lf>ilość zdrowia. Potężny atak,<lf>jednakże naraża cię na ciosy, więc<lf>używaj go rozważnie.
 <string>
 <string>Efekty melodii
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
-<string>Zwiększa szybkość ruchu. Połączenie<lf>z efektem melodii zwiększa również<lf>twój atak i zapobiega odbiciom<lf>twoich ataków.
+<string>Zwiększa szybkość ruchu.<lf>Zagranie bisu w połączeniu z tym<lf>efektem melodii zwiększa również<lf>twój atak i zapobiega odbiciom<lf>twoich ataków.
+<string>
+<string><ICON ST_RESIST_WIND> Neutr. wiatru/<ICON ST_RESIST_WIND_HIGH> Neutr. wsz. wiatru
+<string>Zapewnia ochronę przed naporem wiatru.
+<string>
+<string><ICON ST_RESIST_STUN> Neutralizacja ogłuszenia
+<string>Zapobiega ogłuszeniu.
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Neutralizacja paraliżu
+<string>Zapobiega paraliżowi.
+<string>
+<string><ICON ST_RESIST_NOISE> Zat. do uszu (M)/<ICON ST_RESIST_NOISE_HIGH> Zat. do uszu (D)
+<string>Zapewnia ochronę przed rykami potworów.
+<string>
+<string><ICON ST_RESIST_QUAKE> Neutralizacja wstrząsów
+<string>Zapewnia ochronę przed wstrząsami ziemi.
+<string>
+<string><ICON ST_ARMOR> Neutralizacja odepchnięć
+<string>Zapobiega odepchnięciom w wyniku ataku.
+<string>
+<string><ICON ST_RESIST_GROUND> Neutr. obr. od otoczenia
+<string>Neutralizuje obrażenia spowodowane lawą lub<lf>podłożem z kolcami, a także zapobiega negatywnym<lf>efektom intensywnego ciepła lub zimna.
+<string>
+<string><ICON ST_RESIST_MUD> Mobilność w wodzie/oleju
+<string>Zapobiega spowolnieniu przez głęboką wodę<lf>lub oleisty muł. Neutralizuje także efekty<lf>fal tworzonych przez potwory.
+<string>
+<string><ICON ST_RESIST_DEBUF> Neutralizacja szk. efektów
+<string>Neutralizuje wszystkie szkodliwe efekty.
+<string>
+<string><ICON ST_SPIRIT> Boska ochrona
+<string>Daje szansę na zmniejszenie odnoszonych<lf>obrażeń.
+<string>
+<string><ICON ST_POWER_ELEMENT_UP_HORN> <REF MusicSkillDataText_Wp05_13>
+<string>Zwiększa moc żywiołu twojej broni.
+<string>
+<string><ICON ST_POWER_DEBUF_UP_HORN> <REF MusicSkillDataText_Wp05_14>
+<string>Zwiększa siłę ataków ze szkodliwymi<lf>efektami przeciwko potworom.
+<string>
+<string><ICON ST_RESIST_ELEMENT> Neutralizacja plagi
+<string>Neutralizuje wszystkie plagi żywiołów.
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Szybkość regeneracji (S) / Szybkość regeneracji (L)
+<string>Zwiększa naturalną szybkość regeneracji<lf>czerwonej części paska zdrowia.
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> M. zuż. wytrzymał. (M)/M. zuż. wytrzymał. (D)
+<string>Zmniejsza zużycie wytrzymałości.
 <string>
 <string><ICON ST_POWER_UP_HORN> Wzrost ataku (M) / <REF MusicSkillDataText_Wp05_12>
 <string>Zwiększa atak.
 <string>
-<string><ICON ST_DEFECE_FIRE> <REF MusicSkillDataText_Wp05_18>/<ICON ST_DEFECE_FIRE_HIGH> <REF MusicSkillDataText_Wp05_19>
+<string><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_15>/<REF MusicSkillDataText_Wp05_16>
+<string>Zwiększa obronę.
+<string>
+<string>Regeneracja zdrowia (M) / Regeneracja zdrowia (Ś) / Regeneracja zdrowia (D)
+<string>Przywraca zdrowie przy aktywacji<lf>efektu melodii.
+<string>
+<string><ICON ST_DEFECE_FIRE> Odporność na ogień (S) / <ICON ST_DEFECE_FIRE_HIGH> Odporność na ogień (L)
 <string>Zwiększa odporność na ogień<lf>i zapobiega pladze ognia.
 <string>
+<string><ICON ST_DEFECE_WATER> Odporność na wodę (S) / <ICON ST_DEFECE_WATER_HIGH> Odporność na wodę (L)
+<string>Zwiększa odporność na wodę<lf>i zapobiega pladze wody.
+<string>
+<string><ICON ST_DEFECE_THUNDER> Odporność na pioruny (S) / <ICON ST_DEFECE_THUNDER_HIGH> Odporność na pioruny (L)
+<string>Zwiększa odporność na pioruny<lf>i zapobiega pladze pioruna.
+<string>
+<string><ICON ST_DEFECE_ICE> Odporność na lód (S) / <ICON ST_DEFECE_ICE_HIGH> Odporność na lód (L)
+<string>Zwiększa odporność na lód<lf>i zapobiega pladze lodu.
+<string>
+<string><ICON ST_DEFECE_DRUGON> Odporność na smoki (S) / <ICON ST_DEFECE_DRUGON_HIGH> Odporność na smoki (L)
+<string>Zwiększa odporność na smoki<lf>i zapobiega pladze smoka.
+<string>
+<string><ICON ST_SOUND_BARRIER> Bariera akustyczna
+<string>Jednorazowo zmniejsza obrażenia, a także<lf>jednorazowo neutralizuje napór wiatru, wstrząsy<lf>ziemi i ryki potworów.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_42>
+<string>Zwiększa atak i obronę.
+<string>
+<string><ICON ST_CRITICAL_UP> <REF MusicSkillDataText_Wp05_43>
+<string>Zwiększa zgodność. Nieznacznie przywraca<lf>zdrowie po aktywacji.
+<string>
+<string>Reg. zdr. (M) + antidotum / Reg. zdr. (Ś) + antidotum
+<string>Przywraca zdrowie i usuwa truciznę<lf>przy aktywacji efektu melodii.
+<string>
+<string><REF MusicSkillDataText_Wp05_40>
+<string>Tworzy wokół ciebie efekt<lf>krzyczącego strąku.
+<string>
+<string><REF MusicSkillDataText_Wp05_41>
+<string>Wydłuża czas działania wszystkich<lf>Efektów melodii.
+<string>
+<string>Przywróć ostrość
+<string>Przywraca do pewnego stopnia<lf>ostrość broni przy aktywacji<lf>efektu melodii.
+<string>
 <string>Fala echa
-<string>Efekt melodii zadający potworom<lf>obrażenia.<lf><lf>Jest wiele rodzajów Fal echa, każdy róg<lf>łowiecki posiada swoją własną. Niektóre<lf>zadają obrażenia obuchowe, tnące lub<lf>od żywiołów, a inne mogą wywołać<lf>szkodliwe efekty.
+<string>Efekt melodii zadający obrażenia.<lf><lf>Poszczególne rogi łowieckie mają różne efekty.<lf>Niektóre zadają obrażenia obuchowe lub tnące,<lf>podczas gdy inne zadają obrażenia od żywiołów<lf>lub wywołują szkodliwe efekty.
 <string>
 <string>Efekty baniek echa
-<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
-<string>Zwiększa zdolność do uniku i szybkość ruchu.
+<string><ICON ST_HEAL_CONTINUE> Regeneracja zdrowia
+<string>Stopniowo przywraca zdrowie.
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Regen. wytrzymałości
+<string>Stale przywraca wytrzymałość.
+<string>
+<string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Unik i szybszy ruch
+<string>Zwiększa zdolność do uniku i szybkość<lf>ruchu.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_CRITICAL_UP> Wzrost ataku i zgodności
+<string>Zwiększa atak i zgodność.
+<string>
+<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP> Wzrost obrony i odporności na żywioły
+<string>Zwiększa obronę i odporności<lf>na żywioły.
+<string>
+<string><ICON ST_RESIST_DEBUF> Neutr. szkodl. efektów/plag
+<string>Usuwa szkodliwe efekty i<lf>plagi oraz zapobiega im.
 <string>
 <string>Podstawowa kombinacja
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00>
-<string>Podstawowa kombinacja. Możesz<lf>zagrać do trzech nut, wykonując popis.
+<string>Podstawowa kombinacja. Użycie popisu<lf>spowoduje zagranie trzech nut.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_800331776>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -559,7 +663,7 @@
 <string>Potężna kombinacja
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Potężna kombinacja. Uderzenie z góry<lf>zagrywa dwie nuty, co umożliwia ci<lf>zadawanie dużych obrażeń przy<lf>zbieraniu nut na pięciolinii.
+<string>Potężna kombinacja. Uderzenie z góry<lf>zagrywa dwie nuty, umożliwiając zadawanie<lf>dużych obrażeń przy zbieraniu<lf>nut na pięciolinii.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_2056927744>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -567,7 +671,7 @@
 <string>Podstawowa kombinacja z zagraniem
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Szybka kombinacja z zagraniem,<lf>wykorzystuje luki w obronie potwora.
+<string>Kombinacja z zagraniem,<lf>wykorzystuje luki w obronie<lf>potwora.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
 <string><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -575,7 +679,7 @@
 <string>Kombinacja potrójnego efektu melodii
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_SP>
-<string>Potężna kombinacja, przydatna<lf>do przewróconych potworów.<lf><lf>Zgraj użycie efektu melodii<lf>z koncertowym uderzeniem<lf>i bisem, by zadać ogromne obrażenia.
+<string>Potężna kombinacja, przydatna do<lf>przewróconych potworów.<lf><lf>Zgraj użycie efektu melodii<lf>z koncertowym uderzeniem i bisem, aby zadać<lf>ogromne obrażenia.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -584,12 +688,12 @@
 <string><ICON WP05 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp05_m6258827>
-<string><ICON WP05 PL_ATTACK_SP> <REF RefGeneral_0001_006>　<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
+<string><ICON WP05 PL_ATTACK_SP> lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
 <string>
 <string>Szybka kombinacja z zagraniem
 <string>Podstawowy atak
 <string><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01>, lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Wykonaj po dźgnięciu rękojeścią,<lf>żeby aktywować efekty melodii<lf>szybciej niż zwykle.
+<string>Użycie zagrania po dźgnięciu rękojeścią<lf>aktywuje efekty melodii szybciej<lf>niż zwykle.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> lub <ICON WP05 PL_ATTACK_01>, lub <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -604,11 +708,11 @@
 <string><INPUTMSG MsgGUI600200_01_013_01>
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
-<string>Początek podstawowej kombinacji,<lf>pchnie w górę. W trybie skupienia<lf>będziesz pchać w kierunku, w którym<lf>celujesz. Atak można powtórzyć<lf>do trzech razy. Po wykonaniu wysokiego<lf>pchnięcia III można użyć kontrpchnięcia –<lf>tym silniejszego, im dłużej trzymasz <ICON WP06 PL_ATTACK_01>.<lf>Zgranie tego ataku z atakiem potwora<lf>umożliwi ci wykonanie<lf>podwójnego kontrpchnięcia.
+<string>Początek podstawowej kombinacji pchnięć<lf>w górę. Użycie jej w trybie skupienia<lf>umożliwi ci skierowanie ataku w stronę,<lf>w którą zwrócona jest kamera.<lf><lf>Możesz wykonać do trzech ataków,<lf>gdzie wysokie pchnięcie III przechodzi<lf>w szarżę kontratakiem, która zadaje tym więcej obrażeń,<lf>im dłużej ładujesz atak<lf>przy użyciu <ICON WP06 PL_ATTACK_01>. Zgranie tego ataku<lf>z atakiem potwora umożliwi ci wykonanie<lf>potężnego podwójnego kontrpchnięcia.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01>
-<string>Atak pchający, posuwający cię do przodu.
+<string>Atak pchający, wykonywany<lf>podczas skoku do przodu.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_2049287808>
 <string><ICON WP06 PL_ATTACK_00><ICON PLUS><ICON WP06 PL_ATTACK_01> podczas kombinacji
@@ -627,6 +731,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
+<string><REF ActionGuideDataNameText_Wp06_1549684992>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>Garda, która wyzwala automatyczny kontratak<lf>po zablokowaniu ataku. Przytrzymaj <ICON WP06 PL_ATTACK_SP> lub <ICON WP06 PL_ATTACK_01>, aby ładować,<lf>a jeśli puścisz we właściwym momencie<lf>w odpowiedzi na nadchodzący atak,<lf>wyzwolisz Podwójne kontrpchnięcie.<lf><lf>Podczas ładowania Kontrpchnięcia przejdź<lf>w Gardę mocy za pomocą <ICON WP06 PL_ATTACK_SP><ICON PLUS><ICON WP06 PL_DODGE>.<lf>Garda mocy znacznie zmniejsza reakcje<lf>na gardę, kosztem wytrzymałości podczas<lf>utrzymywania pozycji.
+<string>Kontratak po Gardzie mocy zwiększa swoją<lf>siłę w zależności od liczby zablokowanych<lf>ataków i ich mocy.
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
@@ -638,7 +746,7 @@
 <string><INPUTMSG MsgGUI600200_01_017>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_696236864>
-<string><ICON WP06 PL_ATTACK_00><REF RefGeneral_0001_006><ICON WP06 PL_ATTACK_01>
+<string><ICON WP06 PL_ATTACK_00> lub <ICON WP06 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00> po skutecznej gardzie
@@ -650,7 +758,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp06_1728314368>
 <string><ICON WP06 PL_AIM><ICON PLUS><ICON WP06 PL_ATTACK_SP_B>
-<string>Atak tarczą, skuteczny przeciwko<lf>ranom. Trafienie potwora w ranę<lf>lub jego słaby punkt umożliwi<lf>ci zadanie wielu obrażeń.<lf><lf>Naciśnij <ICON WP06 PL_ATTACK_SP_B> podczas skupionego<lf>ataku, by zakończyć atak<lf>w dowolnym momencie.
+<string>Atak tarczą, skuteczny przeciwko<lf>ranom. Trafienie potwora w ranę<lf>lub jego słaby punkt umożliwi<lf>ci zadanie wielu obrażeń.<lf><lf>Naciśnij <ICON WP06 PL_ATTACK_SP_B> podczas Skupionego<lf>ataku, by zakończyć atak<lf>w dowolnym momencie.
 <string>
 <string>Podst. kombinacja do potrójnego pchnięcia
 <string><REF ActionGuideDataNameText_Wp06_m572647232>
@@ -666,7 +774,7 @@
 <string><REF ActionGuideDataNameText_Wp06_m752102912>
 <string><ICON WP06 PL_ATTACK_00>
 <string>
-<string>Podstawowa kombinacja do kontrpchnięcia
+<string>Podstawowa kombinacja do szarży kontratakiem
 <string><REF ActionGuideDataNameText_Wp06_m400225664>
 <string><ICON WP06 PL_ATTACK_01>
 <string>Podstawowa kombinacja prowadząca<lf>do Szarży kontratakiem.<lf><lf>Siła Szarży kontratakiem będzie rosła<lf>wraz z czasem ładowania, a przy<lf>odpowiednim zgraniu z atakiem<lf>potwora, stanie się potężniejszym<lf>Podwójnym kontrpchnięciem.
@@ -714,11 +822,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1497865856>
 <string><ICON WP07 PL_ATTACK_00> po szerokim podcięciu
-<string>Atak strzelający z działa na smoczy<lf>śrut. Zadaje ciągłe obrażenia w część<lf>potwora, w którą trafił, zanim wybuchnie,<lf>co zada obrażenia od ognia przecinające<lf>skórę potwora.
+<string>Atak strzelający z działa na smoczy<lf>śrut. Zadaje ciągłe obrażenia<lf>w część, w którą trafił, zanim<lf>wybuchnie, co zada obrażenia od ognia<lf>przecinające skórę potwora.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_646080000>
-<string><ICON WP07 PL_ATTACK_01> po szerokim podcięciu
-<string>Atak wystrzeliwujący pozostałe pociski<lf>i ładunek z działa na smoczy śrut.<lf>Naciśnij <ICON WP07 PL_ATTACK_00>lub <ICON WP07 PL_ATTACK_01> po wybuchu<lf>smoczego śrutu, by wykonać<lf>multiwybuch smoczego śrutu.
+<string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01> po szerokim podcięciu
+<string>Atak wystrzeliwujący pozostałe pociski<lf>i ładunek z działa na smoczy śrut.<lf><lf>Naciśnij <ICON WP07 PL_ATTACK_00> lub <ICON WP07 PL_ATTACK_01> po wybuchu smoczego<lf>śrutu, aby wykonać multiwybuch<lf>smoczego śrutu.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_703375872>
 <string><ICON WP07 PL_ATTACK_01>
@@ -733,39 +841,39 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1562396032>
 <string><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Cięcie w górę wykonywane lancopałem.<lf>Naciśnij <ICON WP07 PL_ATTACK_01> po ataku, by wystrzelić pocisk,<lf>lub <ICON WP07 PL_ATTACK_00>, by wykonać uderzenie z góry.
+<string>Cięcie w górę.<lf><lf>Naciśnij <ICON WP07 PL_ATTACK_01> po cięciu w górę,<lf>aby wykonać ostrzał, lub <ICON WP07 PL_ATTACK_00>,<lf>aby wykonać uderzenie z góry.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1588566656>
 <string><ICON WP07 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Naciśnij <ICON WP07 PL_ATTACK_00>, gdy blokujesz, by wykonać<lf>Pchnięcie z gardy I. Jeśli uda ci się<lf>wykonać idealną gardę, naciśnij <ICON WP07 PL_ATTACK_00>,<lf>by wykonać Uderzenie z góry.
+<string>Naciśnij <ICON WP07 PL_ATTACK_00>, gdy blokujesz, aby wykonać<lf>pchnięcie z gardy I.<lf><lf>Jeśli uda ci się wykonać idealną<lf>gardę, naciśnij <ICON WP07 PL_ATTACK_00>, aby wykonać uderzenie z góry.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m2132440704>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Przeładowuje pociski i działo<lf>na smoczy śrut. Automatycznie<lf>zablokujesz ataki natychmiast<lf>po rozpoczęciu przeładowania.
+<string>Przeładowuje pociski i działo na smoczy<lf>śrut. Automatycznie zablokujesz ataki<lf>podczas po przeładowywania.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1926268544>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_01> podczas kombinacji
-<string>Przeładowuje jedynie pociski.<lf>Automatycznie zablokujesz ataki<lf>natychmiast po rozpoczęciu<lf>przeładowania.
+<string>Przeładowuje jedynie pociski. Automatycznie<lf>blokujesz ataki<lf>podczas przeładowywania.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m26915160>
 <string><ICON WP07 PL_ATTACK_SP><ICON PLUS><ICON WP07 PL_ATTACK_00><ICON PLUS><ICON WP07 PL_ATTACK_01>
-<string>Zużyj jeden segment paska wiwerny,<lf>by uwolnić potężny ogień wiwierny<lf>i zadać obrażenia od ognia, które<lf>przecinają skórę potwora.
+<string>Zużyj połowę paska ognia wiwerny,<lf>aby uwolnić potężny ogień wiwerny<lf>i zadać obrażenia od ognia, które przecinają<lf>skórę potwora.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_695464896>
 <string><ICON WP07 PL_AIM><ICON PLUS><ICON WP07 PL_ATTACK_SP_B>
-<string>Pchający atak świdrujący, skuteczny<lf>przeciwko ranom. Uderzenie potwora<lf>w ranę lub słaby punkt wydłuży czas<lf>trwania ataku i umożliwi ci zakończenie<lf>natarcia przez wystrzelenie z działa<lf>na smoczy śrut.<lf><lf>Możesz również wcześniej strzelić<lf>z działa na smoczy śrut, naciskając <ICON WP07 PL_ATTACK_SP_B><lf>podczas ataku świdrującego.
+<string>Pchający atak świdrujący, skuteczny<lf>przeciwko ranom. Uderzenie potwora<lf>w ranę lub słaby punkt wydłuży czas<lf>trwania ataku i umożliwi ci zakończenie<lf>natarcia przez wystrzelenie z działa na smoczy śrut.<lf><lf>Możesz również wcześniej strzelić z działa<lf>na smoczy śrut, naciskając <ICON WP07 PL_ATTACK_SP_B> podczas<lf>ataku świdrującego.
 <string>
 <string><REF RefEquipment_SORT_0004>
-<string>Są trzy typy ostrzału: zwykły,<lf>szeroki i długi.<lf><lf>Zwykłe pociski oferują najwięcej<lf>amunicji. Szerokie pociski oferują<lf>mocniejsze ostrzały i ogień wiwierny.<lf>Długie pociski oferują mocniejsze<lf>ataki z działa na smoczy śrut.
+<string>Są trzy typy ostrzału: zwykły,<lf>szeroki i długi.<lf><lf>Zwykłe pociski oferują najwięcej<lf>amunicji. Szerokie pociski oferują<lf>mocniejsze ostrzały i ogień wiwerny.<lf>Długie pociski oferują mocniejsze<lf>ataki z działa na smoczy śrut.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_1164200704>
-<string>Amunicja potrzebna do ostrzału.<lf>Z każdym strzałem zużywa się pocisk.<lf>Można je odzyskać, wykonując<lf>przeładowanie lub szybkie przeładowanie.
+<string>Do wykonania ostrzału niezbędna<lf>jest amunicja. Każdy strzał zużywa<lf>jeden pocisk, ale możesz je szybko uzupełnić<lf>przez przeładowanie lub szybkie przeładowanie.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m1336808448>
-<string>Amunicja potrzebna do działa na smoczy<lf>śrut. Zużywa się za każdym razem, gdy<lf>strzelasz z działa na smoczy śrut.<lf>Można ją odzyskać przez przeładowanie.
+<string>Amunicja potrzebna do działa<lf>na smoczy śrut. Zużywa się za każdym razem,<lf>gdy strzelasz z działa na smoczy śrut.<lf>Można ją odzyskać przez przeładowanie.
 <string>
 <string><REF ActionGuideDataNameText_Wp07_m345881792>
-<string>Pasek, który trzeba wypełnić, by móc<lf>użyć ognia wiwerny – silnego ataku,<lf>który zadaje obrażenia od ognia<lf>i może przebić się przez skórę potwora.<lf><lf>Pasek ognia wiwerny odnawia się<lf>automatycznie, ale można go również<lf>wypełnić, zadając ciosy. Pełny pasek<lf>umożliwi wykonanie ognia wiwerny<lf>dwa razy, przy czym jeden strzał<lf>zużywa połowę paska.
+<string>Pasek, który trzeba wypełnić, by móc<lf>użyć Ognia wiwerny – silnego ataku,<lf>który zadaje obrażenia od ognia<lf>i może przebić się przez skórę potwora.<lf><lf>Pasek ognia wiwerny odnawia się<lf>automatycznie, ale można go również<lf>wypełnić, zadając ciosy. Pełny pasek<lf>umożliwi wykonanie Ognia wiwerny<lf>dwa razy, przy czym jeden strzał<lf>zużywa połowę paska.
 <string>
 <string>Kombinacja z działem na smoczy śrut
 <string><REF ActionGuideDataNameText_Wp07_1940934784>
@@ -813,20 +921,20 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Dzięki <ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> możesz stale używać topora:<lf>dzikiego cięcia. Po wykonaniu topora:<lf>dzikiego cięcia co najmniej dwa razy<lf>naciśnij <ICON WP08 PL_ATTACK_00>, by wykonać topór: potężne<lf>uderzenie, przez co przejdziesz<lf>w tryb topora mocy.<lf><lf>Naciśnij <ICON WP08 PL_MOVE_FRONT> + <ICON WP08 PL_ATTACK_00>, by wykonać topór:<lf>cięcie z góry do przodu, atak z ruchem<lf>w przód o dalekim zasięgu.
+<string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON"> wielokrotnie wykonuje topów:<lf>dzikie cięcie. Po wykonaniu topora:<lf>dzikiego cięcia co najmniej dwa razy naciśnij <ICON WP08 PL_ATTACK_00>,<lf>aby wykonać topór: potężne uderzenie,<lf>przez co przejdziesz w tryb topora mocy.<lf><lf>Użyj <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, aby wykonać topór:<lf>cięcie z góry do przodu, atak<lf>z ruchem w przód o dalekim zasięgu.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m128645088>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Cięcie w górę, które może przełamać<lf>ataki potwora.<lf><lf>Jeśli twój atak odepchnie potwora,<lf>naciśnij <ICON WP08 PL_ATTACK_00>, by wykonać topór:<lf>kontynuację z potężnym uderzeniem,<lf>czym przejdziesz w tryb topora mocy,<lf>lub naciśnij <ICON WP08 PL_ATTACK_SP>, by wykonać topór:<lf>kontynuację z cięciem transformującym,<lf>czym przejdziesz w tryb miecza.
+<string>Cięcie w górę, które może przełamać<lf>ataki potwora.<lf><lf>Jeśli twój atak odepchnie potwora,<lf>naciśnij <ICON WP08 PL_ATTACK_00>, by wykonać Topór:<lf>kontynuacja z potężnym uderzeniem,<lf>czym przejdziesz w Tryb topora mocy,<lf>lub naciśnij <ICON WP08 PL_ATTACK_SP>, by wykonać Topór:<lf>kontynuacja z cięciem transformującym,<lf>czym przejdziesz w Tryb miecza.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_166716544>
-<string><ICON WP08 PL_ATTACK_00> podczas udanego przełamania
+<string><ICON WP08 PL_ATTACK_00> po idealnym przebiciu
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1659893248>
-<string><ICON WP08 PL_ATTACK_SP> podczas udanego przełamania
+<string><ICON WP08 PL_ATTACK_SP> po idealnym przebiciu
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1185187840>
 <string><ICON WP08 PL_MOVE_BACK><ICON PLUS><ICON WP08 PL_ATTACK_01> podczas kombinacji
@@ -857,11 +965,19 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Naciśnij <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> po wyładowaniu żywiołów,<lf>by wykonać wybuchowy atak<lf>wykańczający. Po eksplozji<lf>automatycznie przejdziesz w tryb topora.
+<string>Naciskaj wielokrotnie <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> po wyładowaniu<lf>żywiołów, aby wykonać wybuchowy atak wykańczający.<lf>Po eksplozji automatycznie przejdziesz<lf>w tryb topora.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_52943932>
+<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>Możesz uwolnić Wyładowanie sumy<lf>zerowej, wykonując Wyładowanie żywiołów<lf>w stanie podkręcenia. Gdy dosiądziesz<lf>potwora, użyj <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">, by wykonać<lf>Zakończenie wyładowania sumy zerowej,<lf>po którym twoja broń powróci<lf>do Trybu topora.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Potężny atak dostępny w trybie miecza.<lf>Jeśli wykonasz go w stanie podkręcenia,<lf>dodatkowo dojdzie do eksplozji<lf>zadającej obrażenia. Po ataku<lf>przejdziesz w tryb topora.
+<string>Potężny atak dostępny w Trybie miecza.<lf><lf>Jeśli wykonasz go w stanie<lf>podkręcenia, dodatkowo dojdzie<lf>do eksplozji zadającej obrażenia.<lf>Po ataku przejdziesz w Tryb topora.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_26943142>
+<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>Potężny atak możliwy do wykonania<lf>wyłącznie w stanie podkręcenia.<lf><lf>Możesz także użyć <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON">, aby<lf>po Wyładowaniu żywiołów wykonać Cięcie<lf>pełnego uwolnienia.<lf><lf>Po ataku przejdziesz w Tryb topora.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -875,19 +991,19 @@
 <string><ICON WP08 PL_ATTACK_SP>
 <string>
 <string><REF ActionGuideDataNameText_Wp08_971569344>★<REF ActionGuideDataNameText_Wp08_m1422082944>
-<string>Atakowanie w trybie topora napełni<lf>pasek zmiany trybu, zaś atakowanie<lf>w trybie miecza będzie go zużywać.<lf>Przełączaj się w walce między<lf>trybami i zapewnij sobie wygraną.
+<string>Atakowanie w trybie topora napełni<lf>pasek zmiany trybu, zaś atakowanie<lf>w trybie miecza będzie go zużywać.<lf><lf>Przełączaj się w walce między<lf>trybami i zapewnij sobie wygraną.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1814127872>
-<string>Pasek, który się wypełnia, kiedy trafiasz<lf>atakami toporem. Możesz przejść w tryb<lf>miecza, kiedy pasek zmiany trybu jest<lf>naładowany w 30%. Pasek zapełnia się<lf>z czasem, gdy twoja broń jest schowana.
+<string>Pasek, który się wypełnia, kiedy trafiasz atakami<lf>w trybie topora.<lf><lf>Możesz przejść w tryb miecza, kiedy pasek<lf>zmiany trybu jest naładowany w 30%. Pasek<lf>zapełnia się z czasem, gdy twoja broń<lf>jest schowana.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_503110624>
 <string>Zwiększa obrażenia w trybie topora.<lf>Zwiększa również szybkość wypełniania<lf>paska zmiany trybu, kiedy atakujesz.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1601592576>
-<string>Pasek, który się wypełnia, kiedy<lf>trafiasz atakami w trybie miecza.<lf><lf>Możesz wejść w stan podkręcenia, <lf>kiedy pasek wzmocnienia całkowicie<lf>się napełni.
+<string>Pasek, który się wypełnia, kiedy<lf>trafiasz atakami w Trybie miecza.<lf><lf>Możesz wejść w stan podkręcenia,<lf>kiedy Pasek wzmocnienia całkowicie<lf>się napełni.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_132806840>
-<string>Niewielkie eksplozje zadające <lf>obrażenia w zależności od obecnego <lf>typu fiolki, występują, gdy atakujesz<lf>w trybie miecza.
+<string>W trybie miecza niewielkie eksplozje<lf>zadające obrażenia w zależności od obecnego typu<lf>fiolki występują automatycznie.
 <string>
 <string>Typ fiolki
 <string>Atakowanie w trybie miecza zużyje pasek zmiany<lf>trybu i doda efekt zależny<lf>od typu fiolki. Niektóre fiolki powodują wypełnienie<lf>paska mocy szybciej niż inne.<lf><lf>Fiolka mocy: zwiększa obrażenia fizyczne<lf>Fiolka żywiołu: większe obrażenia od żywiołów<lf>Fiolka trucizny: dodaje truciznę<lf>Fiolka paraliżu: dodaje paraliż<lf>Fiolka smoka: dodaje żywioł smoka<lf>Fiolka wyczerpania: dodaje ogłuszenie/wyczerpanie.
@@ -895,7 +1011,7 @@
 <string>Kombinacja do szybkiego wypełnienia paska zmiany trybu
 <string><REF ActionGuideDataNameText_Wp08_143967248>
 <string><ICON WP08 PL_ATTACK_00>
-<string>Podstawowa kombinacja wypełniania paska zmiany trybu<lf>w trybie topora.<lf><lf>Użyj <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>, aby uruchomić kombinację<lf>topór: cięcie do przodu, lub użyj <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, aby<lf>uruchomić kombinację topór: cięcie z góry do<lf>przodu.<lf><lf>Ustawienie to klucz do wyboru ataku<lf>w oparciu o odległość od celu.
+<string>Podstawowa kombinacja wypełniania Paska<lf>zmiany trybu w Trybie topora.<lf><lf>Użyj <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_00>, aby uruchomić<lf>kombinację Topór: cięcie do przodu lub<lf>użyj <ICON WP08 PL_MOVE_FRONT><ICON PLUS><ICON WP08 PL_ATTACK_01>, aby uruchomić<lf>kombinację Topór: cięcie z góry do<lf>przodu.<lf><lf>Pozycjonowanie to klucz do wyboru<lf>ataku w oparciu o odległość od celu.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1338690432>
 <string><ICON WP08 PL_ATTACK_00>
@@ -903,10 +1019,10 @@
 <string><REF ActionGuideDataNameText_Wp08_372106112>
 <string><ICON WP08 PL_ATTACK_00>
 <string>
-<string>Kombinacja z przejściem do trybu miecza po wzmocnieniu topora
+<string>Kombinacja w trybie topora do przełączenia w tryb miecza
 <string><REF ActionGuideDataNameText_Wp08_366492192>
 <string><ICON WP08 merge="PL_ATTACK_01,REPEAT_ON">
-<string>Kombinacja, która umożliwia ci <lf>przejście do trybu miecza po <lf>aktywacji trybu topora mocy.
+<string>Kombinacja z przejściem w tryb miecza<lf>po aktywacji trybu topora mocy.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m255976208>
 <string><ICON WP08 PL_ATTACK_00>
@@ -920,7 +1036,7 @@
 <string>Kombinacja do wypełnienia paska wzmocnienia w trybie miecza
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
-<string>Kombinacja, która szybko zapełnia pasek<lf>wzmocnienia w trybie miecza.
+<string>Kombinacja szybko wypełniająca pasek wzmocnienia<lf>w trybie miecza.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1737891328>
 <string><ICON WP08 PL_ATTACK_01>
@@ -939,7 +1055,7 @@
 <string>Potężna kombinacja na potwora wystawionego na atak
 <string><REF ActionGuideDataNameText_Wp08_m28020688>
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
-<string>Potężna kombinacja do wykonania,<lf>kiedy potwór jest wystawiony na atak.
+<string>Potężna kombinacja do atakowania potwora,<lf>gdy w jego obronie pojawi się luka.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m1280417792>
 <string><ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">
@@ -950,38 +1066,38 @@
 <string><ICON WP_CHARGEBLADE> Ładowane ostrze
 <string><REF ActionGuideDataNameText_Wp09_m584458432>
 <string><ICON WP09 PL_ATTACK_00>
-<string>Początek podstawowej kombinacji.<lf>Możesz przejść do powracającego cięcia,<lf>naciskając <ICON WP09 PL_ATTACK_00>, i potem do wirującego<lf>cięcia, naciskając ponownie <ICON WP09 PL_ATTACK_00>.
+<string>Początek podstawowej kombinacji.<lf><lf><ICON WP09 PL_ATTACK_00> Miecz: słabe cięcie →<lf><ICON WP09 PL_ATTACK_00> Miecz: powracające cięcie →<lf><ICON WP09 PL_ATTACK_00> Miecz: cięcie z obrotu.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
-<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">★<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Do wykonania przez puszczenie <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"><lf>we właściwym momencie. W przeciwnym<lf>razie wykonasz cięcie w górę.
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
+<string>Miecz: naładowane podwójne cięcie<lf>wymaga starannego zgrania w czasie.<lf>Użyj <ICON WP09 merge="PL_ATTACK_01,HOLD_ON">, aby naładować atak, a następnie zwolnij<lf>w chwili, gdy potwór atakuje.<lf>Jeśli nie trafisz w odpowiedni moment, wykonasz zamiast tego<lf>miecz: naładowane cięcie w górę.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Cięcie z wypadem, przy którym poruszasz<lf>się do przodu. Możesz wykonać miecz:<lf>pchnięcie tarczą po mieczu: cięciu<lf>do przodu, naciskając <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>.<lf>Użyj <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> ponownie, by wykonać<lf>topór: superwyładowanie żywiołów.
+<string>Cięcie z wypadem, przy którym poruszasz się do przodu.<lf><lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Miecz: cięcie do przodu →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Miecz: pchnięcie tarczą →<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Topór: podkręcone wyładowanie żywiołów
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Garda wykonywana tarczą. Użycie gardy<lf>we właściwym momencie umożliwi ci<lf>wykonanie idealnej gardy.<lf><lf>Użyj <ICON WP09 PL_ATTACK_00><lf>po idealnej gardzie, żeby wykonać<lf>dzikie cięcie toporem.
+<string>Blokuj ataki, używając<lf>tarczy. Zablokowanie w odpowiednim momencie<lf>skutkuje idealną gardą.<lf><lf>Jak się to uda, naciśnij <ICON WP09 PL_ATTACK_00>, aby wykonać dzikie cięcie<lf>toporem.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1536274816>
 <string><ICON WP09 PL_ATTACK_00> po idealnej gardzie
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Atak, który przekształci twoją broń<lf>z miecza w topór.
+<string>Atak, który przekształci twoją broń<lf>z trybu miecza w tryb topora.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Wykorzystaj zgromadzoną energię miecza<lf>do wypełniania fiolek. Jeśli są już pełne,<lf>nadwyżka wzmocni działanie fiolki.
+<string>Wykorzystaj zgromadzoną energię miecza<lf>do wypełniania fiolek. Jeśli są już pełne,<lf>nadwyżka wzmocni<lf>działanie fiolki.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> podczas ładowania
-<string>Zużyj fiolki, by wejść w Żywiołowe <lf>wzmocnienie, które wzmocni twoją <lf>gardę i pozwoli ci wykonać Topór: <lf>podkręcone superwyładowanie żywiołów.
+<string>Zużyj fiolki, aby zyskać<lf>żywiołowe wzmocnienie tarczy, co<lf>wzmocni twoją gardę i umożliwi wykonanie<lf>topora: podkręconego superwyładowania żywiołów.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> podczas ładowania
-<string>Dalsze ulepszenie po żywiołowym<lf>wzmocnieniu, zwiększa siłę miecza.<lf>Wzmocniony miecz nie będzie się odbijał.
+<string>Wzmacnia miecz ładowanego ostrza po<lf>wzmocnieniu żywiołowym. Ataki mieczem<lf>w stanie wzmocnionym nie odbijają się<lf>od skóry potwora.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -989,7 +1105,7 @@
 <string><INPUTMSG MsgGUI600200_01_026_01>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Atak tnący, skuteczny przeciwko ranom.<lf>Wykonuje atak mieczem z wyskoku z trybu<lf>miecza lub trybu topora. Po trafieniu<lf>w ranę wejdziesz w tryb topora mocy.
+<string>Atak tnący, skuteczny przeciwko ranom.<lf><lf>Wykonuje atak mieczem z wyskoku<lf>w Trybie miecza lub Trybie topora.<lf>Po trafieniu w ranę wejdziesz<lf>w Tryb topora mocy.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m2127622656>
 <string><ICON WP09 PL_ATTACK_00>
@@ -997,48 +1113,48 @@
 <string><INPUTMSG MsgGUI600200_01_027_01>
 <string><REF ActionGuideDataNameText_Wp09_794588032>
 <string><ICON WP09 PL_ATTACK_01>
-<string>Wielouderzeniowy atak, zużywa fiolkę.<lf>Naciśnij <ICON WP09 PL_ATTACK_01>, by wykonać topór: wyładowanie<lf>żywiołów II, po czym ponownie <ICON WP09 PL_ATTACK_01>,<lf>by wykonać topór: podkręcone wyładowanie<lf>żywiołów.<lf><lf>Ciągłe naciskanie <ICON WP09 PL_ATTACK_01> w trybie topora mocy<lf>umożliwi ci zadanie wielu obrażeń.
+<string>Atak z wieloma trafieniami, który zużywa<lf>jedną fiolkę.<lf><lf><ICON WP09 PL_ATTACK_01> Topór: wyładowanie żywiołów I →<lf><ICON WP09 PL_ATTACK_01> Topór: wyładowanie żywiołów II →<lf><ICON WP09 PL_ATTACK_01> Topór: podkręcone wyładowanie żywiołów<lf><lf>Przytrzymaj <ICON WP09 PL_ATTACK_01> w trybie topora mocy,<lf>aby wykonać atak z wieloma trafieniami zadający<lf>ogromne obrażenia.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string><ICON WP09 PL_ATTACK_01> Topór: podkręcone wyładowanie żywiołów →<lf><ICON WP09 PL_ATTACK_01> Topór: podkręcone wyładowanie żywiołów<lf>Kontynuacja.<lf><lf>Przytrzymaj <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> lub <ICON WP09 PL_ATTACK_01> w trybie topora mocy, aby wyzwolić atak skutkujący wieloma trafieniami,<lf>powodując ogromne obrażenia.<lf><lf>Nacisnąć <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (z żywiołowym wzmocnieniem), aby<lf>wykonać topór: podkręcone superwyładowanie<lf>żywiołów lub <ICON WP09 PL_ATTACK_SP> (podczas przygotowania topór:<lf>podkręcone wyładowanie żywiołów)<lf>aby wykonać<lf>cięcie z obrotu, które także<lf>aktywuje żywiołowe wzmocnienie.
+<string><ICON WP09 PL_ATTACK_01> Topór: podkręcone wyładowanie<lf>żywiołów → <ICON WP09 PL_ATTACK_01> Topór: podkręcone<lf>wyładowanie żywiołów kontynuacja.<lf>Przytrzymaj <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> lub <ICON WP09 PL_ATTACK_01> w Trybie<lf>topora mocy, aby wyzwolić serię ataków<lf>zadających ogromne obrażenia.<lf>Naciśnij <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (z żywiołowym<lf>wzmocnieniem), aby wykonać Topór:<lf>podkręcone superwyładowanie żywiołów<lf>lub <ICON WP09 PL_ATTACK_SP> (przygotowując Topór:<lf>podkręcone wyładowanie żywiołów), aby<lf>wykonać cięcie z obrotu.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>Atak, który przekształci twoją broń<lf>z topora do miecza.
+<string>Atak, który przekształci twoją broń<lf>z Trybu topora w Tryb miecza.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
-<string>Atak tnący, skuteczny przeciwko ranom.<lf>Wykonuje atak mieczem z wyskoku z trybu<lf>miecza lub trybu topora. Po trafieniu<lf>w ranę wejdziesz w tryb topora mocy.
+<string>Atak tnący, skuteczny przeciwko ranom.<lf><lf>Wykonuje atak mieczem z wyskoku<lf>w Trybie miecza lub Trybie topora.<lf>Po trafieniu w ranę wejdziesz<lf>w Tryb topora mocy.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m970370816>★<REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Zmienia twoją broń, przełączając tryby.<lf>Podczas zmiany tarcza automatycznie<lf>odpiera ataki gardą, gdy jest zwrócona<lf>do przodu.
+<string>Ładowane ostrze umożliwia przełączanie<lf>pomiędzy dwoma trybami: trybem miecza<lf>i trybem topora. Jeśli podczas przełączania masz<lf>tarczę w gotowości, będziesz automatycznie<lf>blokować ataki.
 <string>
-<string>Ataki, które blokują
-<string>Niektóre ataki w trybie miecza mogą także<lf>osłaniać. Zaplanowanie czasu ruchu tak, aby tarcza<lf>ochroniła przed nadchodzącym atakiem<lf>spowoduje automatyczne wykonanie gardy.<lf><lf>Po skutecznym zasłonieniu się z użyciem<lf>jednego z ataków w trybie miecza naciśnij<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (z żywiołowym wzmocnieniem), aby<lf>wykonać topór: podkręcone superwyładowanie<lf>żywiołów.
+<string>Blokowanie ataków
+<string>Niektóre ataki w Trybie miecza mogą<lf>także blokować. Wykonanie ruchu tak,<lf>by tarcza była skierowana<lf>na nadchodzący atak, spowoduje<lf>automatyczną gardę.<lf><lf>Po skutecznej gardzie z użyciem jednego<lf>z ataków w Trybie miecza naciśnij <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>(z żywiołowym wzmocnieniem), aby<lf>wykonać Topór: podkręcone<lf>superwyładowanie żywiołów.
 <string>
 <string>Pasek ładowania
-<string>Atakowanie mieczem magazynuje energię<lf>miecza, której można użyć do wypełnienia<lf>fiolek, gdy pasek jest na co najmniej<lf>żółtym poziomie.<lf><lf>Zgromadzenie zbyt dużej ilości energii<lf>miecza sprawi, że twoje ataki<lf>będą się odbijać.
+<string>Atakowanie mieczem magazynuje energię miecza,<lf>której można użyć do wypełnienia fiolek,<lf>gdy pasek jest na co najmniej żółtym poziomie.<lf><lf>Zgromadzenie zbyt dużej ilości energii miecza sprawi,<lf>że twoje ataki będą się odbijać.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_650824320>
-<string>Wzmacnia twoją gardę w trybie miecza<lf>i umożliwia wykonanie topora:<lf>podkręconego superwyładowania żywiołów.
+<string>Wzmacnia twoją gardę w trybie<lf>miecza i umożliwia wykonanie ataku<lf>topór: podkręcone superwyładowanie żywiołów.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1125949696>
-<string>Twoje ataki mieczem zostaną<lf>wzmocnione efektami fiolek,<lf>obrażenia będą zwiększone,<lf>a broń nie będzie się odbijać.
+<string>Wzmacnia ataki mieczem efektami<lf>fiolek. Zwiększa obrażenia i zapobiega<lf>odbijaniu twojej broni.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m701543936>
 <string>Tryb topora mocy zmniejsza zużycie fiolek<lf>i umożliwia wykonywanie potężnych<lf>ataków z wieloma trafieniami w trybie topora.<lf><lf>Po wykonaniu idealnej gardy<lf>możesz uwolnić dzikie cięcie toporem,<lf>co na krótko wzmocni twój atak.
 <string>
-<string>Naładowany atak
+<string>Naładowane ataki
 <string>Miecz: naładowane podwójne cięcie<lf>i miecz: cięcie skondensowanego<lf>żywiołu to potężne naładowane ataki,<lf>których wykonanie wymaga starannego planowania<lf>w czasie. Ataki te nie mogą zostać<lf>wykonane, jeśli dojdzie do przeładowania, należy więc<lf>zachować ostrożność co do czasu<lf>ładowania.
 <string>
 <string>Fiolki
-<string>Zużywane przy wykonaniu wyładowań<lf>żywiołów, wybuchają i zadają obrażenia.<lf><lf>Fiolka uderzenia: dodaje ogłuszenie<lf>i wyczerpanie, wywołuje eksplozję<lf>przebijającą skórę potwora.<lf><lf>Fiolka żywiołu: zwiększa siłę żywiołu<lf>broni i może zadać duże obrażenia<lf>od żywiołów.
+<string>Zużywane przy wykonywaniu<lf>wyładowań żywiołów, fiolki wybuchają<lf>i zadają obrażenia. Po ulepszeniu<lf>efekty fiolek są jeszcze<lf>mocniejsze.<lf><lf><COLOR preset="TXT_Accent">Fiolka uderzenia</COLOR>: dodaje<lf>ogłuszenie i wyczerpanie, wywołuje eksplozję<lf>przebijającą skórę potwora.<lf><lf><COLOR preset="TXT_Accent">Fiolka żywiołu</COLOR>: zwiększa siłę żywiołu<lf>broni i może zadać duże<lf>obrażenia od tego żywiołu.
 <string>
 <string>Miecz: podstawowa kombinacja
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Kombinacja umożliwiająca ci zbliżenie się<lf>z dużej odległości przy wykorzystaniu<lf>miecza: pchnięcia tarczą.<lf><lf>Zastąpienie miecza: powracającego cięcia<lf>mieczem: naładowanym podwójnym<lf>cięciem umożliwi ci szybkie<lf>naładowanie paska.
+<string>Kombinacja pozwalająca ci zbliżyć się<lf>do celu z daleka przy użyciu miecza: pchnięcia tarczą.<lf><lf>Użycie miecza: naładowanego podwójnego cięcia<lf>zamiast miecza: powracającego cięcia<lf>szybko wypełni pasek ładowania.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_530797824>
 <string><ICON WP09 PL_ATTACK_00>
@@ -1051,8 +1167,8 @@
 <string>
 <string>Kombinacja wzmocnienia żywiołowego
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
-<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">★<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Kombinacja umożliwiająca wykonanie<lf>tarczy: wzmocnienia żywiołowego.<lf><lf>Ładowanie podczas podstawowej<lf>kombinacji pozwoli ci wykonać atak.
+<string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
+<string>Kombinacja umożliwiająca wykonanie<lf>tarczy: wzmocnienia żywiołowego, co można również<lf>wykonać poprzez ładowanie podczas<lf>dowolnej podstawowej kombinacji.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_327145088>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1066,7 +1182,7 @@
 <string>Kombinacja z wyładowaniem żywiołów zużywająca 3+ fiolki
 <string><REF ActionGuideDataNameText_Wp09_m406475264>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>Kombinacja łącząca miecz: pchnięcie<lf>tarczą z toporem: podkręconym<lf>wyładowaniem żywiołów.<lf><lf>Kombinacja kończy się toporem:<lf>podkręconym superwyładowaniem<lf>żywiołów, dzięki czemu możesz<lf>zadać ogromne obrażenia.
+<string>Kombinacja łącząca miecz: pchnięcie<lf>tarczą z toporem: podkręconym<lf>wyładowaniem żywiołów.<lf><lf>Kombinacja kończy się toporem: podkręconym<lf>superwyładowaniem żywiołów, dzięki czemu<lf>możesz zadać ogromne obrażenia.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -1080,7 +1196,7 @@
 <string>Kombinacja z toporem: podkręconym superwyładowaniem żywiołów
 <string><REF ActionGuideDataNameText_Wp09_m1598306688>
 <string><ICON WP09 PL_ATTACK_SP><ICON PLUS><ICON WP09 PL_ATTACK_00>
-<string>Podobnie jak w przypadku innych ataków,<lf>które mogą blokować, możesz wykonać<lf>topór: podkręcone superwyładowanie<lf>żywiołów bezpośrednio po blokowaniu.<lf><lf>Użycie wzmocnienia żywiołowego<lf>zmniejszy czas twojego wystawienia<lf>na ataki po blokowaniu, dzięki czemu<lf>łatwiej wykonać tę kombinację.
+<string>Po blokowaniu atakiem blokującym<lf>możesz wykonać topór: podkręcone superwyładowanie<lf>żywiołów.<lf><lf>Użycie wzmocnienia żywiołowego zmniejszy<lf>czas twojego wystawienia na ataki po blokowaniu,<lf>dzięki czemu łatwiej wykonać tę kombinację.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2057398656>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> Po blokowaniu atakiem blokującym
@@ -1096,11 +1212,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
-<string>Rozkazuje kinsektowi, by leciał do przodu<lf>i zbierał ulepszony ekstrakt z części<lf>potwora, w które uderzy.<lf><lf>Kinsekt będzie leciał w stronę celownika,<lf>który można wyświetlić, naciskając <ICON WP10 PL_ATTACK_SP>.
+<string>Rozkazuje twojemu kinsektowi atak na tę część<lf>potwora, która jest oznaczona celownikiem,<lf>w celu zebrania ekstraktu.<lf><lf>Przytrzymanie <ICON WP10 PL_ATTACK_SP>: wyświetlenie celownika<lf>Naciśnięcie <ICON WP10 PL_ATTACK_SP>: oznaczenie celu
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
-<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> naładuje atak kinsekta,<lf>co umożliwi mu zebranie<lf>ekstraktu z każdej części potwora,<lf>przez którą przejdzie.
+<string><ICON WP10 merge="PL_ATTACK_00,HOLD_ON"> naładuje atak kinsekta,<lf>co umożliwi mu zebranie ekstraktu<lf>z każdej części potwora,<lf>przez którą przejdzie.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_607158400>
 <string><ICON WP10 PL_ATTACK_00><ICON RELEASE>
@@ -1111,32 +1227,32 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Oznaczenie celu spowoduje, że twój<lf>kinsekt skupi ataki na konkretnej<lf>części potwora.<lf><lf>Kiedy twój kinsekt zaatakuje oznaczoną<lf>część, zostawi za sobą kinsektowy proch.
+<string>Oznaczenie celu spowoduje, że twój<lf>kinsekt skupi ataki na konkretnej<lf>części potwora.<lf><lf>Kiedy twój kinsekt zaatakuje<lf>oznaczoną część, zostawi za<lf>sobą kinsektowy proch.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1726610048>
 <string><ICON WP10 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Oznacz część potwora z dużej odległości<lf><lf>Twój kinsekt będzie atakować oznaczoną<lf>część, zostawiając za sobą kinsektowy<lf>proch.
+<string>Oznacz część potwora z dużej<lf>odległości<lf><lf>Twój kinsekt będzie atakować oznaczoną<lf>część, zostawiając za sobą kinsektowy<lf>proch.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1303595904>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_DODGE>
 <string><INPUTMSG MsgGUI600200_01_029>
 <string><INPUTMSG MsgGUI600200_01_029_01>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
-<string><ICON WP10 PL_ATTACK_00> podczas skoku
+<string><ICON WP10 PL_ATTACK_00> (w locie)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_239722048>
-<string><ICON WP10 PL_ATTACK_01> podczas skoku
+<string><ICON WP10 PL_ATTACK_01> (w locie)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_632633472>
-<string><ICON WP10 PL_DODGE> podczas skoku
+<string><ICON WP10 PL_DODGE> (w locie)
 <string>
 <string><REF ActionGuideDataNameText_Wp10_810620608>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_SP_B>
-<string>Atak pchający, skuteczny przeciwko ranom.<lf><lf>Trafienie rany lub słabego punktu sprawi,<lf>że kinsekt przebije się przez potwora<lf>i zbierze czerwony, biały i pomarańczowy<lf>ekstrakt.
+<string>Atak pchający, skuteczny<lf>przeciwko ranom.<lf><lf>Trafienie rany lub słabego punktu<lf>sprawi, że kinsekt przebije się przez<lf>potwora i zbierze czerwony, biały<lf>i pomarańczowy ekstrakt.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> z czerwonym ekstraktem
-<string>Mając czerwony ekstrakt, użyj <ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>na ziemi, by wykonać opadające cięcie,<lf>lub w powietrzu, by wykonać opadające<lf>pchnięcie. Możesz zachować naładowanie,<lf>kiedy wykonujesz inne ataki, a następnie<lf>wykonać któryś z tych naładowanych ataków.<lf><lf>Naciśnij <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (mając wszystkie trzy ekstrakty)<lf>po opadającym cięciu lub pchnięciu,<lf>by zadać potężny atak końcowy.<lf>Zużywa on wszystkie trzy ekstrakty,<lf>ale twój kinsekt uzupełni je<lf>ekstraktem zgromadzonym podczas<lf>ataku końcowego.
+<string>Mając czerwony ekstrakt, użyj <ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>na ziemi, by wykonać Opadające cięcie,<lf>lub w powietrzu, by wykonać Opadające<lf>pchnięcie. Możesz zachować naładowanie<lf>podczas innych ataków, a następnie<lf>wykonać jeden z naładowanych ataków.<lf><lf>Naciśnij <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (mając wszystkie ekstrakty)<lf>po Opadającym cięciu lub pchnięciu,<lf>by zadać potężny atak końcowy.<lf>Zużywa on wszystkie trzy ekstrakty,<lf>ale kinsekt je uzupełni.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1144,25 +1260,25 @@
 <string><REF ActionGuideDataNameText_Wp10_1212529024>
 <string><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> z trzema ekstraktami
 <string>
-<string><REF RefEquipment_0001_010_0>
-<string>Owady walczące u twojego boku,<lf>podążają za instrukcjami dawanymi<lf>przez owadzią glewię. Kinsekty potrafią<lf>zbierać różne ekstrakty z potworów,<lf>co cię uczyni silniejszym. Masz do wyboru<lf>szeroką gamę kinsektów, które<lf>możesz wzmacniać.
+<string>Kinsekty
+<string>Owady walczące u twojego boku<lf>słuchają poleceń owadziej glewii.<lf>Kinsekty potrafią zbierać różne ekstrakty<lf>z potworów, co doda ci siły.<lf>Masz do wyboru szeroką gamę kinsektów,<lf>które możesz wyposażać i wzmacniać.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1304673664>
-<string>Atakowanie podczas celowania <ICON WP10 PL_AIM><lf>w trybie skupienia sprawi, że kinsekt będzie<lf>atakować potwora, zbierając ekstrakty.<lf><lf>Tor lotu kinsekta również się zmieni<lf>w zależności od twoich ataków.
+<string>Atakowanie w trybie skupienia<lf>(przy użyciu<ICON WP10 PL_AIM>) sprawi, że kinsekt<lf>będzie atakować potwora,<lf>zbierając ekstrakty.<lf><lf>Tor lotu kinsekta również się zmieni<lf>w zależności od twoich ataków.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Kinsekty zostawią za sobą proszek<lf>efektu, kiedy atakują oznaczoną<lf>część potwora. Trafienie proszku<lf>spowoduje, że wybuchnie, co wywoła<lf>różne efekty.<lf><lf>Wybuch: akumuluje wybuch na potworze<lf>Trucizna: akumuluję truciznę na potworze<lf>Paraliż: akumuluje paraliż na potworze<lf>Regeneracja: przywraca nieco zdrowia
+<string>Kinsekty zostawią za sobą chmurę<lf>pyłu zwaną kinsektowym prochem,<lf>kiedy atakują oznaczoną część potwora.<lf>Trafienie proszku spowoduje, że<lf>wybuchnie, co wywoła różne<lf>efekty.<lf><lf><COLOR preset="TXT_Accent">Wybuch</COLOR>: akumuluje wybuch<lf><COLOR preset="TXT_Accent">Trucizna</COLOR>: akumuluje truciznę<lf><COLOR preset="TXT_Accent">Paraliż</COLOR>: akumuluje paraliż<lf><COLOR preset="TXT_Accent">Regeneracja</COLOR>: przywraca nieco zdrowia
 <string>
-<string>O ulepszonym ekstrakcie
-<string>Substancja pozyskiwana z potworów.<lf>Są łącznie cztery rodzaje ekstraktu:<lf>czerwony, biały, pomarańczowy i zielony.<lf>Kolor, który możesz pozyskać, różni się<lf>w zależności od części każdego potwora.<lf><lf>Możesz wchłonąć zebrane ekstrakty,<lf>przywołując kinsekta. Każdy kolor daje<lf>inny efekt. Wchłonięcie wielu kolorów<lf>da więcej efektów. Działanie efektów<lf>skończy się po pewnym czasie.
+<string>Ekstrakty
+<string>Substancja pozyskiwana z potworów.<lf>Są cztery rodzaje ekstraktu: czerwony, biały,<lf>pomarańczowy i zielony. Kolor, który możesz pozyskać,<lf>różni się w zależności od części<lf>każdego potwora.<lf><lf>Możesz wchłonąć zebrane ekstrakty,<lf>przywołując kinsekta. Każdy kolor daje<lf>inny efekt, ale wchłonięcie wielu kolorów<lf>naraz da jeszcze więcej efektów.<lf><lf>Działanie efektów skończy się po pewnym czasie.
 <string>
-<string>Efekty ulepszonych ekstraktów
+<string>Efekty ekstraktów
 <string>Różne kolory ekstraktów zapewniają<lf>różne efekty. Łącz<lf>kolory, aby dawały więcej efektów.<lf><lf><COLOR preset="TXT_Accent">Czerwony</COLOR>: możesz ładować <ICON WP10 PL_ATTACK_01><lf><COLOR preset="TXT_Accent">Biały</COLOR>: zwiększa szybkość ruchu<lf>i wysokość skoku<lf><COLOR preset="TXT_Accent">Pomarańczowy</COLOR>: neutralizuje odepchnięcia, gdy broń<lf>jest wyciągnięta<lf><COLOR preset="TXT_Accent">Czerwony + biały</COLOR>: zwiększa atak<lf><COLOR preset="TXT_Accent">Biały + pomarańczowy</COLOR>: zwiększa obronę<lf><COLOR preset="TXT_Accent">Czerwony + biały + pomarańczowy</COLOR>: zmienia niektóre ataki,<lf>zmniejsza napór wiatru, wstrząsy i<lf>ryki oraz dodatkowo zwiększa atak.
 <string>
 <string>Podstawowa kombinacja
 <string><REF ActionGuideDataNameText_Wp10_m116916480>
 <string><ICON WP10 PL_ATTACK_00>
-<string>Kombinacja, dzięki której możesz<lf>wykonać kombinację kinsekta po<lf>każdej akcji. Wszystkie ataki aż do<lf>cięcia żniwiarza mogą być atakami<lf>kierunkowymi.<lf><lf>Możesz także poruszać się do tyłu<lf>podczas ataku, wykonując unik<lf>z cięciem zamiast uderzenia z góry.
+<string>Kombinacja, dzięki której każdy atak możesz<lf>połączyć z kombinacją kinsekta.<lf>Wszystkie ataki aż do cięcia żniwiarza<lf>mogą być atakami kierunkowymi.<lf><lf>Możesz także poruszać się do tyłu<lf>podczas wykonywania uniku z cięciem zamiast<lf>uderzenia z góry.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m1983561600>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1176,10 +1292,10 @@
 <string>Kombinacja z kinsektowym prochem
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Kombinacja zostawiająca oznaczenie,<lf>rozkazuje kinsektowi zostawiać we<lf>wskazanym miejscu proszek efektu.<lf>Możesz następnie wykonać szybki unik,<lf>zanim proszek wybuchnie.<lf><lf>Można połączyć z kolejnym atakiem.
+<string>Kombinacja polegająca na oznaczeniu celu<lf>ataku dla twojego kinsekta,<lf>uniku do tyłu, a następnie ruchu<lf>do przodu w celu zdetonowania<lf>proszku zostawionego przez kinsekta.<lf><lf>Można ją też połączyć<lf>z innymi atakami.
 <string>
 <string>Wybicie (w tył)
-<string><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
+<string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
 <string>
 <string><REF ActionGuideDataNameText_Wp01_m203637856>
 <string><ICON WP10 PL_ATTACK_00>
@@ -1198,7 +1314,7 @@
 <string>Potężna kombinacja z 3 ekstraktami
 <string><REF ActionGuideDataNameText_Wp10_1401028864>
 <string><ICON WP10 PL_MOVE_FRONT><ICON PLUS><ICON WP10 PL_ATTACK_01>
-<string>Zużyj wszystkie ekstrakty, by wykonać<lf>potężną kombinację.<lf><lf>Możesz korzystać z kombinacji kinsekta<lf>w ruchach do momentu wykonania cięcia<lf>tornada, jak również podczas niego.
+<string>Potężna kombinacja zużywająca<lf>wszystkie trzy ekstrakty.<lf><lf>Możesz połączyć kombinację kinsekta<lf>z cięciem z wyskoku aż do etapu kombinacji<lf>z cięciem tornada.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m587319424>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
@@ -1213,21 +1329,22 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
+<string><ICON WP_LIGHTBOWGUN> Lekkie łukodziałko
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
-<string>Wystrzeliwuje załadowaną amunicję<lf>prosto przed siebie. Użyj celowania,<lf>żeby strzelić w wybranym kierunku.
+<string>Wystrzeliwuje amunicję załadowaną<lf>w łukodziałku prosto przed siebie. Użyj celowania,<lf>żeby strzelić w wybranym kierunku.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1727296128>
 <string><INPUTMSG MsgGUI600200_01_043>
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> po strzale
-<string>Naciśnij <ICON WP13 PL_ATTACK_01> po strzale,<lf>by wykonać Strzał mocy (mocniejszy<lf>atak, który przywraca również<lf>więcej energii).<lf><lf>Nie można go połączyć z atakami<lf>po wystrzeleniu Skupionego wybuchu<lf>lub po użyciu amunicji specjalnej.
+<string>Naciśnij <ICON WP13 PL_ATTACK_01> po strzale, by wykonać<lf>Ścigający strzał, mocniejszy atak,<lf>który przywraca również więcej Paska<lf>szybkiego ognia, niż strzał normalny.<lf><lf>Nie można go połączyć z atakami<lf>po wystrzeleniu Skupionego wybuchu<lf>lub po użyciu amunicji specjalnej.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
-<string>Przeładuj wybraną amunicję. Użyj <ICON WP13 merge="PL_ATTACK_00,HOLD_ON">,<lf>żeby przeładować całą amunicję w serii.
+<string>Przeładuj wybraną amunicję.<lf>Przytrzymaj <ICON WP13 merge="PL_ATTACK_00,HOLD_ON">, aby przeładować całą amunicję po kolei.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m976882304>
 <string><ICON WP13 PL_ATTACK_01>
@@ -1235,11 +1352,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><ICON WP13 PL_ATTACK_01><ICON PLUS><ICON WP13 PL_ATTACK_00>
-<string>Umożliwia ci użycie zestawu amunicji<lf>specjalnej dla lekkiego łukodziałka.
+<string>Użyj amunicji specjalnej na wyposażeniu.<lf><lf>Możesz podłożyć wiwernogrzmot lub załadować<lf>amunicję kleistą i strzelić przy użyciu <ICON WP13 PL_ATTACK_SP>.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_030>
-<string>Wybierz spośród posiadanych amunicji<lf>tę, której możesz użyć.
+<string>Wybierz amunicję.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
@@ -1260,16 +1377,19 @@
 <string>Przełącz aktualny tryb strzelania<lf>na Tryb standardowy.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1387257216>
-<string>Oddaj strzały niektórymi rodzajami amunicji,<lf>zużywając energię.<lf><lf>Energia automatycznie się uzupełni w trybie<lf>standardowym, może być również odzyskana<lf>przez trafianie potwora.<lf><lf>Ilość odzyskanej energii zależy od typu<lf>użytej amunicji.
+<string>Oddaj wiele strzałów niektórymi typami<lf>amunicji, zużywając pasek<lf>szybkiego ognia.<lf><lf>Pasek automatycznie się uzupełni<lf>w trybie standardowym, ale może być<lf>również odzyskany przez trafianie potworów.<lf><lf>Odzyskiwana ilość zależy od typu<lf>użytej amunicji.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m1879452288>
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
 <string>Umieszcza bombę, która wybucha<lf>po uderzeniu w nią. Ta wybuchowa<lf>amunicja będzie się z czasem<lf>stopniowo odnawiać.
 <string>
+<string><REF RefEquipment_0007_03_01>
+<string>Użyj <ICON WP13 PL_ATTACK_SP>, aby załadować specjalny rodzaj amunicji,<lf>która przykleja się do potworów.<lf>Trafienie w amunicję przyczepioną do<lf>potwora zwiększy obrażenia, jakie<lf>zada, gdy wybuchnie.<lf><lf>Amunicja będzie się z czasem<lf>stopniowo odnawiać.
+<string>
 <string><ICON WP_HEAVYBOWGUN> Ciężkie łukodziałko
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
-<string>Wystrzeliwuje załadowaną amunicję<lf>prosto przed siebie. Użyj celowania,<lf>żeby strzelić w wybranym kierunku.
+<string>Wystrzeliwuje amunicję załadowaną<lf>w łukodziałku prosto przed siebie. Użyj celowania,<lf>żeby strzelić w wybranym kierunku.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_187560352>
 <string><INPUTMSG MsgGUI600200_01_051>
@@ -1292,7 +1412,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp12_2009294208>
 <string><INPUTMSG MsgGUI600200_01_031>
-<string>Wybierz spośród posiadanych amunicji<lf>tę, której możesz użyć.
+<string>Wybierz amunicję.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>
 <string>Użyj Trybu zapłonu, aby wystrzelić<lf>amunicję specjalną.<lf><lf>Pasek trybu zapłonu uzupełni się<lf>automatycznie w Trybie standardowym<lf>lub przy każdym oddanym strzale.
@@ -1304,37 +1424,44 @@
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Amunicja specjalna, można jej użyć<lf>w trybie zapłonu.<lf><lf>Użyj <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON">, by nieprzerwanie<lf>strzelać. Kiedy trafisz cel, siła<lf>strzałów wzrośnie.
 <string>
+<string><REF ActionGuideDataNameText_Wp12_195481808>
+<string>Amunicja specjalna, można jej użyć<lf>w Trybie zapłonu.<lf><lf>Ta amunicja będzie powoli przebijać<lf>się przez cele, zwiększając swoją moc<lf>im więcej razy trafi w cel.
+<string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
-<string>Amunicja specjalna, można jej użyć<lf>w trybie zapłonu. Wyzwala atak<lf>o dalekim zasięgu z efektem<lf>przełamania. Naciśnij i przytrzymaj<lf><ICON WP12 PL_ATTACK_00>, by podczas strzelania zwiększyć moc.
+<string>Amunicja specjalna, można jej użyć<lf>w Trybie zapłonu. Wyzwala atak<lf>o dalekim zasięgu z efektem<lf>przełamania. Naciśnij i przytrzymaj<lf><ICON WP12 PL_ATTACK_00>, by podczas strzelania<lf>zwiększyć moc.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1481543424>
+<string>Amunicja specjalna, można jej użyć<lf>w Trybie zapłonu. Wyzwala atak<lf>o średnim zasięgu, który uderza<lf>na dużym obszarze.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
-<string>Trafienie potwora w ranę lub słaby punkt<lf>wywoła przebijającą eksplozję, co zada<lf>znaczące obrażenia.<lf><lf>Zużyta amunicja automatycznie<lf>odnowi się z czasem.
+<string>Trafienie potwora w ranę lub słaby punkt<lf>wywoła przebijającą eksplozję, co zada<lf>znaczące obrażenia.<lf><lf>Amunicja automatycznie odnowi się<lf>z czasem.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_m471861504>
 <string><INPUTMSG MsgGUI600200_01_049>
-<string>Wyświetlaj celownik na środku ekranu.
+<string>Wyświetlaj celownik na środku<lf>ekranu.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1018903168>
 <string><ICON WP11 PL_ATTACK_01>
 <string>Atak, który szybko wystrzeliwuje strzały<lf>na dużym obszarze. Nie zużywa<lf>wytrzymałości.
 <string>
+<string><ICON WP_BOW> Łuk
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Naciągnij łuk, by wystrzelić strzały.<lf>Im dłużej przytrzymasz <ICON WP11 PL_ATTACK_SP>, tym<lf>wyższy poziom naładowania uzyskasz,<lf>co zwiększy siłę ataków i liczbę strzał,<lf>które możesz wystrzelić.<lf><lf>Po ataku naciśnij <ICON WP11 PL_ATTACK_01>, żeby<lf>wykonać strzał mocy.
+<string>Wyciągnij łuk, aby wystrzelić strzały.<lf><lf>Przytrzymaj <ICON WP11 PL_ATTACK_SP>, aby zwiększyć poziom<lf>naładowania.<lf><lf>Im wyższy poziom naładowania, tym mocniejsze<lf>będą ataki.<lf><lf>Naciśnij <ICON WP11 PL_ATTACK_01> po strzelaniu, aby wykonać<lf>strzał mocy.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1800729216>
 <string><ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
 <string><ICON WP11 PL_ATTACK_01> podczas kombinacji
-<string>Uwalnia serię potężnych strzał <lf>wymierzonych na duży obszar. <lf>Twój aktualny poziom naładowania<lf>pozostanie taki sam. Po ataku<lf>naciśnij <ICON WP11 PL_ATTACK_01>, by wykonać: Salwa mocy.
+<string>Uwolnij serię potężnych strzał<lf>wymierzonych na duży obszar, używając twojego aktualnego<lf>poziomu naładowania.<lf><lf>Naciśnij <ICON WP11 PL_ATTACK_01> po wystrzeleniu, aby wykonać<lf>strzał mocy.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1871211648>
 <string><ICON WP11 PL_ATTACK_01>
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_047>
-<string>Atak spuszczający z nieba niezliczone<lf>strzały. Niektóre z nich staną się<lf>wbitymi strzałami detonacyjnymi,<lf>które przyczepią się do potwora,<lf>jeśli go trafią. Atak można naładować<lf>do maksymalnie trzech poziomów,<lf>co zwiększy zasięg i liczbę strzał.
+<string>Atak spuszczający z nieba<lf>niezliczone strzały. Niektóre z nich<lf>staną się strzałami z lontem, które<lf>przyczepią się do potwora.<lf><lf>Atak można naładować do maksymalnie<lf>trzech poziomów, a każde naładowanie<lf>zwiększy zasięg i liczbę strzał.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_1920365056>
 <string><INPUTMSG MsgGUI600200_01_048>
@@ -1345,15 +1472,15 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m125532448>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
-<string>Potężny strzał przebijający. Może<lf>wywołać detonację strzał smugowych.
+<string>Potężny strzał przebijający.<lf>Może wywołać detonację strzał<lf>z lontem i smugowych.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_374745664>
 <string><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01> podczas kombinacji
-<string>Szybki, ale potężny strzał przebijający. Może<lf>wywołać detonację strzał smugowych.
+<string>Szybki i potężny strzał przebijający.<lf>Może wywołać detonację strzał<lf>z lontem i smugowych.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1657138304>
 <string><ICON WP11 PL_ATTACK_SP><ICON PLUS><ICON WP11 PL_ATTACK_00><ICON PLUS><ICON WP11 PL_ATTACK_01>
-<string>Wystrzel jednocześnie wiele strzał.<lf>Może to wywołać detonację<lf>strzał smugowych.
+<string>Wystrzel jednocześnie wiele strzał.<lf>Może to wywołać detonację strzał z lontem<lf>i strzał smugowych.
 <string>
 <string>Wybierz powłokę
 <string><INPUTMSG MsgGUI600200_01_033>
@@ -1361,11 +1488,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp11_193855040>
 <string><ICON WP11 PL_ATTACK_00>
-<string>Załaduj wybraną powłokę.<lf>Kiedy jest załadowana, naciśnij <ICON WP11 PL_ATTACK_00>,<lf>by zdjąć wybraną powłokę.
+<string>Załaduj wybraną powłokę.<lf><lf>Kiedy jest załadowana, otwórz menu<lf>powłok i naciśnij <ICON WP11 PL_ATTACK_00>, aby zdjąć<lf>wybraną powłokę.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1416139520>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON PL_ITEM>
-<string>Załadowuje strzałę smugową.
+<string>Ładuje strzałę smugową.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_169799632>
 <string><INPUTMSG MsgGUI600200_01_050>
@@ -1374,15 +1501,15 @@
 <string><REF ActionGuideDataNameText_Wp11_566243776>
 <string>Pasek wymagany do załadowania strzały<lf>smugowej i powłok.<lf><lf>Skuteczne ataki lub wykonanie<lf>Wyważonego uniku napełni pasek.<lf>Załadowanie strzały smugowej<lf>lub powłoki zużywa pasek.
 <string>
-<string><REF ActionGuideDataNameText_Wp11_m966116480> strzała śledzenia
+<string>Strzały smugowe i strzały śledzenia
 <string>Po wystrzeleniu strzały smugowej<lf>kolejne strzały będą podążać za strzałą<lf>smugową, dopóki ta nie wybuchnie.
 <string>
 <string>Typy powłok
-<string>Użyj powłok, by dodać strzałom efekty.<lf><lf>Powł. mocy: zwiększa obrażenia strzał<lf>Powł. krótkodystansowa: skraca zasięg<lf>strzał, ale zwiększa ich obrażenia<lf>Powł. przebijająca: zwiększa zasięg <lf>strzał, strzały mogą przebijać<lf>Powł. trująca: nakłada truciznę<lf>Powł. paraliżująca: nakłada paraliż<lf>Powł. usypiająca: nakłada uśpienie<lf>Powł. wybuchowa: nakłada wybuch<lf>Powł. wyczerpująca: nakłada<lf>ogłuszenie/wyczerpanie
+<string>Użyj powłok, aby dodać strzałom<lf>efekty.<lf><lf>- Powłoka mocy: zwiększa obrażenia<lf>strzał<lf>- Powłoka krótkodystansowa: skraca<lf>zasięg strzał, ale zwiększa zadawane przez nie obrażenia<lf>- Powłoka przebijająca: umożliwia strzałom<lf>przebijanie<lf>- Powłoka trująca: nakłada truciznę<lf>- Powłoka paraliżująca: nakłada paraliż<lf>- Powłoka usypiająca: nakłada uśpienie<lf>- Powłoka wybuchowa: nakłada wybuch<lf>- Powłoka wyczerpująca: nakłada ogłuszenie/wyczerpanie
 <string>
 <string>Kombinacja z przebijaczem smoków
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
-<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">★<ICON WP11 PL_ATTACK_SP><ICON RELEASE>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">→<ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>Kombinacja wykorzystująca twój poziom<lf>naładowania do wykonania: Przebijacz<lf>smoków.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
@@ -1396,7 +1523,7 @@
 <string>
 <string>Kombinacja z tysiącem smoków
 <string><REF ActionGuideDataNameText_Wp11_m445205632>
-<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">★<ICON WP11 PL_ATTACK_SP><ICON RELEASE>
+<string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">→<ICON WP11 PL_ATTACK_SP><ICON RELEASE>
 <string>Kombinacja wykorzystująca twój poziom<lf>naładowania do uwolnienia tysiąca smoków.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_713120064>
@@ -1425,7 +1552,7 @@
 <string>Kombinacja ze strzałem po łuku
 <string><REF ActionGuideDataNameText_Wp11_m1364116608>
 <string><INPUTMSG MsgGUI600200_01_052>
-<string>Kombinacja uwalniająca <REF ActionGuideDataNameText_Wp11_m825706560> ze strzałem po łuku<lf>przed wykonaniem ładującego uskoku<lf>i jaskółczego strzału, co cię ustawi w pozycji<lf>umożliwiającej wybuch <REF ActionGuideDataNameText_Wp11_m825706560><lf>przy użyciu przebijacza smoków lub tysiąca smoków.
+<string>Kombinacja zaczynająca się od strzału po łuku<lf>z użyciem strzał z lontem.<lf><lf>Wykonując jaskółczy strzał podczas<lf>ładującego uskoku, możesz wystrzelić<lf>przebijacza smoków lub tysiąc smoków,<lf>co pozwoli ci zdetonować<lf>oczekujące strzały z lontem.
 <string>
 <string><REF ActionGuideDataNameText_Wp11_m1212153600>
 <string><INPUTMSG MsgGUI600200_01_056>

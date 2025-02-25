@@ -1,4 +1,4 @@
-﻿<string>Introduce tu fecha de nacimiento.
+﻿<string>Por favor, introduce tu edad. Necesitamos esta información<lf>para el cumplimiento legal de nuestro procesamiento interno.
 <string>Año
 <string>Mes
 <string>Día
@@ -15,4 +15,5 @@
 <string>Octubre
 <string>Noviembre
 <string>Diciembre
-<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format="DD/MM/YYYY"></COLOR><lf>¿Es esta tu fecha de nacimiento?<lf><lf>Nota: Este ajuste no afectará al sistema de juego,<lf>pero no podrás modificarlo más adelante.
+<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format=" D [de] xMMMM [de] YYYY"></COLOR><lf>¿Es esta tu fecha de nacimiento?<lf><lf>Nota: Este ajuste no afectará al sistema de juego,<lf>pero no podrás modificarlo más adelante.
+<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format=" D [de] xMMMM [de] YYYY"></COLOR><lf>¿Es correcta tu fecha de nacimiento?

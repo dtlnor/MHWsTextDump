@@ -13,6 +13,7 @@
 <string>Zmienia niektóre opcje na poniższe zalecane ustawienia. Opcje, które<lf>zostaną zmienione w stosunku do ich bieżących ustawień, zostaną<lf>podświetlone. <COLOR preset="TXT_Accent">(Na tym ekranie nie można dokonać pojedynczych zmian).</COLOR>
 <string>Użyj zalecanych ustawień
 <string>Opcja <COLOR preset="TXT_Accent">„Użyj zalecanych ustawień”</COLOR> automatycznie ustawi<lf>każdy element na jego zalecany parametr.
+<string>W związku ze zmianą sprzętu<lf>niektóre ustawienia zostały zmienione.
 <string>Ustawienia gry
 <string>Sterowanie
 <string>Kamera
@@ -90,6 +91,14 @@
 <string>– Naciśnięcie <ICON MKB PL_MOVE_FRONT> przesuwa łowcę w kierunku,<lf>w którym zwrócona jest kamera.<lf><lf>– Naciśnięcie <ICON MKB PL_MOVE_BACK> przesuwa łowcę w kierunku ekranu.
 <string>Typ 2
 <string>– Naciśnięcie <ICON MKB PL_MOVE_FRONT> przesuwa łowcę w kierunku,<lf>w którym jest skierowany.<lf><lf>– Naciśnięcie <ICON MKB PL_MOVE_BACK> przesuwa łowcę w przeciwnym<lf>kierunku do tego, w którym jest skierowany.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string>Ustawienia sterowania Seikretem
 <string>Dostosowuje sterowanie Seikretem.
 <string>Sterowanie wezwaniem Seikreta
@@ -214,7 +223,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_49_03_HELP
 <string>Sterowanie własnym menu kołowym
-<string>Dostosuj sterowanie własnym menu kołowym.
+<string>Dostosowuje sterowanie własnym menu kołowym.
 <string>Skróty własnego menu kołowego
 <string>Umożliwia skonfigurowanie własnego menu kołowego
 <string>Włącz
@@ -319,6 +328,12 @@
 <string>Odwraca sterowanie i wyświetlanie lewego<lf>i prawego przycisku myszy. Ustawienie<lf>dla graczy leworęcznych.
 <string>Nie odwracaj
 <string>Nie odwraca sterowania i wyświetlania<lf>lewego i prawego przycisku myszy.<lf>Ustawienie dla graczy praworęcznych.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>Ikony przycisków kontrolera
 <string>Dostosowuje, które ikony są widoczne<lf>w przewodniku po przyciskach.
 <string>Typ 1
@@ -568,6 +583,10 @@
 <string>Sterowanie żyroskopem
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>Określa, czy funkcja żyroskopu jest włączona<lf>dla sterowania kamerą, a także dostosowuje<lf>zaawansowane ustawienia funkcji żyroskopu.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>Typ sterowania
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>Dostosowuje sposób włączania sterowania żyroskopem.
@@ -625,12 +644,56 @@
 <string>Odwraca sterowanie żyroskopem podczas użycia <ICON PAD PL_AIM><lf>(w trybie skupienia) z dobytą bronią białą.
 <string>Broń dystansowa: <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_69_Help>
-<string>Odwraca sterowanie żyroskopem podczas użycia <ICON PAD PL_AIM><lf>(w trybie celowania/skupienia) z dobytą bronią dystansową.<lf>
+<string>Odwraca sterowanie żyroskopem podczas użycia <ICON PAD PL_AIM><lf>(w trybie celowania/skupienia) z dobytą bronią dystansową.
 <string>Odwrócenie trajektorii celownika
 <string><PLATMSG MsgGUI030100_02_70_Help>
 <string>Odwraca sterowanie, kiedy strzelasz z łuku<lf>lub korzystasz z bomb kasetowych.<lf><COLOR preset="TXT_Accent">(Sterowanie żyroskopem)</COLOR>
 <string>Nie odwraca ruchu kontrolera.
 <string>Odwraca ruch kontrolera.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
 <string>Wybór ekranu
 <string>Dostosowuje, na którym ekranie ma być wyświetlana gra.<lf><COLOR preset="TXT_Accent">(Wymaga systemu Windows 10 lub nowszego<lf>i konfiguracji z więcej niż jednym monitorem)</COLOR>
 <string>{0}: {1}
@@ -721,7 +784,7 @@
 <string>GB
 <string>Ustawienia grafiki
 <string>Dostosowuje ustawienia grafiki.<lf><COLOR preset="TXT_Accent">(Grafikę przerywników filmowych można dostosować osobno)</COLOR>
-<string>Wybierz ustawienia grafiki.
+<string>Dostosowuje ustawienia grafiki.
 <string>Ultra
 <string>Wysoka
 <string>Średnia
@@ -742,7 +805,7 @@
 <string>Korzysta z technologii upscalingu (superrozdzielczości),<lf>aby zachować wysoką wydajność, jednocześnie<lf>ciesząc doskonałą jakością grafiki.
 <string>NVIDIA DLSS
 <string>Używa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Wymaga karty graficznej NVIDIA GeForce RTX.<lf>– Jeśli używasz karty z serii GeForce RTX40<lf>i opcja Planowanie przyspieszanego sprzętowo<lf>procesora GPU jest włączona w systemie<lf>operacyjnym, zaznaczenie tej opcji umożliwi<lf>włączenie generowania klatek.</COLOR>
-<string>AMD FSR
+<string>AMD FSR 3
 <string>Używa <FSR>.<lf><COLOR preset="TXT_Accent">– Jeśli opcja Planowanie przyspieszanego<lf>sprzętowo procesora GPU jest włączona<lf>w systemie operacyjnym, wybór tej opcji<lf>umożliwi włączenie generowania klatek.</COLOR>
 <string>Intel XeSS
 <string>Używa Intel <XESS>.
@@ -756,13 +819,13 @@
 <string>Wyłącza to ustawienie.
 <string>Nie można włączyć <COLOR preset="TXT_Accent">generowania klatek</COLOR> (przy użyciu <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>przy obecnych ustawieniach ekranu.
 <string>Nie można włączyć <COLOR preset="TXT_Accent">generowania klatek</COLOR> (przy użyciu <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>przy obecnych ustawieniach ekranu.<lf>W związku z tym ustawienie automatycznie<lf>zmieniono na <BOLD>Wyłącz</BOLD>.
-<string>Generowanie klatek można włączyć ponownie,<lf>zmieniając ustawienia na Tryb okna. Jeśli natomiast<lf>jesteś w trybie okna bez ramki, zmień rozdzielczość<lf>na taką, która nie wyświetla żadnych czarnych ramek.
+<string>Generowanie klatek można włączyć ponownie,<lf>zmieniając ustawienia na Tryb okna. Jeśli natomiast<lf>jesteś w Trybie okna bez ramki, zmień rozdzielczość<lf>na taką, która nie wyświetla żadnych czarnych ramek.
 <string>Tryb upscalingu
 <string>Dostosowuje jakość grafiki gdy używany jest upscaling.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling jest włączona)</COLOR>
 <string>NVIDIA DLAA
 <string>Używa wygładzania krawędzi AI, zachowując<lf>natywną rozdzielczość.
 <string>AMD Native AA
-<string>Używa wygładzania krawędzi FSR, zachowując<lf>natywną rozdzielczość.
+<string>Używa wygładzania krawędzi FSR 3, zachowując<lf>natywną rozdzielczość.
 <string>Intel XeSS Native AA
 <string>Używa wygładzania krawędzi XeSS, zachowując<lf>natywną rozdzielczość.
 <string>Jakość
@@ -776,7 +839,7 @@
 <string>Wyłącz
 <string>Opcja ta zostanie zaznaczona, jeżeli<lf>nie korzystasz z trybów upscalingu.
 <string>Poprawa ostrości
-<string>Dostosowuje poziom szczegółowości grafiki gdy używany<lf>jest upscaling. Im wyższa liczba, tym większa szczegółowość.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja AMD FSR jest włączona)</COLOR>
+<string>Dostosowuje poziom szczegółowości grafiki gdy używany jest<lf>upscaling. Im wyższa liczba, tym większa szczegółowość.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling jest włączona)</COLOR>
 <string>Wygładzanie krawędzi
 <string>Dostosowuje tryb wygładzania krawędzi.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling nie jest włączona)</COLOR>
 <string>FXAA + TAA
@@ -792,13 +855,15 @@
 <string>Niska
 <string>Najniższa
 <string>Wyłącz
+<string>DirectStorage
+<string>Ustawia sprzęt do użycia z DirectStorage, by<lf>przyspieszyć wczytywanie danych. <COLOR preset="TXT_Accent">(Można skonfigurować<lf>tylko w środowiskach obsługujących DirectStorage).</COLOR>
 <string>CPU
 <string>GPU
 <string>Jakość tekstur
 <string>Dostosowuje rozdzielczość tekstur dla obiektów.
 <string>Najwyższa (tekstury Hi-Res)
-<string><COLOR preset="TXT_Accent">Można wybrać to ustawienie, jeśli pobrano pakiet<lf>High Resolution Texture Pack. </COLOR>
-<string>Aby ustawić opcję Najwyższa (tekstury o wysokiej rozdzielczości),<lf>konieczne jest pobranie pakietu High Resolution Texture Pack.
+<string><COLOR preset="TXT_Accent">Można wybrać to ustawienie, jeśli pobrano pakiet<lf>"Pakiet Tekstur Wysokiej Jakości". </COLOR>
+<string>Aby ustawić opcję Najwyższa (tekstury o wysokiej<lf>rozdzielczości), konieczne jest pobranie pakietu<lf>"Pakiet Tekstur Wysokiej Jakości".
 <string>Wysoka
 <string>Średnia
 <string>Niska
@@ -816,6 +881,8 @@
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>Jakość futra
 <string>Ustawia jakość obrazu dla futra wszystkich stworzeń, <lf>łącznie z koleżkotami.
 <string>Wysoka
@@ -834,9 +901,11 @@
 <string>Najniższa
 <string>Jakość drzew/trawy
 <string>Dostosowuje jakość obrazu dla trawy i drzew.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>Wysoka
 <string>Średnia
 <string>Niska
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>Kołysanie się drzew/trawy
 <string>Określa, czy trawa i drzewa mają się kołysać.
 <string>Włącz
@@ -862,10 +931,13 @@
 <string>Ustawia, czy efekty płynów mają zostać<lf>zastosowane do wody.
 <string>Włącz
 <string>Wyłącz
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
 <string>Najwyższa
 <string>Wysoka
 <string>Średnia
 <string>Niska
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>Odległość renderowania
 <string>Dostosowuje liczbę graczy lub postaci wyświetlanych<lf>w lobby oraz odległość, z jakiej potwory i lokalna<lf>fauna będą pojawiać się w terenie.
 <string>Renderuje maksymalną liczbę obiektów<lf>niezależnie od odległości od łowcy.
@@ -893,18 +965,27 @@
 <string>Wysoka
 <string>Średnia
 <string>Niska
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>Cienie kontaktowe
 <string>Określa, czy mają być wyświetlane szczegółowe cienie.
 <string>Włącz
 <string>Wyłącz
 <string>Okluzja otoczenia
 <string>Dostosowuje jakość cieni w słabo oświetlonych obszarach.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>Wysoka
 <string>Średnia
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>Wyłącz
 <string>Poświata
 <string>Dostosowuje moc rozmycia powodowanego<lf>przez jasne punkty.
 <string>Wysoka
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>Niska
 <string>Wyłącz
 <string>Rozmycie w ruchu
@@ -923,6 +1004,10 @@
 <string>Screen Space Separable Subsurface Scattering.<lf>Określa, czy światło ma wpadać do obiektów,<lf>a następnie być z nich rozpraszane.
 <string>Włącz
 <string>Wyłącz
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>Głębia ostrości
 <string>Określa, czy zmieniać ostrość (jasność) obiektów<lf>w zależności od odległości.
 <string>Włącz
@@ -931,6 +1016,13 @@
 <string>Dostosowuje jakość mgły wytwarzanej przez kurz<lf>i drobiny pyłu w powietrzu. Wpływa na sposób<lf>wyświetlania promieni światła itp.
 <string>Wysoka
 <string>Niska
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Zmienny stopień cieniowania
 <string>Zmniejsza obciążenie efektów i renderowania modułów<lf>cieniujących przez mniej równomierne przetwarzanie<lf>modułów cieniujących pikseli.
 <string>Wyłącz
@@ -1031,6 +1123,14 @@
 <string>Ustaw skalę minimapy podczas walki z dużymi<lf>potworami.
 <string>Trzymając <ICON PL_ITEM_SLIDER_OPEN>
 <string>Dostosowuje skalę minimapy podczas<lf>przytrzymywania <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Obracanie szczegółowej mapy
+<string>Określa, czy szczegółowa mapa ma się obracać.
+<string>Obracanie
+<string>Szczegółowa mapa obraca się w lewo i prawo.
+<string>Obracanie + przywrócenie północy
+<string>Szczegółowa mapa obraca się. Aby zresetować ją<lf>do pozycji północnej, naciśnij <ICON UI_MAP3D_RESET_POSITION>.
+<string>Nieruchome
+<string>Szczegółowa mapa jest nieruchoma,<lf>a północ zawsze znajduje się na górze.
 <string>Efekty trafień sojusznika
 <string>Ustaw wyświetlanie efektów trafień innych graczy.<lf><COLOR preset="TXT_Accent">(Ustawienie nie wpływa na efekty własne gracza)</COLOR>
 <string>Wyświetlaj
@@ -1151,7 +1251,7 @@
 <string>Włącza rozgrywkę międzyplatformową, co umożliwia<lf>grę z użytkownikami różnych platform.<lf><lf>Nie możesz brać udziału w rozgrywce<lf>międzyplatformowej z użytkownikami, którzy<lf>wyłączyli to ustawienie. Oprócz tego,<lf>funkcjonalność oddziału będzie niedostępna<lf>dla oddziałów z wyłączonym ustawieniem.
 <string>Wyłącz
 <string>Wyłącza rozgrywkę międzyplatformową, co umożliwia<lf>grę wyłącznie z użytkownikami tej samej platformy.<lf><lf>Nie możesz brać udziału w rozgrywce<lf>międzyplatformowej z użytkownikami, którzy<lf>wyłączyli to ustawienie. Oprócz tego,<lf>funkcjonalność oddziału będzie niedostępna<lf>dla oddziałów z wyłączonym ustawieniem.
-<string>Wystąpił błąd łączności.<lf>Ustawienia rozgrywki międzyplatformowej nie zostały zmienione.<lf>{0}
+<string>Wystąpił błąd łączności. Ustawienia rozgrywki<lf>międzyplatformowej nie zostały zmienione.<lf>{0}
 <string>Wyświetlanie skrótu
 <string>Określa, czy nazwy przedmiotów, zawołań itp.<lf>mają być wyświetlane w widoku skrótów klawiszowych,<lf>gdy wszystkie skróty są wyświetlane.
 <string>Wyświetl wszystko
@@ -1214,8 +1314,10 @@
 <string>Wyświetla sylwetkę z niebieskim konturem,<lf>gdy łowcę zasłania potwór.
 <string>Zsynchronizowany zapis zdjęć
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>Dostosowuje, czy zdjęcia wykonane przy użyciu<lf>aparatu są zapisywane zarówno w zapisanych<lf>danych, jak i na dysku komputera.
 <string>Synchronizuj
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
+<string>Zapisuje zdjęcia w zapisanych danych<lf>i na dysku komputera.
 <string>Nie synchronizuj
 <string>Zapisuje zdjęcia tylko w zapisanych danych.
 <string>Anonimowe imiona innych graczy
@@ -1234,6 +1336,12 @@
 <string>Wyświetla tylko listę efektów melodii,<lf>zwykłe wskazówki nie będą wyświetlane niezależnie<lf>od dobycia czy schowania rogu łowieckiego.
 <string>Typ 3
 <string>Wyświetla zwykłe wskazówki niezależnie<lf>od dobycia czy schowania rogu łowieckiego.<lf>Wyświetla listę efektów melodii<lf>tylko przy przytrzymaniu <ICON PL_ITEM_SLIDER_OPEN> po dobyciu<lf>rogu łowieckiego.
+<string>Wyświetlanie siły ataku broni
+<string>Określa, czy siła ataku broni jest wyświetlana<lf>przy użyciu unikatowych współczynników.<lf><COLOR preset="TXT_Accent">(Nie ma to wpływu na faktyczne obrażenia).</COLOR>
+<string>Pokaż ze współczynnikiem
+<string>Wyświetla podstawową siłę ataku broni przy użyciu<lf>współczynnika unikatowego dla każdego typu broni.<lf>Typy broni o wyższej sile pojedynczego ataku<lf>mają wyliczoną wyższą wartość.
+<string>Pokaż bez współczynnika
+<string>Wyświetla podstawową siłę ataku broni bez<lf>współczynników. Ułatwia to porównywanie<lf>siły ataku różnych typów broni.
 <string>Podstawowa głośność
 <string>Dostosowuje ogólną głośność.<lf><COLOR preset="TXT_Accent">(Nie wpływa na głośność komunikacji głosowej)</COLOR>
 <string>Głośność głosów

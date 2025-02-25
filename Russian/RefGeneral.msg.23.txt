@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>–
 <string>–
 <string>:
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>-
+<string>–{0}
 <string>x
+<string>x{0}
 <string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>Да
 <string>Нет
 <string>Отмена
@@ -50,12 +55,20 @@
 <string>или
 <string>и
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Ур. 
 <string>Редкость
 <string>???
 <string>???
 <string>?????
 <string>?????
+<string>Белый призрак
+<string>Клыкастый зверь [???]
+<string>Чёрное Пламя
+<string>Дошагума [???]
+<string>Раталос [???]
+<string>Лала барина [???]
+<string>Сейкрет [???]
 <string>------
 <string>------
 <string>(Нет)
@@ -90,12 +103,16 @@
 <string>Охотник
 <string>Палико
 <string>Сейкрет
+<string>Хрюшка
 <string>Охотник-помощник
+<string>Отряд
 <string>з.
 <string>зени
 <string>очк.
 <string>Очки Гильдии
 <string>%
+<string>{0}%
+<string>Талоны везунчика
 <string>[{0}]
 <string>Оптим. восст. здоровья<lf><COLOR preset="TXT_Accent">{0}</COLOR>
 <string>Оптим. устр. эффектов<lf><COLOR preset="TXT_Accent">{0}</COLOR>
@@ -122,3 +139,5 @@
 <string>Загружаемый контент
 <string>Загружаемый контент
 <string>Сервер
+<string><PLATMSG RefGeneral_0028>
+<string>

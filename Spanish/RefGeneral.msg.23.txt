@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>–
 <string>–
 <string>:
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>-
+<string>-{0}
 <string>x
+<string>x{0}
 <string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>¿
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>Sí
 <string>No
 <string>Cancelar
@@ -50,12 +55,20 @@
 <string> o 
 <string>y
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Nivel 
 <string>Rareza
 <string>¿?
 <string>¿?
 <string>?????
 <string>?????
+<string>El Espectro blanco
+<string>Bestia de colmillos extraña
+<string>La Llama negra
+<string>Doshaguma extraño
+<string>Rathalos extraño
+<string>Lala Barina extraña
+<string>Seikret extraño
 <string>------
 <string>------
 <string>(Nada)
@@ -90,12 +103,16 @@
 <string>Cazador
 <string>Camarada Felyne
 <string>Seikret
+<string>Poogie
 <string>Cazador de apoyo
+<string>Brigada
 <string>z
 <string>zenis
 <string>pts
 <string>Puntos del gremio
 <string> %
+<string>{0} %
+<string>Vales suertudos
 <string>[{0}]
 <string>Recuperación de salud óptima<lf><COLOR preset="TXT_Accent">{0}</COLOR>
 <string>Recuperación de estado óptima<lf><COLOR preset="TXT_Accent">{0}</COLOR>
@@ -121,4 +138,6 @@
 <string><PLATMSG RefGeneral_0024>
 <string>Contenido descargable
 <string>Contenido descargable
-<string>Servidor
+<string>el servidor
+<string><PLATMSG RefGeneral_0028>
+<string>

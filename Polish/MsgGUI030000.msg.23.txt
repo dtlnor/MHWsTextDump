@@ -12,10 +12,21 @@
 <string><REF RefMenu_039>
 <string><REF RefMenu_043>
 <string><REF RefMenu_058>
+<string><REF RefDebug_devMenu10>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_05
 <string><REF RefMenu_010>
 <string><REF RefMenu_011>
 <string><REF RefMenu_012>
-<string><COLOR preset="TXT_Accent">Wystrzelić flarę alarmową?</COLOR><lf>Miejsce docelowe flary alarmowej można zmienić<lf>w Księdze zadań w Ustawieniach rozgrywki wieloosobowej<lf>w menu Ustawienia.
+<string>Wystrzelić flarę, aby uzyskać pomoc od<lf><COLOR preset="TXT_Accent">{0}</COLOR>?<lf>Możesz kontrolować, kto może odpowiedzieć na twoje flary<lf>w <BOLD>Ustawienia gry wieloosobowej</BOLD> w menu <BOLD>Ustawienia</BOLD><lf>na księdze zadań.
 <string>Anulować flarę alarmową?
 <string><REF RefMenu_013>
 <string>Wrócić z zebranymi do tej pory przedmiotami?<lf><COLOR preset="TXT_Danger">Nie będzie to wliczane do ukończenia zadania.</COLOR>
@@ -30,30 +41,38 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_dlg_00_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_dlg_01_00
 <string>Powtórzyć misję od ostatniego punktu kontrolnego?
-<string>Zaprosić wszystkich powiązanych członków<lf>do twojego środowiska?
-<string>Zaproszono wszystkich powiązanych członków<lf>do twojego środowiska.
-<string><COLOR preset="TXT_Danger">Błąd</COLOR><lf>Nie udało się zaprosić wszystkich<lf>powiązanych członków do twojego środowiska.
-<string>Rozwiązać połączone środowisko?
-<string>Rozwiązano połączone środowisko.
-<string><COLOR preset="TXT_Danger">Błąd</COLOR><lf>Nie udało się rozwiązać połączonego środowiska.
+<string>Zaprosić wszystkich członków grupy do twojego świata?
+<string>Zaproszono wszystkich członków grupy do twojego świata.
+<string><COLOR preset="TXT_Danger">Błąd</COLOR><lf>Nie udało się zaprosić wszystkich członków grupy do twojego świata.
+<string>Rozwiązać wspólny świat?
+<string>Rozwiązano wspólny świat.
+<string><COLOR preset="TXT_Danger">Błąd</COLOR><lf>Nie udało się rozwiązać wspólnego świata.
 <string><COLOR preset="TXT_Danger">Nie można teraz użyć.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można użyć w trakcie zadania.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można użyć podczas walki.</COLOR>
 <string><COLOR preset="TXT_Danger">Niedostępne poza zadaniami.</COLOR>
-<string><COLOR preset="TXT_Danger">Tylko przywódca może użyć.</COLOR>
-<string><COLOR preset="TXT_Danger">Niedostępne poza trybem online dla jednego gracza.</COLOR>
+<string><COLOR preset="TXT_Danger">Może zostać użyte tylko przez przywódcę.</COLOR>
+<string><COLOR preset="TXT_Danger">Niedostępne podczas gry online lub w lobby.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można wysłać więcej zaproszeń.</COLOR>
 <string><COLOR preset="TXT_Danger">Inne zaproszenie jest wciąż rozpatrywane.</COLOR>
-<string><COLOR preset="TXT_Danger">Nie jesteś członkiem tej połączonej grupy.</COLOR>
-<string><COLOR preset="TXT_Danger">Zapraszanie do połączonego środowiska.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie należysz do tej wspólnej grupy.</COLOR>
+<string><COLOR preset="TXT_Danger">Zapraszanie do wspólnego świata.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie masz aktualnych zaproszeń.</COLOR>
 <string><COLOR preset="TXT_Danger">Brak towarzyszącego łowcy wspierającego.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie możesz zrekrutować więcej członków.</COLOR>
 <string><REF RefMenu_009>
 <string><REF RefMenu_005>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_02_Help
 <string><REF RefMenu_000>
 <string><REF RefMenu_014>
 <string><REF RefMenu_015>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_05_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_05_01_01
 <string><REF RefMenu_016>
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
@@ -65,9 +84,10 @@
 <string><REF RefMenu_024>
 <string><REF RefMenu_025>
 <string><REF RefMenu_026>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_06_02
 <string><REF RefMenu_057>
 <string>Edytuj zakładki
-<string>Zresetuj zmiany w zakładkach
+<string>Zresetuj zakładki
 <string>Wszystkie ustawienia zakładek zostaną<lf>przywrócone do domyślnych. Kontynuować?
 <string>Edytuj ulubione
 <string>Edytuj widżety
@@ -77,11 +97,11 @@
 <string>Powiązani członkowie
 <string>Wybierz kategorię do sortowania.
 <string>Przełącz widoczność kategorii.
-<string><COLOR preset="TXT_Danger">Ta kategoria ikon nie może być ukryta.</COLOR>
-<string>Gdy menu jest otwarte,<lf>automatycznie zmień informacje zależne od sytuacji<lf>wyświetlane po prawej stronie ekranu.
+<string><COLOR preset="TXT_Danger">Ta ikona kategorii nie może być ukryta.</COLOR>
+<string>Gdy menu jest otwarte, automatycznie zmieniaj<lf>informacje wyświetlane po prawej stronie ekranu,<lf>w zależności od sytuacji.
 <string>Nie wyświetlaj informacji po prawej stronie ekranu,<lf>gdy menu jest otwarte.
-<string>Wyświetl okno stanu po prawej stronie ekranu,<lf>gdy menu jest otwarte.
-<string>Wyświetl listę członków powiązanych po prawej stronie ekranu,<lf>gdy menu jest otwarte.
+<string>Wyświetl okno statusu po prawej stronie ekranu,<lf>gdy menu jest otwarte.
+<string>Wyświetl listę członków grupy po prawej stronie ekranu,<lf>gdy menu jest otwarte.
 <string><REF RefMenu_046>
 <string><REF RefMenu_047>
 <string><REF RefMenu_048>

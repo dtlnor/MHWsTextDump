@@ -9,6 +9,37 @@
 <string>Previsioni
 <string>Le azioni dei giocatori possono alterare le previsioni.
 <string>Info dettagliate
+<string>Biologia del mostro
+<string>Ecologia fauna endemica
+<string>Ecologia pesci endemici
+<string>Habitat conosciuti
+<string>Caratteristiche
+<string>Note di ricerca
+<string>Attacchi speciali
+<string>Strategia consigliata
+<string>Suggerimenti utili
+<string>Efficacia
+<string>Strategia dettagliata
+<string>Attacco elementale consigliato
+<string>Effetti di stato efficaci
+<string>Oggetti efficaci
+<string>Materiali ottenibili
+<string>Materiali di basso grado
+<string>Materiali di alto grado
+<string>Oggetti ottenibili
+<string>Frequenza
+<string>Come si ottiene
+<string>Diario di caccia
+<string>Cacciati
+<string>Abbattuti
+<string>Catturati
+<string>Record dimensioni
+<string>Più grande
+<string>Più pesante
+<string>Dimensioni
+<string>Più piccolo
+<string>Oggetti/Abilità correlati
+<string>Titoli sbloccabili
 <string>Caccia
 <string>Abbattimento
 <string>Cattura
@@ -16,14 +47,20 @@
 <string>Trasporto
 <string>Speciale
 <string>Inizia ricerca sul campo
+<string>Salva come indagine
 <string>Crea missione
 <string>Accetta missione
+<string>Spendere <PLURAL {0} "{0} punto" "{0} punti"> per salvare<lf>come indagine?
+<string>Salvata come indagine.
+<string><COLOR preset="TXT_Danger">Punti gilda insufficienti.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare perché non hai raggiunto i progressi richiesti.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare perché non hai raggiunto i progressi richiesti.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare perché non hai il grado cacciatore richiesto.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare<lf>perché non hai il grado<lf>cacciatore richiesto.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi iniziare la ricerca sul campo.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossibile iniziare ricerca sul campo.</COLOR>
+<string><COLOR preset="TXT_Danger">Non si può salvare come indagine.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossibile salvare come indagine.</COLOR>
 <string><COLOR preset="TXT_Danger">Le missioni principali completate non possono essere ripetute.</COLOR>
 <string><COLOR preset="TXT_Danger">Uno o più giocatori non hanno potuto partecipare a causa delle impostazioni multigiocatore.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi partecipare perché è già stato raggiunto il numero massimo di persone.</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">Non soddisfi le condizioni necessarie per accettare/partecipare a questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare a questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai potuto accettare/partecipare alla missione.</COLOR>
+<string><COLOR preset="TXT_Danger">È già stato raggiunto il numero massimo di indagini salvate. Non puoi salvarne altre.</COLOR>
+<string><COLOR preset="TXT_Danger">Questa indagine è già stata salvata.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi iniziare la ricerca sul campo perché un membro del collegamento sta visualizzando i risultati della missione.</COLOR>
 <string>Torna al titolo
 <string>Riprova
@@ -50,6 +89,7 @@
 <string>Ricompense incarico secondario
 <string>Ricompense missione
 <string>Ricompense extra
+<string>Cassa valutazioni
 <string>Ricompense extra mostro
 <string>Ricompense mostro assegnato
 <string>Ricompense materiali generali
@@ -59,14 +99,27 @@
 <string>Ritorno<lf>alla<lf>base
 <string>Inizio<lf>missione
 <string>Missione<lf>accettata
+<string>Tutte le missioni
 <string>Missioni principali
 <string>Missioni facoltative
 <string>Ricerca sul campo
+<string>Cronologia ricerche sul campo
+<string>Indagini
+<string>Indagine non salvata
+<string>Indagine salvata
+<string>Missioni evento
+<string>Missioni arena
+<string>Missioni sfida
 <string>Impostazioni
+<string>Casa
 <string>Mostra tutto
 <string>Missioni membri stanza
 <string>Missioni razzo SOS
 <string>Missioni membri collegamento
+<string>Costo
+<string>Data e ora ricerca sul campo
+<string>Rimanente
+<string>{0}
 <string>Richieste di partecipazione
 <string>Stabilisci come accettare giocatori nelle missioni. <COLOR preset="TXT_Accent">(I membri collegamento con invito saranno sempre accettati).</COLOR>
 <string>Approvazione automatica
@@ -108,6 +161,11 @@
 <string>{0} vuole parlare con te!
 <string>Missione disponibile: {0}
 <string>{0}: disponibile a fare rapporto!
+<string>Bonus raccolta attivo! (<PLURAL {0} "{0} giorno rimasto" "{0} giorni rimasti">)
+<string>Pare stia colpendo insediamenti locali!
+<string>Un insediamento ha problemi di mostri!
+<string>Caccialo per bonus raccolta temporaneo.
+<string>{0} è sul Picco brinachiusa!
 <string>Limite giocatori
 <string>Imposta il numero massimo di giocatori che possono partecipare alle missioni. <COLOR preset="TXT_Accent">(Varia in base al numero massimo di membri collegamento).</COLOR>
 <string>1
@@ -157,9 +215,16 @@
 <string>Ascendente
 <string>Discendente
 <string>Consigliato
+<string>Elimina indagine
+<string>Eliminare l'indagine selezionata?<lf>Attenzione, se l'indagine rimane nella<lf><COLOR preset="TXT_Accent">Cronologia ricerche sul campo</COLOR>,<lf>anche la cronologia verrà cancellata.
+<string>Indagine eliminata.
+<string>Il numero di volte in cui puoi accettare<lf>la missione selezionata è: {0}.<lf>Accettare la missione e salvare?
 <string>Aumentare temporaneamente il numero massimo<lf>di giocatori per le missioni?<lf><COLOR preset="TXT_Accent">(Non può essere modificato di nuovo<lf>fino al completamento della missione.)</COLOR>
 <string>Missioni principali
 <string>Missioni facoltative
+<string>Cronologia ricerche sul campo (ultime {0})
+<string>Indagini (salvate: {0})
+<string>Missioni evento
 <string>Missioni membro del collegamento ({0})
 <string>Missioni membri collegamento
 <string>Missioni razzo SOS ({0})

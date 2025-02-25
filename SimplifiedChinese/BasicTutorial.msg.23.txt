@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string><REF Item_IT_182>
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP>防御力提升
 <string><REF WeaponTutorial_CP_166><lf><lf>主要发动方式<lf>・使用<REF Item_IT_127>或<REF Item_IT_171>等道具<lf>・狩猎笛的<REF RefStatus_0008_000_00>或者<REF RefStatus_0006_000_01>效果
 <string>
+<string><ICON ST_CRITICAL_UP>会心率提升
+<string>会心率提升。<lf><lf>主要发动方式<lf>・发动<REF SkillCommon_1865909632>等技能<lf>・狩猎笛的<REF RefStatus_0008_000_00>或者<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_POWER_ELEMENT_UP><REF MusicSkillDataText_Wp05_13>
+<string><REF WeaponTutorial_CP_160><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_POWER_DEBUF_UP><REF MusicSkillDataText_Wp05_14>
+<string><REF WeaponTutorial_CP_161><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH>火属性防御强化
 <string><REF WeaponTutorial_CP_167><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH>水属性防御强化
+<string><REF WeaponTutorial_CP_168><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH>雷属性防御强化
+<string><REF WeaponTutorial_CP_169><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH>冰属性防御强化
+<string><REF WeaponTutorial_CP_170><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH>龙属性防御强化
+<string><REF WeaponTutorial_CP_171><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_SPIRIT><REF MusicSkillDataText_Wp05_17>
+<string><REF WeaponTutorial_CP_159><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_HEAL_CONTINUE><REF HibikiDataText_Wp05_2>
+<string><REF WeaponTutorial_CP_179><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_HEAL_NATURAL_UP>体力回复加速
+<string><REF WeaponTutorial_CP_163><lf><lf>主要发动方式<lf>・使用<REF Item_IT_165>或<REF Item_IT_632><lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS>耐力节约
+<string><REF WeaponTutorial_CP_164><lf><lf>主要发动方式<lf>・使用<REF Item_IT_164><lf>・获取<REF EnemyText_NAME_EM5006_00_0><lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP>耐力回复速度提升
+<string>耐力回复速度提升。<lf><lf>主要发动方式<lf>・发动装备技能
+<string>
+<string><ICON ST_STAMINA_CONTINUE><REF HibikiDataText_Wp05_3>
+<string><REF WeaponTutorial_CP_180><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_AVOID_UP>回避性能提升
+<string>回避性能提升。<lf><lf>主要发动方式<lf>・发动回避性能技能<lf>・狩猎笛的<REF RefStatus_0006_000_01>效果
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>移动速度提升。<lf>迭加<REF RefStatus_0008_000_00>后，攻击不会被弹开，<lf>且攻击力也会提升。<lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
+<string><REF WeaponTutorial_CP_155><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_WIND><REF MusicSkillDataText_Wp05_33>／<ICON ST_RESIST_WIND_HIGH><REF MusicSkillDataText_Wp05_34>
+<string><REF WeaponTutorial_CP_150><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_NOISE><REF MusicSkillDataText_Wp05_28>／<ICON ST_RESIST_NOISE_HIGH><REF MusicSkillDataText_Wp05_29>
+<string><REF WeaponTutorial_CP_153><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_QUAKE><REF MusicSkillDataText_Wp05_30>
+<string><REF WeaponTutorial_CP_154><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_STUN><REF MusicSkillDataText_Wp05_32>
+<string><REF WeaponTutorial_CP_151><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_PARALYSIS><REF MusicSkillDataText_Wp05_31>
+<string><REF WeaponTutorial_CP_152><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_ELEMENT><REF MusicSkillDataText_Wp05_39>
+<string><REF WeaponTutorial_CP_162><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
+<string><REF WeaponTutorial_CP_158><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>或<REF RefStatus_0006_000_01>效果
+<string>
+<string><ICON ST_SOUND_BARRIER><REF MusicSkillDataText_Wp05_44>
+<string><REF WeaponTutorial_CP_172><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
+<string><REF WeaponTutorial_CP_156><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
+<string><REF WeaponTutorial_CP_157><lf><lf>主要发动方式<lf>・狩猎笛的<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_COLD>耐寒状态
+<string>某些非常寒冷的区域中，耐力上限的减少<lf>速度会加快。但在此状态下，该效果无效。<lf><lf>主要发动方式<lf>・使用<REF Item_IT_167><lf>・利用<REF EnemyText_NAME_EM5005_20_0>
+<string>
+<string><ICON ST_RESIST_HOT>抗暑状态
+<string>某些非常炎热的区域中，体力会逐渐流失。<lf>但在此状态下，该效果无效。<lf><lf>主要发动方式<lf>・使用<REF Item_IT_166><lf>・利用<REF EnemyText_NAME_EM5005_10_0>
 <string>
 <string><ICON ST_MEAL_UP>餐点效果
 <string>用餐后得到了餐点效果的状态。<lf><lf>主要发动方式<lf>・用餐
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP>睡眠
+<string>睡眠的累积值达到一定程度后引发，睡意<lf>来临后，经过一定时间将完全沉睡，无法<lf>行动。<lf><lf>主要解除方式：<lf>・完全沉睡前使用<REF Item_IT_163><lf>・受到攻击<lf>・睡眠状态下经过一定时间
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>经过一定时间或被攻击击飞时，就会爆炸<lf>并受到伤害。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_212><lf>・反复做回避动作
+<string>
+<string><ICON ST_LACERATE>裂伤状态
+<string>只要行动就会受到伤害。<lf>解除后，自然回复量将暂时提升。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_9>等肉类<REF RefItem_0000><lf>・蹲下一定时间
+<string>
 <string><ICON ST_STUN>昏厥
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN>闪光昏厥
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING>丝线束缚
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT>冻结异常
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN>防御力下降
+<string>防御力下降，受到的伤害增加。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_127>或<REF Item_IT_171>等<lf>・经过一定时间
+<string>
+<string><ICON ST_BADSMELL>恶臭
+<string>无法使用饮品类和食物类<REF RefItem_0000>。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_212><lf>・在水域做回避动作<lf>・经过一定时间
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME>狂龙症
+<string>狂龙病毒累积到一定程度后感染，必须攻<lf>击怪物一定次数以克服症状，否则将会发<lf>病。<lf><lf>发病状态：受到的伤害上升，<lf>　　　　　体力不会自然回复。<lf>克服状态：会心率上升，<lf>　　　　　不会感染狂龙症。<lf><lf>两种状态都会随时间推移而解除。<lf><lf>感染状态时使用<REF Item_IT_7>可拖延发病时间。
+<string>
 <string><ICON ST_FIRE>火属性异常
 <string>体力会随时间推移而减少。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・进入水域后，反复做回避动作<lf>・经过一定时间
 <string>
@@ -221,6 +363,12 @@
 <string>风压异常
 <string>一定时间内行动受限。<lf>受限时间因风压强度而异。<lf><lf>主要解除方式：<lf>・经过一定时间<lf>・受到攻击
 <string>
+<string>寒冷
+<string>在某些区域中，耐力上限的减少速度变快。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_167><lf>・利用<REF EnemyText_NAME_EM5005_20_0>
+<string>
+<string>炎热
+<string>在某些区域中，体力随时间推移而减少。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_166><lf>・利用<REF EnemyText_NAME_EM5005_10_0>
+<string>
 <string>纳刀状态
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -244,6 +392,12 @@
 <string>
 <string><REF Item_IT_21>
 <string>可以回复损耗的<REF RefStatus_0003_005>，作为<REF RefItem_0023_06>随<lf>身携带。<lf><lf>如果通过自定义快捷方式使用，则可以在拔<lf>刀状态时磨刀。
+<string>
+<string>装备技能“<REF SkillCommon_1160639488>”
+<string>延长武器锋利度槽的技能。延长后的<REF RefStatus_0003_005><lf>颜色因武器性能而异。<lf><lf>锋利度槽的延长量，会预先显示在状态内的<lf>锋利度槽中。
+<string>
+<string>装备技能“<REF SkillCommon_1500129152>”
+<string>使用<REF Item_IT_21>时发动的技能。<lf>一定时间内<REF RefStatus_0003_005>不会降低。
 <string>
 <string>集中模式
 <string>集中模式
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>一定时间内，使怪物无法发现自己。攻击<lf>或受到伤害时，隐身效果会立即结束。<lf><lf>隐身衣装与其他<REF RefMenu_110_14>不同，猎人会一<lf>直携带。
+<string>
+<string><REF Item_IT_626>
+<string>消除受到伤害时的硬直，获得<REF MusicSkillDataText_Wp05_33>、<lf>听觉保护、<REF MusicSkillDataText_Wp05_30>的效果。也会减少<lf>受到的伤害。<lf><lf>受到攻击后，效果时间会缩短。
+<string>
+<string><REF Item_IT_627>
+<string>体力会缓慢回复。受到攻击后一定时间内，<lf>如果没有再次受伤，回复速度就会提升。<lf><lf>攻击怪物也会慢慢回复体力。
+<string>
+<string><REF Item_IT_628>
+<string>抓准时机回避怪物的攻击，就会发动能无伤<lf>躲开攻击的特殊回避动作。<lf><lf>发动特殊回避动作后，攻击力会暂时提升。
+<string>
+<string><REF Item_IT_629>
+<string>装备时体力持续减少，但会心率提升，各<lf>种武器的性能也会得到强化。持续命中怪<lf>物会进入克服状态，进一步提升攻击力和<lf>会心率。
 <string>
 <string>狩猎怪物的诀窍
 <string>骑乘怪物状态
@@ -338,6 +504,9 @@
 <string>异臭状态
 <string>怪物染上恶臭的状态。能通过<REF Item_IT_72><lf>等引发，用来赶走大型怪物。
 <string>
+<string>爆破状态
+<string>在怪物身上引发<REF RefStatus_0008_002_04>造成伤害。通过带<REF RefStatus_0008_002_04><lf>属性的武器攻击等方式，积蓄累积值以引发<lf>效果。
+<string>
 <string>怪物的弱点
 <string>怪物发动特定攻击的前后，有可能会暴露<lf>出弱点。使用<REF ActionGuideDataNameText_Wp00_m1804493312>即可看出弱点。<lf><lf>用<REF ActionGuideDataNameTextCommon_423599584>命中弱点，可以创造绝佳<lf>的攻击机会。
 <string>
@@ -348,9 +517,24 @@
 <string>可以对虚弱的大型怪物设下陷阱，再使用<lf><REF Item_IT_181>等道具将其捕获。<lf>※无法从捕获的怪物身上剥取素材。<lf><lf>由于可以调查怪物活体，公会将提供奖励，<lf>有机会得到难以或无法经剥取获得的素材。
 <string>
 <string>削弱怪物
-<string>要捕获怪物，必须将其体力削减到一定值<lf>以下，使其虚弱。<lf><lf>虚弱后，用<REF Item_IT_19>或者<REF Item_IT_20>束缚住<lf>怪物的行动，再对其使用<REF Item_IT_181>等<lf>捕获道具以增加累积值。<lf><lf>积蓄足够的累积值、怪物因麻醉沉睡后，<lf>就代表捕获成功。
+<string>要捕获怪物，必须将其体力削减到一定值<lf>以下，使其虚弱。<lf><lf>虚弱后，用<REF Item_IT_19>或者<REF Item_IT_20>束缚住<lf>怪物的行动，再对其使用<REF Item_IT_181>等<lf>捕获道具以增加累积值。<lf><lf>积蓄足够的累积值，使怪物因麻醉沉睡后，<lf>就代表捕获成功。
 <string>
 <string>束缚怪物
 <string>
 <string>用<REF Item_IT_181>命中
+<string>
+<string>狂龙化
+<string>怪物受到狂龙病毒的感染、变得狂暴不堪的<lf>状态被称为“狂龙化”。<lf><lf>狂龙化怪物的特征是缺乏与睡眠、捕食等相<lf>关的自发移动行为，且比起一般个体更具有<lf>攻击性。<lf><lf>此外，因为受到狂龙病毒的影响，它们无法<lf>达到一般个体的正常寿命，体力也更少。<lf>
+<string>
+<string>护龙
+<string>由古代文明人工创造的造龙种。这些生物<lf>没有生殖功能，也不会捕食其他生物，它<lf>们的主要能量来源是龙乳。通过吸收龙乳，<lf>它们能够修复身体上的创伤，因此拥有比<lf>普通怪物更高的生命力。由于自我保护的<lf>本能，它们对获取能量的地点表现出强烈<lf>的执着，并且具备极高的攻击性。
+<string>
+<string>历战个体
+<string>从无数战斗中存活下来的个体。与一般个体<lf>相比，体力和攻击力均得到大幅提高，是非<lf>常强大的怪物。此外，由于受到过往战斗的<lf>影响，它们和一般个体不同，身体某些部位<lf>从一开始就带有伤口，称为“历战伤口”。
+<string>
+<string>历战伤口
+<string>历战个体在经历无数战斗时，身体各处留下<lf>的创伤。<lf><lf>和普通个体不同，历战个体的身上在一开始<lf>就有着多处创伤。受到攻击后，这些创伤会<lf>渐渐裂开，有机会形成大伤口。
+<string>
+<string>尸体变化
+<string>怪物的尸体经过一段时间后会变为腐坏的尸<lf>体。不同状态下可剥取的素材会发生改变。<lf><lf>小型怪物有时还会从腐坏的尸体变为<REF Gimmick_NAME_1176528640>或<lf><REF Item_IT_270>，采集可以获得相应素材。另外，<lf>护龙有时会变为结晶化尸体，可剥取的素材<lf>也会发生改变。
 <string>

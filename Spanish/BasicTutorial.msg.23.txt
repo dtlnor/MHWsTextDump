@@ -32,7 +32,7 @@
 <string>
 <string>Mostrar menú radial (teclado)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
-<string><COLOR preset="TXT_Danger">Mostrar menú radial para teclado</COLOR><lf>Pulsa <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> para mostrar tu menú<lf>radial personalizado.<lf><lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> muestra un atajo.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> muestra cuatro atajos.<lf><ICON MKB UI_PC_SHORTCUT_KEY_00> - <ICON MKB UI_PC_SHORTCUT_KEY_11> selecciona un objeto, una frase, etc.<lf>Usa <ICON MKB UI_PC_SHORTCUT_PALLET_00> y después <ICON MKB UI_PC_SHORTCUT_PALLET_07> para cambiar de atajo.<lf><lf>Los menús radiales se pueden editar<lf>en Personalizar menú radial,<lf>en el menú de inicio.
+<string><COLOR preset="TXT_Danger">Mostrar menú radial para teclado</COLOR><lf>Pulsa <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> para mostrar tu menú<lf>radial personalizado.<lf><lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> muestra un atajo.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> muestra cuatro atajos.<lf><ICON MKB UI_PC_SHORTCUT_KEY_00> - <ICON MKB UI_PC_SHORTCUT_KEY_11> selecciona un objeto, una frase, etc.<lf>Usa <ICON MKB UI_PC_SHORTCUT_PALLET_00> y después <ICON MKB UI_PC_SHORTCUT_PALLET_07> para cambiar de atajo.<lf><lf>Los menús radiales se pueden editar<lf>desde "personalizar menú radial",<lf>en el menú de inicio.
 <string>
 <string>Seleccionar objetos, frases, etc. (teclado)
 <string><ICON MKB UI_PC_SHORTCUT_KEY_00><ICON MKB UI_PC_SHORTCUT_KEY_01><ICON MKB UI_PC_SHORTCUT_KEY_02><ICON MKB UI_PC_SHORTCUT_KEY_03><ICON MKB UI_PC_SHORTCUT_KEY_04><ICON MKB UI_PC_SHORTCUT_KEY_05><ICON MKB UI_PC_SHORTCUT_KEY_06><ICON MKB UI_PC_SHORTCUT_KEY_07><ICON MKB UI_PC_SHORTCUT_KEY_08><ICON MKB UI_PC_SHORTCUT_KEY_09><ICON MKB UI_PC_SHORTCUT_KEY_10><ICON MKB UI_PC_SHORTCUT_KEY_11>
@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string>Los cuchillos arrojadizos
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
@@ -170,16 +208,97 @@
 <string>
 <string>Efectos de estado
 <string><ICON ST_POWER_UP> Potencia el ataque
-<string>Mejora el ataque.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos como la semilla<lf>de poder y la droga demoníaca.<lf>- Efectos de melodías y burbujas<lf>sónicas de la cornamusa.
+<string>Mejora el ataque.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos como la semilla<lf>de poder y la droga demoníaca.<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
 <string>
 <string><ICON ST_DEFECE_UP> Mejora de defensa
-<string>Mejora la defensa.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos como la semilla<lf>armadura y la piel de armadura.<lf>- Efectos de melodías y burbujas<lf>sónicas de la cornamusa.
+<string>Mejora la defensa.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos como la semilla<lf>armadura y la piel de armadura.<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_CRITICAL_UP> Afinidad mejorada
+<string>Aumenta la afinidad.<lf><lf>Métodos habituales de obtención:<lf>- Activando habilidades tales<lf>como "instigación".<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Bonus ataque elemental
+<string>Aumenta el poder elemental de tu arma.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Potencia ataque estado alterado
+<string>Aumenta la potencia<lf>del efecto de estados alterados<lf>que infliges a los monstruos.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Mejora anti fuego
-<string>Aumenta la resistencia al fuego<lf>y anula la plaga de fuego.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de melodía y efectos<lf>de burbujas sónicas de la cornamusa.
+<string>Aumenta la resistencia al fuego<lf>y anula la plaga de fuego.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Mejora anti agua
+<string>Aumenta la resistencia al agua<lf>y anula la plaga de agua.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Mejora anti rayo
+<string>Aumenta la resistencia al rayo<lf>y anula la plaga de rayo.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Mejora anti hielo
+<string>Aumenta la resistencia al hielo<lf>y anula la plaga de hielo.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Mejora anti draco
+<string>Aumenta la resistencia al draco<lf>y anula la plaga de draco.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_SPIRIT> Protección divina
+<string>Da cierta probabilidad de que<lf>se reduzca el daño que recibes.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_HEAL_CONTINUE> Recuperación de salud
+<string>Recupera tu salud gradualmente.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de burbujas sónicas<lf>de la cornamusa.
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Recuperación rápida
+<string>Aumenta la velocidad a la que<lf>se recupera la parte roja de<lf>tu barra de salud.<lf><lf>Métodos habituales de obtención:<lf>- Usando objetos tales como<lf>inmunizadores o la cecina salvaje.<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Antigasto de resistencia
+<string>Reduce el consumo de resistencia.<lf><lf>Métodos habituales de obtención:<lf>- Usando un zumo de poder.<lf>- Recolectando lichibichos.<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Recuperación resistencia+
+<string>Un estado que aumenta la tasa de<lf>recuperación de resistencia.<lf><lf>Métodos habituales de obtención:<lf>- Activando la habilidad de<lf>equipamiento correspondiente.
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Recuperación de resistencia
+<string>Recupera continuamente tu resistencia.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de burbujas sónicas<lf>de la cornamusa.
+<string>
+<string><ICON ST_AVOID_UP> Mejora de intervalo de evasión
+<string>Hace que sea más fácil<lf>esquivar ataques.<lf><lf>Métodos habituales de obtención:<lf>- Activando la habilidad de<lf>equipamiento correspondiente.<lf>- Con efectos de burbujas sónicas<lf>de la cornamusa.
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Automejora
-<string>Aumenta la velocidad de movimiento.<lf><lf>Si acumulas este efecto varias veces,<lf>aumentará tu poder de ataque y<lf>evitará que tus ataques sean repelidos.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de melodía y efectos<lf>de burbujas sónicas de la cornamusa.
+<string>Aumenta la velocidad de movimiento.<lf><lf>Si acumulas este efecto varias veces,<lf>aumentará tu poder de ataque y<lf>evitará que tus ataques sean repelidos.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_ARMOR> Anula empujes
+<string>Protege contra los empujes que<lf>sufres al recibir ataques.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_WIND> Anula ráfagas de viento/<ICON ST_RESIST_WIND_HIGH> anula toda ráfaga de viento
+<string>Protege contra ráfagas de viento.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_NOISE> Antirrugidos (P)/<ICON ST_RESIST_NOISE_HIGH> antirrugidos (G)
+<string>Protege contra rugidos de monstruos.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_QUAKE> Anula temblores
+<string>Protege contra los temblores.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_STUN> Anula aturdimiento
+<string>Protege contra el aturdimiento.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Anula parálisis
+<string>Protege contra la parálisis.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_ELEMENT> Anula plagas
+<string>Anula todas las plagas elementales.<lf><lf>Métodos habituales de obtención:<lf>- Con efectos de melodía<lf>de la cornamusa y las burbujas<lf>sónicas.
+<string>
+<string><ICON ST_RESIST_DEBUF> Anula estados alterados
+<string>Anula todos los estados alterados.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía y<lf>burbujas sónicas de la cornamusa.
+<string>
+<string><ICON ST_SOUND_BARRIER> Barrera sónica
+<string>Reduce una vez el daño recibido,<lf>y además anula las ráfagas de viento,<lf>los temblores y rugidos una vez.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_GROUND> Anula daños ambientales
+<string>Anula el daño recibido por terreno con<lf>pinchos o lava, además de proteger<lf>contra los efectos negativos por calor<lf>o frío extremo.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_MUD> Movilidad por agua/fango
+<string>Evita que te ralentice el agua profunda<lf>o el fango oleoso. También niega el<lf>efecto de las olas que produzcan los<lf>monstruos.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de melodía<lf>de la cornamusa.
+<string>
+<string><ICON ST_RESIST_COLD> Resistencia al frío
+<string>Anula los efectos de la reducción<lf>de resistencia máxima al exponerse<lf>a zonas muy frías.<lf><lf>Métodos habituales de obtención:<lf>- Usando de bebidas calientes.<lf>- Recolectando dípteros calefacto.
+<string>
+<string><ICON ST_RESIST_HOT> Resistencia al calor
+<string>Protege contra la pérdida de salud<lf>gradual al estar en zonas con calor<lf>extremo.<lf><lf>Métodos habituales de obtención:<lf>- Uso de bebidas frías.<lf>- Recolectando dípteros regrigerio.
 <string>
 <string><ICON ST_MEAL_UP> Efectos de menú
 <string>Indica los efectos obtenidos al comer.<lf><lf>Métodos habituales de obtención:<lf>- Mediante efectos de menú.
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sueño
+<string>Cuando te ataque el sueño, te dormirás<lf>casi enseguida, lo que te impedirá<lf>moverte. Ocurre al acumularse la<lf>cantidad suficiente de estado.<lf><lf>Métodos habituales de curación:<lf>- Usando una bebida energética antes<lf>de dormirte.<lf>- Recibiendo un ataque.<lf>- Esperando a que pase el efecto<lf>tras dormir.
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>Un estado que hace detonar una<lf>explosión que te empuja e inflige daño.<lf>Se activa después de un tiempo<lf>o si te golpea un ataque.<lf><lf>Métodos habituales de curación:<lf>- Usando un desodorante.<lf>- Esquivando varias veces seguidas.
+<string>
+<string><ICON ST_LACERATE> Sangrados
+<string>Un estado que hace que recibas daño<lf>al moverte. (Al curar este estado<lf>se potenciará durante un tiempo<lf>tu recuperación natural).<lf><lf>Métodos habituales de curación:<lf>- Usando un filete al punto u otros<lf>objetos cárnicos.<lf>- Agachándote brevemente.
+<string>
 <string><ICON ST_STUN> Aturdimiento
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Aturdimiento con destello
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Enmarañado
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Plaga de escarcha
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Defensa reducida
+<string>Un estado que reduce la defensa,<lf>lo que aumenta el daño recibido.<lf><lf>Métodos habituales de curación:<lf>- Usando objetos como la semilla<lf>armadura y la piel de armadura.<lf>- Esperando a que se pasen los efectos.
+<string>
+<string><ICON ST_BADSMELL> Hedor
+<string>Un estado que te impide utilizar<lf>alimentos o bebidas.<lf><lf>Métodos habituales de curación:<lf>- Usando un desodorante.<lf>- Esquivando sobre agua.<lf>- Esperando a que se pasen los efectos.
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Cólera
+<string>Una larga exposición al virus de la cólera<lf>acabará infectándote, salvo que conectes<lf>cierto número de golpes con un monstruo.<lf><lf>Al infectarte: Detiene la recuperación natural<lf>y aumenta el daño recibido.<lf><lf>Tras curarte: Aumenta la afinidad y obtienes<lf>resistencia a la cólera.<lf><lf>Es posible ralentizar la aparición del virus<lf>tomándote una curibaya.
+<string>
 <string><ICON ST_FIRE> Plaga de fuego
 <string>Un estado que merma tu salud<lf>con el tiempo.<lf><lf>Métodos habituales de curación:<lf>- Usando una curibaya.<lf>- Esquivando varias veces en el agua.<lf>- Esperando a que se pasen los efectos.
 <string>
@@ -221,6 +363,12 @@
 <string>Ráfagas de viento
 <string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad de la ráfaga de viento.<lf><lf>Métodos habituales de curación:<lf>- Esperando a que se pasen los efectos.<lf>- Recibiendo un ataque.
 <string>
+<string>Frío
+<string>Un estado que acelera la velocidad a<lf>la que disminuye el tamaño de la barra<lf>de resistencia en determinadas zonas.<lf><lf>Métodos habituales de curación:<lf>- Usando una bebida caliente.<lf>- Recolectando dípteros calefactos.
+<string>
+<string>Calor
+<string>Un estado que te hace perder salud<lf>lentamente en determinadas zonas.<lf><lf>Métodos habituales de curación:<lf>- Usando una bebida fría.<lf>- Recolectando dípteros refrigerio.
+<string>
 <string>Con arma envainada
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -234,7 +382,7 @@
 <string><INPUTMSG MsgGUI600200_00_042>
 <string>
 <string>Con arma desenvainada
-<string>Estado en el que empuñas tu arma.<lf><lf>Pulsa <ICON PL_WEAPON_OFF> para envainarla.<lf><lf>Los controles detallados de cada arma<lf>se encuentran en:<lf>- Menú de inicio → Guía del juego → <lf>Controles de armas
+<string>Estado en el que empuñas tu arma.<lf><lf>Pulsa <ICON PL_WEAPON_OFF> para envainarla.<lf><lf>Los controles detallados de cada arma<lf>se encuentran en:<lf>- Menú de inicio → Guía del juego →<lf>Controles de armas
 <string>
 <string>Envainar arma
 <string><ICON PL_WEAPON_OFF>
@@ -243,7 +391,13 @@
 <string>Cuando empuñes un arma cuerpo a cuerpo,<lf>verás aparecer una barra que indica<lf>su afilado. El afilado actual del arma<lf>se muestra con un código de colores,<lf>que indican su poder para atravesar<lf>la coraza de los monstruos.<lf><lf>A medida que lances ataques, el afilado<lf>del arma se irá reduciendo. Atacar con<lf>un arma mellada no es muy efectivo: es<lf>más probable que tus ataques reboten<lf>contra la piel o escamas de los monstruos.
 <string>
 <string><REF Item_IT_21>
-<string>La piedra de afilar restablece el<lf>afilado perdido de tu arma. Es un objeto<lf>fijo y, por tanto, siempre está<lf>disponible en tu bolsa de objetos.<lf><lf>Este objeto se puede usar incluso con<lf>el arma desenvainada si la asignas al<lf>menú radial personalizado o a un atajo.
+<string>La piedra de afilar restablece el<lf>afilado perdido de tu arma. Es un<lf>objeto fijo y, por tanto, siempre está<lf>disponible en tu barra de objetos.<lf><lf>Este objeto se puede usar incluso con<lf>el arma desenvainada si la asignas al<lf>menú radial personalizado o a un atajo.
+<string>
+<string>Habilidad de armadura - Artesanía
+<string>Una habilidad que amplía la barra<lf>de afilado. El color de la barra tras<lf>aplicarse dependerá del arma.<lf><lf>Los cambios de la barra se pueden<lf>ver con más detalle en la sección<lf>"equipamiento" del menú de inicio.
+<string>
+<string>Habilidad de armadura - Acabado protector
+<string>"Acabado protector" es una habilidad<lf>que se activa al usar piedras de afilar.<lf>Reduce el ritmo de desgaste del arma.
 <string>
 <string>Modo preciso
 <string>Modo preciso
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>El manto de camuflaje sirve para<lf>ocultarse temporalmente de los monstruos.<lf>Atacar o sufrir daño cancela el efecto,<lf>independientemente del tiempo restante.<lf><lf>A diferencia de otras herramientas<lf>especializadas, este es un objeto esencial<lf>que siempre llevarás contigo.
+<string>
+<string><REF Item_IT_626>
+<string>El manto de firmeza te mantiene<lf>estable ante ciertos ataques y<lf>te protege de ráfagas de viento,<lf>rugidos y temblores. También<lf>reduce el daño recibido.<lf><lf>Si recibes daño, se acortará<lf>la duración del efecto.
+<string>
+<string><REF Item_IT_627>
+<string>El manto remendado recupera tu salud<lf>gradualmente. Si tras recibir un ataque<lf>no sufres daño durante cierto tiempo,<lf>aumentará la velocidad a la que se<lf>recupera tu salud.<lf><lf>También recuperarás salud al atacar a<lf>monstruos.
+<string>
+<string><REF Item_IT_628>
+<string>El manto de evasión activa una esquiva<lf>especial que evita que recibas ningún<lf>daño si consigues evadir el ataque de<lf>un monstruo en el momento preciso.<lf><lf>Potencia el ataque después de esquivar<lf>a un monstruo con éxito.
+<string>
+<string><REF Item_IT_629>
+<string>Al equiparse, el manto corrupto reduce<lf>la salud, pero aumenta la afinidad<lf>y el rendimiento de las armas.<lf>Los ataques continuos a los monstruos<lf>harán aumentar aún más tu afinidad<lf>y tu potencia de ataque.
 <string>
 <string>Conceptos de caza
 <string>Cómo montar
@@ -338,6 +504,9 @@
 <string>Hedor
 <string>Estado en el que un monstruo se ve<lf>abrumado por un pestazo insoportable.<lf>Puedes infligirlo con cápsulas boñiga<lf>y, si lo consigues, pondrás al<lf>monstruo en fuga.
 <string>
+<string>Nitro
+<string>Nitro es un estado que se acumula<lf>lentamente para terminar provocando<lf>un estallido que hiere a los monstruos. Usa<lf>armas basadas en nitro para infligir<lf>este estado.
+<string>
 <string>Puntos débiles de los monstruos
 <string>El punto débil de un monstruo podría quedar<lf>expuesto antes o después de su ataque.<lf>Podrás localizar los puntos débiles<lf>gracias al modo preciso.<lf><lf>Lanzar un ataque preciso sobre un punto<lf>débil abrirá las defensas del monstruo.
 <string>
@@ -353,4 +522,19 @@
 <string>Atrapar a un monstruo
 <string>
 <string>Bombas tranquilizantes
+<string>
+<string>Cólera
+<string>Cuando los monstruos se infectan con<lf>el virus de la cólera, entran en estado<lf>colérico.<lf><lf>Los monstruos coléricos dejan de lado<lf>sus patrones de sueño y alimentación<lf>y se muestran mucho más agresivos<lf>y violentos de lo normal.<lf><lf>Los efectos de la cólera también reducen<lf>la salud y la vida del monstruo.
+<string>
+<string>Guardianes
+<string>Los Guardianes son monstruos artificiales<lf>creados por una civilización ancestral.<lf>No se reproducen ni poseen instinto<lf>depredador, pues pueden subsistir a base<lf>de leche de wyvern.<lf>La energía que absorben de la leche de<lf>wyvern les permite curarse, lo que los<lf>hace más resistentes que los monstruos<lf>normales. Su instinto de supervivencia<lf>los empuja a permanecer cerca de fuentes<lf>de energía, donde se vuelven<lf>increíblemente territoriales.
+<string>
+<string>Monstruos curtidos
+<string>Los monstruos curtidos son aquellos que<lf>han sobrevivido a innumerables batallas.<lf>Poseen más salud y potencia de ataque<lf>que los ejemplares normales, lo que los<lf>convierte en adversarios temibles.<lf><lf>Puede que, como resultado de anteriores<lf>encuentros violentos, estos monstruos<lf>presenten <COLOR preset="TXT_Danger">heridas curtidas</COLOR> por todo<lf>su cuerpo.
+<string>
+<string>Heridas curtidas
+<string>Las heridas curtidas cubren los cuerpos<lf>de los monstruos curtidos como reflejo<lf>de las muchas batallas afrontadas.<lf><lf>A diferencia de los monstruos normales,<lf>los curtidos ya muestran estas heridas<lf>antes de enfrentarte a ellos.<lf>Es posible volver a abrirlas poco a poco<lf>al fijarlas como objetivo para generar<lf>puntos débiles.
+<string>
+<string>Cadáveres putrefactos
+<string>Con el tiempo, los cadáveres de<lf>monstruos empezarán a pudrirse.<lf>Los materiales que puedes despiezar<lf>variarán en función de si son frescos<lf>o de si han comenzado a pudrirse.<lf><lf>Los monstruos pequeños putrefactos<lf>formarán pilas de huesos o brotes<lf>wyverianos de los que obtener<lf>materiales. Los cadáveres de los<lf>Guardianes se cristalizan, por lo que<lf>otorgan materiales propios y únicos.
 <string>

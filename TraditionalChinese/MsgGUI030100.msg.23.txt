@@ -13,6 +13,7 @@
 <string>可一併於多個選項套用下列推薦設定。<lf>套用的推薦設定當中若有選項有別於現有設定，將會強調顯示。<lf><COLOR preset="TXT_Accent">（無法於本畫面分別設定選項，僅可檢視推薦設定。）</COLOR>
 <string>套用推薦設定
 <string>選擇<COLOR preset="TXT_Accent">套用推薦設定</COLOR>後，將於各選項套用推薦設定。
+<string>由於當前硬體構成和以前不同，<lf>已重新設定部分設定項目。
 <string>遊戲設定
 <string>操控
 <string>視角
@@ -90,6 +91,14 @@
 <string><ICON MKB PL_MOVE_FRONT>為畫面深處方向，<ICON MKB PL_MOVE_BACK>為畫面前方方向。
 <string>類型2
 <string><ICON MKB PL_MOVE_FRONT>為角色的正面方向，<ICON MKB PL_MOVE_BACK>為角色的背面方向。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string><REF RefGeneral_0014_01>操作設定
 <string>設定<REF RefGeneral_0014_01>的操作方法。
 <string>呼喚<REF RefGeneral_0014_01>操作方式
@@ -319,6 +328,12 @@
 <string>對調左右按鍵操作與顯示，主要適合<lf>以左手操作滑鼠的玩家。
 <string>不對調
 <string>維持預設左右按鍵操作與顯示，主要適合<lf>以右手操作滑鼠的玩家。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>控制器按鈕圖示設定
 <string>設定在操作指南等處顯示的遊戲控制器按鈕配置。
 <string>類型1
@@ -358,11 +373,11 @@
 <string>縱向視角速度（<ICON PAD PL_AIM>時）
 <string>設定<ICON PAD PL_AIM>時的縱向視角移動速度。<lf>啟用「視角速度（拔刀後）」時，此設定僅適用於收刀狀態。
 <string>視角速度（拔刀後）
-<string>啟用後可分別設定使用近戰或遠程武器時，<lf>拔刀後<ICON PAD PL_AIM>時的視角速度。
+<string>啟用後可分別設定裝備近戰或遠程武器時，<lf>拔刀後<ICON PAD PL_AIM>時的視角速度。
 <string>近戰武器<ICON PAD PL_AIM>時（橫向）
-<string>設定使用近戰武器並於拔刀後<ICON PAD PL_AIM>（集中模式）的<lf>橫向視角移動速度。
+<string>設定裝備近戰武器並於拔刀後<ICON PAD PL_AIM>（集中模式）的<lf>橫向視角移動速度。
 <string>近戰武器<ICON PAD PL_AIM>時（縱向）
-<string>設定使用近戰武器並於拔刀後<ICON PAD PL_AIM>（集中模式）的<lf>縱向視角移動速度。
+<string>設定裝備近戰武器並於拔刀後<ICON PAD PL_AIM>（集中模式）的<lf>縱向視角移動速度。
 <string>遠程武器<ICON PAD PL_AIM>時（橫向）
 <string>設定遠程武器拔刀後<ICON PAD PL_AIM>（瞄準/集中模式）的<lf>橫向視角移動速度。
 <string>遠程武器<ICON PAD PL_AIM>時（縱向）
@@ -477,13 +492,13 @@
 <string><ICON PAD PL_AIM>期間維持
 <string>裝備近戰武器並於拔刀後<ICON PAD PL_AIM>期間<lf>將維持集中模式。
 <string>按<ICON PAD PL_POP_CHANGE_SELECT>切換
-<string>裝備近戰武器並於拔刀後按<ICON PAD PL_POP_CHANGE_SELECT>切換至集中模式，<lf>再按<ICON PAD PL_AIM>將會解除。
+<string>裝備近戰武器並於拔刀後按<ICON PAD PL_POP_CHANGE_SELECT>切換至集中模式，<lf>再按就會解除。
 <string>裝備遠程武器時的切換操作
 <string>設定裝備遠程武器時切換至瞄準/集中模式的操作。
 <string><ICON PAD PL_AIM>期間維持
-<string>使用遠程武器並於拔刀後<ICON PAD PL_AIM>期間，<lf>將維持瞄準/集中模式。
+<string>裝備遠程武器並於拔刀後<ICON PAD PL_AIM>期間，<lf>將維持瞄準/集中模式。
 <string>按<ICON PAD PL_POP_CHANGE_SELECT>切換
-<string>使用遠程武器並於拔刀後按<ICON PAD PL_POP_CHANGE_SELECT>切換至瞄準/集中<lf>模式，再按<ICON PAD PL_AIM>解除。
+<string>裝備遠程武器並於拔刀後按<ICON PAD PL_POP_CHANGE_SELECT>切換至瞄準/集中<lf>模式，再按就會解除。
 <string>目標視角操作類型
 <string>設定目標視角和重置視角的操作方式。
 <string>類型1
@@ -568,6 +583,10 @@
 <string>陀螺儀視角操作
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>啟用後可使用陀螺儀功能操作視角，並調整相關詳細設定。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>操作類型
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>設定何時可使用陀螺儀操作視角。
@@ -631,6 +650,50 @@
 <string>設定以弓曲射以及以重弩槍發射擴散彈時，<lf>預測彈道和準星的前後操作。<lf><COLOR preset="TXT_Accent">（以陀螺儀操作時）</COLOR>
 <string>按照控制器傾斜的方向前後移動<lf>預測彈道和命中位置。
 <string>按照控制器傾斜的反方向前後移動<lf>預測彈道和命中位置。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
 <string>顯示器輸出設定
 <string>選擇顯示遊戲畫面的顯示器。<lf><COLOR preset="TXT_Accent">（僅可於作業系統為Windows10以上，<lf>　且為多重顯示器環境時設定）</COLOR>
 <string>{0}: {1}
@@ -742,10 +805,10 @@
 <string>套用下列超解析度技術，就可兼得高效能與高畫質。
 <string>NVIDIA DLSS
 <string>使用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX顯示卡時<lf>　啟用此設定；若使用 GeForce RTX 40系列<lf>　顯示卡，並於作業系統的設定中啟用硬體<lf>　加速GPU排程時，選擇此選項後就可設定<lf>　「畫格生成」）</COLOR>
-<string>AMD FSR
+<string>AMD FSR 3
 <string>使用<FSR>。<lf><COLOR preset="TXT_Accent">（於作業系統的設定啟用硬體加速GPU排程時，<lf>　選擇此選項後就可設定「畫格生成」）</COLOR>
 <string>Intel XeSS
-<string>使用Intel <XeSS>。
+<string>使用Intel <XESS>。
 <string>不使用
 <string>不使用升頻。
 <string>畫格生成
@@ -762,7 +825,7 @@
 <string>NVIDIA DLAA
 <string>保留原始解析度，並使用人工智能反鋸齒。
 <string>AMD Native AA
-<string>保留原始解析度，並使用FSR反鋸齒。
+<string>保留原始解析度，並使用FSR 3反鋸齒。
 <string>Intel XeSS Native AA
 <string>保留原始解析度，並使用XeSS反鋸齒。
 <string>畫質優先
@@ -776,7 +839,7 @@
 <string>關
 <string>未使用升頻時會自動選擇此項目。
 <string>升頻清晰度
-<string>設定使用升頻時的畫質清晰度。數值越高，畫面越銳利，<lf>越低則越柔和。<lf><COLOR preset="TXT_Accent">（僅可於「升頻」設定為「AMD FSR」時變更此設定）</COLOR>
+<string>設定使用升頻時的畫質清晰度。數值越高，畫面越銳利，<lf>越低則越柔和。<lf><COLOR preset="TXT_Accent">（僅可於「升頻」設定為「AMD FSR 3」時變更此設定）</COLOR>
 <string>反鋸齒
 <string>切換反鋸齒模式。<lf><COLOR preset="TXT_Accent">（僅可於未使用「升頻」時變更此設定）</COLOR>
 <string>FXAA + TAA
@@ -792,6 +855,8 @@
 <string>低
 <string>最低
 <string>關
+<string>DirectStorage
+<string>選擇使用加快讀取資料的技術DirectStorage的硬體。<lf><COLOR preset="TXT_Accent">（僅可於支援DirectStorage的環境設定）</COLOR>
 <string>CPU
 <string>GPU
 <string>材質品質
@@ -816,6 +881,8 @@
 <string>最高
 <string>高
 <string>中
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>毛皮渲染品質
 <string>設定隨從艾路等生物的毛皮畫質。
 <string>高
@@ -834,9 +901,11 @@
 <string>最低
 <string>植物渲染品質
 <string>設定植物渲染品質。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>高
 <string>中
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>植物搖曳設定
 <string>設定是否使植物搖曳。
 <string>開
@@ -862,10 +931,13 @@
 <string>設定是否顯示水的流體效果。
 <string>啟用
 <string>停用
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
 <string>最高
 <string>高
 <string>中
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>渲染剔除距離
 <string>設定指定距離，超出此距離的各種生物的渲染會被省略，<lf>不在畫面上顯示。生物包括魔物、環境生物、非玩家角色和<lf>大廳裡的玩家角色。<COLOR preset="TXT_Accent">（僅可於標題畫面的設定選單變更）</COLOR>
 <string>不省略更遠距離的生物，渲染至極限。
@@ -893,18 +965,27 @@
 <string>高
 <string>中
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>接觸陰影
 <string>設定是否渲染陰影的細節。
 <string>開
 <string>關
 <string>環境光遮蔽
 <string>設定光線被遮蔽的位置的陰影渲染品質。
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>高
 <string>中
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>關
 <string>高光
 <string>設定光源明亮部分的泛光強度。
 <string>高
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>低
 <string>關
 <string>動態模糊
@@ -923,6 +1004,10 @@
 <string>設定是否顯示光線穿透物體後散射的效果。
 <string>開
 <string>關
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>景深
 <string>設定是否根據畫面深度改變焦點。
 <string>開
@@ -931,6 +1016,13 @@
 <string>設定空氣中的塵埃與粒子形成的霧氣品質。<lf>會影響陽光等光線在大氣散射時的顯示效果。
 <string>高
 <string>低
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>可變速率著色
 <string>設定是否減少像素著色器的處理程序，以減少著色器與特效的<lf>渲染負荷。
 <string>關
@@ -1031,6 +1123,14 @@
 <string>設定與大型魔物戰鬥時的小地圖比例。
 <string><ICON PL_ITEM_SLIDER_OPEN>期間
 <string>設定<ICON PL_ITEM_SLIDER_OPEN>期間的小地圖比例。
+<string>原野地圖旋轉
+<string>設定是否旋轉原野地圖。
+<string>旋轉
+<string>可向左右旋轉原野地圖。
+<string>旋轉＋重置為向北
+<string>可旋轉原野地圖，並於重置游標位置（<ICON UI_MAP3D_RESET_POSITION>）時<lf>將地圖重置為北方向上的狀態。
+<string>不旋轉
+<string>無法旋轉原野地圖，並將地圖固定於<lf>北方向上的狀態。
 <string>其他玩家角色的命中視覺效果
 <string>設定是否顯示其他玩家角色的命中視覺效果。<lf><COLOR preset="TXT_Accent">（不會影響自身角色的視覺效果）</COLOR>
 <string>顯示
@@ -1214,8 +1314,10 @@
 <string>魔物遮住角色身體時，以藍色線條顯示角色剪影。
 <string>照片同步儲存設定
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>設定以相機功能拍攝的照片儲存至保存資料時，<lf>是否同步儲存至硬體儲存空間。
 <string>同步儲存
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
+<string>照片將同步儲存至保存資料和硬體儲存空間。
 <string>不同步儲存
 <string>僅儲存照片至保存資料。
 <string>匿名顯示其他玩家名稱
@@ -1234,6 +1336,12 @@
 <string>不論收刀時或拔刀時，皆不顯示一般操作指南，<lf>只顯示旋律效果一覽。
 <string>類型3
 <string>收刀時和拔刀時皆顯示一般操作指南，拔刀時僅於<lf><ICON PL_ITEM_SLIDER_OPEN>期間顯示旋律效果一覽。
+<string>武器攻擊力顯示方式
+<string>設定顯示武器攻擊力時，數值是否乘上各個武器種類<lf>特有的係數。<lf><COLOR preset="TXT_Accent">（此設定不會影響實際造成的傷害）</COLOR>
+<string>使用係數
+<string>顯示基礎攻擊力乘以各個武器種類特有係數的數值。<lf>武器種類的每下攻擊威力越大，數值越高，感覺較<lf>直觀。
+<string>不使用係數
+<string>不使用各武器獨有係數，直接顯示每把武器的<lf>基礎攻擊力，方便比較不同武器種類之間的武<lf>器的攻擊力。
 <string>主音量
 <string>設定全體聲音的音量。<lf><COLOR preset="TXT_Accent">（語音聊天的音量不受影響）</COLOR>
 <string>語音音量

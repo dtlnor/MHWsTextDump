@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>－
 <string>-
 <string>：
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>－
+<string>-{0}
 <string>×
+<string>×{0}
 <string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>？
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>是
 <string>否
 <string>取消
@@ -50,12 +55,20 @@
 <string>或
 <string>和
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Lv
 <string>稀有度
 <string>？？？
 <string>???
 <string>？？？？？
 <string>?????
+<string>白色孤影
+<string>牙兽种[???]
+<string>黑炎
+<string>辟兽[???]
+<string>火龙[???]
+<string>刺花蜘蛛[???]
+<string>鹭鹰龙[???]
 <string>-----
 <string>－－－－－－
 <string>无
@@ -90,12 +103,16 @@
 <string>猎人
 <string>随从艾露猫
 <string>鹭鹰龙
+<string>噗吱猪
 <string>支援猎人
+<string>小队
 <string>z
 <string>金钱
 <string>点
 <string>公会点数
 <string>%
+<string>{0}%
+<string>激运票
 <string>【{0}】
 <string>最合适体力回复<lf>【{0}】
 <string>最合适状态回复<lf>【{0}】
@@ -122,3 +139,5 @@
 <string>可下载内容
 <string>可下载内容
 <string>服务器
+<string><PLATMSG RefGeneral_0028>
+<string>

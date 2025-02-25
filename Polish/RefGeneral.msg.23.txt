@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>–
 <string>–
 <string>:
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>-
+<string>-{0}
 <string>x
+<string>x{0}
 <string><COLOR preset="TXT_Sub">x</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>?
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>Tak
 <string>Nie
 <string>Anuluj
@@ -50,12 +55,20 @@
 <string> lub 
 <string>i
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Poziom 
 <string>Rzadkość
 <string>???
 <string>???
 <string>?????
 <string>?????
+<string>Białe Widmo
+<string>Zębata bestia [???]
+<string>Czarny Płomień
+<string>Doshaguma [???]
+<string>Rathalos [???]
+<string>Lala Barina [???]
+<string>Seikret [???]
 <string>------
 <string>------
 <string>(brak)
@@ -90,15 +103,19 @@
 <string>Łowca
 <string>Koleżkot
 <string>Seikret
+<string>Świnka
 <string>Łowca wspierający
+<string>Oddział
 <string>z
 <string>zeni
 <string>pkt
 <string>Punkty Gildii
 <string>%
+<string>{0}%
+<string>Szczęśliwe talony
 <string>[{0}]
-<string>Optymalna regeneracja zdrowia<lf><COLOR preset="TXT_Accent">{0}</COLOR>
-<string>Optymalna regeneracja statusu<lf><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>Opt. regen. zdrowia<lf><COLOR preset="TXT_Accent">{0}</COLOR>
+<string>Opt. regen. statusu<lf><COLOR preset="TXT_Accent">{0}</COLOR>
 <string>{0}...
 <string>Nazwa
 <string><PLATMSG RefGeneral_0018_001>
@@ -122,3 +139,5 @@
 <string>DLC
 <string>Zawartość do pobrania
 <string>Serwer
+<string><PLATMSG RefGeneral_0028>
+<string>

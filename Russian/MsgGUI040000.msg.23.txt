@@ -1,13 +1,15 @@
-﻿<string>Список игроков
+﻿<string>Список участников
 <string>Обновить
 <string>Участники в лобби
-<string>Участники общего отряда
+<string>Список участников общего отряда
 <string>Исполнители поручения
 <string>Последние взаимодействия
-<string>Друзья охотника
-<string>Последователь
-<string>Последователи
-<string>Чёрный список
+<string>Друзья-охотники
+<string>Подписки
+<string>Подписчики
+<string>Участники отряда
+<string>Список участников отряда: {0}
+<string>Список заблокированных игроков
 <string><PLATMSG MsgGUI040000_0001_10>
 <string>Друзья с разных платформ
 <string>Друзья из Steam
@@ -17,16 +19,17 @@
 <string><REF RefGeneral_0018_002>
 <string><REF RefGeneral_0018_001>
 <string>Статус
-<string>Прогресс
+<string>Прохождение сюжета
 <string>Дата взаимодействия
 <string>Взаимодействие
 <string>Однопользовательская сетевая игра
 <string>Нет информации
-<string>Имя игрока анонимизировано.
+<string>Имена игроков анонимизированы.
+<string>Нет активных отрядов.
 <string>Поиск по ID охотника
-<string>Введите ID охотника (не более 8 символов).<lf><COLOR preset="TXT_Accent">Регистр не учитывается.</COLOR>
+<string>Введите ID охотника.<lf><lf><COLOR preset="TXT_Accent">Обратите внимание: максимальная длина — 8 символов,<lf>регистр учитывается.</COLOR>
 <string>Найден охотник с ID {0}.
-<string>Охотник с ID {0} не найден.
+<string>{0}<lf>Этот ID охотника не был найден.<lf>{1}
 <string>{0}<lf>Это ID вашего охотника.
 <string>Порядок по умолчанию
 <string>В алфавитном порядке
@@ -34,6 +37,7 @@
 <string>По релевантности
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
+<string><REF RefMenu_019>
 <string><REF RefMenu_020>
 <string><REF RefMenu_021>
 <string>Удалить из общего отряда
@@ -62,8 +66,8 @@
 <string>В общем мире ({0})
 <string>Выполняет сюжетное задание
 <string>В экспедиции
-<string>Бездействует
 <string>Нет на месте
+<string>Бездействует
 <string>В сети
 <string>В сети (одиночная игра)
 <string>Не в сети
@@ -71,16 +75,16 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_03
-<string>Последний вход: {0} д. назад
+<string>Последний вход: <PLURAL {0} "{0} день" "{0} дня" "{0} дней"> назад
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_05
 <string>Последний вход: более 1 недели назад
 <string>Последний вход: более 1 месяца назад
-<string>Выполнено поручений вместе
-<string>Сыграно вместе: {0}
+<string>Выполненные совместно поручения
+<string>Выполнено поручение <BOLD>«{0}»</BOLD>
 <string>Походов в общем отряде
 <string>Посещено общих миров
 <string>В другом общем отряде
-<string>{0}–{1} {2}
+<string>{0}–{1}: {2}
 <string>Пригласить игрока {0}<lf>в общий отряд?
 <string>Приглашение в общий отряд отправлено.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_002_DLG
@@ -90,7 +94,7 @@
 <string>Невозможно вступить в общий отряд,<lf>выполняя поручение.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_007_DLG
 <string>Покинуть общий отряд?
-<string>Вы вышли из общего отряда.
+<string>Вы покинули общий отряд.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_001_002_DLG
 <string>Вы покинули общий мир.
 <string>Пригласить игрока {0}<lf>в ваш мир?
@@ -113,7 +117,7 @@
 <string>Отказаться совместно выполнять поручение
 <string>Пока вы выполняете какое-либо поручение, нельзя<lf>присоединиться к исполнителям другого поручения.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_005_004_DLG
-<string>Отправить запрос на добавление в друзья<lf>игроку {0}?
+<string>Отправить запрос на добавление в друзья<lf>охотнику {0}?
 <string>Запрос на добавление в друзья отправлен.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_006_002_DLG
 <string><COLOR preset="TXT_Danger">Список друзей переполнен.</COLOR>
@@ -131,7 +135,6 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_010_002_DLG
 <string>Заблокировать игрока {0}?<lf><lf><COLOR preset="TXT_Accent">(Будут заблокированы все ID охотника,<lf>принадлежащие этому пользователю.)</COLOR>
 <string>Игрок заблокирован.
-<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_011_002_DLG
 <string><COLOR preset="TXT_Danger">Список заблокированных игроков переполнен.</COLOR>
 <string>Разблокировать игрока {0}?
 <string>Игрок разблокирован.
@@ -139,7 +142,7 @@
 <string>Подписаться на игрока {0}?
 <string>Вы подписались на игрока.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_013_002_DLG
-<string><COLOR preset="TXT_Danger">Список подписок переполнен.</COLOR>
+<string><COLOR preset="TXT_Danger">У вас уже максимальное число подписок.</COLOR>
 <string>Отписаться от игрока {0}?
 <string>Вы отписались от игрока.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_014_002_DLG
@@ -155,6 +158,7 @@
 <string>Тип лобби
 <string>Обычное лобби
 <string>Частное лобби
+<string>Лобби отряда
 <string>ID лобби
 <string>Стиль игры
 <string>Без предпочтений

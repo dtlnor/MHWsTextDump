@@ -28,11 +28,15 @@
 <string>Nv-
 <string>{0}
 <string>–
+<string>???
 <string>Arme principale
 <string>Équiper comme arme principale
 <string>Arme secondaire
 <string>Équiper comme arme secondaire
 <string>Arme
+<string>Accessoires
+<string>Accessoire principal
+<string>Accessoire secondaire
 <string>Combustion Courroux-du-dragon
 <string>Combustion Épieu-du-dragon
 <string>Combustion Riposte-du-dragon
@@ -40,13 +44,57 @@
 <string>Explosion Focus : Hurlement wyverne
 <string>Souffle-du-dragon
 <string>Munitions collantes
+<string>Matériaux de forge
+<string>Matériaux d'amélioration
+<string>Coût
+<string>Sélectionner une amélioration
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>Amélioration d'armure
+<string>Niveau suivant :
+<string>Amélioration maximum atteinte.
 <string>Tout afficher
+<string>Armure de type <ICON EQUIP_TYPE1>
+<string>Armure de type <ICON EQUIP_TYPE2>
+<string>Possédées uniquement
+<string>Améliorer
+<string>Forger
+<string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?
+<string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?<lf><lf>(Forger cet équipement permet également d'obtenir<lf>une <COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
+<string>Équiper maintenant ?
+<string>{0} <PLURAL {0} "point sera perdu" "points seront perdus">.<lf>Continuer ?
+<string>Prévisualisation
+<string><COLOR preset="TXT_Danger">Le coffre est plein.</COLOR>
+<string><COLOR preset="TXT_Danger">Cette pièce d'équipement ne peut pas encore être forgée ou améliorée.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas l'équipement requis.</COLOR>
+<string><COLOR preset="TXT_Danger">Argent ou matériaux insuffisants.</COLOR>
+<string><COLOR preset="TXT_Danger">Argent insuffisant.</COLOR>
+<string><COLOR preset="TXT_Danger">Niveau d'amélioration maximum atteint.</COLOR>
+<string>Sélectionner une sphère d'armure à utiliser.
 <string><COLOR preset="TXT_Danger">Vous n'avez pas de joyaux.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas de matériaux.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous n'avez pas d'équipement.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas de matériaux Artian.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas d'armes Artian.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous n'avez pas de fusarbalète.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas de joyaux ou d'objets à fusionner.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas de matériaux à fusionner.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas les matériaux nécessaires.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas de matériaux de renforcement.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous possédez déjà cet équipement, il ne peut donc être forgé ou amélioré.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous possédez déjà cet équipement, il ne peut donc être forgé.</COLOR>
+<string>Équipement actuel : {0}
 <string>Ceci est utilisé sur une autre pièce d'équipement.<lf>Retirer ?
+<string><COLOR preset="TXT_Danger">Ce joyau est équipé actuellement.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous ne pouvez pas équiper ceci sur cet emplacement.</COLOR>
+<string><COLOR preset="TXT_Danger">Ce kinsecte a atteint sa taille adulte.</COLOR>
+<string><NUMBER {0}> z requis.<lf>Continuer ?
+<string><NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?<lf><lf>(Forger cet équipement permet également d'obtenir<lf>une <COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
+<string>Matériaux métamorphose
 <string>Coffre d'équipement
+<string>Coffre armures spéciales
 <string><COLOR preset="TXT_Danger">Les kinsectes ne peuvent être sélectionnés que lorsque l'insectoglaive est équipé.</COLOR>
+<string>Boîte à joyaux
 <string>Modifier joyaux
 <string>Changer d'équipement
 <string>Infos talents
@@ -56,6 +104,7 @@
 <string>Ajouter aux favoris
 <string>Apparence de l'équipement
 <string>Paramètres équipement
+<string>Sélection automatique
 <string>Sélectionner dans le coffre
 <string>Sélectionner une armure par série
 <string>Afficher/Masquer l'arme
@@ -65,8 +114,58 @@
 <string>Afficher comparaison/détails
 <string>Modifier l'affichage
 <string>Afficher aperçu d'équipement
+<string>Pigmentation
+<string>Ajouter à la liste de souhaits
+<string>Enregistrer : Forge
+<string>Enregistrer : Amélioration
+<string>Ajouter à la liste de souhaits ?
+<string>L'un des prérequis de cette arme peut être enregistré en Forge ou en Amélioration. Sélectionnez la méthode voulue.
+<string>Retirer de la liste de souhaits
+<string>Retirer de la liste de souhaits ?
+<string>Retirer de la liste de souhaits ?<lf><COLOR preset="TXT_Danger">(Chevauchement avec les sets d'équipement.<lf>L'équipement retiré ici<lf>le sera aussi des sets d'équipement.)</COLOR>
+<string>Retirer tous les joyaux
+<string>Retirer tous les joyaux équipés ?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> : Contrôler le personnage
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> : Contrôler le personnage
+<string><ICON PAD PL_DUMMY_CAMERA> : Contrôler l'aperçu
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> : Contrôler l'aperçu
+<string><ICON PAD PL_DUMMY_CAMERA> : Naviguer dans la liste
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> : Contrôler le personnage)
 <string>Sélection par série
+<string>Lame
+<string>Tube
+<string>Disque
+<string>Appareil
 <string>Cape
+<string>Rechercher
+<string>Bonus de défense
+<string>Joyaux (NV)
+<string>Emplacements
+<string>Type de canon
+<string>Mélodies
+<string>Munitions compatibles
+<string>Munitions avec Tir rapide
+<string>Fioles compatibles
+<string>Retirer
+<string>Aucun filtre
+<string>Blanc
+<string>Bleu
+<string>Vert
+<string>III
+<string>II
+<string>I
+<string>Tranchant (blanc)
+<string>Tranchant (bleu)
+<string>Tranchant (vert)
+<string>Emplacements niveau III
+<string>Emplacements niveau II
+<string>Emplacements niveau I
+<string>3 emplacements
+<string>2-3 emplacements
+<string>1-3 emplacements
 <string>Trier par critère
 <string>Trier par arme
 <string>Trier par armure
@@ -83,6 +182,9 @@
 <string>Résistance
 <string>Défense
 <string>Élément d'armure
+<string>Par type
+<string>Par type d'élément
+<string>Par bonus Artian
 <string>Type d'attaque
 <string>Élément d'armure
 <string>Par défaut
@@ -91,6 +193,9 @@
 <string>Niveau kinsecte
 <string>Type de canon
 <string>Par quantité
+<string>1 – 3
+<string>2 – 3
+<string>3
 <string>Normal
 <string>Normal II
 <string>Normal III
@@ -138,4 +243,24 @@
 <string>Tir rapide (Foudre II)
 <string>Tir rapide (Cryogénique)
 <string>Tir rapide (Cryogénique II)
-<string>Tir rapide (Dragon)
+<string>Tir rapide (Draconique)
+<string><COLOR preset="TXT_Danger">Impossible de vendre des pièces d'équipement actuellement équipées.</COLOR>
+<string><COLOR preset="TXT_Danger">Les capes ne peuvent pas être vendues.</COLOR>
+<string><COLOR preset="TXT_Danger">Ce kinsecte ne peut pas être vendu car c'est le seul que vous possédez (impossible d'en avoir zéro).</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de vendre cette pièce d'équipement.</COLOR>
+<string><COLOR preset="TXT_Danger">Ce kinsecte ne peut pas être vendu car il est associé à l'insectoglaive.</COLOR>
+<string>Valeur
+<string>Cette pièce d'équipement est enregistrée dans un<lf>set. Voulez-vous vraiment la vendre ?
+<string>Vendre pour <NUMBER {0}> z ?
+<string>Cette pièce d'équipement possède un joyau.<lf>Retirer les joyaux et la vendre pour <NUMBER {0}> z ?
+<string>Un joyau avec un ou plusieurs des statuts<lf>suivants est sélectionné. Confirmer la vente ?<lf><lf>- {0}<lf>- {1}<lf>- {2}
+<string>- Équipé actuellement
+<string>- Enregistré dans un set
+<string>- Enregistré dans les favoris
+<string>Partager le set avec {0} ?
+<string>Enregistrer dans vos sets
+<string>Enregistrer ce set dans un<lf>de vos emplacements vides ?
+<string>Vous n'avez aucun emplacement vide.
+<string><COLOR preset="TXT_Accent">Ce set contient des pièces d'équipement<lf>que vous ne possédez pas.</COLOR> Les pièces non obtenues<lf>ont été enregistrées automatiquement<lf>dans votre liste de souhaits.
+<string><COLOR preset="TXT_Accent">Ce set contient des pièces d'équipement<lf>que vous ne possédez pas.</COLOR> Ces pièces sont déjà<lf>enregistrées dans votre liste de souhaits.
+<string><COLOR preset="TXT_Accent">Ce set contient des pièces d'équipement<lf>que vous ne possédez pas.</COLOR>

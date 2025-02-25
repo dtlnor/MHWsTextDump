@@ -1,4 +1,34 @@
-﻿<string>Armar campamento
+﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0001_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0004_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0004_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_005
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_007
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_008
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_009
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_010
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_011
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0005_012
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_005
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_007
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_008
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0006_009
+<string>Armar campamento
 <string>Quitar campamento
 <string>Reparación rápida
 <string>Esto necesita {0} <PLURAL {0} "punto" "puntos">.<lf>¿Quieres continuar?
@@ -7,15 +37,16 @@
 <string>¿Quieres pagar una tarifa especial de {0} puntos<lf>para crear un campamento temporal en este lugar?
 <string>¿Quieres gastar {0} puntos en una reparación rápida?
 <string><COLOR preset="TXT_Danger">Error</COLOR><lf>No se puede armar el campamento porque cambiaron<lf>las condiciones ambientales.
-<string><COLOR preset="TXT_Danger">Error</COLOR><lf>Ya se reparó el campamento temporal seleccionado.
+<string><COLOR preset="TXT_Danger">Error</COLOR><lf>La reparación rápida no está disponible<lf>porque el campamento temporal seleccionado<lf>ya se está reparando.
 <string>Seguro
 <string>Inseguro
-<string><SPKR {Peligroso} {Peligrosa}>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI090300_0200_02
+<string>Peligroso
 <string>Nivel de seguridad
-<string>{0}: Espacios de campamento restantes
+<string>Espacios de campamento en {0}:
 <string>Costo
 <string>Costo de rep. rápida
 <string>Tarifa especial
 <string>Listo
-<string><COLOR preset="TXT_Danger">No tienes suficientes puntos de gremio.</COLOR>
+<string><COLOR preset="TXT_Danger">Puntos de gremio insuficientes.</COLOR>
 <string><COLOR preset="TXT_Danger">No se pueden armar más campamentos.</COLOR>

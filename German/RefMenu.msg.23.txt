@@ -4,6 +4,7 @@
 <string>Ausrüstung
 <string>Spiel pausieren
 <string>Optionen
+<string>Sprache ändern
 <string>Speichern
 <string>Zum Titelbildschirm
 <string>Steuerungskonfiguration
@@ -12,6 +13,7 @@
 <string>Controller-Belegung
 <string>Tastaturkonfiguration
 <string>Not-Leuchtzeichen
+<string>{0}
 <string>Not-Leuchtzeichen senden
 <string>Not-Leuchtzeichen abbrechen
 <string>Von Quest zurückkehren
@@ -19,23 +21,27 @@
 <string>Mahlzeit grillen
 <string>Grill-Menü
 <string>Verbindungsgruppe
-<string>In Verbindungsgr. einladen
+<string>In Verbindungsgr. einl.
 <string>Verbindungsgr. verlassen
+<string>Zu Umgebungsverb. einladen
 <string>Umgebungsverb. verlassen
 <string>Umgebungsverb. auflösen
-<string>Verbindungsmitgl. ansehen
+<string>Verbindungsmitglieder
 <string>Verbindungsgruppeneinladungen
 <string>Umgebungsverbindungs-Einladungen
 <string>Questeinladungen
-<string>Mitgliederliste
+<string>Spielerlisten
 <string>Objekte senden
 <string>Objekte ansehen/verkaufen
 <string>Ausrüstung ändern
 <string>Palico-Einsatzstatus
 <string>Einsatz
 <string>Standby
+<string>Musikauswahl ändern
 <string>Quest bekanntmachen/beitreten
 <string>Abreisebildschirm öffnen
+<string>Kaufen
+<string>Verkaufen
 <string>Kommunikation
 <string>Tortenmenü anpassen
 <string>Tutorials und Tipps
@@ -51,6 +57,10 @@
 <string>Optimale Statuserholung
 <string>Spiel beenden
 <string>Questergebnisse
+<string>Waffe schmieden/verbessern
+<string>Rüstung schmieden/verbessern
+<string>Aus Truhe verbessern
+<string>Wunschliste
 <string>Einen Freund einladen
 <string>Feldbeutel
 <string>Beitrittsanfragen
@@ -59,13 +69,24 @@
 <string>Einladungsmitteilungen
 <string>Hilfsjäger-Info
 <string>Fotomodus
+<string>Monsterlexikon
+<string>Lexikon großer Monster
+<string>Lexikon kleiner Monster
+<string>Lexikon einheim. Wesen
+<string>Lexikon aquat. Wesen
 <string>Aussehen verändern
 <string>Abwesenheitsnachricht
 <string>Weltkarte
 <string>Quest-Info
+<string>Saikrii-Deko bearbeiten
+<string>Saikrii-Anpassung
 <string>Aussehen-Menü
+<string>Waren kaufen
+<string>Waren anfragen
+<string>Talisman schmieden/verbessern
 <string>Empfohlene Lobby
 <string>Tritt einer Lobby sofort bei (unabhängig von Lobby-Einstellungen).
+<string>Zeitbegrenzte Lobby
 <string>Lobby-Suche
 <string>Private Lobby
 <string>Erstelle eine private Lobby, die nur über die Lobby-ID gefunden werden kann. (Erlaubt weniger Mitglieder als reguläre Lobbys.)
@@ -76,17 +97,29 @@
 <string>Suche nach Lobbys, die bestimmte Kriterien erfüllen.
 <string>Suche nach Jagdfreunden
 <string>Suche nach Lobbys, denen deine Jagdfreunde beigetreten sind.
+<string>Gruppenlobby-Suche
+<string>Suche nach Lobbys von Jagdgruppen, denen du beigetreten bist.
 <string>Suche nach Lobby-ID
 <string>Suche nach einer bestimmten Lobby anhand ihrer Lobby-ID.
 <string>Lobby wählen
 <string>Lobby wechseln
 <string>Lobby-wechseln-Menü
 <string>Quest abbrechen
+<string>Jagdgruppen verwalten
 <string>Palico-Ausrüstung ändern
+<string>Palico-Ausrüstung schmieden
 <string>Mission neu versuchen
 <string>Palico-Info
+<string>Artian-Mat. anzeigen/verkaufen
+<string>Artian-Waffen schmieden
+<string>Artian-Waffen stärken/zerlegen
+<string>Verstärken
+<string>Zerlegen
+<string>Ausrüstungsaussehen
+<string>Palico-Ausrüstungsaussehen
 <string>Feldlager entfernen
 <string>Feldlager entfernen/reparieren
+<string>Feldlager bearbeiten
 <string>Feldlager verwalten
 <string>Bogengewehr umbauen
 <string>Grundsteuerung
@@ -94,6 +127,8 @@
 <string>Steuerung
 <string>Steuerung (Axt)
 <string>Steuerung (Schwert)
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_3
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_4
 <string>Waffeneigenschaften
 <string>Empfohlene Combo
 <string>Objekte benutzen
@@ -101,7 +136,7 @@
 <string>Schleudermunition
 <string>Saikrii
 <string>Status-Booster
-<string>Anormaler Status – Jäger
+<string>Statusanomalien – <LSNR "Jäger" "Jägerin">
 <string>Ziehen und wegstecken
 <string>Schärfe
 <string>Fokusmodus
@@ -114,15 +149,46 @@
 <string>Monster fangen
 <string>Andere Monster-Info
 <string>Zu Umgebungsverb. einladen
-<string>Umgebungsverbindung auflösen
+<string>Umgebungsverb. auflösen
 <string>Trainingshilfe an/aus
+<string>Wunschliste
 <string>Lobby auflösen
 <string>Eine Lobby-Auflösung kann nur der Host der Lobby vornehmen.
+<string>Wyverianisches Einschmelzen
+<string>Relikte einschmelzen
+<string>Dekorationen einschmelzen
+<string>Rüstkugeln raffinieren
+<string>Erz raffinieren
+<string>Fest-Anteile
+<string>Streicheln
+<string>Namen ändern
+<string>Gib einen Namen für dein Poogie ein.<lf><lf><COLOR preset="TXT_Accent">Du kannst maximal 15 Zeichen verwenden.</COLOR>
+<string>Möchtest du diesen Namen verwenden?<lf><lf>{0}
+<string>Kinsektenverwaltung
+<string>Kinsektenzucht
+<string>Kinsekten kaufen
+<string>Missionsinfo
+<string>Ausrüstung ansehen/verkaufen
+<string>Palico-Ausr. ansehen/verkaufen
+<string>Dekorationen ansehen/verkaufen
+<string>Zelteinstellungen-Menü
 <string>Vollversion vorbestellen
 <string>Dein Palico wird dich auf Quests begleiten!
 <string>Dein Palico bleibt während der<lf>Quest im Basislager.
+<string>Trainingseinstellungen
+<string>Zurück zum Basislager
+<string>Möchtest du zum Basislager zurückkehren?
 <string>Quest-Menü
 <string>Objekte-Menü
 <string>Ausrüstung-Menü
 <string>Palico-Menü
 <string>Schmiede-Menü
+<string>Entwicklungseffekte wählen
+<string>Album
+<string>Empfohlene Ausrüstung
+<string>Befristete Beutezüge
+<string>Neuste Informationen
+<string>Forschungshilfe: Monster
+<string>Anmeldebonus
+<string>Inhalt annehmen
+<string>Befristete Beutezüge

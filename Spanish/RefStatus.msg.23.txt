@@ -16,6 +16,7 @@
 <string>Info de espacios
 <string>Sin adornos
 <string>No hay espacios
+<string>Ninguno
 <string>Efecto por nivel
 <string>Nivel
 <string>Requisitos
@@ -45,7 +46,7 @@
 <string>Afilado
 <string>Afinidad
 <string>Bonus de defensa
-<string>Contra ataques físicos
+<string>Reduce el daño físico
 <string>Reduce el daño elemental
 <string>Res. fuego
 <string>Res. agua
@@ -87,17 +88,24 @@
 <string>Nv. 1
 <string>Nv. 2
 <string>Nv. 3
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_008_00
 <string>Tipo base estándar/ímpetu
 <string>Modo estándar TE I
 <string>Modo estándar TE II
 <string>Modo ímpetu TE I
 <string>Modo ímpetu TE II
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_009_00
 <string><REF RefEquipment_0007_00_00>
 <string><REF RefEquipment_0007_00_01>
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_010_00
 <string><REF RefEquipment_0007_01_00>
 <string><REF RefEquipment_0007_01_01>
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0006_011_00
 <string><REF RefEquipment_0007_02_00>
-<string>Efectos de la melodía
+<string>Bonus de producción
+<string>Tipo de elemento
+<string>Bonus de refuerzo
+<string>Efectos de melodía
 <string>Tipo de ataque
 <string>Contundente
 <string>Cortante
@@ -112,13 +120,13 @@
 <string>Potencia
 <string>Velocidad
 <string>Resistencia
-<string>Kinsecto potenciado: Obtener extracto
+<string>Bonus kinsecto: Obtener extracto
 <string>Combo de kinsecto potenciado: Elemento
-<string>Pot. ataque: Polvo
-<string>Pot. kinsecto: Recup. resist.
+<string>Bonus atq: Polvo
+<string>Bonus kinsecto: Recup. resist.
 <string>Pot. extracto: Recup.
-<string>Pot. kinsecto: Carga rápida
-<string>Pot. ataque: Punto débil precis.
+<string>Bonus kinsecto: Carga rápida
+<string>Bonus atq: Punto débil precis.
 <string>Información de munición
 <string>Andanada
 <string>Capacidad
@@ -142,6 +150,11 @@
 <string>A toda mecha
 <string>Esporneta: Nota de poder
 <string>Esporneta: Nota de miauravilla
+<string>Reclamo de melíferas vitae
+<string>Jaula de noctiluca
+<string>Revivir melífera vitae
+<string>Rathepelín
+<string>Bumerán ladrón
 <string>Cuando tu salud esté baja,<lf>¡te enviaré una melífera vitae!<lf>Pero tardaré un poco en poder<lf>volver a enviarte otra después.
 <string>¡Atraeré al monstruo con<lf>un escudo especial que hace ruido!<lf>Así podrás ponerte en posición<lf>o atacar.
 <string>Puedo enviarte una melífera<lf>pura para quitarte cualquier<lf>plaga o estado anormal.<lf>¡Te salvaré los bigotes siempre<lf>que estés en un aprieto para<lf>que te centres en la caza!
@@ -149,4 +162,26 @@
 <string>¡Voy a disparar una munición con<lf>pinchos especial desde mi balista<lf>Felyne! Si todo va bien, quizá<lf>incluso podría llegar a infligirle<lf>una herida al monstruo.
 <string>¿Quieres que tus ataques sean más<lf>potentes en el momento preciso?<lf>¡Pues tocaré esta poderosa tonadilla!<lf>Seguro que te hace más fuerte.
 <string>¿Nervios al enfrentarte a un<lf>rival contra el que ya perdiste?<lf>No te preocupes, ¡mi canción de<lf>miauravilla aumentará tu defensa<lf>y te mantendrá a salvo cuando<lf>te enfrentes a ese enemigo!
+<string>¡Voy a usar una fragancia especial<lf>para atraer a las melíferas vitae<lf>salvajes! Voy a hacer que<lf>revoloteen incluso en sitios donde<lf>no suelen vivir normalmente...<lf>¿De verdad huele tan bien?
+<string>¡Voy a poner una jaula de noctilucas<lf>para que la uses cuando quieras!<lf>Son muy útiles para cegar a los<lf>monstruos, pero algunos se vuelven<lf>más agresivos cuando están ciegos,<lf>¡así que ten cuidado!
+<string>No te rindas, aunque te quedes<lf>sin salud. ¡Yo estaré ahí con<lf>una melífera vitae para revivirte!<lf>Lo malo es que no puedo usarla<lf>otra vez de inmediato, además de<lf>que no restaura demasiada salud.
+<string>Gemma y yo hemos completado<lf>por fin nuestra obra maestra:<lf>¡el Rathepelín! Ahora puedo darte<lf>fuego de cobertura. ¡Quizá<lf>dispare a un wyvern y todo!
+<string>¿Te faltan materiales? ¡Para eso<lf>estoy aquí! Te presento el<lf>bumerán ladrón: ¡un bumerán<lf>con el que puedo coger<lf>materiales de los monstruos!
+<string>¡Incluso puedo enviar mejores<lf>melíferas vitae! No solo<lf>restauran más salud, sino que si lo hago<lf>en el momento perfecto, ¡envío varias a la vez!
+<string>Ahora que le he cogido el truco al<lf>escudo, ¡puedo atraer la atención de<lf>los monstruos durante más tiempo! Y no<lf>solo eso: ¡hasta puedo contraatacar!
+<string>Los estados alterados son un rollo, ¿eh?<lf>Pero tengo al alcance de mi pata...<lf>digo, mano, dos melíferas puras. ¡Si las<lf>necesitas, puedo mandártelas seguidas!
+<string>Los Felyne hemos descubierto cómo<lf>mejorar las paralibellotas. Ahora<lf>puedo usarlas con más frecuencia,<lf>¡seguro que te vienen muy bien!
+<string>Puedo usar A toda mecha durante más<lf>tiempo. Así que, aunque no acierte al<lf>objetivo, ¡puedo seguir disparando!
+<string>¡Creo que toco mejor la esporneta!<lf>Quizá eso explica que los efectos<lf>de las canciones sean más potentes .<lf>¡Ahora serás más fuerte más tiempo!
+<string>¡Estoy hecho un virtuoso! Mis<lf>canciones son aún más efectivas. Si te<lf>enfrentes a un oponente dos veces,<lf>¡puedo mejorar tu defensa más tiempo!
+<string>¡Por fin he aprendido a atraer a<lf>melíferas vitae gigantes! Mmmm.<lf>Sí, ¡huele de fábula!
+<string>Las jaulas de noctilucas son útiles, ¿no?<lf>Así que se me ha ocurrido una forma<lf>de emplearlas más a menudo.<lf>¡Intenta usarlas en el momento justo!
+<string>¡Eso sí que da vida! Puedo<lf>restaurar más salud cuando<lf>te reviva con una melífera vitae.<lf>¡Pero no hagas tonterías tampoco, miau!
+<string>¡He mejorado el Rathepelín!<lf>Ahora me estrellaré contra un<lf>monstruo en cuanto toque aterrizar.<lf>¡Eso sí que es hacer impacto!
+<string>He mejorado con el bumerán ladrón,<lf>lo que significa que el botín que<lf>he robado es mayor. ¡Espero usarlo<lf>para conseguir los materiales que quieras!
 <string>Movimiento de apoyo
+<string><COLOR FF0000>#Rejected#</COLOR> RefStatus_0000_SP_037
+<string>Mejora obtenida
+<string>Bonus de afilado
+<string>Bonus de capacidad
+<string>+{0}

@@ -11,7 +11,7 @@
 <string>Resistenza
 <string>Attacco
 <string>DIF Fisica
-<string>Resistenze elementali
+<string>DIF Elementale
 <string>Effetti di stato
 <string>Abilità cibo
 <string>Inizia a cucinare
@@ -33,6 +33,7 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>Cucinare il pasto preferito selezionato?
 <string>Questo pasto non può essere cucinato<lf>perché non hai abbastanza ingredienti.
 <string>Annullare le modifiche?<lf>(Le modifiche non verranno salvate).
@@ -40,3 +41,5 @@
 <string>{0}+{1}
 <string>{0}+{1}　{2}+{3}
 <string><COLOR preset="TXT_Danger">Impossibile cucinare carne perché non possiedi carna cruda.</COLOR>
+<string><COLOR preset="TXT_Danger">Ingredienti insufficienti.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossibile cucinare la carne perché non c'è abbastanza spazio nella borsa oggetti.</COLOR>

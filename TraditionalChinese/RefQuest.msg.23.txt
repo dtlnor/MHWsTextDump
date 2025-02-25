@@ -9,6 +9,37 @@
 <string>預報
 <string>預報內容可能會隨玩家行動而變化。
 <string>魔物資訊
+<string>魔物生態
+<string>環境生物生態
+<string>環境生物（釣魚）生態
+<string>主要棲息處
+<string>主要特徵
+<string>調查員筆記
+<string>魔物的特殊攻擊
+<string>攻略指南
+<string>對狩獵有用的資訊
+<string>魔物肉質
+<string>詳細對策
+<string>推薦的屬性攻擊
+<string>有效的狀態異常
+<string>有效道具
+<string>可獲得的素材一覽
+<string>初階素材
+<string>進階素材
+<string>獲得道具
+<string>出現機率
+<string>獲得方法與機率
+<string>狩獵紀錄
+<string>狩獵數
+<string>討伐數
+<string>捕獲數
+<string>狩獵尺寸
+<string>最大尺寸
+<string>最大重量
+<string>尺寸
+<string>最小尺寸
+<string>相關道具與技能
+<string>相關稱號
 <string>狩獵
 <string>討伐
 <string>捕獲
@@ -16,14 +47,20 @@
 <string>搬運
 <string>特殊
 <string>開始實地調查任務
+<string>保存為調查任務
 <string>任務化
 <string>承接任務
+<string>要使用{0}<REF RefGeneral_0015_001>保存為調查任務嗎？
+<string>已保存為調查任務。
+<string><COLOR preset="TXT_Danger">公會點數不足。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未達到承接或參加所需的進度。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未達到承接或參加所需的進度。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未達到承接或參加所需的獵人等級。</COLOR>
 <string><COLOR preset="TXT_Danger">尚未達到承接或參加所需的獵人等級。</COLOR>
 <string><COLOR preset="TXT_Danger">無法開始實地調查任務。</COLOR>
 <string><COLOR preset="TXT_Danger">無法開始實地調查任務。</COLOR>
+<string><COLOR preset="TXT_Danger">無法保存為調查任務。</COLOR>
+<string><COLOR preset="TXT_Danger">調查任務保存失敗。</COLOR>
 <string><COLOR preset="TXT_Danger">無法再次承接已完成的關鍵任務。</COLOR>
 <string><COLOR preset="TXT_Danger">多人遊玩設定導致玩家無法參加。</COLOR>
 <string><COLOR preset="TXT_Danger">將超過可參加人數，無法參加。</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">未滿足任務的承接或參加條件。</COLOR>
 <string><COLOR preset="TXT_Danger">無法承接或參加此任務。</COLOR>
 <string><COLOR preset="TXT_Danger">無法承接或參加此任務。</COLOR>
+<string><COLOR preset="TXT_Danger">調查任務保存數已達到上限，無法再保存。</COLOR>
+<string><COLOR preset="TXT_Danger">此對象已保存為調查任務。</COLOR>
 <string><COLOR preset="TXT_Danger">部分環境連結成員正在結算，無法開始實地調查任務。</COLOR>
 <string>返回標題畫面
 <string>重試
@@ -39,7 +78,7 @@
 <string>狩獵{0}等魔物
 <string>捕獲{0}
 <string>繳納{0}
-<string>要取消這項任務嗎？
+<string>要取消任務嗎？
 <string>任務已解散。
 <string>環境連結已解散。
 <string>任務已經結束，無法參加連線區。
@@ -50,6 +89,7 @@
 <string>次要使命報酬
 <string>任務報酬一覽
 <string>追加報酬
+<string>鑑定箱
 <string>目標追加報酬
 <string>目標魔物相關報酬
 <string>通用素材報酬
@@ -59,14 +99,27 @@
 <string>返回營地
 <string>任務開始
 <string>承接任務
+<string>所有任務
 <string>關鍵任務
 <string>自由任務
 <string>實地調查任務
+<string>實地調查任務歷程紀錄
+<string>調查任務
+<string>未保存為調查任務
+<string>已保存為調查任務
+<string>活動任務
+<string>鬥技大會任務
+<string>挑戰任務
 <string>設定
+<string>首頁
 <string>顯示全部
 <string>大廳成員任務
 <string>救難信號任務
 <string>連結成員任務
+<string>調查任務保存費用
+<string>實地調查任務開始時間
+<string>剩餘可承接次數
+<string>{0}次
 <string>任務參加許可
 <string>設定參加任務的許可方式。<COLOR preset="TXT_Accent">（收到任務邀請通知的連結成員會自動獲得許可）</COLOR>
 <string>自動許可
@@ -108,6 +161,11 @@
 <string>{0}似乎有話想說！
 <string>可承接任務「{0}」！
 <string>可達成「{0}」！
+<string>收穫增加中！（還有{0}天）
+<string>牠好像影響到附近居民的生活！
+<string>有魔物正在騷擾聚落！
+<string>狩獵後，設施的收穫會暫時增加。
+<string>{0}在<REF RefEnvironment_0001_0004>出現了！
 <string>參加人數上限
 <string>設定可參加任務的人數上限。<COLOR preset="TXT_Accent">（可設定人數會隨著連結成員數的上限變更）</COLOR>
 <string>1
@@ -157,9 +215,16 @@
 <string>升序
 <string>降序
 <string>推薦排序
+<string>刪除調查任務
+<string>要刪除選擇的調查任務嗎？<lf><lf>注意：如「實地調查任務歷程紀錄」尚有該任務，<lf>　　　亦會從紀錄中刪除。
+<string>已刪除調查任務。
+<string>選擇的調查任務的可承接次數剩餘{0}次。<lf>承接後會消耗剩餘次數並儲存，確定要承接嗎？
 <string>要暫時增加任務的參加人數嗎？<lf><COLOR preset="TXT_Accent">（一旦增加後，在任務結束前都無法復原）</COLOR>
 <string>關鍵任務
 <string>自由任務
+<string>實地調查任務歷程紀錄（最近{0}個）
+<string>調查任務（已保存{0}個）
+<string>活動任務
 <string>大廳成員任務（{0}個）
 <string>連結成員任務
 <string>救難信號任務（{0}個）

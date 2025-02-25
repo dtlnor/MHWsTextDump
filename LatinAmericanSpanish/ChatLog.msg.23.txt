@@ -6,7 +6,7 @@
 <string>{0}<lf>abandonó<lf>el grupo vinculado.
 <string>Rechazaste la invitación del grupo vinculado.
 <string>{0}<lf>no se pudo unir<lf>al grupo vinculado.
-<string>{0} se unió  a tu<lf>entorno vinculado.
+<string>{0} se unió a tu<lf>entorno vinculado.
 <string>Accediste al entorno<lf>vinculado de {0}.
 <string>{0}<lf>salió del entorno vinculado.
 <string>Regresaste a tu propio entorno.
@@ -47,6 +47,7 @@
 <string>El líder de la misión canceló<lf>la bengala de auxilio.
 <string>Se cambió el chat de voz a<lf><REF RefNetwork_0004_02>.
 <string>Se cambió el chat de voz a<lf><REF RefNetwork_0004_01>.
+<string>¡Hay rebajas en<lf>el almacén!
 <string>Nueva misión desbloqueada.
 <string>Se designó a {0}<lf>como líder de la misión.
 <string>Te designaron como<lf>líder de la misión.
@@ -62,12 +63,24 @@
 <string>Pedido de amigos
 <string>Recibiste una solicitud de amistad<lf>de {0}.
 <string>Entablaste amistad con<lf>{0}.
+<string>La valla está lista.
+<string>Valla lista en: <PLURAL {0} "{0} minuto" "{0} minutos">
+<string>Valla lista en: <PLURAL {0} "{0} segundo" "{0} segundos">
+<string>La nave de apoyo llegó.
+<string>La nave de apoyo zarpará pronto.
+<string>La nave de apoyo zarpó.
+<string>Usaste el vale suertudo (quedan: {0}).
+<string>Se otorgarán registros de recompensas<lf>y zenis al azar.
+<string>Usar
+<string>Usaste el vale suertudo.
 <string>Actividad de entorno vinculado
 <string>Comenzando un estudio<lf>de campo para<lf>{0}.
 <string>Cancelar
 <string>Objetos de suministro repuestos.<lf>(Revisa los objetos de suministro con <INPUTMSG MsgGUI020100_0011>).
 <string>El cazador de apoyo {0}<lf>se unió a la misión.
 <string>El cazador de apoyo<lf>{0}<lf>abandonó la misión.
+<string>Hay una nueva misión de la arena.
+<string>Las cinemáticas pueden volver a verse<lf>en la Galería desde el menú principal.
 <string>Objetivo principal fijado como destino.
 <string>El objetivo desapareció.<lf>Fijando destino del objetivo principal.
 <string>El objetivo fijado como punto de ruta desapareció.
@@ -75,15 +88,34 @@
 <string>La misión fracasó...
 <string>Invitaciones a misión (reenviadas)
 <string>Ya puedes recibir invitaciones<lf>de misión de {0}.
+<string>Entregaste {0} (x{1})
 <string>Objetos esenciales recibidos:<lf><COLOR preset="TXT_Accent">Utensilios de caza</COLOR>
 <string>Actualización de resumen de entorno
+<string>¡{0} de {1}<lf>quiere que pruebes algo!
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
 <string>¡Avistamiento de {0}<lf>en {1}!
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>¡Ahora puedes informar el éxito de tu<lf>tarea secundaria a {0}!<lf>Ubicación: {1}
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Varios objetivos disponibles para<lf>la creación de misión combinada!
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció el mayor depredador<lf>de esta región, {0}!
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>{0} a la vista.<lf>¡Está atacando los asentamientos locales!
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>¡Apareció un monstruo con más recompensas!<lf>{0}
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>¡Apareció el objetivo secundario!<lf>{0}
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>¡Apareció un objetivo de la lista de deseos!<lf>{0}
 <string>Abrir mapa
 <string>Resumen de entorno
 <string>¡{0} apareció!
@@ -92,6 +124,9 @@
 <string>¡{0}<lf>se marchará enseguida!
 <string>Abrir mapa
 <string>{0}<lf>abandonó la zona...
+<string>Actualización de resumen de entorno
+<string>¡Apareció {0}<lf>en el Pico Cadena de Escarcha!
+<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡Apareció una manada<lf>de {0}!
 <string>Abrir mapa
@@ -99,11 +134,21 @@
 <string>¡La manada de {0}<lf>se marchará enseguida!
 <string>Abrir mapa
 <string>La manada de {0}<lf>abandonó la zona...
+<string>¡{0} apareció!
 <string>Resumen de entorno
 <string>¡Se detectó un brote<lf>de {0}!
 <string>Abrir mapa
 <string>Resumen de entorno
 <string>¡Se detectó un aumento<lf>de {0}!
+<string>Abrir mapa
+<string>Resumen de entorno
+<string>¡Ya está disponible {0}<lf>como ayudante de caza!
+<string>Abrir mapa
+<string>Resumen de entorno
+<string>¡La nave de apoyo llegó!
+<string>Abrir mapa
+<string>Resumen de entorno
+<string>¡Se detectó un capullo de Guardián grande!
 <string>Abrir mapa
 <string>Se perdió {0}.
 <string>Solicitudes de acceso
@@ -113,16 +158,23 @@
 <string>El anfitrión disolvió<lf>la sala.
 <string>Seguido por {0}.
 <string>Sin objetos de suministro.
+<string>Lista de deseos: {0}
+<string><COLOR preset="TXT_Accent">Obtuviste todos los materiales necesarios.</COLOR>
+<string>Lista de deseos: {0}
+<string>Cantidad necesaria
 <string>Estudio de campo abandonado.
 <string>No puedes llevar más objetos<lf>de suministro. Se descartaron<lf>los sobrantes.
 <string>Recibiste el efecto de melodía<lf><BOLD>{0}</BOLD>.
-<string>¡Efecto de melodía activado!<lf> <BOLD>{0}</BOLD>
+<string>¡Efecto de melodía activado!<lf><BOLD>{0}</BOLD>
 <string>El efecto de melodía<lf><BOLD>{0}</BOLD><lf>se disipó.
 <string>Desapareció el efecto de<lf>{0}.
 <string>Ya puedes usar {0}.
 <string>El efecto de la bebida<lf>fría se agotó.
 <string>El efecto de la bebida<lf>caliente se agotó.
 <string>No se pudo designar como objetivo de misión.<lf>Abre la pantalla de partida con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
+<string>Abrir información de tareas
+<string>Mostrar prioridad de objetivos<lf>y seleccionar una tarea.
+<string>Abrir
 <string>No se puede designar este monstruo<lf>como objetivo de misión: {0}.
 <string>No se puede designar este monstruo<lf>como objetivo de misión: {0}.<lf>(RC demasiado bajo).
 <string>Se pasó del modo Un jugador online<lf>al modo online.
@@ -135,21 +187,82 @@
 <string>El estudio de campo no puede comenzar<lf>porque hay miembros viendo los resultados.
 <string>No se puede cazar a este monstruo<lf>como parte de una misión con tu<lf>progreso actual: {0}.
 <string>Se activó el efecto de<lf>burbuja sónica.<lf>{0}
+<string>¡Se entregó {0}!
+<string>{0}
+<string>¡Nueva medalla obtenida!
+<string>Título
+<string>¡<PLURAL {0} "Un nuevo título obtenido" "{0} nuevos títulos obtenidos">!
+<string>{0}
+<string>¡Nueva placa obtenida!
+<string>{0}
+<string>¡Nuevo fondo obtenido!
+<string>Parece que Poogie no tiene nada...
+<string>Se publicó una nueva submisión.
+<string>Submisiones limitadas
+<string>{0}<lf>{1}/{2}
+<string>Submisiones limitadas
+<string>{0}<lf>¡Se completó <COLOR preset="TXT_Accent">{1}/{2}!</COLOR>
 <string>Actualización de resumen de entorno
 <string>{0} a la vista.<lf>¡Con recompensas fuera de lo normal!
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>¡Tarea secundaria completada!<lf>Informa a {0}
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>¡Puedes informarle a tu camarada<lf>cuando completes una tarea secundaria!
 <string>Abrir mapa
 <string>Se disolvió el grupo vinculado porque<lf>eras el único miembro.
 <string>No te pudiste unir al entorno<lf>vinculado de {0}.
 <string>Dejaste el entorno de {0}.
 <string>El entorno vinculado se disolvió.
 <string>No se pudo unir a la misión.
+<string>Desbloqueaste nuevas opciones de equipo<lf>de campamento.
 <string>Los efectos del menú desaparecerán pronto.
+<string>Ahora puedes armar y personalizar<lf>un campamento temporal en la<lf>Cuenca Oleosa.
+<string>Ahora puedes armar y personalizar<lf>un campamento temporal en los<lf>Acantilados Espinahelada.
+<string>Ahora puedes armar y personalizar<lf>un campamento temporal en las<lf>Ruinas de Wyveria.
+<string>Actualización de resumen de entorno
+<string>Está disponible una misión con objetivos<lf>múltiples. ¡Están afectando las vidas<lf>de las personas!
+<string>Abrir mapa
+<string>Actualización de resumen de entorno
+<string>Está disponible una misión con objetivos<lf>múltiples. ¡Hay más recompensas<lf>adicionales de lo normal!
+<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Haz misiones con varios objetivos para<lf>obtener recompensas fuera de lo normal!
 <string>Abrir mapa
+<string>Tienes {0} <PLURAL {0} "mensaje" "mensajes">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Abandonaste el grupo vinculado.
 <string>Movimiento manual
 <string>Movimiento automático
 <string>Exploración automática
 <string>Se ha desactivado temporalmente<lf>el modo online para un jugador.
+<string>{0} va camino<lf>al Pico Cadena de Escarcha.
+<string>¡Alcanzaste el rango de cazador {0}!
+<string>No puedes dejar aquí el objeto<lf>que llevas.
 <string>El crossplay está activado.
+<string>Notificación de brigada
+<string>Recibiste una invitación para unirte<lf>a la brigada: <BOLD>{0}</BOLD>.
+<string>Notificación de brigada
+<string>Tienes una solicitud de brigada pendiente.
+<string>Notificación de brigada
+<string>Recibiste una solicitud de brigada<lf>para <BOLD>{0}</BOLD>.
+<string>Notificación de brigada
+<string>Te uniste a la brigada<lf><BOLD>{0}</BOLD>.
+<string><BOLD>{1}</BOLD> se unió<lf>a la brigada {0}.
+<string>Se ha designado a otro jugador<lf>como sublíder de la brigada <BOLD>{0}</BOLD>.
+<string>Te designaron líder<lf>de la brigada <BOLD>{0}</BOLD>.
+<string>Bonus de inicio de sesión
+<string>El bonus de inicio de sesión<lf>de hoy ya está disponible<lf>en el menú de inicio.
+<string>Reclamar ahora
+<string>Set de equipo compartido
+<string>{0} compartió<lf>un set de equipo.
+<string>Set de objetos compartido
+<string>{0} compartió<lf>un set de objetos.
+<string>Set de menú radial compartido
+<string>{0} compartió<lf>un set de menú radial.
+<string>Ya se puede activar<lf>la habilidad <BOLD>{0}</BOLD>.
+<string>Error al recibir el set compartido
+<string>No se pudo recibir porque se alcanzó<lf>el límite máximo de notificaciones<lf>de sets compartidos.
+<string>Tienes una invitación.<lf>Revisa tus <BOLD>Invitaciones</BOLD><lf>en el menú de inicio.
+<string>Recibiste un pedido de acceso.<lf>Revisa los <BOLD>Pedidos de acceso</BOLD><lf>en el menú de inicio.
+<string>No se pudo iniciar la misión.

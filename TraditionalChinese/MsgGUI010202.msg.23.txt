@@ -9,7 +9,11 @@
 <string>確定要將<COLOR preset="TXT_Accent">{0}</COLOR>的所有按鍵設定<lf>恢復至初始設定嗎？
 <string>確定要將選擇中按鍵設定恢復至初始設定嗎？
 <string>重置所有項目至初始設定
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
 <string>重置選擇中項目至初始設定
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>獵人操作
 <string>武器操作
 <string>投射器操作
@@ -21,6 +25,7 @@
 <string>快速選單
 <string>選單操作
 <string>地圖操作
+<string>拍照模式操作
 <string>騎乘魔物時的操作
 <string>往前移動
 <string>往後移動
@@ -58,20 +63,22 @@
 <string>呼喚<REF RefGeneral_0014_01>（自動移動）/策騎時切換至自動移動
 <string>呼喚<REF RefGeneral_0014_01>（手動移動）/策騎時切換至手動移動
 <string>切換武器
+<string>全速前進（按一次）
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
 <string>加速（按一次）/全速奔跑（長按）
 <string>減速（按一次）/急停（長按）
 <string>從<REF RefGeneral_0014_01>下地
 <string>確認<REF RefGeneral_0014_01>袋
 <string>切換道具（左）
 <string>切換道具（右）
-<string>選擇彈藥/瓶（上）
-<string>選擇彈藥/瓶（下）
+<string>選擇彈藥/瓶/擬餌（上）
+<string>選擇彈藥/瓶/擬餌（下）
 <string>道具選擇模式（按一次）
 <string>道具選擇模式（長按）/重置視角
 <string>道具選擇模式時：切換道具（左）
 <string>道具選擇模式時：切換道具（右）
-<string>道具選擇模式時：選擇彈藥/瓶（上）
-<string>道具選擇模式時：選擇彈藥/瓶（下）
+<string>道具選擇模式時：選擇彈藥/瓶/擬餌（上）
+<string>道具選擇模式時：選擇彈藥/瓶/擬餌（下）
 <string>道具選擇模式時：自訂捷徑
 <string>道具選擇模式時：快捷盤移動
 <string>道具選擇模式時：擴展模式
@@ -100,8 +107,9 @@
 <string>鍵盤用快捷鍵（第11欄）
 <string>鍵盤用快捷鍵（第12欄）
 <string>顯示自訂捷徑
-<string>自訂捷徑：快捷盤移動（上）
-<string>自訂捷徑：快捷盤移動（下）
+<string>自訂捷徑（4列）：快捷盤移動（上）
+<string>自訂捷徑（4列）：快捷盤移動（下）
+<string>
 <string>視角操作（上）
 <string>視角操作（左）
 <string>視角操作（下）
@@ -126,8 +134,9 @@
 <string>聊天訊息（任務成員）
 <string>聊天訊息（小隊成員）
 <string>聊天訊息（特定玩家）
-<string>打開地圖/啟動聊天通知/跳過結算
+<string>打開地圖
 <string>開啟全域地圖
+<string>啟動聊天通知或任務準備畫面/跳過任務相關項目
 <string>從清單調合
 <string>確認道具袋
 <string>確認彈藥袋
@@ -146,7 +155,7 @@
 <string>願望清單
 <string>獵人簡介
 <string>暫停遊戲
-<string>選項
+<string>設定
 <string>啟動拍照模式
 <string>拔刀/一般射擊（<ICON PAD PL_ATTACK_SP>）
 <string>裝填彈藥/裝填或解除瓶（<ICON PAD PL_ATTACK_00>）
@@ -175,11 +184,12 @@
 <string>放大模組
 <string>縮小模組
 <string>副選單
-<string>登錄/套用個人組合
+<string>管理個人組合
 <string>切換操作欄位
 <string>篩選顯示項目
 <string>變更項目位置或清單排序
 <string>切換顯示項目/清單顯示方式
+<string>跳過結算畫面/過場動畫
 <string>移動原野地圖（上）
 <string>移動原野地圖（下）
 <string>移動原野地圖（左）
@@ -194,9 +204,18 @@
 <string>原野地圖：切換內容圖示（右）
 <string>原野地圖：旋轉模式（長按）
 <string>原野地圖：重置游標位置
-<string>切換至原野地圖/世界地圖
+<string>切換至原野地圖/全域地圖
+<string>關閉原野地圖
 <string>原野地圖：切換至全畫面/半畫面
 <string>原野地圖：確認環境概要
+<string>相機移動（畫面深處）
+<string>相機移動（畫面近處）
+<string>相機移動（左）
+<string>相機移動（右）
+<string>調整相機位置（上）
+<string>調整相機位置（下）
+<string>調整相機位置（左）
+<string>調整相機位置（右）
 <string>小刀輕攻擊
 <string>小刀重攻擊
 <string>武器攻擊
@@ -209,9 +228,13 @@
 <string>遠程武器通用
 <string>複製配置組合
 <string>刪除配置組合
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
 <string>要建立哪種武器的配置組合？<lf><COLOR preset="TXT_Accent">（可分別為各種武器建立1個配置組合。）</COLOR>
 <string>要變更成哪種武器的配置組合？<lf><COLOR preset="TXT_Accent">（可分別為各種武器建立1個配置組合。）</COLOR>
-<string>要將<COLOR preset="TXT_Accent">{0}</COLOR>的配置組合複製到哪種武器？<lf><COLOR preset="TXT_Accent">（若已建立配置組合，將會覆寫現在檔案；若未建立該檔案，將建立新檔案。）</COLOR>
+<string>要將<COLOR preset="TXT_Accent">{0}</COLOR>的配置組合複製到哪種武器？<lf><COLOR preset="TXT_Accent">（若已建立配置組合，將會覆寫現在檔案；若未建立配置組合，將建立新檔案。）</COLOR>
 <string>要刪除<COLOR preset="TXT_Accent">{0}</COLOR>的配置組合嗎？<lf><COLOR preset="TXT_Accent">（若刪除檔案，會把{1}的配置組合套用至{0}。）</COLOR>
 <string>將覆寫<COLOR preset="TXT_Accent">{0}</COLOR>的配置組合，是否確定？
 <string>是否保存編輯內容？

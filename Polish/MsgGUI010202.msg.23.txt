@@ -1,42 +1,47 @@
 ﻿<string>Obsługa menu
 <string>Czynność
-<string>Klawisz główny
-<string>Klawisz dodatkowy
-<string>Po wybraniu klawisza głównego lub dodatkowego czynności, którą chcesz ponownie<lf>przypisać, naciśnij żądany klawisz, aby przypisać go do tej czynności. <COLOR preset="TXT_Accent">(Nie można<lf>ponownie przypisać klawiszy <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, które mają unikatowe funkcje nawigacji w menu).</COLOR>
-<string>Po wybraniu klawisza głównego lub dodatkowego czynności, którą chcesz ponownie<lf>przypisać, naciśnij żądany klawisz, aby przypisać go do tej czynności. <COLOR preset="TXT_Accent">(Nie można<lf>ponownie przypisać klawisza <ICON KB_ESCAPE,KB_INSERT>, który ma unikatowe funkcję po dobyciu broni).</COLOR>
-<string><COLOR preset="TXT_Accent">Nie udało się wprowadzić zmian z powodu błędu w danym ustawieniu.</COLOR><lf><lf>Wrócić bez wprowadzenia zmian?<lf><lf>Jeśli próbujesz ponownie wprowadzić zmiany, sprawdź, czy opcje z ikoną <COLOR preset="TXT_Danger">( ! )</COLOR><lf>nie powodują żadnego z następujących problemów:<lf>1. Klawisz jest przypisany do wielu czynności.<lf>2. Czynność nie ma przypisanego klawisza.
-<string>Przywrócić wybrane opcje do ustawień domyślnych?
-<string>Przywrócić domyślne przypisania wszystkich klawiszy <COLOR preset="TXT_Accent">{0}</COLOR>?
+<string>Główny
+<string>Dodatkowy
+<string>Po wybraniu klawisza głównego lub dodatkowego czynności, którą chcesz ponownie przypisać, <lf>naciśnij żądany klawisz, aby przypisać go do tej czynności. <COLOR preset="TXT_Accent">(Nie można ponownie przypisać <lf>klawiszy <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, które mają unikatowe funkcje nawigacji w menu).</COLOR>
+<string>Po wybraniu klawisza głównego lub dodatkowego czynności, którą chcesz ponownie przypisać, naciśnij żądany klawisz,<lf>aby przypisać go do tej czynności. <COLOR preset="TXT_Accent">(Nie można ponownie przypisać klawisza <ICON KB_ESCAPE,KB_INSERT>, który ma unikatowe funkcję<lf>po dobyciu broni).</COLOR>
+<string><COLOR preset="TXT_Accent">Nie udało się wprowadzić zmian z powodu błędu w danym ustawieniu.</COLOR><lf><lf>Wrócić bez wprowadzenia zmian?<lf><lf>Jeśli próbujesz ponownie wprowadzić zmiany,<lf>sprawdź, czy opcje z ikoną <COLOR preset="TXT_Danger">[ ! ]</COLOR> nie powodują żadnego z następujących problemów:<lf>– Klawisz jest przypisany do wielu czynności.<lf>– Czynność nie ma przypisanego klawisza.
+<string>Zresetować wybrane opcje do ustawień domyślnych?
+<string>Przywrócić domyślne przypisania wszystkich <lf>klawiszy: <COLOR preset="TXT_Accent">{0}</COLOR>?
 <string>Przywrócić domyślne przypisania wybranych klawiszy?
-<string>Przywróć wszystkie opcje do wartości domyślnych
-<string>Przywróć wybrane opcje do wartości domyślnych
+<string>Przywróć wszystkie do domyślnych
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
+<string>Przywróć wybrane do domyślnych
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>Sterowanie łowcą
 <string>Sterowanie bronią
 <string>Sterowanie procą
-<string>Sterowanie podczas jazdy na Seikrecie
+<string>Sterowanie Seikretem (podczas dosiadania)
 <string>Sterowanie paskiem przedmiotów
-<string>Sterowanie własnym menu kołowym
+<string>Ustawienia skrótów klawiszowych
 <string>Sterowanie kamerą
 <string>Sterowanie czatem
 <string>Menu główne
 <string>Obsługa menu
 <string>Sterowanie mapą
-<string>Sterowanie podczas jazdy na potworze
+<string>Tryb zdjęć: sterowanie
+<string>Sterowanie podczas dosiadania potwora
 <string>Ruch do przodu
 <string>Ruch do tyłu
 <string>Ruch w lewo
 <string>Ruch w prawo
 <string>Zryw (naciśnij raz) / Schowaj broń
 <string>Zryw (przytrzymaj) / Schowaj broń
-<string>Kucnięcie / unik (<ICON PAD PL_DODGE>)
+<string>Kucnięcie / Unik (<ICON PAD PL_DODGE>)
 <string>Interakcja / Rozmowa / Zbieranie / Wycinanie
 <string>Użyj przedmiotu / Schowaj broń
-<string>Lobby / W obozie: Zamień cel NPC (po prawej)
-<string>Lobby / W obozie: Zamień cel NPC (po lewej)
+<string>Lobby/Obóz: zamień cel NPC (w prawo)
+<string>Lobby/Obóz: zamień cel NPC (w lewo)
 <string>Otwórz menu startowe
-<string>Wyciągnij broń / zwykły atak (<ICON PAD PL_ATTACK_00>)
+<string>Wyciągnij broń / Zwykły atak (<ICON PAD PL_ATTACK_00>)
 <string>Atak specjalny (z wyciągniętą bronią) (<ICON PAD PL_ATTACK_01>)
-<string>Garda / akcja specjalna broni (<ICON PAD PL_ATTACK_SP>)
+<string>Garda / Akcja specjalna broni (<ICON PAD PL_ATTACK_SP>)
 <string>Jednoczesna akcja (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Jednoczesna akcja (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_ATTACK_00>)
 <string>Jednoczesna akcja (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_ATTACK_01>)
@@ -47,46 +52,48 @@
 <string>Skupiony atak (tryb skupienia) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Załóż/Zdejmij opończę
 <string>Schowaj broń
-<string>Dodany klawisz: Wyceluj z procy (naciśnij raz <ICON PAD PL_AIM>)
-<string>Dodany klawisz: Wyceluj procę (przytrzymaj <ICON PAD PL_AIM>)
-<string>Wystrzel amunicję do procy (podczas celowania procą / w trybie skupienia)
-<string>Wystrzel amunicję do procy haczykowej (podczas celowania procą)
-<string>Wybierz powiadomienie świetlików zwiadowczych: ruch w górę (podczas celowania procą)
-<string>Wybierz powiadomienie świetlików zwiadowczych: ruch w dół (podczas celowania procą)
-<string>Wybierz cel świetlików zwiadowczych: ruch w górę (podczas celowania procą)
-<string>Wybierz cel świetlików zwiadowczych: ruch w dół (podczas celowania procą)
-<string>Przywołaj Seikreta (automatycznie) / Przełącz na tryb automatyczny podczas dosiadania
-<string>Przywołaj Seikreta (ręcznie) / Przełącz na tryb ręczny podczas dosiadania
+<string>(Dodatkowe) wyceluj procę (naciśnij raz <ICON PAD PL_AIM>)
+<string>(Dodatkowe) wyceluj procę (przytrzymaj <ICON PAD PL_AIM>)
+<string>Wystrzel amun. do procy (celując procą / w tr. skupienia)
+<string>Wystrzel amun. do procy haczykowej (celując procą)
+<string>Wybierz powiadomienie świetlików zwiad.: w górę (celując procą)
+<string>Wybierz powiadomienie świetlików zwiad.: w dół (celując procą)
+<string>Wybierz cel świetlików zwiad.: w górę (celując procą)
+<string>Wybierz cel świetlików zwiad.: w dół (celując procą)
+<string>Wezwij Seikreta (auto.) / Przełącz Seikreta na tryb auto.
+<string>Wezwij Seikreta (ręcz.) / Przełącz Seikreta na tryb ręczny
 <string>Zmień broń
-<string>Przyspiesz (naciśnij raz) / Pełna prędkość (przytrzymaj)
+<string>Biegnij (naciśnij raz)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
+<string>Przyspiesz (naciśnij raz) / Biegnij (przytrzymaj)
 <string>Zwolnij (naciśnij raz) / Zatrzymaj się (przytrzymaj)
 <string>Zejdź z Seikreta
 <string>Sprawdź sakwę Seikreta
-<string>Przełącz przedmioty: w lewo
+<string>Przeglądaj przedmioty: w lewo
 <string>Przeglądaj przedmioty: w prawo
-<string>Przeglądaj amunicję/powłoki: w górę
-<string>Przeglądaj amunicję/powłoki: w dół
+<string>Przeglądaj amunicję/powłoki/przynętę: w górę
+<string>Przeglądaj amunicję/powłoki/przynętę: w dół
 <string>Pokaż przedmioty (naciśnij raz)
-<string>Pokaż przedmioty (przytrzymaj) / Wyśrodkuj kamerę
-<string>Przeglądaj przedmioty w lewo (przy widocznych przedmiotach)
-<string>Przeglądaj przedmioty w prawo (przy widocznych przedmiotach)
-<string>Przeglądaj amunicję/powłoki w górę (przy widocznych przedmiotach)
-<string>Przeglądaj amunicję/powłoki w dół (przy widocznych przedmiotach)
-<string>Własne menu kołowe (przy widocznych przedmiotach)
-<string>Przełącz menu kołowe (przy widocznych przedmiotach)
-<string>Całkiem rozwiń pasek (przy widocznych przedmiotach) (naciśnij raz)
-<string>Całkiem rozwiń pasek (przy widocznych przedmiotach) (przytrzymaj)
-<string>Gdy pasek przedmiotów jest całkowicie otwarty: ruch kursora (w górę)
-<string>Gdy pasek przedmiotów jest całkowicie otwarty: ruch kursora (w dół)
-<string>Otwórz menu skrótów 1
-<string>Otwórz menu skrótów 2
-<string>Otwórz menu skrótów 3
-<string>Otwórz menu skrótów 4
-<string>Otwórz menu skrótów 5
-<string>Otwórz menu skrótów 6
-<string>Otwórz menu skrótów 7
-<string>Otwórz menu skrótów 8
-<string>Przełącz na następne menu skrótów
+<string>Wyświetlaj przedmioty (przytrzymaj) / Resetuj kamerę
+<string>Przeglądaj przedmioty: w lewo (przy widocznych przedm.)
+<string>Przeglądaj przedmioty: w prawo (przy widocznych przedm.)
+<string>Przeglądaj amun./powł./przyn. (przy widocznych przedm.): góra
+<string>Przeglądaj amun./powł./przyn. (przy widocznych przedm.): dół
+<string>Skróty klawiszowe (przy widocznych przedmiotach)
+<string>Przełącz skrót (przy widocznych przedmiotach)
+<string>Całkiem rozwiń pasek (przy widocznych przedmiotach)
+<string>Całkiem rozwiń pasek (przy widocznych przedm.) (przytrzymaj)
+<string>Gdy pasek przedmiotów jest rozwinięty: ruch kursora (w górę)
+<string>Gdy pasek przedmiotów jest rozwinięty: ruch kursora (w dół)
+<string>Otwórz skróty klawiszowe 1
+<string>Otwórz skróty klawiszowe 2
+<string>Otwórz skróty klawiszowe 3
+<string>Otwórz skróty klawiszowe 4
+<string>Otwórz skróty klawiszowe 5
+<string>Otwórz skróty klawiszowe 6
+<string>Otwórz skróty klawiszowe 7
+<string>Otwórz skróty klawiszowe 8
+<string>Przełącz na następny skrót klawiszowy
 <string>Skrót klawiszowy: miejsce 1
 <string>Skrót klawiszowy: miejsce 2
 <string>Skrót klawiszowy: miejsce 3
@@ -99,42 +106,44 @@
 <string>Skrót klawiszowy: miejsce 10
 <string>Skrót klawiszowy: miejsce 11
 <string>Skrót klawiszowy: miejsce 12
-<string>Pokaż własne menu kołowe
-<string>Własne menu kołowe: przełącz pasek (w górę)
-<string>Własne menu kołowe: przełącz pasek (w dół)
+<string>Pokaż skrót klawiszowy
+<string>Przełącz zestaw (stały tryb czterorzędowy): w górę
+<string>Przełącz zestaw (stały tryb czterorzędowy): w dół
+<string>
 <string>Sterowanie kamerą: w górę
 <string>Sterowanie kamerą: w lewo
 <string>Sterowanie kamerą: w dół
 <string>Sterowanie kamerą: w prawo
-<string>Przeł. skupienia/śledzenia kamery
+<string>Włącz skupienie/śledzenie kamery
 <string>Tryb zdjęcia/lornetki: przybliż
 <string>Tryb zdjęcia/lornetki: oddal
 <string>Opublikuj wiadomość
 <string>Naciśnij, by mówić
-<string>Menu czatu głosowego
+<string>Okno czatu głosowego
 <string>Czat
-<string>Obrazki
+<string>Naklejki
 <string>Gesty
 <string>Zestawy póz
 <string>Lista członków
 <string>Lista czatu głosowego
 <string>Lista powiadomień o zaproszeniach
-<string>Powiadomienie o nieobecności
+<string>Wiadomość o niedostępności
 <string>Czat: historia interakcji
 <string>Czat: członkowie lobby
-<string>Czat: członkowie powiązani
-<string>Czat: członkowie w zadaniu
+<string>Czat: członkowie grupy
+<string>Czat: członkowie zadania
 <string>Czat: członkowie oddziału
 <string>Czat: określony gracz
-<string>Otwórz mapę / Wyślij powiadomienie z czata / Pomiń wyniki
+<string>Otwórz mapę
 <string>Otwórz pełną mapę obszaru
+<string>Otwórz okno wyprawy/Otw. powiad. czatu/Pomiń wyniki zad.
 <string>Przygotuj z listy
 <string>Sprawdź sakwę na przedmioty
 <string>Sprawdź sakwę na amunicję
 <string>Sprawdź sakwę na powłoki
-<string>Dodaj skrót do przedmiotu
+<string>Zarejestruj skrót do przedmiotu
 <string>Wyświetl całe wyposażenie
-<string>Ekran z danymi misji
+<string>Menu z danymi misji
 <string>Spróbuj ponownie
 <string>Informacje o zadaniu
 <string>Wystrzel flarę alarmową
@@ -148,55 +157,65 @@
 <string>Zatrzymaj grę
 <string>Opcje
 <string>Włącz tryb zdjęć
-<string>Wyciągnij broń / strzel z broni dystansowej (<ICON PAD PL_ATTACK_SP>)
-<string>Przeładuj / nałóż lub usuń powłokę (<ICON PAD PL_ATTACK_00>)
+<string>Wyciągnij broń / Strzel z broni dystansowej (<ICON PAD PL_ATTACK_SP>)
+<string>Przeładuj / Nałóż lub usuń powłokę (<ICON PAD PL_ATTACK_00>)
 <string>Wyceluj z broni/procy (naciśnij raz <ICON PAD PL_AIM>)
 <string>Wyceluj z broni/procy (przytrzymaj <ICON PAD PL_AIM>)
-<string>Dodany klawisz: Wyceluj z broni/procy (naciśnij raz <ICON PAD PL_AIM>)
-<string>Dodany klawisz: Wyceluj z broni/procy (przytrzymaj <ICON PAD PL_AIM>)
-<string>Użyj amunicji specjalnej (podczas celowania <ICON PAD PL_ATTACK_SP_B>)
-<string>Garda / akcja specjalna broni (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
+<string>(Dodatkowe) Wyceluj z broni/procy (naciśnij raz <ICON PAD PL_AIM>)
+<string>(Dodatkowe) Wyceluj z broni/procy (przytrzymaj <ICON PAD PL_AIM>)
+<string>Skupiony atak (w trybie celowania/skupienia <ICON PAD PL_ATTACK_SP_B>)
+<string>Garda / Akcja specjalna broni (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Przełącz tryby
 <string>Schowaj broń
 <string>Wystrzel amunicję do procy (podczas celowania procą/bronią)
-<string>Pokaż przedmioty (przytrzymaj) / Wyśrodkuj kamerę
+<string>Wyświetlaj przedmioty (przytrzymaj) / Resetuj kamerę
 <string>Wybierz pozycję w menu / Zmień numer: w górę
 <string>Wybierz pozycję w menu / Zmień numer: w dół
 <string>Wybierz pozycję w menu: w lewo
 <string>Wybierz pozycję w menu: w prawo
 <string>Potwierdź
 <string>Wstecz (Anuluj)
-<string>Strona/Karta w lewo
-<string>Strona/Karta w prawo
-<string>Stan lub kategoria na karcie w lewo
-<string>Stan lub kategoria na karcie w prawo
-<string>Obróć model: w lewo
-<string>Obróć model: w prawo
+<string>Strona/Karta: w lewo
+<string>Strona/Karta: w prawo
+<string>Status/Kategoria: w lewo
+<string>Status/Kategoria: w prawo
+<string>Zmień stronę / Obróć model: w lewo
+<string>Zmień stronę / Obróć model: w prawo
 <string>Powiększ model
 <string>Zmniejsz model
 <string>Podmenu
-<string>Utwórz zestaw / Użyj zestawu
+<string>Zarządzaj zestawami
 <string>Przełącz kolumnę
 <string>Pokaż filtrowanie
-<string>Sortuj opcje/listę
+<string>Przeorganizuj opcje/listę
 <string>Przełącz wyświetlanie opcji/listy
-<string>Ruch mapą terenową: w górę
-<string>Ruch mapą terenową: w dół
-<string>Ruch mapą terenową: w lewo
-<string>Ruch mapą terenową: w prawo
-<string>Zmniejsz mapę terenową
-<string>Powiększ mapę terenową
-<string>Mapa terenowa: zaznacz cel
-<string>Mapa terenowa: wyślij sygnał
-<string>Mapa terenowa: zmień poziom (w górę)
-<string>Mapa terenowa: zmień poziom (w dół)
-<string>Mapa terenowa: przełącz ikony zawartości (w lewo)
-<string>Mapa terenowa: przełącz ikony zawartości (w prawo)
-<string>Mapa terenowa: tryb obrotu (przytrzymaj)
-<string>Mapa terenowa: resetuj pozycję kursora
+<string>Pomiń wyniki/przerywnik
+<string>Ruch szczegółową mapą: w górę
+<string>Ruch szczegółową mapą: w dół
+<string>Ruch szczegółową mapą: w lewo
+<string>Ruch szczegółową mapą: w prawo
+<string>Zmniejsz szczegółową mapę
+<string>Powiększ szczegółową mapę
+<string>Szczegółowa mapa: zaznacz cel
+<string>Szczegółowa mapa: wyślij sygnał
+<string>Szczegółowa mapa: zmień poziom (w górę)
+<string>Szczegółowa mapa: zmień poziom (w dół)
+<string>Szczegółowa mapa: przełącz ikony zawartości (w lewo)
+<string>Szczegółowa mapa: przełącz ikony zawartości (w prawo)
+<string>Szczegółowa mapa: tryb obrotu (przytrzymaj)
+<string>Szczegółowa mapa: resetuj pozycję kursora
 <string>Przełącz widok mapy
-<string>Mapa terenowa: przełącz wyświetlanie częściowe/na pełnym ekranie
-<string>Mapa terenowa: przegląd otoczenia
+<string>Zamknij szczegółową mapę
+<string>Sz. mapa: przeł. wyświetlanie częściowe/pełny ekran
+<string>Szczegółowa mapa: przegląd otoczenia
+<string>Przesuń kamerę: w tył
+<string>Przesuń kamerę: do przodu
+<string>Przesuń kamerę: w lewo
+<string>Przesuń kamerę: w prawo
+<string>Dostosuj pozycję kamery: w górę
+<string>Dostosuj pozycję kamery: w dół
+<string>Dostosuj pozycję kamery: w lewo
+<string>Dostosuj pozycję kamery: w prawo
 <string>Lekki atak nożem
 <string>Silny atak nożem
 <string>Atak bronią
@@ -205,20 +224,24 @@
 <string>----
 <string>Wybierz profil
 <string>Utwórz nowy profil
-<string>Broń biała: podstawy
-<string>Broń dystansowa: podstawy
+<string>Wszystkie bronie białe
+<string>Wszystkie bronie dystansowe
 <string>Skopiuj profil
 <string>Usuń profil
-<string>Dla jakiego typu broni chcesz utworzyć profil?<lf><COLOR preset="TXT_Accent">(Możesz utworzyć jeden profil dla każdego typu broni.</COLOR>
-<string>Na jaki profil typu broni chcesz zmienić?<lf><COLOR preset="TXT_Accent">(Możesz utworzyć jeden profil dla każdego typu broni.</COLOR>
-<string>Dla jakiego typu broni skopiować profil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Jeśli profil został już utworzony, zostanie nadpisany. W przeciwnym razie zostanie utworzony nowy profil).</COLOR>
-<string>Usunąć profil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(W przypadku usunięcia zastosowany zostanie profil {1} zamiast profilu {0}).</COLOR>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
+<string>Dla jakiego typu broni chcesz utworzyć profil?<lf><COLOR preset="TXT_Accent">(Możesz utworzyć jeden profil dla każdego typu broni)</COLOR>
+<string>Na jaki profil typu broni chcesz zmienić?<lf><COLOR preset="TXT_Accent">(Możesz utworzyć jeden profil dla każdego typu broni)</COLOR>
+<string>Dla jakiego typu broni skopiować profil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Jeśli profil został już utworzony, zostanie nadpisany.<lf>W przeciwnym razie zostanie utworzony nowy profil.)</COLOR>
+<string>Usunąć <COLOR preset="TXT_Accent">{0}</COLOR> profil?<lf><COLOR preset="TXT_Accent">(W przypadku usunięcia zastosowany zostanie<lf>profil {1} zamiast profilu {0}).</COLOR>
 <string>Nadpisać profil <COLOR preset="TXT_Accent">{0}</COLOR>?
 <string>Zapisać zmiany?
 <string>Zapisz i wróć
 <string>Odrzuć zmiany i wróć
 <string><REF RefButton_0011>
-<string>Czy chcesz zastosować w tym profilu<lf>istniejące przypisania klawiszy?<lf>(Jeśli nie, zostanie stworzony nowy<lf>profil z ustawieniami domyślnymi)
+<string>Czy chcesz zastosować istniejące przypisania<lf>klawiszy do tego nowego profilu?<lf>(Jeśli nie, nowy profil zostanie utworzony<lf>z ustawieniami domyślnymi)
 <string><REF RefButton_0000>
 <string><REF RefButton_0001>
 <string><REF RefButton_0012>

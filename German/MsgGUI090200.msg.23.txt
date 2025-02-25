@@ -11,14 +11,14 @@
 <string>Ausdauer
 <string>Angriff
 <string>Verteidigung
-<string>Elementabwehr
+<string>Elementwiderstand
 <string>Statuseffekte
 <string>Nahrungsfähigkeiten
 <string>Zubereitung beginnen
 <string><REF RefButton_0000>
 <string><REF RefButton_0001>
 <string><REF RefButton_0012>
-<string>Lieblingsmahlzeit bearbeiten
+<string>Lieblingsmahlzeit speichern
 <string>Zutat(en) entfernen
 <string>Status ansehen
 <string>Möchtest du diese Mahlzeit zubereiten?
@@ -29,14 +29,17 @@
 <string>Lieblingsmahlzeit kochen
 <string><REF RefButton_0001>
 <string><REF RefButton_0012>
-<string><REF RefItem_0015>
+<string>Set bearbeiten
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>Möchtest du diese Lieblingsmahlzeit zubereiten?
 <string>Nicht genug Zutaten. Diese Mahlzeit konnte<lf>nicht zubereitet werden.
 <string>Möchtest du die Registrierung abbrechen?<lf>(Änderungen werden nicht gespeichert.)
 <string>Das registrierte Set wird gelöscht.<lf>Möchtest du wirklich fortfahren?
-<string>{0}+{1}
-<string>{0}+{1}　{2}+{3}
+<string>{0} +{1}
+<string>{0} +{1}　{2} +{3}
 <string><COLOR preset="TXT_Danger">Zubereiten nicht möglich, da du kein rohes Fleisch besitzt.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast nicht genügend Zutaten.</COLOR>
+<string><COLOR preset="TXT_Danger">Fleisch kann nicht gekocht werden, da in deinem Objektbeutel nicht genügend Platz ist.</COLOR>

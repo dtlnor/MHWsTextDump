@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string>Throwing Knives
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP> Defense Up
 <string>Increases defense.<lf><lf>Most commonly gained through:<lf>- Using items like Adamant Seeds and<lf>Armorskins<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
 <string>
+<string><ICON ST_CRITICAL_UP> Affinity Up
+<string>Increases affinity.<lf><lf>Most commonly gained through:<lf>- Activating skills like Agitator<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Elemental Attack Boost
+<string>Increases the elemental power of<lf>your weapon.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Status Attack Up
+<string>Increases the potency of status ailment<lf>attacks dealt to monsters.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Fire Resistance Up
 <string>Increases fire resistance and prevents<lf>fireblight.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Water Resistance Up
+<string>Increases water resistance and prevents<lf>waterblight.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Thunder Resistance Up
+<string>Increases thunder resistance and prevents<lf>thunderblight.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Ice Resistance Up
+<string>Increases ice resistance and prevents<lf>iceblight.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Dragon Resistance Up
+<string>Increases dragon resistance and prevents<lf>dragonblight.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_SPIRIT> Divine Protection
+<string>Grants a chance of reducing damage<lf>taken.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_HEAL_CONTINUE> Health Regeneration
+<string>Gradually recovers health.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Echo Bubble<lf>Effects
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Recovery Speed
+<string>Increases the rate at which the red portion<lf>of your Health Gauge recovers.<lf><lf>Most commonly gained through:<lf>- Using items like Immunizer and Wild Jerky<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Stamina Use Reduced
+<string>Reduces stamina consumption.<lf><lf>Most commonly gained through:<lf>- Using Dash Juice<lf>- Gathering Wiggly Litchi<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Stamina Recovery Up
+<string>A status that increases the rate at which<lf>stamina is recovered.<lf><lf>Most commonly gained through:<lf>- Equipment Skill activation
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Stamina Regeneration
+<string>Continuously restores stamina.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Echo Bubble<lf>Effects
+<string>
+<string><ICON ST_AVOID_UP> Evade Window Up
+<string>Increases your evade window.<lf><lf>Most commonly gained through:<lf>- Equipment Skill activation<lf>- Using the hunting horn's Echo Bubble<lf>Effects
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Self-Improvement
 <string>Increases movement speed.<lf><lf>Stacking this Melody Effect multiple<lf>times will increase your attack and<lf>prevent attacks from being deflected.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_ARMOR> Knockback Negated
+<string>Prevents knockback from attacks.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_WIND> Wind Pressure Negated/<ICON ST_RESIST_WIND_HIGH> All Wind Pressure Negated
+<string>Grants protection against wind pressure.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_NOISE> Earplugs (S)/<ICON ST_RESIST_NOISE_HIGH> Earplugs (L)
+<string>Grants protection against monster roars.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_QUAKE> Tremors Negated
+<string>Grants protection against ground tremors.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_STUN> Stun Negated
+<string>Prevents stun.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Paralysis Negated
+<string>Prevents paralysis.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_ELEMENT> Blight Negated
+<string>Nullifies all elemental blights.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubbles
+<string>
+<string><ICON ST_RESIST_DEBUF> All Ailments Negated
+<string>Nullifies all status ailments.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects<lf>and Echo Bubble Effects
+<string>
+<string><ICON ST_SOUND_BARRIER> Sonic Barrier
+<string>Reduces damage once, and also<lf>nullifies wind pressure, ground<lf>tremors, and monster roars once.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_GROUND> Environmental Damage Negated
+<string>Nullifies damage taken from lava or<lf>spiked terrain, also prevents negative<lf>effects from intense heat or cold.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_MUD> Aquatic/Oilsilt Mobility
+<string>Prevents being slowed by deep water<lf>or oilsilt. Also nullifies effects from<lf>waves created by monsters.<lf><lf>Most commonly gained through:<lf>- Using the hunting horn's Melody Effects
+<string>
+<string><ICON ST_RESIST_COLD> Resistant to Cold
+<string>Nullifies the effects of your maximum<lf>stamina decreasing when exposed to<lf>areas that are bitterly cold.<lf><lf>Most commonly gained through:<lf>- Consuming Hot Drinks<lf>- Gathering Heatmantle Bugs
+<string>
+<string><ICON ST_RESIST_HOT> Resistant to Heat
+<string>Prevents you from gradually losing<lf>health when exposed to areas that<lf>are extremely hot.<lf><lf>Most commonly gained through:<lf>- Consuming cool drinks<lf>- Gathering Chillmantle Bugs
 <string>
 <string><ICON ST_MEAL_UP> Meal Effects
 <string>Indicates that effects have been<lf>gained from eating a meal.<lf><lf>Most commonly gained through:<lf>- Eating a meal
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sleep
+<string>After being struck by sleepiness, you will<lf>fall asleep after a short time, rendering<lf>you unable to move. Occurs once enough<lf>of the status has been accumulated.<lf><lf>Most commonly cured through:<lf>- Using an Energy Drink before falling<lf>asleep<lf>- Being hit by an attack<lf>- Waiting for the effect to wear off after<lf>sleeping
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>A status that detonates an explosion that<lf>knocks you back and inflicts damage.<lf>Triggers either after a certain amount<lf>of time has passed or if you are hit by<lf>an attack.<lf><lf>Most commonly cured through:<lf>- Using a Deodorant<lf>- Evading multiple times in a row
+<string>
+<string><ICON ST_LACERATE> Bleeding
+<string>A status that causes you to take damage<lf>when moving. (Curing this status will<lf>temporarily boost your natural recovery.)<lf><lf>Most commonly cured through:<lf>- Eating meat-based items or a Well-done<lf>Steak<lf>- Crouching for a short period of time
+<string>
 <string><ICON ST_STUN> Stun
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Stun with Flash
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Webbed
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Frostblight
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Defense Down
+<string>A status that lowers defense, increasing<lf>the amount of damage taken.<lf><lf>Most commonly cured through:<lf>- Using an Adamant Seed or Armorskin<lf>- Waiting for the effect to wear off
+<string>
+<string><ICON ST_BADSMELL> Stench
+<string>A status in which you are unable to use<lf>food or drink items.<lf><lf>Most commonly cured through:<lf>- Using a Deodorant<lf>- Evading in a body of water<lf>- Waiting for the effect to wear off
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Frenzy
+<string>Extended exposure to the Frenzy will<lf>result in being infected unless you land<lf>a certain number of hits on a monster.<lf><lf>If infected: Stops natural recovery<lf>and increases damage taken.<lf><lf>If cured: Increases affinity and gives<lf>resistance to the Frenzy.<lf><lf>You can slow the onset of the Frenzy<lf>by using a Nulberry.
+<string>
 <string><ICON ST_FIRE> Fireblight
 <string>A status that depletes your health over<lf>time.<lf><lf>Most commonly cured through:<lf>- Using a nulberry<lf>- Dodging multiple times in a body<lf>of water<lf>- Waiting for the effect to wear off
 <string>
@@ -221,6 +363,12 @@
 <string>Wind Pressure
 <string>A status that restricts your movement.<lf>The length of the restriction will change<lf>with the strength of the wind pressure.<lf><lf>Most commonly cured through:<lf>- Waiting for the effect to wear off<lf>- Being hit by an attack
 <string>
+<string>Cold
+<string>A status that increases the rate at which<lf>your maximum stamina decreases while<lf>in certain areas.<lf><lf>Most commonly cured through:<lf>- Using hot drinks<lf>- Gathering Heatmantle Bugs
+<string>
+<string>Heat
+<string>A status that slowly causes you to lose<lf>health while in certain areas.<lf><lf>Most commonly cured through:<lf>- Using cool drinks<lf>- Gathering Chillmantle Bugs
+<string>
 <string>Sheathed State
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -244,6 +392,12 @@
 <string>
 <string><REF Item_IT_21>
 <string>A Whetstone is an item that restores lost<lf>weapon sharpness. It is always available<lf>as an Essential Item in your Item Bar.<lf><lf>It can be used even when your weapon<lf>is drawn if you assign it to the Custom<lf>Radial Menu or a Shortcut.
+<string>
+<string>Armor Skill - Handicraft
+<string>Handicraft is a skill that lengthens the<lf>Sharpness Gauge. The color of the gauge<lf>after application depends on the weapon.<lf><lf>The details of the Sharpness Gauge<lf>increase can be viewed in Equipment Info<lf>in the Start Menu.
+<string>
+<string>Armor Skill - Protective Polish
+<string>Protective Polish is a skill that activates<lf>when using Whetstones. It reduces the<lf>rate in which Sharpness is reduced.
 <string>
 <string>Focus Mode
 <string>Focus Mode
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>The Ghillie Mantle can be used to hide<lf>from monsters temporarily. Attacking<lf>or taking damage will end the effect<lf>regardless of how much time remains.<lf><lf>Unlike other Specialized Tools, the<lf>Ghillie Mantle acts as an Essential Item<lf>that you always carry with you.
+<string>
+<string><REF Item_IT_626>
+<string>The Rocksteady Mantle stands firm against<lf>certain attacks, and gives you protection<lf>against wind pressure, roars, tremors,<lf>and also reduces damage received.<lf><lf>Taking damage will shorten the duration<lf>of use.
+<string>
+<string><REF Item_IT_627>
+<string>The Mending Mantle gradually recovers<lf>health. If you don't take any damage<lf>for a certain amount of time after being<lf>attacked, your recovery speed will<lf>increase.<lf><lf>You will also recover health when <lf>attacking monsters.
+<string>
+<string><REF Item_IT_628>
+<string>The Evasion Mantle activates a special<lf>evade that prevents you from taking<lf>damage if you evade a monster attack<lf>at just the right time.<lf><lf>Successfully evading a monster attack<lf>also boosts your attack power.
+<string>
+<string><REF Item_IT_629>
+<string>When equipped, the Corrupted Mantle<lf>decreases health, but increases affinity<lf>and weapon performance. Repeated<lf>attacks on monsters will further<lf>increase your attack power and affinity.
 <string>
 <string>Hunting Tips
 <string>Mounting
@@ -338,6 +504,9 @@
 <string>Stench
 <string>A status where a monster is drenched<lf>in an awful stench. You can inflict a<lf>monster with stench by using Dung<lf>Pods, forcing it to flee.
 <string>
+<string>Blast
+<string>Blast is a status which slowly builds up<lf>and eventually triggers an explosion<lf>that deals damage to monsters. Use<lf>blast-based weapons in order to inflict<lf>the status.
+<string>
 <string>Monster Weak Points
 <string>A monster's weak point may be exposed<lf>before or after one of its attacks. You<lf>can find these weak points using Focus<lf>Mode.<lf><lf>Attacking a weak point using a Focus<lf>Strike will create a large opening<lf>for attacks.
 <string>
@@ -353,4 +522,19 @@
 <string>Snaring a Monster
 <string>
 <string>Tranq Bombs
+<string>
+<string>Frenzy
+<string>When monsters are infected with the<lf>Frenzy, it causes them to enter a Frenzy<lf>state.<lf><lf>Frenzied monsters forgo their usual<lf>sleeping and feeding patterns, and<lf>exhibit more aggressive and violent<lf>characteristics than normal specimens.<lf><lf>The effects of the Frenzy also shorten a<lf>monster's lifespan and reduce its health.
+<string>
+<string>Guardians
+<string>Guardians are artificial monsters that<lf>were created by an ancient civilization.<lf>They have no reproductive capabilities<lf>and have no need to seek out prey, as<lf>they can subsist on Wyvern Milk instead.<lf><lf>The energy they absorb from Wyvern<lf>Milk allows them to heal wounds, making<lf>them much hardier than normal monsters.<lf>Self-preservation instincts impel them to<lf>stay near places with energy sources,<lf>where they are highly territorial.
+<string>
+<string>Tempered Monsters
+<string>Tempered monsters are monsters that<lf>have survived countless battles. They<lf>have significantly higher health and<lf>attack than ordinary specimens, making<lf>them extremely potent adversaries.<lf><lf>Perhaps as a result of previously violent<lf>encounters, these monsters bear<lf><COLOR preset="TXT_Danger">tempered wounds</COLOR> all over their bodies.
+<string>
+<string>Tempered Wounds
+<string>Tempered wounds cover the bodies<lf>of tempered monsters as a mark of<lf>the many battles they have endured.<lf><lf>Unlike normal monsters, tempered<lf>monsters are already covered in these<lf>wounds before you encounter them.<lf>You can gradually reopen the wounds<lf>by targeting them in order to create<lf>weak points.
+<string>
+<string>Aging Carcasses
+<string>Over time, monster carcasses will start<lf>to rot. The materials you can carve<lf>from it will differ between its fresh state<lf>and rotten state.<lf><lf>Small monsters that have rotted will<lf>sometimes yield bonepiles or<lf>wyvernsprouts, which you can collect<lf>materials from. Guardian carcasses<lf>change into a crystallized state which<lf>yield their own unique materials.
 <string>

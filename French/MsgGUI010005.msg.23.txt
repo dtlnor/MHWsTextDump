@@ -1,4 +1,4 @@
-﻿<string>Indiquez votre date de naissance.
+﻿<string>Veuillez indiquer votre âge. Cette information est nécessaire<lf>pour garantir la conformité légale de nos opérations internes.
 <string>Année
 <string>Mois
 <string>Jour
@@ -15,4 +15,5 @@
 <string>Octobre
 <string>Novembre
 <string>Décembre
-<string><COLOR preset="TXT_Accent"><DATETIME année={0} mois={1} jour={2} format="jj mmm, aaaa"></COLOR><lf>Confirmer la date de naissance ?<lf><lf>Remarque : ce paramètre n'affecte pas le gameplay,<lf>mais ne pourra pas être changé plus tard.
+<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format="D xMMMM YYYY"></COLOR><lf>Confirmer la date de naissance ?<lf><lf>Remarque : ce paramètre n'affecte pas le gameplay,<lf>mais ne pourra pas être changé plus tard.
+<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format="D xMMMM YYYY"></COLOR><lf>Confirmer la date de naissance ?

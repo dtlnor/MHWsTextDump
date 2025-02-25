@@ -1,11 +1,11 @@
 ﻿<string>Méritos de cazador
-<string>{0} vez/veces
-<string>{0:F2} segundo(s)
+<string><PLURAL {0} "{0} vez" "{0} veces">
+<string><NUMBER {0:F2}> <PLURAL {0:F2} "segundo" "segundos">
 <string>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI070003_0002
 <string><REF RefGeneral_0000_000_0>
 <string><REF RefMenu_017>
-<string>Solicitud de amistad
+<string>Enviar solicitud de amistad
 <string>Seguir
 <string><REF RefButton_0000>
 <string><REF RefButton_0012>

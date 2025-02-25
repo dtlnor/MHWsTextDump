@@ -13,6 +13,10 @@
 <string>套用變更
 <string>捨棄所有變更內容
 <string>預設外觀
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>詳細設定
 <string>初始防具
 <string>選擇遊戲開始時的防具。
@@ -86,6 +90,7 @@
 <string>眉毛類型
 <string>眉毛顏色
 <string>眉毛透明度
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>眉毛高度
 <string>眉頭高度
 <string>眉間寬度
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>眼睛高度
 <string>眼睛深度
 <string>雙眼距離
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>牙齒顏色
 <string>牙垢顏色
 <string>牙垢透明度
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>臉部整體長度
 <string>下顎寬度
 <string>下顎角度
@@ -173,6 +184,7 @@
 <string>下巴長度
 <string>下巴大小
 <string>輪廓整體調整
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>肌肉量
 <string>肌肉線條
 <string>膚色
@@ -295,6 +307,7 @@
 <string>重置
 <string>確定要將選擇項目內的所有設定恢復至初始設定嗎？
 <string>確定要重置選擇中的預設外觀的所有設定嗎？
+<string>儲存/讀取
 <string>確認/編輯
 <string>編輯
 <string>顏色設定
@@ -306,6 +319,10 @@
 <string>關
 <string>預設
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>顯示選項
@@ -365,6 +382,94 @@
 <string>　右側混合量
 <string>　皮膚亮度
 <string>　皮膚飽和度
+<string>編輯已保存設計資料
+<string>設計資料名稱
+<string>儲存日
+<string>讀取
+<string>儲存
+<string>變更名稱
+<string>變更位置
+<string>刪除
+<string><ICON UI_SUB_MENU>儲存
+<string>設計資料{0}
+<string>要變更至此外觀嗎？<lf><COLOR preset="TXT_Danger">將失去現在編輯中的設計資料。<lf>如要保存當前設計資料，請先儲存。</COLOR>
+<string>設計資料中設定了未持有的選項。<lf>讀取資料後將不會套用該設定，<lf>僅會變更可編輯的部分。是否確定？
+<string>要儲存當前設計資料嗎？
+<string>要儲存當前設計資料嗎？<lf><COLOR preset="TXT_Danger">（將覆蓋現有資料）</COLOR>
+<string>請選擇想變更排序的項目。
+<string>請選擇項目的新位置。
+<string>要刪除此設計資料嗎？
+<string>變更鷺鷹龍裝飾
+<string>自訂鷺鷹龍設計
+<string>膚色
+<string>內側羽毛顏色
+<string>外側羽毛顏色
+<string>花紋範圍
+<string>花紋顏色
+<string>花紋透明度
+<string>眼睛顏色
+<string>右眼個別設定
+<string>右眼顏色
+<string>裝備類型
+<string>飾物類型
+<string>變更名稱
+<string>可變更名稱。
+<string>要結束變更鷺鷹龍裝飾嗎？
+<string>要結束自訂鷺鷹龍設計嗎？
+<string>顯示/隱藏裝飾
+<string>請輸入鷺鷹龍的名稱。<lf><lf><COLOR preset="TXT_Accent">最多可顯示約10個全形文字。</COLOR>
+<string>編輯簡易營地
+<string>自訂帳篷設計
+<string>營地設備
+<string>外帳類型
+<string>外帳主色
+<string>外帳輔色
+<string>內帳類型
+<string>內帳主色
+<string>內帳輔色
+<string>彩繪1
+<string>彩繪2
+<string>與「彩繪1」重疊時，將優先顯示此選項。
+<string>彩繪3
+<string>與「彩繪2」重疊時，將優先顯示此選項。
+<string>彩繪類型1
+<string>彩繪類型2
+<string>彩繪類型3
+<string>彩繪顏色1
+<string>彩繪顏色2
+<string>彩繪顏色3
+<string>外帳彩繪1類型
+<string>外帳彩繪2類型
+<string>外帳彩繪3類型
+<string>內帳彩繪1類型
+<string>內帳彩繪2類型
+<string>內帳彩繪3類型
+<string>外帳彩繪1顏色
+<string>外帳彩繪2顏色
+<string>外帳彩繪3顏色
+<string>內帳彩繪1顏色
+<string>內帳彩繪2顏色
+<string>內帳彩繪3顏色
+<string>透明度
+<string>尺寸
+<string>橫向尺寸
+<string>縱向尺寸
+<string>位置
+<string>橫向位置
+<string>縱向位置
+<string>恢復至預設
+<string>要將彩繪類型的設定恢復為預設狀態嗎？
+<string>互換彩繪設定
+<string>將現在使用的彩繪設定和其他設定互換。
+<string>左右反轉
+<string>上下反轉
+<string>角度
+<string>大型營地用具1
+<string>大型營地用具2
+<string>小型營地用具1
+<string>小型營地用具2
+<string>提燈類型
+<string>要結束編輯簡易營地嗎？
 <string>變更造型
 <string>要結束變更造型嗎？
 <string>編輯獵人
@@ -389,3 +494,35 @@
 <string>產生特徵相近的臉孔
 <string>產生差異較多的臉孔
 <string>確定使用這張臉孔嗎？
+<string><COLOR preset="TXT_Accent">公開測試版資料</COLOR>
+<string>要取得公開測試版的角色編輯資料嗎？
+<string>分享數量
+<string>上傳設計資料
+<string>下載設計資料
+<string>要上傳設計資料，和其他玩家分享嗎？
+<string>已上傳設計資料，下載密碼如下。<lf>{0}
+<string><COLOR preset="TXT_Danger">錯誤</COLOR><lf>無法上傳設計資料。
+<string><COLOR preset="TXT_Danger">無法再上傳更多設計資料。</COLOR>
+<string>確認/取消上傳
+<string>已上傳的設計資料的密碼：<lf>{0}<lf><lf>*如要取消上傳，請選擇「是」。
+<string>確定要取消上傳設計資料嗎？
+<string>已取消上傳設計資料。
+<string><COLOR preset="TXT_Danger">錯誤</COLOR><lf>無法取消上傳設計資料。
+<string><COLOR preset="TXT_Danger">此為經下載獲得的設計資料，無法上傳。</COLOR>
+<string>請輸入設計資料密碼。（應為12個半形英數字）<lf><lf>注意：英文大小寫將視為不同文字。
+<string>已找到密碼為{0}的設計資料。<lf><lf>創作者的獵人ID：{1}<lf><PLATMSG RefGeneral_0018_001>：{2}
+<string>未找到密碼為{0}的設計資料。<lf>{1}
+<string>{0}<lf>此為獵人的設計資料，無法使用。<lf>{1}
+<string>{0}<lf>此為隨從艾路的設計資料，無法使用。<lf>{1}
+<string>{0}<lf>此設計資料無法使用。<lf>{1}
+<string>儲存此設計資料
+<string>變更至此外觀
+<string>創作者資料
+<string>要變更至此外觀嗎？<lf>變更後將失去當前的設計資料，如要保留，請先儲存。
+<string>此設計資料包括尚未持有的選項。<lf>要變更至此外觀，並不套用該選項嗎？
+<string>{0}<lf><lf>創作者的獵人ID：{1}<lf><PLATMSG RefGeneral_0018_001>：{2}
+<string>確定要中止下載設計資料嗎？
+<string>已根據伺服器的資料比對結果調整上傳的設計資料。
+<string><COLOR preset="TXT_Danger">此設計資料已上傳，無法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">尚未創建角色保存資料，無法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">尚未創建獵人ID，無法使用。</COLOR>

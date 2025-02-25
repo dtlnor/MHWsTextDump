@@ -30,7 +30,7 @@
 <string>Link Party Invitation
 <string>{0}<lf>has sent you a Link Party invitation.
 <string>Environment Link Invitation
-<string>{0} has sent you an Environment Link<lf>invitation.
+<string>{0} has sent you an Environment<lf>Link invitation.
 <string>Quest Invitation
 <string>{0}<lf>has sent you a quest invitation.
 <string>Quest time limit left:<lf><PLURAL {0} "{0} minute" "{0} minutes">.
@@ -40,13 +40,14 @@
 <string>The skill <BOLD>{0}</BOLD><lf>has activated.
 <string><BOLD>{0}</BOLD><lf>skill effect has worn off.
 <string>The food skill <BOLD>{0}</BOLD><lf>has activated.
-<string>Food skill <BOLD>{0}</BOLD><lf>effect has worn off.
+<string>The effect of food skill<lf><BOLD>{0}</BOLD> has worn off.
 <string>SOS Flare fired.
 <string>The quest leader has sent an SOS Flare.
 <string>SOS Flare canceled.
 <string>The quest leader has canceled<lf>the SOS Flare.
 <string>Voice chat has been switched to<lf><REF RefNetwork_0004_02>.
 <string>Voice chat has been switched to<lf><REF RefNetwork_0004_01>.
+<string>There is a sale going on at the Provisions<lf>Stockpile!
 <string>A new quest has been unlocked.
 <string>{0}<lf>has been made the quest leader.
 <string>You have been appointed as<lf>the quest leader.
@@ -62,12 +63,24 @@
 <string>Hunter Friend Request
 <string>Received a Hunter Friend request<lf>from {0}.
 <string>{0}<lf>is now your Hunter Friend.
+<string>The fence is ready for use.
+<string>Fence ready in: <PLURAL {0} "{0} minute" "{0} minutes">
+<string>Fence ready in: <PLURAL {0} "{0} second" "{0} seconds">
+<string>The Support Ship has arrived.
+<string>The Support Ship will depart soon.
+<string>The Support Ship has departed.
+<string>Lucky Voucher used. ({0} remaining.)
+<string>Randomized reward lineups<lf>and zenny will be awarded.
+<string>Use
+<string>Lucky Voucher used.
 <string>Environment Link Activity
 <string>Beginning a Field Survey for<lf>{0}.
 <string>Cancel
 <string>Supply items have been restocked.<lf>(Check supply items with <INPUTMSG MsgGUI020100_0011>.)
 <string>Support Hunter {0}<lf>has joined the quest.
 <string>Support Hunter {0} has left the quest.
+<string>A new Arena Quest is available.
+<string>Cutscenes may be viewed again in<lf>the Gallery accessible from the Title<lf>Screen Menu.
 <string>Main target set as your destination.
 <string>Target disappeared.<lf>Setting destination for the main target.
 <string>Target set as waypoint has disappeared.
@@ -75,15 +88,34 @@
 <string>Quest failed...
 <string>Quest Invitations (Resubmitted)
 <string>You are now able to receive quest<lf>invitations from {0}.
+<string>Gave {0} (x{1})
 <string>Obtained Essential Items:<lf><COLOR preset="TXT_Accent">Hunting Tools</COLOR>!
 <string>Environment Overview Update
+<string>{0} from {1}<lf>would like to offer you a meal!
+<string>Open Map
+<string>Environment Overview Update
 <string>{0} was spotted!<lf>Location: {1}
+<string>Open Map
+<string>Environment Overview Update
+<string>You can now report your successful<lf>side mission to {0}!<lf>Location: {1}
 <string>Open Map
 <string>Environment Overview Update
 <string>Multiple targets available for combined<lf>quest creation!
 <string>Open Map
 <string>Environment Overview Update
 <string>This region's apex predator,<lf>{0}, has appeared!
+<string>Open Map
+<string>Environment Overview Update
+<string>{0} has appeared.<lf>It seems to be affecting local settlements!
+<string>Open Map
+<string>Environment Overview Update
+<string>A monster with more rewards appeared!<lf>{0}
+<string>Open Map
+<string>Environment Overview Update
+<string>Side mission target<lf>{0} has appeared!
+<string>Open Map
+<string>Environment Overview Update
+<string>Wishlist target has appeared!<lf>{0}
 <string>Open Map
 <string>Environment Overview
 <string>{0} has appeared!
@@ -92,6 +124,9 @@
 <string>{0}<lf>will leave the locale soon!
 <string>Open Map
 <string>{0}<lf>left the locale...
+<string>Environment Overview Update
+<string>{0} has appeared<lf>in the Rimechain Peak!
+<string>Open Map
 <string>Environment Overview
 <string>A pack containing {0}<lf>has appeared!
 <string>Open Map
@@ -99,20 +134,34 @@
 <string>The pack containing {0}<lf>will leave the locale soon!
 <string>Open Map
 <string>The pack containing {0}<lf>has left the locale...
+<string>{0} has appeared!
 <string>Environment Overview
 <string>An outbreak of {0}<lf>has been spotted!
 <string>Open Map
 <string>Environment Overview
 <string>{0} upsurge has been spotted!
 <string>Open Map
+<string>Environment Overview
+<string>{0} is available as<lf>a Hunting Assistant!
+<string>Open Map
+<string>Environment Overview
+<string>The Support Ship has arrived!
+<string>Open Map
+<string>Environment Overview
+<string>A Large Guardian Cocoon has been spotted!
+<string>Open Map
 <string>{0} lost.
 <string>Join Requests
-<string>You have received a Join Request.<lf>Please review it for acceptance or refusal.
+<string>You have received a Join Request.<lf>Please review it to accept or refuse.
 <string>You have left the lobby.
 <string>Connection lost.
 <string>The host has<lf>disbanded the lobby.
 <string>Followed by {0}.
 <string>No supply items.
+<string>Wishlist: {0}
+<string><COLOR preset="TXT_Accent">Obtained all required materials.</COLOR>
+<string>Wishlist: {0}
+<string>Required Quantity
 <string>Field Survey abandoned.
 <string>Cannot carry any more Supply Items.<lf>Excess supply items discarded.
 <string>Received the effects<lf>of Melody Effect<lf><BOLD>{0}</BOLD>.
@@ -123,6 +172,9 @@
 <string>Cool drink effects have worn off.
 <string>Hot drink effects have worn off.
 <string>Unable to designate as quest target.<lf>Please open the departure screen with <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
+<string>Open Mission Info
+<string>Display objective priority and select<lf>a mission.
+<string>Open
 <string>This {0} cannot<lf>be made into a quest target.
 <string>This {0} cannot<lf>be made into a quest target.<lf>(HR too low.)
 <string>Switched from Online Single Player<lf>mode to Online mode.
@@ -135,21 +187,82 @@
 <string>Field Survey cannot begin as there are<lf>Link Members viewing Quest Results.
 <string>This {0} cannot be hunted<lf>as part of a quest at your current progression.
 <string>Echo Bubble effect activated!<lf>{0}
+<string>{0} has been delivered!
+<string>{0}
+<string>New award obtained!
+<string>Title
+<string>Obtained <PLURAL {0} "a new title" "{0} new titles">!
+<string>{0}
+<string>New nameplate obtained!
+<string>{0}
+<string>New background obtained!
+<string>Poogie doesn't seem to have anything...
+<string>A new bounty has been posted.
+<string>Limited Bounty
+<string>{0}<lf>{1}/{2}
+<string>Limited Bounty
+<string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} completed!</COLOR>
 <string>Environment Overview Update
 <string>{0} has appeared.<lf>It has rare bonus rewards!
+<string>Open Map
+<string>Environment Overview Update
+<string>Side mission complete!<lf>Report to {0}
+<string>Open Map
+<string>Environment Overview Update
+<string>You can report completed side missions<lf>to your Palico!
 <string>Open Map
 <string>Link Party disbanded because you<lf>are the only member.
 <string>Could not join {0}'s<lf>Environment Link.
 <string>Left {0}'s Environment Link.
 <string>The Environment Link was disbanded.
 <string>Could not join the quest.
+<string>Unlocked new Camp Gear Options.
 <string>Meal effects will wear off soon.
+<string>You can now set up and customize<lf>Pop-up Camps in the Oilwell Basin.
+<string>You can now set up and customize<lf>Pop-up Camps in the Iceshard Cliffs.
+<string>You can now set up and customize<lf>Pop-up Camps in the Ruins of Wyveria.
+<string>Environment Overview Update
+<string>A quest with multiple targets is available.<lf>They are affecting the lives of the people!
+<string>Open Map
+<string>Environment Overview Update
+<string>A quest with multiple targets is available.<lf>There are more bonus rewards than normal!
+<string>Open Map
 <string>Environment Overview Update
 <string>Take on quests with multiple targets to<lf>earn rare bonus rewards!
 <string>Open Map
+<string>You have {0} new <PLURAL {0} "message" "messages">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Left the Link Party.
 <string>Manual Movement
 <string>Auto-move
 <string>Auto-explore
 <string>Online Single Player has been<lf>temporarily deactivated.
+<string>{0} is moving<lf>to the Rimechain Peak.
+<string>You've reached Hunter Rank {0}!
+<string>You cannot place the object<lf>you're carrying here.
 <string>Crossplay is currently enabled.
+<string>Squad Notification
+<string>You have received an invitation to join<lf>the squad: <BOLD>{0}</BOLD>.
+<string>Squad Notification
+<string>You have a pending squad request.
+<string>Squad Notification
+<string>You have received a squad request for<lf><BOLD>{0}</BOLD>.
+<string>Squad Notification
+<string>You have joined the squad<lf><BOLD>{0}</BOLD>.
+<string><BOLD>{1}</BOLD> has joined<lf>the squad {0}.
+<string>You have been appointed as Sub-leader<lf>of the squad <BOLD>{0}</BOLD>.
+<string>You have been appointed as Leader<lf>of the squad <BOLD>{0}</BOLD>.
+<string>Login Bonus
+<string>Today's Login Bonus is now<lf>available from the Start Menu.
+<string>Claim Now
+<string>Equipment Loadout Shared
+<string>{0} shared an<lf>Equipment Loadout.
+<string>Item Loadout Shared
+<string>{0} shared an<lf>Item Loadout.
+<string>Radial Menu Loadout Shared
+<string>{0} shared a<lf>Radial Menu Loadout.
+<string>The skill <BOLD>{0}</BOLD><lf>can now be activated.
+<string>Failed to Receive Shared Loadout
+<string>Failed to receive because the maximum<lf>limit for shared loadout notifications<lf>has been reached.
+<string>You have an invitation.<lf>Check your <BOLD>Invitation List</BOLD><lf>in the Start Menu.
+<string>You have a Join Request.<lf>Check <BOLD>Join Requests</BOLD> in the Start Menu.
+<string>Could not initiate quest.

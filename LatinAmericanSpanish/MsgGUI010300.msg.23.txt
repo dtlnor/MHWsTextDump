@@ -13,6 +13,10 @@
 <string>Guardar cambios
 <string>Descartar todos los cambios
 <string>Apariencia predefinida
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(Opciones avanzadas)
 <string>Armadura inicial
 <string>Selecciona tu armadura inicial.
@@ -86,6 +90,7 @@
 <string>Forma de cejas
 <string>Color de cejas
 <string>Transparencia de cejas
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>Altura de cejas
 <string>Altura de interior de cejas
 <string>Ancho del interior de cejas
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>Altura de ojos
 <string>Profundidad de ojos
 <string>Separación de ojos
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>Color de dientes
 <string>Color de manchas en dientes
 <string>Transparencia de manchas de dientes
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>Largo de cara
 <string>Ancho de mandíbula
 <string>Rotación de mandíbula
@@ -173,6 +184,7 @@
 <string>Largo de barbilla
 <string>Profundidad de barbilla
 <string>Estructura facial
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>Masa muscular
 <string>Constitución
 <string>Color de piel
@@ -295,6 +307,7 @@
 <string>Restablecer opciones
 <string>¿Quieres restablecer las opciones seleccionadas<lf>a sus valores por defecto?
 <string>¿Restablecer las opciones seleccionadas de apariencia predefinida?
+<string>Guardar/Cargar
 <string>Confirmar/Cambiar diseño
 <string>Diseño
 <string>Opciones de color
@@ -306,6 +319,10 @@
 <string>Desactivar
 <string>Predefinido
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>Opciones de pantalla
@@ -365,6 +382,94 @@
 <string>Grado de mezcla derecho
 <string>   Brillo de piel
 <string>   Saturación de piel
+<string>Diseños guardados
+<string>Nombre de diseño
+<string>Fecha de guardado
+<string>Cargar
+<string>Guardar
+<string>Renombrar
+<string>Reorganizar
+<string>Eliminar
+<string><ICON UI_SUB_MENU>Guardar
+<string>Diseño {0}
+<string>¿Quieres cambiar a esta apariencia?<lf><COLOR preset="TXT_Danger">Las modificaciones actuales se perderán.<lf>Guarda el diseño antes de hacer cambios<lf>para mantener las modificaciones.</COLOR>
+<string>Tus opciones actuales incluyen personalizaciones<lf>que no posees. ¿Continuar y solo aplicar<lf>las modificaciones posibles?
+<string>¿Quieres guardar el diseño de personaje actual?
+<string>¿Quieres guardar el diseño de personaje actual?<lf><COLOR preset="TXT_Danger">(Se sobrescribirán los datos guardados)</COLOR>
+<string>Selecciona una entrada para reorganizar.
+<string>Selecciona un destino.
+<string>¿Quieres eliminar este diseño de personaje?
+<string>Editar adornos de Seikret
+<string>Personalizar Seikret
+<string>Color de piel
+<string>Color de plumas interiores
+<string>Color de plumas exteriores
+<string>Tamaño del patrón
+<string>Color de patrón
+<string>Transparencia del patrón
+<string>Color de ojos
+<string>Editar ojo derecho
+<string>Color de ojo derecho
+<string>Tipo de adorno
+<string>Tipo de colgante
+<string>Cambiar nombre
+<string>Te permite cambiar el nombre de tu Seikret.
+<string>¿Terminaste de editar los adornos del Seikret?
+<string>¿Terminaste de personalizar al Seikret?
+<string>Mostrar accesorios
+<string>Escribe el nombre de tu Seikret.<lf><lf><COLOR preset="TXT_Accent">15 caracteres máximo</COLOR>
+<string>Editar camp. temp.
+<string>Personalizar tienda
+<string>Opciones de equipo de campamento
+<string>Tipo de toldo
+<string>Color principal de toldo
+<string>Color secundario de toldo
+<string>Tipo de interior de tienda
+<string>Color principal de tienda interior
+<string>Color secundario tienda interior
+<string>Diseño 1
+<string>Diseño 2
+<string>Esta opción precederá al "Diseño 1" si se sobreponen.
+<string>Diseño 3
+<string>Esta opción precederá al "Diseño 2" si se sobreponen.
+<string>Variante del diseño 1
+<string>Variante del diseño 2
+<string>Variante del diseño 3
+<string>Color del diseño 1
+<string>Color del diseño 2
+<string>Color del diseño 3
+<string>Pintura de toldo (tipo 1)
+<string>Pintura de toldo (tipo 2)
+<string>Pintura de toldo (tipo 3)
+<string>Pintura de int. tienda (tipo 1)
+<string>Pintura de int. tienda (tipo 2)
+<string>Pintura de int. tienda (tipo 3)
+<string>Pintura de toldo (color 1)
+<string>Pintura de toldo (color 2)
+<string>Pintura de toldo (color 3)
+<string>Pintura de int. tienda (color 1)
+<string>Pintura de int. tienda (color 2)
+<string>Pintura de int. tienda (color 3)
+<string>Transparencia
+<string>Tamaño
+<string>Tamaño horizontal
+<string>Tamaño vertical
+<string>Posición
+<string>Posición horizontal
+<string>Posición vertical
+<string>Deshacer cambios
+<string>¿Quieres restablecer el diseño por defecto?
+<string>Cambiar las opciones de diseño
+<string>Cambia el diseño actual por otro diseño.
+<string>Girar horizontalmente
+<string>Girar verticalmente
+<string>Ángulo
+<string>Equipo de campamento (Grande) 1
+<string>Equipo de campamento (Grande) 2
+<string>Equipo de campamento (Chico) 1
+<string>Equipo de campamento (Chico) 2
+<string>Tipo de farol
+<string>¿Terminaste de editar el campamento temporal?
 <string>Cambiar apariencia
 <string>¿Terminaste de editar el aspecto?
 <string>Modificar cazador
@@ -389,3 +494,35 @@
 <string>Crear nueva cara con rasgos similares
 <string>Crear nueva cara desde cero
 <string>¿Quieres usar esta cara?
+<string><COLOR preset="TXT_Accent">Datos de la prueba beta</COLOR>
+<string>¿Recuperar datos del personaje de la prueba beta?
+<string>Diseños subidos
+<string>Subir diseño
+<string>Descargar diseño
+<string>¿Subir y compartir diseño?
+<string>Diseño subido.<lf>Código de descarga:<lf>{0}
+<string><COLOR preset="TXT_Danger">Error</COLOR><lf>No se pudo subir el diseño.
+<string><COLOR preset="TXT_Danger">No puedes subir más diseños.</COLOR>
+<string>Ver/Borrar diseños subidos
+<string>Código de diseño subido:<lf>{0}<lf><lf>Nota: Presiona "Sí" para eliminar los<lf>datos subidos de este diseño.
+<string>¿Eliminar los datos subidos de este diseño?
+<string>Se eliminaron los datos subidos de este diseño.
+<string><COLOR preset="TXT_Danger">Error</COLOR><lf>No se pudo eliminar los datos subidos del diseño.
+<string><COLOR preset="TXT_Danger">No se pueden subir diseños que han sido descargados.</COLOR>
+<string>Introduce un código de diseño<lf>de hasta doce caracteres.<lf><lf><COLOR preset="TXT_Accent">Distingue mayúsculas.</COLOR>
+<string>Encontraste el siguiente diseño:<lf>{0}<lf>Creador<lf>ID de cazador: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>{0}<lf>No se encontraron diseños con este código.<lf>{1}
+<string>{0}<lf>No puedes usar este diseño: es un diseño de cazador.<lf>{1}
+<string>{0}<lf>No puedes usar este diseño: es un diseño de camarada.<lf>{1}
+<string>{0}<lf>No puedes utilizar este diseño.<lf>{1}
+<string>Guardar diseño
+<string>Cambiar apariencia
+<string>Información del creador
+<string>¿Quieres cambiar a esta apariencia?<lf>Las modificaciones actuales se perderán.<lf>Guarda los datos antes de hacer cambios<lf>para mantener las modificaciones.
+<string>Tus opciones actuales incluyen personalizaciones<lf>que no posees. ¿Quieres continuar y solo aplicar<lf>las modificaciones posibles?
+<string>{0}<lf>Creador<lf>ID de cazador: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>¿Salir de la descarga del diseño?
+<string>El diseño subido se ajustó debido<lf>a la comprobación de datos del servidor.
+<string><COLOR preset="TXT_Danger">No puedes hacer esto porque se está subiendo el diseño.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes hacer esto porque no hay datos guardados de personaje.</COLOR>
+<string><COLOR preset="TXT_Danger">Debes crear una ID de cazador para hacer esto.</COLOR>

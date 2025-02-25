@@ -23,20 +23,115 @@
 <string>Select Whetstone
 <string>Select Whetstone and <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>Use <ICON PL_DUMMY_MOVE> during Auto-move to steer your<lf>Seikret using Manual Movement.<lf><lf>You will return to Auto-move after some<lf>time with no input or you can reactivate<lf>it with <ICON PL_PT_CALL>.
-<string>Use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> during Auto-move to steer<lf>your Seikret using Manual Movement.<lf><lf>You will return to Auto-move after some<lf>time with no input or you can reactivate<lf>it with <ICON PL_PT_CALL>.
+<string>Use <ICON PL_DUMMY_MOVE> during Auto-move to steer your<lf>Seikret manually.<lf><lf>You will return to Auto-move after some<lf>time with no input or you can reactivate<lf>it with <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>.
+<string>Use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> during Auto-move to steer<lf>your Seikret using Manual Movement.<lf><lf>You will return to Auto-move after some<lf>time with no input or you can reactivate<lf>it with <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>Jig your lure with <ICON PL_DUMMY_MOVE> to entice fish<lf>to bite it. Different fish are attracted<lf>to different kinds of movement.
+<string>Jig your lure with <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to entice fish<lf>to bite it. Different fish are attracted<lf>to different kinds of movement.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>Catching a whopper is the ultimate<lf>battle of fishing wills. If a fish starts<lf>thrashing, control the drag by moving <lf><ICON PL_DUMMY_MOVE> in the direction it's swimming in<lf>to reduce the tension on your<lf>fishing line.
+<string>Catching a whopper is the ultimate<lf>battle of fishing wills. If a fish starts<lf>thrashing, control the drag by moving<lf>in the direction it's swimming with<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to reduce the tension<lf>on your fishing line.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>Once a fish gets tired and slows down,<lf>that's your chance! Move <ICON PL_DUMMY_MOVE> up and down<lf>to reel it in.
+<string>Once a fish gets tired and slows down,<lf>that's your chance! Press <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>repeatedly to reel it in.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>If a fish nears an obstacle, tilt <ICON PL_DUMMY_MOVE><lf>in the opposite direction it's<lf>swimming to restrain it while also<lf>keeping the line away from rocks.
+<string>If a fish nears an obstacle, use<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to move in the opposite<lf>direction it's swimming to restrain it<lf>while also keeping the line away<lf>from rocks.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>When this happens, move <ICON PL_DUMMY_MOVE> in the<lf>direction of its jump and press <ICON PL_SLINGER_SHOOT><lf>to restrain the fish.
+<string>When this happens, use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>to move in the direction of its jump and<lf>press <ICON PL_SLINGER_SHOOT> to restrain the fish.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Wiggle <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Quickly<lf><COLOR preset="TXT_Accent">Slow Reel:</COLOR> Wiggle <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Slowly<lf><COLOR preset="TXT_Accent">Jig:</COLOR> Tilt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
 <string><COLOR preset="TXT_Accent">Quick Reel</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Quickly<lf><COLOR preset="TXT_Accent">Slow Reel</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Slowly<lf><COLOR preset="TXT_Accent">Jig</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
-<string><COLOR preset="TXT_Accent">Avoiding Obstacles:</COLOR> Use <ICON PL_DUMMY_MOVE> to pull fish<lf>away from obstacles
-<string><COLOR preset="TXT_Accent">Avoiding Obstacles</COLOR>: Use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>to pull fish away from obstacles
+<string><COLOR preset="TXT_Accent">Avoiding Obstacles:</COLOR> Use <ICON PL_DUMMY_MOVE> to pull fish<lf>away from obstacles.
+<string><COLOR preset="TXT_Accent">Avoiding Obstacles</COLOR>: Use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>to pull fish away from obstacles.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
-<string>You will be temporarily immobilized. Recover<lf>faster by quickly moving <ICON PL_DUMMY_MOVE>.
-<string>You will be temporarily immobilized. Recover<lf>faster by quickly pressing <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly move <ICON PL_DUMMY_MOVE> to recover faster.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly press <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to<lf>recover faster.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_120>
-<string>You will be temporarily immobilized. Recover<lf>faster by quickly moving <ICON PL_DUMMY_MOVE>.
-<string>You will be temporarily immobilized. Recover<lf>faster by quickly pressing <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly move <ICON PL_DUMMY_MOVE> to recover faster.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly press <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to<lf>recover faster.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
-<string>You will be temporarily immobilized. Recover<lf>faster by quickly moving <ICON PL_DUMMY_MOVE>.
-<string>You will be temporarily immobilized. Recover<lf>faster by quickly pressing <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly move <ICON PL_DUMMY_MOVE> to recover faster.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly press <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to<lf>recover faster.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>A status that leaves you temporarily unable<lf>to move. Quickly move <ICON PL_DUMMY_MOVE> or use a cleanser<lf>to recover faster.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly press <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> or use<lf>a cleanser to recover faster.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>A status that leaves you temporarily unable<lf>to move. Quickly move <ICON PL_DUMMY_MOVE> or use a cleanser<lf>to recover faster.
+<string>A status that leaves you temporarily unable<lf>to move. Quickly press <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> or use<lf>a cleanser to recover faster.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Move <ICON PL_DUMMY_MOVE> quickly up and down
+<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Press <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> quickly
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string>Slow Reel: Move <ICON PL_DUMMY_MOVE> slowly up and down
+<string>Slow Reel: Press <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> slowly
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string>Jig Line: Tilt <ICON PL_DUMMY_MOVE> down repeatedly
+<string>Jig Line: Press <ICON PL_MOVE_BACK> repeatedly
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>A variety of online features are available<lf>at the Support Desk. You can claim content,<lf>check out the latest game news, access the<lf>online store, and more.<lf><COLOR preset="TXT_Accent">Other features to be added later.</COLOR>
+<string>A variety of online features are available<lf>at the Support Desk. You can claim content,<lf>check out the latest game news, access the<lf>Steam Store, and more.<lf><COLOR preset="TXT_Accent">Other features to be added later.</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string>Select Item: Hold <ICON PL_ITEM_SLIDER_OPEN> and press <ICON UI_ITEM_LEFT> or <ICON UI_ITEM_RIGHT><lf>Use Item: Release <ICON PL_ITEM_SLIDER_OPEN> and press <ICON PL_ITEM>
+<string>Select Item: Press <ICON UI_ITEM_LEFT> or <ICON UI_ITEM_RIGHT><lf>Use Item: Press <ICON PL_ITEM>
+<string>Select Item: Hold <ICON PL_ITEM_SLIDER_OPEN> and press <ICON UI_ITEM_LEFT> or <ICON UI_ITEM_RIGHT><lf>Use Item: Release <ICON PL_ITEM_SLIDER_OPEN> and press <ICON PL_ITEM>
+<string>Select Item: Press <ICON UI_ITEM_LEFT> or <ICON UI_ITEM_RIGHT><lf>Use Item: Press <ICON PL_ITEM>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string>Switch between your primary and secondary<lf>weapons with <ICON PL_WEAPON_CHANGE> .
+<string>Switch between your primary and secondary<lf>weapons with <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> .
+<string>Switch between your primary and secondary<lf>weapons with <ICON PL_WEAPON_CHANGE> .
+<string>Switch between your primary and secondary<lf>weapons with <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> .
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>You'll obtain new supply items when you<lf>faint. Use <ICON PL_ACCESS_ITEM_BAG> to check your pouch.
+<string>You'll obtain new supply items when you<lf>faint. Use <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> to check your pouch.
+<string>You'll obtain new supply items when you<lf>faint. Use <ICON PL_ACCESS_ITEM_BAG> to check your pouch.
+<string>You'll obtain new supply items when you<lf>faint. Use <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> to check your pouch.
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>When chasing after a monster, sheathe<lf>your weapon first with <ICON PL_WEAPON_OFF>, then sprint<lf>with <ICON PL_DASH_TOGGLE>.
+<string>When chasing after a monster, sheathe<lf>your weapon first with <ICON PL_WEAPON_OFF>, then sprint<lf>with <ICON PL_DASH>.
+<string>When chasing after a monster, sheathe<lf>your weapon first with <ICON PL_WEAPON_OFF>, then sprint<lf>with <ICON PL_DASH> or <ICON PL_DASH_TOGGLE>.
+<string>When chasing after a monster, sheathe<lf>your weapon first with <ICON PL_WEAPON_OFF>, then sprint<lf>with <ICON PL_DASH>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>Press <ICON PL_WEAPON_CHANGE> to switch to your <COLOR preset="TXT_Accent">secondary<lf>weapon</COLOR> in your Seikret's weapon sling.
+<string>Press <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> to switch to your <COLOR preset="TXT_Accent">secondary<lf>weapon</COLOR> in your Seikret's weapon sling.
+<string>Press <ICON PL_WEAPON_CHANGE> to switch to your <COLOR preset="TXT_Accent">secondary<lf>weapon</COLOR> in your Seikret's weapon sling.
+<string>Press <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> to switch to your <COLOR preset="TXT_Accent">secondary<lf>weapon</COLOR> in your Seikret's weapon sling.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string>Use <ICON PL_PT_CALL> to mount your Seikret and move<lf>automatically toward your objective.
+<string>Use <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> to mount your Seikret and move<lf>automatically toward your objective.
+<string>Use <ICON PL_PT_CALL> to mount your Seikret and move<lf>automatically toward your objective.
+<string>Use <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> to mount your Seikret and move<lf>automatically toward your objective.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>You'll be provided with <COLOR preset="TXT_Accent">supply items</COLOR><lf>at the start of each quest. Accept them<lf>anytime with <ICON PL_ACCESS_ITEM_BAG>. Extra supplies will<lf>be provided based on the conditions<lf>of a hunt.
+<string>You'll be provided with <COLOR preset="TXT_Accent">supply items</COLOR><lf>at the start of each quest. Accept them<lf>anytime with <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>. Extra supplies will<lf>be provided based on the conditions<lf>of a hunt.
+<string>You'll be provided with <COLOR preset="TXT_Accent">supply items</COLOR><lf>at the start of each quest. Accept them<lf>anytime with <ICON PL_ACCESS_ITEM_BAG>. Extra supplies will<lf>be provided based on the conditions<lf>of a hunt.
+<string>You'll be provided with <COLOR preset="TXT_Accent">supply items</COLOR><lf>at the start of each quest. Accept them<lf>anytime with <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>. Extra supplies will<lf>be provided based on the conditions<lf>of a hunt.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> or <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP13 UI_BULLET_ITEM_UP> or <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> or <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP13 UI_BULLET_ITEM_UP> or <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP13 UI_BULLET_ITEM_UP> or <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> or <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP12 UI_BULLET_ITEM_UP> or <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> or <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP12 UI_BULLET_ITEM_UP> or <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>Critical Range will vary depending on<lf>the ammo. Change equipped ammo with<lf><ICON WP12 UI_BULLET_ITEM_UP> or <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string>Select a coating with <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> or <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Compatible coatings vary by weapon.)
+<string>Select a coating with <ICON WP11 UI_BULLET_ITEM_UP> or <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Compatible coatings vary by weapon.)
+<string>Select a coating with <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> or <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Compatible coatings vary by weapon.)
+<string>Select a coating with <ICON WP11 UI_BULLET_ITEM_UP> or <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Compatible coatings vary by weapon.)
+<string>Select a coating with <ICON WP11 UI_BULLET_ITEM_UP> or <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Compatible coatings vary by weapon.)

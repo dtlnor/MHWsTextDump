@@ -1,12 +1,17 @@
 ﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0000
 <string>開始遊戲
 <string>設定
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0003
+<string>藝廊
 <string><REF RefGeneral_0023>
 <string>鍵盤/滑鼠配置
+<string>推廣活動
+<string>最新消息
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0009
 <string>可下載內容
 <string>版權資訊
 <string>支援
-<string>離開
+<string>結束遊戲
 <string>隱私
 <string><REF RefButton_0000>
 <string><REF RefButton_0001>
@@ -21,11 +26,41 @@
 <string>Monster Hunter Wilds支援網頁
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_sup_02_01
 <string>關於收集個人資訊
+<string><COLOR preset="TXT_Danger">未同意（不可線上多人遊玩）</COLOR>
 <string>以分析為目的的數據處理：{0}
+<string>變更國家/地區設定
+<string>變更出生年月日設定
+<string>連結CAPCOM ID：{0}
+<string>連結CAPCOM ID
+<string>向CAPCOM ID傳輸資料：{0}
 <string>隱私政策
 <string>已同意
+<string>未同意
+<string>未設定
+<string>已連結
+<string>無法確認
+<string>您已同意株式會社CAPCOM收集個人資訊。<lf>如要改為不同意，請進入下一步。<lf><lf>注意：如改為不同意，則無法使用多人線上遊玩等部分功能。<lf><lf><PLATMSG RefGeneral_0028>
+<string>您尚未同意株式會社CAPCOM收集個人資訊。<lf>如要改為同意，請進入下一步。<lf><lf>注意：現在您可離線遊玩，但無法使用多人線上遊玩等部分功能。<lf><lf><PLATMSG RefGeneral_0028>
+<string>您的家長/監護人已同意株式會社CAPCOM收集個人資訊。<lf>如要取消同意，請與家長/監護人一同進入下一步。<lf><lf>注意：如取消同意，則無法使用多人線上遊玩等部分功能。<lf><lf><PLATMSG RefGeneral_0028>
+<string>您的家長/監護人尚未同意株式會社CAPCOM收集個人資訊。<lf>如要同意，請與家長/監護人一同進入下一步。<lf><lf>注意：現在可遊玩離線模式，但無法使用多人線上遊玩等部分功能。<lf><lf><PLATMSG RefGeneral_0028>
+<string>若要線上多人遊玩，需進行個人資訊處理的相關設定。<lf>不進行相關設定也能玩遊戲本篇，但功能會受限。<lf><lf><PLATMSG RefGeneral_0028>
+<string>同意以分析為目的的數據處理並非強制，<lf>您可自由選擇是否同意，不同意也不影響遊玩體驗。
+<string>如要重新設定和個人資訊相關的同意狀況，<lf>請和家長/監護人一同前往下一步。<lf><lf>注意：如要重新設定，需要家長/監護人再次完成手續。
+<string>僅有已同意收集個人資訊的玩家會成為<lf>以分析為目的的數據處理的對象。
+<string>現在無法變更國家/地區設定。<lf>請稍待一段時間後重試。
+<string>可變更國家/地區的設定。<lf>居住的國家/地區改變時請重新設定。
+<string>現在無法變更出生年月日設定。<lf>請稍待一段時間後重試。
+<string>可變更出生年月日設定。<lf><lf><DATETIME year={0} month={1} day={2} format="YYYY/MM/DD"><lf>輸入的出生年月日錯誤時，請重新設定。
 <string>要重新設定嗎？
 <string>要重置和個人資訊相關的同意狀況，並重新設定嗎？
+<string>要重置和個人資訊相關的同意狀況，並重新設定嗎？
+<string><PLATMSG MsgGUI010101_pri_10_50>（更新連結狀況可能需要一段時間）
+<string>可將平台帳戶與CAPCOM ID連結。
+<string>可將Steam的帳戶與CAPCOM ID連結。
+<string>同意向CAPCOM ID傳輸資料並非強制，<lf>您可自由選擇是否同意。不同意也不影響遊玩體驗。
+<string>僅有已連結CAPCOM ID和平台ID的玩家<lf>可向CAPCOM ID傳輸資料。
 <string>重新設定
+<string>重新設定
+<string>關閉
 <string>關閉
 <string>下一步

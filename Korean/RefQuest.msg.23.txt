@@ -9,6 +9,37 @@
 <string>예보
 <string>예보 내용은 플레이어의 행동에 따라 변할 수 있습니다.
 <string>몬스터 정보
+<string>몬스터의 생태
+<string>환경생물의 생태
+<string>환경생물(낚시)의 생태
+<string>서식지
+<string>주요 특징
+<string>조사원의 메모
+<string>몬스터의 특수 공격
+<string>공략 방법
+<string>사냥에 유용한 정보
+<string>몬스터의 육질
+<string>자세한 대책 정보
+<string>추천 속성 공격
+<string>유효한 상태 이상
+<string>유효한 아이템
+<string>입수 가능 소재
+<string>하위 소재
+<string>상위 소재
+<string>입수 아이템
+<string>획득 난이도
+<string>입수 방법과 확률
+<string>사냥 기록
+<string>사냥 수
+<string>토벌 수
+<string>포획 수
+<string>사냥 크기
+<string>최대 크기
+<string>최대 무게
+<string>크기
+<string>최소 크기
+<string>관련 아이템과 스킬
+<string>관련 칭호
 <string>사냥
 <string>토벌
 <string>포획
@@ -16,14 +47,20 @@
 <string>운반
 <string>특수
 <string>현지 조사 퀘스트 시작
+<string>조사 퀘스트로 저장
 <string>퀘스트화
 <string>퀘스트 수주
+<string>{0}<REF RefGeneral_0015_001>를 사용하여<lf>조사 퀘스트로 저장합니다.<lf>계속하시겠습니까?
+<string>조사 퀘스트로 저장했습니다.
+<string><COLOR preset="TXT_Danger">길드 포인트가 부족합니다.</COLOR>
 <string><COLOR preset="TXT_Danger">수주/참가에 필요한 진행 상황에 도달하지 않았습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">수주/참가에 필요한<lf>진행 상황에 도달하지 않았습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">수주/참가에 필요한 헌터 랭크에 도달하지 않았습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">수주/참가에 필요한<lf>헌터 랭크에 도달하지 않았습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">현지 조사 퀘스트를 시작할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">현지 조사 퀘스트를 시작하지 못했습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">조사 퀘스트로 저장할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">조사 퀘스트로 저장하지 못했습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">클리어한 임무 퀘스트는 반복해서 수주할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">멀티플레이 설정이므로 플레이어는 참가할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">참가 가능 인원수를 초과하므로 참가할 수 없습니다.</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">퀘스트 수주/참가 조건을 충족하지 않습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이 퀘스트는 수주/참가할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">퀘스트를 수주/참가하지 못했습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">저장 가능한 조사 퀘스트가 최대 수에 도달했습니다. 더 이상 저장할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이미 조사 퀘스트로 저장되어 있습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">결과 확인 중인 환경 링크 멤버가 있어 현지 조사 퀘스트를 시작할 수 없습니다.</COLOR>
 <string>타이틀로 돌아가기
 <string>재시도하기
@@ -50,6 +89,7 @@
 <string>사이드 미션 보수
 <string>퀘스트 보수 라인업
 <string>추가 보수
+<string>감정 BOX
 <string>타겟 추가 보수
 <string>타겟 몬스터 관련 보수
 <string>범용 소재 보수
@@ -59,14 +99,27 @@
 <string>돌아<lf>가기
 <string>퀘스트<lf>시작
 <string>퀘스트<lf>수락
+<string>모든 퀘스트
 <string>임무 퀘스트
 <string>자유 퀘스트
 <string>현지 조사 퀘스트
+<string>현지 조사 퀘스트 이력
+<string>조사 퀘스트
+<string>조사 퀘스트 저장 안 됨
+<string>조사 퀘스트 저장됨
+<string>이벤트 퀘스트
+<string>격투대회 퀘스트
+<string>챌린지 퀘스트
 <string>설정
+<string>홈
 <string>모두 표시
 <string>로비 멤버 퀘스트
 <string>구조신호 퀘스트
 <string>링크 멤버 퀘스트
+<string>조사 퀘스트 저장 비용
+<string>현지 조사 퀘스트 시작 일시
+<string>남은 수주 가능 횟수
+<string>{0}회
 <string>퀘스트 참가 승인
 <string>퀘스트 참가 승인 방법을 설정합니다<COLOR preset="TXT_Accent">(퀘스트 초대 알림을 받은 링크 멤버는 자동 승인됩니다)</COLOR>.
 <string>자동 승인
@@ -108,6 +161,11 @@
 <string>{0}(이)가 대화하려 합니다!
 <string>퀘스트 《{0}》(을)를 수주 가능!
 <string>《{0}》(을)를 달성 가능합니다!
+<string>수확량 증가 중!({0}일 남음)
+<string>생활에 영향을 주고 있습니다!
+<string>마을의 골칫거리인 몬스터가 있습니다!
+<string>사냥 시 시설 수확량 임시 증가
+<string>{0}(이)가 <REF RefEnvironment_0001_0004>에 출현 중!
 <string>최대 참가 인원수
 <string>퀘스트에 참가 가능한 최대 인원수를 설정합니다<COLOR preset="TXT_Accent">(설정 가능한 인원수는 링크 멤버 최대 수에 따라 달라집니다)</COLOR>.
 <string>1
@@ -157,9 +215,16 @@
 <string>오름차순
 <string>내림차순
 <string>추천순
+<string>조사 퀘스트 삭제
+<string>선택한 조사 퀘스트를 삭제합니다.<lf>계속하시겠습니까?<lf><lf>※'현지 조사 퀘스트 이력'에 해당 퀘스트가<lf>남아 있는 경우, 이력에서도 삭제됩니다.
+<string>조사 퀘스트를 삭제했습니다.
+<string>선택한 조사 퀘스트의 수주 가능 횟수가<lf>{0}번 남았습니다.<lf>수주하면 남은 횟수를 소비하고 저장합니다.<lf>계속하시겠습니까?
 <string>퀘스트 참가 인원수를 일시적으로 확장합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(한 번 확장하면 퀘스트를<lf>종료할 때까지 되돌릴 수 없습니다)</COLOR>
 <string>임무 퀘스트
 <string>자유 퀘스트
+<string>현지 조사 퀘스트 이력(최근 {0}건까지)
+<string>조사 퀘스트({0}건 저장됨)
+<string>이벤트 퀘스트
 <string>로비 멤버 퀘스트({0}건)
 <string>링크 멤버 퀘스트
 <string>구조신호 퀘스트({0}건)

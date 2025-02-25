@@ -1,12 +1,14 @@
-﻿<string>Spielerliste
+﻿<string>Spielerlisten
 <string>Aktualisieren
 <string>Lobbymitglieder
 <string>Verbindungsmitglieder
 <string>Questmitglieder
 <string>Vergangene Interaktionen
 <string>Jagdfreundschaft
-<string>Folgt
+<string>Du folgst
 <string>Follower
+<string>Jagdgruppenmitglieder
+<string>Jagdgruppenmitgliederliste: {0}
 <string>Gesperrte Nutzer
 <string><PLATMSG MsgGUI040000_0001_10>
 <string>Plattformfreunde
@@ -17,16 +19,17 @@
 <string><REF RefGeneral_0018_002>
 <string><REF RefGeneral_0018_001>
 <string>Status
-<string>Fortschritt
+<string>Story-Fortschritt
 <string>Zuletzt interagiert
 <string>Interaktion
 <string>Online-Einzelspieler
 <string>Keine Informationen
-<string>Spielername ist anonymisiert.
+<string>Spielernamen sind anonymisiert.
+<string>Keine aktiven Jagdgruppen verfügbar.
 <string>Suche nach Jäger-ID
-<string>Bitte gib eine aus bis zu acht Zeichen bestehende<lf>Jäger-ID ein.<lf><COLOR preset="TXT_Accent">Groß- und Kleinschreibung wird berücksichtigt.</COLOR>
+<string>Bitte gib eine Jäger-ID ein.<lf><lf><COLOR preset="TXT_Accent">Jäger-IDs bestehen aus acht alphanumerischen Zeichen<lf>und berücksichtigen Groß- und Kleinschreibung.</COLOR>
 <string>Es wurde ein Jäger mit der ID<lf>{0} gefunden.
-<string>Es wurde kein Jäger mit der ID<lf>{0} gefunden.
+<string>{0}<lf>Die obige Jäger-ID konnte nicht gefunden werden.<lf>{1}
 <string>{0}<lf>Dies ist deine Jäger-ID.
 <string>Standard
 <string>Alphabetisch
@@ -34,12 +37,13 @@
 <string>Relevanz
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
+<string><REF RefMenu_019>
 <string><REF RefMenu_020>
 <string><REF RefMenu_021>
-<string>Aus Verbindungsgruppe entfernen
-<string>Aus Umgebungsverbindung entfernen
+<string>Aus Gruppe entfernen
+<string>Aus Umgebungsverb. entfernen
 <string>Aus Questmitgliedern entfernen
-<string>Leitung der Verbindungsgruppe ernennen
+<string>Leitung ernennen
 <string>Jägerprofil ansehen
 <string>Chat starten
 <string>Ausrüstung ansehen
@@ -49,11 +53,11 @@
 <string>Entfolgen
 <string>Freundanfrage senden
 <string>Entfreunden
-<string>Zur Lobby-Führung ernennen
+<string>Zur Lobby-Leitung ernennen
 <string>Aus der Lobby entfernen
 <string>Zu Quest eingeladen
 <string>Zu Verbindungsgruppe eingeladen
-<string>Zu Umgebungsverbindung eingeladen
+<string>In Umgebungsverbindung eingel.
 <string>In Umgebungsverbindung
 <string>In Verbindungsgruppe
 <string>Auf einer Quest
@@ -62,8 +66,8 @@
 <string>In Umgebungsverbindung ({0})
 <string>Story-Mission
 <string>Auf einer Expedition
-<string>Untätig
 <string>Abwesend
+<string>Untätig
 <string>Online
 <string>Online-Einzelspieler
 <string>Offline
@@ -71,29 +75,29 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_03
-<string>Zuletzt online: Vor {0} Tagen
+<string>Zuletzt online: Vor {0} <PLURAL {0} "Tag" "Tagen">
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0006_005_01_05
 <string>Zuletzt online: Vor über 1 Woche
 <string>Zuletzt online: Vor über 1 Monat
-<string>Gemeinsame Quests
-<string>{0} zusammen gespielt
+<string>Zusammen Quest gemacht
+<string><BOLD>{0}</BOLD> gespielt
 <string>Verbindungsgruppe beigetreten
 <string>Umgebungsverbindung beigetreten
 <string>In anderer Verbindungsgruppe
-<string>{0}-{1} {2}
+<string>{0}-{1}: {2}
 <string>Möchtest du {0}<lf>zur Verbindungsgruppe einladen?
-<string>Die Verbindungsgruppe-Einladung wurde verschickt.
+<string>Die Verbindungsgruppeneinladung wurde verschickt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_002_DLG
 <string>Möchtest du der Verbindungsgruppe<lf>von {0} beitreten?
 <string>Verbindungsgruppe beitreten
-<string>Verbindungsgruppe-Einladung ablehnen
+<string>Verbindungsgruppeneinladung ablehnen
 <string>Du kannst einer Verbindungsgruppe<lf>während einer Quest nicht beitreten.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_000_007_DLG
 <string>Möchtest du die Verbindungsgruppe verlassen?
 <string>Du hast die Verbindungsgruppe verlassen.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_001_002_DLG
 <string>Du hast die Umgebungsverbindung verlassen.
-<string>Möchtest du {0}<lf>zu deiner Umgebung einladen?
+<string>Möchtest du {0}<lf>in deine Umgebung einladen?
 <string>Umgebungseinladung wurde verschickt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_002_002_DLG
 <string>Möchtest du der Umgebung von<lf>{0} beitreten?
@@ -113,25 +117,24 @@
 <string>Questeinladung ablehnen
 <string>Du kannst einer anderen Quest während<lf>einer laufenden Quest nicht beitreten.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_005_004_DLG
-<string>Möchtest du {0}<lf>eine Freundanfrage senden?
-<string>Du hast eine Freundanfrage gesendet.
+<string>Möchtest du {0} eine<lf>Jagdfreundschaft-Anfrage senden?
+<string>Du hast eine Jagdfreundschaft-Anfrage gesendet.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_006_002_DLG
 <string><COLOR preset="TXT_Danger">Du kannst keine Freunde mehr hinzufügen.</COLOR>
 <string>Möchtest du {0}<lf>aus deinen Freunden entfernen?
 <string>Der Freund wurde entfernt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_007_002_DLG
-<string>Mlchtest du {0}<lf>aus der Verbindungsgruppe entfernen?
+<string>Möchtest du {0}<lf>aus der Verbindungsgruppe entfernen?
 <string>Der Spieler wurde aus der Verbindungsgruppe<lf>entfernt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_008_002_DLG
 <string>Möchtest du {0}<lf>aus der Umgebungsverbindung entfernen?
 <string>Der Spieler wurde aus der Umgebungsverbindung<lf>entfernt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_009_002_DLG
-<string>Möchtest du {0}<lf>aus Questmitgliedern entfernen?
-<string>Der Spieler wurde aus Questmitgliedern entfernt.
+<string>Möchtest du {0}<lf>aus den Questmitgliedern entfernen?
+<string>Der Spieler wurde aus<lf>den Questmitgliedern entfernt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_010_002_DLG
 <string>Möchtest du {0} blocken?<lf><lf><COLOR preset="TXT_Accent">(Dadurch werden sämtliche zugehörige<lf>Jäger-IDs geblockt.)</COLOR>
 <string>Der Spieler wurde geblockt.
-<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_011_002_DLG
 <string><COLOR preset="TXT_Danger">Du kannst keine weiteren Spieler blocken.</COLOR>
 <string>Möchtest du {0} entblocken?
 <string>Der Spieler wurde entblockt.
@@ -143,11 +146,11 @@
 <string>Möchtest du {0} entfolgen?
 <string>Du folgst diesem Spieler nicht länger.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_014_002_DLG
-<string>Möchtest du {0}<lf>die Lobby-Führung anvertrauen?
-<string>Es wurde eine neue Lobby-Führung ernannt.
+<string>Möchtest du {0}<lf>die Leitung der Lobby anvertrauen?
+<string>Es wurde eine neue Lobby-Leitung ernannt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_015_002_DLG
 <string>Möchtest du {0}<lf>aus der Lobby entfernen?
-<string>{0}<lf>wurde aus der Lobby entfernt.
+<string>Aus der Lobby entfernt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_016_002_DLG
 <string>{0} zur Leitung<lf>der Verbindungsgruppe ernennen?
 <string>Zur Leitung der Verbindungsgruppe ernannt.
@@ -155,10 +158,11 @@
 <string>Lobby-Typ
 <string>Allgemeine Lobby
 <string>Private Lobby
+<string>Gruppenlobby
 <string>Lobby-ID
 <string>Spielstil
 <string>Keine Präferenz
-<string>Geschichtsfortschritt
+<string>Story-Fortschritt
 <string>Gelegenheitsspiel
 <string>Abwechselnde Quests
 <string>Eventquests

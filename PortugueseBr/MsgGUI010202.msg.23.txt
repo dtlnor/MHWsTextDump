@@ -1,38 +1,43 @@
 ﻿<string>Controles do Menu
 <string>Ação
-<string>Tecla Primária
-<string>Tecla Secundária
-<string>Após selecionar a tecla primária ou secundária da ação que você quer alterar,<lf>pressione a tecla desejada para atribui-la à ação.<lf><COLOR preset="TXT_Accent">(Não é possível reatribuir <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, que possui funções necessárias para navegar menus.)</COLOR>
-<string>Após selecionar a tecla primária ou secundária da ação que você quer alterar,<lf>pressione a tecla desejada para atribui-la à ação.<COLOR preset="TXT_Accent">(Não é possível reatribuir <ICON KB_ESCAPE,KB_INSERT>,<lf>que possui função necessária para usar armas.)</COLOR>
-<string><COLOR preset="TXT_Accent">Falha em aplicar alterações devido a um erro com a configuração em questão.</COLOR><lf><lf>Voltar sem aplicar alterações?<lf><lf>Se você tentar aplicar as alterações, verifique se a(s) opção(ões) com o ícone <COLOR preset="TXT_Danger">( ! )</COLOR><lf>está(ão) nas seguintes situações:<lf>1. Há várias ações atribuídas a uma mesma tecla.<lf>2. Há uma ação sem tecla atribuída.
-<string>Retornar as opções selecionadas para o padrão?
-<string>Retornar todas as teclas <COLOR preset="TXT_Accent">{0}</COLOR> para o padrão?
-<string>Retornar todas as teclas selecionadas para o padrão?
-<string>Retornar todas as opções para o padrão
-<string>Retornar opções selecionadas para o padrão
+<string>Primária
+<string>Secundária
+<string>Após selecionar a tecla primária ou secundária da ação que você quer alterar,<lf>pressione a tecla desejada para atribuí-la à ação. <COLOR preset="TXT_Accent">(Não é possível reatribuir<lf><ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, que possui funções necessárias para navegar menus.)</COLOR>
+<string>Após selecionar a tecla primária ou secundária da ação que você quer alterar,<lf>pressione a tecla desejada para atribuí-la à ação. <COLOR preset="TXT_Accent">(Não é possível reatribuir <ICON KB_ESCAPE,KB_INSERT>,<lf>que possui função necessária para usar armas.)</COLOR>
+<string><COLOR preset="TXT_Accent">Falha em aplicar alterações devido a um erro com a configuração.</COLOR><lf><lf>Voltar sem aplicar alterações?<lf> <lf>Se você tentar aplicar as alterações, verifique se há alguma opção<lf>com o ícone <COLOR preset="TXT_Danger">[ ! ]</COLOR> ao lado que se enquadra em algum dos casos abaixo:<lf>- Há várias ações atribuídas a uma mesma tecla.<lf>- Há uma ação sem tecla atribuída.
+<string>Redefinir as opções selecionadas para o padrão?
+<string>Retornar todas as teclas vinculadas a <COLOR preset="TXT_Accent">{0}</COLOR><lf>para o padrão?
+<string>Retornar todas as teclas vinculadas selecionadas<lf>para o padrão?
+<string>Redefinir tudo ao padrão
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
+<string>Redefinir selec. ao padrão
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>Controles do Caçador
 <string>Controles de Arma
 <string>Controles da Atiradeira
-<string>Controles ao Montar Seikrets
+<string>Controles de Seikret (Sobre Montaria)
 <string>Config. de Controle: Barra de Itens
-<string>Contr. do Menu Radial Person.
+<string>Controles de Atalho de Teclado
 <string>Controles de Câmera
 <string>Controles do Bate-papo
 <string>Menu Direto
 <string>Controles do Menu
 <string>Controles do Mapa
-<string>Controles ao Montar Monstros
+<string>Controles do Modo Foto
+<string>Controles ao Montar um Monstro
 <string>Mover-se para Frente
 <string>Mover-se para Trás
 <string>Mover-se para a Esquerda
 <string>Mover-se para a Direita
-<string>Arremeter (Pressionar uma vez)/Embainhar Arma
-<string>Arremeter (Segurar)/Embainhar Arma
+<string>Correr (pressione uma vez)/Embainhar Arma
+<string>Acelerar (Segurar)/Embainhar Arma
 <string>Agachar/Esquivar (<ICON PAD PL_DODGE>)
 <string>Interagir/Conversar/Coletar/Talhar
 <string>Usar Item/Embainhar Arma
-<string>Lobby/Acampamento: Alternar NPC alvo (Direita)
-<string>Lobby/Acampamento: Alternar NPC alvo (Esquerda)
+<string>Alternar NPC alvo (Lobby/Acampamento): Direita
+<string>Alternar NPC alvo (Lobby/Acampamento): Esquerda
 <string>Abrir Menu Inicial
 <string>Empunhar Arma/Ataque Normal (<ICON PAD PL_ATTACK_00>)
 <string>Ataque Especial (Arma Empunhada) (<ICON PAD PL_ATTACK_01>)
@@ -45,80 +50,83 @@
 <string>Modo de Foco/Mirar Atiradeira com a arma embainhada (Segurar)
 <string>Modo de Foco/Mirar Atiradeira com a arma embainhada (Pressionar uma vez)
 <string>Ataque Focal (Modo de Foco) (<ICON PAD PL_ATTACK_SP_B>)
-<string>Vestir/Remover Manto
+<string>Equipar/Desequipar Manto
 <string>Embainhar Arma
-<string>Tecla Adicionada: Mirar Atiradeira (Pressione <ICON PAD PL_AIM> uma vez)
-<string>Tecla Adicionada: Mirar Atiradeira (Segure <ICON PAD PL_AIM>)
+<string>(Adicional) Mirar Atiradeira (pressionar <ICON PAD PL_AIM> uma vez )
+<string>(Adicional) Mirar Atiradeira (segurar <ICON PAD PL_AIM>)
 <string>Disparar Munição de Atiradeira (Ao mirar Atiradeira/No Modo de Foco)
 <string>Disparar Munição de Atiradeira-Gancho (Ao mirar Atiradeira)
-<string>Selecionar Notif. de Guialumes: Mover para cima (Ao mirar Atiradeira)
-<string>Selecionar Notif. de Guialumes: Mover para baixo (Ao mirar Atiradeira)
-<string>Selecionar Alvo de Guialumes: Mover para cima (Ao mirar Atiradeira)
-<string>Selecionar Alvo de Guialumes: Mover para baixo (Ao mirar Atiradeira)
-<string>Invocar Seikret (Auto.) / Alternar para Auto. sobre montaria
-<string>Invocar Seikret (Manual) / Alternar para Manual sobre montaria
+<string>Selecionar Notif. de Guialumes (mirar Atiradeira): Cima
+<string>Selecionar Notif. de Guialumes (mirar Atiradeira): Baixo
+<string>Selecionar Alvo de Guialumes (mirar Atiradeira): Cima
+<string>Selecionar Alvo de Guialumes (mirar Atiradeira): Baixo
+<string>Chamar Seikret (Auto.)/Alternar para Auto. sobre montaria
+<string>Chamar Seikret (Manual)/Alternar para Manual sobre montaria
 <string>Alternar Armas
-<string>Acelerar (Pressionar uma vez) / Velocidade Máxima (Segurar)
-<string>Desacelerar (Pressionar uma vez) / Parar (Segurar)
+<string>Correr (Pressionar uma vez)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
+<string>Acelerar (Pressionar uma vez)/Correr (Segurar)
+<string>Desacelerar (Pressionar uma vez)/Parar (Segurar)
 <string>Desmontar do Seikret
 <string>Ver Bolsa do Seikret
-<string>Alternar Itens: Esquerda
+<string>Navegar Itens: Esquerda
 <string>Navegar Itens: Direita
-<string>Navegar Munições/Revestimentos: Cima
-<string>Navegar Munições/Revestimentos: Baixo
+<string>Navegar Munições/Revestimentos/Iscas: Cima
+<string>Navegar Munições/Revestimentos/Iscas: Baixo
 <string>Exibir Itens (Pressionar uma vez)
-<string>Exibir Itens (Segurar) / Redefinir Câmera
-<string>Navegar Itens à Esquerda (Itens exibidos)
-<string>Navegar Itens à Direita (Itens exibidos)
-<string>Navegar Munições/Revestimentos para Cima (Itens exibidos)
-<string>Navegar Munições/Revestimentos para Baixo (Itens exibidos)
-<string>Menu Radial Personalizado (Itens exibidos)
-<string>Alternar Menu Radial (Itens exibidos)
-<string>Expandir Barra (Itens exibidos) (Pressionar uma vez)
+<string>Exibir Itens (Segurar)/Redefinir Câmera
+<string>Navegar Itens (Itens exibidos): Esquerda 
+<string>Navegar Itens (Itens exibidos): Direita
+<string>Navegar Munições/Revestimentos/Iscas (Itens exibidos): Cima 
+<string>Navegar Munições/Revestimentos/Iscas (Itens exibidos): Baixo 
+<string>Atalhos de Teclado (Itens exibidos)
+<string>Alternar Atalho (Itens exibidos)
+<string>Expandir Barra (Itens exibidos)
 <string>Expandir Barra (Itens exibidos) (Segurar)
-<string>Com a Barra de Itens aberta: Movimento de Cursor (Cima)
-<string>Com a Barra de Itens aberta: Movimento de Cursor (Baixo)
-<string>Abrir Menu de Atalhos 1
-<string>Abrir Menu de Atalhos 2
-<string>Abrir Menu de Atalhos 3
-<string>Abrir Menu de Atalhos 4
-<string>Abrir Menu de Atalhos 5
-<string>Abrir Menu de Atalhos 6
-<string>Abrir Menu de Atalhos 7
-<string>Abrir Menu de Atalhos 8
-<string>Alternar para o próximo Menu de Atalhos
-<string>Atalho de teclado: Espaço 1
-<string>Atalho de teclado: Espaço 2
-<string>Atalho de teclado: Espaço 3
-<string>Atalho de teclado: Espaço 4
-<string>Atalho de teclado: Espaço 5
-<string>Atalho de teclado: Espaço 6
-<string>Atalho de teclado: Espaço 7
-<string>Atalho de teclado: Espaço 8
-<string>Atalho de teclado: Espaço 9
-<string>Atalho de teclado: Espaço 10
-<string>Atalho de teclado: Espaço 11
-<string>Atalho de teclado: Espaço 12
-<string>Exibir Menu Radial Personalizado
-<string>Menu Radial Pers.: Alternar Barra (Cima)
-<string>Menu Radial Pers.: Alternar Barra (Baixo)
+<string>Barra de Itens Expand.: Movimento de Cursor (Cima)
+<string>Barra de Itens Expand.: Movimento de Cursor (Baixo)
+<string>Abrir Atalho de Teclado 1
+<string>Abrir Atalho de Teclado 2
+<string>Abrir Atalho de Teclado 3
+<string>Abrir Atalho de Teclado 4
+<string>Abrir Atalho de Teclado 5
+<string>Abrir Atalho de Teclado 6
+<string>Abrir Atalho de Teclado 7
+<string>Abrir Atalho de Teclado 8
+<string>Alternar para o próximo Atalho de Teclado
+<string>Atalho de Teclado: Espaço 1
+<string>Atalho de Teclado: Espaço 2
+<string>Atalho de Teclado: Espaço 3
+<string>Atalho de Teclado: Espaço 4
+<string>Atalho de Teclado: Espaço 5
+<string>Atalho de Teclado: Espaço 6
+<string>Atalho de Teclado: Espaço 7
+<string>Atalho de Teclado: Espaço 8
+<string>Atalho de Teclado: Espaço 9
+<string>Atalho de Teclado: Espaço 10
+<string>Atalho de Teclado: Espaço 11
+<string>Atalho de Teclado: Espaço 12
+<string>Exibir Atalho de Teclado
+<string>Alterar Config. (Modo de Quatro Fileiras): Cima
+<string>Alterar Config. (Modo de Quatro Fileiras): Baixo
+<string>
 <string>Controles da Câmera: Cima
 <string>Controles da Câmera: Esquerda
 <string>Controles da Câmera: Baixo
 <string>Controles da Câmera: Direita
-<string>Foco/Alternar Câmera Fixada
+<string>Ativar Câmera Focal/Fixada
 <string>Binóculos/Modo Foto: Aproximar
 <string>Binóculos/Modo Foto: Afastar
 <string>Publicar Mensagem
-<string>Pressionar para Falar
-<string>Menu do Bate-papo por Voz
+<string>Apertar para Falar
+<string>Janela de Bate-papo por Voz
 <string>Bate-papo
 <string>Adesivos
 <string>Gestos
 <string>Conjuntos de Poses
 <string>Lista de Membros
 <string>Lista de Bate-papo por Voz
-<string>Lista de Notif. de Convite
+<string>Lista de Convites
 <string>Aviso de Ausência
 <string>Bate-papo: Histórico de Interações
 <string>Bate-papo: Membros do Lobby
@@ -126,20 +134,21 @@
 <string>Bate-papo: Membros da Missão
 <string>Bate-papo: Membros do Esquadrão
 <string>Bate-papo: Jogador Específico
-<string>Abrir Mapa/Abrir Notif. de Bate-papo/Pular Resultados
-<string>Abrir Mapa Completo da Área
+<string>Abrir Mapa
+<string>Abrir Mapa-múndi
+<string>Abrir Janela de Partida/Notif. de Bate-papo/Pular Resul. da Missão
 <string>Preparar da Lista
 <string>Ver Bolsa de Itens
 <string>Ver Bolsa de Munição
 <string>Ver Bolsa de Revestimentos
-<string>Adicionar Atalho de Item
+<string>Registrar Atalho de Item
 <string>Ver Todos os Equipamentos
-<string>Tela de Informação de Missão
-<string>Tentar Missão Novamente
+<string>Menu de Informação de Campanha
+<string>Recomeçar Campanha
 <string>Informações da Missão
-<string>Lançar Sinalizador SOS
+<string>Disparar Sinalizador SOS
 <string>Abandonar Missão
-<string>Pedir para Participar da Missão
+<string>Pedidos de Participação
 <string>Info. de Caçador de Suporte
 <string>Histórico de Resultados
 <string>Informações de Amigato
@@ -152,41 +161,42 @@
 <string>Recarregar/Aplicar ou Remover Revestimento (<ICON PAD PL_ATTACK_00>)
 <string>Mirar Arma/Atiradeira (Pressione <ICON PAD PL_AIM> uma vez)
 <string>Mirar Arma/Atiradeira (Segure <ICON PAD PL_AIM>)
-<string>Tecla Adicionada: Mirar Arma/Atiradeira (Pressione <ICON PAD PL_AIM> uma vez)
-<string>Tecla Adicionada: Mirar Arma/Atiradeira (Segure <ICON PAD PL_AIM>)
-<string>Usar Munição Especial (<ICON PAD PL_ATTACK_SP_B> ao mirar)
+<string>(Adicional) Mirar Arma/Atiradeira (Pressionar <ICON PAD PL_AIM> uma vez)
+<string>(Adicional) Mirar Arma/Atiradeira (Segurar <ICON PAD PL_AIM>)
+<string>Ataque Focal (Mira/Modo de Foco) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Bloqueio/Ação Especial de Arma (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Alternar Modos
 <string>Embainhar Arma
 <string>Disparar Munição de Atiradeira (Ao mirar Atiradeira/Arma)
-<string>Exibir Itens (Segurar) / Redefinir Câmera
+<string>Exibir Itens (Segurar)/Redefinir Câmera
 <string>Selecionar Item do Menu/Alterar Número: Cima
 <string>Selecionar Item do Menu/Alterar Número: Baixo
 <string>Selecionar Item do Menu: Esquerda
 <string>Selecionar Item do Menu: Direita
 <string>Confirmar
 <string>Voltar (Cancelar)
-<string>Página/Aba Esquerda
-<string>Página/Aba Direita
-<string>Ir para Status ou Categoria à Esquerda
-<string>Ir para Status ou Categoria à Direita
-<string>Girar Modelo: Esquerda
-<string>Girar Modelo: Direita
+<string>Página/Aba: Esquerda
+<string>Página/Aba: Direita
+<string>Ir para Status/Categoria: Esquerda
+<string>Ir para Status/Categoria: Direita
+<string>Mudar Página/Girar Modelo: Esquerda
+<string>Mudar Página/Girar Modelo: Direita
 <string>Ampliar Modelo
 <string>Encolher Modelo
 <string>Submenu
-<string>Criar/Usar Configuração
+<string>Gerenciar Configurações
 <string>Alternar Coluna
 <string>Exibir Filtros
-<string>Ordenar Opções/Lista
+<string>Reorganizar Opções/Lista
 <string>Alternar Exibição de Opções/Lista
+<string>Pular Resultados/Cena
 <string>Navegar Mapa Detalhado: Cima
 <string>Navegar Mapa Detalhado: Baixo
 <string>Navegar Mapa Detalhado: Esquerda
 <string>Navegar Mapa Detalhado: Direita
 <string>Encolher Mapa Detalhado
 <string>Ampliar Mapa Detalhado
-<string>Mapa de Campo: Criar Marcador
+<string>Mapa Detalhado: Criar Marcador
 <string>Mapa Detalhado: Enviar Sinal
 <string>Mapa Detalhado: Mudar de Andar (Cima)
 <string>Mapa Detalhado: Mudar de Andar (Baixo)
@@ -195,8 +205,17 @@
 <string>Girar Mapa Detalhado (Segurar)
 <string>Mapa Detalhado: Redefinir Posição do Cursor
 <string>Trocar Visão do Mapa
+<string>Fechar Mapa Detalhado
 <string>Mapa Detalhado: Alternar entre Exibição Parcial/Tela Cheia
 <string>Mapa Detalhado: Visão Geral do Ambiente
+<string>Mover Câmera: Para Trás
+<string>Mover Câmera: Para Frente
+<string>Mover Câmera: Para a Esquerda
+<string>Mover Câmera: Para a Direita
+<string>Ajustar Posição da Câmera: Cima
+<string>Ajustar Posição da Câmera: Baixo
+<string>Ajustar Posição da Câmera: Esquerda
+<string>Ajustar Posição da Câmera: Direita
 <string>Ataque Leve com Faca
 <string>Ataque Forte com Faca
 <string>Atacar com Arma
@@ -204,15 +223,19 @@
 <string>Segurar
 <string>----
 <string>Selecionar perfil
-<string>Criar novo perfil
-<string>Básicos de Armas Corpo a Corpo
-<string>Básicos de Armas à Distância
+<string>Criar Novo Perfil
+<string>Armas Corpo a Corpo
+<string>Armas à Distância
 <string>Duplicar perfil
 <string>Excluir perfil
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
 <string>Deseja criar um perfil para qual tipo de arma?<lf><COLOR preset="TXT_Accent">(Você pode criar um perfil para cada tipo de arma.)</COLOR>
 <string>Deseja alternar para qual perfil de arma?<lf><COLOR preset="TXT_Accent">(Você pode criar um perfil para cada tipo de arma.)</COLOR>
-<string>Duplicar perfil <COLOR preset="TXT_Accent">{0}</COLOR> para qual tipo de arma?<lf><COLOR preset="TXT_Accent">(Se o perfil já tiver sido criado, ele será sobrescrito. Caso contrário, um novo perfil será criado.)</COLOR>
-<string>Excluir perfil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Caso seja excluído, o perfil {1} será aplicado no lugar do {0})</COLOR>
+<string>Duplicar perfil <COLOR preset="TXT_Accent">{0}</COLOR> para qual tipo de arma?<lf><COLOR preset="TXT_Accent">(Se o perfil já tiver sido criado, ele será sobrescrito.<lf>Caso contrário, um novo perfil será criado.)</COLOR>
+<string>Excluir perfil<COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Caso seja excluído, o perfil {1}<lf>será aplicado no lugar de {0}.)</COLOR>
 <string>Sobrescrever perfil <COLOR preset="TXT_Accent">{0}</COLOR>?
 <string>Salvar alterações?
 <string>Salvar e voltar

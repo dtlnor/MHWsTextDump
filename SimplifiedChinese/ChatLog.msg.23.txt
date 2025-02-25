@@ -47,6 +47,7 @@
 <string>任务队长已停止发出救难信号
 <string>语音聊天已切换至<REF RefNetwork_0004_02>
 <string>语音聊天已切换至<REF RefNetwork_0004_01>
+<string><REF Facility_NAME_1472590464>正在促销！
 <string>已开放新的任务
 <string>已委任{0}为任务队长
 <string>已接受委任，成为任务队长
@@ -62,12 +63,24 @@
 <string>猎人好友邀请
 <string>{0}发来了猎人好友邀请
 <string>与{0}成为了猎人好友
+<string>已可使用栅栏的操作开关
+<string>距离栅栏准备完成还有{0}分钟
+<string>距离栅栏准备完成还有{0}秒
+<string>支援船已抵达
+<string>支援船的出发日快到了
+<string>支援船出发了
+<string>使用激运票（剩余{0}张）
+<string>任务报酬的抽选范围和报酬金将获得加成
+<string>使用
+<string>已使用激运票
 <string>环境连结的成员正在狩猎
 <string>将开始{0}的实地调查任务
 <string>取消
 <string>已补充补给品<lf>（按<INPUTMSG MsgGUI020100_0011>检查补给品）
 <string>支援猎人{0}已加入任务
 <string>支援猎人{0}已脱离任务
+<string>已开放新的斗技大会任务
+<string>可在标题画面的“艺术馆”中再次观看<lf>已看过的过场动画
 <string>已将目的地变更为主要目标
 <string>设置为目的地的目标消失，<lf>已将主要目标设为新目的地
 <string>设置为目的地的目标已消失
@@ -75,15 +88,34 @@
 <string>任务失败
 <string>任务邀请（再次发起可承接的任务）
 <string>可以接受{0}的任务邀请了
+<string>已交纳{1}个{0}
 <string>获得了固定道具<COLOR preset="TXT_Accent">“狩猎七道具”</COLOR>
 <string>环境概要主题
+<string>{1}的{0}似乎想邀请你用餐！
+<string>打开地图
+<string>环境概要主题
 <string>在{1}观测到了{0}！
+<string>打开地图
+<string>环境概要主题
+<string>完成了次要使命。<lf>可向{1}的{0}汇报！
 <string>打开地图
 <string>环境概要主题
 <string>可一次性将多个目标任务化！
 <string>打开地图
 <string>环境概要主题
 <string>此地区的顶级捕食者<lf>{0}出现了！
+<string>打开地图
+<string>环境概要主题
+<string>{0}出现了！<lf>它似乎影响到人们的生活！
+<string>打开地图
+<string>环境概要主题
+<string>{0}出现了！<lf>追加报酬比平时更多！
+<string>打开地图
+<string>环境概要主题
+<string>次要使命的目标<lf>{0}出现了！
+<string>打开地图
+<string>环境概要主题
+<string>愿望单的目标<lf>{0}出现了！
 <string>打开地图
 <string>环境概要
 <string>{0}出现了！
@@ -92,6 +124,9 @@
 <string>{0}即将离开区域！
 <string>打开地图
 <string>{0}已离开区域……
+<string>环境概要主题
+<string><REF RefEnvironment_0001_0004>出现了{0}！
+<string>打开地图
 <string>环境概要
 <string>含有{0}的怪物群出现了！
 <string>打开地图
@@ -99,11 +134,21 @@
 <string>含有{0}的怪物群<lf>即将离开区域！
 <string>打开地图
 <string>含有{0}的怪物群<lf>已离开区域……
+<string>{0}出现了！
 <string>环境概要
 <string>观测到{0}大量出现！
 <string>打开地图
 <string>环境概要
 <string>观测到{0}增多！
+<string>打开地图
+<string>环境概要
+<string>{0}可提供狩猎辅助！
+<string>打开地图
+<string>环境概要
+<string>支援船已抵达！
+<string>打开地图
+<string>环境概要
+<string>观测到<REF Gimmick_NAME_673669120>出现！
 <string>打开地图
 <string>失去了{0}
 <string>参加任务申请
@@ -113,6 +158,10 @@
 <string>管理者已解散大厅
 <string>{0}关注了你
 <string>没有补给品
+<string>愿望单“{0}”
+<string><COLOR preset="TXT_Accent">已集齐必要素材</COLOR>
+<string>愿望单“{0}”
+<string>合计必要素材
 <string>已取消实地调查任务
 <string>无法持有更多回收的补给品<lf>已舍弃
 <string>获得旋律效果“{0}”
@@ -123,6 +172,9 @@
 <string><REF Item_IT_166>效果结束
 <string><REF Item_IT_167>效果结束
 <string>无法快速开始<lf>请用<ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>打开出发界面
+<string>打开使命信息界面
+<string>可选择在目标导航中优先显示的使命
+<string>打开
 <string>无法将此{0}设为任务目标
 <string>无法将此{0}设为任务目标<lf>（猎人等级不足）
 <string>已从单人在线模式切换至在线模式
@@ -135,21 +187,82 @@
 <string>部分环境连结成员仍在结算<lf>无法开启实地调查任务
 <string>此{0}无法成为任务目标<lf>（进度不足）
 <string>已发动响玉效果“{0}”
+<string>已交纳{0}
+<string>{0}
+<string>获得了新的勋章
+<string>称号
+<string>获得了{0}个新称号
+<string>{0}
+<string>获得了新的名称牌
+<string>{0}
+<string>获得了新的背景
+<string>噗吱猪似乎什么都没有
+<string>已发布新的奖励目标
+<string>限时奖励目标
+<string>“{0}”<lf>（{1}/{2}）
+<string>限时奖励目标
+<string>“{0}”<lf><COLOR preset="TXT_Accent">完成！（{1}/{2}）</COLOR>
 <string>环境概要主题
 <string>带有珍贵追加报酬的{0}出现了！
+<string>打开地图
+<string>环境概要主题
+<string>完成了次要使命，可向{0}汇报！
+<string>打开地图
+<string>环境概要主题
+<string>完成了次要使命，可向<Ref RefGeneral_0014>汇报！
 <string>打开地图
 <string>因成员只剩1人，连结队伍已解散
 <string>无法加入{0}的环境连结
 <string>已脱离{0}的环境连结
 <string>环境连结已解散
 <string>无法加入任务
+<string>已开放新的营地用具
 <string>餐点效果即将结束
+<string>可以在涌油谷搭建和编辑简易营地了
+<string>可以在冰雾断崖搭建和编辑简易营地了
+<string>可以在龙都遗迹搭建和编辑简易营地了
+<string>环境概要主题
+<string>可一次性将多个目标任务化！<lf>人们的生活似乎正受到影响！
+<string>打开地图
+<string>环境概要主题
+<string>可一次性将多个目标任务化！<lf>可获得更多的追加报酬！
+<string>打开地图
 <string>环境概要主题
 <string>可一次性将多个目标任务化！<lf>包含有稀有的追加报酬！
 <string>打开地图
+<string>有{0}条新消息<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>已脱离连结队伍
 <string>手动移动
 <string>自动移动
 <string>自动散步
 <string>已暂时解除单人在线模式
+<string>{0}开始向<REF RefEnvironment_0001_0004>移动
+<string>猎人等级达到{0}级
+<string>无法在此放置
 <string>此游戏模式支持跨平台游玩
+<string>小队通知
+<string>“{0}”小队<lf>发来了加入邀请
+<string>小队通知
+<string>所属小队收到了加入申请
+<string>小队通知
+<string>“{0}”小队<lf>已收到加入申请
+<string>小队通知
+<string>已加入“{0}”
+<string>{1}已加入<lf>“{0}”小队
+<string>已被任命为<lf>“{0}”的副队长
+<string>队长权限发生变更，已成为<lf>“{0}”的队长
+<string>登录奖励
+<string>已发布今天的登录奖励。<lf>也可在开始菜单中获取。
+<string>立即获取
+<string>共享装备个人组合
+<string>{0}已与你共享<lf>装备个人组合的信息。
+<string>共享道具个人组合
+<string>{0}已与你共享<lf>道具个人组合的信息。
+<string>共享快捷盘个人组合
+<string>{0}已与你共享<lf>快捷盘个人组合的信息。
+<string>可以使用“{0}”技能了
+<string>无法接受共享个人组合
+<string>共享个人组合的通知数已达上限，无法接收。
+<string>已收到邀请通知。<lf>请在开始菜单“邀请通知列表”中查看。
+<string>已收到参加申请。<lf>请在开始菜单“确认参加申请”中查看。
+<string>无法承接任务

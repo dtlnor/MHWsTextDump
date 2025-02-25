@@ -9,6 +9,37 @@
 <string>Prévisions
 <string>Les actions des joueurs peuvent modifier les prévisions.
 <string>Infos détaillées
+<string>Écologie du monstre
+<string>Écologie Faune locale
+<string>Écologie Faune aquatique
+<string>Répartition géographique
+<string>Caractéristiques
+<string>Notes de recherche
+<string>Attaques spéciales
+<string>Stratégie conseillée
+<string>Informations utiles
+<string>Efficacité
+<string>Stratégie détaillée
+<string>Attaques élémentaires recommandées
+<string>Effets efficaces
+<string>Objets efficaces
+<string>Matériaux à obtenir
+<string>Matériaux (Novice)
+<string>Matériaux (Expert)
+<string>Objets à obtenir
+<string>Fréquence
+<string>Disponibilité/Probabilité
+<string>Journal de chasse
+<string>Chassés
+<string>Éliminés
+<string>Capturés
+<string>Taille (chassés)
+<string>Taille max
+<string>Poids max
+<string>Taille
+<string>Taille min
+<string>Objets/Talents liés
+<string>Titres associés
 <string>Chasse
 <string>Élimination
 <string>Capture
@@ -16,14 +47,20 @@
 <string>Transport
 <string>Spécial
 <string>Commencer l'enquête de terrain
+<string>Sauvegarder comme investigation
 <string>Créer la quête
 <string>Accepter la quête
+<string>Utiliser {0} <PLURAL {0} "point" "points"> pour sauvegarder<lf>en tant qu'investigation ?
+<string>Sauvegardé comme investigation.
+<string><COLOR preset="TXT_Danger">Points de Guilde insuffisants.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car la<lf>progression requise n'a pas été atteinte.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car la<lf>progression requise n'a pas été atteinte.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car le Rang de Chasseur requis n'a pas été atteint.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de poster/rejoindre, car le Rang<lf>de Chasseur requis n'a pas été atteint.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de commencer l'enquête de terrain.</COLOR>
 <string><COLOR preset="TXT_Danger">L'enquête de terrain n'a pas pu commencer.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de sauvegarder comme investigation.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de sauvegarder comme investigation.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de refaire les quêtes principales déjà terminées.</COLOR>
 <string><COLOR preset="TXT_Danger">Le ou les joueurs n'ont pas pu participer à cause des paramètres multijoueurs.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de participer car le nombre maximum de personnes a déjà été atteint.</COLOR>
@@ -31,6 +68,8 @@
 <string><COLOR preset="TXT_Danger">Vous ne remplissez pas les conditions pour poster/rejoindre cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous ne pouvez pas poster/rejoindre cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous n'avez pas posté/rejoint la quête.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous avez atteint la limite d'investigations sauvegardées. Vous ne pouvez plus en sauvegarder.</COLOR>
+<string><COLOR preset="TXT_Danger">Cette investigation a déjà été sauvegardée.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de commencer l'enquête de terrain car un membre relié consulte les résultats de quête.</COLOR>
 <string>Retour à l'écran titre
 <string>Réessayer
@@ -50,6 +89,7 @@
 <string>Récompenses mission secondaire
 <string>Récompenses
 <string>Récompenses bonus
+<string>Boîte de révélation
 <string>Récompenses cible supplémentaire
 <string>Récompenses monstre cible
 <string>Récompenses matériaux généraux
@@ -59,14 +99,27 @@
 <string>Retour<lf>à la base
 <string>Début de<lf>la quête
 <string>Quête<lf>acceptée
+<string>Toutes les quêtes
 <string>Quêtes principales
 <string>Quêtes libres
 <string>Enquête de terrain
+<string>Historique des enquêtes de terrain
+<string>Investigations
+<string>Investigation non sauvegardée
+<string>Investigation sauvegardée
+<string>Quêtes Événement
+<string>Quêtes Arène
+<string>Quêtes Défi
 <string>Paramètres
+<string>Accueil
 <string>Tout afficher
 <string>Quêtes Membres du lobby
 <string>Quêtes Fusée de détresse
 <string>Quêtes Membres reliés
+<string>Coût
+<string>Début de l'enquête de terrain
+<string>Restant
+<string>{0}
 <string>Accès à la quête
 <string>Définir la méthode pour accepter la participation aux quêtes. <COLOR preset="TXT_Accent">(Accepter automatiquement les membres reliés qui reçoivent une invitation.)</COLOR>
 <string>Automatique
@@ -108,6 +161,11 @@
 <string>{0} veut discuter !
 <string>Quête disponible : {0}
 <string>{0} : mission remplie !
+<string>Bonus d'échange activé (<PLURAL {0} "{0} jour restant" "{0} jours restants">)
+<string>Les habitants proches semblent affectés !
+<string>Un village a des problèmes de monstre !
+<string>Chassez-le pour un bonus d'échange temporaire.
+<string>Cimes gelées : {0} apparu(e) !
 <string>Nombre maximum de membres
 <string>Définir le nombre maximum de joueurs pouvant participer aux quêtes. <COLOR preset="TXT_Accent">(Varie en fonction du nombre maximum de membres reliés.)</COLOR>
 <string>1
@@ -157,9 +215,16 @@
 <string>Croissant
 <string>Décroissant
 <string>Recommandé
+<string>Supprimer investigation
+<string>Supprimer l'investigation sélectionnée ?<lf><lf>Remarque : si la quête reste dans <COLOR preset="TXT_Accent">l'historique<lf>des enquêtes de terrain</COLOR>, l'historique sera<lf>également supprimé.
+<string>Investigation supprimée.
+<string>Vous pouvez accepter la quête sélectionnée {0} fois.<lf>Accepter la quête et sauvegarder ?
 <string>Augmenter temporairement le nombre maximum de<lf>joueurs pour les quêtes ?<lf><COLOR preset="TXT_Accent">(Ne peut plus être modifié tant que la quête n'est<lf>pas terminée.)</COLOR>
 <string>Quêtes principales
 <string>Quêtes libres
+<string>Historique des enquêtes de terrain ({0} plus récentes)
+<string>Investigations ({0} sauvegardée(s))
+<string>Quêtes Événement
 <string>Quêtes Membres reliés ({0})
 <string>Quêtes Membres reliés
 <string>Quêtes Fusée de détresse ({0})

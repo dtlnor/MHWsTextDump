@@ -28,11 +28,15 @@
 <string>Lv-
 <string>{0}
 <string>–
+<string>??? Tree
 <string>Primary
 <string>Equip as Primary Weapon
 <string>Secondary
 <string>Equip as Secondary Weapon
 <string>Weapon
+<string>Pendants
+<string>Primary Pendant
+<string>Secondary Pendant
 <string>Wyvernheart Ignition
 <string>Wyvernpiercer Ignition
 <string>Wyverncounter Ignition
@@ -40,13 +44,57 @@
 <string>Focus Blast: Wyvern Howl
 <string>Wyvernblast
 <string>Adhesive Ammo
+<string>Forging Materials
+<string>Upgrade Materials
+<string>Required Cost
+<string>Equipment Upgrade Select
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>Upgrade Armor
+<string>To Next Level
+<string>Maximum upgrade reached
 <string>Show All
+<string><ICON EQUIP_TYPE1> Armor Only
+<string><ICON EQUIP_TYPE2> Armor Only
+<string>Show Owned
+<string>Upgrade
+<string>Forge
+<string>Requires materials and {0}z.<lf>Proceed?
+<string>Requires materials and <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Forging this equipment will<lf>also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
+<string>Equip now?
+<string>Discard {0} <PLURAL {0} "surplus point" "surplus points">?
+<string>Preview
+<string><COLOR preset="TXT_Danger">The equipment box is full.</COLOR>
+<string><COLOR preset="TXT_Danger">This cannot be forged or upgraded yet.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have the required equipment.</COLOR>
+<string><COLOR preset="TXT_Danger">Insufficient funds or materials.</COLOR>
+<string><COLOR preset="TXT_Danger">Insufficient funds.</COLOR>
+<string><COLOR preset="TXT_Danger">Maximum upgrade reached.</COLOR>
+<string>Select an Armor Sphere to use.
 <string><COLOR preset="TXT_Danger">You do not have any decorations.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any materials.</COLOR>
 <string><COLOR preset="TXT_Danger">You do not have any equipment.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any Artian materials.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any Artian weapons.</COLOR>
 <string><COLOR preset="TXT_Danger">You do not have a bowgun.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any decorations or items to meld.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any materials to meld.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any smelting materials.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any reinforcement materials.</COLOR>
+<string><COLOR preset="TXT_Danger">You already own this equipment, so it cannot be forged or upgraded.</COLOR>
+<string><COLOR preset="TXT_Danger">You already own this equipment, so it cannot be forged.</COLOR>
+<string>Currently Equipped: {0}
 <string>This is being used on another piece of equipment.<lf>Do you want to remove it?
+<string><COLOR preset="TXT_Danger">This decoration is currently equipped.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot equip this on this slot level.</COLOR>
+<string><COLOR preset="TXT_Danger">This Kinsect has grown to full size.</COLOR>
+<string>{0}z required.<lf>Continue?
+<string>Requires <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Forging this equipment will<lf>also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
+<string>Nurturing Materials
 <string>Equipment Box
+<string>Layered Armor Box
 <string><COLOR preset="TXT_Danger">Kinsects can only be selected when the insect glaive is equipped.</COLOR>
+<string>Decoration Box
 <string>Edit Decorations
 <string>Change Equipment
 <string>Skill Info
@@ -56,6 +104,7 @@
 <string>Add to Favorites
 <string>Equipment Appearance
 <string>Equipment Settings
+<string>Auto Select
 <string>Select from Box
 <string>Select Armor by Series
 <string>Show/Hide Weapon
@@ -65,8 +114,58 @@
 <string>Toggle Comparison
 <string>Change Display
 <string>Toggle Equipment Preview
+<string>Armor Pigment
+<string>Add to Wishlist
+<string>Register as Forge
+<string>Register as Upgrade
+<string>Add to Wishlist?
+<string>One of the prerequisites for this weapon can be registered either as a forge or upgrade. Select which method to register.
+<string>Remove from Wishlist
+<string>Remove from Wishlist?
+<string>Remove from wishlist?<lf><COLOR preset="TXT_Danger">(Overlaps with equipment loadouts.<lf>Equipment removed here will also be<lf>removed from equipment loadouts.)</COLOR>
+<string>Remove All Decorations
+<string>Remove all equipped decorations?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> Controls Model
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Controls Model
+<string><ICON PAD PL_DUMMY_CAMERA> Controls Preview
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Controls Preview
+<string><ICON PAD PL_DUMMY_CAMERA> Controls List
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Controls Model)
 <string>Select Equipment by Series
+<string>Blade
+<string>Tube
+<string>Disc
+<string>Device
 <string>Mantle
+<string>Search
+<string>Defense Bonus
+<string>Slot Level
+<string>Slots
+<string>Shelling Type
+<string>Melody Effects
+<string>Compatible Ammo
+<string>Ammo with Rapid Fire
+<string>Compatible Coatings
+<string>Remove
+<string>Not Selected
+<string>White
+<string>Blue
+<string>Green
+<string>III
+<string>II
+<string>I
+<string>Sharpness (White)
+<string>Sharpness (Blue)
+<string>Sharpness (Green)
+<string>Slot Level (III)
+<string>Slot Level (II)
+<string>Slot Level (I)
+<string>Slots (3)
+<string>Slots (2-3)
+<string>Slots (1-3)
 <string>Sort by Criteria
 <string>Sort by Weapon
 <string>Sort by Armor
@@ -83,6 +182,9 @@
 <string>Resistance
 <string>Defense
 <string>Armor Part
+<string>By Type
+<string>By Element Type
+<string>By Artian Bonus
 <string>Attack Type
 <string>Armor Part
 <string>Default
@@ -91,6 +193,9 @@
 <string>By Kinsect Lv
 <string>By Shelling Type
 <string>By Amount
+<string>1 – 3
+<string>2 – 3
+<string>3
 <string>Normal Ammo 1
 <string>Normal Ammo 2
 <string>Normal Ammo 3
@@ -139,3 +244,23 @@
 <string>Rapid Fire (Freeze Ammo 1)
 <string>Rapid Fire (Freeze Ammo 2)
 <string>Rapid Fire (Dragon Ammo)
+<string><COLOR preset="TXT_Danger">Cannot sell equipment that is currently equipped.</COLOR>
+<string><COLOR preset="TXT_Danger">Mantles cannot be sold.</COLOR>
+<string><COLOR preset="TXT_Danger">This Kinsect cannot be sold as it's the only one in your possession. (Cannot possess zero Kinsects.)</COLOR>
+<string><COLOR preset="TXT_Danger">This equipment cannot be sold.</COLOR>
+<string><COLOR preset="TXT_Danger">This Kinsect cannot be sold because it is paired with the insect glaive.</COLOR>
+<string>Value
+<string>This equipment is registered to a loadout.<lf>Are you sure you want to sell it?
+<string>Sell for {0}z?
+<string>This equipment has a decoration attached to it.<lf>Remove all decorations and sell equipment for {0}z?
+<string>A decoration with one or more of the following<lf>statuses has been selected. Sell anyway?<lf><lf>{0}<lf>{1}<lf>{2}
+<string>- Currently Equipped
+<string>- Registered to a Loadout
+<string>- Registered to Favorites
+<string>Share loadout with {0}?
+<string>Register to Your Loadouts
+<string>Register this loadout to one of your empty slots?
+<string>You have no empty slots.
+<string><COLOR preset="TXT_Accent">One of your loadouts contains equipment that<lf>you do not possess.</COLOR> Unobtained equipment<lf>has been automatically registered to your wishlist.
+<string><COLOR preset="TXT_Accent">A registered loadout contains equipment that<lf>you do not possess.</COLOR> This equipment has already<lf>been added to your wishlist.
+<string><COLOR preset="TXT_Accent">One of your loadouts contains equipment that<lf>you do not possess.</COLOR>

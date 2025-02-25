@@ -1,14 +1,54 @@
 ﻿<string>Hunter Profile
 <string>Hunter Equipment Status
+<string>Quest Completion Count
+<string>Palico Equipment Status
+<string>Awards
+<string>Hunting Log
 <string>Nameplate
+<string>BGM
+<string>Awards
+<string>Hunting Log
+<string>Hunting Log: {0}
+<string>Arena Log
+<string>Photos
+<string>Comments
+<string>Nice to meet you!
 <string>Title
+<string>Title {0}
+<string>{0}
+<string>{0} {1}
+<string>{0} {1} {2}
+<string>Equipment Loadouts
+<string>Equipment Appearance Loadouts
+<string>Hunter Rank
+<string>Playtime
+<string>Obtained Awards
+<string>Squads
+<string>Could not retrieve Squad information.
+<string>Save your changes and exit editing mode?
+<string>Maximum Graph Value: {0}
+<string>100
+<string>500
+<string>1000
+<string>5000
+<string><PLURAL {0} "{0} time" "{0} times">
+<string>Progress
+<string>{0}%
+<string>~
+<string>Editing Mode
+<string>Add New Widget
+<string>Place
 <string><REF RefButton_0008>
 <string>UI Display ON/OFF
-<string>Move Dialogue Option Window
+<string>Move Options Window
 <string>Decorations
 <string>Equipment
+<string>Change
 <string>Toggle Hunter ID
 <string>Toggle <PLATMSG RefGeneral_0018_001>
+<string>Zoom Out
+<string>Zoom In
+<string>Reset Camera
 <string>View Hunter Profile
 <string>Edit Widgets
 <string>Edit Nameplate
@@ -19,6 +59,9 @@
 <string>Change Camera
 <string>Change Background
 <string>Register Equipment
+<string>Register the current appearance of your Hunter,<lf>Palico, and Seikret to your Hunter Profile?<lf><lf><COLOR preset="TXT_Accent">Once registered, changes to your appearance will not<lf>be reflected on your profile. You must unregister if<lf>you want changes to be reflected again.</COLOR>
+<string>Unregister Equipment
+<string>Unregister the current appearance of your Hunter,<lf>Palico, and Seikret saved to your Hunter Profile?<lf><lf><COLOR preset="TXT_Accent">Allows any changes made to your appearance or<lf>equipment in-game to be reflected on your profile.</COLOR>
 <string>Report
 <string>Abusive/Disruptive Behavior
 <string>Cheating
@@ -30,3 +73,12 @@
 <string>{0} / 240
 <string>{0}<lf>{1}<lf><lf>Send this report?
 <string>Reported.
+<string>Select a widget to move or delete, or select an empty space to add a new widget.
+<string>Move or delete this widget.
+<string>Move this widget. <COLOR preset="TXT_Accent">(Nameplate cannot be deleted.)</COLOR>
+<string>Move or delete this widget. <COLOR preset="TXT_Danger">(Cannot place widget here.)</COLOR>
+<string>Move this widget. <COLOR preset="TXT_Danger">(Cannot place widget here.)</COLOR>
+<string><COLOR preset="TXT_Danger">Selected widget can only be placed once.</COLOR>
+<string><COLOR preset="TXT_Danger">You cannot place this widget yet.</COLOR>
+<string><COLOR preset="TXT_Danger">Failed to place because information could not be obtained.</COLOR>
+<string>Delete the selected widget?

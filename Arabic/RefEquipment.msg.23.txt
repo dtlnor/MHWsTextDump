@@ -28,11 +28,15 @@
 <string>المستوى
 <string>{0}
 <string>–
+<string>شجرة ؟؟؟
 <string>أساسي
 <string>تجهيز كسلاح رئيسي
 <string>ثانوي
 <string>تجهيز كسلاح ثانوي
 <string>سلاح
+<string>الحليات المتدلية
+<string>حلية متدلية أساسية
+<string>حلية متدلية ثانوية
 <string>اشتعال قلب وايفرن
 <string>اشتعال التنين المخترق
 <string>اشتعال مضاد وايفرن
@@ -40,13 +44,57 @@
 <string>انفجار مُركز: صياح وايفرن
 <string>انفجار وايفرن
 <string>ذخيرة لاصقة
+<string>مواد التشكيل
+<string>مواد الترقية
+<string>التكلفة المطلوبة
+<string>تحديد ترقية المعدات
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>ترقية الدروع
+<string>إلى المستوى التالي
+<string>تم الوصول إلى أقصى ترقية
 <string>إظهار الكل
+<string><ICON EQUIP_TYPE1> درع فقط
+<string><ICON EQUIP_TYPE2> درع فقط
+<string>إظهار المملوك
+<string>ترقية
+<string>تشكيل
+<string>مطلوب مواد و{0} من الزيني.<lf>هل <LSNR "تريد" "تريدين"> المتابعة؟
+<string>مطلوب مواد و<NUMBER {0}> من الزيني.<lf>هل <LSNR "تريد" "تريدين"> المتابعة؟<lf><lf>(تشكيل هذه المعدات<lf>سينتج أيضًا <COLOR preset="TXT_Accent">درع متعدد الطبقات</COLOR>)
+<string>هل <LSNR "تريد" "تريدين"> التسلح الآن؟
+<string>هل <LSNR "تريد" "تريدين"> تجاهل {0} من النقاط الفائضة؟
+<string>معاينة
+<string><COLOR preset="TXT_Danger">صندوق المعدات ممتلئ.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن تشكيله أو ترقيته بعد.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> المعدات المطلوبة.</COLOR>
+<string><COLOR preset="TXT_Danger">الأموال أو المواد غير كافية.</COLOR>
+<string><COLOR preset="TXT_Danger">الأموال غير كافية.</COLOR>
+<string><COLOR preset="TXT_Danger">تم الوصول إلى أقصى ترقية.</COLOR>
+<string><LSNR "حدد" "حددي"> إطار درع لاستخدامه.
 <string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي جواهر.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي مواد.</COLOR>
 <string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي معدات.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي مواد (أرتيان).</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي أسلحة (أرتيان).</COLOR>
 <string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> بندقية قوس.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي جواهر أو عناصر لدمجها.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي مواد لدمجها.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي مواد مُذابة.</COLOR>
+<string><COLOR preset="TXT_Danger">ليس <LSNR "لديكَ" "لديكِ"> أي مواد تعزيز.</COLOR>
+<string><COLOR preset="TXT_Danger"><LSNR "أنتَ تملكَ" "أنتِ تملكِ"> هذه المعدات بالفعل، لذلك لا يمكن تشكيلها أو ترقيتها.</COLOR>
+<string><COLOR preset="TXT_Danger"><LSNR "أنتَ تملكَ" "أنتِ تملكِ"> هذه المعدات بالفعل، لذلك لا يمكن تشكيلها.</COLOR>
+<string>مجهز حاليًا: {0}
 <string>تم استخدام هذا في جزء آخر من المعدات.<lf>هل <LSNR "تريد" "تريدين"> الإزالة؟
+<string><COLOR preset="TXT_Danger">هذه الجوهرة مزوَّدة حاليًا.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن التزوّد بهذه في مستوى الفتحة هذا.</COLOR>
+<string><COLOR preset="TXT_Danger">كبرت حشرة (كينسيكت) هذه إلى حجمها الكامل.</COLOR>
+<string>مطلوب {0} من الزيني.<lf>هل <LSNR "تريد" "تريدين"> المتابعة؟
+<string>مطلوب <NUMBER {0}> من الزيني.<lf>هل <LSNR "تريد" "تريدين"> المتابعة؟<lf><lf>(تشكيل هذه المعدات<lf>سينتج أيضًا <COLOR preset="TXT_Accent">درع متعدد الطبقات</COLOR>)
+<string>مواد التربية
 <string>صندوق المعدات
+<string>صندوق الدرع ذات طبقات
 <string>يمكن تحديد <COLOR preset="TXT_Danger">حشرات (كينسيكت) في حالة التزود بسيف الحشرة فقط.</COLOR>
+<string>صندوق الجواهر
 <string>تعديل الجواهر
 <string>تغيير المعدات
 <string>معلومات عن المهارة
@@ -56,6 +104,7 @@
 <string>إضافة إلى المفضلات
 <string>مظهر المعدات
 <string>إعدادات المعدات
+<string>تحديد تلقائي
 <string>تحديد من الصندوق
 <string>تحديد درع حسب السلسلة
 <string>إظهار/إخفاء السلاح
@@ -65,8 +114,58 @@
 <string>تبديل عرض نافذة التفاصيل
 <string>تغيير العرض
 <string>معاينة تبديل المعدات
+<string>طلاء الدرع
+<string>إضافة إلى قائمة الرغبات
+<string>إدراج في مواد التشكيل
+<string>إدراج في الترقية
+<string>هل <LSNR "تريد" "تريدين"> الإضافة إلى قائمة الرغبات؟
+<string>يمكن تسجيل أحد المتطلبات الأساسية لهذا السلاح كتشكيل أو كترقية. <LSNR "حدد" "حددي"> الطريقة التي <LSNR "تريد" "تريدين"> التسجيل بها.
+<string>إزالة من قائمة الرغبات
+<string>هل <LSNR "تريد" "تريدين"> الإزالة من قائمة الرغبات؟
+<string>هل <LSNR "تريد" "تريدين"> الإزالة من قائمة الرغبات؟<lf><COLOR preset="TXT_Danger">(يتداخل مع تجهيزات المعدات.<lf>سيتم أيضًا إزالة المعدات التي تمت إزالتها هنا<lf>من تجهيزات المعدات.)</COLOR>
+<string>إزالة كل الجواهر
+<string>هل <LSNR "تريد" "تريدين"> إزالة الجواهر المزودة؟
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> نموذج التحكم
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> نموذج التحكم
+<string><ICON PAD PL_DUMMY_CAMERA> معاينة عناصر التحكم
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> معاينة عناصر التحكم
+<string><ICON PAD PL_DUMMY_CAMERA> لائحة عناصر التحكم
+<string><RTL>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> نموذج التحكم)
 <string>تحديد المعدات حسب السلسلة
+<string>نصل
+<string>أنبوب
+<string>قرص
+<string>جهاز
 <string>عباءة
+<string>بحث
+<string>مكافأة الدفاع
+<string>مستوى الفتحة
+<string>الفتحات
+<string>نوع القصف
+<string>تأثيرات اللحن
+<string>ذخيرة متوافقة
+<string>ذخيرة مع إطلاق سريع
+<string>أغطية متوافقة
+<string>إزالة
+<string>غير مُحدد
+<string>أبيض
+<string>أزرق
+<string>أخضر
+<string>3
+<string>2
+<string>1
+<string>الحدّة (أبيض)
+<string>الحدّة (أزرق)
+<string>الحدّة (أخضر)
+<string>مستوى الفتحة (3)
+<string>مستوى الفتحة (2)
+<string>مستوى الفتحة (1)
+<string>الفتحات (3)
+<string>الفتحات (2-3)
+<string>الفتحات (1-3)
 <string>تصنيف حسب المعايير
 <string>تصنيف حسب الأسلحة
 <string>تصنيف حسب الدروع
@@ -83,6 +182,9 @@
 <string>المقاومة
 <string>الدفاع
 <string>جزء الدرع
+<string>حسب النوع
+<string>حسب نوع العنصر
+<string>حسب مكافأة أرتيان الإضافية
 <string>نوع الهجوم
 <string>جزء الدرع
 <string>افتراضي
@@ -91,6 +193,9 @@
 <string>حسب مستوى كينسيكت
 <string>حسب نوع القصف
 <string>بالكمية
+<string>1 – 3
+<string>2 – 3
+<string>3
 <string>ذخيرة عادية 1
 <string>ذخيرة عادية 2
 <string>ذخيرة عادية 3
@@ -139,3 +244,23 @@
 <string>إطلاق نار سريع (ذخيرة التجميد 1)
 <string>إطلاق نار سريع (ذخيرة التجميد 2)
 <string>إطلاق نار سريع (ذخيرة التنين)
+<string><COLOR preset="TXT_Danger">لا يمكن بيع المعدات المُزودة حاليًا.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن بيع العباءات.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن بيع حشرات (كينسيكت) هذه لأنها الوحيدة في <LSNR "حوزتكَ" "حوزتكِ">. (لا يمكن أن تنفد حشرات "كينسيكت" بالكامل.)</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن بيع هذه المعدات.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن بيع حشرات (كينسيكت) هذه لأنها مقترنة بسيف الحشرة.</COLOR>
+<string>قيمة
+<string>تم تسجيل هذه المعدات في التجهيزات.<lf>هل <LSNR "تريد" "تريدين"> تأكيد بيعها؟
+<string>هل <LSNR "تريد" "تريدين"> البيع مقابل {0} من الزيني؟
+<string>هذه المعدات مرتبطة بإضافة.<lf>هل <LSNR "تريد" "تريدين"> إزالة كل الجواهر<lf>وبيع المعدات مقابل {0} من الزيني؟
+<string>تم اختيار جوهرة بوضعية أو أكثر من الوضعيات التالية.<lf>هل <LSNR "تريد" "تريدين"> البيع على أي حال؟<lf><lf>{0}<lf>{1}<lf>{2}
+<string>- مزوَّدة حاليًا
+<string>- مسجَّلة في التجهيزات
+<string>- مسجَّلة في المفضلات
+<string>هل <LSNR "تريد" "تريدين"> مشاركة التجهيزات مع {0}؟
+<string>تسجيل في <LSNR "تجهيزاتكَ" "تجهيزاتكِ">
+<string>هل <LSNR "تريد" "تريدين"> تسجيل هذا التجهيزات<lf>في إحدى الخانات الفارغة <LSNR "لديكَ" "لديكِ">؟
+<string>ليست لديك أي فتحات فارغة.
+<string><COLOR preset="TXT_Accent">تحتوي أحد التجهيزات على معدات لا <LSNR "تمتلكها" "تمتلكينها">.</COLOR><lf>تم تسجيل المعدات التي لم يتم الحصول عليها<lf>في قائمة الرغبات تلقائيًا.
+<string><COLOR preset="TXT_Accent">تحتوي أحد التجهيزات المُسجَّلة على معدات<lf>لا <LSNR "تمتلكها" "تمتلكينها">.</COLOR>لقد تمت إضافة هذه المعدات بالفعل<lf>إلى قائمة الرغبات.
+<string><COLOR preset="TXT_Accent">تحتوي أحد التجهيزات على معدات لا <LSNR "تمتلكها" "تمتلكينها">.</COLOR>

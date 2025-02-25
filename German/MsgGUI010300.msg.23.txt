@@ -13,6 +13,10 @@
 <string>Änderungen speichern
 <string>Änderungen verwerfen
 <string>Vordefiniertes Aussehen
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(Detaileinstellungen)
 <string>Startrüstung
 <string>Wähle eine Startrüstung für deinen Charakter.
@@ -86,6 +90,7 @@
 <string>Augenbrauenform
 <string>Augenbrauenfarbe
 <string>Augenbrauentransparenz
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>Augenbrauenhöhe
 <string>Innere Brauenhöhe
 <string>Innere Brauenweite
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>Augenhöhe
 <string>Augentiefe
 <string>Augenabstand
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>Farbe der Zähne
 <string>Zahnfärbung – Farbe
 <string>Zahnfärbung – Transparenz
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>Gesichtslänge
 <string>Kieferbreite
 <string>Kieferausprägung
@@ -173,6 +184,7 @@
 <string>Kinnlänge
 <string>Kinntiefe
 <string>Gesichtsstruktur
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>Muskelmasse
 <string>Muskeldefinition
 <string>Hautfarbe
@@ -230,7 +242,7 @@
 <string>Vordefiniertes Aussehen
 <string>(Detaileinstellungen)
 <string>Felynen-Sprache
-<string>Sämtliche Felynen, auch dein Palico, verwenden<lf>die Felynen-Sprache. (Diese Option ist in den<lf>Optionen verfügbar.)
+<string>Sämtliche Felynen, auch dein Palico, verwenden die Felynen-Sprache. (Dies kann auch in den Optionen angepasst werden.)
 <string>Stimme
 <string>Stimmhöhe
 <string>Die Anpassung der Stimmhöhe kann die Stimme deines Charakters schwer verständlich machen.
@@ -295,6 +307,7 @@
 <string>Einstellungen zurücksetzen
 <string>Möchtest du die Standardeinstellungen der<lf>gewählten Einstellungen wiederherstellen?
 <string>Möchtest du alle Einstellungen<lf>zum vordefinierten Aussehen zurücksetzen?
+<string>Speichern/Laden
 <string>Überprüfen/Anpassen
 <string>Design
 <string>Farbeinstellungen
@@ -306,6 +319,10 @@
 <string>Aus
 <string>Standard
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>Darstellungsoptionen
@@ -365,6 +382,94 @@
 <string>Rechte Verbindung – Menge
 <string>   Haut-Helligkeit
 <string>   Hautsättigung
+<string>Gespeicherte Designs
+<string>Design-Name
+<string>Speicherdatum
+<string>Laden
+<string>Speichern
+<string>Umbenennen
+<string>Neu anordnen
+<string>Löschen
+<string><ICON UI_SUB_MENU> Speichern
+<string>Design {0}
+<string>Möchtest du zu diesem Aussehen wechseln?<lf><COLOR preset="TXT_Danger">Aktuelle Bearbeitungen gehen verloren.<lf>Speichere dein derzeitiges Design, bevor du<lf>wechselt, um deine Änderungen zu behalten.</COLOR>
+<string>Deine aktuellen Einstellungen enthalten Anpassungen,<lf>die nicht in deinem Besitz sind. Es werden nur die<lf>Anpassungen übernommen, die sich in deinem Besitz<lf>befinden. Möchtest du dennoch fortfahren?
+<string>Möchtest du das derzeitige<lf>Charakterdesign speichern?
+<string>Möchtest du das derzeitige<lf>Charakterdesign speichern?<lf><COLOR preset="TXT_Danger">(Vorhandene Daten werden überschrieben.)</COLOR>
+<string>Wähle einen Eintrag, den du neu anordnen möchtest.
+<string>Wähle ein Ziel.
+<string>Möchtest du dieses Charakterdesign löschen?
+<string>Saikrii-Deko
+<string>Saikrii-Anpassung
+<string>Hautfarbe
+<string>Innere Federnfarbe
+<string>Äußere Federnfarbe
+<string>Musterbreite
+<string>Musterfarbe
+<string>Mustertransparenz
+<string>Augenfarbe
+<string>Verschiedene Augen
+<string>Augenfarbe (rechts)
+<string>Dekoration
+<string>Anhänger
+<string>Name ändern
+<string>Ermöglicht es dir, den Namen deines Saikrii zu ändern.
+<string>Möchtest du die Bearbeitung der<lf>Saikrii-Dekorationen abschließen?
+<string>Möchtest du die Bearbeitung<lf>deines Saikrii abschließen?
+<string>Zubehör anzeigen
+<string>Gib einen Namen für deinen Saikrii ein.<lf><lf><COLOR preset="TXT_Accent">(Du kannst maximal 15 Zeichen verwenden.)</COLOR>
+<string>Feldlager bearbeiten
+<string>Zelt anpassen
+<string>Lagerausstattungsoptionen
+<string>Zeltplane-Typ
+<string>Zeltplane-Hauptfarbe
+<string>Zeltplane-Zweitfarbe
+<string>Innenzelt-Typ
+<string>Innenzelt-Hauptfarbe
+<string>Innenzelt-Zweitfarbe
+<string>Design 1
+<string>Design 2
+<string>Diese Einstellung überschreibt bei Überschneidungen „Design 1“.
+<string>Design 3
+<string>Diese Einstellung überschreibt bei Überschneidungen „Design 2“.
+<string>Design 1 – Typ
+<string>Design 2 – Typ
+<string>Design 3 – Typ
+<string>Design 1 – Farbe
+<string>Design 2 – Farbe
+<string>Design 3 – Farbe
+<string>Zeltplane-Farbe 1 – Typ
+<string>Zeltplane-Farbe 2 – Typ
+<string>Zeltplane-Farbe 3 – Typ
+<string>Innenzelt-Farbe 1 – Typ
+<string>Innenzelt-Farbe 2 – Typ
+<string>Innenzelt-Farbe 3 – Typ
+<string>Zeltplane-Farbe 1 – Farbe
+<string>Zeltplane-Farbe 2 – Farbe
+<string>Zeltplane-Farbe 3 – Farbe
+<string>Innenzelt-Farbe 1 – Farbe
+<string>Innenzelt-Farbe 2 – Farbe
+<string>Innenzelt-Farbe 3 – Farbe
+<string>Transparenz
+<string>Größe
+<string>Breite
+<string>Höhe
+<string>Position
+<string>Horizontale Position
+<string>Vertikale Position
+<string>Standardeinstellungen
+<string>Möchtest du zurück zu den Standardeinstellungen?
+<string>Design-Einstellungen tauschen
+<string>Ersetze das aktuelle Design durch ein anderes.
+<string>Horizontal spiegeln
+<string>Vertikal spiegeln
+<string>Winkel
+<string>Lagerausstattung (Groß) 1
+<string>Lagerausstattung (Groß) 2
+<string>Lagerausstattung (Klein) 1
+<string>Lagerausstattung (Klein) 2
+<string>Laternen-Typ
+<string>Möchtest du die Bearbeitung des Feldlagers<lf>abschließen?
 <string>Aussehen verändern
 <string>Möchtest du die Bearbeitung<lf>des Aussehens abschließen?
 <string>Charakter bearbeiten
@@ -389,3 +494,35 @@
 <string>Gesicht mit ähnlichen Merkmalen erstellen
 <string>Komplett neues Gesicht erstellen
 <string>Möchtest du dieses Gesicht verwenden?
+<string><COLOR preset="TXT_Accent">Betatest-Daten</COLOR>
+<string>Möchtest du überprüfen, ob Betatest-<lf>Charakterdaten vorliegen?
+<string>Hochgel. Designs
+<string>Design hochladen
+<string>Design herunterladen
+<string>Möchtest du das Design hochladen und teilen?
+<string>Das Design wurde hochgeladen.<lf>Download-Code:<lf>{0}
+<string><COLOR preset="TXT_Danger">Fehler</COLOR><lf>Das Design konnte nicht hochgeladen werden.
+<string><COLOR preset="TXT_Danger">Du kannst keine weiteren Designs hochladen.</COLOR>
+<string>Hochgel. Design verwalten
+<string>Code des hochgeladenen Designs:<lf>{0}<lf><lf>(Wenn du das Teilen beenden<lf>möchtest, wähle „Ja“.)
+<string>Möchtest du das Teilen<lf>dieses Designs beenden?
+<string>Das Teilen des Designs wurde beendet.
+<string><COLOR preset="TXT_Danger">Fehler</COLOR><lf>Teilen des Designs konnte nicht beendet werden.
+<string><COLOR preset="TXT_Danger">Heruntergeladene Designs können nicht hochgeladen werden.</COLOR>
+<string>Bitte gib einen Design-Code ein.<lf><lf><COLOR preset="TXT_Accent">(Codes bestehen aus 12 alphanumerischen<lf>Zeichen und es wird zwischen Groß- und<lf>Kleinschreibung unterschieden.)</COLOR>
+<string>Folgendes Design wurde gefunden:<lf>{0}<lf>Erstellt von<lf>Jäger-ID: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>{0}<lf>Der Design-Code konnte nicht gefunden werden.<lf><lf>{1}
+<string>{0}<lf>Dies ist ein Design für deinen Charakter<lf>und kann nicht verwendet werden.<lf>{1}
+<string>{0}<lf>Dies ist ein Design für deinen Palico<lf>und kann nicht verwendet werden.<lf>{1}
+<string>{0}<lf>Dieses Design kann nicht verwendet werden.<lf>{1}
+<string>Design speichern
+<string>Aussehen verändern
+<string>Ersteller-Info
+<string>Möchtest du zu diesem Aussehen wechseln?<lf>Aktuelle Bearbeitungen gehen verloren.<lf>Speichere dein derzeitiges Design, bevor du<lf>wechselst, um deine Änderungen zu behalten.
+<string>Deine aktuellen Einstellungen enthalten Anpassungen,<lf>die nicht in deinem Besitz sind. Es werden nur die<lf>Anpassungen übernommen, die sich in deinem Besitz<lf>befinden. Möchtest du dennoch fortfahren?
+<string>{0}<lf>Erstellt von<lf>Jäger-ID: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>Möchtest du den Download des Designs abbrechen?
+<string>Das hochgeladene Design wurde aufgrund einer<lf>Überprüfung der Daten auf dem Server geändert.
+<string><COLOR preset="TXT_Danger">Diese Funktion ist nicht verfügbar, da dies ein hochgeladenes Design ist.</COLOR>
+<string><COLOR preset="TXT_Danger">Dies ist im Moment nicht verfügbar, weil keine gespeicherten Charakterdaten existieren.</COLOR>
+<string><COLOR preset="TXT_Danger">Du musst eine Jäger-ID erstellen, um dies zu nutzen.</COLOR>

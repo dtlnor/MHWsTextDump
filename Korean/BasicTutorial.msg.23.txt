@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string><REF Item_IT_182>
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>란
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP>방어력 UP
 <string><REF WeaponTutorial_CP_166><lf><lf>주요 발동 방법<lf>-<REF Item_IT_127>이나 <REF Item_IT_171> 등의 사용<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
 <string>
+<string><ICON ST_CRITICAL_UP>회심률 UP
+<string>회심률이 오른 상태.<lf><lf>주요 발동 방법<lf>-<REF SkillCommon_1865909632> 스킬 등의 발동<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_POWER_ELEMENT_UP><REF MusicSkillDataText_Wp05_13>
+<string><REF WeaponTutorial_CP_160><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_POWER_DEBUF_UP><REF MusicSkillDataText_Wp05_14>
+<string><REF WeaponTutorial_CP_161><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH>불속성 방어 강화
 <string><REF WeaponTutorial_CP_167><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH>물속성 방어 강화
+<string><REF WeaponTutorial_CP_168><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH>번개속성 방어 강화
+<string><REF WeaponTutorial_CP_169><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH>얼음속성 방어 강화
+<string><REF WeaponTutorial_CP_170><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH>용속성 방어 강화
+<string><REF WeaponTutorial_CP_171><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_SPIRIT><REF MusicSkillDataText_Wp05_17>
+<string><REF WeaponTutorial_CP_159><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_HEAL_CONTINUE><REF HibikiDataText_Wp05_2>
+<string><REF WeaponTutorial_CP_179><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_HEAL_NATURAL_UP>체력 회복 가속
+<string><REF WeaponTutorial_CP_163><lf><lf>주요 발동 방법<lf>-<REF Item_IT_165>나 <REF Item_IT_632> 사용<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS>스태미나 절약
+<string><REF WeaponTutorial_CP_164><lf><lf>주요 발동 방법<lf>-<REF Item_IT_164> 사용<lf>-<REF EnemyText_NAME_EM5006_00_0> 획득<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP>스태미나 회복 속도 UP
+<string>스태미나 회복 속도가 오른 상태.<lf><lf>주요 발동 방법<lf>-장비 스킬 발동
+<string>
+<string><ICON ST_STAMINA_CONTINUE><REF HibikiDataText_Wp05_3>
+<string><REF WeaponTutorial_CP_180><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_AVOID_UP>회피 성능 UP
+<string>회피 성능이 오른 상태.<lf><lf>주요 발동 방법<lf>-회피 성능 스킬 발동<lf>-수렵피리의 <REF RefStatus_0006_000_01> 효과
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>이동 속도가 오른다.<lf><REF RefStatus_0008_000_00> 겹치기를 사용하면 공격이 튕겨<lf>나가지 않게 되며 공격력도 오른다.<lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
+<string><REF WeaponTutorial_CP_155><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_WIND><REF MusicSkillDataText_Wp05_33>/<ICON ST_RESIST_WIND_HIGH><REF MusicSkillDataText_Wp05_34>
+<string><REF WeaponTutorial_CP_150><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_NOISE><REF MusicSkillDataText_Wp05_28>/<ICON ST_RESIST_NOISE_HIGH><REF MusicSkillDataText_Wp05_29>
+<string><REF WeaponTutorial_CP_153><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_QUAKE><REF MusicSkillDataText_Wp05_30>
+<string><REF WeaponTutorial_CP_154><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_STUN><REF MusicSkillDataText_Wp05_32>
+<string><REF WeaponTutorial_CP_151><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_PARALYSIS><REF MusicSkillDataText_Wp05_31>
+<string><REF WeaponTutorial_CP_152><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_ELEMENT><REF MusicSkillDataText_Wp05_39>
+<string><REF WeaponTutorial_CP_162><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나<lf> <REF RefStatus_0006_000_01>
+<string>
+<string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
+<string><REF WeaponTutorial_CP_158><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>나 <REF RefStatus_0006_000_01> 효과
+<string>
+<string><ICON ST_SOUND_BARRIER><REF MusicSkillDataText_Wp05_44>
+<string><REF WeaponTutorial_CP_172><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
+<string><REF WeaponTutorial_CP_156><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
+<string><REF WeaponTutorial_CP_157><lf><lf>주요 발동 방법<lf>-수렵피리의 <REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_COLD>추위에 강한 상태
+<string>추위가 심한 특정 구역에서는<lf>스태미나의 최대치 감소가 빨라진다.<lf>그 효과를 무효화시킨 상태.<lf><lf>주요 발동 방법<lf>-<REF Item_IT_167> 사용<lf>-<REF EnemyText_NAME_EM5005_20_0> 이용
+<string>
+<string><ICON ST_RESIST_HOT>더위에 강한 상태
+<string>더위가 심한 특정 구역에서는<lf>서서히 체력이 줄어든다.<lf>그 효과를 무효화시킨 상태.<lf><lf>주요 발동 방법<lf>-<REF Item_IT_166> 사용<lf>-<REF EnemyText_NAME_EM5005_10_0> 이용
 <string>
 <string><ICON ST_MEAL_UP>식사 효과
 <string>먹은 식사의 효과를 획득한 상태.<lf><lf>주요 발동 방법<lf>-식사하기
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP>수면
+<string>졸음이 덮친 후, 일정 시간이<lf>경과하면 완전히 잠들어 행동 불능이<lf>된다. 점점 축적되면서 발병한다.<lf><lf>주요 해제 방법:<lf>-완전히 잠들기 전에 <REF Item_IT_163> 사용<lf>-공격받기<lf>-잠든 상태에서 일정 시간 경과
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>일정 시간이 지나거나 공격을 받아<lf>날아가면 폭발해 대미지를<lf>받는 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_212> 사용<lf>-회피 반복
+<string>
+<string><ICON ST_LACERATE>열상 상태
+<string>행동하면 대미지를 받는 상태.<lf>(해제하면 일정 시간 동안<lf>자연 회복량 증가)<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_9> 등의 고기 계열 <REF RefItem_0000> 사용<lf>-앉은 상태에서 일정 시간 경과
+<string>
 <string><ICON ST_STUN>기절
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN>섬광에 맞아 기절
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING>실 속박
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT>동결 피해
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN>방어력 DOWN
+<string>방어력이 떨어져<lf>받는 대미지가 증가한 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_127>이나 <REF Item_IT_171> 등의 사용<lf>-일정 시간 경과
+<string>
+<string><ICON ST_BADSMELL>악취
+<string>음식 계열의 <REF RefItem_0000>을<lf>사용할 수 없는 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_212> 사용<lf>-물가에서 회피 행동<lf>-일정 시간 경과
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME>광룡증
+<string>광룡 바이러스의 축적으로 감염되며,<lf>몬스터를 일정 횟수 공격해 극복하지<lf>않으면 발병한다.<lf><lf>발병 상태: 받는 대미지가 커지고<lf>체력이 자연 회복되지 않는다.<lf>극복 상태: 회심률이 상승하고<lf>광룡증에 감염되지 않는다.<lf>두 상태는 시간 경과로 해제된다.<lf><lf>감염 상태일 때 <REF Item_IT_7>를 사용하면<lf>발병까지의 시간을 연장할 수 있다.
+<string>
 <string><ICON ST_FIRE>불속성 피해
 <string>시간이 지날수록 체력이 감소하는<lf>상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_7> 사용<lf>-물가에 들어가 회피 반복<lf>-일정 시간 경과
 <string>
@@ -221,6 +363,12 @@
 <string>풍압 피해
 <string>일정 시간, 행동이 제한되는 상태.<lf>풍압 강도에 따라 제한되는 시간이<lf>달라진다.<lf><lf>주요 해제 방법:<lf>-일정 시간 경과<lf>-공격받기
 <string>
+<string>추위
+<string>특정 구역에 머무는 동안<lf>스태미나의 최대치 감소 시간이<lf>빨라지는 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_167> 사용<lf>-<REF EnemyText_NAME_EM5005_20_0> 이용
+<string>
+<string>더위
+<string>특정 구역에 머무는 동안<lf>시간이 지날수록 체력이 감소하는<lf>상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_166> 사용<lf>-<REF EnemyText_NAME_EM5005_10_0> 이용
+<string>
 <string>납도 상태
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -244,6 +392,12 @@
 <string>
 <string><REF Item_IT_21>
 <string>떨어진 <REF RefStatus_0003_005>를 회복할 수 있는 <REF RefItem_0000>.<lf><REF RefItem_0023_06>으로서 늘 휴대하고 있다.<lf><lf>커스텀 숏컷에서 사용할 때는<lf>발도 상태에서도 사용할 수 있다.
+<string>
+<string>장비 스킬 '<REF SkillCommon_1160639488>'
+<string>무기의 예리도 게이지가 길어지는<lf>스킬. 상승 후의 <REF RefStatus_0003_005> 색깔은<lf>무기 성능별로 다르다.<lf><lf>예리도 게이지의 상승량은 미리<lf>스테이터스 내 예리도 게이지에<lf>표시되어 있다.
+<string>
+<string>장비 스킬 '<REF SkillCommon_1500129152>'
+<string><REF Item_IT_21>을 사용했을 때 발동하는<lf>스킬. 일정 시간, <REF RefStatus_0003_005>가<lf>떨어지지 않는다.
 <string>
 <string>집중 모드
 <string>집중 모드란
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>일정 시간, 몬스터의 눈을<lf>피할 수 있다. 공격을 하거나<lf>대미지를 받으면<lf>효과 시간과는 관계없이<lf>효과가 종료된다.<lf><lf>다른 <REF RefMenu_110_14>와는 달리<lf>늘 휴대하고 있다.
+<string>
+<string><REF Item_IT_626>
+<string>대미지 리액션을 취하지 않고,<lf><REF MusicSkillDataText_Wp05_33>, 청각 보호,<lf><REF MusicSkillDataText_Wp05_30> 효과를 얻는다.<lf>받는 대미지도 감소한다.<lf><lf>공격을 받으면 효과 시간이 감소한다.
+<string>
+<string><REF Item_IT_627>
+<string>체력이 서서히 회복된다.<lf>공격을 받은 후 일정 시간 동안<lf>대미지를 받지 않으면<lf>회복 속도가 빨라진다.<lf><lf>또한, 몬스터를 공격해도<lf>조금씩 체력이 회복된다.
+<string>
+<string><REF Item_IT_628>
+<string>몬스터의 공격을 타이밍에 맞춰<lf>회피하면 피해 없이 빠져나올 수<lf>있는 특수한 회피 행동이 발동한다.<lf><lf>또한, 특수한 회피 행동이 발동하면<lf>일시적으로 공격력이 상승한다.
+<string>
+<string><REF Item_IT_629>
+<string><REF HunterActiveSkill_5>
 <string>
 <string>몬스터 사냥의 요령
 <string>올라타기 상태
@@ -338,6 +504,9 @@
 <string>거름 상태
 <string>몬스터에게 악취를 풍기는 상태.<lf><REF Item_IT_72> 등으로 발생하며<lf>대형 몬스터를 쫓아낼 수도 있다.
 <string>
+<string>폭파 상태
+<string><REF RefStatus_0008_002_04>를 발생시켜 대미지를 준다.<lf><REF RefStatus_0008_002_04>속성 무기 공격 등으로 인해<lf>축적치가 쌓이면 발생한다.
+<string>
 <string>몬스터의 약점이란
 <string>몬스터가 특정한 공격 행동을<lf>취하기 전후로<lf>'약점'을 노출하는 경우가 있다.<lf>약점은 '<REF ActionGuideDataNameText_Wp00_m1804493312>'를 사용하면<lf>볼 수 있다.<lf><lf>이 약점에 '<REF ActionGuideDataNameTextCommon_423599584>'을<lf>명중시키면 큰 기회를<lf>만들어낼 수 있다.
 <string>
@@ -353,4 +522,19 @@
 <string>몬스터 속박하기
 <string>
 <string><REF Item_IT_181> 맞히기
+<string>
+<string>광룡화란
+<string>광룡 바이러스에 감염되어<lf>흉포해진 몬스터 상태를<lf>'광룡화'라고 한다.<lf><lf>광룡화된 몬스터는 수면이나<lf>포식 등에 수반되는 자발적<lf>이동 행동을 하지 않으며,<lf>일반 개체보다 공격적으로 변한다는<lf>특징이 있다.<lf>또한, 광룡증의 영향으로<lf>일반 개체보다 오래 살지 못하며<lf>체력도 낮다.
+<string>
+<string>수호룡이란
+<string>고대 문명에 의해<lf>인공적으로 만들어진 인조룡종.<lf>생식 기능이 없고 포식 행동도<lf>하지 않지만, 용유 그 자체를<lf>에너지로 삼아 양분을 얻는다.<lf>파괴된 상처 자국이 복구되는 등<lf>일반 몬스터에 비해 높은 생명력을<lf>가졌고, 자기 보존 본능으로부터<lf>에너지를 얻을 수 있는 장소를<lf>향한 집착심과 공격성을 겸비했다.
+<string>
+<string>역전의 개체란
+<string>수많은 싸움을 거쳐온 개체.<lf>일반 개체보다 체력이나 공격력이<lf>크게 향상되어 몹시 강력하다.<lf><lf>과거 싸움의 영향인지<lf>일반 개체와 달리 처음부터<lf>몸의 다양한 부위에<lf>'역전 상처'라는 상처 자국이<lf>있다.
+<string>
+<string>역전 상처란
+<string>역전의 개체가 수많은 싸움을 거치며<lf>몸의 다양한 부위에 남은 상처.<lf><lf>역전의 개체는 일반 개체와 달리<lf>처음부터 이러한 상처가<lf>많이 보이는 것이 특징이다.<lf>공격을 가하면 상처가 점점<lf>벌어지며, 커다란 상처가 발생하면<lf>기회를 잡을 수 있다.
+<string>
+<string>사체 변화
+<string>몬스터의 사체는 시간이 지나면서<lf>'사체'에서 '부패한 사체'로<lf>변화하고, 상태에 따라 갈무리할 수<lf>있는 소재가 달라진다.<lf><lf>소형 몬스터는 부패한 사체에서<lf>'<REF Gimmick_NAME_1176528640>'이나 '<REF Item_IT_270>'로 바뀔 때도<lf>있으며, 각각 소재를 입수할 수<lf>있다.<lf>또한 수호룡도 '결정화된 사체'라는<lf>상태로 변화할 수 있고, 각각<lf>갈무리할 수 있는 소재도 달라진다.
 <string>

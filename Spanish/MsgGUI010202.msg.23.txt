@@ -2,41 +2,46 @@
 <string>Acción
 <string>Principal
 <string>Secundaria
-<string>Tras seleccionar la tecla principal o secundaria de la acción que quieres reasignar,<lf>pulsa la tecla deseada para asignarle dicha acción.<lf><COLOR preset="TXT_Accent">(No puedes reasignar <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, pues tienen funciones exclusivas al navegar por los menús).</COLOR>
-<string>Tras seleccionar la tecla principal o secundaria de la acción que quieres reasignar,<lf>pulsa la tecla deseada para asignarle dicha acción.<lf><COLOR preset="TXT_Accent">(No puedes reasignar <ICON KB_ESCAPE,KB_INSERT>, pues tiene una función exclusiva al empuñar un arma).</COLOR>
-<string><COLOR preset="TXT_Accent">Cambios no aplicados debido a un error con el ajuste en cuestión.</COLOR><lf><lf>¿Quieres volver sin aplicar los cambios?<lf><lf>Si intentas aplicar de nuevo los cambios, comprueba si las opciones con el icono <COLOR preset="TXT_Danger">( ! )</COLOR><lf>tienen alguno de estos problemas:<lf>1. Tecla asignada a varias acciones.<lf>2. Acción sin tecla asignada.
+<string>Tras seleccionar la tecla principal o secundaria de la acción que quieres reasignar,<lf>pulsa la tecla deseada para asignarle dicha acción.<lf><COLOR preset="TXT_Accent">(No puedes reasignar <ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN>, ya que tienen funciones exclusivas al navegar por los menús).</COLOR>
+<string>Tras seleccionar la tecla principal o secundaria de la acción que quieres reasignar,<lf>pulsa la tecla deseada para asignarle dicha acción.<lf><COLOR preset="TXT_Accent">(No puedes reasignar <ICON KB_ESCAPE,KB_INSERT>, ya que tienen una función exclusiva al empuñar un arma).</COLOR>
+<string><COLOR preset="TXT_Accent">Cambios no aplicados debido a un error con el ajuste en cuestión.</COLOR><lf><lf>¿Quieres volver sin aplicar los cambios?<lf><lf>Si intentas aplicar de nuevo los cambios, comprueba si las opciones con el icono <COLOR preset="TXT_Danger">( ! )</COLOR><lf>tienen alguno de estos problemas:<lf>- Tecla asignada a varias acciones.<lf>- Acción sin tecla asignada.
 <string>¿Restablecer las opciones elegidas a los ajustes predeterminados?
 <string>¿Quieres devolver las asignaciones de teclas de<lf><COLOR preset="TXT_Accent">{0}</COLOR> a sus asignaciones predeterminadas?
 <string>¿Quieres devolver las asignaciones de teclas<lf>seleccionadas a su función por defecto?
-<string>Vuelve todas a su opción por defecto.
-<string>Vuelve las elegidas a su opción por defecto.
+<string>Reinicia todas las opciones
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
+<string>Reinicia las opciones seleccionadas
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>Controles de cazador
 <string>Controles de armas
-<string>Funcionamiento de la eslinga
+<string>Controles de la eslinga
 <string>Controles sobre el Seikret
 <string>Controles de la barra de objetos
-<string>Control menú radial personalizado
+<string>Controles de atajos del teclado
 <string>Controles de cámara
 <string>Controles de chat
 <string>Menú directo
 <string>Controles del menú
 <string>Controles del mapa
+<string>Controles del modo foto
 <string>Controles sobre monstruos
 <string>Avanzar
 <string>Ir hacia atrás
 <string>Ir hacia la izquierda
 <string>Ir hacia la derecha
 <string>Esprintar (pulsar una vez)/envainar arma
-<string>Esprintar (manteniendo)/envainar arma
+<string>Esprintar (mantener)/envainar arma
 <string>Agacharse/esquivar (<ICON PAD PL_DODGE>)
-<string>Interactuar/hablar/recolectar/tallar
+<string>Interactuar/hablar/recolectar/despiezar
 <string>Usar objeto/envainar arma
 <string>Sala/campamento - cambiar PNJ objetivo: Derecha
 <string>Sala/campamento - cambiar PNJ objetivo: Izquierda
 <string>Abrir el menú de inicio
 <string>Desenvainar arma/ataque normal (<ICON PAD PL_ATTACK_00>)
 <string>Ataque especial (arma desenvainada) (<ICON PAD PL_ATTACK_01>)
-<string>Guardia/acción especial del arma (<ICON PAD PL_ATTACK_SP>)
+<string>Bloqueo/acción especial del arma (<ICON PAD PL_ATTACK_SP>)
 <string>Acciones simultáneas (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Acciones simultáneas (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_ATTACK_00>)
 <string>Acciones simultáneas (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_ATTACK_01>)
@@ -47,8 +52,8 @@
 <string>Ataque preciso (en modo preciso) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Equipar/quitar manto
 <string>Envainar arma
-<string>Tecla añadida: Apuntar eslinga (pulsar una vez) (<ICON PAD PL_AIM>)
-<string>Tecla añadida: Apuntar eslinga (mantener <ICON PAD PL_AIM>)
+<string>(Adicional) apuntar eslinga (pulsa <ICON PAD PL_AIM> una vez)
+<string>(Adicional) Apuntar eslinga (mantener <ICON PAD PL_AIM>)
 <string>Disparar eslinga (al apuntar con la eslinga/en modo preciso)
 <string>Disparar gancho de eslinga (al apuntar con la eslinga)
 <string>Notificación de lafarillo: Subir (apuntando con la eslinga)
@@ -58,26 +63,28 @@
 <string>Llamar al Seikret (automático)/cambiar a automático en montura
 <string>Llamar al Seikret (manual)/cambiar a manual en montura
 <string>Cambiar de arma
-<string>Acelerar (pulsar una vez)/velocidad máxima (mantener)
+<string>Esprint (pulsar una vez)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
+<string>Acelerar (pulsar una vez)/esprint (mantener)
 <string>Reducir velocidad (pulsar una vez)/detenerse (mantener)
-<string>Bajarse del Seikret
+<string>Desmontar del Seikret
 <string>Ver alforja del Seikret
 <string>Ver objetos: Izquierda
 <string>Ver objetos: Derecha
-<string>Ver munición/viales: Arriba
-<string>Ver munición/viales: Abajo
+<string>Ver munición/viales/cebos: Arriba
+<string>Ver munición/viales/cebos: Abajo
 <string>Mostrar objetos (pulsar una vez)
 <string>Ver objetos (mantener)/reiniciar cámara
-<string>Ver objetos a la izquierda (en la barra de objetos)
-<string>Ver objetos a la derecha (en la barra de objetos)
-<string>Ver munición/viales hacia arriba (en la barra de objetos)
-<string>Ver munición/viales hacia abajo (en la barra de objetos)
-<string>Atajos de teclado (en la barra de objetos)
+<string>Ver objetos: Izquierda (en la barra de objetos)
+<string>Ver objetos: Derecha (en la barra de objetos)
+<string>Ver munición/viales/cebos: Arriba (en la barra de objetos)
+<string>Ver munición/viales/cebos: Abajo (en la barra de objetos)
+<string>Atajos del teclado (en la barra de objetos)
 <string>Cambiar atajo (en la barra de objetos)
 <string>Expandir barra por completo (cuando se muestren los objetos)
 <string>Expandir barra por completo (en la barra de objetos) (mantener)
-<string>Mover selección: Arriba (con barra de objetos abierta)
-<string>Mover selección: Abajo (con barra de objetos abierta)
+<string>Mover selección: Arriba (con la barra de objetos ampliada)
+<string>Mover selección: Abajo (con la barra de objetos ampliada)
 <string>Abrir atajo de teclado 1
 <string>Abrir atajo de teclado 2
 <string>Abrir atajo de teclado 3
@@ -99,9 +106,10 @@
 <string>Atajo de teclado: Espacio 10
 <string>Atajo de teclado: Espacio 11
 <string>Atajo de teclado: Espacio 12
-<string>Mostrar atajos de teclado
-<string>Atajo de teclado: Cambiar set (arriba)
-<string>Atajo de teclado: Cambiar set (abajo)
+<string>Mostrar atajos del teclado
+<string>Cambiar set (modo de cuatro filas fijas): Arriba
+<string>Cambiar set (modo de cuatro filas fijas): Abajo
+<string>
 <string>Controles de cámara: Arriba
 <string>Controles de cámara: Izquierda
 <string>Controles de cámara: Abajo
@@ -118,16 +126,17 @@
 <string>Conjuntos de poses
 <string>Lista de miembros
 <string>Lista de chat de voz
-<string>Notificaciones de invitaciones
-<string>Aviso AFK
+<string>Lista de invitaciones
+<string>Notificación de ausencia
 <string>Chat: Historial de interacción
 <string>Chat: Miembros de la sala
 <string>Chat: Miembros vinculados
 <string>Chat: Miembros de misión
 <string>Chat: Miembros de brigada
 <string>Chat: Jugador específico
-<string>Abrir mapa/abrir notificación de chat/omitir resultados
-<string>Abrir mapa completo
+<string>Abrir mapa
+<string>Abrir mapamundi
+<string>Ventana de inicio/notificaciones del chat/saltar resultados de misión
 <string>Lista de fórmulas
 <string>Abrir bolsa de objetos
 <string>Abrir bolsa de munición
@@ -139,9 +148,9 @@
 <string>Información de misión
 <string>Lanzar bengala de auxilio
 <string>Volver de la misión
-<string>Solicitar participación en la misión
+<string>Solicitudes de acceso
 <string>Info de cazador de apoyo
-<string>Resultados de la misión
+<string>Cronología de resultados
 <string>Camarada Felyne
 <string>Equipo deseado
 <string>Perfil de cazador
@@ -152,11 +161,11 @@
 <string>Recargar/aplicar o quitar vial (<ICON PAD PL_ATTACK_00>)
 <string>Apuntar arma/eslinga (pulsar <ICON PAD PL_AIM> una vez)
 <string>Apuntar arma/eslinga (mantener <ICON PAD PL_AIM>)
-<string>Tecla añadida: Apuntar arma/eslinga (pulsar <ICON PAD PL_AIM> una vez)
-<string>Tecla añadida: Apuntar arma/eslinga (mantener <ICON PAD PL_AIM>)
+<string>(Adicional) Apuntar arma/eslinga (pulsar una vez <ICON PAD PL_AIM>)
+<string>(Adicional) Apuntar arma/eslinga (mantener <ICON PAD PL_AIM>)
 <string>Ataque preciso (al apuntar/modo preciso) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Bloqueo/acción especial del arma (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
-<string>Cambiar de modo
+<string>Cambiar modo
 <string>Envainar arma
 <string>Disparar munición de eslinga (al apuntar con la eslinga/arma)
 <string>Ver objetos (mantener)/reiniciar cámara
@@ -175,11 +184,12 @@
 <string>Acercar vista
 <string>Alejar vista
 <string>Submenú
-<string>Registrar/usar set
+<string>Gestionar sets
 <string>Cambiar columna
 <string>Mostrar filtro
 <string>Ordenar opciones/lista
 <string>Cambiar visualización de opciones/lista
+<string>Omitir resultados/cinemática
 <string>Navegar mapa de campo: Arriba
 <string>Navegar mapa de campo: Abajo
 <string>Navegar mapa de campo: Izquierda
@@ -195,8 +205,17 @@
 <string>Mapa de campo: Modo de rotación (mantener)
 <string>Mapa de campo: Restablecer posición del cursor
 <string>Cambiar de vista de mapa
+<string>Cerrar mapa de campo
 <string>Mapa de campo: Elegir vista parcial/pantalla completa
-<string>Mapa de campo: Resumen de entorno
+<string>Mapa de campo: Entorno
+<string>Mover la cámara: hacia atrás
+<string>Mover la cámara: hacia delante
+<string>Mover la cámara: izquierda
+<string>Mover la cámara: derecha
+<string>Ajustar posición cámara: arriba
+<string>Ajustar posición cámara: abajo
+<string>Ajustar posición cámara: izquierda
+<string>Ajustar posición cámara: derecha
 <string>Cuchillada débil
 <string>Cuchillada fuerte
 <string>Ataque con arma
@@ -209,16 +228,20 @@
 <string>Armas a distancia
 <string>Duplicar perfil
 <string>Eliminar perfil
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
 <string>¿Para qué tipo de arma quieres crear un perfil?<lf><COLOR preset="TXT_Accent">(Puedes crear un perfil para cada tipo de arma).</COLOR>
 <string>¿A qué perfil de tipo de arma quieres cambiar?<lf><COLOR preset="TXT_Accent">(Puedes crear un perfil para cada tipo de arma).</COLOR>
 <string>¿Para qué tipo de arma quieres duplicar el perfil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Si el perfil ya se ha creado, se sobrescribirá. De lo contrario, se creará un nuevo perfil).</COLOR>
-<string>¿Quieres eliminar el perfil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Al hacerlo, se aplicará el perfil {1} en lugar de {0})</COLOR>
+<string>¿Quieres eliminar el perfil <COLOR preset="TXT_Accent">{0}</COLOR>?<lf><COLOR preset="TXT_Accent">(Al hacerlo, se aplicará el perfil {1}<lf>en lugar de {0}).</COLOR>
 <string>¿Quieres sobrescribir el perfil <COLOR preset="TXT_Accent">{0}</COLOR>?
-<string>¿Guardar los cambios y regresar a las opciones?
+<string>¿Quieres guardar los cambios?
 <string>Guardar y volver
 <string>Descartar cambios y volver
 <string><REF RefButton_0011>
-<string>¿Quieres aplicar encargos clave<lf>existentes a este nuevo perfil?<lf>(Si no lo haces, el nuevo perfil será<lf>creado con ajustes por defecto.)
+<string>¿Quieres aplicar las asignaciones de teclas<lf>existentes a este nuevo perfil? (Si no lo haces,<lf>el nuevo perfil se creará con los ajustes por<lf>defecto).
 <string><REF RefButton_0000>
 <string><REF RefButton_0001>
 <string><REF RefButton_0012>

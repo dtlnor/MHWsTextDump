@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Doppie lame
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>Un avvio di combo di base.<lf><lf>Premi <ICON WP02 PL_ATTACK_00> per eseguire doppio fendente<lf>di ritorno, poi premi di nuovo <ICON WP02 PL_ATTACK_00><lf>per eseguire fendente rotante.<lf><lf>
+<string>Un avvio di combo di base.<lf><lf>Premi <ICON WP02 PL_ATTACK_00> per eseguire doppio fendente<lf>di ritorno, poi premi di nuovo <ICON WP02 PL_ATTACK_00><lf>per eseguire fendente rotante.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -531,22 +531,126 @@
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
 <string>Un attacco esibizione speciale che<lf>può che può generare<lf>un attacco di reazione<lf>. Grazie ai suoi<lf>danni elevati è utile anche come<lf>attacco normale.
 <string>
+<string>Un attacco esibizione unico e potente<lf>che colpisce più volte. Colpire un<lf>mostro con la parte finale<lf>dell'attacco scatenerà un'onda sonora<lf>perforante che infligge danni elevati.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1842698112>
+<string>Un'esibizione speciale che fa<lf>recuperare tanta salute. È molto<lf>potente ma ti renderà molto<lf>vulnerabile, quindi programma<lf>attentamente il suo utilizzo.
+<string>
 <string>Effetti melodia
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Aumenta la velocità di movimento.<lf>Effettuare un bis di questa melodia<lf>aumenterà anche il tuo attacco e<lf>impedirà agli attacchi di essere deviati.
 <string>
+<string><ICON ST_RESIST_WIND> <REF MusicSkillDataText_Wp05_33>/<ICON ST_RESIST_WIND_HIGH> <REF MusicSkillDataText_Wp05_34>
+<string>Protegge dalla pressione del vento.
+<string>
+<string><ICON ST_RESIST_STUN> <REF MusicSkillDataText_Wp05_32>
+<string>Previene lo stordimento.
+<string>
+<string><ICON ST_RESIST_PARALYSIS> <REF MusicSkillDataText_Wp05_31>
+<string>Previene la paralisi.
+<string>
+<string><ICON ST_RESIST_NOISE> <REF MusicSkillDataText_Wp05_28>/<ICON ST_RESIST_NOISE_HIGH> <REF MusicSkillDataText_Wp05_29>
+<string>Protegge dai ruggiti dei mostri.
+<string>
+<string><ICON ST_RESIST_QUAKE> <REF MusicSkillDataText_Wp05_30>
+<string>Protegge dai sussulti del terreno.
+<string>
+<string><ICON ST_ARMOR> <REF MusicSkillDataText_Wp05_37>
+<string>Previene le respinte causate dagli attacchi.
+<string>
+<string><ICON ST_RESIST_GROUND> Annulla danni ambientali
+<string>Annulla i danni subiti dalla lava<lf>e dal terreno aguzzo, e protegge<lf>dagli effetti negativi del caldo<lf>o del freddo intenso.
+<string>
+<string><ICON ST_RESIST_MUD> Mobilità acquatica/fango
+<string>Impedisce di essere rallentati<lf>dalle acque profonde o dal petrolio.<lf>Annulla anche gli effetti delle onde<lf>create dai mostri.
+<string>
+<string><ICON ST_RESIST_DEBUF> <REF MusicSkillDataText_Wp05_38>
+<string>Annulla tutte le alterazioni di stato.
+<string>
+<string><ICON ST_SPIRIT> <REF MusicSkillDataText_Wp05_17>
+<string>Fornisce una probabilità<lf>di ridurre i danni subiti.
+<string>
+<string><ICON ST_POWER_ELEMENT_UP_HORN> <REF MusicSkillDataText_Wp05_13>
+<string>Incrementa la potenza elementale della<lf>tua arma.
+<string>
+<string><ICON ST_POWER_DEBUF_UP_HORN> <REF MusicSkillDataText_Wp05_14>
+<string>Incrementa la potenza degli attacchi<lf>con alterazioni di stato inflitti ai mostri.
+<string>
+<string><ICON ST_RESIST_ELEMENT> <REF MusicSkillDataText_Wp05_39>
+<string>Annulla i malus elementali.
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Velocità recupero (L)/Velocità recupero (S)
+<string>Incrementa la velocità naturale<lf>con cui la zona rossa della barra<lf>salute si rigenera.
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Riduce consumo resistenza (S)/(L)
+<string>Riduce il consumo di resistenza.
+<string>
 <string><ICON ST_POWER_UP_HORN> <REF MusicSkillDataText_Wp05_11>/<REF MusicSkillDataText_Wp05_12>
 <string>Incrementa l'attacco.
 <string>
+<string><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_15>/<REF MusicSkillDataText_Wp05_16>
+<string>Incrementa la difesa.
+<string>
+<string>Recupero salute (S)/Recupero salute (M)/Recupero salute (L)
+<string>Fa recuperare la salute quando<lf>si attiva un effetto melodia.
+<string>
 <string><ICON ST_DEFECE_FIRE> Resistenza fuoco (S)/<ICON ST_DEFECE_FIRE_HIGH> Resistenza fuoco (L)
 <string>Incrementa la resistenza all'elemento<lf>fuoco e protegge dal malus da fuoco.
+<string>
+<string><ICON ST_DEFECE_WATER> Resistenza acqua (S)/<ICON ST_DEFECE_WATER_HIGH> Resistenza acqua (L)
+<string>Incrementa la resistenza all'elemento<lf>acqua e protegge dal malus da acqua.
+<string>
+<string><ICON ST_DEFECE_THUNDER> Resistenza tuono (S)/<ICON ST_DEFECE_THUNDER_HIGH> Resistenza tuono (L)
+<string>Incrementa la resistenza all'elemento<lf>tuono e protegge dal malus da tuono.
+<string>
+<string><ICON ST_DEFECE_ICE> Resistenza ghiaccio (S)/<ICON ST_DEFECE_ICE_HIGH> Resistenza ghiaccio (L)
+<string>Incrementa la resistenza all'elemento<lf>ghiaccio e protegge dal malus da ghiaccio.
+<string>
+<string><ICON ST_DEFECE_DRUGON> Resistenza drago (S)/<ICON ST_DEFECE_DRUGON_HIGH> Resistenza drago (L)
+<string>Incrementa la resistenza all'elemento<lf>drago e protegge dal malus da drago.
+<string>
+<string><ICON ST_SOUND_BARRIER> <REF MusicSkillDataText_Wp05_44>
+<string>Riduce i danni per una volta e annulla<lf>la pressione del vento, i sussulti<lf>del terreno e i ruggiti dei mostri<lf>per una volta.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_42>
+<string>Incrementa l'attacco e la difesa.
+<string>
+<string><ICON ST_CRITICAL_UP> <REF MusicSkillDataText_Wp05_43>
+<string>Incrementa l'affinità. Fa recuperare<lf>leggermente la salute quando si attiva.
+<string>
+<string>Recupero salute (S) + Antidoto/Recupero salute (S) + Antidoto
+<string>Fa recuperare salute e rimuove il veleno<lf>attivando effetti melodia.
+<string>
+<string><REF MusicSkillDataText_Wp05_40>
+<string>Crea l'effetto di un baccello<lf>sonico nelle vicinanze.
+<string>
+<string><REF MusicSkillDataText_Wp05_41>
+<string>Estende la durata degli<lf>effetti causati da tutte le melodie.
+<string>
+<string>Ripristina acutezza
+<string>Ripristina una certa quantità di<lf>acutezza delle armi quando si attiva<lf>un effetto melodia.
 <string>
 <string>Onda eco
 <string>Un effetto melodia che infligge danni.<lf><lf>Ogni corno da caccia produce un<lf>effetto diverso. Alcuni infliggono<lf>danni contundenti o da taglio, mentre<lf>altri infliggono danni elementali<lf>e alterazioni di stato.
 <string>
 <string>Effetti di Bolla di eco
+<string><ICON ST_HEAL_CONTINUE> Rigenerazione salute
+<string>Fa recuperare gradualmente salute.
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Rigenerazione resistenza
+<string>Ripristina costantemente la resistenza.
+<string>
 <string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Aumenta schivata/movimento
 <string>Incrementa la schivata e la velocità<lf>dei movimenti.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_CRITICAL_UP> <REF HibikiDataText_Wp05_4>
+<string>Incrementa l'attacco e l'affinità.
+<string>
+<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP> <REF HibikiDataText_Wp05_5>
+<string>Incrementa la difesa fisica<lf>ed elementale.
+<string>
+<string><ICON ST_RESIST_DEBUF> Annulla alterazioni di stato
+<string>Rimuove e previene varie<lf>alterazioni di stato e malus.
 <string>
 <string>Combo base
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -627,6 +731,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
+<string><REF ActionGuideDataNameText_Wp06_1549684992>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>Una guardia che attiva un contrattacco<lf>automatico dopo aver parato un attacco.<lf>Tieni premuto <ICON WP06 PL_ATTACK_SP> o <ICON WP06 PL_ATTACK_01> per caricare e,<lf>se rilasci al momento giusto in risposta<lf>a un attacco in arrivo, innescherai un<lf>doppio contro affondo. Durante un<lf>contrattacco caricato, puoi passare alla<lf>guardia forte con <ICON WP06 PL_ATTACK_SP><ICON PLUS><ICON WP06 PL_DODGE>. La guardia<lf>forte riduce notevolmente le reazioni<lf>della guardia, al costo di prosciugare<lf>la tua resistenza mentre sei in posizione.
+<string>Il contrattacco dopo una guardia<lf>forte aumenta la sua potenza in<lf>base al numero di attacchi parati<lf>e alla loro forza.
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
@@ -683,7 +791,7 @@
 <string>Contrattacco dopo una guardia riuscita
 <string><REF ActionGuideDataNameText_Wp06_m222102848>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Un contrattacco disponibile dopo<lf>una guardia eseguita contro<lf>l'attacco di un mostro.<lf><lf>Eseguire con successo una guardia<lf>perfetta per potenziare affondo<lf>punitivo in un gran affondo punitivo.
+<string>Un contrattacco disponibile dopo<lf>una guardia eseguita contro<lf>l'attacco di un mostro.<lf><lf>Esegui con successo una guardia<lf>perfetta per potenziare gli attacchi<lf>successivi.
 <string>
 <string><REF ActionGuideDataNameText_Wp06_245901408>
 <string><ICON WP06 PL_ATTACK_00>
@@ -859,9 +967,17 @@
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Premi ripetutamente <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> dopo una scarica<lf>elementale per un attacco conclusivo<lf>esplosivo. Dopo l'esplosione passerai<lf>automaticamente in modalità ascia.
 <string>
+<string><REF ActionGuideDataNameText_Wp08_52943932>
+<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>Sferra una scarica zero, eseguendo una<lf>scarica elementale in stato<lf>amplificato. Una volta afferrato il<lf>fianco del mostro, usa <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> per eseguire<lf>una scarica zero conclusiva. Alla fine,<lf>l'arma tornerà in modalità ascia.
+<string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Un attacco potente disponibile in<lf>modalità spada. Se lo usi in uno stato<lf>amplificato, si verificherà<lf>un'esplosione che infligge danni<lf>extra. Dopo l'attacco passerai<lf>in modalità ascia.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_26943142>
+<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>Un attacco potente disponibile<lf>solo in uno stato amplificato.<lf><lf>Usa <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> per far seguire fendente pieno<lf>liberato a una scarica elementale.<lf>Dopo l'attacco passerai<lf>in modalità ascia.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -869,7 +985,7 @@
 <string><INPUTMSG MsgGUI600200_01_023_01>
 <string><REF ActionGuideDataNameText_Wp08_486853024>
 <string><ICON WP08 PL_AIM><ICON PLUS><ICON WP08 PL_ATTACK_SP_B>
-<string>Un fendente efficace contro<lf>le ferite.<lf><lf>Colpire la ferita o il punto debole<lf>di un mostro ti permette di infliggere<lf>danni multipli che si susseguono<lf>in una scarica elementale conclusiva, infliggendo<lf>danni gravi. In alternativa, usa <ICON WP08 PL_ATTACK_SP><lf>a metà dell'attacco per trasformarlo in<lf>Modalità ascia per concludere con un<lf>attacco conclusivo ascia.
+<string>Un fendente efficace contro le ferite.<lf><lf>Colpire la ferita o il punto debole di<lf>un mostro ti permette di infliggere<lf>danni multipli che si susseguono in<lf>una scarica elementale conclusiva,<lf>infliggendo gravi danni.<lf>In alternativa, usa <ICON WP08 PL_ATTACK_SP> a metà<lf>dell'attacco per passare in Modalità<lf>ascia e finire con un attacco<lf>conclusivo ascia.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m694198912>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -950,7 +1066,7 @@
 <string><ICON WP_CHARGEBLADE> Lama caricata
 <string><REF ActionGuideDataNameText_Wp09_m584458432>
 <string><ICON WP09 PL_ATTACK_00>
-<string>Un avvio di combo di base.<lf><lf>Premi <ICON WP09 PL_ATTACK_00> per concatenarlo con spada:<lf>fendente di ritorno, poi premi di<lf>nuovo <ICON WP09 PL_ATTACK_00> per spada: fendente rotante.
+<string>Un avvio di combo di base.<lf><lf><ICON WP09 PL_ATTACK_00> Spada: finta →<lf><ICON WP09 PL_ATTACK_00> Spada: fendente di ritorno →<lf><ICON WP09 PL_ATTACK_00> Spada: fendente rotante.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
@@ -1001,18 +1117,18 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string><ICON WP09 PL_ATTACK_01> Ascia: turbine elementale  →<lf><ICON WP09 PL_ATTACK_01> Ascia: turbine elementale<lf>Attacco concatenato.<lf><lf>Tieni premuto<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> o <ICON WP09 PL_ATTACK_01> mentre sei in modalità ascia<lf>potenziata per scatenare un attacco dai<lf>colpi multipli che infligge gravi<lf><lf>danni. Premi <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con bonus elementale) per<lf>eseguire ascia: turbine elementale<lf>potenziato o <ICON WP09 PL_ATTACK_SP> (mentre prepari ascia:<lf>turbine elementale) per eseguire<lf>un turbine elementale che attiva<lf>un bonus elementale.
+<string>Ascia: turbine elementale può essere<lf>concatenato con <ICON WP09 PL_ATTACK_01> in Ascia: turbine<lf>elementale concatenato.<lf><lf>Tieni premuto<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> o <ICON WP09 PL_ATTACK_01> mentre sei<lf>in modalità ascia potenziata per scatenare<lf>un attacco dai colpi multipli che infligge<lf>gravi danni.<lf><lf>Premi <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con bonus elementale)<lf>per ascia: turbine elementale potenziato<lf>o <ICON WP09 PL_ATTACK_SP> (mentre prepari ascia: turbine<lf>elementale) per un turbine elementale<lf>che attiva un bonus elementale.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>Un attacco che ti farà passare dalla<lf>modalità spada alla modalità ascia.
+<string>Un attacco che ti farà passare dalla<lf>modalità ascia alla modalità spada.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
 <string>Un fendente efficace contro le ferite.<lf>Esegue un attacco in tuffo con spada<lf>nelle modalità spada o ascia. Colpire<lf>una ferita ti farà passare in modalità<lf>ascia potenziata.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m970370816> ⇔ <REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Trasforma la tua arma, cambiando<lf>la modalità. Quando lo scudo si<lf>trasforma, eseguirai automaticamente<lf>una guardia contro gli attacchi.
+<string>La lama caricata è in grado<lf>di passare dalla modalità spada<lf>alla modalità ascia. Se il tuo scudo<lf>è impugnato durante la mutazione,<lf>parerà automaticamente gli attacchi.
 <string>
 <string>Parare gli attacchi
 <string>Alcuni attacchi in modalità spada<lf>possono anche parare. Attivare una<lf>mossa mentre lo scudo è rivolto verso<lf>l'attacco in arrivo ti farà eseguire<lf>una guardia in automatico.<lf><lf>Dopo aver eseguito la guardia con uno<lf>di questi attacchi in modalità spada,<lf>premi<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con bonus elementale) per<lf>eseguire ascia: turbine<lf>elementale potenziato.
@@ -1213,6 +1329,7 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
+<string><ICON WP_LIGHTBOWGUN> Balestra leggera
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1223,7 +1340,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> dopo aver sparato
-<string>Premi <ICON WP13 PL_ATTACK_01> dopo aver sparato un tiro<lf>potente, un attacco più forte che ti fa<lf>anche recuperare più energia.<lf><lf>Non può essere concatenato con scoppio<lf>preciso né con munizioni speciali.
+<string>Premi <ICON WP13 PL_ATTACK_01> dopo aver sparato<lf>per eseguire un tiro inseguitore,<lf>un attacco più forte che ti fa anche<lf>recuperare più barra fuoco rapido.<lf><lf>Non può essere concatenato da scoppio<lf>preciso né con munizioni speciali.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
@@ -1266,6 +1383,9 @@
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
 <string>Piazza una bomba che esplode quando<lf>è colpita. Le munizioni esplosive si<lf>rigenerano gradualmente col tempo.
 <string>
+<string><REF RefEquipment_0007_03_01>
+<string>Usa <ICON WP13 PL_ATTACK_SP> per sparare un tipo di<lf>munizione speciale che si attacca ai mostri.<lf>Colpire le munizioni attaccate<lf>al mostro incrementerà i danni<lf>che infliggeranno all'esplosione.<lf><lf>Le munizioni si rigenerano<lf>gradualmente col tempo.
+<string>
 <string><ICON WP_HEAVYBOWGUN> Balestra pesante
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
@@ -1304,8 +1424,14 @@
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Munizioni speciali che si possono<lf>usare in modalità vampata.<lf><lf>Usa <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> per sparare continuamente,<lf>incrementando la potenza ogni volta<lf>che colpisci un bersaglio.
 <string>
+<string><REF ActionGuideDataNameText_Wp12_195481808>
+<string>Munizioni speciali che si possono<lf>usare in modalità vampata.<lf><lf>Queste munizioni trafiggono lentamente<lf>i bersagli e più li colpiscono<lf>più diventano potenti.
+<string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
 <string>Munizioni speciali che<lf>si possono usare in modalità vampata.<lf><lf>Scatenano un attacco ravvicinato con<lf>un effetto di reazione. Premi e tieni<lf>premuto <ICON WP12 PL_ATTACK_00> per aumentare<lf>la potenza quando spari.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1481543424>
+<string>Munizioni speciali che<lf>si possono usare in modalità vampata.<lf><lf>Scatenano un attacco a medio raggio<lf>che colpisce un'area ampia.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
 <string>Colpisci la ferita o il punto debole<lf>di un mostro per provocare<lf>un'esplosione perforante, infliggendo<lf>danni notevoli.<lf><lf>Le munizioni si rigenerano<lf>automaticamente col tempo.
@@ -1318,6 +1444,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>Un attacco che scaglia rapidamente<lf>frecce in un'area ampia.<lf>Non consuma resistenza.
 <string>
+<string><ICON WP_BOW> Arco
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string>Estrai l'arco per scagliare frecce.<lf><lf>Tieni premuto <ICON WP11 PL_ATTACK_SP><lf>per aumentare il livello di carica.<lf><lf>Più il livello di carica è alto,<lf>più i tuoi attacchi saranno potenti.<lf><lf>Dopo aver sparato, premi <ICON WP11 PL_ATTACK_01><lf>per eseguire tiro potente.

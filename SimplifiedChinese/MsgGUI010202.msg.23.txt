@@ -9,7 +9,11 @@
 <string>要将<COLOR preset="TXT_Accent">{0}</COLOR>的所有键位恢复到初始设置吗？
 <string>要将选中的键位恢复到初始设置吗？
 <string>初始化全部项目
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
 <string>初始化选中的项目
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>猎人操作
 <string>武器操作
 <string>投射器操作
@@ -21,6 +25,7 @@
 <string>快捷菜单
 <string>菜单操作
 <string>地图操作
+<string>拍照模式操作
 <string>骑乘怪物时的操作
 <string>向前移动
 <string>向后移动
@@ -36,7 +41,7 @@
 <string>打开开始菜单
 <string>拔刀／普通攻击（<ICON PAD PL_ATTACK_00>）
 <string>特殊攻击（拔刀后）（<ICON PAD PL_ATTACK_01>）
-<string>防御／武器特殊动作（<ICON PAD PL_ATTACK_SP>）
+<string>格挡／武器特殊动作（<ICON PAD PL_ATTACK_SP>）
 <string>同时按下动作（<ICON PAD PL_ATTACK_00> + <ICON PAD PL_ATTACK_01>）
 <string>同时按下动作（<ICON PAD PL_ATTACK_SP> + <ICON PAD PL_ATTACK_00>）
 <string>同时按下动作（<ICON PAD PL_ATTACK_SP> + <ICON PAD PL_ATTACK_01>）
@@ -58,20 +63,22 @@
 <string>召唤<REF RefGeneral_0014_01>（自动移动）／骑乘时切换至自动移动
 <string>召唤<REF RefGeneral_0014_01>（手动移动）／骑乘时切换至手动移动
 <string>切换武器
+<string>全速前进（按1次）
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
 <string>加速（按1次）／全速前进（长按）
 <string>减速（按1次）／急停（长按）
 <string>从<REF RefGeneral_0014_01>上下来
 <string>查看<REF RefGeneral_0014_01>道具袋
 <string>切换道具：左
 <string>切换道具：右
-<string>选择弹药／瓶：上
-<string>选择弹药／瓶：下
+<string>选择弹药／瓶／拟饵（上）
+<string>选择弹药／瓶／拟饵（下）
 <string>道具选择模式（按1次）
 <string>道具选择模式（长按）／重置视角
 <string>道具选择模式时：切换道具（左）
 <string>道具选择模式时：切换道具（右）
-<string>道具选择模式时：选择弹药／瓶（上）
-<string>道具选择模式时：选择弹药／瓶（下）
+<string>道具选择模式时：选择弹药／瓶／拟饵（上）
+<string>道具选择模式时：选择弹药／瓶／拟饵（下）
 <string>道具选择模式时：自定义快捷方式
 <string>道具选择模式时：快捷盘移动
 <string>道具选择模式时：道具栏全展开
@@ -100,8 +107,9 @@
 <string>键盘专用快捷方式：栏位 11
 <string>键盘专用快捷方式：栏位 12
 <string>显示自定义快捷方式
-<string>自定义快捷方式：快捷盘移动（上）
-<string>自定义快捷方式：快捷盘移动（下）
+<string>自定义快捷方式（4列）：快捷盘移动（上）
+<string>自定义快捷方式（4列）：快捷盘移动（下）
+<string>
 <string>视角操作：上
 <string>视角操作：左
 <string>视角操作：下
@@ -126,9 +134,10 @@
 <string>聊天：任务成员
 <string>聊天：小队成员
 <string>聊天：特定玩家
-<string>打开地图／开启聊天通知／跳过结算
+<string>打开地图
 <string>打开全局地图
-<string>从列表调和
+<string>打开聊天通知或任务准备画面／跳过任务相关项目
+<string>从列表调合
 <string>查看道具袋
 <string>查看弹药袋
 <string>查看瓶袋
@@ -155,7 +164,7 @@
 <string>追加键：武器／投射器的瞄准线（按1次）（<ICON PAD PL_AIM>）
 <string>追加键：武器／投射器的瞄准线（长按）（<ICON PAD PL_AIM>）
 <string>集中弱点攻击（瞄准／集中模式）（<ICON PAD PL_ATTACK_SP_B>）
-<string>防御／武器特殊动作（<ICON PAD PL_ATTACK_00> + <ICON PAD PL_ATTACK_01>）
+<string>格挡／武器特殊动作（<ICON PAD PL_ATTACK_00> + <ICON PAD PL_ATTACK_01>）
 <string>切换模式
 <string>纳刀
 <string>投射器发射（武器／投射器瞄准时）
@@ -175,11 +184,12 @@
 <string>放大模型
 <string>缩小模型
 <string>子菜单
-<string>登记／调用个人组合
+<string>管理个人组合
 <string>切换操作列
 <string>筛选显示项目
 <string>排序项目或列表
 <string>切换项目或列表显示方式
+<string>跳过结算画面／过场动画
 <string>移动原野地图：上
 <string>移动原野地图：下
 <string>移动原野地图：左
@@ -195,8 +205,17 @@
 <string>原野地图：旋转模式（长按）
 <string>原野地图：重置光标位置
 <string>原野地图：切换全局地图
+<string>关闭原野地图
 <string>原野地图：切换全屏／半屏
 <string>原野地图：查看环境概要
+<string>移动镜头（画面深处）
+<string>移动镜头（画面近处）
+<string>移动镜头（左）
+<string>移动镜头（右）
+<string>调整相机位置（上）
+<string>调整相机位置（下）
+<string>调整相机位置（左）
+<string>调整相机位置（右）
 <string>小刀弱攻击
 <string>小刀强攻击
 <string>武器攻击
@@ -209,11 +228,15 @@
 <string>远程武器通用
 <string>复制配置方案
 <string>删除配置方案
-<string>要创建哪种武器的配置方案？<lf><COLOR preset="TXT_Accent">（每种武器可创建1个档案）</COLOR>
-<string>要变更成哪种武器的配置方案？<lf><COLOR preset="TXT_Accent">（每种武器可创建1个档案）</COLOR>
-<string>要将<COLOR preset="TXT_Accent">{0}</COLOR>的配置方案复制到哪种武器？<lf><COLOR preset="TXT_Accent">（已创建档案时，现有档案将会被覆盖。如尚未创建，则将会生成新档案）</COLOR>
-<string>要删除<COLOR preset="TXT_Accent">{0}</COLOR>的配置方案吗？<lf><COLOR preset="TXT_Accent">（删除后，{0}将应用{1}档案）</COLOR>
-<string>将覆盖<COLOR preset="TXT_Accent">{0}</COLOR>的档案，是否确定？
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
+<string>要创建哪种武器的配置方案？<lf><COLOR preset="TXT_Accent">（每种武器可创建1个方案）</COLOR>
+<string>要变更成哪种武器的配置方案？<lf><COLOR preset="TXT_Accent">（每种武器可创建1个方案）</COLOR>
+<string>要将<COLOR preset="TXT_Accent">{0}</COLOR>的配置方案复制到哪种武器？<lf><COLOR preset="TXT_Accent">（已创建方案时，现有方案将会被覆盖。如尚未创建，则将会生成新方案）</COLOR>
+<string>要删除<COLOR preset="TXT_Accent">{0}</COLOR>的配置方案吗？<lf><COLOR preset="TXT_Accent">（删除后，{0}将应用{1}方案）</COLOR>
+<string>将覆盖<COLOR preset="TXT_Accent">{0}</COLOR>的方案，是否确定？
 <string>要保存编辑内容吗？
 <string>保存并返回
 <string>放弃变更并返回

@@ -1,4 +1,4 @@
-﻿<string>Please enter your date of birth.
+﻿<string>Please enter your age. We are asking this for our internal<lf>operations regarding legal compliance.
 <string>Year
 <string>Month
 <string>Day
@@ -15,4 +15,5 @@
 <string>October
 <string>November
 <string>December
-<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format="MMMM Do, YYYY"></COLOR><lf>Is your date of birth correct?<lf><lf>Note: This setting will not affect gameplay, however<lf>it cannot be changed later.
+<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format="MMMM D, YYYY"></COLOR><lf>Is your date of birth correct?<lf><lf>Note: This setting will not affect gameplay; however,<lf>it cannot be changed later.
+<string><COLOR preset="TXT_Accent"><DATETIME year={0} month={1} day={2} format="MMMM D, YYYY"></COLOR><lf>Is your date of birth correct?

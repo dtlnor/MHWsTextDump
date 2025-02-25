@@ -11,7 +11,7 @@
 <string>قوة التحمل
 <string>الهجوم
 <string>الدفاع
-<string>مقاومة العناصر
+<string>مقاومة عناصرية
 <string>تأثيرات الوضعية
 <string>مهارات الطعام
 <string>بدء الطهي
@@ -33,10 +33,13 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>هل <LSNR "تريد" "تريدين"> بدء طهي الوجبة المفضلة المحددة؟
 <string>لا يمكن طهي هذه الوجبة<lf>لعدم وجود ما يكفي من المكونات.
 <string>هل <LSNR "تريد" "تريدين"> إلغاء التغييرات؟ (لن يتم حفظ التغييرات).
-<string>هل <LSNR "تريد" "تريدين"> حذف الإمداد المحفوظ؟
+<string>هل <LSNR "تريد" "تريدين"> حذف التجهيزات المحفوظة؟
 <string>{0}+{1}
 <string>{0}+{1}　{2}+{3}
 <string><COLOR preset="TXT_Danger">لا يمكن طهي اللحم لعدم وجود لحم نيء.</COLOR>
+<string><COLOR preset="TXT_Danger">المكونات غير كافية.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن طهي اللحم لأنه لا توجد مساحة كافية في حقيبة <LSNR "عناصركَ" "عناصركِ">.</COLOR>

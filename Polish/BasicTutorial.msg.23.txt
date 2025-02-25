@@ -27,12 +27,12 @@
 <string>Wybierz przedmiot, zawołanie itd.
 <string><INPUTMSG MsgGUI600200_00_009>
 <string>
-<string>Wybierz zestaw menu kołowego
+<string>Wybierz skrót menu kołowego
 <string><INPUTMSG MsgGUI600200_00_010>
 <string>
 <string>Wyświetl menu kołowe (klawiatura)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
-<string><COLOR preset="TXT_Danger">Wyświetlanie menu kołowego z klawiatury</COLOR><lf>Naciśnij<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, aby wyświetlić własne menu kołowe.<lf><lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla skrót.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> wyświetla 4 skróty.<lf><lf>Użyj<ICON MKB UI_PC_SHORTCUT_KEY_00> – <ICON MKB UI_PC_SHORTCUT_KEY_11>, aby wybrać przedmiot,<lf>zawołanie itd.<lf>Użyj <ICON MKB UI_PC_SHORTCUT_PALLET_00> – <ICON MKB UI_PC_SHORTCUT_PALLET_07>, aby przełączać się między skrótami.<lf><lf>Menu kołowe można edytować w opcji Zmodyfikuj<lf>menu kołowe w menu startowym.
+<string><COLOR preset="TXT_Danger">Wyświetlanie menu kołowego z klawiatury</COLOR><lf>Naciśnij<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, aby wyświetlić<lf>własne menu kołowe.<lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla skrót.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> wyświetla 4 skróty.<lf><lf>Użyj <ICON MKB UI_PC_SHORTCUT_KEY_00> – <ICON MKB UI_PC_SHORTCUT_KEY_11>, aby wybrać przedmiot,<lf>zawołanie itd. Użyj <ICON MKB UI_PC_SHORTCUT_PALLET_00> – <ICON MKB UI_PC_SHORTCUT_PALLET_07>, aby<lf>przełączać się między skrótami.<lf>Menu kołowe można edytować w opcji Zmodyfikuj<lf>menu kołowe w menu startowym.
 <string>
 <string>Wybierz przedmiot, zawołanie itd. (klawiatura)
 <string><ICON MKB UI_PC_SHORTCUT_KEY_00><ICON MKB UI_PC_SHORTCUT_KEY_01><ICON MKB UI_PC_SHORTCUT_KEY_02><ICON MKB UI_PC_SHORTCUT_KEY_03><ICON MKB UI_PC_SHORTCUT_KEY_04><ICON MKB UI_PC_SHORTCUT_KEY_05><ICON MKB UI_PC_SHORTCUT_KEY_06><ICON MKB UI_PC_SHORTCUT_KEY_07><ICON MKB UI_PC_SHORTCUT_KEY_08><ICON MKB UI_PC_SHORTCUT_KEY_09><ICON MKB UI_PC_SHORTCUT_KEY_10><ICON MKB UI_PC_SHORTCUT_KEY_11>
@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,13 +112,26 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
-<string><REF Item_IT_182>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
+<string>Nóż do rzucania
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
@@ -104,17 +139,20 @@
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
 <string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
+<string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
-<string>Zwierzę do jazdy otrzymane<lf>od mieszkańców Kunafy. Jego niezrównana<lf>mobliność pomoże przyspieszyć podróże.<lf>Jego silny węch automatycznie poprowadzi je<lf>do dowolnego punktu wyznaczonego na mapie.<lf><lf>Procy i niektórych przedmiotów można używać<lf>podczas jazdy, co sprawia, że to idealny moment<lf>na regenerację zdrowia, naostrzenie broni<lf>lub zebranie przedmiotów. Seikret będzie też<lf>automatycznie unikać ataków potworów<lf>pod pewnymi warunkami.
+<string>Zwierzę do jazdy otrzymane od mieszkańców<lf>Kunafy. Jego niezrównana mobliność pomoże<lf>przyspieszyć podróże. Jego silny węch<lf>automatycznie poprowadzi je do dowolnego<lf>punktu wyznaczonego na mapie.<lf><lf>Procy i niektórych przedmiotów można używać<lf>podczas jazdy, co sprawia, że to idealny moment<lf>na regenerację zdrowia, naostrzenie broni<lf>lub zebranie przedmiotów. Seikret będzie też<lf>automatycznie unikać ataków potworów<lf>pod pewnymi warunkami.
 <string>
 <string><REF RefMenu_061> (Aut. ruch)
 <string><INPUTMSG MsgGUI600200_00_011>
-<string>Możesz wezwać Seikreta, jeśli będziecie<lf>oddzieleni, lub wskoczyć na niego, jeśli<lf>jest obok ciebie. Gdy na nim jesteś,<lf>Seikret będzie automatycznie wyszukiwać<lf>wszystko, do czego jest ustawiony cel<lf>na mapie.
+<string>Możesz wezwać Seikreta, jeśli<lf>się rozdzielicie lub wskoczyć<lf>na niego, jeśli jest obok ciebie.<lf>Gdy już na nim jesteś, Seikret<lf>będzie automatycznie odnajdywać<lf>każdy ustawiony przez ciebie<lf>punkt nawigacyjny.
 <string>
-<string><REF RefMenu_061> (Ręczny ruch)
+<string><REF RefMenu_061> (Manualny ruch)
 <string><INPUTMSG MsgGUI600200_00_012>
-<string>Możesz wezwać/dosiąść Seikreta,<lf>ale nie poruszy się on automatycznie<lf>w kierunku celu. Zamiast tego<lf>sterujesz nim ręcznie.
+<string>Możesz wezwać/dosiąść Seikreta,<lf>ale nie będzie on automatycznie<lf>przemieszczał się w kierunku celu.<lf>Zamiast tego, będziesz nim sterować<lf>manualnie.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m744176512>
 <string><INPUTMSG MsgGUI600200_00_013>
@@ -131,7 +169,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>Zwiększ prędkość Seikreta,<lf>przytrzymując <ICON PL_PT_SPEED_UP>.<lf><lf>Użyj <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> lub <ICON PL_MOVE_RIGHT>, gdy Seikret<lf>biegnie, żeby wpadł w poślizg.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> podczas poślizgu da Seikretowi<lf>dodatkowe przyspieszenie!
+<string>Zwiększ prędkość Seikreta,<lf>przytrzymując <ICON PL_PT_SPEED_UP>.<lf><lf>Użyj <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> lub <ICON PL_MOVE_RIGHT>, gdy Seikret<lf>biegnie, żeby wpadł w poślizg.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> podczas poślizgu da<lf>Seikretowi dodatkowe przyspieszenie!
 <string>
 <string>Dryf
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> lub <ICON PL_MOVE_RIGHT>
@@ -153,7 +191,7 @@
 <string><INPUTMSG MsgGUI600200_00_019_01>
 <string>Atak z grzbietu / Atak z zejściem
 <string><ICON ME PL_WEAPON_ON> lub <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
-<string>Jeśli nosisz broń białą, możesz zadać<lf>atak z bliskiej odległości podczas jazdy.<lf><lf><ICON ME PL_WEAPON_ON>: zaatakuj, siedząc na Seikrecie.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: zaatakuj, zeskakując z Seikreta.
+<string>Jeśli nosisz broń białą, możesz zadać<lf>atak z bliskiej odległości podczas<lf>jazdy.<lf><lf><ICON ME PL_WEAPON_ON>: zaatakuj, siedząc na Seikrecie.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: zaatakuj, zeskakując<lf>z Seikreta.
 <string>
 <string>Dobyj broni, siedząc na Seikrecie
 <string><INPUTMSG MsgGUI600200_00_033>
@@ -168,58 +206,168 @@
 <string>Strzał z siodła
 <string><ICON RA PL_ATTACK_SP>
 <string>
-<string>Efekty
+<string>Efekty statusu
 <string><ICON ST_POWER_UP> Wzrost ataku
-<string>Zwiększa atak.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>ziarna mocy i pigułki demona<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
+<string>Zwiększa atak.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>ziarna mocy i pigułki demona<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
 <string>
 <string><ICON ST_DEFECE_UP> Wzrost obrony
-<string>Zwiększa obronę.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>adamantowe ziarna i pancerne skóry<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
+<string>Zwiększa obronę.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>adamantowe ziarna i pancerne skóry<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_CRITICAL_UP> Wzrost zgodności
+<string>Stan, w którym zwiększa się zgodność.<lf><lf>Najczęściej zdobywany przez:<lf>– aktywację umiejętności typu Podżegacz<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Wzmocnienie ataku żywiołowego
+<string>Stan, w którym zwiększa się moc żywiołu<lf>twojej broni.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Wzrost ataku ze szk. efekt.
+<string>Zwiększa siłę ataków ze szkodliwymi<lf>efektami przeciwko potworom.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Wzrost odporności na ogień
-<string>Zwiększa odporność na ogień<lf>i zapobiega pladze ognia.<lf><lf>Najczęściej zdobywany poprzez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
+<string>Zwiększa odporność na ogień<lf>i zapobiega pladze ognia.<lf><lf>Najczęściej zdobywany poprzez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Wzrost odporności na wodę
+<string>Zwiększa odporność na wodę<lf>i zapobiega pladze wody.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Wzrost odporności na pioruny
+<string>Zwiększa odporność na pioruny<lf>i zapobiega pladze pioruna.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Wzrost odporności na lód
+<string>Zwiększa odporność na lód<lf>i zapobiega pladze lodu.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Wzrost odporności na smoki
+<string>Zwiększa odporność na smoki<lf>i zapobiega pladze smoka.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_SPIRIT> Boska ochrona
+<string>Daje szansę na zmniejszenie odnoszonych<lf>obrażeń.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_HEAL_CONTINUE> Regeneracja zdrowia
+<string>Stopniowo przywraca zdrowie.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów bańki echa
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Szybkość regeneracji
+<string>Zwiększa szybkość regeneracji czerwonej<lf>części paska zdrowia.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie przedmiotów takich jak<lf>immunizator i dzikie suszone mięso<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Mniejsze zużycie wytrzymałości
+<string>Zmniejsza zużycie wytrzymałości.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie zrywnego soku<lf>– zbieranie wijoliczki<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Wzrost regeneracji wytrzymałości
+<string>Status zwiększający tempo<lf>regeneracji wytrzymałości.<lf><lf>Najczęściej zdobywany przez:<lf>– aktywację umiejętności wyposażenia
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Regeneracja wytrzymałości
+<string>Stale przywraca wytrzymałość.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów bańki echa
+<string>
+<string><ICON ST_AVOID_UP> Dłuższy okres uniku
+<string>Stan zwiększający możliwości uniku.<lf><lf>Najczęściej zdobywany przez:<lf>– aktywację umiejętności wyposażenia<lf>– używanie Efektów bańki echa
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Samodoskonalenie
-<string>Zwiększa prędkość ruchu.<lf><lf>Wielokrotne nakładanie się<lf>Efektów melodii zwiększy siłę twoich<lf>ataków i zapobiegnie odparciu ich.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Efektów bańki echa
+<string>Zwiększa prędkość ruchu.<lf><lf>Wielokrotne nakładanie się<lf>Efektów melodii zwiększy siłę twoich<lf>ataków i zapobiegnie odparciu ich.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_ARMOR> Neutralizacja odepchnięć
+<string>Zapobiega odepchnięciu<lf>po byciu trafionym.<lf><lf>Najczęściej zdobywane przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_WIND> Neutr. wiatru/<ICON ST_RESIST_WIND_HIGH> Neutr. wsz. wiatru
+<string>Zapewnia ochronę przed naporem wiatru.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_NOISE> Zat. do uszu (M)/<ICON ST_RESIST_NOISE_HIGH> Zat. do uszu (D)
+<string>Zapewnia ochronę przed rykiem potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_QUAKE> Neutralizacja wstrząsów
+<string>Zapewnia ochronę przed wstrząsami<lf>ziemi.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_STUN> Neutralizacja ogłuszenia
+<string>Zapobiega ogłuszeniu.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Neutralizacja paraliżu
+<string>Zapobiega paraliżowi.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_ELEMENT> Neutralizacja plagi
+<string>Neutralizuje wszystkie plagi żywiołów.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_RESIST_DEBUF> Neutralizacja szk. efektów
+<string>Zapobiega wszystkim szkodliwym<lf>efektom statusów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>
+<string><ICON ST_SOUND_BARRIER> Bariera akustyczna
+<string>Jednorazowo zmniejsza obrażenia<lf>oraz neutralizuje napór wiatru,<lf>wstrząsy ziemi i ryki potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_GROUND> Neutralizacja uszk. środow.
+<string>Neutralizuje obrażenia spowodowane lawą<lf>lub podłożem z kolcami, a także<lf>zapobiega negatywnym efektom<lf>intensywnego ciepła lub zimna.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_MUD> Mobilność w wodzie i oleistym mule
+<string>Zapobiega spowolnieniu przez głęboką<lf>wodę lub głęboki śnieg. Neutralizuje<lf>także efekty fal tworzonych<lf>przez potwory.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>
+<string><ICON ST_RESIST_COLD> Odporność na zimno
+<string>Neutralizuje efekty zmniejszania się<lf>maksymalnej wytrzymałości<lf>na przenikliwie zimnych obszarach.<lf><lf>Najczęściej zdobywany przez:<lf>– spożywanie gorących napojów<lf>– zbieranie żaronek kapturnic
+<string>
+<string><ICON ST_RESIST_HOT> Odporność na ciepło
+<string>Zapobiega stopniowej utracie zdrowia<lf>po narażeniu na obszary,<lf>gdzie jest wyjątkowo gorąco.<lf><lf>Najczęściej zdobywany przez:<lf>– spożywanie chłodnych napojów<lf>– zbieranie szronek kapturnic
 <string>
 <string><ICON ST_MEAL_UP> Efekty posiłków
 <string>Wskazuje, że zjedzenie posiłku<lf>wywołało efekty.<lf><lf>Najczęściej zdobywany przez:<lf>– jedzenie posiłku
 <string>
 <string><ICON ST_POISON> Zatrucie
-<string>Efekt, który powoduje utratę zdrowia<lf>wraz z upływem czasu. Występuje<lf>po zgromadzeniu odpowiedniego<lf>poziomu tego efektu.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie antidotum lub leku ziołowego<lf>– czekanie na ustąpienie efektu
+<string>Status, który powoduje utratę zdrowia<lf>wraz z upływem czasu. Występuje<lf>po zgromadzeniu odpowiedniego<lf>poziomu tego statusu.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie antidotum lub leku ziołowego<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_PARALYSIS> Paraliż
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sen
+<string>Gdy dopadnie cię senność, po krótkim<lf>czasie zaśniesz, co uniemożliwi ci<lf>poruszanie się. Dzieje się tak po<lf>zgromadzeniu odpowiedniego poziomu<lf>tego statusu.<lf><lf>Najczęściej neutralizowany przez:<lf>– wypicie napoju energetycznego przed<lf>zaśnięciem<lf>– zostanie trafionym atakiem<lf>– czekanie na ustąpienie efektu<lf>po zaśnięciu
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>Status, który detonuje eksplozję,<lf>która odrzuca cię do tyłu i zadaje<lf>obrażenia. Wyzwala się po upływie<lf>określonego czasu lub po trafieniu<lf>atakiem.<lf><lf>Najczęściej neutralizowany przez:<lf>– użycie dezodorantu<lf>– wielokrotny unik z rzędu
+<string>
+<string><ICON ST_LACERATE> Krwawienie
+<string>Status, który powoduje, że otrzymujesz<lf>obrażenia w ruchu. (Neutralizacja tego<lf>statusu tymczasowo przyspieszy naturalną<lf>regenerację).<lf><lf>Najczęściej neutralizowany przez:<lf>– jedzenie produktów na bazie mięsa<lf>lub dobrze wysmażonych steków<lf>– kucanie przez krótki czas
+<string>
 <string><ICON ST_STUN> Ogłuszenie
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Ogłuszenie błyskiem
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Pajęczyna
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Plaga mrozu
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Spadek obrony
+<string>Status, który obniża obronę,<lf>zwiększając ilość otrzymywanych<lf>obrażeń.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie adamantowego ziarna<lf>i pancernej skóry<lf>– czekanie na ustąpienie efektu
+<string>
+<string><ICON ST_BADSMELL> Smród
+<string>Status, który sprawia, że nie możesz<lf>korzystać z jedzenia i napojów.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie dezodorantu<lf>– wykonywanie uników w zbiorniku wodnym<lf>– czekanie na ustąpienie efektu
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Szał
+<string>Do infekcji dochodzi przez wydłużoną<lf>ekspozycję na szał, chyba że zadasz<lf>potworowi określoną liczbę trafień.<lf><lf>Po zainfekowaniu: zatrzymuje naturalny<lf>powrót do zdrowia i zwiększa obrażenia.<lf>Po wyleczeniu: zwiększa zgodność<lf>i zapewnia odporność na szał.<lf><lf>Możesz spowolnić rozwój wirusa,<lf>używając oczystki.
+<string>
 <string><ICON ST_FIRE> Plaga ognia
-<string>Efekt, który sprawia,<lf>że z upływem czasu tracisz zdrowie.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wykonywanie uników w zbiorniku<lf>wodnym<lf>– czekanie na ustąpienie efektu
+<string>Status, który sprawia, że z upływem<lf>czasu tracisz zdrowie.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wykonywanie uników w zbiorniku<lf>wodnym<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_WATER> Plaga wody
-<string>Efekt, który zmniejsza<lf>szybkość regeneracji wytrzymałości.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
+<string>Status, który zmniejsza szybkość<lf>regeneracji wytrzymałości.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_THUNDER> Plaga pioruna
-<string>Efekt, który zwiększa<lf>ryzyko ogłuszenia.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
+<string>Status, który zwiększa ryzyko<lf>ogłuszenia.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_ICE> Plaga lodu
-<string>Efekt, który zwiększa spadek wytrzymałości.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
+<string>Status, który zwiększa spadek<lf>wytrzymałości.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_DRUGON> Plaga smoka
-<string>Efekt, który neutralizuje<lf>właściwości żywiołu broni.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
+<string>Status, który neutralizuje właściwości<lf>żywiołu broni.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
 <string>
 <string>Wstrząs
-<string>Efekt, który ogranicza ruch.<lf>Czas trwania ograniczenia<lf>zależy od siły wstrząsu.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym atakiem
+<string>Status, który ogranicza ruch. Czas<lf>trwania ograniczenia zależy od siły<lf>wstrząsu.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym atakiem
 <string>
 <string>Ogłuszenie
-<string>Efekt, który ogranicza ruch.<lf>Czas trwania ograniczenia<lf>zależy od siły ryku.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– uderzenie w wyniku ataku
+<string>Status, który ogranicza ruch.<lf>Czas trwania ograniczenia<lf>zależy od siły ryku.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– uderzenie w wyniku ataku
 <string>
 <string>Napór wiatru
-<string>Efekt, który ogranicza ruch.<lf>Czas trwania ograniczenia<lf>zależy od siły wiatru.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– uderzenie w wyniku ataku
+<string>Status, który ogranicza ruch.<lf>Czas trwania ograniczenia<lf>zależy od siły wiatru.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– uderzenie w wyniku ataku
+<string>
+<string>Zimno
+<string>Status, który zwiększa tempo utraty<lf>maksymalnej wytrzymałości<lf>na określonych terenach.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie gorących napojów<lf>– zbieranie żaronek kapturnic
+<string>
+<string>Ciepło
+<string>Status, który powoli powoduje utratę<lf>zdrowia na określonych terenach.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie zimnych napojów<lf>– zbieranie szronek kapturnic
 <string>
 <string>Schowana broń
 <string><INPUTMSG MsgGUI600200_00_025>
@@ -234,20 +382,26 @@
 <string><INPUTMSG MsgGUI600200_00_042>
 <string>
 <string>Dobyta broń
-<string>Stan, w którym masz wyciągniętą broń.<lf><lf>Naciśnij <ICON PL_WEAPON_OFF>, aby schować broń.<lf><lf>Szczegółowe sterowanie każdą bronią<lf>można znaleźć w sekcji <lf>Sterowanie bronią w menu startowym.
+<string>Stan, w którym masz wyciągniętą broń.<lf><lf>Naciśnij <ICON PL_WEAPON_OFF>, aby schować broń.<lf><lf>Szczegółowe sterowanie każdą bronią<lf>można znaleźć tutaj:<lf>– Menu startowe → Przewodnik po grze<lf>→ Sterowanie bronią
 <string>
 <string>Schowaj broń
 <string><ICON PL_WEAPON_OFF>
 <string>
 <string>Ostrość broni
-<string>Podczas używania broni białej<lf>wyświetli się pasek ostrości, którego<lf>kolory będą informować o stanie<lf>naostrzenia broni i możliwości<lf>na przebicie twardszych części<lf>ciała potwora.<lf><lf>Atakowanie stopniowo zmniejszy<lf>naostrzenie broni. Ataki zadane <lf>tępą bronią są mniej efektywne i<lf>pawdopodobnie broń odbije się <lf>od skóry potwora.
+<string>Kiedy używasz broni białej, wyświetli<lf>się wskaźnik reprezentujący jej<lf>ostrość. Różne kolory będą wskazywać<lf>aktualny stan naostrzenia broni i jej<lf>zdolność do przebicia się przez skórę<lf>potwora.<lf><lf>Atakowanie stopniowo zmniejsza<lf>ostrość. Ataki zadane tępą bronią<lf>są mniej efektywne i prawdopodobnie<lf>broń odbije się od skóry potwora.
 <string>
 <string><REF Item_IT_21>
-<string>Ostrzałka jest przedmiotem przywracającym<lf>utraconą ostrość broni. Jest zawsze dostępna<lf>w pasku przedmiotów jako podstawowy przedmiot.<lf><lf>Można jej użyć nawet po dobyciu broni,<lf>jeśli przypiszesz ją do zmodyfikowanego<lf>menu kołowego lub skrótu.
+<string>Ostrzałka jest przedmiotem<lf>przywracającym utraconą ostrość<lf>broni. Jest zawsze dostępna<lf>w Pasku przedmiotów jako podstawowy<lf>przedmiot.<lf><lf>Można jej użyć nawet po dobyciu broni,<lf>jeśli przypiszesz ją do własnego<lf>menu kołowego lub skrótu.
+<string>
+<string>Umiejętności pancerza – rękodzieło
+<string>Rękodzieło to umiejętność wydłużająca<lf>Pasek ostrości. Po zastosowaniu kolor<lf>paska będzie zależeć od broni.<lf><lf>Szczegóły dotyczące Paska ostrości<lf>można zobaczyć w sekcji Informacje<lf>o wyposażeniu w menu startowym.
+<string>
+<string>Umiejętności pancerza – lakier ochronny
+<string>Lakier ochronny to umiejętność<lf>aktywowana podczas używania<lf>osełek. Zmniejsza tempo utraty<lf>ostrości.
 <string>
 <string>Tryb skupienia
 <string>Tryb skupienia
-<string>Tryb, w którym możesz<lf>dokładnie wycelować atak lub osłonę.<lf><lf>Świetliki zwiadowcze oświetlą<lf>wszelkie rany i słabe punkty potwora.
+<string>Tryb skupienia pozwala dokładnie<lf>wycelować atak lub obronę.<lf><lf>Podczas skupiania się na potworze,<lf>świetliki zwiadowcze podświetlą<lf>wszelkie rany i słabe punkty potwora.
 <string>
 <string>Tryb skupienia
 <string><ICON ME PL_AIM> z dobytą bronią
@@ -259,17 +413,17 @@
 <string>Specjalne działania
 <string><REF ActionGuideDataNameTextCommon_m666240384>
 <string><ICON ME merge="PL_WEAPON_SP_ON,HOLD_ON"> z dobytą bronią
-<string>Niektóre rodzaje broni i tarcz można<lf>wykorzystać jako osłonę.<lf><lf>Liczba obrażeń, jakie każda broń zadaje,<lf>zmniejsza się podczas blokowania, a czas<lf>odsłonięcia na ataki różni się w zależności<lf>od broni. Nie możesz bronić się przed<lf>atakami z innego kierunku niż ten,<lf>który osłaniasz.<lf><lf>Przed niektórymi atakami potworów,<lf>takimi jak chmury gazu czy promienie,<lf>nie można się osłonić.
+<string>Niektóre bronie i tarcze mogą służyć<lf>do blokowania.<lf><lf>Obrażenia zmniejszają się podczas<lf>blokowania, a czas odsłonięcia na ataki<lf>różni się w zależności od używanej<lf>broni. Nie możesz bronić się przed<lf>atakami nadchodzącymi z innego<lf>kierunku niż ten, który osłaniasz.<lf><lf>Niektóre ataki potworów są nie do<lf>zablokowania.
 <string>
 <string><REF ActionGuideDataNameTextCommon_859531456>
 <string>Obrażenia będące skutkiem ataków <lf>można znacznie zmniejszyć, jeśli <lf>w odpowiednim  czasie zablokujesz atak.<lf><lf>Niektóre bronie umożliwiają <lf>szybki kontratak i ataki specjalne,<lf>których można użyć po udanym <lf>wykonaniu idealnej gardy.
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>Walka pomiędzy łowcą a potworem,<lf>która ma miejsce podczas <lf>blokowania niektórych ataków.<lf><lf>Naciśnij <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, aby odepchnąć potwora<lf>i pozbawić go równowagi,<lf>co da ci szansę na atak.
+<string>Podczas blokowania niektórych ataków<lf>dochodzi do starcia między łowcą<lf>a potworem.<lf><lf>Naciśnij <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, aby<lf>odepchnąć potwora i pozbawić go<lf>równowagi, co da ci szansę na atak.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
-<string>Możesz wywołać atak przełamujący,<lf>używając określonych ruchów dokładnie<lf>wtedy, gdy potwór atakuje, by go<lf>odeprzeć i potencjalnie odepchnąć.<lf><lf>Jeśli twój atak przełamujący<lf>odepchnie potwora, możesz<lf>kontynuować natarcie przy użyciu<lf>wielu potężnych ataków.
+<string>Możesz wywołać Przełamujący atak,<lf>używając określonych ruchów dokładnie<lf>wtedy, gdy potwór atakuje, by go<lf>odeprzeć i potencjalnie odepchnąć.<lf><lf>Jeśli twój Przełamujący atak<lf>odepchnie potwora, możesz<lf>kontynuować natarcie przy użyciu<lf>wielu potężnych ataków.
 <string>
 <string>Atak z zaskoczenia
 <string><INPUTMSG MsgGUI600200_00_041>
@@ -282,29 +436,41 @@
 <string><REF Item_IT_161>
 <string>Opończy maskującej można użyć<lf>do tymczasowego ukrycia się przed<lf>potworami. Zaatakowanie lub<lf>odniesienie obrażeń zakończy<lf>jej efekt niezależnie od tego,<lf>ile jeszcze miałby trwać.<lf><lf>W przeciwieństwie do innych narzędzi<lf>specjalistycznych opończa maskująca<lf>to podstawowy przedmiot, który<lf>zawsze masz przy sobie.
 <string>
+<string><REF Item_IT_626>
+<string>Opończa stabilności umożliwia<lf>przetrzymanie pewnych ataków, chroni<lf>przed naporem wiatru, rykami i wstrząsami<lf>oraz zmniejsza otrzymywane obrażenia.<lf><lf>Otrzymanie obrażeń skróci czas trwania<lf>efektu.
+<string>
+<string><REF Item_IT_627>
+<string>Opończa uleczenia stopniowo przywraca<lf>zdrowie. Jeśli nie otrzymasz żadnych<lf>obrażeń przez pewien czas po ataku,<lf>twoja szybkość regeneracji wzrośnie.<lf><lf>Będziesz także odzyskiwać zdrowie<lf>podczas atakowania potworów.
+<string>
+<string><REF Item_IT_628>
+<string>Opończa uników aktywuje specjalny<lf>unik, który zapobiega otrzymaniu<lf>obrażeń, jeśli unikniesz ataku potwora<lf>w odpowiednim momencie.<lf><lf>Udane uniknięcie ataku potwora<lf>zwiększa również siłę ataku.
+<string>
+<string><REF Item_IT_629>
+<string>Gdy jest na wyposażeniu, opończa<lf>zepsucia zmniejsza zdrowie,<lf>ale zwiększa zgodność i wydajność<lf>broni. Powtarzające się ataki<lf>na potwory zwiększą twoją siłę ataku<lf>i zgodność.
+<string>
 <string>Porady łowieckie
 <string>Dosiadanie
-<string>Zadanie wystarczających obrażeń potworowi,<lf>gdy jest się na nim, spowoduje jego powalenie.<lf><lf>Jeśli siedząc na potworze, zużyjesz całą<lf>wytrzymałość, spadniesz z niego.<lf><lf>Możesz także zranić potwora podczas<lf>dosiadania go. Każdą bronią można<lf>wykonać specjalny atak, celując w ranę,<lf>więc spróbuj zadać jak najwięcej ran.
+<string>Zadanie wystarczających obrażeń<lf>potworowi, gdy jest się na nim,<lf>spowoduje jego powalenie.<lf><lf>Jeśli siedząc na potworze zużyjesz<lf>całą wytrzymałość, spadniesz z niego.<lf><lf>Możesz także zranić potwora podczas<lf>dosiadania go. Każdą bronią można<lf>wykonać specjalny atak, celując w ranę,<lf>więc spróbuj zadać jak najwięcej ran.
 <string>
-<string>Atak z wyskoku
+<string>Ataki z wyskoku
 <string><ICON PL_ATTACK_00> podczas skoku
-<string>Trafienie potwora odpowiednią liczbą ataków<lf>z wyskoku doprowadzi do jego dosiadania.
+<string>Trafienie potwora odpowiednią liczbą<lf>ataków z wyskoku pozwoli ci go dosiąść.
 <string>
 <string>Atak na potworze: <REF ActionGuideDataNameTextCommon_m1593213696>
 <string><INPUTMSG MsgGUI600200_00_036>
-<string>Lekkie ataki nożem to szybkie ataki<lf>zadające niewielkie obrażenia. Można<lf>je wykonać, trzymając się potwora.<lf>Mogą zadać rany.
+<string>Lekkie ataki nożem to szybkie ataki<lf>zadające niewielkie obrażenia. Można<lf>je wykonać podczas zapierania się.<lf>Mogą zadać rany.
 <string>
 <string>Atak na potworze: <REF ActionGuideDataNameTextCommon_m739066880>
 <string><INPUTMSG MsgGUI600200_00_037>
-<string>Silne ataki nożem zadają stosunkowo<lf>niewielkie obrażenia, ale mogą zadać rany.
+<string>Silne ataki nożem zadają stosunkowo<lf>niewielkie obrażenia, ale mogą zadać<lf>rany.
 <string>
 <string>Atak na potworze: <REF ActionGuideDataNameTextCommon_32227848>
 <string><INPUTMSG MsgGUI600200_00_038>
-<string>Podczas dosiadania potwora ataki<lf>noszoną bronią mogą zadać<lf>ogromne obrażenia, a także rany.<lf><lf>Zaatakowanie rany wywoła<lf>specjalny atak wykańczający,<lf>unikatowy dla noszonej broni.
+<string>Podczas dosiadania potwora ataki<lf>noszoną bronią mogą zadać<lf>ogromne obrażenia, a także rany.<lf><lf>Zaatakowanie rany wywoła<lf>specjalny atak kończący,<lf>unikatowy dla noszonej broni.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m594861568>
 <string><INPUTMSG MsgGUI600200_00_027>
-<string>Kiedy jesteś na potworze, możesz<lf>poruszać się po jego różnych częściach.<lf><lf>To ci pozwoli nie tylko atakować<lf>różne części, ale też unikać strącenia.
+<string>Kiedy jesteś na potworze, możesz<lf>poruszać się po jego różnych<lf>częściach.<lf><lf>To pozwoli ci nie tylko atakować<lf>różne części, ale też unikać<lf>strącenia.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2000160512>
 <string><ICON PL_BT_RIDE_ENDURE> na potworze
@@ -315,42 +481,60 @@
 <string>Zejście umożliwia ci wcześniejsze<lf>zeskoczenie z dosiadanego potwora.
 <string>
 <string><REF RefStatus_0008_002_02>
-<string>Zatruwa potwora, powodując u niego <lf>stopniową utratę zdrowia. <lf>Status można nałożyć kumulując <lf>efekt za pomocą ataków trucizną. <lf>Obrażenia zadawane trucizną i czas <lf>jej działania różnią się w zależności<lf>od potwora. Potwory zyskują odporność<lf>za każdym razem, gdy doznają <lf>szkodliwego statusu, zwiększając ilość <lf>efektu potrzebną do nałożenia statusu.
+<string>Trucizna powoduje, że potwór stopniowo<lf>traci zdrowie. Możesz zatruć potwora,<lf>wykonując określoną liczbę ataków<lf>trującymi broniami. Zadawane obrażenia<lf>i czas trwania efektu różnią się w<lf>zależności od potwora. Potwory zyskują<lf>odporność za każdym razem, gdy doznają<lf>szkodliwego efektu, co sprawia, że<lf>ponowne zatrucie potwora staje się<lf>trudniejsze.
 <string>
 <string><REF RefStatus_0008_002_03>
-<string>Jeśli potwór doznał paraliżu, przez jakiś <lf>czas nie będzie mógł się poruszać.<lf>Status można nałożyć kumulując <lf>efekt za pomocą ataków wywołujących <lf>paraliż.<lf>Potwór nabierze odporności, gdy dozna <lf>szkodliwego statusu, zwiększając ilość <lf>efektu potrzebną do nałożenia statusu.
+<string>Paraliż tymczasowo unieruchamia<lf>potwora. Możesz sparaliżować<lf>potwora, wykonując określoną liczbę<lf>ataków paraliżujących. Potwór nabierze<lf>odporności, gdy dozna szkodliwego<lf>efektu, zwiększając ilość efektu<lf>potrzebną do nałożenia statusu.
 <string>
-<string>Drzemka
-<string>Jeśli potwór zapadnie w drzemkę, <lf>przez jakiś czas nie będzie mógł się <lf>poruszać.<lf>Status można nałożyć kumulując efekt <lf>za pomocą ataków wywołujących <lf>senność.<lf>Potwór nabierze odporności, jeśli <lf>nałożysz ten efekt zbyt wiele razy, i skróci <lf>to czas trwania efektu.
+<string>Sen
+<string>Sen tymczasowo unieruchamia potwora.<lf>Pierwszy atak na śpiącego potwora zada<lf>zwiększone obrażenia. Możesz uśpić<lf>potwora, wykonując określoną liczbę<lf>ataków usypiających. Odporność potwora<lf>będzie wzrastać za każdym razem, gdy ten<lf>szkodliwy efekt zostanie wywołany,<lf>co również skróci czas trwania efektu.
 <string>
 <string>Ogłuszenie
-<string>Ogłuszone potwory przez jakiś czas<lf>nie będą mogły się poruszać. Możesz<lf>ogłuszyć potwora, zadając obuchowe<lf>obrażenia konkretnym częściom jego<lf>ciała, takim jak głowa. Potwór nabierze<lf>odporności, jeśli zostanie ogłuszony<lf>zbyt wiele razy. Również czas trwania<lf>efektu będzie krótszy.
+<string>Ogłuszenie tymczasowo unieruchamia<lf>potwora. Możesz ogłuszyć potwora,<lf>zadając obrażenia obuchowe konkretnym<lf>częściom jego ciała, takim jak głowa.<lf>Potwory zyskują odporność za każdym<lf>razem, gdy doznają szkodliwego efektu,<lf>co również skraca czas jego trwania.
 <string>
 <string>Wyczerpanie
 <string>Potwory stają się wyczerpane, gdy ich<lf>wytrzymałość jest niska. Do tego stanu<lf>doprowadzą je powtarzające się<lf>obrażenia zadawane bronią białą.
 <string>
 <string>Plaga akustyczna
-<string>Efekt, który powoduje, że potwór wpada <lf>w panikę w odpowiedzi na głośny hałas.<lf>Można go wywołać, uderzając potwora<lf>krzyczącym strąkiem, gdy jest on w <lf>określonym stanie lub wykonuje <lf>określoną czynność, na przykład <lf>zakopuje się w piasku. <lf>Potwór zyska odporność, jeśli nałożysz <lf>status zbyt wiele razy.
+<string>Stan, który powoduje, że potwór<lf>wpada w panikę w odpowiedzi na hałas.<lf>Można go wywołać, uderzając potwora<lf>krzyczącym strąkiem, gdy wykonuje<lf>określoną czynność, na przykład<lf>zakopuje się w piasku. Potwór zyska<lf>odporność, jeśli nałożysz szkodliwy<lf>status zbyt wiele razy.
 <string>
 <string>Oślepienie błyskiem
 <string>Potwór zostaje oślepiony i przez to <lf>nie jest w stanie schwytać ofiary.<lf>Status ten można nałożyć błyskowymi <lf>strąkami i muchami błyskówkami.<lf>Potwór nabierze odporności, jeśli nałożysz <lf>ten efekt zbyt wiele razy, i skróci to czas <lf>trwania efektu.
 <string>
 <string>Smród
-<string>Stan, kiedy potwór przesiąka okropnym<lf>smrodem. Możesz nałożyć na potwora<lf>smród, używając gnojowych strąków.<lf>Wymusi to na nim ucieczkę.
+<string>Status, kiedy potwór przesiąka okropnym<lf>smrodem. Możesz nałożyć na potwora<lf>smród, używając gnojowych strąków.<lf>Wymusi to na nim ucieczkę.
+<string>
+<string>Wybuch
+<string>Wybuch to powoli narastający status,<lf>który ostatecznie prowadzi do eksplozji<lf>zadającej potworom obrażenia. <lf>Użyj broni wybuchowych,<lf>aby wywołać ten status.
 <string>
 <string>Słabe punkty potwora
-<string>Słaby punkt potwora można ujawnić<lf>przed lub po jednym z jego ataków.<lf>Możesz znaleźć te słabe punkty,<lf>korzystając z trybu skupienia.<lf><lf>Zaatakowanie słabego punktu skupionym<lf>atakiem stworzy wiele możliwości<lf>do ataków.
+<string>Słaby punkt potwora można ujawnić<lf>przed lub po jednym z jego ataków.<lf>Możesz znaleźć te słabe punkty,<lf>korzystając z Trybu skupienia.<lf><lf>Zaatakowanie słabego punktu Skupionym<lf>atakiem stworzy wiele możliwości<lf>do ataków.
 <string>
 <string>Rany
-<string>Atakując potwora w jedno miejsce,<lf>możesz otworzyć ranę. Rany mają<lf>trzy poziomy: zadrapanie, otwarta<lf>rana po kolejnych atakach i po<lf>zniszczeniu rany blizna.<lf><lf>Atakowanie rany zwiększy obrażenia,<lf>a trafienie skupionym atakiem<lf>zniszczy ranę za jednym zamachem.
+<string>Atakując potwora w jedno miejsce,<lf>możesz otworzyć ranę. Rany mają<lf>trzy poziomy: zadrapanie, otwarta<lf>rana po kolejnych atakach i po<lf>zniszczeniu rany blizna.<lf><lf>Atakowanie rany zwiększy obrażenia,<lf>a trafienie Skupionym atakiem<lf>zniszczy ranę za jednym zamachem.
 <string>
 <string>Łapanie potworów
 <string>Osłabione potwory można złapać,<lf>używając pułapek lub bomb uspokajających. <lf>Uwaga: Nie możesz wycinać materiałów <lf>ze schwytanych potworów.<lf><lf>Gildia zachęca do łapania ich,<lf>ponieważ pozwala im to zbadać potwory<lf>bez polowania na nie. Z tego powodu <lf>prośby te są czasami nagradzane trudnymi <lf>lub niemożliwymi do uzyskania poprzez <lf>wycinanie materiałami.
 <string>
 <string>Osłabianie potwora
-<string>Aby złapać potwora, musisz go najpierw<lf>osłabić do pewnego stopnia.<lf><lf>Gdy będzie słaby, użyj dołu-pułapki<lf>lub pułapki rażącej, aby go usidlić,<lf>a następnie użyj przedmiotów do łapania,<lf>takich jak bomby uspokajające, aby<lf>jeszcze bardziej ograniczyć jego ruchy.<lf><lf>Gdy będzie odpowiednio unieruchomiony<lf>i zaśnie, zostanie złapany.
+<string>Aby złapać potwora, musisz go najpierw<lf>osłabić do pewnego stopnia.<lf><lf>Gdy będzie słaby, użyj dołu-pułapki<lf>lub pułapki rażącej, aby go usidlić,<lf>a następnie użyj przedmiotów<lf>do łapania, takich jak bomby<lf>uspokajające, aby jeszcze bardziej<lf>ograniczyć jego ruchy.<lf><lf>Gdy będzie odpowiednio unieruchomiony<lf>i zaśnie, zostanie złapany.
 <string>
-<string>Unieruchomienie potwora
+<string>Zastawianie pułapki na potwora
 <string>
 <string>Bomby uspokajające
+<string>
+<string>Szał
+<string>Zarażenie potworów szałem wywołuje<lf>u nich stan szału.<lf><lf>Oszalałe potwory porzucają typowe<lf>schematy snu i żerowania, wykazując<lf>większą agresywność i brutalność<lf>niż zwykłe osobniki.<lf><lf>Efekt szału skraca żywotność potwora<lf>i obniża jego zdrowie.
+<string>
+<string>Strażnicy
+<string>Strażnicy to potwory sztucznie<lf>stworzone przez prastarą cywilizację.<lf>Nie rozmnażają się i nie szukają<lf>zdobyczy, bo żywią się mlekiem wiwerny.<lf><lf>Wchłaniana z niego energia pozwala im<lf>leczyć rany, przez co są odporniejsze<lf>od zwykłych potworów. Instynkt<lf>samozachowawczy nakazuje im<lf>przebywać w pobliżu źródeł energii,<lf>gdzie są bardzo terytorialne.
+<string>
+<string>Zahartowane potwory
+<string>Zahartowane potwory to takie, które<lf>przetrwały niezliczone bitwy. Cechują<lf>się znacznie wyższym poziomem zdrowia<lf>i ataku w porównaniu ze zwykłymi<lf>osobnikami, co czyni z nich niezwykle<lf>wymagających przeciwników.<lf><lf>Być może to na skutek poprzednich<lf>brutalnych starć potwory te mają<lf><COLOR preset="TXT_Danger">zahartowane rany</COLOR> na całym ciele.
+<string>
+<string>Zahartowane rany
+<string>Zahartowane rany pokrywające ciała<lf>zahartowanych potworów to oznaka<lf>wielu stoczonych bitew.<lf><lf>W odróżnieniu od zwykłych potworów<lf>zahartowane potwory mają rany, jeszcze<lf>zanim je spotkasz. Możesz stopniowo<lf>otwierać te rany ponownie, celując<lf>w nie, by stworzyć słabe punkty.
+<string>
+<string>Starzejąca się padlina
+<string>Z czasem zwłoki potworów zaczynają<lf>gnić. Można z nich wyciąć różne<lf>materiały, w zależności od tego, czy<lf>są świeże, czy zgniłe.<lf><lf>Małe potwory po zgniciu czasem dają<lf>sterty kości lub pędy wiwernika,<lf>z których możesz zbierać materiały.<lf>Zwłoki Strażników przechodzą<lf>w postać skrystalizowaną,<lf>która daje własne unikalne materiały.
 <string>

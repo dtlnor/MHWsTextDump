@@ -1,22 +1,352 @@
-﻿<string>Ballistik
-<string>Erweitert die Entfernung,<lf>bei der Munition und Pfeile<lf>maximale Kraft haben.
+﻿<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_0
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP0
+<string>Angriffsbonus
+<string>Erhöht die Angriffskraft.
+<string>Kritisches Auge
+<string>Erhöht die Affinität.
+<string>Kritischer Boost
+<string>Erhöht den Schaden durch kritische<lf>Treffer.
+<string>Kritisches Element
+<string>Erhöht den Elementschaden (Feuer,<lf>Wasser, Donner, Eis, Drache) durch<lf>kritische Treffer.
+<string>Meisterschliff
+<string>Verhindert, dass deine Waffe durch<lf>das Erzielen von kritischen Treffern<lf>an Schärfe verliert.
+<string>Feuerangriff
+<string>Verbessert die Kraft von Feuerelement-<lf>Angriffen. Die Elementangriffskraft hat<lf>eine Obergrenze.
+<string>Wasserangriff
+<string>Verbessert die Kraft von Wasserelement-<lf>Angriffen. Die Elementangriffskraft hat<lf>eine Obergrenze.
+<string>Eisangriff
+<string>Verbessert die Kraft von Eiselement-<lf>Angriffen. Die Elementangriffskraft hat<lf>eine Obergrenze.
+<string>Donnerangriff
+<string>Verbessert die Kraft von Donnerelement-<lf>Angriffen. Die Elementangriffskraft hat<lf>eine Obergrenze.
+<string>Drachenangriff
+<string>Verbessert die Kraft von Drachenelement-<lf>Angriffen. Die Elementangriffskraft hat<lf>eine Obergrenze.
+<string>Giftangriff
+<string>Erhöht die Rate der Gift-Ansammlung.<lf>(Die Gift-Ansammlung hat eine<lf>Obergrenze.)
+<string>Lähmungsangriff
+<string>Erhöht die Rate der Lähmung-Ansammlung.<lf>(Die Lähmung-Ansammlung hat eine<lf>Obergrenze.)
+<string>Schlafangriff
+<string>Erhöht die Rate der Schlaf-Ansammlung.<lf>(Die Schlaf-Ansammlung hat eine<lf>Obergrenze.)
+<string>Explosionsangriff
+<string>Erhöht die Rate der Explosion-Ansamm-<lf>lung. (Die Explosion-Ansammlung hat<lf>eine Obergrenze.)
+<string>Handwerk
+<string>Erweitert den Waffenschärfebalken,<lf>allerdings nicht über das Maximum<lf>hinaus.
+<string>Superscharf
+<string>Verhindert, dass deine Waffe an<lf>Schärfe verliert.
+<string>Schutzpolitur
+<string>Die Waffenschärfe sinkt für eine<lf>bestimmte Zeit nach dem Schär-<lf>fen nicht.
+<string>Geistiges Auge
+<string>Deine Angriffe prallen weniger ab<lf>und fügen harten Monsterteilen<lf>größeren Schaden zu.
+<string>Ballistik
+<string>Vergrößert die Entfernung, bei<lf>der Munition und Pfeile maximale<lf>Kraft haben.
+<string>Prügler
+<string>Erhöht die Angriffskraft, wenn die<lf>Schärfe deiner Waffe niedrig ist.
+<string>Fokus
+<string>Erhöht das Fülltempo von Waffen mit<lf>Balken und die Ladegeschwindigkeit von<lf>Waffen mit aufgeladenen Angriffen.
+<string>Kraftverlängerung
+<string>Langschwerter, Doppelklingen, Insekten-<lf>glefen, Morph-Äxte und Energieklingen<lf>bleiben länger verstärkt.
+<string>Marathon-Läufer
+<string>Verlangsamt den Ausdauerverbrauch<lf>von Aktionen, die andauernd Aus-<lf>dauer erschöpfen (etwa Sprinten).
+<string>Konstitution
+<string>Reduziert den Ausdauerverlust<lf>beim Ausweichen, Blocken und<lf>bestimmten anderen Aktionen.
+<string>Blocken
+<string>Reduziert Rückwürfe und den<lf>Ausdauerverbrauch beim Blocken.
+<string>Blocken hoch
+<string>Ermöglicht das Blocken von normaler-<lf>weise nicht blockbaren Angriffen.
+<string>Offensive Abwehr
+<string>Erhöht vorübergehend die Angriffs-<lf>kraft nach dem Ausführen eines<lf>Blocks zur perfekten Zeit.
+<string>Kritisches Ziehen
+<string>Erhöht die Affinität beim Ausführen<lf>von Zug-Angriffen.<lf>(Kein Effekt beim Reiten.)
+<string>Bestrafender Zug
+<string>Erweitert Zug-Angriffe um Betäubung<lf>und erhöht die Angriffskraft gering-<lf>fügig. (Kein Effekt beim Reiten.)
+<string>Schnelles Wegstecken
+<string>Beschleunigt das Wegstecken<lf>von Waffen.
+<string>Lähmer
+<string>Erleichtert das Betäuben von Monstern.
+<string>Ausdauerdieb
+<string>Erhöht die Fähigkeit bestimmter<lf>Angriffe, Monster zu ermüden.
+<string>Horn-Maestro
+<string>Verlängert die Effektdauer von<lf>Jagdhornmelodien. (Der Effekt geht<lf>bei einem Waffenwechsel verloren.)
+<string>Artillerie
+<string>Verstärkt Explosivangriffe: Wyvernfeuer,<lf>Patronen, Detonationsmunition und<lf>Phiolenangriffe der Energieklinge.
+<string>Patronennachlader
+<string>Verbessert das Nachladen und erhöht die<lf>Munitionskapazität der Gewehrlanze sowie<lf>die Phiolenkapazität der Energieklinge.
+<string>Spezialmunitionboost
+<string>Erhöht Schaden von Spezialmunition<lf>(Bogengewehr) sowie Drachentöter,<lf>Tausend Drachen, Zielmark. (Bogen).
+<string>Standardboost
+<string>Erhöht die Angriffskraft von Normaler<lf>Munition, Standardpfeilen sowie<lf>Schwalbenschuss.
+<string>Perforierschüsse
+<string>Erhöht den Angriff von Perforations-<lf>mun. (Bogengewehr) sowie Drachen-<lf>töter und Tausend Drachen (Bogen).
+<string>Schrot/Kraftschuss
+<string>Erhöht die Angriffskraft von Schrotmu-<lf>nition (Bogengewehr) sowie von Kraft-<lf>schuss und Schneller Schuss (Bogen).
+<string>Schnellfeuer hoch
+<string>Verbessert das Schnellfeuer des<lf>Leichten Bogengewehrs.
 <string>Schnelles Schärfen
 <string>Beschleunigt das Schärfen von Waffen<lf>bei der Verwendung eines Wetzsteins.
+<string>Blitz-Morphen
+<string>Erhöht Morph-Geschwindigkeit und<lf>Kraft von Morph-Äxten und Energie-<lf>klingen.
+<string>Auflademeister
+<string>Erhöht Elementkraft und Status-<lf>Ansammlung für aufgeladene Angriffe.
+<string>Schockabsorber
+<string>Deaktiviert Schadensreaktionen, wenn<lf>du einen Freund triffst oder wenn ein<lf>Freund dich trifft.
+<string>Giftbeschichtung
+<string>Ermöglicht das Auftragen von<lf>Giftbeschichtungen (Bogen).
+<string>Lähmungsbeschichtung
+<string>Ermöglicht das Auftragen von<lf>Lähmungsbeschichtungen (Bogen).
+<string>Schlafbeschichtung
+<string>Ermöglicht das Auftragen von<lf>Schlafbeschichtungen (Bogen).
+<string>Explosionsbeschichtung
+<string>Ermöglicht das Auftragen von<lf>Explosionsbeschichtungen (Bogen).
+<string>Ermüdungsbeschichtung
+<string>Ermöglicht das Auftragen von<lf>Ermüdungsbeschichtungen (Bogen).
+<string>Luftherrschaft
+<string>Erhöht den Schaden durch<lf>gesprungene Angriffe.
+<string>Kritischer Status
+<string>Verstärkt anomale Statuseffekte<lf>(Lähmung, Gift, Schlaf, Explosion)<lf>durch kritische Treffer.
+<string>Aufladen
+<string>Erhöht deine Fähigkeit, Betäubung auszu-<lf>lösen, wenn du ein Monster mit dem auf-<lf>geladenen Angriff eines Hammers triffst.
+<string>Aufhetzer
+<string>Erhöht Angriffskraft und Affinität,<lf>wenn große Monster wütend werden.
+<string>Höchstleistung
+<string>Verbessert den Angriff, wenn dein<lf>Gesundheitsbalken gefüllt ist.
+<string>Groll
+<string>Erhöht den Angriff, wenn du erhol-<lf>baren Schaden erlitten hast (der rote<lf>Abschnitt des Gesundheitsbalkens).
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m774473472
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm774473472
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1540920320
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1540920320
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1196219264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1196219264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1950413440
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1950413440
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1406914944
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1406914944
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m812084224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm812084224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1960395264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1960395264
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_56719788
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP56719788
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_424767232
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP424767232
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_654153152
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP654153152
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_471964960
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP471964960
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1582392192
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1582392192
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1724907776
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1724907776
+<string>Schwächevorteil
+<string>Erhöht die Affinität von Angriffen, die<lf>Schwachpunkte und Wunden eines<lf>Monsters ausnutzen.
+<string>Kraftentfesselung
+<string>Erhöht unter bestimmten Bedingungen<lf>vorübergehend die Affinität und<lf>verringert den Ausdauerverbrauch.
+<string>Höchstmacht
+<string>Erhöht die Affinität, wenn der Aus-<lf>dauerbalken für eine bestimmte Zeit<lf>voll ist.
 <string>Ausdauererholung
 <string>Beschleunigt die Ausdauerregeneration.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m111868368
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm111868368
+<string>Verteidigungsboost
+<string>Erhöht die Verteidigung.<lf>Auf höheren Stufen werden auch<lf>die Widerstände verbessert.
 <string>Göttlicher Segen
 <string>Verringert den von dir erlittenen<lf>Schaden mit einer bestimmten<lf>Wahrscheinlichkeit.
+<string>Erholungsplus
+<string>Erhöht die Menge der wiederher-<lf>gestellten Gesundheit.
 <string>Erholungstempo
 <string>Erlaubt die schnellere Heilung von<lf>erholbarem Schaden (der rote<lf>Abschnitt des Gesundheitsbalkens).
 <string>Schnellessen
 <string>Beschleunigt den Verzehr von Fleisch<lf>und den Verbrauch von Objekten.
+<string>Ohrstöpsel
+<string>Gewährt Schutz gegen das Brüllen<lf>großer Monster.
+<string>Windsicher
+<string>Gewährt Schutz gegen Winddruck.
+<string>Bebenwiderstand
+<string>Gewährt Schutz vor Erdbeben.
+<string>Unverwundbarkeit
+<string>Verlängert die Unverwundbarkeits-<lf>dauer beim Ausweichen.
+<string>Ausweichdistanz
+<string>Erhöht die Ausweichentfernung.
+<string>Feuerwiderstand
+<string>Erhöht den Feuerwiderstand.<lf>Auf höheren Stufen wird auch<lf>die Verteidigung verbessert.
+<string>Wasserwiderstand
+<string>Erhöht den Wasserwiderstand.<lf>Auf höheren Stufen wird auch<lf>die Verteidigung verbessert.
+<string>Eiswiderstand
+<string>Erhöht den Eiswiderstand.<lf>Auf höheren Stufen wird auch<lf>die Verteidigung verbessert.
+<string>Donnerwiderstand
+<string>Erhöht den Donnerwiderstand.<lf>Auf höheren Stufen wird auch<lf>die Verteidigung verbessert.
+<string>Drachenwiderstand
+<string>Erhöht den Drachenwiderstand.<lf>Auf höheren Stufen wird auch<lf>die Verteidigung verbessert.
+<string>Pestwiderstand
+<string>Gewährt Schutz gegen alle<lf>elementbasierten Pestarten.
+<string>Giftwiderstand
+<string>Verringert den Schaden bei<lf>Vergiftungen.
+<string>Lähmungswiderstand
+<string>Reduziert die Dauer von Lähmungen.
+<string>Schlafwiderstand
+<string>Reduziert die Dauer von Schlaf.
 <string>Betäubungswiderstand
 <string>Reduziert die Dauer von<lf>Betäubungen.
+<string>Explosionswiderstand
+<string>Gewährt Schutz gegen Explosionspest.
+<string>Sumpfläufer
+<string>Gewährt Widerstand gegen Bewe-<lf>gungseinschränkungen durch<lf>Wasser, Ölschlamm oder Flüsse.
+<string>Botaniker
+<string>Erhöht die Menge an Kräutern und<lf>anderen Verbrauchsobjekten, die du<lf>sammelst.
+<string>Geologe
+<string>Erhöht die Anzahl an Objekten, die<lf>an Sammelpunkten erhalten werden.
+<string>Teilezerstörer
+<string>Erleichtert Brechen von Teilen großer<lf>Monster und erhöht Schaden nach<lf>Wundenmaximierung mit Fokusangriff.
 <string>Bombardier
 <string>Erhöht den durch explosive<lf>Objekte zugefügten Schaden.
+<string>Mykologie
+<string>Erlaubt die Verdauung von Pilzen,<lf>die sonst ungenießbar wären, wodurch<lf>du deren Bonuseffekte erhältst.
+<string>Objektverlängerung
+<string>Verlängert die Dauer einiger<lf>Objekteffekte.
+<string>Wirkbereich
+<string>Teilt einige Objekteffekte mit<lf>benachbarten Verbündeten.
 <string>Freie Mahlzeit
 <string>Nahrungsmittel können mit einer<lf>bestimmten Wahrscheinlichkeit<lf>kostenlos verzehrt werden.
+<string>Heldentat
+<string>Erhöht die Angriffskraft und die<lf>Verteidigung, wenn deine Gesundheit<lf>bei 35 % oder weniger ist.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1522720256
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1522720256
+<string>Unbeeindruckt
+<string>Verhindert das Zurückwerfen sowie<lf>andere Reaktionen auf geringen<lf>Schaden.
+<string>Sprungmeister
+<string>Verhindert, dass du im Sprung durch<lf>Angriffe zurückgeworfen wirst.
+<string>Hungerwiderstand
+<string>Reduziert die Abnahme der<lf>maximalen Ausdauer.
+<string>Schicksalssprung
+<string>Weiche großen Monstern per langem<lf>Hechtsprung aus, indem du auf sie zu-<lf>springst. Hechtsprung-Distanz erhöht.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1110806016
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1110806016
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1577668736
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1577668736
+<string>Kletterer
+<string>Verringert den Ausdauerverlust beim<lf>Erklimmen von Ranken.
+<string>Gegenschlag
+<string>Erhöht vorübergehend die Angriffs-<lf>kraft, nachdem du zurückgeworfen<lf>wurdest.
+<string>Vorstoß
+<string>Erhöht Angriffskraft und Affinität<lf>gegen von Gift oder Lähmung<lf>betroffene große Monster.
+<string>Verschmelzung
+<string>Verbessert nach der Erholung von Pest<lf>und anormalem Status vorübergehend<lf>Elementangriff und Statuseffekte.
+<string>Salve
+<string>Kontinuierliche Treffer erhöhen all-<lf>mählich Angriff und Elementangriff,<lf>das Ausmaß ist abhängig von der Waffe.
+<string>Adrenalinschub
+<string>Erhöht nach perfekt getimtem Auswei-<lf>chen während eines Monsterangriffs<lf>vorübergehend die Angriffskraft.
+<string>Überfall
+<string>Erhöht vorübergehend den Schaden<lf>gegen große Monster nach<lf>erfolgreichen Schleichangriffen.
+<string>Neopteron-Alarm
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1968728576
+<string>Neopteron-Tarnung
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1685697920
 <string>Flexibles Lederhandwerk
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1648695680
+<string>Buttriges Lederhandwerk
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP451472896
 <string>Skalierungstechnik
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1487598336
+<string>Schuppenschichtung
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1664678272
 <string>Kräftigender Pelz
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1998066176
+<string>Ködernder Pelz
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP583598144
+<string>Gefallen für den Fürsten
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1769550080
+<string>Apex-Zorn
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2107855744
+<string>Wächterpuls
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1305836672
+<string>Wächter-Schutz
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm2041451904
+<string>Vermittelte Weisheit
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1642078720
 <string>Doshaguma-Macht
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm62248528
+<string>Rey Daus Spannung
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP539707072
+<string>Uth Dunas Deckung
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2104075392
+<string>Nu Udras Meuterei
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1980404096
+<string>Jin-Dahaads Aufstand
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm215826112
+<string>Rathalos’ Auflodern
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm3666104
+<string>Gravios’ Schutz
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm418246240
+<string>Blangongas Geist
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP741102208
+<string>Gore Magalas Tyrannei
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP722735744
+<string>Wächter-Arkvelds Vitalität
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1432692352
+<string>Arkvelds Hunger
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm964369920
+<string>Vulkan-Odogarons Macht
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP918165056
+<string>Fulgur-Anjanaths Wille
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1768553344
+<string>Xu Wus Nachdruck
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1468066176
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1890580224
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1890580224
+<string>Blutungswiderstand
+<string>Gewährt Schutz gegen Blutungen.
+<string>Eisenhaut
+<string>Gewährt Schutz gegen Verteidigung<lf>runter.
+<string>Gestankswiderstand
+<string>Gewährt Schutz gegen Gestank.
+<string>Naturbursche
+<string>Verbessert Angel-, Grill- und<lf>Transportfähigkeiten.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m285123456
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm285123456
+<string>Palico-Versammlung
+<string>Stärkt Palicos.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1203508096
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1203508096
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_457912640
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP457912640
+<string>Überlebensexperte
+<string>Erhöht die wiederhergestellte Gesund-<lf>heit bei Umgebungsinteraktionen.
+<string>Verblendung
+<string>Erhöht die Effektivität von Blitz-<lf>angriffen und -objekten.
+<string>Entomologe
+<string>Die Körper kleiner Insektenmonster<lf>werden nicht zerstört und können<lf>so für Materialien zerlegt werden.
+<string>Werkzeugmeister
+<string>Reduziert die Wartezeit, bis Spezial-<lf>werkzeuge erneut benutzt werden<lf>können.
+<string>Einschüchtern
+<string>Verringert Chance, dass kleine Mons-<lf>ter dich bei Sichtkontakt angreifen.<lf>(Kein Effekt auf bestimmte Monster.)
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_309360992
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP309360992
+<string>Giftdauer hoch
+<string>Verlängert die Dauer des Effekts<lf>deines Gifts auf Monster.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1478544256
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1478544256
+<string>Anpassung
+<string>Gewährt Schutz gegen Umgebungs-<lf>schaden wie Hitze oder Kälte.
+<string>Selbstverbesserung
+<string>Angriff und Verteidigung steigen mit<lf>der Zeit während einer Quest. (Das<lf>Maximum ist nach 30 Minuten erreicht.)
+<string>Schinder
+<string>Erleichtert das Verursachen von Wun-<lf>den. Verursacht bei genug Schaden<lf>zusätzlichen Nicht-Element-Schaden.
+<string>Befreiungskunst
+<string>Gewährt Schutz gegen den Status<lf>„Eingenetzt“ und Frostpest.
+<string>Elementare Absorption
+<string>Erleidest du Elementschaden, erhältst<lf>du vorübergehend Elementeffekte.<lf>(Abklingzeit nach Effektende.)
+<string>Elemente umwandeln
+<string>Erleidest du Elementschaden, erhältst<lf>du vorübergehend Drachenelement-<lf>effekte. (Abklingzeit nach Effektende.)
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_1150634496
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP1150634496
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1437098880
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1437098880
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_504506560
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP504506560
+<string>Antivirus
+<string>Erleichtert die Überwindung einer<lf>Raserei-Infektion. Verbessert<lf>nach der Heilung die Affinität.
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_m1702725248
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm1702725248
+<string>Tetradschuss
+<string>Erhöht Affinität von Bogengewehr-<lf>muni/Pfeilbeschichtungen ab 4. Schuss<lf>sowie Angriff des 4. und 6. Schusses.
+<string>Eröffnungsschuss
+<string>Erhöht das Nachladetempo des Bogen-<lf>gewehrs. Bei voll geladenem Magazin<lf>steigt die Kraft von Schüssen.

@@ -1,8 +1,13 @@
 ﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0000
 <string>게임 시작
 <string>옵션
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0003
+<string>갤러리
 <string><REF RefGeneral_0023>
 <string>조작 키 설정
+<string>프로모션
+<string>Latest News
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_0009
 <string>다운로드 콘텐츠
 <string>저작권 표기 정보
 <string>고객 지원
@@ -21,11 +26,41 @@
 <string>Monster Hunter Wilds 고객 지원 페이지
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010101_sup_02_01
 <string>개인 정보 수집
+<string><COLOR preset="TXT_Danger">동의 안 함(온라인 멀티플레이 불가)</COLOR>
 <string>분석 목적 데이터 처리: {0}
+<string>나라/지역 설정 변경
+<string>생년월일 설정 변경
+<string>CAPCOM ID 연결: {0}
+<string>CAPCOM ID 연결
+<string>CAPCOM ID로 데이터 전송: {0}
 <string>프라이버시 정책
 <string>동의함
+<string>동의 안 함
+<string>미설정
+<string>연동 완료
+<string>확인하지 못했습니다.
+<string>주식회사 캡콤의 개인 정보 수집에 동의하셨습니다.<lf>동의하지 않을 경우에는 다음으로 이동하십시오.<lf><lf>※ 동의하지 않을 경우, 온라인 멀티플레이를 포함한 일부<lf>기능을 이용할 수 없습니다.<lf><lf><PLATMSG RefGeneral_0028>
+<string>주식회사 캡콤의 개인 정보 수집에 동의하지 않으셨습니다.<lf>동의할 경우에는 다음으로 이동하십시오.<lf><lf>※오프라인 모드에서도 게임을 플레이하실 수 있지만,<lf>온라인 멀티플레이 등 일부 기능은 사용할 수 없습니다.<lf><lf><lf><PLATMSG RefGeneral_0028>
+<string>보호자분께서 캡콤의 개인 정보 수집에 동의하셨습니다.<lf>동의를 취소할 경우에는 보호자분과 함께 다음으로 이동해 주십시오.<lf><lf>※동의를 취소할 경우 온라인 멀티플레이 등 일부 기능을<lf>사용할 수 없습니다.<lf><lf><PLATMSG RefGeneral_0028>
+<string>보호자분께서 캡콤의 개인 정보 수집에 동의하지 않으셨습니다.<lf>동의하실 경우에는 보호자분과 함께 다음으로 이동해 주십시오.<lf><lf>※오프라인 모드에서도 게임을 플레이하실 수 있지만,<lf>온라인 멀티플레이 등 일부 기능은 사용할 수 없습니다.<lf><lf><PLATMSG RefGeneral_0028>
+<string>온라인 멀티플레이를 하려면<lf>개인 정보 취급 설정이 필요합니다.<lf>개인 정보 취급 설정을 하지 않으셔도<lf>게임 본편을 플레이하실 수 있지만,<lf>기능이 제한됩니다.<lf><lf><PLATMSG RefGeneral_0028>
+<string>분석 목적 데이터 처리 동의는 의무가 아니며<lf>동의 여부는 자유롭게 선택할 수 있습니다.<lf>동의하지 않으셔도 게임을 플레이하실 수 있습니다.
+<string>개인 정보를 다시 설정할 경우에는 보호자분과 함께<lf>다음으로 이동해 주십시오.<lf><lf>※다시 설정할 경우 다시 한번 보호자분께서 동의 과정을<lf>거치셔야 합니다.
+<string>분석 목적 데이터 처리는<lf>개인 정보 수집에 동의하신 분만 대상으로 합니다.
+<string>현재 나라/지역 설정을 변경할 수 없습니다.<lf>잠시 후에 다시 시도하십시오.
+<string>나라/지역 설정을 변경할 수 있습니다.<lf>거주하는 나라/지역이 바뀌었다면 다시 설정하십시오.
+<string>현재 생년월일 설정을 변경할 수 없습니다.<lf>잠시 후에 다시 시도하십시오.
+<string>생년월일 설정을 변경할 수 있습니다.<lf><lf><DATETIME year={0} month={1} day={2} format="YYYY/MM/DD"><lf>생년월일을 잘못 입력했다면 다시 설정하십시오.
 <string>재설정합니다.<lf>계속하시겠습니까?
 <string>개인정보 동의 상황을 다시 설정합니다.<lf>계속하시겠습니까?
+<string>개인정보에 관한 동의를 초기화하고<lf>다시 설정합니다. 계속하시겠습니까?
+<string><PLATMSG MsgGUI010101_pri_10_50>(연결 상황이 반영될 때까지 시간이 걸릴 수 있습니다)
+<string>플랫폼 계정과 CAPCOM ID를 연결할 수 있습니다.
+<string>Steam 계정과 CAPCOM ID를 연결할 수 있습니다.
+<string>CAPCOM ID로 데이터 전송 동의는 의무가 아니며<lf>동의 여부를 자유롭게 선택할 수 있습니다.<lf>동의하지 않으셔도 게임 플레이에 영향은 없습니다.
+<string>CAPCOM ID로 데이터 전송은<lf>CAPCOM ID와 플랫폼 ID를 연동 완료하신 분만 가능합니다.
 <string>재설정하기
+<string>재설정하기
+<string>닫기
 <string>닫기
 <string>다음

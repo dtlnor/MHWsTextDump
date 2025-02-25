@@ -20,7 +20,9 @@
 <string>痕跡調査
 <string>痕跡調査
 <string>部位破壊 
+<string>部位破壊　{0}
 <string>傷口破壊
+<string>歴戦傷破壊
 <string>討伐完了！
 <string>捕獲完了！
 <string>落石
@@ -34,15 +36,28 @@
 <string>未確認モンスターを発見！
 <string>縄張り争い
 <string>フィールドから立ち去りました・・・
+<string>図鑑内容が更新されました！
 <string>見失い　効果あり
 <string>見失い　効果なし
-<string>{0:F2}
-<string>{0:F3}
+<string><REF Gimmick_NAME_m1074723840>　効果あり
+<string><REF Gimmick_NAME_m1074723840>　効果なし
+<string>誘導　効果なし
+<string>こやし　効果なし
+<string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>最大サイズ
 <string>最小サイズ
 <string>サイズ
 <string>ウェイト
+<string>任意目標達成！
 <string>＋{0}<REF RefGeneral_0015_001>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_04_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_05_00
 <string>環境同期エラー<lf>自分の環境に戻りました
 <string>{0} に<lf>クエストのリーダーを委譲しました
 <string>クエストのリーダーを<lf>委譲されました
@@ -51,10 +66,15 @@
 <string>詳細表示
 <string>スキップ
 <string><REF RefButton_0011>
+<string>おすすめ
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0009_00
 <string>クエスト化不可
+<string>冠サイズ記録更新！
 <string><OPTION id="DKEY_AND_BUTTON_OP" msg="MsgGUI020100_0011_000">
-<string><ICON PL_ACCESS_ITEM_BAG>
-<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON UI_SHORTCUT_PALLET_SUB>
-<string><ICON PL_ACCESS_ITEM_BAG>
-<string><ICON PL_ITEM_SLIDER_OPEN>+<ICON UI_ITEM_LEFT>
-<string><ICON PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ITEM_SLIDER_OPEN>+<ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON MKB PL_ACCESS_ITEM_BAG>
+<string>（<ICON UI_START_MENU_OPEN>長押し：チャットログを開く）
+<string>（<ICON UI_START_MENU_OPEN>から「チャットログ」を確認）

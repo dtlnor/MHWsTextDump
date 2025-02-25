@@ -33,7 +33,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp00_m1022273984>
 <string><ICON WP00 PL_AIM><ICON PLUS><ICON WP00 PL_ATTACK_SP_B>
-<string>Un barrido que es efectivo contra las<lf>heridas. Si aciertas en la herida o<lf>punto débil de un monstruo, podrás<lf>infligir daño varias veces.<lf><lf>Presiona <ICON WP00 PL_ATTACK_SP_B> durante un ataque<lf>para realizar un ataque final.<lf><lf>
+<string>Un barrido que es efectivo contra las<lf>heridas. Si aciertas en la herida o<lf>punto débil de un monstruo, podrás<lf>infligir daño varias veces.<lf><lf>Presiona <ICON WP00 PL_ATTACK_SP_B> durante un ataque<lf>para realizar un ataque final.
 <string>
 <string>Combo de Tajo cargado real
 <string><REF ActionGuideDataNameText_Wp00_276684864>
@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Espadas dobles
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>Inicio para combo básico.<lf><lf>Presiona <ICON WP02 PL_ATTACK_00> para ejecutar<lf>un Contratajo doble y vuelve<lf>a presionar <ICON WP02 PL_ATTACK_00> para ejecutar<lf>un Tajo circular.<lf><lf>
+<string>Inicio para combo básico.<lf><lf>Presiona <ICON WP02 PL_ATTACK_00> para ejecutar<lf>un Contratajo doble y vuelve<lf>a presionar <ICON WP02 PL_ATTACK_00> para ejecutar<lf>un Tajo circular.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -531,22 +531,126 @@
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
 <string>Ataca con Actuación especial para<lf>compensar los ataques del monstruo.<lf>Gracias al gran daño que inflige,<lf>se trata de un ataque normal muy útil.
 <string>
+<string>Un ataque con Tocar único y potente<lf>que golpea varias veces. Si aciertas<lf>al monstruo en la parte final del ataque,<lf>se desatará una onda sónica perforante<lf>que inflige mucho daño.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1842698112>
+<string>Una Actuación especial que restaura<lf>una gran cantidad de salud. Aunque<lf>es potente, te hará vulnerable,<lf>así que úsalo con cuidado.
+<string>
 <string>Efectos de melodía
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Aumenta la velocidad de movimiento.<lf>Hacer un Bis para este efecto de melodía<lf>también aumenta el poder de ataque<lf>y evita que tus ataques sean desviados.
 <string>
+<string><ICON ST_RESIST_WIND> Anula ráfagas de viento/<ICON ST_RESIST_WIND_HIGH> Anula toda ráfaga de viento
+<string>Otorga protección contra las ráfagas<lf>de viento.
+<string>
+<string><ICON ST_RESIST_STUN> Anula aturdimiento
+<string>Previene el aturdimiento.
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Anula parálisis
+<string>Previene la parálisis.
+<string>
+<string><ICON ST_RESIST_NOISE> Antirrugidos (P)/<ICON ST_RESIST_NOISE_HIGH> Antirrugidos (G)
+<string>Otorga protección contra los rugidos<lf>de monstruos.
+<string>
+<string><ICON ST_RESIST_QUAKE> Anula temblores
+<string>Otorga protección contra los temblores<lf>de tierra
+<string>
+<string><ICON ST_ARMOR> Antiderribo
+<string>Impide que los ataques te derriben.
+<string>
+<string><ICON ST_RESIST_GROUND> Anula daño por entorno
+<string>Anula el daño recibido por el terreno,<lf>como la lava o las púas, y evita los<lf>efectos negativos del calor o frío<lf>intensos.
+<string>
+<string><ICON ST_RESIST_MUD> Movilidad acuática/oleosa
+<string>Impide que el agua profunda o el fango<lf>oleoso te ralentice. También anula los<lf>efectos de las olas creadas<lf>por monstruos.
+<string>
+<string><ICON ST_RESIST_DEBUF> Anula estados alterados
+<string>Anula todos los estados alterados.
+<string>
+<string><ICON ST_SPIRIT> Protección divina
+<string>Otorga la posibilidad de reducir el<lf>daño recibido.
+<string>
+<string><ICON ST_POWER_ELEMENT_UP_HORN> <REF MusicSkillDataText_Wp05_13>
+<string>Aumenta el poder elemental de tu arma.
+<string>
+<string><ICON ST_POWER_DEBUF_UP_HORN> <REF MusicSkillDataText_Wp05_14>
+<string>Aumenta la potencia de los ataques de<lf>estados alterados contra monstruos.
+<string>
+<string><ICON ST_RESIST_ELEMENT> Anula plagas
+<string>Anula todas las plagas elementales.
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Recuperación rápida (P)/Recuperación rápida (G)
+<string>Aumenta el ritmo de recuperación natural<lf>de la parte roja de la barra de salud.
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Antigasto de resistencia (P)/Antigasto de resistencia (G)
+<string>Reduce el consumo de resistencia.
+<string>
 <string><ICON ST_POWER_UP_HORN>Ataque+ (P)/<REF MusicSkillDataText_Wp05_12>
 <string>Aumenta el ataque.
 <string>
+<string><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_15>/<REF MusicSkillDataText_Wp05_16>
+<string>Aumenta la defensa.
+<string>
+<string>Rec. salud (P)/Rec. salud (M)/Rec. salud (G)
+<string>Recupera salud al activar<lf>un efecto de melodía.
+<string>
 <string><ICON ST_DEFECE_FIRE> Antifuego (P)/<ICON ST_DEFECE_FIRE_HIGH> Antifuego (G)
 <string>Aumenta la resistencia al fuego y<lf>protege contra la plaga de fuego.
+<string>
+<string><ICON ST_DEFECE_WATER> Antiagua (P)/<ICON ST_DEFECE_WATER_HIGH> Antiagua (G)
+<string>Aumenta la resistencia al agua y<lf>protege contra la plaga de agua.
+<string>
+<string><ICON ST_DEFECE_THUNDER> Antirrayo (P)/<ICON ST_DEFECE_THUNDER_HIGH> Antirrayo (G)
+<string>Aumenta la resistencia al rayo y<lf>protege contra la plaga de rayo.
+<string>
+<string><ICON ST_DEFECE_ICE> Antihielo (P)/<ICON ST_DEFECE_ICE_HIGH> Antihielo (G)
+<string>Aumenta la resistencia al hielo y<lf>protege contra la plaga de hielo.
+<string>
+<string><ICON ST_DEFECE_DRUGON> Antidraco (P)/<ICON ST_DEFECE_DRUGON_HIGH> Antidraco (G)
+<string>Aumenta la resistencia a draco<lf>y protege contra la plaga draco.
+<string>
+<string><ICON ST_SOUND_BARRIER> Barrera sónica
+<string>Reduce el daño una sola vez y anula<lf>las ráfagas de viento, los temblores<lf>de tierra y los rugidos de monstruos<lf>una sola vez.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_42>
+<string>Aumenta el ataque y la defensa.
+<string>
+<string><ICON ST_CRITICAL_UP> <REF MusicSkillDataText_Wp05_43>
+<string>Aumenta la afinidad. Recupera un poco<lf>de salud al activarse.
+<string>
+<string>Rec. salud (P) + antídoto/Rec. salud (M) + antídoto
+<string>Recupera salud y cura el veneno<lf>al activar un efecto de melodía.
+<string>
+<string><REF MusicSkillDataText_Wp05_40>
+<string>Crea el efecto de una cápsula chillona<lf>a tu alrededor.
+<string>
+<string><REF MusicSkillDataText_Wp05_41>
+<string>Aumenta la duración de todos los<lf>efectos de melodía.
+<string>
+<string>Recuperar afilado
+<string>Restaura cierta cantidad de afilado<lf>de armas al activar el efecto de<lf>melodía.
 <string>
 <string>Onda de eco
 <string>Un Efecto de melodía que inflige daño.<lf><lf>Cada cornamusa tiene sus propios<lf>efectos. Algunas infligen daño cortante<lf>o contundente, mientras que otras<lf>infligen daño de todos los elementos<lf>y estados alterados.
 <string>
 <string>Efectos de Burbuja sónica
+<string><ICON ST_HEAL_CONTINUE> Regeneración de salud
+<string>Recupera salud gradualmente.
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Regeneración de resistencia
+<string>Restaura resistencia de forma continua.
+<string>
 <string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Evasión y movimiento veloz
 <string>Aumenta la evasión y la velocidad de<lf>movimiento.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_CRITICAL_UP> Ataque+ y Afinidad+
+<string>Aumenta el ataque y la afinidad.
+<string>
+<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP> Mejora de resistencia elemental y defensa
+<string>Aumenta la defensa y las resistencias<lf>elementales.
+<string>
+<string><ICON ST_RESIST_DEBUF> Anula plagas/estados alterados
+<string>Elimina y protege contra varios<lf>estados alterados y plagas.
 <string>
 <string>Combo básico
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -559,7 +663,7 @@
 <string>Combo poderoso
 <string><REF ActionGuideDataNameText_Wp05_m787884800>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Un combo poderoso. Golpe<lf>descendente produce dos notas que<lf>infligen  bastante daño y guardan<lf>notas en la pauta musical.
+<string>Un combo poderoso. Golpe<lf>descendente produce dos notas que<lf>infligen bastante daño y guardan<lf>notas en la pauta musical.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_2056927744>
 <string><ICON WP05 PL_MOVE_FRONT><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -627,6 +731,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
+<string><REF ActionGuideDataNameText_Wp06_1549684992>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>Un tipo de guardia con la que contraatacas<lf>de forma automática cada vez que bloqueas.<lf>Mantén <ICON WP06 PL_ATTACK_SP> o <ICON WP06 PL_ATTACK_01> para cargarla y, si sueltas<lf>el botón en el momento preciso al recibir<lf>un ataque, darás una Contraestocada doble.<lf><lf>Mientras cargas una Contracarga, puedes<lf>pasar a una Guardia potente con <ICON WP06 PL_ATTACK_SP><ICON PLUS><ICON WP06 PL_DODGE>.<lf>Con ella reduces mucho las reacciones de<lf>tu personaje al recibir ataques, aunque<lf>a cambio perderás resistencia de forma<lf>constante mientras mantengas la pose.
+<string>El contraataque que lanzas tras una<lf>guardia potente gana potencia según<lf>la cantidad y la potencia de los ataques<lf>que hayas bloqueado.
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
@@ -859,9 +967,17 @@
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Presiona <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> tras Descarga elemental<lf>para un remate explosivo. Mutarás<lf>de forma automática al Modo hacha<lf>tras la explosión.
 <string>
+<string><REF ActionGuideDataNameText_Wp08_52943932>
+<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>Puedes ejecutar una descarga de suma<lf>cero si utilizas una descarga elemental<lf>en estado amplificado. Tras aferrarte<lf>al costado de un monstruo, usa <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"><lf>para ejecutar un Remate descarga<lf>de suma cero. Después del remate,<lf>el arma vuelve al Modo hacha.
+<string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Un potente ataque disponible en<lf>el Modo espada. Habrá una explosión<lf>que inflige daño adicional si se usa<lf>en el estado amplificado. Mutarás<lf>en el Modo hacha tras el ataque.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_26943142>
+<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>Un ataque poderoso solo disponible<lf>en estado amplificado.<lf><lf>También puedes usar <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> para seguir<lf>una descarga elemental con un tajo<lf>de liberación total. Tras el ataque,<lf>pasarás al Modo hacha.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -881,7 +997,7 @@
 <string>Una barra que se llena según ataques<lf>en el Modo hacha.<lf><lf>Puede mutar en el Modo espada<lf>cuando la barra de cambio está al 30 %.<lf>La barra se llenará poco a poco<lf>cuando tengas el arma envainada.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_503110624>
-<string>Aumenta el daño en el modo hacha.<lf>También aumenta el ritmo<lf>al que se llena la barra de cambio<lf>mientras atacas.
+<string>Aumenta el daño en el modo hacha.<lf>También aumenta el ritmo al que se llena<lf>la barra de cambio mientras atacas.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_1601592576>
 <string>Una barra que se llena según ataques en<lf>el Modo espada.<lf><lf>Puedes entrar en el Estado amplificado<lf>cuando la Barra de activación esté<lf>llena por completo.
@@ -954,7 +1070,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1630431488>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON">→<ICON WP09 PL_ATTACK_01><ICON RELEASE>
-<string>Un ataque que depende de soltar <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"><lf>en el momento justo.<lf><lf>Si no lo haces bien, ejecutarás Espada:<lf>tajo ascendente cargado en su lugar.
+<string>Espada: Tajo doble cargado requiere una<lf>sincronización cuidadosa. <ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> para cargar<lf>el ataque y soltarlo justo cuando ataca<lf>el monstruo. Si la sincronización es<lf>incorrecta, realizarás una Espada: Tajo<lf>ascendente cargado en su lugar.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
@@ -962,7 +1078,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
-<string>Usa el escudo para protegerte.<lf><lf>Si te proteges en el momento justo,<lf>realizarás una Guardia perfecta.<lf>Si tienes éxito, presiona <ICON WP09 PL_ATTACK_00><lf>para ejecutar un Tajo de hacha salvaje.
+<string>Usa el escudo para protegerte.<lf>Si te proteges en el momento justo,<lf>realizarás una Guardia perfecta.<lf><lf>Si tienes éxito, presiona <ICON WP09 PL_ATTACK_00><lf>para ejecutar un Tajo de hacha salvaje.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1536274816>
 <string><ICON WP09 PL_ATTACK_00> tras una Guardia perfecta
@@ -977,11 +1093,11 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m1699645312>
 <string><ICON WP09 merge="PL_ATTACK_01,HOLD_ON"> mientras cargas
-<string>Gasta viales y entra en Bonus elemental;<lf>esto mejorará tu guardia y te permitirá<lf>ejecutar Hacha: superdescarga elemental<lf>amplificada.
+<string>Gasta viales para ganar Bonus elemental;<lf>esto mejorará tu guardia y te permitirá<lf>ejecutar Hacha: superdescarga elemental<lf>amplificada.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> mientras cargas
-<string>Un potenciador extra para la espada tras<lf>el Bonus elemental. Si está aumentada,<lf>esta no rechaza a los monstruos.
+<string>Potencia el hacha cargada tras<lf>un Bonus elemental. Si está<lf>aumentada, los ataques a los<lf>monstruos no serán rechazados.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1001,18 +1117,18 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_1635818112>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string><ICON WP09 PL_ATTACK_01> Hacha: Descarga elemental amplificada →<lf><ICON WP09 PL_ATTACK_01> Hacha: Descarga elemental amplificada<lf>encadenada.<lf><lf>Mantén <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> o <ICON WP09 PL_ATTACK_01> en Modo hacha poderosa<lf>para lanzar varios golpes muy dañinos.<lf><lf>Presiona <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con Bonus elemental) para<lf>ejecutar un Hacha: Superdescarga<lf>elemental amplificada o <ICON WP09 PL_ATTACK_SP> (mientras<lf>preparas Hacha: Descarga elemental<lf>amplificada) para ejecutar un Tajo<lf>rotatorio elemental que activa<lf>el Bonus elemental.
+<string>La Descarga elemental amplificada puede<lf>encadenarse con <ICON WP09 PL_ATTACK_01> para Hacha: Seg.<lf>descarga elemental amplificada.<lf><lf>Mantén <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> o <ICON WP09 PL_ATTACK_01> en Modo hacha poderosa<lf>para lanzar varios golpes muy dañinos.<lf><lf>Presiona <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con Bonus elemental) para<lf>ejecutar un Hacha: Superdescarga<lf>elemental amplificada o <ICON WP09 PL_ATTACK_SP> (mientras<lf>preparas Hacha: Descarga elemental<lf>amplificada) para ejecutar un Tajo<lf>rotatorio elemental que activa<lf>el Bonus elemental.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>Un ataque que hará que tu arma mute<lf>de Modo espada a Modo hacha.
+<string>Un ataque que hará que tu arma mute<lf>de Modo hacha a Modo espada.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
 <string>Un ataque cortante efectivo contra<lf>las heridas. Ejecuta un ataque en<lf>salto con espada en el Modo espada<lf>o hacha. Si aciertas en una herida,<lf>entrarás en el Modo hacha poderosa.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
-<string>Muta las armas y cambia el modo.<lf>Si tienes el escudo listo durante<lf>la mutación, automáticamente<lf>te protegerá de los ataques.
+<string>El hacha cargada puede cambiar entre<lf>dos modos: Modo espada y Modo hacha.<lf>Si tu escudo está preparado mientras<lf>cambias de modo, te protegerás<lf>automáticamente de los ataques.
 <string>
 <string>Ataques protectores
 <string>Algunos ataques en el Modo espada<lf>también pueden usar guardia. Si usas<lf>el movimiento mientras el escudo<lf>está frente al ataque inminente,<lf>usarás la guardia automáticamente.<lf><lf>Tras bloquear con éxito con uno<lf>de estos ataques del Modo espada,<lf>presiona <ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (con Bonus elemental)<lf>para encadenar con<lf>Hacha: Superdescarga elemental<lf>amplificada.
@@ -1151,7 +1267,7 @@
 <string>Si atacas mientras apuntas con <ICON WP10 PL_AIM> durante<lf>el Modo enfoque, tu kinsecto atacará<lf>al monstruo y recolectará extractos<lf>al mismo tiempo.<lf><lf>La trayectoria del kinsecto también cambia<lf>según tus ataques.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Los kinsectos dejan tras de sí una nube<lf>de polvo llamada Polvo de kinsecto<lf>cuando atacan la parte del monstruo<lf>marcada. Si atacas el polvo, explotará<lf>y generará diferentes efectos.<lf><lf><COLOR preset="TXT_Accent">Nitro</COLOR>: Genera nitro<lf><COLOR preset="TXT_Accent">Veneno</COLOR>: Genera veneno <lf><COLOR preset="TXT_Accent">Parálisis</COLOR>: Genera parálisis<lf><COLOR preset="TXT_Accent">Recuperación</COLOR>: Recupera ligeramente<lf>tu salud
+<string>Los kinsectos dejan tras de sí una nube<lf>de polvo llamada Polvo de kinsecto<lf>cuando atacan la parte del monstruo<lf>marcada. Si atacas el polvo, explotará<lf>y generará diferentes efectos.<lf><lf><COLOR preset="TXT_Accent">Nitro</COLOR>: Genera nitro<lf><COLOR preset="TXT_Accent">Veneno</COLOR>: Genera veneno<lf><COLOR preset="TXT_Accent">Parálisis</COLOR>: Genera parálisis<lf><COLOR preset="TXT_Accent">Recuperación</COLOR>: Recupera ligeramente<lf>tu salud
 <string>
 <string>Extractos
 <string>Una sustancia que se extrae de los<lf>monstruos. Hay cuatro tipos: roja,<lf>blanca, naranja y verde. El color<lf>que se extrae es diferentes según<lf>las partes de cada monstruo.<lf><lf>Absorbe los extractos recolectados<lf>al llamar a un kinsecto. Cada color<lf>otorga un efecto diferente. Si absorbes<lf>varios colores, se producirán aún más<lf>efectos. Estos finalizarán tras<lf>un período de tiempo.
@@ -1176,7 +1292,7 @@
 <string>Combo de polvo de kinsecto
 <string><REF ActionGuideDataNameText_Wp10_569344320>
 <string><ICON WP10 PL_ATTACK_SP>
-<string>Un combo que consiste en marcar un<lf>objetivo para que tu kinsecto<lf>ataque, evadir hacia atrás y<lf>avanzar hacia delante para detonar<lf>el polvo que deja tu kinsecto. <lf><lf>También puede seguirse<lf>con otros ataques.
+<string>Un combo que consiste en marcar un<lf>objetivo para que tu kinsecto<lf>ataque, evadir hacia atrás y<lf>avanzar hacia delante para detonar<lf>el polvo que deja tu kinsecto.<lf><lf>También puede seguirse<lf>con otros ataques.
 <string>
 <string>Impulso (Atrás)
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_MOVE_BACK><ICON PLUS><ICON WP10 PL_DODGE>
@@ -1213,6 +1329,7 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
+<string><ICON WP_LIGHTBOWGUN> Ballesta ligera
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1223,7 +1340,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> tras disparar
-<string>Presiona <ICON WP13 PL_ATTACK_01> tras disparar un Disparo<lf>potente, un ataque más fuerte<lf>que también restaura más energía.<lf><lf>No se puede encadenar tras Nitro<lf>enfocado ni con munición especial.
+<string>Presiona <ICON WP13 PL_ATTACK_01> tras disparar un Disparo<lf>perseguidor, un ataque más fuerte<lf>que también restaura más energía<lf>de Fuego rápido que uno normal.<lf><lf>No se puede encadenar tras disparar<lf>Nitro enfocado ni munición especial.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
@@ -1266,6 +1383,9 @@
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
 <string>Coloca una bomba que detona cuando es<lf>atacada. La munición explosiva se<lf>recuperará poco a poco con el tiempo.
 <string>
+<string><REF RefEquipment_0007_03_01>
+<string>Usa <ICON WP13 PL_ATTACK_SP> para cargar un tipo especial<lf>de munición que se adhiere a los<lf>monstruos. Atacar la munición<lf>adherida al monstruo aumentará<lf>el daño que infligirá al explotar.<lf><lf>La munición se recuperará<lf>poco a poco con el tiempo.
+<string>
 <string><ICON WP_HEAVYBOWGUN> Ballesta pesada
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
@@ -1304,8 +1424,14 @@
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Munición especial que se puede<lf>usar durante el Modo ignición.<lf><lf>Usa <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> para disparar continuamente.<lf>El daño aumentará a medida que<lf>aciertes a un objetivo.
 <string>
+<string><REF ActionGuideDataNameText_Wp12_195481808>
+<string>Munición especial que se puede usar<lf>durante el Modo ignición.<lf><lf>La munición perforará poco a poco a<lf>los objetos, y la potencia aumentará<lf>cuando aciertes al objetivo.
+<string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
 <string>Munición especial que se puede usar<lf>durante el Modo de ímpetu.<lf><lf>Desata un ataque a corta distancia<lf>con un efecto de compensación.<lf>Mantén presionado <ICON WP12 PL_ATTACK_00> para aumentar<lf>la potencia al disparar.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1481543424>
+<string>Munición especial que se puede usar<lf>durante el Modo de ímpetu.<lf><lf>Desata un ataque a media distancia<lf>que afecta a un gran área.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
 <string>Acierta en la herida o punto débil<lf>de un monstruo para provocar<lf>una explosión que inflige un daño<lf>considerable.<lf><lf>La munición se restaurará<lf>automáticamente con el tiempo.
@@ -1318,6 +1444,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>Un ataque que dispara flechas<lf>rápidamente sobre un área amplia.<lf>No consume resistencia.
 <string>
+<string><ICON WP_BOW> Arco
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string>Desenvaina tu arco para disparar flechas.<lf><lf>Mantén <ICON WP11 PL_ATTACK_SP> para aumentar tu nivel de carga.<lf><lf>Cuanto más alto tu nivel de carga,<lf>más potentes serán tus ataques.<lf><lf>Presiona <ICON WP11 PL_ATTACK_01> después de disparar<lf>para ejecutar Disparo potente.
@@ -1378,7 +1505,7 @@
 <string>Tras disparar un rastreador,<lf>las flechas seguirán apuntando<lf>hacia él hasta que explote.
 <string>
 <string>Tipos de vial
-<string>Los viales añaden efectos a tus flechas.<lf><lf>Vial de potencia: Aumenta el daño.<lf>Vial quemarropa: Reduce el alcance,<lf>pero aumenta el daño.<lf>Vial perforante: Aumenta el alcance<lf>y la perforación.<lf>Vial de veneno: Añade veneno.<lf>Vial paralizante: Añade parálisis.<lf>Vial de sueño: Añade sueño.<lf>Vial de nitro: Añade nitro.<lf>Vial de fatiga: Añade Aturdimiento/Fatiga.
+<string>Los viales añaden efectos a tus flechas.<lf><lf>- Vial de potencia: Aumenta el daño.<lf>- Vial quemarropa: Reduce el alcance,<lf>pero aumenta el daño.<lf>- Vial perforante: Aumenta el alcance<lf>y la perforación.<lf>- Vial de veneno: Añade veneno.<lf>- Vial paralizante: Añade parálisis.<lf>- Vial de sueño: Añade sueño.<lf>- Vial de nitro: Añade nitro.<lf>- Vial de fatiga: Añade Aturdimiento/Fatiga.
 <string>
 <string>Combo Perforadragones
 <string><REF ActionGuideDataNameText_Wp11_m445205632>

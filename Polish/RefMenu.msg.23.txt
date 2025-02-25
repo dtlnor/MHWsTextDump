@@ -4,6 +4,7 @@
 <string>Informacje o wyposażeniu
 <string>Zatrzymaj grę
 <string>Opcje
+<string>Zmień język
 <string>Zapisz
 <string>Wróć do ekranu tytułowego
 <string>Konfiguracja sterowania
@@ -12,20 +13,22 @@
 <string>Sterowanie podst.: kontroler
 <string>Konfiguracja klawiatury
 <string>Flara alarmowa
+<string>{0}
 <string>Wyślij flarę alarmową
 <string>Anuluj flarę alarmową
 <string>Wróć z zadania
 <string>Przenośny obóz
-<string>Grilluj mięso
+<string>Grilluj posiłek
 <string>Menu grilla
 <string>Połączona grupa
 <string>Zaproś do połączonej grupy
 <string>Opuść połączoną grupę
+<string>Zaproś do wspólnego świata
 <string>Opuść połączone środowisko
-<string>Rozwiąż połączone środowisko
+<string>Rozwiąż wspólny świat
 <string>Wyświetl powiązanych członków
-<string>Powiadomienia o zapr. do poł. grupy
-<string>Powiadomienia o zapr. do poł. środ.
+<string>Pow. o zapr. do wspólnej grupy
+<string>Pow. o zapr. do wspólnego świata
 <string>Powiadomienia o zapr. do zadania
 <string>Lista członków
 <string>Przenieś przedmioty
@@ -34,8 +37,11 @@
 <string>Status wysłania koleżkota
 <string>Wyślij
 <string>Oczekiwanie
-<string>Opublikuj zadanie / Dołącz do zadania
-<string>Otwórz okno wyjścia
+<string>Zmień muzykę
+<string>Opublikuj/Dołącz do zadania
+<string>Otwórz okno wyprawy
+<string>Kup
+<string>Sprzedaj
 <string>Komunikacja
 <string>Zmodyfikuj menu kołowe
 <string>Przewodnik po grze
@@ -45,12 +51,16 @@
 <string>Profil łowcy
 <string>Dziennik czatu
 <string>Mapa
-<string>Szczegółowa mapa (częściowy ekran)
+<string>Szczeg. mapa (częściowy ekran)
 <string>Szczegółowa mapa
 <string>Optymalna regeneracja zdrowia
 <string>Optymalna regeneracja statusu
 <string>Wyjdź z gry
 <string>Wyniki zadania
+<string>Wykuj/ulepsz broń
+<string>Wykuj/ulepsz pancerz
+<string>Ulepsz ze skrzynki
+<string>Wykuj/ulepsz z listy życzeń
 <string>Zaproś znajomego
 <string>Sakwa polowa
 <string>Prośby o dołączenie
@@ -59,13 +69,24 @@
 <string>Powiadomienia o zaproszeniach
 <string>Inf. o łowcy wspierającym
 <string>Tryb zdjęć
+<string>Przewodnik polowy
+<string>Przewodnik po dużych potworach
+<string>Przewodnik po małych potworach
+<string>Przewodnik po lokalnej faunie
+<string>Przewodnik po faunie wodnej
 <string>Zmień wygląd
 <string>Wiadomość o niedostępności
 <string>Mapa świata
 <string>Informacje o zadaniu
+<string>Edytuj ozdoby Seikreta
+<string>Dostosowanie Seikreta
 <string>Menu wyglądu
+<string>Kup zaopatrzenie
+<string>Zamów towary
+<string>Wykuj/ulepsz talizmany
 <string>Zalecane lobby
 <string>Dołącz do lobby natychmiast, niezależnie od ustawień.
+<string>Lobby ograniczone czasowo
 <string>Wyszukaj lobby
 <string>Prywatne lobby
 <string>Stwórz prywatne lobby, do którego można dołączyć, szukając ID lobby. (Pozwala na mniejszą maks. liczbę członków niż ogólne lobby)
@@ -76,17 +97,29 @@
 <string>Wyszukaj lobby spełniające konkretne wymagania.
 <string>Wyszukaj znajomego
 <string>Wyszukaj lobby, do których dołączyli twoi znajomi.
+<string>Wyszukaj lobby oddziału
+<string>Wyszukaj lobby oddziałów, do których dołączono.
 <string>Wyszukaj ID lobby
 <string>Użyj ID, by wyszukać konkretne lobby.
 <string>Wybierz lobby
 <string>Przenieś się do innego lobby
 <string>Menu zmiany lobby
 <string>Anuluj zadanie
+<string>Zarządzanie oddziałem
 <string>Zmień wyposażenie koleżkota
+<string>Wykuj wyposażenie koleżkota
 <string>Spróbuj ponownie
 <string>Informacje o koleżkocie
+<string>Wyśw./Sprz. artiańskie mat.
+<string>Wykuj artiańskie bronie
+<string>Wzmoc./Rozmon. artiańskie br.
+<string>Wzmocnij
+<string>Rozmontuj
+<string>Ustawienia wyglądu pancerza
+<string>Ustawienia wyglądu pancerza koleżkota
 <string>Usuń przenośny obóz
 <string>Usuń/Napraw przenośny obóz
+<string>Edytuj przenośny obóz
 <string>Zarządzaj przenośnymi obozami
 <string>Zmodyfikuj łukodziałko
 <string>Sterowanie podstawowe
@@ -94,6 +127,8 @@
 <string>Sterowanie
 <string>Sterowanie (topór)
 <string>Sterowanie (miecz)
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_3
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_4
 <string>Właściwości broni
 <string>Zalecana kombinacja
 <string>Używanie przedmiotów
@@ -116,13 +151,44 @@
 <string>Zaproś wszystkich do poł. środowiska
 <string>Rozwiąż połączone środowisko
 <string>Przełącz przewodnik treningowy
+<string>Lista życzeń
 <string>Rozwiąż lobby
 <string>Dostępne tylko dla gospodarzy prywatnego lobby.
+<string>Wiweriańskie stapianie
+<string>Wytapiaj relikty
+<string>Stapiaj ozdoby
+<string>Wytop kule pancerza
+<string>Wytop rudę
+<string>Udziały z festiwalu
+<string>Głaszcz
+<string>Edytuj imię
+<string>Wprowadź imię swojej Świnki.<lf><lf><COLOR preset="TXT_Accent">Maksymalna liczba znaków wynosi 15.</COLOR>
+<string>{0}<lf>Czy to imię ci odpowiada?
+<string>Zarządzanie kinsektami
+<string>Hodowla kinsektów
+<string>Kupno kinsektów
+<string>Dane misji
+<string>Zobacz/sprzedaj wyposażenie
+<string>Zobacz/sprzedaj wyp. koleżkota
+<string>Zobacz/sprzedaj ozdoby
+<string>Menu ustawień namiotu
 <string>Zamów pełną grę w przedsprzedaży
 <string>Twój koleżkot dołączy do ciebie na zadaniach!
 <string>Twój koleżkot jest w gotowości.
+<string>Ustawienia treningu
+<string>Wróć do obozu
+<string>Wrócić do obozu?
 <string>Menu zadań
 <string>Menu przedmiotu
 <string>Menu wyposażenia
 <string>Menu koleżkota
 <string>Menu kuźni
+<string>Wybierz efekty pielęgnacyjne
+<string>Album
+<string>Zalecane wyposażenie
+<string>Pokaż/ukończ zlecenia limitowane
+<string>Najnowsze wieści
+<string>Wsparcie: potwory
+<string>Premia za logowanie
+<string>Odbierz zawartość
+<string>Wyświetl zlecenia limitowane

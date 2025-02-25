@@ -94,7 +94,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp03_m37508024>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_01> During Combo
-<string>The Foresight Slash is an attack that can<lf>be performed mid-combo and provides<lf>a large window of invulnerability.<lf><lf>Foresight Slashes consume the entire<lf>Spirit Gauge, however, landing one after<lf>dodging a monster's attack will fill the<lf>gauge completely. Press <ICON WP03 PL_ATTACK_SP> to chain it<lf>into a Spirit Roundslash. When the Spirit<lf>Gauge is empty, its effect decreases, but<lf>when the gauge is red, you can follow up<lf>with a Foresight Whirl Slash.
+<string>The Foresight Slash is an attack that can<lf>be performed mid-combo and provides<lf>a large window of invulnerability.<lf><lf>Foresight Slashes consume the entire<lf>Spirit Gauge. However, landing one after<lf>dodging a monster's attack will fill the<lf>gauge completely. Press <ICON WP03 PL_ATTACK_SP> to chain it<lf>into a Spirit Roundslash. When the Spirit<lf>Gauge is empty, its effect decreases, but<lf>when the gauge is red, you can follow up<lf>with a Foresight Whirl Slash.
 <string>
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
@@ -299,7 +299,7 @@
 <string><ICON WP_DUALBLADES> Dual Blades
 <string><REF ActionGuideDataNameText_Wp01_m56063852>
 <string><ICON WP02 PL_ATTACK_00>
-<string>A basic combo starter.<lf><lf>Press <ICON WP02 PL_ATTACK_00> to perform a Double Slash<lf>Return Stroke, then press <ICON WP02 PL_ATTACK_00> again<lf>to perform a Circle Slash.<lf><lf>
+<string>A basic combo starter.<lf><lf>Press <ICON WP02 PL_ATTACK_00> to perform a Double Slash<lf>Return Stroke, then press <ICON WP02 PL_ATTACK_00> again<lf>to perform a Circle Slash.
 <string>
 <string><REF ActionGuideDataNameText_Wp02_1061310464>
 <string><ICON WP02 PL_ATTACK_01>
@@ -531,22 +531,126 @@
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
 <string>A Special Performance attack that<lf>can offset monster attacks. Its high<lf>damage ensures its usefulness as<lf>a normal attack as well.
 <string>
+<string>A unique and powerful Performance<lf>attack that hits multiple times. Hitting<lf>a monster with the final part of the<lf>attack will unleash a piercing sound<lf>wave, dealing high damage.
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1842698112>
+<string>A Special Performance that restores a<lf>large amount of health. While powerful,<lf>it will leave you wide open, so time its<lf>use wisely.
+<string>
 <string>Melody Effects
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>Increases movement speed. Playing<lf>an Encore for this Melody Effect will<lf>also raise your attack power and<lf>prevent your attacks from being<lf>deflected.
 <string>
+<string><ICON ST_RESIST_WIND> Wind Pressure Negated/<ICON ST_RESIST_WIND_HIGH> All Wind Pressure Negated
+<string>Grants protection against wind pressure.
+<string>
+<string><ICON ST_RESIST_STUN> Stun Negated
+<string>Prevents stun.
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Paralysis Negated
+<string>Prevents paralysis.
+<string>
+<string><ICON ST_RESIST_NOISE> Earplugs (S)/<ICON ST_RESIST_NOISE_HIGH> Earplugs (L)
+<string>Grants protection against monster roars.
+<string>
+<string><ICON ST_RESIST_QUAKE> Tremors Negated
+<string>Grants protection against ground<lf>tremors.
+<string>
+<string><ICON ST_ARMOR> Knockback Negated
+<string>Prevents knockback from attacks.
+<string>
+<string><ICON ST_RESIST_GROUND> Environmental Damage Negated
+<string>Nullifies damage taken from lava or<lf>spiked terrain, also prevents negative<lf>effects from intense heat or cold.
+<string>
+<string><ICON ST_RESIST_MUD> Aquatic/Oilsilt Mobility
+<string>Prevents being slowed by deep water<lf>or oilsilt. Also nullifies effects from<lf>waves created by monsters.
+<string>
+<string><ICON ST_RESIST_DEBUF> All Ailments Negated
+<string>Nullifies all status ailments.
+<string>
+<string><ICON ST_SPIRIT> Divine Protection
+<string>Grants a chance of reducing damage<lf>taken.
+<string>
+<string><ICON ST_POWER_ELEMENT_UP_HORN> <REF MusicSkillDataText_Wp05_13>
+<string>Increases the elemental power of your<lf>weapon.
+<string>
+<string><ICON ST_POWER_DEBUF_UP_HORN> <REF MusicSkillDataText_Wp05_14>
+<string>Increases the potency of status ailment<lf>attacks dealt to monsters.
+<string>
+<string><ICON ST_RESIST_ELEMENT> Blight Negated
+<string>Nullifies all elemental blights.
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Recovery Speed (S)/Recovery Speed (L)
+<string>Increases the natural recovery rate of<lf>the red portion of your Health Gauge.
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Stamina Use Reduced (S)/Stamina Use Reduced (L)
+<string>Reduces stamina consumption.
+<string>
 <string><ICON ST_POWER_UP_HORN> Attack Up (S)/<REF MusicSkillDataText_Wp05_12>
 <string>Increases attack.
 <string>
+<string><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_15>/<REF MusicSkillDataText_Wp05_16>
+<string>Increases defense.
+<string>
+<string>Health Recovery (S)/Health Recovery (M)/Health Recovery (L)
+<string>Recovers health when activating<lf>a Melody Effect.
+<string>
 <string><ICON ST_DEFECE_FIRE> Fire Resistance (S)/<ICON ST_DEFECE_FIRE_HIGH> Fire Resistance (L)
 <string>Increases fire resistance and prevents<lf>fireblight.
+<string>
+<string><ICON ST_DEFECE_WATER> Water Resistance (S)/<ICON ST_DEFECE_WATER_HIGH> Water Resistance (L)
+<string>Increases water resistance and prevents<lf>waterblight.
+<string>
+<string><ICON ST_DEFECE_THUNDER> Thunder Resistance (S)/<ICON ST_DEFECE_THUNDER_HIGH> Thunder Resistance (L)
+<string>Increases thunder resistance and prevents<lf>thunderblight.
+<string>
+<string><ICON ST_DEFECE_ICE> Ice Resistance (S)/<ICON ST_DEFECE_ICE_HIGH> Ice Resistance (L)
+<string>Increases ice resistance and prevents<lf>iceblight.
+<string>
+<string><ICON ST_DEFECE_DRUGON> Dragon Resistance (S)/<ICON ST_DEFECE_DRUGON_HIGH> Dragon Resistance (L)
+<string>Increases dragon resistance and prevents<lf>dragonblight.
+<string>
+<string><ICON ST_SOUND_BARRIER> Sonic Barrier
+<string>Reduces damage once, and also<lf>nullifies wind pressure, ground<lf>tremors, and monster roars once.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_DEFECE_UP_HORN> <REF MusicSkillDataText_Wp05_42>
+<string>Increases attack and defense.
+<string>
+<string><ICON ST_CRITICAL_UP> <REF MusicSkillDataText_Wp05_43>
+<string>Increases affinity. Slightly recovers<lf>health upon activation.
+<string>
+<string>Health Recovery (S) + Antidote/Health Recovery (M) + Antidote
+<string>Recovers health and removes poison<lf>when activating a Melody Effect.
+<string>
+<string><REF MusicSkillDataText_Wp05_40>
+<string>Creates the effect of a Screamer Pod<lf>around you.
+<string>
+<string><REF MusicSkillDataText_Wp05_41>
+<string>Extends the duration of all Melody Effects.
+<string>
+<string>Restore Sharpness
+<string>Restores a certain amount of weapon<lf>sharpness when activating a Melody<lf>Effect.
 <string>
 <string>Echo Wave
 <string>A Melody Effect that deals damage.<lf><lf>Each hunting horn has different effects.<lf>Some deal blunt or severing damage,<lf>while others can inflict elemental<lf>damage or status ailments.
 <string>
 <string>Echo Bubble Effects
+<string><ICON ST_HEAL_CONTINUE> Health Regeneration
+<string>Gradually recovers health.
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Stamina Regeneration
+<string>Continuously restores stamina.
+<string>
 <string><ICON ST_SPEED_UP><ICON ST_AVOID_UP> Evasion & Movement Speed Up
 <string>Increases evasion and movement speed.
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_CRITICAL_UP> Attack & Affinity Up
+<string>Increases attack and affinity.
+<string>
+<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP> Defense & Elemental Resistance Up
+<string>Increases defense and elemental<lf>resistances.
+<string>
+<string><ICON ST_RESIST_DEBUF> Ailments/Blights Negated
+<string>Removes and prevents various status<lf>ailments and blights.
 <string>
 <string>Basic Combo
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -627,6 +731,10 @@
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_01>
 <string>
+<string><REF ActionGuideDataNameText_Wp06_1549684992>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string>A guard that triggers an automatic counter-<lf>attack after blocking an attack. Hold <ICON WP06 PL_ATTACK_SP> or<lf><ICON WP06 PL_ATTACK_01> to charge, and if you release at the right<lf>time in response to an incoming attack, you<lf>will trigger a Double Counter-thrust.<lf><lf>While charging a Charge Counter, you can<lf>transition into Power Guard with <ICON WP06 PL_ATTACK_SP><ICON PLUS><ICON WP06 PL_DODGE>.<lf>Power Guard greatly reduces guard <lf>reactions, at the cost of draining your <lf>stamina while you maintain the stance.
+<string>The counterattack following a Power Guard<lf>increases in power based on the number of<lf>attacks guarded and their strength.
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
 <string>
@@ -859,9 +967,17 @@
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>Press <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> repeatedly after Element<lf>Discharge for an explosive finishing<lf>attack. You will automatically morph<lf>into Axe Mode after the explosion.
 <string>
+<string><REF ActionGuideDataNameText_Wp08_52943932>
+<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>You can unleash a Zero Sum Discharge<lf>by performing an Element Discharge<lf>in the Amped State. Once grabbed onto<lf>the side of the monster, use <ICON WP08 merge="PL_ATTACK_00,REPEAT_ON"> to<lf>perform a Zero Sum Discharge Finisher.<lf>After the finisher, your weapon will<lf>return to Axe Mode.
+<string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string>A powerful attack available in Sword<lf>Mode. An extra damage-dealing<lf>explosion will occur if used in the<lf>Amped State. You will morph into<lf>Axe Mode after the attack.
+<string>
+<string><REF ActionGuideDataNameText_Wp08_26943142>
+<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>A powerful attack only available in<lf>the Amped State.<lf><lf>You can also use <ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"> to follow up an<lf>Element Discharge with a Full Release<lf>Slash. After the attack, you will morph<lf>into Axe Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -981,7 +1097,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string><ICON WP09 merge="PL_ATTACK_00,HOLD_ON"> While Charging
-<string>Boosts the Charge Blade's sword after<lf>an Element Boost. While empowered,<lf>sword attacks will not deflect off of a<lf>monster's hide.
+<string>Boosts the charge blade's sword after<lf>an Element Boost. While empowered,<lf>sword attacks will not deflect off of a<lf>monster's hide.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1005,7 +1121,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_2051596032>
 <string><ICON WP09 PL_ATTACK_SP>
-<string>An attack that will morph your weapon<lf>from Sword Mode to Axe Mode.
+<string>An attack that will morph your weapon<lf>from Axe Mode to Sword Mode.
 <string>
 <string><REF ActionGuideDataNameText_Wp09_708029760>
 <string><ICON WP09 PL_AIM><ICON PLUS><ICON WP09 PL_ATTACK_SP_B>
@@ -1014,7 +1130,7 @@
 <string><REF ActionGuideDataNameText_Wp09_m970370816>⇔<REF ActionGuideDataNameText_Wp09_1106936064>
 <string>The charge blade is able to morph<lf>between two modes: Sword Mode<lf>and Axe Mode. If your shield is readied<lf>while morphing, you will automatically<lf>guard against attacks.
 <string>
-<string>Guarding attacks
+<string>Guarding Attacks
 <string>Some attacks in Sword Mode can also<lf>guard. Timing a move so the shield<lf>faces the incoming attack will let you<lf>automatically guard.<lf><lf>After successfully guarding with one<lf>of these Sword Mode attacks, press<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01> (with Element Boost) to<lf>follow up with an Axe: Super Amped<lf>Element Discharge.
 <string>
 <string>Charge Gauge
@@ -1151,7 +1267,7 @@
 <string>If you attack while in Focus Mode<lf>(using <ICON WP10 PL_AIM>), your Kinsect will attack<lf>at the same time while simultaneously<lf>harvesting Extract.<lf><lf>Your Kinsect's trajectory will also<lf>change in accordance with your attacks.
 <string>
 <string><REF RefStatus_0008_002_00>
-<string>Kinsects will leave behind a cloud<lf>of dust called Kinsect Powder when<lf>attacking a marked monster part.<lf>Attacking the powder will detonate<lf>it, triggering a number of different<lf>effects.<lf><lf><COLOR preset="TXT_Accent">Blast</COLOR>: Builds up Blast<lf><COLOR preset="TXT_Accent">Poison</COLOR>: Builds up Poison<lf><COLOR preset="TXT_Accent">Paralysis</COLOR>: Builds up Paralysis<lf><COLOR preset="TXT_Accent">Recover</COLOR>: Slightly restores your health
+<string>Kinsects will leave behind a cloud<lf>of dust called Kinsect Powder when<lf>attacking a marked monster part.<lf>Attacking the powder will detonate<lf>it, triggering a number of different<lf>effects.<lf><lf><COLOR preset="TXT_Accent">Blast</COLOR>: Builds up blast<lf><COLOR preset="TXT_Accent">Poison</COLOR>: Builds up poison<lf><COLOR preset="TXT_Accent">Paralysis</COLOR>: Builds up paralysis<lf><COLOR preset="TXT_Accent">Recover</COLOR>: Slightly restores your health
 <string>
 <string>Extracts
 <string>A substance extracted from monsters.<lf>There are four kinds: Red, White,<lf>Orange, and Green. The color you can<lf>extract differs depending on the parts<lf>of each monster.<lf><lf>Absorb gathered Extracts by recalling<lf>your Kinsect. Each color grants a<lf>different effect, but multiple colors<lf>at once will yield even more effects.<lf><lf>The effects end after some time.
@@ -1213,6 +1329,7 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
+<string><ICON WP_LIGHTBOWGUN> Light Bowgun
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1223,7 +1340,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> After Firing
-<string>Press <ICON WP13 PL_ATTACK_01> after firing a Power Shot,<lf>a stronger attack that also restores<lf>more energy.<lf><lf>It cannot be chained into after Focus<lf>Blast or with Special Ammo.
+<string>Press <ICON WP13 PL_ATTACK_01> after firing to perform a<lf>Chaser Shot, which is stronger than<lf>and restores more Rapid Fire Gauge<lf>than a normal shot.<lf><lf>It cannot be chained into after firing<lf>Focus Blast or Special Ammo.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>
@@ -1266,6 +1383,9 @@
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
 <string>Places a bomb that detonates when<lf>attacked. This explosive ammo will<lf>gradually be restored over time.
 <string>
+<string><REF RefEquipment_0007_03_01>
+<string>Use <ICON WP13 PL_ATTACK_SP> to load a special kind of ammo<lf>that sticks to monsters. Attacking<lf>it while it's stuck to a monster will<lf>increase the damage it will deal<lf>when it explodes.<lf><lf>Ammo will gradually be restored<lf>over time.
+<string>
 <string><ICON WP_HEAVYBOWGUN> Heavy Bowgun
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
@@ -1304,8 +1424,14 @@
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string>Special Ammo that can be used during<lf>Ignition Mode.<lf><lf>Use <ICON WP12 merge="PL_ATTACK_SP,HOLD_ON"> to continuously fire, with<lf>power increasing as you hit a target.
 <string>
+<string><REF ActionGuideDataNameText_Wp12_195481808>
+<string>Special Ammo that can be used during<lf>Ignition Mode.<lf><lf>This ammo will slowly pierce through<lf>targets, increasing in power the more<lf>it hits your target.
+<string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
 <string>Special ammo that can be used during<lf>Ignition Mode.<lf><lf>Unleashes a close-range attack with<lf>an offset effect. Press and hold <ICON WP12 PL_ATTACK_00><lf>to increase power when firing.
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1481543424>
+<string>Special ammo that can be used during<lf>Ignition Mode.<lf><lf>Unleashes a mid-range attack that<lf>hits a wide area.
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
 <string>Hit a monster's wound or weak point<lf>to cause a piercing explosion, dealing<lf>significant damage.<lf><lf>Ammo will automatically restore<lf>over time.
@@ -1318,6 +1444,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>An attack that quickly fires arrows over<lf>a wide area. Does not consume stamina.
 <string>
+<string><ICON WP_BOW> Bow
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string>Draw your bow to shoot arrows.<lf><lf>Hold <ICON WP11 PL_ATTACK_SP> to increase your charge<lf>level.<lf><lf>The higher your charge level, the more<lf>potent you attacks will be.<lf><lf>Press <ICON WP11 PL_ATTACK_01> after shooting to perform<lf>Power Shot.

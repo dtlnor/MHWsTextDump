@@ -4,6 +4,7 @@
 <string>Équipement
 <string>Pause
 <string>Options
+<string>Changer la langue
 <string>Sauvegarder
 <string>Retourner à l'écran titre
 <string>Configuration des commandes
@@ -12,6 +13,7 @@
 <string>Commandes de la manette
 <string>Configuration du clavier
 <string>Fusée de détresse
+<string>{0}
 <string>Envoyer une fusée de détresse
 <string>Annuler la fusée de détresse
 <string>Abandonner la quête
@@ -21,6 +23,7 @@
 <string>Groupe relié
 <string>Inviter au groupe relié
 <string>Quitter le groupe relié
+<string>Inviter à l'environnement relié
 <string>Quitter l'environnement relié
 <string>Dissoudre l'environnement relié
 <string>Voir les membres reliés
@@ -34,8 +37,11 @@
 <string>Déploiement du Palico
 <string>Déployé
 <string>En attente
+<string>Changer la musique
 <string>Poster/Rejoindre une quête
 <string>Afficher l'écran de départ
+<string>Acheter
+<string>Vendre
 <string>Communication
 <string>Personnaliser le menu radial
 <string>Guide de survie
@@ -51,6 +57,10 @@
 <string>Récupération de statut optimale
 <string>Quitter
 <string>Résultats de quête
+<string>Forger/Améliorer des armes
+<string>Forger/Améliorer des armures
+<string>Améliorer depuis le coffre
+<string>Forger/Améliorer (liste de souhaits)
 <string>Inviter un ami
 <string>Sacoche de terrain
 <string>Demandes de participation
@@ -59,16 +69,27 @@
 <string>Liste d'invitations
 <string>Infos Chasseurs de soutien
 <string>Mode photo
+<string>Bestiaire
+<string>Grands monstres
+<string>Petits monstres
+<string>Faune endémique
+<string>Faune aquatique
 <string>Apparence physique
 <string>Notification d'absence
 <string>Carte du monde
 <string>Infos de quête
+<string>Ornements du Seikret
+<string>Personnalisation du Seikret
 <string>Menu d'apparence
+<string>Acheter du matériel
+<string>Importer
+<string>Forger/Améliorer des talismans
 <string>Lobby recommandé
 <string>Rejoindre immédiatement un lobby, quels que soient les paramètres.
+<string>Lobby temporaire
 <string>Recherche de lobby
 <string>Lobby privé
-<string>Créer un lobby privé, accessible uniquement avec une recherche Par ID du lobby. (Moins de membres autorisés qu'un Lobby général.)
+<string>Créer un lobby privé, accessible uniquement avec une recherche par ID du lobby. (Moins de membres autorisés qu'un lobby général.)
 <string>Solo en ligne
 <string>Démarrer le jeu en mode en ligne sans rejoindre de lobby.
 <string>Recommandé
@@ -76,17 +97,29 @@
 <string>Rechercher des lobbys remplissant des conditions spécifiques.
 <string>Lobbys d'amis de chasse
 <string>Rechercher des lobbys rejoints par vos amis de chasse.
+<string>Lobbys des Clans
+<string>Rechercher les lobbys des Clans dont vous faites partie.
 <string>Par ID du lobby
 <string>Rechercher un lobby par son ID.
 <string>Sélectionner lobby
 <string>Vers autre lobby
 <string>Menu de changement de lobby
 <string>Annuler quête
+<string>Gestion de Clan
 <string>Équipement du Palico
+<string>Forger de l'équipement Palico
 <string>Réessayer la mission
 <string>Infos Palico
+<string>Vendre des matériaux Artian
+<string>Forger des armes Artian
+<string>Gérer les armes Artian
+<string>Renforcer
+<string>Démonter
+<string>Apparence de l'équipement
+<string>Apparence de l'équipement du Palico
 <string>Démonter camp provisoire
 <string>Retirer/réparer camp provis.
+<string>Personnaliser les camps provisoires
 <string>Gérer les camps provisoires
 <string>Personnaliser le fusarbalète
 <string>Commandes de base
@@ -94,6 +127,8 @@
 <string>Commandes
 <string>Commandes (hache)
 <string>Commandes (épée)
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_3
+<string><COLOR FF0000>#Rejected#</COLOR> RefMenu_110_00_4
 <string>Propriétés des armes
 <string>Combos recommandés
 <string>Utiliser des objets
@@ -116,13 +151,44 @@
 <string>Inviter dans l'environnement relié
 <string>Dissoudre l'environnement relié
 <string>Infos attaques oui/non
+<string>Liste de souhaits
 <string>Dissoudre lobby
 <string>L'option Dissoudre n'est disponible que pour les hôtes de lobby privé.
+<string>Fusion wyvérienne
+<string>Créer des reliques
+<string>Créer des joyaux
+<string>Créer des sphères d'armure
+<string>Créer du minerai
+<string>Dons du festival
+<string>Câliner
+<string>Renommer
+<string>Saisissez le nom du Poogie.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité à 15 environ.</COLOR>
+<string>{0}<lf>Confirmer ce nom ?
+<string>Gérer les kinsectes
+<string>Élever des kinsectes
+<string>Acheter des kinsectes
+<string>Missions
+<string>Vendre de l'équipement
+<string>Vendre de l'équipement Palico
+<string>Vendre des joyaux
+<string>Paramètres de la tente
 <string>Précommander le jeu complet
 <string>Votre Palico vous accompagnera lors des quêtes !
 <string>Votre Palico est en attente.
+<string>Options d'entraînement
+<string>Retourner au camp de base
+<string>Retourner au camp de base ?
 <string>Menu des quêtes
 <string>Menu des objets
 <string>Menu d'équipement
 <string>Menu du Palico
 <string>Menu de la Forge
+<string>Choisir effets métamorphose
+<string>Album
+<string>Équipement recommandé
+<string>Voir/Compléter Requêtes Spéciales
+<string>Dernières informations
+<string>Zoologie : monstres
+<string>Bonus de connexion
+<string>Récupérer du contenu
+<string>Voir les Requêtes Spéciales

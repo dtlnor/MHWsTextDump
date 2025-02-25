@@ -2,11 +2,12 @@
 <string>Conectando...
 <string>Iniciando o jogo.
 <string>Pedido inválido.<lf>{0}
-<string>Falha ao obter informação.
+<string>Falha ao obter informação.<lf>{0}
 <string>Conectando...
 <string>Verificando conexão com o servidor...
 <string>Ocorreu um erro de comunicação.<lf>{0}
 <string>Houve um erro de comunicação.<lf>Voltando à tela inicial.<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Alguns recursos do modo multijogador online<lf>não estarão disponíveis.<lf><lf>Registre-se com {0} para acessar<lf>todos os recursos do modo multijogador online.
 <string>Esta conta não atende aos requisitos<lf>para o multijogador online.
 <string>Não foi possível conectar à rede.<lf>Voltando à tela inicial.
@@ -15,19 +16,34 @@
 <string>Não foi possível conectar-se a {0}.<lf>{1}
 <string>Conexão com {0} perdida.<lf>{1}
 <string>Você está no Modo Offline. Você continuará jogando<lf>normalmente. Para voltar ao Modo Online, converse<lf>com seu operador para acessar as funções de<lf>comunicação no Menu de Troca de Lobby.
-<string>Você está no Modo Offline.<lf>Para voltar ao Modo Online, fale com a Assistente<lf>e acesse as funções de comunicação no Menu de<lf>Troca de Lobby.
+<string>Você está no Modo Offline. Para voltar ao Modo<lf>Online, fale com sua Assistente e acesse as<lf>funções de comunicação no Menu de Troca de Lobby.
 <string>Alterado para o modo Um Jogador Online devido à<lf>inatividade. Você continuará jogando normalmente.<lf>{0}
-<string>Não foi possível enviar pois já possuem amizade,<lf>ou está esperando resposta de um convite.<lf>{0}
+<string>Não foi possível enviar pois já possuem<lf>amizade, ou está esperando uma resposta<lf>de uma solicitação.<lf>{0}
 <string>Falha ao enviar. Você ou a outra pessoa já<lf>atingiram o limite de Amigos Caçadores.<lf>{0}
+<string>Você atingiu o limite de Amigos Caçadores,<lf>não é possível adicionar mais jogadores.<lf>{0}
+<string>Falha ao enviar porque a outra pessoa já atingiu<lf>o limite de Amigos Caçadores.<lf>{0}
+<string>Você atingiu o limite de Pedidos de Amizade,<lf>não é possível enviar mais pedidos.<lf>{0}
+<string>Falha ao enviar porque a outra pessoa já atingiu<lf>o limite de Pedidos de Amizade.<lf>{0}
 <string>Você já segue este jogador.<lf>{0}
 <string>Não é possível seguir mais jogadores, você<lf>atingiu o limite.<lf>{0}
 <string>Iniciando rede...
 <string>Uma nova versão do jogo foi encontrada. Para<lf>usar recursos de rede, feche o jogo e realize<lf>a atualização.
 <string>Dados de Caçador sobrescritos.<lf>Estes dados salvos ainda podem ser usados,<lf>mas seus dados de Amigos Caçadores, listas<lf>de Seguindo/Seguidores e de Esquadrões<lf>foram redefinidos.
 <string>O jogador já entrou no Grupo de Elo.<lf>{0}
-<string>O número máximo de jogadores do Grupo de Elo<lf>já foi alcançado. Não é possível adicionar outros<lf>jogadores.<lf>{0}
-<string>Você não pode reportar neste momento.<lf>Tente novamente mais tarde.<lf>{0}
+<string>Limite de jogadores do Grupo de Elo atingido.<lf>Não é possível adicionar mais jogadores.<lf><lf>{0}
+<string>Falha ao enviar pois o outro jogador atingiu<lf>o limite de convites para o Grupo de Elo.<lf>{0}
+<string>Não é possível enviar a denúncia no momento.<lf>Aguarde um pouco e tente novamente.<lf><lf>{0}
 <string>Sua conta atual não atende aos requisitos<lf>para jogar o jogo.
+<string>Dados de criação de personagem do teste beta<lf>não encontrados.<lf>{0}
+<string>Falha ao obter dados de criação de personagem<lf>do teste beta.<lf>{0}
+<string>Convite de Grupo de Elo enviado.<lf>{0}
+<string>Não foi possível obter informações de conquistas<lf>de sua conta. Verifique se há problemas na conexão<lf>com a internet ou com a situação da conta.<lf>{0}
+<string>Designs não podem ser enviados desta conta.<lf>{0}
+<string>Configurações não podem<lf>ser compartilhadas desta conta.<lf>{0}
+<string>Não foi possível enviar Sinalizador SOS.<lf>{0}
+<string>Este recurso está indisponível devido a<lf>uma manutenção. Aguarde um pouco e<lf>tente novamente.<lf>{0}
+<string>Você atingiu o limite de bloqueios e<lf>não pode bloquear mais jogadores.<lf>{0}
+<string>No momento, os servidores estão<lf>em manutenção programada.<lf>{0}
 <string>A conexão com a sessão foi perdida.<lf>{0}
 <string>Falha ao criar sessão.<lf>{0}
 <string>Falha ao buscar sessão.<lf>{0}
@@ -36,11 +52,11 @@
 <string>Não foi possível encontrar o lobby.<lf>{0}
 <string>Sessão cheia, não foi possível entrar.<lf>{0}
 <string>Buscando lobby...
-<string>Entrar em um lobby recomendando?
+<string>Entrar em um lobby recomendado?
 <string>Entrar no lobby?
 <string>Criar um lobby privado?
 <string>Começar o jogo sem entrar num lobby?<lf>(Você pode entrar num lobby após iniciar o jogo.)
-<string>Buscar ID do Lobby.<lf>(Limite de oito caracteres, diferencia caixa alta.)
+<string>Buscar ID do Lobby.<lf><lf><COLOR preset="TXT_Accent">(Nota: IDs do Lobby usam oito caracteres<lf>alfanuméricos e diferenciam caixa alta.)</COLOR>
 <string>Falha ao entrar na sessão. Missão encerrada.
 <string>Desfazer seu lobby privado atual?
 <string>Não foi possível se juntar à missão.<lf>A senha inserida está incorreta.
@@ -49,7 +65,10 @@
 <string>Entrando no Grupo de Elo.
 <string>O servidor está ocupado no momento.<lf>Tente novamente mais tarde.
 <string>O crossplay está atualmente habilitado.
-<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "D de MMMM de YYYY, HH:mm"><lf><lf>Sua conta violou os seguintes termos: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, as <COLOR preset="TXT_Accent">funções de comunidade<lf>foram temporariamente restritas</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso.</COLOR>
+<string>Não é possível participar desta sessão devido<lf>às configurações de crossplay da outra pessoa.<lf>{0}
+<string>Falha ao participar pois a sessão tem<lf>configurações diferentes de jogo em<lf>crossplay. Veja suas configurações em<lf><BOLD>Opções</BOLD> na tela inicial do jogo.<lf>{0}
+<string>Limite de jogadores do Grupo de Elo atingido.<lf>Não é possível adicionar mais jogadores.<lf><lf>{0}
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta violou os seguintes termos: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, as <COLOR preset="TXT_Accent">funções de comunidade<lf>foram temporariamente restritas</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso.</COLOR>
 <string>Comportamento Abusivo/Desordeiro
 <string>Tipos de Comportamento Proibido
 <string>Texto Inapropriado
@@ -61,6 +80,23 @@
 <string>Verifique qualquer texto editável, como seu Perfil de Caçador<lf>e os comentários de Esquadrão, e atualize o conteúdo<lf>de acordo com as normas. Não atualizar o conteúdo textual<lf>ou a reincidência de atualizações que violem os Termos de Uso<lf>podem resultar em restrições permanentes.
 <string>Além disso, os nomes de Caçador(a) e Amigato serão alterados<lf>para o padrão "Caçador/Amigato".
 <string><COLOR preset="TXT_Danger">Conta suspensa permanentemente</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Sua conta foi suspensa permanentemente</COLOR> por violações confirmadas<lf>de nossos Termos de Uso.<lf><lf>A conta em questão não poderá acessar o modo online de<lf>Monster Hunter Wilds. Não oferecemos maneiras de remover<lf>a suspensão permanente de uma conta, de acordo com nossos<lf>Termos de Uso.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comportamento ofensivo</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf>Comportamentos similares ou reincidentes podem<lf>resultar em restrições permanentes.<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos<lf>de Uso e o Contrato de Licença de Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">violar nossos Termos de Uso<lf>a respeito de linguagem inapropriada</COLOR>. Assim, as <COLOR preset="TXT_Accent">funções<lf>de comunidade foram temporariamente restritas</COLOR>.<lf><lf>Comportamentos similares ou reincidentes podem<lf>resultar em restrições permanentes. <COLOR preset="TXT_Accent">Pedimos que jogue<lf>de acordo com os Termos de Uso e o Contrato de Licença de<lf>Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comentários inapropriados</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf>Verifique seu Perfil de Caçador e remova toda linguagem<lf>inapropriada dos Comentários. Não remover este conteúdo<lf>ou comportamentos similares podem resultar em restrições<lf>permanentes. <COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos<lf>de Uso e o Contrato de Licença de Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comentários inapropriados<lf>de esquadrão</COLOR>. Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram<lf>temporariamente restritas</COLOR>.<lf><lf>Os comentários em questão foram excluídos. Comportamentos<lf>similares ou reincidentes podem resultar em restrições<lf>permanentes. <COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos<lf>de Uso e o Contrato de Licença de Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comportamento inapropriado</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso e o<lf>Contrato de Licença de Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">conteúdo inapropriado</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf>O conteúdo inapropriado em questão será exibido como<lf>padrão (ex.: Caçador/Amigato) para outros usuários.<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso e o<lf>Contrato de Licença de Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">violação de nossos Termos<lf>de Uso e/ou do Contrato de Licença de Usuário Final (CLUF)<lf>em relação a comportamentos proibidos</COLOR>. Assim, as <COLOR preset="TXT_Accent">funções<lf>de comunidade foram temporariamente restritas</COLOR>.<lf><lf>Comportamentos similares ou reincidentes podem resultar em<lf>restrições permanentes. <COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os<lf>Termos de Uso e o Contrato de Licença de Usuário Final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Danger">Conta suspensa permanentemente</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Sua conta foi suspensa permanentemente</COLOR> por violações<lf>confirmadas de nossos Termos de Uso e/ou do Contrato de Licença<lf>de Usuário Final (CLUF).<lf><lf>A conta em questão não poderá acessar o modo online de<lf>Monster Hunter Wilds. Não oferecemos maneiras de remover<lf>a suspensão permanente de uma conta, de acordo com nossos<lf>Termos de Uso e do Contrato de Licença de Usuário Final (CLUF).
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">suspeita de comportamento<lf>ofensivo</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>. Comportamentos similares ou reincidentes podem<lf>resultar em restrições permanentes. <COLOR preset="TXT_Accent">Pedimos que jogue de<lf>acordo com os Termos de Uso e o Contrato de Licença de<lf>Usuário Final (CLUF).</COLOR> Se acredita não haver razão para esta<lf>ação, entre em contato através de um formulário de consulta.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">suspeita de linguagem ou<lf>conteúdo inapropriado</COLOR>. Assim, as <COLOR preset="TXT_Accent">funções de comunidade<lf>foram temporariamente restritas</COLOR>. Comportamentos similares<lf>ou reincidentes podem resultar em restrições permanentes.<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso e o<lf>Contrato de Licença de Usuário Final (CLUF).</COLOR> Se acredita<lf>não haver razão para esta ação, entre em contato através<lf>de um formulário de consulta.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">suspeita de violação de nossos<lf>Termos de Uso e/ou do Contrato de Licença de Usuário Final<lf>(CLUF) em relação a comportamentos proibidos</COLOR>. Assim,<lf>as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente restritas</COLOR>.<lf>Comportamentos similares ou reincidentes podem resultar em<lf>restrições permanentes. <COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os<lf>Termos de Uso e o CLUF.</COLOR> Se acredita não haver razão para esta<lf>ação, entre em contato através de um formulário de consulta.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comportamento ofensivo</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf>Comportamentos similares ou reincidentes podem resultar<lf>em restrições permanentes.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">linguagem inapropriada</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf>Comportamentos similares ou reincidentes podem resultar<lf>em restrições permanentes.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comportamento inapropriado</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">conteúdo inapropriado</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf>O conteúdo inapropriado em questão será exibido como<lf>padrão (ex.: Caçador/Amigato) para outros usuários.
+<string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta foi sinalizada por <COLOR preset="TXT_Danger">comportamento proibido</COLOR>.<lf>Assim, as <COLOR preset="TXT_Accent">funções de comunidade foram temporariamente<lf>restritas</COLOR>.<lf><lf>Comportamentos similares ou reincidentes podem resultar<lf>em restrições permanentes.
+<string><COLOR preset="TXT_Danger">Conta suspensa permanentemente</COLOR>.<lf><lf>Sua conta foi <COLOR preset="TXT_Danger">suspensa permanentemente</COLOR> por uso confirmado de<lf>trapaças.<lf><lf>A conta em questão não poderá acessar<lf><REF RefGeneral_0000_0000_00_OBT>. Não oferecemos<lf>maneiras de remover a suspensão permanente de uma conta durante<lf>o período de Teste Beta Aberto.
 <string>Entrando no Grupo de Elo. Trocar de dados salvos?<lf><COLOR preset="TXT_Danger">(Ao trocar de dados salvos, dados não salvos serão<lf>perdidos.)</COLOR>
 <string>Entrar com os dados salvos atuais
 <string>Entrar com dados salvos diferentes
@@ -69,9 +105,22 @@
 <string>Não foi possível enviar pedido de convite.<lf>{0}
 <string>Não é possível entrar pois a função Grupo de Elo<lf>ainda não foi desbloqueada.
 <string>Abrir a tela de convite de amigo para<lf>enviar Convite de Grupo de Elo?
+<string>Quer jogar Monster Hunter Wilds comigo?
 <string>Quer jogar Monster Hunter Wilds Beta test comigo?
+<string>Convite recebido.<lf><COLOR preset="TXT_Accent">(Ele aparecerá assim que a cena ou o carregamento<lf>terminar, ou quando o Menu de Config. for fechado.)</COLOR>
+<string>Não foi possível entrar no Grupo de Elo porque as<lf>funcionalidades não estão disponíveis atualmente.
+<string>O jogo iniciará no modo offline.<lf><lf>Para jogar o modo multijogador online, é obrigatória a adesão<lf>à aquisição de informações pessoais. Você ainda pode jogar<lf>sem concordar com os termos, mas certos recursos estarão<lf>indisponíveis. Para mudar suas configurações de Política<lf>de Privacidade, acesse a seção <BOLD>Privacidade</BOLD> na tela inicial.<lf>
+<string>O modo multijogador online fica restrito até você<lf>consentir com a aquisição de informações pessoais.<lf>Para mudar suas Configurações, veja a seção de<lf><BOLD>Privacidade</BOLD> na tela inicial.<lf>{0}
 <string>Aguardando outros usuários...
 <string>Aguarde.<lf><lf>Você poderá começar quando a equipe sinalizar.
 <string>Partir
 <string>Ocorreu um erro. Informe a equipe próxima.
 <string>Falha ao adquirir dados de transmissão.<lf>{0}
+<string>{0}<lf>Falha ao buscar o ID de Esquadrão acima.<lf>{1}
+<string>Convites ou Pedidos de Esquadrão ultrapassaram<lf>a capacidade máxima.<lf><lf>{0}
+<string>Falha ao entrar no esquadrão.<lf><lf>{0}
+<string>Falha ao ativar esquadrão.<lf>Revise as configurações de esquadrão.<lf><lf>{0}
+<string>{0}<lf>Não existem informações de Esquadrão do ID acima.<lf>{1}
+<string>Falha ao atualizar dados de esquadrão.<lf>{0}
+<string>Falha ao enviar porque o outro grupo atingiu<lf>o limite de Esquadrões em que pode entrar.<lf>{0}
+<string>Como seu esquadrão alcançou um certo número<lf>de membros, agora você pode criar lobbies de<lf>esquadrão com maior capacidade de membros.<lf>Por isso, seu lobby de esquadrão atual será desfeito.<lf><lf>Pedimos desculpas pelo inconveniente causado.<lf>Faça um novo lobby de esquadrão no Menu de Troca de Lobby.

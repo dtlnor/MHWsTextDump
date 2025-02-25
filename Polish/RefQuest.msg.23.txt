@@ -9,6 +9,37 @@
 <string>Prognoza
 <string>Działania gracza mogą zmienić prognozę.
 <string>Szczegółowe informacje
+<string>Ekologia potworów
+<string>Ekologia lokalnej fauny
+<string>Ekologia fauny wodnej
+<string>Znane środowiska naturalne
+<string>Charakterystyka
+<string>Notatki badacza
+<string>Atak specjalny
+<string>Sugerowana strategia
+<string>Pomocne wskazówki
+<string>Skóra
+<string>Szczegółowa strategia
+<string>Zalecany atak żywiołu
+<string>Skuteczne efekty statusu
+<string>Skuteczne przedmioty
+<string>Materiały do zdobycia
+<string>Materiały niskiego poziomu
+<string>Materiały wysokiego poziomu
+<string>Przedmioty do zdobycia
+<string>Częstotliwość
+<string>Dostępność/Prawdopodobieństwo
+<string>Rejestr łowów
+<string>Upolowane
+<string>Zgładzone
+<string>Złapane
+<string>Rozmiar
+<string>Największe
+<string>Najcięższe
+<string>Rozmiar
+<string>Najmniejsze
+<string>Powiązane przedmioty/umiejętności
+<string>Odblokowywane tytuły
 <string>Polowanie
 <string>Zgładzanie
 <string>Łapanie
@@ -16,21 +47,29 @@
 <string>Transport
 <string>Specjalne
 <string>Rozpocznij badanie terenu
+<string>Zapisz jako śledztwo
 <string>Utwórz zadanie
 <string>Przyjmij zadanie
+<string>Wydać {0} <PLURAL {0} "punkt" "punkty" "punktów">, żeby zapisać jako śledztwo?
+<string>Zapisano jako śledztwo.
+<string><COLOR preset="TXT_Danger">Zbyt mało punktów Gildii.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganego postępu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganego postępu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć, ponieważ nie osiągnięto wymaganej rangi łowcy.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można przyjąć/dołączyć,<lf>ponieważ nie osiągnięto<lf>wymaganej rangi łowcy.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się zacząć badania terenu.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można zapisać jako śledztwa.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie udało się zapisać jako śledztwa.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można powtórzyć ukończonych zleceń.</COLOR>
 <string><COLOR preset="TXT_Danger">Graczowi/Graczom nie udało się dołączyć z powodu ustawień rozgrywki wieloosobowej.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się dołączyć, ponieważ osiągnięto już maksymalną liczbę osób.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się dołączyć z powodu ustawień uprawnień platformy.</COLOR>
-<string><COLOR preset="TXT_Danger">Nie spełniasz wymagań przyjęcia tego zadania lub dołączenia do niego.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie spełniono niezbędnych warunków do przyjęcia tego zadania lub dołączenia do niego.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie możesz przyjąć tego zadania lub do niego dołączyć.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się przyjąć tego zadania lub do niego dołączyć.</COLOR>
+<string><COLOR preset="TXT_Danger">Osiągnięto maksymalną liczbę zapisanych śledztw. Nie można zapisać więcej.</COLOR>
+<string><COLOR preset="TXT_Danger">To śledztwo już zostało zapisane.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu, ponieważ członek grupy wyświetla wyniki zadania.</COLOR>
 <string>Powrót do ekr. tytuł.
 <string>Spróbuj ponownie
@@ -50,6 +89,7 @@
 <string>Nagrody za misję poboczną
 <string>Nagrody za zadanie
 <string>Dodatkowe nagrody
+<string>Skrzynka wyceny
 <string>Dodatkowe nagrody za cel
 <string>Nagrody za cel
 <string>Materiały w nagrodę
@@ -59,14 +99,27 @@
 <string>Powrót
 <string>Zacznij<lf>zadanie
 <string>Zadanie<lf>przyjęte
+<string>Wszystkie zadania
 <string>Zlecenia
 <string>Zadania opcjonalne
 <string>Badanie terenu
+<string>Historia badania terenu
+<string>Śledztwa
+<string>Niezapisane śledztwo
+<string>Zapisane śledztwo
+<string>Zadania z wydarzeń
+<string>Zadania na Arenie
+<string>Wyzwania
 <string>Ustawienia
+<string>Dom
 <string>Wyświetlaj wszystko
 <string>Zadania członków lobby
 <string>Zadania z flarą alarmową
 <string>Zadania członków grupy
+<string>Koszt
+<string>Czas rozpoczęcia badania terenu
+<string>Pozostałe
+<string>{0}
 <string>Принимать игроков
 <string>Dostosuj metodę przyjmowania do zadań. <COLOR preset="TXT_Accent">(Członkowie grupy, którzy otrzymają zaproszenie do zadania, będą automatycznie przyjęci)</COLOR>
 <string>Automatycznie
@@ -107,7 +160,12 @@
 <string>{0} chce zaoferować posiłek!
 <string>{0} chce porozmawiać!
 <string>Dostępne zadanie: {0}
-<string>{0}: spełniono warunki ukończenia!
+<string>{0}: gotowe do zgłoszenia!
+<string>Premia do pozyskiwania aktywna! (<PLURAL {0} "Został {0} dzień "Zostały {0} dni" "Zostało {0} dni">)
+<string>Chyba ma wpływ na miejscowe osady!
+<string>Osada ma problem z potworem!
+<string>Upoluj go, aby zdobyć tymczasową premię do pozyskiwania.
+<string>Sz. Szron. Łańc.: pojawia się {0}!
 <string>Maksymalna liczba członków
 <string>Ustaw maksymalną liczbę graczy mogących dołączyć do zadań. <COLOR preset="TXT_Accent">(Liczba będzie różna w zależności od maks. liczby członków grupy)</COLOR>
 <string>1
@@ -155,11 +213,18 @@
 <string>Wysoka trudność
 <string>Mała trudność
 <string>Rosnąco
-<string>Opadająco
+<string>Malejąco
 <string>Zalecane
+<string>Usuń śledztwo
+<string>Usunąć wybrane śledztwo?<lf><lf>Uwaga: Jeśli zadanie pozostanie w twojej<lf><COLOR preset="TXT_Accent">historii badań terenu</COLOR>, historia również<lf>zostanie usunięta.
+<string>Śledztwo usunięte.
+<string>Możesz zaakceptować to zadanie następującą<lf>liczbę razy: {0}.<lf>Zaakceptować zadanie i zapisać?
 <string>Zwiększyć tymczasowo maksymalną liczbę graczy dla<lf>tego zadania? <COLOR preset="TXT_Accent"> (Nie można zmienić ponownie do momentu<lf>ukończenia zadania)</COLOR>
 <string>Zlecenia
 <string>Zadania opcjonalne
+<string>Historia badania terenu (najnowsze: {0})
+<string>Śledztwa (zapisane: {0})
+<string>Zadania z wydarzeń
 <string>Zadania członków grupy ({0})
 <string>Zadania członków grupy
 <string>Zadania z flarą alarmową ({0})

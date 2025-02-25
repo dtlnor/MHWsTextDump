@@ -9,7 +9,7 @@
 <string>效果时间
 <string>体力
 <string>耐力
-<string>攻击力
+<string>基础攻击力
 <string>防御力
 <string>属性耐性
 <string>状态效果
@@ -33,6 +33,7 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>要以个人组合的内容烹饪吗？
 <string>食材不足，无法开始烹饪。
 <string>要中止登记吗？<lf>（编辑中的内容将不会被保存）
@@ -40,3 +41,5 @@
 <string>{0}+{1}
 <string>{0}+{1}　{2}+{3}
 <string><COLOR preset="TXT_Danger">未持有生肉，无法烤肉。</COLOR>
+<string><COLOR preset="TXT_Danger">烹饪所需食材不足。</COLOR>
+<string><COLOR preset="TXT_Danger">道具袋空间不足，无法烤肉。</COLOR>

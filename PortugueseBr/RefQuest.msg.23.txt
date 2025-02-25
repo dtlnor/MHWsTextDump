@@ -9,6 +9,37 @@
 <string>Previsão do Tempo
 <string>As ações de jogador podem mudar a previsão do tempo.
 <string>Informações Detalhadas
+<string>Ecologia do Monstro
+<string>Ecologia de Vida Nativa
+<string>Ecologia de Vida Aquática
+<string>Habitats Conhecidos
+<string>Características
+<string>Anotações de Pesquisador
+<string>Ataque Especial
+<string>Estratégia Sugerida
+<string>Dicas Úteis
+<string>Ocultar
+<string>Estratégia Detalhada
+<string>Ataque Elemental Recomendado
+<string>Efeitos de Status Eficazes
+<string>Itens Eficazes
+<string>Materiais Adquiríveis
+<string>Materiais Ranque Baixo
+<string>Materiais Ranque Elevado
+<string>Itens Adquiríveis
+<string>Frequência
+<string>Disponibilidade/Probabilidade
+<string>Histórico de Caçadas
+<string>Caçados
+<string>Abatidos
+<string>Capturados
+<string>Tamanho Caçado
+<string>Maior
+<string>Mais Pesado
+<string>Tamanho
+<string>Menor
+<string>Itens Relacionados/Habilidades
+<string>Títulos Desbloqueáveis
 <string>Caçada
 <string>Abate
 <string>Captura
@@ -16,21 +47,29 @@
 <string>Transporte
 <string>Especial
 <string>Iniciar Trabalho de Campo
+<string>Salvar como Investigação
 <string>Criar Missão
 <string>Aceitar Missão
+<string>Gastar {0} <PLURAL {0} "ponto" "pontos"> para<lf>salvar como Investigação?
+<string>Salvo como Investigação.
+<string><COLOR preset="TXT_Danger">Pontos de Guilda insuficientes.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar, progresso necessário insuficiente.</COLOR>
-<string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar, progresso<lf>necessário insuficiente.</COLOR>
+<string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar, progresso necessário insuficiente.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar, Ranque de Caçador insuficiente.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar, Ranque de Caçador<lf>insuficiente.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível iniciar o Trabalho de Campo.</COLOR>
 <string><COLOR preset="TXT_Danger">Falha ao iniciar o Trabalho de Campo.</COLOR>
+<string><COLOR preset="TXT_Danger">Não é possível salvar como investigação.</COLOR>
+<string><COLOR preset="TXT_Danger">Falha ao salvar como investigação.</COLOR>
 <string><COLOR preset="TXT_Danger">Serviços concluídos não podem ser repetidos.</COLOR>
 <string><COLOR preset="TXT_Danger">Um ou mais jogadores não conseguiram entrar devido às configurações de multijogador.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível entrar, número máximo de pessoas atingido.</COLOR>
 <string><COLOR preset="TXT_Danger">Falha ao entrar devido às configurações de permissão de plataforma.</COLOR>
-<string><COLOR preset="TXT_Danger">Você não atende os requisitos para aceitar/entrar nesta missão.</COLOR>
+<string><COLOR preset="TXT_Danger">Não atendeu às condições necessárias para aceitar/participar desta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar nesta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Falha ao aceitar/entrar na missão.</COLOR>
+<string><COLOR preset="TXT_Danger">O número máximo de investigações salvas já foi atingido. Não é possível salvar mais nenhuma.</COLOR>
+<string><COLOR preset="TXT_Danger">Esta investigação já foi salva.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível iniciar o Trabalho de Campo, pois um Membro do Elo está visualizando os Resultados da Missão.</COLOR>
 <string>Voltar à Tela Inicial
 <string>Tentar Novamente
@@ -50,6 +89,7 @@
 <string>Prêmios da Campanha Secundária
 <string>Prêmios da Missão
 <string>Prêmios Bônus
+<string>Caixa de Avaliação
 <string>Prêmios de Alvo Adicional
 <string>Prêmios de Monstro-alvo
 <string>Prêmios de Materiais Gerais
@@ -59,25 +99,38 @@
 <string>Voltando<lf>à<lf>Base
 <string>Missão<lf>Iniciada
 <string>Missão<lf>Aceita
+<string>Todas as Missões
 <string>Serviços
 <string>Missões Opcionais
 <string>Trabalho de Campo
+<string>Histórico de Trabalho de Campo
+<string>Investigações
+<string>Investigação Não Salva
+<string>Investigação Salva
+<string>Missões de Evento
+<string>Missões de Arena
+<string>Missões de Desafio
 <string>Configurações
-<string>Exibir Tudo
+<string>Início
+<string>Exibir tudo
 <string>Missões de Membros do Lobby
 <string>Missões de Sinalizador SOS
 <string>Missões de Membros do Elo
+<string>Custo
+<string>Início do Trabalho de Campo
+<string>Restante
+<string>{0}
 <string>Opções de Participação
 <string>Ajusta o método de aceitação para entrar em missões. <COLOR preset="TXT_Accent">(Membros do Elo com convites são aceitos automaticamente.)</COLOR>
-<string>Aceitar automaticamente
-<string>Aceitar manualmente
+<string>Automático
+<string>Manual
 <string>Definir Senha
 <string>Define uma senha para entrar na sua missão. <COLOR preset="TXT_Accent">(Restrições de senha serão removidas se enviar um Sinalizador SOS.)</COLOR>
 <string>Crie uma senha de quatro dígitos.
 <string>Insira a senha.
 <string>Não
 <string>Sim
-<string>{0}min atrás
+<string>{0} min atrás
 <string>-
 <string>Zenny
 <string>Tempo Limite
@@ -89,9 +142,9 @@
 <string>Nenhuma
 <string>Progresso do Alvo Principal
 <string>Condições de Falha
-<string>– Tempo expirar
+<string>Tempo expirar
 <string>Desmaiar 3 vezes
-<string>Desmaiar {0} vezes
+<string>Desmaiar <PLURAL {0} "1 vez" "{0} vezes">
 <string>Desmaios: {0}/{1}
 <string>Cliente: {0}
 <string>Concluído!
@@ -103,11 +156,16 @@
 <string>Buscando veteranos!
 <string>Criação de Missão Indisponível
 <string>Força
-<string>Você pode criar uma missão com vários alvos!
+<string>Crie uma missão com vários alvos!
 <string>{0} quer te oferecer uma refeição!
 <string>{0} quer conversar!
-<string>Missão disponível: {0}!
-<string>{0}: condições de conclusão atendidas!
+<string>Missão disponível: {0}
+<string>{0}: pronta para entregar!
+<string>Reforço de Coleta Ativo! (<PLURAL {0} "resta {0} dia" "restam {0} dias">)
+<string>Parece que afetou assentamentos locais!
+<string>Assentamento com problemas com monstros!
+<string>Caçada com reforço de coleta temporário!
+<string>P. Trancagelado: {0} apareceu!
 <string>Limite de Membros
 <string>Define o número máximo de jogadores que podem entrar nas missões. <COLOR preset="TXT_Accent">(Número varia conforme o número máximo de Membros do Elo.)</COLOR>
 <string>1
@@ -128,8 +186,8 @@
 <string>Permissões de Plataforma
 <string>Selecione de quais plataformas os jogadores podem vir. <COLOR preset="TXT_Accent">(Membros do Elo convidados podem entrar de qualquer plataforma.)</COLOR>
 <string>Busque por missões que tenham "Todas as Plataformas" em suas configurações de recrutamento.
-<string>Se um jogador desativar a opção de jogar entre plataformas, ele não aparecerá nas buscas mesmo se for da mesma plataforma.
-<string>Com "jogar entre plataformas" desativado, as buscas só exibirão missões de outros jogadores com a mesma configuração.
+<string>Se um jogador desativar a opção de jogar em crossplay, ele não aparecerá nas buscas mesmo se for da mesma plataforma.
+<string>Como o crossplay foi desativado na tela inicial, as buscas só exibirão missões de jogadores com a mesma configuração escolhida.
 <string>Todas as plataformas
 <string>Sua plataforma
 <string>Busca por Sinalizador SOS
@@ -157,9 +215,16 @@
 <string>Crescente
 <string>Decrescente
 <string>Recomendado
+<string>Excluir Investigação
+<string>Excluir a investigação selecionada?<lf><lf>Atenção: Se a missão permanecer em seu <COLOR preset="TXT_Accent">Histórico<lf>de Trabalho de Campo</COLOR>, o histórico será excluído.
+<string>Investigação excluída.
+<string>O número de vezes que você pode<lf>aceitar a missão selecionada é: {0}.<lf>Aceitar a missão e salvar?
 <string>Aumentar temporariamente o máximo de jogadores<lf>para missões? <COLOR preset="TXT_Accent">(Não pode ser alterado novamente<lf>até o término da missão.)</COLOR>
 <string>Serviços
 <string>Missões Opcionais
+<string>Histórico de Trabalho de Campo (Mais Recente {0})
+<string>Investigações ({0} <PLURAL {0} "salva" "salvas">)
+<string>Missões de Evento
 <string>Missões de Membros do Elo ({0})
 <string>Missões de Membros do Elo
 <string>Missões de Sinalizador SOS ({0})

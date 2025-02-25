@@ -1,4 +1,4 @@
-﻿<string>推薦料理
+﻿<string>推薦餐點
 <string>選擇食材
 <string>烹調個人組合
 <string>隨身食物
@@ -9,7 +9,7 @@
 <string>效果時間
 <string>體力
 <string>耐力
-<string>攻擊力
+<string>基礎攻擊力
 <string>防禦力
 <string>屬性耐性
 <string>狀態效果
@@ -33,6 +33,7 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>要以個人組合烹調嗎？
 <string>食材不足，無法開始烹調。
 <string>要中止登錄嗎？<lf>（編輯中的內容將不會保存）
@@ -40,3 +41,5 @@
 <string>{0}+{1}
 <string>{0}+{1}　{2}+{3}
 <string><COLOR preset="TXT_Danger">未持有生肉，無法烤肉。</COLOR>
+<string><COLOR preset="TXT_Danger">烹調所需食材不足。</COLOR>
+<string><COLOR preset="TXT_Danger">道具袋空位不足，無法烤肉。</COLOR>

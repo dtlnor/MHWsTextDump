@@ -33,6 +33,7 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>Start cooking the selected favorite meal?
 <string>This meal could not be cooked because<lf>you don't have enough ingredients.
 <string>Cancel changes?<lf>(Changes will not be saved.)
@@ -40,3 +41,5 @@
 <string>{0}+{1}
 <string>{0}+{1}　{2}+{3}
 <string><COLOR preset="TXT_Danger">Cannot cook meat because you possess no raw meat.</COLOR>
+<string><COLOR preset="TXT_Danger">Insufficient ingredients.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot cook meat because there is not enough free space in your item pouch.</COLOR>

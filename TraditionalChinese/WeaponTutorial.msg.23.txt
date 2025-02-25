@@ -341,10 +341,10 @@
 <string><REF ActionGuideDataNameText_Wp02_165650304>期間攻擊命中時，計量表就會增加，<lf>全滿時<REF ActionGuideDataNameText_Wp02_169030160>，返回一般狀態就會進入<lf><REF ActionGuideDataNameText_Wp02_m661157824>。計量表會隨時間減少，使出<lf>特定攻擊時亦會消耗計量表。
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m661157824>
-<string>部分攻擊獲強化的狀態。使出獲強化的攻擊<lf>會消耗<REF ActionGuideDataNameText_Wp02_m1003266688>，計量表耗盡時會解除<lf><REF ActionGuideDataNameText_Wp02_m661157824>。
+<string>部分攻擊獲得強化的狀態。使出獲得強化的<lf>攻擊會消耗<REF ActionGuideDataNameText_Wp02_m1003266688>，計量表耗盡時會<lf>解除<REF ActionGuideDataNameText_Wp02_m661157824>。
 <string>
 <string><REF ActionGuideDataNameText_Wp02_m933536000>
-<string><REF ActionGuideDataNameText_Wp02_m391958560>成功時短時間內獲強化的狀態。<lf>攻擊的威力和屬性值均會上升，更可於<lf>迴避的同時攻擊。
+<string><REF ActionGuideDataNameText_Wp02_m391958560>成功時短時間內獲得強化的狀態。<lf>攻擊的威力和屬性值均會上升，更可於<lf>迴避的同時攻擊。
 <string>
 <string>【基本連段】
 <string><ICON WP02 PL_ATTACK_00>
@@ -531,22 +531,126 @@
 <string><REF ActionGuideDataNameText_Wp05_m1113914624>
 <string>可抵消魔物攻擊的特殊<REF ActionGuideDataNameText_Wp05_m208341008>攻擊。<lf>亦可用作威力較高的普通攻擊。
 <string>
+<string>威力高的多段特殊<REF ActionGuideDataNameText_Wp05_m208341008>攻擊。最後一擊命中<lf>魔物時會釋放出具貫通效果的音波，造成<lf>更大傷害。
+<string>
+<string><REF ActionGuideDataNameText_Wp05_m1842698112>
+<string>大幅回復體力的<REF ActionGuideDataNameText_Wp05_477278688>。效果強大，<lf>但破綻亦大，要看準時機使用。
+<string>
 <string>旋律效果
 <string><REF ActionGuideDataNameText_Wp05_m1354698240>
 <string>提升移動速度。<REF ActionGuideDataNameText_Wp05_m6258827><REF RefStatus_0008_000_00>後會提升<lf>攻擊力，攻擊亦不會被彈開。
 <string>
+<string><ICON ST_RESIST_WIND><REF MusicSkillDataText_Wp05_33>/<ICON ST_RESIST_WIND_HIGH><REF MusicSkillDataText_Wp05_34>
+<string>獲得對風壓的耐性。
+<string>
+<string><ICON ST_RESIST_STUN><REF MusicSkillDataText_Wp05_32>
+<string>不會昏厥。
+<string>
+<string><ICON ST_RESIST_PARALYSIS><REF MusicSkillDataText_Wp05_31>
+<string>不會麻痺。
+<string>
+<string><ICON ST_RESIST_NOISE><REF MusicSkillDataText_Wp05_28>/<ICON ST_RESIST_NOISE_HIGH><REF MusicSkillDataText_Wp05_29>
+<string>獲得對咆哮的耐性。
+<string>
+<string><ICON ST_RESIST_QUAKE><REF MusicSkillDataText_Wp05_30>
+<string>獲得對地面震動的耐性。
+<string>
+<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
+<string>受攻擊時不會後仰。
+<string>
+<string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
+<string>不會受炎熱、寒冷的原野環境影響，<lf>亦不會受溶岩或尖刺等地形帶來的傷害。
+<string>
+<string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
+<string>在水域或油泥區域時移動不會變慢，<lf>亦不受魔物造成的波浪影響。
+<string>
+<string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
+<string>不會陷入任何狀態異常。
+<string>
+<string><ICON ST_SPIRIT><REF MusicSkillDataText_Wp05_17>
+<string>有一定機率減少所受傷害。
+<string>
+<string><ICON ST_POWER_ELEMENT_UP_HORN><REF MusicSkillDataText_Wp05_13>
+<string>武器的屬性值上升。
+<string>
+<string><ICON ST_POWER_DEBUF_UP_HORN><REF MusicSkillDataText_Wp05_14>
+<string>對魔物造成的狀態異常累積值上升。
+<string>
+<string><ICON ST_RESIST_ELEMENT><REF MusicSkillDataText_Wp05_39>
+<string>使所有屬性異常無效。
+<string>
+<string><ICON ST_HEAL_NATURAL_UP><REF MusicSkillDataText_Wp05_7>/<REF MusicSkillDataText_Wp05_8>
+<string>體力計量表紅色部分的自然恢復速度上升。
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS><REF MusicSkillDataText_Wp05_9>/<REF MusicSkillDataText_Wp05_10>
+<string>耐力消耗量減少。
+<string>
 <string><ICON ST_POWER_UP_HORN><REF MusicSkillDataText_Wp05_11>/<REF MusicSkillDataText_Wp05_12>
 <string>攻擊力上升。
 <string>
+<string><ICON ST_DEFECE_UP_HORN><REF MusicSkillDataText_Wp05_15>/<REF MusicSkillDataText_Wp05_16>
+<string>防禦力上升。
+<string>
+<string><REF MusicSkillDataText_Wp05_2>/<REF MusicSkillDataText_Wp05_3>/<REF MusicSkillDataText_Wp05_4>
+<string>發動旋律效果時會回復體力。
+<string>
 <string><ICON ST_DEFECE_FIRE><REF MusicSkillDataText_Wp05_18>/<ICON ST_DEFECE_FIRE_HIGH><REF MusicSkillDataText_Wp05_19>
 <string>火耐性值上升，並使火屬性異常無效。
+<string>
+<string><ICON ST_DEFECE_WATER><REF MusicSkillDataText_Wp05_20>/<ICON ST_DEFECE_WATER_HIGH><REF MusicSkillDataText_Wp05_21>
+<string>水耐性值上升，並使水屬性異常無效。
+<string>
+<string><ICON ST_DEFECE_THUNDER><REF MusicSkillDataText_Wp05_22>/<ICON ST_DEFECE_THUNDER_HIGH><REF MusicSkillDataText_Wp05_23>
+<string>雷耐性值上升，並使雷屬性異常無效。
+<string>
+<string><ICON ST_DEFECE_ICE><REF MusicSkillDataText_Wp05_24>/<ICON ST_DEFECE_ICE_HIGH><REF MusicSkillDataText_Wp05_25>
+<string>冰耐性值上升，並使冰屬性異常無效。
+<string>
+<string><ICON ST_DEFECE_DRUGON><REF MusicSkillDataText_Wp05_26>/<ICON ST_DEFECE_DRUGON_HIGH><REF MusicSkillDataText_Wp05_27>
+<string>龍耐性值上升，並使龍屬性異常無效。
+<string>
+<string><ICON ST_SOUND_BARRIER><REF MusicSkillDataText_Wp05_44>
+<string>減少所受傷害一次，並使風壓、震動<lf>或咆哮無效化一次。
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_DEFECE_UP_HORN><REF MusicSkillDataText_Wp05_42>
+<string>攻擊力和防禦力上升。
+<string>
+<string><ICON ST_CRITICAL_UP><REF MusicSkillDataText_Wp05_43>
+<string>會心率上升。發動旋律效果時會回復少量<lf>體力。
+<string>
+<string><REF MusicSkillDataText_Wp05_5>/<REF MusicSkillDataText_Wp05_6>
+<string>發動旋律效果時會回復體力，<lf>並解除毒狀態。
+<string>
+<string><REF MusicSkillDataText_Wp05_40>
+<string>對四周產生投射器音爆彈的效果。
+<string>
+<string><REF MusicSkillDataText_Wp05_41>
+<string>延長所有旋律效果的時間。
+<string>
+<string>銳利度回復
+<string>觸發旋律效果時會回復銳利度計量表。
 <string>
 <string>響周波
 <string>會對魔物造成傷害的<REF RefStatus_0008_000_00>，有打、斬、<lf>各種屬性和狀態異常等種類，按武器不同。
 <string>
 <string><REF RefStatus_0006_000_01>效果
+<string><ICON ST_HEAL_CONTINUE><REF HibikiDataText_Wp05_2>
+<string>體力會慢慢回復。
+<string>
+<string><ICON ST_STAMINA_CONTINUE><REF HibikiDataText_Wp05_3>
+<string>耐力回復的速度變快。
+<string>
 <string><ICON ST_SPEED_UP><ICON ST_AVOID_UP><REF HibikiDataText_Wp05_1>
 <string>迴避性能和移動速度上升。
+<string>
+<string><ICON ST_POWER_UP_HORN><ICON ST_CRITICAL_UP><REF HibikiDataText_Wp05_4>
+<string>攻擊力和會心率上升。
+<string>
+<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP><REF HibikiDataText_Wp05_5>
+<string>防禦力和屬性耐性上升。
+<string>
+<string><ICON ST_RESIST_DEBUF><REF HibikiDataText_Wp05_6>
+<string>使各種狀態異常和屬性異常無效。
 <string>
 <string>【基本連段】
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -626,6 +730,10 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m1479629056>
 <string><ICON WP06 PL_ATTACK_01>
+<string>
+<string><REF ActionGuideDataNameText_Wp06_1549684992>
+<string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_ATTACK_01>
+<string><REF ActionGuideDataNameText_Wp06_327006624>動作，期間受到攻擊會自動反擊。長按<lf><ICON WP06 PL_ATTACK_SP><REF RefGeneral_0001_006><ICON WP06 PL_ATTACK_01>可蓄力，如抓準時機放手，在魔物<lf>攻擊的時機使出突刺，則會衍生成較強的<lf><REF ActionGuideDataNameText_Wp06_1959362048>。<lf><lf>蓄力期間按<ICON WP06 PL_ATTACK_SP><ICON PLUS><ICON WP06 PL_DODGE>就會改為使出力量<lf>防禦，在原地擺好架式全力抵擋攻擊。<lf>防禦期間耐力會逐漸減少，但可大幅減<lf>少防禦時的後仰。<REF ActionGuideDataNameText_Wp06_327006624>期間所受攻擊的<lf>次數越多，或威力越大，防禦後馬上使<lf>出的反擊的威力也越高。
 <string>
 <string><REF ActionGuideDataNameText_Wp06_m938479488>
 <string><ICON WP06 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP06 PL_DODGE>
@@ -859,9 +967,17 @@
 <string><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp08_m28020688>後按<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">就會使出屬性解放<lf>突刺收尾，再變形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
 <string>
+<string><REF ActionGuideDataNameText_Wp08_52943932>
+<string><ICON WP08 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP08 merge="PL_ATTACK_01,HOLD_ON">
+<string>高輸出狀態時可附在魔物身上使出屬性解放<lf>突刺。另外，附在魔物身上後<ICON WP08 merge="PL_ATTACK_00,REPEAT_ON">就可使出<lf><REF ActionGuideDataNameText_Wp08_67143400>。<lf><lf>突刺終結後會變形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
+<string>
 <string><REF ActionGuideDataNameText_Wp08_m84158064>
 <string><ICON WP08 PL_ATTACK_SP><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
 <string><REF ActionGuideDataNameText_Wp08_971569344>的強力攻擊。<REF ActionGuideDataNameText_Wp08_132806840>時使出<lf>更會發生追加爆炸攻擊，攻擊後會變形<lf>至<REF ActionGuideDataNameText_Wp08_m1422082944>。
+<string>
+<string><REF ActionGuideDataNameText_Wp08_26943142>
+<string><ICON WP08 merge="PL_ATTACK_SP,HOLD_ON"><ICON PLUS><ICON WP08 PL_ATTACK_00><ICON PLUS><ICON WP08 PL_ATTACK_01>
+<string>只可於高輸出狀態下使出的強力攻擊。<lf>亦可於屬性解放突刺後<ICON WP08 merge="PL_ATTACK_SP,HOLD_ON">來使出。<lf>攻擊後會變形至<REF ActionGuideDataNameText_Wp08_m1422082944>。
 <string>
 <string><REF ActionGuideDataNameText_Wp08_m454460192>
 <string><ICON WP08 PL_ATTACK_SP>
@@ -958,7 +1074,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m324722336>
 <string><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>
-<string>於前進的同時使出下揮斬攻擊。攻擊後按<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>會使出<REF ActionGuideDataNameText_Wp09_m406475264>，再按<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>會使出<REF ActionGuideDataNameText_Wp09_1635818112>。
+<string>於前進的同時使出下劈斬攻擊。攻擊後按<lf><ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>會使出<REF ActionGuideDataNameText_Wp09_m406475264>，再按<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01><lf>會使出<REF ActionGuideDataNameText_Wp09_1635818112>。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_m888161664>
 <string><ICON WP09 merge="PL_ATTACK_SP,HOLD_ON">
@@ -981,7 +1097,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp09_882170816>
 <string>填充瓶時<ICON WP09 merge="PL_ATTACK_00,HOLD_ON">
-<string>於<REF ActionGuideDataNameText_Wp09_650824320>把劍也強化。劍的攻擊會獲<lf>強化，且不會被彈開。
+<string>於<REF ActionGuideDataNameText_Wp09_650824320>下再把劍也強化。劍的攻擊<lf>會獲得強化，且不會被彈開。
 <string>
 <string><REF ActionGuideDataNameText_Wp09_869165568>
 <string><INPUTMSG MsgGUI600200_01_025>
@@ -1136,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string>紅色<REF ActionGuideDataNameText_Wp10_m508432000>狀態時<ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>吸收紅色精華後就可按<ICON WP10 PL_ATTACK_01>蓄力。在地上<lf>蓄力一定時間後<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出<REF ActionGuideDataNameText_Wp10_m851556800>，<lf>在空中則會改為使出強襲突刺。<lf><lf>使出其他攻擊時也可保持蓄力狀態，連段<lf>期間<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出各種招式。<lf><lf>吸收三色精華後，在蓄力攻擊後更可<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>使出收尾攻擊。此攻擊會解除<lf>強化狀態，但威力強大，此時<REF RefEquipment_0001_010_0>的攻擊<lf>更會採集多種精華。
+<string>吸收紅色精華後就可按<ICON WP10 PL_ATTACK_01>蓄力。在地上<lf>蓄力一定時間後<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出<REF ActionGuideDataNameText_Wp10_m851556800>，<lf>在空中則會改為使出<REF ActionGuideDataNameText_Wp10_m295633312>。<lf><lf>使出其他攻擊時也可保持蓄力狀態，連段<lf>期間<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出各種招式。<lf><lf>吸收三色精華後，在蓄力攻擊後更可<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>使出收尾攻擊。此攻擊會解除<lf>強化狀態，但威力強大，此時<REF RefEquipment_0001_010_0>的攻擊<lf>更會採集多種精華。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
@@ -1213,6 +1329,7 @@
 <string><INPUTMSG MsgGUI600200_01_041>
 <string><INPUTMSG MsgGUI600200_01_042>
 <string><INPUTMSG MsgGUI600200_01_042_01>
+<string><ICON WP_LIGHTBOWGUN><REF RefEquipment_0001_013>
 <string><REF ActionGuideDataNameText_Wp12_m640497792>
 <string><REF ActionGuideDataNameText_Wp13_m1628573952>
 <string><ICON WP13 PL_ATTACK_SP>
@@ -1266,6 +1383,9 @@
 <string><REF ActionGuideDataNameText_Wp13_m70162400>
 <string>設置受攻擊時會爆炸的爆彈。彈藥數會<lf>隨時間自動回復。
 <string>
+<string><REF RefEquipment_0007_03_01>
+<string>裝填後按<ICON WP13 PL_ATTACK_SP>，就會<REF ActionGuideDataNameText_Wp13_99602184>黏在魔物身上的<lf>特殊彈藥。<lf><lf><REF ActionGuideDataNameText_Wp13_14729>會在一定時間後爆炸。如在爆炸前<lf>不斷攻擊彈藥黏著的部位，就能增加爆炸的<lf>傷害。<lf><lf>彈藥數會隨時間自動回復。
+<string>
 <string><ICON WP_HEAVYBOWGUN><REF RefEquipment_0001_012>
 <string><REF ActionGuideDataNameText_Wp12_178259456>
 <string><ICON WP12 PL_ATTACK_SP>
@@ -1304,8 +1424,14 @@
 <string><REF ActionGuideDataNameText_Wp12_903581824>
 <string><REF ActionGuideDataNameText_Wp12_m1404200832>時可使用的<REF ActionGuideDataNameText_Wp13_m1879452288>。<ICON WP12 merge="PL_ATTACK_SP,HOLD_ON">就可<lf>一直射擊，不斷命中時威力會上升。
 <string>
+<string><REF ActionGuideDataNameText_Wp12_195481808>
+<string>在<REF ActionGuideDataNameText_Wp12_m1404200832>時可使用的<REF ActionGuideDataNameText_Wp13_m1879452288>。彈藥會<lf>緩慢貫穿目標，威力會隨命中次數上升。
+<string>
 <string><REF ActionGuideDataNameText_Wp12_154168000>
 <string>在<REF ActionGuideDataNameText_Wp12_m1404200832>時可使用的<REF ActionGuideDataNameText_Wp13_m1879452288>。此近距離<lf>彈藥可抵消魔物攻擊，長按<ICON WP12 PL_ATTACK_00>更可增加<lf><REF ActionGuideDataNameText_Wp13_99602184>時的威力。
+<string>
+<string><REF ActionGuideDataNameText_Wp12_m1481543424>
+<string>在<REF ActionGuideDataNameText_Wp12_m1404200832>時可使用的<REF ActionGuideDataNameText_Wp13_m1879452288>。此中距離<lf>彈藥會在發射後擴散。
 <string>
 <string><REF ActionGuideDataNameText_Wp12_m1139193984>
 <string>此彈藥命中傷口或弱點時會爆炸並貫穿魔物<lf>部位，造成高傷害。<lf><lf>彈藥數會隨時間自動回復。
@@ -1318,6 +1444,7 @@
 <string><ICON WP11 PL_ATTACK_01>
 <string>迅速射出左右擴散的箭。不會消耗耐力。
 <string>
+<string><ICON WP_BOW><REF RefEquipment_0001_011>
 <string><REF ActionGuideDataNameText_Wp11_381447008>
 <string><ICON WP11 merge="PL_ATTACK_SP,HOLD_ON">
 <string>用力拉<REF RefEquipment_0001_011>放箭。<REF ActionGuideDataNameText_Wp00_605526016>會隨長按<ICON WP11 PL_ATTACK_SP>的<lf>時間上升，箭的威力亦會隨之上升。<lf><lf>攻擊後再按<ICON WP11 PL_ATTACK_01>會使出<REF ActionGuideDataNameText_Wp11_713120064>。

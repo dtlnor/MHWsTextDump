@@ -7,6 +7,8 @@
 <string>ハンターフレンドリスト
 <string>フォローリスト
 <string>フォロワーリスト
+<string>サークルメンバーリスト
+<string>サークルメンバーリスト：{0}
 <string>ブロックリスト
 <string><PLATMSG MsgGUI040000_0001_10>
 <string>プラットフォームのフレンドリスト
@@ -23,10 +25,11 @@
 <string>ソロオンライン中
 <string>情報なし
 <string>匿名表示中のため閲覧できません
+<string>アクティブなサークルがありません
 <string>ハンターID検索
 <string>検索するハンターのIDを入力してください。<lf>（ハンターIDは半角英数字8文字です）<lf><lf>英字の大文字と小文字は異なる文字として<lf>認識されますので、ご注意ください。
 <string>{0}<lf>に一致するハンターが見つかりました。
-<string>{0}<lf>に一致するハンターが見つかりません。
+<string>{0}<lf>に一致するハンターが見つかりません。<lf>{1}
 <string>{0}<lf>これはあなたが使用しているハンターIDです。
 <string>デフォルト順
 <string>名前順
@@ -34,6 +37,7 @@
 <string>関係順
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
+<string><REF RefMenu_019>
 <string><REF RefMenu_020>
 <string><REF RefMenu_021>
 <string>リンクパーティから除外
@@ -131,7 +135,6 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_010_002_DLG
 <string>{0}を<lf>ブロックします。よろしいですか？<lf><lf><COLOR preset="TXT_Accent">（ブロックは違うハンターIDでも<lf>同じユーザーの場合は、ブロックの対象になります）</COLOR>
 <string>ブロックしました。
-<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI040000_0005_011_002_DLG
 <string><COLOR preset="TXT_Danger">ブロックリストにはこれ以上追加できません。</COLOR>
 <string>{0}の<lf>ブロックを解除します。<lf>よろしいですか？
 <string>ブロックを解除しました。
@@ -155,6 +158,7 @@
 <string>ロビー種別
 <string>一般ロビー
 <string>プライベートロビー
+<string>サークルロビー
 <string>ロビーID
 <string>プレイ傾向
 <string>設定なし

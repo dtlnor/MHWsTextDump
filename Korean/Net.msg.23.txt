@@ -7,6 +7,7 @@
 <string>서버 연결을 확인하고 있습니다...
 <string>통신 오류가 발생했습니다.<lf>{0}
 <string>통신 오류가 발생했습니다.<lf>타이틀 화면으로 돌아갑니다.<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>온라인 멀티플레이가 제한되어 있습니다.<lf><lf>온라인 멀티플레이를 이용하시려면<lf>{0}에 가입해야 합니다.
 <string>이 계정은<lf>멀티플레이 조건을 충족하지 못했습니다.
 <string>네트워크에 연결하지 못했습니다.<lf>타이틀 화면으로 돌아갑니다.
@@ -19,6 +20,10 @@
 <string>일정 시간 조작하지 않아<lf>솔로 온라인으로 변경되었습니다.<lf>이대로 게임을 진행합니다.<lf>{0}
 <string>이미 헌터 친구이거나<lf>헌터 친구 신청을 보낸 상태여서<lf>보내지 못했습니다.<lf>{0}
 <string>자신 혹은 상대의 헌터 친구가 상한치에<lf>도달하여 보내지 못했습니다.<lf>{0}
+<string>헌터 친구가 상한치에 도달하여,<lf>더 이상 등록할 수 없습니다.<lf>{0}
+<string>상대의 헌터 친구가 상한치에 도달하여<lf>보내지 못했습니다.<lf>{0}
+<string>헌터 친구 초대 상한치에 도달하여,<lf>더 이상 초대할 수 없습니다.<lf>{0}
+<string>상대의 헌터 친구 초대가 상한치에 도달하여<lf>보내지 못했습니다.<lf>{0}
 <string>이미 팔로우 중인 플레이어입니다.<lf>{0}
 <string>팔로우 상한치에 도달하여<lf>더 이상 팔로우할 수 없습니다.<lf>{0}
 <string>네트워크 초기화 중입니다...
@@ -26,8 +31,19 @@
 <string>헌터 정보가 덮어씌워졌습니다.<lf>데이터는 사용할 수 있지만, 헌터 친구나 팔로우,<lf>팔로워, 소속 서클 등의 정보는 초기화됩니다.
 <string>이미 링크 파티 멤버인 플레이어입니다.<lf>{0}
 <string>링크 파티 초대 상한치에 도달하여<lf>더 이상 초대할 수 없습니다.<lf>{0}
+<string>상대의 링크 파티 초대가 상한치에 도달하여<lf>보내지 못했습니다.<lf>{0}
 <string>현재 신고를 할 수 없습니다.<lf>잠시 후 다시 시도해 주십시오.<lf>{0}
 <string>이 계정으로는 게임을 플레이할 수 없습니다.
+<string>베타 테스트에서 생성한 캐릭터의<lf>편집 데이터가 없습니다.<lf>{0}
+<string>베타 테스트에서 생성한 캐릭터의<lf>편집 데이터를 취득하지 못했습니다.<lf>{0}
+<string>링크 파티에 초대 중입니다.<lf>{0}
+<string>계정에서 도전 과제 정보를 취득하지 못했습니다.<lf>네트워크 접속 및 계정 로그인 상황에<lf>문제가 없는지 확인해 주십시오.<lf>{0}
+<string>이 계정으로는<lf>레시피를 업로드할 수 없습니다.<lf>{0}
+<string>이 계정으로는<lf>마이 세트를 공유할 수 없습니다.<lf>{0}
+<string>구조신호를 보내지 못했습니다.<lf>{0}
+<string>이 기능은 현재 점검 중입니다.<lf>잠시 후 다시 시도해 주십시오.<lf>{0}
+<string>차단 상한치에 도달하여,<lf>더 이상 차단할 수 없습니다.<lf>{0}
+<string>현재 서버 점검 중입니다.<lf>{0}
 <string>세션과의 연결이 끊어져서<lf>세션을 계속할 수 없습니다.<lf>{0}
 <string>세션을 생성하지 못했습니다.<lf>{0}
 <string>세션을 검색하지 못했습니다.<lf>{0}
@@ -49,6 +65,9 @@
 <string>이미 링크 파티에 합류했습니다.
 <string>현재 서버가 혼잡합니다.<lf>잠시 후 다시 접속해 주십시오.
 <string>이 게임은 크로스플레이를 지원합니다.
+<string>상대의 크로스 플레이 설정으로 인해<lf>이 세션에 참여할 수 없습니다.<lf>{0}
+<string>크로스플레이 설정이 다른 세션이므로<lf>참가할 수 없습니다.<lf>타이틀 메뉴 화면의 옵션에 있는<lf>크로스플레이 설정을 확인해 주십시오.<lf>{0}
+<string>링크 파티 인원이 상한치에 도달하여<lf>더 이상 초대할 수 없습니다.<lf>{0}
 <string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Accent">{1}</COLOR>가 확인되어<lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf>{2}<lf><COLOR preset="TXT_Accent">이용약관을 준수하여 플레이해 주시길 바랍니다.</COLOR>
 <string>게임 진행 방해 행위
 <string>게임 진행 방해 행위와 유사한 행동
@@ -61,6 +80,23 @@
 <string>고객님께서 편집 가능한 헌터 프로필, 서클 코멘트 등의<lf>텍스트를 다시 확인한 후, 내용을 변경해 주십시오.<lf>텍스트 내용을 변경하지 않거나, 또다시 이용약관에<lf>저촉되는 내용으로 변경하신 경우, 커뮤니티 기능이<lf>영구적으로 제한될 수 있습니다.
 <string>또한 고객님께서 설정하신 헌터 이름과 동반자 이름은<lf>초기값(헌터/동반자 아이루)으로 변경됩니다.
 <string><COLOR preset="TXT_Danger">≪계정 영구 정지≫</COLOR><lf><lf>고객님의 계정에서 이용약관을 위반하는 행위가<lf>확인되어 <COLOR preset="TXT_Danger">계정 이용을 영구적으로 정지합니다.</COLOR><lf><lf>해당 계정은 '<REF RefGeneral_0000_0000_00>'를<lf>온라인에서 플레이하실 수 없습니다.<lf>또한, 이용약관에 따라 계정 영구 정지 조치가<lf>적용되면 해당 조치를 해제해 드리지 않습니다.<lf>미리 양해 바랍니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">게임 진행 방해 행위가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>같은 행위를 반복하거나 비슷한 행위를 하면<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">이용약관에 저촉되는 부적절한 발언이 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>동일한 행위를 반복 혹은 유사한 행위를 반복할 경우,<lf>같은 행위를 반복하거나 비슷한 행위를 하면<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 자유 코멘트가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf>고객님께서 편집 가능한 헌터 프로필의<lf>자유 코멘트를 다시 확인한 후, 내용을 변경해 주십시오.<lf>자유 코멘트 내용을 변경하지 않거나, 또다시 이용약관에<lf>저촉되는 내용으로 변경하신 경우, 커뮤니티 기능이<lf>영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 서클 코멘트가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf>대상 서클 코멘트는 삭제된 상태입니다.<lf>서클 코멘트를 다시 확인한 후, 내용을 변경해 주십시오.<lf>서클 코멘트 내용은 다시 변경할 수 있지만, 또다시 이용약관에<lf>저촉되는 내용으로 변경하신 경우, 커뮤니티 기능이<lf>영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 행위</COLOR>가 확인되어<lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 텍스트 내용이 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>또한, 경고 대상이 된 부적절한 텍스트 내용은<lf>다른 유저에게는 초깃값(헌터/동반자 등)으로 표시됩니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">이용 약관 및 최종 사용자 사용허락계약(EULA)을<lf>위반하는 행위가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>같은 행위를 반복하거나 비슷한 행위를 하면<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을 준수하여<lf>플레이해 주시길 바랍니다.</COLOR>
+<string><COLOR preset="TXT_Danger">≪계정 영구 정지≫</COLOR><lf>고객님의 계정에서 이용약관 및 최종 사용자 사용허락계약(EULA)을<lf>위반하는 행위가 확인되어 <COLOR preset="TXT_Danger">계정 이용을 영구적으로 정지합니다.</COLOR><lf><lf>해당 계정은 '<REF RefGeneral_0000_0000_00>'를<lf>온라인에서 플레이하실 수 없습니다.<lf><lf>또한, 계정 영구 정지는<lf>이용약관 및 최종 사용자 사용허락계약(EULA)에<lf>따른 조치이므로, 해당 조치는 해제해 드리지 않습니다.<lf>미리 양해 바랍니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">게임 진행 방해 행위와 유사한 행위가 의심되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf>동일한 행위를 반복 혹은 유사한 행위를 반복할 경우,<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을<lf>준수하여 플레이해 주시길 바랍니다.</COLOR><lf>또한, 제재 사유에 대해 불명확한 점이 있으시면<lf>문의 양식을 통해 문의해 주시기 바랍니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적한 발언 또는 텍스트 내용이 의심되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf>동일한 행위를 반복 혹은 유사한 행위를 반복할 경우,<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을<lf>준수하여 플레이해 주시길 바랍니다.</COLOR><lf>또한, 제재 사유에 대해 불명확한 점이 있으시면<lf>문의 양식을 통해 문의해 주시기 바랍니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다.≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">이용 약관 및 최종 사용자 사용허락계약(EULA)을<lf>위반하는 행위가 의심되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf>동일한 행위를 반복 혹은 유사한 행위를 반복할 경우,<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.<lf><COLOR preset="TXT_Accent">이용약관 및 최종 사용자 사용허락계약(EULA)을<lf>준수하여 플레이해 주시길 바랍니다.</COLOR><lf>또한, 제재 사유에 대해 불명확한 점이 있으시면<lf>문의 양식을 통해 문의해 주시기 바랍니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">게임 진행 방해 행위가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>같은 행위를 반복하거나 비슷한 행위를 하면<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 발언이 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>같은 행위를 반복하거나 비슷한 행위를 하면<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 행위가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">부적절한 텍스트 내용이 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>또한, 경고 대상이 된 부적절한 텍스트 내용은<lf>다른 유저에게는 초깃값(헌터/동반자 등)으로 표시됩니다.
+<string><COLOR preset="TXT_Accent">≪현재 커뮤니티 기능이 제한되어 있습니다≫</COLOR><lf>커뮤니티 기능 제한 해제 일시: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>고객님의 계정에서 <COLOR preset="TXT_Danger">위반 행위가 확인되어</COLOR><lf><COLOR preset="TXT_Accent">경고 조치로 일정 기간 커뮤니티 기능이 제한</COLOR>됩니다.<lf><lf>같은 행위를 반복하거나 비슷한 행위를 하면<lf>커뮤니티 기능이 영구적으로 제한될 수 있습니다.
+<string><COLOR preset="TXT_Danger">≪계정 영구 정지≫</COLOR><lf>고객님의 계정에서 부정행위가 확인되어<lf><COLOR preset="TXT_Danger">계정 이용을 영구적으로 정지합니다.</COLOR><lf>해당 계정은 '<REF RefGeneral_0000_0000_00_OBT>'를<lf>플레이하실 수 없습니다.<lf><lf>또한 오픈 베타 테스트 기간 동안 영구 정지된 계정은<lf>다시 정지를 해제해 드리지 않습니다.<lf>미리 양해 부탁드립니다.
 <string>링크 파티에 참가합니다.<lf>저장 데이터를 변경하시겠습니까?<lf><COLOR preset="TXT_Danger">(저장 데이터를 다시 선택해<lf>참가한 경우, 저장하지 않은 정보는 사라집니다)</COLOR>
 <string>현재의 세이브 데이터로 참가
 <string>세이브 데이터를 다시 선택해서 참가
@@ -69,9 +105,22 @@
 <string>초대 요청을 보내지 못했습니다.<lf>{0}
 <string>링크 파티 기능이 잠금 해제되지 않아<lf>참가하지 못했습니다.
 <string>링크 파티에 초대하기 위해<lf>친구 초대 화면을 엽니다.<lf>계속하시겠습니까?
+<string>Monster Hunter Wilds를 함께 플레이하실래요?
 <string>Monster Hunter Wilds Beta test를 함께 플레이 해요!
+<string>초대를 접수했습니다.<lf><COLOR preset="TXT_Accent">(이벤트 장면 및 불러오기가 완료되거나<lf>옵션 설정 조작 등이 완료된 후에 시작됩니다)</COLOR>
+<string>온라인 기능을 사용할 수 없어<lf>링크 파티에 참가할 수 없습니다.
+<string>오프라인 모드로 게임을 시작합니다.<lf><lf>온라인 멀티플레이를 하려면<lf>개인 정보 수집에 동의하셔야 합니다.<lf>개인 정보 수집에 동의하지 않으셔도<lf>게임 본편을 플레이하실 수 있지만,<lf>기능이 제한됩니다.<lf>본 설정은 타이틀 메뉴 화면의<lf>'프라이버시'에서 변경할 수 있습니다.
+<string>온라인 멀티플레이가 제한되어 있습니다.<lf>온라인 멀티플레이를 하려면<lf>개인 정보 수집에 동의하셔야 합니다.<lf>본 설정은 타이틀 메뉴 화면의<lf>'프라이버시'에서 변경할 수 있습니다.<lf>{0}
 <string>다른 유저의 참가를 기다리고 있습니다...
 <string>시작될 때까지 잠시 기다려 주십시오.<lf><lf>스태프가 시작 신호를 보내면<lf>시작하셔도 됩니다.
 <string>출발하기
 <string>에러가 발생했습니다.<lf>근처에 있는 스태프에게 말씀해 주세요.
 <string>배포 데이터를 수신하지 못했습니다.<lf>{0}
+<string>{0}<lf>서클을 검색하지 못했습니다.<lf>{1}
+<string>서클 초대 및 신청이 최대치를 초과했습니다.<lf>{0}
+<string>서클에 참가하지 못했습니다.<lf>{0}
+<string>서클 활성화에 실패했습니다.<lf>해당 서클 설정을 다시 확인하십시오.<lf>{0}
+<string>{0}<lf>해당 서클 정보가 없습니다.<lf>{1}
+<string>서클을 처리하지 못했습니다.<lf>{0}
+<string>상대의 서클 소속 수가 상한치에 도달하여<lf>보내지 못했습니다.<lf>{0}
+<string>서클 멤버가 일정 수를 초과하여,<lf>더 많은 멤버가 모일 수 있는<lf>서클 로비를 이용할 수 있게 되었습니다.<lf><lf>현재의 서클 로비는 해산됩니다.<lf>죄송하지만 로비 이동 메뉴에서<lf>새로운 서클 로비를 이용해 주시기 바랍니다.

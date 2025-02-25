@@ -13,6 +13,10 @@
 <string>変更を反映
 <string>変更内容をすべて破棄
 <string>モデルプリセット
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>（詳細設定）
 <string>初期防具
 <string>ゲーム開始時の防具を選択できます。
@@ -86,6 +90,7 @@
 <string>眉毛のタイプ
 <string>眉毛のカラー
 <string>眉毛の透明度
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>眉の高さ
 <string>眉間の高さ
 <string>眉間の幅
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>目の高さ
 <string>目の奥行き
 <string>目の幅
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>歯のカラー
 <string>歯の汚れのカラー
 <string>歯の汚れの透明度
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>顔全体の長さ
 <string>えらの幅
 <string>えらの角度
@@ -173,6 +184,7 @@
 <string>あごの長さ
 <string>あごの大きさ
 <string>輪郭の全体調整
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>体の大きさ
 <string>筋肉
 <string>肌のカラー
@@ -295,6 +307,7 @@
 <string>初期化
 <string>選択中の項目内に含まれる設定を<lf>すべて初期化します。<lf>よろしいですか？
 <string>選択中のモデルプリセットの設定を<lf>すべて初期化します。<lf>よろしいですか？
+<string>セーブ・ロード
 <string>レシピの確認・編集
 <string>エディット
 <string>カラー抜粋
@@ -306,6 +319,10 @@
 <string>OFF
 <string>デフォルト
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>ビューオプション
@@ -365,6 +382,94 @@
 <string>　右のブレンド量
 <string>　肌の明度
 <string>　肌の彩度
+<string>エディットセーブデータ
+<string>レシピ名
+<string>登録日
+<string>ロード
+<string>セーブ
+<string>名称変更
+<string>並び替え
+<string>削除
+<string><ICON UI_SUB_MENU>セーブ
+<string>レシピ{0}
+<string>この見た目に変更します。<lf>よろしいですか？<lf><COLOR preset="TXT_Danger">現在編集中のエディットデータは失われます。<lf>残したい場合は先にセーブしてください。</COLOR>
+<string>所持していないエディットパーツが設定されています。<lf>該当するエディットを適用せず、可能な部分のみの<lf>変更となりますが、よろしいですか？
+<string>現在のエディットデータをセーブします。<lf>よろしいですか？
+<string>現在のエディットデータをセーブします。<lf>よろしいですか？<lf><COLOR preset="TXT_Danger">（セーブデータを上書きします）</COLOR>
+<string>並び替えたい項目を選択してください。
+<string>並び替えの移動先を選択してください。
+<string>エディットデータを削除します。<lf>よろしいですか？
+<string>セクレトの装飾変更
+<string>セクレトカスタマイズ
+<string>皮膚のカラー
+<string>羽毛（内側）のカラー
+<string>羽毛（外側）のカラー
+<string>模様の範囲
+<string>模様のカラー
+<string>模様の透明度
+<string>眼のカラー
+<string>右眼の個別設定
+<string>右眼のカラー
+<string>装飾のタイプ
+<string>チャームのタイプ
+<string>名前変更
+<string>名前を変更できます。
+<string>セクレトの装飾変更を終了します。
+<string>セクレトカスタマイズを終了します。
+<string>装飾の表示
+<string>セクレトの名前を入力します。<lf><lf><COLOR preset="TXT_Accent">表示可能な文字数は全角１０文字相当までです。</COLOR>
+<string>簡易キャンプの編集
+<string>テントのカスタマイズ
+<string>キャンプオプション
+<string>フライシートのタイプ
+<string>フライシートのメインカラー
+<string>フライシートのサブカラー
+<string>インナーテントのタイプ
+<string>インナーテントのメインカラー
+<string>インナーテントのサブカラー
+<string>ペイント１
+<string>ペイント２
+<string>「ペイント１」と重なる場合、こちらが優先して表示されます。
+<string>ペイント３
+<string>「ペイント２」と重なる場合、こちらが優先して表示されます。
+<string>ペイント１のタイプ
+<string>ペイント２のタイプ
+<string>ペイント３のタイプ
+<string>ペイント１のカラー
+<string>ペイント２のカラー
+<string>ペイント３のカラー
+<string>フライシートのペイント１のタイプ
+<string>フライシートのペイント２のタイプ
+<string>フライシートのペイント３のタイプ
+<string>インナーテントのペイント１のタイプ
+<string>インナーテントのペイント２のタイプ
+<string>インナーテントのペイント３のタイプ
+<string>フライシートのペイント１のカラー
+<string>フライシートのペイント２のカラー
+<string>フライシートのペイント３のカラー
+<string>インナーテントのペイント１のカラー
+<string>インナーテントのペイント２のカラー
+<string>インナーテントのペイント３のカラー
+<string>透明度
+<string>サイズ
+<string>横のサイズ
+<string>縦のサイズ
+<string>位置
+<string>横の位置
+<string>縦の位置
+<string>デフォルトに戻す
+<string>ペイントのタイプで設定した<lf>内容をデフォルトに戻します。<lf>よろしいですか？
+<string>ペイント設定の入れ替え
+<string>現在のペイントの設定を、<lf>他のペイントのものと入れ替えます。
+<string>左右反転
+<string>上下反転
+<string>角度
+<string>大型キャンプギア１のタイプ
+<string>大型キャンプギア２のタイプ
+<string>小型キャンプギア１のタイプ
+<string>小型キャンプギア２のタイプ
+<string>ランタンのタイプ
+<string>簡易キャンプの編集を終了します。
 <string>身だしなみの変更
 <string>身だしなみの変更を終了します。
 <string>ハンターの編集
@@ -389,3 +494,35 @@
 <string>特徴の近い別の顔を生成
 <string>より違いのある別の顔を生成
 <string>これでよろしいですか？
+<string><COLOR preset="TXT_Accent">ベータテストデータ</COLOR>
+<string>ベータテストで作成されたキャラクターの<lf>エディットデータを取得しますか？
+<string>共有数
+<string>レシピのアップロード
+<string>レシピのダウンロード
+<string>レシピをアップロードして共有可能にします。<lf>よろしいですか？
+<string>レシピをアップロードしました。<lf>ダウンロードのパスワードは以下の通りです。<lf>{0}
+<string><COLOR preset="TXT_Danger">エラー</COLOR><lf>レシピをアップロードできませんでした。
+<string><COLOR preset="TXT_Danger">これ以上、レシピをアップロードできません。</COLOR>
+<string>アップロードの確認・取り消し
+<string>アップロードしたレシピのパスワード<lf>{0}<lf><lf>※アップロードを取り消す場合は「はい」を<lf>押してください。
+<string>レシピのアップロードを取り消します。<lf>本当によろしいですか？
+<string>レシピのアップロードを取り消しました。
+<string><COLOR preset="TXT_Danger">エラー</COLOR><lf>レシピのアップロードを取り消すことが<lf>できませんでした。
+<string><COLOR preset="TXT_Danger">ダウンロードしたレシピのため、アップロードすることはできません。</COLOR>
+<string>レシピのパスワードを入力してください。<lf>（レシピのパスワードは半角英数字12文字です）<lf><lf>英字の大文字と小文字は異なる文字として<lf>認識されますので、ご注意ください。
+<string>{0}<lf>に一致するレシピが見つかりました。<lf>作成者<lf>ハンターID：{1}<lf><PLATMSG RefGeneral_0018_001>：{2}
+<string>{0}<lf>に一致するレシピが見つかりません。<lf>{1}
+<string>{0}<lf>これはハンターのレシピのため使用できません。<lf>{1}
+<string>{0}<lf>これはオトモアイルーのレシピのため使用できません。<lf>{1}
+<string>{0}<lf>このレシピは使用できません。<lf>{1}
+<string>このレシピをセーブする
+<string>この見た目に変更する
+<string>作成者情報
+<string>この見た目に変更しますか？<lf>現在のエディットデータは失われます。<lf>残したい場合は先に保存してください。
+<string>所持していないエディットパーツが設定されています。<lf>該当エディットを適用しないで変更しても<lf>よろしいですか？
+<string>{0}<lf>作成者<lf>ハンターID：{1}<lf><PLATMSG RefGeneral_0018_001>：{2}
+<string>レシピのダウンロードを終了します。<lf>よろしいですか？
+<string>サーバーのデータ照合チェックにより<lf>アップロードしたレシピを調整しました。
+<string><COLOR preset="TXT_Danger">レシピをアップロードしているため、利用できません。</COLOR>
+<string><COLOR preset="TXT_Danger">キャラクターのセーブデータが作られていないため、利用できません。</COLOR>
+<string><COLOR preset="TXT_Danger">ハンターIDが作られていないため、利用できません。</COLOR>

@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string><REF Item_IT_182>
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>とは
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP>防御力UP
 <string><REF WeaponTutorial_CP_166><lf><lf>主な発動方法<lf>・<REF Item_IT_127>や<REF Item_IT_171>などを使用する<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
 <string>
+<string><ICON ST_CRITICAL_UP>会心率UP
+<string>会心率が上がっている状態。<lf><lf>主な発動方法<lf>・スキルの<REF SkillCommon_1865909632>などを発動する<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_POWER_ELEMENT_UP><REF MusicSkillDataText_Wp05_13>
+<string><REF WeaponTutorial_CP_160><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_POWER_DEBUF_UP><REF MusicSkillDataText_Wp05_14>
+<string><REF WeaponTutorial_CP_161><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH>火属性防御強化
 <string><REF WeaponTutorial_CP_167><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH>水属性防御強化
+<string><REF WeaponTutorial_CP_168><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH>雷属性防御強化
+<string><REF WeaponTutorial_CP_169><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH>氷属性防御強化
+<string><REF WeaponTutorial_CP_170><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH>龍属性防御強化
+<string><REF WeaponTutorial_CP_171><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_SPIRIT><REF MusicSkillDataText_Wp05_17>
+<string><REF WeaponTutorial_CP_159><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_HEAL_CONTINUE><REF HibikiDataText_Wp05_2>
+<string><REF WeaponTutorial_CP_179><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_HEAL_NATURAL_UP>体力回復加速
+<string><REF WeaponTutorial_CP_163><lf><lf>主な発動方法<lf>・<REF Item_IT_165>や<REF Item_IT_632>を使用する<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS>スタミナ節約
+<string><REF WeaponTutorial_CP_164><lf><lf>主な発動方法<lf>・<REF Item_IT_164>を使用する<lf>・<REF EnemyText_NAME_EM5006_00_0>を取得する<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP>スタミナ回復速度UP
+<string>スタミナの回復速度が上がっている状態。<lf><lf>主な発動方法<lf>・装備スキルを発動する
+<string>
+<string><ICON ST_STAMINA_CONTINUE><REF HibikiDataText_Wp05_3>
+<string><REF WeaponTutorial_CP_180><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_AVOID_UP>回避性能UP
+<string>回避の性能が上がった状態。<lf><lf>主な発動方法<lf>・スキルの回避性能を発動する<lf>・狩猟笛の<REF RefStatus_0006_000_01>効果
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH><REF MusicSkillDataText_Wp05_1>
 <string>移動速度が上がる。<lf><REF RefStatus_0008_000_00>の重ね掛けをすると、<lf>攻撃が弾かれなくなり、攻撃力も上がる。<lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_ARMOR><REF MusicSkillDataText_Wp05_37>
+<string><REF WeaponTutorial_CP_155><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_WIND><REF MusicSkillDataText_Wp05_33>／<ICON ST_RESIST_WIND_HIGH><REF MusicSkillDataText_Wp05_34>
+<string><REF WeaponTutorial_CP_150><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_NOISE><REF MusicSkillDataText_Wp05_28>／<ICON ST_RESIST_NOISE_HIGH><REF MusicSkillDataText_Wp05_29>
+<string><REF WeaponTutorial_CP_153><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_QUAKE><REF MusicSkillDataText_Wp05_30>
+<string><REF WeaponTutorial_CP_154><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_STUN><REF MusicSkillDataText_Wp05_32>
+<string><REF WeaponTutorial_CP_151><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_PARALYSIS><REF MusicSkillDataText_Wp05_31>
+<string><REF WeaponTutorial_CP_152><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_ELEMENT><REF MusicSkillDataText_Wp05_39>
+<string><REF WeaponTutorial_CP_162><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
+<string><REF WeaponTutorial_CP_158><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>や<REF RefStatus_0006_000_01>効果
+<string>
+<string><ICON ST_SOUND_BARRIER><REF MusicSkillDataText_Wp05_44>
+<string><REF WeaponTutorial_CP_172><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
+<string><REF WeaponTutorial_CP_156><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
+<string><REF WeaponTutorial_CP_157><lf><lf>主な発動方法<lf>・狩猟笛の<REF RefStatus_0008_000_00>
+<string>
+<string><ICON ST_RESIST_COLD>寒さに強い状態
+<string>寒さが激しい特定のエリアでは<lf>スタミナの最大値減少が早くなる。<lf>その効果を無効化している状態。<lf><lf>主な発動方法<lf>・<REF Item_IT_167>を使用する<lf>・<REF EnemyText_NAME_EM5005_20_0>の利用
+<string>
+<string><ICON ST_RESIST_HOT>暑さに強い状態
+<string>暑さが激しい特定のエリアでは<lf>徐々に体力が失われていく。<lf>その効果を無効化している状態。<lf><lf>主な発動方法<lf>・<REF Item_IT_166>を使用する<lf>・<REF EnemyText_NAME_EM5005_10_0>の利用
 <string>
 <string><ICON ST_MEAL_UP>食事効果
 <string>食べた食事の効果を得られている状態。<lf><lf>主な発動方法<lf>・食事をする
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP>睡眠
+<string>眠気に襲われた後、一定時間経過で<lf>完全に眠ってしまい、行動不能となる。<lf>蓄積されていくことで発症する。<lf><lf>主な解除方法：<lf>・完全に眠る前に<REF Item_IT_163>を使用<lf>・攻撃を受ける<lf>・眠っている状態で一定時間の経過
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>一定時間経過か、攻撃を受けて吹っ飛ぶと<lf>爆発してダメージを受けてしまう状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_212>を使用する<lf>・回避を繰り返す
+<string>
+<string><ICON ST_LACERATE>裂傷状態
+<string>行動するとダメージを受ける状態。<lf>(解除で一定時間、自然回復量がアップ)<lf><lf>主な解除方法：<lf>・<REF Item_IT_9>など肉系<REF RefItem_0000>を使用する<lf>・しゃがみ状態で一定時間の経過
+<string>
 <string><ICON ST_STUN>気絶
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN>閃光による気絶
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING>糸拘束
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT>凍結やられ
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN>防御力DOWN
+<string>防御力が低下し、<lf>受けるダメージが増加している状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_127>や<REF Item_IT_171>などを使用する<lf>・一定時間の経過
+<string>
+<string><ICON ST_BADSMELL>悪臭
+<string>飲み物系と食べ物系の<REF RefItem_0000>が<lf>使用できない状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_212>を使用する<lf>・水場で回避を行う<lf>・一定時間の経過
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME>狂竜症
+<string>狂竜ウイルスの蓄積によって感染し、<lf>モンスターを一定回数攻撃することで克服<lf>しない限り、発症してしまう。<lf><lf>発症状態：受けるダメージが大きくなり、<lf>　　　　　体力が自然回復しなくなる。<lf>克服状態：会心率がアップし、<lf>　　　　　狂竜症に感染しなくなる。<lf>どちらの状態も時間経過で解除される。<lf><lf>感染状態中に<REF Item_IT_7>を使用すると、<lf>発症するまでの時間を延ばすことが可能。
+<string>
 <string><ICON ST_FIRE>火属性やられ
 <string>時間経過で体力が減少する状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_7>を使用する<lf>・水場に入る、回避を繰り返す<lf>・一定時間の経過
 <string>
@@ -221,6 +363,12 @@
 <string>風圧やられ
 <string>一定時間、行動が制限される状態。<lf>風圧の強さにより制限の長さが異なる。<lf><lf>主な解除方法：<lf>・一定時間の経過<lf>・攻撃を受ける
 <string>
+<string>寒さ
+<string>特定のエリアに滞在している間、<lf>スタミナ上限の減少時間が早まる状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_167>を使用する<lf>・<REF EnemyText_NAME_EM5005_20_0>の利用
+<string>
+<string>暑さ
+<string>特定のエリアに滞在している間、<lf>時間経過で体力が減少する状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_166>を使用する<lf>・<REF EnemyText_NAME_EM5005_10_0>の利用
+<string>
 <string>納刀状態
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -244,6 +392,12 @@
 <string>
 <string><REF Item_IT_21>
 <string>落ちた<REF RefStatus_0003_005>を回復できる<REF RefItem_0000>。<lf><REF RefItem_0023_06>として常に携帯している。<lf><lf>カスタムショートカットから使う際は、<lf>抜刀状態のまま研ぐことが可能。
+<string>
+<string>装備スキル「<REF SkillCommon_1160639488>」
+<string>武器の斬れ味ゲージが長くなるスキル。<lf>上昇後の<REF RefStatus_0003_005>の色は武器の性能次第。<lf><lf>斬れ味ゲージの上昇量はあらかじめ、<lf>ステータス内の斬れ味ゲージに表示されて<lf>いる。
+<string>
+<string>装備スキル「<REF SkillCommon_1500129152>」
+<string><REF Item_IT_21>を使用した際に発動するスキル。<lf>一定時間、<REF RefStatus_0003_005>が落ちなくなる。
 <string>
 <string>集中モード
 <string>集中モードとは
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>一定時間、モンスターから身を隠せる。<lf>攻撃を行うかダメージを受けると、<lf>効果時間とは関係なく効果が終了する。<lf><lf>他の<REF RefMenu_110_14>とは異なり、<lf>常に携帯している。
+<string>
+<string><REF Item_IT_626>
+<string>ダメージのリアクションを取らなくなり、<lf><REF MusicSkillDataText_Wp05_33>、聴覚保護、<REF MusicSkillDataText_Wp05_30>の<lf>効果を得て、受けるダメージも減少する。<lf><lf>攻撃を受けると効果時間が減少する。
+<string>
+<string><REF Item_IT_627>
+<string>体力が徐々に回復する。<lf>攻撃を受けてから一定時間ダメージを<lf>受けていないと、回復速度が上がる。<lf><lf>またモンスターを攻撃することでも、<lf>少しずつ体力が回復する。
+<string>
+<string><REF Item_IT_628>
+<string>モンスターの攻撃をタイミングよく<lf>回避することで、無傷で切り抜けられる<lf>特殊な回避行動が発動する。<lf><lf>また、特殊な回避行動が発動すると、<lf>一時的に攻撃力が上がる。
+<string>
+<string><REF Item_IT_629>
+<string><REF HunterActiveSkill_5>
 <string>
 <string>モンスター狩猟のコツ
 <string>乗り状態
@@ -338,6 +504,9 @@
 <string>こやし状態
 <string>モンスターに悪臭をもたらす状態。<lf><REF Item_IT_72>などによって発生し、<lf>大型モンスターを追い払うことが<lf>期待できる。
 <string>
+<string>爆破状態
+<string><REF RefStatus_0008_002_04>を発生させてダメージを与える。<lf><REF RefStatus_0008_002_04>属性の武器攻撃などによって<lf>蓄積値が溜まることで発生する。
+<string>
 <string>モンスターの弱点とは
 <string>モンスターが特定の攻撃行動を行う前後に<lf>「弱点」が露出することがある。<lf>「弱点」は「<REF ActionGuideDataNameText_Wp00_m1804493312>」を使用すること<lf>で視認できる。<lf><lf>この「弱点」に「<REF ActionGuideDataNameTextCommon_423599584>」を<lf>当てることで、大きなチャンスを生み出す<lf>ことができる。<lf>
 <string>
@@ -353,4 +522,19 @@
 <string>モンスターを拘束する
 <string>
 <string><REF Item_IT_181>を当てる
+<string>
+<string>狂竜化とは
+<string>狂竜ウイルスに感染することで凶暴化した<lf>モンスターの状態を「狂竜化」と呼ぶ。<lf><lf>狂竜化したモンスターは、睡眠や捕食等<lf>に伴う自発的な移動行動がなく、<lf>通常の個体よりも攻撃的であるという<lf>特徴がある。<lf><lf>また狂竜症の影響から通常の個体よりも<lf>長く生きる事ができず、体力が少ない。
+<string>
+<string>護竜とは
+<string>古代文明により人工的に作り出された造竜<lf>種。生殖機能を持たず捕食行動も行わない<lf>が、竜乳そのものをエネルギーとして糧に<lf>する。<lf><lf>竜乳を吸収して得たエネルギーをもとに<lf>身体に付いた傷が修復されるなど通常の<lf>モンスターと比べて高い生命力を持ち、<lf>自己保存本能からエネルギーが得られる<lf>場所への執着心や攻撃性を併せ持つ。
+<string>
+<string>歴戦の個体とは
+<string>数多の戦いを生き抜いた個体。<lf>通常の個体と比べ、体力や攻撃力が大きく<lf>向上しており、非常に強力なモンスター。<lf><lf>また過去の戦いの影響か、通常の個体<lf>と違い最初から体の色々な部位に<lf>「歴戦傷」と呼ばれる傷がついている。
+<string>
+<string>歴戦傷とは
+<string>歴戦の個体が、数多の戦いを生き抜く中で<lf>体の様々な部位にできた傷。<lf><lf>通常と違い歴戦の個体には、初めから<lf>この傷が複数みられるのが特徴。<lf>攻撃することで、徐々に傷が開いていき<lf>大きな傷口が発生しチャンスとなる。
+<string>
+<string>死体変化
+<string>モンスターの死体は、時間経過により<lf>「死体」から「腐敗した死体」へと<lf>遷移し、状態により剥ぎ取れる素材が<lf>変化してしまう。<lf><lf>小型モンスターは、腐敗した死体から<lf>「<REF Gimmick_NAME_1176528640>」や「<REF Item_IT_270>」に遷移する時も<lf>あり、それぞれ素材の入手が可能。<lf>また護竜も「結晶化した死体」という<lf>状態に遷移する事もあり、それぞれ<lf>剥ぎ取れる素材も変化する。
 <string>

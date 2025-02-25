@@ -12,7 +12,7 @@
 <string>Atak
 <string>Obrona
 <string>Odporność na żywioły
-<string>Efekty
+<string>Efekty statusu
 <string>Umiejętności z pokarmu
 <string>Zacznij gotowanie
 <string><REF RefButton_0000>
@@ -20,10 +20,10 @@
 <string><REF RefButton_0012>
 <string>Edytuj ulubiony posiłek
 <string>Usuń składnik(i)
-<string>Sprawdź stan
-<string>Zacząć gotować ten posiłek?
+<string>Sprawdź status
+<string>Rozpocząć przygotowanie tego posiłku?
 <string>Przestać gotować?
-<string>Dodać wybrany składnik (jeden lub więcej)<lf>do ulubionego posiłku?
+<string>Dodać wybrany/e składnik(i) do ulubionego posiłku?
 <string>Ulubione posiłki
 <string>Ulubiony posiłek {0}
 <string>Gotuj ulubiony posiłek
@@ -33,10 +33,13 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
-<string>Zacząć gotować wybrany ulubiony posiłek?
+<string><REF RefItem_0013>
+<string>Rozpocząć gotowanie wybranego ulubionego posiłku?
 <string>Nie można ugotować tego posiłku,<lf>bo masz za mało składników.
 <string>Anulować zmiany?<lf>(Zmiany nie zostaną zapisane)
 <string>Usunąć zapisany zestaw?
 <string>{0} + {1}
 <string>{0} + {1}{2} + {3}
-<string><COLOR preset="TXT_Danger">Nie możesz ugotować mięsa, bo nie masz surowego mięsa.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie możesz przyrządzić mięsa, bo nie masz surowego mięsa.</COLOR>
+<string><COLOR preset="TXT_Danger">Za mało składników.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można przyrządzić mięsa, ponieważ w twojej sakwie na przedmioty nie ma wystarczająco dużo miejsca.</COLOR>

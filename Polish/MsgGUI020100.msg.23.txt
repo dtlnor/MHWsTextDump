@@ -3,58 +3,78 @@
 <string><REF RefNetwork_0004_02>
 <string>x
 <string>Maks.
-<string>Dół-pułapka: skuteczna
+<string>Dół-pułapka: efektywna
 <string>Dół-pułapka: zmniejszony efekt
 <string>Dół-pułapka: brak efektu
-<string>Pułapka rażąca: skuteczna
+<string>Pułapka rażąca: efektywna
 <string>Pułapka rażąca: zmniejszony efekt
 <string>Pułapka rażąca: brak efektu
-<string>Pułapka z pnączy: skuteczna
+<string>Pułapka z pnączy: efektywna
 <string>Pułapka z pnączy: zmniejszony efekt
 <string>Pułapka z pnączy: brak efektu
-<string>Błyskawic: skuteczny
-<string>Błyskawic: zmniejszony efekt
-<string>Błyskawic: brak efektu
+<string>Błysk: efektywny
+<string>Błysk: zmniejszony efekt
+<string>Błysk: brak efektu
 <string>Paraliż
 <string>Sen
 <string>Zbadaj
 <string>Zbadaj
 <string>Zniszczono część ciała
-<string>Trafiona rana
+<string>Zniszczenia: {0}
+<string>Rana zniszczona
+<string>Zahartowana rana zniszczona
 <string>Zgładzono!
 <string>Złapano!
 <string>Spadający głaz
-<string>Wielki gromuszek: skuteczny
-<string>Wielki gromuszek: brak efektu
+<string>Gromuszki wielkie: efektywne
+<string>Gromuszki wielkie: brak efektu
 <string>{0}<lf>odkrywa twój przenośny obóz!
 <string>{0} niszczy twój obóz!
 <string>Przenośny obóz został zniszczony!
 <string>Namiot {0}
-<string>Odkryto lokalizację obozu przenośnego!
+<string>Odkryto miejsce na przenośny obóz!
 <string>Odkryto nieznanego potwora!
 <string>Walka o terytorium
 <string><LSNR "opuścił" "opuściła"> okolicę...
+<string>Zaktualizowano przewodnik polowy.
 <string>Utrata wzroku. (Efekt aktywny).
 <string>Utrata wzroku. (Bez efektu).
-<string>{0:F2}
-<string>{0:F3}
+<string>Prototyp pułapki Gemmy: efektywny
+<string>Prototyp pułapki Gemmy: brak efektu
+<string>Wabienie: brak efektu
+<string>Smród: brak efektu
+<string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Największy
 <string>Najmniejszy
 <string>Rozmiar
 <string>Waga
-<string> + {0} <REF RefGeneral_0015_001>
-<string>Błąd synchronizacji środowisk.<lf><LSNR "Wróciłeś" "Wróciłaś"> do swojego środowiska.
-<string>Gracz {0}<lf>został wyznaczony na przywódcę.
-<string>Inny gracz został wyznaczony<lf>na przywódcę.
+<string>Opcjonalny cel osiągnięty!
+<string> + <NUMBER {0}> <REF RefGeneral_0015_001>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_04_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0003_05_00
+<string>Błąd synchronizacji światów.<lf><LSNR "Wróciłeś" "Wróciłaś"> do swojego świata.
+<string>Gracz {0}<lf>został wyznaczony na przywódcę zadania.
+<string>Wyznaczono cię<lf>na przywódcę zadania.
 <string>Nagrody zostały zmniejszone.<lf>(Pozostało prób: {0})
 <string>Nagrody zostały zmniejszone do zera.
 <string>Szczegóły
 <string>Pomiń
 <string><REF RefButton_0011>
+<string>Zalecane
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI020100_0009_00
 <string>Tworzenie zadań niedostępne
+<string>Nowy rekord wielkości!
 <string><OPTION id="DKEY_AND_BUTTON_OP" msg="MsgGUI020100_0011_000">
-<string><ICON PL_ACCESS_ITEM_BAG>
-<string><ICON PL_ITEM_SLIDER_OPEN> + <ICON UI_SHORTCUT_PALLET_SUB>
-<string><ICON PL_ACCESS_ITEM_BAG>
-<string><ICON PL_ITEM_SLIDER_OPEN> + <ICON UI_ITEM_LEFT>
-<string><ICON PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON PAD PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PAD PL_ACCESS_ITEM_BAG>
+<string><ICON MKB PL_ACCESS_ITEM_BAG>
+<string>(Przytrzymaj <ICON UI_START_MENU_OPEN>: otwórz dziennik czatu)
+<string>(<ICON UI_START_MENU_OPEN>: Otwórz dziennik czatu)

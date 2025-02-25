@@ -47,6 +47,7 @@
 <string>Przywódca anulował flarę<lf>alarmową.
 <string>Komunikacja głosowa przełączona<lf>na: <REF RefNetwork_0004_02>.
 <string>Komunikacja głosowa przełączona<lf>na: <REF RefNetwork_0004_01>.
+<string>W Składzie Zaopatrzenia<lf>trwa wyprzedaż!
 <string>Odblokowano nowe zadanie.
 <string>Gracza {0}<lf>wyznaczono na przywódcę.
 <string>Wyznaczono cię na przywódcę.
@@ -62,12 +63,24 @@
 <string>Zaproszenia do znajomych
 <string>Otrzymano zaproszenie do znajomych<lf>od gracza {0}.
 <string>Gracz {0} jest w gronie znajomych.
+<string>Zapora jest gotowa do użycia.
+<string>Zapora będzie gotowa za <PLURAL "{0} minutę" "{0} minuty" "{0} minut">
+<string>Zapora będzie gotowa za <PLURAL "{0} sekundę" "{0} sekundy" "{0} sekund">
+<string>Przybył statek wsparcia.
+<string>Statek wsparcia wkrótce odpłynie.
+<string>Statek wsparcia odpłynął.
+<string>Zużyto szczęśliwy talon. (Pozostało: {0})
+<string>Zostaną przyznane losowe nagrody oraz zeni.
+<string>Użyj
+<string>Zużyto szczęśliwy talon.
 <string>Aktywność wspólnego świata
 <string>Rozpoczynanie badania terenu dotyczącego<lf>potwora {0}.
 <string>Anuluj
 <string>Uzupełniono zaopatrzenie.<lf>(Sprawdź zaopatrzenie, używając <INPUTMSG MsgGUI020100_0011>).
 <string>Łowca wspierający {0}<lf>dołącza do zadania.
 <string>Łowca wspierający {0} opuszcza zadanie.
+<string>Dostępne jest nowe zadanie na Arenie.
+<string>Przerywniki obejrzane do tej pory można <lf>obejrzeć ponownie w Galerii w menu głównym.
 <string>Główny cel ustawiono jako miejsce docelowe.
 <string>Cel zniknął. Wyznaczanie miejsca dla głównego celu.
 <string>Cel oznaczony na mapie zniknął.
@@ -75,15 +88,34 @@
 <string>Zadanie nieudane...
 <string>Zaproszenia do zadania (wysłane ponownie)
 <string>Możesz otrzymywać zaproszenia do zadań od gracza {0}.
+<string>Przekazano: {0} (x{1})
 <string>Zdobyto podstawowe przedmioty:<lf><COLOR preset="TXT_Accent">Narzędzia łowieckie</COLOR>!
 <string>Aktualizacja przeglądu otoczenia
+<string>{1}: {0}<lf>chce poczęstować cię posiłkiem!
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
 <string>Zauważono {0}!<lf>Lokalizacja: {1}
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Możesz zgłosić udaną misję poboczną<lf>do: {0}!<lf>Miejsce: {1}
 <string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Dostępnych jest wiele celów do wspólnego<lf>tworzenia zadań!
 <string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga {0},<lf>drapieżnik szczytowy tego regionu!
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Nadciąga {0}!<lf>Chyba ma wpływ na miejscowe osady!
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Nadciąga potwór wart więcej niż zwykle!<lf>{0}
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Nadciąga cel misji pobocznej,<lf>{0}!
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Nadciąga cel listy życzeń!<lf>{0}
 <string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Nadciąga {0}!
@@ -92,6 +124,9 @@
 <string>{0}<lf>wkrótce opuści tę okolicę!
 <string>Otwórz mapę
 <string>Potwór {0}<lf>opuścił okolicę...
+<string>Aktualizacja przeglądu otoczenia
+<string>Na Szczycie Szronowych Łańcuchów<lf>pojawił się {0}!
+<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Pojawiło się stado z:<lf>{0}!
 <string>Otwórz mapę
@@ -99,11 +134,21 @@
 <string>{0} wraz ze stadem <lf>niedługo opuści tę okolicę!
 <string>Otwórz mapę
 <string>{0} wraz ze stadem<lf>opuszczają okolicę...
+<string>Nadciąga {0}!
 <string>Przegląd otoczenia
 <string>Zauważono ognisko:<lf>{0}!
 <string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Zauważono wzrost: {0}!
+<string>Otwórz mapę
+<string>Przegląd otoczenia
+<string>{0}<lf>do zrekrutowania jako<lf>asystent łowiecki!
+<string>Otwórz mapę
+<string>Przegląd otoczenia
+<string>Przybył statek wsparcia!
+<string>Otwórz mapę
+<string>Przegląd otoczenia
+<string>Zauważono duży kokon Strażnika!
 <string>Otwórz mapę
 <string>Utracono: {0}.
 <string>Prośby o dołączenie
@@ -113,6 +158,10 @@
 <string>Gospodarz rozwiązał lobby.
 <string>Gracz {0} obserwuje
 <string>Brak zaopatrzenia.
+<string>Lista życzeń {0}
+<string><COLOR preset="TXT_Accent">Zdobyto wszystkie wymagane materiały.</COLOR>
+<string>Lista życzeń {0}
+<string>Wymagana ilość
 <string>Porzucono badanie terenu.
 <string>Nie można nieść więcej zaopatrzenia.<lf>Nadmiar usunięto.
 <string>Otrzymano Efekty melodii<lf><BOLD>{0}</BOLD>.
@@ -123,6 +172,9 @@
 <string>Chłodny napój przestał działać.
 <string>Gorący napój przestał działać.
 <string>Nie można oznaczyć jako celu zadania.<lf>Otwórz ekran rozpoczęcia <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
+<string>Otwórz dane misji
+<string>Wyświetl priorytet celu<lf>i wybierz misję.
+<string>Otwórz
 <string>{0} nie może być<lf>celem zadania.
 <string>{0} nie może być<lf>celem zadania.<lf>(Zbyt niska RŁ).
 <string>Przełączono z trybu online dla jednego gracza w tryb online.
@@ -133,23 +185,84 @@
 <string>Dziękujemy za udział w teście beta.<lf>Już dziś zamów pełną grę w przedsprzedaży!
 <string>Otwórz
 <string>Nie można rozpocząć badania terenu, bo<lf>członkowie grupy przeglądają wyniki zadania.
-<string>{0} nie może być celem polowania<lf>w ramach zadania przy obecnym postępie.
-<string>{0}:<lf>aktywowano efekt bańki echa!
+<string>{0} nie może<lf>być celem polowania w ramach zadania<lf>przy obecnym postępie.
+<string>{0}:<lf>aktywowano Efekt bańki echa!
+<string>Dostarczono {0}!
+<string>{0}
+<string>Zdobyto nową nagrodę!
+<string>Tytuł
+<string>Zdobyto <PLURAL "{0} nowy tytuł" "{0} nowe tytuły" "{0} nowych tytułów">!
+<string>{0}
+<string>Zdobyto nową plakietkę!
+<string>{0}
+<string>Zdobyto nowe tło!
+<string>Wygląda na to, że Świnka nic nie ma...
+<string>Ogłoszono nowe zlecenie.
+<string>Zlecenie limitowane
+<string>{0}<lf>{1}/{2}
+<string>Zlecenie limitowane
+<string>{0}<lf><COLOR preset="TXT_Accent">Ukończono: {1}/{2}!</COLOR>
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga {0}.<lf>Daje rzadkie nagrody<lf>dodatkowe!
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Misja poboczna ukończona!<lf>Zgłoszenie przyjmuje: {0}
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Ukończone misje poboczne możesz zgłaszać<lf>swojemu koleżkotowi!
 <string>Otwórz mapę
 <string>Rozwiązano wspólną grupę, ze względu<lf>na brak innych członków.
 <string>Gracz {0} nie mógł dołączyć<lf>do wspólnego świata.
 <string>Gracz {0} opuścił wspólny świat.
 <string>Rozwiązano wspólny świat.
 <string>Nie można dołączyć do zadania.
+<string>Odblokowano nowe opcje sprzętu obozowego.
 <string>Efekty posiłków wkrótce wygasną.
+<string>Możesz teraz postawić i dostosować<lf>przenośny obóz w Kotlinie Oleju.
+<string>Możesz teraz postawić i dostosować<lf>przenośny obóz na Lodowcowych Klifach.
+<string>Możesz teraz postawić i dostosować<lf>przenośny obóz w Ruinach Wiwerii.
+<string>Aktualizacja przeglądu otoczenia
+<string>Dostępne jest zadanie z wieloma celami.<lf>Wpływają one na życie ludzi!
+<string>Otwórz mapę
+<string>Aktualizacja przeglądu otoczenia
+<string>Dostępne jest zadanie z wieloma celami.<lf>Dodatkowych nagród jest więcej niż zwykle!
+<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Przyjmuj zadania z wieloma celami i zdobywaj<lf>rzadkie nagrody bonusowe!
 <string>Otwórz mapę
+<string>Masz <PLURAL "{0} nową wiadomość" "{0} nowe wiadomości" "{0} nowych wiadomości">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Opuszczono wspólną grupę.
 <string>Ręczny ruch
 <string>Automatyczny ruch
 <string>Autoeksploracja
 <string>Tymczasowo dezaktywowano<lf>tryb online dla jednego gracza.
+<string>{0} zmierza w kierunku<lf>Szczytu Szronowych Łańcuchów
+<string>Udało ci się osiągnąć {0}. rangę łowcy!
+<string>Nie możesz tu umieścić<lf>niesionego przedmiotu.
 <string>Rozgrywka międzyplatformowa <lf>aktualnie jest włączona.
+<string>Powiadomienie oddziału
+<string>Otrzymano zaproszenie do oddziału:<lf><BOLD>{0}</BOLD>.
+<string>Powiadomienie oddziału
+<string>Masz oczekującą prośbę<lf>o dołączenie do oddziału.
+<string>Powiadomienie oddziału
+<string>Otrzymano prośbę<lf>o dołączenie do oddziału<lf><BOLD>{0}</BOLD>.
+<string>Powiadomienie oddziału
+<string>Dołączono do oddziału<lf><BOLD>{0}</BOLD>.
+<string>Gracz <BOLD>{1}</BOLD><lf>dołączył do oddziału<lf>{0}.
+<string>Wyznaczono cię na poddowódcę<lf>oddziału <BOLD>{0}</BOLD>.
+<string>Wyznaczono cię na dowódcę<lf>oddziału <BOLD>{0}</BOLD>.
+<string>Premia za logowanie
+<string>Premia za dzisiejsze logowanie<lf>jest dostępna w menu startowym.
+<string>Odbierz teraz
+<string>Udostępniony zestaw wyposażenia
+<string>Gracz {0}<lf>udostępnił zestaw<lf>wyposażenia.
+<string>Udostępniony zestaw przedmiotów
+<string>Gracz {0}<lf>udostępnił zestaw<lf>przedmiotów.
+<string>Udostępniony zestaw menu kołowego
+<string>Gracz {0}<lf>udostępnił zestaw<lf>menu kołowego.
+<string>Umiejętność <BOLD>{0}</BOLD><lf>może teraz być aktywowana.
+<string>Nie udało się odebrać udostępnionego zestawu
+<string>Nie udało się odebrać, ponieważ<lf>osiągnięto maksymalną liczbę<lf>powiadomień o udostępnionych zestawach.
+<string>Masz powiadomienie o zaproszeniu.<lf>Sprawdź w menu startowym opcję<lf><BOLD>Powiadomienia o zaproszeniach</BOLD>.
+<string>Ktoś chce dołączyć do twojej gry.<lf>Sprawdź w menu startowym opcję<lf><BOLD>Prośby o dołączenie</BOLD>.
+<string>Nie udało się zainicjować zadania.

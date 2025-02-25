@@ -1,7 +1,7 @@
 ﻿<string>إنشاء الشخصية
-<string><LSNR "أدخل اسمكَ" "أدخلي اسمكِ">.<lf><lf><COLOR preset="TXT_Accent">الحد الأقصى لعدد الأحرف هو 15.</COLOR>
+<string><LSNR "أدخل اسمكَ" "أدخلي اسمكِ">.<lf><lf><COLOR preset="TXT_Accent">الحد الأقصى لعدد الأحرف هو 15.<lf>(الحروف العربية غير مدعومة حاليًا).</COLOR>
 <string>{0}<lf>هل هذا الاسم مناسب؟
-<string><LSNR "أدخل" "أدخلي"> اسم الباليكو.<lf><lf><COLOR preset="TXT_Accent">الحد الأقصى لعدد الأحرف هو 15.</COLOR>
+<string><LSNR "أدخل" "أدخلي"> اسم الباليكو.<lf><lf><COLOR preset="TXT_Accent">الحد الأقصى لعدد الأحرف هو 15.<lf>(الحروف العربية غير مدعومة حاليًا).</COLOR>
 <string>تحديد مقدار المقاطع التعليمية المراد رؤيتها.<lf>(يمكن تغيير هذا الإعداد من قائمة البدء في أي وقت).<lf><lf><LEFT><COLOR preset="TXT_Accent">عرض الكل</COLOR>: موصى به لمَن يتعلمون الأساسيات.</LEFT><lf><LEFT><COLOR preset="TXT_Accent">عرض البعض</COLOR>: موصى به للاعبين المخضرمين.</LEFT>
 <string>عرض الكل
 <string>عرض البعض
@@ -13,6 +13,10 @@
 <string>حفظ التغييرات
 <string>تجاهل كل التغييرات
 <string>تعيين مُسبق للمظهر
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(إعدادات مفصَّلة)
 <string>درع البداية
 <string>تحديد درع البداية.
@@ -86,6 +90,7 @@
 <string>شكل الحاجبين
 <string>لون الحاجبين
 <string>شفافية الحاجبين
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>ارتفاع الحاجبين
 <string>ارتفاع بداية الحاجبين
 <string>عرض بداية الحاجبين
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>ارتفاع العين
 <string>عمق العين
 <string>المسافة بين العينين
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>لون الأسنان
 <string>درجة تلون الأسنان
 <string>شفافية تلون الأسنان
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>طول الوجه
 <string>عرض الفك
 <string>دوران الفك
@@ -173,6 +184,7 @@
 <string>طول الذقن
 <string>عمق الذقن
 <string>هيكل الوجه
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>الكتلة العضلية
 <string>تحديد العضلات
 <string>لون البشرة
@@ -295,6 +307,7 @@
 <string>إعادة تعيين الإعدادات
 <string>إعادة ضبط كل الإعدادات المحددة إلى وضعها الافتراضي؟
 <string>هل <LSNR "تريد" "تريدين"> إعادة ضبط إعدادات المظهر المحددة مُسبقًا؟
+<string>حفظ/تحميل
 <string>تأكيد/تغيير التصميم
 <string>التصميم
 <string>إعدادات اللون
@@ -306,6 +319,10 @@
 <string>إيقاف
 <string>افتراضي
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>خيارات العرض
@@ -365,6 +382,94 @@
 <string>مقدار الدمج الأيمن
 <string>سطوع البشرة<lf> 
 <string>   تشبع البشرة
+<string>التصاميم المحفوظة
+<string>اسم التصميم
+<string>تاريخ الحفظ
+<string>تحميل
+<string>حفظ
+<string>إعادة تسمية
+<string>إعادة ترتيب
+<string>حذف
+<string><ICON UI_SUB_MENU>حفظ
+<string>التصميم {0}
+<string>هل <LSNR "تريد" "تريدين"> التغيير إلى هذا المظهر؟<lf><COLOR preset="TXT_Danger">سيتم فقد التعديلات الحالية.<lf><LSNR "احفظ" "احفظي"> بيانات التصميم قبل التغيير للاحتفاظ بالتعديلات.</COLOR>
+<string>تتضمن الإعدادات الحالية تخصيصات<lf>لا تعود <LSNR "إليكَ" "إليكِ">. هل <LSNR "تريد" "تريدين"> المتتابعة<lf>وتطبيق التعديلات الممكنة فقط؟
+<string>هل <LSNR "تريد" "تريدين"> حفظ تصميم الشخصية الحالي؟
+<string>هل <LSNR "تريد" "تريدين"> حفظ تصميم الشخصية الحالي؟<lf><COLOR preset="TXT_Danger">(ستحل محل البيانات المحفوظة)</COLOR>
+<string>تحديد مدخل لإعادة ترتيبه.
+<string>تحديد وجهة.
+<string>هل <LSNR "تريد" "تريدين"> حذف تصميم الشخصية هذا؟
+<string>تعديل جواهر سيكريت
+<string>تخصيص سيكريت
+<string>لون البشرة
+<string>لون الريش الداخلي
+<string>لون الريش الخارجي
+<string>سُمك النمط
+<string>لون النمط
+<string>شفافية النمط
+<string>لون العين
+<string>تعديل العين اليمنى
+<string>لون العين اليمنى
+<string>نوع الجوهرة
+<string>نوع الحلية المتدلية
+<string>تغيير الاسم
+<string>يتيح <LSNR "لكَ" "لكِ"> تغيير اسم (سيكريت).
+<string>هل <LSNR "تريد" "تريدين"> إنهاء تعديل جواهر (سيكريت)؟
+<string>هل <LSNR "تريد" "تريدين"> إنهاء تخصيص (سيكريت)؟
+<string>إظهار الإكسسوارات
+<string><LSNR "أدخل" "أدخلي"> اسم الـ(سيكريت).<lf><lf><COLOR preset="TXT_Accent">الحد الأقصى لعدد الأحرف هو 15.<lf>(الحروف العربية غير مدعومة حاليًا).</COLOR>
+<string>تعديل المعسكرات المؤقتة
+<string>تخصيص الخيمة
+<string>خيارات عتاد المعسكر
+<string>نوع مظلة الخيمة
+<string>لون مظلة الخيمة الأساسي
+<string>لون مظلة الخيمة الثانوي
+<string>نوع الخيمة الداخلية
+<string>لون الخيمة الداخلية الأساسي
+<string>لون الخيمة الداخلية الثانوي
+<string>التصميم 1
+<string>التصميم 2
+<string>سيسبق هذا الإعداد "التصميم 1" عندما يكون هناك تداخل.
+<string>التصميم 3
+<string>سيسبق هذا الإعداد "التصميم 2" عندما يكون هناك تداخل.
+<string>التصميم النوع 1
+<string>التصميم النوع 2
+<string>التصميم النوع 3
+<string>لون التصميم 1
+<string>لون التصميم 2
+<string>لون التصميم 3
+<string>طلاء مظلة الخيمة النوع 1
+<string>طلاء مظلة الخيمة النوع 2
+<string>طلاء مظلة الخيمة النوع 3
+<string>طلاء الخيمة الداخلية النوع 1
+<string>طلاء الخيمة الداخلية النوع 2
+<string>طلاء الخيمة الداخلية النوع 3
+<string>طلاء مظلة الخيمة اللون 1
+<string>طلاء مظلة الخيمة اللون 2
+<string>طلاء مظلة الخيمة اللون 3
+<string>طلاء الخيمة الداخلية اللون 1
+<string>طلاء الخيمة الداخلية اللون 2
+<string>طلاء الخيمة الداخلية اللون 3
+<string>الشفافية
+<string>الحجم
+<string>العرض الأفقي
+<string>العرض العمودي
+<string>الوضعية
+<string>الوضعية الأفقية
+<string>الوضعية العمودية
+<string>الرجوع إلى الوضع الافتراضي
+<string>إعادة ضبط إعدادات التصميم إلى وضعها الافتراضي؟
+<string>تبديل إعدادات التصميم
+<string>تبديل التصميم الحالي بتصميم آخر.
+<string>عكس أفقيًا
+<string>عكس عموديًا
+<string>الزاوية
+<string>عتاد المعسكر (كبير) 1
+<string>عتاد المعسكر (كبير) 2
+<string>عتاد المعسكر (صغير) 1
+<string>عتاد المعسكر (صغير) 2
+<string>نوع المَوقِد
+<string>هل <LSNR "تريد" "تريدين"> إنهاء تعديل المعسكر المؤقت؟
 <string>تغيير المظهر
 <string>هل <LSNR "تريد" "تريدين"> إنهاء تعديل المظهر؟
 <string>تعديل <LSNR "الصياد" "الصيادة">
@@ -389,3 +494,35 @@
 <string>إنشاء وجه جديد بسمات مماثلة
 <string>إنشاء وجه جديد تمامًا
 <string>هل <LSNR "تريد" "تريدين"> استخدام هذا الوجه؟
+<string><COLOR preset="TXT_Accent">بيانات اختبار بيتا</COLOR>
+<string>هل <LSNR "تريد" "تريدين"> استرداد بيانات شخصية اختبار بيتا؟
+<string>التحميلات
+<string>تحميل التصميم
+<string>تنزيل التصميم
+<string>هل <LSNR "تريد" "تريدين"> تحميل التصميم ومشاركته؟
+<string>تم تحميل التصميم.<lf>رمز التنزيل:<lf>{0}
+<string><COLOR preset="TXT_Danger">خطأ</COLOR><lf>تعذر تحميل التصميم.
+<string><COLOR preset="TXT_Danger">لا يمكن تحميل المزيد من التصميمات.</COLOR>
+<string>عرض/حذف التحميلات
+<string>تم تحميل رمز التصميم:<lf>{0}<lf><lf>ملاحظة: <LSNR "اضغط" "اضغطي"> على "نعم" لحذف التحميل.
+<string>هل <LSNR "تريد" "تريدين"> حذف تحميل هذا التصميم؟
+<string>تم حذف تحميل التصميم.
+<string><COLOR preset="TXT_Danger">خطأ</COLOR><lf>تعذر حذف تحميل التصميم.
+<string><COLOR preset="TXT_Danger">لم نتمكن من تحميل التصميم لأنه تم تنزيله.</COLOR>
+<string>يُرجى إدخال رمز التصميم.<lf><lf><COLOR preset="TXT_Accent">ملاحظة: الرموز حساسة لحالة الأحرف<lf>وتستخدم اثنى عشر أحرف أبجدية رقمية.</COLOR>
+<string>تم العثور على التصميم التالي:<lf>{0}<lf>معرِّف<lf>الصياد المنشىء: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>تعذر العثور على تصميم بالرمز التالي:<lf>{0}.
+<string>{0}<lf>لا يمكن استخدامه لأنه تصميم خاص بالصياد.<lf>{1}
+<string>{0}<lf>لا يمكن استخدامه لأنه تصميم خاص بالباليكو.<lf>{1}
+<string>{0}  <lf>لا يمكن استخدام التصميم.  <lf>{1}
+<string>حفظ التصميم
+<string>تغيير المظهر
+<string>معلومات المنشئ
+<string>هل <LSNR "تريد" "تريدين"> التغيير إلى هذا المظهر؟<lf>سيتم فقد التعديلات الحالية.<lf><LSNR "احفظ" "احفظي"> بيانات التصميم قبل التغيير للاحتفاظ بالتعديلات.
+<string>تتضمن الإعدادات الحالية تخصيصات<lf>لا تعود <LSNR "إليكَ" "إليكِ">. هل <LSNR "تريد" "تريدين"> المتابعة<lf>وتطبيق التعديلات الممكنة فقط؟
+<string>{0}<lf>معرِّف<lf>الصياد المنشىء: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>هل <LSNR "تريد" "تريدين"> مغادرة تنزيل التصميم؟
+<string>تم ضبط التصميم المُحمَّل<lf>بسبب فحص مطابقة بيانات الخادم.
+<string><COLOR preset="TXT_Danger">لا يمكن القيام بذلك لأنه جارٍ تحميل تصميم.</COLOR>
+<string><COLOR preset="TXT_Danger">لا يمكن القيام بذلك لأنه لا توجد بيانات محفوظة للشخصية.</COLOR>
+<string><COLOR preset="TXT_Danger"><LSNR "عليكَ" "عليكِ"> إنشاء معرِّف صياد للقيام بذلك.</COLOR>

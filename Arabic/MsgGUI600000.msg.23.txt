@@ -23,20 +23,115 @@
 <string>حدد حجر الشحذ.
 <string>حدد حجر الشحذ ثم <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string><LSNR "استخدم" "استخدمي"> <ICON PL_DUMMY_MOVE> أثناء التحرك التلقائي لتوجيه (سيكريت) يدويًا في اتجاهات أخرى.<lf><LSNR "ستعود" "ستعودين"> إلى التحرك التلقائي بعد مرور بعض الوقت دون أي إدخال<lf>أو <LSNR "يمكنكَ" "يمكنكِ"> التفاعل معه باستخدام <ICON PL_PT_CALL>.
-<string><LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> أثناء التحرك التلقائي<lf>لتوجيه (سيكريت) يدويًا في اتجاهات أخرى.<lf><LSNR "ستعود" "ستعودين"> إلى التحرك التلقائي بعد مرور بعض<lf>الوقت دون أي إدخال أو <LSNR "يمكنكَ" "يمكنكِ"> التفاعل معه<lf>باستخدام <ICON PL_PT_CALL>.
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_DUMMY_MOVE> أثناء التحرك التلقائي لتوجيه (سيكريت) يدويًا.<lf><LSNR "ستعود" "ستعودين"> إلى التحرك التلقائي بعد مرور بعض الوقت دون أي إدخال<lf><lf>أو <LSNR "يمكنكَ" "يمكنكِ"> إعادة تنشيطه باستخدام <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>.
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> أثناء التحرك التلقائي<lf>لتوجيه (سيكريت) يدويًا في اتجاهات أخرى.<lf><LSNR "ستعود" "ستعودين"> إلى التحرك التلقائي بعد مرور بعض<lf>الوقت دون أي إدخال أو <LSNR "يمكنكَ" "يمكنكِ"> التفاعل معه<lf>باستخدام <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN>＋<ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string><LSNR "حرِّك" "حرّكي"> الطُعم باستخدام <ICON PL_DUMMY_MOVE><lf>لإغراء الأسماك لالتقاطه.<lf>تنجذب الأسماك المختلفة إلى أنواع مختلفة من الحركات.
+<string><LSNR "حرِّك" "حرّكي"> الطُعم باستخدام <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>لإغراء الأسماك لالتقاطه.<lf>تنجذب الأسماك المختلفة إلى أنواع مختلفة من الحركات.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>إن صيد سمكة ضخمة هو المعركة النهائية لإرادة<lf>الصيد. إذا بدأت السمكة في التحرك بسرعة،<lf>فيمكن السيطرة على السحب من خلال التحرك<lf><ICON PL_DUMMY_MOVE> في الاتجاه الذي تسبح فيه باستخدام<lf>لتقليل الضغط على خيط الصيد.
+<string>إن صيد سمكة ضخمة هو المعركة النهائية لإرادة الصيد. إذا بدأت السمكة في التحرك بسرعة،<lf>فيمكن السيطرة على السحب من خلال التحرك<lf>في الاتجاه الذي تسبح فيه باستخدام<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> لتقليل الضغط على خيط الصيد.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>بمجرد أن تتعب السمكة وتبطئ سرعتها<lf>تصبح هذه <LSNR "فرصتكَ" "فرصتكِ">!<lf><LSNR "حرِّك" "حرّكي"> <ICON PL_DUMMY_MOVE> لأعلى ولأسفل لجذبها.
+<string>بمجرد أن تتعب السمكة وتبطئ سرعتها<lf>تصبح هذه <LSNR "فرصتكَ" "فرصتكِ">! اضغط على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>بشكل متكرر لسحبها.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>إذا اقتربت سمكة من عائق، <LSNR "فعليكَ" "فعليكِ"> إمالة <ICON PL_DUMMY_MOVE><lf>في الاتجاه المعاكس لاتجاه سباحتها لكبح جماحها<lf>مع إبقاء خيط الصيد بعيدًا عن الصخور أيضًا.
+<string>إذا اقتربت سمكة من عائق، <LSNR "فاستخدم" "فاستخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>للتحرك في الاتجاه المعاكس لاتجاه سباحتها لكبح جماحها<lf>مع إبقاء خيط الصيد بعيدًا عن الصخور أيضًا.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>عندما يحدث ذلك، <LSNR "تحرك" "تحركي"> <ICON PL_DUMMY_MOVE> في اتجاه قفزتها<lf>و<LSNR "اضغط" "اضغطي"> على <ICON PL_SLINGER_SHOOT><lf>لتقييد السمكة.
+<string>عندما يحدث ذلك، <LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>للتحرك في اتجاه قفزتها<lf>و<LSNR "اضغط" "اضغطي"> على <ICON PL_SLINGER_SHOOT> لتقييد السمكة.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> بسرعة<lf><COLOR preset="TXT_Accent">لف بطيء:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> ببطء<lf><COLOR preset="TXT_Accent">هز صنارة الصيد:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE> بشكل متكرر
 <string><COLOR preset="TXT_Accent">لف سريع</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> سريعًا<lf><COLOR preset="TXT_Accent">لف بطيء</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> ببطء<lf><COLOR preset="TXT_Accent">هز صنارة الصيد</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
-<string><COLOR preset="TXT_Accent">تجنُّب العوائق:</COLOR> <LSNR "استخدم" "استخدمي"> <ICON PL_DUMMY_MOVE> لسحب الأسماك<lf>بعيدًا عن العوائق
-<string><COLOR preset="TXT_Accent">تجنب العوائق</COLOR>: استخدم <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>لسحب الأسماك بعيدًا عن العوائق
+<string><COLOR preset="TXT_Accent">تجنُّب العوائق:</COLOR> <LSNR "استخدم" "استخدمي"> <ICON PL_DUMMY_MOVE> لسحب<lf>الأسماك بعيدًا عن العوائق.
+<string><COLOR preset="TXT_Accent">تجنب العوائق</COLOR>: استخدم <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>لسحب<lf>الأسماك بعيدًا عن العوائق.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
-<string>يسبب العجز المؤقت عن التحرّك.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة للتعافي بشكل أسرع.
-<string>يسبب العجز المؤقت عن التحرّك.<lf><LSNR "اضغط" "اضغطي"> بسرعة على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة للتعافي بشكل أسرع.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_120>
-<string>يسبب العجز المؤقت عن التحرّك.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة للتعافي بشكل أسرع.
-<string>يسبب العجز المؤقت عن التحرّك.<lf><LSNR "اضغط" "اضغطي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة للتعافي بشكل أسرع.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
-<string>يسبب العجز المؤقت عن التحرّك.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة للتعافي بشكل أسرع.
-<string>يسبب العجز المؤقت عن التحرّك.<lf><LSNR "اضغط" "اضغطي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة للتعافي بشكل أسرع.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة أو <LSNR "استخدم" "استخدمي"> مُنظفًا<lf>للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة أو <LSNR "استخدم" "استخدمي"> مُنظفًا<lf>للتعافي بشكل أسرع.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة أو <LSNR "استخدم" "استخدمي"> مُنظفًا<lf>للتعافي بشكل أسرع.
+<string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة أو <LSNR "استخدم" "استخدمي"> مُنظفًا<lf>للتعافي بشكل أسرع.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "حرِّك" "حرّكي"> <ICON PL_DUMMY_MOVE> بسرعة لأعلى ولأسفل
+<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> بسرعة
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string>لف بطيء: <LSNR "حرِّك" "حرّكي"> <ICON PL_DUMMY_MOVE> ببطء لأعلى ولأسفل
+<string>لف بطيء: <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> ببطء
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string>خط التحريك: <LSNR "عليكَ" "عليكِ"> إمالة <ICON PL_DUMMY_MOVE> للأسفل بشكل متكرر
+<string>خط التحريك: <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_BACK> بشكل متكرر
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>تتوفر مجموعة متنوعة من الميزات عبر<lf>الإنترنت في مكتب الدعم. يمكنك استرداد<lf>المحتوى، الاطلاع على آخر أخبار اللعبة،<lf>الوصول إلى المتجر الإلكتروني، والمزيد.<lf><COLOR preset="TXT_Accent">سسيتم إضافة ميزات أخرى لاحقًا.</COLOR>
+<string>تتوفر مجموعة متنوعة من الميزات عبر<lf>الإنترنت في مكتب الدعم. يمكنك استرداد<lf>المحتوى، الاطلاع على آخر أخبار اللعبة،<lf>الوصول إلى متجر Steam، والمزيد.<lf><COLOR preset="TXT_Accent">سسيتم إضافة ميزات أخرى لاحقًا.</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string>تحديد عنصر: <LSNR "اضغط" "اضغطي"> مطولًا على <ICON PL_ITEM_SLIDER_OPEN> و<LSNR "اضغط" "اضغطي"> على <ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>استخدام عنصر: <LSNR "أطلق" "أطلقي"> <ICON PL_ITEM_SLIDER_OPEN> و<LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM>
+<string>تحديد عنصر: <LSNR "اضغط" "اضغطي"> على <ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>استخدام عنصر: <LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM>
+<string>تحديد عنصر: <LSNR "اضغط" "اضغطي"> مطولًا على <ICON PL_ITEM_SLIDER_OPEN> و<LSNR "اضغط" "اضغطي"> على <ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>استخدام عنصر: <LSNR "أطلق" "أطلقي"> <ICON PL_ITEM_SLIDER_OPEN> و<LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM>
+<string>تحديد عنصر: <LSNR "اضغط" "اضغطي"> على <ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>استخدام عنصر: <LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string>قم بالتبديل بين أسلحتك الأساسية والثانوية باستخدام <ICON PL_WEAPON_CHANGE> .
+<string>قم بالتبديل بين أسلحتك الأساسية والثانوية باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> .
+<string>قم بالتبديل بين أسلحتك الأساسية والثانوية باستخدام <ICON PL_WEAPON_CHANGE> .
+<string>قم بالتبديل بين أسلحتك الأساسية والثانوية باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> .
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string><LSNR "ستحصل" "ستحصلين"> على عناصر إمدادات جديدة عند الإغماء.<lf><LSNR "استخدم" "استخدمي"> <ICON PL_ACCESS_ITEM_BAG> لتفقُّد <LSNR "حقيبتكَ" "حقيبتكِ">.
+<string><LSNR "ستحصل" "ستحصلين"> على عناصر إمدادات جديدة عند الإغماء.<lf><LSNR "استخدم" "استخدمي"> <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> لتفقُّد <LSNR "حقيبتكَ" "حقيبتكِ">.
+<string><LSNR "ستحصل" "ستحصلين"> على عناصر إمدادات جديدة عند الإغماء.<lf><LSNR "استخدم" "استخدمي"> <ICON PL_ACCESS_ITEM_BAG> لتفقُّد <LSNR "حقيبتكَ" "حقيبتكِ">.
+<string><LSNR "ستحصل" "ستحصلين"> على عناصر إمدادات جديدة عند الإغماء.<lf><LSNR "استخدم" "استخدمي"> <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> لتفقُّد <LSNR "حقيبتكَ" "حقيبتكِ">.
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>عند مطاردة وحش،<lf><LSNR "اغمد سلاحكَ" "اغمدي سلاحكِ"> أولًا باستخدام <ICON PL_WEAPON_OFF>،<lf>ثم <LSNR "اركض" "اركضي"> باستخدام <ICON PL_DASH_TOGGLE>.
+<string>عند مطاردة وحش،<lf><LSNR "اغمد سلاحكَ" "اغمدي سلاحكِ"> أولًا باستخدام <ICON PL_WEAPON_OFF>،<lf>ثم <LSNR "اركض" "اركضي"> باستخدام <ICON PL_DASH>.
+<string>عند مطاردة وحش، <LSNR "اغمد سلاحكَ" "اغمدي سلاحكِ"> أولًا<lf>باستخدام <ICON PL_WEAPON_OFF>، ثم <LSNR "اركض" "اركضي"> باستخدام<lf><ICON PL_DASH> أو <ICON PL_DASH_TOGGLE>.
+<string>عند مطاردة وحش،<lf><LSNR "اغمد سلاحكَ" "اغمدي سلاحكِ"> أولًا باستخدام <ICON PL_WEAPON_OFF>،<lf>ثم <LSNR "اركض" "اركضي"> باستخدام <ICON PL_DASH>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_WEAPON_CHANGE><lf>للتبديل إلى <COLOR preset="TXT_Accent">السلاح الثانوي</COLOR> في نبلة سلاح (سيكريت).
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE><lf>للتبديل إلى <COLOR preset="TXT_Accent">السلاح الثانوي</COLOR> في نبلة سلاح (سيكريت).
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_WEAPON_CHANGE><lf>للتبديل إلى <COLOR preset="TXT_Accent">السلاح الثانوي</COLOR> في نبلة سلاح (سيكريت).
+<string><LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE><lf>للتبديل إلى <COLOR preset="TXT_Accent">السلاح الثانوي</COLOR> في نبلة سلاح (سيكريت).
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_PT_CALL> لامتطاء الـ(سيكريت)<lf>والتحرك تلقائيًا نحو الهدف.
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> لامتطاء الـ(سيكريت)<lf>والتحرك تلقائيًا نحو الهدف.
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_PT_CALL> لامتطاء الـ(سيكريت)<lf>والتحرك تلقائيًا نحو الهدف.
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> لامتطاء الـ(سيكريت)<lf>والتحرك تلقائيًا نحو الهدف.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>سيتم <LSNR "تزويدكَ" "تزويدكِ"> بـ <COLOR preset="TXT_Accent">عناصر الإمدادات</COLOR> في بداية كل<lf>مَهمة. ويمكن قبولها في أي وقت باستخدام <ICON PL_ACCESS_ITEM_BAG>.<lf>سيتم توفير إمدادات إضافية وفقًا لشروط الصيد.
+<string>سيتم <LSNR "تزويدكَ" "تزويدكِ"> بـ <COLOR preset="TXT_Accent">عناصر الإمدادات</COLOR> في بداية كل<lf>مَهمة. ويمكن قبولها في أي وقت باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>.<lf>سيتم توفير إمدادات إضافية وفقًا لشروط الصيد.
+<string>سيتم <LSNR "تزويدكَ" "تزويدكِ"> بـ <COLOR preset="TXT_Accent">عناصر الإمدادات</COLOR> في بداية كل<lf>مَهمة. ويمكن قبولها في أي وقت باستخدام <ICON PL_ACCESS_ITEM_BAG>.<lf>سيتم توفير إمدادات إضافية وفقًا لشروط الصيد.
+<string>سيتم <LSNR "تزويدكَ" "تزويدكِ"> بـ <COLOR preset="TXT_Accent">عناصر الإمدادات</COLOR> في بداية كل<lf>مَهمة. ويمكن قبولها في أي وقت باستخدام <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>.<lf>سيتم توفير إمدادات إضافية وفقًا لشروط الصيد.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>سيختلف المدى الحرج حسب الذخيرة. تغيير الذخيرة المزودة عن طريق<lf><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> أو <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة. تغيير الذخيرة المزودة عن طريق<lf><ICON WP13 UI_BULLET_ITEM_UP> أو <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة. تغيير الذخيرة المزودة عن طريق<lf><ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> أو <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة. تغيير الذخيرة المزودة عن طريق<lf><ICON WP13 UI_BULLET_ITEM_UP> أو <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة. تغيير الذخيرة المزودة عن طريق<lf><ICON WP13 UI_BULLET_ITEM_UP> أو <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>سيختلف المدى الحرج حسب الذخيرة.<lf>تغيير الذخيرة المزودة عن طريق<lf><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> أو <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة.<lf>تغيير الذخيرة المزودة عن طريق<lf><ICON WP12 UI_BULLET_ITEM_UP> أو <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة.<lf>تغيير الذخيرة المزودة عن طريق<lf><ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> أو <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة.<lf>تغيير الذخيرة المزودة عن طريق<lf><ICON WP12 UI_BULLET_ITEM_UP> أو <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>سيختلف المدى الحرج حسب الذخيرة.<lf>تغيير الذخيرة المزودة عن طريق<lf><ICON WP12 UI_BULLET_ITEM_UP> أو <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
+<string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
+<string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
+<string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
+<string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)

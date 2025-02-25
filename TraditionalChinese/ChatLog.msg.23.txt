@@ -47,6 +47,7 @@
 <string>任務隊長已停止發出救難信號。
 <string>已將語音聊天切換至<REF RefNetwork_0004_02>。
 <string>已將語音聊天切換至<REF RefNetwork_0004_01>。
+<string><REF Facility_NAME_1472590464>正在特賣！
 <string>已開放新的任務。
 <string>已委任{0}<lf>為任務隊長。
 <string>已接受委任成為任務隊長。
@@ -62,12 +63,24 @@
 <string>獵人好友邀請
 <string>已收到來自{0}的<lf>獵人好友邀請。
 <string>與{0}<lf>成為了獵人好友。
+<string>現在可使用柵欄開關。
+<string>距離柵欄準備完成尚有{0}分鐘。
+<string>距離柵欄準備完成尚有{0}秒。
+<string>支援船來了。
+<string>支援船的出發日快到了。
+<string>支援船已出發。
+<string>使用激運票（剩餘{0}張）
+<string>任務報酬的抽選範圍和<lf>報酬金將獲得加成。
+<string>使用
+<string>已使用激運票。
 <string>環境連結的成員正在狩獵。
 <string>即將開始{0}的<lf>實地調查任務。
 <string>取消
 <string>已補充補給品。<lf>（<INPUTMSG MsgGUI020100_0011>確認補給品）
 <string>支援獵人{0}已加入任務。
 <string>支援獵人{0}已脫離任務。
+<string>已開放新的鬥技大會任務。
+<string>可於標題畫面的「藝廊」再次鑑賞<lf>曾看過的過場動畫。
 <string>已將目的地更改為主要目標。
 <string>設定為目的地的目標已消失，<lf>已將主要目標設為新的目的地。
 <string>設定為目的地的目標已消失。
@@ -75,15 +88,34 @@
 <string>任務失敗。
 <string>任務邀請（因可承接而再次邀請）
 <string>可以接受來自{0}的<lf>任務邀請了。
+<string>已交出{1}個{0}。
 <string>已獲得固定道具<COLOR preset="TXT_Accent">狩獵七道具</COLOR>。
 <string>環境概要主題
+<string>{1}的{0}想請客！
+<string>打開地圖
+<string>環境概要主題
 <string>在{1}觀測到了<lf>{0}！
+<string>打開地圖
+<string>環境概要主題
+<string>完成了次要使命，<lf>可向{1}的{0}匯報！
 <string>打開地圖
 <string>環境概要主題
 <string>可將多個目標一併任務化！
 <string>打開地圖
 <string>環境概要主題
 <string>此地區的頂級捕食者<lf>{0}出現了！
+<string>打開地圖
+<string>環境概要主題
+<string>{0}出現了！<lf>牠好像影響到附近居民的生活！
+<string>打開地圖
+<string>環境概要主題
+<string>{0}出現了！<lf>追加報酬比平時要多！
+<string>打開地圖
+<string>環境概要主題
+<string>次要使命的目標<lf>{0}出現了！
+<string>打開地圖
+<string>環境概要主題
+<string>願望清單的目標<lf>{0}出現了！
 <string>打開地圖
 <string>環境概要
 <string>{0}出現了！
@@ -92,6 +124,9 @@
 <string>{0}即將離去！
 <string>打開地圖
 <string>{0}已離去……
+<string>環境概要主題
+<string>{0}在<REF RefEnvironment_0001_0004>出現了！
+<string>打開地圖
 <string>環境概要
 <string>{0}的群體出現了！
 <string>打開地圖
@@ -99,11 +134,21 @@
 <string>包含{0}的群體<lf>即將離去！
 <string>打開地圖
 <string>包含{0}的群體<lf>已離去……
+<string>{0}出現了！
 <string>環境概要
 <string>觀測到{0}大量出現！
 <string>打開地圖
 <string>環境概要
 <string>觀測到{0}變多！
+<string>打開地圖
+<string>環境概要
+<string>{0}正在提供狩獵輔助！
+<string>打開地圖
+<string>環境概要
+<string>支援船到來了！
+<string>打開地圖
+<string>環境概要
+<string>觀測到<REF Gimmick_NAME_673669120>出現！
 <string>打開地圖
 <string>失去了{0}。
 <string>參加任務申請
@@ -113,6 +158,10 @@
 <string>主辦者已解散大廳。
 <string>{0}追蹤了<LSNR "你" "妳" "你">。
 <string>沒有補給品。
+<string>願望清單——{0}
+<string><COLOR preset="TXT_Accent">已集齊所需素材。</COLOR>
+<string>願望清單——{0}
+<string>合計所需素材
 <string>已取消實地調查任務。
 <string>無法繼續持有回收的補給品，因此已丟棄。
 <string>已獲得旋律效果「{0}」
@@ -123,6 +172,9 @@
 <string><REF Item_IT_166>效果結束
 <string><REF Item_IT_167>效果結束
 <string>無法快速開始。請按<ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>打開出發畫面。
+<string>打開使命管理畫面
+<string>可選擇使命，以優先顯示目標導引。
+<string>打開
 <string>無法將{0}設為任務目標。
 <string>無法將{0}設為任務目標。<lf>（獵人等級不足）
 <string>已從單人線上模式切換至線上模式。
@@ -135,21 +187,82 @@
 <string>部分環境連結成員正在結算，<lf>無法開始實地調查任務。
 <string>無法將{0}設為任務目標。<lf>（進度不足）
 <string>已發動響玉效果「{0}」
+<string>繳納了{0}。
+<string>{0}
+<string>獲得了新的勳章。
+<string>稱號
+<string>獲得了{0}個新的稱號。
+<string>{0}
+<string>獲得了新的名牌。
+<string>{0}
+<string>獲得了新的背景。
+<string>噗吱豬似乎什麼都沒有。
+<string>已發布新的獎勵目標。
+<string>限時獎勵目標
+<string>「{0}」<lf>（{1}/{2}）
+<string>限時獎勵目標
+<string>「{0}」<lf><COLOR preset="TXT_Accent">完成{1}/{2}！</COLOR>
 <string>環境概要主題
 <string>帶有珍貴追加報酬的{0}出現了！
+<string>打開地圖
+<string>環境概要主題
+<string>完成了次要使命，可向{0}匯報！
+<string>打開地圖
+<string>環境概要主題
+<string>完成了次要使命，可向<Ref RefGeneral_0014>匯報！
 <string>打開地圖
 <string>由於只剩下一名成員，已解散連結隊伍。
 <string>無法加入{0}的環境連結。
 <string>已離開{0}的環境連結。
 <string>環境連結已解散。
 <string>無法加入任務。
+<string>已開放新的營地設備。
 <string>餐點效果即將結束。
+<string>可以在湧油山谷設置與編輯簡易營地了。
+<string>可以在冰霧斷崖設置與編輯簡易營地了。
+<string>可以在龍都遺跡設置與編輯簡易營地了。
+<string>環境概要主題
+<string>可將多個目標一併任務化！<lf>居民的生活好像受到影響！
+<string>打開地圖
+<string>環境概要主題
+<string>可將多個目標一併任務化！<lf>追加報酬比平常更多！
+<string>打開地圖
 <string>環境概要主題
 <string>可將多個目標一併任務化！<lf>包含稀有的追加報酬！
 <string>打開地圖
+<string>有{0}則新訊息。<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>已離開連結隊伍
 <string>手動移動
 <string>自動移動
 <string>自動散步
 <string>已暫時解除單人線上模式。
+<string>{0}正開始<lf>往<REF RefEnvironment_0001_0004>移動。
+<string>獵人等級到達{0}
+<string>無法放置於此地點。
 <string>此遊戲模式支援跨平台遊玩。
+<string>小隊通知
+<string>已收到來自「{0}」的<lf>加入小隊邀請。
+<string>小隊通知
+<string>隸屬的小隊已收到加入申請。
+<string>小隊通知
+<string>「{0}」<lf>已收到加入申請。
+<string>小隊通知
+<string>已加入「{0}」。
+<string>{1}已加入<lf>小隊「{0}」。
+<string>已被任命為小隊<lf>「{0}」的副隊長。
+<string>已被委任為小隊<lf>「{0}」的隊長。
+<string>登入獎勵
+<string>已發布今天的登入獎勵。<lf>於開始選單亦可獲取。
+<string>立即獲取
+<string>分享裝備個人組合
+<string>{0}已跟<LSNR "你" "妳" "你">分享<lf>裝備個人組合的資料。
+<string>分享道具個人組合
+<string>{0}已跟<LSNR "你" "妳" "你">分享<lf>道具個人組合的資料。
+<string>分享快捷盤個人組合
+<string>{0}已跟<LSNR "你" "妳" "你">分享<lf>快捷盤個人組合的資料。
+<string>現在可發動技能「{0}」
+<string>無法接受個人組合分享
+<string>個人組合分享的通知數已達到上限，<lf>因此收件失敗。
+<string>已收到邀請通知。請於開始選單的<lf>「邀請通知清單」確認。
+<string>已收到參加申請。請於開始選單的<lf>「確認參加申請」確認。
+<string>無法承接任務。

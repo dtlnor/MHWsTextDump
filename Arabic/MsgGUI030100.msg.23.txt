@@ -13,6 +13,7 @@
 <string>يقوم تلقائيًا يضبط خيارات معينة إلى الإعدادات الموصى بها الآتية.<lf>يتم تمييز الخيارات التي سيتم تغييرها عن إعداداتها الحالية.<lf><COLOR preset="TXT_Accent">(لا يمكن إجراء تغييرات فردية على هذه الشاشة).</COLOR>
 <string>استخدام الإعدادات الموصى بها
 <string>اختيار <COLOR preset="TXT_Accent">استخدام الإعدادات الموصى بها</COLOR> يضبط تلقائيًا<lf>كل عنصر إلى إعداداته الموصى بها.
+<string>تمت إعادة تكوين بعض الإعدادات<lf>لتتناسب مع الأجهزة المكتشفة.
 <string>إعدادات اللعبة
 <string>عناصر التحكم
 <string>الكاميرا
@@ -71,12 +72,12 @@
 <string>يتطلب مقدار الوقت القياسي لتأكيد تنفيذ الإجراء.
 <string>طويلة
 <string>يتطلب وقتاً أطول لتأكيد تنفيذ الإجراء.
-<string>غمد السلاح التلقائي
-<string>تعيين غمد السلاح تلقائيًا<lf>بمجرد مرور فترة زمنية محددة بعد إشهاره.
-<string>تمكين غمد السلاح التلقائي
-<string>غمد السلاح تلقائيًا عند التوقف لفترة معينة من الوقت<lf>لن تصبح نافذة المفعول أثناء المعركة.
-<string>تعطيل غمد السلاح التلقائي
-<string>عدم غمد السلاح تلقائيًا.
+<string>إغماد تلقائي
+<string>تعيين إغماد السلاح تلقائيًا<lf>بمجرد مرور فترة زمنية محددة بعد إشهاره.
+<string>تمكين الإغماد التلقائي
+<string>إغماد السلاح تلقائيًا عند التوقف لفترة معينة<lf>من الوقت لن تصبح نافذة المفعول<lf>أثناء المعركة.
+<string>تعطيل الإغماد التلقائي
+<string>لا يغمد سلاحك تلقائيًا.
 <string>عناصر التحكم في الاتجاهات
 <string><PLATMSG MsgGUI030100_01_03_Help>
 <string>ضبط عناصر التحكم في الاتجاهات<lf>للإجراءات مثل التفادي بعد الهجوم.<lf><COLOR preset="TXT_Accent">(وحدة تحكم)</COLOR>
@@ -90,6 +91,14 @@
 <string>- يحرِّك الضغط على <ICON MKB PL_MOVE_FRONT> الصياد<lf>بعيدًا عن الكاميرا<lf>- يحرِّك الضغط على <ICON MKB PL_MOVE_BACK> الصياد<lf>نحو الكاميرا
 <string>النوع 2
 <string>- يحرِّك الضغط على <ICON MKB PL_MOVE_FRONT> الصياد<lf>في الاتجاه الذي يواجهه<lf>- يحرِّك الضغط على <ICON MKB PL_MOVE_BACK> الصياد<lf>في الاتجاه المعاكس للاتجاه الذي يواجهه
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string>إعدادات التحكم في سيكريت
 <string>ضبط عناصر التحكم في سيكريت.
 <string>عناصر التحكم في نداء سيكريت
@@ -319,6 +328,12 @@
 <string>يعكس عناصر التحكم والعرض<lf>لزري الماوس الأيسر والأيمن. هذا الإعداد مخصص للاعبين<lf>الذين يستخدمون اليد اليسرى.
 <string>عدم العكس
 <string>لا يعكس عناصر التحكم وعرض<lf>زري الماوس الأيسر والأيمن. هذا الإعداد<lf>مخصص للاعبين الذين يستخدمون اليد اليمنى.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>أيقونات أزرار وحدة التحكم
 <string>تعديل أيقونات أزرار وحدة التحكم<lf>المعروضة في دليل الأزرار.
 <string>النوع 1
@@ -568,6 +583,10 @@
 <string>عناصر التحكم في الكاميرا بالجيروسكوب
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>تمكين أو تعطيل وظيفة الجيروسكوب لعناصر التحكم في الكاميرا<lf>وتعديلات الإعدادات المفصَّلة.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>نوع التحكم
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>يضبط كيفية تمكين عناصر التحكم في الكاميرا الجيروسكوبية.
@@ -631,7 +650,51 @@
 <string>يعكس عناصر التحكم لطلقات القوس الملتوية<lf>والقنابل العنقودية لبندقية القوس الثقيلة.<lf><COLOR preset="TXT_Accent">(عناصر التحكم في الجيروسكوب)</COLOR>
 <string>عدم عكس حركة وحدة التحكم.
 <string>عكس حركة وحدة التحكم.
-<string>تحديد جهاز العرض
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
+<string>عرض الخيار المُحدد
 <string>يضبط الشاشة التي تُعرض عليها اللعبة.<lf><COLOR preset="TXT_Accent">(يتطلب نظام التشغيل Windows 10 أو أعلى<lf>وإعدادًا بشاشات عرض متعددة)</COLOR>
 <string>{0}: {1}
 <string>وضع الشاشة
@@ -713,7 +776,7 @@
 <string>GPU
 <string>VRAM
 <string><NUMBER {0}> جيجا بايت
-<string>إصدار برنامج تشغيل GPU
+<string>إصدار برنامج تشغيل وحدة معالجة الرسومات (GPU)
 <string><NUMBER {0}>
 <string>التخزين المباشر (DirectStorage)
 <string>متوافق
@@ -741,8 +804,8 @@
 <string>تحسين الدقة (التصوير فائق الدقة)
 <string>يستخدم تقنية التصوير بدقة فائقة للحفاظ<lf>على أداء عالٍ مع الاستمتاع بجودة<lf>رسومات ممتازة.
 <string>NVIDIA DLSS
-<string>استخدام NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">(يتطلب بطاقة رسومات NVIDIA GeForce RTX).<lf>- في حالة استخدام بطاقة GeForce RTX40 Series<lf>وتمكين جدولة وحدة معالجة<lf>أجهزة الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات).</COLOR>
-<string>AMD FSR
+<string>استخدام NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">(يتطلب بطاقة رسومات NVIDIA GeForce RTX).<lf>- في حالة استخدام بطاقة GeForce RTX40 Series<lf>وتمكين جدولة وحدة معالجة<lf>أجهزة الرسومات (GPU) المتسارعة في نظام التشغيل<lf>(سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات).</COLOR>
+<string>AMD FSR 3
 <string>استخدام <FSR>.<lf><COLOR preset="TXT_Accent"> - في حالة تمكين جدولة وحدة معالجة أجهزة<lf>الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات.</COLOR>
 <string>Intel XeSS
 <string>يستخدم Intel <XESS>.
@@ -762,7 +825,7 @@
 <string>NVIDIA DLAA
 <string>يستخدم مانع التعرج الذي يعمل بالذكاء الاصطناعي<lf>مع الحفاظ على الدقة الأصلية.
 <string>AMD Native AA
-<string>يستخدم مانع التعرج FSR<lf>مع الحفاظ على الدقة الأصلية.
+<string>يستخدم مانع التعرج FSR 3<lf>مع الحفاظ على الدقة الأصلية.
 <string>Intel XeSS Native AA
 <string>استخدام مانع التعرج XeSS<lf>مع الحفاظ على الدقة الأصلية.
 <string>الجودة
@@ -776,7 +839,7 @@
 <string>تعطيل
 <string>سيتم تحديد هذا في حالة<lf>عدم استخدام طريقة لتحسين الدقة.
 <string>حدّة تحسين الدقة
-<string>يضبط مستوى التفاصيل الرسومية المستخدمة عند تحسين الدقة.<lf>كلما زاد الرقم، زاد مستوى التفاصيل.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا فقط إذا تم تفعيل تقنية AMD FSR.) </COLOR>
+<string>يضبط مستوى التفاصيل الرسومية المستخدمة عند تحسين الدقة.<lf>كلما زاد الرقم، زاد مستوى التفاصيل.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا فقط إذا تم تفعيل تقنية AMD FSR 3.) </COLOR>
 <string>مانع التعرج
 <string>ضبط وضع مانع التعرج.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا في حالة عدم تمكين تحسين الدقة).</COLOR>
 <string>TAA + FXAA
@@ -792,18 +855,20 @@
 <string>منخفض
 <string>الأقل
 <string>إيقاف
+<string>DirectStorage
+<string>يعيّن الأجهزة المُستخدَمة مع DirectStorage لتسريع تحميل البيانات.<lf><COLOR preset="TXT_Accent">(يمكن تكوين هذا فقط في البيئات<lf>التي تدعم DirectStorage)</COLOR>
 <string>وحدة المعالجة المركزية (CPU)
 <string>وحدة معالجة الرسومات (GPU)
-<string>جودة القوام
+<string>جودة الهيئة
 <string>يضبط دقة هيئة الأشياء.
-<string>الأعلى (القوام عالي الدقة)
+<string>الأعلى (الهيئات عالية الدقة)
 <string><COLOR preset="TXT_Accent">يمكن تحديد هذا الإعداد إذا تم تنزيل المحتوى القابل للتنزيل<lf>"حزمة الهيئات عالية الدقة". </COLOR>
 <string>يجب تنزيل المحتوى القابل للتنزيل "حزمة الهيئات عالية الدقة"<lf>لضبطها إلى الأعلى (الهيئات عالية الدقة).
-<string>عالية
-<string>متوسطة
-<string>منخفضة
-<string>الأدنى
-<string>جودة الترشيح
+<string>مرتفع
+<string>متوسط
+<string>منخفض
+<string>الأقل
+<string>جودة عامل تصفية الهيئة
 <string>يضبط مستوى التفاصيل على هيئات الأشياء.
 <string>الأعلى (ANISO x16)
 <string>مرتفع (ANISO x8)
@@ -814,8 +879,10 @@
 <string>جودة الشبكة
 <string>يضبط جودة الشبكة المضلعة للنماذج ثلاثية الأبعاد.
 <string>الأعلى
-<string>عالية
-<string>متوسطة
+<string>مرتفع
+<string>متوسط
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>جودة الفراء
 <string>يضبط جودة الصورة لجميع فراء المخلوقات، بما في ذلك الباليكو.
 <string>عالية
@@ -828,15 +895,17 @@
 <string>دقة السماء/السحب
 <string>يضبط جودة صور السماء والسحب.
 <string>الأعلى
-<string>عالية
-<string>متوسطة
-<string>منخفضة
-<string>الأدنى
+<string>مرتفع
+<string>متوسط
+<string>منخفض
+<string>الأقل
 <string>دقة العشب/الأشجار
 <string>يضبط جودة صور العشب والأشجار.
-<string>عالية
-<string>متوسطة
-<string>منخفضة
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
+<string>مرتفع
+<string>متوسط
+<string>منخفض
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>تمايل العشب/الأشجار
 <string>يضبط ما إذا كان العشب والشجر سيتمايل.
 <string>تمكين
@@ -854,18 +923,21 @@
 <string>جودة الرمال/الثلوج
 <string>يضبط جودة صور الرمال والثلوج<lf>وأنواع التضاريس الأخرى.
 <string>الأعلى
-<string>عالية
-<string>متوسطة
-<string>منخفضة
-<string>الأدنى
+<string>مرتفع
+<string>متوسط
+<string>منخفض
+<string>الأقل
 <string>تأثيرات المياه
 <string>يضبط ما إذا كان سيتم تطبيق تأثيرات السوائل على الماء.
 <string>تمكين
 <string>تعطيل
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
 <string>الأعلى
 <string>مرتفع
 <string>متوسط
 <string>منخفض
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>مسافة العرض
 <string>يضبط عدد اللاعبين أو الشخصيات التي تظهر في القاعات<lf>والمسافة التي تظهر بها الوحوش والحياة المستوطنة في الساحة.<lf><COLOR preset="TXT_Accent">(قابل للتعديل من خيارات العنوان.)</COLOR>
 <string>يعرض أكبر عدد ممكن من الكائنات،<lf>بغض النظر عن المسافة من <LSNR "الصياد" "الصيادة">.
@@ -893,18 +965,27 @@
 <string>عالية
 <string>متوسط
 <string>منخفضة
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>ظلال التلامس
 <string>يضبط ما إذا كانت الظلال المفصَّلة ستظهر.
 <string>تمكين
 <string>تعطيل
 <string>الانسداد المحيطي
 <string>يضبط جودة الظلال في المناطق<lf>التي يُحجب فيها الضوء.
-<string>عالي
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
+<string>مرتفع
 <string>متوسط
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>إيقاف
 <string>التوهج
 <string>ضبط قوة الضبابية الناتجة عن مصادر الضوء الساطع.
-<string>عالي
+<string>مرتفع
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>منخفض
 <string>إيقاف
 <string>ضبابية الحركة
@@ -923,6 +1004,10 @@
 <string>تشتت الضوء أسفل السطح<lf>بتقنية تقسيم مساحة الشاشة.<lf>يضبط ما إذا كان الضوء سيخترق الأشياء، ثم يتشتت عنها.
 <string>تشغيل
 <string>إيقاف
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>عمق المجال
 <string>ضبط تغيير التركيز (الوضوح) للأشياء<lf>بناءً على المسافة.
 <string>تشغيل
@@ -931,6 +1016,13 @@
 <string>ضبط جودة الضباب الناتج عن الغبار والجزيئات<lf>الموجودة في الهواء. يؤثر على كيفية عرض<lf>أشعة الضوء وما شابه.
 <string>مرتفع
 <string>منخفض
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>تظليل المعدل المتغير
 <string>يقلل من حمل التأثير والتظليل<lf>عن طريق معالجة تظليل البكسل<lf>بشكل أقل توازنًا.
 <string>إيقاف
@@ -1031,6 +1123,14 @@
 <string>تعيين مقياس الخريطة المصغرة<lf>أثناء قتال الوحوش الضخمة.
 <string>أثناء الضغط على <ICON PL_ITEM_SLIDER_OPEN>
 <string>يضبط مقياس الخريطة المصغرة<lf>أثناء الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN>.
+<string>تدوير الخريطة المفصلة
+<string>يضبط تدوير الخريطة المفصلة.
+<string>تدوير
+<string>تدور الخريطة المفصلة إلى اليسار وإلى اليمين.
+<string>تدوير + إعادة ضبط الشمال
+<string>الخريطة المفصلة تدور ويمكن إعادة ضبطها<lf>في الوضع المقابل للشمال بالضغط على <ICON UI_MAP3D_RESET_POSITION>.
+<string>تثبيت
+<string>الخريطة المفصلة لا تدور<lf>وثابتة بحيث يكون الشمال في الأعلى.
 <string>تأثيرات ضربة الحليف
 <string>ضبط ظهور تأثيرات ضربات اللاعبين الآخرين.<lf><COLOR preset="TXT_Accent">(لا تتأثر تأثيرات اللاعب الخاصة)</COLOR>
 <string>عرض
@@ -1214,8 +1314,10 @@
 <string>عرض صورة ظلية ذات مخطط أزرق عندما يكون<lf>الصياد محجوبًا عن الرؤية بواسطة وحش.
 <string>حفظ الصور المتزامنة
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>يضبط حفظ الصور الملتقطة<lf>بالكاميرا في كل من البيانات<lf>المحفوظة ومساحة تخزين الأجهزة.
 <string>تزامن
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
+<string>يحفظ الصور في كل من البيانات المحفوظة<lf>ومساحة تخزين الأجهزة.
 <string>عدم تزامن
 <string>يحفظ الصور في البيانات المحفوظة فقط.
 <string>إخفاء أسماء اللاعبين الآخرين
@@ -1234,12 +1336,18 @@
 <string>عرض قائمة تأثيرات اللحن فقط<lf>دون عرض دليل الزر العادي،<lf>بغض النظر عما إذا كان قرن الصيد<lf>مغمدًا أم مُشهرًا.
 <string>النوع 3
 <string>يعرض دليل الزر العادي،<lf>بغض النظر عما إذا كان قرن الصيد<lf>مغمدًا أم مُشهرًا،<lf>وعرض لائحة تأثيرات اللحن فقط<lf>عند الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN><lf>أثناء إشهار قرن الصيد.
+<string>عرض قوة الهجوم بالسلاح
+<string>يعدِّل إمكانية عرض قوة الهجوم بالسلاح<lf>باستخدام مُعاملات فريدة.<lf><COLOR preset="TXT_Accent">(لا يؤثر على الضرر الفعلي.)</COLOR>
+<string>عرض مع مُعامل
+<string>يعرض قوة الهجوم الأساسي للسلاح<lf>باستخدام مُعامل فريد لكل نوع سلاح.<lf>أنواع الأسلحة التي تحوز قوة هجوم فردي<lf>أكبر تُحتسب بقيمة أعلى.
+<string>عرض بدون مُعامل
+<string>يعرض قوة الهجوم الأساسي للسلاح<lf>كما هي بدون استخدام مُعاملات.<lf>هذا يجعل من السهل مقارنة<lf>قوة الهجوم بين أنواع الأسلحة المختلفة.
 <string>مستوى الصوت الرئيسي
 <string>يضبط مستوى الصوت الإجمالي.<lf><COLOR preset="TXT_Accent">(لا يؤثر على مستوى صوت الدردشة الصوتية)</COLOR>
 <string>مستوى الصوت
 <string>يضبط مستوى الأصوات داخل اللعبة.
 <string>مستوى الصوت (إرسال التحيات التلقائية)
-<string>يضبط مستوى صوت التحيات التلقائية الصوتية.
+<string>يضبط مستوى الصوت عند إرسال التحيات التلقائية الصوتية.
 <string>مستوى الصوت (تلقي التحيات التلقائية)
 <string>يضبط مستوى الصوت عند تلقي<lf>التحيات التلقائية.
 <string>مستوى صوت موسيقى الخلفية
@@ -1322,7 +1430,7 @@
 <string>عمى اللون الأخضر
 <string>عمى اللون الأزرق
 <string>مساعدة رهاب العناكب
-<string>يضبط مظهر مخلوقات متعددة الأرجل كالعناكب<lf>ووحوش صغيرة شبيهة بالحشرات والحياة المستوطنة.<lf><COLOR preset="TXT_Accent">(لا يؤثر على حركات المخلوق أو مستوى الصعوبة).</COLOR>
+<string>يضبط مظهر وحوش صغيرة شبيهة بالحشرات<lf>والحياة المستوطنة.<lf><COLOR preset="TXT_Accent">(لا يؤثر على حركات المخلوق أو مستوى الصعوبة).</COLOR>
 <string>تشغيل
 <string>يضبط مظهر بعض الوحوش الصغيرة<lf>والحياة المستوطنة لملاءمة اللاعبين<lf>الذين يعانون من رهاب العناكب.
 <string>إيقاف

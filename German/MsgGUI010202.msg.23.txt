@@ -4,23 +4,28 @@
 <string>Neben
 <string>Wähle die Haupt- oder Nebentaste der Aktion, die du neu zuordnen möchtest,<lf>dann drücke die gewünschte Taste für diese Aktion. <COLOR preset="TXT_Accent">(<ICON KB_ESCAPE,KB_INSERT,M_CLICK_LEFT,M_ROLL_UP,M_ROLL_DOWN> können<lf>nicht neu zugewiesen werden, da sie in Menüs spezielle Funktionen erfüllen.)</COLOR>
 <string>Wähle die Haupt- oder Nebentaste der Aktion, die du neu zuordnen möchtest,<lf>dann drücke die gewünschte Taste für diese Aktion. <COLOR preset="TXT_Accent">(<ICON KB_ESCAPE,KB_INSERT> können nicht neu<lf>zugewiesen werden, da sie im Kampf spezielle Funktionen erfüllen.)</COLOR>
-<string><COLOR preset="TXT_Accent">Änderungen konnten wegen eines<lf>Einstellungsfehlers nicht angewendet werden.</COLOR><lf><lf>Möchtest du ohne Umsetzung der Änderungen zurückkehren?<lf><lf>Wenn du Änderungen umsetzen möchtest, stelle bitte sicher,<lf>dass mit dem Symbol <COLOR preset="TXT_Danger">[ ! ]</COLOR> gekennzeichnete Optionen<lf>keines der folgenden beiden Probleme haben:<lf>1. Eine Taste ist mehreren Aktionen zugewiesen.<lf>2. Eine Aktion hat keine zugewiesene Taste.
+<string><COLOR preset="TXT_Accent">Änderungen konnten wegen eines<lf>Einstellungsfehlers nicht angewendet werden.</COLOR><lf><lf>Möchtest du ohne Umsetzung der Änderungen zurückkehren?<lf><lf>Wenn du Änderungen umsetzen möchtest, stelle bitte sicher,<lf>dass mit dem Symbol <COLOR preset="TXT_Danger">[ ! ]</COLOR> gekennzeichnete Optionen<lf>keines der folgenden Probleme haben:<lf>– Eine Taste ist mehreren Aktionen zugewiesen.<lf>– Eine Aktion hat keine zugewiesene Taste.
 <string>Möchtest du die Standardeinstellungen<lf>der gewählten Optionen wiederherstellen?
 <string><COLOR preset="TXT_Accent">{0}:</COLOR> Sollen alle Tastenzuweisungen<lf>auf die Standardbelegung zurückgesetzt werden?
 <string>Sollen die ausgewählten Tastenzuweisungen auf<lf>die Standardbelegung zurückgesetzt werden?
-<string>Standardeinstellungen (alle)
-<string>Standardeinstellungen (Auswahl)
+<string>Zurücksetzen (alles)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0035
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0036
+<string>Zurücksetzen (Auswahl)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0038
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0039
 <string>Jägersteuerung
 <string>Waffensteuerung
 <string>Schleudersteuerung
 <string>Steuerung beim Saikrii-Reiten
 <string>Objektleisten-Steuerung
-<string>Steuerung im angep. Tortenmenü
+<string>Tastatur-Kurzbefehlsteuerung
 <string>Kamerasteuerung
 <string>Chat-Steuerung
 <string>Direktes Menü
 <string>Menü-Steuerung
 <string>Kartensteuerung
+<string>Fotomodus-Steuerung
 <string>Steuerung beim Monster-Reiten
 <string>Vorwärts bewegen
 <string>Rückwärts bewegen
@@ -33,7 +38,7 @@
 <string>Objekt benutzen/Waffe wegstecken
 <string>NSC-Ziel wechseln (Lobby/Lager): rechts
 <string>NSC-Ziel wechseln (Lobby/Lager): links
-<string>Startmenü öffnen
+<string>Spielmenü öffnen
 <string>Waffe ziehen/Normaler Angriff (<ICON PAD PL_ATTACK_00>)
 <string>Spezialangriff (gezogene Waffe) (<ICON PAD PL_ATTACK_01>)
 <string>Blocken/Spezialaktion (<ICON PAD PL_ATTACK_SP>)
@@ -42,13 +47,13 @@
 <string>Gleichzeitige Aktion (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Gleichzeitige Aktion (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_DODGE>)
 <string>Gleichzeitige Aktion (<ICON PAD PL_ATTACK_SP><ICON PLUS><ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
-<string>Fokusmodus/Schleuder zielen (wegg. Waffe)(halten)
+<string>Fokusmodus/Schleuder zielen (wegg. Waffe) (halten)
 <string>Fokusmodus/Schleuder zielen (wegg. Waffe) (drücken)
 <string>Fokusangriff (im Fokusmodus) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Mantel ausrüsten/entfernen
 <string>Waffe wegstecken
-<string>Zusatzbefehl: Mit Schleuder zielen (1x drücken) (<ICON PAD PL_AIM>)
-<string>Zusatzbefehl: Mit Schleuder zielen (<ICON PAD PL_AIM> halten)
+<string>(Zusätzlich) Schleuder zielen (1x <ICON PAD PL_AIM> drücken)
+<string>(Zusätzlich) Schleuder zielen (<ICON PAD PL_AIM> halten)
 <string>Schleuder abfeuern (beim Zielen/im Fokusmodus)
 <string>Hakenschleuder abfeuern (beim Zielen)
 <string>Spähkäfer-Mitteilung wählen (beim Zielen): hoch
@@ -58,26 +63,28 @@
 <string>Saikrii rufen (auto)/Automatisch reiten
 <string>Saikrii rufen (manuell)/Manuell reiten
 <string>Waffen wechseln
-<string>Beschleunigen (1x drücken)/Volles Tempo (halten)
+<string>Sprinten (1x drücken)
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0233
+<string>Beschleunigen (1x drücken)/Sprinten (halten)
 <string>Abbremsen (1x drücken)/Anhalten (halten)
 <string>Vom Saikrii absteigen
 <string>Saikriitasche öffnen
 <string>Objekt auswählen: links
 <string>Objekt auswählen: rechts
-<string>Munition/Beschichtung auswählen: hoch
-<string>Munition/Beschichtung auswählen: runter
+<string>Munition/Beschichtung/Köder auswählen: hoch
+<string>Munition/Beschichtung/Köder auswählen: runter
 <string>Objekte anzeigen (1x drücken)
 <string>Objekte anzeigen (halten)/Kamera zurücksetzen
 <string>Objekt auswählen (Objekte angezeigt): links
 <string>Objekt auswählen (Objekte angezeigt): rechts
-<string>Munition/Beschichtungen (Objekte angezeigt): hoch
-<string>Munition/Beschichtungen (Objekte angezeigt): runter
+<string>Muni/Beschicht./Köder wählen (Obj. angezeigt): hoch
+<string>Muni/Beschicht./Köder wählen (Obj. angezeigt): runter
 <string>Tastaturkurzbefehle (wenn Objekte angezeigt)
 <string>Kurzbefehl wechseln (wenn Objekte angezeigt)
 <string>Leiste ausklappen (Objekte angezeigt)
 <string>Leiste ausklappen (Objekte angezeigt) (halten)
-<string>Wenn die Objektleiste voll ausgeklappt ist: Zeigerbewegung (hoch)
-<string>Wenn die Objektleiste voll ausgeklappt ist: Zeigerbewegung (runter)
+<string>Ausgeklappte Objektleiste: Cursor bewegen (hoch)
+<string>Ausgeklappte Objektleiste: Cursor bewegen (runter)
 <string>Tastatur-Kurzbefehl 1 öffnen
 <string>Tastatur-Kurzbefehl 2 öffnen
 <string>Tastatur-Kurzbefehl 3 öffnen
@@ -100,12 +107,13 @@
 <string>Tastatur-Kurzbefehl: Slot 11
 <string>Tastatur-Kurzbefehl: Slot 12
 <string>Tastatur-Kurzbefehl anzeigen
-<string>Set wechseln (Tastaturkurzbefehl): hoch
-<string>Set wechseln (Tastaturkurzbefehl): runter
+<string>Set wechseln (4-Reihen-Modus): hoch
+<string>Set wechseln (4-Reihen-Modus): runter
+<string>
 <string>Kamerasteuerung: hoch
-<string>Kamerasteuerung: Links
+<string>Kamerasteuerung: links
 <string>Kamerasteuerung: runter
-<string>Kamerasteuerung: Rechts
+<string>Kamerasteuerung: rechts
 <string>Fokus/Zielkamera aktivieren
 <string>Fernglas/Fotomodus: Reinzoomen
 <string>Fernglas/Fotomodus: Rauszoomen
@@ -119,15 +127,16 @@
 <string>Mitgliederliste
 <string>Sprach-Chat-Liste
 <string>Einladungsmitteilungen
-<string>AFK-Mitteilung
-<string>Chat – Interaktionsverlauf
-<string>Chat – Lobbymitglieder
-<string>Chat – Verbindungsmitglieder
-<string>Chat – Questmitglieder
-<string>Chat – Jagdgruppenmitglieder
-<string>Chat – Bestimmter Spieler
-<string>Karte öffnen/Chatmittlg. öffnen/Ergebnisse überspr.
-<string>Komplette Gebietskarte öffnen
+<string>Abwesenheitsnachricht
+<string>Chat: Interaktionsverlauf
+<string>Chat: Lobbymitglieder
+<string>Chat: Verbindungsmitglieder
+<string>Chat: Questmitglieder
+<string>Chat: Jagdgruppenmitglieder
+<string>Chat: Bestimmter Spieler
+<string>Karte öffnen
+<string>Weltkarte öffnen
+<string>Abreisebild./Mitteilungen öff./Questergeb. überspr.
 <string>Aus Liste vorbereiten
 <string>Objektbeutel ansehen
 <string>Munitionsbeutel ansehen
@@ -135,11 +144,11 @@
 <string>Objekt-Kurzbefehl registrieren
 <string>Alle Ausrüstung ansehen
 <string>Missionsinfo-Menü
-<string>Mission erneut versuchen
+<string>Mission neu versuchen
 <string>Quest-Info
 <string>Not-Leuchtzeichen abfeuern
-<string>Von der Quest zurückkehren
-<string>Questteilnahme anfragen
+<string>Von Quest zurückkehren
+<string>Beitrittsanfragen
 <string>Hilfsjäger-Info
 <string>Ergebnisverlauf
 <string>Palico-Info
@@ -149,11 +158,11 @@
 <string>Optionen
 <string>Fotomodus aktivieren
 <string>Waffe ziehen/Fernkampfwaffe feuern (<ICON PAD PL_ATTACK_SP>)
-<string>Nachladen/Beschichtung auftragen oder entfernen (<ICON PAD PL_ATTACK_00>)
+<string>Nachladen/Beschichtung auftragen o. entfernen (<ICON PAD PL_ATTACK_00>)
 <string>Waffe/Schleuder zielen (<ICON PAD PL_AIM> 1x drücken)
-<string>Mit Waffe/Schleuder zielen (<ICON PAD PL_AIM> halten)
-<string>Zusatzbefehl: Mit Waffe/Schleuder zielen (<ICON PAD PL_AIM> 1x drücken)
-<string>Zusatzbefehl: Mit Waffe/Schleuder zielen (<ICON PAD PL_AIM> halten)
+<string>Waffe/Schleuder zielen (<ICON PAD PL_AIM> halten)
+<string>(Zusätzlich) Waffe/Schleuder zielen (1x <ICON PAD PL_AIM> drücken)
+<string>(Zusätzlich) Waffe/Schleuder zielen (<ICON PAD PL_AIM> halten)
 <string>Fokusangriff (beim Zielen/im Fokusmodus) (<ICON PAD PL_ATTACK_SP_B>)
 <string>Blocken/Spezial-Waffenaktion (<ICON PAD PL_ATTACK_00><ICON PLUS><ICON PAD PL_ATTACK_01>)
 <string>Modus wechseln
@@ -175,11 +184,12 @@
 <string>Modell vergrößern
 <string>Modell verkleinern
 <string>Untermenü
-<string>Set speichern/nutzen
+<string>Sets verwalten
 <string>Spalte wechseln
 <string>Anzeigefilter
 <string>Optionen/Liste neu anordnen
 <string>Optionen/Listenanzeige wechseln
+<string>Ergebnisse/Zwischensequenz überspringen
 <string>Detailkarte: hoch
 <string>Detailkarte: runter
 <string>Detailkarte: links
@@ -195,8 +205,17 @@
 <string>Detailkarte drehen (gedrückt halten)
 <string>Zeigerposition auf der Detailkarte zurücksetzen
 <string>Kartenansicht wechseln
+<string>Detailkarte schließen
 <string>Teil-/Vollbildanzeige der Detailkarte umschalten
 <string>Detailkarte – Umgebungsübersicht
+<string>Kamera bewegen: Rückwärts
+<string>Kamera bewegen: Vorwärts
+<string>Kamera bewegen: Links
+<string>Kamera bewegen: Rechts
+<string>Kameraposition anpassen: Hoch
+<string>Kameraposition anpassen: Runter
+<string>Kameraposition anpassen: Links
+<string>Kameraposition anpassen: Rechts
 <string>Leichter Messerangriff
 <string>Starker Messerangriff
 <string>Waffenangriff
@@ -205,14 +224,18 @@
 <string>----
 <string>Profil wählen
 <string>Neues Profil erstellen
-<string>Nahkampfwaffen
-<string>Fernkampfwaffen
+<string>Alle Nahkampfwaffen
+<string>Alle Fernkampfwaffen
 <string>Profil duplizieren
 <string>Profil löschen
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0807
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0808
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0810
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010202_0811
 <string>Für welchen Waffentyp möchtest du ein Profil anlegen?<lf><COLOR preset="TXT_Accent">(Du kannst ein Profil pro Waffentyp anlegen.)</COLOR>
 <string>Zu welchem Waffentyp-Profil möchtest du wechseln?<lf><COLOR preset="TXT_Accent">(Du kannst ein Profil pro Waffentyp anlegen.)</COLOR>
 <string>Für welchen Waffentyp soll das Profil <COLOR preset="TXT_Accent">{0}</COLOR> dupliziert werden?<lf><COLOR preset="TXT_Accent">(Wenn das Profil bereits erstellt wurde, wird es überschrieben.<lf>Ansonsten wird ein neues Profil erstellt.)</COLOR>
-<string>Möchtest du das Profil <COLOR preset="TXT_Accent">{0}</COLOR> löschen?<lf><COLOR preset="TXT_Accent">(Nach dem Löschen wird das Profil {1}<lf>statt {0} übernommen.)</COLOR>
+<string>Möchtest du das Profil <COLOR preset="TXT_Accent">{0}</COLOR> löschen?<lf><COLOR preset="TXT_Accent">(Nach dem Löschen wird das Profil {1}<lf>angewendet.)</COLOR>
 <string>Profil <COLOR preset="TXT_Accent">{0}</COLOR> überschreiben?
 <string>Möchtest du deine Änderungen speichern?
 <string>Speichern und zurück

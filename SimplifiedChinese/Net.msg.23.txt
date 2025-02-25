@@ -7,6 +7,7 @@
 <string>正在确认与服务器的连接……
 <string>发生连接错误。<lf>{0}
 <string>发生通讯错误，将返回标题画面。<lf>{0}
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>无法使用在线多人游戏功能。<lf><lf>需加入{0}。
 <string>此账号不满足多人游戏所需条件。
 <string>无法连接至网络，将返回标题画面。
@@ -19,6 +20,10 @@
 <string>由于一定时间未操作，已切换为单人在线模式。<lf>可以继续正常游戏。<lf>{0}
 <string>对方已是你的猎人好友或正处于邀请状态，<lf>无法发送邀请。<lf>{0}
 <string>您或对方的猎人好友已达到上限，发送失败。<lf>{0}
+<string>猎人好友数已达上限，无法登记。<lf>{0}
+<string>对方的猎人好友数已达上限，发送失败。<lf>{0}
+<string>猎人好友邀请数已达上限，无法邀请。<lf>{0}
+<string>对方的猎人好友数邀请已达上限，发送失败。<lf>{0}
 <string>已关注的玩家。<lf>{0}
 <string>关注数量已达到上限，无法关注更多玩家。<lf>{0}
 <string>正在初始化网络……
@@ -26,8 +31,19 @@
 <string>猎人信息已被覆盖。此保存数据可以继续使用，<lf>但猎人好友、关注、关注者，以及所属小队等<lf>相关信息已被重置。
 <string>此玩家已在连结队伍中。<lf>{0}
 <string>已达连结队伍邀请上限，无法继续邀请。<lf>{0}
+<string>对方的连结队伍邀请数已达上限，发送失败。<lf>{0}
 <string>现在无法举报，请稍后再试。<lf>{0}
 <string>此账号无法游玩本游戏。
+<string>未找到公测版的角色外观方案。<lf>{0}
+<string>无法取得公测版的角色外观方案。<lf>{0}
+<string>已发送过连结队伍邀请。<lf>{0}
+<string>无法从帐户中获取成就信息。<lf>请检查网络连接或帐户的登录状态是否存在问题。<lf>{0}
+<string>此账号无法上传外观方案。<lf>{0}
+<string>此账号无法共享个人组合。<lf>{0}
+<string>未能发出救难信号。<lf>{0}
+<string>此功能正在维护，请稍后再试。<lf>{0}
+<string>屏蔽数量已达到上限，无法屏蔽更多玩家。<lf>{0}
+<string>服务器正在维护。<lf>{0}
 <string>和联机区连接中断，无法继续加入联机区。<lf>{0}
 <string>无法创建联机区。<lf>{0}
 <string>无法搜索联机区。<lf>{0}
@@ -49,6 +65,9 @@
 <string>已加入连结队伍。
 <string>服务器繁忙，请稍后再试。
 <string>此游戏模式支持跨平台游玩。
+<string>由于对方的跨平台游玩设置，无法加入此联机区。<lf>{0}
+<string>联机区与跨平台游玩设置不同，无法参加。<lf>请在标题画面菜单的“选项”中，确认跨平台游玩设置。<lf>{0}
+<string>连结队员已满，无法继续邀请。<lf>{0}
 <string><COLOR preset="TXT_Accent">社区功能已受限</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号出现<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款。</COLOR>
 <string>骚扰行为
 <string>构成骚扰行为的活动
@@ -61,6 +80,23 @@
 <string>请再次确认并更新您可编辑的猎人资料与小队留言等文字内容。<lf>若未更新文字内容，或反复使用违反使用条款的内容，<lf>有可能导致账号受到永久限制。
 <string>此外，您的猎人名称与随从名称将自动变更为默认名称。<lf>（猎人／随从艾露猫）
 <string><COLOR preset="TXT_Danger">账号已被永久封停</COLOR><lf><lf>您的账号存在违反使用条款的行为，<COLOR preset="TXT_Danger">已被永久封停。</COLOR><lf><lf>此账号今后将无法在线游玩《<REF RefGeneral_0000_0000_00>》。<lf>此外，根据使用条款，账号永久封停无法解除，敬请见谅。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现骚扰他人的行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现违反使用条款的聊天行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">使用了不适当的自定义留言</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>请再次确认并更新猎人资料中的自定义留言。<lf>如不更新自定义留言，或反复更新为违反使用<lf>条款的内容，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">使用了不适当的小队留言</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>该小队留言已被删除。您可再次更新留言，<lf>但若反复更新为违反使用条款的内容，<lf>有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现不适当的行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号中<COLOR preset="TXT_Danger">使用了不适当文字</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>此外，受警告的相关文字将以初始值的形式<lf>显示给其他用户，如“猎人”或“随从艾露猫”等。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现违反使用条款及<lf>最终用户使用许可合同的行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR>
+<string><COLOR preset="TXT_Danger">账号已被永久封停</COLOR><lf><lf>您的账号存在违反使用条款及最终用户<lf>使用许可合同的行为，<COLOR preset="TXT_Danger">已被永久封停。</COLOR><lf><lf>此账号今后将无法在线游玩 <REF RefGeneral_0000_0000_00>。<lf>此外，根据使用条款及最终用户使用许可合同，<lf>账号永久封停无法解除，敬请见谅。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现疑似骚扰他人的行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR><lf>如对此判定有任何疑问，请通过咨询表联络我们。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现疑似不适当发言或文字内容</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR><lf>如对此判定有任何疑问，请通过咨询表联络我们。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现疑似违反使用条款及<lf>最终用户使用许可合同的行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款及最终用户使用许可合同。</COLOR><lf>如对此判定有任何疑问，请通过咨询表联络我们。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现骚扰他人的行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现不适当聊天信息</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现不适当行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR>
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">使用了不适当文字</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>此外，受警告的相关文字将以初始值的形式<lf>显示给其他用户，如“猎人”或“随从艾露猫”等。
+<string><COLOR preset="TXT_Accent">社区功能已受限。</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号<COLOR preset="TXT_Danger">出现违规行为</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf><lf>反复发生类似行为，有可能导致账号受到永久限制。
+<string><COLOR preset="TXT_Danger">账号已被永久封停</COLOR><lf><lf>您的账号存在作弊行为，<COLOR preset="TXT_Danger">已被永久封停。</COLOR><lf>无法游玩 <REF RefGeneral_0000_0000_00_OBT>。<lf><lf>此外，公测期间恕不接受账号永久封停解除申请。<lf>敬请见谅。
 <string>将加入连结队伍，要变更保存数据吗？<lf><COLOR preset="TXT_Danger">（若重新选择保存数据，<lf>尚未保存的内容将会丢失）</COLOR>
 <string>以现在的保存数据参加
 <string>重新选择保存数据参加
@@ -69,9 +105,22 @@
 <string>无法发送邀请。<lf>{0}
 <string>连结队伍功能尚未解锁，无法加入。
 <string>要开启邀请朋友画面，邀请对方加入连结队伍吗？
+<string>要一起游玩Monster Hunter Wilds吗？
 <string>要一起玩Monster Hunter Wilds Beta test吗？
+<string>已接受邀请。<lf><COLOR preset="TXT_Accent">（将于过场动画结束、加载完成<lf>或设置操作等结束后开始）</COLOR>
+<string>无法使用在线功能，因此无法加入连结队伍。
+<string>将以离线模式开始游戏。<lf><lf>如需以在线多人模式进行游戏，需要同意“关于收集个人信息”。<lf>如不同意，依然可以游玩游戏的本篇部分，但部分功能可能会受限。<lf><lf>本设置可在标题画面的“隐私”设置中修改。
+<string>在线多人游戏受限。<lf>要进行在线多人游戏，需同意“关于收集个人信息”。<lf>此设置可在标题画面的“隐私”中变更。<lf>{0}
 <string>正在等待其他用户加入……
 <string>请稍候。<lf><lf>工作人员发出信号后，即可开始游戏。
 <string>出发
 <string>发生错误，请联系附近工作人员。
 <string>无法获得下载信息。<lf>{0}
+<string>{0}<lf>无法搜索到此小队。<lf>{1}
+<string>小队的邀请或申请已超过上限。<lf>{0}
+<string>无法加入小队。<lf>{0}
+<string>无法切换要互动的小队。<lf>请重新检查此小队的设置。<lf>{0}
+<string>{0}<lf>此小队信息不存在。<lf>{1}
+<string>小队手续处理失败。<lf>{0}
+<string>对方的小队加入数已达上限，发送失败。<lf>{0}
+<string>由于小队成员超过一定数量，<lf>现在可以使用能容纳更多人的小队大厅了。<lf><lf>当前的小队大厅将会解散，<lf>请通过“大厅移动菜单”选择并进入新的小队大厅。

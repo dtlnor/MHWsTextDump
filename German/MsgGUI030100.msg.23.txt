@@ -12,7 +12,8 @@
 <string>Geteilt + Tastatur/Maus
 <string>Passe automatisch einige Optionen der folgenden empfohlenen<lf>Einstellungen an. Optionen, die von der aktuellen Einstellung<lf>geändert werden, sind hervorgehoben. <COLOR preset="TXT_Accent">(Auf diesem Bildschirm<lf>können keine einzelnen Änderungen vorgenommen werden.)</COLOR>
 <string>Empfohlene Einstellungen verwenden
-<string><COLOR preset="TXT_Accent">"Empfohlene Einstellungen verwenden"</COLOR> ändert jede Option<lf>auf die empfohlene Einstellung.
+<string>„Empfohlene Einstellungen verwenden“ ändert jede<lf>Option auf die empfohlene Einstellung.
+<string>Einige Einstellungen wurden an die erkannte<lf>Hardware angepasst.
 <string>Spieleinstellungen
 <string>Steuerung
 <string>Kamera
@@ -90,6 +91,14 @@
 <string>– Mit <ICON MKB PL_MOVE_FRONT> bewegst du deinen Charakter „von der<lf>Kamera weg“.<lf>– Mit <ICON MKB PL_MOVE_BACK> bewegst du deinen Charakter „auf die<lf>Kamera zu“.
 <string>Typ 2
 <string>– Mit <ICON MKB PL_MOVE_FRONT> bewegst du deinen Charakter in die<lf>Richtung, in die er sieht.<lf>– Mit <ICON MKB PL_MOVE_BACK> bewegst du deinen Charakter in die<lf>Richtung, die für ihn „hinten“ ist.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string>Saikrii-Steuerung
 <string>Passe die Saikrii-Steuerung an.
 <string>Saikrii rufen
@@ -112,12 +121,12 @@
 <string>Ähnlich wie die Auto-Bewegung.<lf>Ohne Eingabe wird das Tempo gehalten.<lf><ICON PL_PT_SPEED_UP> beschleunigt deinen Saikrii und<lf><ICON PL_PT_SPEED_DOWN> verlangsamt ihn.<lf>Halte <ICON PL_PT_SPEED_DOWN> gedrückt, um ihn zum Stillstand<lf>zu bringen.
 <string>Typ 2
 <string>Ähnlich wie die Charaktersteuerung.<lf>Der Saikrii bewegt sich nur bei der Nutzung<lf>von <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>. Ohne Eingabe hält er an.
-<string>Route nur für Saikrii
-<string>Passe die Steuerung für das Verlassen von<lf>Routen an, die nur auf einem Saikrii zur<lf>Verfügung stehen.
+<string>Saikrii-exklusive Routen
+<string>Passe die Steuerung für das Verlassen von Routen an,<lf>die nur auf einem Saikrii zur Verfügung stehen.
 <string>Typ 1
-<string>Neige <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> während der Bewegung mit Höchst-<lf>geschwindigkeit, um die Route nur für Saikrii<lf>zu verlassen.
+<string>Nutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> während der Bewegung mit<lf>Höchstgeschwindigkeit, um die Saikrii-exklusive<lf>Route zu verlassen.
 <string>Typ 2
-<string>Neige <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> und drücke dann <ICON PL_INTERACT_ACTION_START>, um die Route<lf>nur für Saikrii zu verlassen. Die aktuelle<lf>Geschwindigkeit spielt dabei keine Rolle.
+<string>Nutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> und drücke dann <ICON PL_INTERACT_ACTION_START>, um die<lf>Saikrii-exklusive Route zu verlassen. Die aktuelle<lf>Geschwindigkeit spielt dabei keine Rolle.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -163,7 +172,7 @@
 <string>Schnell
 <string>Die Zeiger-Bewegungsgeschwindigkeit ist<lf>erhöht.
 <string>Ausgekl. Objektleiste: Stapelung
-<string>Passe an, wie die ausgeklappte Objektleiste<lf>vertikal gestapelte Objekte anzeigt.
+<string>Passe an, wie die ausgeklappte Objektleiste vertikal<lf>gestapelte Objekte anzeigt.
 <string>Alle Stapel
 <string>Für alle sichtbaren Objekte werden die<lf>vertikal gestapelten Objekte angezeigt.
 <string>Nur gewählter Stapel
@@ -319,6 +328,12 @@
 <string>Die Funktion und Anzeige der linken und<lf>rechten Maustaste sind vertauscht. Diese<lf>Einstellung ist für Linkshänder.
 <string>Nicht vertauschen
 <string>Die Funktion und Anzeige der linken und<lf>rechten Maustaste sind nicht vertauscht.<lf>Diese Einstellung ist für Rechtshänder.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>Controller-Tastensymbole
 <string>Passe die Controller-Tastensymbole an,<lf>die in der Tastenbelegung angezeigt werden.
 <string>Typ 1
@@ -468,7 +483,7 @@
 <string><ICON PAD PL_AIM> (halten)
 <string>Du wechselst mit <ICON PAD PL_AIM> (halten) in den Fokus-<lf>modus.<lf>Sobald du loslässt, wechselst du zurück.<lf><lf>Bei weggesteckter Waffe zielst du stattdessen<lf>mit der Schleuder.
 <string><ICON PAD PL_AIM_TOGGLE> (drücken)
-<string>Du wechselst mit <ICON PAD PL_AIM> (drücken) in den Fokus-<lf>modus.<lf>Bei erneutem Drücken wechselst du zurück.<lf><lf>Bei weggesteckter Waffe zielst du stattdessen<lf>mit der Schleuder.
+<string>Du wechselst mit <ICON PAD PL_AIM_TOGGLE> (drücken) in den Fokus-<lf>modus.<lf>Bei erneutem Drücken wechselst du zurück.<lf><lf>Bei weggesteckter Waffe zielst du stattdessen<lf>mit der Schleuder.
 <string>Drücke bei gezogener Waffe <ICON PAD PL_AIM_TOGGLE>, um zu zielen<lf>bzw. den Fokusmodus zu nutzen.
 <string>Zielen/Fokusmodus (Detailsteuerung)
 <string>Passe an, wie du mit gezogener Nah-/Fernkampf-<lf>waffe zielst bzw. den Fokusmodus nutzt. (Dies hat<lf>keinen Einfluss auf die Schleudersteuerung.)
@@ -568,6 +583,10 @@
 <string>Bewegungssteuerung der Kamera
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>Schalte die Bewegungssteuerung für die Kamera<lf>an/aus und nimm Detaileinstellungen vor.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>Aktivierung
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>Lege fest, wann die Bewegungssteuerung der<lf>Kamera aktiviert wird.
@@ -594,10 +613,10 @@
 <string>Die Empfindlichkeit der Bewegungssteuerung kann<lf>beim Halten von <ICON PAD PL_AIM> mit gezogener Waffe für Nah-/<lf>Fernkampfwaffen getrennt festgelegt werden.
 <string>Nahkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_60_Help>
-<string>Passe die horizontale Empfindlichkeit der Bewegungs-<lf>steuerung beim Nutzen des Fokusmodus (<ICON PAD PL_AIM>)<lf>mit gezogener Nahkampfwaffe an.
+<string>Passe die Empfindlichkeit der horizontalen Bewegungs-<lf>steuerung an, wenn du <ICON PAD PL_AIM> (Fokusmodus) mit gezogener Nah-<lf>kampfwaffe nutzt.
 <string>Nahkampfwaffe (vertikal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_61_Help>
-<string>Passe die vertikale Empfindlichkeit der Bewegungs-<lf>steuerung beim Nutzen des Fokusmodus (<ICON PAD PL_AIM>)<lf>mit gezogener Nahkampfwaffe an.
+<string>Passe die Empfindlichkeit der vertikalen Bewegungs-<lf>sensor-Steuerung bei Nutzung von <ICON PAD PL_AIM> (Fokusmodus)<lf>mit gezogener Nahkampfwaffe an.
 <string>Fernkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_62_Help>
 <string>Passe die horizontale Empfindlichkeit der Bewegungs-<lf>steuerung beim Zielen/im Fokusmodus (<ICON PAD PL_AIM>) mit<lf>gezogener Fernkampfwaffe an.
@@ -631,6 +650,50 @@
 <string>Invertiere die Zielsteuerung für Parabelschüsse mit<lf>dem Bogen und für Streubomben des Schweren<lf>Bogengewehrs. <COLOR preset="TXT_Accent">(Bewegungssteuerung)</COLOR>
 <string>Die Controllerbewegungen sind nicht invertiert.
 <string>Die Controllerbewegungen sind invertiert.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
 <string>Bildausgabe-Auswahl
 <string>Wähle den Bildschirm, auf dem das Spiel dargestellt<lf>werden soll. <COLOR preset="TXT_Accent">(Benötigt Windows 10 oder höher<lf>sowie ein Setup mit mehreren Bildschirmen.)</COLOR>
 <string>{0}: {1}
@@ -706,7 +769,7 @@
 <string>MB
 <string>MB /
 <string>Es wird ein großer Teil des Grafikspeichers genutzt,<lf>wodurch kleinere Störungen auftreten können.
-<string>Es wird ein sehr großer Teil des Grafikspeichers genutzt,<lf>wodurch erhebliche Störungen auftreten können.
+<string>Es wird ein sehr großer Teil des Grafikspeichers<lf>genutzt, wodurch erhebliche Störungen auf-<lf>treten können.
 <string>CPU
 <string>RAM
 <string><NUMBER {0}> GB
@@ -742,7 +805,7 @@
 <string>Durch Nutzung hochauflösender Bildgebungstechnologie<lf>kann hohe Leistung mit gleichzeitig hoher Grafikqualität<lf>erzielt werden.
 <string>NVIDIA DLSS
 <string>NVIDIA <DLSS> wird genutzt.<lf><COLOR preset="TXT_Accent">– Dies erfordert eine NVIDIA GeForce RTX-<lf>Grafikkarte.<lf>– Mit einer Karte der GeForce RTX40-<lf>Serie und aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
-<string>AMD FSR
+<string>AMD FSR 3
 <string><FSR> wird genutzt.<lf><COLOR preset="TXT_Accent">– Bei aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
 <string>Intel XeSS
 <string>Intel <XESS> wird genutzt.
@@ -762,7 +825,7 @@
 <string>NVIDIA DLAA
 <string>Nutzt KI-Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>AMD Nativ AA
-<string>Nutzt FSR Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
+<string>Nutzt FSR 3 Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>Intel XeSS Native AA
 <string>Nutzt XeSS Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>Qualität
@@ -776,7 +839,7 @@
 <string>Deaktiviert
 <string>Es wird kein Hochskalieren genutzt.
 <string>Schärfe der Hochskalierung
-<string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn AMD FSR aktiviert ist.)</COLOR>
+<string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn AMD FSR 3 aktiviert ist.)</COLOR>
 <string>Anti-Aliasing
 <string>Passe den Anti-Aliasing-Modus an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
 <string>FXAA + TAA
@@ -792,6 +855,8 @@
 <string>Niedrig
 <string>Minimal
 <string>Aus
+<string>DirectStorage
+<string>Legt fest, dass die Hardware DirectStorage nutzt, um<lf>das Laden von Daten zu beschleunigen. <COLOR preset="TXT_Accent">(Kann nur<lf>angepasst werden, wenn DirectStorage unterstützt wird)</COLOR>
 <string>CPU
 <string>GPU
 <string>Texturenqualität
@@ -816,6 +881,8 @@
 <string>Maximal
 <string>Hoch
 <string>Mittel
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>Qualität von Fellen
 <string>Passe die Bildqualität der Felldarstellung von<lf>Kreaturen an, Palicos eingeschlossen.
 <string>Hoch
@@ -834,9 +901,11 @@
 <string>Minimal
 <string>Qualität Gras/Bäume
 <string>Passe die Bildqualität für Gras und Bäume an.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>Hoch
 <string>Mittel
 <string>Niedrig
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>Bewegung von Gras/Bäumen
 <string>Lege fest, ob sich Gras und Bäume bewegen sollen.
 <string>Aktiviert
@@ -848,7 +917,7 @@
 <string>Hoch
 <string>Niedrig
 <string>Qualität von Oberflächen
-<string>Passe an, mit welcher Qualität die Umgebung und geogra-<lf>fische Merkmale in der unmittelbaren Nähe des Charakters<lf>dargestellt werden. <COLOR preset="TXT_Accent">(Über die Hauptmenü-Optionen.)</COLOR>
+<string>Passe an, mit welcher Qualität die Umgebung und<lf>geografische Merkmale in der Nähe des Charakters<lf>dargestellt werden. <COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
 <string>Hoch
 <string>Niedrig
 <string>Sand-/Schnee-Qualität
@@ -862,10 +931,13 @@
 <string>Passe an, ob Flüssigkeitseffekte auf Wasser<lf>angewendet werden.
 <string>Aktiviert
 <string>Deaktiviert
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
 <string>Maximal
 <string>Hoch
 <string>Mittel
 <string>Niedrig
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>Renderdistanz
 <string>Passe die Anzahl an Spielern oder Charakteren an, die in Lobbys<lf>angezeigt werden, sowie die Entfernung, in der Monster und<lf>einheimische Wesen zu sehen sind. <COLOR preset="TXT_Accent">(Über die Hauptmenü-Optionen.)</COLOR>
 <string>Rendert die maximale Anzahl an Objekten,<lf>unabhängig von der Entfernung zum Jäger.
@@ -893,18 +965,27 @@
 <string>Hoch
 <string>Mittel
 <string>Niedrig
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>Kontaktschatten
 <string>Lege fest, ob detaillierte Schatten dargestellt werden.
 <string>Aktiviert
 <string>Deaktiviert
 <string>Umgebungsverdeckung
 <string>Passe die Schattenqualität in Bereichen an, in denen<lf>das Licht versperrt ist.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>Hoch
 <string>Mittel
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>Aus
 <string>Bloom
 <string>Passe an, wie stark helle Lichtquellen in Nachbar-<lf>bereiche ausstrahlen.
 <string>Stark
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>Schwach
 <string>Aus
 <string>Bewegungsunschärfe
@@ -912,7 +993,7 @@
 <string>An
 <string>Aus
 <string>Vignetteneffekt
-<string>Lege fest, ob die Helligkeit in der Bildschirmmitte<lf>erhöht und die Kanten verdunkelt werden sollen.
+<string>Lege fest, ob die Helligkeit in der Bildschirmmitte<lf>erhöht und die Ränder verdunkelt werden sollen.
 <string>An
 <string>Aus
 <string>Bildschirm-Reflexion
@@ -923,6 +1004,10 @@
 <string>„Screen Space Separable Subsurface Scattering“<lf>legt fest, ob Licht in Objekte eindringen und<lf>dann von ihnen gebrochen werden kann.
 <string>An
 <string>Aus
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>Schärfentiefe
 <string>Lege fest, ob die Bildschärfe (Deutlichkeit)<lf>von Objekten von der Distanz abhängen soll.
 <string>An
@@ -931,6 +1016,13 @@
 <string>Passe die Qualität des Nebels an, der durch Staub<lf>und andere Luftpartikel verursacht wird.<lf>Beeinflusst u. a. die Darstellung von Lichtstrahlen.
 <string>Hoch
 <string>Niedrig
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Variable Rate Shading
 <string>Verringert die Rendering-Last durch Effekte und<lf>Shader, indem Pixel-Shader weniger gleichmäßig<lf>verarbeitet werden.
 <string>Aus
@@ -1031,8 +1123,16 @@
 <string>Lege den Maßstab der Minikarte im Kampf<lf>gegen große Monster fest.
 <string>Beim Halten von <ICON PL_ITEM_SLIDER_OPEN>
 <string>Lege den Maßstab der Minikarte beim Halten<lf>von <ICON PL_ITEM_SLIDER_OPEN> fest.
+<string>Detailkarte: Rotation
+<string>Legt fest, ob sich die Detailkarte dreht.
+<string>Drehend
+<string>Die Detailkarte dreht sich.
+<string>Drehend und zurück auf Nord
+<string>Die Detailkarte dreht sich und kann mit <ICON UI_MAP3D_RESET_POSITION><lf>auf Nordausrichtung zurückgesetzt werden.
+<string>Fest
+<string>Die Detailkarte dreht sich nicht und ist stets<lf>nach Norden ausgerichtet.
 <string>Treffereffekte (Verbündete)
-<string>Lege fest, ob bei anderen Spielern Treffer-<lf>effekte angezeigt werden.<lf><COLOR preset="TXT_Accent">(Beeinflusst nur den eigenen Bildschirm.)</COLOR>
+<string>Lege fest, ob bei anderen Spielern Treffer-<lf>effekte angezeigt werden.<lf><COLOR preset="TXT_Accent">(Dies beeinflusst nur den eigenen Bildschirm.)</COLOR>
 <string>Anzeigen
 <string>Die Treffereffekte anderer Spieler werden<lf>angezeigt.
 <string>Nicht anzeigen
@@ -1084,7 +1184,7 @@
 <string>Deskriptive Untertitel
 <string>Lege fest, ob zusätzliche Untertitel, die wichtige<lf>Geräuschinformationen in Textform wiedergeben,<lf>angezeigt werden.
 <string>Anzeigen
-<string>Es werden deskriptive Untertitel angezeigt.<lf><COLOR preset="TXT_Accent">(Dies trifft nur auf bestimmte Situationen<lf>zu.)</COLOR>
+<string>Es werden deskriptive Untertitel angezeigt.<lf>(Auf bestimmte Situationen beschränkt.)
 <string>Nicht anzeigen
 <string>Es werden keine deskriptive Untertitel<lf>angezeigt.
 <string>Tutorial-Menge
@@ -1134,7 +1234,7 @@
 <string>Nicht anzeigen
 <string>Sprechernamen werden außerhalb von<lf>Zwischensequenzen nicht angezeigt.
 <string>Andere Saikrii verbergen
-<string>Lege fest, ob die Saikrii anderer Charaktere<lf>ausgeblendet werden.<lf><COLOR preset="TXT_Accent">(Dein Saikrii wird immer angezeigt.)</COLOR>
+<string>Lege fest, ob die Saikrii anderer Charaktere<lf>ausgeblendet werden.<lf>(Dein Saikrii wird immer angezeigt.)
 <string>An
 <string>Die unbestiegenen Saikrii von anderen<lf>Spielern und Hilfsjägern werden nicht<lf>angezeigt.<lf><COLOR preset="TXT_Accent">(Ausgenommen in manchen Situationen.)</COLOR>
 <string>Aus
@@ -1157,7 +1257,7 @@
 <string>Alle anzeigen
 <string>Die Namen aller Objekte, Ausrufe usw. in<lf>den Tastatur-Kurzbefehlen werden angezeigt.
 <string>Ausgewählte anzeigen
-<string>Nur die Namen von Objekten, Ausrufen usw.<lf>des aktuell gewählten Tastatur-Kurzbefehls<lf>werden angezeigt.
+<string>Nur die Namen von Objekten, Ausrufen, usw.<lf>des aktuell gewählten Tastatur-Kurzbefehls<lf>werden angezeigt.
 <string>Waffensichtbarkeit
 <string>Passe an, ob die Waffe deines Charakters angezeigt<lf>wird.
 <string>Anzeigen
@@ -1199,9 +1299,9 @@
 <string>Hilfsjäger können Fallen platzieren.
 <string>Hilfsjäger können keine Fallen platzieren.
 <string>Sichtbarkeit von verdecktem Charakter
-<string>Dein Charakter wird als transparente Silhouette<lf>anzeigt, wenn er von einem Monster verdeckt ist.
+<string>Lege fest, ob dein Charakter als transparente<lf>Silhouette angezeigt wird, wenn er von einem<lf>Monster verdeckt ist.
 <string>Aus
-<string>Es wird keine transparente Silhouette angezeigt,<lf>selbst wenn der Charakter von einem Monster verdeckt ist.
+<string>Es wird keine Silhouette angezeigt, selbst wenn<lf>der Charakter von einem Monster verdeckt ist.
 <string>Typ 1
 <string>Es wird eine Silhouette mit weißem Umriss<lf>angezeigt, wenn der Charakter von einem<lf>Monster verdeckt ist.
 <string>Typ 2
@@ -1214,8 +1314,10 @@
 <string>Es wird eine Silhouette mit blauem Umriss<lf>angezeigt, wenn der Charakter von einem<lf>Monster verdeckt ist.
 <string>Synchronisierte Fotospeicherung
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>Passe an, ob mit der Kamerafunktion aufgenommene<lf>Fotos sowohl in den Speicherdaten als auch im<lf>Speicher der Hardware gesichert werden.
 <string>Synchronisieren
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
+<string>Fotos werden in den Speicherdaten und im<lf>Speicher der Hardware gesichert.
 <string>Nicht synchronisieren
 <string>Fotos werden nur in den Speicherdaten<lf>gesichert.
 <string>Namen anderer Spieler anonymisieren
@@ -1234,6 +1336,12 @@
 <string>Nur die Liste der Melodie-Effekte wird<lf>angezeigt, keine regulären Tastenaktionen;<lf>unabhängig davon, ob das Jagdhorn<lf>weggesteckt oder gezogen ist.
 <string>Typ 3
 <string>Generell werden die regulären Tastenaktionen<lf>angezeigt – Melodie-Effekte nur dann, wenn das<lf>Jagdhorn gezogen ist und du gedrückt <ICON PL_ITEM_SLIDER_OPEN> hältst.
+<string>Anzeige der Waffen-Angriffskraft
+<string>Lege fest, ob in der Anzeige der Angriffskraft von<lf>Waffen die jeweils waffentypspezifischen Multi-<lf>plikatoren berücksichtigt werden sollen.
+<string>Mit Multiplikator anzeigen
+<string>Die Grund-Angriffskraft der Waffen wird mit<lf>einem für jeden Waffentyp einzigartigen<lf>Multiplikator verrechnet angezeigt.<lf>Waffentypen mit höherem Schaden pro Angriff<lf>resultieren in höheren Werten, was dem tat-<lf>sächlichen Gefühl im Spiel näher kommt.
+<string>Ohne Multiplikator anzeigen
+<string>Es wird nur die Grund-Angriffskraft der<lf>Waffen angezeigt, was das Vergleichen der<lf>Angriffskraft verschiedener Waffentypen<lf>erleichtert.
 <string>Gesamtlautstärke
 <string>Passe die Gesamtlautstärke an.<lf><COLOR preset="TXT_Accent">(Dies hat keine Auswirkung auf die Sprach-Chat-<lf>Lautstärke.)</COLOR>
 <string>Stimmenlautstärke
@@ -1283,15 +1391,15 @@
 <string>Der Sprach-Chat ist aktiviert.
 <string>Deaktiviert
 <string>Der Sprach-Chat ist deaktiviert.
-<string>Sprechtaste
+<string>Push-to-Talk
 <string>Der Sprach-Chat überträgt nur Audio,<lf>wenn eine festgelegte Taste gedrückt wird.<lf><COLOR preset="TXT_Accent">(Diese Funktion ist nur für die Steuerung<lf>per Tastatur verfügbar.)</COLOR>
 <string>Sprach-Chat-Lautstärke
 <string>Passe die Lautstärke von anderen Spielern<lf>im Sprach-Chat an.
 <string>Sprach-Chat: Auto-Wechseln
-<string>Lege fest, ob der Sprach-Chatkanal je nach<lf>Queststatus automatisch wechselt.<lf><COLOR preset="TXT_Accent">(Manuelles Wechseln ist jederzeit möglich.)</COLOR>
+<string>Lege fest, ob der Sprachchat-Kanal je nach<lf>Queststatus automatisch wechselt.<lf><COLOR preset="TXT_Accent">(Manuelles Wechseln ist jederzeit möglich.)</COLOR>
 <string>Questmitglieder bevorzugen
 <string>Du wechselst zum Queststart automatisch<lf>zum Sprach-Chat für Questmitglieder und<lf>wechselst bei der Rückkehr von der Quest<lf>zum Verbindungsmitglieder-Sprach-Chat.
-<string>Verbindungsmitglieder bevorzugen
+<string>Verbindungsmitgl. bevorzugen
 <string>Du wechselst beim Beitritt zu einer Verbindungs-<lf>gruppe automatisch zum Verbindungsmitglieder-<lf>Sprach-Chat, unabhängig vom Queststatus.
 <string>Niemanden bevorzugen
 <string>Es wird kein Sprachchat-Kanal priorisiert<lf>und auch kein automatischer Wechsel<lf>zwischen den Kanälen vorgenommen.<lf>Du musst manuell wechseln.
@@ -1324,7 +1432,7 @@
 <string>Unterstützung bei Arachnophobie
 <string>Passe das Aussehen bestimmter mehrbeiniger<lf>kleiner Monster und Wesen an. (Bewegungen<lf>und Schwierigkeit bleiben unbeeinflusst.)
 <string>An
-<string>Passe die Erscheinung einiger kleiner<lf>Monster und einheimischer Wesen<lf>für Spieler mit Arachnophobie an.
+<string>Passe die Erscheinung einiger kleiner Monster<lf>und einheimischer Wesen an.
 <string>Aus
 <string>Ändert die Erscheinung kleiner Monster und<lf>einheimischer Wesen mit spinnen- oder in-<lf>sektenartigen Merkmalen nicht ab.
 <string>Visuelle Barrierefreiheit
@@ -1346,7 +1454,7 @@
 <string>Es werden automatisch Einstellungen angepasst,<lf>um das Spielen im Wohnzimmer mit einem größeren<lf>Abstand zum Bildschirm zu optimieren.
 <string>Auto-Einstellungen: Wohnzimmer übernehmen?
 <string>Text-Sprache
-<string>Lege die Sprache für Texte fest.<lf><COLOR preset="TXT_Accent">(Änderungen werden nach Verlassen<lf>des Einstellungsmenüs übernommen)</COLOR>
+<string>Lege die Sprache für Texte fest.<lf><COLOR preset="TXT_Accent">(Änderungen werden nach Verlassen der Optionen<lf>übernommen.)</COLOR>
 <string><REF RefLanguage_0000_000_0>
 <string><REF RefLanguage_0000_001_0>
 <string><REF RefLanguage_0000_002_0>

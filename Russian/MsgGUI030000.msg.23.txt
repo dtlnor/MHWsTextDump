@@ -12,10 +12,21 @@
 <string><REF RefMenu_039>
 <string><REF RefMenu_043>
 <string><REF RefMenu_058>
+<string><REF RefDebug_devMenu10>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_04_04_05
 <string><REF RefMenu_010>
 <string><REF RefMenu_011>
 <string><REF RefMenu_012>
-<string><COLOR preset="TXT_Accent">Подать сигнал SOS?</COLOR><lf>Направление сигнала SOS можно изменить<lf>у регистратора поручений в разделе "Параметры<lf>многопольз. игры" в меню параметров.
+<string>Подать сигнал SOS? <COLOR preset="TXT_Accent">{0}</COLOR><lf>смогут прийти к вам на помощь.<lf>Выбрать, кому отправлять сигнал SOS, можно<lf>у регистратора поручений в разделе <BOLD>«Параметры</BOLD><lf><BOLD>многопольз. игры»</BOLD> в <BOLD>меню параметров</BOLD>.
 <string>Отменить сигнал SOS?
 <string><REF RefMenu_013>
 <string>Хотите вернуться с тем, что уже успели собрать?<lf><COLOR preset="TXT_Danger">(Выполнение поручения засчитано не будет.)</COLOR>
@@ -32,7 +43,7 @@
 <string>Возобновить задание с последней контрольной точки?
 <string>Пригласить участников общего отряда в ваш мир?
 <string>Все участники общего отряда приглашены в ваш мир.
-<string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Пригласить общий отряд в ваш мир не удалось.
+<string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Пригласить всех участников общего отряда<lf>в ваш мир не удалось.
 <string>Разорвать связь миров?
 <string>Связь миров разорвана.
 <string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Разорвать связь миров не удалось.
@@ -40,8 +51,8 @@
 <string><COLOR preset="TXT_Danger">Нельзя использовать, выполняя поручения.</COLOR>
 <string><COLOR preset="TXT_Danger">Невозможно использовать в бою.</COLOR>
 <string><COLOR preset="TXT_Danger">Доступно только при выполнении поручений.</COLOR>
-<string><COLOR preset="TXT_Danger">Доступно только ответственному за поручение игроку.</COLOR>
-<string><COLOR preset="TXT_Danger">Доступно только в одиночной игре с подключением к сети.</COLOR>
+<string><COLOR preset="TXT_Danger">Доступно только ответственному за поручение.</COLOR>
+<string><COLOR preset="TXT_Danger">Недоступно во время сетевой игры или во время нахождения в лобби.</COLOR>
 <string><COLOR preset="TXT_Danger">Вы уже отправили максимальное количество приглашений.</COLOR>
 <string><COLOR preset="TXT_Danger">На другое приглашение ещё не получен ответ.</COLOR>
 <string><COLOR preset="TXT_Danger">Вы не состоите в этом общем отряде.</COLOR>
@@ -51,9 +62,17 @@
 <string><COLOR preset="TXT_Danger">Вы набрали в отряд предельное число участников.</COLOR>
 <string><REF RefMenu_009>
 <string><REF RefMenu_005>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_07_06_02_Help
 <string><REF RefMenu_000>
 <string><REF RefMenu_014>
 <string><REF RefMenu_015>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_05_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_05_01_01
 <string><REF RefMenu_016>
 <string><REF RefMenu_017>
 <string><REF RefMenu_018>
@@ -65,6 +84,7 @@
 <string><REF RefMenu_024>
 <string><REF RefMenu_025>
 <string><REF RefMenu_026>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_06_02
 <string><REF RefMenu_057>
 <string>Изменить вкладки
 <string>Сбросить изменения вкладки
@@ -80,7 +100,7 @@
 <string><COLOR preset="TXT_Danger">Значок этой категории нельзя скрыть.</COLOR>
 <string>Автоматически менять информацию<lf>в правой части экрана при открытом<lf>меню в зависимости от ситуации.
 <string>Не показывать информацию в правой<lf>части экрана, когда открыто меню.
-<string>Показывать окно состояния в правой<lf>части экрана, когда открыто меню.
+<string>Показывать окно статуса в правой<lf>части экрана, когда открыто меню.
 <string>Показывать список участников общего отряда<lf>в правой части экрана, когда открыто меню.
 <string><REF RefMenu_046>
 <string><REF RefMenu_047>

@@ -11,7 +11,7 @@
 <string>Resistencia
 <string>Ataque
 <string>Defensa
-<string>Res. elemental
+<string>Antielementos
 <string>Efectos de estado
 <string>Habilidades de menú
 <string>Empezar a cocinar
@@ -33,10 +33,13 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>¿Empezar a cocinar el menú favorito seleccionado?
 <string>No has podido cocinar este menú porque<lf>no tienes ingredientes suficientes.
 <string>¿Cancelar cambios?<lf>(No se guardarán los cambios).
-<string>¿Quieres eliminar el set guardado?
-<string>{0}+{1}
-<string>{0}+{1}　{2}+{3}
+<string>¿Quieres eliminar el elemento seleccionado?
+<string>{0} +{1}
+<string>{0} +{1}　{2} +{3}
 <string><COLOR preset="TXT_Danger">No puedes cocinar carne porque no tienes carne cruda.</COLOR>
+<string><COLOR preset="TXT_Danger">Ingredientes insuficientes.</COLOR>
+<string><COLOR preset="TXT_Danger">No se puede cocinar carne porque no hay suficiente espacio libre en la bolsa de objetos.</COLOR>

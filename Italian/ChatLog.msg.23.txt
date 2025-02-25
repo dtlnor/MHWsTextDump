@@ -47,6 +47,7 @@
 <string>Il capogruppo ha annullato<lf>il razzo SOS.
 <string>La chat vocale è passata a<lf><REF RefNetwork_0004_02>.
 <string>La chat vocale è passata a<lf><REF RefNetwork_0004_01>.
+<string>Al Centro scorte ci sono i saldi!
 <string>Nuova missione sbloccata.
 <string>{0}<lf>è ora capogruppo.
 <string>Ti hanno dato il ruolo di capogruppo.
@@ -58,16 +59,28 @@
 <string>Annuncio
 <string><PLURAL {0} "{0} notifica ricevuta" "{0} notifiche ricevute"><lf>mentre eri offline.
 <string>Annuncio
-<string><PLURAL {0} "{0} notifica di invito ricevuta" "{0} notifiche di invito ricevute">.
-<string>Richieste di amicizia
+<string>Hai ricevuto <PLURAL {0} "{0} invito" "{0} inviti">.
+<string>Richieste di amicizia cacciatore
 <string>Ricevuto una richiesta di amicizia<lf>cacciatore da {0}.
-<string>{0} ora è fra i tuoi amici.
+<string>{0}<lf>è ora tra gli amici cacciatori.
+<string>La barriera è pronta all'uso.
+<string>Barriera pronta tra: <PLURAL {0} "{0} minuto" "{0} minuti">
+<string>Barriera pronta tra: <PLURAL {0} "{0} secondo" "{0} secondi">
+<string>La nave di supporto è arrivata.
+<string>La nave di supporto salperà a breve.
+<string>La nave di supporto è salpata.
+<string>Buono megafortuna usato. ({0} rimanenti.)
+<string>Verranno distribuite ricompense<lf>casuali e zenny.
+<string>Usa
+<string>Buono megafortuna usato.
 <string>Attività collegamento ambiente
 <string>Inizio di una ricerca sul campo<lf>per {0}.
 <string>Annulla
 <string>Rifornimento oggetti scorta effettuato.<lf>(Controlla gli oggetti scorta con <INPUTMSG MsgGUI020100_0011>.)
 <string>Il cacciatore di supporto {0}<lf>ora partecipa alla missione.
 <string>Il cacciatore di supporto {0}<lf>ha abbandonato la missione.
+<string>È disponibile una nuova missione arena.
+<string>Puoi riguardare i filmati nella galleria<lf>dal menu principale.
 <string>Obiettivo primario<lf>impostato come destinazione.
 <string>Obiettivo scomparso. Impostazione<lf>obiettivo primario come destinazione.
 <string>L'obiettivo impostato come destinazione<lf>è scomparso.
@@ -75,15 +88,34 @@
 <string>Missione fallita...
 <string>Inviti missione (ripresentati)
 <string>Ora puoi ricevere inviti<lf>missione da {0}.
+<string>Hai consegnato {0} (x{1})
 <string>Strumenti base ottenuti:<lf><COLOR preset="TXT_Accent">Strumenti da caccia</COLOR>.
 <string>Aggiornamento ambiente
+<string>{0} di {1}<lf>vorrebbe offrirti un pasto!
+<string>Apri mappa
+<string>Aggiornamento ambiente
 <string>Avvistamento di {0}!<lf>Luogo: {1}
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>Adesso puoi segnalare a {0}<lf>in {1} di aver terminato<lf>con successo l'incarico secondario!
 <string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Più obiettivi disponibili per la<lf>creazione di una missione combinata!
 <string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>È il superpredatore di questa regione!
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>È apparso {0}.<lf>Pare stia colpendo insediamenti locali!
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>È apparso {0}.<lf>Ha più ricompense del solito!
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>È apparso {0}.<lf>È l'obiettivo dell'incarico secondario!
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>È apparso {0}.<lf>È il bersaglio nella lista dei desideri!
 <string>Apri mappa
 <string>Ambiente
 <string>È apparso {0}!
@@ -92,6 +124,9 @@
 <string>{0}<lf>abbandonerà presto l'area!
 <string>Apri mappa
 <string>{0}<lf>ha abbandonato l'area...
+<string>Aggiornamento ambiente
+<string>È apparso {0}<lf>sul Picco brinachiusa!
+<string>Apri mappa
 <string>Ambiente
 <string>È apparso un branco di mostri<lf>che include {0}!
 <string>Apri mappa
@@ -99,11 +134,21 @@
 <string>Il branco che include {0}<lf>abbandonerà presto l'area!
 <string>Apri mappa
 <string>Il branco che include {0}<lf>ha abbandonato l'area...
+<string>È apparso {0}!
 <string>Ambiente
 <string>Individuato un aumento<lf>di {0}!
 <string>Apri mappa
 <string>Ambiente
 <string>Individuata un'abbondanza<lf>di {0}!
+<string>Apri mappa
+<string>Ambiente
+<string>{0} è disponibile come<lf>supporto sul campo!
+<string>Apri mappa
+<string>Ambiente
+<string>La nave di supporto è arrivata!
+<string>Apri mappa
+<string>Ambiente
+<string>È stato individuato un bozzolo<lf>guardiano grande!
 <string>Apri mappa
 <string>Hai perso {0}.
 <string>Richieste di partecipazione
@@ -113,6 +158,10 @@
 <string>Il proprietario ha rimosso la stanza.
 <string>{0} ora ti segue.
 <string>Non ci sono oggetti scorta.
+<string>Lista dei desideri [{0}]
+<string><COLOR preset="TXT_Accent">Ottenuti tutti i materiali necessari.</COLOR>
+<string>Lista dei desideri [{0}]
+<string>Quantità richiesta
 <string>Ricerca sul campo abbandonata.
 <string>È stata raggiunta la capacità massima di<lf>oggetti scorta. Oggetti in eccesso rimossi.
 <string>Hai ricevuto i benefici del<lf>seguente effetto melodia:<lf><BOLD>{0}</BOLD>.
@@ -123,6 +172,9 @@
 <string>L'effetto della bevanda fresca è terminato.
 <string>L'effetto della bevanda calda è terminato.
 <string>Impossibile selezionare come<lf>obiettivo missione.<lf>Apri la schermata partenza con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
+<string>Apri l'elenco incarichi
+<string>Mostra la priorità dell'obiettivo<lf>e seleziona un incarico.
+<string>Apri
 <string>{0} non può<lf>essere un obiettivo missione.
 <string>{0} non può<lf>essere un obiettivo missione.<lf>(GC troppo basso.)
 <string>Hai effettuato il passaggio dalla<lf>modalità giocatore singolo online<lf>alla modalità online.
@@ -135,21 +187,82 @@
 <string>La ricerca sul campo non può iniziare<lf>perché i membri del collegamento stanno<lf>vedendo i risultati della missione.
 <string>Impossibile cacciare {0} durante una<lf>missione con i tuoi progressi attuali.
 <string>Effetto bolla di eco attivato!<lf><BOLD>{0}</BOLD>
+<string>Consegna di {0}<lf>effettuata!
+<string>{0}
+<string>Hai ottenuto una nuova medaglia!
+<string>Titolo
+<string>Hai ottenuto <PLURAL {0} "un nuovo titolo" "{0} nuovi titoli">!
+<string>{0}
+<string>Hai ottenuto una nuova targhetta!
+<string>{0}
+<string>Hai ottenuto un nuovo sfondo!
+<string>Pare che il Poogie non abbia nulla...
+<string>È stato pubblicato una nuova richiesta.
+<string>Richiesta limitata
+<string>{0}<lf>{1}/{2}
+<string>Richiesta limitata
+<string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} completato!</COLOR>
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>Ha ricompense extra rare!
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>Incarico secondario completato!<lf>Informa {0}.
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>Completa gli incarichi secondari e<lf>fai rapporto al tuo compagno Felyne!
 <string>Apri mappa
 <string>Gruppo di collegamento sciolto<lf>perché c'è solo un membro.
 <string>Impossibile unirsi al collegamento<lf>ambiente di {0}.
 <string>Hai lasciato il collegamento<lf>ambiente di {0}.
 <string>Il collegamento ambiente<lf>è stato disattivato.
 <string>Impossibile partecipare alla missione.
+<string>Nuove decorazioni accampamento sbloccate.
 <string>Gli effetti pasto svaniranno presto.
+<string>Ora puoi allestire gli accampamenti<lf>mobili presso il Bacino petrolifero.
+<string>Ora puoi allestire gli accampamenti<lf>mobili presso le Scogliere ghiaccioaguzzo.
+<string>Ora puoi allestire gli accampamenti<lf>mobili presso le Rovine di Wyveria.
+<string>Aggiornamento ambiente
+<string>È disponibile una missione<lf>con obiettivi multipli.<lf>Influiscono sulla vita delle persone!
+<string>Apri mappa
+<string>Aggiornamento ambiente
+<string>È disponibile una missione<lf>con obiettivi multipli.<lf>Ottieni più ricompense aggiuntive!
+<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Intraprendi missioni con più obiettivi<lf>per guadagnare ricompense extra rare!
 <string>Apri mappa
+<string>Hai {0} <PLURAL {0} "nuovo messaggio" "nuovi messaggi">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Hai lasciato il gruppo di collegamento.
 <string>Movimento manuale
 <string>Movimento automatico
 <string>Esplorazione automatica
 <string>La modalità giocatore singolo online<lf>è stata temporaneamente disabilitata.
+<string>{0} si sta spostando<lf>verso il Picco brinachiusa.
+<string>Hai raggiunto il grado cacciatore {0}!
+<string>Non puoi posare qui<lf>l'oggetto che stai trasportando.
 <string>Il crossplay è attualmente abilitato.
+<string>Notifiche squadra
+<string>Hai ricevuto un invito per unirti alla<lf>squadra: <BOLD>{0}</BOLD>.
+<string>Notifiche squadra
+<string>Hai una richiesta di squadra in attesa.
+<string>Notifiche squadra
+<string>Hai ricevuto un invito per la squadra:<lf><BOLD>{0}</BOLD>.
+<string>Notifiche squadra
+<string>Ora fai parte della squadra: <lf><BOLD>{0}</BOLD>.
+<string><BOLD>{1}</BOLD> fa ora parte<lf>della squadra {0}.
+<string>Ti hanno dato il ruolo di vicecapo<lf>della squadra <BOLD>{0}</BOLD>.
+<string>Ti hanno dato il ruolo di capogruppo<lf>della squadra <BOLD>{0}</BOLD>.
+<string>Bonus di accesso
+<string>Il bonus di accesso di oggi è ora<lf>disponibile nel menu di gioco.
+<string>Ottieni ora
+<string>Set equipaggiamento condiviso
+<string>{0} ha condiviso un<lf>set equipaggiamento.
+<string>Set oggetti condiviso
+<string>{0} ha condiviso un<lf>set oggetti.
+<string>Set menu di scelta rapida condiviso
+<string>{0} ha condiviso un<lf>set menu di scelta rapida.
+<string>L'abilità <BOLD>{0}</BOLD><lf>ora può essere attivata.
+<string>Impossibile ricevere equip. condiviso
+<string>Impossibile ricevere perché il limite<lf>massimo delle notifiche equipaggiamento<lf>condiviso è stato raggiunto.
+<string>Hai ricevuto un invito.<lf>Controlla l'<BOLD>Elenco inviti</BOLD><lf>nel menu di gioco.
+<string>Hai ricevuto una richiesta di<lf>partecipazione. Controlla le <BOLD>richieste di partecipazione</BOLD><lf>nel menu di gioco.
+<string>Non è stato possibile avviare la missione.

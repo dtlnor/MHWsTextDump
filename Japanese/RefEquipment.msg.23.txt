@@ -28,11 +28,15 @@
 <string>Lv-
 <string>{0}
 <string>-
+<string>？？？派生
 <string>メイン武器
 <string>メイン武器に装備
 <string>サブ武器
 <string>サブ武器に装備
 <string>武器
+<string>チャーム
+<string>メイン武器チャーム
+<string>サブ武器チャーム
 <string>竜熱機関竜弾
 <string>竜熱穿甲弾
 <string>竜熱相殺弾
@@ -40,13 +44,57 @@
 <string>集中特効弾【竜吼】
 <string>起爆竜弾
 <string>圧着竜弾
+<string>生産素材
+<string>強化素材
+<string>必要費用
+<string>強化装備選択
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>防具強化
+<string>LvUPに必要な強化値
+<string>最大強化です
 <string>すべて表示
+<string>衣装<ICON EQUIP_TYPE1>のみ
+<string>衣装<ICON EQUIP_TYPE2>のみ
+<string>所持装備のみ
+<string>強化
+<string>生産
+<string>素材と{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？
+<string>素材と{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？<lf><lf>（この装備を生産すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
+<string>装備しますか？
+<string>余剰分の{0}ptsは破棄されます。<lf>よろしいですか？
+<string>試着
+<string><COLOR preset="TXT_Danger">装備BOXに空きがありません。</COLOR>
+<string><COLOR preset="TXT_Danger">この装備はまだ、生産・強化することができません。</COLOR>
+<string><COLOR preset="TXT_Danger">強化元の装備を所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">必要な素材、またはお金が足りません。</COLOR>
+<string><COLOR preset="TXT_Danger">所持金が不足しています。</COLOR>
+<string><COLOR preset="TXT_Danger">この装備は最大まで強化済です。</COLOR>
+<string>使用する鎧玉とその数を指定してください。
 <string><COLOR preset="TXT_Danger">装飾品を所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">素材を所持していません。</COLOR>
 <string><COLOR preset="TXT_Danger">装備を所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">アーティアパーツを所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">アーティア武器を所持していません。</COLOR>
 <string><COLOR preset="TXT_Danger">ボウガンを所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">錬金に必要な装飾品などを所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">錬金に必要なアーティアパーツなどを所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">精錬に必要な素材を所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">復元強化素材を所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">このおすすめ装備はすでに所持しているため、生産・強化することができません。</COLOR>
+<string><COLOR preset="TXT_Danger">このおすすめ装備はすでに所持しているため、生産することができません。</COLOR>
+<string>装着中の装備：{0}
 <string>他の装備に装着中です。<lf>外してもよろしいですか？
+<string><COLOR preset="TXT_Danger">装着している装飾品です。</COLOR>
+<string><COLOR preset="TXT_Danger">スロットレベルが対応していないため、装着できません。</COLOR>
+<string><COLOR preset="TXT_Danger">この猟虫は最大まで育成済みです。</COLOR>
+<string>{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？
+<string>{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？<lf><lf>（この装備を生産すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
+<string>育成素材
 <string>装備BOX
+<string>重ね着BOX
 <string><COLOR preset="TXT_Danger">猟虫は操虫棍を装備中の時にしか選択できません。</COLOR>
+<string>装飾品BOX
 <string>装飾品の着脱
 <string>装備変更
 <string>スキル情報
@@ -56,6 +104,7 @@
 <string>お気に入り登録
 <string>装備の見た目設定
 <string>装備の設定
+<string>自動選択
 <string>BOXからの選択
 <string>防具をシリーズ単位で選択
 <string>武器の表示切り替え
@@ -65,8 +114,58 @@
 <string>詳細ウィンドウの表示切り替え
 <string>装備BOXの表示切り替え
 <string>装備プレビューの表示切り替え
+<string>防具の着彩
+<string>ウィッシュリストに登録
+<string>生産素材で登録
+<string>強化素材で登録
+<string>ウィッシュリストに登録します。<lf>よろしいですか？
+<string>遡ってウィッシュリスト登録が必要な装備に、生産か強化を選べる装備が含まれています。登録する素材を選択してください。
+<string>ウィッシュリストから削除
+<string>ウィッシュリストから削除します。<lf>よろしいですか？
+<string>ウィッシュリストから削除します。<lf>よろしいですか？<lf><COLOR preset="TXT_Danger">（この項目は装備マイセットと連動しています。<lf>　削除対象に該当する装備は、装備マイセットで<lf>「設定なし」に変更されます）</COLOR>
+<string>装飾品の一括解除
+<string>現在装備している装飾品をすべて外します。<lf>よろしいですか？
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA>をモデル操作に切り替え
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>をモデル操作に切り替え
+<string><ICON PAD PL_DUMMY_CAMERA>をプレビュー操作に切り替え
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>をプレビュー操作に切り替え
+<string><ICON PAD PL_DUMMY_CAMERA>をリスト操作に切り替え
+<string>（<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>をモデル操作に切り替え）
 <string>装備をシリーズ単位で選択
+<string>刃
+<string>筒
+<string>盤
+<string>装置
 <string>装衣
+<string>検索
+<string>防御力ボーナス
+<string>スロットレベル
+<string>スロット数
+<string>砲撃タイプ
+<string>旋律効果
+<string>装填可能な弾
+<string>速射可能な弾
+<string>装填可能なビン
+<string>解除
+<string>未選択
+<string>白色
+<string>青色
+<string>緑色
+<string>Ⅲ
+<string>Ⅱ
+<string>Ⅰ
+<string>斬れ味（白色）
+<string>斬れ味（青色）
+<string>斬れ味（緑色）
+<string>スロットレベル（Ⅲ）
+<string>スロットレベル（Ⅱ）
+<string>スロットレベル（Ⅰ）
+<string>スロット数（３）
+<string>スロット数（２～３）
+<string>スロット数（１～３）
 <string>条件ソート
 <string>武器ソート
 <string>防具ソート
@@ -83,6 +182,9 @@
 <string>耐性値順
 <string>防御力順
 <string>防具部位順
+<string>種類順
+<string>性能タイプ順
+<string>アーティアボーナス順
 <string>攻撃タイプ
 <string>防具部位順
 <string>デフォルト
@@ -91,6 +193,9 @@
 <string>猟虫Lv順
 <string>砲撃タイプ順
 <string>所持数順
+<string>1～3
+<string>2～3
+<string>3
 <string>通常弾Lv1
 <string>通常弾Lv2
 <string>通常弾Lv3
@@ -139,3 +244,23 @@
 <string>速射（氷結弾Lv1）
 <string>速射（氷結弾Lv2）
 <string>速射（滅龍弾）
+<string><COLOR preset="TXT_Danger">現在装備中のため、売却できません。</COLOR>
+<string><COLOR preset="TXT_Danger">装衣は売却できません。</COLOR>
+<string><COLOR preset="TXT_Danger">所持している唯一の猟虫のため、売却できません。（猟虫を所持数なしにはできません）</COLOR>
+<string><COLOR preset="TXT_Danger">この装備は売却できません。</COLOR>
+<string><COLOR preset="TXT_Danger">操虫棍と組み合わせ中の猟虫のため、売却できません。</COLOR>
+<string>売却額
+<string>マイセットに登録されている装備です。<lf>売却してもよろしいですか？
+<string>{0}zで売却します。<lf>よろしいですか？
+<string>装飾品が取り付けられている装備です。<lf>装飾品を取り外し、この装備を{0}zで売却します。<lf>よろしいですか？
+<string>以下の状態の装飾品が選択されています。<lf>本当に売却してもよろしいですか？<lf>{0}<lf>{1}<lf>{2}
+<string>・装着中
+<string>・マイセット登録中
+<string>・お気に入り登録中
+<string>{0}に<lf>マイセットの内容を共有します。<lf>よろしいですか？
+<string>自分のマイセットに登録
+<string>自分のマイセットの空き枠に登録します。<lf>よろしいですか？
+<string>自分のマイセットに空き枠が<lf>ないため、登録できません。
+<string><COLOR preset="TXT_Accent">所持していない装備が<lf>マイセットに登録されています。</COLOR><lf>ウィッシュリストに自動登録しました。
+<string><COLOR preset="TXT_Accent">所持していない装備が<lf>マイセットに登録されています。</COLOR><lf>ウィッシュリストにはすでに対象の装備が<lf>登録されています。
+<string><COLOR preset="TXT_Accent">所持していない装備が<lf>マイセットに登録されています。</COLOR>

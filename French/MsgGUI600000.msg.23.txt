@@ -1,9 +1,9 @@
 ﻿<string><INPUTMSG MsgGUI600000_Tips_EXP_m1789448320>
-<string><ICON PL_DUMMY_MOVE> : Se déplacer<lf><ICON PL_DUMMY_CAMERA> : Déplacer la caméra
-<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> : Se déplacer<lf><ICON M_ALL> : Déplacer la caméra
+<string><ICON PL_DUMMY_MOVE> : se déplacer<lf><ICON PL_DUMMY_CAMERA> : déplacer la caméra
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> : se déplacer<lf><ICON M_ALL> : déplacer la caméra
 <string><INPUTMSG MsgGUI600000_Tips_EXP_1095772160>
-<string>Votre Seikret se dirige automatiquement<lf>vers les objectifs.<lf><ICON PL_DUMMY_MOVE> : Contrôles manuels
-<string>Votre Seikret se dirige automatiquement<lf>vers les objectifs.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> : Contrôles manuels
+<string>Votre Seikret se dirige automatiquement<lf>vers les objectifs.<lf><ICON PL_DUMMY_MOVE> : contrôle manuel
+<string>Votre Seikret se dirige automatiquement<lf>vers les objectifs.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> : contrôle manuel
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_106_000">
 <string>Sélectionner la fusée de détresse et relâcher <ICON UI_SHORTCUT_ITEM_USE_DUMMY>
 <string>Sélectionner la fusée de détresse et maintenir <ICON UI_SHORTCUT_ITEM_USE>
@@ -23,20 +23,115 @@
 <string>Sélectionner l'aiguisoir
 <string>Sélectionner l'aiguisoir et appuyer sur <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>Utilisez <ICON PL_DUMMY_MOVE> lors du déplacement automatique<lf>pour diriger votre Seikret manuellement.<lf><lf>Le déplacement automatique sera réactivé<lf>après un certain temps sans action de votre<lf>part, ou si vous appuyez sur <ICON PL_PT_CALL>.
-<string>Utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> lors du déplacement automatique<lf>pour diriger votre Seikret manuellement.<lf><lf>Le déplacement automatique sera réactivé<lf>après un certain temps sans action de votre<lf>part, ou si vous appuyez sur <ICON PL_PT_CALL>.
+<string>Utilisez <ICON PL_DUMMY_MOVE> lors du déplacement automatique<lf>pour diriger votre Seikret manuellement.<lf><lf>Le déplacement automatique sera réactivé<lf>après un certain temps sans action de votre<lf>part ou si vous appuyez sur <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>.
+<string>Utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> lors du déplacement automatique<lf>pour diriger votre Seikret manuellement.<lf><lf>Le déplacement automatique sera réactivé<lf>après un certain temps sans action de votre<lf>part ou si vous appuyez sur <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>Remuez votre appât avec <ICON PL_DUMMY_MOVE> pour<lf>inciter les poissons à mordre. Différents<lf>mouvements attirent différents poissons.
+<string>Remuez votre appât avec <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>pour inciter les poissons à mordre.<lf>Différents mouvements attirent<lf>différents poissons.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>Les gros spécimens sont coriaces !<lf>Utilisez <ICON PL_DUMMY_MOVE> pour orienter la ligne<lf>dans la même direction que le poisson<lf>et réduire la tension de la ligne.
+<string>Les gros spécimens sont coriaces !<lf>Utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour orienter la<lf>ligne dans la même direction que le<lf>poisson et réduire la tension de la ligne.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>Quand un poisson se fatigue et ralentit,<lf>c'est votre chance ! Orientez <ICON PL_DUMMY_MOVE><lf>vers le haut et le bas pour le ramener.
+<string>Quand un poisson se fatigue et ralentit,<lf>c'est votre chance ! Appuyez plusieurs fois<lf>sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> pour le remonter.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>Si un poisson s'approche d'un obstacle,<lf>orientez <ICON PL_DUMMY_MOVE> dans la direction opposée,<lf>en évitant les rochers.
+<string>Si un poisson s'approche d'un obstacle,<lf>utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour orienter la ligne<lf>dans la direction opposée, en évitant<lf>les rochers.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>Dans ces cas-là, orientez <ICON PL_DUMMY_MOVE> dans la<lf>direction de son saut et appuyez sur <ICON PL_SLINGER_SHOOT><lf>pour immobiliser le poisson.
+<string>Dans ces cas-là, orientez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>dans la direction de son saut et<lf>appuyez sur <ICON PL_SLINGER_SHOOT> pour immobiliser<lf>le poisson.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Ramener rapidement :</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Ramener lentement :</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter :</COLOR> Incliner <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Ramener rapidement</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Ramener lentement</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
-<string><COLOR preset="TXT_Accent">Éviter les obstacles :</COLOR> Utiliser <ICON PL_DUMMY_MOVE><lf>pour éloigner le poisson des obstacles
-<string><COLOR preset="TXT_Accent">Éviter les obstacles</COLOR> : Utiliser <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>pour éloigner le poisson des obstacles
+<string><COLOR preset="TXT_Accent">Éviter les obstacles</COLOR> : utilisez <ICON PL_DUMMY_MOVE><lf>pour éloigner le poisson des obstacles.
+<string><COLOR preset="TXT_Accent">Éviter les obstacles</COLOR> : utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>pour éloigner le poisson des obstacles.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
-<string>Vous immobilise temporairement. Bougez<lf>rapidement <ICON PL_DUMMY_MOVE> pour récupérer plus vite.
-<string>Vous immobilise temporairement. Bougez<lf>rapidement <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour récupérer plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Bougez rapidement <ICON PL_DUMMY_MOVE> pour récupérer<lf>plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Appuyez rapidement sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour<lf>récupérer plus vite.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_120>
-<string>Vous immobilise temporairement. Bougez<lf>rapidement <ICON PL_DUMMY_MOVE> pour récupérer plus vite.
-<string>Vous immobilise temporairement. Bougez<lf>rapidement <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour récupérer plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Bougez rapidement <ICON PL_DUMMY_MOVE> pour récupérer<lf>plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Appuyez rapidement sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour<lf>récupérer plus vite.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
-<string>Vous immobilise temporairement. Bougez<lf>rapidement <ICON PL_DUMMY_MOVE> pour récupérer plus vite.
-<string>Vous immobilise temporairement. Bougez<lf>rapidement <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour récupérer plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Bougez rapidement <ICON PL_DUMMY_MOVE> pour récupérer<lf>plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Appuyez rapidement sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour<lf>récupérer plus vite.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>Une affliction qui vous immobilise un temps.<lf>Bougez rapidement <ICON PL_DUMMY_MOVE> ou utilisez un nettoyant<lf>pour récupérer plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Appuyez rapidement sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> ou utilisez<lf>un nettoyant pour récupérer plus vite.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>Une affliction qui vous immobilise un temps.<lf>Bougez rapidement <ICON PL_DUMMY_MOVE> ou utilisez un nettoyant<lf>pour récupérer plus vite.
+<string>Une affliction qui vous immobilise un temps.<lf>Appuyez rapidement sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> ou utilisez<lf>un nettoyant pour récupérer plus vite.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : déplacez rapidement <ICON PL_DUMMY_MOVE><lf>vers le haut et le bas.
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : appuyez rapidement<lf>sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : déplacez lentement <ICON PL_DUMMY_MOVE><lf>vers le haut et le bas.
+<string><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : appuyez lentement<lf>sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string><COLOR preset="TXT_Accent">Agiter la ligne</COLOR> : inclinez <ICON PL_DUMMY_MOVE><lf>vers le bas plusieurs fois.
+<string><COLOR preset="TXT_Accent">Agiter la ligne</COLOR> : appuyez sur <ICON PL_MOVE_BACK><lf>plusieurs fois.
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>Le Bureau de soutien vous permet d'accéder<lf>à diverses fonctions en ligne. Vous pourrez<lf>notamment récupérer du contenu, consulter<lf>les dernières nouvelles du jeu, ou encore<lf>accéder à la boutique en ligne. <COLOR preset="TXT_Accent">D'autres<lf>fonctionnalités seront ajoutées plus tard.</COLOR>
+<string>Le Bureau de soutien vous permet d'accéder<lf>à diverses fonctions en ligne. Vous pourrez<lf>notamment récupérer du contenu, consulter<lf>les dernières nouvelles du jeu, ou encore<lf>accéder au magasin Steam. <COLOR preset="TXT_Accent">D'autres<lf>fonctionnalités seront ajoutées plus tard.</COLOR>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string>Sélectionner un objet : maintenez <ICON PL_ITEM_SLIDER_OPEN> et appuyez<lf>sur <ICON UI_ITEM_LEFT> ou <ICON UI_ITEM_RIGHT><lf>Utiliser un objet : relâchez <ICON PL_ITEM_SLIDER_OPEN> et appuyez sur <ICON PL_ITEM>
+<string>Sélectionner un objet : appuyez sur <ICON UI_ITEM_LEFT> ou <ICON UI_ITEM_RIGHT><lf>Utiliser un objet : appuyez sur <ICON PL_ITEM>
+<string>Sélectionner un objet : maintenez <ICON PL_ITEM_SLIDER_OPEN> et appuyez<lf>sur <ICON UI_ITEM_LEFT> ou <ICON UI_ITEM_RIGHT><lf>Utiliser un objet : relâchez <ICON PL_ITEM_SLIDER_OPEN> et appuyez sur <ICON PL_ITEM>
+<string>Sélectionner un objet : appuyez sur <ICON UI_ITEM_LEFT> ou <ICON UI_ITEM_RIGHT><lf>Utiliser un objet : appuyez sur <ICON PL_ITEM>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string>Passez de l'arme principale à l'arme<lf>secondaire avec <ICON PL_WEAPON_CHANGE>.
+<string>Passez de l'arme principale à l'arme<lf>secondaire avec <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE>.
+<string>Passez de l'arme principale à l'arme<lf>secondaire avec <ICON PL_WEAPON_CHANGE>.
+<string>Passez de l'arme principale à l'arme<lf>secondaire avec <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>Après un évanouissement, vous obtiendrez<lf>de nouvelles fournitures. Utilisez <ICON PL_ACCESS_ITEM_BAG><lf>pour regarder dans votre sacoche.
+<string>Après un évanouissement, vous obtiendrez<lf>de nouvelles fournitures. Utilisez <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG><lf>pour regarder dans votre sacoche.
+<string>Après un évanouissement, vous obtiendrez<lf>de nouvelles fournitures. Utilisez <ICON PL_ACCESS_ITEM_BAG><lf>pour regarder dans votre sacoche.
+<string>Après un évanouissement, vous obtiendrez<lf>de nouvelles fournitures. Utilisez <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG><lf>pour regarder dans votre sacoche.
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>Lorsque vous poursuivez un monstre,<lf>rengainez d'abord votre arme avec <ICON PL_WEAPON_OFF>,<lf>puis sprintez avec <ICON PL_DASH_TOGGLE>.
+<string>Lorsque vous poursuivez un monstre,<lf>rengainez d'abord votre arme avec <ICON PL_WEAPON_OFF>,<lf>puis sprintez avec <ICON PL_DASH>.
+<string>Lorsque vous poursuivez un monstre,<lf>rengainez d'abord votre arme avec <ICON PL_WEAPON_OFF>,<lf>puis sprintez avec <ICON PL_DASH> ou <ICON PL_DASH_TOGGLE>.
+<string>Lorsque vous poursuivez un monstre,<lf>rengainez d'abord votre arme avec <ICON PL_WEAPON_OFF>,<lf>puis sprintez avec <ICON PL_DASH>.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>Appuyez sur <ICON PL_WEAPON_CHANGE> pour choisir l'<COLOR preset="TXT_Accent">arme<lf>secondaire</COLOR> dans le porte-arme du Seikret.
+<string>Appuyez sur <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> pour choisir l'<COLOR preset="TXT_Accent">arme<lf>secondaire</COLOR> dans le porte-arme du Seikret.
+<string>Appuyez sur <ICON PL_WEAPON_CHANGE> pour choisir l'<COLOR preset="TXT_Accent">arme<lf>secondaire</COLOR> dans le porte-arme du Seikret.
+<string>Appuyez sur <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> pour choisir l'<COLOR preset="TXT_Accent">arme<lf>secondaire</COLOR> dans le porte-arme du Seikret.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string>Utilisez <ICON PL_PT_CALL> pour monter sur le Seikret<lf>et vous déplacer automatiquement vers<lf>votre objectif.
+<string>Utilisez <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> pour monter sur le Seikret<lf>et vous déplacer automatiquement vers<lf>votre objectif.
+<string>Utilisez <ICON PL_PT_CALL> pour monter sur le Seikret<lf>et vous déplacer automatiquement vers<lf>votre objectif.
+<string>Utilisez <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> pour monter sur le Seikret<lf>et vous déplacer automatiquement vers<lf>votre objectif.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>Des <COLOR preset="TXT_Accent">fournitures</COLOR> vous seront distribuées<lf>au début de chaque quête. Acceptez-les<lf>à tout moment avec <ICON PL_ACCESS_ITEM_BAG>.<lf>Des fournitures supplémentaires seront<lf>ajoutées selon les conditions de la chasse.
+<string>Des <COLOR preset="TXT_Accent">fournitures</COLOR> vous seront distribuées<lf>au début de chaque quête. Acceptez-les<lf>à tout moment avec <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>.<lf>Des fournitures supplémentaires seront<lf>ajoutées selon les conditions de la chasse.
+<string>Des <COLOR preset="TXT_Accent">fournitures</COLOR> vous seront distribuées<lf>au début de chaque quête. Acceptez-les<lf>à tout moment avec <ICON PL_ACCESS_ITEM_BAG>.<lf>Des fournitures supplémentaires seront<lf>ajoutées selon les conditions de la chasse.
+<string>Des <COLOR preset="TXT_Accent">fournitures</COLOR> vous seront distribuées<lf>au début de chaque quête. Acceptez-les<lf>à tout moment avec <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG>.<lf>Des fournitures supplémentaires seront<lf>ajoutées selon les conditions de la chasse.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> ou <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP13 UI_BULLET_ITEM_UP> ou <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP> ou <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP13 UI_BULLET_ITEM_UP> ou <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP13 UI_BULLET_ITEM_UP> ou <ICON WP13 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> ou <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP12 UI_BULLET_ITEM_UP> ou <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP> ou <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP12 UI_BULLET_ITEM_UP> ou <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string>La portée critique varie en fonction<lf>des munitions. Changez les munitions<lf>équipées avec <ICON WP12 UI_BULLET_ITEM_UP> ou <ICON WP12 UI_BULLET_ITEM_DOWN>.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string>Sélectionnez une fiole avec <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> ou <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Les fioles compatibles varient selon l'arme.)
+<string>Sélectionnez une fiole avec <ICON WP11 UI_BULLET_ITEM_UP> ou <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Les fioles compatibles varient selon l'arme.)
+<string>Sélectionnez une fiole avec <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> ou <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Les fioles compatibles varient selon l'arme.)
+<string>Sélectionnez une fiole avec <ICON WP11 UI_BULLET_ITEM_UP> ou <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Les fioles compatibles varient selon l'arme.)
+<string>Sélectionnez une fiole avec <ICON WP11 UI_BULLET_ITEM_UP> ou <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(Les fioles compatibles varient selon l'arme.)

@@ -28,11 +28,15 @@
 <string>—
 <string>{0}
 <string>–
+<string>???
 <string>Primaria
 <string>Equipaggia come primaria
 <string>Secondaria
 <string>Equipaggia come secondaria
 <string>Arma
+<string>Ciondoli
+<string>Ciondolo principale
+<string>Ciondolo secondario
 <string>Vamp. furia wyvern
 <string>Vamp. penetrante wyvern
 <string>Vamp. contratt. wyvern
@@ -40,13 +44,57 @@
 <string>Scoppio preciso: urlo di wyvern
 <string>Scoppio wyvern
 <string>Munizioni adesive
+<string>Materiali forgiatura
+<string>Materiali potenziamento
+<string>Costo
+<string>Selezione potenz. equip.
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>Miglioramento armatura
+<string>Al livello successivo
+<string>Potenz. mass. raggiunto
 <string>Mostra tutto
+<string>Solo armature <ICON EQUIP_TYPE1>
+<string>Solo armature <ICON EQUIP_TYPE2>
+<string>Solo posseduti
+<string>Migliora
+<string>Forgia
+<string>Necessari materiali e {0} z.<lf>Continuare?
+<string>Necessari materiali e <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Forgiare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
+<string>Equipaggiare adesso?
+<string>Rimuovere {0} <PLURAL {0} "punto in eccesso" "punti in eccesso">?
+<string>Anteprima
+<string><COLOR preset="TXT_Danger">La cassa equipaggiamento è piena.</COLOR>
+<string><COLOR preset="TXT_Danger">Non può essere ancora forgiato o potenziato.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai l'equipaggiamento necessario.</COLOR>
+<string><COLOR preset="TXT_Danger">Denaro o materiali insufficienti.</COLOR>
+<string><COLOR preset="TXT_Danger">Denaro insufficiente.</COLOR>
+<string><COLOR preset="TXT_Danger">Miglioramento massimo raggiunto.</COLOR>
+<string>Seleziona le sfere-armatura da usare.
 <string><COLOR preset="TXT_Danger">Non hai gioielli.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai materiali.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai equipaggiamento.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai materiali Artian.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai armi Artian.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai una balestra.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai gioielli o oggetti da fondere.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai materiali da fondere.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai materiali da fusione.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai materiali di rinforzo.</COLOR>
+<string><COLOR preset="TXT_Danger">Possiedi già questo equipaggiamento, perciò non puoi forgiarlo o potenziarlo.</COLOR>
+<string><COLOR preset="TXT_Danger">Possiedi già questo equipaggiamento, perciò non puoi forgiarlo.</COLOR>
+<string>Equipaggiato attualmente: {0}
 <string>Fa già parte di un altro equipaggiamento.<lf>Rimuovere?
+<string><COLOR preset="TXT_Danger">Questo gioiello è attualmente in uso.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossibile equipaggiare in questo livello di slot.</COLOR>
+<string><COLOR preset="TXT_Danger">Questo kinsetto ha raggiunto le sue dimensioni massime.</COLOR>
+<string>Necessiti di {0} z.<lf>Continuare?
+<string>Necessari <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Forgiare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
+<string>Materiali evoluzione
 <string>Cassa equipaggiamento
+<string>Cassa stile armatura
 <string><COLOR preset="TXT_Danger">I kinsetti possono essere selezionati solo quando il falcione insetto è equipaggiato.</COLOR>
+<string>Cassa gioielli
 <string>Modifica gioielli
 <string>Cambia equipaggiamento
 <string>Info abilità
@@ -56,6 +104,7 @@
 <string>Aggiungi ai preferiti
 <string>Aspetto equipaggiamento
 <string>Impostazioni equipaggiamento
+<string>Selezione automatica
 <string>Seleziona dalla cassa
 <string>Seleziona armatura per serie
 <string>Mostra/Nascondi arma
@@ -65,8 +114,58 @@
 <string>Mostra/Nascondi anteprima
 <string>Cambia visualizzazione
 <string>Anteprima sì/no
+<string>Colore armatura
+<string>Aggiungi a lista dei desideri
+<string>Registra per forgiatura
+<string>Registra per potenziamento
+<string>Aggiungere alla lista dei desideri?
+<string>Uno dei prerequisiti per quest'arma può essere registrato sia come materiale da forgia sia come potenziamento. Seleziona metodo.
+<string>Rimuovi da lista dei desideri
+<string>Rimuovere dalla lista dei desideri?
+<string>Rimuovere dalla lista dei desideri?<lf><COLOR preset="TXT_Danger">(Coincide con i set equipaggiamento.<lf>L'equipaggiamento rimosso da qui verrà rimosso<lf>anche dai set equipaggiamento.)</COLOR>
+<string>Rimuovi tutti i gioielli
+<string>Rimuovere tutti i gioielli equipaggiati?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> Muovi modello
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Muovi modello
+<string><ICON PAD PL_DUMMY_CAMERA> Muovi anteprima
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Muovi anteprima
+<string><ICON PAD PL_DUMMY_CAMERA> Naviga lista
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Muovi modello)
 <string>Seleziona per serie
+<string>Lama
+<string>Tubo
+<string>Disco
+<string>Meccanismo
 <string>Mantello
+<string>Cerca
+<string>Bonus difesa
+<string>Livello slot
+<string>Slot
+<string>Tipo scarica
+<string>Effetti melodie
+<string>Munizioni compatibili
+<string>Muniz. fuoco rapido
+<string>Rivestimenti compatibili
+<string>Rimuovi
+<string>Nessun filtro
+<string>Bianco
+<string>Blu
+<string>Verde
+<string>III
+<string>II
+<string>I
+<string>Acutezza (bianco)
+<string>Acutezza (blu)
+<string>Acutezza (verde)
+<string>Livello slot (III)
+<string>Livello slot (II)
+<string>Livello slot (I)
+<string>Slot (3)
+<string>Slot (2-3)
+<string>Slot (1-3)
 <string>Ordina per criteri
 <string>Ordina per arma
 <string>Ordina per armatura
@@ -83,6 +182,9 @@
 <string>DIF Elementale
 <string>DIF Fisica
 <string>Parti armatura
+<string>Per tipologia
+<string>Per attributo
+<string>Per bonus Artian
 <string>Tipo attacco
 <string>Parti armatura
 <string>Predefinito
@@ -91,6 +193,9 @@
 <string>Livello kinsetto
 <string>Tipo scarica
 <string>Quantità
+<string>1 – 3
+<string>2 – 3
+<string>3
 <string>P normali liv. 1
 <string>P normali liv. 2
 <string>P normali liv. 3
@@ -139,3 +244,23 @@
 <string>Fuoco rapido (p ghiaccio liv. 1)
 <string>Fuoco rapido (p ghiaccio liv. 2)
 <string>Fuoco rapido (p drago)
+<string><COLOR preset="TXT_Danger">Non è possibile vendere l'equipaggiamento che è attualmente in uso.</COLOR>
+<string><COLOR preset="TXT_Danger">Non è possibile vendere i mantelli.</COLOR>
+<string><COLOR preset="TXT_Danger">Non è possibile vendere questo kinsetto perché è l'unico che possiedi (non puoi avere zero kinsetti).</COLOR>
+<string><COLOR preset="TXT_Danger">Non è possibile vendere questo equipaggiamento.</COLOR>
+<string><COLOR preset="TXT_Danger">Non è possibile vendere questo kinsetto perché è associato al falcione insetto.</COLOR>
+<string>Valore
+<string>Questo equipaggiamento è registrato in un set.<lf>Vuoi davvero venderlo?
+<string>Vendere per {0} z?
+<string>Questo equipaggiamento ha un gioiello inserito.<lf>Rimuovere tutti i gioielli e vendere<lf>l'equipaggiamento per {0} z?
+<string>È stato selezionato un gioiello con almeno uno<lf>degli stati seguenti. Vuoi venderlo comunque?<lf><lf>{0}<lf>{1}<lf>{2}
+<string>- Equipaggiamento attuale
+<string>- Registrato in un set
+<string>- Aggiunto ai preferiti
+<string>Condividere set con {0}?
+<string>Registra in un tuo set
+<string>Registrare il tuo set in uno slot vuoto?
+<string>Non hai slot vuoti.
+<string><COLOR preset="TXT_Accent">Uno dei tuoi set contiene un equipaggiamento che<lf>non possiedi.</COLOR> L'equipaggiamento non ottenuto<lf>è stato automaticamente registrato nella tua lista<lf>dei desideri.
+<string><COLOR preset="TXT_Accent">Uno dei set registrati contiene un equipaggiamento<lf>che non possiedi.</COLOR> Questo equipaggiamento<lf>è già registrato nella tua lista dei desideri.
+<string><COLOR preset="TXT_Accent">Uno dei tuoi set contiene un equipaggiamento<lf>che non possiedi.</COLOR>

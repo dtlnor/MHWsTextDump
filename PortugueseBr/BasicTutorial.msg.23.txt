@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
-<string><REF Item_IT_182>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
+<string>Facas de Arremesso
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
@@ -170,16 +208,97 @@
 <string>
 <string>Efeitos de Status
 <string><ICON ST_POWER_UP> Aumento de Ataque
-<string>Aumenta o ataque.<lf><lf>Geralmente obtido por meio de:<lf>- Usar itens como Grão de Força e<lf>Pílula Demoníaca<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do Berrante de Caça
+<string>Aumenta o ataque.<lf><lf>Geralmente obtido ao:<lf>- Usar itens como Grão de Força<lf>e Pílula Demoníaca<lf>- Aproveitar os Efeitos de Melodia<lf>e Bolhas de Eco do Berrante de Caça
 <string>
 <string><ICON ST_DEFECE_UP> Aumento de Defesa
-<string>Aumenta a defesa.<lf><lf>Geralmente obtido por meio de:<lf>- Usar itens como Grão Duro e<lf>Pele Blindada<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do Berrante de Caça
+<string>Aumenta a defesa.<lf><lf>Geralmente obtido ao:<lf>- Usar itens como Grão Duro<lf>e Pele Blindada<lf>- Aproveitar os Efeitos de Melodia<lf>e Bolhas de Eco do Berrante de Caça
+<string>
+<string><ICON ST_CRITICAL_UP> Aumento de Afinidade
+<string>Aumenta a Afinidade.<lf><lf>Geralmente obtido através de:<lf>- Ativação de habilidades como Agitador<lf>- Efeitos de Melodia e Bolhas de Eco<lf>do Berrante de Caça
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Reforço de Ataque Elemental
+<string>Aumenta o poder elemental da<lf>sua arma.<lf><lf>Geralmente obtido através de:<lf>- Efeitos de Melodia do Berrante de Caça
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Aum. de Ataque de Status
+<string><REF WeaponTutorial_CP_161><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Melodia do Berrante de Caça
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Aumento de Resistência a Fogo
 <string>Aumenta a resistência a fogo e<lf>previne flagelo de fogo.<lf><lf>Geralmente obtido por meio de:<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do Berrante de Caça
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Aumento de Resistência a Água
+<string><REF WeaponTutorial_CP_168><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Melodia e Bolhas de Eco<lf>do Berrante de Caça
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Aumento de Resistência a Raio
+<string><REF WeaponTutorial_CP_169><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Melodia e Bolhas de Eco<lf>do Berrante de Caça
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Aumento de Resistência a Gelo
+<string><REF WeaponTutorial_CP_170><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Melodia e Bolhas de Eco<lf>do Berrante de Caça
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Aumento de Resistência a Dragão
+<string>Aumenta a resistência a dragão e<lf>previne flagelo de fogo.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia e Bolhas<lf>de Eco do berrante de caça
+<string>
+<string><ICON ST_SPIRIT> Proteção Divina
+<string><REF WeaponTutorial_CP_159><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Melodia do Berrante de Caça
+<string>
+<string><ICON ST_HEAL_CONTINUE> Regeneração de Vida
+<string><REF WeaponTutorial_CP_159><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Bolha de Eco do Berrante<lf>de Caça
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Velocidade de Regeneração
+<string><REF WeaponTutorial_CP_163><lf><lf>Geralmente obtido através de:<lf>- Uso de itens como Imunizador e<lf>Carne Seca Selvagem<lf>- Efeitos de Melodia do Berrante de Caça
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Economia de Vigor
+<string>Reduz o consumo de vigor.<lf><lf>Geralmente obtido através de:<lf>- Uso de Isotônico<lf>- Coleta de Lichia Agitada<lf>- Efeitos de Melodia do Berrante de Caça
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Aum. de Regeneração de Vigor
+<string>Status que aumenta a taxa de recuperação<lf>de Vigor.<lf><lf>Geralmente obtido por meio de:<lf>- Ativar Habilidades de Equipamento
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Regeneração de Vigor
+<string><REF WeaponTutorial_CP_180><lf><lf>Geralmente obtido através de:<lf>- Efeitos de Bolha de Eco do Berrante<lf>de Caça
+<string>
+<string><ICON ST_AVOID_UP> Mais Tempo de Esquiva
+<string>Aumenta o seu tempo de esquiva.<lf><lf>Geralmente obtido por meio de:<lf>- Ativação de Habilidades de Equipamento<lf>- Usar Efeitos de Bolha de Eco<lf>do berrante de caça
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Autoaprimoramento
 <string>Aumenta a velocidade de movimento.<lf><lf>Acumular este Efeito de Melodia várias<lf>vezes aumenta o seu ataque e previne<lf>que seus ataques sejam defletidos.<lf><lf>Geralmente obtido por meio de:<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do Berrante de Caça
+<string>
+<string><ICON ST_ARMOR> Empurrões Anulados
+<string>Previne empurrões de ataques.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_WIND> Pressão de Vento Anulada/<ICON ST_RESIST_WIND_HIGH> Toda Pressão de Vento Anulada
+<string>Concede proteção contra pressão de vento.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_NOISE> Abafadores (P)/<ICON ST_RESIST_NOISE_HIGH> Abafadores (G)
+<string>Concede proteção contra rugidos<lf>de monstros.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_QUAKE> Tremores Anulados
+<string>Concede proteção contra tremores de terra.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_STUN> Atordoamento Anulado
+<string>Previne atordoamento.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Paralisia Anulada
+<string>Previne paralisia.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_ELEMENT> Flagelo Anulado
+<string>Anula todos os flagelos de elemento.<lf><lf>Geralmente obtido por meio de:<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do Berrante de Caça
+<string>
+<string><ICON ST_RESIST_DEBUF> Efeitos Negativos Anulados
+<string>Anula todos os efeitos negativos.<lf><lf>Geralmente obtido por meio de:<lf>- Aproveitar os Efeitos de Melodia e<lf>Bolhas de Eco do berrante de caça
+<string>
+<string><ICON ST_SOUND_BARRIER> Barreira Sônica
+<string>Reduz dano uma vez e também anula pressão<lf>de vento, tremores de terra e rugidos de<lf>monstro uma vez.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_GROUND> Dano de Ambiente Anulado
+<string>Anula dano sofrido de lava ou terreno<lf>espinhoso, além de prevenir os efeitos<lf>negativos de calor ou frio intenso.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_MUD> Mobilidade Aquática/Limólea
+<string>Previne a lentidão em águas profundas ou<lf>limóleo. Também anula os efeitos de ondas<lf>criadas por monstros.<lf><lf>Geralmente obtido por meio de:<lf>- Usar Efeitos de Melodia do<lf>berrante de caça
+<string>
+<string><ICON ST_RESIST_COLD> Resistente ao Frio
+<string>Anula os efeitos de diminuição do Vigor<lf>máximo quando se é exposto a áreas de<lf>frio extremo.<lf><lf>Geralmente obtido ao:<lf>- Consumir Bebidas Quentes<lf>- Coletar Insetos Mantocálidos
+<string>
+<string><ICON ST_RESIST_HOT> Resistente ao Calor
+<string>Previne a perda gradual de vida que<lf>acontece ao se expor a áreas de calor<lf>extremo.<lf><lf>Geralmente obtido ao:<lf>- Consumir Bebidas Geladas<lf>- Coletar Insetos Mantogélidos
 <string>
 <string><ICON ST_MEAL_UP> Efeito de Refeição
 <string>Indica que efeitos foram obtidos<lf>ao comer uma refeição.<lf><lf>Geralmente obtido por meio de:<lf>- Comer uma refeição
@@ -191,26 +310,49 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sono
+<string>Após sofrer sono, você adormece<lf>por um curto período de tempo, incapaz<lf>de se mover. Isso acontece após acumular<lf>o suficiente desse status.<lf><lf>Geralmente curado através de:<lf>- Uso de um Energético antes de adormecer<lf>- Ataque sofrido<lf>- Espera da duração do efeito após dormir
+<string>
+<string><ICON ST_BOMB><REF RefStatus_0008_002_04>
+<string>Status que detona uma explosão que<lf>te empurra para trás e causa dano.<lf>É ativado após um tempo ou se um<lf>ataque te atingir.<lf><lf>Geralmente curado ao:<lf>- Usar Desodorante<lf>- Esquivar-se várias vezes seguidas
+<string>
+<string><ICON ST_LACERATE> Sangramento
+<string>Status que faz você sofrer dano ao se<lf>mover. Curar este status aumenta<lf>temporariamente sua recuperação natural.<lf><lf>Geralmente curado ao:<lf>- Comer carnes, como Bife Bem Passado<lf>- Se agachar por um breve período
+<string>
 <string><ICON ST_STUN> Atordoamento
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Atordoamento com Lampejo
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Preso em Teia
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Flagélido
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Defesa Reduzida
+<string>Status que diminui a defesa,<lf>aumentando o dano sofrido.<lf><lf>Geralmente curado ao:<lf>- Usar Grão Duro ou Pele Blindada<lf>- Esperar a duração do efeito
+<string>
+<string><ICON ST_BADSMELL> Fedor
+<string>Status que te impede de consumir<lf>alimentos ou bebidas.<lf><lf>Geralmente curado ao:<lf>- Usar Desodorante<lf>- Esquivar-se na água<lf>- Esperar a duração do efeito
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Cólera
+<string>Exposição prolongada ao Vírus da Cólera<lf>infectará você, a menos que acerte uma<lf>certa quantidade de golpes em monstros.<lf><lf>Enquanto Infectado: impede recuperação<lf>natural e aumenta o dano sofrido.<lf><lf>Após Cura: aumenta afinidade e concede<lf>resistência a Cólera.<lf><lf>Você pode retardar o avanço do vírus<lf>se usar uma Nulafruta.
+<string>
 <string><ICON ST_FIRE> Flagelo de Fogo
 <string>Status que reduz sua vida ao longo<lf>do tempo.<lf><lf>Geralmente curado ao:<lf>- Usar uma Nulafruta<lf>- Esquivar na água<lf>- Esperar a duração do efeito
 <string>
 <string><ICON ST_WATER> Flagelo de Água
-<string>Status que reduz a velocidade de<lf>regeneração de Vigor.<lf><lf>Geralmente curado ao:<lf>- Usar Nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar duração do efeito
+<string>Status que reduz a velocidade de<lf>regeneração de vigor.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
 <string>
 <string><ICON ST_THUNDER> Flagelo de Raio
-<string>Status que aumenta a probabilidade<lf>de atordoamento.<lf><lf>Geralmente curado ao:<lf>- Usar Nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
+<string>Status que aumenta a probabilidade<lf>de atordoamento.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
 <string>
 <string><ICON ST_ICE> Flagelo de Gelo
-<string>Status que aumenta o consumo de vigor.<lf><lf>Geralmente curado ao:<lf>- Usar Nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
+<string>Status que aumenta o consumo de vigor.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
 <string>
 <string><ICON ST_DRUGON> Flagelo de Dragão
-<string>Status que anula as propriedades<lf>elementais da sua arma.<lf><lf>Geralmente curado ao:<lf>- Usar Nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
+<string>Status que anula as propriedades<lf>elementais da sua arma.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
 <string>
 <string>Tremor
 <string>Status que restringe seu movimento.<lf>O tempo de restrição varia conforme<lf>a intensidade do tremor.<lf><lf>Geralmente curado ao:<lf>- Esperar a duração do efeito<lf>- Ser atingido por um ataque
@@ -218,8 +360,14 @@
 <string>Ensurdecer
 <string>Um status que restringe seu movimento.<lf>O tempo de restrição varia conforme<lf>a intensidade do rugido.<lf><lf>Geralmente curado através de:<lf>- Espera da duração do efeito<lf>- Ataque sofrido
 <string>
-<string>Pressão de Vento
+<string>Pressão do Vento
 <string>Um status que restringe seu movimento.<lf>O tempo de restrição varia conforme<lf>a intensidade da pressão do vento.<lf><lf>Geralmente curado através de:<lf>- Espera da duração do efeito<lf>- Ataque sofrido
+<string>
+<string>Frio
+<string>Status que aumenta a taxa de diminuição<lf>do seu vigor máximo enquanto estiver<lf>em certas áreas.<lf><lf>Geralmente curado ao:<lf>- Consumir Bebidas Quentes<lf>- Coletar Insetos Mantotérmicos
+<string>
+<string>Calor
+<string>Status que faz você perder vida<lf>lentamente em certas áreas.<lf><lf>Geralmente curado ao:<lf>- Consumir Bebidas Geladas<lf>- Coletar Insetos Mantogélidos
 <string>
 <string>Estado Embainhado
 <string><INPUTMSG MsgGUI600200_00_025>
@@ -245,6 +393,12 @@
 <string><REF Item_IT_21>
 <string>A Pedra de Amolar é um item que restaura<lf>a afiação perdida de uma arma. Está<lf>sempre disponível na sua Barra de Itens<lf>como um Item Essencial.<lf><lf>Pode ser usada quando sua arma está<lf>em mãos caso você a coloque em um Menu<lf>Radial Personalizado ou um Atalho.
 <string>
+<string>Habilidade de Armadura - Artesanato
+<string>Artesanato é uma habilidade que estende<lf>a Barra de Fio. A cor da barra depois da<lf>aplicação varia com o tipo de arma.<lf><lf>Os detalhes sobre o aumento da Barra<lf>de Fio podem ser vistos em Equipamento<lf>no Menu Inicial.
+<string>
+<string>Habilidade de Armadura - Polimento Protetor
+<string>Polimento Protetor é uma habilidade<lf>que é ativada ao usar Pedra de Amolar.<lf>Reduz a taxa de consumo da Afiação.
+<string>
 <string>Modo de Foco
 <string>Modo de Foco
 <string>O Modo de Foco permite que você mire com<lf>cuidado o seu ataque ou bloqueio.<lf><lf>Enquanto você focar em um monstro,<lf>guialumes destacarão seus ferimentos<lf>ou pontos fracos.
@@ -266,7 +420,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>Ao bloquear certos ataques, um embate<lf>entre Caçador e monstro acontece.<lf><lf>Pressione <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> para empurrar o monstro<lf>para trás e desequilibrá-lo, dando<lf>uma oportunidade para atacar.
+<string>Ao bloquear certos ataques, um embate<lf>entre Caçador e monstro acontece.<lf><lf>Pressione <ICON ME merge="PL_ATTACK_00,REPEAT_ON"> repetidamente para empurrar<lf>o monstro para trás e desequilibrá-lo,<lf>dando uma oportunidade para atacar.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
 <string>É possível iniciar um Ataque Inibidor<lf>usando certos movimentos para repelir<lf>golpes no momento em que um monstro<lf>ataca, potencialmente empurrando-o.<lf><lf>Caso seu Ataque Inibidor empurre de fato<lf>o monstro, você poderá segui-lo com uma<lf>variedade de ataques poderosos.
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>O Manto de Camuflagem permite se esconder<lf>dos monstros temporariamente. Caso você<lf>ataque ou sofra dano, o efeito se encerra,<lf>mesmo que ainda exista tempo restante.<lf><lf>Diferente de outras Ferramentas Especiais,<lf>o Manto de Camuflagem se comporta como<lf>um Item Essencial e sempre está com você.
+<string>
+<string><REF Item_IT_626>
+<string>O Manto Rochafirme se mantém<lf>inabalável contra certos ataques<lf>e concede proteção contra pressão<lf>de vento, rugidos e tremores, além<lf>de reduzir o dano recebido.<lf><lf>Sofrer dano reduz a duração de uso.
+<string>
+<string><REF Item_IT_627>
+<string>O Manto de Remendo recupera sua vida<lf>gradualmente. Se você não sofrer nenhum<lf>dano por um tempo após ser atacado,<lf>sua velocidade de recuperação aumenta.<lf><lf>Você também recupera vida<lf>ao atacar monstros.
+<string>
+<string><REF Item_IT_628>
+<string>O Manto de Evasão ativa uma esquiva<lf>especial que impede que sofra dano<lf>ao esquivar de um ataque de monstro<lf>no momento exato.<lf><lf>Esquivar com sucesso de um ataque<lf>de monstro também aumenta seu<lf>poder de ataque.
+<string>
+<string><REF Item_IT_629>
+<string>Quando equipado, o Manto<lf>Corrompido reduz a sua vida,<lf>mas aumenta a afinidade e<lf>desempenho da arma. Ataques<lf>sucessivos contra monstros<lf>aumentam ainda mais o seu<lf>ataque e afinidade.
 <string>
 <string>Dicas de Caçada
 <string>Montando
@@ -300,7 +466,7 @@
 <string>
 <string>Ataque Montado: <REF ActionGuideDataNameTextCommon_32227848>
 <string><INPUTMSG MsgGUI600200_00_038>
-<string>Enquanto você monta, ataques usando sua<lf>arma equipada podem causar dano massivo<lf>e infligir ferimentos.<lf><lf>Atacar um ferimento inicia um ataque<lf>finalizador especial exclusivo para<lf>cada arma.
+<string>Enquanto você monta, ataques usando<lf>sua arma equipada podem causar<lf>muito dano e infligir ferimentos.<lf><lf>Atacar um ferimento inicia um ataque<lf>finalizador especial exclusivo para<lf>cada arma.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m594861568>
 <string><INPUTMSG MsgGUI600200_00_027>
@@ -326,7 +492,7 @@
 <string>Atordoamento
 <string>Monstros atordoados ficam imobilizados<lf>por um tempo. Você pode atordoá-los<lf>causando dano contundente em partes<lf>específicas do seu corpo, como a cabeça.<lf>Um monstro ganha resistência ao efeito<lf>se for afetado muitas vezes, o que reduz<lf>sua duração.
 <string>
-<string>Recuo
+<string>Exaustão
 <string>Quando monstros estão apavorados, isso<lf>faz com que eles recuem, o que também<lf>diminui o vigor deles. Você pode fazer<lf>um monstro hesitar causando dano<lf>contundente várias vezes.
 <string>
 <string>Flagelo Sônico
@@ -337,6 +503,9 @@
 <string>
 <string>Fedor
 <string>Um estado em que um monstro é coberto<lf>por um cheiro terrível. Você pode causar<lf>fedor em um monstro usando uma Cápsula<lf>de Esterco, forçando-o a fugir.
+<string>
+<string>Explosão
+<string>Explosão é um status que se acumula<lf>aos poucos até provocar uma explosão<lf>que causa dano a monstros. Use armas<lf>baseadas em explosão para infligir o<lf>status.
 <string>
 <string>Monstros: Pontos Fracos
 <string>O ponto fraco de um monstro pode acabar<lf>sendo exposto antes ou depois de um de<lf>seus ataques. Usando o Modo de Foco é<lf>possível identificar esses pontos fracos.<lf><lf>Atingir um deles com um Ataque Focal<lf>cria uma grande abertura para ataques.
@@ -353,4 +522,19 @@
 <string>Emboscando um Monstro
 <string>
 <string>Bombas Sedativas
+<string>
+<string>Cólera
+<string>Monstros que são infectados com o<lf>Vírus da Cólera entram em estado<lf>de Cólera.<lf><lf>Monstros em Cólera abandonam seus<lf>padrões de sono e alimentação,<lf>exibindo comportamento mais agressivo<lf>e violento do que espécimes normais.<lf><lf>Os efeitos da Cólera também diminuem<lf>a longevidade do monstro e reduzem<lf>a vida deles.
+<string>
+<string>Guardiões
+<string>Guardiões são monstros artificiais<lf>criados por uma civilização antiga.<lf>Eles são incapazes de se reproduzir<lf>e não precisam procurar presas, pois<lf>sobrevivem apenas de Leite de Serpe.<lf><lf>A energia que absorvem do Leite de<lf>Serpe permite que curem feridas,<lf>tornando-os muito mais resistentes que<lf>monstros comuns. Tendem a permanecer<lf>próximos de fontes de energia, onde se<lf>comportam de maneira bem territorial.
+<string>
+<string>Monstros Aguerridos
+<string>Monstros Aguerridos são monstros que<lf>sobreviveram a inúmeras batalhas. Eles<lf>têm vida e ataque significativamente<lf>maiores do que o convencional, o que<lf>faz deles adversários muito poderosos.<lf><lf>Talvez como consequência desses<lf>encontros violentos anteriores, esses<lf>monstros têm <COLOR preset="TXT_Danger">ferimentos aguerridos</COLOR><lf>por todo o corpo.
+<string>
+<string>Ferimentos Aguerridos
+<string>Ferimentos aguerridos cobrem<lf>os corpos de monstros aguerridos<lf>como um símbolo das muitas<lf>batalhas que já enfrentaram.<lf><lf>Diferente de monstros normais,<lf>monstros aguerridos já carregam<lf>ferimentos desse tipo antes<lf>mesmo de você encontrá-los.<lf>É possível criar pontos fracos<lf>ao atingir esses ferimentos,<lf>até que se abram outra vez.
+<string>
+<string>Carcaças Velhas
+<string>Passado um tempo, as carcaças de<lf>monstros começarão a apodrecer,<lf>permitindo que você talhe materiais<lf>diferentes dos que você obtém quando<lf>quando elas estão frescas.<lf><lf>Pequenos monstros que apodreceram às<lf>vezes produzem pilhas de ossos ou<lf>serpebrotos, dos quais se pode coletar<lf>materiais. As carcaças de guardiões<lf>se tornam cristalizadas, produzindo<lf>seus próprios materiais exclusivos.
 <string>

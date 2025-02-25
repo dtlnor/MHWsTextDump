@@ -9,7 +9,7 @@
 <string>効果時間
 <string>体力
 <string>スタミナ
-<string>攻撃力
+<string>基礎攻撃力
 <string>防御力
 <string>属性耐性
 <string>ステータス効果
@@ -33,6 +33,7 @@
 <string><REF RefItem_0009>
 <string><REF RefItem_0010>
 <string><REF RefItem_0012>
+<string><REF RefItem_0013>
 <string>マイセットの内容で調理を開始します。<lf>よろしいですか？
 <string>食材が足りないため<lf>調理を開始できません。
 <string>登録を中止しますか？<lf>（編集中の内容は保存されません）
@@ -40,3 +41,5 @@
 <string>{0}+{1}
 <string>{0}+{1}　{2}+{3}
 <string><COLOR preset="TXT_Danger">生肉を所持していないため、肉焼きができません。</COLOR>
+<string><COLOR preset="TXT_Danger">調理に必要な食材が不足しています。</COLOR>
+<string><COLOR preset="TXT_Danger">肉焼きを行うための、十分なアイテムポーチの空きがありません。</COLOR>

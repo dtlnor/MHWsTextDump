@@ -7,8 +7,9 @@
 <string>Vérification de la connexion au serveur...
 <string>Une erreur de communication est survenue.<lf>{0}
 <string>Erreur de communication.<lf>Retour à l'écran titre.<lf>{0}
-<string>Certaines fonctionnalités en ligne ne seront pas<lf>disponibles.<lf><lf>Veuillez vous enregistrer sur {0} pour accéder<lf>à toutes les fonctionnalités en ligne.
-<string>Ce compte ne remplit pas les conditions<lf>nécessaires pour le multijoueur en ligne.
+<string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
+<string>Certaines fonctionnalités en ligne ne seront pas<lf>disponibles.<lf><lf>Veuillez vous abonner au {0} pour<lf>accéder à toutes les fonctionnalités en ligne.
+<string>Ce compte ne remplit pas les conditions<lf>nécessaires pour accéder aux fonctionnalités<lf>du mode multijoueur en ligne.
 <string>Connexion au réseau impossible.<lf>Retour à l'écran titre.
 <string>Impossible de se connecter au réseau.
 <string>Vous ne pouvez pas jouer au jeu car<lf>il est en dehors de la période de bêta.<lf>Retour à l'écran titre.<lf>{0}
@@ -18,7 +19,11 @@
 <string>Vous êtes actuellement en mode hors ligne.<lf>Pour repasser en mode en ligne, parlez à<lf>votre Assistante pour accéder aux fonctions de<lf>communication du menu de changement de lobby.
 <string>Passage en mode solo en ligne en raison d'une trop longue<lf>inactivité. Vous pourrez continuer à jouer normalement.<lf>{0}
 <string>Envoi impossible. Vous êtes déjà<lf>amis de chasse, ou une demande<lf>est en attente de réponse.<lf>{0}
-<string>Envoi impossible. Vous ou le destinataire<lf>avez atteint la limite d'amis de chasse.<lf>{0}
+<string>Échec de l'envoi car vous ou l'autre partie avez<lf>atteint le nombre maximum d'amis de chasse.<lf>{0}
+<string>Vous avez atteint le nombre maximum d'amis de<lf>chasse et ne pouvez plus ajouter d'autres joueurs.<lf>{0}
+<string>Échec de l'envoi car l'autre partie a atteint<lf>le nombre maximum d'amis de chasse.<lf>{0}
+<string>Vous avez atteint la limite de demandes d'amis<lf>de chasse et ne pouvez plus en envoyer.<lf>{0}
+<string>Envoi impossible. Le destinataire a atteint<lf>la limite de demandes d'amis de chasse.<lf>{0}
 <string>Vous suivez déjà ce joueur.<lf>{0}
 <string>Vous avez atteint la limite de personnes suivies<lf>et ne pouvez plus suivre d'autres joueurs.<lf>{0}
 <string>Connexion au réseau...
@@ -26,8 +31,19 @@
 <string>Les données de Chasseur ont été écrasées.<lf>Ces données restent utilisables, mais vos amis de<lf>chasse, les joueurs que vous suivez ou qui vous<lf>suivent, ainsi que les Clans seront réinitialisés.
 <string>Le joueur a déjà rejoint le groupe relié.<lf><lf>{0}
 <string>Le nombre maximum de joueurs pour<lf>le groupe relié a été atteint.<lf>Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
+<string>Échec de l'envoi : le joueur a atteint le nombre<lf>maximum d'invitations à des groupes reliés.<lf>{0}
 <string>Impossible d'effectuer un signalement pour<lf>le moment. Veuillez réessayer ultérieurement.<lf><lf>{0}
 <string>Votre compte actuel ne vous permet pas<lf>de jouer au jeu.
+<string>Aucune donnée de création de personnage<lf>de la bêta n'a été trouvée.<lf>{0}
+<string>Impossible de récupérer les données de création<lf>du personnage de la bêta.<lf>{0}
+<string>Invitation au groupe relié déjà envoyée.<lf>{0}
+<string>Impossible d'obtenir les informations sur les<lf>distinctions de votre compte. Veuillez vérifier<lf>votre connexion réseau ou le statut de votre<lf>compte pour détecter d'éventuels problèmes.<lf>{0}
+<string>Transfert de modèles impossible avec ce compte.<lf>{0}
+<string>Transfert de sets impossible avec ce compte.<lf>{0}
+<string>Échec de l'envoi de la fusée de détresse.<lf>{0}
+<string>Cette fonctionnalité est actuellement<lf>indisponible pour cause de maintenance.<lf>Veuillez réessayer ultérieurement.<lf>{0}
+<string>Vous avez atteint la limite de personnes bloquées<lf>et ne pouvez plus bloquer d'autres joueurs.<lf>{0}
+<string>Les serveurs sont actuellement<lf>en cours de maintenance.<lf>{0}
 <string>Vous avez été déconnecté de la session.<lf>{0}
 <string>La création de la session a échoué.<lf>{0}
 <string>La recherche de la session a échoué.<lf>{0}
@@ -49,6 +65,9 @@
 <string>Participation au groupe relié.
 <string>Le serveur est actuellement occupé.<lf>Veuillez réessayer ultérieurement.
 <string>Le crossplay est actuellement activé.
+<string>Vous ne pouvez pas participer à cette session :<lf>les paramètres de crossplay du joueur<lf>sont incompatibles.<lf>{0}
+<string>Participation impossible : les paramètres<lf>de crossplay de la session sont différents.<lf>Veuillez vérifier vos paramètres de crossplay<lf>dans les <BOLD>Options</BOLD> de l'écran titre.<lf>{0}
+<string>La limite de joueurs du groupe relié a été<lf>atteinte. Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "D xMMMM YYYY HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
 <string>Comportement abusif/perturbateur
 <string>Types de comportement interdit
@@ -61,6 +80,23 @@
 <string>Veuillez examiner tout texte modifiable, tel que votre profil de<lf>Chasseur et les commentaires du Clan, et mettre à jour le<lf>contenu en conséquence. Ne pas mettre à jour le texte ou<lf>effectuer des mises à jour répétées enfreignant les conditions<lf>d'utilisation peut entraîner des restrictions permanentes.
 <string>De plus, le nom de votre Chasseur et de votre Palico sera<lf>remplacé par le nom par défaut "Chasseur/Palico".
 <string><COLOR preset="TXT_Danger">Compte définitivement suspendu</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Votre compte a été définitivement suspendu</COLOR> en raison de<lf>violations confirmées de nos conditions d'utilisation.<lf><lf>Le compte concerné ne pourra plus accéder au mode en ligne<lf>de Monster Hunter Wilds. Veuillez noter que nous ne proposons<lf>aucune mesure pour lever la suspension permanente d'un compte,<lf>conformément aux conditions d'utilisation.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">comportement insultant</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en<lf>respectant les conditions d'utilisation et le contrat de licence<lf>d'utilisateur final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">violation de nos conditions d'utilisation concernant<lf>le langage inapproprié</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en<lf>respectant les conditions d'utilisation et le contrat de licence<lf>d'utilisateur final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">commentaires inappropriés</COLOR>. En conséquence, <COLOR preset="TXT_Accent">les<lf>fonctions communautaires ont été temporairement restreintes</COLOR>.<lf>Veuillez supprimer tout propos inapproprié de votre profil de<lf>Chasseur. Si vous ne supprimez pas ce contenu ou si une<lf>infraction similaire a lieu, des restrictions permanentes<lf>pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en respectant les<lf>conditions d'utilisation et le contrat de licence d'utilisateur<lf>final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">commentaires de Clan inappropriés</COLOR>. En conséquence,<lf><COLOR preset="TXT_Accent">les fonctions communautaires ont été temporairement restreintes</COLOR>.<lf><lf>Les commentaires concernés ont été supprimés. En cas de<lf>comportement répété ou similaire, des restrictions permanentes pourront<lf>être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions<lf>d'utilisation et le contrat de licence d'utilisateur final<lf>(CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">comportement inapproprié</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les<lf>conditions d'utilisation et le contrat de licence d'utilisateur<lf>final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">contenu inapproprié</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>Une valeur par défaut (ex. : Chasseur/Palico) s'affichera pour<lf>les autres utilisateurs à la place du contenu inapproprié<lf>concerné.<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation et le<lf>contrat de licence d'utilisateur final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">violation de nos conditions d'utilisation et/ou du<lf>contrat de licence d'utilisateur final (CLUF) concernant le<lf>comportement interdit</COLOR>. En conséquence, <COLOR preset="TXT_Accent">les fonctions<lf>communautaires ont été temporairement restreintes</COLOR>.<lf><lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en<lf>respectant les conditions d'utilisation et le contrat de licence<lf>d'utilisateur final (CLUF).</COLOR>
+<string><COLOR preset="TXT_Danger">Compte définitivement suspendu</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Votre compte a été définitivement suspendu</COLOR> en raison de<lf>violations confirmées de nos conditions d'utilisation et/ou du<lf>contrat de licence d'utilisateur final (CLUF).<lf><lf>Le compte concerné ne pourra plus accéder au mode en ligne de<lf>Monster Hunter Wilds. Veuillez noter que nous ne proposons<lf>aucune mesure pour lever la suspension permanente d'un compte,<lf>conformément aux conditions d'utilisation et au contrat de<lf>licence d'utilisateur final (CLUF).
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">suspicion de comportement insultant</COLOR>. En conséquence,<lf><COLOR preset="TXT_Accent">les fonctions communautaires ont été temporairement restreintes</COLOR>.<lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en<lf>respectant les conditions d'utilisation et le contrat de licence<lf>d'utilisateur final (CLUF).</COLOR> Si vous n'avez pas connaissance de<lf>comportement pouvant justifier cette action, veuillez nous<lf>contacter via un formulaire de demande.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">suspicion de propos ou contenu inappropriés</COLOR>. En<lf>conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été temporairement<lf>restreintes</COLOR>. En cas de comportement répété ou similaire, des<lf>restrictions permanentes pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer<lf>en respectant les conditions d'utilisation et le contrat de<lf>licence d'utilisateur final (CLUF).</COLOR> Si vous n'avez pas<lf>connaissance de comportement pouvant justifier cette action,<lf>veuillez nous contacter via un formulaire de demande.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">suspicion de violations de nos conditions<lf>d'utilisation/du CLUF (comportement interdit)</COLOR>. En conséquence,<lf><COLOR preset="TXT_Accent">les fonctions communautaires ont été temporairement restreintes</COLOR>.<lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées. <COLOR preset="TXT_Accent">Merci de jouer en<lf>respectant les CU/le CLUF.</COLOR> Si vous n'avez pas connaissance de<lf>comportement pouvant justifier cette action, veuillez nous<lf>contacter via un formulaire de demande.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">comportement insultant</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">propos inappropriés</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">comportement inapproprié</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">contenu inapproprié</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>Une valeur par défaut (ex. : Chasseur/Palico) s'affichera pour<lf>les autres utilisateurs à la place du contenu inapproprié<lf>concerné.
+<string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "DD/MM/YYYY à HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Danger">comportement interdit</COLOR>.<lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf><lf>En cas de comportement répété ou similaire, des restrictions<lf>permanentes pourront être appliquées.
+<string><COLOR preset="TXT_Danger">Compte définitivement suspendu</COLOR>.<lf><lf>Votre compte a été <COLOR preset="TXT_Danger">définitivement suspendu</COLOR><lf>en raison de confirmation de triche.<lf><lf>Le compte concerné ne pourra plus accéder à<lf><REF RefGeneral_0000_0000_00_OBT>.<lf>Veuillez noter que nous ne proposons aucune mesure pour lever la<lf>suspension permanente d'un compte pendant la bêta ouverte.
 <string>Participation au groupe relié.<lf>Changer de données sauvegardées ?<lf><COLOR preset="TXT_Danger">*Si vous changez de données sauvegardées,<lf>les informations non sauvegardées seront perdues.</COLOR>
 <string>Rejoindre avec ces données sauvegardées
 <string>Rejoindre avec d'autres données sauvegardées
@@ -69,9 +105,22 @@
 <string>Impossible d'envoyer la demande d'invitation.<lf>{0}
 <string>Impossible de rejoindre : vous n'avez pas<lf>débloqué la fonction des groupes reliés.
 <string>Afficher l'écran d'invitation d'ami pour<lf>envoyer une invitation au groupe relié ?
+<string>Jouons ensemble à Monster Hunter: Wilds !
 <string>Voulez-vous jouer avec moi à Monster Hunter Wilds Beta test ?
+<string>Invitation reçue.<lf><lf><COLOR preset="TXT_Accent">(Elle s'affichera à la fin de la cinématique ou du<lf>chargement, ou une fois le menu Options fermé.)</COLOR>
+<string>Impossible de rejoindre le groupe relié car les fonctionnalités<lf>en ligne ne sont pas utilisables actuellement.
+<string>Le jeu commencera en mode hors ligne.<lf><lf>Pour jouer en mode multijoueur en ligne, vous devez<lf>consentir au recueil d'informations personnelles. Vous<lf>pouvez jouer au jeu sans y consentir, mais certaines<lf>fonctionnalités ne seront pas disponibles. Pour modifier<lf>ce paramètre, consultez la section <BOLD>Confidentialité</BOLD> sur<lf>l'écran titre.
+<string>Pour jouer en ligne, vous devez consentir au<lf>partage de vos données personnelles. Pour<lf>modifier ce paramètre, consultez <BOLD>Confidentialité</BOLD><lf>sur l'écran titre.<lf>{0}
 <string>En attente des autres utilisateurs...
 <string>Merci de patienter.<lf><lf>Vous pourrez commencer lorsque l'équipe donnera le<lf>signal.
 <string>Partir
 <string>Une erreur s'est produite.<lf>Veuillez en informer le staff.
 <string>Impossible d'obtenir les données de transmission.<lf>{0}
+<string>{0}<lf>La recherche de l'ID de Clan spécifié a échoué.<lf>{1}
+<string>Vous avez dépassé le nombre maximum<lf>d'invitations ou de requêtes de Clan.<lf><lf>{0}
+<string>Vous n'avez pas pu rejoindre le Clan.<lf><lf>{0}
+<string>Vous n'avez pas pu activer le Clan.<lf>Veuillez consulter les paramètres du Clan.<lf><lf>{0}
+<string>{0}<lf>Aucune information de Clan trouvée avec l'ID spécifié.<lf>{1}
+<string>La mise à jour des données du clan a échoué.<lf>{0}
+<string>Envoi impossible. Le destinataire<lf>a atteint la limite de Clans joignables.<lf>{0}
+<string>Votre Clan ayant dépassé un certain nombre<lf>de membres, vous pouvez désormais créer<lf>des lobbys de Clan qui permettront à plus de<lf>membres de vous rejoindre.<lf><lf>Votre lobby de Clan actuel va ainsi être dissous,<lf>mais vous pouvez créer un nouveau lobby plus<lf>grand depuis le menu de changement de lobby.<lf>Veuillez nous excuser pour la gêne occasionnée.

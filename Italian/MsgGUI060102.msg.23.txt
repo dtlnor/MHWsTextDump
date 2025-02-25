@@ -1,28 +1,55 @@
-﻿<string>Ambiente
+﻿<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0003
+<string>Ambiente
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0006
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001_01_00
 <string>Tempo limite
 <string>{0} minuti
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0001_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_02_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_02_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_02_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_02_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_02_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0002_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0002_00_01
+<string>Minuti:
 <string>Veleno
 <string>Il veleno prosciuga lentamente<lf>la salute del mostro per un<lf>breve periodo di tempo.
 <string>Paralisi
-<string>Il mostro è paralizzato<lf>e non può muoversi<lf>per un breve periodo di tempo.
+<string>Il mostro è paralizzato<lf>e non può muoversi per<lf>un breve periodo di tempo.
 <string>Sonno
 <string>Il mostro si addormenta ma si<lf>sveglia se attaccato. Il primo<lf>attacco infligge più danni.
 <string>Scoppio
 <string>Scoppio si accumula in attacco.<lf>Una volta raggiunta una certa<lf>soglia, esplode, causando danni.
 <string>Fatica
-<string>A un certo livello di accumulo<lf>di danni contundenti, il mostro<lf>perde parte della resistenza.
+<string>Dopo aver accumulato abbastanza<lf>danni contundenti, il mostro<lf>perde parte della resistenza.
 <string>Stordimento
-<string>Colpire ripetutamente alla testa<lf>con un'arma contundente un mostro lo<lf>manda al tappeto e lo rende vulnerabile.
+<string>Colpire spesso la testa del mostro<lf>con un'arma contundente lo manda<lf>al tappeto e lo rende vulnerabile.
 <string>Baccello lampo
-<string>I forti lampi stordiscono o<lf>disorientano il mostro<lf>per un breve periodo di tempo.
-<string>Bomba sonica
+<string>I forti lampi stordiscono o<lf>disorientano il mostro per<lf>un breve periodo di tempo.
+<string>Baccello sonico
 <string>Alcuni mostri sono spaventati<lf>dai rumori forti, che provocano<lf>in loro reazioni specifiche.
 <string>Trappola coperta
 <string>Se un mostro fa scattare una trappola,<lf>rimarrà bloccato e sarà vulnerabile<lf>mentre cerca di liberarsi.
 <string>Trappola scossa
 <string>Se un mostro fa scattare una<lf>trappola scossa è immobilizzato<lf>e diventa vulnerabile per un po'.
 <string>Trappola di rampicanti
-<string>Se un mostro rimane impigliato<lf>nei rampicanti, ha poca libertà di movimento<lf>ed è più vulnerabile per un po'.
+<string>Se un mostro rimane impigliato<lf>nei rampicanti, avrà poca libertà<lf>di movimento e sarà vulnerabile.
 <string>Efficace
 <string>Poco efficace
 <string>Inefficace
@@ -31,7 +58,14 @@
 <string>Meno efficace
 <string>Crea missione
 <string><REF RefButton_0004>
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_00_DLG
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_01_DLG
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0004_00_HELP
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0005_00_00
 <string>Mostri presenti
 <string>Eventi in corso
-<string>Ancora {0} minuto/i
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0006_00_00
+<string>Ancora {0} <PLURAL {0} "minuto" "minuti">
 <string>Ora
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI060102_0010_00_02
+<string>Facoltativo: {0}

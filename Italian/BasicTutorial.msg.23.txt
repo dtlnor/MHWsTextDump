@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string>Munizioni per la fionda che<lf>possono essere usate per causare<lf>molti danni alle ferite dei mostri.
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string>Coltelli da lancio
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP> Difesa+
 <string>Incrementa la difesa.<lf><lf>Come si ottiene di solito:<lf>- Usando oggetti come semi<lf>difesa e sieri armatura.<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
 <string>
+<string><ICON ST_CRITICAL_UP> Affinità+
+<string>Aumenta l'affinità.<lf><lf>Come si ottiene di solito:<lf>- Attivando abilità come Istigatore.<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Aumenta attacco elementale
+<string>Incrementa la potenza elementale<lf>della tua arma.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia del corno da caccia.
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Aumenta attacco stato
+<string>Incrementa la potenza degli attacchi<lf>con alterazioni di stato inflitti ai mostri.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia del corno da caccia.
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Bonus resistenza fuoco
 <string>Incrementa la resistenza all'elemento<lf>fuoco e protegge dal malus da fuoco.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla di eco<lf>del corno da caccia.
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Bonus resistenza acqua
+<string>Incrementa la resistenza all'elemento<lf>acqua e protegge dal malus da acqua.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Bonus resistenza tuono
+<string>Incrementa la resistenza all'elemento<lf>tuono e protegge dal malus da tuono.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Bonus resistenza ghiaccio
+<string>Incrementa la resistenza all'elemento<lf>ghiaccio e protegge dal malus da ghiaccio.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Bonus resistenza drago
+<string>Incrementa la resistenza all'elemento<lf>drago e protegge dal malus da drago.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>d'eco del corno da caccia.
+<string>
+<string><ICON ST_SPIRIT> Protezione divina
+<string>Offre una probabilità che il danno<lf>subito venga ridotto.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia del corno da caccia.
+<string>
+<string><ICON ST_HEAL_CONTINUE> Rigenerazione salute
+<string>Recupera gradualmente la salute.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti bolla di eco del <lf>corno da caccia.
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Velocità recupero
+<string>Incrementa la velocità con cui la zona<lf>rossa della barra salute si rigenera.<lf><lf>Come si ottiene di solito:<lf>- Usando oggetti come immunizzatore<lf>e carne selvaggia.<lf>- Dagli effetti melodia del corno da caccia.
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Riduzione consumo resistenza
+<string>Riduce il consumo di resistenza.<lf><lf>Come si ottiene di solito:<lf>- Usando un succo sprint.<lf>- Raccogliendo una larva resistenza.<lf>- Dagli effetti melodia del corno da caccia.
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Aumento recupero resistenza
+<string>Uno stato che aumenta<lf>la resistenza.<lf><lf>Di solito si ottiene così:<lf>- attivazione abilità equipaggiamento
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Rigenerazione resistenza
+<string>Ripristina costantemente la resistenza.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti bolla di eco del <lf>corno da caccia.
+<string>
+<string><ICON ST_AVOID_UP> Bonus schivata
+<string>Incrementa la schivata.<lf><lf>Come si ottiene di solito:<lf>- Dall'attivazione delle abilità<lf>equipaggiamento.<lf>- Dagli effetti bolla d'eco del<lf>corno da caccia.
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Automiglioramento
 <string>Aumenta la velocità di movimento.<lf>Accumulare questo effetto melodia più<lf>volte aumenta il potere di attacco<lf>e impedisce che gli attacchi siano<lf>respinti.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
+<string>
+<string><ICON ST_ARMOR> Annulla respinta
+<string>Previene le respinte<lf>causate dagli attacchi.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_WIND> Annulla pressione vento/<ICON ST_RESIST_WIND_HIGH> Annulla pressione vento totale
+<string>Protegge dalla pressione del vento.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_NOISE>Protezione udito (S)/<ICON ST_RESIST_NOISE_HIGH> Protezione udito (L)
+<string>Protegge dai ruggiti dei mostri.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_QUAKE> Annulla sisma
+<string>Protegge dai sussulti del terreno.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_STUN> Annulla stordimento
+<string>Previene lo stordimento.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Annulla paralisi
+<string>Previene la paralisi.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_ELEMENT> Annulla malus
+<string>Annulla tutti i malus elementali.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>di eco del corno da caccia.
+<string>
+<string><ICON ST_RESIST_DEBUF> Annulla alterazioni di stato
+<string>Annulla tutte le alterazioni di stato.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia e bolla<lf>d'eco del corno da caccia.
+<string>
+<string><ICON ST_SOUND_BARRIER> Barriera sonica
+<string>Riduce i danni per una volta e annulla<lf>la pressione del vento, i sussulti<lf>del terreno e i ruggiti dei mostri<lf>per una volta.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_GROUND> Annulla danni ambientali
+<string>Annulla i danni subiti dalla lava<lf>e dal terreno aguzzo, e protegge<lf>dagli effetti negativi del caldo<lf>o del freddo intenso.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia<lf>del corno da caccia.
+<string>
+<string><ICON ST_RESIST_MUD> Mobilità acquatica/fango
+<string>Impedisce di essere rallentati dalle<lf>acque profonde o dal fango oleoso.<lf>Annulla anche gli effetti delle onde<lf>create dai mostri.<lf><lf>Come si ottiene di solito:<lf>- Dagli effetti melodia del corno da caccia.
+<string>
+<string><ICON ST_RESIST_COLD> Resistenza al freddo
+<string>Annulla l'effetto per cui le zone<lf>molto fredde fanno diminuire<lf>la tua resistenza massima.<lf><lf>Di solito si ottiene così:<lf>- Consumando bevande calde<lf>- Raccogliendo insetti scaldamantello
+<string>
+<string><ICON ST_RESIST_HOT> Resistenza al calore
+<string>Impedisce che le zone molto calde<lf>ti facciano perdere<lf>gradualmente la salute.<lf><lf>Di solito si ottiene così:<lf>- Consumando bevande fresche<lf>- Raccogliendo insetti gelomanto
 <string>
 <string><ICON ST_MEAL_UP> Effetti pasto
 <string>Indica che hai ottenuto effetti<lf>dai pasti.<lf><lf>Come si ottiene di solito:<lf>- Mangiando
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sonno
+<string>Dopo la sonnolenza ti addormenterai<lf>in poco tempo e non riuscirai a muoverti.<lf>Si verifica dopo che lo stato <lf>si è accumulato a sufficienza.<lf><lf>Come si cura di solito:<lf>- Usando una bevanda energetica<lf>prima di addormentarsi.<lf>- Subendo un attacco.<lf>- Aspettando che l'effetto svanisca<lf>dopo aver dormito.
+<string>
+<string><ICON ST_BOMB> <REF RefStatus_0008_002_04>
+<string>Uno stato che provoca un'esplosione,<lf>facendoti cadere e infliggendoti danni.<lf>Si innesca dopo un certo lasso<lf>di tempo o quando ti colpiscono.<lf><lf>Di solito si cura così:<lf>- Usando un deodorante<lf>- Schivando più volte di seguito
+<string>
+<string><ICON ST_LACERATE> Sanguinamento
+<string>Uno stato che causa danni<lf>quando ci si muove. <lf>(Curandoti aumenterai<lf>il recupero naturale<lf>per un breve periodo).<lf><lf>Di solito si cura così:<lf>- Consumando elementi a base di carne<lf>o una bistecca ben cotta<lf>- Accovacciandosi per un breve periodo
+<string>
 <string><ICON ST_STUN> Stordimento
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Stordimento con lampo
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Tela di ragno
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Malus da gelo
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Difesa ridotta
+<string>Uno stato che riduce la difesa<lf>e aumenta la quantità di danni subiti.<lf><lf>Di solito si cura così:<lf>- Usando un seme della<lf>difesa o un siero armatura<lf>- Aspettando che l'effetto svanisca
+<string>
+<string><ICON ST_BADSMELL> Fetore
+<string>Uno stato in cui non si possono<lf>consumare cibi o bevande.<lf><lf>Di solito si cura così:<lf>- Usando un deodorante<lf>- Tuffandosi in uno specchio d'acqua<lf>- Aspettando che l'effetto svanisca
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Frenesia
+<string>L'esposizione prolungata alla frenesia<lf>ti infetterà a meno che tu non riesca<lf>a sferrare un certo numero di colpi<lf>a un mostro. L'infezione: <lf>interrompe il recupero naturale<lf>e aumenta i danni subiti.<lf>La guarigione: aumenta l'affinità<lf>e conferisce resistenza alla frenesia.<lf><lf>È possibile rallentare l'insorgenza<lf>della frenesia usando una nulbacca.
+<string>
 <string><ICON ST_FIRE> Malus da fuoco
 <string>Uno stato che consuma<lf>progressivamente la salute.<lf><lf>Come si cura di solito:<lf>- Usando una nulbacca.<lf>- Eseguendo schivate in acqua.<lf>- Aspettando che l'effetto svanisca.
 <string>
@@ -221,6 +363,12 @@
 <string>Pressione vento
 <string>Uno stato che limita i tuoi movimenti.<lf>La durata della limitazione cambia<lf>in base alla forza del vento.<lf><lf>Come si cura di solito:<lf>- Aspettando che l'effetto svanisca.<lf>- Subendo un attacco.
 <string>
+<string>Freddo
+<string>Uno stato che fa diminuire<lf>la tua resistenza massima<lf>in certe aree.<lf><lf>Di solito si cura così:<lf>- Consumando bevande calde<lf>- Raccogliendo insetti scaldamanto
+<string>
+<string>Caldo
+<string>Uno stato che fa diminuire<lf>la tua salute in certe aree.<lf><lf>Di solito si cura così:<lf>- Consumando bevande fredde<lf>- Raccogliendo insetti gelomanto
+<string>
 <string>Arma rinfoderata
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -244,6 +392,12 @@
 <string>
 <string><REF Item_IT_21>
 <string>La cote è un oggetto che ripristina<lf>l'acutezza delle armi. È sempre<lf>disponibile tra gli strumenti base<lf>nella tua barra oggetti.<lf><lf>Si può usare anche quando l'arma<lf>è estratta se la assegni a una scorciatoia<lf>o al menu di scelta rapida.
+<string>
+<string>Abilità delle armature - Artigiano
+<string>Artigiano è un'abilità che allunga la<lf>barra acutezza. Dopo l'uso, il colore<lf>della barra dipende dall'arma.<lf><lf>I dettagli sull'aumento della barra<lf>possono essere visualizzati in Info<lf>equipaggiamento nel menu di gioco.
+<string>
+<string>Abilità delle armature - Strato protettivo
+<string>Strato protettivo è un'abilità<lf>che si attiva quando usi una cote.<lf>Riduce il consumo di acutezza.
 <string>
 <string>Modalità precisione
 <string>Modalità precisione
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>Il mantello mimetico si può usare per<lf>nascondersi temporaneamente dai<lf>mostri. Attaccare o subire danni<lf>terminerà l'effetto a prescindere<lf>dal tempo rimasto.<lf><lf>A differenza di altri strumenti dedicati,<lf>il mantello mimetico fa parte degli<lf>strumenti base che porti sempre con te.
+<string>
+<string><REF Item_IT_626>
+<string>Il mantello stabilità resiste ad alcuni<lf>attacchi, e avrai protezione da<lf>pressione di vento, ruggiti e sisma.<lf>I danni sono ridotti.<lf><lf>Subire danni accorcerà la durata<lf>dell'effetto.
+<string>
+<string><REF Item_IT_627>
+<string>Il Mantello salute fa recuperare<lf>gradualmente la salute. Quando<lf>ti attaccano, la velocità di recupero<lf>aumenta se non subisci danni per<lf>un certo lasso di tempo.<lf><lf>Recuperi la salute anche quando<lf>attacchi i mostri.
+<string>
+<string><REF Item_IT_628>
+<string>Il Mantello evasione<lf>attiva una schivata speciale,<lf>che ti impedisce di subire danni<lf>se schivi l'attacco di un mostro<lf>al momento giusto.<lf><lf>Una schivata riuscita<lf>aumenta il tuo potere d'attacco.
+<string>
+<string><REF Item_IT_629>
+<string>Se equipaggiato, il mantello corrotto<lf>riduce la salute ma aumenta l'affinità<lf>e le prestazioni con le armi. Attacchi<lf>ripetuti ai mostri faranno aumentare<lf>ulteriormente l'attacco e l'affinità.
 <string>
 <string>Consigli per la caccia
 <string>In groppa
@@ -338,6 +504,9 @@
 <string>Fetore
 <string>Uno stato in cui un mostro è intriso di<lf>un fetore terribile. Si può infliggere con<lf>i baccelli letame, costringendo il mostro<lf>a scappare.
 <string>
+<string>Scoppio
+<string>Lo scoppio è uno stato<lf>soggetto a incremento.<lf>Quando è al culmine,<lf>causa un'esplosione<lf>che infligge danni ai mostri. <lf>Usa armi esplosive<lf>per infliggere questo stato.
+<string>
 <string>Punti deboli dei mostri
 <string>Prima o dopo un suo attacco, un punto<lf>debole di un mostro potrebbe essere<lf>scoperto. Puoi trovare questi punti<lf>deboli usando la modalità precisione.<lf><lf>Attaccando un punto debole con un colpo<lf>preciso creerai una grande occasione<lf>per sferrare attacchi.
 <string>
@@ -353,4 +522,19 @@
 <string>Intrappolare i mostri
 <string>
 <string>Sfere soporifere
+<string>
+<string>Frenesia
+<string>Quando i mostri sono infettati<lf>dal virus della frenesia,<lf>entrano in uno stato frenetico.<lf><lf>I mostri frenetici rinunciano<lf>a mangiare e a dormire,<lf>ma si comportano<lf>in maniera più aggressiva e violenta<lf>rispetto agli esemplari sani.<lf>Gli effetti della frenesia<lf>riducono la speranza di vita<lf>di un mostro e la sua salute.
+<string>
+<string>Guardiani
+<string>I guardiani sono mostri artificiali<lf>creati da un'antica civiltà.<lf>Non possono riprodursi e non cacciano<lf>perché possono nutrirsi di latte di wyvern.<lf><lf>L'energia fornitagli dal latte<lf>gli permette di curare le ferite<lf>e li rende altamente resistenti.<lf>Si tratta di mostri fortemente<lf>territoriali che si stabiliscono<lf>vicino a luoghi che contengono<lf>fonti di energia.
+<string>
+<string>Mostri temprati
+<string>I mostri temprati sono mostri<lf>sopravvissuti a numerose battaglie.<lf>Hanno una salute e un attacco<lf>significativamente più elevati<lf>degli altri esemplari,<lf>il che li rende avversari molto forti.<lf>A causa di precedenti scontri violenti<lf> è probabile abbiano <COLOR preset="TXT_Danger">ferite temprate</COLOR>.
+<string>
+<string>Ferite temprate
+<string>Le ferite temprate ricoprono i corpi<lf>dei mostri temprati e sono i segni<lf>delle battaglie affrontate.<lf>A differenza dei mostri normali,<lf>i mostri temprati recano già queste<lf>ferite quando li incontri.<lf>È possibile riaprirle gradualmente<lf>con dei colpi per creare dei<lf>punti deboli.
+<string>
+<string>Carcasse antiche
+<string>Le carcasse dei mostri<lf>marciranno nel tempo. <lf>I materiali che puoi ricavarne<lf>variano in base alla carcassa,<lf>se è fresca o si è decomposta.<lf><lf>Dai mostri piccoli in decomposizione<lf>puoi ottenere resti di ossa<lf>o germogli wyvern<lf>da cui ricavare dei materiali. <lf>Le carcasse dei guardiani<lf>si cristallizzano<lf>e generano materiali unici.
 <string>

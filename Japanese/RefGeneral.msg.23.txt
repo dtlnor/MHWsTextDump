@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>－
 <string>-
 <string>：
@@ -33,7 +34,9 @@
 <string>＋
 <string>+{0}
 <string>－
+<string>-{0}
 <string>×
+<string>×{0}
 <string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>？
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>はい
 <string>いいえ
 <string>キャンセル
@@ -50,12 +55,20 @@
 <string>or
 <string>and
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Lv
 <string>RARE
 <string>？？？
 <string>???
 <string>？？？？？
 <string>?????
+<string>白の孤影
+<string>牙獣種[???]
+<string>黒い炎
+<string>ドシャグマ[???]
+<string>リオレウス[???]
+<string>ラバラ・バリナ[???]
+<string>セクレト[???]
 <string>-----
 <string>－－－－－－
 <string>なし
@@ -90,12 +103,16 @@
 <string>ハンター
 <string>オトモアイルー
 <string>セクレト
+<string>プーギー
 <string>サポートハンター
+<string>サークル
 <string>z
 <string>ゼニー
 <string>pts
 <string>ギルドポイント
 <string>%
+<string>{0}%
+<string>激運チケット
 <string>【{0}】
 <string>最適体力回復<lf>【{0}】
 <string>最適状態回復<lf>【{0}】
@@ -122,3 +139,5 @@
 <string>ダウンロード コンテンツ
 <string>ダウンロード コンテンツ
 <string>サーバー
+<string><PLATMSG RefGeneral_0028>
+<string>

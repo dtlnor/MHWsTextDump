@@ -28,11 +28,15 @@
 <string>–
 <string>{0}
 <string>–
-<string>Primär
+<string>(??)
+<string>Erst
 <string>Als Erstwaffe ausrüsten
-<string>Sekundär
+<string>Zweit
 <string>Als Zweitwaffe ausrüsten
 <string>Waffe
+<string>Anhänger
+<string>Erstwaffe
+<string>Zweitwaffe
 <string>Wyvernherz-Zündung
 <string>Wyverndorn-Zündung
 <string>Wyvernkonter-Zündung
@@ -40,13 +44,57 @@
 <string>Fokus: Wyverngeheul
 <string>Wyvernexplosion
 <string>Klebemunition
+<string>Schmiedematerialien
+<string>Verbesserungsmaterialien
+<string>Kosten
+<string>Verbesserungsauswahl
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>Rüstungsteil verbessern
+<string>Zur nächsten Stufe
+<string>Maximale Verbesserung erreicht.
 <string>Alle anzeigen
+<string>Nur <ICON EQUIP_TYPE1> Rüstung
+<string>Nur <ICON EQUIP_TYPE2> Rüstung
+<string>Nur in Besitz
+<string>Verbessern
+<string>Schmieden
+<string>Materialien sowie <NUMBER {0}> z <PLURAL {0} "wird" "werden"> aufgewendet.<lf>Möchtest du fortfahren?
+<string>Materialien sowie <NUMBER {0}> z <PLURAL {0} "wird" "werden"> aufgewendet.<lf>Möchtest du fortfahren?<lf><lf>(Das Schmieden dieser Ausrüstung erzeugt außerdem<lf>die entsprechende <COLOR preset="TXT_Accent">Dekorrüstung</COLOR>.)
+<string>Gleich ausrüsten?
+<string>Es <PLURAL {0} "geht {0} überschüssiger Punkt" "gehen {0} überschüssige Punkte"> verloren.<lf>Möchtest du fortfahren?
+<string>Vorschau
+<string><COLOR preset="TXT_Danger">Die Ausrüstungstruhe ist voll.</COLOR>
+<string><COLOR preset="TXT_Danger">Dies kann noch nicht geschmiedet oder verbessert werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast nicht die erforderliche Ausrüstung.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast nicht genügend Geld oder Materialien.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast nicht genügend Geld.</COLOR>
+<string><COLOR preset="TXT_Danger">Die maximale Verbesserungsstufe wurde erreicht.</COLOR>
+<string>Wähle eine Rüstkugel, die du verwenden möchtest.
 <string><COLOR preset="TXT_Danger">Du hast keine Dekorationen.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Materialien.</COLOR>
 <string><COLOR preset="TXT_Danger">Du hast keine Ausrüstung.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Artian-Materialien.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Artian-Waffen.</COLOR>
 <string><COLOR preset="TXT_Danger">Du hast kein Bogengewehr.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Dekorationen oder Objekte zum Einschmelzen.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Artian-Materialien oder Ähnliches zum Einschmelzen.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Raffiniermaterialien.</COLOR>
+<string><COLOR preset="TXT_Danger">Du hast keine Verstärkungsmaterialien.</COLOR>
+<string><COLOR preset="TXT_Danger">Du besitzt diese Ausrüstung bereits.</COLOR>
+<string><COLOR preset="TXT_Danger">Du besitzt diese Ausrüstung bereits.</COLOR>
+<string>Derzeit ausgerüstet: {0}
 <string>Das wird an einem anderen Ausrüstungsteil<lf>verwendet. Möchtest du es entfernen?
+<string><COLOR preset="TXT_Danger">Diese Dekoration ist derzeit ausgerüstet.</COLOR>
+<string><COLOR preset="TXT_Danger">Du kannst das auf dieser Slot-Stufe nicht ausrüsten.</COLOR>
+<string><COLOR preset="TXT_Danger">Dieses Kinsekt ist vollständig ausgewachsen.</COLOR>
+<string>Du benötigst <NUMBER {0}> z.<lf>Möchtest du fortfahren?
+<string><NUMBER {0}> z <PLURAL {0} "wird" "werden"> aufgewendet.<lf>Möchtest du fortfahren?<lf><lf>(Das Schmieden dieser Ausrüstung erzeugt außerdem<lf>die entsprechende <COLOR preset="TXT_Accent">Dekorrüstung</COLOR>.)
+<string>Zuchtmaterial
 <string>Ausrüstungstruhe
+<string>Dekorrüstungstruhe
 <string><COLOR preset="TXT_Danger">Kinsekten können nur mit ausgerüsteter Insektenglefe ausgewählt werden.</COLOR>
+<string>Dekorationstruhe
 <string>Dekorationen bearbeiten
 <string>Ausrüstung ändern
 <string>Fähigkeiten-Info
@@ -56,6 +104,7 @@
 <string>Zu Favoriten
 <string>Ausrüstungsaussehen
 <string>Ausrüstung-Einstellungen
+<string>Auto-Auswählen
 <string>Aus Truhe wählen
 <string>Rüstung nach Set wählen
 <string>Waffe anzeigen/verbergen
@@ -64,9 +113,59 @@
 <string>Gehaltene Waffe wechseln
 <string>Vergleich wechseln
 <string>Anzeige ändern
-<string>Ausrüstungsvorschau umschalten
+<string>Ausrüstungsvorschau an/aus
+<string>Rüstungsfarbe
+<string>Zur Wunschliste hinzufügen
+<string>Zum Schmieden registrieren
+<string>Als Verbesserung registrieren
+<string>Möchtest du dies zur Wunschliste hinzufügen?
+<string>Eine Vorbedingung dieser Waffe kann zum Schmieden oder als Verbesserung registriert werden. Wähle, was du registrieren möchtest.
+<string>Von Wunschliste streichen
+<string>Möchtest du dies von der Wunschliste entfernen?
+<string>Möchtest du dies von der Wunschliste streichen?<lf><COLOR preset="TXT_Danger">(Verknüpfung mit Ausrüstungssets.<lf>Entfernte Ausrüstung wird auch aus Sets entfernt.)</COLOR>
+<string>Alle Dekorationen entfernen
+<string>Möchtest du alle ausgerüsteten<lf>Dekorationen entfernen?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> steuert Modell
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> steuert Modell
+<string><ICON PAD PL_DUMMY_CAMERA> steuert Vorschaufenster
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> steuert Vorschaufenster
+<string><ICON PAD PL_DUMMY_CAMERA> steuert Liste
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> steuert Modell)
 <string>Ausrüstung nach Set auswählen
+<string>Klinge
+<string>Röhre
+<string>Scheibe
+<string>Gerät
 <string>Mantel
+<string>Suchen
+<string>Verteidigungsbonus
+<string>Slot-Stufe
+<string>Slots
+<string>Beschussart
+<string>Melodie-Effekte
+<string>Kompatible Munition
+<string>Schnellfeuermunition
+<string>KompatiblBschchtng
+<string>Entfernen
+<string>Nicht ausgewählt
+<string>Weiß
+<string>Blau
+<string>Grün
+<string>III
+<string>II
+<string>I
+<string>Schärfe (weiß)
+<string>Schärfe (blau)
+<string>Schärfe (grün)
+<string>Slot-Stufe (III)
+<string>Slot-Stufe (II)
+<string>Slot-Stufe (I)
+<string>Slots (3)
+<string>Slots (2-3)
+<string>Slots (1-3)
 <string>Reihenfolge
 <string>Reihenfolge (Waffen)
 <string>Reihenfolge (Rüstung)
@@ -83,6 +182,9 @@
 <string>Widerstand
 <string>Verteidigung
 <string>Rüstungsteil
+<string>Nach Typ
+<string>Nach Elementtyp
+<string>Nach Artian-Bonus
 <string>Angriffstyp
 <string>Rüstungsteil
 <string>Standard
@@ -91,6 +193,9 @@
 <string>Nach Kinsekten-Stufe
 <string>Nach Beschussart
 <string>Nach Anzahl
+<string>1–3
+<string>2–3
+<string>3
 <string>Normal I
 <string>Normal II
 <string>Normal III
@@ -139,3 +244,23 @@
 <string>Schnellfeuer (Frost I)
 <string>Schnellfeuer (Frost II)
 <string>Schnellfeuer (Drache)
+<string><COLOR preset="TXT_Danger">Derzeit angelegte Ausrüstung kann nicht verkauft werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Mäntel können nicht verkauft werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Einziges Kinsekt im Besitz. Dieses Kinsekt kann nicht verkauft werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Diese Ausrüstung kann nicht verkauft werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Dieses Kinsekt kann nicht verkauft werden, da es mit der Insektenglefe gekoppelt ist.</COLOR>
+<string>Wert
+<string>Diese Ausrüstung wurde in einem Set gespeichert.<lf>Möchtest du sie wirklich verkaufen?
+<string>Möchtest du dies für <NUMBER {0}> z verkaufen?
+<string>An dieser Ausrüstung befinden sich Dekorationen.<lf>Möchtest du alle Dekorationen entfernen<lf>und die Ausrüstung für <NUMBER {0}> z verkaufen?
+<string>Diese Dekoration ist derzeit:<lf>{0}<lf>{1}<lf>{2}<lf>Möchtest du sie trotzdem verkaufen?
+<string>– ausgerüstet
+<string>– in einem Ausrüstungsset registriert
+<string>– als Favorit registriert
+<string>Set mit {0} teilen?
+<string>Zu deinen Sets hinzufügen
+<string>Möchtest du dieses Set auf einem leeren Platz<lf>speichern?
+<string>Du hast keine leeren Plätze.
+<string><COLOR preset="TXT_Accent">Eines deiner Sets enthält Ausrüstung, die du noch<lf>nicht besitzt.</COLOR> Diese wurde automatisch deiner<lf>Wunschliste hinzugefügt.
+<string><COLOR preset="TXT_Accent">Eines deiner Sets enthält Ausrüstung,<lf>die du noch nicht besitzt.</COLOR> Diese befindet<lf>sich bereits auf deiner Wunschliste.
+<string><COLOR preset="TXT_Accent">Eines deiner Sets enthält Ausrüstung,<lf>die du noch nicht besitzt.</COLOR>

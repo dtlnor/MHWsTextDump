@@ -13,6 +13,10 @@
 <string>Zapisz zmiany
 <string>Odrzuć zmiany
 <string>Wzór wyglądu
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(Szczegółowe ustawienia)
 <string>Pancerz startowy
 <string>Wybierz pancerz startowy.
@@ -68,7 +72,7 @@
 <string>Sylwetka
 <string>Tymczasowo przełącza typ ubrania na Bieliznę β, aby lepiej pokazać zmiany sylwetki.
 <string>Skóra
-<string>Makijaż / malowanie twarzy
+<string>Makijaż / Malowanie twarzy
 <string>Makijaż / Malowanie twarzy 1
 <string>Makijaż / Malowanie twarzy 2
 <string>Przy nakładaniu się na siebie to ustawienie będzie mieć pierwszeństwo względem <COLOR preset="TXT_Accent">„Makijaż / Malowanie twarzy 1”</COLOR>.
@@ -86,6 +90,7 @@
 <string>Kształt brwi
 <string>Kolor brwi
 <string>Przejrzystość brwi
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>Wysokość brwi
 <string>Wysokość wewnętrznej części brwi
 <string>Szerokość wewnętrznej części brwi
@@ -97,7 +102,7 @@
 <string>Podstawowy kolor akcentu wąsów
 <string>Stopień gradientu na wąsach
 <string>Intensywność gradientu na wąsach
-<string>Kolor wąsów
+<string>Edytuj kolor wąsów
 <string>Typ brody
 <string>Kolor bazowy brody
 <string>Kolor akcentu brody
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>Wysokość oczu
 <string>Głębokość oczu
 <string>Odległość między oczami
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>Kolor zębów
 <string>Kolor przebarwień na zębach
 <string>Widoczność przebarwień na zębach
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>Długość twarzy
 <string>Szerokość szczęki
 <string>Rotacja szczęki
@@ -173,6 +184,7 @@
 <string>Długość podbródka
 <string>Głębokość podbródka
 <string>Budowa twarzy
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>Masa mięśniowa
 <string>Budowa ciała
 <string>Kolor skóry
@@ -295,6 +307,7 @@
 <string>Zresetuj ustawienia
 <string>Przywrócić wszystkie wybrane ustawienia do domyślnych?
 <string>Zresetować wybrane szablony wyglądu?
+<string>Zapisz/Wczytaj
 <string>Potwierdź/Zmień projekt
 <string>Projekt
 <string>Ustawienia kolorów
@@ -305,7 +318,11 @@
 <string>Wł.
 <string>Wył.
 <string>Domyślnie
-<string> + {0}
+<string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>Opcje wyświetlania
@@ -365,12 +382,100 @@
 <string>Stopień połączenia w prawo
 <string>   Jasność skóry
 <string>   Nasycenie koloru skóry
+<string>Zapisane projekty
+<string>Nazwa projektu
+<string>Data zapisania
+<string>Wczytaj
+<string>Zapisz
+<string>Zmień nazwę
+<string>Zmień kolejność
+<string>Usuń
+<string><ICON UI_SUB_MENU>Zapisz
+<string>Projekt {0}
+<string>Zmienić na ten wygląd?<lf><COLOR preset="TXT_Danger">Bieżące modyfikacje zostaną utracone.<lf>Zapisz dane projektu przed wprowadzeniem zmian,<lf>aby zachować modyfikacje.</COLOR>
+<string>Twoje aktualne ustawienia zawierają modyfikacje,<lf>których nie posiadasz. Kontynuować<lf>i zastosować jedynie możliwe do edycji?
+<string>Zapisać aktualny projekt postaci?
+<string>Zapisać aktualny projekt postaci?<lf><COLOR preset="TXT_Danger">(Zapisane dane zostaną nadpisane).</COLOR>
+<string>Wybierz pozycję, którą chcesz przeorganizować.
+<string>Wybierz punkt docelowy.
+<string>Usunąć ten projekt postaci?
+<string>Edytuj ozdoby Seikreta
+<string>Dostosowanie Seikreta
+<string>Kolor skóry
+<string>Kolor piór wewnętrznych
+<string>Kolor piór zewnętrznych
+<string>Zakres wzoru
+<string>Kolor wzoru
+<string>Widoczność wzoru
+<string>Kolor oczu
+<string>Edytuj prawe oko
+<string>Kolor prawego oka
+<string>Typ ozdoby
+<string>Typ wisiorka
+<string>Zmień imię
+<string>Pozwala zmienić imię twojego Seikreta.
+<string>Skończyć edycję ozdób Seikreta?
+<string>Skończyć dostosowywanie Seikreta?
+<string>Pokaż akcesoria
+<string>Wprowadź imię twojego Seikreta.<lf><lf><COLOR preset="TXT_Accent">Maksymalna liczba znaków wynosi 15.</COLOR>
+<string>Edytuj przenośne obozy
+<string>Modyfikuj namiot
+<string>Opcje sprzętu obozowego
+<string>Typ tropiku
+<string>Główny kolor tropiku
+<string>Dodatkowy kolor tropiku
+<string>Typ wewnętrznego namiotu
+<string>Główny kolor wewnętrznego namiotu
+<string>Dodatkowy kolor wewnętrznego namiotu
+<string>Projekt 1
+<string>Projekt 2
+<string>Przy nakładaniu się na siebie to ustawienie będzie mieć pierwszeństwo względem „Projektu 1”.
+<string>Projekt 3
+<string>Przy nakładaniu się na siebie to ustawienie będzie mieć pierwszeństwo względem „Projektu 2”.
+<string>Typ projektu 1
+<string>Typ projektu 2
+<string>Typ projektu 3
+<string>Kolor projektu 1
+<string>Kolor projektu 2
+<string>Kolor projektu 3
+<string>Typ 1 malowania tropiku
+<string>Typ 2 malowania tropiku
+<string>Typ 3 malowania tropiku
+<string>Typ 1 malowania wnętrza namiotu
+<string>Typ 2 malowania wnętrza namiotu
+<string>Typ 3 malowania wnętrza namiotu
+<string>Kolor malowania tropiku 1
+<string>Kolor malowania tropiku 2
+<string>Kolor malowania tropiku 3
+<string>Kolor malowania wnętrza namiotu 1
+<string>Kolor malowania wnętrza namiotu 2
+<string>Kolor malowania wnętrza namiotu 3
+<string>Przezroczystość
+<string>Rozmiar
+<string>Rozmiar w poziomie
+<string>Rozmiar w pionie
+<string>Pozycja
+<string>Pozycja w poziomie
+<string>Pozycja w pionie
+<string>Wróć do domyślnego
+<string>Przywrócić ustawienia projektu do domyślnych?
+<string>Zamiana ustawień projektu
+<string>Zamień obecny projekt na inny projekt.
+<string>Obróć w poziomie
+<string>Obróć w pionie
+<string>Kąt
+<string>Sprzęt obozowy (duży) 1
+<string>Sprzęt obozowy (duży) 2
+<string>Sprzęt obozowy (mały) 1
+<string>Sprzęt obozowy (mały) 2
+<string>Typ latarni
+<string>Skończyć edycję przenośnego obozu?
 <string>Zmień wygląd
 <string>Skończyć edycję wyglądu?
 <string>Edytuj łowcę
 <string>Zmień imię
 <string>Pozwala zmienić twoje imię.
-<string>Imię łowcy zostanie zmienione.<lf><COLOR preset="TXT_Accent">Zmiana imienia może wymagać trochę czasu<lf>na zaktualizowanie w niektórych treściach<lf>i mogą istnieć sytuacje, gdy nowe imię<lf>nie będzie wyświetlane.</COLOR>
+<string>Imię łowcy zostanie zmienione.<lf><COLOR preset="TXT_Accent">Zmiana imienia może wymagać trochę czasu<lf>na zaktualizowanie w niektórych treściach,<lf>więc nowe imię może nie wyświetlać się<lf>od razu.</COLOR>
 <string>Porzucić wszystkie zmiany i wyjść?<lf><COLOR preset="TXT_Accent">(Nie zużyjesz żadnego talonu edycji postaci)</COLOR>
 <string>Zapisać zmiany?<lf><COLOR preset="TXT_Accent">(Nie zużyjesz żadnego talonu<lf>edycji postaci, ponieważ nie dokonano<lf>żadnych specjalnych zmian)</COLOR>
 <string>Zapisać zmiany?<lf><COLOR preset="TXT_Accent">(Zużyjesz jeden talon edycji postaci)</COLOR>
@@ -389,3 +494,35 @@
 <string>Utwórz nową twarz o podobnych cechach
 <string>Utwórz zupełnie nową twarz
 <string>Użyć tej twarzy?
+<string><COLOR preset="TXT_Accent">Dane wersji beta</COLOR>
+<string>Odzyskać dane postaci z beta testu?
+<string>Przesłane
+<string>Prześlij projekt
+<string>Pobierz projekt
+<string>Przesłać i udostępnić projekt?
+<string>Przesłano projekt.<lf>Kod do pobrania:<lf>{0}
+<string><COLOR preset="TXT_Danger">Błąd</COLOR><lf>Nie udało się przesłać projektu.
+<string><COLOR preset="TXT_Danger">Nie można przesłać kolejnych projektów.</COLOR>
+<string>Wyświetl/usuń przesłane
+<string>Kod przesłanego projektu:<lf>{0}<lf><lf>Uwaga: naciśnij Tak, aby usunąć.
+<string>Usunąć przesłany projekt?
+<string>Usunięto przesłany projekt.
+<string><COLOR preset="TXT_Danger">Błąd</COLOR><lf>Nie udało się usunąć projektu.
+<string><COLOR preset="TXT_Danger">Nie można przesłać projektu, ponieważ został pobrany.</COLOR>
+<string>Wprowadź kod projektu.<lf><lf><COLOR preset="TXT_Accent">Uwaga: kody rozróżniają wielkość liter<lf>i składają się z 12 znaków alfanumerycznych.</COLOR>
+<string>Znaleziono następujący projekt:<lf>{0}<lf>Twórca<lf>ID łowcy: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>{0}<lf>Nie znaleziono powyższego kodu projektu.<lf>{1}
+<string>{0}<lf>Nie można użyć, ponieważ jest to projekt łowcy.<lf>{1}
+<string>{0}<lf>Nie można użyć, ponieważ jest to projekt koleżkota.<lf>{1}
+<string>{0}<lf>Nie można użyć projektu.<lf>{1}
+<string>Zapisz projekt
+<string>Zmień wygląd
+<string>Informacje o twórcy
+<string>Zmienić na ten wygląd?<lf>Bieżące modyfikacje zostaną utracone.<lf>Zapisz dane projektu przed wprowadzeniem zmian, aby zachować modyfikacje.
+<string>Twoje aktualne ustawienia zawierają modyfikacje,<lf>których nie posiadasz. Kontynuować<lf>i zastosować jedynie możliwe do edycji?
+<string>{0}<lf>Twórca<lf>ID Łowcy: {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>Zakończyć pobieranie projektu?
+<string>Przesłany projekt został dostosowany<lf>po wykryciu pasujących danych serwera.
+<string><COLOR preset="TXT_Danger">Nie można tego zrobić, ponieważ projekt jest przesyłany.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można tego zrobić z powodu braku zapisanych danych postaci.</COLOR>
+<string><COLOR preset="TXT_Danger">Musisz utworzyć ID Łowcy, aby to zrobić.</COLOR>

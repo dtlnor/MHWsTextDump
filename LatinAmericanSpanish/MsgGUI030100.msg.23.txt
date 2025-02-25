@@ -13,6 +13,7 @@
 <string>Ajusta automáticamente determinadas opciones a los siguientes ajustes<lf>recomendados. Las opciones modificadas aparecerán resaltadas<lf><COLOR preset="TXT_Accent">(no se pueden hacer cambios individuales en esta pantalla).</COLOR>
 <string>Usar ajustes recomendados
 <string>Seleccionar <COLOR preset="TXT_Accent">Usar los ajustes recomendados</COLOR> establecerá<lf>automáticamente el ajuste recomendado de cada opción.
+<string>Algunos ajustes se modificaron<lf>para reflejar el hardware detectado.
 <string>Ajustes de juego
 <string>Controles
 <string>Cámara
@@ -68,7 +69,7 @@
 <string>Breve
 <string>Requiere menos tiempo para confirmar la acción.
 <string>Predeterminado
-<string><lf>Requiere un tiempo predeterminado para<lf>confirmar la acción.
+<string>Requiere un tiempo predeterminado para<lf>confirmar la acción.
 <string>Largo
 <string>Requiere más tiempo para confirmar la acción.
 <string>Envainado automático
@@ -90,6 +91,14 @@
 <string>- Presionar <ICON MKB PL_MOVE_FRONT> mueve al cazador<lf>en la dirección hacia la que mira la cámara.<lf><lf>- Presionar <ICON MKB PL_MOVE_BACK> mueve al cazador<lf>hacia la pantalla.
 <string>Tipo 2
 <string>- Presionar <ICON MKB PL_MOVE_FRONT> desplaza al personaje<lf>en la dirección hacia la que mira.<lf>- Presionar <ICON MKB PL_MOVE_BACK> desplaza al personaje<lf>en la dirección contraria hacia la que mira.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_11_02_Help
 <string>Control de Seikret
 <string>Ajusta el control del Seikret.
 <string>Controles para llamar Seikret
@@ -319,6 +328,12 @@
 <string>Invierte los controles y disposición<lf>de los botones izquierdo y derecho<lf>del mouse. Para jugadores zurdos.
 <string>No invertir
 <string>No invierte los controles y disposición<lf>de los botones izquierdo y derecho del mouse.<lf>Para jugadores diestros.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_39_01_Help
 <string>Íconos de botones del control
 <string>Ajusta qué íconos de botones del control<lf>se muestran en la guía de botones.
 <string>Tipo 1
@@ -410,11 +425,11 @@
 <string>Curva de respuesta
 <string>Ajusta la velocidad de aceleración de las entradas<lf>al mover la cámara.
 <string>Ángulo muerto: Máximo
-<string>Ajusta el grado máximo de entrada que se debe<lf>detectar al mover la cámara.<lf>
+<string>Ajusta el grado máximo de entrada que se debe<lf>detectar al mover la cámara.
 <string>Distancia de la cámara: Zoom
-<string>Ajusta la distancia frontal entre la cámara y tu<lf>personaje.<lf><lf>
+<string>Ajusta la distancia frontal entre la cámara y tu<lf>personaje.
 <string>Distancia de la cámara: Panorámica
-<string>Ajusta la distancia lateral entre la cámara y el<lf>cazador.<lf>
+<string>Ajusta la distancia lateral entre la cámara y el<lf>cazador.
 <string>Vibración de la cámara
 <string>Ajusta la intensidad de las vibraciones<lf>de cámara que causan los eventos y<lf>acciones del juego.
 <string>Oscilación de cámara ambiental
@@ -568,6 +583,10 @@
 <string>Controles de cámara giroscópica
 <string><PLATMSG MsgGUI030100_02_28_Help>
 <string>Ajusta si se habilita la función giroscópica<lf>para controlar la cámara y realiza ajustes<lf>avanzados de la funcionabilidad giroscópica.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_02_28_01_Help
 <string>Tipo de control
 <string><PLATMSG MsgGUI030100_02_72_Help>
 <string>Ajusta cómo activar el control giroscópico<lf>de la cámara.
@@ -631,6 +650,50 @@
 <string>Invierte los controles de apuntado en los tiros<lf>parabólicos del arco y las bombas de racimo<lf>de la ballesta pesada <COLOR preset="TXT_Accent">(Controles giroscópicos)</COLOR>.
 <string>No invierte el movimiento del control.
 <string>Invierte el movimiento del control.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_00_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_PS5
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_XBS
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_STEAM
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_01_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_07_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_08_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_09_05
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
 <string>Opciones de salida de video
 <string>Ajusta en qué dispositivo quieres ver el juego.<lf><COLOR preset="TXT_Accent">(Requiere Windows 10 o superior,<lf>y tener más de un dispositivo).</COLOR>
 <string>{0}: {1}
@@ -687,7 +750,7 @@
 <string>Activo
 <string>Activa la sincronización vertical, que<lf>reduce el rasgado de imagen en pantalla.
 <string>V-Sync adaptativa
-<string>Activa la sincronización vertical solo cuando<lf>la tasa de cuadros llega a su límite. <lf><COLOR preset="TXT_Accent">(Esta opción solo está disponible<lf>en tarjetas gráficas NVIDIA GeForce).</COLOR>
+<string>Activa la sincronización vertical solo cuando<lf>la tasa de cuadros llega a su límite.<lf><COLOR preset="TXT_Accent">(Esta opción solo está disponible<lf>en tarjetas gráficas NVIDIA GeForce).</COLOR>
 <string>Inactivo
 <string>Desactiva la sincronización vertical.
 <string>Modo de latencia baja NVIDIA Reflex
@@ -742,14 +805,14 @@
 <string>Usa la tecnología de superresolución, que permite<lf>mantener un rendimiento elevado con una calidad<lf>gráfica superior.
 <string>NVIDIA DLSS
 <string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">- Requiere una tarjeta gráfica NVIDIA GeForce RTX.<lf>- Si usas una tarjeta de la serie GeForce RTX40<lf>y tienes activada la aceleración por hardware en tu SO,<lf>al seleccionar esta opción podrás habilitar<lf>la generación de cuadros.</COLOR>
-<string>AMD FSR
+<string>AMD FSR 3
 <string>Usa <FSR>,<lf><COLOR preset="TXT_Accent">- Si tienes activada la aceleración por<lf>hardware en tu SO, al seleccionar esta opción<lf>podrás habilitar la generación de cuadros.</COLOR>
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
 <string>Desactivar
 <string>No usar escalamiento.
 <string>Generación de cuadros
-<string>Aprovecha la tecnología de generación de cuadros <lf>para aumentar la frecuencia de cuadros <COLOR preset="TXT_Accent">(solo si<lf>se cumplen los requisitos).</COLOR>
+<string>Aprovecha la tecnología de generación de cuadros<lf>para aumentar la frecuencia de cuadros <COLOR preset="TXT_Accent">(solo si<lf>se cumplen los requisitos).</COLOR>
 <string>Activar
 <string>Habilita la generación de cuadros para aumentar la<lf>frecuencia de cuadros. Selecciona esta opción para<lf>superar la frecuencia máxima fijada en los ajustes.
 <string>Desactivar
@@ -762,7 +825,7 @@
 <string>NVIDIA DLAA
 <string>Usa anti-aliasing por IA mientras se mantiene<lf>la resolución nativa.
 <string>AMD Native AA
-<string>Usa anti-aliasing FSR mientras se mantiene<lf>la resolución nativa.
+<string>Usa anti-aliasing FSR 3 mientras se mantiene<lf>la resolución nativa.
 <string>Intel XeSS Native AA
 <string>Usa anti-aliasing XeSS mientras se mantiene<lf>la resolución nativa.
 <string>Calidad
@@ -776,7 +839,7 @@
 <string>Desactivar
 <string>Se seleccionará esta opción si no se usa<lf>un método de escalamiento.
 <string>Intensidad de escalamiento
-<string>Ajusta la calidad gráfica al usar escalamiento.<lf>Cuanto mayor sea la cifra, mayor nivel de detalle.<lf><COLOR preset="TXT_Accent">(Solo disponible con el AMD FSR activado).</COLOR>
+<string>Ajusta la calidad gráfica al usar escalamiento.<lf>Cuanto mayor sea la cifra, mayor nivel de detalle.<lf><COLOR preset="TXT_Accent">(Solo disponible con el AMD FSR 3 activado).</COLOR>
 <string>Anti-Aliasing
 <string>Ajusta el modo de anti-aliasing <COLOR preset="TXT_Accent">(solo disponible con<lf>el escalamiento desactivado).</COLOR>
 <string>FXAA + TAA
@@ -792,6 +855,8 @@
 <string>Bajo
 <string>Muy bajo
 <string>No
+<string>DirectStorage
+<string>Establece el hardwarda para usar con DirectStorage<lf>para agilizar la carga de datos.<COLOR preset="TXT_Accent">(Solo puede<lf>configurarse en entornos compatibles con DirectStorage).</COLOR>
 <string>CPU
 <string>GPU
 <string>Calidad de las texturas
@@ -816,6 +881,8 @@
 <string>Ultra
 <string>Alta
 <string>Media
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>Calidad del pelaje
 <string>Cambia la calidad de imagen para el pelaje de todas<lf>las criaturas, incluyendo los camaradas Felyne.
 <string>Alta
@@ -834,9 +901,11 @@
 <string>Muy baja
 <string>Calidad de hierba/árboles
 <string>Ajusta la calidad de imagen de la hierba y<lf>de los árboles.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>Alta
 <string>Media
 <string>Baja
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>Vaivén de hierba/árboles
 <string>Ajusta el movimiento de vaivén de la hierba<lf>y de los árboles.
 <string>Activar
@@ -862,10 +931,13 @@
 <string>Elige si se aplican efectos de fluidez al agua.
 <string>Activar
 <string>Desactivar
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_Help
 <string>Ultra
 <string>Alta
 <string>Media
 <string>Baja
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>Distancia de renderizado
 <string>Ajusta la cantidad de jugadores o personajes que aparecen<lf>en salas, y la distancia a la que se visualizan<lf>los monstruos y la fauna local en el terreno. <COLOR preset="TXT_Accent">(Desde las opciones de título).</COLOR>
 <string>Renderiza la cantidad máxima de objetos,<lf>sin importar la distancia con el cazador.
@@ -893,18 +965,27 @@
 <string>Alta
 <string>Media
 <string>Baja
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_01_Help
 <string>Sombras de contacto
 <string>Ajusta si se muestran sombras detalladas.
 <string>Activar
 <string>Desactivar
 <string>Oclusión ambiental
 <string>Ajusta la calidad de las sombras en<lf>zonas donde no llega la luz.
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>Alta
 <string>Media
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>No
 <string>Bloom
 <string>Ajusta la intensidad del desenfoque<lf>producido por focos de luz.
 <string>Alta
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>Baja
 <string>No
 <string>Desenfoque de movimiento
@@ -923,6 +1004,10 @@
 <string>Transluminescencia separable por espacio en pantalla.<lf>Determina si la luz puede atravesar objetos<lf>y luego dispersarse.
 <string>Sí
 <string>No
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_28_01
 <string>Profundidad de campo
 <string>Ajusta si variará el enfoque (claridad)<lf>de los objetos en función de la distancia.
 <string>Sí
@@ -931,6 +1016,13 @@
 <string>Ajusta la calidad de la neblina producida<lf>por el polvo y las partículas en suspensión.<lf>Afecta a cómo se ven los rayos del luz y similares.
 <string>Alta
 <string>Baja
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_01
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_02
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Sombreado de tasa variable
 <string>Reduce la carga de renderizado de los efectos<lf>y de los sombreadores al procesar los sombreadores<lf>de píxeles con menos regularidad.
 <string>No
@@ -1031,6 +1123,14 @@
 <string>Ajusta la escala del minimapa al enfrentarte<lf>a monstruos grandes.
 <string>Al mantener <ICON PL_ITEM_SLIDER_OPEN>
 <string>Ajusta la escala del minimapa al mantener<lf>presionado <ICON PL_ITEM_SLIDER_OPEN>.
+<string>Rotación del mapa detallado
+<string>Determina si el mapa detallado puede rotar.
+<string>Rotativo
+<string>El mapa detallado rota hacia la izquierda y la derecha.
+<string>Rotación + Reorientar al norte
+<string>El mapa detallado rota y se puede reorientar<lf>hacia el norte al presionar <ICON UI_MAP3D_RESET_POSITION>.
+<string>Fijo
+<string>El mapa detallado no rota y la orientación<lf>es fija con el norte hacia arriba.
 <string>Efectos de golpe de aliados
 <string>Determina si se muestran o no los efectos de<lf>golpe de los demás jugadores <COLOR preset="TXT_Accent">(esto no afecta<lf>los efectos del jugador).</COLOR>
 <string>Mostrar
@@ -1214,8 +1314,10 @@
 <string>Muestra una silueta con un contorno azul<lf>si un monstruo tapa al cazador.
 <string>Guardado sincronizado de fotos
 <string><PLATMSG MsgGUI030100_04_41_Help>
+<string>Ajusta si las imágenes tomadas con la cámara<lf>se guardan tanto en los datos guardados como<lf>en el almacenamiento del hardware.
 <string>Sincronizado
 <string><PLATMSG MsgGUI030100_04_41_00_Help>
+<string>Las imágenes se guardarán en los datos guardados<lf>y en el almacenamiento del hardware.
 <string>No sincronizado
 <string>Solo guarda las fotos en los datos guardados.
 <string>Anonimizar al resto de jugadores
@@ -1234,6 +1336,12 @@
 <string>Solo muestra la lista de efectos de melodías<lf>sin la guía de botones normales, sin<lf>importar que la cornamusa se haya<lf>desenvainado o no.
 <string>Tipo 3
 <string>Muestra la guía de botones normal,<lf>sin importar si la cornamusa está desenvainada<lf>o no, y solo muestra la lista de efectos<lf>de melodías al mantener presionado <ICON PL_ITEM_SLIDER_OPEN><lf>con la cornamusa desenvainada.
+<string>Mostrar poder de ataques con arma
+<string>Determina si el poder de ataque con arma<lf>aparece con un coeficiente único <COLOR preset="TXT_Accent">(no afecta<lf>al daño auténtico).</COLOR>
+<string>Mostrar con coeficiente
+<string>Muestra el poder de ataque base de un arma<lf>con un coeficiente único a cada tipo de arma.<lf>Los tipos de armas con poder de ataque único<lf>se calculan con un valor mayor.
+<string>Mostrar sin coeficiente
+<string>Muestra el poder de ataque base de un arma<lf>tal cual es, sin usar coeficientes. Esto facilita<lf>comparar el poder de ataque entre diferentes<lf>tipos de armas.
 <string>Volumen general
 <string>Ajusta el volumen del sonido general<lf><COLOR preset="TXT_Accent">(no afecta el volumen del chat de voz).</COLOR>
 <string>Volumen de las voces

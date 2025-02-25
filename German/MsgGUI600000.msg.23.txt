@@ -2,7 +2,7 @@
 <string><ICON PL_DUMMY_MOVE>: Bewegen<lf><ICON PL_DUMMY_CAMERA>: Kamera steuern
 <string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: Bewegen<lf><ICON M_ALL>: Kamera steuern
 <string><INPUTMSG MsgGUI600000_Tips_EXP_1095772160>
-<string>Dein Saikrii führt dich automatisch ans Ziel.<lf><ICON PL_DUMMY_MOVE>: manuelle Steuerung
+<string>Dein Saikrii führt dich automatisch<lf>ans Ziel.<lf><ICON PL_DUMMY_MOVE>: manuelle Steuerung
 <string>Dein Saikrii führt dich automatisch<lf>ans Ziel.<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>: manuelle Steuerung
 <string><OPTION id="CONTROL_CUSTOM_SC_DECISION" msg="MsgGUI600000_ActionlTutorial_TITLE_106_000">
 <string>Not-Leuchtzeichen wählen und <ICON UI_SHORTCUT_ITEM_USE_DUMMY> loslassen
@@ -23,20 +23,115 @@
 <string>Wetzstein wählen
 <string>Wetzstein wählen und <ICON UI_SHORTCUT_RING_MOUSE_CLICK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69>
-<string>Benutze <ICON PL_DUMMY_MOVE> während der Auto-Bewegung,<lf>um deinen Saikrii manuell zu steuern.<lf><lf>Machst du längere Zeit keine Eingabe<lf>oder drückst <ICON PL_PT_CALL>, kehrst du zur<lf>automatischen Bewegung zurück.
-<string>Benutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> während der Auto-<lf>Bewegung, um deinen Saikrii manuell zu<lf>steuern.<lf>Machst du längere Zeit keine Eingabe<lf>oder drückst <ICON PL_PT_CALL>, kehrst du zur<lf>automatischen Bewegung zurück.
+<string>Benutze <ICON PL_DUMMY_MOVE> während der Auto-Bewegung,<lf>um deinen Saikrii manuell zu steuern.<lf><lf>Machst du längere Zeit keine Eingabe<lf>oder drückst <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>, kehrst du zur Auto-<lf>Bewegung zurück.
+<string>Benutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> während der Auto-<lf>Bewegung, um deinen Saikrii manuell zu<lf>steuern.<lf>Machst du längere Zeit keine Eingabe<lf>oder drückst <INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_69_00>, kehrst du zur<lf>automatischen Bewegung zurück.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_69_00_000">
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL>
+<string><ICON PL_PT_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP>
+<string><ICON PL_PT_CALL>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_187>
+<string>Bewege den Köder mit <ICON PL_DUMMY_MOVE>, um Fische zum<lf>Anbeißen zu verleiten. Verschiedene Be-<lf>wegungen ziehen verschiedene Fische an.
+<string>Bewege den Köder mit <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um Fische zum Anbeißen zu verleiten.<lf>Verschiedene Bewegungen ziehen<lf>verschiedene Fische an.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_190>
+<string>Dicke Brocken sind die ultimative Angel-<lf>herausforderung. Schlägt die Leine aus,<lf>bewege <ICON PL_DUMMY_MOVE> in die Richtung, in die der<lf>Fisch schwimmt, um die Belastung der<lf>Angelschnur zu verringern.
+<string>Dicke Brocken sind die ultimative Angel-<lf>herausforderung. Schlägt die Leine aus,<lf>bewege <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> in die Richtung, in<lf>die der Fisch schwimmt, um die Belastung<lf>der Angelschnur zu verringern.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
+<string>Wird der Fisch langsamer und müde, ist<lf>das deine Chance! Bewege <ICON PL_DUMMY_MOVE> nach<lf>oben und unten, um ihn zu fangen.
+<string>Wird der Fisch langsamer und müde,<lf>ist das deine Chance! Drücke mehrmals<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>, um ihn zu fangen.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
+<string>Nähert sich der Fisch einem Hindernis,<lf>neige <ICON PL_DUMMY_MOVE> entgegen seiner Schwimm-<lf>richtung, um ihn zu bremsen, und halte<lf>die Leine fern von Felsen.
+<string>Nähert sich der Fisch einem Hindernis,<lf>bewege ihn mit <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> entgegen<lf>seiner Schwimmrichtung, um ihn zu<lf>bremsen, und halte die Leine fern von<lf>Felsen.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
+<string>Wenn das passiert, neige <ICON PL_DUMMY_MOVE> in die<lf>Richtung des Sprungs und drücke <ICON PL_SLINGER_SHOOT>,<lf>um den Fisch am Haken zu halten.
+<string>Wenn das passiert, drücke <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>in die Richtung des Sprungs und drücke<lf><ICON PL_SLINGER_SHOOT>, um den Fisch am Haken zu halten.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> schnell hin und her<lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> langsam hin und her<lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> wiederholt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR><lf><ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> schnell hin und her<lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR><lf><ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> langsam hin und her<lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR><lf>wiederholt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
 <string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR> schnell <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR> langsam <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> wiederholt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
-<string><COLOR preset="TXT_Accent">Hindernisse umgehen:</COLOR> Benutze <ICON PL_DUMMY_MOVE>, um<lf>Fische von Hindernissen wegzuziehen.
-<string><COLOR preset="TXT_Accent">Hindernisse umgehen:</COLOR> Benutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um Fische von Hindernissen wegzuziehen.
+<string><COLOR preset="TXT_Accent">Hindernisse umgehen:</COLOR> Nutze <ICON PL_DUMMY_MOVE>, um<lf>Fische von Hindernissen wegzuziehen.
+<string><COLOR preset="TXT_Accent">Hindernisse umgehen:</COLOR> Nutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um Fische von Hindernissen wegzuziehen.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_119>
-<string>Du kannst dich kurzzeitig nicht bewegen.<lf>Erhole dich schneller, indem du schnell<lf><ICON PL_DUMMY_MOVE> hin- und herbewegst.
-<string>Du kannst dich kurzzeitig nicht bewegen.<lf>Erhole dich schneller, indem du schnell<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> drückst.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Bewege <ICON PL_DUMMY_MOVE> schnell hin<lf>und her, um dich schneller zu erholen.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Drücke schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um dich schneller zu erholen.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_120>
-<string>Du kannst dich kurzzeitig nicht bewegen.<lf>Erhole dich schneller, indem du schnell<lf><ICON PL_DUMMY_MOVE> hin- und herbewegst.
-<string>Du kannst dich kurzzeitig nicht bewegen.<lf>Erhole dich schneller, indem du schnell<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> drückst.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Bewege <ICON PL_DUMMY_MOVE> schnell hin<lf>und her, um dich schneller zu erholen.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Drücke schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um dich schneller zu erholen.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_121>
-<string>Du kannst dich kurzzeitig nicht bewegen.<lf>Erhole dich schneller, indem du schnell<lf><ICON PL_DUMMY_MOVE> hin- und herbewegst.
-<string>Du kannst dich kurzzeitig nicht bewegen.<lf>Erhole dich schneller, indem du schnell<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> drückst.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Bewege <ICON PL_DUMMY_MOVE> schnell hin<lf>und her, um dich schneller zu erholen.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Drücke schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um dich schneller zu erholen.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_123>
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Bewege <ICON PL_DUMMY_MOVE> schnell hin<lf>und her oder nutze einen Reiniger.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Drücke schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>oder nutze einen Reiniger.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_124>
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Bewege <ICON PL_DUMMY_MOVE> schnell hin<lf>und her oder nutze einen Reiniger.
+<string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Drücke schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>oder nutze einen Reiniger.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_172>
+<string><COLOR preset="TXT_Accent">Schnelles Einholen:</COLOR> <ICON PL_DUMMY_MOVE> schnell nach oben<lf>und unten bewegen
+<string><COLOR preset="TXT_Accent">Schnelles Einholen:</COLOR> Schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> drücken
+<string><INPUTMSG MsgGUI600000_Tips_EXP_173>
+<string><COLOR preset="TXT_Accent">Langsames Einholen:</COLOR> <ICON PL_DUMMY_MOVE> langsam nach<lf>oben und unten bewegen
+<string><COLOR preset="TXT_Accent">Langsames Einholen:</COLOR> Langsam <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>drücken
+<string><INPUTMSG MsgGUI600000_Tips_EXP_174>
+<string><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> <ICON PL_DUMMY_MOVE> wiederholt nach unten<lf>neigen
+<string><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> Wiederholt <ICON PL_MOVE_BACK> drücken
+<string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
+<string>Am Logistiktresen hast du Zugriff auf<lf>verschiedene Online-Funktionen. Nimm<lf>Inhalte entgegen, lies dir die neusten<lf>Infos zum Spiel durch, greife auf den<lf>Online-Store zu und vieles mehr (weitere<lf>Funktionen geplant).
+<string>Am Logistiktresen hast du Zugriff auf<lf>verschiedene Online-Funktionen. Nimm<lf>Inhalte entgegen, lies dir die neusten<lf>Infos zum Spiel durch, greife auf den<lf>Steam-Shop zu und vieles mehr (weitere<lf>Funktionen geplant).
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
+<string>Objekt wählen: <ICON PL_ITEM_SLIDER_OPEN> (halten) <ICON PLUS><ICON UI_ITEM_LEFT>/<ICON UI_ITEM_RIGHT><lf>Objekt benutzen: (<ICON PL_ITEM_SLIDER_OPEN> loslassen) <ICON PL_ITEM>
+<string>Objekt wählen: <ICON UI_ITEM_LEFT>/<ICON UI_ITEM_RIGHT><lf>Objekt benutzen: <ICON PL_ITEM>
+<string>Objekt wählen: <ICON PL_ITEM_SLIDER_OPEN> (halten) <ICON PLUS><ICON UI_ITEM_LEFT>/<ICON UI_ITEM_RIGHT><lf>Objekt benutzen: (<ICON PL_ITEM_SLIDER_OPEN> loslassen) <ICON PL_ITEM>
+<string>Objekt wählen: <ICON UI_ITEM_LEFT>/<ICON UI_ITEM_RIGHT><lf>Objekt benutzen: <ICON PL_ITEM>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_175">
+<string>Wechsle mit <ICON PL_WEAPON_CHANGE> zwischen deiner Erst-<lf>und Zweitwaffe.
+<string>Wechsle mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> zwischen deiner<lf>Erst- und Zweitwaffe.
+<string>Wechsle mit <ICON PL_WEAPON_CHANGE> zwischen deiner Erst-<lf>und Zweitwaffe.
+<string>Wechsle mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE> zwischen deiner<lf>Erst- und Zweitwaffe.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_40">
+<string>Fällst du in Ohnmacht, erhältst du<lf>neue Vorratsobjekte.<lf>Öffne mit <ICON PL_ACCESS_ITEM_BAG> deine Saikriitasche.
+<string>Fällst du in Ohnmacht, erhältst du<lf>neue Vorratsobjekte.<lf>Öffne mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> deine Saikriitasche.
+<string>Fällst du in Ohnmacht, erhältst du<lf>neue Vorratsobjekte.<lf>Öffne mit <ICON PL_ACCESS_ITEM_BAG> deine Saikriitasche.
+<string>Fällst du in Ohnmacht, erhältst du<lf>neue Vorratsobjekte.<lf>Öffne mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> deine Saikriitasche.
+<string><OPTION id= "DASH_OPERATION" msg= "MsgGUI600000_Tips_EXP_39_000">
+<string>Wenn du ein Monster verfolgst, solltest<lf>du deine Waffe zuerst mit <ICON PL_WEAPON_OFF> wegstecken<lf>und dann mit <ICON PL_DASH_TOGGLE> sprinten.
+<string>Wenn du ein Monster verfolgst, solltest<lf>du deine Waffe zuerst mit <ICON PL_WEAPON_OFF> wegstecken<lf>und dann mit <ICON PL_DASH> sprinten.
+<string>Wenn du ein Monster verfolgst, solltest<lf>du deine Waffe zuerst mit <ICON PL_WEAPON_OFF> wegstecken<lf>und dann mit <ICON PL_DASH> oder <ICON PL_DASH_TOGGLE> sprinten.
+<string>Wenn du ein Monster verfolgst, solltest<lf>du deine Waffe zuerst mit <ICON PL_WEAPON_OFF> wegstecken<lf>und dann mit <ICON PL_DASH> sprinten.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_89">
+<string>Drücke <ICON PL_WEAPON_CHANGE>, um zur <COLOR preset="TXT_Accent">Zweitwaffe</COLOR> im Holster<lf>deines Saikrii zu wechseln.
+<string>Drücke <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE>, um zur <COLOR preset="TXT_Accent">Zweitwaffe</COLOR> im<lf>Holster deines Saikrii zu wechseln.
+<string>Drücke <ICON PL_WEAPON_CHANGE>, um zur <COLOR preset="TXT_Accent">Zweitwaffe</COLOR> im Holster<lf>deines Saikrii zu wechseln.
+<string>Drücke <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_WEAPON_CHANGE>, um zur <COLOR preset="TXT_Accent">Zweitwaffe</COLOR> im<lf>Holster deines Saikrii zu wechseln.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_68">
+<string>Mit <ICON PL_PT_CALL> steigst du auf den Saikrii und<lf>bewegst dich automatisch auf das Ziel zu.
+<string>Mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> steigst du auf den Saikrii und<lf>bewegst dich automatisch auf das Ziel zu.
+<string>Mit <ICON PL_PT_CALL> steigst du auf den Saikrii und<lf>bewegst dich automatisch auf das Ziel zu.
+<string>Mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL> steigst du auf den Saikrii und<lf>bewegst dich automatisch auf das Ziel zu.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_64">
+<string>Zu Beginn jeder Quest erhältst du <COLOR preset="TXT_Accent">Vorrats-<lf>objekte</COLOR>, die du mit <ICON PL_ACCESS_ITEM_BAG> an dich nehmen kannst.<lf>Je nach Jagd werden dir zusätzliche Vorräte<lf>zur Verfügung gestellt.
+<string>Zu Beginn jeder Quest erhältst du <COLOR preset="TXT_Accent">Vorrats-<lf>objekte</COLOR>, die du mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> an dich nehmen<lf>kannst.<lf>Je nach Jagd werden dir zusätzliche Vorräte<lf>zur Verfügung gestellt.
+<string>Zu Beginn jeder Quest erhältst du <COLOR preset="TXT_Accent">Vorrats-<lf>objekte</COLOR>, die du mit <ICON PL_ACCESS_ITEM_BAG> an dich nehmen<lf>kannst.<lf>Je nach Jagd werden dir zusätzliche<lf>Vorräte zur Verfügung gestellt.
+<string>Zu Beginn jeder Quest erhältst du <COLOR preset="TXT_Accent">Vorrats-<lf>objekte</COLOR>, die du mit <ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_ACCESS_ITEM_BAG> an dich nehmen<lf>kannst.<lf>Je nach Jagd werden dir zusätzliche Vorräte<lf>zur Verfügung gestellt.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_323>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_323_000">
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP>/<ICON WP13 UI_BULLET_ITEM_DOWN> kannst<lf>du die ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP13 UI_BULLET_ITEM_UP>/<ICON WP13 UI_BULLET_ITEM_DOWN> kannst du die<lf>ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP13 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP13 UI_BULLET_ITEM_UP>/<ICON WP13 UI_BULLET_ITEM_DOWN> kannst<lf>du die ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP13 UI_BULLET_ITEM_UP>/<ICON WP13 UI_BULLET_ITEM_DOWN> kannst du die<lf>ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP13 UI_BULLET_ITEM_UP>/<ICON WP13 UI_BULLET_ITEM_DOWN> kannst du die<lf>ausgerüstete Munition wechseln.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_325>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_325_000">
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP>/<ICON WP12 UI_BULLET_ITEM_DOWN> kannst<lf>du die ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP12 UI_BULLET_ITEM_UP>/<ICON WP12 UI_BULLET_ITEM_DOWN> kannst du die<lf>ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP12 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP12 UI_BULLET_ITEM_UP>/<ICON WP12 UI_BULLET_ITEM_DOWN> kannst<lf>du die ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP12 UI_BULLET_ITEM_UP>/<ICON WP12 UI_BULLET_ITEM_DOWN> kannst du die<lf>ausgerüstete Munition wechseln.
+<string>Die Kritische Reichweite hängt von der<lf>Munition ab. Mit <ICON WP12 UI_BULLET_ITEM_UP>/<ICON WP12 UI_BULLET_ITEM_DOWN> kannst du die<lf>ausgerüstete Munition wechseln.
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_328>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_PanelTutorial_L_EXP_328_000">
+<string>Mit <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP>/<ICON WP11 UI_BULLET_ITEM_DOWN> wechselst du die<lf>Beschichtung.<lf><lf>Welche Beschichtungen verwendet werden<lf>können, variiert von Waffe zu Waffe.
+<string>Mit <ICON WP11 UI_BULLET_ITEM_UP>/<ICON WP11 UI_BULLET_ITEM_DOWN> wechselst du die Beschichtung.<lf><lf>Welche Beschichtungen verwendet werden<lf>können, variiert von Waffe zu Waffe.
+<string>Mit <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP>/<ICON WP11 UI_BULLET_ITEM_DOWN> wechselst du die<lf>Beschichtung.<lf><lf>Welche Beschichtungen verwendet werden<lf>können, variiert von Waffe zu Waffe.
+<string>Mit <ICON WP11 UI_BULLET_ITEM_UP>/<ICON WP11 UI_BULLET_ITEM_DOWN> wechselst du die Beschichtung.<lf><lf>Welche Beschichtungen verwendet werden<lf>können, variiert von Waffe zu Waffe.
+<string>Mit <ICON WP11 UI_BULLET_ITEM_UP>/<ICON WP11 UI_BULLET_ITEM_DOWN> wechselst du die Beschichtung.<lf><lf>Welche Beschichtungen verwendet werden<lf>können, variiert von Waffe zu Waffe.

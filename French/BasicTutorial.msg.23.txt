@@ -64,13 +64,20 @@
 <string><REF Item_IT_69>
 <string><REF Item_IT_EXP_69>
 <string>
+<string><REF Item_IT_289>
+<string><REF Item_IT_EXP_289>
+<string>
 <string><REF Item_IT_52>
 <string><REF Item_IT_EXP_52>
 <string>
 <string><REF Item_IT_71>
 <string><REF Item_IT_EXP_71>
 <string>
+<string><REF Item_IT_192>
+<string><REF Item_IT_EXP_192>
 <string>
+<string><REF Item_IT_191>
+<string><REF Item_IT_EXP_191>
 <string>
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
@@ -78,8 +85,23 @@
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
+<string><REF Item_IT_190>
+<string><REF Item_IT_EXP_190>
 <string>
+<string><REF Item_IT_285>
+<string><REF Item_IT_EXP_285>
 <string>
+<string><REF Item_IT_286>
+<string><REF Item_IT_EXP_286>
+<string>
+<string><REF Item_IT_287>
+<string><REF Item_IT_EXP_287>
+<string>
+<string><REF Item_IT_183>
+<string><REF Item_IT_EXP_183>
+<string>
+<string><REF Item_IT_184>
+<string><REF Item_IT_EXP_184>
 <string>
 <string><REF Item_IT_70>
 <string><REF Item_IT_EXP_70>
@@ -90,19 +112,35 @@
 <string><REF Item_IT_72>
 <string><REF Item_IT_EXP_72>
 <string>
+<string><REF Item_IT_457>
+<string><REF Item_IT_EXP_457>
 <string>
+<string><REF Item_IT_475>
+<string><REF Item_IT_EXP_475>
+<string>
+<string><REF Item_IT_467>
+<string><REF Item_IT_EXP_467>
 <string>
 <string><REF Item_IT_468>
 <string><REF Item_IT_EXP_468>
 <string>
+<string><REF Item_IT_469>
+<string><REF Item_IT_EXP_469>
+<string>
 <string>Couteaux de lancer
 <string><REF Item_IT_EXP_182>
+<string>
+<string><REF Item_IT_145>
+<string><REF Item_IT_EXP_145>
 <string>
 <string><REF Item_IT_18>
 <string><REF Item_IT_EXP_18>
 <string>
 <string><REF Item_IT_196>
 <string><REF Item_IT_EXP_196>
+<string>
+<string><REF Item_IT_195>
+<string><REF Item_IT_EXP_195>
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
@@ -175,11 +213,92 @@
 <string><ICON ST_DEFECE_UP> Défense +
 <string>Augmente la défense.<lf><lf>Méthodes d'obtention :<lf>- Utiliser des objets comme les graines<lf>de ténacité et les potions de pierre<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
 <string>
+<string><ICON ST_CRITICAL_UP> Affinité +
+<string>Améliore l'affinité.<lf><lf>Méthodes d'obtention :<lf>- Activer le talent Témérité<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_POWER_ELEMENT_UP> Attaque élémentaire +
+<string>Augmente les propriétés élémentaires<lf>de votre arme.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_POWER_DEBUF_UP> Attaque à afflictions +
+<string>Augmente la puissance des attaques<lf>infligeant des afflictions aux monstres.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Bonus résistance feu
 <string>Augmente la résistance au feu<lf>et protège du fléau-feu.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
 <string>
+<string><ICON ST_DEFECE_WATER><ICON ST_DEFECE_WATER_HIGH> Bonus résistance eau
+<string>Augmente la résistance à l'eau<lf>et protège du fléau-eau.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_DEFECE_THUNDER><ICON ST_DEFECE_THUNDER_HIGH> Bonus résistance foudre
+<string>Augmente la résistance à la foudre<lf>et protège du fléau-foudre.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_DEFECE_ICE><ICON ST_DEFECE_ICE_HIGH> Bonus résistance glace
+<string>Augmente la résistance à la glace<lf>et protège du fléau-glace.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_DEFECE_DRUGON><ICON ST_DEFECE_DRUGON_HIGH> Bonus résistance dragon
+<string>Augmente la résistance à l'élément<lf>dragon et protège du fléau-dragon.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_SPIRIT> Protection divine
+<string>Les dégâts subis ont une chance<lf>d'être réduits.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_HEAL_CONTINUE> Régénération de vie
+<string>Restaure progressivement la vie.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_HEAL_NATURAL_UP> Récupération rapide
+<string>Augmente la vitesse à laquelle la partie<lf>rouge de votre jauge de vie se rétablit.<lf><lf>Méthodes d'obtention :<lf>- Utiliser certains objets comme un<lf>immunisateur ou de la viande sauvage<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_STAMINA_CONSUMELESS> Économie d'endurance
+<string>Réduit la consommation d'endurance.<lf><lf>Méthodes d'obtention :<lf>- Utiliser une potion de vitalité<lf>- Récupérer des chenilles-litchi<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_STAMINA_NATURAL_UP> Récupération d'endurance +
+<string>Statut qui accélère la récupération<lf>d'endurance.<lf><lf>Méthodes d'obtention :<lf>- Activation de talents de l'équipement
+<string>
+<string><ICON ST_STAMINA_CONTINUE> Régénération d'endurance
+<string>Restaure l'endurance en continu.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_AVOID_UP> Fenêtre d'invulnérabilité +
+<string>Augmente la fenêtre durant laquelle vous<lf>êtes invulnérable lors d'actions telles que<lf>Roulade ou Esquive d'urgence.<lf><lf>Méthodes d'obtention :<lf>- Activer des talents de l'équipement<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Auto-amélioration
 <string>Augmente votre vitesse de déplacement.<lf><lf>Cumuler cet effet de mélodie plusieurs<lf>fois vous permettra d'augmenter votre<lf>attaque et d'éviter que vos coups soient<lf>déviés.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_ARMOR> Protection recul
+<string>Les attaques que vous subissez<lf>ne vous repoussent pas.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_WIND> Antibourrasque/<ICON ST_RESIST_WIND_HIGH> Antibourrasque total
+<string>Confère une résistance aux bourrasques.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_NOISE> Protection ouïe (P)/<ICON ST_RESIST_NOISE_HIGH> Protection ouïe (G)
+<string>Confère une résistance aux rugissements.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_QUAKE> Antiséisme
+<string>Confère une résistance aux secousses.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_STUN> Antiétourdissement
+<string>Protège des étourdissements.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_PARALYSIS> Antiparalysie
+<string>Protège de la paralysie.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_ELEMENT> Antifléau
+<string>Annule les fléaux élémentaires.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_RESIST_DEBUF> Antiafflictions
+<string>Annule toutes les afflictions.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies et<lf>des bulles d'écho de la corne de chasse
+<string>
+<string><ICON ST_SOUND_BARRIER> Barrière sonique
+<string>Réduit les dégâts une fois, et annule<lf>une fois les effets des bourrasques,<lf>des secousses et des rugissements.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_GROUND> Dégâts environnementaux annulés
+<string>Annule les dégâts infligés par<lf>la lave ou les sols épineux, et<lf>empêche de subir les effets<lf>négatifs de la chaleur ou du<lf>froid intenses.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_MUD> Mobilité eau/boue huileuse
+<string>Empêche le ralentissement provoqué<lf>par les eaux profondes et la boue<lf>huileuse. Annule également les effets<lf>des vagues créées par les monstres.<lf><lf>Méthode d'obtention :<lf>- Utiliser les effets des mélodies de la<lf>corne de chasse
+<string>
+<string><ICON ST_RESIST_COLD> Résistance au froid
+<string>Annule la diminution rapide du<lf>niveau maximum d'endurance<lf>dans les zones très froides.<lf><lf>Méthodes d'obtention :<lf>- Consommer une boisson chaude<lf>- Collecter des calonilles
+<string>
+<string><ICON ST_RESIST_HOT> Résistance à la chaleur
+<string>Empêche la perte progressive de vie<lf>dans les zones très chaudes.<lf><lf>Méthodes d'obtention :<lf>- Consommer une boisson fraîche<lf>- Collecter des glacianilles
 <string>
 <string><ICON ST_MEAL_UP> Effets du repas
 <string>Statut indiquant l'obtention d'effets<lf>en mangeant quelque chose.<lf><lf>Méthode d'obtention :<lf>- Manger un repas
@@ -191,12 +310,35 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sommeil
+<string>Une fois victime de somnolence, vous<lf>vous endormirez après un bref instant<lf>et ne pourrez plus bouger. Se produit<lf>une fois l'affliction suffisamment<lf>accumulée.<lf><lf>Méthodes de guérison :<lf>- Utiliser une boisson énergétique<lf>avant de s'endormir<lf>- Se faire toucher par une attaque<lf>- Attendre qu'elle se dissipe après<lf>avoir dormi
+<string>
+<string><ICON ST_BOMB> <REF RefStatus_0008_002_04>
+<string>Affliction causant une explosion qui<lf>vous repousse et inflige des dégâts.<lf>L'explosion se produit après un certain<lf>temps ou si vous subissez une attaque.<lf><lf>Méthodes de guérison :<lf>- Utiliser un déodorant<lf>- Esquiver plusieurs fois d'affilée
+<string>
+<string><ICON ST_LACERATE> Hémorragie
+<string>Affliction infligeant des dégâts quand<lf>vous vous déplacez. (Après guérison,<lf>votre récupération naturelle est<lf>temporairement améliorée.)<lf><lf>Méthodes de guérison :<lf>- Consommer un objet carné ou<lf>un steak à point<lf>- S'accroupir brièvement
+<string>
 <string><ICON ST_STUN> Étourdissement
 <string><INPUTMSG MsgGUI600200_00_021>
 <string><INPUTMSG MsgGUI600200_00_021_01>
 <string><ICON ST_STUN> Étourdissement avec un flash
 <string><INPUTMSG MsgGUI600200_00_022>
 <string><INPUTMSG MsgGUI600200_00_022_01>
+<string><ICON ST_STRING> Toile
+<string><INPUTMSG MsgGUI600200_00_023>
+<string><INPUTMSG MsgGUI600200_00_023_01>
+<string><ICON ST_ICE_RESTRAINT> Fléau-givre
+<string><INPUTMSG MsgGUI600200_00_024>
+<string><INPUTMSG MsgGUI600200_00_024_01>
+<string><ICON ST_DEFECE_DOWN> Défense réduite
+<string>Affliction réduisant la défense et<lf>augmentant les dégâts subis.<lf><lf>Méthodes de guérison :<lf>- Utiliser une graine de ténacité ou<lf>une potion de pierre<lf>- Attendre qu'elle se dissipe
+<string>
+<string><ICON ST_BADSMELL> Puanteur
+<string>Affliction empêchant de consommer<lf>de la nourriture ou une boisson.<lf><lf>Méthodes de guérison :<lf>- Utiliser un déodorant<lf>- Faire une esquive dans l'eau<lf>- Attendre qu'elle se dissipe
+<string>
+<string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Furie
+<string>En cas d'exposition prolongée, vous<lf>serez victime de la Furie à moins<lf>de toucher un monstre un certain<lf>nombre de fois.<lf><lf>Contamination : la récupération<lf>naturelle est interrompue et les<lf>dégâts subis augmentent.<lf><lf>Après guérison : l'affinité augmente<lf>et confère une résistance à la Furie.<lf>Utilisez une baie-soin pour ralentir<lf>la contamination.
+<string>
 <string><ICON ST_FIRE> Fléau-feu
 <string>Affliction qui réduit votre vie<lf>au fil du temps.<lf><lf>Méthodes de guérison :<lf>- Utiliser une baie-soin<lf>- Esquiver plusieurs fois dans l'eau<lf>- Attendre qu'elle se dissipe
 <string>
@@ -221,6 +363,12 @@
 <string>Bourrasque
 <string>Une affliction qui limite vos<lf>déplacements. Sa durée varie<lf>en fonction de la force du vent.<lf><lf>Méthodes de guérison :<lf>- Attendre qu'elle se dissipe<lf>- Se faire toucher par une attaque
 <string>
+<string>Froid
+<string>Affliction accélérant la diminution<lf>de votre endurance maximum dans<lf>certaines zones.<lf><lf>Méthodes de guérison :<lf>- Utiliser une boisson chaude<lf>- Collecter des calonilles
+<string>
+<string>Chaleur
+<string>Affliction réduisant lentement votre<lf>vie dans certaines zones.<lf><lf>Méthodes de guérison :<lf>- Utiliser une boisson fraîche<lf>- Collecter des glacianilles
+<string>
 <string>Arme rengainée
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -244,6 +392,12 @@
 <string>
 <string><REF Item_IT_21>
 <string>L'aiguisoir est un objet qui restaure<lf>le tranchant d'une arme. Il est toujours<lf>disponible en tant qu'objet de base.<lf><lf>Vous pouvez l'utiliser même lorsque votre<lf>arme est dégainée en l'ajoutant au menu<lf>radial ou en lui assignant un raccourci.
+<string>
+<string>Talent d'armure : Savoir-faire
+<string>Talent qui augmente la taille de<lf>la jauge de tranchant. La couleur<lf>de la jauge dépend de l'arme.<lf><lf>Les détails de l'augmentation de<lf>la jauge de tranchant sont visibles<lf>dans le menu Équipement du menu<lf>de jeu.
+<string>
+<string>Talent d'armure : Acier trempé
+<string>Acier trempé est un talent qui s'active<lf>lors de l'utilisation d'un aiguisoir.<lf>Il réduit la vitesse à laquelle l'arme<lf>perd de son tranchant.
 <string>
 <string>Mode Focus
 <string>Mode Focus
@@ -281,6 +435,18 @@
 <string><REF RefMenu_110_14>
 <string><REF Item_IT_161>
 <string>La cape caméléon permet de vous cacher<lf>temporairement aux yeux des monstres.<lf>L'effet prend fin immédiatement si vous<lf>attaquez ou subissez des dégâts.<lf><lf>Contrairement aux autres outils de survie,<lf>cette cape fonctionne comme un objet de<lf>base que vous portez toujours sur vous.
+<string>
+<string><REF Item_IT_626>
+<string>La cape immuable ignore certaines<lf>attaques, protège des bourrasques,<lf>des cris et des secousses, en plus<lf>de réduire les dégâts subis.<lf><lf>Subir des dégâts réduit la durée<lf>d'utilisation.
+<string>
+<string><REF Item_IT_627>
+<string>La cape régénératrice restaure<lf>progressivement votre vie.<lf>La récupération de vie est accélérée<lf>si vous ne subissez pas de dégâts<lf>pendant un certain temps après avoir<lf>subi une attaque.<lf><lf>En outre, attaquer des monstres<lf>permet de regagner de la vie.
+<string>
+<string><REF Item_IT_628>
+<string>La cape d'évasion prolonge la période<lf>pendant laquelle vous ne subissez pas<lf>de dégâts lorsque vous esquivez<lf>l'attaque d'un monstre.<lf><lf>De plus, les esquives réussies au<lf>dernier moment augmentent<lf>temporairement votre puissance<lf>d'attaque.
+<string>
+<string><REF Item_IT_629>
+<string>Lorsqu'elle est équipée, la cape<lf>corrompue réduit la vie mais augmente<lf>l'affinité et les performances des armes.<lf>Attaquer les monstres de manière répétée<lf>augmentera davantage votre attaque et<lf>votre affinité.
 <string>
 <string>Apprendre à chasser
 <string>Sur le dos d'un monstre
@@ -338,6 +504,9 @@
 <string>Puanteur
 <string>Affliction qui entoure un monstre d'une<lf>puanteur immonde. Elle est infligée<lf>avec des capsules de bouse et peut<lf>repousser de grands monstres.
 <string>
+<string>Explosion
+<string>L'affliction Explosion s'accumule<lf>progressivement et finit par<lf>provoquer une explosion qui inflige<lf>des dégâts aux monstres. Utilisez des<lf>armes avec des attaques explosives<lf>pour infliger l'affliction.
+<string>
 <string>Points faibles des monstres
 <string>Le point faible d'un monstre peut être<lf>exposé avant ou après une attaque.<lf>Utilisez le mode Focus pour trouver<lf>ces points faibles.<lf><lf>Attaquez un point faible avec une<lf>Attaque Focus pour créer une ouverture<lf>importante et contre-attaquer.
 <string>
@@ -353,4 +522,19 @@
 <string>Piéger un monstre
 <string>
 <string>Bombes tranquillisantes
+<string>
+<string>Furie
+<string>Les monstres infectés par la Furie<lf>entrent dans un état dit de furie.<lf><lf>Les monstres en furie renoncent<lf>à leurs habitudes de sommeil<lf>et d'alimentation, et sont plus<lf>agressifs et violents que les<lf>spécimens normaux.<lf><lf>Le virus de la Furie réduit aussi<lf>l'espérance de vie et la vie des<lf>monstres.
+<string>
+<string>Gardiens
+<string>Les Gardiens sont des monstres<lf>artificiels créés par une civilisation<lf>ancienne. Ils ne peuvent pas se reproduire<lf>et n'ont pas besoin de chasser, car<lf>ils se nourrissent de lait de wyverne.<lf><lf>L'énergie du lait de wyverne leur<lf>permet de guérir les blessures et les<lf>rend beaucoup plus résistants que les<lf>monstres normaux. Leur instinct de survie<lf>les pousse à rester près des sources<lf>d'énergie, et ils sont très territoriaux.
+<string>
+<string>Monstres alpha
+<string>Les monstres alpha ont survécu à<lf>d'innombrables batailles. Ils ont plus<lf>de vie et de puissance d'attaque que<lf>les spécimens ordinaires, ce qui en<lf>fait des adversaires redoutables.<lf><lf>Peut-être à cause de combats violents,<lf>ces monstres présentent des<lf><COLOR preset="TXT_Danger">blessures alpha</COLOR> sur tout le corps.
+<string>
+<string>Blessures alpha
+<string>Le corps des monstres alpha est<lf>couvert de blessures alpha, témoignant<lf>des nombreux combats qu'ils ont<lf>endurés.<lf><lf>Contrairement aux monstres normaux,<lf>les monstres alpha sont déjà couverts<lf>de ces blessures avant que vous ne les<lf>rencontriez. Vous pouvez rouvrir<lf>progressivement les blessures en les<lf>attaquant pour créer des points<lf>faibles.
+<string>
+<string>Charognes
+<string>Avec le temps, les charognes de<lf>monstres commencent à pourrir. Selon<lf>leur état (fraîches ou pourries), vous<lf>pourrez récupérer des matériaux<lf>différents.<lf><lf>En pourrissant, les petits monstres<lf>deviendront parfois des carcasses ou<lf>des pousses de wyverne, sur lesquelles<lf>vous pourrez récupérer des matériaux.<lf>Les cadavres de Gardiens se cristallisent<lf>et produisent des matériaux uniques.
 <string>

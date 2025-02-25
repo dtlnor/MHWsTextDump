@@ -13,6 +13,10 @@
 <string>应用变更
 <string>放弃所有变更内容
 <string>预设外观
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>详细设置
 <string>初始防具
 <string>选择游戏开始时的防具。
@@ -86,6 +90,7 @@
 <string>眉毛类型
 <string>眉毛颜色
 <string>眉毛浓密度
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>眉毛高度
 <string>眉头高度
 <string>眉间宽度
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>眼睛高度
 <string>眼窝深度
 <string>双眼距离
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>牙齿颜色
 <string>牙垢颜色
 <string>牙垢透明度
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>脸部整体长度
 <string>下颌宽度
 <string>下颌角度
@@ -173,6 +184,7 @@
 <string>下巴长度
 <string>下巴翘度
 <string>脸部整体轮廓
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>肌肉量
 <string>肌肉线条
 <string>肤色
@@ -295,6 +307,7 @@
 <string>初始化
 <string>要重置所有选中的项目吗？
 <string>要初始化所有选中的模型预设组合吗？
+<string>保存／加载
 <string>查看／编辑
 <string>编辑
 <string>颜色设置
@@ -306,9 +319,13 @@
 <string>关
 <string>默认
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
-<string>自定展示选项
+<string>展示选项
 <string>光照颜色
 <string>室内
 <string>白昼
@@ -365,6 +382,94 @@
 <string>　右侧混合量
 <string>　皮肤亮度
 <string>　皮肤饱和度
+<string>编辑已保存的配置
+<string>外观方案名称
+<string>保存日期
+<string>加载
+<string>保存
+<string>变更名称
+<string>变更位置
+<string>删除
+<string><ICON UI_SUB_MENU>保存
+<string>外观方案{0}
+<string>要变更至此外观吗？<lf><COLOR preset="TXT_Danger">将会丢失正在编辑的数据。<lf>如果要保留当前编辑，请先保存。</COLOR>
+<string>此外观方案内含尚未持有的项目。<lf>是否仅套用可编辑的部分？
+<string>要保存当前的外观方案吗？
+<string>要保存当前的外观方案吗？<lf><COLOR preset="TXT_Danger">（将覆盖现有方案）</COLOR>
+<string>请选择要变更排序的方案。
+<string>请选择方案的新位置。
+<string>要删除此方案吗？
+<string>变更鹭鹰龙装饰
+<string>鹭鹰龙自定义设置
+<string>肤色
+<string>内侧羽毛颜色
+<string>外侧羽毛颜色
+<string>花纹范围
+<string>花纹颜色
+<string>花纹透明度
+<string>眼睛颜色
+<string>右眼单独设置
+<string>右眼颜色
+<string>装饰类型
+<string>饰物类型
+<string>变更名称
+<string>变更鹭鹰龙的名字。
+<string>要结束变更鹭鹰龙的装饰吗？
+<string>要结束鹭鹰龙自定义设置吗？
+<string>显示装饰
+<string>请输入鹭鹰龙的名称。<lf><lf><COLOR preset="TXT_Accent">最多可显示10个全角文字。</COLOR>
+<string>编辑简易营地
+<string>帐篷自定义设置
+<string>营地用具
+<string>外帐类型
+<string>外帐主色
+<string>外帐副色
+<string>内帐类型
+<string>内帐主色
+<string>内帐副色
+<string>涂装 1
+<string>涂装 2
+<string>与“涂装 1”重叠时，将优先显示本项。
+<string>涂装3
+<string>与“涂装 2”重叠时，将优先显示本项。
+<string>涂装 1 类型
+<string>涂装 2 类型
+<string>涂装 3 类型
+<string>涂装 1 颜色
+<string>涂装 2 颜色
+<string>涂装 3 颜色
+<string>外帐彩绘 1 的类型
+<string>外帐彩绘 2 的类型
+<string>外帐彩绘 3 的类型
+<string>内帐彩绘 1 的类型
+<string>内帐彩绘 2 的类型
+<string>内帐彩绘 3 的类型
+<string>外帐彩绘 1 的颜色
+<string>外帐彩绘 2 的颜色
+<string>外帐彩绘 3 的颜色
+<string>内帐彩绘 1 的颜色
+<string>内帐彩绘 2 的颜色
+<string>内帐彩绘 3 的颜色
+<string>透明度
+<string>尺寸
+<string>横向大小
+<string>纵向大小
+<string>位置
+<string>横向位置
+<string>纵向位置
+<string>重置为默认
+<string>要将涂装类型重置为默认状态吗？
+<string>互换涂装设置
+<string>将当前的涂装设置与其他设置互换。
+<string>左右反转
+<string>上下反转
+<string>角度
+<string>大型营地设备1类型
+<string>大型营地设备2类型
+<string>小型营地设备1类型
+<string>小型营地设备2类型
+<string>提灯类型
+<string>要结束编辑简易营地吗？
 <string>变更造型
 <string>要结束变更造型吗？
 <string>编辑猎人
@@ -389,3 +494,35 @@
 <string>生成特征类似的面容
 <string>生成差异较大的面容
 <string>要使用此面容吗？
+<string><COLOR preset="TXT_Accent">公测版数据</COLOR>
+<string>要使用公测版的角色外观方案吗？
+<string>分享数
+<string>上传外观方案
+<string>下载外观方案
+<string>要上传外观方案，和其他玩家分享吗？
+<string>已上传外观方案，下载密码如下。<lf>{0}
+<string><COLOR preset="TXT_Danger">错误</COLOR><lf>无法上传外观方案。
+<string><COLOR preset="TXT_Danger">无法再上传更多外观方案。</COLOR>
+<string>查看／取消上传
+<string>已上传外观方案的密码<lf>{0}<lf><lf>※如取消上传，请选择“是”。
+<string>要取消上传外观方案吗？
+<string>已取消上传外观方案。
+<string><COLOR preset="TXT_Danger">错误</COLOR><lf>未能取消上传外观方案。
+<string><COLOR preset="TXT_Danger">此为下载获得的外观方案，无法上传。</COLOR>
+<string>请输入外观方案的密码。<lf>（由12位字母及数字组成，字母需区分大小写）
+<string>已找到以下外观方案。<lf>{0}<lf>创作者<lf>猎人ID：{1}<lf><PLATMSG RefGeneral_0018_001>：{2}
+<string>未找到密码为{0}的外观方案。<lf>{1}
+<string>{0}<lf>此为猎人的外观方案，无法使用。<lf>{1}
+<string>{0}<lf>此为随从艾露猫的外观方案，无法使用。<lf>{1}
+<string>{0}<lf>此外观方案无法使用。<lf>{1}
+<string>保存此外观方案
+<string>变更至此外观
+<string>创作者信息
+<string>要变更至此外观吗？<lf>将会丢失正在编辑的数据。<lf>如果要保留当前编辑，请先保存。
+<string>此外观方案内含尚未持有的项目。<lf>是否仅套用可编辑的部分？
+<string>{0}<lf>创作者<lf>猎人ID：{1}<lf><PLATMSG RefGeneral_0018_001>：{2}
+<string>要中止下载外观方案吗？
+<string>根据服务器的数据校验结果，<lf>已对上传的外观设计方案进行了调整。
+<string><COLOR preset="TXT_Danger">已上传外观方案，无法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">尚未创建角色保存数据，无法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">尚未创建猎人ID，无法使用。</COLOR>

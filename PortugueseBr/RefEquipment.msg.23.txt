@@ -28,11 +28,15 @@
 <string>Nv-
 <string>{0}
 <string>-
+<string>Árvore de ???
 <string>Primária
 <string>Equipar como Arma Primária
 <string>Secundária
 <string>Equipar como Arma Secundária
 <string>Arma
+<string>Pingentes
+<string>Pingente Primário
+<string>Pingente Secundário
 <string>Ignição Corasserpe
 <string>Ignição Furasserpe
 <string>Ignição Contrasserpe
@@ -40,13 +44,57 @@
 <string>Explosão Focal: Uivo da Serpe
 <string>Serpexplosão
 <string>Munição Adesiva
-<string>Exibir Tudo
+<string>Materiais de Forja
+<string>Materiais de Melhoria
+<string>Custo
+<string>Selec. Melhoria de Equip.
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>Melhorar Armadura
+<string>Para o próximo nível
+<string>Melhoria máxima atingida
+<string>Exibir tudo
+<string>Somente Armadura <ICON EQUIP_TYPE1>
+<string>Somente Armadura <ICON EQUIP_TYPE2>
+<string>Exibir obtidos
+<string>Melhorar
+<string>Forjar
+<string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?
+<string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Forjar este equipamento também produzirá<lf><COLOR preset="TXT_Accent">Armadura em Camadas</COLOR>)
+<string>Equipar agora?
+<string>Descartar {0} <PLURAL {0} "ponto excedente" "pontos excedentes">?
+<string>Visualizar
+<string><COLOR preset="TXT_Danger">A caixa de equipamentos está cheia.</COLOR>
+<string><COLOR preset="TXT_Danger">Este equipamento ainda não pode ser forjado ou melhorado.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem o equipamento necessário.</COLOR>
+<string><COLOR preset="TXT_Danger">Fundos ou materiais insuficientes.</COLOR>
+<string><COLOR preset="TXT_Danger">Fundos insuficientes.</COLOR>
+<string><COLOR preset="TXT_Danger">Melhoria máxima atingida.</COLOR>
+<string>Selecione uma Esfera de Armadura para usar.
 <string><COLOR preset="TXT_Danger">Você não tem adornos.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem materiais.</COLOR>
 <string><COLOR preset="TXT_Danger">Você não tem equipamento.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem materiais Artianos.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem Armas Artianas.</COLOR>
 <string><COLOR preset="TXT_Danger">Você não possui um fuzilarco.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem adornos ou itens para fundir.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem materiais para fundir.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem materiais de fundição.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem materiais de reforço.</COLOR>
+<string><COLOR preset="TXT_Danger">Você já possui este equipamento, por isso não pode ser forjado ou melhorado.</COLOR>
+<string><COLOR preset="TXT_Danger">Você já possui este equipamento, por isso não pode ser forjado.</COLOR>
+<string>Equipada no momento: {0}
 <string>Isso está em uso em outra peça de equipamento.<lf>Deseja remover?
+<string><COLOR preset="TXT_Danger">Este adorno está equipado no momento.</COLOR>
+<string><COLOR preset="TXT_Danger">Não é possível equipar este item nesse nível de engaste.</COLOR>
+<string><COLOR preset="TXT_Danger">Este Kinseto cresceu até seu tamanho máximo.</COLOR>
+<string>Necessita de {0}z.<lf>Continuar?
+<string>Requer <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Forjar este equipamento também produzirá<lf><COLOR preset="TXT_Accent">Armadura em Camadas</COLOR>)
+<string>Materiais de Cultivo
 <string>Caixa de Equipamentos
+<string>Caixa de Arm. em Camadas
 <string><COLOR preset="TXT_Danger">Kinsetos só podem ser selecionados com uma Glaive Inseto equipada.</COLOR>
+<string>Caixa de Adornos
 <string>Editar Adornos
 <string>Mudar Equipamento
 <string>Informação de Habilidade
@@ -56,17 +104,68 @@
 <string>Adicionar aos Favoritos
 <string>Aparência de Equipamento
 <string>Configurações de Equipamento
+<string>Selecionar Automático
 <string>Selecionar da Caixa
 <string>Selecionar Armadura por Série
 <string>Exibir/Ocultar Arma
 <string>Informação de Habilidade
 <string>Gerenciar Configurações
 <string>Trocar Arma em Mãos
-<string>Exibir/Ocultar Detalhes
+<string>Alternar Comparação
 <string>Mudar Exibição
 <string>Alternar Visual. de Equip.
+<string>Cor da Armadura
+<string>Adicionar à Lista de Desejos
+<string>Registrar como Forja
+<string>Materiais de Melhoria
+<string>Adicionar à Lista de Desejos?
+<string>Um dos pré-requisitos desta arma pode ser registrado tanto para forja quanto para melhoria. Selecione o método a ser registrado.
+<string>Remover da Lista de Desejos
+<string>Remover da Lista de Desejos?
+<string>Remover da lista de desejos?<COLOR preset="TXT_Danger">(Os<lf>equipamentos removidos aqui<lf>também serão removidos das<lf>configurações de equipamentos.)</COLOR>
+<string>Remover todos os adornos
+<string>Remover todos os adornos equipados?
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string><ICON PAD PL_DUMMY_CAMERA> Modelo de Controles
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Modelo de Controles
+<string><ICON PAD PL_DUMMY_CAMERA> Visualização de Controles
+<string><ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Visualização de Controles
+<string><ICON PAD PL_DUMMY_CAMERA> Lista de Controles
+<string>(<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT> Modelo de Controles)
 <string>Selecionar Equipamento por Série
+<string>Lâmina
+<string>Tubo
+<string>Disco
+<string>Dispositivo
 <string>Manto
+<string>Buscar
+<string>Bônus de Defesa
+<string>Nível de Engaste
+<string>Engastes
+<string>Tipo de Morteiro
+<string>Efeitos de Melodia
+<string>Munição Compatível
+<string>Mun. Disparo Rápido
+<string>Revest. Removíveis
+<string>Remover
+<string>Não selecionado
+<string>Branco
+<string>Azul
+<string>Verde
+<string>III
+<string>II
+<string>I
+<string>Afiação (Branco)
+<string>Afiação (Azul)
+<string>Afiação (Verde)
+<string>Nível de Engaste (III)
+<string>Nível de Engaste (II)
+<string>Nível de Engaste (I)
+<string>Engastes (3)
+<string>Engastes (2-3)
+<string>Engastes (1-3)
 <string>Filtrar por Critério
 <string>Filtrar por Arma
 <string>Filtrar por Armadura
@@ -83,6 +182,9 @@
 <string>Resistência
 <string>Defesa
 <string>Parte da Armadura
+<string>Por Tipo
+<string>Por Tipo de Elemento
+<string>Por Bônus Artiano
 <string>Tipo de Ataque
 <string>Parte da Armadura
 <string>Padrão
@@ -91,51 +193,74 @@
 <string>Por Nv. de Kinseto
 <string>Por Tipo de Morteiro
 <string>Por Quantidade
-<string>Munição Normal Nv. 1
-<string>Munição Normal Nv. 2
-<string>Munição Normal Nv. 3
-<string>Munição Perfurante Nv. 1
-<string>Munição Perfurante Nv. 2
-<string>Munição Perfurante Nv. 3
-<string>Munição Dispersa Nv. 1
-<string>Munição Dispersa Nv. 2
-<string>Munição Dispersa Nv. 3
+<string>1 – 3
+<string>2 – 3
+<string>3
+<string>Munição Normal 1
+<string>Munição Normal 2
+<string>Munição Normal 3
+<string>Munição Perfurante 1
+<string>Munição Perfurante 2
+<string>Munição Perfurante 3
+<string>Munição Dispersa 1
+<string>Munição Dispersa 2
+<string>Munição Dispersa 3
 <string>Munição Pegajosa 1
 <string>Munição Pegajosa 2
 <string>Munição Pegajosa 3
-<string>Bomba Fragmentada Nv. 1
-<string>Bomba Fragmentada Nv. 2
-<string>Bomba Fragmentada Nv. 3
-<string>Munição de Fogo Nv. 1
-<string>Munição de Fogo Nv. 2
-<string>Munição d’Água Nv. 1
-<string>Munição d’Água Nv. 2
-<string>Munição de Raio Nv. 1
-<string>Munição de Raio Nv. 2
-<string>Munição de Gelo Nv. 1
-<string>Munição de Gelo Nv. 2
-<string>Munição Venenosa Nv. 1
-<string>Munição Venenosa Nv. 2
-<string>Munição Paralisante Nv. 1
-<string>Munição Paralisante Nv. 2
-<string>Munição Sonífera Nv. 1
-<string>Munição Sonífera Nv. 2
-<string>Disp. Ráp. (Mun. Normal Nv. 1)
-<string>Disp. Ráp. (Mun. Normal Nv. 2)
-<string>Disp. Ráp. (Mun. Normal Nv. 3)
-<string>Disp. Ráp. (Mun. Perf. Nv. 1)
-<string>Disp. Ráp. (Mun. Perf. Nv. 2)
-<string>Disp. Ráp. (Mun. Perf. Nv. 3)
-<string>Disp. Ráp. (M. Dispersa Nv. 1)
-<string>Disp. Ráp. (M. Dispersa Nv. 2)
-<string>Disp. Ráp. (M. Dispersa Nv. 3)
+<string>Bomba Fragmentada 1
+<string>Bomba Fragmentada 2
+<string>Bomba Fragmentada 3
+<string>Munição de Fogo 1
+<string>Munição de Fogo 2
+<string>Munição d'Água 1
+<string>Munição d'Água 2
+<string>Munição de Raio 1
+<string>Munição de Raio 2
+<string>Munição de Gelo 1
+<string>Munição de Gelo 2
+<string>Munição Venenosa 1
+<string>Munição Venenosa 2
+<string>Munição Paralisante 1
+<string>Munição Paralisante 2
+<string>Munição Sonífera 1
+<string>Munição Sonífera 2
+<string>Disp. Ráp. (Munição Normal 1)
+<string>Disp. Ráp. (Munição Normal 2)
+<string>Disp. Ráp. (Munição Normal 3)
+<string>Disp. Ráp. (Mun. Perfurante 1)
+<string>Disp. Ráp. (Mun. Perfurante 2)
+<string>Disp. Ráp. (Mun. Perfurante 3)
+<string>Disp. Ráp. (Mun. Dispersa 1)
+<string>Disp. Ráp. (Mun. Dispersa 2)
+<string>Disp. Ráp. (Mun. Dispersa 3)
 <string>Disp. Ráp. (Mun. Pegajosa 1)
-<string>Disp. Ráp. (Mun. Fogo Nv. 1)
-<string>Disp. Ráp. (Mun. Fogo Nv. 2)
-<string>Disp. Ráp. (Mun. d'Água Nv. 1)
-<string>Disp. Ráp. (Mun. d'Água Nv. 2)
-<string>Disp. Ráp. (Mun. de Raio Nv. 1)
-<string>Disp. Ráp. (Mun. de Raio Nv. 2)
-<string>Disp. Ráp. (Mun. de Gelo Nv. 1)
-<string>Disp. Ráp. (Mun. de Gelo Nv. 2)
+<string>Disp. Ráp. (Munição de Fogo 1)
+<string>Disp. Ráp. (Munição de Fogo 2)
+<string>Disp. Ráp. (Munição d'Água 1)
+<string>Disp. Ráp. (Munição d'Água 2)
+<string>Disp. Ráp. (Munição de Raio 1)
+<string>Disp. Ráp. (Munição de Raio 2)
+<string>Disp. Ráp. (Munição de Gelo 1)
+<string>Disp. Ráp. (Munição de Gelo 2)
 <string>Disp. Ráp. (Munição de Dragão)
+<string><COLOR preset="TXT_Danger">Não é possível vender equipamentos equipados.</COLOR>
+<string><COLOR preset="TXT_Danger">Mantos não podem ser vendidos.</COLOR>
+<string><COLOR preset="TXT_Danger">Único Kinseto em posse, não é possível vendê-lo. (Obrigatório possuir ao menos um Kinseto.)</COLOR>
+<string><COLOR preset="TXT_Danger">Este equipamento não pode ser vendido.</COLOR>
+<string><COLOR preset="TXT_Danger">Este Kinseto não pode ser vendido porque está vinculado à Glaive Inseto.</COLOR>
+<string>Valor
+<string>Equipamento registrado em uma configuração.<lf>Você quer mesmo vendê-lo?
+<string>Vender por <NUMBER {0}>z?
+<string>Equipamento com adorno anexado.<lf>Remover adornos e vender o equipamento por <NUMBER {0}>z?
+<string>Um Adorno com um ou mais dos<lf>seguintes status foi selecionado.<lf>Vender mesmo assim?<lf><lf>{0}<lf>{1}<lf>{2}
+<string>- Equipado
+<string>- Registrado em uma Configuração
+<string>- Registrado nos Favoritos
+<string>Compartilhar configuração com {0}?
+<string>Registrar nas Configurações
+<string>Registrar esta configuração em um espaço vazio?
+<string>Você não tem espaços vazios.
+<string><COLOR preset="TXT_Accent">Uma das suas configurações contém equipamentos que<lf>você não possui.</COLOR> O equipamento não obtido foi<lf>registrado automaticamente na lista de desejos.
+<string><COLOR preset="TXT_Accent">Uma configuração registrada contém equipamentos que<lf>você não possui.</COLOR> Este equipamento já foi<lf>adicionado à sua lista de desejos.
+<string><COLOR preset="TXT_Accent">Uma das suas configurações contém equipamentos que<lf>você não possui.</COLOR>

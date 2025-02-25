@@ -20,6 +20,7 @@
 <string>{0}
 <string>{0}
 <string>{0}
+<string>{0}
 <string>－
 <string>-
 <string>：
@@ -33,7 +34,9 @@
 <string>+
 <string>+{0}
 <string>－
+<string>-{0}
 <string>×
+<string>×{0}
 <string><COLOR preset="TXT_Sub">×</COLOR><COLOR preset="TXT_Safe">{0}</COLOR>
 <string>∞
 <string>？
@@ -41,6 +44,8 @@
 <string>.
 <string>★
 <string>☆
+<string>{0:D2}'{1:D2}"{2:D2}
+<string>--'--"--
 <string>是
 <string>否
 <string>取消
@@ -50,12 +55,20 @@
 <string>或
 <string>和
 <string><NUMBER {0:F2}>
+<string><NUMBER {0:F3}>
 <string>Lv
 <string>稀有度
 <string>？？？
 <string>???
 <string>？？？？？
 <string>?????
+<string>白之孤影
+<string>牙獸種[???]
+<string>黑炎
+<string>闢獸[???]
+<string>火龍[???]
+<string>刺花蜘蛛[???]
+<string>鷺鷹龍[???]
 <string>-----
 <string>－－－－－－
 <string>無
@@ -90,12 +103,16 @@
 <string>獵人
 <string>隨從艾路
 <string>鷺鷹龍
+<string>噗吱豬
 <string>支援獵人
+<string>小隊
 <string>z
 <string>Zeny
 <string>pts
 <string>公會點數
 <string>%
+<string>{0}%
+<string>激運票
 <string>【{0}】
 <string>最合適體力回復<lf>【{0}】
 <string>最合適狀態回復<lf>【{0}】
@@ -122,3 +139,5 @@
 <string>可下載內容
 <string>可下載內容
 <string>伺服器
+<string><PLATMSG RefGeneral_0028>
+<string>

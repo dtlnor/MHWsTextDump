@@ -1,7 +1,7 @@
 ﻿<string>Création de personnage
-<string>Saisissez votre nom.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité.</COLOR>
+<string>Saisissez votre nom.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité à 15 environ.</COLOR>
 <string>{0}<lf>Confirmer ce nom ?
-<string>Saisissez le nom de votre Palico.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité.</COLOR>
+<string>Saisissez le nom de votre Palico.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité à 15 environ.</COLOR>
 <string>Choisissez la quantité de tutoriels à afficher.<lf>(Modifiable à tout moment dans le menu de jeu)<lf><lf><LEFT><COLOR preset="TXT_Accent">Tout afficher</COLOR> : recommandé pour les débutants.</LEFT><lf><LEFT><COLOR preset="TXT_Accent">Affichage partiel</COLOR> : recommandé pour les vétérans.</LEFT>
 <string>Tout afficher
 <string>Affichage partiel
@@ -13,6 +13,10 @@
 <string>Enregistrer les modifications
 <string>Annuler toutes les modifications
 <string>Modèle prédéfini
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_003
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_004
 <string>(Paramètres détaillés)
 <string>Armure de départ
 <string>Sélectionner une armure de départ.
@@ -86,6 +90,7 @@
 <string>Forme des sourcils
 <string>Couleur des sourcils
 <string>Transparence des sourcils
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_01_02
 <string>Hauteur des sourcils
 <string>Hauteur intérieur des sourcils
 <string>Largeur intérieur des sourcils
@@ -109,6 +114,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_06
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_07
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_08
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_03_09
 <string>Hauteur des yeux
 <string>Profondeur des yeux
 <string>Distance entre les yeux
@@ -151,6 +160,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_05_05
 <string>Couleur des dents
 <string>Couleur des taches dentaires
 <string>Transparence des taches dentaires
@@ -165,6 +175,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_03
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_06_05
 <string>Longueur du visage
 <string>Largeur de la mâchoire
 <string>Position de la mâchoire
@@ -173,6 +184,7 @@
 <string>Longueur du menton
 <string>Profondeur du menton
 <string>Structure du visage
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0001_100_07_02
 <string>Masse musculaire
 <string>Dessin des muscles
 <string>Couleur de peau
@@ -295,7 +307,8 @@
 <string>Réinitialiser les paramètres
 <string>Réinitialiser tous les paramètres sélectionnés ?
 <string>Réinitialiser les modèles d'apparence sélectionnés ?
-<string>Confirmer/Modifier
+<string>Sauvegarder/Charger
+<string>Vérifier/Modifier
 <string>Création
 <string>Paramètres couleurs
 <string>Création
@@ -306,6 +319,10 @@
 <string>Non
 <string>Par défaut
 <string>+{0}
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_000
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_001
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_002
+<string><COLOR FF0000>#Rejected#</COLOR> MsgGUI010300_0005_003
 <string>{0}<ICON EQUIP_TYPE1>
 <string>{0}<ICON EQUIP_TYPE2>
 <string>Options de visualisation
@@ -365,14 +382,102 @@
 <string>Quantité fusion droite
 <string>   Luminosité de la peau
 <string>   Saturation de la peau
+<string>Apparences sauvegardées
+<string>Nom du modèle
+<string>Date de sauvegarde
+<string>Charger
+<string>Sauvegarder
+<string>Renommer
+<string>Réorganiser
+<string>Supprimer
+<string><ICON UI_SUB_MENU>Sauvegarder
+<string>Modèle {0}
+<string>Basculer vers cette apparence ?<lf><COLOR preset="TXT_Danger">Les données en cours de modification seront perdues.<lf>Sauvegardez une apparence avant de changer<lf>pour conserver les modifications.</COLOR>
+<string>Vos paramètres actuels<lf>comprennent des personnalisations<lf>qui ne vous appartiennent pas.<lf>Continuer en appliquant uniquement<lf>les modifications possibles ?
+<string>Sauvegarder les données d'apparence actuelles ?
+<string>Sauvegarder les données d'apparence actuelles ?<lf><COLOR preset="TXT_Danger">(Les données sauvegardées seront écrasées.)</COLOR>
+<string>Cliquez sur une entrée pour la modifier.
+<string>Sélectionnez une destination.
+<string>Supprimer ces données d'apparence ?
+<string>Modifier décoration Seikret
+<string>Personnaliser Seikret
+<string>Couleur de la peau
+<string>Teinte des plumes ventrales
+<string>Teinte des plumes dorsales
+<string>Épaisseur du motif
+<string>Couleur du motif
+<string>Transparence du motif
+<string>Couleur des yeux
+<string>Modifier l'œil droit
+<string>Couleur de l'œil droit
+<string>Type de décoration
+<string>Type d'accessoire
+<string>Renommer
+<string>Vous permet de changer le nom de votre Seikret.
+<string>Terminer la modification de la décoration du Seikret ?
+<string>Terminer la personnalisation du Seikret ?
+<string>Montrer les accessoires
+<string>Saisissez le nom de votre Seikret.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité à 15 environ.</COLOR>
+<string>Personnalisation du camp provisoire
+<string>Personnaliser la tente
+<string>Personnaliser le camp
+<string>Type d'auvent
+<string>Couleur principale de l'auvent
+<string>Couleur secondaire de l'auvent
+<string>Type de tente
+<string>Couleur principale de la tente
+<string>Couleur secondaire de la tente
+<string>Motif 1
+<string>Motif 2
+<string>Ce motif sera par-dessus "Motif 1" en cas de chevauchement.
+<string>Motif 3
+<string>Ce motif sera par-dessus "Motif 2" en cas de chevauchement.
+<string>Apparence du motif 1
+<string>Apparence du motif 2
+<string>Apparence du motif 3
+<string>Couleur du motif 1
+<string>Couleur du motif 2
+<string>Couleur du motif 3
+<string>Auvent : apparence du motif 1
+<string>Auvent : apparence du motif 2
+<string>Auvent : apparence du motif 3
+<string>Tente : apparence du motif 1
+<string>Tente : apparence du motif 2
+<string>Tente : apparence du motif 3
+<string>Auvent : couleur du motif 1
+<string>Auvent : couleur du motif 2
+<string>Auvent : couleur du motif 3
+<string>Tente : couleur du motif 1
+<string>Tente : couleur du motif 2
+<string>Tente : couleur du motif 3
+<string>Transparence
+<string>Taille
+<string>Taille horizontale
+<string>Taille verticale
+<string>Position
+<string>Position horizontale
+<string>Position verticale
+<string>Par défaut
+<string>Restaurer les paramètres de motif par défaut ?
+<string>Échanger paramètres de motif
+<string>Échanger les paramètres de ce motif<lf>avec un autre ?
+<string>Rotation horizontale
+<string>Rotation verticale
+<string>Angle
+<string>Équipement de camp (grand) 1
+<string>Équipement de camp (grand) 2
+<string>Équipement de camp (petit) 1
+<string>Équipement de camp (petit) 2
+<string>Type de lanterne
+<string>Terminer la modification du camp provisoire ?
 <string>Changer d'apparence
 <string>Terminer la modification de l'apparence ?
-<string>Modifier Chasseur
+<string>Modifier personnage
 <string>Changer de nom
 <string>Vous permet de changer de nom.
 <string>Le nom de votre Chasseur sera modifié.<lf><COLOR preset="TXT_Accent">Le changement de nom peut mettre du temps<lf>à s'effectuer dans certaines sections.<lf>Il se peut aussi que le nouveau nom ne s'affiche pas.</COLOR>
 <string>Annuler les changements et quitter ?<lf><COLOR preset="TXT_Accent">(Aucun Coupon modification de personnage ne sera utilisé.)</COLOR>
-<string>Sauvegarder les changements ?<lf><COLOR preset="TXT_Accent">(Aucun Coupon modification de personnage ne sera utilisé<lf>car aucun changement particulier n'a été effectué.)</COLOR>
+<string>Sauvegarder les changements ?<lf><COLOR preset="TXT_Accent">(Aucun Coupon modification de personnage ne sera utilisé<lf>car aucun changement significatif n'a été effectué.)</COLOR>
 <string>Sauvegarder les changements ?<lf><COLOR preset="TXT_Accent">(Un Coupon modification de personnage sera utilisé.)</COLOR>
 <string>Terminer la personnalisation de votre chasseur.
 <string>Modifier Palico
@@ -380,7 +485,7 @@
 <string>Vous permet de changer le nom de votre Palico.
 <string>Le nom de votre Palico sera modifié.<lf><COLOR preset="TXT_Accent">Le changement de nom peut mettre du temps<lf>à s'effectuer dans certaines sections, et dans<lf>certains cas le nouveau nom peut ne pas s'afficher.</COLOR>
 <string>Annuler les changements et quitter ?<lf><COLOR preset="TXT_Accent">(Aucun Coupon modification de Palico<lf>ne sera utilisé.)</COLOR>
-<string>Sauvegarder les changements ?<lf><COLOR preset="TXT_Accent">(Aucun Coupon modification de Palico ne sera utilisé<lf>car aucun changement particulier n'a été effectué.)</COLOR>
+<string>Sauvegarder les changements ?<lf><COLOR preset="TXT_Accent">(Aucun Coupon modification de Palico ne sera utilisé<lf>car aucun changement significatif n'a été effectué.)</COLOR>
 <string>Sauvegarder les changements ?<lf><COLOR preset="TXT_Accent">(1 Coupon modification de Palico sera utilisé.)</COLOR>
 <string>Terminer la personnalisation de votre Palico.
 <string>Visage aléatoire
@@ -389,3 +494,35 @@
 <string>Créer un visage similaire
 <string>Créer un nouveau visage
 <string>Utiliser ce visage ?
+<string><COLOR preset="TXT_Accent">Données de la bêta</COLOR>
+<string>Récupérer les données du personnage de la bêta ?
+<string>Partages
+<string>Partager le modèle
+<string>Télécharger un modèle
+<string>Mettre le modèle en ligne et le partager ?
+<string>Modèle partagé.<lf>Code de téléchargement :<lf>{0}
+<string><COLOR preset="TXT_Danger">Erreur</COLOR><lf>Le modèle n'a pas pu être partagé.
+<string><COLOR preset="TXT_Danger">Vous ne pouvez plus partager de modèles.</COLOR>
+<string>Voir un modèle/arrêter de partager
+<string>Code du modèle partagé :<lf>{0}<lf><lf>Veuillez appuyer sur "Oui" pour<lf>arrêter le partage en ligne.
+<string>Arrêter de partager ce modèle en ligne ?
+<string>Le partage en ligne du modèle a été annulé.
+<string><COLOR preset="TXT_Danger">Erreur</COLOR><lf>Le partage du modèle en ligne n'a pas pu être annulé.
+<string><COLOR preset="TXT_Danger">Partage du modèle impossible car vous l'avez téléchargé.</COLOR>
+<string>Veuillez saisir le code du modèle.<lf><lf><COLOR preset="TXT_Accent">Attention, les codes sont constitués de douze<lf>caractères et ils sont sensibles à la casse<lf>(les majuscules et minuscules sont importantes).</COLOR>
+<string>Modèle trouvé :<lf>{0}<lf>Créateur<lf>ID de Chasseur : {1}<lf><PLATMSG RefGeneral_0018_001> : {2}
+<string>{0}<lf>Le code de modèle ci-dessus est introuvable.<lf>{1}
+<string>{0}<lf>Impossible de l'utiliser car c'est un modèle de chasseur.<lf>{1}
+<string>{0}<lf>Impossible de l'utiliser car c'est un modèle de Palico.<lf>{1}
+<string>{0}<lf>Impossible d'utiliser ce modèle.<lf>{1}
+<string>Sauvegarder modèle
+<string>Changer apparence
+<string>Infos créateur
+<string>Basculer vers cette apparence ?<lf>Les données en cours de modification seront<lf>perdues. Sauvegardez une apparence avant de<lf>changer pour conserver les modifications.
+<string>Les paramètres actuels comprennent des<lf>personnalisations que vous ne possédez pas.<lf>Continuer en appliquant uniquement<lf>les modifications possibles ?
+<string>{0}<lf>Créateur<lf>ID de Chasseur : {1}<lf><PLATMSG RefGeneral_0018_001>: {2}
+<string>Annuler le téléchargement du modèle ?
+<string>Le modèle partagé a été modifié à cause d'une<lf>vérification de la correspondance des données<lf>du serveur.
+<string><COLOR preset="TXT_Danger">Impossible d'utiliser cette fonction : le modèle est partagé en ligne.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible d'utiliser cette fonction : pas de données sauvegardées du personnage trouvées.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous devez créer un ID de Chasseur pour utiliser cette fonction.</COLOR>

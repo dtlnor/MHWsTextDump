@@ -28,11 +28,15 @@
 <string>Lv-
 <string>{0}
 <string>-
+<string>？？？衍生
 <string>主武器
 <string>装备为主武器
 <string>副武器
 <string>装备为副武器
 <string>武器
+<string>饰物
+<string>主武器饰物
+<string>副武器饰物
 <string>龙热机关龙弹
 <string>龙热穿甲弹
 <string>龙热抵消弹
@@ -40,13 +44,57 @@
 <string>集中特效弹【龙吼】
 <string>起爆龙弹
 <string>附着龙弹
+<string>生产素材
+<string>强化素材
+<string>必要费用
+<string>选择强化装备
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
+<string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
+<string>强化防具
+<string>升级所需强化值
+<string>已强化至最大值
 <string>显示全部
+<string>仅显示<ICON EQUIP_TYPE1>服装
+<string>仅显示<ICON EQUIP_TYPE2>服装
+<string>仅显示持有的装备
+<string>强化
+<string>生产
+<string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>是否确定？
+<string>需要素材及{0}<REF RefGeneral_0015_000>，确定生产吗？<lf><lf>（生产此装备时可同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
+<string>要现在装备吗？
+<string>要舍弃剩余的{0}点数吗？
+<string>试穿
+<string><COLOR preset="TXT_Danger">装备箱已满。</COLOR>
+<string><COLOR preset="TXT_Danger">尚无法生产或强化此装备。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有基底装备。</COLOR>
+<string><COLOR preset="TXT_Danger">所需素材或金钱不足。</COLOR>
+<string><COLOR preset="TXT_Danger">持有金额不足。</COLOR>
+<string><COLOR preset="TXT_Danger">此装备已强化到最大值。</COLOR>
+<string>请指定使用的铠玉与数量。
 <string><COLOR preset="TXT_Danger">未持有装饰品。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有素材。</COLOR>
 <string><COLOR preset="TXT_Danger">未持有装备。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有机械零件。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有机械武器。</COLOR>
 <string><COLOR preset="TXT_Danger">未持有弩炮。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有炼金所需的装饰品等物品。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有炼金所需的机械零件等物品。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有精炼所需的素材。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有复原强化素材。</COLOR>
+<string><COLOR preset="TXT_Danger">已持有此推荐装备，无法生产或强化。</COLOR>
+<string><COLOR preset="TXT_Danger">已持有此推荐装备，无法生产。</COLOR>
+<string>使用中的装备：{0}
 <string>正装在其他装备上，要卸除吗？
+<string><COLOR preset="TXT_Danger">此为已镶嵌的装饰品。</COLOR>
+<string><COLOR preset="TXT_Danger">插槽等级不支持，无法镶嵌。</COLOR>
+<string><COLOR preset="TXT_Danger">此猎虫已培育至上限。</COLOR>
+<string>需要{0}<REF RefGeneral_0015_000>，确定吗？
+<string>需要{0}<REF RefGeneral_0015_000>，确定生产吗？<lf><lf>（生产此装备时可同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
+<string>培育素材
 <string>装备箱
+<string>外观装备箱
 <string><COLOR preset="TXT_Danger">仅可于装备操虫棍时选择猎虫。</COLOR>
+<string>装饰品箱
 <string>穿脱装饰品
 <string>变更装备
 <string>技能信息
@@ -56,6 +104,7 @@
 <string>加入收藏
 <string>装备外观设置
 <string>装备设置
+<string>自动选择
 <string>从箱子中选择
 <string>按系列选择防具
 <string>切换武器显示
@@ -65,8 +114,58 @@
 <string>切换详细信息栏的显示
 <string>切换装备箱图示
 <string>切换装备预览显示
+<string>防具着色
+<string>登记至愿望单
+<string>以生产素材登记
+<string>以强化素材登记
+<string>要登记至愿望单吗？
+<string>需要登记至愿望单的装备中，包括了可通过生产或强化制造的装备。请选择要登记的素材。
+<string>从愿望单删除
+<string>要从愿望单中删除吗？
+<string>要从愿望单中删除吗？<lf><COLOR preset="TXT_Danger">（此项目已与装备个人组合联动。删除的装备将在装备<lf>个人组合中变更为“无设置”）</COLOR>
+<string>卸下全部装饰品
+<string>要卸除所有已装备的装饰品吗？
+<string><INPUTMSG RefEquipment_SUB_13_S>
+<string><INPUTMSG RefEquipment_SUB_14_S>
+<string><INPUTMSG RefEquipment_SUB_15_S>
+<string>将<ICON PAD PL_DUMMY_CAMERA>切换至角色模型操作
+<string>将<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>切换至角色模型操作
+<string>将<ICON PAD PL_DUMMY_CAMERA>切换至预览操作
+<string>将<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>切换至预览操作
+<string>将<ICON PAD PL_DUMMY_CAMERA>切换至列表操作
+<string>（将<ICON MKB UI_MODEL_TURN_LEFT><ICON MKB UI_MODEL_TURN_RIGHT>切换至角色模型操作）
 <string>按系列选择装备
+<string>刃
+<string>筒
+<string>盘
+<string>装置
 <string>衣装
+<string>搜索
+<string>防御力加成
+<string>插槽等级
+<string>插槽数
+<string>炮击类型
+<string>旋律效果
+<string>可装填的弹药
+<string>可速射的弹药
+<string>可装填的瓶
+<string>解除
+<string>未选择
+<string>白色
+<string>蓝色
+<string>绿色
+<string>Ⅲ
+<string>Ⅱ
+<string>Ⅰ
+<string>锋利度（白色）
+<string>锋利度（蓝色）
+<string>锋利度（绿色）
+<string>插槽等级（Ⅲ）
+<string>插槽等级（Ⅱ）
+<string>插槽等级（Ⅰ）
+<string>插槽数（3）
+<string>插槽数（2～3）
+<string>插槽数（1～3）
 <string>按条件排序
 <string>按武器排序
 <string>按防具排序
@@ -83,6 +182,9 @@
 <string>耐性值
 <string>防御力
 <string>防具部位
+<string>按种类
+<string>按性能类型
+<string>按机械加成
 <string>攻击类型
 <string>防具部位
 <string>默认
@@ -91,6 +193,9 @@
 <string>猎虫等级
 <string>按炮击类型
 <string>按持有数
+<string>1～3
+<string>2～3
+<string>3
 <string>通常弹Lv1
 <string>通常弹Lv2
 <string>通常弹Lv3
@@ -139,3 +244,23 @@
 <string>速射（冰结弹Lv1）
 <string>速射（冰结弹Lv2）
 <string>速射（灭龙弹）
+<string><COLOR preset="TXT_Danger">装备中无法出售。</COLOR>
+<string><COLOR preset="TXT_Danger">无法出售衣装。</COLOR>
+<string><COLOR preset="TXT_Danger">此为目前持有的唯一猎虫，无法出售。（猎虫持有数不可为0）</COLOR>
+<string><COLOR preset="TXT_Danger">无法出售此装备。</COLOR>
+<string><COLOR preset="TXT_Danger">此猎虫正与操虫棍组合使用，无法出售。</COLOR>
+<string>售价
+<string>此装备已登记至个人组合，确定出售吗？
+<string>要以{0}z出售吗？
+<string>此装备已镶嵌装饰品。<lf>要卸除装饰品，并以{0}z出售此装备吗？
+<string>已选择以下状态的装饰品，确定出售吗？<lf>{0}<lf>{1}<lf>{2}
+<string>・装备中
+<string>・已登记至个人组合
+<string>・已加入收藏
+<string>要与{0}共享<lf>个人组合的内容吗？
+<string>登记至个人组合
+<string>要登记至个人组合空栏吗？
+<string>个人组合已无空栏，无法登记。
+<string><COLOR preset="TXT_Accent">个人组合中登记了未持有的装备。</COLOR><lf>已将该装备自动登记至愿望单。
+<string><COLOR preset="TXT_Accent">个人组合中登记了未持有的装备。</COLOR><lf>愿望单中已登记过该装备。
+<string><COLOR preset="TXT_Accent">个人组合中登记了未持有的装备。</COLOR>
