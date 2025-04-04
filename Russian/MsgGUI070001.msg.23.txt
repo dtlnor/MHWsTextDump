@@ -4,12 +4,16 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI070001_0001SUB
 <string>Сумма награды
 <string>Потери сознания
-<string>{0} зени x {1}
+<string>{0} з. x {1}
 <string>Размер отряда
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI070001_0002SUB
 <string>з.
 <string>Бонус талона: x{0}
 <string>x<NUMBER {0}> {1}
+<string>Особые награды поддержки: x<NUMBER {0}> (ещё <PLURAL {1} "{1} день" "{1} дня" "{1} дней">)
+<string>Обычные награды поддержки: x<NUMBER {0}>
+<string>Бонус за время: x<NUMBER {0}>
+<string>Бонус за время: x<NUMBER {0:F1}>
 <string>(
 <string>-
 <string>)
@@ -69,6 +73,8 @@
 <string>Ранг охотника повышен!
 <string>Глава {0}–{1}
 <string>Доп. задания
+<string>Доп. задание: {0}
+<string>Новый рекорд!
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI070001_BTN00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI070001_BTN01
 <string><REF RefButton_0018>

@@ -185,11 +185,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_113
 <string>Affinité +100 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_114
-<string>Attaque +3 et légers dégâts<lf>d'étourdissement infligés<lf>par les attaques dégainées.
+<string>Les attaques dégainées ont<lf>Attaque +3 et infligent des dégâts<lf>légers d'étourdissement.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_115
-<string>Attaque +5 et dégâts moyens<lf>d'étourdissement infligés<lf>par les attaques dégainées.
+<string>Les attaques dégainées ont<lf>Attaque +5 et infligent des dégâts<lf>moyens d'étourdissement.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_116
-<string>Attaque +7 et dégâts importants<lf>d'étourdissement infligés<lf>par les attaques dégainées.
+<string>Les attaques dégainées ont<lf>Attaque +7 et infligent des dégâts<lf>importants d'étourdissement.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_117
 <string>Augmente légèrement<lf>la vitesse de rengainage.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_118
@@ -660,6 +660,10 @@
 <string>Empêche les monstres de vous<lf>attaquer même s'ils vous repèrent.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_374
 <string>Prolonge la durée de l'effet<lf>de votre poison de 20 %.
+<string>Super récupération I
+<string>La jauge de vie continue de se régénérer<lf>lentement jusqu'à la valeur maximale<lf>même s'il n'y a pas de portion rouge.
+<string>Super récupération II
+<string>La jauge de vie continue de se régénérer<lf>jusqu'à la valeur maximale même s'il<lf>n'y a pas de portion rouge.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_378
 <string>Annule les effets du<lf>froid et de la chaleur.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_491
@@ -767,9 +771,9 @@
 <string>Armure sans défaut II
 <string>Réduit les dégâts subis de 10 %<lf>quand votre vie est pleine.
 <string>Cri de guerre I
-<string>Augmente l'attaque modérément et<lf>temporairement dans la zone après <BOLD>Victoire !</BOLD><lf>(accru pour Palicos/Chasseurs de soutien).
+<string>Utiliser l'émote <BOLD>[Victoire !]</BOLD> augmente<lf>modérément l'attaque des alliés proches.<lf>(Accru sur Palicos/Chasseurs de soutien.)
 <string>Cri de guerre II
-<string>Augmente l'attaque temporairement<lf>dans la zone après <BOLD>Victoire !</BOLD> (accru<lf>pour Palicos/Chasseurs de soutien).
+<string>Utiliser l'émote <BOLD>[Victoire !]</BOLD> augmente<lf>l'attaque des alliés proches.<lf>(Accru sur Palicos/Chasseurs de soutien.)
 <string>Éclipse noire I
 <string>Vous inflige la Furie face aux<lf>grands monstres.
 <string>Éclipse noire II
@@ -784,6 +788,28 @@
 <string>Restaure de la vie tant que<lf>vous attaquez. La régénération<lf>varie selon l'arme.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_481
 <string>Permet d'utiliser des fioles<lf>de léthargie.
+<string>Ébullition I
+<string>Protège du fléau-bulles majeur<lf>et augmente l'esquive en cas<lf>de fléau-bulles mineur.
+<string>Ébullition II
+<string>Permet également d'activer<lf>le fléau-bulles mineur en<lf>esquivant plusieurs fois d'affilée.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_505
+<string>Affinité +3 % lorsque vous êtes<lf>mouillé et +7 % en cas de<lf>fléau-bulles.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_506
+<string>Affinité +6 % lorsque vous êtes<lf>mouillé et +14 % en cas de<lf>fléau-bulles.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_507
+<string>Affinité +9 % lorsque vous êtes<lf>mouillé et +21 % en cas de<lf>fléau-bulles.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_508
+<string>Active l'effet. (Ne se cumule pas<lf>avec Carbonisateur, mais inflige<lf>des dégâts de feu supplémentaires.)
+<string>Bravoure (Ténacité)
+<string>Augmente l'attaque, réduit la défense<lf>et permet de survivre à un coup fatal,<lf>puis augmente défense et résistance.
+<string>Maître dépeceur
+<string>Permet de dépecer les monstres<lf>une fois de plus lors des quêtes.<lf>(Hors quête rejointe en cours de route.)
+<string>Bénédiction des fleurs I
+<string>Pendant Danse des fleurs, ajoute des<lf>objets spéciaux aux récompenses.<lf>(Hors quête rejointe en cours de route.)
+<string>Bénédiction des fleurs II
+<string>Pendant Danse des fleurs, ajoute des<lf>objets spéciaux aux récompenses de<lf>quête. Augmente attaque et défense.
+<string>Chance
+<string>Permet d'obtenir plus de récompenses<lf>cible. (Hors quête rejointe en cours de<lf>route.)
 <string>Bonus Vendetta I
 <string>Augmente la durée du talent<lf>Vendetta et confère Attaque +3<lf>quand Vendetta est actif. 
 <string>Bonus Vendetta II

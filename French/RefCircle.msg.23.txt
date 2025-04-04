@@ -10,6 +10,7 @@
 <string>Modifier le message du Chef
 <string>Quitter
 <string>Dissoudre
+<string>Confirmer (et définir un nom)
 <string><COLOR FF0000>#Rejected#</COLOR> RefCircle_card_000
 <string><COLOR FF0000>#Rejected#</COLOR> RefCircle_card_001
 <string>Philosophie
@@ -52,7 +53,7 @@
 <string>{0} <PLURAL {0} "résultat trouvé" "résultats trouvés">. (Impossible de récupérer plus de résultats.)
 <string>Impossible de trouver un Clan remplissant vos conditions.
 <string>Vous avez reçu {0} <PLURAL {0} "invitation" "invitations">.
-<string>Vous avez {0} <PLURAL {0} "demande" "demandes">.
+<string>{0} <PLURAL {0} "demande" "demandes"> en attente.
 <string>{0}: ID du Clan trouvé.
 <string>Demandes
 <string>Invitations
@@ -98,6 +99,7 @@
 <string>Recherche de Clan...
 <string>Demander à rejoindre ce Clan ?
 <string>Demande de participation au Clan envoyée.
+<string>Demande de participation au Clan envoyée.<lf><lf>(Acceptation automatique si l'adhésion au Clan<lf>n'a pas besoin d'être approuvée.)
 <string>Saisissez le nom de votre Clan.<lf><lf><COLOR preset="TXT_Accent">*Le nombre de caractères est limité à 20 environ.</COLOR>
 <string>{0}<lf><lf>Créer un nouveau Clan avec ce nom ?
 <string>Mise à jour des données du Clan...

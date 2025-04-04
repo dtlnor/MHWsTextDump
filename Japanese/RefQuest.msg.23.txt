@@ -3,6 +3,7 @@
 <string>概要
 <string>メンバー
 <string>報酬
+<string>個人記録
 <string>環境サマリー
 <string>トピック
 <string>現在
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">保存可能な調査クエストの最大数を満たしています。これ以上保存できません。</COLOR>
 <string><COLOR preset="TXT_Danger">すでに調査クエストとして保存済みのものです。</COLOR>
 <string><COLOR preset="TXT_Danger">リザルト中の環境リンクメンバーがいるため、現地調査クエストを開始できません。</COLOR>
+<string><COLOR preset="TXT_Danger">このクエストでは利用できません。</COLOR>
+<string><COLOR preset="TXT_Danger">このクエストは≪<Ref RefEnvironment_0001_0001>≫以外では受注できません。</COLOR>
 <string>タイトルに戻る
 <string>リトライする
 <string>{0}の討伐
@@ -99,6 +102,19 @@
 <string>Returning to Base
 <string>Quest Start
 <string>Quest Accepted
+<string>Quest Retry
+<string>Time Up!
+<string>1st Challenge!
+<string>2nd Challenge!
+<string>Score
+<string>Cleared
+<string>READY
+<string>3
+<string>2
+<string>1
+<string>GO
+<string>WIN
+<string>LOSE
 <string>すべてのクエスト
 <string>任務クエスト
 <string>フリークエスト
@@ -116,6 +132,7 @@
 <string>ロビーメンバークエスト
 <string>救難信号クエスト
 <string>リンクメンバークエスト
+<string>フリーチャレンジクエスト
 <string>調査クエスト保存費用
 <string>現地調査クエストの開始日時
 <string>残り受注可能回数
@@ -148,6 +165,13 @@
 <string>ダウン回数　{0}/{1}
 <string>依頼者：{0}
 <string>CLEAR!
+<string>選択可能な武器
+<string>タイムランク
+<string>あなたのベストタイム
+<string>メンバーの構成
+<string>日付：<DATETIME {0} "YYYY/MM/DD">(UTC)
+<string>日付：<DATETIME {0} "YYYY/MM/DD">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>メンバー募集コメント
 <string>メンバー募集コメントを設定します。
 <string>だれでも歓迎！！
@@ -166,6 +190,7 @@
 <string>集落を困らせているモンスターがいます！
 <string>狩猟すると施設の収穫が一時増量します
 <string>{0}が<REF RefEnvironment_0001_0004>に出現中です！
+<string>{0}が<REF RefEnvironment_0001_0003>に出現中です！
 <string>最大参加人数
 <string>クエストに参加できる人数の上限を設定します。<COLOR preset="TXT_Accent">（設定可能な人数はリンクメンバーの最大数に応じて可変します）</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>タイトルメニューのクロスプレイ設定が「無効」のため、同じ設定の他プレイヤーのクエストのみが検索されます。
 <string>すべてのプラットフォーム
 <string>自分と同じプラットフォーム
+<string>補足説明
+<string>●フリーチャレンジクエストのルール<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターは、クエスト開始から参加します。
+<string>●闘技大会クエスト/チャレンジクエストのルール<lf>・最大参加人数：最大2人まで<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターはクエスト開始から参加します。<lf>・オトモアイルーはクエストに参加しません。<lf>・食事効果はクエスト中、<COLOR preset="TXT_Danger">一時的に消失します。<lf>　※クエスト終了後、元に戻ります。</COLOR><lf>・アイテム効果や笛の旋律効果などの一時的なステータス効果は、<lf>　<COLOR preset="TXT_Danger">クエスト出発時に消失します。</COLOR><lf><lf>●フリーチャレンジクエストのルール<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターは、クエスト開始から参加します。
 <string>救難信号の検索
 <string>クエスト種別
 <string>指定なし
@@ -218,6 +246,7 @@
 <string>調査クエストの削除
 <string>選択した調査クエストを削除します。<lf>よろしいですか？<lf><lf>※「現地調査クエストの履歴」に該当のクエストが<lf>　残っている場合、履歴からも削除されます。
 <string>調査クエストを削除しました。
+<string>選択可能な装備の詳細
 <string>選択した調査クエストの受注可能回数は<lf>残り{0}回です。<lf>受注によって残り回数を消費し、セーブを行います。<lf>よろしいですか？
 <string>クエストの参加人数を一時的に拡張します。<lf>よろしいですか？<lf><COLOR preset="TXT_Accent">（一度拡張するとクエストを<lf>　終了するまで元に戻せません）</COLOR>
 <string>任務クエスト
@@ -228,3 +257,17 @@
 <string>ロビーメンバークエスト（{0}件）
 <string>リンクメンバークエスト
 <string>救難信号クエスト（{0}件）
+<string>闘技大会クエスト
+<string>チャレンジクエスト
+<string>フリーチャレンジクエスト
+<string>釣技大会クエスト
+<string>釣技大会クエスト（配信）
+<string>ベストタイム
+<string>装備選択
+<string>メンバーの状況
+<string>サポートハンター
+<string>サポートハンターを同行させる
+<string>サポートハンターを同行させない
+<string>この装備でよろしいですか？
+<string>他のプレイヤーを待っています。
+<string>ベストスコア

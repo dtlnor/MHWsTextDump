@@ -8,7 +8,7 @@
 <string>{0}<lf>não conseguiu entrar no Grupo de Elo.
 <string>{0} entrou no seu<lf>Elo de Ambiente.
 <string>Você entrou no Elo de<lf>Ambiente de {0}.
-<string>{0} saiu do Elo de Ambiente.
+<string>{0}<lf>saiu do Elo de Ambiente.
 <string>Voltou ao seu próprio ambiente.
 <string>Você recusou o convite<lf>ao Elo de Ambiente.
 <string>{0} não conseguiu<lf>entrar no Elo de Ambiente.
@@ -52,7 +52,7 @@
 <string>{0}<lf>se tornou líder da missão.
 <string>Indicaram você como<lf>líder da missão.
 <string>Indicou {0}<lf>como líder do Grupo de Elo.
-<string>Outro jogador foi indicado<lf>como líder do Grupo de Elo.
+<string>Você foi indicado como líder<lf>do Grupo de Elo.
 <string>{0}<lf>recebeu o controle do Lobby privado.
 <string>Você recebeu o controle<lf>do Lobby privado.
 <string>Devolvendo suprimentos.
@@ -63,14 +63,14 @@
 <string>Pedido de Amizade
 <string>Recebeu um pedido de amizade<lf>de {0}.
 <string>Agora você tem amizade com<lf>{0}.
-<string>A cerca está pronta para uso.
+<string>A muralha está pronta para uso.
 <string>Muralha pronta em: <PLURAL {0} "{0} minuto" "{0} minutos">
 <string>Muralha pronta em: <PLURAL {0} "{0} segundo" "{0} segundos">
 <string>O Navio de Suporte chegou.
 <string>O Navio de Suporte partirá em breve.
 <string>O Navio de Suporte partiu.
-<string>Vale da Sorte usado. (Restante: {0})
-<string>Concederemos recompensas<lf>aleatórias e zenny.
+<string>Usar Vale da Sorte? (Restante: {0})
+<string>Use um Vale da Sorte para obter<lf>prêmios de missão aleatórios e<lf>zenny extra.
 <string>Usar
 <string>Vale da Sorte usado.
 <string>Atividade de Elo de Ambiente
@@ -118,7 +118,7 @@
 <string>O alvo da lista de desejos apareceu!<lf>{0}
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
-<string>{0} apareceu!
+<string>{0}<lf>apareceu!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>{0}<lf>deixará o local em breve!
@@ -139,7 +139,7 @@
 <string>Surto de {0} detectado!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
-<string>Abundância de {0} detectada!
+<string>Detectada abundância de<lf>{0}!
 <string>Abrir Mapa
 <string>Visão Geral do Ambiente
 <string>{0} está disponível<lf>para apoiar a caçada!
@@ -175,7 +175,7 @@
 <string>Abrir Informação da Campanha
 <string>Exibir prioridade de objetivo<lf>e selecionar uma campanha.
 <string>Abrir
-<string>Não é possível<lf>transformar {0} em alvo de missão.
+<string>Não é possível transformar<lf>{0}<lf>em alvo de missão.
 <string>{0} não pode<lf>se tornar alvo de missão.<lf>(RC muito baixo.)
 <string>Alterado de Um Jogador Online<lf>para o modo Online.
 <string>Alterado para o modo Um Jogador Online.
@@ -197,6 +197,7 @@
 <string>{0}
 <string>Novo plano de fundo obtido!
 <string>Poogie não parece ter nada...
+<string>
 <string>Uma nova caçada foi publicada.
 <string>Solicitação Limitada
 <string>{0}<lf>{1}/{2}
@@ -240,6 +241,9 @@
 <string>Você alcançou o Ranque de Caçador {0}!
 <string>Você não pode colocar o objeto que está<lf>carregando aqui.
 <string>O crossplay está atualmente habilitado.
+<string>Balcão de Missões de Arena
+<string>Um Membro do Elo está entrando na Arena.<lf>Participe você também na <BOLD>Grande Central</BOLD>.
+<string>Abrir Mapa
 <string>Notificação de Esquadrão
 <string>Você recebeu um convite para entrar<lf>no esquadrão: <BOLD>{0}</BOLD>.
 <string>Notificação de Esquadrão
@@ -251,6 +255,9 @@
 <string><BOLD>{1}</BOLD> entrou<lf>no esquadrão {0}.
 <string>Indicaram você como Sub-líder<lf>do esquadrão <BOLD>{0}</BOLD>.
 <string>Indicaram você como Líder do esquadrão<lf><BOLD>{0}</BOLD>.
+<string>Atualização de Visão Geral do Ambiente
+<string>{0} apareceu<lf>no Altar da Tocha Dracônica!
+<string>Abrir Mapa
 <string>Bônus de Login
 <string>O Bônus de Login de hoje está disponível<lf>no Menu Inicial.
 <string>Resgate Agora
@@ -260,9 +267,18 @@
 <string>{0} compartilhou uma<lf>Configuração de Itens.
 <string>Configuração de Menu Radial Compartilhada
 <string>{0} compartilhou uma<lf>Configuração de Menu Radial.
+<string>O Festival da Concórdia: Floridança<lf>está acontecendo!<lf>({0} <PLURAL {0} "dia restante" "dias restantes">)
+<string>O Festival da Concórdia: Floridança<lf>está acontecendo!<lf>({0} <PLURAL {0} "hora restante" "horas restantes">)
+<string>O Festival da Concórdia: Floridança<lf>está acontecendo!<lf>(Encerrando em Breve)
 <string>A habilidade <BOLD>{0}</BOLD><lf>pode ser ativada.
 <string>Falha ao receber Configuração compartilhada
 <string>Falha ao receber pois o limite máximo<lf>de notificações de configuração<lf>compartilhada foi atingido.
 <string>Você tem um convite.<lf>Confira sua <BOLD>Lista de Convites</BOLD><lf>no menu inicial.
 <string>Você tem um Pedido de Participação.<lf>Verifique os <BOLD>Pedidos de Participação</BOLD><lf>no Menu Inicial.
 <string>Não foi possível iniciar a missão.
+<string>{0} obteve uma pontuação total<lf>de {1} no Boliche de Barril!
+<string>{0} conseguiu {1}<lf>vitórias seguidas na queda de braço!
+<string>Não foi possível tentar novamente<lf>porque um membro saiu.
+<string>Processando Sinalizador SOS...
+<string>Atributos reforçados graças ao canto<lf>de preces e gratidão da Diva.
+<string>{0} usou<lf>um <BOLD>{1}</BOLD>!

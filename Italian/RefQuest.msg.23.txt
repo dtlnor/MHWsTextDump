@@ -3,6 +3,7 @@
 <string>Riepilogo
 <string>Membri
 <string>Ricompense
+<string>Record personale
 <string>Ambiente
 <string>In evidenza
 <string>Stato attuale
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">È già stato raggiunto il numero massimo di indagini salvate. Non puoi salvarne altre.</COLOR>
 <string><COLOR preset="TXT_Danger">Questa indagine è già stata salvata.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi iniziare la ricerca sul campo perché un membro del collegamento sta visualizzando i risultati della missione.</COLOR>
+<string><COLOR preset="TXT_Danger">Non si può usare durante questa missione.</COLOR>
+<string><COLOR preset="TXT_Danger">Questa missione non può essere accettata al di fuori del Centro supremo.</COLOR>
 <string>Torna al titolo
 <string>Riprova
 <string>Abbatti {0}
@@ -99,6 +102,19 @@
 <string>Ritorno<lf>alla<lf>base
 <string>Inizio<lf>missione
 <string>Missione<lf>accettata
+<string>Ritenta<lf>la missione
+<string>Tempo<lf>scaduto!
+<string>1° tiro!
+<string>2° tiro!
+<string>Punteggio
+<string>Completato
+<string>ATTENZIONE...
+<string>3
+<string>2
+<string>1
+<string>VIA!
+<string>VITTORIA
+<string>SCONFITTA
 <string>Tutte le missioni
 <string>Missioni principali
 <string>Missioni facoltative
@@ -116,6 +132,7 @@
 <string>Missioni membri stanza
 <string>Missioni razzo SOS
 <string>Missioni membri collegamento
+<string>Missioni Corsa al tempo opz.
 <string>Costo
 <string>Data e ora ricerca sul campo
 <string>Rimanente
@@ -148,6 +165,13 @@
 <string>Svenimenti: {0}/{1}
 <string>Cliente: {0}
 <string>Completato!
+<string>Armi disponibili
+<string>Valutazione tempo
+<string>I tuoi tempi migliori
+<string>Membri
+<string>Data: <DATETIME {0} "DD/MM/YYYY"> (UTC)
+<string>Data: <DATETIME {0} "DD/MM/YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Messaggio di reclutamento
 <string>Imposta un messaggio per reclutare membri.
 <string>Per tutti!
@@ -166,6 +190,7 @@
 <string>Un insediamento ha problemi di mostri!
 <string>Caccialo per bonus raccolta temporaneo.
 <string>{0} è sul Picco brinachiusa!
+<string>Santuario Fiaccola: è apparso {0}!
 <string>Limite giocatori
 <string>Imposta il numero massimo di giocatori che possono partecipare alle missioni. <COLOR preset="TXT_Accent">(Varia in base al numero massimo di membri collegamento).</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>Dato che il crossplay è disattivato nella schermata del titolo, vedrai solo le missioni di giocatori con la stessa impostazione.
 <string>Tutte le piattaforme
 <string>La tua piattaforma
+<string>Ulteriori dettagli
+<string>Regole missione Corsa al tempo opzionale<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
+<string>Regole missioni sfida/missioni Arena<lf>- Numero massimo di partecipanti: 2.<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.<lf>- I compagni Felyne non possono unirsi alla missione.<lf>- Gli effetti dei pasti <COLOR preset="TXT_Danger">verranno temporaneamente disabilitati<lf>durante la missione</COLOR> (e ripristinati una volta finita).<lf>- Gli effetti di stato, ottenuti da oggetti o da effetti melodia,<lf><COLOR preset="TXT_Danger">spariranno alla partenza</COLOR>.<lf><lf>Regole missione Corsa al tempo opzionale<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
 <string>Cerca razzo SOS
 <string>Tipologia missione
 <string>Qualsiasi
@@ -218,6 +246,7 @@
 <string>Elimina indagine
 <string>Eliminare l'indagine selezionata?<lf>Attenzione, se l'indagine rimane nella<lf><COLOR preset="TXT_Accent">Cronologia ricerche sul campo</COLOR>,<lf>anche la cronologia verrà cancellata.
 <string>Indagine eliminata.
+<string>Dettagli equip. disponibili
 <string>Il numero di volte in cui puoi accettare<lf>la missione selezionata è: {0}.<lf>Accettare la missione e salvare?
 <string>Aumentare temporaneamente il numero massimo<lf>di giocatori per le missioni?<lf><COLOR preset="TXT_Accent">(Non può essere modificato di nuovo<lf>fino al completamento della missione.)</COLOR>
 <string>Missioni principali
@@ -228,3 +257,17 @@
 <string>Missioni membro del collegamento ({0})
 <string>Missioni membri collegamento
 <string>Missioni razzo SOS ({0})
+<string>Missioni arena
+<string>Missioni sfida
+<string>Missioni Corsa al tempo opz.
+<string>Missioni di pesca
+<string>Missioni di pesca (limitato)
+<string>Tempo migliore
+<string>Equipaggiamento
+<string>Stato membri
+<string>Cacciatori di supporto
+<string>Con cacciatori di supporto
+<string>Senza cacciatori di supporto
+<string>Confermare equipaggiamento?
+<string>In attesa degli altri giocatori.
+<string>Punteggio alto

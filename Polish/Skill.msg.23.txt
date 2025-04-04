@@ -215,7 +215,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_127
 <string>Nieznacznie zwiększa każdy atak<lf>i szybkość strzelania ogniem wiwerny.<lf>Ostrzał ogniem +30.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_128
-<string>Zwiększa każdy atak<lf>i szybkość strzelania ogniem wiwerny.<lf>Ostrzał ogniem +60.
+<string>Zwiększa każdy atak i szybkość<lf>strzelania ogniem wiwerny.<lf>Ostrzał ogniem +60.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_129
 <string>Znacznie zwiększa każdy atak<lf>i szybkość strzelania ogniem wiwerny.<lf>Ostrzał ogniem +90.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_130
@@ -301,15 +301,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_185
 <string>Atak +25 po aktywacji
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_189
-<string>Zgodność ataków trafiających w słabe punkty<lf>zwiększa się o 5%, a w rany<lf>o dodatkowe 3%.
+<string>Zgodność ataków trafiających w<lf>słabe punkty zwiększa się o 5%,<lf>a w rany o dodatkowe 3%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_190
-<string>Zgodność ataków trafiających w słabe punkty<lf>zwiększa się o 10%, a w rany<lf>o dodatkowe 5%.
+<string>Zgodność ataków trafiających w<lf>słabe punkty zwiększa się o 10%,<lf>a w rany o dodatkowe 5%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_191
-<string>Zgodność ataków trafiających w słabe punkty<lf>zwiększa się o 15%, a w rany<lf>o dodatkowe 10%.
+<string>Zgodność ataków trafiających w<lf>słabe punkty zwiększa się o 15%,<lf>a w rany o dodatkowe 10%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_501
-<string>Zgodność ataków trafiających w słabe punkty<lf>zwiększa się o 20%, a w rany<lf>o dodatkowe 15%.
+<string>Zgodność ataków trafiających w<lf>słabe punkty zwiększa się o 20%,<lf>a w rany o dodatkowe 15%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_502
-<string>Zgodność ataków trafiających w słabe punkty<lf>zwiększa się o 30%, a w rany<lf>o dodatkowe 20%.
+<string>Zgodność ataków trafiających w<lf>słabe punkty zwiększa się o 30%,<lf>a w rany o dodatkowe 20%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_192
 <string>Po aktywacji zwiększa<lf>zgodność o 10% i zmniejsza<lf>spadek wytrzymałości o 30%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_193
@@ -383,7 +383,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_229
 <string>Neutralizuje wszelkie rodzaje naporu<lf>wiatru.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_230
-<string>Neutralizuje bardzo słabe wstrząsy ziemi<lf>i zmniejsza o połowę efekty słabych wstrząsów<lf>ziemi.
+<string>Neutralizuje bardzo słabe wstrząsy<lf>ziemi i zmniejsza o połowę efekty<lf>słabych wstrząsów ziemi.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_231
 <string>Neutralizuje słabe wstrząsy ziemi<lf>i łagodzi efekty silnych wstrząsów<lf>ziemi.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_232
@@ -660,6 +660,10 @@
 <string>Sprawia, że potwory nie zaatakują cię,<lf>nawet jeśli cię zauważą.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_374
 <string>Sprawia, że twoja trucizna<lf>działa o 20% dłużej.
+<string>Superregeneracja I
+<string>Pozwala na powolną regenerację paska<lf>zdrowia do wartości maksymalnej, nawet<lf>jeśli pasek nie ma czerwonej części.
+<string>Superregeneracja II
+<string>Pozwala na regenerację paska zdrowia<lf>do wartości maksymalnej, nawet<lf>jeśli pasek nie ma czerwonej części.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_378
 <string>Neutralizuje efekty ciepła i zimna.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_491
@@ -693,7 +697,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_458
 <string>Zwiększa dodatkowe obrażenia smoków<lf>i zwiększa smoczy atak.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_459
-<string>Jeszcze bardziej zwiększa dodatkowe obrażenia<lf>smoków i znacząco zwiększa<lf>smoczy atak
+<string>Jeszcze bardziej zwiększa dodatkowe<lf>obrażenia smoków i znacząco<lf>zwiększa smoczy atak
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_460
 <string>Po zarażeniu się szałem nieznacznie zwiększa<lf>tempo wyczerpywania się paska infekcji. <lf>Po zarażeniu zwiększa zgodność o 5%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_461
@@ -761,7 +765,7 @@
 <string>Przypalacz I
 <string>Szansa na zadanie dodatkowych<lf>obrażeń od ognia po wyprowadzeniu<lf>ataku.
 <string>Przypalacz II
-<string>Zwiększa dodatkowe obrażenia od ognia<lf>po celnym ataku.
+<string>Zwiększa dodatkowe obrażenia od<lf>ognia po celnym ataku.
 <string>Nieskazitelny pancerz I
 <string>Zmniejsza otrzymywane obrażenia<lf>o 5%, gdy masz pełny poziom zdrowia.
 <string>Nieskazitelny pancerz II
@@ -784,6 +788,28 @@
 <string>Regeneruje zdrowie, gdy bez przerwy<lf>atakujesz potwora. Poziom<lf>regeneracji zależy od broni.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_481
 <string>Pozwala używać powłoki<lf>wyczerpującej.
+<string>Bąblowy taniec I
+<string>Zmniejsza dużą bąblową plagę do małej i zwiększa<lf>możliwość uników podczas<lf>działania jej efektów.
+<string>Bąblowy taniec II
+<string>Zapobiega dużej bąblowej pladze oraz<lf>zwiększa możliwość uników. Aktywuj małą<lf>bąblową plagę poprzez wielokrotne uniki.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_505
+<string>Zgodność +3% w trakcie zmoknięcia, +7%<lf>lub gdy nałożone są efekty bąblowej plagi.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_506
+<string>Zgodność +6% w trakcie zmoknięcia, +14%,<lf>lub gdy nałożone są efekty bąblowej plagi.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_507
+<string>Zgodność +9% w trakcie zmoknięcia, +21%,<lf>lub gdy nałożone są efekty bąblowej plagi.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_508
+<string>Aktywuje efekt umiejętności. (Przy użyciu nie kumuluje się<lf>z podpalaczem,<lf>ale zadaje dodatkowe obrażenia od ognia.)
+<string>Męstwo (nieustępliwość)
+<string>Zwiększa atak i obniża obronę, ale daje<lf>przetrwać jedno śmiertelne trafienie.<lf>Następnie zwiększa obronę i odporność.
+<string>Mistrz Wykrajania
+<string>Pozwala wycinać materiały ze zwłok<lf>podczas zadań o jeden raz więcej. (Nie<lf>działa, gdy dołączasz w trakcie zadania).
+<string>Łaska Tańca Kwiatów I
+<string>Dodaje specjalne przedmioty do nagród<lf>za zadanie podczas Tańca Kwiatów. (Brak<lf>efektu w przypadku doł. w trakcie zad.).
+<string>Łaska Tańca Kwiatów II
+<string>Podczas Tańca Kwiatów dodaje<lf>specjalny przedmiot do nagród za zadanie<lf>oraz znacznie zwiększa siłę ataku i obronę.
+<string>Szczęście
+<string>Zwiększa szansę na lepsze nagrody<lf>za ukończenie misji. (Brak efektu,<lf>gdy dołączasz w trakcie zadania).
 <string>Wzmocnienie wybuchu I
 <string>Wydłuża czas trwania umiejętności<lf>Wybuch i zapewnia +3 ataku, gdy<lf>jest ona aktywna.
 <string>Wzmocnienie wybuchu II

@@ -10,6 +10,7 @@
 <string>Edit Leader Message
 <string>Leave
 <string>Disband
+<string>Confirm (Go to Name Creation)
 <string><COLOR FF0000>#Rejected#</COLOR> RefCircle_card_000
 <string><COLOR FF0000>#Rejected#</COLOR> RefCircle_card_001
 <string>Squad Vibe
@@ -52,7 +53,7 @@
 <string>{0} <PLURAL {0} "result" "results"> found. (Cannot retrieve all results due to too many matches.)
 <string>Could not find squads matching your requirements.
 <string>You have received {0} <PLURAL {0} "invitation" "invitations">.
-<string>You have {0} <PLURAL {0} "request" "requests">.
+<string>{0} <PLURAL {0} "request" "requests"> pending.
 <string>{0}: squad ID match was found.
 <string>Applicant List
 <string>Invitation List
@@ -98,6 +99,7 @@
 <string>Searching for squad...
 <string>Request to join this squad?
 <string>Sent squad request.
+<string>Sent squad request.<lf><lf>(You will automatically join if the Squad doesn't<lf>require join approval.)
 <string>Enter your squad name.<lf><lf><COLOR preset="TXT_Accent">The maximum number of characters is about 20.</COLOR>
 <string>{0}<lf><lf>Create new squad with this name?
 <string>Updating squad data...

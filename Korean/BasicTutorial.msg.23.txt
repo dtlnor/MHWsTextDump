@@ -339,6 +339,9 @@
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME>광룡증
 <string>광룡 바이러스의 축적으로 감염되며,<lf>몬스터를 일정 횟수 공격해 극복하지<lf>않으면 발병한다.<lf><lf>발병 상태: 받는 대미지가 커지고<lf>체력이 자연 회복되지 않는다.<lf>극복 상태: 회심률이 상승하고<lf>광룡증에 감염되지 않는다.<lf>두 상태는 시간 경과로 해제된다.<lf><lf>감염 상태일 때 <REF Item_IT_7>를 사용하면<lf>발병까지의 시간을 연장할 수 있다.
 <string>
+<string><ICON ST_BUBBLE>거품 상태【소】/<ICON ST_BUBBLE_HIGH>거품 상태【대】
+<string>몸에 거품이 붙은 상태.<lf>붙은 거품이 커지면 발이 미끄러워<lf>이동이 어려워진다. 이 상태에서<lf>공격을 받으면 공격 강도에 따라서는<lf>넘어져 대미지를 받을 수 있다.<lf><lf>주요 해제 방법:<lf>・<REF Item_IT_179> 사용<lf>・일정 시간 경과<lf>・공격받기
+<string>
 <string><ICON ST_FIRE>불속성 피해
 <string>시간이 지날수록 체력이 감소하는<lf>상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_7> 사용<lf>-물가에 들어가 회피 반복<lf>-일정 시간 경과
 <string>
@@ -352,7 +355,7 @@
 <string>스태미나 소비가 증가한 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_7> 사용<lf>-회피 반복<lf>-일정 시간 경과
 <string>
 <string><ICON ST_DRUGON>용속성 피해
-<string>무기 속성치가 무효화된 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_7> 사용<lf>-회피 반복<lf>-일정 시간 경과
+<string>무기와 슬링어탄의<lf>속성치가 무효화된 상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_7> 사용<lf>-회피 반복<lf>-일정 시간 경과
 <string>
 <string>진동 피해
 <string>일정 시간, 행동이 제한되는 상태.<lf>지진 강도에 따라 제한되는 시간이<lf>달라진다.<lf><lf>주요 해제 방법:<lf>-일정 시간 경과<lf>-공격받기

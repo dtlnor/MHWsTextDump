@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>初始化选中的项目
 <string>初始化全部项目
+<string>初始化类别内全部项目
 <string>要初始化选中的项目吗？
 <string>要初始化全部项目吗？<lf>（包括当前显示类别以外的所有项目）
+<string>要初始化当前显示类别内的全部项目吗？
 <string>全部
 <string><PLATMSG MsgGUI030100_0401>
 <string>共通 + 控制器
@@ -805,7 +807,7 @@
 <string>应用下列任意超分辨率技术，可同时实现高性能与高画质。
 <string>NVIDIA DLSS
 <string>启用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（仅在使用 NVIDIA GeForce RTX 显卡时可以设置）</COLOR><lf><COLOR preset="TXT_Accent">（如果使用 GeForce RTX 40 系列显卡，并且在操<lf>　作系统中启用了硬件加速的显示芯片调度，则选择<lf>　此选项可以启用“帧生成”设置）</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>启用<FSR>。<lf><COLOR preset="TXT_Accent">（如果在操作系统中启用了硬件加速的显示芯片调<lf>　度，则选择此选项可以启用“帧生成”设置）</COLOR>
 <string>Intel XeSS
 <string>启用Intel <XESS>。
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>保持原始分辨率，并使用AI抗锯齿功能。
 <string>AMD Native AA
-<string>保持原始分辨率，并使用FSR 3的抗锯齿功能。
+<string>保持原始分辨率，并使用FSR的抗锯齿功能。
 <string>Intel XeSS Native AA
 <string>保持原始分辨率，并使用XeSS的抗锯齿功能。
 <string>画质优先
@@ -839,7 +841,7 @@
 <string>关
 <string>不启用超分辨率技术时，会自动选择此项。
 <string>超分辨率锐度
-<string>设置启用超分辨率技术时的画面锐度。<lf>数值越高，画面越锐利，数值越低，画面越柔和。<lf><COLOR preset="TXT_Accent">（仅能在“超分辨率技术”设置为“AMD FSR 3”时变更）</COLOR>
+<string>设置启用超分辨率技术时的画面锐度。<lf>数值越高，画面越锐利，数值越低，画面越柔和。<lf><COLOR preset="TXT_Accent">（仅能在“超分辨率技术”设置为“AMD FSR”时变更）</COLOR>
 <string>抗锯齿
 <string>切换抗锯齿模式。<lf><COLOR preset="TXT_Accent">（此设置仅能在未启用“超分辨率技术”时变更）</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>始终显示同伴的体力槽，不会最小化。
 <string>动态显示（最小化）
 <string>以最小化状态显示同伴的体力槽，视情况自动展开。
+<string>显示部分任务的经过时间
+<string>设置在斗技大会任务、挑战任务、自由挑战任务中，<lf><ICON PL_ITEM_SLIDER_OPEN>期间是否在任务／使命目标上显示任务经过时间。
+<string>显示
+<string>相关任务中，<ICON PL_ITEM_SLIDER_OPEN>期间将会在任务／使命目标上<lf>显示任务经过时间。
+<string>不显示
+<string>相关任务中，即使按<ICON PL_ITEM_SLIDER_OPEN>也不会在任务／使命目标<lf>上显示任务经过时间。
 <string>聊天发送后的操作设置
 <string>设置聊天发送后是否关闭交流窗口及聊天记录窗口。
 <string>关闭窗口

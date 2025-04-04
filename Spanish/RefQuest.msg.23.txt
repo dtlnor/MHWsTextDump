@@ -3,6 +3,7 @@
 <string>Resumen
 <string>Miembros
 <string>Recompensas
+<string>Récord personal
 <string>Resumen de entorno
 <string>Actualizar
 <string>Actual
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">Ya se ha alcanzado el número máximo de investigaciones guardadas. No puedes guardar más.</COLOR>
 <string><COLOR preset="TXT_Danger">Esta investigación ya se ha guardado.</COLOR>
 <string><COLOR preset="TXT_Danger">No se ha podido iniciar el estudio de campo: un miembro vinculado está viendo los resultados de la misión.</COLOR>
+<string><COLOR preset="TXT_Danger">No disponible durante esta misión.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes aceptar esta misión fuera del gran centro.</COLOR>
 <string>Volver a la pantalla del título
 <string>Reintentar
 <string>Abate a {0}
@@ -99,6 +102,19 @@
 <string>Volviendo<lf>a la base
 <string>Inicio<lf>de misión
 <string>Misión<lf>aceptada
+<string>Reintentar<lf>misión
+<string>¡Se acabó<lf>el tiempo!
+<string>¡Primera tirada!
+<string>¡Segunda tirada!
+<string>Puntuación
+<string>Completada
+<string>¿A PUNTO?
+<string>3
+<string>2
+<string>1
+<string>¡YA!
+<string>HAS GANADO
+<string>HAS PERDIDO
 <string>Todas las misiones
 <string>Encargos
 <string>Misiones opcionales
@@ -116,6 +132,7 @@
 <string>Misiones de miembros de sala
 <string>Misiones de bengala de auxilio
 <string>Misiones de miembros vinculados
+<string>Misiones desafío abiertas
 <string>Coste
 <string>Inicio de estudio de campo
 <string>Quedan
@@ -148,6 +165,13 @@
 <string>Desmayos: {0}/{1}
 <string>Cliente: {0}
 <string>¡Completada!
+<string>Armas disponibles
+<string>Tiempo de clasificación
+<string>Tus mejores tiempos
+<string>Miembros
+<string>Fecha: <DATETIME {0} "DD/MM/YYYY"> (UTC)
+<string>Fecha: <DATETIME {0} "DD/MM/YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Mensaje de reclutamiento
 <string>Elige un mensaje para reclutar miembros.
 <string>¡Todos bienvenidos!
@@ -166,6 +190,7 @@
 <string>Problemas en un asentamiento: ¡Monstruos!
 <string>Cázalo para conseguir una bonus de recolección
 <string>P. Escarcha: ¡ha aparecido {0}!
+<string>Tea Dracónida: ¡Ha aparecido {0}!
 <string>Miembros máximos
 <string>Indica el máximo número de jugadores que se pueden unir a misiones. <COLOR preset="TXT_Accent">(El número variará según el número máximo de miembros vinculados).</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>Al deshabilitar el juego interplataforma en el menú de título, las búsquedas solo mostrarán misiones de jugadores con los mismos ajustes.
 <string>Todas las plataformas
 <string>Tu plataforma
+<string>Detalles adicionales
+<string>Reglas para las misiones desafío abiertas<lf>- Bengala de auxilio automática: puedes enviar bengalas de auxilio.<lf>- Acceso a misiones: no es posible unirse a misiones ya empezadas.<lf>- Los cazadores de apoyo participan en la misión desde el principio.
+<string>Normas de misiones de desafío y de la Arena<lf>- El número máximo de participantes es 2.<lf>- Bengala de auxilio automática: no puedes enviar bengalas de auxilio.<lf>- Acceso a misiones: no es posible unirse a misiones ya empezadas.<lf>- Los cazadores de apoyo participan en la misión desde el principio.<lf>- Los camaradas no pueden unirse a la misión.<lf>- Los efectos de menú <COLOR preset="TXT_Danger">se desactivarán temporalmente durante<lf>la misión</COLOR>. (Se restaurarán al terminar la misión).<lf>- Los efectos de estado de objetos y melodías <COLOR preset="TXT_Danger">desaparecerán<lf>tras iniciar la misión</COLOR>.<lf><lf>Reglas para las misiones desafío abiertas<lf>- Bengala de auxilio automática: puedes enviar bengalas de auxilio.<lf>- Acceso a misiones: no es posible unirse a misiones ya empezadas.<lf>- Los cazadores de apoyo participan en la misión desde el principio.
 <string>Buscar bengala de auxilio
 <string>Tipo de misión
 <string>Cualquiera
@@ -218,6 +246,7 @@
 <string>Eliminar investigación
 <string>¿Quieres eliminar la investigación seleccionada?<lf><lf>Aviso: Si la misión sigue en tu <COLOR preset="TXT_Accent">historial de<lf>estudio de campo</COLOR>, el historial también se borrará.
 <string>Investigación eliminada.
+<string>Detalles del equipamiento disponible
 <string>El número de veces que puedes aceptar la misión<lf>seleccionada es: {0}.<lf>¿Aceptar la misión y guardar?
 <string>¿Aumentar temporalmente el máximo<lf>número de jugadores para las misiones?<lf><COLOR preset="TXT_Accent">(No se puede cambiar de nuevo<lf>hasta que se complete la misión).</COLOR>
 <string>Encargos
@@ -228,3 +257,17 @@
 <string>Misiones de miembros vinculados ({0})
 <string>Misiones de miembros vinculados
 <string>Misiones de bengala de auxilio ({0})
+<string>Misiones de la Arena
+<string>Misiones desafío
+<string>Misiones desafío abiertas
+<string>Misiones de pesca
+<string>Misiones de pesca (limitadas)
+<string>Mejor tiempo
+<string>Equipamiento
+<string>Estado del miembro
+<string>Cazador de apoyo
+<string>Con cazadores de apoyo
+<string>Sin cazadores de apoyo
+<string>¿Quieres confirmar este equipamiento?
+<string>Esperando a los demás jugadores.
+<string>Récord de puntuación

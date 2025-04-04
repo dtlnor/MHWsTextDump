@@ -8,7 +8,7 @@
 <string>Gracz {0}<lf>nie mógł dołączyć do wspólnej grupy.
 <string>Gracz {0} dołączył do twojego<lf>wspólnego świata.
 <string>Dołączono do wspólnego świata<lf>gracza {0}.
-<string>Gracz {0} opuścił wspólny<lf>świat.
+<string>Gracz {0}<lf>opuścił wspólny świat.
 <string><LSNR "Wróciłeś" "Wróciłaś"> do swojego świata.
 <string>Odrzucono zaproszenie do wspólnego świata.
 <string>Gracz {0} nie mógł dołączyć do<lf>wspólnego świata.
@@ -62,15 +62,15 @@
 <string>Otrzymano <PLURAL "{0} powiadomienie o zaproszeniu" "{0} powiadomienia o zaproszeniu" "{0} powiadomień o zaproszeniu">.
 <string>Zaproszenia do znajomych
 <string>Otrzymano zaproszenie do znajomych<lf>od gracza {0}.
-<string>Gracz {0} jest w gronie znajomych.
+<string>Gracz {0}<lf>jest w gronie znajomych.
 <string>Zapora jest gotowa do użycia.
 <string>Zapora będzie gotowa za <PLURAL "{0} minutę" "{0} minuty" "{0} minut">
 <string>Zapora będzie gotowa za <PLURAL "{0} sekundę" "{0} sekundy" "{0} sekund">
 <string>Przybył statek wsparcia.
 <string>Statek wsparcia wkrótce odpłynie.
 <string>Statek wsparcia odpłynął.
-<string>Zużyto szczęśliwy talon. (Pozostało: {0})
-<string>Zostaną przyznane losowe nagrody oraz zeni.
+<string>Użyj szczęśliwego talonu (Pozostało: {0})
+<string>Użyj szczęśliwego talonu, żeby<lf>otrzymać lepsze losowe nagrody<lf>za zadanie oraz dodatkowe zeni.
 <string>Użyj
 <string>Zużyto szczęśliwy talon.
 <string>Aktywność wspólnego świata
@@ -118,7 +118,7 @@
 <string>Nadciąga cel listy życzeń!<lf>{0}
 <string>Otwórz mapę
 <string>Przegląd otoczenia
-<string>Nadciąga {0}!
+<string>Nadciąga<lf>{0}!
 <string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>{0}<lf>wkrótce opuści tę okolicę!
@@ -197,6 +197,7 @@
 <string>{0}
 <string>Zdobyto nowe tło!
 <string>Wygląda na to, że Świnka nic nie ma...
+<string>
 <string>Ogłoszono nowe zlecenie.
 <string>Zlecenie limitowane
 <string>{0}<lf>{1}/{2}
@@ -240,6 +241,9 @@
 <string>Udało ci się osiągnąć {0}. rangę łowcy!
 <string>Nie możesz tu umieścić<lf>niesionego przedmiotu.
 <string>Rozgrywka międzyplatformowa <lf>aktualnie jest włączona.
+<string>Księga Zadań na Arenie
+<string>Członek grupy wchodzi na arenę.<lf>Idź do <BOLD>wielkiego centrum</BOLD>,<lf>by do niego dołączyć.
+<string>Otwórz mapę
 <string>Powiadomienie oddziału
 <string>Otrzymano zaproszenie do oddziału:<lf><BOLD>{0}</BOLD>.
 <string>Powiadomienie oddziału
@@ -251,6 +255,9 @@
 <string>Gracz <BOLD>{1}</BOLD><lf>dołączył do oddziału<lf>{0}.
 <string>Wyznaczono cię na poddowódcę<lf>oddziału <BOLD>{0}</BOLD>.
 <string>Wyznaczono cię na dowódcę<lf>oddziału <BOLD>{0}</BOLD>.
+<string>Aktualizacja przeglądu otoczenia
+<string>W świątyni Smoczego Ognia<lf>pojawił się potwór<lf>{0}!
+<string>Otwórz mapę
 <string>Premia za logowanie
 <string>Premia za dzisiejsze logowanie<lf>jest dostępna w menu startowym.
 <string>Odbierz teraz
@@ -260,9 +267,18 @@
 <string>Gracz {0}<lf>udostępnił zestaw<lf>przedmiotów.
 <string>Udostępniony zestaw menu kołowego
 <string>Gracz {0}<lf>udostępnił zestaw<lf>menu kołowego.
+<string>Trwa Festiwal Porozumienia:<lf>Taniec Kwiatów!<lf>(<PLURAL {0} "Został {0} dzień" "Zostały {0} dni" "Zostało {0} dni">)
+<string>Trwa Festiwal Porozumienia:<lf>Taniec Kwiatów!<lf>(<PLURAL {0} "Została {0} godzina" "Zostały {0} godziny" "Zostało {0} godzin">)
+<string>Trwa Festiwal Porozumienia:<lf>Taniec Kwiatów!<lf>(Dobiega końca)
 <string>Umiejętność <BOLD>{0}</BOLD><lf>może teraz być aktywowana.
 <string>Nie udało się odebrać udostępnionego zestawu
 <string>Nie udało się odebrać, ponieważ<lf>osiągnięto maksymalną liczbę<lf>powiadomień o udostępnionych zestawach.
 <string>Masz powiadomienie o zaproszeniu.<lf>Sprawdź w menu startowym opcję<lf><BOLD>Powiadomienia o zaproszeniach</BOLD>.
 <string>Ktoś chce dołączyć do twojej gry.<lf>Sprawdź w menu startowym opcję<lf><BOLD>Prośby o dołączenie</BOLD>.
 <string>Nie udało się zainicjować zadania.
+<string>{0} osiąga w kręglach<lf>beczkowych wynik {1}!
+<string>{0} wygrywa w siłowaniu się<lf>na rękę {1} razy z rzędu!
+<string>Nie można spróbować<lf>ponownie, ponieważ<lf>członek odszedł.
+<string>Przetwarzanie flary alarmowej...
+<string>Statystyki zwiększone dzięki modlitwie<lf>i wdzięczności diwy.
+<string>Gracz {0} użył:<lf><BOLD>{1}</BOLD>!

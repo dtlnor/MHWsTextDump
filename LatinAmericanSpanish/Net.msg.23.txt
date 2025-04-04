@@ -29,7 +29,7 @@
 <string>Inicializando red...
 <string>Se encontró una nueva versión de la aplicación.<lf>Para usar las funciones de la red, cierra<lf>la aplicación y actualízala.
 <string>Tus datos de cazador han sido sobrescritos.<lf>Puedes usar estos datos de manera segura, pero se<lf>reiniciaron los datos de <COLOR preset="TXT_Accent">Amigos del cazador</COLOR>, los<lf>datos de <COLOR preset="TXT_Accent">Siguiendo/Seguidores</COLOR> y las <COLOR preset="TXT_Accent">Brigadas</COLOR>.
-<string>El jugador ya se unió al grupo vinculado.<lf><lf>{0}
+<string>El jugador ya se unió a un grupo vinculado.<lf><lf>{0}
 <string>Se ha alcanzado el límite de jugadores del grupo<lf>vinculado. No puedes añadir más jugadores.<lf><lf>{0}
 <string>No se pudo enviar porque el otro jugador<lf>alcanzó el límite de invitaciones a<lf>grupos vinculados.<lf>{0}
 <string>No puedes reportar en este momento.<lf>Por favor espera y vuelve a intentarlo.<lf>{0}
@@ -44,6 +44,7 @@
 <string>Esta función no está disponible en este momento<lf>debido a tareas de mantenimiento.<lf>Espera un poco e inténtalo de nuevo.<lf>{0}
 <string>No puedes bloquear a más jugadores, ya que<lf>alcanzaste el número máximo de bloqueados.<lf>{0}
 <string>En este momento se están realizando tareas<lf>de mantenimiento en los servidores.<lf>{0}
+<string>
 <string>Se perdió la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
 <string>Error al buscar la sesión.<lf>{0}
@@ -66,6 +67,7 @@
 <string>El servidor está ocupado actualmente.<lf>Espera un momento y vuelve a intentarlo.
 <string>El crossplay está activado.
 <string>No puedes participar en esta sesión debido<lf>a las opciones de crossplay de la otra parte.<lf>{0}
+<string>No puedes unirte a esta misión porque ya comenzó.
 <string>No se pudo participar porque la sesión tiene<lf>opciones de crossplay diferentes. Revisa tus<lf>ajustes de crossplay en la sección <BOLD>Opciones</BOLD><lf>en la pantalla del título.<lf>{0}
 <string>Se alcanzó el límite de jugadores<lf>para el grupo vinculado. No se pueden<lf>añadir más.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "D [de] xMMMM [de] YYYY HH:mm"> (UTC)<lf><lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
@@ -89,7 +91,7 @@
 <string><COLOR preset="TXT_Accent">Las funciones sociales están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf><lf>Se señaló tu cuenta por violar los <COLOR preset="TXT_Danger">Términos de uso y/o<lf>el Contrato de licencia de usuario final (CLUF) sobre<lf>comportamiento prohibido</COLOR>. Como resultado, <COLOR preset="TXT_Accent">se han restringido<lf>temporalmente las características sociales y de interacción con<lf>otros jugadores</COLOR>.<lf>Un comportamiento similar o reincidente podría llevar a<lf>restricciones permanentes. <COLOR preset="TXT_Accent"> Juega siguiendo los Términos de<lf>uso y el Contrato de licencia de usuario final (CLUF).</COLOR>
 <string><COLOR preset="TXT_Danger">Cuenta suspendida permanentemente</COLOR>.<lf><lf><COLOR preset="TXT_Danger">Tu cuenta se suspendió de forma permanente</COLOR><lf>ante la confirmación del incumplimiento de nuestros Términos<lf>de uso y/o el Contrato de licencia de usuario final (CLUF).<lf><lf>La cuenta en cuestión no podrá acceder al modo online<lf>en Monster Hunter Wilds. Ten en cuenta que no se van a ofrecer<lf>medidas para retirar la suspensión de una cuenta,<lf>según lo estipulado en los Términos de uso.
 <string><COLOR preset="TXT_Accent">Las funciones sociales están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf><lf>Se señaló tu cuenta por <COLOR preset="TXT_Danger">sospecha de comportamiento ofensivo</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente las<lf>características sociales y de interacción con otros jugadores</COLOR>.<lf>Un comportamiento similar o reincidente podría llevar a<lf>restricciones permanentes. <COLOR preset="TXT_Accent">Juega siguiendo los Términos de uso<lf>y el Contrato de licencia de usuario final (CLUF).</COLOR><lf>Si no sabes qué conducta podría justificar una acción así,<lf>ponte en contacto con nosotros a través del formulario.
-<string><COLOR preset="TXT_Accent">Las funciones sociales actualmente están restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf><lf>Se señaló tu cuenta por <COLOR preset="TXT_Danger">sospecha de contenido o lenguaje<lf>inapropiado</COLOR>. Por ello, <COLOR preset="TXT_Accent">se han restringido temporalmente las<lf>características sociales y de interacción con otros<lf>jugadores</COLOR>. Un comportamiento similar o reincidente podría<lf>llevar a restricciones permanentes. <COLOR preset="TXT_Accent">Juega siguiendo los<lf>Términos de uso y el Contrato de licencia de usuario final<lf>(CLUF).</COLOR> Si no sabes qué conducta podría justificar una acción<lf>así, ponte en contacto con nosotros a través del formulario.
+<string><COLOR preset="TXT_Accent">Las funciones sociales están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf><lf>Se señaló tu cuenta por <COLOR preset="TXT_Danger">sospecha de contenido o lenguaje<lf>inapropiado</COLOR>. Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente las<lf>características sociales y de interacción con otros jugadores</COLOR>.<lf>Un comportamiento similar o reincidente podría llevar a<lf>restricciones permanentes. <COLOR preset="TXT_Accent">Juega siguiendo los Términos de<lf>uso y el Contrato de licencia de usuario final (CLUF).</COLOR><lf>Si no sabes qué conducta podría justificar una acción así,<lf>ponte en contacto con nosotros a través del formulario.
 <string><COLOR preset="TXT_Accent">Las funciones sociales están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf>Se señaló tu cuenta por <COLOR preset="TXT_Danger">sospecha de violación de los Términos<lf>de uso y/o el Contrato de licencia de usuario final (CLUF) sobre<lf>comportamientos prohibidos</COLOR>. Como resultado, <COLOR preset="TXT_Accent">se han restringido<lf>temporalmente funciones sociales y de interacción con jugadores</COLOR>.<lf>Un comportamiento similar o reincidente podría llevar a<lf>restricciones permanentes. <COLOR preset="TXT_Accent">Juega siguiendo los Términos de uso<lf>y el Contrato de licencia de usuario final (CLUF).</COLOR><lf>Si no sabes qué conducta podría justificar una acción así,<lf>ponte en contacto con nosotros a través del formulario.
 <string><COLOR preset="TXT_Accent">Las funciones sociales están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf><lf>Se señaló tu cuenta por <COLOR preset="TXT_Danger">comportamiento ofensivo</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente las<lf>características sociales y de interacción con otros jugadores</COLOR>.<lf><lf>Un comportamiento similar o reincidente podría llevar<lf>a restricciones permanentes.
 <string><COLOR preset="TXT_Accent">Las funciones sociales están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "hh:mm A DD/MM/YYYY"> (UTC)<lf><lf>Se señaló tu cuenta por <COLOR preset="TXT_Danger">lenguaje inapropiado</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente las<lf>características sociales y de interacción con otros jugadores</COLOR>.<lf><lf>Un comportamiento similar o reincidente podría llevar a<lf>restricciones permanentes.
@@ -116,6 +118,13 @@
 <string>Empezar
 <string>Se produjo un error.<lf>Por favor, notifícalo al personal cercano.
 <string>Error al obtener los datos de transmisión.<lf>{0}
+<string>Error al subir el tiempo final. Accede al puesto<lf>de misiones o al puesto de misiones de la Arena<lf>e intenta subir tu tiempo final de nuevo.<lf><lf>{0}
+<string>Se subió el tiempo total a la clasificación.
+<string>Error al intentar obtener información<lf>de clasificación.<lf><lf>{0}
+<string>Tienes un tiempo total sin registrar.<lf>¿Quieres subir el tiempo total a la clasificación?
+<string>Seleccionar "Sí" eliminará tu tiempo total.<lf>¿Seguro que quieres continuar?
+<string>Hay un tiempo total no registrado, pero ya no se<lf>puede registrar porque el tiempo de validación<lf>terminó.
+<string>
 <string>{0}<lf>Error al buscar este ID de brigada.<lf>{1}
 <string>Las invitaciones o solicitudes de brigada<lf>superaron el máximo.<lf><lf>{0}
 <string>No se pudo entrar en la brigada.<lf><lf>{0}

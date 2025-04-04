@@ -29,7 +29,7 @@
 <string>Inicjowanie sieci...
 <string>Znaleziono nową wersję aplikacji.<lf>Żeby korzystać z funkcji sieciowych,<lf>wyłącz aplikację i wykonaj aktualizację.
 <string>Zastąpiono dane łowcy. Nadal można bezpiecznie<lf>używać tych zapisanych danych, ale dane znajomych,<lf>obserwowanych/obserwujących i oddziałów zostały<lf>zresetowane.
-<string>Gracz już dołączył do wspólnej grupy.<lf>{0}
+<string>Gracz już dołączył do wspólnej grupy.<lf><lf>{0}
 <string>Osiągnięto maksymalną liczbę graczy we wspólnej<lf>grupie. Nie można dodać więcej graczy.<lf>{0}
 <string>Nie udało się wysłać, ponieważ odbiorca osiągnął<lf>limit zaproszeń do wspólnej grupy.<lf>{0}
 <string>Nie możesz teraz tego zgłosić. Poczekaj<lf>chwilę i spróbuj ponownie później.<lf><lf>{0}
@@ -44,6 +44,7 @@
 <string>Ta funkcja jest obecnie niedostępna z powodu<lf>konserwacji. Proszę poczekać chwilę i spróbować<lf>ponownie.<lf>{0}
 <string>Osiągnięto limit blokad i nie możesz zablokować<lf>więcej graczy.<lf>{0}
 <string>Serwery są obecnie w trakcie zaplanowanej<lf>konserwacji.<lf>{0}
+<string>Funkcjonalność oddziału nie jest<lf>dostępna z tego konta.<lf>{0}
 <string>Utracono połączenie z sesją.<lf>{0}
 <string>Nie udało się utworzyć sesji.<lf>{0}
 <string>Nie udało się wyszukać sesji.<lf>{0}
@@ -66,6 +67,7 @@
 <string>Serwer jest obecnie zajęty. Poczekaj<lf>chwilę i spróbuj ponownie później.
 <string>Rozgrywka międzyplatformowa jest obecnie włączona.
 <string>Nie możesz wziąć udziału w tej sesji ze względu<lf>na ustawienia rozgrywki międzyplatformowej<lf>innego gracza.<lf>{0}
+<string>Nie można dołączyć do tego zadania,<lf>ponieważ już się zaczęło.
 <string>Nie można wziąć udziału, ponieważ sesja ma inne<lf>ustawienia rozgrywki międzyplatformowej. Sprawdź<lf>swoje ustawienia rozgrywki międzyplatformowej<lf>w <BOLD>Opcjach</BOLD> w Menu tytułowym.<lf>{0}
 <string>Osiągnięto limit graczy we wspólnej grupie.<lf>Nie można dodać więcej graczy.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "DD.MM.YYYY H:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
@@ -116,6 +118,13 @@
 <string>Wyrusz
 <string>Wystąpił błąd. Poinformuj pobliski zespół.
 <string>Nie udało się uzyskać danych transmisji.<lf>{0}
+<string>Nie udało się przesłać czasu ukończenia.<lf>Przejdź do Księgi Zadań lub Księgi Zadań na Arenie<lf>i spróbuj przesłać swój czas ukończenia ponownie.<lf><lf>{0}
+<string>Twój czas ukończenia został przesłany do rankingu.
+<string>Nie udało się pobrać informacji o rankingu.<lf><lf>{0}
+<string>Istnieje niezarejestrowany czas ukończenia.<lf>Czy przesłać czas ukończenia do rankingu?
+<string>Wybór „Tak” wyzeruje twój czas ukończenia.<lf>Kontynuować?
+<string>Istnieje niezarejestrowany czas ukończenia,<lf>ale nie można go już zarejestrować,<lf>ponieważ okres ważności minął.
+<string>Jesteś obecnie w trybie offline,<lf>więc czasy ukończenia nie mogą<lf>zostać przesłane do rankingu.
 <string>{0}<lf>Nie udało się wyszukać powyższego ID oddziału.<lf>{1}
 <string>Zaproszenia do oddziału i prośby dołączenia<lf>do oddziału przekroczyły maksimum.<lf><lf>{0}
 <string>Nie udało się dołączyć do oddziału.<lf><lf>{0}

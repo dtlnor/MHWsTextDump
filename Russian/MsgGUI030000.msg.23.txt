@@ -30,6 +30,7 @@
 <string>Отменить сигнал SOS?
 <string><REF RefMenu_013>
 <string>Хотите вернуться с тем, что уже успели собрать?<lf><COLOR preset="TXT_Danger">(Выполнение поручения засчитано не будет.)</COLOR>
+<string>Хотите прекратить выполнение поручения?<lf><COLOR preset="TXT_Danger">В этом случае оно не будет засчитано.</COLOR><lf><COLOR preset="TXT_Danger">Вы лишитесь всех предметов, полученных</COLOR><lf><COLOR preset="TXT_Danger">во время его выполнения.</COLOR>
 <string><REF RefMenu_052>
 <string><REF RefMenu_004>
 <string><REF RefMenu_006>
@@ -40,13 +41,14 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_dlg_00_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_dlg_00_02
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_dlg_01_00
-<string>Возобновить задание с последней контрольной точки?
-<string>Пригласить участников общего отряда в ваш мир?
-<string>Все участники общего отряда приглашены в ваш мир.
+<string>Возобновить задание с последней<lf>контрольной точки?
+<string>Пригласить участников<lf>общего отряда в ваш мир?
+<string>Все участники общего отряда<lf>приглашены в ваш мир.
 <string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Пригласить всех участников общего отряда<lf>в ваш мир не удалось.
 <string>Разорвать связь миров?
 <string>Связь миров разорвана.
 <string><COLOR preset="TXT_Danger">Ошибка</COLOR><lf>Разорвать связь миров не удалось.
+<string>Хотите начать выполнение поручения заново?
 <string><COLOR preset="TXT_Danger">Невозможно использовать в данный момент.</COLOR>
 <string><COLOR preset="TXT_Danger">Нельзя использовать, выполняя поручения.</COLOR>
 <string><COLOR preset="TXT_Danger">Невозможно использовать в бою.</COLOR>
@@ -87,8 +89,8 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030000_06_02
 <string><REF RefMenu_057>
 <string>Изменить вкладки
-<string>Сбросить изменения вкладки
-<string>Вы собираетесь сбросить все изменения на вкладке.<lf>Продолжить?
+<string>Сбросить изменения вкладок
+<string>Все изменения вкладок будут сброшены.<lf>Продолжить?
 <string>Изменить избранное
 <string>Изменить виджеты
 <string>По умолчанию

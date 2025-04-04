@@ -57,7 +57,7 @@
 <string>Se te ha dado el control<lf>de la sala privada.
 <string>Objetos de apoyo devueltos.
 <string>Anuncio
-<string><PLURAL {0} "{0} notificación recibida" "{0} notificaciones recibidas"> mientras juegas sin conexión.
+<string><PLURAL {0} "{0} notificación recibida" "{0} notificaciones recibidas"><lf>mientras juegas sin conexión.
 <string>Anuncio
 <string><PLURAL {0} "{0} invitación recibida" "{0} invitaciones recibidas">.
 <string>Solicitudes de amistad
@@ -69,8 +69,8 @@
 <string>Ha llegado el barco de apoyo.
 <string>El barco de apoyo zarpará pronto.
 <string>El barco de apoyo ha zarpado.
-<string>Vale suertudo utilizado. (Restantes: {0})
-<string>Se otorgarán conjuntos de recompensa<lf>aleatorios y zenis.
+<string>Usar vale suertudo (quedan: {0})
+<string>Utiliza un vale suertudo para tener<lf>mejores recompensas aleatorias<lf>y zenis extra al terminar la misión.
 <string>Usar
 <string>Vale suertudo utilizado.
 <string>Actividad del entorno vinculado
@@ -197,6 +197,7 @@
 <string>{0}
 <string>¡Nuevo fondo obtenido!
 <string>El poogie no tiene nada...
+<string>Venta completada.
 <string>Se ha publicado una nueva submisión.
 <string>Submisiones limitadas
 <string>{0}<lf>{1}/{2}
@@ -240,6 +241,9 @@
 <string>¡Has alcanzado el rango de cazador {0}!
 <string>No puedes colocar aquí este objeto.
 <string>El juego interplataforma está activado.
+<string>Puesto de misiones de la Arena
+<string>Un miembro vinculado ha entrado en la Arena.<lf>Ve al <BOLD>gran centro</BOLD> para unirte a él.
+<string>Abrir mapa
 <string>Notificación de brigada
 <string>Has recibido una invitación para unirte<lf>a la brigada: <BOLD>{0}</BOLD>.
 <string>Notificación de brigada
@@ -251,6 +255,9 @@
 <string><BOLD>{1}</BOLD> se ha unido a<lf>la brigada {0}.
 <string>Te han designado como sublíder de<lf>la brigada <BOLD>{0}</BOLD>.
 <string>Te han designado como líder de<lf>la brigada <BOLD>{0}</BOLD>.
+<string>Novedad en el entorno
+<string>¡{0} ha aparecido<lf>en el santuario de la Tea Dracónida!
+<string>Abrir mapa
 <string>Bonificación de inicio de sesión
 <string>La bonificación de inicio de sesión de hoy<lf>ya está disponible en el menú de inicio.
 <string>Reclama ya
@@ -260,9 +267,18 @@
 <string>{0} ha compartido<lf>un set de objetos.
 <string>Set del menú radial compartido
 <string>{0} ha compartido un<lf>set del menú radial.
+<string>¡El Festival de la Armonía: Floradanza<lf>ha empezado!<lf>(Queda: {0} <PLURAL {0} "día" "días">)
+<string>¡El Festival de la Armonía: Floradanza<lf>ha empezado!<lf>(Queda: {0} <PLURAL {0} "hora" "horas">)
+<string>¡El Festival de la Armonía: Floradanza<lf>ha empezado!<lf>(Terminará pronto)
 <string>Ya se puede activar<lf>la habilidad <BOLD>{0}</BOLD>.
 <string>Error al recibir el set compartido.
 <string>Error al recibir porque se ha alcanzado<lf>el límite máximo de notificaciones<lf>de sets compartidos.
 <string>Tienes una invitación.<lf>Comprueba tu <BOLD>lista de invitaciones</BOLD><lf>en el menú de inicio.
 <string>Has recibido una solicitud de acceso.<lf>Consulta las <BOLD>solicitudes de acceso</BOLD><lf>desde el menú de inicio.
 <string>No se ha podido iniciar la misión.
+<string>¡{0} ha alcanzado una puntuación total<lf>de {1} en la Bolera Barril!
+<string>¡{0} ha conseguido {1} victorias<lf>consecutivas en los pulsos!
+<string>No se ha podido reintentar,<lf>ya que se ha ido un miembro.
+<string>Procesando bengala de auxilio...
+<string>Se han mejorado tus atributos gracias<lf>a la voz, plegarias y gratitud de la Diva.
+<string>¡{0} ha utilizado<lf>un <BOLD>{1}</BOLD>!

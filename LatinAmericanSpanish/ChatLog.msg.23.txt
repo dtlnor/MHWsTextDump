@@ -1,14 +1,14 @@
 ﻿<string>{0}<lf>entró a la sala.
 <string>Te uniste<lf>a la sala de {0}.
 <string>{0}<lf>abandonó la sala.
-<string>{0}<lf>se unió<lf>al grupo vinculado.
+<string>{0} se unió al<lf>grupo vinculado.
 <string>Te uniste al grupo<lf>vinculado de {0}.
-<string>{0}<lf>abandonó<lf>el grupo vinculado.
+<string>{0} abandonó<lf>el grupo vinculado.
 <string>Rechazaste la invitación del grupo vinculado.
-<string>{0}<lf>no se pudo unir<lf>al grupo vinculado.
+<string>{0} no se pudo unir<lf>al grupo vinculado.
 <string>{0} se unió a tu<lf>entorno vinculado.
 <string>Accediste al entorno<lf>vinculado de {0}.
-<string>{0}<lf>salió del entorno vinculado.
+<string>{0} dejó el<lf>entorno vinculado.
 <string>Regresaste a tu propio entorno.
 <string>Rechazaste la invitación<lf>al entorno vinculado.
 <string>{0}<lf>no se pudo unir al entorno vinculado.
@@ -16,26 +16,26 @@
 <string>{0}<lf>no se pudo unir<lf>a la misión.
 <string>{0}<lf>publicó una misión.
 <string>{0}<lf>se unió a la misión.
-<string>Te uniste<lf>a la misión de {0}.
+<string>Te uniste a la misión de<lf>{0}.
 <string>{0}<lf>abandonó la misión.
 <string>{0} aceptó una misión<lf>y está esperando a que otros se unan.
 <string>Te desmayaste.<lf>(Intentos restantes: {0})
 <string>{1} se desmayó.<lf>(Intentos restantes: {0})
 <string>Te desmayaste.<lf>Las recompensas se redujeron a 0.
-<string>{0} se desmayó.<lf>Las recompensas<lf>se redujeron a 0.
+<string>{0} se desmayó.<lf>Recompensas reducidas a cero.
 <string>Te desmayaste.
 <string>{0} se desmayó.
 <string>¡Objetivo principal completado!
 <string>¡Se acabó el tiempo!
 <string>Invitación a grupo vinculado
-<string>{0}<lf>te invitó a un grupo<lf>vinculado.
+<string>{0} te invitó a<lf>un grupo vinculado.
 <string>Invitación a entorno vinculado
 <string>{0} te invitó a un<lf>entorno vinculado.
 <string>Invitación a misión
 <string>{0}<lf>te invitó a una misión.
 <string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
 <string>Estudio de campo
-<string>Comenzando un estudio<lf>de campo para<lf>{0}.
+<string>Comenzando un estudio de campo <lf>sobre {0}.
 <string>Cancelar
 <string>Se activó la habilidad<lf><BOLD>{0}</BOLD>.
 <string>Desapareció el efecto de<lf><BOLD>{0}</BOLD>.
@@ -60,7 +60,7 @@
 <string>Recibiste <PLURAL {0} "{0} notificación" "{0} notificaciones"> estando offline.
 <string>Anuncio
 <string><PLURAL {0} "{0} invitación recibida" "{0} invitaciones recibidas">.
-<string>Pedido de amigos
+<string>Solicitud de amistad
 <string>Recibiste una solicitud de amistad<lf>de {0}.
 <string>Entablaste amistad con<lf>{0}.
 <string>La valla está lista.
@@ -69,21 +69,21 @@
 <string>La nave de apoyo llegó.
 <string>La nave de apoyo zarpará pronto.
 <string>La nave de apoyo zarpó.
-<string>Usaste el vale suertudo (quedan: {0}).
-<string>Se otorgarán registros de recompensas<lf>y zenis al azar.
+<string>Uso de cupones suertudos (quedan: {0}).
+<string>Utiliza un cupón suertudo para obtener<lf>mejores recompensas de misiones y zenis<lf>al azar.
 <string>Usar
-<string>Usaste el vale suertudo.
+<string>Usaste el cupón suertudo.
 <string>Actividad de entorno vinculado
-<string>Comenzando un estudio<lf>de campo para<lf>{0}.
+<string>Comenzando un estudio de campo <lf>sobre {0}.
 <string>Cancelar
 <string>Objetos de suministro repuestos.<lf>(Revisa los objetos de suministro con <INPUTMSG MsgGUI020100_0011>).
 <string>El cazador de apoyo {0}<lf>se unió a la misión.
-<string>El cazador de apoyo<lf>{0}<lf>abandonó la misión.
+<string>El cazador de apoyo {0}<lf>abandonó la misión.
 <string>Hay una nueva misión de la arena.
 <string>Las cinemáticas pueden volver a verse<lf>en la Galería desde el menú principal.
 <string>Objetivo principal fijado como destino.
 <string>El objetivo desapareció.<lf>Fijando destino del objetivo principal.
-<string>El objetivo fijado como punto de ruta desapareció.
+<string>El objetivo fijado como punto de ruta<lf>desapareció.
 <string>Los efectos de la comida desaparecieron.
 <string>La misión fracasó...
 <string>Invitaciones a misión (reenviadas)
@@ -100,25 +100,25 @@
 <string>¡Ahora puedes informar el éxito de tu<lf>tarea secundaria a {0}!<lf>Ubicación: {1}
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
-<string>¡Varios objetivos disponibles para<lf>la creación de misión combinada!
+<string>¡Varios objetivos disponibles para<lf>la creación de una misión combinada!
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció el mayor depredador<lf>de esta región, {0}!
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
-<string>{0} a la vista.<lf>¡Está atacando los asentamientos locales!
+<string>{0} avistado.<lf>¡Ataca los asentamientos locales!
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
-<string>¡Apareció un monstruo con más recompensas!<lf>{0}
+<string>¡Apareció un monstruo con recompensas<lf>extras! {0}
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció el objetivo secundario!<lf>{0}
 <string>Abrir mapa
 <string>Actualización de resumen de entorno
-<string>¡Apareció un objetivo de la lista de deseos!<lf>{0}
+<string>¡Apareció un objetivo de la lista de<lf>deseos! {0}
 <string>Abrir mapa
 <string>Resumen de entorno
-<string>¡{0} apareció!
+<string>{0}<lf>a la vista
 <string>Abrir mapa
 <string>Resumen de entorno
 <string>¡{0}<lf>se marchará enseguida!
@@ -177,7 +177,7 @@
 <string>Abrir
 <string>No se puede designar este monstruo<lf>como objetivo de misión: {0}.
 <string>No se puede designar este monstruo<lf>como objetivo de misión: {0}.<lf>(RC demasiado bajo).
-<string>Se pasó del modo Un jugador online<lf>al modo online.
+<string>Se pasó del modo Un jugador online<lf>al modo Online.
 <string>Cambio a modo Un jugador online.
 <string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
 <string>Tiempo de beta de prueba restante:<lf><PLURAL {0} "{0} minuto" "{0} minutos">.
@@ -197,6 +197,7 @@
 <string>{0}
 <string>¡Nuevo fondo obtenido!
 <string>Parece que Poogie no tiene nada...
+<string>
 <string>Se publicó una nueva submisión.
 <string>Submisiones limitadas
 <string>{0}<lf>{1}/{2}
@@ -240,6 +241,9 @@
 <string>¡Alcanzaste el rango de cazador {0}!
 <string>No puedes dejar aquí el objeto<lf>que llevas.
 <string>El crossplay está activado.
+<string>Puesto de misiones de la Arena
+<string>Un miembro vinculado entra en la Arena.<lf>Ve al <BOLD>Gran centro</BOLD> para unirte.
+<string>Abrir mapa
 <string>Notificación de brigada
 <string>Recibiste una invitación para unirte<lf>a la brigada: <BOLD>{0}</BOLD>.
 <string>Notificación de brigada
@@ -251,6 +255,9 @@
 <string><BOLD>{1}</BOLD> se unió<lf>a la brigada {0}.
 <string>Se ha designado a otro jugador<lf>como sublíder de la brigada <BOLD>{0}</BOLD>.
 <string>Te designaron líder<lf>de la brigada <BOLD>{0}</BOLD>.
+<string>Actualización de resumen de entorno
+<string>¡Apareció {0} en el Santuario<lf>de la Antorcha del Dragón!
+<string>Abrir mapa
 <string>Bonus de inicio de sesión
 <string>El bonus de inicio de sesión<lf>de hoy ya está disponible<lf>en el menú de inicio.
 <string>Reclamar ahora
@@ -260,9 +267,18 @@
 <string>{0} compartió<lf>un set de objetos.
 <string>Set de menú radial compartido
 <string>{0} compartió<lf>un set de menú radial.
+<string>¡El Festival de la Armonía: Floradanza<lf>ya comenzó!<lf>(Queda: {0} <PLURAL {0} "día" "días">)
+<string>¡El Festival de la Armonía: Floradanza<lf>ya comenzó!<lf>(Queda: {0} <PLURAL {0} "hora" "horas">)
+<string>¡El Festival de la Armonía: Floradanza<lf>ya comenzó!<lf>(Terminará pronto)
 <string>Ya se puede activar<lf>la habilidad <BOLD>{0}</BOLD>.
 <string>Error al recibir el set compartido
 <string>No se pudo recibir porque se alcanzó<lf>el límite máximo de notificaciones<lf>de sets compartidos.
 <string>Tienes una invitación.<lf>Revisa tus <BOLD>Invitaciones</BOLD><lf>en el menú de inicio.
 <string>Recibiste un pedido de acceso.<lf>Revisa los <BOLD>Pedidos de acceso</BOLD><lf>en el menú de inicio.
 <string>No se pudo iniciar la misión.
+<string>¡{0} alcanzó una puntuación total<lf>de {1} en los bolos con barriles!
+<string>¡{0} consiguió {1} victorias<lf>consecutivas en las pulseadas!
+<string>No se pudo reintentar porque<lf>se fue un miembro.
+<string>Procesando bengala de auxilio...
+<string>Recibiste bonus gracias a la voz<lf>de oración y gratitud de la diva.
+<string>¡{0} usó<lf><BOLD>{1}</BOLD> x1!

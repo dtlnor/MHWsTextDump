@@ -244,7 +244,7 @@
 <string>مكان لتجميع العناصر المميزة.
 <string>الصخور المتساقطة
 <string>صخور قد تسقط في أي لحظة.<lf><LSNR "استخدم" "استخدمي"> نبلة المعصم <LSNR "لتسقطها" "لتسقطيها"><lf>على الأهداف الغافلة.
-<string>الصخرة الساقطة العملاقة
+<string>جلمود عملاق متساقط
 <string>صخور كبيرة يمكن أن تسقط في أي لحظة.<lf><LSNR "اضربها" "اضربيها"> بنبلة المعصم<lf>لجعلها تسقط وتضرب أي شيء تحتها.
 <string>سياج الماشية
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_33
@@ -426,6 +426,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1401059840
 <string>مخاط
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m1078270720
+<string>علامات مخالب حادة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1828
+<string>آثار رغوة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_8205
 <string>حفرة على شكل منقار
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1680627328
 <string>فتات فطر ممضوغ
@@ -614,6 +618,12 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_2487
 <string>شظية بلورية
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_5883
+<string>شظايا مخالب حادة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_30361
+<string>بقايا معركة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_28272
+<string>بقايا معركة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_28518
 <string>فطر الجثث
 <string>مكان لتجميع العناصر المميزة النادرة.
 <string>مخلب محطَم
@@ -680,10 +690,24 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_72255744
 <string>برميل تدريب
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1171238912
+<string>كرسي دوشاغوما
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_23132
+<string>شواء نار المخيم
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_15038
+<string>فراش الباليكو
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1308232704
+<string>شجرة مزهرة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_2011991808
 <string>مَوقِد
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m409968640
 <string>مَوقِد (ذباب الاستطلاع)
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m48108096
+<string>فانوس كروي ملوّن
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_7501
+<string>فانوس طحلب مضيء
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_24406
+<string>فانوس ورقي معلق
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_9045
 <string>علم الفرقة: وحدة أفيس
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m330874688
 <string>تسليم الطعام للمعسكر
@@ -698,11 +722,21 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m1296434816
 <string>نسخة أجراس الجواهر
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1585821056
+<string>مجموعة ألما المميزة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_13920
+<string>مصباح كُنافة المعدني
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_19838
+<string>مصباح ورقي
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_19219
 <string><REF Item_IT_15>
 <string><REF Item_IT_EXP_15>
+<string><REF Item_IT_803>
+<string><REF Item_IT_EXP_803>
 <string><REF Item_IT_197>
 <string><REF Item_IT_EXP_197>
 <string><REF Item_IT_14>
+<string>قنبلة كبيرة يزرعها الباليكو. تمامًا مثل البرميل<lf>المتفجر الضخم العادي، يمكن دحرجتها<lf>بعد وضعها وتنفجر عند الاصطدام.
+<string>ساحق زهرة الربيع 
 <string>قنبلة كبيرة يزرعها الباليكو. تمامًا مثل البرميل<lf>المتفجر الضخم العادي، يمكن دحرجتها<lf>بعد وضعها وتنفجر عند الاصطدام.
 <string>قنبلة بوم مياو
 <string><REF Item_IT_EXP_14>
@@ -723,6 +757,28 @@
 <string><REF RefStatus_0000_SP_007>
 <string>يمكنك أن تجعل الباليكو يخلق رائحة<lf>تجذب نحل الحيوية. بعد فترة معينة<lf>من الزمن، ستتلاشى هذه الرائحة.
 <string><REF RefStatus_0000_SP_008>
+<string>قنابل تُستخدم خصيصًا لبولينغ البراميل.<lf><LSNR "دحرجها" "دحرجيها"> باتجاه الهدف من أي مكان.
+<string>قنبلة بولينغ الزهرة 
+<string>قنابل تُستخدم خصيصًا لبولينغ البراميل.<lf><LSNR "دحرجها" "دحرجيها"> باتجاه الهدف من أي مكان.
+<string>تناول وجبة
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_16007
+<string>جلوس
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_5985
+<string>جلوس
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_13274
+<string>برميل مصارعة الأذرع
+<string>برميل في مركز التجمع الرئيسي<lf>حيث <LSNR "يمكنكَ" "يمكنكِ"> خوض مصارعة أذرع مع اللاعبين الآخرين.
+<string>لوحة سجلات البعثة
+<string>عرض المعلومات المتعلقة بسجلات البعثات<lf>والمكافآت وتصنيف الرتب.
+<string>قنابل بولينغ البراميل
+<string>مكان تخزين قنابل لعبة بولينغ البراميل.<lf>تتجدد القنابل باستمرار<lf>لذا <LSNR "يمكنكَ" "يمكنكِ"> التدرب <LSNR "بقدر ما تشاء" "بقدر ما تشائين">.
+<string>المطعم
+<string><LSNR "استخدم" "استخدمي"> قسائم الوجبات<lf>للاستمتاع بالمأكولات القادمة من جميع المستوطنات<lf>بالإضافة إلى الوجبات الخاصة حسب الموقف.
+<string>المعسكر البديل
+<string>معسكر مؤقت به كل مستلزمات الصيد.<lf><LSNR "يمكنكَ" "يمكنكِ"> تغيير <LSNR "معداتكَ" "معداتكِ"> وتنظيم <LSNR "أغراضكَ" "أغراضكِ"> هنا.
+<string>عش الحُلي
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_21777
+<string>قنبلة بولينغ البراميل
 <string>قفص من الذباب الوامض يقوم الباليكو بنشره.<lf>سيؤدي ضربه إلى إصدار ومضة تُعمي الوحوش.
 <string>ركام السد
 <string>كتلة من الركام والأخشاب المنجرفة المتراكمة<lf>فوق السد. إن سحب نبلة المعصم بشكل حاد<lf>كفيل بتحطيمها وإسقاطها من فوق الشلال.
@@ -898,6 +954,8 @@
 <string>قرية الحُراس في أطلال وايفيريا.<lf>يتخذون من حليب الوايفرن غذاءً،<lf>بينما يقومون بواجبهم في حراسة الوحوش الحارسة.
 <string>المعسكر البديل
 <string>معسكر مؤقت به كل مستلزمات الصيد.<lf><LSNR "يمكنكَ" "يمكنكِ"> تغيير <LSNR "معداتكَ" "معداتكِ"> وتنظيم <LSNR "أغراضكَ" "أغراضكِ"> هنا.<lf>يمكن الوصول إليه عن طريق الانتقال السريع مع <ICON UI_DECIDE>.
+<string>مدخل مركز التجمع الرئيسي
+<string>مكان بالقرب من واجهة معلومات<lf>الفرقة ولوحة سجلات البعثة.<lf><LSNR "اضغط" "اضغطي"> على <ICON UI_DECIDE> للانتقال السريع إلى هناك.
 <string>المعسكر البديل
 <string>معسكر مؤقت به كل مستلزمات الصيد.<lf><LSNR "يمكنكَ" "يمكنكِ"> تغيير <LSNR "معداتكَ" "معداتكِ"> وتنظيم <LSNR "أغراضكَ" "أغراضكِ"> هنا.<lf>يمكن الوصول إليه عن طريق الانتقال السريع مع <ICON UI_DECIDE>.
 <string>المعسكر البديل
@@ -916,12 +974,24 @@
 <string>طريق يصل بين معسكر القاعدة<lf>ومنطقة التدريب.
 <string>مخرج منطقة التدريب
 <string>طريق يصل بين منطقة التدريب<lf>ومعسكر القاعدة.
-<string>البوابة الخلفية للقمم
+<string>بوابة القمم الخلفية
 <string>طريق يقود إلى مناطق أخرى<lf>تجاور (سوجا)، قمم الانسجام.
 <string>بوابة الوادي
 <string>طريق يقود إلى مناطق أخرى<lf>تجاور الوادي الجريح.
+<string>بوابة القمم الخلفية
+<string>طريق يقود إلى مناطق أخرى<lf>تجاور (سوجا)، قمم الانسجام.
+<string>بوابة الوادي
+<string>طريق يقود إلى مناطق أخرى<lf>تجاور الوادي الجريح.
+<string>درب القمة
+<string>طريق يقود من مركز التجمع الرئيسي<lf>إلى (سوجا) والوادي الجريح.
 <string>فرخ وينغدرايك
 <string>مكان <LSNR "يمكنكَ" "يمكنكِ"> العثور فيه<lf>على (وينغدرايك) للسفر بأمان لتجهيز مواقع.
+<string>الخيمة
+<string>مكان بالقرب من <LSNR "خيمتكَ" "خيمتكِ">.<lf><LSNR "اضغط" "اضغطي"> على <ICON UI_DECIDE> للانتقال السريع إلى هناك.
+<string>واجهة المهام
+<string>مكان بالقرب من واجهة المهام والمطعم.<lf><LSNR "اضغط" "اضغطي"> على <ICON UI_DECIDE> للانتقال السريع إلى هناك.
+<string>بولينغ البراميل
+<string>المدخل إلى ساحة بولينغ البراميل.<lf><LSNR "اضغط" "اضغطي"> على <ICON UI_DECIDE> للانتقال السريع إلى هناك.
 <string>حفر عميق
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m1910104448
 <string>فراء متساقط

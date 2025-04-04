@@ -240,7 +240,7 @@
 <string><ICON ST_SPIRIT> Göttlicher Schutz
 <string>Du erleidest mit gewisser Wahr-<lf>scheinlichkeit weniger Schaden.<lf><lf>Hauptsächlich erhalten durch:<lf>– Melodie-Effekte des Jagdhorns
 <string>
-<string><ICON ST_HEAL_CONTINUE> Gesundheitserholung
+<string><ICON ST_HEAL_CONTINUE> Gesundheitsregeneration
 <string>Du stellst allmählich Gesundheit<lf>wieder her.<lf><lf>Hauptsächlich erhalten durch:<lf>– Echoblasen-Effekte des Jagdhorns
 <string>
 <string><ICON ST_HEAL_NATURAL_UP> Erholungstempo
@@ -252,7 +252,7 @@
 <string><ICON ST_STAMINA_NATURAL_UP> Ausdauererholungsplus
 <string>Status, der die Ausdauer-Erholungsrate<lf>erhöht.<lf><lf>Hauptsächlich erhalten durch:<lf>– Aktivierung von<lf>   Ausrüstungsfähigkeiten
 <string>
-<string><ICON ST_STAMINA_CONTINUE> Ausdauererholung
+<string><ICON ST_STAMINA_CONTINUE> Ausdauerregeneration
 <string>Stellt kontinuierlich Ausdauer<lf>wieder her.<lf><lf>Hauptsächlich erhalten durch:<lf>– Echoblasen-Effekte des Jagdhorns
 <string>
 <string><ICON ST_AVOID_UP> Unverwundbarkeit hoch
@@ -339,6 +339,9 @@
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Raserei
 <string>Bist du der Raserei zu lange ausgesetzt,<lf>wirst du infiziert – es sei denn, dass du<lf>einem Monster eine bestimmte Anzahl<lf>an Treffern verpasst.<lf>Wenn infiziert: Die natürliche Erholung<lf>wird verhindert und der erlittene<lf>Schaden wird erhöht.<lf>Wenn geheilt: Affinität wird erhöht und<lf>du erhältst Widerstand gegen Raserei.<lf>Du kannst den Ausbruch der Raserei<lf>mithilfe einer Nullbeere verzögern.
 <string>
+<string><ICON ST_BUBBLE> Leichte Blasenpest/<ICON ST_BUBBLE_HIGH> Schwere Blasenpest
+<string>Ein Status, der deinen Körper mit<lf>immer größer werdenden Blasen<lf>bedeckt.<lf>Werden diese zu groß, behindern sie<lf>deine Bewegung.<lf>Außerdem bringen dich Angriffe<lf>bestimmter Stärke zum Stürzen und<lf>du erleidest zusätzlichen Schaden.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Reiniger<lf>– Warten, bis der Status abklingt<lf>– Treffer durch einen Angriff
+<string>
 <string><ICON ST_FIRE> Feuerpest
 <string>Ein Status, bei dem du mit der Zeit<lf>Gesundheit verlierst.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Nullbeere<lf>– mehrfaches Ausweichen im Wasser<lf>– Warten, bis der Status abklingt
 <string>
@@ -352,7 +355,7 @@
 <string>Ein Status, bei dem dein<lf>Ausdauerverbrauch steigt.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Nullbeere<lf>– mehrfaches Ausweichen<lf>– Warten, bis der Status abklingt
 <string>
 <string><ICON ST_DRUGON> Drachenpest
-<string>Ein Status, der die Element-<lf>Eigenschaften deiner Waffe aufhebt.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Nullbeere<lf>– mehrfaches Ausweichen<lf>– Warten, bis der Status abklingt
+<string>Ein Status, der die Element-<lf>Eigenschaften deiner Waffe und<lf>deiner Schleudermunition aufhebt.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Nullbeere<lf>– mehrfaches Ausweichen<lf>– Warten, bis der Status abklingt
 <string>
 <string>Beben
 <string>Ein Status, der deine Bewegung ein-<lf>schränkt. Die Länge der Einschränkung<lf>hängt von der Stärke des Bebens ab.<lf><lf>Er wird normalerweise geheilt durch:<lf>– Warten, bis der Effekt nachlässt<lf>– Treffer durch einen Angriff

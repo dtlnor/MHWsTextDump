@@ -373,7 +373,7 @@
 <string>Artian-Waffen verstärken
 <string>Artian-Waffen können bis zu fünfmal<lf><COLOR preset="TXT_Accent">verstärkt</COLOR> werden.
 <string>Artian-Waffen verstärken
-<string>Verbrauche Materialien, um Punkte zu<lf>sammeln und die <COLOR preset="TXT_Accent">Verstärkungsstufe</COLOR> zu<lf>erhöhen, wodurch du zufällige <COLOR preset="TXT_Accent">Verstär-<lf>kungsboni</COLOR> erhältst, welche die Leis-<lf>tung der Waffe erhöhen.
+<string>Verbrauche Materialien, um Punkte zu<lf>sammeln und die <COLOR preset="TXT_Accent">Verstärkungsstufe</COLOR> zu<lf>erhöhen. Dadurch erhältst du zufällige<lf><COLOR preset="TXT_Accent">Verstärkungsboni</COLOR>, welche die Leistung<lf>der Waffe steigern.
 <string>Verstärkungsmaterial erlangen
 <string>Erhalte Materialien zur Verstärkung,<lf>indem du Artian-Waffen <COLOR preset="TXT_Accent">zerlegst</COLOR> oder<lf>bei der Raffinerie in Azuz <COLOR preset="TXT_Accent">Orikalzit</COLOR><lf>und andere Erze <COLOR preset="TXT_Accent">raffinierst</COLOR>.
 <string>Dekorationen einschmelzen
@@ -441,7 +441,7 @@
 <string>Großjagden
 <string>An unterschiedlichen Orten erscheinen<lf>jetzt zufällig Felderkundungen mit<lf><COLOR preset="TXT_Accent">mehreren Zielen</COLOR>.
 <string>Großjagdbelohnungen
-<string>Bei diesen schwierige Quests musst du<lf>mehrere Monster in einer begrenzten<lf>Zeit jagen – dafür bekommst du aber<lf>auch bessere Belohnungen.
+<string>Bei diesen schwierigen Quests musst du<lf>mehrere Monster in einer begrenzten<lf>Zeit jagen – dafür bekommst du aber<lf>auch bessere Belohnungen.
 <string>Großjagden annehmen
 <string>Überprüfe die <COLOR preset="TXT_Accent">Umgebungsinfo</COLOR> auf der<lf>Detailkarte, um Quests mit mehreren<lf>Zielen anzunehmen.
 <string>Großjagden freischalten
@@ -519,7 +519,7 @@
 <string>Wunden
 <string>Greifst du denselben Körperteil eines<lf>Monsters mehrmals an, verursachst du<lf>eine <COLOR preset="TXT_Accent">Wunde</COLOR>.<lf><lf>Angriffe auf Wunden richten mehr Schaden<lf>an, also nutze den <COLOR preset="TXT_Accent">Fokusmodus</COLOR>, um sie zu<lf>deinem Ziel zu machen.
 <string>Fokusangriffe
-<string>Halte <ICON WP03 PL_AIM> und drücke <ICON WP03 PL_ATTACK_SP_B> für einen<lf><COLOR preset="TXT_Accent">Fokusangriff</COLOR>, der mehrere Treffer<lf>verursacht und Wunden zerstört.<lf>Außerdem wird das Kinsekt abgefeuert,<lf>welches alle drei Extrakte sammelt.
+<string>Halte <ICON WP10 PL_AIM> und drücke <ICON WP10 PL_ATTACK_SP_B> für einen<lf><COLOR preset="TXT_Accent">Fokusangriff</COLOR>, der mehrere Treffer<lf>verursacht und Wunden maximiert.<lf>Außerdem wird das Kinsekt abgefeuert,<lf>welches alle drei Extrakte sammelt.
 <string>Wunden
 <string>Greifst du denselben Körperteil eines<lf>Monsters mehrmals an, verursachst du<lf>eine <COLOR preset="TXT_Accent">Wunde</COLOR>.<lf><lf>Angriffe auf Wunden richten mehr Schaden<lf>an, also nutze den <COLOR preset="TXT_Accent">Fokusmodus</COLOR>, um sie zu<lf>deinem Ziel zu machen.
 <string>Fokusangriffe
@@ -538,7 +538,7 @@
 <string>Drücke <ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> nach einem Angriff, um<lf><COLOR preset="TXT_Accent">Spezialscheide</COLOR> auszuführen. Drücke dann<lf>bei weggesteckter Waffe im Einklang mit<lf>einem Monsterangriff <ICON WP03 PL_ATTACK_SP> für den mäch-<lf>tigen <COLOR preset="TXT_Accent">Iai-Elanhieb</COLOR>.
 <string>Konterhieb nach Perfektem Blocken
 <string>Blocke im Einklang mit einem Monsteran-<lf>griff, um ein <COLOR preset="TXT_Accent">Perfektes Blocken</COLOR> auszu-<lf>führen. Nach einem Perfekten Blocken<lf>kannst du mit <ICON WP01 PL_ATTACK_00> einen mächtigen Konter-<lf>hieb ausführen.
-<string>Dämonen-Ausweichen und -Bonus
+<string>Dämonen-Ausweichen/Bonus-Modus
 <string>Im Dämonenmodus kannst du schneller<lf>ausweichen. Nach einem Perfekten<lf>Ausweichen führst du automatisch einen<lf>Angriff aus und gehst in den <COLOR preset="TXT_Accent">Dämonen-<lf>bonus-Modus</COLOR> über, der deine Fähigkeiten<lf>vorübergehend verstärkt.
 <string>Aufgeladener Schritt
 <string>Du kannst ausweichen und dich neu<lf>positionieren ohne deine Ladestufe<lf>zu verlieren, indem du beim Aufladen<lf>(<ICON WP04 PL_ATTACK_SP> gedrückt halten) <ICON WP04 PL_ATTACK_01> drückst.
@@ -792,12 +792,68 @@
 <string>Eine von <COLOR preset="TXT_Accent">Werner</COLOR> maßangefertigte, mehr-<lf>stufig explodierende Gerätschaft, die bei<lf>Treffern von Jägern oder Monstern aus-<lf>löst.
 <string>Werners Multisprenger
 <string>Das Gerät kann mehrfach zur Explosion<lf>gebracht werden, bis es zu einer finalen,<lf>besonders verheerenden Detonation<lf>kommt.<lf>Versuche, deinen Gegner mit diesem<lf>letzten Knall zu erwischen.
+<string>Annehmen von Zoh-Shia-Quests
+<string>Wird eine Zoh-Shia-Quest verfügbar,<lf>erscheint sie in der Umgebungsinfo.<lf>Dort kannst du sie auch annehmen.
 <string>Befristete Beutezüge
 <string>Am Logistiktresen kannst du Unter-<lf>suchungen (Beutezüge) verwalten.<lf>Dort siehst du, welche Untersuchungen<lf>offen sind, und kannst abgeschlossene<lf>einreichen.
 <string>Befristete Beutezüge
 <string>Befristete Beutezüge sind Beutezüge, die<lf>online für einen befristeten Zeitraum zur<lf>Verfügung stehen.<lf>Während ihres Verfügbarkeitszeitraums<lf>werden sie automatisch registriert und<lf>aktualisiert.
 <string>Befristete Beutezüge
 <string>Erfülle die Bedingungen für aktive<lf>Beutezüge und reiche sie beim Logistik-<lf>tresen ein, um Gildenpunkte, Objekte<lf>und andere Belohnungen einzuheimsen!
+<string>Große Stätte ist jetzt geöffnet!
+<string>Die Große Stätte ist jetzt geöffnet.<lf><lf>Sie ist sowohl ein Gebetsort für die<lf>Bewohner von Suja, als auch ein<lf>Zentrum der Kommunikation<lf>zwischen Jägern aus aller Welt.
+<string>Große Stätte ist jetzt geöffnet!
+<string>Du kannst die Große Stätte über das<lf>Obere Gipfeltor in Suja oder von der<lf>Weltkarte aus besuchen.<lf><lf>Sieh sie dir an!
+<string>Einrichtungen der Großen Stätte
+<string>In der Großen Stätte gibt es alle<lf>Einrichtungen, die du zur Vorbereitung<lf>auf eine Jagd brauchst. Außerdem findest<lf>du dort ein einzigartiges Unterhaltungs-<lf>programm, also sieh dich um oder schau<lf>dir die Karte an.
+<string>Verlegter Jagdgruppen-Infoschalter
+<string>Der Jagdgruppen-Infoschalter wurde<lf>von der Windebene in die Große Stätte<lf>verlegt. Der ideale Ort, um dich mit<lf>deinen Gruppenkameraden noch besser<lf>zu amüsieren!
+<string>Zeitbasierte Wettbewerbsquests
+<string>Du kannst dich bestimmten Quests online<lf>stellen, um weltweit um die schnellste<lf><COLOR preset="TXT_Accent">Abschlusszeit</COLOR> zu kämpfen und je nach<lf>Leistung Belohnungen zu erhalten.
+<string>Zeitbasierte Wettbewerbsquests
+<string>Für diese Quests gelten bestimmte<lf>Einschränkungen, beispielsweise wie viele<lf>Teilnehmer erlaubt sind, welche Ausrüstung<lf>zugelassen ist oder welche Objekte verwen-<lf>det werden dürfen.
+<string>Zeitbasierte Wettbewerbsquests
+<string><COLOR preset="TXT_Accent">Arenaquests</COLOR><lf>Quests mit festgelegter Ausrüstung.<lf>Maximal 2 Jäger. Hilfsjäger erlaubt.
+<string>Zeitbasierte Wettbewerbsquests
+<string><COLOR preset="TXT_Accent">Freie Herausforderungsquests</COLOR><lf>Zeitbegrenzte Quests mit frei wählbarer<lf>Ausrüstung.<lf>Maximal 4 Jäger. Hilfsjäger erlaubt.
+<string>Zeitbasierte Wettbewerbsquests
+<string><COLOR preset="TXT_Accent">Herausforderungsquests</COLOR><lf>Zeitbegrenzte Quests mit festgelegter<lf>Ausrüstung.<lf>Maximal 2 Jäger. Hilfsjäger erlaubt.
+<string>Zeitbasierte Wettbewerbsquests
+<string>Hinweis: Du kannst diesen Quests nicht<lf>nachträglich beitreten. Einige Quests sind<lf>nur in der Großen Stätte verfügbar. Zeit-<lf>begrenzte Quests sind nur online verfügbar.
+<string>Die Expeditions-Rekordtafel
+<string>An diesem Schwarzen Brett kannst du dir<lf>Ankündigungen ansehen, Belohnungen für<lf>Befristete Beutezüge prüfen und erhalten<lf>sowie verschiedene Ranglisten einsehen.
+<string>Die Expeditions-Rekordtafel
+<string><COLOR preset="TXT_Accent">Ankündigungen</COLOR><lf>Sieh dir Informationen zu zeitbegrenzten<lf>Events, Befristeten Beutezügen, Ranglisten<lf>und mehr an.
+<string>Die Expeditions-Rekordtafel
+<string><COLOR preset="TXT_Accent">Befristete Beutezüge</COLOR><lf>Sieh dir Aktivitäten und Expeditionen an,<lf>die online verfügbar sind, und hole deine<lf>Abschlussbelohnungen ab.
+<string>Die Expeditions-Rekordtafel
+<string><COLOR preset="TXT_Accent">Umgebungsinfo</COLOR><lf>Öffnet die Weltkarte, auf der du dir die<lf>Umgebungsinformationen zu jedem Gebiet<lf>ansehen kannst. (Auch über die normale<lf>Weltkarte zugänglich.)
+<string>Die Expeditions-Rekordtafel
+<string><COLOR preset="TXT_Accent">Ranglisteninformationen</COLOR><lf>Sieh dir persönliche oder weltweite<lf>Rekorde sowie die Rekorde deiner Jagd-<lf>freunde oder Jagdgruppenmitglieder an.
+<string>Fass-Bowling
+<string>Du kannst in der Großen Stätte jetzt das<lf>Fass-Bowling-Minispiel spielen!<lf>Rolle das Spezial-Bowlingfass den Hügel<lf>hinunter und wirf so viele Pins wie<lf>möglich um!
+<string>Fass-Bowling
+<string>Zum Spielen brauchst du Fass-Bowling-<lf>Gutscheine. Diese erhältst du als<lf>Anmeldebonus, durch Tauschhandel in<lf>Suja und vom Unterstützungsschiff.
+<string>Die Kantine der Großen Stätte
+<string>In der Kantine der Großen Stätte kannst<lf>du die örtlichen Gerichte aus den<lf>verschiedenen Dörfern sowie saisonale<lf>Event-Gerichte probieren.
+<string>Die Kantine der Großen Stätte
+<string>Die erforderlichen Gutscheine für<lf>Mahlzeiten in der Kantine erhältst du<lf>als Anmeldebonus und als Belohnung<lf>für Beutezüge.<lf><lf>Lass es dir schmecken!
+<string>Almas Kleidung ändern
+<string>Im Menü <BOLD>Aussehen verändern</BOLD> kannst du<lf>jetzt Almas Kleidung ändern.<lf>Es schadet der Expedition sicher nicht,<lf>auch modisch hin und wieder mit einem<lf>neuen Gefühl an die Arbeit zu gehen!
+<string>Almas Brille ändern
+<string>Unter <BOLD>Almas Kleidung ändern</BOLD> im<lf>Aussehen-Menü kannst du Almas<lf>Brille wechseln. Accessoires sind das<lf>i-Tüpfelchen eines jeden Looks.
+<string>Fest der Eintracht: Blütentanz
+<string>Während Festen werden der Großen<lf>Stätte besondere Funktionen hinzu-<lf>gefügt. Sie sind nur für eine begrenzte<lf>Zeit verfügbar, also sieh bei Gelegen-<lf>heit vorbei!
+<string>Iss das Beste der Saison!
+<string>Löse in der Kantine Blütentanz-<lf>Gutscheine ein und lass dir zeitlich<lf>limitierte Menüs schmecken.<lf>Blütentanz-Gutscheine erhältst du<lf>während des Eventzeitraums als<lf>Anmeldebonus.
+<string>Wirf Alma in Schale!
+<string>Für deine Feldexpertin wurde spezielle<lf>Blütentanz-Kleidung angefertigt.<lf>Sprich in der Großen Stätte mit Alma,<lf>um ihre Kleidung zu wechseln!
+<string>Befristete Beutezüge täglich aktualisiert!
+<string>Befristete Beutezüge werden jeden Tag<lf>aktualisiert und versprechen Blütentanz-<lf>Tickets, mit denen du saisonal limitierte<lf>Ausrüstung herstellen kannst.
+<string>Extra Anmeldebonusse!
+<string>Während des Eventzeitraums kannst<lf>du statt einem nun zwei Superglück-<lf>Gutscheine pro Tag sowie Blütentanz-<lf>Tickets und andere Belohnungen als<lf>Anmeldebonus erhalten.
+<string>Eventquests verfügbar!
+<string>Eine Reihe zeitlich begrenzter Event-<lf>quests wird nach und nach verfügbar<lf>gemacht!<lf>Auch viele vergangene Eventquests<lf>können erneut gespielt werden.
 <string>Wunden
 <string>Du kannst jetzt alte Dekorationen für<lf>Einschmelzpunkte eintauschen, mit denen<lf>du <COLOR preset="TXT_Accent">neue Dekorationen herstellen</COLOR> kannst.<lf>Wenn du bestimmte Anforderungen erfüllst,<lf>erweitern sich die Optionen.
 <string>Dekorationen und Ausrüstungssets

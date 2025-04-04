@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Reinicia las opciones seleccionadas
 <string>Reinicia todas las opciones
+<string>Restablecer la categoría a predeterminado
 <string>¿Restablecer las opciones elegidas a los ajustes predeterminados?
 <string>¿Restablecer todas las opciones en todas<lf>las categorías a sus ajustes predeterminados?
+<string>¿Restablece todas las opciones en la pestaña<lf>de la categoría actual a la configuración predeterminada?
 <string>Todo
 <string><PLATMSG MsgGUI030100_0401>
 <string>Compartido + mando
@@ -363,7 +365,7 @@
 <string>Vel. cámara: Normal (vertical)
 <string>Ajusta la velocidad de movimiento de<lf>la cámara vertical mientras juegas.
 <string>Sensibilidad de la cámara: Normal
-<string>Ajusta la sensibilidad de los movimientos<lf>del ratón durante el juego normal. Cuanto mayor<lf>sea el valor, más rápido será el movimiento<lf>de la cámara.
+<string>Ajusta la sensibilidad de los movimientos del ratón <lf>durante el juego normal. Cuanto mayor sea el valor,<lf>más rápido será el movimiento de la cámara.
 <string>Sensibilidad horizontal de la cámara: Normal
 <string>Ralentiza el movimiento del ratón en el eje horizontal<lf>durante el juego normal. Cuanto menor sea el valor,<lf>más lento será el movimiento horizontal.
 <string>Sensibilidad vertical de la cámara: Normal
@@ -383,7 +385,7 @@
 <string>Arma a distancia (vertical): <ICON PAD PL_AIM>
 <string>Ajusta la velocidad vertical de la cámara<lf>al usar <ICON PAD PL_AIM> (al apuntar/modo preciso) con<lf>un arma a distancia desenvainada.
 <string>Sensibilidad de la cámara: Apuntar/preciso
-<string>Ajusta la sensibilidad de los movimientos<lf>del ratón al apuntar o en el modo preciso.<lf>Cuanto mayor sea el valor, más rápido será<lf>el movimiento de la cámara.
+<string>Ajusta la sensibilidad de los movimientos del ratón<lf>al apuntar o en el modo preciso. Cuanto mayor sea el<lf>valor, más rápido será el movimiento de la cámara.
 <string>Sens. horizontal de la cámara: Apuntar/preciso
 <string>Ralentiza el movimiento del ratón en el eje horizontal<lf>al apuntar o en el modo preciso. Cuanto menor sea el valor,<lf>más lento será el movimiento horizontal.
 <string>Sens. vertical de la cámara: Apuntar/preciso
@@ -805,7 +807,7 @@
 <string>Utiliza tecnología de superresolución para mantener<lf>un rendimiento elevado pese a ofrecer una calidad<lf>gráfica superior.
 <string>NVIDIA DLSS
 <string>Utiliza NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requiere una tarjeta gráfica NVIDIA GeForce RTX.<lf>– Si usas una tarjeta de la serie GeForce RTX40<lf>y tienes activada la aceleración por hardware en tu SO,<lf>al seleccionar esta opción podrás aprovechar<lf>la generación de fotogramas.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Utiliza <FSR>.<lf><COLOR preset="TXT_Accent">– Si tienes activada la aceleración por hardware<lf>en tu SO, al seleccionar esta opción podrás habilitar<lf>la generación de fotogramas.</COLOR>
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Usa suavizado de bordes por IA mientras<lf>se mantiene la resolución nativa.
 <string>AMD Native AA
-<string>Usa suavizado de bordes FSR 3 mientras<lf>se mantiene la resolución nativa.
+<string>Usa suavizado de bordes FSR mientras<lf>se mantiene la resolución nativa.
 <string>Intel XeSS Native AA
 <string>Usa suavizado de bordes por XeSS mientras se<lf>mantiene la resolución nativa.
 <string>Calidad
@@ -839,7 +841,7 @@
 <string>No
 <string>Se seleccionará esta opción si no se usa<lf>ningún método de escalamiento.
 <string>Intensidad de escalamiento
-<string>Ajusta la calidad gráfica al usar escalamiento.<lf>Cuanto mayor sea la cifra, mayor nivel de detalle.<lf><COLOR preset="TXT_Accent">(Solo disponible con AMD FSR 3 activado).</COLOR>
+<string>Ajusta la calidad gráfica al usar escalamiento.<lf>Cuanto mayor sea la cifra, mayor nivel de detalle.<lf><COLOR preset="TXT_Accent">(Solo disponible con AMD FSR activado).</COLOR>
 <string>Suavizado de bordes
 <string>Hace ajustes en el modo de suavizado de bordes.<lf><COLOR preset="TXT_Accent">(Solo disponible si el escalamiento no está activado).</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Muestra las barras de salud de tu camarada<lf>Felyne y de otros compañeros en todo momento.
 <string>Dinámica
 <string>Muestra la barra de salud de tus<lf>acompañantes minimizada por<lf>defecto. En ciertas situaciones,<lf>se mostrará la barra completa.
+<string>Mostrar tiempo transcurrido para algunas misiones
+<string>Cambia si mantener <ICON PL_ITEM_SLIDER_OPEN> muestra la<lf>cantidad de tiempo que has pasado en la Arena,<lf>desafíos y misiones desafío gratuitas.
+<string>Mostrar
+<string>En ciertas misiones, si mantienes <ICON PL_ITEM_SLIDER_OPEN> verás<lf>el tiempo transcurrido con tus objetivos.
+<string>No mostrar
+<string>En ciertas misiones, si mantienes <ICON PL_ITEM_SLIDER_OPEN> no verás<lf>el tiempo transcurrido con tus objetivos.
 <string>Ventana del chat
 <string>Ajusta las opciones de la ventana de comunicación<lf>y notificaciones tras enviar un mensaje.
 <string>Cerrar ventana

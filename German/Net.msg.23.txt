@@ -29,13 +29,13 @@
 <string>Initialisiere Netzwerk...
 <string>Eine neue Anwendungsversion wurde gefunden.<lf>Bitte schließe die Anwendung und führe die<lf>Aktualisierung durch, um Netzwerkfunktionen<lf>nutzen zu können.
 <string>Jägerdaten wurden überschrieben.<lf>Diese Speicherdaten können auch weiterhin sicher<lf>verwendet werden, allerdings wurden Jagdfreund-<lf>schaften, die Personen, die dir folgen oder denen<lf>du folgst sowie deine Jagdgruppen zurückgesetzt.
-<string>Dieser Spieler gehört bereits<lf>der Verbindungsgruppe an.<lf><lf>{0}
+<string>Dieser Spieler gehört bereits<lf>einer Verbindungsgruppe an.<lf><lf>{0}
 <string>Der Verbindungsgruppe können keine<lf>weiteren Spieler hinzugefügt werden,<lf>da sie bereits voll ist.<lf><lf>{0}
 <string>Senden fehlgeschlagen, da der Spieler das Maximum<lf>für Verbindungsgruppeneinladungen erreicht hat.<lf>{0}
 <string>Du kannst derzeit keine Meldung einreichen.<lf>Bitte warte einen Moment und versuche es erneut.<lf><lf>{0}
 <string>Dein Konto erfüllt nicht die Anforderungen,<lf>um das Spiel zu spielen.
 <string>Keine Betatest-Charaktererstellungsdaten gefunden.<lf>{0}
-<string>Es konnten keine Charaktererstellungsdaten aus dem<lf>Betatest gefunden werden.<lf>{0}
+<string>Es konnten keine Charaktererstellungsdaten<lf>aus dem Betatest abgerufen werden.<lf>{0}
 <string>Verbindungsgruppeneinladung bereits gesendet.<lf>{0}
 <string>Errungenschaftsinformationen konnten nicht von deinem<lf>Konto abgerufen werden. Bitte prüfe deine Netzwerk-<lf>verbindung oder deinen Kontostatus auf Probleme.<lf>{0}
 <string>Von diesem Konto können keine Designs hochgeladen<lf>werden.<lf>{0}
@@ -44,6 +44,7 @@
 <string>Diese Funktion ist derzeit aufgrund von<lf>Wartungsarbeiten nicht verfügbar.<lf>Bitte warte einen Augenblick und versuche<lf>es dann erneut.<lf>{0}
 <string>Deine Liste gesperrter Nutzer ist voll.<lf>Du kannst keine weiteren Spieler blocken.<lf>{0}
 <string>Zurzeit findet eine geplante Server-Wartung statt.<lf>{0}
+<string>Von diesem Konto kann nicht auf Jagdgruppen-<lf>funktionen zugegriffen werden.<lf>{0}
 <string>Die Verbindung zur Sitzung ist verloren gegangen.<lf>{0}
 <string>Die Erstellung einer Sitzung ist fehlgeschlagen.<lf>{0}
 <string>Sitzungssuche fehlgeschlagen.<lf>{0}
@@ -66,6 +67,7 @@
 <string>Der Server ist derzeit beschäftigt.<lf>Bitte warte ein wenig und versuche es dann erneut.
 <string>Crossplay ist derzeit aktiviert.
 <string>Aufgrund der Crossplay-Einstellungen anderer<lf>Teilnehmer kannst du nicht an dieser Sitzung<lf>teilnehmen.<lf>{0}
+<string>Du kannst dieser Quest nicht beitreten,<lf>da sie bereits begonnen hat.
 <string>Teilnahme fehlgeschlagen, da die Sitzung andere<lf>Crossplay-Einstellungen hat. Bitte überprüfe im<lf>Hauptmenü unter <BOLD>Optionen</BOLD> deine Crossplay-<lf>Einstellungen.<lf>{0}
 <string>Die maximale Spielerzahl für die Verbindungsgruppe<lf>wurde erreicht. Es können keine weiteren Spieler<lf>hinzugefügt werden.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am<lf><DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto hat gegen folgende Regel verstoßen:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschaftsfunktionen<lf>vorübergehend eingeschränkt</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Bitte halte dich in Zukunft an die Nutzungsbedingungen.</COLOR>
@@ -90,7 +92,7 @@
 <string><COLOR preset="TXT_Danger">Konto dauerhaft ausgesetzt</COLOR>.<lf><lf>Dein Konto wurde aufgrund eines bestätigten Verstoßes gegen<lf>unsere Nutzungsbedingungen und/oder den Endbenutzer-Lizenzvertrag<lf><COLOR preset="TXT_Danger">dauerhaft ausgesetzt</COLOR>.<lf><lf>Das Konto kann nicht auf den Online-Modus von Monster Hunter Wilds<lf>zugreifen. Bitte beachte, dass wir gemäß den Nutzungsbedingungen<lf>und dem Endbenutzer-Lizenzvertrag keine Maßnahmen anbieten,<lf>um die dauerhafte Aussetzung eines Kontos aufzuheben.
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde aufgrund eines <COLOR preset="TXT_Danger">Verdachts auf beleidigendes<lf>Verhalten</COLOR> markiert. Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschafts-<lf>funktionen vorübergehend eingeschränkt</COLOR>. Wiederholtes<lf>oder ähnliches Verhalten kann zu dauerhaften Einschrän-<lf>kungen führen. <COLOR preset="TXT_Accent">Bitte halte dich in Zukunft an die Nutzungs-<lf>bedingungen und den Endbenutzer-Lizenzvertrag.</COLOR> Falls du<lf>dir keines Verhaltens bewusst bist, das eine solche Markierung<lf>rechtfertigt, kontaktiere uns bitte über ein Anfrageformular.
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde aufgrund eines <COLOR preset="TXT_Danger">Verdachts auf unangemessene<lf>Sprache oder Inhalte</COLOR> markiert. Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschafts-<lf>funktionen vorübergehend eingeschränkt</COLOR>. Wiederholtes oder<lf>ähnliches Verhalten kann zu dauerhaften Einschränkungen<lf>führen. <COLOR preset="TXT_Accent">Bitte halte dich in Zukunft an die Nutzungsbedingungen<lf>und den Endbenutzer-Lizenzvertrag.</COLOR> Falls du dir keines Verhaltens<lf>bewusst bist, das eine solche Markierung rechtfertigt,<lf>kontaktiere uns bitte über ein Anfrageformular.
-<string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde wegen <COLOR preset="TXT_Danger">Verdacht auf Verstöße gegen unsere<lf>Nutzungsbedingungen und/oder den Endbenutzer-Lizenzvertrag</COLOR><lf>markiert. Dadurch sind jetzt alle Gemeinschaftsfunktionen vorüber-<lf>gehend eingeschränkt</COLOR>. Wiederholtes oder ähnliches Verhalten<lf>kann zu dauerhaften Einschränkungen führen. <COLOR preset="TXT_Accent">Bitte halte dich in<lf>Zukunft an die Nutzungsbedingungen und den Endbenutzer-Lizenz-<lf>vertrag.</COLOR> Falls du dir keines Verhaltens bewusst bist, das eine solche<lf>Markierung rechtfertigt, kontaktiere uns bitte über ein Anfrageformular.
+<string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde wegen <COLOR preset="TXT_Danger">Verdacht auf Verstöße gegen unsere<lf>Nutzungsbedingungen und/oder den Endbenutzer-Lizenzvertrag</COLOR><lf>markiert. Dadurch sind jetzt <COLOR preset="TXT_Accent">alle Gemeinschaftsfunktionen vorüber-<lf>gehend eingeschränkt</COLOR>. Wiederholtes oder ähnliches Verhalten<lf>kann zu dauerhaften Einschränkungen führen. <COLOR preset="TXT_Accent">Bitte halte dich in<lf>Zukunft an die Nutzungsbedingungen und den Endbenutzer-Lizenz-<lf>vertrag.</COLOR> Falls du dir keines Verhaltens bewusst bist, das eine solche<lf>Markierung rechtfertigt, kontaktiere uns bitte über ein Anfrageformular.
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde aufgrund von <COLOR preset="TXT_Danger">beleidigendem Verhalten</COLOR> markiert.<lf>Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschaftsfunktionen<lf>vorübergehend eingeschränkt</COLOR>.<lf><lf>Wiederholtes oder ähnliches Verhalten kann zu dauerhaften<lf>Einschränkungen führen.
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde aufgrund von <COLOR preset="TXT_Danger">unangemessener Sprache</COLOR> markiert.<lf>Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschaftsfunktionen<lf>vorübergehend eingeschränkt</COLOR>.<lf><lf>Wiederholtes oder ähnliches Verhalten kann zu dauerhaften<lf>Einschränkungen führen.
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am <DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto wurde aufgrund von <COLOR preset="TXT_Danger">unangemessenem Verhalten</COLOR> markiert.<lf>Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschaftsfunktionen<lf>vorübergehend eingeschränkt</COLOR>.
@@ -116,6 +118,13 @@
 <string>Aufbrechen
 <string>Ein Fehler ist aufgetreten.<lf>Bitte wende dich ans Personal.
 <string>Übertragungsdaten konnten nicht abgerufen werden.<lf>{0}
+<string>Die Abschlusszeit konnte nicht hochgeladen werden.<lf>Bitte geh zum Questschalter oder Arenaquest-<lf>Schalter und versuche es dort erneut.<lf><lf>{0}
+<string>Deine Abschlusszeit wurde in die Ranglisten<lf>hochgeladen.
+<string>Fehler beim Abrufen der Ranglisteninformationen.<lf><lf>{0}
+<string>Du hast eine nicht registrierte Abschlusszeit.<lf>Möchtest du sie in die Ranglisten hochladen?
+<string>Wählst du „Ja“, wird deine Abschlusszeit gelöscht.<lf>Möchtest du wirklich fortfahren?
+<string>Du hast eine nicht registrierte Abschlusszeit,<lf>aber sie kann nicht mehr registriert werden,<lf>da der Zeitraum zum Hochladen vorüber ist.
+<string>Du befindest dich derzeit im Offline-Modus<lf>und kannst daher keine Abschlusszeiten<lf>in die Rangliste eintragen.
 <string>{0}<lf>Die Suche nach der obigen Jagdgruppen-ID<lf>ist fehlgeschlagen.<lf>{1}
 <string>Jagdgruppeneinladungen oder Anfragen überschreiten<lf>das Maximum.<lf><lf>{0}
 <string>Beitritt zur Jagdgruppe fehlgeschlagen.<lf><lf>{0}

@@ -219,7 +219,7 @@
 <string><ICON ST_POWER_ELEMENT_UP> Bonus ataque elemental
 <string>Aumenta el poder elemental de<lf>tu arma.<lf><lf>Método de obtención habitual:<lf>- Efectos de melodía de la cornamusa
 <string>
-<string><ICON ST_POWER_DEBUF_UP> Potencia ataque estados
+<string><ICON ST_POWER_DEBUF_UP> Mejora ataque con estado
 <string>Aumenta la potencia de los ataques de<lf>estados alterados contra monstruos.<lf><lf>Método de obtención habitual:<lf>- Efectos de melodía de la cornamusa
 <string>
 <string><ICON ST_DEFECE_FIRE><ICON ST_DEFECE_FIRE_HIGH> Antifuego+
@@ -256,7 +256,7 @@
 <string>Restaura resistencia en forma<lf>continuada.<lf><lf>Método de obtención habitual:<lf>- Efectos de Burbuja sónica<lf>de la cornamusa
 <string>
 <string><ICON ST_AVOID_UP> Mejora de intervalo de evasión
-<string>Un estado que aumenta la capacidad<lf>de evasión.<lf><lf>Método de obtención habitual:<lf>- Activación de habilidad de equipo<lf>- Efectos de Burbuja sónica<lf>de la cornamusa
+<string>Un estado que aumenta el<lf>Intervalo de evasión.<lf><lf>Método de obtención habitual:<lf>- Activación de habilidad de equipo<lf>- Efectos de Burbuja sónica<lf>de la cornamusa
 <string>
 <string><ICON ST_STRENGTH_SELF><ICON ST_STRENGTH_SELF_HIGH> Automejora
 <string>Aumenta la velocidad de movimiento.<lf><lf>Si acumulas este efecto varias veces,<lf>aumentará tu poder de ataque y<lf>evitará que tus ataques sean desviados.<lf><lf>Método de obtención habitual:<lf>- Efectos de melodía y efectos<lf>de Burbujas sónicas de la cornamusa.
@@ -339,6 +339,9 @@
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Cólera
 <string>La exposición prolongada a la cólera hará<lf>que te infectes, a menos que golpees a un<lf>monstruo una cierta cantidad de veces.<lf><lf>Infectado: detiene la recuperación<lf>natural y aumenta el daño recibido.<lf><lf>Curado: aumenta la afinidad y<lf>otorga resistencia a la cólera.<lf><lf>Puedes retrasar la manifestación<lf>del virus con una curibaya.
 <string>
+<string>Plaga de burbujas <ICON ST_BUBBLE> menor / <ICON ST_BUBBLE_HIGH> mayor
+<string>Se adherirán burbujas infladas<lf>a tu cuerpo. Si se vuelven muy grandes,<lf>tendrás problemas para moverte.<lf>Además, si recibes un golpe, puede que<lf>te derriben y recibas daño adicional.<lf><lf>Métodos habituales de curación:<lf>- Usando un limpiador<lf>- Esperando a que se pasen los efectos<lf>- Al recibir ciertos ataques
+<string>
 <string><ICON ST_FIRE> Plaga de fuego
 <string>Un estado que merma tu salud con el tiempo.<lf><lf>Método habitual de curación:<lf>- Uso de curibaya<lf>- Evadiendo varias veces en una masa<lf>de agua<lf>- Esperando a que se pasen los efectos
 <string>
@@ -352,7 +355,7 @@
 <string>Un estado que aumenta el consumo<lf>de resistencia.<lf><lf>Método habitual de curación:<lf>- Uso de curibaya<lf>- Evadiendo varias veces<lf>- Esperando a que se pasen los efectos
 <string>
 <string><ICON ST_DRUGON> Plaga de draco
-<string>Un estado que anula las propiedades<lf>elementales de tu arma.<lf><lf>Método habitual de curación:<lf>- Uso de curibaya<lf>- Evadiendo varias veces<lf>- Esperando a que se pasen los efectos
+<string>Un estado que anula las<lf>propiedades elementales de tu arma<lf>y las de la munición de eslinga.<lf><lf>Método habitual de curación:<lf>- Uso de curibaya<lf>- Evadiendo varias veces<lf>- Esperando a que se pasen los efectos
 <string>
 <string>Sismo
 <string>Un estado que limita tus movimientos.<lf>La duración de la restricción dependerá<lf>de la intensidad del sismo.<lf><lf>Método habitual de curación:<lf>- Esperando a que se pasen los efectos<lf>- Recibiendo un ataque
@@ -527,7 +530,7 @@
 <string>Cuando los monstruos se infectan con la<lf>cólera, entran en un estado colérico.<lf><lf>Los monstruos coléricos alteran sus<lf>patrones habituales de sueño y<lf>alimentación y se muestran más agresivos<lf>y violentos que los especímenes normales.<lf><lf>Los efectos de la cólera también reducen<lf>la expectativa de vida y la salud de un<lf>monstruo.
 <string>
 <string>Guardianes
-<string>Los Guardianes son monstruos artificiales<lf>creados por una civilización antigua.<lf>No pueden reproducirse y no tienen<lf>necesidad de ir tras una presa, ya que<lf>pueden subsistir con leche de wyvern.<lf><lf>Son mucho más resistente, ya que al<lf>absorber energía de la leche de wyvern,<lf>pueden curar heridas. Los instintos de<lf>autopreservación los impulsan a permanecer<lf>cerca de fuentes de energía, en donde se<lf>muestran muy territoriales.
+<string>Los Guardianes son monstruos<lf>artificiales creados por una antigua<lf>civilización. No pueden reproducirse<lf>y no necesitan cazar, ya que pueden<lf>subsistir con leche de wyvern.<lf><lf>Son mucho más resistente, ya que al<lf>absorber energía de la leche de wyvern,<lf>pueden curar sus heridas. Los instintos<lf>de autopreservación los impulsan a<lf>permanecer cerca de fuentes de energía,<lf>en donde se muestran muy territoriales.
 <string>
 <string>Monstruos curtidos
 <string>Los monstruos curtidos son aquellos<lf>que sobrevivieron a un sinfín de<lf>batallas. Tienen un nivel de salud y<lf>ataque mucho más alto que el de los<lf>especímenes comunes y corrientes,<lf>por lo que son adversarios muy fuertes.<lf><lf>Quizás como resultado de encuentros<lf>previos muy violentos, estos monstruos<lf>tienen <COLOR preset="TXT_Danger">heridas curtidas</COLOR> por todo<lf>el cuerpo.

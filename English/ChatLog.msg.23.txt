@@ -8,7 +8,7 @@
 <string>{0}<lf>could not join the Link Party.
 <string>{0} has joined your<lf>Environment Link.
 <string>You have joined {0}'s<lf>Environment Link.
-<string>{0} has left the Environment Link.
+<string>{0} has left the<lf>Environment Link.
 <string>Left Environment Link and returned<lf>to your own environment.
 <string>You declined the Environment Link<lf>invitation.
 <string>{0}<lf>could not join the Environment Link.
@@ -30,7 +30,7 @@
 <string>Link Party Invitation
 <string>{0}<lf>has sent you a Link Party invitation.
 <string>Environment Link Invitation
-<string>{0} has sent you an Environment<lf>Link invitation.
+<string>{0} has sent you an<lf>Environment Link invitation.
 <string>Quest Invitation
 <string>{0}<lf>has sent you a quest invitation.
 <string>Quest time limit left:<lf><PLURAL {0} "{0} minute" "{0} minutes">.
@@ -69,8 +69,8 @@
 <string>The Support Ship has arrived.
 <string>The Support Ship will depart soon.
 <string>The Support Ship has departed.
-<string>Lucky Voucher used. ({0} remaining.)
-<string>Randomized reward lineups<lf>and zenny will be awarded.
+<string>Use Lucky Voucher ({0} Left)
+<string>Use a Lucky Voucher for improved<lf>randomized quest rewards and<lf>bonus zenny.
 <string>Use
 <string>Lucky Voucher used.
 <string>Environment Link Activity
@@ -118,7 +118,7 @@
 <string>Wishlist target has appeared!<lf>{0}
 <string>Open Map
 <string>Environment Overview
-<string>{0} has appeared!
+<string>{0}<lf>has appeared!
 <string>Open Map
 <string>Environment Overview
 <string>{0}<lf>will leave the locale soon!
@@ -163,7 +163,7 @@
 <string>Wishlist: {0}
 <string>Required Quantity
 <string>Field Survey abandoned.
-<string>Cannot carry any more Supply Items.<lf>Excess supply items discarded.
+<string>Cannot carry any more supply items.<lf>Excess supply items discarded.
 <string>Received the effects<lf>of Melody Effect<lf><BOLD>{0}</BOLD>.
 <string>Melody Effect activated!<lf><BOLD>{0}</BOLD>
 <string><BOLD>{0}</BOLD><lf>Melody Effect has worn off.
@@ -185,7 +185,7 @@
 <string>Thank you for participating in the Beta Test.<lf>Pre-order the full game now!
 <string>Open
 <string>Field Survey cannot begin as there are<lf>Link Members viewing Quest Results.
-<string>This {0} cannot be hunted<lf>as part of a quest at your current progression.
+<string>This {0} cannot be hunted<lf>as a quest at your current progression.
 <string>Echo Bubble effect activated!<lf>{0}
 <string>{0} has been delivered!
 <string>{0}
@@ -197,6 +197,7 @@
 <string>{0}
 <string>New background obtained!
 <string>Poogie doesn't seem to have anything...
+<string>Sold.
 <string>A new bounty has been posted.
 <string>Limited Bounty
 <string>{0}<lf>{1}/{2}
@@ -240,6 +241,9 @@
 <string>You've reached Hunter Rank {0}!
 <string>You cannot place the object<lf>you're carrying here.
 <string>Crossplay is currently enabled.
+<string>Arena Quest Counter
+<string>A Link Member is entering the Arena.<lf>Go to the <BOLD>Grand Hub</BOLD> to join them.
+<string>Open Map
 <string>Squad Notification
 <string>You have received an invitation to join<lf>the squad: <BOLD>{0}</BOLD>.
 <string>Squad Notification
@@ -251,6 +255,9 @@
 <string><BOLD>{1}</BOLD> has joined<lf>the squad {0}.
 <string>You have been appointed as Sub-leader<lf>of the squad <BOLD>{0}</BOLD>.
 <string>You have been appointed as Leader<lf>of the squad <BOLD>{0}</BOLD>.
+<string>Environment Overview Update
+<string>{0} has appeared<lf>in the Dragontorch Shrine!
+<string>Open Map
 <string>Login Bonus
 <string>Today's Login Bonus is now<lf>available from the Start Menu.
 <string>Claim Now
@@ -260,9 +267,18 @@
 <string>{0} shared an<lf>Item Loadout.
 <string>Radial Menu Loadout Shared
 <string>{0} shared a<lf>Radial Menu Loadout.
+<string>Festival of Accord: Blossomdance<lf>is underway!<lf>({0} <PLURAL {0} "Day" "Days"> Left)
+<string>Festival of Accord: Blossomdance<lf>is underway!<lf>({0} <PLURAL {0} "Hour" "Hours"> Left)
+<string>Festival of Accord: Blossomdance<lf>is underway!<lf>(Ending Soon)
 <string>The skill <BOLD>{0}</BOLD><lf>can now be activated.
 <string>Failed to Receive Shared Loadout
 <string>Failed to receive because the maximum<lf>limit for shared loadout notifications<lf>has been reached.
 <string>You have an invitation.<lf>Check your <BOLD>Invitation List</BOLD><lf>in the Start Menu.
 <string>You have a Join Request.<lf>Check <BOLD>Join Requests</BOLD> in the Start Menu.
 <string>Could not initiate quest.
+<string>{0} achieved a total score<lf>of {1} in Barrel Bowling!
+<string>{0} has achieved {1}<lf>consecutive victories in arm wrestling!
+<string>Could not retry because<lf>a member has left.
+<string>SOS Flare processing...
+<string>Stats boosted thanks to the Diva's voice<lf>of prayer and gratitude.
+<string>{0} used<lf>one <BOLD>{1}</BOLD>!

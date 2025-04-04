@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Przywróć wybrane do domyślnych
 <string>Przywróć wszystkie do domyślnych
+<string>Przywróć kategorię domyślną
 <string>Zresetować wybrane opcje do ustawień domyślnych?
 <string>Zresetować wszystkie opcje we wszystkich<lf>kategoriach do ustawień domyślnych?
+<string>Zresetować wszystkie opcje na karcie bieżącej<lf>kategorii do ustawień domyślnych?
 <string>Wszystko
 <string><PLATMSG MsgGUI030100_0401>
 <string>Wspólne + kontroler
@@ -805,7 +807,7 @@
 <string>Korzysta z technologii upscalingu (superrozdzielczości),<lf>aby zachować wysoką wydajność, jednocześnie<lf>ciesząc doskonałą jakością grafiki.
 <string>NVIDIA DLSS
 <string>Używa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Wymaga karty graficznej NVIDIA GeForce RTX.<lf>– Jeśli używasz karty z serii GeForce RTX40<lf>i opcja Planowanie przyspieszanego sprzętowo<lf>procesora GPU jest włączona w systemie<lf>operacyjnym, zaznaczenie tej opcji umożliwi<lf>włączenie generowania klatek.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Używa <FSR>.<lf><COLOR preset="TXT_Accent">– Jeśli opcja Planowanie przyspieszanego<lf>sprzętowo procesora GPU jest włączona<lf>w systemie operacyjnym, wybór tej opcji<lf>umożliwi włączenie generowania klatek.</COLOR>
 <string>Intel XeSS
 <string>Używa Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Używa wygładzania krawędzi AI, zachowując<lf>natywną rozdzielczość.
 <string>AMD Native AA
-<string>Używa wygładzania krawędzi FSR 3, zachowując<lf>natywną rozdzielczość.
+<string>Używa wygładzania krawędzi FSR, zachowując<lf>natywną rozdzielczość.
 <string>Intel XeSS Native AA
 <string>Używa wygładzania krawędzi XeSS, zachowując<lf>natywną rozdzielczość.
 <string>Jakość
@@ -839,7 +841,7 @@
 <string>Wyłącz
 <string>Opcja ta zostanie zaznaczona, jeżeli<lf>nie korzystasz z trybów upscalingu.
 <string>Poprawa ostrości
-<string>Dostosowuje poziom szczegółowości grafiki gdy używany jest<lf>upscaling. Im wyższa liczba, tym większa szczegółowość.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling jest włączona)</COLOR>
+<string>Dostosowuje poziom szczegółowości grafiki gdy używany<lf>jest upscaling. Im wyższa liczba, tym większa szczegółowość.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja AMD FSR jest włączona)</COLOR>
 <string>Wygładzanie krawędzi
 <string>Dostosowuje tryb wygładzania krawędzi.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling nie jest włączona)</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Zawsze wyświetla paski zdrowia koleżkota<lf>i innych towarzyszy.
 <string>Dynamiczny
 <string>Wyświetla domyślnie zminimalizowany<lf>pasek zdrowia koleżkota i innych towarzyszy.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
+<string>Wyświetlaj czasu, który upłynął dla niektórych zadań
+<string>Określa, czy przytrzymanie <ICON PL_ITEM_SLIDER_OPEN> spowoduje wyświetlenie czasu,<lf>który upłynął podczas zadania na arenie,<lf>darmowego wyzwania czy wyzwania.
+<string>Wyświetlaj
+<string>Podczas niektórych zadań przytrzymanie <ICON PL_ITEM_SLIDER_OPEN><lf>spowoduje wyświetlenie upływającego czasu<lf>wraz z celami.
+<string>Nie wyświetlaj
+<string>Podczas niektórych zadań przytrzymanie <ICON PL_ITEM_SLIDER_OPEN><lf>nie spowoduje wyświetlenia upływającego<lf>czasu wraz z celami.
 <string>Okno czatu
 <string>Dostosowuje ustawienia okna komunikacji<lf>i dziennika czatu po wysłaniu wiadomości.
 <string>Zamknij okno

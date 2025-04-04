@@ -3,6 +3,7 @@
 <string>Podsumowanie
 <string>Członkowie
 <string>Nagrody
+<string>Osobisty rekord
 <string>Przegląd otoczenia
 <string>Aktualizuj
 <string>Obecnie
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">Osiągnięto maksymalną liczbę zapisanych śledztw. Nie można zapisać więcej.</COLOR>
 <string><COLOR preset="TXT_Danger">To śledztwo już zostało zapisane.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu, ponieważ członek grupy wyświetla wyniki zadania.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można użyć podczas tego zadania.</COLOR>
+<string><COLOR preset="TXT_Danger">To zadanie można przyjąć tylko w wielkim centrum.</COLOR>
 <string>Powrót do ekr. tytuł.
 <string>Spróbuj ponownie
 <string>Zgładź: {0}
@@ -99,6 +102,19 @@
 <string>Powrót
 <string>Zacznij<lf>zadanie
 <string>Zadanie<lf>przyjęte
+<string>ZACZNIJ<lf>OD NOWA
+<string>CZAS<lf>MINĄŁ!
+<string>1. rzut!
+<string>2. rzut!
+<string>Wynik
+<string>Ukończono
+<string>GOTOWI?
+<string>3
+<string>2
+<string>1
+<string>START!
+<string>WYGRANA
+<string>PORAŻKA
 <string>Wszystkie zadania
 <string>Zlecenia
 <string>Zadania opcjonalne
@@ -116,11 +132,12 @@
 <string>Zadania członków lobby
 <string>Zadania z flarą alarmową
 <string>Zadania członków grupy
+<string>Darmowe wyzwania
 <string>Koszt
 <string>Czas rozpoczęcia badania terenu
 <string>Pozostałe
 <string>{0}
-<string>Принимать игроков
+<string>Przyjmowanie do zadań
 <string>Dostosuj metodę przyjmowania do zadań. <COLOR preset="TXT_Accent">(Członkowie grupy, którzy otrzymają zaproszenie do zadania, będą automatycznie przyjęci)</COLOR>
 <string>Automatycznie
 <string>Ręcznie
@@ -148,6 +165,13 @@
 <string>Zemdlenia: {0}/{1}
 <string>Klient: {0}
 <string>Ukończono!
+<string>Dostępna broń
+<string>Rankingi czasów
+<string>Twój najlepszy czas
+<string>Członkowie
+<string>Data: <DATETIME {0} "DD.MM.YYYY"> (UTC)
+<string>Data: <DATETIME {0} "DD.MM.YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Wiadomość o rekrutacji
 <string>Ustaw wiadomość, by zrekrutować członków.
 <string>Przyjmę każdego!
@@ -161,11 +185,12 @@
 <string>{0} chce porozmawiać!
 <string>Dostępne zadanie: {0}
 <string>{0}: gotowe do zgłoszenia!
-<string>Premia do pozyskiwania aktywna! (<PLURAL {0} "Został {0} dzień "Zostały {0} dni" "Zostało {0} dni">)
+<string>Wzmocnienie pozyskiwania aktywne! (pozostały czas: <PLURAL {0} "{0} dzień" "{0} dni" "{0} dni">)
 <string>Chyba ma wpływ na miejscowe osady!
 <string>Osada ma problem z potworem!
 <string>Upoluj go, aby zdobyć tymczasową premię do pozyskiwania.
 <string>Sz. Szron. Łańc.: pojawia się {0}!
+<string>Św. Smoczego Ognia: <LSNR "pojawił" "pojawiła" "pojawiło"> się {0}!
 <string>Maksymalna liczba członków
 <string>Ustaw maksymalną liczbę graczy mogących dołączyć do zadań. <COLOR preset="TXT_Accent">(Liczba będzie różna w zależności od maks. liczby członków grupy)</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>W menu tytułowym wyłączono rozgrywkę międzyplatformową. Wyniki wskażą tylko zadania od graczy z takimi samymi ustawieniami.
 <string>Wszystkie platformy
 <string>Twoja platforma
+<string>Dodatkowe szczegóły
+<string>Zasady opcjonalnych wyzwań<lf>– Automatyczna flara alarmowa: nie możesz wystrzelić<lf>flary alarmowej.<lf>– Ustawienia przyjmowania do zadań: po rozpoczęciu<lf>nie można dołączyć do zadania.<lf>– Łowcy wspierający dołączą do zadania na starcie.
+<string>Zasady zadań na Arenie i wyzwań<lf>– Maksymalna liczba uczestników wynosi 2.<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.<lf>– Koleżkoty nie mogą dołączyć do zadania.<lf>– Efekty posiłków zostaną <COLOR preset="TXT_Danger">tymczasowo wyłączone na czas<lf>trwania zadania</COLOR>. (Przywrócone po zakończeniu zadania).<lf>– Efekty statusu, takie jak przedmioty i efekty melodii<lf><COLOR preset="TXT_Danger">znikną po wyjściu</COLOR>.<lf><lf>Zasady opcjonalnych zadań z walką na czas<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.
 <string>Szukaj flar alarmowych
 <string>Typ zadania
 <string>Dowolne
@@ -218,6 +246,7 @@
 <string>Usuń śledztwo
 <string>Usunąć wybrane śledztwo?<lf><lf>Uwaga: Jeśli zadanie pozostanie w twojej<lf><COLOR preset="TXT_Accent">historii badań terenu</COLOR>, historia również<lf>zostanie usunięta.
 <string>Śledztwo usunięte.
+<string>Szczegóły dostępn. wyposażenia
 <string>Możesz zaakceptować to zadanie następującą<lf>liczbę razy: {0}.<lf>Zaakceptować zadanie i zapisać?
 <string>Zwiększyć tymczasowo maksymalną liczbę graczy dla<lf>tego zadania? <COLOR preset="TXT_Accent"> (Nie można zmienić ponownie do momentu<lf>ukończenia zadania)</COLOR>
 <string>Zlecenia
@@ -228,3 +257,17 @@
 <string>Zadania członków grupy ({0})
 <string>Zadania członków grupy
 <string>Zadania z flarą alarmową ({0})
+<string>Zadania na Arenie
+<string>Wyzwania
+<string>Darmowe wyzwania
+<string>Zadania z łowieniem ryb
+<string>Zadania z łowieniem ryb (ograniczone)
+<string>Najlepszy czas
+<string>Wyposażenie
+<string>Status członka
+<string>Łowca wspierający
+<string>Z łowcami wspierającymi
+<string>Bez łowców wspierających
+<string>Potwierdzić wyposażenie?
+<string>Oczekiwanie na innych graczy.
+<string>Najwyższy wynik

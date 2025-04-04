@@ -29,7 +29,7 @@
 <string>Connexion au réseau...
 <string>Nouvelle version de l'application détectée.<lf>Pour utiliser les fonctionnalités réseau,<lf>veuillez fermer l'application et installer<lf>la mise à jour.
 <string>Les données de Chasseur ont été écrasées.<lf>Ces données restent utilisables, mais vos amis de<lf>chasse, les joueurs que vous suivez ou qui vous<lf>suivent, ainsi que les Clans seront réinitialisés.
-<string>Le joueur a déjà rejoint le groupe relié.<lf><lf>{0}
+<string>Le joueur a déjà rejoint un groupe relié.<lf><lf>{0}
 <string>Le nombre maximum de joueurs pour<lf>le groupe relié a été atteint.<lf>Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
 <string>Échec de l'envoi : le joueur a atteint le nombre<lf>maximum d'invitations à des groupes reliés.<lf>{0}
 <string>Impossible d'effectuer un signalement pour<lf>le moment. Veuillez réessayer ultérieurement.<lf><lf>{0}
@@ -44,6 +44,7 @@
 <string>Cette fonctionnalité est actuellement<lf>indisponible pour cause de maintenance.<lf>Veuillez réessayer ultérieurement.<lf>{0}
 <string>Vous avez atteint la limite de personnes bloquées<lf>et ne pouvez plus bloquer d'autres joueurs.<lf>{0}
 <string>Les serveurs sont actuellement<lf>en cours de maintenance.<lf>{0}
+<string>Impossible d'accéder aux fonctionnalités<lf>liées aux Clans avec ce compte.<lf>{0}
 <string>Vous avez été déconnecté de la session.<lf>{0}
 <string>La création de la session a échoué.<lf>{0}
 <string>La recherche de la session a échoué.<lf>{0}
@@ -66,6 +67,7 @@
 <string>Le serveur est actuellement occupé.<lf>Veuillez réessayer ultérieurement.
 <string>Le crossplay est actuellement activé.
 <string>Vous ne pouvez pas participer à cette session :<lf>les paramètres de crossplay du joueur<lf>sont incompatibles.<lf>{0}
+<string>Impossible de rejoindre cette quête,<lf>car elle est déjà en cours.
 <string>Participation impossible : les paramètres<lf>de crossplay de la session sont différents.<lf>Veuillez vérifier vos paramètres de crossplay<lf>dans les <BOLD>Options</BOLD> de l'écran titre.<lf>{0}
 <string>La limite de joueurs du groupe relié a été<lf>atteinte. Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "D xMMMM YYYY HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
@@ -108,7 +110,7 @@
 <string>Jouons ensemble à Monster Hunter: Wilds !
 <string>Voulez-vous jouer avec moi à Monster Hunter Wilds Beta test ?
 <string>Invitation reçue.<lf><lf><COLOR preset="TXT_Accent">(Elle s'affichera à la fin de la cinématique ou du<lf>chargement, ou une fois le menu Options fermé.)</COLOR>
-<string>Impossible de rejoindre le groupe relié car les fonctionnalités<lf>en ligne ne sont pas utilisables actuellement.
+<string>Impossible de rejoindre le groupe relié.<lf>Les fonctions en ligne ne sont pas disponibles.
 <string>Le jeu commencera en mode hors ligne.<lf><lf>Pour jouer en mode multijoueur en ligne, vous devez<lf>consentir au recueil d'informations personnelles. Vous<lf>pouvez jouer au jeu sans y consentir, mais certaines<lf>fonctionnalités ne seront pas disponibles. Pour modifier<lf>ce paramètre, consultez la section <BOLD>Confidentialité</BOLD> sur<lf>l'écran titre.
 <string>Pour jouer en ligne, vous devez consentir au<lf>partage de vos données personnelles. Pour<lf>modifier ce paramètre, consultez <BOLD>Confidentialité</BOLD><lf>sur l'écran titre.<lf>{0}
 <string>En attente des autres utilisateurs...
@@ -116,6 +118,13 @@
 <string>Partir
 <string>Une erreur s'est produite.<lf>Veuillez en informer le staff.
 <string>Impossible d'obtenir les données de transmission.<lf>{0}
+<string>Votre temps n'a pas pu être envoyé.<lf>Veuillez accéder au Comptoir des quêtes ou<lf>au Comptoir des Quêtes Arène et réessayer.<lf><lf>{0}
+<string>Votre temps a été ajouté au classement.
+<string>Impossible d'obtenir les informations du<lf>classement.<lf><lf>{0}
+<string>Votre temps n'est pas enregistré.<lf>Ajouter votre temps au classement ?
+<string>Sélectionner "Oui" effacera votre temps.<lf>Voulez-vous vraiment continuer ?
+<string>Votre temps n'est pas enregistré et ne peut plus<lf>l'être car le délai de validité est écoulé.
+<string>Impossible d'envoyer vos temps<lf>de complétion aux classements.<lf>Vous êtes actuellement hors ligne.
 <string>{0}<lf>La recherche de l'ID de Clan spécifié a échoué.<lf>{1}
 <string>Vous avez dépassé le nombre maximum<lf>d'invitations ou de requêtes de Clan.<lf><lf>{0}
 <string>Vous n'avez pas pu rejoindre le Clan.<lf><lf>{0}

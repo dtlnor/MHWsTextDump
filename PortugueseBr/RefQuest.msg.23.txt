@@ -3,6 +3,7 @@
 <string>Sumário
 <string>Membros
 <string>Prêmios
+<string>Recorde Pessoal
 <string>Visão Geral do Ambiente
 <string>Atualizar
 <string>Atual
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">O número máximo de investigações salvas já foi atingido. Não é possível salvar mais nenhuma.</COLOR>
 <string><COLOR preset="TXT_Danger">Esta investigação já foi salva.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível iniciar o Trabalho de Campo, pois um Membro do Elo está visualizando os Resultados da Missão.</COLOR>
+<string><COLOR preset="TXT_Danger">Não pode ser usado durante esta missão.</COLOR>
+<string><COLOR preset="TXT_Danger">Esta missão não pode ser aceita fora da Grande Central.</COLOR>
 <string>Voltar à Tela Inicial
 <string>Tentar Novamente
 <string>Abata {0}
@@ -99,6 +102,19 @@
 <string>Voltando<lf>à<lf>Base
 <string>Missão<lf>Iniciada
 <string>Missão<lf>Aceita
+<string>Recomeçar<lf>Missão
+<string>Acabou o<lf>Tempo!
+<string>1º Arremesso!
+<string>2º Arremesso!
+<string>Pontuação
+<string>Concluída
+<string>PREPARAR...
+<string>3
+<string>2
+<string>1
+<string>JÁ!
+<string>VITÓRIA
+<string>DERROTA
 <string>Todas as Missões
 <string>Serviços
 <string>Missões Opcionais
@@ -116,6 +132,7 @@
 <string>Missões de Membros do Lobby
 <string>Missões de Sinalizador SOS
 <string>Missões de Membros do Elo
+<string>Missões de Desafio Livre
 <string>Custo
 <string>Início do Trabalho de Campo
 <string>Restante
@@ -148,6 +165,13 @@
 <string>Desmaios: {0}/{1}
 <string>Cliente: {0}
 <string>Concluído!
+<string>Armas Disponíveis
+<string>Ranque de Tempo
+<string>Seus Melhores Tempos
+<string>Membros
+<string>Data: <DATETIME {0} "DD/MM/YYYY"> (UTC)
+<string>Data: <DATETIME {0} "DD/MM/YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Mensagem de Recrutamento
 <string>Prepara uma mensagem para recrutar membros.
 <string>Todos são bem-vindos!
@@ -166,6 +190,7 @@
 <string>Assentamento com problemas com monstros!
 <string>Caçada com reforço de coleta temporário!
 <string>P. Trancagelado: {0} apareceu!
+<string>A. Tocha Dracônica: {0} apareceu!
 <string>Limite de Membros
 <string>Define o número máximo de jogadores que podem entrar nas missões. <COLOR preset="TXT_Accent">(Número varia conforme o número máximo de Membros do Elo.)</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>Como o crossplay foi desativado na tela inicial, as buscas só exibirão missões de jogadores com a mesma configuração escolhida.
 <string>Todas as plataformas
 <string>Sua plataforma
+<string>Detalhes Adicionais
+<string>Regras para Missões de Desafio Livre<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.
+<string>Regras para Missões de Arena/Desafio<lf>- Máximo de 2 participantes.<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.<lf>- Amigatos não podem participar da missão.<lf>- Efeitos de refeição serão <COLOR preset="TXT_Danger">desabilitados durante a missão</COLOR> e<lf>serão restaurados quando ela terminar.<lf>- Efeitos de Status, como itens e melodias, <COLOR preset="TXT_Danger">desaparecerão ao<lf>partir para a missão</COLOR>.<lf><lf>Regras para Missões de Desafio Livre<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.
 <string>Busca por Sinalizador SOS
 <string>Tipo de Missão
 <string>Qualquer
@@ -218,6 +246,7 @@
 <string>Excluir Investigação
 <string>Excluir a investigação selecionada?<lf><lf>Atenção: Se a missão permanecer em seu <COLOR preset="TXT_Accent">Histórico<lf>de Trabalho de Campo</COLOR>, o histórico será excluído.
 <string>Investigação excluída.
+<string>Detalhes de Equip. Disponível
 <string>O número de vezes que você pode<lf>aceitar a missão selecionada é: {0}.<lf>Aceitar a missão e salvar?
 <string>Aumentar temporariamente o máximo de jogadores<lf>para missões? <COLOR preset="TXT_Accent">(Não pode ser alterado novamente<lf>até o término da missão.)</COLOR>
 <string>Serviços
@@ -228,3 +257,17 @@
 <string>Missões de Membros do Elo ({0})
 <string>Missões de Membros do Elo
 <string>Missões de Sinalizador SOS ({0})
+<string>Missões de Arena
+<string>Missões de Desafio
+<string>Missões de Desafio Livre
+<string>Missões de Pesca
+<string>Missões de Pesca (Limitado)
+<string>Melhor Tempo
+<string>Equipamento
+<string>Status de Membro
+<string>Caçador de Suporte
+<string>Com Caçadores de Suporte
+<string>Sem Caçadores de Suporte
+<string>Confirmar equipamento?
+<string>Aguardando outros jogadores.
+<string>Recorde

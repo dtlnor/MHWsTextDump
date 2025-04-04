@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Restablecer selección por defecto
 <string>Restablecer todo por defecto
+<string>Restablecer categoría a los valores por defecto
 <string>¿Quieres restablecer las opciones elegidas a los<lf>valores por defecto?
 <string>¿Quieres restablecer todas las opciones en<lf>todas las categorías a los valores por defecto?
+<string>¿Quieres restablecer todas las opciones<lf>en la pestaña actual de categorías<lf>a los valores por defecto?
 <string>Todo
 <string><PLATMSG MsgGUI030100_0401>
 <string>Compartido + Control
@@ -805,7 +807,7 @@
 <string>Usa la tecnología de superresolución, que permite<lf>mantener un rendimiento elevado con una calidad<lf>gráfica superior.
 <string>NVIDIA DLSS
 <string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">- Requiere una tarjeta gráfica NVIDIA GeForce RTX.<lf>- Si usas una tarjeta de la serie GeForce RTX40<lf>y tienes activada la aceleración por hardware en tu SO,<lf>al seleccionar esta opción podrás habilitar<lf>la generación de cuadros.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Usa <FSR>,<lf><COLOR preset="TXT_Accent">- Si tienes activada la aceleración por<lf>hardware en tu SO, al seleccionar esta opción<lf>podrás habilitar la generación de cuadros.</COLOR>
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Usa anti-aliasing por IA mientras se mantiene<lf>la resolución nativa.
 <string>AMD Native AA
-<string>Usa anti-aliasing FSR 3 mientras se mantiene<lf>la resolución nativa.
+<string>Usa anti-aliasing FSR mientras se mantiene<lf>la resolución nativa.
 <string>Intel XeSS Native AA
 <string>Usa anti-aliasing XeSS mientras se mantiene<lf>la resolución nativa.
 <string>Calidad
@@ -839,7 +841,7 @@
 <string>Desactivar
 <string>Se seleccionará esta opción si no se usa<lf>un método de escalamiento.
 <string>Intensidad de escalamiento
-<string>Ajusta la calidad gráfica al usar escalamiento.<lf>Cuanto mayor sea la cifra, mayor nivel de detalle.<lf><COLOR preset="TXT_Accent">(Solo disponible con el AMD FSR 3 activado).</COLOR>
+<string>Ajusta la calidad gráfica al usar escalamiento.<lf>Cuanto mayor sea la cifra, mayor nivel de detalle.<lf><COLOR preset="TXT_Accent">(Solo disponible con el AMD FSR activado).</COLOR>
 <string>Anti-Aliasing
 <string>Ajusta el modo de anti-aliasing <COLOR preset="TXT_Accent">(solo disponible con<lf>el escalamiento desactivado).</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Muestra las barras de salud del camarada<lf>y otros compañeros en todo momento.
 <string>Dinámica
 <string>Muestra la barra de salud minimizada por<lf>defecto del camarada y otros compañeros.<lf>La barra se mostrará completa en ciertas<lf>situaciones.
+<string>Mostrar tiempo transcurrido para algunas misiones
+<string>Ajusta si al mantener presionado <ICON PL_ITEM_SLIDER_OPEN> se mostrará<lf>el tiempo transcurrido en las misiones de la Arena,<lf>de desafío o de desafío abierto.
+<string>Mostrar
+<string>Durante ciertas misiones, al mantener presionado <ICON PL_ITEM_SLIDER_OPEN>,<lf>se mostrará el tiempo transcurrido sobre tus objetivos.
+<string>No mostrar
+<string>Durante ciertas misiones, al mantener presionado <ICON PL_ITEM_SLIDER_OPEN>,<lf>no se mostrará el tiempo transcurrido sobre tus objetivos.
 <string>Ventana de chat
 <string>Ajusta las opciones de la ventana de comunicación<lf>y notificaciones tras enviar un mensaje.
 <string>Cerrar ventana

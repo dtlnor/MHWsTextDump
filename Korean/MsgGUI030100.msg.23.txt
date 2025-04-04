@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>선택 중인 항목 초기화하기
 <string>모든 항목 초기화하기
+<string>카테고리 내 초기화하기
 <string>선택 중인 항목을 초기 설정으로 되돌립니다.<lf>계속하시겠습니까?
 <string>현재 표시 중인 카테고리 이외에 있는 항목을 포함한,<lf>모든 항목을 초기 설정으로 되돌립니다.<lf>계속하시겠습니까?
+<string>현재 표시 중인 카테고리에 있는<lf>모든 항목의 설정을 초기 설정으로 되돌립니다.<lf>계속하시겠습니까?
 <string>전부
 <string><PLATMSG MsgGUI030100_0401>
 <string>공통+컨트롤러
@@ -805,7 +807,7 @@
 <string>임의의 초해상도 기술을 적용하면 높은 퍼포먼스와<lf>뛰어난 화질을 양립시킬 수 있습니다.
 <string>NVIDIA DLSS
 <string>NVIDIA <DLSS>를 사용합니다.<lf><COLOR preset="TXT_Accent">(NVIDIA GeForce RTX<lf>그래픽 카드를 사용할 때만<lf>설정할 수 있습니다.)</COLOR><lf><COLOR preset="TXT_Accent">(GeForce RTX40 Series를<lf>사용하며 OS 설정에서<lf>하드웨어 가속 장치에<lf>의한 GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string><FSR>을 사용합니다.<lf><COLOR preset="TXT_Accent">(OS 설정에서 하드웨어 가속 장치에 의한<lf>GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
 <string>Intel XeSS
 <string>Intel <XESS>을 사용합니다.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>네이티브 해상도 그대로<lf>AI 기반 안티앨리어싱을 사용합니다.
 <string>AMD Native AA
-<string>네이티브 해상도 그대로<lf>FSR 3의 안티앨리어싱을 사용합니다.
+<string>네이티브 해상도 그대로<lf>FSR의 안티앨리어싱을 사용합니다.
 <string>Intel XeSS Native AA
 <string>네이티브 해상도 그대로<lf>XeSS의 안티앨리어싱을 사용합니다.
 <string>품질 우선
@@ -839,7 +841,7 @@
 <string>끄기
 <string>업스케일링을 사용하지 않는 경우<lf>이 항목이 선택됩니다.
 <string>업스케일링 선명도
-<string>업스케일링 사용 시의 화질 선명도를 설정합니다.<lf>높을수록 선명해지고, 낮을수록 부드러워집니다.<lf><COLOR preset="TXT_Accent">(해당 항목을 AMD FSR 3로 설정 시에만 변경 가능)</COLOR>
+<string>업스케일링 사용 시의 화질 선명도를 설정합니다.<lf>높을수록 선명해지고, 낮을수록 부드러워집니다.<lf><COLOR preset="TXT_Accent">(해당 항목을 AMD FSR로 설정 시에만 변경 가능)</COLOR>
 <string>안티앨리어싱
 <string>안티앨리어싱 모드를 전환합니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 미사용 시에만 변경 가능합니다.)</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>동료의 체력 게이지를 최소화하지 않고<lf>항상 표시합니다.
 <string>항상 표시 안 함(최소화 표시)
 <string>동료의 체력 게이지를 최소화해 표시합니다.<lf>상황에 따라 자동으로 게이지가 전개됩니다.
+<string>일부 퀘스트의 경과 시간 표시
+<string>격투대회 퀘스트, 챌린지 퀘스트, 프리 챌린지<lf>퀘스트에서 <ICON PL_ITEM_SLIDER_OPEN>을 입력하는 동안 목표 가이드 위에<lf>퀘스트 경과 시간 표시 여부를 설정합니다.
+<string>표시하기
+<string>해당하는 퀘스트에서 <ICON PL_ITEM_SLIDER_OPEN>을 입력하는 동안<lf>목표 가이드 위에<lf>퀘스트 경과 시간이 표시됩니다.
+<string>표시 안 함
+<string>해당하는 퀘스트에서 <ICON PL_ITEM_SLIDER_OPEN>을 입력해도<lf>목표 가이드 위에<lf>퀘스트 경과 시간이 표시되지 않습니다.
 <string>채팅 송신 후 동작 설정
 <string>채팅 송신 후 커뮤니케이션 창 및 채팅 로그창의<lf>동작을 설정합니다.
 <string>창 닫기

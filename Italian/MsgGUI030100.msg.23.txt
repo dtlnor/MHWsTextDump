@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Ripristina selezionato
 <string>Ripristina tutto
+<string>Ripristina categoria
 <string>Ripristinare queste opzioni ai valori predefiniti?
 <string>Ripristinare ogni opzione in tutte<lf>le categorie ai valori predefiniti?
+<string>Ripristinare ogni opzione nella<lf>categoria attuale ai valori predefiniti?
 <string>Tutto
 <string><PLATMSG MsgGUI030100_0401>
 <string>Condivisi + Controller
@@ -805,7 +807,7 @@
 <string>Usare tecnologie per l'imaging a super risoluzione<lf>ti permette di mantenere prestazioni elevate<lf>e di usufruire di una grafica di qualità superiore.
 <string>NVIDIA DLSS
 <string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Richiede una scheda grafica NVIDIA GeForce RTX.<lf>– Se usi una scheda GeForce RTX40 Series e hai<lf>attivato la pianificazione GPU con accelerazione<lf>hardware nel tuo sistema operativo, selezionarla<lf>attiverà la Generazione frame.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Usa <FSR>.<lf><COLOR preset="TXT_Accent">– Se hai attivato la pianificazione GPU con accelerazione<lf>hardware nel tuo sistema operativo, selezionarla attiverà<lf>la Generazione frame.</COLOR>
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Usa l'anti-aliasing IA mantenendo la risoluzione originale.
 <string>AMD Native AA
-<string>Usa l'anti-aliasing FSR 3 mantenendo la risoluzione originale.
+<string>Usa l'anti-aliasing FSR mantenendo la risoluzione originale.
 <string>Intel XeSS Native AA
 <string>Usa l'anti-aliasing XeSS mantenendo la risoluzione originale.
 <string>Qualità
@@ -839,7 +841,7 @@
 <string>Disattiva
 <string>Questa opzione sarà selezionata<lf>se non usi il ridimensionamento.
 <string>Nitidezza ridimensionamento
-<string>Regola il livello di dettaglio grafico usato<lf>con il ridimensionamento. <COLOR preset="TXT_Accent">(Può essere regolato<lf>solo se AMD FSR 3 è attivato.)</COLOR>
+<string>Regola il livello di dettaglio grafico usato<lf>con il ridimensionamento. <COLOR preset="TXT_Accent">(Può essere regolato<lf>solo se AMD FSR è attivato.)</COLOR>
 <string>Anti-aliasing
 <string>Seleziona la modalità di anti-aliasing.<lf><COLOR preset="TXT_Accent">(Può essere regolata solo se il<lf>ridimensionamento è disattivato.)</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Mostra sempre le barre salute dei compagni.
 <string>Dinamica
 <string>Mostra sempre la barra salute ridotta<lf>per i tuoi compagni.<lf>La barra si espanderà completamente<lf>solo in risposta ad alcune situazioni.
+<string>Mostra tempo trascorso
+<string>Scegli se la pressione di <ICON PL_ITEM_SLIDER_OPEN> mostrerà<lf>o meno la quantità di tempo trascorso per<lf>le missioni Arena, Sfida e Corsa al tempo opzionale.
+<string>Mostra
+<string>Durante alcune missioni, tenere premuto <ICON PL_ITEM_SLIDER_OPEN><lf>permette di visualizzare il tempo trascorso<lf>con i tuoi obiettivi.
+<string>Non mostrare
+<string>Durante alcune missioni, tenere premuto <ICON PL_ITEM_SLIDER_OPEN><lf>permette di nascondere il tempo trascorso<lf>con i tuoi obiettivi.
 <string>Chat
 <string>Modifica le impostazioni della finestra delle<lf>comunicazioni o la chat dopo l'invio di un messaggio.
 <string>Chiudi finestra

@@ -3,6 +3,7 @@
 <string>Résumé
 <string>Membres
 <string>Récompenses
+<string>Record personnel
 <string>Infos environnement
 <string>Nouveau
 <string>Actuel
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">Vous avez atteint la limite d'investigations sauvegardées. Vous ne pouvez plus en sauvegarder.</COLOR>
 <string><COLOR preset="TXT_Danger">Cette investigation a déjà été sauvegardée.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de commencer l'enquête de terrain car un membre relié consulte les résultats de quête.</COLOR>
+<string><COLOR preset="TXT_Danger">Indisponible durant cette quête.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible d'accepter cette quête en dehors du Grand-Camp.</COLOR>
 <string>Retour à l'écran titre
 <string>Réessayer
 <string>Éliminer : {0}
@@ -99,6 +102,19 @@
 <string>Retour<lf>à la base
 <string>Début de<lf>la quête
 <string>Quête<lf>acceptée
+<string>Réessayer<lf>la quête
+<string>Temps<lf>écoulé !
+<string>1er essai !
+<string>2e essai !
+<string>Score
+<string>Terminé
+<string>ATTENTION...
+<string>3
+<string>2
+<string>1
+<string>C'EST PARTI !
+<string>VICTOIRE
+<string>DÉFAITE
 <string>Toutes les quêtes
 <string>Quêtes principales
 <string>Quêtes libres
@@ -116,6 +132,7 @@
 <string>Quêtes Membres du lobby
 <string>Quêtes Fusée de détresse
 <string>Quêtes Membres reliés
+<string>Quêtes Défi libre
 <string>Coût
 <string>Début de l'enquête de terrain
 <string>Restant
@@ -148,6 +165,13 @@
 <string>Évanouissements : {0}/{1}
 <string>Client : {0}
 <string>Complétée !
+<string>Armes disponibles
+<string>Rang
+<string>Vos meilleurs temps
+<string>Membres
+<string>Date : <DATETIME {0} "DD/MM/YYYY"> (UTC)
+<string>Date : <DATETIME {0} "DD/MM/YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Message de recrutement
 <string>Définir un message pour recruter des membres.
 <string>Bienvenue à tous !
@@ -166,6 +190,7 @@
 <string>Un village a des problèmes de monstre !
 <string>Chassez-le pour un bonus d'échange temporaire.
 <string>Cimes gelées : {0} apparu(e) !
+<string>{0} : apparition au Sanctuaire de la Torche !
 <string>Nombre maximum de membres
 <string>Définir le nombre maximum de joueurs pouvant participer aux quêtes. <COLOR preset="TXT_Accent">(Varie en fonction du nombre maximum de membres reliés.)</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>Comme le crossplay a été désactivé à l'écran titre, les recherches n'afficheront que les quêtes des joueurs avec la même configuration.
 <string>Toutes les plateformes
 <string>Votre plateforme
+<string>Détails supplémentaires
+<string>Règles des Quêtes Défi libre<lf>- Fusée de détresse automatique : vous ne pouvez pas envoyer de<lf>fusée de détresse.<lf>- Accès à la quête : vous ne pouvez pas rejoindre une quête une fois<lf>qu'elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.
+<string>Règles des Quêtes Arène/Défi<lf>- Le nombre de participants est limité à 2.<lf>- Fusée de détresse automatique : envoi de fusée de détresse impossible.<lf>- Accès à la quête : impossible de rejoindre une quête si elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.<lf>- Les Palicos ne peuvent pas rejoindre la quête.<lf>- Les effets des repas sont <COLOR preset="TXT_Danger">temporairement désactivés durant la quête</COLOR>.<lf>(Ils s'activent à nouveau après la fin de la quête.)<lf>- Les effets comme ceux des objets ou des mélodies <COLOR preset="TXT_Danger">disparaîtront<lf>lors du départ en quête</COLOR>.<lf><lf>Règles des Quêtes Défi libre<lf>- Fusée de détresse automatique : envoi de fusée de détresse impossible.<lf>- Accès à la quête : impossible de rejoindre une quête si elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.
 <string>Recherche fusée de détresse
 <string>Type de quête
 <string>Tout
@@ -216,8 +244,9 @@
 <string>Décroissant
 <string>Recommandé
 <string>Supprimer investigation
-<string>Supprimer l'investigation sélectionnée ?<lf><lf>Remarque : si la quête reste dans <COLOR preset="TXT_Accent">l'historique<lf>des enquêtes de terrain</COLOR>, l'historique sera<lf>également supprimé.
+<string>Supprimer l'investigation sélectionnée ?<lf><lf>Remarque : si la quête se trouve encore<lf>dans <COLOR preset="TXT_Accent">l'historique des enquêtes de terrain</COLOR>,<lf>elle en sera également supprimée.
 <string>Investigation supprimée.
+<string>Détails équipement disponible
 <string>Vous pouvez accepter la quête sélectionnée {0} fois.<lf>Accepter la quête et sauvegarder ?
 <string>Augmenter temporairement le nombre maximum de<lf>joueurs pour les quêtes ?<lf><COLOR preset="TXT_Accent">(Ne peut plus être modifié tant que la quête n'est<lf>pas terminée.)</COLOR>
 <string>Quêtes principales
@@ -228,3 +257,17 @@
 <string>Quêtes Membres reliés ({0})
 <string>Quêtes Membres reliés
 <string>Quêtes Fusée de détresse ({0})
+<string>Quêtes Arène
+<string>Quêtes Défi
+<string>Quêtes Défi libre
+<string>Quêtes de pêche
+<string>Quêtes de pêche (spéciales)
+<string>Meilleur temps
+<string>Équipement
+<string>Statut du membre
+<string>Chasseur de soutien
+<string>Avec Chasseurs de soutien
+<string>Sans Chasseurs de soutien
+<string>Confirmer l'équipement ?
+<string>En attente des autres joueurs.
+<string>Meilleur score

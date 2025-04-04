@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>重置選擇中項目至初始設定
 <string>重置所有項目至初始設定
+<string>重置類別內所有項目至初始設定
 <string>確定要將選擇中項目恢復至初始設定嗎？
 <string>確定要將所有項目（包括目前顯示的類別的所有項目）<lf>恢復至初始設定嗎？
+<string>確定要將目前顯示的類別的所有項目恢復至初始設定嗎？
 <string>全部
 <string><PLATMSG MsgGUI030100_0401>
 <string>共通＋控制器
@@ -805,7 +807,7 @@
 <string>套用下列超解析度技術，就可兼得高效能與高畫質。
 <string>NVIDIA DLSS
 <string>使用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX顯示卡時<lf>　啟用此設定；若使用 GeForce RTX 40系列<lf>　顯示卡，並於作業系統的設定中啟用硬體<lf>　加速GPU排程時，選擇此選項後就可設定<lf>　「畫格生成」）</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>使用<FSR>。<lf><COLOR preset="TXT_Accent">（於作業系統的設定啟用硬體加速GPU排程時，<lf>　選擇此選項後就可設定「畫格生成」）</COLOR>
 <string>Intel XeSS
 <string>使用Intel <XESS>。
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>保留原始解析度，並使用人工智能反鋸齒。
 <string>AMD Native AA
-<string>保留原始解析度，並使用FSR 3反鋸齒。
+<string>保留原始解析度，並使用FSR反鋸齒。
 <string>Intel XeSS Native AA
 <string>保留原始解析度，並使用XeSS反鋸齒。
 <string>畫質優先
@@ -839,7 +841,7 @@
 <string>關
 <string>未使用升頻時會自動選擇此項目。
 <string>升頻清晰度
-<string>設定使用升頻時的畫質清晰度。數值越高，畫面越銳利，<lf>越低則越柔和。<lf><COLOR preset="TXT_Accent">（僅可於「升頻」設定為「AMD FSR 3」時變更此設定）</COLOR>
+<string>設定使用升頻時的畫質清晰度。數值越高，畫面越銳利，<lf>越低則越柔和。<lf><COLOR preset="TXT_Accent">（僅可於「升頻」設定為「AMD FSR」時變更此設定）</COLOR>
 <string>反鋸齒
 <string>切換反鋸齒模式。<lf><COLOR preset="TXT_Accent">（僅可於未使用「升頻」時變更此設定）</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>恆常顯示夥伴的體力計量表。
 <string>不恆常顯示（最小化）
 <string>以最小化狀態顯示夥伴的體力計量表，並因應情況<lf>自動展開。
+<string>顯示部分任務的經過時間
+<string>設定在鬥技大會任務、挑戰任務、自由挑戰任務中，<lf><ICON PL_ITEM_SLIDER_OPEN>期間是否於目標導引上方顯示任務經過時間。
+<string>顯示
+<string>在相關任務中，<ICON PL_ITEM_SLIDER_OPEN>期間將於目標導引上方顯示<lf>任務經過時間。
+<string>不顯示
+<string>在相關任務中，即使<ICON PL_ITEM_SLIDER_OPEN>也不會於目標導引上方<lf>顯示任務經過時間。
 <string>發送聊天後的交流視窗
 <string>設定發送聊天後是否自動關閉交流視窗和聊天紀錄視窗。
 <string>關閉視窗

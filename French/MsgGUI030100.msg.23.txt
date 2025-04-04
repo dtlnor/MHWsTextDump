@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Restaurer sélection par défaut
 <string>Tout restaurer par défaut
+<string>Réinitialiser la catégorie
 <string>Restaurer les paramètres par défaut<lf>pour les options sélectionnées ?
 <string>Restaurer les options de toutes les catégories<lf>pour les paramètres par défaut ?
+<string>Restaurer les paramètres par défaut<lf>pour toutes les options de cette catégorie ?
 <string>Tout
 <string><PLATMSG MsgGUI030100_0401>
 <string>Commun + manette
@@ -756,7 +758,7 @@
 <string>Mode faible latence NVIDIA Reflex
 <string>Définir s'il faut augmenter la réactivité du jeu et<lf>réduire la latence du système.<lf><COLOR preset="TXT_Accent">*Uniquement pour les cartes graphiques compatibles.</COLOR>
 <string>Activer
-<string>Activer NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">*Ce paramètre est automatiquement activé<lf>lorsque la génération d'images est activée<lf>dans Paramètres graphiques.</COLOR>
+<string>Activer NVIDIA Reflex.<lf><COLOR preset="TXT_Accent">*Ce paramètre est automatiquement activé<lf>lorsque la génération d'images est activée<lf>dans la section Graphismes.</COLOR>
 <string>Activer + améliorer
 <string>Activer NVIDIA Reflex et utiliser la fréquence<lf>d'horloge maximale du GPU.
 <string>Désactiver
@@ -782,7 +784,7 @@
 <string>Compatible
 <string>Incompatible
 <string>GO
-<string>Paramètres graphiques
+<string>Niveau de qualité graphique
 <string>Sélectionner le niveau de qualité des graphismes.<lf><COLOR preset="TXT_Accent">*Les graphismes des cinématiques peuvent être réglés<lf>séparément.</COLOR>
 <string>Sélectionner le niveau de qualité des graphismes.
 <string>Ultra
@@ -792,7 +794,7 @@
 <string>Très bas
 <string>Personnalisé
 <string>Cette option est sélectionnée si vous avez modifié<lf>manuellement certains détails d'un réglage prédéfini.
-<string>Graphismes des cinématiques
+<string>Qualité des cinématiques
 <string>Sélectionner la qualité graphique des cinématiques.<lf><COLOR preset="TXT_Accent">*Ce paramètre n'affecte que les cinématiques.</COLOR>
 <string>Très élevée
 <string>Élevée
@@ -805,7 +807,7 @@
 <string>Utiliser la technologie de super résolution pour vous<lf>permettre de maintenir des performances élevées tout<lf>en bénéficiant d'une qualité graphique supérieure.
 <string>NVIDIA DLSS
 <string>Utiliser NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Nécessite une carte graphique NVIDIA GeForce RTX.<lf>– Si vous utilisez une carte GeForce RTX40 et que<lf>vous avez activé la planification GPU à accélération<lf>matérielle dans votre système d'exploitation, la<lf>sélection de cette option vous permettra d'activer<lf>la génération d'images.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Utiliser <FSR>.<lf><COLOR preset="TXT_Accent">– Si vous avez activé la planification GPU à<lf>accélération matérielle dans votre système<lf>d'exploitation, la sélection de cette option<lf>vous permettra d'activer la génération<lf>d'images.</COLOR>
 <string>Intel XeSS
 <string>Utiliser Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Utiliser l'anticrénelage IA tout en conservant<lf>la résolution native.
 <string>AMD Native AA
-<string>Utiliser l'anticrénelage FSR 3 tout en conservant<lf>la résolution native.
+<string>Utiliser l'anticrénelage FSR tout en conservant<lf>la résolution native.
 <string>Intel XeSS Native AA
 <string>Utiliser l'anticrénelage XeSS tout en conservant<lf>la résolution native.
 <string>Qualité
@@ -839,7 +841,7 @@
 <string>Désactivée
 <string>Cette option est sélectionnée si vous n'utilisez<lf>pas l'upscaling.
 <string>Netteté de l'upscaling
-<string>Régler le niveau de détail graphique pour l'upscaling.<lf>Plus la valeur est élevée, plus le niveau de détail est important.<lf><COLOR preset="TXT_Accent">*Disponible uniquement si AMD FSR 3 est activé.</COLOR>
+<string>Régler le niveau de détail graphique pour l'upscaling.<lf>Plus la valeur est élevée, plus le niveau de détail est important.<lf><COLOR preset="TXT_Accent">*Disponible uniquement si AMD FSR est activé.</COLOR>
 <string>Anticrénelage
 <string>Sélectionner un mode d'anticrénelage.<lf><COLOR preset="TXT_Accent">*Disponible uniquement si l'upscaling n'est pas activé.</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Afficher la jauge de vie de votre Palico<lf>et autres alliés en permanence.
 <string>Dynamique
 <string>Afficher une jauge de vie réduite par défaut<lf>pour votre Palico et autres alliés. Dans certaines<lf>situations, la jauge s'affichera entièrement.
+<string>Afficher temps écoulé (certaines quêtes)
+<string>Définir si maintenir <ICON PL_ITEM_SLIDER_OPEN> affiche le temps<lf>écoulé au cours des Quêtes Arène, Défi<lf>et Défi libre.
+<string>Afficher
+<string>Durant certaines quêtes, maintenir <ICON PL_ITEM_SLIDER_OPEN><lf>affiche le temps écoulé avec vos objectifs.
+<string>Ne pas afficher
+<string>Durant certaines quêtes, maintenir <ICON PL_ITEM_SLIDER_OPEN><lf>n'affiche pas le temps écoulé avec vos objectifs.
 <string>Fenêtre de chat
 <string>Ajuster les paramètres de la fenêtre de communication<lf>et d'historique de chat après l'envoi d'un message.
 <string>Fermer la fenêtre

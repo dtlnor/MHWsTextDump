@@ -29,7 +29,7 @@
 <string>Inicializando red...
 <string>Hay una nueva versión de la aplicación disponible.<lf>Para usar las funciones de red, cierra<lf>la aplicación y actualízala.
 <string>Se han sobrescrito los datos de cazador.<lf>Los datos aún se pueden utilizar sin problema,<lf>pero se han reiniciado los amigos del cazador,<lf>los datos de siguiendo/seguidores, y las brigadas.
-<string>El jugador ya se ha unido al grupo vinculado.<lf>{0}
+<string>El jugador ya se ha unido a un grupo vinculado.<lf>{0}
 <string>Se ha alcanzado el límite de jugadores del<lf>grupo vinculado. No se pueden añadir más jugadores.<lf>{0}
 <string>Error al enviar porque el otro jugador ha<lf>alcanzado su límite de invitaciones de grupo.<lf>{0}
 <string>No se puede enviar informes en estos momentos.<lf>Espera un poco y vuelve a intentarlo.<lf>{0}
@@ -44,6 +44,7 @@
 <string>Esta función no está disponible en este momento<lf>debido a tareas de mantenimiento.<lf>Espera un poco e inténtalo de nuevo.<lf>{0}
 <string>No puedes bloquear a más jugadores, ya que<lf>has alcanzado el número máximo de bloqueados.<lf>{0}
 <string>En este momento se están realizando tareas<lf>de mantenimiento en los servidores.<lf>{0}
+<string>No puedes acceder a las funciones de brigada<lf>desde esta cuenta.<lf>{0}
 <string>Se ha perdido la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
 <string>Error al buscar sesión.<lf>{0}
@@ -66,6 +67,7 @@
 <string>El servidor está ocupado en este momento.<lf>Espera un poco y vuelve a intentarlo.
 <string>El juego interplataforma está activado.
 <string>No puedes participar en esta sesión a causa de la<lf>opción de juego interplataforma del otro usuario.<lf>{0}
+<string>No puedes entrar en esta misión:<lf>la misión ya ha empezado.
 <string>No puedes participar en esta sesión: la opción<lf>de juego interplataforma es distinta a la tuya.<lf>Puedes ver tu opción y cambiarla en <BOLD>opciones</BOLD>,<lf>en la pantalla del título.<lf>{0}
 <string>Se ha alcanzado el límite de jugadores del<lf>grupo vinculado. No se pueden añadir más jugadores.<lf>{0}
 <string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME year={0} month={1} day={2} format=" D [de] xMMMM [de] YYYY"> (UTC)<lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
@@ -116,6 +118,13 @@
 <string>Empezar
 <string>Se ha producido un error.<lf>Por favor, notifícalo al personal cercano.
 <string>Error al obtener los datos de transmisión.<lf>{0}
+<string>Error al subir el tiempo final. Accede al puesto<lf>de misiones o al puesto de misiones de la Arena<lf>e intenta subir tu tiempo final de nuevo.<lf><lf>{0}
+<string>Se ha subido tu tiempo final a la clasificación.
+<string>Error al obtener los datos de la clasificación.<lf><lf>{0}
+<string>Tienes un tiempo final sin registrar.<lf>¿Quieres subir el tiempo final a la clasificación?
+<string>Si seleccionas "sí", se eliminará tu tiempo final.<lf>¿Seguro que quieres continuar?
+<string>Tienes un tiempo final sin registrar.<lf>pero ya no se puede registrar porque<lf>ha caducado su validez.
+<string>Tus tiempos finales no se pueden enviar<lf>a las clasificaciones, ya que estás jugando<lf>sin conexión.
 <string>{0}<lf>Ha fallado la búsqueda de la ID de la brigada.<lf>{1}
 <string>Las invitaciones o solicitudes de brigada han<lf>superado el máximo.<lf><lf>{0}
 <string>No se ha podido entrar en la brigada.<lf><lf>{0}

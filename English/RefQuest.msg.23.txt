@@ -3,6 +3,7 @@
 <string>Summary
 <string>Members
 <string>Rewards
+<string>Personal Record
 <string>Environment Overview
 <string>Update
 <string>Current
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">The maximum number of saved investigations has already been met. You cannot save any more.</COLOR>
 <string><COLOR preset="TXT_Danger">This investigation has already been saved.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot begin Field Survey because a Link Member is viewing Quest Results.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot be used during this quest.</COLOR>
+<string><COLOR preset="TXT_Danger">This quest cannot be accepted outside of the Grand Hub.</COLOR>
 <string>Return to Title
 <string>Retry
 <string>Slay {0}
@@ -99,6 +102,19 @@
 <string>Heading<lf>Back
 <string>Begin<lf>Quest
 <string>Quest<lf>Accepted
+<string>Retry<lf>Quest
+<string>Time's<lf>Up!
+<string>1st Roll!
+<string>2nd Roll!
+<string>Score
+<string>Complete
+<string>READY?
+<string>3
+<string>2
+<string>1
+<string>GO!
+<string>VICTORY
+<string>DEFEAT
 <string>All Quests
 <string>Assignments
 <string>Optional Quests
@@ -116,6 +132,7 @@
 <string>Lobby Member Quests
 <string>SOS Flare Quests
 <string>Link Member Quests
+<string>Free Challenge Quests
 <string>Cost
 <string>Field Survey Start Time
 <string>Left
@@ -148,6 +165,13 @@
 <string>Faints: {0}/{1}
 <string>Client: {0}
 <string>Completed!
+<string>Available Weapons
+<string>Time Ranking
+<string>Your Best Times
+<string>Members
+<string>Date: <DATETIME {0} "MM/DD/YYYY"> (UTC)
+<string>Date: <DATETIME {0} "MM/DD/YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Recruitment Message
 <string>Set a message for recruiting members.
 <string>Anyone is welcome!
@@ -166,6 +190,7 @@
 <string>A settlement is having monster trouble!
 <string>Hunt it for a temporary gathering boost.
 <string>Rimechain P.: {0} appeared!
+<string>Dragontorch S.: {0} appeared!
 <string>Max Members
 <string>Set the maximum number of players that can join quests. <COLOR preset="TXT_Accent">(This number will vary depending on the max number of Link Members.)</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>Because crossplay has been disabled in the title menu, searches will only show quests from other players with the same setting.
 <string>All Platforms
 <string>Your Platform
+<string>Additional Details
+<string>Free Challenge Quest Rules<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.
+<string>Arena Quest/Challenge Quest Rules<lf>- Maximum of two participants.<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.<lf>- Palicoes cannot join the quest.<lf>- Meal effects will be <COLOR preset="TXT_Danger">temporarily disabled during the quest</COLOR>.<lf>(Restored after the quest ends.)<lf>- Status effects such as from items and Melody Effects will<lf><COLOR preset="TXT_Danger">disappear upon departure</COLOR>.<lf><lf>Free Challenge Quest Rules<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.
 <string>SOS Flare Search
 <string>Quest Type
 <string>Any
@@ -218,6 +246,7 @@
 <string>Delete Investigation
 <string>Delete the selected investigation?<lf><lf>Note: If the quest remains in your <COLOR preset="TXT_Accent">Field Survey<lf>History</COLOR>, the history will also be deleted.
 <string>Investigation deleted.
+<string>Available Equipment Details
 <string>The number of times you can accept the selected<lf>quest is: {0}.<lf>Accept the quest and save?
 <string>Temporarily increase the maximum number<lf>of players for quests? <COLOR preset="TXT_Accent">(Cannot be changed<lf>again until quest is completed.)</COLOR>
 <string>Assignments
@@ -228,3 +257,17 @@
 <string>Link Member Quests ({0})
 <string>Link Member Quests
 <string>SOS Flare Quests ({0})
+<string>Arena Quests
+<string>Challenge Quests
+<string>Free Challenge Quests
+<string>Fishing Quests
+<string>Fishing Quests (Limited)
+<string>Best Time
+<string>Equipment
+<string>Member Status
+<string>Support Hunter
+<string>With Support Hunters
+<string>Without Support Hunters
+<string>Confirm equipment?
+<string>Waiting for other players.
+<string>High Score

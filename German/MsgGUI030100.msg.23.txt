@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Zurücksetzen (Auswahl)
 <string>Zurücksetzen (alles)
+<string>Zurücksetzen (Kategorie)
 <string>Möchtest du die Standardeinstellungen<lf>der gewählten Optionen wiederherstellen?
 <string>Möchtest du die Standardeinstellungen aller<lf>Optionen in allen Kategorien wiederherstellen?
+<string>Möchtest du die Standardeinstellungen aller<lf>Optionen in dieser Kategorie wiederherstellen?
 <string>Alle
 <string><PLATMSG MsgGUI030100_0401>
 <string>Geteilt + Controller
@@ -613,10 +615,10 @@
 <string>Die Empfindlichkeit der Bewegungssteuerung kann<lf>beim Halten von <ICON PAD PL_AIM> mit gezogener Waffe für Nah-/<lf>Fernkampfwaffen getrennt festgelegt werden.
 <string>Nahkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_60_Help>
-<string>Passe die Empfindlichkeit der horizontalen Bewegungs-<lf>steuerung an, wenn du <ICON PAD PL_AIM> (Fokusmodus) mit gezogener Nah-<lf>kampfwaffe nutzt.
+<string>Passe die horizontale Empfindlichkeit der Bewegungs-<lf>steuerung beim Nutzen des Fokusmodus (<ICON PAD PL_AIM>)<lf>mit gezogener Nahkampfwaffe an.
 <string>Nahkampfwaffe (vertikal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_61_Help>
-<string>Passe die Empfindlichkeit der vertikalen Bewegungs-<lf>sensor-Steuerung bei Nutzung von <ICON PAD PL_AIM> (Fokusmodus)<lf>mit gezogener Nahkampfwaffe an.
+<string>Passe die vertikale Empfindlichkeit der Bewegungs-<lf>steuerung beim Nutzen des Fokusmodus (<ICON PAD PL_AIM>)<lf>mit gezogener Nahkampfwaffe an.
 <string>Fernkampfwaffe (horizontal): <ICON PAD PL_AIM>
 <string><PLATMSG MsgGUI030100_02_62_Help>
 <string>Passe die horizontale Empfindlichkeit der Bewegungs-<lf>steuerung beim Zielen/im Fokusmodus (<ICON PAD PL_AIM>) mit<lf>gezogener Fernkampfwaffe an.
@@ -805,7 +807,7 @@
 <string>Durch Nutzung hochauflösender Bildgebungstechnologie<lf>kann hohe Leistung mit gleichzeitig hoher Grafikqualität<lf>erzielt werden.
 <string>NVIDIA DLSS
 <string>NVIDIA <DLSS> wird genutzt.<lf><COLOR preset="TXT_Accent">– Dies erfordert eine NVIDIA GeForce RTX-<lf>Grafikkarte.<lf>– Mit einer Karte der GeForce RTX40-<lf>Serie und aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string><FSR> wird genutzt.<lf><COLOR preset="TXT_Accent">– Bei aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
 <string>Intel XeSS
 <string>Intel <XESS> wird genutzt.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Nutzt KI-Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>AMD Nativ AA
-<string>Nutzt FSR 3 Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
+<string>Nutzt FSR Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>Intel XeSS Native AA
 <string>Nutzt XeSS Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>Qualität
@@ -839,7 +841,7 @@
 <string>Deaktiviert
 <string>Es wird kein Hochskalieren genutzt.
 <string>Schärfe der Hochskalierung
-<string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn AMD FSR 3 aktiviert ist.)</COLOR>
+<string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn AMD FSR aktiviert ist.)</COLOR>
 <string>Anti-Aliasing
 <string>Passe den Anti-Aliasing-Modus an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Der Gesundheitsbalken deines Palico und<lf>anderer Begleiter wird standardmäßig<lf>vollständig angezeigt.
 <string>Dynamisch
 <string>Der Gesundheitsbalken deines Palico und<lf>anderer Begleiter wird standardmäßig<lf>minimiert angezeigt. Der Balken wird in<lf>manchen Situationen zur vollständigen<lf>Anzeige erweitert.
+<string>Verstrichene Zeit in Quests anzeigen
+<string>Passe an, ob in Arena-, Herausforderungs- und Freien<lf>Herausforderungsquests durch Halten von <ICON PL_ITEM_SLIDER_OPEN> die<lf>verstrichene Zeit eingeblendet werden soll.
+<string>Anzeigen
+<string>Durch Halten von <ICON PL_ITEM_SLIDER_OPEN> kann in Arena-, Heraus-<lf>forderungs- und Freien Herausforderungsquests<lf>die verstrichene Zeit eingeblendet werden.
+<string>Nicht anzeigen
+<string>Die verstrichene Zeit kann nicht eingeblendet<lf>werden.
 <string>Chat-Fenster
 <string>Passe die Einstellung des Kommunikations-<lf>fensters und des Chatprotokolls für nach<lf>dem Senden einer Nachricht an.
 <string>Fenster schließen
@@ -1257,7 +1265,7 @@
 <string>Alle anzeigen
 <string>Die Namen aller Objekte, Ausrufe usw. in<lf>den Tastatur-Kurzbefehlen werden angezeigt.
 <string>Ausgewählte anzeigen
-<string>Nur die Namen von Objekten, Ausrufen, usw.<lf>des aktuell gewählten Tastatur-Kurzbefehls<lf>werden angezeigt.
+<string>Nur die Namen von Objekten, Ausrufen usw.<lf>des aktuell gewählten Tastatur-Kurzbefehls<lf>werden angezeigt.
 <string>Waffensichtbarkeit
 <string>Passe an, ob die Waffe deines Charakters angezeigt<lf>wird.
 <string>Anzeigen

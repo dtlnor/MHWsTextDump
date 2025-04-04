@@ -29,7 +29,7 @@
 <string>Inizializzazione della rete in corso...
 <string>È stata rilevata una nuova versione<lf>dell'applicazione. Per usare le funzionalità<lf>di rete, chiudi l'applicazione<lf>ed esegui l'aggiornamento.
 <string>I dati cacciatore sono stati sovrascritti.<lf>Le informazioni relative agli amici cacciatori,<lf>giocatori seguiti e squadre sono state eliminate.
-<string>Il giocatore è già nel gruppo di collegamento.<lf>{0}
+<string>Il giocatore è già nel gruppo di collegamento.<lf><lf>{0}
 <string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
 <string>L'invio non è riuscito perché l'altro<lf>giocatore ha raggiunto il limite di inviti<lf>ai gruppi di collegamento.<lf>{0}
 <string>Non è possibile effettuare segnalazioni<lf>al momento. Riprova più tardi.<lf><lf>{0}
@@ -44,6 +44,7 @@
 <string>Questa funzione non è attualmente<lf>disponibile per motivi di manutenzione.<lf>Attendi un po' e riprova in seguito.<lf>{0}
 <string>Hai raggiunto il limite massimo<lf>e non puoi bloccare altri giocatori.<lf>{0}
 <string>I server sono in manutenzione programmata.<lf>{0}
+<string>Le funzionalità di squadra non<lf>sono accessibili da questo account.<lf>{0}
 <string>La connessione alla sessione si è interrotta.<lf>{0}
 <string>Creazione sessione non riuscita.<lf>{0}
 <string>Ricerca sessione non riuscita.<lf>{0}
@@ -66,6 +67,7 @@
 <string>Il server è attualmente occupato.<lf>Attendere un po' e riprovare.
 <string>Il crossplay è attualmente abilitato.
 <string>Non puoi partecipare a questa sessione a causa<lf>delle impostazioni di crossplay altrui.<lf>{0}
+<string>Non puoi unirti a questa missione<lf>perché è già iniziata.
 <string>Impossibile partecipare perché la sessione<lf>ha impostazioni crossplay diverse. Verifica<lf>le impostazioni crossplay in <BOLD>Opzioni</BOLD><lf>al menu della schermata del titolo.<lf>{0}
 <string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
 <string><COLOR preset="TXT_Accent">La funzionalità della Community è stata limitata.</COLOR><lf>Le limitazioni saranno rimosse: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Il tuo account è in violazione di quanto segue:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Pertanto, <COLOR preset="TXT_Accent">le funzioni della Community sono state<lf>temporaneamente limitate</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Ti preghiamo di giocare rispettando i termini di utilizzo.</COLOR>
@@ -116,6 +118,13 @@
 <string>Parti
 <string>Si è verificato un errore. Si prega di avvisare lo staff.
 <string>Impossibile acquisire dati trasmissione.<lf>{0}
+<string>Impossibile caricare il tempo impiegato.<lf>Accedere al banco delle missioni o al banco<lf>delle missioni arena e riprovare.<lf><lf>{0}
+<string>Tempo impiegato caricato nelle classifiche.
+<string>Non è stato possibile<lf>recuperare le informazioni <lf>della classifica.<lf><lf>{0}
+<string>C'è un tempo impiegato non registrato.<lf>Caricare il tempo impiegato nella classifica?
+<string>Selezionando "Sì" cancellerai il tuo tempo<lf>impiegato. Vuoi davvero procedere?
+<string>C'è un tempo impiegato non registrato,<lf>ma non si può più registrare perché<lf>il periodo di validità è terminato.
+<string>Attualmente sei in modalità offline, quindi<lf>i tuoi tempi di completamento non posson<lf> essere caricati nelle classifiche.
 <string>{0}<lf>Ricerca squadra non riuscita.<lf>{1}
 <string>Hai raggiunto il numero massimo<lf>di inviti o richieste squadra.<lf><lf>{0}
 <string>Non è stato possibile unirsi alla squadra.<lf><lf>{0}

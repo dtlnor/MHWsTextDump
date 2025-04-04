@@ -3,6 +3,7 @@
 <string>概要
 <string>成員
 <string>報酬
+<string>個人紀錄
 <string>環境概要
 <string>主題
 <string>現在
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">調查任務保存數已達到上限，無法再保存。</COLOR>
 <string><COLOR preset="TXT_Danger">此對象已保存為調查任務。</COLOR>
 <string><COLOR preset="TXT_Danger">部分環境連結成員正在結算，無法開始實地調查任務。</COLOR>
+<string><COLOR preset="TXT_Danger">此任務中無法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">無法於<Ref RefEnvironment_0001_0001>以外的地點承接此任務。</COLOR>
 <string>返回標題畫面
 <string>重試
 <string>討伐{0}
@@ -99,6 +102,19 @@
 <string>返回營地
 <string>任務開始
 <string>承接任務
+<string>重新挑戰任務
+<string>時間到！
+<string>第一滾！
+<string>第二滾！
+<string>得分
+<string>完成
+<string>準備
+<string>3
+<string>2
+<string>1
+<string>開始
+<string>勝利
+<string>落敗
 <string>所有任務
 <string>關鍵任務
 <string>自由任務
@@ -116,6 +132,7 @@
 <string>大廳成員任務
 <string>救難信號任務
 <string>連結成員任務
+<string>自由挑戰任務
 <string>調查任務保存費用
 <string>實地調查任務開始時間
 <string>剩餘可承接次數
@@ -148,6 +165,13 @@
 <string>倒下次數：{0}/{1}
 <string>委託人：{0}
 <string>完成！
+<string>可選擇武器
+<string>耗時等級
+<string>個人最佳時間
+<string>成員
+<string>日期：<DATETIME {0} "YYYY/MM/DD">(UTC)
+<string>日期：<DATETIME {0} "YYYY/MM/DD">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>成員招募訊息
 <string>設定成員招募訊息。
 <string>歡迎任何人！
@@ -166,6 +190,7 @@
 <string>有魔物正在騷擾聚落！
 <string>狩獵後，設施的收穫會暫時增加。
 <string>{0}在<REF RefEnvironment_0001_0004>出現了！
+<string>{0}正於<REF RefEnvironment_0001_0003>出現！
 <string>參加人數上限
 <string>設定可參加任務的人數上限。<COLOR preset="TXT_Accent">（可設定人數會隨著連結成員數的上限變更）</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>標題選單的跨平台遊玩已設定為「停用」，僅搜尋相同設定的其他玩家的任務。
 <string>所有平台
 <string>和自己相同的平台
+<string>補充說明
+<string>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
+<string>鬥技大會任務/挑戰任務規則<lf>・參加人數上限：2人<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。<lf>・隨從艾路不會參加任務。<lf>・餐點效果會在任務期間<COLOR preset="TXT_Danger">暫時消失，並於任務結束後恢復</COLOR>。<lf>・非永久狀態效果（包括道具效果和狩獵笛的旋律效果）<lf>　會在<COLOR preset="TXT_Danger">出發前往任務時消失</COLOR>。<lf><lf>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
 <string>搜尋救難信號
 <string>任務類別
 <string>不指定
@@ -218,6 +246,7 @@
 <string>刪除調查任務
 <string>要刪除選擇的調查任務嗎？<lf><lf>注意：如「實地調查任務歷程紀錄」尚有該任務，<lf>　　　亦會從紀錄中刪除。
 <string>已刪除調查任務。
+<string>可選擇裝備的詳細資訊
 <string>選擇的調查任務的可承接次數剩餘{0}次。<lf>承接後會消耗剩餘次數並儲存，確定要承接嗎？
 <string>要暫時增加任務的參加人數嗎？<lf><COLOR preset="TXT_Accent">（一旦增加後，在任務結束前都無法復原）</COLOR>
 <string>關鍵任務
@@ -228,3 +257,17 @@
 <string>大廳成員任務（{0}個）
 <string>連結成員任務
 <string>救難信號任務（{0}個）
+<string>鬥技大會任務
+<string>挑戰任務
+<string>自由挑戰任務
+<string>釣技大會任務
+<string>釣技大會任務（發布）
+<string>最佳時間
+<string>選擇裝備
+<string>成員狀況
+<string>支援獵人
+<string>支援獵人同行
+<string>支援獵人不同行
+<string>確定使用這套裝備嗎？
+<string>正在等待其他玩家。
+<string>最佳得分

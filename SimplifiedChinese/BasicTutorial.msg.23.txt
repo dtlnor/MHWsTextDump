@@ -339,6 +339,9 @@
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME>狂龙症
 <string>狂龙病毒累积到一定程度后感染，必须攻<lf>击怪物一定次数以克服症状，否则将会发<lf>病。<lf><lf>发病状态：受到的伤害上升，<lf>　　　　　体力不会自然回复。<lf>克服状态：会心率上升，<lf>　　　　　不会感染狂龙症。<lf><lf>两种状态都会随时间推移而解除。<lf><lf>感染状态时使用<REF Item_IT_7>可拖延发病时间。
 <string>
+<string><ICON ST_BUBBLE>泡沫状态【小】／<ICON ST_BUBBLE_HIGH>泡沫状态【大】
+<string>身体附着泡沫的状态。附着的泡沫若是变<lf>大将会使脚下打滑，难以移动。在处于这<lf>种状态下时遭到超过一定强度的攻击，就<lf>会倒地并受到额外伤害。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_179><lf>・经过一定时间<lf>・受到攻击
+<string>
 <string><ICON ST_FIRE>火属性异常
 <string>体力会随时间推移而减少。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・进入水域后，反复做回避动作<lf>・经过一定时间
 <string>
@@ -352,7 +355,7 @@
 <string>耐力消耗上升。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
 <string>
 <string><ICON ST_DRUGON>龙属性异常
-<string>武器属性值无效。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
+<string>武器和投射器弹药的属性值无效。<lf><lf>主要解除方式：<lf>・使用<REF Item_IT_7><lf>・反复做回避动作<lf>・经过一定时间
 <string>
 <string>震动异常
 <string>一定时间内行动受限。<lf>受限时间因地面震动强度而异。<lf><lf>主要解除方式：<lf>・经过一定时间<lf>・受到攻击

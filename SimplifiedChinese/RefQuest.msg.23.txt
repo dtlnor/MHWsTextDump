@@ -3,6 +3,7 @@
 <string>概要
 <string>成员
 <string>报酬
+<string>个人纪录
 <string>环境概要
 <string>主题
 <string>当前
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">调查任务保存数已达上限，无法保存。</COLOR>
 <string><COLOR preset="TXT_Danger">这个调查任务已经被保存过了。</COLOR>
 <string><COLOR preset="TXT_Danger">尚有环境连结成员正在结算，无法开始实地调查任务。</COLOR>
+<string><COLOR preset="TXT_Danger">此任务中无法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">此任务只能在<Ref RefEnvironment_0001_0001>承接。</COLOR>
 <string>返回标题画面
 <string>重新挑战
 <string>讨伐{0}
@@ -99,6 +102,19 @@
 <string>返回营地
 <string>任务开始
 <string>承接任务
+<string>重新<lf>挑战任务
+<string>时间到
+<string>第1次挑战！
+<string>第2次挑战！
+<string>得分
+<string>完成
+<string>准备
+<string>3
+<string>2
+<string>1
+<string>开始
+<string>胜利
+<string>落败
 <string>所有任务
 <string>关键任务
 <string>自由任务
@@ -116,6 +132,7 @@
 <string>大厅成员任务
 <string>救难信号任务
 <string>连结成员任务
+<string>自由挑战任务
 <string>调查任务保存费用
 <string>实地调查任务的开始时间
 <string>剩余可承接次数
@@ -148,6 +165,13 @@
 <string>倒下次数　{0}/{1}
 <string>委托人：{0}
 <string>完成！
+<string>可选择的武器
+<string>耗时评级
+<string>个人最短耗时
+<string>成员
+<string>日期：<DATETIME {0} "YYYY/MM/DD">(UTC)
+<string>日期：<DATETIME {0} "YYYY/MM/DD">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>成员招募备注
 <string>设置成员招募备注。
 <string>欢迎任何人！
@@ -166,6 +190,7 @@
 <string>有怪物正在侵扰聚落！
 <string>狩猎后，设施的收获量将暂时增多。
 <string><REF RefEnvironment_0001_0004>出现{0}！
+<string>{0}正在<REF RefEnvironment_0001_0003>出没！
 <string>最大参加人数
 <string>设置可参加任务的人数上限。<COLOR preset="TXT_Accent">（可设置人数会随连结成员的最大人数改变）</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>由于标题菜单中的跨平台游玩已设为“停用”，将仅搜索使用同样设置玩家的任务。
 <string>所有平台
 <string>和自己相同的平台
+<string>补充说明
+<string>●自由挑战任务规则<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。
+<string>●斗技大会任务／挑战任务规则<lf>・参加人数上限：2人<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。<lf>・随从艾露猫不会参加任务。<lf>・餐点效果会在<COLOR preset="TXT_Danger">任务期间暂时消失，并于任务结束后恢复。</COLOR><lf>・暂时性状态效果（道具效果、狩猎笛的旋律效果等）<lf>　会在<COLOR preset="TXT_Danger">任务出发时消失。</COLOR><lf><lf>●自由挑战任务规则<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。
 <string>搜索救难信号
 <string>任务类别
 <string>不限
@@ -218,6 +246,7 @@
 <string>删除调查任务
 <string>要删除选择的调查任务吗？<lf><lf>※如果“实地调查任务记录”尚有该任务，<lf>　也会从记录中删除。
 <string>已删除调查任务。
+<string>可选装备的详细信息
 <string>选择的调查任务的可承接次数还剩{0}次。<lf>承接任务将消耗剩余次数并保存。<lf>确定承接吗？
 <string>要临时扩充任务的参加人数吗？<lf><COLOR preset="TXT_Accent">（一旦扩充后，在任务结束前都不会恢复原状）</COLOR>
 <string>关键任务
@@ -228,3 +257,17 @@
 <string>大厅成员任务（{0}件）
 <string>连结成员任务
 <string>救难信号任务（{0}件）
+<string>斗技大会任务
+<string>挑战任务
+<string>自由挑战任务
+<string>钓鱼大会任务
+<string>钓鱼大会任务（限时发布）
+<string>最短耗时
+<string>选择装备
+<string>成员状况
+<string>支援猎人
+<string>需要支援猎人
+<string>不需要支援猎人
+<string>要使用此套装备吗？
+<string>正在等待其他玩家……
+<string>最佳成绩

@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>選択中の項目を初期設定に戻す
 <string>すべての項目を初期設定に戻す
+<string>カテゴリ内を初期設定に戻す
 <string>選択中の項目の設定を初期状態に戻します。<lf>よろしいですか？
 <string>現在表示中のカテゴリ以外にある項目を含む<lf>すべての項目の設定を初期状態に戻します。<lf>よろしいですか？
+<string>現在表示中のカテゴリ内にある<lf>すべての項目の設定を初期状態に戻します。<lf>よろしいですか？
 <string>すべて
 <string><PLATMSG MsgGUI030100_0401>
 <string>共通＋コントローラー
@@ -805,7 +807,7 @@
 <string>いずれかの超解像技術を適用すると、高パフォーマンスと<lf>優れた画質を両立させることができます。
 <string>NVIDIA DLSS
 <string>NVIDIA <DLSS>を使用します。<lf><COLOR preset="TXT_Accent">（NVIDIA GeForce RTXグラフィックスカードを<lf>　使用時にのみ設定が可能です）</COLOR><lf><COLOR preset="TXT_Accent">（GeForce RTX40 Seriesを使用していて<lf>　OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string><FSR>を使用します。<lf><COLOR preset="TXT_Accent">（OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
 <string>Intel XeSS
 <string>Intel <XESS>を使用します。
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>ネイティブ解像度のまま、<lf>AIによるアンチエイリアシングを使用します。
 <string>AMD Native AA
-<string>ネイティブ解像度のまま、<lf>FSR 3のアンチエイリアシングを使用します。
+<string>ネイティブ解像度のまま、<lf>FSRのアンチエイリアシングを使用します。
 <string>Intel XeSS Native AA
 <string>ネイティブ解像度のまま、<lf>XeSSのアンチエイリアシングを使用します。
 <string>クオリティ
@@ -839,7 +841,7 @@
 <string>OFF
 <string>アップスケールを使用しない場合、<lf>この項目が選択されます。
 <string>アップスケールシャープネス
-<string>アップスケーリング使用時の画質の鮮明さを設定します。<lf>数値が高いほど鮮明に、低いほど柔らかい画質になります。<lf><COLOR preset="TXT_Accent">（同項目を「AMD FSR 3」に設定時のみ設定変更可能です）</COLOR>
+<string>アップスケーリング使用時の画質の鮮明さを設定します。<lf>数値が高いほど鮮明に、低いほど柔らかい画質になります。<lf><COLOR preset="TXT_Accent">（同項目を「AMD FSR」に設定時のみ設定変更可能です）</COLOR>
 <string>アンチエイリアス
 <string>アンチエイリアスのモード切り替えを行います。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」未使用時のみ設定変更可能です）</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>仲間の体力ゲージを最小化せず、<lf>常時表示します。
 <string>常時表示しない（最小化表示）
 <string>仲間の体力ゲージを最小化表示します。<lf>状況に応じて、自動でゲージが展開されます。
+<string>一部クエストでの経過時間表示
+<string>闘技大会クエスト、チャレンジクエスト、フリーチャレンジ<lf>クエストにおいて、<ICON PL_ITEM_SLIDER_OPEN>を入力している間、目標ガイド上で<lf>クエストの経過時間を表示するかどうか設定します。
+<string>表示する
+<string>該当するクエストにおいて、<ICON PL_ITEM_SLIDER_OPEN>を入力している間、<lf>目標ガイド上にクエスト経過時間を表示します。
+<string>表示しない
+<string>該当するクエストにおいて、<ICON PL_ITEM_SLIDER_OPEN>を入力しても<lf>目標ガイド上にクエスト経過時間を表示しません。
 <string>チャット送信後の動作設定
 <string>チャット送信後のコミュニケーションウィンドウおよび<lf>チャットログウィンドウの動作について設定を行います。
 <string>ウィンドウを閉じる

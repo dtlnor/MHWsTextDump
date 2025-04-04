@@ -3,6 +3,7 @@
 <string>Überblick
 <string>Mitglieder
 <string>Belohnung
+<string>Persönlicher Rekord
 <string>Umgebungsinfo
 <string>Updates
 <string>Aktuell
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">Die maximale Anzahl an gespeicherten Untersuchungen ist bereits erreicht. Es können keine weiteren gespeichert werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Diese Untersuchung wurde bereits gespeichert.</COLOR>
 <string><COLOR preset="TXT_Danger">Die Felderkundung kann nicht gestartet werden, weil ein Verbindungsmitglied sich die Questergebnisse ansieht.</COLOR>
+<string><COLOR preset="TXT_Danger">Kann während dieser Quest nicht verwendet werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Diese Quest kann nicht außerhalb der Großen Stätte angenommen werden.</COLOR>
 <string>Zum Titelbildschirm
 <string>Neu versuchen
 <string>Erlege: {0}.
@@ -99,6 +102,19 @@
 <string>Rückkehr<lf>zur<lf>Basis
 <string>Quest<lf>beginnt
 <string>Quest<lf>angenommen
+<string>Neuversuch
+<string>Zeit<lf>abgelaufen!
+<string>1. Versuch!
+<string>2. Versuch!
+<string>Punkte
+<string>Abgeschlossen
+<string>BEREIT?
+<string>3
+<string>2
+<string>1
+<string>LOS!
+<string>GEWONNEN
+<string>VERLOREN
 <string>Alle Quests
 <string>Aufgaben
 <string>Optionale Quests
@@ -116,6 +132,7 @@
 <string>Lobbymitglieder-Quests
 <string>Not-Leuchtzeichen-Quests
 <string>Verbindungsmitglieder-Quests
+<string>Freie Herausforderungsquests
 <string>Kosten
 <string>Felderkundung-Startzeit
 <string>Übrig
@@ -148,6 +165,13 @@
 <string>Anzahl Ohnmachten: {0}/{1}
 <string>Auftrag von: {0}
 <string>Abgeschlossen!
+<string>Erlaubte Waffen
+<string>Zeitrang
+<string>Deine Bestzeiten
+<string>Mitglieder
+<string>Datum: <DATETIME {0} "DD.MM.YYYY"> (UTC)
+<string>Datum: <DATETIME {0} "DD.MM.YYYY">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>Rekrutierungsnachricht
 <string>Lege eine Nachricht zur Mitgliederrekrutierung fest.
 <string>Jeder ist willkommen!
@@ -166,6 +190,7 @@
 <string>Eine Siedlung hat ein Monsterproblem!
 <string>Erjage es für einen kurzen Sammelbonus.
 <string>Frostspitze: {0} erschienen!
+<string>Schrein: {0} erschienen!
 <string>Max. Mitglieder
 <string>Lege die maximale Anzahl der Spieler zum Questbeitritt fest. <COLOR preset="TXT_Accent">(Basierend auf der Anzahl Verbindungsmitglieder.)</COLOR>
 <string>1
@@ -190,6 +215,9 @@
 <string>Da Crossplay im Hauptmenü deaktiviert wurde, werden nur Quests von Spielern mit derselben Einstellung aufgeführt.
 <string>Alle Plattformen
 <string>Gleiche Plattform
+<string>Zusätzliche Details
+<string>Regeln für Freie Herausforderungsquests<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.
+<string>Regeln für Arenaquests/Herausforderungsquests<lf>– Die maximale Teilnehmerzahl ist 2.<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.<lf>– Palicos können nicht an der Quest teilnehmen.<lf>– Mahleffekte sind während der Quest <COLOR preset="TXT_Danger">vorübergehend deaktiviert</COLOR>.<lf>   (Werden nach Questabschluss wiederhergestellt.)<lf>– Von Objekten oder Melodie-Effekten erhaltene Statuseffekte<lf>   <COLOR preset="TXT_Danger">verschwinden bei Questaufbruch</COLOR>.<lf><lf>Regeln für Freie Herausforderungsquests<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.
 <string>Not-Leuchtzeichen-Suche
 <string>Quest-Typ
 <string>Beliebig
@@ -218,6 +246,7 @@
 <string>Untersuchung löschen
 <string>Möchtest du die ausgewählte Untersuchung löschen?<lf><lf>Hinweis: Wenn die Quest in deinem <COLOR preset="TXT_Accent">Felderkundungs-<lf>verlauf</COLOR> verbleibt, wird der Verlauf ebenfalls<lf>gelöscht.
 <string>Die Untersuchung wurde gelöscht.
+<string>Erlaubte Ausrüstung
 <string>Du kannst die ausgewählte Quest {0}-mal annehmen.<lf>Möchtest du die Quest annehmen und speichern?
 <string>Möchtest du vorübergehend die max. Anzahl der<lf>Spieler für diese Quest erhöhen?<lf><COLOR preset="TXT_Accent">(Kann bis Questabschluss nicht verändert werden.)</COLOR>
 <string>Aufgaben
@@ -228,3 +257,17 @@
 <string>Verbindungsmitglieder-Quests ({0})
 <string>Verbindungsmitglieder-Quests
 <string>Not-Leuchtzeichen-Quests ({0})
+<string>Arenaquests
+<string>Herausforderungsquests
+<string>Freie Herausforderungsquests
+<string>Angelquests
+<string>Angelquests (Befristet)
+<string>Bestzeit
+<string>Ausrüstung
+<string>Mitgliedsstatus
+<string>Hilfsjäger
+<string>Mit Hilfsjägern
+<string>Ohne Hilfsjäger
+<string>Ausrüstung bestätigen?
+<string>Es wird auf andere Spieler gewartet.
+<string>Rekordpunktzahl

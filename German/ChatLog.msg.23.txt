@@ -69,8 +69,8 @@
 <string>Das Unterstützungsschiff ist angekommen.
 <string>Das Unterstützungsschiff fährt bald ab.
 <string>Das Unterstützungsschiff ist abgefahren.
-<string>Superglück-Gutsch. verwendet (noch {0})
-<string>Du erhältst zufällig<lf>Belohnungen und Zenny.
+<string>Superglück-Gutsch. verwenden ({0} übrig)
+<string>Verwende einen Superglück-Gutschein,<lf>um zusätzliche Zenny und verbesserte<lf>zufällige Questbelohnungen zu erhalten.
 <string>Benutzen
 <string>Superglück-Gutschein verwendet.
 <string>Umgebungsverbindungsaktivität
@@ -106,19 +106,19 @@
 <string>{0} ist aufgetaucht,<lf>der Apex-Räuber der Region!
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
-<string>{0}<lf>ist erschienen und gefährdet die<lf>Siedlungsbewohner!
+<string>{0}<lf>ist aufgetaucht und gefährdet die<lf>Siedlungsbewohner!
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
-<string>{0} mit<lf>mehr Belohnungen als sonst erschienen!
+<string>{0} mit<lf>mehr Belohnungen als sonst aufgetaucht!
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
-<string>Das Nebenmissionsziel ist erschienen!<lf>{0}
+<string>Nebenmissionsziel aufgetaucht!<lf>{0}
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
-<string>Ein Wunschlistenziel ist erschienen!<lf>{0}
+<string>Ein Wunschlistenziel ist aufgetaucht!<lf>{0}
 <string>Karte öffnen
 <string>Umgebungsinfo
-<string>{0} gesichtet!
+<string>{0}<lf>aufgetaucht!
 <string>Karte öffnen
 <string>Umgebungsinfo
 <string>{0}<lf>wird den Ort bald verlassen!
@@ -128,7 +128,7 @@
 <string>{0}<lf>ist an der Frostspitze aufgetaucht!
 <string>Karte öffnen
 <string>Umgebungsinfo
-<string>Ein Rudel mit {0}<lf>ist erschienen!
+<string>Ein Rudel mit {0}<lf>ist aufgetaucht!
 <string>Karte öffnen
 <string>Umgebungsinfo
 <string>Das Rudel mit {0}<lf>wird den Ort bald verlassen!
@@ -139,7 +139,7 @@
 <string>Ausbruch verzeichnet:<lf>{0}!
 <string>Karte öffnen
 <string>Umgebungsinfo
-<string>Vermehrte Sichtungen:<lf>{0}!
+<string>Vermehrtes Auftreten:<lf>{0}!
 <string>Karte öffnen
 <string>Umgebungsinfo
 <string>{0} ist als<lf>Jagdassistenz verfügbar!
@@ -197,13 +197,14 @@
 <string>{0}
 <string>Neuen Hintergrund erhalten!
 <string>Das Poogie scheint nichts bei sich zu haben...
-<string>Neuer Beutezug bekanntgemacht.
+<string>
+<string>Ein neuer Beutezug wurde bekannt-<lf>gemacht.
 <string>Befristeter Beutezug
 <string>{0}<lf>{1}/{2}
 <string>Befristeter Beutezug
 <string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} abgeschlossen!</COLOR>
 <string>Umgebungsinfo-Update
-<string>Ein(e) {0} ist erschienen und<lf>hat seltene Bonus-Belohnungen!
+<string>{0} mit<lf>seltenen Bonus-Belohnungen aufgetaucht!
 <string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Nebenmission erfüllt!<lf>Melde dich bei {0}.
@@ -240,6 +241,9 @@
 <string>Du hast Jägerrang {0} erreicht!
 <string>Du kannst das getragene Objekt<lf>nicht hier platzieren.
 <string>Crossplay ist derzeit aktiviert.
+<string>Arenaquest-Schalter
+<string>Ein Verbindungsmitglied betritt<lf>die Arena. Begib dich zur <BOLD>Großen<lf>Stätte</BOLD>, um ebenfalls teilzunehmen.
+<string>Karte öffnen
 <string>Jagdgruppenmitteilung
 <string>Du hast eine Einladung zur Jagdgruppe<lf><BOLD>{0}</BOLD> erhalten.
 <string>Jagdgruppenmitteilung
@@ -251,6 +255,9 @@
 <string><BOLD>{1}</BOLD> ist der Jagdgruppe<lf>{0} beigetreten.
 <string>Du wurdest zur Vize-Leitung der<lf>Jagdgruppe <BOLD>{0}</BOLD> ernannt.
 <string>Du wurdest zur Leitung der Jagdgruppe<lf><BOLD>{0}</BOLD> ernannt.
+<string>Umgebungsinfo-Update
+<string>{0}<lf>ist am Drachenfackel-Schrein aufgetaucht!
+<string>Karte öffnen
 <string>Anmeldebonus
 <string>Der heutige Anmeldebonus ist jetzt<lf>im Spielmenü verfügbar.
 <string>Jetzt erhalten
@@ -260,9 +267,18 @@
 <string>{0} hat ein<lf>Objektset geteilt.
 <string>Tortenmenüset geteilt
 <string>{0} hat ein<lf>Tortenmenüset geteilt.
+<string>Das <BOLD>Fest der Eintracht: Blütentanz</BOLD><lf>findet derzeit statt!<lf>(noch {0} <PLURAL {0} "Tag" "Tage">)
+<string>Das <BOLD>Fest der Eintracht: Blütentanz</BOLD><lf>findet derzeit statt!<lf>(noch {0} <PLURAL {0} "Stunde" "Stunden">)
+<string>Das <BOLD>Fest der Eintracht: Blütentanz</BOLD><lf>findet derzeit statt!<lf>(endet in Kürze)
 <string>Die Fähigkeit <BOLD>{0}</BOLD><lf>kann jetzt aktiviert werden.
 <string>Empfang des Objektsets fehlgeschlagen.
 <string>Empfangen fehlgeschlagen, da das<lf>Maximum an Mitteilungen für<lf>geteilte Sets erreicht wurde.
 <string>Du hast eine Einladung.<lf>Sieh dir die <BOLD>Einladungsmitteilungen</BOLD><lf>im Spielmenü an.
 <string>Du hast eine Beitrittsanfrage.<lf>Sieh dir die <BOLD>Beitrittsanfragen</BOLD> im<lf>Spielmenü an.
 <string>Quest konnte nicht begonnen werden.
+<string>{0} hat beim Fass-Bowling<lf>eine Punktzahl von {1} erzielt!
+<string>{0} hat {1} Siege<lf>hintereinander im Armdrücken errungen!
+<string>Neuversuch nicht möglich, da ein<lf>Mitglied gegangen ist.
+<string>Not-Leuchtzeichen wird verarbeitet...
+<string>Die Stimme der Diva hat deine Status-<lf>werte verbessert.
+<string>{0} hat einen<lf><BOLD>{1}</BOLD> verwendet!

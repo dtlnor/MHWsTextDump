@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>إعادة تعيين المُحدد إلى الوضع الافتراضي
 <string>إعادة تعيين الكل إلى الوضع الافتراضي
+<string>إعادة تعيين الفئة إلى الوضع الافتراضي
 <string>هل <LSNR "تريد" "تريدين"> إعادة ضبط الخيارات المحددة<lf>إلى الإعدادات الافتراضية؟
 <string>هل <LSNR "تريد" "تريدين"> إعادة تعيين جميع الخيارات في<lf>جميع الفئات إلى الإعدادات الافتراضية ؟
+<string>هل <LSNR "تريد" "تريدين"> إعادة تعيين جميع الخيارات<lf>في علامة تبويب الفئة الحالية إلى الإعدادات الافتراضية؟
 <string>الكل
 <string><PLATMSG MsgGUI030100_0401>
 <string>مشترَك + وحدة تحكم
@@ -694,7 +696,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_10_04
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_03_11
-<string>عرض الخيار المُحدد
+<string>تحديد جهاز العرض
 <string>يضبط الشاشة التي تُعرض عليها اللعبة.<lf><COLOR preset="TXT_Accent">(يتطلب نظام التشغيل Windows 10 أو أعلى<lf>وإعدادًا بشاشات عرض متعددة)</COLOR>
 <string>{0}: {1}
 <string>وضع الشاشة
@@ -776,7 +778,7 @@
 <string>GPU
 <string>VRAM
 <string><NUMBER {0}> جيجا بايت
-<string>إصدار برنامج تشغيل وحدة معالجة الرسومات (GPU)
+<string>إصدار برنامج تشغيل GPU
 <string><NUMBER {0}>
 <string>التخزين المباشر (DirectStorage)
 <string>متوافق
@@ -805,7 +807,7 @@
 <string>يستخدم تقنية التصوير بدقة فائقة للحفاظ<lf>على أداء عالٍ مع الاستمتاع بجودة<lf>رسومات ممتازة.
 <string>NVIDIA DLSS
 <string>استخدام NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">(يتطلب بطاقة رسومات NVIDIA GeForce RTX).<lf>- في حالة استخدام بطاقة GeForce RTX40 Series<lf>وتمكين جدولة وحدة معالجة<lf>أجهزة الرسومات (GPU) المتسارعة في نظام التشغيل<lf>(سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات).</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>استخدام <FSR>.<lf><COLOR preset="TXT_Accent"> - في حالة تمكين جدولة وحدة معالجة أجهزة<lf>الرسومات (GPU) المتسارعة في نظام التشغيل<lf>سيؤدي تحديد هذا الإعداد إلى تمكين إنشاء الإطارات.</COLOR>
 <string>Intel XeSS
 <string>يستخدم Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>يستخدم مانع التعرج الذي يعمل بالذكاء الاصطناعي<lf>مع الحفاظ على الدقة الأصلية.
 <string>AMD Native AA
-<string>يستخدم مانع التعرج FSR 3<lf>مع الحفاظ على الدقة الأصلية.
+<string>يستخدم مانع التعرج FSR<lf>مع الحفاظ على الدقة الأصلية.
 <string>Intel XeSS Native AA
 <string>استخدام مانع التعرج XeSS<lf>مع الحفاظ على الدقة الأصلية.
 <string>الجودة
@@ -839,7 +841,7 @@
 <string>تعطيل
 <string>سيتم تحديد هذا في حالة<lf>عدم استخدام طريقة لتحسين الدقة.
 <string>حدّة تحسين الدقة
-<string>يضبط مستوى التفاصيل الرسومية المستخدمة عند تحسين الدقة.<lf>كلما زاد الرقم، زاد مستوى التفاصيل.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا فقط إذا تم تفعيل تقنية AMD FSR 3.) </COLOR>
+<string>يضبط مستوى التفاصيل الرسومية المستخدمة عند تحسين الدقة.<lf>كلما زاد الرقم، زاد مستوى التفاصيل.<lf><COLOR preset="TXT_Accent">(يمكن ضبط هذا فقط إذا تم تفعيل تقنية AMD FSR.) </COLOR>
 <string>مانع التعرج
 <string>ضبط وضع مانع التعرج.<lf><COLOR preset="TXT_Accent">(لا يمكن ضبط هذا إلا في حالة عدم تمكين تحسين الدقة).</COLOR>
 <string>TAA + FXAA
@@ -859,16 +861,16 @@
 <string>يعيّن الأجهزة المُستخدَمة مع DirectStorage لتسريع تحميل البيانات.<lf><COLOR preset="TXT_Accent">(يمكن تكوين هذا فقط في البيئات<lf>التي تدعم DirectStorage)</COLOR>
 <string>وحدة المعالجة المركزية (CPU)
 <string>وحدة معالجة الرسومات (GPU)
-<string>جودة الهيئة
+<string>جودة القوام
 <string>يضبط دقة هيئة الأشياء.
-<string>الأعلى (الهيئات عالية الدقة)
+<string>الأعلى (القوام عالي الدقة)
 <string><COLOR preset="TXT_Accent">يمكن تحديد هذا الإعداد إذا تم تنزيل المحتوى القابل للتنزيل<lf>"حزمة الهيئات عالية الدقة". </COLOR>
 <string>يجب تنزيل المحتوى القابل للتنزيل "حزمة الهيئات عالية الدقة"<lf>لضبطها إلى الأعلى (الهيئات عالية الدقة).
-<string>مرتفع
-<string>متوسط
-<string>منخفض
-<string>الأقل
-<string>جودة عامل تصفية الهيئة
+<string>عالية
+<string>متوسطة
+<string>منخفضة
+<string>الأدنى
+<string>جودة الترشيح
 <string>يضبط مستوى التفاصيل على هيئات الأشياء.
 <string>الأعلى (ANISO x16)
 <string>مرتفع (ANISO x8)
@@ -879,8 +881,8 @@
 <string>جودة الشبكة
 <string>يضبط جودة الشبكة المضلعة للنماذج ثلاثية الأبعاد.
 <string>الأعلى
-<string>مرتفع
-<string>متوسط
+<string>عالية
+<string>متوسطة
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>جودة الفراء
@@ -895,16 +897,16 @@
 <string>دقة السماء/السحب
 <string>يضبط جودة صور السماء والسحب.
 <string>الأعلى
-<string>مرتفع
-<string>متوسط
-<string>منخفض
-<string>الأقل
+<string>عالية
+<string>متوسطة
+<string>منخفضة
+<string>الأدنى
 <string>دقة العشب/الأشجار
 <string>يضبط جودة صور العشب والأشجار.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
-<string>مرتفع
-<string>متوسط
-<string>منخفض
+<string>عالية
+<string>متوسطة
+<string>منخفضة
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
 <string>تمايل العشب/الأشجار
 <string>يضبط ما إذا كان العشب والشجر سيتمايل.
@@ -923,10 +925,10 @@
 <string>جودة الرمال/الثلوج
 <string>يضبط جودة صور الرمال والثلوج<lf>وأنواع التضاريس الأخرى.
 <string>الأعلى
-<string>مرتفع
-<string>متوسط
-<string>منخفض
-<string>الأقل
+<string>عالية
+<string>متوسطة
+<string>منخفضة
+<string>الأدنى
 <string>تأثيرات المياه
 <string>يضبط ما إذا كان سيتم تطبيق تأثيرات السوائل على الماء.
 <string>تمكين
@@ -978,13 +980,13 @@
 <string>الانسداد المحيطي
 <string>يضبط جودة الظلال في المناطق<lf>التي يُحجب فيها الضوء.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
-<string>مرتفع
+<string>عالي
 <string>متوسط
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_03
 <string>إيقاف
 <string>التوهج
 <string>ضبط قوة الضبابية الناتجة عن مصادر الضوء الساطع.
-<string>مرتفع
+<string>عالي
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_23_01
 <string>منخفض
 <string>إيقاف
@@ -1175,6 +1177,12 @@
 <string>يعرض مقاييس الصحة للباليكو<lf>و<LSNR "رفاقكَ" "رفاقكِ"> الآخرين في كل وقت.
 <string>متحرك
 <string>يعرض مقياس الصحة المصغر للباليكو و<LSNR "رفاقكَ" "رفاقكِ"> الآخرين افتراضيًا.<lf>سيتوسع المقياس ليُعرض بشكل كامل<lf>استجابةً لمواقف معينة.
+<string>عرض الوقت المنقضي لبعض المهام
+<string>يضبط ما إذا كان الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN><lf>سيعرض مقدار الوقت المنقضي أثناء مهام الحلبة<lf>ومهام التحدي ومهام التحدي الحُر.
+<string>عرض
+<string>الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN> أثناء بعض المهام<lf>سيعرض الوقت المنقضي في الأهداف.
+<string>عدم العرض
+<string>الضغط مطولًا على <ICON PL_ITEM_SLIDER_OPEN> أثناء بعض المهام<lf>لن يعرض الوقت المنقضي في الأهداف.
 <string>نافذة الدردشة
 <string>ضبط الإعدادات الخاصة بنافذة التواصل<lf>وسجل الدردشة بعد إرسال رسالة.
 <string>إغلاق النافذة

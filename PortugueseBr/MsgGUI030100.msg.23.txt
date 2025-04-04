@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Redefinir selecionados para o padrão
 <string>Redefinir tudo para o padrão
+<string>Redefinir Categoria ao Padrão
 <string>Redefinir as opções selecionadas para o padrão?
 <string>Redefinir todas as opções em<lf>todas as categorias para o padrão?
+<string>Redefinir todas as opções na aba de<lf>categoria atual para o padrão?
 <string>Tudo
 <string><PLATMSG MsgGUI030100_0401>
 <string>Compartilhada + Controle
@@ -67,11 +69,11 @@
 <string>Duração da Confirmação ao Segurar
 <string>Ajusta quanto tempo segurando um botão é necessário<lf>para confirmar certas ações, como chamar seu Seikret<lf>ou pular um evento.
 <string>Curto
-<string>Exige menos tempo tempo para<lf>confirmar uma ação.
+<string>Exige menos tempo para<lf>confirmar uma ação.
 <string>Padrão
 <string>Exige o período de tempo padrão para confirmar<lf>uma ação.
 <string>Longo
-<string>Exige mais tempo tempo para<lf>confirmar uma ação.
+<string>Exige mais tempo para<lf>confirmar uma ação.
 <string>Embainhar Automaticamente
 <string>Define se sua arma será embainhada automaticamente<lf>após um certo período de tempo após empunhá-la.
 <string>Ativar
@@ -805,7 +807,7 @@
 <string>Usar a tecnologia de super resolução automática<lf>pode permitir que você mantenha alto desempenho<lf>com qualidade gráfica superior.
 <string>NVIDIA DLSS
 <string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requer uma placa de vídeo NVIDIA GeForce RTX.<lf>– Se você estiver usando uma placa da Série GeForce<lf>RTX40 e habilitar o Agendamento de GPU Acelerado<lf>por Hardware em seu SO, selecionar esta configuração<lf>permitirá que você ative a Geração de Quadros.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Usa <FSR>.<lf><COLOR preset="TXT_Accent">– Ao habilitar o Agendamento de GPU Acelerado<lf>por Hardware em seu SO, selecionar esta<lf>configuração permitirá que você ative a<lf>Geração de Quadros.</COLOR>
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Usa antisserrilhamento por IA enquanto mantém<lf>a resolução nativa.
 <string>AMD Native AA
-<string>Usa antisserrilhamento FSR 3 enquanto mantém<lf>a resolução nativa.
+<string>Usa antisserrilhamento FSR enquanto mantém<lf>a resolução nativa.
 <string>Intel XeSS Native AA
 <string>Usa antisserrilhamento XeSS enquanto mantém<lf>a resolução nativa.
 <string>Qualidade
@@ -839,7 +841,7 @@
 <string>Desativar
 <string>Esta opção será selecionada se você não<lf>usar um método de upscaling.
 <string>Nitidez do Upscaling
-<string>Ajusta o nível de detalhes gráficos usados ao realizar<lf>upscaling. Quanto maior o número, maior o detalhamento.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o AMD FSR 3 for ativado.)</COLOR>
+<string>Ajusta o nível de detalhes gráficos usados ao realizar<lf>upscaling. Quanto maior o número, maior o detalhamento.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o AMD FSR for ativado.)</COLOR>
 <string>Antisserrilhamento
 <string>Ajusta o modo de antisserrilhamento.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o Upscaling não for ativado.)</COLOR>
 <string>FXAA + TAA
@@ -1175,18 +1177,24 @@
 <string>Exibe as Barras de Vida do Amigato e outras<lf>companhias o tempo todo.
 <string>Dinâmica
 <string>Exibe uma versão minimizada das Barras de Vida<lf>do Amigato e outras companhias por padrão.<lf>A barra expande para visualização completa em<lf>resposta a situações específicas.
+<string>Exibir Tempo Decorrido em Missões
+<string>Define se segurar <ICON PL_ITEM_SLIDER_OPEN> exibirá o tempo decorrido<lf>durante Missões de Arena, Desafio ou Desafio Livre.
+<string>Exibir
+<string>Durante certas missões, segurar <ICON PL_ITEM_SLIDER_OPEN> exibirá<lf>o tempo decorrido junto dos seus objetivos.
+<string>Não Exibir
+<string>Durante certas missões, segurar <ICON PL_ITEM_SLIDER_OPEN> não exibirá<lf>o tempo decorrido junto dos seus objetivos.
 <string>Janela de Bate-papo
 <string>Ajusta as configurações do registro de<lf>bate-papo e janela de comunicação após<lf>uma mensagem ser enviada.
 <string>Fechar janela
 <string>Fecha a janela de comunicação ou registro de<lf>bate-papo após uma mensagem ser enviada.
 <string>Manter aberta
 <string>Mantém a janela de comunicação ou registro de<lf>bate-papo aberto após uma mensagem ser<lf>enviada.
-<string>Legendas
-<string>Ajusta se as legendas aparecem quando um<lf>áudio relacionado a história precisa de<lf>informações suplementares.
-<string>Exibição
-<string>Exibe as legendas.<lf><COLOR preset="TXT_Accent">(Só se aplica em certas situações.)</COLOR>
+<string>Legendas Ocultas
+<string>Ajusta se as legendas ocultas aparecem quando<lf>um áudio relacionado a história precisa de<lf>informações suplementares.
+<string>Exibir
+<string>Exibe as legendas ocultas.<lf><COLOR preset="TXT_Accent">(Só se aplica em certas situações.)</COLOR>
 <string>Não exibir
-<string>Não exibe as legendas.
+<string>Não exibe as legendas ocultas.
 <string>Quantidade de Tutoriais
 <string>Altera a quantidade de tutoriais exibidos.
 <string>Exibir tudo
@@ -1406,7 +1414,7 @@
 <string>Idioma Felyno
 <string>Ajusta o idioma falado pelos Felynos.
 <string>Idioma Felyno
-<string>Todas as vozes de Felynos, incluindo a sua, serão definidas<lf>para o idioma Felyno.<lf><COLOR preset="TXT_Accent">(Desativa a voz selecionada na criação de personagem.)</COLOR>
+<string>Ajusta as vozes dos Felynos, incluindo<lf>seu Amigato, para o Idioma Felyno. <COLOR preset="TXT_Accent">(Esta<lf>configuração pode ser alterada nas Opções.)</COLOR>
 <string>Usar tipo de voz definido
 <string>Ajusta todas as vozes de Felynos, incluindo<lf>a de seu Amigato, para o tipo de voz definido<lf>na criação de personagem. <COLOR preset="TXT_Accent">(O idioma Felyno não<lf>será usado.)</COLOR>
 <string>Voz: Janela Inativa
@@ -1424,7 +1432,7 @@
 <string>Reproduz efeitos sonoros mesmo quando<lf>a janela de jogo está inativa.
 <string>Não reproduz efeitos sonoros quando a janela<lf>de jogo está inativa.
 <string>Assistência para Daltonismo
-<string>Define ajustar certas cores para adequá-las<lf>a diferentes tipos de daltonismo.
+<string>Define certas cores para adequá-las<lf>a diferentes tipos de daltonismo.
 <string>Tricromático (sem assistência)
 <string>Protanopia
 <string>Deuteranopia
@@ -1437,10 +1445,10 @@
 <string>Não altera a aparência de monstros pequenos<lf>e vida nativa com características aracnídeas<lf>ou de inseto.
 <string>Acessibilidade Visual
 <string>Ajusta todas as configurações para as recomendações<lf>de auxílio visual. Você pode ver os detalhes de<lf>cada configuração antes de confirmar.
-<string>Aplicar configurações de Acessibilidade Visual recomendadas?
+<string>Aplicar configurações de Acessibilidade Visual<lf>recomendadas?
 <string>Acessibilidade Auditiva
 <string>Ajusta todas as configurações para as recomendações<lf>de auxílio auditivo. Você pode ver os detalhes de<lf>cada configuração antes de confirmar.
-<string>Aplicar configurações de Acessibilidade Auditiva recomendadas?
+<string>Aplicar configurações de Acessibilidade Auditiva<lf>recomendadas?
 <string>Redução de Cinetose
 <string>Ajusta todas as configurações para as recomendações<lf>de redução de cinetose. Você pode ver os detalhes<lf>de cada configuração antes de confirmar.
 <string>Aplicar configurações de Redução de Cinetose<lf>recomendadas?

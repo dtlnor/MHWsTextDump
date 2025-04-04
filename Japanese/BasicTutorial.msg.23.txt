@@ -339,6 +339,9 @@
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME>狂竜症
 <string>狂竜ウイルスの蓄積によって感染し、<lf>モンスターを一定回数攻撃することで克服<lf>しない限り、発症してしまう。<lf><lf>発症状態：受けるダメージが大きくなり、<lf>　　　　　体力が自然回復しなくなる。<lf>克服状態：会心率がアップし、<lf>　　　　　狂竜症に感染しなくなる。<lf>どちらの状態も時間経過で解除される。<lf><lf>感染状態中に<REF Item_IT_7>を使用すると、<lf>発症するまでの時間を延ばすことが可能。
 <string>
+<string><ICON ST_BUBBLE>泡状態【小】／<ICON ST_BUBBLE_HIGH>泡状態【大】
+<string>体に泡が付着している状態。<lf>付着した泡が大きくなると足が滑って<lf>移動が困難になる。さらにこの状態で<lf>攻撃を受けると、その強さによっては<lf>転倒しダメージを受けてしまう。<lf><lf>主な解除方法：<lf>・<REF Item_IT_179>を使用する<lf>・一定時間の経過<lf>・攻撃を受ける
+<string>
 <string><ICON ST_FIRE>火属性やられ
 <string>時間経過で体力が減少する状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_7>を使用する<lf>・水場に入る、回避を繰り返す<lf>・一定時間の経過
 <string>
@@ -352,7 +355,7 @@
 <string>スタミナの消費が増加している状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_7>を使用する<lf>・回避を繰り返す<lf>・一定時間の経過
 <string>
 <string><ICON ST_DRUGON>龍属性やられ
-<string>武器の属性値が無効化している状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_7>を使用する<lf>・回避を繰り返す<lf>・一定時間の経過
+<string>武器とスリンガー弾の属性値が<lf>無効化されている状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_7>を使用する<lf>・回避を繰り返す<lf>・一定時間の経過
 <string>
 <string>振動やられ
 <string>一定時間、行動が制限される状態。<lf>地震の強さにより制限の長さが異なる。<lf><lf>主な解除方法：<lf>・一定時間の経過<lf>・攻撃を受ける

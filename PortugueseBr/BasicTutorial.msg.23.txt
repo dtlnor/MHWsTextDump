@@ -169,7 +169,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_619982848>
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON">
-<string>Aumente a velocidade de movimento do seu<lf>Seikret segurando <ICON PL_PT_SPEED_UP>.<lf><lf>Use <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> ou <ICON PL_MOVE_RIGHT> enquanto seu Seikret corre<lf>para derrapar.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> enquanto derrapa dará ao seu Seikret<lf>um impulso adicional de velocidade!
+<string>Aumente a velocidade de movimento<lf>do seu Seikret segurando <ICON PL_PT_SPEED_UP>.<lf><lf>Use <ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> ou <ICON PL_MOVE_RIGHT> enquanto o<lf>Seikret corre para derrapar.<lf><lf><ICON PL_PT_SPEED_DOWN><ICON RELEASE> enquanto derrapa dará ao<lf>Seikret um impulso extra de velocidade!
 <string>
 <string>Derrapar
 <string><ICON merge="PL_PT_SPEED_UP,HOLD_ON"><ICON PLUS><ICON merge="PL_PT_SPEED_DOWN,HOLD_ON"><ICON PLUS><ICON PL_MOVE_LEFT> ou <ICON PL_MOVE_RIGHT>
@@ -191,7 +191,7 @@
 <string><INPUTMSG MsgGUI600200_00_019_01>
 <string>Ataque Montado/Ao Desmontar
 <string><ICON ME PL_WEAPON_ON> ou <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
-<string>Com uma arma corpo a corpo equipada,<lf>você pode realizar um ataque de curta<lf>distância enquanto monta.<lf><lf><ICON ME PL_WEAPON_ON>: realiza um ataque enquanto sobre<lf>montaria.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: realiza um ataque enquanto salta<lf>do seu Seikret.
+<string>Com uma arma corpo a corpo equipada,<lf>você pode realizar um ataque de curta<lf>distância enquanto monta.<lf><lf><ICON ME PL_WEAPON_ON>: realiza um ataque montado.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: realiza um ataque enquanto<lf>salta do seu Seikret.
 <string>
 <string>Empunhar Arma em Montaria
 <string><INPUTMSG MsgGUI600200_00_033>
@@ -339,6 +339,9 @@
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Cólera
 <string>Exposição prolongada ao Vírus da Cólera<lf>infectará você, a menos que acerte uma<lf>certa quantidade de golpes em monstros.<lf><lf>Enquanto Infectado: impede recuperação<lf>natural e aumenta o dano sofrido.<lf><lf>Após Cura: aumenta afinidade e concede<lf>resistência a Cólera.<lf><lf>Você pode retardar o avanço do vírus<lf>se usar uma Nulafruta.
 <string>
+<string><ICON ST_BUBBLE_HIGH> / <ICON ST_BUBBLE> Flagelo de Bolha Maior/Menor
+<string>Status que fixa bolhas infláveis no<lf>seu corpo. Quando crescem demais,<lf>sua movimentação fica dificultada.<lf>Além disso, ao sofrer um ataque,<lf>você cai e recebe dano extra.<lf><lf>Geralmente curado ao:<lf>- Usar um Limpador<lf>- Esperar a duração do efeito<lf>- Sofrer um ataque
+<string>
 <string><ICON ST_FIRE> Flagelo de Fogo
 <string>Status que reduz sua vida ao longo<lf>do tempo.<lf><lf>Geralmente curado ao:<lf>- Usar uma Nulafruta<lf>- Esquivar na água<lf>- Esperar a duração do efeito
 <string>
@@ -352,7 +355,7 @@
 <string>Status que aumenta o consumo de vigor.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
 <string>
 <string><ICON ST_DRUGON> Flagelo de Dragão
-<string>Status que anula as propriedades<lf>elementais da sua arma.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
+<string>Status que anula as propriedades<lf>elementais da sua arma e da<lf>munição de Atiradeira.<lf><lf>Geralmente curado ao:<lf>- Usar nulafruta<lf>- Esquivar várias vezes seguidas<lf>- Esperar a duração do efeito
 <string>
 <string>Tremor
 <string>Status que restringe seu movimento.<lf>O tempo de restrição varia conforme<lf>a intensidade do tremor.<lf><lf>Geralmente curado ao:<lf>- Esperar a duração do efeito<lf>- Ser atingido por um ataque
@@ -401,7 +404,7 @@
 <string>
 <string>Modo de Foco
 <string>Modo de Foco
-<string>O Modo de Foco permite que você mire com<lf>cuidado o seu ataque ou bloqueio.<lf><lf>Enquanto você focar em um monstro,<lf>guialumes destacarão seus ferimentos<lf>ou pontos fracos.
+<string>O Modo de Foco permite que você mire<lf>com cuidado o seu ataque ou bloqueio.<lf><lf>Enquanto você focar em um monstro,<lf>guialumes destacarão seus ferimentos<lf>ou pontos fracos.
 <string>
 <string>Modo de Foco
 <string><ICON ME PL_AIM> com a arma empunhada
@@ -493,7 +496,7 @@
 <string>Monstros atordoados ficam imobilizados<lf>por um tempo. Você pode atordoá-los<lf>causando dano contundente em partes<lf>específicas do seu corpo, como a cabeça.<lf>Um monstro ganha resistência ao efeito<lf>se for afetado muitas vezes, o que reduz<lf>sua duração.
 <string>
 <string>Exaustão
-<string>Quando monstros estão apavorados, isso<lf>faz com que eles recuem, o que também<lf>diminui o vigor deles. Você pode fazer<lf>um monstro hesitar causando dano<lf>contundente várias vezes.
+<string>Quando monstros estão sem vigor,<lf>entram em um estado de exaustão.<lf>Monstros entram neste estado quando<lf>sofrem dano contundente repetidamente.
 <string>
 <string>Flagelo Sônico
 <string>Um estado em que um monstro se assusta<lf>devido a um ruído alto. Pode ser causado<lf>ao acertar uma Cápsula de Grito quando<lf>ele está em um estado específico ou<lf>realizando alguma ação, como se enterrar<lf>na areia. O monstro ganha resistência<lf>se o efeito é aplicado muitas vezes.
@@ -514,10 +517,10 @@
 <string>Atacar continuamente um monstro em um<lf>mesmo ponto pode abrir um Ferimento.<lf>Esses Ferimentos possuem três estágios:<lf>Um Rasgo se torna um Ferimento Aberto<lf>após ataques adicionais e depois uma<lf>Cicatriz, quando é destruído.<lf><lf>Atacar um Ferimento causa dano adicional<lf>e atingi-lo com um Ataque Focal destrói<lf>o Ferimento com um único golpe.
 <string>
 <string>Capturar Monstros
-<string>Monstros enfraquecidos podem ser capturados<lf>com armadilhas ou Bombas Sedativas.<lf>Atenção: não é possível talhar materiais<lf>de monstros capturados.<lf><lf>A Guilda incentiva as capturas, pois isso<lf>permite investigar monstros sem precisar<lf>caçá-los. Por esse motivo, esses pedidos<lf>às vezes são recompensados com materiais<lf>difíceis ou impossíveis de obter talhando.
+<string>Monstros enfraquecidos podem ser<lf>capturados com armadilhas ou Bombas<lf>Sedativas. Não é possível talhar<lf>materiais de monstros capturados.<lf><lf>A Guilda incentiva as capturas,<lf>pois isso permite investigar monstros<lf>sem precisar caçá-los. Por esse motivo,<lf>tais pedidos são recompensados com<lf>materiais difíceis ou impossíveis<lf>de obter talhando.
 <string>
 <string>Enfraquecer Monstros
-<string>Para capturar um monstro, é preciso<lf>enfraquecê-lo até um certo ponto.<lf><lf>Depois, use Armadilhas de Poço ou de Choque<lf>para aprisioná-lo e itens de captura como<lf>Bombas Sedativas para controlá-lo ainda mais.<lf><lf>Quando devidamente contido e adormecido,<lf>a captura é finalizada.
+<string>Para capturar um monstro, é preciso<lf>enfraquecê-lo até um certo ponto.<lf><lf>Depois, use Armadilhas de Poço ou <lf>e Choque para aprisioná-lo e itens de<lf>captura como Bombas Sedativas para<lf>controlá-lo ainda mais.<lf><lf>Quando devidamente contido e<lf>adormecido, a captura é finalizada.
 <string>
 <string>Emboscando um Monstro
 <string>

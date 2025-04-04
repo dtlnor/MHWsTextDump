@@ -44,6 +44,7 @@
 <string>此功能正在维护，请稍后再试。<lf>{0}
 <string>屏蔽数量已达到上限，无法屏蔽更多玩家。<lf>{0}
 <string>服务器正在维护。<lf>{0}
+<string>此账号无法使用小队功能。<lf>{0}
 <string>和联机区连接中断，无法继续加入联机区。<lf>{0}
 <string>无法创建联机区。<lf>{0}
 <string>无法搜索联机区。<lf>{0}
@@ -66,6 +67,7 @@
 <string>服务器繁忙，请稍后再试。
 <string>此游戏模式支持跨平台游玩。
 <string>由于对方的跨平台游玩设置，无法加入此联机区。<lf>{0}
+<string>任务已开始，无法参加。
 <string>联机区与跨平台游玩设置不同，无法参加。<lf>请在标题画面菜单的“选项”中，确认跨平台游玩设置。<lf>{0}
 <string>连结队员已满，无法继续邀请。<lf>{0}
 <string><COLOR preset="TXT_Accent">社区功能已受限</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号出现<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款。</COLOR>
@@ -116,6 +118,13 @@
 <string>出发
 <string>发生错误，请联系附近工作人员。
 <string>无法获得下载信息。<lf>{0}
+<string>无法上传完成时间。<lf>请在任务柜台或斗技大会柜台<lf>将完成时间上传至排行榜。<lf>{0}
+<string>已将完成时间上传至排行榜。
+<string>无法获得排行榜信息。<lf>{0}
+<string>存在尚未登记到排行榜的完成时间数据。<lf>要上传至排行榜吗？
+<string>按“是”将会删除完成时间。<lf>确定要删除吗？
+<string>存在尚未登记到排行榜的完成时间数据。<lf>但活动已结束，无法登记。
+<string>当前处于离线模式，无法上传完成时间至排行榜。
 <string>{0}<lf>无法搜索到此小队。<lf>{1}
 <string>小队的邀请或申请已超过上限。<lf>{0}
 <string>无法加入小队。<lf>{0}

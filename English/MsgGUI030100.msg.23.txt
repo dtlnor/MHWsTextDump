@@ -4,8 +4,10 @@
 <string><REF RefButton_0012>
 <string>Reset Selected to Default
 <string>Reset All to Default
+<string>Reset Category to Default
 <string>Reset the selected options to default settings?
 <string>Reset all options in all categories to<lf>their default settings?
+<string>Reset all options in the current category<lf>tab to their default settings?
 <string>All
 <string><PLATMSG MsgGUI030100_0401>
 <string>Shared + Controller
@@ -805,7 +807,7 @@
 <string>Uses Super-resolution imaging technology in order<lf>to maintain high performance while also enjoying<lf>superior graphical quality.
 <string>NVIDIA DLSS
 <string>Uses NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requires a NVIDIA GeForce RTX graphics card.<lf>– If you're using a GeForce RTX40 Series card<lf>and have enabled Hardware-Accelerated GPU<lf>Scheduling in your OS, selecting this setting will<lf>allow you to enable Frame Generation.</COLOR>
-<string>AMD FSR 3
+<string>AMD FSR
 <string>Uses <FSR>.<lf><COLOR preset="TXT_Accent">– If you've enabled Hardware-Accelerated GPU<lf>Scheduling in your OS, selecting this setting will<lf>allow you to enable Frame Generation.</COLOR>
 <string>Intel XeSS
 <string>Uses Intel <XESS>.
@@ -825,7 +827,7 @@
 <string>NVIDIA DLAA
 <string>Uses AI anti-aliasing while maintaining native<lf>resolution.
 <string>AMD Native AA
-<string>Uses FSR 3 anti-aliasing while maintaining native<lf>resolution.
+<string>Uses FSR anti-aliasing while maintaining native<lf>resolution.
 <string>Intel XeSS Native AA
 <string>Uses XeSS anti-aliasing while maintaining native<lf>resolution.
 <string>Quality
@@ -839,7 +841,7 @@
 <string>Disable
 <string>This will be selected if you do not use<lf>an upscaling method.
 <string>Upscaling Sharpness
-<string>Adjusts the level of graphical detail used when upscaling.<lf>The higher the number, the greater the level of detail.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if AMD FSR 3 has been enabled.)</COLOR>
+<string>Adjusts the level of graphical detail used when upscaling.<lf>The higher the number, the greater the level of detail.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if AMD FSR has been enabled.)</COLOR>
 <string>Anti-Aliasing
 <string>Adjusts the anti-aliasing mode.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling is not enabled.)</COLOR>
 <string>FXAA + TAA
@@ -1175,6 +1177,12 @@
 <string>Displays the Health Gauges of your Palico<lf>and other companions at all times.
 <string>Dynamic
 <string>Displays a minimized Health Gauge for your<lf>Palico and other companions by default.<lf>The gauge will expand to its full display<lf>in response to certain situations.
+<string>Display Elapsed Time for Some Quests
+<string>Adjusts whether holding <ICON PL_ITEM_SLIDER_OPEN> will display the<lf>amount of time that has passed during Arena,<lf>Challenge, and Free Challenge Quests.
+<string>Display
+<string>During certain quests, holding <ICON PL_ITEM_SLIDER_OPEN> will display<lf>the elapsed time with your objectives.
+<string>Do Not Display
+<string>During certain quests, holding <ICON PL_ITEM_SLIDER_OPEN> will not<lf>display the elapsed time with your objectives.
 <string>Chat Window
 <string>Adjusts the settings for the communication<lf>window and chat log after a message is sent.
 <string>Close Window

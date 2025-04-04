@@ -3,6 +3,7 @@
 <string>개요
 <string>멤버
 <string>보수
+<string>개인 기록
 <string>환경 개요
 <string>소식
 <string>현재
@@ -71,6 +72,8 @@
 <string><COLOR preset="TXT_Danger">저장 가능한 조사 퀘스트가 최대 수에 도달했습니다. 더 이상 저장할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이미 조사 퀘스트로 저장되어 있습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">결과 확인 중인 환경 링크 멤버가 있어 현지 조사 퀘스트를 시작할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 퀘스트에서는 이용할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 퀘스트는 《<Ref RefEnvironment_0001_0001>》에서만 수주할 수 있습니다.</COLOR>
 <string>타이틀로 돌아가기
 <string>재시도하기
 <string>{0} 토벌
@@ -99,6 +102,19 @@
 <string>돌아<lf>가기
 <string>퀘스트<lf>시작
 <string>퀘스트<lf>수락
+<string>퀘스트<lf>재도전
+<string>Time Up!
+<string>1st Challenge!
+<string>2nd Challenge!
+<string>Score
+<string>Cleared
+<string>READY
+<string>3
+<string>2
+<string>1
+<string>GO
+<string>WIN
+<string>LOSE
 <string>모든 퀘스트
 <string>임무 퀘스트
 <string>자유 퀘스트
@@ -116,6 +132,7 @@
 <string>로비 멤버 퀘스트
 <string>구조신호 퀘스트
 <string>링크 멤버 퀘스트
+<string>프리 챌린지 퀘스트
 <string>조사 퀘스트 저장 비용
 <string>현지 조사 퀘스트 시작 일시
 <string>남은 수주 가능 횟수
@@ -148,6 +165,13 @@
 <string>다운 횟수 {0}/{1}
 <string>의뢰인: {0}
 <string>CLEAR!
+<string>선택 가능한 무기
+<string>타임 랭크
+<string>내 베스트 타임
+<string>멤버 구성
+<string>날짜: <DATETIME {0} "YYYY/MM/DD">(UTC)
+<string>날짜: <DATETIME {0} "YYYY/MM/DD">
+<string>{0:D2}'{1:D2}"{2:D2}
 <string>멤버 모집 코멘트
 <string>멤버 모집 코멘트를 설정합니다.
 <string>누구든지 환영!!
@@ -166,6 +190,7 @@
 <string>마을의 골칫거리인 몬스터가 있습니다!
 <string>사냥 시 시설 수확량 임시 증가
 <string>{0}(이)가 <REF RefEnvironment_0001_0004>에 출현 중!
+<string>{0}이(가) <REF RefEnvironment_0001_0003>에 출현 중입니다!
 <string>최대 참가 인원수
 <string>퀘스트에 참가 가능한 최대 인원수를 설정합니다<COLOR preset="TXT_Accent">(설정 가능한 인원수는 링크 멤버 최대 수에 따라 달라집니다)</COLOR>.
 <string>1
@@ -190,6 +215,9 @@
 <string>타이틀 메뉴의 크로스플레이 설정을 사용하지 않으므로 설정이 같은 플레이어의 퀘스트만 검색됩니다.
 <string>모든 플랫폼
 <string>자신과 같은 플랫폼
+<string>보충 설명
+<string>●프리 챌린지 퀘스트 규칙<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 시부터 참가합니다.
+<string>●격투대회 퀘스트/챌린지 퀘스트 규칙<lf>・최대 참가 인원수: 최대 2명까지<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 때부터 참가합니다.<lf>・동반자 아이루는 퀘스트에 참가하지 않습니다.<lf>・식사 효과는 퀘스트 중 <COLOR preset="TXT_Danger">일시적으로 사라집니다.<lf>※퀘스트 종료 후, 다시 돌아옵니다.</COLOR><lf>・아이템 효과 및 수렵피리의 선율 효과 등<lf>일시적인 스테이터스 효과는 <COLOR preset="TXT_Danger">퀘스트 출발 시 사라집니다.</COLOR><lf>●프리 챌린지 퀘스트 규칙<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 때부터 참가합니다.
 <string>구조신호 검색
 <string>퀘스트 종류
 <string>지정 없음
@@ -218,6 +246,7 @@
 <string>조사 퀘스트 삭제
 <string>선택한 조사 퀘스트를 삭제합니다.<lf>계속하시겠습니까?<lf><lf>※'현지 조사 퀘스트 이력'에 해당 퀘스트가<lf>남아 있는 경우, 이력에서도 삭제됩니다.
 <string>조사 퀘스트를 삭제했습니다.
+<string>선택 가능한 장비 세부 내용
 <string>선택한 조사 퀘스트의 수주 가능 횟수가<lf>{0}번 남았습니다.<lf>수주하면 남은 횟수를 소비하고 저장합니다.<lf>계속하시겠습니까?
 <string>퀘스트 참가 인원수를 일시적으로 확장합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Accent">(한 번 확장하면 퀘스트를<lf>종료할 때까지 되돌릴 수 없습니다)</COLOR>
 <string>임무 퀘스트
@@ -228,3 +257,17 @@
 <string>로비 멤버 퀘스트({0}건)
 <string>링크 멤버 퀘스트
 <string>구조신호 퀘스트({0}건)
+<string>격투대회 퀘스트
+<string>챌린지 퀘스트
+<string>프리 챌린지 퀘스트
+<string>낚시대회 퀘스트
+<string>낚시대회 퀘스트(배포)
+<string>베스트 타임
+<string>장비 선택
+<string>멤버 상황
+<string>서포트 헌터
+<string>서포트 헌터 동행시키기
+<string>서포트 헌터 동행시키지 않음
+<string>이 장비로 결정하시겠습니까?
+<string>다른 플레이어를 기다리고 있습니다.
+<string>베스트 스코어
