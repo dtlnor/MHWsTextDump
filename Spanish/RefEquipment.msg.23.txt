@@ -29,6 +29,7 @@
 <string>{0}
 <string>–
 <string>Árbol desconocido
+<string>Sin imagen
 <string>Principal
 <string>Equipar como arma principal
 <string>Secundaria
@@ -57,11 +58,16 @@
 <string><ICON EQUIP_TYPE1> Armadura solo
 <string><ICON EQUIP_TYPE2> Armadura solo
 <string>Mostrar en posesión
+<string>Sets de armadura completa
 <string>Mejorar
 <string>Forjar
 <string>Necesitarás materiales y {0} z.<lf>¿Quieres continuar?
 <string>Necesitarás materiales y <NUMBER {0}> z.<lf>¿Quieres continuar?<lf><lf>(Forjar este equipamiento también<lf>producirá una <COLOR preset="TXT_Accent">armadura superpuesta</COLOR>)
+<string>Este es un set de armadura completa. Se usarán los<lf>materiales necesarios y {0}z para crear todo el set.<lf>¿Quieres continuar?
+<string>Este es un set de armadura completa. Se usarán los<lf>materiales necesarios y <NUMBER {0}>z para crear todo el set.<lf>¿Quieres continuar?<lf><lf>(También se creará su <COLOR preset="TXT_Accent">armadura superpuesta</COLOR>).
 <string>¿Quieres equipar este elemento?
+<string>Si cambias esta pieza, <COLOR preset="TXT_Danger">se quitarán el resto<lf>de piezas del set de armadura completa</COLOR>.<lf>¿Quieres cambiar la pieza de armadura?
+<string>Es un set de armadura completa.<lf>¿Quieres equiparte todas las piezas del set?<lf><lf><COLOR preset="TXT_Danger">(La armadura superpuesta no se mostrará).</COLOR>
 <string>¿Quieres descartar {0} <PLURAL {0} "punto sobrante" "puntos sobrantes">?
 <string>Vista previa
 <string><COLOR preset="TXT_Danger">El baúl de equipamiento está lleno.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">No tienes materiales de refuerzo.</COLOR>
 <string><COLOR preset="TXT_Danger">Ya tienes este equipamiento, así que no se puede forjar o mejorar.</COLOR>
 <string><COLOR preset="TXT_Danger">Ya tienes este equipamiento, así que no se puede forjar.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes forjar sets de armadura completa que ya tengas.</COLOR>
 <string>Equipado actualmente: {0}
 <string>Se está utilizando en otra pieza de equipamiento.<lf>¿Quieres quitarlo?
 <string><COLOR preset="TXT_Danger">Este adorno ya está equipado.</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">No puedes vender este equipamiento.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes vender este kinsecto porque está vinculado a un glaive insecto.</COLOR>
 <string>Valor
+<string>Es un set de armadura completa.<lf>Se venderán todas las piezas del set.<lf>¿Quieres vender todas las piezas del set?
 <string>Este equipamiento está guardado en un set.<lf>¿Seguro que quieres venderlo?
 <string>¿Quieres completar la venta por <NUMBER {0}> z?
 <string>Este equipamiento tiene un adorno.<lf>¿Quitar todos los adornos y vender el equipamiento por <NUMBER {0}> z?

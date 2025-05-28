@@ -211,13 +211,13 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_298
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_298
 <string>Come far abboccare i pesci
-<string>Appena il pesce abbocca, premi <ICON PL_FISHING_ACTION><lf>per <COLOR preset="TXT_Accent">ritirare la lenza</COLOR>. Se riesci<lf>a ritirarla tutta, avrai preso il pesce.
+<string>Appena il pesce abbocca, premi <ICON PL_FISHING_ACTION><lf>per ferrare e <COLOR preset="TXT_Accent">recuperare la lenza</COLOR>. Se riesci<lf>a recuperarla tutta, catturerai il pesce.
 <string>Come usare le esche
 <string>Puoi cambiare <COLOR preset="TXT_Accent">l'esca</COLOR> selezionandola<lf>nella barra oggetti.
 <string>Come usare le esche
 <string><COLOR preset="TXT_Accent">Esche diverse attirano pesci diversi.</COLOR><lf>Seleziona quella giusta per<lf>il pesce che vuoi acchiappare.
 <string>Come pescare un pesce-mastodonte
-<string>Per pescare un <COLOR preset="TXT_Accent">pesce mastodonte</COLOR>,<lf>dovrai usare una tattica diversa.
+<string>Per pescare un <COLOR preset="TXT_Accent">pesce-mastodonte</COLOR>,<lf>dovrai usare una tattica diversa.
 <string>Come pescare un pesce-mastodonte
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_190>
 <string>Come pescare un pesce-mastodonte
@@ -325,7 +325,7 @@
 <string>Personalizzazione balestra
 <string>Aumenta il limite e il livello dei<lf>proiettili della balestra leggera<lf>equipaggiandola con delle <COLOR preset="TXT_Accent">modifiche</COLOR>.<lf>Puoi anche selezionare delle munizioni<lf>speciali che si adattino al tuo<lf>stile di caccia.
 <string>Fusione di minerali
-<string>Consuma i materiali di mostri per<lf>fondere l'<COLOR preset="TXT_Accent">oricalcite</COLOR> necessaria<lf>per potenziare le armi Artian.
+<string>Consuma i materiali di mostri per fondere<lf>l'<COLOR preset="TXT_Accent">oricalcite</COLOR> necessaria per potenziare<lf>le armi Artian.
 <string><REF MsgGUI030203_0000>
 <string>Dopo aver organizzato la tua borsa<lf>oggetti in base al tipo di arma e<lf>all'obiettivo di caccia, puoi registrarla<lf>come <COLOR preset="TXT_Accent">set</COLOR> per riempire all'istante<lf>la tua borsa con gli oggetti necessari.
 <string>Set del cacciatore
@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>Notifiche insetti guida
-<string>Se hai difficoltà a reperire un oggetto<lf>particolare, usa <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> per selezionare<lf>il bersaglio della notifica dell'insetto<lf>guida e raccoglilo con<lf>la fionda uncinata <ICON PL_CATCH_SLINGER_SHOOT>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>Notifiche insetti guida
-<string>Usa <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> per individuare<lf>un oggetto o un ambiente visualizzato<lf>nelle notifiche degli insetti guida,<lf>sul lato sinistro dello schermo.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>Incarico: caccia al Doshaguma
 <string>Un <COLOR preset="TXT_Accent">Doshaguma</COLOR> si sta scatenando nelle<lf>Piane ventose. Accetta la missione<lf>per cacciarlo dopo aver terminato<lf>i preparativi presso la tenda.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>Ricerche sul campo e ricompense aggiuntive
 <string>Le <COLOR preset="TXT_Accent">ricompense aggiuntive</COLOR> delle ricerche<lf>sul campo in ambienti di alto grado sono<lf>disponibili. Sfida i mostri con più ★<lf>per ottenere ricompense migliori.
 <string>Ricerche sul campo e ricompense aggiuntive
-<string>Usa la mappa o il binocolo per sapere quali<lf><COLOR preset="TXT_Accent">ricompense aggiuntive</COLOR> puoi ottenere<lf>da un certo mostro.<lf>Inizia una ricerca sul campo infliggendo<lf>danni o selezionando il mostro sulla<lf>mappa.
+<string>Per verificare le ricompense aggiuntive<lf>di un mostro sulla mappa, seleziona<lf>la sua icona con il cursore o controlla<lf>la sezione Ambiente.
+<string>Ricerche sul campo e ricompense aggiuntive
+<string>Inizia una <COLOR preset="TXT_Accent">ricerca sul campo</COLOR> infliggendo<lf>abbastanza danni a un mostro o<lf>selezionandolo tra le icone sulla mappa.<lf>I danni di trappole ambientali non<lf>avvieranno una ricerca.
 <string>Limiti ricerche sul campo
 <string>Il tuo grado cacciatore influenzerà<lf>i mostri che puoi seguire durante<lf>la ricerca sul campo. Aumenta il tuo GC<lf>completando le richieste e dando la<lf>caccia ai mostri.
 <string>Indagini
@@ -561,7 +563,7 @@
 <string>Guardia perfetta
 <string>In modalità spada premi <ICON WP09 PL_ATTACK_SP> e sincronizza<lf>la tua guardia con l'attacco di un mostro<lf>per eseguire una <COLOR preset="TXT_Accent">guardia perfetta</COLOR>.<lf>Subito dopo premi <ICON WP09 PL_ATTACK_00> per scatenare<lf>ascia: fendente selvaggio.
 <string>Ricerche sul campo
-<string>Inizia una <COLOR preset="TXT_Accent">ricerca sul campo</COLOR> infliggendo<lf>abbastanza danni a un mostro o<lf>selezionandolo tra le icone sulla mappa.
+<string>Inizia una <COLOR preset="TXT_Accent">ricerca sul campo</COLOR> infliggendo<lf>abbastanza danni a un mostro o<lf>selezionandolo tra le icone sulla mappa.<lf>I danni di trappole ambientali non<lf>avvieranno una ricerca.
 <string>Ricerche sul campo
 <string>Le ricerche sul campo ti consentono di<lf>goderti un'esperienza di caccia perfetta<lf>creando una missione nel tuo ambiente<lf>attuale. Completa le missioni<lf>per ottenere scorte e ricompense.
 <string>Ricerche sul campo
@@ -741,7 +743,7 @@
 <string>Attacchi di vario genere
 <string>Tieni premuto <ICON WP11 PL_ATTACK_SP> e premi <ICON WP11 PL_ITEM> per lanciare un<lf><COLOR preset="TXT_Accent">tracciante</COLOR>. La freccia seguente può<lf>seguirlo e colpirlo. Per caricarlo ti<lf>serve la barra freccia truccata.
 <string>Creazione di oggetti
-<string>Combina gli oggetti e <COLOR preset="TXT_Accent">creane</COLOR> di nuovi<lf>per aiutarti durante le cacce.<lf>Per farlo, dai un'occhiata all'elenco<lf>creazioni nel menu di gioco.
+<string>Combina gli oggetti e <COLOR preset="TXT_Accent">creane</COLOR> di nuovi<lf>per aiutarti durante le cacce.<lf>Per farlo, accedi alla Creazione<lf>oggetti dal menu di gioco.
 <string>Esempi di creazioni
 <string>Puoi creare pozioni di cura e trappole.<lf><lf>Ad esempio:<lf>- Pozione + miele: Mega pozione<lf>- Noce fumo + brodo d'insetto<lf>amaro: Deodorante
 <string>Jin Dahaad
@@ -815,20 +817,20 @@
 <string>Missioni competitive a tempo
 <string><COLOR preset="TXT_Accent">Missioni Arena</COLOR><lf>Missioni con equipaggiamento specifico.<lf>Max 2 cacciatori. Consentito supporto.
 <string>Missioni competitive a tempo
-<string><COLOR preset="TXT_Accent">Missioni Corsa al tempo opzionale</COLOR><lf>Missioni a tempo, senza limitazioni nella<lf>scelta dell'equipaggiamento.<lf>Max 4 cacciatori. Consentito supporto.
+<string><COLOR preset="TXT_Accent">Missioni sfida libera</COLOR><lf>Missioni a tempo, senza limitazioni nella<lf>scelta dell'equipaggiamento.<lf>Max 4 cacciatori. Consentito supporto.
 <string>Missioni competitive a tempo
 <string><COLOR preset="TXT_Accent">Missioni Sfida</COLOR><lf>Missioni con equipaggiamento specifico<lf>a tempo. Max 2 cacciatori.<lf>Consentiti cacciatori di supporto.
 <string>Missioni competitive a tempo
 <string>Nota: non puoi unirti a queste missioni<lf>quando sono in corso. Alcune sono<lf>disponibili solo al Centro supremo.<lf>Quelle a tempo sono solo online.
-<string>Tabellone record spedizione
+<string>Bacheca della spedizione
 <string>Questa è una bacheca dalla quale<lf>consultare gli annunci, gestire le<lf>ricompense per le richieste limitate<lf>e visualizzare le classifiche.
-<string>Tabellone record spedizione
+<string>Bacheca della spedizione
 <string><COLOR preset="TXT_Accent">Annunci</COLOR><lf>Visualizza informazioni su eventi<lf>a tempo limitato, richieste limitate,<lf>classifiche e molto altro.
-<string>Tabellone record spedizione
+<string>Bacheca della spedizione
 <string><COLOR preset="TXT_Accent">Richieste limitate</COLOR><lf>Visualizza attività e spedizioni<lf>disponibili online e ottieni<lf>ricompense di completamento.
-<string>Tabellone record spedizione
-<string><COLOR preset="TXT_Accent">Panoramica ambiente</COLOR><lf>Apre la mappa globale nella quale<lf>visualizzare le informazioni ambientali<lf>di ogni area (accessibile anche<lf>dalla mappa globale normale).
-<string>Tabellone record spedizione
+<string>Bacheca della spedizione
+<string><COLOR preset="TXT_Accent">Ambiente</COLOR><lf>Seleziona le icone di ciascun luogo<lf>per verificare le condizioni ambientali<lf>e le previsioni.
+<string>Bacheca della spedizione
 <string><COLOR preset="TXT_Accent">Informazioni classifica</COLOR><lf>Visualizza i record personali o globali,<lf>oltre a quelli dei tuoi amici cacciatori<lf>o membri della tua squadra.
 <string>Fusti rotolanti
 <string>Ora puoi giocare al minigioco Fusti rotolanti<lf>nel Centro supremo! Lancia un barile speciale<lf>giù per la collina e punta ai "birili" più grandi per<lf>ottenere un punteggio alto!
@@ -843,22 +845,48 @@
 <string>Cambiare gli occhiali di Alma
 <string>Ora puoi cambiare gli occhiali di Alma<lf>tramite <BOLD>Cambia l'aspetto di Alma</BOLD><lf>nel menu aspetto nella tua tenda.<lf>Gli accessori sono elementi essenziali<lf>per il look!
 <string>Festival dell'Armonia: Fiordanza
-<string>Durante i festival, verranno aggiunte<lf>delle funzioni speciali al Centro supremo.<lf>Saranno disponibili per un periodo di<lf>tempo limitato, quindi non perderle!
+<string>Durante i festival, verranno aggiunte<lf>delle funzioni speciali al Centro supremo.<lf>Saranno disponibili per un periodo di<lf>tempo limitato, quindi non perdertele!
 <string>Fai il pieno di piatti stagionali!
 <string>Sfrutta i pasti a tempo limitato della<lf>mensa scambiando un buono fiordanza.<lf>Puoi ottenerli attraverso i bonus di accesso<lf>durante il periodo dell'evento!
 <string>Dai ad Alma un nuovo look!
-<string>È stato preparato un abito speciale<lf>per gli assistenti in occasione della<lf>fiordanza. Parla con Alma al Centro<lf>supremo!
+<string>È stato preparato un abito speciale<lf>per gli assistenti in occasione della<lf>Fiordanza. Parla con Alma al Centro<lf>supremo!
 <string>Richieste limitate giornaliere!
-<string>Aggiornate quotidianamente, le richieste<lf>limitate daranno dei biglietti fiordanza,<lf>che potranno essere utilizzati per creare<lf>attrezzature stagionali a tempo limitato.
+<string>Aggiornate quotidianamente, le richieste<lf>limitate daranno dei biglietti Fiordanza,<lf>che potranno essere utilizzati per creare<lf>attrezzature stagionali a tempo limitato.
 <string>Bonus di accesso extra!
-<string>Durante il periodo dell'evento, puoi<lf>ricevere due buoni megafortuna al<lf>giorno invece di uno, oltre ad altre<lf>ricompense come i biglietti fiordanza.
+<string>Durante il periodo dell'evento, puoi<lf>ricevere due buoni megafortuna al<lf>giorno invece di uno, oltre ad altre<lf>ricompense come i biglietti Fiordanza.
 <string>Missioni evento in arrivo!
 <string>Sono disponibili una serie di missioni<lf>evento a tempo limitato! Ci saranno anche<lf>alcune delle precedenti missioni evento.
+<string>Set di armatura completi
+<string>Ora puoi creare armature per<lf>cambiare completamente d'aspetto. <lf>Equipaggia una parte per cambiare <lf>in automatico tutte le altre.
+<string>Set di armatura completi
+<string>Forgia e vendi set di armature completi<lf>come pezzi unici. Tuttavia miglioramenti<lf>e gioielli sono propri di ogni parte.
+<string>Set stili armatura completi
+<string>Sono stati aggiunti i set di stili armatura<lf>completi. Equipaggiarne una parte<lf>equipaggerà in automatico le altre.
+<string>Gestione della fauna endemica catturata
+<string>Ora puoi consultare i dettagli<lf>della fauna endemica catturata.<lf>Puoi anche aggiungere le creature<lf>ai preferiti o liberarle.
+<string>Sfida di Akuma
+<string>Mostra ad Akuma la tua<lf>forza completando la<lf>missione arena: Forza demoniaca.
+<string>Missioni al Centro supremo
+<string>Puoi avviare le missioni arena dal Banco<lf>delle missioni arena al Centro supremo.<lf>Preparati per la caccia prima di uscire!
+<string>Mosse di Akuma
+<string>Equipaggiando l'armatura di Akuma<lf>di Street Fighter 6, puoi usare<lf>oggetti e gesti speciali!
+<string>Combo automatiche
+<string>Quando sono equipaggiate, usa <ICON PL_ITEM><lf>per eseguire azioni speciali. Poi premi <ICON PL_WEAPON_ON> o<lf><ICON PL_ATTACK_01> per continuare con mosse speciali.
+<string>Drive Impact
+<string>Usa <ICON PL_ITEM> per eseguire una mossa come attacco<lf>di reazione. Colpisci le ferite o punti<lf>deboli dei mostri per eseguire uno<lf>Shun Goku Satsu.
+<string>Altre mosse
+<string>Puoi anche usare il Gou Shoryuken e le<lf>munizioni per fionda Gou Hadoken. Leggi<lf>la guida Comandi di base per i dettagli.
+<string>Menu scelta rapida personalizzata
+<string>Assegna queste nuove mosse dal<lf>menu scelta rapida personalizzata <lf>per usarle facilmente in missione.
+<string>Ottieni biglietti e crea equipaggiamento
+<string>Completa le missioni arena relative a<lf>Street Fighter 6 per ottenere biglietti<lf>SF6 e forgiare gli oggetti di Akuma!
+<string>Missioni avanzate
+<string>La missione arena La vera forza è<lf>stata sbloccata. Competi contro il mondo<lf>in Corsa al tempo e ricevi ricompense!
 <string>Ferite
 <string>Puoi scambiare vecchi gioielli per<lf>ottenere punti fusione necessari per<lf><COLOR preset="TXT_Accent">fonderne di nuovi</COLOR>. <lf>Le opzioni aumenteranno man mano<lf>che soddisferai tutte le condizioni.
 <string>Gioielli e set equipaggiamento
 <string>Una volta equipaggiato un gioiello,<lf>potrai includerlo in un <COLOR preset="TXT_Accent">set di<lf>equipaggiamento</COLOR>, così da poter<lf>modificare gioielli ed equipaggiamento<lf>insieme.
 <string>Stanze e multigiocatore
-<string>Questo edificio offre una <COLOR preset="TXT_Accent">pentola di fusione</COLOR><lf>, un grande aiuto<lf>durante le cacce. Dacci un'occhiata!
+<string>Questo edificio offre una <COLOR preset="TXT_Accent">pentola di fusione</COLOR>,<lf>un grande aiuto durante le cacce.<lf>Dacci un'occhiata!
 <string>Accampamenti improvvisati
 <string>Seleziona gli oggetti di cui hai bisogno<lf>e gli abitanti del villaggio penseranno<lf>a procurarteli. Ritorna il giorno successivo<lf>per prendere gli oggetti raccolti.

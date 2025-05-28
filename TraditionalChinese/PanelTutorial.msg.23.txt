@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>活用導蟲通知
-<string>難以瞄準想採集的道具時，可以<ICON PL_AIM>＋<ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN><lf>從導蟲通知中選擇對象，再以鉤索投射器<lf>（<ICON PL_CATCH_SLINGER_SHOOT>）採集。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>活用導蟲通知
-<string>畫面左側的導蟲通知會顯示找到的道具與<lf>機關。想知道它們在哪裡的話，可以<lf><ICON PL_AIM>＋<ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>注視。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>任務——狩獵闢獸
 <string><COLOR preset="TXT_Accent">闢獸</COLOR>正在<REF RefEnvironment_0000_0000>作亂。在個人帳篷<lf>做好準備，前往狩獵<COLOR preset="TXT_Accent">闢獸</COLOR>吧。
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>實地調查任務與追加報酬
 <string>現在可從進階環境的實地調查任務獲得<COLOR preset="TXT_Accent">追加<lf>報酬</COLOR>。★的數量越多，魔物越強，但也越<lf>容易獲得珍貴的追加報酬。
 <string>實地調查任務與追加報酬
-<string>各魔物的追加報酬可於地圖確認。對魔物造成<lf>一定傷害，或選擇地圖上的圖示，就可以開始<lf>實地調查任務。
+<string>打開地圖後將浮標移至魔物，或打開「環境<lf>概要」，就可以確認魔物的追加報酬。
+<string>實地調查任務與追加報酬
+<string>對原野的魔物造成一定傷害（落石等機關造成<lf>的傷害除外），或將地圖上的圖示設為目標，<lf>就能立即開始<COLOR preset="TXT_Accent">實地調查任務</COLOR>。
 <string>實地調查任務的承接限制
 <string>可選作實地調查任務的魔物受獵人等級限制。<lf>完成委託和狩獵魔物，提升獵人等級吧。
 <string><REF RefQuest_0009_003>
@@ -561,7 +563,7 @@
 <string>精準防禦
 <string>劍模式時抓準魔物攻擊的時機按<ICON WP09 PL_ATTACK_SP>防禦，<lf>就會觸發<COLOR preset="TXT_Accent">精準防禦</COLOR>，隨後立即按<ICON WP09 PL_ATTACK_00>可使出<lf>屬性迴填斧強化斬。
 <string>實地調查任務
-<string>對原野的魔物造成一定傷害，或將地圖上<lf>的圖示設為目標，就能立即開始<COLOR preset="TXT_Accent">實地調查<lf>任務</COLOR>。
+<string>對原野的魔物造成一定傷害（落石等機關造成<lf>的傷害除外），或將地圖上的圖示設為目標，<lf>就能立即開始<COLOR preset="TXT_Accent">實地調查任務</COLOR>。
 <string>實地調查任務
 <string>將當前的環境任務化，享受無縫銜接的<lf>狩獵體驗吧。任務化後還能領取補給品<lf>與任務達成報酬。
 <string>實地調查任務
@@ -827,7 +829,7 @@
 <string>調查隊紀錄板是什麼
 <string><COLOR preset="TXT_Accent">▼限時獎勵目標</COLOR><lf>在此可查看線上發布的各種活動或調查，<lf>以及領取其報酬。
 <string>調查隊紀錄板是什麼
-<string><COLOR preset="TXT_Accent">▼環境概要</COLOR><lf>在此可打開全域地圖，並查看各地環境。<lf>（功能與一般全域地圖相同）
+<string><COLOR preset="TXT_Accent">▼環境概要</COLOR><lf>在全域地圖選擇各個地域，就能確認其環境。
 <string>調查隊紀錄板是什麼
 <string><COLOR preset="TXT_Accent">▼排行榜</COLOR><lf>在此可閱覽自己、全世界、獵人好友和小隊<lf>成員的各種紀錄。
 <string>滾滾木桶挑戰
@@ -854,6 +856,32 @@
 <string>平常每天的登入獎勵只有一張激運票，慶典<lf>期間每天會增至兩張！另外還有慶典票【花<lf>舞】等道具。
 <string>活動任務將不斷更新！
 <string>我們更會陸續發布限時的特別活動任務！另外<lf>亦會再發布以前曾發布的活動任務。
+<string>整套防具
+<string>現在可以生產具特別外觀的「整套防具」。<lf>裝備後會同時變更所有部位的防具。
+<string>整套防具
+<string>生產與出售整套防具時，會同時生產與出售<lf>所有部位的防具，但強化與穿卸裝飾品時，<lf>仍可分別選擇各個部位的防具。
+<string>整套防具的外觀裝備
+<string>已追加整套防具的外觀裝備。裝備後會同時<lf>變更所有部位。盡情享受與平時不同的特別<lf>外觀吧！
+<string>管理已捕獲的環境生物
+<string>現在可以確認已捕獲環境生物的詳細資訊。<lf>此外，也可把牠們登錄至我的最愛或放生。
+<string>來自豪鬼的戰書
+<string>完成鬥技大會任務「覺悟的證明，<lf>強者之證」，向豪鬼證明自身的實力吧！
+<string>在大集會所承接任務
+<string>在大集會所的「鬥技大會櫃台」就可承接鬥技<lf>大會任務。先做好準備，再前往大集會所吧。
+<string>使用豪鬼專用動作吧
+<string>現在裝備了《Street Fighter 6》的豪鬼合作<lf>防具，可暫時使用專用道具與動作。
+<string>道具「輔助連段」
+<string>裝備時按<ICON PL_ITEM>就可發動特別攻擊動作。之後<lf>再按<ICON PL_WEAPON_ON>或<ICON PL_ATTACK_01>更可使出其他招式。
+<string>道具「動力衝擊」
+<string>按<ICON PL_ITEM>使用此道具，就可使出具抵消效果的<lf>攻擊。此招式擊中魔物的傷口或弱點後就會<lf>發動「瞬獄殺」。
+<string>其他追加動作
+<string>此外另可使用動作「豪昇龍拳」與投射器彈藥<lf>「豪波動拳」。詳細內容請確認「基本操作<lf>指南」。
+<string>登錄至自訂捷徑吧
+<string>事先將這些專用道具與動作登錄至自訂捷徑<lf>就能快速使用，非常方便。
+<string>收集票券製作裝備吧
+<string>完成《Street Fighter 6》的合作鬥技大會<lf>任務，收集道具「SF6 票」，製作豪鬼的<lf>合作裝備吧！
+<string>挑戰高難度任務吧
+<string>鬥技大會任務「汝是否為真正強者」已開放。<lf>以最快速破關為目標，與全世界的獵人一較<lf>高下吧！
 <string>傷口
 <string>現在可以消耗不需要的裝飾品來<COLOR preset="TXT_Accent">鍊製<lf>想要的裝飾品</COLOR>。滿足特定條件後，<lf>可鍊製裝飾品種類會變多。
 <string><REF RefItem_0017_120>與裝備個人組合

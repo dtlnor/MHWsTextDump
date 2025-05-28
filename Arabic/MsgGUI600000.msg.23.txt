@@ -77,7 +77,7 @@
 <string>خط التحريك: <LSNR "عليكَ" "عليكِ"> إمالة <ICON PL_DUMMY_MOVE> للأسفل بشكل متكرر
 <string>خط التحريك: <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_BACK> بشكل متكرر
 <string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
-<string>تتوفر مجموعة متنوعة من الميزات عبر<lf>الإنترنت في مكتب الدعم. يمكنك استرداد<lf>المحتوى، الاطلاع على آخر أخبار اللعبة،<lf>الوصول إلى المتجر الإلكتروني، والمزيد.<lf><COLOR preset="TXT_Accent">سسيتم إضافة ميزات أخرى لاحقًا.</COLOR>
+<string>تتوفر مجموعة متنوعة من الميزات عبر<lf>الإنترنت في مكتب الدعم. يمكنك استرداد<lf>المحتوى، الاطلاع على آخر أخبار اللعبة،<lf>الوصول إلى المتجر الإلكتروني، والمزيد.<lf><COLOR preset="TXT_Accent">سيتم إضافة ميزات أخرى لاحقًا.</COLOR>
 <string>تتوفر مجموعة متنوعة من الميزات عبر<lf>الإنترنت في مكتب الدعم. يمكنك استرداد<lf>المحتوى، الاطلاع على آخر أخبار اللعبة،<lf>الوصول إلى متجر Steam، والمزيد.<lf><COLOR preset="TXT_Accent">سسيتم إضافة ميزات أخرى لاحقًا.</COLOR>
 <string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI600000_Tips_EXP_63">
 <string>تحديد عنصر: <LSNR "اضغط" "اضغطي"> مطولًا على <ICON PL_ITEM_SLIDER_OPEN> و<LSNR "اضغط" "اضغطي"> على <ICON UI_ITEM_LEFT> أو <ICON UI_ITEM_RIGHT><lf>استخدام عنصر: <LSNR "أطلق" "أطلقي"> <ICON PL_ITEM_SLIDER_OPEN> و<LSNR "اضغط" "اضغطي"> على <ICON PL_ITEM>
@@ -135,3 +135,11 @@
 <string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
 <string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
 <string><LSNR "حدد" "حددي"> غطاءً باستخدام <ICON WP11 UI_BULLET_ITEM_UP> أو <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(الأغطية المتوافقة تختلف حسب السلاح.)
+<string>تظهر أهداف نبلة المعصم على يسار الشاشة.<lf><LSNR "قم" "قومي"> بالتبديل باستخدام <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN><lf>و<LSNR "استخدم" "استخدمي"> <ICON PL_CATCH_SLINGER_SHOOT> لجمع هذا الهدف.
+<string>تظهر أهداف نبلة المعصم على يسار الشاشة.<lf><LSNR "قم" "قومي"> بالتبديل باستخدام <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_DOWN><lf>و<LSNR "استخدم" "استخدمي"> <ICON PL_CATCH_SLINGER_SHOOT> لجمع هذا الهدف.
+<string><LSNR "استخدم" "استخدمي"> <COLOR preset="TXT_Accent">خطاف نبلة المعصم</COLOR> لجمع العناصر.<lf><lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>: تصويب<lf><ICON PL_CATCH_SLINGER_SHOOT>: تجميع
+<string><LSNR "استخدم" "استخدمي"> <COLOR preset="TXT_Accent">خطاف نبلة المعصم</COLOR> لجمع العناصر.<lf><lf><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_DUMMY_CAMERA>: تصويب<lf><ICON PL_CATCH_SLINGER_SHOOT>: تجميع
+<string>إذا كنت تواجه مشكلة في جمع عناصر،<lf>فاستخدم <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> لتحديد هدف<lf>بسهولة من إشعارات ذبابة الاستطلاع،<lf>ثم اضغط <ICON PL_CATCH_SLINGER_SHOOT> لجمع العنصر باستخدام<lf>نبلة المعصم.
+<string>إذا كنت تواجه مشكلة في جمع عناصر،<lf>فاستخدم <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_DOWN> لتحديد هدف<lf>بسهولة من إشعارات ذبابة الاستطلاع،<lf>ثم اضغط <ICON PL_CATCH_SLINGER_SHOOT> لجمع العنصر باستخدام<lf>نبلة المعصم.
+<string>إذا <LSNR "كنتَ تريد" "كنتِ تريدين"> معرفة المزيد<lf>حول عنصر أو ميزة بيئية ظاهرة<lf>في إشعار ذبابات الاستطلاع،<lf><LSNR "فاستخدم" "فاستخدمي"> <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> للتركيز عليها.
+<string>إذا <LSNR "كنتَ تريد" "كنتِ تريدين"> معرفة المزيد<lf>حول عنصر أو ميزة بيئية ظاهرة<lf>في إشعار ذبابات الاستطلاع،<lf><LSNR "فاستخدم" "فاستخدمي"> <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> للتركيز عليها.

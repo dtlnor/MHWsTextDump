@@ -9,6 +9,7 @@
 <string>Erreur de communication.<lf>Retour à l'écran titre.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Certaines fonctionnalités en ligne ne seront pas<lf>disponibles.<lf><lf>Veuillez vous abonner au {0} pour<lf>accéder à toutes les fonctionnalités en ligne.
+<string>Le mode multijoueur en ligne est limité.<lf><lf>Impossible d'obtenir les informations<lf>d'abonnement au "<PLATMSG RefGeneral_0026>",<lf>requises pour jouer en ligne.
 <string>Ce compte ne remplit pas les conditions<lf>nécessaires pour accéder aux fonctionnalités<lf>du mode multijoueur en ligne.
 <string>Connexion au réseau impossible.<lf>Retour à l'écran titre.
 <string>Impossible de se connecter au réseau.
@@ -45,6 +46,9 @@
 <string>Vous avez atteint la limite de personnes bloquées<lf>et ne pouvez plus bloquer d'autres joueurs.<lf>{0}
 <string>Les serveurs sont actuellement<lf>en cours de maintenance.<lf>{0}
 <string>Impossible d'accéder aux fonctionnalités<lf>liées aux Clans avec ce compte.<lf>{0}
+<string>Les paramètres de la plateforme et de crossplay<lf>ne correspondent pas.<lf>{0}
+<string>Cette action est restreinte.<lf>Veuillez vérifier les paramètres de la console.<lf>{0}
+<string>Le joueur est hors ligne.<lf>{0}
 <string>Vous avez été déconnecté de la session.<lf>{0}
 <string>La création de la session a échoué.<lf>{0}
 <string>La recherche de la session a échoué.<lf>{0}
@@ -70,6 +74,7 @@
 <string>Impossible de rejoindre cette quête,<lf>car elle est déjà en cours.
 <string>Participation impossible : les paramètres<lf>de crossplay de la session sont différents.<lf>Veuillez vérifier vos paramètres de crossplay<lf>dans les <BOLD>Options</BOLD> de l'écran titre.<lf>{0}
 <string>La limite de joueurs du groupe relié a été<lf>atteinte. Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
+<string>Impossible de rejoindre les lobbys privés/de Clan<lf>via la recherche des lobbys d'amis de chasse.<lf>Ils ne peuvent être rejoints que via la recherche<lf>par ID du lobby/de lobbys des Clans.<lf>{0}
 <string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "D xMMMM YYYY HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
 <string>Comportement abusif/perturbateur
 <string>Types de comportement interdit
@@ -121,7 +126,7 @@
 <string>Votre temps n'a pas pu être envoyé.<lf>Veuillez accéder au Comptoir des quêtes ou<lf>au Comptoir des Quêtes Arène et réessayer.<lf><lf>{0}
 <string>Votre temps a été ajouté au classement.
 <string>Impossible d'obtenir les informations du<lf>classement.<lf><lf>{0}
-<string>Votre temps n'est pas enregistré.<lf>Ajouter votre temps au classement ?
+<string>Vous avez un temps qui n'est pas encore enregistré.<lf>Souhaitez-vous l'ajouter au classement ?
 <string>Sélectionner "Oui" effacera votre temps.<lf>Voulez-vous vraiment continuer ?
 <string>Votre temps n'est pas enregistré et ne peut plus<lf>l'être car le délai de validité est écoulé.
 <string>Impossible d'envoyer vos temps<lf>de complétion aux classements.<lf>Vous êtes actuellement hors ligne.

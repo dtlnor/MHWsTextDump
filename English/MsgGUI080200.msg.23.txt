@@ -13,14 +13,17 @@
 <string><COLOR preset="TXT_Danger">Unable to change because hunter headgear is set to Hide in Options.</COLOR>
 <string><COLOR preset="TXT_Danger">You do not have any layered armor.</COLOR>
 <string><COLOR preset="TXT_Danger">You do not have any pendants.</COLOR>
+<string><COLOR preset="TXT_Danger">Layered armor and model are not displayed while wearing a full armor set.</COLOR>
+<string><COLOR preset="TXT_Danger">Model is not displayed while wearing a layered full armor set.</COLOR>
 <string>Display/Color Settings
 <string>Appearance
 <string>Change All Pigments
 <string>Change All Pigments 1
 <string>Change All Pigments 2
+<string>Remove All Layered Armor
 <string>Loadout {0}
 <string>Ignore Setting
-<string>None Selected
+<string>(None)
 <string>Use Loadout
 <string>Register Loadout
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI080200_0006_SUB_01
@@ -33,3 +36,7 @@
 <string>Use this loadout?
 <string>Use this loadout?<lf><COLOR preset="TXT_Danger">(Will not load layered armor or<lf>pendants you do not possess.)</COLOR>
 <string>Remove from list?
+<string>Layered armor and model are not displayed<lf>while wearing a full armor set.
+<string>All other pieces of the full layered armor set<lf>will be removed. Remove all pieces?
+<string>This comes as a full layered armor set.<lf>Equip all pieces of the set?
+<string>All other parts of this full layered armor set<lf>will be set to ignore. Continue?

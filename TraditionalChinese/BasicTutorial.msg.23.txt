@@ -541,3 +541,39 @@
 <string>屍體變化
 <string>魔物的屍體會在一定時間後變成腐壞屍體。<lf>不同狀態下可剝取的素材也會有所變化。<lf><lf>小型魔物的腐壞屍體可能會變成<REF Gimmick_NAME_1176528640>或<lf><REF Item_IT_270>，採集就可以獲得相應素材。<lf>此外，護龍也可能變成結晶化屍體，<lf>可剝取的素材亦會改變。
 <string>
+<string>豪鬼
+<string>豪鬼是誰
+<string>不斷格鬥的修羅，為精進拳法而身攜<lf>殺意波動。
+<string>
+<string>豪鬼的能力
+<string>豪鬼的動作攻擊力會隨裝備的主武器變化。<lf><lf>此外，裝備整套防具時，攻擊力會較使用<lf>外觀裝備時高，動力衝擊更會帶抵消效果。<lf>輔助連段亦會有昏厥等追加效果。
+<string>
+<string><REF ActionGuideDataNameTextCommon_24360>
+<string>收刀時<ICON PL_ITEM>
+<string>從道具快捷欄選擇「<REF Item_IT_782>」後<lf>使用的攻擊。<lf><lf>按一次<ICON PL_ITEM>後，再按<ICON PL_ITEM>就可繼續使出<lf>輔助連段1，最多可連至三段。<lf><lf>此外，連段中改按<ICON PL_BT_RIDE_ATTACK_L>可使出<REF ActionGuideDataNameTextCommon_26652>，<lf>按<ICON PL_BT_RIDE_ATTACK_S>則可使出<REF ActionGuideDataNameTextCommon_14220>。
+<string>
+<string><REF ActionGuideDataNameTextCommon_26652>
+<string><REF ActionGuideDataNameTextCommon_24360>時<ICON PL_BT_RIDE_ATTACK_L>
+<string>可從<REF ActionGuideDataNameTextCommon_24360>衍生的攻擊。<lf><lf>在<REF ActionGuideDataNameTextCommon_24360>後按<ICON PL_BT_RIDE_ATTACK_L>，再<ICON PL_BT_RIDE_ATTACK_L>便可繼續使出<lf><REF ActionGuideDataNameTextCommon_26652>，最多可連至三段。<lf><lf>連段中改按<ICON PL_BT_RIDE_ATTACK_S>也可使出<REF ActionGuideDataNameTextCommon_14220>。<lf><lf>*使用鍵盤時，操作與小刀重攻擊相同。
+<string>
+<string><REF ActionGuideDataNameTextCommon_14220>
+<string><REF ActionGuideDataNameTextCommon_24360>時<ICON PL_BT_RIDE_ATTACK_S>
+<string>可從<REF ActionGuideDataNameTextCommon_24360>和<REF ActionGuideDataNameTextCommon_26652>衍生的攻擊。<lf><lf>在各個輔助連段後按<ICON PL_BT_RIDE_ATTACK_S>，再按<ICON PL_BT_RIDE_ATTACK_S>便可<lf>繼續使出<REF ActionGuideDataNameTextCommon_14220>，最多可連至三段。<lf><lf>*使用鍵盤時，操作與小刀輕攻擊相同。
+<string>
+<string>動力衝擊
+<string>收刀時<ICON PL_ITEM>
+<string>從道具快捷欄選擇「<REF Item_IT_784>」，<lf>或在輔助連段中<ICON PL_AIM><ICON PLUS><ICON PL_ATTACK_SP_B>就可使出，<lf>但只可於<REF ActionGuideDataNameTextCommon_4962>全滿時使用。<lf><lf>擊中魔物的傷口或弱點後便會衍生至<lf><REF ActionGuideDataNameTextCommon_2219>。此外，裝備豪鬼的整套防具時<lf>使用的動力衝擊會帶有抵消效果。<lf><lf>衍生至<REF ActionGuideDataNameTextCommon_2219>或發動連消帶打時將會<lf>消耗<REF ActionGuideDataNameTextCommon_4962>。
+<string>
+<string><REF ActionGuideDataNameTextCommon_2219>
+<string>在一瞬間使出無數打擊的奧義。此攻擊對<lf>魔物的傷口和弱點效果絕佳。<lf><lf>此外，好像還有其他使出這招的方法……
+<string>
+<string><REF ActionGuideDataNameTextCommon_4962>
+<string>隨時間經過累積的計量表。只有在計量表<lf>全滿時才可使用動力衝擊。<lf><lf>裝備豪鬼的整套防具下使出動力衝擊而發動<lf>連消帶打時，或是衍生至<REF ActionGuideDataNameTextCommon_2219>時都會消耗<lf>此計量表。
+<string>
+<string><REF Gesture_NAME_31>
+<string>向上跳躍出拳的攻擊動作。<lf><lf>在各個輔助連段的最終招式後使出的話，<lf>會衍生為強化版的<REF ActionGuideDataNameTextCommon_28399>。登錄於自訂<lf>捷徑就可方便使用。<lf><lf>此外，好像還有其他使出這招的方法……
+<string>
+<string><REF ActionGuideDataNameTextCommon_5188>
+<string>收刀時<INPUTMSG MsgGUI600200_00_031>
+<string><INPUTMSG MsgGUI600200_00_045>
+<string>

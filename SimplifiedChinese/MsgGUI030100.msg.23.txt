@@ -129,6 +129,12 @@
 <string>以最大速度移动时，可用<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>脱离<REF RefGeneral_0014_01><lf>当前的行进路线。
 <string>类型 2
 <string>无论<REF RefGeneral_0014_01>的行进速度，输入<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>并按<ICON PL_INTERACT_ACTION_START>，<lf>即可脱离行进路线。
+<string>设置道具快捷栏的显示方式
+<string>设置瞄准模式下操作道具快捷栏时的道具显示方式。
+<string>类型 1
+<string>在瞄准模式下操作道具快捷栏时，<lf>仅显示投射器相关的道具。
+<string>类型 2
+<string>在瞄准模式下操作道具快捷栏时，<lf>仍然显示所有道具。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>拔刀后按<ICON PAD PL_AIM_TOGGLE>，近战武器将切换至集中模式，远程<lf>武器将切换至瞄准／集中模式。
 <string>瞄准／集中模式切换详细设置
 <string>可以分别设置近战及远程武器拔刀后，切换至<lf>瞄准／集中模式的操作方式。<lf><COLOR preset="TXT_Accent">（不适用于纳刀时的投射器瞄准操作）</COLOR>
+<string>可以分别设置武器纳刀时，切换至投射器瞄准模式，<lf>以及拔刀后切换至瞄准／集中模式的操作方式。
+<string>纳刀时的投射器瞄准操作
+<string>设置纳刀时切换至投射器瞄准模式的操作方式。
+<string><ICON PAD PL_AIM>期间保持
+<string>纳刀时<ICON PAD PL_AIM>期间，将保持投射器瞄准模式。
+<string>按<ICON PAD PL_POP_CHANGE_SELECT>切换
+<string>纳刀时按<ICON PAD PL_POP_CHANGE_SELECT>切换至投射器瞄准模式，再按一次<lf>解除。
 <string>装备近战武器时的切换操作
 <string>设置装备近战武器时切换至集中模式的操作方式。
 <string><ICON PAD PL_AIM>期间保持
@@ -1277,7 +1290,7 @@
 <string>显示
 <string>根据装备状态与外观设置显示头部防具。<lf><COLOR preset="TXT_Accent">（在部分场景中会强制隐藏）</COLOR>
 <string>不显示
-<string>无视装备状态与外观设置，一律隐藏头部防具。
+<string>无视装备状态与外观设置，一律隐藏头部防具。<lf><COLOR preset="TXT_Accent">（整套防具除外）</COLOR>
 <string>仅过场动画不显示
 <string>根据装备状态与外观设置显示头部防具，仅在过场<lf>动画中隐藏。
 <string>支援猎人设置
@@ -1404,11 +1417,11 @@
 <string><REF RefNetwork_0006>音量
 <string>设置<REF RefNetwork_0006>时对方的语音音量。
 <string><REF RefNetwork_0006>自动切换
-<string>设置是否根据情况自动切换<REF RefNetwork_0006>的发送对象。<lf><COLOR preset="TXT_Accent">（可随时手动切换）</COLOR>
+<string>设置<REF RefNetwork_0006>和文字聊天的发送对象，以及聊天记录<lf>筛选的自动切换功能。<lf><COLOR preset="TXT_Accent">（可随时手动切换）</COLOR>
 <string><REF RefNetwork_0004_02>优先
-<string><REF RefNetwork_0006>的发送对象在任务出发时，将自动切换至<lf><REF RefNetwork_0004_02>；在任务返回时，将自动切换至<REF RefNetwork_0004_01>。
+<string>聊天频道的发送对象在任务出发时，将自动切换至<lf><REF RefNetwork_0004_02>；在任务返回时，将自动切换至<REF RefNetwork_0004_01>。
 <string><REF RefNetwork_0004_01>优先
-<string>参加<REF RefNetwork_0005>时总是将<REF RefNetwork_0006>的发送对象自动切<lf>换至<REF RefNetwork_0004_01>，与任务的出发状态无关。
+<string>参加<REF RefNetwork_0005>时总是将聊天频道的发送对象自动切<lf>换至<REF RefNetwork_0004_01>，与任务的出发状态无关。
 <string>关
 <string>不自动切换发送对象，仅通过手动切换。
 <string>艾露猫语音设置
@@ -1478,7 +1491,7 @@
 <string><REF RefLanguage_0000_009_0>
 <string><REF RefLanguage_0000_012_0>
 <string>语音语言
-<string>设置游戏中的语音语言。
+<string>设置游戏中的语音语言。（游戏内字幕参照中文语音）
 <string><REF RefLanguage_0000_000>
 <string><REF RefLanguage_0000_001>
 <string><REF RefLanguage_0000_002>
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>中文

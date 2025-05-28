@@ -29,6 +29,7 @@
 <string>{0}
 <string>-
 <string>？？？派生
+<string>NO IMAGE
 <string>メイン武器
 <string>メイン武器に装備
 <string>サブ武器
@@ -57,11 +58,16 @@
 <string>衣装<ICON EQUIP_TYPE1>のみ
 <string>衣装<ICON EQUIP_TYPE2>のみ
 <string>所持装備のみ
+<string>ワンセット防具のみ
 <string>強化
 <string>生産
 <string>素材と{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？
 <string>素材と{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？<lf><lf>（この装備を生産すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
+<string>ワンセット防具の装備です。<lf>素材と{0}<REF RefGeneral_0015_000>で全部位の防具を生産します。<lf>よろしいですか？
+<string>ワンセット防具の装備です。<lf>素材と{0}<REF RefGeneral_0015_000>で全部位の防具を生産します。<lf>よろしいですか？<lf><lf>（この装備を生産すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
 <string>装備しますか？
+<string>装備を変更します。<lf><COLOR preset="TXT_Danger">（他の部位のワンセット防具が外れます）</COLOR><lf>よろしいですか？
+<string>ワンセット防具の装備です。<lf>すべての部位に装備しますか？<lf><COLOR preset="TXT_Danger">（重ね着装備の設定が無効になります）</COLOR>
 <string>余剰分の{0}ptsは破棄されます。<lf>よろしいですか？
 <string>試着
 <string><COLOR preset="TXT_Danger">装備BOXに空きがありません。</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">復元強化素材を所持していません。</COLOR>
 <string><COLOR preset="TXT_Danger">このおすすめ装備はすでに所持しているため、生産・強化することができません。</COLOR>
 <string><COLOR preset="TXT_Danger">このおすすめ装備はすでに所持しているため、生産することができません。</COLOR>
+<string><COLOR preset="TXT_Danger">所持しているワンセット防具は生産できません。</COLOR>
 <string>装着中の装備：{0}
 <string>他の装備に装着中です。<lf>外してもよろしいですか？
 <string><COLOR preset="TXT_Danger">装着している装飾品です。</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">この装備は売却できません。</COLOR>
 <string><COLOR preset="TXT_Danger">操虫棍と組み合わせ中の猟虫のため、売却できません。</COLOR>
 <string>売却額
+<string>ワンセット防具の装備です。<lf>売却する場合は、全部位の防具を売却します。<lf>よろしいですか？
 <string>マイセットに登録されている装備です。<lf>売却してもよろしいですか？
 <string>{0}zで売却します。<lf>よろしいですか？
 <string>装飾品が取り付けられている装備です。<lf>装飾品を取り外し、この装備を{0}zで売却します。<lf>よろしいですか？

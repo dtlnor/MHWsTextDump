@@ -9,6 +9,7 @@
 <string>Si è verificato un errore di comunicazione.<lf>Ritorno alla schermata del titolo.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>In modalità multigiocatore online alcune funzioni<lf>non saranno disponibili.<lf><lf>È necessario un abbonamento {0} per accedere a tutte<lf>le funzioni della modalità multigiocatore online.
+<string>Il multigiocatore online è limitato.<lf><lf>Impossibile ottenere le informazioni<lf>sull'abbonamento necessarie <lf>per giocare online da <PLATMSG RefGeneral_0026>.
 <string>Questo account non soddisfa i requisiti<lf>per il multigiocatore online.
 <string>Impossibile connettersi alla rete.<lf>Ritorno alla schermata del titolo.
 <string>Non è stato possibile connettersi alla rete.
@@ -45,6 +46,9 @@
 <string>Hai raggiunto il limite massimo<lf>e non puoi bloccare altri giocatori.<lf>{0}
 <string>I server sono in manutenzione programmata.<lf>{0}
 <string>Le funzionalità di squadra non<lf>sono accessibili da questo account.<lf>{0}
+<string>Le impostazioni di piattaforma<lf>e crossplay non corrispondono.<lf>{0}
+<string>Questa operazione è limitata.<lf>Controlla le impostazioni della console.<lf>{0}
+<string>Il destinatario è offline.<lf>{0}
 <string>La connessione alla sessione si è interrotta.<lf>{0}
 <string>Creazione sessione non riuscita.<lf>{0}
 <string>Ricerca sessione non riuscita.<lf>{0}
@@ -52,7 +56,7 @@
 <string>L'ID stanza inserito non è valido.<lf>{0}
 <string>Impossibile trovare stanza.<lf>{0}
 <string>Non è stato possibile unirsi alla sessione<lf>perché era piena.<lf>{0}
-<string>Ricerca di una stanza in corso...
+<string>Ricerca stanza in corso...
 <string>Unirsi a una stanza consigliata?
 <string>Unirsi alla stanza?
 <string>Creare una stanza privata?
@@ -70,6 +74,7 @@
 <string>Non puoi unirti a questa missione<lf>perché è già iniziata.
 <string>Impossibile partecipare perché la sessione<lf>ha impostazioni crossplay diverse. Verifica<lf>le impostazioni crossplay in <BOLD>Opzioni</BOLD><lf>al menu della schermata del titolo.<lf>{0}
 <string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
+<string>Non puoi unirti a stanze private/stanze delle squadre<lf>tramite Cerca amici cacciatori. Puoi unirti a<lf>esse solo tramite Cerca con ID stanza/Stanze<lf>delle squadre.<lf>{0}
 <string><COLOR preset="TXT_Accent">La funzionalità della Community è stata limitata.</COLOR><lf>Le limitazioni saranno rimosse: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Il tuo account è in violazione di quanto segue:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Pertanto, <COLOR preset="TXT_Accent">le funzioni della Community sono state<lf>temporaneamente limitate</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Ti preghiamo di giocare rispettando i termini di utilizzo.</COLOR>
 <string>Comportamenti abusivi
 <string>Tipi di comportamenti proibiti
@@ -112,7 +117,7 @@
 <string>Hai ricevuto un invito. <COLOR preset="TXT_Accent">(Apparirà una volta terminato<lf>il filmato o il caricamento, o il menu<lf>impostazioni è stato chiuso.)</COLOR>
 <string>Impossibile unirsi al gruppo di collegamento:<lf>le funzionalità online non sono disponibili.
 <string>Il gioco verrà avviato in modalità offline.<lf><lf>Per giocare in modalità multigiocatore online, devi accettare<lf>l'acquisizione dei dati personali. Puoi comunque giocare senza<lf>accettare i termini, ma alcune funzionalità non saranno disponibili.<lf>Per cambiare le relative impostazioni, controlla la sezione <BOLD>Privacy</BOLD><lf>sulla schermata del titolo.
-<string>La modalità multigiocatore online non è<lf>disponibile per via delle impostazioni sulla<lf>privacy. Per modificarle, controlla la sezione<lf><BOLD>Privacy</BOLD>sulla schermata del titolo.<lf>{0}
+<string>La modalità multigiocatore online non è<lf>disponibile per via delle impostazioni sulla<lf>privacy. Per modificarle, controlla la sezione<lf><BOLD>Privacy</BOLD> sulla schermata del titolo.<lf>{0}
 <string>In attesa degli altri utenti...
 <string>Attendi.<lf><lf>Potrai iniziare quando daranno il segnale.
 <string>Parti
@@ -124,7 +129,7 @@
 <string>C'è un tempo impiegato non registrato.<lf>Caricare il tempo impiegato nella classifica?
 <string>Selezionando "Sì" cancellerai il tuo tempo<lf>impiegato. Vuoi davvero procedere?
 <string>C'è un tempo impiegato non registrato,<lf>ma non si può più registrare perché<lf>il periodo di validità è terminato.
-<string>Attualmente sei in modalità offline, quindi<lf>i tuoi tempi di completamento non posson<lf> essere caricati nelle classifiche.
+<string>Attualmente sei in modalità offline, quindi i tuoi<lf>tempi di completamento non possono essere caricati<lf>nelle classifiche.
 <string>{0}<lf>Ricerca squadra non riuscita.<lf>{1}
 <string>Hai raggiunto il numero massimo<lf>di inviti o richieste squadra.<lf><lf>{0}
 <string>Non è stato possibile unirsi alla squadra.<lf><lf>{0}

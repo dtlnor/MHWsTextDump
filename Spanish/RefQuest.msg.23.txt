@@ -63,9 +63,9 @@
 <string><COLOR preset="TXT_Danger">No se puede guardar como investigación.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al guardar como investigación.</COLOR>
 <string><COLOR preset="TXT_Danger">Los encargos completados no se pueden repetir.</COLOR>
-<string><COLOR preset="TXT_Danger">Uno o más jugadores no se han podido unir a causa de sus opciones multijugador.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes unirte debido a las opciones multijugador de la misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes unirte porque ya se ha alcanzado el número máximo de personas.</COLOR>
-<string><COLOR preset="TXT_Danger">Error al unirte por la configuración de permisos de plataforma.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes unirte debido a la configuración de permisos de la plataforma.</COLOR>
 <string><COLOR preset="TXT_Danger">No has cumplido los requisitos para aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">Error al aceptar/unirte a la misión.</COLOR>
@@ -74,6 +74,7 @@
 <string><COLOR preset="TXT_Danger">No se ha podido iniciar el estudio de campo: un miembro vinculado está viendo los resultados de la misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No disponible durante esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar esta misión fuera del gran centro.</COLOR>
+<string><COLOR preset="TXT_Danger">No disponible durante esta misión.</COLOR>
 <string>Volver a la pantalla del título
 <string>Reintentar
 <string>Abate a {0}
@@ -108,6 +109,7 @@
 <string>¡Segunda tirada!
 <string>Puntuación
 <string>Completada
+<string>AKUMA<lf>GANA
 <string>¿A PUNTO?
 <string>3
 <string>2
@@ -167,7 +169,7 @@
 <string>¡Completada!
 <string>Armas disponibles
 <string>Tiempo de clasificación
-<string>Tus mejores tiempos
+<string>Mejores tiempos
 <string>Miembros
 <string>Fecha: <DATETIME {0} "DD/MM/YYYY"> (UTC)
 <string>Fecha: <DATETIME {0} "DD/MM/YYYY">
@@ -254,7 +256,7 @@
 <string>Historial de estudios de campo (más reciente {0})
 <string>Investigaciones ({0} <PLURAL {0} "guardada" "guardadas">)
 <string>Misiones de evento
-<string>Misiones de miembros vinculados ({0})
+<string>Misiones de miembros de la sala ({0})
 <string>Misiones de miembros vinculados
 <string>Misiones de bengala de auxilio ({0})
 <string>Misiones de la Arena

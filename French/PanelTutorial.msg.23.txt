@@ -261,7 +261,7 @@
 <string>Améliorer les armes
 <string>Améliorez vos armes à l'aide de matériaux<lf>pour modifier leur apparence et les doter<lf>de capacités différentes.
 <string>Arborescence des armes
-<string>L'<COLOR preset="TXT_Accent">arborescence</COLOR> affiche les variantes de<lf>chaque arme, tandis que la <COLOR preset="TXT_Accent">liste de forge</COLOR><lf>et la <COLOR preset="TXT_Accent">liste d'amélioration</COLOR> montrent ce que<lf>vous pouvez actuellement fabriquer ou<lf>améliorer.
+<string>L'<COLOR preset="TXT_Accent">arborescence</COLOR> affiche les variantes de<lf>chaque arme, tandis que la <COLOR preset="TXT_Accent">liste de forge</COLOR><lf>et la <COLOR preset="TXT_Accent">liste d'améliorations</COLOR> montrent ce que<lf>vous pouvez actuellement fabriquer ou<lf>améliorer.
 <string>Arborescence et listes de forge/d'améliorations
 <string>Les camps improvisés vous permettent<lf>d'effectuer des préparatifs de base,<lf>comme faire le plein d'objets ou changer<lf>d'équipement.<lf>Naviguer entre les onglets : <ICON UI_LIST_TRIGGER_L1>/<ICON UI_LIST_TRIGGER_R1>
 <string>Installer des camps provisoires
@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>Notifications naviciole
-<string>Si vous avez du mal à trouver un type de<lf>ressource précis, utilisez <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN><lf>pour choisir une cible pour les navicioles<lf>et collectez-la avec votre grappe-fronde<lf>avec <ICON PL_CATCH_SLINGER_SHOOT>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>Notifications naviciole
-<string>Utilisez <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> pour localiser un objet<lf>ou un élément de l'environnement affiché<lf>dans les notifications naviciole à gauche<lf>de l'écran.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>Mission : Chasse au Doshaguma
 <string>Un <COLOR preset="TXT_Accent">Doshaguma</COLOR> fait des ravages dans les<lf>Plaines venteuses. Acceptez la quête<lf>pour le chasser une fois que vous aurez<lf>fini vos préparatifs à la tente.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>Enquêtes de terrain et récompenses bonus
 <string>Vous avez maintenant accès aux<lf><COLOR preset="TXT_Accent">récompenses bonus</COLOR>, obtenues en<lf>effectuant des enquêtes de terrain en<lf>environnement Expert. Les monstres<lf>avec plus de symboles ★ rapportent<lf>des récompenses de grande valeur.
 <string>Récompenses bonus
-<string>Utilisez la carte ou les jumelles pour<lf>consulter les <COLOR preset="TXT_Accent">récompenses bonus</COLOR><lf>que peut rapporter un monstre,<lf>puis lancez une enquête de terrain<lf>en attaquant le monstre ou en le<lf>sélectionnant sur la carte.
+<string>Pour voir les récompenses bonus d'un<lf>monstre sur la carte, mettez le curseur<lf>sur son icône ou consultez les "Infos<lf>Environnement".
+<string>Récompenses bonus
+<string>Commencez une <COLOR preset="TXT_Accent">enquête de terrain</COLOR> en<lf>infligeant un certain nombre de dégâts à<lf>un monstre ou en le sélectionnant sur la<lf>carte. (Les dégâts infligés par les pièges<lf>naturels comme les rochers instables ne<lf>sont pas pris en compte.)
 <string>Limites des enquêtes de terrain
 <string>Votre Rang de Chasseur détermine les<lf>monstres attaquables lors des enquêtes<lf>de terrain. Montez votre RC en faisant<lf>des requêtes et en chassant.
 <string>Investigations
@@ -561,7 +563,7 @@
 <string>Garde parfaite
 <string>En mode Épée, utilisez <ICON WP09 PL_ATTACK_SP> pour parer au<lf>même moment qu'une attaque ennemie<lf>et effectuer une <COLOR preset="TXT_Accent">Garde parfaite</COLOR>. Appuyez<lf>sur <ICON WP09 PL_ATTACK_00> juste après pour effectuer un Coup<lf>de hache sauvage.
 <string>Enquêtes de terrain
-<string>Commencez une <COLOR preset="TXT_Accent">enquête de terrain</COLOR> en<lf>infligeant suffisamment de dégâts à un<lf>monstre ou en le sélectionnant parmi les<lf>icônes sur la carte.
+<string>Commencez une <COLOR preset="TXT_Accent">enquête de terrain</COLOR> en<lf>infligeant un certain nombre de dégâts à<lf>un monstre ou en le sélectionnant sur la<lf>carte. (Les dégâts infligés par les pièges<lf>naturels comme les rochers instables ne<lf>sont pas pris en compte.)
 <string>Enquêtes de terrain
 <string>Les enquêtes de terrain vous permettent<lf>de profiter d'une expérience de chasse<lf>fluide en créant une quête depuis votre<lf>environnement actuel. Vous recevrez<lf>des fournitures et obtiendrez des<lf>récompenses si vous les terminez.
 <string>Enquêtes de terrain
@@ -827,7 +829,7 @@
 <string>Le Panneau d'informations
 <string><COLOR preset="TXT_Accent">Requêtes Spéciales</COLOR><lf>Consultez les activités et expéditions<lf>disponibles en ligne et récupérez les<lf>récompenses correspondantes.
 <string>Le Panneau d'informations
-<string><COLOR preset="TXT_Accent">Infos environnement</COLOR><lf>Ouvre la carte du monde, ce qui vous permet<lf>de consulter les informations relatives à<lf>l'environnement de chaque zone (également<lf>accessible depuis la carte du monde classique).
+<string><COLOR preset="TXT_Accent">Infos environnement</COLOR><lf>Sélectionnez les différentes zones sur<lf>la carte du monde pour voir l'état actuel<lf>de l'environnement et les prévisions.
 <string>Le Panneau d'informations
 <string><COLOR preset="TXT_Accent">Informations du classement</COLOR><lf>Consulter les records personnels ou<lf>mondiaux ainsi que ceux de vos amis<lf>de chasse ou des membres du Clan.
 <string>Bowling baril
@@ -854,6 +856,32 @@
 <string>Pendant la durée l'événement, vous<lf>recevrez deux coupons chance par jour<lf>au lieu d'un, et d'autres récompenses<lf>comme des tickets Danse des fleurs.
 <string>Quêtes Événement disponibles !
 <string>Une série de Quêtes Événement à durée<lf>limitée est actuellement disponible ! Bon<lf>nombre d'anciennes Quêtes Événement<lf>font également leur retour.
+<string>Ensembles complets
+<string>Vous pouvez désormais créer des ensembles<lf>complets qui modifient entièrement votre<lf>apparence. Équiper un ensemble vous fera<lf>porter toutes les pièces qui le constituent.
+<string>Ensembles complets
+<string>Lorsque vous les fabriquez ou les<lf>vendez, toutes les pièces d'un ensemble<lf>seront incluses, mais vous pouvez<lf>améliorer individuellement chaque pièce<lf>d'un ensemble où y disposer des joyaux.
+<string>Ensembles complets (armure spéciale)
+<string>Il est possible d'équiper un ensemble complet<lf>en tant qu'armure spéciale. Équiper une pièce<lf>vous fait automatiquement porter toutes les<lf>pièces de l'ensemble.
+<string>Gérer les spécimens de la faune locale capturés
+<string>Vous pouvez consulter les informations<lf>concernant les spécimens de la faune<lf>locale que vous avez capturés. Vous<lf>pouvez également les ajouter à vos<lf>favoris ou les relâcher.
+<string>Défi d'Akuma
+<string>Pour prouver votre force à Akuma,<lf>vous devez compléter la Quête Arène<lf>"Force démoniaque".
+<string>Accepter les quêtes au Grand-Camp
+<string>Pour lancer des Quêtes Arène, allez au<lf>Comptoir des Quêtes Arène du Grand-Camp.<lf>Préparez-vous bien avant de partir !
+<string>Actions d'Akuma
+<string>En équipant l'armure d'Akuma de la<lf>collaboration avec Street Fighter 6,<lf>vous pourrez utiliser des émotes et<lf>objets spéciaux !
+<string>Combos automatiques
+<string>Lorsqu'ils sont équipés, utilisez <ICON PL_ITEM> pour<lf>effectuer une première action spéciale,<lf>puis appuyez sur <ICON PL_WEAPON_ON> ou <ICON PL_ATTACK_01> pour<lf>enchaîner avec des coups spéciaux.
+<string>Drive Impacts
+<string>Utilisez <ICON PL_ITEM> pour effectuer une<lf>attaque de Neutralisation. Touchez<lf>une blessure ou un point faible pour<lf>déclencher un Shun Goku Satsu.
+<string>Autres actions
+<string>Vous pouvez également utiliser l'émote<lf>Gou Shoryuken et la munition de fronde<lf>Gou Hadoken. Consultez le guide des<lf>commandes de base pour en savoir plus.
+<string>Utiliser le menu radial personnalisé
+<string>Ajoutez ces nouvelles actions au menu<lf>radial personnalisé pour y avoir accès<lf>facilement lorsque vous êtes en quête.
+<string>Tickets et équipement
+<string>Complétez les Quêtes Arène de la<lf>collaboration avec Street Fighter 6<lf>pour obtenir des tickets SF6 et forger<lf>l'équipement d'Akuma !
+<string>Quêtes avancées
+<string>La Quête Arène "La vraie force" est<lf>désormais disponible. Mesurez-vous<lf>aux chasseurs du monde entier dans<lf>cette épreuve contre-la-montre !
 <string>Blessures
 <string>Vous pouvez à présent échanger vos<lf>vieux joyaux contre des points de fusion<lf>permettant de <COLOR preset="TXT_Accent">créer de nouveaux joyaux</COLOR>.<lf>Les options s'étoffent à mesure que vous<lf>remplissez les conditions.
 <string>Joyaux et sets d'équipement

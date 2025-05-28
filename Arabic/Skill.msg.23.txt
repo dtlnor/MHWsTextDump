@@ -7,9 +7,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_4
 <string>الهجوم +7
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_5
-<string>الهجوم +2% المكافأة: +8
+<string>الهجوم +2%<lf>المكافأة: +8
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_6
-<string>الهجوم +4% المكافأة: +9
+<string>الهجوم +4%<lf>المكافأة: +9
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_9
 <string>نسبة الضرر +4%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_10
@@ -35,7 +35,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_20
 <string>تزيد نسبة الضرر العناصري <lf>أثناء التفعيل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_21
-<string>تزيد الضرر العناصري بشكل كبير<lf>أثناء التفعيل.
+<string>تزيد نسبة الضرر العناصري<lf>بشكل كبير أثناء التفعيل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_22
 <string>تمنح فرصة 80% لعدم<lf>فقدان الحدّة أثناء تفعيلها.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_25
@@ -127,11 +127,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
 <string>تُوسع النطاق كثيرًا.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
-<string>+5% من قوة الهجوم<lf>عندما يكون مقياس الحدّة<lf>أصفر أو أقل.
+<string>زيادة قدرها +5% في الضرر<lf>المُتَسبب عندما يكون مقياس<lf>الحدّة أصفر أو أقل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
-<string>+10% من قوة الهجوم<lf>عندما يكون مقياس الحدّة<lf>لديك أصفر أو أقل.
+<string>زيادة قدرها +10% في الضرر<lf>المُتَسبب عندما يكون مقياس<lf>الحدّة أصفر أو أقل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_84
-<string>+10% من قوة الهجوم<lf>عندما يكون مقياس الحدّة<lf>أخضر أو أقل.
+<string>زيادة قدرها +10% في الضرر<lf>المُتَسبب عندما يكون مقياس<lf>الحدّة أخضر أو أقل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_86
 <string>تزيد مقياس معدّل الحشو بمقدار ضئيل<lf>وتقلّل مرات الشحن بنسبة 5%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_87
@@ -143,7 +143,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_90
 <string>تعزز مدة تشغيل<lf>الأسلحة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_91
-<string>تعزز مدة تشغيل<lf>الأسلحة بدرجة كبيرة.
+<string>تعزز مدة تشغيل<lf>الأسلحة بمقدار كبير.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_92
 <string>يقلل استهلاك قوة التحمل<lf>المتواصل بنسبة 15%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_93
@@ -165,7 +165,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_101
 <string>تقلل من تأثير الهجمات بمقدار<lf>ضئيل جدًا، وتقلل استهلاك<lf>قوة التحمل بنسبة 30%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
-<string>تقلل من تأثير الهجمات بشكل<lf>كبير، وتقلل استنزاف قوة<lf>التحمل بنسبة 50%.
+<string>تقلل من تأثير الهجمات بمقدار<lf>كبير، وتقلل من استهلاك قوة<lf>التحمل بنسبة 50%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
 <string>تقلل الضرر الواقع بنسبة 30%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
@@ -227,7 +227,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_133
 <string>تزيد من قوة الذخيرة<lf>والسهام المحددة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_134
-<string>تزيد بشكل طفيف جدًا من قوة<lf>ذخيرة وأسهم معينة.
+<string>تزيد بشكل طفيف من قوة<lf>ذخيرة وأسهم معينة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_137
 <string>تزيد بشكل طفيف من قوة<lf>ذخيرة وأسهم معينة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>السرعة +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>السرعة +20%<lf>تحوّل ضرر الهجوم +10%
+<string>السرعة +20%<lf>ضرر الهجوم التحوّلي +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>السرعة +30%<lf>تحوّل ضرر الهجوم +20%
+<string>السرعة +30%<lf>ضرر الهجوم التحوّلي +20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>زيادة اشتداد طفيفة في الضرر العناصري<lf>والوضعية للهجمات المشحونة.
+<string>تزيد بشكل طفيف من الضرر العناصري<lf>وتصاعد حالة الهجمات المشحونة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>زيادة اشتداد الضرر العناصري<lf>والوضعية للهجمات المشحونة.
+<string>تزيد من الضرر العناصري وتصاعد<lf>حالة الهجمات المشحونة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>زيادة اشتداد كبيرة في الضرر العناصري<lf>والوضعية للهجمات المشحونة.
+<string>تزيد بشكل كبير من الضرر العناصري<lf>وتصاعد حالة الهجمات المشحونة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>تفعّل تأثير المهارة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -301,15 +301,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_185
 <string>الهجوم +25 أثناء التفعيل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_189
-<string>تزيد الهجمات التي تصيب<lf>نقاط الضعف نسبة الضرر 5%<lf>مع 3% إضافية للأجزاء المُصابة.
+<string>تزيد نسبة ضرر الهجمات التي<lf>تصيب نقاط الضعف بمقدار 5%،<lf>مع 3% إضافية للأجزاء المُصابة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_190
-<string>تزيد الهجمات التي تصيب<lf>نقاط الضعف نسبة الضرر +10%<lf>مع 5% إضافية للأجزاء المُصابة.
+<string>تزيد نسبة ضرر الهجمات التي<lf>تصيب نقاط الضعف بمقدار 10%،<lf>مع 5% إضافية للأجزاء المُصابة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_191
-<string>تزيد الهجمات التي تصيب<lf>نقاط الضعف نسبة الضرر +15%<lf>مع 10% إضافية للأجزاء المُصابة.
+<string>تزيد نسبة ضرر الهجمات التي<lf>تصيب نقاط الضعف بمقدار 15%،<lf>مع 10% إضافية للأجزاء المُصابة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_501
-<string>تزيد الهجمات التي تصيب<lf>نقاط الضعف بنسبة 20%<lf>مع 15% إضافية للأجزاء المُصابة.
+<string>تزيد نسبة ضرر الهجمات التي<lf>تصيب نقاط الضعف بمقدار 20%،<lf>مع 15% إضافية للأجزاء المُصابة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_502
-<string>تزيد الهجمات التي تصيب<lf>نقاط الضعف بنسبة 30%<lf>مع 20% إضافية للأجزاء المُصابة.
+<string>تزيد نسبة ضرر الهجمات التي<lf>تصيب نقاط الضعف بمقدار 30%،<lf>مع 20% إضافية للأجزاء المُصابة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_192
 <string>أثناء التفعيل، تزيد من نسبة<lf>الضرر +10% وتقلل استهلاك<lf>قوة التحمل بمقدار 30%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_193
@@ -395,15 +395,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_235
 <string>تزيد مدة<lf>المناعة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_236
-<string>تزيد مدة المناعة<lf>بدرجة كبيرة.
+<string>تزيد مدة المناعة<lf>بمقدار كبير.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_237
-<string>تزيد مدة المناعة<lf>بشكل هائل.
+<string>تزيد مدة المناعة<lf>بمقدار هائل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_238
 <string>توسع مسافة التفادي<lf>بمقدار ضئيل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_239
 <string>توسّع مسافة التفادي.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_240
-<string>توسّع مسافة التفادي<lf>بدرجة كبيرة.
+<string>توسّع مسافة التفادي<lf>بمقدار كبير.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_241
 <string>مقاومة النار +6
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_242
@@ -477,23 +477,23 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
 <string>عنصر استهلاكي واحد أكثر<lf>لعشب كل عنصر تجمعه.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_277
-<string>تضيف أيضًا عنصر إضافيًا واحد<lf>قابل للاستهلاك من فاكهة أو جوز<lf>أو بذرة لكل مجموعة.
+<string>تضيف أيضًا عنصرًا إضافيًا واحدًا<lf>قابل للاستهلاك من فاكهة أو جوز<lf>أو بذرة لكل مجموعة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_448
-<string>تضيف أيضًا عنصر إضافيًا واحد<lf>من حشرة قابل للاستهلاك<lf>لكل مجموعة.
+<string>تضيف أيضًا عنصرًا إضافيًا واحدًا<lf>قابل للاستهلاك من حشرة<lf>لكل مجموعة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_449
-<string>تضيف أيضًا عنصر إضافيًا واحد<lf>من فطر قابل للاستهلاك<lf>لكل مجموعة.
+<string>تضيف أيضًا عنصرًا إضافيًا واحدًا<lf>قابل للاستهلاك من فطر<lf>لكل مجموعة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_450
 <string>عنصر إضافي واحد عند الجمع من<lf>أكوام العظام.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_278
-<string>تضيف أيضًا عنصر إضافيًا واحد<lf>عند تجميع عناصر مميزة
+<string>تضيف أيضًا عنصرًا إضافيًا واحدًا<lf>عند تجميع عناصر مميزة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_279
-<string>تضيف أيضًا عنصر إضافيًا واحد<lf>عند التجميع من نتوءات التعدين.
+<string>تضيف أيضًا عنصرًا إضافيًا واحدًا<lf>عند التجميع من نتوءات التعدين.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_280
-<string>تزيد ضرر الأجزاء والأضرار التي<lf>لحقت بالجروح عند تدميرها بواسطة<lf>"الضربة المركزة" بنسبة %10.
+<string>تزيد ضرر الأجزاء والأضرار التي<lf>تستوفي الشروط بنسبة %10.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_281
-<string>تزيد ضرر الأجزاء والأضرار التي<lf>لحقت بالجروح عند تدميرها بواسطة<lf>"الضربة المركزة" بنسبة %20.
+<string>تزيد ضرر الأجزاء والأضرار التي<lf>تستوفي الشروط بنسبة %20.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_282
-<string>تزيد ضرر الأجزاء والأضرار التي<lf>لحقت بالجروح عند تدميرها بواسطة<lf>"الضربة المركزة" بنسبة %30.
+<string>تزيد ضرر الأجزاء والأضرار التي<lf>تستوفي الشروط بنسبة %30.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_487
 <string>تحسِّن قدرات صيد الأسماك<lf>والشواء والتنقل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_286
@@ -575,13 +575,13 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>الهجوم +15 ونسبة الضرر +20% ضد الوحوش<lf>الكبيرة المتأثرة بالسم أو الشلل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>عند التنشيط، يمنح زيادة طفيفة<lf>للضرر العناصري وتراكم الحالة.
+<string>عند التنشيط، تمنح زيادة طفيفة<lf>للضرر العناصري وتصاعد الحالة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>عند التنشيط، يمنح زيادة<lf>للضرر العناصري وتراكم الحالة.
+<string>عند التنشيط، تمنح زيادة للضرر<lf>العناصري وتصاعد الحالة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>عند التنشيط، يمنح زيادة كبيرة<lf>للضرر العناصري وتراكم الحالة.
+<string>عند التنشيط، تمنح زيادة كبيرة<lf>للضرر العناصري وتصاعد الحالة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
-<string>في أول ضربة، تحصل على زيادة هجومية<lf>وعناصرية مؤقتة، تُستبدل بزيادة أكبر<lf>بعد الضربة الخامسة.
+<string>في أول ضربة، <LSNR "تحصل" "تحصلين"> على زيادة هجومية<lf>وعناصرية مؤقتة، تُستبدل بزيادة أكبر<lf>بعد الضربة الخامسة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
 <string>توجيه 5 ضربات متتالية<lf>لتعزيز الإحصائيات تعزيزًا معتدلًا.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_332
@@ -699,11 +699,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_459
 <string>أثناء التنشيط، تزيد هجوم التنين كثيرًا.<lf>كما تلحق المزيد من ضرر التنين الإضافي<lf>بنسبة كبيرة
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_460
-<string>يزداد معدل الاستشفاء بشكل طفيف<lf>بعد الإصابة بالجنون.   تزيد نسبة<lf>الضرر بمقدار +3% إذا تم الشفاء.
+<string>يزيد معدل الاستشفاء بشكل طفيف<lf>بعد الإصابة بالجنون. تزيد نسبة<lf>الضرر بمقدار 3% إذا تم الشفاء.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_461
 <string>يزداد معدل الاستشفاء بعد الإصابة<lf>بالجنون. تزيد نسبة الضرر<lf>بمقدار +6% إذا تم الشفاء.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_462
-<string>عند الإصابة بالجنون،<lf>يزيد معدل استنفاد مقياس العدوى كثيرًا<lf>وتزيد نسبة الضرر بمقدار 15% إذا تم الشفاء.
+<string>يزيد معدل الاستشفاء بشكل كبير<lf>بعد الإصابة بالجنون. تزيد نسبة<lf>الضرر بمقدار 10% إذا تم الشفاء.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_463
 <string>تزيد قوة الهجوم<lf>ونسبة ضرر الطلقات قليلًا<lf>بعد استيفاء الشروط.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_464
@@ -711,11 +711,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_465
 <string>تزيد قوة الهجوم<lf>ونسبة ضرر الطلقات<lf>بعد استيفاء شروط معينة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_466
-<string>تزيد بشكل معتدل من سرعة إعادة تلقيم<lf>بندقية القوس والقوة الهجومية للزخيرة<lf>عند استيفاء شروط معينة.
+<string>تزيد بشكل معتدل من سرعة إعادة تلقيم<lf>بندقية القوس والقوة الهجومية للذخيرة<lf>عند استيفاء شروط معينة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_467
-<string>تزيد من سرعة إعادة تلقيم بندقية<lf>القوس والقوة الهجومية للزخيرة<lf>عند استيفاء شروط معينة.
+<string>تزيد من سرعة إعادة تلقيم بندقية<lf>القوس والقوة الهجومية للذخيرة<lf>عند استيفاء شروط معينة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_468
-<string>تزيد بشكل كبير من سرعة إعادة تلقيم<lf>بندقية القوس والقوة الهجومية للزخيرة<lf>عند استيفاء شروط معينة.
+<string>تزيد بشكل كبير من سرعة إعادة تلقيم<lf>بندقية القوس والقوة الهجومية للذخيرة<lf>عند استيفاء شروط معينة.
 <string>صياد العسل
 <string>تزيد كمية العسل التي <LSNR "تحصل" "تحصلين"> عليها<lf>من جمع النقاط.
 <string>الراكض السريع
@@ -739,7 +739,7 @@
 <string>انفجار وايليب
 <string>تزيد من سرعة استعادة قوة التحمل<lf>والمقياس الأحمر عند الاقتراب من الـ (وايليبريستال).
 <string>حرس وايفيريا
-<string>تقلل الضرر العنصري والفريد أثناء التواجد<lf>في أطلال وايفيريا.
+<string>تقلل الضرر العناصري والفريد أثناء التواجد<lf>في أطلال وايفيريا.
 <string>حظ الباحث عن الطعام
 <string>تزيد من احتمالية العثور<lf>على نقاط التجميع النادرة.
 <string>شديد القوة 1
@@ -789,9 +789,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_481
 <string>تتيح <LSNR "لكَ" "لكِ"> استخدام أغطية الإرهاق.
 <string>الرقصة الفقاعية 1
-<string>يمنع الإصابة بوباء الفقاعات القوي<lf>ويزيد المراوغة أثناء الإصابة<lf>بوباء الفقاعات البسيط.
+<string>تمنع الإصابة بوباء الفقاعات القوي<lf>وتزيد من المراوغة أثناء الإصابة<lf>بوباء الفقاعات البسيط.
 <string>الرقصة الفقاعية 2
-<string>يمنع وباء الفقاعات الكبير ويزيد المراوغة أثناء<lf>الإصابة به. كما يتيح أيضًا إصابة <LSNR "نفسكَ" "نفسكِ"> بوباء<lf>الفقاعات البسيط عن طريق المراوغة عدة مرات.
+<string>تمنع وباء الفقاعات القوي وتزيد من المراوغة أثناء<lf>الإصابة. كما تتيح أيضًا إمكانية تنشيط وباء<lf>الفقاعات البسيط عن طريق المراوغة عدة مرات.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_505
 <string>زيادة نسبة الضرر +3% أثناء التبلل<lf>و+7% أثناء الإصابة بوباء الفقاعات.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_506
@@ -808,6 +808,10 @@
 <string>أثناء مهرجان رقصة الزهرة<lf>تضيف عناصر مميزة إلى مكافآت المهام.<lf>(ليس لها تأثير عند الانضمام في منتصف المَهمة).
 <string>هبة رقصة الزهرة 2
 <string>أثناء مهرجان رقصة الزهرة<lf>تضيف عناصر مميزة إلى مكافآت المهام<lf>وتعزز الهجوم والدفاع بدرجة كبيرة.
+<string>Satsui no Hado
+<string>تزيد من قوة الحركات المميزة.<lf>يمكن لـ Drive Impacts شن هجمات مبطِلة،<lf>والتي بدورها ستزيد قوة الهجمات المبطِلة أكثر.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_520
+<string>تفعِّل تأثير المهارة.
 <string>حظ
 <string>تزيد مكافآت هدف المَهمة.<lf>(ليس لها تأثير عند الانضمام في منتصف المَهمة).
 <string>معزز الانفجار 1

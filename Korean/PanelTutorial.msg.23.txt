@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>안내벌레 알림 활용
-<string>채집하려는 아이템을 노리기 어렵다면<lf><ICON PL_AIM>+<ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN>으로 안내벌레 알림에서<lf>대상을 선택한 후<lf>훅 슬링어(<ICON PL_CATCH_SLINGER_SHOOT>)로 채집할 수 있다.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>안내벌레 알림 활용
-<string>화면 좌측의 안내벌레 알림에 표시된<lf>아이템과 기믹 위치를 알고 싶다면<lf><ICON PL_AIM>＋<ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>에서 확인할 수 있다.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>임무: 도샤구마 사냥
 <string><REF RefEnvironment_0000_0000>에서 <COLOR preset="TXT_Accent">도샤구마</COLOR>가 날뛰고 있다.<lf>마이 텐트에서 출발 준비를 마치고<lf><COLOR preset="TXT_Accent">도샤구마</COLOR>를 사냥하러 가자.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>현지 조사 퀘스트와 추가 보수
 <string>상위 환경으로 바뀌어<lf>현지 조사 퀘스트의 <COLOR preset="TXT_Accent">추가 보수</COLOR>가<lf>잠금 해제되었다.<lf>★이 많은 몬스터일수록<lf>강력하지만 가치가 높은<lf>특별 보수를 얻을 수 있다.
 <string>현지 조사 퀘스트와 추가 보수
-<string>몬스터의 추가 보수는 맵상에서<lf>확인할 수 있다. 현지 조사 퀘스트는<lf>일정량 대미지를 주거나<lf>맵상에서 시작할 수 있다.
+<string>각 몬스터 추가 보수는 맵상의<lf>몬스터에 커서를 올리거나<lf>환경 개요에서 확인할 수 있다.
+<string>현지 조사 퀘스트와 추가 보수
+<string>몬스터에게 일정량 이상의 대미지를 주거나<lf>(낙석 등 기믹에 의한 대미지 제외)<lf>맵에서 <COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>를 바로 시작할 수 있다.
 <string>현지 조사 퀘스트의 수주 제한
 <string>현지 조사 퀘스트는 HR에 따라<lf>타겟으로 삼을 수 있는 몬스터가<lf>제한되어 있다.<lf>의뢰를 수행하거나<lf>몬스터를 사냥해 HR을 올리자.
 <string><REF RefQuest_0009_003>
@@ -561,7 +563,7 @@
 <string>저스트 가드
 <string>검 모드 중에 적의 공격에 맞춰<lf><ICON WP09 PL_ATTACK_SP>으로 가드 하면<lf>'<COLOR preset="TXT_Accent">저스트 가드</COLOR>'가 발생한다. 직후에<lf><ICON WP09 PL_ATTACK_00>을 누르면<lf>속성 회전부 강화 베기로 파생한다.
 <string>현지 조사 퀘스트
-<string>몬스터에게 일정량 이상의<lf>대미지를 주거나<lf>맵상의 아이콘에서 선택하면<lf><COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>가 바로 시작된다.
+<string>몬스터에게 일정량 이상의 대미지를 주거나<lf>(낙석 등 기믹에 의한 대미지 제외)<lf>맵에서 <COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>를 바로 시작할 수 있다.
 <string>현지 조사 퀘스트
 <string>현재 환경을 그대로 퀘스트화하여<lf>자연스럽게 이어지는<lf>사냥 체험을 경험해 보자.<lf>지급품과 퀘스트 달성 보수도<lf>받을 수 있다.
 <string>현지 조사 퀘스트
@@ -827,7 +829,7 @@
 <string>조사대 레코드 보드
 <string><COLOR preset="TXT_Accent">▼배포 현상금</COLOR><lf>온라인에서 배포되는 보수가 포함된<lf>여러 활동 및 조사 확인,<lf>보수 받기 가능.
 <string>조사대 레코드 보드
-<string><COLOR preset="TXT_Accent">▼환경 개요</COLOR><lf>월드 맵을 열어<lf>각지의 환경을 확인 가능.<lf>(일반 월드 맵과 기능 동일)
+<string><COLOR preset="TXT_Accent">▼환경 개요</COLOR><lf>월드 맵을 열어 각 지역을 선택하면<lf>각각의 환경을 확인 가능.
 <string>조사대 레코드 보드
 <string><COLOR preset="TXT_Accent">▼레코드 랭킹</COLOR><lf>자신을 포함해 전 세계, 헌터 친구,<lf>서클 멤버의 각종 기록 열람 가능.
 <string>나무통 굴리기 챌린지
@@ -854,6 +856,32 @@
 <string>하루 1장이었던 '격운 티켓'이<lf>기간 동안 특별히 하루 2장으로 늘어납니다!<lf>또한, '축제 티켓 【화무】'도 입수 가능.
 <string>이벤트 퀘스트 배포!
 <string>기간 한정 특별 이벤트 퀘스트를<lf>차례대로 배포! 또한 과거 이벤트<lf>퀘스트도 재배포된다.
+<string>원세트 방어구
+<string>특별한 외형의 '원세트 방어구'를<lf>생산할 수 있다. 장비하면<lf>모든 부위가 일괄 변경된다.
+<string>원세트 방어구
+<string>원세트 방어구 생산과 매각은 모든<lf>부위가 일괄 대상이 되지만, 강화나<lf>장식품 탈착은 부위별로 할 수 있다.
+<string>원세트 방어구 덧입는 장비
+<string>원세트 방어구 덧입는 장비가 추가됐다.<lf>장비하면 모든 부위가 일괄 변경된다.<lf>평소와 다른 특별한 외형으로 꾸며보자!
+<string>포획한 환경생물 관리
+<string>포획한 환경생물의 자세한 내용을<lf>확인할 수 있다. 또한 즐겨찾기에<lf>등록하거나 놓아줄 수도 있다.
+<string>고우키가 보낸 도전장
+<string>고우키에게 실력을 증명하기 위해<lf>격투대회 '각오의 증명,<lf>강자의 증거'를 클리어하자!
+<string>대집회소에서 퀘스트 수주하자
+<string>격투대회 퀘스트는 대집회소에 있는<lf>'격투대회 카운터'에서 수주할 수 있다.<lf>우선 준비를 마치고 대집회소에 가자.
+<string>고우키 전용 액션
+<string>"SF6" 고우키 콜라보 방어구를<lf>장비하는 동안 일시적으로 전용<lf>아이템, 제스처를 사용할 수 있다.
+<string>'어시스트 콤보' 아이템
+<string>장비 중에 <ICON PL_ITEM>으로 특별한 공격 액션을<lf>발동할 수 있다. <ICON PL_ITEM> 후에 <ICON PL_WEAPON_ON>/<ICON PL_ATTACK_01>으로<lf>또 다른 기술로 파생시킬 수 있다.
+<string>'드라이브 임팩트' 아이템
+<string><ICON PL_ITEM> 입력으로 상쇄 효과가 있는 공격을<lf>발동하는 아이템. 기술을 몬스터의 상처나<lf>약점에 맞히면 '순옥살' 발동 가능.
+<string>기타 추가 액션
+<string>'호승룡권' 제스처나 '호파동권'<lf>슬링어 탄도 사용할 수 있다. 자세한<lf>내용은 '기본 조작 방법'에서 확인하자.
+<string>커스텀 숏컷을 사용하자
+<string>전용 아이템이나 제스처를<lf>커스텀 숏컷에 미리 등록해 두면<lf>빠르게 발동할 수 있어 편리하다.
+<string>티켓을 모아 장비를 제작하자
+<string>"SF6" 콜라보 격투대회 퀘스트를<lf>클리어하고 아이템 'SF6 티켓'을 모아<lf>고우키 콜라보 장비를 제작하자!
+<string>고난이도 퀘스트에 도전하자
+<string>격투대회 퀘스트 '너는 진정한 강자인가?'가<lf>잠금 해제되었다. 타임 어택으로<lf>전 세계 헌터와 실력을 겨루자!
 <string>상처
 <string>이제 소지하고 있는 불필요한 장식품을<lf>소비하여 <COLOR preset="TXT_Accent">원하는 장식품을 연금</COLOR>할 수<lf>있다. 라인업은 조건을 만족하면<lf>늘어난다.
 <string><REF RefItem_0017_120>과 장비 마이 세트

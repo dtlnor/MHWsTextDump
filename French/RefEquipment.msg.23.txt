@@ -29,6 +29,7 @@
 <string>{0}
 <string>–
 <string>???
+<string>Aucune image
 <string>Arme principale
 <string>Équiper comme arme principale
 <string>Arme secondaire
@@ -57,11 +58,16 @@
 <string>Armure de type <ICON EQUIP_TYPE1>
 <string>Armure de type <ICON EQUIP_TYPE2>
 <string>Possédées uniquement
+<string>Ensembles complets
 <string>Améliorer
 <string>Forger
 <string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?
 <string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?<lf><lf>(Forger cet équipement permet également d'obtenir<lf>une <COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
+<string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer.<lf>Continuer ?
+<string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer. Continuer ?<lf><lf>(Vous obtiendrez également l'<COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
 <string>Équiper maintenant ?
+<string>Si vous retirez cette pièce, <COLOR preset="TXT_Danger">toutes les autres<lf>pièces de l'ensemble complet seront retirées</COLOR>.<lf>Retirer la pièce ?
+<string>Ceci est un ensemble complet.<lf>Équiper toutes les pièces ?<lf><lf><COLOR preset="TXT_Danger">(L'armure spéciale sera cachée.)</COLOR>
 <string>{0} <PLURAL {0} "point sera perdu" "points seront perdus">.<lf>Continuer ?
 <string>Prévisualisation
 <string><COLOR preset="TXT_Danger">Le coffre est plein.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">Vous n'avez pas de matériaux de renforcement.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous possédez déjà cet équipement, il ne peut donc être forgé ou amélioré.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous possédez déjà cet équipement, il ne peut donc être forgé.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de forger un ensemble complet que vous possédez déjà.</COLOR>
 <string>Équipement actuel : {0}
 <string>Ceci est utilisé sur une autre pièce d'équipement.<lf>Retirer ?
 <string><COLOR preset="TXT_Danger">Ce joyau est équipé actuellement.</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">Impossible de vendre cette pièce d'équipement.</COLOR>
 <string><COLOR preset="TXT_Danger">Ce kinsecte ne peut pas être vendu car il est associé à l'insectoglaive.</COLOR>
 <string>Valeur
+<string>Ceci est un ensemble complet.<lf>Toutes les pièces de l'ensemble seront vendues.<lf>Continuer ?
 <string>Cette pièce d'équipement est enregistrée dans un<lf>set. Voulez-vous vraiment la vendre ?
 <string>Vendre pour <NUMBER {0}> z ?
 <string>Cette pièce d'équipement possède un joyau.<lf>Retirer les joyaux et la vendre pour <NUMBER {0}> z ?

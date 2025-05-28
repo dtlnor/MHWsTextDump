@@ -10,7 +10,7 @@
 <string>Edytuj wiadomość od dowódcy
 <string>Odejdź
 <string>Rozwiąż
-<string>Potwierdź (przejdź do tworzenia nazwy)
+<string>Utwórz nazwę i potwierdź
 <string><COLOR FF0000>#Rejected#</COLOR> RefCircle_card_000
 <string><COLOR FF0000>#Rejected#</COLOR> RefCircle_card_001
 <string>Styl gry oddziału
@@ -50,10 +50,10 @@
 <string>Otrzymane zaproszenia do oddziałów
 <string>Oddziały, do których wysłano prośbę
 <string>Znaleziono {0} <PLURAL {0} "wynik" "wyniki" "wyników">.
-<string>Znaleziono {0} <PLURAL {0} "wynik" "wyniki" "wyników">.<lf>(Nie można pobrać wszystkich wyników z powodu zbyt wielu dopasowań).
+<string>Znaleziono {0} <PLURAL {0} "wynik" "wyniki" "wyników">. (Nie można pobrać wszystkich wyników z powodu zbyt wielu dopasowań).
 <string>Nie udało się znaleźć oddziałów spełniających twoje wymagania.
 <string>Otrzymane zaproszenia: {0}.
-<string>Masz {0} <PLURAL "{0} prośbę" "{0} prośby" "{0} próśb">.
+<string>Masz {0} <PLURAL {0} "wysłaną prośbę" "wysłane prośby" "wysłanych próśb">.
 <string>{0}: znaleziono pasujące ID oddziału.
 <string>Lista zgłoszeń
 <string>Lista zaproszeń
@@ -85,6 +85,8 @@
 <string>Wyznacz dowódcę
 <string>Usuń z oddziału
 <string>Anuluj zaproszenie
+<string>Profil łowcy twórcy
+<string>Profil łowcy przywódcy
 <string><DATETIME {0} "DD.MM.YYYY HH:mm"> (UTC)
 <string><COLOR preset="TXT_Danger">Nie można użyć tej funkcji, ponieważ platforma i ustawienia rozgrywki międzyplatformowej są różne.</COLOR>
 <string><COLOR preset="TXT_Danger">Osiągnięto limit oddziałów, do których można dołączyć. Nie możesz dołączyć do kolejnych oddziałów.</COLOR>

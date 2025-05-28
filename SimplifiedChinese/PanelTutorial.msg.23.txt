@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>导虫通知的妙用
-<string>难以瞄准想采集的道具时，可用<ICON PL_AIM>＋<ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN><lf>从导虫通知中选择目标，再用钩索投射器采<lf>集（<ICON PL_CATCH_SLINGER_SHOOT>）。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>导虫通知的妙用
-<string>画面左侧的导虫通知会显示找到的道具与<lf>机关。<ICON PL_AIM>＋<ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>即可注视，以了解它们<lf>的位置。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>任务：狩猎辟兽
 <string>有<COLOR preset="TXT_Accent">辟兽</COLOR>正在<REF RefEnvironment_0000_0000>作乱。<lf>请在个人帐篷做好准备，前往狩猎<COLOR preset="TXT_Accent">辟兽</COLOR>吧。
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>实地调查任务与追加报酬
 <string>已开放上位环境中的实地调查任务<COLOR preset="TXT_Accent">追加报酬</COLOR>。<lf>★越多说明怪物越强，但也越容易获得高价<lf>值的追加报酬。
 <string>实地调查任务与追加报酬
-<string>各个怪物的追加报酬可在地图中确认。对怪<lf>物造成一定伤害，或者在地图中选择怪物，<lf>即可开始实地调查任务。
+<string>各个怪物的追加报酬可在地图中确认。打开<lf>环境概要，或者将光标移至怪物即可。
+<string>实地调查任务与追加报酬
+<string>对怪物造成一定伤害（落石等机关造成的伤<lf>害除外），或将地图上的图示设为目标，就<lf>可以立刻开始<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>。
 <string>实地调查任务的承接限制
 <string>实地调查任务中能作为目标的怪物会受到猎<lf>人等级的限制。可以通过完成委托和反复狩<lf>猎来提高猎人等级。
 <string><REF RefQuest_0009_003>
@@ -561,7 +563,7 @@
 <string>精准格挡
 <string>剑模式时，抓准怪物攻击的时机按<ICON WP09 PL_ATTACK_SP>格挡，<lf>就会触发<COLOR preset="TXT_Accent">精准格挡</COLOR>，随后立即按<ICON WP09 PL_ATTACK_00>可衍生出<lf>属性回填斧强化斩。
 <string>实地调查任务
-<string>对怪物造成一定伤害，或将地图上的图示设<lf>为目标，就可以立刻开始<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>。
+<string>对怪物造成一定伤害（落石等机关造成的伤<lf>害除外），或将地图上的图示设为目标，就<lf>可以立刻开始<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>。
 <string>实地调查任务
 <string>将当前的环境任务化，享受无缝衔接的狩猎<lf>体验吧。任务化后还可以领取补给品以及任<lf>务完成报酬。
 <string>实地调查任务
@@ -827,7 +829,7 @@
 <string>调查队纪录板
 <string><COLOR preset="TXT_Accent">▼限时奖励目标</COLOR><lf>可以在此查看在线发布的各种提供报酬的活<lf>动和调查的信息，也可以在此领取报酬。
 <string>调查队纪录板
-<string><COLOR preset="TXT_Accent">▼环境概要</COLOR><lf>可以在此打开全局地图，查看各地的环境。<lf>（和普通的全局地图功能相同）
+<string><COLOR preset="TXT_Accent">▼环境概要</COLOR><lf>在全局地图中选择各个区域，即可查看其环<lf>境。
 <string>调查队纪录板
 <string><COLOR preset="TXT_Accent">▼纪录排行榜</COLOR><lf>可以查看自身的各种纪录，以及全世界猎人、<lf>猎人好友和小队成员的记录。
 <string>滚桶挑战
@@ -854,6 +856,32 @@
 <string>平常每天的登录奖励只有一张激运票，祭典<lf>期间每天会增至两张！另外还有祭典票券<lf>【花舞】等道具。
 <string>活动任务将不断更新！
 <string>我们还会陆续发布限时的特别活动任务！<lf>另外也会再次发布以前曾发布的活动任务。
+<string>整套防具
+<string>现已可以制作拥有特殊外观的“整套防具”。<lf>装备后会一次性更改所有部位。
+<string>整套防具
+<string>生产与出售整套防具时，会同时生产与出售<lf>所有部位的防具。但穿脱装饰品及强化防具<lf>时，仍可以单独选择各部位。
+<string>整套防具的外观装备
+<string>已追加整套防具的外观装备。装备后会一次<lf>性更改所有部位的设置。请尽情享受特殊外<lf>观带来的特别体验！
+<string>管理已捕获的环境生物
+<string>您现在可以查看捕获的环境生物的详细信息<lf>了。此外，还可以将它们登记至收藏或是放<lf>生。
+<string>来自豪鬼的战书
+<string>完成斗技大会任务“觉悟之书，强者之证”，<lf>向豪鬼证明自己的实力吧！
+<string>在大集会所承接任务
+<string>斗技大会任务可在大集会所中的“斗技大会<lf>柜台”承接。先准备周全，然后前往大集会<lf>所吧。
+<string>豪鬼专用动作
+<string>已装备《Street Fighter 6》的豪鬼联动防具，<lf>可以暂时使用专用的道具与肢体动作了。
+<string>道具“辅助连招”
+<string>装备时，按<ICON PL_ITEM>可以发动特殊的攻击动作。<lf><ICON PL_ITEM>后再按<ICON PL_WEAPON_ON>或<ICON PL_ATTACK_01>，还能派生其他招式。
+<string>道具“斗气迸放”
+<string>按<ICON PL_ITEM>就可使出带有抵消效果的攻击。<lf>以此招式命中怪物的伤口或弱点，就会<lf>发动“瞬狱杀”。
+<string>其他追加动作
+<string>还可以使用肢体动作“豪升龙拳”以及投射<lf>器弹药“豪波动拳”。详情请查看“基本操<lf>作指南”。
+<string>登记至自定义快捷方式
+<string>将上述专用道具与肢体动作登记至自定义快<lf>捷方式，即可在战斗中迅速、便捷地用出来。
+<string>收集票券制作装备
+<string>完成《Street Fighter 6》联动斗技大会<lf>任务，收集道具“SF6 票”，制作豪鬼联<lf>动装备吧！
+<string>挑战高难度任务
+<string>斗技大会任务“你是否为真正强者”已开放。<lf>以最速通关为目标，与全世界的猎人一较高<lf>下吧！
 <string>伤口
 <string>可以通过消耗不需要的装饰品进行炼金，来<lf><COLOR preset="TXT_Accent">炼制想要的装饰品</COLOR>。满足特定条件后，可炼<lf>制的种类将相应增加。
 <string><REF RefItem_0017_120>与装备个人组合

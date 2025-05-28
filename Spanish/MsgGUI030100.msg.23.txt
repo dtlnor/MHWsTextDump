@@ -129,6 +129,12 @@
 <string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mientras te desplazas a máxima<lf>velocidad te permite interrumpir y salir<lf>del rumbo del Seikret.
 <string>Tipo 2
 <string>Inclinar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> y pulsar <ICON PL_INTERACT_ACTION_START> te permite<lf>interrumpir y salir del rumbo actual del<lf>Seikret, sea cual sea la velocidad actual.
+<string>Visualización barra de objetos
+<string>Ajusta cómo se ven los objetos cuando<lf>se usa la barra de objetos al apuntar.
+<string>Tipo 1
+<string>Solo se ven los objetos de la eslinga<lf>cuando se usa la barra de objetos al apuntar.
+<string>Tipo 2
+<string>Se ven todos los objetos cuando se usa<lf>la barra de objetos al apuntar.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Si pulsas <ICON PAD PL_AIM_TOGGLE> con el arma empuñada, activarás o<lf>desactivarás el modo preciso (con armas cuerpo<lf>a cuerpo) y apuntar/modo preciso (con armas<lf>a distancia).
 <string>Controles al apuntar/modo preciso: Avanzado
 <string>Elige cómo activar el modo preciso y el apuntar/modo preciso<lf>por separado para las armas a distancia/cuerpo a cuerpo<lf>desenvainadas. <COLOR preset="TXT_Accent">(No afecta a los controles de la eslinga).</COLOR>
+<string>Elige cómo apuntar la eslinga con arma envainada<lf>y si apuntar/modo preciso se activa por separado<lf>para las armas a distancia/cuerpo a cuerpo.
+<string>Apuntar eslinga (arma envainada)
+<string>Elige cómo apuntar con la eslinga cuando tienes<lf>el arma envainada.
+<string><ICON PAD PL_AIM> para activar el modo
+<string>Mantén pulsado <ICON PAD PL_AIM> para apuntar<lf>la eslinga con el arma desenvainada.
+<string>Pulsar <ICON PAD PL_POP_CHANGE_SELECT> para cambiar de modo
+<string>Con el arma desenvainada, pulsa <ICON PAD PL_POP_CHANGE_SELECT> para<lf>apuntar o dejar de apuntar con la eslinga.
 <string>Armas cuerpo a cuerpo
 <string>Elige cómo activar el modo preciso<lf>con armas cuerpo a cuerpo.
 <string><ICON PAD PL_AIM> para activar modo
@@ -1178,7 +1191,7 @@
 <string>Dinámica
 <string>Muestra la barra de salud de tus<lf>acompañantes minimizada por<lf>defecto. En ciertas situaciones,<lf>se mostrará la barra completa.
 <string>Mostrar tiempo transcurrido para algunas misiones
-<string>Cambia si mantener <ICON PL_ITEM_SLIDER_OPEN> muestra la<lf>cantidad de tiempo que has pasado en la Arena,<lf>desafíos y misiones desafío gratuitas.
+<string>Cambia si mantener <ICON PL_ITEM_SLIDER_OPEN> muestra la<lf>cantidad de tiempo que has pasado en la Arena,<lf>desafíos y misiones desafío abiertas.
 <string>Mostrar
 <string>En ciertas misiones, si mantienes <ICON PL_ITEM_SLIDER_OPEN> verás<lf>el tiempo transcurrido con tus objetivos.
 <string>No mostrar
@@ -1277,7 +1290,7 @@
 <string>Mostrar
 <string>Muestra el yelmo de tu personaje, reflejando<lf>los ajustes de apariencia y el equipamiento<lf>actuales. <COLOR preset="TXT_Accent">(Ten en cuenta que aun así en ciertas<lf>circunstancias el casco no se mostrará).</COLOR>
 <string>Ocultar
-<string>No muestra el yelmo de tu personaje,<lf>sean cuales sean los ajustes de apariencia<lf>y equipamiento actuales.
+<string>No muestra el yelmo de tu personaje,<lf>sean cuales sean los ajustes de apariencia<lf>y equipamiento actuales. <COLOR preset="TXT_Accent">(No se aplica<lf>a los sets de armadura completa).</COLOR>
 <string>Ocultar en cinemáticas
 <string>Muestra el yelmo de tu personaje, reflejando<lf>los ajustes de apariencia y el equipamiento<lf>actuales, excepto en escenas cinemáticas.
 <string>Opciones de cazador de apoyo
@@ -1406,9 +1419,9 @@
 <string>Cambio automático de chat de voz
 <string>Determina si cambia automáticamente el canal<lf>de chat de voz según el estado de la misión.<lf><COLOR preset="TXT_Accent">(Se puede cambiar manualmente cuando quieras).</COLOR>
 <string>Prioridad a miembros de la misión
-<string>Cambia automáticamente al chat de voz de<lf>los miembros de la misión al iniciarla, y al<lf>chat de voz de los miembros vinculados<lf>al regresar de una misión.
+<string>Cambia automáticamente al canal de un<lf>miembro de la misión al iniciarla, y al canal<lf>de miembro vinculado al volver de ella.
 <string>Prioridad a miembros vinculados
-<string>Cambia automáticamente al chat de voz de<lf>los miembros vinculados al unirse a un grupo<lf>vinculado, independientemente del estado<lf>de la misión.
+<string>Cambia automáticamente al canal de miembro<lf>vinculado al entrar en un grupo vinculado,<lf>sea cual sea el estado de la misión.
 <string>Sin prioridad
 <string>No otorga prioridades ni cambia de canal<lf>de chat de voz automáticamente: solo se<lf>puede cambiar manualmente.
 <string>Idioma Felyne
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Chino mandarín

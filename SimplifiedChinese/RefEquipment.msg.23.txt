@@ -29,6 +29,7 @@
 <string>{0}
 <string>-
 <string>？？？衍生
+<string>NO IMAGE
 <string>主武器
 <string>装备为主武器
 <string>副武器
@@ -57,11 +58,16 @@
 <string>仅显示<ICON EQUIP_TYPE1>服装
 <string>仅显示<ICON EQUIP_TYPE2>服装
 <string>仅显示持有的装备
+<string>仅显示整套防具
 <string>强化
 <string>生产
 <string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>是否确定？
 <string>需要素材及{0}<REF RefGeneral_0015_000>，确定生产吗？<lf><lf>（生产此装备时可同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
+<string>该装备为整套防具。<lf>将消耗素材和{0}<REF RefGeneral_0015_000>制作所有部位的防具，<lf>是否确定？
+<string>该装备为整套防具。<lf>将消耗素材和{0}<REF RefGeneral_0015_000>制作所有部位的防具，<lf>是否确定？<lf><lf>（制作该装备将同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
 <string>要现在装备吗？
+<string>确定要更改装备吗？<lf><COLOR preset="TXT_Danger">（其他部位的整套防具也将被卸除）</COLOR>
+<string>该装备为整套防具。<lf>确定要给所有部位装备吗？<lf><COLOR preset="TXT_Danger">（外观装备的设置将变为无效）</COLOR>
 <string>要舍弃剩余的{0}点数吗？
 <string>试穿
 <string><COLOR preset="TXT_Danger">装备箱已满。</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">未持有复原强化素材。</COLOR>
 <string><COLOR preset="TXT_Danger">已持有此推荐装备，无法生产或强化。</COLOR>
 <string><COLOR preset="TXT_Danger">已持有此推荐装备，无法生产。</COLOR>
+<string><COLOR preset="TXT_Danger">您已持有该整套防具，无法制作。</COLOR>
 <string>使用中的装备：{0}
 <string>正装在其他装备上，要卸除吗？
 <string><COLOR preset="TXT_Danger">此为已镶嵌的装饰品。</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">无法出售此装备。</COLOR>
 <string><COLOR preset="TXT_Danger">此猎虫正与操虫棍组合使用，无法出售。</COLOR>
 <string>售价
+<string>该装备为整套防具。<lf>出售时会全套一起出售，是否确定？
 <string>此装备已登记至个人组合，确定出售吗？
 <string>要以{0}z出售吗？
 <string>此装备已镶嵌装饰品。<lf>要卸除装饰品，并以{0}z出售此装备吗？

@@ -127,11 +127,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
 <string>적정 거리가 크게 늘어난다
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
-<string>예리도가 황색 이하일 때<lf>공격력 1.05배
+<string>예리도가 황색 이하일 때<lf>주는 대미지 1.05배
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
-<string>예리도가 황색 이하일 때<lf>공격력 1.1배
+<string>예리도가 황색 이하일 때<lf>주는 대미지 1.1배
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_84
-<string>예리도가 녹색 이하일 때<lf>공격력 1.1배
+<string>예리도가 녹색 이하일 때<lf>주는 대미지 1.1배
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_86
 <string>게이지 상승률이 약간 증가<lf>모으기 시간 5% 단축
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_87
@@ -697,7 +697,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_458
 <string>추가로 발생하는 용속성 대미지가<lf>상승한다. 용속성 공격치가 상승한다
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_459
-<string>효과 발동 시, 용속성 대미지가<lf>추가로 상승한다.<lf>용속성 공격치가 크게 상승한다
+<string>추가로 발생하는 용속성 대미지가<lf>더욱 상승한다. 용속성 공격치가<lf>크게 상승한다.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_460
 <string>광룡 바이러스 감염 시<lf>약간 극복하기 쉬워짐.<lf>극복 상태일 때, 추가로 회심률+3%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_461
@@ -727,7 +727,7 @@
 <string>탑승 명인
 <string>몬스터에 탑승하기 쉬워지고,<lf>탄 상태에서 성공하기 쉬워진다.
 <string>분발
-<string>체력이 40% 이하가 되면<lf>스태미나 소비량이 감소한다
+<string>체력이 40% 이하가 되면 일정시간<lf>스태미나 소비량이 감소한다
 <string>불굴
 <string>퀘스트 중 힘이 다할 때마다<lf>공격력과 방어력이 오른다.(최대 2번)
 <string>양동
@@ -755,13 +755,13 @@
 <string>수호의 베일Ⅱ
 <string>특수 장비 사용 시,<lf>일정 시간 동안<lf>방어력과 내성치가 크게 상승한다
 <string>한격Ⅰ
-<string>'원망' 스킬 발동 중에<lf>추가로 대미지를 조금 준다
+<string>'앙심' 스킬 발동 중에<lf>추가로 대미지를 조금 준다
 <string>한격Ⅱ
-<string>'원망' 스킬 발동 중에<lf>추가로 대미지를 준다
+<string>'앙심' 스킬 발동 중에<lf>추가로 대미지를 준다
 <string>속박 반격Ⅰ
 <string>실 속박 상태, 동결 상태 회복 시 또는<lf>속박 공격에서 해방됐을 때, 힘 겨루기<lf>후, 일정 시간 동안 공격력이 상승한다.
 <string>속박 반격Ⅱ
-<string>실 속박 상태, 동결 상태 회복 시 또는<lf>속박 공격에서 해방됐을 때, 힘 겨루기<lf>후, 일정 시간 동안 공격력이 상승한다.
+<string>실 속박 상태, 동결 상태 회복 시 또는<lf>속박 공격에서 해방됐을 때, 힘 겨루기<lf>후, 일정 시간 동안 공격력이 크게 상승.
 <string>작열화Ⅰ
 <string>공격을 명중시키면 일정 확률로<lf>추가로 불속성 대미지를 준다
 <string>작열화Ⅱ
@@ -808,6 +808,10 @@
 <string>화무 의식 기간 중 퀘스트 보수에<lf>특별한 아이템이 추가됨<lf>(퀘스트 도중 참가 시 발동하지 않음)
 <string>땅의 은총【화무】Ⅱ
 <string>화무 의식 기간 중 퀘스트 보수에<lf>특별한 아이템이 추가되며<lf>공격력과 방어력이 크게 상승
+<string>살의의 파동
+<string>특수 액션의 위력이 강화된다.<lf>드라이브 임팩트로 상쇄할 수 있고<lf>성공하면 일정 시간 더 강화된다.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_520
+<string>스킬 효과 발동
 <string>행운
 <string>퀘스트 타겟 보수 증가<lf>(퀘스트 도중 참가 시 발동하지 않음)
 <string>연격 강화Ⅰ

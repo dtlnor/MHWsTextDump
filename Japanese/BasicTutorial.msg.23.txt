@@ -541,3 +541,39 @@
 <string>死体変化
 <string>モンスターの死体は、時間経過により<lf>「死体」から「腐敗した死体」へと<lf>遷移し、状態により剥ぎ取れる素材が<lf>変化してしまう。<lf><lf>小型モンスターは、腐敗した死体から<lf>「<REF Gimmick_NAME_1176528640>」や「<REF Item_IT_270>」に遷移する時も<lf>あり、それぞれ素材の入手が可能。<lf>また護竜も「結晶化した死体」という<lf>状態に遷移する事もあり、それぞれ<lf>剥ぎ取れる素材も変化する。
 <string>
+<string>豪鬼
+<string>豪鬼とは
+<string>己が拳を極めんため、<lf>殺意の波動を身に宿し闘い続ける修羅。
+<string>
+<string>性能について
+<string>装備しているメイン武器に応じて<lf>豪鬼のアクションの攻撃力は変化する。<lf><lf>また、ワンセット防具で使用する場合は<lf>重ね着での使用時と比較して攻撃力が<lf>大きく上昇し、さらにドライブインパクト<lf>には相殺効果が付与される。<lf>加えて、アシストコンボにも気絶効果が<lf>付与される等の追加効果もある。
+<string>
+<string><REF ActionGuideDataNameTextCommon_24360>
+<string>納刀中<ICON PL_ITEM>
+<string>アイテムスライダーから<lf>「<REF Item_IT_782>」を選択して<lf>使用する攻撃。<lf><lf>初回の<ICON PL_ITEM>入力に加え、再度の<ICON PL_ITEM>でアシスト<lf>コンボ１を継続可能。最大３つまでの<lf>アクションを行える。<lf><lf>また、コンボ中に<ICON PL_BT_RIDE_ATTACK_L>で<REF ActionGuideDataNameTextCommon_26652>、<lf>コンボ中に<ICON PL_BT_RIDE_ATTACK_S>で、<REF ActionGuideDataNameTextCommon_14220>へと<lf>それぞれ派生させることもできる。
+<string>
+<string><REF ActionGuideDataNameTextCommon_26652>
+<string><REF ActionGuideDataNameTextCommon_24360>中<ICON PL_BT_RIDE_ATTACK_L>
+<string><REF ActionGuideDataNameTextCommon_24360>から派生可能な攻撃。<lf><lf><REF ActionGuideDataNameTextCommon_24360>からの<ICON PL_BT_RIDE_ATTACK_L>入力に加え、<lf>さらに<ICON PL_BT_RIDE_ATTACK_L>で<REF ActionGuideDataNameTextCommon_26652>を継続可能。<lf>最大３つまでのアクションを行える。<lf><lf>コンボ中に<ICON PL_BT_RIDE_ATTACK_S>で、<REF ActionGuideDataNameTextCommon_14220>へと<lf>派生させることもできる。<lf><lf>※キーボード利用時には、ナイフ強攻撃と<lf>　同じ操作割り当てとなる。
+<string>
+<string><REF ActionGuideDataNameTextCommon_14220>
+<string><REF ActionGuideDataNameTextCommon_24360>中<ICON PL_BT_RIDE_ATTACK_S>
+<string><REF ActionGuideDataNameTextCommon_24360>と<lf><REF ActionGuideDataNameTextCommon_26652>から派生可能な攻撃。<lf><lf>各アシストコンボからの<ICON PL_BT_RIDE_ATTACK_S>入力に加え、<lf>さらに<ICON PL_BT_RIDE_ATTACK_S>で<REF ActionGuideDataNameTextCommon_14220>を継続可能。<lf>最大３つまでのアクションを行える。<lf><lf>※キーボード利用時には、ナイフ弱攻撃と<lf>　同じ操作割り当てとなる。
+<string>
+<string>ドライブインパクト
+<string>納刀中<ICON PL_ITEM>
+<string>アイテムスライダーから<lf>「<REF Item_IT_784>」を選択、<lf>もしくはアシストコンボ中に<ICON PL_AIM><ICON PLUS><ICON PL_ATTACK_SP_B>で<lf>使用する攻撃。ただし、<REF ActionGuideDataNameTextCommon_4962>が<lf>溜まっている場合にのみ使用可能。<lf><lf>モンスターの傷口や弱点にヒットすると<lf><REF ActionGuideDataNameTextCommon_2219>へ派生するという特徴がある。<lf>また、豪鬼のワンセット防具装備時に<lf>使用した場合には相殺効果が付与される。<lf>なお、<REF ActionGuideDataNameTextCommon_2219>への派生か、相殺の発動で<lf><REF ActionGuideDataNameTextCommon_4962>が消費される。
+<string>
+<string><REF ActionGuideDataNameTextCommon_2219>
+<string>一瞬にして数多の打撃を叩き込む奥義。<lf>モンスターの傷口や弱点に対して<lf>効果的な攻撃。<lf><lf>そしてこの技には、別の繰り出し方も<lf>存在するようだ…。
+<string>
+<string><REF ActionGuideDataNameTextCommon_4962>
+<string>時間経過によって溜まっていくゲージ。<lf>これが満たされた場合にのみ、ドライブ<lf>インパクトを使用可能。<lf><lf>このゲージは、豪鬼のワンセット防具を<lf>装備時のドライブインパクトによる相殺が<lf>発動した場合、または<REF ActionGuideDataNameTextCommon_2219>へと派生した<lf>際に消費される。
+<string>
+<string><REF Gesture_NAME_31>
+<string>ジャンプしながら拳で突き上げる<lf>攻撃ジェスチャー。<lf><lf>各アシストコンボの最終派生後に<lf>繰り出すと、強化された<REF ActionGuideDataNameTextCommon_28399>となる。<lf>使用にはカスタムショートカットへの<lf>登録が推奨される。<lf><lf>そしてこの技には、別の繰り出し方も<lf>存在するようだ…。
+<string>
+<string><REF ActionGuideDataNameTextCommon_5188>
+<string>納刀中<INPUTMSG MsgGUI600200_00_031>
+<string><INPUTMSG MsgGUI600200_00_045>
+<string>

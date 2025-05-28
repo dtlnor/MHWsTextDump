@@ -129,6 +129,12 @@
 <string>Incliner <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> en vous déplaçant à vitesse maximale<lf>vous permet de quitter l'itinéraire suivi par le Seikret.
 <string>Type 2
 <string>Incliner <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> et appuyer sur <ICON PL_INTERACT_ACTION_START> vous permet<lf>de quitter l'itinéraire suivi par le Seikret<lf>quelle que soit votre vitesse.
+<string>Affichage barre d'objets
+<string>Configurer l'affichage des objets lorsque<lf>vous utilisez la barre d'objets en mode Visée.
+<string>Type 1
+<string>Afficher uniquement les objets associés à la<lf>fronde lorsque vous utilisez la barre d'objets<lf>en mode Visée.
+<string>Type 2
+<string>Afficher tous les objets lorsque vous utilisez<lf>la barre d'objets en mode Visée.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Avec l'arme dégainée, <ICON PAD PL_AIM_TOGGLE> active ou<lf>désactive le mode Focus d'une arme<lf>de mêlée, et le mode Visée/Focus<lf>d'une arme à distance.
 <string>Visée/Mode Focus : commandes avancées
 <string>Définir comment le mode Focus et le mode Focus/visée sont<lf>activés pour les armes de mêlée/à distance séparément.<lf><COLOR preset="TXT_Accent">*N'affecte pas les commandes de la fronde.</COLOR>
+<string>Configurer séparément l'activation de la visée<lf>avec l'arme rengainée, et l'activation du mode<lf>Visée/Focus pour les armes de mêlée/à distance.
+<string>Visée avec la fronde (arme rengainée)
+<string>Configurer l'activation de la visée avec la fronde<lf>quand l'arme est rengainée.
+<string><ICON PAD PL_AIM> : activer mode
+<string>Maintenez <ICON PAD PL_AIM> pour viser avec la fronde<lf>quand votre arme est rengainée.
+<string>Appuyer sur <ICON PAD PL_POP_CHANGE_SELECT> pour activer/désactiver
+<string>Appuyez sur <ICON PAD PL_POP_CHANGE_SELECT> pour activer/désactiver la visée<lf>avec la fronde quand l'arme est rengainée.
 <string>Armes de mêlée
 <string>Définir les commandes d'activation du mode Focus<lf>pour les armes de mêlée.
 <string><ICON PAD PL_AIM> : activer mode
@@ -1177,7 +1190,7 @@
 <string>Afficher la jauge de vie de votre Palico<lf>et autres alliés en permanence.
 <string>Dynamique
 <string>Afficher une jauge de vie réduite par défaut<lf>pour votre Palico et autres alliés. Dans certaines<lf>situations, la jauge s'affichera entièrement.
-<string>Afficher temps écoulé (certaines quêtes)
+<string>Afficher le temps écoulé (certaines quêtes)
 <string>Définir si maintenir <ICON PL_ITEM_SLIDER_OPEN> affiche le temps<lf>écoulé au cours des Quêtes Arène, Défi<lf>et Défi libre.
 <string>Afficher
 <string>Durant certaines quêtes, maintenir <ICON PL_ITEM_SLIDER_OPEN><lf>affiche le temps écoulé avec vos objectifs.
@@ -1277,7 +1290,7 @@
 <string>Afficher
 <string>Le casque est affiché, en reflétant les paramètres<lf>d'équipement et d'apparence.<lf><COLOR preset="TXT_Accent">*Il sera caché dans certaines circonstances.</COLOR>
 <string>Cacher
-<string>Votre casque est invisible quels que soient<lf>les paramètres d'équipement et d'apparence.
+<string>Votre casque est invisible quels que soient<lf>les paramètres d'équipement et d'apparence.<lf><COLOR preset="TXT_Accent">*Ne s'applique pas aux ensembles complets.</COLOR>
 <string>Cacher lors des cinématiques
 <string>Votre casque est affiché, en reflétant les<lf>paramètres d'équipement et d'apparence,<lf>sauf lors des cinématiques.
 <string>Paramètres Chasseur de soutien
@@ -1404,11 +1417,11 @@
 <string>Volume du chat vocal
 <string>Régler le volume des autres joueurs dans le chat vocal.
 <string>Changement auto du chat vocal
-<string>Paramétrer le changement automatique de canal<lf>de chat vocal selon le statut de la quête.<lf><COLOR preset="TXT_Accent">*Changement manuel possible à tout moment.</COLOR>
+<string>Configurer le changement automatique des canaux<lf>vocaux et textuels, et des filtres de l'historique du chat.<lf><COLOR preset="TXT_Accent">*Le changement manuel reste possible à tout moment.</COLOR>
 <string>Priorité aux membres de la quête
-<string>Active le chat vocal des membres de la quête quand<lf>une quête démarre, et réactive le chat vocal<lf>des membres du groupe relié au retour d'une quête.
+<string>Passer automatiquement à un canal réservé aux<lf>membres de la quête lorsqu'une quête démarre,<lf>et à un canal réservé aux membres reliés quand<lf>vous rentrez d'une quête.
 <string>Priorité aux membres du groupe relié
-<string>Active automatiquement le chat vocal des membres<lf>reliés quand vous rejoignez un groupe relié,<lf>quel que soit le statut de la quête.
+<string>Passer automatiquement à un canal réservé<lf>aux membres reliés quand vous rejoignez un<lf>groupe relié, quel que soit le statut de la quête.
 <string>Pas de priorité
 <string>N'accorde pas de priorité et ne change pas<lf>automatiquement les canaux de chat vocal.<lf>Le changement doit être manuel.
 <string>Langue des Felynes
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Chinois mandarin

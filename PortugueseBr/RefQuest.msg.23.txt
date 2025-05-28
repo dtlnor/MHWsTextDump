@@ -63,9 +63,9 @@
 <string><COLOR preset="TXT_Danger">Não é possível salvar como investigação.</COLOR>
 <string><COLOR preset="TXT_Danger">Falha ao salvar como investigação.</COLOR>
 <string><COLOR preset="TXT_Danger">Serviços concluídos não podem ser repetidos.</COLOR>
-<string><COLOR preset="TXT_Danger">Um ou mais jogadores não conseguiram entrar devido às configurações de multijogador.</COLOR>
+<string><COLOR preset="TXT_Danger">Não foi possível entrar devido às configurações de multijogador.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível entrar, número máximo de pessoas atingido.</COLOR>
-<string><COLOR preset="TXT_Danger">Falha ao entrar devido às configurações de permissão de plataforma.</COLOR>
+<string><COLOR preset="TXT_Danger">Não foi possível entrar devido às configurações de permissão de plataforma.</COLOR>
 <string><COLOR preset="TXT_Danger">Não atendeu às condições necessárias para aceitar/participar desta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível aceitar/entrar nesta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Falha ao aceitar/entrar na missão.</COLOR>
@@ -74,6 +74,7 @@
 <string><COLOR preset="TXT_Danger">Não é possível iniciar o Trabalho de Campo, pois um Membro do Elo está visualizando os Resultados da Missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Não pode ser usado durante esta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Esta missão não pode ser aceita fora da Grande Central.</COLOR>
+<string><COLOR preset="TXT_Danger">Indisponível durante esta missão.</COLOR>
 <string>Voltar à Tela Inicial
 <string>Tentar Novamente
 <string>Abata {0}
@@ -108,6 +109,7 @@
 <string>2º Arremesso!
 <string>Pontuação
 <string>Concluída
+<string>AKUMA<lf>VITÓRIA
 <string>PREPARAR...
 <string>3
 <string>2
@@ -167,7 +169,7 @@
 <string>Concluído!
 <string>Armas Disponíveis
 <string>Ranque de Tempo
-<string>Seus Melhores Tempos
+<string>Melhores Tempos
 <string>Membros
 <string>Data: <DATETIME {0} "DD/MM/YYYY"> (UTC)
 <string>Data: <DATETIME {0} "DD/MM/YYYY">
@@ -254,7 +256,7 @@
 <string>Histórico de Trabalho de Campo (Mais Recente {0})
 <string>Investigações ({0} <PLURAL {0} "salva" "salvas">)
 <string>Missões de Evento
-<string>Missões de Membros do Elo ({0})
+<string>Missões de Membros do Lobby ({0})
 <string>Missões de Membros do Elo
 <string>Missões de Sinalizador SOS ({0})
 <string>Missões de Arena

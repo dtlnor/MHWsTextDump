@@ -63,9 +63,9 @@
 <string><COLOR preset="TXT_Danger">No se puede guardar como investigación.</COLOR>
 <string><COLOR preset="TXT_Danger">No se pudo guardar como investigación.</COLOR>
 <string><COLOR preset="TXT_Danger">Los encargos completados no se pueden repetir.</COLOR>
-<string><COLOR preset="TXT_Danger">Ningún jugador se pudo unir por culpa de las opciones multijugador.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes unirte debido a las opciones multijugador de la misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes unirte porque ya se alcanzó el número máximo de personas.</COLOR>
-<string><COLOR preset="TXT_Danger">No pudiste unirte por la configuración de permisos de la plataforma.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes unirte por la configuración de permisos de la plataforma.</COLOR>
 <string><COLOR preset="TXT_Danger">No cumples los requisitos para aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar/unirte a esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No pudiste aceptar/unirte a la misión.</COLOR>
@@ -73,7 +73,8 @@
 <string><COLOR preset="TXT_Danger">Esta investigación ya se ha guardado.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes iniciar el estudio de campo porque un miembro vinculado está viendo los resultados de la misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No se puede usar durante esta misión.</COLOR>
-<string><COLOR preset="TXT_Danger">Esta misión no se puede aceptar fuera del gran centro.</COLOR>
+<string><COLOR preset="TXT_Danger">Esta misión no se puede aceptar fuera del Gran centro.</COLOR>
+<string><COLOR preset="TXT_Danger">No se puede usar durante esta misión.</COLOR>
 <string>Volver al título
 <string>Reintentar
 <string>Abate a {0}
@@ -108,6 +109,7 @@
 <string>¡Segunda tirada!
 <string>Puntuación
 <string>Completado
+<string>AKUMA<lf>GANA
 <string>¿Listo?
 <string>3
 <string>2
@@ -125,7 +127,7 @@
 <string>Investigación guardada
 <string>Misiones de evento
 <string>Misiones de la Arena
-<string>Misiones desafío
+<string>Misiones de desafío
 <string>Opciones
 <string>Hogar
 <string>Mostrar todo
@@ -167,7 +169,7 @@
 <string>¡Completada!
 <string>Armas disponibles
 <string>Rango por tiempo
-<string>Tus mejores tiempos
+<string>Mejores tiempos
 <string>Miembros
 <string>Fecha: <DATETIME {0} "DD/MM/YYYY"> (UTC)
 <string>Fecha: <DATETIME {0} "DD/MM/YYYY">
@@ -254,11 +256,11 @@
 <string>Historial est. de campo ({0} más reciente)
 <string>Investigaciones ({0} guardadas)
 <string>Misiones de evento
-<string>Misiones de miembros de vínculo ({0})
+<string>Misiones de miembros de sala ({0})
 <string>Misiones miembros de vínculo
 <string>Misiones de bengalas de auxilio ({0})
 <string>Misiones de la Arena
-<string>Misiones desafío
+<string>Misiones de desafío
 <string>Misiones de desafío abierto
 <string>Misiones de pesca
 <string>Misiones de pesca (limitadas)

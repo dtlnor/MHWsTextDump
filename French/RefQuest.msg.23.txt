@@ -63,9 +63,9 @@
 <string><COLOR preset="TXT_Danger">Impossible de sauvegarder comme investigation.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de sauvegarder comme investigation.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de refaire les quêtes principales déjà terminées.</COLOR>
-<string><COLOR preset="TXT_Danger">Le ou les joueurs n'ont pas pu participer à cause des paramètres multijoueurs.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de rejoindre en raison des paramètres multijoueur.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de participer car le nombre maximum de personnes a déjà été atteint.</COLOR>
-<string><COLOR preset="TXT_Danger">Impossible de participer à cause des paramètres d'autorisation de plateforme.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de rejoindre en raison des paramètres de plateformes autorisées.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous ne remplissez pas les conditions pour poster/rejoindre cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous ne pouvez pas poster/rejoindre cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous n'avez pas posté/rejoint la quête.</COLOR>
@@ -74,6 +74,7 @@
 <string><COLOR preset="TXT_Danger">Impossible de commencer l'enquête de terrain car un membre relié consulte les résultats de quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Indisponible durant cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter cette quête en dehors du Grand-Camp.</COLOR>
+<string><COLOR preset="TXT_Danger">Utilisation impossible pendant cette quête.</COLOR>
 <string>Retour à l'écran titre
 <string>Réessayer
 <string>Éliminer : {0}
@@ -108,6 +109,7 @@
 <string>2e essai !
 <string>Score
 <string>Terminé
+<string>AKUMA<lf>VICTOIRE
 <string>ATTENTION...
 <string>3
 <string>2
@@ -167,7 +169,7 @@
 <string>Complétée !
 <string>Armes disponibles
 <string>Rang
-<string>Vos meilleurs temps
+<string>Meilleurs temps
 <string>Membres
 <string>Date : <DATETIME {0} "DD/MM/YYYY"> (UTC)
 <string>Date : <DATETIME {0} "DD/MM/YYYY">
@@ -254,7 +256,7 @@
 <string>Historique des enquêtes de terrain ({0} plus récentes)
 <string>Investigations ({0} sauvegardée(s))
 <string>Quêtes Événement
-<string>Quêtes Membres reliés ({0})
+<string>Quêtes Membres du lobby ({0})
 <string>Quêtes Membres reliés
 <string>Quêtes Fusée de détresse ({0})
 <string>Quêtes Arène

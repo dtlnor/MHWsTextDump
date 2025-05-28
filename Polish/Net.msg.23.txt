@@ -9,6 +9,7 @@
 <string>Wystąpił błąd komunikacji.<lf>Powrót na ekran tytułowy.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Niektóre funkcje wieloosobowej gry online<lf>nie będą dostępne.<lf><lf>Aby uzyskać dostęp do wszystkich funkcji<lf>wieloosobowej gry online, zarejestruj się<lf>w usłudze {0}.
+<string>Wieloosobowa gra online jest ograniczona.<lf><lf>Nie można pozyskać informacji<lf>o niezbędnej do gry online subskrypcji<lf>z <PLATMSG RefGeneral_0026>.
 <string>To konto nie spełnia wymagań<lf>wieloosobowej gry online.
 <string>Nie udało się połączyć z siecią.<lf>Powrót do ekranu tytułowego.
 <string>Nie udało się połączyć z siecią.
@@ -45,6 +46,9 @@
 <string>Osiągnięto limit blokad i nie możesz zablokować<lf>więcej graczy.<lf>{0}
 <string>Serwery są obecnie w trakcie zaplanowanej<lf>konserwacji.<lf>{0}
 <string>Funkcjonalność oddziału nie jest<lf>dostępna z tego konta.<lf>{0}
+<string>Ustawienia platformy i rozgrywki<lf>międzyplatformowej nie pasują do siebie.<lf>{0}
+<string>Działanie niedozwolone.<lf>Sprawdź ustawienia konsoli.<lf>{0}
+<string>Gracz jest offline.<lf>{0}
 <string>Utracono połączenie z sesją.<lf>{0}
 <string>Nie udało się utworzyć sesji.<lf>{0}
 <string>Nie udało się wyszukać sesji.<lf>{0}
@@ -56,7 +60,7 @@
 <string>Dołączyć do zalecanego lobby?
 <string>Dołączyć do lobby?
 <string>Utworzyć prywatne lobby?
-<string>Zacząć grę bez dołączenia do lobby?<lf>(Możesz dołączyć do lobby po uruchomieniu gry)
+<string>Zacząć grę bez dołączenia do lobby?<lf>(Możesz dołączyć do lobby po uruchomieniu gry).
 <string>Wyszukaj ID lobby.<lf><lf><COLOR preset="TXT_Accent">(Do 8 znaków. Uwzględnia wielkość liter.)</COLOR>
 <string>Nie udało się dołączyć do sesji,<lf>ponieważ zadanie się zakończyło.
 <string>Rozwiązać prywatne lobby,<lf>którego jesteś gospodarzem?
@@ -70,6 +74,7 @@
 <string>Nie można dołączyć do tego zadania,<lf>ponieważ już się zaczęło.
 <string>Nie można wziąć udziału, ponieważ sesja ma inne<lf>ustawienia rozgrywki międzyplatformowej. Sprawdź<lf>swoje ustawienia rozgrywki międzyplatformowej<lf>w <BOLD>Opcjach</BOLD> w Menu tytułowym.<lf>{0}
 <string>Osiągnięto limit graczy we wspólnej grupie.<lf>Nie można dodać więcej graczy.<lf><lf>{0}
+<string>Do prywatnych lobby/lobby oddziału nie można<lf>dołączyć przez wyszukiwanie znajomego, a jedynie<lf>poprzez wyszukiwanie ID lobby/lobby oddziału.<lf>{0}
 <string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "DD.MM.YYYY H:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
 <string>Zachowanie obraźliwe/agresywne
 <string>Typy niedozwolonych zachowań
@@ -123,7 +128,7 @@
 <string>Nie udało się pobrać informacji o rankingu.<lf><lf>{0}
 <string>Istnieje niezarejestrowany czas ukończenia.<lf>Czy przesłać czas ukończenia do rankingu?
 <string>Wybór „Tak” wyzeruje twój czas ukończenia.<lf>Kontynuować?
-<string>Istnieje niezarejestrowany czas ukończenia,<lf>ale nie można go już zarejestrować,<lf>ponieważ okres ważności minął.
+<string>Poprzednio niezarejestrowany czas ukończenia<lf>nie może zostać już zarejestrowany, ponieważ<lf>upłynął okres ważności.
 <string>Jesteś obecnie w trybie offline,<lf>więc czasy ukończenia nie mogą<lf>zostać przesłane do rankingu.
 <string>{0}<lf>Nie udało się wyszukać powyższego ID oddziału.<lf>{1}
 <string>Zaproszenia do oddziału i prośby dołączenia<lf>do oddziału przekroczyły maksimum.<lf><lf>{0}

@@ -129,6 +129,12 @@
 <string>Tilting <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> while moving at top speed exits<lf>the Seikret-only route.
 <string>Type 2
 <string>Tilting <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> then pressing <ICON PL_INTERACT_ACTION_START> exits the Seikret-<lf>only route, no matter your current speed.
+<string>Item Bar Display
+<string>Adjusts how items display when using<lf>the Item Bar during Aim Mode.
+<string>Type 1
+<string>Only slinger-related items display when<lf>using the Item Bar during Aim Mode.
+<string>Type 2
+<string>All items display when using the Item Bar<lf>during Aim Mode.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>When your weapon is drawn, <ICON PAD PL_AIM_TOGGLE> toggles<lf>Focus Mode on/off for melee weapons<lf>and Aim/Focus Mode for ranged weapons.
 <string>Advanced Aim/Focus Mode Controls
 <string>Sets how Focus Mode & Aim/Focus Mode are<lf>activated for drawn melee/ranged weapons<lf>separately. <COLOR preset="TXT_Accent">(Does not affect Slinger controls.)</COLOR>
+<string>Adjusts how Slinger aim is activated with your<lf>weapon sheathed & Aim/Focus Mode are activated<lf>for drawn melee/ranged weapons separately.
+<string>Slinger Aim (Sheathed)
+<string>Adjusts how aiming with the Slinger is activated<lf>when your weapon is sheathed.
+<string><ICON PAD PL_AIM> to Activate Mode
+<string>Holding <ICON PAD PL_AIM> aims the Slinger when<lf>your weapon is sheathed.
+<string>Press <ICON PAD PL_POP_CHANGE_SELECT> to Toggle Mode
+<string>Pressing <ICON PAD PL_POP_CHANGE_SELECT> toggles Slinger aiming<lf>on/off when your weapon is sheathed.
 <string>Melee Weapons
 <string>Adjusts how Focus Mode is activated<lf>for Melee Weapons.
 <string><ICON PAD PL_AIM> to Activate Mode
@@ -1277,7 +1290,7 @@
 <string>Show
 <string>Displays the Hunter's head armor, reflecting current<lf>equipment and appearance settings. <COLOR preset="TXT_Accent">(Head armor<lf>will still be hidden under certain circumstances.)</COLOR>
 <string>Hide
-<string>Does not display the Hunter's head armor,<lf>regardless of current equipment and<lf>appearance settings.
+<string>Does not display the Hunter's head armor,<lf>regardless of current equipment and<lf>appearance settings. <COLOR preset="TXT_Accent">(Does not apply to<lf>full armor sets.)</COLOR>
 <string>Hide During Cutscenes
 <string>Displays the Hunter's head armor, reflecting<lf>current equipment and appearance settings,<lf>except during cutscenes.
 <string>Support Hunter Settings
@@ -1404,11 +1417,11 @@
 <string>Voice Chat Volume
 <string>Adjusts the volume of other parties in voice chat.
 <string>Voice Chat Auto-toggle
-<string>Adjusts whether to switch voice chat channels<lf>automatically based on quest status.<lf><COLOR preset="TXT_Accent">(Manual switching can be done at any time.)</COLOR>
+<string>Adjusts automatic switch settings for voice<lf>and text channels, and chat log filters.<lf><COLOR preset="TXT_Accent">(Switching can be done manually at any time.)</COLOR>
 <string>Prioritize Quest Members
-<string>Automatically switches to quest member voice<lf>chat when starting a quest, and Link Member<lf>voice chat when returning from a quest.
+<string>Automatically switches to a quest member<lf>channel when starting a quest, and a Link<lf>Member channel when returning from a quest.
 <string>Prioritize Link Members
-<string>Automatically switches to Link Member voice<lf>chat when joining a Link Party, regardless of<lf>quest status.
+<string>Automatically switches to a Link Member<lf>channel when joining a Link Party, regardless<lf>of quest status.
 <string>Do Not Prioritize
 <string>Does not prioritize or automatically switch<lf>voice chat channels. Switching must be<lf>done manually.
 <string>Felyne Language
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Mandarin Chinese

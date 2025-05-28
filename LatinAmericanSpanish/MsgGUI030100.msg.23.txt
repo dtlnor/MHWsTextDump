@@ -4,7 +4,7 @@
 <string><REF RefButton_0012>
 <string>Restablecer selección por defecto
 <string>Restablecer todo por defecto
-<string>Restablecer categoría a los valores por defecto
+<string>Restablecer categoría por defecto
 <string>¿Quieres restablecer las opciones elegidas a los<lf>valores por defecto?
 <string>¿Quieres restablecer todas las opciones en<lf>todas las categorías a los valores por defecto?
 <string>¿Quieres restablecer todas las opciones<lf>en la pestaña actual de categorías<lf>a los valores por defecto?
@@ -129,6 +129,12 @@
 <string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mientras te desplazas a<lf>máxima velocidad te permite salir<lf>de la ruta actual del Seikret.
 <string>Tipo 2
 <string>Inclinar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> y presionar <ICON PL_INTERACT_ACTION_START> te permite<lf>salir de la ruta actual del Seikret,<lf>sea cual sea la velocidad actual.
+<string>Indicador de la barra de objetos
+<string>Ajusta cómo aparecen los objetos cuando se usa<lf>la barra de objetos en Modo de apuntado.
+<string>Tipo 1
+<string>Ajusta cómo aparecen los objetos de la eslinga<lf>cuando se usa la barra de objetos<lf>en Modo de apuntado.
+<string>Tipo 2
+<string>Todos los objetos aparecen cuando se usa la<lf>barra de objetos en Modo de apuntado.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Cuando tu arma está desenvainada,<lf>activa o desactiva el Modo de enfoque para armas<lf>cuerpo a cuerpo y el Modo de apuntado/enfoque<lf>de armas a distancia con <ICON PAD PL_AIM_TOGGLE>.
 <string>Controles avanzados del Modo de apuntado/enfoque
 <string>Estableces cómo activar el Modo de enfoque<lf>y el Modo de apuntado/enfoque para armas<lf>a distancia desenvainadas por separado.<lf><COLOR preset="TXT_Accent">(No afecta a los controles de la eslinga).</COLOR>
+<string>Ajusta cómo se activa el apuntado de la eslinga con el arma<lf>envainada y el Modo de apuntado/enfoque para las armas<lf>cuerpo a cuerpo/a distancia desenfundadas por separado.
+<string>Apuntar eslinga (envainada)
+<string>Ajusta como se activa el apuntado con la eslinga<lf>cuando tu arma está envainada.
+<string>Presiona <ICON PAD PL_AIM> para activar los modos
+<string>Con el arma envainada, mantén presionado<lf><ICON PAD PL_AIM> para apuntar la eslinga.
+<string>Presiona <ICON PAD PL_POP_CHANGE_SELECT> para alternar los modos
+<string>Con el arma envainada, presiona <ICON PAD PL_POP_CHANGE_SELECT> para activar<lf>o desactivar el apuntado con la eslinga.
 <string>Armas cuerpo a cuerpo
 <string>Ajusta como activar el Modo enfoque<lf>para armas cuerpo a cuerpo.
 <string>Presiona <ICON PAD PL_AIM> para activar los modos
@@ -1177,7 +1190,7 @@
 <string>Muestra las barras de salud del camarada<lf>y otros compañeros en todo momento.
 <string>Dinámica
 <string>Muestra la barra de salud minimizada por<lf>defecto del camarada y otros compañeros.<lf>La barra se mostrará completa en ciertas<lf>situaciones.
-<string>Mostrar tiempo transcurrido para algunas misiones
+<string>Mostrar tiempo transcurrido en algunas misiones
 <string>Ajusta si al mantener presionado <ICON PL_ITEM_SLIDER_OPEN> se mostrará<lf>el tiempo transcurrido en las misiones de la Arena,<lf>de desafío o de desafío abierto.
 <string>Mostrar
 <string>Durante ciertas misiones, al mantener presionado <ICON PL_ITEM_SLIDER_OPEN>,<lf>se mostrará el tiempo transcurrido sobre tus objetivos.
@@ -1277,7 +1290,7 @@
 <string>Mostrar
 <string>El casco se muestra, reflejando los ajustes<lf>de actuales de apariencia y equipo<lf><COLOR preset="TXT_Accent">(se ocultará en circunstancias especiales).</COLOR>
 <string>Ocultar
-<string>El casco no se muestra, independientemente de<lf>los ajustes actuales de apariencia y equipo.
+<string>El casco no se muestra, independientemente de<lf>los ajustes actuales de apariencia y equipo.<lf><COLOR preset="TXT_Accent">(No aplica a sets de armadura completa)</COLOR>
 <string>Ocultar durante cinemáticas
 <string>El casco se muestra, reflejando los ajustes<lf>actuales de apariencia y equipo, excepto<lf>en las cinemáticas.
 <string>Opciones del cazador de apoyo
@@ -1404,11 +1417,11 @@
 <string>Volumen del chat de voz
 <string>Ajusta el volumen de otros grupos en el chat<lf>de voz.
 <string>Cambio automático de chat de voz
-<string>Determina si cambia automáticamente el canal<lf>de chat de voz según el estado de la misión<lf><COLOR preset="TXT_Accent">(se puede cambiar manualmente cuando quieras).</COLOR>
+<string>Ajusta si cambia automáticamente el canal de<lf>voz y texto, y los filtros de historial de chat.<lf><COLOR preset="TXT_Accent">(se puede cambiar manualmente cuando quieras).</COLOR>
 <string>Prioridad miembros de la misión
-<string>Cambia automáticamente al chat de voz de los<lf>miembros de la misión al iniciarla, y al chat<lf>de voz de los miembros vinculados al regresar<lf>de una misión.
+<string>Cambia automáticamente al canal de los<lf>miembros de la misión al iniciarla, y al canal<lf>de los miembros vinculados al regresar<lf>de una misión.
 <string>Prioridad a miembros vinculados
-<string>Cambia automáticamente al chat de voz de los<lf>miembros vinculados al unirse a un grupo<lf>vinculado, independientemente del estado de<lf>la misión.
+<string>Cambia automáticamente al canal de los<lf>miembros vinculados al unirse a un grupo<lf>vinculado, independientemente del estado de<lf>la misión.
 <string>Sin prioridad
 <string>No otorga prioridades ni cambia de canal de<lf>chat de voz automáticamente. Solo se puede<lf>cambiar manualmente.
 <string>Idioma Felyne
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Chino mandarín

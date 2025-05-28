@@ -29,6 +29,7 @@
 <string>{0}
 <string>–
 <string>(??)
+<string>Kein Bild
 <string>Erst
 <string>Als Erstwaffe ausrüsten
 <string>Zweit
@@ -57,11 +58,16 @@
 <string>Nur <ICON EQUIP_TYPE1> Rüstung
 <string>Nur <ICON EQUIP_TYPE2> Rüstung
 <string>Nur in Besitz
+<string>Komplette Rüstungssets
 <string>Verbessern
 <string>Schmieden
 <string>Materialien sowie <NUMBER {0}> z <PLURAL {0} "wird" "werden"> aufgewendet.<lf>Möchtest du fortfahren?
 <string>Materialien sowie <NUMBER {0}> z <PLURAL {0} "wird" "werden"> aufgewendet.<lf>Möchtest du fortfahren?<lf><lf>(Das Schmieden dieser Ausrüstung erzeugt außerdem<lf>die entsprechende <COLOR preset="TXT_Accent">Dekorrüstung</COLOR>.)
+<string>Dies ist ein komplettes Rüstungsset.<lf>Aus den angegebenen Materialien und <NUMBER {0}> z<lf>wird das gesamte Set geschmiedet.<lf><lf>Möchtest du fortfahren?
+<string>Dies ist ein komplettes Rüstungsset.<lf>Aus den Materialien und <NUMBER {0}> z wird das<lf>gesamte Set geschmiedet. Möchtest du fortfahren?<lf><lf>(Das Schmieden erzeugt außerdem die <COLOR preset="TXT_Accent">Dekorrüstung</COLOR>.)
 <string>Gleich ausrüsten?
+<string>Wenn du dieses Teil wechselst, <COLOR preset="TXT_Danger">werden alle Teile<lf>des kompletten Rüstungssets entfernt</COLOR>.<lf>Möchtest du das Rüstungsteil wechseln?
+<string>Dies ist ein komplettes Rüstungsset.<lf>Möchtest du alle Teile ausrüsten?<lf><lf><COLOR preset="TXT_Danger">(Dekorrüstung wird verborgen.)</COLOR>
 <string>Es <PLURAL {0} "geht {0} überschüssiger Punkt" "gehen {0} überschüssige Punkte"> verloren.<lf>Möchtest du fortfahren?
 <string>Vorschau
 <string><COLOR preset="TXT_Danger">Die Ausrüstungstruhe ist voll.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">Du hast keine Verstärkungsmaterialien.</COLOR>
 <string><COLOR preset="TXT_Danger">Du besitzt diese Ausrüstung bereits.</COLOR>
 <string><COLOR preset="TXT_Danger">Du besitzt diese Ausrüstung bereits.</COLOR>
+<string><COLOR preset="TXT_Danger">Du besitzt dieses Set bereits.</COLOR>
 <string>Derzeit ausgerüstet: {0}
 <string>Das wird an einem anderen Ausrüstungsteil<lf>verwendet. Möchtest du es entfernen?
 <string><COLOR preset="TXT_Danger">Diese Dekoration ist derzeit ausgerüstet.</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">Diese Ausrüstung kann nicht verkauft werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Dieses Kinsekt kann nicht verkauft werden, da es mit der Insektenglefe gekoppelt ist.</COLOR>
 <string>Wert
+<string>Dies ist ein komplettes Rüstungsset.<lf>Alle Teile des Sets werden verkauft.<lf><lf>Möchtest du es trotzdem verkaufen?
 <string>Diese Ausrüstung wurde in einem Set gespeichert.<lf>Möchtest du sie wirklich verkaufen?
 <string>Möchtest du dies für <NUMBER {0}> z verkaufen?
 <string>An dieser Ausrüstung befinden sich Dekorationen.<lf>Möchtest du alle Dekorationen entfernen<lf>und die Ausrüstung für <NUMBER {0}> z verkaufen?

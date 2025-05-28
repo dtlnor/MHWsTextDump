@@ -29,6 +29,7 @@
 <string>{0}
 <string>-
 <string>??? 파생
+<string>NO IMAGE
 <string>메인 무기
 <string>메인 무기로 장비
 <string>서브 무기
@@ -57,11 +58,16 @@
 <string>의상 <ICON EQUIP_TYPE1>만
 <string>의상 <ICON EQUIP_TYPE2>만
 <string>보유 장비만
+<string>원세트 방어구만
 <string>강화
 <string>생산
 <string>소재와 {0}<REF RefGeneral_0015_000>가 필요합니다. 계속하시겠습니까？
 <string>소재와 {0}<REF RefGeneral_0015_000>가 필요합니다.<lf>계속하시겠습니까?<lf><lf>(이 장비를 생산하면 <COLOR preset="TXT_Accent">덧입는 장비</COLOR>도<lf>입수 가능합니다)
+<string>원세트 방어구 장비입니다. 소재와<lf>{0}<REF RefGeneral_0015_000>로 모든 부위 방어구를 생산합니다.<lf>계속하시겠습니까?
+<string>원세트 방어구 장비입니다. 소재와<lf>{0}<REF RefGeneral_0015_000>로 모든 부위 방어구를 생산합니다.<lf>계속하시겠습니까?<lf>(이 장비를 생산하면<lf><COLOR preset="TXT_Accent">덧입는 장비</COLOR>도 입수 가능합니다)
 <string>장착하시겠습니까?
+<string>장비를 변경합니다.<lf><COLOR preset="TXT_Danger">(다른 부위의 원세트 방어구가 해제됩니다)</COLOR><lf>계속하시겠습니까?
+<string>원세트 방어구 장비입니다.<lf>모든 부위에 장비하시겠습니까?<lf><COLOR preset="TXT_Danger">(덧입는 장비 설정이 적용되지 않습니다)</COLOR>
 <string>나머지 {0}pts는 사라집니다.<lf>계속하시겠습니까?
 <string>착용해 보기
 <string><COLOR preset="TXT_Danger">장비 BOX에 빈 공간이 없습니다.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">복원 강화 소재가 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이 추천 장비는 이미 소지 중이므로 생산/강화할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이 추천 장비는 이미 소지 중이므로 생산할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">소지 중인 원세트 방어구는 생산할 수 없습니다.</COLOR>
 <string>장착 중인 장비: {0}
 <string>다른 장비에 장착 중입니다.<lf>해제하시겠습니까?
 <string><COLOR preset="TXT_Danger">장착 중인 장식품입니다.</COLOR>
@@ -122,7 +129,7 @@
 <string>위시리스트 등록이 필요한 장비에 생산 혹은 강화를 선택할 수 있는 장비가 포함되어 있습니다. 등록할 소재를 선택해 주십시오.
 <string>찜 목록에서 삭제
 <string>찜 목록에서 삭제합니다.<lf>계속하시겠습니까?
-<string>찜 목록에서 삭제합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Danger">(이 항목은 장비 마이 세트와 연동됐습니다.<lf>삭제 대상에 포함된 장비는 장비 마이 세트에서<lf>'미설정'으로 변경됩니다.)</COLOR><lf>
+<string>찜 목록에서 삭제합니다.<lf>계속하시겠습니까?<lf><COLOR preset="TXT_Danger">(이 항목은 장비 마이 세트와 연동됐습니다.<lf>삭제 대상에 포함된 장비는 장비 마이 세트에서<lf>'설정 없음'으로 변경됩니다)</COLOR>
 <string>장식품 일괄 해제
 <string>현재 장비 중인 장식품을 해제합니다.<lf>계속하시겠습니까?
 <string><INPUTMSG RefEquipment_SUB_13_S>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">이 장비는 매각할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">조충곤과 조합 중인 사냥벌레이므로 매각할 수 없습니다.</COLOR>
 <string>매각액
+<string>원세트 방어구 장비입니다.<lf>매각할 경우, 모든 부위 방어구를 매각합니다.<lf>계속하시겠습니까?
 <string>마이 세트에 등록된 장비입니다.<lf>매각하시겠습니까?
 <string>{0}z에 매각합니다.<lf>계속하시겠습니까?
 <string>장식품이 장착된 장비입니다. 장식품을 해제하고<lf>이 장비를 {0}z에 매각합니다.<lf>계속하시겠습니까?

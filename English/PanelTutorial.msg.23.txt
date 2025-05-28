@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>Scoutfly Notifications
-<string>If you're having trouble gathering an<lf>item, use <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> to easily select<lf>a target from the Scoutfly Notifications,<lf>then press <ICON PL_CATCH_SLINGER_SHOOT> to gather it with your<lf>Hook Slinger.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>Scoutfly Notifications
-<string>Use <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> to locate an item<lf>or environmental feature displayed<lf>in the Scoutfly Notifications on the<lf>left side of the screen.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>Assignment: Doshaguma Hunt
 <string>A <COLOR preset="TXT_Accent">Doshaguma</COLOR> is rampaging in Windward<lf>Plains. Accept the quest to hunt it once<lf>you've prepared at your tent.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>Field Surveys and Bonus Rewards
 <string><COLOR preset="TXT_Accent">Bonus rewards</COLOR> from Field Surveys<lf>conducted in high-rank environments<lf>are now available. Especially valuable<lf>rewards can be obtained from difficult<lf>monsters with higher ★ ratings.
 <string>Field Surveys and Bonus Rewards
-<string>Use the map or binoculars to check what<lf><COLOR preset="TXT_Accent">bonus rewards</COLOR> can be obtained from<lf>a monster, then start a Field Survey by<lf>dealing damage or selecting the monster<lf>on the map.
+<string>To check a monster's bonus rewards<lf>on the map, select its icon with the<lf>map cursor or check the Environment<lf>Overview.
+<string>Field Surveys and Bonus Rewards
+<string>Start a <COLOR preset="TXT_Accent">Field Survey</COLOR> by dealing enough<lf>damage to a monster or selecting it from<lf>its icon on the map. (Environmental<lf>damage, such as from falling boulders,<lf>doesn't count toward starting a survey.)
 <string>Field Survey Limitations
 <string>Your Hunter Rank will limit what<lf>monsters you can target in Field<lf>Surveys. Raise your HR by completing<lf>requests and hunting monsters.
 <string>Investigations
@@ -561,7 +563,7 @@
 <string>Perfect Guard
 <string>During Sword Mode, use <ICON WP09 PL_ATTACK_SP> to time<lf>your guard with the opponent's attack<lf>to perform a <COLOR preset="TXT_Accent">Perfect Guard</COLOR>. Immediately<lf>after, press <ICON WP09 PL_ATTACK_00> to unleash a Savage Axe<lf>Slash.
 <string>Field Surveys
-<string>Start a <COLOR preset="TXT_Accent">Field Survey</COLOR> by dealing enough<lf>damage to a monster or selecting it from<lf>the icons on the map.
+<string>Start a <COLOR preset="TXT_Accent">Field Survey</COLOR> by dealing enough<lf>damage to a monster or selecting it from<lf>its icon on the map. (Environmental<lf>damage, such as from falling boulders,<lf>doesn't count toward starting a survey.)
 <string>Field Surveys
 <string>Field Surveys allow you to enjoy<lf>a seamless hunting experience<lf>by creating a quest from your current<lf>environment. These quests also offer<lf>supplies and rewards with completion.
 <string>Field Surveys
@@ -827,7 +829,7 @@
 <string>The Expedition Record Board
 <string><COLOR preset="TXT_Accent">Limited Bounties</COLOR><lf>View activities and expeditions that<lf>are available online, and collect<lf>rewards for completing them.
 <string>The Expedition Record Board
-<string><COLOR preset="TXT_Accent">Environment Overview</COLOR><lf>Opens the World Map where you can<lf>check the environmental information<lf>of each area. (Also accessible from the<lf>regular World Map.)
+<string><COLOR preset="TXT_Accent">Environment Overview</COLOR><lf>Select each locale on the world map<lf>to check its current environmental<lf>status and future forecasts.
 <string>The Expedition Record Board
 <string><COLOR preset="TXT_Accent">Ranking Information</COLOR><lf>View personal or worldwide records<lf>as well as your Hunter Friends' or<lf>Squad Members' records.
 <string>Barrel Bowling
@@ -854,6 +856,32 @@
 <string>During the event period, you can now<lf>receive two Lucky Vouchers per day<lf>instead of one, as well as other<lf>rewards such as Blossomdance Tickets!
 <string>Event Quests Incoming!
 <string>A series of limited-time Event Quests<lf>are now available! Many past Event<lf>Quests are being reintroduced.
+<string>Full Armor Sets
+<string>You can now craft armor sets that<lf>change your entire appearance.<lf>Equipping one piece will automatically<lf>change all other armor pieces.
+<string>Full Armor Sets
+<string>You forge and sell full armor sets as one.<lf>However, upgrades and decorations<lf>are specific to each piece.
+<string>Equipping Full Layered Armor Sets
+<string>Full Layered Armor sets have been added.<lf>Equipping one piece will automatically<lf>equip all other pieces.
+<string>Managing Captured Endemic Life
+<string>You can now check the details of the endemic<lf>life you captured. You can also now favorite<lf>them or release them back into the wild.
+<string>Challenge from Akuma
+<string>Prove your strength to Akuma<lf>by completing the Arena Quest:<lf>Demonic Strength.
+<string>Accept Quests at the Grand Hub
+<string>Arena Quests can be initiated from the<lf>Arena Quest Counter in the Grand Hub.<lf>Prepare for a hunt before you head over!
+<string>Akuma Actions
+<string>By equipping Akuma armor from the<lf>Street Fighter 6 collaboration, you can<lf>use special items and gestures!
+<string>Assisted Combos
+<string>While equipped, use <ICON PL_ITEM> to perform<lf>special actions. Then press <ICON PL_WEAPON_ON> or <ICON PL_ATTACK_01><lf>to follow up with special moves.
+<string>Drive Impacts
+<string>Use <ICON PL_ITEM> to perform a move that acts as<lf>an offset attack. If you hit a monster's<lf>wound or weak point, you will perform<lf>a Shun Goku Satsu.
+<string>Other Actions
+<string>You can also use the Gou Shoryuken<lf>gesture and use the Gou Hadoken as<lf>slinger ammo. For more details, check<lf>the Basic Controls guide.
+<string>Using the Custom Radial Menu
+<string>Register these new actions to the<lf>Custom Radial Menu in order to<lf>access them quickly during a quest.
+<string>Earn Tickets and Forge Equipment
+<string>Complete Street Fighter 6 collaboration<lf>Arena Quests to earn SF6 Tickets<lf>and forge Akuma items!
+<string>Advanced Quests
+<string>The Arena Quest True Strength has been<lf>unlocked. Compete with hunters from<lf>around the world in time attack!
 <string>Wounds
 <string>You can now trade in old decorations for<lf>melding points that you can use to <COLOR preset="TXT_Accent">meld<lf>new decorations</COLOR>. The options will<lf>increase as you fulfill the conditions.
 <string>Decorations and Equipment Loadouts

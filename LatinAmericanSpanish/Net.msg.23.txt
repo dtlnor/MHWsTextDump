@@ -9,6 +9,7 @@
 <string>Hubo un error con la conexión.<lf>Debes volver al menú principal.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Algunas funciones del modo multijugador online<lf>no estarán disponibles.<lf><lf>Por favor, regístrate en {0}<lf>para acceder a toda las funciones<lf>del modo multijugador online.
+<string>El multijugador online es limitado.<lf><lf>No se puede obtener información<lf>sobre la suscripción de <PLATMSG RefGeneral_0026><lf>que es necesaria para jugar online.
 <string>Esta cuenta no cumple los requisitos<lf>para el modo multijugador online.
 <string>No se pudo establecer la conexión a la red.<lf>Volviendo a la pantalla de título.
 <string>Error al conectar a la red.
@@ -44,7 +45,10 @@
 <string>Esta función no está disponible en este momento<lf>debido a tareas de mantenimiento.<lf>Espera un poco e inténtalo de nuevo.<lf>{0}
 <string>No puedes bloquear a más jugadores, ya que<lf>alcanzaste el número máximo de bloqueados.<lf>{0}
 <string>En este momento se están realizando tareas<lf>de mantenimiento en los servidores.<lf>{0}
-<string>
+<string>No se puede acceder a las funciones<lf>de brigada desde esta cuenta.<lf>{0}
+<string>La plataforma y la opción de crossplay no coinciden.<lf>{0}
+<string>Esta operación está restringida.<lf>Comprueba la configuración de la consola.<lf>{0}
+<string>El jugador está offline.<lf>{0}
 <string>Se perdió la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
 <string>Error al buscar la sesión.<lf>{0}
@@ -70,6 +74,7 @@
 <string>No puedes unirte a esta misión porque ya comenzó.
 <string>No se pudo participar porque la sesión tiene<lf>opciones de crossplay diferentes. Revisa tus<lf>ajustes de crossplay en la sección <BOLD>Opciones</BOLD><lf>en la pantalla del título.<lf>{0}
 <string>Se alcanzó el límite de jugadores<lf>para el grupo vinculado. No se pueden<lf>añadir más.<lf><lf>{0}
+<string>No puedes unirte a salas privadas o salas<lf>de la brigada con Buscar amigos del cazador.<lf>Solo puedes unirte con Buscar ID de sala<lf>o Buscar sala de la brigada.<lf>{0}
 <string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "D [de] xMMMM [de] YYYY HH:mm"> (UTC)<lf><lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
 <string>Actitud abusiva o disruptiva
 <string>Tipos de comportamiento prohibido
@@ -124,7 +129,7 @@
 <string>Tienes un tiempo total sin registrar.<lf>¿Quieres subir el tiempo total a la clasificación?
 <string>Seleccionar "Sí" eliminará tu tiempo total.<lf>¿Seguro que quieres continuar?
 <string>Hay un tiempo total no registrado, pero ya no se<lf>puede registrar porque el tiempo de validación<lf>terminó.
-<string>
+<string>Estás en el modo sin conexión, por<lf>lo que tus tiempos totales no se<lf>pueden subir a la clasificación.
 <string>{0}<lf>Error al buscar este ID de brigada.<lf>{1}
 <string>Las invitaciones o solicitudes de brigada<lf>superaron el máximo.<lf><lf>{0}
 <string>No se pudo entrar en la brigada.<lf><lf>{0}

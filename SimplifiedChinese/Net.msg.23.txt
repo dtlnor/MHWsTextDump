@@ -9,6 +9,7 @@
 <string>发生通讯错误，将返回标题画面。<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>无法使用在线多人游戏功能。<lf><lf>需加入{0}。
+<string>在线多人游戏功能受限。<lf><lf>无法取得在线多人游戏功能所需的<lf><PLATMSG RefGeneral_0026>加入信息。
 <string>此账号不满足多人游戏所需条件。
 <string>无法连接至网络，将返回标题画面。
 <string>无法连接至网络。
@@ -45,6 +46,9 @@
 <string>屏蔽数量已达到上限，无法屏蔽更多玩家。<lf>{0}
 <string>服务器正在维护。<lf>{0}
 <string>此账号无法使用小队功能。<lf>{0}
+<string>平台与跨平台游玩设置不同，无法使用。<lf>{0}
+<string>此操作已受限，请检查主机相关设置。<lf>{0}
+<string>对象已离线。<lf>{0}
 <string>和联机区连接中断，无法继续加入联机区。<lf>{0}
 <string>无法创建联机区。<lf>{0}
 <string>无法搜索联机区。<lf>{0}
@@ -70,6 +74,7 @@
 <string>任务已开始，无法参加。
 <string>联机区与跨平台游玩设置不同，无法参加。<lf>请在标题画面菜单的“选项”中，确认跨平台游玩设置。<lf>{0}
 <string>连结队员已满，无法继续邀请。<lf>{0}
+<string>无法通过“按猎人好友搜索”加入私人大厅或小队大厅。<lf>请通过“按大厅ID搜索”或“搜索小队大厅”加入。<lf>{0}
 <string><COLOR preset="TXT_Accent">社区功能已受限</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号出现<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款。</COLOR>
 <string>骚扰行为
 <string>构成骚扰行为的活动

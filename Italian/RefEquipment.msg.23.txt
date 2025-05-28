@@ -29,6 +29,7 @@
 <string>{0}
 <string>–
 <string>???
+<string>Nessuna immagine
 <string>Primaria
 <string>Equipaggia come primaria
 <string>Secondaria
@@ -57,11 +58,16 @@
 <string>Solo armature <ICON EQUIP_TYPE1>
 <string>Solo armature <ICON EQUIP_TYPE2>
 <string>Solo posseduti
+<string>Set di armatura completi
 <string>Migliora
 <string>Forgia
 <string>Necessari materiali e {0} z.<lf>Continuare?
 <string>Necessari materiali e <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Forgiare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
+<string>Questo è un set di armatura completo.<lf>Verranno usati i materiali necessari<lf>e {0} z per creare tutto il set. <lf>Continuare?
+<string>Questo è un set di armatura completo.<lf>Verranno usati i materiali necessari e<lf>{0} z per creare tutto il set. Continuare?<lf><lf>(Otterrai anche il <COLOR preset="TXT_Accent">set di stile armatura</COLOR>.)
 <string>Equipaggiare adesso?
+<string>Se cambi questa parte, <COLOR preset="TXT_Danger">tutte le altre parti del<lf>set di stile armatura verranno rimosse</COLOR>.<lf>Vuoi cambiare la parte di armatura?
+<string>Questo è un set di armatura completo.<lf>Vuoi equipaggiare tutte le parti del set?<lf><lf><COLOR preset="TXT_Danger">(Lo stile armatura sarà nascosto.)</COLOR>
 <string>Rimuovere {0} <PLURAL {0} "punto in eccesso" "punti in eccesso">?
 <string>Anteprima
 <string><COLOR preset="TXT_Danger">La cassa equipaggiamento è piena.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">Non hai materiali di rinforzo.</COLOR>
 <string><COLOR preset="TXT_Danger">Possiedi già questo equipaggiamento, perciò non puoi forgiarlo o potenziarlo.</COLOR>
 <string><COLOR preset="TXT_Danger">Possiedi già questo equipaggiamento, perciò non puoi forgiarlo.</COLOR>
+<string><COLOR preset="TXT_Danger">Non puoi forgiare i set di armatura completi che possiedi già.</COLOR>
 <string>Equipaggiato attualmente: {0}
 <string>Fa già parte di un altro equipaggiamento.<lf>Rimuovere?
 <string><COLOR preset="TXT_Danger">Questo gioiello è attualmente in uso.</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">Non è possibile vendere questo equipaggiamento.</COLOR>
 <string><COLOR preset="TXT_Danger">Non è possibile vendere questo kinsetto perché è associato al falcione insetto.</COLOR>
 <string>Valore
+<string>Questo è un set di armatura completo.<lf>Tutte le parti del set verranno vendute.<lf>Vuoi vendere tutte le parti del set?
 <string>Questo equipaggiamento è registrato in un set.<lf>Vuoi davvero venderlo?
 <string>Vendere per {0} z?
 <string>Questo equipaggiamento ha un gioiello inserito.<lf>Rimuovere tutti i gioielli e vendere<lf>l'equipaggiamento per {0} z?

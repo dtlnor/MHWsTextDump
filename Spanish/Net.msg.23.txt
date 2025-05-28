@@ -9,6 +9,7 @@
 <string>Ha habido un error de comunicación.<lf>Debes volver al menú principal.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Algunas funciones del modo multijugador online<lf>no estarán disponibles.<lf><lf>Por favor, regístrate en {0}<lf>para acceder a todas las funciones del modo<lf>multijugador online.
+<string>Multijugador online restringido.<lf><lf>Error al obtener información sobre la suscripción<lf>de <PLATMSG RefGeneral_0026><lf>que es necesaria jugar online.
 <string>Esta cuenta no cumple con los requisitos<lf>necesarios para el multijugador online.
 <string>No se ha podido conectar a la red.<lf>Volviendo a la pantalla de título.
 <string>Error al conectar a la red.
@@ -45,6 +46,9 @@
 <string>No puedes bloquear a más jugadores, ya que<lf>has alcanzado el número máximo de bloqueados.<lf>{0}
 <string>En este momento se están realizando tareas<lf>de mantenimiento en los servidores.<lf>{0}
 <string>No puedes acceder a las funciones de brigada<lf>desde esta cuenta.<lf>{0}
+<string>La plataforma y la opción de<lf>juego interplataforma no coinciden.<lf>{0}
+<string>Esta operación está restringida.<lf>Comprueba la configuración de la consola.<lf>{0}
+<string>El jugador está desconectado.<lf>{0}
 <string>Se ha perdido la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
 <string>Error al buscar sesión.<lf>{0}
@@ -70,6 +74,7 @@
 <string>No puedes entrar en esta misión:<lf>la misión ya ha empezado.
 <string>No puedes participar en esta sesión: la opción<lf>de juego interplataforma es distinta a la tuya.<lf>Puedes ver tu opción y cambiarla en <BOLD>opciones</BOLD>,<lf>en la pantalla del título.<lf>{0}
 <string>Se ha alcanzado el límite de jugadores del<lf>grupo vinculado. No se pueden añadir más jugadores.<lf>{0}
+<string>No puedes unirte a salas privadas o salas de brigada<lf>mediante la búsqueda de amigos. Solo puedes unirte<lf>buscando la ID de sala o buscando en la sala de brigada.<lf>{0}
 <string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME year={0} month={1} day={2} format=" D [de] xMMMM [de] YYYY"> (UTC)<lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
 <string>Actitud abusiva o disruptiva
 <string>Tipos de comportamientos prohibidos

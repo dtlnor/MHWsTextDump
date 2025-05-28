@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>Spähkäfer-Mitteilungen
-<string>Wenn du Probleme hast, ein bestimmtes<lf>Objekt zu sammeln, kannst du mit<lf><ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> ein Spähkäfer-Mitteilungs-<lf>ziel auswählen und es dann mit der<lf>Hakenschleuder (<ICON PL_CATCH_SLINGER_SHOOT>) einsammeln.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>Spähkäfer-Mitteilungen
-<string>Wenn du mehr über ein Objekt oder eine<lf>Umweltfunktion aus der Spähkäfer-<lf>Mitteilung erfahren möchtest, kannst du<lf>sie mit <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> genauer betrachten.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>Aufgabe: Doshaguma-Jagd
 <string>In der Windebene wütet ein <COLOR preset="TXT_Accent">Doshaguma</COLOR>.<lf>Nimm die Quest an, sobald du dich in<lf>deinem Zelt vorbereitet hast.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>Bonus-Belohnungen
 <string><COLOR preset="TXT_Accent">Bonus-Belohnungen</COLOR> für Felderkundungen<lf>in hochrangigen Umgebungen wurden<lf>freigeschaltet. Schwierige Monster mit<lf>hoher ★-Bewertung winken mit beson-<lf>ders wertvollen Belohnungen.
 <string>Bonus-Belohnungen
-<string>Nutze die Karte oder das Fernglas, um<lf>herauszufinden, welche <COLOR preset="TXT_Accent">Bonus-Beloh-<lf>nungen</COLOR> ein Monster verspricht.<lf>Starte dann eine Felderkundung, indem<lf>du genug Schaden verursachst oder das<lf>Monster auf der Karte auswählst.
+<string>Wenn du die Bonus-Belohnungen eines<lf>Monsters überprüfen möchtest, wähle<lf>sein Symbol mit dem Kartenzeiger aus<lf>oder sieh in der Umgebungsinfo nach.
+<string>Bonus-Belohnungen
+<string>Starte eine <COLOR preset="TXT_Accent">Felderkundung</COLOR>, indem du<lf>das Symbol des Monsters auf der Karte<lf>auswählst oder indem du ihm genug<lf>Schaden zufügst (Schaden durch Um-<lf>gebungselemente wie beispielsweise<lf>fallende Felsen zählt nicht).
 <string>Felderkundung-Einschränkung
 <string>Dein Jägerrang bestimmt, welche<lf>Monster du auf Felderkundungen<lf>ins Visier nehmen kannst.<lf>Steige im JR auf, indem du Anfragen<lf>erledigst und Monster erjagst.
 <string>Untersuchungen
@@ -561,7 +563,7 @@
 <string>Perfektes Blocken
 <string>Drücke im Schwertmodus <ICON WP09 PL_ATTACK_SP> im Ein-<lf>klang mit dem Angriff eines Monsters,<lf>um ein <COLOR preset="TXT_Accent">Perfektes Blocken</COLOR> auszuführen.<lf>Drücke sofort danach <ICON WP09 PL_ATTACK_00>, um den<lf>Wilden Axthieb zu entfesseln.
 <string>Felderkundungen
-<string>Starte eine <COLOR preset="TXT_Accent">Felderkundung</COLOR>, indem du<lf>einem Monster genug Schaden zufügst<lf>oder indem du es aus den Symbolen auf<lf>der Karte auswählst.
+<string>Starte eine <COLOR preset="TXT_Accent">Felderkundung</COLOR>, indem du<lf>das Symbol des Monsters auf der Karte<lf>auswählst oder indem du ihm genug<lf>Schaden zufügst (Schaden durch Um-<lf>gebungselemente wie beispielsweise<lf>fallende Felsen zählt nicht).
 <string>Felderkundungen
 <string>Felderkundungen ermöglichen dir eine<lf>nahtlose Jagderfahrung, indem du eine<lf>Quest in deiner aktuellen Umgebung<lf>erstellst. Schließt du sie ab, kannst du<lf>zudem Vorräte und Belohnungen<lf>erhalten.
 <string>Felderkundungen
@@ -827,7 +829,7 @@
 <string>Die Expeditions-Rekordtafel
 <string><COLOR preset="TXT_Accent">Befristete Beutezüge</COLOR><lf>Sieh dir Aktivitäten und Expeditionen an,<lf>die online verfügbar sind, und hole deine<lf>Abschlussbelohnungen ab.
 <string>Die Expeditions-Rekordtafel
-<string><COLOR preset="TXT_Accent">Umgebungsinfo</COLOR><lf>Öffnet die Weltkarte, auf der du dir die<lf>Umgebungsinformationen zu jedem Gebiet<lf>ansehen kannst. (Auch über die normale<lf>Weltkarte zugänglich.)
+<string><COLOR preset="TXT_Accent">Umgebungsinfo</COLOR><lf>In der Weltkarte kannst du den<lf>derzeitigen Status sowie Vorhersagen<lf>für die verschiedenen Orte einsehen.
 <string>Die Expeditions-Rekordtafel
 <string><COLOR preset="TXT_Accent">Ranglisteninformationen</COLOR><lf>Sieh dir persönliche oder weltweite<lf>Rekorde sowie die Rekorde deiner Jagd-<lf>freunde oder Jagdgruppenmitglieder an.
 <string>Fass-Bowling
@@ -854,6 +856,32 @@
 <string>Während des Eventzeitraums kannst<lf>du statt einem nun zwei Superglück-<lf>Gutscheine pro Tag sowie Blütentanz-<lf>Tickets und andere Belohnungen als<lf>Anmeldebonus erhalten.
 <string>Eventquests verfügbar!
 <string>Eine Reihe zeitlich begrenzter Event-<lf>quests wird nach und nach verfügbar<lf>gemacht!<lf>Auch viele vergangene Eventquests<lf>können erneut gespielt werden.
+<string>Komplette Rüstungssets
+<string>Du kannst nun Rüstungssets herstellen,<lf>die dein komplettes Aussehen ändern.<lf>Rüstest du ein Teil aus, werden alle<lf>anderen Teile automatisch mit angelegt.
+<string>Komplette Rüstungssets
+<string>Du schmiedest und verkaufst komplette<lf>Rüstungssets in einem, das heißt die<lf>Herstellung und der Verkauf einzelner<lf>Teile ist nicht möglich.<lf>Verbesserungen und Deko gelten aber<lf>für jedes Teil einzeln.
+<string>Komplette Dekorrüstungen anlegen
+<string>Komplette Dekorrüstungssets wurden<lf>hinzugefügt.<lf>Rüstest du ein Teil aus, werden alle<lf>anderen Teile automatisch mit angelegt.
+<string>Einheimische Wesen verwalten
+<string>Du kannst nun die Details gefangener<lf>einheimischer Wesen nachschlagen,<lf>Favoriten setzen oder sie zurück in die<lf>Wildnis entlassen.
+<string>Akumas Herausforderung
+<string>Beweise Akuma deine Stärke, indem<lf>du die Arenaquest „Dämonenkraft“<lf>abschließt.
+<string>Die Quest annehmen
+<string>Arenaquests kannst du am Arenaquest-<lf>Schalter in der Großen Stätte annehmen.<lf>Bereite dich gut vor!
+<string>Akuma-Aktionen
+<string>Wenn du das Akuma-Rüstungsset aus der<lf>SF6-Kooperation anlegst, kannst du<lf>besondere Objekte und Gesten einsetzen!
+<string>Automatische Combos
+<string>Nach Ausrüsten der Automatischen Combo<lf>über die Objektleiste löst du mit <ICON PL_ITEM><lf>Spezial-Aktionen aus.<lf>Drücke dann <ICON PL_WEAPON_ON> oder <ICON PL_ATTACK_01>, um weitere<lf>Techniken anzuschließen.
+<string>Drive Impacts
+<string>Löse mit <ICON PL_ITEM> einen Move aus, der wie ein<lf>Gegenstoß-Angriff wirkt.<lf>Triffst du eine Wunde oder einen Schwach-<lf>punkt, wird Shun Goku Satsu entfesselt.
+<string>Weitere Aktionen
+<string>Du kannst auch die Geste „Gou Shoryuken“<lf>nutzen und Gou-Hadoken-Schleuder-<lf>munition einsetzen.<lf>Weitere Details findest du unter Grund-<lf>steuerung > Akuma.
+<string>Das angepasste Tortenmenü
+<string>Weise diese neuen Aktionen dem ange-<lf>passten Tortenmenü zu, um sie während<lf>Quests schnell verwenden zu können.
+<string>Mit Tickets Ausrüstung schmieden
+<string>Verdiene SF6-Tickets mit Arenaquests<lf>der SF6-Kooperation und schmiede<lf>Akuma-Objekte!
+<string>Quest für Fortgeschrittene
+<string>Die Arenaquest „Wahre Stärke“ wurde<lf>freigeschaltet. Tritt in Rekordjagd gegen<lf>Jäger aus der ganzen Welt an!
 <string>Wunden
 <string>Du kannst jetzt alte Dekorationen für<lf>Einschmelzpunkte eintauschen, mit denen<lf>du <COLOR preset="TXT_Accent">neue Dekorationen herstellen</COLOR> kannst.<lf>Wenn du bestimmte Anforderungen erfüllst,<lf>erweitern sich die Optionen.
 <string>Dekorationen und Ausrüstungssets

@@ -129,6 +129,12 @@
 <string>Wychylenie <ICON PAD PL_DUMMY_MOVE> podczas ruchu z maksymalną<lf>prędkością spowoduje opuszczenie trasy tylko<lf>dla Seikreta.
 <string>Typ 2
 <string>Wychylenie <ICON PAD PL_DUMMY_MOVE> i naciśnięcie <ICON PAD PL_INTERACT_ACTION_START> pozwala<lf>opuścić aktualną trasę tylko dla Seikreta<lf>bez względu na prędkość.
+<string>Wyświetlanie paska przedmiotów
+<string>Dostosowuje wyświetlanie przedmiotów<lf>podczas używania paska przedmiotów<lf>w trybie celowania.
+<string>Typ 1
+<string>Tylko przedmioty od procy będą wyświetlane<lf>podczas używania paska przedmiotów<lf>w trybie celowania.
+<string>Typ 2
+<string>Wszystkie przedmioty będą wyświetlane<lf>podczas używania paska przedmiotów<lf>w trybie celowania.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Z dobytą bronią <ICON PAD PL_AIM_TOGGLE> włączy lub wyłączy<lf>tryb skupienia dla broni białych<lf>i tryb celowania/skupienia dla broni dystansowych.
 <string>Zawansowane sterowanie trybu celowania/skupienia
 <string>Ustawia sposób, w jaki tryb celowania/skupienia i tryb<lf>skupienia są aktywowane osobno dla wyciągniętej broni<lf>białej i dystansowej. <COLOR preset="TXT_Accent">(Nie ma wpływu na sterowanie procą)</COLOR>
+<string>Dostosowuje aktywację celowania z procy przy<lf>schowanej broni i trybu celowania/skupienia dla<lf>wyciągniętej broni białej/dystansowej osobno.
+<string>Celowanie z procy (schowana broń)
+<string>Dostosowuje sposób aktywacji celowania<lf>z procy, gdy broń jest schowana.
+<string><ICON PAD PL_AIM>, aby aktywować tryb
+<string>Przytrzymanie <ICON PAD PL_AIM> pozwala celować<lf>z procy, gdy broń jest schowana.
+<string>Naciśnij <ICON PAD PL_POP_CHANGE_SELECT>, by przełączyć tryb
+<string>Naciśnięcie <ICON PAD PL_POP_CHANGE_SELECT> włącza lub wyłącza<lf>celowanie z procy, gdy broń jest schowana.
 <string>Broń biała
 <string>Dostosowuje sposób aktywacji trybu skupienia<lf>dla broni białej.
 <string><ICON PAD PL_AIM>, aby aktywować tryb
@@ -1177,8 +1190,8 @@
 <string>Zawsze wyświetla paski zdrowia koleżkota<lf>i innych towarzyszy.
 <string>Dynamiczny
 <string>Wyświetla domyślnie zminimalizowany<lf>pasek zdrowia koleżkota i innych towarzyszy.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
-<string>Wyświetlaj czasu, który upłynął dla niektórych zadań
-<string>Określa, czy przytrzymanie <ICON PL_ITEM_SLIDER_OPEN> spowoduje wyświetlenie czasu,<lf>który upłynął podczas zadania na arenie,<lf>darmowego wyzwania czy wyzwania.
+<string>Wyświetlanie czasu dla niektórych zadań
+<string>Określa, czy przytrzymanie <ICON PL_ITEM_SLIDER_OPEN> spowoduje wyświetlenie czasu,<lf>który upłynął podczas zadania na arenie,<lf>swobodnego wyzwania czy wyzwania.
 <string>Wyświetlaj
 <string>Podczas niektórych zadań przytrzymanie <ICON PL_ITEM_SLIDER_OPEN><lf>spowoduje wyświetlenie upływającego czasu<lf>wraz z celami.
 <string>Nie wyświetlaj
@@ -1277,7 +1290,7 @@
 <string>Pokaż
 <string>Pokazuje osłonę głowy łowcy odzwierciedlającą<lf>aktualne ustawienia wyposażenia i wyglądu.<lf><COLOR preset="TXT_Accent">(W szczególnych okolicznościach osłona głowy<lf>nadal będzie ukryta)</COLOR>
 <string>Ukryj
-<string>Nie wyświetla osłony głowy łowcy, niezależnie<lf>od aktualnych ustawień wyposażenia i wyglądu.
+<string>Nie wyświetla osłony głowy łowcy, niezależnie<lf>od aktualnych ustawień wyposażenia i wyglądu.<lf><COLOR preset="TXT_Accent">(Nie ma wpływu na pełne pancerze).</COLOR>
 <string>Ukryj podczas przerywników
 <string>Z wyjątkiem przerywników, pokazuje osłonę<lf>głowy łowcy odzwierciedlającą aktualne<lf>ustawienia wyposażenia i wyglądu.
 <string>Ustawienia łowcy wspierającego
@@ -1332,7 +1345,7 @@
 <string>Dostosowuje, czy imiona innych graczy<lf>są wyświetlane anonimowo.
 <string>Imiona wszystkich graczy są anonimowe
 <string>Wyświetla anonimowe imiona wszystkich graczy<lf>poza twoim.<lf><COLOR preset="TXT_Accent">(Profile łowców nie są anonimowe)</COLOR>
-<string>Anonimowe imiona graczy spoza połączonej grupy
+<string>Anonim. im. graczy spoza wspólnej grupy
 <string>Wyświetla anonimowe imiona graczy, którzy<lf>nie są członkami twojej połączonej grupy.<lf><COLOR preset="TXT_Accent">(Profile łowców nie są anonimowe)</COLOR>
 <string>Wyświetlaj imiona graczy
 <string>Nie wyświetla anonimowych imion graczy<lf>(łącznie z twoim).
@@ -1404,11 +1417,11 @@
 <string>Głośność komunikacji głosowej
 <string>Ustaw głośność innych graczy w komunikacji głosowej.
 <string>Automatyczna zamiana kom. głos.
-<string>Określa, czy automatycznie przełączać kanały<lf>komunikacji głosowej w zależności od statusu zadania.<lf><COLOR preset="TXT_Accent">(Można przełączać ręcznie w każdej chwili)</COLOR>
+<string>Określa automatyczne przełączanie kanałów<lf>głosowych i czatu, oraz filtrów dziennika czatu.<lf><COLOR preset="TXT_Accent">(Można przełączać ręcznie w każdej chwili).</COLOR>
 <string>Priorytet członków zadania
-<string>Automatycznie przełącza na komunikację głosową<lf>z członkami w zadaniu przy rozpoczęciu zadania<lf>i powraca do komunikacji głosowej z członkami<lf>grupy po powrocie z zadania.
+<string>Automatycznie przełącza na kanał<lf>członków zadania przy rozpoczęciu<lf>zadania, po czym powraca do kanału<lf>członków grupy po powrocie z zadania.
 <string>Priorytet członków grupy
-<string>Automatycznie przełącza na komunikację głosową<lf>z członkami grupy przy dołączaniu do wspólnej<lf>grupy, niezależnie od statusu zadania.
+<string>Automatycznie przełącza na kanał członków<lf>grupy przy dołączaniu do wspólnej<lf>grupy, niezależnie od statusu zadania.
 <string>Brak priorytetu
 <string>Nie nadaje priorytetu ani nie przełącza<lf>automatycznie na komunikację głosową.<lf>Przełączenie trzeba wykonać ręcznie.
 <string>Język felinów
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Chiński mandaryński

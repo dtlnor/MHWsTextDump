@@ -193,7 +193,7 @@
 <string><ICON ME PL_WEAPON_ON> lub <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
 <string>Jeśli nosisz broń białą, możesz zadać<lf>atak z bliskiej odległości podczas<lf>jazdy.<lf><lf><ICON ME PL_WEAPON_ON>: zaatakuj, siedząc na Seikrecie.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: zaatakuj, zeskakując<lf>z Seikreta.
 <string>
-<string>Dobyj broni, siedząc na Seikrecie
+<string>Dobądź broni, siedząc na Seikrecie
 <string><INPUTMSG MsgGUI600200_00_033>
 <string><INPUTMSG MsgGUI600200_00_034>
 <string><INPUTMSG MsgGUI600200_00_034_01>
@@ -268,7 +268,7 @@
 <string>Zapewnia ochronę przed naporem wiatru.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_NOISE> Zat. do uszu (M)/<ICON ST_RESIST_NOISE_HIGH> Zat. do uszu (D)
-<string>Zapewnia ochronę przed rykiem potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>Zapewnia ochronę przed rykiem potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_QUAKE> Neutralizacja wstrząsów
 <string>Zapewnia ochronę przed wstrząsami<lf>ziemi.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
@@ -283,7 +283,7 @@
 <string>Neutralizuje wszystkie plagi żywiołów.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
 <string>
 <string><ICON ST_RESIST_DEBUF> Neutralizacja szk. efektów
-<string>Zapobiega wszystkim szkodliwym<lf>efektom statusów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
+<string>Zapobiega wszystkim szkodliwym<lf>efektom statusów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii rogu<lf>łowieckiego i baniek echa
 <string>
 <string><ICON ST_SOUND_BARRIER> Bariera akustyczna
 <string>Jednorazowo zmniejsza obrażenia<lf>oraz neutralizuje napór wiatru,<lf>wstrząsy ziemi i ryki potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
@@ -292,7 +292,7 @@
 <string>Neutralizuje obrażenia spowodowane lawą<lf>lub podłożem z kolcami, a także<lf>zapobiega negatywnym efektom<lf>intensywnego ciepła lub zimna.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_MUD> Mobilność w wodzie i oleistym mule
-<string>Zapobiega spowolnieniu przez głęboką<lf>wodę lub głęboki śnieg. Neutralizuje<lf>także efekty fal tworzonych<lf>przez potwory.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>Zapobiega spowolnieniu przez<lf>głęboką wodę lub głęboki śnieg.<lf>Neutralizuje także efekty fal<lf>tworzonych przez potwory.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii<lf>rogu łowieckiego
 <string>
 <string><ICON ST_RESIST_COLD> Odporność na zimno
 <string>Neutralizuje efekty zmniejszania się<lf>maksymalnej wytrzymałości<lf>na przenikliwie zimnych obszarach.<lf><lf>Najczęściej zdobywany przez:<lf>– spożywanie gorących napojów<lf>– zbieranie żaronek kapturnic
@@ -310,7 +310,7 @@
 <string><INPUTMSG MsgGUI600200_00_020>
 <string><INPUTMSG MsgGUI600200_00_020_01>
 <string><ICON ST_SLEEP> Sen
-<string>Gdy dopadnie cię senność, po krótkim<lf>czasie zaśniesz, co uniemożliwi ci<lf>poruszanie się. Dzieje się tak po<lf>zgromadzeniu odpowiedniego poziomu<lf>tego statusu.<lf><lf>Najczęściej neutralizowany przez:<lf>– wypicie napoju energetycznego przed<lf>zaśnięciem<lf>– zostanie trafionym atakiem<lf>– czekanie na ustąpienie efektu<lf>po zaśnięciu
+<string>Gdy dopadnie cię senność, po krótkim<lf>czasie zaśniesz, co uniemożliwi ci<lf>poruszanie się. Dzieje się tak po<lf>zgromadzeniu odpowiedniego<lf>poziomu tego statusu.<lf><lf>Najczęściej neutralizowany przez:<lf>– wypicie napoju energetycznego<lf>przed zaśnięciem<lf>– zostanie trafionym atakiem<lf>– czekanie na ustąpienie efektu<lf>po zaśnięciu
 <string>
 <string><ICON ST_BOMB><REF RefStatus_0008_002_04>
 <string>Status, który detonuje eksplozję,<lf>która odrzuca cię do tyłu i zadaje<lf>obrażenia. Wyzwala się po upływie<lf>określonego czasu lub po trafieniu<lf>atakiem.<lf><lf>Najczęściej neutralizowany przez:<lf>– użycie dezodorantu<lf>– wielokrotny unik z rzędu
@@ -358,7 +358,7 @@
 <string>Efekt, który neutralizuje właściwości<lf>żywiołu broni i amunicji do procy.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie oczystki<lf>– wielokrotne uniki<lf>– czekanie na ustąpienie efektu
 <string>
 <string>Wstrząs
-<string>Status, który ogranicza ruch. Czas<lf>trwania ograniczenia zależy od siły<lf>wstrząsu.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym atakiem
+<string>Status, który ogranicza ruch.<lf>Czas trwania ograniczenia zależy<lf>od siły wstrząsu.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym atakiem
 <string>
 <string>Ogłuszenie
 <string>Status, który ogranicza ruch.<lf>Czas trwania ograniczenia<lf>zależy od siły ryku.<lf><lf>Najczęściej neutralizowany przez:<lf>– czekanie na ustąpienie efektu<lf>– uderzenie w wyniku ataku
@@ -408,7 +408,7 @@
 <string>
 <string>Tryb skupienia
 <string><ICON ME PL_AIM> z dobytą bronią
-<string>Możesz używać Trybu skupienia trzymając<lf><ICON ME PL_AIM> z dobytą bronią. W Trybie<lf>skupienia atakujesz w kierunku,<lf>w którym zwrócona jest kamera i<lf>blokujesz atak z tego samego kierunku.<lf>Niektóre ataki zmienią się<lf>po skierowaniu kamery w górę.<lf><lf>Możesz wykonać Skupiony atak, naciskając<lf><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B> z dobytą bronią. Trafienie<lf>w ranę lub słaby punkt potwora spowoduje<lf>specjalny atak, który zadaje duże obrażenia.
+<string>Możesz używać trybu skupienia<lf>trzymając <ICON ME PL_AIM> z dobytą bronią.<lf>W trybie skupienia atakujesz oraz<lf>blokujesz w kierunku, w którym<lf>zwrócona jest kamera. Niektóre<lf>ataki zmienią się po skierowaniu<lf>kamery w górę. Możesz wykonać<lf>skupiony atak, naciskając <ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B><lf>z dobytą bronią. Trafienie w ranę<lf>lub słaby punkt potwora spowoduje<lf>specjalny atak, który zadaje<lf>duże obrażenia.
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
@@ -423,7 +423,7 @@
 <string>
 <string><REF ActionGuideDataNameTextCommon_193009104>
 <string><ICON ME merge="PL_ATTACK_00,REPEAT_ON">
-<string>Podczas blokowania niektórych ataków<lf>dochodzi do starcia między łowcą<lf>a potworem.<lf><lf>Naciśnij <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, aby<lf>odepchnąć potwora i pozbawić go<lf>równowagi, co da ci szansę na atak.
+<string>Walka pomiędzy łowcą a potworem,<lf>która ma miejsce podczas<lf>blokowania niektórych ataków.<lf><lf>Naciśnij <ICON ME merge="PL_ATTACK_00,REPEAT_ON">, aby odepchnąć<lf>potwora i pozbawić go równowagi,<lf>co da ci szansę na atak.
 <string>
 <string><REF ActionGuideDataNameTextCommon_817397888>
 <string>Możesz wywołać Przełamujący atak,<lf>używając określonych ruchów dokładnie<lf>wtedy, gdy potwór atakuje, by go<lf>odeprzeć i potencjalnie odepchnąć.<lf><lf>Jeśli twój Przełamujący atak<lf>odepchnie potwora, możesz<lf>kontynuować natarcie przy użyciu<lf>wielu potężnych ataków.
@@ -517,7 +517,7 @@
 <string>Atakując potwora w jedno miejsce,<lf>możesz otworzyć ranę. Rany mają<lf>trzy poziomy: zadrapanie, otwarta<lf>rana po kolejnych atakach i po<lf>zniszczeniu rany blizna.<lf><lf>Atakowanie rany zwiększy obrażenia,<lf>a trafienie Skupionym atakiem<lf>zniszczy ranę za jednym zamachem.
 <string>
 <string>Łapanie potworów
-<string>Osłabione potwory można złapać,<lf>używając pułapek lub bomb uspokajających. <lf>Uwaga: Nie możesz wycinać materiałów <lf>ze schwytanych potworów.<lf><lf>Gildia zachęca do łapania ich,<lf>ponieważ pozwala im to zbadać potwory<lf>bez polowania na nie. Z tego powodu <lf>prośby te są czasami nagradzane trudnymi <lf>lub niemożliwymi do uzyskania poprzez <lf>wycinanie materiałami.
+<string>Osłabione potwory można złapać,<lf>używając pułapek lub bomb<lf>uspokajających. Nie możesz wycinać<lf>materiałów ze schwytanych potworów.<lf><lf>Gildia zachęca do łapania ich,<lf>ponieważ pozwala im to zbadać potwory<lf>bez polowania na nie. Z tego powodu <lf>prośby te są czasami nagradzane<lf>trudnymi lub niemożliwymi do uzyskania<lf>poprzez wycinanie materiałami.
 <string>
 <string>Osłabianie potwora
 <string>Aby złapać potwora, musisz go najpierw<lf>osłabić do pewnego stopnia.<lf><lf>Gdy będzie słaby, użyj dołu-pułapki<lf>lub pułapki rażącej, aby go usidlić,<lf>a następnie użyj przedmiotów<lf>do łapania, takich jak bomby<lf>uspokajające, aby jeszcze bardziej<lf>ograniczyć jego ruchy.<lf><lf>Gdy będzie odpowiednio unieruchomiony<lf>i zaśnie, zostanie złapany.
@@ -540,4 +540,40 @@
 <string>
 <string>Starzejąca się padlina
 <string>Z czasem zwłoki potworów zaczynają<lf>gnić. Można z nich wyciąć różne<lf>materiały, w zależności od tego, czy<lf>są świeże, czy zgniłe.<lf><lf>Małe potwory po zgniciu czasem dają<lf>sterty kości lub pędy wiwernika,<lf>z których możesz zbierać materiały.<lf>Zwłoki Strażników przechodzą<lf>w postać skrystalizowaną,<lf>która daje własne unikalne materiały.
+<string>
+<string>Akuma
+<string>O Akumie
+<string>Demon walki, który przyjął w siebie<lf>Satsui no Hado, aby stać się<lf>prawdziwym mistrzem pięści.
+<string>
+<string>Umiejętności
+<string>Wyposażona broń główna wpływa<lf>na moc ataków Akumy.<lf><lf>Dodatkowo noszenie pełnego<lf>pancerza Akumy:<lf>– Znacznie zwiększa moc ataku<lf>w porównaniu do używania jedynie<lf>pancerza warstwowego.<lf>– Dodaje właściwości przełamującego<lf>ataku do ruchu.<lf>– Dodaje wartości oszołomienia do<lf>ataków kombinacji z asystą.
+<string>
+<string><REF ActionGuideDataNameTextCommon_24360>
+<string><ICON PL_ITEM> ze schowaną bronią
+<string>Wybierz i użyj przedmiotu kombinacji<lf>z asystą: Akuma, aby wykonać kombinację<lf>z asystą 1. Naciśnij <ICON PL_ITEM>, by rozpocząć,<lf>a następnie naciśnij ponownie <ICON PL_ITEM>,<lf>by stworzyć kombinację. Możesz wykonać<lf>maksymalnie trzy ataki.<lf><lf>Dostępne są też dodatkowe kombinacje:<lf>– W trakcie kombinacji naciśnij <ICON PL_BT_RIDE_ATTACK_L>,<lf>by przejść do kombinacji z asystą 2.<lf>– W trakcie kombinacji naciśnij <ICON PL_BT_RIDE_ATTACK_S>,<lf>by przejść do kombinacji z asystą 3.
+<string>
+<string><REF ActionGuideDataNameTextCommon_26652>
+<string><ICON PL_BT_RIDE_ATTACK_L> podczas kombinacji z asystą 1
+<string>Kombinacja, którą można wyprowadzić<lf>z kombinacją z asystą 1.<lf><lf>Po kombinacji z asystą 1 naciśnij <ICON PL_BT_RIDE_ATTACK_L>,<lf>a następnie naciśnij <ICON PL_BT_RIDE_ATTACK_L> jeszcze raz,<lf>by kontynuować kombinację.<lf>Możesz wykonać maksymalnie trzy ataki.<lf><lf>W trakcie kombinacji naciśnij <ICON PL_BT_RIDE_ATTACK_S>,<lf>by przejść do kombinacji z asystą 3.<lf><lf>Uwaga: na klawiaturze współdzieli<lf>klawisz z atakami nożem.
+<string>
+<string><REF ActionGuideDataNameTextCommon_14220>
+<string><ICON PL_BT_RIDE_ATTACK_S> podczas kombinacji z asystą 1 lub 2
+<string>Kombinacja, którą można wyprowadzić<lf>z kombinacji z asystą 1 lub 2.<lf><lf>Po rozpoczęciu kombinacji z asystą<lf>naciśnij <ICON PL_BT_RIDE_ATTACK_S>, a następnie naciśnij <ICON PL_BT_RIDE_ATTACK_S><lf>jeszcze raz, by wykonać kombinację<lf>z asystą 3. Możesz wykonać<lf>maksymalnie trzy ataki.<lf><lf>Uwaga: na klawiaturze współdzieli<lf>klawisz z atakami nożem.
+<string>
+<string>Drive Impact
+<string><ICON PL_ITEM> ze schowaną bronią
+<string>Atak, który można wykonać, wybierając<lf>Drive Impact z paska przedmiotów lub<lf>naciskając <ICON PL_AIM> <ICON PLUS> <ICON PL_ATTACK_SP_B> podczas kombinacji.<lf>Możesz wykonać ten atak tylko wtedy,<lf>gdy pasek Drive jest pełny.<lf><lf>Jeśli trafisz w ranę lub słaby punkt<lf>potwora, wykonasz Shun Goku Satsu.<lf>Z założonym pełnym pancerzem Akumy<lf>ten atak zyskuje właściwości ataku<lf>przełamującego. Wykonanie Shun Goku<lf>Satsu lub ataku przełamującego<lf>wyczerpie pasek Drive.
+<string>
+<string><REF ActionGuideDataNameTextCommon_2219>
+<string>Tajemna technika, która przytłacza<lf>przeciwnika kolejnymi atakami<lf>wykonanymi w jednej sekundzie.<lf>Skuteczna na rany i słabe punkty<lf>potwora.<lf><lf>Może też istnieć inny sposób<lf>na wykonanie tego ruchu...
+<string>
+<string><REF ActionGuideDataNameTextCommon_4962>
+<string>Pasek wypełniający się w miarę<lf>upływu czasu. Gdy się zapełni,<lf>możesz użyć Drive Impact.<lf><lf>Wykonanie Shun Goku Satsu lub<lf>ataku przełamującego wyczerpie<lf>pasek Drive.<lf><lf>Uwaga: noszenie pełnej zbroi<lf>daje Drive Impact właściwości<lf>ataku przełamującego.
+<string>
+<string><REF Gesture_NAME_31>
+<string>Gest wykonujący atak z cięciem<lf>w górę.<lf><lf>Użyty po ostatnim ruchu kombinacji<lf>z asystą stanie się potężniejszym<lf>Gou Shoryuken. Zapisz go we własnym<lf>menu kołowym, by podczas zadania<lf>mieć do niego łatwy dostęp.<lf><lf>Może też istnieć inny sposób<lf>na wykonanie tego ruchu...
+<string>
+<string><REF ActionGuideDataNameTextCommon_5188>
+<string><INPUTMSG MsgGUI600200_00_031> ze schowaną bronią
+<string><INPUTMSG MsgGUI600200_00_045>
 <string>

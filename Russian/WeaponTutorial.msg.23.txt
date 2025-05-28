@@ -99,7 +99,7 @@
 <string><REF ActionGuideDataNameText_Wp03_456426976>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_ATTACK_00>
 <string><REF ActionGuideDataNameText_Wp03_1048171072>
-<string>Когда выпад духа достигает цели, ваша<lf>шкала духа теряет один уровень (если<lf>шкала белая или лучше), но вы можете<lf>применить духовный крушитель черепов.<lf><lf>Когда шкала духа окрашена красным,<lf>после духовного сокрушения черепов<lf>можно провести высвобождающий удар<lf>духа. Духовное сокрушение черепов<lf>можно прервать с помощью <ICON WP03 PL_WEAPON_OFF>.
+<string>Когда выпад духа достигает цели, ваша<lf>шкала духа теряет один уровень (если<lf>шкала белая или лучше), но вы можете<lf>применить духовный крушитель черепов.<lf><lf>Когда шкала духа окрашена красным,<lf>после духовного крушителя черепов<lf>можно провести высвобождающий<lf>удар духа.<lf><lf>Духовный крушитель черепов можно<lf>прервать с помощью <ICON WP03 PL_WEAPON_OFF>.
 <string>
 <string><ICON WP03 PL_ATTACK_SP><ICON PLUS><ICON WP03 PL_DODGE> (после атаки)
 <string><REF ActionGuideDataNameText_Wp03_m1559988736>
@@ -187,7 +187,7 @@
 <string><REF ActionGuideDataNameText_Wp01_1418448640>
 <string><ICON WP01 merge="PL_ATTACK_00,HOLD_ON"><ICON PLUS><ICON WP01 merge="PL_ATTACK_01,HOLD_ON"> (при выполнении комбо)
 <string><REF ActionGuideDataNameText_Wp01_937851328>
-<string>Мощная атака в рывке. Попадание<lf>в незащищённое место на шкуре монстра,<lf>позволяет нанести урон несколько раз.<lf>Этот удар усиливается, если следует<lf>за определёнными атаками.
+<string>Мощная атака в рывке. Попадание<lf>в незащищённое место на шкуре монстра<lf>позволяет нанести урон несколько раз.<lf><lf>Этот удар усиливается, если следует<lf>за определёнными атаками.
 <string>
 <string><ICON WP01 PL_MOVE_BACK><ICON PLUS><ICON WP01 PL_ATTACK_01> (при выполнении комбо)
 <string>Во время выполнения комбо можно<lf>сделать шаг назад, чтобы избежать<lf>атак монстра.<lf><lf>Нажмите <ICON WP01 PL_ATTACK_00> при шаге назад, чтобы<lf>выполнить идеальный натиск — атаку<lf>из нескольких ударов, наносящую<lf>стихийный урон и вызывающую недуги.<lf>Нажмите <ICON WP01 PL_ATTACK_00> в правильный момент, чтобы<lf>повысить урон.
@@ -504,7 +504,7 @@
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m208341008>
-<string>Атака, высвобождающая эффекты<lf>мелодии. Если у вас готово несколько<lf>мелодий, вы исполните их по очереди.<lf>Выбрать мелодию для исполнения можно<lf>с помощью <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01>.<lf><lf>При исполнении нескольких мелодий,<lf>нажмите <ICON WP05 PL_ATTACK_SP> для удара в такт. Затем,<lf>вы сможете сыграть на бис (<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>),<lf>чтобы усилить эффекты мелодий<lf>и продлить их действие.<lf><lf>Ударяя в такт и играя на бис в момент<lf>активации эффектов мелодии, вы<lf>наносите больше урона от атак.
+<string>Атака, высвобождающая эффекты<lf>мелодии. Если у вас готово несколько<lf>мелодий, вы исполните их по очереди.<lf>Выбрать мелодию для исполнения<lf>можно с помощью <ICON WP05 PL_ATTACK_SP><ICON PLUS><ICON WP05 PL_ATTACK_00> или <ICON WP05 PL_ATTACK_01>.<lf><lf>При исполнении нескольких мелодий<lf>нажмите <ICON WP05 PL_ATTACK_SP> для удара в такт. Затем<lf>вы сможете сыграть на бис (<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>),<lf>чтобы усилить эффекты мелодий<lf>и продлить их действие.<lf><lf>Ударяя в такт и играя на бис в момент<lf>активации эффектов мелодии, вы<lf>наносите больше урона от атак.
 <string>
 <string><ICON WP05 PL_ATTACK_SP>
 <string><REF ActionGuideDataNameText_Wp05_m1751799040>
@@ -646,7 +646,7 @@
 <string><ICON ST_POWER_UP_HORN><ICON ST_CRITICAL_UP> Усиление атаки и мастерства
 <string>Повышает показатели силы атаки<lf>и мастерства.
 <string>
-<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP> усиление защиты и сопротивления стихии
+<string><ICON ST_DEFECE_UP_HORN><ICON ST_RESIST_ELEMENT_UP> Усиление защиты и сопротивления стихиям
 <string>Повышает показатели защиты<lf>и сопротивления стихиям.
 <string>
 <string><ICON ST_RESIST_DEBUF> <REF HibikiDataText_Wp05_6>
@@ -693,7 +693,7 @@
 <string>Быстрое музыкальное комбо
 <string>Базовая атака
 <string><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>Если исполнить после удара рукоятью,<lf>эффекты мелодии активируются быстрее.
+<string>Если исполнить композицию после<lf>удара рукоятью, эффекты мелодии<lf>активируются быстрее.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> или <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
@@ -1006,7 +1006,7 @@
 <string>Ваши удары в режиме меча вызывают<lf>небольшие взрывы. Тип урона,<lf>наносимого этими взрывами, зависит<lf>от типа используемой склянки.
 <string>
 <string>Типы склянок
-<string>Атаки в режиме меча расходуют шкалу<lf>переключения и имеют особый эффект,<lf>зависящий от типа склянки. Некоторые<lf>склянки заполняют шкалу пробуждения<lf>быстрее прочих.<lf><lf><COLOR preset="TXT_Accent">Склянка силы</COLOR> — физический урон.<lf><COLOR preset="TXT_Accent">Склянка стихий</COLOR> — стихийный урон.<lf><COLOR preset="TXT_Accent">Склянка яда</COLOR> — отравление.<lf><COLOR preset="TXT_Accent">Склянка паралича</COLOR> — паралич.<lf><COLOR preset="TXT_Accent">Склянка дракона</COLOR> — драконий урон.<lf><COLOR preset="TXT_Accent">Склянка усталости</COLOR> — оглушение/усталость.
+<string>Атаки в режиме меча расходуют шкалу<lf>переключения и имеют особый эффект,<lf>зависящий от типа склянки. Некоторые<lf>склянки заполняют шкалу мощности<lf>быстрее прочих.<lf><lf><COLOR preset="TXT_Accent">Склянка силы</COLOR> — физический урон.<lf><COLOR preset="TXT_Accent">Склянка стихий</COLOR> — стихийный урон.<lf><COLOR preset="TXT_Accent">Склянка яда</COLOR> — отравление.<lf><COLOR preset="TXT_Accent">Склянка паралича</COLOR> — паралич.<lf><COLOR preset="TXT_Accent">Склянка дракона</COLOR> — драконий урон.<lf><COLOR preset="TXT_Accent">Склянка усталости</COLOR> — оглушение/усталость.
 <string>
 <string>Комбо для заполнения шкалы переключения
 <string><REF ActionGuideDataNameText_Wp08_143967248>
@@ -1033,7 +1033,7 @@
 <string><REF ActionGuideDataNameText_Wp08_m1178457984>
 <string><ICON WP08 PL_ATTACK_01>
 <string>
-<string>Комбо для заполнения шкалы мощности в режим меча
+<string>Комбо для заполнения шкалы мощности в режиме меча
 <string><REF ActionGuideDataNameText_Wp08_150431184>
 <string><ICON WP08 PL_ATTACK_01>
 <string>Комбо, которое поможет быстро заполнить<lf>шкалу мощности в режиме меча.
@@ -1212,7 +1212,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_816598592>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 PL_ATTACK_00>
-<string>Вы приказываете кинсекту атаковать<lf>отмеченную часть тела монстра.<lf><lf>Удерживайте <ICON WP10 PL_ATTACK_SP> для отображения прицела.<lf>Нажмите <ICON WP10 PL_ATTACK_SP>, чтобы отметить цель.
+<string>Вы приказываете кинсекту атаковать<lf>отмеченную прицелом часть тела<lf>монстра, чтобы собрать экстракт.<lf><lf>Удерживайте <ICON WP10 PL_ATTACK_SP> для отображения<lf>прицела. Нажмите <ICON WP10 PL_ATTACK_SP>, чтобы отметить<lf>цель.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 PL_ATTACK_SP><ICON PLUS><ICON WP10 merge="PL_ATTACK_00,HOLD_ON">
@@ -1340,7 +1340,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp13_1238769920>
 <string><ICON WP13 PL_ATTACK_01> (после выстрела)
-<string>Нажмите <ICON WP13 PL_ATTACK_01> после выстрела, чтобы<lf>произвести преследующий выстрел.<lf>Это более эффективная атака, которая<lf>восполняет шкалу быстрой стрельбы<lf>быстрее, чем обычные выстрелы.<lf><lf>Преследующий выстрел нельзя<lf>совершить после сфокусированного<lf>взрыва или выстрела особыми<lf>снарядами.
+<string>В режиме фокусировки нажмите <ICON WP13 PL_ATTACK_01><lf>после выстрела, чтобы произвести<lf>преследующий выстрел. Это более<lf>сильная атака, которая восполняет<lf>шкалу быстрой стрельбы эффективнее,<lf>чем обычные выстрелы.<lf><lf>Преследующий выстрел нельзя<lf>совершить после сфокусированного<lf>взрыва или выстрела особыми<lf>снарядами.
 <string>
 <string><REF ActionGuideDataNameText_Wp13_403056384>
 <string><ICON WP13 PL_ATTACK_00>

@@ -9,6 +9,7 @@
 <string>A communication error has occurred.<lf>Returning to the title screen.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Certain features of online multiplayer<lf>will not be available.<lf><lf>Please register with {0} to access all features<lf>of online multiplayer.
+<string>Online multiplayer is limited.<lf><lf>Unable to acquire subscription information<lf>from <PLATMSG RefGeneral_0026><lf>that is necessary to play online.
 <string>This account does not meet the requirements<lf>for online multiplayer.
 <string>Unable to connect to network.<lf>Returning to title screen.
 <string>Unable to connect to network.
@@ -45,6 +46,9 @@
 <string>You have reached the block limit and cannot<lf>block any more players.<lf>{0}
 <string>Servers are currently under scheduled maintenance.<lf>{0}
 <string>Squad functions cannot be accessed<lf>from this account.<lf>{0}
+<string>Platform and crossplay settings do not match.<lf>{0}
+<string>This operation is restricted.<lf>Please check the console settings.<lf>{0}
+<string>The player is offline.<lf>{0}
 <string>Connection to the session has been lost.<lf>{0}
 <string>Failed to create session.<lf>{0}
 <string>Session search failed.<lf>{0}
@@ -70,6 +74,7 @@
 <string>You cannot join this quest because it<lf>has already started.
 <string>Failed to participate because the session has<lf>different crossplay settings. Please check your<lf>crossplay settings under <BOLD>Options</BOLD> in the title<lf>menu.<lf>{0}
 <string>The player limit for the Link Party has been<lf>reached. Cannot add any more players.<lf><lf>{0}
+<string>Private Lobbies/Squad Lobbies cannot be joined<lf>via the Hunter Friend Search. They can only be<lf>joined via the Lobby ID Search/Squad Lobby Search.<lf>{0}
 <string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "MMMM D, YYYY HH:mm"> (UTC)<lf><lf>Your account has been found in violation of the<lf>following: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use.</COLOR>
 <string>Abusive/Disruptive Behavior
 <string>Types of Prohibited Behavior

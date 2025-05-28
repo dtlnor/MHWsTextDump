@@ -18,7 +18,7 @@
 <string>Gracz {0}<lf>dołączył do zadania.
 <string>Dołączono do zadania<lf>gracza {0}.
 <string>Gracz {0}<lf>wycofał się z zadania.
-<string>Gracz {0} ogłosił zadanie<lf>i czeka, aż inni dołączą.
+<string>Gracz {0} przyjął<lf>zadanie i dołączy niedługo.
 <string>Mdlejesz.<lf>(Pozostało prób: {0})
 <string>{1} mdleje.<lf>(Pozostało prób: {0})
 <string>Mdlejesz.<lf>Nagrody zostały zmniejszone do zera.
@@ -42,30 +42,30 @@
 <string>Aktywowano umiejętność posiłku<lf><BOLD>{0}</BOLD>.
 <string><BOLD>{0}</BOLD>:<lf>efekt umiejętności posiłku przestał działać.
 <string>Wystrzelono flarę alarmową.
-<string>Przywódca wystrzelił flarę alarmową.
+<string>Przywódca zadania wystrzelił<lf>flarę alarmową.
 <string>Anulowano flarę alarmową.
-<string>Przywódca anulował flarę<lf>alarmową.
+<string>Przywódca zadania anulował<lf>flarę alarmową.
 <string>Komunikacja głosowa przełączona<lf>na: <REF RefNetwork_0004_02>.
 <string>Komunikacja głosowa przełączona<lf>na: <REF RefNetwork_0004_01>.
 <string>W Składzie Zaopatrzenia<lf>trwa wyprzedaż!
 <string>Odblokowano nowe zadanie.
-<string>Gracza {0}<lf>wyznaczono na przywódcę.
-<string>Wyznaczono cię na przywódcę.
+<string>Gracza {0}<lf>wyznaczono na przywódcę zadania.
+<string>Wyznaczono cię na przywódcę zadania.
 <string>Gracza {0}<lf>wyznaczono na przywódcę wspólnej grupy.
 <string>Wyznaczono cię na przywódcę wspólnej<lf>grupy.
 <string>Gracz {0}<lf>uzyskał kontrolę nad prywatnym lobby.
 <string>Zyskujesz kontrolę nad prywatnym lobby.
 <string>Zwracanie zaopatrzenia.
 <string>Ogłoszenie
-<string>Otrzymano <PLURAL "{0} powiadomienie" "{0} powiadomień" "{0} powiadomienia"> w trybie offline:
+<string>Otrzymano <PLURAL {0} "{0} powiadomienie" "{0} powiadomienia" "{0} powiadomień"> w trybie offline.
 <string>Ogłoszenie
-<string>Otrzymano <PLURAL "{0} powiadomienie o zaproszeniu" "{0} powiadomienia o zaproszeniu" "{0} powiadomień o zaproszeniu">.
+<string>Otrzymano <PLURAL {0} "{0} powiadomienie o zaproszeniu" "{0} powiadomienia o zaproszeniu" "{0} powiadomień o zaproszeniu">.
 <string>Zaproszenia do znajomych
 <string>Otrzymano zaproszenie do znajomych<lf>od gracza {0}.
 <string>Gracz {0}<lf>jest w gronie znajomych.
 <string>Zapora jest gotowa do użycia.
-<string>Zapora będzie gotowa za <PLURAL "{0} minutę" "{0} minuty" "{0} minut">
-<string>Zapora będzie gotowa za <PLURAL "{0} sekundę" "{0} sekundy" "{0} sekund">
+<string>Zapora będzie gotowa za <PLURAL {0} "{0} minutę" "{0} minuty" "{0} minut">
+<string>Zapora będzie gotowa za <PLURAL {0} "{0} sekundę" "{0} sekundy" "{0} sekund">
 <string>Przybył statek wsparcia.
 <string>Statek wsparcia wkrótce odpłynie.
 <string>Statek wsparcia odpłynął.
@@ -177,10 +177,10 @@
 <string>Otwórz
 <string>{0} nie może być<lf>celem zadania.
 <string>{0} nie może być<lf>celem zadania.<lf>(Zbyt niska RŁ).
-<string>Przełączono z trybu online dla jednego gracza w tryb online.
+<string>Przełączono z trybu online<lf>dla jednego gracza w tryb online.
 <string>Przełączono w tryb online<lf>dla jednego gracza.
-<string>Pozostały czas: <PLURAL "{0} minuta" "{0} minuty" "{0} minut">
-<string>Pozostały czas do zakończenia testu beta:<lf><PLURAL "{0} minuta" "{0} minuty" "{0} minut">.
+<string>Pozostały czas: <PLURAL {0} "{0} minuta" "{0} minuty" "{0} minut">
+<string>Pozostały czas do zakończenia testu beta:<lf><PLURAL {0} "{0} minuta" "{0} minuty" "{0} minut">.
 <string><REF RefGeneral_0023>
 <string>Dziękujemy za udział w teście beta.<lf>Już dziś zamów pełną grę w przedsprzedaży!
 <string>Otwórz
@@ -191,13 +191,13 @@
 <string>{0}
 <string>Zdobyto nową nagrodę!
 <string>Tytuł
-<string>Zdobyto <PLURAL "{0} nowy tytuł" "{0} nowe tytuły" "{0} nowych tytułów">!
+<string>Zdobyto <PLURAL {0} "{0} nowy tytuł" "{0} nowe tytuły" "{0} nowych tytułów">!
 <string>{0}
 <string>Zdobyto nową plakietkę!
 <string>{0}
 <string>Zdobyto nowe tło!
 <string>Wygląda na to, że Świnka nic nie ma...
-<string>
+<string>Sprzedano.
 <string>Ogłoszono nowe zlecenie.
 <string>Zlecenie limitowane
 <string>{0}<lf>{1}/{2}
@@ -231,9 +231,9 @@
 <string>Aktualizacja przeglądu otoczenia
 <string>Przyjmuj zadania z wieloma celami i zdobywaj<lf>rzadkie nagrody bonusowe!
 <string>Otwórz mapę
-<string>Masz <PLURAL "{0} nową wiadomość" "{0} nowe wiadomości" "{0} nowych wiadomości">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
+<string>Masz <PLURAL {0} "{0} nową wiadomość" "{0} nowe wiadomości" "{0} nowych wiadomości">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Opuszczono wspólną grupę.
-<string>Ręczny ruch
+<string>Sterowanie manualne
 <string>Automatyczny ruch
 <string>Autoeksploracja
 <string>Tymczasowo dezaktywowano<lf>tryb online dla jednego gracza.
@@ -242,7 +242,7 @@
 <string>Nie możesz tu umieścić<lf>niesionego przedmiotu.
 <string>Rozgrywka międzyplatformowa <lf>aktualnie jest włączona.
 <string>Księga Zadań na Arenie
-<string>Członek grupy wchodzi na arenę.<lf>Idź do <BOLD>wielkiego centrum</BOLD>,<lf>by do niego dołączyć.
+<string>Członek grupy wchodzi na Arenę.<lf>Idź do <BOLD>Wielkiego Centrum</BOLD>,<lf>by do niego dołączyć.
 <string>Otwórz mapę
 <string>Powiadomienie oddziału
 <string>Otrzymano zaproszenie do oddziału:<lf><BOLD>{0}</BOLD>.
@@ -256,7 +256,7 @@
 <string>Wyznaczono cię na poddowódcę<lf>oddziału <BOLD>{0}</BOLD>.
 <string>Wyznaczono cię na dowódcę<lf>oddziału <BOLD>{0}</BOLD>.
 <string>Aktualizacja przeglądu otoczenia
-<string>W świątyni Smoczego Ognia<lf>pojawił się potwór<lf>{0}!
+<string>W świątyni Smoczego Ognia<lf>pojawił się potwór {0}!
 <string>Otwórz mapę
 <string>Premia za logowanie
 <string>Premia za dzisiejsze logowanie<lf>jest dostępna w menu startowym.
@@ -282,3 +282,9 @@
 <string>Przetwarzanie flary alarmowej...
 <string>Statystyki zwiększone dzięki modlitwie<lf>i wdzięczności diwy.
 <string>Gracz {0} użył:<lf><BOLD>{1}</BOLD>!
+<string>{0}
+<string>Zdobyto nową pozę!
+<string>{0}
+<string>Zdobyto nowy gest!
+<string>Aktywowano wzmocnienie<lf>siły specjalnego działania!
+<string>Wzmocnienie siły specjalnego<lf>działania przestało działać.

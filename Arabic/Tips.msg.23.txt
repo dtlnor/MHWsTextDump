@@ -33,7 +33,7 @@
 <string>سرعة سيكريت
 <string><ICON PL_PT_SPEED_UP>: زيادة السرعة<lf><ICON PL_PT_SPEED_DOWN>: تقليل السرعة
 <string>استهداف الوحوش
-<string><LSNR "استخدم" "استخدمي"> <ICON PL_CAMERA_LOCK_CHANGE> لاستهداف وحش. يمكن تغيير ضوابط الاستهداف من الخيارات.
+<string><LSNR "استخدم" "استخدمي"> <ICON PL_CAMERA_LOCK_CHANGE> لاستهداف وحش.<lf>يمكن تغيير ضوابط الاستهداف من الخيارات.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_19
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_19
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_20
@@ -217,7 +217,7 @@
 <string>مهام الذبح
 <string>لا يمكن أسر الوحش<lf>أثناء مهام الذبح.
 <string>خطاف نبلة المعصم
-<string><LSNR "استخدم" "استخدمي"> <COLOR preset="TXT_Accent">خطاف نبلة المعصم</COLOR> لجمع العناصر.<lf><lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>: تصويب<lf><ICON PL_CATCH_SLINGER_SHOOT>: تجميع
+<string><INPUTMSG MsgGUI600000_Tips_EXP_201>
 <string>الانتقال السريع
 <string><LSNR "استخدم" "استخدمي"> هذا عندما <LSNR "تريد" "تريدين"> الانتقال بسرعة<lf>إلى معسكر القاعدة أو مستوطنة أو معسكر مؤقت.
 <string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_112
@@ -374,3 +374,11 @@
 <string><LSNR "يجعلكَ" "يجعلكِ"> وباء الفقاعات <LSNR "تنزلق وتتلقى" "تنزلقين وتتلقين"><lf>ضررًا إضافيًا يتم احتسابه<lf>بناءً على قوة الضربة.
 <string>تدمير الـ (وايليبريستال)
 <string>دمر الـ (وايليبريستال) قبل أن يتمكن زوه شيا<lf>من إشعالها بهجماته. ذخيرة المقلاع العناصري<lf>فعّالة بشكل خاص.
+<string>Drive Impact
+<string><LSNR "اضرب" "اضربي"> جرح الوحش أو نقطة ضعفه<lf>لتنفيذ هجوم Shun Goku Satsu.
+<string>تعافي Drive Gauge
+<string>سيؤدي تنفيذ Shun Goku Satsu<lf>إلى استهلاك Drive Gauge.<lf>وسيتجدد المقياس بمرور الوقت.
+<string>ذخيرة Gou Hadoken
+<string>ذخيرة خاصة لنبلة المعصم <LSNR "تمكِّنكَ" "تمكِّنكِ"><lf>من إطلاق Gou Hadoken عند التزود بها.
+<string>التبديل بين أهداف نبلة المعصم
+<string><INPUTMSG MsgGUI600000_Tips_EXP_200>

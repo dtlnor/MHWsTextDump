@@ -29,6 +29,7 @@
 <string>{0}
 <string>–
 <string>Drzewo: ???
+<string>Brak zdjęcia
 <string>Główna
 <string>Wyekwipuj jako broń główną
 <string>Pomocnicza
@@ -57,11 +58,16 @@
 <string>Tylko pancerz <ICON EQUIP_TYPE1>
 <string>Tylko pancerz <ICON EQUIP_TYPE2>
 <string>Pokaż posiadane
+<string>Pełne pancerze
 <string>Ulepsz
 <string>Wykuj
 <string>Wymaga materiałów i {0} z.<lf>Kontynuować?
 <string>Wymaga materiałów i <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Wykuwanie tego wyposażenia<lf>tworzy również <COLOR preset="TXT_Accent">pancerz warstwowy</COLOR>)
+<string>To pełny pancerz. Do wytworzenia<lf>całego zestawu zostaną użyte<lf>potrzebne materiały i <NUMBER {0}>z.<lf>Kontynuować?
+<string>To pełny pancerz. Do wytworzenia całego zestawu<lf>zostaną użyte potrzebne materiały i <NUMBER {0}> z.<lf>Kontynuować?<lf><lf>(Zdobędziesz również <COLOR preset="TXT_Accent">zestaw pancerza warstwowego</COLOR>).
 <string>Wyposażyć teraz?
+<string>Jeśli zmienisz ten element, <COLOR preset="TXT_Danger">wszystkie pozostałe<lf>elementy pełnego pancerza zostaną zdjęte</COLOR>.<lf>Zmienić element pancerza?
+<string>To pełny pancerz.<lf>Założyć wszystkie elementy zestawu?<lf><lf><COLOR preset="TXT_Danger">(Pancerz warstwowy zostanie ukryty).</COLOR>
 <string>Odrzucić {0} <PLURAL {0} "nadmiarowy punkt" "nadmiarowe punkty">?
 <string>Podgląd
 <string><COLOR preset="TXT_Danger">Skrzynka na wyposażenie jest pełna.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">Nie masz żadnych materiałów do wzmocnienia.</COLOR>
 <string><COLOR preset="TXT_Danger">Posiadasz już to wyposażenie, więc nie można go wykuć ani ulepszyć.</COLOR>
 <string><COLOR preset="TXT_Danger">Posiadasz już to wyposażenie, więc nie można go wykuć.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie możesz wykuć pełnych pancerzy, które już posiadasz.</COLOR>
 <string>Obecnie wyposażone: {0}
 <string>Używane w innym elemencie wyposażenia.<lf>Chcesz to usunąć?
 <string><COLOR preset="TXT_Danger">Ta ozdoba jest obecnie wyposażona.</COLOR>
@@ -184,7 +191,7 @@
 <string>Część pancerza
 <string>Wg typu
 <string>Według typu żywiołu
-<string>Wg atriańskiego bonusu
+<string>Wg artiańskiego bonusu
 <string>Rodzaj ataku
 <string>Część pancerza
 <string>Domyślne
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">Nie można sprzedać tego wyposażenia.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można sprzedać tego kinsekta, ponieważ jest sparowany z owadzią glewią.</COLOR>
 <string>Wartość
+<string>To pełny pancerz. Wszystkie elementy<lf>zestawu zostaną sprzedane. Sprzedać<lf>wszystkie elementy zestawu?
 <string>To wyposażenie jest zarejestrowane w zestawie.<lf>Czy na pewno chcesz je sprzedać?
 <string>Sprzedać za <NUMBER {0}> z?
 <string>Do tego wyposażenia jest dołączona ozdoba.<lf>Usunąć wszystkie ozdoby i sprzedać wyposażenie<lf>za <NUMBER {0}> z?

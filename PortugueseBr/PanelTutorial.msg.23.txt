@@ -180,9 +180,9 @@
 <string>Você pode entrar em até 8 esquadrões<lf>com 50 membros por esquadrão. Encontre<lf>aquele que combina com você.
 <string>Gerenciar Esquadrão
 <string>Algumas funções também estão<lf>disponíveis em <COLOR preset="TXT_Accent">Gerenciar Esquadrões</COLOR><lf>no menu inicial. Você pode mudar<lf>seus esquadrões ativos lá.
-<string>Lobbies de Esquadrão
-<string>Membros de um esquadrão podem usar<lf>lobbies especiais para jogar juntos.<lf>O número de jogadores permitidos em um<lf>lobby de esquadrão aumenta conforme o<lf>esquadrão aumenta de tamanho.
-<string>Capacidade do Lobby de Esquadrão
+<string>Lobbies do Esquadrão
+<string>Membros de um esquadrão podem usar<lf>lobbies especiais para jogar juntos.<lf>O número de jogadores permitidos em um<lf>lobby do esquadrão aumenta conforme o<lf>esquadrão aumenta de tamanho.
+<string>Capacidade do Lobby do Esquadrão
 <string>Quando o número de membros de um<lf>esquadrão excede o limite do esquadrão,<lf>o lobby será automaticamente desfeito.<lf>Ao criar um novo lobby, este limite será<lf>reajustado para acomodar o novo tamanho<lf>do seu esquadrão.
 <string>Ovos de Serpe
 <string>Ovos de Serpe quebrarão com um forte<lf>impacto, como cair de um lugar alto ou<lf>receber um golpe de um monstro.<lf>Transporte-os rapidamente e com cuidado.
@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>Notificações de Guialumes
-<string>Se estiver com dificuldades para<lf>coletar um tipo específico de item, use<lf><ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> para selecionar um alvo<lf>de Notificação de Guialumes, e colete-o<lf>com sua Atiradeira-Gancho apertando <ICON PL_CATCH_SLINGER_SHOOT>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>Notificações de Guialumes
-<string>Use <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> para localizar um item<lf>ou recurso ambiental exibido<lf>nas Notificações de Guialumes<lf>no lado esquerdo da tela.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>Serviço: Caçada ao Doshaguma
 <string>Um <COLOR preset="TXT_Accent">Doshaguma</COLOR> enfurecido está solto<lf>nas Planícies Zéfiras. Aceite a missão<lf>para caçá-lo quando estiver preparado<lf>em sua tenda.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>Trabalhos de Campo e Prêmios Bônus
 <string><COLOR preset="TXT_Accent">Prêmios bônus</COLOR> por Trabalhos de Campo<lf>realizados em ambientes de ranque alto<lf>estão disponíveis. Recompensas valiosas<lf>podem ser obtidas de monstros perigosos<lf>com classificações de ★ mais elevadas.
 <string>Trabalhos de Campo e Prêmios Bônus
-<string>Use o mapa ou os binóculos para conferir<lf>quais <COLOR preset="TXT_Accent">prêmios bônus</COLOR> podem ser obtidos<lf>de um monstro e, em seguida, inicie um<lf>Trabalho de Campo ao causar dano ou<lf>selecionar o monstro no mapa.
+<string>Para consultar os prêmios bônus de um<lf>monstro no mapa, selecione seu ícone<lf>com o cursor do mapa ou veja a Visão<lf>Geral do Ambiente.
+<string>Trabalhos de Campo e Prêmios Bônus
+<string>Inicie um <COLOR preset="TXT_Accent">Trabalho de Campo</COLOR> causando<lf>dano suficiente a um monstro ou<lf>selecionando a partir dos ícones no<lf>mapa. (Dano do ambiente, como rochas<lf>soltas, não é contabilizado para o início<lf>de um trabalho de campo.)
 <string>Limitações do Trabalho de Campo
 <string>Seu Ranque de Caçador limitará quais<lf>monstros você pode escolher como alvo<lf>em Trabalhos de Campo. Aumente seu RC<lf>ao completar pedidos e caçar monstros.
 <string>Investigações
@@ -561,7 +563,7 @@
 <string>Bloqueio Perfeito
 <string>No Modo Espada, use <ICON WP09 PL_ATTACK_SP> no momento<lf>exato em que um monstro ataca para<lf>realizar um <COLOR preset="TXT_Accent">Bloqueio Perfeito</COLOR>.<lf>Use <ICON WP09 PL_ATTACK_00> logo depois para desferir<lf>a Machadada Selvagem.
 <string>Trabalhos de Campo
-<string>Inicie um <COLOR preset="TXT_Accent">Trabalho de Campo</COLOR> causando dano<lf>suficiente a um monstro ou selecionando-o<lf>a partir dos ícones no mapa.
+<string>Inicie um <COLOR preset="TXT_Accent">Trabalho de Campo</COLOR> causando<lf>dano suficiente a um monstro ou<lf>selecionando a partir dos ícones no<lf>mapa. (Dano do ambiente, como rochas<lf>soltas, não é contabilizado para o início<lf>de um trabalho de campo.)
 <string>Trabalhos de Campo
 <string>Trabalhos de Campo permitem que você<lf>desfrute da experiência de caça natural,<lf>iniciando uma missão no ambiente atual.<lf>Você também pode obter suprimentos<lf>e prêmios por completar a missão.
 <string>Trabalhos de Campo
@@ -827,7 +829,7 @@
 <string>Quadro de Expedições
 <string><COLOR preset="TXT_Accent">Solicitações Limitadas</COLOR><lf>Veja atividades e expedições que estão<lf>disponíveis online e receba prêmios<lf>por concluí-las.
 <string>Quadro de Expedições
-<string><COLOR preset="TXT_Accent">Visão Geral do Ambiente</COLOR><lf>Abre o Mapa-múndi, de onde você pode<lf>verificar informações ambientais de cada<lf>área. (Também acessível atrás<lf>do Mapa-múndi comum.)
+<string><COLOR preset="TXT_Accent">Visão Geral do Ambiente</COLOR><lf>Escolha cada local no mapa-múndi para<lf>consultar suas informações ambientais<lf>atuais e previsões futuras.
 <string>Quadro de Expedições
 <string><COLOR preset="TXT_Accent">Informações de Ranque</COLOR><lf>Veja recordes pessoais ou globais, assim<lf>como os recordes de seus Amigos<lf>Caçadores ou Membros do Esquadrão.
 <string>Boliche de Barril
@@ -837,7 +839,7 @@
 <string>Cantina da Grande Central
 <string>Na Cantina da Grande Central, você pode<lf>pedir refeições tradicionais de cada uma<lf>das aldeias, assim como refeições<lf>sazonais durante eventos especiais.
 <string>Cantina da Grande Central
-<string>Os Vales necessários para refeições na<lf>Cantina poder ser obtidos através de<lf>Bônus de Login e de prêmios de<lf>solicitações. Não perca sua chance<lf>de acumulá-los!
+<string>Os Vales necessários para refeições na<lf>Cantina podem ser obtidos através de<lf>Bônus de Login e de prêmios de<lf>solicitações. Não perca sua chance<lf>de acumulá-los!
 <string>Alterar Traje da Alma
 <string>Agora você pode alterar o traje da Alma<lf>no menu de <BOLD>Alterar Aparência</BOLD>. Ajude<lf>Alma a explorar seus estilos trocando<lf>seu traje de vez em quando!
 <string>Alterar Óculos da Alma
@@ -854,6 +856,32 @@
 <string>Durante o período do evento, você<lf>receberá dois Vales da Sorte por dia<lf>em vez de um, além de prêmios como<lf>Bilhetes de Floridança!
 <string>Missões de Evento a Caminho!
 <string>Uma série de Missões de Evento limitadas<lf>estão disponíveis! Além disso, muitas<lf>Missões de Evento antigas estão sendo<lf>reintroduzidas!
+<string>Conjunto Completo de Armadura
+<string>Agora você consegue criar conjuntos de<lf>armadura que mudam toda a sua aparência.<lf>Equipar uma peça mudará automaticamente<lf>todas as outras peças de armadura.
+<string>Conjunto Completo de Armadura
+<string>Você forja e vende conjuntos completos<lf>de armadura como um todo. Porém,<lf>melhorias e adornos são específicos<lf>para cada peça.
+<string>Equipando Conjuntos Completos
+<string>Os conjuntos completos de armadura em<lf>camadas foram adicionados. Ao equipar<lf>uma peça, todas as outras são equipadas<lf>automaticamente.
+<string>Gerenciando Vida Nativa Capturada
+<string>Agora é possível ver os detalhes da vida<lf>nativa capturada. Também é possível<lf>favoritar ou devolvê-las à natureza.
+<string>Desafio do Akuma
+<string>Prove sua força para Akuma concluindo<lf>a missão de arena: Força Demoníaca.
+<string>Aceitar Missões na Grande Central
+<string>É possível iniciar missões de arena no<lf>Balcão de Missões da Arena na Grande<lf>Central. Lembre-se de se preparar antes!
+<string>Ações do Akuma
+<string>Ao equipar a armadura do Akuma da<lf>colaboração com o Street Fighter 6,<lf>você pode usar itens e gestos especiais!
+<string>Combos Assistidos
+<string>Enquanto equipado, use <ICON PL_ITEM> para executar<lf>ações especiais. Então pressione <ICON PL_WEAPON_ON> ou<lf><ICON PL_ATTACK_01> para encadear golpes especiais.
+<string>Drive Impacts
+<string><ICON PL_ITEM> executa um golpe que age como um<lf>ataque inibidor. Se atingir ferimentos ou<lf>pontos fracos, ele se torna um Shun Goku<lf>Satsu.
+<string>Outras Ações
+<string>Você também pode usar o gesto<lf>Gou Shoryuken e a munição de atiradeira<lf>Gou Hadoken. Mais detalhes no guia de<lf>Controles Básicos.
+<string>Usar o Menu Radial Personalizado
+<string>Registre estas novas ações no Menu<lf>Radial Personalizado para acessá-las<lf>rapidamente durante uma missão.
+<string>Bilhetes para Forjar Equipamento
+<string>Conclua Missões de Arena da colaboração<lf>com o Street Fighter 6 para obter Bilhetes<lf>do SF6 e forjar itens do Akuma!
+<string>Missões Avançadas
+<string>A Missão de Arena "A Verdadeira Força"<lf>foi desbloqueada. Dispute com jogadores<lf>de todo o mundo em caças cronometradas!
 <string>Ferimentos
 <string>Você pode trocar adornos antigos por<lf>pontos de fundição que você pode usar<lf>para <COLOR preset="TXT_Accent">fundir novos adornos</COLOR>.<lf>As opções aumentarão à medida que<lf>você cumprir as condições.
 <string>Adornos e Configurações de Equipamento

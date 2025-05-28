@@ -47,8 +47,8 @@
 <string>Quando salta, muovi <ICON PL_DUMMY_MOVE> nella stessa<lf>direzione del pesce e usa <ICON PL_SLINGER_SHOOT><lf>per acchiapparlo.
 <string>Quando salta, usa <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>per muoverti nella stessa direzione<lf>del pesce e <ICON PL_SLINGER_SHOOT> per catturarlo.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Tira su rapidamente:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Tira su lentamente:</COLOR>  <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Tira su rapidamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Tira su lentamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Recupera lentamente:</COLOR>  <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Recupera lentamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Evitare gli ostacoli</COLOR>: usa <ICON PL_DUMMY_MOVE> per<lf>allontanare i pesci dagli ostacoli.
 <string><COLOR preset="TXT_Accent">Evitare gli ostacoli</COLOR>: usa <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>per allontanare i pesci dagli ostacoli.
@@ -68,11 +68,11 @@
 <string>Impone una paralisi momentanea.<lf>Muovi rapidamente <ICON PL_DUMMY_MOVE><lf>o usa un pulitore per riprenderti.
 <string>Impone una paralisi momentanea.<lf>Premi rapidamente <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>o usa un pulitore per riprenderti.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Tira su rapidamente:</COLOR> muovi velocemente<lf><ICON PL_DUMMY_MOVE> su e giù
-<string><COLOR preset="TXT_Accent">Tira su rapidamente:</COLOR> premi velocemente <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> muovi velocemente<lf><ICON PL_DUMMY_MOVE> su e giù
+<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> premi velocemente <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>Tira su lentamente: muovi lentamente<lf><ICON PL_DUMMY_MOVE> su e giù
-<string>Tira su lentamente: premi lentamente <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string>Recupera lentamente: muovi lentamente<lf><ICON PL_DUMMY_MOVE> su e giù
+<string>Recupera lentamente: premi lentamente <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>Scuoti lenza: inclina ripetutamente<lf><ICON PL_DUMMY_MOVE> verso il basso
 <string>Scuoti lenza:<lf>premi ripetutamente <ICON PL_MOVE_BACK>
@@ -135,3 +135,11 @@
 <string>Scegli un rivestimento con <ICON WP11 PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON WP11 UI_BULLET_ITEM_UP> o <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(I rivestimenti compatibili variano<lf>in base all'arma.)
 <string>Scegli un rivestimento con <ICON WP11 UI_BULLET_ITEM_UP> o <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(I rivestimenti compatibili variano<lf>in base all'arma.)
 <string>Scegli un rivestimento con <ICON WP11 UI_BULLET_ITEM_UP> o <ICON WP11 UI_BULLET_ITEM_DOWN>.<lf>(I rivestimenti compatibili variano<lf>in base all'arma.)
+<string>I bersagli della fionda compaiono<lf>sulla sinistra dello schermo. Scorri<lf>con <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> e usa <ICON PL_CATCH_SLINGER_SHOOT> per raccogliere.
+<string>I bersagli della fionda compaiono<lf>sulla sinistra dello schermo. Scorri<lf>con <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_DOWN> e usa <ICON PL_CATCH_SLINGER_SHOOT> per raccogliere.
+<string>Raccogli oggetti con la <COLOR preset="TXT_Accent">fionda uncinata</COLOR>.<lf><lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>: mira <lf><ICON PL_CATCH_SLINGER_SHOOT>: raccogli
+<string>Raccogli oggetti con la <COLOR preset="TXT_Accent">fionda uncinata</COLOR>.<lf><lf><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_DUMMY_CAMERA>: mira <lf><ICON PL_CATCH_SLINGER_SHOOT>: raccogli
+<string>Se hai difficoltà a reperire un oggetto<lf>particolare, usa <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> per selezionare<lf>il bersaglio della notifica dell'insetto<lf>guida e raccoglilo con<lf>la fionda uncinata <ICON PL_CATCH_SLINGER_SHOOT>.
+<string>Se hai difficoltà a reperire un oggetto<lf>particolare, usa <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_DOWN> per selezionare<lf>il bersaglio della notifica dell'insetto<lf>guida e raccoglilo con<lf>la fionda uncinata <ICON PL_CATCH_SLINGER_SHOOT>.
+<string>Usa <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> per individuare<lf>un oggetto o un ambiente visualizzato<lf>nelle notifiche degli insetti guida,<lf>sul lato sinistro dello schermo.
+<string>Usa <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> per individuare<lf>un oggetto o un ambiente visualizzato<lf>nelle notifiche degli insetti guida,<lf>sul lato sinistro dello schermo.

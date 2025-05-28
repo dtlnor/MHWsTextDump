@@ -7,7 +7,7 @@
 <string>Redefinir Categoria ao Padrão
 <string>Redefinir as opções selecionadas para o padrão?
 <string>Redefinir todas as opções em<lf>todas as categorias para o padrão?
-<string>Redefinir todas as opções na aba de<lf>categoria atual para o padrão?
+<string>Redefinir todas as opções na aba da<lf>categoria atual para o padrão?
 <string>Tudo
 <string><PLATMSG MsgGUI030100_0401>
 <string>Compartilhada + Controle
@@ -129,6 +129,12 @@
 <string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> em alta velocidade sai da rota<lf>do Seikret.
 <string>Tipo 2
 <string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> e pressionar <ICON PL_INTERACT_ACTION_START> sai da rota<lf>do Seikret, não importa sua velocidade.
+<string>Exibição da Barra de Itens
+<string>Ajusta a exibição dos itens ao usar a Barra<lf>de Itens durante o Modo de Mira.
+<string>Tipo 1
+<string>Exibe apenas itens relativos à atiradeira<lf>ao usar a Barra de Itens durante o Modo<lf>de Mira.
+<string>Tipo 2
+<string>Exibe todos os itens ao usar a Barra de Itens<lf>durante o Modo de Mira.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Com a arma empunhada, pressionar <ICON PAD PL_AIM_TOGGLE> ativa ou<lf>desativa o Modo de Foco para armas corpo a corpo<lf>e o Modo de Foco/Mira para armas à distância.
 <string>Controles do Modo de Foco/Mira: Avançado
 <string>Ajusta como ativar o Modo de Foco/Mira separado<lf>para armas desembainhadas corpo a corpo e à<lf>distância. <COLOR preset="TXT_Accent">(Não afeta controles de Atiradeira.)</COLOR>
+<string>Ajusta como a mira da Atiradeira é ativada com<lf>arma embainhada, e como Modo de Mira/Foco<lf>são ativados para armas empunhadas.
+<string>Mira de Atiradeira (Embainhada)
+<string>Ajusta como a mira da Atiradeira é ativada<lf>quando sua arma está embainhada.
+<string><ICON PAD PL_AIM> para ativar o Modo
+<string>Segurar <ICON PAD PL_AIM> mira a Atiradeira quando<lf>sua arma está embainhada.
+<string><ICON PAD PL_POP_CHANGE_SELECT> para alternar o Modo
+<string>Pressionar <ICON PAD PL_POP_CHANGE_SELECT> ativa ou desativa a mira da<lf>Atiradeira quando sua arma está embainhada.
 <string>Armas Corpo a Corpo
 <string>Ajusta como o Modo de Foco é ativado com armas<lf>corpo a corpo.
 <string><ICON PAD PL_AIM> para ativar o Modo
@@ -1277,7 +1290,7 @@
 <string>Exibir
 <string>A proteção de cabeça do Caçador é exibida,<lf>de acordo com o equipamento e configurações<lf>de aparência atuais. <COLOR preset="TXT_Accent">(A proteção de cabeça<lf>ainda é exibida em certas situações.)</COLOR>
 <string>Ocultar
-<string>Não exibe a proteção de cabeça do Caçador,<lf>independentemente do equipamento e<lf>configurações de aparência atuais.
+<string>Não exibe a proteção de cabeça do Caçador,<lf>independentemente do equipamento e<lf>configurações de aparência atuais.<lf><COLOR preset="TXT_Accent">(Não se aplica a conjuntos completos<lf>de armadura.)</COLOR>
 <string>Ocultar durante cenas
 <string>A proteção de cabeça do Caçador é sempre<lf>exibida, de acordo com o equipamento e<lf>configurações de equipamento atuais, exceto<lf>durante cenas.
 <string>Configurações de Caçador de Suporte
@@ -1404,11 +1417,11 @@
 <string>Volume do Bate-papo por Voz
 <string>Ajusta o volume de outros participantes do<lf>bate-papo por voz.
 <string>Troca Auto. de Bate-papo por Voz
-<string>Define se deve trocar automaticamente entre<lf>canais de bate-papo de acordo com a missão.<lf><COLOR preset="TXT_Accent">(A troca manual pode ser feita à vontade.)</COLOR>
+<string>Ajusta opções de troca automática em canais de<lf>voz e texto, e em filtros do registro de bate-papo.<lf><COLOR preset="TXT_Accent">(A troca manual pode ser feita à vontade.)</COLOR>
 <string>Priorizar membros da Missão
-<string>Troca automaticamente para o bate-papo por voz<lf>da missão ao iniciar uma missão, e para o<lf>bate-papo por voz de Membros do Elo ao voltar<lf>da missão.
+<string>Troca automaticamente para um canal de<lf>membro da missão ao iniciar uma missão,<lf>e para um canal de Membro do Elo ao voltar<lf>de uma missão.
 <string>Priorizar membros do Elo
-<string>Troca automaticamente para o bate-papo por voz<lf>de Membros do Elo ao entrar em um Grupo<lf>de Elo, não importa a situação da missão.
+<string>Troca automaticamente para um canal de<lf>Membro do Elo ao entrar em um Grupo de Elo,<lf>independentemente da situação da missão.
 <string>Não priorizar
 <string>Não prioriza ou troca canais de bate-papo por<lf>voz automaticamente. A troca deve ser manual.
 <string>Idioma Felyno
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Mandarim

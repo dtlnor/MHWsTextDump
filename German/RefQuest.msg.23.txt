@@ -9,7 +9,7 @@
 <string>Aktuell
 <string>Vorhersage
 <string>Spieleraktionen können die Vorhersage<lf>beeinflussen.
-<string>Detaillierte Infos
+<string>Informationen
 <string>Überblick
 <string>Überblick
 <string>Überblick
@@ -63,7 +63,7 @@
 <string><COLOR preset="TXT_Danger">Kann nicht als Untersuchung gespeichert werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Konnte nicht als Untersuchung gespeichert werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Abgeschlossene Aufgaben können nicht wiederholt werden.</COLOR>
-<string><COLOR preset="TXT_Danger">Beitritt von Spielern aufgrund von Mehrspieleroptionen nicht möglich.</COLOR>
+<string><COLOR preset="TXT_Danger">Beitritt aufgrund der Mehrspieleroptionen der Quest nicht möglich.</COLOR>
 <string><COLOR preset="TXT_Danger">Beitritt nicht möglich. Maximale Spieleranzahl wurde bereits erreicht.</COLOR>
 <string><COLOR preset="TXT_Danger">Beitritt aufgrund von Plattformzulassungseinstellungen nicht möglich.</COLOR>
 <string><COLOR preset="TXT_Danger">Du erfüllst die Anforderungen zur Annahme oder zum Beitritt dieser Quest nicht.</COLOR>
@@ -74,6 +74,7 @@
 <string><COLOR preset="TXT_Danger">Die Felderkundung kann nicht gestartet werden, weil ein Verbindungsmitglied sich die Questergebnisse ansieht.</COLOR>
 <string><COLOR preset="TXT_Danger">Kann während dieser Quest nicht verwendet werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Diese Quest kann nicht außerhalb der Großen Stätte angenommen werden.</COLOR>
+<string><COLOR preset="TXT_Danger">Während dieser Quest nicht verfügbar.</COLOR>
 <string>Zum Titelbildschirm
 <string>Neu versuchen
 <string>Erlege: {0}.
@@ -108,6 +109,7 @@
 <string>2. Versuch!
 <string>Punkte
 <string>Abgeschlossen
+<string>AKUMA<lf>SIEGT
 <string>BEREIT?
 <string>3
 <string>2
@@ -167,7 +169,7 @@
 <string>Abgeschlossen!
 <string>Erlaubte Waffen
 <string>Zeitrang
-<string>Deine Bestzeiten
+<string>Bestzeiten
 <string>Mitglieder
 <string>Datum: <DATETIME {0} "DD.MM.YYYY"> (UTC)
 <string>Datum: <DATETIME {0} "DD.MM.YYYY">
@@ -254,7 +256,7 @@
 <string>Felderkundungsverlauf (Letzte {0})
 <string>Untersuchungen ({0} gespeichert)
 <string>Eventquests
-<string>Verbindungsmitglieder-Quests ({0})
+<string>Lobbymitglieder-Quests ({0})
 <string>Verbindungsmitglieder-Quests
 <string>Not-Leuchtzeichen-Quests ({0})
 <string>Arenaquests

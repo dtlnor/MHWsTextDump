@@ -29,6 +29,7 @@
 <string>{0}
 <string>-
 <string>Árvore de ???
+<string>Sem imagem
 <string>Primária
 <string>Equipar como Arma Primária
 <string>Secundária
@@ -57,11 +58,16 @@
 <string>Somente Armadura <ICON EQUIP_TYPE1>
 <string>Somente Armadura <ICON EQUIP_TYPE2>
 <string>Exibir obtidos
+<string>Conjuntos Completos
 <string>Melhorar
 <string>Forjar
 <string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?
 <string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Forjar este equipamento também produzirá<lf><COLOR preset="TXT_Accent">Armadura em Camadas</COLOR>)
+<string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?
+<string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?<lf>(Você também receberá o <COLOR preset="TXT_Accent">conjunto de armadura<lf>em camadas</COLOR>.)
 <string>Equipar agora?
+<string>Se você mudar esta peça, <COLOR preset="TXT_Danger">todas as outras peças<lf>do conjunto completo de armadura serão removidas</COLOR>.<lf>Deseja mudar a peça de armadura?
+<string>Este é um conjunto completo de armadura.<lf>Equipar todas as peças do conjunto?<lf><lf><COLOR preset="TXT_Danger">(Armaduras em camadas ficarão ocultadas.)</COLOR>
 <string>Descartar {0} <PLURAL {0} "ponto excedente" "pontos excedentes">?
 <string>Visualizar
 <string><COLOR preset="TXT_Danger">A caixa de equipamentos está cheia.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">Você não tem materiais de reforço.</COLOR>
 <string><COLOR preset="TXT_Danger">Você já possui este equipamento, por isso não pode ser forjado ou melhorado.</COLOR>
 <string><COLOR preset="TXT_Danger">Você já possui este equipamento, por isso não pode ser forjado.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não pode forjar conjuntos completos de armadura que já possui.</COLOR>
 <string>Equipada no momento: {0}
 <string>Isso está em uso em outra peça de equipamento.<lf>Deseja remover?
 <string><COLOR preset="TXT_Danger">Este adorno está equipado no momento.</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">Este equipamento não pode ser vendido.</COLOR>
 <string><COLOR preset="TXT_Danger">Este Kinseto não pode ser vendido porque está vinculado à Glaive Inseto.</COLOR>
 <string>Valor
+<string>Este é um conjunto completo de armadura.<lf>Todas as peças do conjunto serão vendidas.<lf>Deseja vender todas as peças?
 <string>Equipamento registrado em uma configuração.<lf>Você quer mesmo vendê-lo?
 <string>Vender por <NUMBER {0}>z?
 <string>Equipamento com adorno anexado.<lf>Remover adornos e vender o equipamento por <NUMBER {0}>z?

@@ -29,6 +29,7 @@
 <string>{0}
 <string>–
 <string>??? Tree
+<string>No Image
 <string>Primary
 <string>Equip as Primary Weapon
 <string>Secondary
@@ -57,11 +58,16 @@
 <string><ICON EQUIP_TYPE1> Armor Only
 <string><ICON EQUIP_TYPE2> Armor Only
 <string>Show Owned
+<string>Full Armor Sets
 <string>Upgrade
 <string>Forge
 <string>Requires materials and {0}z.<lf>Proceed?
 <string>Requires materials and <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Forging this equipment will<lf>also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
+<string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?
+<string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?<lf><lf>(Forging this equipment will also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
 <string>Equip now?
+<string>If you change this piece, <COLOR preset="TXT_Danger">all other pieces of the<lf>full armor set will be removed</COLOR>.<lf>Change armor piece?
+<string>This is a full armor set.<lf>Equip all pieces of the set?<lf><lf><COLOR preset="TXT_Danger">(Layered armor will be hidden.)</COLOR>
 <string>Discard {0} <PLURAL {0} "surplus point" "surplus points">?
 <string>Preview
 <string><COLOR preset="TXT_Danger">The equipment box is full.</COLOR>
@@ -83,6 +89,7 @@
 <string><COLOR preset="TXT_Danger">You do not have any reinforcement materials.</COLOR>
 <string><COLOR preset="TXT_Danger">You already own this equipment, so it cannot be forged or upgraded.</COLOR>
 <string><COLOR preset="TXT_Danger">You already own this equipment, so it cannot be forged.</COLOR>
+<string><COLOR preset="TXT_Danger">You cannot forge full armor sets that you already possess.</COLOR>
 <string>Currently Equipped: {0}
 <string>This is being used on another piece of equipment.<lf>Do you want to remove it?
 <string><COLOR preset="TXT_Danger">This decoration is currently equipped.</COLOR>
@@ -250,6 +257,7 @@
 <string><COLOR preset="TXT_Danger">This equipment cannot be sold.</COLOR>
 <string><COLOR preset="TXT_Danger">This Kinsect cannot be sold because it is paired with the insect glaive.</COLOR>
 <string>Value
+<string>This is a full armor set.<lf>All pieces of the set will be sold.<lf>Sell all pieces of the set?
 <string>This equipment is registered to a loadout.<lf>Are you sure you want to sell it?
 <string>Sell for {0}z?
 <string>This equipment has a decoration attached to it.<lf>Remove all decorations and sell equipment for {0}z?

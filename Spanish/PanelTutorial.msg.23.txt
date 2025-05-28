@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>Notificaciones de lafarillos
-<string>Si te está costando encontrar un objeto en<lf>particular, usa <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> para elegirlo<lf>como objetivo de las notificaciones<lf>de lafarillos, y luego recógelo con la<lf>eslinga pulsando <ICON PL_CATCH_SLINGER_SHOOT>.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>Notificaciones de lafarillos
-<string>Si quieres saber más sobre un objeto o<lf>característica del entorno que aparezca<lf>en las notificaciones de lafarillos,<lf>usa <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> para fijarlo.
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>Encargo: La caza del Doshaguma
 <string>Un <COLOR preset="TXT_Accent">Doshaguma</COLOR> está desbocado en los<lf>Llanos Barlovento. Prepárate en la tienda<lf>de campaña y acepta la misión para cazarlo.
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>Estudios de campo y recompensas extra
 <string>Los estudios de campo en entornos de<lf>rango alto ahora tendrán recompensas<lf>extra. Los monstruos difíciles con<lf>rangos ★ superiores te proporcionarán<lf>recompensas especialmente valiosas.
 <string>Estudios de campo y recompensas extra
-<string>Usa el mapa o los prismáticos para ver qué<lf><COLOR preset="TXT_Accent">recompensas extra</COLOR> se pueden obtener de<lf>un monstruo. Inicia el estudio de campo al<lf>infligir daño o seleccionarlo en el mapa.
+<string>Para ver las recompensas extra de un<lf>monstruo desde el mapa, selecciona su<lf>icono con el cursor del mapa o comprueba<lf>el entorno en el mapa de campo.
+<string>Estudios de campo y recompensas extra
+<string>Puedes empezar un <COLOR preset="TXT_Accent">estudio de campo</COLOR><lf>al infligir cierta cantidad de daño a un<lf>monstruo, o bien seleccionándolo<lf>desde su icono en el mapa,
 <string>Limitaciones de los estudios de campo
 <string>Tu rango de cazador limita los posibles<lf>monstruos objetivo de tus estudios de<lf>campo. Aumenta tu RC completando<lf>peticiones y cazando monstruos.
 <string>Investigaciones
@@ -561,7 +563,7 @@
 <string>Bloqueo perfecto
 <string>En modo espada, bloquea con <ICON WP09 PL_ATTACK_SP> al mismo<lf>tiempo en que recibas un ataque para lograr<lf>un <COLOR preset="TXT_Accent">bloqueo perfecto</COLOR>. Justo después, pulsa <ICON WP09 PL_ATTACK_00><lf>para lanzar un tajo de hacha salvaje.
 <string>Estudios de campo
-<string>Cuando un monstruo del terreno recibe<lf>daño por encima de cierto umbral o lo<lf>seleccionas en los iconos del mapa,<lf>empezará un <COLOR preset="TXT_Accent">estudio de campo</COLOR>.
+<string>Puedes empezar un <COLOR preset="TXT_Accent">estudio de campo</COLOR><lf>al infligir cierta cantidad de daño a un<lf>monstruo, o bien seleccionándolo<lf>desde su icono en el mapa,
 <string>Estudios de campo
 <string>Los estudios de campo te permiten disfrutar<lf>de la experiencia de caza ideal al convertir<lf>tu entorno actual en una misión.<lf>También puedes obtener suministros<lf>y recompensas por completar la misión.
 <string>Estudios de campo
@@ -827,7 +829,7 @@
 <string>El tablón de registro de expediciones
 <string><COLOR preset="TXT_Accent">Submisiones limitadas</COLOR><lf>Ve actividades y expediciones que<lf>están disponibles online y recoge<lf>recompensas por completarlas.
 <string>El tablón de registro de expediciones
-<string><COLOR preset="TXT_Accent">Resumen de entorno</COLOR><lf>Abre el mapa del mundo en el que se puede<lf>comprobar la información del entorno<lf>de cada zona. (También es accesible desde<lf>el mapa del mundo normal).
+<string><COLOR preset="TXT_Accent">Entorno</COLOR><lf>Selecciona cada zona en el mapa del<lf>mundo y verás el estado de su entorno<lf>y su pronóstico actual.
 <string>El tablón de registro de expediciones
 <string><COLOR preset="TXT_Accent">Información de clasificación</COLOR><lf>Ve récords personales y mundiales,<lf>así como los récords de tus amigos<lf>cazadores o miembros de la brigada.
 <string>Bolera Barril
@@ -837,7 +839,7 @@
 <string>Cantina del gran centro
 <string>En la cantina del gran centro, puedes<lf>pedir menús regionales de cada una de<lf>las distintas aldeas, así como menús<lf>de temporada durante eventos especiales.
 <string>Cantina del gran centro
-<string>Los cupones necesarios para los menús<lf>de la cantina se consiguen mediante bonus<lf>de inicio de sesión y con recompensas<lf>de submisiones.<lf><lf>¡No pierdas la oportunidad de acumularlos!
+<string>Los cupones necesarios para los menús de<lf>la cantina se consiguen mediante bonus de<lf>acceso y con recompensas de submisiones.<lf><lf>¡No pierdas la oportunidad de acumularlos!
 <string>Cambio de ropa de Alma
 <string>Ahora puedes cambiarle la ropa a Alma<lf>en el menú de <COLOR preset="TXT_Accent">cambiar apariencia</COLOR>. Ayúdala<lf>a ampliar sus horizontes sobre moda<lf>cambiándole de ropa cada cierto tiempo.
 <string>Cambiar gafas de Alma
@@ -850,10 +852,36 @@
 <string>Hemos preparado un traje especial para<lf>que los encargados se sientan parte de<lf>la floradanza. ¡Habla con Alma en el<lf>gran centro y podrás cambiar su ropa!
 <string>¡Nuevas submisiones limitadas cada día!
 <string>Las submisiones limitadas se actualizan<lf>cada día y te dan vales de la floradanza,<lf>con los que podrás crear equipamiento<lf>de temporada durante un tiempo.
-<string>¡Bonificaciones extra de inicio de sesión!
+<string>¡Bonus de acceso extra!
 <string>¡Mientras dure el evento, recibirás<lf>dos vales suertudos en lugar de uno,<lf>además de otras recompensas como<lf>los vales de la floradanza!
 <string>¡Se acercan nuevas misiones de evento!
 <string>¡Hay misiones de evento disponibles<lf>durante un tiempo limitado! Además,<lf>también vuelven a estar disponibles<lf>misiones de evento antiguas.
+<string>Sets de armadura completa
+<string>Ahora puedes crear sets de armadura que<lf>cambian toda tu apariencia. Al equipar<lf>una pieza, el resto de piezas de<lf>armadura cambiarán automáticamente.
+<string>Sets de armadura completa
+<string>Forjas y vendes sets de armadura completa<lf>como uno. Sin embargo, las mejoras y los<lf>adornos son específicos de cada pieza.
+<string>Sets de armadura superpuesta completa
+<string>Se han añadido sets de armadura superpuesta<lf>completa. Al equipar una pieza, las demás<lf>se equiparán automáticamente.
+<string>Gestionar la fauna local capturada
+<string>Ahora puedes revisar la información de la<lf>fauna local que has capturado. También puedes<lf>marcarla como favorita o liberarla a su hábitat.
+<string>Desafío de Akuma
+<string>Demuéstrale tu fuerza a Akuma<lf>completando la misión de la Arena<lf>"Fuerza demoníaca".
+<string>Aceptar misiones en el gran centro
+<string>Puedes iniciar las misiones de la Arena en<lf>el puesto de misiones de la Arena en el gran<lf>centro. ¡Prepárate para la cacería antes de ir!
+<string>Acciones de Akuma
+<string>Al equiparte la armadura de Akuma,<lf>de la colaboración con Street Fighter 6,<lf>¡podrás usar objetos y gestos especiales!
+<string>Autocombos
+<string>Mientras está equipado, usa <ICON PL_ITEM> para realizar<lf>acciones especiales. Luego pulsa <ICON PL_WEAPON_ON> o <ICON PL_ATTACK_01><lf>para seguir con movimientos especiales.
+<string>Drive Impacts
+<string>Usa <ICON PL_ITEM> para ejecutar un movimiento<lf>que sirve como ataque interceptor.<lf>Si golpeas la herida o punto débil de un<lf>monstruo, ejecutarás un Shun Goku Satsu.
+<string>Otras acciones
+<string>También puedes usar el Gou Shoryuken<lf>(gesto) y el Gou Hadoken (munición<lf>de eslinga). Para más información,<lf>consulta la guía de controles básicos.
+<string>Usar el menú radial personalizado
+<string>Registra estas nuevas acciones en el menú<lf>radial personalizado para poder acceder<lf>a ellas rápidamente en plena misión.
+<string>Conseguir vales y forjar equipamiento
+<string>¡Completa misiones de la colaboración con<lf>Street Fighter 6 en la Arena y obtendrás<lf>cupones de SF6 para forjar objetos de Akuma!
+<string>Misiones avanzadas
+<string>Se ha desbloqueado la misión de la Arena<lf><COLOR preset="TXT_Accent">Fuerza verdadera</COLOR>. ¡Compite contrarreloj<lf>contra cazadores de todo el mundo!
 <string>Heridas
 <string>Ahora puedes intercambiar adornos antiguos<lf>por puntos de fusión que podrás usar para<lf><COLOR preset="TXT_Accent">fundir nuevos adornos</COLOR>. Las opciones<lf>aumentarán a medida que cumplas con<lf>las condiciones.
 <string>Adornos y sets de equipamiento

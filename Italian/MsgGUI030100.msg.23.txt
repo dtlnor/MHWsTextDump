@@ -129,6 +129,12 @@
 <string>Inclinare <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mentre vai al massimo della<lf>velocità ti permette di uscire dal<lf>percorso riservato al Seikret.
 <string>Tipo 2
 <string>Inclinare <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> e premere <ICON PL_INTERACT_ACTION_START> ti permette<lf>di uscire dal percorso riservato al Seikret<lf>a prescindere dalla velocità.
+<string>Visualizzazione barra oggetti
+<string>Regola la visualizzazione degli oggetti<lf>quando viene utilizzata la barra oggetti<lf>in modalità mira.
+<string>Tipo 1
+<string>Mostra solo gli oggetti relativi alla fionda<lf>quando si usa barra oggetti in modalità<lf>mira/precisione.
+<string>Tipo 2
+<string>Mostra tutti gli oggetti quando si usa la<lf>barra oggetti in modalità mira/precisione.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Quando impugni l'arma, <ICON PAD PL_AIM_TOGGLE> attiva o disattiva<lf>la modalità precisione per le armi da mischia,<lf>e la modalità mira/precisione<lf>per quelle a distanza.
 <string>Comandi avanzati modalità mira/precisione
 <string>Regola l'attivazione separata delle modalità<lf>precisione e mira/precisione per armi da<lf>mischia e a distanza. <COLOR preset="TXT_Accent">Non influenza la fionda.</COLOR>
+<string>Regola come attivare la mira della fionda con l'arma<lf>nel fodero e come attivare la modalità mira/precisione<lf>per le armi da mischia e a distanza, separatamente.
+<string>Mira fionda (arma nel fodero)
+<string>Regola l'attivazione della mira con la fionda<lf>quando l'arma è nel fodero.
+<string><ICON PAD PL_AIM>: attiva
+<string>Tenendo premuto <ICON PAD PL_AIM> si punta la fionda<lf>con l'arma nel fodero.
+<string>Premi <ICON PAD PL_POP_CHANGE_SELECT>: attiva/disattiva
+<string>Premendo <ICON PAD PL_POP_CHANGE_SELECT> si attiva/disattiva la mira con<lf>la fionda quando l'arma è nel fodero.
 <string>Armi da mischia
 <string>Imposta come attivare la modalità<lf>precisione con le armi da mischia.
 <string><ICON PAD PL_AIM>: attiva
@@ -1178,7 +1191,7 @@
 <string>Dinamica
 <string>Mostra sempre la barra salute ridotta<lf>per i tuoi compagni.<lf>La barra si espanderà completamente<lf>solo in risposta ad alcune situazioni.
 <string>Mostra tempo trascorso
-<string>Scegli se la pressione di <ICON PL_ITEM_SLIDER_OPEN> mostrerà<lf>o meno la quantità di tempo trascorso per<lf>le missioni Arena, Sfida e Corsa al tempo opzionale.
+<string>Scegli se la pressione di <ICON PL_ITEM_SLIDER_OPEN> mostrerà<lf>o meno la quantità di tempo trascorso per<lf>le missioni arena, sfida e sfida libera.
 <string>Mostra
 <string>Durante alcune missioni, tenere premuto <ICON PL_ITEM_SLIDER_OPEN><lf>permette di visualizzare il tempo trascorso<lf>con i tuoi obiettivi.
 <string>Non mostrare
@@ -1277,7 +1290,7 @@
 <string>Mostra
 <string>L'elmo del cacciatore è visibile e riflette<lf>le impostazioni di equipaggiamento e aspetto.<lf><COLOR preset="TXT_Accent">(In alcuni casi verrà comunque nascosto.)</COLOR>
 <string>Nascondi
-<string>L'elmo del cacciatore non viene visualizzato,<lf>a prescindere dalle impostazioni di<lf>equipaggiamento e aspetto selezionate.
+<string>L'elmo del cacciatore non viene visualizzato,<lf>a prescindere dalle impostazioni di<lf>equipaggiamento e aspetto selezionate.<lf><COLOR preset="TXT_Accent">(Non si applica ai set completi.)</COLOR>
 <string>Nascondi durante di filmati
 <string>L'elmo del cacciatore è visibile e riflette<lf>le impostazioni di equipaggiamento<lf>e aspetto, tranne durante i filmati.
 <string>Impostazioni cacciatore di supporto
@@ -1404,11 +1417,11 @@
 <string>Volume chat vocale
 <string>Regola il volume degli altri gruppi nella chat vocale.
 <string>Cambio automatico chat vocale
-<string>Imposta se cambiare canale della chat<lf>vocale in base allo stato della missione.<lf><COLOR preset="TXT_Accent">(Il cambio manuale è sempre possibile.)</COLOR>
+<string>Imposta se cambiare canali della chat vocale<lf>e testuale in base allo stato della missione.<lf><COLOR preset="TXT_Accent">(Il cambio manuale è sempre possibile.)</COLOR>
 <string>Priorità membri missione
-<string>Passa automaticamente alla chat vocale con<lf>i membri della missione quando ne inizi una, e<lf>alla chat dei membri del collegamento quando<lf>la porti a termine.
+<string>Passa automaticamente al canale con<lf>i membri della missione quando ne inizi<lf>una, e alla chat dei membri del collegamento<lf>quando la porti a termine.
 <string>Priorità membri collegamento
-<string>Passa automaticamente alla chat vocale con<lf>i membri del collegamento quando ti unisci a<lf>un gruppo di collegamento, a prescindere<lf>dallo stato della missione.
+<string>Passa automaticamente al canale con<lf>i membri del collegamento quando ti unisci<lf>a un gruppo di collegamento, a prescindere<lf>dallo stato della missione.
 <string>Nessuna priorità
 <string>Non cambiare automaticamente canale della<lf>chat vocale. È possibile solo il cambio manuale.
 <string>Lingua compagno Felyne
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Cinese mandarino

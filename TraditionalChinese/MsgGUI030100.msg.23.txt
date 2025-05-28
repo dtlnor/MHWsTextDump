@@ -129,6 +129,12 @@
 <string>以最高速度跑動時輸入<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>，就可移離<lf><REF RefGeneral_0014_01>當前路線。
 <string>類型2
 <string>不論<REF RefGeneral_0014_01>的移動速度為何，輸入<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>同時<lf>按<ICON PL_INTERACT_ACTION_START>，即可移離<REF RefGeneral_0014_01>當前路線。
+<string>道具快捷欄顯示設定
+<string>設定在瞄準模式操作道具快捷欄時的<lf>道具顯示方式。
+<string>類型1
+<string>在瞄準模式操作道具快捷欄時，<lf>僅會顯示投射器相關的道具。
+<string>類型2
+<string>在瞄準模式操作道具快捷欄時也與平時同樣，<lf>顯示所有道具。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>拔刀後按<ICON PAD PL_AIM_TOGGLE>，裝備近戰武器時將切換至集中模式，<lf>裝備遠程武器時將切換至瞄準/集中模式。
 <string>瞄準/集中模式切換詳細設定
 <string>可分別設定近戰和遠程武器拔刀後，切換至<lf>瞄準/集中模式的操作。<COLOR preset="TXT_Accent">（不適用於收刀時的<lf>投射器瞄準操作）</COLOR>
+<string>可分別設定近戰和遠程武器收刀時切換至投射器瞄準的操作，<lf>以及拔刀後切換至瞄準/集中模式的操作。
+<string>收刀時投射器瞄準的切換操作
+<string>設定收刀時切換至投射器瞄準模式的操作。
+<string><ICON PAD PL_AIM>期間維持
+<string>收刀時<ICON PAD PL_AIM>期間將維持投射器瞄準模式。
+<string>按<ICON PAD PL_POP_CHANGE_SELECT>切換
+<string>收刀時按<ICON PAD PL_POP_CHANGE_SELECT>切換至投射器瞄準模式，<lf>再按就會解除。
 <string>裝備近戰武器時的切換操作
 <string>設定裝備近戰武器時切換至集中模式的操作。
 <string><ICON PAD PL_AIM>期間維持
@@ -1178,11 +1191,11 @@
 <string>不恆常顯示（最小化）
 <string>以最小化狀態顯示夥伴的體力計量表，並因應情況<lf>自動展開。
 <string>顯示部分任務的經過時間
-<string>設定在鬥技大會任務、挑戰任務、自由挑戰任務中，<lf><ICON PL_ITEM_SLIDER_OPEN>期間是否於目標導引上方顯示任務經過時間。
+<string>設定在鬥技大會任務、挑戰任務、自由挑戰任務中，<lf><ICON PL_ITEM_SLIDER_OPEN>期間是否於目標導引當中顯示任務經過時間。
 <string>顯示
-<string>在相關任務中，<ICON PL_ITEM_SLIDER_OPEN>期間將於目標導引上方顯示<lf>任務經過時間。
+<string>在相關任務中，<ICON PL_ITEM_SLIDER_OPEN>期間將於目標導引當中顯示<lf>任務經過時間。
 <string>不顯示
-<string>在相關任務中，即使<ICON PL_ITEM_SLIDER_OPEN>也不會於目標導引上方<lf>顯示任務經過時間。
+<string>在相關任務中，即使<ICON PL_ITEM_SLIDER_OPEN>也不會於目標導引當中<lf>顯示任務經過時間。
 <string>發送聊天後的交流視窗
 <string>設定發送聊天後是否自動關閉交流視窗和聊天紀錄視窗。
 <string>關閉視窗
@@ -1277,7 +1290,7 @@
 <string>顯示
 <string>根據裝備狀態與外觀設定顯示頭部防具。<lf><COLOR preset="TXT_Accent">（部分場景中會強制隱藏）</COLOR>
 <string>不顯示
-<string>不論裝備狀態與外觀設定為何，一律隱藏頭部防具。
+<string>無關裝備狀態與外觀設定，一律隱藏頭部防具。<lf><COLOR preset="TXT_Accent">（整套防具除外）</COLOR>
 <string>僅於過場動畫不顯示
 <string>根據裝備狀態與外觀設定顯示頭部防具，<lf>但僅於過場動畫時隱藏。
 <string>支援獵人設定
@@ -1404,11 +1417,11 @@
 <string><REF RefNetwork_0006>音量
 <string>設定<REF RefNetwork_0006>時其他成員的語音音量。
 <string><REF RefNetwork_0006>自動切換
-<string>設定是否根據情況自動切換<REF RefNetwork_0006>的發送對象。<lf><COLOR preset="TXT_Accent">（可隨時手動切換）</COLOR>
+<string>設定是否根據情況自動切換<REF RefNetwork_0006>、文字聊天的<lf>發送對象和篩選聊天紀錄。<lf><COLOR preset="TXT_Accent">（可隨時手動切換）</COLOR>
 <string><REF RefNetwork_0004_02>優先
-<string>出發前往任務時自動將<REF RefNetwork_0006>的發送對象切換至<lf><REF RefNetwork_0004_02>，從任務返回時自動切換至<REF RefNetwork_0004_01>。
+<string>出發前往任務時自動將發送/篩選對象切換至<lf><REF RefNetwork_0004_02>，從任務返回時自動切換至<REF RefNetwork_0004_01>。
 <string><REF RefNetwork_0004_01>優先
-<string>不論任務的出發情況，參加<REF RefNetwork_0005>時，總是將<lf><REF RefNetwork_0006>的發送對象自動切換至<REF RefNetwork_0004_01>。
+<string>不論任務的出發情況，參加<REF RefNetwork_0005>時，總是將<lf>發送/篩選對象自動切換至<REF RefNetwork_0004_01>。
 <string>關
 <string>不自動切換發送對象，僅可手動切換。
 <string>艾路語音設定
@@ -1478,7 +1491,7 @@
 <string><REF RefLanguage_0000_009_0>
 <string><REF RefLanguage_0000_012_0>
 <string>語音語言
-<string>設定語音的語言。
+<string>設定語音語言。<lf><COLOR preset="TXT_Accent">（繁體中文字幕參照日文語音）</COLOR>
 <string><REF RefLanguage_0000_000>
 <string><REF RefLanguage_0000_001>
 <string><REF RefLanguage_0000_002>
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>中文（普通話）

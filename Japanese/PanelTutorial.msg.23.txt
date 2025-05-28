@@ -391,9 +391,9 @@
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_186
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_L_EXP_186
 <string>導蟲アナウンスの活用
-<string>採集したいアイテムを狙うのが難しい場合、<lf><ICON PL_AIM>＋<ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN>で導蟲アナウンスから対象を選択し<lf>フックスリンガー（<ICON PL_CATCH_SLINGER_SHOOT>）で採集できる。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_202>
 <string>導蟲アナウンスの活用
-<string>画面左側の導蟲アナウンスに表示されている<lf>アイテムやギミックの位置を知りたい場合、<lf><ICON PL_AIM>＋<ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>で対象を注視できる。
+<string><INPUTMSG MsgGUI600000_Tips_EXP_203>
 <string>任務：ドシャグマの狩猟
 <string><REF RefEnvironment_0000_0000>で<COLOR preset="TXT_Accent">ドシャグマ</COLOR>が暴れている。<lf>マイテントで出発の準備を整え、<lf><COLOR preset="TXT_Accent">ドシャグマ</COLOR>の狩猟に向かおう。
 <string><COLOR FF0000>#Rejected#</COLOR> PanelTutorial_TITLE_179
@@ -429,7 +429,9 @@
 <string>現地調査クエストと追加報酬
 <string>上位環境での現地調査クエストの<COLOR preset="TXT_Accent">追加報酬</COLOR>が<lf>解放された。★の数が多いモンスターほど<lf>強力だが、価値の高い追加報酬が得られる。
 <string>現地調査クエストと追加報酬
-<string>各モンスターの追加報酬は、マップ上から<lf>確認できる。現地調査クエストは、一定の<lf>ダメージを与えるかマップ上で開始可能。
+<string>各モンスターの追加報酬は、マップ上の<lf>モンスターにカーソルを合わせるか、<lf>「環境サマリー」から確認できる。
+<string>現地調査クエストと追加報酬
+<string>モンスターに一定以上のダメージ与えるか、<lf>（落石等のギミックによるダメージは除く）<lf>マップから<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>を開始できる。
 <string>現地調査クエストの受注制限
 <string>現地調査クエストはターゲットにできる対象<lf>がHRで制限されている。依頼をこなしたり<lf>狩猟を繰り返したりして、HRを上げよう。
 <string><REF RefQuest_0009_003>
@@ -561,7 +563,7 @@
 <string>ジャストガード
 <string>剣モード中、敵の攻撃に合わせてガード<ICON WP09 PL_ATTACK_SP>で<lf>「<COLOR preset="TXT_Accent">ジャストガード</COLOR>」が発生。その直後に<lf><ICON WP09 PL_ATTACK_00>で、属性廻填斧強化斬りへと派生する。
 <string>現地調査クエスト
-<string>モンスターに一定以上のダメージ与えるか<lf>マップ上のアイコンから対象を選択すると、<lf>その場で<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>を開始できる。
+<string>モンスターに一定以上のダメージ与えるか、<lf>（落石等のギミックによるダメージは除く）<lf>マップから<COLOR preset="TXT_Accent"><REF RefQuest_0009_002></COLOR>を開始できる。
 <string>現地調査クエスト
 <string>現在の環境をそのままクエスト化して、<lf>シームレスな狩猟体験を楽しもう。<lf>支給品やクエスト達成報酬も受取可能だ。
 <string>現地調査クエスト
@@ -827,7 +829,7 @@
 <string>調査隊レコードボードとは
 <string><COLOR preset="TXT_Accent">▼配信バウンティ</COLOR><lf>オンラインで配信される報酬付きの様々な<lf>活動や調査の確認、報酬受け取りが可能。
 <string>調査隊レコードボードとは
-<string><COLOR preset="TXT_Accent">▼環境サマリー</COLOR><lf>全域マップを開き、各地の環境を確認可能。<lf>（通常の全域マップと同機能）
+<string><COLOR preset="TXT_Accent">▼環境サマリー</COLOR><lf>全域マップから各地域を選択することで、<lf>それぞれの環境を確認可能。
 <string>調査隊レコードボードとは
 <string><COLOR preset="TXT_Accent">▼レコードランキング</COLOR><lf>自身に加えて、全世界、ハンターフレンド、<lf>サークルメンバーの各種記録を閲覧できる。
 <string>タルコロチャレンジ
@@ -854,6 +856,32 @@
 <string>通常時は１日１枚のみの「激運チケット」を<lf>期間中は特別に１日２枚へ増量！　加えて、<lf>「祭事チケット【花舞】」等も入手できる。
 <string>イベントクエストが続々配信！
 <string>期間限定の特別なイベントクエストを<lf>順次配信！　また、過去に配信された<lf>イベントクエストの多くも再配信される。
+<string>ワンセット防具
+<string>特別な見た目をもつ「ワンセット防具」が<lf>生産可能になった。装備すると全ての部位が<lf>一括で変更される。
+<string>ワンセット防具
+<string>ワンセット防具の生産や売却は全部位を<lf>一括で対象にするが、強化や装飾品の<lf>着脱は、部位ごとに行うことができる。
+<string>ワンセット防具の重ね着装備
+<string>ワンセット防具の重ね着装備が追加された。<lf>装備すると全ての部位が一括で変更される。<lf>普段とは違う特別な見た目を楽しもう！
+<string>捕獲した環境生物の管理
+<string>捕獲した環境生物の詳細を確認可能に<lf>なった。また、お気に入りへ登録したり<lf>逃がしたりすることもできる。
+<string>豪鬼からの挑戦状
+<string>豪鬼に自らの実力を証明するため、<lf>闘技大会「覚悟の証明、強者の証」を<lf>クリアしよう！
+<string>大集会所でクエストを受注しよう
+<string>闘技大会クエストは、大集会所にある<lf>「闘技大会カウンター」から受注できる。<lf>まずは準備を整えて、大集会所へ向かおう。
+<string>豪鬼専用アクションを使おう
+<string>一時的に『SF6』の豪鬼コラボ防具を<lf>装備していることで、専用のアイテムや<lf>ジェスチャーが使用可能になった。
+<string>「アシストコンボ」アイテム
+<string>装備中に、<ICON PL_ITEM>で特別な攻撃アクションを<lf>発動できる。<ICON PL_ITEM>の後に<ICON PL_WEAPON_ON>・<ICON PL_ATTACK_01>で、さらに<lf>別の技へと派生させることが可能。
+<string>「ドライブインパクト」アイテム
+<string><ICON PL_ITEM>入力で、相殺効果を持つ攻撃を発動できる<lf>アイテム。この技をモンスターの傷か弱点に<lf>ヒットさせれば「瞬獄殺」を発動可能。
+<string>その他の追加アクション
+<string>その他にも、「豪昇龍拳」ジェスチャーや<lf>「豪波動拳」スリンガー弾が使用できる。<lf>詳しくは「基本操作指南」を確認しよう。
+<string>カスタムショートカットを使おう
+<string>これらの専用アイテムやジェスチャーを<lf>事前にカスタムショートカットへ登録して<lf>おけば、素早く発動しやすく便利だろう。
+<string>チケットを集めて装備を作ろう
+<string>『SF6』とのコラボ闘技大会クエストを<lf>クリアしてアイテム「SF6チケット」を<lf>集め、豪鬼のコラボ装備を作成しよう！
+<string>高難度クエストに挑戦しよう
+<string>闘技大会クエスト「うぬは真の強者たるか」<lf>が開放された。タイムアタックで全世界の<lf>ハンターと互いの腕を競い合おう！
 <string>傷口
 <string>所持中の不要な装飾品を消費することで、<lf><COLOR preset="TXT_Accent">希望の装飾品を錬金</COLOR>できるようになった。<lf>ラインナップは条件を満たすと増加する。
 <string><REF RefItem_0017_120>と装備マイセット

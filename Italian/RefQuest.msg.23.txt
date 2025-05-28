@@ -63,9 +63,9 @@
 <string><COLOR preset="TXT_Danger">Non si può salvare come indagine.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossibile salvare come indagine.</COLOR>
 <string><COLOR preset="TXT_Danger">Le missioni principali completate non possono essere ripetute.</COLOR>
-<string><COLOR preset="TXT_Danger">Uno o più giocatori non hanno potuto partecipare a causa delle impostazioni multigiocatore.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossibile partecipare a causa delle impostazioni multigiocatore della missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi partecipare perché è già stato raggiunto il numero massimo di persone.</COLOR>
-<string><COLOR preset="TXT_Danger">Non hai potuto partecipare a causa delle impostazioni di approvazione della piattaforma.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossibile partecipare a causa delle impostazioni di approvazione della piattaforma.</COLOR>
 <string><COLOR preset="TXT_Danger">Non soddisfi le condizioni necessarie per accettare/partecipare a questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi accettare/partecipare a questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai potuto accettare/partecipare alla missione.</COLOR>
@@ -74,6 +74,7 @@
 <string><COLOR preset="TXT_Danger">Non puoi iniziare la ricerca sul campo perché un membro del collegamento sta visualizzando i risultati della missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Non si può usare durante questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Questa missione non può essere accettata al di fuori del Centro supremo.</COLOR>
+<string><COLOR preset="TXT_Danger">Non si può usare durante questa missione.</COLOR>
 <string>Torna al titolo
 <string>Riprova
 <string>Abbatti {0}
@@ -108,6 +109,7 @@
 <string>2° tiro!
 <string>Punteggio
 <string>Completato
+<string>VINCE<lf>AKUMA
 <string>ATTENZIONE...
 <string>3
 <string>2
@@ -132,14 +134,14 @@
 <string>Missioni membri stanza
 <string>Missioni razzo SOS
 <string>Missioni membri collegamento
-<string>Missioni Corsa al tempo opz.
+<string>Missioni sfida libera
 <string>Costo
 <string>Data e ora ricerca sul campo
 <string>Rimanente
 <string>{0}
 <string>Richieste di partecipazione
 <string>Stabilisci come accettare giocatori nelle missioni. <COLOR preset="TXT_Accent">(I membri collegamento con invito saranno sempre accettati).</COLOR>
-<string>Approvazione automatica
+<string>Approva auto
 <string>Approva manuale
 <string>Imposta password
 <string>Scegli una password per la tua missione. <COLOR preset="TXT_Accent">(Le password vengono rimosse quando invii un razzo SOS.)</COLOR>
@@ -167,7 +169,7 @@
 <string>Completato!
 <string>Armi disponibili
 <string>Valutazione tempo
-<string>I tuoi tempi migliori
+<string>Tempi migliori
 <string>Membri
 <string>Data: <DATETIME {0} "DD/MM/YYYY"> (UTC)
 <string>Data: <DATETIME {0} "DD/MM/YYYY">
@@ -216,8 +218,8 @@
 <string>Tutte le piattaforme
 <string>La tua piattaforma
 <string>Ulteriori dettagli
-<string>Regole missione Corsa al tempo opzionale<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
-<string>Regole missioni sfida/missioni Arena<lf>- Numero massimo di partecipanti: 2.<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.<lf>- I compagni Felyne non possono unirsi alla missione.<lf>- Gli effetti dei pasti <COLOR preset="TXT_Danger">verranno temporaneamente disabilitati<lf>durante la missione</COLOR> (e ripristinati una volta finita).<lf>- Gli effetti di stato, ottenuti da oggetti o da effetti melodia,<lf><COLOR preset="TXT_Danger">spariranno alla partenza</COLOR>.<lf><lf>Regole missione Corsa al tempo opzionale<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
+<string>Regole missione sfida libera<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
+<string>Regole missioni sfida/missioni Arena<lf>- Numero massimo di partecipanti: 2.<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.<lf>- I compagni Felyne non possono unirsi alla missione.<lf>- Gli effetti dei pasti <COLOR preset="TXT_Danger">verranno temporaneamente disabilitati<lf>durante la missione</COLOR> (e ripristinati una volta finita).<lf>- Gli effetti di stato, ottenuti da oggetti o da effetti melodia,<lf><COLOR preset="TXT_Danger">spariranno alla partenza</COLOR>.<lf><lf>Regole missioni sfida libera<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
 <string>Cerca razzo SOS
 <string>Tipologia missione
 <string>Qualsiasi
@@ -254,12 +256,12 @@
 <string>Cronologia ricerche sul campo (ultime {0})
 <string>Indagini (salvate: {0})
 <string>Missioni evento
-<string>Missioni membro del collegamento ({0})
+<string>Missioni membri stanza ({0})
 <string>Missioni membri collegamento
 <string>Missioni razzo SOS ({0})
 <string>Missioni arena
 <string>Missioni sfida
-<string>Missioni Corsa al tempo opz.
+<string>Missioni sfida libera
 <string>Missioni di pesca
 <string>Missioni di pesca (limitato)
 <string>Tempo migliore

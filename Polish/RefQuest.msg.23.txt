@@ -5,7 +5,7 @@
 <string>Nagrody
 <string>Osobisty rekord
 <string>Przegląd otoczenia
-<string>Aktualizuj
+<string>Aktualizacje
 <string>Obecnie
 <string>Prognoza
 <string>Działania gracza mogą zmienić prognozę.
@@ -63,7 +63,7 @@
 <string><COLOR preset="TXT_Danger">Nie można zapisać jako śledztwa.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się zapisać jako śledztwa.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można powtórzyć ukończonych zleceń.</COLOR>
-<string><COLOR preset="TXT_Danger">Graczowi/Graczom nie udało się dołączyć z powodu ustawień rozgrywki wieloosobowej.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie udało się dołączyć z powodu ustawień rozgrywki wieloosobowej w zadaniu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się dołączyć, ponieważ osiągnięto już maksymalną liczbę osób.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się dołączyć z powodu ustawień uprawnień platformy.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie spełniono niezbędnych warunków do przyjęcia tego zadania lub dołączenia do niego.</COLOR>
@@ -73,7 +73,8 @@
 <string><COLOR preset="TXT_Danger">To śledztwo już zostało zapisane.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu, ponieważ członek grupy wyświetla wyniki zadania.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można użyć podczas tego zadania.</COLOR>
-<string><COLOR preset="TXT_Danger">To zadanie można przyjąć tylko w wielkim centrum.</COLOR>
+<string><COLOR preset="TXT_Danger">To zadanie można przyjąć tylko w Wielkim Centrum.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można użyć podczas tego zadania.</COLOR>
 <string>Powrót do ekr. tytuł.
 <string>Spróbuj ponownie
 <string>Zgładź: {0}
@@ -108,6 +109,7 @@
 <string>2. rzut!
 <string>Wynik
 <string>Ukończono
+<string>AKUMA<lf>WYGRYWA
 <string>GOTOWI?
 <string>3
 <string>2
@@ -132,7 +134,7 @@
 <string>Zadania członków lobby
 <string>Zadania z flarą alarmową
 <string>Zadania członków grupy
-<string>Darmowe wyzwania
+<string>Swobodne wyzwania
 <string>Koszt
 <string>Czas rozpoczęcia badania terenu
 <string>Pozostałe
@@ -166,8 +168,8 @@
 <string>Klient: {0}
 <string>Ukończono!
 <string>Dostępna broń
-<string>Rankingi czasów
-<string>Twój najlepszy czas
+<string>Ranking czasów
+<string>Najlepsze czasy
 <string>Członkowie
 <string>Data: <DATETIME {0} "DD.MM.YYYY"> (UTC)
 <string>Data: <DATETIME {0} "DD.MM.YYYY">
@@ -216,8 +218,8 @@
 <string>Wszystkie platformy
 <string>Twoja platforma
 <string>Dodatkowe szczegóły
-<string>Zasady opcjonalnych wyzwań<lf>– Automatyczna flara alarmowa: nie możesz wystrzelić<lf>flary alarmowej.<lf>– Ustawienia przyjmowania do zadań: po rozpoczęciu<lf>nie można dołączyć do zadania.<lf>– Łowcy wspierający dołączą do zadania na starcie.
-<string>Zasady zadań na Arenie i wyzwań<lf>– Maksymalna liczba uczestników wynosi 2.<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.<lf>– Koleżkoty nie mogą dołączyć do zadania.<lf>– Efekty posiłków zostaną <COLOR preset="TXT_Danger">tymczasowo wyłączone na czas<lf>trwania zadania</COLOR>. (Przywrócone po zakończeniu zadania).<lf>– Efekty statusu, takie jak przedmioty i efekty melodii<lf><COLOR preset="TXT_Danger">znikną po wyjściu</COLOR>.<lf><lf>Zasady opcjonalnych zadań z walką na czas<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.
+<string>Zasady swobodnych wyzwań<lf>– Automatyczna flara alarmowa: nie możesz wystrzelić<lf>flary alarmowej.<lf>– Ustawienia przyjmowania do zadań: po rozpoczęciu<lf>nie można dołączyć do zadania.<lf>– Łowcy wspierający dołączą do zadania na starcie.
+<string>Zasady zadań na Arenie i wyzwań<lf>– Maksymalna liczba uczestników wynosi 2.<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.<lf>– Koleżkoty nie mogą dołączyć do zadania.<lf>– Efekty posiłków zostaną <COLOR preset="TXT_Danger">tymczasowo wyłączone na czas<lf>trwania zadania</COLOR>. (Przywrócone po zakończeniu zadania).<lf>– Efekty statusu, takie jak przedmioty i efekty melodii<lf><COLOR preset="TXT_Danger">znikną po wyjściu</COLOR>.<lf><lf>Zasady swobodnych wyzwań<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.
 <string>Szukaj flar alarmowych
 <string>Typ zadania
 <string>Dowolne
@@ -254,12 +256,12 @@
 <string>Historia badania terenu (najnowsze: {0})
 <string>Śledztwa (zapisane: {0})
 <string>Zadania z wydarzeń
-<string>Zadania członków grupy ({0})
+<string>Zadania członków lobby ({0})
 <string>Zadania członków grupy
 <string>Zadania z flarą alarmową ({0})
 <string>Zadania na Arenie
 <string>Wyzwania
-<string>Darmowe wyzwania
+<string>Swobodne wyzwania
 <string>Zadania z łowieniem ryb
 <string>Zadania z łowieniem ryb (ograniczone)
 <string>Najlepszy czas

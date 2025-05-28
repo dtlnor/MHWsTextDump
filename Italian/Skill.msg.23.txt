@@ -127,11 +127,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
 <string>Incrementa notevolmente il<lf>raggio d'azione.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
-<string>ATT Fisico: +5%<lf>(Barra acutezza gialla o inferiore.)
+<string>Danni inflitti: +5%<lf>(Barra acutezza gialla o inferiore.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
-<string>ATT Fisico: +10%<lf>(Barra acutezza gialla o inferiore.)
+<string>Danni inflitti: +10%<lf>(Barra acutezza gialla o inferiore.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_84
-<string>ATT Fisico: +10%<lf>(Barra acutezza verde o inferiore.)
+<string>Danni inflitti: +10%<lf>(Barra acutezza verde o inferiore.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_86
 <string>Migliora leggermente l'accumulo<lf>della barra. Riduzione carica: -5%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_87
@@ -567,13 +567,13 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_324
 <string>ATT Fisico: +6 <lf>(Se afflitto da veleno o paralisi.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_325
-<string>ATT Fisico: +8%<lf>Affinità: +5%<lf>(Se afflitto da veleno o paralisi.)
+<string>ATT Fisico: +8<lf>Affinità: +5%<lf>(Se afflitto da veleno o paralisi.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_326
-<string>ATT Fisico: +10%<lf>Affinità: +10%<lf>(Se afflitto da veleno o paralisi.)
+<string>ATT Fisico: +10<lf>Affinità: +10%<lf>(Se afflitto da veleno o paralisi.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_494
 <string>ATT Fisico: +12<lf>Affinità: +15% <lf>(Se afflitto da veleno o paralisi.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
-<string>ATT Fisico: +15%<lf>Affinità: +20%<lf>(Se afflitto da veleno o paralisi.)
+<string>ATT Fisico: +15<lf>Affinità: +20%<lf>(Se afflitto da veleno o paralisi.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
 <string>Aumenta leggermente il<lf>danno elementale e lo<lf>stato alterato.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
@@ -663,7 +663,7 @@
 <string>Super guarigione I
 <string>Consente di recuperare salute<lf>fino al valore massimo, anche<lf>in assenza della porzione rossa.
 <string>Super guarigione II
-<string>In aggiunta agli effetti precedenti,<lf>aumenta la velocità di recupero,<lf>anche in assenza della porzione rossa.
+<string>Consente di recuperare salute<lf>fino al valore massimo, anche<lf>in assenza della porzione rossa.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_378
 <string>Annulla gli effetti di calore e freddo.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_491
@@ -703,7 +703,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_461
 <string>Dopo aver contratto la frenesia,<lf>velocizza il recupero dell'infezione.<lf>Aumento affinità dopo guarigione: +6%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_462
-<string>Dopo aver contratto la frenesia,<lf>velocizza il recupero dell'infezione.<lf>Aumento affinità dopo guarigione: +15%
+<string>Dopo aver contratto la frenesia,<lf>velocizza il recupero dell'infezione.<lf>Aumento affinità dopo guarigione: +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_463
 <string>Aumenta di pochissimo l'attacco e<lf>l'affinità dei colpi dopo aver<lf>soddisfatto le condizioni.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_464
@@ -761,7 +761,7 @@
 <string>Liberazione offensiva I
 <string>Aumenta l'attacco quando<lf>ci si riprende da tela di ragno,<lf>malus da gelo, blocco o scontro di forza.
 <string>Liberazione offensiva II
-<string>Aumenta notevolmente l'attacco<lf>quando ci si riprende da tela di<lf>ragno, malus da gelo, blocco o<lf>scontro di forza.
+<string>Aumenta notevolmente l'attacco quando <lf>ci si riprende da tela di ragno, <lf>malus da gelo, blocco o scontro di forza.
 <string>Ardente I
 <string>Dà la possibilità di infliggere<lf>danni aggiuntivi da fuoco<lf>dopo un attacco.
 <string>Ardente II
@@ -808,12 +808,16 @@
 <string>Durante la Fiordanza, aggiunge<lf>oggetti speciali alle ricompense<lf>missione.
 <string>Manna Fiordanza II
 <string>Durante la Fiordanza, aggiunge oggetti<lf>speciali alle ricompense missione<lf>e aumenta attacco e difesa di molto.
+<string>Satsui no Hado
+<string>Aumenta la potenza delle mosse speciali.<lf>Il Drive Impact può attivare attacchi<lf>di reazione. Aumenta la potenza degli<lf>attacchi di reazione.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_520
+<string>Attiva l'effetto dell'abilità.
 <string>Sorte
 <string>Aumenta le ricompense degli obiettivi<lf>missione (non ha effetto quando ti<lf>unisci a una missione in corso).
-<string>Bonus scoppio I
-<string>Aumenta la durata dell'abilità<lf>Scoppio e aumenta di +3<lf>l'attacco finché l'abilità è attiva.
-<string>Bonus scoppio II
-<string>Aumenta la durata dell'abilità<lf>Scoppio e aumenta di +10<lf>l'attacco finché l'abilità è attiva.
+<string>Bonus catena I
+<string>Aumenta la durata dell'abilità<lf>Catena e aumenta di +3<lf>l'attacco finché l'abilità è attiva.
+<string>Bonus catena II
+<string>Aumenta la durata dell'abilità<lf>Catena e aumenta di +10<lf>l'attacco finché l'abilità è attiva.
 <string>Fan delle proteine I
 <string>Aumenta temporaneamente l'attacco<lf>di +15 dopo il consumo<lf>di una bistecca ben cotta.
 <string>Fan delle proteine II

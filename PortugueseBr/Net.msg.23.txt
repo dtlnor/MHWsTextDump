@@ -9,6 +9,7 @@
 <string>Houve um erro de comunicação.<lf>Voltando à tela inicial.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Alguns recursos do modo multijogador online<lf>não estarão disponíveis.<lf><lf>Registre-se com {0} para acessar<lf>todos os recursos do modo multijogador online.
+<string>Modo multijogador online limitado.<lf><lf>Impossível adquirir informações de assinatura<lf>de <PLATMSG RefGeneral_0026><lf>necessárias para jogar online.
 <string>Esta conta não atende aos requisitos<lf>para o multijogador online.
 <string>Não foi possível conectar à rede.<lf>Voltando à tela inicial.
 <string>Não foi possível conectar à rede.
@@ -45,6 +46,9 @@
 <string>Você atingiu o limite de bloqueios e<lf>não pode bloquear mais jogadores.<lf>{0}
 <string>No momento, os servidores estão<lf>em manutenção programada.<lf>{0}
 <string>As funções de esquadrão não podem ser<lf>acessadas a partir desta conta.<lf>{0}
+<string>Plataforma e configurações de crossplay<lf>não correspondem.<lf>{0}
+<string>Esta operação é restrita.<lf>Verifique as configurações do console.<lf>{0}
+<string>O jogador está offline.<lf>{0}
 <string>A conexão com a sessão foi perdida.<lf>{0}
 <string>Falha ao criar sessão.<lf>{0}
 <string>Falha ao buscar sessão.<lf>{0}
@@ -70,6 +74,7 @@
 <string>Não é possível participar desta missão porque<lf>ela já foi iniciada.
 <string>Falha ao participar pois a sessão tem<lf>configurações diferentes de jogo em<lf>crossplay. Veja suas configurações em<lf><BOLD>Opções</BOLD> na tela inicial do jogo.<lf>{0}
 <string>Limite de jogadores do Grupo de Elo atingido.<lf>Não é possível adicionar mais jogadores.<lf><lf>{0}
+<string>Não é possível entrar em Lobbies Privados/Lobbies<lf>do Esquadrão pela Busca por Amigo Caçador. Só é<lf>possível entrar pela Busca por ID do Lobby/Busca<lf>de Lobby do Esquadrão.<lf>{0}
 <string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta violou os seguintes termos: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, as <COLOR preset="TXT_Accent">funções de comunidade<lf>foram temporariamente restritas</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso.</COLOR>
 <string>Comportamento Abusivo/Desordeiro
 <string>Tipos de Comportamento Proibido
@@ -118,7 +123,7 @@
 <string>Partir
 <string>Ocorreu um erro. Informe a equipe próxima.
 <string>Falha ao adquirir dados de transmissão.<lf>{0}
-<string>Falha ao enviar o Tempo de Conclusão. Acesse o<lf>Balcão de Missões ou o Balcão de Missões de Arena<lf>e envie o seu Tempo de Conclusão novamente.<lf><lf>{0}
+<string>Falha ao enviar o Tempo de Conclusão. Acesse o<lf>Balcão de Missões ou o Balcão de Missões da Arena<lf>e envie o seu Tempo de Conclusão novamente.<lf><lf>{0}
 <string>Seu Tempo de Conclusão foi enviado aos ranques.
 <string>Falha ao obter informações de ranque.<lf><lf>{0}
 <string>Há um Tempo de Conclusão não registrado.<lf>Enviar seu Tempo de Conclusão aos ranques?

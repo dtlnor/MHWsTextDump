@@ -404,7 +404,7 @@
 <string>
 <string>集中模式
 <string>集中模式
-<string>进入此状态，就能瞄准攻击或<REF ActionGuideDataNameTextCommon_m666240384>的目标。<lf>导虫会对怪物的伤口和弱点产生反应，发<lf>出红光。
+<string>进入此状态，就能瞄准攻击或<REF ActionGuideDataNameTextCommon_m666240384>的目标。<lf>导虫会对怪物的伤口和弱点产生反应，发<lf>出红光。<lf><lf>此外，集中模式下，还可以更改锁定目标。<lf>将视角对准任意怪物，用<ICON PL_CAMERA_LOCK_CHANGE>即可锁定。<lf>即使处于纳刀状态，也可以进行相同操作。
 <string>
 <string>集中模式
 <string>拔刀后<ICON ME PL_AIM>
@@ -540,4 +540,40 @@
 <string>
 <string>尸体变化
 <string>怪物的尸体经过一段时间后会变为腐坏的尸<lf>体。不同状态下可剥取的素材会发生改变。<lf><lf>小型怪物有时还会从腐坏的尸体变为<REF Gimmick_NAME_1176528640>或<lf><REF Item_IT_270>，采集可以获得相应素材。另外，<lf>护龙有时会变为结晶化尸体，可剥取的素材<lf>也会发生改变。
+<string>
+<string>豪鬼
+<string>关于豪鬼
+<string>不断战斗的修罗，为达到拳法的极致<lf>而身携杀意之波动。
+<string>
+<string>关于武技
+<string>豪鬼动作的攻击力取决于装备的主武器。<lf><lf>此外，若装备整套防具，与仅使用外观装备<lf>时相比，攻击力将大幅提升，且斗气迸放将<lf>附带抵消效果。同时，还会额外获得包括辅<lf>助连招时造成昏厥等多种追加效果。
+<string>
+<string><REF ActionGuideDataNameTextCommon_24360>
+<string>纳刀时<ICON PL_ITEM>
+<string>在道具快捷栏中选中后即可发动攻击。<lf><lf>第一次按下<ICON PL_ITEM>后，再次按下<ICON PL_ITEM><lf>可接上辅助连招1。最多可连至3段。<lf><lf>此外，在连招时还可释放下述派生技，<lf>如按下<ICON PL_BT_RIDE_ATTACK_L>释放<REF ActionGuideDataNameTextCommon_26652>，<lf>按下<ICON PL_BT_RIDE_ATTACK_S>释放<REF ActionGuideDataNameTextCommon_14220>等。
+<string>
+<string><REF ActionGuideDataNameTextCommon_26652>
+<string><REF ActionGuideDataNameTextCommon_24360>时<ICON PL_BT_RIDE_ATTACK_L>
+<string><REF ActionGuideDataNameTextCommon_24360>的派生技。<lf><lf>在<REF ActionGuideDataNameTextCommon_24360>后按<ICON PL_BT_RIDE_ATTACK_L>，再按<ICON PL_BT_RIDE_ATTACK_L>即可接上<lf><REF ActionGuideDataNameTextCommon_26652>，最多可连至3段。<lf><lf>连招时按<ICON PL_BT_RIDE_ATTACK_S>还可使出<REF ActionGuideDataNameTextCommon_14220>。<lf><lf>※使用键盘时，键位与小刀强攻击相同。
+<string>
+<string><REF ActionGuideDataNameTextCommon_14220>
+<string><REF ActionGuideDataNameTextCommon_24360>时<ICON PL_BT_RIDE_ATTACK_S>
+<string><REF ActionGuideDataNameTextCommon_24360>和<REF ActionGuideDataNameTextCommon_26652>的派生技。<lf><lf>在各种辅助连招后按<ICON PL_BT_RIDE_ATTACK_S>，再按<ICON PL_BT_RIDE_ATTACK_S>即可<lf>接上<REF ActionGuideDataNameTextCommon_14220>，最多可连至3段。<lf><lf>※使用键盘时，键位与小刀弱攻击相同。
+<string>
+<string>斗气迸放
+<string>纳刀时<ICON PL_ITEM>
+<string>从道具快捷栏中选中，或在辅助连招期间<lf>按下<ICON PL_AIM><ICON PLUS><ICON PL_ATTACK_SP_B>即可释放。<lf>但本技能仅限<REF ActionGuideDataNameTextCommon_4962>积满时才能使用。<lf><lf>击中怪物的伤口或弱点时，<lf>可释放出派生技<REF ActionGuideDataNameTextCommon_2219>。<lf>此外，若装备整套豪鬼防具，<lf>还将获得抵消效果。<lf><lf>释放派生技<REF ActionGuideDataNameTextCommon_2219>以及发动抵消效果<lf>都将消耗<REF ActionGuideDataNameTextCommon_4962>。
+<string>
+<string><REF ActionGuideDataNameTextCommon_2219>
+<string>瞬间释放出大量攻击的奥义。在攻击怪物的<lf>伤口及弱点时效果卓绝。<lf><lf>此外，这个技能似乎还有其他释放方式……
+<string>
+<string><REF ActionGuideDataNameTextCommon_4962>
+<string>随时间经过自动积蓄的斗气槽。<lf>当斗气槽积满时，可使用斗气迸放。<lf><lf>当装备整套豪鬼防具，触发了斗气迸放的<lf>抵消效果，或释放派生技<REF ActionGuideDataNameTextCommon_2219>时，<lf>都会消耗该斗气槽。
+<string>
+<string><REF Gesture_NAME_31>
+<string>跃起并向上出拳进行攻击。<lf><lf>在各种辅助连招的最终派生技之后释放，<lf>将成为强化版的<REF ActionGuideDataNameTextCommon_28399>。<lf>推荐将本技能登记至自定义快捷方式。<lf><lf>此外，这个技能似乎还有其他释放方式……
+<string>
+<string><REF ActionGuideDataNameTextCommon_5188>
+<string>纳刀时<INPUTMSG MsgGUI600200_00_031>
+<string><INPUTMSG MsgGUI600200_00_045>
 <string>

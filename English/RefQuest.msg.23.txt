@@ -63,9 +63,9 @@
 <string><COLOR preset="TXT_Danger">Cannot save as investigation.</COLOR>
 <string><COLOR preset="TXT_Danger">Failed to save as investigation.</COLOR>
 <string><COLOR preset="TXT_Danger">Completed assignments cannot be repeated.</COLOR>
-<string><COLOR preset="TXT_Danger">Player(s) failed to join because of multiplayer settings.</COLOR>
+<string><COLOR preset="TXT_Danger">Unable to join due to the quest's multiplayer settings.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot join because the maximum number of people has already been met.</COLOR>
-<string><COLOR preset="TXT_Danger">Failed to join because of platform permission settings.</COLOR>
+<string><COLOR preset="TXT_Danger">Unable to join due to platform permission settings.</COLOR>
 <string><COLOR preset="TXT_Danger">Have not met the necessary conditions for accepting/joining this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">You cannot accept/join this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">Failed to accept/join the quest.</COLOR>
@@ -74,6 +74,7 @@
 <string><COLOR preset="TXT_Danger">Cannot begin Field Survey because a Link Member is viewing Quest Results.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot be used during this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">This quest cannot be accepted outside of the Grand Hub.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot be used during this quest.</COLOR>
 <string>Return to Title
 <string>Retry
 <string>Slay {0}
@@ -108,6 +109,7 @@
 <string>2nd Roll!
 <string>Score
 <string>Complete
+<string>AKUMA<lf>WINS
 <string>READY?
 <string>3
 <string>2
@@ -167,7 +169,7 @@
 <string>Completed!
 <string>Available Weapons
 <string>Time Ranking
-<string>Your Best Times
+<string>Best Times
 <string>Members
 <string>Date: <DATETIME {0} "MM/DD/YYYY"> (UTC)
 <string>Date: <DATETIME {0} "MM/DD/YYYY">
@@ -254,7 +256,7 @@
 <string>Field Survey History (Most Recent {0})
 <string>Investigations ({0} Saved)
 <string>Event Quests
-<string>Link Member Quests ({0})
+<string>Lobby Member Quests ({0})
 <string>Link Member Quests
 <string>SOS Flare Quests ({0})
 <string>Arena Quests

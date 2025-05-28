@@ -129,6 +129,12 @@
 <string>최대 속도로 주행 중에 <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>을 입력하면<lf><REF RefGeneral_0014_01> 루트에서 벗어나 이동할 수 있습니다.
 <string>타입 2
 <string><REF RefGeneral_0014_01>의 주행 속도에 관계없이<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> 입력 중에 추가로 <ICON PL_INTERACT_ACTION_START>을 입력하면<lf><REF RefGeneral_0014_01> 루트에서 벗어나 이동할 수 있습니다.
+<string>아이템 슬라이더 표시 설정
+<string>조준 모드 중에 아이템 슬라이더를<lf>조작할 때의 아이템 표시를 설정합니다.
+<string>타입 1
+<string>조준 모드 중에 아이템 슬라이더를<lf>조작하면 슬링어 계열 아이템만 표시합니다.
+<string>타입 2
+<string>조준 모드 중에 아이템 슬라이더를<lf>조작해도 평상시처럼 아이템 슬라이더의<lf>아이템을 전부 표시합니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>발도 후 <ICON PAD PL_AIM_TOGGLE> 입력으로<lf>근접 무기는 집중 모드로, 원거리 무기는<lf>조준/집중 모드로 전환합니다.
 <string>조준/집중 모드 전환 세부 설정
 <string>발도 중 조준 또는 집중 모드 전환 조작을<lf>근접/원거리 무기에 따로 설정할 수 있습니다.<lf><COLOR preset="TXT_Accent">(납도 중 슬링어 조준 조작에는 적용되지 않습니다.)</COLOR>
+<string>납도 중 슬링어 조준 전환 조작과<lf>발도 중 조준 또는 집중 모드 전환 조작을<lf>근접/원거리 무기별로 설정할 수 있습니다.
+<string>납도 중 슬링어 조준 전환 조작
+<string>납도 중에 슬링어 조준으로<lf>전환할 때의 조작 방법을 설정합니다.
+<string><ICON PAD PL_AIM>입력 중은 지속
+<string>무기 납도 시 <ICON PAD PL_AIM> 입력 중<lf>슬링어 조준 모드를 지속합니다.
+<string><ICON PAD PL_POP_CHANGE_SELECT>으로 전환
+<string>무기 납도 시 <ICON PAD PL_POP_CHANGE_SELECT> 입력으로<lf>슬링어 조준 모드로 전환합니다.<lf>재입력하면 해제됩니다.
 <string>근접 무기 장비 중 전환 조작
 <string>근접 무기 장비 중에 집중 모드로<lf>전환할 때의 조작 방법을 설정합니다.
 <string><ICON PAD PL_AIM>입력 중은 지속
@@ -1277,7 +1290,7 @@
 <string>표시하기
 <string>장비 상태와 외형 설정에 따라<lf>머리 방어구 모델을 표시합니다.<lf><COLOR preset="TXT_Accent">(일부 장면에서는 강제 비표시됩니다.)</COLOR>
 <string>표시 안 함
-<string>장비 상태 및 외형 설정과 상관없이<lf>머리 방어구 모델을 항상 표시하지 않습니다.
+<string>장비 상태 및 외형 설정과 상관없이<lf>머리 방어구 모델을 항상 표시하지 않습니다.<lf><COLOR preset="TXT_Accent">(원세트 방어구는 대상에서 <lf>제외됩니다)</COLOR>
 <string>이벤트 장면에서만 표시 안 함
 <string>장비 상태 및 외형 설정에 따라<lf>머리 방어구 모델을 표시하지만,<lf>이벤트 장면에서만 표시하지 않습니다.
 <string>서포트 헌터 설정
@@ -1404,11 +1417,11 @@
 <string><REF RefNetwork_0006> 음량
 <string><REF RefNetwork_0006> 시 상대방의 음성 음량을 설정합니다.
 <string><REF RefNetwork_0006> 자동 전환 설정
-<string>상황에 따른 <REF RefNetwork_0006> 발신처 설정의<lf>자동 전환 여부를 설정합니다.<lf><COLOR preset="TXT_Accent">(수동 전환은 언제든 가능합니다.)</COLOR>
+<string><REF RefNetwork_0006> 발신처, 텍스트 채팅 수신자,<lf>채팅 로그 필터 설정의 자동 전환 여부를 설정합니다.<lf><COLOR preset="TXT_Accent">(수동 전환은 언제든 가능합니다.)</COLOR>
 <string><REF RefNetwork_0004_02> 우선 발신
-<string>퀘스트 출발 시에는 <REF RefNetwork_0004_02>,<lf>퀘스트에서 귀환 시에는 <REF RefNetwork_0004_01>를 향한<lf><REF RefNetwork_0006>으로 자동 전환됩니다.
+<string>퀘스트 출발 시에는 <REF RefNetwork_0004_02>,<lf>퀘스트에서 귀환 시에는 <REF RefNetwork_0004_01><lf>채널로 자동 전환됩니다.
 <string><REF RefNetwork_0004_01> 우선 발신
-<string>퀘스트 출발 상황에 관계없이<lf><REF RefNetwork_0005> 참가 중에는 <REF RefNetwork_0004_01>를 향한<lf><REF RefNetwork_0006>으로 자동 전환됩니다.
+<string>퀘스트 출발 상황에 관계없이<lf><REF RefNetwork_0005> 참가 중에는 <REF RefNetwork_0004_01><lf>채널로 자동 전환됩니다.
 <string>끄기
 <string>발신처를 자동으로 전환하지 않습니다.<lf>수동으로만 전환합니다.
 <string>아이루 음성 설정
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string><REF RefLanguage_0000_014>

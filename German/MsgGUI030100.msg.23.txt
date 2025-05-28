@@ -129,6 +129,12 @@
 <string>Nutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> während der Bewegung mit<lf>Höchstgeschwindigkeit, um die Saikrii-exklusive<lf>Route zu verlassen.
 <string>Typ 2
 <string>Nutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> und drücke dann <ICON PL_INTERACT_ACTION_START>, um die<lf>Saikrii-exklusive Route zu verlassen. Die aktuelle<lf>Geschwindigkeit spielt dabei keine Rolle.
+<string>Objektleisten-Anzeige
+<string>Passe an, wie Objekte in der Objektleiste<lf>angezeigt werden, während du zielst.
+<string>Typ 1
+<string>Beim Zielen werden nur Schleuderobjekte<lf>in der Objektleiste angezeigt.
+<string>Typ 2
+<string>Beim Zielen werden alle Objekte in der<lf>Objektleiste angezeigt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>Drücke bei gezogener Waffe <ICON PAD PL_AIM_TOGGLE>, um zu zielen<lf>bzw. den Fokusmodus zu nutzen.
 <string>Zielen/Fokusmodus (Detailsteuerung)
 <string>Passe an, wie du mit gezogener Nah-/Fernkampf-<lf>waffe zielst bzw. den Fokusmodus nutzt. (Dies hat<lf>keinen Einfluss auf die Schleudersteuerung.)
+<string>Passe an, wie du mit der Schleuder zielst, wenn deine<lf>Waffe weggesteckt ist, und passe die Zielen-/Fokus-<lf>steuerung für Nah- und Fernkampfwaffen separat an.
+<string>Schleuder zielen (wegg. Waffe)
+<string>Passe an, wie du mit der Schleuder zielst, wenn deine<lf>Waffe weggesteckt ist.
+<string><ICON PAD PL_AIM> (halten)
+<string>Halte <ICON PAD PL_AIM>, um bei weggesteckter Waffe mit der<lf>Schleuder zu zielen.
+<string><ICON PAD PL_POP_CHANGE_SELECT> (drücken)
+<string>Drücke <ICON PAD PL_AIM>, um bei weggesteckter Waffe mit der<lf>Schleuder zu zielen. Drücke erneut, um das Zielen<lf>abzubrechen.
 <string>Nahkampfwaffen
 <string>Passe an, wie du mit Nahkampfwaffen den<lf>Fokusmodus nutzt.
 <string><ICON PAD PL_AIM> (halten)
@@ -1277,7 +1290,7 @@
 <string>Anzeigen
 <string>Der Kopfschutz des Charakters wird entsprechend<lf>den aktuellen Einstellungen zu Ausrüstung und<lf>Aussehen angezeigt.<lf><COLOR preset="TXT_Accent">(Ausgenommen in manchen Situationen.)</COLOR>
 <string>Nicht anzeigen
-<string>Der Kopfschutz des Charakters wird nicht<lf>angezeigt, unabhängig von den aktuellen<lf>Einstellungen zu Ausrüstung und Aussehen.
+<string>Der Kopfschutz des Charakters wird nicht<lf>angezeigt, unabhängig von den aktuellen<lf>Einstellungen zu Ausrüstung und Aussehen<lf>(komplette Rüstungssets ausgenommen).
 <string>Nicht in Zwischensequenzen
 <string>Der Kopfschutz des Charakters wird entsprechend<lf>den aktuellen Einstellungen zu Ausrüstung und<lf>Aussehen angezeigt – jedoch nicht in Zwischen-<lf>sequenzen.
 <string>Hilfsjäger-Einstellungen
@@ -1404,11 +1417,11 @@
 <string>Sprach-Chat-Lautstärke
 <string>Passe die Lautstärke von anderen Spielern<lf>im Sprach-Chat an.
 <string>Sprach-Chat: Auto-Wechseln
-<string>Lege fest, ob der Sprachchat-Kanal je nach<lf>Queststatus automatisch wechselt.<lf><COLOR preset="TXT_Accent">(Manuelles Wechseln ist jederzeit möglich.)</COLOR>
+<string>Passe an, welche Sprach- und Text-Kanäle sowie<lf>Chatlog-Filter beim automatischen Kanal-Wechsel<lf>bevorzugt werden sollen.
 <string>Questmitglieder bevorzugen
-<string>Du wechselst zum Queststart automatisch<lf>zum Sprach-Chat für Questmitglieder und<lf>wechselst bei der Rückkehr von der Quest<lf>zum Verbindungsmitglieder-Sprach-Chat.
+<string>Du wechselst bei Queststart automatisch zu<lf>einem Questmitglieder-Kanal und bei der<lf>Rückkehr von der Quest zu einem Verbindungs-<lf>mitglieder-Kanal.
 <string>Verbindungsmitgl. bevorzugen
-<string>Du wechselst beim Beitritt zu einer Verbindungs-<lf>gruppe automatisch zum Verbindungsmitglieder-<lf>Sprach-Chat, unabhängig vom Queststatus.
+<string>Du wechselst beim Beitritt zu einer Verbindungs-<lf>gruppe automatisch zum Verbindungsmitglieder-<lf>Kanal, unabhängig vom Queststatus.
 <string>Niemanden bevorzugen
 <string>Es wird kein Sprachchat-Kanal priorisiert<lf>und auch kein automatischer Wechsel<lf>zwischen den Kanälen vorgenommen.<lf>Du musst manuell wechseln.
 <string>Von Felynen gesprochene Sprache
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string>Mandarin

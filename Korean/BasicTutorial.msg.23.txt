@@ -404,7 +404,7 @@
 <string>
 <string>집중 모드
 <string>집중 모드란
-<string>공격과 <REF ActionGuideDataNameTextCommon_m666240384>의 목표를 겨냥한 상태.<lf>몬스터의 상처와 약점에 대해<lf>안내벌레가 붉게 반응한다.
+<string>공격과 <REF ActionGuideDataNameTextCommon_m666240384>의 목표를 겨냥한 상태.<lf>몬스터의 상처와 약점에 대해<lf>안내벌레가 붉게 반응한다.<lf><lf>또한, 이 집중 모드 중에는 록온 대상<lf>변경도 가능하다. 카메라를 임의의<lf>몬스터에게 향한 후 <ICON PL_CAMERA_LOCK_CHANGE>로<lf>해당 대상을 록온할 수 있다.<lf>납도 상태에서도 같은 동작이<lf>가능하다.
 <string>
 <string>집중 모드
 <string>발도 중 <ICON ME PL_AIM>
@@ -540,4 +540,40 @@
 <string>
 <string>사체 변화
 <string>몬스터의 사체는 시간이 지나면서<lf>'사체'에서 '부패한 사체'로<lf>변화하고, 상태에 따라 갈무리할 수<lf>있는 소재가 달라진다.<lf><lf>소형 몬스터는 부패한 사체에서<lf>'<REF Gimmick_NAME_1176528640>'이나 '<REF Item_IT_270>'로 바뀔 때도<lf>있으며, 각각 소재를 입수할 수<lf>있다.<lf>또한 수호룡도 '결정화된 사체'라는<lf>상태로 변화할 수 있고, 각각<lf>갈무리할 수 있는 소재도 달라진다.
+<string>
+<string>고우키
+<string>고우키
+<string>권의 극에 달하고자<lf>살의의 파동을 지닌 채<lf>끝없이 싸우는 수라.
+<string>
+<string>성능
+<string>장착한 메인 무기에 따라<lf>고우키의 액션 공격력이 달라진다.<lf>또 원세트 방어구로 사용할 경우<lf>덧입는 장비로 장착했을 때보다<lf>공격력이 크게 상승하며<lf>드라이브 임팩트에는<lf>상쇄 효과가 부여된다.<lf>어시스트 콤보에도 기절 효과가<lf>부여되는 등 추가 효과가 있다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_24360>
+<string>납도 중 <ICON PL_ITEM>
+<string>아이템 슬라이더에서<lf>「<REF Item_IT_782>」를 선택하여<lf>사용하는 공격.<lf><lf>최초 <ICON PL_ITEM> 입력 후 다시 <ICON PL_ITEM>으로<lf>어시스트 콤보1 지속 가능.<lf>최대 3개의 액션을 할 수 있다.<lf><lf>또 콤보 중 <ICON PL_BT_RIDE_ATTACK_L>으로 <REF ActionGuideDataNameTextCommon_26652> 파생,<lf>콤보 중 <ICON PL_BT_RIDE_ATTACK_S>으로 <REF ActionGuideDataNameTextCommon_14220> 파생이<lf>각각 가능하다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_26652>
+<string><REF ActionGuideDataNameTextCommon_24360> 중 <ICON PL_BT_RIDE_ATTACK_L>
+<string><REF ActionGuideDataNameTextCommon_24360>에서 파생 가능한 공격.<lf><lf><REF ActionGuideDataNameTextCommon_24360>에서 <ICON PL_BT_RIDE_ATTACK_L> 입력 후<lf><ICON PL_BT_RIDE_ATTACK_L>으로 <REF ActionGuideDataNameTextCommon_26652> 지속 가능.<lf>최대 3개의 액션을 할 수 있다.<lf>콤보 중 <ICON PL_BT_RIDE_ATTACK_S>으로<lf><REF ActionGuideDataNameTextCommon_14220> 파생이 가능하다.<lf><lf>※키보드 사용 시에는<lf>나이프 강공격과<lf>같은 조작이 할당된다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_14220>
+<string><REF ActionGuideDataNameTextCommon_24360> 중 <ICON PL_BT_RIDE_ATTACK_S>
+<string><REF ActionGuideDataNameTextCommon_24360>,<lf><REF ActionGuideDataNameTextCommon_26652>에서 파생 가능한 공격.<lf><lf>각 어시스트 콤보에서 <ICON PL_BT_RIDE_ATTACK_S> 입력 후<lf><ICON PL_BT_RIDE_ATTACK_S>으로 <REF ActionGuideDataNameTextCommon_14220> 지속 가능.<lf>최대 3개의 액션을 할 수 있다.<lf><lf>※키보드 사용 시에는<lf>나이프 약공격과<lf>같은 조작이 할당된다.
+<string>
+<string>드라이브 임팩트
+<string>납도 중 <ICON PL_ITEM>
+<string>아이템 슬라이더에서 <lf>「<REF Item_IT_784>」를 선택하거나<lf>어시스트 콤보 중 <ICON PL_AIM><ICON PLUS><ICON PL_ATTACK_SP_B>으로<lf>사용하는 공격.<lf>단, <REF ActionGuideDataNameTextCommon_4962>의<lf>축적이 있을 때만 사용 가능.<lf><lf>몬스터의 상처나 약점에 맞으면<lf><REF ActionGuideDataNameTextCommon_2219> 파생으로 이어진다.<lf>또 고우키의 원세트 방어구 장착 후<lf>사용하면 상쇄 효과가 부여된다.<lf>또한, <REF ActionGuideDataNameTextCommon_2219> 파생 혹은 상쇄 발동 시<lf><REF ActionGuideDataNameTextCommon_4962> 소모가 발생한다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_2219>
+<string>순식간에 수많은 타격을 퍼붓는<lf>오의. 몬스터의 상처나<lf>약점에 효과적인 공격.<lf><lf>그리고 이 기술에는<lf>다른 사용법도 있는 것 같다...
+<string>
+<string><REF ActionGuideDataNameTextCommon_4962>
+<string>시간이 지나면 쌓이는 게이지.<lf>이 게이지가 채워졌을 때만<lf>드라이브 임팩트를 사용할 수 있다.<lf><lf>이 게이지는 고우키의 원세트 방어구<lf>장착 시 드라이브 임팩트에 의한<lf>상쇄가 발동하거나,<lf><REF ActionGuideDataNameTextCommon_2219> 파생 시 소비된다.
+<string>
+<string><REF Gesture_NAME_31>
+<string>점프하면서 주먹을 올려 치는<lf>공격 제스처.<lf><lf>각 어시스트 콤보의 최종 파생 후<lf>사용하면 강화된 <REF ActionGuideDataNameTextCommon_28399> 사용 가능.<lf>사용하려면 커스텀 숏컷에<lf>등록하기를 추천한다.<lf><lf>그리고 이 기술에는<lf>다른 사용법도 있는 것 같다...
+<string>
+<string><REF ActionGuideDataNameTextCommon_5188>
+<string>납도 중 <INPUTMSG MsgGUI600200_00_031>
+<string><INPUTMSG MsgGUI600200_00_045>
 <string>

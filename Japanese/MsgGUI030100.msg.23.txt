@@ -129,6 +129,12 @@
 <string>最大速度で走行中に<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>入力を行うことで<lf><REF RefGeneral_0014_01>ルートから外れて移動できます。
 <string>タイプ２
 <string><REF RefGeneral_0014_01>の走行速度に関わらず、<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT>入力中に追加で<ICON PL_INTERACT_ACTION_START>を入力すると<lf><REF RefGeneral_0014_01>ルートから外れて移動できます。
+<string>アイテムスライダーの表示設定
+<string>照準モード中にアイテムスライダー操作を<lf>行った際の、アイテム表示設定を行います。
+<string>タイプ１
+<string>照準モード中のアイテムスライダー操作では、<lf>スリンガー系アイテムのみを表示します。
+<string>タイプ２
+<string>照準モード中のアイテムスライダー操作でも、<lf>通常どおりアイテムスライダー上のアイテムを<lf>すべて表示します。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -489,6 +495,13 @@
 <string>抜刀後の<ICON PAD PL_AIM_TOGGLE>入力で近接武器は集中モードへ、<lf>遠距離武器は照準／集中モードへ移行します。
 <string>照準／集中モードへの移行詳細設定
 <string>抜刀中の照準あるいは集中モードへの移行操作を<lf>近接・遠距離武器でそれぞれ個別に設定できます。<lf><COLOR preset="TXT_Accent">（納刀中のスリンガー照準操作には適用されません）</COLOR>
+<string>納刀中のスリンガー照準への移行操作と<lf>抜刀中の照準あるいは集中モードへの移行操作を<lf>近接・遠距離武器でそれぞれ個別に設定できます。
+<string>納刀中のスリンガー照準移行操作
+<string>納刀中のスリンガー照準へ<lf>移行する際の操作設定を行います。
+<string><ICON PAD PL_AIM>入力中は継続
+<string>武器を納刀中に<ICON PAD PL_AIM>入力中、<lf>スリンガー照準モードを継続します。
+<string><ICON PAD PL_POP_CHANGE_SELECT>で切り替え
+<string>武器を納刀中に<ICON PAD PL_POP_CHANGE_SELECT>入力で<lf>スリンガー照準モードへ移行。<lf>再入力で解除します。
 <string>近接武器を装備中の移行操作
 <string>近接武器を装備中、集中モードへ<lf>移行する際の操作設定を行います。
 <string><ICON PAD PL_AIM>入力中は継続
@@ -1277,7 +1290,7 @@
 <string>表示する
 <string>装備の状態や見た目設定に従い<lf>頭防具モデルを表示します。<lf><COLOR preset="TXT_Accent">（一部場面では強制的に非表示となります）</COLOR>
 <string>表示しない
-<string>装備の状態や見た目設定に関わらず<lf>頭防具モデルを常時表示しません。
+<string>装備の状態や見た目設定に関わらず<lf>頭防具モデルを常時表示しません。<lf><COLOR preset="TXT_Accent">（ワンセット防具は対象外となります）</COLOR>
 <string>イベントシーンだけ表示しない
 <string>装備の状態や見た目設定に従い頭防具モデルを<lf>表示しますが、イベントシーンのみ表示しません。
 <string>サポートハンター設定
@@ -1404,11 +1417,11 @@
 <string><REF RefNetwork_0006>音量
 <string><REF RefNetwork_0006>を行う際の相手のボイス音量を設定します。
 <string><REF RefNetwork_0006>の自動切り替え設定
-<string>状況に応じて、<REF RefNetwork_0006>の発信先設定を<lf>自動的に切り替えるかどうか設定します。<lf><COLOR preset="TXT_Accent">（手動での切り替えはいつでも可能です）</COLOR>
+<string><REF RefNetwork_0006>の発信先、テキストチャットの送信先、<lf>チャットログのフィルター設定の自動切り替えを設定します。<lf><COLOR preset="TXT_Accent">（手動での切り替えはいつでも可能です）</COLOR>
 <string><REF RefNetwork_0004_02>優先発信
-<string>クエスト出発時には<REF RefNetwork_0004_02>向け、<lf>クエストからの帰還時には<REF RefNetwork_0004_01>向けの<lf><REF RefNetwork_0006>へと、自動的に切り替えます。
+<string>クエスト出発時には<REF RefNetwork_0004_02>向け、<lf>クエストからの帰還時には<REF RefNetwork_0004_01>向けの<lf>チャンネルへと、自動的に切り替えます。
 <string><REF RefNetwork_0004_01>優先発信
-<string>クエストの出発状況に関わらず、<lf><REF RefNetwork_0005>参加中は<REF RefNetwork_0004_01>向けの<lf><REF RefNetwork_0006>へと、自動的に切り替えます。
+<string>クエストの出発状況に関わらず、<lf><REF RefNetwork_0005>参加中は<REF RefNetwork_0004_01>向けの<lf>チャンネルへと、自動的に切り替えます。
 <string>OFF
 <string>発信先の自動切り替えを行いません。<lf>手動での切り替えのみ行います。
 <string>アイルーのボイス設定
@@ -1487,3 +1500,4 @@
 <string><REF RefLanguage_0000_005>
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
+<string><REF RefLanguage_0000_014>
