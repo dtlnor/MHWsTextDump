@@ -32,8 +32,10 @@
 <string>Sem imagem
 <string>Primária
 <string>Equipar como Arma Primária
+<string>Equipar como Arma Primária ({0})
 <string>Secundária
 <string>Equipar como Arma Secundária
+<string>Equipar como Arma Secundária ({0})
 <string>Arma
 <string>Pingentes
 <string>Pingente Primário
@@ -59,21 +61,27 @@
 <string>Somente Armadura <ICON EQUIP_TYPE2>
 <string>Exibir obtidos
 <string>Conjuntos Completos
+<string>Exibir Lista de Desejos
+<string>Exibir α
+<string>Exibir β
 <string>Melhorar
 <string>Forjar
 <string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?
-<string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Forjar este equipamento também produzirá<lf><COLOR preset="TXT_Accent">Armadura em Camadas</COLOR>)
+<string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Fazer este equipamento também o desbloqueará<lf>como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR>.)
 <string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?
-<string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?<lf>(Você também receberá o <COLOR preset="TXT_Accent">conjunto de armadura<lf>em camadas</COLOR>.)
+<string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?<lf>(Fazer este equipamento também o desbloqueará<lf>como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR>.)
 <string>Equipar agora?
 <string>Se você mudar esta peça, <COLOR preset="TXT_Danger">todas as outras peças<lf>do conjunto completo de armadura serão removidas</COLOR>.<lf>Deseja mudar a peça de armadura?
-<string>Este é um conjunto completo de armadura.<lf>Equipar todas as peças do conjunto?<lf><lf><COLOR preset="TXT_Danger">(Armaduras em camadas ficarão ocultadas.)</COLOR>
+<string>Este é um conjunto completo de armadura.<lf>Equipar todas as peças do conjunto?<lf><lf><COLOR preset="TXT_Danger">(Armaduras em camadas ficarão ocultas.)</COLOR>
+<string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?<lf><COLOR preset="TXT_Accent">Pontos excedentes serão devolvidos como os itens abaixo.</COLOR>
+<string>Requer materiais e <NUMBER {0}>z. Prosseguir?<lf>(Você poderá usar isso como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR> ao forjar.)<lf><COLOR preset="TXT_Accent">Pontos excedentes serão devolvidos como os itens abaixo.</COLOR>
 <string>Descartar {0} <PLURAL {0} "ponto excedente" "pontos excedentes">?
 <string>Visualizar
 <string><COLOR preset="TXT_Danger">A caixa de equipamentos está cheia.</COLOR>
 <string><COLOR preset="TXT_Danger">Este equipamento ainda não pode ser forjado ou melhorado.</COLOR>
 <string><COLOR preset="TXT_Danger">Você não tem o equipamento necessário.</COLOR>
 <string><COLOR preset="TXT_Danger">Fundos ou materiais insuficientes.</COLOR>
+<string><COLOR preset="TXT_Danger">Fundos ou materiais insuficientes. (Um conjunto completo pode ser criado de uma só vez com os materiais necessários.)</COLOR>
 <string><COLOR preset="TXT_Danger">Fundos insuficientes.</COLOR>
 <string><COLOR preset="TXT_Danger">Melhoria máxima atingida.</COLOR>
 <string>Selecione uma Esfera de Armadura para usar.
@@ -96,7 +104,7 @@
 <string><COLOR preset="TXT_Danger">Não é possível equipar este item nesse nível de engaste.</COLOR>
 <string><COLOR preset="TXT_Danger">Este Kinseto cresceu até seu tamanho máximo.</COLOR>
 <string>Necessita de {0}z.<lf>Continuar?
-<string>Requer <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Forjar este equipamento também produzirá<lf><COLOR preset="TXT_Accent">Armadura em Camadas</COLOR>)
+<string>Requer <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Fazer este equipamento também o desbloqueará<lf>como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR>.)
 <string>Materiais de Cultivo
 <string>Caixa de Equipamentos
 <string>Caixa de Arm. em Camadas
@@ -131,7 +139,10 @@
 <string>Remover da Lista de Desejos?
 <string>Remover da lista de desejos?<COLOR preset="TXT_Danger">(Os<lf>equipamentos removidos aqui<lf>também serão removidos das<lf>configurações de equipamentos.)</COLOR>
 <string>Remover todos os adornos
+<string>Remover adornos equipados
 <string>Remover todos os adornos equipados?
+<string>Remover todos os adornos
+<string>Remover adornos de todos os equipamentos?
 <string><INPUTMSG RefEquipment_SUB_13_S>
 <string><INPUTMSG RefEquipment_SUB_14_S>
 <string><INPUTMSG RefEquipment_SUB_15_S>
@@ -200,6 +211,8 @@
 <string>Por Nv. de Kinseto
 <string>Por Tipo de Morteiro
 <string>Por Quantidade
+<string>Pontos de Fundição
+<string>Pontos de Refino
 <string>1 – 3
 <string>2 – 3
 <string>3

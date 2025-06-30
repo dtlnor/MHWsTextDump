@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>Dona mantenimento acutezza<lf>per 90 secondi. (Quando si attiva.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>Attacchi non respinti:<lf>50% di probabilità,<lf>danno obiettivi: +10%.
+<string>50% di probabilità che gli attacchi<lf>non siano respinti, +10% potere <lf>d'attacco contro le parti dure.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>Attacchi non respinti:<lf>100% di probabilità,<lf>danno obiettivi: +15%.
+<string>100% di probabilità che gli attacchi<lf>non siano respinti, +15% potere <lf>d'attacco contro le parti dure.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>Attacchi non respinti:<lf>100% di probabilità,<lf>danno obiettivi: +30%.
+<string>100% di probabilità che gli attacchi<lf>non siano respinti, +30% potere <lf>d'attacco contro le parti dure.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>Incrementa leggermente il<lf>raggio d'azione.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>Aumenta di pochissimo la potenza<lf>di alcuni proiettili e delle frecce.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>Danni fuoco rapido: +5%
+<string>Potere d'attacco fuoco rapido: +5%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>Rimuove un ciclo del processo<lf>di affilatura.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>Velocità: +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>Velocità: +20%<lf>Danno attacco mutante: +10%
+<string>Velocità: +20%<lf>Potere attacco mutante: +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>Velocità: +30%<lf>Danno attacco mutante: +20%
+<string>Velocità: +30%<lf>Potere attacco mutante: +20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>Aumenta leggermente il danno<lf>elementale e lo stato alterato<lf>per gli attacchi caricati.
+<string>Aumenta leggermente l'attacco<lf>elementale e lo stato alterato<lf>per gli attacchi caricati.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>Aumenta il danno elementale<lf>e lo stato alterato<lf>per gli attacchi caricati.
+<string>Aumenta l'attacco elementale<lf>e lo stato alterato<lf>per gli attacchi caricati.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>Aumenta sensibilmente il danno<lf>elementale e lo stato alterato<lf>per gli attacchi caricati.
+<string>Aumenta sensibilmente l'attacco<lf>elementale e lo stato alterato<lf>per gli attacchi caricati.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>Attiva gli effetti dell'abilità.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>ATT Fisico: +15<lf>Affinità: +20%<lf>(Se afflitto da veleno o paralisi.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>Aumenta leggermente il<lf>danno elementale e lo<lf>stato alterato.
+<string>Aumenta leggermente<lf>gli attacchi elementali e<lf>l'accumulo di stati alterati.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>Aumenta il danno elementale<lf>e lo stato alterato.
+<string>Aumenta gli attacchi elementali<lf>l'accumulo di stati alterati.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>Aumenta notevolmente<lf>il danno elementale e lo<lf>stato alterato.
+<string>Aumenta notevolmente<lf>gli attacchi elementali e<lf>l'accumulo di stati alterati.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>Dopo colpo a segno, aumenta<lf>leggermente attacco e elementi.<lf>Al quinto consecutivo potenzia l'effetto.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -808,12 +808,36 @@
 <string>Durante la Fiordanza, aggiunge<lf>oggetti speciali alle ricompense<lf>missione.
 <string>Manna Fiordanza II
 <string>Durante la Fiordanza, aggiunge oggetti<lf>speciali alle ricompense missione<lf>e aumenta attacco e difesa di molto.
+<string>Manna Festardente I
+<string>Durante la Festardente, aggiunge<lf>oggetti speciali alle ricompense<lf>missione. (Non ha effetto quando<lf>ci si unisce a una missione in corso.)
+<string>Manna Festardente II
+<string>Durante la Festardente, aggiunge<lf>oggetti speciali alle ricompense<lf>missione e aumenta attacco e difesa.
 <string>Satsui no Hado
 <string>Aumenta la potenza delle mosse speciali.<lf>Il Drive Impact può attivare attacchi<lf>di reazione. Aumenta la potenza degli<lf>attacchi di reazione.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>Attiva l'effetto dell'abilità.
+<string>Saetta azzurra I
+<string>Aumenta temporaneamente l'affinità<lf>e può infliggere danni da tuono extra<lf>dopo un accumulo (salvo alcuni attacchi).
+<string>Saetta azzurra II
+<string>Aumenta ancora di più i danni da<lf>tuono extra ed estende moderatamente<lf>il periodo di affinità aumentata.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>Attiva gli effetti dell'abilità.
+<string>Lama affilata I
+<string>Durata di Flusso di adrenalina<lf>estesa. Riattivarla mentre è in<lf>corso aumenta la durata una volta.
+<string>Lama affilata II
+<string>Inoltre, se riattivata mentre attiva,<lf>incrementa ulteriormente l'attacco.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>Attiva gli effetti dell'abilità.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>Attiva gli effetti dell'abilità.
 <string>Sorte
 <string>Aumenta le ricompense degli obiettivi<lf>missione (non ha effetto quando ti<lf>unisci a una missione in corso).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>L'estrazione di materiali molto<lf>rari aumenta notevolmente l'attacco<lf>(fino a un limite massimo).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>Attiva gli effetti dell'abilità.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>Attiva gli effetti dell'abilità.
 <string>Bonus catena I
 <string>Aumenta la durata dell'abilità<lf>Catena e aumenta di +3<lf>l'attacco finché l'abilità è attiva.
 <string>Bonus catena II

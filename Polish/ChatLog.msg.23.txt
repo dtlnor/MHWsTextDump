@@ -33,6 +33,7 @@
 <string>Gracz {0} wysłał ci zaproszenie do<lf>wspólnego świata.
 <string>Zaproszenie do zadania
 <string>Gracz {0}<lf>wysłał ci zaproszenie do zadania.
+<string><REF RefMenu_177>
 <string>Pozostały czas: <PLURAL {0} "{0} minuta" "{0} minuty" "{0} minut">.
 <string>Badanie terenu
 <string>Rozpoczynanie badania terenu dla<lf>{0}.
@@ -88,68 +89,50 @@
 <string>Zadanie nieudane...
 <string>Zaproszenia do zadania (wysłane ponownie)
 <string>Możesz otrzymywać zaproszenia do zadań od gracza {0}.
+<string><REF RefMenu_177>
 <string>Przekazano: {0} (x{1})
 <string>Zdobyto podstawowe przedmioty:<lf><COLOR preset="TXT_Accent">Narzędzia łowieckie</COLOR>!
 <string>Aktualizacja przeglądu otoczenia
 <string>{1}: {0}<lf>chce poczęstować cię posiłkiem!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Zauważono {0}!<lf>Lokalizacja: {1}
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Możesz zgłosić udaną misję poboczną<lf>do: {0}!<lf>Miejsce: {1}
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Dostępnych jest wiele celów do wspólnego<lf>tworzenia zadań!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga {0},<lf>drapieżnik szczytowy tego regionu!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga {0}!<lf>Chyba ma wpływ na miejscowe osady!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga potwór wart więcej niż zwykle!<lf>{0}
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga cel misji pobocznej,<lf>{0}!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga cel listy życzeń!<lf>{0}
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Nadciąga<lf>{0}!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>{0}<lf>wkrótce opuści tę okolicę!
-<string>Otwórz mapę
 <string>Potwór {0}<lf>opuścił okolicę...
 <string>Aktualizacja przeglądu otoczenia
 <string>Na Szczycie Szronowych Łańcuchów<lf>pojawił się {0}!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Pojawiło się stado z:<lf>{0}!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>{0} wraz ze stadem <lf>niedługo opuści tę okolicę!
-<string>Otwórz mapę
 <string>{0} wraz ze stadem<lf>opuszczają okolicę...
 <string>Nadciąga {0}!
 <string>Przegląd otoczenia
 <string>Zauważono ognisko:<lf>{0}!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Zauważono wzrost: {0}!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>{0}<lf>do zrekrutowania jako<lf>asystent łowiecki!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Przybył statek wsparcia!
-<string>Otwórz mapę
 <string>Przegląd otoczenia
 <string>Zauważono duży kokon Strażnika!
-<string>Otwórz mapę
 <string>Utracono: {0}.
 <string>Prośby o dołączenie
 <string>Ktoś chce dołączyć do twojej gry.<lf>Zatwierdź lub odrzuć prośbę o dołączenie.
@@ -171,7 +154,7 @@
 <string>{0}: dostępne do użycia.
 <string>Chłodny napój przestał działać.
 <string>Gorący napój przestał działać.
-<string>Nie można oznaczyć jako celu zadania.<lf>Otwórz ekran rozpoczęcia <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
+<string>Nie można użyć szybkiego startu.<lf>Otwórz ekran rozpoczęcia <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
 <string>Otwórz dane misji
 <string>Wyświetl priorytet celu<lf>i wybierz misję.
 <string>Otwórz
@@ -205,13 +188,10 @@
 <string>{0}<lf><COLOR preset="TXT_Accent">Ukończono: {1}/{2}!</COLOR>
 <string>Aktualizacja przeglądu otoczenia
 <string>Nadciąga {0}.<lf>Daje rzadkie nagrody<lf>dodatkowe!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Misja poboczna ukończona!<lf>Zgłoszenie przyjmuje: {0}
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Ukończone misje poboczne możesz zgłaszać<lf>swojemu koleżkotowi!
-<string>Otwórz mapę
 <string>Rozwiązano wspólną grupę, ze względu<lf>na brak innych członków.
 <string>Gracz {0} nie mógł dołączyć<lf>do wspólnego świata.
 <string>Gracz {0} opuścił wspólny świat.
@@ -224,13 +204,10 @@
 <string>Możesz teraz postawić i dostosować<lf>przenośny obóz w Ruinach Wiwerii.
 <string>Aktualizacja przeglądu otoczenia
 <string>Dostępne jest zadanie z wieloma celami.<lf>Wpływają one na życie ludzi!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Dostępne jest zadanie z wieloma celami.<lf>Dodatkowych nagród jest więcej niż zwykle!
-<string>Otwórz mapę
 <string>Aktualizacja przeglądu otoczenia
 <string>Przyjmuj zadania z wieloma celami i zdobywaj<lf>rzadkie nagrody bonusowe!
-<string>Otwórz mapę
 <string>Masz <PLURAL {0} "{0} nową wiadomość" "{0} nowe wiadomości" "{0} nowych wiadomości">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Opuszczono wspólną grupę.
 <string>Sterowanie manualne
@@ -243,7 +220,6 @@
 <string>Rozgrywka międzyplatformowa <lf>aktualnie jest włączona.
 <string>Księga Zadań na Arenie
 <string>Członek grupy wchodzi na Arenę.<lf>Idź do <BOLD>Wielkiego Centrum</BOLD>,<lf>by do niego dołączyć.
-<string>Otwórz mapę
 <string>Powiadomienie oddziału
 <string>Otrzymano zaproszenie do oddziału:<lf><BOLD>{0}</BOLD>.
 <string>Powiadomienie oddziału
@@ -257,7 +233,6 @@
 <string>Wyznaczono cię na dowódcę<lf>oddziału <BOLD>{0}</BOLD>.
 <string>Aktualizacja przeglądu otoczenia
 <string>W świątyni Smoczego Ognia<lf>pojawił się potwór {0}!
-<string>Otwórz mapę
 <string>Premia za logowanie
 <string>Premia za dzisiejsze logowanie<lf>jest dostępna w menu startowym.
 <string>Odbierz teraz
@@ -288,3 +263,7 @@
 <string>Zdobyto nowy gest!
 <string>Aktywowano wzmocnienie<lf>siły specjalnego działania!
 <string>Wzmocnienie siły specjalnego<lf>działania przestało działać.
+<string>Nie można nieść więcej zaopatrzenia.<lf>Nadmiar usunięto.
+<string>Trwa Festiwal Porozumienia:<lf>Taniec Ognia!<lf>(<PLURAL {0} "Został {0} dzień" "Zostały {0} dni" "Zostało {0} dni">)
+<string>Trwa Festiwal Porozumienia:<lf>Taniec Ognia!<lf>(<PLURAL {0} "Została {0} godzina" "Zostały {0} godziny" "Zostało {0} godzin">)
+<string>Trwa Festiwal Porozumienia:<lf>Taniec Ognia!<lf>(Dobiega końca)

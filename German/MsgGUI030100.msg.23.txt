@@ -819,9 +819,9 @@
 <string>Hochskalieren (hochauflösende Bildgebung)
 <string>Durch Nutzung hochauflösender Bildgebungstechnologie<lf>kann hohe Leistung mit gleichzeitig hoher Grafikqualität<lf>erzielt werden.
 <string>NVIDIA DLSS
-<string>NVIDIA <DLSS> wird genutzt.<lf><COLOR preset="TXT_Accent">– Dies erfordert eine NVIDIA GeForce RTX-<lf>Grafikkarte.<lf>– Mit einer Karte der GeForce RTX40-<lf>Serie und aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
+<string>NVIDIA <DLSS> wird genutzt.<lf><COLOR preset="TXT_Accent">– Dies erfordert eine NVIDIA GeForce RTX-<lf>Grafikkarte.</COLOR>
 <string>AMD FSR
-<string><FSR> wird genutzt.<lf><COLOR preset="TXT_Accent">– Bei aktivierter Hardwarebeschleunigter<lf>GPU-Planung im Betriebssystem kannst du<lf>nach dem Aktivieren außerdem die Frame-<lf>Generierung aktivieren.</COLOR>
+<string><FSR> wird genutzt.
 <string>Intel XeSS
 <string>Intel <XESS> wird genutzt.
 <string>Deaktiviert
@@ -835,6 +835,13 @@
 <string><COLOR preset="TXT_Accent">Frame- Generierung</COLOR> (mit Nutzung von <COLOR preset="TXT_Accent">FSR</COLOR>) kann<lf>mit den aktuellen Anzeigeneinstellungen nicht<lf>aktiviert werden.
 <string><COLOR preset="TXT_Accent">Frame- Generierung</COLOR> (mit Nutzung von <COLOR preset="TXT_Accent">FSR</COLOR>) kann<lf>mit den aktuellen Anzeigeneinstellungen nicht<lf>aktiviert werden. Die Einstellung wurde deshalb<lf>automatisch auf <BOLD>Deaktiviert</BOLD> gesetzt.
 <string>Die Frame-Generierung kann wieder aktiviert werden,<lf>indem du deine Einstellung zum Fenster-Modus änderst<lf>oder bei Randlosem Fenster zu einer Auflösung wechselst,<lf>bei der keine schwarzen Ränder angezeigt werden.
+<string>NVIDIA DLSS 2x
+<string>Durch Aktivieren dieser Funktion kann die<lf>Framerate verbessert und die unter Anzeige-<lf>optionen eingestellte maximale Framerate<lf>überstiegen werden.<lf><COLOR preset="TXT_Accent">(Diese Einstellung ist nur bei Grafikkarten<lf>der NVIDIA GeForce RTX 4000-Serie oder<lf>darüber verfügbar.)</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Durch Aktivieren dieser Funktion kann die<lf>Framerate verbessert und die unter Anzeige-<lf>optionen eingestellte maximale Framerate<lf>überstiegen werden.<lf><COLOR preset="TXT_Accent">(Diese Einstellung ist nur bei Grafikkarten<lf>der NVIDIA GeForce RTX 5000-Serie oder<lf>darüber verfügbar.)</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS Auto
+<string>Durch Aktivieren dieser Funktion wird die<lf>Frame-Generierung je nach CPU- und GPU-<lf>Last automatisch auf „Aus“ oder „2x“ ein-<lf>gestellt.<lf><COLOR preset="TXT_Accent">(Diese Einstellung ist nur bei Grafikkarten<lf>der NVIDIA GeForce RTX 4000-Serie oder<lf>darüber verfügbar.)</COLOR>
 <string>Hochskalierungsmodus
 <string>Passe die Grafikqualität beim Hochskalieren an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren aktiviert ist.)</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>Aus
 <string>Render-Skalierung
 <string>Passe den Prozentsatz der Render-Skalierung an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
+<string>Passe den Prozentsatz der Render-Skalierung an.<lf><COLOR preset="TXT_Accent">(Dies ist nur unter bestimmten Voraussetzungen<lf>verfügbar.)</COLOR>
 <string>Raytracing
 <string>Passt die Qualität von Lichtreflexion durch<lf>Raytracing-Technologie an.
 <string>Maximal
@@ -1063,6 +1071,12 @@
 <string>Der Monstern zugefügte Schaden wird in ganzen<lf>Zahlen angezeigt.
 <string>Nicht anzeigen
 <string>Der Monstern zugefügte Schaden wird nicht<lf>angezeigt.
+<string>Gesundheitsbalkenwarnung
+<string>Lege fest, ob der Gesundheitsbalken dich vor<lf>besonders starken Monsterangriffen warnen<lf>soll.
+<string>An
+<string>Der Gesundheitsbalken färbt sich rot und<lf>schlägt wellenförmig aus, kurz bevor Monster<lf>Angriffe einsetzen, die deine Gesundheit auf<lf>Null senken.
+<string>Aus
+<string>Der Gesundheitsbalken warnt nicht vor starken<lf>Angriffen.
 <string>HUD
 <string>Passe die HUD-Darstellung und -Inhalte an.
 <string>Gesundheitsbalken
@@ -1192,10 +1206,14 @@
 <string>Der Gesundheitsbalken deines Palico und<lf>anderer Begleiter wird standardmäßig<lf>minimiert angezeigt. Der Balken wird in<lf>manchen Situationen zur vollständigen<lf>Anzeige erweitert.
 <string>Verstrichene Zeit in Quests anzeigen
 <string>Passe an, ob in Arena-, Herausforderungs- und Freien<lf>Herausforderungsquests durch Halten von <ICON PL_ITEM_SLIDER_OPEN> die<lf>verstrichene Zeit eingeblendet werden soll.
+<string>Passe an, ob in Arena-, Herausforderungs- und Freien<lf>Herausforderungsquests die verstrichene Zeit einge-<lf>blendet wird (für Questmitglieder lediglich Referenz).
 <string>Anzeigen
-<string>Durch Halten von <ICON PL_ITEM_SLIDER_OPEN> kann in Arena-, Heraus-<lf>forderungs- und Freien Herausforderungsquests<lf>die verstrichene Zeit eingeblendet werden.
-<string>Nicht anzeigen
-<string>Die verstrichene Zeit kann nicht eingeblendet<lf>werden.
+<string>Bei Bedarf anzeigen
+<string>Während dieser Quests kann durch Halten von<lf><ICON PL_ITEM_SLIDER_OPEN> die verstrichene Zeit eingeblendet werden.
+<string>Nie anzeigen
+<string>Die verstrichene Zeit wird während dieser<lf>Quests nicht eingeblendet.
+<string>Immer anzeigen
+<string>Während dieser Quests wird stets die<lf>verstrichene Zeit eingeblendet.
 <string>Chat-Fenster
 <string>Passe die Einstellung des Kommunikations-<lf>fensters und des Chatprotokolls für nach<lf>dem Senden einer Nachricht an.
 <string>Fenster schließen
@@ -1297,6 +1315,16 @@
 <string>Lege Aktionen von Hilfsjägern und die dazu-<lf>gehörigen Anzeigen fest.
 <string>Hilfsjäger: Schaden anzeigen
 <string>Lege fest, ob Schadenszahlen angezeigt werden,<lf>wenn ein Hilfsjäger ein Monster angreift.
+<string>Nur einer (Nachkommastellen)
+<string>Es wird jeweils nur der von einem Hilfsjäger<lf>zugefügte Schaden angezeigt.<lf>Die Anzeige erfolgt <COLOR preset="TXT_Accent">mit Nachkommastellen</COLOR>.
+<string>Nur einer (ganze Zahlen)
+<string>Es wird jeweils nur der von einem Hilfsjäger<lf>zugefügte Schaden angezeigt.<lf>Die Anzeige erfolgt <COLOR preset="TXT_Accent">in ganzen Zahlen</COLOR>.
+<string>Alle (Nachkommastellen)
+<string>Es wird für jeden Hilfsjäger der von ihm<lf>zugefügte Schaden angezeigt.<lf>Die Anzeige erfolgt <COLOR preset="TXT_Accent">mit Nachkommastellen</COLOR>.
+<string>Alle (ganze Zahlen)
+<string>Es wird für jeden Hilfsjäger der von ihm<lf>zugefügte Schaden angezeigt.<lf>Die Anzeige erfolgt <COLOR preset="TXT_Accent">in ganzen Zahlen</COLOR>.
+<string>Nicht anzeigen
+<string>Der von Hilfsjägern zugefügte Schaden<lf>wird nicht angezeigt.
 <string>Aktiviert
 <string>Deaktiviert
 <string>Hilfsjäger: Gegenstoß-Angriffe
@@ -1417,6 +1445,7 @@
 <string>Sprach-Chat-Lautstärke
 <string>Passe die Lautstärke von anderen Spielern<lf>im Sprach-Chat an.
 <string>Sprach-Chat: Auto-Wechseln
+<string>Chat: Auto-Wechseln
 <string>Passe an, welche Sprach- und Text-Kanäle sowie<lf>Chatlog-Filter beim automatischen Kanal-Wechsel<lf>bevorzugt werden sollen.
 <string>Questmitglieder bevorzugen
 <string>Du wechselst bei Queststart automatisch zu<lf>einem Questmitglieder-Kanal und bei der<lf>Rückkehr von der Quest zu einem Verbindungs-<lf>mitglieder-Kanal.
@@ -1424,6 +1453,7 @@
 <string>Du wechselst beim Beitritt zu einer Verbindungs-<lf>gruppe automatisch zum Verbindungsmitglieder-<lf>Kanal, unabhängig vom Queststatus.
 <string>Niemanden bevorzugen
 <string>Es wird kein Sprachchat-Kanal priorisiert<lf>und auch kein automatischer Wechsel<lf>zwischen den Kanälen vorgenommen.<lf>Du musst manuell wechseln.
+<string>Es findet kein automatischer Wechsel zwischen<lf>Chatkanälen statt. Du musst manuell wechseln.
 <string>Von Felynen gesprochene Sprache
 <string>Lege fest, welche Sprache die Felynen sprechen.
 <string>Felynen-Sprache
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Mandarin
+<string>Sammeln überzähliger Objekte
+<string>Passe an, wie mit Objekten umgegangen wird,<lf>die den Platz im Objektbeutel übersteigen und<lf>vorübergehend im Feldbeutel verstaut werden.
+<string>Automatisch in Feldbeutel
+<string>Schickt Objekte, für die im Objektbeutel kein<lf>Platz ist, beim Sammeln automatisch in den<lf>Feldbeutel.
+<string>Manuell auswählen
+<string>Erlaubt dir, manuell auszuwählen, welche<lf>Objekte du im Feldbeutel verstaust, wenn du<lf>etwas sammelst, für das kein Platz im Objekt-<lf>beutel ist.
+<string>Aktive Effekte hervorheben
+<string>Passe an, ob Objekt- und Fähigkeit-Effekte<lf>hervorgehoben werden sollen, während sie<lf>aktiv sind.
+<string>Hervorheben
+<string>Jäger, Palicos und Hilfsjäger, für die ein<lf>Fähigkeit- oder Objekteffekt aktiv ist,<lf>werden leuchtend hervorgehoben.
+<string>Nicht hervorheben
+<string>Aktive Fähigkeit- und Objekteffekte werden<lf>nicht hervorgehoben.
+<string>Ausgerüstete Talismane hervorheben
+<string>Passe an, ob bestimme Talismane visuell<lf>hervorgehoben werden sollen, wenn sie<lf>ausgerüstet sind.
+<string>Hervorheben
+<string>Wenn möglich, werden ausgerüstete Talismane<lf>visuell hervorgehoben.
+<string>Nicht hervorheben
+<string>Ausgerüstete Talismane werden nicht hervor-<lf>gehoben.
+<string>Flimmereffekte
+<string>Passe an, ob zur Simulation von Lavahitze und<lf>Unterwasserumgebungen Flimmereffekte<lf>verwendet werden sollen.
+<string>Aktiviert
+<string>In der Nähe von Lava und unter Wasser werden<lf>Flimmereffekte auf dem Bildschirm angezeigt.
+<string>Deaktiviert
+<string>Flimmereffekte sind deaktiviert.

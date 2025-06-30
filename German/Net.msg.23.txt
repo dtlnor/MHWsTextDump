@@ -3,6 +3,7 @@
 <string>Das Spiel wird gestartet.
 <string>Ungültige Anfrage.<lf>{0}
 <string>Informationen konnten nicht abgerufen werden.<lf>{0}
+<string>Die Situation hat sich geändert.<lf>Konnte nicht ausgeführt werden.<lf>{0}
 <string>Verbindungsvorgang...
 <string>Die Serververbindung wird überprüft...
 <string>Es gab einen Verbindungsfehler.<lf>{0}
@@ -18,6 +19,7 @@
 <string>Verbindung zu {0} verloren.<lf>{1}
 <string>Du bist jetzt im Offline-Modus. Das Spiel wird<lf>normal fortgesetzt. Wenn du zum Online-Modus<lf>zurückkehren möchtest, sprich mit der Feldexpertin<lf>und öffne die Kommunikationsfunktionen im Lobby-<lf>wechseln-Menü.
 <string>Du befindest dich derzeit im Offline-Modus.<lf>Wenn du zum Online-Modus zurückkehren möchtest,<lf>sprich mit der Feldexpertin und öffne die<lf>Kommunikationsfunktionen im Lobby-wechseln-Menü.
+<string>Du befindest dich jetzt im Offline-Modus. Wenn<lf>du zum Online-Modus zurückkehren möchtest, öffne<lf>die Kommunikationsfunktionen im Lobby-wechseln-<lf>Menü, indem du mit deinem Feldexperten oder<lf>deiner Feldexpertin sprichst, oder in deinem Zelt.
 <string>Wegen Inaktivität zum Online-Einzelspielermodus<lf>gewechselt. Du kannst normal weiterspielen.<lf>{0}
 <string>Das Senden ist nicht möglich, da ihr schon<lf>Jagdfreundschaft geschlossen habt,<lf>oder bereits eine Einladung verschickt wurde,<lf>die noch auf Antwort wartet.<lf>{0}
 <string>Das Senden ist nicht möglich, da du oder die<lf>andere Person die maximale Anzahl an<lf>Jagdfreundschaften erreicht habt.<lf>{0}
@@ -49,6 +51,8 @@
 <string>Plattform- und Crossplay-<lf>Einstellungen stimmen nicht überein.<lf>{0}
 <string>Diese Handlung ist gesperrt.<lf>Bitte überprüfe die Konsoleneinstellungen.<lf>{0}
 <string>Die Person ist offline.<lf>{0}
+<string>Beitritt zur Lobby nicht möglich, da sich die<lf>Person im Online-Einzelspielermodus befindet.<lf>{0}
+<string>Du kannst der Quest oder Verbindungsgruppe<lf>eines geblockten Spielers nicht beitreten.<lf>{0}
 <string>Die Verbindung zur Sitzung ist verloren gegangen.<lf>{0}
 <string>Die Erstellung einer Sitzung ist fehlgeschlagen.<lf>{0}
 <string>Sitzungssuche fehlgeschlagen.<lf>{0}
@@ -75,6 +79,10 @@
 <string>Teilnahme fehlgeschlagen, da die Sitzung andere<lf>Crossplay-Einstellungen hat. Bitte überprüfe im<lf>Hauptmenü unter <BOLD>Optionen</BOLD> deine Crossplay-<lf>Einstellungen.<lf>{0}
 <string>Die maximale Spielerzahl für die Verbindungsgruppe<lf>wurde erreicht. Es können keine weiteren Spieler<lf>hinzugefügt werden.<lf><lf>{0}
 <string>Über die „Suche nach Jagdfreunden“ kannst du nicht<lf>Privaten Lobbys oder Gruppenlobbys beitreten.<lf>Verwende die „Suche nach Lobby-ID“ oder die<lf>„Gruppenlobby-Suche“, um diesen beizutreten.<lf>{0}
+<string>Betrug festgestellt.<lf>Quest kann nicht angenommen werden.<lf>{0}
+<string>Betrug festgestellt.<lf>Quest konnte nicht erstellt werden.<lf>{0}
+<string>Betrug festgestellt.<lf>Der Questbeitritt ist fehlgeschlagen.<lf>{0}
+<string>Betrug festgestellt.<lf>Quest konnte nicht begonnen werden.<lf>{0}
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am<lf><DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto hat gegen folgende Regel verstoßen:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschaftsfunktionen<lf>vorübergehend eingeschränkt</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Bitte halte dich in Zukunft an die Nutzungsbedingungen.</COLOR>
 <string>Beleidigung/Störendes Verhalten
 <string>Arten verbotenen Verhaltens

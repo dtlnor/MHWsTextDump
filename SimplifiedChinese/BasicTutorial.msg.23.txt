@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -480,7 +486,7 @@
 <string>抓牢骑乘怪物的位置，可以降低怪物攻击<lf>导致的耐力消耗。
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string>骑乘怪物时<ICON PL_BT_RIDE_CANCEL>
+<string>骑乘怪物时<ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON">
 <string>在骑乘怪物状态中从怪物身上跳下。
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>尸体变化
 <string>怪物的尸体经过一段时间后会变为腐坏的尸<lf>体。不同状态下可剥取的素材会发生改变。<lf><lf>小型怪物有时还会从腐坏的尸体变为<REF Gimmick_NAME_1176528640>或<lf><REF Item_IT_270>，采集可以获得相应素材。另外，<lf>护龙有时会变为结晶化尸体，可剥取的素材<lf>也会发生改变。
+<string>
+<string>在水下狩猎
+<string>在水下狩猎
+<string>在水下狩猎海龙时，猎人可以执行一些不<lf>同于地面战的特有动作，比如上下方向的<lf>立体移动，或抓附在海龙身上等。
+<string>
+<string>移动
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string>抓附时<ICON PL_BT_RIDE_ATTACK_WP>
+<string>使用装备的武器攻击。<lf><lf>虽然能发挥十足的威力，但是攻击后就会解<lf>除抓附状态。
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string>抓附时<ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L>
+<string>在抓附状态下使用小刀砍击。<lf><lf>虽然与使用<REF ActionGuideDataNameTextCommon_12267>相比威力较低，但更<lf>容易造成伤口，有时还会获取掉落物。<lf><lf>此外，因为攻击后能继续保持抓附状态，<lf>所以可以连续攻击。
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string>抓附时<ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL>
+<string>脱离抓附海龙的状态。
 <string>
 <string>豪鬼
 <string>关于豪鬼

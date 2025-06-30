@@ -32,8 +32,10 @@
 <string>Aucune image
 <string>Arme principale
 <string>Équiper comme arme principale
+<string>Équiper comme arme principale ({0})
 <string>Arme secondaire
 <string>Équiper comme arme secondaire
+<string>Équiper comme arme secondaire ({0})
 <string>Arme
 <string>Accessoires
 <string>Accessoire principal
@@ -59,21 +61,27 @@
 <string>Armure de type <ICON EQUIP_TYPE2>
 <string>Possédées uniquement
 <string>Ensembles complets
+<string>Afficher souhaités
+<string>Afficher α
+<string>Afficher β
 <string>Améliorer
 <string>Forger
 <string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?
-<string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?<lf><lf>(Forger cet équipement permet également d'obtenir<lf>une <COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
+<string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Continuer ?<lf><lf>(Fabriquer cet équipement le débloquera<lf>également en tant qu'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)
 <string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer.<lf>Continuer ?
-<string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer. Continuer ?<lf><lf>(Vous obtiendrez également l'<COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
+<string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer. Continuer ?<lf><lf>(Vous obtiendrez également l'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)
 <string>Équiper maintenant ?
 <string>Si vous retirez cette pièce, <COLOR preset="TXT_Danger">toutes les autres<lf>pièces de l'ensemble complet seront retirées</COLOR>.<lf>Retirer la pièce ?
 <string>Ceci est un ensemble complet.<lf>Équiper toutes les pièces ?<lf><lf><COLOR preset="TXT_Danger">(L'armure spéciale sera cachée.)</COLOR>
+<string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?<lf><COLOR preset="TXT_Accent">Vous recevrez les objets suivants en échange des points en trop.</COLOR>
+<string>Des matériaux et <NUMBER {0}> z seront utilisés. Continuer ?<lf>(Vous obtiendrez également l'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)<lf><COLOR preset="TXT_Accent">Vous recevrez les objets suivants en échange des points en trop.</COLOR>
 <string>{0} <PLURAL {0} "point sera perdu" "points seront perdus">.<lf>Continuer ?
 <string>Prévisualisation
 <string><COLOR preset="TXT_Danger">Le coffre est plein.</COLOR>
 <string><COLOR preset="TXT_Danger">Cette pièce d'équipement ne peut pas encore être forgée ou améliorée.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous n'avez pas l'équipement requis.</COLOR>
 <string><COLOR preset="TXT_Danger">Argent ou matériaux insuffisants.</COLOR>
+<string><COLOR preset="TXT_Danger">Argent ou matériaux insuffisants. (Vous pouvez fabriquer un ensemble complet d'un coup avec les matériaux requis.)</COLOR>
 <string><COLOR preset="TXT_Danger">Argent insuffisant.</COLOR>
 <string><COLOR preset="TXT_Danger">Niveau d'amélioration maximum atteint.</COLOR>
 <string>Sélectionner une sphère d'armure à utiliser.
@@ -96,7 +104,7 @@
 <string><COLOR preset="TXT_Danger">Vous ne pouvez pas équiper ceci sur cet emplacement.</COLOR>
 <string><COLOR preset="TXT_Danger">Ce kinsecte a atteint sa taille adulte.</COLOR>
 <string><NUMBER {0}> z requis.<lf>Continuer ?
-<string><NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?<lf><lf>(Forger cet équipement permet également d'obtenir<lf>une <COLOR preset="TXT_Accent">armure spéciale</COLOR>.)
+<string><NUMBER {0}> z seront utilisés.<lf>Continuer ?<lf><lf>(Fabriquer cet équipement le débloquera<lf>également en tant qu'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)
 <string>Matériaux métamorphose
 <string>Coffre d'équipement
 <string>Coffre armures spéciales
@@ -131,7 +139,10 @@
 <string>Retirer de la liste de souhaits ?
 <string>Retirer de la liste de souhaits ?<lf><COLOR preset="TXT_Danger">(Chevauchement avec les sets d'équipement.<lf>L'équipement retiré ici<lf>le sera aussi des sets d'équipement.)</COLOR>
 <string>Retirer tous les joyaux
+<string>Retirer les joyaux équipés
 <string>Retirer tous les joyaux équipés ?
+<string>Retirer tous les joyaux
+<string>Retirer les joyaux de tous les équipements ?
 <string><INPUTMSG RefEquipment_SUB_13_S>
 <string><INPUTMSG RefEquipment_SUB_14_S>
 <string><INPUTMSG RefEquipment_SUB_15_S>
@@ -200,6 +211,8 @@
 <string>Niveau kinsecte
 <string>Type de canon
 <string>Par quantité
+<string>Points de fusion
+<string>Points de création
 <string>1 – 3
 <string>2 – 3
 <string>3

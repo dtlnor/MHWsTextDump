@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>El arma no pierde el filo durante<lf>90 s después de activarse.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>50 % de probabilidad de evitar<lf>el desvío de ataques,<lf>+10 % de daño a objetivos duros.
+<string>50 % de probabilidad de evitar<lf>el desvío de ataques, +10 % de<lf>poder de ataque a objetivos duros.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>100 % de probabilidad de evitar<lf>el desvío de ataques,<lf>+15 % de daño a objetivos duros.
+<string>100 % de probabilidad de evitar<lf>el desvío de ataques, +15 % de<lf>poder de ataque a objetivos duros.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>100 % de probabilidad de evitar<lf>el desvío de ataques,<lf>+30 % de daño a objetivos duros.
+<string>100 % de probabilidad de evitar<lf>el desvío de ataques, +30 % de<lf>poder de ataque a objetivos duros.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>Aumenta ligeramente el alcance.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>Aumenta ligeramente la potencia<lf>de ciertas municiones y flechas.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>Daño de fuego rápido +5 %.
+<string>Poder de fuego rápido +5 %.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>Quita un ciclo<lf>del proceso de afilado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>Velocidad +10 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>Velocidad +20 %<lf>Daño por mutación +10 %
+<string>Velocidad +20 %<lf>Poder de ATQ con mutación +10 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>Velocidad +30 %<lf>Daño por mutación +20 %
+<string>Velocidad +30 %<lf>Poder de ATQ con mutación +20 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>Aumenta ligeramente el daño<lf>elemental y los efectos de estado<lf>para los ataques cargados.
+<string>Aumenta ligeramente el ataque<lf>elemental y los efectos de estado<lf>para los ataques cargados.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>Aumenta el daño elemental y<lf>los efectos de estado para<lf>los ataques cargados.
+<string>Aumenta el ataque elemental<lf>y los efectos de estado para<lf>los ataques cargados.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>Aumenta mucho el daño<lf>elemental y los efectos de estado<lf>para los ataques cargados.
+<string>Aumenta mucho el ataque<lf>elemental y los efectos de estado<lf>para los ataques cargados.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>Activa el efecto de la habilidad.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>Ataque +15 y afinidad +20 %<lf>contra monstruos grandes<lf>afectados por veneno o parálisis.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>Mientras está activo, aumenta<lf>ligeramente el daño elemental<lf>y los efectos de estado.
+<string>Mientras está activo, aumenta<lf>ligeramente el ataque elemental<lf>y los efectos de estado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>Mientras está activo, aumenta<lf>el daño elemental y los efectos<lf>de estado.
+<string>Mientras está activo, aumenta<lf>el ataque elemental y los efectos<lf>de estado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>Mientras está activo, aumenta<lf>mucho el daño elemental<lf>y los efectos de estado.
+<string>Mientras está activo, aumenta<lf>mucho el ataque elemental<lf>y los efectos de estado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>El primer golpe otorga un ligero aumento<lf>temporal de ataque y elemento, y otorga<lf>uno mayor luego de 5 impactos.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -808,12 +808,36 @@
 <string>Añade objetos especiales a las<lf>recompensas durante la Floradanza (sin<lf>efecto si te unes a media misión).
 <string>Bendición de la Floradanza II
 <string>Durante la Floradanza, agrega objetos<lf>especiales a las recompensas de misión<lf>y mejora mucho el ataque y la defensa.
+<string>Bendición de la Chisparranda I
+<string>Durante la Chisparranda, agrega<lf>objetos especiales a las recompensas.<lf>(Sin efecto si la misión ya empezó).
+<string>Bendición de la Chisparranda II
+<string>Durante la Chisparranda, agrega<lf>objetos especiales a las recompensas<lf>de misión. Aumenta ataque y defensa.
 <string>Satsui no Hado
 <string>El poder de las acciones especiales<lf>aumentará. Los Drive Impacts activan<lf>ataques compensados. Los ataques<lf>compensados aumentan el poder aún más.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>Activa el efecto de la habilidad.
+<string>Relámpago celeste I
+<string>Aumenta temporalmente la afinidad<lf>e inflige daño por rayo adicional al<lf>acumularlo. (Salvo algunos ataques).
+<string>Relámpago celeste II
+<string>Aumenta aún más el daño por rayo<lf>adicional y extiende la duración<lf>en la que aumenta la afinidad.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>Activa el efecto de la habilidad.
+<string>Filo I
+<string>Extiende Subida de adrenalina. Si se<lf>activa mientras está activa, extiende<lf>la duración del efecto una vez.
+<string>Filo II
+<string>Además, si se activa otra vez<lf>mientras la habilidad está activa,<lf>aumenta el ataque aún más.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>Activa el efecto de la habilidad.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>Activa el efecto de la habilidad.
 <string>Suerte
 <string>Aumenta las recompensas de objetivo<lf>de misión. (No aplicable si la misión<lf>ya empezó).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>Extraer minerales particularmente<lf>raros aumenta mucho el ataque.<lf>(El aumento tiene un límite máximo).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>Activa el efecto de la habilidad.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>Activa el efecto de la habilidad.
 <string>Bonus de ráfaga I
 <string>Prolonga la duración de Ráfaga<lf>y otorga +3 de ataque<lf>mientras Ráfaga está activa.
 <string>Bonus de ráfaga II

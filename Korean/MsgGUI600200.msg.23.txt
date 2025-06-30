@@ -31,8 +31,8 @@
 <string>귀인연참은 귀인 게이지를 소비하며<lf>귀인 강화 상태에서만<lf>사용할 수 있는 연속 공격.<lf><ICON WP02 PL_MOVE_FRONT><ICON WP02 PL_MOVE_LEFT><ICON WP02 PL_MOVE_BACK><ICON WP02 PL_MOVE_RIGHT> 방향으로 이동하며<lf>공격할 수 있다.<lf><lf>난무와 귀인연참은 <ICON WP02 PL_ATTACK_SP>으로<lf>상호 파생시킬 수 있다.
 <string>
 <string>
-<string>기본적인 연계 공격을 한다.<lf><lf><REF ActionGuideDataNameText_Wp04_86757720> 후 <ICON WP04 PL_ATTACK_00>을 누르면 <lf><REF ActionGuideDataNameText_Wp04_m222720992>로, <ICON WP04 PL_ATTACK_00>을 <lf>다시 누르면 <REF ActionGuideDataNameText_Wp04_1449700864>으로 파생된다.<lf><lf>세로휘두르기는 공격 후 <ICON WP04 PL_DUMMY_MOVE>버튼으로<lf>위치를 세밀하게 조정할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>은 상쇄 효과가 있으며<lf><ICON WP04 PL_ATTACK_00>을 길게 눌러 기술이 발동되는<lf>타이밍을 늦출 수 있다.
-<string>기본적인 연계 공격을 한다.<lf><lf><REF ActionGuideDataNameText_Wp04_86757720> 후 <ICON WP04 PL_ATTACK_00>을 누르면 <REF ActionGuideDataNameText_Wp04_m222720992>로,<lf><ICON WP04 PL_ATTACK_00>을 다시 누르면<lf><REF ActionGuideDataNameText_Wp04_1449700864>으로 파생된다.<lf><lf>세로휘두르기는 공격 후 <ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>으로<lf>위치를 세밀하게 조정할 수 있다.<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>은 상쇄 효과가 있으며<lf><ICON WP04 PL_ATTACK_00>을 길게 눌러 기술이 발동되는<lf>타이밍을 늦출 수 있다.
+<string>기본적인 연계 공격을 한다.<lf><REF ActionGuideDataNameText_Wp04_86757720> 후 <ICON WP04 PL_ATTACK_00>을 누르면 <lf><REF ActionGuideDataNameText_Wp04_m222720992>로, <ICON WP04 PL_ATTACK_00>을 <lf>다시 누르면 <REF ActionGuideDataNameText_Wp04_1449700864>으로 파생된다.<lf>세로휘두르기는 공격 후 <ICON WP04 PL_DUMMY_MOVE>버튼으로<lf>위치를 세밀하게 조정할 수 있다.<lf><REF ActionGuideDataNameText_Wp04_1449700864>은 상쇄 효과가 있으며<lf><ICON WP04 PL_ATTACK_00>을 길게 눌러 기술이 발동되는<lf>타이밍을 늦출 수 있다.<lf>상쇄에 성공해 몬스터가 크게 <lf>움츠렸을 때, <ICON WP04 PL_ATTACK_00>으로<lf><REF ActionGuideDataNameText_Wp04_12800> 파생이 가능하다.
+<string>기본적인 연계 공격을 한다.<lf><REF ActionGuideDataNameText_Wp04_86757720> 후 <ICON WP04 PL_ATTACK_00>을 누르면 <REF ActionGuideDataNameText_Wp04_m222720992>로,<lf><ICON WP04 PL_ATTACK_00>을 다시 누르면<lf><REF ActionGuideDataNameText_Wp04_1449700864>으로 파생된다.<lf>세로휘두르기는 공격 후 <ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>으로<lf>위치를 세밀하게 조정할 수 있다.<lf><REF ActionGuideDataNameText_Wp04_1449700864>은 상쇄 효과가 있으며<lf><ICON WP04 PL_ATTACK_00>을 길게 눌러 기술이 발동되는<lf>타이밍을 늦출 수 있다.<lf>상쇄에 성공해 몬스터가 크게<lf>움츠렸을 때, <ICON WP04 PL_ATTACK_00>으로<lf><REF ActionGuideDataNameText_Wp04_12800> 파생이 가능하다.
 <string>
 <string>
 <string>음색1을 발생시키는 기본 공격.<lf><ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_00>으로<lf>전방 공격이 가능하다.
@@ -372,3 +372,11 @@
 <string><OPTION id= "SLINGER_AMMO_AUTOLOADING" msg= "MsgGUI600200_00_045_001">
 <string>일반 슬링어 탄과 마찬가지로<lf>아이템 슬라이더에서 <REF Item_IT_783>을 선택하고<lf>목표를 겨낭해 발사한다.<lf><lf><ICON merge="PL_SLINGER_SHOOT,HOLD_ON">으로 모으기를 할 수 있으며,<lf>각 어시스트 콤보 중에도 발사할 수 있다.
 <string>일반 슬링어 탄과 마찬가지로<lf>아이템 슬라이더에서 <REF Item_IT_783>을 선택하고<lf><ICON PL_ITEM>으로 장전, 목표를 겨낭해 발사한다.<lf><lf><ICON merge="PL_SLINGER_SHOOT,HOLD_ON">으로 모으기를 할 수 있으며,<lf>각 어시스트 콤보 중에도 발사할 수 있다.
+<string><ICON PL_DUMMY_CAMERA>으로 조준을 조작하여<lf>진행 방향을 정하고 <ICON PL_DUMMY_MOVE>으로 이동한다.<lf>상하좌우로도<lf>자유롭게 움직일 수 있다.<lf><lf>또한 상하로 빠르게 이동하려면<lf><ICON PL_EX_FIELD_U>으로 <REF ActionGuideDataNameTextCommon_7004>, <ICON PL_EX_FIELD_D>으로 <REF ActionGuideDataNameTextCommon_20140>도 가능.<lf><ICON PL_DODGE>으로는 회피할 수 있다.
+<string><ICON PL_DUMMY_CAMERA>으로 조준을 조작하여<lf>진행 방향을 정하고 <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>으로 이동한다.<lf>상하좌우로도<lf>자유롭게 움직일 수 있다.<lf><lf>또한 상하로 빠르게 이동하려면<lf><ICON PL_EX_FIELD_U>으로 <REF ActionGuideDataNameTextCommon_7004>, <ICON PL_EX_FIELD_D>으로 <REF ActionGuideDataNameTextCommon_20140>도 가능.<lf><ICON PL_DODGE>으로는 회피할 수 있다.
+<string><ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_DUMMY_MOVE>
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
+<string>자신과 라기아크루스가<lf>수중에 있는 경우에 한해<lf><ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>으로 발사한<lf>훅 슬링어를 명중시키고,<lf>몸 표면에 매달릴 수 있다.<lf><lf>매달리는 동안에는<lf>장비 중인 무기나 나이프로<lf>공격할 수 있다.
+<string>자신과 라기아크루스가<lf>수중에 있는 경우에 한해<lf><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>으로 발사한<lf>훅 슬링어를 명중시키고,<lf>몸 표면에 매달릴 수 있다.<lf><lf>매달리는 동안에는<lf>장비 중인 무기나 나이프로<lf>공격할 수 있다.

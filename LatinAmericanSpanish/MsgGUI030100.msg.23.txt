@@ -77,7 +77,7 @@
 <string>Envainado automático
 <string>Ajusta si tu arma se envainará automáticamente<lf>transcurrido un tiempo determinado desenvainada.
 <string>Activar envainado automático
-<string>Enfunda el arma automáticamente si no evades<lf>o atacas durante un tiempo determinado.<lf>No tendrá efecto durante el combate.
+<string>Envaina el arma automáticamente si no evades<lf>o atacas durante un tiempo determinado.<lf>No tendrá efecto durante el combate.
 <string>Desactivar envainado automático
 <string>No envaina el arma automáticamente.
 <string>Controles direccionales
@@ -380,7 +380,7 @@
 <string>Ajusta la vel. del movimiento horizontal de la cámara<lf>con <ICON PAD PL_AIM>. Con <COLOR preset="TXT_Accent">Vel. cámara: Arma desenvainada</COLOR> activada<lf>los ajustes solo se aplican con el arma envainada.
 <string>Vel. de la cámara (vertical): <ICON PAD PL_AIM>
 <string>Ajusta la vel. del movimiento vertical de la cámara<lf>con <ICON PAD PL_AIM>. Con <COLOR preset="TXT_Accent">Vel. cámara: Arma desenvainada</COLOR> activada<lf>los ajustes solo se aplican con el arma envainada.
-<string>Vel. cámara: arma desenfundada
+<string>Vel. cámara: arma desenvainada
 <string>Habilita que la velocidad de la cámara, al mantener<lf>presionado <ICON PAD PL_AIM> con el arma desenvainada, se pueda ajustar<lf>por separado para armas cuerpo a cuerpo y a distancia.
 <string>Arma cuerpo a cuerpo (horizontal): <ICON PAD PL_AIM>
 <string>Ajusta la velocidad del movimiento horizontal<lf>de la cámara al usar <ICON PAD PL_AIM> con un arma cuerpo a cuerpo<lf>desenvainada (en el Modo enfoque).
@@ -495,7 +495,7 @@
 <string>Cuando tu arma está desenvainada,<lf>activa o desactiva el Modo de enfoque para armas<lf>cuerpo a cuerpo y el Modo de apuntado/enfoque<lf>de armas a distancia con <ICON PAD PL_AIM_TOGGLE>.
 <string>Controles avanzados del Modo de apuntado/enfoque
 <string>Estableces cómo activar el Modo de enfoque<lf>y el Modo de apuntado/enfoque para armas<lf>a distancia desenvainadas por separado.<lf><COLOR preset="TXT_Accent">(No afecta a los controles de la eslinga).</COLOR>
-<string>Ajusta cómo se activa el apuntado de la eslinga con el arma<lf>envainada y el Modo de apuntado/enfoque para las armas<lf>cuerpo a cuerpo/a distancia desenfundadas por separado.
+<string>Ajusta cómo se activa el apuntado de la eslinga con el arma<lf>envainada y el Modo de apuntado/enfoque para las armas<lf>cuerpo a cuerpo/a distancia desenvainadas por separado.
 <string>Apuntar eslinga (envainada)
 <string>Ajusta como se activa el apuntado con la eslinga<lf>cuando tu arma está envainada.
 <string>Presiona <ICON PAD PL_AIM> para activar los modos
@@ -819,9 +819,9 @@
 <string>Escalamiento (superresolución)
 <string>Usa la tecnología de superresolución, que permite<lf>mantener un rendimiento elevado con una calidad<lf>gráfica superior.
 <string>NVIDIA DLSS
-<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">- Requiere una tarjeta gráfica NVIDIA GeForce RTX.<lf>- Si usas una tarjeta de la serie GeForce RTX40<lf>y tienes activada la aceleración por hardware en tu SO,<lf>al seleccionar esta opción podrás habilitar<lf>la generación de cuadros.</COLOR>
+<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">- Requiere una tarjeta gráfica NVIDIA GeForce RTX.</COLOR>
 <string>AMD FSR
-<string>Usa <FSR>,<lf><COLOR preset="TXT_Accent">- Si tienes activada la aceleración por<lf>hardware en tu SO, al seleccionar esta opción<lf>podrás habilitar la generación de cuadros.</COLOR>
+<string>Usa <FSR>.
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
 <string>Desactivar
@@ -835,6 +835,13 @@
 <string>La <COLOR preset="TXT_Accent">generación de fotogramas</COLOR> (usando <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>no puede activarse con tus ajustes de pantalla actuales.
 <string>La <COLOR preset="TXT_Accent">generación de fotogramas</COLOR> (usando <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>no puede activarse con tus ajustes de pantalla actuales.<lf>La opción se ha <BOLD>desactivado</BOLD>.
 <string>La generación de fotogramas puede volver a<lf>activarse cambiando tus ajustes a modo ventana,<lf>o si estás en modo ventana sin bordes, selecciona<lf>una resolución que no muestre bordes negros.
+<string>NVIDIA DLSS 2x
+<string>Esta función permite mejorar la tasa<lf>de fotogramas y superar la tasa máxima<lf>de fotogramas fijada en las opciones<lf>de visualización.<lf><COLOR preset="TXT_Accent">Ajuste solo disponible con tarjetas gráficas<lf>de la serie NVIDIA GeForce RTX 4000<lf>o superior.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Esta función permite mejorar la tasa<lf>de fotogramas y superar la tasa máxima<lf>de fotogramas fijada en las opciones<lf>de visualización.<lf><COLOR preset="TXT_Accent">Ajuste solo disponible con tarjetas gráficas<lf>de la serie NVIDIA GeForce RTX 5000<lf>o superior.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS Auto
+<string>Esta función permite ajustar de forma<lf>dinámica la generación de fotogramas<lf>a "Desactivar" o "2x" según la carga<lf>de la CPU o la GPU.<lf><COLOR preset="TXT_Accent">Ajuste solo disponible con tarjetas gráficas<lf>de la serie NVIDIA GeForce RTX 4000 o superior.</COLOR>
 <string>Modo de escalamiento
 <string>Ajusta la calidad gráfica empleada al escalar.<lf><COLOR preset="TXT_Accent">(Solo disponible con el escalamiento activado).</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>No
 <string>Escala de renderizado
 <string>Establece el porcentaje de escala de renderizado.<lf><COLOR preset="TXT_Accent">(Solo disponible con el escalamiento desactivado).</COLOR>
+<string>Ajusta el porcentaje de la escala de renderización.<lf><COLOR preset="TXT_Accent">(Solo disponible si se cumplen los requisitos).</COLOR>
 <string>Trazado de rayos
 <string>Ajusta la calidad de la reflexión de los rayos<lf>gracias a la tecnología de trazado de rayos.
 <string>Ultra
@@ -1063,6 +1071,12 @@
 <string>Muestra en pantalla las cifras del daño<lf>infligido a los monstruos.<lf><COLOR preset="TXT_Accent">(Solo valores enteros).</COLOR>
 <string>No mostrar
 <string>No muestra las cifras de daño.
+<string>Aviso de la barra de salud
+<string>Determina si la barra de salud muestra una<lf>advertencia justo antes de que los monstruos<lf>ejecuten ataques particularmente dañinos.
+<string>Mostrar
+<string>La barra de salud muestra un aviso (ondas<lf>rojas) para indicar cuando un monstruo va<lf>a lanzar un ataque que agotará tu salud<lf>restante.
+<string>No mostrar
+<string>La barra de salud no muestra ningún aviso<lf>para indicar cuando un monstruo va a lanzar<lf>un ataque que agotará tu salud restante.
 <string>HUD
 <string>Ajusta el tamaño de visualización y los contenidos del HUD.
 <string>Barra de salud
@@ -1192,10 +1206,14 @@
 <string>Muestra la barra de salud minimizada por<lf>defecto del camarada y otros compañeros.<lf>La barra se mostrará completa en ciertas<lf>situaciones.
 <string>Mostrar tiempo transcurrido en algunas misiones
 <string>Ajusta si al mantener presionado <ICON PL_ITEM_SLIDER_OPEN> se mostrará<lf>el tiempo transcurrido en las misiones de la Arena,<lf>de desafío o de desafío abierto.
+<string>Determina cómo se muestra el tiempo transcurrido en<lf>misiones de la Arena, de desafío y de desafío abierto.<lf><COLOR preset="TXT_Accent">(Sirve de referencia para los miembros de la misión).</COLOR>
 <string>Mostrar
+<string>Mostrar opcionalmente
 <string>Durante ciertas misiones, al mantener presionado <ICON PL_ITEM_SLIDER_OPEN>,<lf>se mostrará el tiempo transcurrido sobre tus objetivos.
 <string>No mostrar
 <string>Durante ciertas misiones, al mantener presionado <ICON PL_ITEM_SLIDER_OPEN>,<lf>no se mostrará el tiempo transcurrido sobre tus objetivos.
+<string>Fijo
+<string>Durante ciertas misiones, el tiempo<lf>transcurrido se muestra siempre sobre<lf>los objetivos.
 <string>Ventana de chat
 <string>Ajusta las opciones de la ventana de comunicación<lf>y notificaciones tras enviar un mensaje.
 <string>Cerrar ventana
@@ -1297,6 +1315,16 @@
 <string>Ajusta las acciones del cazador de apoyo<lf>y opciones relacionadas.
 <string>Visualización de daño
 <string>Ajusta si quieres que se vean los números de<lf>daño cuando un cazador de apoyo ataca a un<lf>monstruo.
+<string>Mostrar uno (con decimales)
+<string>Muestra en pantalla las cifras del daño que un<lf>solo cazador de apoyo inflige a los monstruos.<lf><COLOR preset="TXT_Accent">(Decimales incluidos).</COLOR>
+<string>Mostrar uno (solo enteros)
+<string>Muestra en pantalla las cifras del daño que un<lf>solo cazador de apoyo inflige a los monstruos.<lf><COLOR preset="TXT_Accent">(Solo enteros).</COLOR>
+<string>Mostrar todo (con decimales)
+<string>Muestra en pantalla las cifras del daño<lf>que todos los cazadores de apoyo infligen<lf>a los monstruos. <COLOR preset="TXT_Accent">(Decimales incluidos).</COLOR>
+<string>Mostrar todo (solo enteros)
+<string>Muestra en pantalla las cifras del daño<lf>que todos los cazadores de apoyo infligen<lf>a los monstruos. <COLOR preset="TXT_Accent">(Solo enteros).</COLOR>
+<string>No mostrar
+<string>No muestra las cifras de daño<lf>para los cazadores de apoyo.
 <string>Activar
 <string>Desactivar
 <string>Ataque de compensación
@@ -1417,6 +1445,7 @@
 <string>Volumen del chat de voz
 <string>Ajusta el volumen de otros grupos en el chat<lf>de voz.
 <string>Cambio automático de chat de voz
+<string>Cambio automático de chat
 <string>Ajusta si cambia automáticamente el canal de<lf>voz y texto, y los filtros de historial de chat.<lf><COLOR preset="TXT_Accent">(se puede cambiar manualmente cuando quieras).</COLOR>
 <string>Prioridad miembros de la misión
 <string>Cambia automáticamente al canal de los<lf>miembros de la misión al iniciarla, y al canal<lf>de los miembros vinculados al regresar<lf>de una misión.
@@ -1424,6 +1453,7 @@
 <string>Cambia automáticamente al canal de los<lf>miembros vinculados al unirse a un grupo<lf>vinculado, independientemente del estado de<lf>la misión.
 <string>Sin prioridad
 <string>No otorga prioridades ni cambia de canal de<lf>chat de voz automáticamente. Solo se puede<lf>cambiar manualmente.
+<string>Los canales del chat no se cambian en forma<lf>automática. Debe hacerse manualmente.
 <string>Idioma Felyne
 <string>Ajusta el idioma hablado por los camaradas Felyne.
 <string>Idioma Felyne
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Chino mandarín
+<string>Ajustes para exceso de objetos
+<string>Determina cómo se almacenan temporalmente en<lf>tu bolsa de campo los objetos que superan la<lf>capacidad de tu bolsa de objetos al juntarlos.
+<string>Envío automático a bolsa
+<string>Envía automáticamente a la bolsa de campo<lf>los objetos que recolectes y que no se puedan<lf>almacenar en la bolsa de objetos.
+<string>Elegir siempre
+<string>Elige manualmente qué objetos almacenar<lf>en la bolsa de campo cuando no se puede<lf>guardar lo recolectado en la bolsa de objetos.
+<string>Activar efectos de hab./objeto
+<string>Elige si se muestra un efecto o no mientras<lf>haya una habilidad u objeto activo.
+<string>Mostrar
+<string>Agrega un efecto brillante en el cazador,<lf>el camarada y/o cazadores de apoyo para<lf>indicar que tienen una habilidad u objeto<lf>activo.
+<string>No mostrar
+<string>No muestra efecto brillante en el cazador,<lf>el camarada y/o cazadores de apoyo para<lf>indicar que tienen una habilidad u objeto<lf>activo.
+<string>Efecto de talismán equipado
+<string>Elige si quieres que ciertos talismanes<lf>muestren o no un efecto visual si los tienes<lf>equipados.
+<string>Mostrar
+<string>Muestra el efecto visual de un talismán<lf>equipado, si corresponde.
+<string>No mostrar
+<string>No muestra el efecto visual de un talismán<lf>equipado.
+<string>Efectos de distorsión
+<string>Elige si mostrar o no un efecto de distorsión<lf>que simula el calor de la lava o entornos<lf>submarinos.
+<string>Activar
+<string>Se mostrará un efecto de distorsión cuando<lf>estés bajo el agua o cerca de lava.
+<string>Desactivar
+<string>No se mostrará un efecto de distorsión aunque<lf>estés bajo el agua o cerca de lava.

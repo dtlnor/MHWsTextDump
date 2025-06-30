@@ -819,9 +819,9 @@
 <string>Upscaling (technologie de super résolution)
 <string>Utiliser la technologie de super résolution pour vous<lf>permettre de maintenir des performances élevées tout<lf>en bénéficiant d'une qualité graphique supérieure.
 <string>NVIDIA DLSS
-<string>Utiliser NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Nécessite une carte graphique NVIDIA GeForce RTX.<lf>– Si vous utilisez une carte GeForce RTX40 et que<lf>vous avez activé la planification GPU à accélération<lf>matérielle dans votre système d'exploitation, la<lf>sélection de cette option vous permettra d'activer<lf>la génération d'images.</COLOR>
+<string>Utiliser NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Nécessite une carte graphique NVIDIA GeForce RTX.</COLOR>
 <string>AMD FSR
-<string>Utiliser <FSR>.<lf><COLOR preset="TXT_Accent">– Si vous avez activé la planification GPU à<lf>accélération matérielle dans votre système<lf>d'exploitation, la sélection de cette option<lf>vous permettra d'activer la génération<lf>d'images.</COLOR>
+<string>Utiliser <FSR>.
 <string>Intel XeSS
 <string>Utiliser Intel <XESS>.
 <string>Désactiver
@@ -835,6 +835,13 @@
 <string>La <COLOR preset="TXT_Accent">génération d'images</COLOR> (en utilisant <COLOR preset="TXT_Accent">FSR</COLOR>) ne peut pas<lf>être activée avec vos paramètres d'affichage actuels.
 <string>La <COLOR preset="TXT_Accent">génération d'images</COLOR> (en utilisant <COLOR preset="TXT_Accent">FSR</COLOR>) ne peut pas<lf>être activée avec vos paramètres d'affichage actuels.<lf>Cette option a donc été automatiquement désactivée.
 <string>Le génération d'images peut être à nouveau activée<lf>en passant en mode fenêtre. Ou, si vous êtes en<lf>mode fenêtre sans bordure, changez de résolution<lf>pour une résolution sans bordures noires.
+<string>NVIDIA DLSS 2x
+<string>Activer ce paramètre peut améliorer la fréquence<lf>d'images et vous permettre de dépasser le frame<lf>rate maximum défini dans les options d'Affichage.<lf><COLOR preset="TXT_Accent">Ce paramètre est uniquement disponible avec les<lf>cartes graphiques NVIDIA GeForce RTX 4000 Series<lf>ou modèles supérieurs.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Activer ce paramètre peut améliorer la fréquence<lf>d'images et vous permettre de dépasser le frame<lf>rate maximum défini dans les options d'Affichage.<lf><COLOR preset="TXT_Accent">Ce paramètre est uniquement disponible avec les<lf>cartes graphiques NVIDIA GeForce RTX 5000 Series<lf>ou modèles supérieurs.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS Auto
+<string>Activer ce paramètre ajuste de façon dynamique<lf>la génération d'images sur "Désactivée" ou "2x"<lf>selon la charge du CPU et du GPU.<lf><COLOR preset="TXT_Accent">Ce paramètre est uniquement disponible avec les<lf>cartes graphiques NVIDIA GeForce RTX 4000 Series<lf>ou modèles supérieurs.</COLOR>
 <string>Mode d'upscaling
 <string>Régler la qualité graphique utilisée pour l'upscaling.<lf><COLOR preset="TXT_Accent">*Ce réglage n'est possible que si l'upscaling est activé.</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>Aucun
 <string>Échelle du rendu
 <string>Régler le pourcentage de l'échelle du rendu.<lf><COLOR preset="TXT_Accent">*Disponible uniquement si l'upscaling n'est pas activé.</COLOR>
+<string>Ajuster le pourcentage de l'échelle du rendu.<lf><COLOR preset="TXT_Accent">*Disponible uniquement si les conditions<lf>requises sont remplies.</COLOR>
 <string>Ray tracing
 <string>Régler la qualité de la réflexion de la lumière<lf>avec le ray tracing.
 <string>Très élevée
@@ -1063,6 +1071,12 @@
 <string>Afficher les nombres indiquant les dégâts<lf>infligés aux monstres.<lf><COLOR preset="TXT_Accent">*Valeurs entières seulement</COLOR>
 <string>Ne pas afficher
 <string>Ne pas afficher la valeur des dégâts.
+<string>Alerte Jauge de vie
+<string>Définir si la jauge de vie affiche une alerte<lf>juste avant que les monstres effectuent<lf>une attaque particulièrement dangereuse.
+<string>Afficher
+<string>La jauge de vie affiche une alerte (elle<lf>ondule en rouge) pour indiquer qu'un<lf>monstre est sur le point d'asséner un<lf>coup qui vous sera fatal.
+<string>Ne pas afficher
+<string>La jauge de vie n'affiche pas d'alerte<lf>pour indiquer qu'un monstre est sur<lf>le point d'asséner un coup qui vous<lf>sera fatal.
 <string>HUD
 <string>Définir la taille d'affichage et le contenu du HUD.
 <string>Jauge de vie
@@ -1192,10 +1206,14 @@
 <string>Afficher une jauge de vie réduite par défaut<lf>pour votre Palico et autres alliés. Dans certaines<lf>situations, la jauge s'affichera entièrement.
 <string>Afficher le temps écoulé (certaines quêtes)
 <string>Définir si maintenir <ICON PL_ITEM_SLIDER_OPEN> affiche le temps<lf>écoulé au cours des Quêtes Arène, Défi<lf>et Défi libre.
+<string>Configurer l'affichage du temps écoulé pendant les<lf>Quêtes Arène, Défi et Défi libre. <COLOR preset="TXT_Accent">*Le temps affiché n'est<lf>qu'une simple indication pour les membres de la quête.</COLOR>
 <string>Afficher
+<string>Affichage optionnel
 <string>Durant certaines quêtes, maintenir <ICON PL_ITEM_SLIDER_OPEN><lf>affiche le temps écoulé avec vos objectifs.
 <string>Ne pas afficher
 <string>Durant certaines quêtes, maintenir <ICON PL_ITEM_SLIDER_OPEN><lf>n'affiche pas le temps écoulé avec vos objectifs.
+<string>Fixe
+<string>Durant certaines quêtes, le temps écoulé s'affiche<lf>toujours avec vos objectifs.
 <string>Fenêtre de chat
 <string>Ajuster les paramètres de la fenêtre de communication<lf>et d'historique de chat après l'envoi d'un message.
 <string>Fermer la fenêtre
@@ -1297,6 +1315,16 @@
 <string>Définir les actions du Chasseur de soutien<lf>et les paramètres associés.
 <string>Dégâts (Chasseur de soutien)
 <string>Afficher ou non la valeur des dégâts infligés quand<lf>un Chasseur de soutien attaque un monstre.
+<string>Un seul (décimales incluses)
+<string>Afficher les nombres indiquant les dégâts<lf>infligés aux monstres par un seul Chasseur<lf>de soutien à la fois. <COLOR preset="TXT_Accent">*Décimales incluses</COLOR>
+<string>Un seul (valeurs entières)
+<string>Afficher les nombres indiquant les dégâts<lf>infligés aux monstres par un seul Chasseur<lf>de soutien à la fois. <COLOR preset="TXT_Accent">*Valeurs entières seulement</COLOR>
+<string>Tous (décimales incluses)
+<string>Afficher les nombres indiquant les dégâts<lf>infligés aux monstres par tous les Chasseurs<lf>de soutien. <COLOR preset="TXT_Accent">*Décimales incluses</COLOR>
+<string>Tous (valeurs entières)
+<string>Afficher les nombres indiquant les dégâts<lf>infligés aux monstres par tous les Chasseurs<lf>de soutien. <COLOR preset="TXT_Accent">*Valeurs entières seulement</COLOR>
+<string>Ne pas afficher
+<string>Ne pas afficher la valeur des dégâts infligés<lf>aux monstres par les Chasseurs de soutien.
 <string>Oui
 <string>Non
 <string>Attaques de neutralisation (Chasseur de soutien)
@@ -1417,6 +1445,7 @@
 <string>Volume du chat vocal
 <string>Régler le volume des autres joueurs dans le chat vocal.
 <string>Changement auto du chat vocal
+<string>Changement auto du chat
 <string>Configurer le changement automatique des canaux<lf>vocaux et textuels, et des filtres de l'historique du chat.<lf><COLOR preset="TXT_Accent">*Le changement manuel reste possible à tout moment.</COLOR>
 <string>Priorité aux membres de la quête
 <string>Passer automatiquement à un canal réservé aux<lf>membres de la quête lorsqu'une quête démarre,<lf>et à un canal réservé aux membres reliés quand<lf>vous rentrez d'une quête.
@@ -1424,6 +1453,7 @@
 <string>Passer automatiquement à un canal réservé<lf>aux membres reliés quand vous rejoignez un<lf>groupe relié, quel que soit le statut de la quête.
 <string>Pas de priorité
 <string>N'accorde pas de priorité et ne change pas<lf>automatiquement les canaux de chat vocal.<lf>Le changement doit être manuel.
+<string>Ne pas changer automatiquement de canal<lf>de chat. Le changement doit être effectué<lf>manuellement.
 <string>Langue des Felynes
 <string>Définir la langue parlée par les Felynes.
 <string>Langue des Felynes
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Chinois mandarin
+<string>Paramètres de collecte en excès
+<string>Définir la manière dont sont traités les objets qui<lf>dépassent la capacité de la sacoche d'objets et sont<lf>stockés temporairement dans la sacoche de terrain.
+<string>Envoi auto sacoche de terrain
+<string>Envoyer automatiquement les objets collectés<lf>dans votre sacoche de terrain si votre sacoche<lf>d'objets est pleine.
+<string>Toujours choisir
+<string>Choisir manuellement quels objets collectés<lf>envoyer dans votre sacoche de terrain quand<lf>votre sacoche d'objets est pleine.
+<string>Effets des talents/objets actifs
+<string>Définir si un effet visuel est affiché<lf>lorsqu'un talent ou un objet est actif.
+<string>Afficher
+<string>Ajouter un effet lumineux au chasseur,<lf>au Palico et aux Chasseurs de soutien<lf>quand un talent ou un objet est actif.
+<string>Ne pas afficher
+<string>Ne pas ajouter d'effet lumineux au chasseur,<lf>au Palico et aux Chasseurs de soutien,<lf>même lorsqu'un talent ou un objet est actif.
+<string>Effet du talisman équipé
+<string>Définir si un effet visuel est affiché<lf>lorsque certains talismans sont équipés.
+<string>Afficher
+<string>Afficher un effet visuel si le talisman équipé<lf>en possède.
+<string>Ne pas afficher
+<string>Ne pas afficher d'effet visuel, même si<lf>le talisman équipé en possède.
+<string>Effets de distorsion
+<string>Activer ou désactiver l'affichage d'effets de<lf>distorsion sous l'eau et près de la lave.
+<string>Activés
+<string>Afficher des effets de distorsion sous l'eau<lf>et près de la lave.
+<string>Désactivés
+<string>Ne pas afficher d'effets de distorsion sous<lf>l'eau et près de la lave.

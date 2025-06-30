@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>集中モード
 <string>集中モードとは
-<string>攻撃や<REF ActionGuideDataNameTextCommon_m666240384>の狙いを定めている状態。<lf>モンスターの傷口や弱点に対して<lf>導蟲が赤く反応してくれる。
+<string>攻撃や<REF ActionGuideDataNameTextCommon_m666240384>の狙いを定めている状態。<lf>モンスターの傷口や弱点に対して<lf>導蟲が赤く反応してくれる。<lf><lf>なお、この集中モード中にはロックオン<lf>対象の変更も可能。カメラを任意の<lf>モンスターへと向けてから<ICON PL_CAMERA_LOCK_CHANGE>で、<lf>その対象をロックオンできる。<lf>納刀状態でも同様の操作が可能。
 <string>
 <string>集中モード
 <string>抜刀中<ICON ME PL_AIM>
@@ -480,7 +486,7 @@
 <string>乗った場所にしがみつき、モンスターから<lf>の攻撃によるスタミナ減少を軽減できる。
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string>乗り中<ICON PL_BT_RIDE_CANCEL>
+<string>乗り中<ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON">
 <string>乗り状態のモンスターから<lf>途中で降りることができる。
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>死体変化
 <string>モンスターの死体は、時間経過により<lf>「死体」から「腐敗した死体」へと<lf>遷移し、状態により剥ぎ取れる素材が<lf>変化してしまう。<lf><lf>小型モンスターは、腐敗した死体から<lf>「<REF Gimmick_NAME_1176528640>」や「<REF Item_IT_270>」に遷移する時も<lf>あり、それぞれ素材の入手が可能。<lf>また護竜も「結晶化した死体」という<lf>状態に遷移する事もあり、それぞれ<lf>剥ぎ取れる素材も変化する。
+<string>
+<string>水中での狩猟
+<string>水中での狩猟
+<string>ラギアクルスを相手にした水中での<lf>狩猟では、上下方向への立体的な移動に<lf>加えて、その身体へしがみつくことが<lf>できるなど、地上とは異なる行動が可能。
+<string>
+<string>移動
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string>しがみつき中<ICON PL_BT_RIDE_ATTACK_WP>
+<string>装備した武器での攻撃。<lf><lf>十分な威力があるものの、<lf>攻撃後はしがみつきが解除される。
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string>しがみつき中<ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L>
+<string>しがみついた状態のまま、<lf>ナイフで斬りつける攻撃。<lf><lf>装備中の<REF ActionGuideDataNameTextCommon_12267>よりも威力は低いものの<lf>より傷を付けやすく、落とし物が発生する<lf>場合もある。<lf><lf>また、攻撃後もしがみつき状態を維持<lf>できるため、継続しての連続攻撃が可能。
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string>しがみつき中<ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL>
+<string>ラギアクルスにしがみついている<lf>状態から離脱する。
 <string>
 <string>豪鬼
 <string>豪鬼とは

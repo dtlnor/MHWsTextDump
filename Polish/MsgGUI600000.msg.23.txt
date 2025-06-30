@@ -44,8 +44,8 @@
 <string>Jeśli ryba zbliży się do przeszkody,<lf>wychyl <ICON PL_DUMMY_MOVE> w kierunku przeciwnym<lf>do tego, w którym płynie, by ją<lf>unieruchomić, jednocześnie trzymając<lf>żyłkę z dala od skał.
 <string>Jeśli ryba zbliży się do przeszkody, użyj<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, aby przemieścić się w kierunku<lf>przeciwnym do tego, w którym<lf>płynie, by ją unieruchomić, jednocześnie<lf>trzymając żyłkę z dala od skał.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_193>
-<string>Kiedy tak się stanie, porusz <ICON PL_DUMMY_MOVE><lf>w kierunku skoku ryby i naciśnij <ICON PL_SLINGER_SHOOT>,<lf>by ją unieruchomić.
-<string>Kiedy tak się stanie, użyj <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>by ruszyć wędką w kierunku skoku ryby,<lf>i naciśnij <ICON PL_SLINGER_SHOOT>, by ją unieruchomić.
+<string>Kiedy tak się stanie, porusz <ICON PL_DUMMY_MOVE><lf>w kierunku skoku ryby i naciśnij <ICON PL_FISHING_ACTION>,<lf>by ją unieruchomić.
+<string>Kiedy tak się stanie, użyj <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>by ruszyć wędką w kierunku skoku ryby,<lf>i naciśnij <ICON PL_FISHING_ACTION>, by ją unieruchomić.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
 <string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> szybko<lf><COLOR preset="TXT_Accent">Wolne wyciągnięcie:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> powoli<lf><COLOR preset="TXT_Accent">Ruch spławikiem:</COLOR> odchyl <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
 <string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> szybko<lf><COLOR preset="TXT_Accent">Wolne wyciągnięcie</COLOR>:  <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> powoli<lf><COLOR preset="TXT_Accent">Ruch spławikiem</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
@@ -137,8 +137,8 @@
 <string>Wybierz powłokę przy użyciu <ICON WP11 UI_BULLET_ITEM_UP><lf>lub <ICON WP11 UI_BULLET_ITEM_DOWN>. (Kompatybilne powłoki różnią<lf>się w zależności od broni)
 <string>Cele procy pojawiają się po lewej stronie<lf>ekranu. Przełączaj między nimi za pomocą<lf><ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN> i przyciśnij <ICON PL_CATCH_SLINGER_SHOOT>, aby użyć procy.
 <string>Cele procy pojawiają się po lewej stronie<lf>ekranu. Przełączaj między nimi za pomocą<lf><ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_DOWN> i przyciśnij <ICON PL_CATCH_SLINGER_SHOOT>, aby użyć procy.
-<string>Użyj <COLOR preset="TXT_Accent">procy haczykowej</COLOR>, by zbierać przedmioty.<lf><lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>: Wyceluj<lf><ICON PL_CATCH_SLINGER_SHOOT>: Zbierz
-<string>Użyj <COLOR preset="TXT_Accent">procy haczykowej</COLOR>, by zbierać przedmioty.<lf><lf><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_DUMMY_CAMERA>: Wyceluj<lf><ICON PL_CATCH_SLINGER_SHOOT>: Zbierz
+<string>Użyj <COLOR preset="TXT_Accent">procy haczykowej</COLOR>,<lf>by zbierać przedmioty.<lf><ICON PL_AIM><ICON PLUS><ICON PL_DUMMY_CAMERA>: Wyceluj<lf><ICON PL_CATCH_SLINGER_SHOOT>: Zbierz
+<string>Użyj <COLOR preset="TXT_Accent">procy haczykowej</COLOR>,<lf>by zbierać przedmioty.<lf><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_DUMMY_CAMERA>: Wyceluj<lf><ICON PL_CATCH_SLINGER_SHOOT>: Zbierz
 <string>Jeśli zebranie konkretnego rodzaju<lf>przedmiotu sprawia ci trudności, użyj<lf><ICON PL_AIM> + <ICON UI_ANNOUNCE_UP><ICON UI_ANNOUNCE_DOWN>, by wybrać cel powiadomień<lf>świetlików, a potem zbierz przedmiot<lf>procą haczykową, używając <ICON PL_CATCH_SLINGER_SHOOT>.
 <string>Jeśli zebranie konkretnego rodzaju<lf>przedmiotu sprawia ci trudności, użyj<lf><ICON PL_AIM_SHOOTING> + <ICON UI_ANNOUNCE_DOWN>, by wybrać cel powiadomień<lf>świetlików, a potem zbierz przedmiot<lf>procą haczykową, używając <ICON PL_CATCH_SLINGER_SHOOT>.
 <string>Użyj <ICON PL_AIM><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>, aby zlokalizować<lf>przedmiot lub element środowiska<lf>wyświetlany w powiadomieniach świetlików<lf>zwiadowczych po lewej stronie ekranu.

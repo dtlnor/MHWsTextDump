@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>Ostrość broni nie spada<lf>przez 90 sekund po aktywacji.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>50% szansy, że twoje ataki<lf>nie zostaną odbite.<lf>+10% obrażeń na twardych celach
+<string>50% szansy, że twoje ataki<lf>nie zostaną odbite. +10% siły<lf>ataku przeciwko twardym celom.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>100% szansy, że twoje ataki<lf>nie zostaną odbite.<lf>+15% obrażeń na twardych celach
+<string>100% szansy, że twoje ataki<lf>nie zostaną odbite. +15% siły<lf>ataku przeciwko twardym celom.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>100% szansy, że twoje ataki<lf>nie zostaną odbite.<lf>+30% obrażeń na twardych celach
+<string>100% szansy, że twoje ataki<lf>nie zostaną odbite. +30% siły<lf>ataku przeciwko twardym celom.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>Nieznacznie zwiększa zasięg.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>Bardzo nieznacznie zwiększa siłę<lf>określonych amunicji i strzał.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>Obrażenia<lf>od szybkiego ognia +5%
+<string>Siła szybkiego ognia +5%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>Usuwa z procesu ostrzenia<lf>jeden cykl.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>Szybkość +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>Szybkość +20% <lf>Obrażenia od ataku<lf>transformacji +10%
+<string>Szybkość +20%<lf>Siła ataku transformacji +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>Szybkość +30% <lf>Obrażenia od ataku<lf>transformacji +20%
+<string>Szybkość +30% <lf>Siła ataku transformacji +20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>Niewielki wzrost obrażeń od<lf>żywiołu i akumulacji statusu<lf>do naładowanych ataków.
+<string>Bradzo nieznacznie zwiększa<lf>atak żywiołu i akumulację statusu<lf>do naładowanych ataków.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>Wzrost obrażeń od żywiołu i<lf>akumulacji statusu do<lf>naładowanych ataków.
+<string>Zwiększa atak żywiołu<lf>i akumulację statusu do<lf>naładowanych ataków.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>Znaczący wzrost obrażeń od<lf>żywiołu i akumulacji statusu<lf>do naładowanych ataków.
+<string>Znacznie zwiększa atak<lf>żywiołu i akumulację statusu<lf>do naładowanych ataków.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>Aktywuje efekt umiejętności.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>Atak +15 i zgodność +20% przeciwko<lf>dużym potworm pod wpływem<lf>trucizny lub paraliżu.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>Po aktywacji powoduje nieznaczny<lf>wzrost obrażeń od żywiołów<lf>oraz akumulacji statusu.
+<string>Po aktywacji bardzo nieznacznie<lf>zwiększa atak żywiołu<lf>oraz akumulację statusu.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>Po aktywacji powoduje<lf>wzrost obrażeń od żywiołów<lf>oraz akumulacji statusu.
+<string>Po aktywacji zwiększa<lf>atak żywiołu oraz<lf>akumulację statusu.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>Po aktywacji powoduje duży<lf>wzrost obrażeń od żywiołów<lf>oraz akumulacji statusu.
+<string>Po aktywacji znacznie<lf>zwiększa atak żywiołu<lf>oraz akumulację statusu.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>Trafienie daje chwilowy wzrost ataku<lf>i wzmocnienie żywiołowe. Każde z 5<lf>trafień zwiększa premię do statystyk.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -799,7 +799,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_507
 <string>Zgodność +9% w trakcie zmoknięcia, lub<lf>+21% gdy nałożone są efekty bąblowej plagi.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_508
-<string>Aktywuje efekt umiejętności. (W użyciu<lf>nie kumuluje się z przypalaczem, ale<lf>zadaje dodatkowe obrażenia od ognia.)
+<string>Aktywuje efekt umiejętności. (W użyciu<lf>nie kumuluje się z przypalaczem, ale<lf>zadaje dodatkowe obrażenia od ognia).
 <string>Męstwo (nieustępliwość)
 <string>Zwiększa atak i obniża obronę, ale daje<lf>przetrwać jedno śmiertelne trafienie.<lf>Następnie zwiększa obronę i odporność.
 <string>Mistrz Wykrajania
@@ -808,12 +808,36 @@
 <string>Dodaje specjalne przedmioty do nagród<lf>za zadanie podczas Tańca Kwiatów. (Brak<lf>efektu w przypadku doł. w trakcie zad.).
 <string>Łaska Tańca Kwiatów II
 <string>Podczas Tańca Kwiatów dodaje specjalny<lf>przedmiot do nagród za zadanie oraz<lf>znacznie zwiększa siłę ataku i obronę.
+<string>Łaska Tańca Ognia I
+<string>Dodaje specjalne przedmioty do nagród<lf>za zadanie podczas Tańca Ognia. (Brak<lf>efektu w przypadku doł. w trakcie zad.).
+<string>Łaska Tańca Ognia II
+<string>Podczas Tańca Ognia dodaje specjalny<lf>przedmiot do nagród za zadanie oraz<lf>znacznie zwiększa siłę ataku i obronę.
 <string>Satsui no Hado
 <string>Zwiększa siłę specjalnych działań. Drive<lf>Impact mogą wywołać ataki przełamujące,<lf>dodatkowo zwiększając ich siłę.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>Aktywuje efekt umiejętności.
+<string>Lazurowa Błyskawica I
+<string>Czasowo zwiększa zgodność i może<lf>zadać dod. obrażenia od piorunów.<lf>(Nie dotyczy niektórych ataków).
+<string>Lazurowa Błyskawica II
+<string>Dodatkowo zwiększa obrażenia od piorunów<lf>i umiarkowanie wydłuża czas trwania<lf>zwiększonej zgodności.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>Aktywuje efekt umiejętności.
+<string>Ostrze brzytwy I
+<string>Wydłuża czas trwania napływu adrenaliny.<lf>Gdy jest on aktywny, ponowne wywołanie<lf>umiejętności wydłuża czas trwania efektu raz.
+<string>Ostrze brzytwy II
+<string>Ponadto kolejne wywołanie napływu<lf>adrenaliny dodatkowo zwiększa atak.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>Aktywuje efekt umiejętności.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>Aktywuje efekt umiejętności.
 <string>Szczęście
 <string>Zwiększa szansę na lepsze nagrody<lf>za ukończenie misji. (Brak efektu,<lf>gdy dołączasz w trakcie zadania).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>Wydobywanie bardzo rzadkich surowców<lf>znacznie zwiększa siłę ataku (Wzrost<lf>siły ataku ma limit maksymalny).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>Aktywuje efekt umiejętności.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>Aktywuje efekt umiejętności.
 <string>Wzmocnienie wybuchu I
 <string>Wydłuża czas trwania umiejętności<lf>Wybuch i zapewnia +3 ataku, gdy<lf>jest ona aktywna.
 <string>Wzmocnienie wybuchu II

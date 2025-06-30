@@ -31,10 +31,10 @@
 <string>Eine Reihe von Angriffen, die nur im<lf>Erzdämonenmodus ausgeführt werden<lf>kann und den Dämonenbalken<lf>verbraucht.<lf>Nutze <ICON WP02 PL_MOVE_FRONT><ICON WP02 PL_MOVE_LEFT><ICON WP02 PL_MOVE_BACK><ICON WP02 PL_MOVE_RIGHT>, um den Angriff<lf>in die entsprechende Richtung zu<lf>steuern.<lf><lf>Dämonen-Wirbel und Klingentanz<lf>können mit <ICON WP02 PL_ATTACK_SP> miteinander verknüpft<lf>werden.
 <string>
 <string>
-<string>Eine einfache Schmetter-Combo.<lf><lf><ICON WP04 PL_ATTACK_00> Überkopfschlag I →<lf><ICON WP04 PL_ATTACK_00> Überkopfschlag II →<lf><ICON WP04 PL_ATTACK_00> Aufwärtshaken<lf><lf>Nach dem Überkopfschlag kannst du<lf>mit <ICON WP04 PL_DUMMY_MOVE> deine Position ändern.<lf><lf>Aufwärtshaken kann als Gegenstoß<lf>gegen Monsterangriffe genutzt werden.<lf>Halte <ICON WP04 PL_ATTACK_00>, um das Timing zu bestimmen.
-<string>Eine einfache Schmetter-Combo.<lf><lf><ICON WP04 PL_ATTACK_00> Überkopfschlag I →<lf><ICON WP04 PL_ATTACK_00> Überkopfschlag II →<lf><ICON WP04 PL_ATTACK_00> Aufwärtshaken<lf><lf>Nach dem Überkopfschlag kannst du<lf>mit <ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT> deine Position ändern.<lf><lf>Aufwärtshaken kann als Gegenstoß<lf>gegen Monsterangriffe genutzt werden.<lf>Halte <ICON WP04 PL_ATTACK_00>, um das Timing zu bestimmen.
-<string>
-<string>
+<string>Eine einfache Schmetter-Combo.<lf><lf><ICON WP04 PL_ATTACK_00> Überkopfschlag I →<lf><ICON WP04 PL_ATTACK_00> Überkopfschlag II →<lf><ICON WP04 PL_ATTACK_00> Aufwärtshaken<lf><lf>Nach dem Überkopfschlag kannst du<lf>mit <ICON WP04 PL_DUMMY_MOVE> deine Position ändern.
+<string>Eine einfache Schmetter-Combo.<lf><lf><ICON WP04 PL_ATTACK_00> Überkopfschlag I →<lf><ICON WP04 PL_ATTACK_00> Überkopfschlag II →<lf><ICON WP04 PL_ATTACK_00> Aufwärtshaken<lf><lf>Nach dem Überkopfschlag kannst du<lf>mit <ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT> deine Position ändern.
+<string>Der Aufwärtshaken kann als Gegenstoß<lf>gegen Monsterangriffe genutzt werden.<lf>Halte <ICON WP04 PL_ATTACK_00>, um das Timing zu bestimmen.<lf><lf>Nachdem ein Monster mit einem Gegen-<lf>stoß ins Taumeln gebracht wurde,<lf>ist eine Verkettung in die Nachfolge-<lf>Drehpresse möglich.
+<string>Der Aufwärtshaken kann als Gegenstoß<lf>gegen Monsterangriffe genutzt werden.<lf>Halte <ICON WP04 PL_ATTACK_00>, um das Timing zu bestimmen.<lf><lf>Nachdem ein Monster mit einem Gegen-<lf>stoß ins Taumeln gebracht wurde,<lf>ist eine Verkettung in die Nachfolge-<lf>Drehpresse möglich.
 <string>Ein einfacher Angriff, der Note 1<lf>generiert.<lf><lf>Mit <ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_00> führst du einen<lf>Vorwärtsschlag aus.
 <string>Ein einfacher Angriff, der Note 1<lf>generiert.<lf><lf>Mit <ICON WP05 PL_MOVE_FRONT><ICON WP05 PL_MOVE_LEFT><ICON WP05 PL_MOVE_BACK><ICON WP05 PL_MOVE_RIGHT><ICON PLUS><ICON WP05 PL_ATTACK_00> führst du<lf>einen Vorwärtsschlag aus.
 <string>
@@ -372,3 +372,11 @@
 <string><OPTION id= "SLINGER_AMMO_AUTOLOADING" msg= "MsgGUI600200_00_045_001">
 <string>Akumas Gou Hadoken kann als<lf>Schleudermunition abgefeuert werden.<lf><lf>Wähle ihn wie normale Schleuder-<lf>munition aus der Objektleiste, dann<lf>ziele und feuere.<lf><lf>Mit <ICON merge="PL_SLINGER_SHOOT,HOLD_ON"> lädst du den Angriff auf.<lf><lf>Gou Hadoken kann auch während auto-<lf>matischer Combos eingesetzt werden.
 <string>Akumas Gou Hadoken kann als<lf>Schleudermunition abgefeuert werden.<lf><lf>Wähle ihn wie normale Schleuder-<lf>munition in der Objektleiste, drücke <ICON PL_ITEM><lf>zum Ausrüsten, ziele und feuere.<lf><lf>Mit <ICON merge="PL_SLINGER_SHOOT,HOLD_ON"> lädst du den Angriff auf.<lf><lf>Gou Hadoken kann auch während auto-<lf>matischer Combos eingesetzt werden.
+<string>Passe mit <ICON PL_DUMMY_CAMERA> deine Blickrichtung an<lf>und bewege dich mit <ICON PL_DUMMY_MOVE>.<lf><lf>Mit <ICON PL_EX_FIELD_U> kannst du schnell höher<lf>schwimmen, mit <ICON PL_EX_FIELD_D> schnell tiefer<lf>tauchen. Mit <ICON PL_DODGE> weichst du aus.
+<string>Passe mit <ICON PL_DUMMY_CAMERA> deine Blickrichtung an<lf>und bewege dich mit <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>.<lf><lf>Mit <ICON PL_EX_FIELD_U> kannst du schnell höher<lf>schwimmen, mit <ICON PL_EX_FIELD_D> schnell tiefer<lf>tauchen. Mit <ICON PL_DODGE> weichst du aus.
+<string><ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_DUMMY_MOVE>
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
+<string>Während du mit einem Lagiacrus unter<lf>Wasser bist, kannst du mit <ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT><lf>deine Hakenschleuder abfeuern und<lf>dich an ihm festhalten.<lf><lf>Solange du dich festhältst, kannst du<lf>mit dem Messer oder deiner Waffe<lf>angreifen.
+<string>Während du mit einem Lagiacrus unter<lf>Wasser bist, kannst du mit <ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT><lf>deine Hakenschleuder abfeuern und<lf>dich an ihm festhalten.<lf><lf>Solange du dich festhältst, kannst du<lf>mit dem Messer oder deiner Waffe<lf>angreifen.

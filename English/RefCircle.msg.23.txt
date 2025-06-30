@@ -19,8 +19,8 @@
 <string>Leader Message
 <string>Search Criteria
 <string>Join Approval
-<string>Not Required
-<string>Required
+<string>Auto-accept
+<string>Manual Accept
 <string>Squad Vibe
 <string>Anyone is welcome!
 <string>Seeking hunters with similar HR!
@@ -123,7 +123,7 @@
 <string>Remove {0}<lf>from squad?
 <string>Removed member from squad.
 <string>Appoint {0}<lf>as Leader?
-<string>You will lose squad editing privileges<lf>if you appoint someone else as Leader.
+<string>You will lose squad editing privileges<lf>if you appoint someone else as Leader.<lf>Are you sure you want to continue?
 <string>Appointed as Leader.
 <string>Invite {0}<lf>to your squad?
 <string>Invited hunter to your squad.
@@ -144,3 +144,11 @@
 <string>Approve
 <string>Deny
 <string>Squad joined.
+<string>You have been appointed as squad leader.<lf>Would you like to carry over the current squad<lf>comment and leader message as is?
+<string>Carry Over
+<string>Delete
+<string>Selecting "Yes" will delete the current squad<lf>comment and leader message.<lf>Are you sure you want to proceed?
+<string>The current squad comment and leader<lf>message have been deleted.
+<string>The current squad comment and leader<lf>message have been carried over.
+<string><BOLD>Notice</BOLD><lf><lf>Squad leadership has changed.<lf>The squad comment and leader message will<lf>remain blank until they have been decided upon.
+<string>Changed squad name.

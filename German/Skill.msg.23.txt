@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>Verhindert nach Aktivierung<lf>90 Sekunden lang die Waffen-<lf>abnutzung.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>Chance von 50 %, dass deine<lf>Angriffe nicht abgelenkt werden.<lf>+10 % Schaden gegen harte Teile.
+<string>Chance von 50 %, dass deine<lf>Angriffe nicht abgelenkt werden.<lf>+10 % Angriff gegen harte Teile.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>Chance von 100 %, dass deine<lf>Angriffe nicht abgelenkt werden.<lf>+15 % Schaden gegen harte Teile.
+<string>Chance von 100 %, dass deine<lf>Angriffe nicht abgelenkt werden.<lf>+15 % Angriff gegen harte Teile.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>Chance von 100 %, dass deine<lf>Angriffe nicht abgelenkt werden.<lf>+30 % Schaden gegen harte Teile.
+<string>Chance von 100 %, dass deine<lf>Angriffe nicht abgelenkt werden.<lf>+30 % Angriff gegen harte Teile.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>Erweitert die Reichweite<lf>geringfügig.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>Erhöht die Kraft von bestimmten<lf>Munitionstypen und Pfeilen gering-<lf>fügig.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>Schnellfeuer-Schaden +5 %
+<string>Schnellfeuer-Kraft +5 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>Entfernt einen Zyklus vom<lf>Schärfungsvorgang.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>Geschwindigkeit +10 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>Geschwindigkeit +20 %<lf>Morph-Angriffs-Schaden +10 %
+<string>Geschwindigkeit +20 %<lf>Morph-Angriffs-Kraft +10 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>Geschwindigkeit +30 %<lf>Morph-Angriffs-Schaden +20 %
+<string>Geschwindigkeit +30 %<lf>Morph-Angriffs-Kraft +20 %
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>Erhöht den Elementschaden und die<lf>Status-Ansammlung für aufgeladene<lf>Angriffe geringfügig.
+<string>Erhöht den Elementangriff und die<lf>Status-Ansammlung für aufgeladene<lf>Angriffe geringfügig.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>Erhöht den Elementschaden und die<lf>Status-Ansammlung für aufgeladene<lf>Angriffe.
+<string>Erhöht den Elementangriff und die<lf>Status-Ansammlung für aufgeladene<lf>Angriffe.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>Erhöht den Elementschaden und die<lf>Status-Ansammlung für aufgeladene<lf>Angriffe deutlich.
+<string>Erhöht den Elementangriff und die<lf>Status-Ansammlung für aufgeladene<lf>Angriffe deutlich.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>Aktiviert den Fähigkeit-Effekt.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>Angriff +15 und Affinität +20 % gegen<lf>von Gift oder Lähmung betroffene<lf>große Monster.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>Erhöht den Elementschaden und die<lf>Status-Ansammlung geringfügig,<lf>wenn aktiv.
+<string>Erhöht den Elementangriff und die<lf>Status-Ansammlung geringfügig,<lf>wenn aktiv.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>Erhöht den Elementschaden und die<lf>Status-Ansammlung, wenn aktiv.
+<string>Erhöht den Elementangriff und die<lf>Status-Ansammlung, wenn aktiv.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>Erhöht den Elementschaden und die<lf>Status-Ansammlung deutlich, wenn<lf>aktiv.
+<string>Erhöht den Elementangriff und die<lf>Status-Ansammlung deutlich, wenn<lf>aktiv.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>Bei Treffer kurzzeitig Angriff+ und<lf>Elementschaden+. Ab dem fünften<lf>Treffer wird der Effekt verstärkt.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -808,12 +808,36 @@
 <string>Fügt Quest-Belohnungen während des<lf>Blütentanzes Spezialobjekte hinzu.<lf>(Nicht bei spätem Questbeitritt.)
 <string>Blütentanz-Segen II
 <string>Fügt Quest-Belohnungen während des<lf>Blütentanzes Spezialobjekte hinzu und<lf>erhöht Angriff + Verteidigung deutlich.
+<string>Feuerfest-Segen I
+<string>Fügt Quest-Belohnungen während des<lf>Feuerfestes Spezialobjekte hinzu.<lf>(Nicht bei spätem Questbeitritt.)
+<string>Feuerfest-Segen II
+<string>Fügt Quest-Belohnungen während des<lf>Feuerfestes Spezialobjekte hinzu und<lf>erhöht Angriff + Verteidigung deutlich.
 <string>Satsui no Hado
 <string>Steigert die Kraft von Spezialaktionen.<lf>Drive Impacts lösen Gegenstoß-Angriffe<lf>aus. Bei Erfolgt steigt Kraft kurzzeitig.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>Aktiviert den Fähigkeit-Effekt.
+<string>Azur-Blitz I
+<string>Nach wiederholten Angriffen extra<lf>Donnerschaden sowie kurzzeitig<lf>erhöhte Affinität (außer best. Angr.).
+<string>Azur-Blitz II
+<string>Steigert den zusätzlichen Donner-<lf>schaden und verlängert die Dauer<lf>der erhöhten Affinität etwas.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>Aktiviert den Fähigkeit-Effekt.
+<string>Auf Messers Schneide I
+<string>Verlängert die Dauer von Adrenalin-<lf>schub. Noch ein Mal bei erneuter<lf>Aktivierung, wenn bereits aktiv.
+<string>Auf Messers Schneide II
+<string>Erhöht zusätzlich den Angriff,<lf>wenn aktiviert, während bereits<lf>aktiv.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>Aktiviert den Fähigkeit-Effekt.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>Aktiviert den Fähigkeit-Effekt.
 <string>Glück
 <string>Erhöht die Questziel-Belohnungen.<lf>(Keine Wirkung bei spätem Quest-<lf>beitritt.)
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>Verbessert den Angriff deutlich, wenn<lf>besonders seltene Erze abgebaut<lf>werden (hat eine Obergrenze).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>Aktiviert den Fähigkeit-Effekt.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>Aktiviert den Fähigkeit-Effekt.
 <string>Salve-Bonus I
 <string>Verlängert die Dauer der Salve-<lf>Fähigkeit; und Angriff +3, wenn<lf>Salve aktiv ist.
 <string>Salve-Bonus II

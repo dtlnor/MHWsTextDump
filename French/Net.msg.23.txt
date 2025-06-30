@@ -3,6 +3,7 @@
 <string>Lancement de la partie.
 <string>Demande non valide.<lf>{0}
 <string>Les informations n'ont pas pu être obtenues.<lf>{0}
+<string>Opération impossible en raison<lf>d'un changement de situation.<lf>{0}
 <string>Connexion en cours...
 <string>Vérification de la connexion au serveur...
 <string>Une erreur de communication est survenue.<lf>{0}
@@ -18,6 +19,7 @@
 <string>Connexion au {0} perdue.<lf>{1}
 <string>Vous êtes désormais en mode hors ligne.<lf>Pour repasser en mode en ligne, parlez à<lf>votre Assistante pour accéder aux fonctions<lf>de communication du menu de changement<lf>de lobby.
 <string>Vous êtes actuellement en mode hors ligne.<lf>Pour repasser en mode en ligne, parlez à<lf>votre Assistante pour accéder aux fonctions de<lf>communication du menu de changement de lobby.
+<string>Vous êtes désormais en mode hors ligne.<lf>Pour repasser en mode en ligne, accédez<lf>aux fonctions de communication du menu<lf>de changement de lobby en parlant à votre<lf>Assistant(e) ou depuis votre tente.
 <string>Passage en mode solo en ligne en raison d'une trop longue<lf>inactivité. Vous pourrez continuer à jouer normalement.<lf>{0}
 <string>Envoi impossible. Vous êtes déjà<lf>amis de chasse, ou une demande<lf>est en attente de réponse.<lf>{0}
 <string>Échec de l'envoi car vous ou l'autre partie avez<lf>atteint le nombre maximum d'amis de chasse.<lf>{0}
@@ -49,6 +51,8 @@
 <string>Les paramètres de la plateforme et de crossplay<lf>ne correspondent pas.<lf>{0}
 <string>Cette action est restreinte.<lf>Veuillez vérifier les paramètres de la console.<lf>{0}
 <string>Le joueur est hors ligne.<lf>{0}
+<string>Impossible de rejoindre le lobby d'un joueur<lf>lorsqu'il est en mode solo en ligne.<lf>{0}
+<string>Impossible de rejoindre la même quête ou<lf>le même groupe relié que les membres bloqués.<lf>{0}
 <string>Vous avez été déconnecté de la session.<lf>{0}
 <string>La création de la session a échoué.<lf>{0}
 <string>La recherche de la session a échoué.<lf>{0}
@@ -75,6 +79,10 @@
 <string>Participation impossible : les paramètres<lf>de crossplay de la session sont différents.<lf>Veuillez vérifier vos paramètres de crossplay<lf>dans les <BOLD>Options</BOLD> de l'écran titre.<lf>{0}
 <string>La limite de joueurs du groupe relié a été<lf>atteinte. Impossible d'ajouter d'autres joueurs.<lf><lf>{0}
 <string>Impossible de rejoindre les lobbys privés/de Clan<lf>via la recherche des lobbys d'amis de chasse.<lf>Ils ne peuvent être rejoints que via la recherche<lf>par ID du lobby/de lobbys des Clans.<lf>{0}
+<string>Triche détectée.<lf>Impossible d'accepter la quête.<lf>{0}
+<string>Triche détectée.<lf>Impossible de créer la quête.<lf>{0}
+<string>Triche détectée.<lf>Impossible de rejoindre la quête.<lf>{0}
+<string>Triche détectée.<lf>Impossible de lancer la quête.<lf>{0}
 <string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "D xMMMM YYYY HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
 <string>Comportement abusif/perturbateur
 <string>Types de comportement interdit

@@ -819,9 +819,9 @@
 <string>升頻（超解析度技術）
 <string>套用下列超解析度技術，就可兼得高效能與高畫質。
 <string>NVIDIA DLSS
-<string>使用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX顯示卡時<lf>　啟用此設定；若使用 GeForce RTX 40系列<lf>　顯示卡，並於作業系統的設定中啟用硬體<lf>　加速GPU排程時，選擇此選項後就可設定<lf>　「畫格生成」）</COLOR>
+<string>使用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX顯示卡時<lf>　啟用此設定）</COLOR>
 <string>AMD FSR
-<string>使用<FSR>。<lf><COLOR preset="TXT_Accent">（於作業系統的設定啟用硬體加速GPU排程時，<lf>　選擇此選項後就可設定「畫格生成」）</COLOR>
+<string>使用<FSR>。
 <string>Intel XeSS
 <string>使用Intel <XESS>。
 <string>不使用
@@ -835,6 +835,13 @@
 <string>以目前的顯示設定無法啟用利用<COLOR preset="TXT_Accent">FSR</COLOR>的<COLOR preset="TXT_Accent">畫格生成</COLOR>功能。
 <string>由於以目前的顯示設定無法啟用利用<COLOR preset="TXT_Accent">FSR</COLOR>的<lf><COLOR preset="TXT_Accent">畫格生成</COLOR>功能，已將該功能設定「關」。
 <string>於設定畫面變更至視窗模式，或於無邊框視窗調整至<lf>不會出現黑邊的解析度，就可使用此功能。
+<string>NVIDIA DLSS 2x
+<string>啟用此功能將提升幀率，並可能會超過顯示設定裡<lf>「幀率」設定的上限值。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA Geforce RTX4000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
+<string>NVIDIA DLSS 3x
+<string>啟用此功能將提升幀率，並可能會超過顯示設定裡<lf>「幀率」設定的上限值。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA Geforce RTX 5000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS 自動
+<string>啟用此功能時，將根據CPU及GPU的負荷而自動將<lf>畫格生成的模式設定為「關」或「2x」。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA Geforce RTX4000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
 <string>升頻模式
 <string>設定使用升頻時的畫質清晰度模式。<lf><COLOR preset="TXT_Accent">（僅可於使用「升頻」時變更此設定）</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>關
 <string>渲染比例
 <string>設定渲染遊戲的解析度比例（百分比）。<lf><COLOR preset="TXT_Accent">（僅可於未使用「升頻」時變更此設定）</COLOR>
+<string>設定渲染遊戲的解析度比例（百分比）。<lf><COLOR preset="TXT_Accent">（僅可於符合適用條件時設定此項目）</COLOR>
 <string>光線追蹤
 <string>設定採用光線追蹤技術的光線反射效果品質。
 <string>最高
@@ -1063,6 +1071,12 @@
 <string>顯示對魔物造成的傷害數值。<lf><COLOR preset="TXT_Accent">（不顯示小數點以下數值）</COLOR>
 <string>不顯示
 <string>隱藏對魔物造成的傷害數值。
+<string>體力計量表警告顯示
+<string>設定當魔物即將發動特別危險的攻擊時，<lf>是否於體力計量表顯示預告。
+<string>顯示
+<string>當魔物即將使出的強力一擊會使剩餘體力耗盡時，<lf>體力計量表會變成紅色並大幅波動，以示預告。
+<string>不顯示
+<string>即使魔物即將使出的強力一擊會使剩餘體力耗盡，<lf>也不在體力計量表顯示預告。
 <string>介面元素(HUD)顯示設定
 <string>設定是否顯示特定介面元素(HUD)及其尺寸。
 <string>體力計量表
@@ -1191,11 +1205,15 @@
 <string>不恆常顯示（最小化）
 <string>以最小化狀態顯示夥伴的體力計量表，並因應情況<lf>自動展開。
 <string>顯示部分任務的經過時間
-<string>設定在鬥技大會任務、挑戰任務、自由挑戰任務中，<lf><ICON PL_ITEM_SLIDER_OPEN>期間是否於目標導引當中顯示任務經過時間。
+<string>設定在鬥技大會任務、挑戰任務、自由挑戰任務中，<lf><ICON PL_ITEM_SLIDER_OPEN>期間是否於任務/使命目標當中顯示任務經過時間。
+<string>設定在鬥技大會任務、挑戰任務和自由挑戰任務中<lf>顯示任務經過時間的方式。<lf><COLOR preset="TXT_Accent">（非任務發起人側顯示的經過時間為參考值）</COLOR>
 <string>顯示
-<string>在相關任務中，<ICON PL_ITEM_SLIDER_OPEN>期間將於目標導引當中顯示<lf>任務經過時間。
+<string>輸入指令時顯示
+<string>在相關任務中，<ICON PL_ITEM_SLIDER_OPEN>期間將於任務/使命目標當中<lf>顯示任務經過時間。
 <string>不顯示
-<string>在相關任務中，即使<ICON PL_ITEM_SLIDER_OPEN>也不會於目標導引當中<lf>顯示任務經過時間。
+<string>在相關任務中，即使<ICON PL_ITEM_SLIDER_OPEN>也不會於任務/使命目標當中<lf>顯示任務經過時間。
+<string>恆常顯示
+<string>在相關任務中恆常於任務/使命目標顯示<lf>任務經過時間。
 <string>發送聊天後的交流視窗
 <string>設定發送聊天後是否自動關閉交流視窗和聊天紀錄視窗。
 <string>關閉視窗
@@ -1297,6 +1315,16 @@
 <string>調整支援獵人的行動與顯示相關設定。
 <string>支援獵人傷害顯示
 <string>設定是否顯示支援獵人對魔物造成的傷害數值。
+<string>僅顯示一人（包含小數點）
+<string>依情況僅顯示一名支援獵人對魔物造成的傷害數值。<lf><COLOR preset="TXT_Accent">（顯示小數點以下數值）</COLOR>
+<string>僅顯示一人（不包含小數點）
+<string>依情況僅顯示一名支援獵人對魔物造成的傷害數值。<lf><COLOR preset="TXT_Accent">（不顯示小數點以下數值）</COLOR>
+<string>顯示所有人（包含小數點）
+<string>顯示所有支援獵人對魔物造成的傷害數值。<lf><COLOR preset="TXT_Accent">（顯示小數點以下數值）</COLOR>
+<string>顯示所有人（不包含小數點）
+<string>顯示所有支援獵人對魔物造成的傷害數值。<lf><COLOR preset="TXT_Accent">（不顯示小數點以下數值）</COLOR>
+<string>不顯示
+<string>隱藏支援獵人對魔物造成的傷害數值。
 <string>開
 <string>關
 <string>支援獵人連消帶打
@@ -1417,6 +1445,7 @@
 <string><REF RefNetwork_0006>音量
 <string>設定<REF RefNetwork_0006>時其他成員的語音音量。
 <string><REF RefNetwork_0006>自動切換
+<string>聊天自動切換設定
 <string>設定是否根據情況自動切換<REF RefNetwork_0006>、文字聊天的<lf>發送對象和篩選聊天紀錄。<lf><COLOR preset="TXT_Accent">（可隨時手動切換）</COLOR>
 <string><REF RefNetwork_0004_02>優先
 <string>出發前往任務時自動將發送/篩選對象切換至<lf><REF RefNetwork_0004_02>，從任務返回時自動切換至<REF RefNetwork_0004_01>。
@@ -1424,6 +1453,7 @@
 <string>不論任務的出發情況，參加<REF RefNetwork_0005>時，總是將<lf>發送/篩選對象自動切換至<REF RefNetwork_0004_01>。
 <string>關
 <string>不自動切換發送對象，僅可手動切換。
+<string>不自動切換，僅可手動切換。
 <string>艾路語音設定
 <string>設定艾路說話的語音。
 <string>全部設定為艾路語
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>中文（普通話）
+<string>無法收納採集道具時的設定
+<string>調整當採集道具超過道具袋容量而無法收納，<lf>送往臨時道具袋時的設定。
+<string>自動送至臨時道具袋
+<string>採集道具無法收納至道具袋時，自動將多出的部分<lf>送至臨時道具袋。
+<string>自行選擇對象
+<string>採集道具無法收納至道具袋時，每次皆手動選擇<lf>送至臨時道具袋的道具。
+<string>發動技能等效果時的視覺效果
+<string>設定發動技能與道具等效果時，視覺效果的顯示方式。
+<string>顯示
+<string>獵人、隨從艾路或支援獵人發動技能或道具效果<lf>期間，於其身體顯示發光視覺效果。
+<string>不顯示
+<string>即使獵人、隨從艾路或支援獵人發動技能或道具<lf>效果，亦不於其身體顯示發光視覺效果。
+<string>裝備中護石的視覺效果
+<string>設定裝備部分護石時顯示的視覺效果。
+<string>顯示
+<string>裝備中的護石有視覺效果時顯示該效果。
+<string>不顯示
+<string>即使裝備中的護石有視覺效果亦不顯示該效果。
+<string>畫面扭曲效果設定
+<string>設定是否於高熱熔岩和水中等環境顯示畫面扭曲效果。
+<string>啟用
+<string>於高熱熔岩和水中等環境顯示畫面扭曲效果。
+<string>停用
+<string>即使於高熱熔岩和水中等環境亦不顯示<lf>畫面扭曲效果。

@@ -32,8 +32,10 @@
 <string>Brak zdjęcia
 <string>Główna
 <string>Wyekwipuj jako broń główną
+<string>Wyekwipuj jako broń główną ({0})
 <string>Pomocnicza
 <string>Wyekwipuj jako broń pomocniczą
+<string>Wyekwipuj jako broń pomocniczą ({0})
 <string>Broń
 <string>Zdobienia
 <string>Zdobienie główne
@@ -59,21 +61,27 @@
 <string>Tylko pancerz <ICON EQUIP_TYPE2>
 <string>Pokaż posiadane
 <string>Pełne pancerze
+<string>Pokaż z listy życzeń
+<string>Pokaż α
+<string>Pokaż β
 <string>Ulepsz
 <string>Wykuj
 <string>Wymaga materiałów i {0} z.<lf>Kontynuować?
-<string>Wymaga materiałów i <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Wykuwanie tego wyposażenia<lf>tworzy również <COLOR preset="TXT_Accent">pancerz warstwowy</COLOR>)
+<string>Wymaga materiałów i <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Stworzenie wyposażenia odblokuje je również jako <COLOR preset="TXT_Accent">warstwowe</COLOR>).
 <string>To pełny pancerz. Do wytworzenia<lf>całego zestawu zostaną użyte<lf>potrzebne materiały i <NUMBER {0}>z.<lf>Kontynuować?
-<string>To pełny pancerz. Do wytworzenia całego zestawu<lf>zostaną użyte potrzebne materiały i <NUMBER {0}> z.<lf>Kontynuować?<lf><lf>(Zdobędziesz również <COLOR preset="TXT_Accent">zestaw pancerza warstwowego</COLOR>).
+<string>To pełny pancerz. Do wytworzenia całego zestawu<lf>zostaną użyte potrzebne materiały i <NUMBER {0}> z.<lf>Kontynuować?<lf><lf>(Stworzenie wyposażenia odblokuje je również jako <COLOR preset="TXT_Accent">warstwowe</COLOR>).
 <string>Wyposażyć teraz?
 <string>Jeśli zmienisz ten element, <COLOR preset="TXT_Danger">wszystkie pozostałe<lf>elementy pełnego pancerza zostaną zdjęte</COLOR>.<lf>Zmienić element pancerza?
 <string>To pełny pancerz.<lf>Założyć wszystkie elementy zestawu?<lf><lf><COLOR preset="TXT_Danger">(Pancerz warstwowy zostanie ukryty).</COLOR>
+<string>Wymaga materiałów i <NUMBER {0}> z.<lf>Kontynuować?<lf><COLOR preset="TXT_Accent">Nadwyżka punktów zostanie zwrócona jako poniższe pozycje.</COLOR>
+<string>Wymaga materiałów i <NUMBER {0}> z. Kontynuować?<lf>(Wykucie tej rzeczy umożliwi wykorzystanie jej jako <COLOR preset="TXT_Accent">wyposażenia warstwowego)<lf><COLOR preset="TXT_Accent">Nadwyżka punktów zostanie zwrócona jako poniższe pozycje.</COLOR>
 <string>Odrzucić {0} <PLURAL {0} "nadmiarowy punkt" "nadmiarowe punkty">?
 <string>Podgląd
 <string><COLOR preset="TXT_Danger">Skrzynka na wyposażenie jest pełna.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można jeszcze wykuć ani ulepszyć.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie masz wymaganego wyposażenia.</COLOR>
 <string><COLOR preset="TXT_Danger">Zbyt mało środków lub materiałów.</COLOR>
+<string><COLOR preset="TXT_Danger">Zbyt mało środków lub materiałów (Pełny zestaw pancerza może być utworzony w całości od razu przy użyciu wymaganych materiałów).</COLOR>
 <string><COLOR preset="TXT_Danger">Zbyt mało środków.</COLOR>
 <string><COLOR preset="TXT_Danger">Osiągnięto maksymalny poziom ulepszenia.</COLOR>
 <string>Wybierz kulę pancerza, której chcesz użyć.
@@ -96,7 +104,7 @@
 <string><COLOR preset="TXT_Danger">Nie można tego wyposażyć w gnieździe tego poziomu.</COLOR>
 <string><COLOR preset="TXT_Danger">Ten kinsekt urósł do maksymalnego rozmiaru.</COLOR>
 <string>Wymagane {0} z.<lf>Kontynuować?
-<string>Wymaga <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Wykuwanie tego wyposażenia<lf>tworzy również <COLOR preset="TXT_Accent">pancerz warstwowy</COLOR>)
+<string>Wymaga <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Stworzenie wyposażenia odblokuje je również jako <COLOR preset="TXT_Accent">warstwowe</COLOR>).
 <string>Materiały do pielęgnacji
 <string>Skrzynka na wyposażenie
 <string>Skrzynia na pancerz war.
@@ -131,7 +139,10 @@
 <string>Usunąć z listy życzeń?
 <string>Usunąć z listy życzeń?<lf><COLOR preset="TXT_Danger">(Nakłada się na zestawy wyposażenia.<lf>Wyposażenie usunięte tutaj zostanie<lf>usunięte także z zestawów wyposażenia).</COLOR>
 <string>Usuń wszystkie ozdoby
+<string>Usuń wyekwipowane ozdoby
 <string>Usunąć wszystkie wyposażone ozdoby?
+<string>Usuń wszystkie ozdoby
+<string>Usunąć wszystkie ozdoby z całego wyposażenia?
 <string><INPUTMSG RefEquipment_SUB_13_S>
 <string><INPUTMSG RefEquipment_SUB_14_S>
 <string><INPUTMSG RefEquipment_SUB_15_S>
@@ -200,6 +211,8 @@
 <string>Według poz. kinsekta
 <string>Według typu ostrzału
 <string>Według ilości
+<string>Punkty łączenia
+<string>Punkty wytapiania
 <string>1–3
 <string>2–3
 <string>3

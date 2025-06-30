@@ -3,6 +3,7 @@
 <string>Iniciando el juego.
 <string>Solicitud inválida.<lf>{0}
 <string>No se pudo obtener la información.<lf>{0}
+<string>No se pudo ejecutar por cambio de situación.<lf>{0}
 <string>Conectando...
 <string>Comprobando la conexión con el servidor...
 <string>Hubo un error de comunicación.<lf>{0}
@@ -18,6 +19,7 @@
 <string>Se perdió conexión con {0}.<lf>{1}
 <string>Cambiaste al modo offline. Podrás seguir jugando<lf>con normalidad. Para volver al modo online,<lf>habla con tu encargada y accede a las opciones de<lf>comunicación en el menú de cambio de sala.
 <string>Estás jugando en modo offline.<lf>Para volver al modo online habla con<lf>tu encargada y accede a las funciones de<lf>comunicación en el menú de cambio de sala.
+<string>Estás jugando en modo offline. Para<lf>volver al modo online, accede a las<lf>funciones de comunicación en el menú<lf>de cambio de sala al hablar con tu<lf>encargada/o o desde tu tienda.
 <string>Se ha cambiado al modo online para un jugador por<lf>inactividad. Podrás seguir jugando con normalidad.<lf>{0}
 <string>Error al enviar porque ya son amigos cazadores<lf>o estás esperando que responda a tu solicitud.<lf>{0}
 <string>Error al enviar porque tú o el otro grupo<lf>alcanzaron el límite máximo de amigos cazadores.<lf>{0}
@@ -49,6 +51,8 @@
 <string>La plataforma y la opción de crossplay no coinciden.<lf>{0}
 <string>Esta operación está restringida.<lf>Comprueba la configuración de la consola.<lf>{0}
 <string>El jugador está offline.<lf>{0}
+<string>No puedes unirte a la sala de un jugador mientras<lf>está en el modo Un jugador online.<lf>{0}
+<string>No puedes unirte a la misma misión o grupo<lf>vinculado que un jugador bloqueado.<lf>{0}
 <string>Se perdió la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
 <string>Error al buscar la sesión.<lf>{0}
@@ -75,6 +79,10 @@
 <string>No se pudo participar porque la sesión tiene<lf>opciones de crossplay diferentes. Revisa tus<lf>ajustes de crossplay en la sección <BOLD>Opciones</BOLD><lf>en la pantalla del título.<lf>{0}
 <string>Se alcanzó el límite de jugadores<lf>para el grupo vinculado. No se pueden<lf>añadir más.<lf><lf>{0}
 <string>No puedes unirte a salas privadas o salas<lf>de la brigada con Buscar amigos del cazador.<lf>Solo puedes unirte con Buscar ID de sala<lf>o Buscar sala de la brigada.<lf>{0}
+<string>Se detectó el uso de trampas.<lf>No se puede aceptar la misión.<lf>{0}
+<string>Se detectó el uso de trampas.<lf>No se puede crear la misión.<lf>{0}
+<string>Se detectó el uso de trampas.<lf>No se puede acceder a la misión.<lf>{0}
+<string>Se detectó el uso de trampas.<lf>No se puede iniciar la misión.<lf>{0}
 <string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME {0} "D [de] xMMMM [de] YYYY HH:mm"> (UTC)<lf><lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
 <string>Actitud abusiva o disruptiva
 <string>Tipos de comportamiento prohibido

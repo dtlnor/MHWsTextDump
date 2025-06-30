@@ -34,16 +34,16 @@
 <string><ICON PL_PT_SPEED_UP>: زيادة السرعة<lf><ICON PL_PT_SPEED_DOWN>: تقليل السرعة
 <string>استهداف الوحوش
 <string><LSNR "استخدم" "استخدمي"> <ICON PL_CAMERA_LOCK_CHANGE> لاستهداف وحش.<lf>يمكن تغيير ضوابط الاستهداف من الخيارات.
-<string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_19
-<string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_19
-<string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_20
-<string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_20
+<string>عناصر الإمداد لمهام الأسر
+<string>عندما تصبح صحة الهدف منخفضة<lf>بما يكفي لتمكين أسره، سيتم توفير<lf>الأدوات اللازمة لعملية الأسر.
+<string>الحركة تحت الماء
+<string><ICON PL_EX_FIELD_U>/<ICON PL_EX_FIELD_D>: صعود / نزول<lf><ICON PL_DODGE>: تفادي
 <string>مقياس الروح
 <string>يمتلئ مقياس الروح عند شن الهجمات.<lf>مطلقًا العنان لهجمات نصل الروح القوية.
 <string><REF ActionGuideDataNameText_Wp07_1069952960>
 <string><LSNR "اضغط" "اضغطي"> على <ICON PL_ATTACK_SP><ICON PLUS><ICON PL_ATTACK_01>  لإعادة التلقيم.<lf>لا يمكن إطلاق الأصداف<lf>في حالة نفاد الذخيرة.
-<string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_23
-<string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_23
+<string>مسدس ماء
+<string>تمت إضافة إيماءة <BOLD>مسدس الماء</BOLD>.<lf>اخترها لبدء التصويب، ثم استخدم <ICON PL_FISHING_ACTION><lf>للإطلاق!
 <string>وضع الاشتعال
 <string>ذخيرة خاصة يمكن استخدامها<lf>أثناء وضع الاشتعال حسب السلاح.
 <string>وضع إطلاق النار السريع
@@ -380,5 +380,19 @@
 <string>سيؤدي تنفيذ Shun Goku Satsu<lf>إلى استهلاك Drive Gauge.<lf>وسيتجدد المقياس بمرور الوقت.
 <string>ذخيرة Gou Hadoken
 <string>ذخيرة خاصة لنبلة المعصم <LSNR "تمكِّنكَ" "تمكِّنكِ"><lf>من إطلاق Gou Hadoken عند التزود بها.
+<string>الصيد تحت الماء
+<string><LSNR "اغطس" "اغطسي"> في الماء<lf>لتقليل صحة (لاجياكروس)<lf>قبل أن يشن هجومًا مدمرًا.
+<string><COLOR FF0000>#Rejected#</COLOR> Tips_TITLE_198
+<string><COLOR FF0000>#Rejected#</COLOR> Tips_EXP_198
+<string>التشبث بالوحوش
+<string><LSNR "استخدم" "استخدمي"> نبلة المعصم للتشبث<lf>بالوحش ومهاجمته بسكين<lf>أو بهجوم سلاح.
+<string>التشبث تحت الماء
+<string>عند التشبث بوحش، <LSNR "انتبه" "انتبهي"><lf>لعلامات الضعف وكذلك علامات الخطر.<lf><LSNR "تراجع" "تراجعي"> إذا لزم الأمر.
+<string>استخدام البيئات تحت الماء
+<string><LSNR "اجعل" "اجعلي"> (لاجياكروس) يترنح باستخدام<lf>ذخيرة نبلة المعصم والركام<lf>أثناء <LSNR "وجودكَ" "وجودكِ"> تحت الماء.
+<string>كبسولة ثَقب حلزونية
+<string>لإلحاق أكبر قدر من ضرر الثقب،<lf><LSNR "انتبه إلى وضعيتكَ" "انتبهي إلى وضعيتكِ"><lf>قبل إطلاق النار.
+<string>عمليات الصيد تحت الماء
+<string>في المعارك تحت الماء،<lf><LSNR "ترقب" "ترقبي"> الفرص لإلحاق<lf>ضرر بالغ بالوحش.
 <string>التبديل بين أهداف نبلة المعصم
 <string><INPUTMSG MsgGUI600000_Tips_EXP_200>

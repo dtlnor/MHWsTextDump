@@ -3,6 +3,7 @@
 <string>Starting the game.
 <string>Invalid request.<lf>{0}
 <string>Failed to get information.<lf>{0}
+<string>Could not execute due to situation change.<lf>{0}
 <string>Connecting...
 <string>Checking connection to the server...
 <string>A communication error has occurred.<lf>{0}
@@ -18,6 +19,7 @@
 <string>Lost connection with {0}.<lf>{1}
 <string>You are now in Offline Mode. You will continue<lf>gameplay as normal. To return to Online Mode,<lf>talk to your Handler to access the communication<lf>functions in the Change Lobby Menu.
 <string>You are currently in Offline Mode. To return<lf>to Online Mode, talk to your Handler to access the<lf>communication functions in the Change Lobby Menu.
+<string>You are now in Offline Mode.<lf>To return to Online Mode, access<lf>the communication functions in the<lf>Change Lobby Menu by speaking with<lf>your Handler or from your tent.
 <string>Switched to Online Single Player due to<lf>inactivity. You will continue gameplay as normal.<lf>{0}
 <string>Unable to send as you are already<lf>Hunter Friends or are waiting for<lf>a response to a request.<lf>{0}
 <string>Failed to send because you or the other party<lf>has reached the max limit for Hunter Friends.<lf>{0}
@@ -49,6 +51,8 @@
 <string>Platform and crossplay settings do not match.<lf>{0}
 <string>This operation is restricted.<lf>Please check the console settings.<lf>{0}
 <string>The player is offline.<lf>{0}
+<string>Cannot join player's lobby while they are<lf>in Online Single Player mode.<lf>{0}
+<string>Cannot join same quest or Link Party<lf>as blocked member.<lf>{0}
 <string>Connection to the session has been lost.<lf>{0}
 <string>Failed to create session.<lf>{0}
 <string>Session search failed.<lf>{0}
@@ -75,6 +79,10 @@
 <string>Failed to participate because the session has<lf>different crossplay settings. Please check your<lf>crossplay settings under <BOLD>Options</BOLD> in the title<lf>menu.<lf>{0}
 <string>The player limit for the Link Party has been<lf>reached. Cannot add any more players.<lf><lf>{0}
 <string>Private Lobbies/Squad Lobbies cannot be joined<lf>via the Hunter Friend Search. They can only be<lf>joined via the Lobby ID Search/Squad Lobby Search.<lf>{0}
+<string>Cheating has been detected.<lf>Unable to accept quest.<lf>{0}
+<string>Cheating has been detected.<lf>Unable to create quest.<lf>{0}
+<string>Cheating has been detected.<lf>Failed to join quest.<lf>{0}
+<string>Cheating has been detected.<lf>Failed to begin quest.<lf>{0}
 <string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "MMMM D, YYYY HH:mm"> (UTC)<lf><lf>Your account has been found in violation of the<lf>following: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use.</COLOR>
 <string>Abusive/Disruptive Behavior
 <string>Types of Prohibited Behavior

@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>効果発動後、９０秒間<lf>斬れ味を消費しない
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>５０％の確率で弾かれず、<lf>硬い部位へのダメージが１．１倍
+<string>５０％の確率で弾かれず、<lf>硬い部位への攻撃の威力が１．１倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>１００％の確率で弾かれず、<lf>硬い部位へのダメージが１．１５倍
+<string>１００％の確率で弾かれず、<lf>硬い部位への攻撃の威力が１．１５倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>１００％の確率で弾かれず、<lf>硬い部位へのダメージが１．３倍
+<string>１００％の確率で弾かれず、<lf>硬い部位への攻撃の威力が１．３倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>適正距離がわずかに広くなる
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>対象の弾、矢の威力がわずかに上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>速射弾のダメージ１．０５倍
+<string>速射弾の威力１．０５倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>研ぎ動作を１回省略
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>速度が１．１倍になる
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>速度が１．２倍になり、<lf>変形攻撃のダメージが<lf>１．１倍になる
+<string>速度が１．２倍になり、<lf>変形攻撃の威力が１．１倍になる
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>速度が１．３倍になり、<lf>変形攻撃のダメージが<lf>１．２倍になる
+<string>速度が１．３倍になり、<lf>変形攻撃の威力が１．２倍になる
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>溜め攻撃の属性ダメージと<lf>状態異常蓄積値がわずかに上昇
+<string>溜め攻撃の属性攻撃値と<lf>状態異常蓄積値がわずかに上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>溜め攻撃の属性ダメージと<lf>状態異常蓄積値が上昇
+<string>溜め攻撃の属性攻撃値と<lf>状態異常蓄積値が上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>溜め攻撃の属性ダメージと<lf>状態異常蓄積値が大きく上昇
+<string>溜め攻撃の属性攻撃値と<lf>状態異常蓄積値が大きく上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>スキル効果発動
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>毒、麻痺状態の大型モンスターに対して<lf>基礎攻撃力＋１５、会心率＋２０％
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>スキル発動中、属性ダメージと<lf>状態異常蓄積値がわずかに上昇
+<string>スキル発動中、属性攻撃値と<lf>状態異常蓄積値がわずかに上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>スキル発動中、属性ダメージと<lf>状態異常蓄積値が上昇
+<string>スキル発動中、属性攻撃値と<lf>状態異常蓄積値が上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>スキル発動中、属性ダメージと<lf>状態異常蓄積値が大きく上昇
+<string>スキル発動中、属性攻撃値と<lf>状態異常蓄積値が大きく上昇
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>攻撃ヒット時、一定時間<lf>基礎攻撃力と属性攻撃値がわずかに上昇<lf>５回継続で効果が強化される
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -808,12 +808,36 @@
 <string>花舞の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加される<lf>（クエストの途中からは発動しない）
 <string>地の恵み【花舞】Ⅱ
 <string>花舞の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加され、<lf>攻撃力と防御力が大きく上昇する
+<string>地の恵み【踊火】Ⅰ
+<string>踊火の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加される<lf>（クエストの途中からは発動しない）
+<string>地の恵み【踊火】Ⅱ
+<string>踊火の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加され、<lf>攻撃力と防御力が大きく上昇する
 <string>殺意の波動
 <string>特殊アクションの威力が強化される。<lf>ドライブインパクトで相殺が可能になり<lf>成功すると一定時間さらに強化される。
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>スキル効果発動
+<string>蒼雷一閃Ⅰ
+<string>攻撃でダメージを蓄積させると、追加で<lf>雷属性ダメージが発生し、一定時間、<lf>会心率ＵＰ（一部特定の攻撃は対象外）
+<string>蒼雷一閃Ⅱ
+<string>Ⅰと同様の効果が発動する。<lf>追加の雷属性ダメージが上昇し、<lf>会心率ＵＰの効果時間が少し増える。
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>スキル効果発動
+<string>千刃の身躱しⅠ
+<string>「巧撃」スキルの効果時間を延長する。<lf>また、発動中に再び条件を満たすと<lf>効果時間が少し増える。（１回のみ）
+<string>千刃の身躱しⅡ
+<string>Ⅰと同様の効果が発動する。<lf>発動中に再び条件を満たしたとき、<lf>攻撃力が上昇する。
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>スキル効果発動
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>スキル効果発動
 <string>幸運
 <string>クエストのターゲット報酬が増える<lf>（クエストの途中からは発動しない）
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>鉱石のレア度が高いほど、攻撃力が<lf>大きく上昇する。<lf>（上昇値には上限があります）
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>スキル効果発動
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>スキル効果発動
 <string>連撃強化Ⅰ
 <string>「連撃」スキルの効果発動時、<lf>有効時間を延長し、基礎攻撃力＋３
 <string>連撃強化Ⅱ

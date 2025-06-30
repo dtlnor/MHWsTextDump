@@ -819,9 +819,9 @@
 <string>超分辨率技术
 <string>应用下列任意超分辨率技术，可同时实现高性能与高画质。
 <string>NVIDIA DLSS
-<string>启用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（仅在使用 NVIDIA GeForce RTX 显卡时可以设置）</COLOR><lf><COLOR preset="TXT_Accent">（如果使用 GeForce RTX 40 系列显卡，并且在操<lf>　作系统中启用了硬件加速的显示芯片调度，则选择<lf>　此选项可以启用“帧生成”设置）</COLOR>
+<string>启用NVIDIA <DLSS>。<lf><COLOR preset="TXT_Accent">（仅在使用 NVIDIA GeForce RTX 显卡时可以设置）</COLOR>
 <string>AMD FSR
-<string>启用<FSR>。<lf><COLOR preset="TXT_Accent">（如果在操作系统中启用了硬件加速的显示芯片调<lf>　度，则选择此选项可以启用“帧生成”设置）</COLOR>
+<string>启用<FSR>。
 <string>Intel XeSS
 <string>启用Intel <XESS>。
 <string>不启用
@@ -835,6 +835,13 @@
 <string>当前的显示设置无法启用<COLOR preset="TXT_Accent">FSR</COLOR>的<COLOR preset="TXT_Accent">帧生成</COLOR>功能。
 <string>当前的显示设置无法启用<COLOR preset="TXT_Accent">FSR</COLOR>的<COLOR preset="TXT_Accent">帧生成</COLOR>功能，<lf>已将该功能设置为“关”。
 <string>在“设定”中切换到窗口模式，或在无边框窗口模式<lf>下调整分辨率至无黑边，即可启用该功能。
+<string>NVIDIA DLSS 2x
+<string>启用此功能后将提高帧率，可能超过显示设置中的上<lf>限值。<COLOR preset="TXT_Accent">仅可在使用NVIDIA Geforce RTX4000系列及以上<lf>的显卡时使用本设置。</COLOR>
+<string>NVIDIA DLSS 3x
+<string>启用此功能后将提高帧率，可能超过显示设置中的上<lf>限值。<COLOR preset="TXT_Accent">仅可在使用NVIDIA Geforce RTX5000系列及以上<lf>的显卡时使用本设置。</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS自动
+<string>启用此功能后，将根据中央处理器和显示芯片的实时<lf>负载，自动将帧生成模式切换为“关”或“2x”状<lf>态。<COLOR preset="TXT_Accent">仅可在使用NVIDIA Geforce RTX4000系列及<lf>以上的显卡时上使用本设置。</COLOR>
 <string>超分辨率模式
 <string>设置启用超分辨率技术时的画质清晰度。<lf><COLOR preset="TXT_Accent">（此设置仅能在启用“超分辨率技术”时变更）</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>关
 <string>渲染比例
 <string>设置游戏的渲染分辨率放大系数，以百分比显示。<lf><COLOR preset="TXT_Accent">（此设置仅能在未启用“超分辨率技术”时变更）</COLOR>
+<string>设置游戏的渲染分辨率放大系数，以百分比显示。<lf><COLOR preset="TXT_Accent">（本项目仅限满足适用条件时才能设置）</COLOR>
 <string>光线追踪
 <string>设置使用光线追踪的光反射品质。
 <string>最高
@@ -1063,6 +1071,12 @@
 <string>显示对怪物造成的伤害数值。<lf><COLOR preset="TXT_Accent">（不显示小数点之后的数值）</COLOR>
 <string>不显示
 <string>不显示对怪物造成的伤害数值。
+<string>体力槽警告显示
+<string>设置怪物即将发动特别危险的攻击前，体力槽上是否<lf>在显示预兆。
+<string>显示
+<string>怪物即将发出足以耗尽猎人剩余体力的强力攻击时，<lf>在体力槽上显示作为预兆的红色波动，以示提醒。
+<string>不显示
+<string>即使怪物即将发出足以耗尽猎人剩余体力的强力攻<lf>击，也不在体力槽上显示提醒玩家注意的预兆。
 <string>自定义界面显示信息
 <string>设置是否开启界面显示信息及其尺寸。
 <string>体力槽
@@ -1192,10 +1206,14 @@
 <string>以最小化状态显示同伴的体力槽，视情况自动展开。
 <string>显示部分任务的经过时间
 <string>设置在斗技大会任务、挑战任务、自由挑战任务中，<lf><ICON PL_ITEM_SLIDER_OPEN>期间是否在任务／使命目标上显示任务经过时间。
+<string>设置在斗技大会任务、挑战任务、自由挑战任务中，显示任务<lf>经过时间的方式。<lf><COLOR preset="TXT_Accent">（任务成员方显示的经过时间为参考值）</COLOR>
 <string>显示
+<string>输入指令时显示
 <string>相关任务中，<ICON PL_ITEM_SLIDER_OPEN>期间将会在任务／使命目标上<lf>显示任务经过时间。
 <string>不显示
 <string>相关任务中，即使按<ICON PL_ITEM_SLIDER_OPEN>也不会在任务／使命目标<lf>上显示任务经过时间。
+<string>始终显示
+<string>相关任务中，始终在任务／使命目标上显示任务经<lf>过时间。
 <string>聊天发送后的操作设置
 <string>设置聊天发送后是否关闭交流窗口及聊天记录窗口。
 <string>关闭窗口
@@ -1297,6 +1315,16 @@
 <string>对支援猎人的行动及相关显示进行设置。
 <string>支援猎人伤害显示
 <string>设置是否显示支援猎人对怪物造成的伤害数值。
+<string>仅显示一人（含小数）
+<string>根据情况仅显示一名支援猎人对怪物造成的伤害值。<lf><COLOR preset="TXT_Accent">（显示小数点之后的数值）</COLOR>
+<string>仅显示一人（不含小数）
+<string>根据情况仅显示一名支援猎人对怪物造成的伤害值。<lf><COLOR preset="TXT_Accent">（不显示小数点之后的数值）</COLOR>
+<string>全部显示（含小数）
+<string>显示所有支援猎人对怪物造成的伤害数值。<lf><COLOR preset="TXT_Accent">（含小数点之后的数值）</COLOR>
+<string>全部显示（不含小数）
+<string>显示所有支援猎人对怪物造成的伤害数值。<lf><COLOR preset="TXT_Accent">（不显示小数点之后的数值）</COLOR>
+<string>不显示
+<string>不显示支援猎人对怪物造成的伤害数值。
 <string>开
 <string>关
 <string>支援猎人的抵消攻击
@@ -1417,6 +1445,7 @@
 <string><REF RefNetwork_0006>音量
 <string>设置<REF RefNetwork_0006>时对方的语音音量。
 <string><REF RefNetwork_0006>自动切换
+<string>聊天的自动切换设置
 <string>设置<REF RefNetwork_0006>和文字聊天的发送对象，以及聊天记录<lf>筛选的自动切换功能。<lf><COLOR preset="TXT_Accent">（可随时手动切换）</COLOR>
 <string><REF RefNetwork_0004_02>优先
 <string>聊天频道的发送对象在任务出发时，将自动切换至<lf><REF RefNetwork_0004_02>；在任务返回时，将自动切换至<REF RefNetwork_0004_01>。
@@ -1424,6 +1453,7 @@
 <string>参加<REF RefNetwork_0005>时总是将聊天频道的发送对象自动切<lf>换至<REF RefNetwork_0004_01>，与任务的出发状态无关。
 <string>关
 <string>不自动切换发送对象，仅通过手动切换。
+<string>不自动切换，仅可手动切换。
 <string>艾露猫语音设置
 <string>设置艾露猫的语音类型。
 <string>全部设置为艾露猫语
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>中文
+<string>无法收纳采集道具时的设置。
+<string>调整当采集道具超过道具袋容量而无法收纳，<lf>送往临时道具袋时的设定。
+<string>超过部分自动送入临时道具袋
+<string>采集道具无法收纳至道具袋时，自动将多出的部分<lf>送至临时道具袋。
+<string>自行选择对象
+<string>采集道具无法收纳至道具袋时，每次都手动选择<lf>送至临时道具袋的道具。
+<string>发动技能等效果时的特效
+<string>设置发动技能和道具等的效果时，是否显示特效。
+<string>显示
+<string>猎人、随从艾露猫与支援猎人发动技能或道具效果时<lf>将伴随发光特效。
+<string>不显示
+<string>猎人、随从艾露猫与支援猎人发动技能或道具效果时<lf>不会伴随发光特效。
+<string>装备中的护石的特效
+<string>设置部分装备的护石是否显示特效。
+<string>显示
+<string>装备的护石有可显示的特效时，显示特效。
+<string>不显示
+<string>即使装备的护石有可显示的特效时，也不显示特效。
+<string>画面扭曲效果
+<string>设置是否开启画面扭曲效果，以表现熔岩的热量或<lf>水中的状态。
+<string>启用
+<string>在有熔岩的区域或水中时，画面会出现扭曲效果。
+<string>停用
+<string>在有熔岩的区域或水中时，画面不会出现扭曲效果。

@@ -3,6 +3,7 @@
 <string>Avvio del gioco in corso.
 <string>Richiesta non valida.<lf>{0}
 <string>Non è stato possibile recuperare le informazioni.<lf>{0}
+<string>Non eseguibile a causa di un cambio di situazione.<lf>{0}
 <string>Connessione...
 <string>Verifica della connessione al server...
 <string>Errore di comunicazione.<lf>{0}
@@ -18,6 +19,7 @@
 <string>Connessione a {0} interrotta.<lf>{1}
 <string>Ora sei in modalità offline. Il gioco continuerà<lf>normalmente. Per tornare alla modalità online,<lf>parla con l'assistente e accedi alle funzioni di<lf>comunicazione nel menu Cambia stanza.
 <string>Sei in modalità offline.<lf>Per tornare alla modalità online, parla<lf>con l'Assistente e accedi alle funzioni di<lf>comunicazione nel menu Cambia stanza.
+<string>Ora sei in modalità offline.<lf>Per tornare alla modalità online, parla<lf>con l'assistente e accedi alle funzioni di<lf>comunicazione nel menu Cambia stanza.
 <string>Il gioco è passato alla modalità giocatore singolo<lf>online a causa di inattività. Sarà possibile continuare<lf>a giocare normalmente.<lf><lf>{0}
 <string>Invio non possibile perché è già<lf>fra i tuoi amici cacciatori o stai aspettando<lf>la risposta a una richiesta.<lf>{0}
 <string>L'invio non è riuscito perché tu o l'altra<lf>persona avete raggiunto il limite<lf>massimo di amici cacciatori.<lf>{0}
@@ -49,6 +51,8 @@
 <string>Le impostazioni di piattaforma<lf>e crossplay non corrispondono.<lf>{0}
 <string>Questa operazione è limitata.<lf>Controlla le impostazioni della console.<lf>{0}
 <string>Il destinatario è offline.<lf>{0}
+<string>Impossibile accedere alla stanza di questo giocatore<lf>mentre si trova in modalità giocatore singolo online.<lf>{0}
+<string>Impossibile unirsi alla stessa missione <lf>o al gruppo di collegamento di un membro bloccato.<lf>{0}
 <string>La connessione alla sessione si è interrotta.<lf>{0}
 <string>Creazione sessione non riuscita.<lf>{0}
 <string>Ricerca sessione non riuscita.<lf>{0}
@@ -75,6 +79,10 @@
 <string>Impossibile partecipare perché la sessione<lf>ha impostazioni crossplay diverse. Verifica<lf>le impostazioni crossplay in <BOLD>Opzioni</BOLD><lf>al menu della schermata del titolo.<lf>{0}
 <string>Il limite giocatori per il gruppo di collegamento<lf>è stato raggiunto. Impossibile aggiungerne altri.<lf><lf>{0}
 <string>Non puoi unirti a stanze private/stanze delle squadre<lf>tramite Cerca amici cacciatori. Puoi unirti a<lf>esse solo tramite Cerca con ID stanza/Stanze<lf>delle squadre.<lf>{0}
+<string>Uso di cheat rilevato.<lf>Impossibile accettare la missione.<lf>{0}
+<string>Uso di cheat rilevato.<lf>Impossibile creare la missione.<lf>{0}
+<string>Uso di cheat rilevato.<lf>Impossibile unirsi alla missione.<lf>{0}
+<string>Uso di cheat rilevato.<lf>Impossibile iniziare la missione.<lf>{0}
 <string><COLOR preset="TXT_Accent">La funzionalità della Community è stata limitata.</COLOR><lf>Le limitazioni saranno rimosse: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Il tuo account è in violazione di quanto segue:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Pertanto, <COLOR preset="TXT_Accent">le funzioni della Community sono state<lf>temporaneamente limitate</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Ti preghiamo di giocare rispettando i termini di utilizzo.</COLOR>
 <string>Comportamenti abusivi
 <string>Tipi di comportamenti proibiti

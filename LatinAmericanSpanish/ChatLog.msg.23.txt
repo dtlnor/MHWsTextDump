@@ -33,6 +33,7 @@
 <string>{0} te invitó a un<lf>entorno vinculado.
 <string>Invitación a misión
 <string>{0}<lf>te invitó a una misión.
+<string><REF RefMenu_177>
 <string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
 <string>Estudio de campo
 <string>Comenzando un estudio de campo <lf>sobre {0}.
@@ -88,68 +89,50 @@
 <string>La misión fracasó...
 <string>Invitaciones a misión (reenviadas)
 <string>Ya puedes recibir invitaciones<lf>de misión de {0}.
+<string><REF RefMenu_177>
 <string>Entregaste {0} (x{1})
 <string>Objetos esenciales recibidos:<lf><COLOR preset="TXT_Accent">Utensilios de caza</COLOR>
 <string>Actualización de resumen de entorno
 <string>¡{0} de {1}<lf>quiere que pruebes algo!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Avistamiento de {0}<lf>en {1}!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Ahora puedes informar el éxito de tu<lf>tarea secundaria a {0}!<lf>Ubicación: {1}
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Varios objetivos disponibles para<lf>la creación de una misión combinada!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció el mayor depredador<lf>de esta región, {0}!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>{0} avistado.<lf>¡Ataca los asentamientos locales!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció un monstruo con recompensas<lf>extras! {0}
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció el objetivo secundario!<lf>{0}
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Apareció un objetivo de la lista de<lf>deseos! {0}
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>{0}<lf>a la vista
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡{0}<lf>se marchará enseguida!
-<string>Abrir mapa
 <string>{0}<lf>abandonó la zona...
 <string>Actualización de resumen de entorno
 <string>¡Apareció {0}<lf>en el Pico Cadena de Escarcha!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡Apareció una manada<lf>de {0}!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡La manada de {0}<lf>se marchará enseguida!
-<string>Abrir mapa
 <string>La manada de {0}<lf>abandonó la zona...
 <string>¡{0} apareció!
 <string>Resumen de entorno
 <string>¡Se detectó un brote<lf>de {0}!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡Se detectó un aumento<lf>de {0}!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡Ya está disponible {0}<lf>como ayudante de caza!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡La nave de apoyo llegó!
-<string>Abrir mapa
 <string>Resumen de entorno
 <string>¡Se detectó un capullo de Guardián grande!
-<string>Abrir mapa
 <string>Se perdió {0}.
 <string>Solicitudes de acceso
 <string>Recibiste una solicitud para unirse.<lf>Revísala para aceptarla o rechazarla.
@@ -171,7 +154,7 @@
 <string>Ya puedes usar {0}.
 <string>El efecto de la bebida<lf>fría se agotó.
 <string>El efecto de la bebida<lf>caliente se agotó.
-<string>No se pudo designar como objetivo de misión.<lf>Abre la pantalla de partida con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
+<string>No se pudo usar Inicio rápido.<lf>Abre la pantalla de partida con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
 <string>Abrir información de tareas
 <string>Mostrar prioridad de objetivos<lf>y seleccionar una tarea.
 <string>Abrir
@@ -205,13 +188,10 @@
 <string>{0}<lf>¡Se completó <COLOR preset="TXT_Accent">{1}/{2}!</COLOR>
 <string>Actualización de resumen de entorno
 <string>{0} a la vista.<lf>¡Con recompensas fuera de lo normal!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Tarea secundaria completada!<lf>Informa a {0}
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Puedes informarle a tu camarada<lf>cuando completes una tarea secundaria!
-<string>Abrir mapa
 <string>Se disolvió el grupo vinculado porque<lf>eras el único miembro.
 <string>No te pudiste unir al entorno<lf>vinculado de {0}.
 <string>Dejaste el entorno de {0}.
@@ -224,13 +204,10 @@
 <string>Ahora puedes armar y personalizar<lf>un campamento temporal en las<lf>Ruinas de Wyveria.
 <string>Actualización de resumen de entorno
 <string>Está disponible una misión con objetivos<lf>múltiples. ¡Están afectando las vidas<lf>de las personas!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>Está disponible una misión con objetivos<lf>múltiples. ¡Hay más recompensas<lf>adicionales de lo normal!
-<string>Abrir mapa
 <string>Actualización de resumen de entorno
 <string>¡Haz misiones con varios objetivos para<lf>obtener recompensas fuera de lo normal!
-<string>Abrir mapa
 <string>Tienes {0} <PLURAL {0} "mensaje" "mensajes">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Abandonaste el grupo vinculado.
 <string>Movimiento manual
@@ -243,7 +220,6 @@
 <string>El crossplay está activado.
 <string>Puesto de misiones de la Arena
 <string>Un miembro vinculado entra en la Arena.<lf>Ve al <BOLD>Gran centro</BOLD> para unirte.
-<string>Abrir mapa
 <string>Notificación de brigada
 <string>Recibiste una invitación para unirte<lf>a la brigada: <BOLD>{0}</BOLD>.
 <string>Notificación de brigada
@@ -257,7 +233,6 @@
 <string>Te designaron líder<lf>de la brigada <BOLD>{0}</BOLD>.
 <string>Actualización de resumen de entorno
 <string>¡Apareció {0} en el Santuario<lf>de la Antorcha del Dragón!
-<string>Abrir mapa
 <string>Bonus de inicio de sesión
 <string>El bonus de inicio de sesión<lf>de hoy ya está disponible<lf>en el menú de inicio.
 <string>Reclamar ahora
@@ -288,3 +263,7 @@
 <string>¡Nuevo gesto obtenido!
 <string>¡Se activó el efecto potenciador<lf>de una acción especial!
 <string>Se agotó el efecto potenciador<lf>de una acción especial.
+<string>No puedes llevar más objetos<lf>de suministro. Se descartaron<lf>los sobrantes.
+<string>¡El Festival de la Armonía: Chisparranda<lf>ya comenzó!<lf>(Queda: {0} <PLURAL {0} "día" "días">)
+<string>¡El Festival de la Armonía: Chisparranda<lf>ya comenzó!<lf>(Queda: {0} <PLURAL {0} "hora" "horas">)
+<string>¡El Festival de la Armonía: Chisparranda<lf>ya comenzó!<lf>(Terminará pronto)

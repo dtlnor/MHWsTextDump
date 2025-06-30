@@ -31,8 +31,8 @@
 <string>鬼人连斩是只能在鬼人强化状态时使用的<lf>连续攻击，会消耗鬼人槽。在招式的过程<lf>中按<ICON WP02 PL_MOVE_FRONT><ICON WP02 PL_MOVE_LEFT><ICON WP02 PL_MOVE_BACK><ICON WP02 PL_MOVE_RIGHT>，即可在攻击的同时向<lf>该方向移动。<lf><lf>乱舞和鬼人连斩可通过<ICON WP02 PL_ATTACK_SP>互相衍生。
 <string>
 <string>
-<string>基本连段。<lf><lf><REF ActionGuideDataNameText_Wp04_86757720>后按<ICON WP04 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp04_m222720992>，再按<ICON WP04 PL_ATTACK_00>衍<lf>生出<REF ActionGuideDataNameText_Wp04_1449700864>。<lf><lf>纵挥后可用<ICON WP04 PL_DUMMY_MOVE>微调位置。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>可抵消怪物攻击，长按<ICON WP04 PL_ATTACK_00>更可延迟出<lf>招时机。
-<string>基本连段。<lf><lf><REF ActionGuideDataNameText_Wp04_86757720>后按<ICON WP04 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp04_m222720992>，再按<ICON WP04 PL_ATTACK_00>衍<lf>生出<REF ActionGuideDataNameText_Wp04_1449700864>。<lf><lf>纵挥后可用<ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>微调位置。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>可抵消怪物攻击，长按<ICON WP04 PL_ATTACK_00>更可延迟出<lf>招时机。
+<string>基本连段。<lf><lf><REF ActionGuideDataNameText_Wp04_86757720>后按<ICON WP04 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp04_m222720992>，再按<ICON WP04 PL_ATTACK_00>衍<lf>生出<REF ActionGuideDataNameText_Wp04_1449700864>。<lf><lf>纵挥后可用<ICON WP04 PL_DUMMY_MOVE>微调位置。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>可抵消怪物攻击，长按<ICON WP04 PL_ATTACK_00>更可延迟出<lf>招时机。抵消成功并使怪物大幅后仰时，<lf>还可按<ICON WP04 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp04_12800>。
+<string>基本连段。<lf><lf><REF ActionGuideDataNameText_Wp04_86757720>后按<ICON WP04 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp04_m222720992>，再按<ICON WP04 PL_ATTACK_00>衍<lf>生出<REF ActionGuideDataNameText_Wp04_1449700864>。<lf><lf>纵挥后可用<ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>微调位置。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>可抵消怪物攻击，长按<ICON WP04 PL_ATTACK_00>更可延迟出<lf>招时机。抵消成功并使怪物大幅后仰时，<lf>还可按<ICON WP04 PL_ATTACK_00>衍生出<REF ActionGuideDataNameText_Wp04_12800>。
 <string>
 <string>
 <string>发出音色1的基本攻击。<lf><ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_00>会使出前方攻击。
@@ -372,3 +372,11 @@
 <string><OPTION id= "SLINGER_AMMO_AUTOLOADING" msg= "MsgGUI600200_00_045_001">
 <string>使用方式和普通的投射器弹药相同。<lf>从道具快捷栏中选择“<REF Item_IT_783>”，<lf>然后瞄准并发射。<lf><lf>可通过<ICON merge="PL_SLINGER_SHOOT,HOLD_ON">进行蓄力，<lf>也可在辅助连招期间进行发射。
 <string>使用方式和普通的投射器弹药相同。<lf>从道具快捷栏中选择“<REF Item_IT_783>”，<lf>使用<ICON PL_ITEM>装填，然后瞄准并发射。<lf><lf>可通过<ICON merge="PL_SLINGER_SHOOT,HOLD_ON">蓄力，也可在辅助连招期间<lf>发射。
+<string>使用<ICON PL_DUMMY_CAMERA>可操作瞄准线，确定行进方向，<lf>用<ICON PL_DUMMY_MOVE>则可往上下左右自由移动。<lf><lf>此外也可利用<ICON PL_EX_FIELD_U><REF ActionGuideDataNameTextCommon_7004>，或以<ICON PL_EX_FIELD_D><REF ActionGuideDataNameTextCommon_20140>来<lf>快速上下移动。按<ICON PL_DODGE>则可回避。
+<string>使用<ICON PL_DUMMY_CAMERA>可操作瞄准线，确定行进方向，<lf>用<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>则可往上下左右自由移动。<lf><lf>此外也可利用<ICON PL_EX_FIELD_U><REF ActionGuideDataNameTextCommon_7004>，或以<ICON PL_EX_FIELD_D><REF ActionGuideDataNameTextCommon_20140>来<lf>快速上下移动。按<ICON PL_DODGE>则可回避。
+<string><ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_DUMMY_MOVE>
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
+<string>猎人与海龙均在水中时，以<ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>射出<lf>钩索投射器命中目标，就可紧紧抓附于它<lf>的体表。<lf><lf>抓附于海龙体表时，可以使用装备的武器或<lf>小刀发动攻击。
+<string>猎人与海龙均在水中时，以<ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>射出<lf>钩索投射器命中目标，就可紧紧抓附于它<lf>的体表。<lf><lf>抓附于海龙体表时，可以使用装备的武器或<lf>小刀发动攻击。

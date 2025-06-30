@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -152,7 +158,7 @@
 <string>
 <string><REF RefMenu_061> (Movimento Manual)
 <string><INPUTMSG MsgGUI600200_00_012>
-<string>É possível chamar/montar em seu Seikret,<lf>mas ele não se moverá automaticamente em<lf>direção ao seu destino, dando a você<lf>o controle manual do movimento.
+<string>É possível chamar/montar em seu Seikret,<lf>mas ele não se moverá automaticamente<lf>em direção ao seu destino, dando a você<lf>o controle manual do movimento.
 <string>
 <string><REF ActionGuideDataNameTextCommon_m744176512>
 <string><INPUTMSG MsgGUI600200_00_013>
@@ -404,7 +410,7 @@
 <string>
 <string>Modo de Foco
 <string>Modo de Foco
-<string>O Modo de Foco permite que você mire<lf>com cuidado o seu ataque ou bloqueio.<lf><lf>Enquanto você focar em um monstro,<lf>guialumes destacarão seus ferimentos<lf>ou pontos fracos.
+<string>O Modo de Foco permite que você mire<lf>com cuidado o seu ataque ou bloqueio.<lf><lf>Enquanto você focar em um monstro,<lf>guialumes destacarão seus ferimentos<lf>ou pontos fracos.<lf><lf>Você também pode trocar o alvo focado<lf>durante o Modo de Foco se olhar para um<lf>monstro e usar <ICON PL_CAMERA_LOCK_CHANGE>. Isso também pode ser<lf>feito com a arma embainhada.
 <string>
 <string>Modo de Foco
 <string><ICON ME PL_AIM> com a arma empunhada
@@ -480,7 +486,7 @@
 <string>Segurar-se permite que você se agarre<lf>com força ao monstro no qual você está<lf>montado e reduz o vigor consumido<lf>quando ele tenta se livrar de você.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> enquanto montado
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> enquanto montado
 <string>Desmontar permite que você desça de um<lf>monstro antecipadamente.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>Carcaças Velhas
 <string>Passado um tempo, as carcaças de<lf>monstros começarão a apodrecer,<lf>permitindo que você talhe materiais<lf>diferentes dos que você obtém quando<lf>quando elas estão frescas.<lf><lf>Pequenos monstros que apodreceram às<lf>vezes produzem pilhas de ossos ou<lf>serpebrotos, dos quais se pode coletar<lf>materiais. As carcaças de guardiões<lf>se tornam cristalizadas, produzindo<lf>seus próprios materiais exclusivos.
+<string>
+<string>Caça Subaquática
+<string>Caça Subaquática
+<string>Caçar o Lagiacrus debaixo d'água permite<lf>ações e movimentos diferentes de quando<lf>você está em terra. Além do movimento<lf>tridimensional para cima e para baixo,<lf>você também pode se agarrar ao corpo<lf>do monstro.
+<string>
+<string>Mover
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> Enquanto se Agarra
+<string>Ataques com a arma equipada enquanto<lf>você está se agarrando a um monstro<lf>causam muito dano, mas também fazem<lf>com que você o largue.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> enquanto se agarra
+<string>Ataques com faca também podem ser<lf>usados enquanto você está se agarrando<lf>a um monstro. Apesar de não causarem<lf>tanto dano quanto ataques com arma,<lf>são mais efetivos para causar ferimentos<lf>e fazer o monstro derrubar materiais.<lf>Além disso, não fazem você se soltar,<lf>permitindo ataques em sequência.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> enquanto se agarra
+<string>Soltar-se do Lagiacrus.
 <string>
 <string>Akuma
 <string>Sobre Akuma

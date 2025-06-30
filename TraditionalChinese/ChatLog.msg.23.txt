@@ -33,6 +33,7 @@
 <string>已收到來自{0}的<lf>環境連結邀請。
 <string>任務邀請
 <string>已收到來自{0}的<lf>任務邀請。
+<string><REF RefMenu_177>
 <string>任務剩餘時間還有{0}分鐘。
 <string>實地調查任務
 <string>即將開始{0}的<lf>實地調查任務。
@@ -88,68 +89,50 @@
 <string>任務失敗。
 <string>任務邀請（因可承接而再次邀請）
 <string>可以接受來自{0}的<lf>任務邀請了。
+<string><REF RefMenu_177>
 <string>已交出{1}個{0}。
 <string>已獲得固定道具<COLOR preset="TXT_Accent">狩獵七道具</COLOR>。
 <string>環境概要主題
 <string>{1}的{0}想請客！
-<string>打開地圖
 <string>環境概要主題
 <string>在{1}觀測到了<lf>{0}！
-<string>打開地圖
 <string>環境概要主題
 <string>完成了次要使命，<lf>可向{1}的{0}匯報！
-<string>打開地圖
 <string>環境概要主題
 <string>可將多個目標一併任務化！
-<string>打開地圖
 <string>環境概要主題
 <string>此地區的頂級捕食者<lf>{0}出現了！
-<string>打開地圖
 <string>環境概要主題
 <string>{0}出現了！<lf>牠好像影響到附近居民的生活！
-<string>打開地圖
 <string>環境概要主題
 <string>{0}出現了！<lf>追加報酬比平時要多！
-<string>打開地圖
 <string>環境概要主題
 <string>次要使命的目標<lf>{0}出現了！
-<string>打開地圖
 <string>環境概要主題
 <string>願望清單的目標<lf>{0}出現了！
-<string>打開地圖
 <string>環境概要
 <string>{0}出現了！
-<string>打開地圖
 <string>環境概要
 <string>{0}即將離去！
-<string>打開地圖
 <string>{0}已離去……
 <string>環境概要主題
 <string>{0}在<REF RefEnvironment_0001_0004>出現了！
-<string>打開地圖
 <string>環境概要
 <string>{0}的群體出現了！
-<string>打開地圖
 <string>環境概要
 <string>包含{0}的群體<lf>即將離去！
-<string>打開地圖
 <string>包含{0}的群體<lf>已離去……
 <string>{0}出現了！
 <string>環境概要
 <string>觀測到{0}大量出現！
-<string>打開地圖
 <string>環境概要
 <string>觀測到{0}變多！
-<string>打開地圖
 <string>環境概要
 <string>{0}正在提供狩獵輔助！
-<string>打開地圖
 <string>環境概要
 <string>支援船到來了！
-<string>打開地圖
 <string>環境概要
 <string>觀測到<REF Gimmick_NAME_673669120>出現！
-<string>打開地圖
 <string>失去了{0}。
 <string>參加任務申請
 <string>收到了任務參加申請。<lf>請確認是否許可對方參加。
@@ -173,7 +156,7 @@
 <string><REF Item_IT_167>效果結束
 <string>無法快速開始。請按<ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>打開出發畫面。
 <string>打開使命管理畫面
-<string>可選擇使命，以優先顯示目標導引。
+<string>可選擇使命，以優先顯示任務/使命目標。
 <string>打開
 <string>無法將{0}設為任務目標。
 <string>無法將{0}設為任務目標。<lf>（獵人等級不足）
@@ -205,13 +188,10 @@
 <string>「{0}」<lf><COLOR preset="TXT_Accent">完成{1}/{2}！</COLOR>
 <string>環境概要主題
 <string>帶有珍貴追加報酬的{0}出現了！
-<string>打開地圖
 <string>環境概要主題
 <string>完成了次要使命，可向{0}匯報！
-<string>打開地圖
 <string>環境概要主題
 <string>完成了次要使命，可向<Ref RefGeneral_0014>匯報！
-<string>打開地圖
 <string>由於只剩下一名成員，已解散連結隊伍。
 <string>無法加入{0}的環境連結。
 <string>已離開{0}的環境連結。
@@ -224,13 +204,10 @@
 <string>可以在龍都遺跡設置與編輯簡易營地了。
 <string>環境概要主題
 <string>可將多個目標一併任務化！<lf>居民的生活好像受到影響！
-<string>打開地圖
 <string>環境概要主題
 <string>可將多個目標一併任務化！<lf>追加報酬比平常更多！
-<string>打開地圖
 <string>環境概要主題
 <string>可將多個目標一併任務化！<lf>包含稀有的追加報酬！
-<string>打開地圖
 <string>有{0}則新訊息。<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>已離開連結隊伍
 <string>手動移動
@@ -243,7 +220,6 @@
 <string>此遊戲模式支援跨平台遊玩。
 <string>鬥技大會櫃台
 <string>連結成員已承接鬥技大會任務。<lf>前往大集會所就可參加。
-<string>打開地圖
 <string>小隊通知
 <string>已收到來自「{0}」的<lf>加入小隊邀請。
 <string>小隊通知
@@ -257,7 +233,6 @@
 <string>已被委任為小隊<lf>「{0}」的隊長。
 <string>環境概要主題
 <string>{0}<lf>在<REF RefEnvironment_0001_0003>出現了！
-<string>打開地圖
 <string>登入獎勵
 <string>已發布今天的登入獎勵。<lf>於開始選單亦可獲取。
 <string>立即獲取
@@ -288,3 +263,7 @@
 <string>獲得了新的動作。
 <string>已發動特殊動作的威力強化效果
 <string>特殊動作的威力強化效果結束
+<string>無法持有回收的補給品，因此已丟棄。
+<string>正在舉辦<REF RefGeneral_0029_001> ！<lf>（還剩{0}天）
+<string>正在舉辦<REF RefGeneral_0029_001> ！<lf>（還剩{0}小時）
+<string>正在舉辦<REF RefGeneral_0029_001> ！<lf>（即將結束）

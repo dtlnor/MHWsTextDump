@@ -33,6 +33,7 @@
 <string>{0} hat eine Umgebungs-<lf>verbindungs-Einladung geschickt.
 <string>Questeinladung
 <string>{0} hat eine<lf>Questeinladung geschickt.
+<string><REF RefMenu_177>
 <string>Verbleibende Zeit:<lf>{0} <PLURAL {0} "Minute" "Minuten">
 <string>Felderkundung
 <string>Starte eine Felderkundung für<lf>{0}.
@@ -88,68 +89,50 @@
 <string>Quest gescheitert...
 <string>Questeinladungen (neu verteilt)
 <string>Du kannst jetzt Questeinladungen<lf>von {0}<lf>empfangen.
+<string><REF RefMenu_177>
 <string>{0} (x{1}) gegeben
 <string>Fixobjekte erhalten:<lf><COLOR preset="TXT_Accent">Jagdwerkzeuge</COLOR>!
 <string>Umgebungsinfo-Update
 <string>{0} lädt dich zum Essen ein!<lf>({1})
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>{0} gesichtet!<lf>Ort: ({1})
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Melde deine erfolgreiche Nebenmission<lf>bei {0}. ({1})
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Mehrere Ziele für kombinierte<lf>Questerstellung verfügbar!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>{0} ist aufgetaucht,<lf>der Apex-Räuber der Region!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>{0}<lf>ist aufgetaucht und gefährdet die<lf>Siedlungsbewohner!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>{0} mit<lf>mehr Belohnungen als sonst aufgetaucht!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Nebenmissionsziel aufgetaucht!<lf>{0}
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Ein Wunschlistenziel ist aufgetaucht!<lf>{0}
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>{0}<lf>aufgetaucht!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>{0}<lf>wird den Ort bald verlassen!
-<string>Karte öffnen
 <string>{0}<lf>hat den Ort verlassen...
 <string>Umgebungsinfo-Update
 <string>{0}<lf>ist an der Frostspitze aufgetaucht!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>Ein Rudel mit {0}<lf>ist aufgetaucht!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>Das Rudel mit {0}<lf>wird den Ort bald verlassen!
-<string>Karte öffnen
 <string>Das Rudel mit {0}<lf>hat den Ort verlassen...
 <string>{0} gesichtet!
 <string>Umgebungsinfo
 <string>Ausbruch verzeichnet:<lf>{0}!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>Vermehrtes Auftreten:<lf>{0}!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>{0} ist als<lf>Jagdassistenz verfügbar!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>Das Unterstützungsschiff ist angekommen!
-<string>Karte öffnen
 <string>Umgebungsinfo
 <string>Ein Großer Wächterkokon wurde gesichtet!
-<string>Karte öffnen
 <string>{0} verloren.
 <string>Beitrittsanfragen
 <string>Du hast eine Beitrittsanfrage erhalten.<lf>Bitte nimm sie an oder lehne sie ab.
@@ -163,7 +146,7 @@
 <string>Wunschliste: {0}
 <string>Benötigte Anzahl
 <string>Die Felderkundung wurde abgebrochen.
-<string>Zu viele Vorratsobjekte im Inventar.<lf>Überzählige Vorratsobjekte weggeworfen.
+<string>Du kannst keine weiteren Vorratsobjekte<lf>tragen. Überzählige wurden weggeworfen.
 <string>Effekte eines Melodie-Effekts erhalten!<lf><BOLD>{0}</BOLD>
 <string>Melodie-Effekt aktiviert!<lf><BOLD>{0}</BOLD>
 <string><BOLD>{0}</BOLD><lf>Melodie-Effekt wirkt nicht mehr.
@@ -171,7 +154,7 @@
 <string>{0} kann jetzt verwendet werden.
 <string>Kaltgetränk-Effekte wirken nicht mehr.
 <string>Heißgetränk-Effekte wirken nicht mehr.
-<string>Nicht als Questziel festlegbar.<lf>Bitte mit <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER> Abreisebildschirm öffnen.
+<string>Schnellstart nicht möglich.<lf>Bitte öffne mit <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER> den Abreisebildschirm.
 <string>Missionsinfo öffnen
 <string>Lass dir die Zielpriorität anzeigen<lf>und wähle eine Mission aus.
 <string>Öffnen
@@ -205,13 +188,10 @@
 <string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} abgeschlossen!</COLOR>
 <string>Umgebungsinfo-Update
 <string>{0} mit<lf>seltenen Bonus-Belohnungen aufgetaucht!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Nebenmission erfüllt!<lf>Melde dich bei {0}.
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Du kannst abgeschlossene Nebenmissionen<lf>deinem Palico melden!
-<string>Karte öffnen
 <string>Die Verbindungsgruppe wurde aufgelöst,<lf>weil du das einzige Mitglied warst.
 <string>Du konntest der Umgebungsverbindung<lf>von {0} nicht beitreten.
 <string>Du hast die Umgebungsverbindung<lf>von {0} verlassen.
@@ -224,13 +204,10 @@
 <string>Du kannst nun in den Ruinen von Wyveria<lf>Feldlager errichten und anpassen.
 <string>Umgebungsinfo-Update
 <string>Eine Quest mit mehreren Zielen ist<lf>verfügbar. Die Bewohner sind in Gefahr!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Eine Quest mit mehreren Zielen und<lf>gesteigerten Bonus-Belohnungen ist<lf>verfügbar!
-<string>Karte öffnen
 <string>Umgebungsinfo-Update
 <string>Nimm Quests mit mehreren Zielen an, um<lf>seltene Bonus-Belohnungen zu erhalten!
-<string>Karte öffnen
 <string>Du hast {0} neue <PLURAL {0} "Nachricht" "Nachrichten">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Du hast die Verbindungsgruppe verlassen.
 <string>Manuelle Bewegung
@@ -243,7 +220,6 @@
 <string>Crossplay ist derzeit aktiviert.
 <string>Arenaquest-Schalter
 <string>Ein Verbindungsmitglied betritt<lf>die Arena. Begib dich zur <BOLD>Großen<lf>Stätte</BOLD>, um ebenfalls teilzunehmen.
-<string>Karte öffnen
 <string>Jagdgruppenmitteilung
 <string>Du hast eine Einladung zur Jagdgruppe<lf><BOLD>{0}</BOLD> erhalten.
 <string>Jagdgruppenmitteilung
@@ -257,7 +233,6 @@
 <string>Du wurdest zur Leitung der Jagdgruppe<lf><BOLD>{0}</BOLD> ernannt.
 <string>Umgebungsinfo-Update
 <string>{0}<lf>ist am Drachenfackel-Schrein aufgetaucht!
-<string>Karte öffnen
 <string>Anmeldebonus
 <string>Der heutige Anmeldebonus ist jetzt<lf>im Spielmenü verfügbar.
 <string>Jetzt erhalten
@@ -288,3 +263,7 @@
 <string>Neue Geste erhalten!
 <string>Spezialaktions-Boost wurde aktiviert!
 <string>Spezialaktions-Boost wirkt nicht mehr.
+<string>Du kannst keine weiteren Vorratsobjekte<lf>tragen. Überzählige wurden weggeworfen.
+<string>Das <BOLD>Fest der Eintracht: Feuerfest</BOLD><lf>findet derzeit statt!<lf>(noch {0} <PLURAL {0} "Tag" "Tage">)
+<string>Das <BOLD>Fest der Eintracht: Feuerfest</BOLD><lf>findet derzeit statt!<lf>(noch {0} <PLURAL {0} "Stunde" "Stunden">)
+<string>Das <BOLD>Fest der Eintracht: Feuerfest</BOLD><lf>findet derzeit statt!<lf>(endet in Kürze)

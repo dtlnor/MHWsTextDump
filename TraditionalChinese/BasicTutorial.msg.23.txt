@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>集中模式
 <string>集中模式是什麼？
-<string>進入此狀態，就能瞄準攻擊或<REF ActionGuideDataNameTextCommon_m666240384>的目標。<lf>導蟲會對魔物的傷口和弱點產生反應，<lf>發出紅光。
+<string>進入此狀態，就能瞄準攻擊或<REF ActionGuideDataNameTextCommon_m666240384>的目標。<lf>導蟲會對魔物的傷口和弱點產生反應，<lf>發出紅光。<lf><lf>另外，集中模式期間亦可更改鎖定對象。<lf>將視角轉向任何魔物後<ICON PL_CAMERA_LOCK_CHANGE>，就可鎖定該<lf>魔物。收刀時亦可進行相同操作。
 <string>
 <string>集中模式
 <string>拔刀時<ICON ME PL_AIM>
@@ -480,7 +486,7 @@
 <string>抓牢騎乘的位置，可減輕魔物攻擊導致的<lf>耐力消耗量。
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string>騎乘魔物時<ICON PL_BT_RIDE_CANCEL>
+<string>騎乘魔物時<ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON">
 <string>在騎乘狀態中從魔物身上跳下。
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>屍體變化
 <string>魔物的屍體會在一定時間後變成腐壞屍體。<lf>不同狀態下可剝取的素材也會有所變化。<lf><lf>小型魔物的腐壞屍體可能會變成<REF Gimmick_NAME_1176528640>或<lf><REF Item_IT_270>，採集就可以獲得相應素材。<lf>此外，護龍也可能變成結晶化屍體，<lf>可剝取的素材亦會改變。
+<string>
+<string>在水中狩獵
+<string>在水中狩獵
+<string>在水中狩獵海龍時能採取與陸地上不同的<lf>行動，例如朝上下方移動，還有抓牢海龍<lf>身體等等。
+<string>
+<string>移動
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string>抓牢時<ICON PL_BT_RIDE_ATTACK_WP>
+<string>以裝備的武器攻擊。<lf><lf>雖然威力十足，但會在攻擊後解除<lf>抓牢狀態。
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string>抓牢時<ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L>
+<string>在抓牢狀態下以小刀砍擊。<lf><lf>雖然威力比裝備的<REF ActionGuideDataNameTextCommon_12267>低，但能容易造成<lf>創傷，有時還會出現掉落物。<lf><lf>此外，攻擊後會繼續維持抓牢狀態，因此能<lf>連續攻擊。
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string>抓牢時<ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL>
+<string>脫離抓牢海龍的狀態。
 <string>
 <string>豪鬼
 <string>豪鬼是誰

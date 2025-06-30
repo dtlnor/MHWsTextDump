@@ -819,9 +819,9 @@
 <string>Upscaling (Superrozdzielczość)
 <string>Korzysta z technologii upscalingu (superrozdzielczości),<lf>aby zachować wysoką wydajność, jednocześnie<lf>ciesząc doskonałą jakością grafiki.
 <string>NVIDIA DLSS
-<string>Używa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Wymaga karty graficznej NVIDIA GeForce RTX.<lf>– Jeśli używasz karty z serii GeForce RTX40<lf>i opcja Planowanie przyspieszanego sprzętowo<lf>procesora GPU jest włączona w systemie<lf>operacyjnym, zaznaczenie tej opcji umożliwi<lf>włączenie generowania klatek.</COLOR>
+<string>Używa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Wymaga karty graficznej NVIDIA GeForce RTX.</COLOR>
 <string>AMD FSR
-<string>Używa <FSR>.<lf><COLOR preset="TXT_Accent">– Jeśli opcja Planowanie przyspieszanego<lf>sprzętowo procesora GPU jest włączona<lf>w systemie operacyjnym, wybór tej opcji<lf>umożliwi włączenie generowania klatek.</COLOR>
+<string>Używa <FSR>.
 <string>Intel XeSS
 <string>Używa Intel <XESS>.
 <string>Wyłącz
@@ -835,6 +835,13 @@
 <string>Nie można włączyć <COLOR preset="TXT_Accent">generowania klatek</COLOR> (przy użyciu <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>przy obecnych ustawieniach ekranu.
 <string>Nie można włączyć <COLOR preset="TXT_Accent">generowania klatek</COLOR> (przy użyciu <COLOR preset="TXT_Accent">FSR</COLOR>)<lf>przy obecnych ustawieniach ekranu.<lf>W związku z tym ustawienie automatycznie<lf>zmieniono na <BOLD>Wyłącz</BOLD>.
 <string>Generowanie klatek można włączyć ponownie,<lf>zmieniając ustawienia na Tryb okna. Jeśli natomiast<lf>jesteś w Trybie okna bez ramki, zmień rozdzielczość<lf>na taką, która nie wyświetla żadnych czarnych ramek.
+<string>NVIDIA DLSS 2x
+<string>Włączenie tej opcji może zwiększyć FPS i może <lf>umożliwić ominięcie parametru maksymalnej <lf>liczby klatek na sekundę <lf>ustawianej w opcjach wyświetlania.<lf><COLOR preset="TXT_Accent">To ustawienie jest dostępne tylko dla <lf>kart graficznych NVIDIA z serii GeForce RTX 4000<lf>i lepszych.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Włączenie tej opcji może zwiększyć FPS i może <lf>umożliwić ominięcie parametru maksymalnej <lf>liczby klatek na sekundę <lf>ustawianej w opcjach wyświetlania.<lf><COLOR preset="TXT_Accent">To ustawienie jest dostępne tylko dla <lf>kart graficznych NVIDIA z serii GeForce RTX 5000<lf>i lepszych.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS Auto
+<string>Włączenie tej funkcji dynamicznie dostosowuje generowanie<lf>klatek na „Wyłączone” lub „2x” na podstawie obciążenia<lf>CPU i GPU.<lf> <COLOR preset="TXT_Accent">To ustawienie jest dostępne tylko dla kart<lf>graficznych NVIDIA z serii GeForce RTX 4000<lf>i lepszych.</COLOR>
 <string>Tryb upscalingu
 <string>Dostosowuje jakość grafiki gdy używany jest upscaling.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling jest włączona)</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>Wyłącz
 <string>Skalowanie renderowania
 <string>Dostosowuje procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling nie jest włączona)</COLOR>
+<string>Dostosowuje procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Dostępne,<lf>jeśli są spełnione konkretne wymagania).</COLOR>
 <string>Śledzenie promieni
 <string>Dostosowuje jakość odbicia światła<lf>za pomocą technologii śledzenia promieni.
 <string>Najwyższa
@@ -1063,6 +1071,12 @@
 <string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom. <COLOR preset="TXT_Accent">(Tylko liczby całkowite)</COLOR>
 <string>Nie wyświetlaj
 <string>Nie wyświetla liczby obrażeń.
+<string>Ostrzeżenie paska zdrowia
+<string>Reguluje opcję, w której pasek zdrowia wyświetla<lf>ostrzeżenie na chwilę przed tym, jak potwory wykonają<lf>szczególnie niszczące ataki.
+<string>Wyświetlaj
+<string>Pasek zdrowia wyświetla (faliste czerwone) ostrzeżenie,<lf>gdy potwór za chwilę przypuści morderczy atak.
+<string>Nie wyświetlaj
+<string>Pasek zdrowia nie wyświetla ostrzeżenia<lf>wskazującego, że potwór za chwilę przypuści<lf>atak, który pozbawi cię reszty zdrowia.
 <string>HUD
 <string>Dostosowuje rozmiar i zawartość HUD.
 <string>Pasek zdrowia
@@ -1192,10 +1206,14 @@
 <string>Wyświetla domyślnie zminimalizowany<lf>pasek zdrowia koleżkota i innych towarzyszy.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
 <string>Wyświetlanie czasu dla niektórych zadań
 <string>Określa, czy przytrzymanie <ICON PL_ITEM_SLIDER_OPEN> spowoduje wyświetlenie czasu,<lf>który upłynął podczas zadania na arenie,<lf>swobodnego wyzwania czy wyzwania.
+<string>Reguluje sposób wyświetlania upływu czasu podczas zadań<lf>typu Arena, Wyzwanie i Swobodne wyzwanie. <COLOR preset="TXT_Accent">(Wyświetlanie czasu,<lf>który upłynął, to tylko informacja dla członków w zadaniu.)</COLOR>
 <string>Wyświetlaj
+<string>Wyświetlaj opcjonalnie
 <string>Podczas niektórych zadań przytrzymanie <ICON PL_ITEM_SLIDER_OPEN><lf>spowoduje wyświetlenie upływającego czasu<lf>wraz z celami.
 <string>Nie wyświetlaj
 <string>Podczas niektórych zadań przytrzymanie <ICON PL_ITEM_SLIDER_OPEN><lf>nie spowoduje wyświetlenia upływającego<lf>czasu wraz z celami.
+<string>Zablokowany
+<string>Podczas niektórych zadań czas, który upłynął<lf>zawsze wyświetla się wraz z celami.
 <string>Okno czatu
 <string>Dostosowuje ustawienia okna komunikacji<lf>i dziennika czatu po wysłaniu wiadomości.
 <string>Zamknij okno
@@ -1297,6 +1315,16 @@
 <string>Dostosowuje akcje łowcy wspierającego<lf>i powiązane ustawienia.
 <string>Wyświetlanie obrażeń łowcy wspierającego
 <string>Określa, czy wyświetlać wskaźniki obrażeń,<lf>gdy łowca wspierający atakuje potwora.
+<string>Wyświetlaj jednego (z liczbami dzies.)
+<string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom przez tylko jednego łowcę wspierającego<lf>w danym momencie. <COLOR preset="TXT_Accent">(Włącznie z liczbami po przecinku.)</COLOR>
+<string>Wyświetlaj jednego (tylko wartości całkowite)
+<string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom przez tylko jednego łowcę wspierającego<lf>w danym momencie. <COLOR preset="TXT_Accent">(Tylko wartości całkowite.)</COLOR>
+<string>Wyświetlaj wszyst. (z liczbami dzies.)
+<string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom przez wszystkich łowców wspierających.<lf><COLOR preset="TXT_Accent">(Włącznie z liczbami po przecinku)</COLOR>
+<string>Wyświetlaj wszystkich (tylko wartości całk.)
+<string>Wyświetla liczby pokazujące obrażenia zadane<lf>potworom przez wszystkich łowców wspierających.<lf><COLOR preset="TXT_Accent">(Tylko wartości całkowite.)</COLOR>
+<string>Nie wyświetlaj
+<string>Nie wyświetla liczby obrażeń zadanych<lf>przez łowców wspierających.
 <string>Włącz
 <string>Wyłącz
 <string>Przełamujące ataki łowcy wspierającego
@@ -1417,6 +1445,7 @@
 <string>Głośność komunikacji głosowej
 <string>Ustaw głośność innych graczy w komunikacji głosowej.
 <string>Automatyczna zamiana kom. głos.
+<string>Automatyczne przełączanie czatu
 <string>Określa automatyczne przełączanie kanałów<lf>głosowych i czatu, oraz filtrów dziennika czatu.<lf><COLOR preset="TXT_Accent">(Można przełączać ręcznie w każdej chwili).</COLOR>
 <string>Priorytet członków zadania
 <string>Automatycznie przełącza na kanał<lf>członków zadania przy rozpoczęciu<lf>zadania, po czym powraca do kanału<lf>członków grupy po powrocie z zadania.
@@ -1424,6 +1453,7 @@
 <string>Automatycznie przełącza na kanał członków<lf>grupy przy dołączaniu do wspólnej<lf>grupy, niezależnie od statusu zadania.
 <string>Brak priorytetu
 <string>Nie nadaje priorytetu ani nie przełącza<lf>automatycznie na komunikację głosową.<lf>Przełączenie trzeba wykonać ręcznie.
+<string>Nie przełącza kanałów czatu automatycznie.<lf>Przełączenie trzeba wykonać ręcznie.
 <string>Język felinów
 <string>Dostosowuje język, w jakim mówią feliny.
 <string>Język feliński
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Chiński mandaryński
+<string>Ustaw. pozyskiwania nadmiar. przedmiotów
+<string>Ustawienia stosowane w sytuacji, gdy pozyskane przedmioty<lf>nie mieszczą się w sakwie na przedmioty<lf>i są tymczasowo schowane w sakwie polowej.
+<string>Autom. wysyłaj do sakwy polowej
+<string>W momencie pozyskania przedmiotów,<lf>których nie można schować w sakwie<lf>na przedmioty, automatycznie przesyła je do<lf>twojej sakwy polowej.
+<string>Zawsze wybieraj
+<string>W momencie pozyskania przedmiotów,<lf>których nie można schować w sakwie<lf>na przedmioty, pozwala ci wybrać ręcznie,<lf>które przedmioty schować w sakwie polowej.
+<string>Aktywne efekty umiej./przedm.
+<string>Ustawia, czy aktywowana umiejętność lub przedmiot<lf>wyświetlają efekt.
+<string>Wyświetl
+<string>Wyświetla efekt świecenia na łowcy, koleżkocie<lf>i/lub łowcach wspierających, wskazujący<lf>na aktywację umiejętności lub przedmiotu.
+<string>Nie wyświetlaj
+<string>Nie wyświetla efektu świecenia na łowcy,<lf>koleżkocie i/lub łowcach wspierających, wskazującego<lf>na aktywację umiejętności lub przedmiotu.
+<string>Efekt wyekwipowanego talizmanu
+<string>Ustawia, czy niektóre talizmany mają pokazywać<lf>efekt wizualny po założeniu.
+<string>Wyświetl
+<string>Wyświetla efekt założonego talizmanu,<lf>jeśli taki posiada.
+<string>Nie wyświetlaj
+<string>Nie wyświetla efektu założonego talizmanu.
+<string>Efekty zniekształceń
+<string>Określa, czy używany jest efekt<lf>zniekształcenia symulujący gorąco lawy lub<lf>środowisko podwodne.
+<string>Włącz
+<string>Wyświetla efekt zniekształcenia na ekranie,<lf>pod wodą lub w pobliżu lawy
+<string>Wyłącz
+<string>Nie wyświetla efektu zniekształcenia<lf>na ekranie, pod wodą lub w pobliżu lawy

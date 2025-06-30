@@ -33,6 +33,7 @@
 <string>收到{0}的环境连结邀请
 <string>任务邀请
 <string>收到{0}的任务邀请
+<string><REF RefMenu_177>
 <string>任务剩余时间还有{0}分钟
 <string>实地调查任务
 <string>将开始{0}的实地调查任务
@@ -88,68 +89,50 @@
 <string>任务失败
 <string>任务邀请（再次发起可承接的任务）
 <string>可以接受{0}的任务邀请了
+<string><REF RefMenu_177>
 <string>已交纳{1}个{0}
 <string>获得了固定道具<COLOR preset="TXT_Accent">“狩猎七道具”</COLOR>
 <string>环境概要主题
 <string>{1}的{0}似乎想邀请你用餐！
-<string>打开地图
 <string>环境概要主题
 <string>在{1}观测到了{0}！
-<string>打开地图
 <string>环境概要主题
 <string>完成了次要使命。<lf>可向{1}的{0}汇报！
-<string>打开地图
 <string>环境概要主题
 <string>可一次性将多个目标任务化！
-<string>打开地图
 <string>环境概要主题
 <string>此地区的顶级捕食者<lf>{0}出现了！
-<string>打开地图
 <string>环境概要主题
 <string>{0}出现了！<lf>它似乎影响到人们的生活！
-<string>打开地图
 <string>环境概要主题
 <string>{0}出现了！<lf>追加报酬比平时更多！
-<string>打开地图
 <string>环境概要主题
 <string>次要使命的目标<lf>{0}出现了！
-<string>打开地图
 <string>环境概要主题
 <string>愿望单的目标<lf>{0}出现了！
-<string>打开地图
 <string>环境概要
 <string>{0}出现了！
-<string>打开地图
 <string>环境概要
 <string>{0}即将离开区域！
-<string>打开地图
 <string>{0}已离开区域……
 <string>环境概要主题
 <string><REF RefEnvironment_0001_0004>出现了{0}！
-<string>打开地图
 <string>环境概要
 <string>含有{0}的怪物群出现了！
-<string>打开地图
 <string>环境概要
 <string>含有{0}的怪物群<lf>即将离开区域！
-<string>打开地图
 <string>含有{0}的怪物群<lf>已离开区域……
 <string>{0}出现了！
 <string>环境概要
 <string>观测到{0}大量出现！
-<string>打开地图
 <string>环境概要
 <string>观测到{0}增多！
-<string>打开地图
 <string>环境概要
 <string>{0}可提供狩猎辅助！
-<string>打开地图
 <string>环境概要
 <string>支援船已抵达！
-<string>打开地图
 <string>环境概要
 <string>观测到<REF Gimmick_NAME_673669120>出现！
-<string>打开地图
 <string>失去了{0}
 <string>参加任务申请
 <string>收到参加任务申请，请选择同意或拒绝
@@ -205,13 +188,10 @@
 <string>“{0}”<lf><COLOR preset="TXT_Accent">完成！（{1}/{2}）</COLOR>
 <string>环境概要主题
 <string>带有珍贵追加报酬的{0}出现了！
-<string>打开地图
 <string>环境概要主题
 <string>完成了次要使命，可向{0}汇报！
-<string>打开地图
 <string>环境概要主题
 <string>完成了次要使命，可向<Ref RefGeneral_0014>汇报！
-<string>打开地图
 <string>因成员只剩1人，连结队伍已解散
 <string>无法加入{0}的环境连结
 <string>已脱离{0}的环境连结
@@ -224,13 +204,10 @@
 <string>可以在龙都遗迹搭建和编辑简易营地了
 <string>环境概要主题
 <string>可一次性将多个目标任务化！<lf>人们的生活似乎正受到影响！
-<string>打开地图
 <string>环境概要主题
 <string>可一次性将多个目标任务化！<lf>可获得更多的追加报酬！
-<string>打开地图
 <string>环境概要主题
 <string>可一次性将多个目标任务化！<lf>包含有稀有的追加报酬！
-<string>打开地图
 <string>有{0}条新消息<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>已脱离连结队伍
 <string>手动移动
@@ -243,7 +220,6 @@
 <string>此游戏模式支持跨平台游玩
 <string>斗技大会柜台
 <string>有连结成员承接了斗技大会任务<lf>前往“大集会所”参加吧
-<string>打开地图
 <string>小队通知
 <string>“{0}”小队<lf>发来了加入邀请
 <string>小队通知
@@ -257,7 +233,6 @@
 <string>队长权限发生变更，已成为<lf>“{0}”的队长
 <string>环境概要主题
 <string><REF RefEnvironment_0001_0003>出现了{0}！
-<string>打开地图
 <string>登录奖励
 <string>已发布今天的登录奖励。<lf>也可在开始菜单中获取。
 <string>立即获取
@@ -288,3 +263,7 @@
 <string>获得了新的肢体动作
 <string>已发动特殊动作的威力强化效果。
 <string>特殊动作的威力强化效果结束。
+<string>无法持有回收的补给品<lf>已舍弃
+<string><REF RefGeneral_0029_001>正在举办中！<lf>（还剩{0}天）
+<string><REF RefGeneral_0029_001>正在举办中！<lf>（还剩{0}小时）
+<string><REF RefGeneral_0029_001>正在举办中！<lf>（即将结束）

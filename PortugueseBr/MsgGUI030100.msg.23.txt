@@ -495,7 +495,7 @@
 <string>Com a arma empunhada, pressionar <ICON PAD PL_AIM_TOGGLE> ativa ou<lf>desativa o Modo de Foco para armas corpo a corpo<lf>e o Modo de Foco/Mira para armas à distância.
 <string>Controles do Modo de Foco/Mira: Avançado
 <string>Ajusta como ativar o Modo de Foco/Mira separado<lf>para armas desembainhadas corpo a corpo e à<lf>distância. <COLOR preset="TXT_Accent">(Não afeta controles de Atiradeira.)</COLOR>
-<string>Ajusta como a mira da Atiradeira é ativada com<lf>arma embainhada, e como Modo de Mira/Foco<lf>são ativados para armas empunhadas.
+<string>Ajusta como a mira da Atiradeira é ativada com<lf>arma embainhada, e como Modo de Mira/Foco<lf>é ativado para armas empunhadas.
 <string>Mira de Atiradeira (Embainhada)
 <string>Ajusta como a mira da Atiradeira é ativada<lf>quando sua arma está embainhada.
 <string><ICON PAD PL_AIM> para ativar o Modo
@@ -819,9 +819,9 @@
 <string>Upscaling (Super Resolução Automática)
 <string>Usar a tecnologia de super resolução automática<lf>pode permitir que você mantenha alto desempenho<lf>com qualidade gráfica superior.
 <string>NVIDIA DLSS
-<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requer uma placa de vídeo NVIDIA GeForce RTX.<lf>– Se você estiver usando uma placa da Série GeForce<lf>RTX40 e habilitar o Agendamento de GPU Acelerado<lf>por Hardware em seu SO, selecionar esta configuração<lf>permitirá que você ative a Geração de Quadros.</COLOR>
+<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requer uma placa de vídeo NVIDIA GeForce RTX.</COLOR>
 <string>AMD FSR
-<string>Usa <FSR>.<lf><COLOR preset="TXT_Accent">– Ao habilitar o Agendamento de GPU Acelerado<lf>por Hardware em seu SO, selecionar esta<lf>configuração permitirá que você ative a<lf>Geração de Quadros.</COLOR>
+<string>Usa <FSR>.
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
 <string>Desativar
@@ -835,6 +835,13 @@
 <string>A <COLOR preset="TXT_Accent">Geração de Quadros</COLOR> (usando <COLOR preset="TXT_Accent">FSR</COLOR>) não pode ser<lf>ativada com suas configurações de exibição atuais.
 <string>A <COLOR preset="TXT_Accent">Geração de Quadros</COLOR> (usando <COLOR preset="TXT_Accent">FSR</COLOR>) não pode ser<lf>ativada com suas configurações de exibição atuais.<lf>Assim, a configuração foi automaticamente definida<lf>como <BOLD>Desativada</BOLD>.
 <string>A Geração de Quadros pode ser reativada alterando<lf>suas configurações para o Modo Janela ou, se<lf>estiver no Modo Janela Sem Borda, altere para uma<lf>resolução que não exiba faixas pretas.
+<string>NVIDIA DLSS 2x
+<string>Ativar este recurso pode melhorar a taxa<lf>de quadros e permite ultrapassar a taxa<lf>máxima definida nas opções de Exibição.<lf><COLOR preset="TXT_Accent">Disponível apenas em placas de vídeo da série<lf>NVIDIA GeForce RTX 4000 ou superior.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Ativar este recurso pode melhorar a taxa<lf>de quadros e permite ultrapassar a taxa<lf>máxima definida nas opções de Exibição.<lf><COLOR preset="TXT_Accent">Disponível apenas em placas de vídeo da série<lf>NVIDIA GeForce RTX 5000 ou superior.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS Auto
+<string>Ativar este recurso ajusta dinamicamente<lf>a Geração de Quadros entre "Desativar" ou<lf>"2x" de acordo com o uso do seu processador<lf>e placa de vídeo.<lf><COLOR preset="TXT_Accent">Disponível apenas em placas de vídeo da série<lf>NVIDIA GeForce RTX 4000 ou superior.</COLOR>
 <string>Modo Upscaling
 <string>Ajusta a qualidade gráfica usada<lf>ao realizar upscaling.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o Upscaling for ativado.)</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>Desativada
 <string>Render Scaling
 <string>Ajusta a porcentagem da escala de renderização.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o Upscaling não for ativado.)</COLOR>
+<string>Ajusta a porcentagem da escala de renderização.<lf><COLOR preset="TXT_Accent">(Disponível apenas se alguns requisitos forem<lf>cumpridos.)</COLOR>
 <string>Ray Tracing
 <string>Ajusta a qualidade do reflexo da luz<lf>usando a tecnologia Ray Tracing.
 <string>Muito alta
@@ -1063,6 +1071,12 @@
 <string>Exibe na tela os valores de dano causado a<lf>monstros. <COLOR preset="TXT_Accent">(Apenas valores cheios.)</COLOR>
 <string>Não exibir
 <string>Não exibe valores de dano.
+<string>Alerta da Barra de Vida
+<string>Define se a Barra de Vida exibe um alerta logo<lf>antes dos monstros realizarem ataques<lf>especialmente perigosos.
+<string>Exibir
+<string>A Barra de Vida exibe um alerta (ondulações<lf>vermelhas) para indicar quando um monstro<lf>está prestes a desferir um ataque letal.
+<string>Não exibir
+<string>A Barra de Vida não exibe um alerta para<lf>indicar quando um monstro está prestes<lf>a desferir um ataque letal.
 <string>HUD
 <string>Ajusta o tamanho e conteúdo da exibição no HUD.
 <string>Barra de Vida
@@ -1192,10 +1206,14 @@
 <string>Exibe uma versão minimizada das Barras de Vida<lf>do Amigato e outras companhias por padrão.<lf>A barra expande para visualização completa em<lf>resposta a situações específicas.
 <string>Exibir Tempo Decorrido em Missões
 <string>Define se segurar <ICON PL_ITEM_SLIDER_OPEN> exibirá o tempo decorrido<lf>durante Missões de Arena, Desafio ou Desafio Livre.
+<string>Define como o tempo decorrido é exibido em Missões<lf>de Arena, Desafio e Desafio Livre. <COLOR preset="TXT_Accent">(O tempo decorrido<lf>serve apenas como guia para membros da missão.)</COLOR>
 <string>Exibir
+<string>Exibição opcional
 <string>Durante certas missões, segurar <ICON PL_ITEM_SLIDER_OPEN> exibirá<lf>o tempo decorrido junto dos seus objetivos.
-<string>Não Exibir
+<string>Não exibir
 <string>Durante certas missões, segurar <ICON PL_ITEM_SLIDER_OPEN> não exibirá<lf>o tempo decorrido junto dos seus objetivos.
+<string>Fixo
+<string>Durante certas missões, o tempo decorrido<lf>sempre é exibido junto dos seus objetivos.
 <string>Janela de Bate-papo
 <string>Ajusta as configurações do registro de<lf>bate-papo e janela de comunicação após<lf>uma mensagem ser enviada.
 <string>Fechar janela
@@ -1297,9 +1315,19 @@
 <string>Define ações do Caçador de Suporte<lf>e configurações relacionadas.
 <string>Caçador de Suporte: Exibir Dano
 <string>Define se os valores de dano causados a monstros<lf>por um Caçador de Suporte são exibidos.
+<string>Exibir um (com decimais)
+<string>Exibe na tela apenas os valores de dano<lf>causado a monstros por um dos Caçadores<lf>de Suporte de cada vez.<lf><COLOR preset="TXT_Accent">(Inclui valores decimais.)<COLOR preset="TXT_Accent">
+<string>Exibir um (só valores inteiros)
+<string>Exibe na tela apenas os valores de dano<lf>causado a monstros por um dos Caçadores<lf>de Suporte de cada vez.<lf><COLOR preset="TXT_Accent">(Apenas valores inteiros.)</COLOR>
+<string>Exibir tudo (com decimais)
+<string>Exibe na tela os valores de dano causado<lf>a monstros por todos os Caçadores de Suporte.<lf><COLOR preset="TXT_Accent">(Inclui valores decimais.)</COLOR>
+<string>Exibir tudo (só valores inteiros)
+<string>Exibe na tela os valores de dano causado<lf>a monstros por todos os Caçadores de Suporte.<lf><COLOR preset="TXT_Accent">(Apenas valores inteiros.)</COLOR>
+<string>Não exibir
+<string>Não exibe valores de dano causado por<lf>Caçadores de Suporte.
 <string>Ativar
 <string>Desativar
-<string>Caçador de Suporte: Ataques de Controle
+<string>Caçador de Suporte: Ataques Inibidores
 <string>Define se Caçadores de Suporte podem inibir<lf>ataques de monstros.
 <string>Permite que Caçadores de Suporte realizem<lf>Ataques Inibidores.
 <string>Não permite que Caçadores de Suporte realizem<lf>Ataques Inibidores.
@@ -1417,6 +1445,7 @@
 <string>Volume do Bate-papo por Voz
 <string>Ajusta o volume de outros participantes do<lf>bate-papo por voz.
 <string>Troca Auto. de Bate-papo por Voz
+<string>Troca Auto. de Bate-papo
 <string>Ajusta opções de troca automática em canais de<lf>voz e texto, e em filtros do registro de bate-papo.<lf><COLOR preset="TXT_Accent">(A troca manual pode ser feita à vontade.)</COLOR>
 <string>Priorizar membros da Missão
 <string>Troca automaticamente para um canal de<lf>membro da missão ao iniciar uma missão,<lf>e para um canal de Membro do Elo ao voltar<lf>de uma missão.
@@ -1424,6 +1453,7 @@
 <string>Troca automaticamente para um canal de<lf>Membro do Elo ao entrar em um Grupo de Elo,<lf>independentemente da situação da missão.
 <string>Não priorizar
 <string>Não prioriza ou troca canais de bate-papo por<lf>voz automaticamente. A troca deve ser manual.
+<string>Não troca automaticamente entre canais<lf>de bate-papo. A troca deve ser manual.
 <string>Idioma Felyno
 <string>Ajusta o idioma falado pelos Felynos.
 <string>Idioma Felyno
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Mandarim
+<string>Config. de Coleta de Excedentes
+<string>Define a configuração para coleta de itens que<lf>excedem o limite da bolsa de itens e são<lf>temporariamente armazenados na bolsa de campo.
+<string>Envio auto. p/ Bolsa de Campo
+<string>Automaticamente envia itens coletados que não<lf>podem ser armazenados na bolsa de itens<lf>para a bolsa de campo.
+<string>Sempre escolher
+<string>Permite escolher manualmente quais itens<lf>armazenar na bolsa de campo ao coletar algo<lf>que não pode ser armazenado na bolsa de itens.
+<string>Ativar Efeito de Habilidades/Itens
+<string>Ajusta a exibição de efeitos quando há uma<lf>habilidade ou item ativos.
+<string>Exibir
+<string>Adiciona um efeito brilhante nos Caçadores,<lf>Amigatos e Caçadores de Suporte quando<lf>houver um efeito ativado de uma habilidade<lf>ou item.
+<string>Não exibir
+<string>Não adiciona um efeito brilhante nos Caçadores,<lf>Amigatos e Caçadores de Suporte mesmo quando<lf>houver um efeito ativado de uma habilidade<lf>ou item.
+<string>Efeito do Talismã Equipado
+<string>Ajusta a exibição do efeito de certos talismãs<lf>quando equipados.
+<string>Exibir
+<string>Exibe o efeito de um talismã equipado,<lf>se aplicável.
+<string>Não exibir
+<string>Não exibe o efeito de um talismã equipado.
+<string>Efeitos de Distorção
+<string>Ajusta se um efeito de distorção é usado<lf>para simular o calor da lava ou ambientes<lf>subaquáticos.
+<string>Ativar
+<string>Exibe um efeito de distorção na tela quando<lf>debaixo d'água ou perto de lava.
+<string>Desativar
+<string>Não exibe um efeito de distorção na tela<lf>quando debaixo d'água ou perto de lava.

@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>يضمن عدم فقدان الحدّة<lf>لمدة 90 ثانية بعد تفعيله.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>فرصة 50% ألا تنحرف هجماتك.<lf>تلحق +10% من الضرر<lf>بالأهداف الصعبة.
+<string>فرصة 50% ألا تنحرف هجماتك،<lf>و +10% قوة هجوم ضد الأهداف<lf>الصعبة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>فرصة 100% ألا تنحرف هجماتك.<lf>تلحق +15% من الضرر<lf>بالأهداف الصعبة.
+<string>فرصة 100% ألا تنحرف هجماتك،<lf>و +15% قوة هجوم ضد الأهداف<lf>الصعبة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>فرصة 100% ألا تنحرف هجماتك.<lf>تلحق +30% من الضرر<lf>بالأهداف الصعبة.
+<string>فرصة 100% ألا تنحرف هجماتك،<lf>و +30% قوة هجوم ضد الأهداف<lf>الصعبة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>تُوسع النطاق قليلًا.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>تزيد بشكل طفيف من قوة<lf>ذخيرة وأسهم معينة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>ضرر إطلاق النار السريع +5%
+<string>قوة إطلاق النار السريع +5%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>تزيل دورة واحدة<lf>من عملية الشحذ.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>السرعة +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>السرعة +20%<lf>ضرر الهجوم التحوّلي +10%
+<string>السرعة +20%<lf>قوة الهجوم التحوّلي +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>السرعة +30%<lf>ضرر الهجوم التحوّلي +20%
+<string>السرعة +30%<lf>قوة الهجوم التحوّلي +20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>تزيد بشكل طفيف من الضرر العناصري<lf>وتصاعد حالة الهجمات المشحونة.
+<string>تزيد بشكل طفيف من الهجوم العناصري<lf>وتصاعد حالة الهجمات المشحونة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>تزيد من الضرر العناصري وتصاعد<lf>حالة الهجمات المشحونة.
+<string>تزيد من الهجوم العناصري وتصاعد<lf>حالة الهجمات المشحونة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>تزيد بشكل كبير من الضرر العناصري<lf>وتصاعد حالة الهجمات المشحونة.
+<string>تزيد بشكل كبير من الهجوم العناصري<lf>وتصاعد حالة الهجمات المشحونة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>تفعّل تأثير المهارة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>الهجوم +15 ونسبة الضرر +20% ضد الوحوش<lf>الكبيرة المتأثرة بالسم أو الشلل.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>عند التنشيط، تمنح زيادة طفيفة<lf>للضرر العناصري وتصاعد الحالة.
+<string>عند التنشيط، تمنح زيادة طفيفة<lf>للهجوم العناصري وتصاعد الحالة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>عند التنشيط، تمنح زيادة للضرر<lf>العناصري وتصاعد الحالة.
+<string>عند التنشيط، تمنح زيادة للهجوم<lf>العناصري وتصاعد الحالة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>عند التنشيط، تمنح زيادة كبيرة<lf>للضرر العناصري وتصاعد الحالة.
+<string>عند التنشيط، تمنح زيادة كبيرة<lf>للهجوم العناصري وتصاعد الحالة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>في أول ضربة، <LSNR "تحصل" "تحصلين"> على زيادة هجومية<lf>وعناصرية مؤقتة، تُستبدل بزيادة أكبر<lf>بعد الضربة الخامسة.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -808,12 +808,36 @@
 <string>أثناء مهرجان رقصة الزهرة<lf>تضيف عناصر مميزة إلى مكافآت المهام.<lf>(ليس لها تأثير عند الانضمام في منتصف المَهمة).
 <string>هبة رقصة الزهرة 2
 <string>أثناء مهرجان رقصة الزهرة<lf>تضيف عناصر مميزة إلى مكافآت المهام<lf>وتعزز الهجوم والدفاع بدرجة كبيرة.
+<string>هبة مهرجان اللهب 1
+<string>أثناء مهرجان اللهب، تضيف<lf>عناصر مميزة إلى مكافآت المهام.<lf>(ليس لها تأثير عند الانضمام في منتصف المَهمة).
+<string>هبة مهرجان اللهب 2
+<string>أثناء مهرجان اللهب، تضيف<lf>عناصر مميزة إلى مكافآت المهام<lf>وتعزز الهجوم والدفاع بدرجة كبيرة.
 <string>Satsui no Hado
 <string>تزيد من قوة الحركات المميزة.<lf>يمكن لـ Drive Impacts شن هجمات مبطِلة،<lf>والتي بدورها ستزيد قوة الهجمات المبطِلة أكثر.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>تفعِّل تأثير المهارة.
+<string>صاعقة زرقاء 1
+<string>تزيد من نسبة الضرر مؤقتًا وتُلحق<lf>ضررًا رعديًا إضافيًا عند تراكمها.<lf>(باستثناء بعض الهجمات)
+<string>صاعقة زرقاء 2
+<string>تزيد من الضرر الإضافي الناتج<lf>عن الرعد وتطيل مدة زيادة نسبة الضرر<lf>بشكل معتدل.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>تفعِّل تأثير المهارة.
+<string>شفرة السلاح الحاد 1
+<string>تطيل مدة تسارع الأدرينالين،<lf>وإذا أُعيد تشغيلها أثناء نشاط المهارة،<lf>فإنها تطيل مدة التأثير مرة واحدة.
+<string>شفرة السلاح الحاد 2
+<string>بالإضافة إلى ذلك، إذا أُعيد تشغيلها<lf>مرة أخرى بينما المهارة نشِطة،<lf>فإنها تزيد من الهجوم بشكل أكبر.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>تفعِّل تأثير المهارة.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>تفعِّل تأثير المهارة.
 <string>حظ
 <string>تزيد مكافآت هدف المَهمة.<lf>(ليس لها تأثير عند الانضمام في منتصف المَهمة).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>التعدين للحصول على مواد<lf>نادرة للغاية يزيد الهجوم كثيرًا.<lf>(زيادة الهجوم لها حد أقصى).
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>تفعِّل تأثير المهارة.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>تفعّل تأثير المهارة.
 <string>معزز الانفجار 1
 <string>تطيل مدة مهارة الانفجار<lf>وتمنح هجومًا +3<lf>أثناء تنشيط الانفجار.
 <string>معزز الانفجار 2

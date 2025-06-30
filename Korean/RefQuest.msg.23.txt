@@ -117,6 +117,7 @@
 <string>GO
 <string>WIN
 <string>LOSE
+<string>주요 퀘스트
 <string>모든 퀘스트
 <string>임무 퀘스트
 <string>자유 퀘스트
@@ -193,6 +194,13 @@
 <string>사냥 시 시설 수확량 임시 증가
 <string>{0}(이)가 <REF RefEnvironment_0001_0004>에 출현 중!
 <string>{0}이(가) <REF RefEnvironment_0001_0003>에 출현 중입니다!
+<string><REF RefGeneral_0029_000> 개최 중!
+<string><REF RefGeneral_0029_001> 개최 중!
+<string>가희가 기도의 노래를 바칩니다.({0}분 후)
+<string>가희가 기도의 노래를 바치고 있습니다.
+<string>가희의 기도
+<string>{0}. {1}
+<string>무료로 먹을 수 있는 식사가 있습니다!
 <string>최대 참가 인원수
 <string>퀘스트에 참가 가능한 최대 인원수를 설정합니다<COLOR preset="TXT_Accent">(설정 가능한 인원수는 링크 멤버 최대 수에 따라 달라집니다)</COLOR>.
 <string>1
@@ -231,7 +239,7 @@
 <string>상위
 <string>★{0}
 <string>타겟
-<string>첫 번째 퀘스트 타겟으로 지정된 몬스터로 검색합니다.
+<string>퀘스트 타겟으로 지정된 몬스터로 검색합니다.
 <string>필드
 <string>지정한 필드로 검색합니다.
 <string>사용 언어
@@ -254,7 +262,9 @@
 <string>임무 퀘스트
 <string>자유 퀘스트
 <string>현지 조사 퀘스트 이력(최근 {0}건까지)
+<string>현지 조사 퀘스트 이력({0}/16건)
 <string>조사 퀘스트({0}건 저장됨)
+<string>조사 퀘스트({0}/50건 저장됨)
 <string>이벤트 퀘스트
 <string>로비 멤버 퀘스트({0}건)
 <string>링크 멤버 퀘스트
@@ -265,6 +275,7 @@
 <string>낚시대회 퀘스트
 <string>낚시대회 퀘스트(배포)
 <string>베스트 타임
+<string>대상의 베스트 타임 기록을 삭제합니다.<lf>계속하시겠습니까?<lf>(한번 삭제하면 복구할 수 없습니다)
 <string>장비 선택
 <string>멤버 상황
 <string>서포트 헌터

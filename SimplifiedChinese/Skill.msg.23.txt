@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>效果发动时，90秒内不会消耗锋利度
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>攻击50%概率不会被弹开，<lf>对坚硬部位的伤害变为1.1倍
+<string>攻击50%概率不会被弹开，<lf>对坚硬部位的攻击威力变为1.1倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>攻击100%概率不会被弹开，<lf>对坚硬部位伤害变为1.15倍
+<string>攻击100%概率不会被弹开，<lf>对坚硬部位的攻击威力变为1.15倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>攻击100%概率不会被弹开，<lf>对坚硬部位的伤害变为1.3倍
+<string>攻击100%概率不会被弹开，<lf>对坚硬部位的攻击威力变为1.3倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>略微拓展最佳距离
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>略微提升上述弹药和箭矢的威力
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>速射弹的伤害变为1.05倍
+<string>速射弹的威力变为1.05倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>省略打磨动作1次
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>速度变为1.1倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>速度变为1.2倍<lf>变形攻击的伤害变为1.1倍
+<string>速度变为1.2倍<lf>变形攻击的威力变为1.1倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>速度变为1.3倍<lf>变形攻击的伤害变为1.2倍
+<string>速度变为1.3倍<lf>变形攻击的威力变为1.2倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>略微提升蓄力攻击的属性伤害<lf>与状态异常累积值
+<string>略微提升蓄力攻击的属性攻击值<lf>与状态异常累积值
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>提升蓄力攻击的属性伤害<lf>与状态异常累积值
+<string>提升蓄力攻击的属性攻击值<lf>与状态异常累积值
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>大幅提升蓄力攻击的属性伤害<lf>与状态异常累积值
+<string>大幅提升蓄力攻击的属性攻击值<lf>与状态异常累积值
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>发动技能效果
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>对于陷入毒或麻痹状态的大型怪物<lf>基础攻击力+15，会心率+20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>技能发动时，略微提升属性伤害<lf>和状态异常累积值
+<string>技能发动时，略微提升属性攻击值<lf>和状态异常累积值
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>技能发动时，提升属性伤害<lf>和状态异常累积值
+<string>技能发动时，提升属性攻击值<lf>和状态异常累积值
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>技能发动时，大幅提升属性伤害<lf>和状态异常累积值
+<string>技能发动时，大幅提升属性攻击值<lf>和状态异常累积值
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>攻击命中后一定时间内，略微提升基础<lf>攻击力和属性攻击值；连续发动5次效果<lf>会提升
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -770,7 +770,7 @@
 <string>体力全满时，所受伤害减少5%
 <string>无伤重装Ⅱ
 <string>体力全满时，所受伤害减少10%
-<string>战吼Ⅰ
+<string>战嚎Ⅰ
 <string>使用肢体动作“咆哮”时，在一定时间<lf>内小幅提升周围成员的攻击力。随从与<lf>支援猎人所受的效果较大。
 <string>战吼Ⅱ
 <string>使用肢体动作“咆哮”时，在一定时间<lf>内提升周围成员的攻击力。随从与支援<lf>猎人所受的效果较大。
@@ -799,7 +799,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_507
 <string>身体淋湿时，会心率提升9%<lf>泡沫状态时，会心率提升21%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_508
-<string>技能效果发动时（若与灼热同时使用，<lf>则不会发动灼热效果，但会追加火属性伤<lf>害）
+<string>发动技能效果（若与灼热同时使用，则<lf>不会发动灼热效果，但会追加火属性伤<lf>害）
 <string>毅力【果断】
 <string>减轻致命伤害一次，并于发动前提升<lf>攻击力、降低防御力；发动后提升防<lf>御力与耐性值
 <string>剥取名人
@@ -808,12 +808,36 @@
 <string>在花舞之仪期间，任务报酬中将追加<lf>特殊道具（任务途中无法发动）
 <string>大地之恩惠【花舞】Ⅱ
 <string>在花舞之仪期间，任务报酬中将追加<lf>特殊道具，攻击力和防御力也会大幅<lf>提升
+<string>大地之恩惠【踊火】Ⅰ
+<string>在踊火之仪期间，任务报酬中将追加<lf>特殊道具（任务途中无法发动）
+<string>大地之恩惠【踊火】Ⅱ
+<string>在踊火之仪期间，任务报酬中将追加<lf>特殊道具，攻击力和防御力也会大幅<lf>提升
 <string>杀意之波动
 <string>强化特殊动作的威力，可通过斗气迸放<lf>抵消，成功后一定时间内将获得进一步<lf>强化。
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>发动技能效果
+<string>苍雷一闪Ⅰ
+<string>以攻击累积伤害后，会额外造成雷属<lf>性伤害，在一定时间内提高会心率。<lf>（部分攻击除外）
+<string>苍雷一闪Ⅱ
+<string>发动与Ⅰ同样的效果，额外造成的雷属<lf>性伤害会有所提高，并略微延长提高会<lf>心率的效果持续时间。
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>发动技能效果
+<string>千刃闪身Ⅰ
+<string>延长“巧击”技能的效果时间。此外，<lf>发动期间如果再次满足条件，会略微延<lf>长效果时间。（仅限一次）
+<string>千刃闪身Ⅱ
+<string>发动与Ⅰ同样的效果，发动期间如果再<lf>次满足条件，还将提升攻击力。
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>发动技能效果
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>发动技能效果
 <string>幸运
 <string>增加任务的目标报酬<lf>（任务途中无法发动）
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>矿石的稀有度越高，攻击力提升幅度<lf>越大。（存在提升上限）
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>发动技能效果
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>发动技能效果
 <string>连击强化Ⅰ
 <string>“连击”技能效果发动时，延长其<lf>有效时间，且基础攻击力+3
 <string>连击强化Ⅱ

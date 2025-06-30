@@ -117,6 +117,7 @@
 <string>GO
 <string>WIN
 <string>LOSE
+<string>主なクエスト
 <string>すべてのクエスト
 <string>任務クエスト
 <string>フリークエスト
@@ -193,6 +194,13 @@
 <string>狩猟すると施設の収穫が一時増量します
 <string>{0}が<REF RefEnvironment_0001_0004>に出現中です！
 <string>{0}が<REF RefEnvironment_0001_0003>に出現中です！
+<string><REF RefGeneral_0029_000> 開催中！
+<string><REF RefGeneral_0029_001> 開催中！
+<string>歌姫が祈りの唄を捧げます（あと{0}分）
+<string>歌姫が祈りの唄を捧げています
+<string>歌姫の祈り
+<string>{0}．{1}
+<string>無料で食べられる食事があります！
 <string>最大参加人数
 <string>クエストに参加できる人数の上限を設定します。<COLOR preset="TXT_Accent">（設定可能な人数はリンクメンバーの最大数に応じて可変します）</COLOR>
 <string>1
@@ -231,7 +239,7 @@
 <string>上位
 <string>★{0}
 <string>ターゲット
-<string>クエストターゲットの１体目に指定されたモンスターで検索します。
+<string>クエストターゲットに指定されたモンスターで検索します。
 <string>フィールド
 <string>指定したフィールドで検索します。
 <string>使用言語
@@ -254,7 +262,9 @@
 <string>任務クエスト
 <string>フリークエスト
 <string>現地調査クエストの履歴（最近の{0}件まで）
+<string>現地調査クエストの履歴（{0}/16件）
 <string>調査クエスト（{0}件保存済み）
+<string>調査クエスト（{0}/50件保存済み）
 <string>イベントクエスト
 <string>ロビーメンバークエスト（{0}件）
 <string>リンクメンバークエスト
@@ -265,6 +275,7 @@
 <string>釣技大会クエスト
 <string>釣技大会クエスト（配信）
 <string>ベストタイム
+<string>対象のベストタイムの記録を削除します。<lf>よろしいですか？<lf>（一度、削除すると元に戻せません）
 <string>装備選択
 <string>メンバーの状況
 <string>サポートハンター

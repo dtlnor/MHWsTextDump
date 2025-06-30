@@ -819,9 +819,9 @@
 <string>アップスケーリング（超解像技術）
 <string>いずれかの超解像技術を適用すると、高パフォーマンスと<lf>優れた画質を両立させることができます。
 <string>NVIDIA DLSS
-<string>NVIDIA <DLSS>を使用します。<lf><COLOR preset="TXT_Accent">（NVIDIA GeForce RTXグラフィックスカードを<lf>　使用時にのみ設定が可能です）</COLOR><lf><COLOR preset="TXT_Accent">（GeForce RTX40 Seriesを使用していて<lf>　OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
+<string>NVIDIA <DLSS>を使用します。<lf><COLOR preset="TXT_Accent">（NVIDIA GeForce RTXグラフィックスカードを<lf>　使用時にのみ設定が可能です）</COLOR>
 <string>AMD FSR
-<string><FSR>を使用します。<lf><COLOR preset="TXT_Accent">（OSの設定でハードウェアアクセラレータによる<lf>　GPUスケジューリングが有効になっている場合、<lf>　この項目を選択することで<lf>　「フレーム生成」の設定が可能になります）</COLOR>
+<string><FSR>を使用します。
 <string>Intel XeSS
 <string>Intel <XESS>を使用します。
 <string>使用しない
@@ -835,6 +835,13 @@
 <string>現在の表示設定では、<COLOR preset="TXT_Accent">FSR</COLOR>を利用した<lf><COLOR preset="TXT_Accent">フレーム生成</COLOR>の機能を有効にすることができません。
 <string>現在の表示設定では、<COLOR preset="TXT_Accent">FSR</COLOR>を利用した<lf><COLOR preset="TXT_Accent">フレーム生成</COLOR>の機能を有効にすることができないため、<lf>同機能の設定がOFFに変更されました。
 <string>オプションからウィンドウモードに変更するか、<lf>ボーダレスウィンドウの場合は黒枠の表示されない<lf>解像度に設定することで機能が使用可能になります。
+<string>NVIDIA DLSS 2x
+<string>この機能を有効にすることでフレームレートが<lf>向上し、DISPLAYの項目内で設定した上限値を<lf>超える可能性があります。<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX4000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
+<string>NVIDIA DLSS 3x
+<string>この機能を有効にすることでフレームレートが<lf>向上し、DISPLAYの項目内で設定した上限値を<lf>超える可能性があります。<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX5000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS AUTO
+<string>この機能を有効にした場合、CPU、GPUの負荷に<lf>応じてフレーム生成の動作を「OFF」または<lf>「2x」のいずれかへと、動的に制御します。<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX4000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
 <string>アップスケーリングモード
 <string>アップスケーリング使用時における<lf>画質の鮮明さを設定します。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」使用時のみ設定変更可能です）</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>OFF
 <string>レンダリングスケール
 <string>ゲームをレンダリングする解像度の倍率を<lf>パーセンテージで設定します。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」未使用時のみ設定変更可能です）</COLOR>
+<string>ゲームをレンダリングする解像度の倍率を<lf>パーセンテージ形式で設定します。<lf><COLOR preset="TXT_Accent">（適用条件を満たしている場合のみ設定可能です）</COLOR>
 <string>レイトレーシング
 <string>レイトレーシング技術を用いた<lf>光の反射表現の品質について設定します。
 <string>最高
@@ -1063,6 +1071,12 @@
 <string>モンスターに与えたダメージ数が表示されます。<lf><COLOR preset="TXT_Accent">（小数点以下の表示は行いません）</COLOR>
 <string>表示しない
 <string>モンスターに与えたダメージ数を表示しません。
+<string>体力ゲージでの注意喚起表示
+<string>モンスターが特に危険な攻撃を行う直前に、<lf>体力ゲージ上でその予兆を表示するかどうか設定します。
+<string>表示する
+<string>モンスターから、残りの体力が尽きてしまう程の<lf>強力な一撃が放たれる場合、その予兆として<lf>体力ゲージに赤色の波打つ注意喚起を表示します。
+<string>表示しない
+<string>モンスターから、残りの体力が尽きてしまう程の<lf>強力な一撃が放たれる場合であっても、<lf>その予兆となる注意喚起を表示しません。
 <string>HUD表示のカスタマイズ
 <string>HUDの表示サイズや表示・非表示の設定を行います。
 <string>体力ゲージ
@@ -1192,10 +1206,14 @@
 <string>仲間の体力ゲージを最小化表示します。<lf>状況に応じて、自動でゲージが展開されます。
 <string>一部クエストでの経過時間表示
 <string>闘技大会クエスト、チャレンジクエスト、フリーチャレンジ<lf>クエストにおいて、<ICON PL_ITEM_SLIDER_OPEN>を入力している間、目標ガイド上で<lf>クエストの経過時間を表示するかどうか設定します。
+<string>闘技大会クエスト、チャレンジクエスト、フリーチャレンジ<lf>クエストでのクエスト経過時間の表示方法を設定します。<lf><COLOR preset="TXT_Accent">（クエストメンバー側に表示される経過時間は参考値です）</COLOR>
 <string>表示する
+<string>任意で表示する
 <string>該当するクエストにおいて、<ICON PL_ITEM_SLIDER_OPEN>を入力している間、<lf>目標ガイド上にクエスト経過時間を表示します。
 <string>表示しない
 <string>該当するクエストにおいて、<ICON PL_ITEM_SLIDER_OPEN>を入力しても<lf>目標ガイド上にクエスト経過時間を表示しません。
+<string>常時表示する
+<string>該当するクエストにおいては常時、目標ガイド上に<lf>クエスト経過時間を表示します。
 <string>チャット送信後の動作設定
 <string>チャット送信後のコミュニケーションウィンドウおよび<lf>チャットログウィンドウの動作について設定を行います。
 <string>ウィンドウを閉じる
@@ -1297,6 +1315,16 @@
 <string>サポートハンターの行動や<lf>関連した表示について設定します。
 <string>サポートハンターの与ダメージ表示
 <string>サポートハンターがモンスターに与えた<lf>ダメージ数の表示有無を設定します。
+<string>１人のみ表示（小数点あり）
+<string>サポートハンターのうち、状況に応じて<lf>いずれか１人のみを対象に、モンスターへ<lf>与えたダメージ数を表示します。<lf><COLOR preset="TXT_Accent">（小数点以下の表示も行います）</COLOR>
+<string>１人のみ表示（小数点なし）
+<string>サポートハンターのうち、状況に応じて<lf>いずれか１人のみを対象に、モンスターへ<lf>与えたダメージ数を表示します。<lf><COLOR preset="TXT_Accent">（小数点以下の表示は行いません）</COLOR>
+<string>全員表示（小数点あり）
+<string>すべてのサポートハンターを対象として、<lf>モンスターに与えたダメージ数を表示します。<lf><COLOR preset="TXT_Accent">（小数点以下の表示も行います）</COLOR>
+<string>全員表示（小数点なし）
+<string>すべてのサポートハンターを対象として、<lf>モンスターに与えたダメージ数を表示します。<lf><COLOR preset="TXT_Accent">（小数点以下の表示は行いません）</COLOR>
+<string>表示しない
+<string>サポートハンターがモンスターに与えた<lf>ダメージ数を表示しません。
 <string>ON
 <string>OFF
 <string>サポートハンターの相殺
@@ -1417,6 +1445,7 @@
 <string><REF RefNetwork_0006>音量
 <string><REF RefNetwork_0006>を行う際の相手のボイス音量を設定します。
 <string><REF RefNetwork_0006>の自動切り替え設定
+<string>チャットの自動切り替え設定
 <string><REF RefNetwork_0006>の発信先、テキストチャットの送信先、<lf>チャットログのフィルター設定の自動切り替えを設定します。<lf><COLOR preset="TXT_Accent">（手動での切り替えはいつでも可能です）</COLOR>
 <string><REF RefNetwork_0004_02>優先発信
 <string>クエスト出発時には<REF RefNetwork_0004_02>向け、<lf>クエストからの帰還時には<REF RefNetwork_0004_01>向けの<lf>チャンネルへと、自動的に切り替えます。
@@ -1424,6 +1453,7 @@
 <string>クエストの出発状況に関わらず、<lf><REF RefNetwork_0005>参加中は<REF RefNetwork_0004_01>向けの<lf>チャンネルへと、自動的に切り替えます。
 <string>OFF
 <string>発信先の自動切り替えを行いません。<lf>手動での切り替えのみ行います。
+<string>自動切り替えを行いません。<lf>手動での切り替えのみ行います。
 <string>アイルーのボイス設定
 <string>アイルーが発するボイスの設定を行います。
 <string>すべてアイルー語にする
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string><REF RefLanguage_0000_014>
+<string>採集アイテム収納不可時の設定
+<string>採集アイテムがアイテムポーチの容量を超過して<lf>収納できない場合、一時保管ポーチへ送る際の<lf>設定を行います。
+<string>超過分を自動的に送る
+<string>アイテムポーチに収納できない分の採集アイテムは<lf>取得後、自動的に一時保管ポーチへと送られます。
+<string>対象を任意で選択する
+<string>採集アイテムをアイテムポーチに収納できない<lf>場合、一時保管ポーチへ送る対象をその都度<lf>選択します。
+<string>スキル等の効果発動中エフェクト
+<string>スキルやアイテム効果の発動中における、<lf>エフェクトの表示について設定します。
+<string>表示する
+<string>ハンター、オトモアイルー、サポートハンターが<lf>スキルやアイテムの効果を発動している間、<lf>その身体が発光するエフェクトを表示します。
+<string>表示しない
+<string>ハンター、オトモアイルー、サポートハンターが<lf>スキルやアイテムの効果を発動中であっても、<lf>その身体が発光するエフェクトを表示しません。
+<string>装備中の護石エフェクト
+<string>一部の護石を装備中に表示される<lf>エフェクトについて設定します。
+<string>表示する
+<string>装備中の護石にエフェクト表示がある場合、<lf>それを表示します。
+<string>表示しない
+<string>装備中の護石にエフェクト表示があっても、<lf>それを表示しません。
+<string>画面の揺らぎ表現の設定
+<string>溶岩の熱や、水中にいる状態を表現する<lf>画面の揺らぎを行うかどうか設定します。
+<string>有効
+<string>溶岩のあるエリアや水中にいる場合、<lf>画面上での揺らぎ表現を行います。
+<string>無効
+<string>溶岩のあるエリアや水中にいる場合でも、<lf>画面上での揺らぎ表現を行いません。

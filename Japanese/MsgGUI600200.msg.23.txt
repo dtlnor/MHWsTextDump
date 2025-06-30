@@ -31,8 +31,8 @@
 <string>鬼人連斬は鬼人ゲージを消費して繰り出す<lf>鬼人強化状態でのみ可能な連続攻撃。<lf><ICON WP02 PL_MOVE_FRONT><ICON WP02 PL_MOVE_LEFT><ICON WP02 PL_MOVE_BACK><ICON WP02 PL_MOVE_RIGHT>の方向に移動しながら<lf>攻撃することができる。<lf><lf>乱舞と鬼人連斬は相互に派生することが<lf>可能で、その際は<ICON WP02 PL_ATTACK_SP>で行う。
 <string>
 <string>
-<string>基本的な連携攻撃を行う。<lf><lf><REF ActionGuideDataNameText_Wp04_86757720>後<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_m222720992>に、<lf>さらに<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_1449700864>に派生する。<lf><lf>縦振りは攻撃後<ICON WP04 PL_DUMMY_MOVE>で位置を微調整<lf>できる。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>は相殺効果があり、<lf><ICON WP04 PL_ATTACK_00>長押しで技を出すタイミングを<lf>遅らせることができる。
-<string>基本的な連携攻撃を行う。<lf><lf><REF ActionGuideDataNameText_Wp04_86757720>後<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_m222720992>に、<lf>さらに<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_1449700864>に派生する。<lf><lf>縦振りは攻撃後<ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>で位置を<lf>微調整できる。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>は相殺効果があり、<lf><ICON WP04 PL_ATTACK_00>長押しで技を出すタイミングを<lf>遅らせることができる。
+<string>基本的な連携攻撃を行う。<lf><REF ActionGuideDataNameText_Wp04_86757720>後<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_m222720992>に、<lf>さらに<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_1449700864>に派生する。<lf>縦振りは攻撃後<ICON WP04 PL_DUMMY_MOVE>で位置を微調整<lf>できる。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>には相殺効果があり、<lf><ICON WP04 PL_ATTACK_00>長押しで技を出すタイミングを<lf>遅らせることも可能。<lf>相殺に成功してモンスターが大きく<lf>のけぞった際には、さらに<ICON WP04 PL_ATTACK_00>で<lf><REF ActionGuideDataNameText_Wp04_12800>に派生できる。
+<string>基本的な連携攻撃を行う。<lf><REF ActionGuideDataNameText_Wp04_86757720>後<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_m222720992>に、<lf>さらに<ICON WP04 PL_ATTACK_00>で<REF ActionGuideDataNameText_Wp04_1449700864>に派生する。<lf>縦振りは攻撃後<ICON WP04 PL_MOVE_FRONT><ICON WP04 PL_MOVE_LEFT><ICON WP04 PL_MOVE_BACK><ICON WP04 PL_MOVE_RIGHT>で位置を<lf>微調整できる。<lf><lf><REF ActionGuideDataNameText_Wp04_1449700864>には相殺効果があり、<lf><ICON WP04 PL_ATTACK_00>長押しで技を出すタイミングを<lf>遅らせることことも可能。<lf>相殺に成功してモンスターが大きく<lf>のけぞった際には、さらに<ICON WP04 PL_ATTACK_00>で<lf><REF ActionGuideDataNameText_Wp04_12800>に派生できる。
 <string>
 <string>
 <string>音色１を発生させる基本攻撃。<lf><ICON WP05 PL_DUMMY_MOVE><ICON PLUS><ICON WP05 PL_ATTACK_00>で前方攻撃を繰り出せる。
@@ -372,3 +372,11 @@
 <string><OPTION id= "SLINGER_AMMO_AUTOLOADING" msg= "MsgGUI600200_00_045_001">
 <string>通常のスリンガー弾などと同様に<lf>アイテムスライダーから「<REF Item_IT_783>」を<lf>選択し、狙いを定めて発射する。<lf><lf><ICON merge="PL_SLINGER_SHOOT,HOLD_ON">で溜めることも可能で、<lf>各アシストコンボ中からでも発射できる。
 <string>通常のスリンガー弾などと同様に<lf>アイテムスライダーから「<REF Item_IT_783>」を<lf>選択し、<ICON PL_ITEM>で装填。<lf>狙いを定めて発射する。<lf><lf><ICON merge="PL_SLINGER_SHOOT,HOLD_ON">で溜めることも可能で、<lf>各アシストコンボ中からでも発射できる。
+<string><ICON PL_DUMMY_CAMERA>で照準を操作して<lf>進行方向を定め、<ICON PL_DUMMY_MOVE>で移動。<lf>上下左右へも自由に移動できる。<lf><lf>また、上下への素早い移動方法として<lf><ICON PL_EX_FIELD_U>での<REF ActionGuideDataNameTextCommon_7004>、<ICON PL_EX_FIELD_D>での<REF ActionGuideDataNameTextCommon_20140>も可能。<lf><ICON PL_DODGE>では回避ができる。
+<string><ICON PL_DUMMY_CAMERA>で照準を操作して<lf>進行方向を定め、<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>で移動。<lf>上下左右へも自由に移動できる。<lf><lf>また、上下への素早い移動方法として<lf><ICON PL_EX_FIELD_U>での<REF ActionGuideDataNameTextCommon_7004>、<ICON PL_EX_FIELD_D>での<REF ActionGuideDataNameTextCommon_20140>も可能。<lf><ICON PL_DODGE>では回避ができる。
+<string><ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>
+<string><ICON PL_DUMMY_MOVE>
+<string><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
+<string>自身とラギアクルスが水中にいる<lf>場合に限り、<ICON PL_AIM><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>で射出した<lf>フックスリンガーをヒットさせ、<lf>その体表にしがみつくことができる。<lf><lf>しがみついている最中には<lf>装備中の武器や、ナイフでの攻撃が可能。
+<string>自身とラギアクルスが水中にいる<lf>場合に限り、<ICON PL_AIM_SHOOTING><ICON PLUS><ICON PL_EX_FIELD_CATCH_SHOOT>で射出した<lf>フックスリンガーをヒットさせ、<lf>その体表にしがみつくことができる。<lf><lf>しがみついている最中には<lf>装備中の武器や、ナイフでの攻撃が可能。

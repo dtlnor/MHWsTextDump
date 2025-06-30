@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -480,7 +486,7 @@
 <string>올라탄 위치에 달라붙어, 몬스터의<lf>공격으로 인한 스태미나 감소를<lf>줄일 수 있다.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string>올라타기 중 <ICON PL_BT_RIDE_CANCEL>
+<string>올라타기 중<ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON">
 <string>몬스터에 올라탄 상태에서<lf>도중에 내릴 수 있다.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>사체 변화
 <string>몬스터의 사체는 시간이 지나면서<lf>'사체'에서 '부패한 사체'로<lf>변화하고, 상태에 따라 갈무리할 수<lf>있는 소재가 달라진다.<lf><lf>소형 몬스터는 부패한 사체에서<lf>'<REF Gimmick_NAME_1176528640>'이나 '<REF Item_IT_270>'로 바뀔 때도<lf>있으며, 각각 소재를 입수할 수<lf>있다.<lf>또한 수호룡도 '결정화된 사체'라는<lf>상태로 변화할 수 있고, 각각<lf>갈무리할 수 있는 소재도 달라진다.
+<string>
+<string>수중에서의 사냥
+<string>수중에서의 사냥
+<string>수중에서 라기아크루스 사냥 시<lf>위아래로 입체적으로 이동하거나<lf>몸에 매달리는 등<lf>지상과 다른 행동이 가능하다.
+<string>
+<string>이동
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string>매달리기 중 <ICON PL_BT_RIDE_ATTACK_WP>
+<string>장비한 무기로 공격.<lf><lf>충분한 위력을 지녔지만,<lf>공격 후에는 매달리기가 해제된다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string>매달리기 중 <ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L>
+<string>매달린 상태에서<lf>나이프로 베는 공격.<lf><lf>장비한 <REF ActionGuideDataNameTextCommon_12267>보다 위력은 낮지만<lf>상처 입히기 더 쉽고,<lf>유실물이 나오기도 한다.<lf><lf>또 공격 후에도 매달릴 수 있어<lf>계속해서 연속 공격이 가능하다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string>매달리기 중 <ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL>
+<string>라기아크루스에 매달린<lf>상태에서 이탈한다.
 <string>
 <string>고우키
 <string>고우키

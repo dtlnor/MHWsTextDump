@@ -3,6 +3,7 @@
 <string>Uruchamianie gry.
 <string>Nieprawidłowe żądanie.<lf>{0}
 <string>Nie udało się zdobyć informacji.<lf>{0}
+<string>Nie można wykonać z powodu zmiany sytuacji.<lf>{0}
 <string>Łączenie...
 <string>Sprawdzanie połączenia z serwerem...
 <string>Wystąpił błąd łączności.<lf>{0}
@@ -18,6 +19,7 @@
 <string>Utracono połączenie z: {0}.<lf>{1}
 <string>Jesteś obecnie w trybie offline. Będziesz<lf>kontynuować rozgrywkę normalnie. Żeby<lf>powrócić do trybu online, porozmawiaj<lf>z przewodnikiem, by uzyskać dostęp do<lf>funkcji komunikacji w menu zmiany lobby.
 <string>Jesteś obecnie w trybie offline. Żeby powrócić<lf>do trybu online, porozmawiaj z przewodnikiem,<lf>by uzyskać dostęp do funkcji komunikacji<lf>w menu zmiany lobby.
+<string>Jesteś w trybie offline. Żeby powrócić<lf>do trybu online, użyj funkcji komunikacji<lf>w menu zmiany lobby, będąc w namiocie<lf>lub rozmawiając z przewodnikiem.
 <string>Z powodu braku aktywności przełączono<lf>w tryb online dla jednego gracza. Będziesz<lf>kontynuować rozgrywkę normalnie.<lf>{0}
 <string>Nie udało się wysłać, ponieważ jesteście<lf>już znajomymi lub czekasz na odpowiedź<lf>na zaproszenie.<lf>{0}
 <string>Nie udało się wysłać, ponieważ ty albo odbiorca<lf>osiągnęliście maksymalną liczbę znajomych.<lf>{0}
@@ -29,7 +31,7 @@
 <string>Obserwujesz maksymalną liczbę graczy<lf>i nie możesz już obserwować więcej.<lf>{0}
 <string>Inicjowanie sieci...
 <string>Znaleziono nową wersję aplikacji.<lf>Żeby korzystać z funkcji sieciowych,<lf>wyłącz aplikację i wykonaj aktualizację.
-<string>Zastąpiono dane łowcy. Nadal można bezpiecznie<lf>używać tych zapisanych danych, ale dane znajomych,<lf>obserwowanych/obserwujących i oddziałów zostały<lf>zresetowane.
+<string>Zastąpiono dane łowcy.<lf>Nadal można bezpiecznie używać tych<lf>zapisanych danych, ale dane znajomych,<lf>obserwowanych/obserwujących<lf>i oddziałów zostały zresetowane.
 <string>Gracz już dołączył do wspólnej grupy.<lf><lf>{0}
 <string>Osiągnięto maksymalną liczbę graczy we wspólnej<lf>grupie. Nie można dodać więcej graczy.<lf>{0}
 <string>Nie udało się wysłać, ponieważ odbiorca osiągnął<lf>limit zaproszeń do wspólnej grupy.<lf>{0}
@@ -49,6 +51,8 @@
 <string>Ustawienia platformy i rozgrywki<lf>międzyplatformowej nie pasują do siebie.<lf>{0}
 <string>Działanie niedozwolone.<lf>Sprawdź ustawienia konsoli.<lf>{0}
 <string>Gracz jest offline.<lf>{0}
+<string>Nie można dołączyć do lobby gracza,<lf>który gra w trybie online dla jednego gracza.<lf>{0}
+<string>Nie można dołączyć do tego samego zadania<lf>lub wspólnej grupy co zablokowany członek.<lf>{0}
 <string>Utracono połączenie z sesją.<lf>{0}
 <string>Nie udało się utworzyć sesji.<lf>{0}
 <string>Nie udało się wyszukać sesji.<lf>{0}
@@ -75,6 +79,10 @@
 <string>Nie można wziąć udziału, ponieważ sesja ma inne<lf>ustawienia rozgrywki międzyplatformowej. Sprawdź<lf>swoje ustawienia rozgrywki międzyplatformowej<lf>w <BOLD>Opcjach</BOLD> w Menu tytułowym.<lf>{0}
 <string>Osiągnięto limit graczy we wspólnej grupie.<lf>Nie można dodać więcej graczy.<lf><lf>{0}
 <string>Do prywatnych lobby/lobby oddziału nie można<lf>dołączyć przez wyszukiwanie znajomego, a jedynie<lf>poprzez wyszukiwanie ID lobby/lobby oddziału.<lf>{0}
+<string>Wykryto oszukiwanie.<lf>Nie można zaakceptować zadania.<lf>{0}
+<string>Wykryto oszukiwanie.<lf>Nie można utworzyć zadania.<lf>{0}
+<string>Wykryto oszukiwanie.<lf>Nie udało się dołączyć do zadania.<lf>{0}
+<string>Wykryto oszukiwanie.<lf>Nie udało się rozpocząć zadania.<lf>{0}
 <string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "DD.MM.YYYY H:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
 <string>Zachowanie obraźliwe/agresywne
 <string>Typy niedozwolonych zachowań

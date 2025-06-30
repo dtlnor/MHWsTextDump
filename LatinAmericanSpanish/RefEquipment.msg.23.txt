@@ -32,8 +32,10 @@
 <string>Sin imagen
 <string>Principal
 <string>Equipar como arma principal
+<string>Equipar como arma principal ({0})
 <string>Secundaria
 <string>Equipar como arma secundaria
+<string>Equipar como arma secund. ({0})
 <string>Arma
 <string>Colgantes
 <string>Colgante principal
@@ -59,21 +61,27 @@
 <string>Solo armadura <ICON EQUIP_TYPE2>
 <string>Mostrar en posesión
 <string>Sets de armadura completos
+<string>Mostrar lista de deseos
+<string>Mostrar α
+<string>Mostrar β
 <string>Mejorar
 <string>Forjar
 <string>Necesitarás materiales y {0} zenis.<lf>¿Quieres continuar?
-<string>Necesitarás materiales y <NUMBER {0}> zenis.<lf>¿Quieres continuar?<lf><lf>(Forjar este equipo<lf>también producirá una <COLOR preset="TXT_Accent">armadura superpuesta</COLOR>)
-<string>Este es un set de armadura completo.<lf>Se usarán los materiales necesarios y <NUMBER ​{0}>z<lf>para crear todo el set.<lf>¿Quieres continuar?
-<string>Este es un set de armadura completo. Se usarán<lf>los materiales necesarios y <NUMBER {0}>z para crearlo.<lf>¿Quieres continuar?<lf>(Forjar este equipo también producirá<lf>una <COLOR preset="TXT_Accent">armadura superpuesta</COLOR>).
+<string>Necesitarás materiales y <NUMBER {0}> zenis.<lf>¿Quieres continuar?<lf><lf>(Crear este equipo también lo desbloqueará<lf>como <COLOR preset="TXT_Accent">equipo superpuesto</COLOR>)
+<string>Este es un set de armadura completo.<lf>Se usarán los materiales necesarios y <NUMBER {0}>z<lf>para crear todo el set.<lf>¿Quieres continuar?
+<string>Este es un set de armadura completo. Se usarán<lf>los materiales necesarios y <NUMBER {0}>z para crearlo.<lf>¿Quieres continuar?<lf><lf>(Crearlo también lo desbloqueará como <COLOR preset="TXT_Accent">equipo superpuesto</COLOR>)
 <string>¿Equipar ahora?
 <string>Si cambias esta pieza, <COLOR preset="TXT_Danger">se quitarán todas<lf>las otras piezas del set de armadura completo</COLOR>.<lf>¿Quieres cambiar la pieza de armadura?
 <string>Este es un set de armadura completo.<lf>¿Quieres equiparte todas las piezas del set?<lf><lf><COLOR preset="TXT_Danger">(Se ocultará la armadura superpuesta).</COLOR>
+<string>Necesitarás materiales y <NUMBER {0}> zenis.<lf>¿Quieres continuar?<lf><COLOR preset="TXT_Accent">Los puntos de sobra se devolverán como los siguientes objetos.</COLOR>
+<string>Necesitarás materiales y <NUMBER {0}> zenis. ¿Quieres continuar?<lf>(Forjarlo te permitirá usarlo como <COLOR preset="TXT_Accent">equipo superpuesto</COLOR>).<lf><COLOR preset="TXT_Accent">Los puntos de sobra se devolverán, al igual que los objetos siguientes.</COLOR>
 <string>¿Descartar {0} puntos sobrantes?
 <string>Vista previa
 <string><COLOR preset="TXT_Danger">El baúl de equipo está lleno.</COLOR>
 <string><COLOR preset="TXT_Danger">Esto no se puede forjar ni mejorar todavía.</COLOR>
 <string><COLOR preset="TXT_Danger">No tienes el equipo necesario.</COLOR>
 <string><COLOR preset="TXT_Danger">Dinero o materiales insuficientes.</COLOR>
+<string><COLOR preset="TXT_Danger">Fondos o materiales insuficientes. (Se puede crear un set de armadura completo con los materiales requeridos).</COLOR>
 <string><COLOR preset="TXT_Danger">Dinero insuficiente.</COLOR>
 <string><COLOR preset="TXT_Danger">Alcanzaste el nivel máximo de mejora.</COLOR>
 <string>Elige una esfera de armadura para utilizarla.
@@ -96,7 +104,7 @@
 <string><COLOR preset="TXT_Danger">No puedes equiparte esto en este nivel del espacio.</COLOR>
 <string><COLOR preset="TXT_Danger">Este kinsecto ha alcanzado su tamaño máximo.</COLOR>
 <string>Requerido: {0} z.<lf>¿Quieres continuar?
-<string>Necesitarás <NUMBER {0}> zenis.<lf>¿Quieres continuar?<lf><lf>(Forjar este equipo<lf>también producirá una <COLOR preset="TXT_Accent">armadura superpuesta</COLOR>)
+<string>Necesitarás <NUMBER {0}> zenis.<lf>¿Quieres continuar?<lf><lf>(Crear este equipo también lo desbloqueará<lf>como <COLOR preset="TXT_Accent">equipo superpuesto</COLOR>)
 <string>Materiales de cuidado
 <string>Baúl de equipo
 <string>Caja de arm. superpuesta
@@ -131,7 +139,10 @@
 <string>¿Quitar de la lista de deseos?
 <string>¿Quitar del equipo deseado?<lf><COLOR preset="TXT_Danger">(Coincide con los sets de equipo.<lf>El equipo que quites de aquí también<lf>se quitará de los sets de equipo).</COLOR>
 <string>Quitar adornos
+<string>Quitar adornos equipados
 <string>¿Quieres desequipar todos los adornos?
+<string>Quitar todos los adornos
+<string>¿Quieres quitar todos los adornos del equipo?
 <string><INPUTMSG RefEquipment_SUB_13_S>
 <string><INPUTMSG RefEquipment_SUB_14_S>
 <string><INPUTMSG RefEquipment_SUB_15_S>
@@ -200,6 +211,8 @@
 <string>Por Nv. de Kinsecto
 <string>Por tipo de munición
 <string>Por cantidad
+<string>Puntos de fusión
+<string>Puntos de fundición
 <string>1 – 3
 <string>2 – 3
 <string>3

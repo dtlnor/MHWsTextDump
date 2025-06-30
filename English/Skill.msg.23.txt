@@ -115,11 +115,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_75
 <string>Grants no sharpness loss for<lf>90 seconds after activation.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_76
-<string>50% chance of your attacks<lf>not being deflected, +10%<lf>damage to hard targets.
+<string>50% chance of your attacks<lf>not being deflected, +10% attack<lf>power against hard targets.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_77
-<string>100% chance of your attacks<lf>not being deflected, +15%<lf>damage to hard targets.
+<string>100% chance of your attacks<lf>not being deflected, +15% attack<lf>power against hard targets.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_78
-<string>100% chance of your attacks<lf>not being deflected, +30%<lf>damage to hard targets.
+<string>100% chance of your attacks<lf>not being deflected, +30% attack<lf>power against hard targets.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_79
 <string>Slightly extends range.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
@@ -233,7 +233,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_140
 <string>Slightly increases the power of<lf>specified ammo and arrows.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_143
-<string>Rapid fire damage +5%
+<string>Rapid fire power +5%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_146
 <string>Removes one cycle from<lf>the sharpening process.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_147
@@ -241,15 +241,15 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_148
 <string>Speed +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_149
-<string>Speed +20%<lf>Morph attack damage +10%
+<string>Speed +20%<lf>Morph attack power +10%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_150
-<string>Speed +30%<lf>Morph attack damage +20%
+<string>Speed +30%<lf>Morph attack power +20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_151
-<string>Slightly increases elemental<lf>damage and status buildup<lf>for charged attacks.
+<string>Slightly increases elemental<lf>attack and status buildup<lf>for charged attacks.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_152
-<string>Increases elemental damage<lf>and status buildup for<lf>charged attacks.
+<string>Increases elemental attack<lf>and status buildup for<lf>charged attacks.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_153
-<string>Greatly increases elemental<lf>damage and status buildup<lf>for charged attacks.
+<string>Greatly increases elemental<lf>attack and status buildup<lf>for charged attacks.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_157
 <string>Activates skill effect.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_158
@@ -575,11 +575,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_495
 <string>Attack +15 and affinity +20%<lf>against large monsters affected<lf>by poison or paralysis.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_327
-<string>When active, grants a slight<lf>increase to elemental damage<lf>and status buildup.
+<string>When active, grants a slight<lf>increase to elemental attack<lf>and status buildup.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_328
-<string>When active, grants an<lf>increase to elemental damage<lf>and status buildup.
+<string>When active, grants an<lf>increase to elemental attack<lf>and status buildup.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_329
-<string>When active, grants a large<lf>increase to elemental damage<lf>and status buildup.
+<string>When active, grants a large<lf>increase to elemental attack<lf>and status buildup.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_330
 <string>On first hit, gain a small temporary<lf>attack and element boost, replaced<lf>by a larger boost after the fifth hit.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_331
@@ -808,12 +808,36 @@
 <string>During Blossomdance, adds<lf>special items to quest rewards.<lf>(No effect when joining mid-quest.)
 <string>Blossomdance Boon II
 <string>During Blossomdance, adds special<lf>items to quest rewards, and<lf>greatly boosts attack and defense.
+<string>Flamefete Boon I
+<string>During Flamefete, adds special<lf>items to quest rewards.<lf>(No effect when joining mid-quest.)
+<string>Flamefete Boon II
+<string>During Flamefete, adds special<lf>items to quest rewards, and<lf>greatly boosts attack and defense.
 <string>Satsui no Hado
 <string>Increases power of special actions.<lf>Drive Impacts can trigger offset attacks.<lf>Further increases power of offset attacks.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
 <string>Activates skill effect.
+<string>Azure Bolt I
+<string>Temporarily increases affinity and<lf>can deal extra thunder damage upon<lf>buildup. (Excludes some attacks.)
+<string>Azure Bolt II
+<string>Further increases additional thunder<lf>damage and moderately extends<lf>the duration affinity is increased.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_523
+<string>Activates skill effect.
+<string>Razor's Edge I
+<string>Extends the duration of Adrenaline Rush.<lf>If triggered again while the skill is<lf>active, extends the effect duration once.
+<string>Razor's Edge II
+<string>Additionally, if triggered again while<lf>the skill is active, further increases<lf>attack.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_526
+<string>Activates skill effect.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_527
+<string>Activates skill effect.
 <string>Luck
 <string>Increases quest target rewards.<lf>(No effect when joining mid-quest.)
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_529
+<string>Mining particularly rare materials<lf>greatly increases attack. (Attack<lf>increase has a maximum limit.)
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_530
+<string>Activates skill effect.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_532
+<string>Activates skill effect.
 <string>Burst Boost I
 <string>Extends the duration of the Burst<lf>skill and grants attack +3 while<lf>Burst is active.
 <string>Burst Boost II

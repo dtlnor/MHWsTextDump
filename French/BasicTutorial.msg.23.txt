@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>Mode Focus
 <string>Mode Focus
-<string>Le mode Focus vous permet de garder<lf>ou de diriger vos attaques avec précision.<lf><lf>Lorsque vous l'utilisez, des navicioles<lf>signalent les points faibles et blessures<lf>d'un monstre.
+<string>Le mode Focus vous permet d'orienter<lf>avec soin vos attaques et votre garde.<lf><lf>Lorsque vous l'utilisez, des navicioles<lf>signalent les points faibles et blessures<lf>d'un monstre.<lf><lf>Vous pouvez également changer la cible<lf>à verrouiller par la caméra auto pendant<lf>le mode Focus en regardant un monstre<lf>et en appuyant sur <ICON PL_CAMERA_LOCK_CHANGE>, et ce, même<lf>lorsque votre arme est regainée.
 <string>
 <string>Mode Focus
 <string><ICON ME PL_AIM> avec l'arme dégainée
@@ -480,7 +486,7 @@
 <string>Vous cramponner vous permet de vous<lf>maintenir sur le monstre et de réduire la<lf>quantité d'endurance consommée quand<lf>il vous attaque.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> en chevauchant
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> en chevauchant
 <string>Descendre vous permet de sauter du<lf>dos du monstre sur lequel vous étiez.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>Charognes
 <string>Avec le temps, les charognes de<lf>monstres commencent à pourrir. Selon<lf>leur état (fraîches ou pourries), vous<lf>pourrez récupérer des matériaux<lf>différents.<lf><lf>En pourrissant, les petits monstres<lf>deviendront parfois des carcasses ou<lf>des pousses de wyverne, sur lesquelles<lf>vous pourrez récupérer des matériaux.<lf>Les cadavres de Gardiens se cristallisent<lf>et produisent des matériaux uniques.
+<string>
+<string>Chasse sous-marine
+<string>Chasse sous-marine
+<string>Chasser le Lagiacrus sous l'eau diffère de<lf>la chasse sur terre. Outre la possibilité de<lf>vous déplacer librement vers le haut et le<lf>bas, vous pouvez vous accrocher au corps<lf>du monstre.
+<string>
+<string>Se déplacer
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> en étant accroché(e)
+<string>Attaquer avec votre arme équipée lorsque<lf>vous vous accrochez à un monstre inflige<lf>des dégâts considérables mais vous fait<lf>également lâcher prise.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> en étant accroché(e)
+<string>Vous pouvez effectuer des attaques au couteau<lf>tout en vous accrochant à un monstre. Elles sont<lf>plus faibles que les attaques avec votre arme,<lf>mais infligent des blessures et forcent le monstre<lf>à lâcher des matériaux. Vous pouvez également<lf>les enchaîner sans lâcher prise.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> en étant accroché(e)
+<string>Lâcher le Lagiacrus.
 <string>
 <string>Akuma
 <string>À propos d'Akuma

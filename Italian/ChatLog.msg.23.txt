@@ -33,6 +33,7 @@
 <string>{0} ti ha inviato<lf>un invito al collegamento ambiente.
 <string>Invito alla missione
 <string>{0} ti ha inviato<lf>un invito alla missione.
+<string><REF RefMenu_177>
 <string>Tempo restante: <PLURAL {0} "{0} minuto" "{0} minuti">.
 <string>Ricerca sul campo
 <string>Inizio di una ricerca sul campo<lf>per {0}.
@@ -88,68 +89,50 @@
 <string>Missione fallita...
 <string>Inviti missione (ripresentati)
 <string>Ora puoi ricevere inviti<lf>missione da {0}.
+<string><REF RefMenu_177>
 <string>Hai consegnato {0} (x{1})
 <string>Strumenti base ottenuti:<lf><COLOR preset="TXT_Accent">Strumenti da caccia</COLOR>.
 <string>Aggiornamento ambiente
 <string>{0} di {1}<lf>vorrebbe offrirti un pasto!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Avvistamento di {0}!<lf>Luogo: {1}
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Adesso puoi segnalare a {0}<lf>in {1} di aver terminato<lf>con successo l'incarico secondario!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Più obiettivi disponibili per la<lf>creazione di una missione combinata!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>È il superpredatore di questa regione!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>Pare stia colpendo insediamenti locali!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>Ha più ricompense del solito!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>È l'obiettivo dell'incarico secondario!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>È il bersaglio nella lista dei desideri!
-<string>Apri mappa
 <string>Ambiente
 <string>È apparso {0}!
-<string>Apri mappa
 <string>Ambiente
 <string>{0}<lf>abbandonerà presto l'area!
-<string>Apri mappa
 <string>{0}<lf>ha abbandonato l'area...
 <string>Aggiornamento ambiente
 <string>È apparso {0}<lf>sul Picco brinachiusa!
-<string>Apri mappa
 <string>Ambiente
 <string>È apparso un branco di mostri<lf>che include {0}!
-<string>Apri mappa
 <string>Ambiente
 <string>Il branco che include {0}<lf>abbandonerà presto l'area!
-<string>Apri mappa
 <string>Il branco che include {0}<lf>ha abbandonato l'area...
 <string>È apparso {0}!
 <string>Ambiente
 <string>Individuato un aumento<lf>di {0}!
-<string>Apri mappa
 <string>Ambiente
 <string>Individuata un'abbondanza<lf>di {0}!
-<string>Apri mappa
 <string>Ambiente
 <string>{0} è disponibile come<lf>supporto sul campo!
-<string>Apri mappa
 <string>Ambiente
 <string>La nave di supporto è arrivata!
-<string>Apri mappa
 <string>Ambiente
 <string>È stato individuato un bozzolo<lf>guardiano grande!
-<string>Apri mappa
 <string>Hai perso {0}.
 <string>Richieste di partecipazione
 <string>Hai ricevuto una richiesta di<lf>partecipazione. Consultala<lf>per accettare o rifiutare.
@@ -171,7 +154,7 @@
 <string>Il {0} può essere<lf>utilizzato di nuovo.
 <string>L'effetto della bevanda fresca è terminato.
 <string>L'effetto della bevanda calda è terminato.
-<string>Impossibile selezionare come<lf>obiettivo missione.<lf>Apri la schermata partenza con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
+<string>Partenza rapida non disponibile.<lf>Apri la schermata di partenza con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
 <string>Apri l'elenco incarichi
 <string>Mostra la priorità dell'obiettivo<lf>e seleziona un incarico.
 <string>Apri
@@ -205,13 +188,10 @@
 <string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} completato!</COLOR>
 <string>Aggiornamento ambiente
 <string>È apparso {0}.<lf>Ha ricompense extra rare!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Incarico secondario completato!<lf>Informa {0}.
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Completa gli incarichi secondari e<lf>fai rapporto al tuo compagno Felyne!
-<string>Apri mappa
 <string>Gruppo di collegamento sciolto<lf>perché c'è solo un membro.
 <string>Impossibile unirsi al collegamento<lf>ambiente di {0}.
 <string>Hai lasciato il collegamento<lf>ambiente di {0}.
@@ -224,13 +204,10 @@
 <string>Ora puoi allestire gli accampamenti<lf>mobili presso le Rovine di Wyveria.
 <string>Aggiornamento ambiente
 <string>È disponibile una missione<lf>con obiettivi multipli.<lf>Influiscono sulla vita delle persone!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>È disponibile una missione<lf>con obiettivi multipli.<lf>Ottieni più ricompense aggiuntive!
-<string>Apri mappa
 <string>Aggiornamento ambiente
 <string>Intraprendi missioni con più obiettivi<lf>per guadagnare ricompense extra rare!
-<string>Apri mappa
 <string>Hai {0} <PLURAL {0} "nuovo messaggio" "nuovi messaggi">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Hai lasciato il gruppo di collegamento.
 <string>Movimento manuale
@@ -243,7 +220,6 @@
 <string>Il crossplay è attualmente abilitato.
 <string>Banco delle missioni Arena
 <string>Un membro del collegamento sta entrando<lf>nell'arena. Vai al <BOLD>Centro supremo</BOLD><lf>per raggiungerlo.
-<string>Apri mappa
 <string>Notifiche squadra
 <string>Hai ricevuto un invito per unirti alla<lf>squadra: <BOLD>{0}</BOLD>.
 <string>Notifiche squadra
@@ -257,7 +233,6 @@
 <string>Ti hanno dato il ruolo di capogruppo<lf>della squadra <BOLD>{0}</BOLD>.
 <string>Aggiornamento ambiente
 <string>È apparso {0}<lf>nel Santuario della Fiaccola!
-<string>Apri mappa
 <string>Bonus di accesso
 <string>Il bonus di accesso di oggi è ora<lf>disponibile nel menu di gioco.
 <string>Ottieni ora
@@ -288,3 +263,7 @@
 <string>Hai ottenuto un nuovo gesto!
 <string>Il potenziamento delle azioni<lf>speciali è attivo!
 <string>Il potenziamento delle azioni<lf>speciali è terminato.
+<string>È stata raggiunta la capacità massima di<lf>oggetti scorta. Oggetti in eccesso rimossi.
+<string>Il Festival dell'Armonia: Festardente<lf>è in corso!<lf>({0} <PLURAL {0} "giorno rimanente" "giorni rimanenti">)
+<string>Il Festival dell'Armonia: Festardente<lf>è in corso!<lf>({0} <PLURAL {0} "ora rimanente" "ore rimanenti">)
+<string>Il Festival dell'Armonia: Festardente<lf>è in corso!<lf>(Termina presto)

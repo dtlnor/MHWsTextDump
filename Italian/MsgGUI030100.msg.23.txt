@@ -819,9 +819,9 @@
 <string>Ridimensionamento (Super-resolution Imaging)
 <string>Usare tecnologie per l'imaging a super risoluzione<lf>ti permette di mantenere prestazioni elevate<lf>e di usufruire di una grafica di qualità superiore.
 <string>NVIDIA DLSS
-<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Richiede una scheda grafica NVIDIA GeForce RTX.<lf>– Se usi una scheda GeForce RTX40 Series e hai<lf>attivato la pianificazione GPU con accelerazione<lf>hardware nel tuo sistema operativo, selezionarla<lf>attiverà la Generazione frame.</COLOR>
+<string>Usa NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Richiede una scheda grafica NVIDIA GeForce RTX.</COLOR>
 <string>AMD FSR
-<string>Usa <FSR>.<lf><COLOR preset="TXT_Accent">– Se hai attivato la pianificazione GPU con accelerazione<lf>hardware nel tuo sistema operativo, selezionarla attiverà<lf>la Generazione frame.</COLOR>
+<string>Usa <FSR>.
 <string>Intel XeSS
 <string>Usa Intel <XESS>.
 <string>Disattiva
@@ -835,6 +835,13 @@
 <string><COLOR preset="TXT_Accent">Frame Generation</COLOR> (con <COLOR preset="TXT_Accent">FSR</COLOR>) non può essere abilitato<lf>con le attuali impostazioni grafiche.
 <string><COLOR preset="TXT_Accent">Frame Generation</COLOR> (con <COLOR preset="TXT_Accent">FSR</COLOR>) non può essere abilitato<lf>con le attuali impostazioni grafiche. L'impostazione<lf>è stata disattivata.
 <string>Frame Generation può essere riattivato modificando<lf>le impostazioni in modalità finestra o, se si è in modalità<lf>finestra senza bordi, passando a una risoluzione che<lf>non visualizzi i bordi neri.
+<string>NVIDIA DLSS 2x
+<string>Attivare questa funzione può migliorare il<lf>frame rate e potrebbe permetterti di superare<lf>il limite massimo di fotogrammi impostato<lf>nelle opzioni di visualizzazione.<lf><COLOR preset="TXT_Accent">Questa impostazione è disponibile solo con<lf>schede grafiche NVIDIA GeForce RTX serie 4000<lf>o superiori.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Attivare questa funzione può migliorare il<lf>frame rate e potrebbe permetterti di superare<lf>il limite massimo di fotogrammi impostato<lf>nelle opzioni di visualizzazione.<lf><COLOR preset="TXT_Accent">Questa impostazione è disponibile solo con<lf>schede grafiche NVIDIA GeForce RTX serie 5000<lf>o superiori.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS automatico
+<string>Attivando questa funzione, la generazione dei<lf>fotogrammi viene regolata dinamicamente su<lf>"Disattivata" o "2x" in base al carico della<lf>CPU e della GPU.<lf><COLOR preset="TXT_Accent">Questa impostazione è disponibile solo con<lf>schede grafiche NVIDIA GeForce RTX serie 4000<lf>o superiori.</COLOR>
 <string>Modalità ridimensionamento
 <string>Regola la qualità della grafica usata con<lf>il ridimensionamento. <COLOR preset="TXT_Accent">(Può essere regolata<lf>solo se il ridimensionamento è attivato.)</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>No
 <string>Scala rendering
 <string>Regola la percentuale della scala del rendering.<lf><COLOR preset="TXT_Accent">(Può essere regolata solo se il ridimensionamento non è attivato.)</COLOR>
+<string>Regola la percentuale della scala di rendering.<lf><COLOR preset="TXT_Accent">(È disponibile solo se vengono soddisfatti dei<lf>requisiti specifici.)</COLOR>
 <string>Ray Tracing
 <string>Regola la qualità del riflesso<lf>della luce usando la tecnologia ray tracing.
 <string>Massima
@@ -1063,6 +1071,12 @@
 <string>Mostra i numeri che indicano i danni inflitti<lf>ai mostri. <COLOR preset="TXT_Accent">(Solo numeri interi.)</COLOR>
 <string>Nascondi
 <string>Nascondi i numeri dei danni.
+<string>Avviso barra salute
+<string>Imposta se la barra salute mostra un avviso<lf>poco prima che i mostri eseguano attacchi che<lf>infliggono ingenti danni.
+<string>Mostra
+<string>La barra salute mostra un avviso (movimento<lf>ondulato, in rosso) per indicare quando<lf>un mostro sta per sferrare un attacco letale.
+<string>Non mostrare
+<string>La barra salute non mostra un avviso per<lf>indicare quando un mostro sta per sferrare un<lf>attacco letale.
 <string>Dimensioni interfaccia
 <string>Modifica la dimensione e i contenuti dell'interfaccia.
 <string>Barra salute
@@ -1192,10 +1206,14 @@
 <string>Mostra sempre la barra salute ridotta<lf>per i tuoi compagni.<lf>La barra si espanderà completamente<lf>solo in risposta ad alcune situazioni.
 <string>Mostra tempo trascorso
 <string>Scegli se la pressione di <ICON PL_ITEM_SLIDER_OPEN> mostrerà<lf>o meno la quantità di tempo trascorso per<lf>le missioni arena, sfida e sfida libera.
+<string>Imposta come appare il tempo trascorso durante le<lf>missioni arena, sfida e sfida libera.<lf><COLOR preset="TXT_Accent">(È solo un riferimento per i membri della missione.)</COLOR>
 <string>Mostra
+<string>Mostra a comando
 <string>Durante alcune missioni, tenere premuto <ICON PL_ITEM_SLIDER_OPEN><lf>permette di visualizzare il tempo trascorso<lf>con i tuoi obiettivi.
 <string>Non mostrare
 <string>Durante alcune missioni, tenere premuto <ICON PL_ITEM_SLIDER_OPEN><lf>permette di nascondere il tempo trascorso<lf>con i tuoi obiettivi.
+<string>Fisso
+<string>Durante alcune missioni, il tempo trascorso<lf>viene sempre visualizzato insieme<lf>ai tuoi obiettivi.
 <string>Chat
 <string>Modifica le impostazioni della finestra delle<lf>comunicazioni o la chat dopo l'invio di un messaggio.
 <string>Chiudi finestra
@@ -1297,6 +1315,16 @@
 <string>Imposta le azioni del cacciatore di supporto<lf>e le relative opzioni.
 <string>Visualizzazione danni cacciatore di supporto
 <string>Imposta se visualizzare i danni quando il cacciatore<lf>di supporto attacca un mostro.
+<string>Mostra uno (con decimali)
+<string>Mostra i numeri che indicano i danni inflitti<lf>ai mostri da un solo cacciatore di supporto<lf>alla volta. <COLOR preset="TXT_Accent">(I valori decimali sono inclusi.)</COLOR>
+<string>Mostra uno (numeri interi)
+<string>Mostra i numeri che indicano i danni inflitti<lf>ai mostri da un solo cacciatore di supporto<lf>alla volta. <COLOR preset="TXT_Accent">(Solo numeri interi.)</COLOR>
+<string>Mostra tutto (con decimali)
+<string>Mostra i numeri che indicano i danni inflitti<lf>ai mostri da tutti i cacciatori di supporto.<lf><COLOR preset="TXT_Accent">(I valori decimali sono inclusi.)</COLOR>
+<string>Mostra tutto (numeri interi)
+<string>Mostra i numeri che indicano i danni inflitti<lf>ai mostri da tutti i cacciatori di supporto.<lf><COLOR preset="TXT_Accent">(Solo numeri interi.)</COLOR>
+<string>Non mostrare
+<string>Nascondi i numeri dei danni per i cacciatori<lf>di supporto.
 <string>Attiva
 <string>Disattiva
 <string>Attacchi di reazione cacciatore di supporto
@@ -1417,6 +1445,7 @@
 <string>Volume chat vocale
 <string>Regola il volume degli altri gruppi nella chat vocale.
 <string>Cambio automatico chat vocale
+<string>Cambio automatico chat
 <string>Imposta se cambiare canali della chat vocale<lf>e testuale in base allo stato della missione.<lf><COLOR preset="TXT_Accent">(Il cambio manuale è sempre possibile.)</COLOR>
 <string>Priorità membri missione
 <string>Passa automaticamente al canale con<lf>i membri della missione quando ne inizi<lf>una, e alla chat dei membri del collegamento<lf>quando la porti a termine.
@@ -1424,6 +1453,7 @@
 <string>Passa automaticamente al canale con<lf>i membri del collegamento quando ti unisci<lf>a un gruppo di collegamento, a prescindere<lf>dallo stato della missione.
 <string>Nessuna priorità
 <string>Non cambiare automaticamente canale della<lf>chat vocale. È possibile solo il cambio manuale.
+<string>Non cambiare automaticamente canale<lf>della chat. È possibile solo<lf>il cambio manuale.
 <string>Lingua compagno Felyne
 <string>Modifica la lingua parlata dai compagni Felyne.
 <string>Lingua Felyne
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Cinese mandarino
+<string>Oggetti raccolti in eccesso
+<string>Imposta cosa accade agli oggetti raccolti se<lf>superano la capienza della borsa oggetti<lf>(temporaneamente messi nella borsa campo).
+<string>Invio automatico borsa campo
+<string>Invia automaticamente alla tua borsa campo gli<lf>oggetti che raccogli e che non possono essere<lf>conservati nella tua borsa oggetti quando<lf>li ottieni.
+<string>Scegli sempre
+<string>Consente di scegliere manualmente quali<lf>oggetti depositare nella tua borsa campo<lf>quando quelli raccolti non possono essere<lf>conservati nella tua borsa oggetti.
+<string>Attiva effetti abilità/oggetti
+<string>Imposta l'effetto visivo quando è attiva<lf>un'abilità o un oggetto.
+<string>Mostra
+<string>Mostra un effetto visivo sul cacciatore, <lf>compagno Felyne e cacciatori di supporto<lf>quando c'è un effetto attivato da un'abilità<lf>o un oggetto.
+<string>Non mostrare
+<string>Non mostrare alcun effetto visivo sul <lf>cacciatore, compagno Felyne o cacciatori <lf>di supporto quando c'è un effetto attivato <lf>da un'abilità o un oggetto.
+<string>Effetto amuleto equipaggiato
+<string>Imposta l'effetto visivo di alcuni amuleti<lf>quando equipaggiati.
+<string>Mostra
+<string>Mostra un effetto visivo se l'amuleto <lf>equipaggiato ha un effetto attivo.
+<string>Non mostrare
+<string>Non mostrare effetti visivi se l'amuleto <lf>equipaggiato ha un effetto attivo.
+<string>Effetti di distorsione
+<string>Attiva o disattiva l'effetto di distorsione<lf>per simulare il calore della lava o<lf>gli ambienti subacquei.
+<string>Attiva
+<string>Mostra un effetto di distorsione<lf>in prossimità della lava o quando<lf>sott'acqua.
+<string>Disattiva
+<string>Non mostrare effetti di distorsione<lf>in prossimità della lava o quando<lf>sott'acqua.

@@ -117,6 +117,7 @@
 <string>开始
 <string>胜利
 <string>落败
+<string>主要任务
 <string>所有任务
 <string>关键任务
 <string>自由任务
@@ -193,6 +194,13 @@
 <string>狩猎后，设施的收获量将暂时增多。
 <string><REF RefEnvironment_0001_0004>出现{0}！
 <string>{0}正在<REF RefEnvironment_0001_0003>出没！
+<string><REF RefGeneral_0029_000>正在举办中！
+<string><REF RefGeneral_0029_001>正在举办中！
+<string>歌姬将于{0}分钟后献唱祈祷之歌
+<string>歌姬正在献唱祈祷之歌
+<string>歌姬的祈祷
+<string>{0}. {1}
+<string>有可以免费享用的餐点！
 <string>最大参加人数
 <string>设置可参加任务的人数上限。<COLOR preset="TXT_Accent">（可设置人数会随连结成员的最大人数改变）</COLOR>
 <string>1
@@ -231,7 +239,7 @@
 <string>上位
 <string>★{0}
 <string>目标
-<string>按任务中指定为第一目标的怪物进行搜索。
+<string>按任务指定的目标怪物搜索。
 <string>原野
 <string>按指定的原野搜索。
 <string>使用语言
@@ -254,7 +262,9 @@
 <string>关键任务
 <string>自由任务
 <string>实地调查任务记录（最近{0}个）
+<string>实地调查任务记录（{0}／16个）
 <string>调查任务（已保存{0}个）
+<string>调查任务（已保存{0}／50个）
 <string>活动任务
 <string>大厅成员任务（{0}件）
 <string>连结成员任务
@@ -265,6 +275,7 @@
 <string>钓鱼大会任务
 <string>钓鱼大会任务（限时发布）
 <string>最短耗时
+<string>要删除目标的最短耗时纪录吗？<lf>（一旦删除将无法恢复）
 <string>选择装备
 <string>成员状况
 <string>支援猎人

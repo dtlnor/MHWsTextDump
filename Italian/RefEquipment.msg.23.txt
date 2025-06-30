@@ -32,8 +32,10 @@
 <string>Nessuna immagine
 <string>Primaria
 <string>Equipaggia come primaria
+<string>Equipaggia come primaria ({0})
 <string>Secondaria
 <string>Equipaggia come secondaria
+<string>Equipaggia come secondaria ({0})
 <string>Arma
 <string>Ciondoli
 <string>Ciondolo principale
@@ -59,21 +61,27 @@
 <string>Solo armature <ICON EQUIP_TYPE2>
 <string>Solo posseduti
 <string>Set di armatura completi
+<string>Mostra lista desideri
+<string>Mostra α
+<string>Mostra β
 <string>Migliora
 <string>Forgia
 <string>Necessari materiali e {0} z.<lf>Continuare?
-<string>Necessari materiali e <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Forgiare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
+<string>Necessari materiali e <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Creare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
 <string>Questo è un set di armatura completo.<lf>Verranno usati i materiali necessari<lf>e {0} z per creare tutto il set. <lf>Continuare?
 <string>Questo è un set di armatura completo.<lf>Verranno usati i materiali necessari e<lf>{0} z per creare tutto il set. Continuare?<lf><lf>(Otterrai anche il <COLOR preset="TXT_Accent">set di stile armatura</COLOR>.)
 <string>Equipaggiare adesso?
 <string>Se cambi questa parte, <COLOR preset="TXT_Danger">tutte le altre parti del<lf>set di stile armatura verranno rimosse</COLOR>.<lf>Vuoi cambiare la parte di armatura?
 <string>Questo è un set di armatura completo.<lf>Vuoi equipaggiare tutte le parti del set?<lf><lf><COLOR preset="TXT_Danger">(Lo stile armatura sarà nascosto.)</COLOR>
+<string>Necessari materiali e <NUMBER {0}> z.<lf>Continuare?<lf><COLOR preset="TXT_Accent">Riceverai gli oggetti seguenti in cambio dei punti in eccesso.</COLOR>
+<string>Necessari materiali e <NUMBER {0}> z. Continuare?<lf>(Sbloccherai anche lo <COLOR preset="TXT_Accent">stile armatura</COLOR> corrispondente.)<lf><COLOR preset="TXT_Accent">Riceverai gli oggetti seguenti in cambio dei punti in eccesso.</COLOR>
 <string>Rimuovere {0} <PLURAL {0} "punto in eccesso" "punti in eccesso">?
 <string>Anteprima
 <string><COLOR preset="TXT_Danger">La cassa equipaggiamento è piena.</COLOR>
 <string><COLOR preset="TXT_Danger">Non può essere ancora forgiato o potenziato.</COLOR>
 <string><COLOR preset="TXT_Danger">Non hai l'equipaggiamento necessario.</COLOR>
 <string><COLOR preset="TXT_Danger">Denaro o materiali insufficienti.</COLOR>
+<string><COLOR preset="TXT_Danger">Denaro o materiali insufficienti (puoi forgiare un set di armatura in una volta sola se i materiali necessari sono disponibili).</COLOR>
 <string><COLOR preset="TXT_Danger">Denaro insufficiente.</COLOR>
 <string><COLOR preset="TXT_Danger">Miglioramento massimo raggiunto.</COLOR>
 <string>Seleziona le sfere-armatura da usare.
@@ -96,7 +104,7 @@
 <string><COLOR preset="TXT_Danger">Impossibile equipaggiare in questo livello di slot.</COLOR>
 <string><COLOR preset="TXT_Danger">Questo kinsetto ha raggiunto le sue dimensioni massime.</COLOR>
 <string>Necessiti di {0} z.<lf>Continuare?
-<string>Necessari <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Forgiare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
+<string>Necessari <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Creare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
 <string>Materiali evoluzione
 <string>Cassa equipaggiamento
 <string>Cassa stile armatura
@@ -131,7 +139,10 @@
 <string>Rimuovere dalla lista dei desideri?
 <string>Rimuovere dalla lista dei desideri?<lf><COLOR preset="TXT_Danger">(Coincide con i set equipaggiamento.<lf>L'equipaggiamento rimosso da qui verrà rimosso<lf>anche dai set equipaggiamento.)</COLOR>
 <string>Rimuovi tutti i gioielli
+<string>Rimuovi gioielli equipaggiati
 <string>Rimuovere tutti i gioielli equipaggiati?
+<string>Rimuovi tutti i gioielli
+<string>Rimuovere tutti i gioielli dall'equipaggiamento?
 <string><INPUTMSG RefEquipment_SUB_13_S>
 <string><INPUTMSG RefEquipment_SUB_14_S>
 <string><INPUTMSG RefEquipment_SUB_15_S>
@@ -200,6 +211,8 @@
 <string>Livello kinsetto
 <string>Tipo scarica
 <string>Quantità
+<string>Punti fusione
+<string>Punti forgiatura
 <string>1 – 3
 <string>2 – 3
 <string>3

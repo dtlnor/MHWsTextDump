@@ -3,6 +3,7 @@
 <string>Iniciando o jogo.
 <string>Pedido inválido.<lf>{0}
 <string>Falha ao obter informação.<lf>{0}
+<string>Execução impedida devido à mudança de situação.<lf>{0}
 <string>Conectando...
 <string>Verificando conexão com o servidor...
 <string>Ocorreu um erro de comunicação.<lf>{0}
@@ -18,8 +19,9 @@
 <string>Conexão com {0} perdida.<lf>{1}
 <string>Você está no Modo Offline. Você continuará jogando<lf>normalmente. Para voltar ao Modo Online, converse<lf>com seu operador para acessar as funções de<lf>comunicação no Menu de Troca de Lobby.
 <string>Você está no Modo Offline. Para voltar ao Modo<lf>Online, fale com sua Assistente e acesse as<lf>funções de comunicação no Menu de Troca de Lobby.
+<string>Você está no Modo Offline.<lf>Para voltar ao Modo Online, acesse as<lf>funções de comunicação no Menu de<lf>Troca de Lobby falando com seu/sua<lf>Assistente atual ou na sua tenda.
 <string>Alterado para o modo Um Jogador Online devido à<lf>inatividade. Você continuará jogando normalmente.<lf>{0}
-<string>Não foi possível enviar pois já possuem<lf>amizade, ou está esperando uma resposta<lf>de uma solicitação.<lf>{0}
+<string>Não é possível enviar um nova solicitação:<lf>- já fizeram amizade;<lf>- ou ainda há uma solicitação de amizade<lf>que não foi respondida.<lf>{0}
 <string>Falha ao enviar. Você ou a outra pessoa já<lf>atingiram o limite de Amigos Caçadores.<lf>{0}
 <string>Você atingiu o limite de Amigos Caçadores,<lf>não é possível adicionar mais jogadores.<lf>{0}
 <string>Falha ao enviar porque a outra pessoa já atingiu<lf>o limite de Amigos Caçadores.<lf>{0}
@@ -49,6 +51,8 @@
 <string>Plataforma e configurações de crossplay<lf>não correspondem.<lf>{0}
 <string>Esta operação é restrita.<lf>Verifique as configurações do console.<lf>{0}
 <string>O jogador está offline.<lf>{0}
+<string>Não é possível entrar no lobby de um jogador<lf>enquanto ele estiver no modo Um Jogador Online.<lf>{0}
+<string>Não é possível entrar na mesma missão ou<lf>Grupo de Elo que um membro bloqueado.<lf>{0}
 <string>A conexão com a sessão foi perdida.<lf>{0}
 <string>Falha ao criar sessão.<lf>{0}
 <string>Falha ao buscar sessão.<lf>{0}
@@ -75,6 +79,10 @@
 <string>Falha ao participar pois a sessão tem<lf>configurações diferentes de jogo em<lf>crossplay. Veja suas configurações em<lf><BOLD>Opções</BOLD> na tela inicial do jogo.<lf>{0}
 <string>Limite de jogadores do Grupo de Elo atingido.<lf>Não é possível adicionar mais jogadores.<lf><lf>{0}
 <string>Não é possível entrar em Lobbies Privados/Lobbies<lf>do Esquadrão pela Busca por Amigo Caçador. Só é<lf>possível entrar pela Busca por ID do Lobby/Busca<lf>de Lobby do Esquadrão.<lf>{0}
+<string>Uso de trapaça detectado.<lf>Não foi possível aceitar a missão.<lf>{0}
+<string>Uso de trapaça detectado.<lf>Não foi possível criar a missão.<lf>{0}
+<string>Uso de trapaça detectado.<lf>Falha ao entrar na missão.<lf>{0}
+<string>Uso de trapaça detectado.<lf>Falha ao iniciar a missão.<lf>{0}
 <string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta violou os seguintes termos: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, as <COLOR preset="TXT_Accent">funções de comunidade<lf>foram temporariamente restritas</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso.</COLOR>
 <string>Comportamento Abusivo/Desordeiro
 <string>Tipos de Comportamento Proibido

@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>Focus Mode
 <string>Focus Mode
-<string>Focus Mode allows you to carefully aim<lf>your attack or guard.<lf><lf>When focusing on a monster, scoutflies<lf>will highlight its wounds or weak points.
+<string>Focus Mode allows you to carefully aim<lf>your attack or guard.<lf><lf>When focusing on a monster, scoutflies<lf>will highlight its wounds or weak points.<lf><lf>You can also switch focus camera targets<lf>during Focus Mode by looking at a monster<lf>and using <ICON PL_CAMERA_LOCK_CHANGE>. This can also be done while<lf>your weapon is sheathed.
 <string>
 <string>Focus Mode
 <string><ICON ME PL_AIM> With Weapon Drawn
@@ -480,7 +486,7 @@
 <string>Bracing allows you to hold on tightly<lf>to the monster you are mounted on<lf>and also reduces the amount of stamina<lf>used when the monster fights back.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> While Mounted
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> While Mounted
 <string>Dismounting allows you to jump off<lf>of a mounted monster early.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>Aging Carcasses
 <string>Over time, monster carcasses will start<lf>to rot. The materials you can carve<lf>from it will differ between its fresh state<lf>and rotten state.<lf><lf>Small monsters that have rotted will<lf>sometimes yield bonepiles or<lf>wyvernsprouts, which you can collect<lf>materials from. Guardian carcasses<lf>change into a crystallized state which<lf>yield their own unique materials.
+<string>
+<string>Underwater Hunting
+<string>Underwater Hunting
+<string>Hunting the Lagiacrus underwater enables<lf>actions and movement that differ from<lf>when you're on land. In addition to three-<lf>dimensional movement up and down, you<lf>can also cling to the monster's body.
+<string>
+<string>Move
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> While Clinging
+<string>Equipped weapon attacks while clinging to<lf>a monster will deal considerable damage,<lf>but will also cause you to let go of it.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> While Clinging
+<string>Knife attacks can also be performed while<lf>clinging to the monster. They may not do<lf>as much damage as weapon attacks, but<lf>they are more effective at inflicting wounds<lf>and causing the monster to drop materials.<lf>They also don't cause you to let go, enabling<lf>continuous attacks.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> While Clinging
+<string>Let go of Lagiacrus.
 <string>
 <string>Akuma
 <string>About Akuma

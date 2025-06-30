@@ -238,7 +238,7 @@
 <string>Enables shortcuts for the Custom Radial Menu.
 <string>Disable
 <string>Disables shortcuts for the Custom Radial Menu.
-<string>Item Use Controls
+<string>Radial Menu: Item Use Controls
 <string>Adjusts how items, Shoutouts, etc., are selected<lf>from the Custom Radial Menu.
 <string>Type 1
 <string>Releasing <ICON PAD PL_DUMMY_CAMERA> selects items, Shoutouts, etc.
@@ -819,9 +819,9 @@
 <string>Upscaling (Super-resolution Imaging)
 <string>Uses Super-resolution imaging technology in order<lf>to maintain high performance while also enjoying<lf>superior graphical quality.
 <string>NVIDIA DLSS
-<string>Uses NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requires a NVIDIA GeForce RTX graphics card.<lf>– If you're using a GeForce RTX40 Series card<lf>and have enabled Hardware-Accelerated GPU<lf>Scheduling in your OS, selecting this setting will<lf>allow you to enable Frame Generation.</COLOR>
+<string>Uses NVIDIA <DLSS>.<lf><COLOR preset="TXT_Accent">– Requires an NVIDIA GeForce RTX graphics card.</COLOR>
 <string>AMD FSR
-<string>Uses <FSR>.<lf><COLOR preset="TXT_Accent">– If you've enabled Hardware-Accelerated GPU<lf>Scheduling in your OS, selecting this setting will<lf>allow you to enable Frame Generation.</COLOR>
+<string>Uses <FSR>.
 <string>Intel XeSS
 <string>Uses Intel <XESS>.
 <string>Disable
@@ -835,6 +835,13 @@
 <string><COLOR preset="TXT_Accent">Frame Generation</COLOR> (using <COLOR preset="TXT_Accent">FSR</COLOR>) cannot be enabled<lf>with your current display settings.
 <string><COLOR preset="TXT_Accent">Frame Generation</COLOR> (using <COLOR preset="TXT_Accent">FSR</COLOR>) cannot be enabled<lf>with your current display settings. As a result, the<lf>setting has automatically been set to <BOLD>Disable</BOLD>.
 <string>Frame Generation can be re-enabled by changing<lf>your settings to Windowed Mode, or if you are in<lf>Borderless Window Mode, change to a resolution that<lf>does not display any black borders.
+<string>NVIDIA DLSS 2x
+<string>Enabling this feature can improve frame rates<lf>and may allow you to surpass the maximum<lf>frame rate set under the Display options. <COLOR preset="TXT_Accent">This<lf>setting is only available when with NVIDIA<lf>GeForce RTX 4000 Series or higher graphics<lf>cards.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>Enabling this feature can improve frame rates<lf>and may allow you to surpass the maximum<lf>frame rate set under the Display options. <COLOR preset="TXT_Accent">This<lf>setting is only available when with NVIDIA<lf>GeForce RTX 5000 Series or higher graphics<lf>cards.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS Auto
+<string>Enabling this feature dynamically adjusts Frame<lf>Generation to either "Disable" or "2x" based on<lf>the CPU and GPU load. <COLOR preset="TXT_Accent">This setting is only<lf>available when with NVIDIA GeForce RTX 4000<lf>Series or higher graphics cards.</COLOR>
 <string>Upscaling Mode
 <string>Adjusts the graphical quality used when upscaling.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling has been<lf>enabled.)</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>Off
 <string>Render Scaling
 <string>Adjusts the render scale percentage.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling is not enabled.)</COLOR>
+<string>Adjusts the render scale percentage. <COLOR preset="TXT_Accent">(Only<lf>available if specific requirements have been met.)</COLOR>
 <string>Ray Tracing
 <string>Adjusts the quality of light reflection<lf>using ray tracing technology.
 <string>Highest
@@ -1063,6 +1071,12 @@
 <string>Displays numbers onscreen indicating<lf>the damage dealt to monsters.<lf><COLOR preset="TXT_Accent">(Whole values only.)</COLOR>
 <string>Do Not Display
 <string>Does not display damage numbers.
+<string>Health Gauge Warning
+<string>Adjusts whether the Health Gauge displays<lf>a warning right before monsters perform<lf>particularly damaging attacks.
+<string>Display
+<string>The Health Gauge displays a warning (undulates<lf>red) to indicate when a monster is about to unleash<lf>an attack that would deplete your remaining health.
+<string>Do Not Display
+<string>The Health Gauge does not display a warning<lf>to indicate when a monster is about to unleash<lf>an attack that would deplete your remaining health.
 <string>HUD
 <string>Adjusts the display size and contents of the HUD.
 <string>Health Gauge
@@ -1192,10 +1206,14 @@
 <string>Displays a minimized Health Gauge for your<lf>Palico and other companions by default.<lf>The gauge will expand to its full display<lf>in response to certain situations.
 <string>Display Elapsed Time for Some Quests
 <string>Adjusts whether holding <ICON PL_ITEM_SLIDER_OPEN> will display the<lf>amount of time that has passed during Arena,<lf>Challenge, and Free Challenge Quests.
+<string>Adjusts how elapsed time displays during Arena, Challenge,<lf>and Free Challenge Quests. <COLOR preset="TXT_Accent">(The elapsed time displayed is<lf>just a reference for quest members.)</COLOR>
 <string>Display
+<string>Optional Display
 <string>During certain quests, holding <ICON PL_ITEM_SLIDER_OPEN> will display<lf>the elapsed time with your objectives.
 <string>Do Not Display
 <string>During certain quests, holding <ICON PL_ITEM_SLIDER_OPEN> will not<lf>display the elapsed time with your objectives.
+<string>Fixed
+<string>During certain quests, the elapsed time always<lf>displays with your objectives.
 <string>Chat Window
 <string>Adjusts the settings for the communication<lf>window and chat log after a message is sent.
 <string>Close Window
@@ -1297,6 +1315,16 @@
 <string>Adjusts Support Hunter actions and <lf>related settings.
 <string>Support Hunter Damage Display
 <string>Adjusts whether damage numbers are displayed<lf>when a Support Hunter attacks a monster.
+<string>Display One (With Decimals)
+<string>Displays numbers onscreen indicating the damage<lf>dealt to monsters by only one Support Hunter at<lf>a time. <COLOR preset="TXT_Accent">(Decimal values included.)</COLOR>
+<string>Display One (Whole Values Only)
+<string>Displays numbers onscreen indicating the damage<lf>dealt to monsters by only one Support Hunter at<lf>a time. <COLOR preset="TXT_Accent">(Whole values only.)</COLOR>
+<string>Display All (With Decimals)
+<string>Displays numbers onscreen indicating the damage<lf>dealt to monsters by all Support Hunters.<lf><COLOR preset="TXT_Accent">(Decimal values included.)</COLOR>
+<string>Display All (Whole Values Only)
+<string>Displays numbers onscreen indicating the damage<lf>dealt to monsters by all Support Hunters.<lf><COLOR preset="TXT_Accent">(Whole values only.)</COLOR>
+<string>Do Not Display
+<string>Does not display damage numbers for Support<lf>Hunters.
 <string>Enable
 <string>Disable
 <string>Support Hunter Offset Attacks
@@ -1417,6 +1445,7 @@
 <string>Voice Chat Volume
 <string>Adjusts the volume of other parties in voice chat.
 <string>Voice Chat Auto-toggle
+<string>Chat Auto-toggle
 <string>Adjusts automatic switch settings for voice<lf>and text channels, and chat log filters.<lf><COLOR preset="TXT_Accent">(Switching can be done manually at any time.)</COLOR>
 <string>Prioritize Quest Members
 <string>Automatically switches to a quest member<lf>channel when starting a quest, and a Link<lf>Member channel when returning from a quest.
@@ -1424,6 +1453,7 @@
 <string>Automatically switches to a Link Member<lf>channel when joining a Link Party, regardless<lf>of quest status.
 <string>Do Not Prioritize
 <string>Does not prioritize or automatically switch<lf>voice chat channels. Switching must be<lf>done manually.
+<string>Does not automatically switch chat channels.<lf>Switching must be done manually.
 <string>Felyne Language
 <string>Adjusts the language spoken by Felynes.
 <string>Felyne Language
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>Mandarin Chinese
+<string>Excess Item Gathering Settings
+<string>Adjusts the setting for when items you gather<lf>exceed what you can carry in your item pouch<lf>and are temporarily stored in your field pouch.
+<string>Auto-send to Field Pouch
+<string>Automatically sends items you gather that cannot<lf>be stored in your item pouch to your field pouch<lf>when you obtain them.
+<string>Always Choose
+<string>Allows you to manually choose which items to store<lf>in your field pouch when what you gather cannot be<lf>stored in your item pouch.
+<string>Activate Skill/Item Effects
+<string>Adjusts whether a skill or item displays an effect<lf>when active.
+<string>Display
+<string>Displays a glowing effect for the Hunter, Palico,<lf>and/or Support Hunters indicating that a skill<lf>or item is active.
+<string>Do Not Display
+<string>Does not display a glowing effect for the Hunter,<lf>Palico, and/or Support Hunters indicating that<lf>a skill or item is active.
+<string>Equipped Talisman Effect
+<string>Adjusts whether certain talismans display a visual<lf>effect when equipped.
+<string>Display
+<string>Displays a visual effect of an equipped talisman,<lf>if applicable.
+<string>Do Not Display
+<string>Does not display a visual effect of an<lf>equipped talisman.
+<string>Distortion Effects
+<string>Adjusts whether a distortion effect is used to<lf>simulate lava heat or underwater environments.
+<string>Enable
+<string>Displays a distortion effect on-screen<lf>when underwater or near lava.
+<string>Disable
+<string>Does not display a distortion effect on-screen<lf>when underwater or near lava.

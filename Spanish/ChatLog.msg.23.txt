@@ -33,6 +33,7 @@
 <string>{0}<lf>te ha invitado a un entorno vinculado.
 <string>Invitación a misión
 <string>{0}<lf>te ha invitado a una misión.
+<string><REF RefMenu_177>
 <string>Tiempo restante: <PLURAL {0} "{0} minuto" "{0} minutos">.
 <string>Estudio de campo
 <string>Comenzando estudio de campo de<lf>{0}.
@@ -88,68 +89,50 @@
 <string>La misión ha fracasado...
 <string>Invitaciones a misión (reenviadas)
 <string>Ya puedes recibir invitaciones<lf>de misión de {0}.
+<string><REF RefMenu_177>
 <string>Entregado: {0} (x{1})
 <string>Objeto fijo recibido<lf><COLOR preset="TXT_Accent">Utensilios esenciales</COLOR>
 <string>Novedad en el entorno
 <string>¡{0} de {1}<lf>quiere invitarte a comer!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Avistamiento de {0}!<lf>Zona: {1}
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Ya puedes informar del éxito de tu tarea<lf>secundaria a {0}!<lf>Ubicación: {1}
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Varios objetivos disponibles para<lf>la creación de misión combinada!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Ha aparecido el superdepredador<lf>de esta región, {0}!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡{0} a la vista!<lf>¡Está atacando los asentamientos locales!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Ha aparecido un monstruo con más<lf>recompensas: {0}!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Ha aparecido la tarea secundaria:<lf>{0}!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Ha aparecido el objetivo deseado:<lf>{0}!
-<string>Abrir mapa
 <string>Entorno
 <string>¡{0} a la vista!
-<string>Abrir mapa
 <string>Entorno
 <string>¡El monstruo {0}<lf>está a punto de abandonar la zona!
-<string>Abrir mapa
 <string>{0}<lf>ha abandonado la zona...
 <string>Novedad en el entorno
 <string>¡{0} ha aparecido en<lf>el pico de Escarcha!
-<string>Abrir mapa
 <string>Entorno
 <string>Ha aparecido una manada de monstruos,<lf>¡e incluye {0}!
-<string>Abrir mapa
 <string>Entorno
 <string>¡La manada que incluye {0}<lf>está a punto de abandonar la zona!
-<string>Abrir mapa
 <string>La manada que incluye {0}<lf>ha abandonado la zona...
 <string>¡{0} a la vista!
 <string>Entorno
 <string>¡Se ha detectado un brote<lf>de {0}!
-<string>Abrir mapa
 <string>Entorno
 <string>¡Se ha detectado un aumento<lf>de {0}!
-<string>Abrir mapa
 <string>Entorno
 <string>¡{0} está disponible<lf>como ayudante de caza!
-<string>Abrir mapa
 <string>Entorno
 <string>¡Ha llegado el barco de apoyo!
-<string>Abrir mapa
 <string>Entorno
 <string>¡Crisálida de Guardián grande detectada!
-<string>Abrir mapa
 <string>Se ha perdido {0}.
 <string>Solicitudes de acceso
 <string>Has recibido una solicitud de acceso.<lf>Revísala para aceptarla o rechazarla.
@@ -171,7 +154,7 @@
 <string>Ya puedes usar {0}.
 <string>El efecto de la bebida fría<lf>se ha agotado.
 <string>El efecto de la bebida caliente<lf>se ha agotado.
-<string>No se ha podido designar como objetivo de<lf>misión. Abre la pantalla de inicio con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
+<string>No se ha podido utilizar el inicio rápido.<lf>Abre la pantalla de inicio con <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
 <string>Abrir información de tarea
 <string>Mostrar prioridad de objetivos<lf>y seleccionar una tarea.
 <string>Abrir
@@ -205,13 +188,10 @@
 <string>{0}<lf><COLOR preset="TXT_Accent">Completado: {1}/{2}</COLOR>
 <string>Novedad en el entorno
 <string>{0} a la vista.<lf>¡Y con recompensas extra poco comunes!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Tarea secundaria completada!<lf>Informa a {0}.
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Puedes informar a tu camarada Felyne<lf>de las tareas secundarias completadas!
-<string>Abrir mapa
 <string>Grupo vinculado disuelto ya que<lf>eres el único miembro restante.
 <string>No te has podido unir al entorno<lf>vinculado de {0}.
 <string>Has abandonado el entorno vinculado<lf>de {0}.
@@ -224,13 +204,10 @@
 <string>Ya puedes montar y personalizar<lf>campamentos temporales en<lf>las Ruinas de Wyveria.
 <string>Novedad en el entorno
 <string>Ya está disponible una misión<lf>con varios objetivos.<lf>¡Están afectando las vidas de la gente!
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>Se puede crear una misión con varios<lf>objetivos que ofrezcan más recompensas<lf>extra de lo habitual.
-<string>Abrir mapa
 <string>Novedad en el entorno
 <string>¡Supera misiones con varios objetivos<lf>para conseguir recompensas extra<lf>poco comunes!
-<string>Abrir mapa
 <string>Tienes {0} <PLURAL {0} "nuevo mensaje" "nuevos mensajes">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Has abandonado el grupo vinculado.
 <string>Movimiento manual
@@ -243,7 +220,6 @@
 <string>El juego interplataforma está activado.
 <string>Puesto de misiones de la Arena
 <string>Un miembro vinculado ha entrado en la Arena.<lf>Ve al <BOLD>gran centro</BOLD> para unirte a él.
-<string>Abrir mapa
 <string>Notificación de brigada
 <string>Has recibido una invitación para unirte<lf>a la brigada: <BOLD>{0}</BOLD>.
 <string>Notificación de brigada
@@ -257,7 +233,6 @@
 <string>Te han designado como líder de<lf>la brigada <BOLD>{0}</BOLD>.
 <string>Novedad en el entorno
 <string>¡{0} ha aparecido<lf>en el santuario de la Tea Dracónida!
-<string>Abrir mapa
 <string>Bonus de acceso
 <string>El bonus de acceso de hoy ya está<lf>disponible en el menú de inicio.
 <string>Reclama ya
@@ -288,3 +263,7 @@
 <string>¡Nuevo gesto obtenido!
 <string>¡Se ha activado el efecto potenciador<lf>de una acción especial!
 <string>Se ha agotado el efecto potenciador<lf>de una acción especial.
+<string>No puedes llevar más objetos de apoyo.<lf>Se han descartado los sobrantes.
+<string>¡El Festival de la Armonía: Chisparranda<lf>ha empezado!<lf>(Queda: {0} <PLURAL {0} "día" "días">)
+<string>¡El Festival de la Armonía: Chisparranda<lf>ha empezado!<lf>(Queda: {0} <PLURAL {0} "hora" "horas">)
+<string>¡El Festival de la Armonía: Chisparranda<lf>ha empezado!<lf>(Terminará pronto)

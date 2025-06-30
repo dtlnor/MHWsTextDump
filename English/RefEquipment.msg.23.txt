@@ -32,8 +32,10 @@
 <string>No Image
 <string>Primary
 <string>Equip as Primary Weapon
+<string>Equip as Primary Weapon ({0})
 <string>Secondary
 <string>Equip as Secondary Weapon
+<string>Equip as Secondary Weapon ({0})
 <string>Weapon
 <string>Pendants
 <string>Primary Pendant
@@ -59,21 +61,27 @@
 <string><ICON EQUIP_TYPE2> Armor Only
 <string>Show Owned
 <string>Full Armor Sets
+<string>Show Wishlisted
+<string>Show α
+<string>Show β
 <string>Upgrade
 <string>Forge
 <string>Requires materials and {0}z.<lf>Proceed?
-<string>Requires materials and <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Forging this equipment will<lf>also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
+<string>Requires materials and <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Making this equipment will also unlock it<lf>as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)
 <string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?
-<string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?<lf><lf>(Forging this equipment will also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
+<string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?<lf><lf>(Making this will also unlock it as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)
 <string>Equip now?
 <string>If you change this piece, <COLOR preset="TXT_Danger">all other pieces of the<lf>full armor set will be removed</COLOR>.<lf>Change armor piece?
 <string>This is a full armor set.<lf>Equip all pieces of the set?<lf><lf><COLOR preset="TXT_Danger">(Layered armor will be hidden.)</COLOR>
+<string>Requires materials and <NUMBER {0}>z.<lf>Proceed?<lf><COLOR preset="TXT_Accent">Excess points will be returned as the items below.</COLOR>
+<string>Requires materials and <NUMBER {0}>z. Proceed?<lf>(Forging this will allow you to use it as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)<lf><COLOR preset="TXT_Accent">Excess points will be returned as the items below.</COLOR>
 <string>Discard {0} <PLURAL {0} "surplus point" "surplus points">?
 <string>Preview
 <string><COLOR preset="TXT_Danger">The equipment box is full.</COLOR>
 <string><COLOR preset="TXT_Danger">This cannot be forged or upgraded yet.</COLOR>
 <string><COLOR preset="TXT_Danger">You do not have the required equipment.</COLOR>
 <string><COLOR preset="TXT_Danger">Insufficient funds or materials.</COLOR>
+<string><COLOR preset="TXT_Danger">Insufficient funds or materials. (A full armor set can be crafted all at once with the required materials.)</COLOR>
 <string><COLOR preset="TXT_Danger">Insufficient funds.</COLOR>
 <string><COLOR preset="TXT_Danger">Maximum upgrade reached.</COLOR>
 <string>Select an Armor Sphere to use.
@@ -96,7 +104,7 @@
 <string><COLOR preset="TXT_Danger">Cannot equip this on this slot level.</COLOR>
 <string><COLOR preset="TXT_Danger">This Kinsect has grown to full size.</COLOR>
 <string>{0}z required.<lf>Continue?
-<string>Requires <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Forging this equipment will<lf>also produce <COLOR preset="TXT_Accent">Layered Armor</COLOR>)
+<string>Requires <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Making this equipment will also unlock it<lf>as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)
 <string>Nurturing Materials
 <string>Equipment Box
 <string>Layered Armor Box
@@ -131,7 +139,10 @@
 <string>Remove from Wishlist?
 <string>Remove from wishlist?<lf><COLOR preset="TXT_Danger">(Overlaps with equipment loadouts.<lf>Equipment removed here will also be<lf>removed from equipment loadouts.)</COLOR>
 <string>Remove All Decorations
+<string>Remove Equipped Decorations
 <string>Remove all equipped decorations?
+<string>Remove All Decorations
+<string>Remove all decorations from all equipment?
 <string><INPUTMSG RefEquipment_SUB_13_S>
 <string><INPUTMSG RefEquipment_SUB_14_S>
 <string><INPUTMSG RefEquipment_SUB_15_S>
@@ -200,6 +211,8 @@
 <string>By Kinsect Lv
 <string>By Shelling Type
 <string>By Amount
+<string>Melding Points
+<string>Smelting Points
 <string>1 – 3
 <string>2 – 3
 <string>3

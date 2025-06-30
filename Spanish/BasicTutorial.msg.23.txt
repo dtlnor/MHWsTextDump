@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>Modo preciso
 <string>Modo preciso
-<string>El modo preciso te permite dirigir con<lf>precisión tu ataque o tu defensa.<lf><lf>Al usar este modo sobre un monstruo<lf>los lafarillos resaltarán cualquier<lf>herida o punto débil.
+<string>El modo preciso te permite dirigir con<lf>precisión tu ataque o tu defensa.<lf><lf>Al usar este modo sobre un monstruo<lf>los lafarillos resaltarán cualquier<lf>herida o punto débil.<lf><lf>Además, en modo preciso puedes<lf>cambiar el objetivo de la cámara<lf>automática mirando al monstruo y<lf>pulsando <ICON PL_CAMERA_LOCK_CHANGE>. Puedes hacerlo incluso<lf>si tienes el arma envainada.
 <string>
 <string>Modo preciso
 <string><ICON ME PL_AIM> con arma desenvainada
@@ -480,7 +486,7 @@
 <string>Si te agarras con fuerza al monstruo,<lf>se reducirá la cantidad de resistencia<lf>usada cuando el monstruo se resista.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> mientras montas
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> mientras montas
 <string>Desmontar te permite saltar desde un<lf>monstruo antes de tiempo.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -541,6 +547,30 @@
 <string>Cadáveres putrefactos
 <string>Con el tiempo, los cadáveres de<lf>monstruos empezarán a pudrirse.<lf>Los materiales que puedes despiezar<lf>variarán en función de si son frescos<lf>o de si han comenzado a pudrirse.<lf><lf>Los monstruos pequeños putrefactos<lf>formarán pilas de huesos o brotes<lf>wyverianos de los que obtener<lf>materiales. Los cadáveres de los<lf>Guardianes se cristalizan, por lo que<lf>otorgan materiales propios y únicos.
 <string>
+<string>Cacería subacuática
+<string>Cacería subacuática
+<string>Al cazar al Lagiacrus bajo el agua,<lf>podrás realizar acciones y movimientos<lf>distintos a los terrestres.<lf>Además del movimiento tridimensional,<lf>hacia arriba y abajo, también puedes<lf>aferrarte al cuerpo del monstruo.
+<string>
+<string>Moverse
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> mientras te aferras
+<string>Los ataques con el arma equipada<lf>mientras te aferras al monstruo<lf>infligirán un daño considerable,<lf>pero también harán que te sueltes.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> mientras te aferras
+<string>También se pueden dar cuchilladas mientras<lf>te aferras al monstruo. No infligirán<lf>tanto daño como tus ataques con arma,<lf>pero son más efectivas a la hora de infligir<lf>heridas y hacer que el monstruo suelte<lf>materiales. Tampoco hacen que te sueltes,<lf>por lo que podrás seguir con los ataques.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> cuando te estés aferrando
+<string>Soltarse del Lagiacrus.
+<string>
 <string>Akuma
 <string>Acerca de Akuma
 <string>Un demonio de la lucha que ha recibido<lf>el Satsui no Hado en su ser como<lf>parte de su misión para convertirse<lf>en el maestro definitivo del puño.
@@ -562,7 +592,7 @@
 <string>
 <string>Drive Impact
 <string><ICON PL_ITEM> con arma envainada
-<string>Un ataque que se lanza seleccionando<lf>"Drive Impact" en la barra de objetos,<lf>o pulsando <ICON PL_AIM> <ICON PLUS> <ICON PL_ATTACK_SP_B> durante un combo.<lf>Solo puedes ejecutar este ataque<lf>con el indicador Drive entero.<lf><lf>Si golpeas la herida o punto débil de un<lf>monstruo, el ataque se convierte en Shun<lf>Goku Satsu. Con el set de armadura<lf>completo de Akuma equipado, el ataque<lf>adquiere propiedades interceptoras.<lf>Activar el Shun Goku Satsu o un ataque<lf>interceptor consumirá el indicador Drive.
+<string>Un ataque que se lanza seleccionando<lf><COLOR preset="TXT_Accent">Drive Impact</COLOR> en la barra de objetos,<lf>o pulsando <ICON PL_AIM> <ICON PLUS> <ICON PL_ATTACK_SP_B> durante un combo.<lf>Solo puedes ejecutar este ataque<lf>con el indicador Drive entero.<lf><lf>Si golpeas la herida o punto débil de un<lf>monstruo, el ataque se convierte en Shun<lf>Goku Satsu. Con el set de armadura<lf>completo de Akuma equipado, el ataque<lf>adquiere propiedades interceptoras.<lf>Activar el Shun Goku Satsu o un ataque<lf>interceptor consumirá el indicador Drive.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2219>
 <string>Una técnica secreta que abruma al<lf>enemigo con una miríada de ataques<lf>ejecutados en un solo segundo.<lf>Es efectivo contra las heridas y<lf>puntos débiles de los monstruos.<lf><lf>Puede que haya otra manera de<lf>llevar a cabo este ataque...

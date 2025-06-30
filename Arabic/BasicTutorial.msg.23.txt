@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>وضع التركيز
 <string>وضع التركيز
-<string><LSNR "يسمح لكَ" "يسمح لكِ"> وضع التركيز بشن <LSNR "هجومكَ" "هجومكِ"><lf>بدقة أو التصدي لهجوم.<lf><lf>سيسلط ذباب الاستطلاع الضوء على<lf>أي جروح أو نقاط ضعف في الوحش.
+<string><LSNR "يسمح لكَ" "يسمح لكِ"> وضع التركيز بشن <LSNR "هجومكَ" "هجومكِ"><lf>بدقة أو التصدي لهجوم.<lf><lf>سيسلط ذباب الاستطلاع الضوء على<lf>أي جروح أو نقاط ضعف في الوحش.<lf><lf>يمكن أيضًا تغيير هدف الكاميرا أثناء<lf>وضع التركيز عن طريق النظر إلى<lf>وحش واستخدام <ICON PL_CAMERA_LOCK_CHANGE>. يمكن القيام بذلك<lf>أيضًا بينما <LSNR "سلاحكَ" "سلاحكِ"> مغمَد.
 <string>
 <string>وضع التركيز
 <string><ICON ME PL_AIM> أثناء إشهار السلاح
@@ -480,7 +486,7 @@
 <string><LSNR "تمسك" "تمسكي"> بالوحش بقوة،<lf>مما يقلل من مقدار قوة التحمل المستخدَمة<lf>حسب هجوم الوحش.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> أثناء الامتطاء
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> أثناء الامتطاء
 <string>يتيح <LSNR "لكَ" "لكِ"> الترجُّل القفز عن<lf>ظهر الوحش في وقت مبكر.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>جثث متحللة
 <string>مع مرور الوقت، ستبدأ جثث الوحوش<lf>في التحلل. وستختلف المواد التي <LSNR "يمكنكَ" "يمكنكِ"> تقطيعها منها<lf>بين حالتها الطازجة وحالتها المتحللة.<lf><lf>ستُنتج الوحوش الصغيرة التي تحللت<lf>أحيانًا أكوامًا من العظام<lf>أو براعم وايفرن،<lf>والتي <LSNR "يمكنكَ" "يمكنكِ"> جمع المواد منها. أما جثث الوحوش الحارسة<lf>فتتحول إلى حالة متبلورة،<lf>مما ينتج موادًا فريدة خاصة بها.
+<string>
+<string>الصيد تحت الماء
+<string>الصيد تحت الماء
+<string><LSNR "يمكِّنكَ" "يمكِّنكِ"> صيد (لاغياكروس) تحت الماء<lf>من القيام بحركات وتصرفات مختلفة عما <LSNR "تفعله" "تفعلينه"><lf>على اليابسة. إضافةً إلى التنقل في جميع الاتجاهات،<lf>صعودًا وهبوطًا، <LSNR "يمكنكَ" "يمكنكِ"> أيضًا التشبث<lf>بجسم الوحش نفسه.
+<string>
+<string>تحرّك
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> أثناء التشبث
+<string>الهجمات باستخدام السلاح أثناء التشبث<lf>بالوحش ستُلحق به ضررًا كبيرًا،<lf>لكنها ستتسبب أيضًا في <LSNR "إفلاتكَ" "إفلاتكِ"> منه.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> أثناء التشبث
+<string>يمكن أيضًا شنّ هجمات بالسكين أثناء التشبث<lf>بالوحش. قد لا تُلحق ضررًا كبيرًا كـ هجوم بالسلاح،<lf>لكنها أكثر فاعلية في إحداث الجروح<lf>وإسقاط المواد من الوحش.<lf>كما أنها لا تتسبب في <LSNR "إفلاتكَ" "إفلاتكِ"> منه،<lf>مما <LSNR "يُمكِّنكَ" "يُمكِّنكِ"> من شنّ هجمات متواصلة.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> أثناء التشبث
+<string>الإفلات من لاغياكروس.
 <string>
 <string>Akuma
 <string>حول Akuma

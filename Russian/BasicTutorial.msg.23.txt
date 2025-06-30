@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>Режим фокусировки
 <string>Режим фокусировки
-<string>Режим фокусировки позволяет точнее<lf>наносить удары и блокировать атаки.<lf><lf>Пока вы фокусируетесь на монстре,<lf>следлячки подсвечивают его раны<lf>и уязвимые места.
+<string>Режим фокусировки позволяет точнее<lf>наносить удары и блокировать атаки.<lf><lf>Пока вы фокусируетесь на монстре,<lf>следлячки подсвечивают его раны<lf>и уязвимые места.<lf><lf>Также в этом режиме вы можете<lf>переключать фиксирование камеры<lf>с одной цели на другую. Для этого<lf>направьте камеру на нужного монстра<lf>и нажмите <ICON PL_CAMERA_LOCK_CHANGE>. Переключаться<lf>можно и при убранном оружии.
 <string>
 <string>Режим фокусировки
 <string><ICON ME PL_AIM> (с оружием в руках)
@@ -480,7 +486,7 @@
 <string>Крепко держась за монстра,<lf>на которого вы взобрались, вы<lf>сможете расходовать меньше<lf>выносливости, когда монстр<lf>попытается вас сбросить.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> (верхом)
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> (верхом)
 <string>Позволяет раньше времени спрыгнуть<lf>с монстра, на которого вы забрались.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>Портящиеся останки
 <string>Останки монстров со временем начинают<lf>гнить. От их свежести зависит то, какие<lf>материалы вы получите при разделке.<lf><lf>С небольших сгнивших монстров иногда<lf>можно получить груды костей или<lf>виверновые ростки для добычи. Останки<lf>стражей кристаллизуются, что позволяет<lf>извлечь уникальные материалы.
+<string>
+<string>Подводная охота
+<string>Подводная охота
+<string>Во время подводной охоты на лагиакруса<lf>ваши движения отличаются от того,<lf>к чему вы привыкли на суше. Под водой<lf>вы можете всплывать, погружаться<lf>глубже, а также цепляться за монстра.
+<string>
+<string>Перемещаться
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> (зацепившись за монстра)
+<string>Атаковав используемым оружием<lf>монстра, за которого вы зацепились,<lf>вы нанесёте ему значительный урон,<lf>но отпустите его.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> (зацепившись за монстра)
+<string>Зацепившись за монстра, вы можете бить<lf>его ножом. Эти удары наносят не так<lf>много урона, как атаки иным оружием,<lf>но эффективнее оставляют раны<lf>и позволяют быстрее добыть с монстра<lf>материалы. После удара ножом<lf>вы не отпускаете монстра, поэтому бить<lf>можно снова и снова.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> (зацепившись за монстра)
+<string>Отпустить лагиакруса.
 <string>
 <string>Akuma
 <string>Об Akuma

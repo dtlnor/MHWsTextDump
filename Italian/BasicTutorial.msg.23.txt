@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -404,7 +410,7 @@
 <string>
 <string>Modalità precisione
 <string>Modalità precisione
-<string>La modalità precisione consente<lf>di prendere attentamente la mira<lf>per il tuo attacco o la tua guardia.<lf><lf>Gli insetti guida evidenzieranno<lf>le ferite o i punti deboli del mostro.
+<string>La modalità precisione consente<lf>di prendere attentamente la mira<lf>per il tuo attacco o la tua guardia.<lf><lf>Gli insetti guida evidenzieranno<lf>le ferite o i punti deboli del mostro.<lf><lf>Inoltre, puoi cambiare il bersaglio dell'aggancio automatico durante la modalità precisione guardando un mostro e premendo <ICON PL_CAMERA_LOCK_CHANGE>. Puoi farlo anche con l'arma nel fodero.
 <string>
 <string>Modalità precisione
 <string><ICON ME PL_AIM> con arma estratta
@@ -480,7 +486,7 @@
 <string>Resisti per aggrapparti bene al mostro<lf>e ridurre la resistenza utilizzata per<lf>restare in groppa.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> mentre sei in sella
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> mentre sei in sella
 <string>Puoi smontare da un mostro in anticipo,<lf>saltando via da esso.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>Carcasse antiche
 <string>Le carcasse dei mostri<lf>marciranno nel tempo. <lf>I materiali che puoi ricavarne<lf>variano in base alla carcassa,<lf>se è fresca o si è decomposta.<lf><lf>Dai mostri piccoli in decomposizione<lf>puoi ottenere resti di ossa<lf>o germogli wyvern<lf>da cui ricavare dei materiali. <lf>Le carcasse dei guardiani<lf>si cristallizzano<lf>e generano materiali unici.
+<string>
+<string>Caccia subacquea
+<string>Caccia subacquea
+<string>Cacciare il Lagiacrus sott'acqua<lf>permette azioni e movimenti diversi da<lf>quando ci si trova sulla terraferma.<lf>Oltre al movimento tridimensionale<lf>verso l'alto e il basso, è anche<lf>possibile aggrapparsi al corpo<lf>del mostro.
+<string>
+<string>Spostati
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> mentre si è aggrappati
+<string>Attaccare con l'arma equipaggiata<lf>mentre si è aggrappati a un mostro<lf>infliggerà danni considerevoli, ma<lf>ti farà anche lasciare la presa.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> mentre si è aggrappati
+<string>Si possono anche eseguire attacchi<lf>con il coltello mentre si è aggrappati<lf>al mostro. Potrebbero non infliggere<lf>tanti danni quanto un attacco con <lf>l'arma, ma sono più efficaci nel<lf>provocare ferite e nel far rilasciare <lf>materiali al mostro. Inoltre, non ti<lf>fanno lasciare la presa, consentendo<lf>attacchi continui.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> mentre si è aggrappati
+<string>Lascia il Lagiacrus.
 <string>
 <string>Akuma
 <string>Chi è Akuma?

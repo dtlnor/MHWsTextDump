@@ -82,6 +82,12 @@
 <string><REF Item_IT_155>
 <string><REF Item_IT_EXP_155>
 <string>
+<string><REF Item_IT_813>
+<string><REF Item_IT_EXP_813>
+<string>
+<string><REF Item_IT_814>
+<string><REF Item_IT_EXP_814>
+<string>
 <string><REF Item_IT_189>
 <string><REF Item_IT_EXP_189>
 <string>
@@ -193,7 +199,7 @@
 <string><ICON ME PL_WEAPON_ON> lub <ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>
 <string>Jeśli nosisz broń białą, możesz zadać<lf>atak z bliskiej odległości podczas<lf>jazdy.<lf><lf><ICON ME PL_WEAPON_ON>: zaatakuj, siedząc na Seikrecie.<lf><ICON ME PL_WEAPON_ON><ICON PLUS><ICON ME PL_ATTACK_01>: zaatakuj, zeskakując<lf>z Seikreta.
 <string>
-<string>Dobądź broni, siedząc na Seikrecie
+<string>Dobycie broni na Seikrecie
 <string><INPUTMSG MsgGUI600200_00_033>
 <string><INPUTMSG MsgGUI600200_00_034>
 <string><INPUTMSG MsgGUI600200_00_034_01>
@@ -404,7 +410,7 @@
 <string>
 <string>Tryb skupienia
 <string>Tryb skupienia
-<string>Tryb skupienia pozwala dokładnie<lf>wycelować atak lub obronę.<lf><lf>Podczas skupiania się na potworze,<lf>świetliki zwiadowcze podświetlą<lf>wszelkie rany i słabe punkty potwora.
+<string>Tryb skupienia pozwala dokładnie<lf>wycelować atak lub obronę.<lf><lf>Podczas skupiania się na potworze,<lf>świetliki zwiadowcze podświetlą<lf>wszelkie rany i słabe punkty potwora.<lf><lf>W trybie skupienia możesz zmienić cel<lf>automatycznego śledzenia przy użyciu<lf><ICON PL_CAMERA_LOCK_CHANGE> podczas patrzenia na potwora.<lf>Działa również przy schowanej broni.
 <string>
 <string>Tryb skupienia
 <string><ICON ME PL_AIM> z dobytą bronią
@@ -480,7 +486,7 @@
 <string>Zapieranie się pozwala ci mocno<lf>trzymać się dosiadanego potwora.<lf>Zmniejsza również wytrzymałość<lf>zużytą w momencie, gdy potwór<lf>kontratakuje.
 <string>
 <string><REF ActionGuideDataNameTextCommon_2068885376>
-<string><ICON PL_BT_RIDE_CANCEL> na potworze
+<string><ICON merge="PL_BT_RIDE_CANCEL,HOLD_ON"> na potworze
 <string>Zejście umożliwia ci wcześniejsze<lf>zeskoczenie z dosiadanego potwora.
 <string>
 <string><REF RefStatus_0008_002_02>
@@ -540,6 +546,30 @@
 <string>
 <string>Starzejąca się padlina
 <string>Z czasem zwłoki potworów zaczynają<lf>gnić. Można z nich wyciąć różne<lf>materiały, w zależności od tego, czy<lf>są świeże, czy zgniłe.<lf><lf>Małe potwory po zgniciu czasem dają<lf>sterty kości lub pędy wiwernika,<lf>z których możesz zbierać materiały.<lf>Zwłoki Strażników przechodzą<lf>w postać skrystalizowaną,<lf>która daje własne unikalne materiały.
+<string>
+<string>Podwodne polowanie
+<string>Podwodne polowanie
+<string>Polowanie na Lagiacrusa pod wodą<lf>umożliwia akcje i ruchy różniące się<lf>od tych wykonywanych na lądzie.<lf>Poza poruszaniem się w trzech<lf>wymiarach w górę i w dół możesz<lf>również złapać się ciała potwora.
+<string>
+<string>Poruszaj się
+<string><INPUTMSG MsgGUI600200_00_048>
+<string><INPUTMSG MsgGUI600200_00_046>
+<string>
+<string><REF ActionGuideDataNameTextCommon_24512>
+<string><INPUTMSG MsgGUI600200_00_047>
+<string><INPUTMSG MsgGUI600200_00_049>
+<string>
+<string><REF ActionGuideDataNameTextCommon_12267>
+<string><ICON PL_BT_RIDE_ATTACK_WP> Podczas trzymania się
+<string>Kiedy trzymasz się potwora i zaatakujesz<lf>go aktualnie używaną bronią, zadasz mu<lf>znaczne obrażenia, ale też puścisz się go.
+<string>
+<string><REF ActionGuideDataNameTextCommon_11718>
+<string><ICON PL_BT_RIDE_ATTACK_S><REF RefGeneral_0001_006><ICON PL_BT_RIDE_ATTACK_L> Podczas trzymania się
+<string>Kiedy trzymasz się potwora, możesz też<lf>wykonywać ataki nożem. Nie zadadzą<lf>tylu obrażeń, co ataki bronią, ale<lf>skuteczniej zadają rany i sprawiają,<lf>że potwór upuści materiały. Atakując<lf>nożem, nie puścisz się potwora, dzięki<lf>czemu możesz ciągle atakować.
+<string>
+<string><REF ActionGuideDataNameTextCommon_18139>
+<string><ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL> Podczas trzymania się
+<string>Puść się Lagiacrusa.
 <string>
 <string>Akuma
 <string>O Akumie

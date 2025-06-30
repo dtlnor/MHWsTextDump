@@ -819,9 +819,9 @@
 <string>업스케일링(초해상도 기술)
 <string>임의의 초해상도 기술을 적용하면 높은 퍼포먼스와<lf>뛰어난 화질을 양립시킬 수 있습니다.
 <string>NVIDIA DLSS
-<string>NVIDIA <DLSS>를 사용합니다.<lf><COLOR preset="TXT_Accent">(NVIDIA GeForce RTX<lf>그래픽 카드를 사용할 때만<lf>설정할 수 있습니다.)</COLOR><lf><COLOR preset="TXT_Accent">(GeForce RTX40 Series를<lf>사용하며 OS 설정에서<lf>하드웨어 가속 장치에<lf>의한 GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
+<string>NVIDIA <DLSS>를 사용합니다.<lf><COLOR preset="TXT_Accent">(NVIDIA GeForce RTX<lf>그래픽 카드를 사용할 때만<lf>설정할 수 있습니다.)</COLOR>
 <string>AMD FSR
-<string><FSR>을 사용합니다.<lf><COLOR preset="TXT_Accent">(OS 설정에서 하드웨어 가속 장치에 의한<lf>GPU 스케줄링이 켜져 있는 경우<lf>이 항목을 선택하면<lf>'프레임 생성' 설정을 할 수 있습니다.)</COLOR>
+<string><FSR>을 사용합니다.
 <string>Intel XeSS
 <string>Intel <XESS>을 사용합니다.
 <string>사용 안 함
@@ -835,6 +835,13 @@
 <string>현재 표시 설정에서는 <COLOR preset="TXT_Accent">FSR</COLOR>을<lf>이용한 <COLOR preset="TXT_Accent">프레임 생성</COLOR> 기능을<lf>켜짐으로 설정할 수 없습니다.
 <string>현재 표시 설정에서는 <COLOR preset="TXT_Accent">FSR</COLOR>을<lf>이용한 <COLOR preset="TXT_Accent">프레임 생성</COLOR> 기능을 켜짐으로 설정할 수 없어<lf>해당 기능 설정이 꺼짐으로 변경되었습니다.
 <string>옵션에서 창 모드로 변경하거나,<lf>테두리 없는 창의 경우, 검은 테두리가 표시되지<lf>않는 해상도로 설정하면 해당 기능을<lf>이용할 수 있습니다.
+<string>NVIDIA DLSS 2x
+<string>이 기능을 켜면 프레임 레이트가 향상되고<lf>디스플레이 항목에서 설정한 상한을<lf>초과할 수 있습니다.<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX4000<lf>시리즈 이상의 그래픽 카드 사용 시<lf>설정할 수 있습니다.</COLOR>
+<string>NVIDIA DLSS 3x
+<string>이 기능을 켜면 프레임 레이트가 향상되고<lf>디스플레이 항목에서 설정한 상한을<lf>초과할 수 있습니다.<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX5000<lf>시리즈 이상의 그래픽 카드 사용 시<lf>설정할 수 있습니다.</COLOR>
+<string>NVIDIA DLSS 4x
+<string>NVIDIA DLSS AUTO
+<string>이 기능을 켜면 CPU, GPU 부하에 따라<lf>프레임 생성 동작을 'OFF' 또는<lf>'2x' 중 하나로 동적 제어합니다.<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX4000<lf>시리즈 이상의 그래픽 카드 사용 시<lf>설정할 수 있습니다.</COLOR>
 <string>업스케일링 모드
 <string>업스케일링 사용 시의<lf>화질 선명도를 설정합니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 사용 시에만 변경 가능합니다.)</COLOR>
 <string>NVIDIA DLAA
@@ -862,6 +869,7 @@
 <string>끄기
 <string>렌더링 스케일
 <string>게임을 렌더링하는 해상도 배율을<lf>퍼센테이지로 설정합니다.<lf><COLOR preset="TXT_Accent">('업스케일링' 미사용 시에만 변경 가능합니다.)</COLOR>
+<string>게임을 렌더링하는 해상도 배율을<lf>퍼센테이지 형식으로 설정합니다.<lf><COLOR preset="TXT_Accent">(적용 조건을 충족하는 경우에만 설정 가능)</COLOR>
 <string>레이트레이싱
 <string>레이트레이싱 기술을 사용한 빛 반사<lf>표현 품질을 설정합니다.
 <string>매우 높음
@@ -954,7 +962,7 @@
 <string>낮음
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>컬링 거리 설정
-<string>로비에서 묘사되는 플레이어 수, 등장 캐릭터<lf>몬스터, 환경 생물 등 생물 전반의 표시를<lf>생략하는 거리를 설정합니다. <COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능힙니다)</COLOR>
+<string>로비에서 묘사되는 플레이어 수, 등장 캐릭터<lf>몬스터, 환경 생물 등 생물 전반의 표시를<lf>생략하는 거리를 설정합니다. <COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다)</COLOR>
 <string>먼 거리의 대상물 표시를 생략하지 않고<lf>최대한 묘사합니다.
 <string>먼 거리의 대상물 표시를 생략하지 않고<lf>묘사합니다.
 <string>표준적인 거리의 대상물 표시를<lf>생략하지 않고 묘사합니다.
@@ -1063,6 +1071,12 @@
 <string>몬스터에게 준 대미지 숫자가 표시됩니다.<lf><COLOR preset="TXT_Accent">(소수점 이하는 표시하지 않습니다.)</COLOR>
 <string>표시 안 함
 <string>몬스터에게 준 대미지 숫자를 표시하지 않습니다.
+<string>체력 게이지 주의 이펙트 표시
+<string>몬스터가 특히 위험한 공격을 하기 직전에<lf>체력 게이지 위에 주의 이펙트를<lf>표시할지 설정합니다.
+<string>표시하기
+<string>몬스터가 플레이어의 남은 체력이 다할 만큼<lf>강력한 일격을 가할 때, 체력 게이지에<lf>붉은색 물결로 주의 이펙트를 표시합니다.
+<string>표시 안 함
+<string>몬스터가 플레이어의 남은 체력이 다할 만큼<lf>강력한 일격을 가할 때, 체력 게이지에<lf>붉은색 물결로 주의 이펙트를 표시하지 않습니다.
 <string>HUD 표시 커스터마이즈
 <string>HUD 표시 크기와 표시 여부를 설정합니다.
 <string>체력 게이지
@@ -1192,10 +1206,14 @@
 <string>동료의 체력 게이지를 최소화해 표시합니다.<lf>상황에 따라 자동으로 게이지가 전개됩니다.
 <string>일부 퀘스트의 경과 시간 표시
 <string>격투대회 퀘스트, 챌린지 퀘스트, 프리 챌린지<lf>퀘스트에서 <ICON PL_ITEM_SLIDER_OPEN>을 입력하는 동안 목표 가이드 위에<lf>퀘스트 경과 시간 표시 여부를 설정합니다.
+<string>격투대회 퀘스트, 챌린지 퀘스트, 프리 챌린지<lf>퀘스트의 퀘스트 경과 시간 표시 방법을 설정합니다. <lf><COLOR preset="TXT_Accent">(퀘스트 멤버 측에 표시될 시간은 참고용입니다.)</COLOR>
 <string>표시하기
+<string>임의로 표시하기
 <string>해당하는 퀘스트에서 <ICON PL_ITEM_SLIDER_OPEN>을 입력하는 동안<lf>목표 가이드 위에<lf>퀘스트 경과 시간이 표시됩니다.
 <string>표시 안 함
 <string>해당하는 퀘스트에서 <ICON PL_ITEM_SLIDER_OPEN>을 입력해도<lf>목표 가이드 위에<lf>퀘스트 경과 시간이 표시되지 않습니다.
+<string>항상 표시하기
+<string>해당하는 퀘스트에서는 항상<lf>목표 가이드 위에<lf>퀘스트 경과 시간이 표시됩니다.
 <string>채팅 송신 후 동작 설정
 <string>채팅 송신 후 커뮤니케이션 창 및 채팅 로그창의<lf>동작을 설정합니다.
 <string>창 닫기
@@ -1297,6 +1315,16 @@
 <string>서포트 헌터의 행동 및<lf>관련된 표시를 설정합니다.
 <string>서포트 헌터 대미지 표시
 <string>서포트 헌터가 몬스터에게 준<lf>대미지 숫자 표시 여부를 설정합니다.
+<string>1명만 표시(소수점 있음)
+<string>서포트 헌터 중 상황에 따라<lf>임의의 1명만을 대상으로<lf>몬스터에게 준 대미지 숫자가 표시됩니다.<lf><COLOR preset="TXT_Accent">(소수점 이하도 표시합니다.)</COLOR>
+<string>1명만 표시(소수점 없음)
+<string>서포트 헌터 중 상황에 따라<lf>임의의 1명만을 대상으로<lf>몬스터에게 준 대미지 숫자가 표시됩니다.<lf><COLOR preset="TXT_Accent">(소수점 이하는 표시하지 않습니다.)</COLOR>
+<string>모두 표시(소수점 있음)
+<string>모든 서포트 헌터를 대상으로<lf>몬스터에게 준 대미지 숫자가 표시됩니다.<lf><COLOR preset="TXT_Accent">(소수점 이하도 표시합니다.)</COLOR>
+<string>모두 표시(소수점 없음)
+<string>모든 서포트 헌터를 대상으로<lf>몬스터에게 준 대미지 숫자가 표시됩니다.<lf><COLOR preset="TXT_Accent">(소수점 이하는 표시하지 않습니다.)</COLOR>
+<string>표시 안 함
+<string>서포트 헌터가 몬스터에게 준<lf>대미지 숫자를 표시하지 않습니다.
 <string>켜기
 <string>끄기
 <string>서포트 헌터의 상쇄
@@ -1417,6 +1445,7 @@
 <string><REF RefNetwork_0006> 음량
 <string><REF RefNetwork_0006> 시 상대방의 음성 음량을 설정합니다.
 <string><REF RefNetwork_0006> 자동 전환 설정
+<string>채팅 자동 전환 설정
 <string><REF RefNetwork_0006> 발신처, 텍스트 채팅 수신자,<lf>채팅 로그 필터 설정의 자동 전환 여부를 설정합니다.<lf><COLOR preset="TXT_Accent">(수동 전환은 언제든 가능합니다.)</COLOR>
 <string><REF RefNetwork_0004_02> 우선 발신
 <string>퀘스트 출발 시에는 <REF RefNetwork_0004_02>,<lf>퀘스트에서 귀환 시에는 <REF RefNetwork_0004_01><lf>채널로 자동 전환됩니다.
@@ -1424,6 +1453,7 @@
 <string>퀘스트 출발 상황에 관계없이<lf><REF RefNetwork_0005> 참가 중에는 <REF RefNetwork_0004_01><lf>채널로 자동 전환됩니다.
 <string>끄기
 <string>발신처를 자동으로 전환하지 않습니다.<lf>수동으로만 전환합니다.
+<string>자동으로 전환하지 않습니다.<lf>수동으로만 전환합니다.
 <string>아이루 음성 설정
 <string>아이루가 말하는 음성을 설정합니다.
 <string>모두 아이루어로 하기
@@ -1501,3 +1531,27 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string><REF RefLanguage_0000_014>
+<string>채집 아이템 수납 불가 시 설정
+<string>채집 아이템이 아이템 주머니 용량을 초과해서<lf>수납할 수 없는 경우, 임시 보관 주머니로<lf>보내는 방식을 설정합니다.
+<string>초과 분량 자동으로 보내기
+<string>채집 아이템을 아이템 주머니에 수납할 수<lf>없을 만큼 획득한 경우,<lf>자동으로 임시 보관 주머니로 보냅니다.
+<string>대상 직접 선택하기
+<string>채집 아이템을 아이템 주머니에<lf>수납할 수 없는 경우, 임시 보관 주머니로<lf>보낼 대상을 그때그때 직접 선택합니다.
+<string>스킬 등 효과 발동 중 이펙트
+<string>스킬이나 아이템 효과가 발동할 때<lf>이펙트를 표시할지 설정합니다.
+<string>표시하기
+<string>헌터, 동반자 아이루, 서포트 헌터가<lf>스킬이나 아이템 효과를 발동시키는 동안<lf>신체에 빛나는 이펙트를<lf>표시합니다.
+<string>표시 안 함
+<string>헌터, 동반자 아이루, 서포트 헌터가<lf>스킬이나 아이템 효과를 발동시키는 동안<lf>신체에 빛나는 이펙트를<lf>표시하지 않습니다.
+<string>장비 중인 호석 이펙트
+<string>장비 중 일부 호석에 표시되는<lf>이펙트를 표시할지 설정합니다.
+<string>표시하기
+<string>장비 중인 호석에 이펙트 표시가 있는 경우<lf>해당 이펙트를 표시합니다.
+<string>표시 안 함
+<string>장비 중인 호석에 이펙트 표시가 있어도<lf>해당 이펙트를 표시하지 않습니다.
+<string>화면 흔들림 표현 설정
+<string>용암의 열기나, 수중에 있는 상태를 표현하는<lf>화면 흔들림을 설정합니다.
+<string>사용
+<string>용암 지역이나 수중에서<lf>화면상 흔들림을 표현합니다.
+<string>사용 안 함
+<string>용암 지역이나 수중에서<lf>화면상 흔들림을 표현하지 않습니다.

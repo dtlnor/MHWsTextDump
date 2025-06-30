@@ -33,6 +33,7 @@
 <string>{0} has sent you an<lf>Environment Link invitation.
 <string>Quest Invitation
 <string>{0}<lf>has sent you a quest invitation.
+<string><REF RefMenu_177>
 <string>Quest time limit left:<lf><PLURAL {0} "{0} minute" "{0} minutes">.
 <string>Field Survey
 <string>Beginning a Field Survey for<lf>{0}.
@@ -88,68 +89,50 @@
 <string>Quest failed...
 <string>Quest Invitations (Resubmitted)
 <string>You are now able to receive quest<lf>invitations from {0}.
+<string><REF RefMenu_177>
 <string>Gave {0} (x{1})
 <string>Obtained Essential Items:<lf><COLOR preset="TXT_Accent">Hunting Tools</COLOR>!
 <string>Environment Overview Update
 <string>{0} from {1}<lf>would like to offer you a meal!
-<string>Open Map
 <string>Environment Overview Update
 <string>{0} was spotted!<lf>Location: {1}
-<string>Open Map
 <string>Environment Overview Update
 <string>You can now report your successful<lf>side mission to {0}!<lf>Location: {1}
-<string>Open Map
 <string>Environment Overview Update
 <string>Multiple targets available for combined<lf>quest creation!
-<string>Open Map
 <string>Environment Overview Update
 <string>This region's apex predator,<lf>{0}, has appeared!
-<string>Open Map
 <string>Environment Overview Update
 <string>{0} has appeared.<lf>It seems to be affecting local settlements!
-<string>Open Map
 <string>Environment Overview Update
 <string>A monster with more rewards appeared!<lf>{0}
-<string>Open Map
 <string>Environment Overview Update
 <string>Side mission target<lf>{0} has appeared!
-<string>Open Map
 <string>Environment Overview Update
 <string>Wishlist target has appeared!<lf>{0}
-<string>Open Map
 <string>Environment Overview
 <string>{0}<lf>has appeared!
-<string>Open Map
 <string>Environment Overview
 <string>{0}<lf>will leave the locale soon!
-<string>Open Map
 <string>{0}<lf>left the locale...
 <string>Environment Overview Update
 <string>{0} has appeared<lf>in the Rimechain Peak!
-<string>Open Map
 <string>Environment Overview
 <string>A pack containing {0}<lf>has appeared!
-<string>Open Map
 <string>Environment Overview
 <string>The pack containing {0}<lf>will leave the locale soon!
-<string>Open Map
 <string>The pack containing {0}<lf>has left the locale...
 <string>{0} has appeared!
 <string>Environment Overview
 <string>An outbreak of {0}<lf>has been spotted!
-<string>Open Map
 <string>Environment Overview
 <string>{0} upsurge has been spotted!
-<string>Open Map
 <string>Environment Overview
 <string>{0} is available as<lf>a Hunting Assistant!
-<string>Open Map
 <string>Environment Overview
 <string>The Support Ship has arrived!
-<string>Open Map
 <string>Environment Overview
 <string>A Large Guardian Cocoon has been spotted!
-<string>Open Map
 <string>{0} lost.
 <string>Join Requests
 <string>You have received a Join Request.<lf>Please review it to accept or refuse.
@@ -171,7 +154,7 @@
 <string>{0} can now be used.
 <string>Cool drink effects have worn off.
 <string>Hot drink effects have worn off.
-<string>Unable to designate as quest target.<lf>Please open the departure screen with <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>
+<string>Unable to use Quick Start.<lf>Please open the departure screen with <ICON UI_OPEN_DEPARTURE_WINDOW_TRIGGER>.
 <string>Open Mission Info
 <string>Display objective priority and select<lf>a mission.
 <string>Open
@@ -205,13 +188,10 @@
 <string>{0}<lf><COLOR preset="TXT_Accent">{1}/{2} completed!</COLOR>
 <string>Environment Overview Update
 <string>{0} has appeared.<lf>It has rare bonus rewards!
-<string>Open Map
 <string>Environment Overview Update
 <string>Side mission complete!<lf>Report to {0}.
-<string>Open Map
 <string>Environment Overview Update
 <string>You can report completed side missions<lf>to your Palico!
-<string>Open Map
 <string>Link Party disbanded because you<lf>are the only member.
 <string>Could not join {0}'s<lf>Environment Link.
 <string>Left {0}'s Environment Link.
@@ -224,13 +204,10 @@
 <string>You can now set up and customize<lf>Pop-up Camps in the Ruins of Wyveria.
 <string>Environment Overview Update
 <string>A quest with multiple targets is available.<lf>They are affecting the lives of the people!
-<string>Open Map
 <string>Environment Overview Update
 <string>A quest with multiple targets is available.<lf>There are more bonus rewards than normal!
-<string>Open Map
 <string>Environment Overview Update
 <string>Take on quests with multiple targets to<lf>earn rare bonus rewards!
-<string>Open Map
 <string>You have {0} new <PLURAL {0} "message" "messages">.<lf><OPTION id="PRESS_AND_HOLD_THE_START_BUTTON" msg="MsgGUI020100_0012">
 <string>Left the Link Party.
 <string>Manual Movement
@@ -243,7 +220,6 @@
 <string>Crossplay is currently enabled.
 <string>Arena Quest Counter
 <string>A Link Member is entering the Arena.<lf>Go to the <BOLD>Grand Hub</BOLD> to join them.
-<string>Open Map
 <string>Squad Notification
 <string>You have received an invitation to join<lf>the squad: <BOLD>{0}</BOLD>.
 <string>Squad Notification
@@ -257,7 +233,6 @@
 <string>You have been appointed as Leader<lf>of the squad <BOLD>{0}</BOLD>.
 <string>Environment Overview Update
 <string>{0} has appeared<lf>in the Dragontorch Shrine!
-<string>Open Map
 <string>Login Bonus
 <string>Today's Login Bonus is now<lf>available from the Start Menu.
 <string>Claim Now
@@ -288,3 +263,7 @@
 <string>New gesture obtained!
 <string>Special action power-up effect has<lf>activated!
 <string>Special action power-up effect has<lf>worn off.
+<string>Cannot carry any more supply items.<lf>Excess supply items discarded.
+<string>Festival of Accord: Flamefete<lf>is underway!<lf>({0} <PLURAL {0} "Day" "Days"> Left)
+<string>Festival of Accord: Flamefete<lf>is underway!<lf>({0} <PLURAL {0} "Hour" "Hours"> Left)
+<string>Festival of Accord: Flamefete<lf>is underway!<lf>(Ending Soon)
