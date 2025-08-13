@@ -400,7 +400,7 @@
 <string>銳利度計量表的顏色代表近戰武器攻擊容易<lf>奏效的程度。<lf><lf><REF RefStatus_0003_005>越高，攻擊越難被魔物的堅硬部位<lf>彈開，也越容易造成傷害。<lf><lf>不斷攻擊後<REF RefStatus_0003_005>會降低。銳利度計量表<lf>會減少，顏色也會變化，攻擊變得較容易<lf>被魔物彈開，也較難造成傷害。
 <string>
 <string><REF Item_IT_21>
-<string>砥石是獵人隨身攜帶的<REF RefItem_0023_06>，可以用來<lf>恢復耗損的<REF RefStatus_0003_005>。<lf><lf>以自訂捷徑使用砥石，更可以拔刀時磨刀。
+<string>砥石是獵人隨身攜帶的<REF RefItem_0023_06>，可以用來<lf>恢復耗損的<REF RefStatus_0003_005>。<lf><lf>以自訂捷徑使用砥石，更可以在拔刀後磨刀。
 <string>
 <string>裝備技能「<REF SkillCommon_1160639488>」
 <string>此技能可延長武器的銳利度計量表。<lf>延長後的<REF RefStatus_0003_005>顏色因武器而異。<lf><lf>銳利度計量表的延長部分會預先顯示在<lf>狀態內的銳利度計量表中。
@@ -413,15 +413,15 @@
 <string>進入此狀態，就能瞄準攻擊或<REF ActionGuideDataNameTextCommon_m666240384>的目標。<lf>導蟲會對魔物的傷口和弱點產生反應，<lf>發出紅光。<lf><lf>另外，集中模式期間亦可更改鎖定對象。<lf>將視角轉向任何魔物後<ICON PL_CAMERA_LOCK_CHANGE>，就可鎖定該<lf>魔物。收刀時亦可進行相同操作。
 <string>
 <string>集中模式
-<string>拔刀時<ICON ME PL_AIM>
-<string>拔刀時<ICON ME PL_AIM>會進入集中模式。集中模式時的<lf>攻擊與<REF ActionGuideDataNameTextCommon_m666240384>會朝視角的正面發動。朝上方<lf>瞄準時，有些攻擊的動作會變化。<lf><lf>拔刀時<ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>會使出<REF ActionGuideDataNameTextCommon_423599584>。<lf>擊中魔物的傷口或弱點時動作會變化，<lf>並造成大幅傷害。
+<string>拔刀後<ICON ME PL_AIM>
+<string>拔刀後<ICON ME PL_AIM>會進入集中模式。集中模式時的<lf>攻擊與<REF ActionGuideDataNameTextCommon_m666240384>會朝視角的正面發動。朝上方<lf>瞄準時，有些攻擊的動作會變化。<lf><lf>拔刀後<ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>會使出<REF ActionGuideDataNameTextCommon_423599584>。<lf>擊中魔物的傷口或弱點時動作會變化，<lf>並造成大幅傷害。
 <string>
 <string><REF ActionGuideDataNameTextCommon_423599584>
 <string><ICON ME PL_AIM><ICON PLUS><ICON ME PL_ATTACK_SP_B>
 <string>
 <string>特殊動作
 <string><REF ActionGuideDataNameTextCommon_m666240384>
-<string>拔刀時<ICON ME merge="PL_WEAPON_SP_ON,HOLD_ON">
+<string>拔刀後<ICON ME merge="PL_WEAPON_SP_ON,HOLD_ON">
 <string>使用部分武器時，可舉起盾或武器自身，<lf>抵擋攻擊。<lf><lf>防禦攻擊時，傷害的減少幅度和破綻大小<lf>因武器而異。另外，如果沒有面朝攻擊的<lf>方向，有可能無法<REF ActionGuideDataNameTextCommon_m666240384>。<lf><lf>某些魔物攻擊無法<REF ActionGuideDataNameTextCommon_m666240384>，例如瓦斯或噴射。
 <string>
 <string><REF ActionGuideDataNameTextCommon_859531456>
@@ -571,7 +571,7 @@
 <string>抓牢時<ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL>
 <string>脫離抓牢海龍的狀態。
 <string>
-<string>豪鬼
+<string><REF TutorialCategory_CATEGORY_30105>
 <string>豪鬼是誰
 <string>不斷格鬥的修羅，為精進拳法而身攜<lf>殺意波動。
 <string>

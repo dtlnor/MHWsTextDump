@@ -4,7 +4,7 @@
 <string>Itens Fundíveis
 <string>Crie itens usando adornos e outros materiais.
 <string>Use materiais para fundir. Materiais podem ser usados para forjar armas Artianas.
-<string>Itens Criados
+<string>Itens Fundíveis
 <string>Pontos Necessários
 <string>Pontos de Fundição
 <string>Lista de Materiais
@@ -45,3 +45,25 @@
 <string><COLOR preset="TXT_Danger">Não é possível exceder o limite de carga.</COLOR>
 <string><COLOR preset="TXT_Danger">Não é possível exceder o limite da caixa de avaliação.</COLOR>
 <string>Enviar à Caixa
+<string><REF RefMenu_182>
+<string>Materiais
+<string>Limite
+<string>Fundir Talismãs de Avaliação
+<string><REF RefStatus_0000_01_05>
+<string>Usar Talismãs de raridade {0}, exceto <ICON FAVORITE>
+<string>Crie itens de Avaliação usando Talismãs avaliados. (Talismãs fabricados na Forja não são considerados materiais.)
+<string><COLOR preset="TXT_Danger">Materiais insuficientes para fundição.</COLOR>
+<string><REF RefEquipment_0008_18_HELP>
+<string><COLOR preset="TXT_Danger">Você não tem os talismãs necessários para a fundição.</COLOR>
+<string><COLOR preset="TXT_Danger">Não é possível selecionar equipamentos equipados.</COLOR>
+<string><COLOR preset="TXT_Danger">Não é possível exceder o limite da caixa de equipamentos.</COLOR>
+<string><REF RefButton_0026>
+<string><REF RefEquipment_BTN_003>
+<string>Selecionar todos os Talismãs de raridade {0},<lf>exceto os registrados como Favoritos <ICON FAVORITE>?
+<string>Um talismã com um ou mais dos seguintes status<lf>foi selecionado. Usar como material mesmo assim?<lf>{0}<lf>{1}<lf>{2}
+<string>- Possui adornos equipados
+<string><REF RefEquipment_SELL_DLG_004_02>
+<string><REF RefEquipment_SELL_DLG_004_03>
+<string>Usar esses materiais para fundir <PLURAL {0} "{0} item" "{0} itens">?<lf>{1}
+<string>(Adornos equipados serão removidos.)
+<string>Selecionar tudo

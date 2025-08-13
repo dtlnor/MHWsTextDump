@@ -25,6 +25,7 @@
 <string>(None)
 <string>Talisman
 <string>Lv {0}
+<string>Lv {0}/{1}
 <string>Lv-
 <string>{0}
 <string>–
@@ -139,8 +140,8 @@
 <string>Remove from Wishlist?
 <string>Remove from wishlist?<lf><COLOR preset="TXT_Danger">(Overlaps with equipment loadouts.<lf>Equipment removed here will also be<lf>removed from equipment loadouts.)</COLOR>
 <string>Remove All Decorations
-<string>Remove Equipped Decorations
-<string>Remove all equipped decorations?
+<string>Remove Current Decorations
+<string>Remove all decorations from<lf>current equipment?
 <string>Remove All Decorations
 <string>Remove all decorations from all equipment?
 <string><INPUTMSG RefEquipment_SUB_13_S>
@@ -213,6 +214,7 @@
 <string>By Amount
 <string>Melding Points
 <string>Smelting Points
+<string>Favorites First
 <string>1 – 3
 <string>2 – 3
 <string>3
@@ -272,6 +274,10 @@
 <string>Value
 <string>This is a full armor set.<lf>All pieces of the set will be sold.<lf>Sell all pieces of the set?
 <string>This equipment is registered to a loadout.<lf>Are you sure you want to sell it?
+<string>Equipment with one or more of the following<lf>statuses has been selected. Sell anyway?<lf>{0}<lf>{1}<lf>{2}
+<string>- Has Equipped Decorations
+<string>- Registered to a Loadout
+<string>- Registered to Favorites
 <string>Sell for {0}z?
 <string>This equipment has a decoration attached to it.<lf>Remove all decorations and sell equipment for {0}z?
 <string>A decoration with one or more of the following<lf>statuses has been selected. Sell anyway?<lf><lf>{0}<lf>{1}<lf>{2}

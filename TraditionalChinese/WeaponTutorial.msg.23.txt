@@ -332,7 +332,7 @@
 <string>
 <string><ICON WP02 PL_AIM><ICON PLUS><ICON WP02 PL_ATTACK_SP_B>
 <string><REF ActionGuideDataNameText_Wp02_m372107104>
-<string>對傷口有效的斬擊。命中傷口時會變成<lf><REF ActionGuideDataNameText_Wp02_m719512000>，斬遍魔物全身，可破壞<lf>多個傷口。
+<string>對傷口有效的斬擊。命中傷口時會變成<lf><REF ActionGuideDataNameText_Wp02_m719512000>，斬遍魔物全身，可破壞<lf>多個傷口。<lf><lf>另外，遠離魔物並跳到空中時按<ICON WP02 PL_ATTACK_SP_B>、<ICON WP02 PL_ATTACK_00><lf>或<ICON WP02 PL_ATTACK_01>，則可改為使出<REF ActionGuideDataNameText_Wp02_7148>。此時只會<lf>集中攻擊魔物傷口然後落地，不會斬遍魔物<lf>全身。
 <string>
 <string>
 <string><REF ActionGuideDataNameText_Wp02_165650304>
@@ -499,7 +499,7 @@
 <string>觸發<REF RefStatus_0006_000_00>3的基本攻擊。<lf><lf>攻擊中按<ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>，更可觸發<lf>追加<REF RefStatus_0006_000_00>。
 <string>
 <string>連段時<ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_01><REF RefGeneral_0001_006><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>
-<string>快速觸發<REF RefStatus_0006_000_00>的攻擊。此攻擊可於<ICON WP05 PL_ATTACK_00>、<lf><ICON WP05 PL_ATTACK_01>或<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>等攻擊後使出，並會根據<lf>指令觸發相應<REF RefStatus_0006_000_00>。
+<string>快速觸發<REF RefStatus_0006_000_00>的攻擊。此攻擊可於<ICON WP05 PL_ATTACK_00>、<lf><ICON WP05 PL_ATTACK_01>或<ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>等攻擊後使出，並會根據<lf>指令觸發相應<REF RefStatus_0006_000_00>。<lf><lf>此外，如抓準魔物攻擊的時機使出，就能<lf>發動反擊，減少所受傷害，並可接續使出<lf>其他招式。
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -1273,7 +1273,7 @@
 <string>可從魔物採集的精華，共有紅、白、橙、綠<lf>四種，按魔物部位而異。<lf><lf>召喚獵蟲，吸收獵蟲採集的<REF ActionGuideDataNameText_Wp10_m508432000>後，<lf>就能按精華顏色獲得不同強化效果。吸收<lf>複數精華後更能按其組合獲得特殊效果。<lf><lf>強化狀態會在一定時間後解除。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m508432000>效果
-<string>獵人吸收精華後，會按其顏色獲得不同強化<lf>效果。吸收複數精華後更能按其組合獲得<lf>特殊效果。<lf><lf>紅　　　　：可按<ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328><lf>白　　　　：移動速度和<REF ActionGuideDataNameText_Wp10_m1303595904>高度上升<lf>橙　　　　：拔刀時後仰無效<lf>紅＋白　　：攻擊力上升<lf>白＋橙　　：防禦力上升<lf>紅＋白＋橙：部分動作獲得強化，減輕<lf>　　　　　　風壓、震動和咆哮的影響，<lf>　　　　　　且攻擊力上升
+<string>獵人吸收精華後，會按其顏色獲得不同強化<lf>效果。吸收複數精華後更能按其組合獲得<lf>特殊效果。<lf><lf>紅　　　　：可按<ICON WP10 PL_ATTACK_01><REF ActionGuideDataNameText_Wp10_724987328><lf>白　　　　：移動速度和<REF ActionGuideDataNameText_Wp10_m1303595904>高度上升<lf>橙　　　　：拔刀後後仰無效<lf>紅＋白　　：攻擊力上升<lf>白＋橙　　：防禦力上升<lf>紅＋白＋橙：部分動作獲得強化，減輕<lf>　　　　　　風壓、震動和咆哮的影響，<lf>　　　　　　且攻擊力上升
 <string>
 <string>【基本連段】
 <string><REF ActionGuideDataNameText_Wp10_m116916480>

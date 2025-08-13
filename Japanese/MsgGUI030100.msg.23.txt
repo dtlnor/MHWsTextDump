@@ -836,12 +836,12 @@
 <string>現在の表示設定では、<COLOR preset="TXT_Accent">FSR</COLOR>を利用した<lf><COLOR preset="TXT_Accent">フレーム生成</COLOR>の機能を有効にすることができないため、<lf>同機能の設定がOFFに変更されました。
 <string>オプションからウィンドウモードに変更するか、<lf>ボーダレスウィンドウの場合は黒枠の表示されない<lf>解像度に設定することで機能が使用可能になります。
 <string>NVIDIA DLSS 2x
-<string>この機能を有効にすることでフレームレートが<lf>向上し、DISPLAYの項目内で設定した上限値を<lf>超える可能性があります。<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX4000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
+<string>この機能を有効にすることでフレームレートが<lf>向上し、DISPLAYの項目内で設定した上限値を<lf>超える可能性があります。<lf><COLOR preset="TXT_Accent">NVIDIA GeForce RTX4000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
 <string>NVIDIA DLSS 3x
-<string>この機能を有効にすることでフレームレートが<lf>向上し、DISPLAYの項目内で設定した上限値を<lf>超える可能性があります。<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX5000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
+<string>この機能を有効にすることでフレームレートが<lf>向上し、DISPLAYの項目内で設定した上限値を<lf>超える可能性があります。<lf><COLOR preset="TXT_Accent">NVIDIA GeForce RTX5000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
 <string>NVIDIA DLSS 4x
 <string>NVIDIA DLSS AUTO
-<string>この機能を有効にした場合、CPU、GPUの負荷に<lf>応じてフレーム生成の動作を「OFF」または<lf>「2x」のいずれかへと、動的に制御します。<lf><COLOR preset="TXT_Accent">NVIDIA Geforce RTX4000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
+<string>この機能を有効にした場合、CPU、GPUの負荷に<lf>応じてフレーム生成の動作を「OFF」または<lf>「2x」のいずれかへと、動的に制御します。<lf><COLOR preset="TXT_Accent">NVIDIA GeForce RTX4000シリーズ以上の<lf>グラフィックスカードを使用時に設定が可能です。</COLOR>
 <string>アップスケーリングモード
 <string>アップスケーリング使用時における<lf>画質の鮮明さを設定します。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」使用時のみ設定変更可能です）</COLOR>
 <string>NVIDIA DLAA
@@ -1555,3 +1555,9 @@
 <string>溶岩のあるエリアや水中にいる場合、<lf>画面上での揺らぎ表現を行います。
 <string>無効
 <string>溶岩のあるエリアや水中にいる場合でも、<lf>画面上での揺らぎ表現を行いません。
+<string>射撃反動後の照準アシスト
+<string>ライトボウガン、ヘビィボウガンの射撃で照準が<lf>跳ね上がった後、それが自動的に元の位置へ戻る<lf>アシスト機能を使用するかどうか設定します。
+<string>ON
+<string>射撃反動後の照準アシスト機能を使用します。
+<string>OFF
+<string>射撃反動後の照準アシスト機能を使用しません。

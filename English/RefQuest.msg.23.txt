@@ -74,14 +74,14 @@
 <string><COLOR preset="TXT_Danger">Cannot begin Field Survey because a Link Member is viewing Quest Results.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot be used during this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">This quest cannot be accepted outside of the Grand Hub.</COLOR>
-<string><COLOR preset="TXT_Danger">Cannot be used during this quest.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot be used with current quest settings.</COLOR>
 <string>Return to Title
 <string>Retry
-<string>Slay {0}
-<string>Hunt {0}
-<string>Hunt {0} and others
-<string>Capture {0}
-<string>Deliver {0}
+<string>Slay the {0}
+<string>Hunt the {0}
+<string>Hunt the {0} and others
+<string>Capture the {0}
+<string>Deliver the {0}
 <string>Cancel the quest?
 <string>The quest has been canceled.
 <string>The Environment Link was disbanded.
@@ -98,6 +98,9 @@
 <string>Target Monster Rewards
 <string>General Material Rewards
 <string>Additional Quest Rewards
+<string>Appraisal Box (Talismans)
+<string><COLOR preset="TXT_Danger">Items marked with</COLOR><ICON NOT><COLOR preset="TXT_Danger">exceed the equipment<lf>box capacity and will be automatically<lf>sold. See details for more information.</COLOR>
+<string><COLOR preset="TXT_Danger">{0} <PLURAL {0} "talisman" "talismans"> cannot be taken<lf>because the equipment box is full.<lf><lf>Selecting <BOLD>Take All</BOLD> will automatically<lf>sell marked items.</COLOR>
 <string>Quest<lf>Complete
 <string>Quest<lf>Failed
 <string>Heading<lf>Back

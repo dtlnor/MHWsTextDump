@@ -836,12 +836,12 @@
 <string>由於以目前的顯示設定無法啟用利用<COLOR preset="TXT_Accent">FSR</COLOR>的<lf><COLOR preset="TXT_Accent">畫格生成</COLOR>功能，已將該功能設定「關」。
 <string>於設定畫面變更至視窗模式，或於無邊框視窗調整至<lf>不會出現黑邊的解析度，就可使用此功能。
 <string>NVIDIA DLSS 2x
-<string>啟用此功能將提升幀率，並可能會超過顯示設定裡<lf>「幀率」設定的上限值。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA Geforce RTX4000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
+<string>啟用此功能將提升幀率，並可能會超過顯示設定裡<lf>「幀率」設定的上限值。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX4000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
 <string>NVIDIA DLSS 3x
-<string>啟用此功能將提升幀率，並可能會超過顯示設定裡<lf>「幀率」設定的上限值。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA Geforce RTX 5000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
+<string>啟用此功能將提升幀率，並可能會超過顯示設定裡<lf>「幀率」設定的上限值。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX5000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
 <string>NVIDIA DLSS 4x
 <string>NVIDIA DLSS 自動
-<string>啟用此功能時，將根據CPU及GPU的負荷而自動將<lf>畫格生成的模式設定為「關」或「2x」。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA Geforce RTX4000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
+<string>啟用此功能時，將根據CPU及GPU的負荷而自動將<lf>畫格生成的模式設定為「關」或「2x」。<lf><COLOR preset="TXT_Accent">（僅可於使用NVIDIA GeForce RTX4000系列或以上的<lf>顯示卡時啟用此設定。）</COLOR>
 <string>升頻模式
 <string>設定使用升頻時的畫質清晰度模式。<lf><COLOR preset="TXT_Accent">（僅可於使用「升頻」時變更此設定）</COLOR>
 <string>NVIDIA DLAA
@@ -1380,11 +1380,11 @@
 <string>狩獵笛操作指南顯示
 <string>設定裝備狩獵笛時顯示的操作指南內容。
 <string>類型1
-<string>收刀時顯示一般操作指南，拔刀時追加顯示<lf>旋律效果一覽。
+<string>收刀時顯示一般操作指南，拔刀後追加顯示<lf>旋律效果一覽。
 <string>類型2
-<string>不論收刀時或拔刀時，皆不顯示一般操作指南，<lf>只顯示旋律效果一覽。
+<string>不論收刀時或拔刀後，皆不顯示一般操作指南，<lf>只顯示旋律效果一覽。
 <string>類型3
-<string>收刀時和拔刀時皆顯示一般操作指南，拔刀時僅於<lf><ICON PL_ITEM_SLIDER_OPEN>期間顯示旋律效果一覽。
+<string>收刀時和拔刀後皆顯示一般操作指南，拔刀時僅於<lf><ICON PL_ITEM_SLIDER_OPEN>期間顯示旋律效果一覽。
 <string>武器攻擊力顯示方式
 <string>設定顯示武器攻擊力時，數值是否乘上各個武器種類<lf>特有的係數。<lf><COLOR preset="TXT_Accent">（此設定不會影響實際造成的傷害）</COLOR>
 <string>使用係數
@@ -1555,3 +1555,9 @@
 <string>於高熱熔岩和水中等環境顯示畫面扭曲效果。
 <string>停用
 <string>即使於高熱熔岩和水中等環境亦不顯示<lf>畫面扭曲效果。
+<string>射擊後座力移動後的輔助瞄準
+<string>設定是否使用輔助瞄準功能，在輕弩槍、重弩槍射擊後<lf>將上移的準星移回原來位置。
+<string>開
+<string>使用射擊後座力移動後的輔助瞄準。
+<string>關
+<string>不使用射擊後座力移動後的輔助瞄準。

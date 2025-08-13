@@ -25,6 +25,7 @@
 <string>(brak)
 <string>Talizman
 <string>Poz. {0}
+<string>Poz. {0}/{1}
 <string>Poz.
 <string>{0}
 <string>–
@@ -73,8 +74,8 @@
 <string>Wyposażyć teraz?
 <string>Jeśli zmienisz ten element, <COLOR preset="TXT_Danger">wszystkie pozostałe<lf>elementy pełnego pancerza zostaną zdjęte</COLOR>.<lf>Zmienić element pancerza?
 <string>To pełny pancerz.<lf>Założyć wszystkie elementy zestawu?<lf><lf><COLOR preset="TXT_Danger">(Pancerz warstwowy zostanie ukryty).</COLOR>
-<string>Wymaga materiałów i <NUMBER {0}> z.<lf>Kontynuować?<lf><COLOR preset="TXT_Accent">Nadwyżka punktów zostanie zwrócona jako poniższe pozycje.</COLOR>
-<string>Wymaga materiałów i <NUMBER {0}> z. Kontynuować?<lf>(Wykucie tej rzeczy umożliwi wykorzystanie jej jako <COLOR preset="TXT_Accent">wyposażenia warstwowego)<lf><COLOR preset="TXT_Accent">Nadwyżka punktów zostanie zwrócona jako poniższe pozycje.</COLOR>
+<string>Wymaga materiałów i <NUMBER {0}> z. Kontynuować?<lf><COLOR preset="TXT_Accent">Nadwyżka punktów zostanie zwrócona w postaci poniższych przedmiotów..</COLOR>
+<string>Wymaga materiałów i <NUMBER {0}> z. Kontynuować?<lf>(Wykucie tej rzeczy umożliwi wykorzystanie jej jako <COLOR preset="TXT_Accent">wyposażenia warstwowego)<lf><COLOR preset="TXT_Accent">Nadwyżka punktów zostanie zwrócona w postaci poniższych przedmiotów..</COLOR>
 <string>Odrzucić {0} <PLURAL {0} "nadmiarowy punkt" "nadmiarowe punkty">?
 <string>Podgląd
 <string><COLOR preset="TXT_Danger">Skrzynka na wyposażenie jest pełna.</COLOR>
@@ -211,8 +212,9 @@
 <string>Według poz. kinsekta
 <string>Według typu ostrzału
 <string>Według ilości
-<string>Punkty łączenia
+<string>Punkty stapiania
 <string>Punkty wytapiania
+<string>Najpierw ulubione
 <string>1–3
 <string>2–3
 <string>3
@@ -272,6 +274,10 @@
 <string>Wartość
 <string>To pełny pancerz. Wszystkie elementy<lf>zestawu zostaną sprzedane. Sprzedać<lf>wszystkie elementy zestawu?
 <string>To wyposażenie jest zarejestrowane w zestawie.<lf>Czy na pewno chcesz je sprzedać?
+<string>Wybrano wyposażenie z jednej lub kilku<lf>poniższych kategorii. Sprzedać mimo to?<lf>{0}<lf>{1}<lf>{2}
+<string>– Ma wyekwipowane ozdoby
+<string>– Zarejestrowane w zestawie
+<string>– Dodane do ulubionych
 <string>Sprzedać za <NUMBER {0}> z?
 <string>Do tego wyposażenia jest dołączona ozdoba.<lf>Usunąć wszystkie ozdoby i sprzedać wyposażenie<lf>za <NUMBER {0}> z?
 <string>Została wybrana ozdoba z jednej lub kilku<lf>poniższych kategorii. Sprzedać mimo to?<lf><lf>{0}<lf>{1}<lf>{2}

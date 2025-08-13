@@ -4,7 +4,7 @@
 <string>Meldable Items
 <string>Create items using decorations and other materials.
 <string>Use materials to meld. Materials can be used to forge Artian weapons.
-<string>Create Items by Melding
+<string>Meldable Items
 <string>Required Melding Points
 <string>Required Melding Points
 <string>Material List
@@ -45,3 +45,25 @@
 <string><COLOR preset="TXT_Danger">Cannot exceed carry limit.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot exceed appraisal box limit.</COLOR>
 <string>Send to Box
+<string><REF RefMenu_182>
+<string>Materials
+<string>Limit
+<string><REF RefMenu_181>
+<string><REF RefStatus_0000_01_05>
+<string>Select all rarity {0}, excluding <ICON FAVORITE>
+<string>Create Appraisal Items using Appraised Talismans. (Talismans craftable at the Smithy cannot be used as materials.)
+<string><COLOR preset="TXT_Danger">Insufficient materials required for melding.</COLOR>
+<string><REF RefEquipment_0008_18_HELP>
+<string><COLOR preset="TXT_Danger">You do not have the talismans required for melding.</COLOR>
+<string><COLOR preset="TXT_Danger">Cannot select equipment that is currently equipped.</COLOR>
+<string><COLOR preset="TXT_Danger">The meldable items cannot exceed the equipment box limit.</COLOR>
+<string><REF RefButton_0026>
+<string><REF RefEquipment_BTN_003>
+<string>Select all talismans of rarity {0}, excluding those<lf>registered to Favorites?
+<string>A talisman with one or more of the following statuses<lf>has been selected. Use as a material anyway?<lf>{0}<lf>{1}<lf>{2}
+<string>- Has Equipped Decorations
+<string><REF RefEquipment_SELL_DLG_004_02>
+<string><REF RefEquipment_SELL_DLG_004_03>
+<string>Use these materials to meld {0} item(s)?<lf>{1}
+<string>(Equipped decorations will be removed.)
+<string>Select All

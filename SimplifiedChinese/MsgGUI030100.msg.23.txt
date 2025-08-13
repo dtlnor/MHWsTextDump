@@ -836,12 +836,12 @@
 <string>当前的显示设置无法启用<COLOR preset="TXT_Accent">FSR</COLOR>的<COLOR preset="TXT_Accent">帧生成</COLOR>功能，<lf>已将该功能设置为“关”。
 <string>在“设定”中切换到窗口模式，或在无边框窗口模式<lf>下调整分辨率至无黑边，即可启用该功能。
 <string>NVIDIA DLSS 2x
-<string>启用此功能后将提高帧率，可能超过显示设置中的上<lf>限值。<COLOR preset="TXT_Accent">仅可在使用NVIDIA Geforce RTX4000系列及以上<lf>的显卡时使用本设置。</COLOR>
+<string>启用此功能后将提高帧率，可能超过显示设置中的上<lf>限值。<COLOR preset="TXT_Accent">仅可在使用NVIDIA GeForce RTX4000系列<lf>及以上的显卡时使用本设置。</COLOR>
 <string>NVIDIA DLSS 3x
-<string>启用此功能后将提高帧率，可能超过显示设置中的上<lf>限值。<COLOR preset="TXT_Accent">仅可在使用NVIDIA Geforce RTX5000系列及以上<lf>的显卡时使用本设置。</COLOR>
+<string>启用此功能后将提高帧率，可能超过显示设置中的上<lf>限值。<COLOR preset="TXT_Accent">仅可在使用NVIDIA GeForce RTX5000系列<lf>及以上的显卡时使用本设置。</COLOR>
 <string>NVIDIA DLSS 4x
 <string>NVIDIA DLSS自动
-<string>启用此功能后，将根据中央处理器和显示芯片的实时<lf>负载，自动将帧生成模式切换为“关”或“2x”状<lf>态。<COLOR preset="TXT_Accent">仅可在使用NVIDIA Geforce RTX4000系列及<lf>以上的显卡时上使用本设置。</COLOR>
+<string>启用此功能后，将根据中央处理器和显示芯片的实时<lf>负载，自动将帧生成模式切换为“关”或“2x”状<lf>态。<COLOR preset="TXT_Accent">仅可在使用NVIDIA GeForce RTX4000系列及<lf>以上的显卡时上使用本设置。</COLOR>
 <string>超分辨率模式
 <string>设置启用超分辨率技术时的画质清晰度。<lf><COLOR preset="TXT_Accent">（此设置仅能在启用“超分辨率技术”时变更）</COLOR>
 <string>NVIDIA DLAA
@@ -880,7 +880,7 @@
 <string>关
 <string>DirectStorage
 <string>选择支持DirectStorage加速数据读取的硬件。<lf><COLOR preset="TXT_Accent">（仅可在支持DirectStorage的环境下设置）</COLOR>
-<string>中央处理器
+<string>处理器
 <string>显示芯片
 <string>纹理品质
 <string>设置物体表面的纹理分辨率。
@@ -1531,7 +1531,7 @@
 <string><REF RefLanguage_0000_008>
 <string><REF RefLanguage_0000_006>
 <string>中文
-<string>无法收纳采集道具时的设置。
+<string>无法收纳采集道具时的设置
 <string>调整当采集道具超过道具袋容量而无法收纳，<lf>送往临时道具袋时的设定。
 <string>超过部分自动送入临时道具袋
 <string>采集道具无法收纳至道具袋时，自动将多出的部分<lf>送至临时道具袋。
@@ -1555,3 +1555,9 @@
 <string>在有熔岩的区域或水中时，画面会出现扭曲效果。
 <string>停用
 <string>在有熔岩的区域或水中时，画面不会出现扭曲效果。
+<string>射击后坐力后的瞄准辅助
+<string>设置是否启用辅助瞄准功能，使轻弩炮、重弩炮射击后<lf>上移的瞄准线自动回到原来的位置。
+<string>开
+<string>使用射击后坐力后的瞄准辅助功能。
+<string>关
+<string>不使用射击后坐力后的瞄准辅助功能。
