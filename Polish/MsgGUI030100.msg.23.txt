@@ -106,7 +106,7 @@
 <string>Sterowanie wezwaniem Seikreta
 <string>Ustaw sterowanie dla przywołania Seikreta.
 <string>Typ 1
-<string>Zawołaj Seikreta, używając <ICON PAD PL_PT_CALL><ICON PAD PL_PT_MANUAL_CALL> lub skrótu<lf>własnego menu kołowego.
+<string>Zawołaj Seikreta, używając <INPUTMSG MsgGUI030100_INPUT_00> lub skrótu<lf>własnego menu kołowego.
 <string>Typ 2
 <string>Dodatkowo do opcji typu 1, przytrzymanie <ICON PAD PL_PT_CALL_KEEP><lf>przy schowanej broni w trybie automatycznego<lf>ruchu wezwie Seikreta.
 <string>Typ 3
@@ -135,6 +135,8 @@
 <string>Tylko przedmioty od procy będą wyświetlane<lf>podczas używania paska przedmiotów<lf>w trybie celowania.
 <string>Typ 2
 <string>Wszystkie przedmioty będą wyświetlane<lf>podczas używania paska przedmiotów<lf>w trybie celowania.
+<string>Typ 3
+<string>Tylko przedmioty od procy lub specjalne<lf>przedmioty będą wyświetlane podczas<lf>używania paska przedmiotów w trybie<lf>celowania.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>W przypadku korzystania ze skrótów klawiszowych<lf>umożliwia wyświetlanie kursora myszy, a także<lf>sterowanie skrótami za pomocą myszy.
 <string>Wyłącz
 <string>Nie wyświetla kursora myszy podczas używania<lf>skrótów klawiszowych.<lf><COLOR preset="TXT_Accent">(Skrótów nie można używać z myszą)</COLOR>
+<string>Czułość sterowania: mysz
+<string>Dostosuje czułość ruchów myszą. <COLOR preset="TXT_Accent">(To ustawienie wpływa<lf>całościowo na sterowanie myszą. Jeśli zostanie zmienione,<lf>konieczna może być zmiana ustawień czułości kamery)</COLOR>
 <string>Priorytety kółka przewijania
 <string>Dostosowuje priorytety sterowania kółka przewijania myszy<lf>podczas nawigacji po menu.
 <string>Priorytet nawigacji po stronach
@@ -760,6 +764,35 @@
 <string>Dostosowuje jasność ekranu.
 <string>Jasność (HDR)
 <string>Dostosowuje jasność ekranu.
+<string>Ustawienia wydajności
+<string>Dostosowuje ustawienia grafiki związane z rozgrywką.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje ustawienia grafiki związane z rozgrywką.
+<string>Nacisk na rozdzielczość
+<string>Skonfiguruj ustawienia tak, by położyć nacisk<lf>na rozdzielczość.<lf>Obraz będzie bardziej szczegółowy.
+<string>Skonfiguruj ustawienia tak, by położyć<lf>nacisk na rozdzielczość zamiast na liczbę<lf>klatek na sekundę. Grafika będzie<lf>wyświetlana w wysokiej rozdzielczości,<lf>zostanie włączone śledzenie promieni,<lf>a jakość odbicia i załamania światła<lf>zostanie poprawiona.
+<string>Nacisk na płynność animacji
+<string>Skonfiguruj ustawienia tak, by położyć nacisk<lf>na liczbę klatek wyświetlanych na sekundę.<lf>Ruchy twojej postaci będą bardziej płynne.
+<string>Skonfiguruj ustawienia tak, by położyć<lf>nacisk na liczbę klatek na sekundę zamiast<lf>na rozdzielczość. Ruchy twojej postaci<lf>będą bardziej płynne, co poprawi<lf>komfort gry. Wyłącza śledzenie promieni.
+<string>Zrównoważony
+<string>Skonfiguruj ustawienia tak, by zapewnić<lf>najlepszą możliwą równowagę między<lf>rozdzielczością a liczbą klatek na sekundę,<lf>koncentrując się na zrównoważeniu<lf>szczegółowości grafiki z płynnością<lf>ruchów postaci.
+<string>Skonfiguruj ustawienia tak, by zapewnić<lf>najlepszą możliwą równowagę między<lf>rozdzielczością a liczbą klatek na sekundę,<lf>koncentrując się na zrównoważeniu<lf>szczegółowości grafiki z płynnością<lf>ruchów postaci. Włącza ray tracing.
+<string>Odświeżanie 120 Hz
+<string>Określa, czy zezwolić na częstotliwość odświeżania 120 Hz.<lf><COLOR preset="TXT_Accent">(Dotyczy tylko wyświetlaczy obsługujących 120 Hz.<lf>Wprowadzenie zmian wymaga ponownego uruchomienia).</COLOR>
+<string>Wł.
+<string>Włącza odświeżanie 120 Hz, co może<lf>zapewnić płynniejszą jakość obrazu.<lf><lf><COLOR preset="TXT_Accent">(To ustawienie nie gwarantuje 120 klatek<lf>na sekundę. W zależności od wyświetlacza<lf>rozdzielczość wyjściowa i jakość obrazu<lf>mogą ulec automatycznemu pogorszeniu).</COLOR>
+<string>Wył.
+<string>Wyłącza odświeżanie 120 Hz.
+<string>Limit liczby klatek na sekundę
+<string>Dostosowuje, czy ograniczyć liczbę klatek na sekundę<lf>do określonego limitu. Ustawienie ograniczenia może<lf>pomóc w zapobieganiu opóźnieniom renderowania.
+<string>60 kl/s (z ograniczeniem)
+<string>Ogranicza liczbę klatek na sekundę<lf>do 60 kl/s. To ustawienie można<lf>wybrać tylko wtedy, gdy w opcji<lf><BOLD>Ustawienia wydajności</BOLD> wybrano<lf><BOLD>Nacisk na płynność animacji</BOLD>.
+<string>40 kl/s (z ograniczeniem)
+<string>Ogranicza liczbę klatek na sekundę<lf>do 40 kl/s. To ustawienie można<lf>wybrać tylko wtedy, gdy w opcji<lf><BOLD>Ustawienia wydajności</BOLD> wybrano<lf><BOLD>Zbalansowany</BOLD><lf>i włączono opcję <BOLD>Odświeżanie 120 Hz</BOLD>.
+<string>30 kl/s (z ograniczeniem)
+<string>Ogranicza liczbę klatek na sekundę<lf>do 30 kl/s. To ustawienie można<lf>wybrać tylko wtedy, gdy w opcji<lf><BOLD>Ustawienia wydajności</BOLD> wybrano<lf><BOLD>Nacisk na rozdzielczość</BOLD>.
+<string>Ogranicza liczbę klatek na sekundę<lf>do 30 kl/s.
+<string>Wył.
+<string>Usuwa limit liczby klatek na sekundę,<lf>co umożliwia zmianę liczby klatek<lf>na sekundę w zależności od obciążenia<lf>renderowania.
 <string>Synchronizacja pionowa
 <string>Dostosowuje synchronizację pionową.
 <string>Włącz
@@ -869,7 +902,7 @@
 <string>Wyłącz
 <string>Skalowanie renderowania
 <string>Dostosowuje procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Można ustawić tylko, gdy opcja Upscaling nie jest włączona)</COLOR>
-<string>Dostosowuje procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Dostępne,<lf>jeśli są spełnione konkretne wymagania).</COLOR>
+<string>Dostosowuje procent skali renderowania.<lf><COLOR preset="TXT_Accent">(Dostępne, jeśli są spełnione konkretne<lf>wymagania).</COLOR>
 <string>Śledzenie promieni
 <string>Dostosowuje jakość odbicia światła<lf>za pomocą technologii śledzenia promieni.
 <string>Najwyższa
@@ -1074,7 +1107,7 @@
 <string>Ostrzeżenie paska zdrowia
 <string>Reguluje opcję, w której pasek zdrowia wyświetla<lf>ostrzeżenie na chwilę przed tym, jak potwory wykonają<lf>szczególnie niszczące ataki.
 <string>Wyświetlaj
-<string>Pasek zdrowia wyświetla (faliste czerwone) ostrzeżenie,<lf>gdy potwór za chwilę przypuści morderczy atak.
+<string>Pasek zdrowia wyświetla faliste, czerwone ostrzeżenie, gdy potwór za chwilę przypuści morderczy atak.
 <string>Nie wyświetlaj
 <string>Pasek zdrowia nie wyświetla ostrzeżenia<lf>wskazującego, że potwór za chwilę przypuści<lf>atak, który pozbawi cię reszty zdrowia.
 <string>HUD
@@ -1206,7 +1239,7 @@
 <string>Wyświetla domyślnie zminimalizowany<lf>pasek zdrowia koleżkota i innych towarzyszy.<lf>Pasek zdrowia rozwija się do pełnego<lf>w niektórych sytuacjach.
 <string>Wyświetlanie czasu dla niektórych zadań
 <string>Określa, czy przytrzymanie <ICON PL_ITEM_SLIDER_OPEN> spowoduje wyświetlenie czasu,<lf>który upłynął podczas zadania na arenie,<lf>swobodnego wyzwania czy wyzwania.
-<string>Reguluje sposób wyświetlania upływu czasu podczas zadań<lf>typu Arena, Wyzwanie i Swobodne wyzwanie. <COLOR preset="TXT_Accent">(Wyświetlanie czasu,<lf>który upłynął, to tylko informacja dla członków w zadaniu.)</COLOR>
+<string>Reguluje sposób wyświetlania czasu podczas zadań typu<lf>Arena, Wyzwanie i Swobodne wyzwanie. <COLOR preset="TXT_Accent">(Wyświetlany<lf>czas służy jedynie jako informacja dla uczestników.)</COLOR>
 <string>Wyświetlaj
 <string>Wyświetlaj opcjonalnie
 <string>Podczas niektórych zadań przytrzymanie <ICON PL_ITEM_SLIDER_OPEN><lf>spowoduje wyświetlenie upływającego czasu<lf>wraz z celami.
@@ -1455,7 +1488,9 @@
 <string>Nie nadaje priorytetu ani nie przełącza<lf>automatycznie na komunikację głosową.<lf>Przełączenie trzeba wykonać ręcznie.
 <string>Nie przełącza kanałów czatu automatycznie.<lf>Przełączenie trzeba wykonać ręcznie.
 <string>Język felinów
+<string>Język koleżkotów
 <string>Dostosowuje język, w jakim mówią feliny.
+<string>Ustawia język, w jakim mówią koleżkoty.
 <string>Język feliński
 <string>Dostosowuje wszystkie głosy felinów, włącznie<lf>z twoim koleżkotem, do języka felińskiego.<lf><COLOR preset="TXT_Accent">(To ustawienie można zmienić również podczas<lf>tworzenia postaci)</COLOR>
 <string>Użyj ustawionego głosu
@@ -1542,13 +1577,23 @@
 <string>Wyświetl
 <string>Wyświetla efekt świecenia na łowcy, koleżkocie<lf>i/lub łowcach wspierających, wskazujący<lf>na aktywację umiejętności lub przedmiotu.
 <string>Nie wyświetlaj
-<string>Nie wyświetla efektu świecenia na łowcy,<lf>koleżkocie i/lub łowcach wspierających, wskazującego<lf>na aktywację umiejętności lub przedmiotu.
+<string>Nie wyświetla efektu świecenia na łowcy,<lf>koleżkocie i/lub łowcach wspierających,<lf>wskazującego na aktywację umiejętności<lf>lub przedmiotu.
 <string>Efekt wyekwipowanego talizmanu
 <string>Ustawia, czy niektóre talizmany mają pokazywać<lf>efekt wizualny po założeniu.
 <string>Wyświetl
 <string>Wyświetla efekt założonego talizmanu,<lf>jeśli taki posiada.
 <string>Nie wyświetlaj
 <string>Nie wyświetla efektu założonego talizmanu.
+<string>Specjalna muzyka podczas jazdy
+<string>Ustawia, czy odtwarzać specjalną muzykę<lf>podczas jazdy na Seikrecie ubranego<lf>w strój „Mój mały chocobo”.
+<string>Odtwarzaj
+<string>Odtwarza specjalną muzykę podczas jazdy.
+<string>Nie odtwarzaj
+<string>Nie odtwarza specjalnej muzyki podczas jazdy.
+<string>Głośność spec. muzyki podczas jazdy
+<string>Ustawia głośność specjalnej muzyki<lf>odtwarzanej podczas jazdy na Seikrecie<lf>ubranego w strój „Mój mały chocobo”.
+<string>Ustawienia muzyki dla stroju chocobo
+<string>Dostosowuje ustawienia specjalnej muzyki<lf>odtwarzanej podczas jazdy na Seikrecie<lf>ubranym w strój „Mój mały chocobo”.
 <string>Efekty zniekształceń
 <string>Określa, czy używany jest efekt<lf>zniekształcenia symulujący gorąco lawy lub<lf>środowisko podwodne.
 <string>Włącz
@@ -1561,3 +1606,29 @@
 <string>Włącza redukcję odrzutu podczas strzelania.
 <string>Wyłącz
 <string>Wyłącza redukcję odrzutu podczas strzelania.
+<string>Częstość odzywania się koleżkotów
+<string>Dostosowuje częstość odzywania się koleżkotów.
+<string>Domyślnie
+<string>Twój koleżkot będzie się odzywać według własnego<lf>uznania w zależności od sytuacji.<lf><COLOR preset="TXT_Accent">To domyślne ustawienie gry.</COLOR>
+<string>Sporadycznie
+<string>Zmniejsza częstość mówienia twojego koleżkota.
+<string>Tylko przy postępach w fabule
+<string>Twój koleżkot będzie się odzywać wyłącznie<lf>wtedy, gdy jest to konieczne do postępów<lf>w fabule.
+<string>Autowybór punktu szybkiej podróży
+<string>Określa, czy najbliższy punkt szybkiej podróży<lf>ma być automatycznie wybierany po oznaczeniu<lf>celu lub miejsca docelowego.
+<string>Wyłącz
+<string>Wyłącza funkcję automatycznego wyboru.<lf>Zostanie wybrany pierwszy punkt szybkiej<lf>podróży z listy niezależnie od wyznaczonego<lf>miejsca docelowego lub celu.
+<string>Włącz
+<string>Włącza funkcję automatycznego wyboru.<lf>Jeśli wyznaczono miejsce docelowe lub cel,<lf>zostanie automatycznie wybrany najbliższy<lf>punkt szybkiej podróży. Jeśli niczego<lf>nie wyznaczono, zostanie wybrana<lf>lokalizacja ze szczytu listy.
+<string>Zamiana skrótów/menu kołowego
+<string>Określa, czy menu skrótów klawiszowych jest<lf>powiązane z menu kołowym podczas jego<lf>otwierania.
+<string>Typ 1
+<string>Otwarcie menu skrótów klawiszowych spowoduje<lf>przełączenie wyłącznie menu skrótów<lf>klawiszowych.
+<string>Typ 2
+<string>Menu skrótów klawiszowych i menu kołowe będą<lf>ze sobą powiązane. Otwarcie skrótów przełączy<lf>również aktywne menu kołowe kontrolera.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

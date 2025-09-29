@@ -106,7 +106,7 @@
 <string>呼喚<REF RefGeneral_0014_01>操作方式
 <string>設定呼喚<REF RefGeneral_0014_01>的操作方式。
 <string>類型1
-<string>以<ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>或自訂捷徑來呼喚<REF RefGeneral_0014_01>。
+<string>以<INPUTMSG MsgGUI030100_INPUT_00>或自訂捷徑來呼喚<REF RefGeneral_0014_01>。
 <string>類型2
 <string>除了類型1的操作外，亦可在收刀狀態<ICON PL_PT_CALL_KEEP>，<lf>呼喚自動移動狀態的<REF RefGeneral_0014_01>。
 <string>類型3
@@ -135,6 +135,8 @@
 <string>在瞄準模式操作道具快捷欄時，<lf>僅會顯示投射器相關的道具。
 <string>類型2
 <string>在瞄準模式操作道具快捷欄時也與平時同樣，<lf>顯示所有道具。
+<string>類型3
+<string>在瞄準模式操作道具快捷欄時，<lf>僅會顯示投射器相關的道具及特殊道具。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>鍵盤用快捷鍵顯示時，滑鼠游標也會顯示，<lf>並可使用滑鼠操作快捷鍵。
 <string>關
 <string>鍵盤用快捷鍵顯示時，滑鼠游標會不顯示。<lf><COLOR preset="TXT_Accent">（不可使用滑鼠操作快捷鍵）</COLOR>
+<string>滑鼠操作敏感度
+<string>調整滑鼠的操作敏感度。<lf><COLOR preset="TXT_Accent">（此設定會影響所有滑鼠操作，調整後請再次調整<lf>視角敏感度。）</COLOR>
 <string>滑鼠滾輪優先操作
 <string>設定在選單介面中，滑鼠滾輪上下滾動時的優先操作。
 <string>優先切換頁面
@@ -760,6 +764,35 @@
 <string>調整畫面亮度。
 <string>調整畫面亮度（HDR）
 <string>調整畫面亮度。
+<string>效能設定
+<string>調整遊玩時的圖像效能設定。<lf><COLOR preset="TXT_Accent">（僅可於標題畫面的設定選單變更）</COLOR>
+<string>調整遊玩時的圖像效能設定。
+<string>解析度優先
+<string>將繪圖解析度設為優先於幀率。圖像的細緻度<lf>會變高。
+<string>將繪圖解析度設為優先於幀率。不但圖像的細緻度<lf>會變高，配合光線追蹤功能，光的反射和折射品質<lf>亦會變高。
+<string>幀率優先
+<string>將動作幀率設為優先於解析度。角色動作會變得<lf>更加流暢，令遊玩時的動作體驗變得更佳。
+<string>將動作幀率設為優先於解析度。角色動作會變得<lf>更加流暢，令遊玩時的動作體驗變得更佳，但會<lf>停用光線追蹤功能。
+<string>重視平衡
+<string>重視繪圖解析度和幀率的平衡，盡可能兼顧圖像的<lf>細緻度和角色動作的流暢度。
+<string>重視繪圖解析度和幀率的平衡，盡可能兼顧圖像的<lf>細緻度和角色動作的流暢度，並啟用光線追蹤功能。
+<string>120Hz更新率輸出設定
+<string>調整120Hz更新率影像輸出的相關設定。<lf><COLOR preset="TXT_Accent">（僅在使用支援120Hz螢幕時可設定）<lf>（變更此設定後需重新啟動遊戲）</COLOR>
+<string>開
+<string>啟用120Hz更新率輸出。部分情況下<lf>影像看起來會變得順暢。<lf><COLOR preset="TXT_Accent">（並非以每秒120幀的幀率運行遊戲）</COLOR><lf><COLOR preset="TXT_Accent">（根據當前使用的顯示器，有可能會使輸出解析度<lf>　自動下降，或使畫質變差）</COLOR>
+<string>關
+<string>停用120Hz更新率輸出。
+<string>固定幀率設定
+<string>設定幀率是否固定於指定數值。設為固定數值後<lf>可防止幀率因繪圖遲延而波動。
+<string>固定於60fps
+<string>將幀率固定於60fps。僅可於「效能設定」<lf>設為「幀率優先」時選擇。
+<string>固定於40fps
+<string>將幀率固定於40fps。僅可於「效能設定」<lf>設為「重視平衡」，並將「120Hz更新率<lf>輸出設定」設為「開」時選擇。
+<string>固定於30fps
+<string>將幀率固定於30fps。僅可於「效能設定」<lf>設為「解析度優先」時選擇。
+<string>將幀率固定於30fps。
+<string>關
+<string>容許幀率因應繪圖負荷而波動，不固定於指定數值。
 <string>垂直同步（VSync）
 <string>調整垂直同步（VSync）設定。
 <string>啟用
@@ -1455,7 +1488,9 @@
 <string>不自動切換發送對象，僅可手動切換。
 <string>不自動切換，僅可手動切換。
 <string>艾路語音設定
+<string>隨從艾路語音設定
 <string>設定艾路說話的語音。
+<string>設定隨從艾路說話的語音。
 <string>全部設定為艾路語
 <string>將所有艾路（包括自己的隨從）的語音全部設定為<lf>艾路語。<COLOR preset="TXT_Accent">（創建角色時亦可變更此設定）</COLOR>
 <string>依從語音類型設定
@@ -1549,6 +1584,16 @@
 <string>裝備中的護石有視覺效果時顯示該效果。
 <string>不顯示
 <string>即使裝備中的護石有視覺效果亦不顯示該效果。
+<string>策騎鷺鷹龍時播放專用背景音樂
+<string>設定鷺鷹龍裝備心心念念專屬陸行鳥騎裝時，<lf>策騎期間是否播放專用背景音樂。
+<string>開
+<string>策騎鷺鷹龍時播放專用背景音樂。
+<string>關
+<string>策騎鷺鷹龍時不播放專用背景音樂。
+<string>專用背景音樂音量
+<string>設定鷺鷹龍裝備心心念念專屬陸行鳥騎裝時，<lf>策騎期間播放的專用背景音樂的音量。
+<string>裝備陸行鳥騎裝時的背景音樂設定
+<string>調整鷺鷹龍裝備「心心念念專屬陸行鳥騎裝」時的<lf>策騎專用背景音樂的相關設定。
 <string>畫面扭曲效果設定
 <string>設定是否於高熱熔岩和水中等環境顯示畫面扭曲效果。
 <string>啟用
@@ -1561,3 +1606,29 @@
 <string>使用射擊後座力移動後的輔助瞄準。
 <string>關
 <string>不使用射擊後座力移動後的輔助瞄準。
+<string>隨從艾路的發言頻率設定
+<string>設定隨從艾路的發言頻率。
+<string>一般
+<string>隨從艾路會根據狀況自行判斷並發言。<lf><COLOR preset="TXT_Accent">（此為遊戲的一般頻率設定）</COLOR>
+<string>較低
+<string>隨從艾路的發言頻率會比一般低。
+<string>僅限劇情
+<string>隨從艾路只會在涉及劇情的場景時發言。
+<string>自動選取快速移動目的地
+<string>設定在指定目的地或目標的狀態下打開「快速移動目的地<lf>列表」時，是否自動選取能以最短時間抵達該處的快速移動<lf>目的地的功能。
+<string>停用
+<string>停用自動選取功能。無論是否已指定目的地或目標，<lf>皆會預設選取快速移動目的地列表的第一個目的地。
+<string>啟用
+<string>啟用自動選取功能。若指定目的地或目標，將會自動<lf>選取能以最短時間抵達該處的快速移動目的地。<lf>若沒有指定，將會選取列表的第一個目的地。
+<string>切換捷徑快捷盤
+<string>設定打開捷徑快捷盤時的快捷盤切換對象。
+<string>類型1
+<string>打開捷徑快捷盤時只會切換鍵盤用的快捷盤。
+<string>類型2
+<string>打開捷徑快捷盤時會同時切換鍵盤用和控制器用的<lf>快捷盤。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

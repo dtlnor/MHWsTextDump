@@ -106,7 +106,7 @@
 <string>Call Seikret Controls
 <string>Adjusts the controls for calling your Seikret.
 <string>Type 1
-<string>Calls Seikret with <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> or a Custom Radial<lf>Menu Shortcut.
+<string>Calls Seikret with <INPUTMSG MsgGUI030100_INPUT_00> or a Custom Radial<lf>Menu Shortcut.
 <string>Type 2
 <string>In addition to Type 1 controls, <ICON PL_PT_CALL_KEEP> with<lf>your weapon sheathed calls your Seikret<lf>in Auto-move Mode.
 <string>Type 3
@@ -135,6 +135,8 @@
 <string>Only slinger-related items display when<lf>using the Item Bar during Aim Mode.
 <string>Type 2
 <string>All items display when using the Item Bar<lf>during Aim Mode.
+<string>Type 3
+<string>Only slinger-related items or special items display<lf>when using the Item Bar during Aim Mode.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>When using keyboard Shortcuts, allows<lf>the mouse cursor to display while also<lf>allowing the mouse to control Shortcuts.
 <string>Disable
 <string>Does not display the mouse cursor when<lf>using keyboard Shortcuts.<lf><COLOR preset="TXT_Accent">(Shortcuts cannot be used with mouse.)</COLOR>
+<string>Mouse Control Sensitivity
+<string>Adjusts the sensitivity of mouse movement.<lf><COLOR preset="TXT_Accent">(This setting affects overall mouse control. If adjusted, <lf>you may need to readjust your camera sensitivity settings.)</COLOR>
 <string>Scroll Wheel Priorities
 <string>Adjusts the priority controls for the mouse scroll<lf>wheel while navigating menus.
 <string>Prioritize Page Navigation
@@ -760,6 +764,35 @@
 <string>Adjusts the brightness of the screen.
 <string>Brightness (HDR)
 <string>Adjusts the brightness of the screen.
+<string>Performance Settings
+<string>Adjusts graphical features related to gameplay.<lf><COLOR preset="TXT_Accent">(Adjustable from Title Options.)</COLOR>
+<string>Adjusts graphical features related to gameplay.
+<string>Prioritize Resolution
+<string>Configure settings to prioritize resolution<lf>instead of frame rate. Graphics will appear<lf>in higher definition.
+<string>Configure settings to prioritize resolution<lf>instead of frame rate. Graphics will appear<lf>in high definition, ray tracing is enabled,<lf>and the quality of light reflection and<lf>refraction is improved.
+<string>Prioritize Framerate
+<string>Configure settings to prioritize frame rate<lf>instead of resolution. Your character will<lf>move with more fluidity, making actions<lf>smoother.
+<string>Configure settings to prioritize frame rate<lf>instead of resolution. Your character will<lf>move with more fluidity, making actions<lf>smoother. Disables ray tracing.
+<string>Balanced
+<string>Configure settings to provide the best<lf>possible balance between resolution<lf>and frame rate, focusing on balancing<lf>graphical detail with smooth character<lf>movements.
+<string>Configure settings to provide the best<lf>possible balance between resolution<lf>and frame rate, focusing on balancing<lf>graphical detail with smooth character<lf>movements. Enables ray tracing.
+<string>120 Hz Output
+<string>Sets whether to allow a 120 Hz refresh rate output.<lf><COLOR preset="TXT_Accent">(Only affects displays that support 120 Hz.<lf>The game must be restarted to reflect changes.)</COLOR>
+<string>On
+<string>Enables 120 Hz output, which may allow<lf>for smoother visual quality.<lf><lf><COLOR preset="TXT_Accent">(This setting does not guarantee a 120 fps<lf>framerate. Depending on the display,<lf>output resolution and image quality may<lf>be automatically reduced.)</COLOR>
+<string>Off
+<string>Disables 120 Hz output.
+<string>Frame Rate Limit
+<string>Adjusts whether to cap the frame rate to a specified<lf>limit. Setting a limit to the frame rate may help<lf>prevent rendering lag.
+<string>60 fps (Capped)
+<string>Limits the frame rate to 60 fps.<lf>This can only be selected if the<lf><BOLD>Performance Settings</BOLD> option is<lf>set to <BOLD>Prioritize Framerate</BOLD>.
+<string>40 fps (Capped)
+<string>Limits the frame rate to 40 fps.<lf>This can only be selected if the<lf><BOLD>Performance Settings</BOLD> option is<lf>set to <BOLD>Balanced</BOLD> and <BOLD>120 Hz Output</BOLD><lf>is turned on.
+<string>30 fps (Capped)
+<string>Limits the frame rate to 30 fps.<lf>This can only be selected if the<lf><BOLD>Performance Settings</BOLD> option is<lf>set to <BOLD>Prioritize Resolution</BOLD>.
+<string>Limits the frame rate to 30 fps.
+<string>Off
+<string>Removes the frame rate limit, allowing the<lf>frame rate to change based on your rendering<lf>load.
 <string>V-Sync
 <string>Adjusts vertical synchronization.
 <string>Enable
@@ -1455,7 +1488,9 @@
 <string>Does not prioritize or automatically switch<lf>voice chat channels. Switching must be<lf>done manually.
 <string>Does not automatically switch chat channels.<lf>Switching must be done manually.
 <string>Felyne Language
+<string>Palico Language
 <string>Adjusts the language spoken by Felynes.
+<string>Adjusts the language spoken by Palicoes.
 <string>Felyne Language
 <string>Adjusts all Felyne voices, including your Palico's,<lf>to Felyne language. <COLOR preset="TXT_Accent">(This setting can also<lf>be changed in character creation.)</COLOR>
 <string>Use Set Voice Type
@@ -1549,6 +1584,16 @@
 <string>Displays a visual effect of an equipped talisman,<lf>if applicable.
 <string>Do Not Display
 <string>Does not display a visual effect of an<lf>equipped talisman.
+<string>Exclusive Music When Mounted
+<string>Adjusts whether exclusive music plays when riding<lf>a Seikret equipped with the My Little Chocobo Outfit.
+<string>Play
+<string>Plays exclusive music when mounted.
+<string>Do Not Play
+<string>Does not play exclusive music when mounted.
+<string>Exclusive Mount Music Volume
+<string>Adjusts the volume of the exclusive music<lf>that plays when riding a Seikret equipped<lf>with the My Little Chocobo Outfit.
+<string>Chocobo Outfit BGM Settings
+<string>Adjusts settings related to the exclusive music<lf>that plays when riding a Seikret equipped with<lf>the My Little Chocobo Outfit.
 <string>Distortion Effects
 <string>Adjusts whether a distortion effect is used to<lf>simulate lava heat or underwater environments.
 <string>Enable
@@ -1561,3 +1606,29 @@
 <string>Enables recoil aim assist.
 <string>Disable
 <string>Disables recoil aim assist.
+<string>Palico Dialogue Frequency
+<string>Adjusts the frequency of Palico dialogue.
+<string>Default
+<string>Allows your Palico to speak at their own discretion<lf>depending on the situation.<lf><COLOR preset="TXT_Accent">This is the game's default setting.</COLOR>
+<string>Reserved
+<string>Reduces how often your Palico speaks.
+<string>Story Progression Only
+<string>Limits your Palico to only speak when necessary<lf>in regard to the story progression.
+<string>Auto-Select Fast Travel Point
+<string>Adjusts whether to automatically select the closest<lf>Fast Travel point when a destination or target is<lf>designated as a waypoint.
+<string>Disable
+<string>Disables the auto-select feature. The first Fast Travel<lf>point at the top of the list will be selected, regardless<lf>of whether a destination or target is designated.
+<string>Enable
+<string>Enables the auto-select feature. If a destination or<lf>target is designated, the closest Fast Travel point will<lf>be automatically selected. If nothing is designated,<lf>the location at the top of the list will be selected.
+<string>Shortcut/Radial Switching
+<string>Adjusts whether keyboard shortcut menus<lf>are linked with radial menus whenever you<lf>access your shortcuts.
+<string>Type 1
+<string>Accessing the keyboard shortcut menu will<lf>only switch the keyboard shortcut menu.
+<string>Type 2
+<string>Keyboard shortcut menus and controller<lf>radial menus will be linked. Accessing the<lf>keyboard shortcut menu will also switch<lf>the active controller radial menu.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

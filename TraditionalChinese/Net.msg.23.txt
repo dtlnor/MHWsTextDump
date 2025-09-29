@@ -5,12 +5,15 @@
 <string>無法取得情報。<lf>{0}
 <string>狀況已改變，無法執行。<lf>{0}
 <string>通訊中……
+<string>已更新設定。
 <string>正在確認伺服器連線……
 <string>發生通訊錯誤。<lf>{0}
 <string>發生通訊錯誤，將返回標題畫面。<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>線上多人遊玩功能已受到限制。<lf><lf>若要線上多人遊玩，請加入{0}。
 <string>線上多人遊玩功能已受到限制。<lf><lf>無法取得線上多人遊玩所需的<PLATMSG RefGeneral_0026>的<lf>加入資訊。
+<string>發生通訊錯誤，<lf>無法取得<PLATMSG RefGeneral_0026>的加入資訊。
+<string>無法取得<PLATMSG RefGeneral_0026>的加入資訊，<lf>線上多人遊玩功能已受到限制。
 <string>此帳戶未滿足多人遊玩的條件。
 <string>無法連接至網路，將返回標題畫面。
 <string>無法連接至網路。
@@ -45,6 +48,7 @@
 <string>此帳戶無法分享個人組合。<lf>{0}
 <string>無法發出救難訊號。<lf>{0}
 <string>此功能正處於維護狀態。<lf>請稍待一段時間後重試。<lf>{0}
+<string>現正進行維護，不會上傳完成任務的完成時間。<lf>{0}
 <string>已達到封鎖數上限，無法再封鎖。<lf>{0}
 <string>現在正進行伺服器維護。<lf>{0}
 <string>此帳戶無法使用小隊功能。<lf>{0}
@@ -53,6 +57,8 @@
 <string>對象已離線。<lf>{0}
 <string>此玩家正處在單人線上模式，無法加入。<lf>{0}
 <string>無法與已封鎖的成員參加同一任務或同一連結隊伍。<lf>{0}
+<string>無法邀請已封鎖的玩家。<lf>{0}
+<string>無法追蹤已封鎖的玩家。<lf>{0}
 <string>和連線區連線中斷，無法繼續參加連線區。<lf>{0}
 <string>無法建立連線區。<lf>{0}
 <string>無法搜尋連線區。<lf>{0}
@@ -64,6 +70,8 @@
 <string>要參加推薦大廳嗎？
 <string>要參加大廳嗎？
 <string>要建立私人大廳嗎？
+<string>要建立可經「按獵人好友搜尋」及「按大廳ID搜尋」<lf>參加的私人大廳嗎？
+<string>要建立只可經「按大廳ID搜尋」參加的私人大廳嗎？
 <string>不參加大廳並開始遊戲嗎？<lf>（遊戲開始後仍然可以參加大廳）
 <string>請輸入要搜尋的大廳ID。（應為8個半形英數字）<lf><lf>注意：英文大小寫將視為不同文字。
 <string>任務已結束，無法參加連線區。
@@ -71,6 +79,7 @@
 <string>密碼錯誤，無法參加任務。
 <string>要離開目前的環境連結嗎？
 <string>未滿足加入所需條件，無法加入環境連結。<lf>{0}
+<string>連結隊長結束已承接的任務之前，無法加入環境連結。<lf>{0}
 <string>已加入連結隊伍。
 <string>伺服器繁忙，請稍後再試。
 <string>此遊戲模式支援跨平台遊玩。
@@ -83,6 +92,10 @@
 <string>已偵測到不正當狀況，無法任務化。<lf>{0}
 <string>已偵測到不正當狀況，承接任務失敗。<lf>{0}
 <string>已偵測到不正當狀況，無法開始任務。<lf>{0}
+<string>要加入此連結隊伍嗎？
+<string>已加入連結隊伍。
+<string>請輸入密碼。
+<string>密碼錯誤，無法加入連結隊伍。
 <string><COLOR preset="TXT_Accent">社群功能已受限</COLOR><lf>社群功能限制解除時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>已確認您的帳戶出現<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">將暫時限制社群功能以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">請在遊玩時遵守使用條款。</COLOR>
 <string>騷擾行為
 <string>疑似騷擾行為

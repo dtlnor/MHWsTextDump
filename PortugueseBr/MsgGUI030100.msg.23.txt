@@ -106,7 +106,7 @@
 <string>Controles de Chamar Seikret
 <string>Ajusta os controles para chamar seu Seikret.
 <string>Tipo 1
-<string>Chama o Seikret com <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> ou um Atalho<lf>do Menu Radial Personalizado.
+<string>Chama o Seikret com <INPUTMSG MsgGUI030100_INPUT_00> ou um Atalho<lf>do Menu Radial Personalizado.
 <string>Tipo 2
 <string>Além dos controles do Tipo 1, <ICON PL_PT_CALL_KEEP> com<lf>sua arma embainhada chama seu Seikret<lf>no modo de Movimento Automático.
 <string>Tipo 3
@@ -135,6 +135,8 @@
 <string>Exibe apenas itens relativos à atiradeira<lf>ao usar a Barra de Itens durante o Modo<lf>de Mira.
 <string>Tipo 2
 <string>Exibe todos os itens ao usar a Barra de Itens<lf>durante o Modo de Mira.
+<string>Tipo 3
+<string>Exibe apenas itens especiais ou relativos<lf>à atiradeira ao usar a Barra de Itens durante<lf>o Modo de Mira.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>Ao usar Atalhos de teclado, permite que<lf>o cursor do mouse seja exibido<lf>e possa controlar os Atalhos.
 <string>Desativar
 <string>Não exibe o cursor do mouse ao usar<lf>Atalhos de teclado.<lf><COLOR preset="TXT_Accent">(Atalhos não podem ser usados com o mouse.)</COLOR>
+<string>Sensibilidade dos Controles de Mouse
+<string>Ajusta a sensibilidade da movimentação do mouse.<lf><COLOR preset="TXT_Accent">(Afeta os controles gerais do mouse. Pode ser<lf>necessário reajustar a sensibilidade da câmera.)</COLOR>
 <string>Prioridade da Roda de Rolagem
 <string>Define os controles de prioridade da roda de rolagem<lf>do mouse nos menus.
 <string>Priorizar navegação de páginas
@@ -760,6 +764,35 @@
 <string>Ajusta o brilho da tela.
 <string>Brilho (HDR)
 <string>Ajusta o brilho da tela.
+<string>Configurações de Desempenho
+<string>Ajusta as configurações gráficas relacionadas<lf>à jogabilidade.<lf><COLOR preset="TXT_Accent">(Ajustável nas opções da tela de título.)</COLOR>
+<string>Ajusta as configurações gráficas de jogabilidade.
+<string>Priorizar Resolução
+<string>Defina as configurações para priorizar a<lf>resolução em vez da taxa de quadros.<lf>Os gráficos ficarão numa resolução mais alta.
+<string>Ajuste as configurações para priorizar<lf>a resolução acima da taxa de quadros.<lf>Os gráficos são exibidos em alta definição,<lf>o Ray Tracing é habilitado e a qualidade de<lf>reflexo e refração de luz é melhorada.
+<string>Priorizar Taxa de Quadros
+<string>Defina as configurações para priorizar a<lf>taxa de quadros em vez da resolução.<lf>Seu personagem se moverá com mais<lf>fluidez, tornando as ações mais suaves.
+<string>Ajuste as configurações para priorizar<lf>a taxa de quadros acima da resolução.<lf>Seu personagem se move com mais<lf>fluidez, tornando as ações mais suaves.<lf>Desativa o Ray Tracing.
+<string>Equilibrado
+<string>Configure as opções para obter o melhor<lf>equilíbrio possível entre resolução e taxa<lf>de quadros, com foco em equilibrar os<lf>detalhes gráficos com movimentação<lf>fluida de personagem.
+<string>Configure as opções para obter o melhor<lf>equilíbrio possível entre resolução e taxa<lf>de quadros, com foco em equilibrar os<lf>detalhes gráficos com movimentação<lf>fluida de personagem. Habilita ray tracing.
+<string>Saída de 120 Hz
+<string>Define se deseja usar saída com taxa de atualização<lf>de 120 Hz. <COLOR preset="TXT_Accent">(Afeta apenas telas compatíveis com 120 Hz.<lf>Reinicie o jogo para aplicar as alterações.)</COLOR>
+<string>Ativado
+<string>Habilita a saída 120 Hz, que pode melhorar<lf>a qualidade visual.<lf><lf><COLOR preset="TXT_Accent">(Essa configuração não garante uma taxa<lf>de quadros de 120. Dependendo da tela,<lf>a resolução de saída e qualidade de imagem<lf>podem ser reduzidas automaticamente.)</COLOR>
+<string>Desativado
+<string>Desabilita a saída de 120 Hz.
+<string>Limite da Taxa de Quadros (FPS)
+<string>Ajusta se a taxa de quadros é limitada a um valor<lf>específico. Definir um limite de taxa de quadros pode<lf>ajudar a prevenir latência de renderização.
+<string>60 FPS (Limitado)
+<string>Limita a taxa de quadros a 60. Só pode ser<lf>selecionado se a opção de <BOLD>Configurações de<lf>Performance</BOLD> estiver definida como <BOLD>Priorizar<lf>Taxa de Quadros</BOLD>.
+<string>40 FPS (Limitado)
+<string>Limita a taxa de quadros a 40. Só pode ser<lf>selecionado se a opção <BOLD>Configurações<lf>de Performance</BOLD> estiver definida como <lf><BOLD>Equilibrado</BOLD> e a <BOLD>Saída de 120 Hz</BOLD> estiver<lf>ativada.
+<string>30 FPS (Limitado)
+<string>Limita a taxa de quadros a 30. Só pode ser<lf>selecionado se a opção de <BOLD>Configurações de<lf>Performance</BOLD> estiver definida como <BOLD>Priorizar<lf>Resolução</BOLD>.
+<string>Limita a taxa de quadros a 30.
+<string>Desligado
+<string>Remove o limite de taxa de quadros, permitindo<lf>que seja alterada de acordo com o tempo de<lf>renderização.
 <string>Sincronização Vertical
 <string>Ajusta a sincronização vertical.
 <string>Ativar
@@ -1455,7 +1488,9 @@
 <string>Não prioriza ou troca canais de bate-papo por<lf>voz automaticamente. A troca deve ser manual.
 <string>Não troca automaticamente entre canais<lf>de bate-papo. A troca deve ser manual.
 <string>Idioma Felyno
+<string>Idioma dos Amigatos
 <string>Ajusta o idioma falado pelos Felynos.
+<string>Ajusta o idioma falado pelos Amigatos.
 <string>Idioma Felyno
 <string>Ajusta as vozes dos Felynos, incluindo<lf>seu Amigato, para o Idioma Felyno. <COLOR preset="TXT_Accent">(Esta<lf>configuração pode ser alterada nas Opções.)</COLOR>
 <string>Usar tipo de voz definido
@@ -1549,6 +1584,16 @@
 <string>Exibe o efeito de um talismã equipado,<lf>se aplicável.
 <string>Não exibir
 <string>Não exibe o efeito de um talismã equipado.
+<string>Música Exclusiva ao Montar
+<string>Define se a música exclusiva é reproduzida<lf>ao montar um Seikret equipado com o traje<lf>"Meu Pequeno Chocobo".
+<string>Tocar
+<string>Toca a música exclusiva ao montar.
+<string>Não tocar
+<string>Não toca a música exclusiva ao montar.
+<string>Vol. da Música Exclusiva
+<string>Define o volume da música exclusiva<lf>reproduzida ao montar um Seikret<lf>com o traje "Meu Pequeno Chocobo".
+<string>Música de Traje de Chocobo
+<string>Ajusta configurações da música exclusiva<lf>reproduzida ao montar um Seikret equipado<lf>com o Traje Meu Pequeno Chocobo.
 <string>Efeitos de Distorção
 <string>Ajusta se um efeito de distorção é usado<lf>para simular o calor da lava ou ambientes<lf>subaquáticos.
 <string>Ativar
@@ -1561,3 +1606,29 @@
 <string>Ativa o auxílio de recuo de mira.
 <string>Desativado
 <string>Desativa o auxílio de recuo de mira.
+<string>Frequência de Diálogo de Amigato
+<string>Ajusta a frequência do diálogo dos Amigatos.
+<string>Padrão
+<string>Permite que seu Amigato fale por conta própria<lf>de acordo com a situação.<lf><COLOR preset="TXT_Accent">Esta é a configuração padrão do jogo.</COLOR>
+<string>Reservado
+<string>Reduz a frequência com que seu Amigato fala.
+<string>Apenas Progressão da História
+<string>Seu Amigato fala apenas quando necessário<lf>para o andamento da história.
+<string>Seleção Auto. de Viagem Rápida
+<string>Ajusta se o ponto de viagem rápida mais<lf>próximo será selecionado automaticamente<lf>ao designar um destino ou alvo.
+<string>Desativar
+<string>Desativa a função de seleção automática.<lf>O primeiro ponto de viagem rápida no topo<lf>da lista será selecionado, independentemente<lf>de um destino ou alvo estar designado.
+<string>Ativar
+<string>Ativa a função de seleção automática.<lf>Se um destino ou alvo for designado, o ponto<lf>de viagem rápida mais próximo será selecionado<lf>automaticamente. Se nada for designado,<lf>o local no topo da lista será selecionado.
+<string>Troca de Atalhos/Radial
+<string>Define se os menus dos atalhos de teclado<lf>estão vinculados aos menus radiais sempre<lf>que você acessar seus atalhos.
+<string>Tipo 1
+<string>Acessar o menu de atalhos de teclado<lf>só trocará o menu de atalhos de teclado.
+<string>Tipo 2
+<string>Os menus de atalhos de teclado e os menus<lf>radiais de controle serão vinculados um ao<lf>outro. Acessar o menu de atalho de teclado<lf>também trocará o menu radial de controle<lf>ativo.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

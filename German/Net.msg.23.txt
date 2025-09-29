@@ -5,12 +5,15 @@
 <string>Informationen konnten nicht abgerufen werden.<lf>{0}
 <string>Die Situation hat sich geändert.<lf>Konnte nicht ausgeführt werden.<lf>{0}
 <string>Verbindungsvorgang...
+<string>Die Einstellungen wurden aktualisiert.
 <string>Die Serververbindung wird überprüft...
 <string>Es gab einen Verbindungsfehler.<lf>{0}
 <string>Es ist ein Kommunikationsfehler aufgetreten.<lf>Du kehrst zum Titelbildschirm zurück.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Einige Online-Mehrspieler-Funktionen sind<lf>derzeit nicht verfügbar.<lf>Du musst ein {0}-Mitglied sein,<lf>um alle Online-Mehrspieler-Funktionen<lf>nutzen zu können.
 <string>Online-Multiplayer ist begrenzt.<lf><lf>Zum Spielen erforderliche Abonnement-<lf>Infos können nicht von <PLATMSG RefGeneral_0026><lf>abgerufen werden.
+<string>Ein Kommunikationsfehler ist aufgetreten.<lf>Abonnementinformationen von <PLATMSG RefGeneral_0026><lf>konnten nicht abgerufen werden.
+<string>Online-Multiplayer ist eingeschränkt,<lf>da kein Abonnement von <PLATMSG RefGeneral_0026><lf>abgerufen werden konnte.
 <string>Dieses Konto erfüllt nicht die Anforderungen<lf>für den Online-Mehrspielermodus.
 <string>Es konnte keine Verbindung zum Netzwerk<lf>hergestellt werden.<lf>Du kehrst zum Titelbildschirm zurück.
 <string>Es konnte keine Verbindung zum Netzwerk<lf>hergestellt werden.
@@ -45,6 +48,7 @@
 <string>Von diesem Konto können keine Sets geteilt werden.<lf>{0}
 <string>Das Senden des Not-Leuchtzeichens ist<lf>fehlgeschlagen.<lf>{0}
 <string>Diese Funktion ist derzeit aufgrund von<lf>Wartungsarbeiten nicht verfügbar.<lf>Bitte warte einen Augenblick und versuche<lf>es dann erneut.<lf>{0}
+<string>Wartungsarbeiten laufen.<lf>Abschlusszeiten werden nicht hochgeladen.<lf>{0}
 <string>Deine Liste gesperrter Nutzer ist voll.<lf>Du kannst keine weiteren Spieler blocken.<lf>{0}
 <string>Zurzeit findet eine geplante Server-Wartung statt.<lf>{0}
 <string>Von diesem Konto kann nicht auf Jagdgruppen-<lf>funktionen zugegriffen werden.<lf>{0}
@@ -53,6 +57,8 @@
 <string>Die Person ist offline.<lf>{0}
 <string>Beitritt zur Lobby nicht möglich, da sich die<lf>Person im Online-Einzelspielermodus befindet.<lf>{0}
 <string>Du kannst der Quest oder Verbindungsgruppe<lf>eines geblockten Spielers nicht beitreten.<lf>{0}
+<string>Du kannst blockierte Spieler nicht einladen.<lf>{0}
+<string>Du kannst blockierten Spielern nicht folgen.<lf>{0}
 <string>Die Verbindung zur Sitzung ist verloren gegangen.<lf>{0}
 <string>Die Erstellung einer Sitzung ist fehlgeschlagen.<lf>{0}
 <string>Sitzungssuche fehlgeschlagen.<lf>{0}
@@ -64,6 +70,8 @@
 <string>Empfohlener Lobby beitreten?
 <string>Der Lobby beitreten?
 <string>Private Lobby erstellen?
+<string>Möchtest du eine private Lobby erstellen, die<lf>nur über die Suche nach Jagdfreundschaften<lf>oder Lobby-ID gefunden werden kann?
+<string>Möchtest du eine private Lobby erstellen, die<lf>nur über die Lobby-ID gefunden werden kann?
 <string>Das Spiel ohne Beitritt zu einer Lobby starten?<lf>(Beitritt ist auch nach Spielstart noch möglich.)
 <string>Bitte gib eine Lobby-ID ein.<lf><lf><COLOR preset="TXT_Accent">Hinweis: Lobby-IDs bestehen aus acht<lf>alphanumerischen Zeichen und es wird zwischen<lf>Groß- und Kleinschreibung unterschieden.</COLOR>
 <string>Der Beitritt zur Sitzung ist fehlgeschlagen,<lf>weil die Quest beendet wurde.
@@ -71,6 +79,7 @@
 <string>Der Beitritt zur Quest ist fehlgeschlagen,<lf>da der eingegebene Passcode nicht stimmt.
 <string>Möchtest du die Umgebungsverbindung<lf>verlassen?
 <string>Der Beitritt zur Umgebungsverbindung ist nicht<lf>möglich, da die Bedingungen nicht erfüllt sind.<lf>{0}
+<string>Beitritt zu Umgebungsverbindung nicht möglich,<lf>bevor Verbindungsgruppen-Leitung aktuelle Quest beendet.<lf>{0}
 <string>Du trittst der Verbindungsgruppe bei.
 <string>Der Server ist derzeit beschäftigt.<lf>Bitte warte ein wenig und versuche es dann erneut.
 <string>Crossplay ist derzeit aktiviert.
@@ -83,6 +92,10 @@
 <string>Betrug festgestellt.<lf>Quest konnte nicht erstellt werden.<lf>{0}
 <string>Betrug festgestellt.<lf>Der Questbeitritt ist fehlgeschlagen.<lf>{0}
 <string>Betrug festgestellt.<lf>Quest konnte nicht begonnen werden.<lf>{0}
+<string>Möchtest du dieser Verbindungsgruppe beitreten?
+<string>Du bist der Verbindungsgruppe beigetreten.
+<string>Bitte gib den Passcode ein.
+<string>Du konntest der Verbindungsgruppe nicht beitreten.<lf>Der eingegebene Passcode ist inkorrekt.
 <string><COLOR preset="TXT_Accent">Die Gemeinschaftsfunktionen sind derzeit eingeschränkt.</COLOR><lf>Die Aufhebung der Einschränkungen erfolgt am<lf><DATETIME {0} "DD.MM.YYYY [um] HH:mm [Uhr]"> (UTC).<lf><lf>Dein Konto hat gegen folgende Regel verstoßen:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Dadurch sind jetzt alle <COLOR preset="TXT_Accent">Gemeinschaftsfunktionen<lf>vorübergehend eingeschränkt</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Bitte halte dich in Zukunft an die Nutzungsbedingungen.</COLOR>
 <string>Beleidigung/Störendes Verhalten
 <string>Arten verbotenen Verhaltens

@@ -378,6 +378,9 @@
 <string>Heat
 <string>A status that slowly causes you to lose<lf>health while in certain areas.<lf><lf>Most commonly cured through:<lf>- Using cool drinks<lf>- Gathering Chillmantle Bugs
 <string>
+<string><ICON ST_COLABO01_00> HP Penalty
+<string>Reduces your maximum health for a set<lf>amount of time. Your max health will<lf>be further reduced if you accumulate<lf>additional stacks of the ailment.<lf><lf>Commonly cured by:<lf>- Waiting for the effect to wear off<lf>while you do not have the monster's<lf>enmity.<lf>(Enmity is indicated by a red line<lf>directed towards you.)
+<string>
 <string>Sheathed State
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -606,4 +609,39 @@
 <string><REF ActionGuideDataNameTextCommon_5188>
 <string><INPUTMSG MsgGUI600200_00_031> With Weapon Sheathed
 <string><INPUTMSG MsgGUI600200_00_045>
+<string>
+<string>FFXIV Special Collaboration
+<string>Pictomancers
+<string>Pictomancy is a school of magic<lf>founded by an itinerant artist and<lf>mage who relinquished her traditional<lf>staff for a magicked brush, letting<lf>her render abstract images to life.<lf>Masters of this arcane discipline can<lf>wield vibrant hues of aether to invoke<lf>a host of fictional beasts, weapons,<lf>and landscapes. A pictomancer's power<lf>lies not in their artistic skill, but<lf>in their rich imagination as they<lf>strive to paint a brighter future.
+<string>
+<string><REF ActionGuideDataNameTextCommon_24467>
+<string><ICON PL_ITEM> When Weapon is Sheathed
+<string>Magic that can be used by selecting<lf>it from the Item Bar.<lf><lf>The first time it's used, you paint<lf>a moogle's pom.<lf><lf>The second time it's used, you paint<lf>a moogle's wings.<lf><lf>The third time it's used, you combine<lf>the pom and wings to render a moogle<lf>to life, dealing powerful magic damage.
+<string>
+<string><REF ActionGuideDataNameTextCommon_29752>
+<string>
+<string><REF ActionGuideDataNameTextCommon_6613>
+<string>
+<string><REF ActionGuideDataNameTextCommon_3529>
+<string>
+<string>Dark Knights
+<string>A valiant few take up arms to defend<lf>the downtrodden, daring to administer<lf>justice to the sacrosanct elite who<lf>reside outside the law. Not even the<lf>holy priests and knights can escape<lf>judgment. Pariahs in their own land,<lf>many know them as "dark knights."<lf><lf>These sentinels bear no shields<lf>declaring their allegiance. Instead,<lf>their greatswords act as beacons to<lf>guide the meek through darkness.
+<string>
+<string><REF ActionGuideDataNameTextCommon_3530>
+<string><ICON PL_ITEM> When Weapon is Sheathed
+<string>An action that becomes available only<lf>when The Blackest Night (a set bonus<lf>skill granted by specific armor) is active.<lf>When used from the Item Bar, it con-<lf>sumes an amount of health to create<lf>a barrier that guards against a myriad<lf>of attacks. While the barrier is active,<lf>press <ICON PL_BT_RIDE_ATTACK_L> to unleash Edge of Shadow.<lf>It will also be unleashed automatically<lf>when the barrier vanishes. If the barrier<lf>is destroyed, your entire health bar<lf>will become recoverable health and<lf>Eventide will activate.
+<string>
+<string><REF ActionGuideDataNameTextCommon_162>
+<string><ICON PL_BT_RIDE_ATTACK_L> During The Blackest Night
+<string>
+<string><REF ActionGuideDataNameTextCommon_31664>
+<string>
+<string><ICON ST_COLABO01_01>Undead Redemption
+<string>A buff granted when Eventide<lf>is unleashed.<lf><lf>While active, the red part of your health<lf>gauge will not be reduced even when<lf>hit by an attack, and your defense will<lf>be greatly increased.<lf><lf>Additionally, continuously attacking<lf>monsters will slightly restore your health.<lf>(The amount depends on weapon type.)
+<string>
+<string><ICON ST_COLABO01_03> Local Resonance
+<string>This buff increases your hunter's affinity<lf>when Omega Resonance (a set bonus<lf>skill granted by specific armor) is active<lf>and when your hunter and other hunters<lf>move within a certain distance of each<lf>other.
+<string>
+<string><ICON ST_COLABO01_04> Remote Resonance
+<string>This buff increases your hunter’s attack<lf>when Omega Resonance (a set bonus<lf>skill granted by specific armor) is active<lf>and when your hunter and other hunters<lf>separate by a certain distance.
 <string>

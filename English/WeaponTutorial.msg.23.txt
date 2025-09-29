@@ -499,7 +499,7 @@
 <string>An attack that produces Note 3<lf>on the musical staff.<lf><lf>Pressing <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> during<lf>the attack will allow you to produce<lf>another note.
 <string>
 <string><ICON WP05 PL_MOVE_BACK><ICON PLUS><ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> During Combo
-<string>A quick attack that produces a note<lf>on the musical staff.<lf><lf>This attack can be used after a number<lf>of different attacks, with <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01>, and<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> each producing their own note.<lf><lf>If you time this well with a monster's<lf>incoming attack, you can perform a counter<lf>attack while reducing damage you receive,<lf>and you can also chain into other attacks.
+<string>A quick attack that produces a note<lf>on the musical staff.<lf><lf>This attack can be used after a number<lf>of different attacks, with <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01>, and<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> each producing their own note.<lf><lf>If you time this well with a monster's<lf>incoming attack, you can perform a<lf>counterattack while reducing damage<lf>you receive, and you can also chain<lf>into other attacks.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_386094144>
 <string><ICON WP05 PL_ATTACK_SP>
@@ -565,7 +565,7 @@
 <string>Prevents being slowed by deep water<lf>or oilsilt. Also nullifies effects from<lf>waves created by monsters.
 <string>
 <string><ICON ST_RESIST_DEBUF> All Ailments Negated
-<string>Nullifies all status ailments.
+<string>Nullifies all status ailments.<lf><lf>The HP Penalty ailment introduced<lf>in the FFXIV special collaboration<lf>cannot be nullified.
 <string>
 <string><ICON ST_SPIRIT> Divine Protection
 <string>Grants a chance of reducing damage<lf>taken.
@@ -650,7 +650,7 @@
 <string>Increases defense and elemental<lf>resistances.
 <string>
 <string><ICON ST_RESIST_DEBUF> Ailments/Blights Negated
-<string>Removes and prevents various status<lf>ailments and blights.
+<string>Removes and prevents various status<lf>ailments and blights.<lf><lf>The HP Penalty ailment introduced<lf>in the FFXIV special collaboration<lf>cannot be nullified.
 <string>
 <string>Basic Combo
 <string><REF ActionGuideDataNameText_Wp05_1180191104>

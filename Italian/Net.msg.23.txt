@@ -5,12 +5,15 @@
 <string>Non è stato possibile recuperare le informazioni.<lf>{0}
 <string>Non eseguibile a causa di un cambio di situazione.<lf>{0}
 <string>Connessione...
+<string>Le impostazioni sono state aggiornate.
 <string>Verifica della connessione al server...
 <string>Errore di comunicazione.<lf>{0}
 <string>Si è verificato un errore di comunicazione.<lf>Ritorno alla schermata del titolo.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>In modalità multigiocatore online alcune funzioni<lf>non saranno disponibili.<lf><lf>È necessario un abbonamento {0} per accedere a tutte<lf>le funzioni della modalità multigiocatore online.
 <string>Il multigiocatore online è limitato.<lf><lf>Impossibile ottenere le informazioni<lf>sull'abbonamento necessarie <lf>per giocare online da <PLATMSG RefGeneral_0026>.
+<string>Si è verificato un errore di comunicazione.<lf>Impossibile ottenere le informazioni sull'abbonamento<lf>da <PLATMSG RefGeneral_0026>.
+<string>Il multigiocatore online è limitato perché<lf>non è stato possibile ottenere le informazioni<lf>sull'abbonamento da <PLATMSG RefGeneral_0026>.
 <string>Questo account non soddisfa i requisiti<lf>per il multigiocatore online.
 <string>Impossibile connettersi alla rete.<lf>Ritorno alla schermata del titolo.
 <string>Non è stato possibile connettersi alla rete.
@@ -45,6 +48,7 @@
 <string>Non puoi condividere set da questo account.<lf>{0}
 <string>Non è stato possibile inviare il razzo SOS.<lf>{0}
 <string>Questa funzione non è attualmente<lf>disponibile per motivi di manutenzione.<lf>Attendi un po' e riprova in seguito.<lf>{0}
+<string>Attualmente in manutenzione.<lf>I tempi di completamento non verranno caricati. <lf>{0}
 <string>Hai raggiunto il limite massimo<lf>e non puoi bloccare altri giocatori.<lf>{0}
 <string>I server sono in manutenzione programmata.<lf>{0}
 <string>Le funzionalità di squadra non<lf>sono accessibili da questo account.<lf>{0}
@@ -53,6 +57,8 @@
 <string>Il destinatario è offline.<lf>{0}
 <string>Impossibile accedere alla stanza di questo giocatore<lf>mentre si trova in modalità giocatore singolo online.<lf>{0}
 <string>Impossibile unirsi alla stessa missione <lf>o al gruppo di collegamento di un membro bloccato.<lf>{0}
+<string>Non puoi invitare un giocatore che hai bloccato.<lf>{0}
+<string>Non puoi seguire un giocatore<lf>che hai bloccato.<lf>{0}
 <string>La connessione alla sessione si è interrotta.<lf>{0}
 <string>Creazione sessione non riuscita.<lf>{0}
 <string>Ricerca sessione non riuscita.<lf>{0}
@@ -64,6 +70,8 @@
 <string>Unirsi a una stanza consigliata?
 <string>Unirsi alla stanza?
 <string>Creare una stanza privata?
+<string>Creare una stanza privata raggiungibile solo<lf>con Cerca amici cacciatori e Cerca ID stanza?
+<string>Creare una stanza privata che può essere raggiunta<lf>solo tramite Cerca ID stanza?
 <string>Avviare il gioco senza unirsi a una stanza?<lf>(Puoi unirti a una stanza in seguito.)
 <string>Cerca un ID stanza specifico.<lf><lf><COLOR preset="TXT_Accent">Fa distinzione tra maiuscole e minuscole<lf>e richiede otto caratteri alfanumerici.</COLOR>
 <string>Impossibile unirsi alla sessione<lf>perché la missione è terminata.
@@ -71,6 +79,7 @@
 <string>Impossibile unirsi alla missione perché<lf>la password inserita non è valida.
 <string>Abbandonare il collegamento ambiente?
 <string>Impossibile unirsi al collegamento ambiente<lf>perché i requisiti non sono stati soddisfatti.<lf>{0}
+<string>Impossibile unirsi al collegamento ambiente finché il<lf>capo del gruppo di collegamento non termina la missione attuale.<lf>{0}
 <string>Ti stai unendo al gruppo di collegamento.
 <string>Il server è attualmente occupato.<lf>Attendere un po' e riprovare.
 <string>Il crossplay è attualmente abilitato.
@@ -83,6 +92,10 @@
 <string>Uso di cheat rilevato.<lf>Impossibile creare la missione.<lf>{0}
 <string>Uso di cheat rilevato.<lf>Impossibile unirsi alla missione.<lf>{0}
 <string>Uso di cheat rilevato.<lf>Impossibile iniziare la missione.<lf>{0}
+<string>Entrare in questo gruppo di collegamento?
+<string>Sei nel gruppo di collegamento.
+<string>Inserisci la password.
+<string>Impossibile unirsi al gruppo di collegamento<lf>perché la password inserita non è corretta.
 <string><COLOR preset="TXT_Accent">La funzionalità della Community è stata limitata.</COLOR><lf>Le limitazioni saranno rimosse: <DATETIME {0} "MMMM Do, YYYY HH:mm"> (UTC)<lf>Il tuo account è in violazione di quanto segue:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Pertanto, <COLOR preset="TXT_Accent">le funzioni della Community sono state<lf>temporaneamente limitate</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Ti preghiamo di giocare rispettando i termini di utilizzo.</COLOR>
 <string>Comportamenti abusivi
 <string>Tipi di comportamenti proibiti

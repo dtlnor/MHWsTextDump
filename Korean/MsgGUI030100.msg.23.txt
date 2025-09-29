@@ -106,7 +106,7 @@
 <string><REF RefGeneral_0014_01> 호출 조작
 <string><REF RefGeneral_0014_01> 호출 방법을 설정합니다.
 <string>타입 1
-<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> 혹은 커스텀 숏컷으로<lf><REF RefGeneral_0014_01> 호출을 실행합니다.
+<string><INPUTMSG MsgGUI030100_INPUT_00> 혹은 커스텀 숏컷으로<lf><REF RefGeneral_0014_01> 호출을 실행합니다.
 <string>타입 2
 <string>타입 1 조작 외에, 납도 중에 <ICON PL_PT_CALL_KEEP>을<lf>입력해도 <REF RefGeneral_0014_01>를 자동 이동 상태로<lf>호출할 수 있습니다.
 <string>타입 3
@@ -135,6 +135,8 @@
 <string>조준 모드 중에 아이템 슬라이더를<lf>조작하면 슬링어 계열 아이템만 표시합니다.
 <string>타입 2
 <string>조준 모드 중에 아이템 슬라이더를<lf>조작해도 평상시처럼 아이템 슬라이더의<lf>아이템을 전부 표시합니다.
+<string>타입 3
+<string>조준 모드 중에<lf>아이템 슬라이더를 조작하면<lf>슬링어 계열<lf>또는 특수 아이템만 표시합니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>키보드용 숏컷을 표시했을 때<lf>마우스 커서를 표시하여<lf>마우스로 숏컷을 조작할 수 있게 합니다.
 <string>끄기
 <string>키보드용 숏컷을 표시했을 때<lf>마우스 커서를 표시하지 않습니다.<lf><COLOR preset="TXT_Accent">(마우스로 숏컷을 조작할 수 없습니다.)</COLOR>
+<string>마우스 조작 감도
+<string>마우스 조작 감도를 설정합니다. <COLOR preset="TXT_Accent">(본 설정은 마우스 조작<lf>전반에 영향을 미칩니다. 설정 후 카메라 감도<lf>설정에서 카메라 조작감을 재설정해 주십시오.)</COLOR>
 <string>마우스 휠 우선 조작
 <string>메뉴 조작 중에 마우스 휠을<lf>위아래로 스크롤할 때 우선할 조작을 설정합니다.
 <string>페이지 전환 우선
@@ -760,6 +764,35 @@
 <string>화면 밝기를 조정합니다.
 <string>화면 밝기 조정(HDR)
 <string>화면 밝기를 조정합니다.
+<string>퍼포먼스 설정
+<string>게임 플레이 시 그래픽 퍼포먼스 관련 항목을 설정<lf>합니다. <COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다)</COLOR>
+<string>게임 플레이 그래픽 퍼포먼스<lf>관련 설정을 합니다.
+<string>해상도 우선
+<string>프레임 레이트보다 이미지 해상도를<lf>우선하여 더욱 정밀한 그래픽을 표시합니다.
+<string>프레임 레이트보다 이미지 해상도를 우선하여<lf>더욱 그래픽을 정밀하게 표시합니다.<lf>또한, 레이트레이싱 기능을 통해<lf>빛 반사와 굴절 표현 품질이 향상됩니다.
+<string>프레임 레이트 우선
+<string>해상도보다 동작 프레임 레이트를 우선합니다.<lf>캐릭터의 움직임이 보다 부드러워집니다.<lf>플레이 중 액션의 쾌적함이 향상됩니다.
+<string>동작 프레임 레이트를 우선합니다.<lf>캐릭터의 움직임이 보다 부드러워집니다.<lf>플레이 중 액션의 쾌적함이 향상됩니다.<lf>단, 레이트레이싱 기능은 꺼집니다.
+<string>밸런스 중시
+<string>이미지 해상도와 프레임 레이트의 밸런스를<lf>중시하여 정밀한 그래픽 표시와 캐릭터의<lf>부드러운 움직임을 가능한 한 양립시킵니다.
+<string>이미지 해상도와 프레임 레이트의 밸런스를<lf>중시하여 정밀한 그래픽 표시와 캐릭터의<lf>부드러운 움직임을 가능한 한 양립시킵니다.<lf>또한, 레이트레이싱 기능이 켜집니다.
+<string>120Hz 출력 설정
+<string>주사율 120Hz 출력 사용 여부를 설정합니다.<lf><COLOR preset="TXT_Accent">(120Hz 표시를 지원하는 디스플레이 사용 시에만<lf>설정 가능합니다)(설정 반영 시 게임 재실행 필요)</COLOR>
+<string>켜기
+<string>120Hz 출력을 사용합니다. 상황에 따라<lf>영상이 부드럽게 보일 수 있습니다.<lf><COLOR preset="TXT_Accent">(프레임 레이트 120fps를 실현하는<lf>기능이 아닙니다)<lf>(디스플레이에 따라 자동으로 출력 해상도가<lf>낮아져 화질이 저하될 수 있습니다)</COLOR>
+<string>끄기
+<string>120Hz 출력을 사용하지 않습니다.
+<string>프레임 레이트 고정 설정
+<string>프레임 레이트를 일정값으로 고정할지 여부를<lf>설정합니다. 설정 시, 프레임 레이트 변동에 따른<lf>묘사 품질 차이를 막을 수 있습니다.
+<string>60fps로 고정
+<string>프레임 레이트를 60fps로 고정합니다.<lf>퍼포먼스 설정을 프레임 레이트 우선으로<lf>설정한 경우에 한해 선택할 수 있습니다.
+<string>40fps로 고정
+<string>프레임 레이트를 40fps로 고정합니다.<lf>퍼포먼스 설정을 밸런스 중시로<lf>설정한 후, 120Hz 출력 설정을<lf>켜기로 한 경우에만 선택할 수 있습니다.
+<string>30fps로 고정
+<string>프레임 레이트를 30fps로 고정합니다.<lf>퍼포먼스 설정을 해상도 우선으로<lf>설정한 경우에 한해 선택할 수 있습니다.
+<string>프레임 레이트를 30fps로 고정합니다.
+<string>끄기
+<string>프레임 레이트를 일정값으로 고정하지 않고<lf>묘사 부하에 따라 변동하는 것을 허용합니다.
 <string>수직 동기화
 <string>수직 동기화(VSync)를 설정합니다.
 <string>사용
@@ -1455,7 +1488,9 @@
 <string>발신처를 자동으로 전환하지 않습니다.<lf>수동으로만 전환합니다.
 <string>자동으로 전환하지 않습니다.<lf>수동으로만 전환합니다.
 <string>아이루 음성 설정
+<string>동반자 아이루 음성 설정
 <string>아이루가 말하는 음성을 설정합니다.
+<string>동반자 아이루가 말하는 음성을 설정합니다.
 <string>모두 아이루어로 하기
 <string>자신의 동반자를 포함한<lf>아이루의 음성이 모두 아이루어가 됩니다.<lf><COLOR preset="TXT_Accent">(이 설정은 캐릭터 생성에서 변경할 수 있습니다.)</COLOR>
 <string>음성 타입 설정에 따르기
@@ -1549,6 +1584,16 @@
 <string>장비 중인 호석에 이펙트 표시가 있는 경우<lf>해당 이펙트를 표시합니다.
 <string>표시 안 함
 <string>장비 중인 호석에 이펙트 표시가 있어도<lf>해당 이펙트를 표시하지 않습니다.
+<string>탑승 중 전용 BGM 재생
+<string>'위시 마이 초코보의 장비' 장착 시 세크레트<lf>탑승 중 전용 BGM 재생 여부를 설정합니다.
+<string>켜기
+<string>탑승 중 전용 BGM을 재생합니다.
+<string>끄기
+<string>탑승 중 전용 BGM을 재생하지 않습니다.
+<string>전용 BGM 재생 시 음량
+<string>'위시 마이 초코보의 장비' 장착 시 세크레트<lf>탑승 중 전용 BGM 재생 음량을 설정합니다.
+<string>초코보 장비 장착 시 BGM 설정
+<string>세크레트 커스터마이즈에서 '위시 마이<lf>초코보의 장비' 장착 시 세크레트 탑승 중<lf>재생되는 전용 BGM을 설정합니다.
 <string>화면 흔들림 표현 설정
 <string>용암의 열기나, 수중에 있는 상태를 표현하는<lf>화면 흔들림을 설정합니다.
 <string>사용
@@ -1561,3 +1606,29 @@
 <string>사격 반동 후의 조준 어시스트 기능을 사용합니다.
 <string>끄기
 <string>사격 반동 후의 조준 어시스트 기능을 사용하지 않습니다.
+<string>동반자 아이루 발언 빈도 설정
+<string>동반자 아이루의 발언 빈도를 설정합니다.
+<string>보통
+<string>상황에 따라 동반자 아이루가<lf>스스로 판단하여 말합니다.<lf><COLOR preset="TXT_Accent">(게임 빈도 설정 중 보통에 해당합니다)</COLOR>
+<string>적게
+<string>동반자 아이루의 발언 빈도가<lf>보통보다 적어집니다.
+<string>스토리 진행 한정
+<string>동반자 아이루의 발언이 스토리 진행과<lf>관련된 내용으로 한정됩니다.
+<string>패스트 트래블 목적지 자동선택
+<string>목적지나 타겟을 지정한 후 '패스트 트래블 목적지<lf>목록'을 열었을 때, 해당 장소에 더 짧은 시간에<lf>도달할 수 있는 목적지를 자동선택합니다.
+<string>비활성화
+<string>자동선택 기능을 비활성화합니다.<lf>목적지나 타겟 지정 여부에 관계없이<lf>패스트 트래블 목적지 목록 맨 위에 있는<lf>목적지가 선택됩니다.
+<string>활성화
+<string>자동선택 기능을 활성화합니다. 목적지나<lf>타겟이 지정된 경우, 더 짧은 시간 내에<lf>도달할 수 있는 패스트 트래블 목적지가<lf>자동으로 선택됩니다. 지정되지 않았다면<lf>목록 맨 위에 있는 목적지가 선택됩니다.
+<string>숏컷 팔레트로 전환
+<string>숏컷 팔레트 호출 조작 시,<lf>전환 대상 팔레트를 설정합니다.
+<string>타입 1
+<string>숏컷 팔레트 호출 조작에서는<lf>키보드용 숏컷만<lf>전환 가능합니다.
+<string>타입 2
+<string>숏컷 팔레트 호출 조작에서는<lf>키보드용, 컨트롤러용<lf>모두 전환 가능합니다.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

@@ -840,6 +840,8 @@
 <string>En la cantina del gran centro, puedes<lf>pedir menús regionales de cada una de<lf>las distintas aldeas, así como menús<lf>de temporada durante eventos especiales.
 <string>Cantina del gran centro
 <string>Los cupones necesarios para los menús de<lf>la cantina se consiguen mediante bonus de<lf>acceso y con recompensas de submisiones.<lf><lf>¡No pierdas la oportunidad de acumularlos!
+<string>Cantina del gran centro
+<string>Si alguien canjea un cupón de menú, podrán<lf>disfrutarlo también otros miembros del grupo<lf>vinculado y quienes estén en la misma misión.
 <string>Cambio de ropa de Alma
 <string>Ahora puedes cambiarle la ropa a Alma<lf>en el menú de <COLOR preset="TXT_Accent">cambiar apariencia</COLOR>. Ayúdala<lf>a ampliar sus horizontes sobre moda<lf>cambiándole de ropa cada cierto tiempo.
 <string>Cambiar gafas de Alma
@@ -938,12 +940,98 @@
 <string>Si eliges la opción <BOLD>ocultar</BOLD>, podrás<lf>ocultar de la barra de munición/viales<lf>aquellos que no quieras ver.
 <string>Ocultar cierta munición/viales
 <string>Eso sí, aun si consumes toda la munición<lf>y viales (o si quedan ocultos), siempre se<lf>mostrará una opción usable en la barra.
+<string>Música de atuendo de Chocobo al montar
+<string>Al equipar el atuendo <COLOR preset="TXT_Accent">My Little Chocobo</COLOR>,<lf>sonará música exclusiva al montar<lf>en tu Seikret.
+<string>Música de atuendo de Chocobo al montar
+<string>Activa o desactiva la música exclusiva<lf>al montar o ajusta el volumen en<lf><COLOR preset="TXT_Accent">sonido</COLOR>, en el menú de opciones.
+<string>Festival de la Armonía: Sueñiencanto
+<string>Durante los festivales se añade<lf>contenido especial al gran centro.<lf>¡Solo estará disponible por un tiempo,<lf>así que pásate por allí mientras puedas!
+<string>¡Cazador de apoyo temporal!
+<string>Durante el período del evento, las bengalas<lf>de auxilio pueden invocar a un cazador de<lf>apoyo especial. No obstante, dependerá<lf>de la misión o del nivel de progreso.
+<string>¡Llénate con platos de temporada!
+<string>Disfruta de menús temporales en<lf>la cantina gracias a los vales de<lf>Sueñiencanto. Inicia sesión durante<lf>el evento para conseguirlos.
+<string>Conseguir vales de Sueñiencanto
+<string>Los vales de menús normales permiten<lf>que otros, aparte del usuario, se sirvan;<lf>pero solo quien canjea el vale puede<lf>optar a los objetos del menú exclusivos<lf>del período del evento.
+<string>¡Da un nuevo look a Alma!
+<string>Hay una ropa especial del Sueñiencanto<lf>para que los encargados se unan a<lf>las festividades. ¡Habla con Alma en el<lf>gran centro para cambiar su apariencia!
+<string>¡Nuevas submisiones limitadas cada día!
+<string>Las submisiones limitadas se actualizan a<lf>diario y otorgan vales de Sueñiencanto que<lf>podrás usar para crear equipamiento de<lf>esta estación, disponible temporalmente.
+<string>¡Bonus de acceso extra!
+<string>Mientras dure el evento, recibirás<lf>dos vales suertudos en lugar de uno,<lf>además de otras recompensas,<lf>como los vales de Sueñiencanto.
+<string>¡Se acercan nuevas misiones de evento!
+<string>¡Hay misiones de evento disponibles<lf>durante un tiempo limitado! Además,<lf>también vuelven a estar disponibles<lf>misiones de evento antiguas.
+<string>Alma del pictomante
+<string>Has obtenido un <COLOR preset="TXT_Accent">alma del pictomante</COLOR>.<lf>Si guardas este objeto en tu bolsa,<lf>podrás hacer uso de la <COLOR preset="TXT_Accent">pictomancia</COLOR>.
+<string>Usar la pictomancia
+<string>Pulsa <ICON PL_ITEM> para usar la <COLOR preset="TXT_Accent">pictomancia</COLOR> y dibujar algo<lf>que cobrará vida para atacar a tus enemigos.<lf>Necesita recargarse tras su uso.
+<string>Mog ancestral
+<string>Al combinar dibujos, podrás lanzar<lf>el hechizo de <COLOR preset="TXT_Accent">pictomancia</COLOR> más poderoso:<lf><COLOR preset="TXT_Accent">Mog ancestral</COLOR>.
+<string>Materialización de dibujos
+<string>Puedes ver los dibujos que has hecho<lf>en el lienzo en la parte de abajo de la pantalla.<lf>Para ver más detalles, echa un vistazo a la <COLOR preset="TXT_Accent">guía<lf>de controles básicos</COLOR>.
+<string>Usa el menú radial personalizado
+<string>Registra hechizos de pictomancia en<lf>el menú radial personalizado para<lf>poder usarlos rápida y fácilmente.
+<string>Usar el poder del caballero oscuro
+<string>Cuando la habilidad de bonificación otorgada<lf>por una armadura concreta se active, podrás<lf>usar el objeto exclusivo: <COLOR preset="TXT_Accent">La noche más oscura</COLOR>.
+<string>La noche más oscura
+<string>Pulsa <ICON PL_ITEM> para usar el objeto y crear<lf>una poderosa barrera que consume<lf>tu salud. Una vez se haya usado, tendrá<lf>que recargarse.
+<string>Filo de tinieblas
+<string>Un tajo hacia delante que se<lf>lanza automáticamente cuando la barrera<lf>se agota sin ser destruida, o que se<lf>puede usar inmediatamente pulsando <ICON PL_BT_RIDE_ATTACK_L>.
+<string>Ocaso
+<string>Si un ataque enemigo destruye<lf>la barrera, lanzarás un poderosísimo<lf>contraataque y obtendrás una <COLOR preset="TXT_Accent">bonificación<lf>especial</COLOR> durante cierto tiempo.
+<string>Usa el menú radial personalizado
+<string>Registra <COLOR preset="TXT_Accent">La noche más oscura</COLOR> en el menú<lf>radial personalizado para poder usarla hasta<lf>con el arma envainada. Para más detalles,<lf>echa un vistazo a la <COLOR preset="TXT_Accent">guía de controles básicos</COLOR>.
+<string>El mapa de campo
+<string>Cuando visites una nueva región, explórala y<lf>desvelarás cada una de sus zonas en el mapa.
+<string>El mapa de campo
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>El mapa de campo
+<string><COLOR preset="TXT_Accent">Lista de viaje rápido</COLOR><lf>Pulsa <ICON UI_DECIDE> en las ubicaciones disponibles en el<lf>mapa para trasladarte rápidamente hasta allí.
+<string>El mapa de campo
+<string><COLOR preset="TXT_Accent">Filtrar iconos</COLOR><lf>Ve los puntos de recolección, instalaciones, fauna<lf>local, personajes, etc., que hay en la región.
+<string>El mapa de campo
+<string><COLOR preset="TXT_Accent">Entorno</COLOR><lf>El mapa muestra los monstruos y eventos<lf>que hay activos en la región.
+<string>El mapa de campo
+<string><COLOR preset="TXT_Accent">Nivel de peligro de los monstruos</COLOR><lf>Los círculos en el mapa indican el nivel de peligro<lf>de cada monstruo. Si son rojos, el peligro es alto.
+<string>El mapamundi
+<string>Abre el mapa de campo y pulsa <ICON UI_MAP3D_OPEN_WORLD_MAP> para<lf>ver las regiones que has visitado.<lf>Desde ahí podrás revisar el entorno de<lf>cada región y utilizar el viaje rápido.
+<string>Animaciones de misión completada
+<string>Puedes elegir hasta tres animaciones<lf>de misión completada distintas que<lf>priorizar. (Deben cumplirse ciertos<lf>requisitos para que se reproduzcan).
+<string>Animaciones de misión completada
+<string>No obstante, durante las situaciones incluidas<lf>en la siguiente página, las animaciones de<lf>misión completada priorizadas podrían no<lf>reproducirse aunque se cumplan los requisitos.
+<string>Animaciones de misión completada
+<string>- Al completar un encargo<lf>- Al completar un estudio de campo<lf>- Al usar cierto equipamiento<lf>- Al completar algunas misiones de evento
 <string>Fusión de talismán
 <string>Se ha añadido la <COLOR preset="TXT_Accent">fusión de talismán</COLOR>, que<lf>permite transformar en objetos de tasación<lf>los talismanes tasados que no quieras.<lf>¡A ver qué otros talismanes consigues!
 <string>Talismanes tasados
 <string>Se han añadido los talismanes tasados.<lf>Los talismanes resultantes de una<lf>tasación no se pueden mejorar,<lf>pero tienen efectos muy diversos.
 <string>Talismanes tasados
 <string>Los talismanes tasados pueden tener<lf>habilidades de arma, espacios para<lf>adornos y habilidades de armadura.<lf>¡Consigue tantos como puedas!
+<string>Consejos para luchar contra Omega Planetes
+<string>Al luchar contra Omega Planetes,<lf>es fundamental trabajar con otros<lf>cazadores o cazadores de apoyo<lf>con el <COLOR preset="TXT_Accent">reparto de papeles</COLOR>.
+<string>Llamar la atención del enemigo
+<string>Si tu papel es llamar la atención de Omega,<lf>deberías equiparte algún arma que<lf>se use con escudo. Asegúrate también<lf>de equiparte la habilidad <COLOR preset="TXT_Accent">escudo</COLOR>.
+<string>Curar y ayudar a los aliados
+<string>Si tu papel es curar y ayudar a los demás,<lf>equípate con habilidades como <COLOR preset="TXT_Accent">recuperación</COLOR>,<lf><COLOR preset="TXT_Accent">velocidad al comer</COLOR> o <COLOR preset="TXT_Accent">alcance extendido</COLOR>,<lf>para poder ayudar a tus aliados sin problema.
+<string>Atacar
+<string>Si tu papel es infligir daño al enemigo,<lf>deberías equiparte habilidades que aumenten<lf>tu ataque. Equípate armas de elemento <COLOR preset="TXT_Accent">rayo</COLOR><lf>para maximizar su efectividad.
+<string>Uso de objectos efectivos
+<string>Asegúrate de llevar objetos que también<lf><COLOR preset="TXT_Accent">afecten a tus aliados</COLOR>. Por ejemplo,<lf>el polvo de vida, el polvo de demonio<lf>o el polvo de cáscara.
+<string>Movimientos de apoyo individuales: sí/no
+<string>Puedes activar uno por uno los movimientos de<lf>apoyo del camarada Felyne. Ve a <COLOR preset="TXT_Accent">camarada Felyne</COLOR><lf>en el menú de inicio o en el menú de tu tienda.
+<string>Defenderse contra el Ataque Delta
+<string>La única forma de sobrevivir al Ataque<lf>Delta es refugiándote dentro de un<lf>poderoso escudo defensivo creado<lf>al derrotar a un clon de Nerscylla.
+<string>Prioriza crear un escudo
+<string><COLOR preset="TXT_Accent">Centra tus ataques en el clon de Nerscylla<lf>antes de que se produzca el Ataque Delta</COLOR><lf>para así poder derrotarlo a tiempo para<lf>refugiarte en el escudo que crea.
+<string>Usa dos armas elementales diferentes
+<string><COLOR preset="TXT_Accent">El fuego es efectivo contra Nerscylla,<lf>y el rayo, contra Omega Planetes</COLOR>.<lf>Si usas armas de ambos elementos,<lf>conseguirás triunfar en esta misión.
+<string>Resonancia Omega
+<string>Durante esta misión, la habilidad de<lf>bonificación <COLOR preset="TXT_Accent">resonancia Omega</COLOR> se<lf>manifestará de manera local o remota<lf>si se cumplen estas condiciones:
+<string>Resonancia local
+<string>Cuando se active la <COLOR preset="TXT_Accent">resonancia local</COLOR>,<lf><COLOR preset="TXT_Accent">acércate</COLOR> a otros cazadores para<lf>aumentar vuestra afinidad.
+<string>Resonancia remota
+<string>Cuando se active la <COLOR preset="TXT_Accent">resonancia<lf>remota</COLOR>, <COLOR preset="TXT_Accent">aléjate</COLOR> de otros cazadores<lf>para aumentar tu ataque.
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>Heridas
 <string>Ahora puedes intercambiar adornos antiguos<lf>por puntos de fusión que podrás usar para<lf><COLOR preset="TXT_Accent">fundir nuevos adornos</COLOR>. Las opciones<lf>aumentarán a medida que cumplas con<lf>las condiciones.
 <string>Adornos y sets de equipamiento

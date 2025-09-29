@@ -5,12 +5,15 @@
 <string>Nie udało się zdobyć informacji.<lf>{0}
 <string>Nie można wykonać z powodu zmiany sytuacji.<lf>{0}
 <string>Łączenie...
+<string>Zaktualizowano ustawienia.
 <string>Sprawdzanie połączenia z serwerem...
 <string>Wystąpił błąd łączności.<lf>{0}
 <string>Wystąpił błąd komunikacji.<lf>Powrót na ekran tytułowy.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Niektóre funkcje wieloosobowej gry online<lf>nie będą dostępne.<lf><lf>Aby uzyskać dostęp do wszystkich funkcji<lf>wieloosobowej gry online, zarejestruj się<lf>w usłudze {0}.
 <string>Wieloosobowa gra online jest ograniczona.<lf><lf>Nie można pozyskać informacji<lf>o niezbędnej do gry online subskrypcji<lf>z <PLATMSG RefGeneral_0026>.
+<string>Wystąpił błąd łączności.<lf>Nie można uzyskać informacji o subskrypcji<lf>z: <PLATMSG RefGeneral_0026>.
+<string>Wieloosobowa gra online jest ograniczona,<lf>ponieważ nie można uzyskać informacji<lf>o subskrypcji z: <PLATMSG RefGeneral_0026>.
 <string>To konto nie spełnia wymagań<lf>wieloosobowej gry online.
 <string>Nie udało się połączyć z siecią.<lf>Powrót do ekranu tytułowego.
 <string>Nie udało się połączyć z siecią.
@@ -45,6 +48,7 @@
 <string>Zestawy nie mogą być udostępniane z tego konta.<lf>{0}
 <string>Nie udało się wysłać flary alarmowej.<lf>{0}
 <string>Ta funkcja jest obecnie niedostępna z powodu<lf>konserwacji. Proszę poczekać chwilę i spróbować<lf>ponownie.<lf>{0}
+<string>Aktualnie w trakcie konserwacji.<lf>Czasy ukończenia nie zostaną przesłane. <lf>{0}
 <string>Osiągnięto limit blokad i nie możesz zablokować<lf>więcej graczy.<lf>{0}
 <string>Serwery są obecnie w trakcie zaplanowanej<lf>konserwacji.<lf>{0}
 <string>Funkcjonalność oddziału nie jest<lf>dostępna z tego konta.<lf>{0}
@@ -53,6 +57,8 @@
 <string>Gracz jest offline.<lf>{0}
 <string>Nie można dołączyć do lobby gracza,<lf>który gra w trybie online dla jednego gracza.<lf>{0}
 <string>Nie można dołączyć do tego samego zadania<lf>lub wspólnej grupy co zablokowany członek.<lf>{0}
+<string>Nie możesz zaprosić zablokowanego przez siebie gracza.<lf>{0}
+<string>Nie możesz obserwować<lf>zablokowanego przez siebie gracza.<lf>{0}
 <string>Utracono połączenie z sesją.<lf>{0}
 <string>Nie udało się utworzyć sesji.<lf>{0}
 <string>Nie udało się wyszukać sesji.<lf>{0}
@@ -64,6 +70,8 @@
 <string>Dołączyć do zalecanego lobby?
 <string>Dołączyć do lobby?
 <string>Utworzyć prywatne lobby?
+<string>Stworzyć prywatne lobby, do którego można dołączyć<lf>przez wyszukiwanie znajomego i ID lobby?
+<string>Stworzyć prywatne lobby, do którego można dołączyć<lf>tylko przez wyszukiwanie ID lobby?
 <string>Zacząć grę bez dołączenia do lobby?<lf>(Możesz dołączyć do lobby po uruchomieniu gry).
 <string>Wyszukaj ID lobby.<lf><lf><COLOR preset="TXT_Accent">(Do 8 znaków. Uwzględnia wielkość liter.)</COLOR>
 <string>Nie udało się dołączyć do sesji,<lf>ponieważ zadanie się zakończyło.
@@ -71,6 +79,7 @@
 <string>Nie udało się dołączyć do zadania, ponieważ<lf>podane hasło jest nieprawidłowe.
 <string>Opuścić wspólny świat?
 <string>Nie można dołączyć do wspólnego świata,<lf>ponieważ nie spełniono niezbędnych warunków.<lf>{0}
+<string>Nie można dołączyć do wspólnego świata, póki<lf>lider wspólnej grupy nie ukończy obecnego zadania.<lf>{0}
 <string>Trwa dołączanie do wspólnej grupy.
 <string>Serwer jest obecnie zajęty. Poczekaj<lf>chwilę i spróbuj ponownie później.
 <string>Rozgrywka międzyplatformowa jest obecnie włączona.
@@ -83,6 +92,10 @@
 <string>Wykryto oszukiwanie.<lf>Nie można utworzyć zadania.<lf>{0}
 <string>Wykryto oszukiwanie.<lf>Nie udało się dołączyć do zadania.<lf>{0}
 <string>Wykryto oszukiwanie.<lf>Nie udało się rozpocząć zadania.<lf>{0}
+<string>Dołączyć do tej wspólnej grupy?
+<string>Dołączono do wspólnej grupy.
+<string>Podaj hasło.
+<string>Nie udało się dołączyć do wspólnej grupy,<lf>ponieważ wprowadzone hasło jest niepoprawne.
 <string><COLOR preset="TXT_Accent">Funkcje społeczności są obecnie ograniczone.</COLOR><lf>Ograniczenia zostaną zdjęte: <DATETIME {0} "DD.MM.YYYY H:mm"> (UTC)<lf>Twoje konto narusza następujące zasady:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>W związku z tym <COLOR preset="TXT_Accent">funkcje społeczności zostały<lf>tymczasowo ograniczone</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Graj zgodnie z warunkami użytkowania.</COLOR>
 <string>Zachowanie obraźliwe/agresywne
 <string>Typy niedozwolonych zachowań

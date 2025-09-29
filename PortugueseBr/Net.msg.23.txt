@@ -5,12 +5,15 @@
 <string>Falha ao obter informação.<lf>{0}
 <string>Execução impedida devido à mudança de situação.<lf>{0}
 <string>Conectando...
+<string>Configurações atualizadas.
 <string>Verificando conexão com o servidor...
 <string>Ocorreu um erro de comunicação.<lf>{0}
 <string>Houve um erro de comunicação.<lf>Voltando à tela inicial.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Alguns recursos do modo multijogador online<lf>não estarão disponíveis.<lf><lf>Registre-se com {0} para acessar<lf>todos os recursos do modo multijogador online.
 <string>Modo multijogador online limitado.<lf><lf>Impossível adquirir informações de assinatura<lf>de <PLATMSG RefGeneral_0026><lf>necessárias para jogar online.
+<string>Ocorreu um erro de comunicação.<lf>Não foi possível obter informações<lf>de assinatura de <PLATMSG RefGeneral_0026>.
+<string>O modo multiplayer online foi limitado<lf>pois as informações de assinatura de <PLATMSG RefGeneral_0026><lf>não puderam ser obtidas.
 <string>Esta conta não atende aos requisitos<lf>para o multijogador online.
 <string>Não foi possível conectar à rede.<lf>Voltando à tela inicial.
 <string>Não foi possível conectar à rede.
@@ -45,6 +48,7 @@
 <string>Configurações não podem<lf>ser compartilhadas desta conta.<lf>{0}
 <string>Não foi possível enviar Sinalizador SOS.<lf>{0}
 <string>Este recurso está indisponível devido a<lf>uma manutenção. Aguarde um pouco e<lf>tente novamente.<lf>{0}
+<string>Manutenção em andamento.<lf>Os tempos de conclusão não serão enviados.<lf>{0}
 <string>Você atingiu o limite de bloqueios e<lf>não pode bloquear mais jogadores.<lf>{0}
 <string>No momento, os servidores estão<lf>em manutenção programada.<lf>{0}
 <string>As funções de esquadrão não podem ser<lf>acessadas a partir desta conta.<lf>{0}
@@ -53,6 +57,8 @@
 <string>O jogador está offline.<lf>{0}
 <string>Não é possível entrar no lobby de um jogador<lf>enquanto ele estiver no modo Um Jogador Online.<lf>{0}
 <string>Não é possível entrar na mesma missão ou<lf>Grupo de Elo que um membro bloqueado.<lf>{0}
+<string>Você não pode convidar um jogador que bloqueou.<lf>{0}
+<string>Você não pode seguir um jogador<lf>que bloqueou.<lf>{0}
 <string>A conexão com a sessão foi perdida.<lf>{0}
 <string>Falha ao criar sessão.<lf>{0}
 <string>Falha ao buscar sessão.<lf>{0}
@@ -64,6 +70,8 @@
 <string>Entrar em um lobby recomendado?
 <string>Entrar no lobby?
 <string>Criar um lobby privado?
+<string>Criar um lobby privado acessível pela Busca<lf>por Amigos Caçadores e por ID do Lobby?
+<string>Criar um lobby privado acessível apenas<lf>pela Busca por ID do Lobby?
 <string>Começar o jogo sem entrar num lobby?<lf>(Você pode entrar num lobby após iniciar o jogo.)
 <string>Buscar ID do Lobby.<lf><lf><COLOR preset="TXT_Accent">(Nota: IDs do Lobby usam oito caracteres<lf>alfanuméricos e diferenciam caixa alta.)</COLOR>
 <string>Falha ao entrar na sessão. Missão encerrada.
@@ -71,6 +79,7 @@
 <string>Não foi possível se juntar à missão.<lf>A senha inserida está incorreta.
 <string>Sair do Elo de Ambiente?
 <string>Não é possível entrar no Elo de Ambiente.<lf>Requisitos não atendidos.<lf>{0}
+<string>Não é possível ingressar no Elo de Ambiente até que<lf>o líder do Grupo de Elo termine a missão atual.<lf>{0}
 <string>Entrando no Grupo de Elo.
 <string>O servidor está ocupado no momento.<lf>Tente novamente mais tarde.
 <string>O crossplay está atualmente habilitado.
@@ -83,6 +92,10 @@
 <string>Uso de trapaça detectado.<lf>Não foi possível criar a missão.<lf>{0}
 <string>Uso de trapaça detectado.<lf>Falha ao entrar na missão.<lf>{0}
 <string>Uso de trapaça detectado.<lf>Falha ao iniciar a missão.<lf>{0}
+<string>Entrar neste Grupo de Elo?
+<string>Você entrou no Grupo de Elo.
+<string>Insira a senha.
+<string>Não foi possível entrar no Grupo de Elo.<lf>A senha inserida está incorreta.
 <string><COLOR preset="TXT_Accent">Funções de comunidade estão restritas no momento.</COLOR><lf>Restrições serão removidas em: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> (UTC)<lf><lf>Sua conta violou os seguintes termos: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, as <COLOR preset="TXT_Accent">funções de comunidade<lf>foram temporariamente restritas</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Pedimos que jogue de acordo com os Termos de Uso.</COLOR>
 <string>Comportamento Abusivo/Desordeiro
 <string>Tipos de Comportamento Proibido

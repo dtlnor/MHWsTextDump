@@ -840,6 +840,8 @@
 <string>W kantynie w Wielkim Centrum można<lf>składać zamówienia na regionalne posiłki<lf>z każdej z wioski, a także sezonowe<lf>posiłki związane z wydarzeniami.
 <string>Kantyna w Wielkim Centrum
 <string>Talony na posiłki w Kantynie można zdobyć<lf>dzięki premiom za logowanie się i nagrodom<lf>za zlecenia. Nie przegap takiej szansy!
+<string>Kantyna w Wielkim Centrum
+<string>Kiedy ktoś użyje talonu na posiłek, inni<lf>członkowie wspólnej grupy lub tego samego<lf>zadania mogą zjeść ten sam posiłek.
 <string>Zmiana stroju Almy
 <string>Możesz zmienić wygląd Almy<lf>w <BOLD>Menu wyglądu</BOLD>.<lf>Razem poznacie tajniki mody,<lf>zmieniając stroje!
 <string>Zmiana okularów Almy
@@ -887,9 +889,9 @@
 <string>Zmiana stroju Gemmy
 <string>Możesz zmienić wygląd Gemmy<lf>w <BOLD>Menu wyglądu</BOLD>. Ta, która odziewa<lf>łowców, powinna zmieniać własne<lf>stroje jak rękawiczki!
 <string>Wybór łowców wspierających
-<string>Od teraz możesz wybierać łowców<lf>wspierających. Po wybraniu zadania z<lf><BOLD>Opublikuj zadanie / Dołącz do zadania</BOLD><lf>możesz zdecydować, kto miałby<lf>uczestniczyć.
+<string>Możesz teraz wybierać którzy łowcy<lf>wspierający odpowiedzą na twoją flarę<lf>alarmową. Z Księgi Zadań wybierz<lf><BOLD>Opublikuj zadanie / Dołącz do zadania</BOLD>,<lf>a następnie przejdź do <BOLD>Ustawień</BOLD>, aby<lf>wybrać swoich łowców wspierających.
 <string>Wybór łowców wspierających
-<string>Jeśli nie możesz wybrać łowców<lf>wspierających, zmień maksymalną<lf>liczbę uczestników lub ustawienia<lf>rozgrywki wieloosobowej w menu<lf><BOLD>Ustawienia</BOLD> w Księdze Zadań.
+<string>Jeśli nie możesz wybrać łowców wspierających,<lf>upewnij się, że inne opcje w menu <BOLD>Ustawienia</BOLD>,<lf>takie jak <BOLD>Maksymalna liczba członków</BOLD><lf>lub <BOLD>Ustawienia rozgrywki wieloosobowej</BOLD>,<lf>są włączone i umożliwiają ich dołączenie.
 <string>Wybór łowców wspierających
 <string>Uwaga: zależnie od typu zadania lub<lf>określonych członków, którzy nie mogą<lf>brać udziału w konkretnych zadaniach,<lf>mogą obowiązywać ograniczenia użycia.
 <string>Łowca Mody Gemmy
@@ -907,7 +909,7 @@
 <string>Festiwal Porozumienia: Taniec Ognia
 <string>Podczas festiwali Wielkie Centrum<lf>zostanie wzbogacone o specjalne<lf>funkcje. Będą one ograniczone czasowo,<lf>więc pamiętaj, aby odwiedzić Centrum,<lf>dopóki będą dostępne!
 <string>Najedz się do woli sezonowymi<lf>posiłkami!
-<string>Skorzystaj z ograniczonych czasowo posiłków<lf>w kantynie, wymieniając talony Tańca Ognia.<lf>Możesz je uzyskać dzięki premiom za logowanie<lf>podczas wydarzenia!
+<string>Skorzystaj z ograniczonych czasowo<lf>posiłków w kantynie, wymieniając<lf>talony Tańca Ognia.<lf>Możesz je uzyskać dzięki premiom<lf>za logowanie podczas wydarzenia!
 <string>Uprawnienia do talonu Tańca Ognia
 <string>Standardowe talony na posiłki pozwalają<lf>na udział innym osobom, ale tylko osoba,<lf>która zrealizuje talon, może skorzystać<lf>z pozycji menu dostępnych wyłącznie<lf>podczas wydarzenia.
 <string>Zapewnij Almie metamorfozę!
@@ -925,11 +927,11 @@
 <string>Bronie warstwowe
 <string>Po ukończeniu ulepszania broni z drzewa<lf>broni w kuźni możesz jej używać<lf>jako wyposażenia warstwowego.
 <string>Bronie warstwowe
-<string>W przypadku broni zmieniających<lf>wygląd po ulepszeniu możesz wybrać<lf>ich poprzedni wygląd, kiedy zostaną<lf>ulepszone do ostatecznej formy.
+<string>W przypadku broni, które zmieniają<lf>wygląd po ulepszeniu, możesz wybrać<lf>poprzedni wygląd po osiągnięciu<lf>ostatecznej formy.
 <string>Używanie broni wodnej
-<string>Zajmij pozycję, wybierając w menu gestów<lf>opcję Broń wodna, wyceluj i strzel, naciskając <ICON PL_FISHING_ACTION>.<lf>Naciskaj wielokrotnie <ICON PL_FISHING_ACTION>, by wykonać serię strzałów.
+<string>Zajmij pozycję, wybierając w menu gestów<lf>opcję Broń wodna, wyceluj i strzel,<lf>naciskając <ICON PL_FISHING_ACTION>. Naciskaj wielokrotnie <ICON PL_FISHING_ACTION>,<lf>by wykonać serię strzałów.
 <string>Niech w grze wieloosobowej leje się woda!
-<string>Trzymając broń wodną, możesz biegać<lf>i unikać. Ścigaj przeciwników i unikaj<lf>ich strzałów, by stoczyć zabawną<lf>i odświeżającą walkę!
+<string>Trzymając broń wodną, możesz nadal<lf>biegać i unikać. Ścigaj przeciwników i<lf>unikaj ich strzałów, by stoczyć zabawną<lf>i odświeżającą walkę!
 <string>Uwaga: dezaktywowane umiejętności
 <string>Pamiętaj, że wszystkie posiadane umiejętności<lf>zapobiegające atakom przeciwnika staną się<lf>bezużyteczne w walce na bronie wodne.<lf>Walcz więc uczciwie albo przywitaj się z wodą!
 <string>Bronie warstwowe koleżkota
@@ -938,12 +940,98 @@
 <string>Możesz ukryć amunicje/powłoki, których<lf>nie chcesz mieć w pasku amunicji/powłok,<lf>ustawiając dla nich opcję <BOLD>Ukryj</BOLD>.
 <string>Ukrycie niektórych amunicji/powłok
 <string>Nawet jeśli cała amunicja/powłoki są ukryte lub<lf>zużyte, na pasku amunicji/powłok zawsze będzie<lf>wyświetlana jedna możliwa do użycia opcja.
+<string>Muzyka do jazdy dla stroju chocobo
+<string>Kiedy jest noszony <COLOR preset="TXT_Accent">strój „Mój mały<lf>chocobo”</COLOR>, podczas jazdy na Seikrecie<lf>będzie odtwarzana specjalna muzyka.
+<string>Muzyka do jazdy dla stroju chocobo
+<string>Włącz/wyłącz specjalną muzykę<lf>lub ustaw jej głośność, przechodząc<lf>w menu opcji do ustawienia Dźwięk.
+<string>Festiwal Porozumienia: Czar Snów
+<string>Podczas festiwali Wielkie Centrum<lf>zostanie wzbogacone o specjalne<lf>funkcje. Będą one ograniczone czasowo,<lf>więc odwiedź Centrum, póki będą dostępne!
+<string>Ograniczony czasowo łowca wspierający!
+<string>Podczas wydarzenia flary alarmowe<lf>mogą przyzwać specjalnego łowcę<lf>wspierającego. Może to jednak zależeć<lf>od zadania i postępów w fabule.
+<string>Zajadaj się sezonowymi posiłkami!
+<string>Skorzystaj z ograniczonych czasowo<lf>posiłków w kantynie, wymieniając talony<lf>Czaru Snów. Możesz je uzyskać dzięki<lf>premiom za logowanie podczas wydarzenia!
+<string>Uprawnienia do talonu Czaru Snów
+<string>Zwykłe talony na posiłki pozwalają na<lf>udział w posiłku innym osobom. Jednakże<lf>tylko osoba, która wymieni talon, może<lf>skorzystać z oferty dostępnej wyłącznie<lf>podczas wydarzenia.
+<string>Odśwież wizerunek Almy!
+<string>Z okazji Czaru Snów przygotowano<lf>specjalny odświętny strój dla<lf>przewodników. Porozmawiaj z Almą<lf>w Wielkim Centrum, by się przebrała!
+<string>Codzienne aktualizacje zleceń limitowanych!
+<string>Dzięki codziennie aktualizowanym<lf>zleceniom limitowanym otrzymasz<lf>kwity Czaru Snów, których możesz<lf>użyć do tworzenia ograniczonego<lf>czasowo wyposażenia sezonowego.
+<string>Dodatkowe premie za logowanie!
+<string>Podczas wydarzenia możesz otrzymać<lf>dwa szczęśliwe talony dziennie<lf>zamiast jednego, a także inne nagrody,<lf>w tym kwity Czaru Snów!
+<string>Nadchodzą zadania z wydarzeń!
+<string>Są już dostępne ograniczone czasowo<lf>zadania z wydarzeń! Wiele poprzednich<lf>zadań pojawi się ponownie.
+<string>Dusza piktomanty
+<string>Zdobyto <COLOR preset="TXT_Accent">duszę piktomanty</COLOR>.<lf>Trzymanie jej w sakwie na przedmioty<lf>umożliwia używanie <COLOR preset="TXT_Accent">piktomancji</COLOR>.
+<string>Używanie piktomancji
+<string>Naciśnij <ICON PL_ITEM>, by użyć piktomancji.<lf>Narysujesz obraz, zostanie ożywiony i<lf>zaatakuje wrogów. Po użyciu przejdzie w<lf>tryb odnowienia.
+<string>Przedwieczny Mog
+<string>Łącząc ze sobą obrazy, możesz<lf>uwolnić potężne zaklęcie<lf>piktomancji: <COLOR preset="TXT_Accent">przedwieczny Mog</COLOR>.
+<string>Materializacja obrazu
+<string>Na płótnie na dole ekranu możesz zobaczyć<lf>narysowane obrazy. Więcej szczegółów<lf>znajdziesz w <COLOR preset="TXT_Accent">przewodniku Sterowanie<lf>podstawowe</COLOR>.
+<string>Użyj własnego menu kołowego
+<string>Przypisz zaklęcia piktomancji do<lf>własnego menu kołowego, by móc z niej<lf>szybko i łatwo korzystać.
+<string>Władanie mocą mrocznego rycerza
+<string>Gdy jest aktywna umiejętność z premii<lf>zestawu konkretnego pancerza, możesz<lf>użyć ekskluzywnego przedmiotu:<lf><COLOR preset="TXT_Accent">najczarniejszej nocy</COLOR>.
+<string>Najczarniejsza noc
+<string>Naciśnij <ICON PL_ITEM>, by użyć przedmiotu i<lf>stworzyć potężną barierę, która zużywa<lf>twoje zdrowie. Po użyciu przejdzie w<lf>tryb odnowienia.
+<string>Ostrze cienia
+<string>Gdy bariera się wyczerpie, nie ulegając<lf>zniszczeniu, zostanie wykonany automatycznie<lf>atak tnący w przód. Można go również<lf>wykonać natychmiast, naciskając <ICON PL_BT_RIDE_ATTACK_L>.
+<string>Zmierzch
+<string>Jeśli bariera zostanie zniszczona przez<lf>ataku wroga, wykonasz potężny kontratak<lf>i zyskasz tymczasowe <COLOR preset="TXT_Accent">wzmocnienie</COLOR>.
+<string>Użyj własnego menu kołowego
+<string>Przypisz najczarniejszą noc do własnego<lf>menu kołowego, by móc z niej korzystać<lf>nawet z dobytą bronią. Sprawdź szczegóły<lf><COLOR preset="TXT_Accent">przewodniku Sterowanie podstawowe</COLOR>.
+<string>Szczegółowa mapa
+<string>Kiedy odwiedzasz region po raz<lf>pierwszy, eksploruj go, by odkryć<lf>każdy obszar na mapie.
+<string>Szczegółowa mapa
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>Szczegółowa mapa
+<string><COLOR preset="TXT_Accent">Lista szybkiej podróży</COLOR><lf>Naciśnij <ICON UI_DECIDE> na lokacjach na mapie, by wykonać<lf>szybką podróż i natychmiast się tam przenieść.
+<string>Szczegółowa mapa
+<string><COLOR preset="TXT_Accent">Filtry ikon</COLOR><lf>Wyświetl punkty pozyskiwania, lokalną faunę,<lf>obiekty, ludzi itd. w danym regionie.
+<string>Szczegółowa mapa
+<string><COLOR preset="TXT_Accent">Przegląd otoczenia</COLOR><lf>Wyświetl aktywne potwory i wydarzenia<lf>na mapie w danym regionie.
+<string>Szczegółowa mapa
+<string><COLOR preset="TXT_Accent">Poziom zagrożenia potwora</COLOR><lf>Koła na mapie pokazują poziomy zagrożenia<lf>potworów. Czerwone koła oznaczają<lf>wysokie zagrożenie.
+<string>Mapa świata
+<string>Naciśnij <ICON UI_MAP3D_OPEN_WORLD_MAP> po otwarciu szczegółowej<lf>mapy, by wyświetlić odwiedzone regiony.<lf>Możesz tam sprawdzić przegląd otoczenia<lf>każdego regionu i wykonać szybką podróż.
+<string>Animacje ukończenia zadania
+<string>Możesz wybrać do trzech różnych<lf>priorytetowych animacji ukończenia<lf>zadania. (Żeby się pojawiły, trzeba<lf>spełnić określone wymagania).
+<string>Animacje ukończenia zadania
+<string>W sytuacjach opisanych na następnej<lf>stronie priorytetowe animacje ukończenia<lf>zadania mogą się jednak nie pojawić<lf>nawet pomimo spełnionych warunków.
+<string>Animacje ukończenia zadania
+<string>– Przy ukończeniu zlecenia<lf>– Przy ukończeniu badania terenu<lf>– Podczas noszenia określonego wyposażenia<lf>– Przy ukończeniu niektórych zadań z wydarzeń
 <string>Stapianie talizmanów
 <string>Dodano <COLOR preset="TXT_Accent">stapianie talizmanów</COLOR>, dzięki<lf>któremu zmienisz niechciane wycenione<lf>talizmany w przedmioty do wyceny.<lf>W efekcie wytworzą się różne relikty!
 <string>Wycenione talizmany
 <string>Dodano wycenione talizmany.<lf>Nie można ulepszyć talizmanów<lf>stworzonych z przedmiotów do<lf>wyceny, ale mają one różne efekty.
 <string>Wycenione talizmany
 <string>Poza umiejętnościami pancerza wycenione<lf>talizmany mogą mieć umiejętności broni<lf>i gniazda ozdób. Zdobądź ich jak najwięcej!
+<string>Walka z Omegą Planetes – wskazówki
+<string>Podczas walki z Omegą Planetes ważna<lf>jest współpraca z innymi łowcami lub<lf>łowcami wspierającymi przez <COLOR preset="TXT_Accent">podział ról</COLOR>.
+<string>Przyciąganie uwagi wroga
+<string>Jeśli masz przyciągać uwagę Omegi,<lf>najlepiej wyposażyć się w broń z tarczą<lf>i upewnić się, że masz umiejętność<lf><COLOR preset="TXT_Accent">Wzniesiona garda</COLOR>.
+<string>Leczenie i wsparcie sojuszników
+<string>Jeśli masz leczyć i zapewniać wsparcie,<lf>najlepiej mieć umiejętności takie jak<lf><COLOR preset="TXT_Accent">Wzrost regeneracji</COLOR>, <COLOR preset="TXT_Accent">Szybkie jedzenie</COLOR> lub<lf><COLOR preset="TXT_Accent">Duży zasięg</COLOR>.
+<string>Atakowanie
+<string>Jeśli masz się skupiać na zadawaniu obrażeń,<lf>najlepiej mieć umiejętności zwiększające atak.<lf>Wyekwipuj broń z <COLOR preset="TXT_Accent">żywiołem pioruna</COLOR>,<lf>by zmaksymalizować skuteczność.
+<string>Skuteczne użycie przedmiotów
+<string>Zabierz przedmioty, które <COLOR preset="TXT_Accent">wpływają też<lf>na twoich sojuszników</COLOR>, na przykład proszek<lf>życia, proszek demona i proszek skorupowy.
+<string>Wł./Wył. poszczególnych ruchów wsparcia
+<string>Możesz włączyć lub wyłączyć poszczególne<lf>ruchy wsparcia koleżkota. Przejdź do<lf>Informacji o koleżkocie w menu startowym<lf>lub menu w namiocie.
+<string>Obrona przed atakiem Delta
+<string>Jedyny sposób na przetrwanie ataku Delta<lf>to <COLOR preset="TXT_Accent">ucieczka do wewnątrz potężnej tarczy,<lf>powstałej po pokonaniu klonów Nerscylli</COLOR>.
+<string>Skup się na tworzeniu tarczy
+<string><COLOR preset="TXT_Accent">Przed atakiem Delta skup ataki na klonie<lf>Nerscylli</COLOR>, by go pokonać i schronić się<lf>wewnątrz utworzonej przez niego tarczy.
+<string>Użyj broni z dwoma różnymi żywiołami
+<string><COLOR preset="TXT_Accent">Ogień jest skuteczny przeciw Nerscylli,<lf>a piorun przeciw Omedze Planetes</COLOR>.<lf>Kluczowe dla tego zadania będzie<lf>wzięcie broni z tymi dwoma żywiołami.
+<string>Rezonans Omegi
+<string>Podczas tego zadania premia zestawu <COLOR preset="TXT_Accent">Omega<lf>Resonans</COLOR> aktywuje się z bliska lub daleka<lf>w zależności od następujących warunków:
+<string>Rezonans z bliska
+<string>Gdy umiejętność Rezonans z bliska jest<lf>aktywna, <COLOR preset="TXT_Accent">zbliż się</COLOR> do innych łowców,<lf>by zwiększyć swoją zgodność.
+<string>Rezonans z daleka
+<string>Gdy umiejętność Rezonans z daleka jest<lf>aktywna, <COLOR preset="TXT_Accent">oddal się</COLOR> od innych łowców,<lf>by zwiększyć swój atak.
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>Rany
 <string>Możesz wymienić stare ozdoby na punkty<lf>wytapiania, których możesz użyć<lf>do <COLOR preset="TXT_Accent">wytapiania nowych ozdób</COLOR>. Liczba opcji<lf>będzie wzrastać, gdy spełnisz odpowiednie<lf>warunki.
 <string>Ozdoby i zestawy wyposażenia

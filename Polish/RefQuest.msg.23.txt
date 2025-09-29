@@ -74,7 +74,7 @@
 <string><COLOR preset="TXT_Danger">Nie można zacząć badania terenu, ponieważ członek grupy wyświetla wyniki zadania.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można użyć podczas tego zadania.</COLOR>
 <string><COLOR preset="TXT_Danger">To zadanie można przyjąć tylko w Wielkim Centrum.</COLOR>
-<string><COLOR preset="TXT_Danger">Nie można użyć podczas tego zadania.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie można użyć przy obecnych ustawianiech zadania.</COLOR>
 <string>Powrót do ekr. tytuł.
 <string>Spróbuj ponownie
 <string>Zgładź: {0}
@@ -120,6 +120,9 @@
 <string>START!
 <string>WYGRANA
 <string>PORAŻKA
+<string>POWINNOŚĆ ROZPOCZĘTA
+<string>POWINNOŚĆ WYKONANA
+<string>POWINNOŚĆ NIEUDANA
 <string>Wszystkie zadania poza Areną
 <string>Wszystkie zadania
 <string>Zlecenia
@@ -185,6 +188,7 @@
 <string>Nowi gracze mile widziani!
 <string>Szukam weteranów!
 <string>Tworzenie zadań niedostępne
+<string>Wyświetl na mapie świata
 <string>Siła
 <string>Możesz stworzyć zadanie dla wielu celów!
 <string>{0} chce zaoferować posiłek!
@@ -199,11 +203,13 @@
 <string>Św. Smoczego Ognia: <LSNR "pojawił" "pojawiła" "pojawiło"> się {0}!
 <string>Trwa Festiwal Porozumienia: Taniec Kwiatów!
 <string>Trwa Festiwal Porozumienia: Taniec Ognia!
+<string>Trwa <REF RefGeneral_0029_002>!
 <string>Pieśń diwy zaczyna się za {0} min.
 <string>Rozbrzmiewa modlitwa diwy.
 <string>Modlitwa diwy
 <string>{0}. {1}
 <string>Dostępne są darmowe posiłki!
+<string>Możesz stworzyć zadanie z wieloma celami!
 <string>Maksymalna liczba członków
 <string>Ustaw maksymalną liczbę graczy mogących dołączyć do zadań. <COLOR preset="TXT_Accent">(Liczba będzie różna w zależności od maks. liczby członków grupy)</COLOR>
 <string>1
@@ -228,6 +234,14 @@
 <string>W menu tytułowym wyłączono rozgrywkę międzyplatformową. Wyniki wskażą tylko zadania od graczy z takimi samymi ustawieniami.
 <string>Wszystkie platformy
 <string>Twoja platforma
+<string>Łowcy wspier. do swobod. wyzwania
+<string>Wybierz, czy łowcy wspierający mają dołączać do swobodnych wyzwań.
+<string>Dopasuj ust. gry wieloosobowej
+<string>Łowcy wspierający dołączą zgodnie z ustawieniami gry wieloosobowej.
+<string>Dołącz
+<string>Łowcy wspierający dołączą niezależnie od ustawień gry wieloosobowej.
+<string>Nie dołączaj
+<string>Łowcy wspierający nie dołączą niezależnie od ustawień gry wieloosobowej.
 <string>Dodatkowe szczegóły
 <string>Zasady swobodnych wyzwań<lf>– Automatyczna flara alarmowa: nie możesz wystrzelić<lf>flary alarmowej.<lf>– Ustawienia przyjmowania do zadań: po rozpoczęciu<lf>nie można dołączyć do zadania.<lf>– Łowcy wspierający dołączą do zadania na starcie.
 <string>Zasady zadań na Arenie i wyzwań<lf>– Maksymalna liczba uczestników wynosi 2.<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.<lf>– Koleżkoty nie mogą dołączyć do zadania.<lf>– Efekty posiłków zostaną <COLOR preset="TXT_Danger">tymczasowo wyłączone na czas<lf>trwania zadania</COLOR>. (Przywrócone po zakończeniu zadania).<lf>– Efekty statusu, takie jak przedmioty i efekty melodii<lf><COLOR preset="TXT_Danger">znikną po wyjściu</COLOR>.<lf><lf>Zasady swobodnych wyzwań<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.

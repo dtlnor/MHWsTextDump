@@ -120,6 +120,9 @@
 <string>開始
 <string>勝利
 <string>落敗
+<string>任務開始！
+<string>任務完成！
+<string>任務失敗……
 <string>主要任務
 <string>所有任務
 <string>關鍵任務
@@ -185,6 +188,7 @@
 <string>歡迎新手！
 <string>老手集合！
 <string>無法任務化
+<string>可從全域地圖查看
 <string>個體強度
 <string>可將多個目標一併任務化！
 <string>{0}似乎想請客！
@@ -199,11 +203,13 @@
 <string>{0}正於<REF RefEnvironment_0001_0003>出現！
 <string>現正舉辦<REF RefGeneral_0029_000>！
 <string>現正舉辦<REF RefGeneral_0029_001>！
+<string>現正舉辦<REF RefGeneral_0029_002>！
 <string>歌姬將於{0}分鐘後獻唱祈禱之歌
 <string>歌姬正在獻唱祈禱之歌
 <string>歌姬的祈願
 <string>{0}. {1}
 <string>有可以免費享用的餐點！
+<string>可將魔物群一併任務化！
 <string>參加人數上限
 <string>設定可參加任務的人數上限。<COLOR preset="TXT_Accent">（可設定人數會隨著連結成員數的上限變更）</COLOR>
 <string>1
@@ -228,6 +234,14 @@
 <string>標題選單的跨平台遊玩已設定為「停用」，僅搜尋相同設定的其他玩家的任務。
 <string>所有平台
 <string>和自己相同的平台
+<string>自由挑戰任務的支援獵人
+<string>個別調整支援獵人參加自由挑戰任務的設定。
+<string>與多人遊玩設定同步
+<string>支援獵人的參加設定會與多人遊玩設定保持一致。
+<string>參加
+<string>支援獵人會參加任務，無視多人遊玩設定。
+<string>不參加
+<string>支援獵人不會參加任務，無視多人遊玩設定。
 <string>補充說明
 <string>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
 <string>鬥技大會任務/挑戰任務規則<lf>・參加人數上限：2人<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。<lf>・隨從艾路不會參加任務。<lf>・餐點效果會在任務期間<COLOR preset="TXT_Danger">暫時消失，並於任務結束後恢復</COLOR>。<lf>・非永久狀態效果（包括道具效果和狩獵笛的旋律效果）<lf>　會在<COLOR preset="TXT_Danger">出發前往任務時消失</COLOR>。<lf><lf>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。

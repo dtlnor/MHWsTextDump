@@ -106,7 +106,7 @@
 <string>Saikrii rufen
 <string>Lege die Steuerung für den Saikriiruf fest.
 <string>Typ 1
-<string>Rufe den Saikrii mit <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> oder einem eigenen<lf>Kurzbefehl im angepassten Tortenmenü.
+<string>Rufe den Saikrii mit <INPUTMSG MsgGUI030100_INPUT_00> oder einem eigenen<lf>Kurzbefehl im angepassten Tortenmenü.
 <string>Typ 2
 <string>Zusätzlich zur Steuerung vom Typ 1 kannst du<lf>(bei weggesteckter Waffe) mit <ICON PL_PT_CALL_KEEP> deinen Saikrii<lf>im Auto-Bewegungsmodus zu dir rufen.
 <string>Typ 3
@@ -135,6 +135,8 @@
 <string>Beim Zielen werden nur Schleuderobjekte<lf>in der Objektleiste angezeigt.
 <string>Typ 2
 <string>Beim Zielen werden alle Objekte in der<lf>Objektleiste angezeigt.
+<string>Typ 3
+<string>Beim Zielen werden nur besondere oder<lf>Schleuderobjekte in der Objektleiste<lf>angezeigt.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>Während Tastatur-Kurzbefehle angezeigt werden,<lf>ist der Mauszeiger ebenfalls sichtbar und die Maus<lf>kann zur Kurzbefehlsteuerung genutzt werden.
 <string>Deaktiviert
 <string>Der Mauszeiger wird nicht angezeigt, wenn Tastatur-<lf>Kurzbefehle genutzt werden.<lf><COLOR preset="TXT_Accent">(Kurzbefehle können nicht mit der Maus genutzt<lf>werden.)</COLOR>
+<string>Mausempfindlichkeit
+<string>Passe die Empfindlichkeit der Maus an. <COLOR preset="TXT_Accent">(Dies wirkt sich<lf>auf alle Mausbewegungen aus. Eventuell musst du die<lf>Kameraempfindlichkeit entsprechend nachjustieren.)</COLOR>
 <string>Mausrad-Priorität
 <string>Passe die Priorität der Mausradfunktion in Menüs an.
 <string>Seitennavigation priorisieren
@@ -760,6 +764,35 @@
 <string>Passe die Bildschirmhelligkeit an.
 <string>Helligkeit (HDR)
 <string>Passe die Bildschirmhelligkeit an.
+<string>Leistungseinstellung
+<string>Lege die Priorität der Grafikleistung für das<lf>Gameplay fest.<lf>(Nur in den Optionen des Hauptmenüs anpassbar.)
+<string>Lege die Priorität der Grafikleistung für das<lf>Gameplay fest.
+<string>Auflösung priorisieren
+<string>Die Bildschirmauflösung hat Priorität.<lf>Die Grafik wird mit bestmöglicher Auflösung<lf>dargestellt.
+<string>Die Bildschirmauflösung hat Priorität.<lf>Die Grafik wird mit bestmöglicher Auflösung<lf>dargestellt, Raytracing ist aktiviert und die<lf>Qualität von Lichtreflexionen und -brechungen<lf>wird verbessert.
+<string>Framerate priorisieren
+<string>Die Framerate hat Priorität.<lf>Dein Charakter bewegt sich so geschmeidig wie<lf>möglich.
+<string>Die Framerate hat Priorität.<lf>Dein Charakter bewegt sich so geschmeidig wie<lf>möglich. Raytracing ist deaktiviert.
+<string>Ausgeglichen
+<string>Framerate und Bildschirmauflösung stehen in<lf>einem ausgeglichenen Verhältnis. So weit als<lf>möglich wird ein hoher grafischer Detailgrad<lf>bei gleichzeitig flüssigen Charakterbewegungen<lf>realisiert.
+<string>Framerate und Bildschirmauflösung stehen in<lf>einem ausgeglichenen Verhältnis. So weit als<lf>möglich wird ein hoher grafischer Detailgrad<lf>bei gleichzeitig flüssigen Charakterbewegungen<lf>realisiert. Raytracing ist aktiviert.
+<string>120-Hz-Ausgabe
+<string>Aktiviere oder deaktiviere eine Ausgabe bei 120 Hz.<lf>(Diese Option ist nur für Bildschirme mit 120-Hz-<lf>Unterstützung verfügbar. Spielneustart erforderlich.)
+<string>Aktiviert
+<string>Die 120-Hz-Ausgabe ist aktiviert, was eine<lf>flüssigere Darstellung begünstigen kann.<lf><lf><COLOR preset="TXT_Accent">(Diese Einstellung garantiert keine Framerate<lf>von 120 fps. Je nach Bildschirm können die<lf>Ausgabeauflösung und die Bildqualität<lf>automatisch reduziert sein.)</COLOR>
+<string>Deaktiviert
+<string>Die 120-Hz-Ausgabe ist deaktiviert.
+<string>Framerate-Begrenzung
+<string>Passe an, ob die Framerate auf einen Maximalwert<lf>begrenzt werden soll. Das Festlegen eines Limits<lf>kann helfen, Lags beim Rendern zu verhindern.
+<string>60 fps
+<string>Die Framerate ist auf 60 fps begrenzt.<lf>(Kann nur ausgewählt werden, wenn unter<lf>„Leistungseinstellung“ die Option „Framerate<lf>priorisieren“ ausgewählt ist.)
+<string>40 fps
+<string>Die Framerate ist auf 40 fps begrenzt.<lf>(Kann nur ausgewählt werden, wenn unter<lf>„Leistungseinstellung“ die Option „Ausge-<lf>glichen“ ausgewählt und „120-Hz-Ausgabe“<lf>aktiviert ist.)
+<string>30 fps
+<string>Die Framerate ist auf 30 fps begrenzt.<lf>(Kann nur ausgewählt werden, wenn unter<lf>„Leistungseinstellung“ die Option „Auflösung<lf>priorisieren“ ausgewählt ist.)
+<string>Die Framerate ist auf 30 fps begrenzt.
+<string>Aus
+<string>Die Framerate ist nicht begrenzt und passt sich<lf>so frei der Renderlast an.
 <string>V-Sync
 <string>Passe die vertikale Synchronisation an.
 <string>Aktiviert
@@ -1455,7 +1488,9 @@
 <string>Es wird kein Sprachchat-Kanal priorisiert<lf>und auch kein automatischer Wechsel<lf>zwischen den Kanälen vorgenommen.<lf>Du musst manuell wechseln.
 <string>Es findet kein automatischer Wechsel zwischen<lf>Chatkanälen statt. Du musst manuell wechseln.
 <string>Von Felynen gesprochene Sprache
+<string>Palico-Sprache
 <string>Lege fest, welche Sprache die Felynen sprechen.
+<string>Passe die Sprache der Palicos an.
 <string>Felynen-Sprache
 <string>Sämtliche Felynen, auch dein Palico, verwenden<lf>die Felynen-Sprache. (Diese Option ist auch im<lf>Charaktereditor verfügbar.)
 <string>Gewähltem Stimmtyp folgen
@@ -1549,6 +1584,16 @@
 <string>Wenn möglich, werden ausgerüstete Talismane<lf>visuell hervorgehoben.
 <string>Nicht hervorheben
 <string>Ausgerüstete Talismane werden nicht hervor-<lf>gehoben.
+<string>Exklusive Musik beim Reiten
+<string>Lege fest, ob exklusive Musik gespielt wird,<lf>wenn du auf deinem Saikrii reitest, während<lf>er die Dekoration „Chocobo~♪“ trägt.
+<string>Spielen
+<string>Spielt exklusive Musik beim Reiten.
+<string>Nicht spielen
+<string>Spielt keine exklusive Musik beim Reiten.
+<string>Lautstärke exklusive Musik
+<string>Lege die Lautstärke der Musik fest, die spielt,<lf>wenn du auf deinem Saikrii reitest, während<lf>er die Dekoration „Chocobo~♪“ trägt.
+<string>Chocobo-Musik
+<string>Passe die Musik an, die spielt, wenn du<lf>auf deinem Saikrii reitest, während er<lf>die Dekoration „Chocobo~♪“ trägt.
 <string>Flimmereffekte
 <string>Passe an, ob zur Simulation von Lavahitze und<lf>Unterwasserumgebungen Flimmereffekte<lf>verwendet werden sollen.
 <string>Aktiviert
@@ -1561,3 +1606,29 @@
 <string>Der Rückstoß-Assistent ist aktiviert.
 <string>Aus
 <string>Der Rückstoß-Assistent ist deaktiviert.
+<string>Palico-Dialoghäufigkeit
+<string>Passe die Häufigkeit von Palico-Dialogen an.
+<string>Standard
+<string>Dein Palico spricht entsprechend der Situation<lf>nach eigenem Ermessen.
+<string>Zurückhaltend
+<string>Dein Palico spricht seltener.
+<string>Nur Story-Fortschritt
+<string>Dein Palico spricht nur, wenn es für den Fort-<lf>schritt der Geschichte erforderlich ist.
+<string>Schnellreiseziel-Autoauswahl
+<string>Passe an, ob automatisch das nächstgelegene<lf>Schnellreiseziel gewählt werden soll, wenn ein<lf>Ziel als Wegpunkt festgelegt wird.
+<string>Deaktivieren
+<string>Deaktiviert die Auto-Auswahlfunktion. Das erste<lf>Schnellreiseziel auf der Liste wird ausgewählt,<lf>unabhängig vom festgelegten Ziel.
+<string>Aktivieren
+<string>Aktiviert die Auto-Auswahlfunktion. Wenn ein<lf>Ziel festgelegt wird, wird automatisch das<lf>nächstgelegene Schnellreiseziel ausgewählt.<lf>Wenn kein Ziel festgelegt ist, wird der oberste<lf>Ort auf der Liste ausgewählt.
+<string>Kurzbefehl-/Tortenmenü-Wechsel
+<string>Passe an, ob Tastatur-Kurzbefehl-Menüs mit<lf>Tortenmenüs verknüpft sind, wenn du deine<lf>Kurzbefehle benutzt.
+<string>Typ 1
+<string>Beim Aufruf eines Tastatur-Kurzbefehls<lf>wechselt ausschließlich das Tastatur-<lf>Kurzbefehl-Menü.
+<string>Typ 2
+<string>Tastatur-Kurzbefehl-Menüs und Controller-<lf>Tortenmenüs sind miteinander verknüpft.<lf>Beim Aufruf eines Tastatur-Kurzbefehls<lf>wechselt auch das aktive Controller-<lf>Tortenmenü.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

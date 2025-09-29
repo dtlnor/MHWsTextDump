@@ -378,6 +378,9 @@
 <string>Chaleur
 <string>Affliction réduisant lentement votre<lf>vie dans certaines zones.<lf><lf>Méthodes de guérison :<lf>- Utiliser une boisson fraîche<lf>- Collecter des glacianilles
 <string>
+<string><ICON ST_COLABO01_00> Malus de PV
+<string>Réduit votre vie maximum pendant<lf>un certain temps. Plus les cumuls<lf>de l'affliction augmentent, plus votre<lf>vie maximum est réduite.<lf><lf>Méthodes de guérison :<lf>- Attendre qu'elle se dissipe lorsque<lf>vous n'avez pas l'inimitié du monstre.<lf>(L'inimitié est indiquée par une ligne<lf>rouge dirigée vers vous).
+<string>
 <string>Arme rengainée
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -606,4 +609,39 @@
 <string><REF ActionGuideDataNameTextCommon_5188>
 <string><INPUTMSG MsgGUI600200_00_031> avec l'arme rengainée
 <string><INPUTMSG MsgGUI600200_00_045>
+<string>
+<string>Collaboration spéciale FFXIV
+<string>Pictomanciens
+<string>La magie picturale est une école de magie<lf>créée par une mage itinérante. Au lieu d'un<lf>bâton, elle se servait d'un pinceau magique<lf>pour tracer des formes dans l'air. Les maîtres<lf>de cette discipline arcanique utilisent leur<lf>éther pour matérialiser des créatures<lf>chimériques, des armes ou même des<lf>paysages. Leur force ne réside pas dans leur<lf>volonté, mais dans leur maîtrise de leur art<lf>et leur capacité à se figurer l'avenir.
+<string>
+<string><REF ActionGuideDataNameTextCommon_24467>
+<string><ICON PL_ITEM> quand l'arme est rengainée
+<string>Utilisez cette magie en la<lf>sélectionnant dans la barre d'objets.<lf>La première fois que vous l'utilisez,<lf>vous peignez le pompon d'un Mog.<lf><lf>La deuxième fois,<lf>vous peignez les ailes d'un Mog.<lf><lf>La troisième fois, vous combinez le<lf>pompon et les ailes pour matérialiser<lf>un Mog et infliger de puissants<lf>dégâts magiques.
+<string>
+<string><REF ActionGuideDataNameTextCommon_29752>
+<string>
+<string><REF ActionGuideDataNameTextCommon_6613>
+<string>
+<string><REF ActionGuideDataNameTextCommon_3529>
+<string>
+<string>Chevaliers noirs
+<string>C'est pour défendre les opprimés et<lf>rétablir la justice que des hommes<lf>et des femmes n'hésitent pas à<lf>braver l'interdit qu'est l'assassinat<lf>d'ecclésiastiques ou de nobles. Ces<lf>parias ont choisi la voie dite du<lf>"chevalier noir". Délaissant le<lf>symbole de la chevalerie qu'est le<lf>bouclier, ils ont choisi la grande épée<lf>comme arme de prédilection pour<lf>accomplir leur sombre vocation.
+<string>
+<string><REF ActionGuideDataNameTextCommon_3530>
+<string><ICON PL_ITEM> quand l'arme est rengainée
+<string>Action disponible lorsque Nuit<lf>noirissime (talent bonus de set conféré<lf>par une armure spécifique) est actif.<lf>Utilisée depuis la barre d'objets, elle<lf>consomme de la vie pour créer une<lf>barrière protégeant des attaques. Quand<lf>la barrière est active, appuyez sur <ICON PL_BT_RIDE_ATTACK_L><lf>pour activer Tranchant d'ombre, qui se<lf>lance également quand la barrière<lf>disparaît. Si la barrière est détruite,<lf>toute votre jauge de vie est convertie<lf>en jauge rouge et Crépuscule s'active.
+<string>
+<string><REF ActionGuideDataNameTextCommon_162>
+<string><ICON PL_BT_RIDE_ATTACK_L> pendant Nuit noirissime
+<string>
+<string><REF ActionGuideDataNameTextCommon_31664>
+<string>
+<string><ICON ST_COLABO01_01>Rédemption du survivant
+<string>Bonus accordé lorsque Crépuscule<lf>est lancé.<lf><lf>Lorsqu'il est actif, la partie rouge<lf>de votre jauge de vie ne diminue pas<lf>même si vous vous faites toucher par<lf>une attaque, et votre défense augmente<lf>grandement.<lf><lf>De plus, attaquer des monstres en<lf>continu permet de restaurer légèrement<lf>votre vie.<lf>(La quantité dépend du type d'arme)
+<string>
+<string><ICON ST_COLABO01_03> Résonance proche
+<string>Ce bonus augmente l'affinité de votre<lf>chasseur lorsque Résonance Oméga<lf>(talent bonus de set conféré par une<lf>armure spécifique) est actif et que<lf>votre chasseur et d'autres chasseurs<lf>s'approchent les uns des autres.
+<string>
+<string><ICON ST_COLABO01_04> Résonance éloignée
+<string>Ce bonus augmente l'attaque de votre<lf>chasseur lorsque Résonance Oméga<lf>(talent bonus de set conféré par une<lf>armure spécifique) est actif et que<lf>votre chasseur et d'autres chasseurs<lf>s'éloignent les uns des autres.
 <string>

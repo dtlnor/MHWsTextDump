@@ -106,7 +106,7 @@
 <string>召唤<REF RefGeneral_0014_01>的方法
 <string>设置召唤<REF RefGeneral_0014_01>的操作方式。
 <string>类型 1
-<string>通过<ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>或自定义快捷方式召唤<REF RefGeneral_0014_01>。
+<string>通过<INPUTMSG MsgGUI030100_INPUT_00>或自定义快捷方式召唤<REF RefGeneral_0014_01>。
 <string>类型 2
 <string>除类型1的操作外，纳刀状态时，也可以通过<ICON PL_PT_CALL_KEEP><lf>召唤自动移动状态的<REF RefGeneral_0014_01>。
 <string>类型 3
@@ -135,6 +135,8 @@
 <string>在瞄准模式下操作道具快捷栏时，<lf>仅显示投射器相关的道具。
 <string>类型 2
 <string>在瞄准模式下操作道具快捷栏时，<lf>仍然显示所有道具。
+<string>类型 3
+<string>在瞄准模式下操作道具快捷栏时，仅显示投射器相关<lf>的道具和特殊道具。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>显示键盘专用快捷方式时，也会显示鼠标光标，<lf>并可通过鼠标操作快捷方式。
 <string>关
 <string>显示键盘专用快捷方式时，不显示鼠标光标。<lf><COLOR preset="TXT_Accent">（无法通过鼠标操作快捷方式）</COLOR>
+<string>鼠标操作灵敏度
+<string>调整使用鼠标操作时的灵敏度。<lf><COLOR preset="TXT_Accent">（此设置会影响鼠标的整体操作。设置完成后，<lf>请在视角灵敏度中重新调整视角的操作感。）</COLOR>
 <string>鼠标滚轮优先操作
 <string>设置菜单操作时，上下滚动鼠标滚轮时优先进行的操作。
 <string>优先切换页面
@@ -760,6 +764,35 @@
 <string>调整画面的亮度。
 <string>画面亮度调整（HDR）
 <string>调整画面的亮度。
+<string>性能设置
+<string>调整游戏中与图形性能相关的设置。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>调整游戏中与图形性能相关的设置。
+<string>分辨率优先
+<string>相比帧率，更加优先图形分辨率，画面显示的细致<lf>程度会提高。
+<string>相比帧率，更加优先图形分辨率，画面显示的细致<lf>程度会提高。将启用光线追踪功能，提高光的反射<lf>及折射品质。
+<string>帧率优先
+<string>相比图形分辨率，更加优先动作的帧率，游戏中动<lf>作的流畅度会提高。
+<string>相比图形分辨率，更加优先动作的帧率，游戏中动<lf>作的流畅度会提高。将停用光线追踪功能。
+<string>平衡
+<string>注重分辨率和帧率的平衡，力求在保证画面精细的<lf>同时，使角色动作更加流畅。
+<string>注重分辨率和帧率的平衡，力求在保证画面精细的<lf>同时，使角色动作更加流畅。将启用光线追踪功能。
+<string>120Hz刷新率设置
+<string>设置是否启用120Hz刷新率输出。<lf><COLOR preset="TXT_Accent">（仅可在使用支持120Hz刷新率的显示设备时设置）</COLOR><lf><COLOR preset="TXT_Accent">（本设置变更将在重启游戏后生效）</COLOR>
+<string>开
+<string>启用120Hz刷新率输出。部分情况下游戏影像<lf>会看起来更为流畅。<lf><COLOR preset="TXT_Accent">（并非使游戏以120fps的帧率运行）</COLOR><lf><COLOR preset="TXT_Accent">（根据显示器的不同，输出分辨率可能会自动<lf>　降低，使画质下降。）</COLOR>
+<string>关
+<string>停用120Hz刷新率输出。
+<string>固定帧率设置
+<string>设置是否将帧率固定在指定数值。设为指定数值时，可避免<lf>帧率因渲染负荷而波动。
+<string>固定在60fps
+<string>将帧率固定在60fps。需将“性能设置”设为<lf>“帧率优先”，才可选择此项。
+<string>固定在40fps
+<string>将帧率固定在40fps。需将“性能设置”设为<lf>“平衡”，并将“120Hz刷新率设置”设为“开”<lf>后，才可选择此项。
+<string>固定在30fps
+<string>将帧率固定在30fps。需将“性能设置”设为<lf>“分辨率优先”，才可选择此项。
+<string>将帧率固定在30fps。
+<string>关
+<string>不固定帧率，允许因渲染负荷而出现的波动。
 <string>垂直同步
 <string>调整垂直同步的设置。
 <string>启用
@@ -785,7 +818,7 @@
 <string>MB /
 <string>占用显存较高，可能会出现轻微异常。
 <string>占用显存很高，可能产生严重异常。
-<string>中央处理器
+<string>处理器
 <string>内存
 <string><NUMBER {0}>GB
 <string>显示芯片
@@ -1455,7 +1488,9 @@
 <string>不自动切换发送对象，仅通过手动切换。
 <string>不自动切换，仅可手动切换。
 <string>艾露猫语音设置
+<string>随从艾露猫语音设置
 <string>设置艾露猫的语音类型。
+<string>设置随从艾露猫的语音。
 <string>全部设置为艾露猫语
 <string>将所有艾露猫（包括自己的随从）的语音全部设置为<lf>艾露猫语。<lf><COLOR preset="TXT_Accent">（创建角色时也可变更此设置）</COLOR>
 <string>依从语音类型设置
@@ -1549,15 +1584,51 @@
 <string>装备的护石有可显示的特效时，显示特效。
 <string>不显示
 <string>即使装备的护石有可显示的特效时，也不显示特效。
+<string>骑乘时播放专用背景音乐
+<string>设置骑乘装备了“心心念念陆行鸟骑装”的鹭鹰龙时<lf>是否播放专用背景音乐。
+<string>开
+<string>骑乘鹭鹰龙时，播放专用背景音乐。
+<string>关
+<string>骑乘鹭鹰龙时，不播放专用背景音乐。
+<string>专用背景音乐音量
+<string>调整骑乘装备了“心心念念陆行鸟骑装”的鹭鹰龙时<lf>专用背景音乐的音量。
+<string>装备陆行鸟骑装时的背景音乐设置
+<string>调整鹭鹰龙装备“心心念念陆行鸟骑装”时的<lf>骑乘专用背景音乐的相关设定。
 <string>画面扭曲效果
 <string>设置是否开启画面扭曲效果，以表现熔岩的热量或<lf>水中的状态。
 <string>启用
 <string>在有熔岩的区域或水中时，画面会出现扭曲效果。
 <string>停用
 <string>在有熔岩的区域或水中时，画面不会出现扭曲效果。
-<string>射击后坐力后的瞄准辅助
+<string>射击反冲后的瞄准辅助
 <string>设置是否启用辅助瞄准功能，使轻弩炮、重弩炮射击后<lf>上移的瞄准线自动回到原来的位置。
 <string>开
-<string>使用射击后坐力后的瞄准辅助功能。
+<string>使用射击反冲后的瞄准辅助功能。
 <string>关
-<string>不使用射击后坐力后的瞄准辅助功能。
+<string>不使用射击反冲后的瞄准辅助功能。
+<string>随从艾露猫说话频率设置
+<string>设置随从艾露猫的说话频率。
+<string>正常
+<string>随从艾露猫会根据情况自行判断，开口说话。<lf><COLOR preset="TXT_Accent">（此选项为游戏中的正常说话频率）</COLOR>
+<string>较少
+<string>随从艾露猫的说话频率将低于正常设置。
+<string>仅剧情需要时
+<string>随从艾露猫将只在涉及游戏剧情时说话。
+<string>自动选择快速旅行目的地
+<string>设置在指定目的地或目标的状态下打开“快速旅行目的地列<lf>表”时，是否自动选择能以最短时间抵达该地点的快速旅行<lf>目的地。
+<string>停用
+<string>停用自动选择功能。无论是否已指定目的地或目标，<lf>都会选择快速旅行列表中的第一个目的地。
+<string>启用
+<string>启用自动选择功能。指定目的地或目标时，将自动选<lf>择能以最短时间抵达该地点的快速旅行目的地；未指<lf>定时，将选择快速旅行列表中的第一个目的地。
+<string>切换快捷盘
+<string>设置调用快捷盘时的快捷方式切换对象。
+<string>类型 1
+<string>调用快捷盘时，仅切换键盘专用的快捷方式。
+<string>类型 2
+<string>调用快捷盘时，同时切换键盘和控制器的快捷方式。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

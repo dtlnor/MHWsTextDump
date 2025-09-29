@@ -840,6 +840,8 @@
 <string>At the Grand Hub Canteen, you can<lf>order regional meals from each of the<lf>various villages, as well as seasonal<lf>meals during special events.
 <string>The Grand Hub Canteen
 <string>The Vouchers required for meals<lf>at the Canteen can be obtained via<lf>login bonuses and from bounty rewards.<lf><lf>Don't miss out on any chance to stock up!
+<string>The Grand Hub Canteen
+<string>When someone redeems a meal voucher,<lf>other Link Party members or those on the<lf>same quest can now enjoy the same meal.
 <string>Changing Alma's Outfit
 <string>You can now change Alma's outfit from<lf>the <BOLD>Change Appearance</BOLD> menu. Help her<lf>stretch her fashion wings every now<lf>and then by switching up her outfit!
 <string>Changing Alma's Glasses
@@ -887,9 +889,9 @@
 <string>Changing Gemma's Outfit
 <string>You can now change Gemma's outfit from<lf>the <BOLD>Change Appearance</BOLD> menu. The one<lf>responsible for hunter fashion should get<lf>to flex her own fits now and again!
 <string>Selecting Support Hunters
-<string>You can now select Support Hunters.<lf>After selecting a quest from <BOLD>Post/Join<lf>Quest</BOLD>, you can choose who you would<lf>like to participate.
+<string>You can now select the Support Hunters<lf>that respond to your SOS Flares. Select<lf><BOLD>Post/Join Quest</BOLD> from the quest counter<lf>then check <BOLD>Settings</BOLD> to select your Support<lf>Hunters.
 <string>Selecting Support Hunters
-<string>If you are unable to select Support Hunters,<lf>try changing the maximum number of<lf>participants or multiplayer settings from<lf>the <BOLD>Settings</BOLD> menu at the Quest Counter.
+<string>If you are unable to select Support Hunters,<lf>make sure that other options in the <BOLD>Settings</BOLD><lf>menu, such as <BOLD>Max Members</BOLD> or <BOLD>Multiplayer<lf>Settings</BOLD> are enabled to allow them.
 <string>Selecting Support Hunters
 <string>Note: There may be usage restrictions<lf>depending on the quest type, or certain<lf>members who cannot participate in specific<lf>quests.
 <string>Fashion Hunter Gemma
@@ -938,12 +940,98 @@
 <string>You can hide Ammo/Coatings you do not want<lf>to appear on the Ammo/Coatings Bar by setting<lf>them to <BOLD>Hide</BOLD>.
 <string>Hiding Certain Ammo/Coatings
 <string>However, even if all ammo/coatings are hidden<lf>or depleted, one usable option will always be<lf>shown on the Ammo/Coatings bar.
+<string>Chocobo Outfit Mount Music
+<string>When the <COLOR preset="TXT_Accent">My Little Chocobo Outfit</COLOR><lf>is equipped, exclusive music will play<lf>when riding your Seikret.
+<string>Chocobo Outfit Mount Music
+<string>Turn exclusive mount music on/off<lf>or adjust its volume by going to<lf>Audio in the Options menu.
+<string>Festival of Accord: Dreamspell
+<string>During festivals, special features will<lf>be added to the Grand Hub. They'll<lf>be around for a limited time, so make<lf>sure to visit while they're available!
+<string>Limited-time Support Hunter!
+<string>During the event period, SOS Flares<lf>can summon a special Support Hunter.<lf>However, this may depend on the quest<lf>or level of progression.
+<string>Fill up on Seasonal Dishes!
+<string>Enjoy limited-time menu items at<lf>the Canteen by trading in a Dreamspell<lf>Voucher. You can obtain them through<lf>login bonuses during the event period!
+<string>Dreamspell Voucher Eligibility
+<string>Regular meal vouchers allow others<lf>besides the user to partake, but only<lf>the one who redeems the voucher is<lf>eligible for the menu items exclusive<lf>to the event period.
+<string>Give Alma a Refreshing New Look!
+<string>A special Dreamspell outfit for<lf>handlers was prepared so they could<lf>join in the festivities. Talk to Alma in<lf>the Grand Hub to change her outfit!
+<string>Limited Bounties Updated Daily!
+<string>Updated daily, Limited Bounties<lf>will give you Dreamspell Tickets,<lf>which can be used to craft limited-<lf>time seasonal equipment.
+<string>Extra Login Bonuses!
+<string>During the event period, you can now<lf>receive two Lucky Vouchers per day<lf>instead of one, as well as other<lf>rewards such as Dreamspell Tickets!
+<string>Event Quests Incoming!
+<string>A series of limited-time Event Quests<lf>are now available! Many past Event<lf>Quests are being reintroduced.
+<string>Soul of the Pictomancer
+<string>You obtained a <COLOR preset="TXT_Accent">Soul of the Pictomancer</COLOR>.<lf>Keeping this item within your item pouch<lf>will allow you to use <COLOR preset="TXT_Accent">pictomancy</COLOR>.
+<string>Using Pictomancy
+<string>Press <ICON PL_ITEM> to use pictomancy to draw<lf>a picture, then bring it to life to<lf>attack your foes. Once used, it will<lf>go on cooldown.
+<string>Mog of the Ages
+<string>By combining pictures, you can unleash<lf>the powerful pictomancy spell:<lf><COLOR preset="TXT_Accent">Mog of the Ages</COLOR>.
+<string>Picture Materialization
+<string>You can see pictures you've drawn on<lf>the canvas at the bottom of the screen.<lf>For more details, check the <COLOR preset="TXT_Accent">Basic Controls<lf>guide</COLOR>.
+<string>Use the Custom Radial Menu
+<string>Register pictomancy spells to the<lf>Custom Radial Menu ahead of time<lf>to be able to use them quickly<lf>and easily.
+<string>Wielding the Power of the Dark Knight
+<string>When the set bonus skill granted by<lf>a specific armor is active, you can use<lf>the exclusive item: <COLOR preset="TXT_Accent">The Blackest Night</COLOR>.
+<string>The Blackest Night
+<string>Press <ICON PL_ITEM> to use the item, creating<lf>a powerful barrier that consumes<lf>your health. Once used, it will go<lf>on cooldown.
+<string>Edge of Shadow
+<string>A forward-facing slash attack will be<lf>executed automatically when the barrier<lf>runs out without being destroyed, or can<lf>be executed immediately by pressing <ICON PL_BT_RIDE_ATTACK_L>.
+<string>Eventide
+<string>If the barrier is destroyed by an enemy<lf>attack, you will unleash a powerful<lf>counterattack and gain a <COLOR preset="TXT_Accent">special buff</COLOR><lf>for a certain amount of time.
+<string>Use the Custom Radial Menu
+<string>Register The Blackest Night to the Custom<lf>Radial Menu to be able to use it even<lf>when your weapon is drawn. For more<lf>details, check the <COLOR preset="TXT_Accent">Basic Controls guide</COLOR>.
+<string>The Detailed Map
+<string>When you first visit a region, explore<lf>to uncover each area on the map.
+<string>The Detailed Map
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>The Detailed Map
+<string><COLOR preset="TXT_Accent">Fast Travel List</COLOR><lf>Press <ICON UI_DECIDE> on the locations available on the<lf>map to fast travel and move there instantly.
+<string>The Detailed Map
+<string><COLOR preset="TXT_Accent">Filter Icons</COLOR><lf>View gathering points, endemic life,<lf>facilities, people, etc. in a given region.
+<string>The Detailed Map
+<string><COLOR preset="TXT_Accent">Environment Overview</COLOR><lf>View active monsters and active events<lf>on the map in a given region.
+<string>The Detailed Map
+<string><COLOR preset="TXT_Accent">Monster Threat Level</COLOR><lf>Circles on the map show monster threat<lf>levels. Red circles = high danger level.
+<string>The World Map
+<string>Press <ICON UI_MAP3D_OPEN_WORLD_MAP> after opening the Detailed Map<lf>to view the regions you've visited.<lf>From there, you can check each region's<lf>Environment Overview and fast travel.
+<string>Quest Completion Animations
+<string>You can select up to three different<lf>Quest Completion animations to<lf>prioritize. (Must meet certain<lf>requirements for them to play.)
+<string>Quest Completion Animations
+<string>However, during the situations listed<lf>on the next page, prioritized Quest<lf>Completion animations may not play<lf>even when requirements are met.
+<string>Quest Completion Animations
+<string>- When completing an Assignment<lf>- When completing a Field Survey<lf>- When wearing certain equipment<lf>- When completing some Event Quests
 <string>Talisman Melding
 <string><COLOR preset="TXT_Accent">Talisman Melding</COLOR> has been added,<lf>allowing you to transform unwanted<lf>Appraised Talismans into Appraisal Items.<lf>Look forward to the different talismans<lf>that are formed!
 <string>Appraised Talismans
 <string><COLOR preset="TXT_Accent">Appraised Talismans</COLOR> have been added.<lf>Talismans revealed through appraisal<lf>cannot be upgraded, but have<lf>a variety of effects.
 <string>Appraised Talismans
 <string>Appraised Talismans can have weapon<lf>skills and decoration slots in addition<lf>to armor skills. Try to get as many as<lf>you can!
+<string>Tips for Fighting Omega Planetes
+<string>When fighting Omega Planetes,<lf>it's important to work together with<lf>other hunters or Support Hunters<lf>by <COLOR preset="TXT_Accent">distributing roles</COLOR>.
+<string>Drawing the Enemy's Attention
+<string>If your role is to draw Omega's attention,<lf>it would be best to equip a weapon that<lf>comes with a shield, and to ensure that<lf>you have equipped the <COLOR preset="TXT_Accent">Guard Up</COLOR> skill.
+<string>Healing and Supporting Allies
+<string>If your role is to provide healing and<lf>support, it would be best to equip skills<lf>such as <COLOR preset="TXT_Accent">Recovery Up</COLOR>, <COLOR preset="TXT_Accent">Speed Eating</COLOR>, or<lf><COLOR preset="TXT_Accent">Wide-Range</COLOR> to better aid your allies.
+<string>Attacking
+<string>If your role is to focus on dealing damage,<lf>it would be best to have skills that increase<lf>your attack. Equip weapons with <COLOR preset="TXT_Accent">thunder<lf>element</COLOR> to maximize effectiveness.
+<string>Effective Item Usage
+<string>Ensure that you bring items that also<lf><COLOR preset="TXT_Accent">affect your allies</COLOR>. For example, stock<lf>up on Lifepowder, Demon Powder, and<lf>Hardshell Powder.
+<string>Turn Individual Support Moves On/Off
+<string>You can individually select your Palico's support<lf>moves to turn them on or off. Go to Palico Info<lf>in the Start Menu or the menu in your tent.
+<string>Defending Against Delta Attack
+<string>The only way to survive Delta Attack<lf>is by <COLOR preset="TXT_Accent">sheltering within the powerful<lf>shield created by defeating a Nerscylla<lf>Clone</COLOR>.
+<string>Prioritize Creating a Shield
+<string><COLOR preset="TXT_Accent">Focus your attacks on the Nerscylla Clone<lf>before Delta Attack is unleashed</COLOR> so that<lf>you can defeat it and shelter within the<lf>shield it creates.
+<string>Use Two Different Elemental Weapons
+<string><COLOR preset="TXT_Accent">Fire is effective against Nerscylla, and<lf>thunder is effective against Omega<lf>Planetes</COLOR>. Bringing weapons with both<lf>elements will be key in this quest.
+<string>Omega Resonance
+<string>During this quest, the set bonus skill<lf><COLOR preset="TXT_Accent">Omega Resonance</COLOR> will manifest as<lf>either Local or Remote under the<lf>following conditions:
+<string>Local Resonance
+<string>When Local Resonance is active,<lf>get <COLOR preset="TXT_Accent">close</COLOR> to other hunters to increase<lf>your affinity.
+<string>Remote Resonance
+<string>When Remote Resonance is active,<lf>get <COLOR preset="TXT_Accent">far</COLOR> away from other hunters<lf>to increase your attack.
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>Wounds
 <string>You can now trade in old decorations for<lf>melding points that you can use to <COLOR preset="TXT_Accent">meld<lf>new decorations</COLOR>. The options will<lf>increase as you fulfill the conditions.
 <string>Decorations and Equipment Loadouts

@@ -481,7 +481,7 @@
 <string>집중 약점 공격
 <string><ICON WP05 PL_AIM> 을 누른 상태에서 <ICON WP05 PL_ATTACK_SP_B>을 눌러<lf><COLOR preset="TXT_Accent">집중 약점 공격</COLOR>을 발동한다.<lf>상처에 공격을 명중시키면 상처 파괴를<lf>일으켜 큰 대미지를 주고<lf>움찔하게 만들 수 있다.
 <string>집중 약점 공격 중 음색
-<string>집중 약점 공격 중 타이밍을 잘 맞춰<lf><ICON WP05 PL_ATTACK_00> 또는 <ICON WP05 PL_ATTACK_01> 또는 <ICON WP05 PL_ATTACK_00>+<ICON WP05 PL_ATTACK_01>을 누르면<lf>최대 5개의 음색이 발생한다.
+<string>집중 약점 공격 중 타이밍을 잘 맞춰<lf><ICON WP05 PL_ATTACK_00> 또는 <ICON WP05 PL_ATTACK_01> 또는 <ICON WP05 PL_ATTACK_00>+<ICON WP05 PL_ATTACK_01>을 누르면<lf>최대 6개의 음색이 발생한다.
 <string>상처
 <string>몬스터의 같은 부위를 계속 공격하면<lf><COLOR preset="TXT_Accent">상처</COLOR>가 생긴다. <COLOR preset="TXT_Accent">상처</COLOR>를 공격하면 큰<lf>대미지를 줄 수 있고 <COLOR preset="TXT_Accent">집중 모드</COLOR>를<lf>사용하면 쉽게 노릴 수 있다.
 <string>집중 약점 공격
@@ -840,6 +840,8 @@
 <string>대집회소 식당에서는 식사권으로<lf>각 마을의 요리나, 기간 한정 이벤트<lf>전용 메뉴를 먹을 수 있다.
 <string>대집회소 식당
 <string>식사 시에 필요한 식사권은<lf>로그인 보너스나 현상금 보수로<lf>입수 가능하니 꼭 획득해 보자.
+<string>대집회소 식당
+<string>누군가가 식사권을 사용하면<lf>같은 링크 파티와 퀘스트에 참가 중인<lf>다른 멤버도 똑같이 식사할 수 있다.
 <string>알마 의상 변경
 <string>차림새 고치기에서 알마의 의상을<lf>변경할 수 있게 되었다. 새로운 의상으로<lf>기분을 전환하고 모험에 나서보자!
 <string>안경 변경
@@ -887,9 +889,9 @@
 <string>젬마 의상 변경
 <string>차림새 고치기에서 젬마의 의상을<lf>변경할 수 있게 되었다. 기분을 전환하고<lf>실력을 마음껏 발휘해 보자!
 <string>서포트 헌터 선택 기능
-<string>서포트 헌터 선택이 가능해졌다.<lf>'퀘스트 수주/참가'에서 퀘스트를<lf>결정한 후 참가 멤버를 선택해 보자.
+<string>서포트 헌터 선택이 가능해졌다.<lf>'퀘스트 수주/참가'의 설정에서<lf>참가 멤버를 선택해 보자.
 <string>서포트 헌터 선택 기능
-<string>선택 기능을 이용할 수 없다면 퀘스트<lf>카운터 설정에서 최대 참가 인원수나<lf>멀티플레이 설정을 다시 확인하자.
+<string>선택 기능을 이용할 수 없다면 설정에서<lf>최대 참가 인원수나<lf>멀티플레이 설정을 다시 확인하자.
 <string>서포트 헌터 선택 기능
 <string>※퀘스트 종류에 따라 서포트 헌터의<lf>이용이 제한되고, 특정 퀘스트에<lf>참가할 수 없는 멤버도 있다.
 <string>젬마의 부탁: 덧입는 장비
@@ -938,12 +940,98 @@
 <string>탄/병 슬라이더에 표시하고 싶지 않은<lf>탄/병이 있다면, 해당 탄/병 표시를<lf>꺼서 표시하지 않을 수 있다.
 <string>임의의 탄/병 표시 켜기/끄기 기능
 <string>단, 슬라이더에 표시되는 탄/병이<lf>0개가 되면 표시를 끈 탄/병 중에서<lf>사용 가능한 탄/병 1개가 표시된다.
+<string>초코보의 장비 장착 전용 BGM
+<string>'<COLOR preset="TXT_Accent">위시 마이 초코보의 장비</COLOR>' 장착 시<lf>세크레트 탑승 중에<lf>전용 BGM이 재생된다.
+<string>초코보의 장비 장착 전용 BGM
+<string>전용 BGM 켜기/끄기나 음량은<lf>옵션의 '오디오' 내<lf>해당 항목에서 설정할 수 있다.
+<string>교류 축제【몽화 의식】 개최 중
+<string>축제 기간 동안, 대집회소에서 다양한<lf>콘텐츠를 즐길 수 있다. 축제는 기간이<lf>정해져 있으므로 기간 내에 꼭 방문해 보자!
+<string>기간 한정 특별 서포트 헌터!
+<string>기간 중 구조신호로 특별한 서포트 헌터도<lf>퀘스트에 참가할 수 있다. 퀘스트 종류나<lf>진행도에 따라 제한될 수도 있다.
+<string>축제 한정 식사를 즐겨보자!
+<string>식당에서는 기간 한정 특별 메뉴를<lf>즐길 수 있다. 기간 내에 로그인 보너스로<lf>입수 가능한 '몽화 식사권'을 활용해 보자!
+<string>'몽화 식사권' 적용 대상
+<string>일반 식사권은 사용자 외 일부 멤버도<lf>식사할 수 있지만, 축제 한정 메뉴는<lf>이 식사권 사용자만 이용할 수 있다.
+<string>알마의 특별 의상으로 기분 전환!
+<string>편집자를 위한 몽화 의식 이벤트<lf>특별 의상을 이용할 수 있다. 옷을 변경<lf>하고 싶으면 알마에게 말을 걸어 보자!
+<string>배포 현상금 매일 업데이트!
+<string>배포 현상금은 매일 갱신되며<lf>이벤트 한정 장비 생산에 필요한<lf>축제 티켓【몽화】를 입수 가능하다.
+<string>전용 로그인 보너스 추가!
+<string>하루 1장이었던 '격운 티켓'이<lf>기간 동안 특별히 하루 2장으로 증가!<lf>또한, '축제 티켓【몽화】'도 입수 가능.
+<string>이벤트 퀘스트 배포!
+<string>기간 한정 특별 이벤트 퀘스트를<lf>차례대로 배포! 또한 과거 이벤트<lf>퀘스트도 다수 재배포된다.
+<string>픽토맨서의 증표
+<string>'<COLOR preset="TXT_Accent">픽토맨서의 증표</COLOR>'를 입수했다.<lf>아이템을 주머니에 소지하면<lf>'<COLOR preset="TXT_Accent">그림 마법</COLOR>' 아이템을 쓸 수 있다.
+<string>그림 마법을 사용하자
+<string><ICON PL_ITEM>으로 그림 마법을 사용하면<lf>그림을 구현해서 공격한다.<lf>사용할 때마다 쿨다운이 발생한다.
+<string>그림 마법 '모그리 격류'
+<string>그린 그림을 조합하면<lf>강력한 그림 마법 '<COLOR preset="TXT_Accent">모그리 격류</COLOR>'를<lf>발동할 수 있게 된다.
+<string>그림 구현 상황
+<string>그림 구현 상황은 화면 아래 '캔버스'에서<lf>확인할 수 있다. 자세한 내용은<lf>'<COLOR preset="TXT_Accent">기본 조작 방법</COLOR>'에서 확인하자.
+<string>커스텀 숏컷 활용
+<string>그림 마법을 커스텀 숏컷에<lf>미리 등록해 두면<lf>빠르게 발동할 수 있어 편리하다.
+<string>암흑기사의 힘을 사용하자
+<string>지정 방어구 시리즈 스킬을 발동해서<lf>전용 아이템 '<COLOR preset="TXT_Accent">흑야</COLOR>'를<lf>사용할 수 있게 되었다.
+<string>암흑검 '흑야'
+<string><ICON PL_ITEM>을 입력해 자신의 체력을 소비해서<lf>강력한 보호막을 발생시킨다.<lf>사용할 때마다 쿨다운이 발생한다.
+<string>암흑검 '칠흑검'
+<string>보호막 발동 후 <ICON PL_BT_RIDE_ATTACK_L>을 입력하거나<lf>파괴되지 않은 상태에서 일정 시간이 지나<lf>종료하면 전방으로 참격을 방출한다.
+<string>암흑검 '황혼검'
+<string>적의 공격으로 보호막이 파괴되면<lf>강력한 카운터 공격을 발동하고, 일정<lf>시간 동안 <COLOR preset="TXT_Accent">특수한 강화 상태</COLOR>가 부여된다.
+<string>커스텀 숏컷 활용
+<string>흑야를 커스텀 숏컷에 등록하면<lf>발도 상태에서도 쓸 수 있다. 자세한<lf>내용은 '<COLOR preset="TXT_Accent">기본 조작 방법</COLOR>'에서 확인하자.
+<string>필드 맵
+<string>처음 진입한 필드의 각지를<lf>탐색하면 해당 장소를<lf>구역별로 확인할 수 있게 된다.
+<string>필드 맵
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>필드 맵
+<string><COLOR preset="TXT_Accent">▼패스트 트래블 목적지 목록</COLOR><lf>맵 위의 패스트 트래블할 수 있는<lf>장소 확인, <ICON UI_DECIDE>을 눌러 바로 이동.
+<string>필드 맵
+<string><COLOR preset="TXT_Accent">▼아이콘 필터</COLOR><lf>맵 위의 채취 포인트나 환경생물,<lf>시설 창구/인물 등을 확인할 수 있다.
+<string>필드 맵
+<string><COLOR preset="TXT_Accent">▼환경 개요</COLOR><lf>맵 위에 출현한 몬스터나 발생 중인<lf>이벤트 등을 확인할 수 있다.
+<string>필드 맵
+<string><COLOR preset="TXT_Accent">▼몬스터 위험도</COLOR><lf>맵 위에 원이 표시된다. 원의 색깔이<lf>빨갛게 변할수록 더 위험하다.
+<string>월드 맵
+<string>필드 맵에서 <ICON UI_MAP3D_OPEN_WORLD_MAP>을 누르면<lf>그동안 방문한 모든 필드 확인 가능.<lf>각지 환경 개요 확인과 이동 가능.
+<string>퀘스트 클리어 연출 설정
+<string>퀘스트 클리어 시 우선해서 재생할<lf>연출을 3개까지 설정할 수 있습니다.<lf>(재생에 필요한 조건 있음)
+<string>퀘스트 클리어 연출 설정
+<string>단, 재생에 필요한 조건을 충족해도<lf>다음 페이지와 같은 상황에는 우선 설정<lf>연출이 재생되지 않을 수 있다.
+<string>퀘스트 클리어 연출 설정
+<string>-임무 퀘스트 클리어 시<lf>-현지 조사 퀘스트 클리어 시<lf>-연출에 영향을 주는 장비 착용 시<lf>-특정 이벤트 퀘스트 클리어 시
 <string>부적의 연금술
 <string>불필요한 감정 호석을 감정 아이템으로<lf>교환하는 '<COLOR preset="TXT_Accent">부적의 연금술</COLOR>'이 추가되었다.<lf>어떤 결과물이 나올지 기대해 보자.
 <string>감정 호석
 <string>'<COLOR preset="TXT_Accent">감정 호석</COLOR>'이 새로 추가되었다.<lf>감정 아이템에서 바뀐 호석은 강화할<lf>수 없는 대신 성능이 다양하다.
 <string>감정 호석
 <string>'감정 호석'은 방어구 스킬뿐 아니라<lf>무기 스킬, 장식품 슬롯이 있을 수도<lf>있다. 여러 호석을 입수해 보자!
+<string>오메가 플라네테스 토벌 요령
+<string>오메가 플라네테스를 공략하려면<lf>서포트 헌터나 다른 플레이어와 협력,<lf>특히 행동의 <COLOR preset="TXT_Accent">역할 분담이 중요</COLOR>하다.
+<string>역할 예시: 적 주의 끌기
+<string>오메가의 주의를 끄는 역할은 방패를<lf>지닌 무기 종류가 좋다. '가드 강화'<lf>등 <COLOR preset="TXT_Accent">가드 강화 계열 스킬</COLOR>도 장비하자.
+<string>역할 예시: 아군 회복 지원
+<string>회복 지원 역할은 '<COLOR preset="TXT_Accent">체력 회복량 UP</COLOR>',<lf>'<COLOR preset="TXT_Accent">빨리 먹기</COLOR>', '<COLOR preset="TXT_Accent">광역화</COLOR>' 등 스킬을<lf>활용해서 아군의 회복 효과를 높이자.
+<string>역할 예시: 적극적인 공격
+<string>공격에 집중하는 역할의 헌터는<lf>공격력이 상승하는 스킬을 장비하자.<lf><COLOR preset="TXT_Accent">번개속성 무기</COLOR>도 효과적이다.
+<string>효과적인 아이템 활용
+<string><COLOR preset="TXT_Accent">동료에게 효과가 있는 아이템</COLOR>은 토벌에 큰<lf>도움이 된다. 상황에 맞게 사용하자. 예:<lf>생명의 가루, 귀인의 가루, 경화의 가루
+<string>서포트 액션 개별 켜기/끄기
+<string>동반자의 서포트 액션을 개별 선택하고<lf>켜기/끄기가 가능하다. 시작 메뉴, 텐트<lf>안 메뉴 '동반자 정보'에서 설정하자.
+<string>델타 공격 방어 방법
+<string>'델타 공격'은 <COLOR preset="TXT_Accent">네르스큐라 클론을<lf>토벌했을 때 발생하는 강력한<lf>'방어 장벽</COLOR>'으로만 버틸 수 있다.
+<string>'방어 장벽' 발생이 우선
+<string><COLOR preset="TXT_Accent">델타 공격이 발사되기 전에 네르스큐라를<lf>우선 집중 공격</COLOR>하고, 토벌해서 발생한<lf>방어 장벽 안으로 몸을 숨기자.
+<string>두 가지 속성 무기를 활용하자
+<string><COLOR preset="TXT_Accent">네르스큐라에게는 불속성, 오메가<lf>플라네테스에게는 번개속성이 효과적이다.</COLOR><lf>두 속성 무기를 준비해서 적재적소에 활용하자.
+<string>오메가 공명
+<string>시리즈 스킬 '<COLOR preset="TXT_Accent">오메가 공명</COLOR>'으로 발동하는<lf>'근거리' 혹은 '원거리'는<lf>각각 다음 조건을 만족하면 효과를 발휘한다.
+<string>공명: 근거리
+<string>공명: '근거리' 발동 시, 자신과 다른<lf>헌터가 일정 거리까지 <COLOR preset="TXT_Accent">가까워지면</COLOR><lf>자신의 회심률이 상승한다.
+<string>공명: 원거리
+<string>공명: '원거리' 발동 시, 자신과 다른<lf>헌터가 일정 거리까지 <COLOR preset="TXT_Accent">멀어지면</COLOR><lf>자신의 공격력이 상승한다.
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>상처
 <string>이제 소지하고 있는 불필요한 장식품을<lf>소비하여 <COLOR preset="TXT_Accent">원하는 장식품을 연금</COLOR>할 수<lf>있다. 라인업은 조건을 만족하면<lf>늘어난다.
 <string><REF RefItem_0017_120>과 장비 마이 세트

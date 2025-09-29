@@ -106,7 +106,7 @@
 <string>Controles de llamada del Seikret
 <string>Fija los controles para llamar a tu Seikret.
 <string>Tipo 1
-<string>Llama al Seikret con <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> o un atajo<lf>del menú radial personalizado.
+<string>Llama al Seikret con <INPUTMSG MsgGUI030100_INPUT_00> o con un atajo<lf>del menú radial personalizado.
 <string>Tipo 2
 <string>Además del tipo 1, mantén presionado <ICON PL_PT_CALL_KEEP><lf>con el arma envainada para llamar al Seikret<lf>en control de movimiento automático.
 <string>Tipo 3
@@ -135,6 +135,8 @@
 <string>Solo se ven los objetos de la eslinga<lf>cuando se usa la barra de objetos al apuntar.
 <string>Tipo 2
 <string>Se ven todos los objetos cuando se usa<lf>la barra de objetos al apuntar.
+<string>Tipo 3
+<string>Solo se ven los objetos u objetos<lf>especiales de la eslinga al usar la barra<lf>de objetos al apuntar.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>Al usar atajos del teclado, permite<lf>controlarlos con el ratón y que se<lf>vea el cursor en pantalla.
 <string>Desactivado
 <string>Cuando utilices atajos del teclado<lf>no se mostrará el cursor del ratón.<lf><COLOR preset="TXT_Accent">(Los atajos no se pueden usar con el ratón).</COLOR>
+<string>Sensibilidad del ratón
+<string>Ajusta la sensibilidad del movimiento del ratón,<lf>lo cual afectará a su control. <COLOR preset="TXT_Accent">(Puede que necesites<lf>ajustar de nuevo la sensibilidad de la cámara).</COLOR>
 <string>Prioridad de rueda del ratón
 <string>Elige la prioridad de los controles para la rueda<lf>del ratón al desplazarte por los menús.
 <string>Priorizar navegación de página
@@ -760,6 +764,35 @@
 <string>Ajusta el brillo de la pantalla.
 <string>Brillo (HDR)
 <string>Ajusta el brillo de la pantalla.
+<string>Ajustes de rendimiento
+<string>Configura las opciones gráficas relacionadas con el juego.<lf><COLOR preset="TXT_Accent">(Se puede configurar en las opciones de título).</COLOR>
+<string>Configura las opciones gráficas relacionadas con el juego.
+<string>Priorizar resolución
+<string>Concede prioridad a la resolución en vez<lf>de a la tasa de fotogramas. Los gráficos<lf>se mostrarán con mayor definición.
+<string>Configura las opciones para priorizar la<lf>resolución en lugar de la tasa de fotogramas.<lf>Los gráficos se verán en alta definición,<lf>el trazado de rayos está habilitado y la calidad<lf>de los reflejos y refracción de la luz se mejora.
+<string>Priorizar fotogramas
+<string>Concede prioridad a la tasa de fotogramas en<lf>vez de a la resolución. Tu personaje se moverá<lf>con mayor suavidad, por lo que las acciones<lf>serán más fluidas.
+<string>Concede prioridad a la tasa de fotogramas<lf>en vez de a la resolución. Tu personaje se<lf>moverá con mayor suavidad, por lo que las<lf>acciones serán más fluidas. Se deshabilita<lf>el trazado de rayos.
+<string>Equilibrado
+<string>Configura las opciones dando la misma<lf>importancia a la resolución y a la tasa de<lf>fotogramas, para conseguir un equilibrio<lf>entre el detalle gráfico y la suavidad de<lf>movimiento del personaje.
+<string>Configura las opciones dando la misma<lf>importancia a la resolución y a la tasa de<lf>fotogramas, para conseguir un equilibrio<lf>entre el detalle gráfico y la suavidad de<lf>movimiento del personaje. Habilita el<lf>trazado de rayos.
+<string>Modo a 120 Hz
+<string>Elige si deseas utilizar una frecuencia de refresco<lf>de 120 Hz. <COLOR preset="TXT_Accent">(Solo efectivo en pantallas compatibles con<lf>120 Hz. Reinicia el juego para reflejar los cambios).</COLOR>
+<string>Sí
+<string>Activa el modo con frecuencia de refresco<lf>de pantalla de 120 Hz, lo que podría resultar<lf>en una mejora de la calidad visual.<lf><lf><COLOR preset="TXT_Accent">(Esta opción no garantiza una tasa de imágenes<lf>de 120 fps. Según la pantalla, puede que<lf>la resolución y la calidad de la imagen<lf>se reduzcan automáticamente).</COLOR>
+<string>No
+<string>Desactiva el modo a 120 Hz.
+<string>Límite de tasa de fotogramas
+<string>Configura un límite de tasa de fotogramas.<lf>Si especificas un límite se pueden evitar<lf>problemas de ralentización en el renderizado.
+<string>60 fps (limitado)
+<string>Limita la tasa de fotogramas a 60 fps.<lf>Solo se puede seleccionar si en los <BOLD>ajustes<lf>de rendimiento</BOLD> has elegido la opción<lf>de <BOLD>priorizar fotogramas</BOLD>.
+<string>40 fps (limitado)
+<string>Limita la tasa de fotogramas a 40 fps.<lf>Solo se puede seleccionar si en los <BOLD>ajustes de<lf>rendimiento</BOLD> has elegido el modo <BOLD>equilibrado</BOLD><lf>y se ha activado el <BOLD>modo a 120 Hz</BOLD>.
+<string>30 fps (limitado)
+<string>Limita la tasa de fotogramas a 30 fps.<lf>Solo se puede seleccionar si en los <BOLD>ajustes<lf>de rendimiento</BOLD> has elegido la opción<lf>de dar <BOLD>prioridad a la resolución</BOLD>.
+<string>Limita la tasa de fotogramas a 30 fps.
+<string>No
+<string>Quita el límite de tasa de fotogramas, lo que<lf>permite que la tasa cambie según el nivel de<lf>carga actual de la renderización.
 <string>V-Sync
 <string>Ajusta la sincronización vertical.
 <string>Activar
@@ -1455,7 +1488,9 @@
 <string>No otorga prioridades ni cambia de canal<lf>de chat de voz automáticamente: solo se<lf>puede cambiar manualmente.
 <string>Los canales del chat de voz no se cambian<lf>automáticamente. Debe hacerse manualmente.
 <string>Idioma Felyne
+<string>Idioma del camarada Felyne
 <string>Ajusta el idioma hablado por los camaradas Felyne.
+<string>Elige el idioma de los camaradas Felyne.
 <string>Idioma Felyne
 <string>Todas las voces de los Felyne, incluidas<lf>las del tuyo, usarán el idioma Felyne. <COLOR preset="TXT_Accent"><lf>(Puedes cambiar este ajuste al crear el personaje).</COLOR>
 <string>Tipo de voz elegido
@@ -1549,6 +1584,16 @@
 <string>Muestra el efecto visual de un talismán<lf>equipado, si lo hay.
 <string>No mostrar
 <string>No muestra efectos visuales para<lf>ninguno de los talismanes equipados.
+<string>Música exclusiva al montar
+<string>Decide si sonará música exclusiva al montar<lf>en Seikret con el atuendo <COLOR preset="TXT_Accent">My Little Chocobo</COLOR>.
+<string>Reproducir
+<string>Reproduce música exclusiva al montar.
+<string>No reproducir
+<string>No reproduce música exclusiva al montar.
+<string>Vol. música exclusiva al montar
+<string>Ajusta el volumen de la música exclusiva<lf>que suena al montar en un Seikret equipado<lf>con el atuendo <COLOR preset="TXT_Accent">My Little Chocobo</COLOR>.
+<string>Música de atuendo de Chocobo
+<string>Ajusta la configuración de la música exclusiva<lf>que suena al montar en un Seikret equipado<lf>con el atuendo <COLOR preset="TXT_Accent">My Little Chocobo</COLOR>.
 <string>Efectos de distorsión
 <string>Elige si mostrar o no un efecto de distorsión que<lf>simula el calor de la lava o entornos submarinos.
 <string>Activar
@@ -1556,8 +1601,34 @@
 <string>Desactivar
 <string>No se mostrará distorsión aunque estés bajo<lf>el agua o cerca de lava.
 <string>Ayuda al apuntado con retroceso
-<string>Activa o desactiva la ayuda al apuntado<lf>con retroceso, que centra automáticamente<lf>la retícula de vuelta a su posición original<lf>tras disparar una ballesta ligera o pesada.
+<string>Activa o desactiva la ayuda al apuntado con retroceso, que<lf>centra automáticamente la retícula de vuelta a su posición<lf>original tras disparar una ballesta ligera o pesada.
 <string>Sí
 <string>Activa la ayuda al apuntado con retroceso
 <string>No
 <string>Desactiva la ayuda al apuntado con retroceso
+<string>Frecuencia de diálogo (camarada)
+<string>Ajusta la frecuencia de diálogo del camarada Felyne.
+<string>Por defecto
+<string>Permite que tu camarada Felyne hable<lf>en función de la situación.<lf><COLOR preset="TXT_Accent">Este es el ajuste predeterminado del juego.</COLOR>
+<string>Discreto
+<string>Reduce la frecuencia con la que habla tu camarada.
+<string>Solo durante la historia
+<string>Tu camarada Felyne solo hablará cuando sea<lf>necesario para avanzar en la historia.
+<string>Selección automática de punto de viaje rápido
+<string>Ajusta si se selecciona automáticamente el<lf>punto de viaje rápido más cercano al designar<lf>un destino u objetivo como punto de ruta.
+<string>No
+<string>Desactiva la función de selección automática.<lf>Se elegirá el primer punto de viaje rápido de la lista,<lf>sin importar si se ha designado un destino u objetivo.
+<string>Sí
+<string>Activa la función de selección automática. Si designas<lf>un destino u objetivo, se seleccionará automáticamente<lf>el punto de viaje rápido más cercano. Si no designas<lf>nada, se elegirá la primera ubicación de la lista.
+<string>
+<string>
+<string>
+<string>Acceder al menú de atajos del teclado solo<lf>cambiará el menú de atajos del teclado.
+<string>
+<string>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

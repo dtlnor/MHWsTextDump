@@ -840,6 +840,8 @@
 <string>In der Kantine der Großen Stätte kannst<lf>du die örtlichen Gerichte aus den<lf>verschiedenen Dörfern sowie saisonale<lf>Event-Gerichte probieren.
 <string>Die Kantine der Großen Stätte
 <string>Die erforderlichen Gutscheine für<lf>Mahlzeiten in der Kantine erhältst du<lf>als Anmeldebonus und als Belohnung<lf>für Beutezüge.<lf><lf>Lass es dir schmecken!
+<string>Die Kantine der Großen Stätte
+<string>Der Einsatz eines Essensgutscheins wirkt<lf>nun auch für Mitglieder der Verbindungs-<lf>gruppe oder Teilnehmer derselben Quest.
 <string>Almas Kleidung ändern
 <string>Im Menü <BOLD>Aussehen verändern</BOLD> kannst du<lf>jetzt Almas Kleidung ändern.<lf>Es schadet der Expedition sicher nicht,<lf>auch modisch hin und wieder mit einem<lf>neuen Gefühl an die Arbeit zu gehen!
 <string>Almas Brille ändern
@@ -938,12 +940,98 @@
 <string>Munition/Beschichtung, die mit <BOLD>Verbergen</BOLD><lf>markiert wurde, wird in der Munitions-/<lf>Beschichtungsanzeige nicht mehr angezeigt.
 <string>Munition/Beschichtung verbergen
 <string>Würde dadurch keine Munition/Beschichtung<lf>mehr angezeigt werden, wird stattdessen<lf>eine der verborgenen, verfügbaren Optionen<lf>angezeigt.
+<string>Chocobo-Reitmusik
+<string>Trägt dein Saikrii die Dekoration<lf><COLOR preset="TXT_Accent">Chocobo~♪</COLOR>, wird exklusive Musik<lf>gespielt, während du auf ihm reitest.
+<string>Chocobo-Reitmusik
+<string>In den Optionen unter „Audio“ kannst du<lf>die Reitmusik ein- oder ausschalten sowie<lf>die Lautstärke anpassen.
+<string>Fest der Eintracht: Traumzauber
+<string>Während Festen werden der Großen<lf>Stätte besondere Funktionen hinzu-<lf>gefügt. Sie sind nur für eine begrenzte<lf>Zeit verfügbar, also schau vorbei!
+<string>Vorübergehender Hilfsjäger!
+<string>Im Eventzeitraum können Not-Leucht-<lf>zeichen einen besonderen Hilfsjäger rufen.<lf>Dies kann jedoch von der Quest oder<lf>dem Spielfortschritt abhängen.
+<string>Iss das Beste der Saison!
+<string>Löse in der Kantine Traumzauber-<lf>Gutscheine für limitierte Menüs ein.<lf>Traumzauber-Gutscheine gibt es im<lf>Eventzeitraum als Anmeldebonus.
+<string>Gutscheingültigkeit: Traumzauber
+<string>Reguläre Essensgutscheine gelten auch<lf>für andere Jäger, limitierte Gerichte aus<lf>Eventzeiträumen gelten aber nur für den<lf>Jäger, der den Gutschein eingelöst hat.
+<string>Wirf Alma in Schale!
+<string>Für deine Feldexpertin wurde spezielle<lf>Traumzauber-Kleidung angefertigt.<lf>Sprich in der Großen Stätte mit Alma,<lf>um ihre Kleidung zu wechseln!
+<string>Täglich neue Befristete Beutezüge!
+<string>Befristete Beutezüge werden jeden Tag<lf>aktualisiert und versprechen Traumzauber-<lf>Tickets, mit denen du saisonal limitierte<lf>Ausrüstung herstellen kannst.
+<string>Extra Anmeldeboni!
+<string>Im Eventzeitraum kannst du nun zwei<lf>Superglück-Gutscheine pro Tag sowie<lf>Traumzauber-Tickets und anderes als<lf>Anmeldebonus erhalten.
+<string>Eventquests verfügbar!
+<string>Zeitlich begrenzte Eventquests sind<lf>jetzt verfügbar! Viele vergangene<lf>Eventquests können wiederholt werden.
+<string>Piktomanten-Kristall
+<string>Du hast einen <COLOR preset="TXT_Accent">Piktomanten-Kristall</COLOR><lf>erhalten. Behalte ihn in deinem<lf>Objektbeutel, um <COLOR preset="TXT_Accent">Piktomantie</COLOR> zu<lf>nutzen.
+<string>Piktomantie nutzen
+<string>Drücke <ICON PL_ITEM>, um ein Piktomantie-Bild<lf>zu malen und zum Leben zu erwecken,<lf>damit es Feinde angreift. Hat eine<lf>Abklingzeit.
+<string>Opus Mognum
+<string>Kombiniere Bilder, um den mächtigen<lf>Piktomantie-Zauber <COLOR preset="TXT_Accent">Opus Mognum</COLOR><lf>zu entfesseln.
+<string>Bilder materialisieren
+<string>Du siehst die von dir gemalten Bilder am<lf>unteren Bildschirmrand. Weitere Details<lf>findest du unter <COLOR preset="TXT_Accent">Grundsteuerung</COLOR>.
+<string>Das angepasste Tortenmenü nutzen
+<string>Registriere Piktomantie-Zauber im Voraus<lf>im angepassten Tortenmenü, um sie<lf>schnell und einfach einsetzen zu können.
+<string>Die Macht des Dunkelritters
+<string>Wenn die Setbonus-Fähigkeit der<lf>Rüstung aktiv ist, kannst du das<lf>exklusive Objekt <COLOR preset="TXT_Accent">Schwärzeste Nacht</COLOR><lf>einsetzen.
+<string>Schwärzeste Nacht
+<string>Drücke <ICON PL_ITEM>, um das Objekt einzusetzen<lf>und eine mächtige Barriere zu erschaffen,<lf>die deine Gesundheit verbraucht.<lf>Hat eine Abklingzeit.
+<string>Schattenklinge
+<string>Endet die Barriere, ohne zerstört zu<lf>werden, erfolgt automatisch ein<lf>Hiebangriff nach vorn. Der Angriff<lf>kann auch mit <ICON PL_BT_RIDE_ATTACK_L> eingesetzt werden.
+<string>Dämmerung
+<string>Wird die Barriere von einem feindlichen<lf>Angriff zerstört, entfesselst du einen<lf>mächtigen Gegenangriff und erhältst<lf>für gewisse Zeit eine <COLOR preset="TXT_Accent">Sonderstärkung</COLOR>.
+<string>Das angepasste Tortenmenü nutzen
+<string>Registriere „Schwärzeste Nacht“ im ange-<lf>passten Tortenmenü, um sie selbst bei<lf>gezogener Waffe einzusetzen. Weitere<lf>Details findest du unter <COLOR preset="TXT_Accent">Grundsteuerung</COLOR>.
+<string>Die Detailkarte
+<string>Wenn du zum ersten Mal eine Region<lf>betrittst, sind viele Bereiche der Karte<lf>verdeckt. Reise herum, um sie nach<lf>und nach aufzudecken.
+<string>Die Detailkarte
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>Die Detailkarte
+<string><COLOR preset="TXT_Accent">Schnellreise-Liste</COLOR><lf>Drücke bei einem der vorhandenen<lf>Schnellreise-Orte auf der Karte <ICON UI_DECIDE>,<lf>um dich direkt dorthin zu begeben.
+<string>Die Detailkarte
+<string><COLOR preset="TXT_Accent">Symbole filtern</COLOR><lf>Filtere die Kartensymbole nach<lf>Sammelpunkten, einheimischen Wesen,<lf>Einrichtungen, Leuten usw.
+<string>Die Detailkarte
+<string><COLOR preset="TXT_Accent">Umgebungsinfo</COLOR><lf>Hier findest du Infos zu aktiven Monstern<lf>und Ereignissen der jeweiligen Regionen.
+<string>Die Detailkarte
+<string><COLOR preset="TXT_Accent">Monsterbedrohungsstufe</COLOR><lf>Der Bedrohungsgrad eines Monsters lässt<lf>sich anhand des farbigen Kreises auf der<lf>Karte ermitteln. Die Skala geht von blau<lf>über grün bis rot, wobei rot für den<lf>höchsten Bedrohungsgrad steht.
+<string>Die Weltkarte
+<string>Drücke auf der Detailkarte <ICON UI_MAP3D_OPEN_WORLD_MAP>, um die<lf>Weltkarte mit allen Regionen, die du<lf>bereits besucht hast, anzuzeigen.<lf>Du kannst dort auch die Umgebungsinfo<lf>für jede Region einsehen und die Schnell-<lf>reise nutzen.
+<string>Questabschluss-Animationen
+<string>Du kannst bis zu drei Questabschluss-<lf>Animationen wählen, die Priorität<lf>erhalten. (Bestimmte Anforderungen<lf>müssen erfüllt werden.)
+<string>Questabschluss-Animationen
+<string>In den auf der nächsten Seite aufgeführ-<lf>ten Situationen werden bei erfüllten<lf>Bedingungen Prioritätsanimationen even-<lf>tuell nicht abgespielt.
+<string>Questabschluss-Animationen
+<string>– Bei Abschluss einer Aufgabe<lf>– Bei Abschluss einer Felderkundung<lf>– Bei Tragen bestimmter Ausrüstung<lf>– Bei Abschluss einiger Eventquests
 <string>Talismane einschmelzen
 <string>Das <COLOR preset="TXT_Accent">Talisman-Einschmelzen</COLOR> wurde hinzuge-<lf>fügt und verwandelt ungewollte Dekora-<lf>tionen in Bewertungsobjekte. Freue dich<lf>auf die unterschiedlichen Talismane, die<lf>du erhalten kannst!
 <string>Bewertete Talismane
 <string><COLOR preset="TXT_Accent">Bewertete Talismane</COLOR> wurden hinzugefügt.<lf>Durch Bewertung erhaltene Talismane<lf>können nicht verbessert werden, haben<lf>aber verschiedene Effekte.
 <string>Bewertete Talismane
 <string>Bewertete Talismane können zusätzlich<lf>zu Rüstungsfähigkeiten Waffenfähig-<lf>keiten und Dekorationsslots haben.<lf>Versuche, möglichst viele zu erhalten!
+<string>Omega Planetes: Kampftipps
+<string>Der Schlüssel im Kampf gegen Omega<lf>Planetes ist die Zusammenarbeit mit<lf>anderen Jägern oder Hilfsjägern durch<lf>das <COLOR preset="TXT_Accent">Verteilen von Rollen</COLOR>.
+<string>Aufmerksamkeit auf dich ziehen
+<string>Wenn es deine Aufgabe ist, Omega<lf>Planetes’ Aufmerksamkeit auf dich zu<lf>ziehen, solltest du eine Waffe mit Schild<lf>und die Fähigkeit <COLOR preset="TXT_Accent">Blocken hoch</COLOR> ausrüsten.
+<string>Heilen & Unterstützen
+<string>Wenn deine Aufgabe Unterstützung und<lf>Heilung ist, solltest du Fähigkeiten<lf>wie <COLOR preset="TXT_Accent">Erholungsplus</COLOR>, <COLOR preset="TXT_Accent">Schnellessen</COLOR> und<lf><COLOR preset="TXT_Accent">Wirkbereich</COLOR> ausrüsten, um deinen<lf>Verbündeten zu helfen.
+<string>Angreifen
+<string>Wenn es deine Aufgabe ist, Schaden zu<lf>verursachen, nutze Fähigkeiten, die<lf>deinen Angriff erhöhen. Rüste Waffen mit<lf><COLOR preset="TXT_Accent">Donnerelement</COLOR> aus, um den Schaden zu<lf>maximieren.
+<string>Effektive Objektnutzung
+<string>Nimm unbedingt Objekte mit, die sich<lf><COLOR preset="TXT_Accent">auf deine Verbündeten auswirken</COLOR>, wie<lf>Lebenspulver, Dämonenpulver und<lf>Harthülsenpulver.
+<string>Einzelne Unterstützungsaktionen an/aus
+<string>Im Startmenü oder im Zelt kannst du die<lf>Unterstützungsaktionen deines Palicos<lf>auswählen, um sie ein- oder auszuschalten.
+<string>Verteidigung gegen Delta-Attacke
+<string>Die einzige Möglichkeit, Omega Planetes’<lf>„Delta-Attacke“ zu überleben, ist es,<lf><COLOR preset="TXT_Accent">hinter dem Schild Schutz zu suchen,<lf>der beim Besiegen von Nerscylla-Klonen<lf>erzeugt wird</COLOR>.
+<string>Zuerst den Nerscylla-Klon!
+<string><COLOR preset="TXT_Accent">Konzentriere deine Angriffe auf den<lf>Nerscylla-Klon</COLOR>, bevor Omega Planetes<lf>seine Delta-Attacke entfesselt. Wird er<lf>besiegt, hinterlässt er einen Schild,<lf>hinter dem du Schutz suchen kannst.
+<string>Zwei verschiedene Elementwaffen
+<string><COLOR preset="TXT_Accent">Feuer ist effektiv gegen Nerscylla, und<lf>Donner ist effektiv gegen Omega Planetes</COLOR>.<lf>In dieser Quest ist es wichtig, Waffen<lf>mit beiden Elementen dabeizuhaben.
+<string>Omega-Resonanz
+<string>Während dieser Quest manifestiert sich die<lf>Bonusfähigkeit „Omega-Resonanz“ in Form<lf>des <COLOR preset="TXT_Accent">Resonanzprogramms: Nah</COLOR> bzw. <COLOR preset="TXT_Accent">Fern</COLOR><lf>unter den folgenden Bedingungen:
+<string>Resonanzprogramm: Nah
+<string>Wenn Resonanzprogramm: Nah aktiv ist,<lf>begib dich in die <COLOR preset="TXT_Accent">Nähe anderer Jäger</COLOR>,<lf>um deine Affinität zu erhöhen.
+<string>Resonanzprogramm: Fern
+<string>Wenn Resonanzprogramm: Fern aktiv ist,<lf><COLOR preset="TXT_Accent">entferne</COLOR> dich von anderen Jägern,<lf>um deinen Angriff zu erhöhen.
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>Wunden
 <string>Du kannst jetzt alte Dekorationen für<lf>Einschmelzpunkte eintauschen, mit denen<lf>du <COLOR preset="TXT_Accent">neue Dekorationen herstellen</COLOR> kannst.<lf>Wenn du bestimmte Anforderungen erfüllst,<lf>erweitern sich die Optionen.
 <string>Dekorationen und Ausrüstungssets

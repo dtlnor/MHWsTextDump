@@ -29,6 +29,17 @@
 <string>Dziennik Areny
 <string>Oddziały
 <string>Nie udało się uzyskać informacji o oddziale.
+<string>Liczba ukończonych zadań
+<string>Ukończono: {0}
+<string>Użycie broni głównej
+<string>Użycia jako broni głównej: {0}
+<string>Breloki z lokalną fauną
+<string>Brelok: {0}
+<string>Odbitki tuszowe fauny wodnej
+<string>Odbitka tuszowa: {0}
+<string>Wędkarz: {0}
+<string>Rozmiar: <NUMBER {0:F3}>
+<string>Waga: <NUMBER {0:F3}>
 <string>Zapisać zmiany i wyjść z trybu edycji?
 <string>Maksymalna wartość wykresu: {0}
 <string>100
@@ -87,6 +98,7 @@
 <string>{0}/240
 <string>{0}<lf>{1}<lf><lf>Wysłać zgłoszenie?
 <string>Zgłoszono.
+<string>Zgłoszono.<lf>Możesz blokować graczy przez listę członków.
 <string>Wybierz widżet, który chcesz przenieść lub usunąć, lub wybierz wolną przestrzeń, by dodać nowy widżet.
 <string>Przenieś lub usuń ten widżet.
 <string>Przenieś ten widżet. <COLOR preset="TXT_Accent">(Plakietki nie można usunąć)</COLOR>
@@ -95,8 +107,9 @@
 <string><COLOR preset="TXT_Danger">Wybrany widżet można umieścić tylko raz.</COLOR>
 <string><COLOR preset="TXT_Danger">Jeszcze nie możesz umieścić tego widżetu.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie udało się umieścić, ponieważ nie można było uzyskać informacji.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie jesteś członkiem żadnego oddziału.</COLOR>
 <string>Usunąć wybrany widżet?
-<string>Czy na pewno chcesz zresetować rejestr używanego uzbrojenia?<lf><lf>Kategoria: {0}<lf>Typ broni: {1} ({2})<lf>Liczba użyć: {3}
+<string>Czy na pewno chcesz zresetować statystyki uzbrojenia?<lf><lf>Kategoria: {0}<lf>Typ broni: {1} ({2})<lf>Liczba użyć: {3}
 <string>Zresetowanego rejestru używanego uzbrojenia<lf>nie da się przywrócić.<lf>Kontynuować?
 <string>Układ widżetów został zresetowany z powodu błędu.
 <string>Usunięto widżet oddziału<lf>z powodu braku dostępnych informacji.

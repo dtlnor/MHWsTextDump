@@ -378,6 +378,9 @@
 <string>暑さ
 <string>特定のエリアに滞在している間、<lf>時間経過で体力が減少する状態。<lf><lf>主な解除方法：<lf>・<REF Item_IT_166>を使用する<lf>・<REF EnemyText_NAME_EM5005_10_0>の利用
 <string>
+<string><ICON ST_COLABO01_00>最大HPダウン
+<string>一定時間、最大体力が減少している状態。<lf>この状態異常のスタック数（蓄積数）が<lf>増加すると、さらなる最大体力の減少が<lf>発生する。<lf><lf>主な解除方法：<lf>・敵視が集中していない状態（自身に赤い<lf>　ラインが表示されていない状態）での<lf>　一定時間経過
+<string>
 <string>納刀状態
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -571,7 +574,7 @@
 <string>しがみつき中<ICON PL_DODGE><REF RefGeneral_0001_006><ICON PL_BT_RIDE_CANCEL>
 <string>ラギアクルスにしがみついている<lf>状態から離脱する。
 <string>
-<string>豪鬼
+<string><REF TutorialCategory_CATEGORY_30105>
 <string>豪鬼とは
 <string>己が拳を極めんため、<lf>殺意の波動を身に宿し闘い続ける修羅。
 <string>
@@ -606,4 +609,39 @@
 <string><REF ActionGuideDataNameTextCommon_5188>
 <string>納刀中<INPUTMSG MsgGUI600200_00_031>
 <string><INPUTMSG MsgGUI600200_00_045>
+<string>
+<string>『FF14』スペシャルコラボ
+<string>ピクトマンサーとは
+<string>流浪の画家によって生み出された魔法<lf>「<REF ActionGuideDataNameTextCommon_24467>」。<lf>杖を筆へと持ち替え、絵の具に見立てた<lf>魔力をもって想像したものを描き出し、<lf>事象に変換する――その術を極めれば、<lf>存在しない獣を、武器を、環境をも<lf>具現化することができるという。<lf><lf><REF ActionGuideDataNameTextCommon_24467>の使い手たるピクトマンサーに<lf>求められるのは絵心ではない、魔力を<lf>操る才と未来を思い描く想像力なのだ。
+<string>
+<string><REF ActionGuideDataNameTextCommon_24467>
+<string>納刀中<ICON PL_ITEM>
+<string>アイテムスライダーから<lf>選択して使用する魔法。<lf><lf>初回の使用では、モーグリの<lf>「ポンポン」を描き具現化する。<lf><lf>二回目の使用では、モーグリの<lf>「ウィング」を描き具現化する。<lf><lf>三回目の使用では、描いた「ポンポン」と<lf>「ウィング」を組み合わせてモーグリを<lf>具現化し、強力な魔法攻撃を放つ。
+<string>
+<string><REF ActionGuideDataNameTextCommon_29752>
+<string>
+<string><REF ActionGuideDataNameTextCommon_6613>
+<string>
+<string><REF ActionGuideDataNameTextCommon_3529>
+<string>
+<string>暗黒騎士とは
+<string>見捨てられた者を護るため、果たされぬ<lf>正義を成すため、禁忌をも厭わぬ者たち。<lf>信念のために業を背負い、己の内に闇を<lf>飼い慣らす者たち……<lf>人は彼らを「暗黒騎士」と呼ぶ。<lf><lf>彼らは決して盾を掲げない。<lf>騎士の盾には、権力の象徴たる紋章が<lf>描かれるのだから。<lf>ただ大剣を闇にかざし、磨くのみである。
+<string>
+<string><REF ActionGuideDataNameTextCommon_3530>
+<string>納刀中<ICON PL_ITEM>
+<string>指定防具によるシリーズスキル「ブラック<lf>ナイト」発動中のみ可能なアクション。<lf>アイテムスライダーから選択し使用すると<lf>体力を一定量消費して、あらゆる攻撃を<lf>防ぐバリアを展開する。<lf>バリア展開中の<ICON PL_BT_RIDE_ATTACK_L>入力か、一定時間経過に<lf>よるバリア終了時には「<REF ActionGuideDataNameTextCommon_162>」が自動<lf>発動する。バリアが破壊された場合には<lf>体力をすべて赤ゲージ状態に変換し、<lf>強力な「<REF ActionGuideDataNameTextCommon_31664>」を発動する。<lf>なお、カスタムショートカットへの登録で<lf>抜刀状態からでも使用可能。
+<string>
+<string><REF ActionGuideDataNameTextCommon_162>
+<string><REF ActionGuideDataNameTextCommon_3530>中<ICON PL_BT_RIDE_ATTACK_L>
+<string>
+<string><REF ActionGuideDataNameTextCommon_31664>
+<string>
+<string><ICON ST_COLABO01_01>アンデッド・リデンプション
+<string>「<REF ActionGuideDataNameTextCommon_31664>」発動時に付与される<lf>強化状態。<lf><lf>攻撃を受けても体力ゲージの「赤色部分」<lf>だけは減少せず、防御力も大幅に上昇する<lf>状態が、共に一定時間継続する。<lf> <lf>また、モンスターに継続して攻撃を<lf>当て続けると、体力が少し回復する。<lf>（回復量は武器種によって変動）
+<string>
+<string><ICON ST_COLABO01_03>レゾナンス：ニアー
+<string>指定防具によるシリーズスキル<lf>「オメガレゾナンス」の発動中、<lf>さらに以下の条件を満たすと<lf>付与される強化状態。<lf><lf>自身と他ハンターが一定の距離まで<lf>「近づく」ことで自身の会心率が<lf>上昇する。
+<string>
+<string><ICON ST_COLABO01_04>レゾナンス：ファー
+<string>指定防具によるシリーズスキル<lf>「オメガレゾナンス」の発動中、<lf>さらに以下の条件を満たすと<lf>付与される強化状態。<lf><lf>自身と他ハンターが一定の距離まで<lf>「離れる」ことで自身の攻撃力が<lf>上昇する。
 <string>

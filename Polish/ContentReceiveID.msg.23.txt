@@ -69,11 +69,11 @@
 <string>Nagrody
 <string>Przyjmij tę nagrodę za wydarzenie/kampanię.<lf><lf><BOLD>Oferta wygasa:</BOLD> <DATETIME {0} "hh:mm A DD/MM/YYYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie można<lf>odebrać zawartości.<lf><lf><BOLD>Zawartość:</BOLD><lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}{9}{10}
 <string>Nagroda za udział w walce na czas
-<string>Przyjmij tę nagrodę za udział w walce na czas<lf>{0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
+<string>Przyjmij tę nagrodę za udział w walce na czas<lf>{0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie będzie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
 <string>Nagroda za walkę na czas rangi A
-<string>Przyjmij tę nagrodę za osiągnięcie rangi A<lf>w walce na czas {0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
+<string>Przyjmij tę nagrodę za osiągnięcie rangi A<lf>w walce na czas {0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie będzie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
 <string>Nagroda za miejsce w walce na czas
-<string>Przyjmij tę nagrodę za zajęcie miejsca w rankingu<lf>w walce na czas {0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
+<string>Przyjmij tę nagrodę za zajęcie miejsca w rankingu<lf>w walce na czas {0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie będzie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
 <string>Nagroda za walkę na czas rangi B
 <string>Przyjmij tę nagrodę za osiągnięcie rangi B<lf>w walce na czas {0}.<lf><lf><BOLD>Oferta wygasa: </BOLD><DATETIME {1} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie można<lf>odebrać zawartości.<lf><lf><BOLD>Nagroda:</BOLD><lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}<lf>{10}<lf>{11}
 <string>Pomoc dla łowcy: Pakiet przygotowania
@@ -85,4 +85,22 @@
 <string>Pomoc dla łowcy: Pakiet ulgi
 <string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
 <string>Pomoc dla łowcy: Pakiet zapasów
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>Komunikat o zawartości
+<string>Przyjmij następującą zawartość.<lf><lf><BOLD>Oferta wygasa:</BOLD> <DATETIME {0} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie będzie<lf>można odebrać zawartości.<lf><lf><BOLD>Zawartość:</BOLD><lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}{9}{10}<lf><lf>Uwaga: do zdobycia części zawartości trzeba spełnić określone<lf>wymagania (takie jak ukończenie konkretnych misji pobocznych).<lf>Więcej informacji znajdziesz na stronie internetowej<lf>lub oficjalnych kanałach mediów społecznościowych.
+<string>Bezpłatna zawartość dodatkowa
+<string>Oferujemy wszystkim zawartość z poprzednich wydarzeń i kampanii za darmo.<lf><lf><BOLD>Oferta wygasa:</BOLD> <DATETIME {0} "HH:mm DD.MM.YYYY"> (UTC)<lf>Uwaga: po wygaśnięciu oferty nie będzie można odebrać zawartości.<lf><lf><BOLD>Zawartość:</BOLD><lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}{9}{10}
+<string>MH Championship USA: zestaw gościa
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>MH Festa Francja: zestaw gościa
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>Specjalne zaopatrzenie: Pakiet ekspedycyjny (leczenie)
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>Specjalne zaopatrzenie: Pakiet ekspedycyjny (żywność)
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>Specjalne zaopatrzenie: Pakiet ekspedycyjny (słodycze)
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>Pomoc dla łowcy: Pakiet ekspedycyjny (współpraca)
+<string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}
+<string>Pomoc dla łowcy: Pakiet ekspedycyjny (wsparcie)
 <string>Wysłaliśmy ci pakiet bonusowy.<lf><lf><BOLD>Zawartość:</BOLD><lf>{0}<lf>{1}<lf>{2}<lf>{3}<lf>{4}<lf>{5}<lf>{6}<lf>{7}<lf>{8}<lf>{9}

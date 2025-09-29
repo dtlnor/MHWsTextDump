@@ -5,12 +5,15 @@
 <string>No se ha podido obtener la información.<lf>{0}
 <string>No se ha podido ejecutar por cambio de situación.<lf>{0}
 <string>Conectando...
+<string>Se han actualizado los ajustes.
 <string>Comprobando la conexión al servidor...
 <string>Ha habido un error de comunicación.<lf>{0}
 <string>Ha habido un error de comunicación.<lf>Debes volver al menú principal.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Algunas funciones del modo multijugador online<lf>no estarán disponibles.<lf><lf>Por favor, regístrate en {0}<lf>para acceder a todas las funciones del modo<lf>multijugador online.
 <string>Multijugador online restringido.<lf><lf>Error al obtener información sobre la suscripción<lf>de <PLATMSG RefGeneral_0026><lf>que es necesaria jugar online.
+<string>Error de comunicación.<lf>No se ha podido obtener la información<lf>de suscripción de <PLATMSG RefGeneral_0026>.
+<string>Se ha limitado el multijugador online<lf>porque la información de suscripción de <PLATMSG RefGeneral_0026><lf>no ha podido ser obtenida.
 <string>Esta cuenta no cumple con los requisitos<lf>necesarios para el multijugador online.
 <string>No se ha podido conectar a la red.<lf>Volviendo a la pantalla de título.
 <string>Error al conectar a la red.
@@ -45,6 +48,7 @@
 <string>No puedes compartir sets desde esta cuenta.<lf>{0}
 <string>No se ha podido lanzar la bengala de auxilio.<lf>{0}
 <string>Esta función no está disponible en este momento<lf>debido a tareas de mantenimiento.<lf>Espera un poco e inténtalo de nuevo.<lf>{0}
+<string>Mantenimiento en curso.<lf>No se cargarán los tiempos de finalización.<lf>{0}
 <string>No puedes bloquear a más jugadores, ya que<lf>has alcanzado el número máximo de bloqueados.<lf>{0}
 <string>En este momento se están realizando tareas<lf>de mantenimiento en los servidores.<lf>{0}
 <string>No puedes acceder a las funciones de brigada<lf>desde esta cuenta.<lf>{0}
@@ -53,6 +57,8 @@
 <string>El jugador está desconectado.<lf>{0}
 <string>No puedes unirte a la sala de un jugador<lf>mientras esté en modo un jugador online.<lf>{0}
 <string>No puedes unirte a la misma misión o grupo<lf>vinculado que un jugador bloqueado.<lf>{0}
+<string>No puedes invitar a un jugador que has bloqueado.<lf>{0}
+<string>No puedes seguir a un jugador<lf>que has bloqueado.<lf>{0}
 <string>Se ha perdido la conexión con la sesión.<lf>{0}
 <string>Error al crear la sesión.<lf>{0}
 <string>Error al buscar sesión.<lf>{0}
@@ -64,6 +70,8 @@
 <string>¿Unirse a una sala recomendada?
 <string>¿Unirse a la sala?
 <string>¿Quieres crear un sala privada?
+<string>¿Quieres crear una sala privada accesible<lf>mediante la búsqueda de amigos del cazador<lf>y la búsqueda de ID de sala?
+<string>¿Quieres crear un sala privada accesible<lf>tan solo mediante la búsqueda de ID de sala?
 <string>¿Empezar la partida sin unirte a una sala?<lf>(Puedes unirte a una sala tras empezar la partida).
 <string>Buscar por ID de sala.<lf><lf><COLOR preset="TXT_Accent">Nota: Las IDs de sala constan de ocho<lf>caracteres alfanuméricos, y distinguen<lf>mayúsculas y minúsculas.</COLOR>
 <string>Error al unirse a la sesión: la misión ha terminado.
@@ -71,6 +79,7 @@
 <string>No has podido acceder a la misión,<lf>ya que la contraseña no es correcta.
 <string>¿Quieres salir del entorno vinculado?
 <string>No has podido unirte al entorno vinculado<lf>porque no cumples los requisitos.<lf>{0}
+<string>No te puedes unir al entorno vinculado hasta<lf>que el líder del grupo finalice la misión actual.<lf>{0}
 <string>Uniéndote al grupo vinculado.
 <string>El servidor está ocupado en este momento.<lf>Espera un poco y vuelve a intentarlo.
 <string>El juego interplataforma está activado.
@@ -83,6 +92,10 @@
 <string>Se ha detectado el uso de trampas.<lf>No se puede crear la misión.<lf>{0}
 <string>Se ha detectado el uso de trampas.<lf>No se puede acceder a la misión.<lf>{0}
 <string>Se ha detectado el uso de trampas.<lf>No se puede iniciar la misión.<lf>{0}
+<string>¿Quieres unirte a este grupo vinculado?
+<string>Te has unido al grupo vinculado.
+<string>Introduce la contraseña.
+<string>No te has podido unir al grupo vinculado<lf>porque la contraseña introducida es incorrecta.
 <string><COLOR preset="TXT_Accent">Las funciones comunitarias están actualmente restringidas.</COLOR><lf>Las restricciones finalizarán el: <DATETIME year={0} month={1} day={2} format=" D [de] xMMMM [de] YYYY"> (UTC)<lf>Se ha detectado que tu cuenta ha violado lo siguiente:<lf><COLOR preset="TXT_Accent">{1}</COLOR>.<lf>Como resultado, <COLOR preset="TXT_Accent">se han restringido temporalmente<lf>las características comunitarias</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Por favor, juega siguiendo los Términos de uso.</COLOR>
 <string>Actitud abusiva o disruptiva
 <string>Tipos de comportamientos prohibidos

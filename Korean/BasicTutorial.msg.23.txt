@@ -378,6 +378,9 @@
 <string>더위
 <string>특정 구역에 머무는 동안<lf>시간이 지날수록 체력이 감소하는<lf>상태.<lf><lf>주요 해제 방법:<lf>-<REF Item_IT_166> 사용<lf>-<REF EnemyText_NAME_EM5005_10_0> 이용
 <string>
+<string><ICON ST_COLABO01_00>최대 HP 감소
+<string>일정 시간 최대 체력이 감소한다.<lf>스택 수(축적 수)가 증가하면<lf>최대 체력이 추가로 감소한다.<lf><lf>주요 해제 방법:<lf>-적개심이 집중되지 않았을 때<lf>(자신에게 붉은 선이 표시되지<lf>않았을 때) 일정 시간 경과
+<string>
 <string>납도 상태
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -606,4 +609,39 @@
 <string><REF ActionGuideDataNameTextCommon_5188>
 <string>납도 중 <INPUTMSG MsgGUI600200_00_031>
 <string><INPUTMSG MsgGUI600200_00_045>
+<string>
+<string>"파판14" 스페셜 콜라보
+<string>픽토맨서
+<string>방랑 화가에 의해 탄생한 마법<lf>'<REF ActionGuideDataNameTextCommon_24467>'.<lf>지팡이를 붓으로 바꾸고 물감에 빗댄<lf>마력으로 상상한 것을 그려내어<lf>현실로 바꾸는 기술을 연마하면<lf>존재하지 않는 생물, 무기, 환경도<lf>구현할 수 있다고 한다.<lf><lf><REF ActionGuideDataNameTextCommon_24467> 사용자인 픽토맨서는<lf>단순한 그림 실력이 아닌 마력을<lf>다루는 재능과 미래를 그려내는<lf>상상력을 갖추어야 한다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_24467>
+<string>납도 중 <ICON PL_ITEM>
+<string>아이템 슬라이더에서<lf>선택해 사용하는 마법.<lf><lf>처음 사용할 때는 모그리의<lf>'폼폼'을 그려 구현한다.<lf><lf>두 번째는 모그리의<lf>'날개'를 그려 구현한다.<lf><lf>세 번째는 그려 놓은 '폼폼'과<lf>'날개'를 조합해 모그리를 구현하여<lf>강력한 마법 공격을 가한다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_29752>
+<string>
+<string><REF ActionGuideDataNameTextCommon_6613>
+<string>
+<string><REF ActionGuideDataNameTextCommon_3529>
+<string>
+<string>암흑기사
+<string>버림받은 자를 지키고 다하지 못한<lf>정의를 이루기 위해 금기도<lf>마다하지 않는 자들. 신념을 위해<lf>업을 짊어지고 자신의 내면에 어둠을<lf>길들이는 자들... 사람들은 그들을<lf>'암흑기사'라 부른다.<lf><lf>그들은 절대 방패를 들지 않는다.<lf>기사의 방패에는 권력의 상징인<lf>문장이 새겨져 있기 때문이다.<lf>다만, 대검을 어둠에 치켜들고<lf>연마할 뿐이다.
+<string>
+<string><REF ActionGuideDataNameTextCommon_3530>
+<string>납도 중 <ICON PL_ITEM>
+<string>지정된 방어구로 시리즈 스킬<lf>'흑야' 발동 중에만 가능한 액션.<lf>아이템 슬라이더에서 선택해 사용하면<lf>체력을 일정량 소모해 모든<lf>공격을 막는 보호막을 펼친다.<lf>보호막 전개 중에 <ICON PL_BT_RIDE_ATTACK_L> 입력 또는<lf>일정 시간 후 보호막이 사라질 때<lf>'<REF ActionGuideDataNameTextCommon_162>'을 자동 발동한다.<lf>보호막 파괴 시, 체력을<lf>전부 붉은 게이지 상태로<lf>변환해 강력한 '<REF ActionGuideDataNameTextCommon_31664>'을 발동한다.<lf>또한 커스텀 숏컷에 등록하면<lf>발도 상태에서도 사용 가능.
+<string>
+<string><REF ActionGuideDataNameTextCommon_162>
+<string><REF ActionGuideDataNameTextCommon_3530> 중 <ICON PL_BT_RIDE_ATTACK_L>
+<string>
+<string><REF ActionGuideDataNameTextCommon_31664>
+<string>
+<string><ICON ST_COLABO01_01>송장 구제
+<string>'<REF ActionGuideDataNameTextCommon_31664>' 발동 시 부여되는<lf>강화 상태.<lf><lf>공격을 받아도 체력 게이지의<lf>'붉은 부분'은 감소하지 않으며<lf>방어력도 크게 상승하는 상태가<lf>일정 시간 지속된다.<lf><lf>또한 몬스터에게 계속 공격을<lf>맞히면 체력을 조금 회복한다.<lf>(회복량은 무기 종류에 따라 변동)
+<string>
+<string><ICON ST_COLABO01_03>공명: 근거리
+<string>지정 방어구로 시리즈 스킬<lf>'공명' 발동 중에 다음 조건을<lf>추가로 만족하면 부여되는<lf>강화 상태.<lf><lf>자신과 다른 헌터가 일정 거리까지<lf>'가까워지면' 자신의 회심률이<lf>상승한다.
+<string>
+<string><ICON ST_COLABO01_04>공명: 원거리
+<string>지정 방어구로 시리즈 스킬<lf>'공명' 발동 중에 다음 조건을<lf>추가로 만족하면 부여되는<lf>강화 상태.<lf><lf>자신과 다른 헌터가 일정 거리까지<lf>'멀어지면' 자신의 공격력이<lf>상승한다.
 <string>

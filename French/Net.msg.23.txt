@@ -5,12 +5,15 @@
 <string>Les informations n'ont pas pu être obtenues.<lf>{0}
 <string>Opération impossible en raison<lf>d'un changement de situation.<lf>{0}
 <string>Connexion en cours...
+<string>Les paramètres ont été mis à jour.
 <string>Vérification de la connexion au serveur...
 <string>Une erreur de communication est survenue.<lf>{0}
 <string>Erreur de communication.<lf>Retour à l'écran titre.<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>Certaines fonctionnalités en ligne ne seront pas<lf>disponibles.<lf><lf>Veuillez vous abonner au {0} pour<lf>accéder à toutes les fonctionnalités en ligne.
 <string>Le mode multijoueur en ligne est limité.<lf><lf>Impossible d'obtenir les informations<lf>d'abonnement au "<PLATMSG RefGeneral_0026>",<lf>requises pour jouer en ligne.
+<string>Une erreur de communication est survenue.<lf>Impossible d'obtenir les informations<lf>d'abonnement au <PLATMSG RefGeneral_0026>.
+<string>Le multijoueur en ligne est limité car<lf>les informations d'abonnement au <PLATMSG RefGeneral_0026><lf>n'ont pas pu être obtenues.
 <string>Ce compte ne remplit pas les conditions<lf>nécessaires pour accéder aux fonctionnalités<lf>du mode multijoueur en ligne.
 <string>Connexion au réseau impossible.<lf>Retour à l'écran titre.
 <string>Impossible de se connecter au réseau.
@@ -45,6 +48,7 @@
 <string>Transfert de sets impossible avec ce compte.<lf>{0}
 <string>Échec de l'envoi de la fusée de détresse.<lf>{0}
 <string>Cette fonctionnalité est actuellement<lf>indisponible pour cause de maintenance.<lf>Veuillez réessayer ultérieurement.<lf>{0}
+<string>Maintenance en cours.<lf>Les temps de complétion ne seront pas ajoutés.<lf>{0}
 <string>Vous avez atteint la limite de personnes bloquées<lf>et ne pouvez plus bloquer d'autres joueurs.<lf>{0}
 <string>Les serveurs sont actuellement<lf>en cours de maintenance.<lf>{0}
 <string>Impossible d'accéder aux fonctionnalités<lf>liées aux Clans avec ce compte.<lf>{0}
@@ -53,6 +57,8 @@
 <string>Le joueur est hors ligne.<lf>{0}
 <string>Impossible de rejoindre le lobby d'un joueur<lf>lorsqu'il est en mode solo en ligne.<lf>{0}
 <string>Impossible de rejoindre la même quête ou<lf>le même groupe relié que les membres bloqués.<lf>{0}
+<string>Impossible d'inviter un joueur que vous avez bloqué.<lf>{0}
+<string>Impossible de suivre un joueur<lf>que vous avez bloqué.<lf>{0}
 <string>Vous avez été déconnecté de la session.<lf>{0}
 <string>La création de la session a échoué.<lf>{0}
 <string>La recherche de la session a échoué.<lf>{0}
@@ -64,6 +70,8 @@
 <string>Rejoindre un lobby recommandé ?
 <string>Rejoindre le lobby ?
 <string>Créer un lobby privé ?
+<string>Créer un lobby privé, accessible uniquement via<lf>les lobbys d'amis de chasse ou une recherche<lf>par ID du lobby ?
+<string>Créer un lobby privé, accessible uniquement via<lf>une recherche par ID du lobby ?
 <string>Démarrer le jeu sans rejoindre de lobby ?<lf>(Vous pourrez rejoindre un lobby après avoir démarré le jeu.)
 <string>Veuillez saisir l'ID du lobby.<lf><lf><COLOR preset="TXT_Accent">Attention, les ID de lobby sont constitués<lf>de huit caractères et ils sont sensibles à la casse<lf>(les majuscules et minuscules sont importantes).</COLOR>
 <string>Impossible de rejoindre la session car la quête<lf>est terminée.
@@ -71,6 +79,7 @@
 <string>Impossible de rejoindre la quête car le mot de<lf>passe entré est incorrect.
 <string>Quitter l'environnement relié ?
 <string>Impossible de rejoindre l'environnement relié<lf>car les conditions ne sont pas remplies.<lf>{0}
+<string>Impossible de rejoindre l'environnement relié tant que<lf>le leader du groupe n'a pas terminé la quête en cours.<lf>{0}
 <string>Participation au groupe relié.
 <string>Le serveur est actuellement occupé.<lf>Veuillez réessayer ultérieurement.
 <string>Le crossplay est actuellement activé.
@@ -83,6 +92,10 @@
 <string>Triche détectée.<lf>Impossible de créer la quête.<lf>{0}
 <string>Triche détectée.<lf>Impossible de rejoindre la quête.<lf>{0}
 <string>Triche détectée.<lf>Impossible de lancer la quête.<lf>{0}
+<string>Rejoindre ce groupe relié ?
+<string>Vous avez rejoint le groupe relié.
+<string>Veuillez entrer le code d'accès.
+<string>Impossible de rejoindre le groupe relié.<lf>Le code d'accès renseigné est incorrect.
 <string><COLOR preset="TXT_Accent">Fonctionnalité communautaire actuellement restreinte</COLOR><lf>Levée des restrictions : <DATETIME {0} "D xMMMM YYYY HH:mm"> (UTC)<lf><lf>Votre compte a été identifié responsable de l'infraction<lf>suivante : <COLOR preset="TXT_Accent">{1}</COLOR><lf>En conséquence, <COLOR preset="TXT_Accent">les fonctions communautaires ont été<lf>temporairement restreintes</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Merci de jouer en respectant les conditions d'utilisation.</COLOR>
 <string>Comportement abusif/perturbateur
 <string>Types de comportement interdit

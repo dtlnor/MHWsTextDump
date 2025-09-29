@@ -106,7 +106,7 @@
 <string>Commandes d'appel du Seikret
 <string>Modifier les commandes servant à appeler votre Seikret.
 <string>Type 1
-<string>Utiliser <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL> ou un raccourci de menu<lf>radial personnalisé pour appeler le Seikret.
+<string>Utiliser <INPUTMSG MsgGUI030100_INPUT_00> ou un raccourci de menu<lf>radial personnalisé pour appeler le Seikret.
 <string>Type 2
 <string>En plus des commandes du type 1, appuyer<lf>sur <ICON PL_PT_CALL_KEEP> avec l'arme rengainée appelle votre<lf>Seikret en mode déplacement automatique.
 <string>Type 3
@@ -135,6 +135,8 @@
 <string>Afficher uniquement les objets associés à la<lf>fronde lorsque vous utilisez la barre d'objets<lf>en mode Visée.
 <string>Type 2
 <string>Afficher tous les objets lorsque vous utilisez<lf>la barre d'objets en mode Visée.
+<string>Type 3
+<string>Afficher uniquement les objets spéciaux ou<lf>associés à la fronde lorsque vous utilisez la<lf>barre d'objets en mode Visée.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>Permet d'afficher le curseur de la souris lorsque<lf>des raccourcis clavier sont affichés, et de se<lf>déplacer dans les raccourcis avec la souris.
 <string>Désactiver
 <string>Le curseur de la souris n'apparaît pas lorsque<lf>des raccourcis clavier sont affichés.<lf><COLOR preset="TXT_Accent">*Les raccourcis ne peuvent pas être utilisés<lf>avec la souris.</COLOR>
+<string>Sensibilité de la souris
+<string>Ajuster la sensibilité de la souris.<lf><COLOR preset="TXT_Accent">(Ce paramètre affecte le contrôle général de la souris. Si vous le<lf>modifiez, vous devrez peut-être réajuster la sensibilité de la caméra.)</COLOR>
 <string>Commandes prioritaires molette de la souris
 <string>Définir les commandes prioritaires pour le défilement<lf>avec la molette de la souris dans les menus.
 <string>Navigation de page prioritaire
@@ -760,6 +764,35 @@
 <string>Régler la luminosité de l'écran.
 <string>Luminosité (HDR)
 <string>Régler la luminosité de l'écran.
+<string>Paramètres de performances
+<string>Ajuster les paramètres liés aux performances<lf>graphiques en jeu.<lf><COLOR preset="TXT_Accent">*Ajustables depuis l'écran titre.</COLOR>
+<string>Définir les performances graphiques pour le gameplay.
+<string>Priorité : Résolution
+<string>Privilégier la résolution au frame rate. Les<lf>graphismes seront en plus haute définition.
+<string>Privilégier la résolution au frame rate.<lf>Les graphismes seront en haute définition,<lf>le ray tracing sera activé et la qualité de<lf>la réflexion et de la réfraction de la lumière<lf>sera améliorée.
+<string>Priorité : Frame rate
+<string>Privilégier le frame rate à la résolution.<lf>Les animations seront plus fluides.
+<string>Privilégier le frame rate à la résolution.<lf>Les animations seront plus fluides.<lf>Désactive le ray tracing.
+<string>Équilibré
+<string>Privilégier le meilleur équilibre<lf>possible entre résolution et frame<lf>rate, en équilibrant le niveau de<lf>détail des graphismes avec la<lf>fluidité de mouvement.
+<string>Privilégier le meilleur équilibre<lf>possible entre résolution et frame<lf>rate, en équilibrant le niveau de<lf>détail des graphismes avec la<lf>fluidité de mouvement. Permet<lf>l'utilisation du ray tracing.
+<string>Mode 120 Hz
+<string>Autoriser ou non un taux de rafraîchissement de 120 Hz.<lf><COLOR preset="TXT_Accent">*Ne concerne que les écrans compatibles 120 Hz.<lf>Vous devez redémarrer le jeu pour appliquer les changements.</COLOR>
+<string>Oui
+<string>Activer le mode 120 Hz pour rendre le jeu plus fluide.<lf><COLOR preset="TXT_Accent">*Ce paramètre ne garantit pas un frame rate à 120 FPS.<lf>Selon les écrans, la résolution de sortie et la<lf>qualité de l'image peuvent être réduites.</COLOR>
+<string>Non
+<string>Désactiver le mode 120 Hz.
+<string>Limite de frame rate
+<string>Définir la limite de frame rate. Limiter le frame rate<lf>peut permettre d'éviter le décalage de rendu.
+<string>60 FPS (limité)
+<string>Limiter le frame rate à 60 FPS.<lf>Ne peut être sélectionné que si l'option<lf><BOLD>Paramètres de performances</BOLD> est réglée<lf>sur <BOLD>Priorité : Frame rate</BOLD>.
+<string>40 FPS (limité)
+<string>Limiter le frame rate à 40 FPS.<lf>Ne peut être sélectionné que si l'option<lf><BOLD>Paramètres de performances</BOLD> est réglée<lf>sur <BOLD>Équilibré</BOLD> et que l'option <BOLD>Mode 120 Hz</BOLD><lf>est activée.
+<string>30 FPS (limité)
+<string>Limiter le frame rate à 30 FPS.<lf>Ne peut être sélectionné que si l'option<lf><BOLD>Paramètres de performances</BOLD> est réglée<lf>sur <BOLD>Priorité : Résolution</BOLD>.
+<string>Limiter le frame rate à 30 FPS.
+<string>Désactivé
+<string>Supprimer la limite de frame rate, ce qui lui<lf>permet de s'adapter à la charge de rendu.
 <string>Synchronisation verticale
 <string>Ajuster la synchronisation verticale.
 <string>Activer
@@ -1455,7 +1488,9 @@
 <string>N'accorde pas de priorité et ne change pas<lf>automatiquement les canaux de chat vocal.<lf>Le changement doit être manuel.
 <string>Ne pas changer automatiquement de canal<lf>de chat. Le changement doit être effectué<lf>manuellement.
 <string>Langue des Felynes
+<string>Langue des Palicos
 <string>Définir la langue parlée par les Felynes.
+<string>Définir la langue parlée par les Palicos.
 <string>Langue des Felynes
 <string>Les Felynes, y compris votre Palico et ceux des autres<lf>joueurs, parlent tous dans la langue des Felynes.<lf><COLOR preset="TXT_Accent">*Ce paramètre peut également être modifié<lf>à la création de personnage.</COLOR>
 <string>Utiliser le type de voix choisi
@@ -1549,6 +1584,16 @@
 <string>Afficher un effet visuel si le talisman équipé<lf>en possède.
 <string>Ne pas afficher
 <string>Ne pas afficher d'effet visuel, même si<lf>le talisman équipé en possède.
+<string>Musique exclusive lors des déplacements
+<string>Définir si une musique exclusive se lance<lf>lorsque vous chevauchez un Seikret équipé<lf>de la tenue Mon petit chocobo.
+<string>Jouer
+<string>Jouer une musique exclusive<lf>lors des déplacements.
+<string>Ne pas jouer
+<string>Ne pas jouer de musique exclusive<lf>lors des déplacements.
+<string>Volume de la musique exclusive (monture)
+<string>Régler le volume de la musique exclusive<lf>qui se lance lorsque vous chevauchez un<lf>Seikret équipé de la tenue Mon petit chocobo.
+<string>Paramètres de musique (tenue chocobo)
+<string>Définir les paramètres de la musique exclusive<lf>qui se lance lorsque vous chevauchez un<lf>Seikret équipé de la tenue Mon petit chocobo.
 <string>Effets de distorsion
 <string>Activer ou désactiver l'affichage d'effets de<lf>distorsion sous l'eau et près de la lave.
 <string>Activés
@@ -1561,3 +1606,29 @@
 <string>Activer l'aide à la visée après le recul<lf>d'un tir.
 <string>Non
 <string>Désactiver l'aide à la visée après le recul<lf>d'un tir.
+<string>Fréquence dialogues Palicos
+<string>Définir la fréquence des dialogues des Palicos.
+<string>Par défaut
+<string>Votre Palico s'exprime à sa guise en fonction<lf>de la situation.<lf><COLOR preset="TXT_Accent">Il s'agit du paramètre par défaut du jeu.</COLOR>
+<string>Timide
+<string>Votre Palico parle moins souvent.
+<string>Progression de l'histoire
+<string>Votre Palico ne parle que lorsque cela est<lf>nécessaire pour la progression de l'histoire.
+<string>Sélect. auto du point de voyage rapide
+<string>Définir si le point de voyage rapide le plus<lf>proche doit être sélectionné automatiquement<lf>quand une destination ou cible est choisie.
+<string>Désactiver
+<string>Désactiver la sélection automatique. Le<lf>premier point de voyage rapide de la liste<lf>sera sélectionné, que vous ayez choisi ou<lf>non une destination ou une cible.
+<string>Activer
+<string>Activer la sélection automatique. Si vous avez<lf>choisi une destination ou une cible, le point<lf>de voyage rapide le plus proche sera alors<lf>sélectionné automatiquement. Si vous n'avez<lf>pas choisi de destination ou de cible, la<lf>première destination de la liste sera<lf>sélectionnée.
+<string>Menus radiaux et raccourcis clavier
+<string>Définir si les menus de raccourcis de clavier<lf>sont liés ou non aux menus radiaux quand<lf>vous accédez aux raccourcis.
+<string>Type 1
+<string>Accéder au menu de raccourcis clavier ne<lf>modifiera que le menu de raccourcis clavier.
+<string>Type 2
+<string>Les menus de raccourcis clavier et radiaux<lf>sont liés. Accéder au menu de raccourcis<lf>clavier modifiera également le menu<lf>radial actif.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

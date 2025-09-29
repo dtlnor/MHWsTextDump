@@ -840,6 +840,8 @@
 <string>À la Cantine du Grand-Camp, vous<lf>pouvez commander les plats des<lf>différents villages, ainsi que des plats<lf>spécifiques aux événements spéciaux.
 <string>La Cantine du Grand-Camp
 <string>Les coupons permettant de manger<lf>à la Cantine peuvent être obtenus<lf>grâce aux bonus de connexion ou en<lf>complétant des requêtes. Ne manquez<lf>aucune occasion d'en récupérer !
+<string>La Cantine du Grand-Camp
+<string>Lorsqu'une personne utilise un coupon<lf>repas, les membres du groupe relié ou de<lf>la quête peuvent profiter du même repas.
 <string>Changer la tenue d'Alma
 <string>Vous pouvez désormais changer la tenue<lf>d'Alma depuis le menu <COLOR preset="TXT_Accent">Apparence et</COLOR><lf><COLOR preset="TXT_Accent">tenues</COLOR>. Aidez-la à développer son style<lf>vestimentaire en modifiant ce qu'elle porte !
 <string>Changer les lunettes d'Alma
@@ -938,12 +940,98 @@
 <string>Vous pouvez empêcher certaines munitions/fioles<lf>d'apparaître dans la barre de munitions/fioles en<lf>choisissant <BOLD>Masquer</BOLD>.
 <string>Masquer certaines munitions/fioles
 <string>Cependant, même si toutes les munitions/fioles<lf>sont masquées ou épuisées, une option utilisable<lf>sera toujours affichée sur la barre en question.
+<string>Musique de monture (tenue chocobo)
+<string>Si la tenue <COLOR preset="TXT_Accent">Mon petit chocobo</COLOR> est<lf>équipée, une musique exclusive se lance<lf>lorsque vous chevauchez votre Seikret.
+<string>Musique de monture (tenue chocobo)
+<string>Activez/désactivez la musique exclusive<lf>de monture ou réglez son volume en<lf>allant dans le menu Options > Audio.
+<string>Festival de la concorde : Veillée des rêves
+<string>Durant les festivités, divers contenus<lf>seront ajoutés au Grand-Camp pour<lf>une durée limitée. N'oubliez pas d'y<lf>faire un tour !
+<string>Chasseur de soutien à durée limitée !
+<string>Durant l'événement, les fusées de<lf>détresse peuvent appeler un Chasseur de<lf>soutien spécial (en fonction de la quête<lf>ou de votre progression).
+<string>Profitez de plats saisonniers !
+<string>Profitez de menus spéciaux à la Cantine<lf>grâce aux coupons Veillée des rêves que<lf>vous obtiendrez via les bonus de connexion<lf>pendant la durée de l'événement !
+<string>Conditions coupon Veillée des rêves
+<string>Les coupons repas classiques permettent<lf>à d'autres membres de profiter d'un repas,<lf>mais seule la personne qui utilise le coupon<lf>aura accès aux plats exclusifs proposés lors<lf>de l'événement.
+<string>Donnez une nouvelle apparence à Alma !
+<string>Une tenue spéciale a été ajoutée pour que<lf>votre assistante prenne part au festival de<lf>la Veillée des rêves. Allez au Grand-Camp<lf>et parlez à Alma pour changer sa tenue !
+<string>De nouvelles Requêtes Spéciales tous les jours !
+<string>Mises à jour quotidiennement, les Requêtes<lf>Spéciales permettent d'obtenir des tickets<lf>Veillée des rêves servant à fabriquer des<lf>équipements spécifiques à l'événement.
+<string>Bonus de connexion supplémentaires !
+<string>Pendant la durée de l'événement, vous<lf>recevrez deux coupons chance par jour<lf>au lieu d'un, et d'autres récompenses<lf>comme des tickets Veillée des rêves.
+<string>Quêtes Événement disponibles !
+<string>Une série de Quêtes Événement à durée<lf>limitée est actuellement disponible ! Bon<lf>nombre d'anciennes Quêtes Événement<lf>font également leur retour.
+<string>Cristal de pictomancien
+<string>Vous avez obtenu un <COLOR preset="TXT_Accent">Cristal de pictomancien</COLOR>.<lf>Si cet objet se trouve dans votre sacoche,<lf>vous pouvez utiliser la <COLOR preset="TXT_Accent">magie picturale</COLOR>.
+<string>Utiliser la magie picturale
+<string>Appuyez sur <ICON PL_ITEM> pour utiliser la magie picturale et<lf>dessiner une image qui attaquera vos ennemis.<lf>Nécessite un temps de recharge.
+<string>Mognum opus
+<string>Combinez des images pour libérer<lf>le puissant sort de magie picturale :<lf><COLOR preset="TXT_Accent">Mognum opus</COLOR>.
+<string>Visualisation des images
+<string>Les images que vous avez dessinées<lf>apparaissent en bas de l'écran. Pour en<lf>savoir plus, consultez les <COLOR preset="TXT_Accent">commandes de base</COLOR>.
+<string>Utiliser le menu radial personnalisé
+<string>Ajoutez la magie picturale au menu radial<lf>personnalisé pour l'utiliser rapidement<lf>et facilement.
+<string>Maîtriser le pouvoir du chevalier noir
+<string>Si le talent bonus de set d'une armure<lf>spécifique est actif, vous pouvez utiliser<lf>l'objet exclusif : <COLOR preset="TXT_Accent">Nuit noirissime</COLOR>.
+<string>Nuit noirissime
+<string>Appuyez sur <ICON PL_ITEM> pour utiliser l'objet et<lf>créer une puissante barrière utilisant<lf>votre vie. Nécessite un temps de recharge.
+<string>Tranchant d'ombre
+<string>Une attaque tranchante vers l'avant se<lf>lance automatiquement si la barrière<lf>disparaît sans avoir été détruite. Lancez-la<lf>immédiatement en appuyant sur <ICON PL_BT_RIDE_ATTACK_L>.
+<string>Crépuscule
+<string>Si la barrière est détruite par une attaque<lf>ennemie, vous lancez une puissante<lf>contre-attaque et bénéficiez d'un <COLOR preset="TXT_Accent">bonus<lf>spécial</COLOR> pendant un certain temps.
+<string>Utiliser le menu radial personnalisé
+<string>Ajoutez Nuit noirissime au menu radial<lf>personnalisé pour l'utiliser même lorsque<lf>votre arme est dégainée. Pour en savoir<lf>plus, consultez les <COLOR preset="TXT_Accent">commandes de base</COLOR>.
+<string>La carte détaillée
+<string>Lorsque vous visitez une région pour<lf>la première fois, explorez-la pour révéler<lf>les différentes zones sur la carte.
+<string>La carte détaillée
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>La carte détaillée
+<string><COLOR preset="TXT_Accent">Liste des voyages rapides</COLOR><lf>Appuyez sur <ICON UI_DECIDE> sur les destinations de la<lf>carte pour vous y rendre instantanément.
+<string>La carte détaillée
+<string><COLOR preset="TXT_Accent">Filtrer les icônes</COLOR><lf>Affiche les points de collecte,<lf>la faune locale, les installations,<lf>les personnes, etc. d'une région.
+<string>La carte détaillée
+<string><COLOR preset="TXT_Accent">Infos environnement</COLOR><lf>Affiche les monstres et événements<lf>actifs d'une région sur la carte.
+<string>La carte détaillée
+<string><COLOR preset="TXT_Accent">Niveau de menace des monstres</COLOR><lf>Des cercles sur la carte indiquent<lf>le niveau de menace des monstres.<lf>Cercles rouges = niveau de danger élevé.
+<string>La carte du monde
+<string>Appuyez sur <ICON UI_MAP3D_OPEN_WORLD_MAP> après avoir ouvert la carte<lf>détaillée pour voir les régions déjà visitées.<lf>Vous pouvez ensuite consulter les Infos<lf>environnement et utiliser le voyage rapide.
+<string>Animations de fin de quête
+<string>Vous pouvez donner la priorité à trois<lf>animations de fin de quête différentes.<lf>(Certaines conditions doivent être<lf>remplies pour qu'elles se lancent.)
+<string>Animations de fin de quête
+<string>Cependant, dans les situations listées<lf>sur la page suivante, ces animations de<lf>fin de quête peuvent ne pas se lancer<lf>même si les conditions sont remplies.
+<string>Animations de fin de quête
+<string>- Lorsque vous terminez une quête principale<lf>- Lorsque vous terminez une enquête de terrain<lf>- Si vous portez certaines pièces d'équipement<lf>- Lorsque vous terminez certaines Quêtes Événement
 <string>Fusion de talismans
 <string>La <COLOR preset="TXT_Accent">fusion de talismans</COLOR> a été ajoutée et<lf>permet de transformer vos talismans<lf>révélés inutiles en objets non révélés.<lf>Quels talismans allez-vous former ?
 <string>Talismans révélés
 <string>Les <COLOR preset="TXT_Accent">talismans révélés</COLOR> ont été ajoutés.<lf>Ces talismans dont la nature a été<lf>révélée ne peuvent pas être améliorés,<lf>mais disposent de divers effets.
 <string>Talismans révélés
 <string>Les talismans révélés peuvent avoir des<lf>talents d'arme et des emplacements de<lf>joyaux en plus des talents d'armure.<lf>Essayez d'en obtenir le plus possible !
+<string>Astuces pour affronter Oméga Planetikos
+<string>Lorsque vous affrontez Oméga Planetikos,<lf>collaborez avec d'autres chasseurs ou<lf>Chasseurs de soutien en <COLOR preset="TXT_Accent">répartissant les<lf>rôles</COLOR>.
+<string>Attirer l'attention de l'ennemi
+<string>Si votre rôle consiste à attirer<lf>l'attention d'Oméga, utilisez une arme<lf>dotée d'un bouclier et équipez le talent<lf><COLOR preset="TXT_Accent">Ultra garde</COLOR>.
+<string>Soigner et soutenir les alliés
+<string>Si votre rôle consiste à soigner et<lf>soutenir vos alliés, équipez des talents<lf>tels que <COLOR preset="TXT_Accent">Cercle de vie</COLOR>, <COLOR preset="TXT_Accent">Carnassier</COLOR> ou<lf><COLOR preset="TXT_Accent">Un pour tous</COLOR>.
+<string>Attaquer
+<string>Si votre rôle consiste à infliger des<lf>dégâts, équipez des talents augmentant<lf>l'attaque. Utilisez des armes dotées de<lf><COLOR preset="TXT_Accent">l'élément foudre</COLOR> pour plus d'efficacité.
+<string>Utilisation des objets efficaces
+<string>Assurez-vous d'avoir des objets <COLOR preset="TXT_Accent">affectant<lf>aussi vos alliés</COLOR>, comme Poudre de vie,<lf>Poudre du démon et Poudre de pierre.
+<string>Activer/désactiver les habiletés
+<string>Activez ou désactivez individuellement<lf>les habiletés de votre Palico. Accédez à<lf>Infos Palico dans le menu de jeu ou<lf>celui de votre tente.
+<string>Se défendre contre l'attaque Delta
+<string>Pour survivre à l'attaque Delta,<lf><COLOR preset="TXT_Accent">abritez-vous grâce au puissant<lf>bouclier créé en éliminant un<lf>clone de Nerscylla</COLOR>.
+<string>Créer un bouclier en priorité
+<string><COLOR preset="TXT_Accent">Concentrez vos attaques sur le clone de<lf>Nerscylla avant que l'attaque Delta ne<lf>soit lancée</COLOR> pour le vaincre et vous<lf>abriter grâce au bouclier créé.
+<string>Utiliser deux armes élémentaires différentes
+<string><COLOR preset="TXT_Accent">La Nerscylla est sensible à la foudre et<lf>Oméga Planetikos au feu</COLOR>. Apporter des<lf>armes dotées des deux éléments est<lf>essentiel lors de cette quête.
+<string>Résonance Oméga
+<string>Au cours de cette quête, le talent bonus<lf>de set <COLOR preset="TXT_Accent">Résonance oméga</COLOR> se manifestera<lf>sous la forme proche ou éloignée dans<lf>les cas suivants :
+<string>Résonance proche
+<string>Lorsque Résonance proche est actif,<lf><COLOR preset="TXT_Accent">rapprochez-vous</COLOR> des autres chasseurs<lf>pour augmenter votre affinité.
+<string>Résonance éloignée
+<string>Lorsque Résonance éloignée est actif,<lf><COLOR preset="TXT_Accent">éloignez-vous</COLOR> des autres chasseurs<lf>pour augmenter votre attaque.
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>Blessures
 <string>Vous pouvez à présent échanger vos<lf>vieux joyaux contre des points de fusion<lf>permettant de <COLOR preset="TXT_Accent">créer de nouveaux joyaux</COLOR>.<lf>Les options s'étoffent à mesure que vous<lf>remplissez les conditions.
 <string>Joyaux et sets d'équipement

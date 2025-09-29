@@ -5,12 +5,15 @@
 <string>获取信息失败。<lf>{0}
 <string>状况已发生变化，无法执行。<lf>{0}
 <string>连接中……
+<string>已更新设置。
 <string>正在确认与服务器的连接……
 <string>发生连接错误。<lf>{0}
 <string>发生通讯错误，将返回标题画面。<lf>{0}
 <string><COLOR FF0000>#Rejected#</COLOR> Net_Common_002
 <string>无法使用在线多人游戏功能。<lf><lf>需加入{0}。
 <string>在线多人游戏功能受限。<lf><lf>无法取得在线多人游戏功能所需的<lf><PLATMSG RefGeneral_0026>加入信息。
+<string>发生连接错误，<lf>无法取得<PLATMSG RefGeneral_0026>的加入信息。
+<string>无法取得<PLATMSG RefGeneral_0026>的加入信息，<lf>在线多人游戏功能受限。
 <string>此账号不满足多人游戏所需条件。
 <string>无法连接至网络，将返回标题画面。
 <string>无法连接至网络。
@@ -45,6 +48,7 @@
 <string>此账号无法共享个人组合。<lf>{0}
 <string>未能发出救难信号。<lf>{0}
 <string>此功能正在维护，请稍后再试。<lf>{0}
+<string>服务器正在维护，<lf>不会上传完成任务的完成时间。<lf>{0}
 <string>屏蔽数量已达到上限，无法屏蔽更多玩家。<lf>{0}
 <string>服务器正在维护。<lf>{0}
 <string>此账号无法使用小队功能。<lf>{0}
@@ -53,6 +57,8 @@
 <string>对象已离线。<lf>{0}
 <string>此玩家处于单人在线模式中，无法加入。<lf>{0}
 <string>无法与已屏蔽的成员参加同一任务或同一连结队伍。<lf>{0}
+<string>无法邀请已屏蔽的玩家。<lf>{0}
+<string>无法关注已屏蔽的玩家。<lf>{0}
 <string>和联机区连接中断，无法继续加入联机区。<lf>{0}
 <string>无法创建联机区。<lf>{0}
 <string>无法搜索联机区。<lf>{0}
@@ -64,6 +70,8 @@
 <string>要加入推荐大厅吗？
 <string>要加入此大厅吗？
 <string>要建立私人大厅吗？
+<string>要创建私人大厅吗？<lf><lf>其他玩家可通过“按猎人好友搜索”<lf>及“按大厅ID搜索”加入。
+<string>要创建私人大厅吗？<lf><lf>其他玩家只可通过“按大厅ID搜索”加入。
 <string>不加入大厅并开始游戏吗？<lf>（游戏开始后也可以加入大厅）
 <string>请输入要搜索的大厅ID。<lf>（由8位字母及数字组成，字母需区分大小写）
 <string>任务已结束，无法加入联机区。
@@ -71,6 +79,7 @@
 <string>密码错误，无法参加任务。
 <string>要脱离当前的环境连结吗？
 <string>尚未满足条件，无法加入环境连结。<lf>{0}
+<string>连结队长结束已承接的任务前，<lf>无法加入环境连结。<lf>{0}
 <string>已加入连结队伍。
 <string>服务器繁忙，请稍后再试。
 <string>此游戏模式支持跨平台游玩。
@@ -83,6 +92,10 @@
 <string>因为检测到违规状况，无法任务化。<lf>{0}
 <string>因为检测到违规状况，无法承接此任务。<lf>{0}
 <string>因为检测到违规状况，无法开始此任务。<lf>{0}
+<string>要加入该连结队伍吗？
+<string>已加入连结队伍。
+<string>请输入密码。
+<string>密码错误，无法加入连结队伍。
 <string><COLOR preset="TXT_Accent">社区功能已受限</COLOR><lf>限制解除时间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC)<lf>由于您的账号出现<COLOR preset="TXT_Accent">{1}</COLOR>，<lf><COLOR preset="TXT_Accent">将暂时限制社区功能，以示警告。</COLOR><lf>{2}<lf><COLOR preset="TXT_Accent">请在游玩时遵守使用条款。</COLOR>
 <string>骚扰行为
 <string>构成骚扰行为的活动

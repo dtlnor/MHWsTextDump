@@ -481,7 +481,7 @@
 <string>集中弱點攻擊
 <string><ICON WP05 PL_AIM>時再按<ICON WP05 PL_ATTACK_SP_B>可使出<COLOR preset="TXT_Accent">集中弱點攻擊</COLOR>。<lf>攻擊命中傷口時會破壞傷口，造成大幅傷害，<lf>並使魔物膽怯。
 <string>集中弱點攻擊時的音色
-<string>集中弱點攻擊的動作期間，只要抓準時機按<lf><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01>或<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>，就能最多觸發五個<lf>音色。
+<string>集中弱點攻擊的動作期間，只要抓準時機按<lf><ICON WP05 PL_ATTACK_00>、<ICON WP05 PL_ATTACK_01>或<ICON WP05 PL_ATTACK_00>＋<ICON WP05 PL_ATTACK_01>，就能最多觸發六個<lf>音色。
 <string>傷口
 <string>不斷擊中魔物的相同部位就會造成<COLOR preset="TXT_Accent">創傷</COLOR>。攻擊<lf><COLOR preset="TXT_Accent">傷口</COLOR>會造成大幅傷害，使用<COLOR preset="TXT_Accent">集中模式</COLOR>就能容易<lf>擊中傷口。
 <string>集中弱點攻擊
@@ -840,6 +840,8 @@
 <string>在大集會所的用餐區，除了可以使用餐券來<lf>享用各個聚落的外送餐點以外，活動舉辦期<lf>間還可以享用限定的特別餐點。
 <string>大集會所的用餐區
 <string>從登入獎勵和獎勵目標的報酬就可以獲得各種<lf>餐券，千萬不要錯過！
+<string>大集會所的用餐區
+<string>此外，只要有獵人使用餐券，同一連結隊伍<lf>或參加同一任務的其他成員也能享用同樣的<lf>餐點。
 <string>變更阿爾瑪服裝
 <string>現在從「變更造型」可以變更阿爾瑪的服裝。<lf>換成煥然一新的造型再出發去探索吧！
 <string>更換眼鏡
@@ -887,9 +889,9 @@
 <string>變更潔瑪服裝
 <string>現在從「變更造型」可以變更潔瑪的服裝。<lf>徹底轉換心情，讓她盡情大展身手吧！
 <string>支援獵人選擇功能
-<string>現在可以選擇支援獵人。在「承接/參加<lf>任務」選擇任務後，再選擇參加成員吧。
+<string>現在可以選擇經救難信號參加任務的支援<lf>獵人。在「承接/參加任務」的「設定」<lf>選擇任務成員吧。
 <string>支援獵人選擇功能
-<string>無法使用選擇功能時，請於任務櫃台的<lf>「設定」確認參加人數上限與多人遊玩<lf>設定。
+<string>無法使用選擇功能時，請於「設定」<lf>確認參加人數上限與多人遊玩設定。
 <string>支援獵人選擇功能
 <string>注意：依任務種類不同，支援獵人各有使用<lf>限制，有些成員無法參加特定任務。
 <string>來自潔瑪的委託：外觀裝備
@@ -938,12 +940,98 @@
 <string>有不想顯示在彈藥/瓶快捷欄的彈藥/瓶時，<lf>可設定為隱藏。
 <string>顯示/隱藏任意彈藥/瓶的功能
 <string>但若顯示在快捷欄的彈藥/瓶為0種時，<lf>會強制自動顯示1種設為隱藏但可使用的<lf>彈藥/瓶。
+<string>裝備陸行鳥騎裝時的背景音樂
+<string>裝備<COLOR preset="TXT_Accent">心心念念專屬陸行鳥騎裝</COLOR>時，<lf>策騎鷺鷹龍期間會播放專用背景音樂。
+<string>裝備陸行鳥騎裝時的背景音樂
+<string>前往設定中的「音效」，就可開關專用背景<lf>音樂，或設定其音量。
+<string>現正舉辦交匯慶典【夢燈之儀】
+<string>慶典期間前往大集會所，就可以享受到各式<lf>各樣的好處。慶典時間有限，記得把握時間<lf>去大集會所看看！
+<string>限時特別支援獵人！
+<string>活動期間內使用救難信號，會有特別的支援獵<lf>人來參加任務。不過本功能可能會因為任務的<lf>種類或遊戲進度而受到限制。
+<string>享用慶典期間特有的餐點吧！
+<string>慶典期間，從登入獎勵可以獲得夢燈餐券。<lf>在用餐區使用，就可以享用慶典期間特有的<lf>餐點！
+<string>夢燈餐券的適用對象
+<string>使用一般餐券時，使用者以外的部分成員也可<lf>用餐，但只有餐券的使用者可享用慶典限定的<lf>餐點。
+<string>為阿爾瑪換上特別服裝吧！
+<string>我們還為編輯者準備了配合夢燈之儀的特別<lf>服裝。想要更換服裝的話，就前往大集會所<lf>和阿爾瑪交談吧！
+<string>限時獎勵目標每天更新！
+<string>限時獎勵目標會每天更新，完成後可以獲得<lf>慶典票【夢燈】，製作慶典特有的裝備。
+<string>已追加額外登入獎勵！
+<string>平常每天的登入獎勵只有一張激運票，慶典<lf>期間每天會增至兩張！另外還有慶典票【夢<lf>燈】等道具。
+<string>活動任務將不斷更新！
+<string>我們更會陸續發布限時的特別活動任務！另外<lf>亦會再發布以前曾發布的活動任務。
+<string>繪靈法師之證
+<string>獲得了<COLOR preset="TXT_Accent">繪靈法師之證</COLOR>。於道具袋內持有<lf>此道具時，就能使用<COLOR preset="TXT_Accent">繪靈魔法</COLOR>道具。
+<string>掌握繪靈魔法
+<string>按<ICON PL_ITEM>使用繪靈魔法，就能將畫出彩繪化作<lf>實體，攻擊對手。每次使用後都需要時間<lf>冷卻。
+<string>繪靈魔法「莫古利激流」
+<string>組合畫出的彩繪，就能發動強大的繪靈魔法<lf><COLOR preset="TXT_Accent">莫古利激流</COLOR>。
+<string>彩繪的進度
+<string>畫出的彩繪可在畫面下方的「畫布量譜」<lf>確認。詳情請參考<COLOR preset="TXT_Accent">基本操作指南</COLOR>。
+<string>利用自訂捷徑
+<string>事先將「繪靈魔法」登錄至自訂捷徑就能<lf>快速使用，非常方便。
+<string>以暗黑騎士的力量與敵人周旋
+<string>發動了指定防具的系列技能，現在可使用專用<lf>道具<COLOR preset="TXT_Accent">至黑之夜</COLOR>。
+<string>暗黑劍「至黑之夜」
+<string>按<ICON PL_ITEM>使用，就會消耗自身體力產生強大的<lf>護盾。每次使用都需要時間冷卻。
+<string>暗黑劍「暗影鋒」
+<string>護盾若未被破壞並自然消失，或者在護盾<lf>展開時按<ICON PL_BT_RIDE_ATTACK_L>，就會對前方發動斬擊。
+<string>暗黑劍「夜昏」
+<string>護盾被敵人攻擊破壞後，角色就會發動強大的<lf>反擊，並在一定時間內進入<COLOR preset="TXT_Accent">特殊強化狀態</COLOR>。
+<string>利用自訂捷徑
+<string>將「至黑之夜」登錄至自訂捷徑，就能在拔刀<lf>狀態下使用。詳情請在<COLOR preset="TXT_Accent">基本操作指南</COLOR>確認。
+<string>原野地圖
+<string>在初次到達的原野探索各個區域後，<lf>就能逐一查看各個區域的地圖。
+<string>原野地圖
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_506>
+<string>原野地圖
+<string><COLOR preset="TXT_Accent">▼快速移動目的地清單</COLOR><lf>在地圖上可確認快速移動的目的地，<lf>再按<ICON UI_DECIDE>便可馬上移動。
+<string>原野地圖
+<string><COLOR preset="TXT_Accent">▼圖示篩選</COLOR><lf>可查看地圖上的採集點、環境生物、<lf>設施櫃台與人物等等。
+<string>原野地圖
+<string><COLOR preset="TXT_Accent">▼環境概要</COLOR><lf>可查看地圖上出現中的魔物與<lf>目前發生的事件。
+<string>原野地圖
+<string><COLOR preset="TXT_Accent">▼魔物危險度</COLOR><lf>危險度在地圖上會以圓形顯示。藍色圓圈的<lf>危險度最低，紅色圓圈的危險度最高。
+<string>全域地圖
+<string>在原野地圖按<ICON UI_MAP3D_OPEN_WORLD_MAP>，便可查看至今去過的所有<lf>原野。在此可查看各地的環境概要或移動至<lf>各地。
+<string>任務完成動畫設定
+<string>可在各個任務完成動畫中設定最多三個<lf>想優先播放的動畫。<lf>（各個動畫設有播放所需條件）
+<string>任務完成動畫設定
+<string>不過在部分情況下，即使符合播放所需條件，<lf>也可能不會播放設定為優先的動畫。詳情請<lf>參照下一頁：
+<string>任務完成動畫設定
+<string>・完成關鍵任務時<lf>・完成實地調查任務時<lf>・穿戴會影響動畫的裝備時<lf>・完成特定活動任務時
 <string>護身符鍊金術
 <string>新增<COLOR preset="TXT_Accent">護身符鍊金術</COLOR>。消耗不需要的鑑定護石，<lf>就可變換成鑑定道具。好好期待鑑定結果吧。
 <string>鑑定護石
 <string>新增<COLOR preset="TXT_Accent">鑑定護石</COLOR>。這是從鑑定道具變化而來的<lf>護石，雖然不能強化，但是性能五花八門。
 <string>鑑定護石
 <string>鑑定護石不單有防具技能，還可能帶有武器<lf>技能或裝飾品鑲嵌槽。收集各式各樣的護石<lf>吧！
+<string>討伐遊星歐米茄的訣竅
+<string>和遊星歐米茄戰鬥時，與支援獵人和其他玩家<lf>的合作非常重要，狩獵期間的<COLOR preset="TXT_Accent">角色分工又更為<lf>關鍵</COLOR>。
+<string>分工一例：吸引敵人注意
+<string>負責吸引歐米茄注意力時，最好使用有盾的<lf>武器，並裝備「防禦強化」等<COLOR preset="TXT_Accent">強化防禦的<lf>技能</COLOR>。
+<string>分工一例：回復並支援夥伴
+<string>負責回復和支援時，用「<COLOR preset="TXT_Accent">體力回復量上升</COLOR>」、<lf>「<COLOR preset="TXT_Accent">快吃</COLOR>」和「<COLOR preset="TXT_Accent">廣域化</COLOR>」等技能，提高對夥伴的<lf>回復效率吧。
+<string>分工一例：積極攻擊
+<string>負責專心攻擊時，就裝備提升攻擊力的技能<lf>吧。<COLOR preset="TXT_Accent">雷屬性的武器</COLOR>也很有效。
+<string>有效利用道具
+<string><COLOR preset="TXT_Accent">對夥伴也有效的道具</COLOR>在討伐期間非常有幫助。<lf>根據情況好好利用吧，例如：生命粉塵、鬼人<lf>粉塵、硬化粉塵。
+<string>開啟/關閉個別支援動作
+<string>現在可開關個別隨從支援動作。在開始選單<lf>或帳篷內選單的「隨從資訊」就可設定。
+<string>三角攻擊的防禦方法
+<string>要抵擋三角攻擊，只能<COLOR preset="TXT_Accent">使用討伐影蜘蛛複製體<lf>之後產生的強大「防護屏障」</COLOR>。
+<string>優先展開防護屏障吧
+<string><COLOR preset="TXT_Accent">在三角攻擊發動前，先集中攻擊影蜘蛛複製<lf>體</COLOR>，然後躲進討伐後發動的防護屏障內吧。
+<string>善用兩種屬性武器吧
+<string><COLOR preset="TXT_Accent">火屬性對影蜘蛛複製體有效，雷屬性則對遊星<lf>歐米茄有效</COLOR>。勝負的關鍵在於帶上兩種屬性<lf>武器，並根據情況切換。
+<string>歐米茄共鳴
+<string>系列技能「<COLOR preset="TXT_Accent">歐米茄共鳴</COLOR>」會在任務期間發動<lf>「近」或「遠」的效果。滿足各自的條件後<lf>效果便會發動。
+<string>共鳴：近
+<string>「共鳴：近」發動時，接近其他獵人至<lf>一定距離後，就會提升自身的會心率。
+<string>共鳴：遠
+<string>「共鳴：遠」發動時，遠離其他獵人至<lf>一定距離後，就會提升自身的攻擊力。
+<string><REF Tips_TITLE_54>
+<string><REF Tips_EXP_54>
 <string>傷口
 <string>現在可以消耗不需要的裝飾品來<COLOR preset="TXT_Accent">鍊製<lf>想要的裝飾品</COLOR>。滿足特定條件後，<lf>可鍊製裝飾品種類會變多。
 <string><REF RefItem_0017_120>與裝備個人組合

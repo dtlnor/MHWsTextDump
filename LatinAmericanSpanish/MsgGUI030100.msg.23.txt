@@ -106,7 +106,7 @@
 <string>Controles para llamar Seikret
 <string>Fija los controles para llamar a tu Seikret.
 <string>Tipo 1
-<string>Llama al Seikret con <ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL><lf>o un atajo personalizado.
+<string>Llama al Seikret con <INPUTMSG MsgGUI030100_INPUT_00><lf>o un atajo personalizado.
 <string>Tipo 2
 <string>Además del tipo 1, presiona <ICON PL_PT_CALL_KEEP><lf>con el arma envainada para llamar al Seikret<lf>en el modo Movimiento automático.
 <string>Tipo 3
@@ -135,6 +135,8 @@
 <string>Ajusta cómo aparecen los objetos de la eslinga<lf>cuando se usa la barra de objetos<lf>en Modo de apuntado.
 <string>Tipo 2
 <string>Todos los objetos aparecen cuando se usa la<lf>barra de objetos en Modo de apuntado.
+<string>Tipo 3
+<string>Solo aparecen objetos de la eslinga u objetos<lf>especiales cuando se usa la barra de objetos<lf>en Modo de apuntado.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_HELP
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_01_13_00
@@ -312,6 +314,8 @@
 <string>Se verá el cursor cuando los atajos<lf>del teclado se muestren y los atajos<lf>se pueden controlar con el mouse.
 <string>Desactivar
 <string>No se verá el cursor del mouse cuando los<lf>atajos del teclado se muestren <COLOR preset="TXT_Accent">(los atajos<lf>no se pueden usar con el mouse)</COLOR>.
+<string>Sensibilidad del mouse
+<string>Ajusta la sensibilidad del movimiento del mouse.<lf><COLOR preset="TXT_Accent">(Este ajuste afecta el control del mouse. Si lo ajustas,<lf>puede que necesites recalibrar la sensibilidad de la cámara).</COLOR>
 <string>Prioridad de rueda del mouse
 <string>Ajusta la prioridad de los controles para la rueda del mouse<lf>en los menús.
 <string>Priorizar navegación de página
@@ -760,6 +764,35 @@
 <string>Ajusta el brillo de la pantalla.
 <string>Brillo (HDR)
 <string>Ajusta el brillo de la pantalla.
+<string>Ajustes de rendimiento
+<string>Configura las opciones gráficas de jugabilidad.<lf><COLOR preset="TXT_Accent">(Se configura desde las opciones de título).</COLOR>
+<string>Configura las opciones gráficas en relación con la jugabilidad.
+<string>Priorizar la resolución
+<string>Concede prioridad a la resolución en vez de<lf>a la tasa de fotogramas. Los gráficos<lf>se mostrarán con mayor definición.
+<string>Configura las opciones para priorizar la<lf>resolución en vez de la tasa de fotogramas.<lf>Los gráficos estarán en alta definición,<lf>se activará el trazado de rayos y se mejorará<lf>tanto la calidad de la reflexión<lf>como la refracción de los rayos.
+<string>Priorizar fotogramas
+<string>Concede prioridad a la tasa<lf>de fotogramas en vez de la resolución.<lf>Tu personaje se moverá y actuará<lf>con mayor fluidez.
+<string>Configura las opciones para priorizar la<lf>tasa de fotogramas en vez de la resolución.<lf>Tu personaje se moverá y actuará con mayor<lf>fluidez. Se desactivará el trazado de rayos.
+<string>Equilibrado
+<string>Configura las opciones dando la misma<lf>importancia a la resolución y a la tasa de<lf>fotogramas, para conseguir un equilibrio<lf>entre el detalle gráfico y la suavidad de<lf>movimiento del personaje.
+<string>Configura las opciones dando la misma<lf>importancia a la resolución y a la tasa de<lf>fotogramas, para conseguir un equilibrio<lf>entre el detalle gráfico y la suavidad de<lf>movimiento del personaje. Habilita el<lf>trazado de rayos.
+<string>Salida a 120 Hz
+<string>Establece si una frecuencia de refresco de 120 Hz<lf><COLOR preset="TXT_Accent">(sólo afecta a las pantallas que admiten 120 Hz.<lf>Reinicia el juego para reflejar los cambios.)</COLOR>.
+<string>Sí
+<string>Activa la salida a 120 Hz, lo que podría<lf>resultar en una mejora de la calidad visual<lf><COLOR preset="TXT_Accent">(esta opción no garantiza una tasa<lf>de imágenes de 120 fps. Dependiendo<lf>de la pantalla, la resolución de<lf>salida y la calidad de la imagen<lf>pueden verse reducidas). </COLOR>
+<string>No
+<string>Desactiva la salida a 120 Hz.
+<string>Límite de fotogramas
+<string>Configura la activación o no del límite de tasa<lf>de fotogramas a una cantidad específica. Activarlo<lf>ayudará a prevenir demoras en el renderizado.
+<string>60 fps (limitado)
+<string>Limita la tasa de fotogramas a 60 fps.<lf>Solo puedes configurarlo si la opción<lf><BOLD>Priorizar fotogramas</BOLD> en <BOLD>Ajustes de rendimiento</BOLD><lf>está activa.
+<string>40 fps (limitado)
+<string>Limita la tasa de fotogramas a 40 fps.<lf>Solo puedes configurarlo si la opción<lf><BOLD>Balanceado</BOLD> en <BOLD>Ajustes de rendimiento</BOLD><lf>está activa y si la <BOLD>Salida a 120 Hz</BOLD><lf>está habilitada.
+<string>30 fps (limitado)
+<string>Limita la tasa de fotogramas a 30 fps.<lf>Solo puedes configurarlo si la opción<lf><BOLD>Priorizar resolución</BOLD> en <BOLD>Ajustes de rendimiento</BOLD><lf>está activa.
+<string>Limita la tasa de fotogramas a 30 fps.
+<string>No
+<string>Elimina el límite de tasa de fotogramas,<lf>lo que permite que esta cambie según<lf>la carga de renderizado.
 <string>Sincronización vertical
 <string>Ajusta la sincronización vertical.
 <string>Activo
@@ -841,7 +874,7 @@
 <string>Esta función permite mejorar la tasa<lf>de fotogramas y superar la tasa máxima<lf>de fotogramas fijada en las opciones<lf>de visualización.<lf><COLOR preset="TXT_Accent">Ajuste solo disponible con tarjetas gráficas<lf>de la serie NVIDIA GeForce RTX 5000<lf>o superior.</COLOR>
 <string>NVIDIA DLSS 4x
 <string>NVIDIA DLSS Auto
-<string>Esta función permite ajustar de forma<lf>dinámica la generación de fotogramas<lf>a "Desactivar" o "2x" según la carga<lf>de la CPU o la GPU.<lf><COLOR preset="TXT_Accent">Ajuste solo disponible con tarjetas gráficas<lf>de la serie NVIDIA GeForce RTX 4000 o superior.</COLOR>
+<string>Esta función permite ajustar de forma dinámica<lf>la generación de fotogramas a "Desactivar"<lf>o "2x" según la carga de la CPU o la GPU.<lf><COLOR preset="TXT_Accent">Ajuste solo disponible con tarjetas gráficas<lf>de la serie NVIDIA GeForce RTX 4000 o superior.</COLOR>
 <string>Modo de escalamiento
 <string>Ajusta la calidad gráfica empleada al escalar.<lf><COLOR preset="TXT_Accent">(Solo disponible con el escalamiento activado).</COLOR>
 <string>NVIDIA DLAA
@@ -1455,7 +1488,9 @@
 <string>No otorga prioridades ni cambia de canal de<lf>chat de voz automáticamente. Solo se puede<lf>cambiar manualmente.
 <string>Los canales del chat no se cambian en forma<lf>automática. Debe hacerse manualmente.
 <string>Idioma Felyne
+<string>Idioma del camarada
 <string>Ajusta el idioma hablado por los camaradas Felyne.
+<string>Ajusta el idioma que hablan los camaradas.
 <string>Idioma Felyne
 <string>Todas las voces de los Felyne, incluida la<lf>del tuyo, usarán el idioma Felyne <COLOR preset="TXT_Accent">(puedes<lf>cambiar este ajuste al crear el personaje)</COLOR>.
 <string>Tipo de voz elegido
@@ -1549,6 +1584,16 @@
 <string>Muestra el efecto visual de un talismán<lf>equipado, si corresponde.
 <string>No mostrar
 <string>No muestra el efecto visual de un talismán<lf>equipado.
+<string>Música exclusiva al montar
+<string>Ajusta si se reproduce música exclusiva al montar<lf>un Seikret equipado con el atuendo My Little Chocobo.
+<string>Reproducir
+<string>Reproducir música exclusiva al montar.
+<string>No reproducir
+<string>No reproducir música exclusiva al montar.
+<string>Vol. música exclusiva al montar
+<string>Ajusta el volumen de la música exclusiva que suena<lf>al montar un Seikret equipado con el atuendo<lf>My Little Chocobo.
+<string>Opciones de música de atuendo de Chocobo
+<string>Ajusta las opciones de música exclusiva que suena<lf>al montar un Seikret equipado con el atuendo<lf>My Little Chocobo.
 <string>Efectos de distorsión
 <string>Elige si mostrar o no un efecto de distorsión<lf>que simula el calor de la lava o entornos<lf>submarinos.
 <string>Activar
@@ -1561,3 +1606,29 @@
 <string>Activa la asistencia de apuntado por<lf>retroceso.
 <string>Desactivar
 <string>Desactiva la asistencia de apuntado por<lf>retroceso.
+<string>Frec. de diálogo del camarada
+<string>Ajusta la frecuencia de diálogo del camarada.
+<string>Predeterminado
+<string>Permite que tu camarada hable en función<lf>de la situación.<lf><COLOR preset="TXT_Accent">Este es el ajuste predeterminado del juego.</COLOR>
+<string>Reservado
+<string>Reduce la frecuencia con la que habla<lf>tu camarada.
+<string>Solo momentos importantes
+<string>Tu camarada Felyne solo hablará cuando sea<lf>necesario según el progreso de la historia.
+<string>Punto de viaje rápido automático
+<string>Ajusta si se elige automáticamente el punto<lf>de viaje rápido más cercano cuando se designa<lf>un destino o un objetivo como punto de ruta.
+<string>Desactivar
+<string>Desactiva la selección automática. Se elegirá<lf>el primer punto de viaje rápido en la parte<lf>superior de la lista, sin importar<lf>si hay un destino u objetivo designado.
+<string>Activar
+<string>Activa la función de selección automática.<lf>Si se designa un destino u objetivo, se usará<lf>automáticamente el punto de viaje rápido<lf>más cercano. Si no se designa nada,<lf>se seleccionará la ubicación en la parte<lf>superior de la lista.
+<string>Cambiar atajos/radial
+<string>Ajusta si los menús de atajos de<lf>teclado se vinculan con menús radiales<lf>cada vez que accedes a tus atajos.
+<string>Tipo 1
+<string>Acceder al menú de atajos del teclado solo<lf>cambiará el menú de atajos del teclado.
+<string>Tipo 2
+<string>Los menús de atajos de teclado y los menús<lf>radiales del control se vincularán. Al acceder<lf>al menú de atajos de teclado, también se<lf>cambiará el menú radial del control activo.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
+<string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>

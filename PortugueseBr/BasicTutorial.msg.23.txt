@@ -378,6 +378,9 @@
 <string>Calor
 <string>Status que faz você perder vida<lf>lentamente em certas áreas.<lf><lf>Geralmente curado ao:<lf>- Consumir Bebidas Geladas<lf>- Coletar Insetos Mantogélidos
 <string>
+<string><ICON ST_COLABO01_00> Penalidade de PV
+<string>Reduz sua vida máxima por um período<lf>específico. Essa redução aumenta ainda<lf>mais conforme você acumula cargas do<lf>efeito de status.<lf><lf>Geralmente curado ao:<lf>- Esperar a duração do efeito enquanto<lf>não é alvo da animosidade do monstro.<lf>(O alvo é indicado por uma linha<lf>vermelha direcionada a ele.)
+<string>
 <string>Estado Embainhado
 <string><INPUTMSG MsgGUI600200_00_025>
 <string><INPUTMSG MsgGUI600200_00_025_01>
@@ -606,4 +609,39 @@
 <string><REF ActionGuideDataNameTextCommon_5188>
 <string><INPUTMSG MsgGUI600200_00_031> com a arma embainhada
 <string><INPUTMSG MsgGUI600200_00_045>
+<string>
+<string>Colaboração Especial FFXIV
+<string>Pictomantes
+<string>A pictomancia é uma escola de magia<lf>criada por uma artista e maga errante<lf>que trocou seu cajado por um pincel<lf>mágico, com o qual dava vida a imagens<lf>abstratas. Mestres dessa arte podem<lf>controlar tons vibrantes de éter para<lf>invocar todos os tipos de feras, armas<lf>e paisagens fictícias. A fonte do poder<lf>de um pictomante não é o seu talento<lf>artístico, mas sim a riqueza de sua<lf>imaginação, com a qual se esforça para<lf>pintar um futuro mais brilhante.
+<string>
+<string><REF ActionGuideDataNameTextCommon_24467>
+<string><ICON PL_ITEM> com a arma embainhada
+<string>Magia utilizável selecionando-a<lf>na Barra de Itens.<lf><lf>Na primeira vez que for usada, você<lf>pinta o pompom de um moogle.<lf><lf>Na segunda vez, você pinta as asas<lf>de um moogle.<lf><lf>Na terceira vez, você combina o pompom<lf>e as asas para dar vida a um moogle,<lf>causando poderoso dano mágico.
+<string>
+<string><REF ActionGuideDataNameTextCommon_29752>
+<string>
+<string><REF ActionGuideDataNameTextCommon_6613>
+<string>
+<string><REF ActionGuideDataNameTextCommon_3529>
+<string>
+<string>Cavaleiros Negros
+<string>Uns poucos valentes que se armam para<lf>defender os oprimidos e ousam levar à<lf>justiça a elite sacrossanta que reside<lf>fora do alcance da lei. Nem mesmo<lf>os sacerdotes e cavaleiros sagrados<lf>podem escapar do seu julgamento.<lf>Párias em sua própria terra, muitos<lf>os chamam de "cavaleiros negros".<lf>Essas sentinelas não carregam escudos<lf>declarando sua lealdade. Em vez disso,<lf>enormes espadas agem como faróis<lf>para guiar os inocentes pela escuridão.
+<string>
+<string><REF ActionGuideDataNameTextCommon_3530>
+<string><ICON PL_ITEM> com a arma embainhada
+<string>Ação disponível apenas quando A Noite<lf>Mais Escura (uma habilidade bônus de<lf>conjunto de uma armadura específica)<lf>estiver ativa. Quando usada na Barra<lf>de Itens, ela consome certa quantia de<lf>vida para criar uma barreira que protege<lf>contra diversos ataques. Enquanto ela<lf>estiver ativa, pressione <ICON PL_BT_RIDE_ATTACK_L> para lançar<lf>Lâmina Sombria. A Lâmina também<lf>será lançada quando a barreira sumir.<lf>Se essa barreira for destruída, sua<lf>barra de vida inteira se tornará vida<lf>recuperável e Cair da Noite ativará.
+<string>
+<string><REF ActionGuideDataNameTextCommon_162>
+<string><ICON PL_BT_RIDE_ATTACK_L> durante A Noite Mais Escura
+<string>
+<string><REF ActionGuideDataNameTextCommon_31664>
+<string>
+<string><ICON ST_COLABO01_01>Redenção dos Mortos-vivos
+<string>Um reforço concedido quando Cair<lf>da Noite é liberado.<lf><lf>Enquanto ativo, a parte vermelha da<lf>sua barra de vida não será reduzida,<lf>mesmo quando sofrer um ataque,<lf>e sua defesa será muito aumentada.<lf><lf>Além disso, atacar monstros repetidas<lf>vezes restaurará um pouco sua vida.<lf>(A quantidade depende do tipo de arma.)
+<string>
+<string><ICON ST_COLABO01_03> Ressonância Local
+<string>Este reforço aumenta a afinidade do seu<lf>caçador quando a Ressonância Omega<lf>(uma habilidade de bônus de conjunto<lf>concedida por uma armadura específica)<lf>está ativa e você e outros caçadores<lf>se movem dentro de uma certa distância<lf>entre si.
+<string>
+<string><ICON ST_COLABO01_04> Ressonância Remota
+<string>Este reforço aumenta o ataque do seu<lf>caçador quando a Ressonância Omega<lf>(uma habilidade de bônus de conjunto<lf>concedida por uma armadura específica)<lf>está ativa e você e outros caçadores<lf>se afastam por uma certa distância.
 <string>
