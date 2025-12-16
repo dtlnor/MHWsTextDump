@@ -371,7 +371,7 @@
 <string>精煉鎧玉
 <string>利用魔物素材就可精煉<COLOR preset="TXT_Accent">鎧玉</COLOR>。獲得的鎧玉種類<lf>與數量會按素材提供的合計精煉值而變化。
 <string>復原強化機械武器
-<string>機械武器的性能可<COLOR preset="TXT_Accent"><REF RefMenu_101_00></COLOR>至最高5個階段。
+<string>機械武器的性能可<COLOR preset="TXT_Accent"><REF RefMenu_101_00></COLOR>至<lf>最高5個階段。
 <string>復原強化機械武器
 <string>使用一定數量的專用素材就能提升<COLOR preset="TXT_Accent">復原階段</COLOR>，<lf>獲得隨機的<COLOR preset="TXT_Accent">復原加成</COLOR>，提升性能。
 <string>強化專用素材的獲得方法
@@ -429,7 +429,7 @@
 <string>實地調查任務與追加報酬
 <string>現在可從進階環境的實地調查任務獲得<COLOR preset="TXT_Accent">追加<lf>報酬</COLOR>。★的數量越多，魔物越強，但也越<lf>容易獲得珍貴的追加報酬。
 <string>實地調查任務與追加報酬
-<string>打開地圖後將浮標移至魔物，或打開「環境<lf>概要」，就可以確認魔物的追加報酬。
+<string>打開地圖後將游標移至魔物，或打開「環境<lf>概要」，就可以確認魔物的追加報酬。
 <string>實地調查任務與追加報酬
 <string>對原野的魔物造成一定傷害（落石等機關造成<lf>的傷害除外），或將地圖上的圖示設為目標，<lf>就能立即開始<COLOR preset="TXT_Accent">實地調查任務</COLOR>。
 <string>實地調查任務的承接限制
@@ -611,7 +611,7 @@
 <string>釣魚的操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>釣魚的操作方法
-<string><COLOR preset="TXT_Accent">控制掙扎的魚</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">收線</COLOR>：<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>釣魚的操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>釣魚的操作方法
@@ -765,7 +765,7 @@
 <string>機械武器的屬性
 <string>三個零件的性能類型都是相同屬性時，就可<lf>獲得更高的屬性值。全都是不同屬性時則會<lf>變成<COLOR preset="TXT_Accent">無屬性</COLOR>機械武器。
 <string>復原強化機械武器
-<string>生產機械武器後可利用專用素材強化其性能。<lf>在工匠處看看<COLOR preset="TXT_Accent">復原強化/分解機械武器</COLOR>吧。
+<string>生產機械武器後可利用專用素材強化其性能。<lf>在工匠處看看<COLOR preset="TXT_Accent">生產/強化機械武器</COLOR>吧。
 <string>享受多人遊玩的樂趣吧
 <string>大廳已開放，現在可和其他玩家多人遊玩。<lf>詳情請參閱遊玩指南。
 <string>大廳和多人遊玩
@@ -977,7 +977,7 @@
 <string>暗黑劍「暗影鋒」
 <string>護盾若未被破壞並自然消失，或者在護盾<lf>展開時按<ICON PL_BT_RIDE_ATTACK_L>，就會對前方發動斬擊。
 <string>暗黑劍「夜昏」
-<string>護盾被敵人攻擊破壞後，角色就會發動強大的<lf>反擊，並在一定時間內進入<COLOR preset="TXT_Accent">特殊強化狀態</COLOR>。
+<string>護盾被攻擊破壞後，角色就會發動強大的<lf>反擊，並在一定時間內進入<COLOR preset="TXT_Accent">特殊強化狀態</COLOR>。
 <string>利用自訂捷徑
 <string>將「至黑之夜」登錄至自訂捷徑，就能在拔刀<lf>狀態下使用。詳情請在<COLOR preset="TXT_Accent">基本操作指南</COLOR>確認。
 <string>原野地圖
@@ -1032,6 +1032,84 @@
 <string>「共鳴：遠」發動時，遠離其他獵人至<lf>一定距離後，就會提升自身的攻擊力。
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>狩獵演習任務
+<string>現在能從自由任務內承接新的<COLOR preset="TXT_Accent">狩獵演習任務</COLOR>。
+<string>狩獵演習任務
+<string>在狩獵演習任務中，目標的出現位置與難度<lf>等條件會固定，也不會出現其他大型魔物。
+<string>狩獵演習任務
+<string>因此獵人可以專心狩獵特定的魔物，也很適合<lf>用來研究戰術。從<COLOR preset="TXT_Accent">自由任務</COLOR>承接，並好好運用<lf>吧。
+<string>現正舉辦交匯慶典【祝謠之儀】
+<string>慶典期間前往大集會所，就可以享受到各式<lf>各樣的好處。慶典時間有限，記得把握時間<lf>去大集會所看看！
+<string>限時特別支援獵人！
+<string>活動期間內使用救難信號，會有特別的支援獵<lf>人來參加任務。不過本功能可能會因為任務的<lf>種類或遊戲進度而受到限制。
+<string>享用慶典期間特有的餐點吧！
+<string>慶典期間，從登入獎勵可以獲得祝謠餐券。<lf>在用餐區使用，就可以享用慶典期間特有的<lf>餐點！
+<string>祝謠餐券的適用對象
+<string>使用一般餐券時，使用者以外的部分成員也可<lf>用餐，但只有餐券的使用者可享用慶典限定的<lf>餐點。
+<string>為阿爾瑪換上特別服裝吧！
+<string>我們還為編輯者準備了配合祝謠之儀的特別<lf>服裝。想要更換服裝的話，就前往大集會所<lf>和阿爾瑪交談吧！
+<string>限時獎勵目標每天更新！
+<string>限時獎勵目標會每天更新，完成後可以獲得<lf>慶典票【祝謠】，製作慶典特有的裝備。
+<string>已追加額外登入獎勵！
+<string>平常每天的登入獎勵只有一張激運票，慶典<lf>期間每天會增至兩張！另外還有慶典票【祝<lf>謠】等道具。
+<string>活動任務將不斷更新！
+<string>我們更會陸續發布限時的特別活動任務！另外<lf>亦會再發布以前曾發布的活動任務。
+<string>巨戟機械武器
+<string>現在可以從巨戟龍身上獲得巨戟變異零件並<lf>用於機械武器，把它們強化成更強的武器了。
+<string>巨戟機械武器
+<string>巨戟機械武器不只具備系列技能和組合技能，<lf>還能發動更強的復原加成。
+<string>強化成巨戟機械武器
+<string>使用三件相同的巨戟變異零件就能把機械武器<lf>強化成巨戟機械武器。強化前的生產加成和復<lf>元加成會獲得保留。
+<string>強化成巨戟機械武器
+<string>武器的基本性能會按使用的巨戟變異零件的<lf><COLOR preset="TXT_Accent">巨戟性能種類</COLOR>而變化。按喜好選擇性能吧。
+<string>強化成巨戟機械武器
+<string>強化成巨戟機械武器時會隨機附加系列技能和<lf>組合技能。如不滿意，之後也可重新附加。
+<string>強化成巨戟機械武器
+<string>巨戟機械武器在復原強化後可發動更強的<lf>加成。在<COLOR preset="TXT_Accent">復原強化巨戟機械武器</COLOR>確認吧。
+<string>復原強化巨戟機械武器
+<string>現在強化巨戟機械武器時可選擇<COLOR preset="TXT_Accent">巨戟復原強化</COLOR><lf>和<COLOR preset="TXT_Accent">重新附加技能</COLOR>。按<ICON UI_LIST_TRIGGER_L1>或<ICON UI_LIST_TRIGGER_R1>就可切換。
+<string>復原強化巨戟機械武器
+<string><COLOR preset="TXT_Accent">巨戟復原強化</COLOR>時可一併強化五個復元強化<lf>欄位，次數不限。另外更有巨戟機械武器<lf>專用的復原加成（發動數量有限）。
+<string>復原強化巨戟機械武器
+<string><COLOR preset="TXT_Accent">巨戟復原強化</COLOR>時，可保留現有的復元強化<lf>種類，重新附加數值，或是重新完全隨機<lf>附加。
+<string>復原強化巨戟機械武器
+<string><COLOR preset="TXT_Accent">重新附加技能</COLOR>時會利用巨戟變異零件重新附加<lf>系列技能和組合技能。巨戟性能種類不會受<lf>影響。
+<string>復原強化巨戟機械武器
+<string>不論是哪種強化，如不滿意結果，均可選擇<lf>不套用結果並維持原狀，但不會歸還已使用<lf>的素材。
+<string>防具極限突破
+<string>現在已經開放能進一步強化防具的「<COLOR preset="TXT_Accent">極限突破<lf>強化</COLOR>」了。選擇想強化的進階防具後，就可<lf>進行特殊的強化。
+<string>防具極限突破
+<string>極限突破可提升防具的鎧玉強化上限，<lf>還有部分防具的裝飾品鑲嵌槽會獲得強化。
+<string>裝飾品鑲嵌槽強化
+<string>稀有度5的防具會有3個鑲嵌槽獲得強化，<lf>稀有度6則會有2個獲得強化。（如強化前<lf>已有Lv3鑲嵌槽，則會強化較少鑲嵌槽）
+<string>增加精煉七彩礦的素材
+<string>現在可以在「<COLOR preset="TXT_Accent">精煉七彩礦</COLOR>」投入<lf>巨戟變異零件了。
+<string>攻擊翼腳使巨戟龍失衡
+<string>不斷攻擊巨戟龍的翼足就能使牠失衡。到時候<lf>不要錯過攻擊背部的機會，把武器打下來吧。
+<string>利用機關造成巨大傷害
+<string>要對巨戟龍造成巨大傷害，可以嘗試利用原野<lf>上的機關。好好觀察周圍，看準時機使用吧。
+<string>為武器充填能量
+<string>要發射集束破龍砲，需要先注入龍乳能量。<lf>把<COLOR preset="TXT_Accent">鬆散的分岔束</COLOR>搬到破龍砲附近並連上，為它<lf>充能吧。
+<string>提升充能速度和威力
+<string>分岔束連接得越多，充能速度越快，威力也越<lf>高。把三條分岔束全部連上，就能以最高速度<lf>充能，並以最高火力發射。
+<string>以龍屬性攻擊減弱強力招式
+<string>不斷對巨戟龍造成傷害，就可減弱其超高威力<lf>的大招。利用龍屬性武器在戰鬥中佔優勢吧。
+<string>接受法比烏斯的援助吧
+<string>如果不斷攻擊巨戟龍，成功減低強力攻擊的<lf>威力，就可以躲在法比烏斯背後撐過攻擊。<lf>找到他並移動到他的背後吧。
+<string>撐過強力攻擊的其他方法
+<string>如果成功減低威力，並裝備著可防禦的武器，<lf>也可以自己防禦撐過攻擊。如果高台尚未被破<lf>壞，也可以走到上面避過攻擊。
+<string>利用特別報酬進一步生產武器
+<string>獲得了<COLOR preset="TXT_Accent">巨戟變異零件</COLOR>，現在可以生產新的特別<lf>武器。之後再去工匠處確認吧。
+<string>針對附有變異零件的部位攻擊
+<string>巨戟龍有部分部位附有變異零件。積極破壞<lf>那些部位，獲得追加報酬吧。
+<string>高難度特殊環境任務
+<string><COLOR preset="TXT_Accent">特殊環境任務</COLOR>是同時狩獵多頭強大個體的<lf>高難度的自由任務。
+<string>完成任務獲得特殊報酬吧
+<string>完成各任務可獲得特別的<COLOR preset="TXT_Accent">名牌</COLOR>。<lf>獲得名牌來證明自己的實力吧！
+<string>多人遊玩中途參加的注意事項
+<string>若中途參加並完成任務，則無法獲得特別<lf>名牌。從任務開始時參加任務吧。
+<string>做好萬全準備再挑戰吧
+<string>所有任務都是高難度任務，需要做好萬全準備<lf>再挑戰。試著完成所有高難度任務吧！
 <string>傷口
 <string>現在可以消耗不需要的裝飾品來<COLOR preset="TXT_Accent">鍊製<lf>想要的裝飾品</COLOR>。滿足特定條件後，<lf>可鍊製裝飾品種類會變多。
 <string><REF RefItem_0017_120>與裝備個人組合

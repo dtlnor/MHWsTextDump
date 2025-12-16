@@ -521,7 +521,7 @@
 <string>Unlike normal performances, Special<lf>Performances will play the unique<lf>Melody Effect associated with the<lf>hunting horn you have equipped.<lf><lf>Once stocked, this melody will not<lf>be overwritten by new melodies.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>A Performance attack effective against<lf>wounds. You can produce up to five<lf>notes with either <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>while Performing.<lf><lf>Playing the notes at the right time will<lf>deal additional damage.
+<string>A Performance attack effective against<lf>wounds. You can produce up to six<lf>notes with either <ICON WP05 PL_ATTACK_00> or <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>while Performing.<lf><lf>Playing the notes at the right time will<lf>deal additional damage.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -559,10 +559,10 @@
 <string>Prevents knockback from attacks.
 <string>
 <string><ICON ST_RESIST_GROUND> Environmental Damage Negated
-<string>Nullifies damage taken from lava or<lf>spiked terrain, also prevents negative<lf>effects from intense heat or cold.
+<string>Nullifies damage taken from lava or<lf>spiked terrain, also prevents negative<lf>effects from intense heat or cold.<lf><lf>Damage from abyssal lava is only<lf>lessened, however, and cannot be<lf>nullified.
 <string>
 <string><ICON ST_RESIST_MUD> Aquatic/Oilsilt Mobility
-<string>Prevents being slowed by deep water<lf>or oilsilt. Also nullifies effects from<lf>waves created by monsters.
+<string>Prevents being slowed by deep water<lf>or oilsilt. Also nullifies effects from<lf>waves created by monsters.<lf><lf>However, the slowing effects of <BOLD>heavy<lf>oil</BOLD> are only reduced, and cannot be<lf>completely nullified.
 <string>
 <string><ICON ST_RESIST_DEBUF> All Ailments Negated
 <string>Nullifies all status ailments.<lf><lf>The HP Penalty ailment introduced<lf>in the FFXIV special collaboration<lf>cannot be nullified.
@@ -1252,8 +1252,8 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> With Red Extract
-<string>With Red Extract stocked, use <ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>on the ground for a Descending Slash<lf>or in the air for a Descending Thrust.<lf>You can maintain your charge while<lf>performing other attacks then follow<lf>up with either of these charged attacks.<lf><lf>Press <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (with all three Extracts<lf>stocked) after a Descending Slash or<lf>Thrust to unleash a powerful finisher.<lf>While the finisher consumes all three<lf>Extracts, your Kinsect will restock it<lf>with Extract it has gathered during<lf>the finisher.
-<string>
+<string>With Red Extract stocked, you can hold <ICON WP10 PL_ATTACK_01><lf>to charge, and the charge will sustain<lf>even while performing other actions.<lf>Release <ICON WP10 PL_ATTACK_01> after a short time to perform<lf>a Descending Slash (if released while<lf>on the ground) or a Descending Thrust<lf>(while in the air). These moves can be<lf>chained into from a variety of other<lf>attacks, and can also be performed<lf>without the need to charge with <ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>.
+<string>Press <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (with all three Extracts<lf>stocked) after a Descending Slash or<lf>Thrust to unleash a powerful finisher.<lf>While the finisher consumes all three<lf>Extracts, your Kinsect will restock it<lf>with Extract it has gathered during<lf>the finisher.
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
 <string>

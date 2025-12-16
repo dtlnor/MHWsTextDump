@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Estende o alcance.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Estende muito o alcance.
+<string>Estende muito o alcance crítico<lf>e aumenta o poder dos ataques<lf>realizados em alcance crítico.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>+5% de dano causado quando<lf>a barra de fio estiver amarela ou<lf>abaixo.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Diminui muito o impacto dos ataques<lf>e reduz o consumo de vigor em 50%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Reduz o dano sofrido em 30%.
+<string>Reduz o dano sofrido em 10%<lf>e mais 20% ao atender certas<lf>condições.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Reduz o dano sofrido em 50%.
+<string>Reduz o dano sofrido em 20%<lf>e mais 30% ao atender certas<lf>condições.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Reduz o dano sofrido em 80%.
+<string>Reduz o dano sofrido em 30%<lf>e mais 50% ao atender certas<lf>condições.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>Ataque +5% enquanto ativa.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Evita flagelo de explosão.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Anula os efeitos de locais<lf>lamacentos e evita que você sofra<lf>lentidão na água ou em limóleo.
+<string>Anula os efeitos de locais lamacentos,<lf>a lentidão na água ou em limóleo, e<lf>reduz a lentidão em óleo pesado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Também anula os efeitos das ondas.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Tostador II
 <string>Aumenta o dano adicional de fogo<lf>após acertar um ataque.
 <string>Armadura Infalível I
-<string>Reduz o dano recebido em 5% quando<lf>sua vida está cheia.
+<string>Reduz o dano recebido em 20% quando<lf>sua vida está cheia.
 <string>Armadura Infalível II
-<string>Reduz o dano recebido em 10% quando<lf>sua vida está cheia.
+<string>Reduz o dano recebido em 35% quando<lf>sua vida está cheia.
 <string>Grito de Guerra I
 <string>Aumenta um pouco o ataque dos aliados por um<lf>tempo ao usar o gesto <BOLD>Rumo à Vitória!</BOLD> Afeta<lf>muito Caçadores de Suporte e Amigatos.
 <string>Grito de Guerra II
@@ -816,6 +816,10 @@
 <string>Durante o Feitissonho, adiciona itens<lf>especiais a prêmios de missão. (Sem<lf>efeito ao entrar no meio da missão.)
 <string>Dádiva do Feitissonho II
 <string>Durante o Feitissonho, adiciona itens<lf>especiais a prêmios de missão e<lf>aumenta muito o ataque e a defesa.
+<string>Dádiva do Ilumicanto I
+<string>Durante o Ilumicanto, adiciona itens<lf>especiais a prêmios de missão. (Sem<lf>efeito ao entrar no meio da missão.)
+<string>Dádiva do Ilumicanto II
+<string>Durante o Ilumicanto, adiciona itens<lf>especiais a prêmios de missão e<lf>aumenta muito o ataque e a defesa.
 <string>Satsui no Hado
 <string>Aumenta o poder das ações especiais.<lf>O Drive Impact causa ataque inibidor,<lf>que melhora mais quando acertado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Ativa o efeito da habilidade.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Ativa o efeito da habilidade.<lf>(Não será ativado novamente por<lf>um período de tempo definido.)
+<string>Ativa o efeito da habilidade.<lf>(Há tempo de recarga após uso, mas<lf>ainda pode infligir dano próprio.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Ativa o efeito da habilidade.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>No início da missão: Ressonância<lf>Local e Remota alternam, aumentando<lf>o ataque ou a afinidade de acordo.
 <string>Ressonância II
 <string>Aumenta o efeito de Ressonância I e<lf>o efeito da habilidade de arma Escudo<lf>Sintético ou o efeito da Sinergia.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>Ativa o efeito da habilidade.
+<string>Hostilidade Mútua I
+<string>Aumenta o ataque elemental quando<lf>monstros grandes se enfurecem.
+<string>Hostilidade Mútua II
+<string>Aumenta o efeito do nível I e concede<lf>barreira temporária contra dano.<lf>(Reativa a barreira após a recarga.)
 <string>Impulso Explosivo I
 <string>Prolonga a duração da habilidade<lf>Rajada e concede +8 de ataque<lf>enquanto ela estiver ativa.
 <string>Impulso Explosivo II
@@ -865,7 +875,7 @@
 <string>Demônio Proteico I
 <string>Concede temporariamente<lf>+15 de ataque após consumir<lf>itens como bife bem passado.
 <string>Demônio Proteico II
-<string>Concede temporariamente<lf>+25 de ataque após consumir<lf>itens como bife bem passado.
+<string>Concede temporariamente<lf>+30 de ataque após consumir<lf>itens como bife bem passado.
 <string>Fôlego Extra I
 <string>Concede uma Barra de Vigor<lf>adicional.
 <string>Fôlego Extra II

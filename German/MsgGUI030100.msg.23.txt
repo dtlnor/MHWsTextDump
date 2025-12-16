@@ -760,9 +760,13 @@
 <string>HDR ist auf unterstützten Geräten automatisch<lf>aktiviert und auf nicht unterstützten Geräten<lf>deaktiviert.
 <string>Deaktiviert
 <string>Die HDR-Ausgabe ist auch auf unterstützten<lf>Geräten deaktiviert.
-<string>Helligkeit
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Bildschirmhelligkeit
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>Passe die Bildschirmhelligkeit an.
-<string>Helligkeit (HDR)
+<string><PLATMSG MsgGUI030100_03_14>
+<string>Bildschirmhelligkeit HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Passe die Bildschirmhelligkeit an.
 <string>Leistungseinstellung
 <string>Lege die Priorität der Grafikleistung für das<lf>Gameplay fest.<lf>(Nur in den Optionen des Hauptmenüs anpassbar.)
@@ -1105,7 +1109,7 @@
 <string>Nicht anzeigen
 <string>Der Monstern zugefügte Schaden wird nicht<lf>angezeigt.
 <string>Gesundheitsbalkenwarnung
-<string>Lege fest, ob der Gesundheitsbalken dich vor<lf>besonders starken Monsterangriffen warnen<lf>soll.
+<string>Lege fest, ob der Gesundheitsbalken dich bei<lf>niedriger Gesundheit oder vor besonders<lf>starken Monsterangriffen warnen soll.
 <string>An
 <string>Der Gesundheitsbalken färbt sich rot und<lf>schlägt wellenförmig aus, kurz bevor Monster<lf>Angriffe einsetzen, die deine Gesundheit auf<lf>Null senken.
 <string>Aus
@@ -1311,6 +1315,8 @@
 <string>Die unbestiegenen Saikrii von anderen<lf>Spielern und Hilfsjägern werden nicht<lf>angezeigt.<lf><COLOR preset="TXT_Accent">(Ausgenommen in manchen Situationen.)</COLOR>
 <string>Aus
 <string>Die unbestiegenen Saikrii von anderen<lf>Spielern und Hilfsjägern werden immer<lf>angezeigt.
+<string>Anzeigen
+<string>Die Saikrii von anderen Spielern und Hilfsjägern<lf>werden immer angezeigt.
 <string>Auto-Erkunden (Saikrii)
 <string>Lege fest, ob dein Saikrii automatisch in den<lf>Auto-Erkunden-Modus übergeht, wenn kein<lf>Wegpunkt gesetzt wurde.
 <string>An
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Konsolenlautsprecher
+<string>Die optimale Audioeinstellung<lf>für Konsolenlautsprecher.
+<string>Tortenmenü-Auswahltyp
+<string>Passt die Steuerung für die Tortenmenü-Auswahl an.
+<string>Typ 1
+<string>Hält das aktuell ausgewählte Menü in der Mitte,<lf>während du <INPUTMSG MsgGUI030100_INPUT_01> in Richtung des neuen Menü<lf>drückst, um es auszuwählen.
+<string>Typ 2
+<string>Hält dich mittig zwischen allen acht Menüs,<lf>während du <INPUTMSG MsgGUI030100_INPUT_01> in Richtung des neuen Menü<lf>drückst, um es auszuwählen.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Bewegungssteuerung (Handheld-Modus)
+<string>Ermöglicht dir im Handheld-Modus den Einsatz<lf>der Bewegungssteuerung, wenn aktiviert, und<lf>gewährt Zugriff auf weitere Einstellungen.
+<string>Controller-Vibrationsintensität 
+<string>Passe die Intensität der Vibrationsfunktion an.
+<string>Schwach
+<string>Mittel (Normal)
+<string>Stark

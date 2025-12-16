@@ -521,7 +521,7 @@
 <string>A differenza delle esibizioni normali,<lf>esibizione speciale eseguirà l'effetto<lf>melodia unico associato al tuo corno<lf>da caccia equipaggiato.<lf><lf>Quando sarà disponibile, questa<lf>melodia non sarà sovrascritta<lf>da melodie nuove.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Un attacco esibizione efficace contro<lf>le ferite. Puoi produrre un massimo di<lf>cinque note con <ICON WP05 PL_ATTACK_00> oppure <ICON WP05 PL_ATTACK_01> oppure<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> durante l'esibizione.<lf><lf>Riprodurre le note al momento giusto<lf>causerà più danni.
+<string>Un attacco esibizione efficace contro<lf>le ferite. Puoi produrre un massimo di<lf>sei note con <ICON WP05 PL_ATTACK_00> oppure <ICON WP05 PL_ATTACK_01> oppure<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> durante l'esibizione.<lf><lf>Riprodurre le note al momento giusto<lf>causerà più danni.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -559,13 +559,13 @@
 <string>Previene le respinte causate dagli attacchi.
 <string>
 <string><ICON ST_RESIST_GROUND> Annulla danni ambientali
-<string>Annulla i danni subiti dalla lava<lf>e dal terreno aguzzo, e protegge<lf>dagli effetti negativi del caldo<lf>o del freddo intenso.
+<string>Annulla i danni subiti dalla lava<lf>e dal terreno aguzzo, e protegge<lf>dagli effetti negativi del caldo<lf>o del freddo intenso.<lf><lf>I danni della lava abissale sono<lf>diminuiti ma non possono essere<lf>completamente annullati.
 <string>
 <string><ICON ST_RESIST_MUD> Mobilità acquatica/fango
-<string>Impedisce di essere rallentati<lf>dalle acque profonde o dal petrolio.<lf>Annulla anche gli effetti delle onde<lf>create dai mostri.
+<string>Annulla gli effetti di rallentamento<lf>delle acque profonde e del petrolio e<lf>gli effetti delle onde create dai mostri.<lf><lf>Gli effetti del petrolio addensato sono<lf>diminuiti ma non possono essere<lf>completamente annullati.
 <string>
 <string><ICON ST_RESIST_DEBUF> <REF MusicSkillDataText_Wp05_38>
-<string>Annulla tutte le alterazioni di stato.
+<string>Annulla tutte le alterazioni di stato.<lf><lf>La penalità ai PV introdotta nella<lf>collaborazione speciale con FFXIV<lf>non può essere annullata.
 <string>
 <string><ICON ST_SPIRIT> <REF MusicSkillDataText_Wp05_17>
 <string>Fornisce una probabilità<lf>di ridurre i danni subiti.
@@ -650,7 +650,7 @@
 <string>Incrementa la difesa fisica<lf>ed elementale.
 <string>
 <string><ICON ST_RESIST_DEBUF> Annulla alterazioni di stato
-<string>Rimuove e previene varie<lf>alterazioni di stato e malus.
+<string>Rimuove e previene varie<lf>alterazioni di stato e malus.<lf><lf>La penalità ai PV introdotta nella<lf>collaborazione speciale con FFXIV<lf>non può essere rimossa o prevenuta.
 <string>
 <string>Combo base
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> con estratto rosso
-<string>Se hai estratti rossi, usa <ICON WP10 PL_ATTACK_01><ICON RELEASE> a terra<lf>per un fendente calante o in aria<lf>per un affondo calante. Puoi preservare<lf>la carica mentre esegui altri attacchi<lf>e concludere la catena con una<lf>di queste mosse caricate.<lf><lf>Premi <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (con i tre estratti rossi)<lf>dopo un fendente o un affondo calante<lf>per scatenare un attacco conclusivo potente.<lf>Consumerai tutti gli estratti, che<lf>il tuo kinsetto rifornirà con quelli<lf>raccolti nell'attacco conclusivo.
+<string>Se hai estratti rossi, tieni premuto <ICON WP10 PL_ATTACK_01><lf>per caricare e rilascia per sferrare<lf>un fendente calante (se a terra)<lf>o un affondo calante (se in aria).<lf>È anche possibile eseguire queste mosse<lf>con <ICON WP10 PL_ATTACK_00> + <ICON WP10 PL_ATTACK_01>. È possibile mantenere la carica<lf>quando si eseguono altre mosse.<lf><lf>Premi <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> (con i tre estratti rossi)<lf>dopo un fendente o un affondo calante<lf>per scatenare un attacco conclusivo potente.<lf>Consumerai tutti gli estratti, che<lf>il tuo kinsetto rifornirà con quelli<lf>raccolti nell'attacco conclusivo.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

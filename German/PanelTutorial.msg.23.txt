@@ -481,7 +481,7 @@
 <string>Fokusangriffe
 <string>Halte <ICON WP05 PL_AIM> und drücke <ICON WP05 PL_ATTACK_SP_B> für einen<lf><COLOR preset="TXT_Accent">Fokusangriff</COLOR>. Trifft der Angriff eine<lf>Wunde, maximiert er sie, verursacht<lf>dabei enormen Schaden und lässt das<lf>Monster zurückschrecken.
 <string>Noten während Fokusangriffen
-<string>Drücke im richtigen Moment während<lf>eines Fokusangriffs <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> oder<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, um bis zu fünf Noten zu spielen.
+<string>Drücke im richtigen Moment während<lf>eines Fokusangriffs <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> oder<lf><ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01>, um bis zu sechs Noten zu spielen.
 <string>Wunden
 <string>Greifst du denselben Körperteil eines<lf>Monsters mehrmals an, verursachst du<lf>eine <COLOR preset="TXT_Accent">Wunde</COLOR>.<lf><lf>Angriffe auf Wunden richten mehr Schaden<lf>an, also nutze den <COLOR preset="TXT_Accent">Fokusmodus</COLOR>, um sie zu<lf>deinem Ziel zu machen.
 <string>Fokusangriffe
@@ -611,7 +611,7 @@
 <string>Angelsteuerung
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Angelsteuerung
-<string><COLOR preset="TXT_Accent">Fisch an der Schnur führen, um die<lf>Kontrolle zurückzuerlangen:</COLOR> <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><lf><COLOR preset="TXT_Accent">Einholen:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Angelsteuerung
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Angelsteuerung
@@ -977,7 +977,7 @@
 <string>Schattenklinge
 <string>Endet die Barriere, ohne zerstört zu<lf>werden, erfolgt automatisch ein<lf>Hiebangriff nach vorn. Der Angriff<lf>kann auch mit <ICON PL_BT_RIDE_ATTACK_L> eingesetzt werden.
 <string>Dämmerung
-<string>Wird die Barriere von einem feindlichen<lf>Angriff zerstört, entfesselst du einen<lf>mächtigen Gegenangriff und erhältst<lf>für gewisse Zeit eine <COLOR preset="TXT_Accent">Sonderstärkung</COLOR>.
+<string>Wird die Barriere von einem Angriff<lf>zerstört, entfesselst du einen mächtigen<lf>Gegenangriff und erhältst für gewisse<lf>Zeit eine <COLOR preset="TXT_Accent">Sonderstärkung</COLOR>.
 <string>Das angepasste Tortenmenü nutzen
 <string>Registriere „Schwärzeste Nacht“ im ange-<lf>passten Tortenmenü, um sie selbst bei<lf>gezogener Waffe einzusetzen. Weitere<lf>Details findest du unter <COLOR preset="TXT_Accent">Grundsteuerung</COLOR>.
 <string>Die Detailkarte
@@ -1032,6 +1032,84 @@
 <string>Wenn Resonanzprogramm: Fern aktiv ist,<lf><COLOR preset="TXT_Accent">entferne</COLOR> dich von anderen Jägern,<lf>um deinen Angriff zu erhöhen.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Jagdübungen
+<string><COLOR preset="TXT_Accent">Jagdübungen</COLOR> gehören nun zu den<lf>Optionalen Quests.
+<string>Jagdübungen
+<string>Während Jagdübungen sind Bedingungen<lf>wie die Startposition des Ziels und der<lf>Schwierigkeitsgrad bereits festgelegt und<lf>es erscheinen keine anderen großen Monster.
+<string>Jagdübungen
+<string>So kannst du dich perfekt auf die Jagd<lf>bestimmter Monster konzentrieren und<lf>das Manövrieren verinnerlichen.<lf>Jagdübungen sind unter <COLOR preset="TXT_Accent">Optionale Quests</COLOR><lf>verfügbar.
+<string>Fest der Eintracht: Lichterglanz
+<string>Während Festen werden der Großen<lf>Stätte besondere Funktionen hinzu-<lf>gefügt. Sie sind nur für eine begrenzte<lf>Zeit verfügbar, also schau vorbei!
+<string>Vorübergehender Hilfsjäger!
+<string>Im Eventzeitraum können Not-Leucht-<lf>zeichen einen besonderen Hilfsjäger rufen.<lf>Dies kann jedoch von der Quest oder<lf>dem Spielfortschritt abhängen.
+<string>Iss das Beste der Saison!
+<string>Löse in der Kantine Lichterglanz-<lf>Gutscheine ein und lass dir zeitlich<lf>limitierte Menüs schmecken.<lf>Lichterglanz-Gutscheine erhältst du<lf>während des Eventzeitraums als<lf>Anmeldebonus.
+<string>Gutscheingültigkeit: Lichterglanz
+<string>Reguläre Essensgutscheine gelten auch für<lf>andere Jäger, limitierte Gerichte aus Event-<lf>zeiträumen gelten aber nur für den Jäger,<lf>der den Gutschein eingelöst hat.
+<string>Wirf Alma in Schale!
+<string>Für deine Feldexpertin wurde spezielle<lf>Lichterglanz-Kleidung angefertigt.<lf>Sprich in der Großen Stätte mit Alma,<lf>um ihre Kleidung zu wechseln!
+<string>Befristete Beutezüge täglich aktualisiert!
+<string>Befristete Beutezüge werden jeden Tag<lf>aktualisiert und versprechen Lichterglanz-<lf>Tickets, mit denen du saisonal limitierte<lf>Ausrüstung herstellen kannst.
+<string>Extra Anmeldeboni!
+<string>Während des Eventzeitraums kannst<lf>du statt einem nun zwei Superglück-<lf>Gutscheine pro Tag sowie Lichterglanz-<lf>Tickets und andere Belohnungen als<lf>Anmeldebonus erhalten.
+<string>Eventquests verfügbar!
+<string>Zeitlich begrenzte Eventquests sind<lf>jetzt verfügbar! Viele vergangene<lf>Eventquests können wiederholt werden.
+<string>Gogma-Artian-Waffen
+<string>Von nun an kannst du Gogma-Materialien,<lf>die du von Gogmazios erhältst, mit Artian-<lf>Waffen kombinieren, um sie in noch<lf>mächtigere Waffen zu verwandeln.
+<string>Gogma-Artian-Waffen
+<string>Gogma-Artian-Waffen gewähren nicht<lf>nur eine Bonus- und eine Gruppen-<lf>fähigkeit, sondern können auch mächtige<lf>Verstärkungsboni aktivieren.
+<string>Gogma-Artian-Waffen herstellen
+<string>Um eine Artian-Waffe zu einer Gogma-<lf>Artian-Waffe aufzubessern, benötigst<lf>du eine Artian-Waffe und drei gleiche<lf>Gogma-Materialien. Die daraus resul-<lf>tierende Waffe behält ihre vorhandenen<lf>Verstärkungsboni bei.
+<string>Gogma-Artian-Waffen herstellen
+<string>Das bestimmende Merkmal der<lf>Gogma-Artian-Waffe richtet sich nach<lf>dem <COLOR preset="TXT_Accent">Gogma-Merkmal</COLOR> der für die Auf-<lf>besserung verwendeten Materialien.<lf>Wähle das Merkmal, das am besten<lf>zu deinem Spielstil passt.
+<string>Gogma-Artian-Waffen herstellen
+<string>Durch Aufbessern einer Waffe zu einer<lf>Gogma-Artian-Waffe erhält diese zwei<lf>zufällige Aktive Fähigkeiten:<lf>eine Bonus- und eine Gruppenfähigkeit.<lf>Du kannst diese Fähigkeiten später mit<lf>weiteren Materialien zurücksetzen.
+<string>Gogma-Artian-Waffen herstellen
+<string>Verstärkungsboni für Gogma-Artian-Waffen<lf>sind sogar noch stärker als die für<lf>gewöhnliche Artian-Waffen. Sieh dir das<lf>Menü <COLOR preset="TXT_Accent">Gogma-Artian-Waffen verstärken</COLOR> in<lf>der Schmiede an, um sie zu verstärken.
+<string>Gogma-Artian-Waffen verstärken
+<string>Unter <BOLD>Gogma-Artian-Waffen verstärken</BOLD><lf>sind jetzt zwei neue Verbesserungs-Reiter<lf>für Gogma-Artian-Waffen verfügbar:<lf><COLOR preset="TXT_Accent">Gogma-Verstärken</COLOR> und <COLOR preset="TXT_Accent">Fähigkeiten<lf>zurücksetzen</COLOR>. Mit <ICON UI_LIST_TRIGGER_L1> und <ICON UI_LIST_TRIGGER_R1> kannst du<lf>zwischen den Kategorien wechseln.
+<string>Gogma-Artian-Waffen verstärken
+<string>Sobald eine Waffe vollständig verstärkt<lf>wurde, kannst du über <COLOR preset="TXT_Accent">Gogma-Verstärken</COLOR><lf>alle ihre Verstärkungsbonus-Slots auf<lf>einmal <BOLD>modifizieren</BOLD>. Manche Slots<lf>aktivieren sogar besondere Verstärkungs-<lf>boni, die besser sind als gewöhnliche.
+<string>Gogma-Artian-Waffen verstärken
+<string><COLOR preset="TXT_Accent">Gogma-Verstärken</COLOR> erlaubt es dir, deine<lf>derzeit aktiven Boni zu <BOLD>modifizieren</BOLD>.<lf>Du kannst entweder den derzeitigen<lf>Bonus-Typ beibehalten und neue<lf>zufällige Werte zuweisen lassen, oder<lf>die Boni komplett zurücksetzen.
+<string>Gogma-Artian-Waffen verstärken
+<string>Im Reiter <COLOR preset="TXT_Accent">Fähigkeiten zurücksetzen</COLOR> kannst<lf>du Gogma-Materialien verwenden, um die<lf>Bonus- und die Gruppenfähigkeit einer<lf>Waffe zurückzusetzen.<lf>Das Gogma-Merkmal hingegen kann nicht<lf>geändert werden.
+<string>Gogma-Artian-Waffen verstärken
+<string>Du kannst wählen, die Ergebnisse von<lf>Rücksetzungen oder Modifikationen nicht<lf>zu übernehmen, und stattdessen die<lf>ursprünglichen Fähigkeiten oder Werte<lf>beizubehalten. Das eingesetzte Material<lf>wird jedoch nicht erstattet.
+<string>Rüstungsveredelung
+<string>Hochrangige Rüstung kann nun <COLOR preset="TXT_Accent">veredelt</COLOR><lf>werden.
+<string>Rüstungsveredelung
+<string>Bei der Veredelung werden die Obergrenzen<lf>für Rüstkugel-Verbesserungen aufgehoben<lf>und die Dekorationsslots einiger Rüstungen<lf>gestärkt.
+<string>Dekorationsslot-Verbesserungen
+<string>Bei Rüstungen der Seltenheit 5 werden<lf>drei Slots verbessert, und bei Rüstungen<lf>der Seltenheit 6 werden zwei Slots ver-<lf>bessert. (Slots der Stufe 3 können nicht<lf>verbessert werden.)
+<string>Erweitertes Orikalzit-Raffinieren
+<string>Beim <COLOR preset=“TXT_Accent“>Raffinieren von Erz</COLOR> kannst du nun auch<lf>Gogma-Materialien verwenden.
+<string>Ziele auf die Flügelarme
+<string>Wiederholte Angriffe auf die Flügelarme<lf>des Gogmazios bringen ihn aus dem<lf>Gleichgewicht. Wenn du ihn zum Taumeln<lf>gebracht hast, nutze die Chance, um den<lf>Ältestenbrecher von seinem Rücken zu<lf>schlagen.
+<string>Viel Schaden mit Umgebungsobjekten
+<string>Im Jagdgebiet für den Gogmazios gibt es<lf>mehrere Interaktionsobjekte, die dem<lf>Drachenältesten großen Schaden zufügen<lf>können. Mach dich mit deiner Umgebung<lf>vertraut und nutze sie zu deinem Vorteil.
+<string>Den Ältestenbrecher laden
+<string>Der Ältestenbrecher erfordert zum<lf>Abschuss Wyvernmilch-Energie. Trage<lf>die <COLOR preset="TXT_Accent">losen Nexus-Stränge</COLOR> zu den Energie-<lf>sockeln am Ältestenbrecher und verbinde<lf>sie, um mit dem Aufladen zu beginnen.
+<string>Ladegeschwindigkeit und -kraft
+<string>Je mehr lose Nexus-Stränge du mit dem<lf>Ältestenbrecher verbindest, desto<lf>schneller und stärker wird das Aufladen.<lf>Wenn alle drei Sockel mit Strängen<lf>verbunden sind, lädt er schnell auf und<lf>erreicht seine maximale Kraft.
+<string>Drachenelement schwächt Angriff
+<string>Wenn du dem Gogmazios kontinuierlich<lf>Schaden zufügst, schwächst du damit<lf>die Kraft seines verheerendsten Spezial-<lf>angriffs. Drachenelement wirkt dabei<lf>am besten.
+<string>Fabius’ Abwehrunterstützung
+<string>Wenn du dem Gogmazios kontinuierlich<lf>genug Schaden zugefügt und seinen<lf>Spezialangriff geschwächt hast, kannst<lf>du hinter Fabius Schutz suchen, um dem<lf>Angriff standzuhalten. Finde ihn und<lf>stelle dich hinter ihn!
+<string>Andere Abwehrstrategien
+<string>Hast du den Gogmazios geschwächt,<lf>kannst du mit einer Waffe, die blocken<lf>kann, seinem Spezialangriff standhalten.<lf>Falls es noch verbliebene Anhöhen gibt,<lf>kannst du dort ebenfalls Schutz suchen.
+<string>Schmiede neue Spezialwaffen
+<string>Du kannst jetzt Spezialwaffen aus den<lf><COLOR preset="TXT_Accent">Gogma-Materialien</COLOR> herstellen, die du als<lf>Spezialbelohnung erhalten hast.<lf><lf>In der Schmiede gibt es weitere Details.
+<string>Ziele auf besondere Teile
+<string>An manchen Körperteilen des Gog-<lf>mazios haften Gogma-Materialien.<lf>Zerstöre diese Teile, um zusätzliche<lf>Materialbelohnungen zu erhalten.
+<string>Kenner: Besondere Umgebungsquests
+<string><COLOR preset="TXT_Accent">Besondere Umgebungsquests</COLOR> sind<lf>Quests für Fortgeschrittene, in denen<lf>du mehrere mächtige Monster auf<lf>einmal jagst.
+<string>Besondere Belohnungen erhalten
+<string>Schließt du diese Quests ab, erhältst du<lf>besondere <COLOR preset="TXT_Accent">Namensplaketten</COLOR> als Belohnung.<lf>Hol sie dir als Beweis deines Könnens!
+<string>Beitritt zu laufenden Quests
+<string>Trittst du der laufenden Quest bei und<lf>schließt sie ab, erhältst du die Namens-<lf>plakette nicht. Sei von Anfang an dabei!
+<string>Bereite dich gut vor
+<string>Alle diese Quests sind sehr schwierig<lf>und erfordern viel Vorbereitung. Viel<lf>Glück dabei, alle abzuschließen.
 <string>Wunden
 <string>Du kannst jetzt alte Dekorationen für<lf>Einschmelzpunkte eintauschen, mit denen<lf>du <COLOR preset="TXT_Accent">neue Dekorationen herstellen</COLOR> kannst.<lf>Wenn du bestimmte Anforderungen erfüllst,<lf>erweitern sich die Optionen.
 <string>Dekorationen und Ausrüstungssets

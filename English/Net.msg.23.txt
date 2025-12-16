@@ -96,6 +96,18 @@
 <string>You joined the Link Party.
 <string>Please enter the passcode.
 <string>Could not join Link Party because<lf>the entered passcode is incorrect.
+<string>Create a lobby using local communication?<lf><lf>Note: You cannot use online communication<lf>during local communication.
+<string>Create a passcode-protected lobby using<lf>local communication?<lf>Create a 4-digit passcode.<lf><lf>Note: You cannot use online communication during local communication.
+<string>Join the lobby?<lf><lf>Note: You cannot use online communication<lf>during local communication.
+<string>Please enter the passcode.
+<string>Could not join the lobby because<lf>the entered passcode is incorrect.
+<string>Could not join the lobby.
+<string>Lobby could not be found.
+<string>End local communication and exit the lobby?<lf><lf>Note: After ending local communication, you will be offline.<lf>To return to online status, access the <COLOR preset="TXT_Accent">Change Lobby Menu</COLOR><lf>in your tent or by talking to your Handler, and use<lf>the online communication features there.
+<string>End local communication and disband the lobby you are hosting?<lf><lf>Note: After ending local communication, you will be offline.<lf>To return to online status, access the <COLOR preset="TXT_Accent">Change Lobby Menu</COLOR><lf>in your tent or by talking to your Handler, and use<lf>the online communication features there.
+<string>A timeout has occurred.<lf>Unable to join the session.<lf>{0}
+<string>This feature cannot be used<lf>during local communication.<lf>{0}
+<string>Would you like to temporarily pause<lf>all network reconnection attempts<lf>and start the game anyway?
 <string><COLOR preset="TXT_Accent">Community functionality is currently restricted.</COLOR><lf>Restrictions will lift: <DATETIME {0} "MMMM D, YYYY HH:mm"> (UTC)<lf><lf>Your account has been found in violation of the<lf>following: <COLOR preset="TXT_Accent">{1}</COLOR>.<lf>As a result, <COLOR preset="TXT_Accent">community functions have been<lf>temporarily restricted</COLOR>.<lf>{2}<lf><COLOR preset="TXT_Accent">Please play in compliance with the Terms of Use.</COLOR>
 <string>Abusive/Disruptive Behavior
 <string>Types of Prohibited Behavior
@@ -134,6 +146,7 @@
 <string>Unable to join because the Link Party feature<lf>has not been unlocked.
 <string>Open the friend invite screen to send<lf>a Link Party invitation?
 <string>Would you like to play Monster Hunter Wilds with me?
+<string>Want to play Monster Hunter Wilds together?
 <string>Would you like to play Monster Hunter Wilds Beta test with me?
 <string>Received an invitation.<lf><COLOR preset="TXT_Accent">(It will appear once the cutscene or loading has<lf>finished, or the Settings Menu has been closed.)</COLOR>
 <string>Unable to join the Link Party because online<lf>features are not currently available.

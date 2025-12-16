@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>適正距離が広くなる
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>適正距離が大幅に広くなる
+<string>適正距離が大幅に広くなる。<lf>適正距離で命中した射撃の<lf>威力が上昇する。
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>斬れ味が黄色以下の時、<lf>与えるダメージ１．０５倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>攻撃の威力を大きく軽減。<lf>スタミナ消費量を５０％軽減。
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>ダメージ軽減３０％
+<string>ダメージを１０％軽減し、<lf>条件を満たした時、さらに２０％軽減
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>ダメージ軽減５０％
+<string>ダメージを２０％軽減し、<lf>条件を満たした時、さらに３０％軽減
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>ダメージ軽減８０％
+<string>ダメージを３０％軽減し、<lf>条件を満たした時、さらに５０％軽減
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>スキル発動中、<lf>攻撃力１．０５倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>爆破やられ状態にならない
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>水場・油泥の移動制限と<lf>濁流の影響を無効化する
+<string>水場・油泥の移動制限と<lf>濁流の影響を無効化し、<lf>重油の移動制限を軽減する
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>さらに波による影響を無効化する
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>灼熱化Ⅱ
 <string>追加で与える火属性ダメージが<lf>上昇する
 <string>無傷の重装Ⅰ
-<string>体力が最大の時、受けるダメージを<lf>５％軽減する
+<string>体力が最大の時、受けるダメージを<lf>２０％軽減する
 <string>無傷の重装Ⅱ
-<string>体力が最大の時、受けるダメージを<lf>１０％軽減する
+<string>体力が最大の時、受けるダメージを<lf>３５％軽減する
 <string>ウォークライⅠ
 <string>ジェスチャー「雄叫び」をした時、一定<lf>時間、周囲の攻撃力が少し上昇。オトモ<lf>とサポートハンターには効果が大きい。
 <string>ウォークライⅡ
@@ -816,6 +816,10 @@
 <string>夢灯の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加される<lf>（クエストの途中からは発動しない）
 <string>地の恵み【夢灯】Ⅱ
 <string>夢灯の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加され、<lf>攻撃力と防御力が大きく上昇する
+<string>地の恵み【祝謡】Ⅰ
+<string>祝謡の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加される<lf>（クエストの途中からは発動しない）
+<string>地の恵み【祝謡】Ⅱ
+<string>祝謡の儀の期間中、クエストの報酬に<lf>特別なアイテムが追加され、<lf>攻撃力と防御力が大きく上昇する
 <string>殺意の波動
 <string>特殊アクションの威力が強化される。<lf>ドライブインパクトで相殺が可能になり<lf>成功すると一定時間さらに強化される。
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>スキル効果発動
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>スキル効果発動<lf>（発動後、一定時間は再発動しない）
+<string>スキル効果発動<lf>（発動後、一定時間は再発動しないが、<lf>溜め攻撃をした時にダメージは受ける）
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>スキル効果発動
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>クエスト開始後、レゾナンス：ファー<lf>もしくはニアーが交互に発動し、条件を<lf>満たすと攻撃力、または会心率が上昇
 <string>レゾナンスⅡ
 <string>レゾナンスⅠの効果と、武器スキル<lf>「シールドオプション」または<lf>「連携プログラム」の効果が上昇
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>スキル効果発動
+<string>宣戦呼応Ⅰ
+<string>戦闘中の大型モンスターが怒ると、<lf>属性攻撃値が上昇する。
+<string>宣戦呼応Ⅱ
+<string>Ⅰの効果が上昇し、一定時間、ダメージ<lf>を防ぐ防壁を得る。（防壁を得る効果は<lf>一定時間経過しないと再発動しません）
 <string>連撃強化Ⅰ
 <string>「連撃」スキルの効果発動時、<lf>有効時間を延長し、基礎攻撃力＋８
 <string>連撃強化Ⅱ
@@ -865,7 +875,7 @@
 <string>蛮勇の食卓Ⅰ
 <string>こんがり肉などのアイテムを食べた時、<lf>一定時間、基礎攻撃力＋１５
 <string>蛮勇の食卓Ⅱ
-<string>こんがり肉などのアイテムを食べた時、<lf>一定時間、基礎攻撃力＋２５
+<string>こんがり肉などのアイテムを食べた時、<lf>一定時間、基礎攻撃力＋３０
 <string>無尽蔵Ⅰ
 <string>追加のスタミナゲージを得る
 <string>無尽蔵Ⅱ

@@ -559,10 +559,10 @@
 <string>攻撃を受けてものけぞらない状態。
 <string>
 <string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
-<string>フィールド環境による暑さや寒さ、<lf>溶岩やトゲ地形から受けるダメージを<lf>無効化している状態。
+<string>フィールド環境による暑さや寒さ、<lf>溶岩やトゲ地形から受けるダメージを<lf>無効化している状態。<lf><lf>ただし、「深淵の溶岩」から受ける<lf>ダメージは軽減のみで無効化できない。
 <string>
 <string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
-<string>水場、油泥での移動低下を受けない状態。<lf>モンスターが発生させる波の影響も無効化<lf>する。
+<string>水場、油泥における移動速度の低下を<lf>無効化している状態。<lf>モンスターが発生させる波の影響も<lf>無効化する。<lf><lf>ただし、「重油」上での移動速度の<lf>低下は無効化できず、軽減のみとなる。
 <string>
 <string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
 <string>全ての状態異常を無効化する状態。<lf><lf>ただし、『FFXIV』スペシャルコラボでの<lf>最大体力が低下する状態異常は無効化<lf>できない。
@@ -1131,7 +1131,7 @@
 <string>武器を変形させモードを切り替える。<lf>変形の際、盾を構えているタイミングに<lf><REF ActionGuideDataNameText_Wp09_m888161664>判定がある。
 <string>
 <string>ガード判定のある攻撃
-<string><REF ActionGuideDataNameText_Wp09_m970370816>の一部の攻撃には<REF ActionGuideDataNameText_Wp09_m888161664>判定が<lf>あり、正面に盾を構えタイミングで攻撃を<lf>受けることで自動的に<REF ActionGuideDataNameText_Wp09_m888161664>してくれる。<lf><lf>そこから<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>で、<lf><REF ActionGuideDataNameText_Wp09_266499504>へ<lf>派生することが可能。
+<string><REF ActionGuideDataNameText_Wp09_m970370816>の一部の攻撃には<REF ActionGuideDataNameText_Wp09_m888161664>判定が<lf>あり、正面に盾を構えたタイミングで<lf>攻撃を受けることで自動的に<REF ActionGuideDataNameText_Wp09_m888161664>する。<lf><lf>そこから<ICON WP09 PL_ATTACK_00><ICON PLUS><ICON WP09 PL_ATTACK_01>で、<lf><REF ActionGuideDataNameText_Wp09_266499504>へ<lf>派生することが可能。
 <string>
 <string>チャージゲージ
 <string>剣で攻撃すると<REF ActionGuideDataNameText_Wp09_1690804608>が蓄積し、<lf>ゲージが黄色以上でチャージを行うと、<lf>ビンを溜められる。<lf><lf><REF ActionGuideDataNameText_Wp09_1690804608>を蓄積し過ぎると攻撃が<lf>弾かれる状態になってしまう。<lf><lf>
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><REF ActionGuideDataNameText_Wp10_m508432000>【赤】状態で<ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>【赤】吸収時に可能になる溜め状態。<lf>一定時間溜めた後<ICON WP10 PL_ATTACK_01><ICON RELEASE>で<lf>地上では<REF ActionGuideDataNameText_Wp10_m851556800>、<lf>空中では<REF ActionGuideDataNameText_Wp10_m295633312>を行う。<lf>各種攻撃中も溜め状態の維持が可能で、<lf><ICON WP10 PL_ATTACK_01><ICON RELEASE>で様々な攻撃からも派生できる。<lf><lf>３エキス吸収状態なら、溜め攻撃後さらに<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>でフィニッシュ攻撃に派生可能。<lf>強化状態が解除されるが、強力な攻撃を<lf>繰り出すことができる。また、このときの<lf><REF RefEquipment_0001_010_0>の攻撃で複数のエキスを採取可能。
+<string>【赤】吸収時に可能になる溜め状態で、<lf>各種行動中もこれを維持できる。<lf>なお、一定時間溜めた後<ICON WP10 PL_ATTACK_01><ICON RELEASE>で<lf>地上では<REF ActionGuideDataNameText_Wp10_m851556800>、<lf>空中では<REF ActionGuideDataNameText_Wp10_m295633312>を行う。<lf>これらは様々な攻撃からも派生可能で、<lf>さらに溜め操作をすることなく<lf><ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>でも繰り出せる。<lf><lf>また、使用後に強化状態は解除されるが<lf>３エキスを吸収状態の<ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>で、一度に<lf>複数エキスを採取する強力な攻撃が可能。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

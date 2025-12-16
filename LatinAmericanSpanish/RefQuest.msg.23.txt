@@ -51,6 +51,7 @@
 <string>Guardar como investigación
 <string>Crear misión
 <string>Aceptar misión
+<string>Comenzar estudio
 <string>¿Quieres gastar {0} <PLURAL {0} "punto" "puntos"> para guardar<lf>como investigación?
 <string>Se guardó como investigación.
 <string><COLOR preset="TXT_Danger">Puntos de gremio insuficientes.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">No se puede usar durante esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">Esta misión no se puede aceptar fuera del Gran centro.</COLOR>
 <string><COLOR preset="TXT_Danger">No se puede usar durante esta misión.</COLOR>
+<string><COLOR preset="TXT_Danger">No se puede publicar esta misión porque aún no está desbloqueada.</COLOR>
 <string>Volver al título
 <string>Reintentar
 <string>Abate a {0}
@@ -101,6 +103,7 @@
 <string>Baúl de tasación (talismanes)
 <string>Los objetos marcados que superen<lf>la capacidad del baúl de equipo se<lf>venderán automáticamente. Consulta<lf>los detalles para más información.
 <string><COLOR preset="TXT_Danger">No se puede recolectar {0} <PLURAL {0} "talisman" "talismanes"><lf>porque el baúl de equipo está lleno.<lf><lf>Selecciona <BOLD>Recolectar todo</BOLD> para vender<lf>automáticamente los objetos marcados.</COLOR>
+<string>Recompensas especiales
 <string>Misión<lf>completada
 <string>Misión<lf>fallida
 <string>Volviendo<lf>a la base
@@ -204,6 +207,7 @@
 <string>¡Comenzó el Festival de la Armonía: Floradanza!
 <string>¡Comenzó el Festival de la Armonía: Chisparranda!
 <string>¡<REF RefGeneral_0029_002> está en camino!
+<string>¡Empezó el Festival de la Armonía: Iluminario!
 <string>La oración de la diva comienza en {0} min.
 <string>La oración de la diva resuena.
 <string>Oración de la diva
@@ -242,6 +246,10 @@
 <string>Los cazadores de apoyo se unirán independientemente de la configuración del multijugador.
 <string>No unirse
 <string>Los cazadores de apoyo no se unirán independientemente de la configuración del multijugador.
+<string>Recordatorio de vale suertudo
+<string>Configura un recordatorio para usar vales suertudos que se envía como notificación de chat importante al inicio de las misiones.
+<string>Desactivar
+<string>Activar
 <string>Detalles adicionales
 <string>Reglas de misiones de desafío abierto<lf>- No se pueden enviar bengalas de auxilio.<lf>- No se puede acceder a una misión si está empezada.<lf>- Los cazadores de apoyo se unirán a la misión desde el principio.
 <string>Reglas de misiones de desafío/de la Arena<lf>- Máximo dos participantes.<lf>- No se pueden enviar bengalas de auxilio.<lf>- No se puede acceder a una misión si está empezada.<lf>- Los cazadores de apoyo se unirán a la misión desde el principio.<lf>- Los camaradas Felyne no pueden unirse a la misión.<lf>- Los efectos de comida <COLOR preset="TXT_Danger">se desactivarán durante<lf>la misión</COLOR>. (Se restablecerán al terminarla).<lf>- Los efectos de estado, como los de los objetos y los efectos<lf>de melodía, <COLOR preset="TXT_Danger">desaparecerán al inicio</COLOR>.<lf><lf>Reglas de misiones de desafío abierto<lf>- No se pueden enviar bengalas de auxilio.<lf>- No se puede acceder a una misión si está empezada.<lf>- Los cazadores de apoyo se unirán a la misión desde el principio.
@@ -270,6 +278,11 @@
 <string>Ascendente
 <string>Descendente
 <string>Recomendado
+<string>Sin contraseña
+<string>Misiones recién iniciadas
+<string>Espacios disponibles
+<string>Quedan menos intentos
+<string>Quedan más intentos
 <string>Eliminar investigación
 <string>¿Eliminar la investigación seleccionada?<lf><lf>Nota: Si la misión sigue en tu <COLOR preset="TXT_Accent">historial de<lf>estudio de campo</COLOR>, el historial también se borrará.
 <string>Investigación eliminada.
@@ -301,3 +314,11 @@
 <string>¿Confirmar equipo?
 <string>Esperando a otros jugadores.
 <string>Puntuación alta
+<string>Última misión jugada
+<string>Disponible: <DATETIME {0} "YYYY/MM/DD HH:mm"> – <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>Publicar
+<string>Buscar por misión de miembros de sala
+<string>Buscar misiones de bengalas de auxilio similares
+<string>Guardar
+<string>Post ({0} restantes)
+<string>Buscar por <EMID {0}>

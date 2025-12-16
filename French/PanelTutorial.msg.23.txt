@@ -481,7 +481,7 @@
 <string>Attaques Focus
 <string>Appuyez sur <ICON WP05 PL_ATTACK_SP_B> en maintenant <ICON WP05 PL_AIM><lf>pour effectuer une <COLOR preset="TXT_Accent">Attaque Focus</COLOR>.<lf>Si l'attaque touche une blessure, elle la<lf>détruit, infligeant une grande quantité<lf>de dégâts et étourdissant l'ennemi.
 <string>Notes pendant les Attaques Focus
-<string>Appuyez sur <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>au bon moment pendant une <COLOR preset="TXT_Accent">Attaque<lf>Focus</COLOR> pour jouer jusqu'à cinq notes.
+<string>Appuyez sur <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>au bon moment pendant une <COLOR preset="TXT_Accent">Attaque<lf>Focus</COLOR> pour jouer jusqu'à six notes.
 <string>Blessures
 <string>Attaquez plusieurs fois la même partie<lf>d'un monstre pour infliger une <COLOR preset="TXT_Accent">blessure</COLOR>.<lf><lf>Le monstre deviendra vulnérable et<lf>vous pourrez lui infliger plus de dégâts.<lf>Utilisez le <COLOR preset="TXT_Accent">mode Focus</COLOR> pour mieux viser<lf>la blessure.
 <string>Attaques Focus
@@ -611,7 +611,7 @@
 <string>Commandes de pêche
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Commandes de pêche
-<string><COLOR preset="TXT_Accent">Gérer la tension</COLOR> : <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Mouliner</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Commandes de pêche
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Commandes de pêche
@@ -765,7 +765,7 @@
 <string>Propriétés des armes Artian
 <string>Si vous choisissez trois fragments ayant<lf>le même type d'élément, les propriétés<lf>élémentaires de l'arme seront améliorées.<lf>Si tous les fragments ont des types<lf>d'élément différents, l'arme créée n'aura<lf><COLOR preset="TXT_Accent">aucune propriété élémentaire</COLOR>.
 <string>Renforcer des armes Artian
-<string>Vous pouvez renforcer les armes Artian avec<lf>des matériaux Artian. Consultez le menu<lf><COLOR preset="TXT_Accent">Gérer les armes Artian</COLOR> à la Forge.
+<string>Vous pouvez renforcer les armes Artian avec<lf>des matériaux Artian. Consultez le menu<lf><COLOR preset="TXT_Accent">Forger/Améliorer armes Artian</COLOR> à la Forge.
 <string>Profiter du jeu en multijoueur
 <string>Vous avez désormais accès aux lobbys et<lf>pouvez jouer en ligne avec d'autres joueurs.<lf>Veuillez consulter le Guide de survie pour<lf>plus d'informations.
 <string>Lobbys et multijoueur
@@ -971,13 +971,13 @@
 <string>Utiliser le menu radial personnalisé
 <string>Ajoutez la magie picturale au menu radial<lf>personnalisé pour l'utiliser rapidement<lf>et facilement.
 <string>Maîtriser le pouvoir du chevalier noir
-<string>Si le talent bonus de set d'une armure<lf>spécifique est actif, vous pouvez utiliser<lf>l'objet exclusif : <COLOR preset="TXT_Accent">Nuit noirissime</COLOR>.
+<string>Si le talent bonus de set de cette armure<lf>spécifique est actif, vous pouvez utiliser<lf>l'objet exclusif : <COLOR preset="TXT_Accent">Nuit noirissime</COLOR>.
 <string>Nuit noirissime
 <string>Appuyez sur <ICON PL_ITEM> pour utiliser l'objet et<lf>créer une puissante barrière utilisant<lf>votre vie. Nécessite un temps de recharge.
 <string>Tranchant d'ombre
 <string>Une attaque tranchante vers l'avant se<lf>lance automatiquement si la barrière<lf>disparaît sans avoir été détruite. Lancez-la<lf>immédiatement en appuyant sur <ICON PL_BT_RIDE_ATTACK_L>.
 <string>Crépuscule
-<string>Si la barrière est détruite par une attaque<lf>ennemie, vous lancez une puissante<lf>contre-attaque et bénéficiez d'un <COLOR preset="TXT_Accent">bonus<lf>spécial</COLOR> pendant un certain temps.
+<string>Si la barrière est détruite par une attaque,<lf>vous lancez une puissante contre-attaque<lf>et bénéficiez d'un <COLOR preset="TXT_Accent">bonus spécial</COLOR> pendant<lf>un certain temps.
 <string>Utiliser le menu radial personnalisé
 <string>Ajoutez Nuit noirissime au menu radial<lf>personnalisé pour l'utiliser même lorsque<lf>votre arme est dégainée. Pour en savoir<lf>plus, consultez les <COLOR preset="TXT_Accent">commandes de base</COLOR>.
 <string>La carte détaillée
@@ -1032,6 +1032,84 @@
 <string>Lorsque Résonance éloignée est actif,<lf><COLOR preset="TXT_Accent">éloignez-vous</COLOR> des autres chasseurs<lf>pour augmenter votre attaque.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Exercices de chasse
+<string>Les <COLOR preset="TXT_Accent">Exercices de chasse</COLOR> ont été ajoutés à la liste<lf>des Quêtes facultatives.
+<string>Exercices de chasse
+<string>Lors des Exercices de chasse, les<lf>conditions comme le lieu initial et la<lf>difficulté des cibles sont verrouillées,<lf>et aucun autre grand monstre n'apparaît.
+<string>Exercices de chasse
+<string>C'est le moyen idéal pour chasser des<lf>monstres spécifiques et étudier<lf>leurs mouvements. Les Exercices<lf>sont disponibles dans les <COLOR preset="TXT_Accent">Quêtes libres</COLOR>.
+<string>Festival de la concorde : Chant des lumières
+<string>Durant les festivités, divers contenus<lf>seront ajoutés au Grand-Camp pour<lf>une durée limitée. N'oubliez pas d'y<lf>faire un tour !
+<string>Chasseur de soutien à durée limitée !
+<string>Durant l'événement, les fusées de<lf>détresse peuvent appeler un Chasseur de<lf>soutien spécial (en fonction de la quête<lf>ou de votre progression).
+<string>Profitez de plats saisonniers !
+<string>Profitez de menus spéciaux à la Cantine<lf>grâce aux coupons Chant des lumières que<lf>vous obtiendrez via les bonus de connexion<lf>pendant la durée de l'événement !
+<string>Utilisation des coupons Chant des lumières
+<string>Les coupons repas classiques permettent<lf>à d'autres membres de profiter d'un repas,<lf>mais seule la personne qui utilise le coupon<lf>aura accès aux plats exclusifs proposés lors<lf>de l'événement.
+<string>Donnez une nouvelle apparence à Alma !
+<string>Une tenue spéciale a été ajoutée pour que<lf>votre assistante prenne part au festival du<lf>Chant des lumières. Allez au Grand-Camp<lf>et parlez à Alma pour changer sa tenue !
+<string>De nouvelles Requêtes Spéciales tous les jours !
+<string>Mises à jour quotidiennement, les Requêtes<lf>Spéciales permettent d'obtenir des tickets<lf>Chant des lumières servant à fabriquer des<lf>équipements spécifiques à l'événement.
+<string>Bonus de connexion supplémentaires !
+<string>Pendant la durée de l'événement, vous<lf>recevrez deux coupons chance par jour<lf>au lieu d'un, et d'autres récompenses<lf>comme des tickets Chant des lumières.
+<string>Quêtes Événement disponibles !
+<string>Une série de Quêtes Événement à durée<lf>limitée est actuellement disponible ! Bon<lf>nombre d'anciennes Quêtes Événement<lf>font également leur retour.
+<string>Armes Artian Gogma
+<string>Vous pouvez désormais utiliser<lf>les matériaux Gogma du Gogmazios<lf>avec des armes Artian pour les<lf>améliorer en armes plus puissantes.
+<string>Armes Artian Gogma
+<string>En plus d'octroyer un talent bonus,<lf>et un talent de groupe, les armes<lf>Artian Gogma activent des bonus<lf>de renforcement puissants.
+<string>Forger des armes Artian Gogma
+<string>Pour améliorer une arme Artian en<lf>arme Artian Gogma, il faut trois<lf>matériaux Gogma du même type.<lf>L'arme améliorée conserve ses<lf>bonus de renforcement.
+<string>Forger des armes Artian Gogma
+<string>Le type d'élément général d'une arme<lf>Artian améliorée changera en fonction<lf>du <COLOR preset="TXT_Accent">type Gogma</COLOR> des matériaux utilisés<lf>pour améliorer l'arme. Choisissez le<lf>type qui convient le mieux à votre style<lf>de jeu.
+<string>Forger des armes Artian Gogma
+<string>Améliorer une arme en arme Artian<lf>Gogma lui octroiera deux talents<lf>actifs : un talent bonus et un<lf>talent de groupe. Vous pourrez<lf>réinitialiser ces talents par la suite<lf>en utilisant d'autres matériaux.
+<string>Forger des armes Artian Gogma
+<string>Les bonus de renforcement des armes<lf>Artian Gogma sont plus importants que<lf>ceux des armes Artian standard. Ouvrez<lf>le menu <COLOR preset="TXT_Accent">Renforcement arme Artian G.</COLOR> à<lf>la Forge pour en savoir plus.
+<string>Renforcement armes Artian Gogma
+<string>Deux nouveaux onglets d'amélioration<lf>des armes Artian Gogma sont désormais<lf>disponibles dans le menu <BOLD>Renforcement<lf>arme Artian G.</BOLD> : <COLOR preset="TXT_Accent">Renforcement Gogma</COLOR> et<lf><COLOR preset="TXT_Accent">Réinitialiser talents</COLOR>. Utilisez <ICON UI_LIST_TRIGGER_L1> et <ICON UI_LIST_TRIGGER_R1><lf>pour changer d'onglet.
+<string>Renforcement armes Artian Gogma
+<string>Lorsqu'une arme a été renforcée au maximum,<lf><COLOR preset="TXT_Accent">Renforcement Gogma</COLOR> vous permet de <BOLD>rectifier</BOLD><lf>la totalité des emplacements de bonus de<lf>renforcement en une fois. Certains emplacements<lf>peuvent même activer des bonus de renforcement<lf>spéciaux qui sont plus puissants.
+<string>Renforcement armes Artian Gogma
+<string><COLOR preset="TXT_Accent">Renforcement Gogma</COLOR> vous permet de modifier<lf>vos bonus actifs. Vous pouvez choisir entre<lf>garder le type des bonus actuel pour leur<lf>attribuer de nouvelles valeurs aléatoires, ou<lf>réinitialiser entièrement les bonus.
+<string>Renforcement armes Artian Gogma
+<string>L'onglet <COLOR preset="TXT_Accent">Réinitialiser talents</COLOR> vous<lf>permet d'utiliser des matériaux Gogma<lf>pour réinitialiser les talents bonus et<lf>talents de groupe appliqués à une<lf>arme. Cependant, vous ne pouvez<lf>pas changer son type Gogma.
+<string>Renforcement armes Artian Gogma
+<string>Vous pouvez choisir de ne pas appliquer<lf>les résultats des réinitialisations ou des<lf>rectifications et de conserver les talents<lf>ou valeurs originaux. Cependant, les<lf>matériaux utilisés pour chaque tentative<lf>ne seront pas remboursés.
+<string>Transcender une armure
+<string>Vous pouvez effectuer des améliorations<lf>d'armure <COLOR preset="TXT_Accent">transcendantes</COLOR> en sélectionnant<lf>une armure Expert.
+<string>Transcender une armure
+<string>Transcender permet d'augmenter les<lf>limites sur les améliorations de sphères<lf>d'armure et booste les emplacements<lf>de joyaux de certaines armures.
+<string>Améliorations des emplacements de joyaux
+<string>Trois emplacements des armures de rareté 5<lf>et deux emplacements des armures de rareté 6<lf>seront améliorés. (Si l'armure dispose déjà<lf>d'un emplacement de niveau 3, seuls les autres<lf>emplacements seront améliorés.)
+<string>Création d'oricalcite améliorée
+<string>Vous pouvez désormais utiliser<lf>des matériaux Gogma pour<lf><COLOR preset="TXT_Accent">créer du minerai</COLOR>.
+<string>Attaquez les pattes ailées pour étourdir
+<string>Multipliez les attaques sur les pattes<lf>ailées du Gogmazios afin de le faire<lf>tomber. Si vous parvenez à l'étourdir,<lf>essayez d'en profiter pour détacher le<lf>Brise-dragon situé sur son dos.
+<string>Plus de dégâts grâce à l'environnement
+<string>La zone de chasse du Gogmazios a<lf>de nombreux éléments interactifs qui<lf>permettent d'infliger de lourds dégâts<lf>au dragon ancien. Familiarisez-vous<lf>avec l'environnement et utilisez-le<lf>à votre avantage.
+<string>Charger le Brise-dragon
+<string>Le Brise-dragon convergent a besoin de<lf>lait de wyverne pour tirer. Apportez des<lf>brins de <COLOR preset="TXT_Accent">nexus instable</COLOR> jusqu'aux prises<lf>énergétiques du Brise-dragon et reliez-les<lf>pour le charger en énergie.
+<string>Vitesse et puissance de charge
+<string>Plus vous reliez de brins de nexus<lf>instable au Brise-dragon, plus sa charge<lf>est puissante et rapide. Relier des brins<lf>aux trois prises vous permettra de<lf>le charger rapidement et d'atteindre<lf>sa puissance maximale.
+<string>Affaiblir avec l'élément dragon
+<string>Infliger de façon continue des dégâts<lf>au Gogmazios affaiblit la puissance de<lf>son attaque spéciale la plus dévastatrice.<lf>L'élément dragon est le plus efficace.
+<string>Protection de Fabius
+<string>Si vous parvenez à attaquer le Gogmazios<lf>de manière suffisamment continue pour<lf>affaiblir son attaque spéciale, vous pourrez<lf>vous abriter derrière Fabius pour y résister.<lf>Trouvez-le et cachez-vous derrière lui !
+<string>Autres façons d'éviter l'attaque
+<string>Si vous parvenez à affaiblir le Gogmazios,<lf>vous pouvez également résister à l'attaque<lf>spéciale avec une arme capable de bloquer.<lf>S'il reste des zones élevées, vous pouvez<lf>aussi éviter l'attaque en vous abritant<lf>en hauteur.
+<string>Nouvelles armes à forger
+<string>Vous pouvez désormais fabriquer de<lf>nouvelles armes avec les <COLOR preset="TXT_Accent">matériaux<lf>Gogma</COLOR> obtenus en récompense spéciale.<lf><lf>Allez à la Forge pour plus de détails.
+<string>Visez les parties avec des récompenses spéciales
+<string>Des matériaux Gogma sont attachés à<lf>certaines parties du corps du Gogmazios.<lf>Brisez ces parties pour obtenir<lf>des matériaux supplémentaires.
+<string>Avancé : Quêtes de faune spéciale
+<string>Les <COLOR preset="TXT_Accent">Quêtes de faune spéciale</COLOR> sont des<lf>quêtes avancées où vous chassez<lf>plusieurs monstres puissants à la fois.
+<string>Gagnez des récompenses spéciales
+<string>Terminer ces quêtes vous permettra<lf>d'obtenir des <COLOR preset="TXT_Accent">plaques</COLOR> spéciales. Mettez<lf>votre habileté en avant grâce à elles !
+<string>Rejoindre la quête en cours : avertissement
+<string>Vous ne recevrez pas de plaque spéciale<lf>si vous rejoignez une quête en cours,<lf>alors assurez-vous d'être là dès le début.
+<string>Préparez-vous bien avant de partir
+<string>Ces quêtes sont très difficiles et<lf>exigent beaucoup de préparation.<lf>Bonne chance pour toutes les terminer !
 <string>Blessures
 <string>Vous pouvez à présent échanger vos<lf>vieux joyaux contre des points de fusion<lf>permettant de <COLOR preset="TXT_Accent">créer de nouveaux joyaux</COLOR>.<lf>Les options s'étoffent à mesure que vous<lf>remplissez les conditions.
 <string>Joyaux et sets d'équipement

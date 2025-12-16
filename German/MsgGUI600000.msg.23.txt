@@ -38,8 +38,8 @@
 <string>Dicke Brocken sind die ultimative Angel-<lf>herausforderung. Schlägt die Leine aus,<lf>bewege <ICON PL_DUMMY_MOVE> in die Richtung, in die der<lf>Fisch schwimmt, um die Belastung der<lf>Angelschnur zu verringern.
 <string>Dicke Brocken sind die ultimative Angel-<lf>herausforderung. Schlägt die Leine aus,<lf>bewege <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> in die Richtung, in<lf>die der Fisch schwimmt, um die Belastung<lf>der Angelschnur zu verringern.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Wird der Fisch langsamer und müde, ist<lf>das deine Chance! Bewege <ICON PL_DUMMY_MOVE> nach<lf>oben und unten, um ihn zu fangen.
-<string>Wird der Fisch langsamer und müde,<lf>ist das deine Chance! Drücke mehrmals<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>, um ihn zu fangen.
+<string>Wird der Fisch langsamer und müde,<lf>ist das deine Chance! Drehe <ICON PL_DUMMY_MOVE> im Kreis,<lf>um ihn zu fangen.
+<string>Wird der Fisch langsamer und müde,<lf>ist das deine Chance! Drücke abwechselnd<lf><ICON PL_MOVE_FRONT> und <ICON PL_MOVE_BACK>, um ihn zu fangen.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Nähert sich der Fisch einem Hindernis,<lf>neige <ICON PL_DUMMY_MOVE> entgegen seiner Schwimm-<lf>richtung, um ihn zu bremsen, und halte<lf>die Leine fern von Felsen.
 <string>Nähert sich der Fisch einem Hindernis,<lf>bewege ihn mit <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> entgegen<lf>seiner Schwimmrichtung, um ihn zu<lf>bremsen, und halte die Leine fern von<lf>Felsen.
@@ -47,8 +47,8 @@
 <string>Wenn das passiert, neige <ICON PL_DUMMY_MOVE> in die<lf>Richtung des Sprungs und drücke <ICON PL_FISHING_ACTION>,<lf>um den Fisch am Haken zu halten.
 <string>Wenn das passiert, drücke <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>in die Richtung des Sprungs und drücke<lf><ICON PL_FISHING_ACTION>, um den Fisch am Haken zu halten.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR><lf><ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> schnell hin und her<lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR><lf><ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> langsam hin und her<lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR><lf>wiederholt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR> schnell <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR> langsam <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> wiederholt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR><lf><ICON merge="PL_DUMMY_MOVE,TURN_ON"> schnell hin und her<lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR><lf><ICON merge="PL_DUMMY_MOVE,TURN_ON"> langsam hin und her<lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR><lf>wiederholt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Schnell einholen:</COLOR> schnell <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">Langsam einholen:</COLOR> langsam <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> wiederholt <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Hindernisse umgehen:</COLOR> Nutze <ICON PL_DUMMY_MOVE>, um<lf>Fische von Hindernissen wegzuziehen.
 <string><COLOR preset="TXT_Accent">Hindernisse umgehen:</COLOR> Nutze <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>um Fische von Hindernissen wegzuziehen.
@@ -68,11 +68,11 @@
 <string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Bewege <ICON PL_DUMMY_MOVE> schnell hin<lf>und her oder nutze einen Reiniger.
 <string>Ein Status, der dich kurzzeitig bewegungs-<lf>unfähig macht. Drücke schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>oder nutze einen Reiniger.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Schnelles Einholen:</COLOR> <ICON PL_DUMMY_MOVE> schnell nach oben<lf>und unten bewegen
-<string><COLOR preset="TXT_Accent">Schnelles Einholen:</COLOR> Schnell <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> drücken
+<string><COLOR preset="TXT_Accent">Schnelles Einholen:</COLOR><lf><ICON PL_DUMMY_MOVE> schnell im Kreis drehen
+<string><COLOR preset="TXT_Accent">Schnelles Einholen:</COLOR><lf>Schnell abwechselnd <ICON PL_MOVE_FRONT> und <ICON PL_MOVE_BACK> drücken
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string><COLOR preset="TXT_Accent">Langsames Einholen:</COLOR> <ICON PL_DUMMY_MOVE> langsam nach<lf>oben und unten bewegen
-<string><COLOR preset="TXT_Accent">Langsames Einholen:</COLOR> Langsam <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>drücken
+<string><COLOR preset="TXT_Accent">Langsames Einholen:</COLOR><lf><ICON PL_DUMMY_MOVE> langsam im Kreis drehen
+<string><COLOR preset="TXT_Accent">Langsames Einholen:</COLOR><lf>Langsam abwechselnd <ICON PL_MOVE_FRONT> und <ICON PL_MOVE_BACK> drücken
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> <ICON PL_DUMMY_MOVE> wiederholt nach unten<lf>neigen
 <string><COLOR preset="TXT_Accent">Köder bewegen:</COLOR> Wiederholt <ICON PL_MOVE_BACK> drücken
@@ -145,3 +145,9 @@
 <string>Wenn du mehr über ein Objekt oder eine<lf>Umweltfunktion aus der Spähkäfer-<lf>Mitteilung erfahren möchtest, kannst du<lf>sie mit <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> genauer betrachten.
 <string>Drücke <ICON UI_LIST_TRIGGER_L_LEFT>, um das Kartenmenü zu öffnen,<lf>mit dem du auf eine Vielzahl von<lf>Funktionen zugreifen kannst.
 <string>Drücke <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT>, um das Kartenmenü zu öffnen,<lf>mit dem du auf eine Vielzahl von<lf>Funktionen zugreifen kannst.
+<string>Schnell einholen (schnell drehen)
+<string>Schnell einh. (schnell abwechs. drücken)
+<string>Langsam einholen (langsam drehen)
+<string>Schnell einh. (langsam abwechs. drücken)
+<string><COLOR preset="TXT_Accent">Fisch führen</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Einholen</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Fisch führen</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Einholen</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

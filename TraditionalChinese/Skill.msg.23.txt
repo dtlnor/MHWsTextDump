@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>延長最有效距離
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>大幅延長最有效距離
+<string>大幅延長最有效距離，並提升於最有效<lf>距離命中的射擊威力
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>銳利度在黃色或以下時，<lf>傷害1.05倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>大幅減少攻擊威力，<lf>減少耐力消耗量50%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>減少傷害30%
+<string>減少傷害10%，並於滿足條件時<lf>再減少20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>減少傷害50%
+<string>減少傷害20%，並於滿足條件時<lf>再減少30%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>減少傷害80%
+<string>減少傷害30%，並於滿足條件時<lf>再減少50%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>技能發動時，攻擊力1.05倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>不會陷入爆破異常
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>使水域、油泥的移動限制與<lf>濁流的影響無效
+<string>使水域、油泥的移動限制與濁流的影響<lf>無效，並緩和重油的移動限制
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>使水域、油泥的移動限制與<lf>濁流、波浪的影響無效
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>炎熱化Ⅱ
 <string>攻擊命中時，隨機造成更多<lf>額外火屬性傷害。
 <string>無傷重裝Ⅰ
-<string>體力全滿時，所受傷害減少5%。
+<string>體力全滿時，所受傷害減少20%。
 <string>無傷重裝Ⅱ
-<string>體力全滿時，所受傷害減少10%。
+<string>體力全滿時，所受傷害減少35%。
 <string>戰嚎Ⅰ
 <string>使用動作「吼叫」時，小幅提升周圍成員<lf>一定時間內的攻擊力。隨從與支援獵人所<lf>受的效果較大。
 <string>戰嚎Ⅱ
@@ -816,6 +816,10 @@
 <string>於夢燈之儀期間追加特別道具至<lf>任務報酬（不會從任務中途發動）
 <string>大地恩惠【夢燈】Ⅱ
 <string>於夢燈之儀期間追加特別道具至<lf>任務報酬，並大幅增加攻擊力與<lf>防禦力
+<string>大地恩惠【祝謠】Ⅰ
+<string>於祝謠之儀期間追加特別道具至<lf>任務報酬（不會從任務中途發動）
+<string>大地恩惠【祝謠】Ⅱ
+<string>於祝謠之儀期間追加特別道具至<lf>任務報酬，並大幅增加攻擊力與<lf>防禦力
 <string>殺意波動
 <string>強化特殊動作的威力，對動力衝擊追加<lf>抵消效果，並於成功連消帶打後於一定<lf>時間內再度強化
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>發動技能效果
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>發動技能效果<lf>（發動後一定時間內無法再次發動）
+<string>發動技能效果<lf>（發動後一定時間內無法再次發動，<lf>　但使出蓄力斬時仍會受到傷害）
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>發動技能效果
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -857,7 +861,13 @@
 <string>共鳴Ⅰ
 <string>任務開始後，共鳴：遠和共鳴：近會交替<lf>發動，滿足條件後提升攻擊力或會心率
 <string>共鳴Ⅱ
-<string>提升共鳴Ⅰ的效果，以及武器技能<lf>「合成盾」或「協作程式」的效果。
+<string>提升共鳴Ⅰ的效果，以及武器技能<lf>「合成盾」或「協作程式」的效果
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>發動技能效果
+<string>宣戰呼應Ⅰ
+<string>戰鬥中的大型魔物發怒時，<lf>增加屬性攻擊值。
+<string>宣戰呼應Ⅱ
+<string>提升Ⅰ的效果，並於一定時間內獲得抵擋<lf>傷害的護盾（護盾發動後需等候一定時間<lf>才會再次發動）
 <string>連擊強化Ⅰ
 <string>技能「連擊」效果發動時延長其有效<lf>時間，基礎攻擊力+8。
 <string>連擊強化Ⅱ
@@ -865,7 +875,7 @@
 <string>蠻勇的餐桌Ⅰ
 <string>食用全熟肉等道具後，一定時間內<lf>基礎攻擊力+15。
 <string>蠻勇的餐桌Ⅱ
-<string>食用全熟肉等道具後，一定時間內<lf>基礎攻擊力+25。
+<string>食用全熟肉等道具後，一定時間內<lf>基礎攻擊力+30。
 <string>無窮盡Ⅰ
 <string>獲得額外耐力計量表。
 <string>無窮盡Ⅱ

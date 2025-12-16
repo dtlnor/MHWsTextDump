@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Incrementa il raggio d'azione.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Incrementa notevolmente il<lf>raggio d'azione.
+<string>Incrementa notevolmente il raggio<lf>critico e la potenza degli attacchi<lf>sferrati dentro il raggio critico stesso.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>Danni inflitti: +5%<lf>(Barra acutezza gialla o inferiore.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Riduce notevolmente la respinta.<lf>Consumo resistenza: -50%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Danni subiti: -30%
+<string>Danni subiti: -10%, e un ulteriore<lf>-20% al verificarsi di determinate<lf>condizioni.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Danni subiti: -50%
+<string>Danni subiti: -20%, e un ulteriore<lf>-30% al verificarsi di determinate<lf>condizioni.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Danni subiti: -80%
+<string>Danni subiti: -30%, e un ulteriore<lf>-50% al verificarsi di determinate<lf>condizioni.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>ATT Fisico: +5%<lf>(Quando si attiva.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Previene il malus da<lf>scoppio.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Annulla gli effetti delle correnti di<lf>fango ed evita i rallentamenti<lf>nell'acqua o nel fango oleoso.
+<string>Annulla gli effetti di rallentamento<lf>dell'acqua o nel fango oleoso e riduce<lf>gli effetti del petrolio addensato.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Annulla gli effetti delle onde.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Ardente II
 <string>Infligge ulteriori danni<lf>aggiuntivi da fuoco dopo<lf>un attacco.
 <string>Armatura ineccepibile I
-<string>Riduce i danni subiti del 5%<lf>quando la salute è al massimo.
+<string>Riduce i danni subiti del 20%<lf>quando la salute è al massimo.
 <string>Armatura ineccepibile II
-<string>Riduce i danni subiti del 10%<lf>quando la salute è al massimo.
+<string>Riduce i danni subiti del 35%<lf>quando la salute è al massimo.
 <string>Grido di guerra I
 <string>Aumenta di poco e brevemente l'attacco<lf>con il gesto: <BOLD>Per la vittoria!</BOLD> Ha effetto<lf>sul Compagno e cacciatori di supporto.
 <string>Grido di guerra II
@@ -816,6 +816,10 @@
 <string>Durante Ognissogni, aggiunge oggetti<lf>speciali alle ricompense missione. (Nessun<lf>effetto se ci si unisce a una missione in corso.)
 <string>Manna Ognissogni II
 <string>Durante Ognissogni, aggiunge oggetti<lf>speciali alle ricompense missione<lf>e aumenta attacco e difesa di molto.
+<string>Manna Luminalia I
+<string>Durante i Luminalia, aggiunge<lf>oggetti speciali alle ricompense<lf>(non a missione già iniziata).
+<string>Manna Luminalia II
+<string>Durante i Luminalia, aggiunge oggetti<lf>speciali alle ricompense missione<lf>e aumenta attacco e difesa di molto.
 <string>Satsui no Hado
 <string>Aumenta la potenza delle mosse speciali.<lf>Il Drive Impact può attivare attacchi<lf>di reazione. Aumenta la potenza degli<lf>attacchi di reazione.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Attiva gli effetti dell'abilità.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Attiva gli effetti dell'abilità.<lf>Non si riattiverà prima di un<lf>determinato intervallo di tempo.
+<string>Attiva gli effetti dell'abilità. Durante il<lf>tempo di recupero si subiscono comunque <lf>danni quando si esegue un attacco caricato.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Attiva gli effetti dell'abilità.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>(Inizio missione) Sintonia locale e remota<lf>si alternano, aumentando attacco o affinità<lf>se i requisiti sono soddisfatti.
 <string>Sintonia II
 <string>Aumenta l'effetto di Sintonia I,<lf>Sinergia e dell'abilità arma<lf>Scudo sintetico.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>Attiva gli effetti dell'abilità.
+<string>Ostilità mutua I
+<string>Incrementa gli attacchi elementali<lf>quando i mostri grandi sono<lf>infuriati.
+<string>Ostilità mutua II
+<string>L'effetto del livello I aumenta e<lf>ottieni uno scudo temporaneo (si<lf>riattiva dopo un tempo di recupero).
 <string>Bonus catena I
 <string>Aumenta la durata dell'abilità<lf>Catena e aumenta di +8<lf>l'attacco finché l'abilità è attiva.
 <string>Bonus catena II
@@ -865,7 +875,7 @@
 <string>Fan delle proteine I
 <string>Aumenta temporaneamente l'attacco<lf>di +15 dopo il consumo<lf>di una bistecca ben cotta.
 <string>Fan delle proteine II
-<string>Aumenta temporaneamente l'attacco<lf>di +25 dopo il consumo<lf>di una bistecca ben cotta.
+<string>Aumenta temporaneamente l'attacco<lf>di +30 dopo il consumo<lf>di una bistecca ben cotta.
 <string>Nuova energia I
 <string>Ottieni una barra resistenza aggiuntiva.
 <string>Nuova energia II

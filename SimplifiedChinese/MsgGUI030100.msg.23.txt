@@ -760,9 +760,13 @@
 <string>环境支持HDR时自动启用，不支持HDR时停用。
 <string>停用
 <string>无论环境是否支持，都不启用HDR输出。
-<string>画面亮度
+<string><PLATMSG MsgGUI030100_03_13>
+<string>调整画面亮度
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>调整画面的亮度。
-<string>画面亮度调整（HDR）
+<string><PLATMSG MsgGUI030100_03_14>
+<string>调整HDR画面亮度
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>调整画面的亮度。
 <string>性能设置
 <string>调整游戏中与图形性能相关的设置。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
@@ -1080,7 +1084,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>可变速率着色　
-<string>设置是否降低像素着色器处理的处理精度，以减轻<lf>着色器和特效的负荷。
+<string>设置是否降低像素着色器处理的处理精度，以减轻<lf>着色器和特效的负荷。<lf><COLOR preset="TXT_Accent">（此设置仅能在未启用“超分辨率技术”时变更）</COLOR>
 <string>关
 <string>平衡
 <string>帧率优先
@@ -1105,7 +1109,7 @@
 <string>不显示
 <string>不显示对怪物造成的伤害数值。
 <string>体力槽警告显示
-<string>设置怪物即将发动特别危险的攻击前，体力槽上是否<lf>在显示预兆。
+<string>设置是否在怪物即将发动极其危险的攻击前，以及体力低于<lf>一定比例时，在体力槽上显示预警演出。
 <string>显示
 <string>怪物即将发出足以耗尽猎人剩余体力的强力攻击时，<lf>在体力槽上显示作为预兆的红色波动，以示提醒。
 <string>不显示
@@ -1305,12 +1309,14 @@
 <string>在过场动画以外的字幕中显示说话者名字。
 <string>不显示
 <string>在过场动画以外的字幕中不显示说话者名字。
-<string>隐藏他人的<REF RefGeneral_0014_01>
-<string>设置是否在原野中隐藏自己以外的<REF RefGeneral_0014_01>。<lf><COLOR preset="TXT_Accent">（自己的<REF RefGeneral_0014_01>将始终显示）</COLOR>
-<string>开
-<string>其他玩家或支援猎人的<REF RefGeneral_0014_01>在非骑乘状态下会隐<lf>藏。<lf><COLOR preset="TXT_Accent">（在特定场景会显示）</COLOR>
-<string>关
-<string>始终显示其他玩家或支援猎人的<REF RefGeneral_0014_01>。
+<string>不显示他人的<REF RefGeneral_0014_01>
+<string>设置是否在原野中不显示自己以外的<REF RefGeneral_0014_01>。<lf><COLOR preset="TXT_Accent">（自己的<REF RefGeneral_0014_01>将始终显示）</COLOR>
+<string>不显示
+<string>其他玩家或支援猎人的鹭鹰龙在非骑乘状态下会隐<lf>藏。<lf><COLOR preset="TXT_Accent">（在特定场景会显示）</COLOR>
+<string>仅战斗中不显示
+<string>战斗期间，其他玩家或支援猎人的鹭鹰龙在非骑乘<lf>状态下会隐藏。<lf><COLOR preset="TXT_Accent">（在特定场景会显示）</COLOR>
+<string>显示
+<string>显示其他玩家或支援猎人的鹭鹰龙。
 <string><REF RefGeneral_0014_01>自动散步
 <string>设置<REF RefGeneral_0014_01>是否会在未设定目的地时自动散步。
 <string>开
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>主机扬声器
+<string>最适合主机扬声器的音响设置。
+<string>快捷盘选择类型
+<string>设置选择快捷盘的操作类型。
+<string>类型 1
+<string>以当前选择的快捷盘为中心，操作<INPUTMSG MsgGUI030100_INPUT_01>移动至想选择的<lf>快捷盘。
+<string>类型 2
+<string>以八个快捷盘的中央为中心，操作<INPUTMSG MsgGUI030100_INPUT_01>直接选择各个<lf>快捷盘。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>陀螺仪感应器操作（掌上模式）
+<string>设为启用时，掌上模式可以在视角操作中使用陀螺仪<lf>感应器。此外，还可以进行该功能的详细设置。
+<string>手柄振动强度
+<string>设置手柄的振动强度。
+<string>弱
+<string>中（标准）
+<string>强

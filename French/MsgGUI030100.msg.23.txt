@@ -760,9 +760,13 @@
 <string>Activer automatiquement le HDR sur les<lf>appareils compatibles et le désactiver<lf>sur les appareils qui ne le sont pas.
 <string>Désactiver
 <string>Désactiver le HDR même sur les appareils<lf>compatibles.
-<string>Luminosité
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Luminosité de l'écran
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>Régler la luminosité de l'écran.
-<string>Luminosité (HDR)
+<string><PLATMSG MsgGUI030100_03_14>
+<string>Luminosité de l'écran HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Régler la luminosité de l'écran.
 <string>Paramètres de performances
 <string>Ajuster les paramètres liés aux performances<lf>graphiques en jeu.<lf><COLOR preset="TXT_Accent">*Ajustables depuis l'écran titre.</COLOR>
@@ -1105,7 +1109,7 @@
 <string>Ne pas afficher
 <string>Ne pas afficher la valeur des dégâts.
 <string>Alerte Jauge de vie
-<string>Définir si la jauge de vie affiche une alerte<lf>juste avant que les monstres effectuent<lf>une attaque particulièrement dangereuse.
+<string>Définir si la jauge de vie affiche une alerte quand<lf>elle est sous un certain seuil ou avant que les<lf>monstres effectuent une attaque dangereuse.
 <string>Afficher
 <string>La jauge de vie affiche une alerte (elle<lf>ondule en rouge) pour indiquer qu'un<lf>monstre est sur le point d'asséner un<lf>coup qui vous sera fatal.
 <string>Ne pas afficher
@@ -1311,6 +1315,8 @@
 <string>Cacher les Seikret des autres joueurs/Chasseurs<lf>de soutien lorsqu'ils ne sont pas montés.<lf><COLOR preset="TXT_Accent">*Ils resteront visibles dans certaines circonstances.</COLOR>
 <string>Non
 <string>Toujours montrer les Seikret des joueurs/persos<lf>de soutien, même s'ils ne sont pas montés.
+<string>Afficher
+<string>Toujours montrer les Seikret des joueurs<lf>ou des Chasseurs de soutien.
 <string>Seikret (exploration automatique)
 <string>Définir si votre Seikret passe en mode exploration automatique<lf>si vous n'avez placé aucune balise.
 <string>Oui
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Haut-parleurs console
+<string>Paramètres de son optimisés pour les haut-parleurs de la console.
+<string>Type de sélection du menu radial
+<string>Définir les commandes de sélection du menu radial.
+<string>Type 1
+<string>Garder le menu actuellement sélectionné au centre<lf>et appuyer sur <INPUTMSG MsgGUI030100_INPUT_01> dans la direction du nouveau<lf>menu à sélectionner.
+<string>Type 2
+<string>Rester au milieu des 8 menus et appuyer<lf>sur <INPUTMSG MsgGUI030100_INPUT_01> dans la direction du nouveau<lf>menu à sélectionner.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Commandes gyroscope (mode portable)
+<string>Si activées, permettent d'utiliser le gyroscope<lf>pour contrôler la caméra en mode portable et<lf>de définir certains paramètres spécifiques.
+<string>Intensité des vibrations de la manette 
+<string>Ajuster l'intensité des vibrations de la manette.
+<string>Faible
+<string>Moyenne
+<string>Forte

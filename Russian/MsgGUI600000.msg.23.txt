@@ -38,8 +38,8 @@
 <string>Поймать голиафа под силу только лучшим<lf>из лучших. Это состязание воли между<lf>рыбаком и его величайшей добычей. Если<lf>голиаф начнёт метаться, тяните крючок<lf>в направлении его движения с помощью <ICON PL_DUMMY_MOVE>,<lf>чтобы снизить натяжение.
 <string>Поймать голиафа под силу только лучшим<lf>из лучших. Это состязание воли между<lf>рыбаком и его величайшей добычей. Если<lf>голиаф начнёт метаться, тяните крючок<lf>в направлении его движения с помощью<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы снизить натяжение.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Рыба выбилась из сил и стала двигаться<lf>медленнее? Это ваш шанс! Отклоняйте <ICON PL_DUMMY_MOVE><lf>вверх и вниз, чтобы притянуть её.
-<string>Рыба выбилась из сил и стала двигаться<lf>медленнее? Это ваш шанс! Нажимайте<lf><ICON PL_MOVE_FRONT> и <ICON PL_MOVE_BACK>, чтобы притянуть её.
+<string>Рыба выбилась из сил и стала двигаться<lf>медленнее? Это ваш шанс! Вращайте <ICON PL_DUMMY_MOVE>,<lf>чтобы притянуть её.
+<string>Рыба выбилась из сил и стала двигаться<lf>медленнее? Это ваш шанс! Попеременно<lf>нажимайте <ICON PL_MOVE_FRONT> и <ICON PL_MOVE_BACK>, чтобы притянуть её.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Если рыба подошла близко к препятствию,<lf>отклоняйте <ICON PL_DUMMY_MOVE>, чтобы тянуть леску<lf>в сторону, противоположную направлению<lf>движения рыбы. Следите, чтобы леска<lf>не задевала камни и прочие препятствия.
 <string>Если рыба близко к камню, используйте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы тянуть крючок в сторону,<lf>противоположную направлению её движения.<lf>Следите, чтобы леска не задевала камни.
@@ -47,8 +47,8 @@
 <string>Если это произойдёт, отклоните <ICON PL_DUMMY_MOVE><lf>в направлении прыжка рыбы<lf>и нажмите <ICON PL_FISHING_ACTION>, чтобы её сдержать.
 <string>Если это произойдёт, потяните крючок<lf>в направлении прыжка рыбы с помощью<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, а затем нажмите <ICON PL_FISHING_ACTION>, чтобы<lf>её сдержать.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR><lf>быстро покачивайте <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>.<lf><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>медленно покачивайте <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>.<lf><COLOR preset="TXT_Accent">Пошевелить приманкой:</COLOR><lf>отклоните <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>.
-<string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (быстро).<lf><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (медленно).<lf><COLOR preset="TXT_Accent">Пошевелить приманкой:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>.
+<string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR><lf>быстро покачивайте <ICON merge="PL_DUMMY_MOVE,TURN_ON">.<lf><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>медленно покачивайте <ICON merge="PL_DUMMY_MOVE,TURN_ON">.<lf><COLOR preset="TXT_Accent">Пошевелить приманкой:</COLOR><lf>отклоните <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>.
+<string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (быстро).<lf><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (медленно).<lf><COLOR preset="TXT_Accent">Пошевелить приманкой:</COLOR> <ICON PL_MOVE_BACK> (многократно).
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Избежание препятствий:</COLOR> используйте <ICON PL_DUMMY_MOVE>,<lf>чтобы обводить рыбу вокруг препятствий.
 <string><COLOR preset="TXT_Accent">Избежание препятствий:</COLOR> используйте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, чтобы обводить рыбу<lf>вокруг препятствий.
@@ -68,14 +68,14 @@
 <string>Временно обездвиживает. Быстро<lf>двигайте <ICON PL_DUMMY_MOVE> или используйте очиститель.
 <string>Временно обездвиживает. Часто нажимайте<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> или используйте очиститель.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Сматывать быстро:<lf></COLOR>быстро отклоняйте <ICON PL_DUMMY_MOVE> вверх и вниз.
-<string><COLOR preset="TXT_Accent">Сматывать быстро:<lf></COLOR>часто нажимайте <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR><lf>быстро вращайте <ICON PL_DUMMY_MOVE>.
+<string><COLOR preset="TXT_Accent">Сматывать быстро:</COLOR><lf>быстро чередуйте <ICON PL_MOVE_FRONT> и <ICON PL_MOVE_BACK>.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>медленно отклоняйте <ICON PL_DUMMY_MOVE> вверх и вниз.
-<string><COLOR preset="TXT_Accent">Сматывать медленно:</COLOR><lf>редко нажимайте <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string>Сматывать медленно:<lf>медленно вращайте <ICON PL_DUMMY_MOVE>.
+<string>Сматывать медленно:<lf>медленно чередуйте <ICON PL_MOVE_FRONT> и <ICON PL_MOVE_BACK>.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string><COLOR preset="TXT_Accent">Подёргать леску:</COLOR><lf>многократно отклоняйте <ICON PL_DUMMY_MOVE> вниз.
-<string><COLOR preset="TXT_Accent">Подёргать леску:</COLOR><lf>многократно нажимайте <ICON PL_MOVE_BACK>.
+<string>Подёргать леску:<lf>многократно нажимайте <ICON PL_MOVE_BACK>.
 <string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
 <string>Различные онлайн-функции доступны<lf>у службы поддержки. Здесь вы можете<lf>забрать контент, узнать последние<lf>новости игры, получить доступ к онлайн-<lf>магазину и многое другое.<lf><COLOR preset="TXT_Accent">Прочие функции будут добавлены позже.</COLOR>
 <string>Различные онлайн-функции доступны<lf>у службы поддержки. Здесь вы можете<lf>забрать контент, узнать последние<lf>новости игры, получить доступ к<lf>магазину Steam, и многое другое.<lf><COLOR preset="TXT_Accent">Прочие функции будут добавлены позже.</COLOR>
@@ -145,3 +145,9 @@
 <string>Чтобы посмотреть на предмет или<lf>особенность местности из подсказок<lf>следлячков в левой части экрана,<lf>используйте <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>.
 <string>Нажмите <ICON UI_LIST_TRIGGER_L_LEFT>, чтобы открыть меню карты<lf>и получить доступ к её различным<lf>функциям.
 <string>Нажмите <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT>, чтобы открыть меню<lf>карты и получить доступ к её различным<lf>функциям.
+<string>Сматывать быстро (быстрое вращение)
+<string>Сматывать быстро (частые нажатия)
+<string>Сматывать медленно (медленное вращение)
+<string>Сматывать медленно (редкие нажатия)
+<string><COLOR preset="TXT_Accent">Вернуть контроль</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Сматывать</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Вернуть контроль</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Сматывать</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

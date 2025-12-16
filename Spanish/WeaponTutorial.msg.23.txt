@@ -521,7 +521,7 @@
 <string>A diferencia de las actuaciones<lf>normales, las especiales ejecutarán<lf>el efecto melódico exclusivo asociado<lf>a la cornamusa equipada.<lf><lf>Una vez almacenada, esta melodía<lf>no se sobrescribirá con otras.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Un ataque interpretativo efectivo contra<lf>las heridas. Puedes ejecutar hasta cinco<lf>notas con <ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> al tocar.<lf><lf>Si das las notas en el momento justo,<lf>infligirás daño adicional.
+<string>Un ataque interpretativo efectivo contra<lf>las heridas. Puedes ejecutar hasta seis<lf>notas con <ICON WP05 PL_ATTACK_00> o <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> al tocar.<lf><lf>Si das las notas en el momento justo,<lf>infligirás daño adicional.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -559,13 +559,13 @@
 <string>Protege contra los empujes que<lf>sufres al recibir ataques.
 <string>
 <string><ICON ST_RESIST_GROUND> Anula daños ambientales
-<string>Anula el daño recibido por terreno con<lf>pinchos o lava, además de proteger<lf>contra los efectos negativos por calor<lf>o frío extremo.
+<string>Anula el daño recibido por terreno con<lf>pinchos o lava, además de proteger<lf>contra los efectos negativos por calor<lf>o frío extremo.<lf><lf>Como excepción, el daño por lava<lf>abisal solo disminuye, y no puede<lf>anularse por completo.
 <string>
 <string><ICON ST_RESIST_MUD> Movilidad por agua/fango
-<string>Evita que te ralentice el agua profunda<lf>o el fango oleoso. También niega el<lf>efecto de las olas que produzcan los<lf>monstruos.
+<string>Evita que te ralentice el agua profunda<lf>o el fango oleoso. También niega el<lf>efecto de las olas que produzcan los<lf>monstruos.<lf><lf>Como excepción, el efecto ralentizador<lf>del <BOLD>aceite pesado</BOLD> solo se reduce,<lf>y no puede anularse por completo.
 <string>
 <string><ICON ST_RESIST_DEBUF> Anula estados alterados
-<string>Anula todos los estados alterados.
+<string>Anula todos los estados alterados.<lf><lf>El estado alterado de penalización a la<lf>salud introducido en la colaboración<lf>especial con FFXIV no se puede anular.
 <string>
 <string><ICON ST_SPIRIT> Protección divina
 <string>Da cierta probabilidad de reducir<lf>el daño recibido.
@@ -650,7 +650,7 @@
 <string>Aumenta la defensa y las resistencias<lf>elementales.
 <string>
 <string><ICON ST_RESIST_DEBUF> Anula estados alterados/plagas
-<string>Elimina y protege contra varios estados<lf>alterados y plagas.
+<string>Elimina y protege contra varios estados<lf>alterados y plagas.<lf><lf>El estado alterado de penalización a la<lf>salud introducido en la colaboración<lf>especial con FFXIV no se puede anular.
 <string>
 <string>Combo básico
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> con extracto rojo
-<string>Usa <ICON WP10 PL_ATTACK_01><ICON RELEASE> con extracto rojo guardado para<lf>lanzar un tajo descendente (en suelo) o<lf>una estocada en picado (en el aire).<lf>Mantén la carga durante otros ataques y<lf>podrás encadenarlos con uno de estos dos.<lf><lf>Con 3 extractos guardados, pulsa <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01><lf>tras un tajo descendente o estocada en<lf>picado para un poderoso ataque final.<lf>Este golpe consume los tres extractos,<lf>pero tu kinsecto los reabastecerá con<lf>el extracto que recoja con dicho ataque.
+<string>Con extracto rojo guardado, mantén <ICON WP10 PL_ATTACK_01> para<lf>cargar y suéltalo lanzar un tajo descendente<lf>(en suelo) o una estocada en picado (en el<lf>aire). También puedes lanzar estos ataques<lf>con <ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>. Ten en cuenta que la carga se<lf>puede mantener mientras lanzas otros<lf>ataques.<lf><lf>Con 3 extractos guardados, pulsa <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> tras<lf>un tajo descendente o estocada en picado<lf>para un poderoso ataque final. Este golpe<lf>consume los tres extractos, pero tu kinsecto<lf>los reabastecerá con el extracto que recoja<lf>con dicho ataque.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

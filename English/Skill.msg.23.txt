@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Extends range.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Greatly extends range.
+<string>Greatly extends critical range,<lf>and boosts the power of attacks<lf>made within critical range.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>+5% damage dealt when<lf>your sharpness gauge is<lf>yellow or lower.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Greatly decreases the impact of<lf>attacks and reduces stamina<lf>depletion by 50%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Reduces damage taken by 30%.
+<string>Reduces damage taken by 10%,<lf>plus an additional 20% when<lf>conditions are met.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Reduces damage taken by 50%.
+<string>Reduces damage taken by 20%,<lf>plus an additional 30% when<lf>conditions are met.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Reduces damage taken by 80%.
+<string>Reduces damage taken by 30%,<lf>plus an additional 50% when<lf>conditions are met.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>Attack +5% while active.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Prevents blastblight.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Negates the effects of muddy streams,<lf>and prevents you from being slowed<lf>down in water or oilsilt.
+<string>Negates the effects of muddy streams,<lf>nullifies slowing from water and oilsilt,<lf>and reduces slowing from heavy oil.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Also negates the effects of waves.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Scorcher II
 <string>Increases additional fire damage<lf>after landing an attack.
 <string>Flawless Armor I
-<string>Reduces the damage you take by 5%<lf>when your health is full.
+<string>Reduces the damage you take by 20%<lf>when your health is full.
 <string>Flawless Armor II
-<string>Reduces the damage you take by 10%<lf>when your health is full.
+<string>Reduces the damage you take by 35%<lf>when your health is full.
 <string>War Cry I
 <string>Using the <BOLD>To Victory!</BOLD> gesture moderately <lf>increases attack temporarily to nearby allies.<lf>Greatly effects Palicoes and Support Hunters.
 <string>War Cry II
@@ -816,6 +816,10 @@
 <string>During Dreamspell, adds<lf>special items to quest rewards.<lf>(No effect when joining mid-quest.)
 <string>Dreamspell Boon II
 <string>During Dreamspell, adds special<lf>items to quest rewards, and<lf>greatly boosts attack and defense.
+<string>Lumenhymn Boon I
+<string>During Lumenhymn, adds<lf>special items to quest rewards.<lf>(No effect when joining mid-quest.)
+<string>Lumenhymn Boon II
+<string>During Lumenhymn, adds special<lf>items to quest rewards, and<lf>greatly boosts attack and defense.
 <string>Satsui no Hado
 <string>Increases power of special actions.<lf>Drive Impacts can trigger offset attacks.<lf>Further increases power of offset attacks.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Activates skill effect.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Activates skill effect.<lf>(Will not activate again<lf>for a set period of time.)
+<string>Activates skill effect.<lf>(Requires activation cooldown,<lf>but self-damage still occurs.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Activates skill effect.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>(When quest starts) Local and Remote<lf>Resonance alternate, increasing attack<lf>or affinity when conditions are met.
 <string>Resonance II
 <string>Increases the effect of Resonance I, and<lf>the effect of the weapon skill Synthetic<lf>Shield or the effect of Synergy.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>Activates skill effect.
+<string>Mutual Hostility I
+<string>Increases elemental attack when<lf>large monsters become enraged.
+<string>Mutual Hostility II
+<string>Level I effect is increased, and you<lf>gain a temporary damage barrier.<lf>(Barrier reactivates after cooldown.)
 <string>Burst Boost I
 <string>Extends the duration of the Burst<lf>skill and grants attack +8 while<lf>Burst is active.
 <string>Burst Boost II
@@ -865,7 +875,7 @@
 <string>Protein Fiend I
 <string>Temporarily grants attack +15 after<lf>eating items such as well-done steak.
 <string>Protein Fiend II
-<string>Temporarily grants attack +25 after<lf>eating items such as well-done steak.
+<string>Temporarily grants attack +30 after<lf>eating items such as well-done steak.
 <string>Second Wind I
 <string>Grants an additional Stamina Gauge.
 <string>Second Wind II

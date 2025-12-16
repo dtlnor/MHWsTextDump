@@ -13,6 +13,7 @@
 <string><REF RefEquipment_0008_16>
 <string>Dismantle this weapon?
 <string>Reinforced by {0} <PLURAL {0} "level" "levels">.
+<string>You have upgraded the weapon to level {0}.<lf><lf><COLOR preset="TXT_Accent">(You can now amend the weapon's bonuses<lf>for better bonuses via Gogma Reinforce.)</COLOR>
 <string>Obtained reinforcement materials.
 <string>Add
 <string>Subtract
@@ -26,3 +27,19 @@
 <string>- Registered to a Loadout
 <string>- Registered to Favorites
 <string>This equipment has a decoration attached to it.<lf>Remove all decorations and dismantle?
+<string>Review Reinforcement Bonuses
+<string>Apply these new reinforcement bonuses?<lf><COLOR preset="TXT_Accent">Note: You will not get the materials back<lf>even if you select "No".</COLOR>
+<string>You can use materials to update the reinforcement bonuses. (You can then choose whether or not to apply those new bonuses.)
+<string><COLOR preset="TXT_Danger">Reviewing reinforcement bonuses. Select "End Review" to return without applying bonuses.</COLOR>
+<string>Amend (Keep Bonuses)
+<string>Amend (Reset Bonuses)
+<string>Reinforce
+<string><ICON G_CHANGE_B> Gogma Reinforce
+<string><ICON G_CHANGE_S> Reset Skills
+<string>You can use materials to update active skills. (You can then choose whether or not to apply those new skills.)
+<string><COLOR preset="TXT_Danger">Reviewing active skills. Select "End Review" to return to the confirmation window.</COLOR>
+<string>Apply these new active skills?<lf><COLOR preset="TXT_Accent">Note: You will not get the materials back<lf>even if you select "No".</COLOR>
+<string>Review Active Skills
+<string>Reset Skills
+<string>Points Required for Reset
+<string>Select the materials and amount to use. (You'll get more points from materials whose trait matches the weapon's.)

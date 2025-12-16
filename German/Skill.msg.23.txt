@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Erweitert die Reichweite.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Erweitert die Reichweite<lf>erheblich.
+<string>Erweitert die kritische Reichweite<lf>erheblich und erhöht die Angriffs-<lf>kraft innerhalb dieser Reichweite.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>Erhöht verursachten Schaden um<lf>5 %, wenn dein Schärfebalken im<lf>gelben Bereich oder darunter ist.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Verringert die Wirkung von<lf>Angriffen erheblich und reduziert<lf>den Ausdauerverbrauch um 50 %.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Verringert den erlittenen<lf>Schaden um 30 %.
+<string>Verringert den erlittenen Schaden<lf>um 10 % sowie weitere 20 %, wenn<lf>die Bedingung erfüllt ist.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Verringert den erlittenen<lf>Schaden um 50 %.
+<string>Verringert den erlittenen Schaden<lf>um 20 % sowie weitere 30 %, wenn<lf>die Bedingung erfüllt ist.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Verringert den erlittenen<lf>Schaden um 80 %.
+<string>Verringert den erlittenen Schaden<lf>um 30 % sowie weitere 50 %, wenn<lf>die Bedingung erfüllt ist.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>Wenn aktiv, Angriff +5 %.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Verhindert Explosionspest.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Negiert die Effekte von schlammi-<lf>gem Gewässer. Wasser und Öl-<lf>schlamm verlangsamen nicht mehr.
+<string>Negiert die Effekte von schlammigem<lf>Gewässer. Wasser/Ölschlamm verlang-<lf>samen nicht, Schweröl weniger.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Negiert zusätzlich Welleneffekte.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Versenger II
 <string>Erhöht den zusätzlichen Feuerschaden<lf>nach erfolgreichem Treffer.
 <string>Makellose Rüstung I
-<string>Verringert deinen erlittenen Schaden<lf>um 5 %, wenn dein Gesundheitsbalken<lf>gefüllt ist.
+<string>Verringert deinen erlittenen Schaden<lf>um 20 %, wenn dein Gesundheitsbalken<lf>gefüllt ist.
 <string>Makellose Rüstung II
-<string>Verringert deinen erlittenen Schaden<lf>um 10 %, wenn dein Gesundheitsbalken<lf>gefüllt ist.
+<string>Verringert deinen erlittenen Schaden<lf>um 35 %, wenn dein Gesundheitsbalken<lf>gefüllt ist.
 <string>Schlachtruf I
 <string>Die Geste „Zum Sieg!“ erhöht kurz-<lf>zeitig den Angriff naher Verbündeter<lf>wie Palicos und Hilfsjägern etwas.
 <string>Schlachtruf II
@@ -816,6 +816,10 @@
 <string>Fügt Quest-Belohnungen während des<lf>Traumzaubers Spezialobjekte hinzu.<lf>(Nicht bei spätem Questbeitritt.)
 <string>Traumzauber-Segen II
 <string>Fügt Quest-Belohnungen während des<lf>Traumzaubers Spezialobjekte hinzu und<lf>erhöht Angriff + Verteidigung deutlich.
+<string>Lichterglanz-Segen I
+<string>Fügt Quest-Belohnungen während des<lf>Lichterglanzes Spezialobjekte hinzu.<lf>(Nicht bei spätem Questbeitritt.)
+<string>Lichterglanz-Segen II
+<string>Fügt Quest-Belohnungen während des<lf>Lichterglanzes Spezialobjekte hinzu und<lf>erhöht Angriff + Verteidigung deutlich.
 <string>Satsui no Hado
 <string>Steigert die Kraft von Spezialaktionen.<lf>Drive Impacts lösen Gegenstoß-Angriffe<lf>aus. Bei Erfolgt steigt Kraft kurzzeitig.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Aktiviert den Fähigkeit-Effekt.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Aktiviert den Fähigkeit-Effekt.<lf>(Nach Aktivierung dauert es etwas,<lf>bis es erneut aktiviert.)
+<string>Aktiviert den Fähigkeit-Effekt.<lf>(Hat eine Abklingzeit; Aufgel. Angr.<lf>verletzen dich aber weiterhin.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Aktiviert den Fähigkeit-Effekt.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>Bei Questbeginn wechseln sich Reso-<lf>nanzprogramm: Nah und Fern ab und<lf>erhöhen Angriff bzw. Affinität.
 <string>Resonanz II
 <string>Erhöht den Effekt von Resonanz I<lf>sowie den Effekt von Synthetischer<lf>Schild oder Synergieprogramm.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>Aktiviert den Fähigkeit-Effekt.
+<string>Gegenseitige Aggression I
+<string>Erhöht Elementangriff, wenn große<lf>Monster toben.
+<string>Gegenseitige Aggression II
+<string>Erhöht den Effekt von Stufe I und<lf>aktiviert kurzzeitig eine Barriere.<lf>(Die Barriere hat eine Abklingzeit.)
 <string>Salve-Bonus I
 <string>Verlängert die Dauer der Salve-<lf>Fähigkeit; und Angriff +8, wenn<lf>Salve aktiv ist.
 <string>Salve-Bonus II
@@ -865,7 +875,7 @@
 <string>Proteinprotz I
 <string>Vorübergehend Angriff +15 nach dem<lf>Essen von Objekten wie Gebratenem<lf>Steak.
 <string>Proteinprotz II
-<string>Vorübergehend Angriff +25 nach dem<lf>Essen von Objekten wie Gebratenem<lf>Steak.
+<string>Vorübergehend Angriff +30 nach dem<lf>Essen von Objekten wie Gebratenem<lf>Steak.
 <string>Aufschwung I
 <string>Verleiht einen zweiten Ausdauer-<lf>balken.
 <string>Aufschwung II

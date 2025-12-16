@@ -760,9 +760,13 @@
 <string>Ativa o HDR em dispositivos compatíveis e o<lf>desativa nos incompatíveis automaticamente.
 <string>Desativar
 <string>Desativa a saída HDR até mesmo<lf>em dispositivos compatíveis.
-<string>Brilho
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Brilho da Tela
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>Ajusta o brilho da tela.
-<string>Brilho (HDR)
+<string><PLATMSG MsgGUI030100_03_14>
+<string>Brilho da Tela em HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Ajusta o brilho da tela.
 <string>Configurações de Desempenho
 <string>Ajusta as configurações gráficas relacionadas<lf>à jogabilidade.<lf><COLOR preset="TXT_Accent">(Ajustável nas opções da tela de título.)</COLOR>
@@ -1105,7 +1109,7 @@
 <string>Não exibir
 <string>Não exibe valores de dano.
 <string>Alerta da Barra de Vida
-<string>Define se a Barra de Vida exibe um alerta logo<lf>antes dos monstros realizarem ataques<lf>especialmente perigosos.
+<string>Define se a Barra de Vida exibe um alerta quando<lf>abaixo de certa porcentagem ou logo antes dos<lf>monstros realizarem ataques muito perigosos.
 <string>Exibir
 <string>A Barra de Vida exibe um alerta (ondulações<lf>vermelhas) para indicar quando um monstro<lf>está prestes a desferir um ataque letal.
 <string>Não exibir
@@ -1311,6 +1315,8 @@
 <string>Não exibe Seikrets desmontados de outros<lf>jogadores e Caçadores de Suporte. <COLOR preset="TXT_Accent">(Seikrets<lf>ainda são exibidos em certas situações.)</COLOR>
 <string>Desativado
 <string>Sempre exibe Seikrets desmontados de outros<lf>jogadores e Caçadores de Suporte.
+<string>Exibir
+<string>Sempre exibe Seikrets de outros jogadores<lf>ou dos Caçadores de Suporte.
 <string>Exploração Automática do Seikret
 <string>Define se o seu Seikret entra no Modo de Exploração<lf>Automática quando nenhum marcador de destino tiver<lf>sido definido.
 <string>Ativado
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Alto-falante do Console
+<string>Configurações de som otimizadas para<lf>os alto-falantes do console.
+<string>Tipo de Seleção de Menu Radial
+<string>Define os controles para a seleção de Menu Radial.
+<string>Tipo 1
+<string>Mantém o menu atualmente selecionado no centro<lf>enquanto você pressiona <INPUTMSG MsgGUI030100_INPUT_01> em direção ao novo<lf>menu a ser selecionado.
+<string>Tipo 2
+<string>Mantém você no centro entre todos os 8 menus<lf>enquanto você pressiona <INPUTMSG MsgGUI030100_INPUT_01> em direção ao novo<lf>menu a ser selecionado.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Controles por Giroscópio (Modo Portátil)
+<string>Quando ativado, permite usar o giroscópio para<lf>controlar a câmera no modo portátil, bem como<lf>definir configurações mais detalhadas.
+<string>Intensidade da Vibração
+<string>Ajusta a intensidade da vibração do controle.
+<string>Fraca
+<string>Média (normal)
+<string>Forte

@@ -481,7 +481,7 @@
 <string>Ataques precisos
 <string>Mantén <ICON WP05 PL_AIM> y pulsa <ICON WP05 PL_ATTACK_SP_B> para ejecutar<lf>un <COLOR preset="TXT_Accent">ataque preciso</COLOR>. Si el ataque conecta<lf>con una herida, la rematará e infligirá<lf>una gran cantidad de daño, además<lf>de aturdir al monstruo.
 <string>Notas durante los ataques precisos
-<string>Pulsa <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> en el momento<lf>justo durante un ataque preciso para tocar<lf>hasta cinco notas.
+<string>Pulsa <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> en el momento<lf>justo durante un ataque preciso para tocar<lf>hasta seis notas.
 <string>Heridas
 <string>Ataca la misma parte de un monstruo<lf>una y otra vez para hacerle una <COLOR preset="TXT_Accent">herida</COLOR>.<lf><lf>Atacar la herida causa más daño: usa el<lf><COLOR preset="TXT_Accent">modo preciso</COLOR> para dirigir tus ataques<lf>hacia ella.
 <string>Ataques precisos
@@ -611,7 +611,7 @@
 <string>Controles de pesca
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Controles de pesca
-<string><COLOR preset="TXT_Accent">Aflojar el carrete:</COLOR> <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Recoger el sedal:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Controles de pesca
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Controles de pesca
@@ -971,13 +971,13 @@
 <string>Usa el menú radial personalizado
 <string>Registra hechizos de pictomancia en<lf>el menú radial personalizado para<lf>poder usarlos rápida y fácilmente.
 <string>Usar el poder del caballero oscuro
-<string>Cuando la habilidad de bonificación otorgada<lf>por una armadura concreta se active, podrás<lf>usar el objeto exclusivo: <COLOR preset="TXT_Accent">La noche más oscura</COLOR>.
+<string>Cuando la habilidad de bonificación otorgada<lf>por esta armadura se active, podrás usar<lf>el objeto exclusivo: <COLOR preset="TXT_Accent">La noche más oscura</COLOR>.
 <string>La noche más oscura
 <string>Pulsa <ICON PL_ITEM> para usar el objeto y crear<lf>una poderosa barrera que consume<lf>tu salud. Una vez se haya usado, tendrá<lf>que recargarse.
 <string>Filo de tinieblas
 <string>Un tajo hacia delante que se<lf>lanza automáticamente cuando la barrera<lf>se agota sin ser destruida, o que se<lf>puede usar inmediatamente pulsando <ICON PL_BT_RIDE_ATTACK_L>.
 <string>Ocaso
-<string>Si un ataque enemigo destruye<lf>la barrera, lanzarás un poderosísimo<lf>contraataque y obtendrás una <COLOR preset="TXT_Accent">bonificación<lf>especial</COLOR> durante cierto tiempo.
+<string>Si un ataque destruye la barrera,<lf>lanzarás un poderosísimo contraataque<lf>y obtendrás una <COLOR preset="TXT_Accent">bonificación especial</COLOR><lf>durante cierto tiempo.
 <string>Usa el menú radial personalizado
 <string>Registra <COLOR preset="TXT_Accent">La noche más oscura</COLOR> en el menú<lf>radial personalizado para poder usarla hasta<lf>con el arma envainada. Para más detalles,<lf>echa un vistazo a la <COLOR preset="TXT_Accent">guía de controles básicos</COLOR>.
 <string>El mapa de campo
@@ -1032,6 +1032,84 @@
 <string>Cuando se active la <COLOR preset="TXT_Accent">resonancia<lf>remota</COLOR>, <COLOR preset="TXT_Accent">aléjate</COLOR> de otros cazadores<lf>para aumentar tu ataque.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Ejercicios de caza
+<string>Se han añadido <COLOR preset="TXT_Accent">ejercicios de caza</COLOR> a la lista<lf>de misiones opcionales.
+<string>Ejercicios de caza
+<string>Durante los ejercicios de caza, condiciones<lf>como la ubicación inicial y la dificultad<lf>de los objetivos están fijadas, y no<lf>aparecen otros monstruos más grandes.
+<string>Ejercicios de caza
+<string>Esta es la forma ideal de concentrarse<lf>en cazar monstruos específicos y estudiar<lf>cómo maniobrar. Los ejercicios de caza<lf>están disponibles en <COLOR preset="TXT_Accent">misiones opcionales</COLOR>.
+<string>Festival de la Armonía: Iluminario
+<string>Durante los festivales se añade<lf>contenido especial al gran centro.<lf>¡Solo estará disponible por un tiempo,<lf>así que pásate por allí mientras puedas!
+<string>¡Cazador de apoyo temporal!
+<string>Durante el período del evento, las bengalas<lf>de auxilio pueden invocar a un cazador de<lf>apoyo especial. No obstante, dependerá<lf>de la misión o del nivel de progreso.
+<string>¡Llénate con platos de temporada!
+<string>Disfruta de menús temporales en<lf>la cantina gracias a los vales del<lf>iluminario. Inicia sesión durante<lf>el evento para conseguirlos.
+<string>Uso de cupones en el iluminario
+<string>Los cupones de menús normales permiten que<lf>otros, aparte del usuario, se sirvan; pero solo<lf>quien canjea el cupón puede optar a los objetos<lf>del menú exclusivos del período del evento.
+<string>¡Da un nuevo look a Alma!
+<string>Hemos preparado un traje especial para<lf>que los encargados se sientan parte del<lf>iluminario. ¡Habla con Alma en el<lf>gran centro y podrás cambiar su ropa!
+<string>¡Nuevas submisiones limitadas cada día!
+<string>Las submisiones limitadas se actualizan a<lf>diario y otorgan vales del iluminario que<lf>podrás usar para crear equipamiento de<lf>esta estación, disponible temporalmente.
+<string>¡Bonus de acceso extra!
+<string>Mientras dure el evento, recibirás<lf>dos vales suertudos en lugar de uno,<lf>además de otras recompensas,<lf>como los vales del iluminario.
+<string>¡Se acercan nuevas misiones de evento!
+<string>¡Hay misiones de evento disponibles<lf>durante un tiempo limitado! Además,<lf>también vuelven a estar disponibles<lf>misiones de evento antiguas.
+<string>Armas artianas Gogma
+<string>Ahora podrás usar los materiales Gogma<lf>que obtengas de Gogmazios con las armas<lf>artianas para mejorarlas y convertirlas<lf>en armas aun más poderosas.
+<string>Armas artianas Gogma
+<string>Además de conceder una habilidad adicional<lf>y una habilidad de grupo, las armas<lf>artianas Gogma pueden activar bonus<lf>de refuerzo aún mejores. ¡Mejóralas<lf>y aprovecha tu arma al máximo!
+<string>Mejorar a armas artianas Gogma
+<string>Si utilizas tres materiales Gogma del mismo<lf>tipo, podrás convertir una arma artiana en<lf>una arma artiana Gogma. El arma mejorada<lf>mantendrá sus bonus de refuerzo actuales.
+<string>Mejorar a armas artianas Gogma
+<string>El rasgo general de cada arma artiana Gogma<lf>mejorada cambiará dependiendo del <COLOR preset="TXT_Accent">rasgo<lf>Gogma</COLOR> de los materiales utilizados para<lf>mejorar el arma. Utiliza el rasgo que mejor<lf>encaje con tu estilo de juego.
+<string>Mejorar a armas artianas Gogma
+<string>Al mejorar una arma y convertirla en<lf>una arma artiana Gogma, recibirás<lf>dos habilidades activas aleatorias: una<lf>habilidad bonus y una habilidad de grupo.<lf>Las habilidades se pueden reiniciar más<lf>tarde con más materiales.
+<string>Mejorar a armas artianas Gogma
+<string>Las bonificaciones de refuerzo de las armas<lf>artianas Gogma son mayores que las de un<lf>arma artiana normal. Comprueba el menú<lf>de <COLOR preset="TXT_Accent">reforzar armas artianas Gogma</COLOR> en la<lf>forja para descubrir más.
+<string>Reforzar armas artianas Gogma
+<string>Ahora el menú de reforzar tiene dos nuevas<lf>pestañas de mejora para armas artianas:<lf><COLOR preset="TXT_Accent">armas artianas Gogma</COLOR> y <COLOR preset="TXT_Accent">reiniciar habilidades</COLOR>.<lf>Cambia de pestaña con <ICON UI_LIST_TRIGGER_L1> y <ICON UI_LIST_TRIGGER_R1>.
+<string>Reforzar armas artianas Gogma
+<string>Cuando hayas reforzado un arma al máximo,<lf>los <COLOR preset="TXT_Accent">refuerzos Gogma</COLOR>  te permiten <BOLD>enmendar</BOLD><lf>todos los espacios de bonificaciones por<lf>refuerzos a la vez. Unos pocos espacios<lf>incluso activarán bonificaciones por<lf>refuerzos mejores de lo habitual.
+<string>Reforzar armas artianas Gogma
+<string><COLOR preset="TXT_Accent">Refuerzo Gogma</COLOR> te permite <BOLD>enmendar</BOLD> los<lf>bonus que tengas activos. Pedes elegir<lf>mantener los tipos de bonus actuales y<lf>volver a aplicar nuevos valores aleatorios,<lf>o reiniciar los bonus por completo.
+<string>Reforzar armas artianas Gogma
+<string>La pestaña <COLOR preset="TXT_Accent">reiniciar habilidades</COLOR> te<lf>permite usar materiales Gogma para<lf>reiniciar las bonificaciones y grupos<lf>de habilidad aplicados a un arma.<lf>No podrás cambiar su rasgo Gogma.
+<string>Reforzar armas artianas Gogma
+<string>Puedes optar por no aplicar los resultados<lf>de los reinicios o enmiendas y, en su lugar,<lf>mantener las habilidades o valores originales.<lf>Ten en cuenta que los materiales utilizados<lf>en cada intento no se recuperan.
+<string>Trascender armadura
+<string>Ya puedes acceder a la opción de<lf><COLOR preset="TXT_Accent">trascender armadura</COLOR> al seleccionar<lf>armadura de rango alto.
+<string>Trascender armadura
+<string>Trascender sirve para aumentar los límites<lf>fijados a las mejoras de la esfera<lf>armadura y potenciar los espacios<lf>para adornos de algunas armaduras.
+<string>Mejoras de espacios para adornos
+<string>La armadura de rareza 5 mejorará los<lf>tres espacios, y la de rareza 6 mejorará<lf>dos espacios.<lf>(Si la armadura tiene un espacio de nivel 3,<lf>solo se mejorarán los otros espacios).
+<string>Fundición de oricalcita aumentada
+<string>Ahora podrás usar materiales<lf>Gogma al <COLOR preset="TXT_Accent">fundir minerales</COLOR>.
+<string>Ataca a las alas para desequilibrarlo
+<string>Ataca sin parar a las alas del Gogmazios<lf>para desequilibrarlo. Si consigues<lf>que pierda el equilibrio, aprovecha<lf>la oportunidad para liberar el<lf>cañón antidragón de su espalda.
+<string>Usa elementos interactivos para más daño
+<string>La zona de caza del Gogmazios cuenta con<lf>numerosos elementos interactivos que<lf>pueden infligir un daño considerable<lf>al dragón anciano. Familiarízate con<lf>el entorno y utilízalos en tu beneficio.
+<string>Cargar el cañón antidragón
+<string>El cañón antidragón necesita leche de<lf>wyvern para disparar. Lleva hebras de<lf><COLOR preset="TXT_Accent">nexos sueltos</COLOR> a los zócalos del cañón<lf>antidragón para conectarlas y empezar<lf>a cargar energía.
+<string>Velocidad de carga y potencia
+<string>Cuantas más hebras de nexos perdidos<lf>conectes al cañón antidragón, más rápida<lf>y poderosa se volverá su carga.<lf>Conecta las hebras a los tres zócalos<lf>para que cargue a toda velocidad y<lf>permitir que alcance su potencia máxima.
+<string>El elemento draco debilita su poder
+<string>Infligir daño continuo al Gogmazios<lf>debilitará el poder de su ataque especial<lf>más devastador.
+<string>Asistencia de bloqueo de Fabius
+<string>Si consigues atacar al Gogmazios<lf>con continuamente para debilitar su<lf>ataque especial, podrás refugiarte<lf>detrás de Fabius para resistir su ataque.<lf>¡Encuéntralo y ponte detrás de él!
+<string>Otras estrategias de esquiva
+<string>Si consigues debilitar al Gogmazios,<lf>podrás resistir su ataque especial<lf>con armas especializadas en bloqueo.<lf>Si quedan zonas elevadas disponibles,<lf>puedes ir a una para evitar el ataque.
+<string>Nuevas armas especiales que forjar
+<string>Ahora puedes fabricar nuevas armas<lf>especiales utilizando los <COLOR preset="TXT_Accent">materiales<lf>Gogma</COLOR> obtenidos como recompensas<lf>especiales.<lf><lf>Ve a la forja para obtener más detalles.
+<string>Apunta a partes con recompensas especiales
+<string>Algunas partes del cuerpo de Gogmazios<lf>cuentan con materiales Gogma en ellas.<lf>Rompe estas partes para conseguir<lf>materiales adicionales.
+<string>Avanzado: misiones de entorno especial
+<string>Las <COLOR preset="TXT_Accent">misiones de entorno especial</COLOR> son<lf>misiones avanzadas en las que cazas<lf>varios monstruos poderosos a la vez.
+<string>Ganar recompensas especiales
+<string>Al completar estas misiones, obtendrás<lf>placas especiales como premio. ¡Hazte<lf>con ellas para demostrar tu talento!
+<string>Multijugador: ¡No llegues tarde!
+<string>Si completas la misión tras unirte a la<lf>mitad, no recibirás la placa especial.<lf>Asegúrate de estar desde el principio.
+<string>Asegúrate de prepararte bien
+<string>Estas misiones son muy difíciles y es<lf>necesaria una buena preparación.<lf>¡Mucha suerte al completarlas!
 <string>Heridas
 <string>Ahora puedes intercambiar adornos antiguos<lf>por puntos de fusión que podrás usar para<lf><COLOR preset="TXT_Accent">fundir nuevos adornos</COLOR>. Las opciones<lf>aumentarán a medida que cumplas con<lf>las condiciones.
 <string>Adornos y sets de equipamiento

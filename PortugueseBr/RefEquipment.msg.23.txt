@@ -26,6 +26,7 @@
 <string>Talismã
 <string>Nv. {0}
 <string>Nv. {0}/{1}
+<string><COLOR preset="TXT_White01">Nv. {0}</COLOR>/{1}
 <string>Nv-
 <string>{0}
 <string>-
@@ -55,14 +56,21 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>Melhorar Armadura
+<string>Transcender
+<string>Transcendência concluída
 <string>Para o próximo nível
 <string>Melhoria máxima atingida
 <string>Exibir tudo
 <string>Somente Armadura <ICON EQUIP_TYPE1>
+<string>Exclui trajes <ICON EQUIP_TYPE2>
 <string>Somente Armadura <ICON EQUIP_TYPE2>
+<string>Exclui trajes <ICON EQUIP_TYPE1>
 <string>Exibir obtidos
 <string>Conjuntos Completos
 <string>Exibir Lista de Desejos
+<string>Exibir α
+<string>Exibir β
+<string>Exibir α/β
 <string>Exibir α
 <string>Exibir β
 <string>Melhorar
@@ -71,6 +79,8 @@
 <string>Requer materiais e <NUMBER {0}>z.<lf>Prosseguir?<lf><lf>(Fazer este equipamento também o desbloqueará<lf>como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR>.)
 <string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?
 <string>Este é um conjunto completo de armadura.<lf>Os materiais necessários e <NUMBER {0}>z serão usados<lf>para forjá-lo. Prosseguir?<lf>(Fazer este equipamento também o desbloqueará<lf>como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR>.)
+<string>Requer materiais, arma base e <NUMBER {0}>z.<lf>Continuar?
+<string>Requer materiais, arma base e <NUMBER {0}>z.<lf>Continuar?<lf><lf>(Forjar este equipamento também o desbloqueará<lf>como <COLOR preset="TXT_Accent">Equipamento em Camadas</COLOR>.)
 <string>Equipar agora?
 <string>Se você mudar esta peça, <COLOR preset="TXT_Danger">todas as outras peças<lf>do conjunto completo de armadura serão removidas</COLOR>.<lf>Deseja mudar a peça de armadura?
 <string>Este é um conjunto completo de armadura.<lf>Equipar todas as peças do conjunto?<lf><lf><COLOR preset="TXT_Danger">(Armaduras em camadas ficarão ocultas.)</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">Você já possui este equipamento, por isso não pode ser forjado ou melhorado.</COLOR>
 <string><COLOR preset="TXT_Danger">Você já possui este equipamento, por isso não pode ser forjado.</COLOR>
 <string><COLOR preset="TXT_Danger">Você não pode forjar conjuntos completos de armadura que já possui.</COLOR>
+<string><COLOR preset="TXT_Danger">Este equipamento não pode ser transcendido.</COLOR>
+<string><COLOR preset="TXT_Danger">Este equipamento já foi transcendido.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não possui uma Arma Artiana de Raridade 8.</COLOR>
+<string><COLOR preset="TXT_Danger">Você não tem Armas Gogma-Artianas.</COLOR>
 <string>Equipada no momento: {0}
 <string>Isso está em uso em outra peça de equipamento.<lf>Deseja remover?
 <string><COLOR preset="TXT_Danger">Este adorno está equipado no momento.</COLOR>
@@ -119,6 +133,7 @@
 <string>Alternar Nome/Habilidade
 <string>Adicionar aos Favoritos
 <string>Aparência de Equipamento
+<string>Ver Aparência de Equipamento
 <string>Configurações de Equipamento
 <string>Selecionar Automático
 <string>Selecionar da Caixa
@@ -135,6 +150,7 @@
 <string>Registrar como Forja
 <string>Materiais de Melhoria
 <string>Adicionar à Lista de Desejos?
+<string>Adicionar à lista de desejos?<lf><lf>Adicionar Materiais de Forja:<lf>Adiciona os materiais necessários para forjar.<lf><lf>Adicionar Materiais de Melhoria:<lf>Adiciona os materiais necessários para melhorar.<lf>Se você não tiver a arma anterior na árvore, todos os materiais<lf>necessários serão adicionados de uma só vez.
 <string>Um dos pré-requisitos desta arma pode ser registrado tanto para forja quanto para melhoria. Selecione o método a ser registrado.
 <string>Remover da Lista de Desejos
 <string>Remover da Lista de Desejos?
@@ -158,6 +174,9 @@
 <string>Tubo
 <string>Disco
 <string>Dispositivo
+<string>Gogma
+<string>Só Armas Artianas
+<string>Só Armas Gogma-Artianas
 <string>Manto
 <string>Buscar
 <string>Bônus de Defesa
@@ -216,6 +235,9 @@
 <string>Pontos de Refino
 <string>Favoritos Primeiro
 <string>Por Nível
+<string>Por Aspecto Gogma
+<string>Por Nível (Asc.)
+<string>Por Nível (Desc.)
 <string>1 – 3
 <string>2 – 3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">Uma das suas configurações contém equipamentos que<lf>você não possui.</COLOR> O equipamento não obtido foi<lf>registrado automaticamente na lista de desejos.
 <string><COLOR preset="TXT_Accent">Uma configuração registrada contém equipamentos que<lf>você não possui.</COLOR> Este equipamento já foi<lf>adicionado à sua lista de desejos.
 <string><COLOR preset="TXT_Accent">Uma das suas configurações contém equipamentos que<lf>você não possui.</COLOR>
+<string><COLOR preset="TXT_Accent">Talismãs Avaliados não podem ser registrados<lf>por meio de configurações compartilhadas<lf>ou do Perfil de Caçador.<lf>(Nenhuma configuração será registrada.)</COLOR>

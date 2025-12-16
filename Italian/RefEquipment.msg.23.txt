@@ -26,6 +26,7 @@
 <string>Amuleto
 <string>Liv. {0}
 <string>Liv. {0}/{1}
+<string><COLOR preset="TXT_White01">Liv. {0}</COLOR>/{1}
 <string>—
 <string>{0}
 <string>–
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>Miglioramento armatura
+<string>Tempra
+<string>Tempra completata
 <string>Al livello successivo
 <string>Potenz. mass. raggiunto
 <string>Mostra tutto
 <string>Solo armature <ICON EQUIP_TYPE1>
+<string>Escludi vestiti <ICON EQUIP_TYPE2>
 <string>Solo armature <ICON EQUIP_TYPE2>
+<string>Escludi vestiti <ICON EQUIP_TYPE1>
 <string>Solo posseduti
 <string>Set di armatura completi
 <string>Mostra lista desideri
 <string>Mostra α
 <string>Mostra β
+<string>Mostra entrambi per tipi α/β
+<string>Mostra α per tipi α/β
+<string>Mostra β per tipi α/β
 <string>Migliora
 <string>Forgia
 <string>Necessari materiali e {0} z.<lf>Continuare?
 <string>Necessari materiali e <NUMBER {0}> z.<lf>Continuare?<lf><lf>(Creare questo equipaggiamento<lf>produrrà anche <COLOR preset="TXT_Accent">stile armatura</COLOR>)
 <string>Questo è un set di armatura completo.<lf>Verranno usati i materiali necessari<lf>e {0} z per creare tutto il set. <lf>Continuare?
 <string>Questo è un set di armatura completo.<lf>Verranno usati i materiali necessari e<lf>{0} z per creare tutto il set. Continuare?<lf><lf>(Otterrai anche il <COLOR preset="TXT_Accent">set di stile armatura</COLOR>.)
+<string>Necessari materiali, l'arma di base e <NUMBER {0}> z.<lf>Continuare?
+<string>Necessari materiali, l'arma di base<lf>e <NUMBER {0}> z. Continuare?<lf><lf>(Otterrai anche lo <COLOR preset="TXT_Accent">stile equipaggiamento</COLOR>)
 <string>Equipaggiare adesso?
 <string>Se cambi questa parte, <COLOR preset="TXT_Danger">tutte le altre parti del<lf>set di stile armatura verranno rimosse</COLOR>.<lf>Vuoi cambiare la parte di armatura?
 <string>Questo è un set di armatura completo.<lf>Vuoi equipaggiare tutte le parti del set?<lf><lf><COLOR preset="TXT_Danger">(Lo stile armatura sarà nascosto.)</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">Possiedi già questo equipaggiamento, perciò non puoi forgiarlo o potenziarlo.</COLOR>
 <string><COLOR preset="TXT_Danger">Possiedi già questo equipaggiamento, perciò non puoi forgiarlo.</COLOR>
 <string><COLOR preset="TXT_Danger">Non puoi forgiare i set di armatura completi che possiedi già.</COLOR>
+<string><COLOR preset="TXT_Danger">Non è possibile temprare questo equipaggiamento.</COLOR>
+<string><COLOR preset="TXT_Danger">Questo equipaggiamento è già temprato.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai nessuna arma Artian di rarità 8.</COLOR>
+<string><COLOR preset="TXT_Danger">Non hai armi Artian Gogma.</COLOR>
 <string>Equipaggiato attualmente: {0}
 <string>Fa già parte di un altro equipaggiamento.<lf>Rimuovere?
 <string><COLOR preset="TXT_Danger">Questo gioiello è attualmente in uso.</COLOR>
@@ -119,6 +133,7 @@
 <string>Nome gioielli/abilità
 <string>Aggiungi ai preferiti
 <string>Aspetto equipaggiamento
+<string>Controlla aspetto equipagg.
 <string>Impostazioni equipaggiamento
 <string>Selezione automatica
 <string>Seleziona dalla cassa
@@ -135,6 +150,7 @@
 <string>Registra per forgiatura
 <string>Registra per potenziamento
 <string>Aggiungere alla lista dei desideri?
+<string>Aggiungere alla lista dei desideri?<lf><lf>Aggiungi materiali forgiatura:<lf>aggiunge i materiali necessari per forgiare.<lf><lf>Aggiungi materiali potenziamento:<lf>aggiunge i materiali necessari per potenziare.<lf>Se ti manca l'arma precedente della serie, tutti i materiali<lf>richiesti verranno aggiunti in una volta sola.
 <string>Uno dei prerequisiti per quest'arma può essere registrato sia come materiale da forgia sia come potenziamento. Seleziona metodo.
 <string>Rimuovi da lista dei desideri
 <string>Rimuovere dalla lista dei desideri?
@@ -158,6 +174,9 @@
 <string>Tubo
 <string>Disco
 <string>Meccanismo
+<string>Gogma
+<string>Solo armi Artian
+<string>Solo armi Artian Gogma
 <string>Mantello
 <string>Cerca
 <string>Bonus difesa
@@ -216,6 +235,9 @@
 <string>Punti fusione
 <string>Prima i preferiti
 <string>In ordine di livello
+<string>Tratto Gogma
+<string>Livello (crescente)
+<string>Livello (decrescente)
 <string>1 – 3
 <string>2 – 3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">Uno dei tuoi set contiene un equipaggiamento che<lf>non possiedi.</COLOR> L'equipaggiamento non ottenuto<lf>è stato automaticamente registrato nella tua lista<lf>dei desideri.
 <string><COLOR preset="TXT_Accent">Uno dei set registrati contiene un equipaggiamento<lf>che non possiedi.</COLOR> Questo equipaggiamento<lf>è già registrato nella tua lista dei desideri.
 <string><COLOR preset="TXT_Accent">Uno dei tuoi set contiene un equipaggiamento<lf>che non possiedi.</COLOR>
+<string><COLOR preset="TXT_Accent">Gli amuleti valutati non possono essere<lf>registrati tramite i set condivisi o<lf>il profilo cacciatore.<lf>(Nessuna impostazione verrà registrata).</COLOR>

@@ -26,6 +26,7 @@
 <string>Talisman
 <string>Nv {0}
 <string>Nv {0}/{1}
+<string><COLOR preset="TXT_White01">Nv {0}</COLOR>/{1}
 <string>Nv-
 <string>{0}
 <string>–
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>Amélioration d'armure
+<string>Transcender
+<string>Transcendance terminée
 <string>Niveau suivant :
 <string>Amélioration maximum atteinte.
 <string>Tout afficher
 <string>Armure de type <ICON EQUIP_TYPE1>
+<string>Tenues hors <ICON EQUIP_TYPE2>
 <string>Armure de type <ICON EQUIP_TYPE2>
+<string>Tenues hors <ICON EQUIP_TYPE1>
 <string>Possédées uniquement
 <string>Ensembles complets
 <string>Afficher souhaités
 <string>Afficher α
 <string>Afficher β
+<string>Afficher les types α et β
+<string>Masquer les types β
+<string>Masquer les types α
 <string>Améliorer
 <string>Forger
 <string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Voulez-vous confirmer ?
 <string>Des matériaux et <NUMBER {0}> z seront utilisés.<lf>Continuer ?<lf><lf>(Fabriquer cet équipement le débloquera<lf>également en tant qu'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)
 <string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer.<lf>Continuer ?
 <string>Ceci est un ensemble complet.<lf>Les matériaux nécessaires et <NUMBER {0}> z<lf>seront utilisés pour le fabriquer. Continuer ?<lf><lf>(Vous obtiendrez également l'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)
+<string>Des matériaux, l'arme de base et<lf><NUMBER {0}> z seront utilisés. Continuer ?
+<string>Des matériaux, l'arme de base et<lf><NUMBER {0}> z seront utilisés. Continuer ?<lf><lf>(Fabriquer cet équipement le débloquera<lf>également en tant qu'<COLOR preset="TXT_Accent">équipement spécial</COLOR>.)
 <string>Équiper maintenant ?
 <string>Si vous retirez cette pièce, <COLOR preset="TXT_Danger">toutes les autres<lf>pièces de l'ensemble complet seront retirées</COLOR>.<lf>Retirer la pièce ?
 <string>Ceci est un ensemble complet.<lf>Équiper toutes les pièces ?<lf><lf><COLOR preset="TXT_Danger">(L'armure spéciale sera cachée.)</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">Vous possédez déjà cet équipement, il ne peut donc être forgé ou amélioré.</COLOR>
 <string><COLOR preset="TXT_Danger">Vous possédez déjà cet équipement, il ne peut donc être forgé.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de forger un ensemble complet que vous possédez déjà.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible de transcender cette pièce d'équipement.</COLOR>
+<string><COLOR preset="TXT_Danger">Cette pièce d'équipement a déjà été transcendée.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas d'arme Artian de rareté 8.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous n'avez pas d'armes Artian Gogma.</COLOR>
 <string>Équipement actuel : {0}
 <string>Ceci est utilisé sur une autre pièce d'équipement.<lf>Retirer ?
 <string><COLOR preset="TXT_Danger">Ce joyau est équipé actuellement.</COLOR>
@@ -119,6 +133,7 @@
 <string>Changer Nom/Talent
 <string>Ajouter aux favoris
 <string>Apparence de l'équipement
+<string>Voir apparence de l'équipement
 <string>Paramètres équipement
 <string>Sélection automatique
 <string>Sélectionner dans le coffre
@@ -135,6 +150,7 @@
 <string>Enregistrer : Forge
 <string>Enregistrer : Amélioration
 <string>Ajouter à la liste de souhaits ?
+<string>Ajouter à la liste de souhaits ?<lf><lf>Ajouter les matériaux de forge :<lf>Ajoute les matériaux nécessaires pour forger.<lf><lf>Ajouter les matériaux d'amélioration :<lf>Ajoute les matériaux nécessaires pour améliorer.<lf>S'il vous manque l'arme précédente dans l'arbre,<lf>tous les matériaux nécessaires seront ajoutés d'un coup.
 <string>L'un des prérequis de cette arme peut être enregistré en Forge ou en Amélioration. Sélectionnez la méthode voulue.
 <string>Retirer de la liste de souhaits
 <string>Retirer de la liste de souhaits ?
@@ -158,6 +174,9 @@
 <string>Tube
 <string>Disque
 <string>Appareil
+<string>Gogma
+<string>Armes Artian seulement
+<string>Armes Artian Gogma seulement
 <string>Cape
 <string>Rechercher
 <string>Bonus de défense
@@ -216,6 +235,9 @@
 <string>Points de création
 <string>Par favoris
 <string>Par niveau
+<string>Par type Gogma
+<string>Par nv (croissant)
+<string>Par nv (décroissant)
 <string>1 – 3
 <string>2 – 3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">Ce set contient des pièces d'équipement<lf>que vous ne possédez pas.</COLOR> Les pièces non obtenues<lf>ont été enregistrées automatiquement<lf>dans votre liste de souhaits.
 <string><COLOR preset="TXT_Accent">Ce set contient des pièces d'équipement<lf>que vous ne possédez pas.</COLOR> Ces pièces sont déjà<lf>enregistrées dans votre liste de souhaits.
 <string><COLOR preset="TXT_Accent">Ce set contient des pièces d'équipement<lf>que vous ne possédez pas.</COLOR>
+<string><COLOR preset="TXT_Accent">Les talismans révélés ne peuvent pas être enregistrés<lf>via des sets partagés ou le profil de Chasseur.<lf>(Aucun paramètre ne sera enregistré.)</COLOR>

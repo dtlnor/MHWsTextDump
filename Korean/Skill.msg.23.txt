@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>적정 거리가 늘어난다
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>적정 거리가 크게 늘어난다
+<string>적정 거리가 크게 늘어난다.<lf>적정 거리에서 명중한 사격의<lf>위력이 상승한다.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>예리도가 황색 이하일 때<lf>주는 대미지 1.05배
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>공격의 위력을 크게 감소.<lf>스태미나 소비량을 50％ 감소
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>대미지 경감 30%
+<string>대미지를 10%경감시키고<lf>조건을 달성한 경우 추가로 20％ 경감
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>대미지 경감 50%
+<string>대미지를 20%경감시키고<lf>조건을 달성한 경우 추가로 30％ 경감
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>대미지 경감 80%
+<string>대미지를 30%경감시키고<lf>조건을 달성한 경우 추가로 50％ 경감
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>스킬 발동 중,<lf>공격력 1.05배
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>폭파 피해를 받지 않는다
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>물가/기름 진흙의 이동 제한과<lf>탁류의 영향을 무효화한다
+<string>물가/기름 진흙의 이동 제한과<lf>탁류의 영향을 무효화하고,<lf>중유의 이동 제한이 경감된다.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>추가로 파도에 의한 영향을<lf>무효화한다
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>작열화Ⅱ
 <string>추가로 주는 불속성 대미지가<lf>상승한다
 <string>무결점의 방어Ⅰ
-<string>체력이 최대일 때<lf>받는 대미지를 5% 경감한다
+<string>체력이 최대일 때<lf>받는 대미지를 20% 경감한다
 <string>무결점의 방어Ⅱ
-<string>체력이 최대일 때<lf>받는 대미지를 10% 경감한다
+<string>체력이 최대일 때<lf>받는 대미지를 35% 경감한다
 <string>전투의 함성Ⅰ
 <string>제스처 '우렁찬 외침' 시 일정<lf>시간 동안 주위의 공격력이 조금 상승.<lf>동반자/서포트 헌터에게 효과가 크다.
 <string>전투의 함성Ⅱ
@@ -816,6 +816,10 @@
 <string>몽화 의식 기간 중 퀘스트 보수에<lf>특별한 아이템이 추가됨<lf>(퀘스트 도중 참가 시 발동하지 않음)
 <string>땅의 은총【몽화】Ⅱ
 <string>몽화 의식 기간 중 퀘스트 보수에<lf>특별한 아이템이 추가되며<lf>공격력과 방어력이 크게 상승
+<string>땅의 은총【축요】Ⅰ
+<string>축요 의식 기간 중 퀘스트 보수에<lf>특별한 아이템이 추가됨<lf>(퀘스트 도중에는 발동하지 않음)
+<string>땅의 은총【축요】Ⅱ
+<string>축요 의식 기간 중 퀘스트 보수에<lf>특별한 아이템이 추가되며<lf>공격력과 방어력이 크게 상승
 <string>살의의 파동
 <string>특수 액션의 위력이 강화된다.<lf>드라이브 임팩트로 상쇄할 수 있고<lf>성공하면 일정 시간 더 강화된다.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>스킬 효과 발동
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>스킬 효과 발동<lf>(발동 후 일정 시간<lf>재발동하지 않음)
+<string>스킬 효과 발동<lf>(발동 후 일정 시간 재발동하지 않으나,<lf>모으기 공격을 했을 때 대미지를 받는다)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>스킬 효과 발동
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>퀘스트 시작 후 공명: 원거리나<lf>근거리가 번갈아 발동하고, 조건을<lf>만족하면 공격력 또는 회심률 상승
 <string>공명Ⅱ
 <string>공명Ⅰ 효과와, 무기 스킬<lf>'방패 장착' 또는<lf>'연계 프로그램' 효과 상승
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>스킬 효과 발동
+<string>선전호응Ⅰ
+<string>전투 중에 대형 몬스터가<lf>분노하면 속성 공격치가 상승한다.
+<string>선전호응Ⅱ
+<string>Ⅰ의 효과가 높아지며 일정 시간 동안<lf>대미지를 막는 방벽을 얻는다. (방벽은<lf>일정 시간이 지나야 재발동함)
 <string>연격 강화Ⅰ
 <string>'연격' 스킬 효과 발동 시<lf>유효 시간 연장, 기초 공격력+8
 <string>연격 강화Ⅱ
@@ -865,7 +875,7 @@
 <string>만용의 식탁Ⅰ
 <string>잘 익은 고기 등 아이템을 먹으면<lf>일정 시간 동안 기초 공격력+15
 <string>만용의 식탁Ⅱ
-<string>잘 익은 고기 등 아이템을 먹으면<lf>일정 시간 동안 기초 공격력+25
+<string>잘 익은 고기 등 아이템을 먹으면<lf>일정 시간 동안 기초 공격력+30
 <string>무진장Ⅰ
 <string>추가 스태미나 게이지를 획득한다
 <string>무진장Ⅱ

@@ -38,8 +38,8 @@
 <string>「釣大魚」就是要和魚一決勝負。<lf>魚在掙扎時，按照魚游動的方向推動<ICON PL_DUMMY_MOVE>，<lf>減少魚線的負擔吧。
 <string>「釣大魚」就是要和魚一決勝負。<lf>魚在掙扎時，按照魚游動的方向<lf>按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>，減少魚線的負擔吧。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>魚因為疲倦而動作遲緩的時候就是機會！<lf>上下推動<ICON PL_DUMMY_MOVE>收線吧。
-<string>魚因為疲倦而動作遲緩的時候就是機會！<lf>交替連按<ICON PL_MOVE_FRONT>和<ICON PL_MOVE_BACK>收線吧。
+<string>魚因為疲倦而動作遲緩的時候就是機會！<lf>轉動<ICON PL_DUMMY_MOVE>收線吧。
+<string>魚因為疲倦而動作遲緩的時候就是機會！<lf>交替輸入<ICON PL_MOVE_FRONT>和<ICON PL_MOVE_BACK>收線吧。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>魚接近障礙物時，試著朝魚游動的反方向<lf>推動<ICON PL_DUMMY_MOVE>以控制魚的行動吧。記得要避開<lf>岩石附近。
 <string>魚接近障礙物時，試著朝魚游動的反方向<lf>按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>以控制魚的行動吧。記得要<lf>避開岩石附近。
@@ -47,8 +47,8 @@
 <string>此時將<ICON PL_DUMMY_MOVE>推向魚跳躍的方向，再按<ICON PL_FISHING_ACTION>，<lf>就可放倒釣竿，控制魚的動作。
 <string>此時按照魚跳躍的方向按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>，<lf>再按<ICON PL_FISHING_ACTION>，就可放倒釣竿，控制魚的動作。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">快速收線</COLOR>：快速推動<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">緩慢收線</COLOR>：緩慢推動<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">蕩餌</COLOR>：反覆推動<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">快速收線</COLOR>：快速按<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">緩慢收線</COLOR>：緩慢按<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">蕩餌</COLOR>：反覆按<ICON PL_MOVE_BACK>並放手
+<string><COLOR preset="TXT_Accent">快速收線</COLOR>：快速推動<ICON merge="PL_DUMMY_MOVE,TURN_ON"><lf><COLOR preset="TXT_Accent">緩慢收線</COLOR>：緩慢推動<ICON merge="PL_DUMMY_MOVE,TURN_ON"><lf><COLOR preset="TXT_Accent">蕩餌</COLOR>：反覆推動<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">快速收線</COLOR>：快速按<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">緩慢收線</COLOR>：緩慢按<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">蕩餌</COLOR>：連按<ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">讓魚遠離障礙物</COLOR>：朝障礙物的反方向推動<ICON PL_DUMMY_MOVE>
 <string><COLOR preset="TXT_Accent">讓魚遠離障礙物</COLOR>：朝障礙物的反方向<lf>　　　　　　　　按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>
@@ -68,14 +68,14 @@
 <string>一定時間內無法行動。反覆推動<ICON PL_DUMMY_MOVE><lf>或使用消散劑就可解除。
 <string>一定時間內無法行動。反覆按<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>或使用消散劑就可解除。
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string>快速收線：快速上下推動<ICON PL_DUMMY_MOVE>
-<string>快速收線：快速反覆按<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string>快速收線：快速轉動<ICON PL_DUMMY_MOVE>
+<string>快速收線：快速反覆輸入<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>緩慢收線：緩慢上下推動<ICON PL_DUMMY_MOVE>
-<string>緩慢收線：緩慢反覆按<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string>緩慢收線：緩慢轉動<ICON PL_DUMMY_MOVE>
+<string>緩慢收線：緩慢反覆輸入<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>蕩餌：反覆向下推動<ICON PL_DUMMY_MOVE>
-<string>蕩餌：反覆按<ICON PL_MOVE_BACK>
+<string>蕩餌：連按<ICON PL_MOVE_BACK>
 <string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
 <string>在支援櫃台可使用各種線上功能，包括前往<lf>線上商店、領取內容和查看通知。<COLOR preset="TXT_Accent">今後更會<lf>追加其他功能。</COLOR>
 <string>在支援櫃台可使用各種線上功能，包括前往<lf>Steam商店、領取內容和查看通知。<COLOR preset="TXT_Accent">今後<lf>更會追加其他功能。</COLOR>
@@ -145,3 +145,9 @@
 <string>畫面左側的導蟲通知會顯示找到的道具與<lf>機關。想知道它們在哪裡的話，可以<lf><ICON PL_AIM_SHOOTING>＋<ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>注視。
 <string>按<ICON UI_LIST_TRIGGER_L_LEFT>就能打開地圖選單，使用各種功能。
 <string>按<ICON UI_LIST_TRIGGER_L_LEFT>或<ICON UI_LIST_TRIGGER_L_RIGHT>就能打開地圖選單，<lf>使用各種功能。
+<string>快速收線（快速轉動）
+<string>快速收線（快速交替按鍵）
+<string>緩慢收線（緩慢轉動）
+<string>緩慢收線（緩慢交替按鍵）
+<string><COLOR preset="TXT_Accent">控制掙扎的魚</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">收線</COLOR>：<ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">控制掙扎的魚</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">收線</COLOR>：<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

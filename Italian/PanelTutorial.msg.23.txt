@@ -261,7 +261,7 @@
 <string>Migliora arma
 <string>Usa i materiali per potenziare le armi<lf>e ottenere abilità e aspetti diversi.
 <string>Serie armi
-<string>La <COLOR preset="TXT_Accent"><REF MsgGUI080101_0000></COLOR> mostra i derivati di ogni arma,<lf>mentre l'<COLOR preset="TXT_Accent">elenco forgiature</COLOR><lf>e l'<COLOR preset="TXT_Accent">elenco migliorie</COLOR>mostrano cosa puoi creare o potenziare<lf>in questo momento.
+<string>La <COLOR preset="TXT_Accent"><REF MsgGUI080101_0000></COLOR> mostra i derivati di ogni arma,<lf>mentre l'<COLOR preset="TXT_Accent">elenco forgiature</COLOR><lf>e l'<COLOR preset="TXT_Accent">elenco migliorie</COLOR> mostrano cosa puoi creare o potenziare<lf>in questo momento.
 <string>Serie armi e forgiabili/migliorabili
 <string>Puoi fare preparativi di base per le cacce<lf>negli accampamenti improvvisati,<lf>come rifornire gli oggetti e cambiare<lf>l'equipaggiamento.<lf><ICON UI_LIST_TRIGGER_L1>/<ICON UI_LIST_TRIGGER_R1>: cambia menu accampamento
 <string>Montare accampamenti mobili
@@ -481,7 +481,7 @@
 <string>Colpi precisi
 <string>Premi <ICON WP05 PL_ATTACK_SP_B> mentre tieni premuto <ICON WP05 PL_AIM><lf>per eseguire un <COLOR preset="TXT_Accent">colpo preciso</COLOR>.<lf>Se l'attacco colpisce una ferita,<lf>la distruggerà infliggendo molti<lf>danni e stordirà il mostro.
 <string>Note durante colpo preciso
-<string>Premi <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> nel momento giusto<lf>durante un colpo preciso per eseguire<lf>fino a cinque note.
+<string>Premi <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> o <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> nel momento giusto<lf>durante un colpo preciso per eseguire<lf>fino a sei note.
 <string>Ferite
 <string>Attacca ripetutamente la stessa parte di<lf>un mostro per causare una <COLOR preset="TXT_Accent">ferita</COLOR>.<lf><lf>L'azione renderà il mostro vulnerabile,<lf>permettendoti di infliggere più danni.<lf>Usa la <COLOR preset="TXT_Accent">modalità precisione</COLOR><lf>per bersagliare la ferita.
 <string>Colpi precisi
@@ -611,7 +611,7 @@
 <string>Comandi per la pesca
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Comandi per la pesca
-<string><COLOR preset="TXT_Accent">Gestisci la lenza:</COLOR> <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Tira su:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Comandi per la pesca
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Comandi per la pesca
@@ -971,13 +971,13 @@
 <string>Usare il menu di scelta rapida
 <string>Registra le abilità di pittomanzia <lf>nel menu di scelta rapida <lf>per poterle usare rapidamente<lf>e facilmente.
 <string>Brandire il potere del cavaliere nero
-<string>Se l'abilità set concessa da un'armatura<lf>specifica è attiva, puoi usare l'oggetto<lf>esclusivo: <COLOR preset="TXT_Accent">La notte più nera</COLOR>.
+<string>Quando l'abilità set di questa armatura<lf>è attiva, puoi usare l'oggetto esclusivo:<lf><COLOR preset="TXT_Accent">La notte più nera</COLOR>.
 <string>La notte più nera
 <string>Premi <ICON PL_ITEM> per usare l'oggetto e creare<lf>una potente barriera che consuma salute.<lf>Ha un tempo di recupero.
 <string>Lama dell'ombra
 <string>Verrà eseguito un fendente frontale se<lf>la barriera si esaurisce senza essere<lf>distrutta, oppure si attiva premendo <ICON PL_BT_RIDE_ATTACK_L>.
 <string>Vespro
-<string>Se la barriera viene distrutta da un<lf>attacco nemico, si scatena un potente<lf>contrattacco ottenendo un <COLOR preset="TXT_Accent">potenziamento</COLOR><lf>per un tempo limitato.
+<string>Se la barriera viene distrutta da un<lf>attacco, si scatena un potente contrattacco<lf>ottenendo un <COLOR preset="TXT_Accent">potenziamento</COLOR> per un tempo<lf>limitato.
 <string>Uso del menu di scelta rapida
 <string>Registra La notte più nera nel menu di<lf>scelta rapida per usarla anche quando<lf>l'arma è estratta. Leggi la<lf><COLOR preset="TXT_Accent">guida Comandi di base</COLOR> per i dettagli.
 <string>La mappa dettagliata
@@ -1032,6 +1032,84 @@
 <string>Quando la Sintonia remota è attiva,<lf><COLOR preset="TXT_Accent">allontanati</COLOR> dagli altri cacciatori per<lf>aumentare l'attacco.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Esercitazioni di caccia
+<string>Le <COLOR preset="TXT_Accent">esercitazioni di caccia</COLOR> sono state<lf>aggiunte all'elenco delle missioni<lf>facoltative.
+<string>Esercitazioni di caccia
+<string>Durante le esercitazioni di caccia, la<lf>posizione iniziale e la difficoltà dei<lf>bersagli non cambiano e non compaiono<lf>altri mostri grandi.
+<string>Esercitazioni di caccia
+<string>Il modo perfetto per concentrarsi su<lf>mostri specifici e studiare le mosse.<lf>Le esercitazioni di caccia sono elencate<lf>tra le <COLOR preset="TXT_Accent">Missioni facoltative</COLOR>.
+<string>Festival dell'Armonia: Luminalia
+<string>Durante i festival, vengono aggiunte<lf>funzioni speciali al Centro supremo.<lf>Saranno disponibili per un periodo di<lf>tempo limitato, quindi non perdertele!
+<string>Cacciatore di supporto limitato!
+<string>Durante l'evento, i razzi SOS richiamano<lf>un cacciatore di supporto speciale. La<lf>disponibilità dipende dalla missione e<lf>dal livello di progressione.
+<string>Il pieno di piatti stagionali!
+<string>Sfrutta i pasti a tempo limitato della<lf>mensa scambiando un buono Luminalia.<lf>Ottienili accedendo durante l'evento!
+<string>Idoneità buono Luminalia
+<string>I buoni pasto permettono di mangiare a<lf>più persone, ma solo chi li usa può<lf>provare i piatti esclusivi dell'evento.
+<string>Dai ad Alma un nuovo look!
+<string>È disponibile un abito speciale per far<lf>immergere gli assistenti nell'atmosfera<lf>di Luminalia. Parla con Alma al Centro<lf>supremo per cambiare il suo look!
+<string>Richieste limitate aggiornate!
+<string>Aggiornate quotidianamente, le richieste<lf>limitate danno dei biglietti Luminalia,<lf>che possono essere utilizzati per creare<lf>equipaggiamento stagionale limitato.
+<string>Bonus di accesso extra!
+<string>Durante l'evento, ora ricevi due buoni<lf>megafortuna al giorno invece di uno e<lf>ricompense come i biglietti Luminalia.
+<string>Missioni evento in arrivo!
+<string>Sono disponibili una serie di missioni<lf>evento a tempo limitato! Ci sono anche<lf>alcune delle precedenti missioni evento.
+<string>Armi Artian Gogma
+<string>Da qui in avanti, puoi usare i materiali<lf>Gogma che ricavi dai Gogmazios con le<lf>armi Artian per trasformarle in armi<lf>ancora più potenti.
+<string>Armi Artian Gogma
+<string>Oltre a fornire un'abilità bonus e un'abilità <lf>gruppo, le armi Artian Gogma possono <lf>avere bonus di rinforzo ancora più potenti.
+<string>Forgiare armi Artian Gogma
+<string>Puoi trasformare un'arma Artian in una<lf>arma Artian Gogma usando tre materiali<lf>Gogma dello stesso tipo. L'arma ottenuta<lf>manterrà i bonus di rinforzo precedenti.
+<string>Forgiare armi Artian Gogma
+<string>Il tratto dell'arma Artian Gogma potenziata<lf>dipenderà dal <COLOR preset="TXT_Accent">tratto Gogma</COLOR> dei materiali<lf>impiegati per la forgiatura. Scegli quello che<lf>meglio si adatta al tuo modo di giocare.
+<string>Forgiare armi Artian Gogma
+<string>Trasformare un'arma Artian in un'arma<lf>Artian Gogma le conferisce due abilità<lf>casuali: un'abilità bonus e un'abilità<lf>gruppo. Puoi modificare queste abilità<lf>anche successivamente, investendo<lf>nuovi materiali.
+<string>Potenziare le armi Artian Gogma
+<string>I bonus di rinforzo per le armi Artian<lf>Gogma sono ancora più forti di quelli<lf>delle armi Artian normali.<lf>Visita il menu <COLOR preset="TXT_Accent">Riforgia armi Artian Gogma</COLOR><lf>nel menu del fabbro per cominciare.
+<string>Riforgiare armi Artian Gogma
+<string>Sono ora disponibili due nuove schede nel<lf>menu <BOLD>Riforgia armi Artian Gogma</BOLD>:<lf><COLOR preset="TXT_Accent">Riforgiatura</COLOR> e <COLOR preset="TXT_Accent">Modifica abilità</COLOR>.<lf>Utilizza <ICON UI_LIST_TRIGGER_L1> e <ICON UI_LIST_TRIGGER_R1> per passare da una<lf>scheda all'altra.
+<string>Riforgiare armi Artian Gogma
+<string>Una volta che un'arma è stata rinforzata al<lf>massimo, la <COLOR preset="TXT_Accent">Riforgiatura</COLOR> ti permette di <BOLD>modificare</BOLD><lf>tutti i bonus di rinforzo in un colpo solo.<lf>È anche possibile ottenere dei bonus speciali<lf>migliorati in alcuni slot.
+<string>Riforgiare armi Artian Gogma
+<string>La <COLOR preset="TXT_Accent">Riforgiatura</COLOR> ti permette di <BOLD>modificare</BOLD> <lf>i bonus attuali. Puoi scegliere di mantenere<lf>i tipi di bonus attuali e generare nuovi valori<lf>casuali, o resettare completamente tutto.
+<string>Riforgiare armi Artian Gogma
+<string>La scheda <COLOR preset="TXT_Accent">Modifica abilità</COLOR> ti<lf>consente di usare materiali Gogma per<lf>modificare le abilità bonus e gruppo<lf>applicate all'arma. Ricorda che non puoi<lf>cambiare il suo tratto Gogma.
+<string>Riforgiare armi Artian Gogma
+<string>Puoi scegliere di non applicare i<lf>risultati delle modifiche e<lf>mantenere le abilità o i valori<lf>originali. Ricorda, però, che i<lf>materiali usati in ogni tentativo<lf>andranno persi.
+<string>Temprare l'armatura
+<string>È ora possibile <COLOR preset="TXT_Accent">temprare le armature</COLOR>.<lf>La funzionalità è disponibile solo <lf>per le armature di alto grado.
+<string>Temprare l'armatura
+<string>La tempra aumenta i limiti<lf>di potenziamento con Sfere-armatura<lf>e potenzia gli slot gioiello di alcune<lf>armature.
+<string>Potenziamenti slot gioielli
+<string>Le armature di rarità 5 vedranno tre dei loro<lf>slot potenziati, mentre le armature<lf>di rarità 6 ne vedranno potenziati due<lf>(se l'armatura ha uno slot di livello 3,<lf>vengono aggiornati solo gli altri slot).
+<string>Aggiunte alla funzione di fusione
+<string>Da qui in avanti, puoi usare i materiali<lf>Gogma quando <COLOR preset="TXT_Accent">fondi minerali</COLOR>.
+<string>Attaccare le zampe alate
+<string>Attacca ripetutamente le zampe alate per<lf>far cadere il Gogmazios. Se riesci a farlo,<lf>sfrutta l'occasione per attaccare la sua <lf>schiena per staccare il Flagella draghi.
+<string>Usare le armi occasionali
+<string>La zona dove caccerai il Gogmazios ha<lf>diverse armi occasionali che possono<lf>infliggere molti danni al drago anziano.<lf>Tieni gli occhi aperti e cerca di<lf>sfruttare ogni vantaggio.
+<string>Caricare il Flagella draghi
+<string>Il Flagella draghi convergente necessita di<lf>energia per potere far fuoco. Tira i <COLOR preset="TXT_Accent">lacci</COLOR> del<lf>Fulcro fino al Flagella draghi convergente<lf>e attaccali alle prese di energia per caricarlo.
+<string>Velocità di carica e potenza
+<string>Più lacci colleghi al Flagella draghi,<lf>più potente e rapida sarà la carica.<lf>Connetti i lacci a ciascuna delle<lf>tre prese per caricare più rapidamente<lf>e raggiungere la massima potenza.
+<string>L'importanza dell'elemento di tipo drago
+<string>Infliggere continuamente danni <lf>al Gogmazios ridurrà la potenza<lf>del suo attacco speciale più devastante.<lf>L'elemento drago è il più efficace<lf>in questo.
+<string>La guardia di Fabius
+<string>Se riesci ad attaccare il Gogmazios<lf>abbastanza da indebolire il suo attacco<lf>speciale, puoi ripararti dietro Fabius<lf>per sopravvivere all'attacco.<lf>Trovalo e mettiti dietro di lui!
+<string>Altre strategie di sopravvivenza
+<string>Se riesci a indebolire il Gogmazios,<lf>puoi anche resistere al suo attacco<lf>speciale se hai armi che possono<lf>bloccare equipaggiate. Se ci sono<lf>luoghi elevati, puoi sfruttarli per la<lf>ritirata ed evitare l'attacco.
+<string>Forgiare le nuove armi speciali
+<string>Ora puoi creare nuove armi speciali<lf>usando i <COLOR preset="TXT_Accent">materiali Gogma</COLOR> ottenuti come<lf>ricompense speciali.<lf><lf>Vai dal fabbro per ulteriori dettagli.
+<string>Ricavare materiali bonus
+<string>Alcune parti del Gogmazios hanno<lf>materiali Gogma attaccati ad esse.<lf>Rompi queste parti per ottenere<lf>ulteriori materiali come ricompensa.
+<string>Per veterani: missioni ambiente speciali
+<string>Le <COLOR preset="TXT_Accent">missioni ambiente speciali</COLOR> sono<lf>missioni avanzate in cui si cacciano più<lf>mostri potenti contemporaneamente.
+<string>Ottieni ricompense speciali
+<string>Completando queste missioni otterrai<lf>delle speciali <COLOR preset="TXT_Accent">targhette</COLOR>. Collezionale tutte per<lf>dimostrare la tua abilità!
+<string>Nota sulle missioni online in corso
+<string>Se ti unisci a una di queste missioni mentre è<lf>in corso e la completi, non riceverai targhette<lf>speciali. Devi esserci sin dal suo inizio!
+<string>Preparati al meglio
+<string>Queste missioni sono molto difficili<lf>e richiedono un'ampia preparazione.<lf>Buona fortuna a completarle tutte!
 <string>Ferite
 <string>Puoi scambiare vecchi gioielli per<lf>ottenere punti fusione necessari per<lf><COLOR preset="TXT_Accent">fonderne di nuovi</COLOR>. <lf>Le opzioni aumenteranno man mano<lf>che soddisferai tutte le condizioni.
 <string>Gioielli e set equipaggiamento

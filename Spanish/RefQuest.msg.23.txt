@@ -51,6 +51,7 @@
 <string>Guardar como investigación
 <string>Crear misión
 <string>Aceptar misión
+<string>Empezar estudio
 <string>¿Quieres gastar {0} <PLURAL {0} "punto" "puntos"><lf>para guardar como investigación?
 <string>Guardado como investigación.
 <string><COLOR preset="TXT_Danger">No tienes suficientes puntos del gremio.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">No disponible durante esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes aceptar esta misión fuera del gran centro.</COLOR>
 <string><COLOR preset="TXT_Danger">No disponible durante esta misión.</COLOR>
+<string><COLOR preset="TXT_Danger">No se puede publicar esta misión porque aún no está desbloqueada.</COLOR>
 <string>Volver a la pantalla del título
 <string>Reintentar
 <string>Abate a {0}
@@ -101,6 +103,7 @@
 <string>Baúl de tasación (talismanes)
 <string>Los objetos marcados que superen la<lf>capacidad del baúl de equipamiento se<lf>venderán automáticamente. Consulta los<lf>detalles para obtener más información.
 <string><COLOR preset="TXT_Danger">No has podido recibir {0} <PLURAL {0} "talismán" "talismanes"><lf>ya que el baúl de equipamiento está lleno.<lf><lf>Si eliges <BOLD>coger todo</BOLD>, se venderán<lf>automáticamente los objetos marcados.</COLOR>
+<string>Recompensas especiales
 <string>Misión<lf>completada
 <string>Misión<lf>fallida
 <string>Volviendo<lf>a la base
@@ -204,6 +207,7 @@
 <string>Festival de la Armonía: Floradanza
 <string>Festival de la Armonía: Chisparranda
 <string>Festival de la Armonía: Sueñiencanto
+<string>Festival de la Armonía: Iluminario
 <string>La plegaria de la Diva empieza en {0} min.
 <string>La plegaria de la Diva resuena.
 <string>Plegaria de la Diva
@@ -242,6 +246,10 @@
 <string>Los cazadores de apoyo se unirán independientemente de las opciones multijugador.
 <string>No unirse
 <string>Los cazadores de apoyo no se unirán independientemente de las opciones multijugador.
+<string>Recordatorio de vale suertudo
+<string>Activa un recordatorio para usar los vales suertudos. Se te enviará una notificación de chat importante al empezar cada misión.
+<string>No
+<string>Sí
 <string>Detalles adicionales
 <string>Reglas para las misiones desafío abiertas<lf>- Bengala de auxilio automática: puedes enviar bengalas de auxilio.<lf>- Acceso a misiones: no es posible unirse a misiones ya empezadas.<lf>- Los cazadores de apoyo participan en la misión desde el principio.
 <string>Normas de misiones de desafío y de la Arena<lf>- El número máximo de participantes es 2.<lf>- Bengala de auxilio automática: no puedes enviar bengalas de auxilio.<lf>- Acceso a misiones: no es posible unirse a misiones ya empezadas.<lf>- Los cazadores de apoyo participan en la misión desde el principio.<lf>- Los camaradas no pueden unirse a la misión.<lf>- Los efectos de menú <COLOR preset="TXT_Danger">se desactivarán temporalmente durante<lf>la misión</COLOR>. (Se restaurarán al terminar la misión).<lf>- Los efectos de estado de objetos y melodías <COLOR preset="TXT_Danger">desaparecerán<lf>tras iniciar la misión</COLOR>.<lf><lf>Reglas para las misiones desafío abiertas<lf>- Bengala de auxilio automática: puedes enviar bengalas de auxilio.<lf>- Acceso a misiones: no es posible unirse a misiones ya empezadas.<lf>- Los cazadores de apoyo participan en la misión desde el principio.
@@ -270,6 +278,11 @@
 <string>Ascendente
 <string>Descendente
 <string>Recomendado
+<string>Sin contraseña
+<string>Misiones empezadas
+<string>Espacios disponibles
+<string>Menos intentos restantes
+<string>Más intentos restantes
 <string>Eliminar investigación
 <string>¿Quieres eliminar la investigación seleccionada?<lf><lf>Aviso: Si la misión sigue en tu <COLOR preset="TXT_Accent">historial de<lf>estudio de campo</COLOR>, el historial también se borrará.
 <string>Investigación eliminada.
@@ -301,3 +314,11 @@
 <string>¿Quieres confirmar este equipamiento?
 <string>Esperando a los demás jugadores.
 <string>Récord de puntuación
+<string>Última misión jugada
+<string>Disponibilidad: <DATETIME {0} "YYYY/MM/DD HH:mm"> – <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>Publicar
+<string>Buscar por misión de miembros de sala
+<string>Buscar misiones bengala auxilio similares
+<string>Guardar
+<string>Publicar (quedan {0})
+<string>Buscar por <EMID {0}>

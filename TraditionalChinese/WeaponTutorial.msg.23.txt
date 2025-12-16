@@ -559,10 +559,10 @@
 <string>受攻擊時不會後仰。
 <string>
 <string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
-<string>不會受炎熱、寒冷的原野環境影響，<lf>亦不會受溶岩或尖刺等地形帶來的傷害。
+<string>不會受炎熱、寒冷的原野環境影響，<lf>亦不會受溶岩或尖刺等地形帶來的傷害。<lf><lf>然而，此技能無法使「深淵溶岩」的傷害<lf>無效，只能將其減輕。
 <string>
 <string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
-<string>在水域或油泥區域時移動不會變慢，<lf>亦不受魔物造成的波浪影響。
+<string>在水域或油泥區域時移動不會變慢，<lf>亦不受魔物造成的波浪影響。<lf><lf>然而，此技能無法完全使「重油」造成的<lf>移動速度下降無效，只能將其減輕。
 <string>
 <string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
 <string>不會陷入任何狀態異常。<lf>（無法使《FFXIV》的體力上限下降<lf>　狀態異常無效）
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string>紅色<REF ActionGuideDataNameText_Wp10_m508432000>狀態時<ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>吸收紅色精華後就可按<ICON WP10 PL_ATTACK_01>蓄力。在地上<lf>蓄力一定時間後<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出<REF ActionGuideDataNameText_Wp10_m851556800>，<lf>在空中則會改為使出<REF ActionGuideDataNameText_Wp10_m295633312>。<lf><lf>使出其他攻擊時也可保持蓄力狀態，連段<lf>期間<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出各種招式。<lf><lf>吸收三色精華後，在蓄力攻擊後更可<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>使出收尾攻擊。此攻擊會解除<lf>強化狀態，但威力強大，此時<REF RefEquipment_0001_010_0>的攻擊<lf>更會採集多種精華。
+<string>吸收紅色精華後就可按<ICON WP10 PL_ATTACK_01>蓄力。在其他各種<lf>行動中可維持蓄力狀態。在地上蓄力一定<lf>時間後<ICON WP10 PL_ATTACK_01><ICON RELEASE>會使出<REF ActionGuideDataNameText_Wp10_m851556800>，在空中則會改為<lf>使出<REF ActionGuideDataNameText_Wp10_m295633312>。<REF ActionGuideDataNameText_Wp10_m851556800>和<REF ActionGuideDataNameText_Wp10_m851556800>可從各種<lf>招式後接續使出，也可不蓄力，直接<lf>以<ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>使出。<lf><lf>另外，吸收三色精華後，在<REF ActionGuideDataNameText_Wp10_m851556800>和<REF ActionGuideDataNameText_Wp10_m851556800>後<lf>更可<ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>使出強力攻擊。此攻擊會解除<lf>強化狀態，但可一併採集多種精華。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

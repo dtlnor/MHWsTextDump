@@ -37,7 +37,7 @@
 <string>心眼
 <string>攻击不易被弹开，对坚硬部位的<lf>攻击威力上升。
 <string>弹道强化
-<string>扩大弹药、箭矢可击出最大威力的范围。
+<string>扩大弹药、箭矢可击出最大威力的范围。<lf>技能等级提升时威力也会上升。
 <string>钝器能手
 <string>锋利度较差时，造成的伤害提升。
 <string>集中
@@ -51,7 +51,7 @@
 <string>格挡性能
 <string>格挡时不易后仰，并减少耐力消耗。
 <string>格挡强化
-<string>可以格挡原本无法格挡的攻击。
+<string>减少格挡时所受伤害，并可以格挡原本<lf>无法格挡的攻击。
 <string>攻击守势
 <string>抓准时机格挡成功时，会提升一定时间<lf>的攻击力。
 <string>拔刀术【技】
@@ -103,7 +103,7 @@
 <string>会心击【特殊】
 <string>提升会心攻击时造成的状态异常值。<lf>（麻痹、毒、睡眠、爆破）
 <string>蓄击强化
-<string>大锤的蓄力攻击命中时，提升引发昏厥<lf>的能力。
+<string>大锤的蓄力攻击命中时，提升引发昏厥<lf>的能力，并增加伤害。
 <string>挑战者
 <string>战斗中的大型怪物发怒时，提升攻击力<lf>与会心率。
 <string>无伤
@@ -332,6 +332,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP11709
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_28227
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP28227
+<string>祝谣祈祷
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP30815
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_11543
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP11543
 <string>荣光盛赞
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2237
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_25348
@@ -345,7 +349,7 @@
 <string>回避装填
 <string>回避时会自动装填当前选择的弹药。
 <string>暗黑
-<string>部分蓄力斩蓄力到第2阶段或以上<lf>攻击时，自身将受到伤害，但会在<lf>一定时间内提升攻击力。
+<string>使出第2阶段或以上的部分蓄力斩时，<lf>自身将受到伤害。另外在一定时间内<lf>提升攻击力。
 <string>合成盾
 <string>精准格挡成功时，一定时间内提升自身<lf>及范围内同伴的防御力。
 <string>协作程序
@@ -354,6 +358,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP24531
 <string>欧米茄共鸣
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP31540
+<string>喵喵棒
+<string>会心攻击时，有较低概率获得各种道具
+<string>巨戟龙的默示录
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP5590
 <string>锁刃龙之饥饿
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm964369920
 <string>凶爪龙之力

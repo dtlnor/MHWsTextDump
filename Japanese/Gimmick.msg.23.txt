@@ -654,6 +654,8 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_19509
 <string>オメガ・フラグメント
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_7861
+<string><REF Item_IT_820>
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_24704
 <string>ムクロに生えたキノコ
 <string>特別な特産品が採取できる場所。
 <string>砕け落ちた主の爪
@@ -706,10 +708,14 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_28691
 <string><REF Item_IT_815>
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_4186
+<string><REF Item_IT_820>
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_4068
 <string>護竜の大繭
 <string>内部で大型の生物が蠢いている繭。<lf>孵化の時を待っているようだ。
 <string>護竜の繭
 <string>内部で小型の生物が蠢いている繭。<lf>孵化の時を待っているようだ。
+<string><REF Item_IT_820>
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_18448
 <string>座る
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m275377312
 <string>{0}　テント
@@ -744,6 +750,8 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_25598
 <string>おばけネコのかかし
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_14658
+<string>大きなキラネコ像
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_22402
 <string>ランタン
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m409968640
 <string>ランタン【導蟲】
@@ -764,6 +772,8 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_22173
 <string>かぼちゃのランタン
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_6996
+<string>はじける花火灯
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_7108
 <string>隊旗【鳥の隊】
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_m330874688
 <string>簡易キャンプ　配達食糧
@@ -800,6 +810,8 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_26600
 <string>かぼちゃのランプ
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_1369
+<string>きらぼしポール
+<string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_17436
 <string>アイテムBOX
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_4675
 <string>アイテムBOX
@@ -818,6 +830,8 @@
 <string><REF Item_IT_EXP_804>
 <string><REF Item_IT_805>
 <string><REF Item_IT_EXP_805>
+<string><REF Item_IT_806>
+<string><REF Item_IT_EXP_806>
 <string><REF Item_IT_197>
 <string><REF Item_IT_EXP_197>
 <string><REF Item_IT_14>
@@ -833,6 +847,8 @@
 <string>ネコ式大タル爆弾【納涼】
 <string>オトモアイルーが設置した大型の爆弾。<lf>通常の大タル爆弾同様、持ち上げて<lf>転がすことも可能。衝撃により爆発する。
 <string>ネコ式大タル爆弾【ソウル】
+<string>オトモアイルーが設置した大型の爆弾。<lf>通常の大タル爆弾同様、持ち上げて<lf>転がすことも可能。衝撃により爆発する。
+<string>ネコ式大タル爆弾【モリバー】
 <string>オトモアイルーが設置した大型の爆弾。<lf>通常の大タル爆弾同様、持ち上げて<lf>転がすことも可能。衝撃により爆発する。
 <string>ネコ式大タル爆弾
 <string><REF Item_IT_EXP_14>
@@ -865,6 +881,8 @@
 <string>タルコロ爆弾【納涼】
 <string>タルコロチャレンジ専用の爆弾。<lf>持ち上げて任意の場所からターゲットを<lf>めがけて転がすと、最後には爆発する。
 <string>タルコロ爆弾【ソウル】
+<string>タルコロチャレンジ専用の爆弾。<lf>持ち上げて任意の場所からターゲットを<lf>めがけて転がすと、最後には爆発する。
+<string>タルコロ爆弾【モリバー】
 <string>タルコロチャレンジ専用の爆弾。<lf>持ち上げて任意の場所からターゲットを<lf>めがけて転がすと、最後には爆発する。
 <string>食事する
 <string><COLOR FF0000>#Rejected#</COLOR> Gimmick_EXP_16007
@@ -1074,6 +1092,12 @@
 <string>狩猟に必要な資材を備えた一時的なキャンプ。<lf>装備変更やアイテムの整理を行うことができる。<lf><ICON UI_DECIDE>でファストトラベルが可能。
 <string>一時キャンプ
 <string>狩猟に必要な資材を備えた一時的なキャンプ。<lf>装備変更やアイテムの整理を行うことができる。<lf><ICON UI_DECIDE>でファストトラベルが可能。
+<string>一時キャンプ
+<string>狩猟に必要な資材を備えた一時的なキャンプ。<lf>装備変更やアイテムの整理を行うことができる。<lf><ICON UI_DECIDE>でファストトラベルが可能。
+<string>エリア１　廃工廠
+<string>狩猟に必要な資材を備えた一時的なキャンプ。<lf>装備変更やアイテムの整理を行うことができる。<lf><ICON UI_DECIDE>でファストトラベルが可能。
+<string>一時キャンプ
+<string>狩猟に必要な資材を備えた一時的なキャンプ。<lf>装備変更やアイテムの整理を行うことができる。<lf><ICON UI_DECIDE>でファストトラベルが可能。
 <string>断崖への地下道
 <string><REF RefEnvironment_0000_0002>の地下から続く道。<lf>大地の背骨に沿って進んだその先は、<lf><REF RefEnvironment_0000_0003>へと繋がっている。
 <string>油谷への地下道
@@ -1098,6 +1122,8 @@
 <string><REF RefEnvironment_0001_0001>から続く道。<lf>その先は<REF RefEnvironment_0001_0000>や<lf><REF RefEnvironment_0000_0005>へと繋がっている。
 <string>翼竜の止まり木
 <string>翼竜を利用した移動の起点。<lf>定められた場所まで安全に移動できる。
+<string>翼竜の止まり木
+<string>翼竜を利用した移動の起点。<lf>焔秤場跡まで安全に移動できる。
 <string>マイテント前
 <string>マイテントにほど近い場所。<lf><ICON UI_DECIDE>でファストトラベルが可能。
 <string>クエストカウンター前
@@ -1126,6 +1152,22 @@
 <string>今にも崩れ落ちそうな氷柱。<lf>スリンガーの弾などで衝撃を<lf>加えれば落下させられる。
 <string>溶岩の噴出口
 <string>蓄積した溶岩が噴出する危険な場所。<lf>時期によって頻度が増減する。
+<string>劣化した金屑の塊
+<string>経年劣化が進んだ伝熱管の一部。<lf>強い衝撃が加わると、たちまち落下する。
+<string>塞がれた溶岩溜まり
+<string>せき止められた溶岩の噴出口。<lf>引火性の高い気体が噴出中、火属性の<lf>攻撃で着火すれば噴火を誘発できる。
+<string>燃石炭の大塊
+<string>並外れた大きさまで成長した可燃性の岩石。<lf>持ち上げると内部で燃焼が始まり、<lf>転がして衝撃を加えると大爆発する。
+<string>燃石炭の大塊
+<string>並外れた大きさまで成長した可燃性の岩石。<lf>持ち上げると内部で燃焼が始まり、<lf>転がして衝撃を加えると大爆発する。
+<string>起動レバー
+<string>埋もれた鍛造機を起動するためのレバー。
+<string>収束破龍砲
+<string>ゴグマジオスの背に突き刺さっていた遺物。<lf>分脈束から得る竜乳エネルギーを龍属性に変換し、<lf>加速して撃ち出すことができる旧時代の巨大兵器。
+<string>煙突柱落石
+<string>導管に詰まって堆積した油泥岩。<lf>フックスリンガーで衝撃を加えれば<lf>落下させられる。
+<string>ゆるんだ分脈束
+<string>錬竜脈の分岐点にあたる「分脈束」の一部分が<lf>露出し、管状にほどけた状態。収束破龍砲への<lf>接続で竜乳エネルギーをチャージできる。
 <string>浮遊する瓦礫
 <string>空中に浮遊している瓦礫の塊。<lf>フックスリンガーで強く引っ張れば、<lf>自分の近くへと引き寄せられる。
 <string>斜めに突き出た鋭利な氷柱。この付近で頭乗り<lf>状態になれば、振り落とそうとするモンスターが<lf>激突する場合があり、傷口を作りやすい。

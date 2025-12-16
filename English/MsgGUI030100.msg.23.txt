@@ -760,10 +760,14 @@
 <string>Automatically enables HDR on supported devices,<lf>and disables it on unsupported devices.
 <string>Disable
 <string>Disables HDR output even on devices that<lf>support it.
-<string>Brightness
-<string>Adjusts the brightness of the screen.
-<string>Brightness (HDR)
-<string>Adjusts the brightness of the screen.
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Screen Brightness
+<string><PLATMSG MsgGUI030100_03_13_Help>
+<string>Adjusts the brightness of your screen.
+<string><PLATMSG MsgGUI030100_03_14>
+<string>HDR Screen Brightness
+<string><PLATMSG MsgGUI030100_03_14_Help>
+<string>Adjusts the brightness of your screen.
 <string>Performance Settings
 <string>Adjusts graphical features related to gameplay.<lf><COLOR preset="TXT_Accent">(Adjustable from Title Options.)</COLOR>
 <string>Adjusts graphical features related to gameplay.
@@ -1105,7 +1109,7 @@
 <string>Do Not Display
 <string>Does not display damage numbers.
 <string>Health Gauge Warning
-<string>Adjusts whether the Health Gauge displays<lf>a warning right before monsters perform<lf>particularly damaging attacks.
+<string>Adjusts whether the Health Gauge displays<lf>a warning when below a certain percentage or<lf>right before particularly damaging attacks.
 <string>Display
 <string>The Health Gauge displays a warning (undulates<lf>red) to indicate when a monster is about to unleash<lf>an attack that would deplete your remaining health.
 <string>Do Not Display
@@ -1307,10 +1311,12 @@
 <string>Does not display speaker names outside<lf>of cutscenes.
 <string>Hide Other Seikret
 <string>Adjusts whether Seikret other than your own<lf>are hidden.<lf><COLOR preset="TXT_Accent">(Your Seikret is always displayed.)</COLOR>
-<string>On
+<string>Hide
 <string>Does not display unmounted Seikret from other<lf>players or Support Hunters. <COLOR preset="TXT_Accent">(Seikret will still<lf>display under certain circumstances.)</COLOR>
-<string>Off
-<string>Always displays unmounted Seikret from<lf>other players or Support Hunters.
+<string>Hide During Combat
+<string>Does not display unmounted Seikret from other<lf>players or Support Hunters during combat only.<lf><COLOR preset="TXT_Accent">(Seikret will still display under<lf>certain circumstances.)</COLOR>
+<string>Show
+<string>Always displays Seikret of other players<lf>or Support Hunters.
 <string>Seikret Auto-explore
 <string>Adjusts whether your Seikret automatically enters<lf>Auto-explore Mode when no waypoint has been set.
 <string>On
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Console Speakers
+<string>Sound settings optimized for the console's speakers.
+<string>Radial Menu Selection Type
+<string>Sets the controls for Radial Menu selection.
+<string>Type 1
+<string>Keeps the presently selected menu at center<lf>while you press <INPUTMSG MsgGUI030100_INPUT_01> toward the new menu to select.
+<string>Type 2
+<string>Keeps you centered between all 8 menus<lf>while you press <INPUTMSG MsgGUI030100_INPUT_01> toward the new menu to select.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Gyroscope Controls (Handheld Mode)
+<string>When enabled, allows you to use the gyroscope to<lf>control the camera in handheld mode, as well as<lf>configure more detailed settings.
+<string>Controller Rumble Intensity
+<string>Adjusts the intensity of the controller rumble.
+<string>Weak
+<string>Medium (Normal)
+<string>Strong

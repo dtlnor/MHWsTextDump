@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Augmente la portée.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Augmente grandement la portée.
+<string>Augmente grandement la portée<lf>et améliore la puissance des<lf>attaques réalisées à bonne distance.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>Dégâts +5 % lorsque la<lf>jauge de tranchant est<lf>dans le jaune ou moins.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Diminue grandement l'impact<lf>des attaques et réduit la perte<lf>d'endurance de 50 %.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Dégâts subis -30 %
+<string>Réduit les dégâts subis de 10 %,<lf>et de 20 % additionnels dans<lf>certaines conditions.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Dégâts subis -50 %
+<string>Réduit les dégâts subis de 20 %,<lf>et de 30 % additionnels dans<lf>certaines conditions.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Dégâts subis -80 %
+<string>Réduit les dégâts subis de 30 %,<lf>et de 50 % additionnels dans<lf>certaines conditions.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>Attaque +5 % lorsqu'il est actif.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Protège du fléau-explosion.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Annule les effets des ruisseaux<lf>boueux et empêche le ralentissement<lf>dans l'eau ou la boue huileuse.
+<string>Annule effets des ruisseaux boueux, empêche<lf>ralentissement dans l'eau ou la boue huileuse<lf>et réduit ralentissement dans le pétrole lourd.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Annule aussi les effets des vagues.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Carbonisateur II
 <string>Augmente les dégâts de feu<lf>supplémentaires après une<lf>attaque réussie.
 <string>Armure sans défaut I
-<string>Réduit les dégâts subis de 5 %<lf>quand votre vie est pleine.
+<string>Réduit les dégâts subis de 20 %<lf>quand votre vie est pleine.
 <string>Armure sans défaut II
-<string>Réduit les dégâts subis de 10 %<lf>quand votre vie est pleine.
+<string>Réduit les dégâts subis de 35 %<lf>quand votre vie est pleine.
 <string>Cri de guerre I
 <string>Utiliser l'émote <BOLD>[Victoire !]</BOLD> augmente<lf>modérément l'attaque des alliés proches.<lf>(Accru sur Palicos/Chasseurs de soutien.)
 <string>Cri de guerre II
@@ -816,6 +816,10 @@
 <string>Pendant Veillée des rêves, ajoute des<lf>objets spéciaux aux récompenses.<lf>(Hors quête rejointe en cours de route.)
 <string>Bénédiction des rêves II
 <string>Pendant Veillée des rêves, ajoute des<lf>objets spéciaux aux récompenses de<lf>quête. Augmente attaque et défense.
+<string>Bénédiction des lumières I
+<string>Pendant Chant des lumières, ajoute des<lf>objets spéciaux aux récompenses.<lf>(Hors quête rejointe en cours de route.)
+<string>Bénédiction des lumières II
+<string>Pendant Chant des lumières, ajoute des<lf>objets spéciaux aux récompenses de<lf>quête. Augmente attaque et défense.
 <string>Satsui no Hado
 <string>Actions spéciales renforcées. Les Drive<lf>Impacts peuvent neutraliser. Après une<lf>Neutralisation, augmente la puissance.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Active l'effet.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Active l'effet.<lf>(Ne se réactive pas avant<lf>un certain temps.)
+<string>Active l'effet. (Nécessite un temps de<lf>rechargement, mais les attaques chargées<lf>vous infligent toujours des dégâts.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Active l'effet.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>(Au début de la quête) Résonance proche<lf>et Résonance éloignée alternent,<lf>augmentant l'attaque ou l'affinité<lf>lorsque les conditions sont remplies.
 <string>Résonance II
 <string>Augmente l'effet de Résonance I, du<lf>talent d'arme Bouclier synthétique<lf>ou de Programme synergique.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>Active l'effet.
+<string>Hostilité mutuelle I
+<string>Augmente l'attaque élémentaire<lf>lorsque les grands monstres<lf>sont enragés.
+<string>Hostilité mutuelle II
+<string>L'effet du niveau I augmente et vous<lf>gagnez une barrière temporaire qui se<lf>réactive après le temps de recharge.
 <string>Bonus Vendetta I
 <string>Augmente la durée du talent<lf>Vendetta et confère Attaque +8<lf>quand Vendetta est actif. 
 <string>Bonus Vendetta II
@@ -865,7 +875,7 @@
 <string>Pro des protéines I
 <string>Confère temporairement +15<lf>d'attaque après avoir consommé des<lf>objets tels que des steaks à point.
 <string>Pro des protéines II
-<string>Confère temporairement +25<lf>d'attaque après avoir consommé des<lf>objets tels que des steaks à point.
+<string>Confère temporairement +30<lf>d'attaque après avoir consommé des<lf>objets tels que des steaks à point.
 <string>Second souffle I
 <string>Confère une jauge d'endurance<lf>supplémentaire.
 <string>Second souffle II

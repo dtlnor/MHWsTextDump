@@ -51,6 +51,7 @@
 <string>保存為調查任務
 <string>任務化
 <string>承接任務
+<string>開始調查
 <string>要使用{0}<REF RefGeneral_0015_001>保存為調查任務嗎？
 <string>已保存為調查任務。
 <string><COLOR preset="TXT_Danger">公會點數不足。</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">此任務中無法使用。</COLOR>
 <string><COLOR preset="TXT_Danger">無法於<Ref RefEnvironment_0001_0001>以外的地點承接此任務。</COLOR>
 <string><COLOR preset="TXT_Danger">於現在的任務設定下無法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">此任務尚未開放，無法承接。</COLOR>
 <string>返回標題畫面
 <string>重試
 <string>討伐{0}
@@ -101,6 +103,7 @@
 <string>鑑定箱（護身符）
 <string><COLOR preset="TXT_Danger">裝備箱無空間，將自動出售標有</COLOR><ICON NOT><COLOR preset="TXT_Danger">的道具。<lf>請確認顯示的詳細內容。</COLOR>
 <string><COLOR preset="TXT_Danger">裝備箱無空間，無法領取{0}個護石。<lf><lf>如按下「全部領取」，將自動出售標有</COLOR><ICON NOT><COLOR preset="TXT_Danger">的<lf>道具。</COLOR>
+<string>特別報酬
 <string>任務完成
 <string>任務失敗
 <string>返回營地
@@ -204,6 +207,7 @@
 <string>現正舉辦<REF RefGeneral_0029_000>！
 <string>現正舉辦<REF RefGeneral_0029_001>！
 <string>現正舉辦<REF RefGeneral_0029_002>！
+<string>現正舉辦<REF RefGeneral_0029_003>！
 <string>歌姬將於{0}分鐘後獻唱祈禱之歌
 <string>歌姬正在獻唱祈禱之歌
 <string>歌姬的祈願
@@ -242,6 +246,10 @@
 <string>支援獵人會參加任務，無視多人遊玩設定。
 <string>不參加
 <string>支援獵人不會參加任務，無視多人遊玩設定。
+<string>激運票提醒通知
+<string>設定任務開始時是否於重要訊息再度提醒使用激運票。
+<string>關
+<string>開
 <string>補充說明
 <string>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
 <string>鬥技大會任務/挑戰任務規則<lf>・參加人數上限：2人<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。<lf>・隨從艾路不會參加任務。<lf>・餐點效果會在任務期間<COLOR preset="TXT_Danger">暫時消失，並於任務結束後恢復</COLOR>。<lf>・非永久狀態效果（包括道具效果和狩獵笛的旋律效果）<lf>　會在<COLOR preset="TXT_Danger">出發前往任務時消失</COLOR>。<lf><lf>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
@@ -270,6 +278,11 @@
 <string>升序
 <string>降序
 <string>推薦排序
+<string>依無密碼至有密碼排序
+<string>依開始時間新至舊排序
+<string>依空餘名額多至少排序
+<string>依尚餘次數少至多排序
+<string>依尚餘次數多至少排序
 <string>刪除調查任務
 <string>要刪除選擇的調查任務嗎？<lf><lf>注意：如「實地調查任務歷程紀錄」尚有該任務，<lf>　　　亦會從紀錄中刪除。
 <string>已刪除調查任務。
@@ -301,3 +314,11 @@
 <string>確定使用這套裝備嗎？
 <string>正在等待其他玩家。
 <string>最佳得分
+<string>上次遊玩的任務
+<string>發布時間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC) -  <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>承接
+<string>搜尋大廳成員任務
+<string>搜尋類似救難信號任務
+<string>儲存
+<string>承接（剩餘{0}次）
+<string>按<EMID {0}>搜尋

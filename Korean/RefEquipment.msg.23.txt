@@ -26,6 +26,7 @@
 <string>호석
 <string>Lv {0}
 <string>Lv {0}/{1}
+<string><COLOR preset="TXT_White01">Lv {0}</COLOR>/{1}
 <string>Lv-
 <string>{0}
 <string>-
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>방어구 강화
+<string>한계 돌파 강화
+<string>한계 돌파 강화 완료
 <string>LvUP에 필요한 강화치
 <string>최대 강화입니다
 <string>모두 표시
 <string>의상 <ICON EQUIP_TYPE1>만
+<string>의상 <ICON EQUIP_TYPE2> 외
 <string>의상 <ICON EQUIP_TYPE2>만
+<string>의상 <ICON EQUIP_TYPE1> 외
 <string>보유 장비만
 <string>원세트 방어구만
 <string>찜 목록 등록만
 <string>α장비만
 <string>β장비만
+<string>α, β 계통을 개별 표시
+<string>α, β 계통 중 α만 표시
+<string>α, β 계통 중 β만 표시
 <string>강화
 <string>생산
 <string>소재와 {0}<REF RefGeneral_0015_000>가 필요합니다. 계속하시겠습니까？
 <string>소재와 {0}<REF RefGeneral_0015_000>가 필요합니다.<lf>계속하시겠습니까?<lf><lf>(이 장비를 생산하면 <COLOR preset="TXT_Accent">덧입는 장비</COLOR>도<lf>입수 가능합니다)
 <string>원세트 방어구 장비입니다. 소재와<lf>{0}<REF RefGeneral_0015_000>로 모든 부위 방어구를 생산합니다.<lf>계속하시겠습니까?
 <string>원세트 방어구 장비입니다. 소재와<lf>{0}<REF RefGeneral_0015_000>로 모든 부위 방어구를 생산합니다.<lf>계속하시겠습니까?<lf>(이 장비를 생산하면<lf><COLOR preset="TXT_Accent">덧입는 장비</COLOR>도 입수 가능합니다)
+<string>베이스 무기와 소재, {0}<REF RefGeneral_0015_000>가<lf>필요합니다. 계속하시겠습니까？
+<string>베이스 무기와 소재, {0}<REF RefGeneral_0015_000>가 필요합니다.<lf>계속하시겠습니까?<lf><lf>(이 장비를 생산하면 <COLOR preset="TXT_Accent">덧입는 장비</COLOR>도<lf>입수 가능합니다)
 <string>장착하시겠습니까?
 <string>장비를 변경합니다.<lf><COLOR preset="TXT_Danger">(다른 부위의 원세트 방어구가 해제됩니다)</COLOR><lf>계속하시겠습니까?
 <string>원세트 방어구 장비입니다.<lf>모든 부위에 장비하시겠습니까?<lf><COLOR preset="TXT_Danger">(덧입는 장비 설정이 적용되지 않습니다)</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">이 추천 장비는 이미 소지 중이므로 생산/강화할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이 추천 장비는 이미 소지 중이므로 생산할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">소지 중인 원세트 방어구는 생산할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 장비는 한계 돌파 강화를 할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 장비는 한계 돌파 강화가 완료되었습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">희귀도 8인 아티어 무기가 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">거극 아티어 무기가 없습니다.</COLOR>
 <string>장착 중인 장비: {0}
 <string>다른 장비에 장착 중입니다.<lf>해제하시겠습니까?
 <string><COLOR preset="TXT_Danger">장착 중인 장식품입니다.</COLOR>
@@ -119,6 +133,7 @@
 <string>장식품 이름 전환
 <string>즐겨찾기 등록
 <string>장비 외형 설정
+<string>장비 외형 확인
 <string>장비 설정
 <string>자동선택
 <string>BOX에서 선택
@@ -135,6 +150,7 @@
 <string>생산 소재로 등록
 <string>강화 소재로 등록
 <string>찜 목록에 등록합니다.<lf>계속하시겠습니까?
+<string>찜 목록에 등록합니다.<lf>계속하시겠습니까?<lf><lf>'생산 소재로 등록'<lf>생산 제작에 필요한 소재로 등록합니다.<lf><lf>'강화 소재로 등록'<lf>강화 제작에 필요한 소재로 등록합니다.<lf>파생 전 무기를 소지하지 않은 경우는 모두 등록합니다.
 <string>위시리스트 등록이 필요한 장비에 생산 혹은 강화를 선택할 수 있는 장비가 포함되어 있습니다. 등록할 소재를 선택해 주십시오.
 <string>찜 목록에서 삭제
 <string>찜 목록에서 삭제합니다.<lf>계속하시겠습니까?
@@ -158,6 +174,9 @@
 <string>통
 <string>판
 <string>장치
+<string>거극
+<string>아티어 무기만
+<string>거극 아티어 무기만
 <string>복장
 <string>검색
 <string>방어력 보너스
@@ -216,6 +235,9 @@
 <string>제련치 기준
 <string>즐겨찾기순
 <string>복원 단계순
+<string>거극 성능 타입 기준
+<string>복원 단계순(내림차순)
+<string>복원 단계순(오름차순)
 <string>1~3
 <string>2~3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">소지하지 않은 장비가<lf>마이 세트에 등록되어 있습니다.</COLOR><lf>찜 목록에 자동 등록했습니다.
 <string><COLOR preset="TXT_Accent">소지하지 않은 장비가<lf>마이 세트에 등록되어 있습니다.</COLOR><lf>대상 장비는 찜 목록에<lf>이미 등록되어 있습니다.
 <string><COLOR preset="TXT_Accent">소지하지 않은 장비가<lf>마이 세트에 등록되어 있습니다.</COLOR>
+<string><COLOR preset="TXT_Accent">무작위 성능을 지닌 호석은 마이 세트 공유,<lf>헌터 프로필에서 등록할 수 없습니다.<lf>(설정 없음으로 등록됩니다)</COLOR>

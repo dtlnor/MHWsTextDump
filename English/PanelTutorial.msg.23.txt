@@ -371,7 +371,7 @@
 <string>Smelting Armor Spheres
 <string>Use monster parts to <COLOR preset="TXT_Accent">smelt armor<lf>spheres</COLOR>. The quality and quantity<lf>of smelted armor spheres will depend<lf>on the amount of smelting points you<lf>gain from the materials used.
 <string>Reinforcing Artian Weapons
-<string>Artian weapons can be <COLOR preset="TXT_Accent">Reinforced</COLOR> up<lf>to five times.
+<string>Artian weapons can be reinforced<lf>up to five times via the <COLOR preset="TXT_Accent">Reinforce <lf>Artian Weapons</COLOR> menu.
 <string>Reinforcing Artian Weapons
 <string>Consume materials to accumulate points<lf>and increase the weapon's <COLOR preset="TXT_Accent">Reinforcement<lf>Level</COLOR>. This will grant random<lf><COLOR preset="TXT_Accent">Reinforcement Bonuses</COLOR> that will improve<lf>the weapon's performance.
 <string>Obtaining Reinforcement Materials
@@ -481,7 +481,7 @@
 <string>Focus Strikes
 <string>Press <ICON WP05 PL_ATTACK_SP_B> while holding <ICON WP05 PL_AIM> to perform<lf>a <COLOR preset="TXT_Accent">Focus Strike</COLOR>. If the attack hits a wound,<lf>it will destroy the wound, dealing a large<lf>amount of damage and stunning the<lf>enemy.
 <string>Notes During Focus Strikes
-<string>Press <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> with good<lf>timing during a Focus Strike to play<lf>up to five notes.
+<string>Press <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> or <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> with good<lf>timing during a Focus Strike to play<lf>up to six notes.
 <string>Wounds
 <string>Repeatedly attack the same part of<lf>a monster to open a <COLOR preset="TXT_Accent">wound</COLOR>.<lf><lf>This will make a monster vulnerable,<lf>allowing you to inflict more damage.<lf>Use <COLOR preset="TXT_Accent">Focus Mode</COLOR> to target a wound easily.
 <string>Focus Strikes
@@ -611,7 +611,7 @@
 <string>Fishing Controls
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Fishing Controls
-<string><COLOR preset="TXT_Accent">Control the drag:</COLOR> <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Reel in:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Fishing Controls
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Fishing Controls
@@ -765,7 +765,7 @@
 <string>Artian Weapon Properties
 <string>Choosing three parts with the same<lf>element type will boost the elemental<lf>properties of the weapon. If all the<lf>parts have different element types, they<lf>will create a weapon with <COLOR preset="TXT_Accent">no elemental<lf>properties</COLOR>.
 <string>Reinforcing Artian Weapons
-<string>You can enhance Artian weapons with<lf>Artian materials. Check the <COLOR preset="TXT_Accent">Reinforce/<lf>Dismantle Artian Weapons</COLOR> menu at the<lf>Smithy to get started.
+<string>You can enhance Artian weapons with<lf>Artian materials. Check the <COLOR preset="TXT_Accent">Forge/Upgrade<lf>Artian Weapons</COLOR> menu at the Smithy to<lf>get started.
 <string>Enjoying Multiplayer
 <string>A Lobby has been opened, allowing you<lf>to play in multiplayer with other players.<lf>Check the Play Guide for more information.
 <string>Lobbies and Multiplayer
@@ -971,13 +971,13 @@
 <string>Use the Custom Radial Menu
 <string>Register pictomancy spells to the<lf>Custom Radial Menu ahead of time<lf>to be able to use them quickly<lf>and easily.
 <string>Wielding the Power of the Dark Knight
-<string>When the set bonus skill granted by<lf>a specific armor is active, you can use<lf>the exclusive item: <COLOR preset="TXT_Accent">The Blackest Night</COLOR>.
+<string>When the set bonus skill granted by<lf>this armor is active, you can use<lf>the exclusive item: <COLOR preset="TXT_Accent">The Blackest Night</COLOR>.
 <string>The Blackest Night
 <string>Press <ICON PL_ITEM> to use the item, creating<lf>a powerful barrier that consumes<lf>your health. Once used, it will go<lf>on cooldown.
 <string>Edge of Shadow
 <string>A forward-facing slash attack will be<lf>executed automatically when the barrier<lf>runs out without being destroyed, or can<lf>be executed immediately by pressing <ICON PL_BT_RIDE_ATTACK_L>.
 <string>Eventide
-<string>If the barrier is destroyed by an enemy<lf>attack, you will unleash a powerful<lf>counterattack and gain a <COLOR preset="TXT_Accent">special buff</COLOR><lf>for a certain amount of time.
+<string>If the barrier is destroyed by an attack,<lf>you will unleash a powerful counterattack<lf>and gain a <COLOR preset="TXT_Accent">special buff</COLOR> for a certain<lf>amount of time.
 <string>Use the Custom Radial Menu
 <string>Register The Blackest Night to the Custom<lf>Radial Menu to be able to use it even<lf>when your weapon is drawn. For more<lf>details, check the <COLOR preset="TXT_Accent">Basic Controls guide</COLOR>.
 <string>The Detailed Map
@@ -1032,6 +1032,84 @@
 <string>When Remote Resonance is active,<lf>get <COLOR preset="TXT_Accent">far</COLOR> away from other hunters<lf>to increase your attack.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Hunting Exercises
+<string><COLOR preset="TXT_Accent">Hunting Exercises</COLOR> have been added to the<lf>list of Optional Quests.
+<string>Hunting Exercises
+<string>During Hunting Exercises, conditions<lf>like the initial location and difficulty<lf>of targets are locked, and no other<lf>large monsters appear.
+<string>Hunting Exercises
+<string>This is the perfect way to focus on<lf>hunting specific monsters and study<lf>maneuvering. Hunting Exercises are<lf>available under <COLOR preset="TXT_Accent">Optional Quests</COLOR>.
+<string>Festival of Accord: Lumenhymn
+<string>During festivals, special features will<lf>be added to the Grand Hub. They'll<lf>be around for a limited time, so make<lf>sure to visit while they're available!
+<string>Limited-time Support Hunter!
+<string>During the event period, SOS Flares<lf>can summon a special Support Hunter.<lf>However, this may depend on the quest<lf>or level of progression.
+<string>Fill up on Seasonal Dishes!
+<string>Enjoy limited-time menu items at the<lf>Canteen by trading in a Lumenhymn<lf>Voucher. You can obtain them through<lf>login bonuses during the event period!
+<string>Lumenhymn Voucher Eligibility
+<string>Regular meal vouchers allow others besides<lf>the user to partake, but only the one who<lf>redeems the voucher is eligible for the<lf>menu items exclusive to the event period.
+<string>Give Alma a Refreshing New Look!
+<string>A special Lumenhymn outfit for<lf>handlers was prepared so they could<lf>join in the festivities. Talk to Alma in<lf>the Grand Hub to change her outfit!
+<string>Limited Bounties Updated Daily!
+<string>Updated daily, Limited Bounties<lf>will give you Lumenhymn Tickets,<lf>which can be used to craft limited-<lf>time seasonal equipment.
+<string>Extra Login Bonuses!
+<string>During the event period, you can now<lf>receive two Lucky Vouchers per day<lf>instead of one, as well as other<lf>rewards such as Lumenhymn Tickets!
+<string>Event Quests Incoming!
+<string>A series of limited-time Event Quests<lf>are now available! Many past Event<lf>Quests are being reintroduced.
+<string>Gogma Artian Weapons
+<string>Going forward, you can use the Gogma<lf>materials you obtain from Gogmazios with<lf>Artian weapons to upgrade them into<lf>more powerful weapons.
+<string>Gogma Artian Weapons
+<string>In addition to granting a bonus skill<lf>and group skill, Gogma Artian Weapons<lf>can activate more powerful reinforcement<lf>bonuses.
+<string>Upgrading to Gogma Artian Weapons
+<string>You can upgrade an Artian Weapon to a<lf>Gogma Artian Weapon by using three of<lf>the same type of Gogma Material.<lf>The upgraded weapon will retain its<lf>existing reinforcement bonuses.
+<string>Upgrading to Gogma Artian Weapons
+<string>The overall trait of the upgraded Gogma<lf>Artian Weapon will change depending on<lf>the <COLOR preset="TXT_Accent">Gogma Trait</COLOR> of the materials used to<lf>upgrade the weapon. Choose the trait that<lf>best suits your playstyle.
+<string>Upgrading to Gogma Artian Weapons
+<string>Upgrading a weapon into a Gogma<lf>Artian Weapon grants it two random<lf>active skills: one bonus skill and one<lf>group skill. You can reset these skills<lf>later with more materials.
+<string>Upgrading to Gogma Artian Weapons
+<string>Reinforcement bonuses for Gogma Artian<lf>Weapons are even stronger than those for<lf>the average Artian weapon. Check the<lf><COLOR preset="TXT_Accent">Reinforce Gogma Artian Weapons</COLOR> menu<lf>at the Smithy to get started.
+<string>Reinforcing Gogma Artian Weapons
+<string>Two new upgrade tabs for Gogma<lf>Artian Weapons are now available in<lf>the <BOLD>Reinforce Gogma Artian Weapons</BOLD><lf>menu: <COLOR preset="TXT_Accent">Gogma Reinforce</COLOR> and <COLOR preset="TXT_Accent">Reset<lf>Skills</COLOR>. Use <ICON UI_LIST_TRIGGER_L1> and <ICON UI_LIST_TRIGGER_R1> to change tabs.
+<string>Reinforcing Gogma Artian Weapons
+<string>Once a weapon has been fully reinforced,<lf><COLOR preset="TXT_Accent">Gogma Reinforce</COLOR> allows you to <BOLD>amend</BOLD> all<lf>of a weapon's reinforcement bonus slots at<lf>the same time. A few slots will even activate<lf>special, better-than-normal reinforcement<lf>bonuses.
+<string>Reinforcing Gogma Artian Weapons
+<string><COLOR preset="TXT_Accent">Gogma Reinforce</COLOR> allows you to <BOLD>amend</BOLD><lf>your current active bonuses. You can<lf>choose to keep the current bonus types<lf>to reapply new random values, or reset<lf>the bonuses entirely.
+<string>Reinforcing Gogma Artian Weapons
+<string>The <COLOR preset="TXT_Accent">Reset Skills</COLOR> tab allows you to use<lf>Gogma Materials to reset the bonus and<lf>group skill applied to a weapon. Note<lf>that you cannot change its Gogma Trait.
+<string>Reinforcing Gogma Artian Weapons
+<string>You can choose not to apply the results<lf>of resets or amendments and instead<lf>keep the original skills or values. Keep<lf>in mind, however, that the materials used<lf>in each attempt are not refunded.
+<string>Armor Transcending
+<string>Special <COLOR preset="TXT_Accent">Transcendent</COLOR> armor upgrades<lf>can now be performed by selecting<lf>high-rank armor.
+<string>Armor Transcending
+<string>Transcending raises the limits imposed<lf>on Armor Sphere upgrades and also powers<lf>up the decoration slots of some armor.
+<string>Decoration Slot Upgrades
+<string>Rarity 5 armor will get three of its<lf>slots upgraded, and rarity 6 armor<lf>will get two slots upgraded.<lf>(If the armor has a level 3 slot, only<lf>the other slots will get upgraded.)
+<string>Expanded Oricalcite Smelting
+<string>Going forward, you can now use Gogma<lf>materials when you <COLOR preset="TXT_Accent">Smelt Ore</COLOR>.
+<string>Attack the Wingarms to Stagger
+<string>Repeatedly attack Gogmazios's wingarms<lf>to knock it off balance. If you succeed in<lf>staggering it, use that chance to knock<lf>the Elderbreaker off its back.
+<string>Use Interactables for More Damage
+<string>The hunting area for Gogmazios has<lf>numerous interactable features that<lf>can deal massive damage to the elder<lf>dragon. Familiarize yourself with your<lf>surroundings and use them to your<lf>advantage.
+<string>Charging up the Elderbreaker
+<string>The Convergent Elderbreaker requires<lf>Wyvern Milk energy to fire. Carry strands<lf>of <COLOR preset="TXT_Accent">loose nexus</COLOR> to the energy sockets on<lf>the Elderbreaker and connect them to<lf>begin charging energy.
+<string>Charge Speed and Power
+<string>The more strands of loose nexus you<lf>connect to the Elderbreaker, the faster<lf>and more powerful its charge becomes.<lf>Connecting strands to all three sockets<lf>will charge it quickly and enable it to<lf>reach its max power.
+<string>Dragon Element Weakens Its Power
+<string>Dealing continuous damage to Gogmazios<lf>will weaken the power of its most<lf>devastating special attack. Dragon element<lf>is the most effective at this.
+<string>Fabius's Guard Support
+<string>If you succeed in attacking Gogmazios<lf>continuously enough to weaken its<lf>special attack, you can shelter behind<lf>Fabius to withstand it. Find him and get<lf>behind him!
+<string>Other Avoidance Strategies
+<string>If you are able to weaken Gogmazios, you<lf>can also withstand its special attack by<lf>using weapons capable of guarding. If any<lf>high-ground areas are remaining, you can<lf>also retreat there to avoid the attack.
+<string>New Special Weapons to Forge
+<string>You can now craft new special weapons<lf>using the <COLOR preset="TXT_Accent">Gogma Materials</COLOR> obtained as<lf>special rewards.<lf><lf>Check in at the Smithy for details.
+<string>Aim for Parts with Special Rewards
+<string>Some of Gogmazios's body parts have<lf>Gogma Materials attached to them.<lf>Break these parts for additional material<lf>rewards.
+<string>Advanced: Special Environment Quests
+<string><COLOR preset="TXT_Accent">Special Environment Quests</COLOR> are<lf>advanced quests where you hunt<lf>multiple powerful monsters at once.
+<string>Earn Special Rewards
+<string>Completing these quests will earn you<lf>special <COLOR preset="TXT_Accent">nameplates</COLOR> as a reward. You'll<lf>want to snag these as proof of your skill!
+<string>Warning about Joining Midway in Multiplayer
+<string>If you complete the quest after joining midway,<lf>you won't receive the special nameplate.<lf>Make sure you're there from the get-go.
+<string>Make Sure You Are Amply Prepared
+<string>All of these quests are very difficult.<lf>and require ample preparation. Best<lf>of luck completing them all!
 <string>Wounds
 <string>You can now trade in old decorations for<lf>melding points that you can use to <COLOR preset="TXT_Accent">meld<lf>new decorations</COLOR>. The options will<lf>increase as you fulfill the conditions.
 <string>Decorations and Equipment Loadouts

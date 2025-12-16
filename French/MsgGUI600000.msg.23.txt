@@ -38,8 +38,8 @@
 <string>Les gros spécimens sont coriaces !<lf>Utilisez <ICON PL_DUMMY_MOVE> pour orienter la ligne<lf>dans la même direction que le poisson<lf>et réduire la tension de la ligne.
 <string>Les gros spécimens sont coriaces !<lf>Utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour orienter la<lf>ligne dans la même direction que le<lf>poisson et réduire la tension de la ligne.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Quand un poisson se fatigue et ralentit,<lf>c'est votre chance ! Orientez <ICON PL_DUMMY_MOVE><lf>vers le haut et le bas pour le ramener.
-<string>Quand un poisson se fatigue et ralentit,<lf>c'est votre chance ! Appuyez plusieurs fois<lf>sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> pour le remonter.
+<string>Quand un poisson se fatigue et ralentit,<lf>c'est votre chance ! Faites touner <ICON PL_DUMMY_MOVE><lf>pour le remonter.
+<string>Quand un poisson se fatigue et ralentit,<lf>c'est votre chance ! Appuyez en alternance<lf>sur <ICON PL_MOVE_FRONT> et <ICON PL_MOVE_BACK> pour le remonter.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Si un poisson s'approche d'un obstacle,<lf>orientez <ICON PL_DUMMY_MOVE> dans la direction opposée,<lf>en évitant les rochers.
 <string>Si un poisson s'approche d'un obstacle,<lf>utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> pour orienter la ligne<lf>dans la direction opposée, en évitant<lf>les rochers.
@@ -47,8 +47,8 @@
 <string>Dans ces cas-là, orientez <ICON PL_DUMMY_MOVE> dans la<lf>direction de son saut et appuyez sur <ICON PL_FISHING_ACTION><lf>pour immobiliser le poisson.
 <string>Dans ces cas-là, orientez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>dans la direction de son saut et<lf>appuyez sur <ICON PL_FISHING_ACTION> pour immobiliser<lf>le poisson.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : <ICON merge="PL_DUMMY_MOVE,TURN_ON"> rapidement<lf><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : <ICON merge="PL_DUMMY_MOVE,TURN_ON"> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidement<lf><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentement<lf><COLOR preset="TXT_Accent">Agiter</COLOR> : <ICON PL_MOVE_BACK> plusieurs fois
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Éviter les obstacles</COLOR> : utilisez <ICON PL_DUMMY_MOVE><lf>pour éloigner le poisson des obstacles.
 <string><COLOR preset="TXT_Accent">Éviter les obstacles</COLOR> : utilisez <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>pour éloigner le poisson des obstacles.
@@ -68,14 +68,14 @@
 <string>Une affliction qui vous immobilise un temps.<lf>Bougez rapidement <ICON PL_DUMMY_MOVE> ou utilisez un nettoyant<lf>pour récupérer plus vite.
 <string>Une affliction qui vous immobilise un temps.<lf>Appuyez rapidement sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> ou utilisez<lf>un nettoyant pour récupérer plus vite.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : déplacez rapidement <ICON PL_DUMMY_MOVE><lf>vers le haut et le bas.
-<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : appuyez rapidement<lf>sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : faites tourner <ICON PL_DUMMY_MOVE> rapidement.
+<string><COLOR preset="TXT_Accent">Moulinage rapide</COLOR> : alternez rapidement entre <ICON PL_MOVE_FRONT> et <ICON PL_MOVE_BACK>.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : déplacez lentement <ICON PL_DUMMY_MOVE><lf>vers le haut et le bas.
-<string><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : appuyez lentement<lf>sur <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>.
+<string><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : faites tourner <ICON PL_DUMMY_MOVE> lentement.
+<string><COLOR preset="TXT_Accent">Moulinage lent</COLOR> : alternez lentement entre <ICON PL_MOVE_FRONT> et <ICON PL_MOVE_BACK>.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string><COLOR preset="TXT_Accent">Agiter la ligne</COLOR> : inclinez <ICON PL_DUMMY_MOVE><lf>vers le bas plusieurs fois.
-<string><COLOR preset="TXT_Accent">Agiter la ligne</COLOR> : appuyez sur <ICON PL_MOVE_BACK><lf>plusieurs fois.
+<string><COLOR preset="TXT_Accent">Agiter la ligne</COLOR> : appuyez sur <ICON PL_MOVE_BACK> plusieurs fois.
 <string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
 <string>Le Bureau de soutien vous permet d'accéder<lf>à diverses fonctions en ligne. Vous pourrez<lf>notamment récupérer du contenu, consulter<lf>les dernières nouvelles du jeu, ou encore<lf>accéder à la boutique en ligne. <COLOR preset="TXT_Accent">D'autres<lf>fonctionnalités seront ajoutées plus tard.</COLOR>
 <string>Le Bureau de soutien vous permet d'accéder<lf>à diverses fonctions en ligne. Vous pourrez<lf>notamment récupérer du contenu, consulter<lf>les dernières nouvelles du jeu, ou encore<lf>accéder au magasin Steam. <COLOR preset="TXT_Accent">D'autres<lf>fonctionnalités seront ajoutées plus tard.</COLOR>
@@ -145,3 +145,9 @@
 <string>Utilisez <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> pour localiser un objet<lf>ou un élément de l'environnement affiché<lf>dans les notifications naviciole à gauche<lf>de l'écran.
 <string>Appuyez sur <ICON UI_LIST_TRIGGER_L_LEFT> pour ouvrir le menu<lf>de la carte et accéder à de nombreuses<lf>fonctionnalités.
 <string>Appuyez sur <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT> pour ouvrir le menu<lf>de la carte et accéder à de nombreuses<lf>fonctionnalités.
+<string>Moulinage rapide (tourner rapidement)
+<string>Moulinage rapide (alterner rapidement)
+<string>Moulinage lent (tourner lentement)
+<string>Moulinage lent (alterner lentement)
+<string><COLOR preset="TXT_Accent">Reprendre le contrôle</COLOR> : <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Remonter la ligne</COLOR> : <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Reprendre le contrôle</COLOR> : <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Remonter la ligne</COLOR> : <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

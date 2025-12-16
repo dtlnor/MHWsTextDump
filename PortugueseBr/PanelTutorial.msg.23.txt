@@ -481,7 +481,7 @@
 <string>Ataques Focais
 <string>Enquanto segura <ICON WP05 PL_AIM>, pressione <ICON WP05 PL_ATTACK_SP_B> para<lf>realizar um <COLOR preset="TXT_Accent">Ataque Focal</COLOR>. Se o ataque<lf>atingir um ferimento, o mesmo será<lf>destruído, causando um grande dano e<lf>atordoando o inimigo.
 <string>Notas durante Ataques Focais
-<string>Pressione <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> no momento<lf>certo durante um Ataque Focal para<lf>tocar até cinco notas.
+<string>Pressione <ICON WP05 PL_ATTACK_00>, <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> no momento<lf>certo durante um Ataque Focal para<lf>tocar até seis notas.
 <string>Ferimentos
 <string>Ataque repetidamente a mesma parte<lf>de um monstro para abrir uma <COLOR preset="TXT_Accent">ferida</COLOR>.<lf>Isso deixará o monstro vulnerável,<lf>permitindo causar mais dano.<lf>Use o <COLOR preset="TXT_Accent">Modo de Foco</COLOR> para mirar<lf>facilmente na ferida.
 <string>Ataques Focais
@@ -611,7 +611,7 @@
 <string>Controles de Pesca
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Controles de Pesca
-<string><COLOR preset="TXT_Accent">Controlar Linha:</COLOR> <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Puxar:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Controles de Pesca
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Controles de Pesca
@@ -765,7 +765,7 @@
 <string>Propriedades de Arma Artiana
 <string>Escolher três partes com o mesmo<lf>tipo elemental melhorará as propriedades<lf>da arma. Se todas as partes têm tipos<lf>diferentes, a arma criada não terá<lf><COLOR preset="TXT_Accent">nenhuma propriedade elemental</COLOR>.
 <string>Reforçando Armas Artianas
-<string>Você pode melhorar essas armas Artianas<lf>com materiais Artianos. Acesse o menu<lf><COLOR preset="TXT_Accent">Reforçar/Desm. Armas Artianas</COLOR> na<lf>Forja para começar.
+<string>Você pode melhorar essas armas Artianas<lf>com materiais Artianos. Acesse as opções<lf><COLOR preset="TXT_Accent">Criar/Reforçar Armas Artianas</COLOR> na Forja<lf>para começar.
 <string>Aproveitando o Multijogador
 <string>Um Lobby foi aberto, permitindo jogar no<lf>Multijogador com outras pessoas. Consulte<lf>o Guia de Jogo para mais informações.
 <string>Lobbies e Multijogador
@@ -971,7 +971,7 @@
 <string>Usar o Menu Radial Personalizado
 <string>Registre feitiços de pictomancia no Menu<lf>Radial Personalizado com antecedência<lf>para usá-los de forma rápida e prática.
 <string>O Poder do Cavaleiro Negro
-<string>Ao ativar a habilidade bônus concedida<lf>por uma armadura específica, é possível<lf>usar o item exclusivo: <COLOR preset="TXT_Accent">A Noite Mais<lf>Escura</COLOR>.
+<string>Ao ativar a habilidade bônus concedida<lf>por esta armadura, é possível usar o item<lf>exclusivo: <COLOR preset="TXT_Accent">A Noite Mais Escura</COLOR>.
 <string>A Noite Mais Escura
 <string>Pressione <ICON PL_ITEM> para usar o item e criar<lf>uma poderosa barreira que consome<lf>sua vida. Após usar, entrará em recarga.
 <string>Lâmina Sombria
@@ -1032,6 +1032,84 @@
 <string>Quando a Ressonância Remota estiver<lf>ativa, <COLOR preset="TXT_Accent">afaste-se</COLOR> dos outros caçadores<lf>para aumentar seu ataque.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Treinos de Caçada
+<string><COLOR preset="TXT_Accent">Treinos de Caçada</COLOR> foram adicionados à<lf>lista de Missões Opcionais.
+<string>Treinos de Caçada
+<string>Durante Treinos de Caçada, condições<lf>como local inicial e dificuldade dos<lf>alvos são fixas, e nenhum outro<lf>monstro grande aparece.
+<string>Treinos de Caçada
+<string>Essa é a melhor maneira de focar na<lf>caça de monstros específicos e estudar<lf>mobilidade. Os Treinos de Caçada<lf>estão disponíveis em <COLOR preset="TXT_Accent">Missões Opcionais</COLOR>.
+<string>Festival da Concórdia: Ilumicanto
+<string>Durante festivais, conteúdos especiais<lf>serão adicionados à Grande Central.<lf>Eles estarão disponíveis por tempo<lf>limitado, então não deixe de conferir<lf>as novidades enquanto puder!
+<string>Caçador de Suporte Limitado!
+<string>Durante o período do evento, dependendo<lf>da missão ou nível de dificuldade, você<lf>poderá convocar um Caçador de Suporte<lf>especial usando os Sinalizadores SOS.
+<string>Entupa-se de Pratos Sazonais!
+<string>Desfrute de refeições limitadas na<lf>Cantina usando Vales-refeição do<lf>Ilumicanto. Você pode obtê-los por<lf>bônus de login durante o período do<lf>evento!
+<string>Elegibilidade: Vale do Ilumicanto
+<string>Vales-refeição comuns permitem que<lf>outros usuários participem, mas apenas<lf>quem usar o vale terá acesso aos itens<lf>exclusivos do evento.
+<string>Novo Visual, Nova Alma!
+<string>Um traje especial de Ilumicanto para<lf>assistentes foi preparado para que<lf>possam aproveitar as festas. Fale com<lf>Alma na Grande Central para trocar<lf>a roupa dela!
+<string>Solicitações Limitadas Novas Todo Dia!
+<string>Solicitações Limitadas são atualizadas<lf>diariamente e concederão Bilhetes do<lf>Ilumicanto, que são usados para criar<lf>equipamentos limitados sazonais.
+<string>Bônus de Login Extras!
+<string>Durante o período do evento, você<lf>receberá dois Vales da Sorte por dia<lf>em vez de um, além de prêmios como<lf>Bilhetes do Ilumicanto!
+<string>Missões de Evento a Caminho!
+<string>Uma série de Missões de Evento limitadas<lf>estão disponíveis! Além disso, muitas<lf>Missões de Evento antigas estão sendo<lf>reintroduzidas!
+<string>Armas Gogma-Artianas
+<string>Agora, você pode usar os materiais<lf>Gogma obtidos do Gogmazios nas<lf>Armas Artianas para transformá-las<lf>em armas mais poderosas.
+<string>Armas Gogma-Artianas
+<string>Além de conceder habilidades de bônus<lf>de conjunto e habilidades de grupo, as<lf>Armas Gogma-Artianas podem ativar<lf>poderosos reforços.
+<string>Criando Armas Gogma-Artianas
+<string>Armas Artianas podem ser transformadas<lf>em Armas Gogma-Artianas usando três<lf>do mesmo tipo de material Gogma.<lf>A arma melhorada retém seus reforços<lf>já existentes.
+<string>Criando Armas Gogma-Artianas
+<string>O aspecto geral da Arma Gogma-Artiana<lf>mudará dependendo do <COLOR preset="TXT_Accent">Aspecto Gogma</COLOR><lf>dos materiais usados para melhorar a arma.<lf>Escolha o aspecto que melhor se identificar<lf>com o seu estilo de jogo.
+<string>Criando Armas Gogma-Artianas
+<string>Ao se tornar uma Arma Gogma-Artiana,<lf>sua arma ganha duas habilidades ativas<lf>aleatórias: uma habilidade bônus e uma<lf>habilidade de grupo. Você pode redefinir<lf>essas habilidades depois, usando mais<lf>materiais.
+<string>Criando Armas Gogma-Artianas
+<string>Os reforços das Armas Gogma-Artianas<lf>são ainda mais fortes do que aqueles<lf>das armas Artianas comuns. Confira o<lf>menu <COLOR preset="TXT_Accent">Reforçar Armas Gogma-Artianas</COLOR><lf>na Forja para começar.
+<string>Reforçando Armas Gogma-Artianas
+<string>Duas novas abas de melhorias para as<lf>Armas Gogma-Artianas estão disponíveis<lf>no menu <BOLD>Reforçar Armas Gogma-Artianas</BOLD>:<lf><COLOR preset="TXT_Accent">Reforço Gogma</COLOR> e <COLOR preset="TXT_Accent">Redefinir Habilidades</COLOR>.<lf>Use <ICON UI_LIST_TRIGGER_L1> e <ICON UI_LIST_TRIGGER_R1> para trocar de aba.
+<string>Reforçando Armas Gogma-Artianas
+<string>Quando uma arma é reforçada ao máximo,<lf>o <COLOR preset="TXT_Accent">Reforço Gogma</COLOR> permite <BOLD>renovar</BOLD> todos os<lf>engastes de reforços da arma de uma vez.<lf>Alguns engastes podem até ativar bônus<lf>de reforço especiais, ainda melhores do<lf>que os bônus comuns.
+<string>Reforçando Armas Gogma-Artianas
+<string>O <COLOR preset="TXT_Accent">Reforço Gogma</COLOR> permite <BOLD>renovar</BOLD> seus<lf>bônus ativos no momento. Você pode<lf>escolher entre manter os tipos de bônus<lf>e redefinir novos valores aleatórios ou<lf>redefinir os tipos de bônus em si.
+<string>Reforçando Armas Gogma-Artianas
+<string>A aba <COLOR preset="TXT_Accent">Redefinir Habilidades</COLOR> permite que<lf>você use Materiais Gogma para trocar as<lf>habilidades de bônus e de grupo atreladas<lf>à uma arma. Mas lembre-se de que não é<lf>possível trocar o seu Aspecto Gogma.
+<string>Reforçando Armas Gogma-Artianas
+<string>É possível não aplicar os resultados das<lf>redefinições ou alterações e, em vez<lf>disso, manter as habilidades ou valores<lf>originais. Porém, lembre-se de que os<lf>materiais usados em cada tentativa não<lf>serão reembolsados.
+<string>Transcendendo Armaduras
+<string>Agora, você pode realizar melhorias<lf><COLOR preset="TXT_Accent">transcendentais</COLOR> de armadura. Para isso,<lf>escolha uma armadura de ranque elevado.
+<string>Transcendendo Armaduras
+<string>A transcendência sobe os limites impostos<lf>pelas melhorias das Esferas de Armadura e<lf>fortalece os engastes de adornos de certas<lf>armaduras.
+<string>Melhoria de Engastes de Adorno
+<string>Armaduras de raridade 5 terão três<lf>de seus engastes melhorados, enquanto<lf>armaduras de raridade 6 terão dois.<lf>(Se a armadura tiver um engaste nível 3,<lf>apenas os outros serão melhorados.)
+<string>Refino Expandido de Oricalcita
+<string>Agora, você pode usar materiais Gogma<lf>ao <COLOR preset="TXT_Accent">Refinar Minério</COLOR>.
+<string>Desequilibrando o Gogmazios
+<string>Ataque repetidamente os braços das asas<lf>do Gogmazios para desequilibrá-lo.<lf>Aproveite para derrubar o Devastadragão<lf>das costas do Gogmazios quando ele<lf>estiver desequilibrado.
+<string>Cause Dano com Interagíveis
+<string>A área da caçada ao Gogmazios possui<lf>vários elementos interativos que podem<lf>causar muito dano ao dragão ancião.<lf>Familiarize-se com o ambiente e use-o<lf>a seu favor.
+<string>Energizando o Devastadragão
+<string>O Canhão Devastadragão exige Leite de<lf>Serpe para disparar. Leve os cabos de<lf><COLOR preset="TXT_Accent">junção solta</COLOR> até as entradas de energia<lf>no Devastadragão e conecte-os para<lf>começar o carregamento.
+<string>Velocidade e Poder de Carga
+<string>Quanto mais cabos de junção solta você<lf>conectar ao Devastadragão, mais rápida<lf>e poderosa será sua carga. Conectar cabos<lf>às três entradas o carregará rapidamente<lf>e permitirá que ele alcance sua potência<lf>máxima.
+<string>Ataque com Elemento Dragão
+<string>Causar dano contínuo ao Gogmazios<lf>reduzirá o poder de seu ataque especial<lf>mais devastador. O elemento dragão é<lf>o mais eficaz para isto.
+<string>Apoio de Bloqueio do Fabius
+<string>Se você atingir Gogmazios o suficiente<lf>para enfraquecer seu ataque especial,<lf>poderá se abrigar atrás de Fabius para<lf>resistir ao ataque. Encontre-o e fique<lf>atrás dele!
+<string>Outras Manobras Defensivas
+<string>Se você conseguir enfraquecer Gogmazios,<lf>também poderá resistir ao seu ataque<lf>especial usando armas com capacidade de<lf>bloqueio. Se ainda houver áreas elevadas,<lf>você também poderá usá-las para evitar<lf>o ataque.
+<string>Novas Armas Especiais
+<string>Agora, você pode criar novas armas<lf>especiais usando os <COLOR preset="TXT_Accent">Materiais Gogma</COLOR><lf>obtidos como prêmios especiais.<lf><lf>Visite a Forja para saber mais.
+<string>Ataque Partes com Prêmios Especiais
+<string>Algumas partes do corpo do Gogmazios<lf>têm Materiais Gogma presos a ele.<lf>Quebre essas partes e obtenha materiais<lf>adicionais como prêmio.
+<string>Avançado: Missões de Ambiente Especial
+<string><COLOR preset="TXT_Accent">Missões de Ambiente Especial</COLOR> são missões<lf>avançadas nas quais você caça vários<lf>monstros poderosos ao mesmo tempo.
+<string>Receba Prêmios Especiais
+<string>Concluir essas missões concede <COLOR preset="TXT_Accent">placas<lf>de nome</COLOR> especiais como recompensa.<lf>Elas serão a prova da sua habilidade!
+<string>Alerta sobre Missões Multijogador em Andamento
+<string>Se você concluir a missão, mas não tiver<lf>participado dela desde o início, você não<lf>receberá a placa de nome especial.
+<string>Prepare-se Muito Bem
+<string>Todas essas missões são muito difíceis<lf>e exigem bastante preparação. Boa sorte<lf>concluindo elas!
 <string>Ferimentos
 <string>Você pode trocar adornos antigos por<lf>pontos de fundição que você pode usar<lf>para <COLOR preset="TXT_Accent">fundir novos adornos</COLOR>.<lf>As opções aumentarão à medida que<lf>você cumprir as condições.
 <string>Adornos e Configurações de Equipamento

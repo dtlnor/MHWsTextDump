@@ -760,9 +760,13 @@
 <string>Habilita el HDR automáticamente<lf>en los dispositivos compatibles,<lf>y lo desactiva en los que no lo son.
 <string>Desactivar
 <string>Desactiva el HDR incluso en los dispositivos<lf>compatibles.
-<string>Brillo
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Brillo de pantalla
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>Ajusta el brillo de la pantalla.
-<string>Brillo (HDR)
+<string><PLATMSG MsgGUI030100_03_14>
+<string>Brillo de pantalla en HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Ajusta el brillo de la pantalla.
 <string>Ajustes de rendimiento
 <string>Configura las opciones gráficas relacionadas con el juego.<lf><COLOR preset="TXT_Accent">(Se puede configurar en las opciones de título).</COLOR>
@@ -1105,7 +1109,7 @@
 <string>No mostrar
 <string>No muestra las cifras de daño.
 <string>Aviso de la barra de salud
-<string>Determina si la barra de salud muestra un<lf>aviso justo antes de que los monstruos<lf>ejecuten ataques especialmente dañinos.
+<string>Determina si la barra de salud muestra<lf>un aviso cuando baje de cierto nivel o <lf>justo antes de ataques especialmente dañinos.
 <string>Mostrar
 <string>La barra de salud muestra un aviso (ondas rojas)<lf>para indicar cuando un monstruo va a lanzar<lf>un ataque que agotará tu salud restante.
 <string>No mostrar
@@ -1311,6 +1315,8 @@
 <string>Los Seikret de otros jugadores o cazadores<lf>de apoyo no se muestran si no están montando<lf>sobre ellos. <COLOR preset="TXT_Accent">(Ten en cuenta que en ciertos<lf>casos los Seikret se mostrarán igualmente).</COLOR>
 <string>Desactivado
 <string>Los Seikret de otros jugadores o cazadores<lf>de apoyo se muestran siempre, aunque<lf>no estén montando sobre ellos.
+<string>Mostrar
+<string>Los Seikret de otros jugadores o cazadores<lf>de apoyo se muestran siempre.
 <string>Seikret de exploración automática
 <string>Elige si tu Seikret entra o no en modo<lf>de exploración automática si no estableces<lf>ningún punto de ruta.
 <string>Activado
@@ -1620,15 +1626,40 @@
 <string>Desactiva la función de selección automática.<lf>Se elegirá el primer punto de viaje rápido de la lista,<lf>sin importar si se ha designado un destino u objetivo.
 <string>Sí
 <string>Activa la función de selección automática. Si designas<lf>un destino u objetivo, se seleccionará automáticamente<lf>el punto de viaje rápido más cercano. Si no designas<lf>nada, se elegirá la primera ubicación de la lista.
-<string>
-<string>
-<string>
+<string>Cambiar atajos/radial
+<string>Elige si quieres que los menús de atajos<lf>del teclado se vinculen a los menús<lf>radiales cada vez que accedas a tus atajos.
+<string>Tipo 1
 <string>Acceder al menú de atajos del teclado solo<lf>cambiará el menú de atajos del teclado.
-<string>
-<string>
+<string>Tipo 2
+<string>Se vincularán los menús de atajos de teclado<lf>y los menús radiales del mando. Si accedes<lf>al menú de atajos de teclado, también se<lf>cambiará el menú radial del mando activo.
 <string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_00_000">
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Altavoces de la consola
+<string>Ajustes de sonido optimizados para<lf>los altavoces de la consola.
+<string>Tipo de selección del menú radial
+<string>Fija los controles de selección del menú radial.
+<string>Tipo 1
+<string>El menú actual seleccionado queda centrado<lf>mientras pulsas <INPUTMSG MsgGUI030100_INPUT_01> hacia<lf>el menú que vas a elegir.
+<string>Tipo 2
+<string>Te mantienes en el centro de los 8 menús<lf>mientras pulsas <INPUTMSG MsgGUI030100_INPUT_01> hacia<lf>el menú que vas a elegir.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Controles con giroscopio (modo portátil)
+<string>Al activarse, podrás usar el giroscopio para<lf>controlar la cámara en el modo portátil.<lf>También podrás configurar más opciones.
+<string>Intensidad de vibración del mando 
+<string>Ajusta la intensidad de la vibración del mando.
+<string>Débil
+<string>Media (normal)
+<string>Fuerte

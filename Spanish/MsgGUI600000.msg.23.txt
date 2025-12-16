@@ -38,8 +38,8 @@
 <string>Hacerte con un buen pescadón es<lf>la prueba de fuego de todo pescador.<lf>Si un pez empieza a agitarse, afloja<lf>el carrete moviendo <ICON PL_DUMMY_MOVE> en la dirección<lf>hacia la que nada para reducir la tensión<lf>del sedal.
 <string>Hacerte con un buen pescadón es<lf>la prueba de fuego de todo pescador.<lf>Si un pez empieza a agitarse, afloja<lf>el carrete moviendo <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> en<lf>la dirección hacia la que nada<lf>para reducir la tensión del sedal.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Una vez un pez se cansa y se calma,<lf>¡aprovecha! Mueve <ICON PL_DUMMY_MOVE> arriba y abajo<lf>para recogerlo.
-<string>Cuando el pez se canse y se calme,<lf>¡aprovecha! Pulsa <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> varias<lf>veces seguidas para recoger el sedal.
+<string>Una vez un pez se cansa y se calma,<lf>¡aprovecha! Haz girar <ICON PL_DUMMY_MOVE> arriba y abajo<lf>para recogerlo.
+<string>Cuando el pez se canse y sea más lento,<lf>¡aprovecha! Pulsa alternativamente <ICON PL_MOVE_FRONT><lf>y <ICON PL_MOVE_BACK> para recoger el sedal.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Si un pez se acerca a un obstáculo,<lf>inclina <ICON PL_DUMMY_MOVE> en la dirección opuesta de<lf>aquella hacia la que esté nadando para<lf>retenerlo, siempre manteniendo el sedal<lf>alejado de las rocas.
 <string>Si un pez se acerca a un obstáculo,<lf>inclina <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> en la dirección opuesta de<lf>aquella hacia la que esté nadando para<lf>retenerlo, siempre manteniendo el sedal<lf>alejado de las rocas.
@@ -47,8 +47,8 @@
 <string>Cuando esto ocurra, mueve <ICON PL_DUMMY_MOVE> en la<lf>dirección del salto y pulsa <ICON PL_FISHING_ACTION><lf>para retener al pez.
 <string>Cuando esto ocurra, usa <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> para<lf>moverte en la dirección del salto y pulsa<lf><ICON PL_FISHING_ACTION> para retener al pez.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Recoger rápidamente:</COLOR> Agita <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rápidamente<lf><COLOR preset="TXT_Accent">Recoger despacio:</COLOR> Agita <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentamente<lf><COLOR preset="TXT_Accent">Sacudir:</COLOR> Inclina <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Recoger rápidamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rápidamente<lf><COLOR preset="TXT_Accent">Recoger despacio</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentamente<lf><COLOR preset="TXT_Accent">Sacudir</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Recogida rápida:</COLOR> Agita <ICON merge="PL_DUMMY_MOVE,TURN_ON"> rápidamente<lf><COLOR preset="TXT_Accent">Recogida lenta:</COLOR> Agita <ICON merge="PL_DUMMY_MOVE,TURN_ON"> despacio<lf><COLOR preset="TXT_Accent">Sacudir:</COLOR> Inclina <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Recogida rápida</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rápidamente<lf><COLOR preset="TXT_Accent">Recogida lenta</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> despacio<lf><COLOR preset="TXT_Accent">Sacudir</COLOR>: <ICON PL_MOVE_BACK> repetidamente
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Esquivar obstáculos:</COLOR> Usa <ICON PL_DUMMY_MOVE> para<lf>tirar del pez y esquivar obstáculos.
 <string><COLOR preset="TXT_Accent">Esquivar obstáculos</COLOR>: Usa <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>para tirar del pez y esquivar obstáculos.
@@ -68,11 +68,11 @@
 <string>Un estado que te inmoviliza temporalmente.<lf>Mueve <ICON PL_DUMMY_MOVE> rápidamente o usa un limpiador<lf>para recuperarte antes.
 <string>Un estado que te inmoviliza temporalmente.<lf>Mueve <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> rápidamente o usa un limpiador<lf>para recuperarte antes.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Recoger sedal:</COLOR><lf>Mueve <ICON PL_DUMMY_MOVE> rápidamente arriba y abajo
-<string><COLOR preset="TXT_Accent">Recoger sedal rápido:</COLOR><lf>Pulsa <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> rápidamente
+<string><COLOR preset="TXT_Accent">Recogida rápida:</COLOR><lf>Haz girar <ICON PL_DUMMY_MOVE> rápidamente
+<string><COLOR preset="TXT_Accent">Recogida rápida:</COLOR><lf>Alterna rápidamente entre <ICON PL_MOVE_FRONT> y <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string><COLOR preset="TXT_Accent">Recoger sedal despacio:</COLOR><lf>Mueve <ICON PL_DUMMY_MOVE> lentamente arriba y abajo
-<string><COLOR preset="TXT_Accent">Recoger sedal despacio:</COLOR><lf>Pulsa <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> lentamente
+<string><COLOR preset="TXT_Accent">Recoger sedal despacio:</COLOR><lf>Haz girar <ICON PL_DUMMY_MOVE> despacio
+<string><COLOR preset="TXT_Accent">Recoger sedal despacio:</COLOR><lf>Alterna lentamente entre <ICON PL_MOVE_FRONT> y <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string><COLOR preset="TXT_Accent">Sacudir sedal:</COLOR><lf>Inclina <ICON PL_DUMMY_MOVE> hacia abajo repetidamente
 <string><COLOR preset="TXT_Accent">Sacudir sedal:</COLOR><lf>Pulsa <ICON PL_MOVE_BACK> repetidamente
@@ -145,3 +145,9 @@
 <string>Si quieres saber más sobre un objeto o<lf>característica del entorno que aparezca<lf>en las notificaciones de lafarillos,<lf>usa <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> para fijarlo.
 <string>Pulsa <ICON UI_LIST_TRIGGER_L_LEFT> para abrir el menú del mapa,<lf>lo que te permitirá acceder a<lf>un gran número de opciones.
 <string>Pulsa <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT> para abrir el menú del mapa,<lf>lo que te permitirá acceder a<lf>un gran número de opciones.
+<string>Recoger sedal rápido (rotar rápido)
+<string>Recogida rápida (pulsar rápido alternativamente)
+<string>Recoger sedal despacio (rotar despacio)
+<string>Recogida lenta (pulsar despacio alternativamente)
+<string><COLOR preset="TXT_Accent">Recuperar control</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Recoger sedal</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Recuperar control</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Recoger sedal</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

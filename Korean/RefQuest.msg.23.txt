@@ -51,6 +51,7 @@
 <string>조사 퀘스트로 저장
 <string>퀘스트화
 <string>퀘스트 수주
+<string>조사 시작하기
 <string>{0}<REF RefGeneral_0015_001>를 사용하여<lf>조사 퀘스트로 저장합니다.<lf>계속하시겠습니까?
 <string>조사 퀘스트로 저장했습니다.
 <string><COLOR preset="TXT_Danger">길드 포인트가 부족합니다.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">이 퀘스트에서는 이용할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이 퀘스트는 《<Ref RefEnvironment_0001_0001>》에서만 수주할 수 있습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">현재 퀘스트의 설정 상태로는 이용할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">이 퀘스트는 아직 잠금 해제되지 않아 수주할 수 없습니다.</COLOR>
 <string>타이틀로 돌아가기
 <string>재시도하기
 <string>{0} 토벌
@@ -101,6 +103,7 @@
 <string>감정 BOX(부적)
 <string><COLOR preset="TXT_Danger">장비 BOX에 빈 공간이 없어서<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger"> 마크가 붙은 아이템은<lf>자동 매각됩니다.<lf>세부 표시를 확인해 주세요.</COLOR>
 <string><COLOR preset="TXT_Danger">장비 BOX에 빈 공간이 없어서<lf>{0}개는 받을 수 없습니다.<lf><lf>'모두 받기'를 누르면<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger"> 마크가 붙은 아이템은<lf>자동 매각됩니다.</COLOR>
+<string>특별 보수
 <string>퀘스트<lf>완료
 <string>퀘스트<lf>실패
 <string>돌아<lf>가기
@@ -204,6 +207,7 @@
 <string><REF RefGeneral_0029_000> 개최 중!
 <string><REF RefGeneral_0029_001> 개최 중!
 <string><REF RefGeneral_0029_002> 개최 중!
+<string><REF RefGeneral_0029_003> 개최 중!
 <string>가희가 기도의 노래를 바칩니다.({0}분 후)
 <string>가희가 기도의 노래를 바치고 있습니다.
 <string>가희의 기도
@@ -242,6 +246,10 @@
 <string>멀티플레이 설정과는 별개로 서포트 헌터가 참가합니다.
 <string>참가 안 함
 <string>멀티플레이 설정과는 별개로 서포트 헌터가 참가하지 않습니다.
+<string>격운 티켓 리마인드 알림
+<string>퀘스트를 시작할 때 중요 채팅으로 격운 티켓 사용을 다시 알려주는 기능을 설정합니다.
+<string>끄기
+<string>켜기
 <string>보충 설명
 <string>●프리 챌린지 퀘스트 규칙<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 시부터 참가합니다.
 <string>●격투대회 퀘스트/챌린지 퀘스트 규칙<lf>・최대 참가 인원수: 최대 2명까지<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 때부터 참가합니다.<lf>・동반자 아이루는 퀘스트에 참가하지 않습니다.<lf>・식사 효과는 퀘스트 중 <COLOR preset="TXT_Danger">일시적으로 사라집니다.<lf>※퀘스트 종료 후, 다시 돌아옵니다.</COLOR><lf>・아이템 효과 및 수렵피리의 선율 효과 등<lf>일시적인 스테이터스 효과는 <COLOR preset="TXT_Danger">퀘스트 출발 시 사라집니다.</COLOR><lf>●프리 챌린지 퀘스트 규칙<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 때부터 참가합니다.
@@ -270,6 +278,11 @@
 <string>오름차순
 <string>내림차순
 <string>추천순
+<string>비밀번호 없는 순
+<string>퀘스트 시작 최신순
+<string>남은 인원수 많은 순
+<string>수주 가능 수 적은 순
+<string>수주 가능 수 많은 순
 <string>조사 퀘스트 삭제
 <string>선택한 조사 퀘스트를 삭제합니다.<lf>계속하시겠습니까?<lf><lf>※'현지 조사 퀘스트 이력'에 해당 퀘스트가<lf>남아 있는 경우, 이력에서도 삭제됩니다.
 <string>조사 퀘스트를 삭제했습니다.
@@ -301,3 +314,11 @@
 <string>이 장비로 결정하시겠습니까?
 <string>다른 플레이어를 기다리고 있습니다.
 <string>베스트 스코어
+<string>이전에 플레이한 퀘스트
+<string>배포 기간: <DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC) ~ <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>수주하기
+<string>로비 멤버 퀘스트에서 검색
+<string>유사한 구조신호 퀘스트 검색
+<string>저장
+<string>수주({0}회 남음)
+<string><EMID {0}> 검색

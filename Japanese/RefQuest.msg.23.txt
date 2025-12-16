@@ -51,6 +51,7 @@
 <string>調査クエストとして保存
 <string>クエスト化
 <string>クエストの受注
+<string>調査を開始する
 <string>{0}<REF RefGeneral_0015_001>を使用し、<lf>調査クエストとして保存します。<lf>よろしいですか？
 <string>調査クエストとして保存しました。
 <string><COLOR preset="TXT_Danger">ギルドポイントが不足しています。</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">このクエストでは利用できません。</COLOR>
 <string><COLOR preset="TXT_Danger">このクエストは≪<Ref RefEnvironment_0001_0001>≫以外では受注できません。</COLOR>
 <string><COLOR preset="TXT_Danger">現在のクエストの設定状態では利用できません。</COLOR>
+<string><COLOR preset="TXT_Danger">このクエストはまだ開放されていないため受注できません。</COLOR>
 <string>タイトルに戻る
 <string>リトライする
 <string>{0}の討伐
@@ -101,6 +103,7 @@
 <string>鑑定BOX（お守り）
 <string><COLOR preset="TXT_Danger">装備BOXに空きがないため、<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger">の付いたアイテムは自動売却されます。<lf>詳細表示を確認してください。</COLOR>
 <string><COLOR preset="TXT_Danger">装備BOXに空きがないため、<lf>{0}個は受け取ることができません。<lf><lf>「すべて受け取る」を押すことで、<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger">の付いたアイテムは自動売却されます。</COLOR>
+<string>特別報酬
 <string>Quest Cleared
 <string>Quest Failed
 <string>Returning to Base
@@ -204,6 +207,7 @@
 <string><REF RefGeneral_0029_000> 開催中！
 <string><REF RefGeneral_0029_001> 開催中！
 <string><REF RefGeneral_0029_002> 開催中！
+<string><REF RefGeneral_0029_003> 開催中！
 <string>歌姫が祈りの唄を捧げます（あと{0}分）
 <string>歌姫が祈りの唄を捧げています
 <string>歌姫の祈り
@@ -242,6 +246,10 @@
 <string>マルチプレイ設定とは別に、サポートハンターが参加します。
 <string>参加しない
 <string>マルチプレイ設定とは別に、サポートハンターが参加しません。
+<string>激運チケットのリマインド通知
+<string>クエスト開始時に重要チャットで激運チケットの使用を再度通知する機能を設定します。
+<string>OFF
+<string>ON
 <string>補足説明
 <string>●フリーチャレンジクエストのルール<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターは、クエスト開始から参加します。
 <string>●闘技大会クエスト/チャレンジクエストのルール<lf>・最大参加人数：最大2人まで<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターはクエスト開始から参加します。<lf>・オトモアイルーはクエストに参加しません。<lf>・食事効果はクエスト中、<COLOR preset="TXT_Danger">一時的に消失します。<lf>　※クエスト終了後、元に戻ります。</COLOR><lf>・アイテム効果や笛の旋律効果などの一時的なステータス効果は、<lf>　<COLOR preset="TXT_Danger">クエスト出発時に消失します。</COLOR><lf><lf>●フリーチャレンジクエストのルール<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターは、クエスト開始から参加します。
@@ -270,6 +278,11 @@
 <string>昇順
 <string>降順
 <string>おすすめ順
+<string>パスワードがない順
+<string>クエスト開始の新しい順
+<string>空き人数の多い順
+<string>受注可能数の少ない順
+<string>受注可能数の多い順
 <string>調査クエストの削除
 <string>選択した調査クエストを削除します。<lf>よろしいですか？<lf><lf>※「現地調査クエストの履歴」に該当のクエストが<lf>　残っている場合、履歴からも削除されます。
 <string>調査クエストを削除しました。
@@ -301,3 +314,11 @@
 <string>この装備でよろしいですか？
 <string>他のプレイヤーを待っています。
 <string>ベストスコア
+<string>前回プレイしたクエスト
+<string>配信期間：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC) ～ <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>受注する
+<string>ロビーメンバークエストで検索
+<string>救難信号クエストで類似検索
+<string>保存する
+<string>受注する（残り{0}回）
+<string><EMID {0}>で検索

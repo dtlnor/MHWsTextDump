@@ -51,10 +51,11 @@
 <string>Sauvegarder comme investigation
 <string>Créer la quête
 <string>Accepter la quête
+<string>Commencer l'enquête
 <string>Utiliser {0} <PLURAL {0} "point" "points"> pour sauvegarder<lf>en tant qu'investigation ?
 <string>Sauvegardé comme investigation.
 <string><COLOR preset="TXT_Danger">Points de Guilde insuffisants.</COLOR>
-<string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car la<lf>progression requise n'a pas été atteinte.</COLOR>
+<string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car la progression requise n'a pas été atteinte.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car la<lf>progression requise n'a pas été atteinte.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter/rejoindre, car le Rang de Chasseur requis n'a pas été atteint.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible de poster/rejoindre, car le Rang<lf>de Chasseur requis n'a pas été atteint.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">Indisponible durant cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Impossible d'accepter cette quête en dehors du Grand-Camp.</COLOR>
 <string><COLOR preset="TXT_Danger">Utilisation impossible pendant cette quête.</COLOR>
+<string><COLOR preset="TXT_Danger">Cette quête ne peut pas être publiée, car elle n'est pas débloquée.</COLOR>
 <string>Retour à l'écran titre
 <string>Réessayer
 <string>Éliminer : {0}
@@ -101,6 +103,7 @@
 <string>Boîte de révélation (talismans)
 <string>Les objets marqués qui dépassent la<lf>capacité du coffre d'équipement seront<lf>automatiquement vendus. Consultez les<lf>détails pour en savoir plus.
 <string><COLOR preset="TXT_Danger">Impossible de prendre {0} <PLURAL {0} "talisman" "talismans"><lf>car le coffre d'équipement est plein.<lf><lf>Sélectionnez <BOLD>Tout prendre</BOLD> pour vendre<lf>automatiquement les objets marqués.</COLOR>
+<string>Récompenses spéciales
 <string>Quête<lf>réussie
 <string>Échec de<lf>la quête
 <string>Retour<lf>à la base
@@ -204,6 +207,7 @@
 <string>Festival en cours : Danse des fleurs
 <string>Festival en cours : Fête des flammes
 <string>Festival en cours : Magie des rêves
+<string>Festival en cours : Chant des lumières
 <string>Le chant de la diva débute dans {0} min.
 <string>Le chant de la diva résonne.
 <string>Chant de la diva
@@ -242,6 +246,10 @@
 <string>Les Chasseurs de soutien participeront, quels que soient les paramètres multijoueur.
 <string>Ne pas rejoindre
 <string>Les Chasseurs de soutien ne participeront pas, quels que soient les paramètres multijoueur.
+<string>Rappel coupon chance
+<string>Activer le rappel pour les coupons chance. Envoyé sous forme de notification de chat importante au début des quêtes.
+<string>Non
+<string>Oui
 <string>Détails supplémentaires
 <string>Règles des Quêtes Défi libre<lf>- Fusée de détresse automatique : vous ne pouvez pas envoyer de<lf>fusée de détresse.<lf>- Accès à la quête : vous ne pouvez pas rejoindre une quête une fois<lf>qu'elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.
 <string>Règles des Quêtes Arène/Défi<lf>- Le nombre de participants est limité à 2.<lf>- Fusée de détresse automatique : envoi de fusée de détresse impossible.<lf>- Accès à la quête : impossible de rejoindre une quête si elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.<lf>- Les Palicos ne peuvent pas rejoindre la quête.<lf>- Les effets des repas sont <COLOR preset="TXT_Danger">temporairement désactivés durant la quête</COLOR>.<lf>(Ils s'activent à nouveau après la fin de la quête.)<lf>- Les effets comme ceux des objets ou des mélodies <COLOR preset="TXT_Danger">disparaîtront<lf>lors du départ en quête</COLOR>.<lf><lf>Règles des Quêtes Défi libre<lf>- Fusée de détresse automatique : envoi de fusée de détresse impossible.<lf>- Accès à la quête : impossible de rejoindre une quête si elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.
@@ -270,6 +278,11 @@
 <string>Croissant
 <string>Décroissant
 <string>Recommandé
+<string>Aucun code d'accès
+<string>Quêtes récentes
+<string>Emplacements libres
+<string>Moins d'essais restants
+<string>Plus d'essais restants
 <string>Supprimer investigation
 <string>Supprimer l'investigation sélectionnée ?<lf><lf>Remarque : si la quête se trouve encore<lf>dans <COLOR preset="TXT_Accent">l'historique des enquêtes de terrain</COLOR>,<lf>elle en sera également supprimée.
 <string>Investigation supprimée.
@@ -301,3 +314,11 @@
 <string>Confirmer l'équipement ?
 <string>En attente des autres joueurs.
 <string>Meilleur score
+<string>Dernière quête faite
+<string>Disponibilité : <DATETIME {0} "DD/MM/YYYY HH:mm"> – <DATETIME {1} "DD/MM/YYYY HH:mm"> (UTC)
+<string>Publier
+<string>Chercher par Quêtes Membres du lobby
+<string>Chercher Quêtes Fusée de détresse similaires
+<string>Sauvegarder
+<string>Publier (reste {0})
+<string>Chercher par <EMID {0}>

@@ -38,8 +38,8 @@
 <string>Pescar um grandalhão é o maior desafio<lf>da pesca. Se um peixe começa a se<lf>debater, controle a vara movendo <ICON PL_DUMMY_MOVE><lf>na direção que o peixe está se movendo<lf>para reduzir a tensão na linha.
 <string>Pescar um grandalhão é o maior desafio<lf>da pesca. Se um peixe começa a se<lf>debater, controle a vara movendo na<lf>direção que o peixe está se movendo com<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> para reduzir a tensão<lf>na linha.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Quando o peixe cansar, é a sua chance!<lf>Mova <ICON PL_DUMMY_MOVE> para cima e para baixo<lf>para puxá-lo.
-<string>Quando o peixe cansar, é a sua chance!<lf>Pressione <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>repetidamente para puxá-lo.
+<string>Quando o peixe cansar, é a sua chance!<lf>Gire <ICON PL_DUMMY_MOVE> para puxá-lo.
+<string>Quando o peixe cansar, é a sua chance!<lf>Pressione <ICON PL_MOVE_FRONT> e <ICON PL_MOVE_BACK> alternadamente<lf>para puxá-lo.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Se um peixe se aproximar de um obstáculo,<lf>empurre <ICON PL_DUMMY_MOVE> na direção oposta para<lf>contê-lo, mas cuidado com as rochas.
 <string>Se um peixe se aproximar de um obstáculo,<lf>use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> para mover na direção oposta<lf>para contê-lo, mas cuidado com as rochas.
@@ -47,8 +47,8 @@
 <string>Quando isso acontecer, mova <ICON PL_DUMMY_MOVE><lf>na direção dos pulos e pressione <ICON PL_FISHING_ACTION><lf>para conter o peixe.
 <string>Quando isso acontecer, use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>para se mover na direção dos pulos<lf>e pressione <ICON PL_FISHING_ACTION> para conter o peixe.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Puxada Rápida:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidamente<lf><COLOR preset="TXT_Accent">Puxada Lenta:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentamente<lf><COLOR preset="TXT_Accent">Agitar Isca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE> repetidamente
-<string><COLOR preset="TXT_Accent">Puxada Rápida:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidamente<lf><COLOR preset="TXT_Accent">Puxada Lenta:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentamente<lf><COLOR preset="TXT_Accent">Agitar Isca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK> repetidamente
+<string><COLOR preset="TXT_Accent">Puxada Rápida:</COLOR> <ICON merge="PL_DUMMY_MOVE,TURN_ON"> rapidamente<lf><COLOR preset="TXT_Accent">Puxada Lenta:</COLOR> <ICON merge="PL_DUMMY_MOVE,TURN_ON"> lentamente<lf><COLOR preset="TXT_Accent">Agitar Isca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE> repetidamente
+<string><COLOR preset="TXT_Accent">Puxada Rápida:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> rapidamente<lf><COLOR preset="TXT_Accent">Puxada Lenta:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> lentamente<lf><COLOR preset="TXT_Accent">Agitar Isca:</COLOR> <ICON PL_MOVE_BACK> repetidamente
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Evitar Obstáculos</COLOR>: Use <ICON PL_DUMMY_MOVE> para puxar<lf>o peixe para longe de obstáculos.
 <string><COLOR preset="TXT_Accent">Evitar Obstáculos</COLOR>: Use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> para<lf>puxar o peixe para longe de obstáculos.
@@ -68,11 +68,11 @@
 <string>Status que impede o movimento por um tempo.<lf>Mova <ICON PL_DUMMY_MOVE> rapidamente, ou use um Limpador<lf>para acelerar a recuperação.
 <string>Status que impede o movimento por um tempo.<lf>Pressione <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> rapidamente, ou use<lf>um Limpador para acelerar a recuperação.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Puxar Rápido:</COLOR> Mova <ICON PL_DUMMY_MOVE><lf>para cima e para baixo rapidamente
-<string><COLOR preset="TXT_Accent">Puxar Rápido:</COLOR> Pressione <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> rapidamente
+<string><COLOR preset="TXT_Accent">Puxar Rápido:</COLOR> Gire <ICON PL_DUMMY_MOVE> rapidamente
+<string><COLOR preset="TXT_Accent">Puxar Rápido:</COLOR><lf>Alterne entre <ICON PL_MOVE_FRONT> e <ICON PL_MOVE_BACK> rapidamente
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>Puxar Lento: Mova <ICON PL_DUMMY_MOVE> para cima<lf>e para baixo lentamente
-<string>Puxar Lento: Pressione <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> lentamente
+<string>Puxar Lento: Gire <ICON PL_DUMMY_MOVE> lentamente
+<string>Puxar Lento:<lf>Alterne entre <ICON PL_MOVE_FRONT> e <ICON PL_MOVE_BACK> lentamente
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>Agitar Linha: Empurre <ICON PL_DUMMY_MOVE> para baixo<lf>repetidamente
 <string>Agitar Linha: Pressione <ICON PL_MOVE_BACK> repetidamente
@@ -145,3 +145,9 @@
 <string>Use <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> para localizar um item<lf>ou recurso ambiental exibido<lf>nas Notificações de Guialumes<lf>no lado esquerdo da tela.
 <string>Pressione <ICON UI_LIST_TRIGGER_L_LEFT> para abrir o menu do mapa<lf>e acessar uma variedade de recursos.
 <string>Pressione <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT> para abrir o menu do mapa<lf>e acessar uma variedade de recursos.
+<string>Puxar Rápido (Giro Rápido)
+<string>Puxar Rápido (Pressões Rápidas Alternadas)
+<string>Puxar Lento (Giro Lento)
+<string>Puxar Lento (Pressões Alternadas Lentas)
+<string><COLOR preset="TXT_Accent">Retomar Controle</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Puxar</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Retomar Controle</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Puxar</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

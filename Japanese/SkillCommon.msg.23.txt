@@ -37,7 +37,7 @@
 <string>心眼
 <string>攻撃が弾かれ辛くなり、<lf>硬い部位への攻撃の威力が上がる。
 <string>弾導強化
-<string>弾・矢の最大威力状態になる距離が<lf>広くなる。
+<string>弾・矢の最大威力状態になる距離が<lf>広くなる。レベルが上がると威力も<lf>上昇する。
 <string>鈍器使い
 <string>斬れ味が悪い時、与えるダメージが<lf>上昇する。
 <string>集中
@@ -51,7 +51,7 @@
 <string>ガード性能
 <string>ガード時にのけぞりにくくなり、<lf>消費スタミナも軽減される。
 <string>ガード強化
-<string>通常はガードできない攻撃も、<lf>ガードできるようになる。
+<string>ガード時に受けるダメージを軽減し、<lf>通常はガードできない攻撃も、<lf>ガードできるようになる。
 <string>攻めの守勢
 <string>タイミング良くガードを成功させると、<lf>一定時間、攻撃力が上がる。
 <string>抜刀術【技】
@@ -103,7 +103,7 @@
 <string>会心撃【特殊】
 <string>攻撃で会心が発生した際に、<lf>与える状態異常値（麻痺、毒、<lf>睡眠、爆破）が高くなる。
 <string>溜打強化
-<string>ハンマーの溜め攻撃がヒットした際、<lf>気絶を誘発する力が強化される。
+<string>ハンマーの溜め攻撃がヒットした際<lf>気絶を誘発する力が強化され、<lf>ダメージが増加する。
 <string>挑戦者
 <string>戦闘中の大型モンスターが怒ると、<lf>攻撃力と会心率が上昇する。
 <string>フルチャージ
@@ -332,6 +332,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP11709
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_28227
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP28227
+<string>祝謡の祈り
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP30815
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_11543
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP11543
 <string>栄光の誉れ
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP2237
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_25348
@@ -345,7 +349,7 @@
 <string>回避装填
 <string>回避行動をした時、選択中の弾が<lf>自動で装填される。
 <string>暗黒
-<string>一部の溜め斬りで、２段階以上に溜めて<lf>攻撃した時、ダメージを受けるが、一定<lf>時間、攻撃力が上がる
+<string>一部の溜め斬りで、２段階以上に溜めて<lf>攻撃した時、ダメージを受ける。また、<lf>一定時間、攻撃力が上がる。
 <string>シールドオプション
 <string>ジャストガード成功時、一定時間、<lf>自分と一定範囲内の仲間の防御力が<lf>上がる
 <string>連携プログラム
@@ -354,6 +358,10 @@
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP24531
 <string>オメガレゾナンス
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP31540
+<string>にゃんにゃんぼう
+<string>攻撃で会心が発生した際に、低確率で<lf>様々なアイテムを入手できる
+<string>巨戟龍の黙示録
+<string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXP5590
 <string>鎖刃竜の飢餓
 <string><COLOR FF0000>#Rejected#</COLOR> SkillCommon_EXPm964369920
 <string>兇爪竜の力

@@ -26,6 +26,7 @@
 <string>护石
 <string>Lv{0}
 <string>Lv {0}/{1}
+<string><COLOR preset="TXT_White01">Lv {0}</COLOR>／{1}
 <string>Lv-
 <string>{0}
 <string>-
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>强化防具
+<string>极限突破强化
+<string>极限突破强化完成
 <string>升级所需强化值
 <string>已强化至最大值
 <string>显示全部
 <string>仅显示<ICON EQUIP_TYPE1>服装
+<string>不显示<ICON EQUIP_TYPE2>服装
 <string>仅显示<ICON EQUIP_TYPE2>服装
+<string>不显示<ICON EQUIP_TYPE1>服装
 <string>仅显示持有的装备
 <string>仅显示整套防具
 <string>仅显示愿望单装备
 <string>仅显示α装备
 <string>仅显示β装备
+<string>α／β类型分别显示
+<string>α／β类型仅显示α
+<string>α／β类型仅显示β
 <string>强化
 <string>生产
 <string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>是否确定？
 <string>需要素材及{0}<REF RefGeneral_0015_000>，确定制作吗？<lf><lf>（制作此装备时可同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
 <string>该装备为整套防具。<lf>将消耗素材和{0}<REF RefGeneral_0015_000>制作所有部位的防具，<lf>是否确定？
 <string>该装备为整套防具。<lf>将消耗素材和{0}<REF RefGeneral_0015_000>制作所有部位的防具，<lf>是否确定？<lf><lf>（制作该装备将同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
+<string>需要基础武器、素材及{0}<REF RefGeneral_0015_000>。<lf>是否确定？
+<string>需要基础武器、素材及{0}<REF RefGeneral_0015_000>。<lf>确定制作吗？<lf><lf>（制作此装备时可同时获得<COLOR preset="TXT_Accent">外观装备</COLOR>）
 <string>要现在装备吗？
 <string>确定要更改装备吗？<lf><COLOR preset="TXT_Danger">（其他部位的整套防具也将被卸除）</COLOR>
 <string>该装备为整套防具。<lf>确定要给所有部位装备吗？<lf><COLOR preset="TXT_Danger">（外观装备的设置将变为无效）</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">已持有此推荐装备，无法生产或强化。</COLOR>
 <string><COLOR preset="TXT_Danger">已持有此推荐装备，无法生产。</COLOR>
 <string><COLOR preset="TXT_Danger">您已持有该整套防具，无法制作。</COLOR>
+<string><COLOR preset="TXT_Danger">此装备无法进行极限突破强化。</COLOR>
+<string><COLOR preset="TXT_Danger">此装备已完成极限突破强化。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有稀有度8的机械武器。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有巨戟机械武器。</COLOR>
 <string>使用中的装备：{0}
 <string>正装在其他装备上，要卸除吗？
 <string><COLOR preset="TXT_Danger">此为已镶嵌的装饰品。</COLOR>
@@ -119,6 +133,7 @@
 <string>切换装饰品名称
 <string>加入收藏
 <string>装备外观设置
+<string>查看装备外观
 <string>装备设置
 <string>自动选择
 <string>从箱子中选择
@@ -135,6 +150,7 @@
 <string>以生产素材登记
 <string>以强化素材登记
 <string>要登记至愿望单吗？
+<string>要登记到愿望单吗？<lf><lf>以生产素材登记：登记生产所需的素材。<lf><lf>以强化素材登记：登记强化所需的素材。<lf>若未持有衍生前的武器，将一并登录生产所需的素材。
 <string>需要登记至愿望单的装备中，包括了可通过生产或强化制造的装备。请选择要登记的素材。
 <string>从愿望单删除
 <string>要从愿望单中删除吗？
@@ -158,6 +174,9 @@
 <string>筒
 <string>盘
 <string>装置
+<string>巨戟
+<string>仅显示机械武器
+<string>仅显示巨戟机械武器
 <string>衣装
 <string>搜索
 <string>防御力加成
@@ -216,6 +235,9 @@
 <string>按精炼值
 <string>按收藏
 <string>按复原阶段
+<string>按巨戟性能类型
+<string>按复原阶段（降序）
+<string>按复原阶段（升序）
 <string>1～3
 <string>2～3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">个人组合中登记了未持有的装备。</COLOR><lf>已将该装备自动登记至愿望单。
 <string><COLOR preset="TXT_Accent">个人组合中登记了未持有的装备。</COLOR><lf>愿望单中已登记过该装备。
 <string><COLOR preset="TXT_Accent">个人组合中登记了未持有的装备。</COLOR>
+<string><COLOR preset="TXT_Accent">无法从个人组合或猎人资料登记随机性能的护石。<lf>（将登记为无设置）</COLOR>

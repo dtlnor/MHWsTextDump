@@ -371,7 +371,7 @@
 <string>鎧玉の精錬
 <string>モンスター素材を消費して<COLOR preset="TXT_Accent">鎧玉</COLOR>を精錬する。<lf>手に入る鎧玉の種類や数は、素材から<lf>得られる精錬値の合計に応じて変化する。
 <string>アーティア武器の復元強化
-<string>アーティア武器の性能は「<COLOR preset="TXT_Accent"><REF RefMenu_101_00></COLOR>」から<lf>最大で５段階まで強化できる。
+<string>アーティア武器の性能は<lf>「<COLOR preset="TXT_Accent"><REF RefMenu_101_00></COLOR>」から<lf>最大で５段階まで強化できる。
 <string>アーティア武器の復元強化
 <string>一定量の専用素材を消費すると<COLOR preset="TXT_Accent">復元段階</COLOR>が<lf>上昇し、ランダムで<COLOR preset="TXT_Accent">復元ボーナス</COLOR>が付与され<lf>性能が向上する。
 <string>強化用素材の入手方法
@@ -611,7 +611,7 @@
 <string>釣りの操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>釣りの操作方法
-<string><COLOR preset="TXT_Accent">暴れをいなす</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">巻く</COLOR>：<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>釣りの操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>釣りの操作方法
@@ -765,7 +765,7 @@
 <string>アーティア武器の属性
 <string>３パーツとも同属性の性能タイプにすると<lf>より強力な属性値が得られる。全て異なる<lf>属性では、<COLOR preset="TXT_Accent">無属性</COLOR>のアーティア武器となる。
 <string>アーティア武器の復元強化
-<string>生産したアーティア武器は専用素材を消費し<lf>性能の強化ができる。加工屋の「<COLOR preset="TXT_Accent">アーティア<lf>武器の復元強化・解体</COLOR>」を確認しよう。
+<string>生産したアーティア武器は専用素材を消費し<lf>性能の強化ができる。加工屋の「<COLOR preset="TXT_Accent">アーティア<lf>武器の生産・強化</COLOR>」を確認しよう。
 <string>マルチプレイを楽しもう
 <string>ロビーが開放され、他プレイヤーとの<lf>マルチプレイが可能になった。<lf>詳しくはプレイガイドを確認しよう。
 <string>ロビーとマルチプレイ
@@ -977,7 +977,7 @@
 <string>暗黒剣「漆黒の剣」
 <string>バリア展開後の<ICON PL_BT_RIDE_ATTACK_L>入力か、破壊されずに<lf>一定時間が経過して終了すると前方に<lf>斬撃を放つ。
 <string>暗黒剣「イーブンタイド」
-<string>バリアが敵の攻撃で破壊された場合は<lf>強力なカウンター攻撃を発動し、<lf>一定時間、<COLOR preset="TXT_Accent">特殊な強化状態</COLOR>が付与される。
+<string>バリアが攻撃で破壊された場合は<lf>強力なカウンター攻撃を発動し、<lf>一定時間、<COLOR preset="TXT_Accent">特殊な強化状態</COLOR>が付与される。
 <string>カスタムショートカットの活用
 <string>ブラックナイトはカスタムショートカットに<lf>登録することで、抜刀状態でも使用できる。<lf>詳しくは「<COLOR preset="TXT_Accent">基本操作指南</COLOR>」を確認しよう。
 <string>フィールドマップ
@@ -1032,6 +1032,84 @@
 <string>「レゾナンス：ファー」の発動中は、<lf>自身と他ハンターが一定の距離まで<lf>「<COLOR preset="TXT_Accent">離れる</COLOR>」と自身の攻撃力が上昇する。
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>狩猟演習クエスト
+<string>フリークエスト内から、新たに<lf>「<COLOR preset="TXT_Accent">狩猟演習クエスト</COLOR>」が受注可能になった。
+<string>狩猟演習クエスト
+<string>「狩猟演習クエスト」はターゲットの<lf>出現位置や難易度などの条件が固定されて<lf>おり、他の大型モンスターも出現しない。
+<string>狩猟演習クエスト
+<string>そのため特定のモンスターに集中した狩猟が<lf>可能で、立ち回りの研究にも適している。<lf>「<COLOR preset="TXT_Accent">フリークエスト</COLOR>」から受注し活用しよう。
+<string>交わりの祭事【祝謡の儀】開催中
+<string>祭事の期間中、大集会所では様々な要素が<lf>楽しめる。それぞれ期間が限られているため<lf>この機会にぜひ立ち寄ってみよう！
+<string>期間限定の特別なサポートハンター！
+<string>期間中、救難信号で特別なサポートハンター<lf>もクエスト参加してくれる。ただしクエスト<lf>の種類や進行度で制限される場合もある。
+<string>祭事限定の食事を堪能しよう！
+<string>食事場では、期間限定の特別なメニューを<lf>味わえる。期間中のログインボーナスで入手<lf>可能な「祝謡のお食事券」を活用しよう！
+<string>「祝謡のお食事券」の適用対象
+<string>通常のお食事券は使用者以外の一部メンバー<lf>でも食事可能だが、祭事限定のメニューでは<lf>そのお食事券の使用者のみが対象となる。
+<string>アルマの特別衣装で気分一新！
+<string>祝謡の儀の雰囲気に合わせた特別な編纂者<lf>衣装が用意された。着替えさせたい場合は、<lf>大集会所にいるアルマへ話しかけてみよう！
+<string>配信バウンティを毎日更新！
+<string>配信バウンティは日替わりで更新され、<lf>イベント限定装備の生産に必要となる<lf>「祭事チケット【祝謡】」が入手できる。
+<string>専用ログインボーナスを追加！
+<string>通常時は１日１枚のみの「激運チケット」を<lf>期間中は特別に１日２枚へ増量！　加えて、<lf>「祭事チケット【祝謡】」等も入手できる。
+<string>イベントクエストが続々配信！
+<string>期間限定の特別なイベントクエストを<lf>順次配信！　また、過去に配信された<lf>イベントクエストの多くも再配信される。
+<string>巨戟アーティア武器
+<string>ゴグマジオスから入手できる巨戟変異パーツ<lf>をアーティア武器に使用することで<lf>より強力な武器へ強化できるようになった。
+<string>巨戟アーティア武器
+<string>巨戟アーティア武器はシリーズスキルと<lf>グループスキルを持つ他、より強い復元<lf>ボーナスが発動できるようになる。
+<string>巨戟アーティア武器への強化
+<string>アーティア武器に同一の巨戟変異パーツを<lf>３つ使用して強化する。強化元のアーティア<lf>武器の生産・復元ボーナスは引き継がれる。
+<string>巨戟アーティア武器への強化
+<string>使用した巨戟変異パーツに付与されている<lf>「<COLOR preset="TXT_Accent">巨戟性能タイプ</COLOR>」によって、武器の<lf>基本性能が変化する。好みの性能を選ぼう。
+<string>巨戟アーティア武器への強化
+<string>巨戟アーティア武器への強化時に、シリーズ<lf>スキルとグループスキルがランダムで選ばれ<lf>発動する。後から付け直すことも可能だ。
+<string>巨戟アーティア武器への強化
+<string>巨戟アーティア武器は、復元強化によって<lf>より強いボーナスが発動する。「<COLOR preset="TXT_Accent">巨戟<lf>アーティア武器の復元強化</COLOR>」を確認しよう。
+<string>巨戟アーティア武器の復元強化
+<string>巨戟アーティア武器の強化として、新たに<lf>「<COLOR preset="TXT_Accent">巨戟復元強化</COLOR>」と「<COLOR preset="TXT_Accent">スキルの再付与</COLOR>」が<lf>追加された。<ICON UI_LIST_TRIGGER_L1>・<ICON UI_LIST_TRIGGER_R1>で切り替えが可能。
+<string>巨戟アーティア武器の復元強化
+<string>「<COLOR preset="TXT_Accent">巨戟復元強化</COLOR>」では復元ボーナス５枠を<lf>一括で何度でも強化できる。巨戟アーティア<lf>武器専用の復元ボーナスも存在する。
+<string>巨戟アーティア武器の復元強化
+<string>「<COLOR preset="TXT_Accent">巨戟復元強化</COLOR>」は、発動中の復元ボーナス<lf>のカテゴリを維持したまま付け直すか、<lf>完全にランダムで付け直すかを選択可能。
+<string>巨戟アーティア武器の復元強化
+<string>「<COLOR preset="TXT_Accent">スキルの再付与</COLOR>」では巨戟変異パーツを<lf>使用して、シリーズ・グループスキルを<lf>付け直す。巨戟性能タイプは変化しない。
+<string>巨戟アーティア武器の復元強化
+<string>どちらの強化も、結果が気に入らなければ<lf>武器に反映せず、元に戻すこともできる。<lf>但し、使用した素材はそのまま消費される。
+<string>防具の限界突破
+<string>防具を更に強化する「<COLOR preset="TXT_Accent">限界突破強化</COLOR>」が<lf>開放された。強化したい上位防具を選んで<lf>特殊な強化を行うことができる。
+<string>防具の限界突破
+<string>限界突破を行った防具は、鎧玉による<lf>強化の上限が拡張され、更に一部の防具は<lf>装飾品スロットも強化される。
+<string>装飾品スロットの強化について
+<string>レア度５の防具は３箇所、レア度６の防具は<lf>２箇所のスロットLvが強化される。（Lv３の<lf>スロットがあると、強化箇所が減る）
+<string>ナナイロカネ精錬の素材の拡張
+<string>「<COLOR preset="TXT_Accent">ナナイロカネの精錬</COLOR>」に、新たに<lf>巨戟変異パーツが素材として投入できる<lf>ようになった。
+<string>翼脚を狙って姿勢を崩そう
+<string>翼脚への攻撃を繰り返せばゴグマジオスの<lf>姿勢を崩せる。成功したら背中への攻撃<lf>チャンスを逃さず、兵器を落下させよう。
+<string>ギミック活用での大ダメージ
+<string>大ダメージを与えるには、フィールド内に<lf>点在するギミックも有効。周囲をよく観察<lf>しながらタイミングよく活用していこう。
+<string>兵器へのエネルギーチャージ
+<string>収束破龍砲の発射には竜乳エネルギーが<lf>必要。「<COLOR preset="TXT_Accent">ゆるんだ分脈束</COLOR>」をそこまで運び<lf>接続し、エネルギーをチャージしていこう。
+<string>チャージ速度と威力の上昇
+<string>分脈束を多く繋ぐほど、チャージの速度と<lf>威力が上昇する。計３本の全てを繋げば<lf>より迅速に、かつ最大出力で発射できる。
+<string>龍属性攻撃による大技の威力軽減
+<string>ゴグマジオスにダメージを与え続ける<lf>ことで、超強力な大技の威力を軽減できる。<lf>龍属性を活用して有利に立ち回ろう。
+<string>ファビウスの援護を受けよう
+<string>攻撃を続けて大技の抑制に成功していれば、<lf>ガードするファビウスの後ろで耐え凌げる。<lf>ファビウスを探し、その背後へ移動しよう。
+<string>大技へのその他対応方法
+<string>抑制に成功し、ガード可能な武器を装備中<lf>ならば自分でも耐えられる。高台が残って<lf>いれば、そこへ移動して避けることも可能。
+<string>特別報酬でさらなる武器生産へ
+<string>「<COLOR preset="TXT_Accent">巨戟変異パーツ</COLOR>」を入手したことで<lf>新たに特別な武器が生産可能になった。<lf>加工屋で詳細を確認してみよう。
+<string>変異パーツのある部位を狙おう
+<string>ゴグマジオスには、変異パーツが付着した<lf>部位が存在する。積極的にそこを破壊し、<lf>変異パーツの追加報酬を狙ってみよう。
+<string>高難度の特殊環境クエスト
+<string>同時に複数の強力な個体を狩猟する<lf>高難易度の「<COLOR preset="TXT_Accent">特殊環境クエスト</COLOR>」は、<lf>フリークエストから受注できる。
+<string>クリアして特別な報酬を貰おう
+<string>各クエストをクリアすると、報酬として<lf>専用の「<COLOR preset="TXT_Accent">ネームプレート</COLOR>」が得られる。<lf>入手して己の腕前を証明しよう！
+<string>マルチプレイ途中参加での注意
+<string>クエストへ途中参加してクリアした場合、<lf>報酬の専用ネームプレートを受け取ることは<lf>できない。クエスト開始時から参加しよう。
+<string>万全の準備で挑もう
+<string>いずれも高難度のクエストが揃っているため<lf>挑戦には万全の準備が必要となるだろう。<lf>全ての高難易度クエストのクリアに挑もう！
 <string>傷口
 <string>所持中の不要な装飾品を消費することで、<lf><COLOR preset="TXT_Accent">希望の装飾品を錬金</COLOR>できるようになった。<lf>ラインナップは条件を満たすと増加する。
 <string><REF RefItem_0017_120>と装備マイセット

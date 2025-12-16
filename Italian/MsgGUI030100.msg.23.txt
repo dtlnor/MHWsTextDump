@@ -760,10 +760,14 @@
 <string>Attiva automaticamente l'HDR sui dispositivi<lf>compatibili e lo disattiva su quelli non supportati.
 <string>Disattiva
 <string>Disattiva l'HDR anche sui dispositivi compatibili.
-<string>Luminosità
-<string>Regola la luminosità dell'immagine.
-<string>Luminosità (HDR)
-<string>Regola la luminosità dell'immagine.
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Luminosità schermo
+<string><PLATMSG MsgGUI030100_03_13_Help>
+<string>Regola la luminosità del tuo schermo.
+<string><PLATMSG MsgGUI030100_03_14>
+<string>Luminosità schermo HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
+<string>Regola la luminosità del tuo schermo.
 <string>Prestazioni
 <string>Regola le impostazioni grafiche.<lf><COLOR preset="TXT_Accent">(Modificabile dal menu delle opzioni principale.)</COLOR>
 <string>Regola le impostazioni grafiche relative al gioco.
@@ -1105,7 +1109,7 @@
 <string>Nascondi
 <string>Nascondi i numeri dei danni.
 <string>Avviso barra salute
-<string>Imposta se la barra salute mostra un avviso<lf>poco prima che i mostri eseguano attacchi che<lf>infliggono ingenti danni.
+<string>Imposta se la barra salute mostra un avviso<lf>quando è sotto un certo limite e poco prima <lf>che un mostro esegua un attacco pericoloso.
 <string>Mostra
 <string>La barra salute mostra un avviso (movimento<lf>ondulato, in rosso) per indicare quando<lf>un mostro sta per sferrare un attacco letale.
 <string>Non mostrare
@@ -1310,6 +1314,8 @@
 <string>Sì
 <string>Nascondi i Seikret di altri giocatori o cacciatori<lf>di supporto quando non sono in sella.<lf><COLOR preset="TXT_Accent">(In alcuni casi vengono comunque mostrati.)</COLOR>
 <string>No
+<string>Mostra sempre i Seikret di altri giocatori<lf>o cacciatori di supporto.
+<string>Mostra
 <string>Mostra sempre i Seikret di altri giocatori<lf>o cacciatori di supporto.
 <string>Esplorazione automatica Seikret
 <string>Imposta se il Seikret entra o meno in<lf>modalità esplorazione automatica quando non<lf>ci sono destinazioni impostate sulla mappa.
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Altoparlanti della console
+<string>Impostazioni audio ottimizzate<lf>per gli altoparlanti della console.
+<string>Selezione menu di scelta rapida
+<string>Configura i comandi per il menu di scelta rapida.
+<string>Tipo 1
+<string>Il menu selezionato resta al centro mentre<lf>premi <INPUTMSG MsgGUI030100_INPUT_01> per selezionare un nuovo menu.
+<string>Tipo 2
+<string>Mantiene la visualizzazione centrata tra tutti<lf>gli 8 menu mentre premi <INPUTMSG MsgGUI030100_INPUT_01> per selezionare<lf>un nuovo menu.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Comandi giroscopio (modalità portatile)
+<string>Se attiva, ti permette di usare il giroscopio<lf>per controllare la visuale in modalità<lf>portatile, e anche di configurare impostazioni<lf>più dettagliate.
+<string>Intensità rumble del controller
+<string>Modifica l'intensità della vibrazione del controller.
+<string>Debole
+<string>Media (normale)
+<string>Forte

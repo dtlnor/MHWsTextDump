@@ -38,8 +38,8 @@
 <string>Per pescare un pesce-mastodonte bisogna<lf>essere più forti di lui. Se si agita,<lf>non farti trascinare ma muoviti con lui<lf>usando <ICON PL_DUMMY_MOVE> per ridurre<lf>la tensione sulla lenza.
 <string>Pescare un pesce-mastodonte è una sfida. <lf>Se si agita, muoviti con lui usando<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> per ridurre la tensione della lenza.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>È il momento giusto! Non appena<lf>il pesce si stanca, muovi <ICON PL_DUMMY_MOVE> su e giù<lf>per recuperare la lenza.
-<string>Quando il pesce si stanca e rallenta,<lf>è la tua occasione! Premi più volte<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> per riavvolgere la lenza.
+<string>È il momento giusto! Non appena<lf>il pesce si stanca, ruota <ICON PL_DUMMY_MOVE><lf>per recuperare la lenza.
+<string>Quando il pesce si stanca e rallenta,<lf>è la tua occasione! Alterna <ICON PL_MOVE_FRONT> e <ICON PL_MOVE_BACK><lf>per riavvolgere la lenza.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Se il pesce è vicino a un ostacolo,<lf>inclina <ICON PL_DUMMY_MOVE> nella direzione opposta<lf>e tieni la lenza lontana dalle rocce.
 <string>Se il pesce è vicino a un ostacolo, usa<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> per spostarti nella direzione<lf>opposta e tieni la lenza lontana dalle rocce.
@@ -47,8 +47,8 @@
 <string>Quando salta, muovi <ICON PL_DUMMY_MOVE> nella stessa<lf>direzione del pesce e usa <ICON PL_FISHING_ACTION><lf>per acchiapparlo.
 <string>Quando salta, usa <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>per muoverti nella stessa direzione<lf>del pesce e <ICON PL_FISHING_ACTION> per catturarlo.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Recupera lentamente:</COLOR>  <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Recupera rapidamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Recupera lentamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> <ICON merge="PL_DUMMY_MOVE,TURN_ON"> velocemente<lf><COLOR preset="TXT_Accent">Recupera lentamente:</COLOR>  <ICON merge="PL_DUMMY_MOVE,TURN_ON"> lentamente<lf><COLOR preset="TXT_Accent">Agita esca:</COLOR> <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (veloce)<lf><COLOR preset="TXT_Accent">Recupera lentamente</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> (lento)<lf><COLOR preset="TXT_Accent">Agita esca</COLOR>: <ICON PL_MOVE_BACK> ripetutamente
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Evitare gli ostacoli</COLOR>: usa <ICON PL_DUMMY_MOVE> per<lf>allontanare i pesci dagli ostacoli.
 <string><COLOR preset="TXT_Accent">Evitare gli ostacoli</COLOR>: usa <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>per allontanare i pesci dagli ostacoli.
@@ -68,11 +68,11 @@
 <string>Impone una paralisi momentanea.<lf>Muovi rapidamente <ICON PL_DUMMY_MOVE><lf>o usa un pulitore per riprenderti.
 <string>Impone una paralisi momentanea.<lf>Premi rapidamente <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>o usa un pulitore per riprenderti.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> muovi velocemente<lf><ICON PL_DUMMY_MOVE> su e giù
-<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> premi velocemente <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> ruota velocemente <ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Recupera rapidamente:</COLOR> <ICON PL_MOVE_FRONT> e <ICON PL_MOVE_BACK> (veloce)
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>Recupera lentamente: muovi lentamente<lf><ICON PL_DUMMY_MOVE> su e giù
-<string>Recupera lentamente: premi lentamente <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string>Recupera lentamente: ruota lentamente <ICON PL_DUMMY_MOVE>
+<string>Recupera lentamente: alterna lentamente <ICON PL_MOVE_FRONT> e <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>Scuoti lenza: inclina ripetutamente<lf><ICON PL_DUMMY_MOVE> verso il basso
 <string>Scuoti lenza:<lf>premi ripetutamente <ICON PL_MOVE_BACK>
@@ -145,3 +145,9 @@
 <string>Usa <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> per individuare<lf>un oggetto o un ambiente visualizzato<lf>nelle notifiche degli insetti guida,<lf>sul lato sinistro dello schermo.
 <string>Premi <ICON UI_LIST_TRIGGER_L_LEFT> per aprire il menu mappa che ti<lf>permetterà di accedere a diverse<lf>funzionalità.
 <string>Premi <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT> per aprire il menu mappa che ti<lf>permetterà di accedere a diverse<lf>funzionalità.
+<string>Recupera rapidamente (ruota velocemente)
+<string>Recupera rapidamente (premi alternato)
+<string>Recupera lentamente (ruota lentamente)
+<string>Recupera lentamente (premi alternato)
+<string><COLOR preset="TXT_Accent">Riprendi il controllo</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Recupera</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Riprendi il controllo</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Recupera</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

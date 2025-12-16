@@ -51,6 +51,7 @@
 <string>Salva come indagine
 <string>Crea missione
 <string>Accetta missione
+<string>Inizia indagine
 <string>Spendere <PLURAL {0} "{0} punto" "{0} punti"> per salvare<lf>come indagine?
 <string>Salvata come indagine.
 <string><COLOR preset="TXT_Danger">Punti gilda insufficienti.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">Non si può usare durante questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Questa missione non può essere accettata al di fuori del Centro supremo.</COLOR>
 <string><COLOR preset="TXT_Danger">Non si può usare durante questa missione.</COLOR>
+<string><COLOR preset="TXT_Danger">Questa missione non può essere pubblicata perché non è ancora stata sbloccata.</COLOR>
 <string>Torna al titolo
 <string>Riprova
 <string>Abbatti {0}
@@ -101,6 +103,7 @@
 <string>Cassa valutazioni (amuleti)
 <string>Gli oggetti segnati in eccesso nella<lf>cassa equipaggiamento saranno venduti.<lf>Vedi i dettagli per saperne di più.
 <string><COLOR preset="TXT_Danger">Non è possibile ottenere {0} <PLURAL {0} "amuleto" "amuleti"> poiché<lf>la cassa equipaggiamento è piena.<lf><lf>Scegliere <BOLD>Prendi tutto</BOLD> venderà<lf>gli oggetti indicati.</COLOR>
+<string>Ricompense speciali
 <string>Missione<lf>compiuta
 <string>Missione<lf>fallita
 <string>Ritorno<lf>alla<lf>base
@@ -204,6 +207,7 @@
 <string>È in corso il Festival dell'Armonia: Fiordanza!
 <string>È in corso il Festival dell'Armonia: Festardente!
 <string><REF RefGeneral_0029_002> è in corso!
+<string>È in corso il Festival dell'Armonia: Luminalia!
 <string>Il canto della Diva inizia tra {0} min.
 <string>La voce di preghiera della Diva risuona.
 <string>Voce di preghiera della Diva
@@ -242,6 +246,10 @@
 <string>I cacciatori di supporto si uniranno indipendentemente dalle impostazioni multigiocatore.
 <string>Mai
 <string>I cacciatori di supporto non si uniranno, a prescindere dalle impostazioni multigiocatore.
+<string>Promemoria buono megafortuna
+<string>Imposta un promemoria per i buoni megafortuna, che viene inviato come notifica importante della chat all'inizio delle missioni.
+<string>No
+<string>Sì
 <string>Ulteriori dettagli
 <string>Regole missione sfida libera<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
 <string>Regole missioni sfida/missioni Arena<lf>- Numero massimo di partecipanti: 2.<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.<lf>- I compagni Felyne non possono unirsi alla missione.<lf>- Gli effetti dei pasti <COLOR preset="TXT_Danger">verranno temporaneamente disabilitati<lf>durante la missione</COLOR> (e ripristinati una volta finita).<lf>- Gli effetti di stato, ottenuti da oggetti o da effetti melodia,<lf><COLOR preset="TXT_Danger">spariranno alla partenza</COLOR>.<lf><lf>Regole missioni sfida libera<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
@@ -270,6 +278,11 @@
 <string>Ascendente
 <string>Discendente
 <string>Consigliato
+<string>Nessuna password
+<string>Iniziate da poco
+<string>Slot membri liberi
+<string>Meno tentativi
+<string>Più tentativi
 <string>Elimina indagine
 <string>Eliminare l'indagine selezionata?<lf>Attenzione, se l'indagine rimane nella<lf><COLOR preset="TXT_Accent">Cronologia ricerche sul campo</COLOR>,<lf>anche la cronologia verrà cancellata.
 <string>Indagine eliminata.
@@ -301,3 +314,11 @@
 <string>Confermare equipaggiamento?
 <string>In attesa degli altri giocatori.
 <string>Punteggio alto
+<string>Ultima missione giocata
+<string>Disponibile: <DATETIME {0} "DD/MM/YYYY HH:mm"> – <DATETIME {1} "DD/MM/YYYY HH:mm"> (UTC)
+<string>Pubblica
+<string>Cerca per Missione membri stanza
+<string>Cerca Missioni razzo SOS simili
+<string>Salva
+<string>Pubblica (restanti: {0})
+<string>Cerca per <EMID {0}>

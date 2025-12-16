@@ -26,6 +26,7 @@
 <string>護石
 <string>Lv{0}
 <string>Lv {0}/{1}
+<string><COLOR preset="TXT_White01">Lv {0}</COLOR>/{1}
 <string>Lv-
 <string>{0}
 <string>-
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>強化防具
+<string>極限突破強化
+<string>極限突破強化完成
 <string>升級所需強化值
 <string>已強化至上限
 <string>顯示全部
 <string>僅顯示<ICON EQUIP_TYPE1>服裝
+<string>不顯示<ICON EQUIP_TYPE2>服裝
 <string>僅顯示<ICON EQUIP_TYPE2>服裝
+<string>不顯示<ICON EQUIP_TYPE1>服裝
 <string>僅顯示持有裝備
 <string>僅顯示整套防具
 <string>僅顯示願望清單裝備
 <string>僅顯示α裝備
 <string>僅顯示β裝備
+<string>分別顯示α/β系統
+<string>僅顯示α系統
+<string>僅顯示β系統
 <string>強化
 <string>生產
 <string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>確定嗎？
 <string>需要素材及{0}<REF RefGeneral_0015_000>。<lf>確定嗎？<lf><lf>（製作此裝備時可同時獲得<COLOR preset="TXT_Accent">外觀裝備</COLOR>）
 <string>此為整套防具裝備。要以素材及{0}<REF RefGeneral_0015_000><lf>生產所有部位的防具嗎？
 <string>此為整套防具裝備。要以素材及{0}<REF RefGeneral_0015_000><lf>生產所有部位的防具嗎？<lf><lf>（製作此裝備時可同時獲得<COLOR preset="TXT_Accent">外觀裝備</COLOR>）
+<string>需要基礎武器、素材及{0}<REF RefGeneral_0015_000>。<lf>確定嗎？
+<string>需要基礎武器、素材及{0}<REF RefGeneral_0015_000>。<lf>確定嗎？<lf><lf>（製作此裝備時可同時獲得<COLOR preset="TXT_Accent">外觀裝備</COLOR>）
 <string>要馬上裝備嗎？
 <string>確定要變更裝備嗎？<lf><COLOR preset="TXT_Danger">（將一併卸下其他部位的整套防具）</COLOR>
 <string>此為整套防具裝備。是否裝備至所有部位？<lf><COLOR preset="TXT_Danger">（外觀裝備的設定將變更為無效）</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">已持有此推薦裝備，無法生產或強化。</COLOR>
 <string><COLOR preset="TXT_Danger">已持有此推薦裝備，無法生產。</COLOR>
 <string><COLOR preset="TXT_Danger">無法生產已持有的整套防具。</COLOR>
+<string><COLOR preset="TXT_Danger">無法極限突破強化此裝備。</COLOR>
+<string><COLOR preset="TXT_Danger">此裝備已極限突破強化。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有稀有度8的機械武器。</COLOR>
+<string><COLOR preset="TXT_Danger">未持有巨戟機械武器。</COLOR>
 <string>已鑲嵌至：{0}
 <string>目前正鑲嵌於其他裝備上，是否卸除？
 <string><COLOR preset="TXT_Danger">此為已鑲嵌的裝飾品。</COLOR>
@@ -119,6 +133,7 @@
 <string>切換裝飾品名稱
 <string>登錄至我的最愛
 <string>裝備外觀設定
+<string>確認裝備外觀
 <string>裝備設定
 <string>自動選擇
 <string>從箱子選擇
@@ -135,7 +150,8 @@
 <string>登錄生產素材
 <string>登錄強化素材
 <string>要登錄至願望清單嗎？
-<string>需要登錄至願望清單的裝備中包括<lf>可經生產或強化來製造的裝備。<lf>請選擇要登錄的素材。
+<string>要登錄至願望清單嗎？<lf><lf>登錄生產素材：將登錄生產所需的素材。<lf><lf>登錄強化素材：將登錄強化所需的素材。<lf>未持有衍生前武器時，將一併登錄生產所需的素材。
+<string>需要登錄至願望清單的裝備中包括可經生產或強化來製造的裝備。請選擇要登錄的素材。
 <string>從願望清單刪除
 <string>要從願望清單刪除嗎？
 <string>要從願望清單刪除嗎？<lf><COLOR preset="TXT_Danger">（此項目已和裝備個人組合連結。<lf>　刪除的裝備將在裝備個人組合變更為「無設定」）</COLOR>
@@ -158,6 +174,9 @@
 <string>筒
 <string>盤
 <string>裝置
+<string>巨戟
+<string>僅顯示機械武器
+<string>僅顯示巨戟機械武器
 <string>衣裝
 <string>搜尋
 <string>防禦力加成
@@ -216,6 +235,9 @@
 <string>依精煉值排序
 <string>依我的最愛排序
 <string>按復原階段排序
+<string>依巨戟性能類型排序
+<string>按復原階段高至低排序
+<string>按復原階段低至高排序
 <string>1-3
 <string>2-3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">個人組合中登錄了未持有的裝備。</COLOR><lf>已將該裝備自動登錄至願望清單。
 <string><COLOR preset="TXT_Accent">個人組合中登錄了未持有的裝備。</COLOR><lf>該裝備已登錄至願望清單。
 <string><COLOR preset="TXT_Accent">個人組合中登錄了未持有的裝備。</COLOR>
+<string><COLOR preset="TXT_Accent">無法從個人組合分享或獵人簡介登錄具隨機性能的護石。<lf>（將登錄為無設定）</COLOR>

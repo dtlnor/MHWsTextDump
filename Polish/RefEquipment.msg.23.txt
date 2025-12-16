@@ -26,6 +26,7 @@
 <string>Talizman
 <string>Poz. {0}
 <string>Poz. {0}/{1}
+<string><COLOR preset="TXT_White01">Poz. {0}</COLOR>/{1}
 <string>Poz.
 <string>{0}
 <string>–
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>Ulepsz pancerz
+<string>Nadlepszenie
+<string>Nadlepszenie zakończone
 <string>Do następnego poziomu
 <string>Ulepszono do maksimum
 <string>Pokaż wszystko
 <string>Tylko pancerz <ICON EQUIP_TYPE1>
+<string>Wyklucz ubrania <ICON EQUIP_TYPE2>
 <string>Tylko pancerz <ICON EQUIP_TYPE2>
+<string>Wyklucz ubrania <ICON EQUIP_TYPE1>
 <string>Pokaż posiadane
 <string>Pełne pancerze
 <string>Pokaż z listy życzeń
 <string>Pokaż α
 <string>Pokaż β
+<string>Pokazuj oba dla typów α/β
+<string>Pokazuj α dla typów α/β
+<string>Pokazuj β dla typów α/β
 <string>Ulepsz
 <string>Wykuj
 <string>Wymaga materiałów i {0} z.<lf>Kontynuować?
 <string>Wymaga materiałów i <NUMBER {0}>z.<lf>Kontynuować?<lf><lf>(Stworzenie wyposażenia odblokuje je również jako <COLOR preset="TXT_Accent">warstwowe</COLOR>).
 <string>To pełny pancerz. Do wytworzenia<lf>całego zestawu zostaną użyte<lf>potrzebne materiały i <NUMBER {0}>z.<lf>Kontynuować?
 <string>To pełny pancerz. Do wytworzenia całego zestawu<lf>zostaną użyte potrzebne materiały i <NUMBER {0}> z.<lf>Kontynuować?<lf><lf>(Stworzenie wyposażenia odblokuje je również jako <COLOR preset="TXT_Accent">warstwowe</COLOR>).
+<string>Wymaga materiałów, broni bazowej<lf>i <NUMBER {0}> z. Kontynuować?
+<string>Wymaga materiałów, broni bazowej<lf>i <NUMBER {0}> z. Kontynuować?<lf><lf>(Stworzenie tej broni odblokuje ją<lf>również jako <COLOR preset="TXT_Accent">wyposażenie warstwowe</COLOR>)
 <string>Wyposażyć teraz?
 <string>Jeśli zmienisz ten element, <COLOR preset="TXT_Danger">wszystkie pozostałe<lf>elementy pełnego pancerza zostaną zdjęte</COLOR>.<lf>Zmienić element pancerza?
 <string>To pełny pancerz.<lf>Założyć wszystkie elementy zestawu?<lf><lf><COLOR preset="TXT_Danger">(Pancerz warstwowy zostanie ukryty).</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">Posiadasz już to wyposażenie, więc nie można go wykuć ani ulepszyć.</COLOR>
 <string><COLOR preset="TXT_Danger">Posiadasz już to wyposażenie, więc nie można go wykuć.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie możesz wykuć pełnych pancerzy, które już posiadasz.</COLOR>
+<string><COLOR preset="TXT_Danger">Temu wyposażeniu nie można nadać nadlepszenia.</COLOR>
+<string><COLOR preset="TXT_Danger">Temu wyposażeniu nadano już nadlepszenie.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz artiańskich broni o rzadkości 8.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie masz żadnej artiańskiej broni z Gogmy.</COLOR>
 <string>Obecnie wyposażone: {0}
 <string>Używane w innym elemencie wyposażenia.<lf>Chcesz to usunąć?
 <string><COLOR preset="TXT_Danger">Ta ozdoba jest obecnie wyposażona.</COLOR>
@@ -119,6 +133,7 @@
 <string>Przełącz nazwę/umiejętność
 <string>Dodaj do ulubionych
 <string>Wygląd wyposażenia
+<string>Sprawdź wygląd wyposażenia
 <string>Ustawienia wyposażenia
 <string>Wybór automatyczny
 <string>Wybierz ze skrzynki
@@ -135,6 +150,7 @@
 <string>Zarejestruj jako do wykucia
 <string>Zarejestruj jako do ulepszenia
 <string>Dodać do listy życzeń?
+<string>Dodać do listy życzeń?<lf><lf>Dodaj materiały kowalne:<lf>Dodaje materiały potrzebne do wykucia.<lf><lf>Dodaj materiały ulepszania:<lf>Dodaje materiały potrzebne do ulepszania.<lf>Jeśli nie masz poprzedniej broni w drzewa,<lf>zostaną dodane jednocześnie wszystkie<lf>wymagane materiały.
 <string>Jeden z wymaganych elementów tej broni można zarejestrować jako przedmiot do wykucia lub ulepszenia. Wybierz metodę rejestracji.
 <string>Usuń z listy życzeń
 <string>Usunąć z listy życzeń?
@@ -158,6 +174,9 @@
 <string>Rura
 <string>Dysk
 <string>Urządzenie
+<string>Gogma
+<string>Tylko artiańskie bronie
+<string>Tylko art. bronie z Gogmy
 <string>Opończa
 <string>Wyszukiwanie
 <string>Premia do obrony
@@ -216,6 +235,9 @@
 <string>Punkty wytapiania
 <string>Najpierw ulubione
 <string>Sortowanie wg poziomu
+<string>Wg cechy Gogmy
+<string>Poziom (rosnąco)
+<string>Poziom (malejąco)
 <string>1–3
 <string>2–3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">Jeden z twoich zestawów zawiera wyposażenie,<lf>którego nie posiadasz.</COLOR> Niezdobyte wyposażenie<lf>automatycznie zarejestrowano na twojej liście<lf>życzeń.
 <string><COLOR preset="TXT_Accent">Zarejestrowany zestaw zawiera wyposażenie, którego<lf>nie posiadasz.</COLOR> To wyposażenie zostało już dodane<lf>do twojej listy życzeń.
 <string><COLOR preset="TXT_Accent">Jeden z twoich zestawów zawiera wyposażenie,<lf>którego nie posiadasz.</COLOR>
+<string><COLOR preset="TXT_Accent">Nie można zarejestrować wycenionych talizmanów <lf>za pomocą udostępnionych zestawów czy <lf>profilu łowcy.<lf>(Nie zostanie zarejestrowane żadne wyposażenie).</COLOR>

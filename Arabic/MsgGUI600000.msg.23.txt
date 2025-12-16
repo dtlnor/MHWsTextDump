@@ -38,8 +38,8 @@
 <string>إن صيد سمكة ضخمة هو المعركة النهائية لإرادة<lf>الصيد. إذا بدأت السمكة في التحرك بسرعة،<lf>فيمكن السيطرة على السحب من خلال التحرك<lf><ICON PL_DUMMY_MOVE> في الاتجاه الذي تسبح فيه باستخدام<lf>لتقليل الضغط على خيط الصيد.
 <string>إن صيد سمكة ضخمة هو المعركة النهائية لإرادة الصيد. إذا بدأت السمكة في التحرك بسرعة،<lf>فيمكن السيطرة على السحب من خلال التحرك<lf>في الاتجاه الذي تسبح فيه باستخدام<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> لتقليل الضغط على خيط الصيد.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>بمجرد أن تتعب السمكة وتبطئ سرعتها<lf>تصبح هذه <LSNR "فرصتكَ" "فرصتكِ">!<lf><LSNR "حرِّك" "حرّكي"> <ICON PL_DUMMY_MOVE> لأعلى ولأسفل لجذبها.
-<string>بمجرد أن تتعب السمكة وتبطئ سرعتها<lf>تصبح هذه <LSNR "فرصتكَ" "فرصتكِ">! اضغط على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>بشكل متكرر لسحبها.
+<string>بمجرد أن تتعب السمكة وتبطئ سرعتها<lf>تصبح هذه <LSNR "فرصتكَ" "فرصتكِ">!<lf><LSNR "قم" "قومي"> بتدوير <ICON PL_DUMMY_MOVE> لجذبها.
+<string>بمجرد أن تتعب السمكة وتبطئ سرعتها<lf>تصبح هذه <LSNR "فرصتكَ" "فرصتكِ">! <LSNR "اضغط" "اضغطي"> بالتناوب<lf>بين <ICON PL_MOVE_FRONT> و <ICON PL_MOVE_BACK> لسحبها.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>إذا اقتربت سمكة من عائق، <LSNR "فعليكَ" "فعليكِ"> إمالة <ICON PL_DUMMY_MOVE><lf>في الاتجاه المعاكس لاتجاه سباحتها لكبح جماحها<lf>مع إبقاء خيط الصيد بعيدًا عن الصخور أيضًا.
 <string>إذا اقتربت سمكة من عائق، <LSNR "فاستخدم" "فاستخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>للتحرك في الاتجاه المعاكس لاتجاه سباحتها لكبح جماحها<lf>مع إبقاء خيط الصيد بعيدًا عن الصخور أيضًا.
@@ -47,8 +47,8 @@
 <string>عندما يحدث ذلك، <LSNR "تحرك" "تحركي"> <ICON PL_DUMMY_MOVE> في اتجاه قفزتها<lf>و<LSNR "اضغط" "اضغطي"> على <ICON PL_FISHING_ACTION><lf>لتقييد السمكة.
 <string>عندما يحدث ذلك، <LSNR "استخدم" "استخدمي"> <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>للتحرك في اتجاه قفزتها<lf>و<LSNR "اضغط" "اضغطي"> على <ICON PL_FISHING_ACTION> لتقييد السمكة.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> بسرعة<lf><COLOR preset="TXT_Accent">لف بطيء:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> ببطء<lf><COLOR preset="TXT_Accent">هز صنارة الصيد:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE> بشكل متكرر
-<string><COLOR preset="TXT_Accent">لف سريع</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> سريعًا<lf><COLOR preset="TXT_Accent">لف بطيء</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> ببطء<lf><COLOR preset="TXT_Accent">هز صنارة الصيد</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON merge="PL_DUMMY_MOVE,TURN_ON"> بسرعة<lf><COLOR preset="TXT_Accent">لف بطيء:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON merge="PL_DUMMY_MOVE,TURN_ON"> ببطء<lf><COLOR preset="TXT_Accent">هز الصنارة:</COLOR> إمالة <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">لف سريع</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> سريعًا<lf><COLOR preset="TXT_Accent">لف بطيء</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> ببطء<lf><COLOR preset="TXT_Accent">هز صنارة الصيد</COLOR>: <ICON PL_MOVE_BACK> بشكل متكرر
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">تجنُّب العوائق:</COLOR> <LSNR "استخدم" "استخدمي"> <ICON PL_DUMMY_MOVE> لسحب<lf>الأسماك بعيدًا عن العوائق.
 <string><COLOR preset="TXT_Accent">تجنب العوائق</COLOR>: استخدم <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>لسحب<lf>الأسماك بعيدًا عن العوائق.
@@ -68,11 +68,11 @@
 <string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "حرّك" "حركي"> <ICON PL_DUMMY_MOVE> بسرعة أو <LSNR "استخدم" "استخدمي"> مُنظفًا<lf>للتعافي بشكل أسرع.
 <string>وضعية <LSNR "تجعلكَ غير قادر" "تجعلكِ غير قادرة"> على الحركة مؤقتًا.<lf><LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> بسرعة أو <LSNR "استخدم" "استخدمي"> مُنظفًا<lf>للتعافي بشكل أسرع.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "حرِّك" "حرّكي"> <ICON PL_DUMMY_MOVE> بسرعة لأعلى ولأسفل
-<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> بسرعة
+<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "أدِر" "أديري"> <ICON PL_DUMMY_MOVE> بسرعة
+<string><COLOR preset="TXT_Accent">لف سريع:</COLOR> <LSNR "بدّل" "بدّلي"> بسرعة بين <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>لف بطيء: <LSNR "حرِّك" "حرّكي"> <ICON PL_DUMMY_MOVE> ببطء لأعلى ولأسفل
-<string>لف بطيء: <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> ببطء
+<string>لف بطيء: <LSNR "أدر" "أديري"> <ICON PL_DUMMY_MOVE> ببطء
+<string>لف بطيء: <LSNR "بدّل" "بدّلي"> ببطء بين <ICON PL_MOVE_FRONT> و <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>خط التحريك: <LSNR "عليكَ" "عليكِ"> إمالة <ICON PL_DUMMY_MOVE> للأسفل بشكل متكرر
 <string>خط التحريك: <LSNR "اضغط" "اضغطي"> على <ICON PL_MOVE_BACK> بشكل متكرر
@@ -145,3 +145,9 @@
 <string>إذا <LSNR "كنتَ تريد" "كنتِ تريدين"> معرفة المزيد<lf>حول عنصر أو ميزة بيئية ظاهرة<lf>في إشعار ذبابات الاستطلاع،<lf><LSNR "فاستخدم" "فاستخدمي"> <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> للتركيز عليها.
 <string><LSNR "اضغط" "اضغطي"> على <ICON UI_LIST_TRIGGER_L_LEFT> لفتح قائمة الخريطة،<lf>التي ستتيح <LSNR "لكَ" "لكِ"> الوصول<lf>إلى مجموعة كبيرة من الميزات.
 <string><LSNR "اضغط" "اضغطي"> على <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT> لفتح قائمة الخريطة،<lf>التي ستتيح <LSNR "لكَ" "لكِ"> الوصول<lf>إلى مجموعة كبيرة من الميزات.
+<string>لف سريع (تدوير بسرعة)
+<string>لف سريع (ضغط الأزرار بالتناوب بسرعة)
+<string>لف بطيء (تدوير ببطء)
+<string>لف بطيء (ضغط الأزرار بالتناوب ببطء)
+<string><COLOR preset="TXT_Accent">استعادة التحكم</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">جذب</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">استعادة التحكم</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">جذب</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

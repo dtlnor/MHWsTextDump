@@ -51,6 +51,7 @@
 <string>保存为调查任务
 <string>任务化
 <string>承接任务
+<string>开始调查
 <string>要花费{0}<REF RefGeneral_0015_001>保存为调查任务吗？
 <string>已保存为调查任务。
 <string><COLOR preset="TXT_Danger">公会点数不足。</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">此任务中无法使用。</COLOR>
 <string><COLOR preset="TXT_Danger">此任务只能在<Ref RefEnvironment_0001_0001>承接。</COLOR>
 <string><COLOR preset="TXT_Danger">当前任务设置下无法使用。</COLOR>
+<string><COLOR preset="TXT_Danger">此任务尚未开放，无法承接。</COLOR>
 <string>返回标题画面
 <string>重新挑战
 <string>讨伐{0}
@@ -101,6 +103,7 @@
 <string>鉴定箱（护身符）
 <string><COLOR preset="TXT_Danger">装备箱空间不足，<lf>将自动出售带</COLOR><ICON NOT><COLOR preset="TXT_Danger">标示的道具。<lf>详情请查看道具说明。</COLOR>
 <string><COLOR preset="TXT_Danger">装备箱空间不足，<lf>有{0}个护石无法领取。<lf><lf>若按下“全部领取”，<lf>将自动出售带</COLOR><ICON NOT><COLOR preset="TXT_Danger">标示的道具。
+<string>特别报酬
 <string>任务完成
 <string>任务失败
 <string>返回营地
@@ -204,6 +207,7 @@
 <string><REF RefGeneral_0029_000>正在举办中！
 <string><REF RefGeneral_0029_001>正在举办中！
 <string><REF RefGeneral_0029_002>正在举办中！
+<string><REF RefGeneral_0029_003>正在举办中！
 <string>歌姬将于{0}分钟后献唱祈祷之歌
 <string>歌姬正在献唱祈祷之歌
 <string>歌姬的祈祷
@@ -242,6 +246,10 @@
 <string>无视多人游戏设置，支援猎人将参加自由挑战任务。
 <string>不参加
 <string>无视多人游戏设置，支援猎人不会参加自由挑战任务。
+<string>激运票提醒通知
+<string>设置任务开始时是否在重要聊天再次提醒使用激运票。
+<string>关
+<string>开
 <string>补充说明
 <string>●自由挑战任务规则<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。
 <string>●斗技大会任务／挑战任务规则<lf>・参加人数上限：2人<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。<lf>・随从艾露猫不会参加任务。<lf>・餐点效果会在<COLOR preset="TXT_Danger">任务期间暂时消失，并于任务结束后恢复。</COLOR><lf>・暂时性状态效果（道具效果、狩猎笛的旋律效果等）<lf>　会在<COLOR preset="TXT_Danger">任务出发时消失。</COLOR><lf><lf>●自由挑战任务规则<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。
@@ -270,6 +278,11 @@
 <string>升序
 <string>降序
 <string>推荐排序
+<string>无密码优先
+<string>开始时间从新到旧
+<string>空余名额从多至少
+<string>可承接数从少至多
+<string>可承接数从多至少
 <string>删除调查任务
 <string>要删除选择的调查任务吗？<lf><lf>※如果“实地调查任务记录”尚有该任务，<lf>　也会从记录中删除。
 <string>已删除调查任务。
@@ -301,3 +314,11 @@
 <string>要使用此套装备吗？
 <string>正在等待其他玩家……
 <string>最佳成绩
+<string>上次游玩的任务
+<string>发布期间：<DATETIME {0} "YYYY/MM/DD HH:mm"> (UTC) ～ <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>承接
+<string>搜索大厅成员任务
+<string>搜索类似救难信号任务
+<string>保存
+<string>承接（剩余{0}次）
+<string>按<EMID {0}>搜索

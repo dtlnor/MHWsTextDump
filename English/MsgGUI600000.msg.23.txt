@@ -38,8 +38,8 @@
 <string>Catching a whopper is the ultimate<lf>battle of fishing wills. If a fish starts<lf>thrashing, control the drag by moving <lf><ICON PL_DUMMY_MOVE> in the direction it's swimming in<lf>to reduce the tension on your<lf>fishing line.
 <string>Catching a whopper is the ultimate<lf>battle of fishing wills. If a fish starts<lf>thrashing, control the drag by moving<lf>in the direction it's swimming with<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to reduce the tension<lf>on your fishing line.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Once a fish gets tired and slows down,<lf>that's your chance! Move <ICON PL_DUMMY_MOVE> up and down<lf>to reel it in.
-<string>Once a fish gets tired and slows down,<lf>that's your chance! Press <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>repeatedly to reel it in.
+<string>Once a fish gets tired and slows down,<lf>that's your chance! Rotate <ICON PL_DUMMY_MOVE> to reel it in.
+<string>Once a fish gets tired and slows down,<lf>that's your chance! Alternate pressing<lf><ICON PL_MOVE_FRONT> and <ICON PL_MOVE_BACK> to reel it in.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>If a fish nears an obstacle, tilt <ICON PL_DUMMY_MOVE><lf>in the opposite direction it's<lf>swimming to restrain it while also<lf>keeping the line away from rocks.
 <string>If a fish nears an obstacle, use<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> to move in the opposite<lf>direction it's swimming to restrain it<lf>while also keeping the line away<lf>from rocks.
@@ -47,8 +47,8 @@
 <string>When this happens, move <ICON PL_DUMMY_MOVE> in the<lf>direction of its jump and press <ICON PL_FISHING_ACTION><lf>to restrain the fish.
 <string>When this happens, use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>to move in the direction of its jump and<lf>press <ICON PL_FISHING_ACTION> to restrain the fish.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Wiggle <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Quickly<lf><COLOR preset="TXT_Accent">Slow Reel:</COLOR> Wiggle <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Slowly<lf><COLOR preset="TXT_Accent">Jig:</COLOR> Tilt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Quick Reel</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Quickly<lf><COLOR preset="TXT_Accent">Slow Reel</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Slowly<lf><COLOR preset="TXT_Accent">Jig</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Wiggle <ICON merge="PL_DUMMY_MOVE,TURN_ON"> Quickly<lf><COLOR preset="TXT_Accent">Slow Reel:</COLOR> Wiggle <ICON merge="PL_DUMMY_MOVE,TURN_ON"> Slowly<lf><COLOR preset="TXT_Accent">Jig:</COLOR> Tilt <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Quick Reel</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Quickly<lf><COLOR preset="TXT_Accent">Slow Reel</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> Slowly<lf><COLOR preset="TXT_Accent">Jig</COLOR>: <ICON PL_MOVE_BACK> Repeatedly
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Avoiding Obstacles:</COLOR> Use <ICON PL_DUMMY_MOVE> to pull fish<lf>away from obstacles.
 <string><COLOR preset="TXT_Accent">Avoiding Obstacles</COLOR>: Use <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>to pull fish away from obstacles.
@@ -68,11 +68,11 @@
 <string>A status that leaves you temporarily unable<lf>to move. Quickly move <ICON PL_DUMMY_MOVE> or use a cleanser<lf>to recover faster.
 <string>A status that leaves you temporarily unable<lf>to move. Quickly press <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> or use<lf>a cleanser to recover faster.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Move <ICON PL_DUMMY_MOVE> quickly up and down
-<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Press <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> quickly
+<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Quickly spin <ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Quick Reel:</COLOR> Quickly alternate <ICON PL_MOVE_FRONT> and <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>Slow Reel: Move <ICON PL_DUMMY_MOVE> slowly up and down
-<string>Slow Reel: Press <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK> slowly
+<string>Slow Reel: Slowly spin <ICON PL_DUMMY_MOVE>
+<string>Slow Reel: Slowly alternate <ICON PL_MOVE_FRONT> and <ICON PL_MOVE_BACK>
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>Jig Line: Tilt <ICON PL_DUMMY_MOVE> down repeatedly
 <string>Jig Line: Press <ICON PL_MOVE_BACK> repeatedly
@@ -145,3 +145,9 @@
 <string>Use <ICON PL_AIM_SHOOTING><ICON PLUS><ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R> to locate an item<lf>or environmental feature displayed<lf>in the Scoutfly Notifications on the<lf>left side of the screen.
 <string>Press <ICON UI_LIST_TRIGGER_L_LEFT> to open the map menu,<lf>which will allow you to access<lf>a wide variety of features.
 <string>Press <ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT> to open the map menu,<lf>which will allow you to access<lf>a wide variety of features.
+<string>Quick Reel (Rotate Quickly)
+<string>Quick Reel (Quickly Alternate Presses)
+<string>Slow Reel (Rotate Slowly)
+<string>Slow Reel (Slowly Alternate Presses)
+<string><COLOR preset="TXT_Accent">Regain Control</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Reel In</COLOR>: <ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">Regain Control</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Reel In</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

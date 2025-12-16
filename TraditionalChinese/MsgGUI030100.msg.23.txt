@@ -760,9 +760,13 @@
 <string>可使用HDR的環境下自動啟用，<lf>不可使用HDR的環境下停用。
 <string>停用
 <string>不論是否為可使用HDR的環境，皆停用HDR輸出。
+<string><PLATMSG MsgGUI030100_03_13>
 <string>畫面亮度
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>調整畫面亮度。
-<string>調整畫面亮度（HDR）
+<string><PLATMSG MsgGUI030100_03_14>
+<string>HDR畫面亮度
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>調整畫面亮度。
 <string>效能設定
 <string>調整遊玩時的圖像效能設定。<lf><COLOR preset="TXT_Accent">（僅可於標題畫面的設定選單變更）</COLOR>
@@ -1080,7 +1084,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>可變速率著色
-<string>設定是否減少像素著色器的處理程序，以減少著色器與特效的<lf>渲染負荷。
+<string>設定是否減少像素著色器的處理程序，以減少著色器與特效的<lf>渲染負荷。<lf><COLOR preset="TXT_Accent">（僅可於未使用「升頻」時變更此設定）</COLOR>
 <string>關
 <string>平衡
 <string>效能優先
@@ -1105,7 +1109,7 @@
 <string>不顯示
 <string>隱藏對魔物造成的傷害數值。
 <string>體力計量表警告顯示
-<string>設定當魔物即將發動特別危險的攻擊時，<lf>是否於體力計量表顯示預告。
+<string>設定當魔物即將發動特別危險的攻擊時，是否於體力<lf>計量表顯示預告，以及於體力處於一定量以下時是否<lf>顯示視覺效果。
 <string>顯示
 <string>當魔物即將使出的強力一擊會使剩餘體力耗盡時，<lf>體力計量表會變成紅色並大幅波動，以示預告。
 <string>不顯示
@@ -1306,11 +1310,13 @@
 <string>不顯示
 <string>在過場動畫以外的字幕中不顯示說話者名稱。
 <string>隱藏其他人的<REF RefGeneral_0014_01>
-<string>設定是否在原野中顯示自己以外的<REF RefGeneral_0014_01>。<lf><COLOR preset="TXT_Accent">（自己的<REF RefGeneral_0014_01>將恆常顯示）</COLOR>
-<string>開
-<string>其他玩家角色或支援獵人在非策騎狀態時，<lf>隱藏他們的<REF RefGeneral_0014_01>。<lf><COLOR preset="TXT_Accent">（在特定場景中仍會顯示）</COLOR>
-<string>關
-<string>恆常顯示其他玩家角色或支援獵人的<REF RefGeneral_0014_01>。
+<string>設定是否顯示自己以外的<REF RefGeneral_0014_01>。<lf><COLOR preset="TXT_Accent">（自己的<REF RefGeneral_0014_01>將恆常顯示）</COLOR>
+<string>恆常隱藏
+<string>其他玩家角色或支援獵人在非策騎狀態時，<lf>隱藏他們的鷺鷹龍。<lf><COLOR preset="TXT_Accent">（在特定場景中仍會顯示）</COLOR>
+<string>只於戰鬥時隱藏
+<string>戰鬥期間，其他玩家角色或支援獵人在非策騎<lf>狀態時，隱藏他們的鷺鷹龍。<lf><COLOR preset="TXT_Accent">（在特定場景中仍會顯示）</COLOR>
+<string>恆常顯示
+<string>恆常顯示其他玩家角色或支援獵人的鷺鷹龍。
 <string><REF RefGeneral_0014_01>自動散步設定
 <string>設定當未標示<REF RefGeneral_0014_01>的目的地時，<lf><REF RefGeneral_0014_01>是否自動散步。
 <string>開
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>主機喇叭
+<string>針對主機喇叭的音響設定。
+<string>捷徑快捷盤選擇類型
+<string>設定選擇捷徑快捷盤的操作類型。
+<string>類型1
+<string>以當前選擇的快捷盤為中心，並操作<INPUTMSG MsgGUI030100_INPUT_01><lf>移動至想選擇的快捷盤。
+<string>類型2
+<string>以八個快捷盤的中間為中心，並操作<INPUTMSG MsgGUI030100_INPUT_01><lf>直接選擇各個快捷盤。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>陀螺儀感應器操作（手提模式）
+<string>啟用後可使用陀螺儀感應器功能操作手提模式時的<lf>視角，並調整相關詳細設定。
+<string>控制器震動強度
+<string>設定控制器震動的強度。
+<string>弱
+<string>中（標準）
+<string>強

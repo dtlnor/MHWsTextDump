@@ -51,6 +51,7 @@
 <string>Als Untersuchung speichern
 <string>Quest erstellen
 <string>Quest annehmen
+<string>Erkundung starten
 <string>{0} <PLURAL {0} "Punkt" "Punkte"> ausgeben und als<lf>Untersuchung speichern?
 <string>Als Untersuchung gespeichert.
 <string><COLOR preset="TXT_Danger">Du hast nicht genügend Gildenpunkte.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">Kann während dieser Quest nicht verwendet werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Diese Quest kann nicht außerhalb der Großen Stätte angenommen werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Während dieser Quest nicht verfügbar.</COLOR>
+<string><COLOR preset="TXT_Danger">Diese Quest kann nicht bekanntgemacht werden, da sie erst freigeschaltet werden muss.</COLOR>
 <string>Zum Titelbildschirm
 <string>Neu versuchen
 <string>Erlege: {0}.
@@ -101,6 +103,7 @@
 <string>Schätztruhe (Talismane)
 <string>Markierte Objekte, die die Kapazität der<lf>Ausrüstungstruhe überschreiten, werden<lf>automatisch verkauft. Weitere Infos<lf>findest du in den Details.
 <string><COLOR preset="TXT_Danger">Achtung</COLOR><lf><COLOR preset="TXT_Accent">{0} <PLURAL {0} "Talisman" "Talismane"></COLOR> <PLURAL {0} "konnte" "konnten"> nicht genommen<lf>werden, da die Ausrüstungstruhe voll ist.<lf><lf>Wenn du <BOLD>Alles nehmen</BOLD> wählst,<lf>werden alle mit <ICON NOT> markierten Objekte<lf>automatisch verkauft.
+<string>Besondere Belohnungen
 <string>Quest<lf>abgeschlossen
 <string>Quest<lf>gescheitert
 <string>Rückkehr<lf>zur<lf>Basis
@@ -204,6 +207,7 @@
 <string>Fest der Eintracht: Blütentanz eröffnet!
 <string>Fest der Eintracht: Feuerfest eröffnet!
 <string><REF RefGeneral_0029_002> eröffnet!
+<string>Fest der Eintracht: Lichterglanz eröffnet!
 <string>Das Gebet der Diva beginnt in {0} Min.
 <string>Der Gesang der Diva hallt wider.
 <string>Gebetsgesang der Diva
@@ -242,6 +246,10 @@
 <string>Hilfsjäger nehmen teil, unabhängig von der Mehrspieler-Einstellung.
 <string>Nicht teilnehmen
 <string>Hilfsjäger nehmen nicht teil, unabhängig von der Mehrspieler-Einstellung.
+<string>Superglück-Gutschein-Erinnerung
+<string>Lege eine Erinnerung an, Superglück-Gutscheine zu nutzen, die am Beginn von Quests als Chatnachricht erscheint.
+<string>Aus
+<string>An
 <string>Zusätzliche Details
 <string>Regeln für Freie Herausforderungsquests<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.
 <string>Regeln für Arenaquests/Herausforderungsquests<lf>– Die maximale Teilnehmerzahl ist 2.<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.<lf>– Palicos können nicht an der Quest teilnehmen.<lf>– Mahleffekte sind während der Quest <COLOR preset="TXT_Danger">vorübergehend deaktiviert</COLOR>.<lf>   (Werden nach Questabschluss wiederhergestellt.)<lf>– Von Objekten oder Melodie-Effekten erhaltene Statuseffekte<lf>   <COLOR preset="TXT_Danger">verschwinden bei Questaufbruch</COLOR>.<lf><lf>Regeln für Freie Herausforderungsquests<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.
@@ -270,6 +278,11 @@
 <string>Aufsteigend
 <string>Absteigend
 <string>Empfohlen
+<string>Kein Passcode
+<string>Neu begonnene Quests
+<string>Freie Plätze
+<string>Wenigste Versuche übrig
+<string>Meiste Versuche übrig
 <string>Untersuchung löschen
 <string>Möchtest du die ausgewählte Untersuchung löschen?<lf><lf>Hinweis: Wenn die Quest in deinem <COLOR preset="TXT_Accent">Felderkundungs-<lf>verlauf</COLOR> verbleibt, wird der Verlauf ebenfalls<lf>gelöscht.
 <string>Die Untersuchung wurde gelöscht.
@@ -301,3 +314,11 @@
 <string>Ausrüstung bestätigen?
 <string>Es wird auf andere Spieler gewartet.
 <string>Rekordpunktzahl
+<string>Zuletzt gespielte Quest
+<string>Verfügbar: <DATETIME {0} "DD.MM.YYYY[,] HH:mm [Uhr]"> – <DATETIME {1} "DD.MM.YYYY[,] HH:mm [Uhr]"> (UTC)
+<string>Bekanntmachen
+<string>Lobbymitglieder-Quests
+<string>Ähnliche Not-Leuchtzeichen
+<string>Speichern
+<string>Bekanntmachen ({0} übrig)
+<string>Suche: <EMID {0}>

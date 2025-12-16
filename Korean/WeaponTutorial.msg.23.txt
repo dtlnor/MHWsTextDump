@@ -559,13 +559,13 @@
 <string>공격을 받아도 움츠리지 않는다.
 <string>
 <string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
-<string>필드 환경에 의한 더위나 추위,<lf>용암이나 뾰족한 지형에서 받는<lf>대미지를 무효화하는 상태.
+<string>필드 환경에 의한 더위나 추위,<lf>용암이나 뾰족한 지형에서 받는<lf>대미지를 무효화하는 상태.<lf><lf>단, 심연의 용암에서 받는 대미지는<lf>경감만 가능, 무효화는 할 수 없다.
 <string>
 <string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
-<string>물가, 기름 진흙에서 이동 속도가<lf>저하되지 않는 상태. 몬스터가<lf>발생시킨 파도의 영향도 무효화한다.
+<string>물가, 기름 진흙의 이동 속도 저하<lf>가 무효화된 상태.<lf>몬스터가 발생시킨 몬스터가<lf>발생시킨 파도의 영향도 무효화한다.<lf><lf>단, 중유의 이동 속도 저하는 무효화<lf>되지 않으며, 경감만 된다.
 <string>
 <string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
-<string>모든 상태 이상을 무효화하는 상태.<lf><lf>단, FFXIV 스페셜 콜라보에서는<lf>최대 체력이 감소하는 상태 이상은<lf>무효화할 수 없다.
+<string>모든 상태 이상을 무효화하는 상태.<lf><lf>단, 파판14 스페셜 콜라보에서는<lf>최대 체력이 감소하는 상태 이상은<lf>무효화할 수 없다.
 <string>
 <string><ICON ST_SPIRIT><REF MusicSkillDataText_Wp05_17>
 <string>일정 확률로 받는 대미지가<lf>감소한다.
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><REF ActionGuideDataNameText_Wp10_m508432000>【빨강】 상태에서 <ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>【빨강】을 흡수해 쓰는 모으기<lf>상태. 일정 시간 모은 뒤 <ICON WP10 PL_ATTACK_01><ICON RELEASE>을<lf>누르면 지상에서는 <REF ActionGuideDataNameText_Wp10_m851556800>,<lf>공중에서는 <REF ActionGuideDataNameText_Wp10_m295633312>를 한다.<lf>공격 중에도 모으기 상태가 유지되며<lf><ICON WP10 PL_ATTACK_01><ICON RELEASE>으로 여러 공격에서 파생 가능.<lf>세 진액 흡수 시, 모으기 공격 후<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>을 누르면 피니시 공격 파생.<lf>강화 상태가 해제되나<lf>강력한 공격을 펼칠 수 있다.<lf>또, 이때 <REF RefEquipment_0001_010_0>의 공격으로<lf>여러 진액을 채취할 수 있다.
+<string>【빨강】을 흡수해 쓰는 모으기<lf>상태. 일정 시간 모은 뒤 <ICON WP10 PL_ATTACK_01><ICON RELEASE>을<lf>지상에서는 <REF ActionGuideDataNameText_Wp10_m851556800>,<lf>공중에서는 <REF ActionGuideDataNameText_Wp10_m295633312>를 한다.<lf>다양한 공격에서 파생 가능하며<lf>모으기 없이<lf><ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>로도 가능.<lf>또한, 사용 후 강화 상태는 해제되나,<lf>세 진액 흡수 상태인<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>으로 한 번에 여러 개의<lf>진액을 채취하는 강력한 공격이 가능.<lf>
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

@@ -371,7 +371,7 @@
 <string>精炼铠玉
 <string>利用怪物素材可以精炼<COLOR preset="TXT_Accent">铠玉</COLOR>。获得的铠玉种<lf>类与数量会按素材的合计精炼值而变化。
 <string>复原强化机械武器
-<string>机械武器的性能可以通过<COLOR preset="TXT_Accent"><REF RefMenu_101_00></COLOR>获得最高<lf>5个阶段的强化。
+<string>机械武器的性能可以通过<COLOR preset="TXT_Accent"><REF RefMenu_101_00></COLOR><lf>获得最高5个阶段的强化。
 <string>复原强化机械武器
 <string>消耗一定数量的专用素材，可以提高机械武<lf>器的<COLOR preset="TXT_Accent">复原阶段</COLOR>，并随机获得<COLOR preset="TXT_Accent">复原加成</COLOR>，提升<lf>性能。
 <string>强化用素材的获得途径
@@ -611,7 +611,7 @@
 <string>垂钓的操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>垂钓的操作方法
-<string><COLOR preset="TXT_Accent">控制挣扎的鱼</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">收线</COLOR>：<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>垂钓的操作方法
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>垂钓的操作方法
@@ -765,7 +765,7 @@
 <string>机械武器的属性
 <string>三个零件均为相同属性的性能类型时，可以<lf>获得更加强大的属性值。三个零件的属性均<lf>相异时，会生产出<COLOR preset="TXT_Accent">无属性</COLOR>的机械武器。
 <string>复原强化机械武器
-<string>生产机械武器后可利用专用素材强化其性能。<lf>在加工商处查看<COLOR preset="TXT_Accent">复原强化／分解机械武器</COLOR>吧。
+<string>生产机械武器后可利用专用素材强化其性能。<lf>在加工商处查看<COLOR preset="TXT_Accent">生产／强化机械武器</COLOR>吧。
 <string>享受多人游戏的乐趣吧
 <string>大厅已经开放。可以和大厅内的其他玩家进<lf>行多人游戏了。详情请参阅游戏指南。
 <string>大厅与多人游戏
@@ -977,7 +977,7 @@
 <string>暗黑剑“暗影锋”
 <string>展开护罩后按<ICON PL_BT_RIDE_ATTACK_L>，或护罩持续一定时间<lf>未被破坏并自动解除时，将向前释放斩击。
 <string>暗黑剑“夜昏”
-<string>护罩被敌人破坏时，会发动强大的反击，<lf>并在一定时间内进入<COLOR preset="TXT_Accent">特殊的强化状态</COLOR>。
+<string>护罩被攻击破坏时，会发动强大的反击，<lf>并在一定时间内进入<COLOR preset="TXT_Accent">特殊的强化状态</COLOR>。
 <string>利用自定义快捷方式
 <string>将至黑之夜登记至自定义快捷方式，便可在<lf>拔刀状态下使用。详情请参考<COLOR preset="TXT_Accent">基本操作指南</COLOR>。
 <string>原野地图
@@ -1032,6 +1032,84 @@
 <string>“共鸣：远”发动期间，当自身与其他猎人<lf><COLOR preset="TXT_Accent">相隔</COLOR>一定距离时，自身的攻击力将提升。
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>狩猎演习任务
+<string>可从自由任务中承接新的<COLOR preset="TXT_Accent">狩猎演习任务</COLOR>了。
+<string>狩猎演习任务
+<string>在狩猎演习任务中，目标的出现位置与难度等<lf>条件会固定，也不会出现其他大型怪物。
+<string>狩猎演习任务
+<string>因此可以集中精神狩猎特定怪物，也适用于研<lf>究战术。请在<COLOR preset="TXT_Accent">自由任务</COLOR>中承接并合理利用吧。
+<string>现正举办交流祭典【祝谣之仪】
+<string>祭典期间前往大集会所，就可以享受到各式<lf>各样的好处。祭典时间有限，记得把握时间<lf>去大集会所看看！
+<string>限时特别支援猎人！
+<string>活动时间内，发射救难信号会有特别的支援<lf>猎人参加任务。不过本功能可能会因为任务<lf>的种类或游戏进度而受到限制。
+<string>享用祭典期间特有的餐点吧！
+<string>祭典期间，从登录奖励可以获得祝谣餐券。<lf>在用餐区使用，就可以享用祭典期间特有的<lf>餐点！
+<string>“祝谣餐券”的适用对象
+<string>普通的餐券可以让使用者以外的部分成员一<lf>起用餐，但祭典期间特有的餐点仅限于餐券<lf>使用者本人享用。
+<string>为阿尔玛换上特别服装吧！
+<string>我们还为编辑者准备了配合祝谣之仪的特别<lf>服装。想要更换服装的话，就前往大集会所<lf>和阿尔玛对话吧！
+<string>限时奖励目标每天更新！
+<string>限时奖励目标会每天更新，完成后可以获得<lf>祭典票券【祝谣】，制作祭典特有的装备。
+<string>已追加专用登录奖励！
+<string>平常每天的登录奖励只有一张激运票，祭典<lf>期间每天会增至两张！另外还有祭典票券<lf>【祝谣】等道具。
+<string>活动任务将不断更新！
+<string>我们还会陆续发布限时的特别活动任务！<lf>另外也会再次发布以前曾发布的活动任务。
+<string>巨戟机械武器
+<string>现在可以将巨戟龙身上获得的巨戟变异零件<lf>用于机械武器，强化为更强大的武器了。
+<string>巨戟机械武器
+<string>巨戟机械武器拥有系列技能与组合技能，还能<lf>发动更强的复原加成。
+<string>强化为巨戟机械武器
+<string>使用3个相同的巨戟变异零件对机械武器进行<lf>强化。强化前的生产与复原加成效果将被继<lf>承。
+<string>强化为巨戟机械武器
+<string>巨戟变异零件所附带的<COLOR preset="TXT_Accent">巨戟性能类型</COLOR>将影响<lf>武器的基本性能。选择喜欢的性能类型吧。
+<string>强化为巨戟机械武器
+<string>强化为巨戟机械武器时，将随机附加系列技能<lf>与组合技能。如不满意，之后也可重新附加。
+<string>强化为巨戟机械武器
+<string>巨戟机械武器在复原强化后，可发动更强大的<lf>加成效果。请查看<COLOR preset="TXT_Accent">复原强化巨戟机械武器。</COLOR>
+<string>复原强化巨戟机械武器
+<string>巨戟机械武器的强化系统中，新增<COLOR preset="TXT_Accent">巨戟复原强<lf>化</COLOR>与<COLOR preset="TXT_Accent">重新附加技能</COLOR>。可用<ICON UI_LIST_TRIGGER_L1>／<ICON UI_LIST_TRIGGER_R1>切换。
+<string>复原强化巨戟机械武器
+<string>在<COLOR preset="TXT_Accent">巨戟复原强化</COLOR>中，可对复原加成进行批量<lf>强化，且可重复进行。巨戟机械武器还拥有<lf>数量有限但强效的专属复原加成。
+<string>复原强化巨戟机械武器
+<string>在<COLOR preset="TXT_Accent">巨戟复原强化</COLOR>中，可选择在保留当前复原<lf>加成类型的情况下重新附加，或完全随机重<lf>新附加。
+<string>复原强化巨戟机械武器
+<string>在<COLOR preset="TXT_Accent">重新附加技能</COLOR>中，可使用巨戟变异零件重新<lf>附加系列技能或组合技能。巨戟性能类型不会<lf>发生变化。
+<string>复原强化巨戟机械武器
+<string>无论哪种强化，若对结果不满意，均可选择不<lf>应用并恢复原状。但不会返还已使用的素材。
+<string>防具极限突破
+<string>可进一步强化防具的<COLOR preset="TXT_Accent">极限突破</COLOR>现已开放。<lf>可选择想要强化上位防具，进行特殊强化。
+<string>防具极限突破
+<string>极限突破后的防具可提升铠玉的强化上限。<lf>此外，部分防具还会强化装饰品插槽。
+<string>装饰品插槽强化
+<string>稀有度5的防具会有3个插槽获得强化，<lf>稀有度6的则会有2个获得强化。（如果<lf>防具已有3级插槽，强化数量会减少）
+<string>增加精炼七色金石的素材
+<string>现可在<COLOR preset="TXT_Accent">精炼七色金石</COLOR>投入巨戟变异零件了。
+<string>攻击翼足使巨戟龙失衡
+<string>不断攻击巨戟龙的翼足令其失衡，成功后不<lf>要错过攻击背部的机会，把兵器打下来吧。
+<string>利用机关造成巨大伤害
+<string>要对巨戟龙造成巨大伤害，不妨使用原野上<lf>的各种机关。仔细观察四周，把握时机加以<lf>利用吧。
+<string>向兵器充能
+<string>要使用集束破龙炮，需要先注入龙乳能量。<lf>将<COLOR preset="TXT_Accent">松脱的分岔束</COLOR>运送至附近并完成连接，为<lf>其充能吧。
+<string>提升充能速度与火力
+<string>连接的分岔束越多，充能速度与威力越高。<lf>连接全部三条分岔束，就能全速充能，并以<lf>最高火力发射。
+<string>以龙属性攻击减弱强力攻击
+<string>不断对巨戟龙造成伤害，就可减弱其超高威力<lf>的攻击。好好利用龙属性，创造有利局面吧。
+<string>在法比乌斯身后躲过攻击
+<string>连续攻击抑制巨戟龙强力攻击的威力后，就可<lf>以躲在法比乌斯背后撑过攻击。找到他并移动<lf>到他的背后吧。
+<string>其他撑过强力攻击的方法
+<string>如果成功抑制了巨戟龙强力攻击的威力，并<lf>装备着可格挡的武器，也可以自己格挡撑过<lf>攻击。如果高台尚未被破坏，也可以移动到<lf>上面避过攻击。
+<string>利用特别报酬生产新武器
+<string>获得了<COLOR preset="TXT_Accent">巨戟变异零件</COLOR>，现在可以生产新的特<lf>殊武器。去加工商处确认详情吧。
+<string>攻击有变异零件的部位
+<string>巨戟龙身上存在附带变异零件的部位，破坏后<lf>可获得追加报酬，瞄准这些部位进行攻击吧。
+<string>高难度的特殊环境任务
+<string>同时狩猎多个强大个体的高难度<COLOR preset="TXT_Accent">特殊环境任务</COLOR><lf>可以在自由任务中承接。
+<string>完成任务获取特别报酬吧
+<string>完成各个任务之后，可获得专用的<COLOR preset="TXT_Accent">名称牌</COLOR>作为<lf>报酬。将其收入囊中证明自己的实力吧！
+<string>中途参加多人游戏的注意事项
+<string>若是中途参加并完成任务，则无法获得专用的<lf>名称牌。请从任务开始时参加吧。
+<string>做好万全的准备再挑战
+<string>这些任务每一个都是高难度任务，需要做好充<lf>分的准备后再进行挑战。争取完成所有高难度<lf>任务吧！
 <string>伤口
 <string>可以通过消耗不需要的装饰品进行炼金，来<lf><COLOR preset="TXT_Accent">炼制想要的装饰品</COLOR>。满足特定条件后，可炼<lf>制的种类将相应增加。
 <string><REF RefItem_0017_120>与装备个人组合

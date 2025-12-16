@@ -2,7 +2,7 @@
 <string>所持機械武器
 <string><REF RefGeneral_0003>
 <string>復原階段
-<string>復原所需的強化值
+<string>復原所需強化值
 <string><REF RefEquipment_0008_02>
 <string><REF RefGeneral_0000_002_0>
 <string><COLOR preset="TXT_Danger">此武器已復原強化至上限。</COLOR>
@@ -13,6 +13,7 @@
 <string><REF RefEquipment_0008_16>
 <string>要分解此武器嗎？
 <string>已進行{0}階段的復原強化。
+<string>已進行{0}階段的復元強化。<lf><lf><COLOR preset="TXT_Accent">（現在可透過巨戟復元強化發動效果更高的加成）</COLOR>
 <string>已獲得復原強化素材。
 <string>增加
 <string>減少
@@ -26,3 +27,19 @@
 <string>・已登錄至個人組合
 <string>・已登錄至我的最愛
 <string>此裝備上已鑲嵌裝飾品。<lf>要卸除裝飾品並分解此裝備嗎？
+<string>確認復原加成
+<string>要套用復原加成的更新內容嗎？<lf><COLOR preset="TXT_Accent">（即使選擇「否」（不套用更新內容）也不會歸還素材）</COLOR>
+<string>可使用素材來更新復原加成。（可選擇是否套用更新後的內容）
+<string><COLOR preset="TXT_Danger">正在確認復原加成。選擇「結束確認」將返回選擇是否套用的畫面。</COLOR>
+<string>保留加成組合並再次復原強化
+<string>重置加成並再次復原強化
+<string>復原強化
+<string><ICON G_CHANGE_B>巨戟復原強化
+<string><ICON G_CHANGE_S>重新附加技能
+<string>可使用零件來更新發動技能。（可選擇是否套用更新後的內容）
+<string><COLOR preset="TXT_Danger">正在確認發動技能。選擇「結束確認」將返回並決定是否套用更新。</COLOR>
+<string>要套用發動技能的更新內容嗎？<lf><COLOR preset="TXT_Accent">（即使選擇「否」（不套用更新內容）也不會歸還素材）</COLOR>
+<string>確認發動技能
+<string>重新附加
+<string>重新附加技能所需強化值
+<string>請指定使用的零件與數量。（與武器相同的巨戟性能種類的零件會有較高強化值）

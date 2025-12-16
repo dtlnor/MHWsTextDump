@@ -760,9 +760,13 @@
 <string>Automatycznie włącza HDR na urządzeniach<lf>obsługujących HDR i wyłącza na urządzeniach<lf>nieobsługujących.
 <string>Wyłącz
 <string>Wyłącza wyjście HDR nawet na urządzeniach,<lf>które obsługują HDR.
-<string>Jasność
+<string><PLATMSG MsgGUI030100_03_13>
+<string>Jasność ekranu
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>Dostosowuje jasność ekranu.
-<string>Jasność (HDR)
+<string><PLATMSG MsgGUI030100_03_14>
+<string>Jasność ekranu HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Dostosowuje jasność ekranu.
 <string>Ustawienia wydajności
 <string>Dostosowuje ustawienia grafiki związane z rozgrywką.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
@@ -1311,6 +1315,8 @@
 <string>Nie wyświetla Seikretów, z których zsiedli<lf>inni gracze lub łowcy wspierający.<lf><COLOR preset="TXT_Accent"> (W szczególnych okolicznościach Seikrety nadal<lf>będą wyświetlane)</COLOR>
 <string>Wyłącz
 <string>Zawsze wyświetla Seikrety, z których zsiedli<lf>inni gracze lub łowcy wspierający.
+<string>Pokaż
+<string>Zawsze wyświetla Seikrety innych graczy<lf>lub łowców wspierających.
 <string>Autoeksploracja Seikreta
 <string>Określa, czy twój Seikret automatycznie przejdzie<lf>w tryb autoeksploracji, gdy cel na mapie nie został<lf>ustawiony.
 <string>Włącz
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>Głośniki urządzenia
+<string>Ustawienia dźwięku zoptymalizowane<lf>dla głośników urządzenia.
+<string>Typ wyboru z menu kołowego
+<string>Ustawia sterowanie wyborem z menu kołowego.
+<string>Typ 1
+<string>Pozostajesz na ostatnio wybranym menu<lf>i naciskasz <INPUTMSG MsgGUI030100_INPUT_01> w stronę nowego menu,<lf>które chcesz wybrać.
+<string>Typ 2
+<string>Pozostajesz na środku między wszystkimi<lf>8 menu i naciskasz <INPUTMSG MsgGUI030100_INPUT_01> w stronę<lf>nowego menu, które chcesz wybrać.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>Sterowanie żyroskopem (tryb przenośny)
+<string>Gdy ta opcja jest włączona, możesz używać żyroskopu<lf>do kontrolowania kamery w trybie przenośnym, a także<lf>skonfigurować bardziej szczegółowe ustawienia.
+<string>Intensywność rumble kontrolera
+<string>Dostosowuje intensywność wibracji kontrolera.
+<string>Słabe
+<string>Średnie (Normalne)
+<string>Silne

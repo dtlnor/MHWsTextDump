@@ -26,6 +26,7 @@
 <string>護石
 <string>Lv{0}
 <string>Lv {0}/{1}
+<string><COLOR preset="TXT_White01">Lv {0}</COLOR>/{1}
 <string>Lv-
 <string>{0}
 <string>-
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>防具強化
+<string>限界突破強化
+<string>限界突破強化完了
 <string>LvUPに必要な強化値
 <string>最大強化です
 <string>すべて表示
 <string>衣装<ICON EQUIP_TYPE1>のみ
+<string>衣装<ICON EQUIP_TYPE2>以外
 <string>衣装<ICON EQUIP_TYPE2>のみ
+<string>衣装<ICON EQUIP_TYPE1>以外
 <string>所持装備のみ
 <string>ワンセット防具のみ
 <string>ウィッシュリスト登録のみ
 <string>α装備のみ
 <string>β装備のみ
+<string>α・β系統を個別表示
+<string>α・β系統をαのみ表示
+<string>α・β系統をβのみ表示
 <string>強化
 <string>生産
 <string>素材と{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？
 <string>素材と{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？<lf><lf>（この装備を作成すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
 <string>ワンセット防具の装備です。<lf>素材と{0}<REF RefGeneral_0015_000>で全部位の防具を生産します。<lf>よろしいですか？
 <string>ワンセット防具の装備です。<lf>素材と{0}<REF RefGeneral_0015_000>で全部位の防具を生産します。<lf>よろしいですか？<lf><lf>（この装備を作成すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
+<string>ベース武器と素材、さらに{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？
+<string>ベース武器と素材、さらに{0}<REF RefGeneral_0015_000>が必要です。<lf>よろしいですか？<lf><lf>（この装備を作成すると<COLOR preset="TXT_Accent">重ね着装備</COLOR>も入手できます）
 <string>装備しますか？
 <string>装備を変更します。<lf><COLOR preset="TXT_Danger">（他の部位のワンセット防具が外れます）</COLOR><lf>よろしいですか？
 <string>ワンセット防具の装備です。<lf>すべての部位に装備しますか？<lf><COLOR preset="TXT_Danger">（重ね着装備の設定が無効になります）</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">このおすすめ装備はすでに所持しているため、生産・強化することができません。</COLOR>
 <string><COLOR preset="TXT_Danger">このおすすめ装備はすでに所持しているため、生産することができません。</COLOR>
 <string><COLOR preset="TXT_Danger">所持しているワンセット防具は生産できません。</COLOR>
+<string><COLOR preset="TXT_Danger">この装備は限界突破強化することができません。</COLOR>
+<string><COLOR preset="TXT_Danger">この装備は限界突破強化済みです。</COLOR>
+<string><COLOR preset="TXT_Danger">レア度8のアーティア武器を所持していません。</COLOR>
+<string><COLOR preset="TXT_Danger">巨戟アーティア武器を所持していません。</COLOR>
 <string>装着中の装備：{0}
 <string>他の装備に装着中です。<lf>外してもよろしいですか？
 <string><COLOR preset="TXT_Danger">装着している装飾品です。</COLOR>
@@ -119,6 +133,7 @@
 <string>装飾品名の切り替え
 <string>お気に入り登録
 <string>装備の見た目設定
+<string>装備の見た目確認
 <string>装備の設定
 <string>自動選択
 <string>BOXからの選択
@@ -135,6 +150,7 @@
 <string>生産素材で登録
 <string>強化素材で登録
 <string>ウィッシュリストに登録します。<lf>よろしいですか？
+<string>ウィッシュリストに登録します。<lf>よろしいですか？<lf><lf>「生産素材で登録」<lf>生産での作成に必要な素材で登録します。<lf><lf>「強化素材で登録」<lf>強化での作成に必要な素材で登録します。<lf>派生前の武器を所持していない場合はまとめて登録します。
 <string>遡ってウィッシュリスト登録が必要な装備に、生産か強化を選べる装備が含まれています。登録する素材を選択してください。
 <string>ウィッシュリストから削除
 <string>ウィッシュリストから削除します。<lf>よろしいですか？
@@ -158,6 +174,9 @@
 <string>筒
 <string>盤
 <string>装置
+<string>巨戟
+<string>アーティア武器のみ
+<string>巨戟アーティア武器のみ
 <string>装衣
 <string>検索
 <string>防御力ボーナス
@@ -216,6 +235,9 @@
 <string>精錬値順
 <string>お気に入り順
 <string>復元段階順
+<string>巨戟性能タイプ順
+<string>復元段階順（降順）
+<string>復元段階順（昇順）
 <string>1～3
 <string>2～3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">所持していない装備が<lf>マイセットに登録されています。</COLOR><lf>ウィッシュリストに自動登録しました。
 <string><COLOR preset="TXT_Accent">所持していない装備が<lf>マイセットに登録されています。</COLOR><lf>ウィッシュリストにはすでに対象の装備が<lf>登録されています。
 <string><COLOR preset="TXT_Accent">所持していない装備が<lf>マイセットに登録されています。</COLOR>
+<string><COLOR preset="TXT_Accent">ランダム性能を持つ護石は、マイセット共有や<lf>ハンタープロフィールからは登録できません。<lf>（設定なしで登録されます）</COLOR>

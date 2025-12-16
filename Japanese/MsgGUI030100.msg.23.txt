@@ -760,9 +760,13 @@
 <string>HDRが使用可能な環境であれば有効に、<lf>HDRが使用不可の環境であれば無効にします。
 <string>無効
 <string>HDR環境が使用可能かどうかに関わらず、<lf>HDR出力を無効にします。
+<string><PLATMSG MsgGUI030100_03_13>
 <string>画面の明るさ調整
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>画面の明るさについて調整します。
-<string>画面の明るさ調整（HDR）
+<string><PLATMSG MsgGUI030100_03_14>
+<string>HDR画面の明るさ調整
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>画面の明るさについて調整します。
 <string>パフォーマンス設定
 <string>ゲームプレイにおけるグラフィックスの<lf>パフォーマンスに関する設定を行います。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
@@ -1105,7 +1109,7 @@
 <string>表示しない
 <string>モンスターに与えたダメージ数を表示しません。
 <string>体力ゲージでの注意喚起表示
-<string>モンスターが特に危険な攻撃を行う直前に、<lf>体力ゲージ上でその予兆を表示するかどうか設定します。
+<string>モンスターが特に危険な攻撃を行う直前に、<lf>体力ゲージ上でその予兆と体力が一定の割合を<lf>下回った際の演出を表示するかどうか設定します。
 <string>表示する
 <string>モンスターから、残りの体力が尽きてしまう程の<lf>強力な一撃が放たれる場合、その予兆として<lf>体力ゲージに赤色の波打つ注意喚起を表示します。
 <string>表示しない
@@ -1306,11 +1310,13 @@
 <string>表示しない
 <string>イベントシーン以外の字幕では<lf>話者名を表示しません。
 <string>他者の<REF RefGeneral_0014_01>非表示設定
-<string>主にフィールドにおいて、自分の<REF RefGeneral_0014_01>以外の<lf><REF RefGeneral_0014_01>を非表示にするかどうか設定します。<lf><COLOR preset="TXT_Accent">（自分の<REF RefGeneral_0014_01>は常に表示されます）</COLOR>
-<string>ON
-<string>他のプレイヤーあるいはサポートハンターの<lf><REF RefGeneral_0014_01>を非騎乗時に非表示にします。<lf><COLOR preset="TXT_Accent">（特定の場面では表示されます）</COLOR>
-<string>OFF
-<string>他のプレイヤーあるいはサポートハンターの<lf><REF RefGeneral_0014_01>を状態に関わらず常時表示します。
+<string>他者のセクレト表示について設定します。<lf><COLOR preset="TXT_Accent">（自分のセクレトは常に表示されます）</COLOR>
+<string>常に非表示
+<string>他のプレイヤー、あるいはサポートハンターが<lf>騎乗していない状態のセクレトを非表示にします。<lf><COLOR preset="TXT_Accent">（特定の場面では表示されます）</COLOR>
+<string>戦闘中のみ非表示
+<string>戦闘中に限り、他のプレイヤーあるいはサポート<lf>ハンターが騎乗していない状態のセクレトを<lf>非表示にします。<lf><COLOR preset="TXT_Accent">（特定の場面では表示されます）</COLOR>
+<string>常に表示
+<string>他のプレイヤー、あるいはサポートハンターの<lf>セクレトを常に表示します。
 <string><REF RefGeneral_0014_01>のオート散策設定
 <string><REF RefGeneral_0014_01>の目的地を示すピンが存在していない時、<lf><REF RefGeneral_0014_01>がオート散策を行うかどうか設定します。
 <string>ON
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>本体スピーカー
+<string>本体のスピーカーに最適化された音響設定です。
+<string>ショートカットパレット選択タイプ
+<string>ショートカットパレットを選択する操作タイプを<lf>設定します。
+<string>タイプ１
+<string>現在選択しているパレットを中心にして<lf>選択したいパレットの方向に合わせて、<lf><INPUTMSG MsgGUI030100_INPUT_01>を操作します。
+<string>タイプ２
+<string>８つのパレットの真ん中を中心にして<lf>選択したい各パレットの方向に合わせて、<lf><INPUTMSG MsgGUI030100_INPUT_01>を操作します。
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>ジャイロセンサー操作（携帯モード）
+<string>有効にした場合、携帯モードの<lf>カメラ操作においてジャイロセンサー機能を使用できます。<lf>また、同機能の詳細設定が可能となります。
+<string>コントローラー振動の強さ
+<string>コントローラー振動の強さを設定します。
+<string>弱
+<string>中（標準）
+<string>強

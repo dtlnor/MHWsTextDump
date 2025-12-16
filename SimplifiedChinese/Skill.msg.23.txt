@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>拓展最佳距离
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>大幅拓展最佳距离
+<string>大幅拓展最佳距离，<lf>提升在最佳距离命中的射击威力
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>锋利度黄色或以下时，<lf>造成的伤害变为1.05倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>大幅减少所受攻击的威力<lf>格挡的耐力消耗减少50％
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>减少伤害30%
+<string>减少伤害10%，满足条件时再减少20%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>减少伤害50%
+<string>减少伤害20%，满足条件时再减少30%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>减少伤害80%
+<string>减少伤害30%，满足条件时再减少50%
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>技能发动时，攻击力变为1.05倍
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>不会陷入爆破异常
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>使水域、油泥的移动限制<lf>与浊流的影响无效
+<string>使水域、油泥的移动限制与浊流的影响<lf>无效，并缓和重油的移动限制
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>追加使波浪的影响无效
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>灼热化Ⅱ
 <string>提升额外造成的火属性伤害
 <string>无伤重装Ⅰ
-<string>体力全满时，所受伤害减少5%
+<string>体力全满时，所受伤害减少20%
 <string>无伤重装Ⅱ
-<string>体力全满时，所受伤害减少10%
+<string>体力全满时，所受伤害减少35%
 <string>战嚎Ⅰ
 <string>使用肢体动作“咆哮”时，在一定时间<lf>内小幅提升周围成员的攻击力。随从与<lf>支援猎人所受的效果较大。
 <string>战嚎Ⅱ
@@ -816,6 +816,10 @@
 <string>在梦灯之仪期间，任务报酬中将追加<lf>特殊道具（任务途中无法启用）
 <string>大地之恩惠【梦灯】Ⅱ
 <string>在梦灯之仪期间，任务报酬中将追加<lf>特殊道具，攻击力和防御力也会大幅<lf>提升
+<string>大地之恩惠【祝谣】Ⅰ
+<string>在祝谣之仪期间，任务报酬中将追加<lf>特殊道具（任务途中无法发动）
+<string>大地之恩惠【祝谣】Ⅱ
+<string>在祝谣之仪期间，任务报酬中将追加<lf>特殊道具，攻击力和防御力也会大幅<lf>提升
 <string>杀意之波动
 <string>强化特殊动作的威力，可通过斗气迸放<lf>抵消，成功后一定时间内将获得进一步<lf>强化。
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>发动技能效果
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>发动技能效果<lf>（发动后一定时间内无法再次发动）
+<string>发动技能效果<lf>（发动后一定时间内无法再次发动，<lf>　但使出蓄力斩时仍会受到伤害）
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>发动技能效果
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -858,6 +862,12 @@
 <string>任务开始后，交替发动“共鸣：远”或<lf>“共鸣：近”，满足条件时提升攻击力<lf>或会心率
 <string>共鸣Ⅱ
 <string>提升共鸣Ⅰ的效果，以及武器技能<lf>“合成盾”或“协作程序”的效果
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>发动技能效果
+<string>宣战呼应Ⅰ
+<string>战斗中的大型怪物发怒时，<lf>提升属性攻击值。
+<string>宣战呼应Ⅱ
+<string>等级Ⅰ的效果提升，并在一定时间内获得<lf>可抵挡伤害的防壁。（发动防壁后，需要<lf>经过一段冷却时间才能再次发动）
 <string>连击强化Ⅰ
 <string>“连击”技能效果发动时，延长其<lf>有效时间，且基础攻击力+8
 <string>连击强化Ⅱ
@@ -865,7 +875,7 @@
 <string>蛮勇的餐桌Ⅰ
 <string>食用烤熟的肉等道具后，<lf>一定时间内基础攻击力+15
 <string>蛮勇的餐桌Ⅱ
-<string>食用烤熟的肉等道具后，<lf>一定时间内基础攻击力+25
+<string>食用烤熟的肉等道具后，<lf>一定时间内基础攻击力+30
 <string>无穷尽Ⅰ
 <string>获得额外耐力槽
 <string>无穷尽Ⅱ

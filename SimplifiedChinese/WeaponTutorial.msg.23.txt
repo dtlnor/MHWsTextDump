@@ -559,13 +559,13 @@
 <string>受攻击时不会后仰。
 <string>
 <string><ICON ST_RESIST_GROUND><REF MusicSkillDataText_Wp05_36>
-<string>不会受炎热、寒冷的原野环境影响，也不<lf>会受熔岩或尖刺等地形带来的伤害。
+<string>不会受炎热、寒冷的原野环境影响，也不<lf>会受熔岩或尖刺等地形带来的伤害。<lf><lf>但是，来自“深渊熔岩”的伤害仅会减轻，<lf>无法使其无效化。
 <string>
 <string><ICON ST_RESIST_MUD><REF MusicSkillDataText_Wp05_35>
-<string>在水域或油泥地带时移动不会变慢，也不会<lf>受怪物造成的波浪影响。
+<string>在水域或油泥区域时移动不会变慢，<lf>也不受怪物造成的波浪影响。<lf><lf>但是，此技能无法完全使“重油”造成的<lf>移动速度下降无效，只能减轻。
 <string>
 <string><ICON ST_RESIST_DEBUF><REF MusicSkillDataText_Wp05_38>
-<string>不会陷入任何状态异常。<lf><lf>※《FFXIV》特别联动中的最大体力下降<lf>　状态异常除外。
+<string>不会陷入任何状态异常。<lf><lf>※《FF14》特别联动中的最大体力下降<lf>　状态异常除外。
 <string>
 <string><ICON ST_SPIRIT><REF MusicSkillDataText_Wp05_17>
 <string>有一定概率减少受到的伤害。
@@ -650,7 +650,7 @@
 <string>防御力和属性耐性提升。
 <string>
 <string><ICON ST_RESIST_DEBUF><REF HibikiDataText_Wp05_6>
-<string>使各种状态异常和属性异常无效。<lf><lf>※《FFXIV》特别联动中的最大体力下降<lf>　状态异常除外。
+<string>使各种状态异常和属性异常无效。<lf><lf>※《FF14》特别联动中的最大体力下降<lf>　状态异常除外。
 <string>
 <string>【基本连段】
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string>红色<REF ActionGuideDataNameText_Wp10_m508432000>状态时<ICON WP10 merge="PL_ATTACK_01,HOLD_ON">
-<string>吸收红色精华后可按<ICON WP10 PL_ATTACK_01>蓄力。蓄力一定<lf>时间后<ICON WP10 PL_ATTACK_01><ICON RELEASE>可使出衍生技。若在地上会<lf>衍生出<REF ActionGuideDataNameText_Wp10_m851556800>，若在空中则衍生出急袭突<lf>刺。<lf><lf>各种攻击中能保持蓄力状态，可以用<ICON WP10 PL_ATTACK_01><ICON RELEASE><lf>衍生出多种攻击。<lf><lf>吸收了三色精华时，在蓄力攻击后可通过<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>衍生出终结攻击。虽然会解除强化<lf>状态，但能使出强力的攻击。此时<REF RefEquipment_0001_010_0>的<lf>攻击也会采集多种精华。
+<string>吸收红色精华后可进入蓄力状态，并可在<lf>各种行动中保持。蓄力一段时间后，在地<lf>面<ICON WP10 PL_ATTACK_01><ICON RELEASE>会发动<REF ActionGuideDataNameText_Wp10_m851556800>，在空中<ICON WP10 PL_ATTACK_01><ICON RELEASE>则<lf>会发动<REF ActionGuideDataNameText_Wp10_m295633312>。<lf>急袭斩和急袭突刺可从多种攻击后衍生，<lf>也可不蓄力通过<ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>施展。<lf><lf>此外，在吸收三色精华的情况下，可通过<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>发动一次性采集多个精华的强力<lf>攻击。攻击后会解除强化状态。
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

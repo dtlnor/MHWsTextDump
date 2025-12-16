@@ -51,6 +51,7 @@
 <string>Save as Investigation
 <string>Create Quest
 <string>Accept Quest
+<string>Begin Survey
 <string>Spend {0} <PLURAL {0} "point" "points"> to save this<lf>as an Investigation?
 <string>Saved as Investigation.
 <string><COLOR preset="TXT_Danger">Insufficient Guild Points.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">Cannot be used during this quest.</COLOR>
 <string><COLOR preset="TXT_Danger">This quest cannot be accepted outside of the Grand Hub.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot be used with current quest settings.</COLOR>
+<string><COLOR preset="TXT_Danger">This quest cannot be posted because it has yet to be unlocked.</COLOR>
 <string>Return to Title
 <string>Retry
 <string>Slay the {0}
@@ -101,6 +103,7 @@
 <string>Appraisal Box (Talismans)
 <string><COLOR preset="TXT_Danger">Items marked with</COLOR><ICON NOT><COLOR preset="TXT_Danger">exceed the equipment<lf>box capacity and will be automatically<lf>sold. See details for more information.</COLOR>
 <string><COLOR preset="TXT_Danger">{0} <PLURAL {0} "talisman" "talismans"> cannot be taken<lf>because the equipment box is full.<lf><lf>Selecting <BOLD>Take All</BOLD> will automatically<lf>sell marked items.</COLOR>
+<string>Special Rewards
 <string>Quest<lf>Complete
 <string>Quest<lf>Failed
 <string>Heading<lf>Back
@@ -204,6 +207,7 @@
 <string>Festival of Accord: Blossomdance is underway!
 <string>Festival of Accord: Flamefete is underway!
 <string><REF RefGeneral_0029_002> is underway!
+<string>Festival of Accord: Lumenhymn is underway!
 <string>The Diva's voice of prayer begins in {0} min.
 <string>The Diva's voice of prayer resounds.
 <string>The Diva's Voice of Prayer
@@ -242,6 +246,10 @@
 <string>Support Hunters will join regardless of multiplayer settings.
 <string>Do Not Join
 <string>Support Hunters will not join regardless of multiplayer settings.
+<string>Lucky Voucher Reminder
+<string>Set a reminder to use Lucky Vouchers that is sent as an Important Chat notification at the start of quests.
+<string>Off
+<string>On
 <string>Additional Details
 <string>Free Challenge Quest Rules<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.
 <string>Arena Quest/Challenge Quest Rules<lf>- Maximum of two participants.<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.<lf>- Palicoes cannot join the quest.<lf>- Meal effects will be <COLOR preset="TXT_Danger">temporarily disabled during the quest</COLOR>.<lf>(Restored after the quest ends.)<lf>- Status effects such as from items and Melody Effects will<lf><COLOR preset="TXT_Danger">disappear upon departure</COLOR>.<lf><lf>Free Challenge Quest Rules<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.
@@ -270,6 +278,11 @@
 <string>Ascending
 <string>Descending
 <string>Recommended
+<string>No Passcode
+<string>Newly Started Quests
+<string>Open Member Slots
+<string>Least Attempts Left
+<string>Most Attempts Left
 <string>Delete Investigation
 <string>Delete the selected investigation?<lf><lf>Note: If the quest remains in your <COLOR preset="TXT_Accent">Field Survey<lf>History</COLOR>, the history will also be deleted.
 <string>Investigation deleted.
@@ -301,3 +314,11 @@
 <string>Confirm equipment?
 <string>Waiting for other players.
 <string>High Score
+<string>Quest Last Played
+<string>Available: <DATETIME {0} "YYYY/MM/DD HH:mm"> – <DATETIME {1} "YYYY/MM/DD HH:mm"> (UTC)
+<string>Post
+<string>Search by Lobby Member Quest
+<string>Search Similar SOS Flare Quests
+<string>Save
+<string>Post ({0} Left)
+<string>Search by <EMID {0}>

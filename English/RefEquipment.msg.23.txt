@@ -26,6 +26,7 @@
 <string>Talisman
 <string>Lv {0}
 <string>Lv {0}/{1}
+<string><COLOR preset="TXT_White01">Lv {0}</COLOR>/{1}
 <string>Lv-
 <string>{0}
 <string>–
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>Upgrade Armor
+<string>Transcending
+<string>Transcendence Complete
 <string>To Next Level
 <string>Maximum upgrade reached
 <string>Show All
 <string><ICON EQUIP_TYPE1> Armor Only
+<string>Exclude <ICON EQUIP_TYPE2> Outfits
 <string><ICON EQUIP_TYPE2> Armor Only
+<string>Exclude <ICON EQUIP_TYPE1> Outfits
 <string>Show Owned
 <string>Full Armor Sets
 <string>Show Wishlisted
 <string>Show α
 <string>Show β
+<string>Show Both for α/β Types
+<string>Show α for α/β Types
+<string>Show β for α/β Types
 <string>Upgrade
 <string>Forge
 <string>Requires materials and {0}z.<lf>Proceed?
 <string>Requires materials and <NUMBER {0}>z.<lf>Proceed?<lf><lf>(Making this equipment will also unlock it<lf>as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)
 <string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?
 <string>This is a full armor set. The necessary materials<lf>and <NUMBER {0}>z will be used to craft the whole set.<lf>Proceed?<lf><lf>(Making this will also unlock it as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)
+<string>Requires materials, base weapon and<lf><NUMBER {0}>z. Proceed?
+<string>Requires materials, base weapon and<lf><NUMBER {0}>z. Proceed?<lf><lf>(Making this equipment will also unlock it<lf>as <COLOR preset="TXT_Accent">Layered Equipment</COLOR>.)
 <string>Equip now?
 <string>If you change this piece, <COLOR preset="TXT_Danger">all other pieces of the<lf>full armor set will be removed</COLOR>.<lf>Change armor piece?
 <string>This is a full armor set.<lf>Equip all pieces of the set?<lf><lf><COLOR preset="TXT_Danger">(Layered armor will be hidden.)</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">You already own this equipment, so it cannot be forged or upgraded.</COLOR>
 <string><COLOR preset="TXT_Danger">You already own this equipment, so it cannot be forged.</COLOR>
 <string><COLOR preset="TXT_Danger">You cannot forge full armor sets that you already possess.</COLOR>
+<string><COLOR preset="TXT_Danger">This equipment cannot be transcended.</COLOR>
+<string><COLOR preset="TXT_Danger">This equipment has already been transcended.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any Rarity 8 Artian weapons.</COLOR>
+<string><COLOR preset="TXT_Danger">You do not have any Gogma Artian weapons.</COLOR>
 <string>Currently Equipped: {0}
 <string>This is being used on another piece of equipment.<lf>Do you want to remove it?
 <string><COLOR preset="TXT_Danger">This decoration is currently equipped.</COLOR>
@@ -119,6 +133,7 @@
 <string>Toggle Name/Skill
 <string>Add to Favorites
 <string>Equipment Appearance
+<string>Check Equipment Appearance
 <string>Equipment Settings
 <string>Auto Select
 <string>Select from Box
@@ -135,6 +150,7 @@
 <string>Register as Forge
 <string>Register as Upgrade
 <string>Add to Wishlist?
+<string>Add to wishlist?<lf><lf>Add Forging Materials:<lf>Adds the materials needed to forge.<lf><lf>Add Upgrade Materials:<lf>Adds the materials needed to upgrade.<lf>If you lack the preceding weapon on the tree,<lf>all required materials will be added at once.
 <string>One of the prerequisites for this weapon can be registered either as a forge or upgrade. Select which method to register.
 <string>Remove from Wishlist
 <string>Remove from Wishlist?
@@ -158,6 +174,9 @@
 <string>Tube
 <string>Disc
 <string>Device
+<string>Gogma
+<string>Artian Weapons Only
+<string>Gogma Artian Weapons Only
 <string>Mantle
 <string>Search
 <string>Defense Bonus
@@ -216,6 +235,9 @@
 <string>Smelting Points
 <string>Favorites First
 <string>Level Order
+<string>By Gogma Trait
+<string>Level Order (Asc.)
+<string>Level Order (Desc.)
 <string>1 – 3
 <string>2 – 3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">One of your loadouts contains equipment that<lf>you do not possess.</COLOR> Unobtained equipment<lf>has been automatically registered to your wishlist.
 <string><COLOR preset="TXT_Accent">A registered loadout contains equipment that<lf>you do not possess.</COLOR> This equipment has already<lf>been added to your wishlist.
 <string><COLOR preset="TXT_Accent">One of your loadouts contains equipment that<lf>you do not possess.</COLOR>
+<string><COLOR preset="TXT_Accent">Appraised Talismans cannot be registered via<lf>shared loadouts or the Hunter Profile.<lf>(No setting will be registered.)</COLOR>

@@ -611,7 +611,7 @@
 <string>낚시 조작 방법
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>낚시 조작 방법
-<string><COLOR preset="TXT_Accent">저항하는 물고기 지치게 하기</COLOR>: <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">감기</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>낚시 조작 방법
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>낚시 조작 방법
@@ -765,7 +765,7 @@
 <string>아티어 무기 속성
 <string>3개의 파츠 모두 같은 속성의<lf>성능 타입으로 맞추면<lf>더욱 강력한 속성치를 얻을 수 있다.<lf>모두 다른 속성이면 <COLOR preset="TXT_Accent">무속성</COLOR><lf>아티어 무기가 만들어진다.
 <string>아티어 무기 복원 강화
-<string>생산한 아티어 무기는 전용 소재를 소비해<lf>성능을 강화할 수 있다. 가공점에서<lf>'<COLOR preset="TXT_Accent">아티어 무기 복원 강화/해체</COLOR>'를 확인하자.
+<string>생산한 아티어 무기는 전용 소재를 소비해<lf>성능을 강화할 수 있다. 가공점에서<lf>'<COLOR preset="TXT_Accent">아티어 무기 생산/강화</COLOR>'를 확인하자.
 <string>멀티플레이를 즐기자
 <string>로비가 잠금 해제되어 다른 플레이어와<lf>멀티플레이를 할 수 있게 되었다.<lf>자세한 내용은 플레이 가이드를 확인해 보자.
 <string>로비와 멀티플레이
@@ -977,7 +977,7 @@
 <string>암흑검 '칠흑검'
 <string>보호막 발동 후 <ICON PL_BT_RIDE_ATTACK_L>을 입력하거나<lf>파괴되지 않은 상태에서 일정 시간이 지나<lf>종료하면 전방으로 참격을 방출한다.
 <string>암흑검 '황혼검'
-<string>적의 공격으로 보호막이 파괴되면<lf>강력한 카운터 공격을 발동하고, 일정<lf>시간 동안 <COLOR preset="TXT_Accent">특수한 강화 상태</COLOR>가 부여된다.
+<string>공격으로 보호막이 파괴되면<lf>강력한 카운터 공격을 발동하고, 일정<lf>시간 동안 <COLOR preset="TXT_Accent">특수한 강화 상태</COLOR>가 부여된다.
 <string>커스텀 숏컷 활용
 <string>흑야를 커스텀 숏컷에 등록하면<lf>발도 상태에서도 쓸 수 있다. 자세한<lf>내용은 '<COLOR preset="TXT_Accent">기본 조작 방법</COLOR>'에서 확인하자.
 <string>필드 맵
@@ -1032,6 +1032,84 @@
 <string>공명: '원거리' 발동 시, 자신과 다른<lf>헌터가 일정 거리까지 <COLOR preset="TXT_Accent">멀어지면</COLOR><lf>자신의 공격력이 상승한다.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>사냥 연습 퀘스트
+<string>자유 퀘스트 내에서 새롭게<lf>'<COLOR preset="TXT_Accent">사냥 연습 퀘스트</COLOR>'를<lf>수주할 수 있게 되었다.
+<string>사냥 연습 퀘스트
+<string>'사냥 연습 퀘스트'는 타겟의<lf>출현 위치, 난이도가 고정되어 있고<lf>다른 대형 몬스터도 출현하지 않는다.
+<string>사냥 연습 퀘스트
+<string>그래서 특정 몬스터만 사냥할 수 있고<lf>조작을 연구하기에 적합하다.<lf>'<COLOR preset="TXT_Accent">자유 퀘스트</COLOR>'에서 수주해 활용하자.
+<string>교류 축제【축요 의식】 개최 중
+<string>축제 기간 동안, 대집회소에서 다양한<lf>콘텐츠를 즐길 수 있다. 축제는 기간이<lf>정해져 있으므로 기간 내에 꼭 방문해 보자!
+<string>기간 한정 특별 서포트 헌터!
+<string>기간 중 구조신호로 특별한 서포트 헌터도<lf>퀘스트에 참가할 수 있다. 퀘스트 종류나<lf>진행도에 따라 제한될 수도 있다.
+<string>축제 한정 식사를 즐겨보자!
+<string>식당에서는 기간 한정 특별 메뉴를<lf>즐길 수 있다. 기간 내에 로그인 보너스로<lf>입수 가능한 '축요 식사권'을 활용해 보자!
+<string>'축요 식사권' 적용 대상
+<string>일반 식사권은 사용자 외 일부 멤버도<lf>식사할 수 있지만, 축제 한정 메뉴는<lf>이 식사권 사용자만 이용할 수 있다.
+<string>알마의 특별 의상으로 기분 전환!
+<string>편집자를 위한 축요 의식 이벤트<lf>특별 의상을 이용할 수 있다. 옷을 변경<lf>하고 싶으면 알마에게 말을 걸어 보자!
+<string>배포 현상금 매일 업데이트!
+<string>배포 현상금은 매일 갱신되며<lf>이벤트 한정 장비 생산에 필요한<lf>축제 티켓【축요】를 입수 가능하다.
+<string>전용 로그인 보너스 추가!
+<string>하루 1장이었던 '격운 티켓'이<lf>기간 동안 특별히 하루 2장으로 증가!<lf>또한, '축제 티켓【축요】'도 입수 가능.
+<string>이벤트 퀘스트 배포!
+<string>기간 한정 특별 이벤트 퀘스트를<lf>차례대로 배포! 또한 과거 이벤트<lf>퀘스트도 다수 재배포된다.
+<string>거극 아티어 무기
+<string>고그마지오스에게서 입수할 수 있는<lf>거극 변이 파츠를 아티어 무기에<lf>사용해 강력한 무기로 강화할 수 있다.
+<string>거극 아티어 무기
+<string>거극 아티어 무기는 시리즈 스킬과<lf>그룹 스킬이 있고, 더욱 강한 <lf>복원 보너스가 발동된다.
+<string>거극 아티어 무기 강화
+<string>아티어 무기에 동일한 타입의 <lf>거극 변이 파츠 3개를 사용해 강화한다.<lf>강화 전 아티어 무기의<lf>생산/복원 보너스는 이어받는다.
+<string>거극 아티어 무기 강화
+<string>사용한 거극 변이 파츠에 해당하는<lf>'<COLOR preset="TXT_Accent">거극 성능 타입</COLOR>'에 따라,<lf>무기의 기본 성능이 변화한다. 취향에 맞게 선택하자.
+<string>거극 아티어 무기 강화
+<string>거극 아티어 무기로 강화 시에<lf>시리즈 스킬과 그룹 스킬이<lf>무작위로 선택되어 발동한다.<lf>나중에 다시 변경할 수 있다.
+<string>거극 아티어 무기 강화
+<string>거극 아티어 무기는 복원 강화를 통해<lf>더욱 강한 보너스가 발동한다. <COLOR preset="TXT_Accent">거극<lf>아티어 무기 복원 강화</COLOR>를 확인하자.
+<string>거극 아티어 무기 복원 강화
+<string>거극 아티어 무기 강화에 새롭게<lf>'<COLOR preset="TXT_Accent">거극 복원 강화</COLOR>'와 '<COLOR preset="TXT_Accent">스킬 재부여</COLOR>'가 추가되었다.<lf><ICON UI_LIST_TRIGGER_L1> / <ICON UI_LIST_TRIGGER_R1>으로 전환 가능.
+<string>거극 아티어 무기 복원 강화
+<string><COLOR preset="TXT_Accent">거극 복원 강화</COLOR>에서는<lf>복원 보너스를 일괄적으로 여러 번<lf>강화 가능. 발동 수에 제한은 있으나,<lf>더 효과가 높은 전용 보너스가 발동한다.
+<string>거극 아티어 무기 복원 강화
+<string><COLOR preset="TXT_Accent">거극 복원 강화</COLOR>는<lf>발동 중의 복원 보너스의 카테고리를<lf>유지한 채 반영할지,<lf>완전 무작위로 다시 할지 선택할 수 있다.
+<string>거극 아티어 무기 복원 강화
+<string><COLOR preset="TXT_Accent">스킬 재부여</COLOR>에서는 거극 변이 파츠를<lf>사용해 시리즈 및 그룹 스킬을 다시<lf>부여할 수 있다. 거극 성능 유형은<lf>변화하지 않는다.
+<string>거극 아티어 무기 복원 강화
+<string>원하는 강화 결과가 나오지 않았을 때는<lf>무기에 반영하지 않고 원래대로 되돌리는<lf>것도 가능하다. 단, 사용한 소재는<lf>그대로 소비된다.
+<string>방어구 한계 돌파
+<string>방어구를 더 강화하는 '<COLOR preset="TXT_Accent">한계 돌파 강화</COLOR>'가<lf>잠금 해제되었다. 상위 방어구를 골라서<lf>특수한 강화를 진행할 수 있다.
+<string>방어구 한계 돌파
+<string>한계 돌파한 방어구는 갑옥에 의한<lf>강화 상한이 확장되고,<lf>일부 방어구는 장식품 슬롯이 강화된다.
+<string>장식품 슬롯 강화
+<string>희귀도 5인 방어구는 3개, 희귀도6인<lf>방어구는 2개의 슬롯 Lv이 강화된다.<lf>(Lv3 슬롯이 있으면 다른 슬롯만 강화된다.)
+<string>칠색금 제련 소재 확장
+<string>'<COLOR preset="TXT_Accent">칠색금 제련</COLOR>'에, 새롭게<lf>거극 변이 파츠를 소재로<lf>투입할 수 있게 되었다.
+<string>날개다리를 노려서 자세를 무너뜨리자
+<string>날개다리를 반복해서 공격하면 고그마지오스의<lf>자세를 무너뜨릴 수 있다. 성공하면 등 공격<lf>찬스를 놓치지 말고 병기를 낙하시키자.
+<string>기믹 활용으로 큰 대미지
+<string>큰 대미지를 입히려면 필드에 있는<lf>기믹을 이용하는 것도 방법이다. 주위를<lf>잘 관찰한 후 타이밍을 노려 활용하자.
+<string>병기 에너지 차지
+<string>수속 파룡포를 발사하려면 용유<lf>에너지가 필요하다. <COLOR preset="TXT_Accent">느슨한 분맥 다발</COLOR>을<lf>운반하여 연결한 후, 에너지를 차지하자.
+<string>차지 속도와 위력 상승
+<string>분맥 다발을 많이 연결할수록 차지 속도와<lf>위력이 올라간다. 3개를 모두 연결하면<lf>더욱 빠르게 최대 출력으로 발사할 수 있다.
+<string>용속성 공격에 의한 필살기 위력 감소
+<string>고그마지오스에게 대미지를 계속 주면<lf>강력한 필살기의 위력을 경감시킬 수 있다.<lf>용속성을 활용해 전투를 유리하게 이끌자.
+<string>파비우스의 엄호를 받자
+<string>공격을 계속해서 필살기 위력을 억제하면<lf>파비우스의 가드 뒤에서 버틸 수 있다.<lf>파비우스를 찾아 그의 등 뒤로 이동하자.
+<string>필살기 기타 대처 방법
+<string>억제에 성공한 후 가드 가능한 무기를<lf>장비 중일 경우, 스스로의 힘으로<lf>버틸 수 있다. 고지대가 남아 있으면<lf>고지대로 이동하여 피하는 것도 가능하다.
+<string>특별 보수로 특별한 무기 생산
+<string><COLOR preset="TXT_Accent">거극 변이 파츠</COLOR>를 획득하여<lf>특별한 무기를 생산할 수 있게 되었다.<lf>가공점에서 자세한 내용을 확인해 보자.
+<string>변이 파츠가 있는 부위를 노리자
+<string>고그마지오스에는 변이 파츠가 붙은<lf>부위가 존재한다. 적극적으로 노려 파괴하고<lf>변이 파츠 추가 보수를 노리자.
+<string>고난이도 특수 환경 퀘스트
+<string>동시에 강력한 개체를 여럿 사냥하는<lf>고난이도 '<COLOR preset="TXT_Accent">특수 환경 퀘스트</COLOR>'는<lf>자유 퀘스트에서 수주할 수 있다.
+<string>클리어해서 특별한 보수를 받자
+<string>각 퀘스트를 클리어하면 보수로<lf>전용 '<COLOR preset="TXT_Accent">이름표</COLOR>'를 받을 수 있다.<lf>입수해서 실력을 증명해 보자!
+<string>멀티플레이 도중 참가 주의 사항
+<string>퀘스트를 도중 참가로 클리어하면<lf>전용 이름표를 보수로 받을 수 없다.<lf>퀘스트 시작 시점부터 참가해 보자.
+<string>철저히 준비하자
+<string>고난이도 퀘스트가 많아서, 도전하려면<lf>만반의 준비가 필요하다. 모든<lf>고난이도 퀘스트 클리어에 도전하자!
 <string>상처
 <string>이제 소지하고 있는 불필요한 장식품을<lf>소비하여 <COLOR preset="TXT_Accent">원하는 장식품을 연금</COLOR>할 수<lf>있다. 라인업은 조건을 만족하면<lf>늘어난다.
 <string><REF RefItem_0017_120>과 장비 마이 세트

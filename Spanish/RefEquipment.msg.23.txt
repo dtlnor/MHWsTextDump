@@ -26,6 +26,7 @@
 <string>Talismán
 <string>Nv. {0}
 <string>Nv. {0}/{1}
+<string><COLOR preset="TXT_White01">Nv. {0}</COLOR>/{1}
 <string>Nv-
 <string>{0}
 <string>–
@@ -55,22 +56,31 @@
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_04
 <string><COLOR FF0000>#Rejected#</COLOR> RefEquipment_0008_05
 <string>Mejorar armadura
+<string>Trascender
+<string>Trascensión completada
 <string>Próximo nivel
 <string>Mejora máxima alcanzada
 <string>Ver todo
 <string><ICON EQUIP_TYPE1> Armadura solo
+<string>Excluir ropa que no sea <ICON EQUIP_TYPE2>
 <string><ICON EQUIP_TYPE2> Armadura solo
+<string>Excluir ropa que no sea <ICON EQUIP_TYPE1>
 <string>Mostrar en posesión
 <string>Sets de armadura completa
 <string>Mostrar lista de deseos
 <string>Mostrar α
 <string>Mostrar β
+<string>Mostrar ambos en tipos α/β
+<string>Mostrar α en tipos α/β
+<string>Mostrar β en tipos α/β
 <string>Mejorar
 <string>Forjar
 <string>Necesitarás materiales y {0} z.<lf>¿Quieres continuar?
 <string>Necesitarás materiales y <NUMBER {0}> z.<lf>¿Quieres continuar?<lf><lf>(Crear este equipamiento también lo desbloqueará<lf>como <COLOR preset="TXT_Accent">equipamiento superpuesto</COLOR>).
 <string>Este es un set de armadura completa. Se usarán los<lf>materiales necesarios y {0}z para crear todo el set.<lf>¿Quieres continuar?
 <string>Este es un set de armadura completa.<lf>Se usarán los materiales necesarios y <NUMBER {0}>z<lf>para crear todo el set. ¿Quieres continuar?<lf><lf>(Si lo creas, también se desbloqueará<lf>como <COLOR preset="TXT_Accent">equipamiento superpuesto</COLOR>).
+<string>Necesitarás materiales, un arma base<lf>y <NUMBER {0}> z. ¿Quieres continuar?
+<string>Necesitarás materiales, un arma base<lf>y <NUMBER {0}> z. ¿Quieres continuar?<lf><lf>(Crear este equipo también lo desbloqueará<lf>como <COLOR preset="TXT_Accent">equipo superpuesto</COLOR>).
 <string>¿Quieres equipar este elemento?
 <string>Si cambias esta pieza, <COLOR preset="TXT_Danger">se quitarán el resto<lf>de piezas del set de armadura completa</COLOR>.<lf>¿Quieres cambiar la pieza de armadura?
 <string>Es un set de armadura completa.<lf>¿Quieres equiparte todas las piezas del set?<lf><lf><COLOR preset="TXT_Danger">(La armadura superpuesta no se mostrará).</COLOR>
@@ -99,6 +109,10 @@
 <string><COLOR preset="TXT_Danger">Ya tienes este equipamiento, así que no se puede forjar o mejorar.</COLOR>
 <string><COLOR preset="TXT_Danger">Ya tienes este equipamiento, así que no se puede forjar.</COLOR>
 <string><COLOR preset="TXT_Danger">No puedes forjar sets de armadura completa que ya tengas.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes trascender esta pieza de equipamiento.</COLOR>
+<string><COLOR preset="TXT_Danger">Ya has trascendido esta pieza de equipamiento.</COLOR>
+<string><COLOR preset="TXT_Danger">No tienes armas artianas de rareza 8.</COLOR>
+<string><COLOR preset="TXT_Danger">No tienes armas artianas Gogma.</COLOR>
 <string>Equipado actualmente: {0}
 <string>Se está utilizando en otra pieza de equipamiento.<lf>¿Quieres quitarlo?
 <string><COLOR preset="TXT_Danger">Este adorno ya está equipado.</COLOR>
@@ -119,6 +133,7 @@
 <string>Mostrar nombre/habilidad
 <string>Añadir a favoritos
 <string>Aspecto del equipamiento
+<string>Comprobar aspecto equip.
 <string>Ajustes de equipamiento
 <string>Selección automática
 <string>Elegir del baúl
@@ -135,6 +150,7 @@
 <string>Registrar como forja
 <string>Registrar como mejora
 <string>¿Quieres añadir este objeto a tu equipo deseado?
+<string>¿Quieres añadir este elemento a tu equipo deseado?<lf><lf>Si añades materiales de forja:<lf>Se añadirán los materiales necesarios para forjar.<lf><lf>Si añades materiales de mejora:<lf>Se añadirán los materiales necesarios para mejoras.<lf>Si no tienes el arma anterior del árbol,<lf>se añadirán todos los materiales necesarios a la vez.
 <string>Esta arma necesita un requisito previo que se puede registrar como forja o como mejora. Selecciona qué método quieres registrar.
 <string>Quitar del equipo deseado
 <string>¿Quitar del equipo deseado?
@@ -158,6 +174,9 @@
 <string>Tubo
 <string>Disco
 <string>Dispositivo
+<string>Gogma
+<string>Solo armas artianas
+<string>Solo armas artianas Gogma
 <string>Manto
 <string>Búsqueda
 <string>Bonus de defensa
@@ -215,7 +234,10 @@
 <string>Puntos de fusión
 <string>Puntos de fundición
 <string>Favoritos primero
-<string>
+<string>Orden por nivel
+<string>Por rasgo Gogma
+<string>Por nivel (ascen.)
+<string>Por nivel (descen.)
 <string>1 – 3
 <string>2 – 3
 <string>3
@@ -292,3 +314,4 @@
 <string><COLOR preset="TXT_Accent">Uno de tus sets contiene equipamiento<lf>que no posees.</COLOR> El equipamiento que te falta<lf>se ha añadido a tu equipo deseado.
 <string><COLOR preset="TXT_Accent">Un set registrado contiene equipamiento<lf>que no tienes.</COLOR> El equipamiento ya se había añadido<lf>a tu equipo deseado.
 <string><COLOR preset="TXT_Accent">Uno de tus sets contiene equipamiento<lf>que no posees.</COLOR>
+<string><COLOR preset="TXT_Accent">Los talismanes tasados no se pueden registrar<lf>ni en los sets ni en el perfil de cazador.<lf>(No se registrará ninguna configuración).</COLOR>

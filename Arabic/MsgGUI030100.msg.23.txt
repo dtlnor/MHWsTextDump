@@ -760,10 +760,14 @@
 <string>يمكِّن HDR تلقائيًا على الأجهزة المدعومة،<lf>ويعطله على الأجهزة غير المدعومة.
 <string>تعطيل
 <string>يعطل إخراج HDR على الأجهزة<lf>التي تدعمه.
-<string>السطوع
-<string>يضبط سطوع الشاشة.
-<string>السطوع (HDR)
-<string>يضبط سطوع الشاشة.
+<string><PLATMSG MsgGUI030100_03_13>
+<string>سطوع الشاشة
+<string><PLATMSG MsgGUI030100_03_13_Help>
+<string>يضبط سطوع <LSNR "شاشتكَ" "شاشتكِ">.
+<string><PLATMSG MsgGUI030100_03_14>
+<string>سطوع الشاشة HDR
+<string><PLATMSG MsgGUI030100_03_14_Help>
+<string>يضبط سطوع <LSNR "شاشتكَ" "شاشتكِ">.
 <string>إعدادات الأداء
 <string>يضبط الميزات الرسومية المتعلقة بتجربة اللعب.<lf><COLOR preset="TXT_Accent">(قابل للتعديل من خيارات العنوان.)</COLOR>
 <string>يضبط الميزات الرسومية المتعلقة بتجربة اللعب.
@@ -871,7 +875,7 @@
 <string>NVIDIA DLSS 2x
 <string>قد يؤدي تفعيل هذه الميزة إلى تحسين معدلات<lf>الإطارات وقد يسمح لك بتجاوز الحد الأقصى<lf>لمعدل الإطارات المحدد ضمن خيارات العرض.<lf><COLOR preset="TXT_Accent">هذا الإعداد متاح فقط عند استخدام بطاقات الرسومات<lf><rtl>NVIDIA GeForce RTX 4000 Series أو أحدث.</COLOR>
 <string>NVIDIA DLSS 3x
-<string>قد يؤدي تفعيل هذه الميزة إلى تحسين معدلات<lf>الإطارات وقد يسمح لك بتجاوز الحد الأقصى<lf>لمعدل الإطارات المحدد ضمن خيارات العرض.<lf><COLOR preset="TXT_Accent">هذا الإعداد متاح فقط عند استخدام بطاقات الرسومات<lf><rtl>NVIDIA GeForce RTX 4000 Series أو أحدث.</COLOR>
+<string>قد يؤدي تفعيل هذه الميزة إلى تحسين معدلات<lf>الإطارات وقد يسمح لك بتجاوز الحد الأقصى<lf>لمعدل الإطارات المحدد ضمن خيارات العرض.<lf><COLOR preset="TXT_Accent">هذا الإعداد متاح فقط عند استخدام بطاقات الرسومات<lf><rtl>NVIDIA GeForce RTX 5000 Series أو أحدث.</COLOR>
 <string>NVIDIA DLSS 4x
 <string>الوضع التلقائي لتقنية NVIDIA DLSS
 <string>قد يؤدي تفعيل هذه الميزة إلى تحسين معدلات<lf>الإطارات وقد يسمح لك بتجاوز الحد الأقصى<lf>لمعدل الإطارات المحدد ضمن خيارات العرض.<lf><COLOR preset="TXT_Accent">هذا الإعداد متاح فقط عند استخدام بطاقات الرسومات<lf><rtl>NVIDIA GeForce RTX 4000 Series أو أحدث.</COLOR>
@@ -1031,7 +1035,7 @@
 <string>يضبط ما إذا كانت الظلال المفصَّلة ستظهر.
 <string>تمكين
 <string>تعطيل
-<string>الانسداد المحيطي
+<string>الظل المحيطي
 <string>يضبط جودة الظلال في المناطق<lf>التي يُحجب فيها الضوء.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_22_00
 <string>عالي
@@ -1105,7 +1109,7 @@
 <string>عدم عرض
 <string>عدم عرض الأضرار الملحقة.
 <string>تحذير مقياس الصحة
-<string>يضبط ما إذا كان مقياس الصحة<lf>يعرض تحذيرًا قبل أن تشن الوحوش<lf>هجمات بالغة الضرر.
+<string>يضبط ما إذا كان مقياس الصحة يعرض<lf>تحذيرًا عندما تكون أقل من نسبة معينة<lf>أو مباشرة قبل الهجمات بالغة الضرر.
 <string>عرض
 <string>يعرض مؤشر الصحة تحذيرًا (يتموّج باللون<lf>الأحمر) عند اقتراب الوحش من تنفيذ هجوم<lf>قد يستنزف ما تبقّى من <LSNR "صحتكَ" "صحتكِ">.
 <string>عدم عرض
@@ -1311,6 +1315,8 @@
 <string>عدم عرض وحوش (سيكريت) للاعبين الآخرين<lf>أو لصيادي المساندة عند عدم الركوب.<lf><COLOR preset="TXT_Accent">(سيظل ظاهرًا<lf>في بعض الحالات).</COLOR>
 <string>إيقاف
 <string>إظهار سيكريت غير المُمتَطَاة بشكل دائم<lf>للاعبين الآخرين أو الصيادين الداعمين.
+<string>إظهار
+<string>إظهار (سيكريت) بشكل دائم<lf>للاعبين الآخرين أو صيادي الدعم.
 <string>استكشاف تلقائي لوحوش سيكريت
 <string>ضبط ما إذا كان (سيكريت) الخاص <LSNR "بكَ" "بكِ"><lf>يدخل تلقائيًا في وضع الاستكشاف التلقائي<lf>عند عدم تعيين نقطة الوجهة.
 <string>تشغيل
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>مكبرات صوت الجهاز
+<string>إعدادات الصوت محسّنة لمكبرات الصوت في الجهاز.
+<string>نوع اختيار القائمة الشعاعية
+<string>تعيين عناصر التحكم لاختيار القائمة الشعاعية.
+<string>النوع 1
+<string>يبقي القائمة المحددة حاليًا في المنتصف<lf>أثناء الضغط على <INPUTMSG MsgGUI030100_INPUT_01> باتجاه القائمة الجديدة لتحديدها.
+<string>النوع 2
+<string><LSNR "يبقيكَ" "يبقيكِ"> في منتصف جميع القوائم الثمانية<lf>أثناء الضغط على <INPUTMSG MsgGUI030100_INPUT_01> باتجاه القائمة الجديدة لتحديدها.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>عناصر التحكم في الجيروسكوب (وضع الحمل باليد)
+<string>عند التفعيل، <LSNR "تمكِّنكَ" "تمكِّنكِ"> من استخدام الجيروسكوب<lf>للتحكم في الكاميرا في وضع الحمل باليد،<lf>إضافةً إلى ضبط إعدادات أكثر تفصيلًا.
+<string>شدة اهتزاز وحدة التحكم
+<string>ضبط شدة اهتزاز وحدة التحكم.
+<string>ضعيف
+<string>متوسط (عادي)
+<string>قوي

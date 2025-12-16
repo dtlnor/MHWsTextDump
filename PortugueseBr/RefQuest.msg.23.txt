@@ -51,6 +51,7 @@
 <string>Salvar como Investigação
 <string>Criar Missão
 <string>Aceitar Missão
+<string>Iniciar Investigação
 <string>Gastar {0} <PLURAL {0} "ponto" "pontos"> para<lf>salvar como Investigação?
 <string>Salvo como Investigação.
 <string><COLOR preset="TXT_Danger">Pontos de Guilda insuficientes.</COLOR>
@@ -75,6 +76,7 @@
 <string><COLOR preset="TXT_Danger">Não pode ser usado durante esta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Esta missão não pode ser aceita fora da Grande Central.</COLOR>
 <string><COLOR preset="TXT_Danger">Indisponível durante esta missão.</COLOR>
+<string><COLOR preset="TXT_Danger">Esta missão não pode ser postada porque ainda não foi desbloqueada.</COLOR>
 <string>Voltar à Tela Inicial
 <string>Tentar Novamente
 <string>Abata {0}
@@ -101,6 +103,7 @@
 <string>Caixa de Avaliação (Talismãs)
 <string>Itens marcados que ultrapassarem a<lf>capacidade da caixa de equipamentos<lf>serão vendidos automaticamente.<lf>Veja os detalhes para saber mais.
 <string><COLOR preset="TXT_Danger">{0} <PLURAL {0} "talismã não pode ser retirado" "talismãs não podem ser retirados"><lf>porque a caixa de equipamentos está cheia.<lf><lf>Selecionar <BOLD>Pegar Tudo</BOLD> venderá<lf>automaticamente os itens marcados.
+<string>Prêmios Especiais
 <string>Missão<lf>Cumprida
 <string>Missão<lf>Fracassada
 <string>Voltando<lf>à<lf>Base
@@ -203,7 +206,8 @@
 <string>A. Tocha Dracônica: {0} apareceu!
 <string>Festival da Concórdia: Floridança em andamento!
 <string>Festival da Concórdia: Flamafolia em andamento!
-<string><REF RefGeneral_0029_002> em progresso!
+<string><REF RefGeneral_0029_002> em andamento!
+<string>Festival da Concórdia: Ilumicanto em andamento!
 <string>O canto de preces da Diva inicia em {0} min.
 <string>O canto de preces da Diva ressoa.
 <string>Canto de Preces da Diva
@@ -242,6 +246,10 @@
 <string>Caçadores de Suporte entrarão independentemente das opções do multijogador.
 <string>Não entrar
 <string>Caçadores de Suporte não entrarão independentemente das opções do multijogador.
+<string>Lembrete de Vale da Sorte
+<string>Escolha receber um lembrete para usar Vales da Sorte, enviado como notificação Importante de Bate-papo no início da missão.
+<string>Desligado
+<string>Ligado
 <string>Detalhes Adicionais
 <string>Regras para Missões de Desafio Livre<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.
 <string>Regras para Missões de Arena/Desafio<lf>- Máximo de 2 participantes.<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.<lf>- Amigatos não podem participar da missão.<lf>- Efeitos de refeição serão <COLOR preset="TXT_Danger">desabilitados durante a missão</COLOR> e<lf>serão restaurados quando ela terminar.<lf>- Efeitos de Status, como itens e melodias, <COLOR preset="TXT_Danger">desaparecerão ao<lf>partir para a missão</COLOR>.<lf><lf>Regras para Missões de Desafio Livre<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.
@@ -270,6 +278,11 @@
 <string>Crescente
 <string>Decrescente
 <string>Recomendado
+<string>Sem Senha
+<string>Missões Recém-iniciadas
+<string>Vagas Disponíveis
+<string>Menos Tentativas Restantes
+<string>Mais Tentativas Restantes
 <string>Excluir Investigação
 <string>Excluir a investigação selecionada?<lf><lf>Atenção: Se a missão permanecer em seu <COLOR preset="TXT_Accent">Histórico<lf>de Trabalho de Campo</COLOR>, o histórico será excluído.
 <string>Investigação excluída.
@@ -301,3 +314,11 @@
 <string>Confirmar equipamento?
 <string>Aguardando outros jogadores.
 <string>Recorde
+<string>Última Missão Jogada
+<string>Disponível: <DATETIME {0} "DD/MM/YYYY[,] HH:mm"> ~ <DATETIME {1} "DD/MM/YYYY[,] HH:mm"> (UTC)
+<string>Publicar
+<string>Buscar por Missão de Membro do Lobby
+<string>Buscar Missões de Sin. SOS similares
+<string>Salvar
+<string>Publicar (<PLURAL {0} "{0} restante" "{0} restantes">)
+<string>Buscar por <EMID {0}>

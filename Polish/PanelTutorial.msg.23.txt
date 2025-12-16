@@ -611,7 +611,7 @@
 <string>Sterowanie: łowienie ryb
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_300>
 <string>Sterowanie: łowienie ryb
-<string><COLOR preset="TXT_Accent">Kontroluj wciąganie:</COLOR> <ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">Wciągnij zdobycz:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_301>
 <string>Sterowanie: łowienie ryb
 <string><REF MsgGUI600000_PanelTutorial_L_EXP_302>
 <string>Sterowanie: łowienie ryb
@@ -945,7 +945,7 @@
 <string>Muzyka do jazdy dla stroju chocobo
 <string>Włącz/wyłącz specjalną muzykę<lf>lub ustaw jej głośność, przechodząc<lf>w menu opcji do ustawienia Dźwięk.
 <string>Festiwal Porozumienia: Czar Snów
-<string>Podczas festiwali Wielkie Centrum<lf>zostanie wzbogacone o specjalne<lf>funkcje. Będą one ograniczone czasowo,<lf>więc odwiedź Centrum, póki będą dostępne!
+<string>Podczas festiwali Wielkie Centrum<lf>zostanie wzbogacone o specjalne<lf>funkcje. Będą one ograniczone czasowo,<lf>więc odwiedź Centrum, póki są dostępne!
 <string>Ograniczony czasowo łowca wspierający!
 <string>Podczas wydarzenia flary alarmowe<lf>mogą przyzwać specjalnego łowcę<lf>wspierającego. Może to jednak zależeć<lf>od zadania i postępów w fabule.
 <string>Zajadaj się sezonowymi posiłkami!
@@ -977,7 +977,7 @@
 <string>Ostrze cienia
 <string>Gdy bariera się wyczerpie, nie ulegając<lf>zniszczeniu, zostanie wykonany automatycznie<lf>atak tnący w przód. Można go również<lf>wykonać natychmiast, naciskając <ICON PL_BT_RIDE_ATTACK_L>.
 <string>Zmierzch
-<string>Jeśli bariera zostanie zniszczona przez<lf>ataku wroga, wykonasz potężny kontratak<lf>i zyskasz tymczasowe <COLOR preset="TXT_Accent">wzmocnienie</COLOR>.
+<string>Jeśli bariera zostanie zniszczona przez<lf>atak, wykonasz potężny kontratak i<lf>zyskasz tymczasowe <COLOR preset="TXT_Accent">wzmocnienie</COLOR>.
 <string>Użyj własnego menu kołowego
 <string>Przypisz najczarniejszą noc do własnego<lf>menu kołowego, by móc z niej korzystać<lf>nawet z dobytą bronią. Sprawdź szczegóły<lf><COLOR preset="TXT_Accent">przewodniku Sterowanie podstawowe</COLOR>.
 <string>Szczegółowa mapa
@@ -1032,6 +1032,84 @@
 <string>Gdy umiejętność Rezonans z daleka jest<lf>aktywna, <COLOR preset="TXT_Accent">oddal się</COLOR> od innych łowców,<lf>by zwiększyć swój atak.
 <string><REF Tips_TITLE_54>
 <string><REF Tips_EXP_54>
+<string>Ćwiczenia łowieckie
+<string>Do listy zadań opcjonalnych dodano<lf><COLOR preset="TXT_Accent">ćwiczenia łowieckie</COLOR>.
+<string>Ćwiczenia łowieckie
+<string>Podczas ćwiczeń łowieckich warunki<lf>takie jak początkowa lokalizacja<lf>i trudność celów są zablokowane.<lf>Nie pojawią też inne duże potwory.
+<string>Ćwiczenia łowieckie
+<string>To idealny sposób na skupienie się na<lf>konkretnych potworach i naukę manewrów.<lf>Ćwiczenia łowieckie są dostępne w sekcji<lf> <COLOR preset="TXT_Accent">Zadania opcjonalne</COLOR>.
+<string>Festiwal Porozumienia: Hymn Jasności
+<string>Podczas festiwali Wielkie Centrum<lf>zostanie wzbogacone o specjalne<lf>funkcje. Będą one ograniczone czasowo,<lf>więc odwiedź Centrum, póki są dostępne!
+<string>Ograniczony czasowo łowca wspierający!
+<string>Podczas wydarzenia flary alarmowe<lf>mogą przyzwać specjalnego łowcę<lf>wspierającego. Może to jednak zależeć<lf>od zadania i postępów w fabule.
+<string>Zajadaj się sezonowymi posiłkami!
+<string>Skorzystaj z ograniczonych czasowo<lf>posiłków w kantynie, wymieniając talony<lf>Hymnu Jasności. Możesz je uzyskać dzięki<lf>premiom za logowanie podczas wydarzenia!
+<string>Uprawnienia do talonu Hymnu Jasności
+<string>Standardowe talony na posiłki pozwalają<lf>na udział również innym osobom poza<lf>graczem, jednak tylko osoba realizująca<lf>talon może skorzystać z dań dostępnych<lf>wyłącznie w trakcie trwania wydarzenia.
+<string>Odśwież wizerunek Almy!
+<string>Z okazji Hymnu Jasności przygotowano<lf>specjalny odświętny strój dla<lf>przewodników. Porozmawiaj z Almą w<lf>Wielkim Centrum, by się przebrała!
+<string>Codzienne aktualizacje zleceń limitowanych!
+<string>Za codziennie aktualizowane zlecenia<lf>limitowane otrzymasz kwity Hymnu<lf>Jasności, których możesz użyć do<lf>tworzenia ograniczonego czasowo<lf>wyposażenia sezonowego.
+<string>Dodatkowe premie za logowanie!
+<string>Podczas wydarzenia możesz otrzymać<lf>dwa szczęśliwe talony dziennie<lf>zamiast jednego, a także inne nagrody,<lf>w tym kwity Hymnu Jasności!
+<string>Nadchodzą zadania z wydarzeń!
+<string>Są już dostępne ograniczone czasowo<lf>zadania z wydarzeń! Wiele poprzednich<lf>zadań pojawi się ponownie.
+<string>Artiańskie bronie z Gogmy
+<string>Od teraz możesz używać materiałów z<lf>Gogmy, które pozyskasz z Gogmaziosa,<lf>razem z broniami artiańskimi, aby<lf>przerabiać je na potężniejsze bronie.
+<string>Artiańskie bronie z Gogmy
+<string>Poza przyznaniem umiejętności z premii<lf>zestawu, artiańskie bronie z Gogmy mogą<lf>aktywować potężne premie do wzmocnienia.<lf>Stwórz najlepszą wersję swojej broni!
+<string>Ulepszanie do art. broni z Gogmy
+<string>Wykucie artiańskiej broni z Gogmy wymaga<lf>artiańskiej broni i trzech materiałów z<lf>Gogmy. Rodzaj broni określa typ części,<lf>których potrzebujesz.
+<string>Ulepszanie do art. broni z Gogmy
+<string>Ogólna cecha ulepszonej artańskiej<lf>broni z Gogmy zmieni się w zależności<lf>od <COLOR preset="TXT_Accent">cechy Gogmy</COLOR> materiałów użytych<lf>do jej ulepszenia. Wybierz cechę,<lf>która najlepiej pasuje do twojego<lf>stylu gry.
+<string>Ulepszanie do art. broni z Gogmy
+<string>Premie aktywowane przez artiańską broń<lf>z Gogmy można zmienić przez wzmacnianie.<lf>Przejdź do opcji <COLOR preset="TXT_Accent">Wzmocnij/Rozmontuj <lf>artiańskie bronie</COLOR>, by zobaczyć, <lf>co możesz zrobić.
+<string>Ulepszanie do art. broni z Gogmy
+<string>Premie do wzmocnienia dla artiańskich broni<lf>z Gogmy są większe niż te dla przeciętnej<lf>artiańskiej broni. Sprawdź w kuźni menu<lf><COLOR preset="TXT_Accent">Wzmocnienie art. broni z Gogmy</COLOR>, by zacząć<lf>wzmacnianie.
+<string>Wzmacnianie art. broni z Gogmy
+<string>Dwie nowe zakładki ulepszania broni<lf>artiańskiej z Gogmy są teraz dostępne<lf>w menu <BOLD>Wzmocnienie art. broni z Gogmy</BOLD>:<lf><COLOR preset="TXT_Accent">Wzmocnienie Gogmy</COLOR> oraz <COLOR preset="TXT_Accent">Reset<lf>umiejętności</COLOR>. Użyj <ICON UI_LIST_TRIGGER_L1> i <ICON UI_LIST_TRIGGER_R1>, aby<lf>zmieniać zakładki.
+<string>Wzmacnianie art. broni z Gogmy
+<string>Gdy broń zostanie w pełni wzmocniona,<lf><COLOR preset="TXT_Accent">Wzmocnienie Gogmy</COLOR><lf>pozwala <BOLD>zmienić</BOLD> wszystkie gniazda<lf>bonusów wzmocnienia naraz. Niektóre<lf>gniazda aktywują nawet specjalne, lepsze<lf>niż standardowe bonusy wzmocnienia.
+<string>Wzmacnianie art. broni z Gogmy
+<string><COLOR preset="TXT_Accent">Wzmocnienie Gogmy</COLOR><lf>pozwala <BOLD>zmienić</BOLD> Twoje<lf>aktualne aktywne bonusy. Możesz zachować<lf>obecne typy bonusów, zastosować nowe<lf>losowe wartości, lub całkowicie<lf>zresetować bonusy.
+<string>Wzmacnianie art. broni z Gogmy
+<string>W zakładce <COLOR preset="TXT_Accent">Zresetuj umiejętności</COLOR> możesz<lf>użyć materiałów z Gogmy, by zresetować<lf>premię i umiejętność grupy przypisane<lf>do broni. Pamiętaj, że nie możesz zmienić<lf>jej cechy Gogmy.
+<string>Wzmacnianie art. broni z Gogmy
+<string>Możesz nie zastosować wyników zresetowania<lf>czy poprawek i zamiast tego zachować oryginalne<lf>umiejętności lub wartości. Pamiętaj jednak,<lf>że materiały wykorzystane w każdym podejściu<lf>nie zostaną zwrócone.
+<string>Nadlepszanie pancerza
+<string>Można wykonać specjalne <COLOR preset="TXT_Accent">nadlepszenie</COLOR><lf>pancerza, wybierając pancerz wysokiego<lf>poziomu.
+<string>Nadlepszanie pancerza
+<string>Nadlepszanie zwiększa górny limit ulepszeń<lf>z użyciem kul pancerza i w niektórych<lf>pancerzach wzmacnia również gniazda ozdób.
+<string>Ulepszenia gniazd ozdób
+<string>Pancerz o rzadkości 5 będzie mieć<lf>ulepszone trzy gniazda, a pancerz<lf>o rzadkości 6 – dwa gniazda.<lf>(Jeśli pancerz ma gniazdo poziomu 3,<lf>ulepszone zostaną jedynie inne gniazda).
+<string>Rozwinięte wytapianie aurikalcytu
+<string>Kiedy <COLOR preset="TXT_Accent">wytapiasz rudę</COLOR>, możesz także<lf>używać materiałów z Gogmy.
+<string>Atakuj ramiona skrzydeł
+<string>Atakuj wielokrotnie ramiona skrzydeł<lf>Gogmaziosa, by pozbawić go równowagi.<lf>Jeśli ci się uda, wykorzystaj to, by<lf>ściągnąć z jego grzbietu niszczyciela smoków.
+<string>Wykorzystaj otoczenie do dodatkowych obrażeń
+<string>Obszar, w którym polujesz na Gogmaziosa,<lf>zawiera wiele elementów, z którymi<lf>możesz wejść w interakcję i które<lf>mogą zadać duże obrażenia Starszemu<lf>Smokowi. Zapoznaj się z otoczeniem<lf>i dobrze je wykorzystaj.
+<string>Ładowanie niszczyciela smoków
+<string>Koncentryczny niszczyciel smoków<lf>potrzebuje mleka wiwerny. Zanieś pasma<lf><COLOR preset="TXT_Accent">luźnego splotu</COLOR> do gniazd energii w<lf>niszczycielu smoków i podłącz je, by<lf>zacząć ładować energię.
+<string>Szybkość i moc ładowania
+<string>Im więcej pasm podłączysz do niszczyciela<lf>smoków, tym szybsze i potężniejsze będzie<lf>ładowanie. Podłączenie pasm do wszystkich<lf>trzech gniazd szybko go naładuje i umożliwi<lf>osiągnięcie pełni mocy.
+<string>Żywioł smoka osłabia jego moc
+<string>Ciągłe zadawanie Gogmaziosowi <lf>obrażeń osłabi moc jego najbardziej <lf>niszczycielskiego ataku specjalnego.<lf>Żywioł smoka będzie tu najskuteczniejszy.
+<string>Wsparcie od Fabiusa
+<string>Jeśli uda ci się zadać Gogmaziosowi<lf>odpowiednio dużo ciągłych obrażeń <lf>i osłabić jego atak specjalny, możesz<lf>schronić się za Fabiusem, by przetrwać<lf>atak. Znajdź go i schowaj się za nim!
+<string>Inne sposoby uniknięcia ataku
+<string>Jeśli uda ci się osłabić Gogmaziosa, możesz<lf>także przetrwać jego atak specjalny,<lf>używając broni mogących blokować.<lf>Jeśli pozostanie jakiś obszar na wyższym<lf>poziomie, możesz również się tam wycofać,<lf>by uniknąć ataku.
+<string>Nowe specjalne bronie do wykucia
+<string>Możesz teraz wytwarzać specjalne<lf>bronie, używając <COLOR preset="TXT_Accent">materiałów z Gogmy</COLOR>,<lf>które zdobywasz jako nagrody specjalne.<lf><lf>Więcej informacji znajdziesz w kuźni.
+<string>Celuj w części z nagrodami specjalnymi
+<string>Niektóre części ciała Gogmaziosa mają<lf>przymocowane do siebie materiały z<lf>Gogmy. Zniszcz te części, by zdobyć<lf>dodatkowe materiały w nagrodę.
+<string>Zaaw. specjalne zadania środowiskowe
+<string><COLOR preset="TXT_Accent">Specjalne zadania środowiskowe</COLOR><lf>to zaawansowane zadania, w których polujesz<lf>na wiele potężnych potworów jednocześnie.
+<string>Zdobądź nagrody specjalne
+<string>Za ukończenie tych zadań otrzymasz w nagrodę<lf>specjalne <COLOR preset="TXT_Accent">plakietki</COLOR>. Na pewno chcesz je zdobyć<lf>na dowód swoich umiejętności!
+<string>Dołączanie podczas gry wieloosobowej
+<string>Jeśli ukończysz zadanie po dołączeniu<lf>w trakcie, nie otrzymasz specjalnej plakietki.<lf>Upewnij się, że uczestniczysz w zadaniu<lf>od samego początku.
+<string>Dokładnie się przygotuj
+<string>Wszystkie te zadania są bardzo trudne<lf>i wymagają odpowiednich przygotowań.<lf>Powodzenia w ukończeniu ich wszystkich!
 <string>Rany
 <string>Możesz wymienić stare ozdoby na punkty<lf>wytapiania, których możesz użyć<lf>do <COLOR preset="TXT_Accent">wytapiania nowych ozdób</COLOR>. Liczba opcji<lf>będzie wzrastać, gdy spełnisz odpowiednie<lf>warunki.
 <string>Ozdoby i zestawy wyposażenia

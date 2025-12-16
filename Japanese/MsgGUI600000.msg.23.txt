@@ -38,8 +38,8 @@
 <string>「大物釣り」は魚との真剣勝負だ。<lf>魚が暴れている場合は、その進行方向に<lf><ICON PL_DUMMY_MOVE>を動かして糸への負荷を抑えよう。<lf>
 <string>「大物釣り」は魚との真剣勝負だ。<lf>魚が暴れている場合は、その進行方向に<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>で動かし糸への負荷を抑えよう。<lf>
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>魚が疲れ、動きが鈍くなった時がチャンス！<lf><ICON PL_DUMMY_MOVE>を上下に動かして、糸を巻き上げよう。
-<string>魚が疲れ、動きが鈍くなった時がチャンス！<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>で上下に動かして、糸を巻き上げよう。
+<string>魚が疲れ、動きが鈍くなった時がチャンス！<lf><ICON PL_DUMMY_MOVE>を回転させて、糸を巻き上げよう。
+<string>魚が疲れ、動きが鈍くなった時がチャンス！<lf><ICON PL_MOVE_FRONT>と<ICON PL_MOVE_BACK>を交互に入力して、糸を巻き上げよう。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>魚が障害物に近づいたら進行方向とは<lf>逆に<ICON PL_DUMMY_MOVE>を動かして魚の動きを抑制し、<lf>岩付近を避けるなど心がけよう。
 <string>魚が障害物に近づいたら進行方向とは<lf>逆に<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を動かして魚の動きを<lf>抑制し、岩付近を避けるなど心がけよう。
@@ -47,8 +47,8 @@
 <string>この時、ジャンプの進行方向と同じ向きへと<lf><ICON PL_DUMMY_MOVE>を傾け<ICON PL_FISHING_ACTION>を押すと、竿を倒して<lf>魚を抑えることができる。
 <string>この時、ジャンプの進行方向と同じ向きへと<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を傾け<ICON PL_FISHING_ACTION>を押すと、竿を倒して<lf>魚を抑えることができる。
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">早巻き</COLOR>：素早く<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">遅巻き</COLOR>：ゆっくり<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">しゃくり</COLOR>：<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>を繰り返し
-<string><COLOR preset="TXT_Accent">早巻き</COLOR>：素早く<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">遅巻き</COLOR>：ゆっくり<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">しゃくり</COLOR>：<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>離すを繰り返し
+<string><COLOR preset="TXT_Accent">早巻き</COLOR>：素早く<ICON merge="PL_DUMMY_MOVE,TURN_ON"><lf><COLOR preset="TXT_Accent">遅巻き</COLOR>：ゆっくり<ICON merge="PL_DUMMY_MOVE,TURN_ON"><lf><COLOR preset="TXT_Accent">しゃくり</COLOR>：<ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>を繰り返し
+<string><COLOR preset="TXT_Accent">早巻き</COLOR>：素早く<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">遅巻き</COLOR>：ゆっくり<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK><lf><COLOR preset="TXT_Accent">しゃくり</COLOR>：<ICON PL_MOVE_BACK>を連打
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">魚を障害物から遠ざける</COLOR><lf>　：<ICON PL_DUMMY_MOVE>を障害物と逆方向に倒す
 <string><COLOR preset="TXT_Accent">魚を障害物から遠ざける</COLOR><lf>　：<ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を障害物と逆方向に入力
@@ -68,14 +68,14 @@
 <string>一定時間、行動不能になる<lf><ICON PL_DUMMY_MOVE>を連続入力するか、消散剤で解除可能
 <string>一定時間、行動不能になる<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>を連続入力するか、消散剤で解除可能
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string>早巻き：<ICON PL_DUMMY_MOVE>を上下に素早く動かす
-<string>早巻き：<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>で上下に素早く動かす
+<string>早巻き：<ICON PL_DUMMY_MOVE>を素早く回転させる
+<string>早巻き：<ICON PL_MOVE_FRONT>と<ICON PL_MOVE_BACK>を交互に素早く入力する
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string>遅巻き：<ICON PL_DUMMY_MOVE>を上下にゆっくり動かす
-<string>遅巻き：<ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>で上下にゆっくり動かす
+<string>遅巻き：<ICON PL_DUMMY_MOVE>をゆっくり回転させる
+<string>遅巻き：<ICON PL_MOVE_FRONT>と<ICON PL_MOVE_BACK>を交互にゆっくり入力する
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string>しゃくり：<ICON PL_DUMMY_MOVE>を下へ繰り返し動かす
-<string>しゃくり：<ICON PL_MOVE_BACK>で下へ繰り返し動かす
+<string>しゃくり：<ICON PL_MOVE_BACK>を連打する
 <string><PLATMSG MsgGUI600000_PanelTutorial_L_EXP_157>
 <string>コンテンツの受け取り、告知、<lf>Online Storeなどのオンライン機能を<lf>利用可能。<COLOR preset="TXT_Accent">今後も他機能をサポート予定。</COLOR>
 <string>コンテンツの受け取り、告知、<lf>Steam Storeなどのオンライン機能を<lf>利用可能。<COLOR preset="TXT_Accent">今後も他機能をサポート予定。</COLOR>
@@ -145,3 +145,9 @@
 <string>画面左側の導蟲アナウンスに表示されている<lf>アイテムやギミックの位置を知りたい場合、<lf><ICON PL_AIM_SHOOTING>＋<ICON UI_ANNOUNCE_CAMERA_L><ICON UI_ANNOUNCE_CAMERA_R>で対象を注視できる。
 <string><ICON UI_LIST_TRIGGER_L_LEFT>を押すと、<lf>マップメニューが展開され<lf>様々な機能が使用できる。
 <string><ICON UI_LIST_TRIGGER_L_LEFT><ICON UI_LIST_TRIGGER_L_RIGHT>を押すと、<lf>マップメニューが展開され<lf>様々な機能が使用できる。
+<string>早巻き（素早く回転させる）
+<string>早巻き（素早く交互に押す）
+<string>遅巻き（ゆっくり回転させる）
+<string>遅巻き（ゆっくり交互に押す）
+<string><COLOR preset="TXT_Accent">暴れをいなす</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">巻く</COLOR>：<ICON merge="PL_DUMMY_MOVE,TURN_ON">
+<string><COLOR preset="TXT_Accent">暴れをいなす</COLOR>：<ICON PL_MOVE_LEFT><ICON ALTERNATE><ICON PL_MOVE_RIGHT><lf><COLOR preset="TXT_Accent">巻く</COLOR>：<ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK>

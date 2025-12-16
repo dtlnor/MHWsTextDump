@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Aumenta el alcance.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Aumenta mucho el alcance.
+<string>Amplía mucho el rango crítico, y<lf>aumenta la potencia de los ataques<lf>dentro del rango crítico.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>Inflige +5 % de daño<lf>cuando la barra de afilado<lf>esté en amarillo o peor.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Reduce mucho el impacto de<lf>los ataques. Disminuye el consumo<lf>de resistencia en un 50 %.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Reduce el daño recibido un 30 %.
+<string>Reduce el daño recibido en un 10 %,<lf>y en un 20 % adicional si se dan<lf>ciertas condiciones.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Reduce el daño recibido un 50 %.
+<string>Reduce el daño recibido en un 20 %,<lf>y en un 30 % adicional si se dan<lf>ciertas condiciones.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Reduce el daño recibido un 80 %.
+<string>Reduce el daño recibido en un 30 %,<lf>y en un 50 % adicional si se dan<lf>ciertas condiciones.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>Ataque +5 % mientras esté activo.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Protege contra la plaga de nitro.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Anula el efecto de los arroyos<lf>embarrados y evita que te ralentices<lf>en el agua o el fango oleoso.
+<string>Anula el efecto de corrientes fangosas<lf>y la ralentización por agua/fango.<lf>Reduce la ralentización por aceite pesado.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Además de lo anterior, también<lf>anula los efectos de las olas.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Abrasador II
 <string>Aumenta el daño de fuego adicional<lf>al conectar un golpe.
 <string>Armadura intachable I
-<string>Reduce el daño que recibes un 5 %<lf>cuando tienes la salud al completo.
+<string>Reduce el daño que recibes un 20 %<lf>cuando tienes la salud al completo.
 <string>Armadura intachable II
-<string>Reduce el daño que recibes un 10 %<lf>cuando tienes la salud al completo.
+<string>Reduce el daño que recibes un 35 %<lf>cuando tienes la salud al completo.
 <string>Grito de guerra I
 <string>El gesto <BOLD>¡hacia la victoria!</BOLD> mejora bastante<lf>por un tiempo el ataque de aliados cercanos<lf>(sobre todo camaradas/cazadores de apoyo).
 <string>Grito de guerra II
@@ -816,6 +816,10 @@
 <string>Durante el sueñiencanto, añade objetos<lf>especiales a las recompensas de misión.<lf>(Sin efecto si te unes a mitad de misión).
 <string>Favor del sueñiencanto II
 <string>Durante el sueñiencanto, añade objetos<lf>especiales a las recompensas de misión<lf>y mejora mucho el ataque y la defensa.
+<string>Favor del iluminario I
+<string>Durante el iluminario, agrega objetos<lf>especiales a las recompensas de misión.<lf>(Sin efecto si te unes a mitad).
+<string>Favor del iluminario II
+<string>Durante el iluminario, agrega objetos<lf>especiales a las recompensas de misión<lf>y mejora mucho el ataque y la defensa.
 <string>Satsui no Hado
 <string>Aumenta el poder de los ataques especiales:<lf>Los Drive Impact lanzan ataques interceptores.<lf>Aumenta más el poder de ataques interceptores.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_520
@@ -845,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Activa el efecto de la habilidad<lf>del mismo nombre.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Activa el efecto de la habilidad.<lf>(No se volverá a activar durante<lf>un periodo de tiempo determinado).
+<string>Activa la habilidad del mismo nombre.<lf>(Activarla requiere enfriamiento,<lf>pero puede causar daño a uno mismo).
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Activa el efecto de la habilidad<lf>del mismo nombre.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -853,11 +857,17 @@
 <string>Artes oscuras
 <string>Tener daño recuperable potencia el<lf>ataque elemental y algunos de los tajos<lf>cargados de nv. 3 de la gran espada.
 <string>La noche más oscura
-<string>Te permite realizar la acción<lf>especial: <COLOR preset="TXT_Accent">la noche más oscura</COLOR>.
+<string>Te permite realizar la acción<lf>especial: la noche más oscura.
 <string>Resonancia I
 <string>(Al inicio de misión) Alterna entre<lf>resonancia local/remota. Si cumples los<lf>requisitos, mejora el ataque o afinidad.
 <string>Resonancia II
 <string>Aumenta el efecto de "resonancia I" y<lf>el efecto de la habilidad de arma "escudo<lf>sintético", o el efecto de "sinergia".
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_540
+<string>Activa el efecto de la habilidad.
+<string>Hostilidad mutua I
+<string>Aumenta el ataque elemental cuando<lf>los monstruos grandes se enfurecen.
+<string>Hostilidad mutua II
+<string>El efecto de nivel I aumenta y tú<lf>obtienes una barrera de daño temporal.<lf>(La barrera se reactiva tras la recarga).
 <string>Ráfaga potenciada I
 <string>Prolonga la duración de la habilidad<lf>"ráfaga" y da ataque +8 mientras<lf>"ráfaga" esté activa.
 <string>Ráfaga potenciada II
@@ -865,7 +875,7 @@
 <string>Demonio proteína I
 <string>Ataque +15 temporalmente tras<lf>haber comido un filete al punto<lf>o similares.
 <string>Demonio proteína II
-<string>Ataque +25 temporalmente tras<lf>haber comido un filete al punto<lf>o similares.
+<string>Ataque +30 temporalmente tras<lf>haber comido un filete al punto<lf>o similares.
 <string>Segunda oportunidad I
 <string>Da una barra de resistencia<lf>adicional.
 <string>Segunda oportunidad II

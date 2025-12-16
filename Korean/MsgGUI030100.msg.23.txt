@@ -760,9 +760,13 @@
 <string>HDR을 지원하는 환경에서는 사용하고,<lf>지원하지 않는 환경에서는<lf>사용하지 않습니다.
 <string>사용 안 함
 <string>HDR 지원 여부와 상관없이<lf>HDR 출력을 사용하지 않습니다.
+<string><PLATMSG MsgGUI030100_03_13>
 <string>화면 밝기 조정
+<string><PLATMSG MsgGUI030100_03_13_Help>
 <string>화면 밝기를 조정합니다.
-<string>화면 밝기 조정(HDR)
+<string><PLATMSG MsgGUI030100_03_14>
+<string>HDR 화면 밝기 조정
+<string><PLATMSG MsgGUI030100_03_14_Help>
 <string>화면 밝기를 조정합니다.
 <string>퍼포먼스 설정
 <string>게임 플레이 시 그래픽 퍼포먼스 관련 항목을 설정<lf>합니다. <COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다)</COLOR>
@@ -1306,11 +1310,13 @@
 <string>표시 안 함
 <string>이벤트 장면 이외의 자막에서는<lf>화자명을 표시하지 않습니다.
 <string>타인의 <REF RefGeneral_0014_01> 비표시 설정
-<string>주로 필드에서 자신의 <REF RefGeneral_0014_01> 이외<lf><REF RefGeneral_0014_01>의 비표시 여부를 설정합니다.<lf><COLOR preset="TXT_Accent">(자신의 <REF RefGeneral_0014_01>는 항상 표시됩니다.)</COLOR>
-<string>켜기
-<string>다른 플레이어 또는 서포트 헌터가<lf><REF RefGeneral_0014_01>에 탑승하지 않았을 때는 표시하지 않습니다.<lf><COLOR preset="TXT_Accent">(특정 장면에서는 표시됩니다.)</COLOR>
-<string>끄기
-<string>다른 플레이어 또는 서포트 헌터의<lf><REF RefGeneral_0014_01>를 상태 관계없이 항상 표시합니다.
+<string>다른 플레이어의 세크레트 표시를 설정합니다.<lf><COLOR preset="TXT_Accent">(자신의 세크레트는 항상 표시됩니다)</COLOR>
+<string>항상 표시 안 함
+<string>다른 플레이어 또는 서포트 헌터가<lf>탑승하지 않았을 때는 표시하지 않습니다.<lf><COLOR preset="TXT_Accent">(특정 장면에서는 표시됩니다.)</COLOR>
+<string>전투 중에만 표시 안 함
+<string>전투 중에 한해, 다른 플레이어 또는<lf>서포트 헌터가 탑승하지 않았을 때는<lf>표시하지 않습니다.<lf><COLOR preset="TXT_Accent">(특정 장면에서는 표시됩니다.)</COLOR>
+<string>항상 표시
+<string>다른 플레이어 또는 서포트 헌터의<lf>세크레트를 항상 표시합니다.
 <string><REF RefGeneral_0014_01>의 자동 산책 설정
 <string><REF RefGeneral_0014_01>의 목적지를 표시하는 핀이 없을 때<lf><REF RefGeneral_0014_01>의 자동 산책 여부를 설정합니다.
 <string>켜기
@@ -1632,3 +1638,28 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
+<string>본체 스피커
+<string>본체 스피커에 최적화된 음향 설정입니다.
+<string>숏컷 팔레트 선택 타입
+<string>숏컷 팔레트 선택 조작 타입을<lf>설정합니다.
+<string>타입 1
+<string>현재 선택 중인 팔레트를 중심으로<lf>선택하고 싶은 팔레트 방향에 맞추어<lf><INPUTMSG MsgGUI030100_INPUT_01>을 조작합니다.
+<string>타입 2
+<string>8개 팔레트 가운데를 중심으로<lf>선택하고 싶은 팔레트 방향에 맞추어<lf><INPUTMSG MsgGUI030100_INPUT_01>을 조작합니다.
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_000">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><OPTION id= "DKEY_AND_BUTTON_OP" msg= "MsgGUI030100_INPUT_01_001">
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
+<string><ICON PAD UI_SHORTCUT_PALLET>
+<string>자이로 센서 조작(휴대 모드)
+<string>휴대 모드 카메라 조작 시 자이로 센서<lf>기능의 사용 여부를 설정합니다. 또한,<lf>같은 기능의 세부 설정이 가능해집니다.
+<string>컨트롤러 진동 강도
+<string>컨트롤러 진동 강도를 설정합니다.
+<string>약함
+<string>중간(표준)
+<string>강함

@@ -521,7 +521,7 @@
 <string>À la différence des performances<lf>normales, les Performances spéciales<lf>permettent de jouer la mélodie propre<lf>à la corne de chasse équipée.<lf><lf>Une fois stockée, cette mélodie ne<lf>sera pas remplacée par de nouvelles<lf>mélodies.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Attaque Performance efficace contre<lf>les blessures. Produisez jusqu'à<lf>cinq notes avec <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>tout en utilisant Performance.<lf><lf>Jouer les notes au bon moment<lf>inflige des dégâts supplémentaires.
+<string>Attaque Performance efficace contre<lf>les blessures. Produisez jusqu'à<lf>six notes avec <ICON WP05 PL_ATTACK_00> ou <ICON WP05 PL_ATTACK_01> ou <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01><lf>tout en utilisant Performance.<lf><lf>Jouer les notes au bon moment<lf>inflige des dégâts supplémentaires.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -559,13 +559,13 @@
 <string>Les attaques que vous subissez<lf>ne vous repoussent pas.
 <string>
 <string><ICON ST_RESIST_GROUND> Dégâts environnementaux annulés
-<string>Annule les dégâts infligés par<lf>la lave ou les sols épineux, et<lf>empêche de subir les effets<lf>négatifs de la chaleur ou du<lf>froid intenses.
+<string>Annule les dégâts infligés par<lf>la lave ou les sols épineux, et<lf>empêche de subir les effets<lf>négatifs de la chaleur ou du<lf>froid intenses.<lf><lf>Les dégâts de la lave abyssale<lf>sont réduits mais ne peuvent<lf>pas être annulés.
 <string>
 <string><ICON ST_RESIST_MUD> Mobilité eau/boue huileuse
-<string>Empêche le ralentissement provoqué<lf>par les eaux profondes et la boue<lf>huileuse. Annule également les effets<lf>des vagues créées par les monstres.
+<string>Empêche le ralentissement provoqué<lf>par les eaux profondes et la boue<lf>huileuse. Annule également les effets<lf>des vagues créées par les monstres.<lf><lf>Le ralentissement provoqué par le<lf><BOLD>pétrole lourd</BOLD> sera réduit mais ne<lf>peut pas être annulé.<lf>
 <string>
 <string><ICON ST_RESIST_DEBUF> Antiafflictions
-<string>Annule toutes les afflictions.
+<string>Annule toutes les afflictions.<lf><lf>Le malus de PV introduit dans<lf>la collaboration spéciale FFXIV<lf>ne peut pas être annulé.
 <string>
 <string><ICON ST_SPIRIT> Protection divine
 <string>Peut réduire les dégâts subis.
@@ -650,7 +650,7 @@
 <string>Augmente la défense et les résistances<lf>élémentaires.
 <string>
 <string><ICON ST_RESIST_DEBUF> <REF HibikiDataText_Wp05_6>
-<string>Guérit et protège de différentes<lf>afflictions et des fléaux.
+<string>Guérit et protège de différentes<lf>afflictions et des fléaux.<lf><lf>Le malus de PV introduit dans<lf>la collaboration spéciale FFXIV<lf>ne peut pas être annulé.
 <string>
 <string>Combo de base
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> avec de l'extrait rouge
-<string>Quand vous avez de l'extrait rouge,<lf>utilisez <ICON WP10 PL_ATTACK_01><ICON RELEASE> au sol pour une Attaque<lf>descendante, ou en l'air pour une<lf>Estocade descendante. Préservez<lf>la charge en effectuant d'autres<lf>attaques puis enchaînez avec<lf>l'une de ces attaques chargées.<lf><lf>Si vous avez trois extraits, appuyez<lf>sur <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> après une Attaque ou<lf>une Estocade descendante pour<lf>déclencher une attaque finale puissante<lf>qui consomme les trois extraits. Le<lf>kinsecte vous réapprovisionne grâce<lf>aux extraits récoltés pendant l'attaque.
+<string>Quand vous avez de l'extrait rouge,<lf>maintenez <ICON WP10 PL_ATTACK_01> pour charger puis<lf>relâchez au sol pour une Attaque<lf>descendante, ou en l'air pour une<lf>Estocade descendante. Vous pouvez<lf>également faire ces attaques avec<lf><ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01>. Par ailleurs, la charge peut<lf>être maintenue en faisant d'autres coups.<lf><lf>Si vous avez trois extraits, appuyez<lf>sur <ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01> après une Attaque ou<lf>une Estocade descendante pour<lf>déclencher une attaque finale puissante<lf>qui consomme les trois extraits. Le<lf>kinsecte vous réapprovisionne grâce<lf>aux extraits récoltés pendant l'attaque.
 <string>
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>

@@ -521,7 +521,7 @@
 <string>Im Gegensatz zu normalen Darbie-<lf>tungen spielen Sonderdarbietungen<lf>den speziellen Melodie-Effekt deines<lf>ausgerüsteten Jagdhorns.<lf><lf>Diese Melodie kann, wenn vorbereitet,<lf>nicht mit neuen Melodien überschrie-<lf>ben werden.
 <string>
 <string><ICON WP05 PL_AIM><ICON PLUS><ICON WP05 PL_ATTACK_SP_B>
-<string>Ein Darbietung-Angriff, der effektiv<lf>gegen Wunden ist.<lf>Während der Darbietung kannst du<lf>mit <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> bis<lf>zu fünf Noten generieren.<lf><lf>Zum richtigen Zeitpunkt gespielte<lf>Noten verursachen zusätzlichen<lf>Schaden.
+<string>Ein Darbietung-Angriff, der effektiv<lf>gegen Wunden ist.<lf>Während der Darbietung kannst du<lf>mit <ICON WP05 PL_ATTACK_00> oder <ICON WP05 PL_ATTACK_01> oder <ICON WP05 PL_ATTACK_00><ICON PLUS><ICON WP05 PL_ATTACK_01> bis<lf>zu sechs Noten generieren.<lf><lf>Zum richtigen Zeitpunkt gespielte<lf>Noten verursachen zusätzlichen<lf>Schaden.
 <string>
 <string><REF ActionGuideDataNameText_Wp05_1317018112>
 <string>
@@ -559,13 +559,13 @@
 <string>Verhindert, dass du von Angriffen<lf>zurückgeworfen wirst.
 <string>
 <string><ICON ST_RESIST_GROUND> Umgebungsschaden negiert
-<string>Negiert Schaden von Lava oder<lf>Stacheln am Boden und verhindert<lf>negative Effekte durch intensive<lf>Hitze oder Kälte.
+<string>Negiert Schaden von Lava oder<lf>Stacheln am Boden und verhindert<lf>negative Effekte durch intensive<lf>Hitze oder Kälte.<lf><lf>Schaden von <BOLD>Tiefenlava</BOLD> jedoch wird<lf>nur verringert, nicht aber negiert.
 <string>
 <string><ICON ST_RESIST_MUD> Sumpfläufer
-<string>Tiefe Gewässer oder Ölschlamm<lf>verlangsamen dich nicht mehr.<lf>Negiert Welleneffekte von<lf>Monstern.
+<string>Tiefe Gewässer oder Ölschlamm<lf>verlangsamen dich nicht mehr.<lf>Zusätzlich werden Welleneffekte von<lf>Monstern negiert.<lf><lf>Die Verlangsamungseffekte von<lf><BOLD>Schweröl</BOLD> jedoch werden nur<lf>verringert, nicht aber negiert.
 <string>
 <string><ICON ST_RESIST_DEBUF> Alle Statusanomalien negiert
-<string>Negiert die Wirkung aller Status-<lf>anomalien.
+<string>Negiert die Wirkung aller Status-<lf>anomalien.<lf><lf>Die Statusanomalie „LP-Malus“ aus<lf>der FFXIV-Kollaboration kann nicht<lf>negiert werden.
 <string>
 <string><ICON ST_SPIRIT> Göttlicher Schutz
 <string>Erlittener Schaden kann reduziert<lf>werden.
@@ -650,7 +650,7 @@
 <string>Erhöht die Verteidigung und<lf>Elementwiderstände.
 <string>
 <string><ICON ST_RESIST_DEBUF> Statusanomalien/Pestarten negiert
-<string>Entfernt und verhindert verschiedene<lf>Statusanomalien und Pestarten.
+<string>Entfernt und verhindert verschiedene<lf>Statusanomalien und Pestarten.<lf><lf>Die Statusanomalie „LP-Malus“ aus<lf>der FFXIV-Kollaboration kann nicht<lf>negiert werden.
 <string>
 <string>Einfache Combo
 <string><REF ActionGuideDataNameText_Wp05_1180191104>
@@ -1252,7 +1252,7 @@
 <string>
 <string><REF ActionGuideDataNameText_Wp10_724987328>
 <string><ICON WP10 merge="PL_ATTACK_01,HOLD_ON"> mit Rotem Extrakt
-<string>Mit einem Roten Extrakt kannst du mit<lf><ICON WP10 PL_ATTACK_01><ICON RELEASE> am Boden einen Sinkenden<lf>Hieb und in der Luft einen Sinkenden<lf>Stoß entfesseln.<lf>Du kannst deine Aufladung beibe-<lf>halten, während du andere Angriffe<lf>ausführst, und dann einen der aufge-<lf>ladenen Angriffe nachfolgen lassen.
+<string>Mit einem Roten Extrakt kannst du<lf>durch Halten von <ICON WP10 PL_ATTACK_01> aufladen, und<lf>die Ladung bleibt erhalten, auch<lf>wenn du andere Aktionen ausführst.<lf>Lasse <ICON WP10 PL_ATTACK_01> dann am Boden los, um<lf>einen Sinkenden Hieb auszuführen,<lf>oder in der Luft, um einen Sinkenden<lf>Stoß zu entfesseln.<lf><lf>Diese Aktionen können im Anschluss<lf>an andere ausgeführt werden und die<lf>Ausführung ist auch ohne Aufladen<lf>möglich, indem du <ICON WP10 PL_ATTACK_00><ICON PLUS><ICON WP10 PL_ATTACK_01> drückst.
 <string>Drücke mit allen drei Extrakten nach<lf>einem Sinkenden Hieb oder Stoß<lf><ICON WP10 PL_AIM><ICON PLUS><ICON WP10 PL_ATTACK_01>, um einen mächtigen Todes-<lf>stoß auszuführen.<lf>Dabei werden alle Extrakte verbraucht,<lf>dein Kinsekt sammelt währenddessen<lf>jedoch neue ein.
 <string><REF ActionGuideDataNameText_Wp10_m851556800>
 <string><ICON WP10 PL_ATTACK_01><ICON RELEASE>
