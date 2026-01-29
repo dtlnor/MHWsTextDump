@@ -26,6 +26,7 @@
 <string>Accesibilidad
 <string>Idioma
 <string>PRIVACIDAD
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Botón de confirmación
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -126,9 +127,9 @@
 <string>Controles de ruta (solo en Seikret)
 <string>Ajusta los controles de movimiento para<lf>salir de rutas que solo son accesibles<lf>para el Seikret.
 <string>Tipo 1
-<string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mientras te desplazas a máxima<lf>velocidad te permite interrumpir y salir<lf>del rumbo del Seikret.
+<string>Usar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mientras te desplazas a máxima<lf>velocidad te permite interrumpir y salir<lf>del rumbo del Seikret.
 <string>Tipo 2
-<string>Inclinar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> y pulsar <ICON PL_INTERACT_ACTION_START> te permite<lf>interrumpir y salir del rumbo actual del<lf>Seikret, sea cual sea la velocidad actual.
+<string>Usar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> y pulsar <ICON PL_INTERACT_ACTION_START> te permite<lf>interrumpir y salir del rumbo actual del<lf>Seikret, sea cual sea la velocidad actual.
 <string>Visualización barra de objetos
 <string>Ajusta cómo se ven los objetos cuando<lf>se usa la barra de objetos al apuntar.
 <string>Tipo 1
@@ -769,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Ajusta el brillo de la pantalla.
 <string>Ajustes de rendimiento
-<string>Configura las opciones gráficas relacionadas con el juego.<lf><COLOR preset="TXT_Accent">(Se puede configurar en las opciones de título).</COLOR>
+<string>Configura las opciones gráficas relacionadas con el juego.<lf><COLOR preset="TXT_Accent">(Solo se puede configurar en las opciones de título).</COLOR>
 <string>Configura las opciones gráficas relacionadas con el juego.
 <string>Priorizar resolución
 <string>Concede prioridad a la resolución en vez<lf>de a la tasa de fotogramas. Los gráficos<lf>se mostrarán con mayor definición.
@@ -959,6 +960,7 @@
 <string>Media
 <string>Baja
 <string>Mínima
+<string>Visualización simplificada
 <string>Calidad de hierba/árboles
 <string>Ajusta la calidad de imagen de la hierba<lf>y de los árboles.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>Elige la precisión con la que se simula el viento<lf>sobre los objetos del juego.
 <string>Alta
 <string>Baja
+<string>No
 <string>Calidad de superficies
-<string>Elige la calidad con la que se renderizan el terreno<lf>y elementos geográficos cercanos al jugador.
+<string>Elige la calidad con la que se renderizan el terreno<lf>y elementos geográficos cercanos al jugador.<lf><COLOR preset="TXT_Accent">(Solo se puede configurar en las opciones de título).</COLOR>
 <string>Alta
+<string>Media
 <string>Baja
+<string>Mínima
 <string>Calidad de arena/nieve/agua
 <string>Elige la calidad de imagen de la arena,<lf>de la nieve y otros tipos de terreno.
 <string>Máxima
@@ -998,12 +1003,14 @@
 <string>Media
 <string>Baja
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Mínima
 <string>Distancia de renderizado
-<string>Elige el número de jugadores o personajes que<lf>se muestran en las salas, y la distancia a la que los<lf>monstruos y la fauna local aparecerán sobre el terreno.
+<string>Elige cuántos jugadores se muestran en las salas, y la<lf>distancia a la que aparecen los monstruos y fauna local.<lf><COLOR preset="TXT_Accent">(Solo se puede configurar en las opciones de título).</COLOR>
 <string>Renderiza el número máximo de objetos<lf>sin importar la distancia del cazador.
 <string>Renderiza la mayoría de objetos, incluyendo<lf>aquellos que están lejos del cazador.
 <string>Renderiza la mayoría de objetos<lf>a distancia media del cazador.
 <string>Reduce la carga del renderizado mostrando<lf>solo objetos próximos al cazador.
+<string>Reduce la carga de renderizado mostrando solo<lf>los objetos cercanos. Además, los objetos pequeños<lf>en pantalla no se renderizan.
 <string>Calidad de las sombras
 <string>Ajusta la calidad de las sombras.
 <string>Máxima
@@ -1015,6 +1022,7 @@
 <string>Elige la calidad de las sombras lejanas a tu personaje.
 <string>Alta
 <string>Baja
+<string>Media
 <string>Distancia de las sombras
 <string>Elige la distancia (desde tu personaje) en la que<lf>se renderizan las sombras.
 <string>Alta
@@ -1025,6 +1033,7 @@
 <string>Alta
 <string>Media
 <string>Baja
+<string>Mínima
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Elige la calidad de la neblina producida<lf>por el polvo y las partículas en suspensión.<lf>Afecta a cómo se ven los rayos de luz y similares.
 <string>Alta
 <string>Baja
+<string>Máxima
+<string>Media
+<string>Relativamente baja
+<string>Mínima
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Sombreado de velocidad variable
-<string>Reduce la carga de renderizado de los efectos<lf>y de los sombreadores al procesar los sombreadores<lf>de píxeles con menos regularidad.
+<string>Reduce la carga de renderizado de efectos/sombreadores<lf>procesando sus píxeles con menos regularidad.<lf><COLOR preset="TXT_Accent">(Puede reajustarse si no tienes activado el escalamiento).</COLOR>
 <string>No
 <string>Equilibrado
 <string>Rendimiento
@@ -1663,3 +1676,55 @@
 <string>Débil
 <string>Media (normal)
 <string>Fuerte
+<string>Densidad de la vegetación
+<string>Ajusta la densidad de la vegetación mostrada.
+<string>Alta
+<string>Baja
+<string>
+<string>
+<string>Colisiones con vegetación y nieve
+<string>Ajusta si se muestran efectos cuando los cazadores<lf>o monstruos entran en contacto con la vegetación<lf>o con la nieve.
+<string>Sí
+<string>No
+<string>Calidad de efectos según el terreno
+<string>Ajusta la calidad de los efectos que se muestran<lf>sobre las superficies del terreno.
+<string>Alta
+<string>Media
+<string>Baja
+<string>Calidad de animaciones
+<string>Ajusta la calidad de varias animaciones<lf>utilizadas por cazadores, monstruos y Seikret.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Por defecto
+<string>Reducida
+<string>Calidad de efectos
+<string>Ajusta la calidad de ciertos efectos.
+<string>Alta
+<string>Media
+<string>Baja
+<string>Expresiones faciales del personaje
+<string>Ajusta las expresiones faciales de los personajes<lf>y la sincronización labial en ciertas escenas.
+<string>Por defecto
+<string>Reducida
+<string>Efectos de superficies húmedas
+<string>Ajusta la visualización de los efectos de humedad<lf>cuando se entra en contacto con agua o barro.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Sí
+<string>No
+<string>Salto de fotogramas (monstruos)
+<string>Ajusta la configuración de salto de fotogramas<lf>para las animaciones de monstruos en algunas escenas.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Sí
+<string>No
+<string>Salto de fotogramas (encargado)
+<string>Ajusta la configuración de salto de fotogramas<lf>para las animaciones de encargados en algunas escenas.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Sí
+<string>No
+<string>Calidad de monstruos pequeños
+<string>Ajusta la calidad de renderizado de los monstruos<lf>pequeños para animaciones, rasgos únicos y efectos.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Por defecto
+<string>Reducida
+<string>Visualización de la fauna local
+<string>Ajusta reducciones de procesamiento y el número<lf>de animales de fauna local renderizados a la vez.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Por defecto
+<string>Reducida
+<string>Calidad del movimiento de adornos de fondo
+<string>Ajusta la calidad de renderizado de los adornos<lf>de fondo.<lf><COLOR preset="TXT_Accent">(Ajustable solo desde las opciones de título).</COLOR>
+<string>Por defecto
+<string>Reducida

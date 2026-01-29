@@ -26,6 +26,7 @@
 <string>Acessibilidade
 <string>Idioma
 <string>PRIVACIDADE
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Botão de Confirmação
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -126,9 +127,9 @@
 <string>Controles de Rota do Seikret
 <string>Ajusta os controles para rotas de saída<lf>que só são acessíveis com Seikret.
 <string>Tipo 1
-<string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> em alta velocidade sai da rota<lf>do Seikret.
+<string>Usar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> em alta velocidade sai da rota<lf>do Seikret.
 <string>Tipo 2
-<string>Mover <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> e pressionar <ICON PL_INTERACT_ACTION_START> sai da rota<lf>do Seikret, não importa sua velocidade.
+<string>Usar <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> e pressionar <ICON PL_INTERACT_ACTION_START> sai da rota<lf>do Seikret, não importa sua velocidade.
 <string>Exibição da Barra de Itens
 <string>Ajusta a exibição dos itens ao usar a Barra<lf>de Itens durante o Modo de Mira.
 <string>Tipo 1
@@ -769,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Ajusta o brilho da tela.
 <string>Configurações de Desempenho
-<string>Ajusta as configurações gráficas relacionadas<lf>à jogabilidade.<lf><COLOR preset="TXT_Accent">(Ajustável nas opções da tela de título.)</COLOR>
+<string>Ajusta as configurações gráficas relacionadas<lf>à jogabilidade.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
 <string>Ajusta as configurações gráficas de jogabilidade.
 <string>Priorizar Resolução
 <string>Defina as configurações para priorizar a<lf>resolução em vez da taxa de quadros.<lf>Os gráficos ficarão numa resolução mais alta.
@@ -959,6 +960,7 @@
 <string>Média
 <string>Baixa
 <string>Muito baixa
+<string>Exibição simplificada
 <string>Qualidade da Grama/Árvores
 <string>Ajusta a qualidade gráfica da grama e das árvores.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>Ajusta a precisão com que se simula o<lf>efeito do vento nos objetos do jogo.
 <string>Alta
 <string>Baixa
+<string>Desativada
 <string>Qualidade da Superfície
-<string>Ajusta a qualidade de renderização de terreno e<lf>elementos geográficos próximos ao Caçador.<lf><COLOR preset="TXT_Accent">(Ajustável nas Opções do menu principal.)</COLOR>
+<string>Ajusta a qualidade de renderização de terreno e<lf>elementos geográficos próximos ao Caçador.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
 <string>Alta
+<string>Média
 <string>Baixa
+<string>Muito baixa
 <string>Qualidade da Areia/Neve
 <string>Ajusta a qualidade gráfica da areia, neve e outros<lf>tipos de terreno.
 <string>Muito alta
@@ -998,12 +1003,14 @@
 <string>Média
 <string>Baixa
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Muito baixa
 <string>Distância de Renderização
-<string>Ajusta o número de jogadores ou personagens visíveis em<lf>lobbies e a distância na qual monstros e vida nativa<lf>aparecerão em campo. <COLOR preset="TXT_Accent">(Ajustável nas Opções do menu principal.)</COLOR>
+<string>Ajusta o número de jogadores ou personagens visíveis em<lf>lobbies e a distância na qual monstros e vida nativa<lf>aparecerão em campo. <COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
 <string>Renderiza o máximo de objetos, sem limites<lf>de distância do Caçador.
 <string>Renderiza a maioria dos objetos, incluindo<lf>os que estão longe do Caçador.
 <string>Renderiza a maioria dos objetos até uma<lf>distância média do Caçador.
 <string>Reduz o tempo de renderização exibindo<lf>apenas os objetos próximos do Caçador.
+<string>Reduz a carga de renderização exibindo apenas<lf>objetos próximos. Além disso, objetos pequenos<lf>em cena não são renderizados.
 <string>Qualidade das Sombras
 <string>Ajusta a qualidade das sombras.
 <string>Muito alta
@@ -1015,6 +1022,7 @@
 <string>Ajusta a qualidade das sombras distantes do Caçador.
 <string>Alta
 <string>Baixa
+<string>Média
 <string>Distância das Sombras
 <string>Ajusta a distância (do jogador) para a qual as<lf>as sombras são renderizadas no jogo.
 <string>Longa
@@ -1025,6 +1033,7 @@
 <string>Alta
 <string>Média
 <string>Baixa
+<string>Muito baixa
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Ajusta a qualidade da névoa produzida por<lf>poeira e partículas no ar. Afeta a exibição de<lf>raios de luz e outros elementos.
 <string>Alta
 <string>Baixa
+<string>Muito alta
+<string>Média
+<string>Ligeiramente baixa
+<string>Muito baixa
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Sombreamento de Taxa Variável
-<string>Reduz o efeito e a taxa de renderização de sombreadores<lf>processando sombreadores de pixels menos uniformemente.
+<string>Reduz o efeito e a taxa de renderização de sombreadores<lf>processando sombreadores de pixels menos uniformemente.<lf><COLOR preset="TXT_Accent">(Só pode ser ajustada se o Upscaling não for ativado.)</COLOR>
 <string>Desativada
 <string>Equilibrado
 <string>Desempenho
@@ -1663,3 +1676,55 @@
 <string>Fraca
 <string>Média (normal)
 <string>Forte
+<string>Densidade da Folhagem
+<string>Ajusta a densidade da folhagem exibida.
+<string>Alta
+<string>Baixa
+<string>
+<string>
+<string>Colisão com Folhagem e Neve
+<string>Ajusta se efeitos são exibidos quando caçadores<lf>ou monstros entram em contato com folhagem<lf>ou neve.
+<string>Ativada
+<string>Desativada
+<string>Qualidade dos Efeitos de Terreno
+<string>Ajusta a qualidade dos efeitos exibidos<lf>sobre a superfície de terrenos.
+<string>Alta
+<string>Média
+<string>Baixa
+<string>Qualidade da Animação
+<string>Ajusta a qualidade de várias animações usadas<lf>em caçadores, monstros e Seikret.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Padrão
+<string>Reduzida
+<string>Qualidade dos Efeitos
+<string>Ajusta a qualidade de certos efeitos.
+<string>Alta
+<string>Média
+<string>Baixa
+<string>Expressão Facial dos Personagens
+<string>Ajusta as expressões faciais e sincronia labial<lf>em algumas cenas.
+<string>Padrão
+<string>Reduzida
+<string>Efeitos de Superfícies Úmidas
+<string>Ajusta a exibição dos efeitos de umidade quando<lf>em contato com água ou barro.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Ativar
+<string>Desativar
+<string>Omissão de Quadros em Monstros
+<string>Ajusta a omissão de quadros na animação<lf>de monstros em algumas cenas.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Ativada
+<string>Desativada
+<string>Omissão de Quadros em Assistentes
+<string>Ajusta a omissão de quadros na animação<lf>de assistentes em algumas cenas.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Ativada
+<string>Desativada
+<string>Qualidade dos Monstros Pequenos
+<string>Ajusta a qualidade da renderização de animações,<lf>traços únicos e efeitos de monstros pequenos.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Padrão
+<string>Reduzida
+<string>Exibição de Vida Nativa
+<string>Ajusta as reduções de processamento e quantidade<lf>de vida nativa renderizada.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Padrão
+<string>Reduzida
+<string>Detalhes das Decorações de Fundo
+<string>Ajusta a qualidade de renderização das decorações<lf>do cenário.<lf><COLOR preset="TXT_Accent">(Ajustável só nas Opções da tela inicial.)</COLOR>
+<string>Padrão
+<string>Reduzida

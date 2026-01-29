@@ -26,6 +26,7 @@
 <string>Accessibilité
 <string>Langue
 <string>Confidentialité
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Touche de confirmation
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -959,6 +960,7 @@
 <string>Moyenne
 <string>Basse
 <string>Très basse
+<string>Affichage simplifié
 <string>Qualité de l'herbe/des arbres
 <string>Régler la qualité de l'image pour l'herbe et les arbres.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>Régler la précision avec laquelle sont<lf>simulés les effets de vent sur les objets.
 <string>Élevée
 <string>Basse
+<string>Non
 <string>Qualité des surfaces
 <string>Régler la qualité de rendu du terrain et des<lf>éléments géographiques près du Chasseur.<lf><COLOR preset="TXT_Accent">*Ajustable depuis l'écran titre.</COLOR>
 <string>Élevée
+<string>Moyenne
 <string>Basse
+<string>Très basse
 <string>Qualité du sable/de la neige
 <string>Régler la qualité de l'image pour le sable, la neige,<lf>et d'autres types de terrain.
 <string>Très élevée
@@ -998,12 +1003,14 @@
 <string>Moyenne
 <string>Basse
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Très basse
 <string>Distance de rendu
 <string>Modifie le nombre de joueurs ou personnages affichés dans les<lf>lobbys et la distance à laquelle les monstres et la faune locale<lf>apparaissent dans la nature. <COLOR preset="TXT_Accent">(Ajustable depuis l'écran titre.)</COLOR>
 <string>Afficher le nombre maximum d'objets,<lf>peu importe la distance du Chasseur.
 <string>Afficher la plupart des objets, y compris ceux<lf>qui se trouvent loin du Chasseur.
 <string>Afficher la plupart des objets assez proches<lf>du Chasseur.
 <string>Réduire la charge de rendu en affichant<lf>uniquement les objets situés à proximité du<lf>Chasseur.
+<string>Réduire la charge de rendu en affichant seulement<lf>les objets proches. De plus, les petits objets<lf>à l'écran ne sont pas rendus.
 <string>Qualité des ombres
 <string>Régler la qualité des ombres.
 <string>Très élevée
@@ -1015,6 +1022,7 @@
 <string>Régler la qualité des ombres affichées loin du Chasseur.
 <string>Élevée
 <string>Basse
+<string>Moyenne
 <string>Distance des ombres
 <string>Changer la distance (par rapport au Chasseur) à laquelle<lf>les ombres doivent être affichées sur les objets.
 <string>Longue
@@ -1025,6 +1033,7 @@
 <string>Élevée
 <string>Moyen
 <string>Basse
+<string>Très basse
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Régler la qualité de la brume produite par la<lf>poussière et les particules dans l'air. Affecte<lf>notamment l'affichage des rayons lumineux.
 <string>Élevée
 <string>Basse
+<string>Très élevée
+<string>Moyenne
+<string>Plutôt basse
+<string>Très basse
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1663,3 +1676,55 @@
 <string>Faible
 <string>Moyenne
 <string>Forte
+<string>Densité du feuillage
+<string>Ajuster la densité du feuillage affiché.
+<string>Élevée
+<string>Basse
+<string>
+<string>
+<string>Collision avec le feuillage et la neige
+<string>Afficher ou non des effets quand les chasseurs<lf>ou les monstres entrent en contact avec<lf>le feuillage ou la neige.
+<string>Oui
+<string>Non
+<string>Qualité des effets de terrain
+<string>Régler la qualité des effets affichés<lf>selon les caractéristiques du terrain.
+<string>Élevée
+<string>Moyenne
+<string>Basse
+<string>Qualité d'animation
+<string>Régler la qualité de diverses animations utilisées<lf>pour les chasseurs, les monstres et les Seikret.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Par défaut
+<string>Réduite
+<string>Qualité des effets
+<string>Régler la qualité de certains effets.
+<string>Élevée
+<string>Moyenne
+<string>Basse
+<string>Expressions faciales du personnage
+<string>Ajuster les expressions faciales et la synchronisation<lf>labiale dans certaines scènes.
+<string>Par défaut
+<string>Réduites
+<string>Effets d'humidité
+<string>Ajuster l'affichage des effets d'humidité<lf>lors du contact avec de l'eau ou de la boue.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Activer
+<string>Désactiver
+<string>Saut d'images (monstres)
+<string>Régler les paramètres de saut d'images pour les<lf>animations des monstres dans certaines scènes.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Oui
+<string>Non
+<string>Saut d'images (assistants)
+<string>Régler les paramètres de saut d'images pour les<lf>animations des assistants dans certaines scènes.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Oui
+<string>Non
+<string>Qualité des petits monstres
+<string>Régler la qualité de rendu des petits monstres<lf>pour les animations, les caractéristiques et les effets.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Par défaut
+<string>Réduite
+<string>Quantité de faune locale
+<string>Ajuster les réductions de traitement<lf>et le nombre d'animaux affichés.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Par défaut
+<string>Réduite
+<string>Qualité d'animation des décorations de fond
+<string>Régler la qualité de rendu des décorations<lf>d'arrière-plan.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Par défaut
+<string>Réduits

@@ -26,6 +26,7 @@
 <string>접근성
 <string>언어
 <string>프라이버시
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>결정 버튼 설정
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -959,6 +960,7 @@
 <string>중간
 <string>낮음
 <string>매우 낮음
+<string>간이 표시
 <string>초목 묘사 품질
 <string>초목의 묘사 품질을 설정합니다.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>바람에 흔들리는 물체 표현 관련 <lf>시뮬레이션 정밀도를 설정합니다.
 <string>높음
 <string>낮음
+<string>끄기
 <string>지면 묘사 품질
 <string>플레이어 근처에 있는 지면이나 지형이 변형됐을 때,<lf>지면 묘사 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다.)</COLOR>
 <string>높음
+<string>중간
 <string>낮음
+<string>매우 낮음
 <string>모래/눈 등 묘사 품질
 <string>모래, 눈 등의 묘사 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다.)</COLOR>
 <string>매우 높음
@@ -998,12 +1003,14 @@
 <string>중간
 <string>낮음
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>매우 낮음
 <string>컬링 거리 설정
 <string>로비에서 묘사되는 플레이어 수, 등장 캐릭터<lf>몬스터, 환경 생물 등 생물 전반의 표시를<lf>생략하는 거리를 설정합니다. <COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정 가능합니다)</COLOR>
 <string>먼 거리의 대상물 표시를 생략하지 않고<lf>최대한 묘사합니다.
 <string>먼 거리의 대상물 표시를 생략하지 않고<lf>묘사합니다.
 <string>표준적인 거리의 대상물 표시를<lf>생략하지 않고 묘사합니다.
 <string>근거리 대상물만 표시해<lf>묘사 처리 부하를 경감합니다.
+<string>근거리 대상물만 표시해 묘사 처리 부하를<lf>경감합니다. 또한, 화면에 표시되는<lf>작은 오브젝트의 묘사를 생략합니다.
 <string>그림자 묘사 품질
 <string>그림자 표현의 묘사 품질을 설정합니다.
 <string>매우 높음
@@ -1015,6 +1022,7 @@
 <string>먼 곳에서 표시되는 그림자 묘사 품질을 설정합니다.
 <string>높음
 <string>낮음
+<string>중간
 <string>물체의 그림자를 표시하는 거리 범위
 <string>플레이어 위치에서 어느 정도 거리에 있는 물체까지 <lf>그림자를 표시할지 설정합니다.
 <string>멂
@@ -1025,6 +1033,7 @@
 <string>높음
 <string>중간
 <string>낮음
+<string>매우 낮음
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>공기 중의 먼지나 입자에 의한 포그 품질을<lf>설정합니다. 빛의 대기 산란에 의한<lf>햇빛의 표현 등에 영향을 줍니다.
 <string>높음
 <string>낮음
+<string>매우 높음
+<string>중간
+<string>약간 낮음
+<string>매우 낮음
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>가변 레이트 셰이딩
-<string>픽셀 셰이더 처리를 거칠게 진행하여<lf>셰이더와 이펙트 묘사 부하를 경감시키는<lf>기능을 설정합니다.
+<string>픽셀 셰이더 처리를 거칠게 진행하여 셰이더와<lf>이펙트 묘사 부하를 경감시키는 기능을 설정합니다.<lf><COLOR preset="TXT_Accent">（「업스케일링」미사용 설정으로 변경 가능합니다）</COLOR>
 <string>끄기
 <string>균형
 <string>성능 우선
@@ -1663,3 +1676,55 @@
 <string>약함
 <string>중간(표준)
 <string>강함
+<string>초목 표시 밀도
+<string>표시되는 초목의 묘사 밀도를 설정합니다.
+<string>높음
+<string>낮음
+<string>
+<string>
+<string>초목, 눈 충돌 판정
+<string>헌터나 몬스터의 몸에 초목이나 눈에 닿았을 때<lf>해당 연출을 표현할지 설정합니다.
+<string>켜기
+<string>끄기
+<string>지형 기반 이펙트 묘사 정밀도
+<string>지면 모양을 따라 표시되는<lf>이펙트의 묘사 정밀도를 설정합니다.
+<string>높음
+<string>중간
+<string>낮음
+<string>애니메이션 품질
+<string>헌터나 몬스터, 세크레트 등에 사용되는<lf>다양한 애니메이션 표현 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>표준
+<string>감소
+<string>이펙트 표현
+<string>일부 이펙트 표시 품질을 설정합니다.
+<string>높음
+<string>중간
+<string>낮음
+<string>캐릭터 얼굴 표현
+<string>일부 장면에서 표시되는 캐릭터의 표정과<lf>립싱크 동작 여부를 설정합니다.
+<string>표준
+<string>경감
+<string>젖음 표현 설정
+<string>물이나 진흙에 젖었을 때<lf>해당 연출을 표현할지 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>활성화
+<string>비활성화
+<string>몬스터 프레임 건너뛰기 설정
+<string>특정 장면에서 몬스터 애니메이션<lf>프레임을 건너뛸지 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>켜기
+<string>끄기
+<string>편집자 프레임 건너뛰기 설정
+<string>특정 장면에서 편집자 애니메이션<lf>프레임을 건너뛸지 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>켜기
+<string>끄기
+<string>소형 몬스터 묘사 품질
+<string>소형 몬스터의 애니메이션, 개체차 표현, 물이나<lf>진흙에 젖었을 때의 묘사 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>표준
+<string>감소
+<string>환경생물 표시 수
+<string>환경생물의 처리 부하를 줄이거나,<lf>묘사되는 환경생물 수를 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>표준
+<string>감소
+<string>배경 장식의 흔들림 품질
+<string>배경 장식품이 흔들릴 때의<lf>표현 품질을 설정합니다.<lf><COLOR preset="TXT_Accent">(타이틀 옵션에서만 설정할 수 있습니다)</COLOR>
+<string>표준
+<string>감소

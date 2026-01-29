@@ -26,6 +26,7 @@
 <string>无障碍功能
 <string>语言
 <string>隐私
+<string>处理器
 <string><PLATMSG MsgGUI030100_01_42>
 <string>确定操作设置
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -959,6 +960,7 @@
 <string>中
 <string>低
 <string>最低
+<string>简易显示
 <string>植被品质
 <string>设置植被的渲染品质。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>设置与风吹动物体表现相关的风流体模拟精度。
 <string>高
 <string>低
+<string>关
 <string>地面品质
 <string>设置玩家附近地面或地形变形时的地面画质。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
 <string>高
+<string>中
 <string>低
+<string>最低
 <string>沙／雪品质
 <string>设置沙、雪等的渲染品质。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
 <string>最高
@@ -998,12 +1003,14 @@
 <string>中
 <string>低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>最低
 <string>渲染消隐距离
 <string>设置所有生物的显示距离，如大厅中的玩家、NPC、怪物、<lf>环境生物等。超出距离的生物将不会显示。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
 <string>不忽略更远距离的生物，进行最大程度的渲染。
 <string>不忽略远距离的生物，并渲染至该范围。
 <string>不忽略标准距离的生物，并渲染至该范围。
 <string>只显示近距离的生物，减少渲染负荷。
+<string>只显示近距离的生物，减少渲染负荷。<lf>此外，也不会不渲染画面上的小型物体。
 <string>光影品质
 <string>设置光影表现的渲染品质。
 <string>最高
@@ -1015,6 +1022,7 @@
 <string>设置远景的光影画质。
 <string>高
 <string>低
+<string>中
 <string>物体光影显示范围
 <string>设置可见范围内多远的物体会显示影子。<lf>距离由角色开始计算。
 <string>远
@@ -1025,6 +1033,7 @@
 <string>高
 <string>中
 <string>低
+<string>最低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>调整因空气中的灰尘和粒子产生的雾效的质量。<lf>会影响光在大气中散射所产生的阳光效果等。
 <string>高
 <string>低
+<string>最高
+<string>中
+<string>较低
+<string>最低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1663,3 +1676,55 @@
 <string>弱
 <string>中（标准）
 <string>强
+<string>植被密度
+<string>设置显示植被的密度。
+<string>高
+<string>低
+<string>
+<string>
+<string>植被与雪的碰撞判定
+<string>设置猎人或怪物的身体接触植被或雪时是否显示效果。
+<string>开
+<string>关
+<string>地形贴合特效渲染精度
+<string>设置贴合地面显示的特效的渲染精度。
+<string>高
+<string>中
+<string>低
+<string>动画质量
+<string>设置用于猎人、怪物、鹭鹰龙等各种动画的质量。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>标准
+<string>简化
+<string>特效表现
+<string>设置部分特效的品质。
+<string>高
+<string>中
+<string>低
+<string>角色面部效果
+<string>设置角色在部分场景中的表情与口型同步效果。
+<string>标准
+<string>简化
+<string>水浸效果设置
+<string>设置是否开启被水或泥浸湿时的特效。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>启用
+<string>停用
+<string>怪物跳帧设置
+<string>设置怪物在部分场景中的动画是否进行跳帧处理。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>开
+<string>关
+<string>编辑者跳帧设置
+<string>设置编辑者在部分场景中的动画是否进行跳帧处理。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>开
+<string>关
+<string>小型怪物渲染品质
+<string>设置小型怪物的动画、个体差异表现、被水或泥浸湿等情况的<lf>渲染质量。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>标准
+<string>简化
+<string>环境生物显示数
+<string>设置环境生物相关性能的负荷及渲染环境生物的数量。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>标准
+<string>简化
+<string>背景装饰摇曳品质
+<string>设置背景装饰品在摇曳摆动时的效果品质。<lf><COLOR preset="TXT_Accent">（仅可在标题画面的设置菜单中变更）</COLOR>
+<string>标准
+<string>简化

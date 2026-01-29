@@ -26,6 +26,7 @@
 <string>ACCESSIBILITY
 <string>LANGUAGE
 <string>PRIVACY
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>決定ボタンの設定
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -959,6 +960,7 @@
 <string>中
 <string>低
 <string>最低
+<string>簡易表示
 <string>草木の描画品質
 <string>草木の描画品質を設定します。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>風によって揺れる物体の表現に関わる<lf>風の流体シミュレーション精度を設定します。
 <string>高
 <string>低
+<string>OFF
 <string>地面の描画品質
 <string>プレイヤーから近い位置にある地面や<lf>地形が変形した際の地面の描画品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
 <string>高
+<string>中
 <string>低
+<string>最低
 <string>砂・雪などの描画品質
 <string>砂、雪などの描画品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
 <string>最高
@@ -998,12 +1003,14 @@
 <string>中
 <string>低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>最低
 <string>カリング距離の設定
 <string>ロビーで描画されるプレイヤーの人数や登場キャラクター、<lf>モンスター、環境生物など生物全般の表示を省略する距離を<lf>設定します。<COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
 <string>より遠距離まで対象物の表示を省略せず<lf>最大限の描画を行います。
 <string>遠距離まで対象物の表示を省略せずに描画します。
 <string>標準的な距離まで対象物の表示を<lf>省略せずに描画します。
 <string>近距離の対象物のみ表示することで<lf>描画処理を軽くします。
+<string>近距離の対象物のみを表示することで<lf>描画処理を軽くします。加えて、画面上の<lf>小さなオブジェクトの描画を省略します。
 <string>影の描画品質
 <string>影表現の描画品質を設定します。
 <string>最高
@@ -1015,6 +1022,7 @@
 <string>遠景で表示される影の描画品質を設定します。
 <string>高
 <string>低
+<string>中
 <string>物体の影を表示する距離範囲
 <string>プレイヤーから見て、どの程度の距離にある<lf>物体にまで影を表示するかを設定します。
 <string>遠
@@ -1025,6 +1033,7 @@
 <string>高
 <string>中
 <string>低
+<string>最低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>空気中の塵や粒子によるフォグの品質を設定します。<lf>光の大気散乱による日差しの表現などに影響します。
 <string>高
 <string>低
+<string>最高
+<string>中
+<string>やや低
+<string>最低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>可変レートシェーディング
-<string>ピクセルシェーダーの処理を粗く行うことで、シェーダーと<lf>エフェクトの描画負荷を軽減させる機能を設定します。
+<string>ピクセルシェーダーの処理を粗く行うことで、シェーダーと<lf>エフェクトの描画負荷を軽減させる機能を設定します。<lf><COLOR preset="TXT_Accent">（「アップスケーリング」未使用時のみ設定変更可能です）</COLOR>
 <string>OFF
 <string>バランス
 <string>パフォーマンス
@@ -1663,3 +1676,55 @@
 <string>弱
 <string>中（標準）
 <string>強
+<string>草木の表示密度
+<string>表示される草木の描画密度を設定します。
+<string>高
+<string>低
+<string>中
+<string>最低
+<string>草木や雪への衝突判定
+<string>ハンターやモンスターの身体が、草木や雪に<lf>触れた際の表現の有無を設定します。
+<string>ON
+<string>OFF
+<string>地形準拠のエフェクト描画精度
+<string>地面の形状に沿って表示されるエフェクトの<lf>描画精度を設定します。
+<string>高
+<string>中
+<string>低
+<string>アニメーションの品質
+<string>ハンターやモンスター、セクレトなどに使用されている<lf>様々なアニメーション表現の品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>標準
+<string>軽減
+<string>エフェクト表現
+<string>一部のエフェクト表示の品質を設定します。
+<string>高
+<string>中
+<string>低
+<string>キャラクターのフェイシャル表現
+<string>一部のシーンにおけるキャラクターの表情や<lf>リップシンクの動作を設定します。
+<string>標準
+<string>軽減
+<string>水濡れ表現の設定
+<string>水や泥に濡れた際の<lf>表現有無を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>有効
+<string>無効
+<string>モンスターのフレームスキップ設定
+<string>特定シーンにおける、モンスターのアニメーションの<lf>フレームスキップを設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>ON
+<string>OFF
+<string>編纂者のフレームスキップ設定
+<string>特定シーンにおける、編纂者のアニメーションの<lf>フレームスキップを設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>ON
+<string>OFF
+<string>小型モンスターの描画品質
+<string>小型モンスターのアニメーション、個体差の表現、<lf>水や泥に濡れた際などの描画品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>標準
+<string>軽減
+<string>環境生物の表示数
+<string>環境生物の様々な処理の削減や<lf>描画される環境生物の数を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>標準
+<string>軽減
+<string>背景装飾の揺れの品質
+<string>背景の装飾品が揺れる際の<lf>表現品質を設定します。<lf><COLOR preset="TXT_Accent">（タイトルオプションでのみ設定可能です）</COLOR>
+<string>標準
+<string>軽減

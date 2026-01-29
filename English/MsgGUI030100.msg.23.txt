@@ -26,6 +26,7 @@
 <string>Accessibility
 <string>Language
 <string>PRIVACY
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Confirm Button
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -126,9 +127,9 @@
 <string>Seikret-only Route Controls
 <string>Adjusts the controls for exiting routes that<lf>are only accessible by Seikret.
 <string>Type 1
-<string>Tilting <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> while moving at top speed exits<lf>the Seikret-only route.
+<string>Using <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> while moving at top speed exits<lf>the Seikret-only route.
 <string>Type 2
-<string>Tilting <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> then pressing <ICON PL_INTERACT_ACTION_START> exits the Seikret-<lf>only route, no matter your current speed.
+<string>Using <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> then pressing <ICON PL_INTERACT_ACTION_START> exits the Seikret-<lf>only route, no matter your current speed.
 <string>Item Bar Display
 <string>Adjusts how items display when using<lf>the Item Bar during Aim Mode.
 <string>Type 1
@@ -769,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Adjusts the brightness of your screen.
 <string>Performance Settings
-<string>Adjusts graphical features related to gameplay.<lf><COLOR preset="TXT_Accent">(Adjustable from Title Options.)</COLOR>
+<string>Adjusts graphical features related to gameplay.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>Adjusts graphical features related to gameplay.
 <string>Prioritize Resolution
 <string>Configure settings to prioritize resolution<lf>instead of frame rate. Graphics will appear<lf>in higher definition.
@@ -959,6 +960,7 @@
 <string>Medium
 <string>Low
 <string>Lowest
+<string>Simplified Display
 <string>Grass/Tree Quality
 <string>Adjusts the image quality for the grass and trees.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>Adjusts the precision of simulated wind effects<lf>for in-game objects.
 <string>High
 <string>Low
+<string>Off
 <string>Surface Quality
-<string>Adjusts rendering quality of terrain and geographical<lf>features in close proximity to the Hunter.<lf><COLOR preset="TXT_Accent">(Adjustable from Title Options.)</COLOR>
+<string>Adjusts rendering quality of terrain and geographical<lf>features in close proximity to the Hunter.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>High
+<string>Medium
 <string>Low
+<string>Lowest
 <string>Sand/Snow Quality
 <string>Adjusts the image quality for sand, snow,<lf>and other types of terrain.
 <string>Highest
@@ -998,12 +1003,14 @@
 <string>Medium
 <string>Low
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Lowest
 <string>Render Distance
-<string>Adjusts the number of players or characters displayed<lf>in lobbies and the distance monsters and endemic life<lf>will display in the field. <COLOR preset="TXT_Accent">(Adjustable from Title Options.)</COLOR>
+<string>Adjusts the number of players or characters displayed<lf>in lobbies and the distance monsters and endemic life<lf>will display in the field. <COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>Renders the maximum number of objects<lf>regardless of the distance from the Hunter.
 <string>Renders most objects including those far away<lf>from the Hunter.
 <string>Renders most objects within medium proximity<lf>of the Hunter.
 <string>Reduces the rendering load by only displaying <lf>objects within close proximity of the Hunter.
+<string>Reduces rendering load by displaying only<lf>nearby objects. Additionally, small objects<lf>on-screen are not rendered.
 <string>Shadow Quality
 <string>Adjusts the quality of shadows.
 <string>Highest
@@ -1015,6 +1022,7 @@
 <string>Adjusts the quality of shadows far away from the Hunter.
 <string>High
 <string>Low
+<string>Medium
 <string>Shadow Distance
 <string>Adjusts the distance (from the Hunter) for which<lf>shadows are rendered by objects in the game.
 <string>Far
@@ -1025,6 +1033,7 @@
 <string>High
 <string>Medium
 <string>Low
+<string>Lowest
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Adjusts the quality of fog produced by dust and<lf>particles in the air. Affects how beams of light<lf>and such are displayed.
 <string>High
 <string>Low
+<string>Highest
+<string>Medium
+<string>Somewhat Low
+<string>Lowest
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Variable Rate Shading
-<string>Reduces effect and shader rendering load by processing<lf>pixel shaders less evenly.
+<string>Reduces effect and shader rendering load by processing<lf>pixel shaders less evenly.<lf><COLOR preset="TXT_Accent">(This can only be adjusted if Upscaling is not enabled.)</COLOR>
 <string>Off
 <string>Balanced
 <string>Performance
@@ -1663,3 +1676,55 @@
 <string>Weak
 <string>Medium (Normal)
 <string>Strong
+<string>Foliage Density
+<string>Adjusts the density of displayed foliage.
+<string>High
+<string>Low
+<string>
+<string>
+<string>Foliage and Snow Collision
+<string>Adjusts whether effects are displayed when<lf>hunters or monsters come into contact with<lf>foliage or snow.
+<string>On
+<string>Off
+<string>Terrain-Based Effect Quality
+<string>Adjusts the quality of effects displayed<lf>along terrain surfaces.
+<string>High
+<string>Medium
+<string>Low
+<string>Animation Quality
+<string>Adjusts the quality of various animations<lf>used for hunters, monsters, and Seikret.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
+<string>Default
+<string>Reduced
+<string>Effect Quality
+<string>Adjusts the quality of certain effects.
+<string>High
+<string>Medium
+<string>Low
+<string>Character Facial Expressions
+<string>Adjusts character facial expressions and lip-sync<lf>in certain scenes.
+<string>Default
+<string>Reduced
+<string>Wet Surface Effects
+<string>Adjusts the display of wetness effects<lf>when in contact with water or mud.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
+<string>Enable
+<string>Disable
+<string>Monster Frame Skip
+<string>Adjusts frame skip settings for monster<lf>animations in some scenes.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)
+<string>On
+<string>Off
+<string>Handler Frame Skip
+<string>Adjusts frame skip settings for handler<lf>animations in some scenes.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)
+<string>On
+<string>Off
+<string>Small Monster Quality
+<string>Adjusts small monster rendering quality<lf>for animations, unique traits, and effects.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
+<string>Default
+<string>Reduced
+<string>Endemic Life Display Count
+<string>Adjusts processing reductions and the number<lf>of endemic life rendered.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)
+<string>Default
+<string>Reduced
+<string>Background Decoration Motion Quality
+<string>Adjusts the rendering quality of background<lf>decorations.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
+<string>Default
+<string>Reduced

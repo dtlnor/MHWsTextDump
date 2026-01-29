@@ -26,6 +26,7 @@
 <string>Barrierefreiheit
 <string>Sprache
 <string>DATENSCHUTZ
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Bestätigungstaste
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -769,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Passe die Bildschirmhelligkeit an.
 <string>Leistungseinstellung
-<string>Lege die Priorität der Grafikleistung für das<lf>Gameplay fest.<lf>(Nur in den Optionen des Hauptmenüs anpassbar.)
+<string>Lege die Priorität der Grafikleistung für das<lf>Gameplay fest.<lf>(Nur übers Hauptmenü einstellbar.)
 <string>Lege die Priorität der Grafikleistung für das<lf>Gameplay fest.
 <string>Auflösung priorisieren
 <string>Die Bildschirmauflösung hat Priorität.<lf>Die Grafik wird mit bestmöglicher Auflösung<lf>dargestellt.
@@ -880,7 +881,7 @@
 <string>NVIDIA DLSS Auto
 <string>Durch Aktivieren dieser Funktion wird die<lf>Frame-Generierung je nach CPU- und GPU-<lf>Last automatisch auf „Aus“ oder „2x“ ein-<lf>gestellt.<lf><COLOR preset="TXT_Accent">(Diese Einstellung ist nur bei Grafikkarten<lf>der NVIDIA GeForce RTX 4000-Serie oder<lf>darüber verfügbar.)</COLOR>
 <string>Hochskalierungsmodus
-<string>Passe die Grafikqualität beim Hochskalieren an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren aktiviert ist.)</COLOR>
+<string>Passe die Grafikqualität beim Hochskalieren an.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn Hochskalieren aktiviert ist.)</COLOR>
 <string>NVIDIA DLAA
 <string>Nutzt KI-Anti-Aliasing, wobei die native<lf>Auflösung beibehalten wird.
 <string>AMD Nativ AA
@@ -900,12 +901,12 @@
 <string>Schärfe der Hochskalierung
 <string>Passe den grafischen Detailgrad beim Hochskalieren an.<lf>Je höher die Zahl ist, desto höher der Detailgrad.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn AMD FSR aktiviert ist.)</COLOR>
 <string>Anti-Aliasing
-<string>Passe den Anti-Aliasing-Modus an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
+<string>Passe den Anti-Aliasing-Modus an.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn Hochskalieren deaktiviert ist.)</COLOR>
 <string>FXAA + TAA
 <string>TAA
 <string>Aus
 <string>Render-Skalierung
-<string>Passe den Prozentsatz der Render-Skalierung an.<lf><COLOR preset="TXT_Accent">(Die Anpassung kann nur vorgenommen werden,<lf>wenn Hochskalieren nicht aktiviert ist.)</COLOR>
+<string>Passe den Prozentsatz der Render-Skalierung an.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn Hochskalieren deaktiviert ist.)</COLOR>
 <string>Passe den Prozentsatz der Render-Skalierung an.<lf><COLOR preset="TXT_Accent">(Dies ist nur unter bestimmten Voraussetzungen<lf>verfügbar.)</COLOR>
 <string>Raytracing
 <string>Passt die Qualität von Lichtreflexion durch<lf>Raytracing-Technologie an.
@@ -944,7 +945,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_12_04
 <string>Qualität von Fellen
-<string>Passe die Bildqualität der Felldarstellung von<lf>Kreaturen an, Palicos eingeschlossen.
+<string>Passe die Bildqualität für das Fell von Kreaturen an,<lf>Palicos eingeschlossen.
 <string>Hoch
 <string>Niedrig
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13
@@ -952,21 +953,22 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_00
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_01
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_13_02
-<string>Qualität Himmel/Wolken
+<string>Qualität von Himmel/Wolken
 <string>Passe die Bildqualität für Himmel und Wolken an.
 <string>Maximal
 <string>Hoch
 <string>Mittel
 <string>Niedrig
 <string>Minimal
-<string>Qualität Gras/Bäume
+<string>Vereinfachte Darstellung
+<string>Qualität der Vegetation
 <string>Passe die Bildqualität für Gras und Bäume an.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
 <string>Hoch
 <string>Mittel
 <string>Niedrig
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_04
-<string>Bewegung von Gras/Bäumen
+<string>Bewegung der Vegetation
 <string>Lege fest, ob sich Gras und Bäume bewegen sollen.
 <string>Aktiviert
 <string>Gras und Bäume bewegen sich.
@@ -976,11 +978,14 @@
 <string>Passe an, mit welcher Qualität die simulierten<lf>Windeffekte dargestellt werden.
 <string>Hoch
 <string>Niedrig
+<string>Aus
 <string>Qualität von Oberflächen
 <string>Passe an, mit welcher Qualität die Umgebung und<lf>geografische Merkmale in der Nähe des Charakters<lf>dargestellt werden. <COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
 <string>Hoch
+<string>Mittel
 <string>Niedrig
-<string>Sand-/Schnee-Qualität
+<string>Minimal
+<string>Qualität von Sand/Schnee
 <string>Passe die Bildqualität für Sand, Schnee<lf>und andere Geländearten an.
 <string>Maximal
 <string>Hoch
@@ -998,12 +1003,14 @@
 <string>Mittel
 <string>Niedrig
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Minimal
 <string>Renderdistanz
-<string>Passe die Anzahl an Spielern oder Charakteren an, die in Lobbys<lf>angezeigt werden, sowie die Entfernung, in der Monster und<lf>einheimische Wesen zu sehen sind. <COLOR preset="TXT_Accent">(Über die Hauptmenü-Optionen.)</COLOR>
+<string>Passe an, bis zu welcher Entfernung Charaktere,<lf>Monster,  Wesen usw. auf dem Bildschirm gerendert<lf>werden. <COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
 <string>Rendert die maximale Anzahl an Objekten,<lf>unabhängig von der Entfernung zum Jäger.
 <string>Rendert die meisten Objekte, einschließlich<lf>derjenigen, die weit vom Jäger entfernt sind.
 <string>Rendert die meisten Objekte in mittlerer<lf>Entfernung vom Jäger.
 <string>Verringert die Renderlast, indem nur Objekte<lf>angezeigt werden, die sich in unmittelbarer<lf>Nähe des Jägers befinden.
+<string>Verringert die Renderlast, indem nur Objekte<lf>in der Nähe angezeigt werden. Außerdem werden<lf>kleine Bildschirmobjekte nicht gerendert.
 <string>Schattenqualität
 <string>Passe die Schattenqualität an.
 <string>Maximal
@@ -1011,12 +1018,13 @@
 <string>Mittel
 <string>Niedrig
 <string>Minimal
-<string>Qualität von entfernten Schatten
+<string>Qualität entfernter Schatten
 <string>Passe die Qualität der Schatten an, die sich<lf>weit entfernt vom Charakter befinden.
 <string>Hoch
 <string>Niedrig
+<string>Mittel
 <string>Schattenentfernung
-<string>Passe die Entfernung (vom Charakter) ein, in der<lf>Schatten von Objekten im Spiel gerendert werden.
+<string>Passe an, bis zu welcher Entfernung vom Charakter<lf>Schatten von Objekten gerendert werden sollen.
 <string>Weit
 <string>Mittel
 <string>Nah
@@ -1025,6 +1033,7 @@
 <string>Hoch
 <string>Mittel
 <string>Niedrig
+<string>Minimal
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Passe die Qualität des Nebels an, der durch Staub<lf>und andere Luftpartikel verursacht wird.<lf>Beeinflusst u. a. die Darstellung von Lichtstrahlen.
 <string>Hoch
 <string>Niedrig
+<string>Maximal
+<string>Mittel
+<string>Niedriger
+<string>Minimal
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Variable Rate Shading
-<string>Verringert die Rendering-Last durch Effekte und<lf>Shader, indem Pixel-Shader weniger gleichmäßig<lf>verarbeitet werden.
+<string>Verringert die Rendering-Last durch weniger gleich-<lf>mäßige Verarbeitung von Pixel-Shadern.<lf><COLOR preset="TXT_Accent">(Nur anpassbar, wenn Hochskalieren aktiviert ist.)</COLOR>
 <string>Aus
 <string>Ausgeglichen
 <string>Leistung
@@ -1663,3 +1676,55 @@
 <string>Schwach
 <string>Mittel (Normal)
 <string>Stark
+<string>Vegetationsdichte
+<string>Lege die Dichte der Vegetation fest.
+<string>Hoch
+<string>Niedrig
+<string>
+<string>
+<string>Vegetations- und Schneekollision
+<string>Lege fest, ob Effekte angezeigt werden sollen,<lf>wenn Charaktere oder Monster Pflanzen oder<lf>Schnee berühren.
+<string>An
+<string>Aus
+<string>Geländebasierte Effektqualität
+<string>Lege die Qualität der Effekte auf Bodenoberflächen<lf>fest.
+<string>Hoch
+<string>Mittel
+<string>Niedrig
+<string>Animationsqualität
+<string>Lege die Qualität verschiedener Animationen<lf>für Jäger, Monster, Saikrii usw. fest.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>Standard
+<string>Reduziert
+<string>Effektqualität
+<string>Lege die Qualität bestimmter Effekte fest.
+<string>Hoch
+<string>Mittel
+<string>Niedrig
+<string>Mimik
+<string>Lege fest, wie umfangreich Mimik und wie akkurat<lf>Lippensynchronizität von Charakteren in bestimmten<lf>Szenen sind.
+<string>Standard
+<string>Reduziert
+<string>Effekte bei Nässe
+<string>Lege fest, ob bei Kontakt mit Wasser, Schlamm usw.<lf>Nässeeffekte angezeigt werden.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>Aktiviert
+<string>Deaktiviert
+<string>Monster-Frames überspringen
+<string>Lege fest, ob in bestimmten Szenen Frames von<lf>Monster-Animationen übersprungen werden dürfen.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>An
+<string>Aus
+<string>Feldexperten-Frames überspringen
+<string>Lege fest, ob in bestimmten Szenen Frames von<lf>Feldexperten-Animationen übersprungen werden dürfen.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>An
+<string>Aus
+<string>Qualität kleiner Monster
+<string>Lege die Renderqualität von Animationen, Effekten<lf>und einzigartigen Merkmalen kleiner Monster fest.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>Standard
+<string>Reduziert
+<string>Menge angez. einheimischer Wesen
+<string>Lege fest, wie einheimische Wesen verarbeitet und wie<lf>viele von ihnen gerendert werden.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>Standard
+<string>Reduziert
+<string>Qualität von Hintergrunddekoration
+<string>Lege die Darstellungsqualität sich bewegender<lf>Hintergrunddekorationen fest.<lf><COLOR preset="TXT_Accent">(Nur übers Hauptmenü einstellbar.)</COLOR>
+<string>Standard
+<string>Reduziert

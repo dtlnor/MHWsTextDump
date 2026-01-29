@@ -26,6 +26,7 @@
 <string>Dostępność
 <string>Język
 <string>Prywatność
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Przycisk potwierdzenia
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -959,6 +960,7 @@
 <string>Średnia
 <string>Niska
 <string>Najniższa
+<string>Uproszczone wyświetlanie
 <string>Jakość drzew/trawy
 <string>Dostosowuje jakość obrazu dla trawy i drzew.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>Ustawia precyzję symulowanych efektów wiatru<lf>dla obiektów w grze.
 <string>Wysoka
 <string>Niska
+<string>Wył.
 <string>Jakość powierzchni
 <string>Ustawia jakość renderowania powierzchni terenu <lf>i obiektów geograficznych w pobliżu łowcy.
 <string>Wysoka
+<string>Średnia
 <string>Niska
+<string>Najniższa
 <string>Jakość piasku/śniegu/wody
 <string>Dostosowuje jakość obrazu dla piasku, śniegu, wody<lf>i innych typów terenu.
 <string>Najwyższa
@@ -998,12 +1003,14 @@
 <string>Średnia
 <string>Niska
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Najniższa
 <string>Odległość renderowania
 <string>Dostosowuje liczbę graczy lub postaci wyświetlanych<lf>w lobby oraz odległość, z jakiej potwory i lokalna<lf>fauna będą pojawiać się w terenie.
 <string>Renderuje maksymalną liczbę obiektów<lf>niezależnie od odległości od łowcy.
 <string>Renderuje większość obiektów, łącznie z tymi<lf>daleko od łowcy.
 <string>Renderuje większość obiektów w średniej<lf>odległości od łowcy.
 <string>Zmniejsza obciążenie renderowania i wyświetla<lf>jedynie obiekty w bliskiej odległości od łowcy.
+<string>Zmniejsza obciążenie renderowania przez<lf>wyświetlanie jedynie najbliższych obiektów.<lf>Dodatkowo na ekranie nie są renderowane<lf>małe obiekty.
 <string>Jakość cieni
 <string>Dostosowuje jakość cieni.
 <string>Najwyższa
@@ -1015,6 +1022,7 @@
 <string>Ustawia jakość cieni będących daleko od łowcy.
 <string>Wysoka
 <string>Niska
+<string>Średnia
 <string>Odległość cieni
 <string>Ustawia odległość (od łowcy), w jakiej obiekty <lf>w grze renderują cienie.
 <string>Daleko
@@ -1025,6 +1033,7 @@
 <string>Wysoka
 <string>Średnia
 <string>Niska
+<string>Najniższa
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Dostosowuje jakość mgły wytwarzanej przez kurz<lf>i drobiny pyłu w powietrzu. Wpływa na sposób<lf>wyświetlania promieni światła itp.
 <string>Wysoka
 <string>Niska
+<string>Najwyższa
+<string>Średnia
+<string>Dość niska
+<string>Najniższa
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1663,3 +1676,55 @@
 <string>Słabe
 <string>Średnie (Normalne)
 <string>Silne
+<string>Gęstość listowia
+<string>Dostosowuje gęstość wyświetlanego listowia.
+<string>Wysoka
+<string>Niska
+<string>
+<string>
+<string>Kolizja listowia i śniegu
+<string>Ustawia, czy efekty będą wyświetlane,<lf>kiedy łowcy lub potwory wejdą w kontakt<lf>z listowiem lub śniegiem.
+<string>Wł.
+<string>Wył.
+<string>Jakość efektów związanych z terenem
+<string>Dostosowuje jakość efektów wyświetlanych<lf>wzdłuż powierzchni terenu.
+<string>Wysoka
+<string>Średnia
+<string>Niska
+<string>Jakość animacji
+<string>Dostosowuje jakość różnych animacji<lf>łowców, potworów i Seikretów.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Domyślna
+<string>Obniżona
+<string>Jakość efektów
+<string>Dostosowuje jakość efektów.
+<string>Wysoka
+<string>Średnia
+<string>Niska
+<string>Mimika postaci
+<string>Dostosowuje, czy włączyć mimikę<lf>i synchronizację ruchu warg<lf>w niektórych scenach.
+<string>Domyślnie
+<string>Obniżona
+<string>Efekty mokrych powierzchni
+<string>Dostosowuje wyświetlanie efektów wilgoci<lf>w przypadku kontaktu z wodą lub błotem.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Włącz
+<string>Wyłącz
+<string>Pomijanie klatek: potwory
+<string>Dostosowuje ustawienia pomijania klatek<lf>w animacjach potworów w niektórych scenach.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Wł.
+<string>Wył.
+<string>Pomijanie klatek: przewodnik
+<string>Dostosowuje ustawienia pomijania klatek<lf>w animacjach przewodnika w niektórych scenach.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Wł.
+<string>Wył.
+<string>Jakość małych potworów
+<string>Dostosowuje jakość renderowania małych potworów<lf>w animacjach, unikalnych cechach i efektach.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Domyślna
+<string>Obniżona
+<string>Ilość wyświetlanej lokalnej fauny
+<string>Dostosowuje zmniejszenie przetwarzania oraz ilość<lf>lokalnej fauny wyświetlanej z daleka.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).
+<string>Domyślna
+<string>Obniżona
+<string>Jakość ruchu broni i dekoracji
+<string>Dostosowuje jakość renderowania ruchu broni<lf>i dekoracji w tle.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Domyślna
+<string>Obniżona

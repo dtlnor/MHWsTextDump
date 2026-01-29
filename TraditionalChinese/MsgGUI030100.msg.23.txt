@@ -26,6 +26,7 @@
 <string>無障礙
 <string>語言
 <string>隱私
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>確認按鈕設定
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -808,7 +809,7 @@
 <string>NVIDIA Reflex 低延遲模式
 <string>設定是否使用降低系統延遲，提升遊戲反應速度的功能。<lf><COLOR preset="TXT_Accent">（僅可於使用支援的顯示卡時啟用此設定）</COLOR>
 <string>啟用
-<string>使用NVIDIA Reflex。<COLOR preset="TXT_Accent">（當「圖形」的「幀生成」設為<lf>啟用時，將自動套用此設定）</COLOR>
+<string>使用NVIDIA Reflex。<COLOR preset="TXT_Accent">（當「圖形」的「畫格生成」設為<lf>啟用時，將自動套用此設定）</COLOR>
 <string>啟用＋加速
 <string>使用NVIDIA Reflex，並且將GPU時脈速度維持在<lf>上限。
 <string>停用
@@ -959,6 +960,7 @@
 <string>中
 <string>低
 <string>最低
+<string>簡易顯示
 <string>植物渲染品質
 <string>設定植物渲染品質。
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>設定風的流體模擬精度，改變物件受風吹時搖動的動作。
 <string>高
 <string>低
+<string>關
 <string>地面渲染品質
 <string>設定角色附近地面和地形變化時的地面渲染品質。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
 <string>高
+<string>中
 <string>低
+<string>最低
 <string>沙、雪渲染品質
 <string>設定沙、雪等的渲染品質。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
 <string>最高
@@ -998,12 +1003,14 @@
 <string>中
 <string>低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>最低
 <string>渲染剔除距離
 <string>設定指定距離，超出此距離的各種生物的渲染會被省略，<lf>不在畫面上顯示。生物包括魔物、環境生物、非玩家角色和<lf>大廳裡的玩家角色。<COLOR preset="TXT_Accent">（僅可於標題畫面的設定選單變更）</COLOR>
 <string>不省略更遠距離的生物，渲染至極限。
 <string>不省略遠距離的生物，並渲染至該範圍。
 <string>不省略標準距離的生物，並渲染至該範圍。
 <string>只顯示近距離的生物，減少渲染負荷。
+<string>只顯示近距離的生物，減少渲染負荷，並省略畫面上的<lf>小型物件渲染。
 <string>陰影渲染品質
 <string>設定陰影的渲染品質。
 <string>最高
@@ -1015,6 +1022,7 @@
 <string>設定遠景的陰影渲染品質。
 <string>高
 <string>低
+<string>中
 <string>物件光影顯示範圍
 <string>設定要顯示哪個範圍內的物件的陰影，距離由角色開始計算。
 <string>遠
@@ -1025,6 +1033,7 @@
 <string>高
 <string>中
 <string>低
+<string>最低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>設定空氣中的塵埃與粒子形成的霧氣品質。<lf>會影響陽光等光線在大氣散射時的顯示效果。
 <string>高
 <string>低
+<string>最高
+<string>中
+<string>略低
+<string>最低
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1663,3 +1676,55 @@
 <string>弱
 <string>中（標準）
 <string>強
+<string>植物顯示密度
+<string>設定植物的渲染密度。
+<string>高
+<string>低
+<string>
+<string>
+<string>植物與雪的碰撞判定
+<string>設定獵人與魔物的身體與植物及雪碰撞時是否顯示效果。
+<string>開
+<string>關
+<string>地形貼合效果渲染精度
+<string>設定貼合地形顯示的視覺效果的渲染精度。
+<string>高
+<string>中
+<string>低
+<string>動畫品質
+<string>設定獵人、魔物與鷺鷹龍等的各種動畫的品質。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>標準
+<string>簡化
+<string>特效品質
+<string>設定部分特效的品質。
+<string>高
+<string>中
+<string>低
+<string>角色臉部效果
+<string>設定是否顯示部分動畫中角色的表情與嘴型動作。
+<string>標準
+<string>減少
+<string>水浸效果設定
+<string>設定是否顯示被水或泥沾濕時的特效。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>啟用
+<string>停用
+<string>魔物跳幀設定
+<string>設定於特定場景中魔物動畫是否跳幀。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>開
+<string>關
+<string>編輯者跳幀設定
+<string>設定於特定場景中編輯者動畫是否跳幀。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>開
+<string>關
+<string>小型魔物渲染品質
+<string>設定小型魔物的動畫、個體差異效果、被水或泥沾濕<lf>等情況的渲染品質。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>標準
+<string>簡化
+<string>環境生物顯示數
+<string>設定環境生物的各種處理簡化與渲染數量。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>標準
+<string>簡化
+<string>背景裝飾搖曳品質
+<string>設定背景裝飾品搖曳時的效果品質。<lf><COLOR preset="TXT_Accent">（只可於標題畫面的設定選單變更）</COLOR>
+<string>標準
+<string>簡化

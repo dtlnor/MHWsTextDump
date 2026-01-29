@@ -26,6 +26,7 @@
 <string>Accessibilità
 <string>Lingua
 <string>PRIVACY
+<string>CPU
 <string><PLATMSG MsgGUI030100_01_42>
 <string>Comando di conferma
 <string><PLATMSG MsgGUI030100_01_42_HELP>
@@ -126,9 +127,9 @@
 <string>Comandi percorso riservato al Seikret
 <string>Modifica i comandi per uscire dai percorsi<lf>accessibili solo al Seikret.
 <string>Tipo 1
-<string>Inclinare <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mentre vai al massimo della<lf>velocità ti permette di uscire dal<lf>percorso riservato al Seikret.
+<string>Usare <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> mentre vai al massimo della<lf>velocità ti permette di uscire dal<lf>percorso riservato al Seikret.
 <string>Tipo 2
-<string>Inclinare <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> e premere <ICON PL_INTERACT_ACTION_START> ti permette<lf>di uscire dal percorso riservato al Seikret<lf>a prescindere dalla velocità.
+<string>Usare <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> e premere <ICON PL_INTERACT_ACTION_START> ti permette<lf>di uscire dal percorso riservato al Seikret<lf>a prescindere dalla velocità.
 <string>Visualizzazione barra oggetti
 <string>Regola la visualizzazione degli oggetti<lf>quando viene utilizzata la barra oggetti<lf>in modalità mira.
 <string>Tipo 1
@@ -769,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Regola la luminosità del tuo schermo.
 <string>Prestazioni
-<string>Regola le impostazioni grafiche.<lf><COLOR preset="TXT_Accent">(Modificabile dal menu delle opzioni principale.)</COLOR>
+<string>Regola le impostazioni grafiche.<lf><COLOR preset="TXT_Accent">(Modificabile solo dal menu delle opzioni principale.)</COLOR>
 <string>Regola le impostazioni grafiche relative al gioco.
 <string>Priorità alla risoluzione
 <string>Configura le impostazioni per dare la priorità<lf>alla risoluzione invece che al frame rate.<lf>La grafica avrà una maggiore definizione.
@@ -959,6 +960,7 @@
 <string>Normale
 <string>Bassa
 <string>Minima
+<string>Visualizzazione semplificata
 <string>Qualità erba/alberi
 <string>Regola la qualità dell'immagine<lf>per l'erba e gli alberi.
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_15_00
@@ -976,10 +978,13 @@
 <string>Regola la precisione della simulazione degli effetti<lf>del vento sugli oggetti in gioco.
 <string>Alta
 <string>Bassa
+<string>No
 <string>Qualità terreno
-<string>Regola la qualità del rendering del terreno e delle<lf>caratteristiche geografiche in prossimità del<lf>cacciatore. <COLOR preset="TXT_Accent">(Regolabile dalle impostazioni del titolo.)</COLOR>
+<string>Regola la qualità del rendering del terreno e delle<lf>caratteristiche geografiche in prossimità del<lf>cacciatore. <COLOR preset="TXT_Accent">(Regolabile solo dalle impostazioni del titolo.)</COLOR>
 <string>Alta
+<string>Media
 <string>Bassa
+<string>Minima
 <string>Qualità sabbia/neve
 <string>Regola la qualità della resa di sabbia,<lf>neve, e altri tipi di terreno.
 <string>Massima
@@ -998,12 +1003,14 @@
 <string>Normale
 <string>Bassa
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
+<string>Minima
 <string>Distanza rendering
-<string>Modifica il numero di giocatori o personaggi mostrati<lf>nelle stanze e la distanza dei mostri e della fauna endemica<lf>nel campo. <COLOR preset="TXT_Accent">(Regolabile dalle impostazioni del titolo.)</COLOR>
+<string>Modifica il numero di giocatori o personaggi mostrati<lf>nelle stanze e la distanza dei mostri e della fauna endemica<lf>nel campo. <COLOR preset="TXT_Accent">(Regolabile solo dalle impostazioni del titolo.)</COLOR>
 <string>Effettua il rendering del numero massimo<lf>di oggetti a prescindere<lf>dalla loro distanza dal cacciatore.
 <string>Effettua il rendering della maggior parte<lf>degli oggetti, inclusi quelli<lf>lontani dal cacciatore.
 <string>Effettua il rendering della maggior parte<lf>degli oggetti entro una<lf>distanza media dal cacciatore.
 <string>Riduce il carico del rendering mostrando<lf>soltanto gli oggetti vicini al cacciatore.
+<string>Riduce il carico di rendering mostrando solo<lf>oggetti vicini. Inoltre, gli oggetti piccoli<lf>sullo schermo non vengono renderizzati.
 <string>Qualità ombre
 <string>Regola la qualità delle ombre.
 <string>Massima
@@ -1015,6 +1022,7 @@
 <string>Regola la qualità delle ombre lontane dal cacciatore.
 <string>Alta
 <string>Bassa
+<string>Media
 <string>Distanza delle ombre
 <string>Regola la distanza dal cacciatore alla quale vengono<lf>renderizzate le ombre degli oggetti in gioco.
 <string>Lontana
@@ -1025,6 +1033,7 @@
 <string>Alta
 <string>Normale
 <string>Bassa
+<string>Minima
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_20_00
@@ -1076,6 +1085,10 @@
 <string>Regola la qualità della nebbia prodotta da<lf>polvere e particelle nell'aria. Influenza come<lf>sono mostrati i raggi di luce e altri effetti simili.
 <string>Alta
 <string>Bassa
+<string>Massima
+<string>Media
+<string>Bassa
+<string>Minima
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_Help
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_00
@@ -1084,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Ombreggiatura velocità variabile
-<string>Riduce il carico del rendering di ombreggiature<lf>ed effetti elaborando con meno uniformità<lf>le ombreggiature.
+<string>Riduce il carico del rendering elaborando con meno <lf>uniformità le ombreggiature.<lf><COLOR preset="TXT_Accent">(Può essere regolata solo se il ridimensionamento è disattivato.)</COLOR>
 <string>No
 <string>Bilanciato
 <string>Prestazioni
@@ -1663,3 +1676,55 @@
 <string>Debole
 <string>Media (normale)
 <string>Forte
+<string>Densità fogliame
+<string>Regola la densità del fogliame visualizzato.
+<string>Alta
+<string>Bassa
+<string>
+<string>
+<string>Animazione fogliame e neve
+<string>Regola se vengono mostrati effetti quando<lf>cacciatori e mostri entrano in contatto<lf>con fogliame e neve.
+<string>Sì
+<string>No
+<string>Qualità effetti basati sul terreno
+<string>Regola la qualità degli effetti mostrati<lf>lungo la superficie del terreno.
+<string>Alta
+<string>Media
+<string>Bassa
+<string>Qualità animazioni
+<string>Regola la qualità di varie animazioni<lf>usate per cacciatori, mostri e Seikret.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.)</COLOR>
+<string>Predefinita
+<string>Ridotta
+<string>Qualità effetti
+<string>Regola la qualità degli effetti.
+<string>Alta
+<string>Media
+<string>Bassa
+<string>Qualità espressioni facciali personaggi
+<string>Regola le espressioni facciali e il lip-sync<lf>in alcune scene.
+<string>Predefinita
+<string>Ridotta
+<string>Effetti superfici bagnate
+<string>Regola se sono mostrati gli effetti del<lf>bagnato al contatto con acqua o fango.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.)</COLOR>
+<string>Attiva
+<string>Disattiva
+<string>Frame skip mostri
+<string>Regola le impostazioni di frame skip<lf>nelle animazioni dei mostri per alcune scene.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.)
+<string>Sì
+<string>No
+<string>Frame skip assistente
+<string>Regola le impostazioni di frame skip<lf>nelle animazioni dell'assistente per alcune scene.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.)
+<string>Sì
+<string>No
+<string>Qualità mostri piccoli
+<string>Regola la qualità di rendering dei mostri piccoli<lf>per animazioni, tratti unici ed effetti.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.</COLOR>
+<string>Predefinita
+<string>Ridotta
+<string>Quantità fauna endemica mostrata
+<string>Regola la riduzione dell'elaborazione e la quantità<lf>della fauna endemica renderizzata.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.)
+<string>Predefinita
+<string>Ridotta
+<string>Qualità elementi decorativi in background
+<string>Regola la qualità di rendering degli elementi decorativi in background.<lf><COLOR preset="TXT_Accent">(Regolabile solamente dal menu principale.)</COLOR>
+<string>Predefinita
+<string>Ridotta
