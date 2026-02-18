@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">Questa missione non può essere accettata al di fuori del Centro supremo.</COLOR>
 <string><COLOR preset="TXT_Danger">Non si può usare durante questa missione.</COLOR>
 <string><COLOR preset="TXT_Danger">Questa missione non può essere pubblicata perché non è ancora stata sbloccata.</COLOR>
+<string><COLOR preset="TXT_Danger">Al momento non puoi accettare missioni solo online.</COLOR>
 <string>Torna al titolo
 <string>Riprova
 <string>Abbatti {0}
@@ -104,6 +105,11 @@
 <string>Gli oggetti segnati in eccesso nella<lf>cassa equipaggiamento saranno venduti.<lf>Vedi i dettagli per saperne di più.
 <string><COLOR preset="TXT_Danger">Non è possibile ottenere {0} <PLURAL {0} "amuleto" "amuleti"> poiché<lf>la cassa equipaggiamento è piena.<lf><lf>Scegliere <BOLD>Prendi tutto</BOLD> venderà<lf>gli oggetti indicati.</COLOR>
 <string>Ricompense speciali
+<string><REF Item_IT_838>
+<string>Vitalità sconosciuta
+<string>Abbastanza vitale
+<string>Molto vitale
+<string>Uova di Monstie rotte
 <string>Missione<lf>compiuta
 <string>Missione<lf>fallita
 <string>Ritorno<lf>alla<lf>base
@@ -136,6 +142,7 @@
 <string>Indagine non salvata
 <string>Indagine salvata
 <string>Missioni evento
+<string>Missioni evento <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Missioni arena
 <string>Missioni sfida
 <string>Impostazioni
@@ -254,6 +261,7 @@
 <string>Regole missione sfida libera<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
 <string>Regole missioni sfida/missioni Arena<lf>- Numero massimo di partecipanti: 2.<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.<lf>- I compagni Felyne non possono unirsi alla missione.<lf>- Gli effetti dei pasti <COLOR preset="TXT_Danger">verranno temporaneamente disabilitati<lf>durante la missione</COLOR> (e ripristinati una volta finita).<lf>- Gli effetti di stato, ottenuti da oggetti o da effetti melodia,<lf><COLOR preset="TXT_Danger">spariranno alla partenza</COLOR>.<lf><lf>Regole missioni sfida libera<lf>- Razzo SOS automatico: non puoi lanciare un razzo SOS.<lf>- Partecipazione missione: non puoi unirti alle missioni iniziate.<lf>- I cacciatori di supporto si uniranno alla missione dall'inizio.
 <string>Cerca razzo SOS
+<string>Aggiorna
 <string>Tipologia missione
 <string>Qualsiasi
 <string>Difficoltà missione
@@ -296,6 +304,7 @@
 <string>Indagini (salvate: {0})
 <string>Indagini (salvate: {0}/50)
 <string>Missioni evento
+<string>Missioni evento <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Missioni membri stanza ({0})
 <string>Missioni membri collegamento
 <string>Missioni razzo SOS ({0})

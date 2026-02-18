@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">此任务只能在<Ref RefEnvironment_0001_0001>承接。</COLOR>
 <string><COLOR preset="TXT_Danger">当前任务设置下无法使用。</COLOR>
 <string><COLOR preset="TXT_Danger">此任务尚未开放，无法承接。</COLOR>
+<string><COLOR preset="TXT_Danger">当前无法使用在线专用的活动任务。</COLOR>
 <string>返回标题画面
 <string>重新挑战
 <string>讨伐{0}
@@ -104,6 +105,11 @@
 <string><COLOR preset="TXT_Danger">装备箱空间不足，<lf>将自动出售带</COLOR><ICON NOT><COLOR preset="TXT_Danger">标示的道具。<lf>详情请查看道具说明。</COLOR>
 <string><COLOR preset="TXT_Danger">装备箱空间不足，<lf>有{0}个护石无法领取。<lf><lf>若按下“全部领取”，<lf>将自动出售带</COLOR><ICON NOT><COLOR preset="TXT_Danger">标示的道具。
 <string>特别报酬
+<string><REF Item_IT_838>
+<string>？？？生命力
+<string>普通生命力
+<string>非常强生命力
+<string>打破的<REF Item_IT_838>
 <string>任务完成
 <string>任务失败
 <string>返回营地
@@ -136,6 +142,7 @@
 <string>未保存的调查任务
 <string>已保存的调查任务
 <string>活动任务
+<string>活动任务 <COLOR preset="TXT_Danger">（离线）</COLOR>
 <string>斗技大会任务
 <string>挑战任务
 <string>设置
@@ -254,6 +261,7 @@
 <string>●自由挑战任务规则<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。
 <string>●斗技大会任务／挑战任务规则<lf>・参加人数上限：2人<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。<lf>・随从艾露猫不会参加任务。<lf>・餐点效果会在<COLOR preset="TXT_Danger">任务期间暂时消失，并于任务结束后恢复。</COLOR><lf>・暂时性状态效果（道具效果、狩猎笛的旋律效果等）<lf>　会在<COLOR preset="TXT_Danger">任务出发时消失。</COLOR><lf><lf>●自由挑战任务规则<lf>・自动发出救难信号：无法发出救难信号。<lf>・任务参加许可：任务开始后无法中途加入。<lf>・支援猎人将在任务开始时加入。
 <string>搜索救难信号
+<string>重新搜索
 <string>任务类别
 <string>不限
 <string>任务难度
@@ -296,6 +304,7 @@
 <string>调查任务（已保存{0}个）
 <string>调查任务（已保存{0}／50个）
 <string>活动任务
+<string>活动任务 <COLOR preset="TXT_Danger">（离线）</COLOR>
 <string>大厅成员任务（{0}件）
 <string>连结成员任务
 <string>救难信号任务（{0}件）

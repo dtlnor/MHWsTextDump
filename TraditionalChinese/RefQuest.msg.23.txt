@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">無法於<Ref RefEnvironment_0001_0001>以外的地點承接此任務。</COLOR>
 <string><COLOR preset="TXT_Danger">於現在的任務設定下無法使用。</COLOR>
 <string><COLOR preset="TXT_Danger">此任務尚未開放，無法承接。</COLOR>
+<string><COLOR preset="TXT_Danger">現在無法使用線上專用的活動任務。</COLOR>
 <string>返回標題畫面
 <string>重試
 <string>討伐{0}
@@ -104,6 +105,11 @@
 <string><COLOR preset="TXT_Danger">裝備箱無空間，將自動出售標有</COLOR><ICON NOT><COLOR preset="TXT_Danger">的道具。<lf>請確認顯示的詳細內容。</COLOR>
 <string><COLOR preset="TXT_Danger">裝備箱無空間，無法領取{0}個護石。<lf><lf>如按下「全部領取」，將自動出售標有</COLOR><ICON NOT><COLOR preset="TXT_Danger">的<lf>道具。</COLOR>
 <string>特別報酬
+<string><REF Item_IT_838>
+<string>？？？的生命力
+<string>普通生命力
+<string>極強生命力
+<string>破掉的<REF Item_IT_838>
 <string>任務完成
 <string>任務失敗
 <string>返回營地
@@ -136,6 +142,7 @@
 <string>未保存為調查任務
 <string>已保存為調查任務
 <string>活動任務
+<string>活動任務 <COLOR preset="TXT_Danger">（離線）</COLOR>
 <string>鬥技大會任務
 <string>挑戰任務
 <string>設定
@@ -254,6 +261,7 @@
 <string>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
 <string>鬥技大會任務/挑戰任務規則<lf>・參加人數上限：2人<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。<lf>・隨從艾路不會參加任務。<lf>・餐點效果會在任務期間<COLOR preset="TXT_Danger">暫時消失，並於任務結束後恢復</COLOR>。<lf>・非永久狀態效果（包括道具效果和狩獵笛的旋律效果）<lf>　會在<COLOR preset="TXT_Danger">出發前往任務時消失</COLOR>。<lf><lf>自由挑戰任務規則<lf>・自動發出救難信號：無法發出救難信號。<lf>・任務參加許可：任務開始後無法中途參加。<lf>・支援獵人將從任務開始時參加。
 <string>搜尋救難信號
+<string>重新搜尋
 <string>任務類別
 <string>不指定
 <string>任務難度
@@ -296,6 +304,7 @@
 <string>調查任務（已保存{0}個）
 <string>調查任務（已保存{0}/50個）
 <string>活動任務
+<string>活動任務 <COLOR preset="TXT_Danger">（離線）</COLOR>
 <string>大廳成員任務（{0}個）
 <string>連結成員任務
 <string>救難信號任務（{0}個）

@@ -89,7 +89,7 @@
 <string>Atak, który można wykonać po innym ataku.<lf>Użyj <ICON WP09 PL_MOVE_FRONT><ICON WP09 PL_MOVE_LEFT><ICON WP09 PL_MOVE_BACK><ICON WP09 PL_MOVE_RIGHT>, aby poruszać się<lf>w wybranym kierunku przed wykonaniem<lf>lub wykonaj natychmiast w trybie skupienia.
 <string>
 <string>
-<string>Początek podstawowej kombinacji.<lf><lf>Naciśnij <ICON WP09 PL_ATTACK_00>, by połączyć z toporem: cięciem z góry,<lf>lub <ICON WP09 PL_DUMMY_MOVE><ICON PLUS><ICON WP09 PL_ATTACK_00>, by połączyć z toporem: gasnącym cięciem bocznym.<lf><lf>Przytrzymaj <ICON WP09 PL_ATTACK_00> w trybie topora mocy,<lf>by zadać wiele obrażeń.
+<string>Początek podstawowej kombinacji.<lf><lf>Naciśnij <ICON WP09 PL_ATTACK_00>, by połączyć z toporem: cięciem z góry,<lf>lub <ICON WP09 PL_DUMMY_MOVE><ICON PLUS><ICON WP09 PL_ATTACK_00>, by połączyć z toporem: gasnącym<lf>cięciem bocznym.<lf><lf>Przytrzymaj <ICON WP09 PL_ATTACK_00> w trybie topora mocy,<lf>by zadać wiele obrażeń.
 <string>Początek podstawowej kombinacji.<lf><lf>Naciśnij <ICON WP09 PL_ATTACK_00>, by połączyć z Topór:<lf>cięcie z góry, lub naciśnij dodatkowo<lf><ICON WP09 PL_MOVE_FRONT><ICON WP09 PL_MOVE_LEFT><ICON WP09 PL_MOVE_BACK><ICON WP09 PL_MOVE_RIGHT>, by połączyć z Topór:<lf>gasnące cięcie boczne.<lf><lf>Przytrzymaj <ICON WP09 PL_ATTACK_00> w Trybie topora mocy,<lf>by zadać wiele obrażeń.
 <string>
 <string>
@@ -97,7 +97,7 @@
 <string>Początek podstawowej kombinacji.<lf><lf><ICON WP10 PL_ATTACK_00> Kombinacja cięć w górę → <ICON WP10 PL_ATTACK_00> Cięcie<lf>żniwiarza → <ICON WP10 PL_ATTACK_00> podwójne cięcie.<lf><lf>Użyj <ICON WP10 PL_MOVE_FRONT><ICON WP10 PL_MOVE_LEFT><ICON WP10 PL_MOVE_BACK><ICON WP10 PL_MOVE_RIGHT> podczas kombinacji cięcia w górę<lf>lub cięcia żniwiarza,<lf>aby zmienić pozycję ataków.
 <string>
 <string>
-<string>Po wybiciu możesz wykonać kilka akcji.<lf>Wybicie się do tyłu uczyni cię<lf>tymczasowo niepodatnym na ataki.<lf><lf>Wciśnij <ICON WP10 PL_ATTACK_00> w powietrzu, aby wykonać atak,<lf>który przeniesie cię na dużą odległość do przodu,<lf>albo <ICON WP10 PL_ATTACK_01>, by wykonać atak w dół.
+<string>Po wybiciu możesz wykonać kilka akcji.<lf>Wybicie się do tyłu uczyni cię<lf>tymczasowo niepodatnym na ataki.<lf><lf>Wciśnij <ICON WP10 PL_ATTACK_00> w powietrzu, aby wykonać atak,<lf>który przeniesie cię na dużą odległość do<lf>przodu, albo <ICON WP10 PL_ATTACK_01>, by wykonać atak w dół.
 <string>Po wybiciu możesz wykonać kilka akcji.<lf>Wybicie się do tyłu uczyni cię<lf>tymczasowo niepodatnym na ataki.<lf><lf>Wciśnij <ICON WP10 PL_ATTACK_00> w powietrzu, aby wykonać atak,<lf>który przeniesie cię na dużą odległość do przodu,<lf>albo <ICON WP10 PL_ATTACK_01>, by wykonać atak w dół.
 <string>Skutecznie traf potwora Nacierającym cięciem<lf>z wyskoku, aby przejść w Taniec wybić.<lf>Wykonywanie dodatkowych wybić<lf>zwiększa moc ataków z powietrza,<lf>aż do dwóch poziomów.<lf><lf>Kierunek uników w powietrzu (<ICON WP10 PL_DODGE>) można<lf>kontrolować za pomocą <ICON WP10 PL_DUMMY_MOVE>.
 <string>Skutecznie traf potwora Nacierającym cięciem<lf>z wyskoku, aby przejść w Taniec wybić.<lf>Wykonywanie dodatkowych wybić<lf>zwiększa moc ataków z powietrza,<lf>aż do dwóch poziomów.<lf><lf>Kierunek uników w powietrzu (<ICON WP10 PL_DODGE>) można<lf>kontrolować za pomocą <ICON WP10 PL_MOVE_FRONT><ICON WP10 PL_MOVE_LEFT><ICON WP10 PL_MOVE_BACK><ICON WP10 PL_MOVE_RIGHT>.
@@ -301,16 +301,16 @@
 <string>
 <string>
 <string>
-<string>Status, który tymczasowo uniemożliwia ci ruch.<lf>Występuje w wyniku akumulacji.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie ruszanie <ICON PL_DUMMY_MOVE><lf>i naciśnięcie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez określone ataki
+<string>Status, który tymczasowo uniemożliwia<lf>ci ruch. Występuje w wyniku akumulacji.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie ruszanie <ICON PL_DUMMY_MOVE><lf>i naciśnięcie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez określone ataki
 <string>Status, który tymczasowo uniemożliwia ci ruch.<lf>Występuje w wyniku akumulacji.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie wciskanie <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>i <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez określone ataki
 <string>
 <string>
 <string>Status, który tymczasowo uniemożliwia ci ruch.<lf>Występuje w wyniku akumulacji.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie ruszanie <ICON PL_DUMMY_MOVE><lf>i naciśnięcie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
-<string>Status, który tymczasowo uniemożliwia ci ruch.<lf>Występuje w wyniku akumulacji.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie wciskanie <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>i <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
+<string>Status, który tymczasowo uniemożliwia<lf>ci ruch. Występuje w wyniku akumulacji.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie wciskanie <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>i <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
 <string>
 <string>
-<string>Status, który tymczasowo uniemożliwia ci ruch.<lf>Intensywność błysku wpływa na czas<lf>obezwładnienia.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie poruszanie <ICON PL_DUMMY_MOVE><lf>i naciskanie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
-<string>Status, który tymczasowo uniemożliwia ci ruch.<lf>Intensywność błysku wpływa na czas<lf>obezwładnienia.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie poruszanie <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>i naciskanie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
+<string>Status, który tymczasowo uniemożliwia<lf>ci ruch. Intensywność błysku wpływa na<lf>czas obezwładnienia.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie poruszanie <ICON PL_DUMMY_MOVE><lf>i naciskanie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
+<string>Status, który tymczasowo uniemożliwia<lf>ci ruch. Intensywność błysku wpływa na<lf>czas obezwładnienia.<lf><lf>Najczęściej neutralizowany przez:<lf>– szybkie poruszanie <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT><lf>i naciskanie <ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie na ustąpienie efektu<lf>– bycie trafionym przez atak
 <string>
 <string>
 <string>Status, który uniemożliwia ci ruch.<lf><lf>Najczęściej leczony przez:<lf>– użycie czyścidła<lf>– szybkie ruszanie <ICON PL_DUMMY_MOVE> i naciśnięcie<lf><ICON PL_WEAPON_ON><ICON PL_WEAPON_OFF><ICON PL_ATTACK_01><ICON PL_DODGE><lf>– czekanie, aż efekt minie<lf>– bycie trafionym przez określone<lf>ataki

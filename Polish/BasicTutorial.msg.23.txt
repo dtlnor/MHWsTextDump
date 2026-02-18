@@ -32,7 +32,7 @@
 <string>
 <string>Wyświetl menu kołowe (klawiatura)
 <string><ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">
-<string><COLOR preset="TXT_Danger">Wyświetlanie menu kołowego z klawiatury</COLOR><lf>Naciśnij<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, aby wyświetlić<lf>własne menu kołowe.<lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla skrót.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> wyświetla 4 skróty.<lf><lf>Użyj <ICON MKB UI_PC_SHORTCUT_KEY_00> – <ICON MKB UI_PC_SHORTCUT_KEY_11>, aby wybrać przedmiot,<lf>zawołanie itd. Użyj <ICON MKB UI_PC_SHORTCUT_PALLET_00> – <ICON MKB UI_PC_SHORTCUT_PALLET_07>, aby<lf>przełączać się między skrótami.<lf>Menu kołowe można edytować w opcji Zmodyfikuj<lf>menu kołowe w menu startowym.
+<string><COLOR preset="TXT_Danger">Wyświetlanie menu kołowego z klawiatury</COLOR><lf>Naciśnij <ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET><REF RefGeneral_0001_006><ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON">, aby wyświetlić własne<lf>menu kołowe.<lf>・<ICON MKB UI_PC_SHORTCUT_CALL_NORMAL_PALLET> wyświetla skrót.<lf>・<ICON MKB merge="UI_PC_SHORTCUT_CALL_EXPAND_PALLET,HOLD_ON"> wyświetla 4 skróty.<lf><lf>Użyj <ICON MKB UI_PC_SHORTCUT_KEY_00> – <ICON MKB UI_PC_SHORTCUT_KEY_11>, aby wybrać przedmiot,<lf>zawołanie itd. Użyj <ICON MKB UI_PC_SHORTCUT_PALLET_00> – <ICON MKB UI_PC_SHORTCUT_PALLET_07>, aby<lf>przełączać się między skrótami.<lf>Menu kołowe można edytować w opcji<lf>Zmodyfikuj menu kołowe w menu<lf>startowym.
 <string>
 <string>Wybierz przedmiot, zawołanie itd. (klawiatura)
 <string><ICON MKB UI_PC_SHORTCUT_KEY_00><ICON MKB UI_PC_SHORTCUT_KEY_01><ICON MKB UI_PC_SHORTCUT_KEY_02><ICON MKB UI_PC_SHORTCUT_KEY_03><ICON MKB UI_PC_SHORTCUT_KEY_04><ICON MKB UI_PC_SHORTCUT_KEY_05><ICON MKB UI_PC_SHORTCUT_KEY_06><ICON MKB UI_PC_SHORTCUT_KEY_07><ICON MKB UI_PC_SHORTCUT_KEY_08><ICON MKB UI_PC_SHORTCUT_KEY_09><ICON MKB UI_PC_SHORTCUT_KEY_10><ICON MKB UI_PC_SHORTCUT_KEY_11>
@@ -153,7 +153,7 @@
 <string>
 <string><REF RefGeneral_0014_01>
 <string><REF RefGeneral_0014_01>
-<string>Zwierzę do jazdy otrzymane od mieszkańców<lf>Kunafy. Jego niezrównana mobliność pomoże<lf>przyspieszyć podróże. Jego silny węch<lf>automatycznie poprowadzi je do dowolnego<lf>punktu wyznaczonego na mapie.<lf><lf>Procy i niektórych przedmiotów można używać<lf>podczas jazdy, co sprawia, że to idealny moment<lf>na regenerację zdrowia, naostrzenie broni<lf>lub zebranie przedmiotów. Seikret będzie też<lf>automatycznie unikać ataków potworów<lf>pod pewnymi warunkami.
+<string>Zwierzę do jazdy otrzymane od<lf>mieszkańców Kunafy. Jego niezrównana<lf>mobilność przyspieszy podróże. Jego<lf>silny węch automatycznie poprowadzi<lf>je do dowolnego punktu na mapie.<lf><lf>Procy i niektórych przedmiotów można<lf>użyć podczas jazdy. To idealny czas<lf>na regenerację zdrowia, naostrzenie<lf>broni lub zebranie przedmiotów. Seikret<lf>będzie też automatycznie unikać ataków<lf>potworów pod pewnymi warunkami.
 <string>
 <string><REF RefMenu_061> (Aut. ruch)
 <string><INPUTMSG MsgGUI600200_00_011>
@@ -277,7 +277,7 @@
 <string>Zapewnia ochronę przed naporem wiatru.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_NOISE> Zat. do uszu (M)/<ICON ST_RESIST_NOISE_HIGH> Zat. do uszu (D)
-<string>Zapewnia ochronę przed rykiem potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii rogu<lf>łowieckiego
+<string>Zapewnia ochronę przed rykiem<lf>potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_QUAKE> Neutralizacja wstrząsów
 <string>Zapewnia ochronę przed wstrząsami<lf>ziemi.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
@@ -292,16 +292,16 @@
 <string>Neutralizuje wszystkie plagi żywiołów.<lf><lf>Najczęściej zdobywany przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego i Baniek echa
 <string>
 <string><ICON ST_RESIST_DEBUF> Neutralizacja szk. efektów
-<string>Zapobiega wszystkim szkodliwym<lf>efektom statusów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii rogu<lf>łowieckiego i baniek echa
+<string>Neutralizuje wszystkie szkodliwe efekty.<lf><lf>Efekt zmniejszenia PŻ, wprowadzony<lf>w ramach specjalnej współpracy z FFXIV,<lf>nie może zostać zneutralizowany.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii rogu<lf>łowieckiego i baniek echa
 <string>
 <string><ICON ST_SOUND_BARRIER> Bariera akustyczna
 <string>Jednorazowo zmniejsza obrażenia<lf>oraz neutralizuje napór wiatru,<lf>wstrząsy ziemi i ryki potworów.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_GROUND> Neutralizacja uszk. środow.
-<string>Neutralizuje obrażenia spowodowane lawą<lf>lub podłożem z kolcami, a także<lf>zapobiega negatywnym efektom<lf>intensywnego ciepła lub zimna.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
+<string>Neutralizuje obrażenia spowodowane<lf>lawą lub podłożem z kolcami, a także<lf>zapobiega negatywnym efektom<lf>intensywnego ciepła lub zimna.<lf><lf>Obrażenia od lawy otchłani są jedynie<lf>zmniejszane i nie mogą być całkowicie<lf>zniwelowane.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie Efektów melodii rogu<lf>łowieckiego
 <string>
 <string><ICON ST_RESIST_MUD> Mobilność w wodzie i oleistym mule
-<string>Zapobiega spowolnieniu przez<lf>głęboką wodę lub głęboki śnieg.<lf>Neutralizuje także efekty fal<lf>tworzonych przez potwory.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii<lf>rogu łowieckiego
+<string>Zapobiega spowolnieniu przez głęboką<lf>wodę lub oleisty muł. Neutralizuje też<lf>efekty fal tworzonych przez potwory.<lf><lf>Jednak spowalniające działanie<lf><BOLD>oleju smoczej kości</BOLD> jest jedynie<lf>zredukowane i nie może zostać<lf>całkowicie zniesione.<lf><lf>Najczęściej zdobywana przez:<lf>– używanie efektów melodii<lf>rogu łowieckiego
 <string>
 <string><ICON ST_RESIST_COLD> Odporność na zimno
 <string>Neutralizuje efekty zmniejszania się<lf>maksymalnej wytrzymałości<lf>na przenikliwie zimnych obszarach.<lf><lf>Najczęściej zdobywany przez:<lf>– spożywanie gorących napojów<lf>– zbieranie żaronek kapturnic
@@ -325,7 +325,7 @@
 <string>Status, który detonuje eksplozję,<lf>która odrzuca cię do tyłu i zadaje<lf>obrażenia. Wyzwala się po upływie<lf>określonego czasu lub po trafieniu<lf>atakiem.<lf><lf>Najczęściej neutralizowany przez:<lf>– użycie dezodorantu<lf>– wielokrotny unik z rzędu
 <string>
 <string><ICON ST_LACERATE> Krwawienie
-<string>Status, który powoduje, że otrzymujesz<lf>obrażenia w ruchu. (Neutralizacja tego<lf>statusu tymczasowo przyspieszy naturalną<lf>regenerację).<lf><lf>Najczęściej neutralizowany przez:<lf>– jedzenie produktów na bazie mięsa<lf>lub dobrze wysmażonych steków<lf>– kucanie przez krótki czas
+<string>Status, który powoduje, że otrzymujesz<lf>obrażenia w ruchu. (Neutralizacja tego<lf>statusu tymczasowo przyspieszy<lf>naturalną regenerację).<lf><lf>Najczęściej neutralizowany przez:<lf>– jedzenie produktów na bazie mięsa<lf>lub dobrze wysmażonych steków<lf>– kucanie przez krótki czas
 <string>
 <string><ICON ST_STUN> Ogłuszenie
 <string><INPUTMSG MsgGUI600200_00_021>
@@ -343,7 +343,7 @@
 <string>Status, który obniża obronę,<lf>zwiększając ilość otrzymywanych<lf>obrażeń.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie adamantowego ziarna<lf>i pancernej skóry<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_BADSMELL> Smród
-<string>Status, który sprawia, że nie możesz<lf>korzystać z jedzenia i napojów.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie dezodorantu<lf>– wykonywanie uników w zbiorniku wodnym<lf>– czekanie na ustąpienie efektu
+<string>Status, który sprawia, że nie możesz<lf>korzystać z jedzenia i napojów.<lf><lf>Najczęściej neutralizowany przez:<lf>– używanie dezodorantu<lf>– wykonywanie uników w zbiorniku<lf>wodnym<lf>– czekanie na ustąpienie efektu
 <string>
 <string><ICON ST_VIRUS><ICON ST_VIRUS_DEVELOP><ICON ST_VIRUS_OVERCOME> Szał
 <string>Do infekcji dochodzi przez wydłużoną<lf>ekspozycję na szał, chyba że zadasz<lf>potworowi określoną liczbę trafień.<lf><lf>Po zainfekowaniu: zatrzymuje naturalny<lf>powrót do zdrowia i zwiększa obrażenia.<lf>Po wyleczeniu: zwiększa zgodność<lf>i zapewnia odporność na szał.<lf><lf>Możesz spowolnić rozwój wirusa,<lf>używając oczystki.
@@ -452,7 +452,7 @@
 <string>Opończy maskującej można użyć<lf>do tymczasowego ukrycia się przed<lf>potworami. Zaatakowanie lub<lf>odniesienie obrażeń zakończy<lf>jej efekt niezależnie od tego,<lf>ile jeszcze miałby trwać.<lf><lf>W przeciwieństwie do innych narzędzi<lf>specjalistycznych opończa maskująca<lf>to podstawowy przedmiot, który<lf>zawsze masz przy sobie.
 <string>
 <string><REF Item_IT_626>
-<string>Opończa stabilności umożliwia<lf>przetrzymanie pewnych ataków, chroni<lf>przed naporem wiatru, rykami i wstrząsami<lf>oraz zmniejsza otrzymywane obrażenia.<lf><lf>Otrzymanie obrażeń skróci czas trwania<lf>efektu.
+<string>Opończa stabilności umożliwia<lf>przetrzymanie pewnych ataków,<lf>chroni przed naporem wiatru,<lf>rykami i wstrząsami oraz<lf>zmniejsza otrzymywane obrażenia.<lf><lf>Otrzymanie obrażeń skróci czas<lf>trwania efektu.
 <string>
 <string><REF Item_IT_627>
 <string>Opończa uleczenia stopniowo przywraca<lf>zdrowie. Jeśli nie otrzymasz żadnych<lf>obrażeń przez pewien czas po ataku,<lf>twoja szybkość regeneracji wzrośnie.<lf><lf>Będziesz także odzyskiwać zdrowie<lf>podczas atakowania potworów.

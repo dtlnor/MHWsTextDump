@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">このクエストは≪<Ref RefEnvironment_0001_0001>≫以外では受注できません。</COLOR>
 <string><COLOR preset="TXT_Danger">現在のクエストの設定状態では利用できません。</COLOR>
 <string><COLOR preset="TXT_Danger">このクエストはまだ開放されていないため受注できません。</COLOR>
+<string><COLOR preset="TXT_Danger">現在、配信専用のイベントクエストは利用できません。</COLOR>
 <string>タイトルに戻る
 <string>リトライする
 <string>{0}の討伐
@@ -104,6 +105,11 @@
 <string><COLOR preset="TXT_Danger">装備BOXに空きがないため、<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger">の付いたアイテムは自動売却されます。<lf>詳細表示を確認してください。</COLOR>
 <string><COLOR preset="TXT_Danger">装備BOXに空きがないため、<lf>{0}個は受け取ることができません。<lf><lf>「すべて受け取る」を押すことで、<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger">の付いたアイテムは自動売却されます。</COLOR>
 <string>特別報酬
+<string><REF Item_IT_838>
+<string>？？？な生命力
+<string>そこそこの生命力
+<string>とても強い生命力
+<string>割れた<REF Item_IT_838>
 <string>Quest Cleared
 <string>Quest Failed
 <string>Returning to Base
@@ -136,6 +142,7 @@
 <string>調査クエスト未保存
 <string>調査クエスト保存済み
 <string>イベントクエスト
+<string>イベントクエスト <COLOR preset="TXT_Danger">(オフライン)</COLOR>
 <string>闘技大会クエスト
 <string>チャレンジクエスト
 <string>設定
@@ -254,6 +261,7 @@
 <string>●フリーチャレンジクエストのルール<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターは、クエスト開始から参加します。
 <string>●闘技大会クエスト/チャレンジクエストのルール<lf>・最大参加人数：最大2人まで<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターはクエスト開始から参加します。<lf>・オトモアイルーはクエストに参加しません。<lf>・食事効果はクエスト中、<COLOR preset="TXT_Danger">一時的に消失します。<lf>　※クエスト終了後、元に戻ります。</COLOR><lf>・アイテム効果や笛の旋律効果などの一時的なステータス効果は、<lf>　<COLOR preset="TXT_Danger">クエスト出発時に消失します。</COLOR><lf><lf>●フリーチャレンジクエストのルール<lf>・救難信号の自動発信：救難信号は発信できません。<lf>・クエスト参加承認：クエスト開始後の途中参加はできません。<lf>・サポートハンターは、クエスト開始から参加します。
 <string>救難信号の検索
+<string>再検索
 <string>クエスト種別
 <string>指定なし
 <string>クエスト難易度
@@ -296,6 +304,7 @@
 <string>調査クエスト（{0}件保存済み）
 <string>調査クエスト（{0}/50件保存済み）
 <string>イベントクエスト
+<string>イベントクエスト <COLOR preset="TXT_Danger">(オフライン)</COLOR>
 <string>ロビーメンバークエスト（{0}件）
 <string>リンクメンバークエスト
 <string>救難信号クエスト（{0}件）

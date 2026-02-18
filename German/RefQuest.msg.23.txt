@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">Diese Quest kann nicht außerhalb der Großen Stätte angenommen werden.</COLOR>
 <string><COLOR preset="TXT_Danger">Während dieser Quest nicht verfügbar.</COLOR>
 <string><COLOR preset="TXT_Danger">Diese Quest kann nicht bekanntgemacht werden, da sie erst freigeschaltet werden muss.</COLOR>
+<string><COLOR preset="TXT_Danger">Online-Quests können derzeit nicht angenommen werden.</COLOR>
 <string>Zum Titelbildschirm
 <string>Neu versuchen
 <string>Erlege: {0}.
@@ -104,6 +105,11 @@
 <string>Markierte Objekte, die die Kapazität der<lf>Ausrüstungstruhe überschreiten, werden<lf>automatisch verkauft. Weitere Infos<lf>findest du in den Details.
 <string><COLOR preset="TXT_Danger">Achtung</COLOR><lf><COLOR preset="TXT_Accent">{0} <PLURAL {0} "Talisman" "Talismane"></COLOR> <PLURAL {0} "konnte" "konnten"> nicht genommen<lf>werden, da die Ausrüstungstruhe voll ist.<lf><lf>Wenn du <BOLD>Alles nehmen</BOLD> wählst,<lf>werden alle mit <ICON NOT> markierten Objekte<lf>automatisch verkauft.
 <string>Besondere Belohnungen
+<string><REF Item_IT_838>
+<string>Stärke unbekannt
+<string>Mäßig stark
+<string>Enorm stark
+<string>Zerbrochene Monstie-Eier
 <string>Quest<lf>abgeschlossen
 <string>Quest<lf>gescheitert
 <string>Rückkehr<lf>zur<lf>Basis
@@ -136,6 +142,7 @@
 <string>Ungespeicherte Untersuchung
 <string>Gespeicherte Untersuchung
 <string>Eventquests
+<string>Eventquests <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Arenaquests
 <string>Herausforderungsquests
 <string>Einstellungen
@@ -254,6 +261,7 @@
 <string>Regeln für Freie Herausforderungsquests<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.
 <string>Regeln für Arenaquests/Herausforderungsquests<lf>– Die maximale Teilnehmerzahl ist 2.<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.<lf>– Palicos können nicht an der Quest teilnehmen.<lf>– Mahleffekte sind während der Quest <COLOR preset="TXT_Danger">vorübergehend deaktiviert</COLOR>.<lf>   (Werden nach Questabschluss wiederhergestellt.)<lf>– Von Objekten oder Melodie-Effekten erhaltene Statuseffekte<lf>   <COLOR preset="TXT_Danger">verschwinden bei Questaufbruch</COLOR>.<lf><lf>Regeln für Freie Herausforderungsquests<lf>– Auto-Not-Leuchtzeichen: Senden von Leuchtzeichen nicht möglich.<lf>– Questbeitritt: Beitritt nach Questbeginn nicht mehr möglich.<lf>– Hilfsjäger treten der Quest zu Beginn bei.
 <string>Not-Leuchtzeichen-Suche
+<string>Aktualisieren
 <string>Quest-Typ
 <string>Beliebig
 <string>Quest-Schwierigkeit
@@ -296,6 +304,7 @@
 <string>Untersuchungen ({0} gespeichert)
 <string>Untersuchungen ({0}/50 gespeichert)
 <string>Eventquests
+<string>Eventquests <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Lobbymitglieder-Quests ({0})
 <string>Verbindungsmitglieder-Quests
 <string>Not-Leuchtzeichen-Quests ({0})

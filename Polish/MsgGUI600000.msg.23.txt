@@ -38,8 +38,8 @@
 <string>Złapanie kolosa jest dla wędkarza<lf>ostateczną bitwą. Jeśli ryba zacznie<lf>się miotać, kontroluj wciąganie,<lf>poruszając <ICON PL_DUMMY_MOVE> w kierunku, w którym<lf>płynie, by zmniejszyć napięcie żyłki.
 <string>Złapanie kolosa jest dla wędkarza<lf>ostateczną bitwą. Jeśli ryba zacznie<lf>się miotać, kontroluj wciąganie,<lf>poruszając <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> w kierunku,<lf>w którym ryba płynie, by zmniejszyć<lf>napięcie żyłki.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_191>
-<string>Kiedy ryba się zmęczy i zwolni, masz<lf>szansę ją złapać! Poruszaj <ICON PL_DUMMY_MOVE> w górę<lf>i w dół, żeby wyciągnąć rybę.
-<string>Kiedy ryba się zmęczy i zwolni, masz<lf>szansę ją złapać! Naciśnij <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><lf>kilka razy, żeby ją wyciągnąć.
+<string>Kiedy ryba się zmęczy i zwolni, masz<lf>szansę ją złapać! Obracaj <ICON PL_DUMMY_MOVE> w górę<lf>i w dół, żeby wyciągnąć rybę.
+<string>Kiedy ryba się zmęczy i zwolni, masz<lf>szansę ją złapać! Naciskaj <ICON PL_MOVE_FRONT> i <ICON PL_MOVE_BACK><lf>na przemian, żeby ją wyciągnąć.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_192>
 <string>Jeśli ryba zbliży się do przeszkody,<lf>wychyl <ICON PL_DUMMY_MOVE> w kierunku przeciwnym<lf>do tego, w którym płynie, by ją<lf>unieruchomić, jednocześnie trzymając<lf>żyłkę z dala od skał.
 <string>Jeśli ryba zbliży się do przeszkody, użyj<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>, aby przemieścić się w kierunku<lf>przeciwnym do tego, w którym<lf>płynie, by ją unieruchomić, jednocześnie<lf>trzymając żyłkę z dala od skał.
@@ -47,8 +47,8 @@
 <string>Kiedy tak się stanie, porusz <ICON PL_DUMMY_MOVE><lf>w kierunku skoku ryby i naciśnij <ICON PL_FISHING_ACTION>,<lf>by ją unieruchomić.
 <string>Kiedy tak się stanie, użyj <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>by ruszyć wędką w kierunku skoku ryby,<lf>i naciśnij <ICON PL_FISHING_ACTION>, by ją unieruchomić.
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_300>
-<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> szybko<lf><COLOR preset="TXT_Accent">Wolne wyciągnięcie:</COLOR> <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> powoli<lf><COLOR preset="TXT_Accent">Ruch spławikiem:</COLOR> odchyl <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
-<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> szybko<lf><COLOR preset="TXT_Accent">Wolne wyciągnięcie</COLOR>:  <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> powoli<lf><COLOR preset="TXT_Accent">Ruch spławikiem</COLOR>: <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> <ICON merge="PL_DUMMY_MOVE,TURN_ON"> szybko<lf><COLOR preset="TXT_Accent">Wolne wyciągnięcie:</COLOR> <ICON merge="PL_DUMMY_MOVE,TURN_ON"> powoli<lf><COLOR preset="TXT_Accent">Ruch spławikiem:</COLOR> odchyl <ICON PL_MOVE_BACK><ICON ALTERNATE><ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> szybko<lf><COLOR preset="TXT_Accent">Wolne wyciągnięcie</COLOR>: <ICON PL_MOVE_FRONT><ICON ALTERNATE><ICON PL_MOVE_BACK> powoli<lf><COLOR preset="TXT_Accent">Ruch spławikiem</COLOR>: <ICON PL_MOVE_BACK> wielokrotnie
 <string><INPUTMSG MsgGUI600000_PanelTutorial_L_EXP_302>
 <string><COLOR preset="TXT_Accent">Unikanie przeszkód:</COLOR> użyj <ICON PL_DUMMY_MOVE>,<lf>by wyciągnąć rybę z przeszkód.
 <string><COLOR preset="TXT_Accent">Unikanie przeszkód</COLOR>: użyj <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT>,<lf>by wyciągnąć rybę z przeszkód.
@@ -68,11 +68,11 @@
 <string>Status ten na pewien czas cię unieruchamia.<lf>Szybko poruszaj <ICON PL_DUMMY_MOVE> lub użyj czyścidła,<lf>by wrócić do normy.
 <string>Status ten na pewien czas cię unieruchamia.<lf>Szybko naciśnij <ICON PL_MOVE_FRONT><ICON PL_MOVE_LEFT><ICON PL_MOVE_BACK><ICON PL_MOVE_RIGHT> lub użyj czyścidła,<lf>by wrócić do normy.
 <string><INPUTMSG MsgGUI600000_Tips_EXP_172>
-<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> poruszaj szybko<lf><ICON PL_DUMMY_MOVE> w górę i w dół
-<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> naciśnij szybko<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> obracaj szybko <ICON PL_DUMMY_MOVE>
+<string><COLOR preset="TXT_Accent">Szybkie wyciągnięcie:</COLOR> naciskaj szybko<lf><ICON PL_MOVE_FRONT> i <ICON PL_MOVE_BACK> na przemian
 <string><INPUTMSG MsgGUI600000_Tips_EXP_173>
-<string><COLOR preset="TXT_Accent">Wolne wyciągnięcie:</COLOR> poruszaj wolno<lf><ICON PL_DUMMY_MOVE> w górę i w dół
-<string><COLOR preset="TXT_Accent">Wolne wyciągnięcie:</COLOR> naciśnij wolno<lf><ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK>
+<string>Wolne wyciągnięcie: obracaj powoli <ICON PL_DUMMY_MOVE>
+<string>Wolne wyciągnięcie: naciskaj wolno<lf><ICON PL_MOVE_FRONT> i <ICON PL_MOVE_BACK> na przemian
 <string><INPUTMSG MsgGUI600000_Tips_EXP_174>
 <string><COLOR preset="TXT_Accent">Ruch żyłką:</COLOR> wychylaj <ICON PL_DUMMY_MOVE> wielokrotnie w dół
 <string><COLOR preset="TXT_Accent">Ruch żyłką:</COLOR> naciśnij <ICON PL_MOVE_BACK> wielokrotnie

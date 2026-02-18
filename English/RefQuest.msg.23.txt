@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">This quest cannot be accepted outside of the Grand Hub.</COLOR>
 <string><COLOR preset="TXT_Danger">Cannot be used with current quest settings.</COLOR>
 <string><COLOR preset="TXT_Danger">This quest cannot be posted because it has yet to be unlocked.</COLOR>
+<string><COLOR preset="TXT_Danger">You cannot currently accept online-only quests.</COLOR>
 <string>Return to Title
 <string>Retry
 <string>Slay the {0}
@@ -104,6 +105,11 @@
 <string><COLOR preset="TXT_Danger">Items marked with</COLOR><ICON NOT><COLOR preset="TXT_Danger">exceed the equipment<lf>box capacity and will be automatically<lf>sold. See details for more information.</COLOR>
 <string><COLOR preset="TXT_Danger">{0} <PLURAL {0} "talisman" "talismans"> cannot be taken<lf>because the equipment box is full.<lf><lf>Selecting <BOLD>Take All</BOLD> will automatically<lf>sell marked items.</COLOR>
 <string>Special Rewards
+<string><REF Item_IT_838>
+<string>Potency Unknown
+<string>Fairly Potent
+<string>Highly Potent
+<string>Monstie Eggs Broken
 <string>Quest<lf>Complete
 <string>Quest<lf>Failed
 <string>Heading<lf>Back
@@ -136,6 +142,7 @@
 <string>Unsaved Investigation
 <string>Saved Investigation
 <string>Event Quests
+<string>Event Quests <COLOR preset="TXT_Danger">(Offline)</COLOR>
 <string>Arena Quests
 <string>Challenge Quests
 <string>Settings
@@ -254,6 +261,7 @@
 <string>Free Challenge Quest Rules<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.
 <string>Arena Quest/Challenge Quest Rules<lf>- Maximum of two participants.<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.<lf>- Palicoes cannot join the quest.<lf>- Meal effects will be <COLOR preset="TXT_Danger">temporarily disabled during the quest</COLOR>.<lf>(Restored after the quest ends.)<lf>- Status effects such as from items and Melody Effects will<lf><COLOR preset="TXT_Danger">disappear upon departure</COLOR>.<lf><lf>Free Challenge Quest Rules<lf>- Automatic SOS Flare: You cannot send an SOS Flare.<lf>- Quest Join Settings: Quests cannot be joined once started.<lf>- Support Hunters will join the quest from the beginning.
 <string>SOS Flare Search
+<string>Refresh
 <string>Quest Type
 <string>Any
 <string>Quest Difficulty
@@ -296,6 +304,7 @@
 <string>Investigations ({0} Saved)
 <string>Investigations ({0}/50 Saved)
 <string>Event Quests
+<string>Event Quests <COLOR preset="TXT_Danger">(Offline)</COLOR>
 <string>Lobby Member Quests ({0})
 <string>Link Member Quests
 <string>SOS Flare Quests ({0})

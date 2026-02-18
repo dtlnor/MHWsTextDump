@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">Impossible d'accepter cette quête en dehors du Grand-Camp.</COLOR>
 <string><COLOR preset="TXT_Danger">Utilisation impossible pendant cette quête.</COLOR>
 <string><COLOR preset="TXT_Danger">Cette quête ne peut pas être publiée, car elle n'est pas débloquée.</COLOR>
+<string><COLOR preset="TXT_Danger">Vous ne pouvez pas accepter de quêtes exclusivement en ligne pour le moment.</COLOR>
 <string>Retour à l'écran titre
 <string>Réessayer
 <string>Éliminer : {0}
@@ -104,6 +105,11 @@
 <string>Les objets marqués qui dépassent la<lf>capacité du coffre d'équipement seront<lf>automatiquement vendus. Consultez les<lf>détails pour en savoir plus.
 <string><COLOR preset="TXT_Danger">Impossible de prendre {0} <PLURAL {0} "talisman" "talismans"><lf>car le coffre d'équipement est plein.<lf><lf>Sélectionnez <BOLD>Tout prendre</BOLD> pour vendre<lf>automatiquement les objets marqués.</COLOR>
 <string>Récompenses spéciales
+<string><REF Item_IT_838>
+<string>Vitalité inconnue
+<string>Vitalité ordinaire
+<string>Vitalité très forte
+<string>Œufs de Monstie cassés
 <string>Quête<lf>réussie
 <string>Échec de<lf>la quête
 <string>Retour<lf>à la base
@@ -136,6 +142,7 @@
 <string>Investigation non sauvegardée
 <string>Investigation sauvegardée
 <string>Quêtes Événement
+<string>Quêtes Événement <COLOR preset="TXT_Danger">(hors ligne)</COLOR>
 <string>Quêtes Arène
 <string>Quêtes Défi
 <string>Paramètres
@@ -254,6 +261,7 @@
 <string>Règles des Quêtes Défi libre<lf>- Fusée de détresse automatique : vous ne pouvez pas envoyer de<lf>fusée de détresse.<lf>- Accès à la quête : vous ne pouvez pas rejoindre une quête une fois<lf>qu'elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.
 <string>Règles des Quêtes Arène/Défi<lf>- Le nombre de participants est limité à 2.<lf>- Fusée de détresse automatique : envoi de fusée de détresse impossible.<lf>- Accès à la quête : impossible de rejoindre une quête si elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.<lf>- Les Palicos ne peuvent pas rejoindre la quête.<lf>- Les effets des repas sont <COLOR preset="TXT_Danger">temporairement désactivés durant la quête</COLOR>.<lf>(Ils s'activent à nouveau après la fin de la quête.)<lf>- Les effets comme ceux des objets ou des mélodies <COLOR preset="TXT_Danger">disparaîtront<lf>lors du départ en quête</COLOR>.<lf><lf>Règles des Quêtes Défi libre<lf>- Fusée de détresse automatique : envoi de fusée de détresse impossible.<lf>- Accès à la quête : impossible de rejoindre une quête si elle a commencé.<lf>- Les Chasseurs de soutien rejoignent la quête dès le début.
 <string>Recherche fusée de détresse
+<string>Chercher à nouveau
 <string>Type de quête
 <string>Tout
 <string>Difficulté des quêtes
@@ -296,6 +304,7 @@
 <string>Investigations ({0} sauvegardée(s))
 <string>Investigations ({0}/50 sauvegardée(s))
 <string>Quêtes Événement
+<string>Quêtes Événement <COLOR preset="TXT_Danger">(hors ligne)</COLOR>
 <string>Quêtes Membres du lobby ({0})
 <string>Quêtes Membres reliés
 <string>Quêtes Fusée de détresse ({0})

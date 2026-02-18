@@ -127,9 +127,9 @@
 <string>Sterowanie na trasie tylko dla Seikreta
 <string>Dostosowuje sterowanie dla opuszczania tras,<lf>które są dostępne tylko na Seikrecie.
 <string>Typ 1
-<string>Wychylenie <ICON PAD PL_DUMMY_MOVE> podczas ruchu z maksymalną<lf>prędkością spowoduje opuszczenie trasy tylko<lf>dla Seikreta.
+<string>Użycie <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> podczas ruchu<lf>z maksymalną prędkością opuści trasy<lf>tylko dla Seikreta.
 <string>Typ 2
-<string>Wychylenie <ICON PAD PL_DUMMY_MOVE> i naciśnięcie <ICON PAD PL_INTERACT_ACTION_START> pozwala<lf>opuścić aktualną trasę tylko dla Seikreta<lf>bez względu na prędkość.
+<string>Użycie <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> i naciśnięcie <ICON PL_INTERACT_ACTION_START> pozwoli<lf>opuścić aktualną trasę tylko dla Seikreta<lf>bez względu na prędkość.
 <string>Wyświetlanie paska przedmiotów
 <string>Dostosowuje wyświetlanie przedmiotów<lf>podczas używania paska przedmiotów<lf>w trybie celowania.
 <string>Typ 1
@@ -770,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Dostosowuje jasność ekranu.
 <string>Ustawienia wydajności
-<string>Dostosowuje ustawienia grafiki związane z rozgrywką.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje ustawienia grafiki związane z rozgrywką.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Dostosowuje ustawienia grafiki związane z rozgrywką.
 <string>Nacisk na rozdzielczość
 <string>Skonfiguruj ustawienia tak, by położyć nacisk<lf>na rozdzielczość.<lf>Obraz będzie bardziej szczegółowy.
@@ -980,7 +980,7 @@
 <string>Niska
 <string>Wył.
 <string>Jakość powierzchni
-<string>Ustawia jakość renderowania powierzchni terenu <lf>i obiektów geograficznych w pobliżu łowcy.
+<string>Ustawia jakość renderowania powierzchni terenu<lf>i obiektów geograficznych w pobliżu łowcy.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Wysoka
 <string>Średnia
 <string>Niska
@@ -1005,7 +1005,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>Najniższa
 <string>Odległość renderowania
-<string>Dostosowuje liczbę graczy lub postaci wyświetlanych<lf>w lobby oraz odległość, z jakiej potwory i lokalna<lf>fauna będą pojawiać się w terenie.
+<string>Dostosowuje liczbę wyświetlanych graczy i postaci<lf>oraz odległość wyświetlania fauny i potworów.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Renderuje maksymalną liczbę obiektów<lf>niezależnie od odległości od łowcy.
 <string>Renderuje większość obiektów, łącznie z tymi<lf>daleko od łowcy.
 <string>Renderuje większość obiektów w średniej<lf>odległości od łowcy.
@@ -1097,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Zmienny stopień cieniowania
-<string>Zmniejsza obciążenie efektów i renderowania modułów<lf>cieniujących przez mniej równomierne przetwarzanie<lf>modułów cieniujących pikseli.
+<string>Zmniejsza obciążenie efektów i renderowanie cieni.<lf><COLOR preset="TXT_Accent">(Ta opcja jest dostępna wyłącznie przy wyłączonym<lf>upscalingu).</COLOR>
 <string>Wyłącz
 <string>Zrównoważony
 <string>Wydajność
@@ -1122,7 +1122,7 @@
 <string>Nie wyświetlaj
 <string>Nie wyświetla liczby obrażeń.
 <string>Ostrzeżenie paska zdrowia
-<string>Reguluje opcję, w której pasek zdrowia wyświetla<lf>ostrzeżenie na chwilę przed tym, jak potwory wykonają<lf>szczególnie niszczące ataki.
+<string>Reguluje opcję, w której pasek zdrowia wyświetla<lf>ostrzeżenie po spadku poniżej określonego poziomu<lf>procentowego lub przed niszczycielskim atakiem.
 <string>Wyświetlaj
 <string>Pasek zdrowia wyświetla faliste, czerwone ostrzeżenie, gdy potwór za chwilę przypuści morderczy atak.
 <string>Nie wyświetlaj
@@ -1586,7 +1586,7 @@
 <string><REF RefLanguage_0000_006>
 <string>Chiński mandaryński
 <string>Ustaw. pozyskiwania nadmiar. przedmiotów
-<string>Ustawienia stosowane w sytuacji, gdy pozyskane przedmioty<lf>nie mieszczą się w sakwie na przedmioty<lf>i są tymczasowo schowane w sakwie polowej.
+<string>Ustawienia stosowane w sytuacji, gdy pozyskane przedmioty<lf>nie mieszczą się w sakwie na przedmioty i są tymczasowo<lf>schowane w sakwie polowej.
 <string>Autom. wysyłaj do sakwy polowej
 <string>W momencie pozyskania przedmiotów,<lf>których nie można schować w sakwie<lf>na przedmioty, automatycznie przesyła je do<lf>twojej sakwy polowej.
 <string>Zawsze wybieraj
@@ -1651,8 +1651,8 @@
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
 <string><ICON PL_ITEM_SLIDER_OPEN><ICON PLUS><ICON UI_SLIDER_UP><ICON UI_SLIDER_DOWN>
 <string><ICON PL_PT_CALL><ICON PL_PT_MANUAL_CALL>
-<string>Głośniki urządzenia
-<string>Ustawienia dźwięku zoptymalizowane<lf>dla głośników urządzenia.
+<string>Głośniki konsoli
+<string>Ustawienia dźwięku zoptymalizowane<lf>dla głośników konsoli.
 <string>Typ wyboru z menu kołowego
 <string>Ustawia sterowanie wyborem z menu kołowego.
 <string>Typ 1
@@ -1669,9 +1669,9 @@
 <string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
 <string><ICON PAD UI_DUMMY_ICON_RLEFT><ICON PAD UI_DUMMY_ICON_RRIGHT><ICON PAD UI_DUMMY_ICON_RUP><ICON PAD UI_DUMMY_ICON_RDOWN>
 <string><ICON PAD UI_SHORTCUT_PALLET>
-<string>Sterowanie żyroskopem (tryb przenośny)
-<string>Gdy ta opcja jest włączona, możesz używać żyroskopu<lf>do kontrolowania kamery w trybie przenośnym, a także<lf>skonfigurować bardziej szczegółowe ustawienia.
-<string>Intensywność rumble kontrolera
+<string>Sterowanie ruchem (tryb ręczny)
+<string>Gdy ta opcja jest włączona, możesz używać żyroskopu<lf>do kontrolowania kamery w trybie ręcznym, a także<lf>skonfigurować bardziej szczegółowe ustawienia.
+<string>Intensywność wibracji kontrolera
 <string>Dostosowuje intensywność wibracji kontrolera.
 <string>Słabe
 <string>Średnie (Normalne)
@@ -1680,8 +1680,8 @@
 <string>Dostosowuje gęstość wyświetlanego listowia.
 <string>Wysoka
 <string>Niska
-<string>
-<string>
+<string>Średnia
+<string>Najniższa
 <string>Kolizja listowia i śniegu
 <string>Ustawia, czy efekty będą wyświetlane,<lf>kiedy łowcy lub potwory wejdą w kontakt<lf>z listowiem lub śniegiem.
 <string>Wł.
@@ -1692,39 +1692,51 @@
 <string>Średnia
 <string>Niska
 <string>Jakość animacji
-<string>Dostosowuje jakość różnych animacji<lf>łowców, potworów i Seikretów.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje jakość różnych animacji<lf>łowców, potworów i Seikretów.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Domyślna
 <string>Obniżona
 <string>Jakość efektów
-<string>Dostosowuje jakość efektów.
+<string>Dostosowuje jakość niektórych efektów.
 <string>Wysoka
 <string>Średnia
 <string>Niska
 <string>Mimika postaci
-<string>Dostosowuje, czy włączyć mimikę<lf>i synchronizację ruchu warg<lf>w niektórych scenach.
+<string>Dostosowuje mimikę postaci oraz synchronizację<lf>ruchu ust w niektórych scenach.
 <string>Domyślnie
 <string>Obniżona
 <string>Efekty mokrych powierzchni
-<string>Dostosowuje wyświetlanie efektów wilgoci<lf>w przypadku kontaktu z wodą lub błotem.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje wyświetlanie efektów wilgoci<lf>w przypadku kontaktu z wodą lub błotem.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Włącz
 <string>Wyłącz
 <string>Pomijanie klatek: potwory
-<string>Dostosowuje ustawienia pomijania klatek<lf>w animacjach potworów w niektórych scenach.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje ustawienia pomijania klatek<lf>w animacjach potworów w niektórych scenach.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Wł.
 <string>Wył.
 <string>Pomijanie klatek: przewodnik
-<string>Dostosowuje ustawienia pomijania klatek<lf>w animacjach przewodnika w niektórych scenach.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje ustawienia pomijania klatek<lf>w animacjach przewodnika w niektórych scenach.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Wł.
 <string>Wył.
 <string>Jakość małych potworów
-<string>Dostosowuje jakość renderowania małych potworów<lf>w animacjach, unikalnych cechach i efektach.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Dostosowuje jakość renderowania małych potworów<lf>w animacjach, unikalnych cechach i efektach.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Domyślna
 <string>Obniżona
 <string>Ilość wyświetlanej lokalnej fauny
 <string>Dostosowuje zmniejszenie przetwarzania oraz ilość<lf>lokalnej fauny wyświetlanej z daleka.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).
 <string>Domyślna
 <string>Obniżona
-<string>Jakość ruchu broni i dekoracji
-<string>Dostosowuje jakość renderowania ruchu broni<lf>i dekoracji w tle.<lf><COLOR preset="TXT_Accent">(Można dostosować w opcjach menu tytułowego).</COLOR>
+<string>Jakość ruchu broni i dekoracji w tle
+<string>Dostosowuje jakość renderowania dekoracji w tle.<lf><COLOR preset="TXT_Accent">(Można dostosować tylko w opcjach menu tytułowego).</COLOR>
 <string>Domyślna
 <string>Obniżona
+<string>Ochrona ulubionych przedmiotów
+<string>Ustawia, jak ulubione przedmioty są chronione podczas<lf>wykonywania akcji wymagających użycia przedmiotów.
+<string>Zablokuj
+<string>Zablokuj ulubione przedmioty, żeby nie zostały użyte<lf>w następujących akcjach:<lf>– Zobacz/Sprzedaj wyposażenie<lf>– Wyśw./Sprz. artiańskie mat.<lf>– Rozmontowanie artiańskich broni<lf>– Wiweriańskie stapianie<lf>– Wytapiaj relikty<lf>– Wytapiaj wycenione talizmany<lf>– Wytapiaj materiałami z Gogmy
+<string>Wymagaj potwierdzenia
+<string>Wyświetla okno potwierdzenia przy próbie użycia<lf>ulubionych przedmiotów w następujących akcjach:<lf>– Zobacz/Sprzedaj wyposażenie<lf>– Wyśw./Sprz. artiańskie mat.<lf>– Rozmontowanie artiańskich broni<lf>– Wiweriańskie stapianie<lf>– Wytapiaj relikty<lf>– Wytapiaj wycenione talizmany<lf>– Wytapiaj materiałami z Gogmy
+<string>Ustawienia wyświetlania przewodnika
+<string>Ustawia, czy przewodnik będzie<lf>wyświetlany podczas walki.
+<string>Zawsze wyświetlaj
+<string>Zawsze wyświetla twojego<lf>przewodnika niezależnie od sytuacji.
+<string>Nie wyświetlaj podczas walki
+<string>Ukrywa twojego przewodnika, kiedy walczysz.<lf><COLOR preset="TXT_Accent">(W niektórych scenach wciąż będzie wyświetlany)</COLOR>

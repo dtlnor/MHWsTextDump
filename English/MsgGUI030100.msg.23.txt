@@ -1680,8 +1680,8 @@
 <string>Adjusts the density of displayed foliage.
 <string>High
 <string>Low
-<string>
-<string>
+<string>Medium
+<string>Lowest
 <string>Foliage and Snow Collision
 <string>Adjusts whether effects are displayed when<lf>hunters or monsters come into contact with<lf>foliage or snow.
 <string>On
@@ -1709,11 +1709,11 @@
 <string>Enable
 <string>Disable
 <string>Monster Frame Skip
-<string>Adjusts frame skip settings for monster<lf>animations in some scenes.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)
+<string>Adjusts frame skip settings for monster<lf>animations in some scenes.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>On
 <string>Off
 <string>Handler Frame Skip
-<string>Adjusts frame skip settings for handler<lf>animations in some scenes.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)
+<string>Adjusts frame skip settings for handler<lf>animations in some scenes.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>On
 <string>Off
 <string>Small Monster Quality
@@ -1721,10 +1721,22 @@
 <string>Default
 <string>Reduced
 <string>Endemic Life Display Count
-<string>Adjusts processing reductions and the number<lf>of endemic life rendered.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)
+<string>Adjusts processing reductions and the number<lf>of endemic life rendered.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>Default
 <string>Reduced
 <string>Background Decoration Motion Quality
 <string>Adjusts the rendering quality of background<lf>decorations.<lf><COLOR preset="TXT_Accent">(Adjustable only from Title Options.)</COLOR>
 <string>Default
 <string>Reduced
+<string>Favorited Items Safeguard
+<string>Adjusts how favorited items are<lf>protected when performing actions<lf>that require the use of items.
+<string>Lock
+<string>Locks favorited items so that they<lf>cannot be used in the following:<lf>– View/Sell Equipment<lf>– View/Sell Artian Materials<lf>– Dismantling Artian Weapons<lf>– Wyverian Melding<lf>– Meld Relics<lf>– Meld Appraised Talismans<lf>– Smelt Using Gogma Materials
+<string>Require Confirmation
+<string>Displays a confirmation window<lf>when attempting to use favorited<lf>items in the following:<lf>– View/Sell Equipment<lf>– View/Sell Artian Materials<lf>– Dismantling Artian Weapons<lf>– Wyverian Melding<lf>– Meld Relics<lf>– Meld Appraised Talismans<lf>– Smelt Using Gogma Materials
+<string>Handler Display Settings
+<string>Adjusts whether the handler<lf>is displayed in battle.
+<string>Always Display
+<string>Always displays your handler<lf>regardless of the situation.
+<string>Do Not Display in Battle
+<string>Hides your handler while you are in battle.<lf><COLOR preset="TXT_Accent">(They will still be displayed in specific scenes.)</COLOR>

@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">To zadanie można przyjąć tylko w Wielkim Centrum.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można użyć przy obecnych ustawianiech zadania.</COLOR>
 <string><COLOR preset="TXT_Danger">Nie można ogłosić tego zadania, ponieważ nie jest jeszcze odblokowane.</COLOR>
+<string><COLOR preset="TXT_Danger">Nie możesz obecnie przyjmować zadań dostępnych wyłącznie online.</COLOR>
 <string>Powrót do ekr. tytuł.
 <string>Spróbuj ponownie
 <string>Zgładź: {0}
@@ -104,6 +105,11 @@
 <string>Zaznaczone przedmioty przekraczające<lf>pojemność skrzynki na wyposażenie,<lf>zostaną automatycznie sprzedane.<lf>Więcej informacji w szczegółach.
 <string><COLOR preset="TXT_Danger"> Nie można wziąć {0} <PLURAL {0} "talizmanu" "talizmanów">, ponieważ<lf>skrzynka na wyposażenie jest pełna.<lf><lf>Wybranie opcji <BOLD>Weź wszystko</BOLD> automatycznie<lf>sprzeda zaznaczone przedmioty.</COLOR>
 <string>Nagrody specjalne
+<string><REF Item_IT_838>
+<string>Nieznana moc
+<string>Dość mocne
+<string>Bardzo mocne
+<string>Stłuczone jaja potworka
 <string>Zadanie<lf>ukończone
 <string>Zadanie<lf>nieudane
 <string>Powrót
@@ -136,11 +142,12 @@
 <string>Niezapisane śledztwo
 <string>Zapisane śledztwo
 <string>Zadania z wydarzeń
+<string>Zadania z wydarzeń <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Zadania na Arenie
 <string>Wyzwania
 <string>Ustawienia
 <string>Dom
-<string>Wyświetlaj wszystko
+<string>Wyświetl wszystko
 <string>Zadania członków lobby
 <string>Zadania z flarą alarmową
 <string>Zadania członków grupy
@@ -254,6 +261,7 @@
 <string>Zasady swobodnych wyzwań<lf>– Automatyczna flara alarmowa: nie możesz wystrzelić<lf>flary alarmowej.<lf>– Ustawienia przyjmowania do zadań: po rozpoczęciu<lf>nie można dołączyć do zadania.<lf>– Łowcy wspierający dołączą do zadania na starcie.
 <string>Zasady zadań na Arenie i wyzwań<lf>– Maksymalna liczba uczestników wynosi 2.<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.<lf>– Koleżkoty nie mogą dołączyć do zadania.<lf>– Efekty posiłków zostaną <COLOR preset="TXT_Danger">tymczasowo wyłączone na czas<lf>trwania zadania</COLOR>. (Przywrócone po zakończeniu zadania).<lf>– Efekty statusu, takie jak przedmioty i efekty melodii<lf><COLOR preset="TXT_Danger">znikną po wyjściu</COLOR>.<lf><lf>Zasady swobodnych wyzwań<lf>– Automatyczna flara alarmowa: nie można użyć.<lf>– Ustawienia dołączania do zadań: po rozpoczęciu zadania<lf>nie można do niego dołączyć.<lf>– Łowcy wspierający dołączą do zadania na starcie.
 <string>Szukaj flar alarmowych
+<string>Odśwież
 <string>Typ zadania
 <string>Dowolne
 <string>Trudność zadania
@@ -296,6 +304,7 @@
 <string>Śledztwa (zapisane: {0})
 <string>Śledztwa (zapisane: {0}/50)
 <string>Zadania z wydarzeń
+<string>Zadania z wydarzeń <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Zadania członków lobby ({0})
 <string>Zadania członków grupy
 <string>Zadania z flarą alarmową ({0})

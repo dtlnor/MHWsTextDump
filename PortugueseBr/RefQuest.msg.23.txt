@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">Esta missão não pode ser aceita fora da Grande Central.</COLOR>
 <string><COLOR preset="TXT_Danger">Indisponível durante esta missão.</COLOR>
 <string><COLOR preset="TXT_Danger">Esta missão não pode ser postada porque ainda não foi desbloqueada.</COLOR>
+<string><COLOR preset="TXT_Danger">No momento, você não pode aceitar missões exclusivamente online.</COLOR>
 <string>Voltar à Tela Inicial
 <string>Tentar Novamente
 <string>Abata {0}
@@ -104,6 +105,11 @@
 <string>Itens marcados que ultrapassarem a<lf>capacidade da caixa de equipamentos<lf>serão vendidos automaticamente.<lf>Veja os detalhes para saber mais.
 <string><COLOR preset="TXT_Danger">{0} <PLURAL {0} "talismã não pode ser retirado" "talismãs não podem ser retirados"><lf>porque a caixa de equipamentos está cheia.<lf><lf>Selecionar <BOLD>Pegar Tudo</BOLD> venderá<lf>automaticamente os itens marcados.
 <string>Prêmios Especiais
+<string><REF Item_IT_838>
+<string>Potência Desconhecida
+<string>Bastante Potente
+<string>Altamente Potente
+<string>Ovos de Monstie quebrados
 <string>Missão<lf>Cumprida
 <string>Missão<lf>Fracassada
 <string>Voltando<lf>à<lf>Base
@@ -136,6 +142,7 @@
 <string>Investigação Não Salva
 <string>Investigação Salva
 <string>Missões de Evento
+<string>Missões de Evento <COLOR preset="TXT_Danger">(Offline)</COLOR>
 <string>Missões de Arena
 <string>Missões de Desafio
 <string>Configurações
@@ -254,6 +261,7 @@
 <string>Regras para Missões de Desafio Livre<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.
 <string>Regras para Missões de Arena/Desafio<lf>- Máximo de 2 participantes.<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.<lf>- Amigatos não podem participar da missão.<lf>- Efeitos de refeição serão <COLOR preset="TXT_Danger">desabilitados durante a missão</COLOR> e<lf>serão restaurados quando ela terminar.<lf>- Efeitos de Status, como itens e melodias, <COLOR preset="TXT_Danger">desaparecerão ao<lf>partir para a missão</COLOR>.<lf><lf>Regras para Missões de Desafio Livre<lf>- Sinalizador SOS Auto.: Não é possível enviar Sinalizador SOS.<lf>- Participação: Não é possível entrar em missões após iniciadas.<lf>- Caçadores de Suporte participam desde o começo.
 <string>Busca por Sinalizador SOS
+<string>Atualizar
 <string>Tipo de Missão
 <string>Qualquer
 <string>Dificuldade da Missão
@@ -296,6 +304,7 @@
 <string>Investigações ({0} <PLURAL {0} "salva" "salvas">)
 <string>Investigações ({0}/50 salvas)
 <string>Missões de Evento
+<string>Missões de Evento <COLOR preset="TXT_Danger">(Offline)</COLOR>
 <string>Missões de Membros do Lobby ({0})
 <string>Missões de Membros do Elo
 <string>Missões de Sinalizador SOS ({0})

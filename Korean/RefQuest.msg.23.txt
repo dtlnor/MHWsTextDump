@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">이 퀘스트는 《<Ref RefEnvironment_0001_0001>》에서만 수주할 수 있습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">현재 퀘스트의 설정 상태로는 이용할 수 없습니다.</COLOR>
 <string><COLOR preset="TXT_Danger">이 퀘스트는 아직 잠금 해제되지 않아 수주할 수 없습니다.</COLOR>
+<string><COLOR preset="TXT_Danger">현재 배포 전용 이벤트 퀘스트를 이용할 수 없습니다.</COLOR>
 <string>타이틀로 돌아가기
 <string>재시도하기
 <string>{0} 토벌
@@ -104,6 +105,11 @@
 <string><COLOR preset="TXT_Danger">장비 BOX에 빈 공간이 없어서<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger"> 마크가 붙은 아이템은<lf>자동 매각됩니다.<lf>세부 표시를 확인해 주세요.</COLOR>
 <string><COLOR preset="TXT_Danger">장비 BOX에 빈 공간이 없어서<lf>{0}개는 받을 수 없습니다.<lf><lf>'모두 받기'를 누르면<lf></COLOR><ICON NOT><COLOR preset="TXT_Danger"> 마크가 붙은 아이템은<lf>자동 매각됩니다.</COLOR>
 <string>특별 보수
+<string><REF Item_IT_838>
+<string>???한 생명력
+<string>적당한 생명력
+<string>매우 강한 생명력
+<string>깨진 <REF Item_IT_838>
 <string>퀘스트<lf>완료
 <string>퀘스트<lf>실패
 <string>돌아<lf>가기
@@ -136,6 +142,7 @@
 <string>조사 퀘스트 저장 안 됨
 <string>조사 퀘스트 저장됨
 <string>이벤트 퀘스트
+<string>이벤트 퀘스트<COLOR preset="TXT_Danger">(오프라인)</COLOR>
 <string>격투대회 퀘스트
 <string>챌린지 퀘스트
 <string>설정
@@ -254,6 +261,7 @@
 <string>●프리 챌린지 퀘스트 규칙<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 시부터 참가합니다.
 <string>●격투대회 퀘스트/챌린지 퀘스트 규칙<lf>・최대 참가 인원수: 최대 2명까지<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 때부터 참가합니다.<lf>・동반자 아이루는 퀘스트에 참가하지 않습니다.<lf>・식사 효과는 퀘스트 중 <COLOR preset="TXT_Danger">일시적으로 사라집니다.<lf>※퀘스트 종료 후, 다시 돌아옵니다.</COLOR><lf>・아이템 효과 및 수렵피리의 선율 효과 등<lf>일시적인 스테이터스 효과는 <COLOR preset="TXT_Danger">퀘스트 출발 시 사라집니다.</COLOR><lf>●프리 챌린지 퀘스트 규칙<lf>・구조신호 자동 발신: 구조신호를 발신할 수 없습니다.<lf>・퀘스트 참가 승인: 시작 후 도중 참가는 불가합니다.<lf>・서포트 헌터는 퀘스트 시작 때부터 참가합니다.
 <string>구조신호 검색
+<string>재검색
 <string>퀘스트 종류
 <string>지정 없음
 <string>퀘스트 난이도
@@ -296,6 +304,7 @@
 <string>조사 퀘스트({0}건 저장됨)
 <string>조사 퀘스트({0}/50건 저장됨)
 <string>이벤트 퀘스트
+<string>이벤트 퀘스트<COLOR preset="TXT_Danger">(오프라인)</COLOR>
 <string>로비 멤버 퀘스트({0}건)
 <string>링크 멤버 퀘스트
 <string>구조신호 퀘스트({0}건)

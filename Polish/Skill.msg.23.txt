@@ -125,7 +125,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_80
 <string>Zwiększa zasięg.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_81
-<string>Znacząco zwiększa zasięg.
+<string>Znacznie rozszerza zasięg trafień<lf>krytycznych oraz zwiększa siłę ataków<lf>wykonywanych w obrębie tego zasięgu.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_82
 <string>+5% siły zadawania ataku,<lf>gdy twój pasek ostrości<lf>jest żółty lub niższy.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_83
@@ -167,11 +167,11 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_102
 <string>Zmniejsza efekt ataków<lf>i zmniejsza spadek<lf>wytrzymałości o 30%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_105
-<string>Zmniejsza otrzymywane<lf>obrażenia o 30%.
+<string>Zmniejsza otrzymywane obrażenia<lf>o 10%, a po spełnieniu warunków<lf>dodatkowo o 20%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_106
-<string>Zmniejsza otrzymywane<lf>obrażenia o 50%.
+<string>Zmniejsza otrzymywane obrażenia<lf>o 20%, a po spełnieniu warunków<lf>dodatkowo o 30%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_107
-<string>Zmniejsza otrzymywane<lf>obrażenia o 80%.
+<string>Zmniejsza otrzymywane obrażenia<lf>o 30%, a po spełnieniu warunków<lf>dodatkowo o 50%.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_108
 <string>Atak +5% po aktywacji
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_109
@@ -471,7 +471,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_273
 <string>Zapobiega wybuchopladze.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_274
-<string>Neutralizuje efekty mętnych strumieni<lf>i zapobiega spowolnieniu ruchu<lf>w wodzie lub oleistym mule.
+<string>Neutralizuje efekty mętnych strumieni,<lf>spowolnienia ruchu w wodzie i oleistym mule.<lf>Zmniejsza spowolnienie w oleju smoczej kości.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_275
 <string>Ponadto neutralizuje efekty fal.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_276
@@ -767,9 +767,9 @@
 <string>Przypalacz II
 <string>Zwiększa dodatkowe obrażenia<lf>od ognia po celnym ataku.
 <string>Nieskazitelny pancerz I
-<string>Zmniejsza otrzymywane obrażenia<lf>o 5%, gdy masz pełny poziom zdrowia.
+<string>Zmniejsza otrzymywane obrażenia<lf>o 20%, gdy masz pełny poziom zdrowia.
 <string>Nieskazitelny pancerz II
-<string>Zmniejsza otrzymywane obrażenia<lf>o 10%, gdy masz pełny poziom zdrowia.
+<string>Zmniejsza otrzymywane obrażenia<lf>o 35%, gdy masz pełny poziom zdrowia.
 <string>Wojenny zew I
 <string>Tymczasowo nieznacznie zwiększa siłę ataku<lf>w okolicy po użyciu gestu: <BOLD>Ku zwycięstwu!</BOLD> Ma<lf>duży wpływ na koleżkoty i łowców wspierających.
 <string>Wojenny zew II
@@ -849,7 +849,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_532
 <string>Aktywuje efekt umiejętności.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_533
-<string>Aktywuje efekt umiejętności.<lf>(Nie aktywuje się ponownie<lf>przez określony czas).
+<string>Aktywuje efekt umiejętności.<lf>(Wymaga czasu odnowienia, ale<lf>obrażenia własne nadal występują.)
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_534
 <string>Aktywuje efekt umiejętności.
 <string><COLOR FF0000>#Rejected#</COLOR> Skill_535
@@ -868,6 +868,10 @@
 <string>Zwiększa atak żywiołu, kiedy<lf>duże potwory wpadają w szał.
 <string>Wzajemna wrogość II
 <string>Zwiększa się efekt poziomu I, dając<lf>tarczę chroniącą przed obrażeniami,<lf>która odnawia się po pewnym czasie.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_543
+<string>Aktywuje efekt umiejętności.
+<string><COLOR FF0000>#Rejected#</COLOR> Skill_544
+<string>Aktywuje efekt umiejętności.
 <string>Wzmocnienie wybuchu I
 <string>Wydłuża czas trwania umiejętności<lf>Wybuch i zapewnia +8 ataku, gdy<lf>jest ona aktywna.
 <string>Wzmocnienie wybuchu II
@@ -875,7 +879,7 @@
 <string>Miłośnik białka I
 <string>Tymczasowo przyznaje +15 ataku<lf>po zjedzeniu przedmiotów takich<lf>jak dobrze wysmażony stek.
 <string>Miłośnik białka II
-<string>Tymczasowo przyznaje +25 ataku<lf>po zjedzeniu przedmiotów takich<lf>jak dobrze wysmażony stek.
+<string>Tymczasowo przyznaje +30 ataku<lf>po zjedzeniu przedmiotów takich<lf>jak dobrze wysmażony stek.
 <string>Drugi oddech I
 <string>Zapewnia dodatkowy Pasek<lf>wytrzymałości.
 <string>Drugi oddech II

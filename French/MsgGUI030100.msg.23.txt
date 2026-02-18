@@ -127,9 +127,9 @@
 <string>Quitter un itinéraire sur le Seikret
 <string>Définir les commandes pour quitter un itinéraire<lf>suivi par le Seikret.
 <string>Type 1
-<string>Incliner <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> en vous déplaçant à vitesse maximale<lf>vous permet de quitter l'itinéraire suivi par le Seikret.
+<string>Utiliser <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> en vous déplaçant à vitesse maximale<lf>vous permet de quitter l'itinéraire suivi par le Seikret.
 <string>Type 2
-<string>Incliner <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> et appuyer sur <ICON PL_INTERACT_ACTION_START> vous permet<lf>de quitter l'itinéraire suivi par le Seikret<lf>quelle que soit votre vitesse.
+<string>Utiliser <ICON PL_MOVE_FRONT><ICON PL_MOVE_BACK><ICON PL_MOVE_LEFT><ICON PL_MOVE_RIGHT> et appuyer sur <ICON PL_INTERACT_ACTION_START> vous permet<lf>de quitter l'itinéraire suivi par le Seikret<lf>quelle que soit votre vitesse.
 <string>Affichage barre d'objets
 <string>Configurer l'affichage des objets lorsque<lf>vous utilisez la barre d'objets en mode Visée.
 <string>Type 1
@@ -770,7 +770,7 @@
 <string><PLATMSG MsgGUI030100_03_14_Help>
 <string>Régler la luminosité de l'écran.
 <string>Paramètres de performances
-<string>Ajuster les paramètres liés aux performances<lf>graphiques en jeu.<lf><COLOR preset="TXT_Accent">*Ajustables depuis l'écran titre.</COLOR>
+<string>Ajuster les paramètres liés aux performances<lf>graphiques en jeu.<lf><COLOR preset="TXT_Accent">*Ajustables uniquement depuis l'écran titre.</COLOR>
 <string>Définir les performances graphiques pour le gameplay.
 <string>Priorité : Résolution
 <string>Privilégier la résolution au frame rate. Les<lf>graphismes seront en plus haute définition.
@@ -980,7 +980,7 @@
 <string>Basse
 <string>Non
 <string>Qualité des surfaces
-<string>Régler la qualité de rendu du terrain et des<lf>éléments géographiques près du Chasseur.<lf><COLOR preset="TXT_Accent">*Ajustable depuis l'écran titre.</COLOR>
+<string>Régler la qualité de rendu du terrain et des<lf>éléments géographiques près du Chasseur.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Élevée
 <string>Moyenne
 <string>Basse
@@ -1005,7 +1005,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_18_04
 <string>Très basse
 <string>Distance de rendu
-<string>Modifie le nombre de joueurs ou personnages affichés dans les<lf>lobbys et la distance à laquelle les monstres et la faune locale<lf>apparaissent dans la nature. <COLOR preset="TXT_Accent">(Ajustable depuis l'écran titre.)</COLOR>
+<string>Définir le nombre de joueurs ou personnages affichés dans<lf>les lobbys et la distance d'affichage des monstres et de<lf>la faune locale. <COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Afficher le nombre maximum d'objets,<lf>peu importe la distance du Chasseur.
 <string>Afficher la plupart des objets, y compris ceux<lf>qui se trouvent loin du Chasseur.
 <string>Afficher la plupart des objets assez proches<lf>du Chasseur.
@@ -1097,7 +1097,7 @@
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_03
 <string><COLOR FF0000>#Rejected#</COLOR> MsgGUI030100_07_31_04
 <string>Ombrage à taux variable
-<string>Réduire la charge de rendu des effets et des nuanceurs<lf>en traitant les nuanceurs de pixels de manière moins<lf>uniforme.
+<string>Réduire la charge de rendu des effets et des shaders en<lf>traitant les shaders de pixels de manière moins uniforme.<lf><COLOR preset="TXT_Accent">*Disponible uniquement si l'upscaling n'est pas activé.</COLOR>
 <string>Non
 <string>Équilibré
 <string>Performance
@@ -1680,23 +1680,23 @@
 <string>Ajuster la densité du feuillage affiché.
 <string>Élevée
 <string>Basse
-<string>
-<string>
+<string>Moyenne
+<string>Très basse
 <string>Collision avec le feuillage et la neige
 <string>Afficher ou non des effets quand les chasseurs<lf>ou les monstres entrent en contact avec<lf>le feuillage ou la neige.
 <string>Oui
 <string>Non
 <string>Qualité des effets de terrain
-<string>Régler la qualité des effets affichés<lf>selon les caractéristiques du terrain.
+<string>Ajuster la qualité des effets affichés<lf>selon les caractéristiques du terrain.
 <string>Élevée
 <string>Moyenne
 <string>Basse
 <string>Qualité d'animation
-<string>Régler la qualité de diverses animations utilisées<lf>pour les chasseurs, les monstres et les Seikret.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Ajuster la qualité de diverses animations utilisées<lf>pour les chasseurs, les monstres et les Seikret.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Par défaut
 <string>Réduite
 <string>Qualité des effets
-<string>Régler la qualité de certains effets.
+<string>Ajuster la qualité de certains effets.
 <string>Élevée
 <string>Moyenne
 <string>Basse
@@ -1709,15 +1709,15 @@
 <string>Activer
 <string>Désactiver
 <string>Saut d'images (monstres)
-<string>Régler les paramètres de saut d'images pour les<lf>animations des monstres dans certaines scènes.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Ajuster les paramètres de saut d'images pour les<lf>animations des monstres dans certaines scènes.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Oui
 <string>Non
 <string>Saut d'images (assistants)
-<string>Régler les paramètres de saut d'images pour les<lf>animations des assistants dans certaines scènes.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Ajuster les paramètres de saut d'images pour les<lf>animations des assistants dans certaines scènes.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Oui
 <string>Non
 <string>Qualité des petits monstres
-<string>Régler la qualité de rendu des petits monstres<lf>pour les animations, les caractéristiques et les effets.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Ajuster la qualité de rendu des petits monstres<lf>pour les animations, les caractéristiques et les effets.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Par défaut
 <string>Réduite
 <string>Quantité de faune locale
@@ -1725,6 +1725,18 @@
 <string>Par défaut
 <string>Réduite
 <string>Qualité d'animation des décorations de fond
-<string>Régler la qualité de rendu des décorations<lf>d'arrière-plan.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
+<string>Ajuster la qualité de rendu des décorations<lf>d'arrière-plan.<lf><COLOR preset="TXT_Accent">*Ajustable uniquement depuis l'écran titre.</COLOR>
 <string>Par défaut
-<string>Réduits
+<string>Réduite
+<string>Protection des objets favoris
+<string>Préciser comment les objets favoris sont<lf>protégés lorsque vous réalisez des actions<lf>qui nécessitent des objets.
+<string>Verrouiller
+<string>Verrouille vos objets favoris pour éviter<lf>qu'ils soient utilisés dans les cas suivants :<lf>- Vendre de l'équipement<lf>- Vendre des matériaux Artian<lf>- Démonter des armes Artian<lf>- Fusion wyvérienne<lf>- Fusionner des reliques<lf>- Fusionner des talismans révélés<lf>- Créer avec matériaux Gogma
+<string>Demander confirmation
+<string>Affiche une fenêtre de confirmation lorsque<lf>vous tentez d'utiliser vos objets favoris<lf>dans les cas suivants :<lf>- Vendre de l'équipement<lf>- Vendre des matériaux Artian<lf>- Démonter des armes Artian<lf>- Fusion wyvérienne<lf>- Fusionner des reliques<lf>- Fusionner des talismans révélés<lf>- Créer avec matériaux Gogma
+<string>Affichage de l'assistant(e)
+<string>Afficher ou non l'assistant(e) en combat.
+<string>Toujours afficher
+<string>Affiche toujours votre assistant(e),<lf>quelle que soit la situation.
+<string>Ne pas afficher en combat
+<string>Masque votre assistant(e) en combat.<lf><COLOR preset="TXT_Accent">(Il ou elle apparaîtra quand même pendant certaines scènes.)</COLOR>

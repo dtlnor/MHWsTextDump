@@ -77,6 +77,7 @@
 <string><COLOR preset="TXT_Danger">Esta misión no se puede aceptar fuera del Gran centro.</COLOR>
 <string><COLOR preset="TXT_Danger">No se puede usar durante esta misión.</COLOR>
 <string><COLOR preset="TXT_Danger">No se puede publicar esta misión porque aún no está desbloqueada.</COLOR>
+<string><COLOR preset="TXT_Danger">No puedes aceptar misiones para jugar online en este momento.</COLOR>
 <string>Volver al título
 <string>Reintentar
 <string>Abate a {0}
@@ -104,6 +105,11 @@
 <string>Los objetos marcados que superen<lf>la capacidad del baúl de equipo se<lf>venderán automáticamente. Consulta<lf>los detalles para más información.
 <string><COLOR preset="TXT_Danger">No se puede recolectar {0} <PLURAL {0} "talisman" "talismanes"><lf>porque el baúl de equipo está lleno.<lf><lf>Selecciona <BOLD>Recolectar todo</BOLD> para vender<lf>automáticamente los objetos marcados.</COLOR>
 <string>Recompensas especiales
+<string><REF Item_IT_838>
+<string>Potencia desconocida
+<string>Algo potente
+<string>Bastante potente
+<string>Huevos de Monstie rotos
 <string>Misión<lf>completada
 <string>Misión<lf>fallida
 <string>Volviendo<lf>a la base
@@ -136,6 +142,7 @@
 <string>Investigación no guardada
 <string>Investigación guardada
 <string>Misiones de evento
+<string>Misiones de evento <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Misiones de la Arena
 <string>Misiones de desafío
 <string>Opciones
@@ -254,6 +261,7 @@
 <string>Reglas de misiones de desafío abierto<lf>- No se pueden enviar bengalas de auxilio.<lf>- No se puede acceder a una misión si está empezada.<lf>- Los cazadores de apoyo se unirán a la misión desde el principio.
 <string>Reglas de misiones de desafío/de la Arena<lf>- Máximo dos participantes.<lf>- No se pueden enviar bengalas de auxilio.<lf>- No se puede acceder a una misión si está empezada.<lf>- Los cazadores de apoyo se unirán a la misión desde el principio.<lf>- Los camaradas Felyne no pueden unirse a la misión.<lf>- Los efectos de comida <COLOR preset="TXT_Danger">se desactivarán durante<lf>la misión</COLOR>. (Se restablecerán al terminarla).<lf>- Los efectos de estado, como los de los objetos y los efectos<lf>de melodía, <COLOR preset="TXT_Danger">desaparecerán al inicio</COLOR>.<lf><lf>Reglas de misiones de desafío abierto<lf>- No se pueden enviar bengalas de auxilio.<lf>- No se puede acceder a una misión si está empezada.<lf>- Los cazadores de apoyo se unirán a la misión desde el principio.
 <string>Búsqueda de bengala de aux.
+<string>Actualizar
 <string>Tipo de misión
 <string>Cualquiera
 <string>Dificultad de misión
@@ -296,6 +304,7 @@
 <string>Investigaciones ({0} guardadas)
 <string>Investigaciones ({0}/50 guardadas)
 <string>Misiones de evento
+<string>Misiones de evento <COLOR preset="TXT_Danger">(offline)</COLOR>
 <string>Misiones de miembros de sala ({0})
 <string>Misiones miembros de vínculo
 <string>Misiones de bengalas de auxilio ({0})
